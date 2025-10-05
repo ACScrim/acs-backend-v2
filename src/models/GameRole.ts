@@ -5,4 +5,14 @@ const GameRoleSchema = new mongoose.Schema({
   users: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }]
 });
 
+GameRoleSchema.set('toJSON', {
+  virtuals: true,
+  transform: (_doc, ret: any) => {
+    ret.id = ret._id;
+    delete ret._id;
+    delete ret.__v;
+    return ret;
+  }
+});
+
 export default mongoose.model('GameRole', GameRoleSchema);

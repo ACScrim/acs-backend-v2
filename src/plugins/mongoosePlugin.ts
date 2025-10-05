@@ -7,6 +7,8 @@ import Season from '../models/Season';
 import GameRole from '../models/GameRole';
 import Game from '../models/Game';
 import GameProposal from '../models/GameProposal';
+import PlayerGameLevel from '../models/PlayerGameLevel';
+import Tournament from '../models/Tournament';
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -19,7 +21,9 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     Season: Season,
     GameRole: GameRole,
     Game: Game,
-    GameProposal: GameProposal
+    GameProposal: GameProposal,
+    PlayerGameLevel: PlayerGameLevel,
+    Tournament: Tournament
   });
 
   fastify.addHook('onClose', async () => {

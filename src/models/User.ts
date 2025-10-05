@@ -1,12 +1,23 @@
 import mongoose from "mongoose";
 
-  const UserSchema = new mongoose.Schema({
-    email: { type: String, required: true, unique: true },
-    username: { type: String, required: true },
-    role: { type: String, enum: ['superadmin', 'admin', 'user'], default: 'user' },
-    discordId: { type: String },
-    avatarUrl: { type: String },
-    twitchUsername: { type: String },
-    twitchSubscriptionId: { type: String }
-  });
-  export default mongoose.model('User', UserSchema);
+const UserSchema = new mongoose.Schema({
+  email: { type: String, required: true, unique: true, trim: true, lowercase: true, match: [/^\S+@\S+\.\S+$/, 'invalid email'] },
+  username: { type: String, required: true },
+  role: { type: String, enum: ['superadmin', 'admin', 'user'], default: 'user' },
+  discordId: { type: String },
+  avatarUrl: { type: String },
+  twitchUsername: { type: String },
+  twitchSubscriptionId: { type: String }
+}, { timestamps: true });
+
+UserSchema.set('toJSON', {
+  virtuals: true,
+  transform: (_doc, ret: any) => {
+    ret.id = ret._id;
+    delete ret._id;
+    delete ret.__v;
+    return ret;
+  }
+});
+
+export default mongoose.model('User', UserSchema);
