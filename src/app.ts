@@ -6,6 +6,7 @@ import fastifyJwt from '@fastify/jwt'
 import fastifyCookie from '@fastify/cookie'
 import fastifySession from '@fastify/session'
 import MongoStore from 'connect-mongo'
+import fastifyCors from '@fastify/cors'
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -18,6 +19,21 @@ const app: FastifyPluginAsync<AppOptions> = async (
   opts
 ): Promise<void> => {
   // Place here your custom code!
+
+  // CORS
+  fastify.register(fastifyCors, {
+    origin: (origin, cb) => {
+      const allowedOrigins = (process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173').split(',');
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        // Request from allowed origin
+        cb(null, true)
+      } else {
+        // Request from disallowed origin
+        cb(new Error("Not allowed"), false)
+      }
+    },
+    credentials: true,
+  })
 
   // JWT
   fastify.register(fastifyJwt, {
