@@ -1,11 +1,35 @@
 import 'fastify'
 import type { Model } from 'mongoose'
+import User from '@models/User'
+import Badge from '@models/Badge'
+import Season from '@models/Season'
+import GameRole from '@models/GameRole'
+import Game from '@models/Game'
+import GameProposal from '@models/GameProposal'
+import PlayerGameLevel from '@models/PlayerGameLevel'
+import Tournament from '@models/Tournament'
 
 declare module 'fastify' {
   interface FastifyInstance {
     models: {
-      User: Model<any>
-      // ajouter d'autres modèles ici
+      User: Model<User>
+      Badge: Model<Badge>
+      Season: Model<Season>
+      GameRole: Model<GameRole>
+      Game: Model<Game>
+      GameProposal: Model<GameProposal>
+      PlayerGameLevel: Model<PlayerGameLevel>
+      Tournament: Model<Tournament>
     }
+  }
+
+  interface Session {
+    userId?: string
+    authenticated?: boolean
+    discord_temp_token?: string
+  }
+
+  interface FastifyRequest {
+    user?: User
   }
 }

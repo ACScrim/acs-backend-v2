@@ -9,6 +9,7 @@
       "@models/*": ["./src/models/*"],
       "@utils/*": ["./src/utils/*"],
       "@services/*": ["./src/services/*"],
+      "@app-types/*": ["./src/types/*"],
     }
   },
   "include": ["src/**/*.ts", "migrations/**/*.ts"],
