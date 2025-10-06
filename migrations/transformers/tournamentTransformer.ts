@@ -7,7 +7,7 @@ export function transformTournament(oldTournament: any, mapPlayerIdToUserId: { [
     date: oldTournament.date,
     discordChannelName: oldTournament.discordChannelName,
     players: oldTournament.players.map((player: any) => ({
-      userId: mapPlayerIdToUserId[player?.toString()] || `${player?.toString()}`,
+      userId: mapPlayerIdToUserId[player?.toString()],
       inWaitlist: oldTournament.waitlistPlayers ? oldTournament.waitlistPlayers.map((id: any) => id?.toString()).includes(player?.toString()) : false,
       registrationDate: oldTournament.registrationDates ? oldTournament.registrationDates[player?.toString()] || null : null,
       hasCheckin: oldTournament.checkIns ? oldTournament.checkIns[player?.toString()] || false : false,
@@ -27,7 +27,7 @@ export function transformTournament(oldTournament: any, mapPlayerIdToUserId: { [
     mvpVoteOpen: oldTournament.mvpVoteOpen !== undefined ? oldTournament.mvpVoteOpen : true,
     teams: oldTournament.teams ? oldTournament.teams.map((team: any) => ({
       name: team.name,
-      players: team.players.map((playerId: any) => mapPlayerIdToUserId[playerId?.toString()]),
+      users: team.players.map((playerId: any) => mapPlayerIdToUserId[playerId?.toString()]),
       score: team.score || 0,
       ranking: team.ranking || 0
     })) : [],

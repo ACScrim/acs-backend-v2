@@ -54,6 +54,19 @@ async function migrate() {
     oldPlayers.forEach(player => {
       if (player.userId) {
         mapPlayerIdToUserId[player._id.toString()] = player.userId.toString();
+      } else {
+        console.log(`    ⚠️ Le joueur ${player._id} n'a pas d'userId associé.`);
+        const newId = new mongoose.Types.ObjectId();
+        mapPlayerIdToUserId[player._id.toString()] = newId.toString();
+        oldUsers.push({
+          _id: newId,
+          username: player.username || `user_${player._id}`,
+          email: `notdefined_${newId}@mail.com`,
+          role: 'user',
+          discordId: null,
+          avatarUrl: null,
+          profile: {}
+        });
       }
     });
 

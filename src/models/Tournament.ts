@@ -12,7 +12,7 @@ const TournamentPlayerSchema = new mongoose.Schema({
 
 const TeamSchema = new mongoose.Schema({
   name: { type: String, required: true, trim: true },
-  players: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
+  users: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   score: { type: Number, default: 0 },
   ranking: { type: Number, default: 0 }
 });
