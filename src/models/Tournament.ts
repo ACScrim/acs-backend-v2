@@ -53,4 +53,11 @@ tournamentSchema.set('toJSON', {
   }
 });
 
+tournamentSchema.virtual('game', {
+  ref: 'Game',
+  localField: 'gameId',
+  foreignField: '_id',
+  justOne: true
+})
+
 export default mongoose.model('Tournament', tournamentSchema);
