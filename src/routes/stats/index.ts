@@ -12,11 +12,11 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
       { $count: 'totalUniqueGames' }
     ]);
 
-    res.send({
+    return {
       tournaments,
       users,
       gamesPlayed: uniqueGames[0]?.totalUniqueGames || 0
-    });
+    };
   });
 }
 
