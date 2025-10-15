@@ -7,6 +7,7 @@ import fastifyCookie from '@fastify/cookie'
 import fastifySession from '@fastify/session'
 import MongoStore from 'connect-mongo'
 import fastifyCors from '@fastify/cors'
+import responseFormatter from './plugins/responseFormatter'
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -99,8 +100,6 @@ const app: FastifyPluginAsync<AppOptions> = async (
       prefix: '/api'
     }
   })
-
-  console.log(fastify.printRoutes())
 }
 
 export default app
