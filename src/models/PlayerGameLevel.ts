@@ -1,6 +1,19 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const playerGameLevelSchema = new mongoose.Schema({
+export interface IPlayerGameLevel extends Document {
+  userId: Schema.Types.ObjectId;
+  gameId: Schema.Types.ObjectId;
+  level: 'débutant' | 'intermédiaire' | 'avancé' | 'expert';
+  gameUsername: string;
+  isRanked: boolean;
+  rank?: string;
+  selectedRoles: string[];
+  comment?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const playerGameLevelSchema = new mongoose.Schema<IPlayerGameLevel>({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   gameId: { type: mongoose.Schema.Types.ObjectId, ref: 'Game', required: true },
   level: { type: String, enum: ['débutant', 'intermédiaire', 'avancé', 'expert'], required: true },
@@ -23,4 +36,4 @@ playerGameLevelSchema.set('toJSON', {
   }
 });
 
-export default mongoose.model('PlayerGameLevel', playerGameLevelSchema);
+export default mongoose.model<IPlayerGameLevel>('PlayerGameLevel', playerGameLevelSchema);

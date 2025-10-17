@@ -1,10 +1,18 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const SeasonSchema = new mongoose.Schema({
+export interface ISeason extends Document {
+  number: number;
+  tournaments: Schema.Types.ObjectId[];
+  winner?: Schema.Types.ObjectId;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const SeasonSchema = new mongoose.Schema<ISeason>({
   number: { type: Number, required: true, unique: true },
   tournaments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Tournament' }],
   winner: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
-})
+}, { timestamps: true });
 
 SeasonSchema.set('toJSON', {
   virtuals: true,
@@ -16,4 +24,4 @@ SeasonSchema.set('toJSON', {
   }
 });
 
-export default mongoose.model('Season', SeasonSchema);
+export default mongoose.model<ISeason>('Season', SeasonSchema);

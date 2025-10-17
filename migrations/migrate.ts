@@ -13,6 +13,7 @@ import { transformSeason } from "./transformers/seasonTransformer";
 import Tournament from "@models/Tournament";
 import { transformTournament } from "./transformers/tournamentTransformer";
 import { transformProposal } from "./transformers/proposalTransformer";
+import GameProposal from "@models/GameProposal";
 
 const oldDbUri = process.env.OLD_MONGODB_URI || 'mongodb://localhost:27017/acs';
 const newDbUri = process.env.NEW_MONGODB_URI || 'mongodb://localhost:27017/acs-v2';
@@ -117,8 +118,8 @@ async function migrate() {
     console.log('📝 Migration des propositions...');
     for (const oldProposal of oldProposals) {
       try {
-        const newGameData = transformProposal(oldProposal, mapPlayerIdToUserId);
-        await Game.create(newGameData);
+        const newGameProposalData = transformProposal(oldProposal);
+        await GameProposal.create(newGameProposalData);
       } catch (error: any) {
         console.error(`    ❌ Erreur lors de la migration de la proposition ${oldProposal._id}: ${error.message}`);
       }

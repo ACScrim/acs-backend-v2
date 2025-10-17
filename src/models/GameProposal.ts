@@ -1,11 +1,29 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Query, Schema } from "mongoose";
+
+export interface IGameProposalVote extends Document {
+  user: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface IGameProposal extends Document {
+  name: string;
+  description?: string;
+  imageUrl?: string | null;
+  rawgId?: number | null;
+  proposedBy: Schema.Types.ObjectId;
+  status: 'pending' | 'approved';
+  votes: IGameProposalVote[];
+  createdAt: Date;
+  updatedAt: Date;
+  populateData(): Promise<IGameProposal>;
+}
 
 const GameProposalVoteSchema = new mongoose.Schema({
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-  value: { type: Number, enum: [1, -1] }
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
 }, { timestamps: true });
 
-const gameProposalSchema = new mongoose.Schema({
+const gameProposalSchema = new mongoose.Schema<IGameProposal>({
   name: { type: String, required: true, trim: true },
   description: { type: String, trim: true },
   imageUrl: { type: String, default: null },
@@ -13,18 +31,7 @@ const gameProposalSchema = new mongoose.Schema({
   proposedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   status: { type: String, enum: ['pending', 'approved'], default: 'pending' },
   votes: [GameProposalVoteSchema],
-  totalVotes: { type: Number, default: 0 }
 }, { timestamps: true });
-
-gameProposalSchema.pre('save', function(next) {
-  this.totalVotes = (this.votes || []).reduce((s: number, v: any) => s + v.value, 0);
-  next();
-})
-
-gameProposalSchema.methods.calculateTotalVotes = function() {
-  this.totalVotes = this.votes.reduce((sum: number, vote: any) => sum + vote.value, 0);
-  return this.totalVotes;
-};
 
 gameProposalSchema.set('toJSON', {
   virtuals: true,
@@ -36,4 +43,15 @@ gameProposalSchema.set('toJSON', {
   }
 });
 
-export default mongoose.model('GameProposal', gameProposalSchema);
+gameProposalSchema.methods.populateData = async function() {
+  await this.populate('votes.user', 'username avatarUrl');
+  await this.populate('proposedBy', 'username');
+  return this;
+}
+
+// @ts-ignore
+gameProposalSchema.query.populateData = function(this: Query<any, IGameProposal>) {
+  return this.populate('votes.user', 'username avatarUrl').populate('proposedBy', 'username');
+}
+
+export default mongoose.model<IGameProposal>('GameProposal', gameProposalSchema);

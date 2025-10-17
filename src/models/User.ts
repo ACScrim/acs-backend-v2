@@ -1,6 +1,18 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const UserSchema = new mongoose.Schema({
+export interface IUser extends Document {
+  email: string;
+  username: string;
+  role: 'superadmin' | 'admin' | 'user';
+  discordId?: string;
+  avatarUrl?: string;
+  twitchUsername?: string;
+  twitchSubscriptionId?: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const UserSchema = new mongoose.Schema<IUser>({
   email: { type: String, required: true, unique: true, trim: true, lowercase: true, match: [/^\S+@\S+\.\S+$/, 'invalid email'] },
   username: { type: String, required: true },
   role: { type: String, enum: ['superadmin', 'admin', 'user'], default: 'user' },
@@ -20,4 +32,4 @@ UserSchema.set('toJSON', {
   }
 });
 
-export default mongoose.model('User', UserSchema);
+export default mongoose.model<IUser>('User', UserSchema);

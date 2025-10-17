@@ -1,6 +1,51 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const TournamentPlayerSchema = new mongoose.Schema({
+export interface ITournamentPlayer extends Document {
+  userId: Schema.Types.ObjectId;
+  inWaitlist: boolean;
+  registrationDate: Date;
+  hasCheckin: boolean;
+  isCaster: boolean;
+  isMvp: boolean;
+  mvpVotes: Schema.Types.ObjectId[];
+}
+
+export interface ITeam extends Document {
+  name: string;
+  users: Schema.Types.ObjectId[];
+  score: number;
+  ranking: number;
+}
+
+export interface IClip extends Document {
+  url: string;
+  addedBy?: Schema.Types.ObjectId;
+  addedAt: Date;
+}
+
+export interface ITournament extends Document {
+  name: string;
+  gameId: Schema.Types.ObjectId;
+  date: Date;
+  discordChannelName: string;
+  players: ITournamentPlayer[];
+  playerCap: number;
+  teamPublished: boolean;
+  finished: boolean;
+  description?: string;
+  discordReminderDate?: Date;
+  privateReminderDate?: Date;
+  reminderSent: boolean;
+  reminderSentPlayers: boolean;
+  messageId?: string | null;
+  mvpVoteOpen: boolean;
+  teams: ITeam[];
+  clips: IClip[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   inWaitlist: { type: Boolean, default: false },
   registrationDate: { type: Date, default: Date.now },
@@ -10,20 +55,20 @@ const TournamentPlayerSchema = new mongoose.Schema({
   mvpVotes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }]
 });
 
-const TeamSchema = new mongoose.Schema({
+const TeamSchema = new mongoose.Schema<ITeam>({
   name: { type: String, required: true, trim: true },
   users: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   score: { type: Number, default: 0 },
   ranking: { type: Number, default: 0 }
 });
 
-const ClipSchema = new mongoose.Schema({
+const ClipSchema = new mongoose.Schema<IClip>({
   url: { type: String, required: true },
   addedBy: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   addedAt: { type: Date, default: Date.now }
 });
 
-const tournamentSchema = new mongoose.Schema({
+const tournamentSchema = new mongoose.Schema<ITournament>({
   name: { type: String, required: true, trim: true },
   gameId: { type: mongoose.Schema.Types.ObjectId, ref: 'Game', required: true },
   date: { type: Date, required: true },
@@ -41,7 +86,7 @@ const tournamentSchema = new mongoose.Schema({
   mvpVoteOpen: { type: Boolean, default: true },
   teams: [TeamSchema],
   clips: [ClipSchema]
-});
+}, { timestamps: true });
 
 tournamentSchema.set('toJSON', {
   virtuals: true,
@@ -60,4 +105,4 @@ tournamentSchema.virtual('game', {
   justOne: true
 })
 
-export default mongoose.model('Tournament', tournamentSchema);
+export default mongoose.model<ITournament>('Tournament', tournamentSchema);

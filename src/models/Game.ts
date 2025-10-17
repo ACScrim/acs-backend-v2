@@ -1,6 +1,20 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const gameSchema = new mongoose.Schema({
+export interface IGameRole {
+  name: string;
+  color: string;
+}
+
+export interface IGame extends Document {
+  name: string;
+  description?: string;
+  imageUrl: string;
+  roles: IGameRole[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const gameSchema = new mongoose.Schema<IGame>({
   name: { type: String, required: true, unique: true, trim: true },
   description: { type: String },
   imageUrl: { type: String, default: "" },
@@ -22,4 +36,4 @@ gameSchema.set("toJSON", {
   }
 });
 
-export default mongoose.model("Game", gameSchema);
+export default mongoose.model<IGame>("Game", gameSchema);

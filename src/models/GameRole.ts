@@ -1,9 +1,16 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Schema } from "mongoose";
 
-const GameRoleSchema = new mongoose.Schema({
+export interface IGameRole extends Document {
+  gameId: Schema.Types.ObjectId;
+  users: Schema.Types.ObjectId[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+const GameRoleSchema = new mongoose.Schema<IGameRole>({
   gameId: { type: mongoose.Schema.Types.ObjectId, ref: 'Game', required: true },
   users: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }]
-});
+}, { timestamps: true });
 
 GameRoleSchema.set('toJSON', {
   virtuals: true,
@@ -15,4 +22,4 @@ GameRoleSchema.set('toJSON', {
   }
 });
 
-export default mongoose.model('GameRole', GameRoleSchema);
+export default mongoose.model<IGameRole>('GameRole', GameRoleSchema);

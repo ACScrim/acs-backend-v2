@@ -1,8 +1,12 @@
+import { ISeason } from "@models/Season";
+import { ITeam, ITournament } from "@models/Tournament";
+import { IUser } from "@models/User";
 import { FastifyPluginAsync } from "fastify";
+import { Schema } from "mongoose";
 
 type LeaderboardEntry = {
   ranking: number;
-  user: Record<string, unknown>;
+  user: IUser;
   tournamentsCount: number;
   victoriesCount: number;
   top25Count: number;
@@ -28,12 +32,12 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
       populate: {
         path: 'game'
       }
-    });
+    })
 
     seasons.filter(s => query?.season ? s.number == query.season : true).forEach(s => {
-      s.tournaments.forEach((tournament: any) => {
-        tournament.teams.forEach((team: any) => {
-          team.users.forEach((user: any) => {
+      s.tournaments.forEach((tournament: (ITournament & { teams: (ITeam & { users: IUser[] })[] })) => {
+        tournament.teams.forEach((team: (ITeam & { users: IUser[] })) => {
+          team.users.forEach((user: IUser) => {
             const entry = leaderboard.find(e => e.user === user);
             if (entry) {
               entry.tournamentsCount += 1;

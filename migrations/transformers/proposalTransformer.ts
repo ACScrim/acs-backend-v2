@@ -1,4 +1,4 @@
-export function transformProposal(oldProposal: any, mapPlayerIdToUserId: { [key: string]: string }): any {
+export function transformProposal(oldProposal: any): any {
   return {
     _id: oldProposal._id, // Conserver l'ID original pour la migration
     name: oldProposal.name,
@@ -8,10 +8,10 @@ export function transformProposal(oldProposal: any, mapPlayerIdToUserId: { [key:
     proposedBy: oldProposal.proposedBy,
     status: oldProposal.status || 'pending',
     votes: oldProposal.votes ? oldProposal.votes.map((vote: any) => ({
-      userId: mapPlayerIdToUserId[vote.player.toString()] || null,
-      value: vote.value,
+      user: vote.player.toString() || null,
       _id: vote._id // Conserver l'ID original pour la migration
     })) : [],
-    totalVotes: oldProposal.totalVotes || 0
+    createdAt: oldProposal.createdAt || new Date(),
+    updatedAt: oldProposal.updatedAt || new Date(),
   };
 };
