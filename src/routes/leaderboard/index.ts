@@ -38,7 +38,7 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
             if (entry) {
               entry.tournamentsCount += 1;
               entry.victoriesCount += team.ranking === 1 ? 1 : 0;
-              entry.top25Count += team.ranking <= (tournament.teams.length / 4) ? 1 : 0;
+              entry.top25Count += (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0;
               entry.points = entry.victoriesCount * 3 + entry.top25Count * 1;
             } else {
               leaderboard.push({
@@ -46,8 +46,8 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
                 user: user,
                 tournamentsCount: 1,
                 victoriesCount: team.ranking === 1 ? 1 : 0,
-                top25Count: team.ranking <= (tournament.teams.length / 4) ? 1 : 0,
-                points: team.ranking === 1 ? 3 : team.ranking <= (tournament.teams.length / 4) ? 1 : 0
+                top25Count: (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0,
+                points: team.ranking === 1 ? 3 : (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0
               });
             }
          });
