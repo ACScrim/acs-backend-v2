@@ -16,7 +16,7 @@ export function transformTournament(oldTournament: any, mapPlayerIdToUserId: { [
       mvpVotes: oldTournament.mvps ? oldTournament.mvps.find((vote: any) => vote.player?.toString() === player?.toString())?.votes || [] : []
     })),
     playerCap: oldTournament.playerCap || 0,
-    teamPublished: oldTournament.teamPublished || false,
+    teamsPublished: oldTournament.teamsPublished,
     finished: oldTournament.finished || false,
     description: oldTournament.description || '',
     discordReminderDate: oldTournament.discordReminderDate || null,

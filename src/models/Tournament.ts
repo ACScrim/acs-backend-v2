@@ -30,7 +30,7 @@ export interface ITournament extends Document {
   discordChannelName: string;
   players: ITournamentPlayer[];
   playerCap: number;
-  teamPublished: boolean;
+  teamsPublished: boolean;
   finished: boolean;
   description?: string;
   discordReminderDate?: Date;
@@ -75,7 +75,7 @@ const tournamentSchema = new mongoose.Schema<ITournament>({
   discordChannelName: { type: String, trim: true, required: true },
   players: [TournamentPlayerSchema],
   playerCap: { type: Number, required: true },
-  teamPublished: { type: Boolean, default: false },
+  teamsPublished: { type: Boolean, default: false },
   finished: { type: Boolean, default: false },
   description: { type: String, trim: true },
   discordReminderDate: { type: Date },
