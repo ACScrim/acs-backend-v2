@@ -7,7 +7,7 @@ export function transformTournament(oldTournament: any, mapPlayerIdToUserId: { [
     date: oldTournament.date,
     discordChannelName: oldTournament.discordChannelName,
     players: oldTournament.players.map((player: any) => ({
-      userId: mapPlayerIdToUserId[player?.toString()],
+      user: mapPlayerIdToUserId[player?.toString()],
       inWaitlist: oldTournament.waitlistPlayers ? oldTournament.waitlistPlayers.map((id: any) => id?.toString()).includes(player?.toString()) : false,
       registrationDate: oldTournament.registrationDates ? oldTournament.registrationDates[player?.toString()] || null : null,
       hasCheckin: oldTournament.checkIns ? oldTournament.checkIns[player?.toString()] || false : false,

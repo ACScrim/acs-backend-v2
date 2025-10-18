@@ -1,7 +1,7 @@
 import mongoose, { Document, Schema } from "mongoose";
 
 export interface ITournamentPlayer extends Document {
-  userId: Schema.Types.ObjectId;
+  user: Schema.Types.ObjectId;
   inWaitlist: boolean;
   registrationDate: Date;
   hasCheckin: boolean;
@@ -46,7 +46,7 @@ export interface ITournament extends Document {
 }
 
 const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   inWaitlist: { type: Boolean, default: false },
   registrationDate: { type: Date, default: Date.now },
   hasCheckin: { type: Boolean, default: false },
