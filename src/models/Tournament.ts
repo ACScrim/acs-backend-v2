@@ -88,6 +88,16 @@ const tournamentSchema = new mongoose.Schema<ITournament>({
   clips: [ClipSchema]
 }, { timestamps: true });
 
+TournamentPlayerSchema.set('toJSON', {
+  virtuals: true,
+  transform: (_doc, ret: any) => {
+    ret.id = ret._id;
+    delete ret._id;
+    delete ret.__v;
+    return ret;
+  }
+});
+
 tournamentSchema.set('toJSON', {
   virtuals: true,
   transform: (_doc, ret: any) => {
