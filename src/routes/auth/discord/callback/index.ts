@@ -36,6 +36,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
         }
       });
       const discordUser = await userResponse.json() as DiscordUser;
+      const discordMember = await fastify.discord.users.fetch(discordUser.id);
 
       let user = await fastify.models.User.findOne({ discordId: discordUser.id }).exec();
       if (user) {
@@ -43,8 +44,8 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
           { discordId: discordUser.id },
           {
             email: discordUser.email,
-            username: discordUser.global_name || discordUser.username,
-            avatarUrl: discordUser.avatar ? `https://cdn.discordapp.com/avatars/${discordUser.id}/${discordUser.avatar}.png` : undefined,
+            username: discordMember.displayName || discordMember.globalName || discordUser.username,
+            avatarUrl: discordMember.avatarURL({ size: 64, extension: 'webp' }) || undefined,
           }
         );
       } else {

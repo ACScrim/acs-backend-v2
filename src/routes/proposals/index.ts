@@ -31,6 +31,7 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
 
     await proposal.save();
     await proposal.populateData();
+    // log(req, `User ${user.username} voted on proposal ${proposal.id} with vote: ${vote}`);
     return res.send(proposal);
   })
 }

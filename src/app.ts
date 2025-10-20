@@ -1,18 +1,34 @@
-import { join } from 'node:path'
 import AutoLoad, { AutoloadPluginOptions } from '@fastify/autoload'
-import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
-import oauthPlugin from '@fastify/oauth2'
-import fastifyJwt from '@fastify/jwt'
 import fastifyCookie from '@fastify/cookie'
+import fastifyCors from '@fastify/cors'
+import fastifyJwt from '@fastify/jwt'
+import oauthPlugin from '@fastify/oauth2'
 import fastifySession from '@fastify/session'
 import MongoStore from 'connect-mongo'
-import fastifyCors from '@fastify/cors'
-import responseFormatter from './plugins/responseFormatter'
+import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
+import { join } from 'node:path'
+import { startUpdateDiscordAvatarsCron } from './crons/updateDiscordAvatars'
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
 // Pass --options via CLI arguments in command to enable these options.
 const options: AppOptions = {
+  logger: {
+    level: "silent",
+    file: "logs/backend.log",
+    redact: ['req.headers.authorization', 'req.headers.cookie'],
+    serializers: {
+      res (reply) {
+        return {
+          method: reply.request?.method,
+          url: reply.request?.url,
+          statusCode: reply.statusCode,
+          body: reply.request?.body,
+          headers: typeof reply.getHeaders === 'function' ? reply.getHeaders() : {}
+        }
+      }
+    }
+  }
 }
 
 const app: FastifyPluginAsync<AppOptions> = async (
@@ -20,6 +36,12 @@ const app: FastifyPluginAsync<AppOptions> = async (
   opts
 ): Promise<void> => {
   // Place here your custom code!
+
+  fastify.addHook('onResponse', async (request, reply) => {
+    if (reply.statusCode >= 400) {
+      request.log.level = 'info';
+    }
+  });
 
   // CORS
   fastify.register(fastifyCors, {
@@ -100,7 +122,11 @@ const app: FastifyPluginAsync<AppOptions> = async (
       prefix: '/api'
     }
   })
+
+  // Start cron jobs
+  startUpdateDiscordAvatarsCron(fastify);
 }
 
 export default app
 export { app, options }
+

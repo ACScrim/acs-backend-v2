@@ -8,11 +8,11 @@
   },
   "scripts": {
     "test": "npm run build:ts && tsc -p test/tsconfig.json && c8 node --test -r ts-node/register \"test/**/*.ts\"",
-    "start": "npm run build:ts && fastify start -l info dist/src/app.js",
+    "start": "npm run build:ts && fastify start -c \"config.json\" --options dist/src/app.js",
     "build:ts": "tsc",
     "watch:ts": "tsc -w",
     "dev": "npm run build:ts && concurrently -k -p \"[{name}]\" -n \"TypeScript,App\" -c \"yellow.bold,cyan.bold\" \"npm:watch:ts\" \"npm:dev:start\"",
-    "dev:start": "fastify start --ignore-watch=.ts$ -c \"config.json\" -w -l info -P dist/src/app.js",
+    "dev:start": "fastify start --ignore-watch=.ts$ -c \"config.json\" -w -l fatal -P dist/src/app.js",
     "migrate-db": "ts-node migrations/migrate.ts",
     "pokemon": "ts-node pokemon/import.ts"
   },
@@ -28,10 +28,12 @@
     "@fastify/sensible": "^6.0.0",
     "@fastify/session": "^11.1.0",
     "connect-mongo": "^5.1.0",
+    "discord.js": "^14.23.2",
     "fastify": "^5.0.0",
     "fastify-cli": "^7.4.0",
     "fastify-plugin": "^5.0.0",
-    "mongoose": "^8.19.0"
+    "mongoose": "^8.19.0",
+    "node-cron": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",

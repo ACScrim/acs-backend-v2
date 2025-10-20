@@ -1,7 +1,6 @@
+import { ITournament } from "@models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
-import { ITournament } from "@models/Tournament";
-import { Types, Schema } from "mongoose";
 
 const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/", async (req, res) => {
@@ -16,7 +15,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return { success: false, message: "Tournament not found" };
     } 
     const userId = req.session.userId!;
-    const shouldRegisterInWaitlist = tournament.players.length >= tournament.playerCap;
+    const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : tournament.players.length >= tournament.playerCap;
     tournament.players.push({
       user: userId,
       inWaitlist: shouldRegisterInWaitlist,
