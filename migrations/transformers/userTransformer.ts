@@ -1,4 +1,4 @@
-export function transformUser(oldUser: any) {
+export function transformUser(oldUser: any, createdAt?: string) {
   return {
     email: oldUser.email?.toLowerCase().trim(),
     username: oldUser.username || 'Anonymous',
@@ -9,7 +9,7 @@ export function transformUser(oldUser: any) {
     twitchSubscriptionId: oldUser.profile?.twitchSubscriptionId || null,
     // Garder le même _id si possible
     _id: oldUser._id,
-    createdAt: new Date(),
+    createdAt: createdAt ? new Date(createdAt) : new Date(),
     updatedAt: new Date()
   };
 }
