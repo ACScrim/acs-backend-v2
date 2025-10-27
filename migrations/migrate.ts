@@ -88,7 +88,7 @@ async function migrate() {
       }
     });
 
-    if (await oldUsersCollection.countDocuments() === await newUsersCollection.countDocuments()) {
+    if (await oldPlayersCollection.countDocuments() === await newUsersCollection.countDocuments()) {
       console.log('✅ Les utilisateurs ont déjà été migrés. Passage à l\'étape suivante.\n');
     } else {
       console.log('📝 Migration des utilisateurs...');
