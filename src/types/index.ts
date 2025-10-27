@@ -3,5 +3,5 @@ export interface DiscordUser {
   username: string,
   avatar: string | null,
   global_name: string | null,
-  email: 'aubriduhay@gmail.com',
+  email: string,
 }
