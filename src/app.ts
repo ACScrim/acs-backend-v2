@@ -56,6 +56,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
       }
     },
     credentials: true,
+    methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
   })
 
   // JWT
