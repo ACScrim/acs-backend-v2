@@ -29,7 +29,8 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
     }
 
     const tournamentHistory = await fastify.models.Tournament.find({
-      'players.user': userId
+      'players.user': userId,
+      'finished': true
     }).sort({ date: -1 }).populate('game', 'id name imageUrl').populate({
       path: 'players.user',
       select: 'username avatarUrl'
