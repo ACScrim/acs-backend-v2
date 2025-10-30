@@ -26,12 +26,25 @@ const gameSchema = new mongoose.Schema<IGame>({
   ],
 }, { timestamps: true });
 
+gameSchema.virtual('currentPlayerLevel', {
+  ref: 'PlayerGameLevel',
+  localField: '_id',
+  foreignField: 'gameId',
+  justOne: true,
+  match: function(this: any) {
+    return { userId: this._currentUserId };
+  }
+});
+
 gameSchema.set("toJSON", {
   virtuals: true,
   transform: (_doc, ret: any) => {
     ret.id = ret._id;
     delete ret._id;
     delete ret.__v;
+    
+    // Retourne le niveau ou "débutant" par défaut
+    ret.currentPlayerLevel = ret.currentPlayerLevel?.level || null;
     return ret;
   }
 });

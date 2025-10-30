@@ -4,7 +4,20 @@ import { authGuard } from "../../middleware/authGuard";
 
 const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/", async (req, res) => {
-    return fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy');
+    const tournaments = await fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy');
+
+    tournaments.forEach(tournament => {
+      if (tournament.game) {
+        (tournament.game as any)._currentUserId = req.session.userId;
+      }
+    });
+
+    await fastify.models.Game.populate(
+      tournaments.map(t => t.game),
+      { path: 'currentPlayerLevel' }
+    );
+
+    return tournaments;
   });
 
   fastify.post("/:id/register", { preHandler: [authGuard] }, async (req, res) => {
