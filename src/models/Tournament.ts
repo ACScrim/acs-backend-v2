@@ -112,7 +112,8 @@ tournamentSchema.virtual('game', {
   ref: 'Game',
   localField: 'gameId',
   foreignField: '_id',
-  justOne: true
+  justOne: true,
+  options: { select: 'id name imageUrl' }
 })
 
 export default mongoose.model<ITournament>('Tournament', tournamentSchema);

@@ -36,4 +36,12 @@ playerGameLevelSchema.set('toJSON', {
   }
 });
 
+playerGameLevelSchema.virtual('game', {
+  ref: 'Game',
+  localField: 'gameId',
+  foreignField: '_id',
+  justOne: true,
+  options: { select: 'id name imageUrl' }
+})
+
 export default mongoose.model<IPlayerGameLevel>('PlayerGameLevel', playerGameLevelSchema);
