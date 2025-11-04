@@ -6,7 +6,8 @@ import oauthPlugin from '@fastify/oauth2'
 import fastifySession from '@fastify/session'
 import MongoStore from 'connect-mongo'
 import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
-import { join } from 'node:path'
+import FastifySSEPlugin from 'fastify-sse-v2'
+import path, { join } from 'node:path'
 import { startUpdateDiscordAvatarsCron } from './crons/updateDiscordAvatars'
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
@@ -17,6 +18,15 @@ const options: AppOptions = {
     level: "silent",
     file: "logs/backend.log",
     redact: ['req.headers.authorization', 'req.headers.cookie'],
+    transport: {
+      target: 'pino/file',
+      options: {
+        destination: path.join(__dirname, '../../logs/backend.log'),
+        mkdir: true,
+        fsync: true,  // Force l'écriture synchrone immédiate
+        append: true
+      }
+    },
     serializers: {
       res (reply) {
         return {
@@ -37,11 +47,14 @@ const app: FastifyPluginAsync<AppOptions> = async (
 ): Promise<void> => {
   // Place here your custom code!
 
-  fastify.addHook('onResponse', async (request, reply) => {
-    if (reply.statusCode >= 400) {
-      request.log.level = 'info';
-    }
-  });
+  // fastify.addHook('onResponse', async (request, reply) => {
+  //   if (reply.statusCode >= 400) {
+  //     request.log.level = 'info';
+  //   }
+  // });
+
+  // SSE
+  fastify.register(FastifySSEPlugin);
 
   // CORS
   fastify.register(fastifyCors, {

@@ -1,6 +1,6 @@
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
-import { release } from "os";
+import { log } from "../../utils/utils";
 
 const RAWG_API_KEY = process.env.RAWG_API_KEY;
 const URL_API = 'https://rawg.io/api/games';
@@ -53,7 +53,6 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
 
     await proposal.save();
     await proposal.populateData();
-    // log(req, `User ${user.username} voted on proposal ${proposal.id} with vote: ${vote}`);
     return proposal;
   })
 
@@ -63,6 +62,7 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
 
     const alreadyProposed = await fastify.models.GameProposal.findOne({ rawgId: game.id });
     if (alreadyProposed) {
+      log(req, 'Ce jeu a déjà été proposé.', 'error', 400);
       return res.status(400).send({ error: 'Ce jeu a déjà été proposé.' });
     }
 
