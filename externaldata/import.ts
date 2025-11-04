@@ -4,7 +4,7 @@ import { FileCache } from "./FileCache";
 const URL_API = 'https://pokeapi.co/api/v2';
 const cache = new FileCache('cache', 24);
 
-const finalPokemonFile = './pokemon/pokemon_data.json';
+const finalPokemonFile = './externaldata/pokemon_data.json';
 
 async function importPokemonToJson(): Promise<void> {
   try {
