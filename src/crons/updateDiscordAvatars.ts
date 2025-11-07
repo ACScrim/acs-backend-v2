@@ -2,8 +2,6 @@ import { log } from "../utils/utils";
 import { FastifyInstance } from "fastify";
 
 export const startUpdateDiscordAvatarsCron = async (fastify: FastifyInstance) => {
-  log(fastify, "Starting updateDiscordAvatars cron job...");
-
   // Tous les jours à 3h du matin
   fastify.cron.schedule('0 3 * * *', async () => {
     log(fastify, "Running updateDiscordAvatars cron job...");

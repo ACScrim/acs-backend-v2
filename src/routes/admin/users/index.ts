@@ -14,6 +14,18 @@ const adminUsersRoutes: FastifyPluginAsync = async (fastify) => {
 
     return usersWithReports;
   })
+
+  fastify.patch<{ Params: { userId: string }, Body: { role: "superadmin" | "admin" | "user" } }>("/:userId/role", { preHandler: [] }, async (req, res) => {
+    const { userId } = req.params;
+    const { role } = req.body;
+    const user = await fastify.models.User.findById(userId) as IUser;
+    if (!user) {
+      return res.status(404).send({ message: "User not found" });
+    }
+    user.role = role;
+    await user.save();
+    return res.send({ message: "User role updated successfully" });
+  });
 };
 
 export default adminUsersRoutes;

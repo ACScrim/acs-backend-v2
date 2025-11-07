@@ -7,6 +7,8 @@ export interface ITournamentPlayer extends Document {
   hasCheckin: boolean;
   isCaster: boolean;
   isMvp: boolean;
+  tier?: string;
+  description?: string;
   mvpVotes: Schema.Types.ObjectId[];
 }
 
@@ -52,6 +54,8 @@ const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
   hasCheckin: { type: Boolean, default: false },
   isCaster: { type: Boolean, default: false },
   isMvp: { type: Boolean, default: false },
+  tier: { type: String, default: null },
+  description: { type: String, default: null },
   mvpVotes: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }]
 });
 
