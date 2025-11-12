@@ -10,6 +10,7 @@ export interface IGame extends Document {
   description?: string;
   imageUrl: string;
   roles: IGameRole[];
+  gameProfileLinkRegex?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -24,6 +25,7 @@ const gameSchema = new mongoose.Schema<IGame>({
       color: { type: String, default: "#6B7280" },
     },
   ],
+  gameProfileLinkRegex: { type: String },
 }, { timestamps: true });
 
 gameSchema.virtual('currentPlayerLevel', {

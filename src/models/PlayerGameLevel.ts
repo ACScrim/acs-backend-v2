@@ -9,6 +9,7 @@ export interface IPlayerGameLevel extends Document {
   rank?: string;
   selectedRoles: string[];
   comment?: string;
+  gameProfileLink?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -21,7 +22,8 @@ const playerGameLevelSchema = new mongoose.Schema<IPlayerGameLevel>({
   isRanked: { type: Boolean, default: false },
   rank: { type: String, trim: true },
   selectedRoles: [{ type: String, trim: true }],
-  comment: { type: String, trim: true }
+  comment: { type: String, trim: true },
+  gameProfileLink: { type: String, trim: true }
 }, { timestamps: true });
 
 playerGameLevelSchema.index({ userId: 1, gameId: 1 }, { unique: true });
@@ -41,7 +43,7 @@ playerGameLevelSchema.virtual('game', {
   localField: 'gameId',
   foreignField: '_id',
   justOne: true,
-  options: { select: 'id name imageUrl' }
+  options: { select: 'id name imageUrl gameProfileLinkRegex' }
 })
 
 export default mongoose.model<IPlayerGameLevel>('PlayerGameLevel', playerGameLevelSchema);
