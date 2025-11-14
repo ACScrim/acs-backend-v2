@@ -43,7 +43,15 @@ playerGameLevelSchema.virtual('game', {
   localField: 'gameId',
   foreignField: '_id',
   justOne: true,
-  options: { select: 'id name imageUrl gameProfileLinkRegex' }
-})
+  options: { select: 'id name imageUrl gameProfileLinkRegex roles' }
+});
+
+playerGameLevelSchema.virtual('user', {
+  ref: 'User',
+  localField: 'userId',
+  foreignField: '_id',
+  justOne: true,
+  options: { select: 'id username email discordId avatarUrl' }
+});
 
 export default mongoose.model<IPlayerGameLevel>('PlayerGameLevel', playerGameLevelSchema);
