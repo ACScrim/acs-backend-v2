@@ -36,6 +36,29 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
     }
   };
 
+  /**
+   * Valide le pseudo du joueur
+   */
+  const validateGameUsername = (gameUsername?: string, gameUsernameRegex?: string): boolean => {
+    if (!gameUsernameRegex) {
+      // Si pas de regex, le pseudo n'est pas obligatoire
+      return true;
+    }
+
+    if (!gameUsername) {
+      // Si regex existe, le pseudo devient obligatoire
+      return false;
+    }
+
+    try {
+      // Valider contre la regex
+      const regex = new RegExp(gameUsernameRegex);
+      return regex.test(gameUsername);
+    } catch {
+      return false;
+    }
+  };
+
   fastify.post("/set-level", { preHandler: [authGuard] }, async (req, res) => {
     const body = req.body as { gameId: string; level: string, gameUsername?: string, isRanked?: boolean, rank?: string, comment?: string, selectedRoles?: string[], gameProfileLink?: string };
   
@@ -50,6 +73,13 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
       return res.status(400).send({ 
         error: 'Le lien profil est invalide ou ne respecte pas le format requis pour ce jeu.',
         details: game.gameProfileLinkRegex ? `Format regex: ${game.gameProfileLinkRegex}` : undefined
+      });
+    }
+
+    if (!validateGameUsername(body.gameUsername, game.gameUsernameRegex)) {
+      return res.status(400).send({
+        error: 'Le pseudo en jeu est invalide ou ne respecte pas le format requis pour ce jeu.',
+        details: game.gameUsernameRegex ? `Format regex: ${game.gameUsernameRegex}` : undefined
       });
     }
 

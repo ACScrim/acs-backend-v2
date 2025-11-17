@@ -1,4 +1,4 @@
-import mongoose, { Document, Schema } from "mongoose";
+import mongoose, {Document} from "mongoose";
 
 export interface IGameRole {
   name: string;
@@ -11,6 +11,7 @@ export interface IGame extends Document {
   imageUrl: string;
   roles: IGameRole[];
   gameProfileLinkRegex?: string;
+  gameUsernameRegex?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -26,6 +27,7 @@ const gameSchema = new mongoose.Schema<IGame>({
     },
   ],
   gameProfileLinkRegex: { type: String },
+  gameUsernameRegex: { type: String },
 }, { timestamps: true });
 
 gameSchema.virtual('currentPlayerLevel', {

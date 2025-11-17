@@ -1,14 +1,13 @@
-import { FastifyPluginAsync } from "fastify";
-import { adminGuard } from "../../../middleware/authGuard";
-import { IGame } from "@models/Game";
+import {FastifyPluginAsync} from "fastify";
+import {adminGuard} from "../../../middleware/authGuard";
+import {IGame} from "@models/Game";
 
 const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
    * GET
   *********************************************/
   fastify.get('/', { preHandler: [adminGuard] }, async (request, reply) => {
-    const games = await fastify.models.Game.find().sort({ createdAt: -1 });
-    return games;
+    return await fastify.models.Game.find().sort({createdAt: -1});
   });
 
   fastify.get('/:id', { preHandler: [adminGuard] }, async (request, reply) => {
@@ -75,11 +74,19 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       try {
         new RegExp((request.body as any).gameProfileLinkRegex);
       } catch (error) {
-        return reply.status(400).send({ error: 'La regex fournie est invalide.' });
+        return reply.status(400).send({ error: 'La regex "gameProfileLinkRegex" fournie est invalide.' });
       }
     }
 
-    const updatableFields = ['name', 'description', 'imageUrl', 'roles', 'gameProfileLinkRegex'];
+    if ((request.body as any).gameUsernameRegex) {
+      try {
+        new RegExp((request.body as any).gameUsernameRegex);
+      } catch (error) {
+        return reply.status(400).send({ error: 'La regex "gameUsernameRegex" fournie est invalide.' });
+      }
+    }
+
+    const updatableFields = ['roles', 'gameProfileLinkRegex', 'gameUsernameRegex'];
     updatableFields.forEach(field => {
       if ((request.body as any)[field] !== undefined) {
         (game as any)[field] = (request.body as any)[field];

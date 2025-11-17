@@ -43,7 +43,7 @@ playerGameLevelSchema.virtual('game', {
   localField: 'gameId',
   foreignField: '_id',
   justOne: true,
-  options: { select: 'id name imageUrl gameProfileLinkRegex roles' }
+  options: { select: 'id name imageUrl gameProfileLinkRegex gameUsernameRegex roles' }
 });
 
 playerGameLevelSchema.virtual('user', {

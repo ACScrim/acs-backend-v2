@@ -117,7 +117,7 @@ tournamentSchema.virtual('game', {
   localField: 'gameId',
   foreignField: '_id',
   justOne: true,
-  options: { select: 'id name imageUrl gameProfileLinkRegex' }
+  options: { select: 'id name imageUrl gameProfileLinkRegex gameUsernameRegex roles' }
 })
 
 export default mongoose.model<ITournament>('Tournament', tournamentSchema);
