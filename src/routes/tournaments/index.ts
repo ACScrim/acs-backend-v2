@@ -1,23 +1,39 @@
 import { ITournament } from "@models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
+import {IGame} from "@models/Game";
 
-const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
-  fastify.get("/", async (req, res) => {
-    const tournaments = await fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy');
+const populateCurrentPlayerLevel = async (fastify: any, tournament: ITournament & { game: any }, currentUserId: string) => {
+    if (tournament.game) {
+        (tournament.game as any)._currentUserId = currentUserId;
+        await fastify.models.Game.populate(
+            tournament.game,
+            {path: 'currentPlayerLevel'}
+        );
+        return tournament;
+    }
+}
 
-    tournaments.forEach(tournament => {
-      if (tournament.game) {
-        (tournament.game as any)._currentUserId = req.session.userId;
-      }
+const populateCurrentPlayerLevelArray = async (fastify: any, tournaments: (ITournament & { game: any })[], currentUserId: string) => {
+    tournaments.forEach((tournament: any) => {
+        if (tournament.game) {
+            (tournament.game as any)._currentUserId = currentUserId;
+        }
     });
 
     await fastify.models.Game.populate(
-      tournaments.map(t => t.game),
-      { path: 'currentPlayerLevel' }
+        tournaments.map((t: any) => t.game),
+        {path: 'currentPlayerLevel'}
     );
 
     return tournaments;
+};
+
+const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
+  fastify.get("/", async (req, res) => {
+    const tournaments = await fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy') as (ITournament & { game: IGame })[];
+
+    return populateCurrentPlayerLevelArray(fastify, tournaments, req.session.userId!);
   });
 
   fastify.post("/:id/register", { preHandler: [authGuard] }, async (req, res) => {
@@ -41,7 +57,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
 
     await tournament.save();
 
-    return fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy');
+    const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+    return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
   });
 
   fastify.post("/:id/unregister", { preHandler: [authGuard] }, async (req, res) => {
@@ -53,7 +70,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
     const userId = req.session.userId!;
     tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
     await tournament.save();
-    return fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy');
+    const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+    return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
   });
 
   fastify.post("/:id/clips", { preHandler: [authGuard] }, async (req, res) => {
@@ -73,7 +91,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       addedAt: new Date()
     } as any);
     await tournament.save();
-    return fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy');
+    const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+    return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
   });
 
   fastify.post("/:id/mvps/vote", { preHandler: [authGuard] }, async (req, res) => {
@@ -100,7 +119,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       });
       await tournament.save();
     }
-    return fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy');
+    const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+    return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
   });
 }
 

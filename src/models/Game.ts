@@ -46,7 +46,7 @@ gameSchema.set("toJSON", {
     delete ret.__v;
     
     // Retourne le niveau ou "débutant" par défaut
-    ret.currentPlayerLevel = ret.currentPlayerLevel?.level || null;
+    ret.currentPlayerLevel = ret.currentPlayerLevel || null;
     return ret;
   }
 });
