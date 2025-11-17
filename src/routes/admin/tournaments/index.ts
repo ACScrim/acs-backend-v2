@@ -1,8 +1,11 @@
+import { ITournament, ITournamentPlayer } from "@models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import { adminGuard } from "../../../middleware/authGuard";
-import { ITournament, ITournamentPlayer } from "@models/Tournament";
+import DiscordService from "../../../services/discordService";
+import { log } from "../../../utils/utils";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
+  const discordService = DiscordService.getInstance(fastify);
 
   /*********************************************
    * GET
@@ -34,12 +37,13 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
    * POST
   *********************************************/
 
+  // Création d'un tournoi
   fastify.post('/', { preHandler: [adminGuard] }, async (request, reply) => {
     const tournamentData = request.body as {
       name: string;
       gameId: string;
       date: Date;
-      discordChannelName?: string;
+      discordChannelName: string;
       playerCap?: number;
       description?: string;
       discordReminderDate?: Date;
@@ -52,8 +56,11 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       discordChannelName: tournamentData.discordChannelName || '',
       playerCap: tournamentData.playerCap || 0,
       description: tournamentData.description || '',
-    });
+    }) as ITournament;
     await tournament.save();
+
+    await discordService.sendTournamentCreationMessage(tournament);
+
     return await fastify.models.Tournament.findById(tournament._id)
       .populate('game')
       .populate('teams.users')
