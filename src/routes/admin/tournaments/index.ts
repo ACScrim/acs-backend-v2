@@ -1,8 +1,7 @@
-import { ITournament, ITournamentPlayer } from "@models/Tournament";
-import { FastifyPluginAsync } from "fastify";
-import { adminGuard } from "../../../middleware/authGuard";
+import {ITournament, ITournamentPlayer} from "@models/Tournament";
+import {FastifyPluginAsync} from "fastify";
+import {adminGuard} from "../../../middleware/authGuard";
 import DiscordService from "../../../services/discordService";
-import { log } from "../../../utils/utils";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
   const discordService = DiscordService.getInstance(fastify);
@@ -16,7 +15,6 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       .populate('teams.users')
       .populate('players.user')
       .sort({ createdAt: -1 });
-
     return tournaments;
   });
 
