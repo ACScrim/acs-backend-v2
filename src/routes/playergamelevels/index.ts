@@ -113,6 +113,21 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
 
     return playerGameLevel;
   });
+
+  fastify.delete('/:levelId', { preHandler: [authGuard] }, async (req, res) => {
+    const { levelId } = req.params as { levelId: string };
+    const playerGameLevel = await fastify.models.PlayerGameLevel.findOne({
+      _id: levelId,
+      userId: req.session.userId!
+    });
+
+    if (!playerGameLevel) {
+      return res.status(404).send({ error: 'Niveau de jeu introuvable.' });
+    }
+
+    await playerGameLevel.deleteOne();
+    return { success: true };
+  });
 }
 
 export default playerGameLevelsRoutes;
