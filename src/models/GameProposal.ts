@@ -14,6 +14,7 @@ export interface IGameProposal extends Document {
   proposedBy: Schema.Types.ObjectId;
   status: 'pending' | 'approved';
   votes: IGameProposalVote[];
+  discordMessageId?: string | null;
   createdAt: Date;
   updatedAt: Date;
   populateData(): Promise<IGameProposal>;
@@ -31,6 +32,7 @@ const gameProposalSchema = new mongoose.Schema<IGameProposal>({
   proposedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   status: { type: String, enum: ['pending', 'approved'], default: 'pending' },
   votes: [GameProposalVoteSchema],
+  discordMessageId: { type: String, default: null },
 }, { timestamps: true });
 
 gameProposalSchema.set('toJSON', {

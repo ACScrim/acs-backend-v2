@@ -1,6 +1,6 @@
-import { ITournament } from "@models/Tournament";
-import { ChannelType, Client, ColorResolvable, EmbedBuilder } from "discord.js";
-import { FastifyInstance } from "fastify";
+import {ITournament} from "@models/Tournament";
+import {CategoryChannel, ChannelType, Client, ColorResolvable, EmbedBuilder, EmbedField, TextChannel, ActionRowBuilder, ButtonBuilder, ButtonStyle} from "discord.js";
+import {IGame} from "@models/Game";
 
 interface EmbedData {
   title?: string;
@@ -9,59 +9,256 @@ interface EmbedData {
 }
 
 class DiscordService {
-  private static DISCORD_GUILD_ID = process.env.DISCORD_GUILD_ID || '';
-  private static CATEGORY_PARENT_ACS_ID = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '';
-  private static instance: DiscordService;
-  private fastify: FastifyInstance;
+  private client: Client;
+  private guildId: string;
+  private categoryParentId: string;
+  private archiveCategoryId: string;
 
-  private constructor(fastify: FastifyInstance) {
-    this.fastify = fastify;
+  constructor(client: Client, guildId = process.env.DISCORD_GUILD_ID || '', categoryParentId = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '', archiveCategoryId = process.env.DISCORD_ARCHIVE_CATEGORY_ID || '') {
+    this.client = client;
+    this.guildId = guildId;
+    this.categoryParentId = categoryParentId;
+    this.archiveCategoryId = archiveCategoryId;
   }
 
-  public static getInstance(fastify: FastifyInstance): DiscordService {
-    if (!DiscordService.instance) {
-      DiscordService.instance = new DiscordService(fastify);
-    }
-    return DiscordService.instance;
-  }
-
-  private buildEmbedMessage(data: EmbedData): EmbedBuilder {
-    const embed = new EmbedBuilder()
+  private buildEmbedMessage(data: { title?: string; description?: string; color?: ColorResolvable, fields?: EmbedField[] } = {}) {
+    const embed = new EmbedBuilder();
     embed.setColor(data.color || 0x0099ff);
-    embed.setTitle(data.title || 'Nouveau tournoi créé !')
-    embed.setDescription(data.description || 'Un nouveau tournoi a été créé. Rejoignez le canal dédié pour plus de détails et pour vous inscrire !')
+    embed.setTitle(data.title || 'Nouveau tournoi créé !');
+    embed.setDescription(data.description || 'Un nouveau tournoi a été créé. Rejoignez le canal dédié pour plus de détails et pour vous inscrire !');
+    embed.setFields(data.fields || []);
     embed.setTimestamp(new Date());
+    embed.setFooter({ text: 'ACS' });
     return embed;
   }
 
+  private buildTournamentMessage(tournament: ITournament & { game: IGame }): EmbedBuilder {
+    const fields: EmbedField[] = [
+      { name: 'Jeu', value: tournament.game.name, inline: false },
+      { name: 'Participants', value: tournament.players.map((p: any) => p.user.username).join(', ') || 'Aucun participant pour le moment.', inline: false }
+    ];
+    if (tournament.reminderSent) {
+      fields.push(
+        { name: 'Participants confirmés', value: tournament.players.filter((p: any) => p.hasCheckin).length.toString(), inline: true },
+        { name: 'En attente de check-in', value: tournament.players.filter((p: any) => !p.hasCheckin && !p.inWaitlist).length.toString(), inline: true }
+      )
+    }
+
+    return this.buildEmbedMessage({
+      title: `:pencil: Inscriptions: ${tournament.name}`,
+      description: `Le tournoi aura lieu le **${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}**.\n\nPour vous inscrire, rendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})`,
+      color: "Random",
+      fields
+    });
+  }
+
   private async findOrCreateChannel(channelName: string): Promise<string> {
-    const guild = await this.fastify.discord.guilds.fetch(DiscordService.DISCORD_GUILD_ID);
-    
-    // Chercher le canal par nom
-    let channel = guild.channels.cache.find(
-      (ch: any) => ch.name === channelName && ch.type === ChannelType.GuildText
-    );
-    
-    // Si le canal n'existe pas, le créer
+    const guild = await this.client.guilds.fetch(this.guildId);
+    let channel = guild.channels.cache.find((ch: any) => ch.name === channelName && ch.type === ChannelType.GuildText);
     if (!channel) {
       channel = await guild.channels.create({
         name: channelName,
         type: ChannelType.GuildText,
-        parent: DiscordService.CATEGORY_PARENT_ACS_ID,
+        parent: this.categoryParentId,
         reason: 'Création du channel pour le tournoi ACSV2'
       });
     }
-    
     return channel.id;
   }
 
-  public async sendTournamentCreationMessage(tournament: ITournament): Promise<void> {
+  public async createTournament(tournament: ITournament & { game: IGame }): Promise<string | undefined> {
+    // Find channel
     const channelId = await this.findOrCreateChannel(tournament.discordChannelName);
-    const guild = await this.fastify.discord.guilds.fetch(DiscordService.DISCORD_GUILD_ID);
+    const guild = await this.client.guilds.fetch(this.guildId);
     const channel = guild.channels.cache.get(channelId);
+    let messageId: string | undefined = undefined;
+    // Send message
     if (channel && channel.isTextBased()) {
-      const embedMessage = this.buildEmbedMessage({});
-      await channel.send({ embeds: [embedMessage] });
+      const embedMessage = this.buildTournamentMessage(tournament);
+      const message = await channel.send({ embeds: [embedMessage] });
+      messageId = message.id;
+    }
+    // Create tournament role
+    await guild.roles.create({
+      name: `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`,
+      colors: { primaryColor: "Random" }
+    });
+    return messageId;
+  }
+
+  public async updateTournamentMessage(tournament: ITournament & { game: IGame }): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+    if (channel && channel.isTextBased() && tournament.messageId) {
+      const message = await channel.messages.fetch(tournament.messageId);
+      if (message) {
+        const embedMessage = this.buildTournamentMessage(tournament);
+        await message.edit({ embeds: [embedMessage] });
+      }
+    }
+  }
+
+  public async closeTournament(tournament: ITournament & { game: IGame }): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+    if (channel) {
+      const categoryChannel = guild.channels.cache.get(this.archiveCategoryId);
+        if (categoryChannel && categoryChannel instanceof CategoryChannel && channel instanceof TextChannel) {
+            await channel.setParent(categoryChannel);
+        }
+    }
+    const role = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`)
+    if (role) {
+      await guild.roles.delete(role);
+    }
+  }
+
+  /**
+   * Construit un message embed pour une proposition de jeu
+   */
+  private buildProposalMessage(proposal: any): EmbedBuilder {
+    return this.buildEmbedMessage({
+      title: `🎮 Nouvelle proposition de jeu`,
+      description: `**${proposal.name}**\n\n${proposal.description}`,
+      color: "Random",
+      fields: [
+        { name: '👤 Proposé par', value: proposal.proposedBy?.username || 'Utilisateur inconnu', inline: true },
+        { name: '👍 Votes', value: proposal.votes?.length?.toString() || '0', inline: true }
+      ]
+    });
+  }
+
+  /**
+   * Crée les boutons de vote pour une proposition
+   */
+  private createVoteButtons(proposalId: string): ActionRowBuilder<ButtonBuilder> {
+    const row = new ActionRowBuilder<ButtonBuilder>()
+      .addComponents(
+        new ButtonBuilder()
+          .setCustomId(`proposal_vote_yes_${proposalId}`)
+          .setLabel('👍 Voter pour')
+          .setStyle(ButtonStyle.Success),
+        new ButtonBuilder()
+          .setCustomId(`proposal_vote_no_${proposalId}`)
+          .setLabel('👎 Retirer mon vote')
+          .setStyle(ButtonStyle.Danger)
+      );
+    return row;
+  }
+
+  /**
+   * Envoie une nouvelle proposition de jeu sur le canal Discord
+   */
+  public async postProposal(proposal: any): Promise<string | undefined> {
+    try {
+      const proposalChannelId = process.env.DISCORD_PROPOSAL_CHANNEL_ID;
+      if (!proposalChannelId) {
+        console.error('DISCORD_PROPOSAL_CHANNEL_ID not configured');
+        return undefined;
+      }
+
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.get(proposalChannelId);
+
+      if (!channel || !channel.isTextBased()) {
+        console.error('Proposal channel not found or is not text-based');
+        return undefined;
+      }
+
+      const embedMessage = this.buildProposalMessage(proposal);
+      const buttons = this.createVoteButtons(proposal._id.toString());
+
+      const message = await channel.send({
+        embeds: [embedMessage],
+        components: [buttons]
+      });
+
+      return message.id;
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi de la proposition sur Discord:', error);
+      return undefined;
+    }
+  }
+
+  /**
+   * Met à jour le message d'une proposition sur Discord
+   */
+  public async updateProposalMessage(proposal: any): Promise<void> {
+    try {
+      const proposalChannelId = process.env.DISCORD_PROPOSAL_CHANNEL_ID;
+      if (!proposalChannelId || !proposal.discordMessageId) {
+        return;
+      }
+
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.get(proposalChannelId);
+
+      if (!channel || !channel.isTextBased()) {
+        return;
+      }
+
+      const message = await channel.messages.fetch(proposal.discordMessageId);
+      if (message) {
+        const embedMessage = this.buildProposalMessage(proposal);
+        const buttons = this.createVoteButtons(proposal._id.toString());
+
+        await message.edit({
+          embeds: [embedMessage],
+          components: [buttons]
+        });
+      }
+    } catch (error) {
+      console.error('Erreur lors de la mise à jour du message de proposition:', error);
+    }
+  }
+
+  /**
+   * Envoie un message de rappel du tournoi sur le canal Discord du tournoi
+   */
+  public async sendTournamentReminder(tournament: ITournament & { game: IGame }): Promise<void> {
+    try {
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+
+      if (!channel || !channel.isTextBased()) {
+        console.error('Tournament channel not found');
+        return;
+      }
+      const tournamentRole = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
+      const roleMention = tournamentRole ? `<@&${tournamentRole.id}>` : '';
+      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id}`);
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi du rappel Discord:', error);
+    }
+  }
+
+  /**
+   * Envoie un message privé de rappel à chaque joueur qui n'a pas checkin
+   */
+  public async sendPrivateReminders(tournament: ITournament & { game: IGame }, users: any[]): Promise<void> {
+    try {
+      for (const user of users) {
+        try {
+          const discordUser = await this.client.users.fetch(user.discordId);
+          if (discordUser) {
+            if (process.env.NODE_ENV !== 'production' && discordUser.id !== '286937460628520960') {
+              console.log(`(Dev mode) Rappel tournoi privé pour le tournoi ${tournament.name} envoyé à ${discordUser.username}`);
+            } else if (process.env.NODE_ENV === 'production' || discordUser.id === '286937460628520960') {
+              const reminderMessage = `⏰ **Rappel tournoi : ${tournament.name}**\n\n` +
+                  `Le tournoi **${tournament.game.name}** commence très bientôt !\n\n` +
+                  `📅 **Date :** ${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}\n` +
+                  `📋 N'oublie pas de faire ton check-in avant le début du tournoi !\n\n` +
+                  `[acscrim.fr](https://acsrim.fr/tournaments/${tournament.id})`;
+
+              await discordUser.send(reminderMessage);
+            }
+          }
+        } catch (userError) {
+          console.error(`Erreur lors de l'envoi du message privé à ${user.username}:`, userError);
+        }
+      }
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi des rappels privés:', error);
     }
   }
 }

@@ -10,6 +10,7 @@ import PlayerGameLevel from '@models/PlayerGameLevel'
 import Tournament from '@models/Tournament'
 import Report from '@models/Report'
 import { Client } from 'discord.js';
+import DiscordService from "@services/discordService";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -25,7 +26,8 @@ declare module 'fastify' {
       Report: Model<Report>
     },
     cron: typeof import('node-cron').nodeCron,
-    discord: Client
+    discord: Client,
+    discordService: DiscordService
   }
 
   interface Session {

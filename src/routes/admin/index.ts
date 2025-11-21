@@ -3,8 +3,13 @@ import * as fs from "fs";
 import * as path from "path";
 import * as readline from "readline";
 import { Tail } from "tail";
+import { log } from "../../utils/utils";
 
 const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
+  /**
+   * Récupère et diffuse le flux des logs du backend en temps réel
+   * Envoie les logs existants puis surveille les nouvelles lignes avec SSE (Server-Sent Events)
+   */
   fastify.get("/logs", async (request, reply) => {
     const logPath = path.join(__dirname, "../../../../logs/backend.log");
     
@@ -35,6 +40,7 @@ const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
       });
       
     } catch (error) {
+      log(fastify, `Erreur lors de la récupération des logs : ${error}`, 'error');
       reply.code(404).send({ error: "Log file not found" });
     }
   });

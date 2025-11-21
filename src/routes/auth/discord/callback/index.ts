@@ -1,5 +1,6 @@
 import { DiscordUser } from "@app-types/index";
 import { FastifyPluginAsync } from "fastify";
+import { log } from "../../../../utils/utils";
 
 const DISCORD_SERVER_ID = process.env.DISCORD_SERVER_ID || '1330973733929615420';
 const DISCORD_INVITE_URL = process.env.DISCORD_INVITE_URL || 'https://discord.gg/ksCGJztmBd';
@@ -7,6 +8,11 @@ const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
 
 
 const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
+  /**
+   * Callback OAuth2 Discord - Traite la réponse d'authentification Discord
+   * Crée ou met à jour l'utilisateur, établit la session authentifiée
+   * Si l'utilisateur n'est pas membre du serveur, enregistre le token temporaire
+   */
   fastify.get('/', async (req, res) => {
     try {
       const { code } = req.query as { code?: string };
@@ -63,10 +69,11 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
 
       return res.redirect(`${FRONTEND_URL}`);
     } catch (error) {
-      fastify.log.error(error);
+      log(fastify, `Erreur lors de l'authentification Discord : ${error}`, 'error');
       return res.status(500).send({ error: 'Authentication failed' });
     }
   })
 }
 
 export default authDiscordCallbackRoutes;
+

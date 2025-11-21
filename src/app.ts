@@ -47,11 +47,11 @@ const app: FastifyPluginAsync<AppOptions> = async (
 ): Promise<void> => {
   // Place here your custom code!
 
-  // fastify.addHook('onResponse', async (request, reply) => {
-  //   if (reply.statusCode >= 400) {
-  //     request.log.level = 'info';
-  //   }
-  // });
+  //fastify.addHook('onResponse', async (request, reply) => {
+  //  if (reply.statusCode >= 400) {
+  //    request.log.level = 'info';
+  //  }
+  //});
 
   // SSE
   fastify.register(FastifySSEPlugin);
