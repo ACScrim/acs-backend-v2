@@ -21,8 +21,6 @@ const cronPlugin: FastifyPluginAsync = async (fastify) => {
         finished: false
       }).populate('game').populate('players.user');
 
-      console.log(tournamentsForDiscordReminder);
-
       for (const tournament of tournamentsForDiscordReminder) {
         try {
           await fastify.discordService.sendTournamentReminder(tournament);

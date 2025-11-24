@@ -138,7 +138,34 @@ const app: FastifyPluginAsync<AppOptions> = async (
   })
 
   // Start cron jobs
-  startUpdateDiscordAvatarsCron(fastify);
+
+  fastify.ready()
+    .then(async () => {
+      try {
+        // Post game proposal discord message missing
+        const proposals = await fastify.models.GameProposal
+          .find({
+            $or: [
+              { discordMessageId: { $exists: false } },
+              { discordMessageId: null }
+            ]
+          })
+          .populate('proposedBy');
+
+        for (const proposal of proposals) {
+          try {
+            proposal.discordMessageId = await fastify.discordService.postProposal(proposal);
+            await proposal.save();
+          } catch (err) {
+            fastify.log.error({ err, proposalId: proposal._id }, 'Échec de l\'envoi de la proposition sur Discord');
+          }
+        }
+      } catch (err) {
+        fastify.log.error(err, 'Impossible de récupérer les propositions à poster après le démarrage');
+      }
+
+      await startUpdateDiscordAvatarsCron(fastify);
+    })
 }
 
 export default app

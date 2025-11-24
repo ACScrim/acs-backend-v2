@@ -64,7 +64,7 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           await proposal.save();
           await proposal.populateData();
           await interaction.reply({
-            content: '👎 Votre vote a été retiré',
+            content: '👎 Ton vote a été retiré',
             ephemeral: true
           });
         } else if (voteType === 'yes') {
@@ -78,12 +78,12 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
             await proposal.save();
             await proposal.populateData();
             await interaction.reply({
-              content: '👍 Merci pour votre vote !',
+              content: '👍 Ton vote a été ajouté !',
               ephemeral: true
             });
           } else {
             await interaction.reply({
-              content: '✅ Vous avez déjà voté pour cette proposition',
+              content: '✅ Tu as déjà voté pour cette proposition',
               ephemeral: true
             });
           }

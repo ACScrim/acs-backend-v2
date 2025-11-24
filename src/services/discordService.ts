@@ -21,7 +21,7 @@ class DiscordService {
     this.archiveCategoryId = archiveCategoryId;
   }
 
-  private buildEmbedMessage(data: { title?: string; description?: string; color?: ColorResolvable, fields?: EmbedField[] } = {}) {
+  private buildEmbedMessage(data: { title?: string; description?: string; color?: ColorResolvable, image?: string, fields?: EmbedField[] } = {}) {
     const embed = new EmbedBuilder();
     embed.setColor(data.color || 0x0099ff);
     embed.setTitle(data.title || 'Nouveau tournoi créé !');
@@ -29,6 +29,7 @@ class DiscordService {
     embed.setFields(data.fields || []);
     embed.setTimestamp(new Date());
     embed.setFooter({ text: 'ACS' });
+    if (data.image) embed.setImage(data.image);
     return embed;
   }
 
@@ -121,6 +122,7 @@ class DiscordService {
       title: `🎮 Nouvelle proposition de jeu`,
       description: `**${proposal.name}**\n\n${proposal.description}`,
       color: "Random",
+      image: proposal.imageUrl,
       fields: [
         { name: '👤 Proposé par', value: proposal.proposedBy?.username || 'Utilisateur inconnu', inline: true },
         { name: '👍 Votes', value: proposal.votes?.length?.toString() || '0', inline: true }

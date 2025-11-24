@@ -29,11 +29,11 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
         }
       });
 
-      if (!memberResponse.ok) {
+      if (!memberResponse.ok || memberResponse.status >= 400) {
         req.session.discord_temp_token = access_token;
         await req.session.save();
 
-        return res.redirect(`${FRONTEND_URL}/discord/join?invite=${encodeURIComponent(DISCORD_INVITE_URL)}`);
+        return res.redirect(`${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}`);
       }
 
       const userResponse = await fetch('https://discord.com/api/v10/users/@me', {
@@ -67,7 +67,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       req.session.authenticated = true;
       await req.session.save();
 
-      return res.redirect(`${FRONTEND_URL}`);
+      return res.redirect(`${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}`);
     } catch (error) {
       log(fastify, `Erreur lors de l'authentification Discord : ${error}`, 'error');
       return res.status(500).send({ error: 'Authentication failed' });
