@@ -67,6 +67,30 @@ class DiscordService {
     return channel.id;
   }
 
+  private async deleteMessage(channelId: string, messageId: string): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const channel = guild.channels.cache.get(channelId);
+    if (channel && channel.isTextBased()) {
+      const message = await channel.messages.fetch(messageId);
+      if (message) {
+        await message.delete();
+      }
+    }
+  }
+
+  public async deleteProposalMessage(messageId: string): Promise<void> {
+    try {
+      const proposalChannelId = process.env.DISCORD_PROPOSAL_CHANNEL_ID;
+      if (!proposalChannelId) {
+        console.error('DISCORD_PROPOSAL_CHANNEL_ID not configured');
+        return;
+      }
+      return await this.deleteMessage(proposalChannelId, messageId);
+    } catch (error: unknown) {
+      throw new Error('Erreur lors de la suppression du message de proposition sur Discord: ' + error);
+    }
+  };
+
   public async createTournament(tournament: ITournament & { game: IGame }): Promise<string | undefined> {
     // Find channel
     const channelId = await this.findOrCreateChannel(tournament.discordChannelName);
