@@ -1,5 +1,17 @@
 import {ITournament} from "@models/Tournament";
-import {CategoryChannel, ChannelType, Client, ColorResolvable, EmbedBuilder, EmbedField, TextChannel, ActionRowBuilder, ButtonBuilder, ButtonStyle} from "discord.js";
+import {
+  CategoryChannel,
+  ChannelType,
+  Client,
+  ColorResolvable,
+  EmbedBuilder,
+  EmbedField,
+  TextChannel,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  Collection
+} from "discord.js";
 import {IGame} from "@models/Game";
 
 interface EmbedData {
@@ -53,7 +65,7 @@ class DiscordService {
     });
   }
 
-  private async findOrCreateChannel(channelName: string): Promise<string> {
+  private async findOrCreateTextChannel(channelName: string): Promise<string> {
     const guild = await this.client.guilds.fetch(this.guildId);
     let channel = guild.channels.cache.find((ch: any) => ch.name === channelName && ch.type === ChannelType.GuildText);
     if (!channel) {
@@ -65,6 +77,30 @@ class DiscordService {
       });
     }
     return channel.id;
+  }
+
+  private async findOrCreateVoiceChannel(channelName: string): Promise<string> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    let channel = guild.channels.cache.find((ch: any) => ch.name === channelName && ch.type === ChannelType.GuildVoice);
+    if (!channel) {
+      channel = await guild.channels.create({
+        name: channelName,
+        type: ChannelType.GuildVoice,
+        parent: process.env.DISCORD_VOICE_CATEGORY_ID,
+        reason: 'Création du channel pour le tournoi ACSV2'
+      });
+    }
+    return channel.id;
+  }
+
+  private async deleteAllVoiceChannels(): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const voiceChannels: Collection<string, any> = guild.channels.cache.filter((ch: any) => ch.type === ChannelType.GuildVoice);
+    for (const [channelId, channel] of voiceChannels) {
+      if (channel.members.size === 0) {
+        await channel.delete();
+      }
+    }
   }
 
   private async deleteMessage(channelId: string, messageId: string): Promise<void> {
@@ -93,7 +129,7 @@ class DiscordService {
 
   public async createTournament(tournament: ITournament & { game: IGame }): Promise<string | undefined> {
     // Find channel
-    const channelId = await this.findOrCreateChannel(tournament.discordChannelName);
+    const channelId = await this.findOrCreateTextChannel(tournament.discordChannelName);
     const guild = await this.client.guilds.fetch(this.guildId);
     const channel = guild.channels.cache.get(channelId);
     let messageId: string | undefined = undefined;
@@ -135,6 +171,16 @@ class DiscordService {
     const role = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`)
     if (role) {
       await guild.roles.delete(role);
+    }
+  }
+
+  public async createTournamentVoiceChannels(tournament: ITournament): Promise<void> {
+
+    const channelsNames: string[] = tournament.teams.map(team => team.name);
+    channelsNames.push("Général");
+    await this.deleteAllVoiceChannels();
+    for (const channelName of channelsNames) {
+      await this.findOrCreateVoiceChannel(channelName);
     }
   }
 

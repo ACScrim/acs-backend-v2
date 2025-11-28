@@ -135,6 +135,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const { teamsPublished } = request.body as { teamsPublished: boolean };
       tournament.teamsPublished = teamsPublished;
       await tournament.save();
+      if (teamsPublished) void fastify.discordService.createTournamentVoiceChannels(tournament);
       return await fastify.models.Tournament.findById((request.params as any).id)
         .populate('game')
         .populate('teams.users')
