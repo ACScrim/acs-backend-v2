@@ -1,4 +1,4 @@
-import {ITournament} from "@models/Tournament";
+import {ITournament, ITournamentPlayer} from "@models/Tournament";
 import {
   CategoryChannel,
   ChannelType,
@@ -10,9 +10,10 @@ import {
   ActionRowBuilder,
   ButtonBuilder,
   ButtonStyle,
-  Collection
+  Collection, StringSelectMenuBuilder, MessageActionRowComponentBuilder
 } from "discord.js";
 import {IGame} from "@models/Game";
+import {IUser} from "@models/User";
 
 interface EmbedData {
   title?: string;
@@ -333,5 +334,67 @@ class DiscordService {
       console.error('Erreur lors de l\'envoi des rappels privés:', error);
     }
   }
+
+  public async announceTournamentResults(tournament: ITournament & { game: IGame }): Promise<void> {
+    try {
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+
+      if (!channel || !channel.isTextBased()) {
+        console.error('Tournament channel not found');
+        return;
+      }
+
+      const sortedTeams = [...tournament.teams].sort((a, b) => a.ranking - b.ranking);
+      const podium = sortedTeams.slice(0, 3);
+      const podiumLines = podium
+        .map((team, index) => {
+          const medals = ['🥇', '🥈', '🥉'];
+          const medal = medals[index] || '🏅';
+          return `${medal} **${team.name}** — ${team.score} pts`;
+        })
+        .join('\n');
+
+      const fullRanking = sortedTeams
+        .map(team => `${team.ranking}. ${team.name} — ${team.score} pts`)
+        .join('\n');
+
+      const embed = new EmbedBuilder()
+        .setTitle(`Résultats — ${tournament.name}`)
+        .setDescription(`Le tournoi est terminé, voici le classement !\n\n${podiumLines}`)
+        .addFields({ name: 'Classement complet', value: fullRanking || 'Aucun résultat disponible.' })
+        .setColor('Random')
+        .setTimestamp(new Date());
+
+      await channel.send({
+        content: `🏆 **Le tournoi ${tournament.name} est terminé !**`,
+        embeds: [embed]
+      });
+
+      await channel.send({
+        content: `Le vote MVP est ouvert ! Votez pour le joueur qui vous a le plus impressionné durant ce tournoi sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id}) ou ci-dessous !`,
+        components: [
+          new ActionRowBuilder<MessageActionRowComponentBuilder>()
+          .addComponents(
+            new StringSelectMenuBuilder()
+              .setCustomId(`mvp_vote_${tournament.id}`)
+              .setPlaceholder('Sélectionnez le joueur MVP')
+              .addOptions(
+                tournament.players
+                  .filter(p => !p.inWaitlist)
+                  .map((p: any) => ({
+                    label: `${podium[0].users.find((u: any) => u.username === p.user.username) ? '🏆' : ''} ${p.user.username}`,
+                    description: `Votez pour ${p.user.username} comme MVP`,
+                    value: p.user.id
+                  }))
+              )
+          )
+        ]
+      })
+    } catch (error) {
+      console.error('Erreur lors de l\'annonce des résultats du tournoi sur Discord:', error);
+    }
+  }
 }
 export default DiscordService;
+

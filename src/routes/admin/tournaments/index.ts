@@ -3,6 +3,7 @@ import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "@models/Game";
 import {log} from "../../../utils/utils";
+import {IUser} from "@models/User";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -174,10 +175,6 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
     }
   });
 
-  /*********************************************
-   * PATCH
-  *********************************************/
-
   /**
    * Met à jour les informations d'un joueur spécifique dans un tournoi
    * Permet de modifier le tier, la description et le statut de check-in
@@ -319,6 +316,94 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return reply.status(500).send({ error: 'Erreur lors de la suppression du tournoi' });
     }
   });
+
+  /**
+   * Finalise les résultats d'un tournoi
+   * Valide les scores/classements, annonce sur Discord, et ouvre le vote MVP
+   */
+  fastify.post('/:id/results', { preHandler: [adminGuard] }, async (request, reply) => {
+    try {
+      const tournamentId = (request.params as any).id;
+      const { results, openMvpVote } = request.body as {
+        results: Array<{ teamId?: string; name?: string; score: number; ranking: number }>;
+        openMvpVote?: boolean;
+      };
+
+      if (!Array.isArray(results) || results.length === 0) {
+        return reply.status(400).send({ error: 'Aucun résultat fourni' });
+      }
+
+      const tournament = await fastify.models.Tournament.findById(tournamentId)
+        .populate('game')
+        .populate('teams.users')
+        .populate('players.user') as (ITournament & { game: IGame }) | null;
+
+      if (!tournament) {
+        return reply.notFound();
+      }
+
+      const rankingSet = new Set<number>();
+
+      for (const result of results) {
+        if (result.score < 0) {
+          return reply.status(400).send({ error: 'Le score doit être positif' });
+        }
+        if (result.ranking <= 0 || !Number.isInteger(result.ranking)) {
+          return reply.status(400).send({ error: 'Le classement doit être un entier positif' });
+        }
+        if (rankingSet.has(result.ranking)) {
+          return reply.status(400).send({ error: 'Les classements doivent être uniques' });
+        }
+        rankingSet.add(result.ranking);
+      }
+
+      for (const result of results) {
+        const targetTeam = tournament.teams.find(team => {
+          const teamId = (team.id || (team as any)._id)?.toString();
+          if (result.teamId) {
+            return teamId === result.teamId;
+          }
+          return team.name === result.name;
+        });
+
+        if (!targetTeam) {
+          return reply.status(404).send({ error: `Équipe introuvable pour ${result.name || result.teamId}` });
+        }
+
+        targetTeam.score = result.score;
+        targetTeam.ranking = result.ranking;
+        if (result.name && targetTeam.name !== result.name) {
+          targetTeam.name = result.name;
+        }
+      }
+
+      tournament.finished = true;
+      tournament.mvpVoteOpen = openMvpVote ?? true;
+
+      await tournament.save();
+
+      const updatedTournament = await fastify.models.Tournament.findById(tournamentId)
+        .populate('game')
+        .populate('teams.users')
+        .populate('players.user') as (ITournament & { game: IGame }) | null;
+
+      if (!updatedTournament) {
+        return reply.notFound();
+      }
+
+      try {
+        await fastify.discordService.announceTournamentResults(updatedTournament);
+      } catch (discordError) {
+        log(fastify, `Erreur lors de l'annonce Discord des résultats du tournoi ${tournamentId} : ${discordError}`, 'error');
+      }
+
+      return updatedTournament;
+    } catch (error) {
+      log(fastify, `Erreur lors de la finalisation des résultats du tournoi ${(request.params as any).id} : ${error}`, 'error');
+      return reply.status(500).send({ error: 'Erreur lors de la finalisation des résultats' });
+    }
+  });
 };
 
 export default adminTournamentRoutes;
+

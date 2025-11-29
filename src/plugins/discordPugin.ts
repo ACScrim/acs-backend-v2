@@ -1,7 +1,16 @@
 import { FastifyPluginAsync } from 'fastify';
 import fp from "fastify-plugin";
-import { Client, IntentsBitField, InteractionType } from 'discord.js';
+import {
+  ButtonInteraction,
+  Client,
+  IntentsBitField,
+  InteractionType,
+  SelectMenuInteraction,
+  StringSelectMenuInteraction
+} from 'discord.js';
 import DiscordService from "../services/discordService";
+import {ITournamentPlayer} from "@models/Tournament";
+import {IUser} from "@models/User";
 
 const discordPlugin: FastifyPluginAsync = async (fastify) => {
   const discordClient = new Client({
@@ -25,32 +34,28 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
    */
   discordClient.on('interactionCreate', async (interaction) => {
     try {
-      // Vérifier que c'est une interaction de bouton
-      if (!interaction.isButton()) {
-        return;
-      }
-
       // Vérifier si c'est un bouton de vote pour une proposition
-      if (interaction.customId.startsWith('proposal_vote_')) {
-        const parts = interaction.customId.split('_');
+      if ((interaction as ButtonInteraction).customId.startsWith('proposal_vote_')) {
+        const buttonInteraction = interaction as ButtonInteraction;
+        const parts = buttonInteraction.customId.split('_');
         const voteType = parts[2]; // 'yes' ou 'no'
         const proposalId = parts.slice(3).join('_');
 
         // Récupérer la proposition
         const proposal = await fastify.models.GameProposal.findById(proposalId).populate('proposedBy');
         if (!proposal) {
-          await interaction.reply({ content: '❌ Proposition introuvable', ephemeral: true });
+          await buttonInteraction.reply({ content: '❌ Proposition introuvable', flags: [64] }); // Ephemeral
           return;
         }
 
         // Récupérer l'utilisateur Discord
-        const userId = interaction.user.id;
+        const userId = buttonInteraction.user.id;
         const user = await fastify.models.User.findOne({ discordId: userId });
 
         if (!user) {
-          await interaction.reply({
+          await buttonInteraction.reply({
             content: '❌ Vous devez être connecté sur ACS pour voter',
-            ephemeral: true
+            flags: [64] // Ephemeral
           });
           return;
         }
@@ -63,9 +68,9 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           proposal.votes.splice(existingVoteIndex, 1);
           await proposal.save();
           await proposal.populateData();
-          await interaction.reply({
+          await buttonInteraction.reply({
             content: '👎 Ton vote a été retiré',
-            ephemeral: true
+            flags: [64] // Ephemeral
           });
         } else if (voteType === 'yes') {
           // Ajouter le vote s'il n'existe pas
@@ -77,14 +82,14 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
             });
             await proposal.save();
             await proposal.populateData();
-            await interaction.reply({
+            await buttonInteraction.reply({
               content: '👍 Ton vote a été ajouté !',
-              ephemeral: true
+              flags: [64] // Ephemeral
             });
           } else {
-            await interaction.reply({
+            await buttonInteraction.reply({
               content: '✅ Tu as déjà voté pour cette proposition',
-              ephemeral: true
+              flags: [64] // Ephemeral
             });
           }
         }
@@ -95,6 +100,57 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
         } catch (updateError) {
           console.error('Erreur lors de la mise à jour du message:', updateError);
         }
+      }
+      if ((interaction as StringSelectMenuInteraction).customId.startsWith('mvp_vote_')) {
+        const selectMenuInteraction = interaction as StringSelectMenuInteraction;
+        const parts = selectMenuInteraction.customId.split('_');
+        const tournamentId = parts.pop();
+        const playerId = selectMenuInteraction.values[0];
+
+        // Récupérer le tournoi
+        const tournament = await fastify.models.Tournament.findById(tournamentId).populate('players.user');
+        if (!tournament) {
+          await selectMenuInteraction.reply({ content: '❌ Tournoi introuvable', flags: [64] }); // Ephemeral
+          return;
+        }
+
+        // Récupérer l'utilisateur Discord
+        const userId = selectMenuInteraction.user.id;
+        const user = await fastify.models.User.findOne({ discordId: userId });
+
+        if (!user) {
+          await selectMenuInteraction.reply({
+            content: '❌ Vous devez être connecté sur ACS pour voter',
+            flags: [64] // Ephemeral
+          });
+          return;
+        }
+
+        if (!tournament.players.filter((p: any) => !p.inWaitlist).find((p: any) => p.user._id.toString() === user._id.toString())) {
+          await selectMenuInteraction.reply({
+            content: '❌ Vous devez être un participant du tournoi pour voter',
+            flags: [64] // Ephemeral
+          });
+          return;
+        }
+
+        // Traiter le vote MVP
+        tournament.players.forEach((player: ITournamentPlayer & { user: IUser }) => {
+          if (player.user.id === playerId) {
+            if (!player.mvpVotes.includes(user.id)) {
+              player.mvpVotes.push(user.id);
+            }
+          } else {
+            player.mvpVotes = player.mvpVotes.filter(voterId => voterId.toString() !== user.id);
+          }
+        });
+
+        await tournament.save();
+
+        await selectMenuInteraction.reply({
+          content: '✅ Ton vote pour le MVP a été enregistré !',
+          flags: [64] // Ephemeral
+        });
       }
     } catch (error) {
       console.error('Erreur lors du traitement de l\'interaction Discord:', error);
