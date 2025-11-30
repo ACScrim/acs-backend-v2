@@ -1,9 +1,9 @@
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
-import { IUser } from "@models/User";
-import { ITournament } from "@models/Tournament";
-import { IGame } from "@models/Game";
-import { ISeason } from "@models/Season";
+import { IUser } from "../../models/User";
+import { ITournament } from "../../models/Tournament";
+import { IGame } from "../../models/Game";
+import { ISeason } from "../../models/Season";
 import { log } from "../../utils/utils";
 
 const usersRoute: FastifyPluginAsync = async (fastify) => {

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-08-18",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Gastronomie",
+      "nom": "Produits belges",
+      "slogan": "La qualité avant tout"
+    },
+    "en": {
+      "catégorie": "Gastronomy",
+      "nom": "Belgian products",
+      "slogan": "Qualität vor allem"
+    },
+    "es": {
+      "catégorie": "Gastronomía",
+      "nom": "Productos belgas",
+      "slogan": "Calidad ante todo"
+    },
+    "it": {
+      "catégorie": "Gastronomia",
+      "nom": "Prodotti belgi",
+      "slogan": "La qualità prima di tutto"
+    },
+    "de": {
+      "catégorie": "Gastronomie",
+      "nom": "Belgische Produkte",
+      "slogan": "Qualität vor allem"
+    },
+    "nl": {
+      "catégorie": "Gastronomie",
+      "nom": "Belgische producten",
+      "slogan": "Kwaliteit boven alles"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle friandise chocolatée est emballée dans un papier sulfurisé brun foncé ?",
+        "propositions": [
+          "Chokotoff",
+          "Pastador",
+          "Kwatta",
+          "Cha-Cha"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Produit dans l'usine de Hal (Belgique) depuis sa création, il devait dès 2012 être produit en Lituanie mais restera en Belgique."
+      },
+      {
+        "id": 2,
+        "question": "Quelle entreprise belge produit des sauces, mayonnaises et moutardes ?",
+        "propositions": [
+          "Rustica",
+          "Bénédicta",
+          "Devos Lemmens",
+          "Hellmann"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "Aussi dénommée DL, lam arque fait partie du groupe Continental Foods et son site de production se situe à Puurs."
+      },
+      {
+        "id": 3,
+        "question": "Quelle marque de bière est historiquement la grande rivale de Jupiler ?",
+        "propositions": [
+          "Pelforth",
+          "Heineken",
+          "Vedett",
+          "Stella Artois"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "En 1987, la brasserie Den Hoorn (la Corne) fusionne avec la brasserie Piedboeuf pour former le groupe Interbrew."
+      },
+      {
+        "id": 4,
+        "question": "Quelle friandise belge comporte des couches de biscuits et de caramel ?",
+        "propositions": [
+          "Cuberdon",
+          "Sugus",
+          "Napoléon",
+          "Cha-Cha"
+        ],
+        "réponse": "Cha-Cha",
+        "anecdote": "Commercialisée par la biscuiterie LU, le Cha-Cha a été inventé par Paul Parein en 1958, alors directeur de la biscuiterie Parein."
+      },
+      {
+        "id": 5,
+        "question": "Quel câblo-distributeur belge est né d'une association économique ?",
+        "propositions": [
+          "Voo",
+          "Base",
+          "Orange",
+          "Mobistar"
+        ],
+        "réponse": "Voo",
+        "anecdote": "Le VOOcorder ne permet pas de conserver les enregistrements en cas de problème, aucun backup n'étant possible."
+      },
+      {
+        "id": 6,
+        "question": "Quelle chaîne de supermarchés belge propose ses produits sous la marque Boni ?",
+        "propositions": [
+          "Colruyt",
+          "Delhaize",
+          "Smatch",
+          "Aldi"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "Dans la plupart de ses magasins, l'enseigne Colruyt présente un système de caisses très différent de celui des autres magasins."
+      },
+      {
+        "id": 7,
+        "question": "Quel fabricant belge propose un chocolat riche en beurre de cacao ?",
+        "propositions": [
+          "Diana",
+          "Suchard",
+          "Callebaut",
+          "Toblerone"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "De nombreux professionnels qui utilisent les chocolats de couverture Callebaut apprécient particulièrement leur maniabilité."
+      },
+      {
+        "id": 8,
+        "question": "Quelle marque de café d'origine liégeoise présente un animal comme logo ?",
+        "propositions": [
+          "Nescafé",
+          "Carte noire",
+          "Chat Noir",
+          "Plantation"
+        ],
+        "réponse": "Chat Noir",
+        "anecdote": "On doit le logo de la marque Chat Noir au graphiste français Cassandre (1901-1968), pseudonyme d'Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "Quelle marque confectionne quotidiennement un million de pralines à Bruxelles ?",
+        "propositions": [
+          "Guylian",
+          "Godiva",
+          "Leonidas",
+          "Neuhaus"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "La marque comptait, en 2012, 1 250 points de vente (dont 350 magasins en Belgique et 340 en France), et ce dans 50 pays."
+      },
+      {
+        "id": 10,
+        "question": "Quelle société belge de production de chicorée a été absorbée par Leroux ?",
+        "propositions": [
+          "Plantation",
+          "Pacha",
+          "Lima",
+          "Favrichon"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "La crise des années trente n'entamera pas le succès de la société : le café est trop cher et la chicorée fait recette."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle biscuiterie brevetée, créée en 1885, porte le nom de son fondateur ?",
+        "propositions": [
+          "Du Moulin",
+          "Le Dréan",
+          "Jules Destrooper",
+          "Marioni"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "Avec ses 160 employés, la biscuiterie Jules Destrooper génère un chiffre d'affaires annuel d'environ 36 millions d'euros."
+      },
+      {
+        "id": 12,
+        "question": "Quelle pâte à tartiner, commercialisée par Heinz, est belge depuis 1972 ?",
+        "propositions": [
+          "Karéléa",
+          "Kwatta",
+          "Reese",
+          "Suprema"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "Cette marque a été fondée en 1877 par J.G. van Emden et P. de Bondt au Suriname, en Amérique du Sud."
+      },
+      {
+        "id": 13,
+        "question": "Quelle marque belge propose friteuses, gaufriers et appareils à croque-monsieur ?",
+        "propositions": [
+          "Moulinex",
+          "Continental",
+          "Seb",
+          "Frifri"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Fondée par Denis Dalcq en 1985, la marque Frifri, ayant son siège social à Courcelles, est réputée pour la qualité de ses produits."
+      },
+      {
+        "id": 14,
+        "question": "Quel fabricant belge est surtout connu pour ses chocolats en coquillage ?",
+        "propositions": [
+          "Lindt",
+          "Delisse",
+          "Cailler",
+          "Guylian"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "En 2008, la compagnie sud-coréenne Lotte Confectionery acheta la compagnie Guylian pour 164 millions de dollars."
+      },
+      {
+        "id": 15,
+        "question": "Quelle fut la première entreprise wallonne à ouvrir un site de vente en ligne ?",
+        "propositions": [
+          "Conpalux",
+          "Marcassou",
+          "Hartman",
+          "Etilux"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "Reprise en 1972 par son actuel administrateur, Didier Bronne, la société se spécialisait alors dans la fabrication d'étiquettes."
+      },
+      {
+        "id": 16,
+        "question": "Quelle marque belge propose des chocolats avec un haut standard de qualité ?",
+        "propositions": [
+          "Bonneterre",
+          "Wonka",
+          "Poulain",
+          "Galler"
+        ],
+        "réponse": "Galler",
+        "anecdote": "L'entreprise propose une variété de plusieurs dizaines de bâtons de chocolats de 70 grammes noir, au lait ou blanc."
+      },
+      {
+        "id": 17,
+        "question": "Quelle entreprise produit des extraits de racines de chicorée et de graines de pois ?",
+        "propositions": [
+          "Pacha",
+          "Lutosa",
+          "Spadel",
+          "Cosucra"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Ayant totalement abandonné la production de sucre en 2003, ses produits servent d'additifs à l'industrie agro-alimentaire."
+      },
+      {
+        "id": 18,
+        "question": "Quel fromage d'abbaye à pâte mi-dure et à croûte orangée est vendu depuis 1950 ?",
+        "propositions": [
+          "Damier",
+          "Maredsous",
+          "Rubens",
+          "Troufleur"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "Le degré d'humidité de 95 % favorise le développement de la flore responsable de la transformation du caillé en fromage."
+      },
+      {
+        "id": 19,
+        "question": "Quel concurrent du Nutella a vu sa production s'arrêter en 1990 ?",
+        "propositions": [
+          "Salidou",
+          "Cenovis",
+          "Pastador",
+          "Gianduia"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Quelques sites de militantisme faisant appel au retour de la marque, elle reviendra en grande surface en France en 2013."
+      },
+      {
+        "id": 20,
+        "question": "Quelle bière belge a la particularité d'être servie dans un verre à cocher ?",
+        "propositions": [
+          "Charles-Quint",
+          "Maredsous",
+          "Kwak",
+          "Omer"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "Le nom de la bière proviendrait du bruit que l'on entend quand on boit son verre cul-sec, laissant entendre le fameux kwak."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle entreprise belge est spécialisée dans les produits ménagers écologiques ?",
+        "propositions": [
+          "Labello",
+          "Ecover",
+          "Elmex",
+          "Protex"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "En 2012, Ecover acquiert Method, un acteur dans le secteur du nettoyage écologique sur le continent américain."
+      },
+      {
+        "id": 22,
+        "question": "Quelle marque de bière belge de type lambic fut créée par Théophile Vossen ?",
+        "propositions": [
+          "Mort Subite",
+          "Oud Berseel",
+          "Lindemans",
+          "Tilquin"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "Le nom Mort Subite provient d'un jeu de dés ou de cartes, le pitjesbak, joué dans un bistrot bruxellois appelé La Cour Royale."
+      },
+      {
+        "id": 23,
+        "question": "Quelle moutarde est commercialisée par l'entreprise belge Bister ?",
+        "propositions": [
+          "L'Impériale",
+          "Maille",
+          "Pommery",
+          "Naturalia"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "L'entreprise Bister fut créée en 1926 par Franz Bister, à l'époque spécialisée dans la torréfaction de chicorée."
+      },
+      {
+        "id": 24,
+        "question": "Quelle compagnie de manufacture de pneumatiques belge fut fondée en 1877 ?",
+        "propositions": [
+          "Debica",
+          "Englebert",
+          "Hankook",
+          "Maxxis"
+        ],
+        "réponse": "Englebert",
+        "anecdote": "Les pneumatiques Englebert ont pris part à 61 Grands Prix de Formule 1 de 1950 à 1958 et remporté huit victoires avec Ferrari."
+      },
+      {
+        "id": 25,
+        "question": "Quelle bière brassée à Ninove est historiquement liée à l'abbaye de Westmalle ?",
+        "propositions": [
+          "Tongerlo",
+          "Pater Lieven",
+          "Bornem",
+          "Witkap Pater"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "La bière Witkap Pater fut brassée dès 1929 par Hendrik Verlinden, le maître brasseur de la brasserie De Drie Linden à Brasschaat."
+      },
+      {
+        "id": 26,
+        "question": "Quelle ancienne marque fabriquait des motocyclettes à Herstal en Belgique ?",
+        "propositions": [
+          "Ridley Bikes",
+          "Doublettrack",
+          "Saroléa",
+          "Carad"
+        ],
+        "réponse": "Saroléa",
+        "anecdote": "L'entreprise fabriqua d'abord des pièces d'armes à feu et des vélos avant de fabriquer des motocyclettes à partir de 1900."
+      },
+      {
+        "id": 27,
+        "question": "Quelle entreprise créée à Koekelberg avait comme produit phare le Big Nuts ?",
+        "propositions": [
+          "Victoria",
+          "Bruyerre",
+          "Clovis",
+          "Meurisse"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Le Big Nuts aura été proposé successivement sous les marques Novesia-De Beukelaer, Meurisse puis, en 2008, Côte d'Or."
+      },
+      {
+        "id": 28,
+        "question": "Quelle marque est spécialisée dans la production de chocolat bio haut de gamme ?",
+        "propositions": [
+          "Valrhona",
+          "Blanxart",
+          "NewTree",
+          "Kaoka"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "L'entreprise NewTree se revendique comme durable, en affirmant que ses tablettes de chocolat sont 100 % CO2 neutre."
+      },
+      {
+        "id": 29,
+        "question": "Quelle société située à Achêne propose de l'huile de colza non OGM ?",
+        "propositions": [
+          "Alvenat",
+          "Naturaplan",
+          "Rissoline",
+          "Jules"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "L'huile de colza est la deuxième huile alimentaire la plus consommée en Belgique et en France, après le tournesol."
+      },
+      {
+        "id": 30,
+        "question": "Quel assaisonnement universel est un clin d'oeil à la cité ardente ?",
+        "propositions": [
+          "Goya",
+          "Old Bay",
+          "Degusta",
+          "Pepperron"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "Le Dompteur de taureau, le Perron et le Carré sont trois symboles séculaires et historiques de la ville de Liège."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which chocolate treat is wrapped in dark brown parchment paper ?",
+        "propositions": [
+          "Cha-Cha",
+          "Kwatta",
+          "Chokotoff",
+          "Pastador"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Produced in the Hal plant (Belgium) since its creation, it was to be produced in Lithuania from 2012 but will remain in Belgium."
+      },
+      {
+        "id": 2,
+        "question": "Which Belgian company produces sauces, mayonnaise and mustards ?",
+        "propositions": [
+          "Benedicta",
+          "Rustica",
+          "Hellmann",
+          "Devos Lemmens"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "Also called DL, it is part of the Continental Foods group and its production site is located in Puurs."
+      },
+      {
+        "id": 3,
+        "question": "Which brand of beer is historically Jupiler's biggest rival ?",
+        "propositions": [
+          "Vedett",
+          "Heineken",
+          "Stella Artois",
+          "Pelforth"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "In 1987, the Den Hoorn (the Horn) brewery merged with the Piedboeuf brewery to form the Interbrew group."
+      },
+      {
+        "id": 4,
+        "question": "Which Belgian treat features layers of cookies and caramel ?",
+        "propositions": [
+          "Cuberdon",
+          "Napoleon",
+          "Sugus",
+          "Cha Cha"
+        ],
+        "réponse": "Cha Cha",
+        "anecdote": "Marketed by the LU biscuit factory, Cha-Cha was invented by Paul Parein in 1958, then director of the Parein biscuit factory."
+      },
+      {
+        "id": 5,
+        "question": "Which Belgian cable distributor was born from an economic association ?",
+        "propositions": [
+          "Mobistar",
+          "Base",
+          "Orange",
+          "Voo"
+        ],
+        "réponse": "Voo",
+        "anecdote": "The VOOcorder does not allow recordings to be kept in the event of a problem, as no backup is possible."
+      },
+      {
+        "id": 6,
+        "question": "Which Belgian supermarket chain offers its products under the Boni brand ?",
+        "propositions": [
+          "Aldi",
+          "Smatch",
+          "Colruyt",
+          "Delhaize"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "In most of its stores, the brand has a checkout system that is very different from that of other stores."
+      },
+      {
+        "id": 7,
+        "question": "Which Belgian manufacturer offers a chocolate rich in cocoa butter ?",
+        "propositions": [
+          "Suchard",
+          "Toblerone",
+          "Diana",
+          "Callebaut"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "Many professionals who use Callebaut couverture chocolates particularly appreciate their manageability."
+      },
+      {
+        "id": 8,
+        "question": "Which coffee brand from Liège has an animal as its logo ?",
+        "propositions": [
+          "Nescafe",
+          "Planting",
+          "Black Cat",
+          "Black card"
+        ],
+        "réponse": "Black Cat",
+        "anecdote": "We owe the logo of the Chat Noir brand to the French graphic designer Cassandre (1901-1968), pseudonym of Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "Which brand makes a million pralines every day in Brussels ?",
+        "propositions": [
+          "Neuhaus",
+          "Guylian",
+          "Leonidas",
+          "Godiva"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "In 2012, the brand had 1,250 points of sale (including 350 stores in Belgium and 340 in France) in 50 countries."
+      },
+      {
+        "id": 10,
+        "question": "Which Belgian chicory production company was taken over by Leroux ?",
+        "propositions": [
+          "Lima",
+          "Plantation",
+          "Pacha",
+          "Favrichon"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "The crisis of the thirties will not affect the success of the company : coffee is too expensive and chicory is a recipe."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which patented biscuit factory, created in 1885, bears the name of its founder ?",
+        "propositions": [
+          "Jules Destrooper",
+          "Du Moulin",
+          "Marioni",
+          "Le Drean"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "With its 160 employees, the biscuit factory Jules Destrooper generates an annual turnover of approximately 36 million euros."
+      },
+      {
+        "id": 12,
+        "question": "Which spread, marketed by Heinz, has been Belgian since 1972 ?",
+        "propositions": [
+          "Reese",
+          "Karelea",
+          "Kwatta",
+          "Suprema"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "This brand was founded in 1877 by J.G. van Emden and P. de Bondt in Suriname, South America."
+      },
+      {
+        "id": 13,
+        "question": "Which Belgian brand offers fryers, waffle irons and sandwich makers ?",
+        "propositions": [
+          "Moulinex",
+          "Frifri",
+          "Seb",
+          "Continental"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Founded by Denis Dalcq in 1985, the Frifri brand, headquartered in Courcelles, is renowned for the quality of its products."
+      },
+      {
+        "id": 14,
+        "question": "Which Belgian manufacturer is best known for its shell chocolates ?",
+        "propositions": [
+          "Delisse",
+          "Cailler",
+          "Lindt",
+          "Guylian"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "In 2008, the South Korean company Lotte Confectionery bought the Guylian company for 164 million dollars."
+      },
+      {
+        "id": 15,
+        "question": "What was the first Walloon company to open an online sales site ?",
+        "propositions": [
+          "Marcassou",
+          "Conpalux",
+          "Hartman",
+          "Etilux"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "Taken over in 1972 by its current administrator, Didier Bronne, the company then specialized in the manufacture of labels."
+      },
+      {
+        "id": 16,
+        "question": "Which Belgian brand offers chocolates with a high quality standard ?",
+        "propositions": [
+          "Galler",
+          "Bonneterre",
+          "Wonka",
+          "Poulain"
+        ],
+        "réponse": "Galler",
+        "anecdote": "The company offers a variety of dozens of 70 gram dark, milk or white chocolate bars."
+      },
+      {
+        "id": 17,
+        "question": "Which company produces chicory root and pea seed extracts ?",
+        "propositions": [
+          "Spadel",
+          "Lutosa",
+          "Pacha",
+          "Cosucra"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Having totally abandoned the production of sugar in 2003, its products serve as additives to the food industry."
+      },
+      {
+        "id": 18,
+        "question": "Which semi-hard abbey cheese with an orange rind has been sold since 1950 ?",
+        "propositions": [
+          "Rubens",
+          "Maredsous",
+          "Troufleur",
+          "Damier"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "The humidity level of 95% favors the development of the flora responsible for transforming the curd into cheese."
+      },
+      {
+        "id": 19,
+        "question": "Which Nutella competitor saw its production stop in 1990 ?",
+        "propositions": [
+          "Cenovis",
+          "Salidou",
+          "Gianduia",
+          "Pastador"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Some activism sites calling for the return of the brand, it will return to supermarkets in France in 2013."
+      },
+      {
+        "id": 20,
+        "question": "Which Belgian beer has the particularity of being served in a ticking glass ?",
+        "propositions": [
+          "Maredsous",
+          "Kwak",
+          "Charles-Quint",
+          "Omer"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "The name of the beer would come from the noise that we hear when we drink our glass dry, suggesting the famous kwak."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Belgian company specializes in ecological household products ?",
+        "propositions": [
+          "Protex",
+          "Labello",
+          "Elmex",
+          "Ecover"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "In 2012, Ecover acquired Method, a player in the green cleaning sector in the Americas."
+      },
+      {
+        "id": 22,
+        "question": "Which brand of Belgian lambic beer was created by Théophile Vossen ?",
+        "propositions": [
+          "Lindemans",
+          "Mort Subite",
+          "Oud Berseel",
+          "Tilquin"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "The name Mort Subite comes from a dice or card game, pitjesbak, played in a Brussels bistro called La Cour Royale."
+      },
+      {
+        "id": 23,
+        "question": "Which mustard is marketed by the Belgian company Bister ?",
+        "propositions": [
+          "Pommery",
+          "Maille",
+          "L'Impériale",
+          "Naturalia"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "The Bister company was created in 1926 by Franz Bister, at the time specializing in the roasting of chicory."
+      },
+      {
+        "id": 24,
+        "question": "Which Belgian tire manufacturing company was founded in 1877 ?",
+        "propositions": [
+          "Debica",
+          "Maxxis",
+          "Hankook",
+          "Engelbert"
+        ],
+        "réponse": "Engelbert",
+        "anecdote": "Englebert tires took part in 61 Formula 1 Grands Prix from 1950 to 1958 and won eight victories with Ferrari."
+      },
+      {
+        "id": 25,
+        "question": "Which beer brewed in Ninove is historically linked to Westmalle Abbey ?",
+        "propositions": [
+          "Bornem",
+          "Witkap Pater",
+          "Pater Lieven",
+          "Tongerlo"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "Witkap Pater beer was brewed as early as 1929 by Hendrik Verlinden, the master brewer of the De Drie Linden brewery in Brasschaat."
+      },
+      {
+        "id": 26,
+        "question": "What old brand manufactured motorcycles in Herstal, Belgium ?",
+        "propositions": [
+          "Sarolea",
+          "Ridley Bikes",
+          "Carad",
+          "Doublettrack"
+        ],
+        "réponse": "Sarolea",
+        "anecdote": "The company first made gun parts and bicycles before making motorcycles from 1900."
+      },
+      {
+        "id": 27,
+        "question": "Which company created in Koekelberg had Big Nuts as its flagship product ?",
+        "propositions": [
+          "Meurisse",
+          "Bruyerre",
+          "Victoria",
+          "Clovis"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Big Nuts was offered successively under the Novesia-De Beukelaer, Meurisse and then, in 2008, Côte d'Or brands."
+      },
+      {
+        "id": 28,
+        "question": "Which brand specializes in the production of premium organic chocolate ?",
+        "propositions": [
+          "Valrhona",
+          "Blanxart",
+          "NewTree",
+          "Kaoka"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "The NewTree company claims to be sustainable, claiming that its chocolate bars are 100% CO2 neutral."
+      },
+      {
+        "id": 29,
+        "question": "Which company located in Achêne offers non-GMO rapeseed oil ?",
+        "propositions": [
+          "Rissoline",
+          "Alvenat",
+          "Naturaplan",
+          "Jules"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "Rapeseed oil is the second most consumed edible oil in Belgium and France, after sunflower."
+      },
+      {
+        "id": 30,
+        "question": "What universal seasoning is a nod to the Burning City ?",
+        "propositions": [
+          "Pepperron",
+          "Goya",
+          "Degusta",
+          "Old Bay"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "The Bull Tamer, the Perron and the Square are three secular and historic symbols of the city of Liège."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Schokoladengenuss ist in dunkelbraunes Pergamentpapier eingewickelt ?",
+        "propositions": [
+          "Cha-Cha",
+          "Chokotoff",
+          "Kwatta",
+          "Pastador"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Seit seiner Gründung im Werk Hal (Belgien) produziert, sollte es ab 2012 in Litauen produziert werden, bleibt aber in Belgien."
+      },
+      {
+        "id": 2,
+        "question": "Welches belgische Unternehmen stellt Saucen, Mayonnaise und Senf her ?",
+        "propositions": [
+          "Benedicta",
+          "Hellmann",
+          "Rustica",
+          "Devos Lemmens"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "Auch DL genannt, ist es Teil der Continental Foods-Gruppe und seine Produktionsstätte befindet sich in Puurs."
+      },
+      {
+        "id": 3,
+        "question": "Welche Biermarke ist historisch der größte Rivale von Jupiler ?",
+        "propositions": [
+          "Stella Artois",
+          "Heineken",
+          "Pelforth",
+          "Vedett"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "1987 fusionierte die Brauerei Den Hoorn (das Horn) mit der Brauerei Piedboeuf zur Interbrew-Gruppe."
+      },
+      {
+        "id": 4,
+        "question": "Welcher belgische Leckerbissen enthält Schichten von Keksen und Karamell ?",
+        "propositions": [
+          "Cha Cha",
+          "Napoleon",
+          "Cuberdon",
+          "Sugus"
+        ],
+        "réponse": "Cha Cha",
+        "anecdote": "Cha-Cha wird von der Keksfabrik LU vermarktet und 1958 von Paul Parein, dem damaligen Direktor der Keksfabrik Parein, erfunden."
+      },
+      {
+        "id": 5,
+        "question": "Welcher belgische Kabelverteiler wurde aus einem Wirtschaftsverband geboren ?",
+        "propositions": [
+          "Voo",
+          "Base",
+          "Mobistar",
+          "Orange"
+        ],
+        "réponse": "Voo",
+        "anecdote": "Der VOOcorder erlaubt keine Aufbewahrung von Aufzeichnungen im Falle eines Problems, da keine Sicherung möglich ist."
+      },
+      {
+        "id": 6,
+        "question": "Welche belgische Supermarktkette bietet ihre Produkte unter der Marke Boni an ?",
+        "propositions": [
+          "Aldi",
+          "Colruyt",
+          "Smatch",
+          "Delhaize"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "In den meisten ihrer Filialen hat die Marke ein Kassensystem, das sich stark von dem anderer Filialen unterscheidet."
+      },
+      {
+        "id": 7,
+        "question": "Welcher belgische Hersteller bietet eine kakaobutterreiche Schokolade an ?",
+        "propositions": [
+          "Diana",
+          "Toblerone",
+          "Callebaut",
+          "Suchard"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "Viele Profis, die Callebaut Kuvertüre-Pralinen verwenden, schätzen besonders ihre Handhabbarkeit."
+      },
+      {
+        "id": 8,
+        "question": "Welche Kaffeemarke aus Lüttich hat ein Tier als Logo ?",
+        "propositions": [
+          "Pflanzen",
+          "Schwarze Karte",
+          "Schwarze Katze",
+          "Nescafé"
+        ],
+        "réponse": "Schwarze Katze",
+        "anecdote": "Das Logo der Marke Chat Noir verdanken wir dem französischen Grafikdesigner Cassandre (1901-1968), Pseudonym von Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "Welche Marke stellt jeden Tag eine Million Pralinen in Brüssel her ?",
+        "propositions": [
+          "Neuhaus",
+          "Guylian",
+          "Leonidas",
+          "Godiva"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "2012 verfügte die Marke über 1.250 Verkaufsstellen (darunter 350 Filialen in Belgien und 340 in Frankreich) in 50 Ländern."
+      },
+      {
+        "id": 10,
+        "question": "Welche belgische Chicorée-Produktionsfirma wurde von Leroux übernommen ?",
+        "propositions": [
+          "Plantation",
+          "Favrichon",
+          "Pacha",
+          "Lima"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "Die Krise der dreißiger Jahre wird dem Erfolg des Unternehmens keinen Abbruch tun : Der Kaffee ist zu teuer und der Chicorée ein Rezept."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche patentierte Keksfabrik, die 1885 gegründet wurde, trägt den Namen ihres Gründers ?",
+        "propositions": [
+          "Du Moulin",
+          "Marioni",
+          "Le Drean",
+          "Jules Destrooper"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "Die Keksfabrik Jules Destrooper erwirtschaftet mit ihren 160 Mitarbeitern einen Jahresumsatz von rund 36 Millionen Euro."
+      },
+      {
+        "id": 12,
+        "question": "Welcher von Heinz vertriebene Brotaufstrich ist seit 1972 belgisch ?",
+        "propositions": [
+          "Karelea",
+          "Kwatta",
+          "Suprema",
+          "Reese"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "Diese Marke wurde 1877 von J. G. van Emden und P. de Bondt in Suriname, Südamerika, gegründet."
+      },
+      {
+        "id": 13,
+        "question": "Welche belgische Marke bietet Friteusen, Waffeleisen und Sandwichmaker an ?",
+        "propositions": [
+          "Continental",
+          "Seb",
+          "Frifri",
+          "Moulinex"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Die 1985 von Denis Dalcq gegründete Marke Frifri mit Hauptsitz in Courcelles ist für die Qualität ihrer Produkte bekannt."
+      },
+      {
+        "id": 14,
+        "question": "Welcher belgische Hersteller ist am bekanntesten für seine Muschelschokoladen ?",
+        "propositions": [
+          "Lindt",
+          "Cailler",
+          "Guylian",
+          "Delisse"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "2008 kaufte das südkoreanische Unternehmen Lotte Confectionery die Firma Guylian für 164 Millionen Dollar."
+      },
+      {
+        "id": 15,
+        "question": "Welches war das erste wallonische Unternehmen, das eine Online-Verkaufsseite eröffnete ?",
+        "propositions": [
+          "Etilux",
+          "Hartman",
+          "Marcassou",
+          "Conpalux"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "1972 von seinem jetzigen Geschäftsführer Didier Bronne übernommen, spezialisierte sich das Unternehmen dann auf die Herstellung von Etiketten."
+      },
+      {
+        "id": 16,
+        "question": "Welche belgische Marke bietet Pralinen mit hohem Qualitätsstandard ?",
+        "propositions": [
+          "Wonka",
+          "Bonneterre",
+          "Galler",
+          "Poulain"
+        ],
+        "réponse": "Galler",
+        "anecdote": "Das Unternehmen bietet eine Vielzahl von Dutzenden von 70-Gramm-Riegeln aus dunkler, Milch- oder weißer Schokolade an."
+      },
+      {
+        "id": 17,
+        "question": "Welches Unternehmen stellt Zichorienwurzel- und Erbsensamenextrakte her ?",
+        "propositions": [
+          "Lutosa",
+          "Pacha",
+          "Spadel",
+          "Cosucra"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Nachdem die Zuckerproduktion 2003 vollständig aufgegeben wurde, dienen ihre Produkte als Zusatzstoffe für die Lebensmittelindustrie."
+      },
+      {
+        "id": 18,
+        "question": "Welcher halbharte Abteikäse mit Orangenrinde wird seit 1950 verkauft ?",
+        "propositions": [
+          "Damier",
+          "Troufleur",
+          "Maredsous",
+          "Rubens"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "Die Luftfeuchtigkeit von 95 % begünstigt die Entwicklung der Flora, die für die Umwandlung des Quarks in Käse verantwortlich ist."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Nutella-Konkurrent musste 1990 seine Produktion einstellen ?",
+        "propositions": [
+          "Pastador",
+          "Salidou",
+          "Cenovis",
+          "Gianduia"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Einige Aktivistenseiten fordern die Rückkehr der Marke, sie wird 2013 in die Supermärkte in Frankreich zurückkehren."
+      },
+      {
+        "id": 20,
+        "question": "Welches belgische Bier hat die Besonderheit, in einem tickenden Glas serviert zu werden ?",
+        "propositions": [
+          "Maredsous",
+          "Omer",
+          "Kwak",
+          "Charles-Quint"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "Der Name des Bieres stammt von dem Geräusch, das wir hören, wenn wir unser Glas trocken trinken, was auf das berühmte Kwak hindeutet."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches belgische Unternehmen ist auf ökologische Haushaltsprodukte spezialisiert ?",
+        "propositions": [
+          "Labello",
+          "Elmex",
+          "Ecover",
+          "Protex"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "Im Jahr 2012 erwarb Ecover Method, einen Akteur im Bereich der grünen Reinigung in Amerika."
+      },
+      {
+        "id": 22,
+        "question": "Welche belgische Lambic-Biermarke wurde von Théophile Vossen kreiert ?",
+        "propositions": [
+          "Lindemans",
+          "Oud Berseel",
+          "Tilquin",
+          "Mort Subite"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "Der Name Mort Subite kommt von einem Würfel- oder Kartenspiel, Pitjesbak, das in einem Brüsseler Bistro namens La Cour Royale gespielt wird."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Senf wird von der belgischen Firma Bister vertrieben ?",
+        "propositions": [
+          "Naturalia",
+          "L'Impériale",
+          "Pommery",
+          "Maille"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "Die Firma Bister wurde 1926 von Franz Bister gegründet, der sich damals auf das Rösten von Chicorée spezialisierte."
+      },
+      {
+        "id": 24,
+        "question": "Welcher belgische Reifenhersteller wurde 1877 gegründet ?",
+        "propositions": [
+          "Hankook",
+          "Debica",
+          "Engelbert",
+          "Maxxis"
+        ],
+        "réponse": "Engelbert",
+        "anecdote": "Englebert-Reifen nahmen von 1950 bis 1958 an 61 Formel-1-Grand-Prix teil und gewannen mit Ferrari acht Siege."
+      },
+      {
+        "id": 25,
+        "question": "Welches in Ninove gebraute Bier ist historisch mit der Abtei von Westmalle verbunden ?",
+        "propositions": [
+          "Tongerlo",
+          "Witkap Pater",
+          "Bornem",
+          "Pater Lieven"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "Witkap Pater Bier wurde bereits 1929 von Hendrik Verlinden, dem Braumeister der Brauerei De Drie Linden in Brasschaat, gebraut."
+      },
+      {
+        "id": 26,
+        "question": "Welche alte Marke hat Motorräder in Herstal, Belgien, hergestellt ?",
+        "propositions": [
+          "Doublettrack",
+          "Carad",
+          "Ridley Bikes",
+          "Sarolea"
+        ],
+        "réponse": "Sarolea",
+        "anecdote": "Das Unternehmen stellte zunächst Waffenteile und Fahrräder her, bevor es ab 1900 Motorräder herstellte."
+      },
+      {
+        "id": 27,
+        "question": "Welches in Koekelberg gegründete Unternehmen hatte Big Nuts als Flaggschiffprodukt ?",
+        "propositions": [
+          "Victoria",
+          "Bruyerre",
+          "Meurisse",
+          "Clovis"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Big Nuts wurde nacheinander unter den Marken Novesia-De Beukelaer, Meurisse und 2008 dann unter der Marke Côte d'Or angeboten."
+      },
+      {
+        "id": 28,
+        "question": "Welche Marke hat sich auf die Herstellung hochwertiger Bio-Schokolade spezialisiert ?",
+        "propositions": [
+          "Kaoka",
+          "Blanxart",
+          "NewTree",
+          "Valrhona"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "Das Unternehmen NewTree behauptet, nachhaltig zu sein und behauptet, dass seine Schokoriegel zu 100 % CO2-neutral sind."
+      },
+      {
+        "id": 29,
+        "question": "Welches Unternehmen in Achêne bietet gentechnikfreies Rapsöl an ?",
+        "propositions": [
+          "Naturaplan",
+          "Alvenat",
+          "Jules",
+          "Rissoline"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "Rapsöl ist nach Sonnenblumen das am zweithäufigsten konsumierte Speiseöl in Belgien und Frankreich."
+      },
+      {
+        "id": 30,
+        "question": "Welches universelle Gewürz ist eine Anspielung auf die brennende Stadt ?",
+        "propositions": [
+          "Pepperron",
+          "Degusta",
+          "Old Bay",
+          "Goya"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "Der Bull Tamer, der Perron und der Square sind drei weltliche und historische Symbole der Stadt Lüttich."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué golosina de chocolate está envuelta en papel pergamino marrón oscuro ?",
+        "propositions": [
+          "Chokotoff",
+          "Pastador",
+          "Kwatta",
+          "Cha-Cha"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Producido en la planta de Hal (Bélgica) desde su creación, iba a fabricarse en Lituania a partir de 2012 pero permanecerá en Bélgica."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué empresa belga produce salsas, mayonesas y mostazas ?",
+        "propositions": [
+          "Devos Lemmens",
+          "Benedicta",
+          "Hellmann",
+          "Rustica"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "También llamada DL, forma parte del grupo Continental Foods y su sitio de producción está ubicado en Puurs."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué marca de cerveza es históricamente el mayor rival de Jupiler ?",
+        "propositions": [
+          "Pelforth",
+          "Stella Artois",
+          "Heineken",
+          "Vedett"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "En 1987, la cervecería Den Hoorn (el Cuerno) se fusionó con la cervecería Piedboeuf para formar el grupo Interbrew."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué delicia belga presenta capas de galletas y caramelo ?",
+        "propositions": [
+          "Sugus",
+          "Cha Cha",
+          "Cuberdón",
+          "Napoleón"
+        ],
+        "réponse": "Cha Cha",
+        "anecdote": "Comercializado por la fábrica de galletas LU, Cha-Cha fue inventado por Paul Parein en 1958, entonces director de la fábrica de galletas Parein."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué distribuidor de cable belga nació de una asociación económica ?",
+        "propositions": [
+          "Base",
+          "Mobistar",
+          "Orange",
+          "Voo"
+        ],
+        "réponse": "Voo",
+        "anecdote": "El VOOcorder no permite conservar las grabaciones en caso de problema, ya que no es posible realizar copias de seguridad."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué cadena de supermercados belga ofrece sus productos bajo la marca Boni ?",
+        "propositions": [
+          "Delhaize",
+          "Colruyt",
+          "Smatch",
+          "Aldi"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "En la mayoría de sus tiendas, la marca cuenta con un sistema de caja muy diferente al de otras tiendas."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué fabricante belga ofrece un chocolate rico en manteca de cacao ?",
+        "propositions": [
+          "Callebaut",
+          "Toblerone",
+          "Suchard",
+          "Diana"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "Muchos profesionales que utilizan los chocolates de cobertura Callebaut aprecian especialmente su manejabilidad."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué marca de café de Lieja tiene un animal como logo ?",
+        "propositions": [
+          "Plantación",
+          "Tarjeta negra",
+          "gato negro",
+          "Nescafé"
+        ],
+        "réponse": "gato negro",
+        "anecdote": "El logo de la marca Chat Noir se lo debemos al diseñador gráfico francés Cassandre (1901-1968), seudónimo de Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué marca hace un millón de pralinés todos los días en Bruselas ?",
+        "propositions": [
+          "Guylian",
+          "Leonidas",
+          "Godiva",
+          "Neuhaus"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "En 2012, la marca contaba con 1.250 puntos de venta (incluidas 350 tiendas en Bélgica y 340 en Francia) en 50 países."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué empresa belga de producción de achicoria fue absorbida por Leroux ?",
+        "propositions": [
+          "Lima",
+          "Pacha",
+          "Plantation",
+          "Favrichon"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "La crisis de los años treinta no afectará al éxito de la empresa : el café es demasiado caro y la achicoria es una receta."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué fábrica de galletas patentada, creada en 1885, lleva el nombre de su fundador ?",
+        "propositions": [
+          "Jules Destrooper",
+          "Marioni",
+          "Du Moulin",
+          "Le Drean"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "Con sus 160 empleados, la fábrica de galletas Jules Destrooper genera una facturación anual de aproximadamente 36 millones de euros."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué pasta, comercializada por Heinz, ha sido belga desde 1972 ?",
+        "propositions": [
+          "Kwatta",
+          "Karelea",
+          "Suprema",
+          "Reese"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "Esta marca fue fundada en 1877 por J.G. van Emden y P. de Bondt en Surinam, Sudamérica."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué marca belga ofrece freidoras, gofreras y sandwicheras ?",
+        "propositions": [
+          "Seb",
+          "Frifri",
+          "Moulinex",
+          "Continental"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Fundada por Denis Dalcq en 1985, la marca Frifri, con sede en Courcelles, es reconocida por la calidad de sus productos."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué fabricante belga es más conocido por sus chocolates de concha ?",
+        "propositions": [
+          "Guylian",
+          "Lindt",
+          "Cailler",
+          "Delisse"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "En 2008, la empresa surcoreana Lotte Confectionery compró la empresa Guylian por 164 millones de dólares."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál fue la primera empresa valona en abrir un sitio de ventas en línea ?",
+        "propositions": [
+          "Conpalux",
+          "Marcassou",
+          "Etilux",
+          "Hartman"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "Tomada en 1972 por su actual administrador, Didier Bronne, la empresa se especializó entonces en la fabricación de etiquetas."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué marca belga ofrece chocolates con un alto estándar de calidad ?",
+        "propositions": [
+          "Wonka",
+          "Galler",
+          "Bonneterre",
+          "Poulain"
+        ],
+        "réponse": "Galler",
+        "anecdote": "La compañía ofrece una variedad de docenas de barras de chocolate negro, con leche o blanco de 70 gramos."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué empresa produce extractos de semilla de guisante y raíz de achicoria ?",
+        "propositions": [
+          "Spadel",
+          "Pacha",
+          "Lutosa",
+          "Cosucra"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Habiendo abandonado totalmente la producción de azúcar en 2003, sus productos sirven como aditivos para la industria alimentaria."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué queso semiduro de abadía con corteza de naranja se vende desde 1950 ?",
+        "propositions": [
+          "Maredsous",
+          "Damier",
+          "Troufleur",
+          "Rubens"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "El nivel de humedad del 95% favorece el desarrollo de la flora encargada de transformar la cuajada en queso."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué competidor de Nutella vio detener su producción en 1990 ?",
+        "propositions": [
+          "gianduia",
+          "Cenovis",
+          "Pastador",
+          "Salidou"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Algunos sitios de activismo piden el regreso de la marca, volverá a los supermercados en Francia en 2013."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué cerveza belga tiene la particularidad de ser servida en un vaso que hace tictac ?",
+        "propositions": [
+          "Omer",
+          "Charles-Quint",
+          "Maredsous",
+          "Kwak"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "El nombre de la cerveza vendría del ruido que escuchamos cuando bebemos nuestro vaso seco, sugiriendo el famoso kwak."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué empresa belga se especializa en productos ecológicos para el hogar ?",
+        "propositions": [
+          "Labello",
+          "Ecover",
+          "Elmex",
+          "Protex"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "En 2012, Ecover adquirió Method, un jugador en el sector de limpieza ecológica en las Américas."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué marca de cerveza lambic belga fue creada por Théophile Vossen ?",
+        "propositions": [
+          "Oud Berseel",
+          "Tilquin",
+          "Mort Subite",
+          "Lindemans"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "El nombre Mort Subite proviene de un juego de dados o cartas, pitjesbak, que se juega en un bistró de Bruselas llamado La Cour Royale."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué mostaza comercializa la empresa belga Bister ?",
+        "propositions": [
+          "Pommery",
+          "L'Impériale",
+          "Maille",
+          "Naturalia"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "La empresa Bister fue creada en 1926 por Franz Bister, en ese momento especializada en el tostado de achicoria."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué empresa belga de fabricación de neumáticos se fundó en 1877 ?",
+        "propositions": [
+          "Maxxis",
+          "Englebert",
+          "Debica",
+          "Hankook"
+        ],
+        "réponse": "Englebert",
+        "anecdote": "Los neumáticos Englebert participaron en 61 Grandes Premios de Fórmula 1 entre 1950 y 1958 y obtuvieron ocho victorias con Ferrari."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué cerveza elaborada en Ninove está históricamente vinculada a la abadía de Westmalle ?",
+        "propositions": [
+          "Witkap Pater",
+          "Tongerlo",
+          "Bornem",
+          "Pater Lieven"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "La cerveza Witkap Pater fue elaborada ya en 1929 por Hendrik Verlinden, el maestro cervecero de la cervecería De Drie Linden en Brasschaat."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué marca antigua fabricaba motocicletas en Herstal, Bélgica ?",
+        "propositions": [
+          "Carad",
+          "Ridley Bikes",
+          "Sarolea",
+          "Doublettrack"
+        ],
+        "réponse": "Sarolea",
+        "anecdote": "La compañía primero fabricó piezas de armas y bicicletas antes de fabricar motocicletas a partir de 1900."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué empresa creada en Koekelberg tenía Big Nuts como su producto estrella ?",
+        "propositions": [
+          "Victoria",
+          "Bruyerre",
+          "Clovis",
+          "Meurisse"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Big Nuts se ofreció sucesivamente bajo las marcas Novesia-De Beukelaer, Meurisse y luego, en 2008, Côte d'Or."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué marca se especializa en la producción de chocolate orgánico premium ?",
+        "propositions": [
+          "Blanxart",
+          "Kaoka",
+          "NewTree",
+          "Valrhona"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "La empresa NewTree afirma ser sostenible, afirmando que sus barras de chocolate son 100% neutras en CO2."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué empresa ubicada en Achêne ofrece aceite de colza no transgénico ?",
+        "propositions": [
+          "Naturaplan",
+          "Alvenat",
+          "Rissoline",
+          "Jules"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "El aceite de colza es el segundo aceite comestible más consumido en Bélgica y Francia, después del girasol."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué condimento universal es un guiño a la Ciudad Ardiente ?",
+        "propositions": [
+          "Old Bay",
+          "Degusta",
+          "Goya",
+          "Pepperron"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "El domador de toros, el perron y la plaza son tres símbolos seculares e históricos de la ciudad de Lieja."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale dolcetto al cioccolato è avvolto in carta pergamena marrone scuro ?",
+        "propositions": [
+          "Pastador",
+          "Kwatta",
+          "Chokotoff",
+          "Cha-Cha"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Prodotto nello stabilimento di Hal (Belgio) sin dalla sua creazione, doveva essere prodotto in Lituania a partire dal 2012 ma rimarrà in Belgio."
+      },
+      {
+        "id": 2,
+        "question": "Quale azienda belga produce salse, maionese e mostarde ?",
+        "propositions": [
+          "Benedicta",
+          "Devos Lemmens",
+          "Rustica",
+          "Hellmann"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "Chiamato anche DL, fa parte del gruppo Continental Foods e il suo sito produttivo si trova a Puurs."
+      },
+      {
+        "id": 3,
+        "question": "Quale marca di birra è storicamente la più grande rivale di Jupiler ?",
+        "propositions": [
+          "Stella Artois",
+          "Heineken",
+          "Pelforth",
+          "Vedett"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "Nel 1987, il birrificio Den Hoorn (l'Horn) si è fuso con il birrificio Piedboeuf per formare il gruppo Interbrew."
+      },
+      {
+        "id": 4,
+        "question": "Quale delizia belga presenta strati di biscotti e caramello ?",
+        "propositions": [
+          "Napoleone",
+          "Sugus",
+          "Cha Cha",
+          "Cuberdon"
+        ],
+        "réponse": "Cha Cha",
+        "anecdote": "Commercializzato dalla fabbrica di biscotti LU, Cha-Cha è stato inventato da Paul Parein nel 1958, allora direttore della fabbrica di biscotti Parein."
+      },
+      {
+        "id": 5,
+        "question": "Quale distributore belga di cavi è nato da un'associazione economica ?",
+        "propositions": [
+          "Mobistar",
+          "Orange",
+          "Voo",
+          "Base"
+        ],
+        "réponse": "Voo",
+        "anecdote": "Il VOOcorder non consente di conservare le registrazioni in caso di problemi, poiché non è possibile eseguire il backup."
+      },
+      {
+        "id": 6,
+        "question": "Quale catena di supermercati belga offre i suoi prodotti a marchio Boni ?",
+        "propositions": [
+          "Smatch",
+          "Aldi",
+          "Delhaize",
+          "Colruyt"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "Nella maggior parte dei suoi negozi, il marchio ha un sistema di pagamento molto diverso da quello degli altri negozi."
+      },
+      {
+        "id": 7,
+        "question": "Quale produttore belga propone un cioccolato ricco di burro di cacao ?",
+        "propositions": [
+          "Suchard",
+          "Toblerone",
+          "Diana",
+          "Callebaut"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "Molti professionisti che utilizzano i cioccolatini di copertura Callebaut ne apprezzano particolarmente la maneggevolezza."
+      },
+      {
+        "id": 8,
+        "question": "Quale marca di caffè di Liegi ha un animale come logo ?",
+        "propositions": [
+          "Carta nera",
+          "Gatto nero",
+          "Nescafè",
+          "Piantare"
+        ],
+        "réponse": "Gatto nero",
+        "anecdote": "Dobbiamo il logo del marchio Chat Noir al grafico francese Cassandre (1901-1968), pseudonimo di Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "Quale marca produce un milione di praline ogni giorno a Bruxelles ?",
+        "propositions": [
+          "Godiva",
+          "Guylian",
+          "Leonidas",
+          "Neuhaus"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "Nel 2012 il marchio contava 1.250 punti vendita (di cui 350 in Belgio e 340 in Francia) in 50 paesi."
+      },
+      {
+        "id": 10,
+        "question": "Quale azienda belga di produzione di cicoria è stata rilevata da Leroux ?",
+        "propositions": [
+          "Favrichon",
+          "Pacha",
+          "Plantation",
+          "Lima"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "La crisi degli anni Trenta non intaccherà il successo dell'azienda : il caffè costa troppo e la cicoria è una ricetta."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale biscottificio brevettato, creato nel 1885, porta il nome del suo fondatore ?",
+        "propositions": [
+          "Le Drean",
+          "Marioni",
+          "Du Moulin",
+          "Jules Destrooper"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "Con i suoi 160 dipendenti, il biscottificio Jules Destrooper genera un fatturato annuo di circa 36 milioni di euro."
+      },
+      {
+        "id": 12,
+        "question": "Quale spread, commercializzato da Heinz, è belga dal 1972 ?",
+        "propositions": [
+          "Kwatta",
+          "Suprema",
+          "Karelea",
+          "Reese"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "Questo marchio è stato fondato nel 1877 da J.G. van Emden e P. de Bondt in Suriname, Sud America."
+      },
+      {
+        "id": 13,
+        "question": "Quale marchio belga offre friggitrici, piastre per waffle e macchine per sandwich ?",
+        "propositions": [
+          "Moulinex",
+          "Continental",
+          "Seb",
+          "Frifri"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Fondato da Denis Dalcq nel 1985, il marchio Frifri, con sede a Courcelles, è rinomato per la qualità dei suoi prodotti."
+      },
+      {
+        "id": 14,
+        "question": "Quale produttore belga è meglio conosciuto per i suoi cioccolatini a conchiglia ?",
+        "propositions": [
+          "Cailler",
+          "Delisse",
+          "Guylian",
+          "Lindt"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "Nel 2008, la società sudcoreana Lotte Confectionery ha acquistato l'azienda Guylian per 164 milioni di dollari."
+      },
+      {
+        "id": 15,
+        "question": "Qual è stata la prima azienda vallone ad aprire un sito di vendita online ?",
+        "propositions": [
+          "Conpalus",
+          "Marcassou",
+          "Hartman",
+          "Etilux"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "Rilevata nel 1972 dal suo attuale amministratore, Didier Bronne, l'azienda si specializza poi nella produzione di etichette."
+      },
+      {
+        "id": 16,
+        "question": "Quale marchio belga offre cioccolatini con un elevato standard di qualità ?",
+        "propositions": [
+          "Wonka",
+          "Galler",
+          "Bonneterre",
+          "Poulain"
+        ],
+        "réponse": "Galler",
+        "anecdote": "L'azienda offre una varietà di dozzine di barrette di cioccolato fondente, al latte o bianco da 70 grammi."
+      },
+      {
+        "id": 17,
+        "question": "Quale azienda produce estratti di radice di cicoria e semi di pisello ?",
+        "propositions": [
+          "Cosucra",
+          "Lutosa",
+          "Pacha",
+          "Spadel"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Avendo completamente abbandonato la produzione di zucchero nel 2003, i suoi prodotti fungono da additivi per l'industria alimentare."
+      },
+      {
+        "id": 18,
+        "question": "Quale formaggio d'abbazia semiduro con scorza d'arancia viene venduto dal 1950 ?",
+        "propositions": [
+          "Rubens",
+          "Troufleur",
+          "Maredsous",
+          "Damier"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "Il tasso di umidità del 95% favorisce lo sviluppo della flora responsabile della trasformazione della cagliata in formaggio."
+      },
+      {
+        "id": 19,
+        "question": "Quale concorrente di Nutella ha visto interrompere la produzione nel 1990 ?",
+        "propositions": [
+          "Cenovis",
+          "Pastador",
+          "Salidou",
+          "Gianduia"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Alcuni siti di attivismo che chiedono il ritorno del marchio, tornerà nei supermercati in Francia nel 2013."
+      },
+      {
+        "id": 20,
+        "question": "Quale birra belga ha la particolarità di essere servita in un bicchiere ticchettante ?",
+        "propositions": [
+          "Kwak",
+          "Charles-Quint",
+          "Maredsous",
+          "Omer"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "Il nome della birra deriverebbe dal rumore che sentiamo quando beviamo il nostro bicchiere asciutto, suggerendo il famoso kwak."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale azienda belga è specializzata in prodotti per la casa ecologici ?",
+        "propositions": [
+          "Elmex",
+          "Protece",
+          "Ecover",
+          "Labello"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "Nel 2012 Ecover ha acquisito Method, attore nel settore del green cleaning nelle Americhe."
+      },
+      {
+        "id": 22,
+        "question": "Quale marca di birra lambic belga è stata creata da Théophile Vossen ?",
+        "propositions": [
+          "Mort Subite",
+          "Tilquin",
+          "Lindemans",
+          "Oud Berseel"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "Il nome Mort Subite deriva da un gioco di dadi o di carte, pitjesbak, giocato in un bistrot di Bruxelles chiamato La Cour Royale."
+      },
+      {
+        "id": 23,
+        "question": "Quale senape viene commercializzata dall'azienda belga Bister ?",
+        "propositions": [
+          "Pommery",
+          "L'Impériale",
+          "Naturalia",
+          "Maille"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "L'azienda Bister è stata fondata nel 1926 da Franz Bister, allora specializzato nella tostatura della cicoria."
+      },
+      {
+        "id": 24,
+        "question": "Quale azienda produttrice di pneumatici belga è stata fondata nel 1877 ?",
+        "propositions": [
+          "Debica",
+          "Hankook",
+          "Englebert",
+          "Maxxis"
+        ],
+        "réponse": "Englebert",
+        "anecdote": "Gli pneumatici Englebert hanno preso parte a 61 Gran Premi di Formula 1 dal 1950 al 1958 e hanno ottenuto otto vittorie con la Ferrari."
+      },
+      {
+        "id": 25,
+        "question": "Quale birra prodotta a Ninove è storicamente legata all'Abbazia di Westmalle ?",
+        "propositions": [
+          "Pater Lieven",
+          "Witkap Pater",
+          "Bornem",
+          "Tongerlo"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "La birra Witkap Pater è stata prodotta già nel 1929 da Hendrik Verlinden, il mastro birraio del birrificio De Drie Linden a Brasschaat."
+      },
+      {
+        "id": 26,
+        "question": "Quale vecchio marchio produceva motociclette a Herstal, in Belgio ?",
+        "propositions": [
+          "Carad",
+          "Doublettrack",
+          "Ridley Bikes",
+          "Sarolea"
+        ],
+        "réponse": "Sarolea",
+        "anecdote": "L'azienda produceva per la prima volta parti di armi e biciclette prima di produrre motociclette dal 1900."
+      },
+      {
+        "id": 27,
+        "question": "Quale azienda creata a Koekelberg aveva Big Nuts come prodotto di punta ?",
+        "propositions": [
+          "Meurisse",
+          "Bruyerre",
+          "Clovis",
+          "Victoria"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Big Nuts è stato offerto successivamente con i marchi Novesia-De Beukelaer, Meurisse e poi, nel 2008, Côte d'Or."
+      },
+      {
+        "id": 28,
+        "question": "Quale marchio è specializzato nella produzione di cioccolato biologico premium ?",
+        "propositions": [
+          "Blancart",
+          "Kaoka",
+          "Valrhona",
+          "NewTree"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "L'azienda NewTree afferma di essere sostenibile, affermando che le sue barrette di cioccolato sono neutre al 100% in termini di CO2."
+      },
+      {
+        "id": 29,
+        "question": "Quale azienda con sede a Achêne offre olio di colza non OGM ?",
+        "propositions": [
+          "Jules",
+          "Alvenat",
+          "Rissoline",
+          "Naturaplan"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "L'olio di colza è il secondo olio commestibile più consumato in Belgio e Francia, dopo il girasole."
+      },
+      {
+        "id": 30,
+        "question": "Quale condimento universale è un cenno alla città in fiamme ?",
+        "propositions": [
+          "Goya",
+          "Old Bay",
+          "Degusta",
+          "Pepperron"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "Il Bull Tamer, il Perron e la Square sono tre simboli secolari e storici della città di Liegi."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke chocoladetraktatie is verpakt in donkerbruin perkamentpapier ?",
+        "propositions": [
+          "Chokotoff",
+          "Pastador",
+          "Kwatta",
+          "Cha-Cha"
+        ],
+        "réponse": "Chokotoff",
+        "anecdote": "Geproduceerd in de Hal-fabriek (België) sinds de oprichting, zou het vanaf 2012 in Litouwen worden geproduceerd, maar het zal in België blijven."
+      },
+      {
+        "id": 2,
+        "question": "Welk Belgisch bedrijf produceert sauzen, mayonaise en mosterd ?",
+        "propositions": [
+          "Benedicta",
+          "Rustica",
+          "Hellmann",
+          "Devos Lemmens"
+        ],
+        "réponse": "Devos Lemmens",
+        "anecdote": "Ook wel DL genoemd, maakt deel uit van de Continental Foods-groep en heeft een productielocatie in Puurs."
+      },
+      {
+        "id": 3,
+        "question": "Welk biermerk is historisch gezien de grootste rivaal van Jupiler ?",
+        "propositions": [
+          "Heineken",
+          "Vedett",
+          "Pelforth",
+          "Stella Artois"
+        ],
+        "réponse": "Stella Artois",
+        "anecdote": "In 1987 fuseerde brouwerij Den Hoorn (de Hoorn) met brouwerij Piedboeuf tot de Interbrew-groep."
+      },
+      {
+        "id": 4,
+        "question": "Welke Belgische lekkernij heeft laagjes koekjes en karamel ?",
+        "propositions": [
+          "Cuberdon",
+          "Napoleon",
+          "Sugus",
+          "Cha Cha"
+        ],
+        "réponse": "Cha Cha",
+        "anecdote": "Op de markt gebracht door de LU koekjesfabriek, werd Cha-Cha uitgevonden door Paul Parein in 1958, toen directeur van de Parein koekjesfabriek."
+      },
+      {
+        "id": 5,
+        "question": "Welke Belgische kabeldistributeur is geboren uit een economische vereniging ?",
+        "propositions": [
+          "Mobistar",
+          "Orange",
+          "Base",
+          "Voo"
+        ],
+        "réponse": "Voo",
+        "anecdote": "De VOOcorder staat het bewaren van opnamen bij een probleem niet toe, aangezien er geen back-up mogelijk is."
+      },
+      {
+        "id": 6,
+        "question": "Welke Belgische supermarktketen biedt zijn producten aan onder het merk Boni ?",
+        "propositions": [
+          "Aldi",
+          "Delhaize",
+          "Smatch",
+          "Colruyt"
+        ],
+        "réponse": "Colruyt",
+        "anecdote": "In de meeste van haar winkels heeft het merk een kassasysteem dat heel anders is dan dat van andere winkels."
+      },
+      {
+        "id": 7,
+        "question": "Welke Belgische fabrikant biedt een chocolade aan die rijk is aan cacaoboter ?",
+        "propositions": [
+          "Suchard",
+          "Callebaut",
+          "Toblerone",
+          "Diana"
+        ],
+        "réponse": "Callebaut",
+        "anecdote": "Veel professionals die Callebaut couverture chocolaatjes gebruiken, waarderen vooral hun hanteerbaarheid."
+      },
+      {
+        "id": 8,
+        "question": "Welk koffiemerk uit Luik heeft een dier als logo ?",
+        "propositions": [
+          "Nescafé",
+          "Zwarte kat",
+          "Zwarte kaart",
+          "Planten"
+        ],
+        "réponse": "Zwarte kat",
+        "anecdote": "Het logo van het merk Chat Noir hebben we te danken aan de Franse grafisch ontwerper Cassandre (1901-1968), pseudoniem van Adolphe Jean Marie Mouron."
+      },
+      {
+        "id": 9,
+        "question": "Welk merk maakt elke dag een miljoen pralines in Brussel ?",
+        "propositions": [
+          "Godiva",
+          "Leonidas",
+          "Neuhaus",
+          "Guylian"
+        ],
+        "réponse": "Leonidas",
+        "anecdote": "In 2012 had het merk 1.250 verkooppunten (waarvan 350 winkels in België en 340 in Frankrijk) in 50 landen."
+      },
+      {
+        "id": 10,
+        "question": "Welk Belgisch witlofproductiebedrijf werd door Leroux overgenomen ?",
+        "propositions": [
+          "Plantation",
+          "Lima",
+          "Favrichon",
+          "Pacha"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "De crisis van de jaren dertig zal het succes van het bedrijf niet aantasten : de koffie is te duur en de witlof is een recept."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke gepatenteerde koekjesfabriek, opgericht in 1885, draagt de naam van de oprichter ?",
+        "propositions": [
+          "Du Moulin",
+          "Marioni",
+          "Jules Destrooper",
+          "Le Drean"
+        ],
+        "réponse": "Jules Destrooper",
+        "anecdote": "Met zijn 160 medewerkers realiseert koekjesfabriek Jules Destrooper een jaaromzet van ongeveer 36 miljoen euro."
+      },
+      {
+        "id": 12,
+        "question": "Welke spread, op de markt gebracht door Heinz, is Belgisch sinds 1972 ?",
+        "propositions": [
+          "Karelea",
+          "Suprema",
+          "Reese",
+          "Kwatta"
+        ],
+        "réponse": "Kwatta",
+        "anecdote": "Dit merk is in 1877 opgericht door J.G. van Emden en P. de Bondt in Suriname, Zuid-Amerika."
+      },
+      {
+        "id": 13,
+        "question": "Welk Belgisch merk biedt friteuses, wafelijzers en tosti-ijzers aan ?",
+        "propositions": [
+          "Moulinex",
+          "Frifri",
+          "Continental",
+          "Seb"
+        ],
+        "réponse": "Frifri",
+        "anecdote": "Het merk Frifri, met hoofdzetel in Courcelles, opgericht door Denis Dalcq in 1985, staat bekend om de kwaliteit van zijn producten."
+      },
+      {
+        "id": 14,
+        "question": "Welke Belgische fabrikant staat vooral bekend om zijn schelpchocolade ?",
+        "propositions": [
+          "Cailler",
+          "Guylian",
+          "Lindt",
+          "Delisse"
+        ],
+        "réponse": "Guylian",
+        "anecdote": "In 2008 kocht het Zuid-Koreaanse bedrijf Lotte Confectionery het Guylian-bedrijf voor 164 miljoen dollar."
+      },
+      {
+        "id": 15,
+        "question": "Wat was het eerste Waalse bedrijf dat een online verkoopsite opende ?",
+        "propositions": [
+          "Conpalux",
+          "Hartman",
+          "Etilux",
+          "Marcassou"
+        ],
+        "réponse": "Etilux",
+        "anecdote": "In 1972 overgenomen door de huidige beheerder, Didier Bronne, specialiseerde het bedrijf zich toen in de productie van etiketten."
+      },
+      {
+        "id": 16,
+        "question": "Welk Belgisch merk biedt pralines van hoge kwaliteit aan ?",
+        "propositions": [
+          "Galler",
+          "Bonneterre",
+          "Wonka",
+          "Poulain"
+        ],
+        "réponse": "Galler",
+        "anecdote": "Het bedrijf biedt een variëteit aan van tientallen 70 gram pure, melk of witte chocoladerepen."
+      },
+      {
+        "id": 17,
+        "question": "Welk bedrijf produceert extracten van cichoreiwortel en erwtenzaad ?",
+        "propositions": [
+          "Cosucra",
+          "Lutosa",
+          "Pacha",
+          "Spadel"
+        ],
+        "réponse": "Cosucra",
+        "anecdote": "Nadat de productie van suiker in 2003 volledig was stopgezet, dienen haar producten als additieven voor de voedingsindustrie."
+      },
+      {
+        "id": 18,
+        "question": "Welke halfharde abdijkaas met sinaasappelschil wordt er sinds 1950 verkocht ?",
+        "propositions": [
+          "Troufleur",
+          "Rubens",
+          "Damier",
+          "Maredsous"
+        ],
+        "réponse": "Maredsous",
+        "anecdote": "De vochtigheidsgraad van 95% bevordert de ontwikkeling van de flora die verantwoordelijk is voor het omzetten van de wrongel in kaas."
+      },
+      {
+        "id": 19,
+        "question": "Welke Nutella-concurrent zag zijn productie stoppen in 1990 ?",
+        "propositions": [
+          "Cenovis",
+          "Pastador",
+          "Gianduia",
+          "Salidou"
+        ],
+        "réponse": "Pastador",
+        "anecdote": "Sommige activismesites die oproepen tot de terugkeer van het merk, zal in 2013 terugkeren naar supermarkten in Frankrijk."
+      },
+      {
+        "id": 20,
+        "question": "Welk Belgisch bier heeft de bijzonderheid om geserveerd te worden in een tikkend glas ?",
+        "propositions": [
+          "Kwak",
+          "Charles-Quint",
+          "Omer",
+          "Maredsous"
+        ],
+        "réponse": "Kwak",
+        "anecdote": "De naam van het bier zou komen van het geluid dat we horen als we ons glas droog drinken, wat de beroemde kwak suggereert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk Belgisch bedrijf is gespecialiseerd in ecologische huishoudelijke producten ?",
+        "propositions": [
+          "Elmex",
+          "Protex",
+          "Labello",
+          "Ecover"
+        ],
+        "réponse": "Ecover",
+        "anecdote": "In 2012 nam Ecover Method over, een speler in de groene schoonmaaksector in Amerika."
+      },
+      {
+        "id": 22,
+        "question": "Welk merk Belgisch lambiekbier werd gecreëerd door Théophile Vossen ?",
+        "propositions": [
+          "Lindemans",
+          "Oud Berseel",
+          "Mort Subite",
+          "Tilquin"
+        ],
+        "réponse": "Mort Subite",
+        "anecdote": "De naam Mort Subite komt van een dobbel- of kaartspel, pitjesbak, gespeeld in een Brusselse bistro genaamd La Cour Royale."
+      },
+      {
+        "id": 23,
+        "question": "Welke mosterd wordt op de markt gebracht door het Belgische bedrijf Bister ?",
+        "propositions": [
+          "Maille",
+          "L'Impériale",
+          "Naturalia",
+          "Pommery"
+        ],
+        "réponse": "L'Impériale",
+        "anecdote": "Het bedrijf Bister werd in 1926 opgericht door Franz Bister, destijds gespecialiseerd in het branden van witlof."
+      },
+      {
+        "id": 24,
+        "question": "Welk Belgisch bandenfabrikant werd opgericht in 1877 ?",
+        "propositions": [
+          "Maxxis",
+          "Engelbert",
+          "Hankook",
+          "Debica"
+        ],
+        "réponse": "Engelbert",
+        "anecdote": "Englebert-banden namen van 1950 tot 1958 deel aan 61 Formule 1 Grands Prix en wonnen acht overwinningen met Ferrari."
+      },
+      {
+        "id": 25,
+        "question": "Welk bier dat in Ninove wordt gebrouwen, is historisch verbonden met de abdij van Westmalle ?",
+        "propositions": [
+          "Pater Lieven",
+          "Witkap Pater",
+          "Bornem",
+          "Tongerlo"
+        ],
+        "réponse": "Witkap Pater",
+        "anecdote": "Witkap Pater bier werd al in 1929 gebrouwen door Hendrik Verlinden, de meesterbrouwer van brouwerij De Drie Linden in Brasschaat."
+      },
+      {
+        "id": 26,
+        "question": "Welk oud merk maakte motorfietsen in Herstal, België ?",
+        "propositions": [
+          "Carad",
+          "Doublettrack",
+          "Sarolea",
+          "Ridley Bikes"
+        ],
+        "réponse": "Sarolea",
+        "anecdote": "Het bedrijf maakte eerst wapenonderdelen en fietsen voordat het vanaf 1900 motorfietsen maakte."
+      },
+      {
+        "id": 27,
+        "question": "Welk bedrijf opgericht in Koekelberg had Big Nuts als paradepaardje ?",
+        "propositions": [
+          "Bruyerre",
+          "Clovis",
+          "Meurisse",
+          "Victoria"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Big Nuts werd achtereenvolgens aangeboden onder de merken Novesia-De Beukelaer, Meurisse en vervolgens, in 2008, Côte d'Or."
+      },
+      {
+        "id": 28,
+        "question": "Welk merk is gespecialiseerd in de productie van premium biologische chocolade ?",
+        "propositions": [
+          "Kaoka",
+          "NewTree",
+          "Valrhona",
+          "Blanxart"
+        ],
+        "réponse": "NewTree",
+        "anecdote": "Het bedrijf NewTree beweert duurzaam te zijn en beweert dat zijn chocoladerepen 100% CO2-neutraal zijn."
+      },
+      {
+        "id": 29,
+        "question": "Welk bedrijf in Achêne biedt niet-ggo-koolzaadolie aan ?",
+        "propositions": [
+          "Rissoline",
+          "Naturaplan",
+          "Alvenat",
+          "Jules"
+        ],
+        "réponse": "Alvenat",
+        "anecdote": "Koolzaadolie is de tweede meest geconsumeerde eetbare olie in België en Frankrijk, na zonnebloem."
+      },
+      {
+        "id": 30,
+        "question": "Welke universele smaakmaker is een knipoog naar de brandende stad ?",
+        "propositions": [
+          "Degusta",
+          "Old Bay",
+          "Goya",
+          "Pepperron"
+        ],
+        "réponse": "Pepperron",
+        "anecdote": "De Bull Tamer, de Perron en het plein zijn drie seculiere en historische symbolen van de stad Luik."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Alexandre Verfaillie",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2023-06-14",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Top actions",
+      "slogan": "La bourse ou la vie"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Top Stocks",
+      "slogan": "Money or your Life"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Principales acciones",
+      "slogan": "Dinero o tu vida"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Le migliori azioni",
+      "slogan": "Soldi o la tua vita"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Top-Aktien",
+      "slogan": "Geld oder dein Leben"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Topaandelen",
+      "slogan": "Geld of je leven"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel pourcentage d'actions faut-il détenir au minimum pour être majoritaire en entreprise ?",
+        "propositions": [
+          "51 %",
+          "31 %",
+          "21 %",
+          "10 %"
+        ],
+        "réponse": "51 %",
+        "anecdote": "Pour être actionnaire majoritaire au sein d'une entreprise, il faut détenir au moins 50 % des actions, plus une action supplémentaire."
+      },
+      {
+        "id": 2,
+        "question": "Dans quelle ville française la bourse a-t-elle vu le jour en 1540 ?",
+        "propositions": [
+          "Lyon",
+          "Marseille",
+          "Grenoble",
+          "Paris"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "La ville de Lyon a été choisie en raison de sa position stratégique en tant que centre commercial majeur à l'époque, en France."
+      },
+      {
+        "id": 3,
+        "question": "Quel effondrement soudain et massif des cours de valeurs mobilières peut survenir ?",
+        "propositions": [
+          "Baisse abrupte",
+          "Chute active",
+          "Perte boursière",
+          "Krach boursier"
+        ],
+        "réponse": "Krach boursier",
+        "anecdote": "Le terme krach trouve son origine dans le mot allemand Krach, qui signifie bruit ou craquement, utilisé pour la première fois en 1873."
+      },
+      {
+        "id": 4,
+        "question": "Comment appelle-t-on un ordre de vente à seuil de profit ?",
+        "propositions": [
+          "Gain protecting",
+          "Take profit",
+          "Stop loss",
+          "Profit seeking"
+        ],
+        "réponse": "Take profit",
+        "anecdote": "Un take-profit order permet aux investisseurs de verrouiller leurs gains en fixant un prix de vente si le cours atteint un certain niveau."
+      },
+      {
+        "id": 5,
+        "question": "Comment appelle-t-on une part dans une société ?",
+        "propositions": [
+          "Distinction",
+          "Action",
+          "Nomination",
+          "Effraction"
+        ],
+        "réponse": "Action",
+        "anecdote": "Une part est communément appelée une action, représentant donc la propriété et la participation d'un individu dans ladite société."
+      },
+      {
+        "id": 6,
+        "question": "Que reçoivent potentiellement les actionnaires suite aux bénéfices d'une société ?",
+        "propositions": [
+          "Coupons",
+          "Dividendes",
+          "Articles",
+          "Actions"
+        ],
+        "réponse": "Dividendes",
+        "anecdote": "Les actionnaires peuvent potentiellement recevoir en récompense des dividendes, en fonction des bénéfices réalisés par une société."
+      },
+      {
+        "id": 7,
+        "question": "Quelle révolution a permis l'évolution rapide des marchés boursiers au XIXe siècle ?",
+        "propositions": [
+          "Industrielle",
+          "Économique",
+          "Technique",
+          "Informatique"
+        ],
+        "réponse": "Industrielle",
+        "anecdote": "La révolution des chemins de fer a permis le développement rapide des marchés boursiers au XIXe siècle, en facilitant le commerce."
+      },
+      {
+        "id": 8,
+        "question": "Quel terme associe-t-on à une personne qui achète et vend rapidement ses actions ?",
+        "propositions": [
+          "Spéculateur",
+          "Boursicoteur",
+          "Actionnaire passif",
+          "Bon père de famille"
+        ],
+        "réponse": "Spéculateur",
+        "anecdote": "Un day trader est une personne qui achète et vend rapidement des actions, cherchant à profiter des fluctuations à court terme."
+      },
+      {
+        "id": 9,
+        "question": "Comment appelle-t-on un ordre de vente à seuil de perte ?",
+        "propositions": [
+          "Risk reducing",
+          "Gain protecting",
+          "Stop loss",
+          "Profit taking"
+        ],
+        "réponse": "Stop loss",
+        "anecdote": "Un stop-loss order permet de limiter ses pertes en fixant un prix de vente automatique si le cours atteint un niveau prédéterminé."
+      },
+      {
+        "id": 10,
+        "question": "Quelle activité informatique consiste à acheter et vendre des valeurs au meilleur prix ?",
+        "propositions": [
+          "Loterie",
+          "Jeu",
+          "Trading",
+          "Minage"
+        ],
+        "réponse": "Trading",
+        "anecdote": "On peut ainsi acheter et vendre des actions au meilleur prix, les avancées technologiques optimisant les transactions."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle était la fonction principale des courtiers de change au XIIe siècle en France ?",
+        "propositions": [
+          "Facilitateur",
+          "Régulateur",
+          "Contrôleur",
+          "Gestionnaire"
+        ],
+        "réponse": "Contrôleur",
+        "anecdote": "En France, au XIIe siècle, les courtiers de change étaient chargés de contrôler et réguler les dettes des communautés agricoles."
+      },
+      {
+        "id": 12,
+        "question": "En quelle année la Bourse de Bruges fut-elle créée ?",
+        "propositions": [
+          "1409",
+          "1406",
+          "1407",
+          "1408"
+        ],
+        "réponse": "1409",
+        "anecdote": "En 1409, une bourse sera créée et la ville deviendra le marché financier le plus sophistiqué des Pays-Bas durant le XVe siècle."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel pays fut érigé le premier bâtiment conçu pour abriter une bourse ?",
+        "propositions": [
+          "Pays-Bas espagnols",
+          "Italie",
+          "France",
+          "Allemagne"
+        ],
+        "réponse": "Pays-Bas espagnols",
+        "anecdote": "C'est dans les Pays-Bas espagnols (Belgique actuelle) que le premier bâtiment conçu pour abriter une bourse fut édifié, à Anvers."
+      },
+      {
+        "id": 14,
+        "question": "Quel est le premier marché de cotations informatisées ?",
+        "propositions": [
+          "DJ30",
+          "CAC40",
+          "NASDAQ",
+          "BEL20"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "Le NASDAQ (National Association of Securities Dealers Automated Quotations) est le premier marché de cotations informatisées."
+      },
+      {
+        "id": 15,
+        "question": "À partir de quelle année les titres échangés furent-ils dématérialisés ?",
+        "propositions": [
+          "1990",
+          "2000",
+          "1970",
+          "1980"
+        ],
+        "réponse": "1970",
+        "anecdote": "À partir des années 1970, les titres échangés en bourse ont commencé à être dématérialisés grâce à la révolution informatique."
+      },
+      {
+        "id": 16,
+        "question": "Comment appelle-t-on un regroupement d'actions en anglais ?",
+        "propositions": [
+          "Consolidated share",
+          "Reverse stock split",
+          "Reverse stock merger",
+          "Stock combination"
+        ],
+        "réponse": "Reverse stock split",
+        "anecdote": "Les actions existantes ainsi regroupées sont combinées pour réduire leur nombre tout en augmentant leur valeur nominale."
+      },
+      {
+        "id": 17,
+        "question": "En quelle année la crise des subprimes a-t-elle eu lieu ?",
+        "propositions": [
+          "2008",
+          "1998",
+          "2018",
+          "1988"
+        ],
+        "réponse": "2008",
+        "anecdote": "La crise des subprimes a éclaté en 2008, déclenchant une crise financière mondiale, marquant une période tumultueuse."
+      },
+      {
+        "id": 18,
+        "question": "Que permet de transférer la bourse de manière générale ?",
+        "propositions": [
+          "Taux de change",
+          "Devises",
+          "Risque",
+          "Fluctuations"
+        ],
+        "réponse": "Risque",
+        "anecdote": "De manière générale, la bourse permet de transférer le risque par le biais des négociations d'actions et d'obligations."
+      },
+      {
+        "id": 19,
+        "question": "Quel indice boursier français reprend les 40 plus grandes entreprises françaises ?",
+        "propositions": [
+          "CAC40",
+          "SAC40",
+          "BAC40",
+          "NAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "Les quarante plus grandes entreprises cotées en France représentent de ce fait une part importante de l'économie nationale."
+      },
+      {
+        "id": 20,
+        "question": "En hommage à qui le pont au Change à Paris a-t-il été nommé ainsi ?",
+        "propositions": [
+          "Courtiers",
+          "Bâtisseurs",
+          "Investisseurs",
+          "Architectes"
+        ],
+        "réponse": "Courtiers",
+        "anecdote": "Les premiers courtiers se réunissaient sur le Grand Pont à Paris, l'actuel Pont au Change qui tire son nom des courtiers de change."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qui furent les premiers à échanger des créances d'État au XIIIe siècle ?",
+        "propositions": [
+          "Banquiers lombards",
+          "Banquiers mombards",
+          "Banquiers tombards",
+          "Banquiers gombards"
+        ],
+        "réponse": "Banquiers lombards",
+        "anecdote": "Le terme banquiers lombards ou plus simplement Lombards fait référence aux prêteurs sur gages du Moyen Âge."
+      },
+      {
+        "id": 22,
+        "question": "En quelle année fut recensé le tout premier krach boursier ?",
+        "propositions": [
+          "1636",
+          "1436",
+          "1336",
+          "1536"
+        ],
+        "réponse": "1636",
+        "anecdote": "Les cours des bulbes de tulipe ayant atteint des niveaux excessivement élevés, le cours s'effondra le premier octobre."
+      },
+      {
+        "id": 23,
+        "question": "Qui a émis des actions et des obligations pour la première fois en 1602 ?",
+        "propositions": [
+          "COV",
+          "CNI",
+          "INC",
+          "VOC"
+        ],
+        "réponse": "VOC",
+        "anecdote": "La première émission d'actions et d'obligations a été réalisée par la Compagnie néerlandaise des Indes orientales en 1602."
+      },
+      {
+        "id": 24,
+        "question": "À partir de quelle année les cours devaient-ils être criés afin d'améliorer les opérations ?",
+        "propositions": [
+          "1774",
+          "1780",
+          "1880",
+          "1980"
+        ],
+        "réponse": "1774",
+        "anecdote": "Un groupe de courtiers s'est réuni sous un arbre pour effectuer des transactions, marquant le début d'une méthode plus organisée."
+      },
+      {
+        "id": 25,
+        "question": "Quelle était la capitalisation de la bourse de New-York en janvier 2021 ?",
+        "propositions": [
+          "4 trillions USD",
+          "1 trillion USD",
+          "24 trillions USD",
+          "14 trillions USD"
+        ],
+        "réponse": "24 trillions USD",
+        "anecdote": "En janvier 2021, la capitalisation boursière de la Bourse de New York atteignait des trillions de dollars, témoignant de son importance."
+      },
+      {
+        "id": 26,
+        "question": "Que signifie la lettre P de l'acronyme boursier anglais IPO ?",
+        "propositions": [
+          "Potential",
+          "Public",
+          "Partner",
+          "Profit"
+        ],
+        "réponse": "Public",
+        "anecdote": "L'IPO (Initial Public Offering) se réfère à la première offre publique de vente d'actions d'une entreprise auprès des investisseurs."
+      },
+      {
+        "id": 27,
+        "question": "Quel indice de rentabilité exclue les facteurs financiers et non opérationnels ?",
+        "propositions": [
+          "IRG",
+          "EBITDA",
+          "IBNJDA",
+          "IPEF"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "L'indice EBITDA mesure la rentabilité en excluant les éléments financiers et non opérationnels, permettant une analyse plus pure."
+      },
+      {
+        "id": 28,
+        "question": "Quel type de marché définit le mieux le marché de type OTC ?",
+        "propositions": [
+          "Multi-enterprises",
+          "Multi-particuliers",
+          "Corporatif",
+          "De gré à gré"
+        ],
+        "réponse": "De gré à gré",
+        "anecdote": "Le marché de gré à gré (OTC) est un type de marché décentralisé où les transactions se font directement entre les parties."
+      },
+      {
+        "id": 29,
+        "question": "Comment est appelé un détenteur d'actions sur le long terme ?",
+        "propositions": [
+          "Actionnaire passif",
+          "Bon père de famille",
+          "Boursicoteur",
+          "Spéculateur"
+        ],
+        "réponse": "Bon père de famille",
+        "anecdote": "Un détenteur d'actions sur le long terme est appelé investisseur de croissance, recherchant une appréciation à long terme."
+      },
+      {
+        "id": 30,
+        "question": "Quel trader célèbre a construit son empire autour de BRKB ?",
+        "propositions": [
+          "Warren Buffett",
+          "Elon Musk",
+          "Bill Gates",
+          "Loup de Wall street"
+        ],
+        "réponse": "Warren Buffett",
+        "anecdote": "Warren Buffett a acquis Berkshire Hathaway en 1965, entreprise textile en déclin, pour la transformer en un empire prospère."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What percentage of shares must be held at least to be the majority in a company ?",
+        "propositions": [
+          "10%",
+          "51%",
+          "21%",
+          "31%"
+        ],
+        "réponse": "51%",
+        "anecdote": "To be a majority shareholder in a company, you must hold at least 50% of the shares, plus one additional share."
+      },
+      {
+        "id": 2,
+        "question": "In which French city did the stock exchange originate in 1540 ?",
+        "propositions": [
+          "Grenoble",
+          "Paris",
+          "Marseilles",
+          "Lyons"
+        ],
+        "réponse": "Lyons",
+        "anecdote": "The city of Lyon was chosen because of its strategic position as a major commercial center at the time, in France."
+      },
+      {
+        "id": 3,
+        "question": "What sudden and massive stock price crash can occur ?",
+        "propositions": [
+          "Stock market loss",
+          "Steep decline",
+          "Stock market crash",
+          "Active fall"
+        ],
+        "réponse": "Stock market crash",
+        "anecdote": "The term crash has its origins in the German word Krach, which means noise or crack, first used in 1873."
+      },
+      {
+        "id": 4,
+        "question": "What is a stop-profit sell order called ?",
+        "propositions": [
+          "Stop-loss",
+          "Take profit",
+          "Gain protecting",
+          "Profit seeking"
+        ],
+        "réponse": "Take profit",
+        "anecdote": "A take-profit order allows investors to lock in their gains by setting a sell price if the price reaches a certain level."
+      },
+      {
+        "id": 5,
+        "question": "What is a share in a company called ?",
+        "propositions": [
+          "Stock",
+          "Appointment",
+          "Burglary",
+          "Award"
+        ],
+        "réponse": "Stock",
+        "anecdote": "A share is commonly referred to as a share, thus representing an individual's ownership and participation in said company."
+      },
+      {
+        "id": 6,
+        "question": "What do shareholders potentially receive as a result of a company's profits ?",
+        "propositions": [
+          "Vouchers",
+          "Dividends",
+          "Items",
+          "Shares"
+        ],
+        "réponse": "Dividends",
+        "anecdote": "Shareholders can potentially receive dividend rewards, depending on the profits made by a company."
+      },
+      {
+        "id": 7,
+        "question": "What revolution enabled the rapid evolution of stock markets in the 19th century ?",
+        "propositions": [
+          "Technical",
+          "Economic",
+          "IT",
+          "Industrial"
+        ],
+        "réponse": "Industrial",
+        "anecdote": "The railway revolution enabled the rapid development of stock markets in the 19th century, facilitating trade."
+      },
+      {
+        "id": 8,
+        "question": "What term is associated with a person who quickly buys and sells their stocks ?",
+        "propositions": [
+          "Passive shareholder",
+          "Good family man",
+          "Stockbroker",
+          "Speculator"
+        ],
+        "réponse": "Speculator",
+        "anecdote": "A day trader is someone who buys and sells stocks quickly, looking to profit from short-term fluctuations."
+      },
+      {
+        "id": 9,
+        "question": "What is a stop-loss sell order called ?",
+        "propositions": [
+          "Stop-loss",
+          "Risk-reducing",
+          "Gain protecting",
+          "Profit-taking"
+        ],
+        "réponse": "Stop-loss",
+        "anecdote": "A stop-loss order allows you to limit your losses by setting an automatic sale price if the price reaches a predetermined level."
+      },
+      {
+        "id": 10,
+        "question": "What computer activity consists of buying and selling securities at the best price ?",
+        "propositions": [
+          "Trading",
+          "Game",
+          "Mining",
+          "Lottery"
+        ],
+        "réponse": "Trading",
+        "anecdote": "It is thus possible to buy and sell shares at the best price, as technological advances optimize transactions."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What was the main function of exchange brokers in 12th century France ?",
+        "propositions": [
+          "Regulator",
+          "Controller",
+          "Facilitator",
+          "Manager"
+        ],
+        "réponse": "Controller",
+        "anecdote": "In France, in the 12th century, exchange brokers were responsible for controlling and regulating the debts of agricultural communities."
+      },
+      {
+        "id": 12,
+        "question": "When was the Bruges Stock Exchange created ?",
+        "propositions": [
+          "1406",
+          "1408",
+          "1407",
+          "1409"
+        ],
+        "réponse": "1409",
+        "anecdote": "In 1409, a stock exchange will be created and the city will become the most sophisticated financial market in the Netherlands during the 15th century."
+      },
+      {
+        "id": 13,
+        "question": "In which country was erected the first building designed to house a stock exchange ?",
+        "propositions": [
+          "France",
+          "Germany",
+          "Italy",
+          "Spanish Netherlands"
+        ],
+        "réponse": "Spanish Netherlands",
+        "anecdote": "It was in the Spanish Netherlands (present-day Belgium) that the first building designed to house a stock exchange was built, in Antwerp."
+      },
+      {
+        "id": 14,
+        "question": "What is the leading computerized quotes market ?",
+        "propositions": [
+          "BEL20",
+          "CAC40",
+          "NASDAQ",
+          "DJ30"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "NASDAQ (National Association of Securities Dealers Automated Quotations) is the premier market for computerized quotations."
+      },
+      {
+        "id": 15,
+        "question": "From what year were the securities exchanged dematerialized ?",
+        "propositions": [
+          "1980",
+          "2000",
+          "1970",
+          "1990"
+        ],
+        "réponse": "1970",
+        "anecdote": "From the 1970s, securities traded on the stock exchange began to be dematerialized thanks to the computer revolution."
+      },
+      {
+        "id": 16,
+        "question": "What is a reverse stock split called in English ?",
+        "propositions": [
+          "Reverse stock split",
+          "Consolidated share",
+          "Reverse stock merger",
+          "Stockcombination"
+        ],
+        "réponse": "Reverse stock split",
+        "anecdote": "The existing shares thus consolidated are combined to reduce their number while increasing their nominal value."
+      },
+      {
+        "id": 17,
+        "question": "In what year did the subprime mortgage crisis take place ?",
+        "propositions": [
+          "1998",
+          "2018",
+          "1988",
+          "2008"
+        ],
+        "réponse": "2008",
+        "anecdote": "The subprime mortgage crisis erupted in 2008, triggering a global financial crisis, marking a tumultuous time."
+      },
+      {
+        "id": 18,
+        "question": "What does the scholarship generally transfer ?",
+        "propositions": [
+          "Risk",
+          "Currencies",
+          "Exchange rate",
+          "Fluctuations"
+        ],
+        "réponse": "Risk",
+        "anecdote": "Generally speaking, the stock market allows the transfer of risk through the trading of stocks and bonds."
+      },
+      {
+        "id": 19,
+        "question": "Which French stock market index includes the 40 largest French companies ?",
+        "propositions": [
+          "NAC40",
+          "SAC40",
+          "CAC40",
+          "BAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "The forty largest companies listed in France therefore represent an important part of the national economy."
+      },
+      {
+        "id": 20,
+        "question": "In tribute to whom was the Pont au Change in Paris named ?",
+        "propositions": [
+          "Builders",
+          "Architects",
+          "Investors",
+          "Brokers"
+        ],
+        "réponse": "Brokers",
+        "anecdote": "The first brokers met on the Grand Pont in Paris, the current Pont au Change which takes its name from the exchange brokers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Who were the first to exchange state debts in the 13th century ?",
+        "propositions": [
+          "Lucky bankers",
+          "Lombard bankers",
+          "Gambard bankers",
+          "Mombard bankers"
+        ],
+        "réponse": "Lombard bankers",
+        "anecdote": "The term Lombard bankers or more simply Lombards refers to medieval pawnbrokers."
+      },
+      {
+        "id": 22,
+        "question": "In what year was the very first stock market crash recorded ?",
+        "propositions": [
+          "1336",
+          "1436",
+          "1536",
+          "1636"
+        ],
+        "réponse": "1636",
+        "anecdote": "Tulip bulb prices having reached excessively high levels, the price collapsed on the first of October."
+      },
+      {
+        "id": 23,
+        "question": "Who first issued stocks and bonds in 1602 ?",
+        "propositions": [
+          "CVO",
+          "VOC",
+          "NIC",
+          "INC"
+        ],
+        "réponse": "CVO",
+        "anecdote": "The first issue of stocks and bonds was made by the Dutch East India Company in 1602."
+      },
+      {
+        "id": 24,
+        "question": "From what year should classes be shouted out in order to improve operations ?",
+        "propositions": [
+          "1880",
+          "1774",
+          "1980",
+          "1780"
+        ],
+        "réponse": "1774",
+        "anecdote": "A group of brokers gathered under a tree to transact, marking the start of a more organized method."
+      },
+      {
+        "id": 25,
+        "question": "What was the capitalization of the New York Stock Exchange in January 2021 ?",
+        "propositions": [
+          "$24 trillion",
+          "$1 trillion",
+          "$14 trillion",
+          "$4 trillion"
+        ],
+        "réponse": "$24 trillion",
+        "anecdote": "In January 2021, the market capitalization of the New York Stock Exchange reached trillions of dollars, testifying to its importance."
+      },
+      {
+        "id": 26,
+        "question": "What does the letter P of the English stock exchange acronym IPO mean ?",
+        "propositions": [
+          "Audience",
+          "Potential",
+          "Partner",
+          "profit"
+        ],
+        "réponse": "Audience",
+        "anecdote": "IPO (Initial Public Offering) refers to the first public offering of a company's shares to investors."
+      },
+      {
+        "id": 27,
+        "question": "Which profitability index excludes financial and non-operational factors ?",
+        "propositions": [
+          "WRI",
+          "EBITDA",
+          "IBNJDA",
+          "IPEF"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "The EBITDA index measures profitability by excluding financial and non-operating items, allowing for a purer analysis."
+      },
+      {
+        "id": 28,
+        "question": "What type of market best defines the OTC type market ?",
+        "propositions": [
+          "OTC",
+          "Multi-companies",
+          "Multi-individuals",
+          "Corporate"
+        ],
+        "réponse": "OTC",
+        "anecdote": "The over-the-counter (OTC) market is a type of decentralized market where transactions are made directly between parties."
+      },
+      {
+        "id": 29,
+        "question": "What is a long-term stockholder called ?",
+        "propositions": [
+          "Stockbroker",
+          "Speculator",
+          "Good family man",
+          "Passive shareholder"
+        ],
+        "réponse": "Good family man",
+        "anecdote": "A long-term equity holder is called a growth investor, seeking long-term appreciation."
+      },
+      {
+        "id": 30,
+        "question": "Which famous trader built his empire around BRKB ?",
+        "propositions": [
+          "Warren Buffet",
+          "Wolf of Wall Street",
+          "Elon Musk",
+          "Bill Gates"
+        ],
+        "réponse": "Warren Buffet",
+        "anecdote": "Warren Buffett acquired Berkshire Hathaway in 1965, a declining textile company, to transform it into a thriving empire."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie viel Prozent der Anteile muss man mindestens besitzen, um die Mehrheit an einem Unternehmen zu besitzen ?",
+        "propositions": [
+          "31 %",
+          "21 %",
+          "10 %",
+          "51 %"
+        ],
+        "réponse": "51 %",
+        "anecdote": "Um Mehrheitsaktionär eines Unternehmens zu sein, müssen Sie mindestens 50 % der Anteile plus eine weitere Aktie halten."
+      },
+      {
+        "id": 2,
+        "question": "In welcher französischen Stadt entstand 1540 die Börse ?",
+        "propositions": [
+          "Grenoble",
+          "Paris",
+          "Lyon",
+          "Marseille"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "Die Stadt Lyon wurde aufgrund ihrer strategischen Lage als damals wichtiges Handelszentrum in Frankreich ausgewählt."
+      },
+      {
+        "id": 3,
+        "question": "Zu welchem plötzlichen und massiven Absturz des Aktienkurses kann es kommen ?",
+        "propositions": [
+          "Steiler Rückgang",
+          "Börsenverlust",
+          "Börsencrash",
+          "Aktiver Herbst"
+        ],
+        "réponse": "Börsencrash",
+        "anecdote": "Der Begriff Crash hat seinen Ursprung im deutschen Wort Krach, was Lärm oder Knacken bedeutet und erstmals 1873 verwendet wurde."
+      },
+      {
+        "id": 4,
+        "question": "Wie nennt man eine Stop-Profit-Verkaufsorder ?",
+        "propositions": [
+          "Gewinn mitnehmen",
+          "Schutz gewinnen",
+          "Stop-Loss",
+          "Gewinnstrebend"
+        ],
+        "réponse": "Gewinn mitnehmen",
+        "anecdote": "Mit einer Take-Profit-Order können Anleger ihre Gewinne sichern, indem sie einen Verkaufspreis festlegen, wenn der Preis ein bestimmtes Niveau erreicht."
+      },
+      {
+        "id": 5,
+        "question": "Wie heißt eine Beteiligung an einem Unternehmen ?",
+        "propositions": [
+          "Einbruch",
+          "Termin",
+          "Lager",
+          "Auszeichnung"
+        ],
+        "réponse": "Lager",
+        "anecdote": "Eine Aktie wird im Allgemeinen als Aktie bezeichnet und stellt somit das Eigentum und die Beteiligung einer Person an dem Unternehmen dar."
+      },
+      {
+        "id": 6,
+        "question": "Was erhalten Aktionäre potenziell aus den Gewinnen eines Unternehmens ?",
+        "propositions": [
+          "Dividenden",
+          "Gutscheine",
+          "Aktien",
+          "Artikel"
+        ],
+        "réponse": "Dividenden",
+        "anecdote": "Abhängig von den Gewinnen eines Unternehmens können Aktionäre möglicherweise Dividendenprämien erhalten."
+      },
+      {
+        "id": 7,
+        "question": "Welche Revolution ermöglichte die rasante Entwicklung der Aktienmärkte im 19. Jahrhundert ?",
+        "propositions": [
+          "Wirtschaftlich",
+          "Technische",
+          "IT",
+          "Industrie"
+        ],
+        "réponse": "Industrie",
+        "anecdote": "Die Eisenbahnrevolution ermöglichte im 19. Jahrhundert die rasante Entwicklung der Aktienmärkte und erleichterte den Handel."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Begriff wird mit einer Person assoziiert, die ihre Aktien schnell kauft und verkauft ?",
+        "propositions": [
+          "Börsenmakler",
+          "Guter Familienvater",
+          "Passiver Aktionär",
+          "Spekulant"
+        ],
+        "réponse": "Spekulant",
+        "anecdote": "Ein Daytrader ist jemand, der Aktien schnell kauft und verkauft, um von kurzfristigen Schwankungen zu profitieren."
+      },
+      {
+        "id": 9,
+        "question": "Wie nennt man eine Stop-Loss-Verkaufsorder ?",
+        "propositions": [
+          "Stop-Loss",
+          "Schutz gewinnen",
+          "Gewinnmitnahmen",
+          "Risikomindernd"
+        ],
+        "réponse": "Stop-Loss",
+        "anecdote": "Mit einer Stop-Loss-Order können Sie Ihre Verluste begrenzen, indem Sie einen automatischen Verkaufspreis festlegen, wenn der Preis ein vorgegebenes Niveau erreicht."
+      },
+      {
+        "id": 10,
+        "question": "Welche Computeraktivität besteht darin, Wertpapiere zum besten Preis zu kaufen und zu verkaufen ?",
+        "propositions": [
+          "Handel",
+          "Spiel",
+          "Bergbau",
+          "Lotterie"
+        ],
+        "réponse": "Handel",
+        "anecdote": "Dadurch ist es möglich, Aktien zum besten Preis zu kaufen und zu verkaufen, da der technologische Fortschritt die Transaktionen optimiert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Was war die Hauptaufgabe von Börsenmaklern im Frankreich des 12. Jahrhunderts ?",
+        "propositions": [
+          "Regulator",
+          "Moderator",
+          "Manager",
+          "Controller"
+        ],
+        "réponse": "Controller",
+        "anecdote": "In Frankreich waren im 12. Jahrhundert Devisenmakler für die Kontrolle und Regulierung der Schulden landwirtschaftlicher Gemeinden verantwortlich."
+      },
+      {
+        "id": 12,
+        "question": "Wann wurde die Brügger Börse gegründet ?",
+        "propositions": [
+          "1407",
+          "1408",
+          "1406",
+          "1409"
+        ],
+        "réponse": "1409",
+        "anecdote": "Im Jahr 1409 wird eine Börse gegründet und die Stadt wird im 15. Jahrhundert zum fortschrittlichsten Finanzmarkt der Niederlande."
+      },
+      {
+        "id": 13,
+        "question": "In welchem Land wurde das erste Gebäude errichtet, in dem eine Börse untergebracht werden sollte ?",
+        "propositions": [
+          "Deutschland",
+          "Italien",
+          "Spanische Niederlande",
+          "Frankreich"
+        ],
+        "réponse": "Spanische Niederlande",
+        "anecdote": "In den spanischen Niederlanden (dem heutigen Belgien) wurde in Antwerpen das erste Gebäude für die Unterbringung einer Börse errichtet."
+      },
+      {
+        "id": 14,
+        "question": "Was ist der führende Markt für computergestützte Angebote ?",
+        "propositions": [
+          "NASDAQ",
+          "DJ30",
+          "CAC40",
+          "BEL20"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "NASDAQ (National Association of Securities Dealers Automated Quotations) ist der führende Markt für computergestützte Notierungen."
+      },
+      {
+        "id": 15,
+        "question": "Ab welchem Jahr wurden die umgetauschten Wertpapiere dematerialisiert ?",
+        "propositions": [
+          "1970",
+          "2000",
+          "1980",
+          "1990"
+        ],
+        "réponse": "1970",
+        "anecdote": "Ab den 1970er Jahren begann die Entmaterialisierung der an der Börse gehandelten Wertpapiere dank der Computerrevolution."
+      },
+      {
+        "id": 16,
+        "question": "Wie nennt man einen umgekehrten Aktiensplit auf Englisch ?",
+        "propositions": [
+          "Konsolidierter Anteil",
+          "Umgekehrter Aktiensplit",
+          "Umgekehrte Aktienfusion",
+          "Aktienkombination"
+        ],
+        "réponse": "Umgekehrter Aktiensplit",
+        "anecdote": "Die so zusammengefassten bestehenden Aktien werden zur Verringerung ihrer Anzahl bei gleichzeitiger Erhöhung ihres Nennwerts zusammengefasst."
+      },
+      {
+        "id": 17,
+        "question": "In welchem Jahr fand die Subprime-Hypothekenkrise statt ?",
+        "propositions": [
+          "2018",
+          "1988",
+          "1998",
+          "2008"
+        ],
+        "réponse": "2008",
+        "anecdote": "Im Jahr 2008 brach die Subprime-Hypothekenkrise aus, die eine globale Finanzkrise auslöste und eine turbulente Zeit markierte."
+      },
+      {
+        "id": 18,
+        "question": "Was wird im Allgemeinen durch das Stipendium übertragen ?",
+        "propositions": [
+          "Schwankungen",
+          "Risiko",
+          "Währungen",
+          "Wechselkurs"
+        ],
+        "réponse": "Risiko",
+        "anecdote": "Im Allgemeinen ermöglicht der Aktienmarkt die Übertragung von Risiken durch den Handel mit Aktien und Anleihen."
+      },
+      {
+        "id": 19,
+        "question": "Welcher französische Börsenindex umfasst die 40 größten französischen Unternehmen ?",
+        "propositions": [
+          "SAC40",
+          "NAC40",
+          "CAC40",
+          "BAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "Die vierzig größten in Frankreich börsennotierten Unternehmen repräsentieren daher einen wichtigen Teil der Volkswirtschaft."
+      },
+      {
+        "id": 20,
+        "question": "Als Hommage an wen wurde die Pont au Change in Paris benannt ?",
+        "propositions": [
+          "Bauherren",
+          "Architekten",
+          "Investoren",
+          "Makler"
+        ],
+        "réponse": "Makler",
+        "anecdote": "Die ersten Makler trafen sich auf dem Grand Pont in Paris, dem heutigen Pont au Change, der seinen Namen von den Börsenmaklern hat."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wer war der Erste, der im 13. Jahrhundert Staatsschulden umtauschte ?",
+        "propositions": [
+          "Lombardische Bankiers",
+          "Mombard-Banker",
+          "Glückliche Banker",
+          "Gambard-Banker"
+        ],
+        "réponse": "Lombardische Bankiers",
+        "anecdote": "Der Begriff lombardische Bankiers oder einfacher Lombarden bezieht sich auf mittelalterliche Pfandleiher."
+      },
+      {
+        "id": 22,
+        "question": "In welchem Jahr wurde der allererste Börsencrash verzeichnet ?",
+        "propositions": [
+          "1436",
+          "1336",
+          "1636",
+          "1536"
+        ],
+        "réponse": "1636",
+        "anecdote": "Nachdem die Preise für Tulpenzwiebeln übermäßig hohe Niveaus erreicht hatten, brach der Preis am 1. Oktober ein."
+      },
+      {
+        "id": 23,
+        "question": "Wer gab 1602 erstmals Aktien und Anleihen aus ?",
+        "propositions": [
+          "VOC",
+          "CVO",
+          "INC",
+          "NIC"
+        ],
+        "réponse": "CVO",
+        "anecdote": "Die erste Ausgabe von Aktien und Anleihen erfolgte 1602 durch die Niederländische Ostindien-Kompanie."
+      },
+      {
+        "id": 24,
+        "question": "Ab welchem Jahr sollten Kurse ausgerufen werden, um den Betrieb zu verbessern ?",
+        "propositions": [
+          "1780",
+          "1880",
+          "1980",
+          "1774"
+        ],
+        "réponse": "1774",
+        "anecdote": "Eine Gruppe von Maklern versammelte sich unter einem Baum, um Geschäfte abzuwickeln, und markierte damit den Beginn einer besser organisierten Methode."
+      },
+      {
+        "id": 25,
+        "question": "Wie hoch war die Kapitalisierung der New York Stock Exchange im Januar 2021 ?",
+        "propositions": [
+          "4 Billionen US-Dollar",
+          "24 Billionen US-Dollar",
+          "14 Billionen US-Dollar",
+          "1 Billion US-Dollar"
+        ],
+        "réponse": "24 Billionen US-Dollar",
+        "anecdote": "Im Januar 2021 erreichte die Marktkapitalisierung der New Yorker Börse Billionen Dollar, was ihre Bedeutung unterstreicht."
+      },
+      {
+        "id": 26,
+        "question": "Was bedeutet der Buchstabe P des englischen Börsenkürzels IPO ?",
+        "propositions": [
+          "Publikum",
+          "Gewinn",
+          "Partner",
+          "Potenzial"
+        ],
+        "réponse": "Publikum",
+        "anecdote": "Unter IPO (Initial Public Offering) versteht man das erste öffentliche Angebot der Aktien eines Unternehmens an Investoren."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Rentabilitätsindex schließt finanzielle und nicht-operative Faktoren aus ?",
+        "propositions": [
+          "IBNJDA",
+          "WRI",
+          "EBITDA",
+          "IPEF"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "Der EBITDA-Index misst die Rentabilität, indem er finanzielle und nicht operative Posten ausschließt und so eine reinere Analyse ermöglicht."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Markttyp definiert den OTC-Markt am besten ?",
+        "propositions": [
+          "Mehrpersonen",
+          "Multi-Unternehmen",
+          "OTC",
+          "Unternehmen"
+        ],
+        "réponse": "OTC",
+        "anecdote": "Der außerbörsliche (OTC) Markt ist eine Art dezentraler Markt, auf dem Transaktionen direkt zwischen Parteien abgewickelt werden."
+      },
+      {
+        "id": 29,
+        "question": "Wie nennt man einen Langzeitaktionär ?",
+        "propositions": [
+          "Börsenmakler",
+          "Passiver Aktionär",
+          "Guter Familienvater",
+          "Spekulant"
+        ],
+        "réponse": "Guter Familienvater",
+        "anecdote": "Ein langfristiger Anteilseigner wird als Wachstumsinvestor bezeichnet, der eine langfristige Wertsteigerung anstrebt."
+      },
+      {
+        "id": 30,
+        "question": "Welcher berühmte Händler baute sein Imperium um BRKB herum auf ?",
+        "propositions": [
+          "Wolf der Wall Street",
+          "Warren Buffet",
+          "Elon Musk",
+          "Bill Gates"
+        ],
+        "réponse": "Warren Buffet",
+        "anecdote": "Warren Buffett erwarb 1965 Berkshire Hathaway, ein im Niedergang begriffenes Textilunternehmen, und machte daraus ein florierendes Imperium."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué porcentaje de acciones debe tener al menos para ser mayoría en una empresa ?",
+        "propositions": [
+          "10%",
+          "31%",
+          "51%",
+          "21%"
+        ],
+        "réponse": "51%",
+        "anecdote": "Para ser accionista mayoritario de una empresa se debe poseer al menos el 50% de las acciones, más una acción adicional."
+      },
+      {
+        "id": 2,
+        "question": "¿En qué ciudad francesa se originó la bolsa de valores en 1540 ?",
+        "propositions": [
+          "París",
+          "Marsella",
+          "Grenoble",
+          "Lyon"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "La ciudad de Lyon fue elegida por su posición estratégica como un importante centro comercial en ese momento, en Francia."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué caída repentina y masiva del precio de las acciones puede ocurrir ?",
+        "propositions": [
+          "Caída activa",
+          "Empinada caída",
+          "Caída del mercado de valores",
+          "Pérdida del mercado de valores"
+        ],
+        "réponse": "Caída del mercado de valores",
+        "anecdote": "El término choque tiene su origen en la palabra alemana Krach, que significa ruido o grieta, utilizada por primera vez en 1873."
+      },
+      {
+        "id": 4,
+        "question": "¿Cómo se llama una orden de venta de stop-profit ?",
+        "propositions": [
+          "Stop-loss",
+          "Búsqueda de ganancias",
+          "Tomar ganancias",
+          "Ganar protección"
+        ],
+        "réponse": "Tomar ganancias",
+        "anecdote": "Una orden de toma de ganancias permite a los inversores asegurar sus ganancias al establecer un precio de venta si el precio alcanza un cierto nivel."
+      },
+      {
+        "id": 5,
+        "question": "¿Cómo se llama la acción de una empresa ?",
+        "propositions": [
+          "Cita",
+          "Premio",
+          "Robo",
+          "Acción"
+        ],
+        "réponse": "Acción",
+        "anecdote": "Una acción se conoce comúnmente como una acción, por lo que representa la propiedad y participación de un individuo en dicha empresa."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué reciben potencialmente los accionistas como resultado de las utilidades de una empresa ?",
+        "propositions": [
+          "Acciones",
+          "Vales",
+          "Dividendos",
+          "Artículos"
+        ],
+        "réponse": "Dividendos",
+        "anecdote": "Los accionistas pueden recibir potencialmente recompensas de dividendos, dependiendo de las ganancias obtenidas por una empresa."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué revolución permitió la rápida evolución de los mercados de valores en el siglo XIX ?",
+        "propositions": [
+          "TI",
+          "Técnico",
+          "industriales",
+          "Económico"
+        ],
+        "réponse": "industriales",
+        "anecdote": "La revolución ferroviaria permitió el rápido desarrollo de las bolsas de valores en el siglo XIX, facilitando el comercio."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué término se asocia con una persona que compra y vende rápidamente sus acciones ?",
+        "propositions": [
+          "Accionista pasivo",
+          "especulador",
+          "corredor de bolsa",
+          "Buen hombre de familia"
+        ],
+        "réponse": "especulador",
+        "anecdote": "Un comerciante de día es alguien que compra y vende acciones rápidamente, buscando beneficiarse de las fluctuaciones a corto plazo."
+      },
+      {
+        "id": 9,
+        "question": "¿Cómo se llama una orden de venta de stop-loss ?",
+        "propositions": [
+          "Stop-loss",
+          "Ganar protección",
+          "Toma de ganancias",
+          "Reducción de riesgos"
+        ],
+        "réponse": "Stop-loss",
+        "anecdote": "Una orden stop-loss le permite limitar sus pérdidas al establecer un precio de venta automático si el precio alcanza un nivel predeterminado."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué actividad informática consiste en comprar y vender valores al mejor precio ?",
+        "propositions": [
+          "Comercio",
+          "Minería",
+          "Lotería",
+          "Juego"
+        ],
+        "réponse": "Comercio",
+        "anecdote": "Así es posible comprar y vender acciones al mejor precio, ya que los avances tecnológicos optimizan las transacciones."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál era la función principal de los corredores de cambio en la Francia del siglo XII ?",
+        "propositions": [
+          "Regulador",
+          "Controlador",
+          "Facilitador",
+          "Gerente"
+        ],
+        "réponse": "Controlador",
+        "anecdote": "En Francia, en el siglo XII, los corredores de cambio eran los encargados de controlar y regular las deudas de las comunidades agrícolas."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuándo se creó la Bolsa de Valores de Brujas ?",
+        "propositions": [
+          "1408",
+          "1407",
+          "1406",
+          "1409"
+        ],
+        "réponse": "1409",
+        "anecdote": "En 1409, se creará una bolsa de valores y la ciudad se convertirá en el mercado financiero más sofisticado de los Países Bajos durante el siglo XV."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué país se erigió el primer edificio diseñado para albergar una bolsa de valores ?",
+        "propositions": [
+          "Español Países Bajos",
+          "Italia",
+          "Alemania",
+          "Francia"
+        ],
+        "réponse": "Español Países Bajos",
+        "anecdote": "Fue en los Países Bajos españoles (actual Bélgica) donde se construyó el primer edificio diseñado para albergar una bolsa de valores, en Amberes."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el mercado líder de cotizaciones computarizadas ?",
+        "propositions": [
+          "DJ30",
+          "NASDAQ",
+          "BEL20",
+          "CAC40"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "NASDAQ (National Association of Securities Dealers Automated Quotations) es el principal mercado de cotizaciones computarizadas."
+      },
+      {
+        "id": 15,
+        "question": "¿A partir de qué año se desmaterializaron los valores canjeados ?",
+        "propositions": [
+          "1980",
+          "1990",
+          "2000",
+          "1970"
+        ],
+        "réponse": "1970",
+        "anecdote": "A partir de la década de 1970, los valores negociados en bolsa comenzaron a desmaterializarse gracias a la revolución informática."
+      },
+      {
+        "id": 16,
+        "question": "¿Cómo se llama en inglés una división inversa de acciones ?",
+        "propositions": [
+          "Fusión inversa de acciones",
+          "Participación consolidada",
+          "División inversa de acciones",
+          "Combinación de acciones"
+        ],
+        "réponse": "División inversa de acciones",
+        "anecdote": "Las acciones existentes así consolidadas se combinan para reducir su número aumentando su valor nominal."
+      },
+      {
+        "id": 17,
+        "question": "¿En qué año se produjo la crisis de las hipotecas subprime ?",
+        "propositions": [
+          "2008",
+          "1998",
+          "2018",
+          "1988"
+        ],
+        "réponse": "2008",
+        "anecdote": "La crisis de las hipotecas de alto riesgo estalló en 2008, desencadenando una crisis financiera mundial y marcando una época tumultuosa."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué transfiere generalmente la beca ?",
+        "propositions": [
+          "Riesgo",
+          "Fluctuaciones",
+          "Monedas",
+          "Tipo de cambio"
+        ],
+        "réponse": "Riesgo",
+        "anecdote": "En términos generales, el mercado de valores permite la transferencia de riesgo a través de la negociación de acciones y bonos."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué índice bursátil francés incluye las 40 mayores empresas francesas ?",
+        "propositions": [
+          "NAC40",
+          "CAC40",
+          "BAC40",
+          "SAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "Las cuarenta empresas más grandes que cotizan en Francia representan, por lo tanto, una parte importante de la economía nacional."
+      },
+      {
+        "id": 20,
+        "question": "¿En homenaje a quién se nombró el Pont au Change de París ?",
+        "propositions": [
+          "Corredores",
+          "Arquitectos",
+          "Constructores",
+          "Inversores"
+        ],
+        "réponse": "Corredores",
+        "anecdote": "Los primeros corredores se reunían en el Grand Pont de París, el actual Pont au Change que toma su nombre de los corredores de cambio."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Quiénes fueron los primeros en canjear deudas estatales en el siglo XIII ?",
+        "propositions": [
+          "Banqueros lombardos",
+          "banqueros Gambard",
+          "Banqueros afortunados",
+          "banqueros Mombard"
+        ],
+        "réponse": "Banqueros lombardos",
+        "anecdote": "El término banqueros lombardos o, más simplemente, lombardos se refiere a los prestamistas medievales."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué año se registró la primera caída del mercado de valores ?",
+        "propositions": [
+          "1536",
+          "1436",
+          "1636",
+          "1336"
+        ],
+        "réponse": "1636",
+        "anecdote": "Habiendo alcanzado los precios de los bulbos de tulipán niveles excesivamente altos, el precio se derrumbó el primero de octubre."
+      },
+      {
+        "id": 23,
+        "question": "¿Quién emitió por primera vez acciones y bonos en 1602 ?",
+        "propositions": [
+          "CVO",
+          "INC",
+          "COV",
+          "NIC"
+        ],
+        "réponse": "CVO",
+        "anecdote": "La primera emisión de acciones y bonos fue realizada por la Compañía Holandesa de las Indias Orientales en 1602."
+      },
+      {
+        "id": 24,
+        "question": "¿A partir de qué año se deben gritar las clases para mejorar las operaciones ?",
+        "propositions": [
+          "1980",
+          "1880",
+          "1780",
+          "1774"
+        ],
+        "réponse": "1774",
+        "anecdote": "Un grupo de corredores se reunió bajo un árbol para realizar transacciones, lo que marcó el comienzo de un método más organizado."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuál fue la capitalización de la Bolsa de Valores de Nueva York en enero de 2021 ?",
+        "propositions": [
+          "$ 14 billones",
+          "$ 4 billones",
+          "$ 1 billón",
+          "$ 24 billones"
+        ],
+        "réponse": "$ 24 billones",
+        "anecdote": "En enero de 2021, la capitalización de mercado de la Bolsa de Valores de Nueva York alcanzó billones de dólares, lo que demuestra su importancia."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué significa la letra P del acrónimo bursátil inglés IPO ?",
+        "propositions": [
+          "Socio",
+          "beneficio",
+          "Potencial",
+          "Audiencia"
+        ],
+        "réponse": "Audiencia",
+        "anecdote": "IPO (Oferta Pública Inicial) se refiere a la primera oferta pública de acciones de una empresa a los inversores."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué índice de rentabilidad excluye factores financieros y no operativos ?",
+        "propositions": [
+          "IRG",
+          "EBITDA",
+          "IPEF",
+          "IBNJDA"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "El índice EBITDA mide la rentabilidad excluyendo elementos financieros y no operativos, lo que permite un análisis más puro."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué tipo de mercado define mejor el mercado tipo OTC ?",
+        "propositions": [
+          "Multiempresas",
+          "Múltiples individuos",
+          "OTC",
+          "Corporativo"
+        ],
+        "réponse": "OTC",
+        "anecdote": "El mercado extrabursátil (OTC) es un tipo de mercado descentralizado donde las transacciones se realizan directamente entre las partes."
+      },
+      {
+        "id": 29,
+        "question": "¿Cómo se llama un accionista a largo plazo ?",
+        "propositions": [
+          "corredor de bolsa",
+          "Buen hombre de familia",
+          "Accionista pasivo",
+          "especulador"
+        ],
+        "réponse": "Buen hombre de familia",
+        "anecdote": "Un tenedor de acciones a largo plazo se denomina inversionista de crecimiento y busca una apreciación a largo plazo."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué comerciante famoso construyó su imperio alrededor de BRKB ?",
+        "propositions": [
+          "puertas de bill",
+          "Elon almizcle",
+          "Bufé de Warren",
+          "Lobo de Wall Street"
+        ],
+        "réponse": "Bufé de Warren",
+        "anecdote": "Warren Buffett adquirió Berkshire Hathaway en 1965, una empresa textil en declive, para convertirla en un imperio próspero."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale percentuale di azioni deve essere detenuta almeno per essere la maggioranza in una società ?",
+        "propositions": [
+          "10%",
+          "21%",
+          "31%",
+          "51%"
+        ],
+        "réponse": "51%",
+        "anecdote": "Per essere un azionista di maggioranza in una società, devi detenere almeno il 50% delle azioni, più un'azione aggiuntiva."
+      },
+      {
+        "id": 2,
+        "question": "In quale città francese ebbe origine la Borsa nel 1540 ?",
+        "propositions": [
+          "Parigi",
+          "Grenoble",
+          "Marsiglia",
+          "Lione"
+        ],
+        "réponse": "Lione",
+        "anecdote": "La città di Lione fu scelta per la sua posizione strategica come importante centro commerciale dell'epoca in Francia."
+      },
+      {
+        "id": 3,
+        "question": "Quale improvviso e massiccio crollo del prezzo delle azioni può verificarsi ?",
+        "propositions": [
+          "forte declino",
+          "Caduta attiva",
+          "Perdita del mercato azionario",
+          "Crollo del mercato azionario"
+        ],
+        "réponse": "Crollo del mercato azionario",
+        "anecdote": "Il termine crash ha le sue origini nella parola tedesca Krach, che significa rumore o crepa, usata per la prima volta nel 1873."
+      },
+      {
+        "id": 4,
+        "question": "Come si chiama un ordine di vendita stop-profit ?",
+        "propositions": [
+          "Ricerca di profitto",
+          "Prendi profitto",
+          "Stop loss",
+          "Ottieni protezione"
+        ],
+        "réponse": "Prendi profitto",
+        "anecdote": "Un ordine take-profit consente agli investitori di bloccare i propri guadagni fissando un prezzo di vendita se il prezzo raggiunge un certo livello."
+      },
+      {
+        "id": 5,
+        "question": "Come si chiama una quota di una società ?",
+        "propositions": [
+          "Premio",
+          "Appuntamento",
+          "Furto con scasso",
+          "Magazzino"
+        ],
+        "réponse": "Magazzino",
+        "anecdote": "Un'azione è comunemente indicata come azione, rappresentando quindi la proprietà e la partecipazione di un individuo in detta società."
+      },
+      {
+        "id": 6,
+        "question": "Cosa ricevono potenzialmente gli azionisti come risultato dei profitti di una società ?",
+        "propositions": [
+          "Articoli",
+          "Azioni",
+          "Buoni",
+          "Dividendi"
+        ],
+        "réponse": "Dividendi",
+        "anecdote": "Gli azionisti possono potenzialmente ricevere dividendi, a seconda degli utili realizzati da una società."
+      },
+      {
+        "id": 7,
+        "question": "Quale rivoluzione ha consentito la rapida evoluzione dei mercati azionari nel XIX secolo ?",
+        "propositions": [
+          "IT",
+          "Tecnico",
+          "Economico",
+          "Industriale"
+        ],
+        "réponse": "Industriale",
+        "anecdote": "La rivoluzione ferroviaria ha consentito il rapido sviluppo dei mercati azionari nel XIX secolo, facilitando il commercio."
+      },
+      {
+        "id": 8,
+        "question": "Quale termine è associato a una persona che acquista e vende rapidamente le proprie azioni ?",
+        "propositions": [
+          "Azionista passivo",
+          "speculatore",
+          "Agente di cambio",
+          "Buon padre di famiglia"
+        ],
+        "réponse": "speculatore",
+        "anecdote": "Un day trader è qualcuno che acquista e vende azioni rapidamente, cercando di trarre profitto dalle fluttuazioni a breve termine."
+      },
+      {
+        "id": 9,
+        "question": "Come si chiama un ordine di vendita stop loss ?",
+        "propositions": [
+          "Riduzione del rischio",
+          "Ottieni protezione",
+          "Stop loss",
+          "Prese di profitto"
+        ],
+        "réponse": "Stop loss",
+        "anecdote": "Un ordine stop-loss ti consente di limitare le tue perdite impostando un prezzo di vendita automatico se il prezzo raggiunge un livello predeterminato."
+      },
+      {
+        "id": 10,
+        "question": "Quale attività informatica consiste nell'acquistare e vendere titoli al miglior prezzo ?",
+        "propositions": [
+          "Lotteria",
+          "Estrazione",
+          "Gioco",
+          "Commercio"
+        ],
+        "réponse": "Commercio",
+        "anecdote": "È quindi possibile acquistare e vendere azioni al miglior prezzo, poiché i progressi tecnologici ottimizzano le transazioni."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual era la funzione principale degli agenti di cambio nella Francia del XII secolo ?",
+        "propositions": [
+          "Direttore",
+          "Regolatore",
+          "Controllore",
+          "Facilitatore"
+        ],
+        "réponse": "Controllore",
+        "anecdote": "In Francia, nel XII secolo, i broker di cambio erano responsabili del controllo e della regolamentazione dei debiti delle comunità agricole."
+      },
+      {
+        "id": 12,
+        "question": "Quando è stata creata la Borsa di Bruges ?",
+        "propositions": [
+          "1409",
+          "1407",
+          "1408",
+          "140"
+        ],
+        "réponse": "1409",
+        "anecdote": "Nel 1409 verrà creata una borsa valori e la città diventerà il mercato finanziario più sofisticato dei Paesi Bassi durante il XV secolo."
+      },
+      {
+        "id": 13,
+        "question": "In quale paese è stato eretto il primo edificio destinato ad ospitare una borsa valori ?",
+        "propositions": [
+          "Italia",
+          "Spagnolo Paesi Bassi",
+          "Francia",
+          "Germania"
+        ],
+        "réponse": "Spagnolo Paesi Bassi",
+        "anecdote": "Fu nei Paesi Bassi spagnoli (l'attuale Belgio) che fu costruito il primo edificio progettato per ospitare una borsa valori, ad Anversa."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il principale mercato delle quotazioni computerizzate ?",
+        "propositions": [
+          "CAC40",
+          "NASDAQ",
+          "DJ30",
+          "BEL20"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "NASDAQ (National Association of Securities Dealers Automated Quotations) è il principale mercato per le quotazioni computerizzate."
+      },
+      {
+        "id": 15,
+        "question": "Da quale anno sono stati dematerializzati i titoli scambiati ?",
+        "propositions": [
+          "1970",
+          "1990",
+          "1980",
+          "2000"
+        ],
+        "réponse": "1970",
+        "anecdote": "A partire dagli anni '70 i titoli scambiati in borsa iniziarono a essere smaterializzati grazie alla rivoluzione informatica."
+      },
+      {
+        "id": 16,
+        "question": "Come si chiama in inglese un frazionamento azionario ?",
+        "propositions": [
+          "Combinazione di azioni",
+          "Quota consolidata",
+          "Fusione azionaria inversa",
+          "Raggruppamento azionario"
+        ],
+        "réponse": "Raggruppamento azionario",
+        "anecdote": "Le azioni esistenti così consolidate vengono accorpate al fine di ridurne il numero aumentandone il valore nominale."
+      },
+      {
+        "id": 17,
+        "question": "In che anno è scoppiata la crisi dei mutui subprime ?",
+        "propositions": [
+          "2018",
+          "1988",
+          "1998",
+          "2008"
+        ],
+        "réponse": "2008",
+        "anecdote": "La crisi dei mutui subprime scoppiata nel 2008, ha innescato una crisi finanziaria globale, segnando un periodo tumultuoso."
+      },
+      {
+        "id": 18,
+        "question": "Cosa trasferisce generalmente la borsa di studio ?",
+        "propositions": [
+          "Fluttuazioni",
+          "Rischio",
+          "Valute",
+          "Tasso di cambio"
+        ],
+        "réponse": "Rischio",
+        "anecdote": "In generale, il mercato azionario consente il trasferimento del rischio attraverso la negoziazione di azioni e obbligazioni."
+      },
+      {
+        "id": 19,
+        "question": "Quale indice del mercato azionario francese comprende le 40 maggiori società francesi ?",
+        "propositions": [
+          "CAC40",
+          "NAC40",
+          "BAC40",
+          "SAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "Le quaranta maggiori società quotate in Francia rappresentano quindi una parte importante dell'economia nazionale."
+      },
+      {
+        "id": 20,
+        "question": "In omaggio a chi è stato intitolato il Pont au Change di Parigi ?",
+        "propositions": [
+          "Architetti",
+          "Broker",
+          "Costruttori",
+          "Investitori"
+        ],
+        "réponse": "Broker",
+        "anecdote": "I primi broker si incontravano sul Grand Pont di Parigi, l'attuale Pont au Change che prende il nome dai broker di cambio."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Chi furono i primi a scambiare debiti statali nel XIII secolo ?",
+        "propositions": [
+          "banchieri mombard",
+          "banchieri Gambard",
+          "banchieri lombardi",
+          "Banchieri fortunati"
+        ],
+        "réponse": "banchieri lombardi",
+        "anecdote": "Con il termine banchieri lombardi o più semplicemente Longobardi si fa riferimento ai prestatori di pegno medievali."
+      },
+      {
+        "id": 22,
+        "question": "In quale anno è stato registrato il primo crollo del mercato azionario ?",
+        "propositions": [
+          "1336",
+          "1536",
+          "1636",
+          "143"
+        ],
+        "réponse": "1636",
+        "anecdote": "Avendo raggiunto livelli eccessivamente alti, i prezzi dei bulbi di tulipano sono crollati il primo ottobre."
+      },
+      {
+        "id": 23,
+        "question": "Chi emise per primo azioni e obbligazioni nel 1602 ?",
+        "propositions": [
+          "COV",
+          "INC",
+          "NIC",
+          "COV"
+        ],
+        "réponse": "COV",
+        "anecdote": "La prima emissione di azioni e obbligazioni fu effettuata dalla Compagnia Olandese delle Indie Orientali nel 1602."
+      },
+      {
+        "id": 24,
+        "question": "Da quale anno dovrebbero essere gridate le lezioni per migliorare le operazioni ?",
+        "propositions": [
+          "1980",
+          "1774",
+          "1780",
+          "1880"
+        ],
+        "réponse": "1774",
+        "anecdote": "Un gruppo di broker si è riunito sotto un albero per effettuare transazioni, segnando l'inizio di un metodo più organizzato."
+      },
+      {
+        "id": 25,
+        "question": "Qual è stata la capitalizzazione della Borsa di New York nel gennaio 2021 ?",
+        "propositions": [
+          "$ 4 trilioni",
+          "$ 14 trilioni",
+          "$ 1 trilione",
+          "$ 24 trilioni"
+        ],
+        "réponse": "$ 24 trilioni",
+        "anecdote": "A gennaio 2021 la capitalizzazione di mercato della Borsa di New York ha raggiunto i trilioni di dollari, a testimonianza della sua importanza."
+      },
+      {
+        "id": 26,
+        "question": "Cosa significa la lettera P dell'acronimo di borsa inglese IPO ?",
+        "propositions": [
+          "profitto",
+          "Pubblico",
+          "Potenziale",
+          "Socio"
+        ],
+        "réponse": "Pubblico",
+        "anecdote": "IPO (Initial Public Offering) si riferisce alla prima offerta pubblica di azioni di una società agli investitori."
+      },
+      {
+        "id": 27,
+        "question": "Quale indice di redditività esclude i fattori finanziari e non operativi ?",
+        "propositions": [
+          "WR",
+          "EBITDA",
+          "IPEF",
+          "IBNJDA"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "L'indice EBITDA misura la redditività escludendo gli elementi finanziari e non operativi, consentendo un'analisi più pura."
+      },
+      {
+        "id": 28,
+        "question": "Quale tipo di mercato definisce meglio il mercato di tipo OTC ?",
+        "propositions": [
+          "Multi-società",
+          "OTC",
+          "Multi-individui",
+          "Aziendale"
+        ],
+        "réponse": "OTC",
+        "anecdote": "Il mercato over-the-counter (OTC) è un tipo di mercato decentralizzato in cui le transazioni vengono effettuate direttamente tra le parti."
+      },
+      {
+        "id": 29,
+        "question": "Come si chiama un azionista a lungo termine ?",
+        "propositions": [
+          "speculatore",
+          "Agente di cambio",
+          "Azionista passivo",
+          "Buon padre di famiglia"
+        ],
+        "réponse": "Buon padre di famiglia",
+        "anecdote": "Un detentore di azioni a lungo termine è chiamato un investitore in crescita, alla ricerca di un apprezzamento a lungo termine."
+      },
+      {
+        "id": 30,
+        "question": "Quale famoso trader ha costruito il suo impero attorno a BRKB ?",
+        "propositions": [
+          "Lupo di Wall Street",
+          "Bill Gates",
+          "WarrenBuffet",
+          "Elon Muschio"
+        ],
+        "réponse": "WarrenBuffet",
+        "anecdote": "Warren Buffett ha acquisito Berkshire Hathaway nel 1965, un'azienda tessile in declino, per trasformarla in un fiorente impero."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk percentage van de aandelen moet ten minste in bezit zijn om de meerderheid in een bedrijf te zijn ?",
+        "propositions": [
+          "10%",
+          "31%",
+          "21%",
+          "51%"
+        ],
+        "réponse": "51%",
+        "anecdote": "Om meerderheidsaandeelhouder van een bedrijf te zijn, moet u minimaal 50% van de aandelen bezitten, plus één extra aandeel."
+      },
+      {
+        "id": 2,
+        "question": "In welke Franse stad ontstond in 1540 de beurs ?",
+        "propositions": [
+          "Parijs",
+          "Lyon",
+          "Grenoble",
+          "Marseille"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "De stad Lyon werd gekozen vanwege zijn strategische positie als een belangrijk commercieel centrum in die tijd in Frankrijk."
+      },
+      {
+        "id": 3,
+        "question": "Welke plotselinge en massale beurscrash kan er plaatsvinden ?",
+        "propositions": [
+          "Sterke daling",
+          "Actieve herfst",
+          "Beurscrash",
+          "Beursverlies"
+        ],
+        "réponse": "Beurscrash",
+        "anecdote": "De term crash vindt zijn oorsprong in het Duitse woord Krach, wat lawaai of kraken betekent, voor het eerst gebruikt in 1873."
+      },
+      {
+        "id": 4,
+        "question": "Hoe heet een stop-profit verkooporder ?",
+        "propositions": [
+          "Stoploss",
+          "Gain bescherming",
+          "Winstzoeken",
+          "Winst nemen"
+        ],
+        "réponse": "Winst nemen",
+        "anecdote": "Met een take-profitorder kunnen beleggers hun winst vastleggen door een verkoopprijs vast te stellen als de prijs een bepaald niveau bereikt."
+      },
+      {
+        "id": 5,
+        "question": "Hoe heet een aandeel in een bedrijf ?",
+        "propositions": [
+          "Afspraak",
+          "Voorraad",
+          "Inbraak",
+          "onderscheiding"
+        ],
+        "réponse": "Voorraad",
+        "anecdote": "Een aandeel wordt gewoonlijk een aandeel genoemd en vertegenwoordigt dus het eigendom van en de deelname van een persoon aan dat bedrijf."
+      },
+      {
+        "id": 6,
+        "question": "Wat ontvangen aandeelhouders mogelijk als gevolg van de winst van een bedrijf ?",
+        "propositions": [
+          "Aandelen",
+          "Waardebonnen",
+          "Dividenden",
+          "Artikelen"
+        ],
+        "réponse": "Dividenden",
+        "anecdote": "Aandeelhouders kunnen mogelijk dividend ontvangen, afhankelijk van de winst van een bedrijf."
+      },
+      {
+        "id": 7,
+        "question": "Welke revolutie maakte de snelle evolutie van de aandelenmarkten in de 19e eeuw mogelijk ?",
+        "propositions": [
+          "Industrieel",
+          "Economisch",
+          "HET",
+          "Technisch"
+        ],
+        "réponse": "Industrieel",
+        "anecdote": "De spoorwegrevolutie maakte de snelle ontwikkeling van aandelenmarkten in de 19e eeuw mogelijk, waardoor handel werd vergemakkelijkt."
+      },
+      {
+        "id": 8,
+        "question": "Welke term wordt geassocieerd met een persoon die snel zijn aandelen koopt en verkoopt ?",
+        "propositions": [
+          "Speculant",
+          "Goede huisvader",
+          "Passieve aandeelhouder",
+          "Effectenmakelaar"
+        ],
+        "réponse": "Speculant",
+        "anecdote": "Een daghandelaar is iemand die snel aandelen koopt en verkoopt en wil profiteren van kortetermijnfluctuaties."
+      },
+      {
+        "id": 9,
+        "question": "Hoe heet een stop-loss verkooporder ?",
+        "propositions": [
+          "Gain bescherming",
+          "Winstneming",
+          "Risicoverlagend",
+          "Stoploss"
+        ],
+        "réponse": "Stoploss",
+        "anecdote": "Met een stop-loss order kunt u uw verliezen beperken door een automatische verkoopprijs in te stellen als de prijs een vooraf bepaald niveau bereikt."
+      },
+      {
+        "id": 10,
+        "question": "Welke computeractiviteit bestaat uit het kopen en verkopen van effecten tegen de beste prijs ?",
+        "propositions": [
+          "Handel",
+          "Mijnbouw",
+          "Spel",
+          "Loterij"
+        ],
+        "réponse": "Handel",
+        "anecdote": "Het is dus mogelijk om aandelen tegen de beste prijs te kopen en te verkopen, aangezien de technologische vooruitgang de transacties optimaliseert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat was de belangrijkste functie van wisselmakelaars in het Frankrijk van de 12e eeuw ?",
+        "propositions": [
+          "Regelaar",
+          "begeleider",
+          "Beheerder",
+          "controleur"
+        ],
+        "réponse": "controleur",
+        "anecdote": "In Frankrijk waren in de 12e eeuw wisselmakelaars verantwoordelijk voor het controleren en reguleren van de schulden van landbouwgemeenschappen."
+      },
+      {
+        "id": 12,
+        "question": "Wanneer is de Beurs van Brugge ontstaan ?",
+        "propositions": [
+          "1407",
+          "1406",
+          "1408",
+          "1409"
+        ],
+        "réponse": "1409",
+        "anecdote": "In 1409 komt er een beurs en wordt de stad in de 15e eeuw de meest geavanceerde financiële markt van Nederland."
+      },
+      {
+        "id": 13,
+        "question": "In welk land werd het eerste gebouw neergezet dat bedoeld was om een beurs te huisvesten ?",
+        "propositions": [
+          "Duitsland",
+          "Italië",
+          "Spaans Nederland",
+          "Frankrijk"
+        ],
+        "réponse": "Spaans Nederland",
+        "anecdote": "In de Spaanse Nederlanden (het huidige België) werd in Antwerpen het eerste gebouw gebouwd dat was ontworpen om een \u200b\u200bbeurs te huisvesten."
+      },
+      {
+        "id": 14,
+        "question": "Wat is de leidende markt voor geautomatiseerde koersen ?",
+        "propositions": [
+          "NASDAQ",
+          "CAC40",
+          "BEL20",
+          "DJ30"
+        ],
+        "réponse": "NASDAQ",
+        "anecdote": "NASDAQ (National Association of Securities Dealers Automated Quotations) is de belangrijkste markt voor geautomatiseerde noteringen."
+      },
+      {
+        "id": 15,
+        "question": "Vanaf welk jaar werden de ingewisselde effecten gedematerialiseerd ?",
+        "propositions": [
+          "2000",
+          "1980",
+          "1990",
+          "1970"
+        ],
+        "réponse": "1970",
+        "anecdote": "Vanaf de jaren 70 begonnen de op de beurs verhandelde effecten dankzij de computerrevolutie te dematerialiseren."
+      },
+      {
+        "id": 16,
+        "question": "Hoe wordt een omgekeerde aandelensplitsing in het Engels genoemd ?",
+        "propositions": [
+          "Geconsolideerd aandeel",
+          "Omgekeerde aandelenfusie",
+          "Stamcombinatie",
+          "Omgekeerde aandelensplitsing"
+        ],
+        "réponse": "Omgekeerde aandelensplitsing",
+        "anecdote": "De aldus geconsolideerde bestaande aandelen worden samengevoegd om hun aantal te verminderen en tegelijkertijd hun nominale waarde te verhogen."
+      },
+      {
+        "id": 17,
+        "question": "In welk jaar vond de subprime-hypotheekcrisis plaats ?",
+        "propositions": [
+          "2008",
+          "1988",
+          "1998",
+          "2018"
+        ],
+        "réponse": "2008",
+        "anecdote": "De subprime-hypotheekcrisis brak uit in 2008 en veroorzaakte een wereldwijde financiële crisis, een tumultueuze tijd."
+      },
+      {
+        "id": 18,
+        "question": "Wat draagt de beurs over het algemeen over ?",
+        "propositions": [
+          "Wisselkoers",
+          "Fluctuaties",
+          "Risico",
+          "Valuta's"
+        ],
+        "réponse": "Risico",
+        "anecdote": "Over het algemeen maakt de aandelenmarkt de overdracht van risico's mogelijk door de handel in aandelen en obligaties."
+      },
+      {
+        "id": 19,
+        "question": "Welke Franse beursindex bevat de 40 grootste Franse bedrijven ?",
+        "propositions": [
+          "BAC40",
+          "SAC40",
+          "NAC40",
+          "CAC40"
+        ],
+        "réponse": "CAC40",
+        "anecdote": "De veertig grootste in Frankrijk genoteerde bedrijven vertegenwoordigen dan ook een belangrijk onderdeel van de nationale economie."
+      },
+      {
+        "id": 20,
+        "question": "Als eerbetoon aan wie is de Pont au Change in Parijs genoemd ?",
+        "propositions": [
+          "Makelaars",
+          "Bouwers",
+          "Investeerders",
+          "Architecten"
+        ],
+        "réponse": "Makelaars",
+        "anecdote": "De eerste makelaars ontmoetten elkaar op de Grand Pont in Parijs, de huidige Pont au Change die zijn naam ontleent aan de wisselmakelaars."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie wisselden in de 13e eeuw als eersten staatsschulden uit ?",
+        "propositions": [
+          "Mombardische bankiers",
+          "Lombardische bankiers",
+          "Gelukkige bankiers",
+          "Gambard-bankiers"
+        ],
+        "réponse": "Lombardische bankiers",
+        "anecdote": "De term Lombardische bankiers of eenvoudiger Lombarden verwijst naar middeleeuwse pandjeshuizen."
+      },
+      {
+        "id": 22,
+        "question": "In welk jaar werd de allereerste beurscrash geregistreerd ?",
+        "propositions": [
+          "1536",
+          "1336",
+          "1636",
+          "1436"
+        ],
+        "réponse": "1636",
+        "anecdote": "Nadat de prijzen van tulpenbollen een te hoog niveau hadden bereikt, stortte de prijs op 1 oktober in."
+      },
+      {
+        "id": 23,
+        "question": "Wie gaf in 1602 voor het eerst aandelen en obligaties uit ?",
+        "propositions": [
+          "INC",
+          "NIC",
+          "CVO",
+          "VO"
+        ],
+        "réponse": "CVO",
+        "anecdote": "De eerste uitgifte van aandelen en obligaties werd gedaan door de Verenigde Oost-Indische Compagnie in 1602."
+      },
+      {
+        "id": 24,
+        "question": "Vanaf welk jaar moeten lessen worden geroepen om de bedrijfsvoering te verbeteren ?",
+        "propositions": [
+          "1880",
+          "1780",
+          "1980",
+          "1774"
+        ],
+        "réponse": "1774",
+        "anecdote": "Een groep makelaars verzamelde zich onder een boom om transacties uit te voeren, wat het begin markeerde van een meer georganiseerde methode."
+      },
+      {
+        "id": 25,
+        "question": "Wat was de kapitalisatie van de New York Stock Exchange in januari 2021 ?",
+        "propositions": [
+          "$ 1 biljoen",
+          "$ 24 biljoen",
+          "$ 4 biljoen",
+          "$ 14 biljoen"
+        ],
+        "réponse": "$ 24 biljoen",
+        "anecdote": "In januari 2021 bereikte de marktkapitalisatie van de New York Stock Exchange biljoenen dollars, wat getuigt van het belang ervan."
+      },
+      {
+        "id": 26,
+        "question": "Wat betekent de letter P van het Engelse beursacroniem IPO ?",
+        "propositions": [
+          "winst",
+          "Publiek",
+          "Potentieel",
+          "Partner"
+        ],
+        "réponse": "Publiek",
+        "anecdote": "IPO (Initial Public Offering) verwijst naar de eerste openbare aanbieding van de aandelen van een bedrijf aan beleggers."
+      },
+      {
+        "id": 27,
+        "question": "Welke winstgevendheidsindex sluit financiële en niet-operationele factoren uit ?",
+        "propositions": [
+          "EBITDA",
+          "WR",
+          "IPEF",
+          "IBNJDA"
+        ],
+        "réponse": "EBITDA",
+        "anecdote": "De EBITDA-index meet de winstgevendheid door financiële en niet-operationele posten uit te sluiten, waardoor een zuiverdere analyse mogelijk is."
+      },
+      {
+        "id": 28,
+        "question": "Welk type markt definieert het beste de markt van het OTC-type ?",
+        "propositions": [
+          "Multi-individuen",
+          "OTC",
+          "Zakelijk",
+          "Meerdere bedrijven"
+        ],
+        "réponse": "OTC",
+        "anecdote": "De over-the-counter (OTC) markt is een soort gedecentraliseerde markt waar transacties rechtstreeks tussen partijen worden gedaan."
+      },
+      {
+        "id": 29,
+        "question": "Hoe heet een langetermijnaandeelhouder ?",
+        "propositions": [
+          "Passieve aandeelhouder",
+          "Goede huisvader",
+          "Effectenmakelaar",
+          "Speculant"
+        ],
+        "réponse": "Goede huisvader",
+        "anecdote": "Een aandeelhouder op lange termijn wordt een groei-investeerder genoemd, die op zoek is naar waardering op lange termijn."
+      },
+      {
+        "id": 30,
+        "question": "Welke beroemde handelaar bouwde zijn imperium rond BRKB ?",
+        "propositions": [
+          "Wolf van Wall Street",
+          "Bill Poorten",
+          "Warren Buffet",
+          "Elon Musk"
+        ],
+        "réponse": "Warren Buffet",
+        "anecdote": "Warren Buffett verwierf Berkshire Hathaway in 1965, een in verval rakend textielbedrijf, om er een bloeiend imperium van te maken."
+      }
+    ]
+    }
+  }
+}

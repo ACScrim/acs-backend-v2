@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "1 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-03-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Emballages",
+      "slogan": "Protéger à tout prix"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Verpackung",
+      "slogan": "Protect at all costs"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Embalaje",
+      "slogan": "Proteger a toda costa"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Confezione",
+      "slogan": "Proteggi a tutti i costi"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Verpackung",
+      "slogan": "Schützen Sie sich um jeden Preis"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Verpakking",
+      "slogan": "Bescherm ten koste van alles"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel petit récipient en verre et à large ouverture peut être fermé hermétiquement ?",
+        "propositions": [
+          "Bocal",
+          "Aquarium",
+          "Fiole",
+          "Balsamaire"
+        ],
+        "réponse": "Bocal",
+        "anecdote": "Pour les conserves de fruits, on utilise un bocal en verre fermé hermétiquement par un couvercle et muni d'un joint en caoutchouc."
+      },
+      {
+        "id": 2,
+        "question": "Quel contenant métallique hermétique s'ouvre à l'aide d'un ouvre-boîte ?",
+        "propositions": [
+          "Fût",
+          "Canette",
+          "Boîte de conserve",
+          "Ballotin"
+        ],
+        "réponse": "Boîte de conserve",
+        "anecdote": "Du soin mis à sa fabrication et de la qualité hygiénique des produits conservés dépend la qualité sanitaire de la nourriture."
+      },
+      {
+        "id": 3,
+        "question": "Quelle boîte, souvent en bois léger, sert à transporter des marchandises ?",
+        "propositions": [
+          "Blister",
+          "Valise",
+          "Caisse",
+          "Jerrican"
+        ],
+        "réponse": "Caisse",
+        "anecdote": "Les caisses en bois sont fabriquées en plusieurs parties qui sont ensuite assemblées soit avant livraison, soit chez le client."
+      },
+      {
+        "id": 4,
+        "question": "Quel récipient cylindrique sert à conserver l'eau, le lait, le vin, la bière et l'huile ?",
+        "propositions": [
+          "Flacon",
+          "Fût",
+          "Bouteille",
+          "Bocal"
+        ],
+        "réponse": "Bouteille",
+        "anecdote": "Après plusieurs décennies d'usage dominant, le verre a reculé au profit des plastiques (PVC puis PET principalement)."
+      },
+      {
+        "id": 5,
+        "question": "Quelle boîte, en aluminium ou fer-blanc, contient bien souvent une boisson ?",
+        "propositions": [
+          "Boîte de conserve",
+          "Canette",
+          "Étui",
+          "Bocal"
+        ],
+        "réponse": "Canette",
+        "anecdote": "La fabrication actuelle des canettes crée sur le couvercle une cavité qui peut éventuellement permettre à des poussières de s'y loger."
+      },
+      {
+        "id": 6,
+        "question": "En papeterie, quel pliage scellé est destiné à contenir du courrier ?",
+        "propositions": [
+          "Enveloppe",
+          "Buvard",
+          "Classeur",
+          "Farde"
+        ],
+        "réponse": "Enveloppe",
+        "anecdote": "Certains services postaux commercialisent des enveloppes préaffranchies, parfois décorées selon des thèmes d'actualité."
+      },
+      {
+        "id": 7,
+        "question": "Quel emballage non biodégradable a été retiré des grandes surfaces ?",
+        "propositions": [
+          "Sac plastique",
+          "Sac à vêtements",
+          "Sac sous vide",
+          "Sac de survie"
+        ],
+        "réponse": "Sac plastique",
+        "anecdote": "Les sacs en plastique emportés par le vent, les inondations et cours d'eau comptent pour beaucoup dans les déchets marins."
+      },
+      {
+        "id": 8,
+        "question": "Dans quoi range-t-on ses vêtements avant de les embarquer en avion ?",
+        "propositions": [
+          "Caisse",
+          "Valise",
+          "Papier bulle",
+          "Coffret"
+        ],
+        "réponse": "Valise",
+        "anecdote": "Depuis les attentats du 11 septembre 2001, presque toutes les sociétés inspectent les valises de façon manuelle ou automatique."
+      },
+      {
+        "id": 9,
+        "question": "Quel sac, utilisé pour transporter les déchets, peut être de plusieurs couleurs ?",
+        "propositions": [
+          "Sac banane",
+          "Sac en papier",
+          "Sac-poubelle",
+          "Sac de couchage"
+        ],
+        "réponse": "Sac-poubelle",
+        "anecdote": "Toutefois, l'application du plan Vigipirate a entraîné en France l'utilisation dans les lieux publics de sacs transparents."
+      },
+      {
+        "id": 10,
+        "question": "Dans quoi range-t-on un rasoir, un lecteur MP3 ou une console portable ?",
+        "propositions": [
+          "Sac plastique",
+          "Étui",
+          "Carton",
+          "Papier bulle"
+        ],
+        "réponse": "Étui",
+        "anecdote": "Ils sont généralement confectionnés dans des matières solides, mais rigides, ou légèrement souples, tel que le cuir ou le plastique."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quel emballage un client peut-il emporter les restes de son repas ?",
+        "propositions": [
+          "Valise",
+          "Jerrican",
+          "Doggy bag",
+          "Coffre"
+        ],
+        "réponse": "Doggy bag",
+        "anecdote": "Cette pratique est assez fréquente dans les restaurants italiens et asiatiques, qui combinent consommation sur place et à emporter."
+      },
+      {
+        "id": 12,
+        "question": "Quel terme désigne certains types de papiers caractérisés par une rigidité ?",
+        "propositions": [
+          "Ballotin",
+          "Carton",
+          "Papier bulle",
+          "Enveloppe"
+        ],
+        "réponse": "Carton",
+        "anecdote": "Pour améliorer leur profil, certains cartons sont passés entre deux ou plusieurs rouleaux horizontaux selon le procédé du calandrage."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel emballage l'air a-t-il été retiré pour préserver son contenu ?",
+        "propositions": [
+          "Boîte de conserve",
+          "Sac-poubelle",
+          "Sac sous vide",
+          "Tetra Brik"
+        ],
+        "réponse": "Sac sous vide",
+        "anecdote": "Les premiers aliments à bénéficier de cette technique furent les arachides décortiquées ainsi que le café torréfié et moulu."
+      },
+      {
+        "id": 14,
+        "question": "Quel récipient est très répandu dans l'industrie pharmaceutique et cosmétique ?",
+        "propositions": [
+          "Fût",
+          "Bocal",
+          "Flacon",
+          "Jerrican"
+        ],
+        "réponse": "Flacon",
+        "anecdote": "Un flacon est souvent muni d'un bouchon étanche, destiné à conserver des produits liquides pouvant s'altérer avec l'air."
+      },
+      {
+        "id": 15,
+        "question": "Quel matériau plastique transparent est utilisé pour emballer des objets fragiles ?",
+        "propositions": [
+          "Papier bulle",
+          "Tetra Brik",
+          "Blister",
+          "Cellophane"
+        ],
+        "réponse": "Papier bulle",
+        "anecdote": "Des hémisphères protubérants remplies d'air sont régulièrement espacés pour procurer un coussin protégeant les objets fragiles."
+      },
+      {
+        "id": 16,
+        "question": "Quelle représentation graphique numérique est présente sur les emballages ?",
+        "propositions": [
+          "Marque",
+          "Poids net",
+          "Droits réservés",
+          "Code-barres"
+        ],
+        "réponse": "Code-barres",
+        "anecdote": "Il existe des milliers de codes-barres différents, ceux-ci étant destinés à une lecture automatisée par un capteur électronique."
+      },
+      {
+        "id": 17,
+        "question": "Quel meuble fermé a servi à la fois d'armoire, de banc et de bagage ?",
+        "propositions": [
+          "Étui",
+          "Coffre",
+          "Carton",
+          "Valise"
+        ],
+        "réponse": "Coffre",
+        "anecdote": "Au XVIe siècle, les gens privilégièrent des coffres portatifs plus légers, remplaçant le bois massif par des assemblages de panneaux."
+      },
+      {
+        "id": 18,
+        "question": "Quel traitement des déchets ménagers tient compte du type d'emballage ?",
+        "propositions": [
+          "Drainage",
+          "Essorage",
+          "Compostage",
+          "Recyclage"
+        ],
+        "réponse": "Recyclage",
+        "anecdote": "Depuis 2007, la production, le stockage, le traitement et le recyclage des déchets sont encadrés en Europe par une législation élaborée."
+      },
+      {
+        "id": 19,
+        "question": "Quel étui non rigide rembourré est utilisé pour le transport d'un instrument de musique ?",
+        "propositions": [
+          "Housse",
+          "Coffret",
+          "Blister",
+          "Valise"
+        ],
+        "réponse": "Housse",
+        "anecdote": "Les matériaux utilisés pour la confection des housses peuvent être le cuir, les tissus de bagagerie étanches ou non comme le Cordura."
+      },
+      {
+        "id": 20,
+        "question": "Quel nom de marque d'emballage en carton est produit par Tetra Pak ?",
+        "propositions": [
+          "Tetra Brok",
+          "Tetra Brak",
+          "Tetra Brik",
+          "Tetra Bruk"
+        ],
+        "réponse": "Tetra Brik",
+        "anecdote": "Sa forme est cubique ou cuboïde, et il est disponible avec ou sans un bouchon (qui peut être différent)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle petite boîte en carton est destinée à contenir des pralines ?",
+        "propositions": [
+          "Doggy bag",
+          "Jerrican",
+          "Blister",
+          "Ballotin"
+        ],
+        "réponse": "Ballotin",
+        "anecdote": "C'est Louise Agostini, l'épouse de Jean Neuhaus, qui créa ce type d'emballage en 1915, pour les pralines de la société de son mari."
+      },
+      {
+        "id": 22,
+        "question": "Quel sac en papier pliable est typiquement disposé dans les avions ?",
+        "propositions": [
+          "Sac à vomi",
+          "Sac de survie",
+          "Sac sous vide",
+          "Sac à vêtements"
+        ],
+        "réponse": "Sac à vomi",
+        "anecdote": "Le sac à vomi, accessoire présent sur chaque siège, est souvent réalisé en papier, l'intérieur étant plastifié pour l'imperméabiliser."
+      },
+      {
+        "id": 23,
+        "question": "Quel petit meuble fermé à clef est destiné à renfermer des objets de valeur ?",
+        "propositions": [
+          "Coffret",
+          "Ballotin",
+          "Valise",
+          "Boîte de conserve"
+        ],
+        "réponse": "Coffret",
+        "anecdote": "La notion de coffret s'est aujourd'hui élargie à des formes de conditionnement pour la commercialisation de certains produits."
+      },
+      {
+        "id": 24,
+        "question": "Quel bidon pour carburant, en acier, a été inventé en Allemagne en 1936 ?",
+        "propositions": [
+          "Kraft",
+          "Jerrican",
+          "Tetra Brik",
+          "Canette"
+        ],
+        "réponse": "Jerrican",
+        "anecdote": "Le mot désigne désormais tout bidon de plus de vingt litres, jadis en acier, désormais en plastique, notamment en PEHD."
+      },
+      {
+        "id": 25,
+        "question": "Quelle petite valise est aussi appelée mallette ou attaché-case ?",
+        "propositions": [
+          "Housse",
+          "Porte-documents",
+          "Étui",
+          "Doggy bag"
+        ],
+        "réponse": "Porte-documents",
+        "anecdote": "Le porte-documents est surtout utilisé dans un cadre professionnel : il sert à transporter papiers importants et ordinateurs portables."
+      },
+      {
+        "id": 26,
+        "question": "Dans quel emballage sont présentés les médicaments en plaquettes ?",
+        "propositions": [
+          "Sac sous vide",
+          "Blister",
+          "Cellophane",
+          "Étui"
+        ],
+        "réponse": "Blister",
+        "anecdote": "Cette disposition permet d'agrandir la taille de l'objet, de le valoriser dans un écrin, et d'empêcher de le manipuler ou le détériorer."
+      },
+      {
+        "id": 27,
+        "question": "Quel contenant cylindrique est destiné au transport de marchandises en vrac ?",
+        "propositions": [
+          "Bocal",
+          "Fût",
+          "Housse",
+          "Caisse"
+        ],
+        "réponse": "Fût",
+        "anecdote": "Le fût industriel, qui a généralement une large ouverture, peut être certifié pour transporter des matières dangereuses."
+      },
+      {
+        "id": 28,
+        "question": "Quel petit emballage est souvent fait de gaze de papier ou de soie ?",
+        "propositions": [
+          "Doggy bag",
+          "Sac à vomi",
+          "Ballotin",
+          "Sachet de thé"
+        ],
+        "réponse": "Sachet de thé",
+        "anecdote": "La plupart des sachets de thé ont une ficelle liée qui aide à identifier, enlever et quelquefois essorer le sachet après infusion."
+      },
+      {
+        "id": 29,
+        "question": "Quel papier d'emballage très résistant est fabriqué en pâte à papier ?",
+        "propositions": [
+          "Kraft",
+          "Essuie-tout",
+          "Sulfurisé",
+          "Glassine"
+        ],
+        "réponse": "Kraft",
+        "anecdote": "Le mot allemand Kraft (signifiant force) est à l'origine de l'appellation papier kraft, désignant un papier particulièrement solide."
+      },
+      {
+        "id": 30,
+        "question": "Quel emballage alimentaire est constitué d'un film fin et transparent ?",
+        "propositions": [
+          "Étui",
+          "Papier bulle",
+          "Cellophane",
+          "Housse"
+        ],
+        "réponse": "Cellophane",
+        "anecdote": "C'est un matériau très utilisé pour les emballages alimentaires du fait de sa transparence et de son étanchéité aux micro-organismes."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What small, wide-mouthed glass container can be sealed tightly ?",
+        "propositions": [
+          "Vial",
+          "Aquarium",
+          "Balsamaire",
+          "Jar"
+        ],
+        "réponse": "Jar",
+        "anecdote": "For canned fruit, we use a glass jar sealed tightly with a lid and fitted with a rubber seal."
+      },
+      {
+        "id": 2,
+        "question": "Which airtight metal container opens with a can opener ?",
+        "propositions": [
+          "Barrel",
+          "Ballotin",
+          "Can",
+          "Tin can"
+        ],
+        "réponse": "Tin can",
+        "anecdote": "The health quality of the food depends on the care taken in its manufacturing and the hygienic quality of the preserved products."
+      },
+      {
+        "id": 3,
+        "question": "Which box, often made of light wood, is used to transport goods ?",
+        "propositions": [
+          "Blister",
+          "Checkout",
+          "Suitcase",
+          "Jerrycan"
+        ],
+        "réponse": "Checkout",
+        "anecdote": "Wooden boxes are manufactured in several parts which are then assembled either before delivery or at the customer's site."
+      },
+      {
+        "id": 4,
+        "question": "Which cylindrical container is used to store water, milk, wine, beer and oil ?",
+        "propositions": [
+          "Bottle",
+          "Bottle",
+          "Barrel",
+          "Jar"
+        ],
+        "réponse": "Bottle",
+        "anecdote": "After several decades of dominant use, glass has declined in favor of plastics (mainly PVC then PET)."
+      },
+      {
+        "id": 5,
+        "question": "Which can, aluminum or tin, often contains a drink ?",
+        "propositions": [
+          "Case",
+          "Tin can",
+          "Jar",
+          "Can"
+        ],
+        "réponse": "Can",
+        "anecdote": "The current manufacturing of cans creates a cavity on the lid which can possibly allow dust to lodge there."
+      },
+      {
+        "id": 6,
+        "question": "In stationery, which sealed folder is intended to contain mail ?",
+        "propositions": [
+          "Blotter",
+          "Envelope",
+          "Folder",
+          "Binder"
+        ],
+        "réponse": "Envelope",
+        "anecdote": "Some postal services sell pre-franked envelopes, sometimes decorated with current themes."
+      },
+      {
+        "id": 7,
+        "question": "What non-biodegradable packaging has been removed from supermarkets ?",
+        "propositions": [
+          "Survival bag",
+          "Vacuum bag",
+          "Plastic bag",
+          "Garment bag"
+        ],
+        "réponse": "Plastic bag",
+        "anecdote": "Plastic bags blown away by wind, floods and rivers account for a lot of marine litter."
+      },
+      {
+        "id": 8,
+        "question": "What do you put your clothes in before taking them on a plane ?",
+        "propositions": [
+          "Suitcase",
+          "Bubble wrap",
+          "Checkout",
+          "Box"
+        ],
+        "réponse": "Suitcase",
+        "anecdote": "Since the attacks of September 11, 2001, almost all companies inspect suitcases manually or automatically."
+      },
+      {
+        "id": 9,
+        "question": "Which bag, used to transport waste, can be of several colors ?",
+        "propositions": [
+          "Garbage bag",
+          "Fanny pack",
+          "Sleeping bag",
+          "Paper bag"
+        ],
+        "réponse": "Garbage bag",
+        "anecdote": "However, the application of the Vigipirate plan has led to the use of transparent bags in public places in France."
+      },
+      {
+        "id": 10,
+        "question": "Where do you store a razor, MP3 player or portable console ?",
+        "propositions": [
+          "Bubble wrap",
+          "Case",
+          "Plastic bag",
+          "Cardboard"
+        ],
+        "réponse": "Case",
+        "anecdote": "They are generally made of solid, but rigid, or slightly flexible materials, such as leather or plastic."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In what packaging can a customer take leftovers from their meal ?",
+        "propositions": [
+          "Chest",
+          "Jerrycan",
+          "Doggy bag",
+          "Suitcase"
+        ],
+        "réponse": "Doggy bag",
+        "anecdote": "This practice is quite common in Italian and Asian restaurants, which combine on-site consumption and take-out."
+      },
+      {
+        "id": 12,
+        "question": "What term refers to certain types of paper characterized by rigidity ?",
+        "propositions": [
+          "Cardboard",
+          "Envelope",
+          "Ballotin",
+          "Bubble wrap"
+        ],
+        "réponse": "Cardboard",
+        "anecdote": "To improve their profile, certain cartons are passed between two or more horizontal rollers using the calendering process."
+      },
+      {
+        "id": 13,
+        "question": "In what packaging has the air been removed to preserve its contents ?",
+        "propositions": [
+          "Vacuum bag",
+          "Garbage bag",
+          "Tetra Brick",
+          "Tin can"
+        ],
+        "réponse": "Vacuum bag",
+        "anecdote": "The first foods to benefit from this technique were shelled peanuts and roasted and ground coffee."
+      },
+      {
+        "id": 14,
+        "question": "Which container is very common in the pharmaceutical and cosmetic industry ?",
+        "propositions": [
+          "Barrel",
+          "Bottle",
+          "Jerrycan",
+          "Jar"
+        ],
+        "réponse": "Bottle",
+        "anecdote": "A bottle is often equipped with a waterproof cap, intended to preserve liquid products that can deteriorate in the air."
+      },
+      {
+        "id": 15,
+        "question": "What transparent plastic material is used to package fragile items ?",
+        "propositions": [
+          "Tetra Brick",
+          "Bubble wrap",
+          "Blister",
+          "Cellophane"
+        ],
+        "réponse": "Bubble wrap",
+        "anecdote": "Protruding air-filled hemispheres are evenly spaced to provide a cushion to protect fragile objects."
+      },
+      {
+        "id": 16,
+        "question": "What digital graphic representation is present on the packaging ?",
+        "propositions": [
+          "Rights reserved",
+          "Brand",
+          "Net weight",
+          "Barcode"
+        ],
+        "réponse": "Barcode",
+        "anecdote": "There are thousands of different barcodes, these being intended for automated reading by an electronic sensor."
+      },
+      {
+        "id": 17,
+        "question": "What closed piece of furniture served as a wardrobe, bench and luggage ?",
+        "propositions": [
+          "Case",
+          "Cardboard",
+          "Suitcase",
+          "Chest"
+        ],
+        "réponse": "Chest",
+        "anecdote": "In the 16th century, people favored lighter portable chests, replacing solid wood with assemblies of panels."
+      },
+      {
+        "id": 18,
+        "question": "What treatment of household waste takes into account the type of packaging ?",
+        "propositions": [
+          "Recycling",
+          "Drainage",
+          "Composting",
+          "Spin"
+        ],
+        "réponse": "Recycling",
+        "anecdote": "Since 2007, the production, storage, treatment and recycling of waste have been regulated in Europe by elaborate legislation."
+      },
+      {
+        "id": 19,
+        "question": "What padded non-rigid case is used for carrying a musical instrument ?",
+        "propositions": [
+          "Box",
+          "Cover",
+          "Blister",
+          "Suitcase"
+        ],
+        "réponse": "Cover",
+        "anecdote": "The materials used to make the covers can be leather, waterproof or non-waterproof luggage fabrics such as Cordura."
+      },
+      {
+        "id": 20,
+        "question": "What brand name of cardboard packaging is produced by Tetra Pak ?",
+        "propositions": [
+          "Tetra Bruk",
+          "Tetra Brick",
+          "Tetra Brok",
+          "Tetra Brak"
+        ],
+        "réponse": "Tetra Brick",
+        "anecdote": "Its shape is cubic or cuboid, and it is available with or without a cap (which may be different)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which small cardboard box is intended to contain pralines ?",
+        "propositions": [
+          "Doggy bag",
+          "Ballotin",
+          "Jerrycan",
+          "Blister"
+        ],
+        "réponse": "Ballotin",
+        "anecdote": "It was Louise Agostini, the wife of Jean Neuhaus, who created this type of packaging in 1915, for the pralines of her husband's company."
+      },
+      {
+        "id": 22,
+        "question": "What foldable paper bag is typically placed on airplanes ?",
+        "propositions": [
+          "Vomit bag",
+          "Vacuum bag",
+          "Garment bag",
+          "Survival bag"
+        ],
+        "réponse": "Vomit bag",
+        "anecdote": "The vomit bag, an accessory present on each seat, is often made of paper, the interior being laminated to make it waterproof."
+      },
+      {
+        "id": 23,
+        "question": "What small, locked piece of furniture is intended to contain valuable objects ?",
+        "propositions": [
+          "Ballotin",
+          "Suitcase",
+          "Box",
+          "Tin can"
+        ],
+        "réponse": "Box",
+        "anecdote": "The notion of box has today been extended to forms of packaging for the marketing of certain products."
+      },
+      {
+        "id": 24,
+        "question": "What steel fuel can was invented in Germany in 1936 ?",
+        "propositions": [
+          "Tetra Brick",
+          "Kraft",
+          "Jerrycan",
+          "Can"
+        ],
+        "réponse": "Jerrycan",
+        "anecdote": "The word now refers to any container of more than twenty liters, formerly made of steel, now made of plastic, notably HDPE."
+      },
+      {
+        "id": 25,
+        "question": "Which small suitcase is also called a briefcase or briefcase ?",
+        "propositions": [
+          "Case",
+          "Doggy bag",
+          "Cover",
+          "Briefcase"
+        ],
+        "réponse": "Briefcase",
+        "anecdote": "The briefcase is mainly used in a professional setting : it is used to carry important papers and laptops."
+      },
+      {
+        "id": 26,
+        "question": "What packaging are the medicines in blister packs presented in ?",
+        "propositions": [
+          "Vacuum bag",
+          "Blister",
+          "Cellophane",
+          "Case"
+        ],
+        "réponse": "Blister",
+        "anecdote": "This arrangement makes it possible to enlarge the size of the object, to enhance it in a case, and to prevent it from being manipulated or damaged."
+      },
+      {
+        "id": 27,
+        "question": "Which cylindrical container is intended for transporting bulk goods ?",
+        "propositions": [
+          "Barrel",
+          "Cover",
+          "Jar",
+          "Checkout"
+        ],
+        "réponse": "Barrel",
+        "anecdote": "The industrial drum, which usually has a wide opening, can be certified to transport hazardous materials."
+      },
+      {
+        "id": 28,
+        "question": "What small wrapper is often made of paper or silk gauze ?",
+        "propositions": [
+          "Doggy bag",
+          "Tea bag",
+          "Vomit bag",
+          "Ballotin"
+        ],
+        "réponse": "Tea bag",
+        "anecdote": "Most tea bags have a tied string that helps identify, remove and sometimes wring out the bag after brewing."
+      },
+      {
+        "id": 29,
+        "question": "Which heavy duty wrapping paper is made from paper pulp ?",
+        "propositions": [
+          "Kraft",
+          "Paper towel",
+          "Sulfurized",
+          "Glassine"
+        ],
+        "réponse": "Kraft",
+        "anecdote": "The German word Kraft (meaning strength) is the origin of the name kraft paper, designating a particularly strong paper."
+      },
+      {
+        "id": 30,
+        "question": "Which food packaging is made of a thin, transparent film ?",
+        "propositions": [
+          "Case",
+          "Cover",
+          "Cellophane",
+          "Bubble wrap"
+        ],
+        "réponse": "Cellophane",
+        "anecdote": "It is a material widely used for food packaging due to its transparency and its impermeability to micro-organisms."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher kleine Weithals-Glasbehälter lässt sich dicht verschließen ?",
+        "propositions": [
+          "Aquarium",
+          "Glas",
+          "Fläschchen",
+          "Balsamaire"
+        ],
+        "réponse": "Glas",
+        "anecdote": "Für Obstkonserven verwenden wir ein Glasgefäß, das mit einem Deckel fest verschlossen und mit einer Gummidichtung versehen ist."
+      },
+      {
+        "id": 2,
+        "question": "Welcher luftdichte Metallbehälter lässt sich mit einem Dosenöffner öffnen ?",
+        "propositions": [
+          "Blechdose",
+          "Fass",
+          "Kann",
+          "Abstimmung"
+        ],
+        "réponse": "Blechdose",
+        "anecdote": "Die gesundheitliche Qualität der Lebensmittel hängt von der Sorgfalt bei der Herstellung und der hygienischen Qualität der konservierten Produkte ab."
+      },
+      {
+        "id": 3,
+        "question": "In welcher Kiste, oft aus hellem Holz, werden Waren transportiert ?",
+        "propositions": [
+          "Kanister",
+          "Kasse",
+          "Blister",
+          "Koffer"
+        ],
+        "réponse": "Kasse",
+        "anecdote": "Holzkisten werden in mehreren Teilen hergestellt, die dann entweder vor der Lieferung oder beim Kunden vor Ort zusammengebaut werden."
+      },
+      {
+        "id": 4,
+        "question": "In welchem zylindrischen Behälter werden Wasser, Milch, Wein, Bier und Öl aufbewahrt ?",
+        "propositions": [
+          "Flasche",
+          "Fass",
+          "Glas",
+          "Flasche"
+        ],
+        "réponse": "Flasche",
+        "anecdote": "Nach mehreren Jahrzehnten dominierender Verwendung ist Glas zugunsten von Kunststoffen (hauptsächlich PVC, dann PET) zurückgegangen."
+      },
+      {
+        "id": 5,
+        "question": "In welcher Dose, Aluminium oder Dose, ist häufig ein Getränk enthalten ?",
+        "propositions": [
+          "Glas",
+          "Blechdose",
+          "Kann",
+          "Fall"
+        ],
+        "réponse": "Kann",
+        "anecdote": "Bei der derzeitigen Herstellung von Dosen entsteht im Deckel ein Hohlraum, in dem sich möglicherweise Staub festsetzen kann."
+      },
+      {
+        "id": 6,
+        "question": "Welche versiegelte Mappe soll bei Briefpapier die Post enthalten ?",
+        "propositions": [
+          "Bindemittel",
+          "Ordner",
+          "Umschlag",
+          "Löschpapier"
+        ],
+        "réponse": "Umschlag",
+        "anecdote": "Einige Postdienste verkaufen vorfrankierte Umschläge, manchmal mit aktuellen Themen dekoriert."
+      },
+      {
+        "id": 7,
+        "question": "Welche nicht biologisch abbaubaren Verpackungen wurden aus Supermärkten entfernt ?",
+        "propositions": [
+          "Vakuumbeutel",
+          "Überlebenstasche",
+          "Plastiktüte",
+          "Kleidersack"
+        ],
+        "réponse": "Plastiktüte",
+        "anecdote": "Durch Wind, Überschwemmungen und Flüsse weggewehte Plastiktüten sind ein großer Teil des Meeresmülls."
+      },
+      {
+        "id": 8,
+        "question": "Womit ziehst du deine Kleidung an, bevor du sie ins Flugzeug mitnimmst ?",
+        "propositions": [
+          "Kasse",
+          "Kiste",
+          "Luftpolsterfolie",
+          "Koffer"
+        ],
+        "réponse": "Koffer",
+        "anecdote": "Seit den Anschlägen vom 11. September 2001 prüfen fast alle Unternehmen Koffer manuell oder automatisch."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Sack zum Transport von Abfällen kann mehrere Farben haben ?",
+        "propositions": [
+          "Gürteltasche",
+          "Müllsack",
+          "Schlafsack",
+          "Papiertüte"
+        ],
+        "réponse": "Müllsack",
+        "anecdote": "Die Anwendung des Vigipirate-Plans hat jedoch dazu geführt, dass in Frankreich an öffentlichen Orten transparente Beutel verwendet werden."
+      },
+      {
+        "id": 10,
+        "question": "Wo bewahren Sie einen Rasierer, einen MP3-Player oder eine tragbare Konsole auf ?",
+        "propositions": [
+          "Fall",
+          "Karton",
+          "Luftpolsterfolie",
+          "Plastiktüte"
+        ],
+        "réponse": "Fall",
+        "anecdote": "Sie bestehen im Allgemeinen aus festen, aber starren oder leicht flexiblen Materialien wie Leder oder Kunststoff."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welcher Verpackung kann ein Kunde Essensreste mitnehmen ?",
+        "propositions": [
+          "Hundetasche",
+          "Truhe",
+          "Kanister",
+          "Koffer"
+        ],
+        "réponse": "Hundetasche",
+        "anecdote": "Diese Praxis ist in italienischen und asiatischen Restaurants weit verbreitet, die den Verzehr vor Ort und den Verzehr zum Mitnehmen kombinieren."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Begriff bezieht sich auf bestimmte Papiersorten, die sich durch Steifheit auszeichnen ?",
+        "propositions": [
+          "Karton",
+          "Umschlag",
+          "Luftpolsterfolie",
+          "Abstimmung"
+        ],
+        "réponse": "Karton",
+        "anecdote": "Um ihr Profil zu verbessern, werden bestimmte Kartons im Kalandrierungsverfahren zwischen zwei oder mehr horizontalen Walzen geführt."
+      },
+      {
+        "id": 13,
+        "question": "In welcher Verpackung wurde die Luft entfernt, um den Inhalt zu konservieren ?",
+        "propositions": [
+          "Vakuumbeutel",
+          "Blechdose",
+          "Tetra Brick",
+          "Müllsack"
+        ],
+        "réponse": "Vakuumbeutel",
+        "anecdote": "Die ersten Lebensmittel, die von dieser Technik profitierten, waren geschälte Erdnüsse sowie gerösteter und gemahlener Kaffee."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Behälter ist in der Pharma- und Kosmetikindustrie sehr verbreitet ?",
+        "propositions": [
+          "Kanister",
+          "Glas",
+          "Fass",
+          "Flasche"
+        ],
+        "réponse": "Flasche",
+        "anecdote": "Eine Flasche ist oft mit einem wasserdichten Verschluss ausgestattet, der dazu dient, flüssige Produkte aufzubewahren, die an der Luft verderben können."
+      },
+      {
+        "id": 15,
+        "question": "Welches transparente Kunststoffmaterial wird zum Verpacken zerbrechlicher Gegenstände verwendet ?",
+        "propositions": [
+          "Cellophan",
+          "Luftpolsterfolie",
+          "Tetra Brick",
+          "Blister"
+        ],
+        "réponse": "Luftpolsterfolie",
+        "anecdote": "Vorstehende, luftgefüllte Halbkugeln sind gleichmäßig verteilt und bieten eine Polsterung zum Schutz zerbrechlicher Gegenstände."
+      },
+      {
+        "id": 16,
+        "question": "Welche digitale grafische Darstellung ist auf der Verpackung vorhanden ?",
+        "propositions": [
+          "Rechte vorbehalten",
+          "Barcode",
+          "Marke",
+          "Nettogewicht"
+        ],
+        "réponse": "Barcode",
+        "anecdote": "Es gibt Tausende verschiedener Barcodes, die zum automatischen Lesen durch einen elektronischen Sensor bestimmt sind."
+      },
+      {
+        "id": 17,
+        "question": "Welches geschlossene Möbelstück diente als Kleiderschrank, Bank und Gepäck ?",
+        "propositions": [
+          "Koffer",
+          "Fall",
+          "Karton",
+          "Truhe"
+        ],
+        "réponse": "Truhe",
+        "anecdote": "Im 16. Jahrhundert bevorzugten die Menschen leichtere tragbare Truhen und ersetzten Massivholz durch Zusammensätze aus Paneelen."
+      },
+      {
+        "id": 18,
+        "question": "Welche Behandlung von Hausmüll berücksichtigt die Art der Verpackung ?",
+        "propositions": [
+          "Drehen",
+          "Kompostierung",
+          "Recycling",
+          "Entwässerung"
+        ],
+        "réponse": "Recycling",
+        "anecdote": "Seit 2007 werden in Europa die Produktion, Lagerung, Behandlung und Verwertung von Abfällen durch aufwändige Gesetze geregelt."
+      },
+      {
+        "id": 19,
+        "question": "Welcher gepolsterte, flexible Koffer wird zum Tragen eines Musikinstruments verwendet ?",
+        "propositions": [
+          "Kiste",
+          "Blister",
+          "Abdeckung",
+          "Koffer"
+        ],
+        "réponse": "Abdeckung",
+        "anecdote": "Als Materialien für die Bezüge können Leder, wasserdichte oder nicht wasserdichte Gepäckstoffe wie Cordura verwendet werden."
+      },
+      {
+        "id": 20,
+        "question": "Unter welchem Markennamen werden Kartonverpackungen von Tetra Pak hergestellt ?",
+        "propositions": [
+          "Tetra Brick",
+          "Tetra Bruk",
+          "Tetra Brok",
+          "Tetra Brak"
+        ],
+        "réponse": "Tetra Brick",
+        "anecdote": "Seine Form ist kubisch oder quaderförmig und es ist mit oder ohne Kappe (die unterschiedlich sein kann) erhältlich."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche kleine Pappschachtel soll Pralinen enthalten ?",
+        "propositions": [
+          "Blister",
+          "Hundetasche",
+          "Abstimmung",
+          "Kanister"
+        ],
+        "réponse": "Abstimmung",
+        "anecdote": "Es war Louise Agostini, die Frau von Jean Neuhaus, die 1915 diese Art der Verpackung für die Pralinen der Firma ihres Mannes kreierte."
+      },
+      {
+        "id": 22,
+        "question": "Welche faltbare Papiertüte wird normalerweise in Flugzeugen platziert ?",
+        "propositions": [
+          "Erbrochener Beutel",
+          "Überlebenstasche",
+          "Vakuumbeutel",
+          "Kleidersack"
+        ],
+        "réponse": "Erbrochener Beutel",
+        "anecdote": "Der Erbrochenebeutel, ein Accessoire, das auf jedem Sitz vorhanden ist, besteht oft aus Papier, dessen Innenseite wasserdicht laminiert ist."
+      },
+      {
+        "id": 23,
+        "question": "Welches kleine, verschlossene Möbelstück soll wertvolle Gegenstände enthalten ?",
+        "propositions": [
+          "Koffer",
+          "Abstimmung",
+          "Kiste",
+          "Blechdose"
+        ],
+        "réponse": "Kiste",
+        "anecdote": "Der Begriff der Schachtel wird heute auf Verpackungsformen für die Vermarktung bestimmter Produkte ausgeweitet."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Brennstoffkanister aus Stahl wurde 1936 in Deutschland erfunden ?",
+        "propositions": [
+          "Kanister",
+          "Kraft",
+          "Tetra Brick",
+          "Kann"
+        ],
+        "réponse": "Kanister",
+        "anecdote": "Das Wort bezieht sich jetzt auf alle Behälter mit mehr als zwanzig Litern, früher aus Stahl, jetzt aus Kunststoff, insbesondere HDPE."
+      },
+      {
+        "id": 25,
+        "question": "Welcher kleine Koffer wird auch Aktenkoffer oder Aktentasche genannt ?",
+        "propositions": [
+          "Aktentasche",
+          "Hundetasche",
+          "Fall",
+          "Abdeckung"
+        ],
+        "réponse": "Aktentasche",
+        "anecdote": "Die Aktentasche kommt vor allem im beruflichen Umfeld zum Einsatz : Sie dient dem Transport wichtiger Unterlagen und Laptops."
+      },
+      {
+        "id": 26,
+        "question": "In welcher Verpackung sind die Arzneimittel in Blisterpackungen erhältlich ?",
+        "propositions": [
+          "Blister",
+          "Cellophan",
+          "Vakuumbeutel",
+          "Fall"
+        ],
+        "réponse": "Blister",
+        "anecdote": "Diese Anordnung ermöglicht es, die Größe des Objekts zu vergrößern, es in einem Gehäuse aufzuwerten und zu verhindern, dass es manipuliert oder beschädigt wird."
+      },
+      {
+        "id": 27,
+        "question": "Welcher zylindrische Behälter ist für den Transport von Schüttgütern vorgesehen ?",
+        "propositions": [
+          "Abdeckung",
+          "Kasse",
+          "Fass",
+          "Glas"
+        ],
+        "réponse": "Fass",
+        "anecdote": "Das Industriefass, das meist eine weite Öffnung hat, kann für den Transport gefährlicher Stoffe zertifiziert werden."
+      },
+      {
+        "id": 28,
+        "question": "Welche kleine Hülle besteht oft aus Papier oder Seidengaze ?",
+        "propositions": [
+          "Abstimmung",
+          "Erbrochener Beutel",
+          "Teebeutel",
+          "Hundetasche"
+        ],
+        "réponse": "Teebeutel",
+        "anecdote": "Die meisten Teebeutel haben eine gebundene Schnur, die dabei hilft, den Beutel nach dem Aufbrühen zu identifizieren, zu entfernen und manchmal auszuwringen."
+      },
+      {
+        "id": 29,
+        "question": "Welches robuste Geschenkpapier wird aus Papierzellstoff hergestellt ?",
+        "propositions": [
+          "Pergamin",
+          "Papiertuch",
+          "Kraft",
+          "Geschwefelt"
+        ],
+        "réponse": "Kraft",
+        "anecdote": "Der Name Kraftpapier geht auf das deutsche Wort Kraft (Stärke) zurück und bezeichnet ein besonders starkes Papier."
+      },
+      {
+        "id": 30,
+        "question": "Welche Lebensmittelverpackung besteht aus einer dünnen, transparenten Folie ?",
+        "propositions": [
+          "Fall",
+          "Cellophan",
+          "Luftpolsterfolie",
+          "Abdeckung"
+        ],
+        "réponse": "Cellophan",
+        "anecdote": "Aufgrund seiner Transparenz und Undurchlässigkeit für Mikroorganismen ist es ein weit verbreitetes Material für Lebensmittelverpackungen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué recipiente de vidrio pequeño y de boca ancha se puede cerrar herméticamente ?",
+        "propositions": [
+          "Vial",
+          "Balsamario",
+          "Tarro",
+          "Acuario"
+        ],
+        "réponse": "Tarro",
+        "anecdote": "Para la fruta enlatada, utilizamos un frasco de vidrio cerrado herméticamente con una tapa y provisto de un sello de goma."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué recipiente metálico hermético se abre con un abrelatas ?",
+        "propositions": [
+          "votación",
+          "barril",
+          "Lata de hojalata",
+          "Puede"
+        ],
+        "réponse": "Lata de hojalata",
+        "anecdote": "La calidad sanitaria de los alimentos depende del cuidado en su elaboración y de la calidad higiénica de las conservas."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué caja, a menudo de madera clara, se utiliza para transportar mercancías ?",
+        "propositions": [
+          "Ampolla",
+          "Pagar",
+          "Jerrycano",
+          "Maleta"
+        ],
+        "réponse": "Pagar",
+        "anecdote": "Las cajas de madera se fabrican en varias piezas que luego se ensamblan antes de la entrega o en las instalaciones del cliente."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué recipiente cilíndrico se utiliza para almacenar agua, leche, vino, cerveza y aceite ?",
+        "propositions": [
+          "Botella",
+          "Tarro",
+          "barril",
+          "Botella"
+        ],
+        "réponse": "Botella",
+        "anecdote": "Después de varias décadas de uso dominante, el vidrio ha decaído en favor de los plásticos (principalmente PVC y luego PET)."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué lata, de aluminio o de estaño, suele contener una bebida ?",
+        "propositions": [
+          "Lata de hojalata",
+          "Caso",
+          "Puede",
+          "Tarro"
+        ],
+        "réponse": "Puede",
+        "anecdote": "La fabricación actual de latas crea una cavidad en la tapa que puede permitir que el polvo se aloje allí."
+      },
+      {
+        "id": 6,
+        "question": "En papelería, ¿qué carpeta sellada está destinada a contener el correo ?",
+        "propositions": [
+          "Carpeta",
+          "Sobre",
+          "Carpeta",
+          "Papel secante"
+        ],
+        "réponse": "Sobre",
+        "anecdote": "Algunos servicios postales venden sobres prefranqueados, a veces decorados con temas actuales."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué envases no biodegradables se han retirado de los supermercados ?",
+        "propositions": [
+          "Bolsa de plástico",
+          "Bolsa de supervivencia",
+          "Portatrajes",
+          "Bolsa de vacío"
+        ],
+        "réponse": "Bolsa de plástico",
+        "anecdote": "Las bolsas de plástico arrastradas por el viento, las inundaciones y los ríos representan una gran cantidad de basura marina."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué te pones la ropa antes de subirla a un avión ?",
+        "propositions": [
+          "Pagar",
+          "Maleta",
+          "Plástico de burbujas",
+          "Caja"
+        ],
+        "réponse": "Maleta",
+        "anecdote": "Desde los atentados del 11 de septiembre de 2001, casi todas las empresas inspeccionan las maletas de forma manual o automática."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué bolsa, utilizada para transportar residuos, puede ser de varios colores ?",
+        "propositions": [
+          "Riñonera",
+          "Bolsa de papel",
+          "Saco de dormir",
+          "Bolsa de basura"
+        ],
+        "réponse": "Bolsa de basura",
+        "anecdote": "Sin embargo, la aplicación del plan Vigipirate ha propiciado el uso de bolsas transparentes en los lugares públicos de Francia."
+      },
+      {
+        "id": 10,
+        "question": "¿Dónde guardas una afeitadora, un reproductor MP3 o una consola portátil ?",
+        "propositions": [
+          "Cartón",
+          "Caso",
+          "Bolsa de plástico",
+          "Plástico de burbujas"
+        ],
+        "réponse": "Caso",
+        "anecdote": "Generalmente están fabricados con materiales sólidos, pero rígidos o ligeramente flexibles, como cuero o plástico."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué envase puede un cliente recoger las sobras de su comida ?",
+        "propositions": [
+          "Jerrycano",
+          "Bolsa para perros",
+          "Pecho",
+          "Maleta"
+        ],
+        "réponse": "Bolsa para perros",
+        "anecdote": "Esta práctica es bastante común en los restaurantes italianos y asiáticos, que combinan el consumo in situ y la comida para llevar."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué término se refiere a ciertos tipos de papel caracterizados por su rigidez ?",
+        "propositions": [
+          "Plástico de burbujas",
+          "Cartón",
+          "votación",
+          "Sobre"
+        ],
+        "réponse": "Cartón",
+        "anecdote": "Para mejorar su perfil, determinadas cajas pasan entre dos o más rodillos horizontales mediante el proceso de calandrado."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué embalaje se ha eliminado el aire para conservar su contenido ?",
+        "propositions": [
+          "Lata de hojalata",
+          "Tetra ladrillo",
+          "Bolsa de basura",
+          "Bolsa de vacío"
+        ],
+        "réponse": "Bolsa de vacío",
+        "anecdote": "Los primeros alimentos que se beneficiaron de esta técnica fueron el maní sin cáscara y el café tostado y molido."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué envase es muy común en la industria farmacéutica y cosmética ?",
+        "propositions": [
+          "Jerrycano",
+          "Tarro",
+          "barril",
+          "Botella"
+        ],
+        "réponse": "Botella",
+        "anecdote": "Una botella suele estar equipada con un tapón impermeable, destinado a conservar los productos líquidos que pueden deteriorarse en el aire."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué material plástico transparente se utiliza para empaquetar artículos frágiles ?",
+        "propositions": [
+          "Celofán",
+          "Ampolla",
+          "Tetra ladrillo",
+          "Plástico de burbujas"
+        ],
+        "réponse": "Plástico de burbujas",
+        "anecdote": "Los hemisferios llenos de aire que sobresalen están espaciados uniformemente para proporcionar un cojín para proteger objetos frágiles."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué representación gráfica digital está presente en el embalaje ?",
+        "propositions": [
+          "Marca",
+          "Derechos reservados",
+          "Peso neto",
+          "Código de barras"
+        ],
+        "réponse": "Código de barras",
+        "anecdote": "Hay miles de códigos de barras diferentes, que están destinados a ser leídos automáticamente mediante un sensor electrónico."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué mueble cerrado sirvió de armario, banco y equipaje ?",
+        "propositions": [
+          "Maleta",
+          "Cartón",
+          "Caso",
+          "Pecho"
+        ],
+        "réponse": "Pecho",
+        "anecdote": "En el siglo XVI, la gente prefería los cofres portátiles más ligeros, reemplazando la madera maciza por conjuntos de paneles."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué tratamiento de los residuos domésticos tiene en cuenta el tipo de envase ?",
+        "propositions": [
+          "Girar",
+          "Drenaje",
+          "Reciclaje",
+          "Compostaje"
+        ],
+        "réponse": "Reciclaje",
+        "anecdote": "Desde 2007, la producción, el almacenamiento, el tratamiento y el reciclaje de residuos están regulados en Europa mediante una elaborada legislación."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué estuche acolchado no rígido se utiliza para transportar un instrumento musical ?",
+        "propositions": [
+          "Caja",
+          "Portada",
+          "Maleta",
+          "Ampolla"
+        ],
+        "réponse": "Portada",
+        "anecdote": "Los materiales utilizados para fabricar las fundas pueden ser cuero, telas para equipaje impermeables o no impermeables como Cordura."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué marca de envases de cartón produce Tetra Pak ?",
+        "propositions": [
+          "Tetra ladrillo",
+          "Tetra Brok",
+          "freno tetra",
+          "Tetra Bruk"
+        ],
+        "réponse": "Tetra ladrillo",
+        "anecdote": "Su forma es cúbica o cuboide y está disponible con o sin tapa (que puede ser diferente)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué pequeña caja de cartón está destinada a contener bombones ?",
+        "propositions": [
+          "Jerrycano",
+          "votación",
+          "Ampolla",
+          "Bolsa para perros"
+        ],
+        "réponse": "votación",
+        "anecdote": "Fue Louise Agostini, la esposa de Jean Neuhaus, quien creó este tipo de envases en 1915, para los bombones de la empresa de su marido."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué bolsa de papel plegable se suele colocar en los aviones ?",
+        "propositions": [
+          "Bolsa de vacío",
+          "Bolsa de vómito",
+          "Portatrajes",
+          "Bolsa de supervivencia"
+        ],
+        "réponse": "Bolsa de vómito",
+        "anecdote": "La bolsa para vómitos, accesorio presente en cada asiento, suele estar hecha de papel y el interior está laminado para hacerlo impermeable."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué mueble pequeño y cerrado con llave está destinado a contener objetos valiosos ?",
+        "propositions": [
+          "Maleta",
+          "Lata de hojalata",
+          "Caja",
+          "votación"
+        ],
+        "réponse": "Caja",
+        "anecdote": "La noción de caja se ha extendido hoy a formas de embalaje para la comercialización de determinados productos."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué lata de combustible de acero se inventó en Alemania en 1936 ?",
+        "propositions": [
+          "Kraft",
+          "Jerrycano",
+          "Tetra ladrillo",
+          "Puede"
+        ],
+        "réponse": "Jerrycano",
+        "anecdote": "La palabra ahora se refiere a cualquier recipiente de más de veinte litros, antes de acero, ahora de plástico, en particular HDPE."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué maleta pequeña también se llama maletín o maletín ?",
+        "propositions": [
+          "Portada",
+          "Maletín",
+          "Bolsa para perros",
+          "Caso"
+        ],
+        "réponse": "Maletín",
+        "anecdote": "El maletín se utiliza principalmente en el ámbito profesional : sirve para llevar papeles importantes y portátiles."
+      },
+      {
+        "id": 26,
+        "question": "¿En qué envase se presentan los medicamentos en blister ?",
+        "propositions": [
+          "Celofán",
+          "Bolsa de vacío",
+          "Ampolla",
+          "Caso"
+        ],
+        "réponse": "Ampolla",
+        "anecdote": "Esta disposición permite aumentar el tamaño del objeto, realzarlo en una caja y evitar que sea manipulado o dañado."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué contenedor cilíndrico está destinado al transporte de mercancías a granel ?",
+        "propositions": [
+          "Portada",
+          "Tarro",
+          "barril",
+          "Pagar"
+        ],
+        "réponse": "barril",
+        "anecdote": "El bidón industrial, que suele tener una amplia apertura, puede estar certificado para transportar materiales peligrosos."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué pequeño envoltorio suele estar hecho de papel o gasa de seda ?",
+        "propositions": [
+          "Bolsa de vómito",
+          "votación",
+          "Bolsa para perros",
+          "Bolsa de té"
+        ],
+        "réponse": "Bolsa de té",
+        "anecdote": "La mayoría de las bolsitas de té tienen una cuerda atada que ayuda a identificar, retirar y, a veces, escurrir la bolsa después de prepararla."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué papel de regalo resistente se fabrica con pulpa de papel ?",
+        "propositions": [
+          "Kraft",
+          "Sulfurizado",
+          "Toalla de papel",
+          "Vidrio cristalino"
+        ],
+        "réponse": "Kraft",
+        "anecdote": "La palabra alemana Kraft (que significa resistencia) es el origen del nombre de papel kraft, que designa un papel especialmente resistente."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué envases de alimentos están hechos de una película fina y transparente ?",
+        "propositions": [
+          "Celofán",
+          "Caso",
+          "Plástico de burbujas",
+          "Portada"
+        ],
+        "réponse": "Celofán",
+        "anecdote": "Es un material muy utilizado para el envasado de alimentos debido a su transparencia y su impermeabilidad a los microorganismos."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale piccolo contenitore di vetro a bocca larga può essere sigillato ermeticamente ?",
+        "propositions": [
+          "Vaso",
+          "Acquario",
+          "Balsamaire",
+          "Fiala"
+        ],
+        "réponse": "Vaso",
+        "anecdote": "Per la frutta in scatola utilizziamo un barattolo di vetro chiuso ermeticamente con un coperchio e dotato di guarnizione in gomma."
+      },
+      {
+        "id": 2,
+        "question": "Quale contenitore metallico ermetico si apre con un apriscatole ?",
+        "propositions": [
+          "Ballotina",
+          "Barile",
+          "Barattolo di latta",
+          "Può"
+        ],
+        "réponse": "Barattolo di latta",
+        "anecdote": "La qualità sanitaria degli alimenti dipende dalla cura posta nella lavorazione e dalla qualità igienica dei prodotti conservati."
+      },
+      {
+        "id": 3,
+        "question": "Quale scatola, spesso di legno leggero, viene utilizzata per il trasporto delle merci ?",
+        "propositions": [
+          "Acquista",
+          "Blister",
+          "Valigia",
+          "Tanica"
+        ],
+        "réponse": "Acquista",
+        "anecdote": "Le casse in legno vengono prodotte in più parti che vengono poi assemblate prima della consegna oppure presso la sede del cliente."
+      },
+      {
+        "id": 4,
+        "question": "In quale contenitore cilindrico si conservano acqua, latte, vino, birra e olio ?",
+        "propositions": [
+          "Bottiglia",
+          "Barile",
+          "Bottiglia",
+          "Vaso"
+        ],
+        "réponse": "Bottiglia",
+        "anecdote": "Dopo diversi decenni di utilizzo dominante, il vetro ha subito un declino a favore della plastica (principalmente PVC e poi PET)."
+      },
+      {
+        "id": 5,
+        "question": "Quale lattina, di alluminio o di latta, contiene spesso una bevanda ?",
+        "propositions": [
+          "Può",
+          "Barattolo di latta",
+          "Vaso",
+          "Caso"
+        ],
+        "réponse": "Può",
+        "anecdote": "L'attuale produzione di lattine crea una cavità sul coperchio che può consentire l'accumulo di polvere."
+      },
+      {
+        "id": 6,
+        "question": "Nella cartoleria, quale cartella sigillata è destinata a contenere la posta ?",
+        "propositions": [
+          "Carta assorbente",
+          "Cartella",
+          "Raccoglitore",
+          "Busta"
+        ],
+        "réponse": "Busta",
+        "anecdote": "Alcuni servizi postali vendono buste preaffrancate, talvolta decorate con temi attuali."
+      },
+      {
+        "id": 7,
+        "question": "Quali imballaggi non biodegradabili sono stati rimossi dai supermercati ?",
+        "propositions": [
+          "Borsa di sopravvivenza",
+          "Sacchetto sottovuoto",
+          "Borsa porta abiti",
+          "Busta di plastica"
+        ],
+        "réponse": "Busta di plastica",
+        "anecdote": "I sacchetti di plastica portati via dal vento, dalle inondazioni e dai fiumi rappresentano una grande quantità di rifiuti marini."
+      },
+      {
+        "id": 8,
+        "question": "Come metti i vestiti prima di portarli su un aereo ?",
+        "propositions": [
+          "Valigia",
+          "Scatola",
+          "Acquista",
+          "Pluriball"
+        ],
+        "réponse": "Valigia",
+        "anecdote": "Dopo gli attentati dell'11 settembre 2001, quasi tutte le aziende ispezionano le valigie manualmente o automaticamente."
+      },
+      {
+        "id": 9,
+        "question": "Quale sacco, utilizzato per il trasporto dei rifiuti, può essere di più colori ?",
+        "propositions": [
+          "Sacco della spazzatura",
+          "Busta di carta",
+          "Sacco a pelo",
+          "Marsupio"
+        ],
+        "réponse": "Sacco della spazzatura",
+        "anecdote": "Tuttavia, l'applicazione del piano Vigipirate ha portato all'utilizzo di sacchetti trasparenti nei luoghi pubblici francesi."
+      },
+      {
+        "id": 10,
+        "question": "Dove conservi un rasoio, un lettore MP3 o una console portatile ?",
+        "propositions": [
+          "Caso",
+          "Busta di plastica",
+          "Pluriball",
+          "Cartone"
+        ],
+        "réponse": "Caso",
+        "anecdote": "Sono generalmente realizzati con materiali solidi, ma rigidi, o leggermente flessibili, come pelle o plastica."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale confezione un cliente può portare con sé gli avanzi del pasto ?",
+        "propositions": [
+          "Valigia",
+          "Petto",
+          "Tanica",
+          "Borsa per cani"
+        ],
+        "réponse": "Borsa per cani",
+        "anecdote": "Questa pratica è abbastanza diffusa nei ristoranti italiani e asiatici, che abbinano la consumazione sul posto al take-away."
+      },
+      {
+        "id": 12,
+        "question": "Con quale termine si intendono determinate tipologie di carta caratterizzate da rigidità ?",
+        "propositions": [
+          "Cartone",
+          "Pluriball",
+          "Busta",
+          "Ballotina"
+        ],
+        "réponse": "Cartone",
+        "anecdote": "Per migliorarne il profilo, alcuni cartoni vengono fatti passare tra due o più rulli orizzontali mediante il processo di calandratura."
+      },
+      {
+        "id": 13,
+        "question": "In quale imballaggio è stata rimossa l'aria per preservarne il contenuto ?",
+        "propositions": [
+          "Barattolo di latta",
+          "Tetra Brick",
+          "Sacchetto sottovuoto",
+          "Sacco della spazzatura"
+        ],
+        "réponse": "Sacchetto sottovuoto",
+        "anecdote": "I primi alimenti a beneficiare di questa tecnica furono le arachidi sgusciate e il caffè tostato e macinato."
+      },
+      {
+        "id": 14,
+        "question": "Quale contenitore è molto comune nell'industria farmaceutica e cosmetica ?",
+        "propositions": [
+          "Tanica",
+          "Vaso",
+          "Bottiglia",
+          "Barile"
+        ],
+        "réponse": "Bottiglia",
+        "anecdote": "Una bottiglia è spesso dotata di un tappo impermeabile, destinato a preservare i prodotti liquidi che possono deteriorarsi con l'aria."
+      },
+      {
+        "id": 15,
+        "question": "Quale materiale plastico trasparente viene utilizzato per imballare gli oggetti fragili ?",
+        "propositions": [
+          "Blister",
+          "Pluriball",
+          "Cellophane",
+          "Tetra Brick"
+        ],
+        "réponse": "Pluriball",
+        "anecdote": "Gli emisferi sporgenti riempiti d'aria sono uniformemente distanziati per fornire un cuscino per proteggere gli oggetti fragili."
+      },
+      {
+        "id": 16,
+        "question": "Quale rappresentazione grafica digitale è presente sulla confezione ?",
+        "propositions": [
+          "Codice a barre",
+          "Peso netto",
+          "Marca",
+          "Diritti riservati"
+        ],
+        "réponse": "Codice a barre",
+        "anecdote": "Esistono migliaia di codici a barre diversi, destinati alla lettura automatizzata da parte di un sensore elettronico."
+      },
+      {
+        "id": 17,
+        "question": "Quale mobile chiuso fungeva da armadio, panca e bagaglio ?",
+        "propositions": [
+          "Cartone",
+          "Petto",
+          "Caso",
+          "Valigia"
+        ],
+        "réponse": "Petto",
+        "anecdote": "Nel XVI secolo, le persone preferivano cassapanche portatili più leggere, sostituendo il legno massiccio con assemblaggi di pannelli."
+      },
+      {
+        "id": 18,
+        "question": "Quale trattamento dei rifiuti domestici tiene conto della tipologia di imballaggio ?",
+        "propositions": [
+          "Compostaggio",
+          "Riciclaggio",
+          "Drenaggio",
+          "Girare"
+        ],
+        "réponse": "Riciclaggio",
+        "anecdote": "Dal 2007, la produzione, lo stoccaggio, il trattamento e il riciclaggio dei rifiuti sono regolati in Europa da una legislazione elaborata."
+      },
+      {
+        "id": 19,
+        "question": "Quale custodia imbottita non rigida viene utilizzata per trasportare uno strumento musicale ?",
+        "propositions": [
+          "Scatola",
+          "Blister",
+          "Valigia",
+          "Copertina"
+        ],
+        "réponse": "Copertina",
+        "anecdote": "I materiali utilizzati per realizzare le coperture possono essere pelle, tessuti da valigeria impermeabili o non impermeabili come il Cordura."
+      },
+      {
+        "id": 20,
+        "question": "Quale marca di imballaggi in cartone è prodotta da Tetra Pak ?",
+        "propositions": [
+          "Tetra Brak",
+          "Tetra Brick",
+          "Tetra Bruk",
+          "Tetra Brok"
+        ],
+        "réponse": "Tetra Brick",
+        "anecdote": "La sua forma è cubica o cuboide ed è disponibile con o senza tappo (che può essere diverso)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale scatolina di cartone è destinata a contenere le praline ?",
+        "propositions": [
+          "Ballotina",
+          "Borsa per cani",
+          "Tanica",
+          "Blister"
+        ],
+        "réponse": "Ballotina",
+        "anecdote": "Fu Louise Agostini, moglie di Jean Neuhaus, a creare questo tipo di confezione nel 1915, per le praline dell'azienda del marito."
+      },
+      {
+        "id": 22,
+        "question": "Quale sacchetto di carta pieghevole viene solitamente posizionato sugli aerei ?",
+        "propositions": [
+          "Borsa porta abiti",
+          "Borsa di sopravvivenza",
+          "Sacchetto sottovuoto",
+          "Borsa per vomito"
+        ],
+        "réponse": "Borsa per vomito",
+        "anecdote": "Il sacchetto per il vomito, accessorio presente su ogni sedile, è spesso realizzato in carta, l'interno viene laminato per renderlo impermeabile."
+      },
+      {
+        "id": 23,
+        "question": "Quale piccolo mobile chiuso a chiave è destinato a contenere oggetti di valore ?",
+        "propositions": [
+          "Barattolo di latta",
+          "Valigia",
+          "Scatola",
+          "Ballotina"
+        ],
+        "réponse": "Scatola",
+        "anecdote": "La nozione di scatola è stata oggi estesa a forme di imballaggio destinate alla commercializzazione di determinati prodotti."
+      },
+      {
+        "id": 24,
+        "question": "Quale tanica di acciaio è stata inventata in Germania nel 1936 ?",
+        "propositions": [
+          "Può",
+          "Tetra Brick",
+          "Tanica",
+          "Kraft"
+        ],
+        "réponse": "Tanica",
+        "anecdote": "La parola ora si riferisce a qualsiasi contenitore di più di venti litri, precedentemente in acciaio, ora in plastica, in particolare HDPE."
+      },
+      {
+        "id": 25,
+        "question": "Quale piccola valigia è anche chiamata valigetta o valigetta ?",
+        "propositions": [
+          "Copertina",
+          "Valigetta",
+          "Borsa per cani",
+          "Caso"
+        ],
+        "réponse": "Valigetta",
+        "anecdote": "La cartella viene utilizzata principalmente in ambito professionale : viene utilizzata per trasportare documenti importanti e laptop."
+      },
+      {
+        "id": 26,
+        "question": "In quale confezione sono presentati i medicinali in blister ?",
+        "propositions": [
+          "Blister",
+          "Sacchetto sottovuoto",
+          "Cellophane",
+          "Caso"
+        ],
+        "réponse": "Blister",
+        "anecdote": "Questa disposizione consente di ingrandire le dimensioni dell'oggetto, di valorizzarlo in una custodia e di evitare che venga manipolato o danneggiato."
+      },
+      {
+        "id": 27,
+        "question": "Quale contenitore cilindrico è destinato al trasporto di merci sfuse ?",
+        "propositions": [
+          "Copertina",
+          "Acquista",
+          "Vaso",
+          "Barile"
+        ],
+        "réponse": "Barile",
+        "anecdote": "Il fusto industriale, che solitamente ha un'ampia apertura, può essere certificato per il trasporto di materiali pericolosi."
+      },
+      {
+        "id": 28,
+        "question": "Quale piccolo involucro è spesso fatto di carta o garza di seta ?",
+        "propositions": [
+          "Borsa per vomito",
+          "Borsa per cani",
+          "Ballotina",
+          "Bustina di tè"
+        ],
+        "réponse": "Bustina di tè",
+        "anecdote": "La maggior parte delle bustine di tè hanno un cordoncino legato che aiuta a identificare, rimuovere e talvolta strizzare la bustina dopo la preparazione."
+      },
+      {
+        "id": 29,
+        "question": "Quale carta da imballaggio resistente è realizzata con pasta di carta ?",
+        "propositions": [
+          "Solforato",
+          "Kraft",
+          "Tovagliolo di carta",
+          "Glassina"
+        ],
+        "réponse": "Kraft",
+        "anecdote": "La parola tedesca Kraft (che significa forza) è l'origine del nome carta kraft, che designa una carta particolarmente resistente."
+      },
+      {
+        "id": 30,
+        "question": "Quale imballaggio alimentare è costituito da una pellicola sottile e trasparente ?",
+        "propositions": [
+          "Pluriball",
+          "Copertina",
+          "Cellophane",
+          "Caso"
+        ],
+        "réponse": "Cellophane",
+        "anecdote": "È un materiale molto utilizzato per l'imballaggio alimentare per la sua trasparenza e la sua impermeabilità ai microrganismi."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke kleine glazen container met wijde opening kan goed worden afgesloten ?",
+        "propositions": [
+          "Aquarium",
+          "Pot",
+          "Balsamaire",
+          "Flacon"
+        ],
+        "réponse": "Pot",
+        "anecdote": "Voor fruit in blik gebruiken we een glazen pot, goed afgesloten met een deksel en voorzien van een rubberen afdichting."
+      },
+      {
+        "id": 2,
+        "question": "Welke luchtdichte metalen container opent met een blikopener ?",
+        "propositions": [
+          "Blikje",
+          "Vat",
+          "Ballotin",
+          "Kan"
+        ],
+        "réponse": "Blikje",
+        "anecdote": "De gezondheidskwaliteit van het voedsel hangt af van de zorg die wordt besteed aan de productie en de hygiënische kwaliteit van de geconserveerde producten."
+      },
+      {
+        "id": 3,
+        "question": "In welke kist, vaak van licht hout, worden goederen vervoerd ?",
+        "propositions": [
+          "Koffer",
+          "Blaar",
+          "Jerrycan",
+          "Afrekenen"
+        ],
+        "réponse": "Afrekenen",
+        "anecdote": "Houten kisten worden in verschillende delen vervaardigd en vervolgens vóór levering of bij de klant in elkaar gezet."
+      },
+      {
+        "id": 4,
+        "question": "Welke cilindrische container wordt gebruikt om water, melk, wijn, bier en olie op te slaan ?",
+        "propositions": [
+          "Fles",
+          "Pot",
+          "Vat",
+          "Fles"
+        ],
+        "réponse": "Fles",
+        "anecdote": "Na tientallen jaren van dominant gebruik is glas achteruitgegaan ten gunste van kunststoffen (voornamelijk PVC en daarna PET)."
+      },
+      {
+        "id": 5,
+        "question": "In welk blikje, aluminium of blik, zit vaak een drankje ?",
+        "propositions": [
+          "Kan",
+          "Geval",
+          "Blikje",
+          "Pot"
+        ],
+        "réponse": "Kan",
+        "anecdote": "Bij de huidige productie van blikjes ontstaat er een holte in het deksel, waar mogelijk stof in kan blijven zitten."
+      },
+      {
+        "id": 6,
+        "question": "Welke verzegelde map bij briefpapier is bedoeld om post in te bewaren ?",
+        "propositions": [
+          "Blotter",
+          "Map",
+          "Bindmiddel",
+          "Envelop"
+        ],
+        "réponse": "Envelop",
+        "anecdote": "Sommige postdiensten verkopen voorgefrankeerde enveloppen, soms versierd met actuele thema's."
+      },
+      {
+        "id": 7,
+        "question": "Welke niet-biologisch afbreekbare verpakkingen zijn uit de supermarkten verwijderd ?",
+        "propositions": [
+          "Survivaltas",
+          "Kledingtas",
+          "Vacuümzak",
+          "Plastic zak"
+        ],
+        "réponse": "Plastic zak",
+        "anecdote": "Plastic zakken die worden weggeblazen door wind, overstromingen en rivieren zijn verantwoordelijk voor veel zwerfvuil in de zee."
+      },
+      {
+        "id": 8,
+        "question": "Waar stop jij je kleren in voordat je ze meeneemt in het vliegtuig ?",
+        "propositions": [
+          "Doos",
+          "Koffer",
+          "Noppenfolie",
+          "Afrekenen"
+        ],
+        "réponse": "Koffer",
+        "anecdote": "Sinds de aanslagen van 11 september 2001 inspecteren vrijwel alle bedrijven koffers handmatig of automatisch."
+      },
+      {
+        "id": 9,
+        "question": "Welke zak, gebruikt om afval te vervoeren, kan verschillende kleuren hebben ?",
+        "propositions": [
+          "Papieren zak",
+          "Vuilniszak",
+          "Slaapzak",
+          "Heuptasje"
+        ],
+        "réponse": "Vuilniszak",
+        "anecdote": "De toepassing van het Vigipirate-plan heeft echter geleid tot het gebruik van transparante tassen op openbare plaatsen in Frankrijk."
+      },
+      {
+        "id": 10,
+        "question": "Waar bewaar je een scheermes, mp3-speler of draagbare console ?",
+        "propositions": [
+          "Noppenfolie",
+          "Plastic zak",
+          "Geval",
+          "Karton"
+        ],
+        "réponse": "Geval",
+        "anecdote": "Ze zijn over het algemeen gemaakt van stevige, maar stijve of enigszins flexibele materialen, zoals leer of plastic."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welke verpakking kan een klant restjes van zijn maaltijd meenemen ?",
+        "propositions": [
+          "Borst",
+          "Jerrycan",
+          "Hondentas",
+          "Koffer"
+        ],
+        "réponse": "Hondentas",
+        "anecdote": "Deze praktijk is vrij gebruikelijk in Italiaanse en Aziatische restaurants, waar consumptie ter plaatse en afhaalmaaltijden worden gecombineerd."
+      },
+      {
+        "id": 12,
+        "question": "Welke term verwijst naar bepaalde papiersoorten die worden gekenmerkt door stijfheid ?",
+        "propositions": [
+          "Noppenfolie",
+          "Ballotin",
+          "Karton",
+          "Envelop"
+        ],
+        "réponse": "Karton",
+        "anecdote": "Om hun profiel te verbeteren, worden bepaalde dozen via het kalanderproces tussen twee of meer horizontale rollen gevoerd."
+      },
+      {
+        "id": 13,
+        "question": "In welke verpakking is de lucht verwijderd om de inhoud te behouden ?",
+        "propositions": [
+          "Vuilniszak",
+          "Tetrasteen",
+          "Blikje",
+          "Vacuümzak"
+        ],
+        "réponse": "Vacuümzak",
+        "anecdote": "De eerste voedingsmiddelen die van deze techniek profiteerden, waren gepelde pinda's en gebrande en gemalen koffie."
+      },
+      {
+        "id": 14,
+        "question": "Welke container is heel gebruikelijk in de farmaceutische en cosmetische industrie ?",
+        "propositions": [
+          "Vat",
+          "Jerrycan",
+          "Fles",
+          "Pot"
+        ],
+        "réponse": "Fles",
+        "anecdote": "Een fles is vaak voorzien van een waterdichte dop, bedoeld om vloeibare producten te bewaren die in de lucht kunnen bederven."
+      },
+      {
+        "id": 15,
+        "question": "Welk transparant plastic materiaal wordt gebruikt om breekbare artikelen te verpakken ?",
+        "propositions": [
+          "Tetrasteen",
+          "Blaar",
+          "Cellofaan",
+          "Noppenfolie"
+        ],
+        "réponse": "Noppenfolie",
+        "anecdote": "Uitstekende, met lucht gevulde halve bollen zijn gelijkmatig verdeeld en vormen een kussen om kwetsbare voorwerpen te beschermen."
+      },
+      {
+        "id": 16,
+        "question": "Welke digitale grafische weergave is aanwezig op de verpakking ?",
+        "propositions": [
+          "Streepjescode",
+          "Merk",
+          "Netto gewicht",
+          "Rechten voorbehouden"
+        ],
+        "réponse": "Streepjescode",
+        "anecdote": "Er zijn duizenden verschillende barcodes, deze zijn bedoeld voor automatisch uitlezen door een elektronische sensor."
+      },
+      {
+        "id": 17,
+        "question": "Welk gesloten meubel diende als kledingkast, bank en bagage ?",
+        "propositions": [
+          "Koffer",
+          "Borst",
+          "Geval",
+          "Karton"
+        ],
+        "réponse": "Borst",
+        "anecdote": "In de 16e eeuw gaven mensen de voorkeur aan lichtere draagbare kisten, waarbij massief hout werd vervangen door samengestelde panelen."
+      },
+      {
+        "id": 18,
+        "question": "Bij welke behandeling van huishoudelijk afval wordt rekening gehouden met het type verpakking ?",
+        "propositions": [
+          "Recycling",
+          "Afwatering",
+          "Draai",
+          "Composteren"
+        ],
+        "réponse": "Recycling",
+        "anecdote": "Sinds 2007 worden de productie, opslag, verwerking en recycling van afval in Europa gereguleerd door middel van uitgebreide wetgeving."
+      },
+      {
+        "id": 19,
+        "question": "Welke gewatteerde, niet-stijve koffer wordt gebruikt voor het dragen van een muziekinstrument ?",
+        "propositions": [
+          "Omslag",
+          "Blaar",
+          "Koffer",
+          "Doos"
+        ],
+        "réponse": "Omslag",
+        "anecdote": "De materialen waaruit de hoezen worden gemaakt, kunnen leer, waterdichte of niet-waterdichte bagagestoffen zoals Cordura zijn."
+      },
+      {
+        "id": 20,
+        "question": "Welke merknaam kartonnen verpakkingen produceert Tetra Pak ?",
+        "propositions": [
+          "Tetra Bruk",
+          "Tetra Brak",
+          "Tetrasteen",
+          "Tetra Brok"
+        ],
+        "réponse": "Tetrasteen",
+        "anecdote": "De vorm is kubusvormig of rechthoekig en is verkrijgbaar met of zonder dop (wat verschillend kan zijn)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welke kleine kartonnen doos moeten pralines zitten ?",
+        "propositions": [
+          "Ballotin",
+          "Blaar",
+          "Hondentas",
+          "Jerrycan"
+        ],
+        "réponse": "Ballotin",
+        "anecdote": "Het was Louise Agostini, de vrouw van Jean Neuhaus, die dit soort verpakkingen in 1915 creëerde voor de pralines van het bedrijf van haar man."
+      },
+      {
+        "id": 22,
+        "question": "Welke opvouwbare papieren zak wordt doorgaans in vliegtuigen geplaatst ?",
+        "propositions": [
+          "Vacuümzak",
+          "Braakzak",
+          "Kledingtas",
+          "Survivaltas"
+        ],
+        "réponse": "Braakzak",
+        "anecdote": "De braakzak, een accessoire dat op elke stoel aanwezig is, is vaak gemaakt van papier en de binnenkant is gelamineerd om hem waterdicht te maken."
+      },
+      {
+        "id": 23,
+        "question": "Welk klein, afgesloten meubelstuk is bedoeld om waardevolle voorwerpen in te bewaren ?",
+        "propositions": [
+          "Blikje",
+          "Doos",
+          "Koffer",
+          "Ballotin"
+        ],
+        "réponse": "Doos",
+        "anecdote": "Het begrip doos is tegenwoordig uitgebreid tot verpakkingsvormen voor de marketing van bepaalde producten."
+      },
+      {
+        "id": 24,
+        "question": "Welk stalen brandstofblikje werd in 1936 in Duitsland uitgevonden ?",
+        "propositions": [
+          "Tetrasteen",
+          "Kan",
+          "Jerrycan",
+          "Kraftpapier"
+        ],
+        "réponse": "Jerrycan",
+        "anecdote": "Het woord verwijst nu naar elke container van meer dan twintig liter, voorheen gemaakt van staal, nu van plastic, met name HDPE."
+      },
+      {
+        "id": 25,
+        "question": "Welke kleine koffer wordt ook wel aktetas of aktetas genoemd ?",
+        "propositions": [
+          "Hondentas",
+          "Aktetas",
+          "Geval",
+          "Omslag"
+        ],
+        "réponse": "Aktetas",
+        "anecdote": "De koffer wordt vooral gebruikt in een professionele omgeving : hij wordt gebruikt om belangrijke papieren en laptops in mee te nemen."
+      },
+      {
+        "id": 26,
+        "question": "In welke verpakking worden de geneesmiddelen in blisterverpakkingen aangeboden ?",
+        "propositions": [
+          "Cellofaan",
+          "Blaar",
+          "Geval",
+          "Vacuümzak"
+        ],
+        "réponse": "Blaar",
+        "anecdote": "Deze opstelling maakt het mogelijk om de afmetingen van het object te vergroten, het in een etui te verbeteren en te voorkomen dat het wordt gemanipuleerd of beschadigd."
+      },
+      {
+        "id": 27,
+        "question": "Welke cilindervormige container is bedoeld voor het vervoer van bulkgoederen ?",
+        "propositions": [
+          "Vat",
+          "Omslag",
+          "Pot",
+          "Afrekenen"
+        ],
+        "réponse": "Vat",
+        "anecdote": "Het industriële vat, dat doorgaans een brede opening heeft, kan worden gecertificeerd voor het vervoer van gevaarlijke stoffen."
+      },
+      {
+        "id": 28,
+        "question": "Welk klein wikkeltje is vaak gemaakt van papier of zijdegaas ?",
+        "propositions": [
+          "Braakzak",
+          "Hondentas",
+          "Theezakje",
+          "Ballotin"
+        ],
+        "réponse": "Theezakje",
+        "anecdote": "De meeste theezakjes hebben een touwtje waarmee je het zakje na het zetten kunt identificeren, verwijderen en soms uitwringen."
+      },
+      {
+        "id": 29,
+        "question": "Welk stevig inpakpapier wordt gemaakt van papierpulp ?",
+        "propositions": [
+          "Zwavel",
+          "Papieren handdoek",
+          "Kraftpapier",
+          "Glas"
+        ],
+        "réponse": "Kraftpapier",
+        "anecdote": "Het Duitse woord Kraft (dat kracht betekent) is de oorsprong van de naam kraftpapier, dat een bijzonder sterk papier aanduidt."
+      },
+      {
+        "id": 30,
+        "question": "Welke voedselverpakkingen zijn gemaakt van een dunne, transparante folie ?",
+        "propositions": [
+          "Omslag",
+          "Noppenfolie",
+          "Cellofaan",
+          "Geval"
+        ],
+        "réponse": "Cellofaan",
+        "anecdote": "Het is een materiaal dat veel wordt gebruikt voor voedselverpakkingen vanwege de transparantie en de ondoordringbaarheid voor micro-organismen."
+      }
+    ]
+    }
+  }
+}

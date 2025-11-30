@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2022-05-08",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Loisirs",
+      "nom": "Livre numérique",
+      "slogan": "Votre bibliothèque 2.0"
+    },
+    "en": {
+      "catégorie": "Hobbies",
+      "nom": "Digital book",
+      "slogan": "Your Library 2.0"
+    },
+    "es": {
+      "catégorie": "Aficiones",
+      "nom": "Libro digital",
+      "slogan": "Tu biblioteca 2.0"
+    },
+    "it": {
+      "catégorie": "Hobby",
+      "nom": "Libro digitale",
+      "slogan": "La tua libreria 2.0"
+    },
+    "de": {
+      "catégorie": "Hobbys",
+      "nom": "Digitales Buch",
+      "slogan": "Ihre Bibliothek 2.0"
+    },
+    "nl": {
+      "catégorie": "Hobby's",
+      "nom": "Digitaal boek",
+      "slogan": "Uw bibliotheek 2.0"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel projet créé par Michael Heart fut nommé en hommage à un imprimeur allemand ?",
+        "propositions": [
+          "Gutenberg",
+          "Lotter",
+          "Koberger",
+          "Petri"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "Le Projet Gutenberg est une bibliothèque de versions électroniques libres de livres du domaine public physiquement existants."
+      },
+      {
+        "id": 2,
+        "question": "Quel appareil mobile est principalement conçu pour lire des livres numériques ?",
+        "propositions": [
+          "Afficheuse",
+          "Joueuse",
+          "Liseuse",
+          "Montreuse"
+        ],
+        "réponse": "Liseuse",
+        "anecdote": "L'appareil doit également permettre le stockage des publications numériques pour la création d'une bibliothèque numérique."
+      },
+      {
+        "id": 3,
+        "question": "Quel avantage le livre numérique peut-il apporter face à son concurrent papier ?",
+        "propositions": [
+          "Disponibilité",
+          "Accessibilité",
+          "Commercialisation",
+          "Prix"
+        ],
+        "réponse": "Accessibilité",
+        "anecdote": "Le livre numérique peut en effet être restitué sur un appareil adapté, en affichage braille par exemple ou encore en restitution sonore."
+      },
+      {
+        "id": 4,
+        "question": "Quelle liseuse a permis à Amazon de se spécialiser dans la lecture numérique ?",
+        "propositions": [
+          "Bookeen",
+          "Kobo",
+          "Kindle",
+          "Nuvo"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "Le plus grand intérêt de l'époque du Kindle réside dans son usage de l'encre électronique qui n'agresse pas les yeux."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est l'autonomie batterie moyenne d'une liseuse ?",
+        "propositions": [
+          "Un an",
+          "Une semaine",
+          "Un jour",
+          "Un mois"
+        ],
+        "réponse": "Un mois",
+        "anecdote": "Une liseuse ne consomme pas d'énergie pour afficher du contenu, elle en utilise seulement lorsque le contenu est modifié."
+      },
+      {
+        "id": 6,
+        "question": "Quelle application Apple permet d'acquérir des livres numériques ?",
+        "propositions": [
+          "Apple Books",
+          "Xcode",
+          "Line",
+          "Safari"
+        ],
+        "réponse": "Apple Books",
+        "anecdote": "iBooks est une application optionnelle sur iOS (iPhone, iPad, et iPod touch). Depuis iOS 8, elle est installée sur l'appareil par défaut."
+      },
+      {
+        "id": 7,
+        "question": "Quel livre numérique a recours à l'ouïe plutôt qu'à la vue ?",
+        "propositions": [
+          "Livre audio",
+          "Livre animé",
+          "Livre usuel",
+          "Livre fictif"
+        ],
+        "réponse": "Livre audio",
+        "anecdote": "Simple d'utilisation, le livre audio séduit différentes catégories d'âge et socioprofessionnelles, pour des raisons souvent différentes."
+      },
+      {
+        "id": 8,
+        "question": "Quel site propose l'offre de livres numériques en français la plus riche du marché ?",
+        "propositions": [
+          "Livrelec.com",
+          "Chapitre.com",
+          "Meslivres.com",
+          "Frenchpages.com"
+        ],
+        "réponse": "Chapitre.com",
+        "anecdote": "On évalue la part des lecteurs numériques en France à 20 % de la population, combinant lecture électronique et lecture papier."
+      },
+      {
+        "id": 9,
+        "question": "Grâce à quelle technique papier une liseuse fonctionne-t-elle ?",
+        "propositions": [
+          "Électronique",
+          "Plié",
+          "Argenté",
+          "Tissé"
+        ],
+        "réponse": "Électronique",
+        "anecdote": "Cette technique d'affichage sur support souple, modifiable électroniquement, cherche à imiter l'apparence du papier."
+      },
+      {
+        "id": 10,
+        "question": "Quel minerai rare est nécessaire à la fabrication de batteries longue durée ?",
+        "propositions": [
+          "Lithium",
+          "Sodium",
+          "Cuivre",
+          "Zinc"
+        ],
+        "réponse": "Lithium",
+        "anecdote": "Le lithium pur est un métal mou, de couleur gris argenté, qui se ternit et s'oxyde très rapidement au contact de l'air et de l'eau."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle librairie a été rachetée en avril 2005 par Amazon.com ?",
+        "propositions": [
+          "Cybook",
+          "Mobipocket",
+          "Alliance",
+          "Dacos"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "Mobipocket.com a lancé Mobipocket Creator pour créer des livres électroniques au format PRC/MOBI (dont il est le créateur)."
+      },
+      {
+        "id": 12,
+        "question": "Quelle licence alternative permet de publier numériquement en protégeant les auteurs ?",
+        "propositions": [
+          "Domitor",
+          "Creative Commons",
+          "Melissa",
+          "Nekomix"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "Le CRID a adapté les licences dans le droit belge, ces licences belges existent en français, néerlandais et anglais."
+      },
+      {
+        "id": 13,
+        "question": "Quelle technique permet d'ajouter un copyright à un livre numérique ?",
+        "propositions": [
+          "YubiKey",
+          "Mkaart",
+          "Watermarking",
+          "GoldCode"
+        ],
+        "réponse": "Watermarking",
+        "anecdote": "La marque peut être le nom ou un identifiant du créateur, du propriétaire, de l'acheteur ou encore une forme de signature."
+      },
+      {
+        "id": 14,
+        "question": "Quel format ouvert standardisé pour les livres numériques est fondé sur le XML ?",
+        "propositions": [
+          "HTM",
+          "ePub",
+          "Docx",
+          "PostScript"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB est conçu pour faciliter la mise en page du contenu, le texte affiché étant ajusté au tout dernier moment."
+      },
+      {
+        "id": 15,
+        "question": "Quel modèle de liseuse est proposé par la FNAC en France et en Belgique ?",
+        "propositions": [
+          "Bookeen",
+          "Onyx",
+          "Kobo",
+          "Icarus"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "Le Kobo eReader est une liseuse produite par la compagnie Kobo basée à Toronto. La première version est sortie en mai 2010."
+      },
+      {
+        "id": 16,
+        "question": "Depuis quelle année le Kindle est-il commercialisé par la société Amazon ?",
+        "propositions": [
+          "2013",
+          "2009",
+          "2011",
+          "2007"
+        ],
+        "réponse": "2007",
+        "anecdote": "Le plus grand intérêt du Kindle réside dans son usage de l'encre électronique qui n'agresse pas les yeux car sans rétro-éclairage."
+      },
+      {
+        "id": 17,
+        "question": "Quel système protège les fichiers propriétaires du Kindle d'Amazon ?",
+        "propositions": [
+          "DRM",
+          "PDF",
+          "CSV",
+          "ZIP"
+        ],
+        "réponse": "DRM",
+        "anecdote": "Ces dispositifs de contrôle peuvent s'appliquer à tous types de supports numériques physiques ou de transmission."
+      },
+      {
+        "id": 18,
+        "question": "Quel est le genre de livres numérique le plus vendu par Amazon ?",
+        "propositions": [
+          "Science-fiction",
+          "Romance érotique",
+          "Thriller",
+          "Aventure"
+        ],
+        "réponse": "Romance érotique",
+        "anecdote": "Au premier trimestre 2012, les ventes de livres numériques dépassaient en valeur les ventes de livres papier dans le pays."
+      },
+      {
+        "id": 19,
+        "question": "Quel est le nom de la technique de gestion numérique des droits (DRM) d'Apple ?",
+        "propositions": [
+          "Topaz",
+          "Kepub",
+          "Adept",
+          "FairPlay"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "Tout le contenu protégé acheté à partir d'un même compte iTunes Store ne peut être lu que sur cinq ordinateurs autorisés."
+      },
+      {
+        "id": 20,
+        "question": "Quel nom porte la liseuse Kindle de cinquième génération ?",
+        "propositions": [
+          "Fire",
+          "Touch",
+          "Paperwhite",
+          "DX"
+        ],
+        "réponse": "Paperwhite",
+        "anecdote": "Le Kindle 5e génération est sorti aux États-Unis en octobre 2012 et est disponible en deux versions : Wi-Fi et Wi-Fi avec 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle marque de liseuses est commercialisée par Barnes et Noble aux USA ?",
+        "propositions": [
+          "Kindle",
+          "Nook",
+          "Tolino",
+          "Kobo"
+        ],
+        "réponse": "Nook",
+        "anecdote": "Tout comme la marque Kindle, la marque Nook existe aussi sous la forme de logiciels9 pour ordinateurs (PC et Mac)."
+      },
+      {
+        "id": 22,
+        "question": "Quel nom porte la première maison d'édition numérique francophone ?",
+        "propositions": [
+          "Scalar",
+          "Gravitons",
+          "Daisy",
+          "Cylibris"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Fondée en 1996 par Olivier Gainon, la société Cylibris publie les livres numériques et imprimés sur Internet."
+      },
+      {
+        "id": 23,
+        "question": "Quel écrivain a fondé la première coopérative d'auteurs « publie.net » ?",
+        "propositions": [
+          "Claude Boujon",
+          "François Bon",
+          "Pascal Brissy",
+          "Patrick Bousquet"
+        ],
+        "réponse": "François Bon",
+        "anecdote": "François Bon est l'un des premiers à faire de son site internet un lieu de dépôt de textes finis, d'ébauches ou de textes de rodage."
+      },
+      {
+        "id": 24,
+        "question": "Quel fut le premier appareil commercialisé utilisant le papier électronique ?",
+        "propositions": [
+          "Librié",
+          "Hanlin",
+          "eFlybook",
+          "iLiad"
+        ],
+        "réponse": "Librié",
+        "anecdote": "Le lecteur Sony Librié, sorti en 2004 au Japon, possédait un écran 6 pouces SVGA à matrice active fondé sur l'électrophorèse."
+      },
+      {
+        "id": 25,
+        "question": "Quel système d'exploitation est utilisé sur le Kindle d'Amazon ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "Linux",
+          "Windows"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Une version en couleur, le Kindle Fire, est commercialisée aux États-Unis depuis le 14 novembre 2011."
+      },
+      {
+        "id": 26,
+        "question": "Quel format propriétaire de document est utilisé par Amazon sur son Kindle ?",
+        "propositions": [
+          "ePub",
+          "PDF",
+          "AZW",
+          "TXT"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Le Kindle d'Amazon prend également en charge les fichiers images de type JPEG, GIF, PNG et BMP."
+      },
+      {
+        "id": 27,
+        "question": "Quelle fut la première tablette de lecture européenne à être lancée en 2001 ?",
+        "propositions": [
+          "Onyx",
+          "Kindle",
+          "Cybook",
+          "Scribd"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "Le Cybook Gen3 utilise des écrans équipés du papier électronique qui rend possible une lecture similaire au support papier."
+      },
+      {
+        "id": 28,
+        "question": "Quel site de partage de documents en ligne est actif depuis mars 2007 ?",
+        "propositions": [
+          "Spiral",
+          "Scribd",
+          "Snopes",
+          "Stormfront"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "Les documents iPaper sont obtenus après conversion de divers fichiers (Powerpoint, PDF, Word) et peuvent être partagés."
+      },
+      {
+        "id": 29,
+        "question": "Quelle marque de liseuses est développée par Deutsche Telekom ?",
+        "propositions": [
+          "Kobo",
+          "Tolino",
+          "Nook",
+          "Onyx"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "Ces produits sont vendus par Standaard Boekhandel en Belgique, INDIeBook, IBS.it et Libraccio en Italie."
+      },
+      {
+        "id": 30,
+        "question": "Quel format ouvert de livres électroniques a gagné sa popularité en Russie ?",
+        "propositions": [
+          "Sodec",
+          "FictionBook",
+          "Youboox",
+          "Davinci"
+        ],
+        "réponse": "FictionBook",
+        "anecdote": "Ce format est pratique pour le traitement automatique, l'indexation et la gestion des collections de livres numériques."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which project created by Michael Heart was named in honor of a German printer ?",
+        "propositions": [
+          "Gutenberg",
+          "Koberger",
+          "Lotter",
+          "Petri"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "The Gutenberg Project is a library of free electronic versions of physically existing public domain books."
+      },
+      {
+        "id": 2,
+        "question": "Which mobile device is primarily designed for reading digital books ?",
+        "propositions": [
+          "Player",
+          "Reader",
+          "Montreuse",
+          "Display"
+        ],
+        "réponse": "Reader",
+        "anecdote": "The device must also allow the storage of digital publications for the creation of a digital library."
+      },
+      {
+        "id": 3,
+        "question": "What advantage can the digital book bring over its paper competitor ?",
+        "propositions": [
+          "Accessibility",
+          "Marketing",
+          "Price",
+          "Availability"
+        ],
+        "réponse": "Accessibility",
+        "anecdote": "The digital book can in fact be reproduced on a suitable device, in braille display for example or even in sound reproduction."
+      },
+      {
+        "id": 4,
+        "question": "Which e-reader enabled Amazon to specialize in digital reading ?",
+        "propositions": [
+          "Nuvo",
+          "Kindle",
+          "Kobo",
+          "Bookeen"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "The greatest interest of the Kindle era is its use of electronic ink, which does not harm the eyes."
+      },
+      {
+        "id": 5,
+        "question": "What is the average battery life of an e-reader ?",
+        "propositions": [
+          "One day",
+          "One month",
+          "One year",
+          "One week"
+        ],
+        "réponse": "One month",
+        "anecdote": "An eReader does not consume power to display content, it only uses power when the content is changed."
+      },
+      {
+        "id": 6,
+        "question": "Which Apple application allows you to acquire digital books ?",
+        "propositions": [
+          "Safari",
+          "Xcode",
+          "Line",
+          "Apple Books"
+        ],
+        "réponse": "Apple Books",
+        "anecdote": "IBooks is an optional application on iOS (iPhone, iPad, and iPod Touch). Since iOS 8, it is installed on the default device."
+      },
+      {
+        "id": 7,
+        "question": "Which digital book uses hearing instead of sight ?",
+        "propositions": [
+          "Audiobook",
+          "Usual book",
+          "Fictitious book",
+          "Animated book"
+        ],
+        "réponse": "Audiobook",
+        "anecdote": "Easy to use, the audio book appeals to different age and socio-professional categories, for often different reasons."
+      },
+      {
+        "id": 8,
+        "question": "Which site offers the richest range of digital books in French on the market ?",
+        "propositions": [
+          "Chapter.com",
+          "Frenchpages.com",
+          "Livrelec.com",
+          "Meslivres.com"
+        ],
+        "réponse": "Chapter.com",
+        "anecdote": "The share of digital readers in France is estimated at 20% of the population, combining electronic reading and paper reading."
+      },
+      {
+        "id": 9,
+        "question": "Thanks to what paper technique a reader works ?",
+        "propositions": [
+          "Electronics",
+          "Folded",
+          "Silver",
+          "Woven"
+        ],
+        "réponse": "Electronics",
+        "anecdote": "This display technique on flexible support, electronically modifiable, seeks to imitate the appearance of paper."
+      },
+      {
+        "id": 10,
+        "question": "What rare ore is needed to make long-lasting batteries ?",
+        "propositions": [
+          "Copper",
+          "Sodium",
+          "Zinc",
+          "Lithium"
+        ],
+        "réponse": "Lithium",
+        "anecdote": "Pure lithium is a soft, silvery gray metal which tarnishes and oxidizes very quickly on contact with air and water."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which bookstore was bought in April 2005 by Amazon.com ?",
+        "propositions": [
+          "Alliance",
+          "Mobipocket",
+          "Cybook",
+          "Dacos"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "Mobipocket.com launched Mobipocket Creator to create eBooks in PRC / Mobi format (which it is the creator)."
+      },
+      {
+        "id": 12,
+        "question": "Which alternative license allows you to publish digitally while protecting the authors ?",
+        "propositions": [
+          "Creative Commons",
+          "Melissa",
+          "Nekomix",
+          "Domitor"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "CRID has adapted the licenses to Belgian law, these Belgian licenses exist in French, Dutch and English."
+      },
+      {
+        "id": 13,
+        "question": "What technique is used to add copyright information to a digital book ?",
+        "propositions": [
+          "Watermarking",
+          "Mkaart",
+          "YubiKey",
+          "GoldCode"
+        ],
+        "réponse": "Watermarking",
+        "anecdote": "The mark can be the name or an identifier of the creator, the owner, the purchaser or even a form of signature."
+      },
+      {
+        "id": 14,
+        "question": "What standardized open format for digital books is XML-based ?",
+        "propositions": [
+          "HTM",
+          "ePub",
+          "Docx",
+          "PostScript"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB is designed to facilitate the layout of the content, with the displayed text being adjusted at the very last moment."
+      },
+      {
+        "id": 15,
+        "question": "What model of e-reader is offered by FNAC in France and Belgium ?",
+        "propositions": [
+          "Bookeen",
+          "Icarus",
+          "Onyx",
+          "Kobo"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "The Kobo eReader is an eReader produced by the Toronto-based company Kobo. The first version was released in May 2010."
+      },
+      {
+        "id": 16,
+        "question": "Since what year has the Kindle been marketed by the Amazon company ?",
+        "propositions": [
+          "2007",
+          "2013",
+          "2009",
+          "2011"
+        ],
+        "réponse": "2007",
+        "anecdote": "The greatest interest of Kindle lies in its use of electronic ink which does not attack the eyes because it has no backlight."
+      },
+      {
+        "id": 17,
+        "question": "Which system protects the proprietary files of the Amazon Kindle ?",
+        "propositions": [
+          "ZIP",
+          "PDF",
+          "CSV",
+          "DRM"
+        ],
+        "réponse": "DRM",
+        "anecdote": "These control devices can be applied to all types of physical or transmission digital media."
+      },
+      {
+        "id": 18,
+        "question": "What is the best-selling genre of digital books by Amazon ?",
+        "propositions": [
+          "Erotic romance",
+          "Thriller",
+          "Science-fiction",
+          "Adventure"
+        ],
+        "réponse": "Erotic romance",
+        "anecdote": "In the first quarter of 2012, digital book sales exceeded in value sales of paper books in the country."
+      },
+      {
+        "id": 19,
+        "question": "What is the name of Apple's digital rights management (DRM) technique ?",
+        "propositions": [
+          "Kepub",
+          "FairPlay",
+          "Adept",
+          "Topaz"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "All protected content purchased from a single iTunes Store account can only be played on five authorized computers."
+      },
+      {
+        "id": 20,
+        "question": "What is the name of the fifth generation Kindle e-reader ?",
+        "propositions": [
+          "DX",
+          "Touch",
+          "Fire",
+          "Paperwhite"
+        ],
+        "réponse": "Paperwhite",
+        "anecdote": "The 5th Generation Kindle was released in the United States in October 2012 and is available in two versions : Wi-Fi and Wi-Fi with 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What brand of e-readers is marketed by Barnes and Noble in the United States ?",
+        "propositions": [
+          "Kobo",
+          "Nook",
+          "Tolino",
+          "Kindle"
+        ],
+        "réponse": "Nook",
+        "anecdote": "Like the Kindle brand, the Nook brand also exists in the form of software9 for computers (PC and Mac)."
+      },
+      {
+        "id": 22,
+        "question": "What is the name of the first French-speaking digital publishing house ?",
+        "propositions": [
+          "Scalar",
+          "Gravitons",
+          "Cylibris",
+          "Daisy"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Founded in 1996 by Olivier Gainon, the Cylibris company publishes digital and printed books on the Internet."
+      },
+      {
+        "id": 23,
+        "question": "Which writer founded the first « publie.net » authors' cooperative ?",
+        "propositions": [
+          "Francois Bon",
+          "Claude Boujon",
+          "Pascal Brissy",
+          "Patrick Bousquet"
+        ],
+        "réponse": "Francois Bon",
+        "anecdote": "François Bon is one of the first to make his website a place for depositing finished texts, sketches or running-in texts."
+      },
+      {
+        "id": 24,
+        "question": "What was the first device marketed using electronic paper ?",
+        "propositions": [
+          "Hanlin",
+          "Librié",
+          "iLiad",
+          "eFlybook"
+        ],
+        "réponse": "Librié",
+        "anecdote": "The Sony Librié reader, released in 2004 in Japan, had a 6-inch active matrix SVGA screen based on electrophoresis."
+      },
+      {
+        "id": 25,
+        "question": "What operating system is used on the Amazon Kindle ?",
+        "propositions": [
+          "iOS",
+          "Linux",
+          "Windows",
+          "Android"
+        ],
+        "réponse": "Linux",
+        "anecdote": "A color version, the Kindle Fire, has been marketed in the United States since November 14, 2011."
+      },
+      {
+        "id": 26,
+        "question": "What proprietary document format is Amazon using on its Kindle ?",
+        "propositions": [
+          "AZW",
+          "PDF",
+          "ePub",
+          "TXT"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Amazon Kindle also supports image files such as JPEG, GIF, PNG, and BMP."
+      },
+      {
+        "id": 27,
+        "question": "What was the first European reading tablet to be launched in 2001 ?",
+        "propositions": [
+          "Cybook",
+          "Kindle",
+          "Onyx",
+          "Scribd"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "The Cybook Gen3 uses screens equipped with electronic paper which makes it possible to read similar to paper."
+      },
+      {
+        "id": 28,
+        "question": "Which online document sharing site has been active since March 2007 ?",
+        "propositions": [
+          "Scribd",
+          "Snopes",
+          "Stormfront",
+          "Spiral"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "IPaper documents are obtained after converting various files (Powerpoint, PDF, Word) and can be shared."
+      },
+      {
+        "id": 29,
+        "question": "Which brand of e-readers is developed by Deutsche Telekom ?",
+        "propositions": [
+          "Onyx",
+          "Nook",
+          "Tolino",
+          "Kobo"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "These products are sold by Standaard Boekhandel in Belgium, Indiebook, IBS.IT and Libracio in Italy."
+      },
+      {
+        "id": 30,
+        "question": "What open format of e-books has gained popularity in Russia ?",
+        "propositions": [
+          "Youboox",
+          "Davinci",
+          "Sodec",
+          "FictionBook"
+        ],
+        "réponse": "FictionBook",
+        "anecdote": "This format is convenient for automatic processing, indexing and management of digital book collections."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches von Michael Heart geschaffene Projekt wurde zu Ehren eines deutschen Druckers benannt ?",
+        "propositions": [
+          "Gutenberg",
+          "Lotter",
+          "Koberger",
+          "Petri"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "Das Gutenberg-Projekt ist eine Bibliothek mit kostenlosen elektronischen Versionen physisch vorhandener gemeinfreier Bücher."
+      },
+      {
+        "id": 2,
+        "question": "Welches mobile Gerät ist hauptsächlich zum Lesen digitaler Bücher gedacht ?",
+        "propositions": [
+          "Leser",
+          "Spieler",
+          "Anzeige",
+          "Montreuse"
+        ],
+        "réponse": "Leser",
+        "anecdote": "Das Gerät muss auch die Speicherung digitaler Veröffentlichungen für die Erstellung einer digitalen Bibliothek ermöglichen."
+      },
+      {
+        "id": 3,
+        "question": "Welchen Vorteil kann das digitale Buch gegenüber seinem Papierkonkurrenten bringen ?",
+        "propositions": [
+          "Zugänglichkeit",
+          "Preis",
+          "Verfügbarkeit",
+          "Marketing"
+        ],
+        "réponse": "Zugänglichkeit",
+        "anecdote": "Das digitale Buch kann tatsächlich auf einem geeigneten Gerät reproduziert werden, beispielsweise in Blindenschrift oder sogar in Tonwiedergabe."
+      },
+      {
+        "id": 4,
+        "question": "Mit welchem E-Reader konnte sich Amazon auf digitales Lesen spezialisieren ?",
+        "propositions": [
+          "Bookeen",
+          "Kobo",
+          "Kindle",
+          "Nuvo"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "Das größte Interesse der Kindle-Ära ist die Verwendung von elektronischer Tinte, die die Augen nicht schädigt."
+      },
+      {
+        "id": 5,
+        "question": "Was ist die durchschnittliche Akkulaufzeit eines E-Readers ?",
+        "propositions": [
+          "Ein Monat",
+          "Eines Tages",
+          "Ein Jahr",
+          "Eine Woche"
+        ],
+        "réponse": "Ein Monat",
+        "anecdote": "Ein eReader verbraucht keinen Strom zum Anzeigen von Inhalten, sondern verbraucht nur Strom, wenn der Inhalt geändert wird."
+      },
+      {
+        "id": 6,
+        "question": "Mit welcher Apple-Anwendung können Sie digitale Bücher erwerben ?",
+        "propositions": [
+          "Linie",
+          "Safari",
+          "Apple Bücher",
+          "Xcode"
+        ],
+        "réponse": "Apple Bücher",
+        "anecdote": "IBooks ist eine optionale Anwendung auf iOS (iPhone, iPad und iPod Touch). Seit iOS 8 ist es auf dem Standardgerät installiert."
+      },
+      {
+        "id": 7,
+        "question": "Welches digitale Buch verwendet Hören statt Sehen ?",
+        "propositions": [
+          "Übliches Buch",
+          "Fiktives Buch",
+          "Animiertes Buch",
+          "Hörbuch"
+        ],
+        "réponse": "Hörbuch",
+        "anecdote": "Das einfach zu bedienende Hörbuch spricht aus oft unterschiedlichen Gründen unterschiedliche Alters- und sozio-professionelle Kategorien an."
+      },
+      {
+        "id": 8,
+        "question": "Welche Website bietet die reichhaltigste Auswahl an digitalen Büchern in französischer Sprache auf dem Markt ?",
+        "propositions": [
+          "Livrelec.com",
+          "Meslivres.com",
+          "Chapter.com",
+          "Frenchpages.com"
+        ],
+        "réponse": "Chapter.com",
+        "anecdote": "Der Anteil digitaler Lesegeräte in Frankreich wird auf 20% der Bevölkerung geschätzt, wobei elektronisches Lesen und Papierlesen kombiniert werden."
+      },
+      {
+        "id": 9,
+        "question": "Dank der Papiertechnik funktioniert ein Leser ?",
+        "propositions": [
+          "Elektronik",
+          "Gewebt",
+          "Silber",
+          "Gefaltet"
+        ],
+        "réponse": "Elektronik",
+        "anecdote": "Diese elektronisch veränderbare Anzeigetechnik auf flexiblem Träger soll das Erscheinungsbild von Papier imitieren."
+      },
+      {
+        "id": 10,
+        "question": "Welches seltene Erz wird benötigt, um langlebige Batterien herzustellen ?",
+        "propositions": [
+          "Natrium",
+          "Kupfer",
+          "Lithium",
+          "Zink"
+        ],
+        "réponse": "Lithium",
+        "anecdote": "Reines Lithium ist ein weiches, silbergraues Metall, das bei Kontakt mit Luft und Wasser sehr schnell anläuft und oxidiert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Buchladen wurde im April 2005 von Amazon.com gekauft ?",
+        "propositions": [
+          "Mobipocket",
+          "Cybook",
+          "Dacos",
+          "Allianz"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "Mobipocket.com hat MOBIPocket-Ersteller gestartet, um eBooks in PRC / MOBI-Format zu erstellen (der es der Creator ist)."
+      },
+      {
+        "id": 12,
+        "question": "Mit welcher alternativen Lizenz können Sie digital veröffentlichen und gleichzeitig die Autoren schützen ?",
+        "propositions": [
+          "Domitor",
+          "Nekomix",
+          "Creative Commons",
+          "Melissa"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "Die CRID hat Lizenzen in einem belgischen Recht angepasst, diese belgischen Lizenzen sind auf Französisch, Niederländisch und Englisch vorhanden."
+      },
+      {
+        "id": 13,
+        "question": "Mit welcher Technik werden einem digitalen Buch Copyright-Informationen hinzugefügt ?",
+        "propositions": [
+          "YubiKey",
+          "Wasserzeichen",
+          "Mkaart",
+          "GoldCode"
+        ],
+        "réponse": "Wasserzeichen",
+        "anecdote": "Die Marke kann der Name oder eine Kennung des Urhebers, des Eigentümers, des Käufers oder sogar eine Form der Unterschrift sein."
+      },
+      {
+        "id": 14,
+        "question": "Welches standardisierte offene Format für digitale Bücher basiert auf XML ?",
+        "propositions": [
+          "ePub",
+          "HTM",
+          "Docx",
+          "PostScript"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB wurde entwickelt, um das Layout des Inhalts zu vereinfachen, wobei der angezeigte Text im allerletzten Moment angepasst wird."
+      },
+      {
+        "id": 15,
+        "question": "Welches E-Reader-Modell bietet FNAC in Frankreich und Belgien an ?",
+        "propositions": [
+          "Kobo",
+          "Ikarus",
+          "Onyx",
+          "Bookeen"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "Der Kobo eReader ist ein eReader der in Toronto ansässigen Firma Kobo. Die erste Version wurde im Mai 2010 veröffentlicht."
+      },
+      {
+        "id": 16,
+        "question": "Seit welchem Jahr wird der Kindle von der Firma Amazon vermarktet ?",
+        "propositions": [
+          "2013",
+          "2007",
+          "2009",
+          "2011"
+        ],
+        "réponse": "2007",
+        "anecdote": "Das größte Interesse des Kindle liegt in der Verwendung von elektronischer Tinte, die die Augen nicht angreift, da sie keine Hintergrundbeleuchtung hat."
+      },
+      {
+        "id": 17,
+        "question": "Welches System schützt die proprietären Dateien des Amazon Kindle ?",
+        "propositions": [
+          "CSV",
+          "DRM",
+          "PDF",
+          "ZIP"
+        ],
+        "réponse": "DRM",
+        "anecdote": "Diese Steuergeräte können auf alle Arten von physischen oder digitalen Übertragungsmedien angewendet werden."
+      },
+      {
+        "id": 18,
+        "question": "Was ist das meistverkaufte Genre digitaler Bücher von Amazon ?",
+        "propositions": [
+          "Science-Fiction",
+          "Abenteuer",
+          "Thriller",
+          "Erotische Romantik"
+        ],
+        "réponse": "Erotische Romantik",
+        "anecdote": "Im ersten Quartal 2012 übertrafen die Verkäufe digitaler Bücher die Wertverkäufe von Papierbüchern im Land."
+      },
+      {
+        "id": 19,
+        "question": "Wie heißt die DRM-Technik (Digital Rights Management) von Apple ?",
+        "propositions": [
+          "Kepub",
+          "Adept",
+          "FairPlay",
+          "Topas"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "Alle geschützten Inhalte, die in einem einzigen iTunes Store-Konto gekauft wurden, können nur auf fünf autorisierten Computern abgespielt werden."
+      },
+      {
+        "id": 20,
+        "question": "Wie heißt der Kindle E-Reader der fünften Generation ?",
+        "propositions": [
+          "Papierweiß",
+          "Berühren Sie",
+          "Feuer",
+          "DX"
+        ],
+        "réponse": "Papierweiß",
+        "anecdote": "Die freundliche 5. Generation kam im Oktober 2012 in den Vereinigten Staaten aus und ist in zwei Versionen erhältlich: Wi-Fi und Wi-Fi mit 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Marke von E-Readern wird von Barnes und Noble in den USA vermarktet ?",
+        "propositions": [
+          "Tolino",
+          "Ecke",
+          "Kindle",
+          "Kobo"
+        ],
+        "réponse": "Ecke",
+        "anecdote": "Wie die Marke Kindle gibt es auch die Marke Nook in Form von Software9 für Computer (PC und Mac)."
+      },
+      {
+        "id": 22,
+        "question": "Wie heißt der erste französischsprachige digitale Verlag ?",
+        "propositions": [
+          "Gravitonen",
+          "Cylibris",
+          "Skalar",
+          "Gänseblümchen"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Das 1996 von Olivier Gainon gegründete Unternehmen Cylibris veröffentlicht digitale und gedruckte Bücher im Internet."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Autor hat die erste Autorengenossenschaft von « publie.net » gegründet ?",
+        "propositions": [
+          "Pascal Brissy",
+          "Claude Boujon",
+          "Patrick Bousquet",
+          "Francois Bon"
+        ],
+        "réponse": "Francois Bon",
+        "anecdote": "François Bon ist einer der Ersten, der seine Website zu einem Ort für die Hinterlegung fertiger Texte, Skizzen oder laufender Texte gemacht hat."
+      },
+      {
+        "id": 24,
+        "question": "Was war das erste Gerät, das mit elektronischem Papier vermarktet wurde ?",
+        "propositions": [
+          "iLiad",
+          "eFlybook",
+          "Librié",
+          "Hanlin"
+        ],
+        "réponse": "Librié",
+        "anecdote": "Der 2004 in Japan erschienene Sony Librié-Reader verfügte über einen 6-Zoll-Aktivmatrix-SVGA-Bildschirm, der auf Elektrophorese basierte."
+      },
+      {
+        "id": 25,
+        "question": "Welches Betriebssystem wird auf dem Amazon Kindle verwendet ?",
+        "propositions": [
+          "Windows",
+          "Linux",
+          "Android",
+          "iOS"
+        ],
+        "réponse": "Linux",
+        "anecdote": "In den USA ist seit dem 14. November 2011 eine Farbversion, der Kindle Fire, erhältlich."
+      },
+      {
+        "id": 26,
+        "question": "Welches proprietäre Dokumentformat verwendet Amazon auf seinem Kindle ?",
+        "propositions": [
+          "AZW",
+          "TXT",
+          "ePub",
+          "PDF"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Amazon Kindle unterstützt auch Bilddateien wie JPEG, GIF, PNG und BMP."
+      },
+      {
+        "id": 27,
+        "question": "Was war das erste europäische Lesetablett, das 2001 auf den Markt gebracht wurde ?",
+        "propositions": [
+          "Cybook",
+          "Kindle",
+          "Onyx",
+          "Scribd"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "Das Cybook Gen3 verwendet Bildschirme, die mit elektronischem Papier ausgestattet sind und das Lesen ähnlich wie Papier ermöglichen."
+      },
+      {
+        "id": 28,
+        "question": "Welche Online-Website zum Austausch von Dokumenten ist seit März 2007 aktiv ?",
+        "propositions": [
+          "Scribd",
+          "Snopes",
+          "Sturmfront",
+          "Spirale"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "IPaper-Dokumente werden nach dem Konvertieren verschiedener Dateien (Powerpoint, PDF, Word) abgerufen und können freigegeben werden."
+      },
+      {
+        "id": 29,
+        "question": "Welche Marke von E-Readern wird von der Deutschen Telekom entwickelt ?",
+        "propositions": [
+          "Ecke",
+          "Tolino",
+          "Kobo",
+          "Onyx"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "Diese Produkte werden von Standaard Boekhandel in Belgien, Indiebook, IBS.it und Libracio in Italien verkauft."
+      },
+      {
+        "id": 30,
+        "question": "Welches offene Format von E-Books hat in Russland an Popularität gewonnen ?",
+        "propositions": [
+          "FictionBook",
+          "Sodec",
+          "Youboox",
+          "Davinci"
+        ],
+        "réponse": "FictionBook",
+        "anecdote": "Dieses Format eignet sich für die automatische Verarbeitung, Indizierung und Verwaltung digitaler Buchsammlungen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué proyecto creado por Michael Heart recibió su nombre en honor a un impresor alemán ?",
+        "propositions": [
+          "Gutenberg",
+          "Lotter",
+          "Koberger",
+          "Petri"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "El Proyecto Gutenberg es una biblioteca de versiones electrónicas gratuitas de libros de dominio público físicamente existentes."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué dispositivo móvil está diseñado principalmente para leer libros digitales ?",
+        "propositions": [
+          "Pantalla",
+          "Montreuse",
+          "Lector",
+          "Jugador"
+        ],
+        "réponse": "Lector",
+        "anecdote": "El dispositivo también debe permitir el almacenamiento de publicaciones digitales para la creación de una biblioteca digital."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué ventaja puede aportar el libro digital sobre su competidor en papel ?",
+        "propositions": [
+          "Precio",
+          "Accesibilidad",
+          "Marketing",
+          "Disponibilidad"
+        ],
+        "réponse": "Accesibilidad",
+        "anecdote": "De hecho, el libro digital se puede reproducir en un dispositivo adecuado, por ejemplo en braille o incluso en reproducción de sonido."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué lector electrónico permitió a Amazon especializarse en lectura digital ?",
+        "propositions": [
+          "Kindle",
+          "Kobo",
+          "Bookeen",
+          "Nuvo"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "El mayor interés de la era Kindle es su uso de tinta electrónica, que no daña la vista."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál es la duración media de la batería de un lector electrónico ?",
+        "propositions": [
+          "Un año",
+          "Una semana",
+          "Un mes",
+          "Un día"
+        ],
+        "réponse": "Un mes",
+        "anecdote": "Un eReader no consume energía para mostrar contenido, solo usa energía cuando se cambia el contenido."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué aplicación de Apple te permite adquirir libros digitales ?",
+        "propositions": [
+          "Safari",
+          "Libros de Apple",
+          "Línea",
+          "Xcode"
+        ],
+        "réponse": "Libros de Apple",
+        "anecdote": "IBooks es una aplicación opcional en iOS (iPhone, iPad y iPod Touch). Dado que IOS 8, está instalado en el dispositivo predeterminado."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué libro digital usa el oído en lugar de la vista ?",
+        "propositions": [
+          "Audiolibro",
+          "Libro ficticio",
+          "Libro animado",
+          "Libro habitual"
+        ],
+        "réponse": "Audiolibro",
+        "anecdote": "Fácil de usar, el audiolibro atrae a diferentes categorías de edad y socioprofesionales, a menudo por diferentes razones."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué sitio ofrece la gama más rica de libros digitales en francés del mercado ?",
+        "propositions": [
+          "Chapter.com",
+          "Livrelec.com",
+          "Frenchpages.com",
+          "Meslivres.com"
+        ],
+        "réponse": "Chapter.com",
+        "anecdote": "La proporción de lectores digitales en Francia se estima en el 20% de la población, combinando lectura electrónica y lectura en papel."
+      },
+      {
+        "id": 9,
+        "question": "Gracias a ¿Qué técnica de papel funciona un lector ?",
+        "propositions": [
+          "Tejido",
+          "Electrónica",
+          "Plata",
+          "Doblado"
+        ],
+        "réponse": "Electrónica",
+        "anecdote": "Esta técnica de visualización sobre soporte flexible, modificable electrónicamente, busca imitar la apariencia del papel."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué mineral raro se necesita para fabricar baterías de larga duración ?",
+        "propositions": [
+          "Zinc",
+          "Sodio",
+          "Litio",
+          "Cobre"
+        ],
+        "réponse": "Litio",
+        "anecdote": "El litio puro es un metal suave de color gris plateado que se empaña y oxida muy rápidamente en contacto con el aire y el agua."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué librería compró Amazon.com en abril de 2005 ?",
+        "propositions": [
+          "Dacos",
+          "Alliance",
+          "Mobipocket",
+          "Cybook"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "MobIPocket.com lanzó MobIPocket creador para crear libros electrónicos en formato PRC / MOBI (que es el Creador)."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué licencia alternativa le permite publicar digitalmente mientras protege a los autores ?",
+        "propositions": [
+          "Domitor",
+          "Melissa",
+          "Creative Commons",
+          "Nekomix"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "CRID ha adaptado las licencias a la ley belga, estas licencias belgas existen en francés, holandés e inglés."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué técnica se utiliza para agregar información de derechos de autor a un libro digital ?",
+        "propositions": [
+          "GoldCode",
+          "YubiKey",
+          "Mkaart",
+          "Marcas de agua"
+        ],
+        "réponse": "Marcas de agua",
+        "anecdote": "La marca puede ser el nombre o un identificador del creador, el propietario, el comprador o incluso una forma de firma."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué formato abierto estandarizado para libros digitales está basado en XML ?",
+        "propositions": [
+          "PostScript",
+          "HTM",
+          "Docx",
+          "ePub"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB está diseñado para facilitar la distribución del contenido, ajustando el texto mostrado en el último momento."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué modelo de lector electrónico ofrece la FNAC en Francia y Bélgica ?",
+        "propositions": [
+          "Bookeen",
+          "Ícaro",
+          "Kobo",
+          "Onyx"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "El eReader Kobo es un eReader producido por la empresa Kobo con sede en Toronto. La primera versión se lanzó en mayo de 2010."
+      },
+      {
+        "id": 16,
+        "question": "¿Desde qué año ha comercializado el Kindle la empresa Amazon ?",
+        "propositions": [
+          "2011",
+          "2007",
+          "2013",
+          "2009"
+        ],
+        "réponse": "2007",
+        "anecdote": "El mayor interés de Kindle radica en el uso de tinta electrónica que no ataca los ojos porque no tiene retroiluminación."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué sistema protege los archivos propietarios de Amazon Kindle ?",
+        "propositions": [
+          "CSV",
+          "PDF",
+          "DRM",
+          "ZIP"
+        ],
+        "réponse": "DRM",
+        "anecdote": "Estos dispositivos de control se pueden aplicar a todo tipo de medios digitales físicos o de transmisión."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál es el género de libros digitales más vendido por Amazon ?",
+        "propositions": [
+          "Thriller",
+          "Aventura",
+          "Romance erótico",
+          "Ciencia-ficcion"
+        ],
+        "réponse": "Romance erótico",
+        "anecdote": "En el primer trimestre de 2012, las ventas de libros digitales superaron en valor las ventas de libros en papel en el país."
+      },
+      {
+        "id": 19,
+        "question": "¿Cómo se llama la técnica de gestión de derechos digitales (DRM) de Apple ?",
+        "propositions": [
+          "FairPlay",
+          "Adepto",
+          "Kepub",
+          "Topacio"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "Todo el contenido protegido comprado en una sola cuenta de iTunes Store solo se puede reproducir en cinco computadoras autorizadas."
+      },
+      {
+        "id": 20,
+        "question": "¿Cómo se llama el lector electrónico Kindle de quinta generación ?",
+        "propositions": [
+          "Toque",
+          "Paperwhite",
+          "DX",
+          "Fuego"
+        ],
+        "réponse": "Paperwhite",
+        "anecdote": "El Kindle de quinta generación se lanzó en los Estados Unidos en octubre de 2012 y está disponible en dos versiones : Wi-Fi y Wi-Fi con 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué marca de lectores electrónicos comercializa Barnes e Noble en los Estados Unidos ?",
+        "propositions": [
+          "Tolino",
+          "Kindle",
+          "Kobo",
+          "Nook"
+        ],
+        "réponse": "Nook",
+        "anecdote": "Al igual que la marca Kindle, la marca Nook también existe en forma de software9 para computadoras (PC y Mac)."
+      },
+      {
+        "id": 22,
+        "question": "¿Cómo se llama la primera editorial digital francófona ?",
+        "propositions": [
+          "Escalar",
+          "Gravitones",
+          "Daisy",
+          "Cylibris"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Fundada en 1996 por Olivier Gainon, la empresa Cylibris publica libros digitales e impresos en Internet."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué escritor fundó la primera cooperativa de autores de « publie.net » ?",
+        "propositions": [
+          "Claude Boujon",
+          "Pascal Brissy",
+          "Patrick Bousquet",
+          "Francois Bon"
+        ],
+        "réponse": "Francois Bon",
+        "anecdote": "François Bon es uno de los primeros en hacer de su sitio web un lugar para depositar textos terminados, bocetos o textos ejecutados."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál fue el primer dispositivo comercializado con papel electrónico ?",
+        "propositions": [
+          "Librié",
+          "eFlybook",
+          "Hanlin",
+          "iLiad"
+        ],
+        "réponse": "Librié",
+        "anecdote": "El lector Sony Librié, lanzado en 2004 en Japón, tenía una pantalla SVGA de matriz activa de 6 pulgadas basada en electroforesis."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué sistema operativo se utiliza en el Kindle de Amazon ?",
+        "propositions": [
+          "Android",
+          "Windows",
+          "iOS",
+          "Linux"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Una versión en color, el Kindle Fire, se comercializa en los Estados Unidos desde el 14 de noviembre de 2011."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué formato de documento patentado está usando Amazon en su Kindle ?",
+        "propositions": [
+          "ePub",
+          "TXT",
+          "PDF",
+          "AZW"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Amazon Kindle también admite archivos de imagen como JPEG, GIF, PNG y BMP."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál fue la primera tableta de lectura europea que se lanzó en 2001 ?",
+        "propositions": [
+          "Cybook",
+          "Onyx",
+          "Scribd",
+          "Kindle"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "El Cybook Gen3 utiliza pantallas equipadas con papel electrónico que permite una lectura similar al papel."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué sitio para compartir documentos en línea ha estado activo desde marzo de 2007 ?",
+        "propositions": [
+          "Scribd",
+          "Stormfront",
+          "Snopes",
+          "Espiral"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "Los documentos de IPaper se obtienen después de convertir varios archivos (Powerpoint, PDF, Word) y se pueden compartir."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué marca de lectores electrónicos ha desarrollado Deutsche Telekom ?",
+        "propositions": [
+          "Onyx",
+          "Kobo",
+          "Tolino",
+          "Nook"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "Estos productos son vendidos por Standaard Boekhandel en Bélgica, IndieBook, IBS.IT y Libracio en Italia."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué formato abierto de libros electrónicos ha ganado popularidad en Rusia ?",
+        "propositions": [
+          "Davinci",
+          "FictionBook",
+          "Youboox",
+          "Sodec"
+        ],
+        "réponse": "FictionBook",
+        "anecdote": "Este formato es conveniente para el procesamiento, indexación y administración automáticos de colecciones de libros digitales."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale progetto creato da Michael Heart è stato chiamato in onore di uno stampatore tedesco ?",
+        "propositions": [
+          "Petri",
+          "Gutenberg",
+          "Lotter",
+          "Koberger"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "Il progetto Gutenberg è una libreria di versioni elettroniche gratuite di libri di dominio pubblico esistenti fisicamente."
+      },
+      {
+        "id": 2,
+        "question": "Quale dispositivo mobile è progettato principalmente per la lettura di libri digitali ?",
+        "propositions": [
+          "Lettore",
+          "Giocatore",
+          "Visualizza",
+          "Montreuse"
+        ],
+        "réponse": "Lettore",
+        "anecdote": "Il dispositivo deve anche consentire l'archiviazione di pubblicazioni digitali per la creazione di una biblioteca digitale."
+      },
+      {
+        "id": 3,
+        "question": "Quale vantaggio può portare il libro digitale rispetto al suo concorrente cartaceo ?",
+        "propositions": [
+          "Marketing",
+          "Prezzo",
+          "Disponibilità",
+          "Accessibilità"
+        ],
+        "réponse": "Accessibilità",
+        "anecdote": "Il libro digitale può infatti essere riprodotto su un apposito dispositivo, ad esempio in display braille o anche in riproduzione sonora."
+      },
+      {
+        "id": 4,
+        "question": "Quale e-reader ha permesso ad Amazon di specializzarsi nella lettura digitale ?",
+        "propositions": [
+          "Nuvo",
+          "Kobo",
+          "Kindle",
+          "Bookeen"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "Il più grande interesse dell'era Kindle è l'uso dell'inchiostro elettronico, che non danneggia gli occhi."
+      },
+      {
+        "id": 5,
+        "question": "Qual è la durata media della batteria di un e-reader ?",
+        "propositions": [
+          "Un mese",
+          "Un giorno",
+          "Una settimana",
+          "Un anno"
+        ],
+        "réponse": "Un mese",
+        "anecdote": "Un eReader non consuma energia per visualizzare il contenuto, utilizza energia solo quando il contenuto viene modificato."
+      },
+      {
+        "id": 6,
+        "question": "Quale applicazione Apple ti consente di acquisire libri digitali ?",
+        "propositions": [
+          "Apple Books",
+          "Linea",
+          "Safari",
+          "Xcode"
+        ],
+        "réponse": "Apple Books",
+        "anecdote": "IBooks è un'applicazione facoltativa su iOS (iPhone, iPad e iPod Touch). Dall'IOS 8, è installato sul dispositivo predefinito."
+      },
+      {
+        "id": 7,
+        "question": "Quale libro digitale usa l'udito invece della vista ?",
+        "propositions": [
+          "Libro fittizio",
+          "Audiolibro",
+          "Libro animato",
+          "Libro usuale"
+        ],
+        "réponse": "Audiolibro",
+        "anecdote": "Facile da usare, l'audiolibro fa appello a diverse età e categorie socio-professionali, per ragioni spesso diverse."
+      },
+      {
+        "id": 8,
+        "question": "Quale sito offre la più ricca gamma di libri digitali in francese sul mercato ?",
+        "propositions": [
+          "Livrelec.com",
+          "Chapter.com",
+          "Meslivres.com",
+          "Frenchpages.com"
+        ],
+        "réponse": "Chapter.com",
+        "anecdote": "La quota di lettori digitali in Francia è stimata al 20% della popolazione, combinando lettura elettronica e lettura su carta."
+      },
+      {
+        "id": 9,
+        "question": "Grazie a quale tecnica di carta funziona un lettore ?",
+        "propositions": [
+          "Tessuto",
+          "Piegato",
+          "Elettronica",
+          "Argento"
+        ],
+        "réponse": "Elettronica",
+        "anecdote": "Questa tecnica di visualizzazione su supporto flessibile, modificabile elettronicamente, cerca di imitare l'aspetto della carta."
+      },
+      {
+        "id": 10,
+        "question": "Quale minerale raro è necessario per realizzare batterie a lunga durata ?",
+        "propositions": [
+          "Rame",
+          "Litio",
+          "Sodio",
+          "Zinco"
+        ],
+        "réponse": "Litio",
+        "anecdote": "Il litio puro è un metallo morbido, grigio argenteo che si appanna e si ossida molto rapidamente a contatto con aria e acqua."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale libreria è stata acquistata nell'aprile 2005 da Amazon.com ?",
+        "propositions": [
+          "Cybook",
+          "Alliance",
+          "Mobipocket",
+          "Dacos"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "Mobipocket.com ha lanciato Mobipocket Creator per creare eBook in formato PRC / MOBI (che è il Creatore)."
+      },
+      {
+        "id": 12,
+        "question": "Quale licenza alternativa ti consente di pubblicare digitalmente proteggendo gli autori ?",
+        "propositions": [
+          "Nekomix",
+          "Creative Commons",
+          "Melissa",
+          "Domitor"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "CRID ha adattato le licenze alla legge belga, queste licenze belghe esistono in francese, olandese e inglese."
+      },
+      {
+        "id": 13,
+        "question": "Quale tecnica viene utilizzata per aggiungere informazioni sul copyright a un libro digitale ?",
+        "propositions": [
+          "Mkaart",
+          "Filigrana",
+          "GoldCode",
+          "YubiKey"
+        ],
+        "réponse": "Filigrana",
+        "anecdote": "Il marchio può essere il nome o un identificativo del creatore, del proprietario, dell'acquirente o anche una forma di firma."
+      },
+      {
+        "id": 14,
+        "question": "Quale formato aperto standardizzato per i libri digitali è basato su XML ?",
+        "propositions": [
+          "HTM",
+          "PostScript",
+          "Docx",
+          "ePub"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB è progettato per facilitare il layout del contenuto, con il testo visualizzato che viene regolato all'ultimo momento."
+      },
+      {
+        "id": 15,
+        "question": "Quale modello di e-reader viene offerto dalla FNAC in Francia e Belgio ?",
+        "propositions": [
+          "Onice",
+          "Kobo",
+          "Bookeen",
+          "Icaro"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "L'eReader Kobo è un eReader prodotto dalla società Kobo con sede a Toronto. La prima versione è stata rilasciata nel maggio 2010."
+      },
+      {
+        "id": 16,
+        "question": "Da che anno il Kindle è stato commercializzato dalla società Amazon ?",
+        "propositions": [
+          "2007",
+          "2011",
+          "2013",
+          "2009"
+        ],
+        "réponse": "2007",
+        "anecdote": "Il più grande interesse di Kindle risiede nel suo utilizzo di inchiostro elettronico che non aggredisce gli occhi perché non ha retroilluminazione."
+      },
+      {
+        "id": 17,
+        "question": "Quale sistema protegge i file proprietari di Amazon Kindle ?",
+        "propositions": [
+          "ZIP",
+          "DRM",
+          "CSV",
+          "PDF"
+        ],
+        "réponse": "DRM",
+        "anecdote": "Questi dispositivi di controllo possono essere applicati a tutti i tipi di supporti digitali fisici o di trasmissione."
+      },
+      {
+        "id": 18,
+        "question": "Qual è il genere di libri digitali più venduto di Amazon ?",
+        "propositions": [
+          "Avventura",
+          "Fantascienza",
+          "Thriller",
+          "Romanticismo erotico"
+        ],
+        "réponse": "Romanticismo erotico",
+        "anecdote": "Nel primo trimestre del 2012, le vendite di libri digitali hanno superato le vendite di valore dei libri cartacei nel paese."
+      },
+      {
+        "id": 19,
+        "question": "Qual è il nome della tecnica di gestione dei diritti digitali (DRM) di Apple ?",
+        "propositions": [
+          "Topaz",
+          "FairPlay",
+          "Adepto",
+          "Kepub"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "Tutti i contenuti protetti acquistati da un singolo account iTunes Store possono essere riprodotti solo su cinque computer autorizzati."
+      },
+      {
+        "id": 20,
+        "question": "Qual è il nome dell'e-reader Kindle di quinta generazione ?",
+        "propositions": [
+          "Paperwhite",
+          "DX",
+          "Fuoco",
+          "Tocca"
+        ],
+        "réponse": "Paperwhite",
+        "anecdote": "Il Kindle di quinta generazione è stato rilasciato negli Stati Uniti nell'ottobre 2012 ed è disponibile in due versioni : Wi-Fi e Wi-Fi con 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale marca di e-reader è commercializzata da Barnes i Noble negli Stati Uniti ?",
+        "propositions": [
+          "Nook",
+          "Kobo",
+          "Tolino",
+          "Kindle"
+        ],
+        "réponse": "Nook",
+        "anecdote": "Come il marchio Kindle, il marchio Nook esiste anche sotto forma di software9 per computer (PC e Mac)."
+      },
+      {
+        "id": 22,
+        "question": "Qual è il nome della prima casa editrice digitale di lingua francese ?",
+        "propositions": [
+          "Cylibris",
+          "Daisy",
+          "Scalare",
+          "Gravitons"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Fondata nel 1996 da Olivier Gainon, la società Cylibris pubblica libri digitali e stampati su Internet."
+      },
+      {
+        "id": 23,
+        "question": "Quale scrittore ha fondato la prima cooperativa di autori « publie.net » ?",
+        "propositions": [
+          "Francois Bon",
+          "Claude Boujon",
+          "Patrick Bousquet",
+          "Pascal Brissy"
+        ],
+        "réponse": "Francois Bon",
+        "anecdote": "François Bon è uno dei primi a fare del suo sito web un luogo in cui depositare testi finiti, schizzi o testi di rodaggio."
+      },
+      {
+        "id": 24,
+        "question": "Qual è stato il primo dispositivo commercializzato utilizzando carta elettronica ?",
+        "propositions": [
+          "Hanlin",
+          "iLiad",
+          "eFlybook",
+          "Librié"
+        ],
+        "réponse": "Librié",
+        "anecdote": "Il lettore Sony Librié, pubblicato nel 2004 in Giappone, aveva uno schermo SVGA a matrice attiva da 6 pollici basato sull'elettroforesi."
+      },
+      {
+        "id": 25,
+        "question": "Quale sistema operativo viene utilizzato su Amazon Kindle ?",
+        "propositions": [
+          "Linux",
+          "Android",
+          "iOS",
+          "Windows"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Una versione a colori, il Kindle Fire, è stata commercializzata negli Stati Uniti dal 14 novembre 2011."
+      },
+      {
+        "id": 26,
+        "question": "Quale formato di documento proprietario utilizza Amazon sul suo Kindle ?",
+        "propositions": [
+          "ePub",
+          "PDF",
+          "TXT",
+          "AZW"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Amazon Kindle supporta anche file di immagine come JPEG, GIF, PNG e BMP."
+      },
+      {
+        "id": 27,
+        "question": "Qual è stata la prima tavoletta di lettura europea lanciata nel 2001 ?",
+        "propositions": [
+          "Cybook",
+          "Kindle",
+          "Onice",
+          "Scribd"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "Il Cybook Gen3 utilizza schermi dotati di carta elettronica che consente una lettura simile alla carta."
+      },
+      {
+        "id": 28,
+        "question": "Quale sito di condivisione di documenti online è attivo da marzo 2007 ?",
+        "propositions": [
+          "Snopes",
+          "Spirale",
+          "Stormfront",
+          "Scribd"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "I documenti IPaper si ottengono dopo aver convertito vari file (PowerPoint, PDF, Word) e possono essere condivisi."
+      },
+      {
+        "id": 29,
+        "question": "Quale marca di e-reader è sviluppata da Deutsche Telekom ?",
+        "propositions": [
+          "Nook",
+          "Onice",
+          "Tolino",
+          "Kobo"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "Questi prodotti sono venduti da Standard Boekhandel in Belgio, Indiebook, Ibs.it e Libracio in Italia."
+      },
+      {
+        "id": 30,
+        "question": "Quale formato aperto di e-book ha guadagnato popolarità in Russia ?",
+        "propositions": [
+          "Davinci",
+          "Youboox",
+          "FictionBook",
+          "Sodec"
+        ],
+        "réponse": "FictionBook",
+        "anecdote": "Questo formato è utile per l'elaborazione automatica, l'indicizzazione e la gestione delle raccolte di libri digitali."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk project gemaakt door Michael Heart is genoemd ter ere van een Duitse drukker ?",
+        "propositions": [
+          "Koberger",
+          "Gutenberg",
+          "Petri",
+          "Lotter"
+        ],
+        "réponse": "Gutenberg",
+        "anecdote": "Het Gutenberg-project is een bibliotheek met gratis elektronische versies van fysiek bestaande boeken uit het publieke domein."
+      },
+      {
+        "id": 2,
+        "question": "Welk mobiel apparaat is primair ontworpen voor het lezen van digitale boeken ?",
+        "propositions": [
+          "Lezer",
+          "Montreuse",
+          "Weergave",
+          "Speler"
+        ],
+        "réponse": "Lezer",
+        "anecdote": "Het apparaat moet ook de opslag van digitale publicaties mogelijk maken voor het creëren van een digitale bibliotheek."
+      },
+      {
+        "id": 3,
+        "question": "Welk voordeel kan het digitale boek opleveren ten opzichte van zijn papieren concurrent ?",
+        "propositions": [
+          "Beschikbaarheid",
+          "Marketing",
+          "Prijs",
+          "Toegankelijkheid"
+        ],
+        "réponse": "Toegankelijkheid",
+        "anecdote": "Het digitale boek kan namelijk op een geschikt apparaat worden weergegeven, bijvoorbeeld in brailleleesregel of zelfs in geluidsweergave."
+      },
+      {
+        "id": 4,
+        "question": "Welke e-reader stelde Amazon in staat zich te specialiseren in digitaal lezen ?",
+        "propositions": [
+          "Nuvo",
+          "Kobo",
+          "Kindle",
+          "Bookeen"
+        ],
+        "réponse": "Kindle",
+        "anecdote": "Het grootste belang van het Kindle-tijdperk is het gebruik van elektronische inkt, die niet schadelijk is voor de ogen."
+      },
+      {
+        "id": 5,
+        "question": "Wat is de gemiddelde batterijduur van een e-reader ?",
+        "propositions": [
+          "Op een dag",
+          "Een jaar",
+          "Een maand",
+          "Een week"
+        ],
+        "réponse": "Een maand",
+        "anecdote": "Een eReader verbruikt geen stroom om inhoud weer te geven, hij gebruikt alleen stroom wanneer de inhoud wordt gewijzigd."
+      },
+      {
+        "id": 6,
+        "question": "Met welke Apple-applicatie kun je digitale boeken aanschaffen ?",
+        "propositions": [
+          "Apple Books",
+          "Xcode",
+          "Lijn",
+          "Safari"
+        ],
+        "réponse": "Apple Books",
+        "anecdote": "IBooks is een optionele applicatie op iOS (iPhone, iPad en iPod Touch). Sinds iOS 8 is het op het standaardinrichting geïnstalleerd."
+      },
+      {
+        "id": 7,
+        "question": "Welk digitaal boek gebruikt horen in plaats van zien ?",
+        "propositions": [
+          "Gebruikelijk boek",
+          "Audioboek",
+          "Fictief boek",
+          "Geanimeerd boek"
+        ],
+        "réponse": "Audioboek",
+        "anecdote": "Het audioboek is gebruiksvriendelijk en spreekt verschillende leeftijdscategorieën en sociaal-professionele categorieën aan, om vaak verschillende redenen."
+      },
+      {
+        "id": 8,
+        "question": "Welke site biedt het grootste aanbod aan digitale boeken in het Frans op de markt ?",
+        "propositions": [
+          "Livrelec.com",
+          "Frenchpages.com",
+          "Chapter.com",
+          "Meslivres.com"
+        ],
+        "réponse": "Chapter.com",
+        "anecdote": "Het aandeel digitale lezers in Frankrijk wordt geschat op 20% van de bevolking, waarbij elektronisch lezen en lezen op papier wordt gecombineerd."
+      },
+      {
+        "id": 9,
+        "question": "Dankzij welke papieren techniek werkt een lezer ?",
+        "propositions": [
+          "Gevouwen",
+          "Zilver",
+          "Geweven",
+          "Elektronica"
+        ],
+        "réponse": "Elektronica",
+        "anecdote": "Deze weergavetechniek op flexibele drager, elektronisch aanpasbaar, beoogt het uiterlijk van papier te imiteren."
+      },
+      {
+        "id": 10,
+        "question": "Welk zeldzaam erts is er nodig om batterijen met een lange levensduur te maken ?",
+        "propositions": [
+          "Koper",
+          "Zink",
+          "Natrium",
+          "Lithium"
+        ],
+        "réponse": "Lithium",
+        "anecdote": "Zuiver lithium is een zacht, zilvergrijs metaal dat bij contact met lucht en water zeer snel verkleurt en oxideert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke boekwinkel is in april 2005 door Amazon.com gekocht ?",
+        "propositions": [
+          "Alliantie",
+          "Dacos",
+          "Cybook",
+          "Mobipocket"
+        ],
+        "réponse": "Mobipocket",
+        "anecdote": "MobiPocket.com lanceerde MobiPocket Creator om e-boeken te maken in het PRC / MOBI-formaat (dat het de Schepper is)."
+      },
+      {
+        "id": 12,
+        "question": "Met welke alternatieve licentie kunt u digitaal publiceren en tegelijkertijd de auteurs beschermen ?",
+        "propositions": [
+          "Creative Commons",
+          "Domitor",
+          "Nekomix",
+          "Melissa"
+        ],
+        "réponse": "Creative Commons",
+        "anecdote": "CRID heeft de licenties aangepast aan de Belgische wetgeving, deze Belgische licenties bestaan in het Frans, Nederlands en Engels."
+      },
+      {
+        "id": 13,
+        "question": "Welke techniek wordt gebruikt om copyrightinformatie aan een digitaal boek toe te voegen ?",
+        "propositions": [
+          "YubiKey",
+          "Mkaart",
+          "GoldCode",
+          "Watermerken"
+        ],
+        "réponse": "Watermerken",
+        "anecdote": "Het merk kan de naam of een identificator zijn van de maker, de eigenaar, de koper of zelfs een vorm van handtekening."
+      },
+      {
+        "id": 14,
+        "question": "Welk gestandaardiseerd open formaat voor digitale boeken is op XML gebaseerd ?",
+        "propositions": [
+          "HTM",
+          "PostScript",
+          "Docx",
+          "ePub"
+        ],
+        "réponse": "ePub",
+        "anecdote": "EPUB is ontworpen om de lay-out van de inhoud te vergemakkelijken, waarbij de weergegeven tekst op het allerlaatste moment wordt aangepast."
+      },
+      {
+        "id": 15,
+        "question": "Welk model e-reader biedt FNAC aan in Frankrijk en België ?",
+        "propositions": [
+          "Kobo",
+          "Bookeen",
+          "Onyx",
+          "Icarus"
+        ],
+        "réponse": "Kobo",
+        "anecdote": "De Kobo eReader is een eReader geproduceerd door het in Toronto gevestigde bedrijf Kobo. De eerste versie is uitgebracht in mei 2010."
+      },
+      {
+        "id": 16,
+        "question": "Sinds welk jaar wordt de Kindle op de markt gebracht door het bedrijf Amazon ?",
+        "propositions": [
+          "2007",
+          "2013",
+          "2009",
+          "2011"
+        ],
+        "réponse": "2007",
+        "anecdote": "Het grootste belang van Kindle ligt in het gebruik van elektronische inkt die de ogen niet aantast omdat er geen achtergrondverlichting is."
+      },
+      {
+        "id": 17,
+        "question": "Welk systeem beschermt de eigendomsbestanden van de Amazon Kindle ?",
+        "propositions": [
+          "DRM",
+          "CSV",
+          "PDF",
+          "ZIP"
+        ],
+        "réponse": "DRM",
+        "anecdote": "Deze controle-apparaten kunnen worden toegepast op alle soorten fysieke of digitale transmissiemedia."
+      },
+      {
+        "id": 18,
+        "question": "Wat is het bestverkochte genre van digitale boeken van Amazon ?",
+        "propositions": [
+          "Erotische romantiek",
+          "Avontuur",
+          "Sciencefiction",
+          "Thriller"
+        ],
+        "réponse": "Erotische romantiek",
+        "anecdote": "In het eerste kwartaal van 2012 overtrof de verkoop van digitale boeken de waarde van de papieren boeken in het land."
+      },
+      {
+        "id": 19,
+        "question": "Hoe heet de techniek van Apple's Digital Rights Management (DRM) ?",
+        "propositions": [
+          "Kepub",
+          "Topaas",
+          "FairPlay",
+          "Bedreven"
+        ],
+        "réponse": "FairPlay",
+        "anecdote": "Alle beschermde inhoud die via één iTunes Store-account is gekocht, kan alleen op vijf geautoriseerde computers worden afgespeeld."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de naam van de vijfde generatie Kindle-e-reader ?",
+        "propositions": [
+          "DX",
+          "Vuur",
+          "Raak",
+          "Paperwhite"
+        ],
+        "réponse": "Paperwhite",
+        "anecdote": "De 5e generatie Kindle werd in oktober 2012 in de Verenigde Staten uitgebracht en is beschikbaar in twee versies : wifi en wifi met 3G."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk merk e-readers wordt door Barnes en Noble in de Verenigde Staten op de markt gebracht ?",
+        "propositions": [
+          "Kindle",
+          "Tolino",
+          "Kobo",
+          "Hoekje"
+        ],
+        "réponse": "Hoekje",
+        "anecdote": "Net als het merk Kindle bestaat het merk Nook ook in de vorm van software9 voor computers (pc en Mac)."
+      },
+      {
+        "id": 22,
+        "question": "Hoe heet de eerste Franstalige digitale uitgeverij ?",
+        "propositions": [
+          "Cylibris",
+          "Madeliefje",
+          "Gravitons",
+          "Scalair"
+        ],
+        "réponse": "Cylibris",
+        "anecdote": "Het bedrijf Cylibris, opgericht in 1996 door Olivier Gainon, publiceert digitale en gedrukte boeken op internet."
+      },
+      {
+        "id": 23,
+        "question": "Welke schrijver heeft de eerste « publie.net » auteurscoöperatie opgericht ?",
+        "propositions": [
+          "Claude Boujon",
+          "Francois Bon",
+          "Patrick Bousquet",
+          "Pascal Brissy"
+        ],
+        "réponse": "Francois Bon",
+        "anecdote": "François Bon is een van de eersten die van zijn website een plek maakt voor het deponeren van afgewerkte teksten, schetsen of inloopteksten."
+      },
+      {
+        "id": 24,
+        "question": "Wat was het eerste apparaat dat op de markt werd gebracht met elektronisch papier ?",
+        "propositions": [
+          "Hanlin",
+          "Librié",
+          "eFlybook",
+          "iLiad"
+        ],
+        "réponse": "Librié",
+        "anecdote": "De Sony Librié-lezer, uitgebracht in 2004 in Japan, had een 6-inch active matrix SVGA-scherm op basis van elektroforese."
+      },
+      {
+        "id": 25,
+        "question": "Welk besturingssysteem wordt gebruikt op de Amazon Kindle ?",
+        "propositions": [
+          "Windows",
+          "iOS",
+          "Linux",
+          "Android"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Een kleurenversie, de Kindle Fire, is sinds 14 november 2011 in de Verenigde Staten op de markt."
+      },
+      {
+        "id": 26,
+        "question": "Welk eigen documentformaat gebruikt Amazon op zijn Kindle ?",
+        "propositions": [
+          "TXT",
+          "AZW",
+          "ePub",
+          "PDF"
+        ],
+        "réponse": "AZW",
+        "anecdote": "Amazon Kindle ondersteunt ook afbeeldingsbestanden zoals JPEG, GIF, PNG en BMP."
+      },
+      {
+        "id": 27,
+        "question": "Wat was de eerste Europese leestablet die in 2001 op de markt kwam ?",
+        "propositions": [
+          "Onyx",
+          "Kindle",
+          "Cybook",
+          "Scribd"
+        ],
+        "réponse": "Cybook",
+        "anecdote": "De Cybook Gen3 maakt gebruik van schermen die zijn uitgerust met elektronisch papier, waardoor lezen op papier vergelijkbaar is."
+      },
+      {
+        "id": 28,
+        "question": "Welke online site voor het delen van documenten is actief sinds maart 2007 ?",
+        "propositions": [
+          "Stormfront",
+          "Scribd",
+          "Spiraal",
+          "Snopes"
+        ],
+        "réponse": "Scribd",
+        "anecdote": "IPaper-documenten worden verkregen na het converteren van verschillende bestanden (Powerpoint, PDF, Word) en kunnen worden gedeeld."
+      },
+      {
+        "id": 29,
+        "question": "Welk merk e-readers is ontwikkeld door Deutsche Telekom ?",
+        "propositions": [
+          "Onyx",
+          "Hoekje",
+          "Tolino",
+          "Kobo"
+        ],
+        "réponse": "Tolino",
+        "anecdote": "Deze producten worden verkocht door Standaard Boekhandel in België, Indiebook, IBS.it en Libracio in Italië."
+      },
+      {
+        "id": 30,
+        "question": "Welk open formaat van e-books is in Rusland populair geworden ?",
+        "propositions": [
+          "Sodec",
+          "Youboox",
+          "Fictieboek",
+          "Davinci"
+        ],
+        "réponse": "Fictieboek",
+        "anecdote": "Dit formaat is handig voor het automatisch verwerken, indexeren en beheren van digitale boekencollecties."
+      }
+    ]
+    }
+  }
+}

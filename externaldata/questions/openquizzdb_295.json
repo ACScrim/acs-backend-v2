@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-03-21",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Histoire",
+      "nom": "Histoire, simplement",
+      "slogan": "Oublier son passé c'est devoir le revivre"
+    },
+    "en": {
+      "catégorie": "History",
+      "nom": "Simply history",
+      "slogan": "To forget your past is to have to relive it"
+    },
+    "es": {
+      "catégorie": "Historia",
+      "nom": "Simplemente historia",
+      "slogan": "Olvidar tu pasado es tener que revivirlo"
+    },
+    "it": {
+      "catégorie": "Storia",
+      "nom": "Semplicemente storia",
+      "slogan": "Dimenticare il proprio passato significa doverlo rivivere"
+    },
+    "de": {
+      "catégorie": "Geschichte",
+      "nom": "Einfach Geschichte",
+      "slogan": "Wer die Vergangenheit vergisst, muss sie noch einmal durchleben"
+    },
+    "nl": {
+      "catégorie": "Geschiedenis",
+      "nom": "Gewoon geschiedenis",
+      "slogan": "Je verleden vergeten is het opnieuw moeten beleven"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qui chantait en pays d'oc les amours courtois des chevaliers ?",
+        "propositions": [
+          "Druide",
+          "Barde",
+          "Sherpa",
+          "Troubadour"
+        ],
+        "réponse": "Troubadour",
+        "anecdote": "Un troubadour est un compositeur et musicien médiéval qui faisait interpréter ses oeuvres poétiques par des ménestrels."
+      },
+      {
+        "id": 2,
+        "question": "Qui abandonna ses fonctions de président de l'URSS en décembre 1991 ?",
+        "propositions": [
+          "Mikhaïl Gorbatchev",
+          "Iouri Andropov",
+          "Léonid Brejnev",
+          "Andreï Gromyko"
+        ],
+        "réponse": "Mikhaïl Gorbatchev",
+        "anecdote": "Résolument réformateur, il lança la libéralisation économique, culturelle et politique connue sous les noms de perestroïka."
+      },
+      {
+        "id": 3,
+        "question": "Quelle affaire est à l'origine de la lettre « J'accuse », d'Émile Zola ?",
+        "propositions": [
+          "Affaire Dreyfus",
+          "Affaire Frank",
+          "Affaire Montel",
+          "Affaire Mortara"
+        ],
+        "réponse": "Affaire Dreyfus",
+        "anecdote": "La condamnation fin 1894 du capitaine Alfred Dreyfus était une erreur voire un complot judiciaire sur fond d'espionnage."
+      },
+      {
+        "id": 4,
+        "question": "Quel célèbre navigateur malouin atteignit Terre-Neuve en 1534 ?",
+        "propositions": [
+          "Samuel de Champlain",
+          "Charles Cuny",
+          "Max Douguet",
+          "Jacques Cartier"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier est l'auteur de cartes ayant permis l'apparition du golfe du Saint-Laurent sur les représentations du globe."
+      },
+      {
+        "id": 5,
+        "question": "Quel président fut la victime d'un coup d'État sanglant au Chili en 1973 ?",
+        "propositions": [
+          "Augusto Pinochet",
+          "Salvador Allende",
+          "Manuel Bulnes",
+          "Ricardo Lagos"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "Le coup d'État du 11 septembre 1973 mené par Augusto Pinochet, soutenu par les États-Unis, mit fin à son mandat par la force."
+      },
+      {
+        "id": 6,
+        "question": "Quel ministère Ségolène Royal occupa-t-elle dans le gouvernement Bérégovoy ?",
+        "propositions": [
+          "Défense",
+          "Justice",
+          "Environnement",
+          "Affaires sociales"
+        ],
+        "réponse": "Environnement",
+        "anecdote": "Emmanuel Macron la nommera ensuite ambassadrice chargée de la négociation internationale pour les pôles arctique et antarctique."
+      },
+      {
+        "id": 7,
+        "question": "Quel ouragan de forte amplitude a ravagé la Louisiane en août 2005 ?",
+        "propositions": [
+          "Andrew",
+          "Mitch",
+          "Katrina",
+          "Camille"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "Les dégâts ont été estimés à plus de 108 milliards de dollars, soit environ le quadruple de ceux causés par Andrew en 1992."
+      },
+      {
+        "id": 8,
+        "question": "Sur quelle place Mao déclara-t-il la fondation de la République populaire de Chine ?",
+        "propositions": [
+          "Du Peuple",
+          "Xinghai",
+          "Tian'anmen",
+          "Hotan"
+        ],
+        "réponse": "Tian'anmen",
+        "anecdote": "Elle s'appelle ainsi car elle se trouve au sud de la porte de la Paix céleste, qui commandait l'entrée sud de la cité impériale."
+      },
+      {
+        "id": 9,
+        "question": "Quelle célèbre construction parisienne fut engagée en janvier 1887 ?",
+        "propositions": [
+          "La Géode",
+          "Tour Eiffel",
+          "Palais Bourbon",
+          "Musée du Louvre"
+        ],
+        "réponse": "Tour Eiffel",
+        "anecdote": "La tour Eiffel est située à l'extrémité nord-ouest du parc du Champ-de-Mars, en bordure de la Seine, dans le 7e arrondissement."
+      },
+      {
+        "id": 10,
+        "question": "Quelle candidate s'est présentée six fois aux élections présidentielles en France ?",
+        "propositions": [
+          "Dominique Voynet",
+          "Ségolène Royal",
+          "Arlette Laguiller",
+          "Christiane Taubira"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Porte-parole du mouvement Lutte ouvrière, elle est la première femme à s'être présentée à une élection présidentielle française."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Au Moyen-Âge, quelle cérémonie transformait un bachelier en chevalier ?",
+        "propositions": [
+          "Heaume",
+          "Quintaine",
+          "Amendement",
+          "Adoubement"
+        ],
+        "réponse": "Adoubement",
+        "anecdote": "Au XIe siècle, l'adoubement était d'abord une cérémonie séculière et laïque par laquelle le jeune homme franchissait un rite de passage."
+      },
+      {
+        "id": 12,
+        "question": "Au nom de quel roi Jacques Cartier prit-il possession du Canada ?",
+        "propositions": [
+          "Philippe III",
+          "François Ier",
+          "Hugues Capet",
+          "Henri IV"
+        ],
+        "réponse": "François Ier",
+        "anecdote": "Il désirait ainsi découvrir certaines îles et pays où l'on dit qu'il se doit trouver grande quantité d'or et autres riches choses."
+      },
+      {
+        "id": 13,
+        "question": "Quelle ville fut fondée par l'explorateur Samuel de Champlain en 1608 ?",
+        "propositions": [
+          "Gatineau",
+          "Montréal",
+          "Québec",
+          "Laval"
+        ],
+        "réponse": "Québec",
+        "anecdote": "En juillet 2016, la ville fortifiée de Québec, siège de nombreuses institutions dont le Parlement, comptait 531 902 habitants."
+      },
+      {
+        "id": 14,
+        "question": "Sous quel nom est bien davantage connu Lev Davidovitch Bronstein ?",
+        "propositions": [
+          "Dmitri Chepilov",
+          "Léon Trotski",
+          "Fiodor Golovine",
+          "Boris Pankine"
+        ],
+        "réponse": "Léon Trotski",
+        "anecdote": "Militant marxiste, plusieurs fois déporté en Sibérie, il deviendra président du soviet de Pétrograd lors de la révolution russe de 1905."
+      },
+      {
+        "id": 15,
+        "question": "Par quel moyen de transport Léon Gambetta quitta-t-il Paris le 7 octobre 1870 ?",
+        "propositions": [
+          "Calèche",
+          "Ballon",
+          "Taxi",
+          "Hydravion"
+        ],
+        "réponse": "Ballon",
+        "anecdote": "Léon Gambetta fut l'une des personnalités politiques les plus importantes des premières années de la Troisième République."
+      },
+      {
+        "id": 16,
+        "question": "En 1485, quel roi d'Angleterre s'est dit prêt à donner son royaume pour un cheval ?",
+        "propositions": [
+          "Édouard V",
+          "Charles II",
+          "Richard III",
+          "Henri IV"
+        ],
+        "réponse": "Henri IV",
+        "anecdote": "Son père, Jean de Gand, troisième fils d'Édouard III, a joui d'une influence considérable pendant le règne de son cousin Richard II."
+      },
+      {
+        "id": 17,
+        "question": "Qui a remporté l'élection présidentielle en Palestine aux premiers jours de 2005 ?",
+        "propositions": [
+          "Ismaël Haniyeh",
+          "Ahmed Qoreï",
+          "Mahmoud Abbas",
+          "Nabil Chaath"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "C'est sous la présidence de Mahmoud Abbas que le statut d'État observateur non membre de l'ONU a été reconnu pour la Palestine."
+      },
+      {
+        "id": 18,
+        "question": "Comment appelle-t-on une succession de dirigeants d'une même famille ?",
+        "propositions": [
+          "Dynastie",
+          "Souveraineté",
+          "République",
+          "Monarchie"
+        ],
+        "réponse": "Dynastie",
+        "anecdote": "L'histoire politique a été façonnée par des dynasties séculaires telles que les Carolingiens, les Capétiens ou les Habsbourg."
+      },
+      {
+        "id": 19,
+        "question": "Dans la pratique de quelle activité chevaleresque Henri II perdit-il la vie en 1559 ?",
+        "propositions": [
+          "Tournoi",
+          "Joute nautique",
+          "Boxe",
+          "Escrime"
+        ],
+        "réponse": "Tournoi",
+        "anecdote": "Gabriel de Montgommery, capitaine de sa garde écossaise, le blesse d'un éclat de lance dans l'oeil. Il en meurt dix jours plus tard."
+      },
+      {
+        "id": 20,
+        "question": "Quel édit a permis d'éteindre en 1598 les guerres de Religion en France ?",
+        "propositions": [
+          "Édit de Pau",
+          "Édit de Versailles",
+          "Édit de Nantes",
+          "Édit de Troyes"
+        ],
+        "réponse": "Édit de Nantes",
+        "anecdote": "La première version de l'édit, effectivement signée et scellée à Nantes, est perdue et n'est plus connue que par une copie au BGE."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel roi demanda à Bayard de le faire chevalier au lendemain de Marignan ?",
+        "propositions": [
+          "François Ier",
+          "Charles VII",
+          "Henri II",
+          "Louis XII"
+        ],
+        "réponse": "François Ier",
+        "anecdote": "La légende évoquée en 1525 aurait été inventée afin de faire oublier les liens filiaux qui liaient le roi et son traitreux sujet."
+      },
+      {
+        "id": 22,
+        "question": "Tentant de fuir, dans quelle ville Louis XVI fut-il arrêté le 21 juin 1791 ?",
+        "propositions": [
+          "Fontainebleau",
+          "Strasbourg",
+          "Versailles",
+          "Varennes"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "Ce départ raté aura un retentissement important dans l'opinion et sera à l'origine d'une fracture politique entre conventionnels."
+      },
+      {
+        "id": 23,
+        "question": "Quel titre fut accordé à Caius Octavius en 27 avant Jésus-Christ ?",
+        "propositions": [
+          "Caligula",
+          "Néron",
+          "Auguste",
+          "Titus"
+        ],
+        "réponse": "Auguste",
+        "anecdote": "Caius Octavius descend d'une vieille et riche famille de l'ordre équestre, dont il fut le premier représentant au sénat romain."
+      },
+      {
+        "id": 24,
+        "question": "Quel était le nom de Bayard, le chevalier sans peur et sans reproche ?",
+        "propositions": [
+          "Pierre Terrail",
+          "Jacques Rambaud",
+          "André de Foix",
+          "Martin du Bellay"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "Ce noble dauphinois, mort dans le Piémont, s'illustra notamment comme chevalier durant les guerres d'Italie (XVe et XVIe siècles)."
+      },
+      {
+        "id": 25,
+        "question": "Dans quelle île le capitaine Dreyfus fut-il transféré après sa condamnation en 1895 ?",
+        "propositions": [
+          "Île du Diable",
+          "Île de Lerne",
+          "Île de Caher",
+          "Île de Belair"
+        ],
+        "réponse": "Île du Diable",
+        "anecdote": "Durant ces années de trouble, une large partie de l'opinion française se divisa entre dreyfusards et anti-dreyfusards."
+      },
+      {
+        "id": 26,
+        "question": "Laquelle des soeurs de Bonaparte fut reine de Naples de 1808 à 1814 ?",
+        "propositions": [
+          "Sophie",
+          "Béatrice",
+          "Caroline",
+          "Dorothée"
+        ],
+        "réponse": "Caroline",
+        "anecdote": "Caroline Bonaparte fut grande-duchesse consort de Berg puis reine consort de Naples par son mariage avec Joachim Murat."
+      },
+      {
+        "id": 27,
+        "question": "Quelle carrière le jeune Léon Trotski envisageait-il de suivre ?",
+        "propositions": [
+          "Vétérinaire",
+          "Médecin",
+          "Mathématicien",
+          "Avocat"
+        ],
+        "réponse": "Mathématicien",
+        "anecdote": "En 1917, Trotski est le principal acteur, avec Lénine, de la révolution d'Octobre qui permettra aux bolcheviks d'arriver au pouvoir."
+      },
+      {
+        "id": 28,
+        "question": "Qui l'empereur Auguste désigna-t-il dans son testament pour lui succéder ?",
+        "propositions": [
+          "Domitien",
+          "Marc Aurèle",
+          "Nerva",
+          "Tibère"
+        ],
+        "réponse": "Tibère",
+        "anecdote": "Tibère, politicien habile et prudent, a pourtant été durement critiqué par les historiens antiques tels que Tacite et Suétone."
+      },
+      {
+        "id": 29,
+        "question": "Qui le roi Henri IV, dit le Grand, a-t-il épousé en 1600 ?",
+        "propositions": [
+          "Anne d'Autriche",
+          "Isabelle d'Aragon",
+          "Marie de Médicis",
+          "Jeanne de France"
+        ],
+        "réponse": "Marie de Médicis",
+        "anecdote": "Henri est le fils de Jeanne d'Albret, reine de Navarre, et d'Antoine de Bourbon, chef de la maison de Bourbon et descendant de Louis IX."
+      },
+      {
+        "id": 30,
+        "question": "Quel roi de France ordonna en 1588 l'assassinat du duc de Guise ?",
+        "propositions": [
+          "Henri III",
+          "Charles III",
+          "Louis III",
+          "Philippe III"
+        ],
+        "réponse": "Henri III",
+        "anecdote": "Il fit assassiner le duc de Guise et le lendemain à coups de hallebarde son frère, le cardinal de Guise, jugé aussi dangereux."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who sang the courtly loves of the knights in the oceans of the country ?",
+        "propositions": [
+          "Troubadour",
+          "Druid",
+          "Sherpa",
+          "Bard"
+        ],
+        "réponse": "Troubadour",
+        "anecdote": "A troubadour is a medieval composer and musician who had his poetic works interpreted by minstrels."
+      },
+      {
+        "id": 2,
+        "question": "Who left his post as president of the USSR in December 1991 ?",
+        "propositions": [
+          "Yuri Andropov",
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev",
+          "Andrei Gromyko"
+        ],
+        "réponse": "Mikhail Gorbachev",
+        "anecdote": "Resolutely reformist, he launched the economic, cultural and political liberalization known under the names of perestroika."
+      },
+      {
+        "id": 3,
+        "question": "What case is at the origin of the letter « J'accuse », by Émile Zola ?",
+        "propositions": [
+          "Mortara case",
+          "Frank case",
+          "Montel case",
+          "Dreyfus Affair"
+        ],
+        "réponse": "Dreyfus Affair",
+        "anecdote": "The conviction at the end of 1894 of Captain Alfred Dreyfus was an error or even a legal conspiracy against a background of espionage."
+      },
+      {
+        "id": 4,
+        "question": "What famous Saint-Malo navigator reached Newfoundland in 1534 ?",
+        "propositions": [
+          "Max Douguet",
+          "Charles Cuny",
+          "Jacques Cartier",
+          "Samuel de Champlain"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier is the author of maps which have enabled the Gulf of St. Lawrence to appear on representations of the globe."
+      },
+      {
+        "id": 5,
+        "question": "Which president was the victim of a bloody coup in Chile in 1973 ?",
+        "propositions": [
+          "Manuel Bulnes",
+          "Salvador Allende",
+          "Ricardo Lagos",
+          "Augusto Pinochet"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "The coup of September 11, 1973 led by Augusto Pinochet, supported by the United States, ended his mandate by force."
+      },
+      {
+        "id": 6,
+        "question": "What ministry did Ségolène Royal occupy in the Bérégovoy government ?",
+        "propositions": [
+          "Justice",
+          "Environment",
+          "Defense",
+          "Social affairs"
+        ],
+        "réponse": "Environment",
+        "anecdote": "Emmanuel Macron will then appoint her ambassador in charge of international negotiations for the Arctic and Antarctic poles."
+      },
+      {
+        "id": 7,
+        "question": "What high amplitude hurricane ravaged Louisiana in August 2005 ?",
+        "propositions": [
+          "Camille",
+          "Andrew",
+          "Mitch",
+          "Katrina"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "The damage was estimated at more than $ 108 billion, about four times that caused by Andrew in 1992."
+      },
+      {
+        "id": 8,
+        "question": "Where did Mao declare the founding of the People's Republic of China ?",
+        "propositions": [
+          "Hotan",
+          "Of the People",
+          "Xinghai",
+          "Tian'anmen"
+        ],
+        "réponse": "Tian'anmen",
+        "anecdote": "It is so called because it is located south of the Gate of Heavenly Peace, which commanded the southern entrance to the Imperial City."
+      },
+      {
+        "id": 9,
+        "question": "What famous Parisian construction was started in January 1887 ?",
+        "propositions": [
+          "Louvre Museum",
+          "Eiffel Tower",
+          "The Geode",
+          "Bourbon Palace"
+        ],
+        "réponse": "Eiffel Tower",
+        "anecdote": "The Eiffel Tower is located at the north-western end of the Champ-de-Mars park, on the banks of the Seine, in the 7th arrondissement."
+      },
+      {
+        "id": 10,
+        "question": "Which candidate has run for president six times in France ?",
+        "propositions": [
+          "Christiane Taubira",
+          "Dominique Voynet",
+          "Arlette Laguiller",
+          "Ségolène Royal"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Spokeswoman for the Lutte Ouvrière movement, she is the first woman to stand for a French presidential election."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In the Middle Ages, what ceremony transformed a bachelor into a knight ?",
+        "propositions": [
+          "Doubting",
+          "Amendment",
+          "Helm",
+          "Quintaine"
+        ],
+        "réponse": "Doubting",
+        "anecdote": "In the eleventh century, dubbing was first a secular and secular ceremony by which the young man went through a rite of passage."
+      },
+      {
+        "id": 12,
+        "question": "In whose name did Jacques Cartier take possession of Canada ?",
+        "propositions": [
+          "Hugues Capet",
+          "Francis I",
+          "Philip III",
+          "Henry IV"
+        ],
+        "réponse": "Francis I",
+        "anecdote": "He wanted to discover certain islands and countries where it is said that there must be a great deal of gold and other rich things."
+      },
+      {
+        "id": 13,
+        "question": "Which city was founded by explorer Samuel de Champlain in 1608 ?",
+        "propositions": [
+          "Gatineau",
+          "Quebec",
+          "Laval",
+          "Montreal"
+        ],
+        "réponse": "Quebec",
+        "anecdote": "In July 2016, the fortified city of Quebec, seat of many institutions including Parliament, had 531,902 inhabitants."
+      },
+      {
+        "id": 14,
+        "question": "Under what name is Lev Davidovich Bronstein much better known ?",
+        "propositions": [
+          "Boris Pankine",
+          "Dmitri Chepilov",
+          "Fyodor Golovin",
+          "Leon Trotsky"
+        ],
+        "réponse": "Leon Trotsky",
+        "anecdote": "Marxist activist, deported several times to Siberia, he became president of the Petrograd Soviet during the Russian Revolution of 1905."
+      },
+      {
+        "id": 15,
+        "question": "By what means of transport did Léon Gambetta leave Paris on October 7, 1870 ?",
+        "propositions": [
+          "Taxi",
+          "Seaplane",
+          "Balloon",
+          "Horse-drawn carriage"
+        ],
+        "réponse": "Balloon",
+        "anecdote": "Léon Gambetta was one of the most important political figures of the first years of the Third Republic."
+      },
+      {
+        "id": 16,
+        "question": "In 1485, which king of England said he was ready to give his kingdom for a horse ?",
+        "propositions": [
+          "Charles II",
+          "Edward V",
+          "Richard III",
+          "Henry IV"
+        ],
+        "réponse": "Henry IV",
+        "anecdote": "His father, John of Ghent, third son of Edward III, enjoyed considerable influence during the reign of his cousin Richard II."
+      },
+      {
+        "id": 17,
+        "question": "Who won the presidential election in Palestine in the early days of 2005 ?",
+        "propositions": [
+          "Ismaël Haniyeh",
+          "Nabil Chaath",
+          "Ahmed Qoreï",
+          "Mahmoud Abbas"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "It was under the presidency of Mahmoud Abbas that the status of non-member observer state of the United Nations was recognized for Palestine."
+      },
+      {
+        "id": 18,
+        "question": "What do you call a succession of leaders from the same family ?",
+        "propositions": [
+          "Monarchy",
+          "Republic",
+          "Dynasty",
+          "Sovereignty"
+        ],
+        "réponse": "Dynasty",
+        "anecdote": "Political history has been shaped by secular dynasties such as the Carolingians, Capetians or Habsburgs."
+      },
+      {
+        "id": 19,
+        "question": "In the practice of what chivalrous activity did Henry II lose his life in 1559 ?",
+        "propositions": [
+          "Fencing",
+          "Nautical joust",
+          "Tournament",
+          "Boxing"
+        ],
+        "réponse": "Tournament",
+        "anecdote": "Gabriel de Montgommery, captain of his Scottish guard, wounds him with a shard of a lance in the eye."
+      },
+      {
+        "id": 20,
+        "question": "What edict made it possible to put an end to the Wars of Religion in France in 1598 ?",
+        "propositions": [
+          "Edict of Nantes",
+          "Edict of Pau",
+          "Edict of Versailles",
+          "Edict of Troyes"
+        ],
+        "réponse": "Edict of Nantes",
+        "anecdote": "The first version of the edict, effectively signed and sealed in Nantes, is lost and is no longer known except through a copy at the BGE."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which king asked Bayard to knight him the day after Marignan ?",
+        "propositions": [
+          "Louis XII",
+          "Henry II",
+          "Charles VII",
+          "Francis I"
+        ],
+        "réponse": "Francis I",
+        "anecdote": "The legend mentioned in 1525 would have been invented in order to forget the filial ties which bound the king and his traitorous subject."
+      },
+      {
+        "id": 22,
+        "question": "Trying to flee, in which city was Louis XVI arrested on June 21, 1791 ?",
+        "propositions": [
+          "Fontainebleau",
+          "Strasbourg",
+          "Varennes",
+          "Versailles"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "This failed departure will have a major impact on public opinion and will be at the origin of a political divide between conventional members."
+      },
+      {
+        "id": 23,
+        "question": "What title was given to Caius Octavius in 27 BC ?",
+        "propositions": [
+          "Caligula",
+          "Augustus",
+          "Titus",
+          "Nero"
+        ],
+        "réponse": "Augustus",
+        "anecdote": "Caius Octavius comes from an old and wealthy family of the equestrian order, of which he was the first representative in the Roman senate."
+      },
+      {
+        "id": 24,
+        "question": "What was the name of Bayard, the fearless and blameless knight ?",
+        "propositions": [
+          "Jacques Rambaud",
+          "Martin du Bellay",
+          "Pierre Terrail",
+          "André de Foix"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "This noble Dauphinois, who died in Piedmont, distinguished himself in particular as a knight during the Italian wars (15th and 16th centuries)."
+      },
+      {
+        "id": 25,
+        "question": "To which island was Captain Dreyfus transferred after his conviction in 1895 ?",
+        "propositions": [
+          "Island of Lerne",
+          "Caher Island",
+          "Devil's Island",
+          "Belair Island"
+        ],
+        "réponse": "Devil's Island",
+        "anecdote": "During these years of trouble, a large part of French opinion was divided between Dreyfusards and anti-Dreyfusards."
+      },
+      {
+        "id": 26,
+        "question": "Which of Bonaparte's sisters was Queen of Naples from 1808 to 1814 ?",
+        "propositions": [
+          "Caroline",
+          "Dorothy",
+          "Beatrice",
+          "Sophie"
+        ],
+        "réponse": "Caroline",
+        "anecdote": "Caroline Bonaparte was Grand Duchess Consort of Berg then Queen Consort of Naples through her marriage to Joachim Murat."
+      },
+      {
+        "id": 27,
+        "question": "What career did young Leon Trotsky plan to follow ?",
+        "propositions": [
+          "Lawyer",
+          "Doctor",
+          "Veterinarian",
+          "Mathematician"
+        ],
+        "réponse": "Mathematician",
+        "anecdote": "In 1917, Trotsky was the main actor, along with Lenin, in the October Revolution which allowed the Bolsheviks to come to power."
+      },
+      {
+        "id": 28,
+        "question": "Who did Emperor Augustus designate in his will to succeed him ?",
+        "propositions": [
+          "Tiberius",
+          "Domitian",
+          "Nerva",
+          "Marc Aurèle"
+        ],
+        "réponse": "Tiberius",
+        "anecdote": "Tiberius, a skilful and prudent politician, has yet been harshly criticized by ancient historians such as Tacitus and Suetonius."
+      },
+      {
+        "id": 29,
+        "question": "Who did King Henry IV, says the Great, marry in 1600 ?",
+        "propositions": [
+          "Anne of Austria",
+          "Joan of France",
+          "Isabelle of Aragon",
+          "Marie de Medici"
+        ],
+        "réponse": "Marie de Medici",
+        "anecdote": "Henri is the son of Jeanne d'Albret, Queen of Navarre, and Antoine de Bourbon, head of the House of Bourbon and descendant of Louis IX."
+      },
+      {
+        "id": 30,
+        "question": "Which king of France ordered the assassination of the Duke of Guise in 1588 ?",
+        "propositions": [
+          "Philip III",
+          "Henry III",
+          "Louis III",
+          "Charles III"
+        ],
+        "réponse": "Henry III",
+        "anecdote": "He had the Duke of Guise assassinated and the next day with halberds his brother, Cardinal de Guise, considered as dangerous."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer sang die höfischen Ritterlieder in den Ozeanen des Landes ?",
+        "propositions": [
+          "Troubadour",
+          "Sherpa",
+          "Barde",
+          "Druide"
+        ],
+        "réponse": "Troubadour",
+        "anecdote": "Ein Troubadour ist ein mittelalterlicher Komponist und Musiker, der seine poetischen Werke von Minnesängern interpretieren ließ."
+      },
+      {
+        "id": 2,
+        "question": "Wer hat im Dezember 1991 sein Amt als Präsident der UdSSR aufgegeben ?",
+        "propositions": [
+          "Andrei Gromyko",
+          "Mikhail Gorbachev",
+          "Yuri Andropov",
+          "Leonid Brezhnev"
+        ],
+        "réponse": "Mikhail Gorbachev",
+        "anecdote": "Entschlossen reformistisch leitete er die unter dem Namen Perestroika bekannte wirtschaftliche, kulturelle und politische Liberalisierung ein."
+      },
+      {
+        "id": 3,
+        "question": "Aus welchem Fall stammt der Brief « J'accuse » von Émile Zola ?",
+        "propositions": [
+          "Mortara-Koffer",
+          "Dreyfus-Affäre",
+          "Frank Fall",
+          "Montel-Gehäuse"
+        ],
+        "réponse": "Dreyfus-Affäre",
+        "anecdote": "Die Verurteilung von Kapitän Alfred Dreyfus Ende 1894 war ein Irrtum oder gar eine juristische Verschwörung vor dem Hintergrund der Spionage."
+      },
+      {
+        "id": 4,
+        "question": "Welcher berühmte Seefahrer von Saint-Malo erreichte 1534 Neufundland ?",
+        "propositions": [
+          "Jacques Cartier",
+          "Samuel de Champlain",
+          "Max Douguet",
+          "Charles Cuny"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier ist der Autor von Karten, die es ermöglicht haben, den Golf von St. Lawrence auf Darstellungen der Welt zu erscheinen."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Präsident wurde 1973 in Chile Opfer eines blutigen Staatsstreichs ?",
+        "propositions": [
+          "Augusto Pinochet",
+          "Salvador Allende",
+          "Ricardo Lagos",
+          "Manuel Bulnes"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "Der Putsch vom 11. September 1973 unter Führung von Augusto Pinochet, unterstützt von den Vereinigten Staaten, beendete sein Mandat gewaltsam."
+      },
+      {
+        "id": 6,
+        "question": "Welches Ministerium bekleidete Ségolène Royal in der Regierung Bérégovoy ?",
+        "propositions": [
+          "Umgebung",
+          "Soziales",
+          "Gerechtigkeit",
+          "Verteidigung"
+        ],
+        "réponse": "Umgebung",
+        "anecdote": "Emmanuel Macron wird dann ihren Botschafter ernennen, der für die internationalen Verhandlungen für die Pole Arktis und Antarktis zuständig ist."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Hurrikan mit hoher Amplitude verwüstete Louisiana im August 2005 ?",
+        "propositions": [
+          "Andreas",
+          "Camille",
+          "Katrina",
+          "Mitch"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "Der Schaden wurde auf mehr als 108 Milliarden US-Dollar geschätzt, etwa das Vierfache des von Andrew im Jahr 1992 verursachten Schadens."
+      },
+      {
+        "id": 8,
+        "question": "Wo erklärte Mao die Gründung der Volksrepublik China ?",
+        "propositions": [
+          "Hotan",
+          "Xinghai",
+          "Vom Volk",
+          "Tian'anmen"
+        ],
+        "réponse": "Tian'anmen",
+        "anecdote": "Es wird so genannt, weil es sich südlich des Tores des Himmlischen Friedens befindet, das den südlichen Eingang zur Kaiserstadt beherrschte."
+      },
+      {
+        "id": 9,
+        "question": "Welcher berühmte Pariser Bau wurde im Januar 1887 begonnen ?",
+        "propositions": [
+          "Die Geode",
+          "Louvre-Museum",
+          "Bourbon-Palast",
+          "Eiffelturm"
+        ],
+        "réponse": "Eiffelturm",
+        "anecdote": "Der Eiffelturm befindet sich am nordwestlichen Ende des Champ-de-Mars-Parks, am Ufer der Seine, im 7. Arrondissement."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Kandidat hat in Frankreich sechsmal für das Präsidentenamt kandidiert ?",
+        "propositions": [
+          "Arlette Laguiller",
+          "Dominique Voynet",
+          "Christiane Taubira",
+          "Ségolène Royal"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Als Sprecherin der Bewegung Lutte Ouvrière ist sie die erste Frau, die für eine französische Präsidentschaftswahl kandidiert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Zeremonie verwandelte im Mittelalter einen Junggesellen in einen Ritter ?",
+        "propositions": [
+          "Zweifel",
+          "Helm",
+          "Änderung",
+          "Quintaine"
+        ],
+        "réponse": "Zweifel",
+        "anecdote": "Im 11. Jahrhundert war die Synchronisation zunächst eine weltliche und weltliche Zeremonie, bei der der junge Mann einen Übergangsritus durchlief."
+      },
+      {
+        "id": 12,
+        "question": "In wessen Namen hat Jacques Cartier Kanada in Besitz genommen ?",
+        "propositions": [
+          "Heinrich IV.",
+          "Franz I.",
+          "Philipp III.",
+          "Hugues Capet"
+        ],
+        "réponse": "Franz I.",
+        "anecdote": "Er wollte bestimmte Inseln und Länder entdecken, von denen gesagt wird, dass es viel Gold und andere reiche Dinge geben muss."
+      },
+      {
+        "id": 13,
+        "question": "Welche Stadt wurde 1608 vom Entdecker Samuel de Champlain gegründet ?",
+        "propositions": [
+          "Gatineau",
+          "Laval",
+          "Quebec",
+          "Montreal"
+        ],
+        "réponse": "Quebec",
+        "anecdote": "Im Juli 2016 hatte die befestigte Stadt Quebec, Sitz vieler Institutionen, einschließlich des Parlaments, 531.902 Einwohner."
+      },
+      {
+        "id": 14,
+        "question": "Unter welchem Namen ist Lev Davidovich Bronstein bekannt ?",
+        "propositions": [
+          "Dmitri Chepilov",
+          "Leo Trotzki",
+          "Fjodor Golowin",
+          "Boris Pankine"
+        ],
+        "réponse": "Leo Trotzki",
+        "anecdote": "Marxistischer Aktivist, mehrmals nach Sibirien deportiert, wurde er während der Russischen Revolution von 1905 Präsident des Petrograder Sowjets."
+      },
+      {
+        "id": 15,
+        "question": "Mit welchem Verkehrsmittel verließ Léon Gambetta am 7. Oktober 1870 Paris ?",
+        "propositions": [
+          "Ballon",
+          "Pferdekutsche",
+          "Taxi",
+          "Wasserflugzeug"
+        ],
+        "réponse": "Ballon",
+        "anecdote": "Léon Gambetta war eine der wichtigsten politischen Persönlichkeiten der ersten Jahre der Dritten Republik."
+      },
+      {
+        "id": 16,
+        "question": "Welcher König von England sagte 1485, er sei bereit, sein Königreich für ein Pferd zu geben ?",
+        "propositions": [
+          "Edward V.",
+          "Richard III.",
+          "Heinrich IV.",
+          "Karl II."
+        ],
+        "réponse": "Heinrich IV.",
+        "anecdote": "Sein Vater, John of Gent, dritter Sohn von Edward III., genoss während der Regierungszeit seines Cousins  ? ?Richard II. beträchtlichen Einfluss."
+      },
+      {
+        "id": 17,
+        "question": "Wer hat die Präsidentschaftswahlen in Palästina Anfang 2005 gewonnen ?",
+        "propositions": [
+          "Ismaël Haniyeh",
+          "Ahmed Qoreï",
+          "Mahmoud Abbas",
+          "Nabil Chaath"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "Unter der Präsidentschaft von Mahmoud Abbas wurde Palästina der Status eines Nichtmitglieds-Beobachterstaates der Vereinten Nationen anerkannt."
+      },
+      {
+        "id": 18,
+        "question": "Wie nennt man eine Abfolge von Führungskräften derselben Familie ?",
+        "propositions": [
+          "Monarchie",
+          "Republik",
+          "Souveränität",
+          "Dynastie"
+        ],
+        "réponse": "Dynastie",
+        "anecdote": "Die politische Geschichte wurde von weltlichen Dynastien wie den Karolingern, Kapetern oder Habsburgern geprägt."
+      },
+      {
+        "id": 19,
+        "question": "Durch welche ritterliche Tätigkeit verlor Heinrich II. 1559 sein Leben ?",
+        "propositions": [
+          "Boxen",
+          "Nautisches Turnier",
+          "Turnier",
+          "Fechten"
+        ],
+        "réponse": "Turnier",
+        "anecdote": "Gabriel de Montgommery, Kapitän seiner schottischen Garde, verwundet ihn mit einem Lanzensplitter im Auge."
+      },
+      {
+        "id": 20,
+        "question": "Welches Edikt ermöglichte es 1598, die Religionskriege in Frankreich zu beenden ?",
+        "propositions": [
+          "Edikt von Nantes",
+          "Edikt von Troyes",
+          "Edikt von Pau",
+          "Edikt von Versailles"
+        ],
+        "réponse": "Edikt von Nantes",
+        "anecdote": "Die erste Fassung des Edikts, wirksam unterzeichnet und versiegelt in Nantes, ist verschollen und nur durch eine Kopie beim BGE bekannt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher König bat Bayard, ihn am Tag nach Marignan zum Ritter zu schlagen ?",
+        "propositions": [
+          "Karl VII.",
+          "Franz I.",
+          "Heinrich II.",
+          "Ludwig XII."
+        ],
+        "réponse": "Franz I.",
+        "anecdote": "Die 1525 erwähnte Legende wäre erfunden worden, um die kindlichen Bindungen zwischen dem König und seinem verräterischen Untertanen zu vergessen."
+      },
+      {
+        "id": 22,
+        "question": "In welcher Stadt wurde Ludwig XVI. auf der Flucht am 21. Juni 1791 festgenommen ?",
+        "propositions": [
+          "Varennes",
+          "Versailles",
+          "Straßburg",
+          "Fontainebleau"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "Dieser gescheiterte Austritt wird einen großen Einfluss auf die öffentliche Meinung haben und der Ursprung einer politischen Kluft zwischen den konventionellen Mitgliedern sein."
+      },
+      {
+        "id": 23,
+        "question": "Welchen Titel erhielt Caius Octavius im Jahr 27 v. Chr. ?",
+        "propositions": [
+          "Caligula",
+          "Titus",
+          "Nero",
+          "Augustus"
+        ],
+        "réponse": "Augustus",
+        "anecdote": "Caius Octavius stammt aus einer alten und wohlhabenden Familie des Ritterordens, deren erster Vertreter er im römischen Senat war."
+      },
+      {
+        "id": 24,
+        "question": "Wie hieß Bayard, der furchtlose und tadellose Ritter ?",
+        "propositions": [
+          "Martin du Bellay",
+          "Jacques Rambaud",
+          "André de Foix",
+          "Pierre Terrail"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "Dieser edle Dauphinois, der im Piemont starb, hat sich während der Italienkriege (15. und 16. Jahrhundert) als Ritter besonders hervorgetan."
+      },
+      {
+        "id": 25,
+        "question": "Auf welche Insel wurde Kapitän Dreyfus nach seiner Verurteilung im Jahr 1895 verlegt ?",
+        "propositions": [
+          "Caher Island",
+          "Insel Belair",
+          "Insel Lerne",
+          "Teufelsinsel"
+        ],
+        "réponse": "Teufelsinsel",
+        "anecdote": "Während dieser Jahre der Unruhen war ein großer Teil der französischen Meinung zwischen Dreyfusards und Anti-Dreyfusards geteilt."
+      },
+      {
+        "id": 26,
+        "question": "Welche Schwester Bonapartes war von 1808 bis 1814 Königin von Neapel ?",
+        "propositions": [
+          "Caroline",
+          "Beatrice",
+          "Sophie",
+          "Dorothy"
+        ],
+        "réponse": "Caroline",
+        "anecdote": "Caroline Bonaparte war Großherzogin von Berg, dann Königin von Neapel durch ihre Ehe mit Joachim Murat."
+      },
+      {
+        "id": 27,
+        "question": "Welche Karriere plante der junge Leo Trotzki ?",
+        "propositions": [
+          "Mathematiker",
+          "Rechtsanwalt",
+          "Arzt",
+          "Tierarzt"
+        ],
+        "réponse": "Mathematiker",
+        "anecdote": "1917 war Trotzki neben Lenin der Hauptakteur der Oktoberrevolution, die es den Bolschewiki ermöglichte, an die Macht zu kommen."
+      },
+      {
+        "id": 28,
+        "question": "Wen hat Kaiser Augustus in seinem Testament als Nachfolger bestimmt ?",
+        "propositions": [
+          "Tiberius",
+          "Marc Auréle",
+          "Nerva",
+          "Domitian"
+        ],
+        "réponse": "Tiberius",
+        "anecdote": "Tiberius, ein geschickter und besonnener Politiker, wurde von antiken Historikern wie Tacitus und Suetonius noch scharf kritisiert."
+      },
+      {
+        "id": 29,
+        "question": "Wen heiratete König Heinrich IV., sagt der Große, im Jahr 1600 ?",
+        "propositions": [
+          "Anna von Österreich",
+          "Marie de Medici",
+          "Isabelle von Aragon",
+          "Jeanne d'Frankreich"
+        ],
+        "réponse": "Marie de Medici",
+        "anecdote": "Henri ist der Sohn von Jeanne d'Albret, Königin von Navarra, und Antoine de Bourbon, dem Oberhaupt des Hauses Bourbon und Nachkomme von Ludwig IX."
+      },
+      {
+        "id": 30,
+        "question": "Welcher König von Frankreich ordnete 1588 die Ermordung des Herzogs von Guise an ?",
+        "propositions": [
+          "Philipp III.",
+          "Karl III.",
+          "Heinrich III.",
+          "Ludwig III."
+        ],
+        "réponse": "Heinrich III.",
+        "anecdote": "Er ließ den Herzog von Guise ermorden und hielt am nächsten Tag seinen Bruder, Kardinal de Guise, mit Hellebarden für gefährlich."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién cantó los amores cortesanos de los caballeros en los océanos del país ?",
+        "propositions": [
+          "Trovador",
+          "Sherpa",
+          "Druida",
+          "Bard"
+        ],
+        "réponse": "Trovador",
+        "anecdote": "Un trovador es un compositor y músico medieval cuyas obras poéticas fueron interpretadas por juglares."
+      },
+      {
+        "id": 2,
+        "question": "¿Quién dejó su cargo de presidente de la URSS en diciembre de 1991 ?",
+        "propositions": [
+          "Mikhail Gorbachev",
+          "Leonid Brezhnev",
+          "Yuri Andropov",
+          "Andrei Gromyko"
+        ],
+        "réponse": "Mikhail Gorbachev",
+        "anecdote": "Decididamente reformista, lanzó la liberalización económica, cultural y política conocida con el nombre de perestroika."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué caso está en el origen de la letra « J'accuse », de Émile Zola ?",
+        "propositions": [
+          "Asunto Dreyfus",
+          "Caso Montel",
+          "Caso Mortara",
+          "Caso Frank"
+        ],
+        "réponse": "Asunto Dreyfus",
+        "anecdote": "La condena a fines de 1894 del capitán Alfred Dreyfus fue un error o incluso una conspiración legal en un contexto de espionaje."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué famoso navegante de Saint-Malo llegó a Terranova en 1534 ?",
+        "propositions": [
+          "Samuel de Champlain",
+          "Jacques Cartier",
+          "Charles Cuny",
+          "Max Douguet"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier es el autor de mapas que han permitido que el Golfo de San Lorenzo aparezca en representaciones del mundo."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué presidente fue víctima de un sangriento golpe de Estado en Chile en 1973 ?",
+        "propositions": [
+          "Augusto Pinochet",
+          "Manuel Bulnes",
+          "Salvador Allende",
+          "Ricardo Lagos"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "El golpe de Estado del 11 de septiembre de 1973 liderado por Augusto Pinochet, apoyado por Estados Unidos, puso fin a su mandato por la fuerza."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué ministerio ocupó Ségolène Royal en el gobierno de Bérégovoy ?",
+        "propositions": [
+          "Asuntos sociales",
+          "Defensa",
+          "Medio ambiente",
+          "Justicia"
+        ],
+        "réponse": "Medio ambiente",
+        "anecdote": "Emmanuel Macron luego nombrará a su embajador a cargo de las negociaciones internacionales para los polos ártico y antártico."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué huracán de gran amplitud devastó Luisiana en agosto de 2005 ?",
+        "propositions": [
+          "Andrew",
+          "Katrina",
+          "Camille",
+          "Mitch"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "El daño se estimó en más de $ 108 mil millones, aproximadamente cuatro veces el causado por Andrew en 1992."
+      },
+      {
+        "id": 8,
+        "question": "¿Dónde declaró Mao la fundación de la República Popular China ?",
+        "propositions": [
+          "Hotan",
+          "Del pueblo",
+          "Tian'anmen",
+          "Xinghai"
+        ],
+        "réponse": "Tian'anmen",
+        "anecdote": "Se llama así porque se encuentra al sur de la Puerta de la Paz Celestial, que comandaba la entrada sur de la Ciudad Imperial."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué famosa construcción parisina se inició en enero de 1887 ?",
+        "propositions": [
+          "Palacio de los Borbones",
+          "Museo del Louvre",
+          "Torre Eiffel",
+          "La geoda"
+        ],
+        "réponse": "Torre Eiffel",
+        "anecdote": "La Torre Eiffel se encuentra en el extremo noroeste del parque Champ-de-Mars, a orillas del Sena, en el distrito 7."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué candidato se ha presentado a la presidencia seis veces en Francia ?",
+        "propositions": [
+          "Dominique Voynet",
+          "Christiane Taubira",
+          "Arlette Laguiller",
+          "Ségolène Royal"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Portavoz del movimiento Lutte Ouvrière, es la primera mujer que se presenta a las elecciones presidenciales francesas."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "En la Edad Media, ¿qué ceremonia transformó a un soltero en un caballero ?",
+        "propositions": [
+          "Dudando",
+          "Helm",
+          "Enmienda",
+          "Quintaine"
+        ],
+        "réponse": "Dudando",
+        "anecdote": "En el siglo XI, el doblaje fue primero una ceremonia secular y secular mediante la cual el joven pasaba por un rito de iniciación."
+      },
+      {
+        "id": 12,
+        "question": "¿En nombre de quién Jacques Cartier tomó posesión de Canadá ?",
+        "propositions": [
+          "Francis I",
+          "Hugues Capet",
+          "Felipe III",
+          "Enrique IV"
+        ],
+        "réponse": "Francis I",
+        "anecdote": "Quería descubrir ciertas islas y países donde se dice que debe haber una gran cantidad de oro y otras cosas ricas."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué ciudad fue fundada por el explorador Samuel de Champlain en 1608 ?",
+        "propositions": [
+          "Montreal",
+          "Laval",
+          "Gatineau",
+          "Quebec"
+        ],
+        "réponse": "Quebec",
+        "anecdote": "En julio de 2016, la ciudad fortificada de Quebec, sede de muchas instituciones, incluido el Parlamento, tenía 531,902 habitantes."
+      },
+      {
+        "id": 14,
+        "question": "¿Con qué nombre es bien conocido Lev Davidovich Bronstein ?",
+        "propositions": [
+          "Fyodor Golovin",
+          "Leon Trotsky",
+          "Boris Pankine",
+          "Dmitri Chepilov"
+        ],
+        "réponse": "Leon Trotsky",
+        "anecdote": "Activista marxista, deportado varias veces a Siberia, se convirtió en presidente del Soviet de Petrogrado durante la Revolución Rusa de 1905."
+      },
+      {
+        "id": 15,
+        "question": "¿Con qué medio de transporte salió Léon Gambetta de París el 7 de octubre de 1870 ?",
+        "propositions": [
+          "Taxi",
+          "Globo",
+          "Hidroavión",
+          "Coche de caballos"
+        ],
+        "réponse": "Globo",
+        "anecdote": "Léon Gambetta fue una de las figuras políticas más importantes de los primeros años de la Tercera República."
+      },
+      {
+        "id": 16,
+        "question": "En 1485, ¿qué rey de Inglaterra dijo que estaba dispuesto a dar su reino por un caballo ?",
+        "propositions": [
+          "Enrique IV",
+          "Richard III",
+          "Charles II",
+          "Edward V"
+        ],
+        "réponse": "Enrique IV",
+        "anecdote": "Su padre, Juan de Gante, tercer hijo de Eduardo III, disfrutó de una influencia considerable durante el reinado de su primo Ricardo II."
+      },
+      {
+        "id": 17,
+        "question": "¿Quién ganó las elecciones presidenciales en Palestina en los primeros días de 2005 ?",
+        "propositions": [
+          "Mahmoud Abbas",
+          "Ahmed Qoreï",
+          "Ismaël Haniyeh",
+          "Nabil Chaath"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "Fue bajo la presidencia de Mahmoud Abbas que se reconoció a Palestina la condición de estado observador no miembro de las Naciones Unidas."
+      },
+      {
+        "id": 18,
+        "question": "¿Cómo llamas a una sucesión de líderes de la misma familia ?",
+        "propositions": [
+          "Soberanía",
+          "Dinastía",
+          "Monarquía",
+          "República"
+        ],
+        "réponse": "Dinastía",
+        "anecdote": "La historia política ha sido moldeada por dinastías seculares como los carolingios, los Capetos o los Habsburgo."
+      },
+      {
+        "id": 19,
+        "question": "¿En la práctica de qué actividad caballeresca perdió la vida Enrique II en 1559 ?",
+        "propositions": [
+          "Esgrima",
+          "Boxeo ","Boxe",
+          "Torneo",
+          "Justa náutica"
+        ],
+        "réponse": "Torneo",
+        "anecdote": "Gabriel de Montgommery, capitán de su guardia escocesa, lo hiere con un fragmento de lanza en el ojo."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué edicto hizo posible poner fin a las guerras de religión en Francia en 1598 ?",
+        "propositions": [
+          "Edicto de Troyes",
+          "Edicto de Nantes",
+          "Edicto de Versalles",
+          "Edicto de Pau"
+        ],
+        "réponse": "Edicto de Nantes",
+        "anecdote": "La primera versión del edicto, efectivamente firmada y sellada en Nantes, se pierde y ya no se conoce excepto a través de una copia en el BGE."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué rey le pidió a Bayard que lo nombrara caballero el día después de Marignan ?",
+        "propositions": [
+          "Enrique II",
+          "Carlos VII",
+          "Louis XII",
+          "Francis I"
+        ],
+        "réponse": "Francis I",
+        "anecdote": "La leyenda mencionada en 1525 habría sido inventada para olvidar los lazos filiales que unían al rey y su súbdito traidor."
+      },
+      {
+        "id": 22,
+        "question": "Intentando huir, ¿en qué ciudad fue arrestado Luis XVI el 21 de junio de 1791 ?",
+        "propositions": [
+          "Fontainebleau",
+          "Varennes",
+          "Versalles",
+          "Estrasburgo"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "Esta salida fallida tendrá un gran impacto en la opinión pública y estará en el origen de una división política entre los miembros convencionales."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué título se le dio a Cayo Octavio en el 27 a. C. ?",
+        "propositions": [
+          "Calígula",
+          "Augustus",
+          "Titus",
+          "Nero"
+        ],
+        "réponse": "Augustus",
+        "anecdote": "Cayo Octavio proviene de una antigua y acomodada familia de la orden ecuestre, de la que fue el primer representante en el senado romano."
+      },
+      {
+        "id": 24,
+        "question": "¿Cómo se llamaba Bayard, el intrépido e intachable caballero ?",
+        "propositions": [
+          "Pierre Terrail",
+          "Martin du Bellay",
+          "André de Foix",
+          "Jacques Rambaud"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "Este noble Dauphinois, que murió en Piamonte, se distinguió en particular como caballero durante las guerras italianas (siglos XV y XVI)."
+      },
+      {
+        "id": 25,
+        "question": "¿A qué isla fue trasladado el capitán Dreyfus después de su condena en 1895 ?",
+        "propositions": [
+          "Isla del Diablo",
+          "Isla de Lerne",
+          "Isla Caher",
+          "Isla Belair"
+        ],
+        "réponse": "Isla del Diablo",
+        "anecdote": "Durante estos años de problemas, una gran parte de la opinión francesa se dividió entre Dreyfusards y anti-Dreyfusards."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuál de las hermanas de Bonaparte fue reina de Nápoles desde 1808 hasta 1814 ?",
+        "propositions": [
+          "Beatrice",
+          "Sophie",
+          "Caroline",
+          "Dorothy"
+        ],
+        "réponse": "Caroline",
+        "anecdote": "Caroline Bonaparte fue Gran Duquesa Consorte de Berg y luego Reina Consorte de Nápoles a través de su matrimonio con Joachim Murat."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué carrera planeaba seguir el joven León Trotsky ?",
+        "propositions": [
+          "Abogado ","Avocat",
+          "Veterinario",
+          "Doctor",
+          "Matemático"
+        ],
+        "réponse": "Matemático",
+        "anecdote": "En 1917, Trotsky fue el actor principal, junto con Lenin, en la Revolución de Octubre que permitió a los bolcheviques llegar al poder."
+      },
+      {
+        "id": 28,
+        "question": "¿A quién designó el emperador Augusto en su testamento para sucederlo ?",
+        "propositions": [
+          "Nerva",
+          "Tiberius",
+          "Marc Aurèle",
+          "Domiciano"
+        ],
+        "réponse": "Tiberius",
+        "anecdote": "Tiberio, un político hábil y prudente, ha sido duramente criticado por historiadores antiguos como Tácito y Suetonio."
+      },
+      {
+        "id": 29,
+        "question": "¿Con quién se casó el rey Enrique IV, dice el Grande, en 1600 ?",
+        "propositions": [
+          "Juana de Francia",
+          "Ana de Austria",
+          "Isabel de Aragón",
+          "Marie de Medici"
+        ],
+        "réponse": "Marie de Medici",
+        "anecdote": "Henri es hijo de Jeanne d'Albret, reina de Navarra, y Antoine de Bourbon, cabeza de la casa de Borbón y descendiente de Luis IX."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué rey de Francia ordenó el asesinato del duque de Guisa en 1588 ?",
+        "propositions": [
+          "Felipe III",
+          "Enrique III",
+          "Charles III",
+          "Louis III"
+        ],
+        "réponse": "Enrique III",
+        "anecdote": "Hizo que asesinaran al duque de Guisa y al día siguiente con alabardas a su hermano, el cardenal de Guisa, lo consideró peligroso."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi ha cantato gli amori cortesi dei cavalieri negli oceani del paese ?",
+        "propositions": [
+          "Druido",
+          "Sherpa",
+          "Trovatore",
+          "Bardo"
+        ],
+        "réponse": "Trovatore",
+        "anecdote": "Un trovatore è un compositore e musicista medievale che faceva interpretare le sue opere poetiche dai menestrelli."
+      },
+      {
+        "id": 2,
+        "question": "Chi ha lasciato il suo posto di presidente dell'URSS nel dicembre 1991 ?",
+        "propositions": [
+          "Andrei Gromyko",
+          "Mikhail Gorbachev",
+          "Yuri Andropov",
+          "Leonid Brezhnev"
+        ],
+        "réponse": "Mikhail Gorbachev",
+        "anecdote": "Risolutamente riformista, ha lanciato la liberalizzazione economica, culturale e politica conosciuta sotto il nome di perestrojka."
+      },
+      {
+        "id": 3,
+        "question": "Quale caso c'è all'origine della lettera « J'accuse » di Émile Zola ?",
+        "propositions": [
+          "Affare Dreyfus",
+          "Caso Montel",
+          "Caso Frank",
+          "Caso Mortara"
+        ],
+        "réponse": "Affare Dreyfus",
+        "anecdote": "La condanna alla fine del 1894 del capitano Alfred Dreyfus fu un errore o addirittura una cospirazione legale in un contesto di spionaggio."
+      },
+      {
+        "id": 4,
+        "question": "Quale famoso navigatore di Saint-Malo raggiunse Terranova nel 1534 ?",
+        "propositions": [
+          "Charles Cuny",
+          "Max Douguet",
+          "Samuel de Champlain",
+          "Jacques Cartier"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier è l'autore di mappe che hanno permesso al Golfo di San Lorenzo di apparire sulle rappresentazioni del globo."
+      },
+      {
+        "id": 5,
+        "question": "Quale presidente è stato vittima di un sanguinoso colpo di stato in Cile nel 1973 ?",
+        "propositions": [
+          "Salvador Allende",
+          "Manuel Bulnes",
+          "Ricardo Lagos",
+          "Augusto Pinochet"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "Il colpo di stato dell'11 settembre 1973 guidato da Augusto Pinochet, appoggiato dagli Stati Uniti, pose fine al suo mandato con la forza."
+      },
+      {
+        "id": 6,
+        "question": "Quale ministero occupò Ségolène Royal nel governo di Bérégovoy ?",
+        "propositions": [
+          "Affari sociali",
+          "Ambiente",
+          "Difesa",
+          "Giustizia"
+        ],
+        "réponse": "Ambiente",
+        "anecdote": "Emmanuel Macron nominerà poi il suo ambasciatore incaricato dei negoziati internazionali per i poli artico e antartico."
+      },
+      {
+        "id": 7,
+        "question": "Quale uragano di grande ampiezza ha devastato la Louisiana nell'agosto 2005 ?",
+        "propositions": [
+          "Katrina",
+          "Andrea",
+          "Mitch",
+          "Camille"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "Il danno è stato stimato in oltre 108 miliardi di dollari, circa quattro volte quello causato da Andrew nel 1992."
+      },
+      {
+        "id": 8,
+        "question": "Dove Mao dichiarò la fondazione della Repubblica Popolare Cinese ?",
+        "propositions": [
+          "del popolo",
+          "Xinghai",
+          "Hotan",
+          "Tienanmen"
+        ],
+        "réponse": "Tienanmen",
+        "anecdote": "È così chiamato perché si trova a sud della Porta della Pace Celeste, che comandava l'ingresso meridionale della Città Imperiale."
+      },
+      {
+        "id": 9,
+        "question": "Quale famosa costruzione parigina fu iniziata nel gennaio 1887 ?",
+        "propositions": [
+          "Palazzo Borbonico",
+          "Il Geode",
+          "Museo del Louvre",
+          "Torre Eiffel"
+        ],
+        "réponse": "Torre Eiffel",
+        "anecdote": "La Torre Eiffel si trova all'estremità nord-occidentale del parco Champ-de-Mars, sulle rive della Senna, nel 7° arrondissement."
+      },
+      {
+        "id": 10,
+        "question": "Quale candidato si è candidato alla presidenza sei volte in Francia ?",
+        "propositions": [
+          "Christiane Taubira",
+          "Arlette Laguiller",
+          "Dominique Voynet",
+          "Ségolène Royal"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Portavoce del movimento Lutte Ouvrière, è la prima donna a candidarsi alle elezioni presidenziali francesi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Nel Medioevo, quale cerimonia trasformava uno scapolo in cavaliere ?",
+        "propositions": [
+          "Dubitare",
+          "Elmo",
+          "Modifica",
+          "Quintaino"
+        ],
+        "réponse": "Dubitare",
+        "anecdote": "Nell'XI secolo, il doppiaggio era dapprima una cerimonia laica e laica mediante la quale il giovane compiva un rito di passaggio."
+      },
+      {
+        "id": 12,
+        "question": "In nome di chi Jacques Cartier ha preso possesso del Canada ?",
+        "propositions": [
+          "Ugo Capeto",
+          "Enrico IV",
+          "Filippo III",
+          "Francesco I"
+        ],
+        "réponse": "Francesco I",
+        "anecdote": "Voleva scoprire alcune isole e paesi dove si dice che ci deve essere una grande quantità di oro e altre cose ricche."
+      },
+      {
+        "id": 13,
+        "question": "Quale città fu fondata dall'esploratore Samuel de Champlain nel 1608 ?",
+        "propositions": [
+          "Laval",
+          "Montreal",
+          "Québec",
+          "Gatineau"
+        ],
+        "réponse": "Québec",
+        "anecdote": "A luglio 2016, la città fortificata del Quebec, sede di molte istituzioni tra cui il Parlamento, contava 531.902 abitanti."
+      },
+      {
+        "id": 14,
+        "question": "Con quale nome è famoso Lev Davidovich Bronstein ?",
+        "propositions": [
+          "Leon Trotsky",
+          "Boris Pankine",
+          "Fëdor Golovin",
+          "Dmitri Chepilov"
+        ],
+        "réponse": "Leon Trotsky",
+        "anecdote": "Attivista marxista, più volte deportato in Siberia, divenne presidente del Soviet di Pietrogrado durante la rivoluzione russa del 1905."
+      },
+      {
+        "id": 15,
+        "question": "Con quale mezzo di trasporto Léon Gambetta lasciò Parigi il 7 ottobre 1870 ?",
+        "propositions": [
+          "Idrovolante",
+          "Taxi",
+          "Palloncino",
+          "Carrozza trainata da cavalli"
+        ],
+        "réponse": "Palloncino",
+        "anecdote": "Léon Gambetta fu una delle figure politiche più importanti dei primi anni della Terza Repubblica."
+      },
+      {
+        "id": 16,
+        "question": "Nel 1485, quale re d'Inghilterra si disse pronto a dare il suo regno per un cavallo ?",
+        "propositions": [
+          "Edoardo V",
+          "Carlo II",
+          "Riccardo III",
+          "Enrico IV"
+        ],
+        "réponse": "Enrico IV",
+        "anecdote": "Suo padre, Giovanni di Gand, terzo figlio di Edoardo III, godette di una notevole influenza durante il regno di suo cugino Riccardo II."
+      },
+      {
+        "id": 17,
+        "question": "Chi ha vinto le elezioni presidenziali in Palestina nei primi giorni del 2005 ?",
+        "propositions": [
+          "Ahmed Qoreï",
+          "Ismael Haniyeh",
+          "Nabil Chaath",
+          "Mahmoud Abbas"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "Fu sotto la presidenza di Mahmoud Abbas che alla Palestina fu riconosciuto lo status di Stato non membro osservatore delle Nazioni Unite."
+      },
+      {
+        "id": 18,
+        "question": "Come si chiama una successione di leader della stessa famiglia ?",
+        "propositions": [
+          "monarchia",
+          "Sovranità",
+          "Repubblica",
+          "Dinastia"
+        ],
+        "réponse": "Dinastia",
+        "anecdote": "La storia politica è stata plasmata da dinastie secolari come i Carolingi, i Capetingi o gli Asburgo."
+      },
+      {
+        "id": 19,
+        "question": "Nella pratica di quale attività cavalleresca perse la vita Enrico II nel 1559 ?",
+        "propositions": [
+          "Torneo",
+          "Giostra nautica",
+          "Boxe",
+          "Scherma"
+        ],
+        "réponse": "Torneo",
+        "anecdote": "Gabriel de Montgommery, capitano della sua guardia scozzese, lo ferisce con una scheggia di lancia nell'occhio."
+      },
+      {
+        "id": 20,
+        "question": "Quale editto ha permesso di porre fine alle guerre di religione in Francia nel 1598 ?",
+        "propositions": [
+          "Editto di Troyes",
+          "Editto di Versailles",
+          "Editto di Nantes",
+          "Editto di Pau"
+        ],
+        "réponse": "Editto di Nantes",
+        "anecdote": "La prima versione dell'editto, di fatto firmata e sigillata a Nantes, è andata perduta e non è più conosciuta se non attraverso una copia presso il BGE."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale re chiese a Bayard di nominarlo cavaliere il giorno dopo Marignan ?",
+        "propositions": [
+          "Enrico II",
+          "Carlo VII",
+          "Luigi XII",
+          "Francesco I"
+        ],
+        "réponse": "Francesco I",
+        "anecdote": "La leggenda citata nel 1525 sarebbe stata inventata per dimenticare i legami filiali che legavano il re e il suo suddito traditore."
+      },
+      {
+        "id": 22,
+        "question": "Cercando di fuggire, in quale città fu arrestato Luigi XVI il 21 giugno 1791 ?",
+        "propositions": [
+          "Strasburgo",
+          "Versailles",
+          "Fontainebleau",
+          "Varennes"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "Questa mancata partenza avrà un forte impatto sull'opinione pubblica e sarà all'origine di un divario politico tra i membri convenzionali."
+      },
+      {
+        "id": 23,
+        "question": "Quale titolo fu dato a Caio Ottavio nel 27 a.C. ?",
+        "propositions": [
+          "Augusto",
+          "Caligola",
+          "Tito",
+          "Nero"
+        ],
+        "réponse": "Augusto",
+        "anecdote": "Caio Ottavio discende da un'antica e benestante famiglia dell'ordine equestre, di cui fu il primo rappresentante nel senato romano."
+      },
+      {
+        "id": 24,
+        "question": "Qual era il nome di Bayard, il cavaliere senza paura e irreprensibile ?",
+        "propositions": [
+          "André de Foix",
+          "Pierre Terrail",
+          "Martin du Bellay",
+          "Jacques Rambaud"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "Questo nobile delfino, morto in Piemonte, si distinse in particolare come cavaliere durante le guerre italiane (XV e XVI secolo)."
+      },
+      {
+        "id": 25,
+        "question": "In quale isola fu trasferito il capitano Dreyfus dopo la sua condanna nel 1895 ?",
+        "propositions": [
+          "Isola di Belair",
+          "Isola di Caher",
+          "Isola del Diavolo",
+          "Isola di Lerne"
+        ],
+        "réponse": "Isola del Diavolo",
+        "anecdote": "Durante questi anni di difficoltà, gran parte dell'opinione pubblica francese era divisa tra dreyfusardi e antidreyfusardi."
+      },
+      {
+        "id": 26,
+        "question": "Quale delle sorelle di Bonaparte fu regina di Napoli dal 1808 al 1814 ?",
+        "propositions": [
+          "Dorothy",
+          "Sofia",
+          "Beatrice",
+          "Carolina"
+        ],
+        "réponse": "Carolina",
+        "anecdote": "Carolina Bonaparte fu Granduchessa Consorte di Berg e poi Regina Consorte di Napoli per il suo matrimonio con Gioacchino Murat."
+      },
+      {
+        "id": 27,
+        "question": "Quale carriera aveva intenzione di seguire il giovane Leon Trotsky ?",
+        "propositions": [
+          "Veterinario",
+          "Avvocato",
+          "Matematico",
+          "dottore"
+        ],
+        "réponse": "Matematico",
+        "anecdote": "Nel 1917, Trotsky fu l'attore principale, insieme a Lenin, nella Rivoluzione d'Ottobre che permise ai bolscevichi di salire al potere."
+      },
+      {
+        "id": 28,
+        "question": "Chi ha designato l'imperatore Augusto nel suo testamento per succedergli ?",
+        "propositions": [
+          "Tiberio",
+          "Domiziano",
+          "Nerva",
+          "Marc Aurele"
+        ],
+        "réponse": "Tiberio",
+        "anecdote": "Tiberio, uomo politico abile e prudente, è stato ancora duramente criticato da storici antichi come Tacito e Svetonio."
+      },
+      {
+        "id": 29,
+        "question": "Chi sposò il re Enrico IV, dice il Grande, nel 1600 ?",
+        "propositions": [
+          "Giovanna di Francia",
+          "Isabella d'Aragona",
+          "Anna d'Austria",
+          "Maria de' Medici"
+        ],
+        "réponse": "Maria de' Medici",
+        "anecdote": "Henri è il figlio di Jeanne d'Albret, regina di Navarra, e Antoine de Bourbon, capo della casa di Borbone e discendente di Luigi IX."
+      },
+      {
+        "id": 30,
+        "question": "Quale re di Francia ordinò l'assassinio del duca di Guisa nel 1588 ?",
+        "propositions": [
+          "Luigi III",
+          "Filippo III",
+          "Enrico III",
+          "Carlo III"
+        ],
+        "réponse": "Enrico III",
+        "anecdote": "Fece assassinare il duca di Guisa e il giorno dopo con alabarde suo fratello, il cardinale di Guisa, ritenuto pericoloso."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie zong de hoofse liefdes van de ridders in de oceanen van het land ?",
+        "propositions": [
+          "troubadour",
+          "bard",
+          "Sherpa",
+          "Druïde"
+        ],
+        "réponse": "troubadour",
+        "anecdote": "Een troubadour is een middeleeuwse componist en muzikant die zijn poëtische werken liet vertolken door minstrelen."
+      },
+      {
+        "id": 2,
+        "question": "Wie verliet zijn post als president van de USSR in december 1991 ?",
+        "propositions": [
+          "Mikhail Gorbachev",
+          "Joeri Andropov",
+          "Leonid Brezhnev",
+          "Andrei Gromyko"
+        ],
+        "réponse": "Mikhail Gorbachev",
+        "anecdote": "Resoluut hervormingsgezind lanceerde hij de economische, culturele en politieke liberalisering die bekend staat onder de naam perestrojka."
+      },
+      {
+        "id": 3,
+        "question": "Welk geval is de oorsprong van de brief « J'accuse », door Émile Zola ?",
+        "propositions": [
+          "Frank zaak",
+          "Montel geval",
+          "Mortara koffer",
+          "Dreyfus-affaire"
+        ],
+        "réponse": "Dreyfus-affaire",
+        "anecdote": "De veroordeling eind 1894 van kapitein Alfred Dreyfus was een vergissing of zelfs een juridische samenzwering tegen een achtergrond van spionage."
+      },
+      {
+        "id": 4,
+        "question": "Welke beroemde Saint-Malo-navigator bereikte Newfoundland in 1534 ?",
+        "propositions": [
+          "Charles Cuny",
+          "Samuel de Champlain",
+          "Max Douguet",
+          "Jacques Cartier"
+        ],
+        "réponse": "Jacques Cartier",
+        "anecdote": "Jacques Cartier is de auteur van kaarten waarmee de Golf van St. Lawrence op afbeeldingen van de wereld kon verschijnen."
+      },
+      {
+        "id": 5,
+        "question": "Welke president werd in 1973 het slachtoffer van een bloedige staatsgreep in Chili ?",
+        "propositions": [
+          "Salvador Allende",
+          "Manuel Bulnes",
+          "Augusto Pinochet",
+          "Ricardo Lagos"
+        ],
+        "réponse": "Salvador Allende",
+        "anecdote": "De staatsgreep van 11 september 1973 onder leiding van Augusto Pinochet, gesteund door de Verenigde Staten, maakte een einde aan zijn mandaat met geweld."
+      },
+      {
+        "id": 6,
+        "question": "Welk ministerie bekleedde Ségolène Royal in de regering van Bérégovoy ?",
+        "propositions": [
+          "Verdediging",
+          "Sociale zaken",
+          "Justitie",
+          "Omgeving"
+        ],
+        "réponse": "Omgeving",
+        "anecdote": "Emmanuel Macron zal dan haar ambassadeur aanstellen die verantwoordelijk is voor de internationale onderhandelingen voor de Arctische en Antarctische polen."
+      },
+      {
+        "id": 7,
+        "question": "Welke orkaan met grote amplitude verwoestte Louisiana in augustus 2005 ?",
+        "propositions": [
+          "Andreas",
+          "Mitch",
+          "Camille",
+          "Katrina"
+        ],
+        "réponse": "Katrina",
+        "anecdote": "De schade werd geschat op meer dan 108 miljard dollar, ongeveer vier keer de schade die Andrew in 1992 aanrichtte."
+      },
+      {
+        "id": 8,
+        "question": "Waar verklaarde Mao de oprichting van de Volksrepubliek China ?",
+        "propositions": [
+          "Tian'anmen",
+          "Xinghai",
+          "Hotan",
+          "Van het volk"
+        ],
+        "réponse": "Tian'anmen",
+        "anecdote": "Het wordt zo genoemd omdat het ten zuiden van de Poort van de Hemelse Vrede ligt, die de zuidelijke ingang van de keizerlijke stad beval."
+      },
+      {
+        "id": 9,
+        "question": "Met welke beroemde Parijse bouw werd in januari 1887 begonnen ?",
+        "propositions": [
+          "Bourbon-paleis",
+          "Louvremuseum",
+          "De Geode",
+          "Eiffeltoren"
+        ],
+        "réponse": "Eiffeltoren",
+        "anecdote": "De Eiffeltoren bevindt zich aan de noordwestkant van het Champ-de-Mars-park, aan de oevers van de Seine, in het 7e arrondissement."
+      },
+      {
+        "id": 10,
+        "question": "Welke kandidaat heeft zich zes keer kandidaat gesteld voor het presidentschap in Frankrijk ?",
+        "propositions": [
+          "Segolène Royal",
+          "Arlette Laguiller",
+          "Christiane Taubira",
+          "Dominique Voynet"
+        ],
+        "réponse": "Arlette Laguiller",
+        "anecdote": "Als woordvoerster van de Lutte Ouvrière-beweging is ze de eerste vrouw die zich kandidaat stelt voor een Franse presidentsverkiezing."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke ceremonie veranderde in de middeleeuwen een vrijgezel in een ridder ?",
+        "propositions": [
+          "Wijziging",
+          "Roer",
+          "Twijfelen",
+          "Quintaine"
+        ],
+        "réponse": "Twijfelen",
+        "anecdote": "In de elfde eeuw was nasynchronisatie eerst een seculiere en seculiere ceremonie waarbij de jongeman een overgangsritueel doormaakte."
+      },
+      {
+        "id": 12,
+        "question": "In wiens naam nam Jacques Cartier Canada in bezit ?",
+        "propositions": [
+          "Hugues Capet",
+          "Franciscus I",
+          "Filips III",
+          "Hendrik IV"
+        ],
+        "réponse": "Franciscus I",
+        "anecdote": "Hij wilde bepaalde eilanden en landen ontdekken waarvan men zegt dat er veel goud en andere rijke dingen moeten zijn."
+      },
+      {
+        "id": 13,
+        "question": "Welke stad werd in 1608 gesticht door ontdekkingsreiziger Samuel de Champlain ?",
+        "propositions": [
+          "Montréal",
+          "Québec",
+          "Laval",
+          "Gatineau"
+        ],
+        "réponse": "Québec",
+        "anecdote": "In juli 2016 telde de versterkte stad Quebec, zetel van vele instellingen, waaronder het parlement, 531.902 inwoners."
+      },
+      {
+        "id": 14,
+        "question": "Onder welke naam is Lev Davidovich Bronstein bekend ?",
+        "propositions": [
+          "Leon Trotski",
+          "Boris Pankine",
+          "Dmitri Chepilov",
+          "Fjodor Golovin"
+        ],
+        "réponse": "Leon Trotski",
+        "anecdote": "Marxistische activist, meerdere malen gedeporteerd naar Siberië, werd hij president van de Petrogradse Sovjet tijdens de Russische Revolutie van 1905."
+      },
+      {
+        "id": 15,
+        "question": "Met welk vervoermiddel verliet Léon Gambetta Parijs op 7 oktober 1870 ?",
+        "propositions": [
+          "Watervliegtuig",
+          "Paardenkoets",
+          "Taxi",
+          "Ballon"
+        ],
+        "réponse": "Ballon",
+        "anecdote": "Léon Gambetta was een van de belangrijkste politieke figuren van de eerste jaren van de Derde Republiek."
+      },
+      {
+        "id": 16,
+        "question": "Welke koning van Engeland zei in 1485 dat hij klaar was om zijn koninkrijk te geven voor een paard ?",
+        "propositions": [
+          "Karel II",
+          "Hendrik IV",
+          "Richard III",
+          "Edward V"
+        ],
+        "réponse": "Hendrik IV",
+        "anecdote": "Zijn vader, Jan van Gent, de derde zoon van Edward III, genoot grote invloed tijdens het bewind van zijn neef Richard II."
+      },
+      {
+        "id": 17,
+        "question": "Wie won de presidentsverkiezingen in Palestina in de begindagen van 2005 ?",
+        "propositions": [
+          "Nabil Chaath",
+          "Mahmoud Abbas",
+          "Ahmed Qoreï",
+          "Ismaël Haniyeh"
+        ],
+        "réponse": "Mahmoud Abbas",
+        "anecdote": "Het was onder het voorzitterschap van Mahmoud Abbas dat de status van waarnemersstaat die geen lid is van de Verenigde Naties, voor Palestina werd erkend."
+      },
+      {
+        "id": 18,
+        "question": "Hoe noem je een opeenvolging van leiders uit dezelfde familie ?",
+        "propositions": [
+          "monarchie",
+          "dynastie",
+          "soevereiniteit",
+          "Republiek"
+        ],
+        "réponse": "dynastie",
+        "anecdote": "De politieke geschiedenis is gevormd door seculiere dynastieën zoals de Karolingers, Capetianen of Habsburgers."
+      },
+      {
+        "id": 19,
+        "question": "In de praktijk van welke ridderlijke activiteit verloor Hendrik II zijn leven in 1559 ?",
+        "propositions": [
+          "Toernooi",
+          "Boksen",
+          "Nautisch steekspel",
+          "Schermen"
+        ],
+        "réponse": "Toernooi",
+        "anecdote": "Gabriel de Montgommery, kapitein van zijn Schotse garde, verwondt hem met een scherf van een lans in het oog."
+      },
+      {
+        "id": 20,
+        "question": "Welk edict maakte het mogelijk om in 1598 een einde te maken aan de godsdienstoorlogen in Frankrijk ?",
+        "propositions": [
+          "Edict van Nantes",
+          "Edict van Pau",
+          "Edict van Troyes",
+          "Edict van Versailles"
+        ],
+        "réponse": "Edict van Nantes",
+        "anecdote": "De eerste versie van het edict, effectief ondertekend en verzegeld in Nantes, is verloren gegaan en is niet meer bekend, behalve door middel van een kopie bij het BGE."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke koning vroeg Bayard hem de dag na Marignan te ridderen ?",
+        "propositions": [
+          "Lodewijk XII",
+          "Franciscus I",
+          "Hendrik II",
+          "Karel VII"
+        ],
+        "réponse": "Franciscus I",
+        "anecdote": "De legende genoemd in 1525 zou zijn uitgevonden om de kinderlijke banden te vergeten die de koning en zijn verraderlijke onderdaan bond."
+      },
+      {
+        "id": 22,
+        "question": "Proberen te vluchten, in welke stad werd Lodewijk XVI gearresteerd op 21 juni 1791 ?",
+        "propositions": [
+          "Versailles",
+          "Varennes",
+          "Fontainebleau",
+          "Straatsburg"
+        ],
+        "réponse": "Varennes",
+        "anecdote": "Dit mislukte vertrek zal een grote impact hebben op de publieke opinie en zal de oorzaak zijn van een politieke kloof tussen conventionele leden."
+      },
+      {
+        "id": 23,
+        "question": "Welke titel kreeg Caius Octavius in 27 voor Christus ?",
+        "propositions": [
+          "Augustus",
+          "Titus",
+          "Nero",
+          "Caligula"
+        ],
+        "réponse": "Augustus",
+        "anecdote": "Caius Octavius komt uit een oude en rijke familie van de hippische orde, waarvan hij de eerste vertegenwoordiger in de Romeinse senaat was."
+      },
+      {
+        "id": 24,
+        "question": "Wat was de naam van Bayard, de onverschrokken en onberispelijke ridder ?",
+        "propositions": [
+          "André de Foix",
+          "Martin du Bellay",
+          "Jacques Rambaud",
+          "Pierre Terrail"
+        ],
+        "réponse": "Pierre Terrail",
+        "anecdote": "Deze nobele Dauphinois, gesneuveld in Piemonte, onderscheidde zich vooral als ridder tijdens de Italiaanse oorlogen (15e en 16e eeuw)."
+      },
+      {
+        "id": 25,
+        "question": "Naar welk eiland werd kapitein Dreyfus overgebracht na zijn veroordeling in 1895 ?",
+        "propositions": [
+          "Caher eiland",
+          "Duivelseiland",
+          "Eiland Lerne",
+          "Belair-eiland"
+        ],
+        "réponse": "Duivelseiland",
+        "anecdote": "Tijdens deze jaren van moeilijkheden was een groot deel van de Franse opinie verdeeld tussen Dreyfusards en anti-Dreyfusards."
+      },
+      {
+        "id": 26,
+        "question": "Wie van Bonaparte's zussen was koningin van Napels van 1808 tot 1814 ?",
+        "propositions": [
+          "Beatrice",
+          "Dorothy",
+          "Sophie",
+          "Caroline"
+        ],
+        "réponse": "Caroline",
+        "anecdote": "Caroline Bonaparte was groothertogin-gemalin van Berg en vervolgens koningin-gemalin van Napels door haar huwelijk met Joachim Murat."
+      },
+      {
+        "id": 27,
+        "question": "Welke carrière was de jonge Leon Trotski van plan te volgen ?",
+        "propositions": [
+          "Dokter",
+          "Wiskundige",
+          "Dierenarts",
+          "advocaat"
+        ],
+        "réponse": "Wiskundige",
+        "anecdote": "In 1917 was Trotski, samen met Lenin, de hoofdrolspeler in de Oktoberrevolutie, waardoor de bolsjewieken aan de macht konden komen."
+      },
+      {
+        "id": 28,
+        "question": "Wie wees keizer Augustus in zijn testament aan om hem op te volgen ?",
+        "propositions": [
+          "Tiberius",
+          "Marc Aurèle",
+          "zenuw",
+          "Domitianus"
+        ],
+        "réponse": "Tiberius",
+        "anecdote": "Tiberius, een bekwame en voorzichtige politicus, is tot nu toe hard bekritiseerd door oude historici zoals Tacitus en Suetonius."
+      },
+      {
+        "id": 29,
+        "question": "Met wie trouwde koning Hendrik IV, zegt de Grote, in 1600 ?",
+        "propositions": [
+          "Marie de Medici",
+          "Joan van Frankrijk",
+          "Isabelle van Aragon",
+          "Anna van Oostenrijk"
+        ],
+        "réponse": "Marie de Medici",
+        "anecdote": "Henri is de zoon van Jeanne d'Albret, koningin van Navarra, en Antoine de Bourbon, hoofd van het huis van Bourbon en afstammeling van Lodewijk IX."
+      },
+      {
+        "id": 30,
+        "question": "Welke koning van Frankrijk gaf opdracht tot de moord op de hertog van Guise in 1588 ?",
+        "propositions": [
+          "Hendrik III",
+          "Lodewijk III",
+          "Karel III",
+          "Filips III"
+        ],
+        "réponse": "Hendrik III",
+        "anecdote": "Hij liet de hertog van Guise vermoorden en de volgende dag met hellebaarden werd zijn broer, kardinaal de Guise, als gevaarlijk beschouwd."
+      }
+    ]
+    }
+  }
+}

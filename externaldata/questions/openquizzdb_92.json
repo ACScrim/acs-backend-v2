@@ -1,0 +1,410 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 1,
+  "mise-à-jour": "2024-11-14",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Cinéma",
+      "nom": "Secrets du cinéma",
+      "slogan": "Anecdotes et culture générale"
+    },
+    "en": {
+      "catégorie": "Cinema",
+      "nom": "Secrets of cinema",
+      "slogan": "Anecdotes and general knowledge"
+    },
+    "es": {
+      "catégorie": "Cine",
+      "nom": "Secretos del cine",
+      "slogan": "Anécdotas y cultura general"
+    },
+    "it": {
+      "catégorie": "Cinema",
+      "nom": "I segreti del cinema",
+      "slogan": "Aneddoti e cultura generale"
+    },
+    "de": {
+      "catégorie": "Kino",
+      "nom": "Geheimnisse des Kinos",
+      "slogan": "Anekdoten und allgemeine Kultur"
+    },
+    "nl": {
+      "catégorie": "Bioscoop",
+      "nom": "Geheimen van cinema",
+      "slogan": "Anekdotes en algemene cultuur"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Combien Marilyn Monroe a-t-elle eu de maris en regard à son immense notoriété ?",
+        "propositions": [
+          "Quatre",
+          "Trois",
+          "Cinq",
+          "Deux"
+        ],
+        "réponse": "Trois",
+        "anecdote": "En dépit de son immense notoriété, la vie privée de Marilyn Monroe sera un échec et sa carrière la laisse insatisfaite."
+      },
+      {
+        "id": 2,
+        "question": "De quelle grande ville de Californie Hollywood est-elle l'une des banlieues ?",
+        "propositions": [
+          "Los Angeles",
+          "San Francisco",
+          "Santa Barbara",
+          "San Diego"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Ville cosmopolite, Los Angeles demeure l'un des points d'entrée d'immigrants les plus importants aux États-Unis."
+      },
+      {
+        "id": 3,
+        "question": "Dans quel film de John Huston le chien d'une orpheline sauve-t-il un milliardaire ?",
+        "propositions": [
+          "Le Malin",
+          "Le Piège",
+          "Annie",
+          "Phobia"
+        ],
+        "réponse": "Annie",
+        "anecdote": "Titulaire de sept Tony Awards et forte de 2 377 représentations, la comédie musicale « Annie » se devait d'être adaptée au cinéma."
+      },
+      {
+        "id": 4,
+        "question": "Par quel animal la Metro-Goldwyn-Mayer s'annonce-t-elle au début de ses films ?",
+        "propositions": [
+          "Tigre blanc",
+          "Chien bondissant",
+          "Lion rugissant",
+          "Loup hurlant"
+        ],
+        "réponse": "Lion rugissant",
+        "anecdote": "En septembre 2009, le studio était au bord de la faillite avec un besoin de vingt millions de dollars."
+      },
+      {
+        "id": 5,
+        "question": "Au cinéma, par quel nom désigne-t-on un acteur de complément qui ne parle pas ?",
+        "propositions": [
+          "Un figurant",
+          "Un technicien",
+          "Un cadreur",
+          "Un doubleur"
+        ],
+        "réponse": "Un figurant",
+        "anecdote": "De nombreuses anecdotes circulent sur des gags survenus sur scène à cause du manque de répétition de la figuration."
+      },
+      {
+        "id": 6,
+        "question": "Au cinéma, quel acteur et directeur de théâtre français est surnommé « Bébel » ?",
+        "propositions": [
+          "Michel Bouquet",
+          "Richard Bohringer",
+          "Claude Brasseur",
+          "Jean-Paul Belmondo"
+        ],
+        "réponse": "Jean-Paul Belmondo",
+        "anecdote": "Le 9 février 2015, Jean-Paul Belmondo a annoncé sur RTL sa retraite définitive du cinéma et du théâtre."
+      },
+      {
+        "id": 7,
+        "question": "Au cinéma, comment qualifie-t-on un flou donnant une ambiance poétique ?",
+        "propositions": [
+          "Concentrique",
+          "Dynamique",
+          "Artistique",
+          "Mécanique"
+        ],
+        "réponse": "Artistique",
+        "anecdote": "Par extension, on parle de flou artistique, dans un sens très souvent péjoratif, pour qualifier une opération visant à brouiller la lisibilité."
+      },
+      {
+        "id": 8,
+        "question": "Comment appelle-t-on les robots autonomes dans « La guerre des étoiles » ?",
+        "propositions": [
+          "Les hubos",
+          "Les droïdes",
+          "Les gynoïdes",
+          "Les cogs"
+        ],
+        "réponse": "Les droïdes",
+        "anecdote": "Aux États-Unis, le 7 septembre 1985, le dessin animé « Droïdes » a été diffusé sur la chaîne ABC."
+      },
+      {
+        "id": 9,
+        "question": "Quel genre utilise le suspense pour provoquer une excitation ou une appréhension ?",
+        "propositions": [
+          "Aventure",
+          "Drame",
+          "Thriller",
+          "Western"
+        ],
+        "réponse": "Thriller",
+        "anecdote": "Au cinéma, le réalisateur Alfred Hitchcock est considéré comme le maître du suspense et du thriller."
+      },
+      {
+        "id": 10,
+        "question": "Comment appelle-t-on la recherche des lieux destinés au tournage d'un film ?",
+        "propositions": [
+          "Le casting",
+          "Le repérage",
+          "Le montage",
+          "Le storyboard"
+        ],
+        "réponse": "Le repérage",
+        "anecdote": "Cette recherche peut être effectuée par le réalisateur, par ses assistants, ou par des membres de l'équipe de production."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "De quelle comédienne française Françoise Dorléac était-elle la soeur ?",
+        "propositions": [
+          "Isabelle Huppert",
+          "Catherine Deneuve",
+          "Isabelle Adjani",
+          "Juliette Binoche"
+        ],
+        "réponse": "Catherine Deneuve",
+        "anecdote": "Françoise Dorléac est morte brûlée vive dans un incendie de voiture sur une bretelle de Villeneuve-Loubet."
+      },
+      {
+        "id": 12,
+        "question": "Quelle est la couleur des yeux d'Anthony Delon, fils d'Alain et de Nathalie Delon ?",
+        "propositions": [
+          "Noire",
+          "Bleue",
+          "Verte",
+          "Brune"
+        ],
+        "réponse": "Verte",
+        "anecdote": "Anthony Delon a reconnu avoir eu une fille naturelle, Alyson Le Borges, avec une danseuse du Crazy Horse, Marie-Hélène."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel film voit-on Dustin Hoffman vieillir jusqu'à devenir plus que centenaire ?",
+        "propositions": [
+          "Le Récidiviste",
+          "Papillon",
+          "Little Big Man",
+          "Lenny"
+        ],
+        "réponse": "Little Big Man",
+        "anecdote": "Dan George fut sélectionné aux Oscars en 1971 ainsi qu'aux Golden Globes, dans la catégorie du meilleur second rôle masculin."
+      },
+      {
+        "id": 14,
+        "question": "Lors de quel festival international de cinéma remet-on un ours d'or ?",
+        "propositions": [
+          "Cannes",
+          "Montréal",
+          "Berlin",
+          "Venise"
+        ],
+        "réponse": "Berlin",
+        "anecdote": "Avec ceux de Cannes en mai et de Venise en septembre, il est l'un des trois principaux festivals de cinéma internationaux."
+      },
+      {
+        "id": 15,
+        "question": "Quel fut le premier métier de Stan Laurel ayant formé ensuite un célèbre duo comique ?",
+        "propositions": [
+          "Avocat",
+          "Banquier",
+          "Clown",
+          "Dentiste"
+        ],
+        "réponse": "Clown",
+        "anecdote": "Il reçoit en 1961 un Oscar d'honneur pour s'être frayé un chemin créateur dans le domaine de la comédie au cinéma."
+      },
+      {
+        "id": 16,
+        "question": "Quel est le prénom de Sophie Marceau dans « La Boum » de Claude Pinoteau ?",
+        "propositions": [
+          "Victoria",
+          "Vanessa",
+          "Victoire",
+          "Valentine"
+        ],
+        "réponse": "Victoire",
+        "anecdote": "Le rôle de François Beretton, interprété par Claude Brasseur, a été à l'origine proposé à Francis Perrin qui a refusé."
+      },
+      {
+        "id": 17,
+        "question": "Dans quel film de Lelouch Charles Denner et Jacques Villeret portent-ils le même prénom ?",
+        "propositions": [
+          "À nous deux",
+          "Robert et Robert",
+          "Attention bandits !",
+          "Viva la vie"
+        ],
+        "réponse": "Robert et Robert",
+        "anecdote": "En 1979, Jacques Villeret  a reçu pour ce film le César du meilleur acteur dans un second rôle."
+      },
+      {
+        "id": 18,
+        "question": "Dans quel film l'acteur Jeff Bridges est-il transporté dans une micro-civilisation ?",
+        "propositions": [
+          "Blown Away",
+          "Starman",
+          "Tron",
+          "Tucker"
+        ],
+        "réponse": "Tron",
+        "anecdote": "« Tron » est le premier à utiliser l'imagerie informatique de manière intensive pour concevoir un monde virtuel."
+      },
+      {
+        "id": 19,
+        "question": "Quelle créature est l'héroïne du film « Splash » de Ron Howard ?",
+        "propositions": [
+          "Une sirène",
+          "Une méduse",
+          "Une pieuvre",
+          "Une tortue"
+        ],
+        "réponse": "Une sirène",
+        "anecdote": "« Splash » a mis au goût du jour le prénom Madison aux États-Unis, passant de la 216e place en 1990 à la 3e place en 2000."
+      },
+      {
+        "id": 20,
+        "question": "Quelle orpheline de roman suisse est passée au cinéma puis au dessin animé télévisé ?",
+        "propositions": [
+          "Suzy",
+          "Corinne",
+          "Tina",
+          "Heidi"
+        ],
+        "réponse": "Heidi",
+        "anecdote": "Le roman « Heidi » fait partie des plus célèbres récits de la littérature d'enfance et de jeunesse."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "De quel pays Omar Sharif, mort au Caire en 2015 à l'âge de 83 ans, était-il originaire ?",
+        "propositions": [
+          "Tunisie",
+          "Maroc",
+          "Égypte",
+          "Lybie"
+        ],
+        "réponse": "Égypte",
+        "anecdote": "Omar Sharif était un des joueurs de bridge les plus célèbres du monde et a d'ailleurs écrit un livre sur le sujet."
+      },
+      {
+        "id": 22,
+        "question": "Quelle ravissante actrice italienne se rasa les cheveux dans « La fille de Trieste » ?",
+        "propositions": [
+          "Monica Bellucci",
+          "Claudia Cardinale",
+          "Ornella Muti",
+          "Gina Lollobrigida"
+        ],
+        "réponse": "Ornella Muti",
+        "anecdote": "Par sa fille Naike Rivelli, Ornella Muti est grand-mère d'un petit garçon né en 1996, et prénommé Akash."
+      },
+      {
+        "id": 23,
+        "question": "Combien y a-t-il de films de Charlot, souvent assimilé lui-même à Charlie Chaplin ?",
+        "propositions": [
+          "60",
+          "100",
+          "120",
+          "80"
+        ],
+        "réponse": "60",
+        "anecdote": "Charlot est apparu pour la première fois dans la comédie « Charlot est content de lui », court-métrage d'Henry Lehrman en 1914."
+      },
+      {
+        "id": 24,
+        "question": "Quelle comédienne américaine a créé une nouvelle forme de gymnastique ?",
+        "propositions": [
+          "Sally Field",
+          "Faye Dunaway",
+          "Diane Keaton",
+          "Jane Fonda"
+        ],
+        "réponse": "Jane Fonda",
+        "anecdote": "Bien que parlant parfaitement français, Jane Fonda a été doublée à plusieurs reprises en France."
+      },
+      {
+        "id": 25,
+        "question": "Quel est le sous-titre du film d'épouvante américain « Amityville » ?",
+        "propositions": [
+          "Il est de retour",
+          "La ville interdite",
+          "La maison du diable",
+          "Cité hantée"
+        ],
+        "réponse": "La maison du diable",
+        "anecdote": "La musique du film est composée par Lalo Schifrin et interprétée par Orchestre philharmonique tchèque."
+      },
+      {
+        "id": 26,
+        "question": "A quel âge Sandrine Bonnaire a-t-elle tourné son premier film ?",
+        "propositions": [
+          "11 ans",
+          "13 ans",
+          "15 ans",
+          "17 ans"
+        ],
+        "réponse": "17 ans",
+        "anecdote": "Sandrine Bonnaire est marraine de l'association Ciné-ma différence et vice-présidente du Festival du Film de Cabourg."
+      },
+      {
+        "id": 27,
+        "question": "Combien de personnes votent pour l'attribution des Oscars du cinéma américain ?",
+        "propositions": [
+          "4 000",
+          "1 000",
+          "2 000",
+          "3 000"
+        ],
+        "réponse": "4 000",
+        "anecdote": "Les « Academy Awards » sont les plus anciennes récompenses dans le domaine des médias et du spectacle."
+      },
+      {
+        "id": 28,
+        "question": "Quel pays le film humoristique « Les Dieux sont tombés sur la tête » fit-il connaître ?",
+        "propositions": [
+          "Rwanda",
+          "Gabon",
+          "Botswana",
+          "Zambie"
+        ],
+        "réponse": "Botswana",
+        "anecdote": "Le film a connu un succès considérable dans le monde et en France, rendant le réalisateur et son interprète célèbres."
+      },
+      {
+        "id": 29,
+        "question": "Grâce à quel jeu David empêche-t-il une guerre nucléaire dans le film « Wargames » ?",
+        "propositions": [
+          "Tic-tac-toe",
+          "Hex",
+          "Morpion",
+          "Mastermind"
+        ],
+        "réponse": "Morpion",
+        "anecdote": "« Wargames » est le tout premier à faire référence à un pare-feu informatique (firewall)."
+      },
+      {
+        "id": 30,
+        "question": "Combien de temps le tournage du film « E.T. » de Steven Spielberg a-t-il duré ?",
+        "propositions": [
+          "Un an",
+          "Six mois",
+          "Deux ans",
+          "Trois ans"
+        ],
+        "réponse": "Six mois",
+        "anecdote": "En France, le film a été diffusé pour la première fois à la télévision le 12 avril 19912 sur Canal+."
+      }
+    ]
+    }
+  }
+}

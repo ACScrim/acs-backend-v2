@@ -1,25 +1,20 @@
-import {ITournament, ITournamentPlayer} from "@models/Tournament";
+import {ITournament} from "../models/Tournament";
 import {
-  CategoryChannel,
-  ChannelType,
-  Client,
-  ColorResolvable,
-  EmbedBuilder,
-  EmbedField,
-  TextChannel,
   ActionRowBuilder,
   ButtonBuilder,
   ButtonStyle,
-  Collection, StringSelectMenuBuilder, MessageActionRowComponentBuilder
+  CategoryChannel,
+  ChannelType,
+  Client,
+  Collection,
+  ColorResolvable,
+  EmbedBuilder,
+  EmbedField,
+  MessageActionRowComponentBuilder,
+  StringSelectMenuBuilder,
+  TextChannel
 } from "discord.js";
-import {IGame} from "@models/Game";
-import {IUser} from "@models/User";
-
-interface EmbedData {
-  title?: string;
-  description?: string;
-  color?: ColorResolvable;
-}
+import {IGame} from "../models/Game";
 
 class DiscordService {
   private client: Client;

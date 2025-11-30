@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 5,
+  "mise-à-jour": "2022-10-20",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Web",
+      "nom": "Géants du Web",
+      "slogan": "Acteurs Internet d'envergure mondiale"
+    },
+    "en": {
+      "catégorie": "Web",
+      "nom": "Web Giants",
+      "slogan": "Global Internet Players"
+    },
+    "es": {
+      "catégorie": "Web",
+      "nom": "Gigantes Web",
+      "slogan": "Jugadores globales de Internet"
+    },
+    "it": {
+      "catégorie": "Ragnatela",
+      "nom": "Giganti del web",
+      "slogan": "Giocatori globali di Internet"
+    },
+    "de": {
+      "catégorie": "Netz",
+      "nom": "Web-Giganten",
+      "slogan": "Globale Internet-Player"
+    },
+    "nl": {
+      "catégorie": "Web",
+      "nom": "Web Giants",
+      "slogan": "Wereldwijde internetspelers"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle entreprise a été créée dans le garage de la maison d'enfance de Steve Jobs ?",
+        "propositions": [
+          "Apple",
+          "Netflix",
+          "Logitech",
+          "Microsoft"
+        ],
+        "réponse": "Apple",
+        "anecdote": "Selon un classement du magazine Fortune, Apple fut la société la plus admirée dans le monde consécutivement de 2006 à 2013."
+      },
+      {
+        "id": 2,
+        "question": "Quelle plateforme payante de location de logements de particuliers fut fondée en 2007 ?",
+        "propositions": [
+          "Airbnb",
+          "Tripping",
+          "Gloveler",
+          "Hospitality"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "En mars 2017, à la suite de nouvelles levées de fonds, la valorisation de la plateforme Airbnb fut portée à 31 milliards de dollars."
+      },
+      {
+        "id": 3,
+        "question": "Quel réseau social fut d'abord réservé aux étudiants de l'université d'Harvard ?",
+        "propositions": [
+          "Yammer",
+          "LinkedIn",
+          "Viadeo",
+          "Facebook"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "Troisième site web le plus visité au monde, Facebook a franchi en juin 2017 le nombre de deux milliards d'utilisateurs actifs."
+      },
+      {
+        "id": 4,
+        "question": "Quelle entreprise de 1998 s'est fait connaître par son moteur de recherche simplifié ?",
+        "propositions": [
+          "Oracle",
+          "Symantec",
+          "Adobe",
+          "Google"
+        ],
+        "réponse": "Google",
+        "anecdote": "Google s'est donné comme mission d'organiser l'information à l'échelle mondiale et de la rendre universellement accessible et utile."
+      },
+      {
+        "id": 5,
+        "question": "Quelle entreprise de Los Gatos propose des séries télévisées en flux continu sur Internet ?",
+        "propositions": [
+          "Megaupload",
+          "Picasa",
+          "Spotify",
+          "Netflix"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "L'idée est venue à Reed Hastings d'une contrariété après avoir dû verser 40 dollars à la suite d'un film loué rendu trop tard."
+      },
+      {
+        "id": 6,
+        "question": "Sur quel réseau social de microblogage les messages sont-ils limités à 280 caractères ?",
+        "propositions": [
+          "Twitter",
+          "Tumblr",
+          "Friendster",
+          "Edmodo"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "Le service est rapidement devenu populaire, jusqu'à réunir plus de 500 millions d'utilisateurs dans le monde fin février 2012."
+      },
+      {
+        "id": 7,
+        "question": "Quel site web de commerce électronique est basé sur le concept d'achat groupé ?",
+        "propositions": [
+          "Shopify",
+          "Vinted",
+          "Yingo",
+          "Groupon"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon a acquis plusieurs sites qui étaient des sites de type achat groupé et qui opéraient hors des États-Unis."
+      },
+      {
+        "id": 8,
+        "question": "Quel site offre des avis et des conseils touristiques émanant de consommateurs ?",
+        "propositions": [
+          "TripAdvisor",
+          "Expedia",
+          "Carlson",
+          "Gray Line"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor possède une unité intitulée TripAdvisor for Business destinée à faciliter le contact des professionnels du tourisme."
+      },
+      {
+        "id": 9,
+        "question": "Quel service de partage de photos et de vidéos appartient à Facebook ?",
+        "propositions": [
+          "Picasa",
+          "Snapchat",
+          "Instagram",
+          "Flickr"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "L'application Instagram fut fondée et lancée par l'Américain Kevin Systrom et le Brésilien Michel Mike Krieger en octobre 2010."
+      },
+      {
+        "id": 10,
+        "question": "Quel site web d'hébergement de vidéos a été racheté par Google en 2006 ?",
+        "propositions": [
+          "Cloudflare",
+          "YouTube",
+          "Blip",
+          "Vimeo"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "Lorsqu'une personne regarde une vidéo, d'autres vidéos en rapport avec celle visionnée lui sont proposées à l'écran à droite."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle entreprise fondée par Jeff Bezos avait pour spécialité initiale la vente de livres ?",
+        "propositions": [
+          "Pixmania",
+          "Booking",
+          "Amazon",
+          "Kapaza"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Jeff Bezos a déclaré avoir créé Amazon pour minimiser le regret qu'il aurait eu de ne pas avoir profité de la ruée vers Internet."
+      },
+      {
+        "id": 12,
+        "question": "Quel service en ligne permet de payer avec un e-mail et un mot de passe ?",
+        "propositions": [
+          "Payline",
+          "PayPal",
+          "Stripe",
+          "Ingenico"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "Les clients de PayPal ne sont pas protégés par les programmes de garantie des dépôts financiers du Luxembourg."
+      },
+      {
+        "id": 13,
+        "question": "Quelle entreprise met en contact des conducteurs se mettant à votre service ?",
+        "propositions": [
+          "Uplay",
+          "Udemy",
+          "Uber",
+          "Unsplash"
+        ],
+        "réponse": "Uber",
+        "anecdote": "Uber fait l'objet de nombreuses polémiques, en raison de débats sur ses pratiques, la concurrence déloyale et le travail dissimulé."
+      },
+      {
+        "id": 14,
+        "question": "Quel annuaire Web fut créé par David Filo et Jerry Yang à l'université Stanford en 1994 ?",
+        "propositions": [
+          "AltaVista",
+          "Bing",
+          "Yahoo!",
+          "Lycos"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "L'acronyme Yet Another Hierarchical Officious Oracle créé en avril 1994 est souvent cité comme signification de l'annuaire."
+      },
+      {
+        "id": 15,
+        "question": "Quelle entreprise allemande gère un comparateur d'hôtels sur Internet ?",
+        "propositions": [
+          "Liligo",
+          "Next Impact",
+          "Trivago",
+          "Kelkoo"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "En 2013, le groupe américain Expedia a racheté 60 % des parts de Trivago pour un montant total de 477 millions d'euros."
+      },
+      {
+        "id": 16,
+        "question": "Quel réseau social fut racheté par Microsoft en 2016 pour 23 milliards d'euros ?",
+        "propositions": [
+          "Uber",
+          "Verisign",
+          "LinkedIn",
+          "Palm"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn peut être utilisé pour tout ce qui concerne la vie professionnelle : travail, employeurs, prestataires et affaires."
+      },
+      {
+        "id": 17,
+        "question": "Quelle appli de SMS est utilisée par un milliard de personnes ?",
+        "propositions": [
+          "Jabbin",
+          "Gajim",
+          "WhatsApp",
+          "Spark"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "WhatsApp fut rachetée par Facebook en février 2014 pour environ 19 milliards de dollars, dont 15 milliards en actions Facebook."
+      },
+      {
+        "id": 18,
+        "question": "Quel service de partage de copies de fichiers locaux a été co-fondé par Drew Houston ?",
+        "propositions": [
+          "MediaFire",
+          "RapidShare",
+          "Playbuzz",
+          "Dropbox"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Drew Houston aurait eu l'idée de Dropbox après avoir oublié à plusieurs reprises sa clé USB lorsqu'il était étudiant au MIT."
+      },
+      {
+        "id": 19,
+        "question": "Quel site de réservation d'hébergement Pricelice.com a-t-elle racheté en 2005 ?",
+        "propositions": [
+          "Booking.com",
+          "Agoda",
+          "Jumia Travel",
+          "TravelBird"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "Le site néerlandais, aujourd'hui décliné en 43 autres langues, a commencé comme une petite start-up à Enschede en 1996."
+      },
+      {
+        "id": 20,
+        "question": "Quel site de ventes aux enchères a été créé par le Français Pierre Omidyar ?",
+        "propositions": [
+          "Aucland",
+          "iBazar",
+          "Artnet",
+          "eBay"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Porté par le boom d'Internet et du commerce électronique, le site eBay connaît un énorme succès depuis ses débuts."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel acronyme fut créé au milieu des années 2000 pour désigner les géants du Web ?",
+        "propositions": [
+          "AJAX",
+          "FIFO",
+          "GAFA",
+          "CMOS"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "Ces sociétés partagent comme caractéristiques d'avoir créé de volumineuses bases d'utilisateurs et de rénover l'informatique."
+      },
+      {
+        "id": 22,
+        "question": "Quel homme d'affaires chinois est devenu le premier marchand en ligne au monde ?",
+        "propositions": [
+          "Gordon Wu",
+          "Jack Ma",
+          "Victor Li",
+          "Stanley Ho"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "Il a créé le site internet de commerce électronique Alibaba.com et est le président d'Alibaba Group, qui possède aliexpress.com."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel pays se trouve le siège social du service de streaming Spotify ?",
+        "propositions": [
+          "États-Unis",
+          "Canada",
+          "Japon",
+          "Suède"
+        ],
+        "réponse": "Suède",
+        "anecdote": "Depuis septembre 2014, Spotify est disponible au Canada et au début de l'année suivante, sur PlayStation 3 et 4."
+      },
+      {
+        "id": 24,
+        "question": "Avec qui Bill Gates a-t-il fondé en 1975 la multinationale informatique Microsoft ?",
+        "propositions": [
+          "Paul Allen",
+          "Steve Ballmer",
+          "Satya Nadella",
+          "Steve Jobs"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "Les meilleures ventes historiques de Microsoft sont portées par le système d'exploitation Windows et la suite bureautique Office."
+      },
+      {
+        "id": 25,
+        "question": "Quelle société chinoise à capital privé possède son siège social à Hangzhou ?",
+        "propositions": [
+          "Panguso",
+          "NetEase",
+          "Alibaba Group",
+          "Baidu"
+        ],
+        "réponse": "Alibaba Group",
+        "anecdote": "En 2011, Alibaba Group et les filiales du chinois Jack Ma employaient plus de 22 000 personnes dans plus de 70 villes."
+      },
+      {
+        "id": 26,
+        "question": "Laquelle de ces entreprises américaines était à l'origine spécialisée dans les routeurs ?",
+        "propositions": [
+          "Cisco Systems",
+          "Intego",
+          "Symantec",
+          "Panda"
+        ],
+        "réponse": "Cisco Systems",
+        "anecdote": "L'implication de Cisco Systems dans la censure de l'internet chinois a donné lieu à des critiques à l'encontre de cette entreprise."
+      },
+      {
+        "id": 27,
+        "question": "Quelle filiale s'occupe du développement et du marketing du navigateur Mozilla Firefox ?",
+        "propositions": [
+          "Cygnus Solutions",
+          "Red Hat",
+          "Mozilla Corporation",
+          "Sun Microsystems"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "La quasi-totalité des employés de Mozilla sont payés par la Corporation. En août 2017, Mozilla totalise environ 1 200 employés."
+      },
+      {
+        "id": 28,
+        "question": "Quelle société est le premier distributeur du système d'exploitation GNU/Linux ?",
+        "propositions": [
+          "Ubuntu",
+          "Fedora",
+          "Debian",
+          "Red Hat"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "L'entreprise est principalement connue pour son produit Red Hat Enterprise Linux, un système d'exploitation destiné aux entreprises."
+      },
+      {
+        "id": 29,
+        "question": "Lequel de ces anciens fournisseurs d'accès à Internet est américain ?",
+        "propositions": [
+          "Infonie",
+          "Tiscali",
+          "AOL",
+          "Wanadoo"
+        ],
+        "réponse": "AOL",
+        "anecdote": "En septembre 2006, AOL a vendu son activité de fournisseur d'accès à Internet (FAI) au groupe Neuf Cegetel."
+      },
+      {
+        "id": 30,
+        "question": "Quelle plate-forme de microblogage s'appuie principalement sur le reblogage ?",
+        "propositions": [
+          "Nucleus",
+          "Tumblr",
+          "Ghost",
+          "Drupal"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "En mai 2013, Yahoo! a racheté Tumblr pour 1 milliard de dollars, Oath devenant la maison mère de Tumblr en juin 2017."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What business was started in the garage of Steve Jobs' childhood home ?",
+        "propositions": [
+          "Logitech",
+          "Apple",
+          "Microsoft",
+          "Netflix"
+        ],
+        "réponse": "Apple",
+        "anecdote": "According to a Fortune magazine ranking, Apple was the most admired company in the world consecutively from 2006 to 2013."
+      },
+      {
+        "id": 2,
+        "question": "What paid platform for the rental of private homes was founded in 2007 ?",
+        "propositions": [
+          "Gloveler",
+          "Hospitality",
+          "Tripping",
+          "Airbnb"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "In March 2017, following new fundraising, the valuation of the Airbnb platform was raised to $ 31 billion."
+      },
+      {
+        "id": 3,
+        "question": "Which social network was first reserved for students at Harvard University ?",
+        "propositions": [
+          "Yammer",
+          "LinkedIn",
+          "Viadeo",
+          "Facebook"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "The third most visited website in the world, Facebook crossed the number of two billion active users in June 2017."
+      },
+      {
+        "id": 4,
+        "question": "Which company created in 1998 made itself known by its simplified search engine ?",
+        "propositions": [
+          "Google",
+          "Adobe",
+          "Symantec",
+          "Oracle"
+        ],
+        "réponse": "Google",
+        "anecdote": "Google's mission is to organize information on a global scale and make it universally accessible and useful."
+      },
+      {
+        "id": 5,
+        "question": "Which Los Gatos company offers streaming TV series on the Internet ?",
+        "propositions": [
+          "Picasa",
+          "Netflix",
+          "Megaupload",
+          "Spotify"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "The idea came to Reed Hastings out of annoyance after having to pay $ 40 for a rented movie made too late."
+      },
+      {
+        "id": 6,
+        "question": "On which microblogging social network are posts limited to 280 characters ?",
+        "propositions": [
+          "Friendster",
+          "Tumblr",
+          "Edmodo",
+          "Twitter"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "The service quickly became popular, reaching more than 500 million users worldwide at the end of February 2012."
+      },
+      {
+        "id": 7,
+        "question": "Which e-commerce website is based on the concept of group buying ?",
+        "propositions": [
+          "Groupon",
+          "Yingo",
+          "Vinted",
+          "Shopify"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon acquired several sites that were group buy-type sites and that operated outside of the United States."
+      },
+      {
+        "id": 8,
+        "question": "What site offers tourist advice and advice from consumers ?",
+        "propositions": [
+          "Expedia",
+          "TripAdvisor",
+          "Carlson",
+          "Gray Line"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor has a unit called TripAdvisor for Business designed to facilitate contact for tourism professionals."
+      },
+      {
+        "id": 9,
+        "question": "Which photo and video sharing service belongs to Facebook ?",
+        "propositions": [
+          "Picasa",
+          "Flickr",
+          "Instagram",
+          "Snapchat"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "The Instagram application was founded and launched by the American Kevin Systrom and the Brazilian Michel Mike Krieger in October 2010."
+      },
+      {
+        "id": 10,
+        "question": "Which video hosting website was bought by Google in 2006 ?",
+        "propositions": [
+          "Blip",
+          "Vimeo",
+          "YouTube",
+          "Cloudflare"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "When a person watches a video, other videos related to the one viewed are displayed on the screen on the right."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What company founded by Jeff Bezos initially specialized in selling books ?",
+        "propositions": [
+          "Kapaza",
+          "Amazon",
+          "Booking",
+          "Pixmania"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Jeff Bezos said he created Amazon to play down any regret he would have had for not taking advantage of the internet rush."
+      },
+      {
+        "id": 12,
+        "question": "Which online service allows you to pay with an email and password ?",
+        "propositions": [
+          "Payline",
+          "PayPal",
+          "Ingenico",
+          "Stripe"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "PayPal customers are not protected by Luxembourg's financial deposit guarantee programs."
+      },
+      {
+        "id": 13,
+        "question": "Which company puts in contact drivers providing transport services ?",
+        "propositions": [
+          "Asus",
+          "Uber",
+          "Tesla",
+          "Oppo"
+        ],
+        "réponse": "Uber",
+        "anecdote": "Uber is the subject of much controversy, due to debates over its practices, unfair competition and undeclared work."
+      },
+      {
+        "id": 14,
+        "question": "What web directory was created by David Filo and Jerry Yang at Stanford University in 1994 ?",
+        "propositions": [
+          "Bing",
+          "Yahoo!",
+          "AltaVista",
+          "Lycos"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "The acronym Yet Another Hierarchical Official Oracle created in April 1994 is often cited as meaning of the directory."
+      },
+      {
+        "id": 15,
+        "question": "Which German company manages a hotel comparator on the Internet ?",
+        "propositions": [
+          "Liligo",
+          "Kelkoo",
+          "Next Impact",
+          "Trivago"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "In 2013, the American group Expedia bought back 60% of Trivago's shares for a total amount of 477 million euros."
+      },
+      {
+        "id": 16,
+        "question": "Which social network was bought by Microsoft in 2016 for 23 billion euros ?",
+        "propositions": [
+          "Palm",
+          "Verisign",
+          "LinkedIn",
+          "Uber"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn can be used for everything related to professional life : work, employers, contractors and business."
+      },
+      {
+        "id": 17,
+        "question": "Which SMS app is used by a billion people every day ?",
+        "propositions": [
+          "Gajim",
+          "WhatsApp",
+          "Jabbin",
+          "Spark"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "WhatsApp was bought by Facebook in February 2014 for around $ 19 billion, including $ 15 billion in Facebook shares."
+      },
+      {
+        "id": 18,
+        "question": "What local file copy sharing service was co-founded by Drew Houston ?",
+        "propositions": [
+          "Playbuzz",
+          "Dropbox",
+          "RapidShare",
+          "MediaFire"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Drew Houston reportedly came up with the idea for Dropbox after repeatedly forgetting his USB drive when he was a student at MIT."
+      },
+      {
+        "id": 19,
+        "question": "Which accommodation reservation site did Pricelice.com buy in 2005 ?",
+        "propositions": [
+          "Jumia Travel",
+          "Agoda",
+          "TravelBird",
+          "Booking.com"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "The Dutch site, now available in 43 other languages, started as a small start-up in Enschede in 1996."
+      },
+      {
+        "id": 20,
+        "question": "Which auction site was created by Frenchman Pierre Omidyar ?",
+        "propositions": [
+          "Artnet",
+          "iBazaar",
+          "Aucland",
+          "eBay"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Driven by the boom in the Internet and e-commerce, the eBay site has enjoyed enormous success since its inception."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What acronym appeared in the mid-2000s to designate the giants of the Web ?",
+        "propositions": [
+          "CMOS",
+          "FIFO",
+          "AJAX",
+          "GAFA"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "These companies share the characteristics of having created large user bases and renovating IT."
+      },
+      {
+        "id": 22,
+        "question": "Which Chinese businessman is known as the world's leading online merchant ?",
+        "propositions": [
+          "Jack Ma",
+          "Victor Li",
+          "Gordon Wu",
+          "Stanley Ho"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "He created the Alibaba.com e-commerce website and is the President of Alibaba Group, who owns AliExpress.com."
+      },
+      {
+        "id": 23,
+        "question": "In which country is the head office of the streaming service Spotify located ?",
+        "propositions": [
+          "Canada",
+          "Sweden",
+          "Japan",
+          "United States"
+        ],
+        "réponse": "Sweden",
+        "anecdote": "Since September 2014, Spotify has been available in Canada and at the start of the following year, on PlayStation 3 and 4."
+      },
+      {
+        "id": 24,
+        "question": "With whom did Bill Gates found the multinational computer company Microsoft in 1975 ?",
+        "propositions": [
+          "Steve Jobs",
+          "Steve Ballmer",
+          "Satya Nadella",
+          "Paul Allen"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "Microsoft's historic bestsellers are driven by the Windows operating system and the Office office suite."
+      },
+      {
+        "id": 25,
+        "question": "Which Chinese privately owned company has its head office in Hangzhou ?",
+        "propositions": [
+          "NetEase",
+          "Baidu",
+          "Alibaba Group",
+          "Panguso"
+        ],
+        "réponse": "Alibaba Group",
+        "anecdote": "In 2011, Alibaba Group and subsidiaries of Chinese Jack Ma employed more than 22,000 people in more than 70 cities."
+      },
+      {
+        "id": 26,
+        "question": "Which of these American companies originally specialized in routers ?",
+        "propositions": [
+          "Intego",
+          "Cisco Systems",
+          "Symantec",
+          "Panda"
+        ],
+        "réponse": "Cisco Systems",
+        "anecdote": "Cisco Systems' involvement in Chinese internet censorship has given rise to criticism of the company."
+      },
+      {
+        "id": 27,
+        "question": "Which subsidiary is responsible for the development and marketing of the Mozilla Firefox browser ?",
+        "propositions": [
+          "Sun Microsystems",
+          "Cygnus Solutions",
+          "Red Hat",
+          "Mozilla Corporation"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "Almost all Mozilla employees are paid by the corporation. In August 2017, Mozilla totals around 1,200 employees."
+      },
+      {
+        "id": 28,
+        "question": "Which company is the leading distributor of the GNU / Linux operating system ?",
+        "propositions": [
+          "Red Hat",
+          "Fedora",
+          "Debian",
+          "Ubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "The company is best known for its Red Hat Enterprise Linux product, an operating system for businesses."
+      },
+      {
+        "id": 29,
+        "question": "Which of these former ISPs is American ?",
+        "propositions": [
+          "Wanadoo",
+          "Infonie",
+          "Tiscali",
+          "AOL"
+        ],
+        "réponse": "AOL",
+        "anecdote": "In September 2006, AOL sold its Internet Service Provider (ISP) business to the Neuf Cegetel group."
+      },
+      {
+        "id": 30,
+        "question": "Which microblogging platform primarily relies on blogging ?",
+        "propositions": [
+          "Ghost",
+          "Tumblr",
+          "Drupal",
+          "Nucleus"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "In May 2013, Yahoo! Redeemed Tumblr for $ 1 billion, OATH becoming the Mother House of Tumblr in June 2017."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Geschäft wurde in der Garage von Steve Jobs' Elternhaus gegründet ?",
+        "propositions": [
+          "Microsoft",
+          "Logitech",
+          "Netflix",
+          "Apfel"
+        ],
+        "réponse": "Apfel",
+        "anecdote": "Laut einem Ranking der Zeitschrift Fortune war Apple von 2006 bis 2013 in Folge das meistbewunderte Unternehmen der Welt."
+      },
+      {
+        "id": 2,
+        "question": "Welche kostenpflichtige Plattform für die Vermietung von Eigenheimen wurde 2007 gegründet ?",
+        "propositions": [
+          "Gloveler",
+          "Gastfreundschaft",
+          "Auslösen",
+          "Airbnb"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "Im März 2017 wurde die Bewertung der Airbnb-Plattform nach neuer Mittelbeschaffung auf 31 Milliarden US-Dollar angehoben."
+      },
+      {
+        "id": 3,
+        "question": "Welches soziale Netzwerk war ursprünglich für Studenten der Harvard University reserviert ?",
+        "propositions": [
+          "Yammer",
+          "LinkedIn",
+          "Facebook",
+          "Viadeo"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "Facebook ist die drittmeistbesuchte Website der Welt und hat im Juni 2017 die Zahl von zwei Milliarden aktiven Nutzern überschritten."
+      },
+      {
+        "id": 4,
+        "question": "Welches 1998 gegründete Unternehmen hat sich durch seine vereinfachte Suchmaschine bekannt gemacht ?",
+        "propositions": [
+          "Adobe",
+          "Google",
+          "Symantec",
+          "Orakel"
+        ],
+        "réponse": "Google",
+        "anecdote": "Die Mission von Google ist es, Informationen auf globaler Ebene zu organisieren und universell zugänglich und nützlich zu machen."
+      },
+      {
+        "id": 5,
+        "question": "Welches Unternehmen in Los Gatos bietet Streaming-TV-Serien im Internet an ?",
+        "propositions": [
+          "Netflix",
+          "Spotify",
+          "Megaupload",
+          "Picasa"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "Die Idee kam Reed Hastings aus Ärger, nachdem er 40 Dollar für einen zu spät gedrehten Leihfilm bezahlen musste."
+      },
+      {
+        "id": 6,
+        "question": "In welchem sozialen Microblogging-Netzwerk sind Beiträge auf 280 Zeichen beschränkt ?",
+        "propositions": [
+          "Friendster",
+          "Edmodo",
+          "Twitter",
+          "Tumblr"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "Der Dienst wurde schnell populär und erreichte Ende Februar 2012 weltweit mehr als 500 Millionen Nutzer."
+      },
+      {
+        "id": 7,
+        "question": "Welche E-Commerce-Website basiert auf dem Konzept des Gruppenkaufs ?",
+        "propositions": [
+          "Yingo",
+          "Shopify",
+          "Vinted",
+          "Groupon"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon erwarb mehrere Sites, bei denen es sich um Gruppenkauf-Sites handelte, die außerhalb der Vereinigten Staaten betrieben wurden."
+      },
+      {
+        "id": 8,
+        "question": "Welche Website bietet touristische Ratschläge und Ratschläge von Verbrauchern ?",
+        "propositions": [
+          "Expedia",
+          "TripAdvisor",
+          "Carlson",
+          "Graue Linie"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor hat eine Einheit namens TripAdvisor for Business, die Tourismusfachleuten den Kontakt erleichtern soll."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Foto- und Video-Sharing-Dienst gehört zu Facebook ?",
+        "propositions": [
+          "Snapchat",
+          "Picasa",
+          "Flickr",
+          "Instagram"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "Die Instagram-Anwendung wurde im Oktober 2010 von dem Amerikaner Kevin Systrom und dem Brasilianer Michel Mike Krieger gegründet und gestartet."
+      },
+      {
+        "id": 10,
+        "question": "Welche Video-Hosting-Website wurde 2006 von Google gekauft ?",
+        "propositions": [
+          "YouTube",
+          "Cloudflare",
+          "Vimeo",
+          "Blip"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "Wenn sich eine Person ein Video ansieht, werden auf dem Bildschirm rechts andere Videos angezeigt, die sich auf das angesehene Video beziehen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches von Jeff Bezos gegründete Unternehmen hat sich ursprünglich auf den Verkauf von Büchern spezialisiert ?",
+        "propositions": [
+          "Buchung",
+          "Kapaza",
+          "Pixmania",
+          "Amazon"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Jeff Bezos sagte, er habe Amazon gegründet, um das Bedauern herunterzuspielen, das er gehabt hätte, den Internet-Ansturm nicht genutzt zu haben."
+      },
+      {
+        "id": 12,
+        "question": "Bei welchem Onlinedienst können Sie mit E-Mail und Passwort bezahlen ?",
+        "propositions": [
+          "Payline",
+          "PayPal",
+          "Ingenico",
+          "Stripe"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "PayPal-Kunden sind nicht durch die luxemburgischen Einlagensicherungsprogramme geschützt."
+      },
+      {
+        "id": 13,
+        "question": "Welches Unternehmen bringt Fahrer zusammen, die Transportdienstleistungen erbringen ?",
+        "propositions": [
+          "Tesla",
+          "Oppo",
+          "Asus",
+          "Über"
+        ],
+        "réponse": "Über",
+        "anecdote": "Uber ist aufgrund von Debatten über seine Praktiken, unlauterem Wettbewerb und nicht angemeldeter Erwerbstätigkeit Gegenstand vieler Kontroversen."
+      },
+      {
+        "id": 14,
+        "question": "Welches Webverzeichnis wurde 1994 von David Filo und Jerry Yang an der Stanford University erstellt ?",
+        "propositions": [
+          "Bing",
+          "Yahoo!",
+          "AltaVista",
+          "Lycos"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "Das Akronym Noch ein weiteres hierarchisches offizielles Oracle, das im April 1994 erstellt wurde, wird häufig als Bedeutung des Verzeichnisses genannt."
+      },
+      {
+        "id": 15,
+        "question": "Welches deutsche Unternehmen führt einen Hotelvergleicher im Internet ?",
+        "propositions": [
+          "Trivago",
+          "Liligo",
+          "Next Impact",
+          "Kelkoo"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "2013 kaufte der amerikanische Konzern Expedia 60 % der Trivago-Aktien für insgesamt 477 Millionen Euro zurück."
+      },
+      {
+        "id": 16,
+        "question": "Welches soziale Netzwerk wurde 2016 von Microsoft für 23 Milliarden Euro gekauft ?",
+        "propositions": [
+          "LinkedIn",
+          "Verisign",
+          "Über",
+          "Palm"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn kann für alles verwendet werden, was mit dem Berufsleben zu tun hat : Arbeit, Arbeitgeber, Auftragnehmer und Geschäft."
+      },
+      {
+        "id": 17,
+        "question": "Welche SMS-App wird täglich von einer Milliarde Menschen genutzt ?",
+        "propositions": [
+          "Jabbin",
+          "Gajim",
+          "WhatsApp",
+          "Spark"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "WhatsApp wurde im Februar 2014 von Facebook für rund 19 Milliarden Dollar gekauft, davon 15 Milliarden Dollar in Facebook-Aktien."
+      },
+      {
+        "id": 18,
+        "question": "Welcher lokale Dateikopie-Sharing-Dienst wurde von Drew Houston mitbegründet ?",
+        "propositions": [
+          "Playbuzz",
+          "MediaFire",
+          "Dropbox",
+          "RapidShare"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Drew Houston kam Berichten zufolge auf die Idee zu Dropbox, nachdem er während seines Studiums am MIT wiederholt sein USB-Laufwerk vergessen hatte."
+      },
+      {
+        "id": 19,
+        "question": "Welche Unterkunftsreservierungsseite hat Pricelice.com 2005 gekauft ?",
+        "propositions": [
+          "Jumia Travel",
+          "Booking.com",
+          "Agoda",
+          "TravelBird"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "Die niederländische Website, die jetzt in 43 weiteren Sprachen verfügbar ist, startete 1996 als kleines Start-up in Enschede."
+      },
+      {
+        "id": 20,
+        "question": "Welche Auktionsseite wurde vom Franzosen Pierre Omidyar erstellt ?",
+        "propositions": [
+          "Artnet",
+          "eBay",
+          "Aucland",
+          "iBazaar"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Getrieben vom Boom des Internets und des E-Commerce hat die eBay-Site seit ihrer Gründung enormen Erfolg."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches Akronym tauchte Mitte der 2000er Jahre auf, um die Giganten des Webs zu bezeichnen ?",
+        "propositions": [
+          "FIFO",
+          "CMOS",
+          "GAFA",
+          "AJAX"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "Diese Unternehmen teilen die Merkmale, dass sie große Benutzerbasen geschaffen haben und die IT renovieren."
+      },
+      {
+        "id": 22,
+        "question": "Welcher chinesische Geschäftsmann gilt als der weltweit führende Online-Händler ?",
+        "propositions": [
+          "Gordon Wu",
+          "Victor Li",
+          "Jack Ma",
+          "Stanley Ho"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "Er schuf die Website Alibaba.com E-Commerce und ist der Präsident der Alibaba Group, der Aliexpress.com besitzt."
+      },
+      {
+        "id": 23,
+        "question": "In welchem Land befindet sich der Hauptsitz des Streamingdienstes Spotify ?",
+        "propositions": [
+          "Kanada",
+          "Vereinigte Staaten",
+          "Schweden",
+          "Japan"
+        ],
+        "réponse": "Schweden",
+        "anecdote": "Seit September 2014 ist Spotify in Kanada und Anfang des Folgejahres auf PlayStation 3 und 4 verfügbar."
+      },
+      {
+        "id": 24,
+        "question": "Mit wem gründete Bill Gates 1975 den multinationalen Computerkonzern Microsoft ?",
+        "propositions": [
+          "Steve Jobs",
+          "Paul Allen",
+          "Satya Nadella",
+          "Steve Ballmer"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "Die historischen Bestseller von Microsoft werden vom Windows-Betriebssystem und der Office-Suite Office angetrieben."
+      },
+      {
+        "id": 25,
+        "question": "Welches chinesische Privatunternehmen hat seinen Hauptsitz in Hangzhou ?",
+        "propositions": [
+          "Baidu",
+          "Alibaba-Gruppe",
+          "Panguso",
+          "NetEase"
+        ],
+        "réponse": "Alibaba-Gruppe",
+        "anecdote": "Im Jahr 2011 beschäftigten die Alibaba Group und Tochtergesellschaften des Chinesen Jack Ma mehr als 22.000 Mitarbeiter in mehr als 70 Städten."
+      },
+      {
+        "id": 26,
+        "question": "Welches dieser amerikanischen Unternehmen hat sich ursprünglich auf Router spezialisiert ?",
+        "propositions": [
+          "Intego",
+          "Symantec",
+          "Panda",
+          "Cisco-Systeme"
+        ],
+        "réponse": "Cisco-Systeme",
+        "anecdote": "Die Beteiligung von Cisco Systems an der chinesischen Internetzensur hat zu Kritik am Unternehmen geführt."
+      },
+      {
+        "id": 27,
+        "question": "Welche Tochtergesellschaft ist für die Entwicklung und Vermarktung des Browsers Mozilla Firefox zuständig ?",
+        "propositions": [
+          "Mozilla Corporation",
+          "Cygnus-Lösungen",
+          "Sonne Mikrosysteme",
+          "Roter Hut"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "Fast alle Mozilla-Mitarbeiter werden vom Unternehmen bezahlt. Im August 2017 setzt Mozilla rund 1.200 Mitarbeiter an."
+      },
+      {
+        "id": 28,
+        "question": "Welches Unternehmen ist der führende Distributor des GNU/Linux-Betriebssystems ?",
+        "propositions": [
+          "Debian",
+          "Ubuntu",
+          "Roter Hut",
+          "Fedora"
+        ],
+        "réponse": "Roter Hut",
+        "anecdote": "Das Unternehmen ist vor allem für sein Produkt Red Hat Enterprise Linux bekannt, ein Betriebssystem für Unternehmen."
+      },
+      {
+        "id": 29,
+        "question": "Welcher dieser ehemaligen ISPs ist Amerikaner ?",
+        "propositions": [
+          "AOL",
+          "Wanadoo",
+          "Infonie",
+          "Tiscali"
+        ],
+        "réponse": "AOL",
+        "anecdote": "Im September 2006 verkaufte AOL sein Internet Service Provider (ISP)-Geschäft an die Neuf Cegetel-Gruppe."
+      },
+      {
+        "id": 30,
+        "question": "Welche Microblogging-Plattform setzt hauptsächlich auf Bloggen ?",
+        "propositions": [
+          "Drupal",
+          "Ghost",
+          "Tumblr",
+          "Nucleus"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "Im Mai 2013, Yahoo! Tumblr für 1 Milliarde US-Dollar eingelöst, wobei der Eid im Juni 2017 zum Mutterhaus von Tumblr wird."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué negocio se inició en el garaje de la casa de la infancia de Steve Jobs ?",
+        "propositions": [
+          "Microsoft",
+          "Logitech",
+          "Apple",
+          "Netflix"
+        ],
+        "réponse": "Apple",
+        "anecdote": "Según un ranking de la revista Fortune, Apple fue la empresa más admirada del mundo de forma consecutiva de 2006 a 2013."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué plataforma de pago para el alquiler de viviendas particulares se fundó en 2007 ?",
+        "propositions": [
+          "Tripping",
+          "Gloveler",
+          "Airbnb",
+          "Hospitalidad"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "En marzo de 2017, tras una nueva recaudación de fondos, la valoración de la plataforma Airbnb se elevó a 31."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué red social se reservó por primera vez para los estudiantes de la Universidad de Harvard ?",
+        "propositions": [
+          "Facebook",
+          "Viadeo",
+          "LinkedIn",
+          "Yammer"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "Facebook, el tercer sitio web más visitado del mundo, superó la cifra de dos mil millones de usuarios activos en junio de 2017."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué empresa creada en 1998 se dio a conocer gracias a su motor de búsqueda simplificado ?",
+        "propositions": [
+          "Google",
+          "Symantec",
+          "Oracle",
+          "Adobe"
+        ],
+        "réponse": "Google",
+        "anecdote": "La misión de Google es organizar la información a escala global y hacerla universalmente accesible y útil."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué empresa de Los Gatos ofrece series de TV en streaming en Internet ?",
+        "propositions": [
+          "Netflix",
+          "Spotify",
+          "Megaupload",
+          "Picasa"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "La idea le vino a Reed Hastings por molestia después de tener que pagar $ 40 por una película alquilada que se hizo demasiado tarde."
+      },
+      {
+        "id": 6,
+        "question": "¿En qué red social de microblogging las publicaciones están limitadas a 280 caracteres ?",
+        "propositions": [
+          "Twitter",
+          "Friendster",
+          "Edmodo",
+          "Tumblr"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "El servicio se popularizó rápidamente y llegó a más de 500 millones de usuarios en todo el mundo a finales de febrero de 2012."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué sitio web de comercio electrónico se basa en el concepto de compra grupal ?",
+        "propositions": [
+          "Groupon",
+          "Vinted",
+          "Shopify",
+          "Yingo"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon adquirió varios sitios que eran sitios de tipo compra grupal y que operaban fuera de los Estados Unidos."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué sitio ofrece asesoramiento turístico y asesoramiento a los consumidores ?",
+        "propositions": [
+          "TripAdvisor",
+          "Gray Line",
+          "Carlson",
+          "Expedia"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor tiene una unidad llamada TripAdvisor for Business diseñada para facilitar el contacto de los profesionales del turismo."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué servicio para compartir fotos y videos pertenece a Facebook ?",
+        "propositions": [
+          "Instagram",
+          "Snapchat",
+          "Flickr",
+          "Picasa"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "La aplicación de Instagram fue fundada y lanzada por el estadounidense Kevin Systrom y el brasileño Michel Mike Krieger en octubre de 2010."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué sitio web de alojamiento de vídeos compró Google en 2006 ?",
+        "propositions": [
+          "YouTube",
+          "Vimeo",
+          "Blip",
+          "Cloudflare"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "Cuando una persona mira un video, otros videos relacionados con el visto se muestran en la pantalla de la derecha."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué empresa fundada por Jeff Bezos se especializó inicialmente en la venta de libros ?",
+        "propositions": [
+          "Kapaza",
+          "Reservas",
+          "Amazonas",
+          "Pixmania"
+        ],
+        "réponse": "Amazonas",
+        "anecdote": "Jeff Bezos dijo que creó Amazon para restar importancia a cualquier arrepentimiento que hubiera tenido por no aprovechar la fiebre de Internet."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué servicio en línea le permite pagar con un correo electrónico y una contraseña ?",
+        "propositions": [
+          "Ingenico",
+          "Payline",
+          "Stripe",
+          "PayPal"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "Los clientes de PayPal no están protegidos por los programas de garantía de depósitos financieros de Luxemburgo."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué empresa agrupa a los conductores que prestan servicios de transporte ?",
+        "propositions": [
+          "Uber",
+          "Oppo",
+          "Tesla",
+          "Asus"
+        ],
+        "réponse": "Uber",
+        "anecdote": "Uber es objeto de mucha controversia, debido a los debates sobre sus prácticas, la competencia desleal y el trabajo no declarado."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué directorio web fue creado por David Filo y Jerry Yang en la Universidad de Stanford en 1994 ?",
+        "propositions": [
+          "Bing",
+          "Yahoo!",
+          "AltaVista",
+          "Lycos"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "El acrónimo pero otro oráculo oficial jerárquico creado en abril de 1994 a menudo se cita como el significado del directorio."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué empresa alemana gestiona un comparador de hoteles en Internet ?",
+        "propositions": [
+          "Liligo",
+          "Next Impact",
+          "Kelkoo",
+          "Trivago"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "En 2013, el grupo estadounidense Expedia recompró el 60% de las acciones de Trivago por un importe total de 477 millones de euros."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué red social compró Microsoft en 2016 por 23.000 millones de euros ?",
+        "propositions": [
+          "LinkedIn",
+          "Uber",
+          "Verisign",
+          "Palm"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn se puede utilizar para todo lo relacionado con la vida profesional : trabajo, empleadores, contratistas y negocios."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué aplicación de SMS utilizan mil millones de personas todos los días ?",
+        "propositions": [
+          "Gajim",
+          "Jabbin",
+          "WhatsApp",
+          "Spark"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "Facebook compró WhatsApp en febrero de 2014 por alrededor de $ 19 mil millones, incluidos $ 15 mil millones en acciones de Facebook."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué servicio local de intercambio de copias de archivos fue cofundado por Drew Houston ?",
+        "propositions": [
+          "Playbuzz",
+          "Dropbox",
+          "RapidShare",
+          "MediaFire"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Según los informes, a Drew Houston se le ocurrió la idea de Dropbox después de olvidar repetidamente su unidad USB cuando era estudiante en el MIT."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué sitio de reserva de alojamiento compró Pricelice.com en 2005 ?",
+        "propositions": [
+          "TravelBird",
+          "Jumia Travel",
+          "Booking.com",
+          "Agoda"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "El sitio holandés, ahora disponible en otros 43 idiomas, comenzó como una pequeña empresa en Enschede en 1996."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué sitio de subastas fue creado por el francés Pierre Omidyar ?",
+        "propositions": [
+          "eBay",
+          "Artnet",
+          "iBazaar",
+          "Aucland"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Impulsado por el auge de Internet y el comercio electrónico, el sitio de eBay ha disfrutado de un enorme éxito desde sus inicios."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué acrónimo apareció a mediados de la década de 2000 para designar a los gigantes de la Web ?",
+        "propositions": [
+          "AJAX",
+          "GAFA",
+          "CMOS",
+          "FIFO"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "Estas empresas comparten las características de haber creado grandes bases de usuarios y renovar las TI."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué empresario chino es conocido como el principal comerciante en línea del mundo ?",
+        "propositions": [
+          "Jack Ma",
+          "Stanley Ho",
+          "Gordon Wu",
+          "Victor Li"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "Creó el sitio web de Alibaba.com e-Commerce y es el presidente de Alibaba Group, quien posee aliexpress.com."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué país se encuentra la sede del servicio de streaming Spotify ?",
+        "propositions": [
+          "Canadá",
+          "Suecia",
+          "Japón",
+          "Estados Unidos ","États-Unis"
+        ],
+        "réponse": "Suecia",
+        "anecdote": "Desde septiembre de 2014, Spotify está disponible en Canadá y, a principios del año siguiente, en PlayStation 3 y 4."
+      },
+      {
+        "id": 24,
+        "question": "¿Con quién fundó Bill Gates la multinacional informática Microsoft en 1975 ?",
+        "propositions": [
+          "Steve Jobs",
+          "Steve Ballmer",
+          "Satya Nadella",
+          "Paul Allen"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "Los éxitos de ventas históricos de Microsoft están impulsados por el sistema operativo Windows y la suite de oficina Office."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué empresa privada china tiene su oficina central en Hangzhou ?",
+        "propositions": [
+          "Panguso",
+          "NetEase",
+          "Baidu",
+          "Grupo Alibaba"
+        ],
+        "réponse": "Grupo Alibaba",
+        "anecdote": "En 2011, Alibaba Group y las filiales de Chinese Jack Ma emplearon a más de 22.000 personas en más de 70 ciudades."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuáles de estas empresas estadounidenses se especializaron originalmente en enrutadores ?",
+        "propositions": [
+          "Panda",
+          "Symantec",
+          "Intego",
+          "Cisco Systems"
+        ],
+        "réponse": "Cisco Systems",
+        "anecdote": "La participación de Cisco Systems en la censura china de Internet ha dado lugar a críticas a la empresa."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué subsidiaria es responsable del desarrollo y marketing del navegador Mozilla Firefox ?",
+        "propositions": [
+          "Mozilla Corporation",
+          "Red Hat",
+          "Soluciones Cygnus",
+          "Sun Microsystems"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "Casi todos los empleados de Mozilla son pagados por la Corporación. En agosto de 2017, Mozilla totaliza alrededor de 1,200 empleados."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué empresa es el distribuidor líder del sistema operativo GNU / Linux ?",
+        "propositions": [
+          "Fedora",
+          "Red Hat",
+          "Debian",
+          "Ubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "La compañía es mejor conocida por su producto Red Hat Enterprise Linux, un sistema operativo para empresas."
+      },
+      {
+        "id": 29,
+        "question": "¿Cuál de estos antiguos ISP es estadounidense ?",
+        "propositions": [
+          "Infonie",
+          "Tiscali",
+          "AOL",
+          "Wanadoo"
+        ],
+        "réponse": "AOL",
+        "anecdote": "En septiembre de 2006, AOL vendió su negocio de proveedor de servicios de Internet (ISP) al grupo Neuf Cegetel."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué plataforma de microblogging se basa principalmente en los blogs ?",
+        "propositions": [
+          "Tumblr",
+          "Nucleus",
+          "Drupal",
+          "Ghost"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "En mayo de 2013, Yahoo! Reditó a Tumblr por $ 1 mil millones, juramento convirtiéndose en la Casa Madre de Tumblr en junio de 2017."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale attività è stata avviata nel garage della casa d'infanzia di Steve Jobs ?",
+        "propositions": [
+          "Logitech",
+          "Microsoft",
+          "Netflix",
+          "mela"
+        ],
+        "réponse": "mela",
+        "anecdote": "Secondo una classifica della rivista Fortune, Apple è stata l'azienda più ammirata al mondo consecutivamente dal 2006 al 2013."
+      },
+      {
+        "id": 2,
+        "question": "Quale piattaforma a pagamento per l'affitto di case private è stata fondata nel 2007 ?",
+        "propositions": [
+          "Airbnb",
+          "Inciampare",
+          "Ospitalità",
+          "Guantoni"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "A marzo 2017, a seguito di una nuova raccolta fondi, la valutazione della piattaforma Airbnb è stata portata a 31 miliardi di dollari."
+      },
+      {
+        "id": 3,
+        "question": "Quale social network è stato riservato per primo agli studenti dell'Università di Harvard ?",
+        "propositions": [
+          "LinkedIn",
+          "Yammer",
+          "Viadeo",
+          "Facebook"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "Il terzo sito web più visitato al mondo, Facebook ha superato i due miliardi di utenti attivi nel giugno 2017."
+      },
+      {
+        "id": 4,
+        "question": "Quale azienda creata nel 1998 si è fatta conoscere con il suo motore di ricerca semplificato ?",
+        "propositions": [
+          "Adobe",
+          "Oracolo",
+          "Google",
+          "Symantec"
+        ],
+        "réponse": "Google",
+        "anecdote": "La missione di Google è organizzare le informazioni su scala globale e renderle universalmente accessibili e utili."
+      },
+      {
+        "id": 5,
+        "question": "Quale compagnia di Los Gatos offre serie TV in streaming su Internet ?",
+        "propositions": [
+          "Spotify",
+          "Megaupload",
+          "Netflix",
+          "Picasa"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "L'idea è venuta a Reed Hastings per il fastidio dopo aver dovuto pagare $ 40 per un film a noleggio fatto troppo tardi."
+      },
+      {
+        "id": 6,
+        "question": "Su quale social network di microblogging i post sono limitati a 280 caratteri ?",
+        "propositions": [
+          "Twitter",
+          "Tumblr",
+          "Edmodo",
+          "Friendster"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "Il servizio è diventato rapidamente popolare, raggiungendo oltre 500 milioni di utenti in tutto il mondo alla fine di febbraio 2012."
+      },
+      {
+        "id": 7,
+        "question": "Quale sito di e-commerce si basa sul concetto di acquisto di gruppo ?",
+        "propositions": [
+          "Groupon",
+          "Yingo",
+          "Vinted",
+          "Shopify"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon ha acquisito diversi siti che erano siti di tipo acquisto di gruppo e che operavano al di fuori degli Stati Uniti."
+      },
+      {
+        "id": 8,
+        "question": "Quale sito offre consigli turistici e consigli da parte dei consumatori ?",
+        "propositions": [
+          "Expedia",
+          "TripAdvisor",
+          "Linea grigia",
+          "Carlson"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor ha un'unità chiamata TripAdvisor for Business progettata per facilitare il contatto tra i professionisti del turismo."
+      },
+      {
+        "id": 9,
+        "question": "Quale servizio di condivisione di foto e video appartiene a Facebook ?",
+        "propositions": [
+          "Flickr",
+          "Instagram",
+          "Snapchat",
+          "Picasa"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "L'applicazione Instagram è stata fondata e lanciata dall'americano Kevin Systrom e dal brasiliano Michel Mike Krieger nell'ottobre 2010."
+      },
+      {
+        "id": 10,
+        "question": "Quale sito di hosting video è stato acquistato da Google nel 2006 ?",
+        "propositions": [
+          "Cloudflare",
+          "Vimeo",
+          "Blip",
+          "YouTube"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "Quando una persona guarda un video, sullo schermo a destra vengono visualizzati altri video relativi a quello visualizzato."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale azienda fondata da Jeff Bezos inizialmente era specializzata nella vendita di libri ?",
+        "propositions": [
+          "Kapaza",
+          "Amazon",
+          "Prenotazione",
+          "Pixmania"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Jeff Bezos ha affermato di aver creato Amazon per minimizzare qualsiasi rimpianto che avrebbe avuto per non aver approfittato della corsa a Internet."
+      },
+      {
+        "id": 12,
+        "question": "Quale servizio online ti permette di pagare con email e password ?",
+        "propositions": [
+          "Payline",
+          "Stripe",
+          "Ingenico",
+          "PayPal"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "I clienti PayPal non sono protetti dai programmi di garanzia dei depositi finanziari del Lussemburgo."
+      },
+      {
+        "id": 13,
+        "question": "Quale azienda riunisce i conducenti che forniscono servizi di trasporto ?",
+        "propositions": [
+          "Asus",
+          "Oppo",
+          "Tesla",
+          "Uber"
+        ],
+        "réponse": "Uber",
+        "anecdote": "Uber è oggetto di molte controversie, a causa di dibattiti sulle sue pratiche, concorrenza sleale e lavoro sommerso."
+      },
+      {
+        "id": 14,
+        "question": "Quale directory web è stata creata da David Filo e Jerry Yang alla Stanford University nel 1994 ?",
+        "propositions": [
+          "AltaVista",
+          "Bing",
+          "Lycos",
+          "Yahoo!"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "L'acronimo ancora un altro oracolo ufficiale gerarchico creato nell'aprile 1994 è spesso citato come significato della directory."
+      },
+      {
+        "id": 15,
+        "question": "Quale azienda tedesca gestisce un comparatore di hotel su Internet ?",
+        "propositions": [
+          "Next Impact",
+          "Liligo",
+          "Trivago",
+          "Kelkoo"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "Nel 2013, il gruppo americano Expedia ha riacquistato il 60% delle azioni di Trivago per un importo complessivo di 477 milioni di euro."
+      },
+      {
+        "id": 16,
+        "question": "Quale social è stato acquistato da Microsoft nel 2016 per 23 miliardi di euro ?",
+        "propositions": [
+          "Verisign",
+          "LinkedIn",
+          "Uber",
+          "Palm"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn può essere utilizzato per tutto ciò che riguarda la vita professionale : lavoro, datori di lavoro, appaltatori e affari."
+      },
+      {
+        "id": 17,
+        "question": "Quale app SMS viene utilizzata da un miliardo di persone ogni giorno ?",
+        "propositions": [
+          "Spark",
+          "Jabbin",
+          "Gajim",
+          "WhatsApp"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "WhatsApp è stata acquistata da Facebook nel febbraio 2014 per circa 19 miliardi di dollari, di cui 15 miliardi di dollari in azioni Facebook."
+      },
+      {
+        "id": 18,
+        "question": "Quale servizio di condivisione di copie di file locale è stato co-fondato da Drew Houston ?",
+        "propositions": [
+          "Dropbox",
+          "MediaFire",
+          "Playbuzz",
+          "RapidShare"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Secondo quanto riferito, Drew Houston ha avuto l'idea di Dropbox dopo aver dimenticato ripetutamente la sua unità USB quando era studente al MIT."
+      },
+      {
+        "id": 19,
+        "question": "Quale sito di prenotazione di alloggi ha acquistato Pricelice.com nel 2005 ?",
+        "propositions": [
+          "Agoda",
+          "Booking.com",
+          "TravelBird",
+          "Jumia Travel"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "Il sito olandese, ora disponibile in altre 43 lingue, è iniziato come una piccola start-up a Enschede nel 1996."
+      },
+      {
+        "id": 20,
+        "question": "Quale sito di aste è stato creato dal francese Pierre Omidyar ?",
+        "propositions": [
+          "Aucland",
+          "iBazaar",
+          "Artnet",
+          "eBay"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Spinto dal boom di Internet e dell'e-commerce, il sito eBay ha riscosso un enorme successo sin dal suo inizio."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale acronimo è apparso a metà degli anni 2000 per designare i colossi del web ?",
+        "propositions": [
+          "GAFA",
+          "CMOS",
+          "FIFO",
+          "AJAX"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "Queste aziende condividono le caratteristiche di aver creato grandi basi di utenti e di rinnovare l'IT."
+      },
+      {
+        "id": 22,
+        "question": "Quale uomo d'affari cinese è conosciuto come il principale commerciante online del mondo ?",
+        "propositions": [
+          "Jack Ma",
+          "Victor Li",
+          "Gordon Wu",
+          "Stanley Ho"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "Ha creato il sito di Alibaba.com e-Commerce ed è il presidente del gruppo Alibaba, che possiede AliExpress.com."
+      },
+      {
+        "id": 23,
+        "question": "In quale paese si trova la sede del servizio di streaming Spotify ?",
+        "propositions": [
+          "Stati Uniti",
+          "Giappone",
+          "Svezia",
+          "Canada"
+        ],
+        "réponse": "Svezia",
+        "anecdote": "Da settembre 2014, Spotify è disponibile in Canada e all'inizio dell'anno successivo, su PlayStation 3 e 4."
+      },
+      {
+        "id": 24,
+        "question": "Con chi Bill Gates ha fondato la multinazionale di computer Microsoft nel 1975 ?",
+        "propositions": [
+          "Steve Jobs",
+          "Paul Allen",
+          "Satya Nadella",
+          "Steve Ballmer"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "I bestseller storici di Microsoft sono guidati dal sistema operativo Windows e dalla suite Office Office."
+      },
+      {
+        "id": 25,
+        "question": "Quale azienda cinese di proprietà privata ha sede a Hangzhou ?",
+        "propositions": [
+          "NetEase",
+          "Gruppo Alibaba",
+          "Baidu",
+          "Panguso"
+        ],
+        "réponse": "Gruppo Alibaba",
+        "anecdote": "Nel 2011, Alibaba Group e le filiali della cinese Jack Ma hanno impiegato più di 22.000 persone in più di 70 città."
+      },
+      {
+        "id": 26,
+        "question": "Quale di queste aziende americane era originariamente specializzata in router ?",
+        "propositions": [
+          "Sistemi Cisco",
+          "Symantec",
+          "Intego",
+          "Panda"
+        ],
+        "réponse": "Sistemi Cisco",
+        "anecdote": "Il coinvolgimento di Cisco Systems nella censura di Internet cinese ha suscitato critiche nei confronti dell'azienda."
+      },
+      {
+        "id": 27,
+        "question": "Quale filiale è responsabile dello sviluppo e della commercializzazione del browser Mozilla Firefox ?",
+        "propositions": [
+          "Soluzioni Cygnus",
+          "Mozilla Corporation",
+          "Cappello Rosso",
+          "Microsistemi solari"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "Quasi tutti i dipendenti di Mozilla sono pagati dalla società. Nell'agosto 2017, Mozilla totalizza circa 1.200 dipendenti."
+      },
+      {
+        "id": 28,
+        "question": "Quale azienda è il principale distributore del sistema operativo GNU/Linux ?",
+        "propositions": [
+          "Fedora",
+          "Cappello Rosso",
+          "Debian",
+          "Ubuntu"
+        ],
+        "réponse": "Cappello Rosso",
+        "anecdote": "L'azienda è nota soprattutto per il suo prodotto Red Hat Enterprise Linux, un sistema operativo per le aziende."
+      },
+      {
+        "id": 29,
+        "question": "Quale di questi ex ISP è americano ?",
+        "propositions": [
+          "Infonie",
+          "Wanadoo",
+          "AOL",
+          "Tiscali"
+        ],
+        "réponse": "AOL",
+        "anecdote": "Nel settembre 2006, AOL ha venduto la sua attività di provider di servizi Internet (ISP) al gruppo Neuf Cegetel."
+      },
+      {
+        "id": 30,
+        "question": "Quale piattaforma di microblogging si basa principalmente sui blog ?",
+        "propositions": [
+          "Drupal",
+          "Nucleus",
+          "Ghost",
+          "Tumblr"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "A maggio 2013, Yahoo! Tumblr riscattato per $ 1 miliardo, giuramento che diventa la casa madre del Tumblr nel giugno 2017."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk bedrijf werd gestart in de garage van het ouderlijk huis van Steve Jobs ?",
+        "propositions": [
+          "Netflix",
+          "Microsoft",
+          "Appel",
+          "Logitech"
+        ],
+        "réponse": "Appel",
+        "anecdote": "Volgens een ranglijst van Fortune Magazine was Apple van 2006 tot 2013 achtereenvolgens het meest bewonderde bedrijf ter wereld."
+      },
+      {
+        "id": 2,
+        "question": "Welk betaald platform voor de verhuur van particuliere woningen is in 2007 opgericht ?",
+        "propositions": [
+          "Gastvrijheid",
+          "Struikelen",
+          "Airbnb",
+          "Handschoen"
+        ],
+        "réponse": "Airbnb",
+        "anecdote": "In maart 2017 werd, na nieuwe fondsenwerving, de waardering van het Airbnb-platform verhoogd naar $ 31 miljard."
+      },
+      {
+        "id": 3,
+        "question": "Welk sociaal netwerk was eerst gereserveerd voor studenten van Harvard University ?",
+        "propositions": [
+          "Yammer",
+          "Facebook",
+          "Viadeo",
+          "LinkedIn"
+        ],
+        "réponse": "Facebook",
+        "anecdote": "De op twee na meest bezochte website ter wereld, Facebook passeerde in juni 2017 het aantal van twee miljard actieve gebruikers."
+      },
+      {
+        "id": 4,
+        "question": "Welk bedrijf dat in 1998 werd opgericht, maakte zich bekend door zijn vereenvoudigde zoekmachine ?",
+        "propositions": [
+          "Orakel",
+          "Google",
+          "Adobe",
+          "Symantec"
+        ],
+        "réponse": "Google",
+        "anecdote": "De missie van Google is om informatie op wereldwijde schaal te organiseren en universeel toegankelijk en bruikbaar te maken."
+      },
+      {
+        "id": 5,
+        "question": "Welk bedrijf in Los Gatos biedt streaming tv-series op internet aan ?",
+        "propositions": [
+          "Netflix",
+          "Mega-upload",
+          "Picasa",
+          "Spotify"
+        ],
+        "réponse": "Netflix",
+        "anecdote": "Het idee kwam bij Reed Hastings uit ergernis nadat hij $ 40 moest betalen voor een te laat gemaakte gehuurde film."
+      },
+      {
+        "id": 6,
+        "question": "Op welk sociaal microblogging-netwerk zijn berichten beperkt tot 280 tekens ?",
+        "propositions": [
+          "Edmodo",
+          "Friendster",
+          "Twitter",
+          "Tumblr"
+        ],
+        "réponse": "Twitter",
+        "anecdote": "De dienst werd snel populair en bereikte eind februari 2012 meer dan 500 miljoen gebruikers wereldwijd."
+      },
+      {
+        "id": 7,
+        "question": "Welke e-commerce website is gebaseerd op het concept van groepsaankopen ?",
+        "propositions": [
+          "Yingo",
+          "Shopify",
+          "Vinted",
+          "Groupon"
+        ],
+        "réponse": "Groupon",
+        "anecdote": "Groupon verwierf verschillende sites die sites van het type groepsaankoop waren en die buiten de Verenigde Staten opereerden."
+      },
+      {
+        "id": 8,
+        "question": "Welke site biedt toeristisch advies en advies van consumenten ?",
+        "propositions": [
+          "Grijze lijn",
+          "TripAdvisor",
+          "Carlson",
+          "Expedia"
+        ],
+        "réponse": "TripAdvisor",
+        "anecdote": "TripAdvisor heeft een unit genaamd TripAdvisor for Business die is ontworpen om het contact voor toerismeprofessionals te vergemakkelijken."
+      },
+      {
+        "id": 9,
+        "question": "Welke service voor het delen van foto's en video's is van Facebook ?",
+        "propositions": [
+          "Picasa",
+          "Snapchat",
+          "Flickr",
+          "Instagram"
+        ],
+        "réponse": "Instagram",
+        "anecdote": "De Instagram-applicatie is in oktober 2010 opgericht en gelanceerd door de Amerikaan Kevin Systrom en de Braziliaan Michel Mike Krieger."
+      },
+      {
+        "id": 10,
+        "question": "Welke videohostingwebsite is in 2006 door Google gekocht ?",
+        "propositions": [
+          "Blip",
+          "YouTube",
+          "Vimeo",
+          "Cloudflare"
+        ],
+        "réponse": "YouTube",
+        "anecdote": "Wanneer een persoon een video bekijkt, worden andere video's die gerelateerd zijn aan de bekeken video weergegeven op het scherm aan de rechterkant."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk bedrijf, opgericht door Jeff Bezos, specialiseerde zich aanvankelijk in de verkoop van boeken ?",
+        "propositions": [
+          "Kapaza",
+          "Boeking",
+          "Amazone",
+          "Pixmania"
+        ],
+        "réponse": "Amazone",
+        "anecdote": "Jeff Bezos zei dat hij Amazon heeft opgericht om eventuele spijt te bagatelliseren die hij zou hebben gehad omdat hij niet had geprofiteerd van de internetdrukte."
+      },
+      {
+        "id": 12,
+        "question": "Met welke online service kunt u betalen met een e-mail en wachtwoord ?",
+        "propositions": [
+          "Payline",
+          "Stripe",
+          "Ingenico",
+          "PayPal"
+        ],
+        "réponse": "PayPal",
+        "anecdote": "PayPal-klanten worden niet beschermd door de Luxemburgse financiële depositogarantieprogramma's."
+      },
+      {
+        "id": 13,
+        "question": "Welk bedrijf brengt chauffeurs samen die transportdiensten aanbieden ?",
+        "propositions": [
+          "Oppo",
+          "Asus",
+          "Uber",
+          "Tesla"
+        ],
+        "réponse": "Uber",
+        "anecdote": "Uber is het onderwerp van veel controverse als gevolg van debatten over zijn praktijken, oneerlijke concurrentie en zwartwerk."
+      },
+      {
+        "id": 14,
+        "question": "Welke webdirectory is in 1994 gemaakt door David Filo en Jerry Yang aan de Stanford University ?",
+        "propositions": [
+          "AltaVista",
+          "Bing",
+          "Yahoo!",
+          "Lycos"
+        ],
+        "réponse": "Yahoo!",
+        "anecdote": "Het acroniem en nog een ander hiërarchisch officieel Oracle gemaakt in april 1994 wordt vaak als betekenis van de map geciteerd."
+      },
+      {
+        "id": 15,
+        "question": "Welk Duits bedrijf beheert een hotelvergelijker op internet ?",
+        "propositions": [
+          "Trivago",
+          "Kelkoo",
+          "Liligo",
+          "Next Impact"
+        ],
+        "réponse": "Trivago",
+        "anecdote": "In 2013 kocht de Amerikaanse groep Expedia 60% van de aandelen van Trivago terug voor een totaalbedrag van 477 miljoen euro."
+      },
+      {
+        "id": 16,
+        "question": "Welk sociaal netwerk werd in 2016 door Microsoft gekocht voor 23 miljard euro ?",
+        "propositions": [
+          "Verisign",
+          "Uber",
+          "Palm",
+          "LinkedIn"
+        ],
+        "réponse": "LinkedIn",
+        "anecdote": "LinkedIn kan worden gebruikt voor alles wat met het professionele leven te maken heeft : werk, werkgevers, aannemers en zaken."
+      },
+      {
+        "id": 17,
+        "question": "Welke sms-app wordt dagelijks door een miljard mensen gebruikt ?",
+        "propositions": [
+          "WhatsApp",
+          "Jabbin",
+          "Gajim",
+          "Spark"
+        ],
+        "réponse": "WhatsApp",
+        "anecdote": "WhatsApp werd in februari 2014 door Facebook gekocht voor ongeveer $ 19 miljard, inclusief $ 15 miljard aan Facebook-aandelen."
+      },
+      {
+        "id": 18,
+        "question": "Welke lokale service voor het delen van bestanden is mede opgericht door Drew Houston ?",
+        "propositions": [
+          "Dropbox",
+          "RapidShare",
+          "MediaFire",
+          "Playbuzz"
+        ],
+        "réponse": "Dropbox",
+        "anecdote": "Drew Houston kwam naar verluidt op het idee voor Dropbox nadat hij herhaaldelijk zijn USB-stick was vergeten toen hij student was aan het MIT."
+      },
+      {
+        "id": 19,
+        "question": "Welke accommodatiereserveringssite heeft Pricelic.com in 2005 gekocht ?",
+        "propositions": [
+          "Jumia Travel",
+          "Booking.com",
+          "Agoda",
+          "TravelBird"
+        ],
+        "réponse": "Booking.com",
+        "anecdote": "De Nederlandse site, nu beschikbaar in 43 andere talen, begon in 1996 als een kleine start-up in Enschede."
+      },
+      {
+        "id": 20,
+        "question": "Welke veilingsite is gemaakt door de Fransman Pierre Omidyar ?",
+        "propositions": [
+          "iBazaar",
+          "Artnet",
+          "Aucland",
+          "eBay"
+        ],
+        "réponse": "eBay",
+        "anecdote": "Gedreven door de hausse in internet en e-commerce, heeft de eBay-site sinds de oprichting enorm veel succes gekend."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk acroniem verscheen in het midden van de jaren 2000 om de reuzen van het web aan te duiden ?",
+        "propositions": [
+          "GAFA",
+          "FIFO",
+          "CMOS",
+          "Ajax"
+        ],
+        "réponse": "GAFA",
+        "anecdote": "Deze bedrijven delen de kenmerken van het creëren van grote gebruikersgroepen en het renoveren van IT."
+      },
+      {
+        "id": 22,
+        "question": "Welke Chinese zakenman staat bekend als's werelds grootste online handelaar ?",
+        "propositions": [
+          "Victor Li",
+          "Gordon Wu",
+          "Jack Ma",
+          "Stanley Ho"
+        ],
+        "réponse": "Jack Ma",
+        "anecdote": "Hij creëerde de Alibaba.com e-commerce-website en is de president van Alibaba Group, die AliExpress.com bezit."
+      },
+      {
+        "id": 23,
+        "question": "In welk land is het hoofdkantoor van de streamingdienst Spotify gevestigd ?",
+        "propositions": [
+          "Zweden",
+          "Canada",
+          "Verenigde Staten",
+          "Japan"
+        ],
+        "réponse": "Zweden",
+        "anecdote": "Sinds september 2014 is Spotify beschikbaar in Canada en begin volgend jaar ook op PlayStation 3 en 4."
+      },
+      {
+        "id": 24,
+        "question": "Met wie richtte Bill Gates in 1975 het multinationale computerbedrijf Microsoft op ?",
+        "propositions": [
+          "Satya Nadella",
+          "Steve Jobs",
+          "Steve Ballmer",
+          "Paul Allen"
+        ],
+        "réponse": "Paul Allen",
+        "anecdote": "De historische bestsellers van Microsoft worden aangedreven door het Windows-besturingssysteem en de Office-kantoorsuite."
+      },
+      {
+        "id": 25,
+        "question": "Welk Chinees particulier bedrijf heeft zijn hoofdkantoor in Hangzhou ?",
+        "propositions": [
+          "NetEase",
+          "Alibaba Groep",
+          "Panguso",
+          "Baidu"
+        ],
+        "réponse": "Alibaba Groep",
+        "anecdote": "In 2011 hadden Alibaba Group en dochterondernemingen van het Chinese Jack Ma meer dan 22.000 mensen in dienst in meer dan 70 steden."
+      },
+      {
+        "id": 26,
+        "question": "Welke van deze Amerikaanse bedrijven specialiseerde zich oorspronkelijk in routers ?",
+        "propositions": [
+          "Cisco-systemen",
+          "Intego",
+          "Panda",
+          "Symantec"
+        ],
+        "réponse": "Cisco-systemen",
+        "anecdote": "De betrokkenheid van Cisco Systems bij de Chinese internetcensuur heeft aanleiding gegeven tot kritiek op het bedrijf."
+      },
+      {
+        "id": 27,
+        "question": "Welke dochteronderneming is verantwoordelijk voor de ontwikkeling en marketing van de Mozilla Firefox-browser ?",
+        "propositions": [
+          "Mozilla Corporation",
+          "Sun Microsystemen",
+          "Rode Hoed",
+          "Cygnus-oplossingen"
+        ],
+        "réponse": "Mozilla Corporation",
+        "anecdote": "Bijna alle medewerkers van Mozilla worden betaald door de Corporation. In augustus 2017 zit Mozilla ongeveer 1.200 werknemers."
+      },
+      {
+        "id": 28,
+        "question": "Welk bedrijf is de grootste distributeur van het GNU/Linux-besturingssysteem ?",
+        "propositions": [
+          "Debian",
+          "Ubuntu",
+          "Fedora",
+          "Rode Hoed"
+        ],
+        "réponse": "Rode Hoed",
+        "anecdote": "Het bedrijf is vooral bekend om zijn Red Hat Enterprise Linux-product, een besturingssysteem voor bedrijven."
+      },
+      {
+        "id": 29,
+        "question": "Welke van deze voormalige ISP's is Amerikaans ?",
+        "propositions": [
+          "AOL",
+          "Wanadoo",
+          "Tiscali",
+          "Infonie"
+        ],
+        "réponse": "AOL",
+        "anecdote": "In september 2006 verkocht AOL zijn Internet Service Provider (ISP)-activiteiten aan de Neuf Cegetel-groep."
+      },
+      {
+        "id": 30,
+        "question": "Welk microblogging-platform vertrouwt voornamelijk op bloggen ?",
+        "propositions": [
+          "Ghost",
+          "Tumblr",
+          "Nucleus",
+          "Drupal"
+        ],
+        "réponse": "Tumblr",
+        "anecdote": "In mei 2013, Yahoo! Verloofde tumblr voor $ 1 miljard, EDH wordt het moederhuis van Tumblr in juni 2017."
+      }
+    ]
+    }
+  }
+}

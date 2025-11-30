@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 8,
+  "mise-à-jour": "2025-02-14",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Télévision",
+      "nom": "X-Files : la série",
+      "slogan": "Aux frontières du réel"
+    },
+    "en": {
+      "catégorie": "Television",
+      "nom": "X-Files: The Series",
+      "slogan": "At the borders of reality"
+    },
+    "es": {
+      "catégorie": "Televisión",
+      "nom": "Expediente X: la serie",
+      "slogan": "En las fronteras de la realidad"
+    },
+    "it": {
+      "catégorie": "Televisione",
+      "nom": "X-Files: la serie",
+      "slogan": "Ai confini della realtà"
+    },
+    "de": {
+      "catégorie": "Fernsehen",
+      "nom": "Akte X: Die Serie",
+      "slogan": "An den Grenzen der Realität"
+    },
+    "nl": {
+      "catégorie": "Televisie",
+      "nom": "X-Files: de serie",
+      "slogan": "Aan de grenzen van de werkelijkheid"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans quel service de renseignement intérieur travaillent les agents Mulder et Scully ?",
+        "propositions": [
+          "FBI",
+          "NSA",
+          "CSI",
+          "CIA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "Le FBI a réellement collaboré avec la production en fournissant des conseils pour rendre le comportement des agents plus réaliste."
+      },
+      {
+        "id": 2,
+        "question": "Qui est le supérieur hiérarchique direct de Mulder et Scully dans la série « X-Files » ?",
+        "propositions": [
+          "Walter Skinner",
+          "Wallace Sommer",
+          "William Stabler",
+          "Chris Carter"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner est un ancien marine qui a fait le Vietnam et en cela il est sévère, strict et exigeant mais toutefois juste et honnête."
+      },
+      {
+        "id": 3,
+        "question": "Qu'y a-t-il d'écrit sur la célèbre affiche qui se trouve dans le bureau de Fox Mulder ?",
+        "propositions": [
+          "Are you scared  ?",
+          "U.F.O.",
+          "I want to believe",
+          "Do aliens exist  ?"
+        ],
+        "réponse": "I want to believe",
+        "anecdote": "Intuitif et paranoïaque, Mulder est considéré comme étrange et excentrique par ses pairs, ce qui lui a valu le surnom de « Martien »."
+      },
+      {
+        "id": 4,
+        "question": "Durant quelle saison apparaît pour la première fois l'homme à la cigarette dans « X-Files » ?",
+        "propositions": [
+          "Saison 2",
+          "Saison 1",
+          "Saison 4",
+          "Saison 3"
+        ],
+        "réponse": "Saison 1",
+        "anecdote": "De nature froide et solitaire à l'origine, la série le fait évoluer pour faire comprendre qu'il est le personnage incontournable du complot."
+      },
+      {
+        "id": 5,
+        "question": "Quelle était la profession de Scully avant de devenir agent du FBI dans « X-Files » ?",
+        "propositions": [
+          "Photographe",
+          "Avocate",
+          "Architecte",
+          "Médecin"
+        ],
+        "réponse": "Médecin",
+        "anecdote": "Scully a échappé à de nombreuses reprises à la mort durant la série, et au moins 2 épisodes laissent penser qu'elle serait immortelle."
+      },
+      {
+        "id": 6,
+        "question": "Combien de saisons compte la série télévisée « X-Files : Aux frontières du réel » ?",
+        "propositions": [
+          "Onze",
+          "Diz",
+          "Neuf",
+          "Huit"
+        ],
+        "réponse": "Onze",
+        "anecdote": "La série décrit les différentes enquêtes des agents spéciaux du FBI Fox Mulder et Dana Scully sur des dossiers classés X (X-Files)."
+      },
+      {
+        "id": 7,
+        "question": "Quelle actrice interprète le rôle de Dana Scully dans la série télé « X-Files » ?",
+        "propositions": [
+          "Laurie Holden",
+          "Annabeth Gish",
+          "Gillian Anderson",
+          "Jolie Jenkins"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Récompensée pour ce rôle, Gillian Anderson a failli ne pas être prise, car la chaîne souhaitait une actrice plus sexy pour incarner Scully."
+      },
+      {
+        "id": 8,
+        "question": "Quel est le surnom donné à Fox Mulder par ses collègues dans la série télé « X-Files » ?",
+        "propositions": [
+          "Martien",
+          "Biquet",
+          "Matrix",
+          "Bibou"
+        ],
+        "réponse": "Martien",
+        "anecdote": "Mulder est en fait le nom de jeune fille de la mère de Chris Carter, réalisateur de la série, tandis que Fox est le nom de l'un de ses amis."
+      },
+      {
+        "id": 9,
+        "question": "Quel acteur remplace David Duchovny dans les saisons 6, 7 et 8 de « X-Files » ?",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Robert Pattinson",
+          "Robert Wagner",
+          "Robert Patrick"
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "David Duchovny est revenu brièvement en fin de saison 8 et dans la saison 9, avant de jouer dans le film « X-Files : Régénération »."
+      },
+      {
+        "id": 10,
+        "question": "Quel scénariste, réalisateur et producteur américain a créé la série télévisée « X-Files » ?",
+        "propositions": [
+          "Chris Carter",
+          "David Lynch",
+          "Steven Spielberg",
+          "J.J. Abrams"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter, ancien rédacteur en chef d'un magazine de surf, a eu l'idée de « X-Files » en s'inspirant de son intérêt pour le paranormal."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quelle ville américaine est situé le bureau du FBI de Mulder et Scully ?",
+        "propositions": [
+          "Washington",
+          "New York",
+          "Los Angeles",
+          "Dallas"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Le siège du FBI à Washington n'a pas été utilisé pour le tournage : la majorité des scènes ont été filmées à Vancouver puis à Los Angeles."
+      },
+      {
+        "id": 12,
+        "question": "Quelle aventurière de fiction a fait une apparition remarquée dans la série « X-Files » ?",
+        "propositions": [
+          "Xialian",
+          "Xena",
+          "Xiomara",
+          "Xara"
+        ],
+        "réponse": "Xena",
+        "anecdote": "En 1995, avant de devenir Xena, Lucy Lawless fut le personnage central de « Peach », un court-métrage traitant de l'homosexualité."
+      },
+      {
+        "id": 13,
+        "question": "Dans « X-Files », quel tueur en série terrifiant arrache les foies de ses victimes ?",
+        "propositions": [
+          "Hosteen",
+          "Tooms",
+          "Burks",
+          "Krycek"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Tous les 30 ans, Eugène Victor Tooms sort de son hibernation pour se nourrir du foie de ses victimes afin de prolonger son existence."
+      },
+      {
+        "id": 14,
+        "question": "Quel est le prénom de la soeur disparue de Fox Mulder dans la série « X-Files » ?",
+        "propositions": [
+          "Alicia",
+          "Samantha",
+          "Jessica",
+          "Joanna"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Le traumatisme de cette disparition est la raison pour laquelle Mulder croit aux extraterrestres et aux complots gouvernementaux."
+      },
+      {
+        "id": 15,
+        "question": "Combien de films ont été tirés de la série télévisée « X-Files » ?",
+        "propositions": [
+          "Trois",
+          "Un seul",
+          "Deux",
+          "Aucun"
+        ],
+        "réponse": "Deux",
+        "anecdote": "Les deux films sont « The X-Files, le film » de Rob S. Bowman, sorti en 1998, et « X-Files : Régénération » de Chris Carter, sorti en 2008."
+      },
+      {
+        "id": 16,
+        "question": "Qui est le père de l'enfant de Scully dans la série télévisée « X-Files » ?",
+        "propositions": [
+          "Mulder",
+          "Doggett",
+          "Krycek",
+          "Skinner"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully a une vie sentimentale et sociale assez terne, se retranchant le plus souvent dans ses expériences scientifiques et ses recherches."
+      },
+      {
+        "id": 17,
+        "question": "Quel personnage de la série « X-Files » a perdu un bras suite à l'inoculation d'un vaccin ?",
+        "propositions": [
+          "Skinner",
+          "Monsieur X",
+          "Krycek",
+          "Pendrell"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Présenté comme un partenaire mais perçu comme un élément gênant par Fox Mulder, Alex Krycek s'avère en fait être un traître."
+      },
+      {
+        "id": 18,
+        "question": "De quelle maladie souffre Scully à partir de la saison 4 de la série « X-Files » ?",
+        "propositions": [
+          "Diabète",
+          "Amnésie",
+          "Cancer",
+          "Sclérose"
+        ],
+        "réponse": "Cancer",
+        "anecdote": "Le cancer du cerveau de Scully est inspiré de témoignages réels de victimes d'enlèvements extraterrestres souffrant de maladies."
+      },
+      {
+        "id": 19,
+        "question": "Quel est le nom du chien adopté par Dana Scully dans la série « X-Files » ?",
+        "propositions": [
+          "Quartz",
+          "Quail",
+          "Qashqai",
+          "Queequeg"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "Queequeg (qui est aussi le nom du bateau du père de Scully) n'a jamais été remplacé, bien que Scully en fasse allusion."
+      },
+      {
+        "id": 20,
+        "question": "Dans « X-Files », quel membre du FBI est mort dans les bras de Scully ?",
+        "propositions": [
+          "Jeffrey Spender",
+          "Monica Reyes",
+          "Scott Blevins",
+          "Agent Pendrell"
+        ],
+        "réponse": "Agent Pendrell",
+        "anecdote": "L'agent Pendrell est un membre du laboratoire en sciences criminelles du FBI, qui assiste occasionnellement l'agent Dana Scully."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Comment se surnomment les trois amis paranoïaques de Mulder dans « X-Files » ?",
+        "propositions": [
+          "Lone Stars",
+          "Lone Rangers",
+          "Lone Cowboys",
+          "Lone Gunmen"
+        ],
+        "réponse": "Lone Gunmen",
+        "anecdote": "Ce trio est l'alliance improbable d'un bidouilleur en électronique, d'un pirate informatique et d'un ex-salarié des télécommunications."
+      },
+      {
+        "id": 22,
+        "question": "Quel est le titre du dernier épisode de la série télévisée « X-Files » ?",
+        "propositions": [
+          "La Prophétie",
+          "My Struggle IV",
+          "La soif de savoir",
+          "La découverte"
+        ],
+        "réponse": "My Struggle IV",
+        "anecdote": "Laissant des questions en suspens, Chris Carter, le créateur de la série, a laissé entendre qu'il n'excluait pas un retour de « X-Files »."
+      },
+      {
+        "id": 23,
+        "question": "Quelle est le prénom de la fille de Scully dans la série « X-Files » ?",
+        "propositions": [
+          "Janis",
+          "Emma",
+          "Diane",
+          "Emily"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Interprétée par Lauren Diewold, cette petite fille (Emily Sim) apparaît dans le double épisode « Emily » de la saison 5 de la série."
+      },
+      {
+        "id": 24,
+        "question": "De quelle université Mulder, de la série « X-Files », est-il diplômé ?",
+        "propositions": [
+          "Manchester",
+          "Princeton",
+          "Oxford",
+          "Yale"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "De 1983 à 1986, Fox Mulder étudie à Oxford en Angleterre et sort premier de sa promotion avec en poche son diplôme en psychologie."
+      },
+      {
+        "id": 25,
+        "question": "Quelle actrice a joué aux côtés de Robert Patrick dans les dernières saisons de « X-Files » ?",
+        "propositions": [
+          "Anna Faris",
+          "Annabeth Gish",
+          "Jolie Jenkins",
+          "Annabella Sciorra"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "Gillian Anderson n'a pas été remplacée mais est restée dans la série jusqu'à la fin, bien qu'elle ait parfois eu un rôle réduit."
+      },
+      {
+        "id": 26,
+        "question": "Qui enlève Scully pour la remettre aux aliens dans la saison 2 de « X-Files » ?",
+        "propositions": [
+          "Chuck Burks",
+          "Brad Follmer",
+          "Duane Barry",
+          "Billy Miles"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "Dans l'épisode en question, c'est l'acteur lui-même qui a réalisé la cascade sur le toit du téléphérique, mettant sa propre vie en danger."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le mot de passe de l'ordinateur de Mulder dans la série « X-Files » ?",
+        "propositions": [
+          "Scully",
+          "Aliens",
+          "Samantha",
+          "Trustno1"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Le choix du mot de passe est une référence à la phrase « Trust No One » qui a été inscrite sur les affiches promotionnelles de la série."
+      },
+      {
+        "id": 28,
+        "question": "Quelle marque de cigarettes fume l'homme à la cigarette dans la série « X-Files » ?",
+        "propositions": [
+          "Mighton",
+          "Marlac",
+          "Morley",
+          "On ne sait pas"
+        ],
+        "réponse": "Morley",
+        "anecdote": "La marque de cigarettes Morley est apparue dans de nombreux autres films et séries télévisées, comme un clin d'oeil à « X-Files »."
+      },
+      {
+        "id": 29,
+        "question": "Dans la série télévisée « X-Files », quel surnom a donné le père de Dana Scully à sa fille ?",
+        "propositions": [
+          "Janis",
+          "Queequeg",
+          "Starbuck",
+          "La martienne"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Ce surnom est un hommage au personnage du roman « Moby-Dick », où le capitaine Ahab cherche à capturer un cachalot légendaire."
+      },
+      {
+        "id": 30,
+        "question": "Quel épisode de « X-Files », diffusé en 1999, est connu pour se répéter à l'infini ?",
+        "propositions": [
+          "Pour toujours",
+          "Lundi",
+          "Réitération",
+          "Jour J"
+        ],
+        "réponse": "Lundi",
+        "anecdote": "C'est l'un des rares épisodes de « X-Files » qui traite directement d'une boucle temporelle, un concept pourtant populaire en science-fiction. "
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What home intelligence service do Agents Mulder and Scully work for ?",
+        "propositions": [
+          "CSI",
+          "NSA",
+          "FBI",
+          "CIA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "The FBI's remits include anti-terrorism, counterintelligence, computer crime, and forensics."
+      },
+      {
+        "id": 2,
+        "question": "Who is Mulder and Scully's direct supervisor in the « X-Files » series ?",
+        "propositions": [
+          "Walter Skinner",
+          "Chris Carter",
+          "William Stabler",
+          "Wallace Sommer"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner is a former navy who made Vietnam and in this he is stern, demanding but still fair and honest."
+      },
+      {
+        "id": 3,
+        "question": "What is written on the now famous poster in Fox Mulder's office ?",
+        "propositions": [
+          "I want to believe",
+          "Do aliens exist ?",
+          "Are you scared ?",
+          "U.F.O."
+        ],
+        "réponse": "I want to believe",
+        "anecdote": "Intuitive and paranoid, Mulder is viewed as odd and eccentric by his peers, which has earned him the nickname Martian."
+      },
+      {
+        "id": 4,
+        "question": "In which season does the man with the cigarette first appear in the « X-Files » series ?",
+        "propositions": [
+          "Season 3",
+          "Season 2",
+          "Season 1",
+          "Season 4"
+        ],
+        "réponse": "Season 1",
+        "anecdote": "Originally cold and lonely, the series evolves him to make it clear that he is the essential character of the plot."
+      },
+      {
+        "id": 5,
+        "question": "What was Scully's profession before he became an FBI agent in « X-Files » ?",
+        "propositions": [
+          "Architect",
+          "Lawyer",
+          "Doctor",
+          "Photographer"
+        ],
+        "réponse": "Doctor",
+        "anecdote": "Scully has escaped death numerous times throughout the series, and at least 2 episodes suggest she would be immortal."
+      },
+      {
+        "id": 6,
+        "question": "How many seasons does the « X-Files: At the Frontiers of Reality » TV series have ?",
+        "propositions": [
+          "New",
+          "Eight",
+          "Diz",
+          "Eleven"
+        ],
+        "réponse": "Eleven",
+        "anecdote": "The series describes the various investigations of the special agents of the FBI Fox Mulder and Dana Scully on classified files X (X-Files)."
+      },
+      {
+        "id": 7,
+        "question": "Which actress plays Dana Scully in the « X-Files » TV series ?",
+        "propositions": [
+          "Gillian Anderson",
+          "Jolie Jenkins",
+          "Laurie Holden",
+          "Annabeth Gish"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Gillian Anderson was recognized for this role with a Golden Globes Award and a Primetime Emmy Award."
+      },
+      {
+        "id": 8,
+        "question": "What is the nickname given to Fox Mulder by his colleagues in the « X-Files » TV series ?",
+        "propositions": [
+          "Owl",
+          "Biquet",
+          "Matrix",
+          "Martian"
+        ],
+        "réponse": "Martian",
+        "anecdote": "Mulder is the maiden name of the mother of director Chris Carter, and Fox is the name of a friend of hers."
+      },
+      {
+        "id": 9,
+        "question": "Which actor replaces David Duchovny in seasons 6, 7 and 8 of « X-Files » ?",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Robert Wagner",
+          "Robert Patrick",
+          "Robert Pattinson"
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "Robert Patrick was revealed to the cinema in 1991 by his interpretation of the T-1000 in the second installment of the « Terminator » saga."
+      },
+      {
+        "id": 10,
+        "question": "Which American writer, director and producer created the « X-Files » television series ?",
+        "propositions": [
+          "J.J. Abrams",
+          "Chris Carter",
+          "Guillermo del Toro",
+          "Steven Spielberg"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter received the PGA Award for Most Promising Television Producer in 1999."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which city in the United States is Mulder and Scully's office located ?",
+        "propositions": [
+          "Washington",
+          "New York",
+          "Dallas",
+          "Los Angeles"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Fox Mulder is a man who has a real passion for everything related to the paranormal."
+      },
+      {
+        "id": 12,
+        "question": "Which fictional adventurer made a big appearance in the « X-Files » series ?",
+        "propositions": [
+          "Buffy",
+          "Xena",
+          "Lara Croft",
+          "Super Jamie"
+        ],
+        "réponse": "Xena",
+        "anecdote": "In 1995, before becoming Xena, Lucy Lawless was the central character of « Peach », a short film about homosexuality."
+      },
+      {
+        "id": 13,
+        "question": "In « X-Files », which murderer abolishes the livers of his victims ?",
+        "propositions": [
+          "Krycek",
+          "Tooms",
+          "Burks",
+          "Hosteen"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Every 30 years, Eugene Victor Tooms comes out of hibernation to feed on human liver."
+      },
+      {
+        "id": 14,
+        "question": "What is the first name of Fox Mulder's missing sister in the « X-Files » series ?",
+        "propositions": [
+          "Alicia",
+          "Joanna",
+          "Rita",
+          "Samantha"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Samantha Ann Mulder, born January 22, 1964, disappeared on November 27, 1973 (Unclassified case : file n ° X-42053)."
+      },
+      {
+        "id": 15,
+        "question": "How many films have been made from the « X-Files » TV series ?",
+        "propositions": [
+          "2",
+          "3",
+          "1",
+          "None"
+        ],
+        "réponse": "2",
+        "anecdote": "The two films are Rob S."
+      },
+      {
+        "id": 16,
+        "question": "Who is the father of Scully's child in the « X-Files » TV series ?",
+        "propositions": [
+          "Krycek",
+          "Doggett",
+          "Skinner",
+          "Mulder"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully has a fairly lackluster sentimental and social life, most often withdrawing from his scientific experiments and research."
+      },
+      {
+        "id": 17,
+        "question": "Which character in the « X-Files » series has lost an arm following inoculation of a vaccine ?",
+        "propositions": [
+          "Mr. X",
+          "Skinner",
+          "Krycek",
+          "Pendrell"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Presented as a partner but seen as a hindrance by Agent Fox Mulder, Alex Krycek turns out to be a traitor."
+      },
+      {
+        "id": 18,
+        "question": "What disease does Scully suffer from as of season 4 of the « X-Files » series ?",
+        "propositions": [
+          "Amnesia",
+          "Sclerosis",
+          "Cancer",
+          "Diabetes"
+        ],
+        "réponse": "Cancer",
+        "anecdote": "Scully questioned his beliefs when diagnosed with brain cancer as a result of his kidnapping."
+      },
+      {
+        "id": 19,
+        "question": "What is the name of Dana Scully's dog from the « X-Files » series ?",
+        "propositions": [
+          "Fox",
+          "Queequeg",
+          "Bobby",
+          "Gish"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "When she was younger, Dana Scully's favorite book was « Moby Dick », which her father enjoyed reading to her very often."
+      },
+      {
+        "id": 20,
+        "question": "In « X-Files », which FBI member died in Scully's arms ?",
+        "propositions": [
+          "Scott Blevins",
+          "Agent Pendrell",
+          "Jeffrey Spender",
+          "Monica Reyes"
+        ],
+        "réponse": "Agent Pendrell",
+        "anecdote": "Agent Pendrell is a member of the FBI's Forensic Science Lab, who occasionally assists Agent Dana Scully."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What are Mulder's three paranoid friends nicknames in « X-Files » ?",
+        "propositions": [
+          "Lone Stars",
+          "Lone Rangers",
+          "Lone Cowboys",
+          "Lone Gunmen"
+        ],
+        "réponse": "Lone Gunmen",
+        "anecdote": "This trio is the unlikely alliance of an electronics hacker, a hacker and a former telecommunications employee."
+      },
+      {
+        "id": 22,
+        "question": "What is the title of the last episode of the « X-Files » TV series ?",
+        "propositions": [
+          "The discovery",
+          "The thirst for knowledge",
+          "The truth is here",
+          "The Prophecy"
+        ],
+        "réponse": "The truth is here",
+        "anecdote": "In this final episode, the date of the invasion coincides with the Mayan calendar and the predictions for December 2012."
+      },
+      {
+        "id": 23,
+        "question": "What is the first name of Scully's daughter in the « X-Files » series ?",
+        "propositions": [
+          "Janis",
+          "Emily",
+          "Diane",
+          "Emma"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Portrayed by Lauren Diewold, this little girl (Emily Sim) appears in the double episode « Emily » of season 5 of the series."
+      },
+      {
+        "id": 24,
+        "question": "What university did Mulder, from the « X-Files » series, graduate from ?",
+        "propositions": [
+          "Oxford",
+          "Princeton",
+          "Manchester",
+          "Yale"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "From 1983 to 1986, Fox Mulder studied at Oxford in England and came out first in his class with his degree in psychology in his pocket."
+      },
+      {
+        "id": 25,
+        "question": "Which actress replaces Gillian Anderson in the final seasons of the « X-Files » series ?",
+        "propositions": [
+          "Anna Faris",
+          "Annabella Sciorra",
+          "Jolie Jenkins",
+          "Annabeth Gish"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "She was nominated for this role at the Saturn Award for Best Supporting Television Actress in 2002."
+      },
+      {
+        "id": 26,
+        "question": "Who kidnaps Scully to hand her over to the aliens in « X-Files » Season 2 ?",
+        "propositions": [
+          "Chuck Burks",
+          "Brad Follmer",
+          "Billy Miles",
+          "Duane Barry"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "In the episode in question, it is the actor himself who performed the stunt on the roof of the cable car, putting his own life in danger."
+      },
+      {
+        "id": 27,
+        "question": "What is the password for Mulder's computer in the « X-Files » series ?",
+        "propositions": [
+          "Aliens",
+          "Trustno1",
+          "Scully",
+          "Samantha"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Fox Mulder has few friends but a good number of contacts, which is very useful to him throughout the series."
+      },
+      {
+        "id": 28,
+        "question": "What brand of cigarettes does the man with the cigarette smoke in the « X-Files » series ?",
+        "propositions": [
+          "Morley",
+          "We don't know",
+          "Mighton",
+          "Marlac"
+        ],
+        "réponse": "Morley",
+        "anecdote": "This brand has appeared in various other TV and motion pictures, TV series, and video games."
+      },
+      {
+        "id": 29,
+        "question": "What nickname was Scully given by his father in the « X-Files » TV series ?",
+        "propositions": [
+          "The Martian",
+          "Queequeg",
+          "Janis",
+          "Starbuck"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Fan of the novel « Moby Dick », he nicknamed her Starbuck and Scully called him in return Ahab."
+      },
+      {
+        "id": 30,
+        "question": "Which episode of « X-Files » broadcast in 1999 repeats itself over and over again ?",
+        "propositions": [
+          "Forever",
+          "Reiteration",
+          "Monday",
+          "D-Day"
+        ],
+        "réponse": "Monday",
+        "anecdote": "Caught in a time loop, Mulder must prevent a bomb from exploding in a bank to end it."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Für welchen Home Intelligence Service arbeiten die Agenten Mulder und Scully ?",
+        "propositions": [
+          "FBI",
+          "CSI",
+          "NSA",
+          "CIA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "Zu den Aufgaben des FBI gehören Terrorismusbekämpfung, Spionageabwehr, Computerkriminalität und Forensik."
+      },
+      {
+        "id": 2,
+        "question": "Wer ist Mulder und Scullys direkter Vorgesetzter in der Serie « X-Files » ?",
+        "propositions": [
+          "Chris Carter",
+          "Wallace Sommer",
+          "William Stabler",
+          "Walter Skinner"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner ist eine ehemalige Marine, die Vietnam gemacht hat, und dabei ist er streng, fordernd, aber immer noch fair und ehrlich."
+      },
+      {
+        "id": 3,
+        "question": "Was steht auf dem mittlerweile berühmten Plakat in Fox Mulders Büro ?",
+        "propositions": [
+          "Hast du Angst ?",
+          "Gibt es Außerirdische ?",
+          "U.F.O.",
+          "Ich möchte glauben"
+        ],
+        "réponse": "Ich möchte glauben",
+        "anecdote": "Intuitiv und paranoid wird Mulder von seinen Kollegen als seltsam und exzentrisch angesehen, was ihm den Spitznamen Martian eingebracht hat."
+      },
+      {
+        "id": 4,
+        "question": "In welcher Jahreszeit erscheint der Mann mit der Zigarette zum ersten Mal in der Serie « X-Files » ?",
+        "propositions": [
+          "Staffel 3",
+          "Staffel 4",
+          "Staffel 2",
+          "Staffel 1"
+        ],
+        "réponse": "Staffel 1",
+        "anecdote": "Ursprünglich kalt und einsam, entwickelt ihn die Serie weiter, um deutlich zu machen, dass er der wesentliche Charakter der Handlung ist."
+      },
+      {
+        "id": 5,
+        "question": "Was war Scullys Beruf, bevor er FBI-Agent in « X-Files » wurde ?",
+        "propositions": [
+          "Doktor",
+          "Rechtsanwalt",
+          "Fotograf",
+          "Architekt"
+        ],
+        "réponse": "Doktor",
+        "anecdote": "Scully ist während der gesamten Serie mehrfach dem Tod entkommen, und mindestens zwei Folgen deuten darauf hin, dass sie unsterblich sein würde."
+      },
+      {
+        "id": 6,
+        "question": "Wie viele Staffeln haben die Fernsehserien « X-Files: At the Frontiers of Reality » ?",
+        "propositions": [
+          "Acht",
+          "Neu",
+          "Elf",
+          "Diz"
+        ],
+        "réponse": "Elf",
+        "anecdote": "Die Serie beschreibt die verschiedenen Untersuchungen der Spezialagenten des FBI Fox Mulder und Dana Scully an klassifizierten Dateien X (X-Files)."
+      },
+      {
+        "id": 7,
+        "question": "Welche Schauspielerin spielt Dana Scully in der Fernsehserie « X-Files » ?",
+        "propositions": [
+          "Jolie Jenkins",
+          "Laurie Holden",
+          "Gillian Anderson",
+          "Annabeth Gish"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Gillian Anderson wurde für diese Rolle mit einem Golden Globes Award und einem Primetime Emmy Award ausgezeichnet."
+      },
+      {
+        "id": 8,
+        "question": "Wie lautet der Spitzname, den Fox Mulder von seinen Kollegen in der Fernsehserie « X-Files » erhalten hat ?",
+        "propositions": [
+          "Biquet",
+          "Matrix",
+          "Eule",
+          "Marsmensch"
+        ],
+        "réponse": "Marsmensch",
+        "anecdote": "Mulder ist der Mädchenname der Mutter von Regisseur Chris Carter und Fox ist der Name eines Freundes von ihr."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Schauspieler ersetzt David Duchovny in den Staffeln 6, 7 und 8 von « X-Files » ?",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Robert Pattinson",
+          "Robert Patrick",
+          "Robert Wagner"
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "Robert Patrick wurde 1991 durch seine Interpretation des T-1000 in der zweiten Folge der « Terminator » -Saga dem Kino vorgestellt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher amerikanische Autor, Regisseur und Produzent hat die Fernsehserie « X-Files » erstellt ?",
+        "propositions": [
+          "Steven Spielberg",
+          "Chris Carter",
+          "Guillermo del Toro",
+          "J. J. Abrams"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter erhielt 1999 den PGA Award als vielversprechendster Fernsehproduzent."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welcher Stadt in den USA befindet sich das Büro von Mulder und Scully ?",
+        "propositions": [
+          "New York",
+          "Washington",
+          "Los Angeles",
+          "Dallas"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Fox Mulder ist ein Mann, der eine echte Leidenschaft für alles hat, was mit dem Paranormalen zu tun hat."
+      },
+      {
+        "id": 12,
+        "question": "Welcher fiktive Abenteurer hatte einen großen Auftritt in der « X-Files » -Serie ?",
+        "propositions": [
+          "Buffy",
+          "Lara Croft",
+          "Xena",
+          "Super Jamie"
+        ],
+        "réponse": "Xena",
+        "anecdote": "Bevor Lucy Lawless Xena wurde, war sie 1995 die zentrale Figur von « Peach », einem Kurzfilm über Homosexualität."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Mörder in « X-Files » hebt die Lebern seiner Opfer auf ?",
+        "propositions": [
+          "Krycek",
+          "Burks",
+          "Hosteen",
+          "Tooms"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Alle 30 Jahre kommt Eugene Victor Tooms aus dem Winterschlaf, um sich von der menschlichen Leber zu ernähren."
+      },
+      {
+        "id": 14,
+        "question": "Wie lautet der Vorname von Fox Mulders vermisster Schwester in der Serie « X-Files » ?",
+        "propositions": [
+          "Joanna",
+          "Rita",
+          "Samantha",
+          "Alicia"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Samantha Ann Mulder, geboren am 22. Januar 1964, verschwand am 27. November 1973 (nicht klassifizierter Fall: Akte Nr. X-42053)."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele Filme wurden aus der Fernsehserie « X-Files » gemacht ?",
+        "propositions": [
+          "Keine",
+          "1",
+          "2",
+          "3"
+        ],
+        "réponse": "2",
+        "anecdote": "Die beiden Filme sind Rob S."
+      },
+      {
+        "id": 16,
+        "question": "Wer ist der Vater von Scullys Kind in der Fernsehserie « X-Files » ?",
+        "propositions": [
+          "Skinner",
+          "Krycek",
+          "Doggett",
+          "Mulder"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully hat ein ziemlich glanzloses sentimentales und soziales Leben und zieht sich meistens aus seinen wissenschaftlichen Experimenten und Forschungen zurück."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Charakter in der Serie « X-Files » hat nach der Impfung eines Impfstoffs einen Arm verloren ?",
+        "propositions": [
+          "Krycek",
+          "Herr X",
+          "Skinner",
+          "Pendrell"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Alex Krycek wird als Partner präsentiert, aber von Agent Fox Mulder als Hindernis angesehen."
+      },
+      {
+        "id": 18,
+        "question": "An welcher Krankheit leidet Scully ab Staffel 4 der « X-Files » -Serie ?",
+        "propositions": [
+          "Diabetes",
+          "Krebs",
+          "Sklerose",
+          "Amnesie"
+        ],
+        "réponse": "Krebs",
+        "anecdote": "Scully stellte seine Überzeugungen in Frage, als bei ihm aufgrund seiner Entführung Hirntumor diagnostiziert wurde."
+      },
+      {
+        "id": 19,
+        "question": "Wie heißt Dana Scullys Hund aus der Serie « X-Files » ?",
+        "propositions": [
+          "Queequeg",
+          "Fuchs",
+          "Gish",
+          "Bobby"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "Als sie jünger war, war Dana Scullys Lieblingsbuch « Moby Dick », das ihr Vater ihr sehr oft vorlas."
+      },
+      {
+        "id": 20,
+        "question": "Welches FBI-Mitglied ist in « X-Files » in Scullys Armen gestorben ?",
+        "propositions": [
+          "Monica Reyes",
+          "Scott Blevins",
+          "Agent Pendrell",
+          "Jeffrey Spender"
+        ],
+        "réponse": "Agent Pendrell",
+        "anecdote": "Agent Pendrell ist Mitglied des Forensic Science Lab des FBI, das gelegentlich Agent Dana Scully unterstützt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was sind Mulders drei paranoide Spitznamen von Freunden in « X-Files » ?",
+        "propositions": [
+          "Einsame Cowboys",
+          "Einsame Sterne",
+          "Einsame bewaffnete Männer",
+          "Einsame Rangers"
+        ],
+        "réponse": "Einsame bewaffnete Männer",
+        "anecdote": "Dieses Trio ist die unwahrscheinliche Allianz eines Elektronik-Hackers, eines Hackers und eines ehemaligen Telekommunikationsmitarbeiters."
+      },
+      {
+        "id": 22,
+        "question": "Wie lautet der Titel der letzten Folge der Fernsehserie « X-Files » ?",
+        "propositions": [
+          "Die Wahrheit ist hier",
+          "Die Prophezeiung",
+          "Wissensdurst",
+          "Die Entdeckung"
+        ],
+        "réponse": "Die Wahrheit ist hier",
+        "anecdote": "In dieser letzten Folge stimmt das Datum der Invasion mit dem Maya-Kalender und den Vorhersagen für Dezember 2012 überein."
+      },
+      {
+        "id": 23,
+        "question": "Wie lautet der Vorname von Scullys Tochter in der Serie « X-Files » ?",
+        "propositions": [
+          "Emma",
+          "Janis",
+          "Diane",
+          "Emily"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Dieses kleine Mädchen (Emily Sim) wird von Lauren Diewold in der Doppelfolge « Emily » der fünften Staffel der Serie dargestellt."
+      },
+      {
+        "id": 24,
+        "question": "An welcher Universität hat Mulder aus der Reihe « X-Files » seinen Abschluss gemacht ?",
+        "propositions": [
+          "Princeton",
+          "Manchester",
+          "Oxford",
+          "Yale"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Von 1983 bis 1986 studierte Fox Mulder in Oxford in England und kam mit seinem Abschluss in Psychologie in der Tasche als Erster in seiner Klasse heraus."
+      },
+      {
+        "id": 25,
+        "question": "Welche Schauspielerin ersetzt Gillian Anderson in den letzten Staffeln der « X-Files » -Serie ?",
+        "propositions": [
+          "Annabella Sciorra",
+          "Anna Faris",
+          "Jolie Jenkins",
+          "Annabeth Gish"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "Sie wurde für diese Rolle beim Saturn Award als beste Nebendarstellerin im Jahr 2002 nominiert."
+      },
+      {
+        "id": 26,
+        "question": "Wer entführt Scully, um sie in Staffel 2 von « X-Files » an die Außerirdischen zu übergeben ?",
+        "propositions": [
+          "Brad Follmer",
+          "Duane Barry",
+          "Billy Miles",
+          "Chuck Burks"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "In der fraglichen Episode ist es der Schauspieler selbst, der den Stunt auf dem Dach der Seilbahn ausgeführt hat und sein eigenes Leben in Gefahr gebracht hat."
+      },
+      {
+        "id": 27,
+        "question": "Wie lautet das Passwort für Mulders Computer in der Serie « X-Files » ?",
+        "propositions": [
+          "Aliens",
+          "Trustno1",
+          "Scully",
+          "Samantha"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Fox Mulder hat nur wenige Freunde, aber eine gute Anzahl von Kontakten, was ihm während der gesamten Serie sehr nützlich ist."
+      },
+      {
+        "id": 28,
+        "question": "Welche Zigarettenmarke raucht der Mann mit der Zigarette in der Serie « X-Files » ?",
+        "propositions": [
+          "Mighton",
+          "Marlac",
+          "Wir wissen es nicht ","On ne sait pas",
+          "Morley"
+        ],
+        "réponse": "Morley",
+        "anecdote": "Diese Marke ist in verschiedenen anderen Fernseh- und Kinofilmen, Fernsehserien und Videospielen aufgetreten."
+      },
+      {
+        "id": 29,
+        "question": "Welchen Spitznamen gab Scully von seinem Vater in der Fernsehserie « X-Files » ?",
+        "propositions": [
+          "Janis",
+          "Queequeg",
+          "Starbuck",
+          "Der Marsmensch"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Als Fan des Romans « Moby Dick » nannte er sie Starbuck und Scully nannte ihn im Gegenzug Ahab."
+      },
+      {
+        "id": 30,
+        "question": "Welche Folge von « X-Files », die 1999 ausgestrahlt wurde, wiederholt sich immer wieder ?",
+        "propositions": [
+          "Für immer",
+          "D-Day",
+          "Montag",
+          "Wiederholung"
+        ],
+        "réponse": "Montag",
+        "anecdote": "In einer Zeitschleife gefangen, muss Mulder verhindern, dass eine Bombe in einer Bank explodiert, um sie zu beenden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Para qué servicio de inteligencia del hogar trabajan los agentes Mulder y Scully ?",
+        "propositions": [
+          "FBI",
+          "NSA",
+          "CSI",
+          "CIA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "Las competencias del FBI incluyen la lucha contra el terrorismo, la contrainteligencia, los delitos informáticos y la ciencia forense."
+      },
+      {
+        "id": 2,
+        "question": "¿Quién es el supervisor directo de Mulder y Scully en la serie « Expediente X » ?",
+        "propositions": [
+          "Wallace Sommer",
+          "Chris Carter",
+          "William Stabler",
+          "Walter Skinner"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner es un ex armada que hizo Vietnam y en esto es severo, exigente pero aún justo y honesto."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué está escrito en el ahora famoso cartel en la oficina de Fox Mulder ?",
+        "propositions": [
+          "U.F.O.",
+          "¿Existen los extraterrestres ?",
+          "¿Tienes miedo ?",
+          "Quiero creer"
+        ],
+        "réponse": "Quiero creer",
+        "anecdote": "Intuitivo y paranoico, Mulder es visto como extraño y excéntrico por sus compañeros, lo que le ha valido el apodo de marciano."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué temporada aparece por primera vez el hombre del cigarrillo en la serie « Expediente X » ?",
+        "propositions": [
+          "Temporada 2",
+          "Temporada 4",
+          "Temporada 3",
+          "Temporada 1"
+        ],
+        "réponse": "Temporada 1",
+        "anecdote": "Originalmente fría y solitaria, la serie lo evoluciona para dejar claro que él es el personaje esencial de la trama."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál era la profesión de Scully antes de convertirse en agente del FBI en « Expediente X » ?",
+        "propositions": [
+          "Doctor",
+          "Fotógrafo",
+          "Arquitecto",
+          "Abogado"
+        ],
+        "réponse": "Doctor",
+        "anecdote": "Scully ha escapado de la muerte en numerosas ocasiones a lo largo de la serie, y al menos 2 episodios sugieren que sería inmortal."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuántas temporadas tiene la serie de televisión « Expediente X: En las fronteras de la realidad » ?",
+        "propositions": [
+          "Once",
+          "Nuevo",
+          "Ocho",
+          "Diz"
+        ],
+        "réponse": "Once",
+        "anecdote": "La serie describe las diversas investigaciones de los agentes especiales del FBI Fox Mulder y Dana Scully sobre archivos clasificados X (Expediente X)."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué actriz interpreta a Dana Scully en la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Laurie Holden",
+          "Gillian Anderson",
+          "Annabeth Gish",
+          "Jolie Jenkins"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Gillian Anderson fue reconocida por este papel con un premio Golden Globes y un premio Primetime Emmy."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál es el apodo que le dieron a Fox Mulder sus colegas en la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Biquet",
+          "Matrix",
+          "Marciano",
+          "Búho"
+        ],
+        "réponse": "Marciano",
+        "anecdote": "Mulder es el apellido de soltera de la madre del director Chris Carter y Fox es el nombre de un amigo suyo."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué actor reemplaza a David Duchovny en las temporadas 6, 7 y 8 de « Expediente X » ?",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Robert Patrick",
+          "Robert Pattinson",
+          "Robert Wagner"
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "Robert Patrick fue revelado al cine en 1991 por su interpretación del T-1000 en la segunda entrega de la saga « Terminator »."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué escritor, director y productor estadounidense creó la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Steven Spielberg",
+          "Guillermo del Toro",
+          "Chris Carter",
+          "J.J. Abrams"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter recibió el premio PGA al productor de televisión más prometedor en 1999."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué ciudad de los Estados Unidos se encuentra la oficina de Mulder y Scully ?",
+        "propositions": [
+          "Dallas",
+          "Los Ángeles",
+          "Nueva York",
+          "Washington"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Fox Mulder es un hombre que tiene una verdadera pasión por todo lo relacionado con lo paranormal."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué aventurero de ficción hizo una gran aparición en la serie « Expediente X » ?",
+        "propositions": [
+          "Super Jamie",
+          "Buffy",
+          "Lara Croft",
+          "Xena"
+        ],
+        "réponse": "Xena",
+        "anecdote": "En 1995, antes de convertirse en Xena, Lucy Lawless fue el personaje central de « Peach », un cortometraje sobre la homosexualidad."
+      },
+      {
+        "id": 13,
+        "question": "En « Expediente X », ¿qué asesino abolió el hígado de sus víctimas ?",
+        "propositions": [
+          "Hosteen",
+          "Burks",
+          "Krycek",
+          "Tooms"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Cada 30 años, Eugene Victor Tooms sale de la hibernación para alimentarse de hígado humano."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el primer nombre de la hermana desaparecida de Fox Mulder en la serie « Expediente X » ?",
+        "propositions": [
+          "Samantha",
+          "Alicia",
+          "Rita",
+          "Joanna"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Samantha Ann Mulder, nacida el 22 de enero de 1964, desaparecida el 27 de noviembre de 1973 (Caso no clasificado : expediente n ° X-42053)."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuántas películas se han realizado a partir de la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Ninguno",
+          "2",
+          "1",
+          "3"
+        ],
+        "réponse": "2",
+        "anecdote": "Las dos películas son « The X-Files » de Rob S."
+      },
+      {
+        "id": 16,
+        "question": "¿Quién es el padre del hijo de Scully en la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Doggett",
+          "Mulder",
+          "Krycek",
+          "Skinner"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully tiene una vida social y sentimental bastante mediocre, y la mayoría de las veces se retira de sus experimentos e investigaciones científicas."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué personaje de la serie « Expediente X » perdió un brazo después de la inoculación de una vacuna ?",
+        "propositions": [
+          "Pendrell",
+          "Skinner",
+          "Sr. X",
+          "Krycek"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Presentado como socio pero visto como un obstáculo por el agente Fox Mulder, Alex Krycek resulta ser un traidor."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué enfermedad sufre Scully a partir de la temporada 4 de la serie « Expediente X » ?",
+        "propositions": [
+          "Amnesia",
+          "Diabetes",
+          "Cáncer",
+          "Esclerosis"
+        ],
+        "réponse": "Cáncer",
+        "anecdote": "Scully cuestionó sus creencias cuando le diagnosticaron cáncer cerebral como resultado de su secuestro."
+      },
+      {
+        "id": 19,
+        "question": "¿Cómo se llama el perro de Dana Scully de la serie « Expediente X » ?",
+        "propositions": [
+          "Bobby",
+          "Fox",
+          "Queequeg",
+          "Gish"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "Cuando era más joven, el libro favorito de Dana Scully era « Moby Dick », que su padre disfrutaba leyéndole con mucha frecuencia."
+      },
+      {
+        "id": 20,
+        "question": "En « Expediente X », ¿qué miembro del FBI murió en los brazos de Scully ?",
+        "propositions": [
+          "Monica Reyes",
+          "Scott Blevins",
+          "Agente Pendrell",
+          "Jeffrey Spender"
+        ],
+        "réponse": "Agente Pendrell",
+        "anecdote": "El Agente Pendrell es miembro del Laboratorio de Ciencias Forenses del FBI, que ocasionalmente ayuda a la Agente Dana Scully."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuáles son los apodos de los tres amigos paranoicos de Mulder en « Expediente X » ?",
+        "propositions": [
+          "Estrellas solitarias",
+          "Pistoleros solitarios",
+          "Lone Rangers",
+          "Vaqueros solitarios"
+        ],
+        "réponse": "Pistoleros solitarios",
+        "anecdote": "Este trío es la alianza poco probable de un pirata informático, un pirata informático y un ex empleado de telecomunicaciones."
+      },
+      {
+        "id": 22,
+        "question": "¿Cuál es el título del último episodio de la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "La Profecía",
+          "La sed de conocimiento",
+          "La verdad está aquí",
+          "El descubrimiento"
+        ],
+        "réponse": "La verdad está aquí",
+        "anecdote": "En este episodio final, la fecha de la invasión coincide con el calendario maya y las predicciones para diciembre de 2012."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál es el primer nombre de la hija de Scully en la serie « Expediente X » ?",
+        "propositions": [
+          "Emily",
+          "Janis",
+          "Emma",
+          "Diane"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Interpretada por Lauren Diewold, esta pequeña (Emily Sim) aparece en el episodio doble « Emily » de la temporada 5 de la serie."
+      },
+      {
+        "id": 24,
+        "question": "¿En qué universidad se graduó Mulder, de la serie « Expediente X » ?",
+        "propositions": [
+          "Manchester",
+          "Yale",
+          "Princeton",
+          "Oxford"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "De 1983 a 1986, Fox Mulder estudió en Oxford en Inglaterra y quedó primero en su clase con su título en psicología en el bolsillo."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué actriz reemplaza a Gillian Anderson en las últimas temporadas de la serie « X-Files » ?",
+        "propositions": [
+          "Jolie Jenkins",
+          "Anna Faris",
+          "Annabeth Gish",
+          "Annabella Sciorra"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "Fue nominada para este papel en el Premio Saturn a la Mejor Actriz de Reparto de Televisión en 2002."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién secuestra a Scully para entregársela a los extraterrestres en la temporada 2 de « Expediente X » ?",
+        "propositions": [
+          "Chuck Burks",
+          "Brad Follmer",
+          "Duane Barry",
+          "Billy Miles"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "En el episodio en cuestión, es el propio actor quien realiza el truco en el techo del teleférico, poniendo en peligro su propia vida."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es la contraseña de la computadora de Mulder en la serie « X-Files » ?",
+        "propositions": [
+          "Scully",
+          "Samantha",
+          "Trustno1",
+          "Extranjeros"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Fox Mulder tiene pocos amigos pero un buen número de contactos, lo que le resulta muy útil a lo largo de la serie."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué marca de cigarrillos fuma el hombre del cigarrillo de la serie « Expediente X » ?",
+        "propositions": [
+          "Morley",
+          "No lo sabemos",
+          "Marlac",
+          "Mighton"
+        ],
+        "réponse": "Morley",
+        "anecdote": "Esta marca ha aparecido en varios otros televisores y películas, series de televisión y videojuegos."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué apodo le dio su padre a Scully en la serie de televisión « Expediente X » ?",
+        "propositions": [
+          "Starbuck",
+          "Janis",
+          "Queequeg",
+          "El marciano"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Fan de la novela « Moby Dick », la apodó Starbuck y Scully lo llamó Ahab."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué episodio de « Expediente X » emitido en 1999 se repite una y otra vez ?",
+        "propositions": [
+          "Para siempre",
+          "Reiteración",
+          "Día D",
+          "Lunes"
+        ],
+        "réponse": "Lunes",
+        "anecdote": "Atrapado en un bucle de tiempo, Mulder debe evitar que una bomba explote en un banco para acabar con ella."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Per quale servizio di intelligence domestica lavorano gli agenti Mulder e Scully ?",
+        "propositions": [
+          "CIA",
+          "FBI",
+          "CSI",
+          "NSA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "I compiti dell'FBI includono l'antiterrorismo, il controspionaggio, la criminalità informatica e la scientifica."
+      },
+      {
+        "id": 2,
+        "question": "Chi è il supervisore diretto di Mulder e Scully nella serie « X-Files » ?",
+        "propositions": [
+          "Walter Skinner",
+          "Wallace Sommer",
+          "Chris Carter",
+          "William Stabler"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner è un ex marinaio che ha fatto il Vietnam e in questo è severo, esigente ma comunque giusto e onesto."
+      },
+      {
+        "id": 3,
+        "question": "Cosa c'è scritto sull'ormai famoso poster nell'ufficio di Fox Mulder ?",
+        "propositions": [
+          "U.F.O.",
+          "Hai paura ?",
+          "Voglio credere",
+          "Esistono gli alieni ?"
+        ],
+        "réponse": "Voglio credere",
+        "anecdote": "Intuitivo e paranoico, Mulder è visto come strano ed eccentrico dai suoi coetanei, il che gli è valso il soprannome di marziano."
+      },
+      {
+        "id": 4,
+        "question": "In quale stagione l'uomo con la sigaretta appare per la prima volta nella serie « X-Files » ?",
+        "propositions": [
+          "Stagione 4",
+          "Stagione 1",
+          "Stagione 3",
+          "Stagione 2"
+        ],
+        "réponse": "Stagione 1",
+        "anecdote": "Originariamente freddo e solitario, la serie lo evolve per chiarire che è il personaggio essenziale della trama."
+      },
+      {
+        "id": 5,
+        "question": "Qual era la professione di Scully prima che diventasse un agente dell'FBI in « X-Files » ?",
+        "propositions": [
+          "Architetto",
+          "Avvocato",
+          "Fotografo",
+          "Dottore"
+        ],
+        "réponse": "Dottore",
+        "anecdote": "Scully è sfuggita alla morte numerose volte durante la serie, e almeno 2 episodi suggeriscono che sarebbe stata immortale."
+      },
+      {
+        "id": 6,
+        "question": "Quante stagioni ha la serie TV « X-Files: At the Frontiers of Reality » ?",
+        "propositions": [
+          "Diz",
+          "Nuovo",
+          "Undici",
+          "Otto"
+        ],
+        "réponse": "Undici",
+        "anecdote": "La serie descrive le varie indagini degli agenti speciali dell'FBI Fox Mulder e Dana Scully sui file classificati X (X-Files)."
+      },
+      {
+        "id": 7,
+        "question": "Quale attrice interpreta Dana Scully nella serie TV « X-Files » ?",
+        "propositions": [
+          "Annabeth Gish",
+          "Jolie Jenkins",
+          "Gillian Anderson",
+          "Laurie Holden"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Gillian Anderson è stata premiata per questo ruolo con un Golden Globes Award e un Primetime Emmy Award."
+      },
+      {
+        "id": 8,
+        "question": "Qual è il soprannome dato a Fox Mulder dai suoi colleghi nella serie TV « X-Files » ?",
+        "propositions": [
+          "Biquet",
+          "Marziano",
+          "Gufo",
+          "Matrix"
+        ],
+        "réponse": "Marziano",
+        "anecdote": "Mulder è il nome da nubile della madre del regista Chris Carter e Fox è il nome di un suo amico."
+      },
+      {
+        "id": 9,
+        "question": "Quale attore sostituisce David Duchovny nelle stagioni 6, 7 e 8 di « X-Files » ?",
+        "propositions": [
+          "Robert Pattinson",
+          "Robert Wagner",
+          "Robert Patrick",
+          "Robert Downey Jr."
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "Robert Patrick è stato rivelato al cinema nel 1991 dalla sua interpretazione del T-1000 nel secondo capitolo della saga di « Terminator »."
+      },
+      {
+        "id": 10,
+        "question": "Quale scrittore, regista e produttore americano ha creato la serie televisiva « X-Files » ?",
+        "propositions": [
+          "Chris Carter",
+          "Steven Spielberg",
+          "Guillermo del Toro",
+          "J.J. Abrams"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter ha ricevuto il PGA Award come produttore televisivo più promettente nel 1999."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale città degli Stati Uniti si trova l'ufficio di Mulder e Scully ?",
+        "propositions": [
+          "Dallas",
+          "Washington",
+          "New York",
+          "Los Angeles"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Fox Mulder è un uomo che ha una vera passione per tutto ciò che riguarda il paranormale."
+      },
+      {
+        "id": 12,
+        "question": "Quale avventuriero immaginario ha fatto una grande apparizione nella serie « X-Files » ?",
+        "propositions": [
+          "Xena",
+          "Lara Croft",
+          "Buffy",
+          "Super Jamie"
+        ],
+        "réponse": "Xena",
+        "anecdote": "Nel 1995, prima di diventare Xena, Lucy Lawless era il personaggio centrale di « Peach », un cortometraggio sull'omosessualità."
+      },
+      {
+        "id": 13,
+        "question": "In « X-Files », quale assassino abolisce il fegato delle sue vittime ?",
+        "propositions": [
+          "Krycek",
+          "Tooms",
+          "Burks",
+          "Hosteen"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Ogni 30 anni, Eugene Victor Tooms esce dal letargo per nutrirsi di fegato umano."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il primo nome della sorella scomparsa di Fox Mulder nella serie « X-Files » ?",
+        "propositions": [
+          "Joanna",
+          "Samantha",
+          "Alicia",
+          "Rita"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Samantha Ann Mulder, nata il 22 gennaio 1964, è scomparsa il 27 novembre 1973 (caso non classificato : fascicolo n ° X-42053)."
+      },
+      {
+        "id": 15,
+        "question": "Quanti film sono stati realizzati dalla serie TV « X-Files » ?",
+        "propositions": [
+          "2",
+          "3",
+          "Nessuno",
+          "1"
+        ],
+        "réponse": "2",
+        "anecdote": "I due film sono « The X-Files » di Rob S."
+      },
+      {
+        "id": 16,
+        "question": "Chi è il padre del figlio di Scully nella serie TV « X-Files » ?",
+        "propositions": [
+          "Mulder",
+          "Krycek",
+          "Skinner",
+          "Doggett"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully ha una vita sentimentale e sociale abbastanza poco brillante, molto spesso ritirandosi dai suoi esperimenti e ricerche scientifiche."
+      },
+      {
+        "id": 17,
+        "question": "Quale personaggio della serie « X-Files » ha perso un braccio a seguito dell'inoculazione di un vaccino ?",
+        "propositions": [
+          "Mr. X",
+          "Skinner",
+          "Krycek",
+          "Pendrell"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Presentato come partner ma visto come un ostacolo dall'agente Fox Mulder, Alex Krycek si rivela un traditore."
+      },
+      {
+        "id": 18,
+        "question": "Di quale malattia soffre Scully a partire dalla stagione 4 della serie « X-Files » ?",
+        "propositions": [
+          "Amnesia",
+          "Cancro",
+          "Diabete",
+          "Sclerosi"
+        ],
+        "réponse": "Cancro",
+        "anecdote": "Scully ha messo in dubbio le sue convinzioni quando gli è stato diagnosticato un cancro al cervello come risultato del suo rapimento."
+      },
+      {
+        "id": 19,
+        "question": "Qual è il nome del cane di Dana Scully della serie « X-Files » ?",
+        "propositions": [
+          "Queequeg",
+          "Bobby",
+          "Fox",
+          "Gish"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "Quando era più giovane, il libro preferito di Dana Scully era « Moby Dick », che suo padre si divertiva a leggerle molto spesso."
+      },
+      {
+        "id": 20,
+        "question": "In « X-Files », quale membro dell'FBI è morto tra le braccia di Scully ?",
+        "propositions": [
+          "Monica Reyes",
+          "Agente Pendrell",
+          "Jeffrey Spender",
+          "Scott Blevins"
+        ],
+        "réponse": "Agente Pendrell",
+        "anecdote": "L'agente Pendrell è un membro del Forensic Science Lab dell'FBI, che occasionalmente assiste l'agente Dana Scully."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quali sono i soprannomi dei tre amici paranoici di Mulder in « X-Files » ?",
+        "propositions": [
+          "Stelle solitarie",
+          "Lone Rangers",
+          "Uomini armati solitari",
+          "Cowboy solitari"
+        ],
+        "réponse": "Uomini armati solitari",
+        "anecdote": "Questo trio è l'improbabile alleanza di un hacker elettronico, un hacker e un ex dipendente delle telecomunicazioni."
+      },
+      {
+        "id": 22,
+        "question": "Qual è il titolo dell'ultimo episodio della serie TV « X-Files » ?",
+        "propositions": [
+          "La sete di conoscenza",
+          "La scoperta",
+          "La verità è qui",
+          "La profezia"
+        ],
+        "réponse": "La verità è qui",
+        "anecdote": "In questo episodio finale, la data dell'invasione coincide con il calendario Maya e le previsioni per dicembre 2012."
+      },
+      {
+        "id": 23,
+        "question": "Qual è il primo nome della figlia di Scully nella serie « X-Files » ?",
+        "propositions": [
+          "Diane",
+          "Janis",
+          "Emily",
+          "Emma"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Interpretata da Lauren Diewold, questa bambina (Emily Sim) appare nel doppio episodio « Emily » della quinta stagione della serie."
+      },
+      {
+        "id": 24,
+        "question": "In quale università si è laureato Mulder, della serie « X-Files » ?",
+        "propositions": [
+          "Oxford",
+          "Princeton",
+          "Manchester",
+          "Yale"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Dal 1983 al 1986, Fox Mulder ha studiato a Oxford in Inghilterra ed è uscito primo della sua classe con la laurea in psicologia in tasca."
+      },
+      {
+        "id": 25,
+        "question": "Quale attrice sostituisce Gillian Anderson nelle ultime stagioni della serie « X-Files » ?",
+        "propositions": [
+          "Anna Faris",
+          "Annabella Sciorra",
+          "Jolie Jenkins",
+          "Annabeth Gish"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "È stata nominata per questo ruolo al Saturn Award come migliore attrice televisiva non protagonista nel 2002."
+      },
+      {
+        "id": 26,
+        "question": "Chi rapisce Scully per consegnarla agli alieni in « X-Files » Stagione 2 ?",
+        "propositions": [
+          "Brad Follmer",
+          "Chuck Burks",
+          "Duane Barry",
+          "Billy Miles"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "Nell'episodio in questione, è l'attore stesso a eseguire l'acrobazia sul tetto della funivia, mettendo in pericolo la propria vita."
+      },
+      {
+        "id": 27,
+        "question": "Qual è la password per il computer di Mulder nella serie « X-Files » ?",
+        "propositions": [
+          "Trustno1",
+          "Samantha",
+          "Scully",
+          "Alieni"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Fox Mulder ha pochi amici ma un buon numero di contatti, il che gli è molto utile per tutta la serie."
+      },
+      {
+        "id": 28,
+        "question": "Che marca di sigarette fuma l'uomo con la sigaretta nella serie « X-Files » ?",
+        "propositions": [
+          "Mighton",
+          "Non sappiamo",
+          "Marlac",
+          "Morley"
+        ],
+        "réponse": "Morley",
+        "anecdote": "Questo marchio è apparso in varie altre TV e film, serie TV e videogiochi."
+      },
+      {
+        "id": 29,
+        "question": "Quale soprannome è stato dato a Scully da suo padre nella serie TV « X-Files » ?",
+        "propositions": [
+          "Janis",
+          "Starbuck",
+          "Il marziano",
+          "Queequeg"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Fan del romanzo « Moby Dick », l'ha soprannominata Starbuck e Scully lo ha chiamato in cambio Achab."
+      },
+      {
+        "id": 30,
+        "question": "Quale episodio di « X-Files » trasmesso nel 1999 si ripete più e più volte ?",
+        "propositions": [
+          "Reiterazione",
+          "D-Day",
+          "Per sempre",
+          "Lunedì"
+        ],
+        "réponse": "Lunedì",
+        "anecdote": "Preso in un loop temporale, Mulder deve impedire che una bomba esploda in una banca per farla finita."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Voor welke inlichtingendienst werken de agenten Mulder en Scully ?",
+        "propositions": [
+          "FBI",
+          "NSA",
+          "CSI",
+          "CIA"
+        ],
+        "réponse": "FBI",
+        "anecdote": "De taken van de FBI zijn onder meer antiterrorisme, contraspionage, computercriminaliteit en forensisch onderzoek."
+      },
+      {
+        "id": 2,
+        "question": "Wie is de directe supervisor van Mulder en Scully in de serie « X-Files » ?",
+        "propositions": [
+          "William Stabler",
+          "Chris Carter",
+          "Walter Skinner",
+          "Wallace Sommer"
+        ],
+        "réponse": "Walter Skinner",
+        "anecdote": "Walter Skinner is een voormalige marine die Vietnam heeft gemaakt en hierin is hij streng, veeleisend maar nog steeds eerlijk en eerlijk."
+      },
+      {
+        "id": 3,
+        "question": "Wat staat er op de inmiddels beroemde poster in het kantoor van Fox Mulder ?",
+        "propositions": [
+          "Ik wil geloven",
+          "U.F.O.",
+          "Ben je bang ?",
+          "Bestaan \u200b\u200ber aliens ?"
+        ],
+        "réponse": "Ik wil geloven",
+        "anecdote": "Mulder is intuïtief en paranoïde en wordt door zijn leeftijdsgenoten als vreemd en excentriek beschouwd, wat hem de bijnaam Martian heeft opgeleverd."
+      },
+      {
+        "id": 4,
+        "question": "In welk seizoen verschijnt de man met de sigaret voor het eerst in de serie « X-Files »",
+        "propositions": [
+          "Seizoen 4",
+          "Seizoen 2",
+          "Seizoen 1",
+          "Seizoen 3"
+        ],
+        "réponse": "Seizoen 1",
+        "anecdote": "Oorspronkelijk koud en eenzaam, evolueert de serie hem om duidelijk te maken dat hij het essentiële karakter van de plot is."
+      },
+      {
+        "id": 5,
+        "question": "Wat was het beroep van Scully voordat hij FBI-agent werd in « X-Files » ?",
+        "propositions": [
+          "Architect",
+          "Advocaat",
+          "Fotograaf",
+          "Dokter"
+        ],
+        "réponse": "Dokter",
+        "anecdote": "Scully is in de serie meerdere keren aan de dood ontsnapt en ten minste twee afleveringen suggereren dat ze onsterfelijk zou zijn."
+      },
+      {
+        "id": 6,
+        "question": "Hoeveel seizoenen heeft de tv-serie « X-Files: At the Frontiers of Reality » ?",
+        "propositions": [
+          "Diz",
+          "Nieuw",
+          "Acht",
+          "Elf"
+        ],
+        "réponse": "Elf",
+        "anecdote": "De serie beschrijft de verschillende onderzoeken van de speciale agenten van de FBI Fox Mulder en Dana Scully op geclassificeerde bestanden X (X-Files)."
+      },
+      {
+        "id": 7,
+        "question": "Welke actrice speelt Dana Scully in de tv-serie « X-Files » ?",
+        "propositions": [
+          "Annabeth Gish",
+          "Laurie Holden",
+          "Gillian Anderson",
+          "Jolie Jenkins"
+        ],
+        "réponse": "Gillian Anderson",
+        "anecdote": "Gillian Anderson werd voor deze rol erkend met een Golden Globes Award en een Primetime Emmy Award."
+      },
+      {
+        "id": 8,
+        "question": "Wat is de bijnaam die Fox Mulder heeft gekregen van zijn collega's in de tv-serie « X-Files » ?",
+        "propositions": [
+          "Mars",
+          "Biquet",
+          "Uil",
+          "Matrix"
+        ],
+        "réponse": "Mars",
+        "anecdote": "Mulder is de meisjesnaam van de moeder van regisseur Chris Carter en Fox is de naam van een vriendin van haar."
+      },
+      {
+        "id": 9,
+        "question": "Welke acteur vervangt David Duchovny in seizoen 6, 7 en 8 van « X-Files » ?",
+        "propositions": [
+          "Robert Downey Jr.",
+          "Robert Pattinson",
+          "Robert Wagner",
+          "Robert Patrick"
+        ],
+        "réponse": "Robert Patrick",
+        "anecdote": "Robert Patrick werd in 1991 aan de bioscoop onthuld door zijn interpretatie van de T-1000 in het tweede deel van de « Terminator » -saga."
+      },
+      {
+        "id": 10,
+        "question": "Welke Amerikaanse schrijver, regisseur en producer heeft de televisieserie « X-Files » gemaakt ?",
+        "propositions": [
+          "Guillermo del Toro",
+          "J.J. Abrams",
+          "Chris Carter",
+          "Steven Spielberg"
+        ],
+        "réponse": "Chris Carter",
+        "anecdote": "Chris Carter ontving in 1999 de PGA Award voor meest veelbelovende televisieproducent."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welke stad in de Verenigde Staten is het kantoor van Mulder en Scully gevestigd ?",
+        "propositions": [
+          "Los Angeles",
+          "New York",
+          "Washington",
+          "Dallas"
+        ],
+        "réponse": "Washington",
+        "anecdote": "Fox Mulder is een man die een echte passie heeft voor alles wat met het paranormale te maken heeft."
+      },
+      {
+        "id": 12,
+        "question": "Welke fictieve avonturier maakte een grote indruk in de serie « X-Files » ?",
+        "propositions": [
+          "Super Jamie",
+          "Buffy",
+          "Xena",
+          "Lara Croft"
+        ],
+        "réponse": "Xena",
+        "anecdote": "In 1995, voordat ze Xena werd, was Lucy Lawless het hoofdpersonage van « Peach », een korte film over homoseksualiteit."
+      },
+      {
+        "id": 13,
+        "question": "Welke moordenaar schaft in « X-Files » de levers van zijn slachtoffers af ?",
+        "propositions": [
+          "Krycek",
+          "Hosteen",
+          "Tooms",
+          "Burks"
+        ],
+        "réponse": "Tooms",
+        "anecdote": "Elke 30 jaar komt Eugene Victor Tooms uit zijn winterslaap om zich te voeden met menselijke lever."
+      },
+      {
+        "id": 14,
+        "question": "Wat is de voornaam van de vermiste zus van Fox Mulder in de serie « X-Files » ?",
+        "propositions": [
+          "Samantha",
+          "Alicia",
+          "Joanna",
+          "Rita"
+        ],
+        "réponse": "Samantha",
+        "anecdote": "Samantha Ann Mulder, geboren 22 januari 1964, verdween op 27 november 1973 (niet-geclassificeerde zaak: dossier nr. X-42053)."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel films zijn er gemaakt uit de tv-serie « X-Files »",
+        "propositions": [
+          "Geen",
+          "3",
+          "2",
+          "1"
+        ],
+        "réponse": "2",
+        "anecdote": "De twee films zijn « The X-Files » van Rob S."
+      },
+      {
+        "id": 16,
+        "question": "Wie is de vader van het kind van Scully in de tv-serie « X-Files » ?",
+        "propositions": [
+          "Mulder",
+          "Doggett",
+          "Krycek",
+          "Skinner"
+        ],
+        "réponse": "Mulder",
+        "anecdote": "Scully heeft een vrij matig sentimenteel en sociaal leven en trekt zich meestal terug uit zijn wetenschappelijke experimenten en onderzoek."
+      },
+      {
+        "id": 17,
+        "question": "Welk personage in de « X-Files » -serie heeft een arm verloren na inenting van een vaccin ?",
+        "propositions": [
+          "Pendrell",
+          "Skinner",
+          "Meneer X",
+          "Krycek"
+        ],
+        "réponse": "Krycek",
+        "anecdote": "Gepresenteerd als partner maar door agent Fox Mulder als een hindernis gezien, blijkt Alex Krycek een verrader te zijn."
+      },
+      {
+        "id": 18,
+        "question": "Aan welke ziekte lijdt Scully vanaf seizoen 4 van de serie « X-Files » ?",
+        "propositions": [
+          "Diabetes",
+          "Geheugenverlies",
+          "Sclerose",
+          "Kanker"
+        ],
+        "réponse": "Kanker",
+        "anecdote": "Scully trok zijn overtuiging in twijfel toen hij als gevolg van zijn ontvoering de diagnose hersenkanker kreeg."
+      },
+      {
+        "id": 19,
+        "question": "Hoe heet de hond van Dana Scully uit de serie « X-Files » ?",
+        "propositions": [
+          "Vos",
+          "Gish",
+          "Queequeg",
+          "Bobby"
+        ],
+        "réponse": "Queequeg",
+        "anecdote": "Toen ze jonger was, was het favoriete boek van Dana Scully « Moby Dick », dat haar vader haar heel vaak voorlas."
+      },
+      {
+        "id": 20,
+        "question": "Welk FBI-lid stierf in « X-Files » in de armen van Scully ?",
+        "propositions": [
+          "Scott Blevins",
+          "Jeffrey Spender",
+          "Agent Pendrell",
+          "Monica Reyes"
+        ],
+        "réponse": "Agent Pendrell",
+        "anecdote": "Agent Pendrell is lid van het Forensic Science Lab van de FBI, die af en toe agent Dana Scully assisteert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat zijn Mulders drie bijnamen voor paranoïde vrienden in « X-Files » ?",
+        "propositions": [
+          "Eenzame schutters",
+          "Eenzame cowboys",
+          "Lone Rangers",
+          "Eenzame sterren"
+        ],
+        "réponse": "Eenzame schutters",
+        "anecdote": "Dit trio is de onwaarschijnlijke alliantie van een elektronica-hacker, een hacker en een voormalige telecommunicatiemedewerker."
+      },
+      {
+        "id": 22,
+        "question": "Wat is de titel van de laatste aflevering van de tv-serie « X-Files » ?",
+        "propositions": [
+          "De dorst naar kennis",
+          "The Prophecy",
+          "De ontdekking",
+          "De waarheid is hier"
+        ],
+        "réponse": "De waarheid is hier",
+        "anecdote": "In deze laatste aflevering valt de datum van de invasie samen met de Maya-kalender en de voorspellingen voor december 2012."
+      },
+      {
+        "id": 23,
+        "question": "Wat is de voornaam van Scully's dochter in de serie « X-Files » ?",
+        "propositions": [
+          "Emma",
+          "Diane",
+          "Janis",
+          "Emily"
+        ],
+        "réponse": "Emily",
+        "anecdote": "Dit kleine meisje (Emily Sim), gespeeld door Lauren Diewold, verschijnt in de dubbele aflevering « Emily » van seizoen 5 van de serie."
+      },
+      {
+        "id": 24,
+        "question": "Aan welke universiteit is Mulder uit de serie « X-Files » afgestudeerd ?",
+        "propositions": [
+          "Princeton",
+          "Oxford",
+          "Manchester",
+          "Yale"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Van 1983 tot 1986 studeerde Fox Mulder in Oxford in Engeland en kwam als eerste uit de klas met zijn graad in psychologie op zak."
+      },
+      {
+        "id": 25,
+        "question": "Welke actrice vervangt Gillian Anderson in de laatste seizoenen van de serie « X-Files » ?",
+        "propositions": [
+          "Annabella Sciorra",
+          "Anna Faris",
+          "Annabeth Gish",
+          "Jolie Jenkins"
+        ],
+        "réponse": "Annabeth Gish",
+        "anecdote": "Ze werd genomineerd voor deze rol bij de Saturn Award voor beste vrouwelijke bijrol in 2002."
+      },
+      {
+        "id": 26,
+        "question": "Wie ontvoert Scully om haar over te dragen aan de aliens in seizoen 2 van « X-Files » ?",
+        "propositions": [
+          "Billy Miles",
+          "Duane Barry",
+          "Chuck Burks",
+          "Brad Follmer"
+        ],
+        "réponse": "Duane Barry",
+        "anecdote": "In de betreffende aflevering is het de acteur zelf die de stunt op het dak van de kabelbaan uitvoerde, waardoor zijn eigen leven in gevaar kwam."
+      },
+      {
+        "id": 27,
+        "question": "Wat is het wachtwoord voor de computer van Mulder in de serie « X-Files » ?",
+        "propositions": [
+          "Vreemdelingen",
+          "Trustno1",
+          "Scully",
+          "Samantha"
+        ],
+        "réponse": "Trustno1",
+        "anecdote": "Fox Mulder heeft weinig vrienden maar wel een flink aantal contacten, wat hem in de hele serie erg goed van pas komt."
+      },
+      {
+        "id": 28,
+        "question": "Welk merk sigaretten rookt de man met de sigaret in de serie « X-Files » ?",
+        "propositions": [
+          "Morley",
+          "Mighton",
+          "We weten het niet",
+          "Marlac"
+        ],
+        "réponse": "Morley",
+        "anecdote": "Dit merk is verschenen in verschillende andere tv- en filmbeelden, tv-series en videogames."
+      },
+      {
+        "id": 29,
+        "question": "Welke bijnaam gaf zijn vader Scully in de tv-serie « X-Files » ?",
+        "propositions": [
+          "Janis",
+          "Queequeg",
+          "The Martian",
+          "Starbuck"
+        ],
+        "réponse": "Starbuck",
+        "anecdote": "Fan van de roman « Moby Dick », gaf hij haar de bijnaam Starbuck en Scully noemde hem in ruil Achab."
+      },
+      {
+        "id": 30,
+        "question": "Welke aflevering van « X-Files » uitgezonden in 1999 herhaalt zich keer op keer ?",
+        "propositions": [
+          "Maandag",
+          "Voor altijd",
+          "Herhaling",
+          "D-Day"
+        ],
+        "réponse": "Maandag",
+        "anecdote": "Gevangen in een tijdlus, moet Mulder voorkomen dat een bom ontploft in een bank om hem te beëindigen."
+      }
+    ]
+    }
+  }
+}

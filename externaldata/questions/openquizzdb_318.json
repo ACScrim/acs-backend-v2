@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-01-05",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Géographie",
+      "nom": "Grands lacs",
+      "slogan": "Étendues d'eau entourées de terre"
+    },
+    "en": {
+      "catégorie": "Geography",
+      "nom": "Great lakes",
+      "slogan": "Bodies of water surrounded by land"
+    },
+    "es": {
+      "catégorie": "Geografía",
+      "nom": "Grandes lagos",
+      "slogan": "Cuerpos de agua rodeados de tierra"
+    },
+    "it": {
+      "catégorie": "Geografia",
+      "nom": "Grandi laghi",
+      "slogan": "Specchi d'acqua circondati da terra"
+    },
+    "de": {
+      "catégorie": "Erdkunde",
+      "nom": "Tolle Seen",
+      "slogan": "Von Land umgebene Gewässer"
+    },
+    "nl": {
+      "catégorie": "Aardrijkskunde",
+      "nom": "Grote meren",
+      "slogan": "Watermassa's omgeven door land"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle mer fermée alimentée par la Volga est le plus grand lac du monde ?",
+        "propositions": [
+          "Mer Noire",
+          "Mer Égée",
+          "Mer Caspienne",
+          "Mer Adriatique"
+        ],
+        "réponse": "Mer Caspienne",
+        "anecdote": "Avec une superficie de 371 000 km2, plus vaste que l'Allemagne, elle est la plus grande des masses d'eau enclavées du monde."
+      },
+      {
+        "id": 2,
+        "question": "Quel lac est séparé du lac Michigan par le détroit de Mackinac ?",
+        "propositions": [
+          "Winnipeg",
+          "Victoria",
+          "Huron",
+          "Érié"
+        ],
+        "réponse": "Huron",
+        "anecdote": "Comme les autres Grands Lacs, le lac Huron a été formé par la fonte de glace pendant le recul des glaciers continentaux."
+      },
+      {
+        "id": 3,
+        "question": "Quel est le plus grand des Grands Lacs d'Amérique du Nord ?",
+        "propositions": [
+          "Michigan",
+          "Supérieur",
+          "Ontario",
+          "Huron"
+        ],
+        "réponse": "Supérieur",
+        "anecdote": "À cheval entre les États-Unis et le Canada, sa superficie de 82 350 km2 en fait le plus vaste lac d'eau douce au monde."
+      },
+      {
+        "id": 4,
+        "question": "Quel lac, découvert par un britannique, est le plus grand d'Afrique ?",
+        "propositions": [
+          "Kyoga",
+          "Kivu",
+          "Victoria",
+          "Édouard"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Le lac doit son nom à l'explorateur britannique Speke qui l'atteignit en 1858 et qui le baptisa en l'honneur de la reine Victoria."
+      },
+      {
+        "id": 5,
+        "question": "Quel lac d'Afrique est le plus long lac d'eau douce du monde ?",
+        "propositions": [
+          "Victoria",
+          "Malawi",
+          "Tanganyika",
+          "Kivu"
+        ],
+        "réponse": "Tanganyika",
+        "anecdote": "La situation du lac en fait un lieu d'activité tectonique remarquable, de par la profondeur totale de la faille à cet endroit."
+      },
+      {
+        "id": 6,
+        "question": "Quel lac sacré est parfois surnommé la « Perle de Sibérie » ?",
+        "propositions": [
+          "Khanka",
+          "Baïkal",
+          "Keta",
+          "Lama"
+        ],
+        "réponse": "Baïkal",
+        "anecdote": "Vivant surtout de la pêche, cinquante mille personnes gravitent près du lac dans des conditions difficiles où les sols sont pauvres."
+      },
+      {
+        "id": 7,
+        "question": "Les rives de quel lac se partagent entre le Malawi, le Mozambique et la Tanzanie ?",
+        "propositions": [
+          "Kivu",
+          "Malawi",
+          "Malombe",
+          "Kariba"
+        ],
+        "réponse": "Malawi",
+        "anecdote": "Troisième lac africain par sa taille, le lac Malawi occupe le cinquième rang au classement des grands lacs mondiaux en volume."
+      },
+      {
+        "id": 8,
+        "question": "Quel lac de la cordillère des Andes est traversé par la Bolivie et le Pérou ?",
+        "propositions": [
+          "Colorada",
+          "Uru Uru",
+          "Titicaca",
+          "Poopo"
+        ],
+        "réponse": "Titicaca",
+        "anecdote": "Haut de 3 812 mètres, c'est par le lac Titicaca qu'est née la culture aymara avant la colonisation et la christianisation."
+      },
+      {
+        "id": 9,
+        "question": "Quel lac d'Afrique est le plus grand lac artificiel au monde ?",
+        "propositions": [
+          "Ladoga",
+          "Winnipeg",
+          "Victoria",
+          "Volta"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Un barrage construit en 1965 produit de l'énergie hydro-électrique (912 MW) et est également important pour le transport local."
+      },
+      {
+        "id": 10,
+        "question": "Quel est le plus grand lac salé d'Australie et d'Océanie ?",
+        "propositions": [
+          "Eyre",
+          "Alexandrina",
+          "Callabonna",
+          "Torrens"
+        ],
+        "réponse": "Eyre",
+        "anecdote": "Le lac Eyre est également le point le plus bas de l'Australie à approximativement 13 mètres en dessous du niveau de la mer."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel lac est directement cité comme responsable de l'érosion du delta du Nil ?",
+        "propositions": [
+          "Albert",
+          "Tana",
+          "Nasser",
+          "Sudd"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "Le lac Nasser constitue un réservoir de 162 milliards de mètres cubes (soit 162 km3) d'eau en plein désert de Haute-Égypte."
+      },
+      {
+        "id": 12,
+        "question": "Baigne la province de l'Ontario, quel est le plus vaste lac d'eau douce au monde ?",
+        "propositions": [
+          "Ontario",
+          "Supérieur",
+          "Michigan",
+          "Érié"
+        ],
+        "réponse": "Supérieur",
+        "anecdote": "Il baigne la province de l'Ontario (Canada) au nord, et les États du Minnesota, du Wisconsin et du Michigan (États-Unis) au sud."
+      },
+      {
+        "id": 13,
+        "question": "Quel lac de la province du Manitoba est tributaire de la baie d'Hudson ?",
+        "propositions": [
+          "Winnipeg",
+          "Volta",
+          "Victoria",
+          "Albert"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Sixième lac d'eau douce au Canada, plus grand que le lac Ontario, le lac Winnipeg est peu profond avec 18 mètres maximum."
+      },
+      {
+        "id": 14,
+        "question": "Quel est le plus grand des lacs subglaciaires de l'Antarctique ?",
+        "propositions": [
+          "Sovetskaïa",
+          "Vostok",
+          "Burton",
+          "Vida"
+        ],
+        "réponse": "Vostok",
+        "anecdote": "La surface de ce lac d'eau douce est à 4 000 m en dessous de la surface de la glace et 500 m en dessous du niveau de la mer."
+      },
+      {
+        "id": 15,
+        "question": "Dans quel lac d'Amérique centrale peut-on trouver des requins bouledogues ?",
+        "propositions": [
+          "Ladoga",
+          "Nicaragua",
+          "Titicaca",
+          "Onega"
+        ],
+        "réponse": "Nicaragua",
+        "anecdote": "En effet, les requins bouledogues possèdent la caractéristique unique chez les requins de s'acclimater aux eaux hyposalines."
+      },
+      {
+        "id": 16,
+        "question": "Quel lac artificiel est traversé par le méridien de Greenwich ?",
+        "propositions": [
+          "Volta",
+          "Smallwood",
+          "Huron",
+          "Supérieur"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Réservoir d'eau douce sur le fleuve Volta au Ghana en Afrique, le lac Volta est le plus grand lac artificiel au monde."
+      },
+      {
+        "id": 17,
+        "question": "Quel lac a constitué autrefois la frontière nord-ouest de l'empire chinois ?",
+        "propositions": [
+          "Chagan",
+          "Jasybay",
+          "Balkhach",
+          "Alakol"
+        ],
+        "réponse": "Balkhach",
+        "anecdote": "Le lac Balkhach est gravement menacé par une pollution sévère causée par plusieurs complexes industriels installés sur ses rives."
+      },
+      {
+        "id": 18,
+        "question": "Quel lac a fourni le seul accès à Leningrad durant le siège de 1941 à 1944 ?",
+        "propositions": [
+          "Ladoga",
+          "Kasplia",
+          "Toulos",
+          "Brosno"
+        ],
+        "réponse": "Ladoga",
+        "anecdote": "Les marchandises étaient transportées vers Léningrad par camions circulant sur des routes d'hiver sur le lac gelé."
+      },
+      {
+        "id": 19,
+        "question": "Quel lac du Venezuela, considéré comme tel, est en fait une baie ?",
+        "propositions": [
+          "Maracaibo",
+          "Valencia",
+          "Toulos",
+          "Guri"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Considéré comme le plus grand lac de l'Amérique du Sud, le lac Maracaibo possède une profondeur maximale de 60 mètres."
+      },
+      {
+        "id": 20,
+        "question": "Quel lac fut reconnu en tant que réserve de biosphère par l'Unesco en 1997 ?",
+        "propositions": [
+          "Bati",
+          "Tonlé Sap",
+          "Sap",
+          "Loum"
+        ],
+        "réponse": "Tonlé Sap",
+        "anecdote": "Le lac est situé en plein centre du Cambodge, avec une orientation nord-ouest sud-est, proposant le site historique d'Angkor au nord."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel lac de Russie est le second lac d'Europe par son étendue ?",
+        "propositions": [
+          "Baount",
+          "Abraou",
+          "Onega",
+          "Tcheko"
+        ],
+        "réponse": "Onega",
+        "anecdote": "Le lac Onega contient 1 369 îles et îlots, la plus connue étant Kiji, renommée pour son enclos paroissial en bois (Pogost de Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "Quel lac de Zambie est peuplé de crocodiles dangereux pour les pêcheurs ?",
+        "propositions": [
+          "Bangwelo",
+          "Mbali",
+          "Moero",
+          "Kabwe"
+        ],
+        "réponse": "Bangwelo",
+        "anecdote": "David Livingstone fut le premier Européen à voir le lac lors de ses explorations et mourut en 1873 non loin de ce dernier."
+      },
+      {
+        "id": 23,
+        "question": "Sur les rives de quel lac trouvait-on la ville minière d'Uranium City ?",
+        "propositions": [
+          "Bistcho",
+          "Athabasca",
+          "Moraine",
+          "Beauvert"
+        ],
+        "réponse": "Athabasca",
+        "anecdote": "Bien que stoppée vers les années 1980, les conséquences de l'industrie minière sont une contamination de la rive nord."
+      },
+      {
+        "id": 24,
+        "question": "Quel réservoir du Canada est composé de 88 digues de 36 mètres de haut ?",
+        "propositions": [
+          "Abraham",
+          "Williston",
+          "Smallwood",
+          "Nechako"
+        ],
+        "réponse": "Smallwood",
+        "anecdote": "Construit pour maîtriser les eaux du fleuve Churchill, le réservoir Smallwood possède une superficie de 6 527 km2."
+      },
+      {
+        "id": 25,
+        "question": "Quel lac est aussi connu sous le nom de lac du Caribou ?",
+        "propositions": [
+          "Reindeer",
+          "Molson",
+          "Falcon",
+          "Nueltin"
+        ],
+        "réponse": "Reindeer",
+        "anecdote": "Au sud du lac se trouve la baie profonde, baie circulaire de 13 km de diamètre vestige d'un impact de météorite de 100 millions d'années."
+      },
+      {
+        "id": 26,
+        "question": "Quel lac renfermant des perches du Nil est parfois surnommé la Mer de Jade ?",
+        "propositions": [
+          "Turkana",
+          "Chew Bahir",
+          "Alemaya",
+          "Chamo"
+        ],
+        "réponse": "Turkana",
+        "anecdote": "Il contenait autrefois la plus importante population africaine de crocodiles du Nil : la seule île centrale en abritait 14 000."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le plus grand lac de Suède en superficie et en volume ?",
+        "propositions": [
+          "Fryken",
+          "Vänern",
+          "Runn",
+          "Mälar"
+        ],
+        "réponse": "Vänern",
+        "anecdote": "C'est au bord du lac qu'eut lieu la bataille de Vänern durant laquelle le roi Ohthere de Suède décéda au profit de son frère Onela."
+      },
+      {
+        "id": 28,
+        "question": "Quel réservoir était, lors de son inauguration en 1961, le plus grand au monde ?",
+        "propositions": [
+          "Velmo",
+          "Kizir",
+          "Angara",
+          "Bratsk"
+        ],
+        "réponse": "Bratsk",
+        "anecdote": "Le réservoir de Bratsk s'étend sur une longueur de plus de 500 km et atteint une profondeur maximale de 150 m."
+      },
+      {
+        "id": 29,
+        "question": "Quel grand lac artificiel est partagé par la Zambie et le Zimbabwe ?",
+        "propositions": [
+          "Malombe",
+          "Kwando",
+          "Azibo",
+          "Kariba"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "Il est né avec la construction du barrage de Kariba, conçu par l'ingénieur français André Coyne et réalisé entre 1955 et 1959."
+      },
+      {
+        "id": 30,
+        "question": "Quel lac riche en poissons était anciennement appelé le lac Mobutu Sese Seko ?",
+        "propositions": [
+          "Charles",
+          "Albert",
+          "André",
+          "Édouard"
+        ],
+        "réponse": "Albert",
+        "anecdote": "Le lac Albert se trouve au centre du continent africain, à la frontière entre l'Ouganda et la République démocratique du Congo."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which closed sea fed by the Volga is the largest lake in the world ?",
+        "propositions": [
+          "Caspian Sea",
+          "Aegean Sea",
+          "Black Sea",
+          "Adriatic Sea"
+        ],
+        "réponse": "Caspian Sea",
+        "anecdote": "With an area of 371,000 km2, larger than Germany, it is the largest landlocked water body in the world."
+      },
+      {
+        "id": 2,
+        "question": "Which lake is separated from Lake Michigan by the Strait of Mackinac ?",
+        "propositions": [
+          "Erie",
+          "Winnipeg",
+          "Huron",
+          "Victoria"
+        ],
+        "réponse": "Huron",
+        "anecdote": "Like the other Great Lakes, Lake Huron was formed by melting ice during the retreat of continental glaciers."
+      },
+      {
+        "id": 3,
+        "question": "Which is the largest of the Great Lakes in North America ?",
+        "propositions": [
+          "Superior",
+          "michigan",
+          "Huron",
+          "Ontario"
+        ],
+        "réponse": "Superior",
+        "anecdote": "Straddling the United States and Canada, its area of 82,350 km2 makes it the largest freshwater lake in the world."
+      },
+      {
+        "id": 4,
+        "question": "Which lake, discovered by a Briton, is the largest in Africa ?",
+        "propositions": [
+          "Kivu",
+          "Kyoto",
+          "Edward",
+          "Victoria"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "The lake owes its name to the British explorer Speke who reached it in 1858 and named it in honor of Queen Victoria."
+      },
+      {
+        "id": 5,
+        "question": "Which lake in Africa is the longest freshwater lake in the world ?",
+        "propositions": [
+          "Tanganyika",
+          "Malawi",
+          "Victoria",
+          "Kivu"
+        ],
+        "réponse": "Tanganyika",
+        "anecdote": "The location of the lake makes it a place of remarkable tectonic activity, due to the total depth of the fault at this location."
+      },
+      {
+        "id": 6,
+        "question": "Which sacred lake is sometimes called the Pearl of Siberia ?",
+        "propositions": [
+          "Baikal",
+          "llama",
+          "khanka",
+          "keta"
+        ],
+        "réponse": "Baikal",
+        "anecdote": "Living mainly from fishing, fifty thousand people gravitate near the lake in difficult conditions where the soils are poor."
+      },
+      {
+        "id": 7,
+        "question": "The shores of which lake are shared between Malawi, Mozambique and Tanzania ?",
+        "propositions": [
+          "Malombe",
+          "Malawi",
+          "Kariba",
+          "Kivu"
+        ],
+        "réponse": "Malawi",
+        "anecdote": "Third African lake by size, Lake Malawi ranks fifth in the ranking of the world's great lakes by volume."
+      },
+      {
+        "id": 8,
+        "question": "Which lake in the Andes is crossed by Bolivia and Peru ?",
+        "propositions": [
+          "Uru Uru",
+          "poop",
+          "titicaca",
+          "Colorado"
+        ],
+        "réponse": "titicaca",
+        "anecdote": "3,812 meters high, it is by Lake Titicaca that the Aymara culture was born before colonization and Christianization."
+      },
+      {
+        "id": 9,
+        "question": "Which lake in Africa is the largest man-made lake in the world ?",
+        "propositions": [
+          "Winnipeg",
+          "Victoria",
+          "Volta",
+          "ladoga"
+        ],
+        "réponse": "Volta",
+        "anecdote": "A dam built in 1965 produces hydroelectric power (912 MW) and is also important for local transport."
+      },
+      {
+        "id": 10,
+        "question": "What is the largest salt lake in Australia and Oceania ?",
+        "propositions": [
+          "torrents",
+          "Callabona",
+          "Alexandra",
+          "eyre"
+        ],
+        "réponse": "eyre",
+        "anecdote": "Lake Eyre is also Australia's lowest point at approximately 13 meters below sea level."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which lake is directly cited as responsible for the erosion of the Nile delta ?",
+        "propositions": [
+          "tan",
+          "Nasser",
+          "albert",
+          "Sudden"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "Lake Nasser is a reservoir of 162 billion cubic meters (162 km3) of water in the middle of the Upper Egyptian desert."
+      },
+      {
+        "id": 12,
+        "question": "Bathes the province of Ontario, which is the largest freshwater lake in the world ?",
+        "propositions": [
+          "Erie",
+          "michigan",
+          "Superior",
+          "Ontario"
+        ],
+        "réponse": "Superior",
+        "anecdote": "It bathes the province of Ontario (Canada) to the north, and the states of Minnesota, Wisconsin and Michigan (United States) to the south."
+      },
+      {
+        "id": 13,
+        "question": "Which lake in the province of Manitoba is a tributary of Hudson Bay ?",
+        "propositions": [
+          "albert",
+          "Victoria",
+          "Volta",
+          "Winnipeg"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Sixth largest freshwater lake in Canada, larger than Lake Ontario, Lake Winnipeg is shallow with a maximum depth of 18 meters."
+      },
+      {
+        "id": 14,
+        "question": "What is the largest of Antarctica's subglacial lakes ?",
+        "propositions": [
+          "Vostok",
+          "Burtons",
+          "Vida",
+          "Sovetskaya"
+        ],
+        "réponse": "Vostok",
+        "anecdote": "The surface of this freshwater lake is 4,000 m below the ice surface and 500 m below sea level."
+      },
+      {
+        "id": 15,
+        "question": "In which Central American lake can bull sharks be found ?",
+        "propositions": [
+          "titicaca",
+          "Onega",
+          "ladoga",
+          "nicaragua"
+        ],
+        "réponse": "nicaragua",
+        "anecdote": "Indeed, bulldog sharks have the unique characteristic among sharks of acclimatizing to hyposaline waters."
+      },
+      {
+        "id": 16,
+        "question": "Which man-made lake is crossed by the Greenwich meridian ?",
+        "propositions": [
+          "Huron",
+          "Volta",
+          "Smallwood",
+          "Superior"
+        ],
+        "réponse": "Volta",
+        "anecdote": "A freshwater reservoir on the Volta River in Ghana in Africa, Lake Volta is the largest man-made lake in the world."
+      },
+      {
+        "id": 17,
+        "question": "Which lake once formed the northwestern border of the Chinese Empire ?",
+        "propositions": [
+          "jasybay",
+          "chagan",
+          "alkol",
+          "Balkhash"
+        ],
+        "réponse": "Balkhash",
+        "anecdote": "Lake Balkhash is seriously threatened by severe pollution caused by several industrial complexes located on its shores."
+      },
+      {
+        "id": 18,
+        "question": "Which lake provided the only access to Leningrad during the siege of 1941-1944 ?",
+        "propositions": [
+          "brosno",
+          "Toulouse",
+          "Kasplia",
+          "ladoga"
+        ],
+        "réponse": "ladoga",
+        "anecdote": "Goods were transported to Leningrad by trucks traveling on winter roads over the frozen lake."
+      },
+      {
+        "id": 19,
+        "question": "Which lake in Venezuela, considered as such, is in fact a bay ?",
+        "propositions": [
+          "Toulouse",
+          "València",
+          "Maracaibo",
+          "guri"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Considered the largest lake in South America, Lake Maracaibo has a maximum depth of 60 meters."
+      },
+      {
+        "id": 20,
+        "question": "Which lake was recognized as a biosphere reserve by Unesco in 1997 ?",
+        "propositions": [
+          "building",
+          "SAP",
+          "Tonle Sap",
+          "Loum"
+        ],
+        "réponse": "Tonle Sap",
+        "anecdote": "The lake is located in the very center of Cambodia, with a northwest-southeast orientation, offering the historical site of Angkor to the north."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which lake in Russia is the second largest lake in Europe ?",
+        "propositions": [
+          "Cheko",
+          "Onega",
+          "Abraou",
+          "baount"
+        ],
+        "réponse": "Onega",
+        "anecdote": "Lake Onega contains 1,369 islands and islets, the best known being Kiji, renowned for its wooden churchyard (Pogost de Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "Which lake in Zambia is populated by crocodiles that are dangerous for anglers ?",
+        "propositions": [
+          "bangwelo",
+          "mbali",
+          "kawe",
+          "moero"
+        ],
+        "réponse": "bangwelo",
+        "anecdote": "David Livingstone was the first European to see the lake during his explorations and died in 1873 not far from it."
+      },
+      {
+        "id": 23,
+        "question": "On the shores of which lake was the mining town of Uranium City ?",
+        "propositions": [
+          "Bischo",
+          "Athabasca",
+          "moraine",
+          "Beauvert"
+        ],
+        "réponse": "Athabasca",
+        "anecdote": "Although stopped around the 1980s, the consequences of the mining industry are a contamination of the north shore."
+      },
+      {
+        "id": 24,
+        "question": "Which reservoir in Canada is made up of 88 dykes 36 meters high ?",
+        "propositions": [
+          "Williston",
+          "Abraham",
+          "Smallwood",
+          "nechako"
+        ],
+        "réponse": "Smallwood",
+        "anecdote": "Built to control the waters of the Churchill River, the Smallwood Reservoir has an area of 6,527 km2."
+      },
+      {
+        "id": 25,
+        "question": "Which lake is also known as Lac du Caribou ?",
+        "propositions": [
+          "reindeer",
+          "Falcon",
+          "Nueltine",
+          "Molson"
+        ],
+        "réponse": "reindeer",
+        "anecdote": "To the south of the lake is the Deep Bay, a circular bay 13 km in diameter left over from a 100 million year old meteorite impact."
+      },
+      {
+        "id": 26,
+        "question": "Which Nile perch lake is sometimes called the Jade Sea ?",
+        "propositions": [
+          "chamo",
+          "Chew Bahir",
+          "alemaya",
+          "turkana"
+        ],
+        "réponse": "turkana",
+        "anecdote": "It once contained Africa's largest population of Nile crocodiles : the central island alone was home to 14,000."
+      },
+      {
+        "id": 27,
+        "question": "What is the largest lake in Sweden by area and volume ?",
+        "propositions": [
+          "friken",
+          "vanern",
+          "Run",
+          "Malar"
+        ],
+        "réponse": "vanern",
+        "anecdote": "It was by the lake that the battle of Vänern took place during which King Ohthere of Sweden died in favor of his brother Onela."
+      },
+      {
+        "id": 28,
+        "question": "Which reservoir was, when it was inaugurated in 1961, the largest in the world ?",
+        "propositions": [
+          "Velo",
+          "angara",
+          "Bratsky",
+          "Kizir"
+        ],
+        "réponse": "Bratsky",
+        "anecdote": "The Bratsk Reservoir extends over a length of more than 500 km and reaches a maximum depth of 150 m."
+      },
+      {
+        "id": 29,
+        "question": "What large man-made lake is shared by Zambia and Zimbabwe ?",
+        "propositions": [
+          "Malombe",
+          "Azibo",
+          "Kariba",
+          "kwando"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "It was born with the construction of the Kariba dam, designed by the French engineer André Coyne and carried out between 1955 and 1959."
+      },
+      {
+        "id": 30,
+        "question": "Which fish-rich lake was formerly called Lake Mobutu Sese Seko ?",
+        "propositions": [
+          "Edward",
+          "Charles",
+          "Andrew",
+          "albert"
+        ],
+        "réponse": "albert",
+        "anecdote": "Lake Albert is located in the center of the African continent, on the border between Uganda and the Democratic Republic of Congo."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches geschlossene Meer, das von der Wolga gespeist wird, ist der größte See der Welt ?",
+        "propositions": [
+          "Ägäis",
+          "Schwarzes Meer",
+          "Kaspisches Meer",
+          "Adriatisches Meer"
+        ],
+        "réponse": "Kaspisches Meer",
+        "anecdote": "Mit einer Fläche von 371.000 km2, größer als Deutschland, ist es das größte Binnengewässer der Welt."
+      },
+      {
+        "id": 2,
+        "question": "Welcher See wird durch die Straße von Mackinac vom Lake Michigan getrennt ?",
+        "propositions": [
+          "Viktoria",
+          "Erie",
+          "Winnipeg",
+          "Huron"
+        ],
+        "réponse": "Huron",
+        "anecdote": "Wie die anderen Großen Seen entstand auch der Huronsee durch schmelzendes Eis während des Rückzugs kontinentaler Gletscher."
+      },
+      {
+        "id": 3,
+        "question": "Welcher ist der größte der Großen Seen in Nordamerika ?",
+        "propositions": [
+          "Michigan",
+          "Überlegen",
+          "Huron",
+          "Ontario"
+        ],
+        "réponse": "Überlegen",
+        "anecdote": "Er erstreckt sich über die Vereinigten Staaten und Kanada und ist mit seiner Fläche von 82.350 km2 der größte Süßwassersee der Welt."
+      },
+      {
+        "id": 4,
+        "question": "Welcher von einem Briten entdeckte See ist der größte Afrikas ?",
+        "propositions": [
+          "Eduard",
+          "Ky ?to",
+          "Kiwu",
+          "Viktoria"
+        ],
+        "réponse": "Viktoria",
+        "anecdote": "Der See verdankt seinen Namen dem britischen Entdecker Speke, der ihn 1858 erreichte und zu Ehren von Königin Victoria benannte."
+      },
+      {
+        "id": 5,
+        "question": "Welcher See in Afrika ist der längste Süßwassersee der Welt ?",
+        "propositions": [
+          "Malawi",
+          "Tanganjika",
+          "Viktoria",
+          "Kiwu"
+        ],
+        "réponse": "Tanganjika",
+        "anecdote": "Die Lage des Sees macht ihn aufgrund der Gesamttiefe der Verwerfung an diesem Ort zu einem Ort bemerkenswerter tektonischer Aktivität."
+      },
+      {
+        "id": 6,
+        "question": "Welcher heilige See wird manchmal als Perle Sibiriens bezeichnet ?",
+        "propositions": [
+          "Keta",
+          "Baikalsee",
+          "Chanka",
+          "Lama"
+        ],
+        "réponse": "Baikalsee",
+        "anecdote": "Fünfzigtausend Menschen, die hauptsächlich vom Fischfang leben, leben in der Nähe des Sees unter schwierigen Bedingungen, wo die Böden schlecht sind."
+      },
+      {
+        "id": 7,
+        "question": "Die Ufer welchen Sees teilen sich Malawi, Mosambik und Tansania ?",
+        "propositions": [
+          "Kariba",
+          "Malombe",
+          "Kiwu",
+          "Malawi"
+        ],
+        "réponse": "Malawi",
+        "anecdote": "Als dritter afrikanischer See nach Größe belegt der Malawi-See den fünften Platz in der Rangliste der großen Seen der Welt nach Volumen."
+      },
+      {
+        "id": 8,
+        "question": "Welcher See in den Anden wird von Bolivien und Peru überquert ?",
+        "propositions": [
+          "Uru Uru",
+          "Titicacasee",
+          "Colorado",
+          "kacken"
+        ],
+        "réponse": "Titicacasee",
+        "anecdote": "3.812 Meter hoch, am Titicacasee wurde die Aymara-Kultur vor der Kolonialisierung und Christianisierung geboren."
+      },
+      {
+        "id": 9,
+        "question": "Welcher See in Afrika ist der größte künstliche See der Welt ?",
+        "propositions": [
+          "Viktoria",
+          "Winnipeg",
+          "ladoga",
+          "Volta"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Ein 1965 errichteter Damm produziert Strom aus Wasserkraft (912 MW) und ist auch für den Nahverkehr wichtig."
+      },
+      {
+        "id": 10,
+        "question": "Was ist der größte Salzsee in Australien und Ozeanien ?",
+        "propositions": [
+          "Callabona",
+          "Auge",
+          "Ströme",
+          "Alexandra"
+        ],
+        "réponse": "Auge",
+        "anecdote": "Lake Eyre ist mit etwa 13 Metern unter dem Meeresspiegel auch der niedrigste Punkt Australiens."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher See wird direkt als verantwortlich für die Erosion des Nildeltas genannt ?",
+        "propositions": [
+          "Albert",
+          "braun",
+          "Plötzlich",
+          "Nasser"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "Der Nassersee ist ein Reservoir von 162 Milliarden Kubikmetern (162 km3) Wasser inmitten der oberägyptischen Wüste."
+      },
+      {
+        "id": 12,
+        "question": "Badet die Provinz Ontario den größten Süßwassersee der Welt ?",
+        "propositions": [
+          "Michigan",
+          "Überlegen",
+          "Erie",
+          "Ontario"
+        ],
+        "réponse": "Überlegen",
+        "anecdote": "Es umspült die Provinz Ontario (Kanada) im Norden und die Bundesstaaten Minnesota, Wisconsin und Michigan (USA) im Süden."
+      },
+      {
+        "id": 13,
+        "question": "Welcher See in der Provinz Manitoba ist ein Nebenfluss der Hudson Bay ?",
+        "propositions": [
+          "Volta",
+          "Albert",
+          "Winnipeg",
+          "Viktoria"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Der sechstgrößte Süßwassersee in Kanada, größer als der Ontariosee, ist der Lake Winnipeg mit einer maximalen Tiefe von 18 Metern seicht."
+      },
+      {
+        "id": 14,
+        "question": "Was ist der größte der subglazialen Seen der Antarktis ?",
+        "propositions": [
+          "Wostok",
+          "Sowjetskaja",
+          "Vida",
+          "Burtons"
+        ],
+        "réponse": "Wostok",
+        "anecdote": "Die Oberfläche dieses Süßwassersees liegt 4.000 m unter der Eisoberfläche und 500 m unter dem Meeresspiegel."
+      },
+      {
+        "id": 15,
+        "question": "In welchem zentralamerikanischen See kommen Bullenhaie vor ?",
+        "propositions": [
+          "ladoga",
+          "Onega",
+          "Nicaragua",
+          "Titicacasee"
+        ],
+        "réponse": "Nicaragua",
+        "anecdote": "Tatsächlich haben Bulldoggenhaie die einzigartige Eigenschaft unter den Haien, sich an hyposalzhaltiges Wasser zu gewöhnen."
+      },
+      {
+        "id": 16,
+        "question": "Welcher künstliche See wird vom Meridian von Greenwich durchquert ?",
+        "propositions": [
+          "Kleinholz",
+          "Überlegen",
+          "Volta",
+          "Huron"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Der Voltasee ist ein Süßwasserreservoir am Volta-Fluss in Ghana in Afrika und der größte künstliche See der Welt."
+      },
+      {
+        "id": 17,
+        "question": "Welcher See bildete einst die nordwestliche Grenze des chinesischen Reiches ?",
+        "propositions": [
+          "chagan",
+          "jasybay",
+          "Balchasch",
+          "Alkohol"
+        ],
+        "réponse": "Balchasch",
+        "anecdote": "Der Balkhash-See ist ernsthaft durch die starke Verschmutzung bedroht, die durch mehrere Industriekomplexe an seinen Ufern verursacht wird."
+      },
+      {
+        "id": 18,
+        "question": "Welcher See bot während der Belagerung von 1941-1944 den einzigen Zugang nach Leningrad ?",
+        "propositions": [
+          "Toulouse",
+          "ladoga",
+          "Brosno",
+          "Kasplia"
+        ],
+        "réponse": "ladoga",
+        "anecdote": "Waren wurden mit Lastwagen nach Leningrad transportiert, die auf Winterstraßen über den zugefrorenen See fuhren."
+      },
+      {
+        "id": 19,
+        "question": "Welcher See in Venezuela ist als solcher betrachtet eigentlich eine Bucht ?",
+        "propositions": [
+          "guri",
+          "Valencia",
+          "Maracaibo",
+          "Toulouse"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Der Maracaibo-See gilt als größter See Südamerikas und hat eine maximale Tiefe von 60 Metern."
+      },
+      {
+        "id": 20,
+        "question": "Welcher See wurde 1997 von der Unesco als Biosphärenreservat anerkannt ?",
+        "propositions": [
+          "Gebäude",
+          "Laut",
+          "SAP",
+          "Tonle Saft"
+        ],
+        "réponse": "Tonle Saft",
+        "anecdote": "Der See liegt im Zentrum von Kambodscha, mit einer Nordwest-Südost-Ausrichtung und bietet im Norden die historische Stätte Angkor."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher See in Russland ist der zweitgrößte See Europas ?",
+        "propositions": [
+          "Auftrieb",
+          "Onega",
+          "Abrau",
+          "Cheko"
+        ],
+        "réponse": "Onega",
+        "anecdote": "Der Onegasee enthält 1.369 Inseln und Inselchen, die bekannteste ist Kiji, bekannt für seinen hölzernen Kirchhof (Pogost of Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "Welcher See in Sambia wird von Krokodilen bevölkert, die für Angler gefährlich sind ?",
+        "propositions": [
+          "mbali",
+          "bangwelo",
+          "kawe",
+          "moero"
+        ],
+        "réponse": "bangwelo",
+        "anecdote": "David Livingstone war der erste Europäer, der den See bei seinen Erkundungen zu Gesicht bekam und starb 1873 nicht weit davon entfernt."
+      },
+      {
+        "id": 23,
+        "question": "An den Ufern welchen Sees lag die Bergbaustadt Uranium City ?",
+        "propositions": [
+          "Moräne",
+          "Beauvert",
+          "Bischof",
+          "Athabaska"
+        ],
+        "réponse": "Athabaska",
+        "anecdote": "Obwohl um die 1980er Jahre gestoppt, sind die Folgen der Bergbauindustrie eine Kontamination der Nordküste."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Stausee in Kanada besteht aus 88 Deichen mit einer Höhe von 36 Metern ?",
+        "propositions": [
+          "Abraham",
+          "Kleinholz",
+          "Williston",
+          "Nechako"
+        ],
+        "réponse": "Kleinholz",
+        "anecdote": "Das Smallwood Reservoir wurde gebaut, um das Wasser des Churchill River zu kontrollieren und erstreckt sich über eine Fläche von 6.527 km2."
+      },
+      {
+        "id": 25,
+        "question": "Welcher See ist auch als Lac du Caribou bekannt ?",
+        "propositions": [
+          "Rentier",
+          "Nueltine",
+          "Falke",
+          "Molson"
+        ],
+        "réponse": "Rentier",
+        "anecdote": "Südlich des Sees liegt die Deep Bay, eine kreisförmige Bucht mit 13 km Durchmesser, die von einem 100 Millionen Jahre alten Meteoriteneinschlag übrig geblieben ist."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Nilbarschsee wird manchmal Jademeer genannt ?",
+        "propositions": [
+          "Bahir kauen",
+          "Gämse",
+          "Turkana",
+          "Alemaja"
+        ],
+        "réponse": "Turkana",
+        "anecdote": "Einst beherbergte sie Afrikas größte Population von Nilkrokodilen : Allein auf der zentralen Insel lebten 14 000."
+      },
+      {
+        "id": 27,
+        "question": "Was ist der größte See Schwedens nach Fläche und Volumen ?",
+        "propositions": [
+          "friken",
+          "Ausführen",
+          "Vanern",
+          "Mala"
+        ],
+        "réponse": "Vanern",
+        "anecdote": "Am See fand die Schlacht von Vänern statt, in der König Ohthere von Schweden zugunsten seines Bruders Onela starb."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Stausee war bei seiner Einweihung 1961 der größte der Welt ?",
+        "propositions": [
+          "Angara",
+          "Kizir",
+          "Bratsky",
+          "Geschwindigkeit"
+        ],
+        "réponse": "Bratsky",
+        "anecdote": "Der Bratsk-Stausee erstreckt sich über eine Länge von mehr als 500 km und erreicht eine maximale Tiefe von 150 m."
+      },
+      {
+        "id": 29,
+        "question": "Welchen großen künstlichen See teilen sich Sambia und Simbabwe ?",
+        "propositions": [
+          "Kariba",
+          "Malombe",
+          "Kwando",
+          "Azibo"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "Es wurde mit dem Bau des Kariba-Staudamms geboren, der von dem französischen Ingenieur André Coyne entworfen und zwischen 1955 und 1959 durchgeführt wurde."
+      },
+      {
+        "id": 30,
+        "question": "Welcher fischreiche See hieß früher Lake Mobutu Sese Seko ?",
+        "propositions": [
+          "Albert",
+          "Andreas",
+          "Eduard",
+          "Karl"
+        ],
+        "réponse": "Albert",
+        "anecdote": "Der Lake Albert liegt im Zentrum des afrikanischen Kontinents, an der Grenze zwischen Uganda und der Demokratischen Republik Kongo."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué mar cerrado alimentado por el Volga es el lago más grande del mundo ?",
+        "propositions": [
+          "Mar Adriático",
+          "Mar Caspio",
+          "Mar Egeo",
+          "Mar Negro"
+        ],
+        "réponse": "Mar Caspio",
+        "anecdote": "Con una superficie de 371.000 km2, más grande que Alemania, es la masa de agua sin salida al mar más grande del mundo."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué lago está separado del lago Michigan por el estrecho de Mackinac ?",
+        "propositions": [
+          "Érie",
+          "vitoria",
+          "hurón",
+          "Winnipeg"
+        ],
+        "réponse": "hurón",
+        "anecdote": "Al igual que los otros Grandes Lagos, el lago Huron se formó por el derretimiento del hielo durante el retroceso de los glaciares continentales."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál es el mayor de los Grandes Lagos de América del Norte ?",
+        "propositions": [
+          "ontario",
+          "hurón",
+          "michigan",
+          "superiores"
+        ],
+        "réponse": "superiores",
+        "anecdote": "A caballo entre Estados Unidos y Canadá, su superficie de 82.350 km2 lo convierte en el lago de agua dulce más grande del mundo."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué lago, descubierto por un británico, es el más grande de África ?",
+        "propositions": [
+          "Eduardo",
+          "Kioto",
+          "vitoria",
+          "Kivu"
+        ],
+        "réponse": "vitoria",
+        "anecdote": "El lago debe su nombre al explorador británico Speke, quien lo alcanzó en 1858 y lo nombró en honor a la reina Victoria."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué lago de África es el lago de agua dulce más largo del mundo ?",
+        "propositions": [
+          "Malaui",
+          "Kivu",
+          "Tanganica",
+          "vitoria"
+        ],
+        "réponse": "Tanganica",
+        "anecdote": "La ubicación del lago lo convierte en un lugar de notable actividad tectónica, debido a la profundidad total de la falla en este lugar."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué lago sagrado a veces se llama la Perla de Siberia ?",
+        "propositions": [
+          "Baikal",
+          "khanka",
+          "llamas",
+          "keta"
+        ],
+        "réponse": "Baikal",
+        "anecdote": "Viviendo principalmente de la pesca, cincuenta mil personas gravitan cerca del lago en condiciones difíciles donde los suelos son pobres."
+      },
+      {
+        "id": 7,
+        "question": "¿Las orillas de qué lago comparten Malawi, Mozambique y Tanzania ?",
+        "propositions": [
+          "Kivu",
+          "Malaui",
+          "Kariba",
+          "Malombé"
+        ],
+        "réponse": "Malaui",
+        "anecdote": "Tercer lago africano por tamaño, el lago Malawi ocupa el quinto lugar en el ranking de los grandes lagos del mundo por volumen."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué lago de los Andes es atravesado por Bolivia y Perú ?",
+        "propositions": [
+          "uru uru",
+          "titicaca",
+          "colorado",
+          "caca"
+        ],
+        "réponse": "titicaca",
+        "anecdote": "Con 3.812 metros de altura, es a orillas del lago Titicaca donde nació la cultura aymara antes de la colonización y la cristianización."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué lago en África es el lago artificial más grande del mundo ?",
+        "propositions": [
+          "voltaje",
+          "Winnipeg",
+          "vitoria",
+          "ladoga"
+        ],
+        "réponse": "voltaje",
+        "anecdote": "Una represa construida en 1965 produce energía hidroeléctrica (912 MW) y también es importante para el transporte local."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál es el lago salado más grande de Australia y Oceanía ?",
+        "propositions": [
+          "Alejandra",
+          "Callabona",
+          "torrentes",
+          "eyre"
+        ],
+        "réponse": "eyre",
+        "anecdote": "El lago Eyre es también el punto más bajo de Australia a aproximadamente 13 metros bajo el nivel del mar."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué lago se cita directamente como responsable de la erosión del delta del Nilo ?",
+        "propositions": [
+          "alberto",
+          "Repentino",
+          "Nasser",
+          "bronceado"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "El lago Nasser es un embalse de 162 mil millones de metros cúbicos (162 km3) de agua en medio del desierto del Alto Egipto."
+      },
+      {
+        "id": 12,
+        "question": "Baña a la provincia de Ontario, que es el lago de agua dulce más grande del mundo ?",
+        "propositions": [
+          "ontario",
+          "superiores",
+          "Érie",
+          "michigan"
+        ],
+        "réponse": "superiores",
+        "anecdote": "Baña la provincia de Ontario (Canadá) por el norte, y los estados de Minnesota, Wisconsin y Michigan (Estados Unidos) por el sur."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué lago en la provincia de Manitoba es un afluente de la Bahía de Hudson ?",
+        "propositions": [
+          "alberto",
+          "vitoria",
+          "voltaje",
+          "Winnipeg"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Sexto lago de agua dulce más grande de Canadá, más grande que el lago Ontario, el lago Winnipeg es poco profundo con una profundidad máxima de 18 metros."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el mayor de los lagos subglaciales de la Antártida ?",
+        "propositions": [
+          "sovetskaya",
+          "Vostok",
+          "vida",
+          "Burtons"
+        ],
+        "réponse": "Vostok",
+        "anecdote": "La superficie de este lago de agua dulce se encuentra a 4.000 m por debajo de la superficie del hielo ya 500 m por debajo del nivel del mar."
+      },
+      {
+        "id": 15,
+        "question": "¿En qué lago centroamericano se pueden encontrar tiburones toro ?",
+        "propositions": [
+          "titicaca",
+          "ladoga",
+          "Onega",
+          "Nicaragua"
+        ],
+        "réponse": "Nicaragua",
+        "anecdote": "De hecho, los tiburones bulldog tienen la característica única entre los tiburones de aclimatarse a aguas hiposalinas."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué lago artificial está atravesado por el meridiano de Greenwich ?",
+        "propositions": [
+          "voltaje",
+          "hurón",
+          "superiores",
+          "Madera pequeña"
+        ],
+        "réponse": "voltaje",
+        "anecdote": "Un depósito de agua dulce en el río Volta en Ghana en África, el lago Volta es el lago artificial más grande del mundo."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué lago formó una vez la frontera noroeste del Imperio chino ?",
+        "propositions": [
+          "alcohol",
+          "chagan",
+          "Baljash",
+          "jaybay"
+        ],
+        "réponse": "Baljash",
+        "anecdote": "El lago Balkhash está seriamente amenazado por la severa contaminación causada por varios complejos industriales ubicados en sus orillas."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué lago proporcionó el único acceso a Leningrado durante el asedio de 1941-1944 ?",
+        "propositions": [
+          "Brosno",
+          "Tolosa",
+          "ladoga",
+          "Casplia"
+        ],
+        "réponse": "ladoga",
+        "anecdote": "Las mercancías se transportaban a Leningrado en camiones que viajaban por carreteras invernales sobre el lago helado."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué lago de Venezuela, considerado como tal, es en realidad una bahía ?",
+        "propositions": [
+          "guri",
+          "Tolosa",
+          "Maracaibo",
+          "Valencia"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Considerado el lago más grande de América del Sur, el lago de Maracaibo tiene una profundidad máxima de 60 metros."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué lago fue reconocido como reserva de la biosfera por la Unesco en 1997 ?",
+        "propositions": [
+          "Loum",
+          "edificio",
+          "Savia de Tonlé",
+          "SAP"
+        ],
+        "réponse": "Savia de Tonlé",
+        "anecdote": "El lago está ubicado en el mismo centro de Camboya, con una orientación noroeste-sureste, ofreciendo el sitio histórico de Angkor al norte."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué lago en Rusia es el segundo lago más grande de Europa ?",
+        "propositions": [
+          "Onega",
+          "checo",
+          "baunt",
+          "Abrau"
+        ],
+        "réponse": "Onega",
+        "anecdote": "El lago Onega contiene 1.369 islas e islotes, el más conocido es Kiji, famoso por su cementerio de madera (Pogost de Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué lago en Zambia está poblado por cocodrilos que son peligrosos para los pescadores ?",
+        "propositions": [
+          "mbali",
+          "moero",
+          "bangwelo",
+          "Kawé"
+        ],
+        "réponse": "bangwelo",
+        "anecdote": "David Livingstone fue el primer europeo en ver el lago durante sus exploraciones y murió en 1873 no muy lejos de él."
+      },
+      {
+        "id": 23,
+        "question": "¿A orillas de qué lago se encontraba el pueblo minero de Uranium City ?",
+        "propositions": [
+          "Beauvert",
+          "Atabasca",
+          "bizcocho",
+          "morrena"
+        ],
+        "réponse": "Atabasca",
+        "anecdote": "Aunque se detuvo alrededor de la década de 1980, las consecuencias de la industria minera son una contaminación de la costa norte."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué embalse de Canadá está formado por 88 diques de 36 metros de altura ?",
+        "propositions": [
+          "Madera pequeña",
+          "Abrahán",
+          "nechako",
+          "Williston"
+        ],
+        "réponse": "Madera pequeña",
+        "anecdote": "Construido para controlar las aguas del río Churchill, el embalse de Smallwood cubre un área de 6.527 km2."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué lago también se conoce como Lac du Caribou ?",
+        "propositions": [
+          "Nueltina",
+          "reno",
+          "Molson",
+          "Halcón"
+        ],
+        "réponse": "reno",
+        "anecdote": "Al sur del lago se encuentra Deep Bay, una bahía circular de 13 km de diámetro que quedó del impacto de un meteorito de 100 millones de años."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué lago de perca del Nilo a veces se llama Mar de Jade ?",
+        "propositions": [
+          "chamo",
+          "masticar bahir",
+          "turkana",
+          "alemaya"
+        ],
+        "réponse": "turkana",
+        "anecdote": "Alguna vez contuvo la mayor población de cocodrilos del Nilo de África : solo la isla central albergaba a 14 000."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es el lago más grande de Suecia por área y volumen ?",
+        "propositions": [
+          "malar",
+          "Ejecutar",
+          "joder",
+          "vanern"
+        ],
+        "réponse": "vanern",
+        "anecdote": "Fue junto al lago donde tuvo lugar la batalla de Vänern durante la cual el rey Ohthere de Suecia murió en favor de su hermano Onela."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué embalse era, cuando se inauguró en 1961, el más grande del mundo ?",
+        "propositions": [
+          "Velo",
+          "angara",
+          "Kizir",
+          "bratsky"
+        ],
+        "réponse": "bratsky",
+        "anecdote": "El embalse de Bratsk se extiende sobre una longitud de más de 500 km y alcanza una profundidad máxima de 150 m."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué gran lago artificial comparten Zambia y Zimbabue ?",
+        "propositions": [
+          "Azibo",
+          "kwando",
+          "Malombé",
+          "Kariba"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "Nace con la construcción de la presa Kariba, diseñada por el ingeniero francés André Coyne y realizada entre 1955 y 1959."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué lago rico en peces se llamaba anteriormente lago Mobutu Sese Seko ?",
+        "propositions": [
+          "Andrés",
+          "Eduardo",
+          "alberto",
+          "Carlos"
+        ],
+        "réponse": "alberto",
+        "anecdote": "El lago Albert se encuentra en el centro del continente africano, en la frontera entre Uganda y la República Democrática del Congo."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale mare chiuso alimentato dal Volga è il lago più grande del mondo ?",
+        "propositions": [
+          "Mar Nero",
+          "Mar Egeo",
+          "Mar Caspio",
+          "Mare Adriatico"
+        ],
+        "réponse": "Mar Caspio",
+        "anecdote": "Con un'area di 371.000 km2, più grande della Germania, è il più grande corpo idrico senza sbocco sul mare del mondo."
+      },
+      {
+        "id": 2,
+        "question": "Quale lago è separato dal lago Michigan dallo Stretto di Mackinac ?",
+        "propositions": [
+          "Winnipeg",
+          "Vittoria",
+          "Urone",
+          "Erie"
+        ],
+        "réponse": "Urone",
+        "anecdote": "Come gli altri Grandi Laghi, il Lago Huron si è formato dallo scioglimento dei ghiacci durante il ritiro dei ghiacciai continentali."
+      },
+      {
+        "id": 3,
+        "question": "Qual è il più grande dei Grandi Laghi del Nord America ?",
+        "propositions": [
+          "Ontario",
+          "Superiore",
+          "Urone",
+          "michigan"
+        ],
+        "réponse": "Superiore",
+        "anecdote": "A cavallo tra Stati Uniti e Canada, la sua superficie di 82.350 km2 lo rende il più grande lago d'acqua dolce del mondo."
+      },
+      {
+        "id": 4,
+        "question": "Quale lago, scoperto da un britannico, è il più grande dell'Africa ?",
+        "propositions": [
+          "Kyoto",
+          "Vittoria",
+          "Edoardo",
+          "Kivù"
+        ],
+        "réponse": "Vittoria",
+        "anecdote": "Il lago deve il suo nome all'esploratore britannico Speke che lo raggiunse nel 1858 e lo chiamò in onore della regina Vittoria."
+      },
+      {
+        "id": 5,
+        "question": "Quale lago in Africa è il lago d'acqua dolce più lungo del mondo ?",
+        "propositions": [
+          "Vittoria",
+          "Kivù",
+          "Tanganica",
+          "Malawi"
+        ],
+        "réponse": "Tanganica",
+        "anecdote": "La posizione del lago ne fa un luogo di notevole attività tettonica, data la profondità totale della faglia in questa località."
+      },
+      {
+        "id": 6,
+        "question": "Quale lago sacro è talvolta chiamato la Perla della Siberia ?",
+        "propositions": [
+          "keta",
+          "lama",
+          "Baikal",
+          "caca"
+        ],
+        "réponse": "Baikal",
+        "anecdote": "Vivendo principalmente di pesca, cinquantamila persone gravitano vicino al lago in condizioni difficili dove i terreni sono poveri."
+      },
+      {
+        "id": 7,
+        "question": "Le sponde di quale lago sono condivisi tra Malawi, Mozambico e Tanzania ?",
+        "propositions": [
+          "Malawi",
+          "Malombe",
+          "Kivù",
+          "Kariba"
+        ],
+        "réponse": "Malawi",
+        "anecdote": "Terzo lago africano per dimensione, il lago Malawi è al quinto posto nella classifica dei grandi laghi del mondo per volume."
+      },
+      {
+        "id": 8,
+        "question": "Quale lago delle Ande è attraversato dalla Bolivia e dal Perù ?",
+        "propositions": [
+          "Colorado",
+          "Uru Uru",
+          "titicaca",
+          "cacca"
+        ],
+        "réponse": "titicaca",
+        "anecdote": "Alta 3.812 metri, è presso il Lago Titicaca che la cultura Aymara è nata prima della colonizzazione e della cristianizzazione."
+      },
+      {
+        "id": 9,
+        "question": "Quale lago in Africa è il più grande lago artificiale del mondo ?",
+        "propositions": [
+          "Volta",
+          "ladoga",
+          "Winnipeg",
+          "Vittoria"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Una diga costruita nel 1965 produce energia idroelettrica (912 MW) ed è importante anche per il trasporto locale."
+      },
+      {
+        "id": 10,
+        "question": "Qual è il più grande lago salato dell'Australia e dell'Oceania ?",
+        "propositions": [
+          "eyre",
+          "Callabona",
+          "Alessandra",
+          "torrent"
+        ],
+        "réponse": "eyre",
+        "anecdote": "Il lago Eyre è anche il punto più basso dell'Australia a circa 13 metri sotto il livello del mare."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale lago è direttamente citato come responsabile dell'erosione del delta del Nilo ?",
+        "propositions": [
+          "alberto",
+          "Improvviso",
+          "Nasser",
+          "abbronzatura"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "Il lago Nasser è un bacino idrico di 162 miliardi di metri cubi (162 km3) d'acqua nel mezzo del deserto dell'Alto Egitto."
+      },
+      {
+        "id": 12,
+        "question": "Bagna la provincia dell'Ontario, che è il più grande lago d'acqua dolce del mondo ?",
+        "propositions": [
+          "Ontario",
+          "Erie",
+          "michigan",
+          "Superiore"
+        ],
+        "réponse": "Superiore",
+        "anecdote": "Bagna la provincia dell'Ontario (Canada) a nord e gli stati del Minnesota, Wisconsin e Michigan (Stati Uniti) a sud."
+      },
+      {
+        "id": 13,
+        "question": "Quale lago della provincia del Manitoba è un affluente della Baia di Hudson ?",
+        "propositions": [
+          "alberto",
+          "Vittoria",
+          "Volta",
+          "Winnipeg"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Sesto lago d'acqua dolce più grande del Canada, più grande del lago Ontario, il lago Winnipeg è poco profondo con una profondità massima di 18 metri."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il più grande dei laghi subglaciali dell'Antartide ?",
+        "propositions": [
+          "Sovetskaya",
+          "Vida",
+          "Vostok",
+          "Burton"
+        ],
+        "réponse": "Vostok",
+        "anecdote": "La superficie di questo lago d'acqua dolce è 4.000 m sotto la superficie del ghiaccio e 500 m sotto il livello del mare."
+      },
+      {
+        "id": 15,
+        "question": "In quale lago centroamericano si possono trovare squali toro ?",
+        "propositions": [
+          "ladoga",
+          "titicaca",
+          "nicaragua",
+          "Onega"
+        ],
+        "réponse": "nicaragua",
+        "anecdote": "In effetti, gli squali bulldog hanno la caratteristica unica tra gli squali di acclimatarsi alle acque iposaline."
+      },
+      {
+        "id": 16,
+        "question": "Quale lago artificiale è attraversato dal meridiano di Greenwich ?",
+        "propositions": [
+          "Volta",
+          "Smallwood",
+          "Superiore",
+          "Urone"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Un bacino d'acqua dolce sul fiume Volta in Ghana in Africa, il Lago Volta è il più grande lago artificiale del mondo."
+      },
+      {
+        "id": 17,
+        "question": "Quale lago un tempo costituiva il confine nord-occidentale dell'Impero cinese ?",
+        "propositions": [
+          "chagan",
+          "Balcash",
+          "alcol",
+          "jasybay"
+        ],
+        "réponse": "Balcash",
+        "anecdote": "Il lago Balkhash è seriamente minacciato dal grave inquinamento causato da numerosi complessi industriali situati sulle sue rive."
+      },
+      {
+        "id": 18,
+        "question": "Quale lago forniva l'unico accesso a Leningrado durante l'assedio del 1941-1944 ?",
+        "propositions": [
+          "Tolosa",
+          "Kasplia",
+          "ladoga",
+          "Brosno"
+        ],
+        "réponse": "ladoga",
+        "anecdote": "Le merci venivano trasportate a Leningrado da camion che viaggiavano su strade invernali sul lago ghiacciato."
+      },
+      {
+        "id": 19,
+        "question": "Quale lago del Venezuela, considerato tale, è in realtà una baia ?",
+        "propositions": [
+          "Valencia",
+          "Tolosa",
+          "guri",
+          "Maracaibo"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Considerato il lago più grande del Sud America, il lago Maracaibo ha una profondità massima di 60 metri."
+      },
+      {
+        "id": 20,
+        "question": "Quale lago è stato riconosciuto come riserva della biosfera dall'Unesco nel 1997 ?",
+        "propositions": [
+          "Tonle Sap",
+          "edificio",
+          "Loum",
+          "SAP"
+        ],
+        "réponse": "Tonle Sap",
+        "anecdote": "Il lago si trova nel centro della Cambogia, con un orientamento nord-ovest-sud-est, offrendo il sito storico di Angkor a nord."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale lago in Russia è il secondo lago più grande d'Europa ?",
+        "propositions": [
+          "Onega",
+          "Abraou",
+          "Cheko",
+          "baount"
+        ],
+        "réponse": "Onega",
+        "anecdote": "Il lago Onega contiene 1.369 isole e isolotti, il più noto è Kiji, rinomato per il suo cimitero in legno (Pogost di Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "Quale lago dello Zambia è popolato da coccodrilli pericolosi per i pescatori ?",
+        "propositions": [
+          "moero",
+          "bangwelo",
+          "mbali",
+          "kawe"
+        ],
+        "réponse": "bangwelo",
+        "anecdote": "David Livingstone fu il primo europeo a vedere il lago durante le sue esplorazioni e morì nel 1873 non lontano da esso."
+      },
+      {
+        "id": 23,
+        "question": "Sulle rive di quale lago si trovava la città mineraria di Uranium City ?",
+        "propositions": [
+          "morena",
+          "Bischo",
+          "Beauvert",
+          "Atabasca"
+        ],
+        "réponse": "Atabasca",
+        "anecdote": "Sebbene fermato intorno agli anni '80, le conseguenze dell'industria mineraria sono una contaminazione della sponda settentrionale."
+      },
+      {
+        "id": 24,
+        "question": "Quale serbatoio in Canada è composto da 88 dighe alte 36 metri ?",
+        "propositions": [
+          "Williston",
+          "nechako",
+          "Smallwood",
+          "Abramo"
+        ],
+        "réponse": "Smallwood",
+        "anecdote": "Costruito per controllare le acque del fiume Churchill, il bacino idrico di Smallwood copre un'area di 6.527 km2."
+      },
+      {
+        "id": 25,
+        "question": "Quale lago è anche conosciuto come Lac du Caribou ?",
+        "propositions": [
+          "renna",
+          "Molson",
+          "Nueltina",
+          "falco"
+        ],
+        "réponse": "renna",
+        "anecdote": "A sud del lago si trova la Deep Bay, una baia circolare di 13 km di diametro lasciata dall'impatto di un meteorite di 100 milioni di anni fa."
+      },
+      {
+        "id": 26,
+        "question": "Quale lago di pesce persico del Nilo è talvolta chiamato il Mare di Giada ?",
+        "propositions": [
+          "Masticare Bahir",
+          "camo",
+          "alemaya",
+          "turkana"
+        ],
+        "réponse": "turkana",
+        "anecdote": "Un tempo conteneva la più grande popolazione africana di coccodrilli del Nilo : la sola isola centrale ne ospitava 14 000."
+      },
+      {
+        "id": 27,
+        "question": "Qual è il lago più grande della Svezia per area e volume ?",
+        "propositions": [
+          "Malar",
+          "Corri",
+          "vanern",
+          "friken"
+        ],
+        "réponse": "vanern",
+        "anecdote": "Fu in riva al lago che ebbe luogo la battaglia di Vänern durante la quale il re Ohthere di Svezia morì in favore di suo fratello Onela."
+      },
+      {
+        "id": 28,
+        "question": "Quale bacino era, quando fu inaugurato nel 1961, il più grande del mondo ?",
+        "propositions": [
+          "Brackij",
+          "angara",
+          "Kizir",
+          "Velo"
+        ],
+        "réponse": "Brackij",
+        "anecdote": "Il bacino idrico di Bratsk si estende su una lunghezza di oltre 500 km e raggiunge una profondità massima di 150 m."
+      },
+      {
+        "id": 29,
+        "question": "Quale grande lago artificiale è condiviso da Zambia e Zimbabwe ?",
+        "propositions": [
+          "Kariba",
+          "Malombe",
+          "kwando",
+          "Azibo"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "Nasce con la costruzione della diga di Kariba, progettata dall'ingegnere francese André Coyne e realizzata tra il 1955 e il 1959."
+      },
+      {
+        "id": 30,
+        "question": "Quale lago ricco di pesce era precedentemente chiamato Lago Mobutu Sese Seko ?",
+        "propositions": [
+          "alberto",
+          "Edoardo",
+          "Carlo",
+          "Andrea"
+        ],
+        "réponse": "alberto",
+        "anecdote": "Il lago Albert si trova al centro del continente africano, al confine tra l'Uganda e la Repubblica Democratica del Congo."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke gesloten zee gevoed door de Wolga is het grootste meer ter wereld ?",
+        "propositions": [
+          "Zwarte Zee",
+          "Egeïsche Zee",
+          "Kaspische Zee",
+          "Adriatische Zee"
+        ],
+        "réponse": "Kaspische Zee",
+        "anecdote": "Met een oppervlakte van 371.000 km2, groter dan Duitsland, is het het grootste niet aan zee grenzende waterlichaam ter wereld."
+      },
+      {
+        "id": 2,
+        "question": "Welk meer wordt door de Straat van Mackinac van Lake Michigan gescheiden ?",
+        "propositions": [
+          "Victoria",
+          "Huron",
+          "Erie",
+          "Winnipeg"
+        ],
+        "réponse": "Huron",
+        "anecdote": "Net als de andere Grote Meren, werd Lake Huron gevormd door smeltend ijs tijdens de terugtrekking van continentale gletsjers."
+      },
+      {
+        "id": 3,
+        "question": "Wat is het grootste van de Grote Meren in Noord-Amerika ?",
+        "propositions": [
+          "Huron",
+          "michigan",
+          "Ontario",
+          "Superieur"
+        ],
+        "réponse": "Superieur",
+        "anecdote": "Met een oppervlakte van 82.350 km2 die zich uitstrekt over de Verenigde Staten en Canada, is het het grootste zoetwatermeer ter wereld."
+      },
+      {
+        "id": 4,
+        "question": "Welk meer, ontdekt door een Brit, is het grootste van Afrika ?",
+        "propositions": [
+          "Edward",
+          "Kioto",
+          "Victoria",
+          "Kivu"
+        ],
+        "réponse": "Victoria",
+        "anecdote": "Het meer dankt zijn naam aan de Britse ontdekkingsreiziger Speke die het in 1858 bereikte en het noemde ter ere van koningin Victoria."
+      },
+      {
+        "id": 5,
+        "question": "Welk meer in Afrika is het langste zoetwatermeer ter wereld ?",
+        "propositions": [
+          "Tanganyika",
+          "Victoria",
+          "Kivu",
+          "Malawi"
+        ],
+        "réponse": "Tanganyika",
+        "anecdote": "De locatie van het meer maakt het een plaats van opmerkelijke tektonische activiteit, vanwege de totale diepte van de breuk op deze locatie."
+      },
+      {
+        "id": 6,
+        "question": "Welk heilige meer wordt soms de Parel van Siberië genoemd ?",
+        "propositions": [
+          "khanka",
+          "lama",
+          "keta",
+          "Baikal"
+        ],
+        "réponse": "Baikal",
+        "anecdote": "Ze leven voornamelijk van de visserij en trekken vijftigduizend mensen aan in de buurt van het meer in moeilijke omstandigheden en met een arme bodem."
+      },
+      {
+        "id": 7,
+        "question": "De oevers van welk meer worden gedeeld tussen Malawi, Mozambique en Tanzania ?",
+        "propositions": [
+          "Malawi",
+          "Malombe",
+          "Kariba",
+          "Kivu"
+        ],
+        "réponse": "Malawi",
+        "anecdote": "Het Malawi-meer, het derde Afrikaanse meer qua grootte, staat qua volume op de vijfde plaats in de ranglijst van 's werelds grote meren."
+      },
+      {
+        "id": 8,
+        "question": "Welk meer in de Andes wordt door Bolivia en Peru doorkruist ?",
+        "propositions": [
+          "poep",
+          "Colorado",
+          "titicaca",
+          "Uru Uru"
+        ],
+        "réponse": "titicaca",
+        "anecdote": "3.812 meter hoog, het is aan het Titicacameer dat de Aymara-cultuur werd geboren vóór kolonisatie en kerstening."
+      },
+      {
+        "id": 9,
+        "question": "Welk meer in Afrika is het grootste kunstmatige meer ter wereld ?",
+        "propositions": [
+          "Volta",
+          "Victoria",
+          "ladoga",
+          "Winnipeg"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Een dam gebouwd in 1965 produceert waterkracht (912 MW) en is ook belangrijk voor lokaal transport."
+      },
+      {
+        "id": 10,
+        "question": "Wat is het grootste zoutmeer van Australië en Oceanië ?",
+        "propositions": [
+          "Callabona",
+          "oog",
+          "torrents",
+          "Alexandra"
+        ],
+        "réponse": "oog",
+        "anecdote": "Lake Eyre is ook het laagste punt van Australië, ongeveer 13 meter onder zeeniveau."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk meer wordt direct genoemd als verantwoordelijk voor de erosie van de Nijldelta ?",
+        "propositions": [
+          "albert",
+          "Nasser",
+          "Plotseling",
+          "bruin"
+        ],
+        "réponse": "Nasser",
+        "anecdote": "Het Nassermeer is een reservoir van 162 miljard kubieke meter (162 km3) water in het midden van de Boven-Egyptische woestijn."
+      },
+      {
+        "id": 12,
+        "question": "De provincie Ontario baadt, het grootste zoetwatermeer ter wereld ?",
+        "propositions": [
+          "Superieur",
+          "Ontario",
+          "Erie",
+          "michigan"
+        ],
+        "réponse": "Superieur",
+        "anecdote": "Het baadt de provincie Ontario (Canada) in het noorden, en de staten Minnesota, Wisconsin en Michigan (Verenigde Staten) in het zuiden."
+      },
+      {
+        "id": 13,
+        "question": "Welk meer in de provincie Manitoba is een zijrivier van Hudson Bay ?",
+        "propositions": [
+          "Victoria",
+          "Winnipeg",
+          "Volta",
+          "albert"
+        ],
+        "réponse": "Winnipeg",
+        "anecdote": "Het op zes na grootste zoetwatermeer van Canada, groter dan Lake Ontario, Lake Winnipeg is ondiep met een maximale diepte van 18 meter."
+      },
+      {
+        "id": 14,
+        "question": "Wat is het grootste van de subglaciale meren van Antarctica ?",
+        "propositions": [
+          "Burtons",
+          "Sovetskaja",
+          "Vida",
+          "Vostok"
+        ],
+        "réponse": "Vostok",
+        "anecdote": "Het oppervlak van dit zoetwatermeer ligt 4.000 m onder het ijsoppervlak en 500 m onder zeeniveau."
+      },
+      {
+        "id": 15,
+        "question": "In welk Midden-Amerikaans meer zijn stierhaaien te vinden ?",
+        "propositions": [
+          "nicaragua",
+          "titicaca",
+          "Onega",
+          "ladoga"
+        ],
+        "réponse": "nicaragua",
+        "anecdote": "Bulldoghaaien hebben inderdaad de unieke eigenschap onder haaien om te acclimatiseren aan hyposaline wateren."
+      },
+      {
+        "id": 16,
+        "question": "Welk kunstmatig meer wordt doorkruist door de meridiaan van Greenwich ?",
+        "propositions": [
+          "Superieur",
+          "Volta",
+          "Kleinhout",
+          "Huron"
+        ],
+        "réponse": "Volta",
+        "anecdote": "Het Voltameer, een zoetwaterreservoir aan de Volta-rivier in Ghana in Afrika, is het grootste kunstmatige meer ter wereld."
+      },
+      {
+        "id": 17,
+        "question": "Welk meer vormde ooit de noordwestelijke grens van het Chinese rijk ?",
+        "propositions": [
+          "chagan",
+          "alkol",
+          "jasybay",
+          "Balkhash"
+        ],
+        "réponse": "Balkhash",
+        "anecdote": "Het Balkhashmeer wordt ernstig bedreigd door ernstige vervuiling veroorzaakt door verschillende industriële complexen aan de oevers."
+      },
+      {
+        "id": 18,
+        "question": "Welk meer bood de enige toegang tot Leningrad tijdens het beleg van 1941-1944 ?",
+        "propositions": [
+          "Kasplia",
+          "ladoga",
+          "Toulouse",
+          "Brosno"
+        ],
+        "réponse": "ladoga",
+        "anecdote": "Goederen werden naar Leningrad vervoerd door vrachtwagens die over winterse wegen over het bevroren meer reden."
+      },
+      {
+        "id": 19,
+        "question": "Welk meer in Venezuela, als zodanig beschouwd, is in feite een baai ?",
+        "propositions": [
+          "Toulouse",
+          "guri",
+          "Valencia",
+          "Maracaibo"
+        ],
+        "réponse": "Maracaibo",
+        "anecdote": "Lake Maracaibo wordt beschouwd als het grootste meer van Zuid-Amerika en heeft een maximale diepte van 60 meter."
+      },
+      {
+        "id": 20,
+        "question": "Welk meer werd in 1997 door Unesco erkend als biosfeerreservaat ?",
+        "propositions": [
+          "gebouw",
+          "SAP",
+          "Tonlé Sap",
+          "Loum"
+        ],
+        "réponse": "Tonlé Sap",
+        "anecdote": "Het meer ligt in het centrum van Cambodja, met een noordwest-zuidoost-oriëntatie, en biedt de historische plaats Angkor in het noorden."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk meer in Rusland is het op een na grootste meer van Europa ?",
+        "propositions": [
+          "Abraou",
+          "Onega",
+          "Cheko",
+          "baount"
+        ],
+        "réponse": "Onega",
+        "anecdote": "Lake Onega bevat 1.369 eilanden en eilandjes, waarvan Kiji de bekendste is, bekend om zijn houten kerkhof (Pogost of Kiji)."
+      },
+      {
+        "id": 22,
+        "question": "Welk meer in Zambia wordt bevolkt door krokodillen die gevaarlijk zijn voor vissers ?",
+        "propositions": [
+          "mbali",
+          "moero",
+          "kawe",
+          "bangwelo"
+        ],
+        "réponse": "bangwelo",
+        "anecdote": "David Livingstone was de eerste Europeaan die het meer zag tijdens zijn verkenningen en stierf in 1873 niet ver van het meer."
+      },
+      {
+        "id": 23,
+        "question": "Aan de oevers van welk meer lag het mijnstadje Uranium City ?",
+        "propositions": [
+          "Beauvert",
+          "Athabasca",
+          "morene",
+          "Bischo"
+        ],
+        "réponse": "Athabasca",
+        "anecdote": "Hoewel gestopt rond de jaren 1980, zijn de gevolgen van de mijnbouw een besmetting van de noordkust."
+      },
+      {
+        "id": 24,
+        "question": "Welk stuwmeer in Canada bestaat uit 88 dijken van 36 meter hoog ?",
+        "propositions": [
+          "nekako",
+          "Kleinhout",
+          "Abraham",
+          "Williston"
+        ],
+        "réponse": "Kleinhout",
+        "anecdote": "Het Smallwood Reservoir is gebouwd om de wateren van de Churchill-rivier te beheersen en heeft een oppervlakte van 6.527 km2."
+      },
+      {
+        "id": 25,
+        "question": "Welk meer wordt ook wel Lac du Caribou genoemd ?",
+        "propositions": [
+          "Molson",
+          "Nueltine",
+          "rendier",
+          "Valk"
+        ],
+        "réponse": "rendier",
+        "anecdote": "Ten zuiden van het meer ligt de Deep Bay, een cirkelvormige baai met een diameter van 13 km die is overgebleven van een 100 miljoen jaar oude meteorietinslag."
+      },
+      {
+        "id": 26,
+        "question": "Welk Nijlbaarsmeer wordt soms de Jadezee genoemd ?",
+        "propositions": [
+          "turkaan",
+          "Kauw Bahir",
+          "alemaya",
+          "kam"
+        ],
+        "réponse": "turkaan",
+        "anecdote": "Het bevatte ooit de grootste populatie Nijlkrokodillen van Afrika : het centrale eiland alleen al was de thuisbasis van 14 000."
+      },
+      {
+        "id": 27,
+        "question": "Wat is het grootste meer van Zweden qua oppervlakte en volume ?",
+        "propositions": [
+          "vanern",
+          "Malar",
+          "Uitvoeren",
+          "friken"
+        ],
+        "réponse": "vanern",
+        "anecdote": "Bij het meer vond de slag bij Vänern plaats, waarbij koning Ohthere van Zweden stierf ten gunste van zijn broer Onela."
+      },
+      {
+        "id": 28,
+        "question": "Welk reservoir was, toen het in 1961 werd ingehuldigd, het grootste ter wereld ?",
+        "propositions": [
+          "Bratsky",
+          "Velo",
+          "Kizir",
+          "angara"
+        ],
+        "réponse": "Bratsky",
+        "anecdote": "Het Bratsk-reservoir strekt zich uit over een lengte van meer dan 500 km en bereikt een maximale diepte van 150 m."
+      },
+      {
+        "id": 29,
+        "question": "Welk groot kunstmatig meer wordt gedeeld door Zambia en Zimbabwe ?",
+        "propositions": [
+          "Kariba",
+          "Malombe",
+          "kwando",
+          "Azibo"
+        ],
+        "réponse": "Kariba",
+        "anecdote": "Het werd geboren met de bouw van de Kariba-dam, ontworpen door de Franse ingenieur André Coyne en uitgevoerd tussen 1955 en 1959."
+      },
+      {
+        "id": 30,
+        "question": "Welk visrijk meer heette vroeger het Mobutu Sese Seko-meer ?",
+        "propositions": [
+          "Andreas",
+          "albert",
+          "Karel",
+          "Edward"
+        ],
+        "réponse": "albert",
+        "anecdote": "Lake Albert ligt in het centrum van het Afrikaanse continent, op de grens tussen Oeganda en de Democratische Republiek Congo."
+      }
+    ]
+    }
+  }
+}

@@ -9,6 +9,8 @@ import GameProposal from '@models/GameProposal'
 import PlayerGameLevel from '@models/PlayerGameLevel'
 import Tournament from '@models/Tournament'
 import Report from '@models/Report'
+import QuizQuestion from '@models/QuizQuestion'
+import QuizAnswer from '@models/QuizAnswer'
 import { Client } from 'discord.js';
 import DiscordService from "@services/discordService";
 
@@ -24,6 +26,8 @@ declare module 'fastify' {
       PlayerGameLevel: Model<PlayerGameLevel>
       Tournament: Model<Tournament>,
       Report: Model<Report>
+      QuizQuestion: Model<QuizQuestion>
+      QuizAnswer: Model<QuizAnswer>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,

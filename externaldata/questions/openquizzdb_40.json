@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "1 / 5",
+  "version": 3,
+  "mise-à-jour": "2024-08-17",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Loisirs",
+      "nom": "Jeux de société",
+      "slogan": "La stratégie est au rendez-vous"
+    },
+    "en": {
+      "catégorie": "Hobbies",
+      "nom": "Board Games",
+      "slogan": "The strategy is there"
+    },
+    "es": {
+      "catégorie": "Aficiones",
+      "nom": "Juegos de mesa",
+      "slogan": "La estrategia está ahí"
+    },
+    "it": {
+      "catégorie": "Hobby",
+      "nom": "Giochi da tavolo",
+      "slogan": "La strategia c'è"
+    },
+    "de": {
+      "catégorie": "Hobbys",
+      "nom": "Gesellschaftsspiele",
+      "slogan": "Die Strategie ist da"
+    },
+    "nl": {
+      "catégorie": "Hobby's",
+      "nom": "Bordspellen",
+      "slogan": "De strategie is er"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Au « Trivial Pursuit », que faut-il faire quand on a obtenu tous les camemberts ?",
+        "propositions": [
+          "Tous les perdre",
+          "Mimer une carte",
+          "Compter ses points",
+          "Rejoindre le centre"
+        ],
+        "réponse": "Rejoindre le centre",
+        "anecdote": "Le jeu « Trivial Pursuit » a été créé par deux Québécois, Chris Haney et Scott Abbott et d'abord édité au Québec en 1979."
+      },
+      {
+        "id": 2,
+        "question": "Quel jeu créé en 1985 par Rob Angel consiste à faire deviner un mot en le dessinant ?",
+        "propositions": [
+          "Pictionary",
+          "Mastermind",
+          "Uno",
+          "Blokus"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "Au « Pictionary », on ne doit que dessiner, les chiffres, les lettres, les paroles et les gestes étant interdits."
+      },
+      {
+        "id": 3,
+        "question": "Quel jeu de société consiste à ruiner ses adversaires par des opérations immobilières ?",
+        "propositions": [
+          "La bonne paye",
+          "1000 bornes",
+          "Monopoly",
+          "Boggle"
+        ],
+        "réponse": "Monopoly",
+        "anecdote": "Le jeu symbolise les aspects apparents et spectaculaires du capitalisme, les fortunes se faisant au fil des coups de dés."
+      },
+      {
+        "id": 4,
+        "question": "Au « Scrabble », le joueur qui démarre la partie place un mot sur le plateau qui compte...",
+        "propositions": [
+          "Pour 50 points",
+          "Triple",
+          "Double",
+          "Pour 100 points"
+        ],
+        "réponse": "Double",
+        "anecdote": "L'entreprise Hasbro est détentrice des droits aux États-Unis d'Amérique et au Canada, et Mattel dans le reste du monde."
+      },
+      {
+        "id": 5,
+        "question": "Quel jeu d'adresse, praticable de 2 à 6 joueurs, consiste à se saisir de baguettes une par une ?",
+        "propositions": [
+          "Samouraï",
+          "Mandarin",
+          "Mahjong",
+          "Mikado"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "Au Mikado, il est souvent possible de s'aider d'une baguette que l'on a déjà récupérée pour en retirer une autre."
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la pièce la plus mobile aux échecs parmi les seize pièces de chaque joueur ?",
+        "propositions": [
+          "Fou",
+          "Cavalier",
+          "Reine",
+          "Roi"
+        ],
+        "réponse": "Reine",
+        "anecdote": "Aux échecs, chaque joueur possède au départ un roi, une dame, deux tours, deux fous, deux cavaliers et huit pions."
+      },
+      {
+        "id": 7,
+        "question": "Dans quel jeu populaire faut-il reconstituer une seule combinaison gagnante avec trois dés ?",
+        "propositions": [
+          "421",
+          "Craps",
+          "Dudo",
+          "Yahtzee"
+        ],
+        "réponse": "421",
+        "anecdote": "On joue au 421 (qui tire son nom de la combinaison la plus forte) à l'aide de trois dés et d'un certain nombre de jetons ou fiches."
+      },
+      {
+        "id": 8,
+        "question": "Que faut-il aligner pour remporter une partie de « Puissance 4 », jeu dérivé du Morpion ?",
+        "propositions": [
+          "Dés",
+          "Cartes",
+          "Billes",
+          "Jetons"
+        ],
+        "réponse": "Jetons",
+        "anecdote": "Le vainqueur de « Puissance 4 » est le joueur qui réalise le premier un alignement d'au moins quatre pions de sa couleur."
+      },
+      {
+        "id": 9,
+        "question": "De combien de cartes est généralement constitué un jeu de bataille ?",
+        "propositions": [
+          "52",
+          "65",
+          "43",
+          "36"
+        ],
+        "réponse": "52",
+        "anecdote": "Pratiquée par les enfants et les adultes, la bataille est d'une grande simplicité puisque à priori sous la conduite exclusive du hasard."
+      },
+      {
+        "id": 10,
+        "question": "Au poker, parmi les combinaisons possibles, quelle est la suite de cartes la plus puissante ?",
+        "propositions": [
+          "Carré",
+          "Brelan",
+          "Paire",
+          "Quinte flush"
+        ],
+        "réponse": "Quinte flush",
+        "anecdote": "Bertrand ElkY Grospellier est le joueur ayant le plus gros palmarès et le plus gros total de gains en tournois parmi les français."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quel jeu de société pour deux joueurs faut-il déduire une combinaison de couleurs ?",
+        "propositions": [
+          "Brain",
+          "Memory",
+          "Mastermind",
+          "Monopoly"
+        ],
+        "réponse": "Mastermind",
+        "anecdote": "Le « Mastermind » a été inventé par Mordecai Meirowitz dans les années 1970 alors qu'il travaillait comme expert en télécom."
+      },
+      {
+        "id": 12,
+        "question": "Dans sa version européenne, le jeu « Qui est-ce ? » contient un plateau bleu et un plateau...",
+        "propositions": [
+          "Vert",
+          "Jaune",
+          "Blanc",
+          "Rouge"
+        ],
+        "réponse": "Rouge",
+        "anecdote": "« Qui-est-ce ? » est un jeu de société simple et pédagogique pour un jeune public faisant appel au raisonnement déductif."
+      },
+      {
+        "id": 13,
+        "question": "Combien de pions différents vous faut-il pour remplir un camembert au « Trivial Pursuit » ?",
+        "propositions": [
+          "Cinq",
+          "Quatre",
+          "Six",
+          "Sept"
+        ],
+        "réponse": "Six",
+        "anecdote": "Le jeu continue jusqu'à ce que l'un des joueurs collectionne une part des six couleurs et place son pion sur la case spéciale."
+      },
+      {
+        "id": 14,
+        "question": "Avec quoi joue-t-on au « Boggle », pour lesquels des clubs ont été organisés ?",
+        "propositions": [
+          "Dés",
+          "Billes",
+          "Cartes",
+          "Pions"
+        ],
+        "réponse": "Dés",
+        "anecdote": "Contrairement au « Scrabble », les règles ne sont pas régies internationalement et il n'y a pas de tournois officiels."
+      },
+      {
+        "id": 15,
+        "question": "Quel jeu de société consiste à propulser des jetons plats au fond d'un gobelet ?",
+        "propositions": [
+          "Jeu de la taupe",
+          "Jeu du citron",
+          "Jeu de puces",
+          "Jeu de morpions"
+        ],
+        "réponse": "Jeu de puces",
+        "anecdote": "On y joue soit en pressant les jetons à l'aide d'un autre jeton, soit à l'aide d'un système à ressort formant une catapulte."
+      },
+      {
+        "id": 16,
+        "question": "Quel jeu de hasard pur comprend 63 cases disposées en spirale enroulée vers l'intérieur ?",
+        "propositions": [
+          "Jeu du moulin",
+          "Jeu de l'oie",
+          "Jeu de puces",
+          "Jeu de go"
+        ],
+        "réponse": "Jeu de l'oie",
+        "anecdote": "L'une des plus anciennes mentions du jeu de l'oie date de 1617 et provient de l'ouvrage de Pietro Carrera consacré aux échecs."
+      },
+      {
+        "id": 17,
+        "question": "Dans quel jeu de société doit-on faire deviner des mots sans prononcer des mots interdits ?",
+        "propositions": [
+          "Memory",
+          "Taboo",
+          "Motus",
+          "Boggle"
+        ],
+        "réponse": "Taboo",
+        "anecdote": "« Taboo » se joue avec un paquet de cartes sur lesquelles sont inscrits des mots à faire deviner et la liste des cinq mots interdits."
+      },
+      {
+        "id": 18,
+        "question": "Combien de dés sont utilisés pour jouer à « Yahtzee » afin de réaliser une figure ?",
+        "propositions": [
+          "Cinq",
+          "Quatre",
+          "Six",
+          "Sept"
+        ],
+        "réponse": "Cinq",
+        "anecdote": "De nombreuses variantes du « Yahtzee » existent dans l'établissement de la feuille de score et dans le décompte des points."
+      },
+      {
+        "id": 19,
+        "question": "Au « Scrabble », combien de points vaut la lettre J, tout comme la lettre Q d'ailleurs ?",
+        "propositions": [
+          "6",
+          "4",
+          "10",
+          "8"
+        ],
+        "réponse": "8",
+        "anecdote": "Les jetons sont des supports de format carré sur lesquels une lettre de l'alphabet est inscrite ainsi que sa valeur."
+      },
+      {
+        "id": 20,
+        "question": "Quel jeu de société consiste à faire tomber les billes de l'adversaire dans des trous ?",
+        "propositions": [
+          "Mastermind",
+          "Pièges",
+          "Docteur Maboul",
+          "Puissance 4"
+        ],
+        "réponse": "Pièges",
+        "anecdote": "Dans tous les rayons de supermarché, « Pièges » bénéficie de la bonne diffusion des jeux et des puzzles de son éditeur."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Dans quel jeu de société de 64 pions faut-il obtenir un maximum de pions de sa couleur ?",
+        "propositions": [
+          "Pentago",
+          "Awalé",
+          "Puissance 4",
+          "Othello"
+        ],
+        "réponse": "Othello",
+        "anecdote": "La Fédération française d'Othello (ou FFO) regroupe des joueurs d'Othello et de Reversi."
+      },
+      {
+        "id": 22,
+        "question": "Quel jeu de stratégie édité par MB comprend cinq engrenages blancs de tailles différentes ?",
+        "propositions": [
+          "Dix de Chute",
+          "Risk",
+          "Uno",
+          "Abalone"
+        ],
+        "réponse": "Dix de Chute",
+        "anecdote": "Ce grand classique, présent depuis 1970, enchante encore des générations de jeunes joueurs, mais aussi leurs parents."
+      },
+      {
+        "id": 23,
+        "question": "Laquelle de ces armes ne figure pas au « Cluedo », imaginé par Anthony Pratt et sa femme ?",
+        "propositions": [
+          "Matraque",
+          "Revolver",
+          "Pic à glace",
+          "Chandelier"
+        ],
+        "réponse": "Pic à glace",
+        "anecdote": "Le but du jeu est de trouver qui a tué le Docteur Lenoir, dans quelle pièce du manoir Tudor et avec quelle arme."
+      },
+      {
+        "id": 24,
+        "question": "Quel jeu de stratégie consiste à pousser les six billes de l'adversaire dans une rigole ?",
+        "propositions": [
+          "Risk",
+          "Othello",
+          "Dix de chute",
+          "Abalone"
+        ],
+        "réponse": "Abalone",
+        "anecdote": "Le jeu, d'origine française, a remporté le Gobelet d'Or au Concours de créateurs de jeux de Boulogne-Billancourt en 1988."
+      },
+      {
+        "id": 25,
+        "question": "Quel jeu de société, créé par John Spinello, s'appelait « Opération » à sa création en 1965 ?",
+        "propositions": [
+          "Kubb",
+          "Taboo",
+          "Docteur Maboul",
+          "Reversi"
+        ],
+        "réponse": "Docteur Maboul",
+        "anecdote": "« Docteur Maboul » a rapporté 40 millions de dollars à ses propriétaires, MB ayant été entre-temps absorbé par Hasbro."
+      },
+      {
+        "id": 26,
+        "question": "Quel jeu de stratégie est divisé en pas moins de 42 territoires et 6 continents ?",
+        "propositions": [
+          "Harpoon",
+          "Battle Cry",
+          "Starfire",
+          "Risk"
+        ],
+        "réponse": "Risk",
+        "anecdote": "« Risk » partage de nombreuses caractéristiques avec le jeu de guerre mais en plus simple et abstrait."
+      },
+      {
+        "id": 27,
+        "question": "Qui a été assassiné au « Cluedo » dans un manoir anglais, le Manoir Tudor ?",
+        "propositions": [
+          "Colonel Moutarde",
+          "Docteur Lenoir",
+          "Professeur Violet",
+          "Madame Leblanc"
+        ],
+        "réponse": "Docteur Lenoir",
+        "anecdote": "Le jeu est livré avec des petites fiches d'enquête permettant aux joueurs de comptabiliser quelles sont les cartes alibis qu'il a vues."
+      },
+      {
+        "id": 28,
+        "question": "Quel jeu de cartes américain a été créé en 1971 par Merle Robbins et édité par Mattel ?",
+        "propositions": [
+          "Dobble",
+          "1000 bornes",
+          "Korsar",
+          "Uno"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Depuis peu, la version H2O Splash du « Uno » permet de jouer dans l'eau, le jeu comportant deux nouvelles cartes."
+      },
+      {
+        "id": 29,
+        "question": "Quel animal représente la distance de 100 km au jeu des « 1000 bornes » ?",
+        "propositions": [
+          "Une hirondelle",
+          "Un lièvre",
+          "Un canard",
+          "Un papillon"
+        ],
+        "réponse": "Un lièvre",
+        "anecdote": "Le « 1000 bornes » a été inventé en 1954 par Edmond Dujardin, un éditeur de matériel pour auto-écoles."
+      },
+      {
+        "id": 30,
+        "question": "Quel nom porte la variante du jeu combinatoire abstrait « Othello » ?",
+        "propositions": [
+          "Othidis",
+          "Abalone",
+          "Reversi",
+          "Uno"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Othello » se joue sur un tablier unicolore de 64 cases, 8 sur 8, appelé « othellier »."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In « Trivial Pursuit », what should you do when you have obtained all the pie charts ?",
+        "propositions": [
+          "Mimic a card",
+          "Count your points",
+          "Lose Them All",
+          "Join the center"
+        ],
+        "réponse": "Join the center",
+        "anecdote": "The game « Trivial Pursuit » was created by two Quebecers, Chris Haney and Scott Abbott and first published in Quebec in 1979."
+      },
+      {
+        "id": 2,
+        "question": "What game created in 1985 by Rob Angel consists in making guess a word by drawing it ?",
+        "propositions": [
+          "Mastermind",
+          "Pictionary",
+          "Uno",
+          "Blokus"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "In « Pictionary », one should only draw, numbers, letters, words and gestures being prohibited."
+      },
+      {
+        "id": 3,
+        "question": "What board game consists of ruining your opponents with real estate transactions ?",
+        "propositions": [
+          "The good pay",
+          "1000 terminals",
+          "Monopoly",
+          "Boggle"
+        ],
+        "réponse": "Monopoly",
+        "anecdote": "The game symbolizes the apparent and spectacular aspects of capitalism, the fortunes being made over the rolls of the dice."
+      },
+      {
+        "id": 4,
+        "question": "In « Scrabble », the player who starts the game places a word on the board that counts...",
+        "propositions": [
+          "For 50 points",
+          "For 100 points",
+          "Double",
+          "Triple"
+        ],
+        "réponse": "Double",
+        "anecdote": "The Hasbro company owns the rights in the United States of America and Canada, and Mattel in the rest of the world."
+      },
+      {
+        "id": 5,
+        "question": "What skill game, suitable for 2 to 6 players, consists of grabbing chopsticks one by one ?",
+        "propositions": [
+          "Mahjong",
+          "Mandarin",
+          "Mikado",
+          "Samurai"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "At Mikado, it is often possible to use a wand that you have already collected to remove another."
+      },
+      {
+        "id": 6,
+        "question": "What is the most mobile chess piece among the sixteen pieces of each player ?",
+        "propositions": [
+          "Crazy",
+          "King",
+          "Queen",
+          "Rider"
+        ],
+        "réponse": "Queen",
+        "anecdote": "In chess, each player initially has a king, a queen, two rooks, two bishops, two knights and eight pawns."
+      },
+      {
+        "id": 7,
+        "question": "In which popular game do you have to piece together a single winning combination with three dice ?",
+        "propositions": [
+          "Dudo",
+          "Craps",
+          "421",
+          "Yahtzee"
+        ],
+        "réponse": "421",
+        "anecdote": "We play 421 (which takes its name from the strongest combination) using three dice and a certain number of tokens or cards."
+      },
+      {
+        "id": 8,
+        "question": "What do you need to line up to win a game of « Power 4 », a board game derived from Morpion ?",
+        "propositions": [
+          "Dice",
+          "Balls",
+          "Tokens",
+          "Cards"
+        ],
+        "réponse": "Tokens",
+        "anecdote": "The winner of « Power 4 » is the player who first achieves an alignment of at least four pawns of his color."
+      },
+      {
+        "id": 9,
+        "question": "How many cards does a battle deck typically consist of ?",
+        "propositions": [
+          "52",
+          "65",
+          "43",
+          "36"
+        ],
+        "réponse": "52",
+        "anecdote": "Practiced by children and adults, the battle is very simple since a priori under the exclusive control of chance."
+      },
+      {
+        "id": 10,
+        "question": "In poker, which of the possible combinations is the most powerful card suite ?",
+        "propositions": [
+          "Straight Flush",
+          "Three of a kind",
+          "Pair",
+          "Square"
+        ],
+        "réponse": "Straight Flush",
+        "anecdote": "Bertrand ElkY Grospellier is the player with the biggest prize list and the biggest tournament winnings among the French."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which board game for two players should a combination of colors be deduced ?",
+        "propositions": [
+          "Mastermind",
+          "Brain",
+          "Memory",
+          "Monopoly"
+        ],
+        "réponse": "Mastermind",
+        "anecdote": "The « Mastermind » was invented by Mordecai Meirowitz in the 1970s while working as a telecom expert."
+      },
+      {
+        "id": 12,
+        "question": "In its European version, the game « Who is it ? » contains a blue board and a...",
+        "propositions": [
+          "White",
+          "Yellow",
+          "Green",
+          "Red"
+        ],
+        "réponse": "Red",
+        "anecdote": "« Qui-est-ce ? » is a simple and educational board game for a young audience using deductive reasoning."
+      },
+      {
+        "id": 13,
+        "question": "How many different pawns do you need to complete a « Trivial Pursuit » pie chart ?",
+        "propositions": [
+          "Four",
+          "Seven",
+          "Five",
+          "Six"
+        ],
+        "réponse": "Six",
+        "anecdote": "The game continues until one of the players collects a share of the six colors and places his pawn on the special square."
+      },
+      {
+        "id": 14,
+        "question": "What do we play with at « Boggle », for which clubs have been organized ?",
+        "propositions": [
+          "Pawns",
+          "Dice",
+          "Cards",
+          "Balls"
+        ],
+        "réponse": "Dice",
+        "anecdote": "Unlike « Scrabble », the rules are not governed internationally and there are no official tournaments."
+      },
+      {
+        "id": 15,
+        "question": "What board game consists of propelling flat tokens to the bottom of a cup ?",
+        "propositions": [
+          "Lemon Game",
+          "Chipset",
+          "Mole game",
+          "Noughts and crosses game"
+        ],
+        "réponse": "Chipset",
+        "anecdote": "It is played either by pressing the chips with another chip, or using a spring system forming a catapult."
+      },
+      {
+        "id": 16,
+        "question": "Which game of pure chance has 63 boxes arranged in a spiral wound inward ?",
+        "propositions": [
+          "Go game",
+          "Mill game",
+          "Goose game",
+          "Chipset"
+        ],
+        "réponse": "Goose game",
+        "anecdote": "One of the oldest mentions of the game of goose dates from 1617 and comes from the work of Pietro Carrera devoted to chess."
+      },
+      {
+        "id": 17,
+        "question": "In which board game do you have to make words guess without pronouncing forbidden words ?",
+        "propositions": [
+          "Boggle",
+          "Motus",
+          "Taboo",
+          "Memory"
+        ],
+        "réponse": "Taboo",
+        "anecdote": "« Taboo » is played with a pack of cards on which are written guessing words and the list of five forbidden words."
+      },
+      {
+        "id": 18,
+        "question": "How many dice are used to play « Yahtzee » to achieve a trick ?",
+        "propositions": [
+          "Six",
+          "Four",
+          "Five",
+          "Seven"
+        ],
+        "réponse": "Five",
+        "anecdote": "Many variations of the « Yahtzee » exist in the establishment of the scorecard and in the counting of points."
+      },
+      {
+        "id": 19,
+        "question": "In « Scrabble », how many points is the letter J worth, just like the letter Q for that matter ?",
+        "propositions": [
+          "6",
+          "4",
+          "10",
+          "8"
+        ],
+        "réponse": "8",
+        "anecdote": "The tokens are square format supports on which a letter of the alphabet is written as well as its value."
+      },
+      {
+        "id": 20,
+        "question": "What board game consists of dropping the opponent's marbles into holes ?",
+        "propositions": [
+          "Traps",
+          "Mastermind",
+          "Nutty Doctor",
+          "Power 4"
+        ],
+        "réponse": "Traps",
+        "anecdote": "In all supermarket shelves, « Traps » benefits from the good distribution of games and puzzles from its publisher."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In which board game of 64 pawns do you have to obtain the maximum number of pawns of your color ?",
+        "propositions": [
+          "Pentago",
+          "Awale",
+          "Power 4",
+          "Othello"
+        ],
+        "réponse": "Othello",
+        "anecdote": "The French Othello Federation (or FFO) brings together Othello and Reversi players."
+      },
+      {
+        "id": 22,
+        "question": "Which strategy game published by MB has five different sized white gears ?",
+        "propositions": [
+          "Risk",
+          "Ten of Fall",
+          "Uno",
+          "Abalone"
+        ],
+        "réponse": "Ten of Fall",
+        "anecdote": "This great classic, present since 1970, still enchants generations of young players, but also their parents."
+      },
+      {
+        "id": 23,
+        "question": "Which of these weapons does not appear in the « Cluedo », designed by Anthony Pratt and his wife ?",
+        "propositions": [
+          "Ice pick",
+          "Revolver",
+          "Baton",
+          "Chandelier"
+        ],
+        "réponse": "Ice pick",
+        "anecdote": "The object of the game is to find out who killed Doctor Lenoir, in which room of the Tudor Manor and with which weapon."
+      },
+      {
+        "id": 24,
+        "question": "What strategy game involves pushing the opponent's six marbles into a ditch ?",
+        "propositions": [
+          "Ten of fall",
+          "Othello",
+          "Abalone",
+          "Risk"
+        ],
+        "réponse": "Abalone",
+        "anecdote": "The game, of French origin, won the Gobelet d'Or at the Boulogne-Billancourt Game Creators Competition in 1988."
+      },
+      {
+        "id": 25,
+        "question": "What board game, created by John Spinello, was called « Operation » when it was created in 1965 ?",
+        "propositions": [
+          "Taboo",
+          "Reversi",
+          "Nutty Doctor",
+          "Kubb"
+        ],
+        "réponse": "Nutty Doctor",
+        "anecdote": "« Nutty Doctor » brought in $ 40 million to its owners, with MB having been absorbed by Hasbro in the meantime."
+      },
+      {
+        "id": 26,
+        "question": "Which strategy game is divided into no less than 42 territories and 6 continents ?",
+        "propositions": [
+          "Starfire",
+          "Harpoon",
+          "Risk",
+          "Battle Cry"
+        ],
+        "réponse": "Risk",
+        "anecdote": "« Risk » shares many characteristics with the war game but more simple and abstract."
+      },
+      {
+        "id": 27,
+        "question": "Who was murdered at « Cluedo » in an English mansion, the Tudor Manor ?",
+        "propositions": [
+          "Madame Leblanc",
+          "Doctor Lenoir",
+          "Colonel Mustard",
+          "Professor Violet"
+        ],
+        "réponse": "Doctor Lenoir",
+        "anecdote": "The game comes with small survey cards allowing players to count which alibis cards they have seen."
+      },
+      {
+        "id": 28,
+        "question": "Which American card game was created in 1971 by Merle Robbins and published by Mattel ?",
+        "propositions": [
+          "1000 terminals",
+          "Uno",
+          "Korsar",
+          "Dobble"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Recently, the H2O Splash version of « Uno » allows you to play in water, the game featuring two new cards."
+      },
+      {
+        "id": 29,
+        "question": "Which animal represents the distance of 100 km at the « 1000 terminals » game ?",
+        "propositions": [
+          "A swallow",
+          "A butterfly",
+          "A hare",
+          "A duck"
+        ],
+        "réponse": "A hare",
+        "anecdote": "The « 1000 terminals » was invented in 1954 by Edmond Dujardin, a publisher of equipment for driving schools."
+      },
+      {
+        "id": 30,
+        "question": "What is the name of the variant of the abstract combinatorial game « Othello » ?",
+        "propositions": [
+          "Reversi",
+          "Uno",
+          "Abalone",
+          "Othidis"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Othello » is played on a single-colored 64-square, 8 by 8 deck, called « othellier »."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Was sollten Sie in « Trivial Pursuit » tun, wenn Sie alle Kreisdiagramme erhalten haben ?",
+        "propositions": [
+          "Verliere sie alle",
+          "Treten Sie dem Zentrum bei",
+          "Zähle deine Punkte",
+          "Eine Karte nachahmen"
+        ],
+        "réponse": "Treten Sie dem Zentrum bei",
+        "anecdote": "Das Spiel « Trivial Pursuit » wurde von zwei Quebecern, Chris Haney und Scott Abbott, erstellt und 1979 erstmals in Quebec veröffentlicht."
+      },
+      {
+        "id": 2,
+        "question": "Welches 1985 von Rob Angel entwickelte Spiel besteht darin, ein Wort durch Zeichnen zu erraten ?",
+        "propositions": [
+          "Mastermind",
+          "Pictionary",
+          "Uno",
+          "Blokus"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "In « Pictionary » sollte nur gezeichnet werden, Zahlen, Buchstaben, Wörter und Gesten sind verboten."
+      },
+      {
+        "id": 3,
+        "question": "Welches Brettspiel besteht darin, deine Gegner mit Immobilientransaktionen zu ruinieren ?",
+        "propositions": [
+          "Boggle",
+          "Monopol",
+          "1000 Terminals",
+          "Die gute Bezahlung"
+        ],
+        "réponse": "Monopol",
+        "anecdote": "Das Spiel symbolisiert die offensichtlichen und spektakulären Aspekte des Kapitalismus, wobei das Vermögen über die Würfelwürfe gemacht wird."
+      },
+      {
+        "id": 4,
+        "question": "In « Scrabble » legt der Spieler, der das Spiel startet, ein Wort auf das Brett, das zählt...",
+        "propositions": [
+          "Double",
+          "Dreifach",
+          "Für 50 Punkte",
+          "Für 100 Punkte"
+        ],
+        "réponse": "Double",
+        "anecdote": "Das Unternehmen Hasbro besitzt die Rechte in den Vereinigten Staaten von Amerika und Kanada sowie Mattel im Rest der Welt."
+      },
+      {
+        "id": 5,
+        "question": "Welches Geschicklichkeitsspiel, das für 2 bis 6 Spieler geeignet ist, besteht darin, nacheinander Stäbchen zu greifen ?",
+        "propositions": [
+          "Mandarin",
+          "Mikado",
+          "Mahjong",
+          "Samurai"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "Bei Mikado ist es oft möglich, einen Zauberstab zu verwenden, den Sie bereits gesammelt haben, um einen anderen zu entfernen."
+      },
+      {
+        "id": 6,
+        "question": "Was ist die mobilste Schachfigur unter den 16 Figuren jedes Spielers ?",
+        "propositions": [
+          "Verrückt",
+          "König",
+          "Königin",
+          "Fahrer"
+        ],
+        "réponse": "Königin",
+        "anecdote": "Im Schach hat jeder Spieler zunächst einen König, eine Königin, zwei Türme, zwei Bischöfe, zwei Ritter und acht Bauern."
+      },
+      {
+        "id": 7,
+        "question": "In welchem beliebten Spiel müssen Sie eine einzelne Gewinnkombination mit drei Würfeln zusammensetzen ?",
+        "propositions": [
+          "Dudo",
+          "Yahtzee",
+          "421",
+          "Craps"
+        ],
+        "réponse": "421",
+        "anecdote": "Wir spielen 421 (das seinen Namen von der stärksten Kombination hat) mit drei Würfeln und einer bestimmten Anzahl von Token oder Karten."
+      },
+      {
+        "id": 8,
+        "question": "Was müssen Sie tun, um ein Spiel von « Power 4 », einem von Morpion abgeleiteten Brettspiel, zu gewinnen ?",
+        "propositions": [
+          "Karten",
+          "Token",
+          "Würfel",
+          "Bälle"
+        ],
+        "réponse": "Token",
+        "anecdote": "Der Gewinner von « Power 4 » ist der Spieler, der zuerst eine Ausrichtung von mindestens vier Bauern seiner Farbe erreicht."
+      },
+      {
+        "id": 9,
+        "question": "Aus wie vielen Karten besteht ein Kampfdeck normalerweise ?",
+        "propositions": [
+          "43",
+          "65",
+          "52",
+          "36"
+        ],
+        "réponse": "52",
+        "anecdote": "Von Kindern und Erwachsenen praktiziert, ist der Kampf von vornherein unter der ausschließlichen Kontrolle des Zufalls sehr einfach."
+      },
+      {
+        "id": 10,
+        "question": "Welche der möglichen Kombinationen ist beim Poker die leistungsstärkste Kartensuite ?",
+        "propositions": [
+          "Straight Flush",
+          "Paar",
+          "Dreier",
+          "Quadrat"
+        ],
+        "réponse": "Straight Flush",
+        "anecdote": "Bertrand ElkY Grospellier ist der Spieler mit der größten Preisliste und den größten Turniergewinnen unter den Franzosen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welchem Brettspiel für zwei Spieler sollte eine Farbkombination abgeleitet werden ?",
+        "propositions": [
+          "Gehirn",
+          "Speicher",
+          "Mastermind",
+          "Monopol"
+        ],
+        "réponse": "Mastermind",
+        "anecdote": "Der « Mastermind » wurde in den 1970er Jahren von Mordecai Meirowitz als Telekommunikationsexperte erfunden."
+      },
+      {
+        "id": 12,
+        "question": "In seiner europäischen Version enthält das Spiel « Wer ist das ? » ein blaues Brett und ein...",
+        "propositions": [
+          "Rot",
+          "Weiß",
+          "Grün",
+          "Gelb"
+        ],
+        "réponse": "Rot",
+        "anecdote": "« Qui-est-ce ? » ist ein einfaches und lehrreiches Brettspiel für ein junges Publikum, das deduktives Denken verwendet."
+      },
+      {
+        "id": 13,
+        "question": "Wie viele verschiedene Bauern benötigen Sie, um ein « Trivial Pursuit » -Diagramm zu erstellen ?",
+        "propositions": [
+          "Sieben",
+          "Fünf",
+          "Sechs",
+          "Vier"
+        ],
+        "réponse": "Sechs",
+        "anecdote": "Das Spiel wird fortgesetzt, bis einer der Spieler einen Anteil der sechs Farben einsammelt und seinen Bauern auf das Spezialfeld legt."
+      },
+      {
+        "id": 14,
+        "question": "Womit spielen wir bei « Boggle », für das Clubs organisiert wurden ?",
+        "propositions": [
+          "Karten",
+          "Bälle",
+          "Würfel",
+          "Bauern"
+        ],
+        "réponse": "Würfel",
+        "anecdote": "Im Gegensatz zu « Scrabble » gelten die Regeln nicht international und es gibt keine offiziellen Turniere."
+      },
+      {
+        "id": 15,
+        "question": "Welches Brettspiel besteht darin, flache Spielsteine auf den Boden einer Tasse zu werfen ?",
+        "propositions": [
+          "Maulwurfsspiel",
+          "Nullen und Kreuze Spiel",
+          "Zitronenspiel",
+          "Chipsatz"
+        ],
+        "réponse": "Chipsatz",
+        "anecdote": "Es wird entweder durch Drücken der Chips mit einem anderen Chip oder durch Verwendung eines Federsystems, das ein Katapult bildet, gespielt."
+      },
+      {
+        "id": 16,
+        "question": "In welchem Glücksspiel sind 63 Kisten spiralförmig nach innen gewickelt ?",
+        "propositions": [
+          "Chipsatz",
+          "Spiel spielen",
+          "Gansspiel",
+          "Mühlenspiel"
+        ],
+        "réponse": "Gansspiel",
+        "anecdote": "Eine der ältesten Erwähnungen des Gansspiels stammt aus dem Jahr 1617 und stammt aus der Arbeit von Pietro Carrera, die sich dem Schach widmet."
+      },
+      {
+        "id": 17,
+        "question": "In welchem Brettspiel müssen Sie Wörter raten lassen, ohne verbotene Wörter auszusprechen ?",
+        "propositions": [
+          "Motus",
+          "Tabu",
+          "Speicher",
+          "Boggle"
+        ],
+        "réponse": "Tabu",
+        "anecdote": "« Tabu » wird mit einem Kartenspiel gespielt, auf dem erratende Wörter und die Liste der fünf verbotenen Wörter geschrieben sind."
+      },
+      {
+        "id": 18,
+        "question": "Wie viele Würfel werden verwendet, um « Yahtzee » zu spielen, um einen Stich zu erzielen ?",
+        "propositions": [
+          "Fünf",
+          "Sieben",
+          "Sechs",
+          "Vier"
+        ],
+        "réponse": "Fünf",
+        "anecdote": "Bei der Erstellung der Scorecard und bei der Zählung von Punkten gibt es viele Variationen des « Yahtzee »."
+      },
+      {
+        "id": 19,
+        "question": "Wie viele Punkte ist in « Scrabble » der Buchstabe J wert, genau wie der Buchstabe Q ?",
+        "propositions": [
+          "4",
+          "8",
+          "10",
+          "6"
+        ],
+        "réponse": "8",
+        "anecdote": "Die Token sind quadratische Träger, auf die ein Buchstabe des Alphabets sowie sein Wert geschrieben sind."
+      },
+      {
+        "id": 20,
+        "question": "Welches Brettspiel besteht darin, die Murmeln des Gegners in Löcher zu werfen ?",
+        "propositions": [
+          "Verrückter Doktor",
+          "Mastermind",
+          "Fallen",
+          "Power 4"
+        ],
+        "réponse": "Fallen",
+        "anecdote": "In allen Supermarktregalen profitiert « Traps » von der guten Verteilung der Spiele und Rätsel des Herausgebers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Brettspiel mit 64 Bauern müssen Sie die maximale Anzahl von Bauern Ihrer Farbe erhalten ?",
+        "propositions": [
+          "Pentago",
+          "Power 4",
+          "Othello",
+          "Awale"
+        ],
+        "réponse": "Othello",
+        "anecdote": "Der französische Othello-Verband (oder FFO) bringt Othello- und Reversi-Spieler zusammen."
+      },
+      {
+        "id": 22,
+        "question": "Welches von MB veröffentlichte Strategiespiel hat fünf unterschiedlich große weiße Zahnräder ?",
+        "propositions": [
+          "Zehn des Herbstes",
+          "Uno",
+          "Risiko",
+          "Abalone"
+        ],
+        "réponse": "Zehn des Herbstes",
+        "anecdote": "Dieser große Klassiker, der seit 1970 präsent ist, verzaubert noch Generationen junger Spieler, aber auch deren Eltern."
+      },
+      {
+        "id": 23,
+        "question": "Welche dieser Waffen erscheint nicht im « Cluedo », das von Anthony Pratt und seiner Frau entworfen wurde ?",
+        "propositions": [
+          "Revolver",
+          "Eispickel",
+          "Schlagstock",
+          "Kronleuchter"
+        ],
+        "réponse": "Eispickel",
+        "anecdote": "Ziel des Spiels ist es herauszufinden, wer Doktor Lenoir getötet hat, in welchem Raum des Tudor Manor und mit welcher Waffe."
+      },
+      {
+        "id": 24,
+        "question": "In welchem Strategiespiel werden die sechs Murmeln des Gegners in einen Graben geschoben ?",
+        "propositions": [
+          "Othello",
+          "Risiko",
+          "Zehn des Herbstes",
+          "Abalone"
+        ],
+        "réponse": "Abalone",
+        "anecdote": "Das Spiel französischer Herkunft gewann 1988 den Gobelet d'Or beim Boulogne-Billancourt Game Creators Competition."
+      },
+      {
+        "id": 25,
+        "question": "Welches Brettspiel, das von John Spinello entwickelt wurde, hieß « Operation », als es 1965 erstellt wurde ?",
+        "propositions": [
+          "Kubb",
+          "Verrückter Doktor",
+          "Reversi",
+          "Tabu"
+        ],
+        "réponse": "Verrückter Doktor",
+        "anecdote": "« Nutty Doctor » brachte seinen Besitzern 40 Millionen Dollar ein, wobei MB inzwischen von Hasbro übernommen wurde."
+      },
+      {
+        "id": 26,
+        "question": "Welches Strategiespiel ist in nicht weniger als 42 Gebiete und 6 Kontinente unterteilt ?",
+        "propositions": [
+          "Sternenfeuer",
+          "Schlachtruf",
+          "Harpune",
+          "Risiko"
+        ],
+        "réponse": "Risiko",
+        "anecdote": "« Risiko » teilt viele Merkmale mit dem Kriegsspiel, ist jedoch einfacher und abstrakter."
+      },
+      {
+        "id": 27,
+        "question": "Wer wurde in « Cluedo » in einem englischen Herrenhaus, dem Tudor Manor, ermordet ?",
+        "propositions": [
+          "Professor Violet",
+          "Madame Leblanc",
+          "Doktor Lenoir",
+          "Oberst Senf"
+        ],
+        "réponse": "Doktor Lenoir",
+        "anecdote": "Das Spiel wird mit kleinen Umfragekarten geliefert, mit denen die Spieler zählen können, welche Alibis-Karten sie gesehen haben."
+      },
+      {
+        "id": 28,
+        "question": "Welches amerikanische Kartenspiel wurde 1971 von Merle Robbins entwickelt und von Mattel veröffentlicht ?",
+        "propositions": [
+          "1000 Terminals",
+          "Korsar",
+          "Dobble",
+          "Uno"
+        ],
+        "réponse": "Uno",
+        "anecdote": "In letzter Zeit erlaubt die H2O-Spritzversion von « Uno », in Wasser zu spielen, das Spiel mit zwei neuen Karten."
+      },
+      {
+        "id": 29,
+        "question": "Welches Tier repräsentiert die Entfernung von 100 km beim Spiel « 1000 Terminals » ?",
+        "propositions": [
+          "Ein Schmetterling",
+          "Ein Hase",
+          "Eine Schwalbe",
+          "Eine Ente"
+        ],
+        "réponse": "Ein Hase",
+        "anecdote": "Die « 1000 Terminals » wurden 1954 von Edmond Dujardin, einem Herausgeber von Geräten für Fahrschulen, erfunden."
+      },
+      {
+        "id": 30,
+        "question": "Wie heißt die Variante des abstrakten kombinatorischen Spiels « Othello » ?",
+        "propositions": [
+          "Uno",
+          "Reversi",
+          "Abalone",
+          "Othidis"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Othello » wird auf einem einfarbigen 8 x 8-Deck mit 64 Quadraten gespielt, das als « othellier » bezeichnet wird."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En « Trivial Pursuit », ¿qué debe hacer cuando haya obtenido todos los gráficos circulares ?",
+        "propositions": [
+          "Imita una carta",
+          "Perderlos todos",
+          "Únete al centro",
+          "Cuente sus puntos"
+        ],
+        "réponse": "Únete al centro",
+        "anecdote": "El juego « Trivial Pursuit » fue creado por dos quebequenses, Chris Haney y Scott Abbott y publicado por primera vez en Quebec en 1979."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué juego creado en 1985 por Rob Angel consiste en hacer adivinar una palabra dibujándola ?",
+        "propositions": [
+          "Uno",
+          "Mente maestra",
+          "Pictionary",
+          "Blokus"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "En « Pictionary », solo se deben dibujar, estando prohibidos los números, letras, palabras y gestos."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué juego de mesa consiste en arruinar a tus oponentes con transacciones inmobiliarias ?",
+        "propositions": [
+          "La buena paga",
+          "Monopolio",
+          "Boggle",
+          "1000 terminales"
+        ],
+        "réponse": "Monopolio",
+        "anecdote": "El juego simboliza los aspectos aparentes y espectaculares del capitalismo, las fortunas se hacen tirando los dados."
+      },
+      {
+        "id": 4,
+        "question": "En « Scrabble », el jugador que inicia el juego coloca una palabra en el tablero que cuenta...",
+        "propositions": [
+          "Por 50 puntos",
+          "Doble",
+          "Por 100 puntos",
+          "Triple"
+        ],
+        "réponse": "Doble",
+        "anecdote": "La compañía HASBRO está celebrando derechos en los Estados Unidos de América y Canadá, y Mattel en el resto del mundo."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué juego de habilidad, apto para 2 a 6 jugadores, consiste en agarrar los palillos uno a uno ?",
+        "propositions": [
+          "Mikado",
+          "Mahjong",
+          "Mandarín",
+          "Samurai"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "En Mikado, a menudo es posible usar una varita que ya ha recolectado para quitar otra."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál es la pieza de ajedrez más móvil entre las dieciséis piezas de cada jugador ?",
+        "propositions": [
+          "Jinete",
+          "Rey",
+          "Loco",
+          "Reina"
+        ],
+        "réponse": "Reina",
+        "anecdote": "En el ajedrez, cada jugador tiene inicialmente un rey, una reina, dos torres, dos alfiles, dos caballos y ocho peones."
+      },
+      {
+        "id": 7,
+        "question": "¿En qué juego popular tienes que juntar una única combinación ganadora con tres dados ?",
+        "propositions": [
+          "Dudo",
+          "Craps",
+          "421",
+          "Yahtzee"
+        ],
+        "réponse": "421",
+        "anecdote": "Jugamos 421 (que toma su nombre de la combinación más fuerte) usando tres dados y una cierta cantidad de fichas o cartas."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué necesitas para alinearte para ganar una partida de « Power 4 », un juego de mesa derivado de Morpion ?",
+        "propositions": [
+          "Dados",
+          "Fichas",
+          "Tarjetas ","Cartes",
+          "Bolas"
+        ],
+        "réponse": "Fichas",
+        "anecdote": "El ganador de « Power 4 » es el jugador que primero logra una alineación de al menos cuatro peones de su color."
+      },
+      {
+        "id": 9,
+        "question": "¿De cuántas cartas suele constar un mazo de batalla ?",
+        "propositions": [
+          "43",
+          "52",
+          "65",
+          "36"
+        ],
+        "réponse": "52",
+        "anecdote": "Practicada por niños y adultos, la batalla es muy sencilla ya que a priori está bajo el control exclusivo del azar."
+      },
+      {
+        "id": 10,
+        "question": "En el póquer, ¿cuál de las combinaciones posibles es la suite de cartas más poderosa ?",
+        "propositions": [
+          "Escalera de color",
+          "Par",
+          "Cuadrado",
+          "Trío"
+        ],
+        "réponse": "Escalera de color",
+        "anecdote": "Bertrand ElkY Grospellier es el jugador con la mayor lista de premios y las mayores ganancias en torneos entre los franceses."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué juego de mesa para dos jugadores se debe deducir una combinación de colores ?",
+        "propositions": [
+          "Cerebro",
+          "Monopolio",
+          "Memoria",
+          "Mente maestra"
+        ],
+        "réponse": "Mente maestra",
+        "anecdote": "El « Mastermind » fue inventado por Mordecai Meirowitz en la década de 1970 mientras trabajaba como experto en telecomunicaciones."
+      },
+      {
+        "id": 12,
+        "question": "En su versión europea, el juego « ¿Quién es ? » contiene un tablero azul y un...",
+        "propositions": [
+          "Colorete",
+          "Amarillo",
+          "Verde",
+          "Blanco"
+        ],
+        "réponse": "Colorete",
+        "anecdote": "« Qui-est-ce ? » es un juego de mesa sencillo y educativo para un público joven que utiliza el razonamiento deductivo."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuántos peones diferentes necesitas para completar un gráfico circular « Trivial Pursuit » ?",
+        "propositions": [
+          "Siete",
+          "Cinco",
+          "Cuatro",
+          "Seis"
+        ],
+        "réponse": "Seis",
+        "anecdote": "El juego continúa hasta que uno de los jugadores recolecta una parte de los seis colores y coloca su peón en la casilla especial."
+      },
+      {
+        "id": 14,
+        "question": "¿Con qué jugamos en « Boggle », para qué clubes se han organizado ?",
+        "propositions": [
+          "Peones",
+          "Bolas",
+          "Dados",
+          "Tarjetas ","Cartes"
+        ],
+        "réponse": "Dados",
+        "anecdote": "A diferencia de « Scrabble », las reglas no se rigen internacionalmente y no hay torneos oficiales."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué juego de mesa consiste en lanzar fichas planas al fondo de una taza ?",
+        "propositions": [
+          "Juego de lunares",
+          "Juego de limón",
+          "Juego de ceros y cruces",
+          "Chipset"
+        ],
+        "réponse": "Chipset",
+        "anecdote": "Se juega presionando las fichas con otra ficha o usando un sistema de resorte que forma una catapulta."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué juego de azar puro tiene 63 cajas dispuestas en espiral hacia adentro ?",
+        "propositions": [
+          "Chipset",
+          "Ir juego",
+          "Juego de ganso",
+          "Mill juego"
+        ],
+        "réponse": "Juego de ganso",
+        "anecdote": "Una de las menciones más antiguas del juego de la oca data de 1617 y proviene de la obra de Pietro Carrera dedicado al ajedrez."
+      },
+      {
+        "id": 17,
+        "question": "¿En qué juego de mesa tienes que adivinar palabras sin pronunciar palabras prohibidas ?",
+        "propositions": [
+          "Motus",
+          "Memoria",
+          "Boggle",
+          "Tabú"
+        ],
+        "réponse": "Tabú",
+        "anecdote": "« Taboo » se juega con una baraja de cartas en la que están escritas palabras de adivinación y la lista de cinco palabras prohibidas."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuántos dados se utilizan para jugar « Yahtzee » para lograr un truco ?",
+        "propositions": [
+          "Cinco",
+          "Cuatro",
+          "Siete",
+          "Seis"
+        ],
+        "réponse": "Cinco",
+        "anecdote": "Existen muchas variaciones del « Yahtzee » en el establecimiento del cuadro de mando y en el recuento de puntos."
+      },
+      {
+        "id": 19,
+        "question": "En « Scrabble », ¿cuántos puntos vale la letra J, al igual que la letra Q ?",
+        "propositions": [
+          "10",
+          "6",
+          "4",
+          "8"
+        ],
+        "réponse": "8",
+        "anecdote": "Los tokens son soportes de formato cuadrado en los que se escribe una letra del alfabeto así como su valor."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué juego de mesa consiste en dejar caer las canicas del oponente en los agujeros ?",
+        "propositions": [
+          "Trampas",
+          "Doctor chiflado",
+          "Power 4",
+          "Mente maestra"
+        ],
+        "réponse": "Trampas",
+        "anecdote": "En todos los estantes de los supermercados, « Traps » se beneficia de la buena distribución de juegos y rompecabezas de su editor."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿En qué juego de mesa de 64 peones tienes que obtener el máximo número de peones de tu color ?",
+        "propositions": [
+          "Awale",
+          "Otelo",
+          "Pentago",
+          "Power 4"
+        ],
+        "réponse": "Otelo",
+        "anecdote": "La Federación Francesa de Othello (o FFO) reúne a los jugadores de Othello y Reversi."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué juego de estrategia publicado por MB tiene cinco engranajes blancos de diferentes tamaños ?",
+        "propositions": [
+          "Abulón",
+          "Riesgo",
+          "Diez de otoño",
+          "Uno"
+        ],
+        "réponse": "Diez de otoño",
+        "anecdote": "Este gran clásico, presente desde 1970, sigue encantando a generaciones de jóvenes jugadores, pero también a sus padres."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál de estas armas no aparece en el « Cluedo », diseñado por Anthony Pratt y su esposa ?",
+        "propositions": [
+          "Baton",
+          "Revolver",
+          "Picahielo",
+          "Araña de luces"
+        ],
+        "réponse": "Picahielo",
+        "anecdote": "El objetivo del juego es averiguar quién mató al Doctor Lenoir, en qué habitación de Tudor Manor y con qué arma."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué juego de estrategia implica empujar las seis canicas del oponente a una zanja ?",
+        "propositions": [
+          "Riesgo",
+          "Otelo",
+          "Diez de otoño",
+          "Abulón"
+        ],
+        "réponse": "Abulón",
+        "anecdote": "El juego, de origen francés, ganó el Gobelet d'Or en el concurso de creadores de juegos de Boulogne-Billancourt en 1988."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué juego de mesa, creado por John Spinello, se llamó « Operation » cuando se creó en 1965 ?",
+        "propositions": [
+          "Doctor chiflado",
+          "Kubb",
+          "Tabú",
+          "Reversi"
+        ],
+        "réponse": "Doctor chiflado",
+        "anecdote": "« Nutty Doctor » aportó 40 millones de dólares a sus propietarios, mientras que Hasbro absorbió MB."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué juego de estrategia se divide en no menos de 42 territorios y 6 continentes ?",
+        "propositions": [
+          "Riesgo",
+          "Arpón",
+          "Grito de batalla",
+          "Starfire"
+        ],
+        "réponse": "Riesgo",
+        "anecdote": "« Risk » comparte muchas características con el juego de guerra, pero es más simple y abstracto."
+      },
+      {
+        "id": 27,
+        "question": "¿Quién fue asesinado en « Cluedo » en una mansión inglesa, Tudor Manor ?",
+        "propositions": [
+          "Madame Leblanc",
+          "Profesora Violet",
+          "Doctor Lenoir",
+          "Coronel Mustard"
+        ],
+        "réponse": "Doctor Lenoir",
+        "anecdote": "El juego viene con pequeñas tarjetas de encuesta que permiten a los jugadores contar qué tarjetas de coartadas han visto."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué juego de cartas estadounidense fue creado en 1971 por Merle Robbins y publicado por Mattel ?",
+        "propositions": [
+          "Uno",
+          "Dobble",
+          "Korsar",
+          "1000 terminales"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Recientemente, la versión H2O Splash de « Uno » te permite jugar en el agua, el juego presenta dos nuevas cartas."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué animal representa la distancia de 100 km en el juego « 1000 terminales » ?",
+        "propositions": [
+          "Una liebre",
+          "Una mariposa",
+          "Una golondrina",
+          "Un pato"
+        ],
+        "réponse": "Una liebre",
+        "anecdote": "Las « 1000 terminales » fueron inventadas en 1954 por Edmond Dujardin, un editor de equipos para autoescuelas."
+      },
+      {
+        "id": 30,
+        "question": "¿Cómo se llama la variante del juego combinatorio abstracto « Othello » ?",
+        "propositions": [
+          "Uno",
+          "Abulón",
+          "Othidis",
+          "Reversi"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Othello » se juega en un mazo de un solo color de 64 cuadrados, 8 x 8, llamado « othellier »."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In « Trivial Pursuit », cosa dovresti fare dopo aver ottenuto tutti i grafici a torta ?",
+        "propositions": [
+          "Imita una carta",
+          "Entra nel centro",
+          "Conta i tuoi punti",
+          "Perderli tutti"
+        ],
+        "réponse": "Entra nel centro",
+        "anecdote": "Il gioco « Trivial Pursuit » è stato creato da due Quebec, Chris Haney e Scott Abbott e pubblicato per la prima volta in Quebec nel 1979."
+      },
+      {
+        "id": 2,
+        "question": "Quale gioco creato nel 1985 da Rob Angel consiste nel far indovinare una parola disegnandola ?",
+        "propositions": [
+          "Pictionary",
+          "Mastermind",
+          "Uno",
+          "Blokus"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "In « Pictionary », si dovrebbe solo disegnare, essendo vietati numeri, lettere, parole e gesti."
+      },
+      {
+        "id": 3,
+        "question": "Quale gioco da tavolo consiste nel rovinare i tuoi avversari con transazioni immobiliari ?",
+        "propositions": [
+          "Boggle",
+          "Monopolio",
+          "La buona paga",
+          "1000 terminali"
+        ],
+        "réponse": "Monopolio",
+        "anecdote": "Il gioco simboleggia gli aspetti apparenti e spettacolari del capitalismo, le fortune accumulate con i dadi."
+      },
+      {
+        "id": 4,
+        "question": "In « Scrabble », il giocatore che inizia il gioco inserisce una parola sul tabellone che conta...",
+        "propositions": [
+          "Tripla",
+          "Per 50 punti",
+          "Per 100 punti",
+          "Doppio"
+        ],
+        "réponse": "Doppio",
+        "anecdote": "La società Hasbro possiede i diritti negli Stati Uniti d'America e in Canada e Mattel nel resto del mondo."
+      },
+      {
+        "id": 5,
+        "question": "Quale gioco di abilità, adatto a 2-6 giocatori, consiste nell'afferrare le bacchette una per una ?",
+        "propositions": [
+          "Samurai",
+          "Mahjong",
+          "Mikado",
+          "Mandarino"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "In Mikado, è spesso possibile utilizzare una bacchetta che hai già raccolto per rimuoverne un'altra."
+      },
+      {
+        "id": 6,
+        "question": "Qual è il pezzo degli scacchi più mobile tra i sedici pezzi di ciascun giocatore ?",
+        "propositions": [
+          "Pazzo",
+          "Queen",
+          "Re",
+          "Rider"
+        ],
+        "réponse": "Queen",
+        "anecdote": "Negli scacchi, ogni giocatore ha inizialmente un re, una regina, due torri, due alfieri, due cavalieri e otto pedoni."
+      },
+      {
+        "id": 7,
+        "question": "In quale gioco popolare devi mettere insieme una singola combinazione vincente con tre dadi ?",
+        "propositions": [
+          "Yahtzee",
+          "Dudo",
+          "Craps",
+          "421"
+        ],
+        "réponse": "421",
+        "anecdote": "Giochiamo 421 (che prende il nome dalla combinazione più forte) utilizzando tre dadi e un certo numero di gettoni o carte."
+      },
+      {
+        "id": 8,
+        "question": "Di cosa hai bisogno per schierarti per vincere una partita a « Power 4 », un gioco da tavolo derivato da Morpion ?",
+        "propositions": [
+          "Dadi",
+          "Gettoni",
+          "Carte",
+          "Palle"
+        ],
+        "réponse": "Gettoni",
+        "anecdote": "Il vincitore di « Potenza 4 » è il giocatore che per primo ottiene un allineamento di almeno quattro pedoni del suo colore."
+      },
+      {
+        "id": 9,
+        "question": "Di quante carte è composto tipicamente un mazzo da battaglia ?",
+        "propositions": [
+          "43",
+          "65",
+          "52",
+          "36"
+        ],
+        "réponse": "52",
+        "anecdote": "Praticata da bambini e adulti, la battaglia è molto semplice poiché a priori sotto il controllo esclusivo del caso."
+      },
+      {
+        "id": 10,
+        "question": "Nel poker, quale delle possibili combinazioni è la suite di carte più potente ?",
+        "propositions": [
+          "Square",
+          "Straight Flush",
+          "Coppia",
+          "Tris"
+        ],
+        "réponse": "Straight Flush",
+        "anecdote": "Bertrand ElkY Grospellier è il giocatore con la più grande lista di premi e le maggiori vincite nei tornei tra i francesi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale gioco da tavolo per due giocatori si dovrebbe dedurre una combinazione di colori ?",
+        "propositions": [
+          "Cervello",
+          "Memoria",
+          "Monopolio",
+          "Mastermind"
+        ],
+        "réponse": "Mastermind",
+        "anecdote": "« Mastermind » è stato inventato da Mordecai Meirowitz negli anni '70 mentre lavorava come esperto di telecomunicazioni."
+      },
+      {
+        "id": 12,
+        "question": "Nella sua versione europea, il gioco « Chi è ? » contiene un tabellone blu e un...",
+        "propositions": [
+          "Bianco",
+          "Verde",
+          "Rosso",
+          "Giallo"
+        ],
+        "réponse": "Rosso",
+        "anecdote": "« Qui-est-ce ? » è un gioco da tavolo semplice ed educativo per un pubblico giovane che utilizza il ragionamento deduttivo."
+      },
+      {
+        "id": 13,
+        "question": "Di quante pedine differenti hai bisogno per completare un grafico a torta « Trivial Pursuit » ?",
+        "propositions": [
+          "Cinque",
+          "Seven",
+          "Sei",
+          "Quattro"
+        ],
+        "réponse": "Sei",
+        "anecdote": "Il gioco continua fino a quando uno dei giocatori raccoglie una parte dei sei colori e piazza il suo pedone sulla casella speciale."
+      },
+      {
+        "id": 14,
+        "question": "Con cosa giochiamo a « Boggle », per quali club sono stati organizzati ?",
+        "propositions": [
+          "Carte",
+          "Pedine",
+          "Palle",
+          "Dadi"
+        ],
+        "réponse": "Dadi",
+        "anecdote": "A differenza di « Scrabble », le regole non sono governate a livello internazionale e non ci sono tornei ufficiali."
+      },
+      {
+        "id": 15,
+        "question": "Quale gioco da tavolo consiste nel lanciare gettoni piatti sul fondo di una tazza ?",
+        "propositions": [
+          "Chipset",
+          "Gioco di Noughts and Cross",
+          "Gioco talpa",
+          "Gioco al limone"
+        ],
+        "réponse": "Chipset",
+        "anecdote": "Si gioca premendo le fiches con un'altra fiche o usando un sistema a molla che forma una catapulta."
+      },
+      {
+        "id": 16,
+        "question": "Quale gioco di pura fortuna ha 63 scatole disposte a spirale verso l'interno ?",
+        "propositions": [
+          "Chipset",
+          "Gioco del mulino",
+          "Gioco d'oca",
+          "Vai al gioco"
+        ],
+        "réponse": "Gioco d'oca",
+        "anecdote": "Una delle più antiche menzioni del gioco dell'oca risale al 1617 e proviene dall'opera di Pietro Carrera dedito agli scacchi."
+      },
+      {
+        "id": 17,
+        "question": "In quale gioco da tavolo devi indovinare le parole senza pronunciare parole proibite ?",
+        "propositions": [
+          "Tabù",
+          "Motus",
+          "Memoria",
+          "Boggle"
+        ],
+        "réponse": "Tabù",
+        "anecdote": "« Taboo » si gioca con un mazzo di carte su cui sono scritte parole per indovinare e l'elenco di cinque parole proibite."
+      },
+      {
+        "id": 18,
+        "question": "Quanti dadi servono per giocare a « Yahtzee » e ottenere un trucco ?",
+        "propositions": [
+          "Sei",
+          "Cinque",
+          "Seven",
+          "Quattro"
+        ],
+        "réponse": "Cinque",
+        "anecdote": "Esistono molte varianti dello « Yahtzee » nella creazione della scorecard e nel conteggio dei punti."
+      },
+      {
+        "id": 19,
+        "question": "In « Scrabble », quanti punti vale la lettera J, proprio come la lettera Q del resto ?",
+        "propositions": [
+          "8",
+          "6",
+          "10",
+          "4"
+        ],
+        "réponse": "8",
+        "anecdote": "I gettoni sono supporti di formato quadrato su cui è scritta una lettera dell'alfabeto e il suo valore."
+      },
+      {
+        "id": 20,
+        "question": "Quale gioco da tavolo consiste nel far cadere le biglie dell'avversario nei buchi ?",
+        "propositions": [
+          "Nutty Doctor",
+          "Mastermind",
+          "Potenza 4",
+          "Trappole"
+        ],
+        "réponse": "Trappole",
+        "anecdote": "In tutti gli scaffali dei supermercati, « Traps » beneficia della buona distribuzione di giochi e puzzle dal suo editore."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In quale gioco da tavolo di 64 pedine devi ottenere il numero massimo di pedine del tuo colore ?",
+        "propositions": [
+          "Otello",
+          "Awale",
+          "Potenza 4",
+          "Pentago"
+        ],
+        "réponse": "Otello",
+        "anecdote": "La Federazione Othello francese (o FFO) riunisce i giocatori di Otello e Reversi."
+      },
+      {
+        "id": 22,
+        "question": "Quale gioco di strategia pubblicato da MB ha cinque ingranaggi bianchi di diverse dimensioni ?",
+        "propositions": [
+          "Rischio",
+          "Abalone",
+          "Uno",
+          "Ten of Fall"
+        ],
+        "réponse": "Ten of Fall",
+        "anecdote": "Questo grande classico, presente dal 1970, incanta ancora generazioni di giovani giocatori, ma anche i loro genitori."
+      },
+      {
+        "id": 23,
+        "question": "Quale di queste armi non compare nel « Cluedo », progettato da Anthony Pratt e sua moglie ?",
+        "propositions": [
+          "Revolver",
+          "Lampadario",
+          "Baton",
+          "Rompighiaccio"
+        ],
+        "réponse": "Rompighiaccio",
+        "anecdote": "Lo scopo del gioco è scoprire chi ha ucciso il dottor Lenoir, in quale stanza del Tudor Manor e con quale arma."
+      },
+      {
+        "id": 24,
+        "question": "Quale gioco di strategia prevede di spingere le sei biglie dell'avversario in un fosso ?",
+        "propositions": [
+          "Dieci di caduta",
+          "Abalone",
+          "Otello",
+          "Rischio"
+        ],
+        "réponse": "Abalone",
+        "anecdote": "Il gioco, di origine francese, ha vinto il Gobelet d'Or al concorso per creatori di giochi di Boulogne-Billancourt nel 1988."
+      },
+      {
+        "id": 25,
+        "question": "Quale gioco da tavolo, creato da John Spinello, si chiamava « Operazione » quando fu creato nel 1965 ?",
+        "propositions": [
+          "Kubb",
+          "Reversi",
+          "Nutty Doctor",
+          "Tabù"
+        ],
+        "réponse": "Nutty Doctor",
+        "anecdote": "« Nutty Doctor » ha portato $ 40 milioni ai suoi proprietari, con MB che nel frattempo è stato assorbito da Hasbro."
+      },
+      {
+        "id": 26,
+        "question": "Quale gioco di strategia è diviso in non meno di 42 territori e 6 continenti ?",
+        "propositions": [
+          "Grido di battaglia",
+          "Starfire",
+          "Rischio",
+          "Arpione"
+        ],
+        "réponse": "Rischio",
+        "anecdote": "« Rischio » condivide molte caratteristiche con il gioco di guerra ma è più semplice e astratto."
+      },
+      {
+        "id": 27,
+        "question": "Chi è stato assassinato a « Cluedo » in una villa inglese, il Tudor Manor ?",
+        "propositions": [
+          "Madame Leblanc",
+          "Colonnello Mustard",
+          "Dottor Lenoir",
+          "Professor Violet"
+        ],
+        "réponse": "Dottor Lenoir",
+        "anecdote": "Il gioco viene fornito con piccole carte sondaggio che consentono ai giocatori di contare quali carte alibi hanno visto."
+      },
+      {
+        "id": 28,
+        "question": "Quale gioco di carte americano è stato creato nel 1971 da Merle Robbins e pubblicato da Mattel ?",
+        "propositions": [
+          "Uno",
+          "Korsar",
+          "Dobble",
+          "1000 terminali"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Recentemente, la versione H2O Splash di « Uno » ti permette di giocare in acqua, il gioco con due nuove carte."
+      },
+      {
+        "id": 29,
+        "question": "Quale animale rappresenta la distanza di 100 km al gioco « 1000 terminali » ?",
+        "propositions": [
+          "Una lepre",
+          "Una farfalla",
+          "Un'anatra",
+          "Una rondine"
+        ],
+        "réponse": "Una lepre",
+        "anecdote": "I « 1000 terminali » furono inventati nel 1954 da Edmond Dujardin, un editore di attrezzature per autoscuole."
+      },
+      {
+        "id": 30,
+        "question": "Qual è il nome della variante del gioco combinato astratto « Otello » ?",
+        "propositions": [
+          "Uno",
+          "Abalone",
+          "Reversi",
+          "Othidis"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Otello » si gioca su un mazzo di 64 quadrati monocolore, 8 per 8, chiamato « othellier »."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wat moet je doen in « Trivial Pursuit » als je alle cirkeldiagrammen hebt verkregen ?",
+        "propositions": [
+          "Een kaart nabootsen",
+          "Tel je punten",
+          "Verlies ze allemaal",
+          "Word lid van het centrum"
+        ],
+        "réponse": "Word lid van het centrum",
+        "anecdote": "Het spel « Trivial Pursuit » is gemaakt door twee Quebecers, Chris Haney en Scott Abbott en voor het eerst gepubliceerd in Quebec in 1979."
+      },
+      {
+        "id": 2,
+        "question": "Welk spel dat in 1985 door Rob Angel is gemaakt, bestaat erin een woord te raden door het te tekenen ?",
+        "propositions": [
+          "Blokus",
+          "Mastermind",
+          "Pictionary",
+          "Uno"
+        ],
+        "réponse": "Pictionary",
+        "anecdote": "In « Pictionary » moet je alleen tekenen, cijfers, letters, woorden en gebaren zijn verboden."
+      },
+      {
+        "id": 3,
+        "question": "Welk bordspel bestaat erin je tegenstanders te ruïneren met onroerendgoedtransacties ?",
+        "propositions": [
+          "Monopolie",
+          "Boggle",
+          "1000 terminals",
+          "Het goede loon"
+        ],
+        "réponse": "Monopolie",
+        "anecdote": "Het spel symboliseert de schijnbare en spectaculaire aspecten van het kapitalisme, de fortuinen die worden verdiend met de worpen van de dobbelstenen."
+      },
+      {
+        "id": 4,
+        "question": "In « Scrabble » plaatst de speler die het spel start een woord op het bord dat telt...",
+        "propositions": [
+          "Voor 50 punten",
+          "Voor 100 punten",
+          "Drievoudig",
+          "Dubbel"
+        ],
+        "réponse": "Dubbel",
+        "anecdote": "Het bedrijf Hasbro bezit de rechten in de Verenigde Staten van Amerika en Canada, en Mattel in de rest van de wereld."
+      },
+      {
+        "id": 5,
+        "question": "Welk behendigheidsspel, geschikt voor 2 tot 6 spelers, bestaat uit het een voor een pakken van eetstokjes ?",
+        "propositions": [
+          "Samoerai",
+          "Mahjong",
+          "Mikado",
+          "Mandarijn"
+        ],
+        "réponse": "Mikado",
+        "anecdote": "Bij Mikado is het vaak mogelijk om een reeds verzamelde toverstok te gebruiken om een andere te verwijderen."
+      },
+      {
+        "id": 6,
+        "question": "Wat is het meest mobiele schaakstuk van de zestien stukken van elke speler ?",
+        "propositions": [
+          "Koning",
+          "Koningin",
+          "Ruiter",
+          "Gek"
+        ],
+        "réponse": "Koningin",
+        "anecdote": "Bij schaken heeft elke speler aanvankelijk een koning, een dame, twee torens, twee lopers, twee ridders en acht pionnen."
+      },
+      {
+        "id": 7,
+        "question": "In welk populair spel moet je een enkele winnende combinatie met drie dobbelstenen samenstellen ?",
+        "propositions": [
+          "Dudo",
+          "Yahtzee",
+          "Craps",
+          "421"
+        ],
+        "réponse": "421",
+        "anecdote": "We spelen 421 (die zijn naam ontleent aan de sterkste combinatie) met drie dobbelstenen en een bepaald aantal tokens of kaarten."
+      },
+      {
+        "id": 8,
+        "question": "Wat heb je nodig om in de rij te staan om een spel « Power 4 » te winnen, een bordspel afgeleid van Morpion ?",
+        "propositions": [
+          "Ballen",
+          "Dobbelstenen",
+          "Kaarten",
+          "Tokens"
+        ],
+        "réponse": "Tokens",
+        "anecdote": "De winnaar van « Kracht 4 » is de speler die als eerste een uitlijning van ten minste vier pionnen van zijn kleur bereikt."
+      },
+      {
+        "id": 9,
+        "question": "Uit hoeveel kaarten bestaat een gevechtsstapel doorgaans ?",
+        "propositions": [
+          "43",
+          "65",
+          "36",
+          "52"
+        ],
+        "réponse": "52",
+        "anecdote": "Beoefend door kinderen en volwassenen, is de strijd heel eenvoudig, aangezien a priori onder de exclusieve controle van het toeval staat."
+      },
+      {
+        "id": 10,
+        "question": "Welke van de mogelijke combinaties is bij poker de krachtigste kaartensuite ?",
+        "propositions": [
+          "Vierkant",
+          "Paar",
+          "Straight Flush",
+          "Three of a kind"
+        ],
+        "réponse": "Straight Flush",
+        "anecdote": "Bertrand ElkY Grospellier is de speler met de grootste prijzenlijst en de grootste toernooiwinst onder de Fransen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welk bordspel voor twee spelers moet een combinatie van kleuren worden afgeleid ?",
+        "propositions": [
+          "Geheugen",
+          "Hersenen",
+          "Mastermind",
+          "Monopolie"
+        ],
+        "réponse": "Mastermind",
+        "anecdote": "De « Mastermind » is uitgevonden door Mordecai Meirowitz in de jaren zeventig terwijl hij werkte als telecomexpert."
+      },
+      {
+        "id": 12,
+        "question": "In zijn Europese versie bevat het spel « Wie is het ? » een blauw bord en een...",
+        "propositions": [
+          "Wit",
+          "Geel",
+          "Groen",
+          "Rood"
+        ],
+        "réponse": "Rood",
+        "anecdote": "« Qui-est-ce ? » is een eenvoudig en leerzaam bordspel voor een jong publiek met behulp van deductief redeneren."
+      },
+      {
+        "id": 13,
+        "question": "Hoeveel verschillende pionnen heb je nodig om een « Trivial Pursuit » -cirkeldiagram te voltooien ?",
+        "propositions": [
+          "Zeven",
+          "Vijf",
+          "Zes",
+          "Vier"
+        ],
+        "réponse": "Zes",
+        "anecdote": "Het spel gaat door totdat een van de spelers een deel van de zes kleuren heeft verzameld en zijn pion op het speciale vierkant plaatst."
+      },
+      {
+        "id": 14,
+        "question": "Waar spelen we mee bij « Boggle », voor welke clubs zijn er georganiseerd ?",
+        "propositions": [
+          "Kaarten",
+          "Ballen",
+          "Pionnen",
+          "Dobbelstenen"
+        ],
+        "réponse": "Dobbelstenen",
+        "anecdote": "In tegenstelling tot « Scrabble » worden de regels niet internationaal geregeld en zijn er geen officiële toernooien."
+      },
+      {
+        "id": 15,
+        "question": "Welk bordspel bestaat uit het voortstuwen van platte tokens naar de bodem van een beker ?",
+        "propositions": [
+          "Chipset",
+          "Nullen en kruisen spel",
+          "Molenspel",
+          "Lemon Game"
+        ],
+        "réponse": "Chipset",
+        "anecdote": "Het wordt gespeeld door op de fiches te drukken met een andere fiche, of door een veersysteem te gebruiken dat een katapult vormt."
+      },
+      {
+        "id": 16,
+        "question": "Welk puur kansspel heeft 63 dozen gerangschikt in een spiraal naar binnen gewonden ?",
+        "propositions": [
+          "Molen spel",
+          "Gans spel",
+          "Ga spel",
+          "Chipset"
+        ],
+        "réponse": "Gans spel",
+        "anecdote": "Een van de oudste vermeldingen van het ganzenbord dateert uit 1617 en komt uit het werk van Pietro Carrera dat zich toelegt op schaken."
+      },
+      {
+        "id": 17,
+        "question": "In welk bordspel moet je woorden laten raden zonder verboden woorden uit te spreken ?",
+        "propositions": [
+          "Motus",
+          "Boggle",
+          "Taboe",
+          "Geheugen"
+        ],
+        "réponse": "Taboe",
+        "anecdote": "« Taboo » wordt gespeeld met een pak kaarten waarop giswoorden zijn geschreven en de lijst met vijf verboden woorden."
+      },
+      {
+        "id": 18,
+        "question": "Hoeveel dobbelstenen worden er gebruikt om « Yahtzee » te spelen om een slag te maken ?",
+        "propositions": [
+          "Vijf",
+          "Zeven",
+          "Vier",
+          "Zes"
+        ],
+        "réponse": "Vijf",
+        "anecdote": "Er zijn veel variaties op de « Yahtzee » bij het opstellen van de scorekaart en het tellen van punten."
+      },
+      {
+        "id": 19,
+        "question": "Hoeveel punten is in « Scrabble » de letter J waard, net als de letter Q trouwens ?",
+        "propositions": [
+          "8",
+          "6",
+          "4",
+          "10"
+        ],
+        "réponse": "8",
+        "anecdote": "De tokens hebben een vierkant formaat waarop een letter van het alfabet is geschreven, evenals de waarde ervan."
+      },
+      {
+        "id": 20,
+        "question": "Welk bordspel bestaat uit het laten vallen van de knikkers van de tegenstander in gaten ?",
+        "propositions": [
+          "Mastermind",
+          "Nootachtige dokter",
+          "Voeding 4",
+          "Vallen"
+        ],
+        "réponse": "Vallen",
+        "anecdote": "In alle schappen van supermarkten profiteert « Traps » van de goede distributie van games en puzzels van de uitgever."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welk bordspel van 64 pionnen moet je het maximale aantal pionnen van jouw kleur behalen ?",
+        "propositions": [
+          "Pentago",
+          "Awale",
+          "Voeding 4",
+          "Othello"
+        ],
+        "réponse": "Othello",
+        "anecdote": "De Franse Othello Federation (of FFO) brengt Othello- en Reversi-spelers samen."
+      },
+      {
+        "id": 22,
+        "question": "Welk strategiespel gepubliceerd door MB heeft vijf witte tandwielen van verschillende grootte ?",
+        "propositions": [
+          "Risico",
+          "Ten of Fall",
+          "Abalone",
+          "Uno"
+        ],
+        "réponse": "Ten of Fall",
+        "anecdote": "Deze geweldige klassieker, aanwezig sinds 1970, betovert nog steeds generaties jonge spelers, maar ook hun ouders."
+      },
+      {
+        "id": 23,
+        "question": "Welke van deze wapens komt niet voor in de « Cluedo », ontworpen door Anthony Pratt en zijn vrouw ?",
+        "propositions": [
+          "Revolver",
+          "Knuppel",
+          "IJspriem",
+          "Kroonluchter"
+        ],
+        "réponse": "IJspriem",
+        "anecdote": "Het doel van het spel is om erachter te komen wie Doctor Lenoir heeft vermoord, in welke kamer van de Tudor Manor en met welk wapen."
+      },
+      {
+        "id": 24,
+        "question": "Bij welk strategiespel worden de zes knikkers van de tegenstander in een greppel geduwd ?",
+        "propositions": [
+          "Othello",
+          "Tien van de herfst",
+          "Risico",
+          "Abalone"
+        ],
+        "réponse": "Abalone",
+        "anecdote": "Het van oorsprong Franse spel won in 1988 de Gobelet d'Or op de Boulogne-Billancourt Game Creators Competition."
+      },
+      {
+        "id": 25,
+        "question": "Welk bordspel, gemaakt door John Spinello, heette « Operation » toen het in 1965 werd gemaakt ?",
+        "propositions": [
+          "Taboe",
+          "Reversi",
+          "Kubb",
+          "Nootachtige dokter"
+        ],
+        "réponse": "Nootachtige dokter",
+        "anecdote": "« Nutty Doctor » bracht $ 40 miljoen binnen bij de eigenaren, terwijl MB ondertussen door Hasbro werd geabsorbeerd."
+      },
+      {
+        "id": 26,
+        "question": "Welk strategiespel is onderverdeeld in maar liefst 42 territoria en 6 continenten ?",
+        "propositions": [
+          "Risico",
+          "Starfire",
+          "Battle Cry",
+          "Harpoen"
+        ],
+        "réponse": "Risico",
+        "anecdote": "« Risk » heeft veel kenmerken gemeen met het oorlogsspel, maar is eenvoudiger en abstracter."
+      },
+      {
+        "id": 27,
+        "question": "Wie werd er vermoord in « Cluedo » in een Engels landhuis, de Tudor Manor ?",
+        "propositions": [
+          "Madame Leblanc",
+          "Dokter Lenoir",
+          "Professor Violet",
+          "Kolonel Mosterd"
+        ],
+        "réponse": "Dokter Lenoir",
+        "anecdote": "Het spel wordt geleverd met kleine enquêtekaarten waarmee spelers kunnen tellen welke alibiskaarten ze hebben gezien."
+      },
+      {
+        "id": 28,
+        "question": "Welk Amerikaans kaartspel is in 1971 gemaakt door Merle Robbins en uitgegeven door Mattel ?",
+        "propositions": [
+          "1000 terminals",
+          "Uno",
+          "Dobble",
+          "Korsar"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Sinds kort kun je met de H2O Splash-versie van « Uno » in het water spelen, het spel met twee nieuwe kaarten."
+      },
+      {
+        "id": 29,
+        "question": "Welk dier vertegenwoordigt de afstand van 100 km bij het spel « 1000 terminals » ?",
+        "propositions": [
+          "Een vlinder",
+          "Een eend",
+          "Een zwaluw",
+          "Een haas"
+        ],
+        "réponse": "Een haas",
+        "anecdote": "De « 1000 terminals » werd in 1954 uitgevonden door Edmond Dujardin, een uitgever van apparatuur voor rijscholen."
+      },
+      {
+        "id": 30,
+        "question": "Hoe heet de variant van het abstracte combinatiespel « Othello » ?",
+        "propositions": [
+          "Uno",
+          "Reversi",
+          "Othidis",
+          "Abalone"
+        ],
+        "réponse": "Reversi",
+        "anecdote": "« Othello » wordt gespeeld op een eenkleurig 64-vierkant, 8 bij 8 kaartspel, genaamd « othellier »."
+      }
+    ]
+    }
+  }
+}

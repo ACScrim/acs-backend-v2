@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2025-07-05",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Culture en vrac #13",
+      "slogan": "De la culture à tous les niveaux"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "",
+      "slogan": ""
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "",
+      "slogan": ""
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "",
+      "slogan": ""
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "",
+      "slogan": ""
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "",
+      "slogan": ""
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle est la nationalité de la firme automobile Mazda fondée par Jujiro Matsuda ?",
+        "propositions": [
+          "Chinoise",
+          "Japonaise",
+          "Coréenne",
+          "Taïwanaise"
+        ],
+        "réponse": "Japonaise",
+        "anecdote": "Mazda est connue pour la production en série du moteur à piston rotatif (type moteur Wankel) au lieu de pistons conventionnels."
+      },
+      {
+        "id": 2,
+        "question": "Quel fleuve d'Amérique a son embouche située au niveau de l'équateur ?",
+        "propositions": [
+          "Mississippi",
+          "Yukon",
+          "Amazone",
+          "Colorado"
+        ],
+        "réponse": "Amazone",
+        "anecdote": "Le fleuve prend sa source dans les Andes, traverse le Pérou, la Colombie et le Brésil, et se jette enfin dans l'océan Atlantique."
+      },
+      {
+        "id": 3,
+        "question": "Que dansait-on tout particulièrement durant les années folles ?",
+        "propositions": [
+          "Jerk",
+          "Cha-cha",
+          "Charleston",
+          "Twist"
+        ],
+        "réponse": "Charleston",
+        "anecdote": "Il est fondé sur des déplacements du poids du corps d'une jambe à l'autre, pieds tournés vers l'intérieur et genoux légèrement fléchis."
+      },
+      {
+        "id": 4,
+        "question": "Par quel cap de la Terre de Feu passe-t-on pour aller de Recife à Valparaiso ?",
+        "propositions": [
+          "Cap Leeuwin",
+          "Cap Froward",
+          "Cap Horn",
+          "Cap Flora"
+        ],
+        "réponse": "Cap Horn",
+        "anecdote": "Le Cap Horn fut pendant de nombreuses années un point de passage crucial des routes commerciales entre l'Europe et l'Asie."
+      },
+      {
+        "id": 5,
+        "question": "Quel pays a attaqué la base navale de Pearl Harbor en décembre 1941 ?",
+        "propositions": [
+          "Allemagne",
+          "Japon",
+          "Corée du Sud",
+          "U.R.S.S."
+        ],
+        "réponse": "Japon",
+        "anecdote": "La base navale de Pearl Harbor et le quartier général de la flotte du Pacifique des États-Unis ont une superficie de 5 304 hectares."
+      },
+      {
+        "id": 6,
+        "question": "Dans quel sport à un ou plusieurs joueurs utilise-t-on de la craie bleue ?",
+        "propositions": [
+          "Billard",
+          "Curling",
+          "Golf",
+          "Squash"
+        ],
+        "réponse": "Billard",
+        "anecdote": "Le billard se pratique sur une table bordée de bandes sur laquelle on fait rouler des billes frappées avec une queue."
+      },
+      {
+        "id": 7,
+        "question": "Que dégustez-vous en mangeant un savarin, créé par les frères Julien ?",
+        "propositions": [
+          "Gâteau",
+          "Fruit",
+          "Fromage",
+          "Ragoût"
+        ],
+        "réponse": "Gâteau",
+        "anecdote": "Un savarin est un gâteau moelleux et aéré, garni de crème, que l'on trouve le plus souvent sous la forme de couronne."
+      },
+      {
+        "id": 8,
+        "question": "Quel est le prénom du petit ami de la poupée Barbie créée par Mattel ?",
+        "propositions": [
+          "Tom",
+          "Ken",
+          "Ben",
+          "Jim"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie reprend les cheveux blonds et le principe de Bild Lilli, première poupée mannequin lancée en Allemagne un peu plus tôt."
+      },
+      {
+        "id": 9,
+        "question": "En quelle année l'Empire State Building fut-il achevé à New York ?",
+        "propositions": [
+          "1911",
+          "1941",
+          "1921",
+          "1931"
+        ],
+        "réponse": "1931",
+        "anecdote": "En 2019, il est le troisième immeuble de la ville de New York par sa hauteur, derrière le One World Trade Center et le 432 Park Avenue."
+      },
+      {
+        "id": 10,
+        "question": "Laquelle de ces villes italiennes ne se situe pas en Sicile ?",
+        "propositions": [
+          "Palerme",
+          "Messine",
+          "Bologne",
+          "Catane"
+        ],
+        "réponse": "Bologne",
+        "anecdote": "Le drapeau de la Sicile, la gorgone à trois jambe, représente les trois pointes de l'île, Trapani-Marsala, Messine et Syracuse."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Pour quel sport l'argentin Carlos Monzon est-il internationalement connu ?",
+        "propositions": [
+          "Basket-ball",
+          "Boxe",
+          "Tennis",
+          "Golf"
+        ],
+        "réponse": "Boxe",
+        "anecdote": "Champion du monde des poids moyens de 1970 à 1977, il est considéré comme l'un des meilleurs boxeurs de tous les temps."
+      },
+      {
+        "id": 12,
+        "question": "Dans quel pays se situe l'embouchure du Niger, fleuve d'Afrique occidentale ?",
+        "propositions": [
+          "Nigeria",
+          "Mali",
+          "Bénin",
+          "Guinée"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "Le Niger prend sa source entre la Sierra Leone et la Guinée, après une boucle au Sahara, avant de se jeter dans l'océan Atlantique."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel film d'André Téchiné Gérard Depardieu joue-t-il un double rôle ?",
+        "propositions": [
+          "Les Innocents",
+          "Les Voleurs",
+          "Barocco",
+          "Rendez-vous"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "En 1977, le film a obtenu le César de la meilleure photographie, de la meilleure musique et de la meilleure actrice pour un second rôle."
+      },
+      {
+        "id": 14,
+        "question": "Quel artiste français né à Bordeaux a chanté « Bleu, blanc, blond » en 1960 ?",
+        "propositions": [
+          "Serge Lama",
+          "Claude Nougaro",
+          "Eddy Mitchell",
+          "Marcel Amont"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "La chanson a été adaptée par Marcel Amont et la version américaine de Johnny Tillotson intitulée « True, true happiness »."
+      },
+      {
+        "id": 15,
+        "question": "Dans quel pays se situe Ushuaïa, le port le plus au sud du monde ?",
+        "propositions": [
+          "Brésil",
+          "Argentine",
+          "Bolivie",
+          "Chili"
+        ],
+        "réponse": "Argentine",
+        "anecdote": "Ushuaïa est la capitale de la province de Terre de Feu, Antarctique et Îles de l'Atlantique Sud, la plus méridionale de l'Argentine."
+      },
+      {
+        "id": 16,
+        "question": "Dans la mythologie, sous quelle forme Narcisse a-t-il été transformé ?",
+        "propositions": [
+          "Fleur",
+          "Nuage",
+          "Pierre",
+          "Loup"
+        ],
+        "réponse": "Fleur",
+        "anecdote": "Chasseur originaire de Thespies, en Béotie, Narcisse est le fils de la nymphe Liriope et du dieu fleuve Céphise."
+      },
+      {
+        "id": 17,
+        "question": "Quel animal hybride donne le croisement d'un cheval et d'une ânesse ?",
+        "propositions": [
+          "Bardot",
+          "Ânon",
+          "Baudet",
+          "Mulet"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "Le bardot est parfois confondu avec le mulet et la mule, issus du croisement inverse entre un âne mâle et une jument."
+      },
+      {
+        "id": 18,
+        "question": "Hitler est mort deux jours après quel autre personnage historique ?",
+        "propositions": [
+          "De Gaulle",
+          "Mussolini",
+          "Churchill",
+          "Staline"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini est couramment désigné par le terme Duce, mot italien dérivé du latin Dux et signifiant Chef ou Guide."
+      },
+      {
+        "id": 19,
+        "question": "Dans quel pays a eu lieu la bataille de Solférino, le 24 juin 1859 ?",
+        "propositions": [
+          "Italie",
+          "Grèce",
+          "Espagne",
+          "Portugal"
+        ],
+        "réponse": "Italie",
+        "anecdote": "Il s'agit d'une victoire de l'armée française de Napoléon III alliée à l'armée sarde sur l'armée autrichienne de François-Joseph."
+      },
+      {
+        "id": 20,
+        "question": "Quelle est la particularité physique de Catherine Deneuve dans « Tristana » ?",
+        "propositions": [
+          "Manchotte",
+          "Unijambiste",
+          "Aveugle",
+          "Chauve"
+        ],
+        "réponse": "Unijambiste",
+        "anecdote": "Le film « Tristana » est librement adapté du roman éponyme de l'auteur espagnol Benito Pérez Galdós, publié en 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Dans quel pays se situe la ville d'Albuquerque, siège du comté de Bernalillo ?",
+        "propositions": [
+          "Canada",
+          "Nouvelle-Zélande",
+          "Australie",
+          "États-Unis"
+        ],
+        "réponse": "États-Unis",
+        "anecdote": "On trouve à Albuquerque l'université du Nouveau-Mexique, la base aérienne de Kirtland et l'un des deux laboratoires Sandia."
+      },
+      {
+        "id": 22,
+        "question": "En quelle année la grippe espagnole a-t-elle commencé à tuer des millions de personnes ?",
+        "propositions": [
+          "1904",
+          "1937",
+          "1918",
+          "1929"
+        ],
+        "réponse": "1918",
+        "anecdote": "Cette pandémie a fait 50 millions de morts selon l'Institut Pasteur, et jusqu'à 100 millions selon certaines réévaluations récentes."
+      },
+      {
+        "id": 23,
+        "question": "Pour quel auteur, philosophe et essayiste la vie est-elle absurde ?",
+        "propositions": [
+          "John Steinbeck",
+          "Albert Camus",
+          "Ernest Hemingway",
+          "Samuel Beckett"
+        ],
+        "réponse": "Albert Camus",
+        "anecdote": "Albert Camus a en effet développé un humanisme fondé sur la prise de conscience de l'absurde de la condition humaine."
+      },
+      {
+        "id": 24,
+        "question": "En quelle année la population mondiale a-t-elle dépassé les deux milliards ?",
+        "propositions": [
+          "1935",
+          "1925",
+          "1955",
+          "1945"
+        ],
+        "réponse": "1925",
+        "anecdote": "Cette augmentation de la population tend à ralentir avec une baisse mondiale plus ou moins importante de l'indice de fécondité."
+      },
+      {
+        "id": 25,
+        "question": "En France, comment appelle-t-on un habitant de la ville de Fontainebleau ?",
+        "propositions": [
+          "Fontenais",
+          "Bellifontain",
+          "Fontenaisien",
+          "Fontenois"
+        ],
+        "réponse": "Bellifontain",
+        "anecdote": "Fontainebleau est située dans le département de Seine-et-Marne en région Île-de-France, à 57 kilomètres au sud-est de Paris."
+      },
+      {
+        "id": 26,
+        "question": "À partir de quelle ville française commence le delta du Rhône ?",
+        "propositions": [
+          "Lyon",
+          "Arles",
+          "Grenoble",
+          "Bordeaux"
+        ],
+        "réponse": "Arles",
+        "anecdote": "Le fleuve crée ce delta avant de se jeter en mer Méditerranée via une division de son cours en deux bras près de la ville d'Arles."
+      },
+      {
+        "id": 27,
+        "question": "Depuis quelle année les femmes bénéficient-elles du droit de vote en France ?",
+        "propositions": [
+          "1954",
+          "1934",
+          "1944",
+          "1924"
+        ],
+        "réponse": "1944",
+        "anecdote": "En 1945, les militaires de carrière seront les derniers citoyens français (à l'exception des SDF) à obtenir le droit de vote."
+      },
+      {
+        "id": 28,
+        "question": "Avec quel instrument mesure-t-on l'acidité d'un vinaigre ?",
+        "propositions": [
+          "Télémètre",
+          "Acétimètre",
+          "Goniomètre",
+          "Dilatomètre"
+        ],
+        "réponse": "Acétimètre",
+        "anecdote": "Le vinaigre résulte d'une transformation organochimique d'une solution aqueuse d'éthanol exposée à l'air."
+      },
+      {
+        "id": 29,
+        "question": "Quels nombres le philosophe grec Aristote a-t-il mis en évidence ?",
+        "propositions": [
+          "Irrationnels",
+          "Égaux",
+          "Premiers",
+          "Imaginaires"
+        ],
+        "réponse": "Irrationnels",
+        "anecdote": "Un nombre irrationnel est un nombre réel qui n'est pas rationnel, c'est-à-dire qu'il ne peut pas s'écrire sous la forme d'une fraction."
+      },
+      {
+        "id": 30,
+        "question": "Combien d'oeufs une huître peut-elle pondre au maximum en une année ?",
+        "propositions": [
+          "3 millions",
+          "300",
+          "3",
+          "3 000"
+        ],
+        "réponse": "3 millions",
+        "anecdote": "En s'installant sur les fonds, l'huître est capable de créer un habitat favorable à de nombreux autres organismes vivants."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What is the nationality of the Mazda automobile company founded by Jujiro Matsuda ?",
+        "propositions": [
+          "Taiwanese",
+          "Chinese",
+          "Japanese",
+          "Korean"
+        ],
+        "réponse": "Japanese",
+        "anecdote": "Mazda is known for mass production of the rotary piston engine (Wankel engine type) instead of conventional pistons."
+      },
+      {
+        "id": 2,
+        "question": "Which river in America has its mouth located at the equator ?",
+        "propositions": [
+          "Amazon",
+          "Mississippi",
+          "Colorado",
+          "Yukon"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "The river originates in the Andes, flows through Peru, Colombia and Brazil, and finally empties into the Atlantic Ocean."
+      },
+      {
+        "id": 3,
+        "question": "What was particularly danced during the Roaring Twenties ?",
+        "propositions": [
+          "Twist",
+          "Cha-cha",
+          "Jerk",
+          "Charleston"
+        ],
+        "réponse": "Charleston",
+        "anecdote": "It is based on shifting the weight of the body from one leg to the other, with the feet turned inwards and the knees slightly bent."
+      },
+      {
+        "id": 4,
+        "question": "Which cape of Tierra del Fuego do we go through to go from Recife to Valparaiso ?",
+        "propositions": [
+          "Cape Flora",
+          "Cape Froward",
+          "Cape Horn",
+          "Cape Leeuwin"
+        ],
+        "réponse": "Cape Horn",
+        "anecdote": "Cape Horn was for many years a crucial crossing point on trade routes between Europe and Asia."
+      },
+      {
+        "id": 5,
+        "question": "Which country attacked the Pearl Harbor naval base in December 1941 ?",
+        "propositions": [
+          "Germany",
+          "U.S.S.R.",
+          "Japan",
+          "South Korea"
+        ],
+        "réponse": "Japan",
+        "anecdote": "Pearl Harbor Naval Station and headquarters of the United States Pacific Fleet covers an area of 5,304 hectares."
+      },
+      {
+        "id": 6,
+        "question": "In which single or multiplayer sport does blue chalk be used ?",
+        "propositions": [
+          "Billiards",
+          "Golf",
+          "Curling",
+          "Squash"
+        ],
+        "réponse": "Billiards",
+        "anecdote": "Billiards is played on a table lined with strips on which balls hit with a cue are rolled."
+      },
+      {
+        "id": 7,
+        "question": "What do you taste when eating a savarin, created by the Julien brothers ?",
+        "propositions": [
+          "Cake",
+          "Cheese",
+          "Fruit",
+          "Stew"
+        ],
+        "réponse": "Cake",
+        "anecdote": "A savarin is a soft and airy cake, topped with cream, most often found in the form of a crown."
+      },
+      {
+        "id": 8,
+        "question": "What is the first name of the boyfriend of the Barbie doll created by Mattel ?",
+        "propositions": [
+          "Ken",
+          "Tommy",
+          "Jimmy",
+          "Ben"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie takes on the blonde hair and principle of Bild Lilli, the first fashion doll launched in Germany a little earlier."
+      },
+      {
+        "id": 9,
+        "question": "In what year was the Empire State Building completed in New York ?",
+        "propositions": [
+          "1921",
+          "1941",
+          "1931",
+          "1911"
+        ],
+        "réponse": "1931",
+        "anecdote": "As of 2019, it is the third tallest building in New York City, behind One World Trade Center and 432 Park Avenue."
+      },
+      {
+        "id": 10,
+        "question": "Which of these Italian cities is not located in Sicily ?",
+        "propositions": [
+          "Bologna",
+          "Catania",
+          "Messina",
+          "Palermo"
+        ],
+        "réponse": "Bologna",
+        "anecdote": "The flag of Sicily, the three-legged gorgon, represents the three points of the island, Trapani-Marsala, Messina and Syracuse."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What sport is Argentinian Carlos Monzon internationally known for ?",
+        "propositions": [
+          "Boxing",
+          "Tennis",
+          "Golf",
+          "Basketball"
+        ],
+        "réponse": "Boxing",
+        "anecdote": "World middleweight champion from 1970 to 1977, he is considered one of the best boxers of all time."
+      },
+      {
+        "id": 12,
+        "question": "In which country is the mouth of the Niger, a river in West Africa ?",
+        "propositions": [
+          "Guinea",
+          "Benin",
+          "Mali",
+          "Nigeria"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "The Niger has its source between Sierra Leone and Guinea, after a loop in the Sahara, before flowing into the Atlantic Ocean."
+      },
+      {
+        "id": 13,
+        "question": "In which André Téchiné film does Gérard Depardieu play a dual role ?",
+        "propositions": [
+          "Appointment",
+          "The Innocents",
+          "Barocco",
+          "The Thieves"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "In 1977, the film won the César for best cinematography, best music and best supporting actress."
+      },
+      {
+        "id": 14,
+        "question": "Which French artist born in Bordeaux sang « Bleu, blanc, blond » in 1960 ?",
+        "propositions": [
+          "Claude Nougaro",
+          "Serge Lama",
+          "Marcel Amont",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "The song was adapted by Marcel Amont and the American version by Johnny Tillotson entitled « True, true happiness »."
+      },
+      {
+        "id": 15,
+        "question": "In which country is Ushuaia, the southernmost port in the world ?",
+        "propositions": [
+          "Brazil",
+          "Chile",
+          "Argentina",
+          "Bolivia"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Ushuaia is the capital of the province of Tierra del Fuego, Antarctica and South Atlantic Islands, the southernmost province of Argentina."
+      },
+      {
+        "id": 16,
+        "question": "In mythology, what form was Narcissus transformed into ?",
+        "propositions": [
+          "Wolf",
+          "Cloud",
+          "Peter",
+          "Flower"
+        ],
+        "réponse": "Flower",
+        "anecdote": "A hunter from Thespiae, in Boeotia, Narcissus is the son of the nymph Liriope and the river god Cephisus."
+      },
+      {
+        "id": 17,
+        "question": "What hybrid animal results from the crossing of a horse and a donkey ?",
+        "propositions": [
+          "Donkey",
+          "Donkey",
+          "Mullet",
+          "Bardot"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "The hinny is sometimes confused with the mule and the mule, resulting from the reverse crossing between a male donkey and a mare."
+      },
+      {
+        "id": 18,
+        "question": "Hitler died two days after which other historical figure ?",
+        "propositions": [
+          "Stalin",
+          "Mussolini",
+          "Churchill",
+          "De Gaulle"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini is commonly referred to as Duce, an Italian word derived from the Latin Dux and meaning Leader or Guide."
+      },
+      {
+        "id": 19,
+        "question": "In which country did the Battle of Solferino take place on June 24, 1859 ?",
+        "propositions": [
+          "Spain",
+          "Italy",
+          "Greece",
+          "Portugal"
+        ],
+        "réponse": "Italy",
+        "anecdote": "It was a victory for the French army of Napoleon III allied with the Sardinian army over the Austrian army of Franz Joseph."
+      },
+      {
+        "id": 20,
+        "question": "What is the physical peculiarity of Catherine Deneuve in « Tristana » ?",
+        "propositions": [
+          "Blind",
+          "Bald",
+          "One-legged",
+          "Penguin"
+        ],
+        "réponse": "One-legged",
+        "anecdote": "The film « Tristana » is loosely adapted from the eponymous novel by Spanish author Benito Pérez Galdós, published in 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In which country is the city of Albuquerque, seat of Bernalillo County, located ?",
+        "propositions": [
+          "New Zealand",
+          "Australia",
+          "United States",
+          "Canada"
+        ],
+        "réponse": "United States",
+        "anecdote": "Albuquerque is home to the University of New Mexico, Kirtland Air Force Base and one of the two Sandia laboratories."
+      },
+      {
+        "id": 22,
+        "question": "In what year did the Spanish flu start killing millions of people ?",
+        "propositions": [
+          "1937",
+          "1918",
+          "1904",
+          "1929"
+        ],
+        "réponse": "1918",
+        "anecdote": "This pandemic has caused 50 million deaths according to the Pasteur Institute, and up to 100 million according to some recent reassessments."
+      },
+      {
+        "id": 23,
+        "question": "For which author, philosopher and essayist is life absurd ?",
+        "propositions": [
+          "Albert Camus",
+          "Samuel Beckett",
+          "John Steinbeck",
+          "Ernest Hemingway"
+        ],
+        "réponse": "Albert Camus",
+        "anecdote": "Albert Camus in fact developed a humanism based on awareness of the absurdity of the human condition."
+      },
+      {
+        "id": 24,
+        "question": "In what year did the world population exceed two billion ?",
+        "propositions": [
+          "1935",
+          "1955",
+          "1945",
+          "1925"
+        ],
+        "réponse": "1925",
+        "anecdote": "This increase in population tends to slow down with a more or less significant global decline in the fertility index."
+      },
+      {
+        "id": 25,
+        "question": "In France, what do you call a resident of the town of Fontainebleau ?",
+        "propositions": [
+          "Fontenais",
+          "Bellifontain",
+          "Fontenois",
+          "Fontenaisian"
+        ],
+        "réponse": "Bellifontain",
+        "anecdote": "Fontainebleau is located in the Seine-et-Marne department in the Île-de-France region, 57 kilometers southeast of Paris."
+      },
+      {
+        "id": 26,
+        "question": "From which French city does the Rhône delta begin ?",
+        "propositions": [
+          "Arles",
+          "Grenoble",
+          "Bordeaux",
+          "Lyon"
+        ],
+        "réponse": "Arles",
+        "anecdote": "The river creates this delta before flowing into the Mediterranean Sea via a division of its course into two arms near the city of Arles."
+      },
+      {
+        "id": 27,
+        "question": "Since what year have women had the right to vote in France ?",
+        "propositions": [
+          "1954",
+          "1934",
+          "1944",
+          "1924"
+        ],
+        "réponse": "1944",
+        "anecdote": "In 1945, career soldiers would be the last French citizens (with the exception of the homeless) to obtain the right to vote."
+      },
+      {
+        "id": 28,
+        "question": "With what instrument do you measure the acidity of vinegar ?",
+        "propositions": [
+          "Dilatometer",
+          "Acetimeter",
+          "Rangefinder",
+          "Goniometer"
+        ],
+        "réponse": "Acetimeter",
+        "anecdote": "Vinegar results from an organochemical transformation of an aqueous ethanol solution exposed to air."
+      },
+      {
+        "id": 29,
+        "question": "What numbers did the Greek philosopher Aristotle demonstrate ?",
+        "propositions": [
+          "Irrational",
+          "Equals",
+          "First",
+          "Imaginaries"
+        ],
+        "réponse": "Irrational",
+        "anecdote": "An irrational number is a real number that is not rational, that is, it cannot be written as a fraction."
+      },
+      {
+        "id": 30,
+        "question": "How many eggs can an oyster lay at most in a year ?",
+        "propositions": [
+          "300",
+          "3 million",
+          "3",
+          "3,000"
+        ],
+        "réponse": "3 million",
+        "anecdote": "By settling on the seabed, the oyster is able to create a habitat favorable to many other living organisms."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Nationalität hat das von Jujiro Matsuda gegründete Automobilunternehmen Mazda ?",
+        "propositions": [
+          "Chinesisch",
+          "Koreanisch",
+          "Japanisch",
+          "Taiwanesisch"
+        ],
+        "réponse": "Japanisch",
+        "anecdote": "Mazda ist bekannt für die Massenproduktion von Rotationskolbenmotoren (Wankelmotortyp) anstelle herkömmlicher Kolben."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Fluss in Amerika hat seine Mündung am Äquator ?",
+        "propositions": [
+          "Yukon",
+          "Amazon",
+          "Colorado",
+          "Mississippi"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Der Fluss entspringt in den Anden, fließt durch Peru, Kolumbien und Brasilien und mündet schließlich in den Atlantischen Ozean."
+      },
+      {
+        "id": 3,
+        "question": "Was wurde in den Goldenen Zwanzigern besonders getanzt ?",
+        "propositions": [
+          "Cha-cha",
+          "Idiot",
+          "Charleston",
+          "Drehen"
+        ],
+        "réponse": "Charleston",
+        "anecdote": "Es basiert auf der Verlagerung des Körpergewichts von einem Bein auf das andere, wobei die Füße nach innen gedreht und die Knie leicht gebeugt sind."
+      },
+      {
+        "id": 4,
+        "question": "Durch welches Kap von Feuerland fahren wir von Recife nach Valparaiso ?",
+        "propositions": [
+          "Kap Hoorn",
+          "Kapflora",
+          "Kap Froward",
+          "Kap Leeuwin"
+        ],
+        "réponse": "Kap Hoorn",
+        "anecdote": "Kap Hoorn war viele Jahre lang ein wichtiger Kreuzungspunkt auf den Handelsrouten zwischen Europa und Asien."
+      },
+      {
+        "id": 5,
+        "question": "Welches Land hat im Dezember 1941 den Marinestützpunkt Pearl Harbor angegriffen ?",
+        "propositions": [
+          "U.S.S.R.",
+          "Japan",
+          "Deutschland",
+          "Südkorea"
+        ],
+        "réponse": "Japan",
+        "anecdote": "Der Marinestützpunkt Pearl Harbor und Hauptquartier der US-Pazifikflotte erstreckt sich über eine Fläche von 5.304 Hektar."
+      },
+      {
+        "id": 6,
+        "question": "In welcher Einzel- oder Mehrspielersportart wird blaue Kreide verwendet ?",
+        "propositions": [
+          "Golf",
+          "Kürbis",
+          "Billard",
+          "Eisstockschießen"
+        ],
+        "réponse": "Billard",
+        "anecdote": "Billard wird auf einem Tisch gespielt, der mit Streifen ausgelegt ist, auf denen mit einem Queue geschlagene Kugeln gerollt werden."
+      },
+      {
+        "id": 7,
+        "question": "Was schmecken Sie, wenn Sie einen Savarin essen, der von den Julien-Brüdern kreiert wurde ?",
+        "propositions": [
+          "Kuchen",
+          "Eintopf",
+          "Käse",
+          "Obst"
+        ],
+        "réponse": "Kuchen",
+        "anecdote": "Ein Savarin ist ein weicher und luftiger Kuchen mit Sahne, meist in Form einer Krone."
+      },
+      {
+        "id": 8,
+        "question": "Wie lautet der Vorname des Freundes der Barbie-Puppe von Mattel ?",
+        "propositions": [
+          "Jimmy",
+          "Tommy",
+          "Ken",
+          "Ben"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie übernimmt die blonden Haare und das Prinzip von Bild Lilli, der ersten Modepuppe, die etwas früher in Deutschland auf den Markt kam."
+      },
+      {
+        "id": 9,
+        "question": "In welchem Jahr wurde das Empire State Building in New York fertiggestellt ?",
+        "propositions": [
+          "1941",
+          "1921",
+          "1931",
+          "1911"
+        ],
+        "réponse": "1931",
+        "anecdote": "Seit 2019 ist es nach dem One World Trade Center und der 432 Park Avenue das dritthöchste Gebäude in New York City."
+      },
+      {
+        "id": 10,
+        "question": "Welche dieser italienischen Städte liegt nicht auf Sizilien ?",
+        "propositions": [
+          "Messina",
+          "Catania",
+          "Bologna",
+          "Palermo"
+        ],
+        "réponse": "Bologna",
+        "anecdote": "Die Flagge Siziliens, die dreibeinige Gorgone, repräsentiert die drei Punkte der Insel : Trapani-Marsala, Messina und Syrakus."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Für welche Sportart ist der Argentinier Carlos Monzon international bekannt ?",
+        "propositions": [
+          "Golf",
+          "Tennis",
+          "Basketball",
+          "Boxen"
+        ],
+        "réponse": "Boxen",
+        "anecdote": "Er war von 1970 bis 1977 Weltmeister im Mittelgewicht und gilt als einer der besten Boxer aller Zeiten."
+      },
+      {
+        "id": 12,
+        "question": "In welchem Land liegt die Mündung des Niger, eines Flusses in Westafrika ?",
+        "propositions": [
+          "Mali",
+          "Benin",
+          "Nigeria",
+          "Guinea"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "Der Niger entspringt nach einer Schleife in der Sahara zwischen Sierra Leone und Guinea, bevor er in den Atlantischen Ozean mündet."
+      },
+      {
+        "id": 13,
+        "question": "In welchem Film von André Téchiné spielt Gérard Depardieu eine Doppelrolle ?",
+        "propositions": [
+          "Barocco",
+          "Die Unschuldigen",
+          "Die Diebe",
+          "Termin"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "1977 gewann der Film den César für die beste Kamera, die beste Musik und die beste Nebendarstellerin."
+      },
+      {
+        "id": 14,
+        "question": "Welcher in Bordeaux geborene französische Künstler sang 1960 « Bleu, blanc, blond » ?",
+        "propositions": [
+          "Eddy Mitchell",
+          "Marcel Amont",
+          "Serge Lama",
+          "Claude Nougaro"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "Das Lied wurde von Marcel Amont adaptiert und die amerikanische Version von Johnny Tillotson mit dem Titel « True, true happiness »."
+      },
+      {
+        "id": 15,
+        "question": "In welchem Land liegt Ushuaia, der südlichste Hafen der Welt ?",
+        "propositions": [
+          "Brasilien",
+          "Argentinien",
+          "Chile",
+          "Bolivien"
+        ],
+        "réponse": "Argentinien",
+        "anecdote": "Ushuaia ist die Hauptstadt der Provinz Feuerland, der Antarktis und der Südatlantischen Inseln, der südlichsten Provinz Argentiniens."
+      },
+      {
+        "id": 16,
+        "question": "In welche Form wurde Narziss in der Mythologie verwandelt ?",
+        "propositions": [
+          "Blume",
+          "Peter",
+          "Wolke",
+          "Wolf"
+        ],
+        "réponse": "Blume",
+        "anecdote": "Narcissus, ein Jäger aus Thespiae in Böotien, ist der Sohn der Nymphe Liriope und des Flussgottes Kephisus."
+      },
+      {
+        "id": 17,
+        "question": "Welches Hybridtier entsteht aus der Kreuzung von Pferd und Esel ?",
+        "propositions": [
+          "Bardot",
+          "Esel",
+          "Meeräsche",
+          "Esel"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "Der Maulesel wird manchmal mit dem Maultier und dem Maultier verwechselt, was aus der umgekehrten Kreuzung zwischen einem männlichen Esel und einer Stute resultiert."
+      },
+      {
+        "id": 18,
+        "question": "Hitler starb zwei Tage nach welcher anderen historischen Persönlichkeit ?",
+        "propositions": [
+          "De Gaulle",
+          "Mussolini",
+          "Stalin",
+          "Churchill"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini wird allgemein als Duce bezeichnet, ein italienisches Wort, das vom lateinischen Dux abgeleitet ist und Führer oder Führer bedeutet."
+      },
+      {
+        "id": 19,
+        "question": "In welchem Land fand am 24. Juni 1859 die Schlacht von Solferino statt ?",
+        "propositions": [
+          "Spanien",
+          "Italien",
+          "Portugal",
+          "Griechenland"
+        ],
+        "réponse": "Italien",
+        "anecdote": "Es war ein Sieg der mit der sardischen Armee verbündeten französischen Armee Napoleons III. über die österreichische Armee Franz Josephs."
+      },
+      {
+        "id": 20,
+        "question": "Was ist die körperliche Besonderheit von Catherine Deneuve in « Tristana » ?",
+        "propositions": [
+          "Einbeinig",
+          "Pinguin",
+          "Glatze",
+          "Blind"
+        ],
+        "réponse": "Einbeinig",
+        "anecdote": "Der Film « Tristana » ist eine lose Adaption des gleichnamigen Romans des spanischen Autors Benito Pérez Galdós aus dem Jahr 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Land liegt die Stadt Albuquerque, Sitz des Bernalillo County ?",
+        "propositions": [
+          "Vereinigte Staaten",
+          "Kanada",
+          "Australien",
+          "Neuseeland"
+        ],
+        "réponse": "Vereinigte Staaten",
+        "anecdote": "In Albuquerque befinden sich die University of New Mexico, die Kirtland Air Force Base und eines der beiden Sandia-Labors."
+      },
+      {
+        "id": 22,
+        "question": "In welchem Jahr begann die Spanische Grippe, Millionen Menschen zu töten ?",
+        "propositions": [
+          "1918",
+          "1904",
+          "1929",
+          "1937"
+        ],
+        "réponse": "1918",
+        "anecdote": "Nach Angaben des Pasteur-Instituts hat diese Pandemie 50 Millionen Todesfälle verursacht, einigen jüngsten Neubewertungen zufolge sind es sogar bis zu 100 Millionen."
+      },
+      {
+        "id": 23,
+        "question": "Für welchen Autor, Philosophen und Essayisten ist das Leben absurd ?",
+        "propositions": [
+          "Ernest Hemingway",
+          "Albert Camus",
+          "John Steinbeck",
+          "Samuel Beckett"
+        ],
+        "réponse": "Albert Camus",
+        "anecdote": "Tatsächlich entwickelte Albert Camus einen Humanismus, der auf dem Bewusstsein für die Absurdität des menschlichen Daseins basierte."
+      },
+      {
+        "id": 24,
+        "question": "In welchem Jahr überschritt die Weltbevölkerung die Zwei-Milliarden-Marke ?",
+        "propositions": [
+          "1925",
+          "1955",
+          "1945",
+          "1935"
+        ],
+        "réponse": "1925",
+        "anecdote": "Dieser Bevölkerungszuwachs verlangsamt sich tendenziell mit einem mehr oder weniger deutlichen globalen Rückgang des Fruchtbarkeitsindex."
+      },
+      {
+        "id": 25,
+        "question": "Wie nennt man in Frankreich einen Einwohner der Stadt Fontainebleau ?",
+        "propositions": [
+          "Bellifontain",
+          "Fontenois",
+          "Fontenaisian",
+          "Fontenais"
+        ],
+        "réponse": "Bellifontain",
+        "anecdote": "Fontainebleau liegt im Département Seine-et-Marne in der Region Île-de-France, 57 Kilometer südöstlich von Paris."
+      },
+      {
+        "id": 26,
+        "question": "Von welcher französischen Stadt aus beginnt das Rhône-Delta ?",
+        "propositions": [
+          "Lyon",
+          "Arles",
+          "Bordeaux",
+          "Grenoble"
+        ],
+        "réponse": "Arles",
+        "anecdote": "Der Fluss bildet dieses Delta, bevor er durch die Teilung seines Laufs in zwei Arme nahe der Stadt Arles ins Mittelmeer mündet."
+      },
+      {
+        "id": 27,
+        "question": "Seit welchem Jahr haben Frauen in Frankreich das Wahlrecht ?",
+        "propositions": [
+          "1924",
+          "1934",
+          "1944",
+          "1954"
+        ],
+        "réponse": "1944",
+        "anecdote": "Berufssoldaten waren 1945 die letzten französischen Staatsbürger (mit Ausnahme der Obdachlosen), die das Wahlrecht erhielten."
+      },
+      {
+        "id": 28,
+        "question": "Mit welchem Gerät misst man den Säuregehalt von Essig ?",
+        "propositions": [
+          "Entfernungsmesser",
+          "Dilatometer",
+          "Acetimeter",
+          "Goniometer"
+        ],
+        "réponse": "Acetimeter",
+        "anecdote": "Essig entsteht durch eine organisch-chemische Umwandlung einer wässrigen Ethanollösung an der Luft."
+      },
+      {
+        "id": 29,
+        "question": "Welche Zahlen hat der griechische Philosoph Aristoteles demonstriert ?",
+        "propositions": [
+          "Imaginäre",
+          "Zuerst",
+          "Gleich",
+          "Irrational"
+        ],
+        "réponse": "Irrational",
+        "anecdote": "Eine irrationale Zahl ist eine reelle Zahl, die nicht rational ist, das heißt, sie kann nicht als Bruch geschrieben werden."
+      },
+      {
+        "id": 30,
+        "question": "Wie viele Eier kann eine Auster im Jahr höchstens legen ?",
+        "propositions": [
+          "300",
+          "3 Millionen",
+          "3.000",
+          "3"
+        ],
+        "réponse": "3 Millionen",
+        "anecdote": "Durch die Ansiedlung auf dem Meeresboden kann die Auster einen Lebensraum schaffen, der für viele andere Lebewesen günstig ist."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuál es la nacionalidad de la empresa automovilística Mazda fundada por Jujiro Matsuda ?",
+        "propositions": [
+          "coreano",
+          "Japonés",
+          "taiwanés",
+          "Chino"
+        ],
+        "réponse": "Japonés",
+        "anecdote": "Mazda es conocida por la producción en masa del motor de pistón rotativo (tipo motor Wankel) en lugar de los pistones convencionales."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué río de América tiene su desembocadura situada en el ecuador ?",
+        "propositions": [
+          "Misisipi",
+          "Colorado",
+          "Amazonas",
+          "Yukón"
+        ],
+        "réponse": "Amazonas",
+        "anecdote": "El río nace en los Andes, atraviesa Perú, Colombia y Brasil, y finalmente desemboca en el Océano Atlántico."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué se bailó particularmente durante los locos años veinte ?",
+        "propositions": [
+          "charlestón",
+          "Chachachá",
+          "Giro",
+          "Idiota"
+        ],
+        "réponse": "charlestón",
+        "anecdote": "Se basa en desplazar el peso del cuerpo de una pierna a la otra, con los pies girados hacia dentro y las rodillas ligeramente flexionadas."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué cabo de Tierra del Fuego atravesamos para ir de Recife a Valparaíso ?",
+        "propositions": [
+          "Flora del Cabo",
+          "Cabo Froward",
+          "Cabo Leeuwin",
+          "Cabo de Hornos"
+        ],
+        "réponse": "Cabo de Hornos",
+        "anecdote": "El Cabo de Hornos fue durante muchos años un punto de cruce crucial en las rutas comerciales entre Europa y Asia."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué país atacó la base naval de Pearl Harbor en diciembre de 1941 ?",
+        "propositions": [
+          "Japón",
+          "U.R.S.S.",
+          "Alemania",
+          "Corea del Sur"
+        ],
+        "réponse": "Japón",
+        "anecdote": "La Estación Naval de Pearl Harbor y cuartel general de la Flota del Pacífico de los Estados Unidos tiene una superficie de 5.304 hectáreas."
+      },
+      {
+        "id": 6,
+        "question": "¿En qué deporte para un jugador o multijugador se utiliza la tiza azul ?",
+        "propositions": [
+          "Calabaza",
+          "Curling",
+          "Billar",
+          "Golf"
+        ],
+        "réponse": "Billar",
+        "anecdote": "El billar se juega sobre una mesa revestida con tiras sobre las que se hacen rodar las bolas golpeadas con un taco."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué saboreas al comer un savarin, creado por los hermanos Julien ?",
+        "propositions": [
+          "Queso",
+          "Pastel",
+          "Guiso",
+          "Fruta"
+        ],
+        "réponse": "Pastel",
+        "anecdote": "Un savarin es un pastel suave y aireado, cubierto con crema, que generalmente se presenta en forma de corona."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál es el nombre del novio de la muñeca Barbie creada por Mattel ?",
+        "propositions": [
+          "Ben",
+          "Ken",
+          "Tommy",
+          "Jimmy"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie adopta el cabello rubio y el principio de Bild Lilli, la primera muñeca de moda lanzada en Alemania un poco antes."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué año se terminó el Empire State Building en Nueva York ?",
+        "propositions": [
+          "1921",
+          "1911",
+          "1941",
+          "1931"
+        ],
+        "réponse": "1931",
+        "anecdote": "A partir de 2019, es el tercer edificio más alto de la ciudad de Nueva York, detrás del One World Trade Center y 432 Park Avenue."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál de estas ciudades italianas no se encuentra en Sicilia ?",
+        "propositions": [
+          "Catania",
+          "Bolonia",
+          "Palermo",
+          "Mesina"
+        ],
+        "réponse": "Bolonia",
+        "anecdote": "La bandera de Sicilia, la gorgona de tres patas, representa los tres puntos de la isla, Trapani-Marsala, Messina y Siracusa."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Por qué deporte es conocido internacionalmente el argentino Carlos Monzón ?",
+        "propositions": [
+          "Baloncesto",
+          "Boxeo",
+          "Tenis",
+          "Golf"
+        ],
+        "réponse": "Boxeo",
+        "anecdote": "Campeón mundial de peso mediano de 1970 a 1977, está considerado uno de los mejores boxeadores de todos los tiempos."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué país está la desembocadura del Níger, un río del África occidental ?",
+        "propositions": [
+          "Benín",
+          "Guinea",
+          "Nigeria",
+          "Malí"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "El Níger nace entre Sierra Leona y Guinea, después de un bucle en el Sahara, antes de desembocar en el Océano Atlántico."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué película de André Téchiné Gérard Depardieu desempeña un doble papel ?",
+        "propositions": [
+          "Los ladrones",
+          "Barroco",
+          "Los inocentes",
+          "Cita"
+        ],
+        "réponse": "Barroco",
+        "anecdote": "En 1977, la película ganó el César a la mejor fotografía, mejor música y mejor actriz de reparto."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué artista francés nacido en Burdeos cantó « Bleu, blanc, blond » en 1960 ?",
+        "propositions": [
+          "Eddy Mitchell",
+          "Claude Nougaro",
+          "Serge Lama",
+          "Marcel Amont"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "La canción fue adaptada por Marcel Amont y la versión americana por Johnny Tillotson titulada « True, true happiness »."
+      },
+      {
+        "id": 15,
+        "question": "¿En qué país se encuentra Ushuaia, el puerto más austral del mundo ?",
+        "propositions": [
+          "Argentina",
+          "Bolivia",
+          "Chile",
+          "Brasil"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Ushuaia es la capital de la provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur, la provincia más austral de Argentina."
+      },
+      {
+        "id": 16,
+        "question": "En la mitología, ¿en qué forma se transformó Narciso ?",
+        "propositions": [
+          "Nube",
+          "Lobo",
+          "Pedro",
+          "Flor"
+        ],
+        "réponse": "Flor",
+        "anecdote": "Narciso, un cazador de Tespias, en Beocia, es hijo de la ninfa Liriope y del dios del río Cefiso."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué animal híbrido resulta del cruce de un caballo y un burro ?",
+        "propositions": [
+          "Burro",
+          "Salmonete",
+          "Bardot",
+          "Burro"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "El burdégano a veces se confunde con la mula y la mula, resultado del cruce inverso entre un burro macho y una yegua."
+      },
+      {
+        "id": 18,
+        "question": "¿Hitler murió dos días después de qué otra figura histórica ?",
+        "propositions": [
+          "Churchill",
+          "Stalin",
+          "Mussolini",
+          "De Gaulle"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini es comúnmente conocido como Duce, una palabra italiana derivada del latín Dux y que significa líder o guía."
+      },
+      {
+        "id": 19,
+        "question": "¿En qué país tuvo lugar la batalla de Solferino el 24 de junio de 1859 ?",
+        "propositions": [
+          "Portugal",
+          "Italia",
+          "España",
+          "Grecia"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Fue una victoria del ejército francés de Napoleón III, aliado del ejército sardo, sobre el ejército austríaco de Francisco José."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuál es la peculiaridad física de Catherine Deneuve en « Tristana » ?",
+        "propositions": [
+          "Pingüino",
+          "Ciego",
+          "Con una sola pierna",
+          "Calvo"
+        ],
+        "réponse": "Con una sola pierna",
+        "anecdote": "La película « Tristana » es una adaptación libre de la novela homónima del autor español Benito Pérez Galdós, publicada en 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿En qué país se encuentra ubicada la ciudad de Albuquerque, sede del condado de Bernalillo ?",
+        "propositions": [
+          "Canadá",
+          "Australia",
+          "Estados Unidos",
+          "Nueva Zelanda"
+        ],
+        "réponse": "Estados Unidos",
+        "anecdote": "Albuquerque alberga la Universidad de Nuevo México, la Base de la Fuerza Aérea de Kirtland y uno de los dos laboratorios Sandia."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué año la gripe española empezó a matar a millones de personas ?",
+        "propositions": [
+          "1918",
+          "1929",
+          "1937",
+          "1904"
+        ],
+        "réponse": "1918",
+        "anecdote": "Esta pandemia ha causado 50 millones de muertes según el Instituto Pasteur, y hasta 100 millones según algunas reevaluaciones recientes."
+      },
+      {
+        "id": 23,
+        "question": "¿Para qué autor, filósofo y ensayista la vida es absurda ?",
+        "propositions": [
+          "Ernest Hemingway",
+          "Juan Steinbeck",
+          "Alberto Camus",
+          "Samuel Beckett"
+        ],
+        "réponse": "Alberto Camus",
+        "anecdote": "De hecho, Albert Camus desarrolló un humanismo basado en la conciencia de lo absurdo de la condición humana."
+      },
+      {
+        "id": 24,
+        "question": "¿En qué año la población mundial superó los dos mil millones ?",
+        "propositions": [
+          "1945",
+          "1935",
+          "1925",
+          "1955"
+        ],
+        "réponse": "1925",
+        "anecdote": "Este aumento de población tiende a frenarse con una caída global más o menos significativa del índice de fertilidad."
+      },
+      {
+        "id": 25,
+        "question": "¿Cómo se llama en Francia a un habitante de la ciudad de Fontainebleau ?",
+        "propositions": [
+          "Fontenois",
+          "Bellifontain",
+          "Fontenais",
+          "Fontenaisiano"
+        ],
+        "réponse": "Bellifontain",
+        "anecdote": "Fontainebleau está situado en el departamento de Seine-et-Marne, en la región de Île-de-France, a 57 kilómetros al sureste de París."
+      },
+      {
+        "id": 26,
+        "question": "¿Desde qué ciudad francesa comienza el delta del Ródano ?",
+        "propositions": [
+          "Burdeos",
+          "Arlés",
+          "Grenoble",
+          "León"
+        ],
+        "réponse": "Arlés",
+        "anecdote": "El río crea este delta antes de desembocar en el mar Mediterráneo mediante una división de su curso en dos brazos cerca de la ciudad de Arlés."
+      },
+      {
+        "id": 27,
+        "question": "¿Desde qué año las mujeres tienen derecho a votar en Francia ?",
+        "propositions": [
+          "1924",
+          "1954",
+          "1934",
+          "1944"
+        ],
+        "réponse": "1944",
+        "anecdote": "En 1945, los militares de carrera serían los últimos ciudadanos franceses (a excepción de las personas sin hogar) en obtener el derecho al voto."
+      },
+      {
+        "id": 28,
+        "question": "¿Con qué instrumento se mide la acidez del vinagre ?",
+        "propositions": [
+          "Goniómetro",
+          "Telémetro",
+          "Acetímetro",
+          "Dilatómetro"
+        ],
+        "réponse": "Acetímetro",
+        "anecdote": "El vinagre resulta de una transformación organoquímica de una solución acuosa de etanol expuesta al aire."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué números demostró el filósofo griego Aristóteles ?",
+        "propositions": [
+          "Imaginarios",
+          "Irracional",
+          "Iguales",
+          "Primero"
+        ],
+        "réponse": "Irracional",
+        "anecdote": "Un número irracional es un número real que no es racional, es decir, no se puede escribir como fracción."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuántos huevos puede poner como máximo una ostra en un año ?",
+        "propositions": [
+          "3 millones",
+          "3",
+          "300",
+          "3.000"
+        ],
+        "réponse": "3 millones",
+        "anecdote": "Al asentarse en el fondo marino, la ostra puede crear un hábitat favorable para muchos otros organismos vivos."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qual è la nazionalità dell'azienda automobilistica Mazda fondata da Jujiro Matsuda ?",
+        "propositions": [
+          "Taiwanese",
+          "giapponese",
+          "Coreano",
+          "Cinese"
+        ],
+        "réponse": "giapponese",
+        "anecdote": "Mazda è nota per la produzione in serie del motore a pistoni rotanti (tipo motore Wankel) al posto dei pistoni convenzionali."
+      },
+      {
+        "id": 2,
+        "question": "Quale fiume in America ha la foce all'equatore ?",
+        "propositions": [
+          "Yukon",
+          "Colorado",
+          "Mississipi",
+          "Amazzonia"
+        ],
+        "réponse": "Amazzonia",
+        "anecdote": "Il fiume ha origine nelle Ande, attraversa il Perù, la Colombia e il Brasile e infine sfocia nell'Oceano Atlantico."
+      },
+      {
+        "id": 3,
+        "question": "Cosa si ballava particolarmente durante i ruggenti anni Venti ?",
+        "propositions": [
+          "Torsione",
+          "Cha-cha",
+          "Charleston",
+          "Coglione"
+        ],
+        "réponse": "Charleston",
+        "anecdote": "Si basa sullo spostamento del peso del corpo da una gamba all'altra, con i piedi rivolti verso l'interno e le ginocchia leggermente piegate."
+      },
+      {
+        "id": 4,
+        "question": "Quale capo della Terra del Fuoco attraversiamo per andare da Recife a Valparaiso ?",
+        "propositions": [
+          "Capo Froward",
+          "Capo Flora",
+          "Capo Leeuwin",
+          "Capo Horn"
+        ],
+        "réponse": "Capo Horn",
+        "anecdote": "Capo Horn è stato per molti anni un punto di passaggio cruciale sulle rotte commerciali tra Europa e Asia."
+      },
+      {
+        "id": 5,
+        "question": "Quale paese attaccò la base navale di Pearl Harbor nel dicembre 1941 ?",
+        "propositions": [
+          "Giappone",
+          "Germania",
+          "U.R.S.S.",
+          "Corea del Sud"
+        ],
+        "réponse": "Giappone",
+        "anecdote": "La stazione navale di Pearl Harbor e quartier generale della flotta del Pacifico degli Stati Uniti copre un'area di 5.304 ettari."
+      },
+      {
+        "id": 6,
+        "question": "In quale sport singolo o multigiocatore viene utilizzato il gesso blu ?",
+        "propositions": [
+          "Arricciatura",
+          "Zucca",
+          "Golf",
+          "Biliardo"
+        ],
+        "réponse": "Biliardo",
+        "anecdote": "Il biliardo si gioca su un tavolo rivestito di strisce sulle quali vengono lanciate le palline colpite con la stecca."
+      },
+      {
+        "id": 7,
+        "question": "Cosa si assaggia mangiando un savarin, creato dai fratelli Julien ?",
+        "propositions": [
+          "Torta",
+          "Stufato",
+          "Frutta",
+          "Formaggio"
+        ],
+        "réponse": "Torta",
+        "anecdote": "Un savarin è una torta morbida e ariosa, ricoperta di panna, spesso a forma di corona."
+      },
+      {
+        "id": 8,
+        "question": "Qual è il nome del fidanzato della bambola Barbie creata dalla Mattel ?",
+        "propositions": [
+          "Jimmy",
+          "Ben",
+          "Ken",
+          "Tommy"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie riprende i capelli biondi e il principio di Bild Lilli, la prima bambola fashion lanciata in Germania poco prima."
+      },
+      {
+        "id": 9,
+        "question": "In che anno fu completato l'Empire State Building a New York ?",
+        "propositions": [
+          "1931",
+          "1921",
+          "1911",
+          "1941"
+        ],
+        "réponse": "1931",
+        "anecdote": "Nel 2019, è il terzo edificio più alto di New York City, dietro al One World Trade Center e al 432 Park Avenue."
+      },
+      {
+        "id": 10,
+        "question": "Quale di queste città italiane non si trova in Sicilia ?",
+        "propositions": [
+          "Messina",
+          "catania",
+          "Palermo",
+          "Bologna"
+        ],
+        "réponse": "Bologna",
+        "anecdote": "La bandiera della Sicilia, la gorgone a tre gambe, rappresenta i tre punti dell'isola, Trapani-Marsala, Messina e Siracusa."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Per quale sport è conosciuto a livello internazionale l'argentino Carlos Monzon ?",
+        "propositions": [
+          "Pallacanestro",
+          "Tennis",
+          "Boxe",
+          "Golf"
+        ],
+        "réponse": "Boxe",
+        "anecdote": "Campione mondiale dei pesi medi dal 1970 al 1977, è considerato uno dei migliori pugili di tutti i tempi."
+      },
+      {
+        "id": 12,
+        "question": "In quale paese si trova la foce del Niger, un fiume dell'Africa occidentale ?",
+        "propositions": [
+          "Guinea",
+          "Benin",
+          "Nigeria",
+          "Mali"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "Il Niger nasce tra la Sierra Leone e la Guinea, dopo un giro nel Sahara, prima di sfociare nell'Oceano Atlantico."
+      },
+      {
+        "id": 13,
+        "question": "In quale film di André Téchiné Gérard Depardieu ha un doppio ruolo ?",
+        "propositions": [
+          "Appuntamento",
+          "Barocco",
+          "Gli Innocenti",
+          "EI Ladri"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "Nel 1977 il film vinse il César per la migliore fotografia, la migliore musica e la migliore attrice non protagonista."
+      },
+      {
+        "id": 14,
+        "question": "Quale artista francese nato a Bordeaux ha cantato « Bleu, blanc, blond » nel 1960 ?",
+        "propositions": [
+          "Serge Lama",
+          "Marcel Amont",
+          "Claude Nougaro",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "La canzone è stata adattata da Marcel Amont e nella versione americana di Johnny Tillotson intitolata « True, true Happiness »."
+      },
+      {
+        "id": 15,
+        "question": "In quale paese si trova Ushuaia, il porto più meridionale del mondo ?",
+        "propositions": [
+          "Argentina",
+          "Bolivia",
+          "Cile",
+          "Brasile"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Ushuaia è la capitale della provincia della Terra del Fuoco, Antartide e Isole dell'Atlantico Meridionale, la provincia più meridionale dell'Argentina."
+      },
+      {
+        "id": 16,
+        "question": "Nella mitologia, in quale forma si trasformò Narciso ?",
+        "propositions": [
+          "Fiore",
+          "Nuvola",
+          "Lupo",
+          "Pietro"
+        ],
+        "réponse": "Fiore",
+        "anecdote": "Cacciatore originario di Tespie, in Beozia, Narciso è figlio della ninfa Liriope e del dio fluviale Cefiso."
+      },
+      {
+        "id": 17,
+        "question": "Quale animale ibrido risulta dall'incrocio di un cavallo e un asino ?",
+        "propositions": [
+          "Asino",
+          "Triglia",
+          "Asino",
+          "Bardot"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "Il bardotto viene talvolta confuso con il mulo e il mulo, derivante dall'incrocio inverso tra un asino maschio e una cavalla."
+      },
+      {
+        "id": 18,
+        "question": "Hitler morì due giorni dopo quale altro personaggio storico ?",
+        "propositions": [
+          "Mussolini",
+          "Churchill",
+          "De Gaulle",
+          "Stalin"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini è comunemente indicato come Duce, una parola italiana derivata dal latino Dux e che significa Leader o Guida."
+      },
+      {
+        "id": 19,
+        "question": "In quale paese si svolse la battaglia di Solferino il 24 giugno 1859 ?",
+        "propositions": [
+          "Spagna",
+          "Grecia",
+          "Italia",
+          "Portogallo"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Fu una vittoria per l'esercito francese di Napoleone III alleato con l'esercito sardo sull'esercito austriaco di Francesco Giuseppe."
+      },
+      {
+        "id": 20,
+        "question": "Qual è la particolarità fisica di Catherine Deneuve in « Tristana » ?",
+        "propositions": [
+          "Con una gamba sola",
+          "Calvo",
+          "Cieco",
+          "Pinguino"
+        ],
+        "réponse": "Con una gamba sola",
+        "anecdote": "Il film « Tristana » è liberamente tratto dall'omonimo romanzo dell'autore spagnolo Benito Pérez Galdós, pubblicato nel 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In quale Paese si trova la città di Albuquerque, capoluogo della contea di Bernalillo ?",
+        "propositions": [
+          "Australia",
+          "Nuova Zelanda",
+          "Canada",
+          "Stati Uniti"
+        ],
+        "réponse": "Stati Uniti",
+        "anecdote": "Albuquerque ospita l'Università del New Mexico, la base aeronautica di Kirtland e uno dei due laboratori Sandia."
+      },
+      {
+        "id": 22,
+        "question": "In quale anno l'influenza spagnola iniziò a uccidere milioni di persone ?",
+        "propositions": [
+          "1929",
+          "1904",
+          "1918",
+          "1937"
+        ],
+        "réponse": "1918",
+        "anecdote": "Questa pandemia ha causato 50 milioni di morti secondo l'Istituto Pasteur e fino a 100 milioni secondo alcune recenti rivalutazioni."
+      },
+      {
+        "id": 23,
+        "question": "Per quale autore, filosofo e saggista la vita è assurda ?",
+        "propositions": [
+          "John Steinbeck",
+          "Samuel Beckett",
+          "Alberto Camus",
+          "Ernest Hemingway"
+        ],
+        "réponse": "Alberto Camus",
+        "anecdote": "Albert Camus ha infatti sviluppato un umanesimo basato sulla consapevolezza dell'assurdità della condizione umana."
+      },
+      {
+        "id": 24,
+        "question": "In quale anno la popolazione mondiale ha superato i due miliardi ?",
+        "propositions": [
+          "1935",
+          "1945",
+          "1955",
+          "1925"
+        ],
+        "réponse": "1925",
+        "anecdote": "Questo aumento della popolazione tende a rallentare con un calo globale più o meno significativo dell'indice di fertilità."
+      },
+      {
+        "id": 25,
+        "question": "In Francia, come si chiama un residente della città di Fontainebleau ?",
+        "propositions": [
+          "Fontenais",
+          "Fontenois",
+          "Fontenaisiano",
+          "Bellifontana"
+        ],
+        "réponse": "Bellifontana",
+        "anecdote": "Fontainebleau si trova nel dipartimento di Seine-et-Marne nella regione dell'Île-de-France, 57 chilometri a sud-est di Parigi."
+      },
+      {
+        "id": 26,
+        "question": "Da quale città francese inizia il delta del Rodano ?",
+        "propositions": [
+          "Lione",
+          "Grenoble",
+          "Bordeaux",
+          "Arles"
+        ],
+        "réponse": "Arles",
+        "anecdote": "Il fiume crea questo delta prima di sfociare nel Mar Mediterraneo dividendo il suo corso in due bracci vicino alla città di Arles."
+      },
+      {
+        "id": 27,
+        "question": "Da quale anno le donne hanno diritto di voto in Francia ?",
+        "propositions": [
+          "1934",
+          "1954",
+          "1924",
+          "1944"
+        ],
+        "réponse": "1944",
+        "anecdote": "Nel 1945, i soldati di carriera saranno gli ultimi cittadini francesi (ad eccezione dei senzatetto) ad ottenere il diritto di voto."
+      },
+      {
+        "id": 28,
+        "question": "Con quale strumento si misura l'acidità dell'aceto ?",
+        "propositions": [
+          "Dilatometro",
+          "Telemetro",
+          "Acetimetro",
+          "Goniometro"
+        ],
+        "réponse": "Acetimetro",
+        "anecdote": "L'aceto risulta da una trasformazione organochimica di una soluzione acquosa di etanolo esposta all'aria."
+      },
+      {
+        "id": 29,
+        "question": "Quali numeri dimostrò il filosofo greco Aristotele ?",
+        "propositions": [
+          "Immaginari",
+          "Uguale",
+          "Irrazionale",
+          "Primo"
+        ],
+        "réponse": "Irrazionale",
+        "anecdote": "Un numero irrazionale è un numero reale che non è razionale, cioè non può essere scritto come frazione."
+      },
+      {
+        "id": 30,
+        "question": "Quante uova può deporre al massimo un'ostrica in un anno ?",
+        "propositions": [
+          "300",
+          "3 milioni",
+          "3.000",
+          "3"
+        ],
+        "réponse": "3 milioni",
+        "anecdote": "Insediandosi sui fondali marini, l'ostrica è in grado di creare un habitat favorevole a molti altri organismi viventi."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wat is de nationaliteit van het autobedrijf Mazda, opgericht door Jujiro Matsuda ?",
+        "propositions": [
+          "Taiwanees",
+          "Koreaans",
+          "Chinees",
+          "Japans"
+        ],
+        "réponse": "Japans",
+        "anecdote": "Mazda staat bekend om de massaproductie van de draaizuigermotor (type wankelmotor) in plaats van conventionele zuigers."
+      },
+      {
+        "id": 2,
+        "question": "Welke rivier in Amerika heeft zijn monding op de evenaar ?",
+        "propositions": [
+          "Colorado",
+          "Yukon",
+          "Amazone",
+          "Mississippi"
+        ],
+        "réponse": "Amazone",
+        "anecdote": "De rivier ontspringt in de Andes, stroomt door Peru, Colombia en Brazilië en mondt uiteindelijk uit in de Atlantische Oceaan."
+      },
+      {
+        "id": 3,
+        "question": "Wat werd er vooral gedanst tijdens de Roaring Twenties ?",
+        "propositions": [
+          "Charleston",
+          "Cha-cha",
+          "Draai",
+          "Ruk"
+        ],
+        "réponse": "Charleston",
+        "anecdote": "Het is gebaseerd op het verplaatsen van het gewicht van het lichaam van het ene been naar het andere, met de voeten naar binnen gekeerd en de knieën licht gebogen."
+      },
+      {
+        "id": 4,
+        "question": "Via welke kaap van Tierra del Fuego gaan we van Recife naar Valparaiso ?",
+        "propositions": [
+          "Kaap Flora",
+          "Kaap Hoorn",
+          "Kaap Leeuwin",
+          "Kaap Froward"
+        ],
+        "réponse": "Kaap Hoorn",
+        "anecdote": "Kaap Hoorn was jarenlang een cruciaal kruispunt op de handelsroutes tussen Europa en Azië."
+      },
+      {
+        "id": 5,
+        "question": "Welk land viel in december 1941 de marinebasis Pearl Harbor aan ?",
+        "propositions": [
+          "Duitsland",
+          "Zuid-Korea",
+          "Sovjet-Unie",
+          "Japan"
+        ],
+        "réponse": "Japan",
+        "anecdote": "Het Pearl Harbor Naval Station en het hoofdkwartier van de Pacific Fleet van de Verenigde Staten beslaan een oppervlakte van 5.304 hectare."
+      },
+      {
+        "id": 6,
+        "question": "In welke single- of multiplayersport wordt blauw krijt gebruikt ?",
+        "propositions": [
+          "Biljart",
+          "Krullen",
+          "Golfen",
+          "Pompoen"
+        ],
+        "réponse": "Biljart",
+        "anecdote": "Biljart wordt gespeeld op een tafel bekleed met stroken waarop met een keu geslagen ballen worden gerold."
+      },
+      {
+        "id": 7,
+        "question": "Wat proef je als je een savarin eet, gemaakt door de gebroeders Julien ?",
+        "propositions": [
+          "Taart",
+          "Stoof",
+          "Vruchten",
+          "Kaas"
+        ],
+        "réponse": "Taart",
+        "anecdote": "Een savarin is een zachte en luchtige cake, bedekt met room, meestal in de vorm van een kroon."
+      },
+      {
+        "id": 8,
+        "question": "Wat is de voornaam van het vriendje van de Barbiepop gemaakt door Mattel ?",
+        "propositions": [
+          "Tommy",
+          "Ken",
+          "Ben",
+          "Jimmy"
+        ],
+        "réponse": "Ken",
+        "anecdote": "Barbie neemt het blonde haar en het principe over van Bild Lilli, de eerste modepop die iets eerder in Duitsland werd gelanceerd."
+      },
+      {
+        "id": 9,
+        "question": "In welk jaar werd het Empire State Building in New York voltooid ?",
+        "propositions": [
+          "1931",
+          "1921",
+          "1941",
+          "1911"
+        ],
+        "réponse": "1931",
+        "anecdote": "Sinds 2019 is het het derde hoogste gebouw in New York City, achter One World Trade Center en 432 Park Avenue."
+      },
+      {
+        "id": 10,
+        "question": "Welke van deze Italiaanse steden ligt niet op Sicilië ?",
+        "propositions": [
+          "Palermo",
+          "Catania",
+          "Messina",
+          "Bologna"
+        ],
+        "réponse": "Bologna",
+        "anecdote": "De vlag van Sicilië, de driepotige gorgon, vertegenwoordigt de drie punten van het eiland, Trapani-Marsala, Messina en Syracuse."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Om welke sport staat de Argentijn Carlos Monzon internationaal bekend ?",
+        "propositions": [
+          "Tennis",
+          "Golfen",
+          "Basketbal",
+          "Boksen"
+        ],
+        "réponse": "Boksen",
+        "anecdote": "Wereldkampioen middengewicht van 1970 tot 1977, hij wordt beschouwd als een van de beste boksers aller tijden."
+      },
+      {
+        "id": 12,
+        "question": "In welk land ligt de monding van de Niger, een rivier in West-Afrika ?",
+        "propositions": [
+          "Mali",
+          "Benin",
+          "Guinee",
+          "Nigeria"
+        ],
+        "réponse": "Nigeria",
+        "anecdote": "De Niger ontspringt tussen Sierra Leone en Guinee, na een lus in de Sahara, voordat hij uitmondt in de Atlantische Oceaan."
+      },
+      {
+        "id": 13,
+        "question": "In welke film van André Téchiné speelt Gérard Depardieu een dubbelrol ?",
+        "propositions": [
+          "De onschuldigen",
+          "Afspraak",
+          "De dieven",
+          "Barocco"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "In 1977 won de film de César voor beste cinematografie, beste muziek en beste vrouwelijke bijrol."
+      },
+      {
+        "id": 14,
+        "question": "Welke Franse artiest, geboren in Bordeaux, zong in 1960 « Bleu, blanc, blond » ?",
+        "propositions": [
+          "Marcel Amont",
+          "Serge Lama",
+          "Eddy Mitchell",
+          "Claude Nougaro"
+        ],
+        "réponse": "Marcel Amont",
+        "anecdote": "Het nummer werd aangepast door Marcel Amont en de Amerikaanse versie door Johnny Tillotson getiteld « True, true happiness »."
+      },
+      {
+        "id": 15,
+        "question": "In welk land ligt Ushuaia, de meest zuidelijke haven ter wereld ?",
+        "propositions": [
+          "Bolivië",
+          "Argentinië",
+          "Chili",
+          "Brazilië"
+        ],
+        "réponse": "Argentinië",
+        "anecdote": "Ushuaia is de hoofdstad van de provincie Tierra del Fuego, Antarctica en de Zuid-Atlantische eilanden, de meest zuidelijke provincie van Argentinië."
+      },
+      {
+        "id": 16,
+        "question": "In welke vorm werd Narcissus in de mythologie getransformeerd ?",
+        "propositions": [
+          "Petrus",
+          "Wolf",
+          "Wolk",
+          "Bloem"
+        ],
+        "réponse": "Bloem",
+        "anecdote": "Narcissus, een jager uit Thespiae, in Boeotië, is de zoon van de nimf Liriope en de riviergod Cephisus."
+      },
+      {
+        "id": 17,
+        "question": "Welk hybride dier ontstaat uit de kruising van een paard en een ezel ?",
+        "propositions": [
+          "Mul",
+          "Ezel",
+          "Ezel",
+          "Bardot"
+        ],
+        "réponse": "Bardot",
+        "anecdote": "De muilezel wordt soms verward met de muilezel en de muilezel, als gevolg van de omgekeerde kruising tussen een mannelijke ezel en een merrie."
+      },
+      {
+        "id": 18,
+        "question": "Hitler stierf twee dagen na welke andere historische figuur ?",
+        "propositions": [
+          "Mussolini",
+          "De Gaulle",
+          "Churchill",
+          "Stalin"
+        ],
+        "réponse": "Mussolini",
+        "anecdote": "Benito Mussolini wordt gewoonlijk Duce genoemd, een Italiaans woord afgeleid van het Latijnse Dux en betekent leider of gids."
+      },
+      {
+        "id": 19,
+        "question": "In welk land vond de Slag bij Solferino plaats op 24 juni 1859 ?",
+        "propositions": [
+          "Portugal",
+          "Griekenland",
+          "Italië",
+          "Spanje"
+        ],
+        "réponse": "Italië",
+        "anecdote": "Het was een overwinning voor het Franse leger van Napoleon III, verbonden met het Sardijnse leger, op het Oostenrijkse leger van Franz Joseph."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de fysieke eigenaardigheid van Catherine Deneuve in « Tristana » ?",
+        "propositions": [
+          "Eenbenig",
+          "Kaal",
+          "Blind",
+          "Pinguïn"
+        ],
+        "réponse": "Eenbenig",
+        "anecdote": "De film « Tristana » is losjes gebaseerd op de gelijknamige roman van de Spaanse auteur Benito Pérez Galdós, gepubliceerd in 1892."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welk land ligt de stad Albuquerque, de zetel van Bernalillo County ?",
+        "propositions": [
+          "Nieuw-Zeeland",
+          "Canada",
+          "Verenigde Staten",
+          "Australië"
+        ],
+        "réponse": "Verenigde Staten",
+        "anecdote": "Albuquerque is de thuisbasis van de Universiteit van New Mexico, de Kirtland Air Force Base en een van de twee Sandia-laboratoria."
+      },
+      {
+        "id": 22,
+        "question": "In welk jaar begon de Spaanse griep miljoenen mensen te doden ?",
+        "propositions": [
+          "1937",
+          "1929",
+          "1904",
+          "1918"
+        ],
+        "réponse": "1918",
+        "anecdote": "Deze pandemie heeft volgens het Pasteur Instituut 50 miljoen doden veroorzaakt, en volgens enkele recente herbeoordelingen tot 100 miljoen."
+      },
+      {
+        "id": 23,
+        "question": "Voor welke auteur, filosoof en essayist is het leven absurd ?",
+        "propositions": [
+          "Albert Camus",
+          "Samuel Beckett",
+          "John Steinbeck",
+          "Ernest Hemingway"
+        ],
+        "réponse": "Albert Camus",
+        "anecdote": "Albert Camus ontwikkelde in feite een humanisme dat gebaseerd was op het besef van de absurditeit van de menselijke conditie."
+      },
+      {
+        "id": 24,
+        "question": "In welk jaar overschreed de wereldbevolking de twee miljard ?",
+        "propositions": [
+          "1925",
+          "1945",
+          "1955",
+          "1935"
+        ],
+        "réponse": "1925",
+        "anecdote": "Deze bevolkingsgroei heeft de neiging te vertragen met een min of meer significante mondiale daling van de vruchtbaarheidsindex."
+      },
+      {
+        "id": 25,
+        "question": "Hoe noem je in Frankrijk een inwoner van de stad Fontainebleau ?",
+        "propositions": [
+          "Fontenois",
+          "Fontenais",
+          "Fontenaisiaanse",
+          "Bellifontain"
+        ],
+        "réponse": "Bellifontain",
+        "anecdote": "Fontainebleau ligt in het departement Seine-et-Marne in de regio Île-de-France, 57 kilometer ten zuidoosten van Parijs."
+      },
+      {
+        "id": 26,
+        "question": "Vanuit welke Franse stad begint de Rhônedelta ?",
+        "propositions": [
+          "Bordeaux",
+          "Arles",
+          "Lyon",
+          "Grenoble"
+        ],
+        "réponse": "Arles",
+        "anecdote": "De rivier creëert deze delta voordat hij via een splitsing van zijn loop in twee armen nabij de stad Arles in de Middellandse Zee uitmondt."
+      },
+      {
+        "id": 27,
+        "question": "Sinds welk jaar hebben vrouwen stemrecht in Frankrijk ?",
+        "propositions": [
+          "1954",
+          "1934",
+          "1944",
+          "1924"
+        ],
+        "réponse": "1944",
+        "anecdote": "In 1945 zouden beroepssoldaten de laatste Franse burgers zijn (met uitzondering van de daklozen) die stemrecht zouden krijgen."
+      },
+      {
+        "id": 28,
+        "question": "Met welk instrument meet je de zuurgraad van azijn ?",
+        "propositions": [
+          "Dilatometer",
+          "Afstandsmeter",
+          "Goniometer",
+          "Acetimeter"
+        ],
+        "réponse": "Acetimeter",
+        "anecdote": "Azijn is het resultaat van een organochemische transformatie van een waterige ethanoloplossing die aan de lucht wordt blootgesteld."
+      },
+      {
+        "id": 29,
+        "question": "Welke getallen heeft de Griekse filosoof Aristoteles gedemonstreerd ?",
+        "propositions": [
+          "Eerste",
+          "Denkbeelden",
+          "Irrationeel",
+          "Is gelijk aan"
+        ],
+        "réponse": "Irrationeel",
+        "anecdote": "Een irrationeel getal is een reëel getal dat niet rationeel is, dat wil zeggen dat het niet als een breuk kan worden geschreven."
+      },
+      {
+        "id": 30,
+        "question": "Hoeveel eieren kan een oester maximaal per jaar leggen ?",
+        "propositions": [
+          "3.000",
+          "300",
+          "3 miljoen",
+          "3"
+        ],
+        "réponse": "3 miljoen",
+        "anecdote": "Door zich op de zeebodem te vestigen, kan de oester een leefgebied creëren dat gunstig is voor veel andere levende organismen."
+      }
+    ]
+    }
+  }
+}

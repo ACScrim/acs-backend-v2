@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "François Vandergucht",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-02-21",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Équipement militaire",
+      "slogan": "Armement et accessoires à travers l'histoire"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Military equipment",
+      "slogan": "Weaponry and accessories throughout history"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Equipamiento militar",
+      "slogan": "Armamento y accesorios a lo largo de la historia"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Equipaggiamento militare",
+      "slogan": "Armi e accessori nel corso della storia"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Militärische Ausrüstung",
+      "slogan": "Waffen und Zubehör im Laufe der Geschichte"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Militaire uitrusting",
+      "slogan": "Wapens en accessoires door de geschiedenis heen"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En quelle matière sont généralement fabriqués nos gilets par balles ?",
+        "propositions": [
+          "Kevlar",
+          "Ivoire",
+          "Latex",
+          "Métal"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "En 1964, Stephanie Kwolek créera accidentellement une fibre synthétique légère, cinq fois plus résistante que l'acier."
+      },
+      {
+        "id": 2,
+        "question": "Quel type de bateau utilisaient les vikings pour le commerce et les conquêtes ?",
+        "propositions": [
+          "Jonque",
+          "Galère",
+          "Gabare",
+          "Drakkar"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "Ce nom, sous lequel sont connus les navires vikings, est un terme récent apparu en 1840 dans « Archéologie navale » d'Augustin Jal."
+      },
+      {
+        "id": 3,
+        "question": "Quelle arme blanche se fixe la plupart du temps au bout du canon d'une arme ?",
+        "propositions": [
+          "Canif",
+          "Machette",
+          "Opinel",
+          "Baïonnette"
+        ],
+        "réponse": "Baïonnette",
+        "anecdote": "Elle fait ainsi du fusil à baïonnette une arme polyvalente, qui devient alors un hybride entre une arme à feu et une arme d'hast."
+      },
+      {
+        "id": 4,
+        "question": "Quel célèbre arc anglais fut tant redouté lors de la guerre de Cents Ans ?",
+        "propositions": [
+          "Arc de chasse",
+          "Arc long",
+          "Arc à poulies",
+          "Arc composite"
+        ],
+        "réponse": "Arc long",
+        "anecdote": "Il s'agit d'un arc médiéval très puissant, d'environ 2 mètres de long, très utilisé par les Anglais, à la fois pour la chasse et la guerre."
+      },
+      {
+        "id": 5,
+        "question": "Quel équipement vous permet de survivre lors d'une attaque impliquant du gaz ?",
+        "propositions": [
+          "Casque",
+          "Masque à gaz",
+          "Fumigène",
+          "Baïonnette"
+        ],
+        "réponse": "Masque à gaz",
+        "anecdote": "Il se porte sur le visage et couvre les entrées des voies respiratoires et les yeux ainsi que d'autres tissus sensibles du visage."
+      },
+      {
+        "id": 6,
+        "question": "Quel est le principal avantage d'utilisation d'une grenade à manche ?",
+        "propositions": [
+          "Distance de jet",
+          "Meilleur emport",
+          "Étanchéité",
+          "Coût"
+        ],
+        "réponse": "Distance de jet",
+        "anecdote": "Pour utiliser la grenade, on dévisse l'embout et on tire sur une corde, disposant alors de cinq secondes avant l'explosion."
+      },
+      {
+        "id": 7,
+        "question": "Quel est le nom de l'inventeur du célèbre fusil d'assaut AK-47 ?",
+        "propositions": [
+          "Samuel Colt",
+          "Gaston Glock",
+          "Mikhaïl Kalachnikov",
+          "Alfred Nobel"
+        ],
+        "réponse": "Mikhaïl Kalachnikov",
+        "anecdote": "L'AK-47 est le premier modèle d'une vaste famille de fusils d'assaut à emprunt de gaz, dont le modèle le plus répandu est l'AKM."
+      },
+      {
+        "id": 8,
+        "question": "Quel est le nom de la hache utilisée par les Nord-Amérindiens ?",
+        "propositions": [
+          "Francisque",
+          "Tomahawk",
+          "Bardiche",
+          "Labrys"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "Le tomahawk est utilisé par Mel Gibson, alias Benjamin Martin, dans le film « The Patriot » de Roland Emmerich (2000)."
+      },
+      {
+        "id": 9,
+        "question": "Comment se distingue le personnel militaire de l'ONU sur le terrain ?",
+        "propositions": [
+          "Écharpe rouge",
+          "Bottes blanches",
+          "Fusil vert",
+          "Casque bleu"
+        ],
+        "réponse": "Casque bleu",
+        "anecdote": "Cette force ne constitue pas une armée des Nations unies, les Casques bleus étant principalement des militaires prêtés par l'ONU."
+      },
+      {
+        "id": 10,
+        "question": "Quelle armée utilisa le casque à pointe lors de la Première Guerre mondiale ?",
+        "propositions": [
+          "Française",
+          "Allemande",
+          "Russe",
+          "Anglaise"
+        ],
+        "réponse": "Allemande",
+        "anecdote": "En France, puis au Royaume-Uni, le casque à pointe deviendra sous les traits des caricaturistes le symbole du militarisme allemand."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel pistolet-mitrailleur équipait les officiers allemands à la Seconde Guerre mondiale ?",
+        "propositions": [
+          "MP40",
+          "FG42",
+          "MG42",
+          "KAR 98"
+        ],
+        "réponse": "MP40",
+        "anecdote": "Les soldats alliés surnommèrent cette arme Schmeisser, en référence au concepteur d'armes allemand à l'origine du MP18."
+      },
+      {
+        "id": 12,
+        "question": "Quel pistolet mythique fut utilisé par l'armée américaine de 1911 à 1985 ?",
+        "propositions": [
+          "Luger",
+          "Ruby",
+          "M1911",
+          "Mauser"
+        ],
+        "réponse": "M1911",
+        "anecdote": "Le M1911, désigné à tort le Colt 45, est une des rares armes à avoir été utilisées massivement lors des deux guerres mondiales."
+      },
+      {
+        "id": 13,
+        "question": "Laquelle de ces armes est la plus efficace contre une armure de plate ?",
+        "propositions": [
+          "Katana",
+          "Marteau de guerre",
+          "Lance",
+          "Hache"
+        ],
+        "réponse": "Marteau de guerre",
+        "anecdote": "Conçu pour le combat rapproché, il ressemble au marteau par sa forme et est fréquemment muni d'un bec, à l'opposé du marteau."
+      },
+      {
+        "id": 14,
+        "question": "Quel char fut le plus produit au cours de la Seconde Guerre mondiale ?",
+        "propositions": [
+          "Stuart",
+          "Sherman",
+          "Panzer 4",
+          "T-34"
+        ],
+        "réponse": "T-34",
+        "anecdote": "Descendant des chars rapides BT, le T-34 est un char de combat soviétique entré en service en 1940 au sein de l'Armée rouge."
+      },
+      {
+        "id": 15,
+        "question": "Quel nom était donné au bouclier utilisé par les légionnaires romains ?",
+        "propositions": [
+          "Pilum",
+          "Cassis",
+          "Scutum",
+          "Gladius"
+        ],
+        "réponse": "Scutum",
+        "anecdote": "Sa forme et sa taille étaient variables selon le corps de troupe, le scutum des légionnaires étant différent de celui des auxiliaires."
+      },
+      {
+        "id": 16,
+        "question": "Combien de tonnes pèse environ le char Américain M1 Abrams ?",
+        "propositions": [
+          "54 tonnes",
+          "36 tonnes",
+          "75 tonnes",
+          "12 tonnes"
+        ],
+        "réponse": "54 tonnes",
+        "anecdote": "Son baptême du feu eût lieu en 1991 lors de la guerre du Golfe, où il s'est bien comporté face à une force mécanisée conventionnelle."
+      },
+      {
+        "id": 17,
+        "question": "Quel fusil fut utilisé par l'armée nipponne lors de la Seconde Guerre mondiale ?",
+        "propositions": [
+          "Kar98",
+          "Lebel",
+          "Nambu Type B",
+          "Arisaka Type 99"
+        ],
+        "réponse": "Arisaka Type 99",
+        "anecdote": "C'était le remplaçant du fusil de Type 38 et le fusil principal des Japonais, jusqu'à leur reddition face aux forces alliées en 1945."
+      },
+      {
+        "id": 18,
+        "question": "Quelle entreprise française construisait le FT-17 pendant la Première Guerre mondiale ?",
+        "propositions": [
+          "Peugeot",
+          "Renault",
+          "Citroën",
+          "Simca"
+        ],
+        "réponse": "Renault",
+        "anecdote": "Le char Renault FT (1917-1949) a été le véhicule de combat blindé et chenillé le plus efficace de la Première Guerre mondiale."
+      },
+      {
+        "id": 19,
+        "question": "Quel hélico de la guerre du Vietnam fut massivement utilisé par les américains ?",
+        "propositions": [
+          "UH-1 Iroquois",
+          "Puma",
+          "Mil Mi-24",
+          "Black Hawks"
+        ],
+        "réponse": "UH-1 Iroquois",
+        "anecdote": "Plus de 16 000 exemplaires civils et militaires DU Bell « Huey » UH-1 Iroquois furent produits et exportés vers plus de 70 pays."
+      },
+      {
+        "id": 20,
+        "question": "Laquelle de ces propositions désigne une arme d'origine Suisse ?",
+        "propositions": [
+          "F2000",
+          "Famas",
+          "G36",
+          "SIG-550"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "Le SIG-550 est le fusil d'assaut officiel de l'Armée suisse (F ass 90) fabriqué par Swiss Arms, anciennement SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel couvre-chef arborait la crème de la crème de l'armée Napoléonienne ?",
+        "propositions": [
+          "Colback",
+          "Shako",
+          "Bicorne",
+          "Ourson"
+        ],
+        "réponse": "Ourson",
+        "anecdote": "Le bonnet à poil pouvait être orné d'un plumet rouge et d'une plaque en laiton, décorée d'un aigle impérial et d'une grenade."
+      },
+      {
+        "id": 22,
+        "question": "Durant la guerre du Vietnam, quelle arme fut surnommée le Mattel Gun ?",
+        "propositions": [
+          "AK47",
+          "M14",
+          "M16",
+          "L1A1"
+        ],
+        "réponse": "M16",
+        "anecdote": "Issu d'un développement difficile, le fusil d'assaut M16 est la version militaire de l'AR-15, un fusil achevé par Armalite en 1958."
+      },
+      {
+        "id": 23,
+        "question": "Combien de cartouches peut contenir le chargeur d'un Lee-Enfield anglais ?",
+        "propositions": [
+          "Dix",
+          "Deux",
+          "Cinq",
+          "Huit"
+        ],
+        "réponse": "Dix",
+        "anecdote": "Sous différentes variantes, il a été le fusil réglementaire de l'armée britannique dès son adoption officielle le 11 novembre 1895."
+      },
+      {
+        "id": 24,
+        "question": "Le MAS 36 Français a été fabriqué par quelle manufacture d'armes ?",
+        "propositions": [
+          "Amiens",
+          "Lyon",
+          "Saint-Étienne",
+          "Rennes"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "Le fusil MAS36 est alimenté par un boîtier-chargeur de type Mauser, tout en possédant des caractéristiques parfaitement françaises."
+      },
+      {
+        "id": 25,
+        "question": "Quel est le calibre standard parmi les forces armées de l'OTAN ?",
+        "propositions": [
+          "7.62 mm",
+          "5.56 mm",
+          "22 mm",
+          "12.7 mm"
+        ],
+        "réponse": "5.56 mm",
+        "anecdote": "Le calibre 5.56 fut adopté pour faire face à la puissance excessive du 7.62, qui a un recul trop conséquent."
+      },
+      {
+        "id": 26,
+        "question": "Le béret noir, utilisé dans l'armée anglaise, représente quel régiment ?",
+        "propositions": [
+          "Royal Marines",
+          "Royal Tank Regiment",
+          "Parachutistes",
+          "Troupes de l'ONU"
+        ],
+        "réponse": "Royal Tank Regiment",
+        "anecdote": "Le RTR a participé à la Première et Seconde Guerre mondiale, puis à la guerre de Corée (1950-1953) et la guerre d'Irak de 2003."
+      },
+      {
+        "id": 27,
+        "question": "L'armée duquel de ces pays utilise un fusil bullpup comme arme principale ?",
+        "propositions": [
+          "Suède",
+          "Portugal",
+          "Autriche",
+          "Allemagne"
+        ],
+        "réponse": "Autriche",
+        "anecdote": "Le terme bullpup désigne une architecture générale d'arme, destinée à réduire la longueur de l'arme sans sacrifier celle du canon."
+      },
+      {
+        "id": 28,
+        "question": "Quel camouflage est utilisé par l'armée belge pour les tenues de combat ?",
+        "propositions": [
+          "DPM",
+          "Jigsaw",
+          "CE",
+          "Cookie dough"
+        ],
+        "réponse": "Jigsaw",
+        "anecdote": "Un motif de camouflage distinct, inspiré du précédent belge, a été adopté par certaines unités des Forces armées zaïroises au Zaïre."
+      },
+      {
+        "id": 29,
+        "question": "Quel fusil-mitrailleur français fut utilisé par les Américains en Première Guerre mondiale ?",
+        "propositions": [
+          "Bar",
+          "Maschinengewehr 08",
+          "Chauchat",
+          "Lewis"
+        ],
+        "réponse": "Chauchat",
+        "anecdote": "Sous l'impulsion du général Joffre, il a été mis en service dans l'infanterie française en 1916, durant la Première Guerre mondiale."
+      },
+      {
+        "id": 30,
+        "question": "Quel est le nom du couvre-casque typique en usage dans l'armée israélienne ?",
+        "propositions": [
+          "Mitznefet",
+          "Fez",
+          "Dastar",
+          "Kipa"
+        ],
+        "réponse": "Mitznefet",
+        "anecdote": "Il est considérablement plus grand que le casque qu'il recouvre et donne une apparence similaire à la coiffe d'un chef cuisinier."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What material are our bulletproof vests generally made from ?",
+        "propositions": [
+          "Metal",
+          "Kevlar",
+          "Ivory",
+          "Latex"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "In 1964, Stephanie Kwolek accidentally created a lightweight synthetic fiber, five times stronger than steel."
+      },
+      {
+        "id": 2,
+        "question": "What type of ship did the Vikings use for trade and conquest ?",
+        "propositions": [
+          "Gabare",
+          "Drakkar",
+          "Galley",
+          "Junk"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "This name, by which Viking ships are known, is a recent term that appeared in 1840 in « Naval Archeology » by Augustin Jal."
+      },
+      {
+        "id": 3,
+        "question": "Which bladed weapon is most often attached to the end of the barrel of a weapon ?",
+        "propositions": [
+          "Pocket knife",
+          "Machete",
+          "Bayonet",
+          "Opinel"
+        ],
+        "réponse": "Bayonet",
+        "anecdote": "It thus makes the bayonet rifle a versatile weapon, which then becomes a hybrid between a firearm and a polearm."
+      },
+      {
+        "id": 4,
+        "question": "Which famous English bow was so feared during the Hundred Years' War ?",
+        "propositions": [
+          "Longbow",
+          "Compound bow",
+          "Composite bow",
+          "Hunting bow"
+        ],
+        "réponse": "Longbow",
+        "anecdote": "This is a very powerful medieval bow, approximately 2 meters long, widely used by the English, both for hunting and war."
+      },
+      {
+        "id": 5,
+        "question": "What equipment allows you to survive an attack involving gas ?",
+        "propositions": [
+          "Helmet",
+          "Bayonet",
+          "Gas mask",
+          "Smoke"
+        ],
+        "réponse": "Gas mask",
+        "anecdote": "It is worn on the face and covers the respiratory tract entrances and eyes as well as other sensitive facial tissues."
+      },
+      {
+        "id": 6,
+        "question": "What is the main advantage of using a stick grenade ?",
+        "propositions": [
+          "Throw distance",
+          "Cost",
+          "Best carry",
+          "Waterproofing"
+        ],
+        "réponse": "Throw distance",
+        "anecdote": "To use the grenade, you unscrew the tip and pull on a rope, then having five seconds before the explosion."
+      },
+      {
+        "id": 7,
+        "question": "What is the name of the inventor of the famous AK-47 assault rifle ?",
+        "propositions": [
+          "Mikhail Kalashnikov",
+          "Gaston Glock",
+          "Alfred Nobel",
+          "Samuel Colt"
+        ],
+        "réponse": "Mikhail Kalashnikov",
+        "anecdote": "The AK-47 is the first model in a large family of gas-fired assault rifles, the most common model of which is the AKM."
+      },
+      {
+        "id": 8,
+        "question": "What is the name of the ax used by North Americans ?",
+        "propositions": [
+          "Bardish",
+          "Labrys",
+          "Francisque",
+          "Tomahawk"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "The tomahawk is used by Mel Gibson, aka Benjamin Martin, in the film « The Patriot » by Roland Emmerich (2000)."
+      },
+      {
+        "id": 9,
+        "question": "How do UN military personnel stand out on the ground ?",
+        "propositions": [
+          "Red scarf",
+          "Blue Helmet",
+          "Green rifle",
+          "White boots"
+        ],
+        "réponse": "Blue Helmet",
+        "anecdote": "This force does not constitute a United Nations army, the Blue Helmets being mainly soldiers on loan from the UN."
+      },
+      {
+        "id": 10,
+        "question": "Which army used the spiked helmet during the First World War ?",
+        "propositions": [
+          "Russian",
+          "French",
+          "English",
+          "German"
+        ],
+        "réponse": "German",
+        "anecdote": "In France, then in the United Kingdom, the spiked helmet became the symbol of German militarism in the form of cartoonists."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which submachine gun was equipped by German officers during the Second World War ?",
+        "propositions": [
+          "MP40",
+          "MG42",
+          "KAR 98",
+          "FG42"
+        ],
+        "réponse": "MP40",
+        "anecdote": "Allied soldiers nicknamed this weapon Schmeisser, after the German weapons designer who created the MP18."
+      },
+      {
+        "id": 12,
+        "question": "Which legendary pistol was used by the American army from 1911 to 1985 ?",
+        "propositions": [
+          "Mauser",
+          "M1911",
+          "Ruby",
+          "Luger"
+        ],
+        "réponse": "M1911",
+        "anecdote": "The M1911, wrongly designated the Colt 45, is one of the rare weapons to have been used massively during the two world wars."
+      },
+      {
+        "id": 13,
+        "question": "Which of these weapons is most effective against plate armor ?",
+        "propositions": [
+          "Katana",
+          "Ax",
+          "Lance",
+          "Warhammer"
+        ],
+        "réponse": "Warhammer",
+        "anecdote": "Designed for close combat, it resembles a hammer in shape and is frequently equipped with a beak, opposite the hammer."
+      },
+      {
+        "id": 14,
+        "question": "Which tank was the most produced during World War II ?",
+        "propositions": [
+          "Sherman",
+          "Panzer 4",
+          "T-34",
+          "Stuart"
+        ],
+        "réponse": "T-34",
+        "anecdote": "A descendant of the fast BT tanks, the T-34 is a Soviet battle tank that entered service in 1940 with the Red Army."
+      },
+      {
+        "id": 15,
+        "question": "What name was given to the shield used by the Roman legionnaires ?",
+        "propositions": [
+          "Blackcurrant",
+          "Pilum",
+          "Scutum",
+          "Gladius"
+        ],
+        "réponse": "Scutum",
+        "anecdote": "Its shape and size varied depending on the troop, the scutum of the legionnaires being different from that of the auxiliaries."
+      },
+      {
+        "id": 16,
+        "question": "Approximately how many tonnes does the American M1 Abrams tank weigh ?",
+        "propositions": [
+          "75 tons",
+          "12 tons",
+          "54 tons",
+          "36 tons"
+        ],
+        "réponse": "54 tons",
+        "anecdote": "Its baptism of fire took place in 1991 during the Gulf War, where it performed well against a conventional mechanized force."
+      },
+      {
+        "id": 17,
+        "question": "Which rifle was used by the Japanese army during World War II ?",
+        "propositions": [
+          "Arisaka Type 99",
+          "Nambu Type B",
+          "Lebel",
+          "Kar98"
+        ],
+        "réponse": "Arisaka Type 99",
+        "anecdote": "It was the replacement for the Type 38 rifle and the main rifle of the Japanese, until their surrender to the Allied forces in 1945."
+      },
+      {
+        "id": 18,
+        "question": "Which French company built the FT-17 during World War I ?",
+        "propositions": [
+          "Peugeot",
+          "Renault",
+          "Citroën",
+          "Simka"
+        ],
+        "réponse": "Renault",
+        "anecdote": "The Renault FT tank (1917-1949) was the most effective armored and tracked combat vehicle of the First World War."
+      },
+      {
+        "id": 19,
+        "question": "Which helicopter from the Vietnam War was widely used by the Americans ?",
+        "propositions": [
+          "Puma",
+          "Mil Mi-24",
+          "UH-1 Iroquois",
+          "Black Hawks"
+        ],
+        "réponse": "UH-1 Iroquois",
+        "anecdote": "More than 16,000 civilian and military examples of the Bell Huey UH-1 Iroquois were produced and exported to more than 70 countries."
+      },
+      {
+        "id": 20,
+        "question": "Which of these propositions designates a weapon of Swiss origin ?",
+        "propositions": [
+          "G36",
+          "F2000",
+          "Famas",
+          "SIG-550"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "The SIG-550 is the official assault rifle of the Swiss Army (F ass 90) manufactured by Swiss Arms, formerly SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What headgear did the crème de la crème of the Napoleonic army wear ?",
+        "propositions": [
+          "Shako",
+          "Colback",
+          "Bear",
+          "Bicorn"
+        ],
+        "réponse": "Bear",
+        "anecdote": "The furry cap could be adorned with a red plume and a brass plaque, decorated with an imperial eagle and a pomegranate."
+      },
+      {
+        "id": 22,
+        "question": "During the Vietnam War, what weapon was nicknamed the Mattel Gun ?",
+        "propositions": [
+          "M14",
+          "AK47",
+          "L1A1",
+          "M16"
+        ],
+        "réponse": "M16",
+        "anecdote": "Coming from a difficult development, the M16 assault rifle is the military version of the AR-15, a rifle completed by Armalite in 1958."
+      },
+      {
+        "id": 23,
+        "question": "How many cartridges can the magazine of an English Lee-Enfield hold ?",
+        "propositions": [
+          "Five",
+          "Eight",
+          "Two",
+          "Ten"
+        ],
+        "réponse": "Ten",
+        "anecdote": "In different variants, it has been the regulatory rifle of the British army since its official adoption on November 11, 1895."
+      },
+      {
+        "id": 24,
+        "question": "The French MAS 36 was manufactured by which arms factory ?",
+        "propositions": [
+          "Rennes",
+          "Lyon",
+          "Saint-Étienne",
+          "Amiens"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "The MAS36 rifle is powered by a Mauser-type magazine box, while having perfectly French characteristics."
+      },
+      {
+        "id": 25,
+        "question": "What is the standard caliber among NATO armed forces ?",
+        "propositions": [
+          "12.7mm",
+          "22mm",
+          "7.62mm",
+          "5.56mm"
+        ],
+        "réponse": "5.56mm",
+        "anecdote": "The 5.56 caliber was adopted to cope with the excessive power of the 7.62, which has too much recoil."
+      },
+      {
+        "id": 26,
+        "question": "The black beret, used in the English army, represents which regiment ?",
+        "propositions": [
+          "Royal Marines",
+          "Royal Tank Regiment",
+          "Skydivers",
+          "UN troops"
+        ],
+        "réponse": "Royal Tank Regiment",
+        "anecdote": "The RTR participated in the First and Second World Wars, then in the Korean War (1950-1953) and the Iraq War of 2003."
+      },
+      {
+        "id": 27,
+        "question": "Which army of these countries uses a bullpup rifle as its main weapon ?",
+        "propositions": [
+          "Portugal",
+          "Germany",
+          "Austria",
+          "Sweden"
+        ],
+        "réponse": "Austria",
+        "anecdote": "The term bullpup designates a general weapon architecture, intended to reduce the length of the weapon without sacrificing that of the barrel."
+      },
+      {
+        "id": 28,
+        "question": "What camouflage is used by the Belgian army for combat outfits ?",
+        "propositions": [
+          "Cookie dough",
+          "Jigsaw",
+          "CE",
+          "DPM"
+        ],
+        "réponse": "Jigsaw",
+        "anecdote": "A distinct camouflage pattern, inspired by the Belgian precedent, has been adopted by some units of the Zaire Armed Forces in Zaire."
+      },
+      {
+        "id": 29,
+        "question": "Which French machine gun was used by the Americans in World War I ?",
+        "propositions": [
+          "Bar",
+          "Lewis",
+          "Chauchat",
+          "Maschinengewehr 08"
+        ],
+        "réponse": "Chauchat",
+        "anecdote": "Under the leadership of General Joffre, it was put into service with the French infantry in 1916, during the First World War."
+      },
+      {
+        "id": 30,
+        "question": "What is the name of the typical helmet cover used in the Israeli army ?",
+        "propositions": [
+          "Kipa",
+          "Fez",
+          "Mitznefet",
+          "Dastar"
+        ],
+        "réponse": "Mitznefet",
+        "anecdote": "It is considerably larger than the helmet it covers and gives an appearance similar to a chef's headdress."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Aus welchem Material bestehen unsere kugelsicheren Westen im Allgemeinen ?",
+        "propositions": [
+          "Latex",
+          "Kevlar",
+          "Metall",
+          "Elfenbein"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "Im Jahr 1964 schuf Stephanie Kwolek zufällig eine leichte Kunstfaser, die fünfmal stärker als Stahl war."
+      },
+      {
+        "id": 2,
+        "question": "Welchen Schiffstyp nutzten die Wikinger für Handel und Eroberung ?",
+        "propositions": [
+          "Gabare",
+          "Müll",
+          "Drakkar",
+          "Galeere"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "Dieser Name, unter dem Wikingerschiffe bekannt sind, ist ein neuerer Begriff, der 1840 in « Naval Archaeology » von Augustin Jal auftauchte."
+      },
+      {
+        "id": 3,
+        "question": "Welche Klingenwaffe wird am häufigsten am Ende des Waffenlaufs befestigt ?",
+        "propositions": [
+          "Opinel",
+          "Taschenmesser",
+          "Machete",
+          "Bajonett"
+        ],
+        "réponse": "Bajonett",
+        "anecdote": "Dadurch wird das Bajonettgewehr zu einer vielseitigen Waffe, die dann zu einer Mischung aus Schusswaffe und Stangenwaffe wird."
+      },
+      {
+        "id": 4,
+        "question": "Welcher berühmte englische Bogen war im Hundertjährigen Krieg so gefürchtet ?",
+        "propositions": [
+          "Langbogen",
+          "Compoundbogen",
+          "Jagdbogen",
+          "Verbundbogen"
+        ],
+        "réponse": "Langbogen",
+        "anecdote": "Dies ist ein sehr mächtiger mittelalterlicher Bogen, etwa 2 Meter lang, der von den Engländern häufig sowohl für die Jagd als auch für den Krieg verwendet wurde."
+      },
+      {
+        "id": 5,
+        "question": "Mit welcher Ausrüstung können Sie einen Gasangriff überleben ?",
+        "propositions": [
+          "Bajonett",
+          "Helm",
+          "Gasmaske",
+          "Rauch"
+        ],
+        "réponse": "Gasmaske",
+        "anecdote": "Es wird im Gesicht getragen und bedeckt die Eingänge der Atemwege und Augen sowie andere empfindliche Gesichtstücher."
+      },
+      {
+        "id": 6,
+        "question": "Was ist der Hauptvorteil der Verwendung einer Stabgranate ?",
+        "propositions": [
+          "Kosten",
+          "Wurfweite",
+          "Bester Tragekomfort",
+          "Abdichtung"
+        ],
+        "réponse": "Wurfweite",
+        "anecdote": "Um die Granate zu benutzen, schrauben Sie die Spitze ab und ziehen an einem Seil."
+      },
+      {
+        "id": 7,
+        "question": "Wie heißt der Erfinder des berühmten Sturmgewehrs AK-47 ?",
+        "propositions": [
+          "Gaston Glock",
+          "Michail Kalaschnikow",
+          "Alfred Nobel",
+          "Samuel Colt"
+        ],
+        "réponse": "Michail Kalaschnikow",
+        "anecdote": "Das AK-47 ist das erste Modell einer großen Familie gasbetriebener Sturmgewehre, deren häufigstes Modell das AKM ist."
+      },
+      {
+        "id": 8,
+        "question": "Wie heißt die von den Nordamerikanern verwendete Axt ?",
+        "propositions": [
+          "Tomahawk",
+          "Labrys",
+          "Francisque",
+          "Bardisch"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "Der Tomahawk wird von Mel Gibson, alias Benjamin Martin, im Film « The Patriot » von Roland Emmerich (2000) verwendet."
+      },
+      {
+        "id": 9,
+        "question": "Wie ragen UN-Militärangehörige vor Ort heraus ?",
+        "propositions": [
+          "Weiße Stiefel",
+          "Roter Schal",
+          "Grünes Gewehr",
+          "Blauer Helm"
+        ],
+        "réponse": "Blauer Helm",
+        "anecdote": "Diese Truppe stellt keine Armee der Vereinten Nationen dar, da es sich bei den Blauhelmen hauptsächlich um von den Vereinten Nationen ausgeliehene Soldaten handelt."
+      },
+      {
+        "id": 10,
+        "question": "Welche Armee nutzte den Stachelhelm im Ersten Weltkrieg ?",
+        "propositions": [
+          "Russisch",
+          "Deutsch",
+          "Französisch",
+          "Englisch"
+        ],
+        "réponse": "Deutsch",
+        "anecdote": "In Frankreich, dann im Vereinigten Königreich wurde der Stachelhelm in Form von Karikaturisten zum Symbol des deutschen Militarismus."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Maschinenpistole wurde im Zweiten Weltkrieg von deutschen Offizieren ausgerüstet ?",
+        "propositions": [
+          "KAR 98",
+          "MP40",
+          "FG42",
+          "MG42"
+        ],
+        "réponse": "MP40",
+        "anecdote": "Alliierte Soldaten gaben dieser Waffe den Spitznamen Schmeisser, nach dem deutschen Waffenkonstrukteur, der die MP18 entwickelte."
+      },
+      {
+        "id": 12,
+        "question": "Welche legendäre Pistole wurde von 1911 bis 1985 von der amerikanischen Armee verwendet ?",
+        "propositions": [
+          "M1911",
+          "Rubin",
+          "Luger",
+          "Mauser"
+        ],
+        "réponse": "M1911",
+        "anecdote": "Die M1911, fälschlicherweise als Colt 45 bezeichnet, ist eine der seltenen Waffen, die in den beiden Weltkriegen massiv eingesetzt wurden."
+      },
+      {
+        "id": 13,
+        "question": "Welche dieser Waffen ist am effektivsten gegen Plattenpanzer ?",
+        "propositions": [
+          "Lanze",
+          "Katana",
+          "Kriegshammer",
+          "Axt"
+        ],
+        "réponse": "Kriegshammer",
+        "anecdote": "Für den Nahkampf konzipiert, ähnelt es in seiner Form einem Hammer und ist häufig mit einem dem Hammer gegenüberliegenden Schnabel ausgestattet."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Panzer wurde im Zweiten Weltkrieg am meisten produziert ?",
+        "propositions": [
+          "T-34",
+          "Sherman",
+          "Panzer 4",
+          "Stuart"
+        ],
+        "réponse": "T-34",
+        "anecdote": "Der T-34, ein Nachkomme der schnellen BT-Panzer, ist ein sowjetischer Kampfpanzer, der 1940 bei der Roten Armee in Dienst gestellt wurde."
+      },
+      {
+        "id": 15,
+        "question": "Welchen Namen erhielt der Schild der römischen Legionäre ?",
+        "propositions": [
+          "Scutum",
+          "Gladius",
+          "Schwarze Johannisbeere",
+          "Pilum"
+        ],
+        "réponse": "Scutum",
+        "anecdote": "Seine Form und Größe variierte je nach Truppe, wobei das Scutum der Legionäre ein anderes war als das der Hilfstruppe."
+      },
+      {
+        "id": 16,
+        "question": "Wie viele Tonnen wiegt der amerikanische Panzer M1 Abrams ungefähr ?",
+        "propositions": [
+          "54 Tonnen",
+          "12 Tonnen",
+          "36 Tonnen",
+          "75 Tonnen"
+        ],
+        "réponse": "54 Tonnen",
+        "anecdote": "Seine Feuertaufe fand 1991 während des Golfkriegs statt, wo es sich gegen eine konventionelle mechanisierte Streitmacht gut behauptete."
+      },
+      {
+        "id": 17,
+        "question": "Welches Gewehr wurde von der japanischen Armee im Zweiten Weltkrieg verwendet ?",
+        "propositions": [
+          "Arisaka Typ 99",
+          "Kar98",
+          "Lebel",
+          "Nambu Typ B"
+        ],
+        "réponse": "Arisaka Typ 99",
+        "anecdote": "Es war der Ersatz für das Typ-38-Gewehr und das Hauptgewehr der Japaner bis zu ihrer Kapitulation vor den alliierten Streitkräften im Jahr 1945."
+      },
+      {
+        "id": 18,
+        "question": "Welches französische Unternehmen baute den FT-17 im Ersten Weltkrieg ?",
+        "propositions": [
+          "Renault",
+          "Simka",
+          "Citroën",
+          "Peugeot"
+        ],
+        "réponse": "Renault",
+        "anecdote": "Der Renault FT-Panzer (1917–1949) war das leistungsstärkste Panzer- und Kettenkampffahrzeug des Ersten Weltkriegs."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Hubschrauber aus dem Vietnamkrieg wurde von den Amerikanern häufig eingesetzt ?",
+        "propositions": [
+          "Black Hawks",
+          "Mil Mi-24",
+          "Puma",
+          "UH-1 Irokesen"
+        ],
+        "réponse": "UH-1 Irokesen",
+        "anecdote": "Mehr als 16.000 zivile und militärische Exemplare des Bell Huey UH-1 Iroquois wurden hergestellt und in mehr als 70 Länder exportiert."
+      },
+      {
+        "id": 20,
+        "question": "Welcher dieser Vorschläge bezeichnet eine Waffe schweizerischen Ursprungs ?",
+        "propositions": [
+          "F2000",
+          "SIG-550",
+          "G36",
+          "Famas"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "Das SIG-550 ist das offizielle Sturmgewehr der Schweizer Armee (F ass 90), hergestellt von Swiss Arms, ehemals SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Kopfbedeckung trug die Crème de la Crème der napoleonischen Armee ?",
+        "propositions": [
+          "Shako",
+          "Zweispitz",
+          "Colback",
+          "Bär"
+        ],
+        "réponse": "Bär",
+        "anecdote": "Die Pelzmütze könnte mit einem roten Federbusch und einer Messingplakette geschmückt sein, verziert mit einem Reichsadler und einem Granatapfel."
+      },
+      {
+        "id": 22,
+        "question": "Welche Waffe wurde während des Vietnamkriegs Mattel Gun genannt ?",
+        "propositions": [
+          "M16",
+          "AK47",
+          "M14",
+          "L1A1"
+        ],
+        "réponse": "M16",
+        "anecdote": "Das aus einer schwierigen Entwicklung hervorgegangene M16-Sturmgewehr ist die militärische Version des AR-15, eines Gewehrs, das 1958 von Armalite fertiggestellt wurde."
+      },
+      {
+        "id": 23,
+        "question": "Wie viele Patronen fasst das Magazin einer englischen Lee-Enfield ?",
+        "propositions": [
+          "Zehn",
+          "Fünf",
+          "Acht",
+          "Zwei"
+        ],
+        "réponse": "Zehn",
+        "anecdote": "In verschiedenen Varianten ist es seit seiner offiziellen Einführung am 11. November 1895 das reguläre Gewehr der britischen Armee."
+      },
+      {
+        "id": 24,
+        "question": "Von welcher Waffenfabrik wurde die französische MAS 36 hergestellt ?",
+        "propositions": [
+          "Saint-Étienne",
+          "Lyon",
+          "Rennes",
+          "Amiens"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "Das MAS36-Gewehr wird von einem Mauser-Magazinkasten angetrieben und verfügt gleichzeitig über perfekt französische Eigenschaften."
+      },
+      {
+        "id": 25,
+        "question": "Was ist das Standardkaliber der NATO-Streitkräfte ?",
+        "propositions": [
+          "22mm",
+          "12,7 mm",
+          "5,56 mm",
+          "7,62 mm"
+        ],
+        "réponse": "5,56 mm",
+        "anecdote": "Das Kaliber 5,56 wurde gewählt, um der übermäßigen Kraft des Kalibers 7,62 standzuhalten, das einen zu großen Rückstoß hat."
+      },
+      {
+        "id": 26,
+        "question": "Welches Regiment repräsentiert die schwarze Baskenmütze, die in der englischen Armee verwendet wird ?",
+        "propositions": [
+          "Fallschirmspringer",
+          "Royal Marines",
+          "Königliches Panzerregiment",
+          "UN-Truppen"
+        ],
+        "réponse": "Königliches Panzerregiment",
+        "anecdote": "Die RTR beteiligte sich am Ersten und Zweiten Weltkrieg, dann am Koreakrieg (1950–1953) und am Irakkrieg 2003."
+      },
+      {
+        "id": 27,
+        "question": "Welche Armee dieser Länder verwendet ein Bullpup-Gewehr als Hauptwaffe ?",
+        "propositions": [
+          "Österreich",
+          "Deutschland",
+          "Schweden",
+          "Portugal"
+        ],
+        "réponse": "Österreich",
+        "anecdote": "Der Begriff Bullpup bezeichnet eine allgemeine Waffenarchitektur, die darauf abzielt, die Länge der Waffe zu reduzieren, ohne die Länge des Laufs zu beeinträchtigen."
+      },
+      {
+        "id": 28,
+        "question": "Welche Tarnung wird von der belgischen Armee für Kampfanzüge verwendet ?",
+        "propositions": [
+          "Keksteig",
+          "DPM",
+          "Puzzle",
+          "CE"
+        ],
+        "réponse": "Puzzle",
+        "anecdote": "Einige Einheiten der Zaire-Streitkräfte in Zaire haben ein besonderes Tarnmuster übernommen, das vom belgischen Vorbild inspiriert ist."
+      },
+      {
+        "id": 29,
+        "question": "Welches französische Maschinengewehr wurde von den Amerikanern im Ersten Weltkrieg eingesetzt ?",
+        "propositions": [
+          "Maschinengewehr 08",
+          "Bar",
+          "Lewis",
+          "Chauchat"
+        ],
+        "réponse": "Chauchat",
+        "anecdote": "Unter der Führung von General Joffre wurde es 1916, während des Ersten Weltkriegs, bei der französischen Infanterie in Dienst gestellt."
+      },
+      {
+        "id": 30,
+        "question": "Wie heißt der typische Helmüberzug, der in der israelischen Armee verwendet wird ?",
+        "propositions": [
+          "Mitznefet",
+          "Kipa",
+          "Fes",
+          "Dastar"
+        ],
+        "réponse": "Mitznefet",
+        "anecdote": "Es ist erheblich größer als der Helm, den es bedeckt, und sieht aus wie der Kopfschmuck eines Kochs."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿De qué material están hechos generalmente nuestros chalecos antibalas ?",
+        "propositions": [
+          "Marfil",
+          "Metales",
+          "Látex",
+          "Kevlar"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "En 1964, Stephanie Kwolek creó accidentalmente una fibra sintética ligera, cinco veces más resistente que el acero."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué tipo de barco utilizaban los vikingos para el comercio y la conquista ?",
+        "propositions": [
+          "basura",
+          "Gabaré",
+          "Galera",
+          "Drakkar"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "Este nombre con el que se conoce a los barcos vikingos es un término reciente que apareció en 1840 en « Arqueología Naval » de Augustin Jal."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué arma blanca se coloca con mayor frecuencia en el extremo del cañón de un arma ?",
+        "propositions": [
+          "Opinión",
+          "Navaja de bolsillo",
+          "Machete",
+          "Bayoneta"
+        ],
+        "réponse": "Bayoneta",
+        "anecdote": "Esto convierte al rifle de bayoneta en un arma versátil, que luego se convierte en un híbrido entre un arma de fuego y un arma de asta."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué famoso arco inglés fue tan temido durante la Guerra de los Cien Años ?",
+        "propositions": [
+          "Arco largo",
+          "Arco compuesto",
+          "Arco de caza",
+          "Arco compuesto"
+        ],
+        "réponse": "Arco largo",
+        "anecdote": "Se trata de un arco medieval muy potente, de aproximadamente 2 metros de largo, muy utilizado por los ingleses, tanto para la caza como para la guerra."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué equipo te permite sobrevivir a un ataque con gas ?",
+        "propositions": [
+          "Máscara de gas",
+          "Humo",
+          "Casco",
+          "Bayoneta"
+        ],
+        "réponse": "Máscara de gas",
+        "anecdote": "Se coloca en la cara y cubre las entradas del tracto respiratorio y los ojos, así como otros tejidos faciales sensibles."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál es la principal ventaja de usar una granada de palo ?",
+        "propositions": [
+          "Mejor transporte",
+          "Distancia de tiro",
+          "Costo",
+          "Impermeabilización"
+        ],
+        "réponse": "Distancia de tiro",
+        "anecdote": "Para usar la granada, desenrosca la punta y tira de una cuerda, luego tienes cinco segundos antes de la explosión."
+      },
+      {
+        "id": 7,
+        "question": "¿Cómo se llama el inventor del famoso rifle de asalto AK-47 ?",
+        "propositions": [
+          "Samuel Colt",
+          "Gastón Glock",
+          "Alfred Nobel",
+          "Mijaíl Kalashnikov"
+        ],
+        "réponse": "Mijaíl Kalashnikov",
+        "anecdote": "El AK-47 es el primer modelo de una gran familia de rifles de asalto a gas, cuyo modelo más común es el AKM."
+      },
+      {
+        "id": 8,
+        "question": "¿Cómo se llama el hacha que usan los norteamericanos ?",
+        "propositions": [
+          "Tomahawk",
+          "franciscano",
+          "Labrys",
+          "Bardo"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "El tomahawk es utilizado por Mel Gibson, alias Benjamin Martin, en la película « El patriota » de Roland Emmerich (2000)."
+      },
+      {
+        "id": 9,
+        "question": "¿Cómo se destaca el personal militar de la ONU sobre el terreno ?",
+        "propositions": [
+          "Casco azul",
+          "Pañuelo rojo",
+          "Rifle verde",
+          "Botas blancas"
+        ],
+        "réponse": "Casco azul",
+        "anecdote": "Esta fuerza no constituye un ejército de las Naciones Unidas, ya que los Cascos Azules son principalmente soldados prestados por la ONU."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué ejército utilizó el casco con púas durante la Primera Guerra Mundial ?",
+        "propositions": [
+          "alemán",
+          "Inglés",
+          "ruso",
+          "francés"
+        ],
+        "réponse": "alemán",
+        "anecdote": "En Francia y luego en el Reino Unido, el casco con púas se convirtió en el símbolo del militarismo alemán en la forma de los caricaturistas."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué metralleta equiparon los oficiales alemanes durante la Segunda Guerra Mundial ?",
+        "propositions": [
+          "MG42",
+          "FG42",
+          "MP40",
+          "KAR 98"
+        ],
+        "réponse": "MP40",
+        "anecdote": "Los soldados aliados apodaron esta arma Schmeisser, en honor al diseñador de armas alemán que creó el MP18."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué pistola legendaria utilizó el ejército estadounidense entre 1911 y 1985 ?",
+        "propositions": [
+          "Luger",
+          "M1911",
+          "Rubí",
+          "Máuser"
+        ],
+        "réponse": "M1911",
+        "anecdote": "La M1911, erróneamente denominada Colt 45, es una de las pocas armas que se utilizó masivamente durante las dos guerras mundiales."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál de estas armas es más eficaz contra las armaduras de placas ?",
+        "propositions": [
+          "Hacha",
+          "Lanza",
+          "Martillo de guerra",
+          "katana"
+        ],
+        "réponse": "Martillo de guerra",
+        "anecdote": "Diseñado para el combate cuerpo a cuerpo, tiene forma de martillo y frecuentemente está equipado con un pico, opuesto al martillo."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué tanque fue el más producido durante la Segunda Guerra Mundial ?",
+        "propositions": [
+          "T-34",
+          "Stuart",
+          "Sherman",
+          "Panzer 4"
+        ],
+        "réponse": "T-34",
+        "anecdote": "Descendiente de los rápidos tanques BT, el T-34 es un tanque de batalla soviético que entró en servicio en 1940 con el Ejército Rojo."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué nombre recibió el escudo utilizado por los legionarios romanos ?",
+        "propositions": [
+          "Pilum",
+          "Gladio",
+          "Escudo",
+          "Grosella negra"
+        ],
+        "réponse": "Escudo",
+        "anecdote": "Su forma y tamaño variaban según la tropa, siendo diferente el escudo de los legionarios al de los auxiliares."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuántas toneladas pesa aproximadamente el tanque estadounidense M1 Abrams ?",
+        "propositions": [
+          "12 toneladas",
+          "75 toneladas",
+          "36 toneladas",
+          "54 toneladas"
+        ],
+        "réponse": "54 toneladas",
+        "anecdote": "Su bautismo de fuego tuvo lugar en 1991 durante la Guerra del Golfo, donde tuvo un buen desempeño contra una fuerza mecanizada convencional."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué rifle utilizó el ejército japonés durante la Segunda Guerra Mundial ?",
+        "propositions": [
+          "etiqueta",
+          "Arisaka Tipo 99",
+          "Nambu Tipo B",
+          "Kar98"
+        ],
+        "réponse": "Arisaka Tipo 99",
+        "anecdote": "Fue el sustituto del fusil Tipo 38 y el fusil principal de los japoneses, hasta su rendición a las fuerzas aliadas en 1945."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué empresa francesa construyó el FT-17 durante la Primera Guerra Mundial ?",
+        "propositions": [
+          "Citroën",
+          "Simka",
+          "Renault",
+          "Peugeot"
+        ],
+        "réponse": "Renault",
+        "anecdote": "El tanque Renault FT (1917-1949) fue el vehículo de combate blindado y con orugas más eficaz de la Primera Guerra Mundial."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué helicóptero de la guerra de Vietnam fue ampliamente utilizado por los estadounidenses ?",
+        "propositions": [
+          "Black Hawks",
+          "UH-1 Iroqueses",
+          "Puma",
+          "Mil Mi-24"
+        ],
+        "réponse": "UH-1 Iroqueses",
+        "anecdote": "Se produjeron y exportaron más de 16.000 ejemplares civiles y militares del Bell Huey UH-1 Iroquois a más de 70 países."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuál de estas proposiciones designa un arma de origen suizo ?",
+        "propositions": [
+          "F2000",
+          "SIG-550",
+          "G36",
+          "famas"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "El SIG-550 es el rifle de asalto oficial del ejército suizo (F ass 90) fabricado por Swiss Arms, anteriormente SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué tocado llevaba la crème de la crème del ejército napoleónico ?",
+        "propositions": [
+          "Oso",
+          "Colback",
+          "Bicornio",
+          "Shakó"
+        ],
+        "réponse": "Oso",
+        "anecdote": "El gorro peludo podía estar adornado con un penacho rojo y una placa de latón, decorado con un águila imperial y una granada."
+      },
+      {
+        "id": 22,
+        "question": "Durante la Guerra de Vietnam, ¿qué arma recibió el sobrenombre de Mattel Gun ?",
+        "propositions": [
+          "L1A1",
+          "M16",
+          "M14",
+          "AK47"
+        ],
+        "réponse": "M16",
+        "anecdote": "Procedente de un desarrollo difícil, el rifle de asalto M16 es la versión militar del AR-15, un rifle completado por Armalite en 1958."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuántos cartuchos cabe en el cargador de una Lee-Enfield inglesa ?",
+        "propositions": [
+          "Dos",
+          "Diez",
+          "Ocho",
+          "Cinco"
+        ],
+        "réponse": "Diez",
+        "anecdote": "En diferentes variantes, ha sido el rifle reglamentario del ejército británico desde su adopción oficial el 11 de noviembre de 1895."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué fábrica de armas fabricó el MAS 36 francés ?",
+        "propositions": [
+          "Rennes",
+          "León",
+          "Saint-Étienne",
+          "Amiens"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "El rifle MAS36 funciona con un cargador tipo Mauser y tiene características perfectamente francesas."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuál es el calibre estándar entre las fuerzas armadas de la OTAN ?",
+        "propositions": [
+          "12,7 mm",
+          "22 mm",
+          "7,62 mm",
+          "5,56 mm"
+        ],
+        "réponse": "5,56 mm",
+        "anecdote": "Se adoptó el calibre 5,56 para hacer frente a la excesiva potencia del 7,62, que tiene demasiado retroceso."
+      },
+      {
+        "id": 26,
+        "question": "La boina negra, utilizada en el ejército inglés, ¿representa a qué regimiento ?",
+        "propositions": [
+          "Paracaidistas",
+          "Marines Reales",
+          "Tropas de la ONU",
+          "Regimiento Real de Tanques"
+        ],
+        "réponse": "Regimiento Real de Tanques",
+        "anecdote": "La RTR participó en la Primera y Segunda Guerra Mundial, luego en la Guerra de Corea (1950-1953) y en la Guerra de Irak de 2003."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué ejército de estos países utiliza un rifle bullpup como arma principal ?",
+        "propositions": [
+          "Austria",
+          "Suecia",
+          "Alemania",
+          "Portugal"
+        ],
+        "réponse": "Austria",
+        "anecdote": "El término bullpup designa una arquitectura general de arma, destinada a reducir la longitud del arma sin sacrificar la del cañón."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué camuflaje utiliza el ejército belga para sus equipos de combate ?",
+        "propositions": [
+          "CE",
+          "DPM",
+          "Rompecabezas",
+          "Masa para galletas"
+        ],
+        "réponse": "Rompecabezas",
+        "anecdote": "Algunas unidades de las Fuerzas Armadas de Zaire en Zaire han adoptado un patrón de camuflaje distintivo, inspirado en el precedente belga."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué ametralladora francesa utilizaron los estadounidenses en la Primera Guerra Mundial ?",
+        "propositions": [
+          "Maschinengewehr 08",
+          "chauchat",
+          "Luis",
+          "Barra"
+        ],
+        "réponse": "chauchat",
+        "anecdote": "Bajo el liderazgo del general Joffre, entró en servicio con la infantería francesa en 1916, durante la Primera Guerra Mundial."
+      },
+      {
+        "id": 30,
+        "question": "¿Cómo se llama la típica funda de casco utilizada en el ejército israelí ?",
+        "propositions": [
+          "Fez",
+          "Mitznéfet",
+          "Kipa",
+          "Dastar"
+        ],
+        "réponse": "Mitznéfet",
+        "anecdote": "Es considerablemente más grande que el casco que cubre y da una apariencia similar al tocado de un chef."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Di che materiale sono generalmente realizzati i nostri giubbotti antiproiettile ?",
+        "propositions": [
+          "Avorio",
+          "Metallo",
+          "Kevlar",
+          "Lattice"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "Nel 1964, Stephanie Kwolek creò accidentalmente una fibra sintetica leggera, cinque volte più resistente dell'acciaio."
+      },
+      {
+        "id": 2,
+        "question": "Che tipo di nave usavano i Vichinghi per il commercio e la conquista ?",
+        "propositions": [
+          "Gabarè",
+          "Cambusa",
+          "Spazzatura",
+          "Drakkar"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "Questo nome, con cui sono conosciute le navi vichinghe, è un termine recente apparso nel 1840 in « Archeologia navale » di Augustin Jal."
+      },
+      {
+        "id": 3,
+        "question": "Quale arma a lama è più spesso attaccata all'estremità della canna di un'arma ?",
+        "propositions": [
+          "Coltello tascabile",
+          "Baionetta",
+          "Opinel",
+          "Machete"
+        ],
+        "réponse": "Baionetta",
+        "anecdote": "Rende così il fucile a baionetta un'arma versatile, che diventa quindi un ibrido tra un'arma da fuoco e un'arma ad asta."
+      },
+      {
+        "id": 4,
+        "question": "Quale famoso arco inglese era così temuto durante la Guerra dei Cent'anni ?",
+        "propositions": [
+          "Arco da caccia",
+          "Arco lungo",
+          "Arco composito",
+          "Arco composto"
+        ],
+        "réponse": "Arco lungo",
+        "anecdote": "Si tratta di un arco medievale molto potente, lungo circa 2 metri, molto utilizzato dagli inglesi, sia per la caccia che per la guerra."
+      },
+      {
+        "id": 5,
+        "question": "Quale attrezzatura ti consente di sopravvivere a un attacco che coinvolge il gas ?",
+        "propositions": [
+          "Fumo",
+          "Baionetta",
+          "Maschera antigas",
+          "Casco"
+        ],
+        "réponse": "Maschera antigas",
+        "anecdote": "Viene indossato sul viso e copre gli ingressi delle vie respiratorie, gli occhi e altri tessuti facciali sensibili."
+      },
+      {
+        "id": 6,
+        "question": "Qual è il vantaggio principale dell'utilizzo di una granata a bastoncino ?",
+        "propositions": [
+          "Miglior trasporto",
+          "Costo",
+          "Impermeabilizzazione",
+          "Distanza di lancio"
+        ],
+        "réponse": "Distanza di lancio",
+        "anecdote": "Per utilizzare la granata, svitare la punta e tirare una corda, avendo poi cinque secondi prima dell'esplosione."
+      },
+      {
+        "id": 7,
+        "question": "Qual è il nome dell'inventore del famoso fucile d'assalto AK-47 ?",
+        "propositions": [
+          "Gaston Glock",
+          "Michail Kalashnikov",
+          "Alfred Nobel",
+          "Samuel Colt"
+        ],
+        "réponse": "Michail Kalashnikov",
+        "anecdote": "L'AK-47 è il primo modello di una vasta famiglia di fucili d'assalto a gas, il modello più comune dei quali è l'AKM."
+      },
+      {
+        "id": 8,
+        "question": "Qual è il nome dell'ascia usata dai nordamericani ?",
+        "propositions": [
+          "Bardo",
+          "Tomahawk",
+          "Labrys",
+          "Francesco"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "Il tomahawk è utilizzato da Mel Gibson, alias Benjamin Martin, nel film « The Patriot » di Roland Emmerich (2000)."
+      },
+      {
+        "id": 9,
+        "question": "In che modo il personale militare delle Nazioni Unite si distingue sul campo ?",
+        "propositions": [
+          "Fucile verde",
+          "Stivali bianchi",
+          "Sciarpa rossa",
+          "Casco Blu"
+        ],
+        "réponse": "Casco Blu",
+        "anecdote": "Questa forza non costituisce un esercito delle Nazioni Unite, i Caschi Blu sono principalmente soldati prestati dall'ONU."
+      },
+      {
+        "id": 10,
+        "question": "Quale esercito utilizzava l'elmo chiodato durante la Prima Guerra Mondiale ?",
+        "propositions": [
+          "francese",
+          "Inglese",
+          "tedesco",
+          "Russo"
+        ],
+        "réponse": "tedesco",
+        "anecdote": "In Francia, poi nel Regno Unito, l'elmo chiodato divenne il simbolo del militarismo tedesco sotto forma di vignettisti."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale fucile mitragliatore era equipaggiato dagli ufficiali tedeschi durante la Seconda Guerra Mondiale ?",
+        "propositions": [
+          "FG42",
+          "MG42",
+          "CAR 98",
+          "MP4"
+        ],
+        "réponse": "MP4",
+        "anecdote": "I soldati alleati soprannominarono quest'arma Schmeisser, dal nome del progettista di armi tedesco che creò l'MP18."
+      },
+      {
+        "id": 12,
+        "question": "Quale pistola leggendaria è stata utilizzata dall'esercito americano dal 1911 al 1985 ?",
+        "propositions": [
+          "Mauser",
+          "Luger",
+          "M1911",
+          "Rubino"
+        ],
+        "réponse": "M1911",
+        "anecdote": "L'M1911, erroneamente denominata Colt 45, è una delle rare armi ad essere stata utilizzata in modo massiccio durante le due guerre mondiali."
+      },
+      {
+        "id": 13,
+        "question": "Quale di queste armi è più efficace contro le armature a piastre ?",
+        "propositions": [
+          "Martello di guerra",
+          "Ascia",
+          "Lancia",
+          "Katana"
+        ],
+        "réponse": "Martello di guerra",
+        "anecdote": "Progettato per il combattimento ravvicinato, ricorda nella forma un martello ed è spesso dotato di un becco, opposto al martello."
+      },
+      {
+        "id": 14,
+        "question": "Quale carro armato fu il più prodotto durante la Seconda Guerra Mondiale ?",
+        "propositions": [
+          "Panzer4",
+          "T-34",
+          "Stuart",
+          "Sherman"
+        ],
+        "réponse": "T-34",
+        "anecdote": "Discendente dei veloci carri armati BT, il T-34 è un carro armato da battaglia sovietico entrato in servizio nel 1940 con l'Armata Rossa."
+      },
+      {
+        "id": 15,
+        "question": "Che nome fu dato allo scudo utilizzato dai legionari romani ?",
+        "propositions": [
+          "Pilum",
+          "Ribes nero",
+          "Scuto",
+          "Gladio"
+        ],
+        "réponse": "Scuto",
+        "anecdote": "La sua forma e dimensione variavano a seconda della truppa, lo scutum dei legionari era diverso da quello degli ausiliari."
+      },
+      {
+        "id": 16,
+        "question": "Quante tonnellate pesa approssimativamente il carro armato americano M1 Abrams ?",
+        "propositions": [
+          "12 tonnellate",
+          "36 tonnellate",
+          "75 tonnellate",
+          "54 tonnellate"
+        ],
+        "réponse": "54 tonnellate",
+        "anecdote": "Il suo battesimo del fuoco ebbe luogo nel 1991 durante la Guerra del Golfo, dove si comportò bene contro una forza meccanizzata convenzionale."
+      },
+      {
+        "id": 17,
+        "question": "Quale fucile fu utilizzato dall'esercito giapponese durante la seconda guerra mondiale ?",
+        "propositions": [
+          "Nambu tipo B",
+          "Lebel",
+          "Kar98",
+          "Arisaka Tipo 99"
+        ],
+        "réponse": "Arisaka Tipo 99",
+        "anecdote": "Fu il sostituto del fucile Type 38 e il fucile principale dei giapponesi, fino alla loro resa agli Alleati nel 1945."
+      },
+      {
+        "id": 18,
+        "question": "Quale azienda francese costruì l'FT-17 durante la prima guerra mondiale ?",
+        "propositions": [
+          "Simka",
+          "Citroen",
+          "Renault",
+          "Peugeot"
+        ],
+        "réponse": "Renault",
+        "anecdote": "Il carro armato Renault FT (1917-1949) fu il veicolo da combattimento corazzato e cingolato più efficace della Prima Guerra Mondiale."
+      },
+      {
+        "id": 19,
+        "question": "Quale elicottero della guerra del Vietnam fu ampiamente utilizzato dagli americani ?",
+        "propositions": [
+          "UH-1 Irochese",
+          "Black Hawks",
+          "Puma",
+          "Mil Mi-24"
+        ],
+        "réponse": "UH-1 Irochese",
+        "anecdote": "Più di 16.000 esemplari civili e militari del Bell Huey UH-1 Iroquois furono prodotti ed esportati in più di 70 paesi."
+      },
+      {
+        "id": 20,
+        "question": "Quale di queste proposizioni designa un'arma di origine svizzera ?",
+        "propositions": [
+          "G36",
+          "F200",
+          "SIG-550",
+          "Famas"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "Il SIG-550 è il fucile d'assalto ufficiale dell'Esercito svizzero (F ass 90) prodotto da Swiss Arms, ex SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale copricapo indossava la crème de la crème dell'esercito napoleonico ?",
+        "propositions": [
+          "Shako",
+          "Orso",
+          "Colback",
+          "Bicorno"
+        ],
+        "réponse": "Orso",
+        "anecdote": "Il berretto peloso poteva essere ornato da un pennacchio rosso e da una placca di ottone, decorata con un'aquila imperiale e una melagrana."
+      },
+      {
+        "id": 22,
+        "question": "Durante la guerra del Vietnam, quale arma fu soprannominata Pistola Mattel ?",
+        "propositions": [
+          "AK47",
+          "L1A1",
+          "M16",
+          "M14"
+        ],
+        "réponse": "M16",
+        "anecdote": "Frutto di uno sviluppo difficile, il fucile d'assalto M16 è la versione militare dell'AR-15, un fucile completato da Armalite nel 1958."
+      },
+      {
+        "id": 23,
+        "question": "Quante cartucce può contenere il caricatore di un Lee-Enfield inglese ?",
+        "propositions": [
+          "Cinque",
+          "Due",
+          "Otto",
+          "Dieci"
+        ],
+        "réponse": "Dieci",
+        "anecdote": "In diverse varianti, è stato il fucile regolamentare dell'esercito britannico sin dalla sua adozione ufficiale l'11 novembre 1895."
+      },
+      {
+        "id": 24,
+        "question": "Da quale fabbrica di armi è stato prodotto il MAS 36 francese ?",
+        "propositions": [
+          "Amiens",
+          "Lione",
+          "Saint-Étienne",
+          "Rennes"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "Il fucile MAS36 è alimentato da un caricatore di tipo Mauser, pur avendo caratteristiche perfettamente francesi."
+      },
+      {
+        "id": 25,
+        "question": "Qual è il calibro standard tra le forze armate della NATO ?",
+        "propositions": [
+          "7,62 mm",
+          "22 mm",
+          "5,56 mm",
+          "12,7 mm"
+        ],
+        "réponse": "5,56 mm",
+        "anecdote": "Il calibro 5.56 è stato adottato per far fronte alla eccessiva potenza del 7.62, che ha troppo rinculo."
+      },
+      {
+        "id": 26,
+        "question": "Quale reggimento rappresenta il berretto nero, utilizzato nell'esercito inglese ?",
+        "propositions": [
+          "Paracadutisti",
+          "Truppe ONU",
+          "Reggimento carri armati reali",
+          "Royal Marines"
+        ],
+        "réponse": "Reggimento carri armati reali",
+        "anecdote": "La RTR ha partecipato alla Prima e alla Seconda Guerra Mondiale, poi alla Guerra di Corea (1950-1953) e alla Guerra in Iraq del 2003."
+      },
+      {
+        "id": 27,
+        "question": "Quale esercito di questi paesi utilizza un fucile bullpup come arma principale ?",
+        "propositions": [
+          "Svezia",
+          "Austria",
+          "Portogallo",
+          "Germania"
+        ],
+        "réponse": "Austria",
+        "anecdote": "Il termine bullpup designa un'architettura generale dell'arma, intesa a ridurre la lunghezza dell'arma senza sacrificare quella della canna."
+      },
+      {
+        "id": 28,
+        "question": "Quale mimetizzazione viene utilizzata dall'esercito belga per gli equipaggiamenti da combattimento ?",
+        "propositions": [
+          "Pasta per biscotti",
+          "Puzzle",
+          "CE",
+          "DPM"
+        ],
+        "réponse": "Puzzle",
+        "anecdote": "Un distinto motivo mimetico, ispirato al precedente belga, è stato adottato da alcune unità delle forze armate dello Zaire nello Zaire."
+      },
+      {
+        "id": 29,
+        "question": "Quale mitragliatrice francese fu usata dagli americani nella prima guerra mondiale ?",
+        "propositions": [
+          "Barra",
+          "Lewis",
+          "Maschinengewehr 08",
+          "Chauchat"
+        ],
+        "réponse": "Chauchat",
+        "anecdote": "Sotto la guida del generale Joffre, fu messo in servizio con la fanteria francese nel 1916, durante la prima guerra mondiale."
+      },
+      {
+        "id": 30,
+        "question": "Come si chiama la tipica copertura per elmetto utilizzata nell'esercito israeliano ?",
+        "propositions": [
+          "Dastar",
+          "Mitznefet",
+          "Fez",
+          "Kipa"
+        ],
+        "réponse": "Mitznefet",
+        "anecdote": "È notevolmente più grande dell'elmo che copre e conferisce un aspetto simile al copricapo di uno chef."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Van welk materiaal zijn onze kogelvrije vesten doorgaans gemaakt ?",
+        "propositions": [
+          "Ivoor",
+          "Kevlar",
+          "Metaal",
+          "Late"
+        ],
+        "réponse": "Kevlar",
+        "anecdote": "In 1964 creëerde Stephanie Kwolek per ongeluk een lichtgewicht synthetische vezel, vijf keer sterker dan staal."
+      },
+      {
+        "id": 2,
+        "question": "Welk type schip gebruikten de Vikingen voor handel en verovering ?",
+        "propositions": [
+          "Drakkar",
+          "Gabaar",
+          "Rommel",
+          "Kombuis"
+        ],
+        "réponse": "Drakkar",
+        "anecdote": "Deze naam, waaronder Vikingschepen bekend staan, is een recente term die in 1840 verscheen in « Naval Archaeology » van Augustin Jal."
+      },
+      {
+        "id": 3,
+        "question": "Welk wapen met bladen wordt meestal aan het uiteinde van de loop van een wapen bevestigd ?",
+        "propositions": [
+          "Zakmes",
+          "Bajonet",
+          "Machete",
+          "Opinel"
+        ],
+        "réponse": "Bajonet",
+        "anecdote": "Het maakt het bajonetgeweer dus tot een veelzijdig wapen, dat vervolgens een hybride wordt tussen een vuurwapen en een polearm."
+      },
+      {
+        "id": 4,
+        "question": "Welke beroemde Engelse boog werd zo gevreesd tijdens de Honderdjarige Oorlog ?",
+        "propositions": [
+          "Compoundboog",
+          "Composiet boog",
+          "Jachtboog",
+          "Handboog"
+        ],
+        "réponse": "Handboog",
+        "anecdote": "Dit is een zeer krachtige middeleeuwse boog, ongeveer 2 meter lang, die veel gebruikt wordt door de Engelsen, zowel voor de jacht als voor oorlog."
+      },
+      {
+        "id": 5,
+        "question": "Met welke uitrusting kun je een aanval met gas overleven ?",
+        "propositions": [
+          "Helm",
+          "Gasmasker",
+          "Bajonet",
+          "Rook"
+        ],
+        "réponse": "Gasmasker",
+        "anecdote": "Het wordt op het gezicht gedragen en bedekt de ingangen van de luchtwegen en de ogen, evenals andere gevoelige gezichtsweefsels."
+      },
+      {
+        "id": 6,
+        "question": "Wat is het belangrijkste voordeel van het gebruik van een stokgranaat ?",
+        "propositions": [
+          "Kosten",
+          "Gooi afstand",
+          "Waterdichting",
+          "Beste draagtas"
+        ],
+        "réponse": "Gooi afstand",
+        "anecdote": "Om de granaat te gebruiken, schroef je de punt los en trek je aan een touw, waarna je vijf seconden hebt voordat de explosie plaatsvindt."
+      },
+      {
+        "id": 7,
+        "question": "Wat is de naam van de uitvinder van het beroemde AK-47 aanvalsgeweer ?",
+        "propositions": [
+          "Michail Kalasjnikov",
+          "Gaston Glock",
+          "Samuël Colt",
+          "Alfred Nobel"
+        ],
+        "réponse": "Michail Kalasjnikov",
+        "anecdote": "De AK-47 is het eerste model in een grote familie van gasgestookte aanvalsgeweren, waarvan het meest voorkomende model de AKM is."
+      },
+      {
+        "id": 8,
+        "question": "Wat is de naam van de bijl die door Noord-Amerikanen wordt gebruikt ?",
+        "propositions": [
+          "Labry's",
+          "Franciscus",
+          "Tomahawk",
+          "Bardisch"
+        ],
+        "réponse": "Tomahawk",
+        "anecdote": "De tomahawk wordt gebruikt door Mel Gibson, alias Benjamin Martin, in de film « The Patriot » van Roland Emmerich (2000)."
+      },
+      {
+        "id": 9,
+        "question": "Hoe vallen VN-militairen op de grond op ?",
+        "propositions": [
+          "Groen geweer",
+          "Witte laarzen",
+          "Blauwhelm",
+          "Rode sjaal"
+        ],
+        "réponse": "Blauwhelm",
+        "anecdote": "Deze strijdmacht vormt geen leger van de Verenigde Naties, aangezien de blauwhelmen voornamelijk soldaten zijn die door de VN worden geleend."
+      },
+      {
+        "id": 10,
+        "question": "Welk leger gebruikte de spijkerhelm tijdens de Eerste Wereldoorlog ?",
+        "propositions": [
+          "Engels",
+          "Duits",
+          "Russisch",
+          "Frans"
+        ],
+        "réponse": "Duits",
+        "anecdote": "In Frankrijk en vervolgens in het Verenigd Koninkrijk werd de puntige helm het symbool van het Duitse militarisme in de vorm van cartoonisten."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk machinepistool werd tijdens de Tweede Wereldoorlog door Duitse officieren uitgerust ?",
+        "propositions": [
+          "MP40",
+          "KAR 98",
+          "FG42",
+          "MG42"
+        ],
+        "réponse": "MP40",
+        "anecdote": "Geallieerde soldaten gaven dit wapen de bijnaam Schmeisser, naar de Duitse wapenontwerper die de MP18 ontwierp."
+      },
+      {
+        "id": 12,
+        "question": "Welk legendarisch pistool werd van 1911 tot 1985 door het Amerikaanse leger gebruikt ?",
+        "propositions": [
+          "Mauser",
+          "Luger",
+          "M1911",
+          "Robijn"
+        ],
+        "réponse": "M1911",
+        "anecdote": "De M1911, ten onrechte de Colt 45 genoemd, is een van de zeldzame wapens die tijdens de twee wereldoorlogen massaal is gebruikt."
+      },
+      {
+        "id": 13,
+        "question": "Welke van deze wapens is het meest effectief tegen plaatpantser ?",
+        "propositions": [
+          "Katana",
+          "Warhammer",
+          "Bijl",
+          "Lans"
+        ],
+        "réponse": "Warhammer",
+        "anecdote": "Ontworpen voor gevechten van dichtbij, lijkt het op een hamer en is hij vaak uitgerust met een snavel, tegenover de hamer."
+      },
+      {
+        "id": 14,
+        "question": "Welke tank werd het meest geproduceerd tijdens de Tweede Wereldoorlog ?",
+        "propositions": [
+          "Panzer-4",
+          "T-34",
+          "Stuart",
+          "Sherman"
+        ],
+        "réponse": "T-34",
+        "anecdote": "De T-34, een afstammeling van de snelle BT-tanks, is een Sovjet-gevechtstank die in 1940 in dienst kwam bij het Rode Leger."
+      },
+      {
+        "id": 15,
+        "question": "Welke naam werd gegeven aan het schild dat door de Romeinse legionairs werd gebruikt ?",
+        "propositions": [
+          "Zwarte bes",
+          "Scutum",
+          "Gladius",
+          "Pilum"
+        ],
+        "réponse": "Scutum",
+        "anecdote": "De vorm en grootte varieerden afhankelijk van de troep, waarbij het scutum van de legionairs verschilde van dat van de hulptroepen."
+      },
+      {
+        "id": 16,
+        "question": "Hoeveel ton weegt de Amerikaanse M1 Abrams-tank ongeveer ?",
+        "propositions": [
+          "54 ton",
+          "12 ton",
+          "36 ton",
+          "75 ton"
+        ],
+        "réponse": "54 ton",
+        "anecdote": "De vuurdoop vond plaats in 1991 tijdens de Golfoorlog, waar het goed presteerde tegen een conventionele gemechaniseerde strijdmacht."
+      },
+      {
+        "id": 17,
+        "question": "Welk geweer werd door het Japanse leger gebruikt tijdens de Tweede Wereldoorlog ?",
+        "propositions": [
+          "Nambu Type B",
+          "Lebel",
+          "Arisaka-type 99",
+          "Kar98"
+        ],
+        "réponse": "Arisaka-type 99",
+        "anecdote": "Het was de vervanger van het Type 38 geweer en het hoofdgeweer van de Japanners, tot hun overgave aan de geallieerden in 1945."
+      },
+      {
+        "id": 18,
+        "question": "Welk Franse bedrijf bouwde de FT-17 tijdens de Eerste Wereldoorlog ?",
+        "propositions": [
+          "Peugeot",
+          "Renault",
+          "Citroen",
+          "Simka"
+        ],
+        "réponse": "Renault",
+        "anecdote": "De Renault FT-tank (1917-1949) was het meest effectieve pantser- en rupsgevechtsvoertuig uit de Eerste Wereldoorlog."
+      },
+      {
+        "id": 19,
+        "question": "Welke helikopter uit de Vietnamoorlog werd veel gebruikt door de Amerikanen ?",
+        "propositions": [
+          "Black Hawks",
+          "MilMi-24",
+          "Poema",
+          "UH-1 Iroquois"
+        ],
+        "réponse": "UH-1 Iroquois",
+        "anecdote": "Er werden meer dan 16.000 civiele en militaire exemplaren van de Bell Huey UH-1 Iroquois geproduceerd en geëxporteerd naar meer dan 70 landen."
+      },
+      {
+        "id": 20,
+        "question": "Welke van deze stellingen duidt op een wapen van Zwitserse oorsprong ?",
+        "propositions": [
+          "Famas",
+          "F2000",
+          "G36",
+          "SIG-550"
+        ],
+        "réponse": "SIG-550",
+        "anecdote": "De SIG-550 is het officiële aanvalsgeweer van het Zwitserse leger (F ass 90), vervaardigd door Swiss Arms, voorheen SIG Arms AG."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk hoofddeksel droeg de crème de la crème van het Napoleontische leger ?",
+        "propositions": [
+          "Shako",
+          "Colback",
+          "Beer",
+          "Tweehoorn"
+        ],
+        "réponse": "Beer",
+        "anecdote": "De harige pet kan worden versierd met een rode pluim en een koperen plaat, versierd met een keizerlijke adelaar en een granaatappel."
+      },
+      {
+        "id": 22,
+        "question": "Welk wapen kreeg tijdens de Vietnamoorlog de bijnaam Mattel Gun ?",
+        "propositions": [
+          "M14",
+          "AK47",
+          "L1A1",
+          "M16"
+        ],
+        "réponse": "M16",
+        "anecdote": "Het M16-aanvalsgeweer komt voort uit een moeilijke ontwikkeling en is de militaire versie van de AR-15, een geweer dat in 1958 door Armalite werd voltooid."
+      },
+      {
+        "id": 23,
+        "question": "Hoeveel patronen kan het magazijn van een Engelse Lee-Enfield bevatten ?",
+        "propositions": [
+          "Acht",
+          "Vijf",
+          "Tien",
+          "Twee"
+        ],
+        "réponse": "Tien",
+        "anecdote": "In verschillende varianten is het het regelgevende geweer van het Britse leger sinds de officiële goedkeuring ervan op 11 november 1895."
+      },
+      {
+        "id": 24,
+        "question": "Door welke wapenfabriek werd de Franse MAS 36 vervaardigd ?",
+        "propositions": [
+          "Lyon",
+          "Rennes",
+          "Saint-Étienne",
+          "Amiens"
+        ],
+        "réponse": "Saint-Étienne",
+        "anecdote": "Het MAS36-geweer wordt aangedreven door een magazijndoos van het Mauser-type, terwijl het perfect Franse kenmerken heeft."
+      },
+      {
+        "id": 25,
+        "question": "Wat is het standaardkaliber onder de strijdkrachten van de NAVO ?",
+        "propositions": [
+          "5,56 mm",
+          "7,62 mm",
+          "22 mm",
+          "12,7 mm"
+        ],
+        "réponse": "5,56 mm",
+        "anecdote": "Het kaliber 5.56 werd aangenomen om het hoofd te bieden aan de buitensporige kracht van de 7.62, die te veel terugslag heeft."
+      },
+      {
+        "id": 26,
+        "question": "Welk regiment vertegenwoordigt de zwarte baret, gebruikt in het Engelse leger ?",
+        "propositions": [
+          "Koninklijk Tankregiment",
+          "Koninklijke Marine",
+          "Parachutisten",
+          "VN-troepen"
+        ],
+        "réponse": "Koninklijk Tankregiment",
+        "anecdote": "De RTR nam deel aan de Eerste en Tweede Wereldoorlog, vervolgens aan de Koreaanse Oorlog (1950-1953) en de Irak-oorlog van 2003."
+      },
+      {
+        "id": 27,
+        "question": "Welk leger van deze landen gebruikt een bullpup-geweer als belangrijkste wapen ?",
+        "propositions": [
+          "Oostenrijk",
+          "Zweden",
+          "Portugal",
+          "Duitsland"
+        ],
+        "réponse": "Oostenrijk",
+        "anecdote": "De term bullpup duidt een algemene wapenarchitectuur aan, bedoeld om de lengte van het wapen te verkleinen zonder dat dit ten koste gaat van die van de loop."
+      },
+      {
+        "id": 28,
+        "question": "Welke camouflage gebruikt het Belgische leger voor gevechtsoutfits ?",
+        "propositions": [
+          "CE",
+          "Koekjesdeeg",
+          "DPM",
+          "Puzzel"
+        ],
+        "réponse": "Puzzel",
+        "anecdote": "Een duidelijk camouflagepatroon, geïnspireerd door het Belgische precedent, is door sommige eenheden van de Zaïre strijdkrachten in Zaïre overgenomen."
+      },
+      {
+        "id": 29,
+        "question": "Welk Frans machinegeweer werd door de Amerikanen gebruikt in de Eerste Wereldoorlog ?",
+        "propositions": [
+          "Chauchat",
+          "Maschinengewehr 08",
+          "Balk",
+          "Lewis"
+        ],
+        "réponse": "Chauchat",
+        "anecdote": "Onder leiding van generaal Joffre werd het in 1916, tijdens de Eerste Wereldoorlog, in dienst genomen bij de Franse infanterie."
+      },
+      {
+        "id": 30,
+        "question": "Wat is de naam van de typische helmhoes die in het Israëlische leger wordt gebruikt ?",
+        "propositions": [
+          "Mitsnefet",
+          "Dastar",
+          "Fès",
+          "Kipa"
+        ],
+        "réponse": "Mitsnefet",
+        "anecdote": "Het is aanzienlijk groter dan de helm die het bedekt en lijkt op de hoofdtooi van een chef-kok."
+      }
+    ]
+    }
+  }
+}

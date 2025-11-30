@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 8,
+  "mise-à-jour": "2023-06-13",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Littérature",
+      "nom": "Héros Harry Potter",
+      "slogan": "Univers magique de J. K. Rowling"
+    },
+    "en": {
+      "catégorie": "Literature",
+      "nom": "Harry Potter Heroes",
+      "slogan": "Magical Universe of J.K. Rowling"
+    },
+    "es": {
+      "catégorie": "Literatura",
+      "nom": "Héroes de Harry Potter",
+      "slogan": "Universo Mágico de J.K. Rowling"
+    },
+    "it": {
+      "catégorie": "Letteratura",
+      "nom": "Eroi di Harry Potter",
+      "slogan": "L'universo magico di J.K. Rowling"
+    },
+    "de": {
+      "catégorie": "Literatur",
+      "nom": "Harry Potter Helden",
+      "slogan": "Magisches Universum von J.K. Rowling"
+    },
+    "nl": {
+      "catégorie": "Literatuur",
+      "nom": "Harry Potter Helden",
+      "slogan": "Magisch universum van J.K. Rowling"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel parrain de Harry Potter est maraudeur et membre de l'Ordre du phénix ?",
+        "propositions": [
+          "Peter Pettigrow",
+          "Alastor Maugrey",
+          "Sturgis Podomore",
+          "Sirius Black"
+        ],
+        "réponse": "Sirius Black",
+        "anecdote": "Sirius Black meurt dans le cinquième livre, à la suite d'un sort lancé par sa propre cousine, Bellatrix Lestrange."
+      },
+      {
+        "id": 2,
+        "question": "Quel directeur de Poudlard est le fondateur de l'Ordre du Phénix ?",
+        "propositions": [
+          "Albus Dumbledore",
+          "Severus Rogue",
+          "Sirius Black",
+          "Drago Malefoy"
+        ],
+        "réponse": "Albus Dumbledore",
+        "anecdote": "Albus Dumbledore est considéré comme le plus grand sorcier de son temps et le seul que Lord Voldemort puisse craindre."
+      },
+      {
+        "id": 3,
+        "question": "Qui est avec Ronald Weasley la meilleure amie de Harry Potter ?",
+        "propositions": [
+          "Hermione Granger",
+          "Nymphadora Tonks",
+          "Hestia Jones",
+          "Dorcas Meadowes"
+        ],
+        "réponse": "Hermione Granger",
+        "anecdote": "Bien qu'elle soit née de parents moldus, elle est douée pour la magie et se montre d'un grand secours pour ses camarades."
+      },
+      {
+        "id": 4,
+        "question": "Qui est professeur de soins aux créatures magiques à Poudlard ?",
+        "propositions": [
+          "Sturgis Podmore",
+          "Benjy Fenwick",
+          "Bernie Pillsworth",
+          "Rubeus Hagrid"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "Membre de l'Ordre depuis sa première formation, Hagrid est un demi-géant, gardien des clés et garde-chasse de l'école Poudlard."
+      },
+      {
+        "id": 5,
+        "question": "Quel ennemi de Harry Potter s'est rallié à la cause de Voldemort ?",
+        "propositions": [
+          "Bertram Aubrey",
+          "Drago Malefoy",
+          "Gideon Prewett",
+          "Arkie Alderton"
+        ],
+        "réponse": "Drago Malefoy",
+        "anecdote": "Drago Malefoy a mis en place un système à l'aide des armoires a disparaître, pour faire entrer des mangemorts dans Poudlard."
+      },
+      {
+        "id": 6,
+        "question": "Membre de l'Ordre du Phénix, comment se prénomme le père de Harry Potter ?",
+        "propositions": [
+          "Quirinus",
+          "James",
+          "Bernie",
+          "Stan"
+        ],
+        "réponse": "James",
+        "anecdote": "Né le 27 mars 1960, James Potter est le descendant d'Ignotus Peverell ainsi que le possesseur original de la cape d'invisibilité."
+      },
+      {
+        "id": 7,
+        "question": "Quel professeur de potions fut directeur de la maison des Serpentard ?",
+        "propositions": [
+          "Percival Graves",
+          "Tiberius Odgen",
+          "Severus Rogue",
+          "Garrick Ollivander"
+        ],
+        "réponse": "Severus Rogue",
+        "anecdote": "Professeur de potions antipathique, Severus Rogue n'apprécie pas Harry Potter mais se montre loyal envers lui et sa cause."
+      },
+      {
+        "id": 8,
+        "question": "Quel mage noir réputé invincible est le chef et fondateur du gang des mangemorts ?",
+        "propositions": [
+          "Voldemort",
+          "Bob Ogden",
+          "Craig Montague",
+          "Godric Gryffondor"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort est un sorcier doté de pouvoirs considérables qui cherche à remodeler le monde des sorciers selon ses idéaux."
+      },
+      {
+        "id": 9,
+        "question": "Quel ami de Drago Malefoy peut lancer le sortilège de la mort « Avada Kedavra » ?",
+        "propositions": [
+          "Caradoc Dearborn",
+          "Bill Weasley",
+          "Vincent Crabbe",
+          "Remus Lupin"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Ne sachant pas contrôler son maléfice, Vincent Crabbe meurt après avoir provoqué un incendie dans la Salle sur Demande."
+      },
+      {
+        "id": 10,
+        "question": "Quelle championne de l'Académie Beauxbâtons est l'épouse de Bill Weasley ?",
+        "propositions": [
+          "Lily Potter",
+          "Marlene McKinnon",
+          "Alice Londubat",
+          "Fleur Delacour"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "Dans les adaptations cinématographiques des romans, le rôle de Fleur Delacour est interprété par Clémence Poésy."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel élève de Gryffondor est le meilleur ami de Fred et George Weasley ?",
+        "propositions": [
+          "Fabian Prewett",
+          "Lee Jordan",
+          "Stewart Ackerley",
+          "Frank Londubat"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Dans « Harry Potter et les Reliques de la Mort », il s'improvise journaliste pour la station de radio Potterveille qui soutient Harry."
+      },
+      {
+        "id": 12,
+        "question": "Quel membre de la famille Black, mangemort, a assassiné Sirius Black ?",
+        "propositions": [
+          "Astoria Greengrass",
+          "Eileen Prince",
+          "Lily Potter",
+          "Bellatrix Lestrange"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "Elle sait très bien utiliser le sortilège Doloris (sortillège de la torture), et tue régulièrement (en latin, Bellâtrix signifie belliqueuse)."
+      },
+      {
+        "id": 13,
+        "question": "Quelle fonctionnaire est professeur de Défense contre les forces du mal ?",
+        "propositions": [
+          "Dolores Ombrage",
+          "Aurora Sinistra",
+          "Helena Serdaigle",
+          "Demelza Robins"
+        ],
+        "réponse": "Dolores Ombrage",
+        "anecdote": "On découvre qu'elle hait les hybrides en méprisant les centaures, le professeur Lupin (loup-garou) et Hagrid qui est mi-géant."
+      },
+      {
+        "id": 14,
+        "question": "Qui est le père de Bill, Charlie, Percy, Fred, George, Ron et Ginny Weasley ?",
+        "propositions": [
+          "Wayne Hopkins",
+          "Arthur Wesley",
+          "Geoffrey Hooper",
+          "Terence Higgs"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "La famille d'Arthur Wesley est liée à d'autres familles de sang pur, notamment à la famille Black par sa mère Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "Avec qui Ron Weasley aura-t-il une relation assez superficielle mais compliquée ?",
+        "propositions": [
+          "Mary McDonald",
+          "Lavande Brown",
+          "Augusta Londubat",
+          "Luna Lovegood"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Après l'empoisonnement de Ron, Lavande viendra souvent le voir à l'infirmerie, Ron faisant toujours semblant de dormir."
+      },
+      {
+        "id": 16,
+        "question": "Quel personnage noir de peau soutient l'équipe de football de West Ham ?",
+        "propositions": [
+          "Apollon Picott",
+          "Antioch Peverell",
+          "Jimmy Peakes",
+          "Dean Thomas"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "Dans « Harry Potter et le Prince de sang-mêlé », il sort avec Ginny Weasley, mais ils se quitteront lorsque Harry boira une potion."
+      },
+      {
+        "id": 17,
+        "question": "Quelle élève de Poufsouffle va se marier avec Neville Londubat ?",
+        "propositions": [
+          "Emmeline Vance",
+          "Miriam Strout",
+          "Alicia Spinnet",
+          "Hannah Abbot"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Élève de Poufsouffle, membre de l'armée de Dumbledore. Hannah Abbot a participé à la bataille de Poudlard."
+      },
+      {
+        "id": 18,
+        "question": "Qui est avec Angelina Johnson et Alicia Spinnet poursuiveuse dans l'équipe de Gryffondor ?",
+        "propositions": [
+          "Minerva McGonagall",
+          "Arabella Figg",
+          "Katie Bell",
+          "Nymphadora Tonks"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell frôla la mort lors de sa dernière année d'étude en touchant un collier ensorcelé que Madame Rosmerta lui a remis."
+      },
+      {
+        "id": 19,
+        "question": "Quel fonctionnaire est directeur du bureau de liaison des gobelins ?",
+        "propositions": [
+          "Elphias Doge",
+          "Dirk Cresswell",
+          "Dedalus Diggle",
+          "Kingsley Shacklebolt"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell fait une très brève apparition aux côtés de Gripsec, de Dean Thomas, de Ted Tonks et de Gornuk."
+      },
+      {
+        "id": 20,
+        "question": "Quel géant est également le demi-frère de Rubeus Hagrid ?",
+        "propositions": [
+          "Jusgon",
+          "Gregorovith",
+          "Graup",
+          "Harper"
+        ],
+        "réponse": "Graup",
+        "anecdote": "Ils sont tous deux nés de la même mère mais de pères différents, le père de Hagrid était un humain, le père de Graup était un géant."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel professeur de botanique à Poudlard s'est marié avec Hannah Abbot ?",
+        "propositions": [
+          "Fenrir Greyback",
+          "Augustus Pye",
+          "Cornelius Aggripa",
+          "Luna Lovegood"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "Avec ses cheveux ondulés d'un blond sale lui arrivant à la taille et des yeux protubérants, elle dégage une aura de folie douce."
+      },
+      {
+        "id": 22,
+        "question": "Quelle élève de Serdaigle, membre de l'armée de Dumbledore, est la soeur de Parvati ?",
+        "propositions": [
+          "Rita Skeeter",
+          "Padma Patil",
+          "Poppy Pomfresh",
+          "Mafalda Hopkrik"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma est devenue préfète de sa maison et a rejoint l'armée de Dumbledore pour apprendre des sortilèges de défense."
+      },
+      {
+        "id": 23,
+        "question": "Quel personnage petit, dodu et blond est né un jour avant Harry Potter ?",
+        "propositions": [
+          "Neville Londubat",
+          "Olive Hornby",
+          "Quentin Jentremble",
+          "Tom Jedusor"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Avant même qu'il soit né, Neville Londubat est, tout comme Harry Potter, lié à Voldemort par une sombre prophétie."
+      },
+      {
+        "id": 24,
+        "question": "Quelle passionnée de divination est la meilleure amie de Parvati Patil ?",
+        "propositions": [
+          "Bertha Jorkins",
+          "Leta Lestrange",
+          "Hestia Jones",
+          "Lavande Brown"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Entrée à Poudlard dans la maison Gryffondor, Lavande Brown est interprétée au cinéma par Jennifer Smith puis par Jessie Cave."
+      },
+      {
+        "id": 25,
+        "question": "Quel irlandais aux cheveux blonds a la plus grande peur du spectre de la mort ?",
+        "propositions": [
+          "Gwenog Jones",
+          "Rabastan Lestrange",
+          "Seamus Finnigan",
+          "Viktor Krum"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "Dans la plupart des adaptations au cinéma, Seamus a la malchance de faire exploser des objets et y perdre ses sourcils."
+      },
+      {
+        "id": 26,
+        "question": "Qui est devenue capitaine de l'équipe de quidditch après le départ d'Olivier Dubois ?",
+        "propositions": [
+          "Stéphanie Picquery",
+          "Angelina Johnson",
+          "Natalie McDonald",
+          "Irma Pince"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "Du même âge que les jumeaux Weasley, Angelina Johnson fête son anniversaire environ une semaine avant Halloween."
+      },
+      {
+        "id": 27,
+        "question": "Qui est le commentateur officiel des matchs de quidditch durant toutes ses études ?",
+        "propositions": [
+          "Gilderoy Lockhart",
+          "Lee Jordan",
+          "Teddy Lupin",
+          "Ernie Macmillan"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Les remarques de Lee Jordan sur la beauté des joueuses féminines lui attirent les foudres régulières du professeur McGonagall."
+      },
+      {
+        "id": 28,
+        "question": "Quelle élève de Poudlard a perdu sa tante Amelia, présidente du Magenmagot ?",
+        "propositions": [
+          "Pansy Parkinson",
+          "Marlene McKinnon",
+          "Dolores Ombrage",
+          "Susan Bones"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "Après l'évasion de dix Mangemorts d'Azkaban, elle devient involontairement célèbre car certains sont coupables des meurtres."
+      },
+      {
+        "id": 29,
+        "question": "Qui est devenu préfet de Poufsouffle en cinquième année avec Hannah Abbot ?",
+        "propositions": [
+          "Olympe Maxime",
+          "Alastor Maugrey",
+          "Ernie Macmillan",
+          "Lucius Malefoy"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "Il est le seul élève de Poufsouffle à avoir obtenu les résultats requis à sa BUSE de potion, poursuivant ainsi son enseignement."
+      },
+      {
+        "id": 30,
+        "question": "Quelle attrapeuse fut profondément chagrinée après la mort de Cedric Diggory ?",
+        "propositions": [
+          "Éloïse Midgen",
+          "Galatea Têtenjoy",
+          "Cho Chang",
+          "Mimi Geignarde"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "Lors d'un match de quidditch opposant Serdaigle à Gryffondor, Harry Potter sera particulièrement frappé par sa beauté."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which Harry Potter godfather is a marauder and a member of the Order of the Phoenix ?",
+        "propositions": [
+          "Sirius Black",
+          "Sturgis Podomore",
+          "Peter Pettigrew",
+          "Alastor Moody"
+        ],
+        "réponse": "Sirius Black",
+        "anecdote": "Sirius Black dies in the fifth book, following a spell cast by his own cousin, Bellatrix Lestrange."
+      },
+      {
+        "id": 2,
+        "question": "Which Head of Hogwarts is the founder of the Order of the Phoenix ?",
+        "propositions": [
+          "Severus Snape",
+          "Draco Malfoy",
+          "Sirius Black",
+          "Albus Dumbledore"
+        ],
+        "réponse": "Albus Dumbledore",
+        "anecdote": "Albus Dumbledore is considered the greatest wizard of his time and the only one Lord Voldemort could fear."
+      },
+      {
+        "id": 3,
+        "question": "Who is Harry Potter's best friend with Ronald Weasley ?",
+        "propositions": [
+          "Hestia Jones",
+          "Nymphadora Tonks",
+          "Dorcas Meadowes",
+          "Hermione Granger"
+        ],
+        "réponse": "Hermione Granger",
+        "anecdote": "Although she was born to Muggle parents, she is gifted with magic and is a great help to her fellow students."
+      },
+      {
+        "id": 4,
+        "question": "Who is Hogwarts Care of Magical Creatures Teacher ?",
+        "propositions": [
+          "Bernie Pillsworth",
+          "Sturgis Podmore",
+          "Benjy Fenwick",
+          "Rubeus Hagrid"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "A member of the Order since his early training, Hagrid is a half-giant, key keeper and gamekeeper at Hogwarts school."
+      },
+      {
+        "id": 5,
+        "question": "Which enemy of Harry Potter has rallied to Voldemort's cause ?",
+        "propositions": [
+          "Draco Malfoy",
+          "Gideon Prewett",
+          "Bertram Aubrey",
+          "Arkie Alderton"
+        ],
+        "réponse": "Draco Malfoy",
+        "anecdote": "Draco Malfoy has set up a system using vanishing cupboards to bring Death Eaters into Hogwarts."
+      },
+      {
+        "id": 6,
+        "question": "Member of the Order of the Phoenix, what is the name of Harry Potter's father ?",
+        "propositions": [
+          "Quirinus",
+          "Bernie",
+          "Stan",
+          "James"
+        ],
+        "réponse": "James",
+        "anecdote": "Born March 27, 1960, James Potter is the descendant of Ignotus Peverell as well as the original owner of the Invisibility Cloak."
+      },
+      {
+        "id": 7,
+        "question": "Which potions teacher was head of the Slytherin house ?",
+        "propositions": [
+          "Garrick Ollivander",
+          "Severus Snape",
+          "Percival Graves",
+          "Tiberius Odgen"
+        ],
+        "réponse": "Severus Snape",
+        "anecdote": "An unfriendly potions teacher, Severus Snape dislikes Harry Potter but is loyal to him and his cause."
+      },
+      {
+        "id": 8,
+        "question": "Which reputedly invincible dark mage is the leader and founder of the Death Eater gang ?",
+        "propositions": [
+          "Craig Montague",
+          "Godric Gryffindor",
+          "Voldemort",
+          "Bob Ogden"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort is a wizard with tremendous powers who seeks to reshape the wizarding world according to his ideals."
+      },
+      {
+        "id": 9,
+        "question": "Which friend of Draco Malfoy can cast the Avada Kedavra killing curse ?",
+        "propositions": [
+          "Caradoc Dearborn",
+          "Vincent Crabbe",
+          "Bill Weasley",
+          "Remus Lupine"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Not knowing how to control his spell, Vincent Crabbe dies after causing a fire in the Room of Requirement."
+      },
+      {
+        "id": 10,
+        "question": "Which Beauxbatons Academy champion is Bill Weasley's wife ?",
+        "propositions": [
+          "Fleur Delacour",
+          "Alice Londubat",
+          "Lily Potter",
+          "Marlene McKinnon"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "In the film adaptations of the novels, the role of Fleur Delacour is played by Clémence Poésy."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which Gryffindor student is Fred and George Weasley's best friend ?",
+        "propositions": [
+          "Fabian Prewett",
+          "Stewart Ackerley",
+          "Frank Londubat",
+          "Lee Jordan"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "In « Harry Potter and the Deathly Hallows », he improvises himself as a journalist for the Potterveille radio station which supports Harry."
+      },
+      {
+        "id": 12,
+        "question": "Which member of the Black family, Death Eater, murdered Sirius Black ?",
+        "propositions": [
+          "Lily Potter",
+          "Astoria Greengrass",
+          "Eileen Prince",
+          "Bellatrix Lestrange"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "She knows very well how to use the Cruciatus spell (torture spell), and kills regularly (in Latin, Bellâtrix means belligerent)."
+      },
+      {
+        "id": 13,
+        "question": "Which official is a Defense Against the Dark Arts professor ?",
+        "propositions": [
+          "Dolores Ombrage",
+          "Demelza Robins",
+          "Helena Ravenclaw",
+          "Aurora Sinistra"
+        ],
+        "réponse": "Dolores Ombrage",
+        "anecdote": "We discover that she hates hybrids while despising the centaurs, Professor Lupine (werewolf) and Hagrid who is half-giant."
+      },
+      {
+        "id": 14,
+        "question": "Who is Bill, Charlie, Percy, Fred, George, Ron and Ginny Weasley's father ?",
+        "propositions": [
+          "Geoffrey Hooper",
+          "Terence Higgs",
+          "Wayne Hopkins",
+          "Arthur Wesley"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "Arthur Wesley's family is linked to other pureblood families, most notably the Black family through his mother Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "With whom will Ron Weasley have a rather superficial but complicated relationship ?",
+        "propositions": [
+          "Augusta Londubat",
+          "Mary McDonald",
+          "Luna Lovegood",
+          "Lavande Brown"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "After Ron's poisoning, Lavender will often come to see him in the infirmary, Ron always pretending to be asleep."
+      },
+      {
+        "id": 16,
+        "question": "Which black-skinned character fervently supports London's West Ham football team ?",
+        "propositions": [
+          "Antioch Peverell",
+          "Apollon Picott",
+          "Dean Thomas",
+          "Jimmy Peakes"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "In « Harry Potter and the Half-Blood Prince », he is dating Ginny Weasley, but they will split up when Harry drinks a potion."
+      },
+      {
+        "id": 17,
+        "question": "Which Hufflepuff student is going to marry Neville Longbottom ?",
+        "propositions": [
+          "Hannah Abbot",
+          "Emmeline Vance",
+          "Alicia Spinnet",
+          "Miriam Strout"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Poufsouffle pupil, a member of the army of Dumbledore. Hannah Abbot participated in the Battle of Hogwarts."
+      },
+      {
+        "id": 18,
+        "question": "Who's with Angelina Johnson and Chaser Alicia Spinnet in the Gryffindor squad ?",
+        "propositions": [
+          "Minerva McGonagall",
+          "Nymphadora Tonks",
+          "Katie Bell",
+          "Arabella Figg"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell was close to death in her final year of study when she touched a bewitched necklace that Madame Rosmerta gave her."
+      },
+      {
+        "id": 19,
+        "question": "Which official is the director of the goblin liaison office ?",
+        "propositions": [
+          "Elphias Doge",
+          "Kingsley Shacklebolt",
+          "Dedalus Diggle",
+          "Dirk Cresswell"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell makes a very brief cameo alongside Gripsec, Dean Thomas, Ted Tonks, and Gornuk."
+      },
+      {
+        "id": 20,
+        "question": "Which giant is also Rubeus Hagrid's half-brother ?",
+        "propositions": [
+          "Graup",
+          "Jusgon",
+          "Harper",
+          "Gregorovith"
+        ],
+        "réponse": "Graup",
+        "anecdote": "They were both born to the same mother but different fathers, Hagrid's father was a human, Graup's father was a giant."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which botany professor at Hogwarts married Hannah Abbot ?",
+        "propositions": [
+          "Cornelius Aggripa",
+          "Augustus Pye",
+          "Fenrir Greyback",
+          "Luna Lovegood"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "With her wavy dirty blonde hair reaching her waist and protruding eyes, she gives off an aura of sweet madness."
+      },
+      {
+        "id": 22,
+        "question": "Which Ravenclaw pupil, member of Dumbledore's army, is Parvati's twin sister ?",
+        "propositions": [
+          "Padma Patil",
+          "Mafalda Hopkrik",
+          "Rita Skeeter",
+          "Poppy Pomfresh"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma became her house prefect and joined Dumbledore's army to learn defense spells."
+      },
+      {
+        "id": 23,
+        "question": "Which short, plump, blond character was born a day before Harry Potter ?",
+        "propositions": [
+          "Olive Hornby",
+          "Neville Londubat",
+          "Quentin Jentremble",
+          "Tom Jedusor"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Even before he was born, Neville Longbottom is, like Harry Potter, linked to Voldemort by a dark prophecy."
+      },
+      {
+        "id": 24,
+        "question": "Which divination enthusiast is Parvati Patil's best friend ?",
+        "propositions": [
+          "Lavande Brown",
+          "Hestia Jones",
+          "Bertha Jorkins",
+          "Leta Lestrange"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Entering Hogwarts in the Gryffindor house, Lavender Brown is played in the cinema by Jennifer Smith then by Jessie Cave."
+      },
+      {
+        "id": 25,
+        "question": "Which blonde-haired Irishman has the greatest fear of the specter of death ?",
+        "propositions": [
+          "Gwenog Jones",
+          "Seamus Finnigan",
+          "Viktor Krum",
+          "Rabastan Lestrange"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "In most movie adaptations, Seamus has the misfortune of detonating objects and losing his eyebrows."
+      },
+      {
+        "id": 26,
+        "question": "Who became captain of the quidditch team after the departure of Olivier Dubois ?",
+        "propositions": [
+          "Natalie McDonald",
+          "Irma Pince",
+          "Angelina Johnson",
+          "Stéphanie Picquery"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "The same age as the Weasley twins, Angelina Johnson celebrates her birthday about a week before Halloween."
+      },
+      {
+        "id": 27,
+        "question": "Who is the official commentator of Quidditch matches during all of his studies ?",
+        "propositions": [
+          "Gilderoy Lockhart",
+          "Teddy Lupin",
+          "Lee Jordan",
+          "Ernie Macmillan"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Lee Jordan's remarks about the beauty of female players draw her regular wrath from Professor McGonagall."
+      },
+      {
+        "id": 28,
+        "question": "Which Hogwarts student lost her Aunt Amelia, president of Wizengamot ?",
+        "propositions": [
+          "Marlene McKinnon",
+          "Dolores Ombrage",
+          "Susan Bones",
+          "Pansy Parkinson"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "After ten Death Eaters escape from Azkaban, she unwittingly becomes famous as some are guilty of the murders."
+      },
+      {
+        "id": 29,
+        "question": "Who became Hufflepuff Prefect in fifth grade with Hannah Abbot ?",
+        "propositions": [
+          "Alastor Maugrey",
+          "Lucius Malefoy",
+          "Ernie Macmillan",
+          "Olympe Maxime"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "He is the only Hufflepuff student to have obtained the required results on his Potion NOZZLE, thus continuing his teaching."
+      },
+      {
+        "id": 30,
+        "question": "Which Seeker was deeply grieved after the death of Cedric Diggory ?",
+        "propositions": [
+          "Éloïse Midgen",
+          "Cho Chang",
+          "Mimi Geignarde",
+          "Galatea Têtenjoy"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "During a Quidditch match between Ravenclaw and Gryffindor, Harry Potter will be particularly struck by his beauty."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Harry Potter Pate ist ein Plünderer und Mitglied des Ordens des Phönix ?",
+        "propositions": [
+          "Alastor Moody",
+          "Sirius Schwarz",
+          "Peter Pettigrew",
+          "Sturgis Podomore"
+        ],
+        "réponse": "Sirius Schwarz",
+        "anecdote": "Sirius Black stirbt im fünften Buch nach einem Zauber seiner Cousine Bellatrix Lestrange."
+      },
+      {
+        "id": 2,
+        "question": "Welches Oberhaupt von Hogwarts ist der Gründer des Ordens des Phönix ?",
+        "propositions": [
+          "Albus Dumbledore",
+          "Draco Malfoy",
+          "Sirius Schwarz",
+          "Severus Snape"
+        ],
+        "réponse": "Albus Dumbledore",
+        "anecdote": "Albus Dumbledore gilt als der größte Zauberer seiner Zeit und der einzige, den Lord Voldemort fürchten konnte."
+      },
+      {
+        "id": 3,
+        "question": "Wer ist Harry Potters bester Freund mit Ronald Weasley ?",
+        "propositions": [
+          "Hermine Granger",
+          "Dorcas Wiesen",
+          "Nymphadora Tonks",
+          "Hestia Jones"
+        ],
+        "réponse": "Hermine Granger",
+        "anecdote": "Obwohl sie von Muggeleltern geboren wurde, ist sie mit Magie begabt und ist eine große Hilfe für ihre Kommilitonen."
+      },
+      {
+        "id": 4,
+        "question": "Wer ist Hogwarts-Lehrer für die Pflege magischer Kreaturen ?",
+        "propositions": [
+          "Rubeus Hagrid",
+          "Benjy Fenwick",
+          "Sturgis Podmore",
+          "Bernie Pillsworth"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "Hagrid ist seit seiner frühen Ausbildung Mitglied des Ordens und ein Halbriese, Schlüsselhüter und Wildhüter an der Hogwarts-Schule."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Feind von Harry Potter hat sich Voldemorts Sache angeschlossen ?",
+        "propositions": [
+          "Bertram Aubrey",
+          "Draco Malfoy",
+          "Gideon Prewett",
+          "Arkie Alderton"
+        ],
+        "réponse": "Draco Malfoy",
+        "anecdote": "Draco Malfoy hat ein System mit verschwindenden Schränken eingerichtet, um Todesser nach Hogwarts zu bringen."
+      },
+      {
+        "id": 6,
+        "question": "Mitglied des Ordens des Phönix, wie heißt Harry Potters Vater ?",
+        "propositions": [
+          "Stan",
+          "Bernie",
+          "James",
+          "Quirinus"
+        ],
+        "réponse": "James",
+        "anecdote": "James Potter, geborener 27. März 1960, ist der Nachkomme von Ignotus Peverell sowie der ursprüngliche Besitzer des Mantels der Unsichtbarkeit."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Zaubertränkelehrer war der Leiter des Slytherin-Hauses ?",
+        "propositions": [
+          "Tiberius Odgen",
+          "Perzival-Gräber",
+          "Severus Snape",
+          "Garrick Ollivander"
+        ],
+        "réponse": "Severus Snape",
+        "anecdote": "Ein unfreundlicher Zaubertränkelehrer, Severus Snape mag Harry Potter nicht, ist ihm und seiner Sache aber treu."
+      },
+      {
+        "id": 8,
+        "question": "Welcher angeblich unbesiegbare Dunkelmagier ist der Anführer und Gründer der Todesser-Gang ?",
+        "propositions": [
+          "Voldemort",
+          "Bob Ogden",
+          "Craig Montague",
+          "Godric Gryffindor"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort ist ein Zauberer mit enormen Kräften, der versucht, die Zaubererwelt nach seinen Idealen umzugestalten."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Freund von Draco Malfoy kann den Todesfluch von Avada Kedavra wirken ?",
+        "propositions": [
+          "Remus Lupine",
+          "Bill Weasley",
+          "Vincent Crabbe",
+          "Caradoc Dearborn"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Vincent Crabbe weiß nicht, wie er seinen Zauber kontrollieren soll, und stirbt, nachdem er im Raum der Wünsche ein Feuer verursacht hat."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Champion der Beauxbatons Academy ist Bill Weasleys Frau ?",
+        "propositions": [
+          "Fleur Delacour",
+          "Marlene McKinnon",
+          "Lily Potter",
+          "Alice Londubat"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "In den Verfilmungen der Romane wird die Rolle der Fleur Delacour von Clémence Poésy gespielt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Gryffindor-Schüler ist der beste Freund von Fred und George Weasley ?",
+        "propositions": [
+          "Fabian Prewett",
+          "Stewart Ackerley",
+          "Frank Londubat",
+          "Lee Jordan"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "In « Harry Potter und die Heiligtümer des Todes » improvisiert er sich selbst als Journalist für den Potterveille-Radiosender, der Harry unterstützt."
+      },
+      {
+        "id": 12,
+        "question": "Welches Mitglied der Black-Familie, Todesser, hat Sirius Black ermordet ?",
+        "propositions": [
+          "Bellatrix Lestrange",
+          "Eileen Prinz",
+          "Astoria Grüngras",
+          "Lily Potter"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "Sie weiß sehr gut, wie man den Cruciatus-Zauber (Folterzauber) verwendet und tötet regelmäßig (auf Latein bedeutet Bellâtrix kriegerisch)."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Beamte ist Professor für Verteidigung gegen die dunklen Künste ?",
+        "propositions": [
+          "Demelza Robins",
+          "Helena Ravenclaw",
+          "Aurora Sinistra",
+          "Dolores Umarmung"
+        ],
+        "réponse": "Dolores Umarmung",
+        "anecdote": "Wir entdecken, dass sie Hybriden hasst, während sie die Zentauren, Professor Lupin (Werwolf) und Hagrid, den Halbriesen, verachtet."
+      },
+      {
+        "id": 14,
+        "question": "Wer ist der Vater von Bill, Charlie, Percy, Fred, George, Ron und Ginny Weasley ?",
+        "propositions": [
+          "Geoffrey Hooper",
+          "Arthur Wesley",
+          "Terence Higgs",
+          "Wayne Hopkins"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "Arthur Wesleys Familie ist mit anderen reinblütigen Familien verbunden, insbesondere der Familie Black durch seine Mutter Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "Mit wem wird Ron Weasley eine eher oberflächliche, aber komplizierte Beziehung haben ?",
+        "propositions": [
+          "Lavande Brown",
+          "Augusta Londubat",
+          "Luna Lovegood",
+          "Mary McDonald"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Nach Rons Vergiftung wird Lavender ihn oft in der Krankenstation besuchen, wobei Ron immer so tut, als würde er schlafen."
+      },
+      {
+        "id": 16,
+        "question": "Welcher schwarzhäutige Charakter unterstützt die Londoner Fußballmannschaft West Ham leidenschaftlich ?",
+        "propositions": [
+          "Jimmy Peakes",
+          "Apollon Picott",
+          "Dean Thomas",
+          "Antioch Peverell"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "In « Harry Potter und der Halbblutprinz » ist er mit Ginny Weasley zusammen, aber sie werden sich trennen, wenn Harry einen Trank trinkt."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Hufflepuff-Student wird Neville Longbottom heiraten ?",
+        "propositions": [
+          "Miriam Strout",
+          "Hannah Abbot",
+          "Alicia Spinnet",
+          "Emmeline Vance"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Puffsouffle-Schüler, ein Mitglied der Armee von Dumbledore. Hannah Abbot nahm an der Schlacht von Hogwarts teil."
+      },
+      {
+        "id": 18,
+        "question": "Wer ist mit Angelina Johnson und Chaser Alicia Spinnet im Gryffindor-Kader ?",
+        "propositions": [
+          "Arabella Figg",
+          "Minerva McGonagall",
+          "Katie Bell",
+          "Nymphadora Tonks"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell war in ihrem letzten Studienjahr dem Tode nahe, als sie eine verzauberte Halskette berührte, die ihr Madame Rosmerta geschenkt hatte."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Beamte ist der Leiter des Kobold-Verbindungsbüros ?",
+        "propositions": [
+          "Dedalus-Diggle",
+          "Elphias Doge",
+          "Kingsley Shacklebolt",
+          "Dirk Cresswell"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell macht neben Gripsec, Dean Thomas, Ted Tonks und Gornuk einen sehr kurzen Cameo-Auftritt."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Riese ist auch der Halbbruder von Rubeus Hagrid ?",
+        "propositions": [
+          "Gregorowith",
+          "Graup",
+          "Jugon",
+          "Harper"
+        ],
+        "réponse": "Graup",
+        "anecdote": "Sie wurden beide von derselben Mutter geboren, aber von verschiedenen Vätern, Hagrids Vater war ein Mensch, Graups Vater war ein Riese."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Botanikprofessor in Hogwarts hat Hannah Abbot geheiratet ?",
+        "propositions": [
+          "Luna Lovegood",
+          "Augustus Pye",
+          "Cornelius Aggripa",
+          "Fenrir Greyback"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "Mit ihrem welligen, schmutzigen blonden Haar, das bis zur Taille reicht, und den hervorstehenden Augen strahlt sie eine Aura süßen Wahnsinns aus."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Ravenclaw-Schüler, Mitglied von Dumbledores Armee, ist Parvatis Zwillingsschwester ?",
+        "propositions": [
+          "Mafalda Hopkrik",
+          "Mohn Pomfresh",
+          "Padma Patil",
+          "Rita Skeeter"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma wurde ihre Hauspräfektin und schloss sich Dumbledores Armee an, um Verteidigungszauber zu lernen."
+      },
+      {
+        "id": 23,
+        "question": "Welcher kleine, mollige, blonde Charakter wurde einen Tag vor Harry Potter geboren ?",
+        "propositions": [
+          "Neville Londubat",
+          "Olive Hornby",
+          "Quentin Jentremble",
+          "Tom Jedusor"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Schon vor seiner Geburt ist Neville Longbottom wie Harry Potter durch eine dunkle Prophezeiung mit Voldemort verbunden."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Wahrsagerei-Enthusiast ist Parvati Patils bester Freund ?",
+        "propositions": [
+          "Lavande Brown",
+          "Leta Lestrange",
+          "Hestia Jones",
+          "Bertha Jorkins"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Beim Betreten von Hogwarts im Gryffindor-Haus wird Lavender Brown im Kino von Jennifer Smith und dann von Jessie Cave gespielt."
+      },
+      {
+        "id": 25,
+        "question": "Welcher blonde Ire hat die größte Angst vor dem Todesgespenst ?",
+        "propositions": [
+          "Seamus Finnigan",
+          "Rabastan Lestrange",
+          "Viktor Krum",
+          "Gwenog Jones"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "In den meisten Filmadaptionen hat Seamus das Pech, Gegenstände zur Detonation zu bringen und seine Augenbrauen zu verlieren."
+      },
+      {
+        "id": 26,
+        "question": "Wer wurde nach dem Abgang von Olivier Dubois Kapitän der Quidditch-Mannschaft ?",
+        "propositions": [
+          "Natalie McDonald",
+          "Irma Pince",
+          "Angelina Johnson",
+          "Stéphanie Picquery"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "Im gleichen Alter wie die Weasley-Zwillinge feiert Angelina Johnson etwa eine Woche vor Halloween ihren Geburtstag."
+      },
+      {
+        "id": 27,
+        "question": "Wer ist der offizielle Kommentator von Quidditch-Spielen während seines ganzen Studiums ?",
+        "propositions": [
+          "Lee Jordan",
+          "Ernie Macmillan",
+          "Teddy Lupin",
+          "Gilderoy Lockhart"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Lee Jordans Bemerkungen über die Schönheit weiblicher Spieler ziehen ihren regelmäßigen Zorn von Professor McGonagall auf sich."
+      },
+      {
+        "id": 28,
+        "question": "Welche Hogwarts-Schülerin hat ihre Tante Amelia, die Präsidentin von Zaubergamot, verloren ?",
+        "propositions": [
+          "Pansy Parkinson",
+          "Dolores Ombrage",
+          "Susan Bones",
+          "Marlene McKinnon"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "Nachdem zehn Todesser aus Askaban entkommen sind, wird sie unwissentlich berühmt, da einige der Morde schuldig sind."
+      },
+      {
+        "id": 29,
+        "question": "Wer wurde Hufflepuff Prefect in der fünften Klasse mit Hannah Abbot ?",
+        "propositions": [
+          "Alastor Maugrey",
+          "Lucius Malefoy",
+          "Ernie Macmillan",
+          "Olympe Maxime"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "Er ist der einzige Hufflepuff-Schüler, der mit seiner Zaubertrankdüse die erforderlichen Ergebnisse erzielt hat, und setzt somit seinen Unterricht fort."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Sucher war nach dem Tod von Cedric Diggory zutiefst betrübt ?",
+        "propositions": [
+          "Galatea Têtenjoy",
+          "Cho Chang",
+          "Éloïse Midgen",
+          "Mimi Geignarde"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "Während eines Quidditch-Spiels zwischen Ravenclaw und Gryffindor wird Harry Potter besonders von seiner Schönheit beeindruckt sein."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué padrino de Harry Potter es un merodeador y miembro de la Orden del Fénix ?",
+        "propositions": [
+          "Peter Pettigrew",
+          "Sturgis Podomore",
+          "Sirius Black",
+          "Alastor Moody"
+        ],
+        "réponse": "Sirius Black",
+        "anecdote": "Sirius Black muere en el quinto libro, luego de un hechizo lanzado por su propia prima, Bellatrix Lestrange."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué líder de Hogwarts es el fundador de la Orden del Fénix ?",
+        "propositions": [
+          "Draco Malfoy",
+          "Severus Snape",
+          "Sirius Black",
+          "Albus Dumbledore"
+        ],
+        "réponse": "Albus Dumbledore",
+        "anecdote": "Albus Dumbledore es considerado el mejor mago de su tiempo y el único al que Lord Voldemort podría temer."
+      },
+      {
+        "id": 3,
+        "question": "¿Quién es el mejor amigo de Harry Potter con Ronald Weasley ?",
+        "propositions": [
+          "Dorcas Meadowes",
+          "Hermione Granger",
+          "Nymphadora Tonks",
+          "Hestia Jones"
+        ],
+        "réponse": "Hermione Granger",
+        "anecdote": "Aunque nació de padres muggles, está dotada de magia y es una gran ayuda para sus compañeros de estudios."
+      },
+      {
+        "id": 4,
+        "question": "¿Quién es el maestro de Hogwarts Care of Magical Creatures ?",
+        "propositions": [
+          "Rubeus Hagrid",
+          "Bernie Pillsworth",
+          "Benjy Fenwick",
+          "Sturgis Podmore"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "Miembro de la Orden desde su primer entrenamiento, Hagrid es medio gigante, guardián de llaves y guardabosques en la escuela de Hogwarts."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué enemigo de Harry Potter se ha unido a la causa de Voldemort ?",
+        "propositions": [
+          "Gideon Prewett",
+          "Draco Malfoy",
+          "Bertram Aubrey",
+          "Arkie Alderton"
+        ],
+        "réponse": "Draco Malfoy",
+        "anecdote": "Draco Malfoy ha creado un sistema que utiliza armarios que desaparecen para llevar a los Mortífagos a Hogwarts."
+      },
+      {
+        "id": 6,
+        "question": "Miembro de la Orden del Fénix, ¿cómo se llama el padre de Harry Potter ?",
+        "propositions": [
+          "Quirinus",
+          "Bernie",
+          "Stan",
+          "James"
+        ],
+        "réponse": "James",
+        "anecdote": "Nacido el 27 de marzo de 1960, James Potter es el descendiente de Ignotus Peverell y el propietario original de la Capa de Invisibilidad."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué profesor de pociones era el jefe de la casa Slytherin ?",
+        "propositions": [
+          "Garrick Ollivander",
+          "Percival Graves",
+          "Severus Snape",
+          "Tiberius Odgen"
+        ],
+        "réponse": "Severus Snape",
+        "anecdote": "Un profesor de pociones hostil, Severus Snape no le gusta Harry Potter pero es leal a él y a su causa."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué mago oscuro supuestamente invencible es el líder y fundador de la pandilla de los Mortífagos ?",
+        "propositions": [
+          "Voldemort",
+          "Godric Gryffindor",
+          "Bob Ogden",
+          "Craig Montague"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort es un mago con poderes tremendos que busca remodelar el mundo mágico de acuerdo con sus ideales."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué amigo de Draco Malfoy puede lanzar la maldición asesina Avada Kedavra ?",
+        "propositions": [
+          "Vincent Crabbe",
+          "Bill Weasley",
+          "Remus Lupin",
+          "Caradoc Dearborn"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Sin saber cómo controlar su hechizo, Vincent Crabbe muere después de provocar un incendio en la Sala de los Menesteres."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué campeona de la Academia Beauxbatons es la esposa de Bill Weasley ?",
+        "propositions": [
+          "Lily Potter",
+          "Fleur Delacour",
+          "Alice Londubat",
+          "Marlene McKinnon"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "En las adaptaciones cinematográficas de las novelas, el papel de Fleur Delacour lo interpreta Clémence Poésy."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué estudiante de Gryffindor es el mejor amigo de Fred y George Weasley ?",
+        "propositions": [
+          "Stewart Ackerley",
+          "Lee Jordan",
+          "Fabian Prewett",
+          "Frank Londubat"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "En « Harry Potter y las Reliquias de la Muerte », improvisa como periodista de la estación de radio Potterveille que apoya a Harry."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué miembro de la familia Black, Mortífago, asesinó a Sirius Black ?",
+        "propositions": [
+          "Bellatrix Lestrange",
+          "Lily Potter",
+          "Astoria Greengrass",
+          "Eileen Prince"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "Sabe muy bien cómo utilizar el hechizo Cruciatus (hechizo de tortura) y mata con regularidad (en latín, Bellâtrix significa beligerante)."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué funcionario es profesor de Defensa Contra las Artes Oscuras ?",
+        "propositions": [
+          "Aurora Sinistra",
+          "Demelza Robins",
+          "Helena Ravenclaw",
+          "Dolores Ombrage"
+        ],
+        "réponse": "Dolores Ombrage",
+        "anecdote": "Descubrimos que odia los híbridos mientras desprecia a los centauros, el profesor Lupin (hombre lobo) y Hagrid, que es medio gigante."
+      },
+      {
+        "id": 14,
+        "question": "¿Quién es el padre de Bill, Charlie, Percy, Fred, George, Ron y Ginny Weasley ?",
+        "propositions": [
+          "Wayne Hopkins",
+          "Terence Higgs",
+          "Geoffrey Hooper",
+          "Arthur Wesley"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "La familia de Arthur Wesley está vinculada a otras familias de sangre pura, sobre todo la familia Black a través de su madre Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "¿Con quién tendrá Ron Weasley una relación bastante superficial pero complicada ?",
+        "propositions": [
+          "Augusta Londubat",
+          "Lavande Brown",
+          "Luna Lovegood",
+          "Mary McDonald"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Después del envenenamiento de Ron, Lavender a menudo viene a verlo a la enfermería, Ron siempre finge estar dormido."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué personaje de piel negra apoya fervientemente al equipo de fútbol West Ham de Londres ?",
+        "propositions": [
+          "Jimmy Peakes",
+          "Antioch Peverell",
+          "Dean Thomas",
+          "Apollon Picott"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "En « Harry Potter y el príncipe mestizo », él está saliendo con Ginny Weasley, pero se separarán cuando Harry beba una poción."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué estudiante de Hufflepuff se va a casar con Neville Longbottom ?",
+        "propositions": [
+          "Alicia Spinnet",
+          "Hannah Abbot",
+          "Emmeline Vance",
+          "Miriam Strout"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Pupilo de Poufsouffle, miembro del ejército de Dumbledore. Hannah Abbot participó en la batalla de Hogwarts."
+      },
+      {
+        "id": 18,
+        "question": "¿Quién está con Angelina Johnson y la cazadora Alicia Spinnet en el equipo de Gryffindor ?",
+        "propositions": [
+          "Arabella Figg",
+          "Minerva McGonagall",
+          "Nymphadora Tonks",
+          "Katie Bell"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell estaba a punto de morir en su último año de estudio cuando tocó un collar embrujado que le regaló Madame Rosmerta."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué funcionario es el director de la oficina de enlace de los goblins ?",
+        "propositions": [
+          "Kingsley Shacklebolt",
+          "Dirk Cresswell",
+          "Elphias Doge",
+          "Dedalus Diggle"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell hace un cameo muy breve junto a Gripsec, Dean Thomas, Ted Tonks y Gornuk."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué gigante es también el medio hermano de Rubeus Hagrid ?",
+        "propositions": [
+          "Gregorovith",
+          "Graup",
+          "Harper",
+          "Jusgon"
+        ],
+        "réponse": "Graup",
+        "anecdote": "Ambos nacieron de la misma madre pero de padres diferentes, el padre de Hagrid era un humano, el padre de Graup era un gigante."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué profesor de botánica en Hogwarts se casó con Hannah Abbot ?",
+        "propositions": [
+          "Fenrir Greyback",
+          "Augustus Pye",
+          "Cornelius Aggripa",
+          "Luna Lovegood"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "Con su ondulado cabello rubio sucio que le llega a la cintura y sus ojos saltones, desprende un aura de dulce locura."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué alumno de Ravenclaw, miembro del ejército de Dumbledore, es la hermana gemela de Parvati ?",
+        "propositions": [
+          "Padma Patil",
+          "Poppy Pomfresh",
+          "Mafalda Hopkrik",
+          "Rita Skeeter"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma se convirtió en la prefecta de su casa y se unió al ejército de Dumbledore para aprender hechizos de defensa."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué personaje rubio, regordete y bajo nació un día antes que Harry Potter ?",
+        "propositions": [
+          "Tom Jedusor",
+          "Neville Londubat",
+          "Quentin Jentremble",
+          "Olive Hornby"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Incluso antes de nacer, Neville Longbottom está, como Harry Potter, vinculado a Voldemort por una oscura profecía."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué entusiasta de la adivinación es el mejor amigo de Parvati Patil ?",
+        "propositions": [
+          "Leta Lestrange",
+          "Bertha Jorkins",
+          "Lavande Brown",
+          "Hestia Jones"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Al ingresar a Hogwarts en la casa de Gryffindor, Lavender Brown es interpretada en el cine por Jennifer Smith y luego por Jessie Cave."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué irlandés de pelo rubio tiene más miedo al espectro de la muerte ?",
+        "propositions": [
+          "Gwenog Jones",
+          "Viktor Krum",
+          "Rabastan Lestrange",
+          "Seamus Finnigan"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "En la mayoría de las adaptaciones cinematográficas, Seamus tiene la desgracia de detonar objetos y perder las cejas."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién se convirtió en capitán del equipo de quidditch tras la marcha de Olivier Dubois ?",
+        "propositions": [
+          "Natalie McDonald",
+          "Angelina Johnson",
+          "Irma Pince",
+          "Stéphanie Picquery"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "De la misma edad que los gemelos Weasley, Angelina Johnson celebra su cumpleaños aproximadamente una semana antes de Halloween."
+      },
+      {
+        "id": 27,
+        "question": "¿Quién es el comentarista oficial de los partidos de Quidditch durante todos sus estudios ?",
+        "propositions": [
+          "Ernie Macmillan",
+          "Lee Jordan",
+          "Gilderoy Lockhart",
+          "Teddy Lupin"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Los comentarios de Lee Jordan sobre la belleza de las jugadoras provocan su ira habitual en la profesora McGonagall."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué estudiante de Hogwarts perdió a su tía Amelia, presidenta de Wizengamot ?",
+        "propositions": [
+          "Dolores Ombrage",
+          "Susan Bones",
+          "Marlene McKinnon",
+          "Pansy Parkinson"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "Después de que diez Mortífagos escapan de Azkaban, ella se vuelve famosa sin saberlo, ya que algunos son culpables de los asesinatos."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién se convirtió en prefecto de Hufflepuff en quinto grado con Hannah Abbot ?",
+        "propositions": [
+          "Olympe Maxime",
+          "Alastor Maugrey",
+          "Ernie Macmillan",
+          "Lucius Malefoy"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "Él es el único estudiante de Hufflepuff que ha obtenido los resultados requeridos en su BOQUILLA de poción, continuando así su enseñanza."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué Buscador se sintió profundamente afligido por la muerte de Cedric Diggory ?",
+        "propositions": [
+          "Galatea Têtenjoy",
+          "Cho Chang",
+          "Mimi Geignarde",
+          "Éloïse Midgen"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "Durante un partido de Quidditch entre Ravenclaw y Gryffindor, Harry Potter quedará particularmente impresionado por su belleza."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale padrino di Harry Potter è un predone e un membro dell'Ordine della Fenice ?",
+        "propositions": [
+          "Sirius Black",
+          "Alastor Moody",
+          "Sturgis Podomore",
+          "Peter Minus"
+        ],
+        "réponse": "Sirius Black",
+        "anecdote": "Sirius Black muore nel quinto libro, a seguito di un incantesimo lanciato da sua cugina, Bellatrix Lestrange."
+      },
+      {
+        "id": 2,
+        "question": "Quale capo di Hogwarts è il fondatore dell'Ordine della Fenice ?",
+        "propositions": [
+          "Albus Silente",
+          "Sirius Black",
+          "Draco Malfoy",
+          "Severus Piton"
+        ],
+        "réponse": "Albus Silente",
+        "anecdote": "Albus Silente è considerato il più grande mago del suo tempo e l'unico che Lord Voldemort potesse temere."
+      },
+      {
+        "id": 3,
+        "question": "Chi è il migliore amico di Harry Potter con Ronald Weasley ?",
+        "propositions": [
+          "Dorcas Meadowes",
+          "Ninfadora Tonks",
+          "Hermione Granger",
+          "Hestia Jones"
+        ],
+        "réponse": "Hermione Granger",
+        "anecdote": "Sebbene sia nata da genitori Babbani, è dotata di magia ed è di grande aiuto per i suoi compagni studenti."
+      },
+      {
+        "id": 4,
+        "question": "Chi è l'insegnante di Hogwarts Care of Magical Creatures ?",
+        "propositions": [
+          "Bernie Pillsworth",
+          "Rubeus Hagrid",
+          "Sturgis Podmore",
+          "Benjy Fenwick"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "Membro dell'Ordine sin dai suoi primi anni di addestramento, Hagrid è un mezzo gigante, custode delle chiavi e guardiacaccia della scuola di Hogwarts."
+      },
+      {
+        "id": 5,
+        "question": "Quale nemico di Harry Potter si è schierato per la causa di Voldemort ?",
+        "propositions": [
+          "Arkie Alderton",
+          "Bertram Aubrey",
+          "Draco Malfoy",
+          "Gideon Prewett"
+        ],
+        "réponse": "Draco Malfoy",
+        "anecdote": "Draco Malfoy ha creato un sistema che utilizza armadi evanescenti per portare i Mangiamorte a Hogwarts."
+      },
+      {
+        "id": 6,
+        "question": "Membro dell'Ordine della Fenice, come si chiama il padre di Harry Potter ?",
+        "propositions": [
+          "Giacomo",
+          "Quirino",
+          "Stan",
+          "Bernie"
+        ],
+        "réponse": "Giacomo",
+        "anecdote": "Nato il 27 marzo 1960, James Potter è il discendente di Ignotus Peverell nonché il proprietario originale del Mantello dell'Invisibilità."
+      },
+      {
+        "id": 7,
+        "question": "Quale insegnante di pozioni era a capo della casa di Serpeverde ?",
+        "propositions": [
+          "Severus Piton",
+          "Garrick Olivander",
+          "Tombe di Percival",
+          "Tiberio Odgen"
+        ],
+        "réponse": "Severus Piton",
+        "anecdote": "Insegnante di pozioni ostile, Severus Snape non ama Harry Potter ma è fedele a lui e alla sua causa."
+      },
+      {
+        "id": 8,
+        "question": "Quale mago oscuro reputato invincibile è il leader e fondatore della banda dei Mangiamorte ?",
+        "propositions": [
+          "Bob Ogden",
+          "Craig Montague",
+          "Godric Grifondoro",
+          "Voldemort"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort è un mago con poteri straordinari che cerca di rimodellare il mondo magico secondo i suoi ideali."
+      },
+      {
+        "id": 9,
+        "question": "Quale amico di Draco Malfoy può lanciare la maledizione che uccide Avada Kedavra ?",
+        "propositions": [
+          "Remus Lupin",
+          "Bill Weasley",
+          "Caradoc Dearborn",
+          "Vincent Crabbe"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Non sapendo come controllare il suo incantesimo, Vincent Crabbe muore dopo aver provocato un incendio nella Stanza delle Necessità."
+      },
+      {
+        "id": 10,
+        "question": "Quale campionessa della Beauxbatons Academy è la moglie di Bill Weasley ?",
+        "propositions": [
+          "Lily Potter",
+          "Fleur Delacour",
+          "Marlene McKinnon",
+          "Alice Londubat"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "Negli adattamenti cinematografici dei romanzi, il ruolo di Fleur Delacour è interpretato da Clémence Poésy."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale studente Grifondoro è il migliore amico di Fred e George Weasley ?",
+        "propositions": [
+          "Fabian Prewett",
+          "Lee Jordan",
+          "Frank Londubat",
+          "Stewart Ackerley"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "In « Harry Potter ei doni della morte », si improvvisa giornalista per la stazione radio Potterveille che supporta Harry."
+      },
+      {
+        "id": 12,
+        "question": "Quale membro della famiglia Black, Mangiamorte, ha ucciso Sirius Black ?",
+        "propositions": [
+          "Lily Potter",
+          "Astoria Greengrass",
+          "Eileen Prince",
+          "Bellatrix Lestrange"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "Sa molto bene come usare l'incantesimo Cruciatus (incantesimo di tortura) e uccide regolarmente (in latino, Bellâtrix significa belligerante)."
+      },
+      {
+        "id": 13,
+        "question": "Quale funzionario è un professore di Difesa contro le Arti Oscure ?",
+        "propositions": [
+          "Demelza Robins",
+          "Helena Corvonero",
+          "Dolores Ombrage",
+          "Aurora Sinistra"
+        ],
+        "réponse": "Dolores Ombrage",
+        "anecdote": "Scopriamo che odia gli ibridi mentre disprezza i centauri, il professor Lupin (licantropo) e Hagrid che è mezzo gigante."
+      },
+      {
+        "id": 14,
+        "question": "Chi è il padre di Bill, Charlie, Percy, Fred, George, Ron e Ginny Weasley ?",
+        "propositions": [
+          "Arthur Wesley",
+          "Geoffrey Hooper",
+          "Wayne Hopkins",
+          "Terence Higgs"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "La famiglia di Arthur Wesley è legata ad altre famiglie purosangue, in particolare la famiglia Black attraverso sua madre Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "Con chi Ron Weasley avrà una relazione piuttosto superficiale ma complicata ?",
+        "propositions": [
+          "Lavande Brown",
+          "Augusta Londubat",
+          "Luna Lovegood",
+          "Mary McDonald"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Dopo l'avvelenamento di Ron, Lavanda viene spesso a trovarlo in infermeria, mentre Ron fa sempre finta di dormire."
+      },
+      {
+        "id": 16,
+        "question": "Quale personaggio dalla pelle nera sostiene con fervore la squadra di calcio del West Ham di Londra ?",
+        "propositions": [
+          "Apollon Picott",
+          "Jimmy Peakes",
+          "Dean Thomas",
+          "Antioch Peverell"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "In « Harry Potter e il Principe Mezzosangue », sta uscendo con Ginny Weasley, ma si lasceranno quando Harry berrà una pozione."
+      },
+      {
+        "id": 17,
+        "question": "Quale studente di Tassorosso sposerà Neville Paciock ?",
+        "propositions": [
+          "Hannah Abbot",
+          "Emmeline Vance",
+          "Miriam Strout",
+          "Alicia Spinnet"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Puufsouffle Puil, un membro dell'esercito di Silente. Hannah Abat ha partecipato alla battaglia di Hogwarts."
+      },
+      {
+        "id": 18,
+        "question": "Chi c'è con Angelina Johnson e Chaser Alicia Spinnet nella squadra di Grifondoro ?",
+        "propositions": [
+          "Minerva McGonagall",
+          "Nymphadora Tonks",
+          "Katie Bell",
+          "Arabella Figg"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell stava per morire nel suo ultimo anno di studio quando ha toccato una collana stregata che le aveva regalato Madame Rosmerta."
+      },
+      {
+        "id": 19,
+        "question": "Quale funzionario è il direttore dell'ufficio di collegamento dei goblin ?",
+        "propositions": [
+          "Dirk Cresswell",
+          "Kingsley Shacklebolt",
+          "Dedalus Diggle",
+          "Elphias Doge"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell fa un breve cameo insieme a Gripsec, Dean Thomas, Ted Tonks e Gornuk."
+      },
+      {
+        "id": 20,
+        "question": "Quale gigante è anche il fratellastro di Rubeus Hagrid ?",
+        "propositions": [
+          "Jusgon",
+          "Graup",
+          "Harper",
+          "Gregorovith"
+        ],
+        "réponse": "Graup",
+        "anecdote": "Erano entrambi nati dalla stessa madre ma da padri diversi, il padre di Hagrid era un umano, il padre di Graup era un gigante."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale professore di botanica a Hogwarts ha sposato Hannah Abbot ?",
+        "propositions": [
+          "Augustus Pye",
+          "Fenrir Greyback",
+          "Luna Lovegood",
+          "Cornelius Aggripa"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "Con i suoi capelli ondulati biondo sporco che le raggiungono la vita e gli occhi sporgenti, emana un'aura di dolce follia."
+      },
+      {
+        "id": 22,
+        "question": "Quale allieva di Corvonero, membro dell'esercito di Silente, è la sorella gemella di Parvati ?",
+        "propositions": [
+          "Poppy Pomfresh",
+          "Rita Skeeter",
+          "Padma Patil",
+          "Mafalda Hopkrik"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma divenne il suo prefetto di casa e si unì all'esercito di Silente per imparare gli incantesimi di difesa."
+      },
+      {
+        "id": 23,
+        "question": "Quale personaggio basso, grassoccio e biondo è nato il giorno prima di Harry Potter ?",
+        "propositions": [
+          "Quentin Jentremble",
+          "Olive Hornby",
+          "Neville Londubat",
+          "Tom Jedusor"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Anche prima di nascere, Neville Paciock è, come Harry Potter, legato a Voldemort da un'oscura profezia."
+      },
+      {
+        "id": 24,
+        "question": "Quale appassionato di divinazione è il migliore amico di Parvati Patil ?",
+        "propositions": [
+          "Hestia Jones",
+          "Bertha Jorkins",
+          "Lavande Brown",
+          "Leta Lestrange"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Entrando a Hogwarts nella casa di Grifondoro, Lavender Brown è interpretata al cinema da Jennifer Smith poi da Jessie Cave."
+      },
+      {
+        "id": 25,
+        "question": "Quale irlandese dai capelli biondi ha più paura dello spettro della morte ?",
+        "propositions": [
+          "Rabastan Lestrange",
+          "Gwenog Jones",
+          "Viktor Krum",
+          "Seamus Finnigan"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "Nella maggior parte degli adattamenti cinematografici, Seamus ha la sfortuna di far esplodere oggetti e perdere le sopracciglia."
+      },
+      {
+        "id": 26,
+        "question": "Chi è diventato il capitano della squadra di quidditch dopo la partenza di Olivier Dubois ?",
+        "propositions": [
+          "Natalie McDonald",
+          "Irma Pince",
+          "Angelina Johnson",
+          "Stéphanie Picquery"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "La stessa età dei gemelli Weasley, Angelina Johnson festeggia il suo compleanno circa una settimana prima di Halloween."
+      },
+      {
+        "id": 27,
+        "question": "Chi è il commentatore ufficiale delle partite di Quidditch durante tutti i suoi studi ?",
+        "propositions": [
+          "Lee Jordan",
+          "Gilderoy Lockhart",
+          "Ernie Macmillan",
+          "Teddy Lupin"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "Le osservazioni di Lee Jordan sulla bellezza delle giocatrici attirano la sua ira regolare dalla professoressa McGranitt."
+      },
+      {
+        "id": 28,
+        "question": "Quale studentessa di Hogwarts ha perso sua zia Amelia, presidente del Wizengamot ?",
+        "propositions": [
+          "Susan Bones",
+          "Marlene McKinnon",
+          "Dolores Ombrage",
+          "Pansy Parkinson"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "Dopo che dieci Mangiamorte fuggono da Azkaban, diventa inconsapevolmente famosa poiché alcuni sono colpevoli degli omicidi."
+      },
+      {
+        "id": 29,
+        "question": "Chi è diventato Prefetto di Tassorosso in quinta elementare con Hannah Abbot ?",
+        "propositions": [
+          "Olympe Maxime",
+          "Ernie Macmillan",
+          "Alastor Maugrey",
+          "Lucius Malefoy"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "È l'unico studente di Tassorosso ad aver ottenuto i risultati richiesti sul suo UGELLO di pozioni, continuando così il suo insegnamento."
+      },
+      {
+        "id": 30,
+        "question": "Quale Cercatore è stato profondamente addolorato dopo la morte di Cedric Diggory ?",
+        "propositions": [
+          "Galatea Têtenjoy",
+          "Éloïse Midgen",
+          "Cho Chang",
+          "Mimi Geignarde"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "Durante una partita di Quidditch tra Corvonero e Grifondoro, Harry Potter sarà particolarmente colpito dalla sua bellezza."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke Harry Potter-peetvader is een plunderaar en lid van de Orde van de Feniks ?",
+        "propositions": [
+          "Sirius Zwart",
+          "Alastor Moody",
+          "Sturgis Podomore",
+          "Peter Pippeling"
+        ],
+        "réponse": "Sirius Zwart",
+        "anecdote": "Sirius Zwarts sterft in het vijfde boek, na een spreuk van zijn eigen neef, Bellatrix van Detta."
+      },
+      {
+        "id": 2,
+        "question": "Welk Hoofd van Zweinstein is de oprichter van de Orde van de Feniks ?",
+        "propositions": [
+          "Draco Malfidus",
+          "Severus Sneep",
+          "Sirius Zwart",
+          "Albus Perkamentus"
+        ],
+        "réponse": "Albus Perkamentus",
+        "anecdote": "Albus Perkamentus wordt beschouwd als de grootste tovenaar van zijn tijd en de enige die Heer Voldemort zou kunnen vrezen."
+      },
+      {
+        "id": 3,
+        "question": "Wie is de beste vriend van Harry Potter met Ronald Wemel ?",
+        "propositions": [
+          "Hestia Jones",
+          "Hermelien Griffel",
+          "Dorcas Weiden",
+          "Nymphadora Tonks"
+        ],
+        "réponse": "Hermelien Griffel",
+        "anecdote": "Hoewel ze werd geboren uit Dreuzelouders, is ze begaafd met magie en is ze een grote hulp voor haar medestudenten."
+      },
+      {
+        "id": 4,
+        "question": "Wie is Hogwarts Care of Magical Creatures Teacher ?",
+        "propositions": [
+          "Bernie Pillsworth",
+          "Benjy Fenwick",
+          "Sturgis Podmeer",
+          "Rubeus Hagrid"
+        ],
+        "réponse": "Rubeus Hagrid",
+        "anecdote": "Hagrid, lid van de Orde sinds zijn vroege opleiding, is een halfreus, sleutelbewaarder en jachtopziener op de school van Zweinstein."
+      },
+      {
+        "id": 5,
+        "question": "Welke vijand van Harry Potter heeft zich aangesloten bij de zaak van Voldemort ?",
+        "propositions": [
+          "Gideon Prewett",
+          "Arkie Alderton",
+          "Draco Malfidus",
+          "Bertram Aubrey"
+        ],
+        "réponse": "Draco Malfidus",
+        "anecdote": "Draco Malfidus heeft een systeem opgezet met behulp van verdwijnkasten om Dooddoeners naar Zweinstein te brengen."
+      },
+      {
+        "id": 6,
+        "question": "Lid van de Orde van de Feniks, hoe heet de vader van Harry Potter ?",
+        "propositions": [
+          "Jacobus",
+          "Stan",
+          "Bernie",
+          "Quirinus"
+        ],
+        "réponse": "Jacobus",
+        "anecdote": "James Potter, geboren op 27 maart 1960, is de afstammeling van Ignotus Peverell en de oorspronkelijke eigenaar van de onzichtbaarheidsmantel."
+      },
+      {
+        "id": 7,
+        "question": "Welke toverdrankleraar was het hoofd van het Zwadderich-huis ?",
+        "propositions": [
+          "Severus Sneep",
+          "Percivale graven",
+          "Tiberius Odgen",
+          "Garrick Olivander"
+        ],
+        "réponse": "Severus Sneep",
+        "anecdote": "Severus Sneep, een onvriendelijke toverdrankleraar, heeft een hekel aan Harry Potter, maar is loyaal aan hem en zijn zaak."
+      },
+      {
+        "id": 8,
+        "question": "Welke naar verluidt onoverwinnelijke donkere magiër is de leider en oprichter van de Death Eater-bende ?",
+        "propositions": [
+          "Voldemort",
+          "Craig Montague",
+          "Goderic Griffoendor",
+          "Bob Ogden"
+        ],
+        "réponse": "Voldemort",
+        "anecdote": "Voldemort is een tovenaar met enorme krachten die de tovenaarswereld wil hervormen volgens zijn idealen."
+      },
+      {
+        "id": 9,
+        "question": "Welke vriend van Draco Malfidus kan de Avada Kedavra-dodende vloek uitspreken ?",
+        "propositions": [
+          "Caradoc Dearborn",
+          "Bill Wemel",
+          "Vincent Crabbe",
+          "Remus Lupos"
+        ],
+        "réponse": "Vincent Crabbe",
+        "anecdote": "Vincent Crabbe weet niet hoe hij zijn betovering moet beheersen en sterft nadat hij een brand heeft veroorzaakt in de Kamer van Hoge Nood."
+      },
+      {
+        "id": 10,
+        "question": "Welke Beauxbatons Academy-kampioen is de vrouw van Bill Wemel ?",
+        "propositions": [
+          "Lily Potter",
+          "Alice Londubat",
+          "Fleur Delacour",
+          "Marlene McKinnon"
+        ],
+        "réponse": "Fleur Delacour",
+        "anecdote": "In de verfilmingen van de romans wordt de rol van Fleur Delacour vertolkt door Clémence Poésy."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Griffoendor-student is de beste vriend van Fred en George Wemel ?",
+        "propositions": [
+          "Fabian Prewett",
+          "Lee Jordan",
+          "Frank Londubat",
+          "Stewart Ackerley"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "In « Harry Potter and the Deathly Hallows » improviseert hij zichzelf als journalist voor het Potterveille-radiostation dat Harry ondersteunt."
+      },
+      {
+        "id": 12,
+        "question": "Welk lid van de zwarte familie, Dooddoener, heeft Sirius Zwarts vermoord ?",
+        "propositions": [
+          "Bellatrix Lestrange",
+          "Lelie Potter",
+          "Eileen Prins",
+          "Astoria Groengras"
+        ],
+        "réponse": "Bellatrix Lestrange",
+        "anecdote": "Ze weet heel goed hoe ze de Cruciatus-spreuk (martelspreuk) moet gebruiken en doodt regelmatig (in het Latijn betekent Bellâtrix strijdlustig)."
+      },
+      {
+        "id": 13,
+        "question": "Welke functionaris is een professor Verweer tegen de Zwarte Kunsten ?",
+        "propositions": [
+          "Demelza Robins",
+          "Dolores Ombrage",
+          "Aurora Sinistra",
+          "Helena Ravenklauw"
+        ],
+        "réponse": "Dolores Ombrage",
+        "anecdote": "We ontdekken dat ze hybriden haat terwijl ze de centauren veracht, professor Lupos (weerwolf) en Hagrid die halfreus is."
+      },
+      {
+        "id": 14,
+        "question": "Wie is de vader van Bill, Charlie, Percy, Fred, George, Ron en Ginny Wemel ?",
+        "propositions": [
+          "Arthur Wesley",
+          "Terence Higgs",
+          "Geoffrey Hooper",
+          "Wayne Hopkins"
+        ],
+        "réponse": "Arthur Wesley",
+        "anecdote": "Arthur Wesley's familie is verbonden met andere volbloed families, met name de Black familie via zijn moeder Cedrella Black."
+      },
+      {
+        "id": 15,
+        "question": "Met wie zal Ron Wemel een nogal oppervlakkige maar gecompliceerde relatie hebben ?",
+        "propositions": [
+          "Augusta Londubat",
+          "Lavande Brown",
+          "Luna Lovegood",
+          "Mary McDonald"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Na Rons vergiftiging zal Lavendel hem vaak komen opzoeken in de ziekenboeg, terwijl Ron altijd doet alsof hij slaapt."
+      },
+      {
+        "id": 16,
+        "question": "Welk personage met een zwarte huid steunt vurig het Londense West Ham-voetbalteam ?",
+        "propositions": [
+          "Jimmy Peakes",
+          "Dean Thomas",
+          "Apollon Picott",
+          "Antioch Peverell"
+        ],
+        "réponse": "Dean Thomas",
+        "anecdote": "In « Harry Potter en de Halfbloed Prins » gaat hij uit met Ginny Wemel, maar ze gaan uit elkaar als Harry een drankje drinkt."
+      },
+      {
+        "id": 17,
+        "question": "Welke Huffelpuf-student gaat met Neville Longbottom trouwen ?",
+        "propositions": [
+          "Emmeline Vance",
+          "Alicia Spinnet",
+          "Hannah Abbot",
+          "Miriam Strout"
+        ],
+        "réponse": "Hannah Abbot",
+        "anecdote": "Poufsouffle-leerling, een lid van het leger van Dumbledore. Hannah Abbot nam deel aan de slag om Hogwarts."
+      },
+      {
+        "id": 18,
+        "question": "Wie zit er bij Angelina Johnson en Chaser Alicia Spinnet in het Griffoendor-team ?",
+        "propositions": [
+          "Katie Bell",
+          "Arabella Figg",
+          "Nymphadora Tonks",
+          "Minerva McGonagall"
+        ],
+        "réponse": "Katie Bell",
+        "anecdote": "Katie Bell was bijna dood in haar laatste studiejaar toen ze een betoverde ketting aanraakte die Madame Rosmerta haar gaf."
+      },
+      {
+        "id": 19,
+        "question": "Welke functionaris is de directeur van het verbindingsbureau van de goblin ?",
+        "propositions": [
+          "Dirk Cresswell",
+          "Kingsley Shacklebolt",
+          "Dedalus Diggle",
+          "Elphias Doge"
+        ],
+        "réponse": "Dirk Cresswell",
+        "anecdote": "Dirk Cresswell maakt een zeer korte cameo naast Gripsec, Dean Thomas, Ted Tonks en Gornuk."
+      },
+      {
+        "id": 20,
+        "question": "Welke reus is ook de halfbroer van Rubeus Hagrid ?",
+        "propositions": [
+          "Groep",
+          "Gregorovith",
+          "Harper",
+          "Jusgon"
+        ],
+        "réponse": "Groep",
+        "anecdote": "Ze werden allebei geboren uit dezelfde moeder maar verschillende vaders, Hagrid's vader was een mens, Graup's vader was een reus."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke botanieprofessor op Zweinstein trouwde met Hannah Abt ?",
+        "propositions": [
+          "Luna Lovegood",
+          "Fenrir Greyback",
+          "Cornelius Aggripa",
+          "Augustus Pye"
+        ],
+        "réponse": "Luna Lovegood",
+        "anecdote": "Met haar golvende vuile blonde haar dat tot haar middel reikt en uitpuilende ogen, straalt ze een aura van zoete waanzin uit."
+      },
+      {
+        "id": 22,
+        "question": "Welke Ravenklauw-leerling, lid van het leger van Perkamentus, is Parvati's tweelingzus ?",
+        "propositions": [
+          "Rita Skeeter",
+          "Padma Patil",
+          "Poppy Pomfresh",
+          "Mafalda Hopkrik"
+        ],
+        "réponse": "Padma Patil",
+        "anecdote": "Padma werd haar huisprefect en sloot zich aan bij het leger van Perkamentus om verdedigingsspreuken te leren."
+      },
+      {
+        "id": 23,
+        "question": "Welk kort, mollig, blond personage werd een dag voor Harry Potter geboren ?",
+        "propositions": [
+          "Quentin Jentremble",
+          "Tom Jedusor",
+          "Olive Hornby",
+          "Neville Londubat"
+        ],
+        "réponse": "Neville Londubat",
+        "anecdote": "Zelfs voordat hij werd geboren, is Marcel Langbottom, net als Harry Potter, verbonden met Voldemort door een duistere profetie."
+      },
+      {
+        "id": 24,
+        "question": "Welke waarzeggerij-liefhebber is de beste vriend van Parvati Patil ?",
+        "propositions": [
+          "Hestia Jones",
+          "Leta Lestrange",
+          "Bertha Jorkins",
+          "Lavande Brown"
+        ],
+        "réponse": "Lavande Brown",
+        "anecdote": "Lavender Brown komt Hogwarts binnen in het huis van Griffoendor en wordt in de bioscoop gespeeld door Jennifer Smith en vervolgens door Jessie Cave."
+      },
+      {
+        "id": 25,
+        "question": "Welke blondharige Ier heeft de grootste angst voor het spook van de dood ?",
+        "propositions": [
+          "Rabastan Lestrange",
+          "Viktor Kruml",
+          "Seamus Finnigan",
+          "Gwenog Jones"
+        ],
+        "réponse": "Seamus Finnigan",
+        "anecdote": "In de meeste filmaanpassingen heeft Seamus de pech objecten te laten ontploffen en zijn wenkbrauwen te verliezen."
+      },
+      {
+        "id": 26,
+        "question": "Wie werd aanvoerder van het Zwerkbalteam na het vertrek van Olivier Dubois ?",
+        "propositions": [
+          "Angelina Johnson",
+          "Natalie McDonald",
+          "Stéphanie Picquery",
+          "Irma Pince"
+        ],
+        "réponse": "Angelina Johnson",
+        "anecdote": "Angelina Johnson, die even oud is als de Weasley-tweeling, viert haar verjaardag ongeveer een week voor Halloween."
+      },
+      {
+        "id": 27,
+        "question": "Wie is de officiële commentator van Zwerkbalwedstrijden tijdens al zijn studies ?",
+        "propositions": [
+          "Ernie Macmillan",
+          "Lee Jordan",
+          "Teddy Lupin",
+          "Gilderoy Lockhart"
+        ],
+        "réponse": "Lee Jordan",
+        "anecdote": "De opmerkingen van Lee Jordan over de schoonheid van vrouwelijke spelers wekken haar regelmatig woede bij professor Anderling."
+      },
+      {
+        "id": 28,
+        "question": "Welke student van Zweinstein verloor haar tante Amelia, presidente van Wizengamot ?",
+        "propositions": [
+          "Pansy Parkinson",
+          "Marlene McKinnon",
+          "Dolores Ombrage",
+          "Susan Bones"
+        ],
+        "réponse": "Susan Bones",
+        "anecdote": "Nadat tien Dooddoeners uit Azkaban zijn ontsnapt, wordt ze onbewust beroemd omdat sommigen zich schuldig maken aan de moorden."
+      },
+      {
+        "id": 29,
+        "question": "Wie werd Huffelpuf-prefect in de vijfde klas met Hannah Abbot ?",
+        "propositions": [
+          "Ernie Macmillan",
+          "Alastor Maugrey",
+          "Olympe Maxime",
+          "Lucius Malefoy"
+        ],
+        "réponse": "Ernie Macmillan",
+        "anecdote": "Hij is de enige Huffelpuf-student die de vereiste resultaten heeft behaald met zijn Potion NOZZLE, waardoor hij zijn lessen voortzet."
+      },
+      {
+        "id": 30,
+        "question": "Welke Seeker was diep bedroefd na de dood van Cedric Diggory ?",
+        "propositions": [
+          "Éloïse Midgen",
+          "Mimi Geignarde",
+          "Cho Chang",
+          "Galatea Têtenjoy"
+        ],
+        "réponse": "Cho Chang",
+        "anecdote": "Tijdens een Zwerkbalwedstrijd tussen Ravenklauw en Griffoendor zal Harry Potter vooral getroffen worden door zijn schoonheid."
+      }
+    ]
+    }
+  }
+}

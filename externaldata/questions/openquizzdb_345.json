@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "5 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-05-18",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Musique",
+      "nom": "Gagnants Eurovision",
+      "slogan": "La Belgique : 12 points"
+    },
+    "en": {
+      "catégorie": "Music",
+      "nom": "Eurovision Winners",
+      "slogan": "Belgium : 12 points"
+    },
+    "es": {
+      "catégorie": "Música",
+      "nom": "Ganadores de Eurovisión",
+      "slogan": "Bélgica : 12 puntos"
+    },
+    "it": {
+      "catégorie": "Musica",
+      "nom": "Vincitori dell'Eurovisione",
+      "slogan": "Belgio : 12 punti"
+    },
+    "de": {
+      "catégorie": "Musik",
+      "nom": "Eurovision-Gewinner",
+      "slogan": "Belgien : 12 Punkte"
+    },
+    "nl": {
+      "catégorie": "Muziek",
+      "nom": "Eurovisiewinnaars",
+      "slogan": "België : 12 punten"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle chanteuse a remporté le Concours en 2018 pour l'Israël ?",
+        "propositions": [
+          "Netta Barzilai",
+          "Carmela Corren",
+          "Tamar Giladi",
+          "Aya Korem"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "L'une des caractéristiques des prestations de Netta est l'utilisation du looper, interdit par les lois de l'Eurovision sur la concurrence."
+      },
+      {
+        "id": 2,
+        "question": "Quel vainqueur du Concours en 2017 a battu un record historique ?",
+        "propositions": [
+          "Carlos Paiao",
+          "Armando Gama",
+          "Salvador Sobral",
+          "Rui Bandeira"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral a ainsi offert au Portugal sa première victoire à l'Eurovision depuis la première participation du pays en 1964."
+      },
+      {
+        "id": 3,
+        "question": "Sous quel nom Susana Jamaladinova est-elle plus connue ?",
+        "propositions": [
+          "Ruslana",
+          "Jamala",
+          "Alyosha",
+          "Gaitana"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "Cette chanteuse ukrainienne a remporté le Concours Eurovision en 2016 avec le titre « 1944 », chanté en anglais et en tatar de Crimée."
+      },
+      {
+        "id": 4,
+        "question": "Quel suédois a remporté avec « Heroes » le Concours en 2015 ?",
+        "propositions": [
+          "Eric Saade",
+          "Mans Zelmerlow",
+          "Benjamin Ingrosso",
+          "John Lundvik"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Né en 1986, Mans Zelmerlow est auteur-compositeur-interprète, chanteur, musicien, acteur, mannequin, danseur et animateur télé."
+      },
+      {
+        "id": 5,
+        "question": "Quel drag queen autrichien a remporté le concours Eurovision en 2014 ?",
+        "propositions": [
+          "Willam Belli",
+          "Bianca Del Rio",
+          "Conchita Wurst",
+          "Lady Bunny"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Par la suite, Conchita sera demandée à travers le monde, lors des Golden Globes, du Life Ball de Vienne ou des Prides d'Amsterdam."
+      },
+      {
+        "id": 6,
+        "question": "Pour quel pays Emmelie de Forest a-t-elle remporté le Concours en 2013 ?",
+        "propositions": [
+          "Suisse",
+          "Suède",
+          "Danemark",
+          "Ukraine"
+        ],
+        "réponse": "Danemark",
+        "anecdote": "Accompagnée de ses choristes et deux membres du groupe Copenhagen Drummers, elle remporte la finale avec 281 points."
+      },
+      {
+        "id": 7,
+        "question": "Quelle maroco-suédoise a pulvérisé les records au Concours de 2012 ?",
+        "propositions": [
+          "Loreen",
+          "Oum",
+          "Aziza",
+          "Wallen"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "Lors de la finale à Bakou, en Azerbaïdjan, Loreen, ultra-favorite du Concours, a obtenu 18 fois le score maximal de 12 points."
+      },
+      {
+        "id": 8,
+        "question": "Combien de chanteurs ont gagné le Concours en 2011 pour l'Azerbaïdjan ?",
+        "propositions": [
+          "Deux",
+          "Cinq",
+          "Trois",
+          "Quatre"
+        ],
+        "réponse": "Deux",
+        "anecdote": "Ell et Nikki est un duo musical formé spécialement pour le Concours, composé d'Eldar Qasimov et de Nigar Camal."
+      },
+      {
+        "id": 9,
+        "question": "Quelle gagnante de l'Eurovision est la est la petite-fille d'un ambassadeur ?",
+        "propositions": [
+          "Safura",
+          "Lena",
+          "Paula",
+          "Manga"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena sera déclarée vainqueur pour l'Allemagne lors du Concours de 2010 qu'elle remporte avec la chanson « Satellite » et 246 points."
+      },
+      {
+        "id": 10,
+        "question": "Qui a représenté la Norvège à l'Eurovision à la fois en 2009 et en 2018 ?",
+        "propositions": [
+          "Carl Espen",
+          "Guri Schanke",
+          "Wig Wam",
+          "Alexander Rybak"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak a remporté le Concours en 2009 pour la Norvège à Moscou avec sa chanson « Fairytale » qui a obtenu 387 points."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qui a chanté pour la Russie auprès d'Evgeni Plushenko et d'Edvin Marton ?",
+        "propositions": [
+          "Polina Gagarina",
+          "Sergueï Lazarev",
+          "Dima Bilan",
+          "Dina Garipova"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "En 2012, Dima Bilan tentera à nouveau sa chance pour représenter la Russie aux côtés de Yulia Volkova, mais sans succès."
+      },
+      {
+        "id": 12,
+        "question": "Quelle serbe a remporté le Concours en 2007 avec une chanson d'amour ?",
+        "propositions": [
+          "Anica Dobra",
+          "Bojana Stamenov",
+          "Lepa Brena",
+          "Marija Serifovic"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Marija, qui n'a jamais caché son homosexualité, est d'ailleurs en tant que lesbienne militante dans un mouvement Gay et Lesbien."
+      },
+      {
+        "id": 13,
+        "question": "Quel groupe de heavy metal finlandais a dynamité le Concours en 2006 ?",
+        "propositions": [
+          "Kilpi",
+          "Lordi",
+          "Tarot",
+          "Hevein"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "Le groupe possède un genre musical propre du fait qu'il développe une esthétique particulière en rapport à la thématique des monstres."
+      },
+      {
+        "id": 14,
+        "question": "Quelle gréco-suédoise a remporté le Concours en 2005 avec « My Number One » ?",
+        "propositions": [
+          "Anna Vissi",
+          "Marianna Zorba",
+          "Sophia Vossou",
+          "Elena Paparizou"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "Son premier groupe nommé Antique participa au Concours en 2001 avec le titre « Die For You », terminant troisième."
+      },
+      {
+        "id": 15,
+        "question": "Quelle femme politique ukrainienne a gagné le Concours en 2004 ?",
+        "propositions": [
+          "Ani Lorak",
+          "Tina Karol",
+          "Ruslana",
+          "Svetlana Lodoba"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana est mariée depuis 1995 avec le producteur Oleksandr Ksenofontov avec qui elle dirige le Studio Luxen depuis 1993."
+      },
+      {
+        "id": 16,
+        "question": "Quelle gagnante du Concours possède un tessiture sur cinq octaves ?",
+        "propositions": [
+          "Sedat Yüce",
+          "Ajda Pekkan",
+          "Semiha Yanki",
+          "Sertab Erener"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "Elle est connue en Europe pour avoir remporté le Concours Eurovision de la chanson 2003 avec la chanson « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "Quelle gagnante a présenté le concours l'année suivante en direct de Riga ?",
+        "propositions": [
+          "Laura Bicane",
+          "Laura Rizzotto",
+          "Kristine Opolais",
+          "Marie N"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Marija Naumova créera la surprise par son jeu de scène où elle débutera en tailleur pantalon blanc et terminera en robe rouge."
+      },
+      {
+        "id": 18,
+        "question": "Quel estonien a remporté le concours en 2001 avec le groupe 2XL ?",
+        "propositions": [
+          "Georg Ots",
+          "Ivo Linna",
+          "Tanel Padar",
+          "Dave Benton"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton a fait carrière dans la musique en Europe, participant à la version allemande de la comédie musicale « City Lights »."
+      },
+      {
+        "id": 19,
+        "question": "Quel duo danois a remporté le Concours Eurovision en 2000 ?",
+        "propositions": [
+          "Olsen Brothers",
+          "Laid Back",
+          "Safri Duo",
+          "Junior Senior"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "En 2005, ils participèrent à nouveau aux présélections danoises mais terminèrent deuxième derrière Jakob Sveistrup."
+      },
+      {
+        "id": 20,
+        "question": "Sous quel nom Charlotte Perrelli a-t-elle remporté le Concours en 1999 ?",
+        "propositions": [
+          "Marie Bergman",
+          "Malena Ernman",
+          "Jill Johnson",
+          "Charlotte Nilsson"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson s'est mariée à Nicola Ingrosso, puis, à la suite d'une querelle familiale, le couple décida d'adopter le nom Perrelli."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle gagnante du Concours a été opérée pour une modification de sexe ?",
+        "propositions": [
+          "Tracey Norman",
+          "Chelsea Manning",
+          "Dana International",
+          "Leslie Feinberg"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "En plus d'un succès personnel, cette victoire est un symbole. Le single sera distribué en Europe où il connaîtra un vif succès."
+      },
+      {
+        "id": 22,
+        "question": "En quelle année le groupe Katrina and the Waves remporta-t-il le Concours ?",
+        "propositions": [
+          "2006",
+          "1997",
+          "2003",
+          "2000"
+        ],
+        "réponse": "1997",
+        "anecdote": "La chanson se classa à la troisième place du hit parade anglais. Malgré ce succès, Katrina Leskanich quittera le groupe en 1999."
+      },
+      {
+        "id": 23,
+        "question": "Quel duo de musique celtique a remporté le Concours en 1995 ?",
+        "propositions": [
+          "Avalanche",
+          "Röyksopp",
+          "Secret Garden",
+          "Solefald"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Lovland est aussi le premier interprète de la chanson « You Raise Me Up », reprise et popularisée ensuite par Josh Groban."
+      },
+      {
+        "id": 24,
+        "question": "Quelle chanteuse irlandaise a représenté deux fois l'Irlande au Concours ?",
+        "propositions": [
+          "Cathy Davey",
+          "Niamh Kavanagh",
+          "Molly Sterling",
+          "Rita Connolly"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh a remporté en 1993 le Concours Eurovision avec « In Your Eyes », titre le plus vendu en Irlande pour cette même année."
+      },
+      {
+        "id": 25,
+        "question": "Quelle artiste s'est le plus souvent présenté aux éliminatoires irlandaises ?",
+        "propositions": [
+          "Janet Devlin",
+          "Nadine Coyle",
+          "Muriel Day",
+          "Linda Martin"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "En 2005, la chanteuse a participé à l'émission Congratulations célébrant les 50 ans de l'Eurovision à Copenhague au Danemark."
+      },
+      {
+        "id": 26,
+        "question": "Qui est arrivée ex-aequo en première place avec la France au Concours 1991 ?",
+        "propositions": [
+          "Victoria",
+          "Pandora",
+          "Carola",
+          "Regina"
+        ],
+        "réponse": "Carola",
+        "anecdote": "Le règlement prévoit dans ce cas que le prix sera attribué au pays ayant obtenu le plus souvent le nombre de points maximum (12)."
+      },
+      {
+        "id": 27,
+        "question": "Qui a remporté l'Eurovision en 1992 avec le titre « Insieme » ?",
+        "propositions": [
+          "Toto Cutugno",
+          "Umberto Tozzi",
+          "Al Bano",
+          "Riccardo Fogli"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno présentera avec Gigliola Cinquetti le Concours l'année suivante qui, en conséquence de cette victoire, eut lieu à Rome."
+      },
+      {
+        "id": 28,
+        "question": "Pour quel pays Céline Dion a-t-elle remporté le Concours en 1988 ?",
+        "propositions": [
+          "Suisse",
+          "Luxembourg",
+          "France",
+          "Canada"
+        ],
+        "réponse": "Suisse",
+        "anecdote": "Céline Dion a acquis sa première renommée internationale en gagnant le Concours Eurovision avec « Ne partez pas sans moi »."
+      },
+      {
+        "id": 29,
+        "question": "Quelle jeune belge a remporté le Concours à seulement 13 ans ?",
+        "propositions": [
+          "Barbara Dex",
+          "Mélanie Cohl",
+          "Sandra Kim",
+          "Emly Starr"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "En 1990, le règlement de l'Eurovision a changé pour imposer un âge minimum de 16 ans. De ce fait, elle restera la plus jeune gagnante."
+      },
+      {
+        "id": 30,
+        "question": "Quelle gagnante allemande a connu une courte carrière francophone ?",
+        "propositions": [
+          "Doro",
+          "Nicole",
+          "Gudrun",
+          "Wanda"
+        ],
+        "réponse": "Nicole",
+        "anecdote": "Nicole Seibert, née Hohloch le 25 octobre 1964 à Sarrebruck, est une chanteuse allemande connue sous le nom de scène de Nicole."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What singer won the competition in 2018 for Israel ?",
+        "propositions": [
+          "Tamar Giladi",
+          "Aya Korem",
+          "Carmela Cornen",
+          "Netta Barzilai"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "One of the characteristics of NetTA services is the use of looper, prohibited by the laws of Eurovision on competition."
+      },
+      {
+        "id": 2,
+        "question": "Which competition winner in 2017 broke a historic record ?",
+        "propositions": [
+          "Rui Bandeira",
+          "Salvador Sobral",
+          "Armando Gama",
+          "Carlos Paiao"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral thus offered his first victory in Eurovision in Portugal since the country's first participation in 1964."
+      },
+      {
+        "id": 3,
+        "question": "Under what name Susana Jamaladinova is better known ?",
+        "propositions": [
+          "Alyosha",
+          "Ruslana",
+          "Gaitana",
+          "Jamala"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "This Ukrainian singer won the Eurovision competition in 2016 with the title « 1944 », sung in English and in Crimea Tatar."
+      },
+      {
+        "id": 4,
+        "question": "Which Swedish won with « Heroes » the competition in 2015 ?",
+        "propositions": [
+          "Benjamin Ingrosso",
+          "John Lundvik",
+          "Mans Zelmerlow",
+          "Eric Saade"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Born in 1986, Mans Zelmerlow is a singer-songwriter, singer, musician, actor, model, dancer and TV host."
+      },
+      {
+        "id": 5,
+        "question": "Which Austrian drag queen won the Eurovision competition in 2014 ?",
+        "propositions": [
+          "Conchita Wurst",
+          "Bianca Del Rio",
+          "Lady Bunny",
+          "Willam Belli"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Subsequently, Conchita will be requested around the world, during the Golden Globes, the Life Ball of Vienna or the Prides of Amsterdam."
+      },
+      {
+        "id": 6,
+        "question": "For which country Emmelie de Forest did she win the competition in 2013 ?",
+        "propositions": [
+          "Sweden",
+          "Ukraine",
+          "Switzerland",
+          "Denmark"
+        ],
+        "réponse": "Denmark",
+        "anecdote": "Accompanied by her choristers and two members of the Copenhagen Drummers group, she won the final with 281 points."
+      },
+      {
+        "id": 7,
+        "question": "What Moroccan-Swedish has swelled records in the 2012 competition ?",
+        "propositions": [
+          "Wallen",
+          "Oum",
+          "Loreen",
+          "Aziza"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "During the final in Baku, Azerbaijan, Loreen, ultra-favorite competition, obtained the maximum score of 12 points 18 times."
+      },
+      {
+        "id": 8,
+        "question": "How many singers won the competition in 2011 for Azerbaijan ?",
+        "propositions": [
+          "Four",
+          "Five",
+          "Two",
+          "Three"
+        ],
+        "réponse": "Two",
+        "anecdote": "Ell and Nikki is a musical duo formed specially for the competition, composed of Eldar Qasimov and Nigar Camal."
+      },
+      {
+        "id": 9,
+        "question": "What winner of Eurovision is the granddaughter of an ambassador ?",
+        "propositions": [
+          "Lena",
+          "Safura",
+          "Paula",
+          "Manga"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena will be declared winner for Germany in the 2010 competition she won with the song « Satellite » and 246 points."
+      },
+      {
+        "id": 10,
+        "question": "Who represented Norway at Eurovision both in 2009 and 2018 ?",
+        "propositions": [
+          "Wig Wam",
+          "Guri Schanke",
+          "Alexander Rybak",
+          "Carl Espen"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak won the competition in 2009 for Norway in Moscow with his song « Fairytale » which obtained 387 points."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Who sang for Russia with Evgeni Plushenko and Edvin Marton ?",
+        "propositions": [
+          "Polina Gagarina",
+          "Dina Garipova",
+          "Sergueï Lazarev",
+          "Dima Bilan"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "In 2012, Dima Bilan will once again try its luck to represent Russia alongside Yulia Volkova, but without success."
+      },
+      {
+        "id": 12,
+        "question": "What Serbian won the competition in 2007 with a love song ?",
+        "propositions": [
+          "Lepa Brena",
+          "Marija Serifovic",
+          "Bojana Stamenov",
+          "Anica Dobra"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Marija, who has never hidden her homosexuality, is also as a militant lesbian in a gay and lesbian movement."
+      },
+      {
+        "id": 13,
+        "question": "What group of Finnish Heavy Metal energized the competition in 2006 ?",
+        "propositions": [
+          "Lordi",
+          "Kilpi",
+          "Hevein",
+          "Tarot"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "The group has its own musical genre because it develops a particular aesthetic in relation to the theme of monsters."
+      },
+      {
+        "id": 14,
+        "question": "What Gréco-Suédoise won the competition in 2005 with « My Number One » ?",
+        "propositions": [
+          "Sophia Vossou",
+          "Elena Paparizou",
+          "Marianna Zorba",
+          "Anna Vissi"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "His first group named ancient participated in the competition in 2001 with the title « Die For You », finishing third."
+      },
+      {
+        "id": 15,
+        "question": "Which Ukrainian politician won the competition in 2004 ?",
+        "propositions": [
+          "Ani Lorak",
+          "Svetlana Lodoba",
+          "Tina Karol",
+          "Ruslana"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana has been married since 1995 to producer Oleksandr Ksenofontov with whom she has run the Luxen studio since 1993."
+      },
+      {
+        "id": 16,
+        "question": "Which competition winner has a range on five octaves ?",
+        "propositions": [
+          "Ajda Pekkan",
+          "Sedat Yüce",
+          "Sertab Erener",
+          "Semiha Yanki"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "She is known in Europe for winning the 2003 Eurovision song competition with the song « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "What winner presented the competition the following year live from Riga ?",
+        "propositions": [
+          "Laura Bicane",
+          "Kristine Opolais",
+          "Laura Rizzotto",
+          "Marie N"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Marija Naumoa will create the surprise with her stage game where she will start in white pants suit and finish in a red dress."
+      },
+      {
+        "id": 18,
+        "question": "What Estonian won the competition in 2001 with the 2xL group ?",
+        "propositions": [
+          "Ivo Linna",
+          "Tanel Padar",
+          "Georg Ots",
+          "Dave Benton"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton had a career in music in Europe, participating in the German version of the musical « City Lights »."
+      },
+      {
+        "id": 19,
+        "question": "What Danish duo won the Eurovision competition in 2000 ?",
+        "propositions": [
+          "Junior Senior",
+          "Laid Back",
+          "Safri Duo",
+          "Olsen Brothers"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "In 2005, they again participated in the Danish presets but finished second behind Jakob Sveistrup."
+      },
+      {
+        "id": 20,
+        "question": "Under what name did Charlotte Perrelli win the competition in 1999 ?",
+        "propositions": [
+          "Jill Johnson",
+          "Marie Bergman",
+          "Malena Ernman",
+          "Charlotte Nilsson"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson married Nicola Ingrosso, then, following a family quarrel, the couple decided to adopt the name Perrelli."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What winner of the competition was made for a sex modification ?",
+        "propositions": [
+          "Dana International",
+          "Chelsea Manning",
+          "Leslie Feinberg",
+          "Tracey Norman"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "In addition to being a personal success, this victory is a symbol. The single will be distributed across Europe, where it will achieve great success."
+      },
+      {
+        "id": 22,
+        "question": "In what year does the Katrina and the Waves group win the competition ?",
+        "propositions": [
+          "2003",
+          "2000",
+          "2006",
+          "1997"
+        ],
+        "réponse": "1997",
+        "anecdote": "The song reached third place on the UK charts. Despite this success, Katrina Leskanich left the band in 1999."
+      },
+      {
+        "id": 23,
+        "question": "Which Celtic music duo won the competition in 1995 ?",
+        "propositions": [
+          "Secret Garden",
+          "Solefald",
+          "Röyksopp",
+          "Avalanche"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Løvland is also the original performer of the song « You Raise Me Up », later covered and popularized by Josh Groban."
+      },
+      {
+        "id": 24,
+        "question": "What Irish singer represented Ireland twice in the competition ?",
+        "propositions": [
+          "Cathy Davey",
+          "Rita Connolly",
+          "Molly Sterling",
+          "Niamh Kavanagh"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh won the Eurovision Song Contest in 1993 with « In Your Eyes », the best-selling single in Ireland that year."
+      },
+      {
+        "id": 25,
+        "question": "What artist was most often introduced to the Irish qualifiers ?",
+        "propositions": [
+          "Muriel Day",
+          "Nadine Coyle",
+          "Linda Martin",
+          "Janet Devlin"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "In 2005, the singer took part in the Congratulations show celebrating 50 years of Eurovision in Copenhagen, Denmark."
+      },
+      {
+        "id": 26,
+        "question": "Who arrived ex-aequo in first place with France in the 1991 competition ?",
+        "propositions": [
+          "Carola",
+          "Regina",
+          "Victoria",
+          "Pandora"
+        ],
+        "réponse": "Carola",
+        "anecdote": "The rules state that in such a case, the prize will be awarded to the country that received the maximum score of 12 points the most times."
+      },
+      {
+        "id": 27,
+        "question": "Who won Eurovision in 1992 with the title « Insieme » ?",
+        "propositions": [
+          "Toto Cutugno",
+          "Al Bano",
+          "Riccardo Fogli",
+          "Umberto Tozzi"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno co-hosted the Contest the following year with Gigliola Cinquetti, which, as a result of this victory, was held in Rome."
+      },
+      {
+        "id": 28,
+        "question": "For which country did Céline Dion win the competition in 1988 ?",
+        "propositions": [
+          "Luxembourg",
+          "France",
+          "Switzerland",
+          "Canada"
+        ],
+        "réponse": "Switzerland",
+        "anecdote": "Céline Dion gained her first international fame by winning the Eurovision Song Contest with « Ne partez pas sans moi »."
+      },
+      {
+        "id": 29,
+        "question": "What young Belgian won the competition at only 13 years old ?",
+        "propositions": [
+          "Emly Starr",
+          "Sandra Kim",
+          "Mélanie Cohl",
+          "Barbara Dex"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "In 1990, the Eurovision rules changed to impose a minimum age of 16. As a result, she will remain the youngest winner."
+      },
+      {
+        "id": 30,
+        "question": "What German winner has had a short French -speaking career ?",
+        "propositions": [
+          "Nicole",
+          "Wanda",
+          "Doro",
+          "Gudrun"
+        ],
+        "réponse": "Nicole",
+        "anecdote": "Nicole Seibert, born Hohloch on October 25, 1964 in Saarbrücken, is a German singer known by the stage name Nicole."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welchen Sänger hat 2018 den Wettbewerb für Israel gewonnen ?",
+        "propositions": [
+          "Aya Korem",
+          "Tamar Giladi",
+          "Netta Barzilai",
+          "Carmela Cornen"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "Eines der Merkmale von Netta -Diensten ist die Verwendung von Looper, die durch die Gesetze der Eurovision zum Wettbewerb verboten ist."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Wettbewerbsieger im Jahr 2017 hat einen historischen Rekord gebrochen ?",
+        "propositions": [
+          "Salvador Sobral",
+          "Carlos Paiao",
+          "Rui Bandeira",
+          "Armando Gama"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral bot somit seinen ersten Sieg in Eurovision in Portugal seit der ersten Teilnahme des Landes im Jahr 1964 an."
+      },
+      {
+        "id": 3,
+        "question": "Unter welchen Namen ist Susana Jamaladinova besser bekannt ?",
+        "propositions": [
+          "Ruslana",
+          "Jamala",
+          "Alyosha",
+          "Gaitana"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "Dieser ukrainische Sänger gewann 2016 den Eurovision -Wettbewerb mit dem Titel « 1944 », gesungen in englischer Sprache und auf der Krimtatar."
+      },
+      {
+        "id": 4,
+        "question": "Welchen Schwedisch gewann mit « Heroes » den Wettbewerb im Jahr 2015 ?",
+        "propositions": [
+          "Benjamin Ingrosso",
+          "John Lundvik",
+          "Mans Zelmerlow",
+          "Eric Saade"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Mans Zelmerlow wurde 1986 geboren und ist Singer-Songwriter, Sänger, Musiker, Schauspieler, Model, Tänzer und Fernsehgereiter."
+      },
+      {
+        "id": 5,
+        "question": "Welche österreichische Drag Queen gewann 2014 den Eurovision -Wettbewerb ?",
+        "propositions": [
+          "Bianca Del Rio",
+          "Conchita Wurst",
+          "Willam Belli",
+          "Lady Bunny"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Anschließend wird Conchita weltweit, während der Golden Globes, dem Lebensball von Wien oder den Stolz von Amsterdam angefordert."
+      },
+      {
+        "id": 6,
+        "question": "Für welches Land hat sie Emmelie de Forest 2013 den Wettbewerb gewonnen ?",
+        "propositions": [
+          "",
+          "Wildleder",
+          "Ukraine",
+          "Denmark"
+        ],
+        "réponse": "Denmark",
+        "anecdote": "Sie wurde von ihren Choristern und zwei Mitgliedern der Kopenhagen -Schlagzeugergruppe begleitet und gewann das Finale mit 281 Punkten."
+      },
+      {
+        "id": 7,
+        "question": "Welcher marokkanisch-wedisch hat im Wettbewerb 2012 Rekorde anschwollen ?",
+        "propositions": [
+          "Loreen",
+          "Oum",
+          "Wallen",
+          "Aziza"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "Während des Finales in Baku erhielt Aserbaidschan, Loreen, der ultra-bevorzugte Wettbewerb 18 Mal die maximale Punktzahl von 12 Punkten."
+      },
+      {
+        "id": 8,
+        "question": "Wie viele Sänger haben den Wettbewerb 2011 für Aserbaidschan gewonnen ?",
+        "propositions": [
+          "Zwei",
+          "Drei",
+          "Fünf",
+          "Vier"
+        ],
+        "réponse": "Zwei",
+        "anecdote": "Ell und Nikki sind ein musikalisches Duo, das speziell für den Wettbewerb gegründet wurde und aus Eldar Qasimov und Nigar Camal besteht."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Gewinner von Eurovision ist die Enkelin eines Botschafters ?",
+        "propositions": [
+          "Safura",
+          "Lena",
+          "Paula",
+          "Manga"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena wird bei dem Wettbewerb 2010 mit dem Song « Satellite » und 246 Punkten zum Sieger für Deutschland erklärt."
+      },
+      {
+        "id": 10,
+        "question": "Wer hat Norwegen bei Eurovision sowohl 2009 als auch 2018 vertreten ?",
+        "propositions": [
+          "Carl Espen",
+          "Wig Wam",
+          "Alexander Rybak",
+          "Guri Schanke"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak gewann den Wettbewerb 2009 mit seinem Song « Fairytale », der 387 Punkte erzielte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wer hat mit Evgeni Plushenko und Edvin Marton nach Russland gesungen ?",
+        "propositions": [
+          "Sergueï Lazarev",
+          "Polina Gagarina",
+          "Dina Garipova",
+          "Dima Bilan"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "Im Jahr 2012 wird Dima Bilan erneut sein Glück versuchen, Russland neben Yulia Volkova zu vertreten, jedoch ohne Erfolg."
+      },
+      {
+        "id": 12,
+        "question": "Welchen Serbianer gewann den Wettbewerb 2007 mit einem Liebeslied ?",
+        "propositions": [
+          "Bojana Stamenov",
+          "Marija Serifovic",
+          "Lepa Brena",
+          "Anica Dobra"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Marija, die ihre Homosexualität noch nie versteckt hat, ist auch eine militante Lesbe in einer schwulen und lesbischen Bewegung."
+      },
+      {
+        "id": 13,
+        "question": "Welche Gruppe von finnischem Schwermetall hat den Wettbewerb 2006 mit Energie versorgt ?",
+        "propositions": [
+          "Kilpi",
+          "Lordi",
+          "Tarot",
+          "Hevein"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "Die Gruppe hat ein eigenes musikalisches Genre, weil sie eine bestimmte Ästhetik in Bezug auf das Thema von Monstern entwickelt."
+      },
+      {
+        "id": 14,
+        "question": "Welches Gréco-Suédoise hat den Wettbewerb 2005 mit « My Nummer eins » gewonnen ?",
+        "propositions": [
+          "Sophia Vossou",
+          "Anna Vissi",
+          "Elena Paparizou",
+          "Marianna Zorba"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "Seine erste Gruppe namens Ancient nahm 2001 am Wettbewerb mit dem Titel « für You » teil, der den dritten Platz wurde."
+      },
+      {
+        "id": 15,
+        "question": "Welcher ukrainische Politiker gewann den Wettbewerb 2004 ?",
+        "propositions": [
+          "Svetlana Lodoba",
+          "Ruslana",
+          "Tina Karol",
+          "Ani Lorak"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana ist seit 1995 mit dem Produzenten Oleksandr Ksenofontov verheiratet, mit dem sie das Luxen -Studio seit 1993 betreibt."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Wettbewerbssieger hat eine Reichweite für fünf Oktaven ?",
+        "propositions": [
+          "Semiha Yanki",
+          "Sedat Yüce",
+          "Sertab Erener",
+          "Ajda Pekkan"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "Sie ist in Europa dafür bekannt, dass sie den Eurovision -Song -Wettbewerb 2003 mit dem Song « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Gewinner präsentierte den Wettbewerb im folgenden Jahr live von Riga ?",
+        "propositions": [
+          "Laura Rizzotto",
+          "Laura Bicane",
+          "Kristine Opolais",
+          "Marie N"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Marija Naumoa wird die Überraschung mit ihrem Bühnenspiel schaffen, in dem sie in White Hosenanzug anfängt und in einem roten Kleid endet."
+      },
+      {
+        "id": 18,
+        "question": "Welchen Estnian gewann den Wettbewerb 2001 mit der 2XL -Gruppe ?",
+        "propositions": [
+          "Tanel Padar",
+          "Dave Benton",
+          "Ivo Linna",
+          "Georg Ots"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton hatte eine Karriere in der Musik in Europa und nahm an der deutschen Version der Musical « City Lights » teil."
+      },
+      {
+        "id": 19,
+        "question": "Welches dänische Duo hat den Eurovision -Wettbewerb im Jahr 2000 gewonnen ?",
+        "propositions": [
+          "Olsen Brothers",
+          "Safri Duo",
+          "Laid Back",
+          "Junior Senior"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "Im Jahr 2005 nahmen sie erneut an den dänischen Presets teil, belegten jedoch den zweiten Platz hinter Jakob Sveirup."
+      },
+      {
+        "id": 20,
+        "question": "Unter welchem Namen hat Charlotte Perrelli 1999 den Wettbewerb gewonnen ?",
+        "propositions": [
+          "Marie Bergman",
+          "Malena Ernman",
+          "Jill Johnson",
+          "Charlotte Nilsson"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson heiratete Nicola Ingrosso. Nach einem Streit nach der Familie beschloss das Paar, den Namen Perrelli zu adoptieren."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Gewinner des Wettbewerbs wurde für eine Sexualänderung gemacht ?",
+        "propositions": [
+          "Leslie Feinberg",
+          "Chelsea Manning",
+          "Dana International",
+          "Tracey Norman"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "Neben einem persönlichen Erfolg ist dieser Sieg auch ein Symbol. Die Single wird in ganz Europa veröffentlicht und großen Erfolg haben."
+      },
+      {
+        "id": 22,
+        "question": "In welchem Jahr gewinnt die Katrina und die Waves Group den Wettbewerb ?",
+        "propositions": [
+          "1997",
+          "2003",
+          "2000",
+          "2006"
+        ],
+        "réponse": "1997",
+        "anecdote": "Das Lied erreichte den dritten Platz in den britischen Charts. Trotz dieses Erfolgs verließ Katrina Leskanich die Band im Jahr 1999."
+      },
+      {
+        "id": 23,
+        "question": "Welches keltische Musik -Duo gewann den Wettbewerb 1995 ?",
+        "propositions": [
+          "Röyksopp",
+          "Secret Garden",
+          "Avalanche",
+          "Solefald"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Løvland ist auch der erste Interpret des Liedes « You Raise Me Up », das später von Josh Groban gecovert und bekannt gemacht wurde."
+      },
+      {
+        "id": 24,
+        "question": "Welcher irische Sänger vertrat Irland zweimal im Wettbewerb ?",
+        "propositions": [
+          "Rita Connolly",
+          "Molly Sterling",
+          "Niamh Kavanagh",
+          "Cathy Davey"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh gewann 1993 den Eurovision Song Contest mit « In Your Eyes », dem meistverkauften Titel in Irland in diesem Jahr."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Künstler wurde am häufigsten den irischen Qualifikationsgebern vorgestellt ?",
+        "propositions": [
+          "Janet Devlin",
+          "Nadine Coyle",
+          "Muriel Day",
+          "Linda Martin"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "Im Jahr 2005 nahm die Sängerin an der Sendung Congratulations teil, die das 50-jährige Jubiläum des Eurovision Song Contest in Kopenhagen, Dänemark, feierte."
+      },
+      {
+        "id": 26,
+        "question": "Wer ist beim Wettbewerb von 1991 an erster Stelle mit Frankreich angekommen ?",
+        "propositions": [
+          "Regina",
+          "Pandora",
+          "Victoria",
+          "Carola"
+        ],
+        "réponse": "Carola",
+        "anecdote": "Die Regeln sehen in diesem Fall vor, dass der Preis an das Land vergeben wird, das am häufigsten die Höchstpunktzahl von 12 Punkten erhalten hat."
+      },
+      {
+        "id": 27,
+        "question": "Wer hat Eurovision 1992 mit dem Titel « Insieme » gewonnen ?",
+        "propositions": [
+          "Toto Cutugno",
+          "Al Bano",
+          "Umberto Tozzi",
+          "Riccardo Fogli"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno moderierte den Wettbewerb im folgenden Jahr zusammen mit Gigliola Cinquetti, der infolge dieses Sieges in Rom stattfand."
+      },
+      {
+        "id": 28,
+        "question": "Für welches Land hat Céline Dion 1988 den Wettbewerb gewonnen ?",
+        "propositions": [
+          "Frankreich",
+          "Kanada",
+          "Luxemburg",
+          "Schweiz"
+        ],
+        "réponse": "Schweiz",
+        "anecdote": "Céline Dion erlangte ihren ersten internationalen Ruhm, als sie den Eurovision Song Contest mit « Ne partez pas sans moi » gewann."
+      },
+      {
+        "id": 29,
+        "question": "Welcher junge Belgier gewann den Wettbewerb mit nur 13 Jahren ?",
+        "propositions": [
+          "Barbara Dex",
+          "Emly Starr",
+          "Mélanie Cohl",
+          "Sandra Kim"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "1990 wurden die Regeln des Eurovision Song Contest geändert, um ein Mindestalter von 16 Jahren festzulegen. Daher bleibt sie die jüngste Gewinnerin."
+      },
+      {
+        "id": 30,
+        "question": "Welcher deutsche Gewinner hatte eine kurze französischsprachige Karriere ?",
+        "propositions": [
+          "Gudrun",
+          "Doro",
+          "Wanda",
+          "Nicole"
+        ],
+        "réponse": "Nicole",
+        "anecdote": "Nicole Seibert, geborene Hohloch, wurde am 25. Oktober 1964 in Saarbrücken geboren und ist eine deutsche Sängerin, bekannt unter dem Künstlernamen Nicole."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué cantante ganó la competencia en 2018 para Israel ?",
+        "propositions": [
+          "Netta Barzilai",
+          "Carmela Cornen",
+          "Tamar Giladi",
+          "Aya Korem"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "Una de las características de los servicios de Netta es el uso de Looper, prohibido por las leyes de Eurovisión sobre la competencia."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué ganador de la competencia en 2017 rompió un récord histórico ?",
+        "propositions": [
+          "Salvador Sobral",
+          "Rui Bandeira",
+          "Carlos Paiao",
+          "Armando Gama"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral ofreció así su primera victoria en Eurovisión en Portugal desde la primera participación del país en 1964."
+      },
+      {
+        "id": 3,
+        "question": "¿Con qué nombre Susana Jamaladinova es mejor conocido ?",
+        "propositions": [
+          "Gaitana",
+          "Ruslana",
+          "Alyosha",
+          "Jamala"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "Este cantante ucraniano ganó la competencia de Eurovisión en 2016 con el título « 1944 », cantado en inglés y en Crimea Tatar."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué sueco ganó con « Heroes » la competencia en 2015 ?",
+        "propositions": [
+          "John Lundvik",
+          "Benjamin Ingrosso",
+          "Eric Saade",
+          "Mans Zelmerlow"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Nacido en 1986, Mans Zelmerlow es un cantante y compositor, cantante, músico, actor, modelo, bailarín y presentador de televisión."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué drag queen austria ganó la competencia de Eurovisión en 2014 ?",
+        "propositions": [
+          "Lady Bunny",
+          "Bianca Del Rio",
+          "Conchita Wurst",
+          "Willam Belli"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Posteriormente, Conchita se solicitará en todo el mundo, durante los Globos de Oro, la Bola Life de Viena o los Prididos de Amsterdam."
+      },
+      {
+        "id": 6,
+        "question": "¿Para qué país Emmelie de Forest ganó la competencia en 2013 ?",
+        "propositions": [
+          "Ante",
+          "Suizo",
+          "Ukraine",
+          "Denmark"
+        ],
+        "réponse": "Denmark",
+        "anecdote": "Acompañada por sus coristas y dos miembros del grupo de bateristas de Copenhague, ganó la final con 281 puntos."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué marroquí-sueco ha aumentado los récords en la competencia de 2012 ?",
+        "propositions": [
+          "Oum",
+          "Aziza",
+          "Loreen",
+          "Wallen"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "Durante la final en Bakú, Azerbaiyán, Loreen, competencia ultra favorita, obtuvo el puntaje máximo de 12 puntos 18 veces."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuántos cantantes ganaron la competencia en 2011 por Azerbaiyán ?",
+        "propositions": [
+          "Dos",
+          "Cuatro",
+          "Cinco",
+          "Tres"
+        ],
+        "réponse": "Dos",
+        "anecdote": "Ell y Nikki es un dúo musical formado especialmente para la competencia, compuesto por Eldar Qasimov y Nigar Camal."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué ganador de Eurovisión es la nieta de un embajador ?",
+        "propositions": [
+          "Manga",
+          "Paula",
+          "Safura",
+          "Lena"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena será declarada ganadora de Alemania en la competencia de 2010 que ganó con la canción « Satélite » y 246 puntos."
+      },
+      {
+        "id": 10,
+        "question": "¿Quién representó a Noruega en Eurovisión tanto en 2009 como en 2018 ?",
+        "propositions": [
+          "Carl Espen",
+          "Alexander Rybak",
+          "Guri Schanke",
+          "Wig Wam"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak ganó la competencia en 2009 por Noruega en Moscú con su canción « Fairytale » que obtuvo 387 puntos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Quién cantó para Rusia con Evgeni Plushenko y Edvin Marton ?",
+        "propositions": [
+          "Dima Bilan",
+          "Dina Garipova",
+          "Sergueï Lazarev",
+          "Polina Gagarina"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "En 2012, Dima Bilan intentará una vez más su suerte de representar a Rusia junto a Yulia Volkova, pero sin éxito."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué serbio ganó la competencia en 2007 con una canción de amor ?",
+        "propositions": [
+          "Bojana Stamenov",
+          "Lepa Brena",
+          "Anica Dobra",
+          "Marija Serifovic"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Marija, que nunca ha escondido su homosexualidad, también es una lesbiana militante en un movimiento gay y lesbiana."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué grupo de heavy metal finlandés energizó la competencia en 2006 ?",
+        "propositions": [
+          "Hevein",
+          "Lordi",
+          "Tarot",
+          "Kilpi"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "El grupo tiene su propio género musical porque desarrolla una estética particular en relación con el tema de los monstruos."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué Gréco-Suédoise ganó la competencia en 2005 con « Mi número uno » ?",
+        "propositions": [
+          "Marianna Zorba",
+          "Anna Vissi",
+          "Sophia Vossou",
+          "Elena Paparizou"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "Su primer grupo llamado Ancient participó en la competencia en 2001 con el título « Die For You », terminando tercero."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué político ucraniano ganó la competencia en 2004 ?",
+        "propositions": [
+          "Tina Karol",
+          "Ruslana",
+          "Svetlana Lodoba",
+          "Ani Lorak"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana ha estado casada desde 1995 con el productor Oleksandr Ksenofontov con quien ha dirigido el Luxen Studio desde 1993."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué ganador de la competencia tiene un rango en cinco octavas ? | SERTAB ERENER | Sedat Yüce | Ajda Pekkan | Semiha Yanki | Ella es conocida en Europa por ganar la competencia de Eurovision Song 2003 con la canción « COMO PUEDE que puedo »",
+        "propositions": [
+          "Semiha Yanki",
+          "Sertab Erener",
+          "Sedat Yüce",
+          "Ajda Pekkan"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "Ella es conocida en Europa por ganar la competencia de Eurovision Song 2003 con la canción « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué ganador presentó la competencia al año siguiente en vivo desde Riga ?",
+        "propositions": [
+          "Marie N",
+          "Laura Rizzotto",
+          "Laura Bicane",
+          "Kristine Opolais"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Marija Naumoa creará la sorpresa con su juego escénico donde comenzará con traje de pantalones blancos y terminará con un vestido rojo."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué Estonian ganó la competencia en 2001 con el grupo 2XL ?",
+        "propositions": [
+          "Georg Ots",
+          "Dave Benton",
+          "Tanel Padar",
+          "Ivo Linna"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton tuvo una carrera en música en Europa, participando en la versión alemana de las luces musicales « City Lights »."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué dúo danés ganó la competencia Eurovisión en 2000 ?",
+        "propositions": [
+          "Laid Back",
+          "Junior Senior",
+          "Olsen Brothers",
+          "Safri Duo"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "En 2005, nuevamente participaron en los preajustes daneses, pero terminaron segundo detrás de Jakob Sveistrup."
+      },
+      {
+        "id": 20,
+        "question": "¿Bajo qué nombre Charlotte Perrelli ganó la competencia en 1999 ?",
+        "propositions": [
+          "Charlotte Nilsson",
+          "Jill Johnson",
+          "Marie Bergman",
+          "Malena Ernman"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson se casó con Nicola Ingrosso, luego, luego de una disputa familiar, la pareja decidió adoptar el nombre de Perrelli."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué ganador de la competencia se hizo para una modificación sexual ?",
+        "propositions": [
+          "Tracey Norman",
+          "Chelsea Manning",
+          "Dana International",
+          "Leslie Feinberg"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "Además de un éxito personal, esta victoria es un símbolo. El single se distribuirá en Europa, donde tendrá un gran éxito."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué año el Grupo Katrina y Waves gana la competencia ?",
+        "propositions": [
+          "2003",
+          "2006",
+          "1997",
+          "2000"
+        ],
+        "réponse": "1997",
+        "anecdote": "La canción alcanzó el tercer puesto en las listas de éxitos del Reino Unido. A pesar de este éxito, Katrina Leskanich dejó el grupo en 1999."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué dúo de música celta ganó la competencia en 1995 ?",
+        "propositions": [
+          "Secret Garden",
+          "Röyksopp",
+          "Avalanche",
+          "Solefald"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Løvland es también el primer intérprete de la canción « You Raise Me Up », versionada y popularizada posteriormente por Josh Groban."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué cantante irlandés representó a Irlanda dos veces en la competencia ? | Niamh Kavanagh | Rita Connolly | Cathy Davey | Molly Sterling | Niamh Kavanagh ganó la competencia Eurovisión en 1993 con « en tus ojos », el mejor título de venta en Irlanda pa",
+        "propositions": [
+          "Rita Connolly",
+          "Molly Sterling",
+          "Cathy Davey",
+          "Niamh Kavanagh"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh ganó el Festival de Eurovisión en 1993 con « In Your Eyes », el sencillo más vendido en Irlanda ese mismo año."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué artista se introdujo con mayor frecuencia a los clasificatorios irlandeses ? | Linda Martin | Día de Muriel | Nadine Coyle | Janet Devlin | En 2005, el cantante participó en el programa de felicitaciones que celebró el 50 aniversario de Eurovisión en ",
+        "propositions": [
+          "Muriel Day",
+          "Nadine Coyle",
+          "Linda Martin",
+          "Janet Devlin"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "En 2005, la cantante participó en el programa Congratulations, que celebraba los 50 años de Eurovisión en Copenhague, Dinamarca."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién llegó ex-aequo en primer lugar con Francia en la competencia de 1991 ?",
+        "propositions": [
+          "Pandora",
+          "Victoria",
+          "Carola",
+          "Regina"
+        ],
+        "réponse": "Carola",
+        "anecdote": "El reglamento establece que, en ese caso, el premio se otorgará al país que haya recibido más veces la puntuación máxima de 12 puntos."
+      },
+      {
+        "id": 27,
+        "question": "¿Quién ganó Eurovisión en 1992 con el título « Insieme » ?",
+        "propositions": [
+          "Al Bano",
+          "Toto Cutugno",
+          "Umberto Tozzi",
+          "Riccardo Fogli"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno presentó el Festival al año siguiente junto con Gigliola Cinquetti, que, como resultado de esta victoria, tuvo lugar en Roma."
+      },
+      {
+        "id": 28,
+        "question": "¿Para qué país ganó Cénline Dion la competencia en 1988 ?",
+        "propositions": [
+          "Suiza",
+          "Francia",
+          "Canadá",
+          "Luxemburgo"
+        ],
+        "réponse": "Suiza",
+        "anecdote": "Céline Dion alcanzó su primera fama internacional al ganar el Festival de Eurovisión con « Ne partez pas sans moi »."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué joven belga ganó la competencia con solo 13 años ?",
+        "propositions": [
+          "Mélanie Cohl",
+          "Sandra Kim",
+          "Barbara Dex",
+          "Emly Starr"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "En 1990, el reglamento de Eurovisión cambió para imponer una edad mínima de 16 años. Por lo tanto, seguirá siendo la ganadora más joven."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué ganador alemán ha tenido una corta carrera de habla francesa ?",
+        "propositions": [
+          "Nicole",
+          "Wanda",
+          "Gudrun",
+          "Doro"
+        ],
+        "réponse": "Nicole",
+        "anecdote": "Nicole Seibert, nacida Hohloch el 25 de octubre de 1964 en Sarrebruck, es una cantante alemana conocida por su nombre artístico Nicole."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale cantante ha vinto il concorso nel 2018 per Israele ?",
+        "propositions": [
+          "Aya Korem",
+          "Carmela Cornen",
+          "Tamar Giladi",
+          "Netta Barzilai"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "Una delle caratteristiche dei servizi Netta è l'uso di Looper, vietato dalle leggi di Eurovision sulla concorrenza."
+      },
+      {
+        "id": 2,
+        "question": "Quale vincitore della competizione nel 2017 ha battuto un record storico ?",
+        "propositions": [
+          "Rui Bandeira",
+          "Carlos Paiao",
+          "Salvador Sobral",
+          "Armando Gama"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral ha così offerto la sua prima vittoria in Eurovision in Portogallo dalla prima partecipazione del paese nel 1964."
+      },
+      {
+        "id": 3,
+        "question": "Sotto quale nome Susana Jamaladinova è meglio conosciuta ?",
+        "propositions": [
+          "Alyosha",
+          "Ruslana",
+          "Gaitana",
+          "Jamala"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "Questo cantante ucraino ha vinto il concorso Eurovision nel 2016 con il titolo « 1944 », cantato in inglese e in Crimea Tatar."
+      },
+      {
+        "id": 4,
+        "question": "Quale svedese ha vinto con « eroi » la competizione nel 2015 ?",
+        "propositions": [
+          "Mans Zelmerlow",
+          "John Lundvik",
+          "Eric Saade",
+          "Benjamin Ingrosso"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Nato nel 1986, Mans Zelmerlow è cantautore, cantante, musicista, attore, modello, ballerino e conduttore televisivo."
+      },
+      {
+        "id": 5,
+        "question": "Quale drag queen austriaca ha vinto il concorso Eurovision nel 2014 ?",
+        "propositions": [
+          "Willam Belli",
+          "Bianca Del Rio",
+          "Conchita Wurst",
+          "Lady Bunny"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Successivamente, Conchita sarà richiesta in tutto il mondo, durante i Golden Globes, il pallone della vita di Vienna o l'orgoglio di Amsterdam."
+      },
+      {
+        "id": 6,
+        "question": "Per quale paese Emmelie de Forest ha vinto la competizione nel 2013 ?",
+        "propositions": [
+          "Pelle scamosciata",
+          "Denmark",
+          "",
+          "Ukraine"
+        ],
+        "réponse": "Denmark",
+        "anecdote": "Accompagnata dai suoi corristi e due membri del gruppo di batteristi di Copenaghen, ha vinto la finale con 281 punti."
+      },
+      {
+        "id": 7,
+        "question": "Cosa ha gonfiato marocchino-sweedish nella competizione del 2012 ?",
+        "propositions": [
+          "Wallen",
+          "Oum",
+          "Aziza",
+          "Loreen"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "Durante la finale di Baku, l'Azerbaigian, Loreen, la competizione ultra-preferita, ha ottenuto il punteggio massimo di 12 punti 18 volte."
+      },
+      {
+        "id": 8,
+        "question": "Quanti cantanti hanno vinto il concorso nel 2011 per l'Azerbaigian ?",
+        "propositions": [
+          "Tre",
+          "Cinque",
+          "Due",
+          "Quattro"
+        ],
+        "réponse": "Due",
+        "anecdote": "Ell e Nikki è un duo musicale formato appositamente per la competizione, composto da Eldar Qasimov e Nigar Camal."
+      },
+      {
+        "id": 9,
+        "question": "Quale vincitore di Eurovision è la nipote di un ambasciatore ?",
+        "propositions": [
+          "Safura",
+          "Manga",
+          "Lena",
+          "Paula"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena sarà dichiarata vincitrice per la Germania nella competizione 2010 che ha vinto con la canzone « Satellite » e 246 punti."
+      },
+      {
+        "id": 10,
+        "question": "Chi ha rappresentato la Norvegia a Eurovision sia nel 2009 che nel 2018 ?",
+        "propositions": [
+          "Guri Schanke",
+          "Carl Espen",
+          "Alexander Rybak",
+          "Wig Wam"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak ha vinto la competizione nel 2009 per la Norvegia a Mosca con la sua canzone « Fairytale » che ha ottenuto 387 punti."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Chi ha cantato per la Russia con Evgeni Plushenko ed Edvin Marton ?",
+        "propositions": [
+          "Dina Garipova",
+          "Dima Bilan",
+          "Sergueï Lazarev",
+          "Polina Gagarina"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "Nel 2012, Dima Bilan proverà ancora una volta la fortuna per rappresentare la Russia insieme a Yulia Volkova, ma senza successo."
+      },
+      {
+        "id": 12,
+        "question": "Quale serbo ha vinto il concorso nel 2007 con una canzone d'amore ?",
+        "propositions": [
+          "Marija Serifovic",
+          "Anica Dobra",
+          "Lepa Brena",
+          "Bojana Stamenov"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Marija, che non ha mai nascosto la sua omosessualità, è anche una lesbica militante in un movimento gay e lesbico."
+      },
+      {
+        "id": 13,
+        "question": "Quale gruppo di metalli pesanti finlandesi ha eccitato la competizione nel 2006 ?",
+        "propositions": [
+          "Hevein",
+          "Tarot",
+          "Kilpi",
+          "Lordi"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "Il gruppo ha il suo genere musicale perché sviluppa un'estetica particolare in relazione al tema dei mostri."
+      },
+      {
+        "id": 14,
+        "question": "Cosa Gréco-Suédoise ha vinto la competizione nel 2005 con « Il mio numero uno » ?",
+        "propositions": [
+          "Marianna Zorba",
+          "Elena Paparizou",
+          "Anna Vissi",
+          "Sophia Vossou"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "Il suo primo gruppo di nome Ancient ha partecipato alla competizione nel 2001 con il titolo « Die For You », finendo terzo."
+      },
+      {
+        "id": 15,
+        "question": "Quale politico ucraino ha vinto il concorso nel 2004 ?",
+        "propositions": [
+          "Svetlana Lodoba",
+          "Ruslana",
+          "Ani Lorak",
+          "Tina Karol"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana è sposato dal 1995 con il produttore Oleksandr Ksenofontov con il quale gestisce il Luxen Studio dal 1993."
+      },
+      {
+        "id": 16,
+        "question": "Quale vincitore della competizione ha una gamma su cinque ottave ?",
+        "propositions": [
+          "Sedat Yüce",
+          "Semiha Yanki",
+          "Sertab Erener",
+          "Ajda Pekkan"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "È conosciuta in Europa per aver vinto il concorso Eurovision Song del 2003 con la canzone « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "Quale vincitore ha presentato la competizione l'anno successivo in diretta da Riga ?",
+        "propositions": [
+          "Marie N",
+          "Kristine Opolais",
+          "Laura Rizzotto",
+          "Laura Bicane"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Marija Naumoa creerà la sorpresa con il suo gioco da palcoscenico in cui inizierà con i pantaloni bianchi e finirà in un abito rosso."
+      },
+      {
+        "id": 18,
+        "question": "Quale estone ha vinto la competizione nel 2001 con il gruppo 2XL ?",
+        "propositions": [
+          "Dave Benton",
+          "Tanel Padar",
+          "Georg Ots",
+          "Ivo Linna"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton ha avuto una carriera in musica in Europa, partecipando alla versione tedesca del musical « City Lights »."
+      },
+      {
+        "id": 19,
+        "question": "Quale duo danese ha vinto il concorso Eurovision nel 2000 ?",
+        "propositions": [
+          "Olsen Brothers",
+          "Safri Duo",
+          "Laid Back",
+          "Junior Senior"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "Nel 2005, hanno partecipato nuovamente ai preset danesi ma sono arrivati secondi dietro Jakob Sveistrup."
+      },
+      {
+        "id": 20,
+        "question": "Sotto quale nome Charlotte Perrelli ha vinto la competizione nel 1999 ?",
+        "propositions": [
+          "Jill Johnson",
+          "Charlotte Nilsson",
+          "Marie Bergman",
+          "Malena Ernman"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson sposò Nicola Ingrosso, quindi, a seguito di una lite di famiglia, la coppia decise di adottare il nome Perrelli."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale vincitore della competizione è stato realizzato per una modifica del sesso ?",
+        "propositions": [
+          "Tracey Norman",
+          "Leslie Feinberg",
+          "Chelsea Manning",
+          "Dana International"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "Oltre a essere un successo personale, questa vittoria è un simbolo. Il singolo sarà distribuito in tutta Europa, dove riscuoterà un grande successo."
+      },
+      {
+        "id": 22,
+        "question": "In che anno vincono la competizione di Katrina e Waves ?",
+        "propositions": [
+          "2000",
+          "1997",
+          "2003",
+          "2006"
+        ],
+        "réponse": "1997",
+        "anecdote": "La canzone raggiunse il terzo posto nelle classifiche britanniche. Nonostante questo successo, Katrina Leskanich lasciò il gruppo nel 1999."
+      },
+      {
+        "id": 23,
+        "question": "Quale duo musicale celtico ha vinto il concorso nel 1995 ?",
+        "propositions": [
+          "Secret Garden",
+          "Avalanche",
+          "Röyksopp",
+          "Solefald"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Løvland è anche il primo interprete della canzone « You Raise Me Up », successivamente reinterpretata e resa famosa da Josh Groban."
+      },
+      {
+        "id": 24,
+        "question": "Quale cantante irlandese rappresentava l'Irlanda due volte nella competizione ?",
+        "propositions": [
+          "Rita Connolly",
+          "Cathy Davey",
+          "Niamh Kavanagh",
+          "Molly Sterling"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh vinse l'Eurovision Song Contest nel 1993 con « In Your Eyes », il singolo più venduto in Irlanda in quell'anno."
+      },
+      {
+        "id": 25,
+        "question": "Quale artista veniva spesso introdotto alle qualificazioni irlandesi ?",
+        "propositions": [
+          "Nadine Coyle",
+          "Linda Martin",
+          "Muriel Day",
+          "Janet Devlin"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "Nel 2005, la cantante ha partecipato al programma Congratulations, che celebrava i 50 anni dell'Eurovision a Copenaghen, in Danimarca."
+      },
+      {
+        "id": 26,
+        "question": "Chi è arrivato ex-aequo al primo posto con la Francia nella competizione del 1991 ?",
+        "propositions": [
+          "Carola",
+          "Pandora",
+          "Regina",
+          "Victoria"
+        ],
+        "réponse": "Carola",
+        "anecdote": "Il regolamento prevede che, in tal caso, il premio venga assegnato al paese che ha ricevuto il punteggio massimo di 12 punti più volte."
+      },
+      {
+        "id": 27,
+        "question": "Chi ha vinto Eurovision nel 1992 con il titolo « Insieme » ?",
+        "propositions": [
+          "Al Bano",
+          "Riccardo Fogli",
+          "Toto Cutugno",
+          "Umberto Tozzi"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno presentò il Concorso l'anno successivo insieme a Gigliola Cinquetti, che, in seguito a questa vittoria, si tenne a Roma."
+      },
+      {
+        "id": 28,
+        "question": "Per quale paese Céline Dion ha vinto la competizione nel 1988 ?",
+        "propositions": [
+          "Lussemburgo",
+          "Francia",
+          "Svizzera",
+          "Canada"
+        ],
+        "réponse": "Svizzera",
+        "anecdote": "Céline Dion ha ottenuto la sua prima fama internazionale vincendo l'Eurovision Song Contest con « Ne partez pas sans moi »."
+      },
+      {
+        "id": 29,
+        "question": "Quale giovane belga ha vinto la competizione a soli 13 anni ?",
+        "propositions": [
+          "Mélanie Cohl",
+          "Barbara Dex",
+          "Emly Starr",
+          "Sandra Kim"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "Nel 1990, il regolamento dell'Eurovision cambiò per imporre un'età minima di 16 anni. Di conseguenza, resterà la vincitrice più giovane."
+      },
+      {
+        "id": 30,
+        "question": "Quale vincitore tedesco ha avuto una breve carriera francese ?",
+        "propositions": [
+          "Gudrun",
+          "Nicole",
+          "Wanda",
+          "Doro"
+        ],
+        "réponse": "Nicole",
+        "anecdote": "Nicole Seibert, nata Hohloch il 25 ottobre 1964 a Saarbrücken, è una cantante tedesca conosciuta con il nome d'arte Nicole."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke zanger won de competitie in 2018 voor Israël ?",
+        "propositions": [
+          "Netta Barzilai",
+          "Tamar Giladi",
+          "Carmela Cornen",
+          "Aya Korem"
+        ],
+        "réponse": "Netta Barzilai",
+        "anecdote": "Een van de kenmerken van Netta Services is het gebruik van Looper, verboden door de wetten van Eurovisie over concurrentie."
+      },
+      {
+        "id": 2,
+        "question": "Welke winnaar van de competitie in 2017 verbrak een historisch record ?",
+        "propositions": [
+          "Salvador Sobral",
+          "Rui Bandeira",
+          "Carlos Paiao",
+          "Armando Gama"
+        ],
+        "réponse": "Salvador Sobral",
+        "anecdote": "Salvador Sobral bood aldus zijn eerste overwinning in Eurovisie in Portugal sinds de eerste deelname van het land in 1964."
+      },
+      {
+        "id": 3,
+        "question": "Onder welke naam is Susana Jamaladinova beter bekend ?",
+        "propositions": [
+          "Alyosha",
+          "Gaitana",
+          "Ruslana",
+          "Jamala"
+        ],
+        "réponse": "Jamala",
+        "anecdote": "Deze Oekraïense zangeres won de Eurovisie -competitie in 2016 met de titel « 1944 », gezongen in het Engels en in de Krim Tatar."
+      },
+      {
+        "id": 4,
+        "question": "Welke Zweedse won met « helden » de competitie in 2015 ?",
+        "propositions": [
+          "John Lundvik",
+          "Eric Saade",
+          "Benjamin Ingrosso",
+          "Mans Zelmerlow"
+        ],
+        "réponse": "Mans Zelmerlow",
+        "anecdote": "Mans Zelmerlow, geboren in 1986, is een singer-songwriter, zanger, muzikant, acteur, model, danseres en tv-gastheer."
+      },
+      {
+        "id": 5,
+        "question": "Welke Oostenrijkse drag queen won de Eurovisie -competitie in 2014 ?",
+        "propositions": [
+          "Lady Bunny",
+          "Conchita Wurst",
+          "Willam Belli",
+          "Bianca Del Rio"
+        ],
+        "réponse": "Conchita Wurst",
+        "anecdote": "Vervolgens zal Conchita over de hele wereld worden aangevraagd, tijdens de Golden Globes, de Life Ball of Wenen of de trots van Amsterdam."
+      },
+      {
+        "id": 6,
+        "question": "Voor welk land Emmelie de Forest heeft ze de competitie in 2013 gewonnen ?",
+        "propositions": [
+          "Suède",
+          "Ukraine",
+          "Denmark",
+          ""
+        ],
+        "réponse": "Denmark",
+        "anecdote": "Begeleid door haar koor en twee leden van de Kopenhagen Drummers -groep won ze de finale met 281 punten."
+      },
+      {
+        "id": 7,
+        "question": "Welke Marokkaans-Swedish heeft in de wedstrijd 2012 opgezwollen ?",
+        "propositions": [
+          "Loreen",
+          "Oum",
+          "Wallen",
+          "Aziza"
+        ],
+        "réponse": "Loreen",
+        "anecdote": "Tijdens de finale in Baku behaalde Azerbeidzjan, Loreen, ultra-favoriete concurrentie, de maximale score van 12 punten 18 keer."
+      },
+      {
+        "id": 8,
+        "question": "Hoeveel zangers hebben de competitie in 2011 gewonnen voor Azerbeidzjan ?",
+        "propositions": [
+          "Vier",
+          "Twee",
+          "Vijf",
+          "Drie"
+        ],
+        "réponse": "Twee",
+        "anecdote": "Ell en Nikki is een muzikaal duo dat speciaal is gevormd voor de competitie, samengesteld uit Eldar Qasimov en Nigar Camal."
+      },
+      {
+        "id": 9,
+        "question": "Welke winnaar van Eurovisie is de kleindochter van een ambassadeur ?",
+        "propositions": [
+          "Safura",
+          "Lena",
+          "Manga",
+          "Paula"
+        ],
+        "réponse": "Lena",
+        "anecdote": "Lena wordt winnaar voor Duitsland uitgeroepen in de competitie van 2010 die ze won met het nummer « Satelliet » en 246 punten."
+      },
+      {
+        "id": 10,
+        "question": "Wie vertegenwoordigde Noorwegen bij Eurovisie zowel in 2009 als in 2018 ?",
+        "propositions": [
+          "Guri Schanke",
+          "Carl Espen",
+          "Alexander Rybak",
+          "Wig Wam"
+        ],
+        "réponse": "Alexander Rybak",
+        "anecdote": "Alexander Rybak won de competitie in 2009 voor Noorwegen in Moskou met zijn lied « Fairytale » dat 387 punten behaalde."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie zong voor Rusland met Evgeni Plushenko en Edvin Marton ?",
+        "propositions": [
+          "Sergueï Lazarev",
+          "Polina Gagarina",
+          "Dima Bilan",
+          "Dina Garipova"
+        ],
+        "réponse": "Dima Bilan",
+        "anecdote": "In 2012 zal Dima Bilan opnieuw zijn geluk proberen om Rusland te vertegenwoordigen naast Yulia Volkova, maar zonder succes."
+      },
+      {
+        "id": 12,
+        "question": "Welke Serviër won de competitie in 2007 met een liefdeslied ?",
+        "propositions": [
+          "Anica Dobra",
+          "Marija Serifovic",
+          "Bojana Stamenov",
+          "Lepa Brena"
+        ],
+        "réponse": "Marija Serifovic",
+        "anecdote": "Mariha, die haar homoseksualiteit nooit heeft verborgen, is ook als een militante lesbienne in een homo- en lesbische beweging."
+      },
+      {
+        "id": 13,
+        "question": "Welke groep Finse heavy metal heeft de concurrentie in 2006 bekrachtigd ?",
+        "propositions": [
+          "Lordi",
+          "Kilpi",
+          "Hevein",
+          "Tarot"
+        ],
+        "réponse": "Lordi",
+        "anecdote": "De groep heeft zijn eigen muzikale genre omdat het een bepaalde esthetiek ontwikkelt in relatie tot het thema van monsters."
+      },
+      {
+        "id": 14,
+        "question": "Welke Gréco-Suédoise won de competitie in 2005 met « Mijn nummer één » ?",
+        "propositions": [
+          "",
+          "Sophia Vossou",
+          "Elena Paparizou",
+          "Marianna Zorba"
+        ],
+        "réponse": "Elena Paparizou",
+        "anecdote": "Zijn eerste groep genaamd Ancient nam in 2001 deel aan de competitie met de titel « Die voor jou » en eindigde als derde."
+      },
+      {
+        "id": 15,
+        "question": "Welke Oekraïense politicus won de wedstrijd in 2004 ?",
+        "propositions": [
+          "Ani Lorak",
+          "Svetlana Lodoba",
+          "Ruslana",
+          "Tina Karol"
+        ],
+        "réponse": "Ruslana",
+        "anecdote": "Ruslana is sinds 1995 getrouwd met producent Oleksandr Ksenofontov met wie ze sinds 1993 de Luxen -studio heeft gerund."
+      },
+      {
+        "id": 16,
+        "question": "Welke winnaar van de competitie heeft een bereik op vijf octaven ?",
+        "propositions": [
+          "Sertab Erener",
+          "Ajda Pekkan",
+          "Sedat Yüce",
+          "Semiha Yanki"
+        ],
+        "réponse": "Sertab Erener",
+        "anecdote": "Ze staat in Europa bekend om het winnen van de Eurovisie -songcompetitie van 2003 met het nummer « Everyway That I Can »."
+      },
+      {
+        "id": 17,
+        "question": "Welke winnaar presenteerde de competitie het volgende jaar live van Riga ?",
+        "propositions": [
+          "Kristine Opolais",
+          "Marie N",
+          "Laura Rizzotto",
+          "Laura Bicane"
+        ],
+        "réponse": "Marie N",
+        "anecdote": "Mariha Naumoa zal de verrassing creëren met haar toneelspel waar ze in een witte broekpak begint en in een rode jurk zal eindigen."
+      },
+      {
+        "id": 18,
+        "question": "Wat Estland won de competitie in 2001 met de 2XL -groep ?",
+        "propositions": [
+          "Dave Benton",
+          "Georg Ots",
+          "Ivo Linna",
+          "Tanel Padar"
+        ],
+        "réponse": "Dave Benton",
+        "anecdote": "Dave Benton had een carrière in muziek in Europa en nam deel aan de Duitse versie van de musical « City Lights »."
+      },
+      {
+        "id": 19,
+        "question": "Welk Deense duo won de Eurovisie -competitie in 2000 ?",
+        "propositions": [
+          "Safri Duo",
+          "Junior Senior",
+          "Laid Back",
+          "Olsen Brothers"
+        ],
+        "réponse": "Olsen Brothers",
+        "anecdote": "In 2005 namen ze opnieuw deel aan de Deense presets, maar eindigden tweede achter Jakob SveIstrup."
+      },
+      {
+        "id": 20,
+        "question": "Onder welke naam won Charlotte Perrelli de competitie in 1999 ?",
+        "propositions": [
+          "Marie Bergman",
+          "Charlotte Nilsson",
+          "Jill Johnson",
+          "Malena Ernman"
+        ],
+        "réponse": "Charlotte Nilsson",
+        "anecdote": "Charlotte Nilsson trouwde met Nicola Ingrosso, en vervolgens, na een familie -ruzie, besloot het paar de naam Perrelli te adopteren."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke winnaar van de competitie is gemaakt voor een seksuele aanpassing ?",
+        "propositions": [
+          "Tracey Norman",
+          "Leslie Feinberg",
+          "Dana International",
+          "Chelsea Manning"
+        ],
+        "réponse": "Dana International",
+        "anecdote": "Naast een persoonlijk succes is deze overwinning ook een symbool. De single zal in heel Europa worden uitgebracht en veel succes kennen."
+      },
+      {
+        "id": 22,
+        "question": "In welk jaar winnen de Katrina en de Waves -groep de competitie ?",
+        "propositions": [
+          "2003",
+          "2000",
+          "2006",
+          "1997"
+        ],
+        "réponse": "1997",
+        "anecdote": "Het lied bereikte de derde plaats in de Britse hitlijsten. Ondanks dit succes verliet Katrina Leskanich de band in 1999."
+      },
+      {
+        "id": 23,
+        "question": "Welk Celtic Music Duo won de competitie in 1995 ?",
+        "propositions": [
+          "Secret Garden",
+          "Solefald",
+          "Avalanche",
+          "Röyksopp"
+        ],
+        "réponse": "Secret Garden",
+        "anecdote": "Rolf Løvland is ook de eerste uitvoerder van het lied « You Raise Me Up », later gecoverd en populair gemaakt door Josh Groban."
+      },
+      {
+        "id": 24,
+        "question": "Welke Ierse zangeres vertegenwoordigde Ierland twee keer in de competitie ?",
+        "propositions": [
+          "Cathy Davey",
+          "Niamh Kavanagh",
+          "Molly Sterling",
+          "Rita Connolly"
+        ],
+        "réponse": "Niamh Kavanagh",
+        "anecdote": "Niamh Kavanagh won in 1993 het Eurovisiesongfestival met « In Your Eyes », het bestverkochte nummer in Ierland dat jaar."
+      },
+      {
+        "id": 25,
+        "question": "Welke kunstenaar werd meestal geïntroduceerd aan de Ierse kwalificaties ?",
+        "propositions": [
+          "Linda Martin",
+          "Nadine Coyle",
+          "Janet Devlin",
+          "Muriel Day"
+        ],
+        "réponse": "Linda Martin",
+        "anecdote": "In 2005 nam de zangeres deel aan het programma Congratulations, ter gelegenheid van 50 jaar Eurovisie in Kopenhagen, Denemarken."
+      },
+      {
+        "id": 26,
+        "question": "Wie is er in de eerste plaats met Frankrijk aangekomen in de wedstrijd van 1991 ?",
+        "propositions": [
+          "Carola",
+          "Regina",
+          "Victoria",
+          "Pandora"
+        ],
+        "réponse": "Carola",
+        "anecdote": "Volgens het reglement wordt in dat geval de prijs toegekend aan het land dat het vaakst het maximumaantal van 12 punten heeft gekregen."
+      },
+      {
+        "id": 27,
+        "question": "Wie won Eurovision in 1992 met de titel « Insieme » ?",
+        "propositions": [
+          "Toto Cutugno",
+          "Umberto Tozzi",
+          "Riccardo Fogli",
+          "Al Bano"
+        ],
+        "réponse": "Toto Cutugno",
+        "anecdote": "Toto Cutugno presenteerde het Songfestival het jaar daarna samen met Gigliola Cinquetti, dat als gevolg van deze overwinning in Rome plaatsvond."
+      },
+      {
+        "id": 28,
+        "question": "Voor welk land won Céline Dion de competitie in 1988 ?",
+        "propositions": [
+          "Luxemburg",
+          "Frankrijk",
+          "Zwitserland",
+          "Canada"
+        ],
+        "réponse": "Zwitserland",
+        "anecdote": "Céline Dion verwierf haar eerste internationale bekendheid door het Eurovisiesongfestival te winnen met « Ne partez pas sans moi »."
+      },
+      {
+        "id": 29,
+        "question": "Welke Young Belg won de competitie op slechts 13 jaar oud ?",
+        "propositions": [
+          "Emly Starr",
+          "Mélanie Cohl",
+          "Sandra Kim",
+          "Barbara Dex"
+        ],
+        "réponse": "Sandra Kim",
+        "anecdote": "In 1990 werden de regels van het Eurovisiesongfestival gewijzigd om een minimumleeftijd van 16 jaar in te stellen. Daardoor blijft zij de jongste winnares."
+      },
+      {
+        "id": 30,
+        "question": "Welke Duitse winnaar heeft een korte Franse pakkende carrière gehad ?",
+        "propositions": [
+          "Wanda",
+          "Gudrun",
+          "",
+          "Doro"
+        ],
+        "réponse": "",
+        "anecdote": "Nicole Seibert, geboren als Hohloch op 25 oktober 1964 in Saarbrücken, is een Duitse zangeres die bekendstaat onder de artiestennaam Nicole."
+      }
+    ]
+    }
+  }
+}

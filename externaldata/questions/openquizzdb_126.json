@@ -1,0 +1,410 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2024-03-30",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Nature",
+      "nom": "Alerte climat",
+      "slogan": "Il est grand temps de passer à l'action"
+    },
+    "en": {
+      "catégorie": "Nature",
+      "nom": "Climate alert",
+      "slogan": "It's high time to take action"
+    },
+    "es": {
+      "catégorie": "Naturaleza",
+      "nom": "Alerta climática",
+      "slogan": "Ya es hora de actuar"
+    },
+    "it": {
+      "catégorie": "Natura",
+      "nom": "Allerta climatica",
+      "slogan": "È giunto il momento di agire"
+    },
+    "de": {
+      "catégorie": "Natur",
+      "nom": "Klimaalarm",
+      "slogan": "Es ist höchste Zeit zu handeln"
+    },
+    "nl": {
+      "catégorie": "Natuur",
+      "nom": "Klimaatwaarschuwing",
+      "slogan": "Hoog tijd voor actie"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "La combustion de quel produit contribue le plus au réchauffement climatique ?",
+        "propositions": [
+          "Le carton",
+          "Le PVC",
+          "Le charbon",
+          "Le bois"
+        ],
+        "réponse": "Le charbon",
+        "anecdote": "On appelle combustible fossile tous les combustibles riches en carbone issus de la méthanisation d'êtres vivants morts."
+      },
+      {
+        "id": 2,
+        "question": "Dans une habitation, quel est le poste le plus gourmand en électricité ?",
+        "propositions": [
+          "Sèche-linge",
+          "Télévision",
+          "Production de froid",
+          "Éclairage"
+        ],
+        "réponse": "Production de froid",
+        "anecdote": "1 000 KWh/an (car ces appareils fonctionnent en continu), puis vient l'éclairage (500KWh/an) et le sèche-linge (300KWh/an)."
+      },
+      {
+        "id": 3,
+        "question": "En quelle année s'est terminée la première période d'engagement du protocole de Kyoto ?",
+        "propositions": [
+          "2004",
+          "2008",
+          "2012",
+          "2016"
+        ],
+        "réponse": "2012",
+        "anecdote": "Pour la première fois, 37 pays développés s'engagent sur des objectifs contraignants de réduction de leurs émissions de gaz."
+      },
+      {
+        "id": 4,
+        "question": "Qui sont principalement responsables de l'augmentation de l'effet de serre ?",
+        "propositions": [
+          "Bactéries",
+          "Planètes",
+          "Hommes",
+          "Animaux"
+        ],
+        "réponse": "Hommes",
+        "anecdote": "L'augmentation du rejet de dioxyde de carbone dû à la pollution humaine et industrielle favorise fortement l'effet de serre."
+      },
+      {
+        "id": 5,
+        "question": "Quel est le type de transport de marchandises le plus économe en énergie ?",
+        "propositions": [
+          "Routier",
+          "Ferroviaire",
+          "Fluvial",
+          "Aérien"
+        ],
+        "réponse": "Fluvial",
+        "anecdote": "Le transport fluvial est écologique par sa moindre consommation d'énergie et ses faibles niveaux d'émissions de polluants et de CO2."
+      },
+      {
+        "id": 6,
+        "question": "Le pétrole, le gaz et le charbon sont classés parmi quel type d'énergies ?",
+        "propositions": [
+          "Solaires",
+          "Propres",
+          "Fossiles",
+          "Renouvelables"
+        ],
+        "réponse": "Fossiles",
+        "anecdote": "L'océan a absorbé environ 30 % des émissions  de dioxyde de carbone dues aux activités humaines."
+      },
+      {
+        "id": 7,
+        "question": "Quel pays est le plus grand émetteur de gaz à effet de serre ?",
+        "propositions": [
+          "États-Unis",
+          "Russie",
+          "Inde",
+          "Chine"
+        ],
+        "réponse": "Chine",
+        "anecdote": "Hormis la vapeur d'eau évacuée en quelques jours, les gaz à effet de serre mettent très longtemps à s'éliminer de l'atmosphère."
+      },
+      {
+        "id": 8,
+        "question": "Lequel de ces effets n'est pas lié aux changements climatiques ?",
+        "propositions": [
+          "Espérance de vie",
+          "Migration animale",
+          "Fonte des glaciers",
+          "Montée des eaux"
+        ],
+        "réponse": "Espérance de vie",
+        "anecdote": "L'augmentation de l'espérance de vie n'est pas liée aux changements climatiques mais bien à la qualité de vie."
+      },
+      {
+        "id": 9,
+        "question": "Durant quelle révolution augmentèrent les émissions de gaz à effet de serre ?",
+        "propositions": [
+          "Française",
+          "Numérique",
+          "Culturelle",
+          "Industrielle"
+        ],
+        "réponse": "Industrielle",
+        "anecdote": "Cette augmentation est principalement liée au développement du secteur industriel et du secteur des transports."
+      },
+      {
+        "id": 10,
+        "question": "Que signifie la lettre A sur l'étiquette-énergie d'un réfrigérateur ?",
+        "propositions": [
+          "Auto-nettoyant",
+          "Non énergivore",
+          "Anti-poussière",
+          "Le plus froid"
+        ],
+        "réponse": "Non énergivore",
+        "anecdote": "L'étiquette-énergie est une fiche destinée au consommateur afin de faciliter le choix entre les différents modèles."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hormis le CO2, lequel de ces autres gaz est couvert par le protocole de Kyoto ?",
+        "propositions": [
+          "Acétylène",
+          "Butane",
+          "Propane",
+          "Méthane"
+        ],
+        "réponse": "Méthane",
+        "anecdote": "Les autres gaz concernés sont : le méthane (CH4), le protoxyde d'azote (N2O) et les gaz fluorés (HFC, PFC, SF6 et NF3)."
+      },
+      {
+        "id": 12,
+        "question": "Pour quelle part le CO2 contribue-t-il à l'effet de serre causé par les activités humaines ?",
+        "propositions": [
+          "20 %",
+          "40 %",
+          "80 %",
+          "60 %"
+        ],
+        "réponse": "60 %",
+        "anecdote": "L'augmentation de l'effet de serre est également causé à 6 % pour le protoxyde d'azote (N2O) et 20 % pour le méthane (CH4)."
+      },
+      {
+        "id": 13,
+        "question": "En France, quelle est la moyenne de CO2 émis en 2007 par habitant et par an ?",
+        "propositions": [
+          "2.3 T",
+          "3.7 T",
+          "5.8 T",
+          "4.2 T"
+        ],
+        "réponse": "5.8 T",
+        "anecdote": "Ce sont les États-Unis qui émettent le plus de CO2 avec une impressionnante moyenne de 19 T de CO2 par habitant et par an."
+      },
+      {
+        "id": 14,
+        "question": "Par combien les pays doivent-ils diviser leurs émissions de gaz à effet de serre d'ici 2050 ?",
+        "propositions": [
+          "Par 8",
+          "Par 4",
+          "Par 2",
+          "Par 6"
+        ],
+        "réponse": "Par 4",
+        "anecdote": "En divisant par 4 leurs émissions, cet effort permettra de contenir l'élévation de la température moyenne de la Terre à 2 degrés."
+      },
+      {
+        "id": 15,
+        "question": "Combien de CO2 est émis par chaque passager d'un vol aller-retour Paris-New York ?",
+        "propositions": [
+          "1.2 T",
+          "257 Kg",
+          "39 Kg",
+          "593 Kg"
+        ],
+        "réponse": "1.2 T",
+        "anecdote": "Cela équivaut à 1.2 tonnes de gaz carbonique, soit plus d'un quart des émissions moyennes d'un français en une année."
+      },
+      {
+        "id": 16,
+        "question": "Outre le biodiesel, quelle est l'autre principale filière des biocarburants en France ?",
+        "propositions": [
+          "Bio gazole",
+          "Bio kérosène",
+          "Super bio",
+          "Bioéthanol"
+        ],
+        "réponse": "Bioéthanol",
+        "anecdote": "Les biocarburants, d'origine agricole, sont répartis en deux principales filières : bioéthanol (essence) et biodiesel."
+      },
+      {
+        "id": 17,
+        "question": "Paris a accueilli la COP21, COP étant l'acronyme de Conference Of the...",
+        "propositions": [
+          "Problems",
+          "Parties",
+          "Power",
+          "Populations"
+        ],
+        "réponse": "Parties",
+        "anecdote": "Depuis la conférence de Berlin (COP1) en 1995, elle se réunit chaque année lors d'un sommet mondial, dans une ville différente."
+      },
+      {
+        "id": 18,
+        "question": "L'objectif de la COP 21 fut de limiter le réchauffement climatique à quoi ?",
+        "propositions": [
+          "2 Gigawatts",
+          "2 ans",
+          "2°C",
+          "2%"
+        ],
+        "réponse": "2°C",
+        "anecdote": "Au vu des engagements pris par les États pour restreindre leurs émissions, cet objectif est presque mission impossible."
+      },
+      {
+        "id": 19,
+        "question": "Quelle température y aurait-il sur Terre sans l'effet de serre ?",
+        "propositions": [
+          "-18°C",
+          "4°C",
+          "47°C",
+          "98°C"
+        ],
+        "réponse": "-18°C",
+        "anecdote": "L'effet de serre permet d'avoir une température régulée et moyenne agréable sur Terre d'environ 15°C."
+      },
+      {
+        "id": 20,
+        "question": "En France, on utilise sa voiture en moyenne pour quel pourcentage de ses déplacements ?",
+        "propositions": [
+          "80 %",
+          "60 %",
+          "20 %",
+          "40 %"
+        ],
+        "réponse": "80 %",
+        "anecdote": "Dans l'attente d'une réglementation européenne, Paris a lancé un plan visant à réduire les émissions de particules fines."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle est la température moyenne à la surface de la Terre ?",
+        "propositions": [
+          "15° C",
+          "5° C",
+          "35° C",
+          "25° C"
+        ],
+        "réponse": "15° C",
+        "anecdote": "Le maintien de cette température est due à l'effet de serre naturel qui retient une partie de la chaleur émise par le soleil."
+      },
+      {
+        "id": 22,
+        "question": "Comment appelle-t-on un système qui absorbe naturellement les émissions de CO2 ?",
+        "propositions": [
+          "Écogénome",
+          "Défoliant",
+          "Puits de carbone",
+          "Biosphère"
+        ],
+        "réponse": "Puits de carbone",
+        "anecdote": "Les principaux puits de carbone naturels sont aujourd'hui réduits par la déforestation massive et l'acidification des océans."
+      },
+      {
+        "id": 23,
+        "question": "Quelle est la durée de vie moyenne du protoxyde d'azote (N2O) dans l'atmosphère ?",
+        "propositions": [
+          "67 ans",
+          "39 ans",
+          "114 ans",
+          "83 ans"
+        ],
+        "réponse": "114 ans",
+        "anecdote": "C'est le gaz à effet de serre qui a la plus longue durée de vie, le CO2 ayant quant à lui une durée de vie moyenne de 100 ans."
+      },
+      {
+        "id": 24,
+        "question": "Laquelle de ces maladies risque de s'étendre si le climat se réchauffe ?",
+        "propositions": [
+          "Tuberculose",
+          "SIDA",
+          "Grippe",
+          "Paludisme"
+        ],
+        "réponse": "Paludisme",
+        "anecdote": "Le paludisme ou la malaria est une maladie infectieuse propagée par la piqûre de certaines espèces de moustiques anophèles."
+      },
+      {
+        "id": 25,
+        "question": "Comment appelle-t-on les émissions de gaz à effet de serre dues à l'activité humaine ?",
+        "propositions": [
+          "Anthropocènes",
+          "Anthropologiques",
+          "Anthropomorphiques",
+          "Anthropiques"
+        ],
+        "réponse": "Anthropiques",
+        "anecdote": "Certaines causes naturelles aux émissions de gaz à effet de serre sont à distinguer de l'effet de serre additionnel."
+      },
+      {
+        "id": 26,
+        "question": "Quel groupe intergouvernemental d'experts étudie les changements climatiques ?",
+        "propositions": [
+          "URB",
+          "GPRS",
+          "GIEC",
+          "CPO"
+        ],
+        "réponse": "GIEC",
+        "anecdote": "Créé en 1998 par les Nations-Unies, le GIEC évalue et synthétise l'état des connaissances sur les changements climatiques."
+      },
+      {
+        "id": 27,
+        "question": "Via quel dispositif de prévention l'UE lutte-t-elle contre le réchauffement climatique ?",
+        "propositions": [
+          "ACDC",
+          "BASF",
+          "ISDN",
+          "PECC"
+        ],
+        "réponse": "PECC",
+        "anecdote": "Le Paquet Énergie Climat adopté en 2008 définit des objectifs à plus long terme que le protocole de Kyoto."
+      },
+      {
+        "id": 28,
+        "question": "Comment appelle-t-on la fraction d'énergie solaire réfléchie par la Terre vers l'espace ?",
+        "propositions": [
+          "Albédo",
+          "Iris",
+          "Zonation",
+          "Actinisme"
+        ],
+        "réponse": "Albédo",
+        "anecdote": "Via le pouvoir réfléchissant d'une surface, la couleur blanche réfléchit plus le rayonnement lumineux que les couleurs sombres."
+      },
+      {
+        "id": 29,
+        "question": "Entre 1901 et 2010, de combien de centimètres le niveau de la mer s'est-il élevé ?",
+        "propositions": [
+          "19",
+          "8",
+          "37",
+          "25"
+        ],
+        "réponse": "19",
+        "anecdote": "Dans son dernier rapport, le GIEC prévoit une hausse moyenne du niveau océanique de 26 cm à 98 cm d'ici 2100."
+      },
+      {
+        "id": 30,
+        "question": "En quelle année est apparu pour la première fois le terme « effet de serre » ?",
+        "propositions": [
+          "1824",
+          "1934",
+          "1956",
+          "1989"
+        ],
+        "réponse": "1824",
+        "anecdote": "Joseph Fourier appela « effet de serre » le phénomène démontré par Horace Bénédicte De Saussure à la fin du XVIIIe siècle."
+      }
+    ]
+    }
+  }
+}

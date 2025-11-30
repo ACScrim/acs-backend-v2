@@ -1,6 +1,6 @@
 import { FastifyPluginAsync } from "fastify";
 import { adminGuard } from "../../../middleware/authGuard";
-import { ISeason } from "@models/Season";
+import { ISeason } from "../../../models/Season";
 import { log } from "../../../utils/utils";
 
 const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {

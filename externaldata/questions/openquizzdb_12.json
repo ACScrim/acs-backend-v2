@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 1,
+  "mise-à-jour": "2025-01-28",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Nature",
+      "nom": "Arbres fruitiers",
+      "slogan": "L'heure de cueillir vos connaissances"
+    },
+    "en": {
+      "catégorie": "Nature",
+      "nom": "Fruit trees",
+      "slogan": "From orchard to small ornamental trees"
+    },
+    "es": {
+      "catégorie": "Naturaleza",
+      "nom": "Árboles frutales",
+      "slogan": "Del huerto a los pequeños árboles ornamentales"
+    },
+    "it": {
+      "catégorie": "Natura",
+      "nom": "Alberi da frutto",
+      "slogan": "Dal frutteto ai piccoli alberi ornamentali"
+    },
+    "de": {
+      "catégorie": "Natur",
+      "nom": "Obstbäume",
+      "slogan": "Vom Obstgarten bis zum kleinen Ziergehölz"
+    },
+    "nl": {
+      "catégorie": "Natuur",
+      "nom": "Fruitbomen",
+      "slogan": "Van boomgaard tot kleine sierbomen"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "De quoi est issu le fruit qui pousse dans la plupart de nos arbres fruitiers ?",
+        "propositions": [
+          "Fleur",
+          "Graine",
+          "Racine",
+          "Feuille"
+        ],
+        "réponse": "Fleur",
+        "anecdote": "La production de fruits est non seulement liée à la fleur, mais aussi au type de pollinisation, comme par exemple l'autopollinisation."
+      },
+      {
+        "id": 2,
+        "question": "Quel espace de terrain est dévolu à la culture d'arbres fruitiers ?",
+        "propositions": [
+          "Verger",
+          "Friche",
+          "Jardinière",
+          "Potager"
+        ],
+        "réponse": "Verger",
+        "anecdote": "Il existe différents types de vergers : les vergers conservatoires, les prés-vergers, les vergers commerciaux et de jardin potager."
+      },
+      {
+        "id": 3,
+        "question": "Quels fruits possèdent une teneur en eau réduite, avec une plus longue conservation ?",
+        "propositions": [
+          "Fruits secs",
+          "Fruits tempérés",
+          "Fruits rouges",
+          "Fruits AOC"
+        ],
+        "réponse": "Fruits secs",
+        "anecdote": "Les fruits secs peuvent se consommer tels quels ou s'incorporer à des recettes de cuisine, spécialement des recettes de pâtisserie."
+      },
+      {
+        "id": 4,
+        "question": "Quel arbre fruitier est utilisé pour ses qualités ornementales en Chine et au Japon ?",
+        "propositions": [
+          "Châtaignier",
+          "Grenadier",
+          "Pêcher",
+          "Cerisier"
+        ],
+        "réponse": "Cerisier",
+        "anecdote": "Les cerisiers ornementaux sont aussi cultivés ailleurs dans le monde comme plantation d'alignement le long des rues."
+      },
+      {
+        "id": 5,
+        "question": "Lequel de ces arbres peut donner un fruit à la peau duveteuse ou lisse ?",
+        "propositions": [
+          "Poirier",
+          "Citronnier",
+          "Cerisier",
+          "Pêcher"
+        ],
+        "réponse": "Pêcher",
+        "anecdote": "On peut classer les pêchers en quatre groupes : peau veloutée, peau lisse, noyau adhérant à la chair ou se détachant librement."
+      },
+      {
+        "id": 6,
+        "question": "Quel arbre des forêts et jardins est fort apprécié des écureuils pour ses fruits ?",
+        "propositions": [
+          "Noyer",
+          "Noisetier",
+          "Châtaignier",
+          "Chêne"
+        ],
+        "réponse": "Noisetier",
+        "anecdote": "Le noisetier est cultivé depuis des siècles non seulement pour ses fruits, mais aussi pour ses branches flexibles utilisées en vannerie."
+      },
+      {
+        "id": 7,
+        "question": "De quel arbre connaît-on à ce jour plus de 20 000 variétés de fruits ?",
+        "propositions": [
+          "Pommier",
+          "Pêcher",
+          "Poirier",
+          "Cerisier"
+        ],
+        "réponse": "Pommier",
+        "anecdote": "Les espèces de pommiers cultivées uniquement à titre ornemental sont souvent appelées de manière générique des pommier à fleurs."
+      },
+      {
+        "id": 8,
+        "question": "Quel arbre fruitier produit la reine-claude ou encore la mirabelle de Nancy ?",
+        "propositions": [
+          "Figuier",
+          "Cerisier",
+          "Prunier",
+          "Châtaignier"
+        ],
+        "réponse": "Prunier",
+        "anecdote": "La reine-claude est apparue en France à la suite de la découverte d'une prune ronde et verte sur un arbre importé tout droit d'Asie."
+      },
+      {
+        "id": 9,
+        "question": "Quel fruit se mange en dragée, en massepain ou déguisé dans la frangipane ?",
+        "propositions": [
+          "Cerise",
+          "Noisette",
+          "Mûre",
+          "Amande"
+        ],
+        "réponse": "Amande",
+        "anecdote": "Les amandes douces sont comestibles, tandis que les amandes amères, qui doivent être transformées, contiennent de l'amygdaline."
+      },
+      {
+        "id": 10,
+        "question": "Quel petit arbre fruitier est cultivé dans les régions méditerranéennes et subtropicales ?",
+        "propositions": [
+          "Citronnier",
+          "Grenadier",
+          "Olivier",
+          "Cerisier"
+        ],
+        "réponse": "Citronnier",
+        "anecdote": "Le citron est un fruit aux multiples bienfaits : il renforce le système immunitaire, et son acidité le rend utile pour nettoyer ou désinfecter."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel arbre propose un fruit renfermé dans une bogue épineuse ?",
+        "propositions": [
+          "Châtaignier",
+          "Prunier",
+          "Noisetier",
+          "Marronnier"
+        ],
+        "réponse": "Châtaignier",
+        "anecdote": "Au Moyen Âge, dans certaines régions rurales, les châtaignes constituaient une source essentielle d'alimentation pendant l'hiver."
+      },
+      {
+        "id": 12,
+        "question": "Quelle branche de l'arboriculture se concentre sur la culture des arbres fruitiers ?",
+        "propositions": [
+          "Viticulture",
+          "Sylviculture",
+          "Pomologie",
+          "Floriculture"
+        ],
+        "réponse": "Pomologie",
+        "anecdote": "Grâce aux travaux des pomologues, des variétés rares comme la pomme Reinette d'Armorique ou la poire Curé sont préservées."
+      },
+      {
+        "id": 13,
+        "question": "Quelle catégorie de fruits le sorbier permet-il de récolter ?",
+        "propositions": [
+          "Tempérés",
+          "Charnus",
+          "Secs",
+          "Forestiers"
+        ],
+        "réponse": "Forestiers",
+        "anecdote": "Les sorbiers et les alisiers sont des arbustes ou des arbres qui croissent notamment dans les forêts collinéennes et montagnardes."
+      },
+      {
+        "id": 14,
+        "question": "Quels insectes attaquent principalement les feuilles des arbres fruitiers ?",
+        "propositions": [
+          "Criquets",
+          "Pucerons",
+          "Scolytes",
+          "Termites"
+        ],
+        "réponse": "Pucerons",
+        "anecdote": "L'une des espèces ravageuses les plus connues est le phylloxéra, qui a atteint la quasi-totalité du vignoble français au XIXe siècle."
+      },
+      {
+        "id": 15,
+        "question": "Quel oiseau est considéré comme ravageur pour les fruits poussant sur nos arbres ?",
+        "propositions": [
+          "Rouge-gorge",
+          "Perruche",
+          "Merle",
+          "Buse"
+        ],
+        "réponse": "Merle",
+        "anecdote": "En plus des fruits de nos arbres, les merles se nourrissent aussi de baies, d'insectes, de vers et de divers autres petits animaux."
+      },
+      {
+        "id": 16,
+        "question": "Quel oiseau est réputé pour souvent détruire les bourgeons des arbres fruitiers ?",
+        "propositions": [
+          "Héron",
+          "Pinson",
+          "Hibou",
+          "Coucou"
+        ],
+        "réponse": "Pinson",
+        "anecdote": "Les pinsons sont des indicateurs de la santé des écosystèmes, leur présence dans une zone indiquant souvent une biodiversité riche."
+      },
+      {
+        "id": 17,
+        "question": "Quel arbre propose une drupe comestible à peau veloutée, de couleur jaune orangé ?",
+        "propositions": [
+          "Cerisier",
+          "Goyavier",
+          "Tamarinier",
+          "Abricotier"
+        ],
+        "réponse": "Abricotier",
+        "anecdote": "L'abricotier est une espèce vigoureuse venue d'Asie qui peut atteindre plus de six mètres de hauteur en situation favorable."
+      },
+      {
+        "id": 18,
+        "question": "Quelle opération botanique consiste à multiplier la production des arbres fruitiers ?",
+        "propositions": [
+          "Pollinisation",
+          "Bouturage",
+          "Greffe",
+          "Germination"
+        ],
+        "réponse": "Greffe",
+        "anecdote": "Le greffage est une opération qui consiste à implanter dans les tissus d'une plante un bourgeon ou un fragment quelconque."
+      },
+      {
+        "id": 19,
+        "question": "Quel arbre fruitier, dont le bois est utilisé pour les charpentes, a pour nom latin Castanea ?",
+        "propositions": [
+          "Mûrier",
+          "Châtaignier",
+          "Noisetier",
+          "Pommier"
+        ],
+        "réponse": "Châtaignier",
+        "anecdote": "Son bois est souvent utilisé pour fabriquer des tonneaux, des clôtures et des meubles, grâce à sa résistance à la pourriture."
+      },
+      {
+        "id": 20,
+        "question": "Quelle enveloppe verte entourant la coque est spécifique à la noix ?",
+        "propositions": [
+          "Pourpre",
+          "Pédoncule",
+          "Cramoisi",
+          "Brou"
+        ],
+        "réponse": "Brou",
+        "anecdote": "Dans certaines cultures, le brou est utilisé pour ses propriétés antiseptiques et astringentes, et pour traiter des problèmes de peau."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Comment appelle-t-on un arbre fruitier dont le tronc mesure plus de 1.60 m de hauteur ?",
+        "propositions": [
+          "Basse tige",
+          "Demi tige",
+          "En espalier",
+          "Haute tige"
+        ],
+        "réponse": "Haute tige",
+        "anecdote": "Ils sont taillés de manière à ce que leur cime soit plus aérée et à permettre à la lumière de pénétrer dans toutes les parties de l'arbre."
+      },
+      {
+        "id": 22,
+        "question": "Quel arbre fruitier de la famille des Bétulacées est aussi appelé coudrier ?",
+        "propositions": [
+          "Mûrier",
+          "Poirier",
+          "Noisetier",
+          "Bananier"
+        ],
+        "réponse": "Noisetier",
+        "anecdote": "Le noisetier intéresse beaucoup les trufficulteurs car il peut vivre en symbiose avec la truffe et il enrichit les truffières."
+      },
+      {
+        "id": 23,
+        "question": "Quels insectes ravageurs se nourrissent surtout de la sève des arbres fruitiers ?",
+        "propositions": [
+          "Bruches",
+          "Teignes",
+          "Mineuses",
+          "Pucerons"
+        ],
+        "réponse": "Pucerons",
+        "anecdote": "Les pucerons sont des insectes suceurs de sève qui attaquent de nombreux arbres fruitiers, les scolytes s'attaquant surtout au bois."
+      },
+      {
+        "id": 24,
+        "question": "Laquelle de ces propositions ne désigne pas une taille utilisée pour les arbres fruitiers ?",
+        "propositions": [
+          "Enveloppe",
+          "Plein vent",
+          "Cordon",
+          "Fuseau"
+        ],
+        "réponse": "Enveloppe",
+        "anecdote": "Une taille de forme particulière permet d'améliorer considérablement la fructification en optimisant l'exposition à la lumière."
+      },
+      {
+        "id": 25,
+        "question": "Dans nos contrées, quel est le premier arbre fruitier à fleurir à la fin de l'hiver ?",
+        "propositions": [
+          "Poirier",
+          "Amandier",
+          "Pommier",
+          "Noyer"
+        ],
+        "réponse": "Amandier",
+        "anecdote": "En plus des amandes, les fleurs de l'amandier sont parfois utilisées dans des infusions ou pour parfumer certains produits cosmétiques."
+      },
+      {
+        "id": 26,
+        "question": "Quel arbre au fruit sucré doit son nom à une ville espagnole ?",
+        "propositions": [
+          "Figuier",
+          "Noyer",
+          "Bergamotier",
+          "Grenadier"
+        ],
+        "réponse": "Grenadier",
+        "anecdote": "Arbre ancien, le grenadier peut vivre jusqu'à 200 ans, mais reste le plus productif en fruits seulement dans ses vingt premières années."
+      },
+      {
+        "id": 27,
+        "question": "Quel arbre fruitier est l'unique représentant du genre Cydonia ?",
+        "propositions": [
+          "Cognassier",
+          "Cerisier",
+          "Pêcher",
+          "Châtaignier"
+        ],
+        "réponse": "Cognassier",
+        "anecdote": "Généralement cuit avant d'être utilisé en cuisine, le coing est un fruit peu consommé cru à cause de sa fermeté et de son goût acide."
+      },
+      {
+        "id": 28,
+        "question": "Lequel de ces arbres propose un fruit proche cousin du pommier et du poirier ?",
+        "propositions": [
+          "Cognassier",
+          "Jujubier",
+          "Cocotier",
+          "Manguier"
+        ],
+        "réponse": "Cognassier",
+        "anecdote": "La plupart des variétés perdent leur voile cotonneux avant la fin de l'automne, lorsque le fruit devient jaune doré à maturité."
+      },
+      {
+        "id": 29,
+        "question": "Quel fruit possède la plus forte charge symbolique dans le monde chinois ?",
+        "propositions": [
+          "Pêche",
+          "Poire",
+          "Citron",
+          "Pomme"
+        ],
+        "réponse": "Pêche",
+        "anecdote": "La région de Fenghua, en Chine continentale, est réputée pour ses pêches et en particulier pour la pêche juteuse au miel."
+      },
+      {
+        "id": 30,
+        "question": "Quel arbre fruitier, composé environ d'une dizaine d'espèces, peut être blanc ou noir ?",
+        "propositions": [
+          "Mûrier",
+          "Noyer",
+          "Cerisier",
+          "Figuier"
+        ],
+        "réponse": "Mûrier",
+        "anecdote": "Bien que ressemblant à des baies, les mûres sont techniquement des fruits composés, formés de plusieurs petits drupes."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What does the fruit that grows in most of our fruit trees come from ?",
+        "propositions": [
+          "A leaf",
+          "A root",
+          "A flower",
+          "A branch"
+        ],
+        "réponse": "A flower",
+        "anecdote": "However, not all fruit consumed by humans is produced exclusively by trees."
+      },
+      {
+        "id": 2,
+        "question": "What land space is devoted to the cultivation of fruit trees ?",
+        "propositions": [
+          "Planter",
+          "Vegetable garden",
+          "Wasteland",
+          "Orchard"
+        ],
+        "réponse": "Orchard",
+        "anecdote": "There are different types of orchards: conservatory orchards, meadow orchards, commercial orchards and vegetable gardens."
+      },
+      {
+        "id": 3,
+        "question": "Which fruits have a reduced water content, with a longer shelf life ?",
+        "propositions": [
+          "Temperate fruits",
+          "Dried fruits",
+          "Red fruits",
+          "AOC fruits"
+        ],
+        "réponse": "Dried fruits",
+        "anecdote": "Dried fruits can be eaten as is or incorporated into cooking recipes, especially baking recipes."
+      },
+      {
+        "id": 4,
+        "question": "Which fruit tree is used for its ornamental qualities in China and Japan ?",
+        "propositions": [
+          "Cherry tree",
+          "Chestnut tree",
+          "Grenadier",
+          "To fish"
+        ],
+        "réponse": "Cherry tree",
+        "anecdote": "Ornamental cherry trees are also grown elsewhere in the world as a row planting along streets."
+      },
+      {
+        "id": 5,
+        "question": "Which of these trees can give a fruit with a fluffy or smooth skin ?",
+        "propositions": [
+          "To fish",
+          "Cherry tree",
+          "Pear tree",
+          "Lemon tree"
+        ],
+        "réponse": "To fish",
+        "anecdote": "Peach trees can be classified into four groups: velvety skin, smooth skin, kernel adhering to the flesh or loosely peeling off."
+      },
+      {
+        "id": 6,
+        "question": "Which tree is particularly popular with squirrels for the fruit it produces ?",
+        "propositions": [
+          "Coconut tree",
+          "Mango tree",
+          "Cherry tree",
+          "Hazelnut"
+        ],
+        "réponse": "Hazelnut",
+        "anecdote": "The hazel tree is said to be one of the rare species from the secondary era (-70 million years old) to have survived to the present day."
+      },
+      {
+        "id": 7,
+        "question": "From which tree do we know more than 20,000 varieties of fruit ?",
+        "propositions": [
+          "To fish",
+          "Cherry tree",
+          "Pear tree",
+          "Apple tree"
+        ],
+        "réponse": "Apple tree",
+        "anecdote": "Species grown only for ornamental purposes are often generically referred to as flowering apple trees."
+      },
+      {
+        "id": 8,
+        "question": "Which fruit tree produces the Reine-claude or the Mirabelle de Nancy ?",
+        "propositions": [
+          "Quince tree",
+          "Cherry tree",
+          "Chestnut tree",
+          "Plum tree"
+        ],
+        "réponse": "Plum tree",
+        "anecdote": "Reine-claude was created in France following the discovery of a green plum on a tree imported from Asia."
+      },
+      {
+        "id": 9,
+        "question": "Which fruit is eaten in dragee, marzipan or disguised in frangipane ?",
+        "propositions": [
+          "Cherry",
+          "Hazelnut",
+          "Almond",
+          "Blackberry"
+        ],
+        "réponse": "Almond",
+        "anecdote": "The almond is a nut resembling a small green peach whose flesh remains thin, hard and dry."
+      },
+      {
+        "id": 10,
+        "question": "Which small fruit tree is grown in the Mediterranean and subtropics ?",
+        "propositions": [
+          "Cherry tree",
+          "To fish",
+          "Chestnut tree",
+          "Lemon tree"
+        ],
+        "réponse": "Lemon tree",
+        "anecdote": "In France, the cultivation of the lemon tree is mainly confined to the Côte d'Azur (region of Menton) and Corsica."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which tree offers a fruit enclosed in a bug ?",
+        "propositions": [
+          "Plum tree",
+          "Cherry tree",
+          "Hazelnut",
+          "Chestnut tree"
+        ],
+        "réponse": "Chestnut tree",
+        "anecdote": "Once the chestnut has been collected, the chestnut dryer will allow it to dry for preservation."
+      },
+      {
+        "id": 12,
+        "question": "Which branch of arboriculture specializes in growing fruit trees ?",
+        "propositions": [
+          "Fruit growing",
+          "Graniculture",
+          "Fruviculture",
+          "Floriculture"
+        ],
+        "réponse": "Fruit growing",
+        "anecdote": "In the Middle Ages, the monasteries had an orchard planted with fruit trees under which the monks were buried."
+      },
+      {
+        "id": 13,
+        "question": "What category of fruit can the rowan tree harvest ?",
+        "propositions": [
+          "Dry",
+          "Temperate",
+          "Foresters",
+          "Fleshy"
+        ],
+        "réponse": "Foresters",
+        "anecdote": "Rowan trees and alis trees are shrubs or trees that grow especially in hill and mountain forests."
+      },
+      {
+        "id": 14,
+        "question": "Which insects primarily attack the leaves of fruit trees ?",
+        "propositions": [
+          "Aphids",
+          "Scolytes",
+          "Locusts",
+          "Termites"
+        ],
+        "réponse": "Aphids",
+        "anecdote": "One of the best-known pest species is phylloxera, which reached almost all of French vineyards in the 19th century."
+      },
+      {
+        "id": 15,
+        "question": "Which bird is considered a pest for the fruits growing on our trees ?",
+        "propositions": [
+          "Hummingbird",
+          "Nozzle",
+          "Merle",
+          "Parakeet"
+        ],
+        "réponse": "Merle",
+        "anecdote": "In addition to the fruits of our trees, blackbirds also feed on insects, worms and various other small animals."
+      },
+      {
+        "id": 16,
+        "question": "Which bird is known to often destroy the buds of fruit trees ?",
+        "propositions": [
+          "Hello",
+          "Heron",
+          "Owl",
+          "Tit"
+        ],
+        "réponse": "Tit",
+        "anecdote": "In our regions, chickadees nest in tree holes, but often use nest boxes in gardens."
+      },
+      {
+        "id": 17,
+        "question": "Which tree offers an edible, velvety-skinned, orange-yellow drupe ?",
+        "propositions": [
+          "Guava",
+          "Cherry tree",
+          "Tamarind",
+          "Apricot tree"
+        ],
+        "réponse": "Apricot tree",
+        "anecdote": "The apricot tree is a vigorous species: it can reach more than six meters in height in favorable natural conditions."
+      },
+      {
+        "id": 18,
+        "question": "What botanical operation consists in multiplying the production of fruit trees ?",
+        "propositions": [
+          "Pollination",
+          "Registry",
+          "Germination",
+          "Cuttings"
+        ],
+        "réponse": "Registry",
+        "anecdote": "Grafting is an operation which consists in implanting in the tissues of a plant a bud or any fragment."
+      },
+      {
+        "id": 19,
+        "question": "Which fruit tree, the wood of which is used for frameworks, has the Latin name Castanea ?",
+        "propositions": [
+          "Apple tree",
+          "Mulberry",
+          "Hazelnut",
+          "Chestnut tree"
+        ],
+        "réponse": "Chestnut tree",
+        "anecdote": "In the bug, which is a kind of round thorny box, is the fruit: the chestnut."
+      },
+      {
+        "id": 20,
+        "question": "What part outside the shell is specific to walnuts ?",
+        "propositions": [
+          "Carmine",
+          "Crimson",
+          "Purple",
+          "Brou"
+        ],
+        "réponse": "Brou",
+        "anecdote": "The fleshy part around the shell emits a juice that stains, used in dyeing: walnut stain."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What do you call a fruit tree whose trunk is more than 1.60 m high ?",
+        "propositions": [
+          "Caudex",
+          "High-rod",
+          "Megaphyll",
+          "Rhizome"
+        ],
+        "réponse": "High-rod",
+        "anecdote": "High-stem cultivation, used in pre-orchards, is becoming scarce in favor of monocultures of low-stem orchards."
+      },
+      {
+        "id": 22,
+        "question": "Which fruit tree of the Betulaceae family is also called a coudier ?",
+        "propositions": [
+          "Pear tree",
+          "Mulberry",
+          "Banana tree",
+          "Hazelnut"
+        ],
+        "réponse": "Hazelnut",
+        "anecdote": "The hazelnut tree is of great interest to truffle growers because it can live in symbiosis with the truffle and it enriches truffles."
+      },
+      {
+        "id": 23,
+        "question": "Which insect pests feed on the sap of fruit trees ?",
+        "propositions": [
+          "Bruches",
+          "Scolytes",
+          "Leafminers",
+          "Ringworms"
+        ],
+        "réponse": "Scolytes",
+        "anecdote": "The bark beetle cannot directly digest wood due to the presence of lignin and cellulose."
+      },
+      {
+        "id": 24,
+        "question": "Which of the following does not designate a size used for fruit trees ?",
+        "propositions": [
+          "Full wind",
+          "Envelope",
+          "Time zone",
+          "Cord"
+        ],
+        "réponse": "Envelope",
+        "anecdote": "A specially shaped pruning significantly improves fruiting by optimizing exposure to light."
+      },
+      {
+        "id": 25,
+        "question": "In our regions, what is the first fruit tree to flower at the end of winter ?",
+        "propositions": [
+          "Walnut",
+          "Pear tree",
+          "Apple tree",
+          "Almond tree"
+        ],
+        "réponse": "Almond tree",
+        "anecdote": "The almond tree, with its pinkish white flowers, is one of the symbols of love and virginity."
+      },
+      {
+        "id": 26,
+        "question": "Which fruit tree owes its name to a Spanish city ?",
+        "propositions": [
+          "Grenadier",
+          "Bergamot tree",
+          "Fig tree",
+          "Walnut"
+        ],
+        "réponse": "Grenadier",
+        "anecdote": "The pomegranate can live up to 200 years but remains the most productive in fruit only in its first twenty years."
+      },
+      {
+        "id": 27,
+        "question": "Which fruit tree is the only representative of the genus Cydonia ?",
+        "propositions": [
+          "Cherry tree",
+          "To fish",
+          "Chestnut tree",
+          "Quince tree"
+        ],
+        "réponse": "Quince tree",
+        "anecdote": "The fruits of the quince tree, of the genus Cydonia, are quinces also called golden apples or Cydonia pears."
+      },
+      {
+        "id": 28,
+        "question": "Which of these trees has a fruit that is closely related to apple and pear ?",
+        "propositions": [
+          "Jujube tree",
+          "Coconut tree",
+          "Quince tree",
+          "Mango tree"
+        ],
+        "réponse": "Quince tree",
+        "anecdote": "Most varieties lose their cottony veil before late fall, when the fruit turns golden yellow when ripe."
+      },
+      {
+        "id": 29,
+        "question": "Which fruit has the strongest symbolic weight in the Chinese world ?",
+        "propositions": [
+          "Lemon",
+          "Pear",
+          "Apple",
+          "Fishing"
+        ],
+        "réponse": "Fishing",
+        "anecdote": "The Fenghua region in mainland China is famous for its peaches and especially for the juicy honey peach."
+      },
+      {
+        "id": 30,
+        "question": "Which fruit tree, composed of around ten species, can be white or black ?",
+        "propositions": [
+          "Bergamot tree",
+          "Mulberry",
+          "Fig tree",
+          "Walnut"
+        ],
+        "réponse": "Mulberry",
+        "anecdote": "Mulberry trees should not be confused with brambles, woody plants of the Rosaceae family."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Woher stammen die Früchte, die in den meisten unserer Obstbäume wachsen ?",
+        "propositions": [
+          "Ein Zweig",
+          "Eine Blume",
+          "Eine Wurzel",
+          "Ein Blatt"
+        ],
+        "réponse": "Eine Blume",
+        "anecdote": "Allerdings werden nicht alle vom Menschen verzehrten Früchte ausschließlich von Bäumen produziert."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Landraum ist dem Anbau von Obstbäumen gewidmet ?",
+        "propositions": [
+          "Pflanzgefäß",
+          "Ödland",
+          "Obstgarten",
+          "Gemüsegarten"
+        ],
+        "réponse": "Obstgarten",
+        "anecdote": "Es gibt verschiedene Arten von Obstgärten: Wintergartenplantagen, Wiesenplantagen, kommerzielle Obstgärten und Gemüsegärten."
+      },
+      {
+        "id": 3,
+        "question": "Welche Früchte haben einen reduzierten Wassergehalt und eine längere Haltbarkeit ?",
+        "propositions": [
+          "Trockenfrüchte",
+          "Rote Früchte",
+          "AOC Früchte",
+          "Gemäßigte Früchte ","Fruits tempérés"
+        ],
+        "réponse": "Trockenfrüchte",
+        "anecdote": "Trockenfrüchte können unverändert gegessen oder in Kochrezepte, insbesondere Backrezepte, aufgenommen werden."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Obstbaum wird in China und Japan wegen seiner Zierqualitäten verwendet ?",
+        "propositions": [
+          "Kirschbaum",
+          "Fischen",
+          "Grenadier",
+          "Kastanienbaum"
+        ],
+        "réponse": "Kirschbaum",
+        "anecdote": "Zierkirschbäume werden auch anderswo auf der Welt als Reihenpflanzung entlang der Straßen kultiviert."
+      },
+      {
+        "id": 5,
+        "question": "Welcher dieser Bäume kann eine Frucht mit einer flauschigen oder glatten Haut ergeben ?",
+        "propositions": [
+          "Birnbaum",
+          "Zitronenbaum",
+          "Fischen",
+          "Kirschbaum"
+        ],
+        "réponse": "Fischen",
+        "anecdote": "Pfirsichbäume können in vier Gruppen eingeteilt werden: samtige Haut, glatte Haut, am Fleisch haftender Kern oder lockeres Abblättern."
+      },
+      {
+        "id": 6,
+        "question": "Welcher Baum ist bei Eichhörnchen besonders beliebt für die Früchte, die er produziert ?",
+        "propositions": [
+          "Kirschbaum",
+          "Mangobaum",
+          "Kokosnussbaum",
+          "Haselnuss"
+        ],
+        "réponse": "Haselnuss",
+        "anecdote": "Der Haselnussbaum soll eine der seltenen Arten aus der Sekundarstufe (-70 Millionen Jahre alt) sein, die bis heute überlebt haben."
+      },
+      {
+        "id": 7,
+        "question": "Von welchem Baum kennen wir mehr als 20.000 Obstsorten ?",
+        "propositions": [
+          "Fischen",
+          "Apfelbaum",
+          "Birnbaum",
+          "Kirschbaum"
+        ],
+        "réponse": "Apfelbaum",
+        "anecdote": "Arten, die nur zu Zierzwecken angebaut werden, werden häufig allgemein als blühende Apfelbäume bezeichnet."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Obstbaum produziert die Reine-Claude oder die Mirabelle de Nancy ?",
+        "propositions": [
+          "Quittenbaum",
+          "Kastanienbaum",
+          "Kirschbaum",
+          "Pflaumenbaum"
+        ],
+        "réponse": "Pflaumenbaum",
+        "anecdote": "Reine-claude wurde in Frankreich nach der Entdeckung einer grünen Pflaume auf einem aus Asien importierten Baum geschaffen."
+      },
+      {
+        "id": 9,
+        "question": "Welche Früchte werden in Dragee, Marzipan oder in Frangipane getarnt gegessen ?",
+        "propositions": [
+          "Haselnuss",
+          "Brombeere",
+          "Mandel",
+          "Kirsche"
+        ],
+        "réponse": "Mandel",
+        "anecdote": "Die Mandel ist eine Nuss, die einem kleinen grünen Pfirsich ähnelt, dessen Fruchtfleisch dünn, hart und trocken bleibt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher kleine Obstbaum wächst im Mittelmeerraum und in den Subtropen ?",
+        "propositions": [
+          "Fischen",
+          "Zitronenbaum",
+          "Kastanienbaum",
+          "Kirschbaum"
+        ],
+        "réponse": "Zitronenbaum",
+        "anecdote": "In Frankreich beschränkt sich der Anbau des Zitronenbaums hauptsächlich auf die Côte d'Azur (Region Menton) und Korsika."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Baum bietet eine Frucht, die in einem Käfer eingeschlossen ist ?",
+        "propositions": [
+          "Pflaumenbaum",
+          "Kirschbaum",
+          "Kastanienbaum",
+          "Haselnuss"
+        ],
+        "réponse": "Kastanienbaum",
+        "anecdote": "Sobald die Kastanie gesammelt wurde, lässt der Kastanientrockner sie zur Konservierung trocknen."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Baumzuchtzweig ist auf den Anbau von Obstbäumen spezialisiert ?",
+        "propositions": [
+          "Obstbau",
+          "Graniculture",
+          "Blumenzucht",
+          "Obstbau"
+        ],
+        "réponse": "Obstbau",
+        "anecdote": "Im Mittelalter hatten die Klöster einen Obstgarten mit Obstbäumen bepflanzt, unter dem die Mönche begraben wurden."
+      },
+      {
+        "id": 13,
+        "question": "Welche Obstkategorie kann der Ebereschenbaum ernten ?",
+        "propositions": [
+          "Trocken",
+          "Förster",
+          "Gemäßigt",
+          "Fleischig"
+        ],
+        "réponse": "Förster",
+        "anecdote": "Ebereschen- und Alis-Bäume sind Sträucher oder Bäume, die besonders in Hügel- und Bergwäldern wachsen."
+      },
+      {
+        "id": 14,
+        "question": "Welche Insekten befallen hauptsächlich die Blätter von Obstbäumen ?",
+        "propositions": [
+          "Heuschrecken",
+          "Scolytes",
+          "Termiten",
+          "Blattläuse"
+        ],
+        "réponse": "Blattläuse",
+        "anecdote": "Eine der bekanntesten Schädlingsarten ist die Reblaus, die im 19. Jahrhundert fast alle französischen Weinberge erreichte."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Vogel gilt als Schädling für die Früchte, die auf unseren Bäumen wachsen ?",
+        "propositions": [
+          "Merle",
+          "Sittich",
+          "Düse",
+          "Kolibri"
+        ],
+        "réponse": "Merle",
+        "anecdote": "Neben den Früchten unserer Bäume ernähren sich Amseln auch von Insekten, Würmern und verschiedenen anderen Kleintieren."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Vogel zerstört bekanntermaßen oft die Knospen von Obstbäumen ?",
+        "propositions": [
+          "Reiher",
+          "Tit",
+          "Hallo",
+          "Eule"
+        ],
+        "réponse": "Tit",
+        "anecdote": "In unseren Regionen nisten Chickadees in Baumlöchern, verwenden aber häufig Nistkästen in Gärten."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Baum bietet eine essbare, samtige, orange-gelbe Steinfrucht ?",
+        "propositions": [
+          "Kirschbaum",
+          "Tamarinde",
+          "Guave",
+          "Aprikosenbaum"
+        ],
+        "réponse": "Aprikosenbaum",
+        "anecdote": "Der Aprikosenbaum ist eine kräftige Art: Er kann unter günstigen natürlichen Bedingungen eine Höhe von mehr als sechs Metern erreichen."
+      },
+      {
+        "id": 18,
+        "question": "Welche botanische Operation besteht darin, die Produktion von Obstbäumen zu vervielfachen ?",
+        "propositions": [
+          "Registrierung",
+          "Stecklinge",
+          "Bestäubung",
+          "Keimung"
+        ],
+        "réponse": "Registrierung",
+        "anecdote": "Das Pfropfen ist eine Operation, bei der eine Knospe oder ein beliebiges Fragment in das Gewebe einer Pflanze implantiert wird."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Obstbaum, dessen Holz für Gerüste verwendet wird, hat den lateinischen Namen Castanea ?",
+        "propositions": [
+          "Apfelbaum",
+          "Maulbeere",
+          "Haselnuss",
+          "Kastanienbaum"
+        ],
+        "réponse": "Kastanienbaum",
+        "anecdote": "In dem Käfer, der eine Art runde dornige Schachtel ist, befindet sich die Frucht: die Kastanie."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Teil außerhalb der Schale ist spezifisch für Walnüsse ?",
+        "propositions": [
+          "Purpur",
+          "Karmin",
+          "Brou",
+          "Lila"
+        ],
+        "réponse": "Brou",
+        "anecdote": "Der fleischige Teil um die Schale gibt einen Saft ab, der beim Färben Flecken hinterlässt: Walnussflecken."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie nennt man einen Obstbaum, dessen Stamm mehr als 1,60 m hoch ist ?",
+        "propositions": [
+          "Megaphyll",
+          "Rhizom",
+          "High-Rod",
+          "Caudex"
+        ],
+        "réponse": "High-Rod",
+        "anecdote": "Hochstammanbau, der in Vorobstgärten verwendet wird, wird zugunsten von Monokulturen von Niedrigstammplantagen immer knapper."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Obstbaum der Familie der Betulaceae wird auch als Coudier bezeichnet ?",
+        "propositions": [
+          "Maulbeere",
+          "Birnbaum",
+          "Haselnuss",
+          "Bananenbaum"
+        ],
+        "réponse": "Haselnuss",
+        "anecdote": "Der Haselnussbaum ist für Trüffelzüchter von großem Interesse, da er in Symbiose mit dem Trüffel leben kann und Trüffel anreichert."
+      },
+      {
+        "id": 23,
+        "question": "Welche Insektenschädlinge ernähren sich vom Saft von Obstbäumen ?",
+        "propositions": [
+          "Scolytes",
+          "Bruches",
+          "Leafminers",
+          "Ringwürmer"
+        ],
+        "réponse": "Scolytes",
+        "anecdote": "Der Borkenkäfer kann Holz aufgrund von Lignin und Cellulose nicht direkt verdauen."
+      },
+      {
+        "id": 24,
+        "question": "Welche der folgenden Angaben kennzeichnet keine Größe für Obstbäume ?",
+        "propositions": [
+          "Umschlag",
+          "Voller Wind",
+          "Zeitzone",
+          "Schnur"
+        ],
+        "réponse": "Umschlag",
+        "anecdote": "Ein speziell geformter Schnitt verbessert die Fruchtbildung erheblich, indem die Belichtung optimiert wird."
+      },
+      {
+        "id": 25,
+        "question": "Was ist in unseren Regionen der erste Obstbaum, der am Ende des Winters blüht ?",
+        "propositions": [
+          "Apfelbaum",
+          "Walnuss",
+          "Mandelbaum",
+          "Birnbaum"
+        ],
+        "réponse": "Mandelbaum",
+        "anecdote": "Der Mandelbaum mit seinen rosa-weißen Blüten ist eines der Symbole für Liebe und Jungfräulichkeit."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Obstbaum verdankt seinen Namen einer spanischen Stadt ?",
+        "propositions": [
+          "Walnuss",
+          "Feigenbaum",
+          "Grenadier",
+          "Bergamottenbaum"
+        ],
+        "réponse": "Grenadier",
+        "anecdote": "Der Granatapfel kann bis zu 200 Jahre alt werden, bleibt aber erst in den ersten zwanzig Jahren der produktivste in Obst."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Obstbaum ist der einzige Vertreter der Gattung Cydonia ?",
+        "propositions": [
+          "Quittenbaum",
+          "Fischen",
+          "Kirschbaum",
+          "Kastanienbaum"
+        ],
+        "réponse": "Quittenbaum",
+        "anecdote": "Die Früchte des Quittenbaums der Gattung Cydonia sind Quitten, die auch als goldene Äpfel oder Cydonia-Birnen bezeichnet werden."
+      },
+      {
+        "id": 28,
+        "question": "Welcher dieser Bäume hat eine Frucht, die eng mit Apfel und Birne verwandt ist ?",
+        "propositions": [
+          "Mangobaum",
+          "Jujubebaum",
+          "Quittenbaum",
+          "Kokosnussbaum"
+        ],
+        "réponse": "Quittenbaum",
+        "anecdote": "Die meisten Sorten verlieren ihren Baumwollschleier vor dem späten Herbst, wenn die Frucht im reifen Zustand goldgelb wird."
+      },
+      {
+        "id": 29,
+        "question": "Welche Frucht hat das stärkste symbolische Gewicht in der chinesischen Welt ?",
+        "propositions": [
+          "Birne",
+          "Apple",
+          "Zitrone",
+          "Angeln"
+        ],
+        "réponse": "Angeln",
+        "anecdote": "Die Fenghua-Region auf dem chinesischen Festland ist berühmt für ihre Pfirsiche und insbesondere für den saftigen Honigpfirsich."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Obstbaum, der aus etwa zehn Arten besteht, kann weiß oder schwarz sein ?",
+        "propositions": [
+          "Bergamottenbaum",
+          "Maulbeere",
+          "Feigenbaum",
+          "Walnuss"
+        ],
+        "réponse": "Maulbeere",
+        "anecdote": "Maulbeerbäume sollten nicht mit Brombeersträuchern der Familie der Rosaceae verwechselt werden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿De qué proviene la fruta que crece en la mayoría de nuestros árboles frutales ?",
+        "propositions": [
+          "Una rama",
+          "Una flor",
+          "Una raíz",
+          "Una hoja"
+        ],
+        "réponse": "Una flor",
+        "anecdote": "Sin embargo, no toda la fruta consumida por los seres humanos es producida exclusivamente por árboles."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué espacio de tierra se dedica al cultivo de árboles frutales ?",
+        "propositions": [
+          "Jardinera",
+          "Huerta",
+          "Wasteland",
+          "Huerto"
+        ],
+        "réponse": "Huerto",
+        "anecdote": "Hay diferentes tipos de huertas: huertas de invernadero, huertas de pradera, huertas comerciales y huertas."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué frutas tienen un contenido de agua reducido, con una vida útil más larga ?",
+        "propositions": [
+          "Frutas AOC",
+          "Frutas templadas",
+          "Frutos rojos",
+          "Frutos secos"
+        ],
+        "réponse": "Frutos secos",
+        "anecdote": "Las frutas secas se pueden comer tal cual o incorporarlas en recetas de cocina, especialmente recetas para hornear."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué árbol frutal se utiliza por sus cualidades ornamentales en China y Japón ?",
+        "propositions": [
+          "Castaño",
+          "Pescar",
+          "Granadero",
+          "Cerezo"
+        ],
+        "réponse": "Cerezo",
+        "anecdote": "Los cerezos ornamentales también se cultivan en otras partes del mundo en hileras a lo largo de las calles."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál de estos árboles puede dar una fruta con piel suave o esponjosa ?",
+        "propositions": [
+          "Pescar",
+          "Árbol de limón",
+          "Peral",
+          "Cerezo"
+        ],
+        "réponse": "Pescar",
+        "anecdote": "Los melocotoneros se pueden clasificar en cuatro grupos: piel aterciopelada, piel suave, grano adherido a la pulpa o pelado libremente."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué árbol es particularmente popular entre las ardillas por la fruta que produce ?",
+        "propositions": [
+          "Árbol de mango",
+          "Cerezo",
+          "Avellana",
+          "Árbol de coco"
+        ],
+        "réponse": "Avellana",
+        "anecdote": "Se dice que el avellano es una de las raras especies de la era secundaria (-70 millones de años) que ha sobrevivido hasta nuestros días."
+      },
+      {
+        "id": 7,
+        "question": "¿De qué árbol conocemos más de 20.000 variedades de frutos ?",
+        "propositions": [
+          "Manzano",
+          "Peral",
+          "Pescar",
+          "Cerezo"
+        ],
+        "réponse": "Manzano",
+        "anecdote": "Las especies cultivadas solo con fines ornamentales a menudo se conocen genéricamente como manzanos en flor."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué árbol frutal produce el Reine-claude o el Mirabelle de Nancy ?",
+        "propositions": [
+          "Cerezo",
+          "Árbol de membrillo",
+          "Castaño",
+          "Ciruelo"
+        ],
+        "réponse": "Ciruelo",
+        "anecdote": "Reine-claude se creó en Francia tras el descubrimiento de una ciruela verde en un árbol importado de Asia."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué fruta se come en gragea, mazapán o disfrazada de frangipane ?",
+        "propositions": [
+          "Almendra",
+          "Cherry",
+          "Blackberry",
+          "Avellana"
+        ],
+        "réponse": "Almendra",
+        "anecdote": "La almendra es una nuez que se asemeja a un pequeño melocotón verde cuya pulpa permanece fina, dura y seca."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué pequeño árbol frutal se cultiva en el Mediterráneo y los subtrópicos ?",
+        "propositions": [
+          "Cerezo",
+          "Castaño",
+          "Árbol de limón",
+          "Pescar"
+        ],
+        "réponse": "Árbol de limón",
+        "anecdote": "En Francia, el cultivo del limonero se limita principalmente a la Côte d'Azur (región de Menton) y Córcega."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué árbol ofrece una fruta encerrada en un insecto ?",
+        "propositions": [
+          "Cerezo",
+          "Ciruelo",
+          "Castaño",
+          "Avellana"
+        ],
+        "réponse": "Castaño",
+        "anecdote": "Una vez que se ha recogido la castaña, el secador de castañas permitirá que se seque para su conservación."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué rama de la arboricultura se especializa en el cultivo de árboles frutales ?",
+        "propositions": [
+          "Fruvicultura",
+          "Cultivo de frutas",
+          "Floricultura",
+          "Granicultura"
+        ],
+        "réponse": "Cultivo de frutas",
+        "anecdote": "En la Edad Media, los monasterios tenían un huerto plantado de árboles frutales bajo el cual se enterraba a los monjes."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué categoría de fruta puede cosechar el árbol de serbal ?",
+        "propositions": [
+          "Carnoso",
+          "Silvicultores",
+          "Seco",
+          "Templado"
+        ],
+        "réponse": "Silvicultores",
+        "anecdote": "Los árboles de serbal y alis son arbustos o árboles que crecen especialmente en bosques de colinas y montañas."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué insectos atacan principalmente las hojas de los árboles frutales ?",
+        "propositions": [
+          "Pulgones",
+          "Scolytes",
+          "Termitas",
+          "Langostas"
+        ],
+        "réponse": "Pulgones",
+        "anecdote": "Una de las plagas más conocidas es la filoxera, que llegó a casi todos los viñedos franceses en el siglo XIX."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué ave se considera una plaga para las frutas que crecen en nuestros árboles ?",
+        "propositions": [
+          "Colibrí",
+          "Periquito",
+          "Merle",
+          "Boquilla"
+        ],
+        "réponse": "Merle",
+        "anecdote": "Además de los frutos de nuestros árboles, los mirlos también se alimentan de insectos, gusanos y otros animales pequeños."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué ave se sabe que a menudo destruye las yemas de los árboles frutales ?",
+        "propositions": [
+          "Tit",
+          "Hola ","Coucou",
+          "Búho",
+          "Heron"
+        ],
+        "réponse": "Tit",
+        "anecdote": "En nuestras regiones, los carboneros anidan en los agujeros de los árboles, pero a menudo usan cajas nido en los jardines."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué árbol ofrece una drupa comestible de piel aterciopelada de color amarillo anaranjado ?",
+        "propositions": [
+          "Árbol de albaricoque",
+          "Guayaba",
+          "Tamarindo",
+          "Cerezo"
+        ],
+        "réponse": "Árbol de albaricoque",
+        "anecdote": "El albaricoquero es una especie vigorosa: puede alcanzar más de seis metros de altura en condiciones naturales favorables."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué operación botánica consiste en multiplicar la producción de frutales ?",
+        "propositions": [
+          "Esquejes",
+          "Polinización",
+          "Germinación",
+          "Registro"
+        ],
+        "réponse": "Registro",
+        "anecdote": "El injerto es una operación que consiste en implantar en los tejidos de una planta una yema o cualquier fragmento."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué árbol frutal, cuya madera se utiliza para marcos, tiene el nombre latino Castanea ?",
+        "propositions": [
+          "Avellana",
+          "Castaño",
+          "Mulberry",
+          "Manzano"
+        ],
+        "réponse": "Castaño",
+        "anecdote": "En el insecto, que es una especie de caja espinosa redonda, está la fruta: la castaña."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué parte exterior de la cáscara es específica de las nueces ?",
+        "propositions": [
+          "Púrpura",
+          "Crimson",
+          "Carmine",
+          "Brou"
+        ],
+        "réponse": "Brou",
+        "anecdote": "La parte carnosa alrededor de la cáscara emite un jugo que tiñe, utilizado en la tintura: mancha de nuez."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cómo se llama un árbol frutal cuyo tronco tiene más de 1,60 m de altura ?",
+        "propositions": [
+          "Caña alta",
+          "Caudex",
+          "Rizoma",
+          "Megaphyll"
+        ],
+        "réponse": "Caña alta",
+        "anecdote": "El cultivo de tallo alto, utilizado en pre-huertos, se está volviendo escaso a favor de los monocultivos de huertos de tallo bajo."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué árbol frutal de la familia Betulaceae también se llama coudier ?",
+        "propositions": [
+          "Mulberry",
+          "Avellana",
+          "Peral",
+          "Árbol de plátano"
+        ],
+        "réponse": "Avellana",
+        "anecdote": "El árbol de la avellana es de gran interés para los trucheros porque puede vivir en simbiosis con la trufa y enriquece las trufas."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué plagas de insectos se alimentan de la savia de los árboles frutales ?",
+        "propositions": [
+          "Scolytes",
+          "Bruches",
+          "Mineros de hojas",
+          "Tiña"
+        ],
+        "réponse": "Scolytes",
+        "anecdote": "El escarabajo de la corteza no puede digerir directamente la madera debido a la presencia de lignina y celulosa."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál de los siguientes no designa un tamaño utilizado para árboles frutales ?",
+        "propositions": [
+          "Cordón",
+          "Viento completo",
+          "Zona horaria",
+          "Sobre"
+        ],
+        "réponse": "Sobre",
+        "anecdote": "Una poda de forma especial mejora significativamente la fructificación al optimizar la exposición a la luz."
+      },
+      {
+        "id": 25,
+        "question": "En nuestras regiones, ¿cuál es el primer árbol frutal que florece al final del invierno ?",
+        "propositions": [
+          "Manzano",
+          "Peral",
+          "Nuez",
+          "Almendro"
+        ],
+        "réponse": "Almendro",
+        "anecdote": "El almendro, con sus flores blancas rosáceas, es uno de los símbolos del amor y la virginidad."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué árbol frutal debe su nombre a una ciudad española ?",
+        "propositions": [
+          "Nuez",
+          "Granadero",
+          "Árbol de bergamota",
+          "Higuera"
+        ],
+        "réponse": "Granadero",
+        "anecdote": "La granada puede vivir hasta 200 años, pero sigue siendo la fruta más productiva solo en sus primeros veinte años."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué árbol frutal es el único representante del género Cydonia ?",
+        "propositions": [
+          "Árbol de membrillo",
+          "Pescar",
+          "Cerezo",
+          "Castaño"
+        ],
+        "réponse": "Árbol de membrillo",
+        "anecdote": "Los frutos del membrillo, del género Cydonia, son membrillos también llamados manzanas doradas o peras Cydonia."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál de estos árboles tiene una fruta que está estrechamente relacionada con la manzana y la pera ?",
+        "propositions": [
+          "Árbol de membrillo",
+          "Árbol de mango",
+          "Árbol de azufaifo",
+          "Árbol de coco"
+        ],
+        "réponse": "Árbol de membrillo",
+        "anecdote": "La mayoría de las variedades pierden su velo algodonoso antes de finales del otoño, cuando la fruta se vuelve amarilla dorada cuando está madura."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué fruta tiene el mayor peso simbólico en el mundo chino ?",
+        "propositions": [
+          "Pesca",
+          "Pera",
+          "Apple",
+          "Limón"
+        ],
+        "réponse": "Pesca",
+        "anecdote": "La región de Fenghua en China continental es famosa por sus melocotones y especialmente por el jugoso melocotón de miel."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué árbol frutal, compuesto por unas diez especies, puede ser blanco o negro ?",
+        "propositions": [
+          "Árbol de bergamota",
+          "Mulberry",
+          "Nuez",
+          "Higuera"
+        ],
+        "réponse": "Mulberry",
+        "anecdote": "Las moreras no deben confundirse con las zarzas, plantas leñosas de la familia de las rosáceas."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Da cosa proviene il frutto che cresce nella maggior parte dei nostri alberi da frutto ?",
+        "propositions": [
+          "Una radice",
+          "Un ramo",
+          "Una foglia",
+          "Un fiore"
+        ],
+        "réponse": "Un fiore",
+        "anecdote": "Tuttavia, non tutta la frutta consumata dall'uomo è prodotta esclusivamente dagli alberi."
+      },
+      {
+        "id": 2,
+        "question": "Quale spazio terrestre è dedicato alla coltivazione di alberi da frutto ?",
+        "propositions": [
+          "Orto",
+          "Frutteto",
+          "Fioriera",
+          "Wasteland"
+        ],
+        "réponse": "Frutteto",
+        "anecdote": "Esistono diversi tipi di frutteti: frutteti a giardino d'inverno, frutteti a prato, frutteti commerciali e orti."
+      },
+      {
+        "id": 3,
+        "question": "Quali frutti hanno un contenuto d'acqua ridotto, con una maggiore conservabilità ?",
+        "propositions": [
+          "Frutti temperati",
+          "Frutti rossi",
+          "Frutti DOP",
+          "Frutta secca"
+        ],
+        "réponse": "Frutta secca",
+        "anecdote": "La frutta secca può essere consumata così com'è o incorporata nelle ricette di cucina, in particolare nelle ricette di cottura."
+      },
+      {
+        "id": 4,
+        "question": "Quale albero da frutto viene utilizzato per le sue qualità ornamentali in Cina e Giappone ?",
+        "propositions": [
+          "Pescare",
+          "Castagno",
+          "Ciliegio",
+          "Grenadier"
+        ],
+        "réponse": "Ciliegio",
+        "anecdote": "I ciliegi ornamentali vengono coltivati anche in altre parti del mondo come filari che piantano lungo le strade."
+      },
+      {
+        "id": 5,
+        "question": "Quale di questi alberi può dare un frutto con una buccia soffice o liscia ?",
+        "propositions": [
+          "Pero",
+          "Albero di limone",
+          "Pescare",
+          "Ciliegio"
+        ],
+        "réponse": "Pescare",
+        "anecdote": "Gli alberi di pesco possono essere classificati in quattro gruppi: buccia vellutata, buccia liscia, nocciolo che aderisce alla carne o che si stacca liberamente."
+      },
+      {
+        "id": 6,
+        "question": "Quale albero è particolarmente apprezzato dagli scoiattoli per i frutti che produce ?",
+        "propositions": [
+          "Albero di mango",
+          "Albero di cocco",
+          "Ciliegio",
+          "Nocciola"
+        ],
+        "réponse": "Nocciola",
+        "anecdote": "Si dice che il nocciolo sia una delle specie rare dell'era secondaria (-70 milioni di anni) sopravvissuta fino ai giorni nostri."
+      },
+      {
+        "id": 7,
+        "question": "Di quale albero conosciamo più di 20.000 varietà di frutta ?",
+        "propositions": [
+          "Pero",
+          "Melo",
+          "Pescare",
+          "Ciliegio"
+        ],
+        "réponse": "Melo",
+        "anecdote": "Le specie coltivate solo per scopi ornamentali sono spesso chiamate genericamente meli in fiore."
+      },
+      {
+        "id": 8,
+        "question": "Quale albero da frutto produce la Reine-claude o la Mirabelle de Nancy ?",
+        "propositions": [
+          "Albero di mele cotogne",
+          "Ciliegio",
+          "Castagno",
+          "Susino"
+        ],
+        "réponse": "Susino",
+        "anecdote": "Reine-claude nasce in Francia in seguito alla scoperta di una prugna verde su un albero importato dall'Asia."
+      },
+      {
+        "id": 9,
+        "question": "Quale frutto si mangia in confetto, marzapane o camuffato in frangipane ?",
+        "propositions": [
+          "Cherry",
+          "Nocciola",
+          "Mandorla",
+          "Blackberry"
+        ],
+        "réponse": "Mandorla",
+        "anecdote": "La mandorla è una noce che ricorda una piccola pesca verde la cui polpa rimane sottile, dura e asciutta."
+      },
+      {
+        "id": 10,
+        "question": "Quale piccolo albero da frutto viene coltivato nel Mediterraneo e nelle regioni subtropicali ?",
+        "propositions": [
+          "Castagno",
+          "Albero di limone",
+          "Pescare",
+          "Ciliegio"
+        ],
+        "réponse": "Albero di limone",
+        "anecdote": "In Francia, la coltivazione della pianta del limone è limitata principalmente alla Costa Azzurra (regione di Mentone) e alla Corsica."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale albero offre un frutto racchiuso in un insetto ?",
+        "propositions": [
+          "Susino",
+          "Castagno",
+          "Ciliegio",
+          "Nocciola"
+        ],
+        "réponse": "Castagno",
+        "anecdote": "Una volta che la castagna è stata raccolta, l'essiccatoio le permetterà di essiccare per la conservazione."
+      },
+      {
+        "id": 12,
+        "question": "Quale ramo dell'arboricoltura è specializzato nella coltivazione di alberi da frutto ?",
+        "propositions": [
+          "Granicoltura",
+          "Floricoltura",
+          "Fruvicoltura",
+          "Frutticoltura"
+        ],
+        "réponse": "Frutticoltura",
+        "anecdote": "Nel Medioevo i monasteri avevano un frutteto piantumato con alberi da frutto sotto il quale venivano sepolti i monaci."
+      },
+      {
+        "id": 13,
+        "question": "Quale categoria di frutti può raccogliere il sorbo ?",
+        "propositions": [
+          "Forestali",
+          "Secco",
+          "Temperato",
+          "Carnoso"
+        ],
+        "réponse": "Forestali",
+        "anecdote": "Rowan e alis sono arbusti o alberi che crescono soprattutto nelle foreste di collina e montagna."
+      },
+      {
+        "id": 14,
+        "question": "Quali insetti attaccano principalmente le foglie degli alberi da frutto ?",
+        "propositions": [
+          "Scolytes",
+          "Termiti",
+          "Locuste",
+          "Afidi"
+        ],
+        "réponse": "Afidi",
+        "anecdote": "Una delle specie di parassiti più note è la fillossera, che nel XIX secolo raggiunse quasi tutti i vigneti francesi."
+      },
+      {
+        "id": 15,
+        "question": "Quale uccello è considerato un parassita per i frutti che crescono sui nostri alberi ?",
+        "propositions": [
+          "Colibrì",
+          "Parrocchetto",
+          "Ugello",
+          "Merle"
+        ],
+        "réponse": "Merle",
+        "anecdote": "Oltre ai frutti dei nostri alberi, i merli si nutrono anche di insetti, vermi e vari altri piccoli animali."
+      },
+      {
+        "id": 16,
+        "question": "Quale uccello è noto per distruggere spesso i boccioli degli alberi da frutto ?",
+        "propositions": [
+          "Gufo",
+          "Ciao",
+          "Airone",
+          "Tit"
+        ],
+        "réponse": "Tit",
+        "anecdote": "Nelle nostre regioni, le cince nidificano nelle cavità degli alberi, ma spesso usano cassette nido nei giardini."
+      },
+      {
+        "id": 17,
+        "question": "Quale albero offre una drupa giallo arancia commestibile, dalla pelle vellutata ?",
+        "propositions": [
+          "Guava",
+          "Albicocco",
+          "Tamarindo",
+          "Ciliegio"
+        ],
+        "réponse": "Albicocco",
+        "anecdote": "L'albicocco è una specie vigorosa: può raggiungere più di sei metri di altezza in condizioni naturali favorevoli."
+      },
+      {
+        "id": 18,
+        "question": "Quale operazione botanica consiste nel moltiplicare la produzione di alberi da frutto ?",
+        "propositions": [
+          "Talee",
+          "Impollinazione",
+          "Germinazione",
+          "Registro"
+        ],
+        "réponse": "Registro",
+        "anecdote": "L'innesto è un'operazione che consiste nell'impiantare nei tessuti di una pianta una gemma o un qualsiasi frammento."
+      },
+      {
+        "id": 19,
+        "question": "Quale albero da frutto, il cui legno viene utilizzato per le cornici, ha il nome latino Castanea ?",
+        "propositions": [
+          "Nocciola",
+          "Melo",
+          "Castagno",
+          "Mulberry"
+        ],
+        "réponse": "Castagno",
+        "anecdote": "Nell'insetto, che è una specie di scatola rotonda spinosa, c'è il frutto: la castagna."
+      },
+      {
+        "id": 20,
+        "question": "Quale parte esterna al guscio è specifica delle noci ?",
+        "propositions": [
+          "Carmine",
+          "Brou",
+          "Viola",
+          "Cremisi"
+        ],
+        "réponse": "Brou",
+        "anecdote": "La parte carnosa attorno al guscio emette un succo che macchia, utilizzato nella tintura: macchia di noce."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Come si chiama un albero da frutto il cui tronco è alto più di 1,60 m ?",
+        "propositions": [
+          "High-rod",
+          "Megaphyll",
+          "Caudex",
+          "Rizoma"
+        ],
+        "réponse": "High-rod",
+        "anecdote": "La coltivazione ad alto fusto, utilizzata nei pre-frutteti, sta diventando scarsa a favore delle monocolture di frutteti a fusto basso."
+      },
+      {
+        "id": 22,
+        "question": "Quale albero da frutto della famiglia delle Betulaceae è anche chiamato coudier ?",
+        "propositions": [
+          "Pero",
+          "Nocciola",
+          "Albero di banane",
+          "Mulberry"
+        ],
+        "réponse": "Nocciola",
+        "anecdote": "Il nocciolo è di grande interesse per i tartufai perché può vivere in simbiosi con il tartufo e arricchire il tartufo."
+      },
+      {
+        "id": 23,
+        "question": "Quali insetti nocivi si nutrono della linfa degli alberi da frutto ?",
+        "propositions": [
+          "Leafminers",
+          "Scolytes",
+          "Tigna",
+          "Bruches"
+        ],
+        "réponse": "Scolytes",
+        "anecdote": "Il coleottero della corteccia non può digerire direttamente il legno a causa della presenza di lignina e cellulosa."
+      },
+      {
+        "id": 24,
+        "question": "Quale delle seguenti non indica una dimensione utilizzata per gli alberi da frutto ?",
+        "propositions": [
+          "Vento pieno",
+          "Fuso orario",
+          "Busta",
+          "Cord"
+        ],
+        "réponse": "Busta",
+        "anecdote": "Una potatura dalla forma speciale migliora notevolmente la fruttificazione ottimizzando l'esposizione alla luce."
+      },
+      {
+        "id": 25,
+        "question": "Qual è il primo albero da frutto che fiorisce nelle nostre regioni alla fine dell'inverno ?",
+        "propositions": [
+          "Pero",
+          "Noce",
+          "Melo",
+          "Mandorlo"
+        ],
+        "réponse": "Mandorlo",
+        "anecdote": "Il mandorlo, con i suoi fiori bianco rosati, è uno dei simboli dell'amore e della verginità."
+      },
+      {
+        "id": 26,
+        "question": "Quale albero da frutto deve il suo nome a una città spagnola ?",
+        "propositions": [
+          "Albero di bergamotto",
+          "Noce",
+          "Fico",
+          "Grenadier"
+        ],
+        "réponse": "Grenadier",
+        "anecdote": "La melagrana può vivere fino a 200 anni ma rimane la più produttiva in frutta solo nei suoi primi vent'anni."
+      },
+      {
+        "id": 27,
+        "question": "Quale albero da frutto è l'unico rappresentante del genere Cydonia ?",
+        "propositions": [
+          "Pescare",
+          "Castagno",
+          "Albero di mele cotogne",
+          "Ciliegio"
+        ],
+        "réponse": "Albero di mele cotogne",
+        "anecdote": "I frutti della mela cotogna, del genere Cydonia, sono mele cotogne chiamate anche mele golden o pere Cydonia."
+      },
+      {
+        "id": 28,
+        "question": "Quale di questi alberi ha un frutto strettamente imparentato con il melo e il pero ?",
+        "propositions": [
+          "Albero di mango",
+          "Giuggiola",
+          "Albero di mele cotogne",
+          "Albero di cocco"
+        ],
+        "réponse": "Albero di mele cotogne",
+        "anecdote": "La maggior parte delle varietà perde il velo cotonoso prima del tardo autunno, quando il frutto diventa giallo dorato a maturità."
+      },
+      {
+        "id": 29,
+        "question": "Quale frutto ha il peso simbolico più forte nel mondo cinese ?",
+        "propositions": [
+          "Limone",
+          "Apple",
+          "Pesca",
+          "Pera"
+        ],
+        "réponse": "Pesca",
+        "anecdote": "La regione di Fenghua nella Cina continentale è famosa per le sue pesche e soprattutto per la succosa pesca al miele."
+      },
+      {
+        "id": 30,
+        "question": "Quale albero da frutto, composto da una decina di specie, può essere bianco o nero ?",
+        "propositions": [
+          "Albero di bergamotto",
+          "Mulberry",
+          "Noce",
+          "Fico"
+        ],
+        "réponse": "Mulberry",
+        "anecdote": "I gelso non devono essere confusi con i rovi, piante legnose della famiglia delle Rosacee."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Waar komt het fruit vandaan dat in de meeste van onze fruitbomen groeit ?",
+        "propositions": [
+          "Een blad",
+          "Een filiaal",
+          "Een wortel",
+          "Een bloem"
+        ],
+        "réponse": "Een bloem",
+        "anecdote": "Niet al het fruit dat door mensen wordt geconsumeerd, wordt echter uitsluitend door bomen geproduceerd."
+      },
+      {
+        "id": 2,
+        "question": "Welke landruimte wordt besteed aan de teelt van fruitbomen ?",
+        "propositions": [
+          "Wasteland",
+          "Plantenbak",
+          "Moestuin",
+          "Boomgaard"
+        ],
+        "réponse": "Boomgaard",
+        "anecdote": "Er zijn verschillende soorten boomgaarden: serreboomgaarden, weideboomgaarden, commerciële boomgaarden en moestuinen."
+      },
+      {
+        "id": 3,
+        "question": "Welke vruchten hebben een lager watergehalte en zijn langer houdbaar ?",
+        "propositions": [
+          "Rood fruit",
+          "Gematigd fruit",
+          "Gedroogd fruit",
+          "AOC-fruit"
+        ],
+        "réponse": "Gedroogd fruit",
+        "anecdote": "Gedroogd fruit kan worden gegeten zoals het is of kan worden verwerkt in kookrecepten, vooral bakrecepten."
+      },
+      {
+        "id": 4,
+        "question": "Welke fruitboom wordt gebruikt vanwege zijn sierkwaliteiten in China en Japan ?",
+        "propositions": [
+          "Grenadier",
+          "Kersenboom",
+          "Om te vissen",
+          "Kastanjeboom"
+        ],
+        "réponse": "Kersenboom",
+        "anecdote": "Sierkers worden ook elders in de wereld geteeld als rijbeplanting langs straten."
+      },
+      {
+        "id": 5,
+        "question": "Welke van deze bomen kan een vrucht geven met een donzige of gladde schil ?",
+        "propositions": [
+          "Om te vissen",
+          "Kersenboom",
+          "Perenboom",
+          "Citroenboom"
+        ],
+        "réponse": "Om te vissen",
+        "anecdote": "Perzikbomen kunnen in vier groepen worden ingedeeld: fluweelzachte schil, gladde schil, pit die aan het vruchtvlees kleeft of losjes loslaat."
+      },
+      {
+        "id": 6,
+        "question": "Welke boom is vooral populair bij eekhoorns vanwege de vrucht die hij produceert ?",
+        "propositions": [
+          "Mangoboom",
+          "Hazelnoot",
+          "Kersenboom",
+          "Kokospalm"
+        ],
+        "réponse": "Hazelnoot",
+        "anecdote": "De hazelaar is naar verluidt een van de zeldzame soorten uit het secundaire tijdperk (-70 miljoen jaar oud) die tot op de dag van vandaag bewaard is gebleven."
+      },
+      {
+        "id": 7,
+        "question": "Van welke boom kennen we meer dan 20.000 fruitsoorten ?",
+        "propositions": [
+          "Kersenboom",
+          "Perenboom",
+          "Appelboom",
+          "Om te vissen"
+        ],
+        "réponse": "Appelboom",
+        "anecdote": "Soorten die alleen voor sierdoeleinden worden gekweekt, worden vaak in het algemeen bloeiende appelbomen genoemd."
+      },
+      {
+        "id": 8,
+        "question": "Welke fruitboom brengt de Reine-claude of de Mirabelle de Nancy voort ?",
+        "propositions": [
+          "Kersenboom",
+          "Pruimenboom",
+          "Kweepeerboom",
+          "Kastanjeboom"
+        ],
+        "réponse": "Pruimenboom",
+        "anecdote": "Reine-claude is ontstaan in Frankrijk na de ontdekking van een groene pruim aan een boom geïmporteerd uit Azië."
+      },
+      {
+        "id": 9,
+        "question": "Welk fruit wordt gegeten in dragee, marsepein of vermomd in frangipane ?",
+        "propositions": [
+          "Kers",
+          "Braambes",
+          "Hazelnoot",
+          "Amandel"
+        ],
+        "réponse": "Amandel",
+        "anecdote": "De amandel is een noot die lijkt op een kleine groene perzik waarvan het vruchtvlees dun, hard en droog blijft."
+      },
+      {
+        "id": 10,
+        "question": "Welke kleine fruitboom wordt gekweekt in de Middellandse Zee en subtropen ?",
+        "propositions": [
+          "Kersenboom",
+          "Om te vissen",
+          "Citroenboom",
+          "Kastanjeboom"
+        ],
+        "réponse": "Citroenboom",
+        "anecdote": "In Frankrijk beperkt de teelt van de citroenboom zich voornamelijk tot de Côte d'Azur (regio Menton) en Corsica."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke boom biedt een vrucht aan die is ingesloten in een kever ?",
+        "propositions": [
+          "Kastanjeboom",
+          "Pruimenboom",
+          "Kersenboom",
+          "Hazelnoot"
+        ],
+        "réponse": "Kastanjeboom",
+        "anecdote": "Nadat de kastanje is opgepakt, laat de kastanjedroger deze drogen om te bewaren."
+      },
+      {
+        "id": 12,
+        "question": "Welke tak van de boomteelt is gespecialiseerd in het kweken van fruitbomen ?",
+        "propositions": [
+          "Fruitbouw",
+          "Fruitteelt",
+          "Sierteelt",
+          "Graanbouw"
+        ],
+        "réponse": "Fruitteelt",
+        "anecdote": "In de middeleeuwen lieten de kloosters een boomgaard aanplanten met fruitbomen waaronder de monniken werden begraven."
+      },
+      {
+        "id": 13,
+        "question": "Welke categorie fruit kan de lijsterbes oogsten ?",
+        "propositions": [
+          "Vlezig",
+          "Droog",
+          "Gematigd",
+          "Boswachters"
+        ],
+        "réponse": "Boswachters",
+        "anecdote": "Rowan-bomen en alis-bomen zijn struiken of bomen die vooral in heuvel- en bergbossen groeien."
+      },
+      {
+        "id": 14,
+        "question": "Welke insecten vallen vooral de bladeren van fruitbomen aan ?",
+        "propositions": [
+          "Termieten",
+          "Scolytes",
+          "Bladluizen",
+          "Sprinkhanen"
+        ],
+        "réponse": "Bladluizen",
+        "anecdote": "Een van de bekendste soorten ongedierte is phylloxera, die in de 19e eeuw bijna alle Franse wijngaarden bereikte."
+      },
+      {
+        "id": 15,
+        "question": "Welke vogel wordt beschouwd als een plaag voor de vruchten die aan onze bomen groeien ?",
+        "propositions": [
+          "Parkiet",
+          "Kolibrie",
+          "Mondstuk",
+          "Merle"
+        ],
+        "réponse": "Merle",
+        "anecdote": "Naast de vruchten van onze bomen voeden merels zich ook met insecten, wormen en diverse andere kleine dieren."
+      },
+      {
+        "id": 16,
+        "question": "Van welke vogel is bekend dat hij vaak de knoppen van fruitbomen vernietigt ?",
+        "propositions": [
+          "Reiger",
+          "Mees",
+          "Uil",
+          "Hallo"
+        ],
+        "réponse": "Mees",
+        "anecdote": "In onze streken nestelen mezen in boomgaten, maar gebruiken ze vaak nestkasten in tuinen."
+      },
+      {
+        "id": 17,
+        "question": "Welke boom biedt een eetbare, fluweelzachte, oranjegele steenvrucht ?",
+        "propositions": [
+          "Abrikozenboom",
+          "Tamarinde",
+          "Kersenboom",
+          "Guave"
+        ],
+        "réponse": "Abrikozenboom",
+        "anecdote": "De abrikozenboom is een groeikrachtige soort: hij kan onder gunstige natuurlijke omstandigheden meer dan zes meter hoog worden."
+      },
+      {
+        "id": 18,
+        "question": "Welke botanische operatie bestaat uit het vermenigvuldigen van de productie van fruitbomen ?",
+        "propositions": [
+          "Register",
+          "Bestuiving",
+          "Stekken",
+          "Kieming"
+        ],
+        "réponse": "Register",
+        "anecdote": "Enten is een operatie die bestaat uit het implanteren in de weefsels van een plant van een knop of een fragment."
+      },
+      {
+        "id": 19,
+        "question": "Welke fruitboom, waarvan het hout als kaders wordt gebruikt, heeft de Latijnse naam Castanea ?",
+        "propositions": [
+          "Appelboom",
+          "Kastanjeboom",
+          "Moerbei",
+          "Hazelnoot"
+        ],
+        "réponse": "Kastanjeboom",
+        "anecdote": "In de kever, die een soort ronde doornige doos is, zit de vrucht: de kastanje."
+      },
+      {
+        "id": 20,
+        "question": "Welk deel buiten de schaal is specifiek voor walnoten ?",
+        "propositions": [
+          "Crimson",
+          "Brou",
+          "Paars",
+          "Karmijn"
+        ],
+        "réponse": "Brou",
+        "anecdote": "Het vlezige deel rond de schaal geeft een sap af dat vlekken geeft, gebruikt bij het verven: walnootvlek."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Hoe noem je een fruitboom waarvan de stam meer dan 1,60 m hoog is ?",
+        "propositions": [
+          "Hoge hengel",
+          "Megaphyll",
+          "Caudex",
+          "Wortelstok"
+        ],
+        "réponse": "Hoge hengel",
+        "anecdote": "Hoogstammige teelt, toegepast in voorboomgaarden, wordt schaars ten gunste van monoculturen van laagstammige boomgaarden."
+      },
+      {
+        "id": 22,
+        "question": "Welke fruitboom van de Betulaceae-familie wordt ook wel een coudier genoemd ?",
+        "propositions": [
+          "Bananenboom",
+          "Perenboom",
+          "Hazelnoot",
+          "Moerbei"
+        ],
+        "réponse": "Hazelnoot",
+        "anecdote": "De hazelnootboom is van groot belang voor truffeltelers omdat hij in symbiose kan leven met de truffel en hij truffels verrijkt."
+      },
+      {
+        "id": 23,
+        "question": "Welke insectenplagen voeden zich met het sap van fruitbomen ?",
+        "propositions": [
+          "Ringwormen",
+          "Bruches",
+          "Scolytes",
+          "Mineervliegtuigen"
+        ],
+        "réponse": "Scolytes",
+        "anecdote": "Door de aanwezigheid van lignine en cellulose kan de schorskever hout niet direct verteren."
+      },
+      {
+        "id": 24,
+        "question": "Welke van de volgende termen duidt niet op een maat die wordt gebruikt voor fruitbomen ?",
+        "propositions": [
+          "Koord",
+          "Envelop",
+          "Tijdzone",
+          "Volle wind"
+        ],
+        "réponse": "Envelop",
+        "anecdote": "Een speciaal gevormde snoei verbetert de vruchtzetting aanzienlijk door de blootstelling aan licht te optimaliseren."
+      },
+      {
+        "id": 25,
+        "question": "Wat is in onze streken de eerste fruitboom die bloeit aan het einde van de winter ?",
+        "propositions": [
+          "Amandelboom",
+          "Appelboom",
+          "Walnoot",
+          "Perenboom"
+        ],
+        "réponse": "Amandelboom",
+        "anecdote": "De amandelboom, met zijn roze-witte bloemen, is een van de symbolen van liefde en maagdelijkheid."
+      },
+      {
+        "id": 26,
+        "question": "Welke fruitboom dankt zijn naam aan een Spaanse stad ?",
+        "propositions": [
+          "Grenadier",
+          "Walnoot",
+          "Vijgenboom",
+          "Bergamotboom"
+        ],
+        "réponse": "Grenadier",
+        "anecdote": "De granaatappel kan wel 200 jaar oud worden, maar blijft pas in de eerste twintig jaar het meest productief in fruit."
+      },
+      {
+        "id": 27,
+        "question": "Welke fruitboom is de enige vertegenwoordiger van het geslacht Cydonia ?",
+        "propositions": [
+          "Kweepeerboom",
+          "Om te vissen",
+          "Kersenboom",
+          "Kastanjeboom"
+        ],
+        "réponse": "Kweepeerboom",
+        "anecdote": "De vruchten van de kweepeerboom, van het Cydonia-geslacht, zijn kweeperen, ook wel gouden appels of Cydonia-peren genoemd."
+      },
+      {
+        "id": 28,
+        "question": "Welke van deze bomen heeft een vrucht die nauw verwant is aan appel en peer ?",
+        "propositions": [
+          "Kweepeerboom",
+          "Kokospalm",
+          "Mangoboom",
+          "Jujube boom"
+        ],
+        "réponse": "Kweepeerboom",
+        "anecdote": "De meeste soorten verliezen hun donzige sluier voor de late herfst, wanneer de vruchten goudgeel worden als ze rijp zijn."
+      },
+      {
+        "id": 29,
+        "question": "Welk fruit heeft het sterkste symbolische gewicht in de Chinese wereld ?",
+        "propositions": [
+          "Vissen",
+          "Appel",
+          "Citroen",
+          "Peer"
+        ],
+        "réponse": "Vissen",
+        "anecdote": "De Fenghua-regio op het vasteland van China staat bekend om zijn perziken en vooral om de sappige honingperzik."
+      },
+      {
+        "id": 30,
+        "question": "Welke fruitboom, samengesteld uit een tiental soorten, kan wit of zwart zijn ?",
+        "propositions": [
+          "Moerbei",
+          "Bergamotboom",
+          "Walnoot",
+          "Vijgenboom"
+        ],
+        "réponse": "Moerbei",
+        "anecdote": "Moerbeibomen moeten niet worden verward met bramen, houtachtige planten van de Rosaceae-familie."
+      }
+    ]
+    }
+  }
+}

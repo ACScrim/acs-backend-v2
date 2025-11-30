@@ -1,6 +1,6 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
-import {IGame} from "@models/Game";
+import {IGame} from "../../../models/Game";
 import {log} from "../../../utils/utils";
 
 const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {

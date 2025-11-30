@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2022-04-02",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Web",
+      "nom": "Stats internet 2018",
+      "slogan": "En une minute sur le web"
+    },
+    "en": {
+      "catégorie": "Web",
+      "nom": "Internet statistics 2018",
+      "slogan": "In a minute on the web"
+    },
+    "es": {
+      "catégorie": "Web",
+      "nom": "Estadísticas de Internet 2018",
+      "slogan": "En un minuto en la web"
+    },
+    "it": {
+      "catégorie": "Ragnatela",
+      "nom": "Statistiche Internet 2018",
+      "slogan": "In un minuto sul web"
+    },
+    "de": {
+      "catégorie": "Netz",
+      "nom": "Internetstatistik 2018",
+      "slogan": "In einer Minute im Web"
+    },
+    "nl": {
+      "catégorie": "Web",
+      "nom": "Internetstatistieken 2018",
+      "slogan": "In een minuut op het web"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Combien de connexions à Facebook sont réalisées en une minute ?",
+        "propositions": [
+          "345 000",
+          "973 000",
+          "596 000",
+          "784 000"
+        ],
+        "réponse": "973 000",
+        "anecdote": "Troisième site web le plus visité au monde, Facebook a franchi en juin 2017 le nombre de 2 milliards d'utilisateurs actifs."
+      },
+      {
+        "id": 2,
+        "question": "Combien de vidéos sont regardées sur YouTube toutes les minutes ?",
+        "propositions": [
+          "2.9 millions",
+          "5.1 millions",
+          "3.7 millions",
+          "4.3 millions"
+        ],
+        "réponse": "4.3 millions",
+        "anecdote": "Créé par trois anciens employés de PayPal, YouTube fut racheté par Google en octobre 2006 pour 1,65 milliard de dollars."
+      },
+      {
+        "id": 3,
+        "question": "Quel pourcentage de la population mondiale utilisait Internet en 2018 ?",
+        "propositions": [
+          "66 %",
+          "72 %",
+          "54 %",
+          "83 %"
+        ],
+        "réponse": "54 %",
+        "anecdote": "C'est le 1er janvier 1983 que le nom « Internet », déjà en usage pour désigner l'ensemble d'ARPANET, est devenu officiel."
+      },
+      {
+        "id": 4,
+        "question": "Combien de tweets environ sont envoyés en une minute via le web ?",
+        "propositions": [
+          "481 000",
+          "285 000",
+          "132 000",
+          "372 000"
+        ],
+        "réponse": "481 000",
+        "anecdote": "Twitter permet à un utilisateur d'envoyer gratuitement de brefs messages sur internet par messagerie instantanée."
+      },
+      {
+        "id": 5,
+        "question": "Combien d'e-mails, incluant les spams, sont envoyés en une minute ?",
+        "propositions": [
+          "187 millions",
+          "142 millions",
+          "74 millions",
+          "107 millions"
+        ],
+        "réponse": "187 millions",
+        "anecdote": "Pour émettre ou recevoir des e-mails, il faut disposer d'une adresse électronique ainsi que d'un client de messagerie."
+      },
+      {
+        "id": 6,
+        "question": "Combien de requêtes de recherches Google sont effectuées en une minute ?",
+        "propositions": [
+          "2.6 millions",
+          "5.2 millions",
+          "3.7 millions",
+          "4.9 millions"
+        ],
+        "réponse": "3.7 millions",
+        "anecdote": "Google est une entreprise américaine fondée en 1998 par Larry Page et Sergueï Brin, créateurs du moteur de recherche « Google »."
+      },
+      {
+        "id": 7,
+        "question": "Quel pourcentage des Français avaient accès à Internet en 2018 ?",
+        "propositions": [
+          "98 %",
+          "68 %",
+          "88 %",
+          "78 %"
+        ],
+        "réponse": "88 %",
+        "anecdote": "C'est l'AFNIC qui est responsable des noms de domaines en .fr (France), .re (île de La Réunion) et .pm (Saint-Pierre-et-Miquelon)."
+      },
+      {
+        "id": 8,
+        "question": "Combien d'appels « Skype » sont réalisés en une minute sur le web ?",
+        "propositions": [
+          "116 000",
+          "206 000",
+          "146 000",
+          "176 000"
+        ],
+        "réponse": "176 000",
+        "anecdote": "Les appels d'utilisateur à utilisateur sont gratuits, tandis que ceux vers les lignes téléphoniques fixes sont payants."
+      },
+      {
+        "id": 9,
+        "question": "Combien de nouvelles photos sont postées chaque minute sur Instagram ?",
+        "propositions": [
+          "28 600",
+          "17 800",
+          "49 400",
+          "37 200"
+        ],
+        "réponse": "49 400",
+        "anecdote": "Instagram fut fondée et lancée par l'Américain Kevin Systrom et le Brésilien Michel Mike Krieger en octobre 2010."
+      },
+      {
+        "id": 10,
+        "question": "À quel pourcentage le moteur de recherche de Google est-il mondialement utilisé ?",
+        "propositions": [
+          "70 %",
+          "80 %",
+          "90 %",
+          "60 %"
+        ],
+        "réponse": "90 %",
+        "anecdote": "Le nom Google vient du mot Gogol, nom donné au nombre 10 exposant 100, évoquant la grande quantité de données."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Combien d'heures de vidéos Netflix sont vues sur le web en une minute ?",
+        "propositions": [
+          "488 000",
+          "399 000",
+          "133 000",
+          "266 000"
+        ],
+        "réponse": "266 000",
+        "anecdote": "La société fut introduite en bourse le 22 mai 2002, pour la vente de 5 500 000 actions ordinaires au prix de 15 $ par action."
+      },
+      {
+        "id": 12,
+        "question": "Combien d'applications Android et iOS sont téléchargées sur une minute ?",
+        "propositions": [
+          "443 000",
+          "285 000",
+          "375 000",
+          "174 000"
+        ],
+        "réponse": "375 000",
+        "anecdote": "En 2015, Android était le système d'exploitation mobile le plus utilisé dans le monde avec plus de 80 % de parts de marché."
+      },
+      {
+        "id": 13,
+        "question": "Combien de messages sont envoyés chaque minute sur WhatsApp ?",
+        "propositions": [
+          "38 millions",
+          "49 millions",
+          "14 millions",
+          "27 millions"
+        ],
+        "réponse": "38 millions",
+        "anecdote": "L'entreprise fondée en 2009 par Jan Koum et Brian Acton, anciens ingénieurs de Yahoo!, a pour but de remplacer le SMS."
+      },
+      {
+        "id": 14,
+        "question": "Combien de nouveaux comptes sont créés chaque minute sur LinkedIn ?",
+        "propositions": [
+          "120",
+          "480",
+          "240",
+          "360"
+        ],
+        "réponse": "120",
+        "anecdote": "Le 13 juin 2016, Microsoft a racheté le réseau social pour un montant de 26,2 milliards de dollars, soit 23,3 milliards d'euros."
+      },
+      {
+        "id": 15,
+        "question": "Quel pourcentage de la population mondiale est inscrite sur les réseaux sociaux ?",
+        "propositions": [
+          "44 %",
+          "55 %",
+          "66 %",
+          "77 %"
+        ],
+        "réponse": "44 %",
+        "anecdote": "Ces applications sont pointées du doigt du fait de l'exploitation commerciale de données personnelles et de l'impact psychologique."
+      },
+      {
+        "id": 16,
+        "question": "Combien de voyages Uber sont validés chaque minute sur internet ?",
+        "propositions": [
+          "2 800",
+          "1 400",
+          "3 500",
+          "4 300"
+        ],
+        "réponse": "1 400",
+        "anecdote": "Engagée dans un développement rapide, la société Uber a vu son activité interdite dans plusieurs villes ou pays du monde."
+      },
+      {
+        "id": 17,
+        "question": "Combien de colis sont envoyés chaque minute par Amazon depuis les commandes web ?",
+        "propositions": [
+          "3 333",
+          "4 444",
+          "1 111",
+          "2 222"
+        ],
+        "réponse": "1 111",
+        "anecdote": "La spécialité initiale d'Amazon était la vente de livres, mais elle s'est diversifiée vers la vente d'autres produits et services."
+      },
+      {
+        "id": 18,
+        "question": "Quel pourcentage d'utilisation le navigateur Chrome occupe-t-il en 2018 ?",
+        "propositions": [
+          "50 %",
+          "60 %",
+          "80 %",
+          "70 %"
+        ],
+        "réponse": "60 %",
+        "anecdote": "Il fut annoncé le 1er septembre 2008 dans une bande dessinée de Scott McCloud, la veille de la sortie de la première version beta."
+      },
+      {
+        "id": 19,
+        "question": "Combien de swipes de rencontre sont lancés sur Tinder à chaque minute ?",
+        "propositions": [
+          "650 000",
+          "800 000",
+          "430 000",
+          "1 100 000"
+        ],
+        "réponse": "1 100 000",
+        "anecdote": "Le 19 novembre 2015, Match Group qui possède Tinder a annoncé son entrée en bourse avec une action cotée à 12 dollars."
+      },
+      {
+        "id": 20,
+        "question": "Combien de Snapchat sont créés sur Internet en une minute seulement ?",
+        "propositions": [
+          "4.6 millions",
+          "2.4 millions",
+          "3.2 millions",
+          "1.8 million"
+        ],
+        "réponse": "2.4 millions",
+        "anecdote": "La particularité de cette application est l'existence d'une limite de temps de visualisation du média envoyé à ses destinataires."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Combien de messages texte sont envoyés via le web en une minute ?",
+        "propositions": [
+          "18 millions",
+          "32 millions",
+          "24 millions",
+          "7 millions"
+        ],
+        "réponse": "18 millions",
+        "anecdote": "Aujourd'hui, le SMS est disponible dans le monde entier sur de multiples réseaux, y compris sur les réseaux mobiles 3G et 4G."
+      },
+      {
+        "id": 22,
+        "question": "Combien de défilements vers le bas sont effectués sur Instagram en une minute ?",
+        "propositions": [
+          "174 000",
+          "332 000",
+          "487 000",
+          "265 000"
+        ],
+        "réponse": "174 000",
+        "anecdote": "Instagram revendique plus d'un milliard d'utilisateurs à travers le monde, dont 75 % d'utilisateurs en dehors des États-Unis."
+      },
+      {
+        "id": 23,
+        "question": "Combien de dollars sont dépensés en achat en ligne en une minute ?",
+        "propositions": [
+          "694 000",
+          "235 000",
+          "476 000",
+          "863 000"
+        ],
+        "réponse": "863 000",
+        "anecdote": "Dans le cadre du commerce inter-entreprises, on utilise des réseaux de type Échange de données informatisé (EDI)."
+      },
+      {
+        "id": 24,
+        "question": "Combien de vues sont faites sur Twitch en une minute seulement ?",
+        "propositions": [
+          "399 000",
+          "587 000",
+          "936 000",
+          "722 000"
+        ],
+        "réponse": "936 000",
+        "anecdote": "Le site a été créé afin d'avoir un site dédié à la branche jeux vidéo de Justin.tv, qui était la partie la plus populaire du service."
+      },
+      {
+        "id": 25,
+        "question": "Combien d'images sont envoyées via Messenger en une minute ?",
+        "propositions": [
+          "18 000",
+          "37 000",
+          "41 000",
+          "25 000"
+        ],
+        "réponse": "25 000",
+        "anecdote": "Depuis 2015, les applications mobile de Facebook redirigent la messagerie sur l'application Facebook Messenger."
+      },
+      {
+        "id": 26,
+        "question": "Quel pourcentage des Français utilisent un smartphone pour aller sur le web ?",
+        "propositions": [
+          "71 %",
+          "51 %",
+          "91 %",
+          "31 %"
+        ],
+        "réponse": "71 %",
+        "anecdote": "La saisie des données se fait le plus souvent par le biais d'un écran tactile ou, plus rarement, d'un clavier ou d'un stylet."
+      },
+      {
+        "id": 27,
+        "question": "Combien de nouveaux Bitcoin sont générés numériquement chaque minute ?",
+        "propositions": [
+          "1.25",
+          "5.00",
+          "3.75",
+          "2.50"
+        ],
+        "réponse": "1.25",
+        "anecdote": "En tant que moyen de paiement, le bitcoin est accepté par un nombre croissant de commerçants, incités par des frais réduits."
+      },
+      {
+        "id": 28,
+        "question": "Combien Reddit reçoit-il de nouveaux commentaires chaque minute sur son site ?",
+        "propositions": [
+          "4 890",
+          "3 640",
+          "2 720",
+          "1 950"
+        ],
+        "réponse": "1 950",
+        "anecdote": "Une particularité de Reddit est que son modèle d'interactions sociales en ligne semble particulièrement addictif et chronophage."
+      },
+      {
+        "id": 29,
+        "question": "Combien de posts sont publiés sur Tumblr en une minute sur internet ?",
+        "propositions": [
+          "79 750",
+          "42 750",
+          "57 750",
+          "96 750"
+        ],
+        "réponse": "79 750",
+        "anecdote": "En mai 2013, Yahoo! a racheté Tumblr à l'entrepreneur américain David Karp pour 1,1 milliard de dollars américains."
+      },
+      {
+        "id": 30,
+        "question": "Combien d'images .GIF le site « Giphy » propose-t-il chaque minute aux internautes ?",
+        "propositions": [
+          "1 389 000",
+          "932 000",
+          "1 187 000",
+          "748 000"
+        ],
+        "réponse": "1 389 000",
+        "anecdote": "En mars 2018, Instagram et Snapchat ont temporairement suspendu leur accès à Giphy à cause d'un gif raciste."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "How many Facebook connections are made in a minute ?",
+        "propositions": [
+          "784,000",
+          "596,000",
+          "345,000",
+          "973,000"
+        ],
+        "réponse": "973,000",
+        "anecdote": "The third most visited website in the world, Facebook crossed the number of 2 billion active users in June 2017."
+      },
+      {
+        "id": 2,
+        "question": "How many videos are watched on YouTube every minute ?",
+        "propositions": [
+          "4.3 million",
+          "5.1 million",
+          "3.7 million",
+          "2.9 million"
+        ],
+        "réponse": "4.3 million",
+        "anecdote": "Created by three former Paypal employees, YouTube was bought by Google in October 2006 for $ 1.65 billion."
+      },
+      {
+        "id": 3,
+        "question": "What percentage of the world's population uses the internet in 2018 ?",
+        "propositions": [
+          "72%",
+          "54%",
+          "66%",
+          "83%"
+        ],
+        "réponse": "54%",
+        "anecdote": "It was on January 1, 1983 that the Internet name, already in use to designate the whole ARPANET, became official."
+      },
+      {
+        "id": 4,
+        "question": "Approximately how many tweets are sent in a minute via the web ?",
+        "propositions": [
+          "285,000",
+          "132,000",
+          "481,000",
+          "372,000"
+        ],
+        "réponse": "481,000",
+        "anecdote": "Twitter allows a user to send short messages over the Internet by instant messaging for free."
+      },
+      {
+        "id": 5,
+        "question": "How many emails, including spam, are sent in a minute ?",
+        "propositions": [
+          "74 million",
+          "187 million",
+          "107 million",
+          "142 million"
+        ],
+        "réponse": "187 million",
+        "anecdote": "To send or receive e-mails, you must have an e-mail address as well as an e-mail client."
+      },
+      {
+        "id": 6,
+        "question": "How many Google search queries are made in a minute ?",
+        "propositions": [
+          "3.7 million",
+          "5.2 million",
+          "4.9 million",
+          "2.6 million"
+        ],
+        "réponse": "3.7 million",
+        "anecdote": "Google is an American company founded in 1998 by Larry Page and Sergueï Brin, creators of the « Google » search engine."
+      },
+      {
+        "id": 7,
+        "question": "What percentage of French people have access to the Internet in 2018 ?",
+        "propositions": [
+          "68%",
+          "88%",
+          "98%",
+          "78%"
+        ],
+        "réponse": "88%",
+        "anecdote": "AFNIC is responsible for domain names in ."
+      },
+      {
+        "id": 8,
+        "question": "How many « Skype » calls are made in one minute on the web ?",
+        "propositions": [
+          "146,000",
+          "116,000",
+          "206,000",
+          "176,000"
+        ],
+        "réponse": "176,000",
+        "anecdote": "User-to-user calls are free, while calls to landlines are chargeable."
+      },
+      {
+        "id": 9,
+        "question": "How many new photos are posted on Instagram every minute ?",
+        "propositions": [
+          "49,400",
+          "28,600",
+          "37,200",
+          "17,800"
+        ],
+        "réponse": "49,400",
+        "anecdote": "Instagram was founded and launched by American Kevin Systrom and Brazilian Michel Mike Krieger in October 2010."
+      },
+      {
+        "id": 10,
+        "question": "What percentage of Google's search engine is used globally ?",
+        "propositions": [
+          "90%",
+          "80%",
+          "60%",
+          "70%"
+        ],
+        "réponse": "90%",
+        "anecdote": "The name Google comes from the word Gogol, name given to the number 10 exponent 100, evoking the large amount of data."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "How many hours of Netflix video are viewed on the web in one minute ?",
+        "propositions": [
+          "488,000",
+          "399,000",
+          "133,000",
+          "266,000"
+        ],
+        "réponse": "266,000",
+        "anecdote": "The company went public on May 22, 2002, for the sale of 5,500,000 common shares at a price of $ 15 per share."
+      },
+      {
+        "id": 12,
+        "question": "How many Android and iOS apps are downloaded in a minute ?",
+        "propositions": [
+          "443,000",
+          "174,000",
+          "285,000",
+          "375,000"
+        ],
+        "réponse": "375,000",
+        "anecdote": "In 2015, Android was the most widely used mobile operating system in the world with over 80% market share."
+      },
+      {
+        "id": 13,
+        "question": "How many messages are sent every minute on WhatsApp ?",
+        "propositions": [
+          "49 million",
+          "27 million",
+          "14 million",
+          "38 million"
+        ],
+        "réponse": "38 million",
+        "anecdote": "The company founded in 2009 by Jan Koum and Brian Acton, former engineers at Yahoo !, aims to replace SMS."
+      },
+      {
+        "id": 14,
+        "question": "How many new accounts are created every minute on LinkedIn ?",
+        "propositions": [
+          "120",
+          "240",
+          "480",
+          "360"
+        ],
+        "réponse": "120",
+        "anecdote": "On June 13, 2016, Microsoft bought the social network for $ 26.2 billion, or 23.3 billion euros."
+      },
+      {
+        "id": 15,
+        "question": "What percentage of the world's population is registered on social networks ?",
+        "propositions": [
+          "77%",
+          "55%",
+          "44%",
+          "66%"
+        ],
+        "réponse": "44%",
+        "anecdote": "These applications are singled out for the commercial exploitation of personal data and the psychological impact."
+      },
+      {
+        "id": 16,
+        "question": "How many Uber trips are validated every minute on the internet ?",
+        "propositions": [
+          "2,800",
+          "1,400",
+          "4,300",
+          "3,500"
+        ],
+        "réponse": "1,400",
+        "anecdote": "Engaged in rapid development, the Uber company has seen its activity banned in several cities and countries around the world."
+      },
+      {
+        "id": 17,
+        "question": "How many packages are sent per minute by Amazon from web orders ?",
+        "propositions": [
+          "2 222",
+          "4,444",
+          "3,333",
+          "1,111"
+        ],
+        "réponse": "1,111",
+        "anecdote": "Amazon's original specialty was selling books, but it branched out into selling other products and services."
+      },
+      {
+        "id": 18,
+        "question": "What percentage of use does the Chrome browser occupy in 2018 ?",
+        "propositions": [
+          "60%",
+          "70%",
+          "80%",
+          "50%"
+        ],
+        "réponse": "60%",
+        "anecdote": "It was announced on September 1, 2008 in a Scott McCloud comic, the day before the first beta version was released."
+      },
+      {
+        "id": 19,
+        "question": "How many dating swipes are launched on Tinder every minute ?",
+        "propositions": [
+          "1,100,000",
+          "650,000",
+          "800,000",
+          "430,000"
+        ],
+        "réponse": "1,100,000",
+        "anecdote": "On November 19, 2015, Match Group, which owns Tinder, announced its IPO with one share listed at $ 12."
+      },
+      {
+        "id": 20,
+        "question": "How many Snapchat are created on the internet in just one minute ?",
+        "propositions": [
+          "2.4 million",
+          "1.8 million",
+          "4.6 million",
+          "3.2 million"
+        ],
+        "réponse": "2.4 million",
+        "anecdote": "The particularity of this application is the existence of a time limit for viewing the media sent to its recipients."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "How many text messages are sent over the web in a minute ?",
+        "propositions": [
+          "32 million",
+          "18 million",
+          "24 million",
+          "7 million"
+        ],
+        "réponse": "18 million",
+        "anecdote": "Today, SMS is available worldwide on multiple networks, including 3G and 4G mobile networks."
+      },
+      {
+        "id": 22,
+        "question": "How many scrolls down are done on Instagram in a minute ?",
+        "propositions": [
+          "487,000",
+          "265,000",
+          "332,000",
+          "174,000"
+        ],
+        "réponse": "174,000",
+        "anecdote": "Instagram claims more than a billion users worldwide, with 75% of them outside the United States."
+      },
+      {
+        "id": 23,
+        "question": "How many dollars are spent buying online in a minute ?",
+        "propositions": [
+          "476,000",
+          "694,000",
+          "235,000",
+          "863,000"
+        ],
+        "réponse": "863,000",
+        "anecdote": "In the context of business-to-business commerce, electronic data interchange (EDI) type networks are used."
+      },
+      {
+        "id": 24,
+        "question": "How many views are taken on Twitch in just one minute ?",
+        "propositions": [
+          "587,000",
+          "936,000",
+          "722,000",
+          "399,000"
+        ],
+        "réponse": "936,000",
+        "anecdote": "The site was created to have a site dedicated to the Video Games branch of Justin.tv, which was the most popular part of the service."
+      },
+      {
+        "id": 25,
+        "question": "How many images are sent via Messenger in a minute ?",
+        "propositions": [
+          "41,000",
+          "18,000",
+          "37,000",
+          "25,000"
+        ],
+        "réponse": "25,000",
+        "anecdote": "Since 2015, Facebook's mobile applications have redirected messaging to the Facebook Messenger application."
+      },
+      {
+        "id": 26,
+        "question": "What percentage of French people use a smartphone to go on the web ?",
+        "propositions": [
+          "51%",
+          "31%",
+          "91%",
+          "71%"
+        ],
+        "réponse": "71%",
+        "anecdote": "Data entry is most often done through a touch screen or, more rarely, a keyboard or stylus."
+      },
+      {
+        "id": 27,
+        "question": "How many new Bitcoin are digitally generated every minute ?",
+        "propositions": [
+          "2.50",
+          "5.00",
+          "3.75",
+          "1.25"
+        ],
+        "réponse": "1.25",
+        "anecdote": "As a means of payment, bitcoin is accepted by a growing number of traders, prompted by reduced fees."
+      },
+      {
+        "id": 28,
+        "question": "How many new comments does Reddit get on its site every minute ?",
+        "propositions": [
+          "3,640",
+          "1,950",
+          "2,720",
+          "4,890"
+        ],
+        "réponse": "1,950",
+        "anecdote": "A special thing about Reddit is that its model of online social interactions seems particularly addicting and time consuming."
+      },
+      {
+        "id": 29,
+        "question": "How many posts are published on Tumblr in a minute on the internet ?",
+        "propositions": [
+          "79,750",
+          "96,750",
+          "57,750",
+          "42,750"
+        ],
+        "réponse": "79,750",
+        "anecdote": "In May 2013, Yahoo! bought Tumblr from American entrepreneur David Karp for US $ 1.1 billion."
+      },
+      {
+        "id": 30,
+        "question": "How many .GIF images does the « Giphy » site offer Internet users every minute ?",
+        "propositions": [
+          "748,000",
+          "932,000",
+          "1,389,000",
+          "1,187,000"
+        ],
+        "réponse": "1,389,000",
+        "anecdote": "In March 2018, Instagram and Snapchat temporarily suspended their access to Giphy due to a racist gif."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie viele Facebook-Verbindungen werden in einer Minute hergestellt ?",
+        "propositions": [
+          "973.000",
+          "345.000",
+          "784.000",
+          "596.000"
+        ],
+        "réponse": "973.000",
+        "anecdote": "Facebook, die dritthäufigste Website der Welt, hat im Juni 2017 die Zahl von 2 Milliarden aktiven Nutzern überschritten."
+      },
+      {
+        "id": 2,
+        "question": "Wie viele Videos werden pro Minute auf YouTube angesehen ?",
+        "propositions": [
+          "4,3 Millionen",
+          "5,1 Millionen",
+          "3,7 Millionen",
+          "2,9 Millionen"
+        ],
+        "réponse": "4,3 Millionen",
+        "anecdote": "YouTube wurde von drei ehemaligen PayPal-Mitarbeitern gegründet und im Oktober 2006 von Google für 1,65 Milliarden US-Dollar übernommen."
+      },
+      {
+        "id": 3,
+        "question": "Wie viel Prozent der Weltbevölkerung nutzt 2018 das Internet ?",
+        "propositions": [
+          "66%",
+          "83%",
+          "54%",
+          "72%"
+        ],
+        "réponse": "54%",
+        "anecdote": "Es war der 1. Januar 1983, dass der bereits im Set von Arpanet-Set benutzte Internetname offiziell wurde."
+      },
+      {
+        "id": 4,
+        "question": "Wie viele Tweets werden ungefähr in einer Minute über das Internet gesendet ?",
+        "propositions": [
+          "132.000",
+          "372.000",
+          "481.000",
+          "285.000"
+        ],
+        "réponse": "481.000",
+        "anecdote": "Mit Twitter kann ein Benutzer Kurznachrichten kostenlos über das Internet per Instant Messaging senden."
+      },
+      {
+        "id": 5,
+        "question": "Wie viele E-Mails, einschließlich Spam, werden pro Minute gesendet ?",
+        "propositions": [
+          "142 Millionen",
+          "187 Millionen",
+          "107 Millionen",
+          "74 Millionen"
+        ],
+        "réponse": "187 Millionen",
+        "anecdote": "Um E-Mails senden oder empfangen zu können, müssen Sie eine E-Mail-Adresse sowie einen E-Mail-Client haben."
+      },
+      {
+        "id": 6,
+        "question": "Wie viele Google-Suchanfragen werden pro Minute gestellt ?",
+        "propositions": [
+          "5,2 Millionen",
+          "4,9 Millionen",
+          "3,7 Millionen",
+          "2,6 Millionen"
+        ],
+        "réponse": "3,7 Millionen",
+        "anecdote": "Google ist ein amerikanisches Unternehmen, das 1998 von Larry Page und Sergueï Brin, den Entwicklern der Suchmaschine « Google », gegründet wurde."
+      },
+      {
+        "id": 7,
+        "question": "Wie viel Prozent der Franzosen haben 2018 Zugang zum Internet ?",
+        "propositions": [
+          "68%",
+          "78%",
+          "98%",
+          "88%"
+        ],
+        "réponse": "88%",
+        "anecdote": "AFNIC ist verantwortlich für Domainnamen in ."
+      },
+      {
+        "id": 8,
+        "question": "Wie viele « Skype » -Anrufe werden in einer Minute im Web getätigt ?",
+        "propositions": [
+          "206.000",
+          "176.000",
+          "116.000",
+          "146.000"
+        ],
+        "réponse": "176.000",
+        "anecdote": "Benutzer-zu-Benutzer-Anrufe sind kostenlos, während Anrufe ins Festnetz kostenpflichtig sind."
+      },
+      {
+        "id": 9,
+        "question": "Wie viele neue Fotos werden pro Minute auf Instagram gepostet ?",
+        "propositions": [
+          "28.600",
+          "37.200",
+          "49.400",
+          "17.800"
+        ],
+        "réponse": "49.400",
+        "anecdote": "Instagram wurde im Oktober 2010 von dem Amerikaner Kevin Systrom und dem Brasilianer Michel Mike Krieger gegründet und ins Leben gerufen."
+      },
+      {
+        "id": 10,
+        "question": "Wie viel Prozent der Google-Suchmaschine wird weltweit verwendet ?",
+        "propositions": [
+          "60%",
+          "80%",
+          "70%",
+          "90%"
+        ],
+        "réponse": "90%",
+        "anecdote": "Der Name Google stammt von dem Wort Gogol, dem Namen des Exponenten 100 mit der Nummer 10, der an die große Datenmenge erinnert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie viele Stunden Netflix-Video werden in einer Minute im Web angezeigt ?",
+        "propositions": [
+          "133.000",
+          "266.000",
+          "488.000",
+          "399.000"
+        ],
+        "réponse": "266.000",
+        "anecdote": "Das Unternehmen ging am 22. Mai 2002 an die Börse und verkaufte 5.500.000 Stammaktien zu einem Preis von 15 USD je Aktie."
+      },
+      {
+        "id": 12,
+        "question": "Wie viele Android- und iOS-Apps werden pro Minute heruntergeladen ?",
+        "propositions": [
+          "375.000",
+          "174.000",
+          "285.000",
+          "443.000"
+        ],
+        "réponse": "375.000",
+        "anecdote": "Im Jahr 2015 war Android mit einem Marktanteil von über 80% das weltweit am häufigsten verwendete mobile Betriebssystem."
+      },
+      {
+        "id": 13,
+        "question": "Wie viele Nachrichten werden pro Minute auf WhatsApp gesendet ?",
+        "propositions": [
+          "27 Millionen",
+          "38 Millionen",
+          "14 Millionen",
+          "49 Millionen"
+        ],
+        "réponse": "38 Millionen",
+        "anecdote": "Das 2009 von Jan Koum und Brian Acton, ehemalige Ingenieure bei Yahoo!, gegründete Unternehmen will SMS ersetzen."
+      },
+      {
+        "id": 14,
+        "question": "Wie viele neue Konten werden pro Minute auf LinkedIn erstellt ?",
+        "propositions": [
+          "480",
+          "120",
+          "240",
+          "360"
+        ],
+        "réponse": "120",
+        "anecdote": "Am 13. Juni 2016 kaufte Microsoft das soziale Netzwerk für 26,2 Milliarden US-Dollar oder 23,3 Milliarden Euro."
+      },
+      {
+        "id": 15,
+        "question": "Wie viel Prozent der Weltbevölkerung sind in sozialen Netzwerken registriert ?",
+        "propositions": [
+          "44%",
+          "55%",
+          "66%",
+          "77%"
+        ],
+        "réponse": "44%",
+        "anecdote": "Diese Anwendungen sind für die kommerzielle Nutzung personenbezogener Daten und die psychologischen Auswirkungen bestimmt."
+      },
+      {
+        "id": 16,
+        "question": "Wie viele Uber-Reisen werden pro Minute im Internet validiert ?",
+        "propositions": [
+          "2.800",
+          "4.300",
+          "1.400",
+          "3.500"
+        ],
+        "réponse": "1.400",
+        "anecdote": "Das Unternehmen Uber, das sich rasant weiterentwickelt, hat seine Aktivitäten in mehreren Städten und Ländern auf der ganzen Welt verboten."
+      },
+      {
+        "id": 17,
+        "question": "Wie viele Pakete werden pro Minute von Amazon aus Webbestellungen verschickt ?",
+        "propositions": [
+          "1.111",
+          "2 222",
+          "3,333",
+          "4,444"
+        ],
+        "réponse": "1.111",
+        "anecdote": "Die ursprüngliche Spezialität von Amazon war der Verkauf von Büchern, aber der Verkauf anderer Produkte und Dienstleistungen."
+      },
+      {
+        "id": 18,
+        "question": "Wie viel Prozent der Nutzung belegt der Chrome-Browser im Jahr 2018 ?",
+        "propositions": [
+          "70%",
+          "60%",
+          "50%",
+          "80%"
+        ],
+        "réponse": "60%",
+        "anecdote": "Es wurde am 1. September 2008 in einem Scott McCloud-Comic angekündigt, einen Tag bevor die erste Beta-Version veröffentlicht wurde."
+      },
+      {
+        "id": 19,
+        "question": "Wie viele Dating-Swipes werden pro Minute auf Tinder gestartet ?",
+        "propositions": [
+          "1.100.000",
+          "430.000",
+          "650.000",
+          "800.000"
+        ],
+        "réponse": "1.100.000",
+        "anecdote": "Am 19. November 2015 gab die Match Group, der Tinder gehört, ihren Börsengang mit einer Aktie bekannt, die bei 12 USD notiert ist."
+      },
+      {
+        "id": 20,
+        "question": "Wie viele Snapchat werden in nur einer Minute im Internet erstellt ?",
+        "propositions": [
+          "4,6 Millionen",
+          "2,4 Millionen",
+          "3,2 Millionen",
+          "1,8 Millionen"
+        ],
+        "réponse": "2,4 Millionen",
+        "anecdote": "Die Besonderheit dieser Anwendung ist das Bestehen einer Frist für die Anzeige der an ihre Empfänger gesendeten Medien."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie viele Textnachrichten werden pro Minute über das Internet gesendet ?",
+        "propositions": [
+          "32 Millionen",
+          "18 Millionen",
+          "24 Millionen",
+          "7 Millionen"
+        ],
+        "réponse": "18 Millionen",
+        "anecdote": "Heute ist SMS weltweit in mehreren Netzen verfügbar, einschließlich 3G- und 4G-Mobilfunknetzen."
+      },
+      {
+        "id": 22,
+        "question": "Wie viele Schriftrollen werden in einer Minute auf Instagram ausgeführt ?",
+        "propositions": [
+          "265.000",
+          "174.000",
+          "487.000",
+          "332.000"
+        ],
+        "réponse": "174.000",
+        "anecdote": "Instagram behauptet mehr als eine Milliarde Nutzer weltweit, 75% davon außerhalb der USA."
+      },
+      {
+        "id": 23,
+        "question": "Wie viele Dollar werden in einer Minute für den Online-Kauf ausgegeben ?",
+        "propositions": [
+          "863.000",
+          "476.000",
+          "694.000",
+          "235.000"
+        ],
+        "réponse": "863.000",
+        "anecdote": "Im Rahmen des Business-to-Business-Handels werden EDI-Netzwerke (Electronic Data Interchange) verwendet."
+      },
+      {
+        "id": 24,
+        "question": "Wie viele Ansichten werden in nur einer Minute auf Twitch aufgenommen ?",
+        "propositions": [
+          "587.000",
+          "399.000",
+          "722.000",
+          "936.000"
+        ],
+        "réponse": "936.000",
+        "anecdote": "Der Standort wurde erstellt, um eine Website der Videospiele der Videospiele von Justin.tv zu haben, die der beliebteste Teil des Dienstes war."
+      },
+      {
+        "id": 25,
+        "question": "Wie viele Bilder werden pro Minute über Messenger gesendet ?",
+        "propositions": [
+          "37.000",
+          "18.000",
+          "25.000",
+          "41.000"
+        ],
+        "réponse": "25.000",
+        "anecdote": "Seit 2015 leiten die mobilen Anwendungen von Facebook Nachrichten an die Facebook Messenger-Anwendung weiter."
+      },
+      {
+        "id": 26,
+        "question": "Wie viel Prozent der Franzosen nutzen ein Smartphone, um ins Internet zu gehen ?",
+        "propositions": [
+          "31%",
+          "51%",
+          "71%",
+          "91%"
+        ],
+        "réponse": "71%",
+        "anecdote": "Die Dateneingabe erfolgt meist über einen Touchscreen oder seltener über eine Tastatur oder einen Stift."
+      },
+      {
+        "id": 27,
+        "question": "Wie viele neue Bitcoin werden pro Minute digital generiert ?",
+        "propositions": [
+          "5,00",
+          "1,25",
+          "3,75",
+          "2,50"
+        ],
+        "réponse": "1,25",
+        "anecdote": "Als Zahlungsmittel wird Bitcoin von einer wachsenden Anzahl von Händlern akzeptiert, was auf reduzierte Gebühren zurückzuführen ist."
+      },
+      {
+        "id": 28,
+        "question": "Wie viele neue Kommentare erhält Reddit pro Minute auf seiner Website ?",
+        "propositions": [
+          "4.890",
+          "3,640",
+          "2.720",
+          "1.950"
+        ],
+        "réponse": "1.950",
+        "anecdote": "Das Besondere an Reddit ist, dass sein Modell der sozialen Online-Interaktion besonders süchtig und zeitaufwändig erscheint."
+      },
+      {
+        "id": 29,
+        "question": "Wie viele Beiträge werden in einer Minute auf Tumblr im Internet veröffentlicht ?",
+        "propositions": [
+          "79.750",
+          "57.750",
+          "96.750",
+          "42.750"
+        ],
+        "réponse": "79.750",
+        "anecdote": "Im Mai 2013 hat Yahoo! kaufte Tumblr vom amerikanischen Unternehmer David Karp für 1,1 Milliarden US-Dollar."
+      },
+      {
+        "id": 30,
+        "question": "Wie viele .GIF-Bilder bietet die Website « Giphy » Internetnutzern pro Minute ?",
+        "propositions": [
+          "1.389.000",
+          "1.187.000",
+          "748.000",
+          "932.000"
+        ],
+        "réponse": "1.389.000",
+        "anecdote": "Im März 2018 haben Instagram und Snapchat ihren Zugang zu Giphy aufgrund eines rassistischen Gifs vorübergehend gesperrt."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuántas conexiones de Facebook se realizan en un minuto ?",
+        "propositions": [
+          "784,000",
+          "345,000",
+          "973,000",
+          "596,000"
+        ],
+        "réponse": "973,000",
+        "anecdote": "El tercer sitio web más visitado del mundo, Facebook superó la cifra de 2 mil millones de usuarios activos en junio de 2017."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuántos videos se miran en YouTube por minuto ?",
+        "propositions": [
+          "5,1 millones",
+          "2,9 millones",
+          "3,7 millones",
+          "4,3 millones"
+        ],
+        "réponse": "4,3 millones",
+        "anecdote": "YouTube, creado por tres ex empleados de PayPal, fue adquirido por Google en octubre de 2006 por $ 1,650 millones."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué porcentaje de la población mundial utiliza Internet en 2018 ?",
+        "propositions": [
+          "83%",
+          "66%",
+          "54%",
+          "72%"
+        ],
+        "réponse": "54%",
+        "anecdote": "Fue el 1 de enero de 1983 cuando se oficializó el nombre de Internet, ya en uso para designar a todo ARPANET."
+      },
+      {
+        "id": 4,
+        "question": "¿Aproximadamente cuántos tweets se envían en un minuto a través de la web ?",
+        "propositions": [
+          "372,000",
+          "481,000",
+          "285,000",
+          "132,000"
+        ],
+        "réponse": "481,000",
+        "anecdote": "Twitter permite a un usuario enviar mensajes cortos a través de Internet mediante mensajería instantánea de forma gratuita."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuántos correos electrónicos, incluido el spam, se envían en un minuto ?",
+        "propositions": [
+          "187 millones",
+          "74 millones",
+          "107 millones",
+          "142 millones"
+        ],
+        "réponse": "187 millones",
+        "anecdote": "Para enviar o recibir correos electrónicos, debe tener una dirección de correo electrónico y un cliente de correo electrónico."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuántas consultas de búsqueda de Google se realizan en un minuto ?",
+        "propositions": [
+          "2,6 millones",
+          "4,9 millones",
+          "3,7 millones",
+          "5,2 millones"
+        ],
+        "réponse": "3,7 millones",
+        "anecdote": "Google es una empresa estadounidense fundada en 1998 por Larry Page y Sergueï Brin, creadores del motor de búsqueda « Google »."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué porcentaje de franceses tiene acceso a Internet en 2018 ?",
+        "propositions": [
+          "78%",
+          "98%",
+          "88%",
+          "68%"
+        ],
+        "réponse": "88%",
+        "anecdote": "AFNIC es responsable de los nombres de dominio en ."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuántas llamadas de « Skype » se realizan en un minuto en la web ?",
+        "propositions": [
+          "176.000",
+          "116,000",
+          "206,000",
+          "146,000"
+        ],
+        "réponse": "176.000",
+        "anecdote": "Las llamadas de usuario a usuario son gratuitas, mientras que las llamadas a teléfonos fijos son de pago."
+      },
+      {
+        "id": 9,
+        "question": "¿Cuántas fotos nuevas se publican en Instagram cada minuto ?",
+        "propositions": [
+          "37,200",
+          "17,800",
+          "49,400",
+          "28,600"
+        ],
+        "réponse": "49,400",
+        "anecdote": "Instagram fue fundada y lanzada por el estadounidense Kevin Systrom y el brasileño Michel Mike Krieger en octubre de 2010."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué porcentaje del motor de búsqueda de Google se utiliza a nivel mundial ?",
+        "propositions": [
+          "80%",
+          "70%",
+          "60%",
+          "90%"
+        ],
+        "réponse": "90%",
+        "anecdote": "El nombre Google proviene de la palabra Gogol, nombre que se le da al exponente número 10 100, evocando la gran cantidad de datos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuántas horas de video de Netflix se ven en la web en un minuto ?",
+        "propositions": [
+          "133,000",
+          "488,000",
+          "266,000",
+          "399,000"
+        ],
+        "réponse": "266,000",
+        "anecdote": "La compañía salió a bolsa el 22 de mayo de 2002 por la venta de 5.500.000 acciones ordinarias a un precio de $ 15 por acción."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuántas aplicaciones de Android e iOS se descargan en un minuto ?",
+        "propositions": [
+          "443,000",
+          "174.000",
+          "285,000",
+          "375,000"
+        ],
+        "réponse": "375,000",
+        "anecdote": "En 2015, Android fue el sistema operativo móvil más utilizado en el mundo con más del 80% de participación de mercado."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuántos mensajes se envían cada minuto en WhatsApp ?",
+        "propositions": [
+          "27 millones",
+          "49 millones",
+          "38 millones",
+          "14 millones"
+        ],
+        "réponse": "38 millones",
+        "anecdote": "La empresa fundada en 2009 por Jan Koum y Brian Acton, ex ingenieros de Yahoo !, tiene como objetivo reemplazar los SMS."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuántas cuentas nuevas se crean cada minuto en LinkedIn ?",
+        "propositions": [
+          "480",
+          "120",
+          "240",
+          "360"
+        ],
+        "réponse": "120",
+        "anecdote": "El 13 de junio de 2016, Microsoft compró la red social por $ 26,2 mil millones, o 23,3 mil millones de euros."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué porcentaje de la población mundial está registrada en las redes sociales ?",
+        "propositions": [
+          "44%",
+          "77%",
+          "55%",
+          "66%"
+        ],
+        "réponse": "44%",
+        "anecdote": "Estas aplicaciones se destacan por la explotación comercial de datos personales y el impacto psicológico."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuántos viajes Uber se validan cada minuto en Internet ?",
+        "propositions": [
+          "4,300",
+          "1.400",
+          "3,500",
+          "2,800"
+        ],
+        "réponse": "1.400",
+        "anecdote": "Comprometida con un rápido desarrollo, la compañía Uber ha visto prohibida su actividad en varias ciudades y países de todo el mundo."
+      },
+      {
+        "id": 17,
+        "question": "¿Cuántos paquetes envía Amazon por minuto desde pedidos web ?",
+        "propositions": [
+          "3,333",
+          "4.444",
+          "1,111",
+          "2 222"
+        ],
+        "réponse": "1,111",
+        "anecdote": "La especialidad original de Amazon era vender libros, pero se diversificó para vender otros productos y servicios."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué porcentaje de uso ocupa el navegador Chrome en 2018 ?",
+        "propositions": [
+          "50%",
+          "70%",
+          "60%",
+          "80%"
+        ],
+        "réponse": "60%",
+        "anecdote": "Se anunció el 1 de septiembre de 2008 en un cómic de Scott McCloud, el día antes de que se lanzara la primera versión beta."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuántos deslizamientos de citas se lanzan en Tinder cada minuto ?",
+        "propositions": [
+          "430,000",
+          "650,000",
+          "1,100,000",
+          "800,000"
+        ],
+        "réponse": "1,100,000",
+        "anecdote": "El 19 de noviembre de 2015, Match Group, propietario de Tinder, anunció su oferta pública inicial con una acción listada a $ 12."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuántos Snapchat se crean en Internet en solo un minuto ?",
+        "propositions": [
+          "2,4 millones",
+          "4,6 millones",
+          "1,8 millones",
+          "3,2 millones"
+        ],
+        "réponse": "2,4 millones",
+        "anecdote": "La particularidad de esta aplicación es la existencia de un límite de tiempo para la visualización de los medios enviados a sus destinatarios."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuántos mensajes de texto se envían a través de la web en un minuto ?",
+        "propositions": [
+          "32 millones",
+          "7 millones",
+          "18 millones",
+          "24 millones"
+        ],
+        "réponse": "18 millones",
+        "anecdote": "Hoy en día, los SMS están disponibles en todo el mundo en múltiples redes, incluidas las redes móviles 3G y 4G."
+      },
+      {
+        "id": 22,
+        "question": "¿Cuántos desplazamientos hacia abajo se realizan en Instagram en un minuto ?",
+        "propositions": [
+          "332,000",
+          "265,000",
+          "487,000",
+          "174.000"
+        ],
+        "réponse": "174.000",
+        "anecdote": "Instagram cuenta con más de mil millones de usuarios en todo el mundo, el 75% de ellos fuera de los Estados Unidos."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuántos dólares se gastan comprando online en un minuto ?",
+        "propositions": [
+          "863,000",
+          "694,000",
+          "235,000",
+          "476,000"
+        ],
+        "réponse": "863,000",
+        "anecdote": "En el contexto del comercio de empresa a empresa, se utilizan redes del tipo de intercambio electrónico de datos (EDI)."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuántas vistas se obtienen en Twitch en solo un minuto ?",
+        "propositions": [
+          "399,000",
+          "936,000",
+          "722,000",
+          "587,000"
+        ],
+        "réponse": "936,000",
+        "anecdote": "El sitio fue creado para tener un sitio dedicado a la sucursal de los videojuegos de Justin.TV, que fue la parte más popular del servicio."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuántas imágenes se envían a través de Messenger en un minuto ?",
+        "propositions": [
+          "25,000",
+          "18.000",
+          "41,000",
+          "37,000"
+        ],
+        "réponse": "25,000",
+        "anecdote": "Desde 2015, las aplicaciones móviles de Facebook han redirigido los mensajes a la aplicación Facebook Messenger."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué porcentaje de franceses utiliza un teléfono inteligente para conectarse a la web ?",
+        "propositions": [
+          "51%",
+          "91%",
+          "31%",
+          "71%"
+        ],
+        "réponse": "71%",
+        "anecdote": "La entrada de datos se realiza con mayor frecuencia a través de una pantalla táctil o, más raramente, un teclado o un lápiz."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuántos Bitcoin nuevos se generan digitalmente cada minuto ?",
+        "propositions": [
+          "2,50",
+          "3,75",
+          "1,25",
+          "5,00"
+        ],
+        "réponse": "1,25",
+        "anecdote": "Como medio de pago, bitcoin es aceptado por un número creciente de comerciantes, impulsado por tarifas reducidas."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuántos comentarios nuevos recibe Reddit en su sitio cada minuto ?",
+        "propositions": [
+          "3,640",
+          "1,950",
+          "2,720",
+          "4.890"
+        ],
+        "réponse": "1,950",
+        "anecdote": "Algo especial de Reddit es que su modelo de interacciones sociales en línea parece particularmente adictivo y requiere mucho tiempo."
+      },
+      {
+        "id": 29,
+        "question": "¿Cuántas publicaciones se publican en Tumblr en un minuto en Internet ?",
+        "propositions": [
+          "96,750",
+          "42,750",
+          "57,750",
+          "79,750"
+        ],
+        "réponse": "79,750",
+        "anecdote": "En mayo de 2013, Yahoo! compró Tumblr al empresario estadounidense David Karp por 1.100 millones de dólares."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuántas imágenes .GIF ofrece el sitio « Giphy » a los usuarios de Internet por minuto ?",
+        "propositions": [
+          "1,389,000",
+          "932,000",
+          "1,187,000",
+          "748,000"
+        ],
+        "réponse": "1,389,000",
+        "anecdote": "En marzo de 2018, Instagram y Snapchat suspendieron temporalmente su acceso a Giphy debido a un gif racista."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quante connessioni Facebook vengono effettuate in un minuto ?",
+        "propositions": [
+          "345.000",
+          "596.000",
+          "784.000",
+          "973.000"
+        ],
+        "réponse": "973.000",
+        "anecdote": "Il terzo sito web più visitato al mondo, Facebook ha superato il numero di 2 miliardi di utenti attivi nel giugno 2017."
+      },
+      {
+        "id": 2,
+        "question": "Quanti video vengono guardati su YouTube ogni minuto ?",
+        "propositions": [
+          "2,9 milioni",
+          "5,1 milioni",
+          "3,7 milioni",
+          "4,3 milioni"
+        ],
+        "réponse": "4,3 milioni",
+        "anecdote": "Creato da tre ex dipendenti PayPal, YouTube è stato acquisito da Google nell'ottobre 2006 per 1,65 miliardi di dollari."
+      },
+      {
+        "id": 3,
+        "question": "Quale percentuale della popolazione mondiale utilizza Internet nel 2018 ?",
+        "propositions": [
+          "72%",
+          "66%",
+          "83%",
+          "54%"
+        ],
+        "réponse": "54%",
+        "anecdote": "Fu il 1 ° gennaio 1983 che il nome Internet, già utilizzato per designare l'intero ARPANET, divenne ufficiale."
+      },
+      {
+        "id": 4,
+        "question": "Quanti tweet vengono inviati approssimativamente in un minuto tramite il web ?",
+        "propositions": [
+          "132.000",
+          "481.000",
+          "372.000",
+          "285.000"
+        ],
+        "réponse": "481.000",
+        "anecdote": "Twitter consente a un utente di inviare brevi messaggi su Internet tramite la messaggistica istantanea gratuitamente."
+      },
+      {
+        "id": 5,
+        "question": "Quante email, incluso lo spam, vengono inviate in un minuto ?",
+        "propositions": [
+          "142 milioni",
+          "74 milioni",
+          "107 milioni",
+          "187 milioni"
+        ],
+        "réponse": "187 milioni",
+        "anecdote": "Per inviare o ricevere messaggi di posta elettronica, è necessario disporre di un indirizzo di posta elettronica e di un client di posta elettronica."
+      },
+      {
+        "id": 6,
+        "question": "Quante query di ricerca Google vengono effettuate in un minuto ?",
+        "propositions": [
+          "5,2 milioni",
+          "4,9 milioni",
+          "3,7 milioni",
+          "2,6 milioni"
+        ],
+        "réponse": "3,7 milioni",
+        "anecdote": "Google è un'azienda americana fondata nel 1998 da Larry Page e Sergueï Brin, creatori del motore di ricerca « Google »."
+      },
+      {
+        "id": 7,
+        "question": "Quale percentuale di francesi ha accesso a Internet nel 2018 ?",
+        "propositions": [
+          "78%",
+          "68%",
+          "98%",
+          "88%"
+        ],
+        "réponse": "88%",
+        "anecdote": "AFNIC è responsabile dei nomi di dominio in ."
+      },
+      {
+        "id": 8,
+        "question": "Quante chiamate « Skype » vengono effettuate in un minuto sul Web ?",
+        "propositions": [
+          "176.000",
+          "146.000",
+          "206.000",
+          "116.000"
+        ],
+        "réponse": "176.000",
+        "anecdote": "Le chiamate da utente a utente sono gratuite, mentre le chiamate verso telefoni fissi sono a pagamento."
+      },
+      {
+        "id": 9,
+        "question": "Quante nuove foto vengono pubblicate su Instagram ogni minuto ?",
+        "propositions": [
+          "28.600",
+          "17.800",
+          "49.400",
+          "37.200"
+        ],
+        "réponse": "49.400",
+        "anecdote": "Instagram è stato fondato e lanciato dall'americano Kevin Systrom e dal brasiliano Michel Mike Krieger nell'ottobre 2010."
+      },
+      {
+        "id": 10,
+        "question": "Quale percentuale del motore di ricerca di Google viene utilizzata a livello globale ?",
+        "propositions": [
+          "60%",
+          "80%",
+          "70%",
+          "90%"
+        ],
+        "réponse": "90%",
+        "anecdote": "Il nome Google deriva dalla parola Gogol, nome dato all'esponente numero 10 100, che evoca la grande mole di dati."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quante ore di video Netflix vengono visualizzate sul Web in un minuto ?",
+        "propositions": [
+          "266.000",
+          "133.000",
+          "399.000",
+          "488.000"
+        ],
+        "réponse": "266.000",
+        "anecdote": "La società è stata quotata in borsa il 22 maggio 2002, per la vendita di 5.500.000 azioni ordinarie al prezzo di $ 15 per azione."
+      },
+      {
+        "id": 12,
+        "question": "Quante app Android e iOS vengono scaricate in un minuto ?",
+        "propositions": [
+          "375.000",
+          "443.000",
+          "174.000",
+          "285.000"
+        ],
+        "réponse": "375.000",
+        "anecdote": "Nel 2015, Android era il sistema operativo mobile più utilizzato al mondo con una quota di mercato superiore all'80%."
+      },
+      {
+        "id": 13,
+        "question": "Quanti messaggi vengono inviati ogni minuto su WhatsApp ?",
+        "propositions": [
+          "49 milioni",
+          "14 milioni",
+          "27 milioni",
+          "38 milioni"
+        ],
+        "réponse": "38 milioni",
+        "anecdote": "L'azienda fondata nel 2009 da Jan Koum e Brian Acton, ex ingegneri di Yahoo !, mira a sostituire gli SMS."
+      },
+      {
+        "id": 14,
+        "question": "Quanti nuovi account vengono creati ogni minuto su LinkedIn ?",
+        "propositions": [
+          "120",
+          "480",
+          "360",
+          "240"
+        ],
+        "réponse": "120",
+        "anecdote": "Il 13 giugno 2016, Microsoft ha acquistato il social network per $ 26,2 miliardi, o 23,3 miliardi di euro."
+      },
+      {
+        "id": 15,
+        "question": "Quale percentuale della popolazione mondiale è registrata sui social network ?",
+        "propositions": [
+          "44%",
+          "55%",
+          "66%",
+          "77%"
+        ],
+        "réponse": "44%",
+        "anecdote": "Queste applicazioni sono selezionate per lo sfruttamento commerciale dei dati personali e l'impatto psicologico."
+      },
+      {
+        "id": 16,
+        "question": "Quanti viaggi Uber vengono convalidati ogni minuto su Internet ?",
+        "propositions": [
+          "1.400",
+          "4.300",
+          "3.500",
+          "2.800"
+        ],
+        "réponse": "1.400",
+        "anecdote": "Impegnata in un rapido sviluppo, la società Uber ha visto la sua attività bandita in diverse città e paesi in tutto il mondo."
+      },
+      {
+        "id": 17,
+        "question": "Quanti pacchi vengono inviati al minuto da Amazon dagli ordini web ?",
+        "propositions": [
+          "2 222",
+          "1,111",
+          "3.333",
+          "4.444"
+        ],
+        "réponse": "1,111",
+        "anecdote": "La specialità originale di Amazon era la vendita di libri, ma si è estesa alla vendita di altri prodotti e servizi."
+      },
+      {
+        "id": 18,
+        "question": "Quale percentuale di utilizzo occupa il browser Chrome nel 2018 ?",
+        "propositions": [
+          "70%",
+          "60%",
+          "80%",
+          "50%"
+        ],
+        "réponse": "60%",
+        "anecdote": "È stato annunciato il 1 settembre 2008 in un fumetto di Scott McCloud, il giorno prima del rilascio della prima versione beta."
+      },
+      {
+        "id": 19,
+        "question": "Quanti passaggi di appuntamenti vengono lanciati su Tinder ogni minuto ?",
+        "propositions": [
+          "430.000",
+          "800.000",
+          "650.000",
+          "1.100.000"
+        ],
+        "réponse": "1.100.000",
+        "anecdote": "Il 19 novembre 2015, Match Group, che possiede Tinder, ha annunciato la sua IPO con una quota quotata a $ 12."
+      },
+      {
+        "id": 20,
+        "question": "Quanti Snapchat vengono creati su Internet in un solo minuto ?",
+        "propositions": [
+          "3,2 milioni",
+          "4,6 milioni",
+          "2,4 milioni",
+          "1,8 milioni"
+        ],
+        "réponse": "2,4 milioni",
+        "anecdote": "La particolarità di questa applicazione è l'esistenza di un limite di tempo per la visione dei media inviati ai suoi destinatari."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quanti messaggi di testo vengono inviati sul Web in un minuto ?",
+        "propositions": [
+          "7 milioni",
+          "18 milioni",
+          "32 milioni",
+          "24 milioni"
+        ],
+        "réponse": "18 milioni",
+        "anecdote": "Oggi, gli SMS sono disponibili in tutto il mondo su più reti, comprese le reti mobili 3G e 4G."
+      },
+      {
+        "id": 22,
+        "question": "Quanti scroll si fanno su Instagram in un minuto ?",
+        "propositions": [
+          "487.000",
+          "174.000",
+          "332.000",
+          "265.000"
+        ],
+        "réponse": "174.000",
+        "anecdote": "Instagram rivendica più di un miliardo di utenti in tutto il mondo, di cui il 75% al di fuori degli Stati Uniti."
+      },
+      {
+        "id": 23,
+        "question": "Quanti dollari vengono spesi per l'acquisto online in un minuto ?",
+        "propositions": [
+          "863.000",
+          "694.000",
+          "476.000",
+          "235.000"
+        ],
+        "réponse": "863.000",
+        "anecdote": "Nel contesto del commercio business-to-business, vengono utilizzate reti di tipo EDI (Electronic Data Interchange)."
+      },
+      {
+        "id": 24,
+        "question": "Quante visualizzazioni vengono ottenute su Twitch in un solo minuto ?",
+        "propositions": [
+          "936.000",
+          "722.000",
+          "399.000",
+          "587.000"
+        ],
+        "réponse": "936.000",
+        "anecdote": "Il sito è stato creato per avere un sito dedicato alla filiale dei videogiochi di Justin.tv, che era la parte più popolare del servizio."
+      },
+      {
+        "id": 25,
+        "question": "Quante immagini vengono inviate tramite Messenger in un minuto ?",
+        "propositions": [
+          "37.000",
+          "25.000",
+          "18.000",
+          "41.000"
+        ],
+        "réponse": "25.000",
+        "anecdote": "Dal 2015, le applicazioni mobili di Facebook hanno reindirizzato la messaggistica all'applicazione Facebook Messenger."
+      },
+      {
+        "id": 26,
+        "question": "Quale percentuale di francesi usa uno smartphone per navigare sul web ?",
+        "propositions": [
+          "71%",
+          "91%",
+          "31%",
+          "51%"
+        ],
+        "réponse": "71%",
+        "anecdote": "L'inserimento dei dati avviene molto spesso tramite un touch screen o, più raramente, una tastiera o uno stilo."
+      },
+      {
+        "id": 27,
+        "question": "Quanti nuovi Bitcoin vengono generati digitalmente ogni minuto ?",
+        "propositions": [
+          "1.25",
+          "2.50",
+          "3.75",
+          "5.00"
+        ],
+        "réponse": "1.25",
+        "anecdote": "Come mezzo di pagamento, il bitcoin è accettato da un numero crescente di trader, spinto da commissioni ridotte."
+      },
+      {
+        "id": 28,
+        "question": "Quanti nuovi commenti riceve Reddit sul suo sito ogni minuto ?",
+        "propositions": [
+          "4.890",
+          "2,720",
+          "1.950",
+          "3.640"
+        ],
+        "réponse": "1.950",
+        "anecdote": "Una cosa speciale di Reddit è che il suo modello di interazioni sociali online sembra particolarmente avvincente e richiede tempo."
+      },
+      {
+        "id": 29,
+        "question": "Quanti post vengono pubblicati su Tumblr in un minuto su Internet ?",
+        "propositions": [
+          "57.750",
+          "79,750",
+          "42,750",
+          "96,750"
+        ],
+        "réponse": "79,750",
+        "anecdote": "Nel maggio 2013, Yahoo! ha acquistato Tumblr dall'imprenditore americano David Karp per 1,1 miliardi di dollari."
+      },
+      {
+        "id": 30,
+        "question": "Quante immagini .GIF offre il sito « Giphy » agli utenti di Internet ogni minuto ?",
+        "propositions": [
+          "932.000",
+          "748.000",
+          "1.187.000",
+          "1.389.000"
+        ],
+        "réponse": "1.389.000",
+        "anecdote": "Nel marzo 2018, Instagram e Snapchat hanno sospeso temporaneamente il loro accesso a Giphy a causa di una gif razzista."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Hoeveel Facebook-verbindingen worden er in een minuut gemaakt ?",
+        "propositions": [
+          "973.000",
+          "345.000",
+          "596.000",
+          "784.000"
+        ],
+        "réponse": "973.000",
+        "anecdote": "De op twee na meest bezochte website ter wereld, Facebook, overschreed in juni 2017 het aantal van 2 miljard actieve gebruikers."
+      },
+      {
+        "id": 2,
+        "question": "Hoeveel video's worden er elke minuut op YouTube bekeken ?",
+        "propositions": [
+          "2,9 miljoen",
+          "3,7 miljoen",
+          "5,1 miljoen",
+          "4,3 miljoen"
+        ],
+        "réponse": "4,3 miljoen",
+        "anecdote": "YouTube, gemaakt door drie voormalige PayPal-medewerkers, werd in oktober 2006 door Google overgenomen voor $ 1,65 miljard."
+      },
+      {
+        "id": 3,
+        "question": "Welk percentage van de wereldbevolking gebruikt internet in 2018 ?",
+        "propositions": [
+          "72%",
+          "66%",
+          "83%",
+          "54%"
+        ],
+        "réponse": "54%",
+        "anecdote": "Het was op 1 januari 1983 dat de internetnaam, die al in gebruik was om het hele ARPANET aan te duiden, officieel werd."
+      },
+      {
+        "id": 4,
+        "question": "Hoeveel tweets worden er in een minuut ongeveer via internet verzonden ?",
+        "propositions": [
+          "372.000",
+          "285.000",
+          "481.000",
+          "132.000"
+        ],
+        "réponse": "481.000",
+        "anecdote": "Twitter stelt een gebruiker in staat om gratis korte berichten via internet te verzenden door middel van instant messaging."
+      },
+      {
+        "id": 5,
+        "question": "Hoeveel e-mails, inclusief spam, worden er in een minuut verzonden ?",
+        "propositions": [
+          "74 miljoen",
+          "142 miljoen",
+          "187 miljoen",
+          "107 miljoen"
+        ],
+        "réponse": "187 miljoen",
+        "anecdote": "Om e-mails te kunnen verzenden of ontvangen, moet u zowel een e-mailadres als een e-mailclient hebben."
+      },
+      {
+        "id": 6,
+        "question": "Hoeveel Google-zoekopdrachten worden er in een minuut uitgevoerd ?",
+        "propositions": [
+          "2,6 miljoen",
+          "5,2 miljoen",
+          "3,7 miljoen",
+          "4,9 miljoen"
+        ],
+        "réponse": "3,7 miljoen",
+        "anecdote": "Google is een Amerikaans bedrijf dat in 1998 is opgericht door Larry Page en Sergueï Brin, makers van de « Google » -zoekmachine."
+      },
+      {
+        "id": 7,
+        "question": "Welk percentage van de Fransen heeft in 2018 toegang tot internet ?",
+        "propositions": [
+          "78%",
+          "98%",
+          "68%",
+          "88%"
+        ],
+        "réponse": "88%",
+        "anecdote": "AFNIC is verantwoordelijk voor domeinnamen in ."
+      },
+      {
+        "id": 8,
+        "question": "Hoeveel « Skype » -gesprekken worden er in één minuut op internet geplaatst ?",
+        "propositions": [
+          "116.000",
+          "146.000",
+          "176.000",
+          "206.000"
+        ],
+        "réponse": "176.000",
+        "anecdote": "Gesprekken van gebruiker naar gebruiker zijn gratis, terwijl oproepen naar vaste lijnen worden betaald."
+      },
+      {
+        "id": 9,
+        "question": "Hoeveel nieuwe foto's worden er elke minuut op Instagram geplaatst ?",
+        "propositions": [
+          "17.800",
+          "37.200",
+          "28.600",
+          "49.400"
+        ],
+        "réponse": "49.400",
+        "anecdote": "Instagram is in oktober 2010 opgericht en gelanceerd door de Amerikaan Kevin Systrom en de Braziliaan Michel Mike Krieger."
+      },
+      {
+        "id": 10,
+        "question": "Welk percentage van de zoekmachine van Google wordt wereldwijd gebruikt ?",
+        "propositions": [
+          "80%",
+          "70%",
+          "90%",
+          "60%"
+        ],
+        "réponse": "90%",
+        "anecdote": "De naam Google komt van het woord Gogol, naam gegeven aan het getal 10 exponent 100, wat de grote hoeveelheid gegevens oproept."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hoeveel uur Netflix-video wordt er in één minuut op internet bekeken ?",
+        "propositions": [
+          "399.000",
+          "266.000",
+          "488.000",
+          "133.000"
+        ],
+        "réponse": "266.000",
+        "anecdote": "Het bedrijf ging op 22 mei 2002 naar de beurs voor de verkoop van 5.500.000 gewone aandelen tegen een prijs van $ 15 per aandeel."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel Android- en iOS-apps worden er in een minuut gedownload ?",
+        "propositions": [
+          "375.000",
+          "174.000",
+          "443.000",
+          "285.000"
+        ],
+        "réponse": "375.000",
+        "anecdote": "In 2015 was Android het meest gebruikte mobiele besturingssysteem ter wereld met een marktaandeel van meer dan 80%."
+      },
+      {
+        "id": 13,
+        "question": "Hoeveel berichten worden er per minuut verzonden op WhatsApp ?",
+        "propositions": [
+          "14 miljoen",
+          "38 miljoen",
+          "49 miljoen",
+          "27 miljoen"
+        ],
+        "réponse": "38 miljoen",
+        "anecdote": "Het bedrijf dat in 2009 werd opgericht door Jan Koum en Brian Acton, voormalige ingenieurs bij Yahoo!, heeft tot doel SMS te vervangen."
+      },
+      {
+        "id": 14,
+        "question": "Hoeveel nieuwe accounts worden er elke minuut aangemaakt op LinkedIn ?",
+        "propositions": [
+          "120",
+          "480",
+          "240",
+          "360"
+        ],
+        "réponse": "120",
+        "anecdote": "Op 13 juni 2016 kocht Microsoft het sociale netwerk voor $ 26,2 miljard, oftewel 23,3 miljard euro."
+      },
+      {
+        "id": 15,
+        "question": "Welk percentage van de wereldbevolking is geregistreerd op sociale netwerken ?",
+        "propositions": [
+          "44%",
+          "66%",
+          "77%",
+          "55%"
+        ],
+        "réponse": "44%",
+        "anecdote": "Deze toepassingen zijn speciaal bedoeld voor de commerciële exploitatie van persoonsgegevens en de psychologische impact."
+      },
+      {
+        "id": 16,
+        "question": "Hoeveel Uber-ritten worden er elke minuut op internet gevalideerd ?",
+        "propositions": [
+          "3.500",
+          "1.400",
+          "2800",
+          "4300"
+        ],
+        "réponse": "1.400",
+        "anecdote": "Het bedrijf Uber is bezig met een snelle ontwikkeling en heeft gezien dat zijn activiteiten in verschillende steden en landen over de hele wereld verboden zijn."
+      },
+      {
+        "id": 17,
+        "question": "Hoeveel pakketten verstuurt Amazon per minuut via webbestellingen ?",
+        "propositions": [
+          "3.333",
+          "4444",
+          "1111",
+          "2222"
+        ],
+        "réponse": "1111",
+        "anecdote": "De oorspronkelijke specialiteit van Amazon was het verkopen van boeken, maar het groeide uit tot de verkoop van andere producten en diensten."
+      },
+      {
+        "id": 18,
+        "question": "Welk percentage van gebruik bezet de Chrome-browser in 2018 ?",
+        "propositions": [
+          "70%",
+          "60%",
+          "50%",
+          "80%"
+        ],
+        "réponse": "60%",
+        "anecdote": "Het werd aangekondigd op 1 september 2008 in een Scott McCloud-strip, de dag voordat de eerste bètaversie werd uitgebracht."
+      },
+      {
+        "id": 19,
+        "question": "Hoeveel dating-swipes worden er elke minuut op Tinder gelanceerd ?",
+        "propositions": [
+          "800.000",
+          "430.000",
+          "650.000",
+          "1.100.000"
+        ],
+        "réponse": "1.100.000",
+        "anecdote": "Op 19 november 2015 kondigde Match Group, eigenaar van Tinder, zijn beursintroductie aan met één aandeel genoteerd op $ 12."
+      },
+      {
+        "id": 20,
+        "question": "Hoeveel Snapchat worden er in slechts één minuut op internet gemaakt ?",
+        "propositions": [
+          "4,6 miljoen",
+          "3,2 miljoen",
+          "2,4 miljoen",
+          "1,8 miljoen"
+        ],
+        "réponse": "2,4 miljoen",
+        "anecdote": "Het bijzondere van deze applicatie is het bestaan van een tijdslimiet voor het bekijken van de media die naar de ontvangers zijn verzonden."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Hoeveel sms-berichten worden er per minuut via internet verzonden ?",
+        "propositions": [
+          "24 miljoen",
+          "18 miljoen",
+          "7 miljoen",
+          "32 miljoen"
+        ],
+        "réponse": "18 miljoen",
+        "anecdote": "Tegenwoordig is sms wereldwijd beschikbaar op meerdere netwerken, waaronder mobiele 3G- en 4G-netwerken."
+      },
+      {
+        "id": 22,
+        "question": "Hoeveel scrollt naar beneden worden er op Instagram in een minuut gedaan ?",
+        "propositions": [
+          "487.000",
+          "332.000",
+          "265.000",
+          "174.000"
+        ],
+        "réponse": "174.000",
+        "anecdote": "Instagram claimt wereldwijd meer dan een miljard gebruikers, waarvan 75% buiten de Verenigde Staten."
+      },
+      {
+        "id": 23,
+        "question": "Hoeveel dollars worden er in een minuut online gekocht ?",
+        "propositions": [
+          "863.000",
+          "694.000",
+          "235.000",
+          "476.000"
+        ],
+        "réponse": "863.000",
+        "anecdote": "In de context van business-to-business-handel worden netwerken van het type elektronische gegevensuitwisseling (EDI) gebruikt."
+      },
+      {
+        "id": 24,
+        "question": "Hoeveel views worden er in slechts één minuut op Twitch gemaakt ?",
+        "propositions": [
+          "936.000",
+          "399.000",
+          "722.000",
+          "587.000"
+        ],
+        "réponse": "936.000",
+        "anecdote": "De site is gemaakt om een  ? ?site te hebben gewijd aan de tak van de videogames van Justin.TV, het populairste deel van de service."
+      },
+      {
+        "id": 25,
+        "question": "Hoeveel afbeeldingen worden er per minuut via Messenger verzonden ?",
+        "propositions": [
+          "18.000",
+          "25.000",
+          "41.000",
+          "37.000"
+        ],
+        "réponse": "25.000",
+        "anecdote": "Sinds 2015 hebben de mobiele applicaties van Facebook berichten omgeleid naar de Facebook Messenger-applicatie."
+      },
+      {
+        "id": 26,
+        "question": "Welk percentage van de Fransen gebruikt een smartphone om op internet te gaan ?",
+        "propositions": [
+          "31%",
+          "71%",
+          "91%",
+          "51%"
+        ],
+        "réponse": "71%",
+        "anecdote": "Gegevensinvoer gebeurt meestal via een aanraakscherm of, zeldzamer, een toetsenbord of stylus."
+      },
+      {
+        "id": 27,
+        "question": "Hoeveel nieuwe Bitcoin worden er elke minuut digitaal gegenereerd ?",
+        "propositions": [
+          "3,75",
+          "5,00",
+          "1,25",
+          "2,50"
+        ],
+        "réponse": "1,25",
+        "anecdote": "Als betaalmiddel wordt bitcoin door een groeiend aantal handelaren geaccepteerd, ingegeven door lagere vergoedingen."
+      },
+      {
+        "id": 28,
+        "question": "Hoeveel nieuwe reacties krijgt Reddit elke minuut op zijn site ?",
+        "propositions": [
+          "3640",
+          "2720",
+          "1.950",
+          "4890"
+        ],
+        "réponse": "1.950",
+        "anecdote": "Bijzonder aan Reddit is dat het model van online sociale interacties bijzonder verslavend en tijdrovend lijkt."
+      },
+      {
+        "id": 29,
+        "question": "Hoeveel posts worden er in een minuut op internet op Tumblr gepubliceerd ?",
+        "propositions": [
+          "57.750",
+          "79.750",
+          "42.750",
+          "96.750"
+        ],
+        "réponse": "79.750",
+        "anecdote": "In mei 2013 heeft Yahoo! kocht Tumblr van de Amerikaanse ondernemer David Karp voor $ 1,1 miljard."
+      },
+      {
+        "id": 30,
+        "question": "Hoeveel .GIF-afbeeldingen biedt de « Giphy » -site internetgebruikers per minuut ?",
+        "propositions": [
+          "1.389.000",
+          "748.000",
+          "1.187.000",
+          "932.000"
+        ],
+        "réponse": "1.389.000",
+        "anecdote": "In maart 2018 hebben Instagram en Snapchat hun toegang tot Giphy tijdelijk opgeschort vanwege een racistische gif."
+      }
+    ]
+    }
+  }
+}

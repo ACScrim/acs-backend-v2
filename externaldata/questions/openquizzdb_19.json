@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 1,
+  "mise-à-jour": "2025-02-04",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Vie quotidienne",
+      "nom": "Chocolatissimo",
+      "slogan": "De la fève à la tablette"
+    },
+    "en": {
+      "catégorie": "Everyday life",
+      "nom": "Chocolate",
+      "slogan": "Good for morale, less for the liver"
+    },
+    "es": {
+      "catégorie": "Vida cotidiana",
+      "nom": "Chocolatada",
+      "slogan": "Bueno para la moral, menos para el hígado"
+    },
+    "it": {
+      "catégorie": "Vita di ogni giorno",
+      "nom": "Cioccolato",
+      "slogan": "Buono per il morale, meno per il fegato"
+    },
+    "de": {
+      "catégorie": "Alltagsleben",
+      "nom": "Schokolade",
+      "slogan": "Gut für die Moral, weniger für die Leber"
+    },
+    "nl": {
+      "catégorie": "Alledaagse leven",
+      "nom": "Chocolade",
+      "slogan": "Goed voor het moreel, minder voor de lever"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "À partir de la fève de quel arbre spécifique le chocolat est-il produit ?",
+        "propositions": [
+          "Figuier",
+          "Pacanier",
+          "Palmier",
+          "Cacaoyer"
+        ],
+        "réponse": "Cacaoyer",
+        "anecdote": "Les fèves de cacao sont en réalité des graines contenues dans les cabosses du cacaoyer, chacune pouvant contenir 20 à 50 fèves."
+      },
+      {
+        "id": 2,
+        "question": "Quel beurre joue un rôle crucial dans la texture et le goût du chocolat ?",
+        "propositions": [
+          "Beurre salé",
+          "Beurre de karité",
+          "Beurre noisette",
+          "Beurre de cacao"
+        ],
+        "réponse": "Beurre de cacao",
+        "anecdote": "Le beurre de cacao est également utilisé dans des produits de beauté, en raison de ses propriétés nourrissantes et réparatrices."
+      },
+      {
+        "id": 3,
+        "question": "Que fait-on en torréfiant les fèves de cacao pour la préparation du chocolat ?",
+        "propositions": [
+          "On les écrase",
+          "On les épluche",
+          "On les tord",
+          "On les grille"
+        ],
+        "réponse": "On les grille",
+        "anecdote": "La torréfaction, c'est-à-dire un chauffage de 140 à 160°C pendant 20 à 30 minutes, permet le développement des arômes du cacao."
+      },
+      {
+        "id": 4,
+        "question": "Quel chocolat, parfois mélangé avec des épices, contient le moins de sucre ?",
+        "propositions": [
+          "Praliné",
+          "Blanc",
+          "Au lait",
+          "Noir"
+        ],
+        "réponse": "Noir",
+        "anecdote": "Il est riche en flavonoïdes, antioxydants censés améliorer la santé cardiovasculaire et favoriser la circulation sanguine."
+      },
+      {
+        "id": 5,
+        "question": "En 1826, quel entrepreneur Suisse a créé une célèbre fabrique de chocolat ?",
+        "propositions": [
+          "Lindt",
+          "Jacobs",
+          "Suchard",
+          "Tobler"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "En 1988, Suchard a été rachetée par Kraft Foods, mais la marque continue de vivre sous son nom emblématique dans certains pays."
+      },
+      {
+        "id": 6,
+        "question": "Que provoque la consommation de chocolat chez la plupart des animaux de compagnie ?",
+        "propositions": [
+          "Diabète",
+          "Mort",
+          "Cécité",
+          "Paralysie"
+        ],
+        "réponse": "Mort",
+        "anecdote": "Le chocolat contient de la théobromine, un produit semblable à la caféine, que le métabolisme des animaux ne permet pas d'éliminer."
+      },
+      {
+        "id": 7,
+        "question": "Quel chocolat, riche en acides gras saturés, est le plus amer ?",
+        "propositions": [
+          "Noir",
+          "Au lait",
+          "Blanc",
+          "Praliné"
+        ],
+        "réponse": "Noir",
+        "anecdote": "Riche en graisses saturées, le chocolat noir l'est également en magnésium, ce qui peut aider à améliorer la concentration."
+      },
+      {
+        "id": 8,
+        "question": "Qui incarne la chocolatière dans le film adapté du roman « Le chocolat » de Joanne Harris ?",
+        "propositions": [
+          "Juliette Binoche",
+          "Judith Godrèche",
+          "Karin Viard",
+          "Isabelle Adjani"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "Le film a été un grand succès grâce à la magie de l'histoire, mais aussi grâce à la beauté des paysages français qui servirent de décor."
+      },
+      {
+        "id": 9,
+        "question": "Comment appelle-t-on le fruit du cacaoyer, se présentant sous la forme d'une baie ?",
+        "propositions": [
+          "Carabosse",
+          "Ciboulot",
+          "Caboche",
+          "Cabosse"
+        ],
+        "réponse": "Cabosse",
+        "anecdote": "Récoltées avec des machettes, les cabosses se situent sur le tronc et les grosses branches, et non pas sur les rameaux jeunes."
+      },
+      {
+        "id": 10,
+        "question": "Quel chocolat, généralement préféré par les puristes, ne contient pas de lait ?",
+        "propositions": [
+          "Blanc",
+          "Praliné",
+          "Au lait",
+          "Noir"
+        ],
+        "réponse": "Noir",
+        "anecdote": "Réglementairement, le chocolat noir doit contenir au moins 35 % de cacao, sans limite supérieure pour la concentration de cacao."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "De quel peuple le chocolat serait-il originaire, l'associant à leur dieu de la fertilité ?",
+        "propositions": [
+          "Incas",
+          "Toltèques",
+          "Olmèques",
+          "Mayas"
+        ],
+        "réponse": "Mayas",
+        "anecdote": "Le cacao, symbolisant la fertilité, était également utilisé dans les rituels de mariage et dans d'autres événements spirituels."
+      },
+      {
+        "id": 12,
+        "question": "Combien trouve-t-on environ de fèves de cacao dans une cabosse ?",
+        "propositions": [
+          "Entre 20 et 50",
+          "Entre 70 et 100",
+          "Entre 10 et 20",
+          "Entre 50 et 70"
+        ],
+        "réponse": "Entre 20 et 50",
+        "anecdote": "Pouvant mesurer jusqu'à 30 cm de long, la cabosse a une forme allongée et ressemble un peu à un concombre assez rebondi."
+      },
+      {
+        "id": 13,
+        "question": "Quel est le premier pays producteur de cacao, loin devant le Ghana et l'Indonésie ?",
+        "propositions": [
+          "Nigeria",
+          "Côte d'Ivoire",
+          "Brésil",
+          "Mexique"
+        ],
+        "réponse": "Côte d'Ivoire",
+        "anecdote": "En Côte d'Ivoire, les petites exploitations familiales dominent la production, le pays comptant plus de 700 000 producteurs de cacao."
+      },
+      {
+        "id": 14,
+        "question": "Quel élément différencie le chocolat blanc des autres chocolats ?",
+        "propositions": [
+          "Beurre",
+          "Pâte de cacao",
+          "Lait",
+          "Sucre"
+        ],
+        "réponse": "Pâte de cacao",
+        "anecdote": "Le chocolat blanc a d'abord été distribué en Amérique en 1948 avec l'introduction des barres de chocolat « blanc alpin » de Nestlé."
+      },
+      {
+        "id": 15,
+        "question": "Dans quel pays a été fabriquée pour la première fois une tablette de chocolat ?",
+        "propositions": [
+          "Angleterre",
+          "Suisse",
+          "Brésil",
+          "Mexique"
+        ],
+        "réponse": "Angleterre",
+        "anecdote": "Avant cette invention de 1847, le chocolat était consommé sous forme de boisson amère, souvent mélangée à des épices."
+      },
+      {
+        "id": 16,
+        "question": "Combien de récoltes peut-on réaliser par an sur un cacaoyer en bonne santé ?",
+        "propositions": [
+          "Quatre",
+          "Huit",
+          "Deux",
+          "Six"
+        ],
+        "réponse": "Deux",
+        "anecdote": "La récolte principale a lieu pendant la saison sèche, tandis que la récolte secondaire, moins abondante, se fait en saison humide."
+      },
+      {
+        "id": 17,
+        "question": "Quel pays européen est le plus grand consommateur de chocolat par habitant ?",
+        "propositions": [
+          "Suisse",
+          "France",
+          "Belgique",
+          "Portugal"
+        ],
+        "réponse": "Suisse",
+        "anecdote": "Avec une consommation moyenne de dix kilos par habitant et par an, la Suisse est le pays mondial où l'on en consomme le plus."
+      },
+      {
+        "id": 18,
+        "question": "De quel pays le cacaoyer, domestiqué il y a environ 3 000 ans, est-il originaire ?",
+        "propositions": [
+          "Bolivie",
+          "Madagascar",
+          "Mozambique",
+          "Équateur"
+        ],
+        "réponse": "Équateur",
+        "anecdote": "Les peuples de la culture Mayo-Chinchipe, vivant en Équateur, seraient parmi les premiers à avoir cultivé et consommé le cacao."
+      },
+      {
+        "id": 19,
+        "question": "Quel chocolat, devant contenir au minimum 20 % de beurre de cacao, est le plus sucré ?",
+        "propositions": [
+          "Noir",
+          "Praliné",
+          "Au lait",
+          "Blanc"
+        ],
+        "réponse": "Blanc",
+        "anecdote": "Contrairement au chocolat noir ou au lait, le chocolat blanc ne contient pas de pâte de cacao, mais uniquement du beurre de cacao."
+      },
+      {
+        "id": 20,
+        "question": "Combien de cabosses un cacaoyer peut-il produire en moyenne sur ses 40 ans de vie ?",
+        "propositions": [
+          "500 à 700",
+          "40 à 80",
+          "2 000 à 3 000",
+          "100 à 200"
+        ],
+        "réponse": "2 000 à 3 000",
+        "anecdote": "Chaque cabosse, ressemblant à un petit ballon de football américain, peut peser jusqu'à 400 g pour environ 15 à 20 cm de long."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Pour les préliminaires de quel événement les Mayas se servent-ils du chocolat ?",
+        "propositions": [
+          "Sacrifice",
+          "Naissance",
+          "Décès",
+          "Mariage"
+        ],
+        "réponse": "Mariage",
+        "anecdote": "Le chocolat était consommé dans des rituels d'union, symbolisant l'amour et la fertilité, bu sous forme de xocolatl, une boisson amère."
+      },
+      {
+        "id": 22,
+        "question": "Quelle civilisation précolombienne a la première cultivé le cacao ?",
+        "propositions": [
+          "Incas",
+          "Berbères",
+          "Aztèques",
+          "Olmèques"
+        ],
+        "réponse": "Olmèques",
+        "anecdote": "Les Olmèques sont considérés comme la civilisation mère de la Méso-Amérique, et c'est eux qui ont introduit la culture du cacao."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel pays européen a-t-on commencé à consommer du chocolat ?",
+        "propositions": [
+          "France",
+          "Espagne",
+          "Italie",
+          "Belgique"
+        ],
+        "réponse": "Espagne",
+        "anecdote": "Ils ont d'abord consommé le chocolat sous forme de boisson, souvent épicée, avant que d'autres pays européens ne s'y intéressent."
+      },
+      {
+        "id": 24,
+        "question": "Combien de fleurs un cacaoyer peut-il produire annuellement ?",
+        "propositions": [
+          "3 000 à 6 000",
+          "50 000 à 60 000",
+          "20 000 à 30 000",
+          "1 000 à 3 000"
+        ],
+        "réponse": "20 000 à 30 000",
+        "anecdote": "Seulement une petite partie de ces fleurs sera pollinisée et donnera ensuite des cabosses, la grande majorité étant éphémères."
+      },
+      {
+        "id": 25,
+        "question": "Quel explorateur a rapporté le cacao en Europe en 1528 ?",
+        "propositions": [
+          "Cortés",
+          "Foucauld",
+          "Christophe Colomb",
+          "Charcot"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernan Cortés s'est emparé de l'Empire aztèque pour le compte de Charles Quint, roi de Castille et empereur romain germanique."
+      },
+      {
+        "id": 26,
+        "question": "Quel chocolat noir est issu de cacao d'une seule plantation ?",
+        "propositions": [
+          "Label rouge",
+          "Origine",
+          "Grand cru",
+          "Premier choix"
+        ],
+        "réponse": "Grand cru",
+        "anecdote": "Le chocolat de cru est fabriqué à partir de fèves de cacao provenant d'une seule plantation, ce qui lui confère des saveurs uniques."
+      },
+      {
+        "id": 27,
+        "question": "Quelle substance est obtenue après broyage des fèves du cacaoyer ?",
+        "propositions": [
+          "Nasse",
+          "Tasse",
+          "Masse",
+          "Crasse"
+        ],
+        "réponse": "Masse",
+        "anecdote": "Cette masse, qui contient à la fois du beurre de cacao et du cacao en poudre, sert de base pour la fabrication de tous les chocolats."
+      },
+      {
+        "id": 28,
+        "question": "Une fois la masse de cacao pressée, quel produit permet de faire du cacao en poudre ?",
+        "propositions": [
+          "Tourteau",
+          "Homard",
+          "Crabe",
+          "Crevette"
+        ],
+        "réponse": "Tourteau",
+        "anecdote": "En broyant finement le tourteau, on obtient la poudre de cacao, qui est l'un des ingrédients de base dans la fabrication du chocolat."
+      },
+      {
+        "id": 29,
+        "question": "Quelle écrivaine mexicaine contemporaine a publié le livre « Chocolat amer » ?",
+        "propositions": [
+          "Rosario Castellanos",
+          "Octavio Paz",
+          "Elena Poniatowska",
+          "Laura Esquivel"
+        ],
+        "réponse": "Laura Esquivel",
+        "anecdote": "Ce roman de Laura Esquivel, publié en 1999, mêle les thèmes de l'amour, de la cuisine et des conflits intérieurs des personnages."
+      },
+      {
+        "id": 30,
+        "question": "Dans quel rayon BD peut-on retrouver l'album « Fraise et chocolat » ?",
+        "propositions": [
+          "Jeunesse",
+          "Aventure",
+          "Érotique",
+          "Humour"
+        ],
+        "réponse": "Érotique",
+        "anecdote": "Aurélia Aurita est une auteure et illustratrice de bande dessinée française, née à Paris en 1976, d'origine chinoise et khmère."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "From which bean is chocolate produced ?",
+        "propositions": [
+          "Pecan tree",
+          "Cocoa tree",
+          "Cotton plant",
+          "Palm tree"
+        ],
+        "réponse": "Cocoa tree",
+        "anecdote": "Cocoa beans are extracted from the berries, which are opened for harvest and left to dry."
+      },
+      {
+        "id": 2,
+        "question": "What butter is extracted from the liquid cocoa mass used to create chocolate ?",
+        "propositions": [
+          "Lard",
+          "Salted butter",
+          "Cocoa butter",
+          "Fat butter"
+        ],
+        "réponse": "Cocoa butter",
+        "anecdote": "Cocoa butter is one of the most stable fats known, containing natural antioxidants."
+      },
+      {
+        "id": 3,
+        "question": "What do you do when you roast cocoa beans for making chocolate ?",
+        "propositions": [
+          "We peel them",
+          "We grill them",
+          "We crush them",
+          "We twist them"
+        ],
+        "réponse": "We grill them",
+        "anecdote": "Roasting, that is to say heating from 140 to 160 ° C for 20 to 30 minutes, allows the development of cocoa aromas."
+      },
+      {
+        "id": 4,
+        "question": "Which chocolate, sometimes mixed with spices, has the least sugar ?",
+        "propositions": [
+          "Milk",
+          "White",
+          "Praline",
+          "Black"
+        ],
+        "réponse": "Black",
+        "anecdote": "The quality of dark chocolate depends on the ingredients used and its percentage of cocoa."
+      },
+      {
+        "id": 5,
+        "question": "In 1825, which Swiss created a now famous chocolate factory ?",
+        "propositions": [
+          "Jacobs",
+          "Suchard",
+          "Tobler",
+          "Lindt"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "Philippe Suchard began in the confectionery industry in 1825 in Neuchâtel and launched into chocolate in Serrières in 1826."
+      },
+      {
+        "id": 6,
+        "question": "What Causes Chocolate Consumption in Most Pets ?",
+        "propositions": [
+          "Paralysis",
+          "Blindness",
+          "Diabetes",
+          "Death"
+        ],
+        "réponse": "Death",
+        "anecdote": "Chocolate contains theobromine, a caffeine-like product that their metabolism cannot eliminate."
+      },
+      {
+        "id": 7,
+        "question": "Which chocolate, rich in saturated fatty acids, is the most bitter ?",
+        "propositions": [
+          "Praline",
+          "White",
+          "Milk",
+          "Black"
+        ],
+        "réponse": "Black",
+        "anecdote": "Dark chocolate, which contains little cholesterol and very little sodium, is a good source of magnesium."
+      },
+      {
+        "id": 8,
+        "question": "Who plays the chocolate maker in the film adapted from the novel « Le chocolat » by Joanne Harris ?",
+        "propositions": [
+          "Judith Godrèche",
+          "Isabelle Adjani",
+          "Juliette Binoche",
+          "Karin Viard"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "In 1959, during Lent, a young woman and her daughter took over the old pastry shop to open a chocolate factory."
+      },
+      {
+        "id": 9,
+        "question": "What do you call the fruit of the cocoa tree, in the form of a berry ?",
+        "propositions": [
+          "Caboche",
+          "Cocoa pod",
+          "Ciboulot",
+          "Carabosse"
+        ],
+        "réponse": "Cocoa pod",
+        "anecdote": "The pods are found on the trunk and large branches, not on young twigs."
+      },
+      {
+        "id": 10,
+        "question": "Which chocolate, generally preferred by purists, does not contain milk ?",
+        "propositions": [
+          "Praline",
+          "Black",
+          "Milk",
+          "White"
+        ],
+        "réponse": "Black",
+        "anecdote": "By law, dark chocolate must contain at least 35 % cocoa, with no upper limit for the cocoa concentration."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What people would chocolate come from, associating it with their god of fertility ?",
+        "propositions": [
+          "Otomis",
+          "Toltecs",
+          "Mayas",
+          "Incas"
+        ],
+        "réponse": "Mayas",
+        "anecdote": "The Aztecs associated chocolate with Xochiquetzal (which gave chocolate its name), the goddess of fertility."
+      },
+      {
+        "id": 12,
+        "question": "Approximately how many cocoa beans are there in a pod ?",
+        "propositions": [
+          "Forty",
+          "About ten",
+          "A thousand",
+          "One hundred"
+        ],
+        "réponse": "Forty",
+        "anecdote": "The pod has an elongated shape and looks a bit like a fairly plump cucumber."
+      },
+      {
+        "id": 13,
+        "question": "Which is the first cocoa producing country, far ahead of Ghana and Indonesia ?",
+        "propositions": [
+          "Brazil",
+          "Mexico",
+          "Ivory Coast",
+          "Cameroon"
+        ],
+        "réponse": "Ivory Coast",
+        "anecdote": "Cocoa production in 2006 was four million tonnes, rising steadily since 2003."
+      },
+      {
+        "id": 14,
+        "question": "What is the difference between white chocolate and other chocolates ?",
+        "propositions": [
+          "Butter",
+          "Sugar",
+          "The milk",
+          "Cocoa paste"
+        ],
+        "réponse": "Cocoa paste",
+        "anecdote": "White chocolate was first distributed in America in 1948 with the introduction of Nestlé Alpine White Chocolate Bars."
+      },
+      {
+        "id": 15,
+        "question": "In which country was the first chocolate bar made ?",
+        "propositions": [
+          "Switzerland",
+          "Mexico",
+          "England",
+          "Brazil"
+        ],
+        "réponse": "England",
+        "anecdote": "The first chocolate bars offered to the public were called delicious chocolate to eat."
+      },
+      {
+        "id": 16,
+        "question": "How many harvests can you make per year on a healthy cocoa tree ?",
+        "propositions": [
+          "Two",
+          "Six",
+          "Four",
+          "Eight"
+        ],
+        "réponse": "Two",
+        "anecdote": "The ripening of cocoa tree fruits lasts, depending on the genotypes, from five to seven months."
+      },
+      {
+        "id": 17,
+        "question": "Which European country is the largest consumer of chocolate to date ?",
+        "propositions": [
+          "France",
+          "Belgium",
+          "Switzerland",
+          "Portugal"
+        ],
+        "réponse": "Switzerland",
+        "anecdote": "The milk and fondant variants were created by Daniel Peter in 1875 and Rudolf Lindt in 1879 respectively."
+      },
+      {
+        "id": 18,
+        "question": "What country does the cocoa tree, domesticated about 3,000 years ago, come from ?",
+        "propositions": [
+          "Mexico",
+          "Mozambique",
+          "Bolivia",
+          "Madagascar"
+        ],
+        "réponse": "Mexico",
+        "anecdote": "The cocoa tree was very probably domesticated initially for the preparation of a fermented drink, therefore alcoholic."
+      },
+      {
+        "id": 19,
+        "question": "Which chocolate, which must contain at least 20% cocoa butter, is the sweetest ?",
+        "propositions": [
+          "White",
+          "Praline",
+          "Milk",
+          "Black"
+        ],
+        "réponse": "White",
+        "anecdote": "White chocolate was first produced by Nestlé in Switzerland in the 1930s."
+      },
+      {
+        "id": 20,
+        "question": "How many pods can a cocoa tree produce on average during its lifetime ?",
+        "propositions": [
+          "200",
+          "20,000",
+          "20",
+          "2,000"
+        ],
+        "réponse": "20",
+        "anecdote": "Each pod, resembling a small American football ball, can weigh up to 400g and 15-20cm long."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "For the preliminaries of which event do the Mayans use chocolate ?",
+        "propositions": [
+          "Death",
+          "Sacrifice",
+          "Wedding",
+          "Birth"
+        ],
+        "réponse": "Wedding",
+        "anecdote": "Cocoa also purifies Mayan children during ceremonies or accompanies the deceased on his journey to the afterlife."
+      },
+      {
+        "id": 22,
+        "question": "Which pre-Columbian civilization was the first to cultivate cocoa ?",
+        "propositions": [
+          "Olmecs",
+          "Africans",
+          "Aztecs",
+          "Berbers"
+        ],
+        "réponse": "Olmecs",
+        "anecdote": "To this day, Olmec culture remains unknown until the second half of the 19th century."
+      },
+      {
+        "id": 23,
+        "question": "In which European country did people start consuming chocolate ?",
+        "propositions": [
+          "France",
+          "Italy",
+          "Belgium",
+          "Spain"
+        ],
+        "réponse": "Spain",
+        "anecdote": "It was not until the conquest of the Aztecs by the Spaniards that chocolate was imported into Europe."
+      },
+      {
+        "id": 24,
+        "question": "How many flowers can a cocoa tree produce annually ?",
+        "propositions": [
+          "10,000",
+          "100",
+          "100,000",
+          "1,000"
+        ],
+        "réponse": "100,000",
+        "anecdote": "Flowers appear year round on swellings in the wood of the tree, called flower pads."
+      },
+      {
+        "id": 25,
+        "question": "Which explorer brought cocoa to Europe in 1528 ?",
+        "propositions": [
+          "Cortés",
+          "Christopher Columbus",
+          "Charcot",
+          "Foucauld"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernan Cortés seized the Aztec Empire on behalf of Charles V, King of Castile and Holy Roman Emperor."
+      },
+      {
+        "id": 26,
+        "question": "Which dark chocolate is made from cocoa from a single plantation ?",
+        "propositions": [
+          "Origin",
+          "Grand cru",
+          "Red Label",
+          "First choice"
+        ],
+        "réponse": "Grand cru",
+        "anecdote": "In France, it is the National Institute of Origin and Quality which classifies the quality of chocolates."
+      },
+      {
+        "id": 27,
+        "question": "What substance is obtained after grinding the beans of the cocoa tree ?",
+        "propositions": [
+          "Mug",
+          "Trap",
+          "Mass",
+          "Grime"
+        ],
+        "réponse": "Mass",
+        "anecdote": "Cocoa beans contain around 50% fat called cocoa butter."
+      },
+      {
+        "id": 28,
+        "question": "Once the cocoa mass is pressed, which product is used to make cocoa powder ?",
+        "propositions": [
+          "Crab",
+          "Lobster",
+          "Shrimp",
+          "Cake"
+        ],
+        "réponse": "Cake",
+        "anecdote": "Two trituration processes are possible : cold batch pressure and hot continuous pressure."
+      },
+      {
+        "id": 29,
+        "question": "Laura Esquivel, contemporary Mexican writer, has published a book entitled...",
+        "propositions": [
+          "Milk chocolate",
+          "Bitter chocolate",
+          "Dark chocolate",
+          "White chocolate"
+        ],
+        "réponse": "Bitter chocolate",
+        "anecdote": "Laura Esquivel is an author who constantly seeks new and original paths in his works."
+      },
+      {
+        "id": 30,
+        "question": "In which comic book section can you find the « Strawberry and Chocolate » album ?",
+        "propositions": [
+          "Erotic",
+          "Youth",
+          "Humor",
+          "Adventure"
+        ],
+        "réponse": "Erotic",
+        "anecdote": "Aurélia Aurita is a French comic book author of Chinese and Khmer origin."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Aus welcher Bohne wird Schokolade hergestellt ?",
+        "propositions": [
+          "Palme",
+          "Pekannussbaum",
+          "Kakaobaum",
+          "Baumwollpflanze"
+        ],
+        "réponse": "Kakaobaum",
+        "anecdote": "Aus den Beeren werden Kakaobohnen gewonnen, die zur Ernte geöffnet und trocknen gelassen werden."
+      },
+      {
+        "id": 2,
+        "question": "Welche Butter wird aus der flüssigen Kakaomasse gewonnen, aus der Schokolade hergestellt wird ?",
+        "propositions": [
+          "Fette Butter",
+          "Schmalz",
+          "Gesalzene Butter",
+          "Kakaobutter"
+        ],
+        "réponse": "Kakaobutter",
+        "anecdote": "Kakaobutter ist eines der stabilsten bekannten Fette und enthält natürliche Antioxidantien."
+      },
+      {
+        "id": 3,
+        "question": "Was machst du, wenn du Kakaobohnen für die Herstellung von Schokolade röstest ?",
+        "propositions": [
+          "Wir drehen sie",
+          "Wir grillen sie",
+          "Wir zerquetschen sie",
+          "Wir schälen sie"
+        ],
+        "réponse": "Wir grillen sie",
+        "anecdote": "Durch Rösten, dh 20 bis 30 Minuten Erhitzen von 140 auf 160 ° C, können Kakaoaromen entstehen."
+      },
+      {
+        "id": 4,
+        "question": "Welche Schokolade, manchmal mit Gewürzen gemischt, hat den geringsten Zucker ?",
+        "propositions": [
+          "Schwarz",
+          "Milch",
+          "Praline",
+          "Weiß"
+        ],
+        "réponse": "Schwarz",
+        "anecdote": "Die Qualität von dunkler Schokolade hängt von den verwendeten Zutaten und ihrem Kakaoprozentsatz ab."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Schweizer gründete 1825 eine berühmte Schokoladenfabrik ?",
+        "propositions": [
+          "Lindt",
+          "Jacobs",
+          "Suchard",
+          "Tobler"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "Philippe Suchard begann 1825 in Neuenburg in der Süßwarenindustrie und begann 1826 in Serrières mit Schokolade."
+      },
+      {
+        "id": 6,
+        "question": "Was verursacht den Schokoladenkonsum bei den meisten Haustieren ?",
+        "propositions": [
+          "Blindheit",
+          "Lähmung",
+          "Tod",
+          "Diabetes"
+        ],
+        "réponse": "Tod",
+        "anecdote": "Schokolade enthält Theobromin, ein koffeinähnliches Produkt, das der Stoffwechsel nicht eliminieren kann."
+      },
+      {
+        "id": 7,
+        "question": "Welche Schokolade, reich an gesättigten Fettsäuren, ist die bitterste ?",
+        "propositions": [
+          "Schwarz",
+          "Praline",
+          "Weiß",
+          "Milch"
+        ],
+        "réponse": "Schwarz",
+        "anecdote": "Dunkle Schokolade, die wenig Cholesterin und sehr wenig Natrium enthält, ist eine gute Magnesiumquelle."
+      },
+      {
+        "id": 8,
+        "question": "Wer spielt den Schokoladenhersteller in dem Film, der aus dem Roman « Le chocolat » von Joanne Harris adaptiert wurde ?",
+        "propositions": [
+          "Karin Viard",
+          "Juliette Binoche",
+          "Isabelle Adjani",
+          "Judith Godrèche"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "Während der Fastenzeit 1959 übernahmen eine junge Frau und ihre Tochter die alte Konditorei, um eine Schokoladenfabrik zu eröffnen."
+      },
+      {
+        "id": 9,
+        "question": "Wie nennt man die Frucht des Kakaobaums in Form einer Beere ?",
+        "propositions": [
+          "Kakaofrucht",
+          "Caboche",
+          "Carabosse",
+          "Ciboulot"
+        ],
+        "réponse": "Kakaofrucht",
+        "anecdote": "Die Schoten befinden sich am Stamm und an großen Ästen, nicht an jungen Zweigen."
+      },
+      {
+        "id": 10,
+        "question": "Welche Schokolade, die von Puristen allgemein bevorzugt wird, enthält keine Milch ?",
+        "propositions": [
+          "Milch",
+          "Weiß",
+          "Schwarz",
+          "Praline"
+        ],
+        "réponse": "Schwarz",
+        "anecdote": "Laut Gesetz muss dunkle Schokolade mindestens 35 % Kakao enthalten, ohne Obergrenze für die Kakaokonzentration."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Von welchen Menschen würde Schokolade kommen und sie mit ihrem Fruchtbarkeitsgott in Verbindung bringen ?",
+        "propositions": [
+          "Mayas",
+          "Otomis",
+          "Inkas",
+          "Tolteken"
+        ],
+        "réponse": "Mayas",
+        "anecdote": "Die Azteken assoziierten Schokolade mit Xochiquetzal (das der Schokolade ihren Namen gab), der Göttin der Fruchtbarkeit."
+      },
+      {
+        "id": 12,
+        "question": "Wie viele Kakaobohnen enthält ungefähr eine Schote ?",
+        "propositions": [
+          "Einhundert",
+          "Tausend",
+          "Vierzig",
+          "Über zehn"
+        ],
+        "réponse": "Vierzig",
+        "anecdote": "Die Schote hat eine längliche Form und sieht ein bisschen aus wie eine ziemlich pralle Gurke."
+      },
+      {
+        "id": 13,
+        "question": "Welches ist das erste Kakaoproduktionsland weit vor Ghana und Indonesien ?",
+        "propositions": [
+          "Elfenbeinküste",
+          "Mexiko",
+          "Brasilien",
+          "Kamerun"
+        ],
+        "réponse": "Elfenbeinküste",
+        "anecdote": "Die Kakaoproduktion betrug 2006 vier Millionen Tonnen und stieg seit 2003 stetig an."
+      },
+      {
+        "id": 14,
+        "question": "Was ist der Unterschied zwischen weißer Schokolade und anderen Pralinen ?",
+        "propositions": [
+          "Zucker",
+          "Die Milch",
+          "Butter",
+          "Kakaopaste"
+        ],
+        "réponse": "Kakaopaste",
+        "anecdote": "Weiße Schokolade wurde erstmals 1948 in Amerika mit der Einführung von Nestlé Alpine White Chocolate Bars vertrieben."
+      },
+      {
+        "id": 15,
+        "question": "In welchem Land wurde die erste Tafel Schokolade hergestellt ?",
+        "propositions": [
+          "Brasilien",
+          "Mexiko",
+          "England",
+          "Schweiz"
+        ],
+        "réponse": "England",
+        "anecdote": "Die ersten Schokoriegel, die der Öffentlichkeit angeboten wurden, wurden als köstliche Schokolade bezeichnet."
+      },
+      {
+        "id": 16,
+        "question": "Wie viele Ernten können Sie pro Jahr an einem gesunden Kakaobaum erzielen ?",
+        "propositions": [
+          "Acht",
+          "Vier",
+          "Sechs",
+          "Zwei"
+        ],
+        "réponse": "Zwei",
+        "anecdote": "Die Reifung der Kakaobäume dauert je nach Genotyp fünf bis sieben Monate."
+      },
+      {
+        "id": 17,
+        "question": "Welches europäische Land ist der bislang größte Schokoladenkonsument ?",
+        "propositions": [
+          "Schweiz",
+          "Portugal",
+          "Frankreich",
+          "Belgien"
+        ],
+        "réponse": "Schweiz",
+        "anecdote": "Die Milch- und Fondantvarianten wurden 1875 von Daniel Peter und 1879 von Rudolf Lindt kreiert."
+      },
+      {
+        "id": 18,
+        "question": "Aus welchem Land stammt der vor etwa 3.000 Jahren domestizierte Kakaobaum ?",
+        "propositions": [
+          "Mosambik",
+          "Madagaskar",
+          "Bolivien",
+          "Mexiko"
+        ],
+        "réponse": "Mexiko",
+        "anecdote": "Der Kakaobaum wurde höchstwahrscheinlich ursprünglich für die Zubereitung eines fermentierten Getränks domestiziert, daher alkoholisch."
+      },
+      {
+        "id": 19,
+        "question": "Welche Schokolade, die mindestens 20% Kakaobutter enthalten muss, ist die süßeste ?",
+        "propositions": [
+          "Schwarz",
+          "Milch",
+          "Weiß",
+          "Praline"
+        ],
+        "réponse": "Weiß",
+        "anecdote": "Weiße Schokolade wurde erstmals in den 1930er Jahren von Nestlé in der Schweiz hergestellt."
+      },
+      {
+        "id": 20,
+        "question": "Wie viele Schoten kann ein Kakaobaum während seiner Lebensdauer durchschnittlich produzieren ?",
+        "propositions": [
+          "20",
+          "20.000",
+          "200",
+          "2.000"
+        ],
+        "réponse": "20",
+        "anecdote": "Jeder Pod, der einem kleinen American-Football-Ball ähnelt, kann bis zu 400 g wiegen und 15 bis 20 cm lang sein."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Für die Vorbereitungen zu welchem Ereignis verwenden die Mayas Schokolade ?",
+        "propositions": [
+          "Opfer",
+          "Tod",
+          "Hochzeit",
+          "Geburt"
+        ],
+        "réponse": "Hochzeit",
+        "anecdote": "Kakao reinigt auch Maya-Kinder während Zeremonien oder begleitet den Verstorbenen auf seiner Reise ins Jenseits."
+      },
+      {
+        "id": 22,
+        "question": "Welche präkolumbianische Zivilisation hat als erste Kakao angebaut ?",
+        "propositions": [
+          "Azteken",
+          "Olmeken",
+          "Afrikaner",
+          "Berber"
+        ],
+        "réponse": "Olmeken",
+        "anecdote": "Bis heute ist die olmekische Kultur bis zur zweiten Hälfte des 19. Jahrhunderts unbekannt."
+      },
+      {
+        "id": 23,
+        "question": "In welchem europäischen Land haben die Menschen angefangen, Schokolade zu konsumieren ?",
+        "propositions": [
+          "Belgien",
+          "Spanien",
+          "Frankreich",
+          "Italien"
+        ],
+        "réponse": "Spanien",
+        "anecdote": "Erst nach der Eroberung der Azteken durch die Spanier wurde Schokolade nach Europa importiert."
+      },
+      {
+        "id": 24,
+        "question": "Wie viele Blumen kann ein Kakaobaum jährlich produzieren ?",
+        "propositions": [
+          "10.000",
+          "1.000",
+          "100.000",
+          "100"
+        ],
+        "réponse": "100.000",
+        "anecdote": "Blumen erscheinen das ganze Jahr über auf Schwellungen im Holz des Baumes, die als Blumenpads bezeichnet werden."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Entdecker brachte 1528 Kakao nach Europa ?",
+        "propositions": [
+          "Cortés",
+          "Christoph Kolumbus",
+          "Charcot",
+          "Foucauld"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernan Cortés eroberte das Aztekenreich im Auftrag von Karl V."
+      },
+      {
+        "id": 26,
+        "question": "Welche dunkle Schokolade wird aus Kakao einer einzelnen Plantage hergestellt ?",
+        "propositions": [
+          "Grand Cru",
+          "Erste Wahl",
+          "Herkunft",
+          "Red Label"
+        ],
+        "réponse": "Grand Cru",
+        "anecdote": "In Frankreich ist es das Nationale Institut für Herkunft und Qualität, das die Qualität von Pralinen klassifiziert."
+      },
+      {
+        "id": 27,
+        "question": "Welche Substanz wird nach dem Mahlen der Bohnen des Kakaobaums erhalten ?",
+        "propositions": [
+          "Masse",
+          "Falle",
+          "Becher",
+          "Schmutz"
+        ],
+        "réponse": "Masse",
+        "anecdote": "Kakaobohnen enthalten etwa 50% Fett, sogenannte Kakaobutter."
+      },
+      {
+        "id": 28,
+        "question": "Aus welchem Produkt wird nach dem Pressen der Kakaomasse Kakaopulver hergestellt ?",
+        "propositions": [
+          "Garnelen",
+          "Kuchen",
+          "Hummer",
+          "Krabbe"
+        ],
+        "réponse": "Kuchen",
+        "anecdote": "Es sind zwei Verreibungsverfahren möglich : kalter Chargendruck und heißer kontinuierlicher Druck."
+      },
+      {
+        "id": 29,
+        "question": "Laura Esquivel, zeitgenössische mexikanische Schriftstellerin, hat ein Buch mit dem Titel... veröffentlicht",
+        "propositions": [
+          "Weiße Schokolade",
+          "Dunkle Schokolade",
+          "Bitterschokolade",
+          "Milchschokolade"
+        ],
+        "réponse": "Bitterschokolade",
+        "anecdote": "Laura Esquivel ist eine Autorin, die in ihren Werken ständig nach neuen und originellen Wegen sucht."
+      },
+      {
+        "id": 30,
+        "question": "In welcher Comic-Sektion finden Sie das Album « Strawberry and Chocolate » ?",
+        "propositions": [
+          "Jugend",
+          "Erotik",
+          "Humor",
+          "Abenteuer"
+        ],
+        "réponse": "Erotik",
+        "anecdote": "Aurélia Aurita ist eine französische Comicautorin chinesischer und khmerischer Herkunft."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿De qué frijol se produce el chocolate ?",
+        "propositions": [
+          "Árbol de cacao",
+          "Palmera",
+          "Árbol de pacana",
+          "Planta de algodón"
+        ],
+        "réponse": "Árbol de cacao",
+        "anecdote": "Los granos de cacao se extraen de las bayas, que se abren para la cosecha y se dejan secar."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué mantequilla se extrae de la masa de cacao líquido que se utiliza para crear chocolate ?",
+        "propositions": [
+          "Manteca de cacao",
+          "Manteca de cerdo",
+          "Mantequilla grasa",
+          "Mantequilla salada"
+        ],
+        "réponse": "Manteca de cacao",
+        "anecdote": "La manteca de cacao es una de las grasas más estables conocidas y contiene antioxidantes naturales."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué haces cuando tuesta los granos de cacao para hacer chocolate ?",
+        "propositions": [
+          "Los aplastamos",
+          "Los asamos",
+          "Los torcemos",
+          "Los pelamos"
+        ],
+        "réponse": "Los asamos",
+        "anecdote": "El tostado, es decir el calentamiento de 140 a 160 ° C durante 20 a 30 minutos, permite el desarrollo de aromas de cacao."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué chocolate, a veces mezclado con especias, tiene menos azúcar ?",
+        "propositions": [
+          "Negro",
+          "Leche",
+          "Blanco",
+          "Praliné"
+        ],
+        "réponse": "Negro",
+        "anecdote": "La calidad del chocolate negro depende de los ingredientes utilizados y su porcentaje de cacao."
+      },
+      {
+        "id": 5,
+        "question": "En 1825, ¿qué suizo creó una fábrica de chocolate ahora famosa ?",
+        "propositions": [
+          "Lindt",
+          "Tobler",
+          "Jacobs",
+          "Suchard"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "Philippe Suchard se inició en la industria de la confitería en 1825 en Neuchâtel y se lanzó al chocolate en Serrières en 1826."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué causa el consumo de chocolate en la mayoría de las mascotas ?",
+        "propositions": [
+          "Ceguera",
+          "Parálisis",
+          "Muerte",
+          "Diabetes"
+        ],
+        "réponse": "Muerte",
+        "anecdote": "El chocolate contiene teobromina, un producto similar a la cafeína que su metabolismo no puede eliminar."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué chocolate, rico en ácidos grasos saturados, es el más amargo ?",
+        "propositions": [
+          "Negro",
+          "Praliné",
+          "Blanco",
+          "Leche"
+        ],
+        "réponse": "Negro",
+        "anecdote": "El chocolate negro, que contiene poco colesterol y muy poco sodio, es una buena fuente de magnesio."
+      },
+      {
+        "id": 8,
+        "question": "¿Quién interpreta al chocolatero en la película adaptada de la novela « Le chocolat » de Joanne Harris ?",
+        "propositions": [
+          "Judith Godrèche",
+          "Isabelle Adjani",
+          "Karin Viard",
+          "Juliette Binoche"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "En 1959, durante la Cuaresma, una joven y su hija se hacen cargo de la antigua pastelería para abrir una fábrica de chocolate."
+      },
+      {
+        "id": 9,
+        "question": "¿Cómo llamas al fruto del árbol del cacao, en forma de baya ?",
+        "propositions": [
+          "Ciboulot",
+          "Caboche",
+          "Vaina de cacao",
+          "Carabosse"
+        ],
+        "réponse": "Vaina de cacao",
+        "anecdote": "Las vainas se encuentran en el tronco y ramas grandes, no en ramitas jóvenes."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué chocolate, generalmente preferido por los puristas, no contiene leche ?",
+        "propositions": [
+          "Blanco",
+          "Negro",
+          "Leche",
+          "Praliné"
+        ],
+        "réponse": "Negro",
+        "anecdote": "Por ley, el chocolate amargo debe contener al menos un 35 % de cacao, sin límite superior para la concentración de cacao."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿De qué gente vendría el chocolate, asociándolo con su dios de la fertilidad ?",
+        "propositions": [
+          "Incas",
+          "Toltecas",
+          "Otomis",
+          "Mayas"
+        ],
+        "réponse": "Mayas",
+        "anecdote": "Los aztecas asociaron el chocolate con Xochiquetzal (que le dio su nombre al chocolate), la diosa de la fertilidad."
+      },
+      {
+        "id": 12,
+        "question": "Aproximadamente, ¿cuántos granos de cacao hay en una mazorca ?",
+        "propositions": [
+          "Mil",
+          "Aproximadamente diez",
+          "Cuarenta",
+          "Cien"
+        ],
+        "réponse": "Cuarenta",
+        "anecdote": "La vaina tiene una forma alargada y se parece un poco a un pepino bastante gordo."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál es el primer país productor de cacao, muy por delante de Ghana e Indonesia ?",
+        "propositions": [
+          "Camerún",
+          "Brasil",
+          "México",
+          "Costa de Marfil"
+        ],
+        "réponse": "Costa de Marfil",
+        "anecdote": "La producción de cacao en 2006 fue de cuatro millones de toneladas, aumentando constantemente desde 2003."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es la diferencia entre el chocolate blanco y otros chocolates ?",
+        "propositions": [
+          "Pasta de cacao",
+          "La leche",
+          "Azúcar",
+          "Mantequilla"
+        ],
+        "réponse": "Pasta de cacao",
+        "anecdote": "El chocolate blanco se distribuyó por primera vez en Estados Unidos en 1948 con la introducción de las barras de chocolate blanco Nestlé Alpine."
+      },
+      {
+        "id": 15,
+        "question": "¿En qué país se fabricó la primera barra de chocolate ?",
+        "propositions": [
+          "Suiza",
+          "Brasil",
+          "Inglaterra",
+          "México"
+        ],
+        "réponse": "Inglaterra",
+        "anecdote": "Las primeras barras de chocolate ofrecidas al público se denominaron chocolate delicioso para comer."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuántas cosechas puedes hacer al año en un árbol de cacao saludable ?",
+        "propositions": [
+          "Ocho",
+          "Dos",
+          "Cuatro",
+          "Seis"
+        ],
+        "réponse": "Dos",
+        "anecdote": "La maduración de los frutos del árbol del cacao dura, dependiendo de los genotipos, de cinco a siete meses."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué país europeo es el mayor consumidor de chocolate hasta la fecha ?",
+        "propositions": [
+          "Francia",
+          "Suiza",
+          "Portugal",
+          "Bélgica"
+        ],
+        "réponse": "Suiza",
+        "anecdote": "Las variantes de leche y fondant fueron creadas por Daniel Peter en 1875 y Rudolf Lindt en 1879 respectivamente."
+      },
+      {
+        "id": 18,
+        "question": "¿De qué país proviene el árbol del cacao, domesticado hace unos 3.000 años ?",
+        "propositions": [
+          "México",
+          "Madagascar",
+          "Bolivia",
+          "Mozambique"
+        ],
+        "réponse": "México",
+        "anecdote": "Es muy probable que el árbol del cacao se domesticara inicialmente para la preparación de una bebida fermentada, por tanto alcohólica."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué chocolate, que debe contener al menos un 20% de manteca de cacao, es el más dulce ?",
+        "propositions": [
+          "Blanco",
+          "Leche",
+          "Praliné",
+          "Negro"
+        ],
+        "réponse": "Blanco",
+        "anecdote": "El chocolate blanco fue producido por primera vez por Nestlé en Suiza en la década de 1930."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuántas mazorcas puede producir un árbol de cacao en promedio durante su vida ?",
+        "propositions": [
+          "200",
+          "2,000",
+          "20",
+          "20.000"
+        ],
+        "réponse": "20",
+        "anecdote": "Cada cápsula, que se asemeja a una pequeña pelota de fútbol americano, puede pesar hasta 400 gy 15-20 cm de largo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Para los preliminares de qué evento usan los mayas el chocolate ?",
+        "propositions": [
+          "Muerte",
+          "Sacrificio",
+          "Boda",
+          "Nacimiento"
+        ],
+        "réponse": "Boda",
+        "anecdote": "Cocoa también purifica a los niños mayas durante las ceremonias o acompaña al difunto en su viaje al más allá."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué civilización precolombina fue la primera en cultivar cacao ?",
+        "propositions": [
+          "Olmecas",
+          "Africanos",
+          "Bereberes",
+          "Aztecas"
+        ],
+        "réponse": "Olmecas",
+        "anecdote": "Hasta el día de hoy, la cultura olmeca permanece desconocida hasta la segunda mitad del siglo XIX."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué país europeo empezó la gente a consumir chocolate ?",
+        "propositions": [
+          "Bélgica",
+          "Francia",
+          "Italia",
+          "España"
+        ],
+        "réponse": "España",
+        "anecdote": "No fue hasta la conquista de los aztecas por parte de los españoles que se importó chocolate a Europa."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuántas flores puede producir un árbol de cacao al año ?",
+        "propositions": [
+          "1,000",
+          "100,000",
+          "10,000",
+          "100"
+        ],
+        "réponse": "100,000",
+        "anecdote": "Las flores aparecen durante todo el año en hinchazones en la madera del árbol, llamadas almohadillas florales."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué explorador trajo el cacao a Europa en 1528 ?",
+        "propositions": [
+          "Cristóbal Colón",
+          "Cortés",
+          "Charcot",
+          "Foucauld"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernán Cortés se apoderó del Imperio Azteca en nombre de Carlos V, rey de Castilla y emperador del Sacro Imperio Romano Germánico."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué chocolate negro se elabora con cacao de una sola plantación ?",
+        "propositions": [
+          "Origen",
+          "Etiqueta roja",
+          "Grand cru",
+          "Primera elección"
+        ],
+        "réponse": "Grand cru",
+        "anecdote": "En Francia, es el Instituto Nacional de Origen y Calidad el que clasifica la calidad de los chocolates."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué sustancia se obtiene después de moler los granos del árbol del cacao ?",
+        "propositions": [
+          "Misa",
+          "Trampa",
+          "Grime",
+          "Taza"
+        ],
+        "réponse": "Misa",
+        "anecdote": "Los granos de cacao contienen alrededor del 50% de grasa llamada manteca de cacao."
+      },
+      {
+        "id": 28,
+        "question": "Una vez que se prensa la masa de cacao, ¿qué producto se utiliza para hacer cacao en polvo ?",
+        "propositions": [
+          "Camarones",
+          "Cangrejo",
+          "Langosta",
+          "Pastel"
+        ],
+        "réponse": "Pastel",
+        "anecdote": "Son posibles dos procesos de trituración : presión de lote en frío y presión continua en caliente."
+      },
+      {
+        "id": 29,
+        "question": "Laura Esquivel, escritora mexicana contemporánea, ha publicado un libro titulado...",
+        "propositions": [
+          "Chocolate negro",
+          "Chocolate amargo",
+          "Chocolate blanco",
+          "Chocolate con leche"
+        ],
+        "réponse": "Chocolate amargo",
+        "anecdote": "Laura Esquivel es una autora que busca constantemente caminos nuevos y originales en sus obras."
+      },
+      {
+        "id": 30,
+        "question": "¿En qué sección de cómics puedes encontrar el álbum « Fresa y chocolate » ?",
+        "propositions": [
+          "Aventura",
+          "Erótico",
+          "Humor",
+          "Juventud"
+        ],
+        "réponse": "Erótico",
+        "anecdote": "Aurélia Aurita es una autora francesa de cómics de origen chino y jemer."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Da quale chicco viene prodotto il cioccolato ?",
+        "propositions": [
+          "Albero di noci pecan",
+          "Albero del cacao",
+          "Palma",
+          "Pianta di cotone"
+        ],
+        "réponse": "Albero del cacao",
+        "anecdote": "Le fave di cacao vengono estratte dalle bacche, che vengono aperte per la raccolta e lasciate essiccare."
+      },
+      {
+        "id": 2,
+        "question": "Quale burro si estrae dalla massa di cacao liquido utilizzata per creare il cioccolato ?",
+        "propositions": [
+          "Lardo",
+          "Burro salato",
+          "Burro di cacao",
+          "Burro grasso"
+        ],
+        "réponse": "Burro di cacao",
+        "anecdote": "Il burro di cacao è uno dei grassi più stabili conosciuti, contenente antiossidanti naturali."
+      },
+      {
+        "id": 3,
+        "question": "Cosa fai quando arrostisci le fave di cacao per fare il cioccolato ?",
+        "propositions": [
+          "Li torciamo",
+          "Li sbucciamo",
+          "Li schiacciamo",
+          "Li grigliamo"
+        ],
+        "réponse": "Li grigliamo",
+        "anecdote": "La tostatura, ovvero il riscaldamento da 140 a 160 ° C per 20-30 minuti, consente lo sviluppo degli aromi di cacao."
+      },
+      {
+        "id": 4,
+        "question": "Quale cioccolato, a volte mescolato a spezie, ha meno zucchero ?",
+        "propositions": [
+          "Praline",
+          "Latte",
+          "Nero",
+          "Bianco"
+        ],
+        "réponse": "Nero",
+        "anecdote": "La qualità del cioccolato fondente dipende dagli ingredienti utilizzati e dalla sua percentuale di cacao."
+      },
+      {
+        "id": 5,
+        "question": "Nel 1825 quale svizzero creò un'ormai famosa fabbrica di cioccolato ?",
+        "propositions": [
+          "Tobler",
+          "Jacobs",
+          "Suchard",
+          "Lindt"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "Philippe Suchard iniziò nell'industria dolciaria nel 1825 a Neuchâtel e si lanciò nel cioccolato a Serrières nel 1826."
+      },
+      {
+        "id": 6,
+        "question": "Che cosa causa il consumo di cioccolato nella maggior parte degli animali domestici ?",
+        "propositions": [
+          "Cecità",
+          "Paralisi",
+          "Diabete",
+          "Morte"
+        ],
+        "réponse": "Morte",
+        "anecdote": "Il cioccolato contiene teobromina, un prodotto simile alla caffeina che il loro metabolismo non può eliminare."
+      },
+      {
+        "id": 7,
+        "question": "Quale cioccolato, ricco di acidi grassi saturi, è il più amaro ?",
+        "propositions": [
+          "Latte",
+          "Praline",
+          "Bianco",
+          "Nero"
+        ],
+        "réponse": "Nero",
+        "anecdote": "Il cioccolato fondente, che contiene poco colesterolo e pochissimo sodio, è una buona fonte di magnesio."
+      },
+      {
+        "id": 8,
+        "question": "Chi interpreta il produttore di cioccolato nel film adattato dal romanzo « Le chocolat » di Joanne Harris ?",
+        "propositions": [
+          "Karin Viard",
+          "Juliette Binoche",
+          "Judith Godrèche",
+          "Isabelle Adjani"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "Nel 1959, durante la Quaresima, una giovane donna e sua figlia rilevano la vecchia pasticceria per aprire una fabbrica di cioccolato."
+      },
+      {
+        "id": 9,
+        "question": "Come chiami il frutto dell'albero del cacao, a forma di bacca ?",
+        "propositions": [
+          "Baccello di cacao",
+          "Carabosse",
+          "Caboche",
+          "Ciboulot"
+        ],
+        "réponse": "Baccello di cacao",
+        "anecdote": "I baccelli si trovano sul tronco e sui grandi rami, non sui giovani ramoscelli."
+      },
+      {
+        "id": 10,
+        "question": "Quale cioccolato, generalmente preferito dai puristi, non contiene latte ?",
+        "propositions": [
+          "Bianco",
+          "Latte",
+          "Praline",
+          "Nero"
+        ],
+        "réponse": "Nero",
+        "anecdote": "Per legge, il cioccolato fondente deve contenere almeno il 35 % di cacao, senza limite massimo per la concentrazione di cacao."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Da quali persone verrebbe il cioccolato, associandolo al loro dio della fertilità ?",
+        "propositions": [
+          "Toltechi",
+          "Maya",
+          "Otomis",
+          "Incas"
+        ],
+        "réponse": "Maya",
+        "anecdote": "Gli Aztechi associavano il cioccolato a Xochiquetzal (che diede il nome al cioccolato), la dea della fertilità."
+      },
+      {
+        "id": 12,
+        "question": "Quante fave di cacao ci sono approssimativamente in un baccello ?",
+        "propositions": [
+          "Circa dieci",
+          "Cento",
+          "Mille",
+          "Quaranta"
+        ],
+        "réponse": "Quaranta",
+        "anecdote": "Il baccello ha una forma allungata e assomiglia un po 'a un cetriolo abbastanza paffuto."
+      },
+      {
+        "id": 13,
+        "question": "Qual è il primo paese produttore di cacao, molto più avanti di Ghana e Indonesia ?",
+        "propositions": [
+          "Costa d'Avorio",
+          "Brasile",
+          "Messico",
+          "Camerun"
+        ],
+        "réponse": "Costa d'Avorio",
+        "anecdote": "La produzione di cacao nel 2006 è stata di quattro milioni di tonnellate, in costante aumento dal 2003."
+      },
+      {
+        "id": 14,
+        "question": "Qual è la differenza tra cioccolato bianco e altri cioccolatini ?",
+        "propositions": [
+          "Burro",
+          "Il latte",
+          "Zucchero",
+          "Pasta di cacao"
+        ],
+        "réponse": "Pasta di cacao",
+        "anecdote": "Il cioccolato bianco fu distribuito per la prima volta in America nel 1948 con l'introduzione delle Nestlé Alpine White Chocolate Bars."
+      },
+      {
+        "id": 15,
+        "question": "In quale paese è stata prodotta la prima barretta di cioccolato ?",
+        "propositions": [
+          "Inghilterra",
+          "Brasile",
+          "Messico",
+          "Svizzera"
+        ],
+        "réponse": "Inghilterra",
+        "anecdote": "Le prime tavolette di cioccolato offerte al pubblico si chiamavano cioccolata deliziosa da mangiare."
+      },
+      {
+        "id": 16,
+        "question": "Quanti raccolti puoi fare all'anno su un albero di cacao sano ?",
+        "propositions": [
+          "Due",
+          "Otto",
+          "Sei",
+          "Quattro"
+        ],
+        "réponse": "Due",
+        "anecdote": "La maturazione dei frutti della pianta del cacao dura, a seconda dei genotipi, dai cinque ai sette mesi."
+      },
+      {
+        "id": 17,
+        "question": "Quale paese europeo è il maggior consumatore di cioccolato fino ad oggi ?",
+        "propositions": [
+          "Belgio",
+          "Francia",
+          "Portogallo",
+          "Svizzera"
+        ],
+        "réponse": "Svizzera",
+        "anecdote": "Le varianti latte e fondente furono create rispettivamente da Daniel Peter nel 1875 e Rudolf Lindt nel 1879."
+      },
+      {
+        "id": 18,
+        "question": "Da quale paese proviene l'albero del cacao, addomesticato circa 3.000 anni fa ?",
+        "propositions": [
+          "Madagascar",
+          "Mozambico",
+          "Messico",
+          "Bolivia"
+        ],
+        "réponse": "Messico",
+        "anecdote": "La pianta del cacao fu molto probabilmente addomesticata inizialmente per la preparazione di una bevanda fermentata, quindi alcolica."
+      },
+      {
+        "id": 19,
+        "question": "Quale cioccolato, che deve contenere almeno il 20% di burro di cacao, è il più dolce ?",
+        "propositions": [
+          "Latte",
+          "Nero",
+          "Bianco",
+          "Praline"
+        ],
+        "réponse": "Bianco",
+        "anecdote": "Il cioccolato bianco è stato prodotto per la prima volta da Nestlé in Svizzera negli anni '30."
+      },
+      {
+        "id": 20,
+        "question": "Quanti baccelli può produrre in media una pianta del cacao durante la sua vita ?",
+        "propositions": [
+          "2.000",
+          "20.000",
+          "20",
+          "200"
+        ],
+        "réponse": "20",
+        "anecdote": "Ogni baccello, simile a una piccola palla da football americano, può pesare fino a 400 ge 15-20 cm di lunghezza."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Per i preliminari di quale evento i Maya usano il cioccolato ?",
+        "propositions": [
+          "Nascita",
+          "Morte",
+          "Sacrificio",
+          "Matrimonio"
+        ],
+        "réponse": "Matrimonio",
+        "anecdote": "Il cacao purifica anche i bambini Maya durante le cerimonie o accompagna il defunto nel suo viaggio nell'aldilà."
+      },
+      {
+        "id": 22,
+        "question": "Quale civiltà precolombiana fu la prima a coltivare il cacao ?",
+        "propositions": [
+          "Africani",
+          "Berberi",
+          "Olmecs",
+          "Aztechi"
+        ],
+        "réponse": "Olmecs",
+        "anecdote": "Fino ad oggi, la cultura olmeca rimane sconosciuta fino alla seconda metà del XIX secolo."
+      },
+      {
+        "id": 23,
+        "question": "In quale paese europeo le persone hanno iniziato a consumare cioccolato ?",
+        "propositions": [
+          "Francia",
+          "Italia",
+          "Belgio",
+          "Spagna"
+        ],
+        "réponse": "Spagna",
+        "anecdote": "Fu solo con la conquista degli Aztechi da parte degli spagnoli che il cioccolato fu importato in Europa."
+      },
+      {
+        "id": 24,
+        "question": "Quanti fiori può produrre un albero di cacao ogni anno ?",
+        "propositions": [
+          "10.000",
+          "1.000",
+          "100.000",
+          "100"
+        ],
+        "réponse": "100.000",
+        "anecdote": "I fiori compaiono tutto l'anno sui rigonfiamenti nel legno dell'albero, chiamati fioriere."
+      },
+      {
+        "id": 25,
+        "question": "Quale esploratore portò il cacao in Europa nel 1528 ?",
+        "propositions": [
+          "Charcot",
+          "Cristoforo Colombo",
+          "Cortés",
+          "Foucauld"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernan Cortés conquistò l'impero azteco per conto di Carlo V, re di Castiglia e imperatore del Sacro Romano Impero."
+      },
+      {
+        "id": 26,
+        "question": "Quale cioccolato fondente è prodotto dal cacao di una singola piantagione ?",
+        "propositions": [
+          "Grand cru",
+          "Etichetta rossa",
+          "Origine",
+          "Prima scelta"
+        ],
+        "réponse": "Grand cru",
+        "anecdote": "In Francia, è l'Istituto nazionale di origine e qualità che classifica la qualità dei cioccolatini."
+      },
+      {
+        "id": 27,
+        "question": "Quale sostanza si ottiene dopo aver macinato le fave dell'albero del cacao ?",
+        "propositions": [
+          "Tazza",
+          "Trap",
+          "Messa",
+          "Grime"
+        ],
+        "réponse": "Messa",
+        "anecdote": "Le fave di cacao contengono circa il 50% di grassi chiamati burro di cacao."
+      },
+      {
+        "id": 28,
+        "question": "Una volta pressata la massa di cacao, quale prodotto viene utilizzato per fare il cacao in polvere ?",
+        "propositions": [
+          "Torta",
+          "Gamberetti",
+          "Granchio",
+          "Aragosta"
+        ],
+        "réponse": "Torta",
+        "anecdote": "Sono possibili due processi di triturazione : pressione batch fredda e pressione continua calda."
+      },
+      {
+        "id": 29,
+        "question": "Laura Esquivel, scrittrice messicana contemporanea, ha pubblicato un libro dal titolo...",
+        "propositions": [
+          "Cioccolato fondente",
+          "Cioccolato bianco",
+          "Cioccolato al latte",
+          "Cioccolato amaro"
+        ],
+        "réponse": "Cioccolato amaro",
+        "anecdote": "Laura Esquivel è un'autrice che cerca costantemente nelle sue opere strade nuove e originali."
+      },
+      {
+        "id": 30,
+        "question": "In quale sezione dei fumetti puoi trovare l'album « Fragola e cioccolato » ?",
+        "propositions": [
+          "Avventura",
+          "Gioventù",
+          "Erotico",
+          "Umorismo"
+        ],
+        "réponse": "Erotico",
+        "anecdote": "Aurélia Aurita è un'autrice di fumetti francese di origine cinese e khmer."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Van welke boon wordt chocolade gemaakt ?",
+        "propositions": [
+          "Pecannotenboom",
+          "Katoenplant",
+          "Palmboom",
+          "Cacaoboom"
+        ],
+        "réponse": "Cacaoboom",
+        "anecdote": "Cacaobonen worden gewonnen uit de bessen, die worden geopend voor de oogst en laten drogen."
+      },
+      {
+        "id": 2,
+        "question": "Welke boter wordt gewonnen uit de vloeibare cacaomassa die wordt gebruikt om chocolade te maken ?",
+        "propositions": [
+          "Cacaoboter",
+          "Reuzel",
+          "Gezouten boter",
+          "Vet boter"
+        ],
+        "réponse": "Cacaoboter",
+        "anecdote": "Cacaoboter is een van de meest stabiele vetten die we kennen en bevat natuurlijke antioxidanten."
+      },
+      {
+        "id": 3,
+        "question": "Wat doe je als je cacaobonen roostert voor het maken van chocolade ?",
+        "propositions": [
+          "We grillen ze",
+          "We verpletteren ze",
+          "We verdraaien ze",
+          "We schillen ze"
+        ],
+        "réponse": "We grillen ze",
+        "anecdote": "Roosteren, dat wil zeggen verhitten van 140 tot 160 ° C gedurende 20 tot 30 minuten, laat de ontwikkeling van cacao-aroma's toe."
+      },
+      {
+        "id": 4,
+        "question": "Welke chocolade, soms vermengd met kruiden, heeft de minste suiker ?",
+        "propositions": [
+          "Zwart",
+          "Praline",
+          "Melk",
+          "Wit"
+        ],
+        "réponse": "Zwart",
+        "anecdote": "De kwaliteit van pure chocolade hangt af van de gebruikte ingrediënten en het percentage cacao."
+      },
+      {
+        "id": 5,
+        "question": "Welke Zwitser richtte in 1825 een nu beroemde chocoladefabriek op ?",
+        "propositions": [
+          "Jacobs",
+          "Tobler",
+          "Lindt",
+          "Suchard"
+        ],
+        "réponse": "Suchard",
+        "anecdote": "Philippe Suchard begon in 1825 in de zoetwarenindustrie in Neuchâtel en begon in 1826 met chocolade in Serrières."
+      },
+      {
+        "id": 6,
+        "question": "Wat veroorzaakt chocoladeverbruik bij de meeste huisdieren ?",
+        "propositions": [
+          "Blindheid",
+          "Verlamming",
+          "Diabetes",
+          "Dood"
+        ],
+        "réponse": "Dood",
+        "anecdote": "Chocolade bevat theobromine, een product dat lijkt op cafeïne en dat niet door hun metabolisme kan worden uitgeschakeld."
+      },
+      {
+        "id": 7,
+        "question": "Welke chocolade, rijk aan verzadigde vetzuren, is het meest bitter ?",
+        "propositions": [
+          "Praline",
+          "Wit",
+          "Zwart",
+          "Melk"
+        ],
+        "réponse": "Zwart",
+        "anecdote": "Pure chocolade, die weinig cholesterol en heel weinig natrium bevat, is een goede bron van magnesium."
+      },
+      {
+        "id": 8,
+        "question": "Wie speelt de chocolatier in de film, aangepast naar de roman « Le chocolat » van Joanne Harris ?",
+        "propositions": [
+          "Judith Godrèche",
+          "Isabelle Adjani",
+          "Juliette Binoche",
+          "Karin Viard"
+        ],
+        "réponse": "Juliette Binoche",
+        "anecdote": "In 1959, tijdens de vastentijd, namen een jonge vrouw en haar dochter de oude banketbakkerij over om een chocoladefabriek te openen."
+      },
+      {
+        "id": 9,
+        "question": "Hoe noem je de vrucht van de cacaoboom, in de vorm van een bes ?",
+        "propositions": [
+          "Caboche",
+          "Ciboulot",
+          "Carabosse",
+          "Cacaovrucht"
+        ],
+        "réponse": "Cacaovrucht",
+        "anecdote": "De peulen zijn te vinden op de stam en grote takken, niet op jonge twijgen."
+      },
+      {
+        "id": 10,
+        "question": "Welke chocolade, waar puristen doorgaans de voorkeur aan geven, bevat geen melk ?",
+        "propositions": [
+          "Melk",
+          "Zwart",
+          "Praline",
+          "Wit"
+        ],
+        "réponse": "Zwart",
+        "anecdote": "Volgens de wet moet pure chocolade minstens 35 % cacao bevatten, zonder bovengrens voor de cacaoconcentratie."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Van welke mensen zou chocolade komen als ze het associëren met hun god van de vruchtbaarheid ?",
+        "propositions": [
+          "Tolteken",
+          "Otomis",
+          "Maya's",
+          "Inca's"
+        ],
+        "réponse": "Maya's",
+        "anecdote": "De Azteken associeerden chocolade met Xochiquetzal (die chocolade zijn naam gaf), de godin van de vruchtbaarheid."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel cacaobonen zitten er ongeveer in een peul ?",
+        "propositions": [
+          "Veertig",
+          "Honderd",
+          "Ongeveer tien",
+          "Duizend"
+        ],
+        "réponse": "Veertig",
+        "anecdote": "De peul heeft een langwerpige vorm en lijkt een beetje op een vrij dikke komkommer."
+      },
+      {
+        "id": 13,
+        "question": "Wat is het eerste cacaoproducerende land, ver voor Ghana en Indonesië ?",
+        "propositions": [
+          "Brazilië",
+          "Ivoorkust",
+          "Kameroen",
+          "Mexico"
+        ],
+        "réponse": "Ivoorkust",
+        "anecdote": "De cacaoproductie bedroeg in 2006 vier miljoen ton en stijgt sinds 2003 gestaag."
+      },
+      {
+        "id": 14,
+        "question": "Wat is het verschil tussen witte chocolade en andere chocolaatjes ?",
+        "propositions": [
+          "De melk",
+          "Cacaopasta",
+          "Boter",
+          "Suiker"
+        ],
+        "réponse": "Cacaopasta",
+        "anecdote": "Witte chocolade werd voor het eerst gedistribueerd in Amerika in 1948 met de introductie van Nestlé Alpine White Chocolate Bars."
+      },
+      {
+        "id": 15,
+        "question": "In welk land werd de eerste chocoladereep gemaakt ?",
+        "propositions": [
+          "Zwitserland",
+          "Mexico",
+          "Brazilië",
+          "Engeland"
+        ],
+        "réponse": "Engeland",
+        "anecdote": "De eerste chocoladerepen die aan het publiek werden aangeboden, werden heerlijke chocolade om te eten genoemd."
+      },
+      {
+        "id": 16,
+        "question": "Hoeveel oogsten kun je per jaar behalen aan een gezonde cacaoboom ?",
+        "propositions": [
+          "Zes",
+          "Twee",
+          "Acht",
+          "Vier"
+        ],
+        "réponse": "Twee",
+        "anecdote": "De rijping van cacaoboomvruchten duurt, afhankelijk van de genotypen, van vijf tot zeven maanden."
+      },
+      {
+        "id": 17,
+        "question": "Welk Europees land is tot nu toe de grootste chocoladeconsument ?",
+        "propositions": [
+          "Portugal",
+          "Zwitserland",
+          "België",
+          "Frankrijk"
+        ],
+        "réponse": "Zwitserland",
+        "anecdote": "De melk- en fondantvarianten zijn gemaakt door Daniel Peter in 1875 en Rudolf Lindt in 1879."
+      },
+      {
+        "id": 18,
+        "question": "Uit welk land komt de cacaoboom, die zo'n 3000 jaar geleden gedomesticeerd werd, vandaan ?",
+        "propositions": [
+          "Madagaskar",
+          "Bolivia",
+          "Mexico",
+          "Mozambique"
+        ],
+        "réponse": "Mexico",
+        "anecdote": "De cacaoboom werd aanvankelijk zeer waarschijnlijk gedomesticeerd voor de bereiding van een gefermenteerde drank, dus alcoholisch."
+      },
+      {
+        "id": 19,
+        "question": "Welke chocolade, die minstens 20% cacaoboter moet bevatten, is het zoetst ?",
+        "propositions": [
+          "Wit",
+          "Zwart",
+          "Praline",
+          "Melk"
+        ],
+        "réponse": "Wit",
+        "anecdote": "Witte chocolade werd voor het eerst geproduceerd door Nestlé in Zwitserland in de jaren dertig van de vorige eeuw."
+      },
+      {
+        "id": 20,
+        "question": "Hoeveel peulen kan een cacaoboom tijdens zijn leven gemiddeld produceren ?",
+        "propositions": [
+          "2000",
+          "20.000",
+          "20",
+          "200"
+        ],
+        "réponse": "20",
+        "anecdote": "Elke pod, die lijkt op een kleine American football-bal, kan tot 400 g wegen en 15-20 cm lang zijn."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Voor de voorrondes van welk evenement gebruiken de Maya's chocolade ?",
+        "propositions": [
+          "Geboorte",
+          "Dood",
+          "Offer",
+          "Bruiloft"
+        ],
+        "réponse": "Bruiloft",
+        "anecdote": "Cacao zuivert ook Maya-kinderen tijdens ceremonies of vergezelt de overledene op zijn reis naar het hiernamaals."
+      },
+      {
+        "id": 22,
+        "question": "Welke precolumbiaanse beschaving was de eerste die cacao verbouwde ?",
+        "propositions": [
+          "Berbers",
+          "Olmeken",
+          "Azteken",
+          "Afrikanen"
+        ],
+        "réponse": "Olmeken",
+        "anecdote": "Tot op de dag van vandaag is de Olmec-cultuur onbekend tot de tweede helft van de 19e eeuw."
+      },
+      {
+        "id": 23,
+        "question": "In welk Europees land begonnen mensen chocolade te consumeren ?",
+        "propositions": [
+          "België",
+          "Italië",
+          "Spanje",
+          "Frankrijk"
+        ],
+        "réponse": "Spanje",
+        "anecdote": "Pas bij de verovering van de Azteken door de Spanjaarden werd chocolade in Europa geïmporteerd."
+      },
+      {
+        "id": 24,
+        "question": "Hoeveel bloemen kan een cacaoboom jaarlijks produceren ?",
+        "propositions": [
+          "100.000",
+          "100",
+          "1.000",
+          "10.000"
+        ],
+        "réponse": "100.000",
+        "anecdote": "Bloemen verschijnen het hele jaar door op zwellingen in het hout van de boom, bloemkussens genoemd."
+      },
+      {
+        "id": 25,
+        "question": "Welke ontdekkingsreiziger bracht in 1528 cacao naar Europa ?",
+        "propositions": [
+          "Foucauld",
+          "Charcot",
+          "Christoffel Columbus",
+          "Cortés"
+        ],
+        "réponse": "Cortés",
+        "anecdote": "Hernan Cortés nam het Azteekse rijk in beslag namens Karel V, koning van Castilië en keizer van het Heilige Roomse Rijk."
+      },
+      {
+        "id": 26,
+        "question": "Welke donkere chocolade wordt gemaakt van cacao van één plantage ?",
+        "propositions": [
+          "Eerste keuze",
+          "Rood label",
+          "Herkomst",
+          "Grand cru"
+        ],
+        "réponse": "Grand cru",
+        "anecdote": "In Frankrijk is het het Nationaal Instituut voor Oorsprong en Kwaliteit dat de kwaliteit van chocolaatjes classificeert."
+      },
+      {
+        "id": 27,
+        "question": "Welke substantie wordt verkregen na het malen van de bonen van de cacaoboom ?",
+        "propositions": [
+          "Mok",
+          "Vuil",
+          "Mis",
+          "Trap"
+        ],
+        "réponse": "Mis",
+        "anecdote": "Cacaobonen bevatten ongeveer 50% vet, cacaoboter genaamd."
+      },
+      {
+        "id": 28,
+        "question": "Als de cacaomassa eenmaal is geperst, welk product wordt dan gebruikt om cacaopoeder te maken ?",
+        "propositions": [
+          "Krab",
+          "Taart",
+          "Garnalen",
+          "Kreeft"
+        ],
+        "réponse": "Taart",
+        "anecdote": "Er zijn twee trituratieprocessen mogelijk : koude batchdruk en hete continue druk."
+      },
+      {
+        "id": 29,
+        "question": "Laura Esquivel, hedendaagse Mexicaanse schrijfster, heeft een boek gepubliceerd met de titel...",
+        "propositions": [
+          "Bittere chocolade",
+          "Pure chocolade",
+          "Melkchocolade",
+          "Witte chocolade"
+        ],
+        "réponse": "Bittere chocolade",
+        "anecdote": "Laura Esquivel is een auteur die in zijn werken voortdurend nieuwe en originele wegen zoekt."
+      },
+      {
+        "id": 30,
+        "question": "In welke striprubriek vind je het album « Strawberry and Chocolate » ?",
+        "propositions": [
+          "Humor",
+          "Erotisch",
+          "Jeugd",
+          "Avontuur"
+        ],
+        "réponse": "Erotisch",
+        "anecdote": "Aurélia Aurita is een Franse stripboekauteur van Chinese en Khmer-afkomst."
+      }
+    ]
+    }
+  }
+}

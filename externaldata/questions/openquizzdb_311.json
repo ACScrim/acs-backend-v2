@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-10-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sports",
+      "nom": "Foot 1960-1970",
+      "slogan": "L'époque des grands champions"
+    },
+    "en": {
+      "catégorie": "Sports",
+      "nom": "Football 1960-1970",
+      "slogan": "The era of great champions"
+    },
+    "es": {
+      "catégorie": "Deportes",
+      "nom": "Fútbol 1960-1970",
+      "slogan": "La era de los grandes campeones"
+    },
+    "it": {
+      "catégorie": "Gli sport",
+      "nom": "Calcio 1960-1970",
+      "slogan": "L'era dei grandi campioni"
+    },
+    "de": {
+      "catégorie": "Sport",
+      "nom": "Fußball 1960-1970",
+      "slogan": "Die Ära der großen Champions"
+    },
+    "nl": {
+      "catégorie": "Sport",
+      "nom": "Voetbal 1960-1970",
+      "slogan": "Het tijdperk van de grote kampioenen"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel joueur néerlandais mythique est né 30 jours avant Frank Rijkaard ?",
+        "propositions": [
+          "John Bosman",
+          "Ruud Gullit",
+          "Wim Kieft",
+          "Aron Winter"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Surnommé la Tulipe Noire, Ruud Gullit est considéré comme l'un des meilleurs joueurs néerlandais de tous les temps."
+      },
+      {
+        "id": 2,
+        "question": "Quel gardien de but demeure le seul gardien lauréat du Ballon d'or ?",
+        "propositions": [
+          "Lev Yachine",
+          "Dmitri Kharine",
+          "Maksym Levytskyy",
+          "Vladimir Gaboulov"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Médaillé d'or aux JO de 1956, il a remporté le Championnat d'Europe en 1960 et disputé trois Coupes du monde avec l'URSS."
+      },
+      {
+        "id": 3,
+        "question": "Quel club italien fut le premier à remporter une Ligue des Champions ?",
+        "propositions": [
+          "Parme",
+          "Roma",
+          "Milan AC",
+          "Capri"
+        ],
+        "réponse": "Milan AC",
+        "anecdote": "Le club conquiert la Coupe d'Europe des clubs champions au Wembley Stadium contre le SL Benfica d'Eusébio 2-1."
+      },
+      {
+        "id": 4,
+        "question": "Quel footballeur se cache derrière le nom d'Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Manecas",
+          "Eusébio",
+          "Deco",
+          "Pelé"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Depuis sa retraite sportive, Pelé est l'ambassadeur pour l'ONU et l'UNESCO à l'Éducation, l'Écologie et l'Environnement."
+      },
+      {
+        "id": 5,
+        "question": "Sur quelle action Pelé a-t-il marqué son millième but le 19 novembre 1969 ?",
+        "propositions": [
+          "Corner",
+          "Hors-jeu",
+          "Penalty",
+          "Coup franc"
+        ],
+        "réponse": "Penalty",
+        "anecdote": "Homme de tous les records, six fois Peléa marqué cinq buts dans le même match, 30 fois quatre buts et 92 fois trois buts."
+      },
+      {
+        "id": 6,
+        "question": "Combien de buts Charly Loubet a-t-il inscrit en onze minutes seulement ?",
+        "propositions": [
+          "Six",
+          "Trois",
+          "Quatre",
+          "Cinq"
+        ],
+        "réponse": "Trois",
+        "anecdote": "Charly Loubet marqua ce triplé à l'occasion du quart de finale de l'Euro 1968 contre le Luxembourg qui qualifia la France."
+      },
+      {
+        "id": 7,
+        "question": "Combien de matchs l'équipe du Brésil a-t-elle perdu avec Garrincha et Pelé ?",
+        "propositions": [
+          "Un seul",
+          "Deux",
+          "Trois",
+          "Aucun"
+        ],
+        "réponse": "Aucun",
+        "anecdote": "Au poste d'ailier droit, Mané Garrincha est considéré par certains comme le plus grand dribbleur de l'histoire du football."
+      },
+      {
+        "id": 8,
+        "question": "Quel joueur brésilien avait la jambe droite plus longue de dix centimètres ?",
+        "propositions": [
+          "Silva",
+          "Bellini",
+          "Pelé",
+          "Garrincha"
+        ],
+        "réponse": "Garrincha",
+        "anecdote": "Son handicap physique ne le prédestinant pas à être un footballeur de haut niveau, Garrincha sera ignoré des recruteurs."
+      },
+      {
+        "id": 9,
+        "question": "Quel club anglais fut le premier à remporter une coupe européenne ?",
+        "propositions": [
+          "Arsenal",
+          "Chelsea",
+          "Tottenham",
+          "Liverpool"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "Le club est désigné sous le nom de Tottenham ou des Spurs, alors que ses propres supporters les appellent les Lillywhites."
+      },
+      {
+        "id": 10,
+        "question": "Quel trophée exposé au Central Hall de Westminster a été volé ?",
+        "propositions": [
+          "Stanley Rous",
+          "Jules Rimet",
+          "Sepp Blatter",
+          "Arthur Drewry"
+        ],
+        "réponse": "Jules Rimet",
+        "anecdote": "Une demande de rançon sera exigée mais le trophée sera finalement retrouvé par un chien dans un parc londonien."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel futur président de la République française a joué pour le FC Rouen ?",
+        "propositions": [
+          "Jacques Chirac",
+          "Nicolas Sarkozy",
+          "François Hollande",
+          "François Mitterrand"
+        ],
+        "réponse": "François Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande est né le 12 août 1954 à Rouen d'une famille religieuse catholique pratiquante."
+      },
+      {
+        "id": 12,
+        "question": "Quel surnom fut donné au portugais Eusébio dans les années 1960 ?",
+        "propositions": [
+          "Lion rugissant",
+          "Jaguar volant",
+          "Tigre blanc",
+          "Panthère noire"
+        ],
+        "réponse": "Panthère noire",
+        "anecdote": "Eusébio a commencé le football à l'âge de quinze ans dans un club de Lourenço-Marquès, le SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "Qui a dédié son millième but à tous les enfants pauvres du Brésil ?",
+        "propositions": [
+          "Rivaldo",
+          "Pelé",
+          "Bebeto",
+          "Molina"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Le 19 novembre 1969, Pelé effectuera alors un tour d'honneur, le match étant interrompu vingt minutes avant de reprendre."
+      },
+      {
+        "id": 14,
+        "question": "Combien de penaltys Lev Yachine aurait-il arrêté durant sa carrière ?",
+        "propositions": [
+          "150",
+          "60",
+          "120",
+          "90"
+        ],
+        "réponse": "150",
+        "anecdote": "Après sa carrière internationale de gardien de but, Lev Yachine est devenu vice-président de la Fédération d'URSS de football."
+      },
+      {
+        "id": 15,
+        "question": "Quel joueur du Standard de Liège était surnommé le George Best belge ?",
+        "propositions": [
+          "Roger Claessen",
+          "Jean-Paul Colonval",
+          "Jérôme Colinet",
+          "Franz Carlier"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Adulé par le public liégeois, Roger Claessen étaitt surnommé Roger-la-Honte à cause de ses frasques légendaires dans Le Carré."
+      },
+      {
+        "id": 16,
+        "question": "Durant quel Mondial le dopage a-t-il été testé pour la première fois ?",
+        "propositions": [
+          "1958",
+          "1970",
+          "1962",
+          "1966"
+        ],
+        "réponse": "1966",
+        "anecdote": "Cette Coupe du monde a vu le fameux but validé de Geoffrey Hurst en prolongation de la finale Angleterre-Allemagne."
+      },
+      {
+        "id": 17,
+        "question": "Quel joueur allemand né en 1960 a élégamment porté la moustache ?",
+        "propositions": [
+          "Rudi Völler",
+          "Alexander Zickler",
+          "Herbert Wimmer",
+          "Timo Werner"
+        ],
+        "réponse": "Rudi Völler",
+        "anecdote": "En raison de son efficacité à attendre la balle décisive plutôt que de participer au jeu, il était surnommé le Renard des Surfaces."
+      },
+      {
+        "id": 18,
+        "question": "Quel pays a éliminé les Pays-Bas en éliminatoires de l'Euro 1964 ?",
+        "propositions": [
+          "Luxembourg",
+          "Espagne",
+          "Danemark",
+          "Hongrie"
+        ],
+        "réponse": "Luxembourg",
+        "anecdote": "Le Danemark marquera la surprise du tournoi final, où se retrouvent également l'Union soviétique, l'Espagne et la Hongrie."
+      },
+      {
+        "id": 19,
+        "question": "À quel âge Stanley Matthews a-t-il terminé sa carrière en 1966 ?",
+        "propositions": [
+          "70 ans",
+          "50 ans",
+          "60 ans",
+          "40 ans"
+        ],
+        "réponse": "50 ans",
+        "anecdote": "Stanley Matthews reste un joueur légendaire du football anglais grâce à ses talents de dribbleur et à son exceptionnelle longévité."
+      },
+      {
+        "id": 20,
+        "question": "Quelle équipe transportait le vol 609 qui s'écrasa près de Munich en 1958 ?",
+        "propositions": [
+          "Manchester United",
+          "AS Roma",
+          "Milan AC",
+          "Tottenham"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "Lors de la troisième tentative de décollage, sur une piste enneigée, le Airspeed AS.57 Ambassador s'écrase en bout de piste."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel gardien de but a encaissé sur penalty le 1000e but de Pelé ?",
+        "propositions": [
+          "Ivo Viktor",
+          "Edgardo Andrada",
+          "Fernando Argila",
+          "Marco Barrero"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "Il sera plus tard accusé de l'enlèvement et de la mort d'Osvaldo Cambiasso et d'Edourdo Pereyra durant la dictature argentine."
+      },
+      {
+        "id": 22,
+        "question": "Quel pays a étonnamment remporté la Coupe d'Afrique des nations en 1962 ?",
+        "propositions": [
+          "Rép. Arabe unie",
+          "Ouganda",
+          "Éthiopie",
+          "Tunisie"
+        ],
+        "réponse": "Éthiopie",
+        "anecdote": "C'est le tout premier titre de champion d'Afrique de l'histoire des Antilopes Walya, dirigés par le futur président de la CAF."
+      },
+      {
+        "id": 23,
+        "question": "Quel match international de 1952 a été peint par Nicolas de Staël ?",
+        "propositions": [
+          "Allemagne-France",
+          "France-Suède",
+          "Espagne-Italie",
+          "Portugal-Suisse"
+        ],
+        "réponse": "France-Suède",
+        "anecdote": "En cinq tableaux intitulés « Le Parc des Princes », il étale la peinture sur une toile tendue sur châssis de 200 × 350 cm."
+      },
+      {
+        "id": 24,
+        "question": "De quel pays était natif Eusébio, star du Benfica et Ballon d'or 1965 ?",
+        "propositions": [
+          "Botswana",
+          "Mozambique",
+          "Angola",
+          "Swaziland"
+        ],
+        "réponse": "Mozambique",
+        "anecdote": "Eusébio effectua sa carrière dans le club du SL Benfica avec qui il remporte la Coupe des clubs champions européens en 1962."
+      },
+      {
+        "id": 25,
+        "question": "Quelle autre carrière que footballeur Johan Cruyff a-t-il entamé en 1969 ?",
+        "propositions": [
+          "Cascadeur",
+          "Danseur",
+          "Coiffeur",
+          "Chanteur"
+        ],
+        "réponse": "Chanteur",
+        "anecdote": "Il enregistra le disque « Oei Oei Oei » qui a tout de même culminé à la 21ème place des charts néerlandais à sa sortie."
+      },
+      {
+        "id": 26,
+        "question": "Avec quel club le Racing Club de Paris a-t-il fusionné en 1966 ?",
+        "propositions": [
+          "Nogent",
+          "Rouen",
+          "Guingamp",
+          "Sedan"
+        ],
+        "réponse": "Sedan",
+        "anecdote": "Même si plusieurs joueurs parisiens suivent leur ancien président Dehaye, le club sedanais n'a de parisien que le nom."
+      },
+      {
+        "id": 27,
+        "question": "Quel footballeur anglais fut le premier à se faire expulser de l'Euro 1968 ?",
+        "propositions": [
+          "Kenny Burns",
+          "Joseph Keegan",
+          "Alan Mullery",
+          "Emlyn Hugues"
+        ],
+        "réponse": "Alan Mullery",
+        "anecdote": "Alan Mullery a marqué un seul but lors de ses trente-cinq sélections avec l'équipe d'Angleterre entre 1964 et 1971."
+      },
+      {
+        "id": 28,
+        "question": "Quel pays est le seul à avoir participé aux trois premières éditions de l'Euro ?",
+        "propositions": [
+          "Hongrie",
+          "Espagne",
+          "Luxembourg",
+          "URSS"
+        ],
+        "réponse": "URSS",
+        "anecdote": "Créé en 1960, il est organisé par l'UEFA tous les 4 ans, lors des années paires durant lesquelles il n'y a pas de Coupe du monde."
+      },
+      {
+        "id": 29,
+        "question": "Quel arbitre a inventé les cartons jaunes et rouges après le Mondial 1968 ?",
+        "propositions": [
+          "Bob Davidson",
+          "Ken Aston",
+          "Karol Galba",
+          "Antoine Blavier"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "Il arbitra en Coupe du monde de 1962 le match violent entre l'Italie et le Chili connu sous le nom de la bataille de Santiago."
+      },
+      {
+        "id": 30,
+        "question": "Quels sont les prénoms des frères Charlton, vainqueurs du Mondial 1966 ?",
+        "propositions": [
+          "Bobby et Jack",
+          "Greg et Edward",
+          "Jules et Jim",
+          "Matt et Dennis"
+        ],
+        "réponse": "Bobby et Jack",
+        "anecdote": "Avec Manchester United, Bobby Charlton forma une ligne offensive de légende aux côtés de Denis Law et George Best."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which legendary Dutch player was born 30 days before Frank Rijkaard ?",
+        "propositions": [
+          "Ruud Gullit",
+          "John Bosman",
+          "Aron Winter",
+          "Wim Kieft"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Nicknamed the Black Tulip, Ruud Gullit is considered one of the best Dutch players of all time."
+      },
+      {
+        "id": 2,
+        "question": "Which goalkeeper remains the only Ballon d'Or winner ?",
+        "propositions": [
+          "Dmitri Kharine",
+          "Maksym Levytskyy",
+          "Vladimir Gaboulov",
+          "Lev Yachine"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Gold medalist at the 1956 Olympics, he won the European Championship in 1960 and played in three World Cups with the USSR."
+      },
+      {
+        "id": 3,
+        "question": "Which Italian club was the first to win a Champions League ?",
+        "propositions": [
+          "Parma",
+          "capri",
+          "Roma",
+          "AC Milan"
+        ],
+        "réponse": "AC Milan",
+        "anecdote": "The club conquers the European Champion Clubs' Cup at Wembley Stadium against SL Benfica d'Eusebio 2-1."
+      },
+      {
+        "id": 4,
+        "question": "Which footballer is hiding behind the name Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Eusebio",
+          "Deco",
+          "Pele",
+          "Maneca"
+        ],
+        "réponse": "Pele",
+        "anecdote": "Since his retirement from sport, Pelé has been the ambassador for the UN and UNESCO for Education, Ecology and the Environment."
+      },
+      {
+        "id": 5,
+        "question": "On which action did Pelé score his thousandth goal on November 19, 1969 ?",
+        "propositions": [
+          "Free kick",
+          "penalty",
+          "Corner",
+          "Offside"
+        ],
+        "réponse": "penalty",
+        "anecdote": "Man of all records, six times Peléa scored five goals in the same match, 30 times four goals and 92 times three goals."
+      },
+      {
+        "id": 6,
+        "question": "How many goals has Charly Loubet scored in just eleven minutes ?",
+        "propositions": [
+          "Three",
+          "Five",
+          "Four",
+          "Six"
+        ],
+        "réponse": "Three",
+        "anecdote": "Charly Loubet scored this hat-trick in the quarter-final of Euro 1968 against Luxembourg, which qualified France."
+      },
+      {
+        "id": 7,
+        "question": "How many matches did the Brazil team lose with Garrincha and Pelé ?",
+        "propositions": [
+          "None",
+          "Three",
+          "Two",
+          "A single"
+        ],
+        "réponse": "None",
+        "anecdote": "As a right winger, Mané Garrincha is considered by some to be the greatest dribbler in the history of football."
+      },
+      {
+        "id": 8,
+        "question": "Which Brazilian player had a ten centimeter longer right leg ?",
+        "propositions": [
+          "Pele",
+          "garríncha",
+          "Bellini",
+          "silva"
+        ],
+        "réponse": "garríncha",
+        "anecdote": "His physical handicap did not predestine him to be a high-level footballer, Garrincha will be ignored by recruiters."
+      },
+      {
+        "id": 9,
+        "question": "Which English club was the first to win a European Cup ?",
+        "propositions": [
+          "Liverpool",
+          "Tottenham",
+          "Arsenal",
+          "Chelsea"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "The club is referred to as Tottenham or Spurs, while its own supporters call them the Lillywhites."
+      },
+      {
+        "id": 10,
+        "question": "Which trophy on display in Westminster's Central Hall was stolen ?",
+        "propositions": [
+          "Sepp Blatter",
+          "Jules Rimet",
+          "Arthur Drewry",
+          "Stanley Rouss"
+        ],
+        "réponse": "Jules Rimet",
+        "anecdote": "A ransom demand will be demanded but the trophy will finally be found by a dog in a London park."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which future President of the French Republic played for FC Rouen ?",
+        "propositions": [
+          "Francois Mitterrand",
+          "Nicolas Sarkozy",
+          "Francois Hollande",
+          "Jacques Chirac"
+        ],
+        "réponse": "Francois Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande was born on August 12, 1954 in Rouen to a practicing Catholic religious family."
+      },
+      {
+        "id": 12,
+        "question": "What nickname was given to the Portuguese Eusébio in the 1960s ?",
+        "propositions": [
+          "white tiger",
+          "Roaring lion",
+          "Flying Jaguar",
+          "Black Panther"
+        ],
+        "réponse": "Black Panther",
+        "anecdote": "Eusébio started playing football at the age of fifteen at a club in Lourenço-Marquès, SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "Who dedicated their thousandth goal to all the poor children in Brazil ?",
+        "propositions": [
+          "Pele",
+          "Rivaldo",
+          "moline",
+          "baby"
+        ],
+        "réponse": "Pele",
+        "anecdote": "On November 19, 1969, Pelé will then perform a lap of honor, the match being interrupted twenty minutes before resuming."
+      },
+      {
+        "id": 14,
+        "question": "How many penalties would Lev Yachine have saved during his career ?",
+        "propositions": [
+          "120",
+          "60",
+          "150",
+          "90"
+        ],
+        "réponse": "150",
+        "anecdote": "After his international career as a goalkeeper, Lev Yashin became vice-president of the USSR Football Federation."
+      },
+      {
+        "id": 15,
+        "question": "Which Standard de Liège player was nicknamed the Belgian George Best ?",
+        "propositions": [
+          "Franz Carlier",
+          "Jean-Paul Colonval",
+          "Roger Claessen",
+          "Jerome Colinet"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Adored by the Liège public, Roger Claessen was nicknamed Roger-la-Honte because of his legendary escapades in Le Carré."
+      },
+      {
+        "id": 16,
+        "question": "During which World Cup was doping tested for the first time ?",
+        "propositions": [
+          "1958",
+          "1962",
+          "1970",
+          "1966"
+        ],
+        "réponse": "1966",
+        "anecdote": "This World Cup saw the famous validated goal of Geoffrey Hurst in extra time of the England-Germany final."
+      },
+      {
+        "id": 17,
+        "question": "Which German player born in 1960 elegantly sported a mustache ?",
+        "propositions": [
+          "Rudi Völler",
+          "Timo Werner",
+          "Herbert Wimmer",
+          "Alexander Zickler"
+        ],
+        "réponse": "Rudi Völler",
+        "anecdote": "Because of his efficiency in waiting for the decisive ball rather than participating in the game, he was nicknamed the Surface Fox."
+      },
+      {
+        "id": 18,
+        "question": "Which country eliminated the Netherlands in Euro 1964 qualifying ?",
+        "propositions": [
+          "Spain",
+          "Hungary",
+          "Luxemburg",
+          "Denmark"
+        ],
+        "réponse": "Luxemburg",
+        "anecdote": "Denmark will mark the surprise of the final tournament, where the Soviet Union, Spain and Hungary also meet."
+      },
+      {
+        "id": 19,
+        "question": "At what age did Stanley Matthews end his career in 1966 ?",
+        "propositions": [
+          "70 years",
+          "60 years",
+          "50 years",
+          "40 years"
+        ],
+        "réponse": "50 years",
+        "anecdote": "Stanley Matthews remains a legendary player in English football thanks to his dribbling skills and exceptional longevity."
+      },
+      {
+        "id": 20,
+        "question": "Which team carried Flight 609 which crashed near Munich in 1958 ?",
+        "propositions": [
+          "AC Milan",
+          "AS Roma",
+          "Manchester United",
+          "Tottenham"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "During the third take-off attempt, on a snowy runway, the Airspeed AS.57 Ambassador crashed at the end of the runway."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which goalkeeper conceded Pelé's 1000th goal from a penalty ?",
+        "propositions": [
+          "Fernando Argila",
+          "Marco Barrero",
+          "Edgardo Andrada",
+          "Ivo Viktor"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "He will later be accused of the kidnapping and death of Osvaldo Cambiasso and Edourdo Pereyra during the Argentine dictatorship."
+      },
+      {
+        "id": 22,
+        "question": "Which country surprisingly won the African Cup of Nations in 1962 ?",
+        "propositions": [
+          "Tunisia",
+          "Ethiopia",
+          "United arab republic",
+          "Uganda"
+        ],
+        "réponse": "Ethiopia",
+        "anecdote": "This is the very first African championship title in the history of the Walya Antelopes, led by the future president of CAF."
+      },
+      {
+        "id": 23,
+        "question": "Which 1952 international match was painted by Nicolas de Staël ?",
+        "propositions": [
+          "France-Sweden",
+          "Germany-France",
+          "Spain-Italy",
+          "Portugal-Switzerland"
+        ],
+        "réponse": "France-Sweden",
+        "anecdote": "In five paintings entitled « Le Parc des Princes », he spreads the paint on a canvas stretched on a 200 × 350 cm frame."
+      },
+      {
+        "id": 24,
+        "question": "What country was Eusébio, star of Benfica and Ballon d'Or 1965, from ?",
+        "propositions": [
+          "Mozambique",
+          "Botswana",
+          "Angola",
+          "Swaziland"
+        ],
+        "réponse": "Mozambique",
+        "anecdote": "Eusébio spent his career with SL Benfica, with whom he won the European Champion Clubs' Cup in 1962."
+      },
+      {
+        "id": 25,
+        "question": "What career other than footballer Johan Cruyff started in 1969 ?",
+        "propositions": [
+          "Dancer",
+          "Hairdresser",
+          "Stuntman",
+          "Singer"
+        ],
+        "réponse": "Singer",
+        "anecdote": "He recorded the disc « Oei Oei Oei » which nevertheless peaked at number 21 on the Dutch charts when it was released."
+      },
+      {
+        "id": 26,
+        "question": "Which club did Racing Club de Paris merge with in 1966 ?",
+        "propositions": [
+          "Sedans",
+          "Rouen",
+          "Guingamp",
+          "Nogent"
+        ],
+        "réponse": "Sedans",
+        "anecdote": "Even if several Parisian players follow their former president Dehaye, the Sedan club is only Parisian in name."
+      },
+      {
+        "id": 27,
+        "question": "Which English footballer was the first to be expelled from Euro 1968 ?",
+        "propositions": [
+          "Emlyn Hugues",
+          "Kenny Burns",
+          "Alan Mullery",
+          "Joseph Keegan"
+        ],
+        "réponse": "Alan Mullery",
+        "anecdote": "Alan Mullery scored just one goal in his 35 caps with the England team between 1964 and 1971."
+      },
+      {
+        "id": 28,
+        "question": "Which country is the only one to have participated in the first three editions of the Euro ?",
+        "propositions": [
+          "Spain",
+          "USSR",
+          "Hungary",
+          "Luxemburg"
+        ],
+        "réponse": "USSR",
+        "anecdote": "Created in 1960, it is organized by UEFA every 4 years, during even years during which there is no World Cup."
+      },
+      {
+        "id": 29,
+        "question": "Which referee invented the yellow and red cards after the 1968 World Cup ?",
+        "propositions": [
+          "Antoine Blavier",
+          "Karol Galba",
+          "Bob Davidson",
+          "Ken Aston"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "He refereed the violent match between Italy and Chile known as the Battle of Santiago in the 1962 World Cup."
+      },
+      {
+        "id": 30,
+        "question": "What are the first names of the Charlton brothers, winners of the 1966 World Cup ?",
+        "propositions": [
+          "Bobby and Jack",
+          "Matt and Dennis",
+          "Jules and Jim",
+          "Greg and Edward"
+        ],
+        "réponse": "Bobby and Jack",
+        "anecdote": "With Manchester United, Bobby Charlton formed a legendary offensive line alongside Denis Law and George Best."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher legendäre niederländische Spieler wurde 30 Tage vor Frank Rijkaard geboren ?",
+        "propositions": [
+          "Ruud Gullit",
+          "Aron Winter",
+          "John Bosman",
+          "Wim Kieft"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Ruud Gullit, der den Spitznamen Black Tulpe trägt, gilt als einer der besten niederländischen Spieler aller Zeiten."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Torhüter bleibt der einzige Gewinner des Ballon d'Or ?",
+        "propositions": [
+          "Maksym Levytskyy",
+          "Dmitri Kharine",
+          "Lev Yachine",
+          "Vladimir Gaboulov"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Er war Goldmedaillengewinner bei den Olympischen Spielen 1956, gewann 1960 die Europameisterschaft und nahm mit der UdSSR an drei Weltmeisterschaften teil."
+      },
+      {
+        "id": 3,
+        "question": "Welcher italienische Klub hat als erster die Champions League gewonnen ?",
+        "propositions": [
+          "Capri",
+          "AC Mailand",
+          "Rom",
+          "Parmas"
+        ],
+        "réponse": "AC Mailand",
+        "anecdote": "Der Verein gewinnt den Pokal der europäischen Meistervereine im Wembley-Stadion gegen SL Benfica d'Eusebio mit 2-1."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Fußballer verbirgt sich hinter dem Namen Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Maneka",
+          "Deko",
+          "Eusebio",
+          "Pelé"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Seit seinem Rücktritt vom Sport ist Pelé Botschafter der UNO und der UNESCO für Bildung, Ökologie und Umwelt."
+      },
+      {
+        "id": 5,
+        "question": "Bei welcher Aktion erzielte Pelé am 19. November 1969 sein tausendstes Tor ?",
+        "propositions": [
+          "Abseits",
+          "Strafe",
+          "Freistoß",
+          "Ecke"
+        ],
+        "réponse": "Strafe",
+        "anecdote": "Der Mann aller Rekorde, sechs Mal erzielte Peléa fünf Tore im selben Spiel, 30 Mal vier Tore und 92 Mal drei Tore."
+      },
+      {
+        "id": 6,
+        "question": "Wie viele Tore hat Charly Loubet in nur elf Minuten geschossen ?",
+        "propositions": [
+          "Fünf",
+          "Drei",
+          "Sechs",
+          "Vier"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Charly Loubet erzielte diesen Hattrick im Viertelfinale der Euro 1968 gegen Luxemburg, das sich für Frankreich qualifizierte."
+      },
+      {
+        "id": 7,
+        "question": "Wie viele Spiele hat die brasilianische Mannschaft mit Garrincha und Pelé verloren ?",
+        "propositions": [
+          "Drei",
+          "Ein einzelnes",
+          "Zwei",
+          "Keine"
+        ],
+        "réponse": "Keine",
+        "anecdote": "Als Rechtsaußen gilt Mané Garrincha manchen als der größte Dribbler der Fußballgeschichte."
+      },
+      {
+        "id": 8,
+        "question": "Welcher brasilianische Spieler hatte ein zehn Zentimeter längeres rechtes Bein ?",
+        "propositions": [
+          "garrincha",
+          "Bellini",
+          "Pelé",
+          "Silva"
+        ],
+        "réponse": "garrincha",
+        "anecdote": "Sein körperliches Handicap prädestinierte ihn nicht zum Spitzenfußballer, Garrincha wird von Recruitern ignoriert."
+      },
+      {
+        "id": 9,
+        "question": "Welcher englische Klub hat als erster den Europapokal gewonnen ?",
+        "propositions": [
+          "Liverpool",
+          "Tottenham",
+          "Waffenarsenal",
+          "Chelsea"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "Der Verein wird als Tottenham oder Spurs bezeichnet, während seine eigenen Fans sie Lillywhites nennen."
+      },
+      {
+        "id": 10,
+        "question": "Welche in der Central Hall von Westminster ausgestellte Trophäe wurde gestohlen ?",
+        "propositions": [
+          "Arthur Drewry",
+          "Sepp Blatter",
+          "Jules Rimet",
+          "Stanley Rouss"
+        ],
+        "réponse": "Jules Rimet",
+        "anecdote": "Es wird eine Lösegeldforderung verlangt, aber die Trophäe wird schließlich von einem Hund in einem Londoner Park gefunden."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher zukünftige Präsident der Französischen Republik spielte für den FC Rouen ?",
+        "propositions": [
+          "François Mitterrand",
+          "François Hollande",
+          "Nicolas Sarkozy",
+          "Jacques Chirac"
+        ],
+        "réponse": "François Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande wurde am 12. August 1954 in Rouen in eine praktizierende katholische Ordensfamilie geboren."
+      },
+      {
+        "id": 12,
+        "question": "Welchen Spitznamen erhielt der Portugiese Eusébio in den 1960er Jahren ?",
+        "propositions": [
+          "weißer Tiger",
+          "Brüllender Löwe",
+          "Fliegender Jaguar",
+          "Schwarzer Panther"
+        ],
+        "réponse": "Schwarzer Panther",
+        "anecdote": "Eusébio begann mit dem Fußballspielen im Alter von fünfzehn Jahren bei einem Verein in Lourenço-Marquès, SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "Wer hat sein tausendstes Tor allen armen Kindern in Brasilien gewidmet ?",
+        "propositions": [
+          "moline",
+          "Pelé",
+          "Schätzchen",
+          "Rivaldo"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Am 19. November 1969 legte Pelé dann eine Ehrenrunde hin, wobei das Spiel zwanzig Minuten vor der Wiederaufnahme unterbrochen wurde."
+      },
+      {
+        "id": 14,
+        "question": "Wie viele Elfmeter hätte Lev Yachine in seiner Karriere gespart ?",
+        "propositions": [
+          "150",
+          "90",
+          "120",
+          "60"
+        ],
+        "réponse": "150",
+        "anecdote": "Nach seiner internationalen Karriere als Torhüter wurde Lev Yashin Vizepräsident des Fußballverbandes der UdSSR."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Spieler von Standard de Liège wurde der Belgier George Best genannt ?",
+        "propositions": [
+          "Franz Carlier",
+          "Jean-Paul Colonval",
+          "Roger Claessen",
+          "Jerome Colinet"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Der vom Lütticher Publikum verehrte Roger Claessen erhielt wegen seiner legendären Eskapaden in Le Carré den Spitznamen Roger-la-Honte."
+      },
+      {
+        "id": 16,
+        "question": "Bei welcher WM wurde zum ersten Mal auf Doping getestet ?",
+        "propositions": [
+          "1962",
+          "1966",
+          "1970",
+          "1958"
+        ],
+        "réponse": "1966",
+        "anecdote": "Diese Weltmeisterschaft sah das berühmte bestätigte Tor von Geoffrey Hurst in der Verlängerung des Endspiels England-Deutschland."
+      },
+      {
+        "id": 17,
+        "question": "Welcher deutsche Spieler, Jahrgang 1960, trug elegant einen Schnurrbart ?",
+        "propositions": [
+          "Timo Werner",
+          "Herbert Wimmer",
+          "Alexander Zickler",
+          "Rudi Völler"
+        ],
+        "réponse": "Rudi Völler",
+        "anecdote": "Wegen seiner Effizienz beim Warten auf den entscheidenden Ball, anstatt am Spiel teilzunehmen, erhielt er den Spitznamen Oberflächenfuchs."
+      },
+      {
+        "id": 18,
+        "question": "Welches Land hat die Niederlande in der Qualifikation zur Euro 1964 eliminiert ?",
+        "propositions": [
+          "Luxemburg",
+          "Dänemark",
+          "Spanien",
+          "Ungarn"
+        ],
+        "réponse": "Luxemburg",
+        "anecdote": "Dänemark wird die Überraschung der Endrunde markieren, wo auch die Sowjetunion, Spanien und Ungarn aufeinandertreffen."
+      },
+      {
+        "id": 19,
+        "question": "In welchem Alter beendete Stanley Matthews 1966 seine Karriere ?",
+        "propositions": [
+          "60 Jahre",
+          "50 Jahre",
+          "70 Jahre",
+          "40 Jahre"
+        ],
+        "réponse": "50 Jahre",
+        "anecdote": "Stanley Matthews bleibt dank seiner Dribbling-Fähigkeiten und seiner außergewöhnlichen Langlebigkeit ein legendärer Spieler im englischen Fußball."
+      },
+      {
+        "id": 20,
+        "question": "Welches Team beförderte Flug 609, der 1958 in der Nähe von München abstürzte ?",
+        "propositions": [
+          "Tottenham",
+          "Manchester United",
+          "AS Roma",
+          "AC Mailand"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "Beim dritten Startversuch stürzte die Airspeed AS.57 Ambassador auf einer verschneiten Landebahn am Ende der Landebahn ab."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Torhüter kassierte Pelés 1000. Elfmetertor ?",
+        "propositions": [
+          "Ivo Viktor",
+          "Fernando Argila",
+          "Marco Barrero",
+          "Edgardo Andrada"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "Ihm wird später die Entführung und der Tod von Osvaldo Cambiasso und Edourdo Pereyra während der argentinischen Diktatur vorgeworfen."
+      },
+      {
+        "id": 22,
+        "question": "Welches Land gewann 1962 überraschend den Afrikanischen Nationen-Pokal ?",
+        "propositions": [
+          "Tunesien",
+          "Vereinigte Arabische Republik",
+          "Äthiopien",
+          "Uganda"
+        ],
+        "réponse": "Äthiopien",
+        "anecdote": "Dies ist der allererste afrikanische Meistertitel in der Geschichte der Walya-Antilopen, angeführt vom zukünftigen Präsidenten der CAF."
+      },
+      {
+        "id": 23,
+        "question": "Welches Länderspiel von 1952 wurde von Nicolas de Staël gemalt ?",
+        "propositions": [
+          "Portugal-Schweiz",
+          "Spanien-Italien",
+          "Deutschland-Frankreich",
+          "Frankreich-Schweden"
+        ],
+        "réponse": "Frankreich-Schweden",
+        "anecdote": "In fünf Gemälden mit dem Titel « Le Parc des Princes » verteilt er die Farbe auf einer Leinwand, die auf einen 200 × 350 cm großen Rahmen gespannt ist."
+      },
+      {
+        "id": 24,
+        "question": "Aus welchem Land stammte Eusébio, Star von Benfica und Ballon d'Or 1965 ?",
+        "propositions": [
+          "Mosambik",
+          "Swasiland",
+          "Angola",
+          "Botsuana"
+        ],
+        "réponse": "Mosambik",
+        "anecdote": "Eusébio verbrachte seine Karriere bei SL Benfica, mit dem er 1962 den Pokal der europäischen Meistervereine gewann."
+      },
+      {
+        "id": 25,
+        "question": "Welche andere Karriere als der Fußballer Johan Cruyff begann 1969 ?",
+        "propositions": [
+          "Friseur",
+          "Tänzer",
+          "Stuntmann",
+          "Sänger"
+        ],
+        "réponse": "Sänger",
+        "anecdote": "Er nahm die Platte « Oei Oei Oei » auf, die bei ihrer Veröffentlichung dennoch auf Platz 21 der niederländischen Charts kletterte."
+      },
+      {
+        "id": 26,
+        "question": "Mit welchem Verein fusionierte der Racing Club de Paris 1966 ?",
+        "propositions": [
+          "Guingamp",
+          "Limousinen",
+          "Nogent",
+          "Rouen"
+        ],
+        "réponse": "Limousinen",
+        "anecdote": "Auch wenn mehrere Pariser Spieler ihrem ehemaligen Präsidenten Dehaye folgen, ist der Sedan-Club nur dem Namen nach Pariser."
+      },
+      {
+        "id": 27,
+        "question": "Welcher englische Fußballer wurde als erster von der Euro 1968 ausgeschlossen ?",
+        "propositions": [
+          "Joseph Keegan",
+          "Emlyn Hugues",
+          "Kenny Burns",
+          "Alan Müller"
+        ],
+        "réponse": "Alan Müller",
+        "anecdote": "Alan Mullery erzielte zwischen 1964 und 1971 in seinen 35 Länderspielen mit der englischen Mannschaft nur ein Tor."
+      },
+      {
+        "id": 28,
+        "question": "Welches Land hat als einziges an den ersten drei Ausgaben des Euro teilgenommen ?",
+        "propositions": [
+          "UdSSR",
+          "Spanien",
+          "Ungarn",
+          "Luxemburg"
+        ],
+        "réponse": "UdSSR",
+        "anecdote": "Es wurde 1960 gegründet und wird von der UEFA alle 4 Jahre organisiert, in geraden Jahren, in denen keine Weltmeisterschaft stattfindet."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Schiedsrichter erfand nach der WM 1968 die gelben und roten Karten ?",
+        "propositions": [
+          "Antoine Blavier",
+          "Bob Davidson",
+          "Karl Galba",
+          "Ken Aston"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "Er leitete das gewalttätige Spiel zwischen Italien und Chile, bekannt als die Schlacht von Santiago bei der Weltmeisterschaft 1962."
+      },
+      {
+        "id": 30,
+        "question": "Wie lauten die Vornamen der Charlton-Brüder, Gewinner der Weltmeisterschaft 1966 ?",
+        "propositions": [
+          "Bobby und Jack",
+          "Matt und Dennis",
+          "Jules und Jim",
+          "Gregor und Edward"
+        ],
+        "réponse": "Bobby und Jack",
+        "anecdote": "Bei Manchester United bildete Bobby Charlton neben Denis Law und George Best eine legendäre Offensivreihe."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué legendario jugador holandés nació 30 días antes que Frank Rijkaard ?",
+        "propositions": [
+          "Aron Winter",
+          "Wim Kieft",
+          "Ruud Gullit",
+          "John Bosman"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Apodado el Tulipán Negro, Ruud Gullit es considerado uno de los mejores jugadores holandeses de todos los tiempos."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué portero sigue siendo el único ganador del Balón de Oro ?",
+        "propositions": [
+          "Dmitri Kharine",
+          "Lev Yachine",
+          "Vladimir Gaboulov",
+          "Maksym Levytskyy"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Medallista de oro en los Juegos Olímpicos de 1956, ganó el Campeonato de Europa en 1960 y disputó tres Copas del Mundo con la URSS."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué club italiano fue el primero en ganar una Champions League ?",
+        "propositions": [
+          "parma",
+          "capri",
+          "AC Milán",
+          "Roma"
+        ],
+        "réponse": "AC Milán",
+        "anecdote": "El club conquista la Copa de Europa de los Clubes Campeones en el estadio de Wembley ante el SL Benfica d'Eusebio por 2-1."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué futbolista se esconde detrás del nombre de Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Maneca",
+          "Decoración",
+          "Pelé",
+          "Eusebio"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Desde su retiro del deporte, Pelé es embajador de la ONU y la UNESCO para la Educación, la Ecología y el Medio Ambiente."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué acción marcó Pelé su gol número mil el 19 de noviembre de 1969 ?",
+        "propositions": [
+          "Esquina",
+          "pena",
+          "Tiro libre",
+          "Fuera de juego"
+        ],
+        "réponse": "pena",
+        "anecdote": "Hombre de todos los récords, Peléa anotó seis veces cinco goles en el mismo partido, 30 veces cuatro goles y 92 veces tres goles."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuántos goles ha marcado Charly Loubet en solo once minutos ?",
+        "propositions": [
+          "Seis",
+          "Tres",
+          "Cinco",
+          "Cuatro"
+        ],
+        "réponse": "Tres",
+        "anecdote": "Charly Loubet anotó este hat-trick en los cuartos de final de la Eurocopa de 1968 ante Luxemburgo, que clasificó a Francia."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuántos partidos perdió la selección de Brasil con Garrincha y Pelé ?",
+        "propositions": [
+          "un solo",
+          "Dos",
+          "Tres",
+          "Ninguno"
+        ],
+        "réponse": "Ninguno",
+        "anecdote": "Como lateral derecho, Mané Garrincha es considerado por algunos como el mayor regateador de la historia del fútbol."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué jugador brasileño tenía una pierna derecha diez centímetros más larga ?",
+        "propositions": [
+          "Pelé",
+          "garrincha",
+          "Bellini",
+          "silva"
+        ],
+        "réponse": "garrincha",
+        "anecdote": "Su minusvalía física no lo predestinaba a ser un futbolista de alto nivel, Garrincha será ignorado por los reclutadores."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué club inglés fue el primero en ganar una Copa de Europa ?",
+        "propositions": [
+          "Arsenal",
+          "Tottenham",
+          "chelsea",
+          "Liverpool"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "El club se conoce como Tottenham o Spurs, mientras que sus propios seguidores los llaman Lillywhites."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué trofeo que se exhibe en el Salón Central de Westminster fue robado ?",
+        "propositions": [
+          "Sepp Blatter",
+          "Julio Rimet",
+          "Stanley Rouss",
+          "Arturo Drewry"
+        ],
+        "réponse": "Julio Rimet",
+        "anecdote": "Se exigirá un rescate, pero finalmente un perro encontrará el trofeo en un parque de Londres."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué futuro presidente de la República Francesa jugó en el FC Rouen ?",
+        "propositions": [
+          "François Hollande",
+          "Jacques Chirac",
+          "Nicolás Sarkozy",
+          "François Mitterrand"
+        ],
+        "réponse": "François Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande nació el 12 de agosto de 1954 en Rouen en el seno de una familia religiosa católica practicante."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué apodo se le dio al portugués Eusébio en la década de 1960 ?",
+        "propositions": [
+          "Jaguar volador",
+          "león rugiente",
+          "Pantera Negra",
+          "tigre blanco"
+        ],
+        "réponse": "Pantera Negra",
+        "anecdote": "Eusébio empezó a jugar al fútbol a los quince años en un club de Lourenço-Marquès, SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "¿Quién dedicó su gol número mil a todos los niños pobres de Brasil ?",
+        "propositions": [
+          "Rivaldo",
+          "bebe",
+          "Pelé",
+          "molina"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "El 19 de noviembre de 1969, Pelé dará entonces una vuelta de honor, siendo interrumpido el partido veinte minutos antes de reanudarse."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuántos penaltis habría salvado Lev Yachine durante su carrera ?",
+        "propositions": [
+          "120",
+          "150",
+          "90",
+          "60"
+        ],
+        "réponse": "150",
+        "anecdote": "Después de su carrera internacional como portero, Lev Yashin se convirtió en vicepresidente de la Federación de Fútbol de la URSS."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué jugador del Standard de Liège fue apodado el George Best belga ?",
+        "propositions": [
+          "Roger Claessen",
+          "Jerónimo Colinet",
+          "Jean-Paul Colonval",
+          "Francisco Carlier"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Adorado por el público de Lieja, Roger Claessen fue apodado Roger-la-Honte debido a sus legendarias aventuras en Le Carré."
+      },
+      {
+        "id": 16,
+        "question": "¿En qué Copa del Mundo se realizó un control antidopaje por primera vez ?",
+        "propositions": [
+          "1958",
+          "1970",
+          "1962",
+          "1966"
+        ],
+        "réponse": "1966",
+        "anecdote": "Esta Copa del Mundo vio el famoso gol validado de Geoffrey Hurst en la prórroga de la final Inglaterra-Alemania."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué jugador alemán nacido en 1960 lucía elegantemente un bigote ?",
+        "propositions": [
+          "Alejandro Zickler",
+          "Rudi Voller",
+          "Timo Werner",
+          "Herbert Wimmer"
+        ],
+        "réponse": "Rudi Voller",
+        "anecdote": "Debido a su eficiencia al esperar la pelota decisiva en lugar de participar en el juego, fue apodado Surface Fox."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué país eliminó a Holanda en la clasificación para la Eurocopa 1964 ?",
+        "propositions": [
+          "España",
+          "Luxemburgo",
+          "Dinamarca",
+          "Hungría"
+        ],
+        "réponse": "Luxemburgo",
+        "anecdote": "Dinamarca marcará la sorpresa del torneo final, donde también se medirán la Unión Soviética, España y Hungría."
+      },
+      {
+        "id": 19,
+        "question": "¿A qué edad terminó Stanley Matthews su carrera en 1966 ?",
+        "propositions": [
+          "40 años",
+          "60 años",
+          "70 años",
+          "50 años"
+        ],
+        "réponse": "50 años",
+        "anecdote": "Stanley Matthews sigue siendo un jugador legendario en el fútbol inglés gracias a sus habilidades de regate y longevidad excepcional."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué equipo llevó el vuelo 609 que se estrelló cerca de Munich en 1958 ?",
+        "propositions": [
+          "AS Roma",
+          "Manchester United",
+          "Tottenham",
+          "AC Milán"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "Durante el tercer intento de despegue, en una pista nevada, el Airspeed AS.57 Ambassador se estrelló al final de la pista."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué portero concedió el gol número 1000 de Pelé de penalti ?",
+        "propositions": [
+          "Marco Barrero",
+          "Ivo Viktor",
+          "Edgardo Andrada",
+          "Fernando Argila"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "Posteriormente será acusado del secuestro y muerte de Osvaldo Cambiasso y Edourdo Pereyra durante la dictadura argentina."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué país ganó sorprendentemente la Copa Africana de Naciones en 1962 ?",
+        "propositions": [
+          "República árabe unida",
+          "Etiopía",
+          "Uganda",
+          "Túnez"
+        ],
+        "réponse": "Etiopía",
+        "anecdote": "Este es el primer título de campeonato africano en la historia de los Antílopes Walya, liderados por el futuro presidente de la CAF."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué partido internacional de 1952 pintó Nicolas de Staël ?",
+        "propositions": [
+          "Francia-Suecia",
+          "España-Italia",
+          "Portugal-Suiza",
+          "Alemania-Francia"
+        ],
+        "réponse": "Francia-Suecia",
+        "anecdote": "En cinco cuadros titulados « Le Parc des Princes », extiende la pintura sobre un lienzo estirado sobre un marco de 200 × 350 cm."
+      },
+      {
+        "id": 24,
+        "question": "¿De qué país era Eusébio, estrella del Benfica y Balón de Oro de 1965 ?",
+        "propositions": [
+          "Suazilandia",
+          "Angola",
+          "Mozambique",
+          "Botsuana"
+        ],
+        "réponse": "Mozambique",
+        "anecdote": "Eusébio desarrolló su carrera en el SL Benfica, con el que ganó la Copa de Europa de Clubes en 1962."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué carrera, aparte del futbolista, comenzó Johan Cruyff en 1969 ?",
+        "propositions": [
+          "Especialista",
+          "bailarina",
+          "Cantante",
+          "Peluquero"
+        ],
+        "réponse": "Cantante",
+        "anecdote": "Grabó el disco « Oei Oei Oei » que, sin embargo, alcanzó el puesto 21 en las listas holandesas cuando se lanzó."
+      },
+      {
+        "id": 26,
+        "question": "¿Con qué club se fusionó el Racing Club de París en 1966 ?",
+        "propositions": [
+          "Guingamp",
+          "Nogente",
+          "Ruán",
+          "Sedanes"
+        ],
+        "réponse": "Sedanes",
+        "anecdote": "Incluso si varios jugadores parisinos siguen a su ex presidente Dehaye, el club Sedan solo es parisino de nombre."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué futbolista inglés fue el primero en ser expulsado de la Eurocopa de 1968 ?",
+        "propositions": [
+          "Alan Mullery",
+          "Quemaduras de Kenny",
+          "emlyn hugues",
+          "José Keegan"
+        ],
+        "réponse": "Alan Mullery",
+        "anecdote": "Alan Mullery anotó solo un gol en sus 35 partidos con la selección de Inglaterra entre 1964 y 1971."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué país es el único que ha participado en las tres primeras ediciones de la Eurocopa ?",
+        "propositions": [
+          "Luxemburgo",
+          "España",
+          "Hungría",
+          "URSS"
+        ],
+        "réponse": "URSS",
+        "anecdote": "Creado en 1960, es organizado por la UEFA cada 4 años, durante los años pares en los que no hay Mundial."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué árbitro inventó las tarjetas amarilla y roja después del Mundial de 1968 ?",
+        "propositions": [
+          "karol galba",
+          "Ken Aston",
+          "Antonio Blavier",
+          "Bob Davidson"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "Arbitró el violento partido entre Italia y Chile conocido como la Batalla de Santiago en la Copa Mundial de 1962."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuáles son los nombres de pila de los hermanos Charlton, ganadores de la Copa del Mundo de 1966 ?",
+        "propositions": [
+          "bobby y jack",
+          "Matt y Dennis",
+          "Julio y Jim",
+          "Greg y Eduardo"
+        ],
+        "réponse": "bobby y jack",
+        "anecdote": "Con el Manchester United, Bobby Charlton formó una línea ofensiva legendaria junto a Denis Law y George Best."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale leggendario giocatore olandese è nato 30 giorni prima di Frank Rijkaard ?",
+        "propositions": [
+          "John Bosman",
+          "Aron Winter",
+          "Wim Kieft",
+          "Ruud Gullit"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Soprannominato il Tulipano Nero, Ruud Gullit è considerato uno dei migliori giocatori olandesi di tutti i tempi."
+      },
+      {
+        "id": 2,
+        "question": "Quale portiere resta l'unico vincitore del Pallone d'Oro ?",
+        "propositions": [
+          "Vladimir Gaboulov",
+          "Dmitri Kharine",
+          "Maksym Levytskyy",
+          "Lev Yachine"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Medaglia d'oro alle Olimpiadi del 1956, vinse il Campionato Europeo nel 1960 e giocò tre Coppe del Mondo con l'URSS."
+      },
+      {
+        "id": 3,
+        "question": "Quale club italiano è stato il primo a vincere una Champions League ?",
+        "propositions": [
+          "capri",
+          "Roma",
+          "Milan",
+          "Parma"
+        ],
+        "réponse": "Milan",
+        "anecdote": "Il club conquista la Coppa dei Campioni allo stadio di Wembley contro l'SL Benfica d'Eusebio 2-1."
+      },
+      {
+        "id": 4,
+        "question": "Quale calciatore si nasconde dietro il nome Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Manca",
+          "Eusebio",
+          "Deco",
+          "Pelè"
+        ],
+        "réponse": "Pelè",
+        "anecdote": "Dal suo ritiro dallo sport, Pelé è stato ambasciatore delle Nazioni Unite e dell'UNESCO per l'Educazione, l'Ecologia e l'Ambiente."
+      },
+      {
+        "id": 5,
+        "question": "Su quale azione Pelé segnò il suo millesimo gol il 19 novembre 1969 ?",
+        "propositions": [
+          "angolo",
+          "Calcio di punizione",
+          "sanzione",
+          "Fuorigioco"
+        ],
+        "réponse": "sanzione",
+        "anecdote": "Uomo di tutti i record, sei volte Peléa ha segnato cinque gol nella stessa partita, 30 volte quattro gol e 92 volte tre gol."
+      },
+      {
+        "id": 6,
+        "question": "Quanti gol ha segnato Charly Loubet in soli undici minuti ?",
+        "propositions": [
+          "Tre",
+          "Sei",
+          "Quattro",
+          "Cinque"
+        ],
+        "réponse": "Tre",
+        "anecdote": "Charly Loubet ha segnato questa tripletta nei quarti di finale di Euro 1968 contro il Lussemburgo, che ha qualificato la Francia."
+      },
+      {
+        "id": 7,
+        "question": "Quante partite ha perso il Brasile con Garrincha e Pelé ?",
+        "propositions": [
+          "Un singolo",
+          "Tre",
+          "Nessuno",
+          "Due"
+        ],
+        "réponse": "Nessuno",
+        "anecdote": "Come ala destra, Mané Garrincha è considerato da alcuni il più grande dribblatore nella storia del calcio."
+      },
+      {
+        "id": 8,
+        "question": "Quale giocatore brasiliano aveva una gamba destra più lunga di dieci centimetri ?",
+        "propositions": [
+          "Pelè",
+          "silva",
+          "Bellini",
+          "garrincha"
+        ],
+        "réponse": "garrincha",
+        "anecdote": "Il suo handicap fisico non lo ha predestinato ad essere un calciatore di alto livello, Garrincha sarà ignorato dai reclutatori."
+      },
+      {
+        "id": 9,
+        "question": "Quale club inglese è stato il primo a vincere una Coppa dei Campioni ?",
+        "propositions": [
+          "Liverpool",
+          "Chelsea",
+          "Tottenham",
+          "Arsenale"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "Il club viene chiamato Tottenham o Spurs, mentre i suoi stessi tifosi li chiamano Lillywhites."
+      },
+      {
+        "id": 10,
+        "question": "Quale trofeo esposto nella Central Hall di Westminster è stato rubato ?",
+        "propositions": [
+          "Arthur Drewry",
+          "Giulio Rimet",
+          "Stanley Rouss",
+          "Sepp Blatter"
+        ],
+        "réponse": "Giulio Rimet",
+        "anecdote": "Verrà richiesta una richiesta di riscatto ma il trofeo verrà finalmente trovato da un cane in un parco di Londra."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale futuro presidente della Repubblica francese ha giocato per l'FC Rouen ?",
+        "propositions": [
+          "Nicolas Sarkozy",
+          "Francois Mitterrand",
+          "Francois Hollande",
+          "Jacques Chirac"
+        ],
+        "réponse": "Francois Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande è nato il 12 agosto 1954 a Rouen da una famiglia religiosa cattolica praticante."
+      },
+      {
+        "id": 12,
+        "question": "Quale soprannome è stato dato al portoghese Eusébio negli anni '60 ?",
+        "propositions": [
+          "Pantera Nera",
+          "Giaguaro volante",
+          "Leone ruggente",
+          "tigre bianca"
+        ],
+        "réponse": "Pantera Nera",
+        "anecdote": "Eusébio ha iniziato a giocare a calcio all'età di quindici anni in un club di Lourenço-Marquès, l'SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "Chi ha dedicato il suo millesimo traguardo a tutti i bambini poveri del Brasile ?",
+        "propositions": [
+          "Pelè",
+          "Rivaldo",
+          "bambino",
+          "moline"
+        ],
+        "réponse": "Pelè",
+        "anecdote": "Il 19 novembre 1969 Pelé eseguirà quindi un giro d'onore, la partita viene interrotta venti minuti prima di riprendere."
+      },
+      {
+        "id": 14,
+        "question": "Quanti rigori avrebbe parato Lev Yachine durante la sua carriera ?",
+        "propositions": [
+          "120",
+          "60",
+          "90",
+          "150"
+        ],
+        "réponse": "150",
+        "anecdote": "Dopo la sua carriera internazionale come portiere, Lev Yashin è diventato vicepresidente della Federcalcio dell'URSS."
+      },
+      {
+        "id": 15,
+        "question": "Quale giocatore dello Standard de Liège è stato soprannominato il George Best belga ?",
+        "propositions": [
+          "Roger Claessen",
+          "Girolamo Colinet",
+          "Franz Carlier",
+          "Jean-Paul Colonval"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Adorato dal pubblico di Liegi, Roger Claessen fu soprannominato Roger-la-Honte per via delle sue leggendarie scappatelle a Le Carré."
+      },
+      {
+        "id": 16,
+        "question": "Durante quale Coppa del Mondo è stato testato per la prima volta il doping ?",
+        "propositions": [
+          "1962",
+          "1958",
+          "1966",
+          "1970"
+        ],
+        "réponse": "1966",
+        "anecdote": "Questa Coppa del Mondo ha visto il famoso gol convalidato di Geoffrey Hurst nei tempi supplementari della finale Inghilterra-Germania."
+      },
+      {
+        "id": 17,
+        "question": "Quale giocatore tedesco classe 1960 sfoggiava elegantemente i baffi ?",
+        "propositions": [
+          "Herbert Wimmer",
+          "Timo Werner",
+          "Alexander Zickler",
+          "Rudi Völler"
+        ],
+        "réponse": "Rudi Völler",
+        "anecdote": "A causa della sua efficienza nell'attesa della palla decisiva piuttosto che nel partecipare al gioco, è stato soprannominato Surface Fox."
+      },
+      {
+        "id": 18,
+        "question": "Quale paese ha eliminato l'Olanda nelle qualificazioni a Euro 1964 ?",
+        "propositions": [
+          "Ungheria",
+          "Lussemburgo",
+          "Spagna",
+          "Danimarca"
+        ],
+        "réponse": "Lussemburgo",
+        "anecdote": "La Danimarca segnerà la sorpresa della fase finale del torneo, dove si incontreranno anche Unione Sovietica, Spagna e Ungheria."
+      },
+      {
+        "id": 19,
+        "question": "A che età Stanley Matthews ha concluso la sua carriera nel 1966 ?",
+        "propositions": [
+          "40 anni",
+          "70 anni",
+          "60 anni",
+          "50 anni"
+        ],
+        "réponse": "50 anni",
+        "anecdote": "Stanley Matthews rimane un giocatore leggendario nel calcio inglese grazie alle sue capacità di dribbling e alla sua eccezionale longevità."
+      },
+      {
+        "id": 20,
+        "question": "Quale squadra ha trasportato il volo 609 che si è schiantato vicino a Monaco nel 1958 ?",
+        "propositions": [
+          "Manchester United",
+          "Tottenham",
+          "Milan",
+          "AS Roma"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "Durante il terzo tentativo di decollo, su una pista innevata, l'Airspeed AS.57 Ambassador si schiantò alla fine della pista."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale portiere ha subito il 1000esimo gol di Pelé su rigore ?",
+        "propositions": [
+          "Edgardo Andrada",
+          "Fernando Argila",
+          "Marco Barrero",
+          "Ivo Vittorio"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "Sarà poi accusato del rapimento e della morte di Osvaldo Cambiasso ed Edourdo Pereyra durante la dittatura argentina."
+      },
+      {
+        "id": 22,
+        "question": "Quale paese ha vinto sorprendentemente la Coppa d'Africa nel 1962 ?",
+        "propositions": [
+          "Uganda",
+          "Etiopia",
+          "Repubblica araba unita",
+          "Tunisia"
+        ],
+        "réponse": "Etiopia",
+        "anecdote": "Questo è il primo titolo del campionato africano nella storia delle Antilopi Walya, guidate dal futuro presidente della CAF."
+      },
+      {
+        "id": 23,
+        "question": "Quale partita internazionale del 1952 è stata dipinta da Nicolas de Staël ?",
+        "propositions": [
+          "Germania-Francia",
+          "Francia-Svezia",
+          "Spagna-Italia",
+          "Portogallo-Svizzera"
+        ],
+        "réponse": "Francia-Svezia",
+        "anecdote": "In cinque dipinti intitolati « Le Parc des Princes », stende la pittura su una tela tesa su un telaio di 200×350 cm."
+      },
+      {
+        "id": 24,
+        "question": "Da quale paese proveniva Eusébio, protagonista del Benfica e Pallone d'Oro 1965 ?",
+        "propositions": [
+          "Swaziland",
+          "Botswana",
+          "Mozambico",
+          "Angola"
+        ],
+        "réponse": "Mozambico",
+        "anecdote": "Eusébio ha trascorso la sua carriera nell'SL Benfica, con il quale ha vinto la Coppa dei Campioni nel 1962."
+      },
+      {
+        "id": 25,
+        "question": "Quale carriera oltre al calciatore Johan Cruyff ha iniziato nel 1969 ?",
+        "propositions": [
+          "Parrucchiere",
+          "stuntman",
+          "Cantante",
+          "ballerino"
+        ],
+        "réponse": "Cantante",
+        "anecdote": "Ha registrato il disco « Oei Oei Oei » che ha comunque raggiunto la posizione numero 21 delle classifiche olandesi quando è stato pubblicato."
+      },
+      {
+        "id": 26,
+        "question": "Con quale club si è fuso il Racing Club de Paris nel 1966 ?",
+        "propositions": [
+          "Guingamp",
+          "Nogent",
+          "berline",
+          "Rouen"
+        ],
+        "réponse": "berline",
+        "anecdote": "Anche se diversi giocatori parigini seguono il loro ex presidente Dehaye, il club Sedan è solo parigino di nome."
+      },
+      {
+        "id": 27,
+        "question": "Quale calciatore inglese è stato il primo ad essere espulso da Euro 1968 ?",
+        "propositions": [
+          "Emlyn Hugues",
+          "Giuseppe Keegan",
+          "Kenny Burns",
+          "Alan Mullery"
+        ],
+        "réponse": "Alan Mullery",
+        "anecdote": "Alan Mullery ha segnato un solo gol nelle sue 35 presenze con la squadra inglese tra il 1964 e il 1971."
+      },
+      {
+        "id": 28,
+        "question": "Quale Paese è l'unico ad aver partecipato alle prime tre edizioni dell'Euro ?",
+        "propositions": [
+          "URSS",
+          "Lussemburgo",
+          "Spagna",
+          "Ungheria"
+        ],
+        "réponse": "URSS",
+        "anecdote": "Creato nel 1960, è organizzato dalla UEFA ogni 4 anni, durante gli anni pari durante i quali non ci sono Mondiali."
+      },
+      {
+        "id": 29,
+        "question": "Quale arbitro ha inventato i cartellini gialli e rossi dopo i Mondiali del 1968 ?",
+        "propositions": [
+          "Ken Aston",
+          "Bob Davidson",
+          "Carlo Galba",
+          "Antonio Blavier"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "Ha arbitrato la violenta partita tra Italia e Cile conosciuta come la battaglia di Santiago nella Coppa del Mondo del 1962."
+      },
+      {
+        "id": 30,
+        "question": "Quali sono i primi nomi dei fratelli Charlton, vincitori della Coppa del Mondo del 1966 ?",
+        "propositions": [
+          "Jules e Jim",
+          "Matt e Dennis",
+          "Bobby e Jack",
+          "Greg ed Edoardo"
+        ],
+        "réponse": "Bobby e Jack",
+        "anecdote": "Con il Manchester United, Bobby Charlton ha formato una linea offensiva leggendaria insieme a Denis Law e George Best."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke legendarische Nederlandse speler werd 30 dagen voor Frank Rijkaard geboren ?",
+        "propositions": [
+          "John Bosman",
+          "Aron Winter",
+          "Ruud Gullit",
+          "Wim Kieft"
+        ],
+        "réponse": "Ruud Gullit",
+        "anecdote": "Ruud Gullit, bijgenaamd de Zwarte Tulp, geldt als een van de beste Nederlandse spelers aller tijden."
+      },
+      {
+        "id": 2,
+        "question": "Welke keeper blijft de enige Ballon d'Or-winnaar ?",
+        "propositions": [
+          "Vladimir Gaboulov",
+          "Maksym Levytskyy",
+          "Lev Yachine",
+          "Dmitri Kharine"
+        ],
+        "réponse": "Lev Yachine",
+        "anecdote": "Gouden medaillewinnaar op de Olympische Spelen van 1956, hij won het Europees kampioenschap in 1960 en speelde in drie Wereldbekers met de USSR."
+      },
+      {
+        "id": 3,
+        "question": "Welke Italiaanse club won als eerste een Champions League ?",
+        "propositions": [
+          "driekwartsbroek",
+          "Parma",
+          "AC Milaan",
+          "Rome"
+        ],
+        "réponse": "AC Milaan",
+        "anecdote": "De club verovert de European Champion Clubs' Cup in het Wembley Stadium tegen SL Benfica d'Eusebio met 2-1."
+      },
+      {
+        "id": 4,
+        "question": "Welke voetballer gaat er schuil achter de naam Edson Arantes do Nascimento ?",
+        "propositions": [
+          "Eusebio",
+          "Decoratie",
+          "Pelé",
+          "Maneca"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Sinds zijn pensionering van sport is Pelé de ambassadeur voor de VN en UNESCO voor Onderwijs, Ecologie en Milieu."
+      },
+      {
+        "id": 5,
+        "question": "Op welke actie scoorde Pelé op 19 november 1969 zijn duizendste doelpunt ?",
+        "propositions": [
+          "Buitenspel",
+          "straf",
+          "Vrije trap",
+          "Hoek"
+        ],
+        "réponse": "straf",
+        "anecdote": "Man van alle records, zes keer scoorde Peléa vijf keer in dezelfde wedstrijd, 30 keer vier keer en 92 keer drie keer."
+      },
+      {
+        "id": 6,
+        "question": "Hoeveel goals heeft Charly Loubet gescoord in slechts elf minuten ?",
+        "propositions": [
+          "drie",
+          "vijf",
+          "Zes",
+          "Vier"
+        ],
+        "réponse": "drie",
+        "anecdote": "Charly Loubet scoorde deze hattrick in de kwartfinale van Euro 1968 tegen Luxemburg, dat Frankrijk kwalificeerde."
+      },
+      {
+        "id": 7,
+        "question": "Hoeveel wedstrijden heeft het Braziliaanse team verloren met Garrincha en Pelé ?",
+        "propositions": [
+          "Geen",
+          "Twee",
+          "drie",
+          "Een enkele"
+        ],
+        "réponse": "Geen",
+        "anecdote": "Als rechtsbuiten wordt Mané Garrincha door sommigen beschouwd als de grootste dribbelaar in de geschiedenis van het voetbal."
+      },
+      {
+        "id": 8,
+        "question": "Welke Braziliaanse speler had een tien centimeter langer rechterbeen ?",
+        "propositions": [
+          "Bellini",
+          "garincha",
+          "Pelé",
+          "silva"
+        ],
+        "réponse": "garincha",
+        "anecdote": "Zijn fysieke handicap heeft hem niet voorbestemd om een voetballer op hoog niveau te zijn, Garrincha zal genegeerd worden door recruiters."
+      },
+      {
+        "id": 9,
+        "question": "Welke Engelse club won als eerste een Europacup I ?",
+        "propositions": [
+          "Tottenham",
+          "Chelsea",
+          "Liverpool",
+          "Arsenaal"
+        ],
+        "réponse": "Tottenham",
+        "anecdote": "De club wordt Tottenham of Spurs genoemd, terwijl de eigen supporters hen de Lillywhites noemen."
+      },
+      {
+        "id": 10,
+        "question": "Welke trofee die in de centrale hal van Westminster te zien was, is gestolen ?",
+        "propositions": [
+          "Stanley Rouss",
+          "Jules Rimet",
+          "Arthur Drewry",
+          "Sepp Blatter"
+        ],
+        "réponse": "Jules Rimet",
+        "anecdote": "Er zal losgeld worden geëist, maar de trofee zal uiteindelijk worden gevonden door een hond in een park in Londen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke toekomstige president van de Franse Republiek speelde voor FC Rouen ?",
+        "propositions": [
+          "François Hollande",
+          "Jacques Chirac",
+          "François Mitterrand",
+          "Nicolas Sarkozy"
+        ],
+        "réponse": "François Hollande",
+        "anecdote": "François Gérard Georges Nicolas Hollande werd geboren op 12 augustus 1954 in Rouen in een praktiserend katholiek religieus gezin."
+      },
+      {
+        "id": 12,
+        "question": "Welke bijnaam kreeg de Portugees Eusébio in de jaren zestig ?",
+        "propositions": [
+          "witte tijger",
+          "Brullende leeuw",
+          "Vliegende Jaguar",
+          "Zwarte Panter"
+        ],
+        "réponse": "Zwarte Panter",
+        "anecdote": "Eusébio begon op vijftienjarige leeftijd met voetballen bij een club in Lourenço-Marquès, SC Lourenço Marques."
+      },
+      {
+        "id": 13,
+        "question": "Wie droeg hun duizendste doel op aan alle arme kinderen in Brazilië ?",
+        "propositions": [
+          "schat",
+          "Pelé",
+          "Rivaldo",
+          "molien"
+        ],
+        "réponse": "Pelé",
+        "anecdote": "Op 19 november 1969 zal Pelé dan een ereronde houden, waarbij de wedstrijd twintig minuten voor hervatting wordt onderbroken."
+      },
+      {
+        "id": 14,
+        "question": "Hoeveel penalty's zou Lev Yachine tijdens zijn carrière hebben bespaard ?",
+        "propositions": [
+          "60",
+          "120",
+          "150",
+          "90"
+        ],
+        "réponse": "150",
+        "anecdote": "Na zijn internationale carrière als keeper werd Lev Yashin vice-president van de USSR Football Federation."
+      },
+      {
+        "id": 15,
+        "question": "Welke speler van Standard de Liège kreeg de bijnaam de Belg George Best ?",
+        "propositions": [
+          "Jerome Colinet",
+          "Franz Carlier",
+          "Jean-Paul Colonval",
+          "Roger Claessen"
+        ],
+        "réponse": "Roger Claessen",
+        "anecdote": "Roger Claessen, aanbeden door het Luikse publiek, kreeg de bijnaam Roger-la-Honte vanwege zijn legendarische escapades in Le Carré."
+      },
+      {
+        "id": 16,
+        "question": "Tijdens welk WK werd er voor het eerst op doping getest ?",
+        "propositions": [
+          "1970",
+          "1966",
+          "1958",
+          "1962"
+        ],
+        "réponse": "1966",
+        "anecdote": "Dit WK zag het beroemde gevalideerde doelpunt van Geoffrey Hurst in de extra tijd van de finale Engeland-Duitsland."
+      },
+      {
+        "id": 17,
+        "question": "Welke Duitse speler geboren in 1960 droeg elegant een snor ?",
+        "propositions": [
+          "Herbert Wimmer",
+          "Timo Werner",
+          "Rudi Völler",
+          "Alexander Zickler"
+        ],
+        "réponse": "Rudi Völler",
+        "anecdote": "Vanwege zijn efficiëntie bij het wachten op de beslissende bal in plaats van deel te nemen aan het spel, kreeg hij de bijnaam Surface Fox."
+      },
+      {
+        "id": 18,
+        "question": "Welk land schakelde Nederland uit in de kwalificatie voor het EK 1964 ?",
+        "propositions": [
+          "Spanje",
+          "Denemarken",
+          "Hongarije",
+          "Luxemburg"
+        ],
+        "réponse": "Luxemburg",
+        "anecdote": "Denemarken markeert de verrassing van het eindtoernooi, waar ook de Sovjet-Unie, Spanje en Hongarije elkaar ontmoeten."
+      },
+      {
+        "id": 19,
+        "question": "Op welke leeftijd beëindigde Stanley Matthews zijn carrière in 1966 ?",
+        "propositions": [
+          "40 jaar",
+          "60 jaar",
+          "70 jaar",
+          "50 jaar"
+        ],
+        "réponse": "50 jaar",
+        "anecdote": "Stanley Matthews blijft een legendarische speler in het Engelse voetbal dankzij zijn dribbelvaardigheden en uitzonderlijke levensduur."
+      },
+      {
+        "id": 20,
+        "question": "Welk team vervoerde vlucht 609 die in 1958 in de buurt van München neerstortte ?",
+        "propositions": [
+          "AC Milaan",
+          "Manchester United",
+          "AS Roma",
+          "Tottenham"
+        ],
+        "réponse": "Manchester United",
+        "anecdote": "Tijdens de derde startpoging, op een besneeuwde landingsbaan, stortte de Airspeed AS.57 Ambassador neer aan het einde van de landingsbaan."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke keeper kreeg het 1000e doelpunt van Pelé uit een penalty tegen ?",
+        "propositions": [
+          "Ivo Victor",
+          "Marco Barrero",
+          "Edgardo Andrada",
+          "Fernando Argila"
+        ],
+        "réponse": "Edgardo Andrada",
+        "anecdote": "Hij wordt later beschuldigd van de ontvoering en dood van Osvaldo Cambiasso en Edourdo Pereyra tijdens de Argentijnse dictatuur."
+      },
+      {
+        "id": 22,
+        "question": "Welk land won verrassend de African Cup of Nations in 1962 ?",
+        "propositions": [
+          "Oeganda",
+          "Ethiopië",
+          "Verenigde arabische republiek",
+          "Tunesië"
+        ],
+        "réponse": "Ethiopië",
+        "anecdote": "Dit is de allereerste Afrikaanse kampioenschapstitel in de geschiedenis van de Walya Antelopes, geleid door de toekomstige president van CAF."
+      },
+      {
+        "id": 23,
+        "question": "Welke interland uit 1952 is geschilderd door Nicolas de Staël ?",
+        "propositions": [
+          "Frankrijk-Zweden",
+          "Portugal-Zwitserland",
+          "Duitsland-Frankrijk",
+          "Spanje-Italië"
+        ],
+        "réponse": "Frankrijk-Zweden",
+        "anecdote": "In vijf schilderijen met de titel « Le Parc des Princes » verspreidt hij de verf op een doek gespannen op een frame van 200 × 350 cm."
+      },
+      {
+        "id": 24,
+        "question": "Uit welk land kwam Eusébio, de ster van Benfica en Ballon d'Or 1965 ?",
+        "propositions": [
+          "Botswana",
+          "Mozambique",
+          "Angola",
+          "Swaziland"
+        ],
+        "réponse": "Mozambique",
+        "anecdote": "Eusébio bracht zijn carrière door bij SL Benfica, met wie hij in 1962 de European Champion Clubs' Cup won."
+      },
+      {
+        "id": 25,
+        "question": "Welke carrière anders dan voetballer Johan Cruijff begon in 1969 ?",
+        "propositions": [
+          "Kapper",
+          "Stuntman",
+          "Zanger",
+          "Danser"
+        ],
+        "réponse": "Zanger",
+        "anecdote": "Hij nam het schijfje « Oei Oei Oei » op, dat desalniettemin piekte op nummer 21 in de Nederlandse hitparade toen het uitkwam."
+      },
+      {
+        "id": 26,
+        "question": "Met welke club fuseerde Racing Club de Paris in 1966 ?",
+        "propositions": [
+          "sedans",
+          "Guingamp",
+          "Nogent",
+          "Rouaan"
+        ],
+        "réponse": "sedans",
+        "anecdote": "Zelfs als meerdere Parijse spelers hun voormalige president Dehaye volgen, is de Sedan-club alleen in naam Parijs."
+      },
+      {
+        "id": 27,
+        "question": "Welke Engelse voetballer werd als eerste van Euro 1968 geschorst ?",
+        "propositions": [
+          "Kenny Burns",
+          "Alan Mullery",
+          "Joseph Keegan",
+          "Emlyn Hugues"
+        ],
+        "réponse": "Alan Mullery",
+        "anecdote": "Alan Mullery scoorde slechts één doelpunt in zijn 35 interlands met het Engelse team tussen 1964 en 1971."
+      },
+      {
+        "id": 28,
+        "question": "Welk land heeft als enige deelgenomen aan de eerste drie edities van de Euro ?",
+        "propositions": [
+          "Spanje",
+          "Luxemburg",
+          "Hongarije",
+          "USSR"
+        ],
+        "réponse": "USSR",
+        "anecdote": "Het werd opgericht in 1960 en wordt om de 4 jaar georganiseerd door de UEFA, tijdens de even jaren waarin er geen Wereldbeker is."
+      },
+      {
+        "id": 29,
+        "question": "Welke scheidsrechter vond de gele en rode kaarten uit na het WK van 1968 ?",
+        "propositions": [
+          "Antoine Blavier",
+          "Karol Galba",
+          "Bob Davidson",
+          "Ken Aston"
+        ],
+        "réponse": "Ken Aston",
+        "anecdote": "Hij floot de gewelddadige wedstrijd tussen Italië en Chili, bekend als de Slag om Santiago in het WK van 1962."
+      },
+      {
+        "id": 30,
+        "question": "Wat zijn de voornamen van de gebroeders Charlton, winnaars van het WK 1966 ?",
+        "propositions": [
+          "Bobby en Jack",
+          "Greg en Edward",
+          "Matt en Dennis",
+          "Jules en Jim"
+        ],
+        "réponse": "Bobby en Jack",
+        "anecdote": "Met Manchester United vormde Bobby Charlton een legendarische aanvalslinie naast Denis Law en George Best."
+      }
+    ]
+    }
+  }
+}

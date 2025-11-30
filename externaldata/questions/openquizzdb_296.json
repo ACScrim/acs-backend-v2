@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 8,
+  "mise-à-jour": "2023-12-15",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Musique",
+      "nom": "Noël en chanson",
+      "slogan": "Il est né le divin enfant"
+    },
+    "en": {
+      "catégorie": "Music",
+      "nom": "Christmas in song",
+      "slogan": "He was born the divine child"
+    },
+    "es": {
+      "catégorie": "Música",
+      "nom": "Navidad en cancion",
+      "slogan": "Nació el niño divino"
+    },
+    "it": {
+      "catégorie": "Musica",
+      "nom": "Natale in canto",
+      "slogan": "Nacque il bambino divino"
+    },
+    "de": {
+      "catégorie": "Musik",
+      "nom": "Weihnachten mit Liedern",
+      "slogan": "Er wurde als göttliches Kind geboren"
+    },
+    "nl": {
+      "catégorie": "Muziek",
+      "nom": "Kerst in een lied",
+      "slogan": "Hij werd geboren als het goddelijke kind"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "À quel endroit font référence les paroles d'« Entre le boeuf et l'âne gris » ?",
+        "propositions": [
+          "Presbytère",
+          "Crèche",
+          "Église",
+          "Cathédrale"
+        ],
+        "réponse": "Crèche",
+        "anecdote": "Selon les récits populaires, c'est bien l'haleine des deux animaux (le boeuf et l'âne) qui aurait réchauffé le nouveau-né."
+      },
+      {
+        "id": 2,
+        "question": "Quel grand succès de Noël et de la chanson française doit-on à Tino Rossi ?",
+        "propositions": [
+          "Minuit, chrétiens",
+          "Vive le vent",
+          "Mon beau sapin",
+          "Petit Papa Noël"
+        ],
+        "réponse": "Petit Papa Noël",
+        "anecdote": "La chanson répondait aux instructions gouvernementales voulant supprimer les chants religieux promus par le régime de Vichy."
+      },
+      {
+        "id": 3,
+        "question": "D'après la tradition catholique, qui ont chanté les premiers chants de Noël ?",
+        "propositions": [
+          "Les astres",
+          "Les Anges",
+          "Les Dieux",
+          "Les nuages"
+        ],
+        "réponse": "Les Anges",
+        "anecdote": "Les premiers chants de Noël résonnant  au-dessus de la crèche de Jésus étaient des chants joyeux évoquant la Nativité."
+      },
+      {
+        "id": 4,
+        "question": "Complétez ce chant de Noël français populaire : « Il est né le divin... »",
+        "propositions": [
+          "Puant",
+          "Savant",
+          "Géant",
+          "Enfant"
+        ],
+        "réponse": "Enfant",
+        "anecdote": "Cette chanson a été publiée pour la première fois en 1874, dans un recueil d'airs de Noël lorrains."
+      },
+      {
+        "id": 5,
+        "question": "Comment appelle-t-on la période de quatre semaines qui précèdent Noël ?",
+        "propositions": [
+          "Après",
+          "Avant",
+          "Devant",
+          "Pendant"
+        ],
+        "réponse": "Avant",
+        "anecdote": "Dans les Églises au calendrier grégorien, l'Avent débute le quatrième dimanche avant Noël, et marque le début de l'année liturgique."
+      },
+      {
+        "id": 6,
+        "question": "Comment la chanson « Jingle Bells » a-t-elle été traduite en français ?",
+        "propositions": [
+          "Noël ensemble",
+          "Vive le vent",
+          "Mon beau sapin",
+          "C'est Noël"
+        ],
+        "réponse": "Vive le vent",
+        "anecdote": "Il fut interprété par Elvis Presley, Carl Perkins, Jerry Lee Lewis et Johnny Cash le 4 décembre 1956 avec le Million Dollar Quartet."
+      },
+      {
+        "id": 7,
+        "question": "Quel film du début des années 1990 a établi « White Christmas » comme classique des fêtes ?",
+        "propositions": [
+          "Game Night",
+          "After Hours",
+          "Home Alone",
+          "Dirty Papy"
+        ],
+        "réponse": "Home Alone",
+        "anecdote": "« Maman, j'ai raté l'avion » (Home Alone) est une comédie familiale américaine réalisée par Chris Columbus, sortie en 1990."
+      },
+      {
+        "id": 8,
+        "question": "Pour quelle cause l'album « Noël ensemble » à vocation caritative a-t-il été vendu ?",
+        "propositions": [
+          "Sans abri",
+          "Restos du Coeur",
+          "Mucoviscidose",
+          "Sida"
+        ],
+        "réponse": "Sida",
+        "anecdote": "L'album, sorti en 2000 chez Mercury Universal, comprend 19 titres chantés par plus de 75 artistes et célébrités francophones."
+      },
+      {
+        "id": 9,
+        "question": "De quelle couleur est le nez du Petit Renne dans un chant de Noël inspiré de Robert May ?",
+        "propositions": [
+          "Blanc",
+          "Vert",
+          "Bleu",
+          "Rouge"
+        ],
+        "réponse": "Rouge",
+        "anecdote": "De nombreux artistes ont interprété « Le Petit Renne au nez rouge », dont Nana Mouskouri, Henri Dès et Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "Qui détient avec « Petit Papa Noël » le record du 45 tours le mieux vendu en France ?",
+        "propositions": [
+          "Maurice Chevalier",
+          "Yves Montand",
+          "Charles Trenet",
+          "Tino Rossi"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Nommé chevalier de la Légion d'honneur par décret du 22 octobre 1952, Tino Rossi sera décoré le 23 décembre à Cassis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "De quel siècle remonte le cantique « Entre le boeuf et l'âne gris » ?",
+        "propositions": [
+          "XVIe siècle",
+          "XIIe siècle",
+          "Xe siècle",
+          "XIVe siècle"
+        ],
+        "réponse": "XVIe siècle",
+        "anecdote": "Le plus ancien chant de Noël français ayant subsisté jusqu'à aujourd'hui est le cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "Dans quel pays fut composée la musique de « Douce nuit, sainte nuit » ?",
+        "propositions": [
+          "France",
+          "Belgique",
+          "Autriche",
+          "Hongrie"
+        ],
+        "réponse": "Autriche",
+        "anecdote": "Ce chant a été écrit en 1816 par Joseph Mohr et sa musique composée par l'organiste Franz Xaver Gruber en 1818."
+      },
+      {
+        "id": 13,
+        "question": "Quel compositeur a repris « La Marche des rois » pour son « Arlésienne » ?",
+        "propositions": [
+          "Gabriel Fauré",
+          "Jules Garcin",
+          "Georges Bizet",
+          "Hector Berlioz"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet a composé « Carmen », l'un des opéras les plus connus et les plus joués au monde."
+      },
+      {
+        "id": 14,
+        "question": "Un chant populaire chrétien de l'abbé Simon-Joseph Pellegrin s'intitule « Venez divin... »",
+        "propositions": [
+          "Noircis",
+          "Durcis",
+          "Soucis",
+          "Messie"
+        ],
+        "réponse": "Messie",
+        "anecdote": "Ce chant rappelle le temps d'attente du peuple d'Israël avant la naissance du christ, ainsi que son appel dans l'Eucharistie."
+      },
+      {
+        "id": 15,
+        "question": "À quelle musique l'hymne « Adeste fideles » présente-t-il une tonalité solennelle ?",
+        "propositions": [
+          "Médiévale",
+          "Moderne",
+          "Baroque",
+          "Romantique"
+        ],
+        "réponse": "Baroque",
+        "anecdote": "Après une première impression vers 1760, la première partition (en latin) fut publiée à Londres en 1782 par Samuel Webbe."
+      },
+      {
+        "id": 16,
+        "question": "De quelle région « C'est le jour de la Noël » est-elle une chanson de Noël traditionnelle ?",
+        "propositions": [
+          "Auvergne",
+          "Limousin",
+          "Bretagne",
+          "Berry"
+        ],
+        "réponse": "Auvergne",
+        "anecdote": "« C'est le jour de la Noël que Jésus est né. Il est né dedans un coin, dessus la paille. Il est né dedans un coin, dessus le foin. »"
+      },
+      {
+        "id": 17,
+        "question": "Quel humoriste français a adapté en français la chanson « Jingle Bells » ?",
+        "propositions": [
+          "Stéphane Collaro",
+          "Francis Blanche",
+          "Thierry Le Luron",
+          "Raymond Devos"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "Cette adaptation est très populaire en France et a été interprétée par plusieurs chanteurs, comme Dalida et Mireille Mathieu."
+      },
+      {
+        "id": 18,
+        "question": "Quelle chanson de Noël a été créée par le chanteur Bing Crosby en décembre 1941 ?",
+        "propositions": [
+          "O Christmas tree",
+          "White Christmas",
+          "Silent night",
+          "Happy Xmas"
+        ],
+        "réponse": "White Christmas",
+        "anecdote": "Il enregistra une version le 29 mai 1942 avec le John Scott Trotter Orchestra et les Ken Darby Singers dans les studios de Decca."
+      },
+      {
+        "id": 19,
+        "question": "À combien d'exemplaires environ s'est vendu le single « White Christmas » de 1942 ?",
+        "propositions": [
+          "5 millions",
+          "20 millions",
+          "35 millions",
+          "50 millions"
+        ],
+        "réponse": "50 millions",
+        "anecdote": "La chanson fut incluse dans le film « L'amour chante et danse » dans lequel Crosby la chanta en duo avec Marjorie Reynolds."
+      },
+      {
+        "id": 20,
+        "question": "Avec qui Véronique Sanson a-t-elle chanté en duo sur l'album « Noël ensemble » ?",
+        "propositions": [
+          "Johnny Hallyday",
+          "Eddy Mitchell",
+          "Henri Salvador",
+          "Jacques Dutronc"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "Dans le monde francophone, la chanson « White Christmas » a été adaptée par Francis Blanche sous le titre de « Noël blanc »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "À quel poète savoyard mort vers 1570 doit-on de nombreux chants de Noël ?",
+        "propositions": [
+          "Jean Pasquier",
+          "Didier Le Blanc",
+          "Antoine Cartier",
+          "Nicolas Martin"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "Il publie en 1555 « Noëlz et chansons nouvellement composez tant en vulgaire françoys que savoysien dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "Qui a interprété « Douce nuit, sainte nuit » sur son simple « Joyeux Noël » paru en 1960 ?",
+        "propositions": [
+          "Mireille Matthieu",
+          "Francis Blanche",
+          "Tino Rossi",
+          "Dalida"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine et bien d'autres l'ont également interprété."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel film de Didier Kaminka peut-on entendre « Les Anges dans nos campagnes » ?",
+        "propositions": [
+          "Promotion canapé",
+          "Profil Bas",
+          "Force 8",
+          "Ripoux 3"
+        ],
+        "réponse": "Promotion canapé",
+        "anecdote": "Dans le film, un passant chante l'air dans le grand magasin, avec les paroles en latin nettement audibles."
+      },
+      {
+        "id": 24,
+        "question": "Quel cantique de Noël est parfois aussi appelé « La Marseillaise religieuse » ?",
+        "propositions": [
+          "Noël nouvelet",
+          "Vive le vent",
+          "Minuit, chrétiens",
+          "Mon beau sapin"
+        ],
+        "réponse": "Minuit, chrétiens",
+        "anecdote": "À l'origine composé pour soprano et clavier, ce cantique est souvent chanté par un baryton ou un ténor solo accompagné à l'orgue."
+      },
+      {
+        "id": 25,
+        "question": "Combien de couplets compte le chant de Noël traditionnel « Dans une étable obscure » ?",
+        "propositions": [
+          "16",
+          "31",
+          "23",
+          "44"
+        ],
+        "réponse": "23",
+        "anecdote": "Les paroles françaises ont été écrites par Augustin Mahot en 1621 et ne sont pas une traduction du texte original allemand."
+      },
+      {
+        "id": 26,
+        "question": "Qui a écrit la musique accompagnant le chant de Noël « Quelle est cette odeur agréable » ?",
+        "propositions": [
+          "Henry Fielding",
+          "Charles Johnson",
+          "Aaron Hill",
+          "John Gay"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« Quelle est cette odeur agréable » est un chant de Noël traditionnel écrit au XVIIe siècle traitant de la Nativité chrétienne."
+      },
+      {
+        "id": 27,
+        "question": "En quelle année est sorti « Céline Dion chante Noël », deuxième album de la chanteuse ?",
+        "propositions": [
+          "1981",
+          "1991",
+          "2001",
+          "2011"
+        ],
+        "réponse": "1981",
+        "anecdote": "Distribué exclusivement au Québec, aucun single n'en a été extrait et il est le seul de sa discographie à ne pas avoir été certifié."
+      },
+      {
+        "id": 28,
+        "question": "Quel chant de Noël est aussi l'hymne officiel de l'État du Maryland aux États-Unis ?",
+        "propositions": [
+          "Vive le vent",
+          "White Christmas",
+          "C'est Noël",
+          "Mon beau sapin"
+        ],
+        "réponse": "Mon beau sapin",
+        "anecdote": "La première version connue des paroles date de 1550, une autre version a été composée en 1615 par Melchior Franck."
+      },
+      {
+        "id": 29,
+        "question": "Quel titre Fernandel chante-t-il sur le 45 tours extrait du film « Honoré de Marseille » ?",
+        "propositions": [
+          "Petit Papa Noël",
+          "Vive le vent",
+          "Mon beau sapin",
+          "C'est Noël"
+        ],
+        "réponse": "C'est Noël",
+        "anecdote": "« C'est Noël » était une des quatre chansons que Fernandel chante dans le film, mais la scène a été coupée au montage."
+      },
+      {
+        "id": 30,
+        "question": "Quel chant de John Lennon est une chanson protestataire contre la guerre du Viêt Nam ?",
+        "propositions": [
+          "White Christmas",
+          "Silent night",
+          "O Christmas tree",
+          "Happy Xmas"
+        ],
+        "réponse": "Happy Xmas",
+        "anecdote": "Il tire son origine d'une campagne publicitaire contre la guerre du Viêt Nam que John Lennon et Yoko Ono avaient lancée en 1969."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Where do the words of « Between the Ox and the Gray Ass » refer ?",
+        "propositions": [
+          "Nursery",
+          "Presbytery",
+          "Cathedral",
+          "Church"
+        ],
+        "réponse": "Nursery",
+        "anecdote": "According to popular accounts, it is the breath of the two animals (the ox and the donkey) that would have warmed the newborn."
+      },
+      {
+        "id": 2,
+        "question": "What great Christmas and French song success do we owe to Tino Rossi ?",
+        "propositions": [
+          "Little Papa Christmas",
+          "My beautiful Christmas tree",
+          "Midnight, Christians",
+          "Long live the wind"
+        ],
+        "réponse": "Little Papa Christmas",
+        "anecdote": "The song responded to government instructions to suppress religious songs promoted by the Vichy regime."
+      },
+      {
+        "id": 3,
+        "question": "According to Catholic tradition, who sang the first Christmas carols ?",
+        "propositions": [
+          "The Gods",
+          "The clouds",
+          "The Angels",
+          "The stars"
+        ],
+        "réponse": "The Angels",
+        "anecdote": "The first Christmas carols resounding above Jesus' manger were joyful carols of the Nativity."
+      },
+      {
+        "id": 4,
+        "question": "Complete this popular French Christmas carol: « He was born the divine ... »",
+        "propositions": [
+          "Stinky",
+          "Child",
+          "Scholar",
+          "Giant"
+        ],
+        "réponse": "Child",
+        "anecdote": "This song was first published in 1874, in a collection of Lorraine Christmas arias."
+      },
+      {
+        "id": 5,
+        "question": "What is the four week period leading up to Christmas called ?",
+        "propositions": [
+          "During",
+          "After",
+          "In front of",
+          "Before"
+        ],
+        "réponse": "Before",
+        "anecdote": "In the churches with the Gregorian calendar, Advent begins on the fourth Sunday before Christmas, and marks the beginning of the liturgical year."
+      },
+      {
+        "id": 6,
+        "question": "How was the song « Jingle Bells » translated into French ?",
+        "propositions": [
+          "It's Christmas",
+          "My beautiful Christmas tree",
+          "Long live the wind",
+          "Christmas together"
+        ],
+        "réponse": "Long live the wind",
+        "anecdote": "It was performed by Elvis Presley, Carl Perkins, Jerry Lee Lewis and Johnny Cash on December 4, 1956 with the Million Dollar Quartet."
+      },
+      {
+        "id": 7,
+        "question": "Which movie from the early 1990s established « White Christmas » as a holiday classic ?",
+        "propositions": [
+          "After Hours",
+          "Home Alone",
+          "Dirty Papy",
+          "Game Night"
+        ],
+        "réponse": "Home Alone",
+        "anecdote": "« Mom, I Missed the Plane » (Home Alone) is an American family comedy movie directed by Chris Columbus, released in 1990."
+      },
+      {
+        "id": 8,
+        "question": "Why was the charitable « Christmas Together » album sold ?",
+        "propositions": [
+          "Homeless",
+          "AIDS",
+          "Cystic Fibrosis",
+          "Restos du Coeur"
+        ],
+        "réponse": "AIDS",
+        "anecdote": "The album, released in 2000 by Mercury Universal, includes 19 tracks sung by more than 75 French-speaking artists and celebrities."
+      },
+      {
+        "id": 9,
+        "question": "What color is the nose of the Little Reindeer in a Christmas carol inspired by Robert May ?",
+        "propositions": [
+          "White",
+          "Green",
+          "Red",
+          "Blue"
+        ],
+        "réponse": "Red",
+        "anecdote": "Many artists have performed « Le Petit Renne au nez rouge », including Nana Mouskouri, Henri Dé and Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "With « Petit Papa Noël », who holds the record for the best-selling 45 rpm in France ?",
+        "propositions": [
+          "Yves Montand",
+          "Maurice Chevalier",
+          "Tino Rossi",
+          "Charles Trenet"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Appointed Knight of the Legion of Honor by decree of October 22, 1952, Tino Rossi will be decorated on December 23 in Cassis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What century does the song « Between the Ox and the Gray Donkey » go back to ?",
+        "propositions": [
+          "10th century",
+          "16th century",
+          "12th century",
+          "14th century"
+        ],
+        "réponse": "16th century",
+        "anecdote": "The oldest French Christmas carol that has survived to this day is the cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "In which country was the music for « Sweet Night, Holy Night » composed ?",
+        "propositions": [
+          "France",
+          "Hungary",
+          "Austria",
+          "Austria"
+        ],
+        "réponse": "Austria",
+        "anecdote": "This song was written in 1816 by Joseph Mohr and his music composed by organist Franz Xaver Gruber in 1818."
+      },
+      {
+        "id": 13,
+        "question": "Which composer took over « La Marche des rois » for his « Arlésienne » ?",
+        "propositions": [
+          "Georges Bizet",
+          "Hector Berlioz",
+          "Gabriel Fauré",
+          "Jules Garcin"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet composed « Carmen », one of the most famous and performed operas in the world."
+      },
+      {
+        "id": 14,
+        "question": "A popular Christian song by Father Simon-Joseph Pellegrin is entitled « Come divine ... »",
+        "propositions": [
+          "Hardened",
+          "Messiah",
+          "Blackened",
+          "Concerns"
+        ],
+        "réponse": "Messiah",
+        "anecdote": "This song recalls the waiting time of the people of Israel before the birth of Christ, as well as their call in the Eucharist."
+      },
+      {
+        "id": 15,
+        "question": "To what music does the « Adeste fideles » hymn present a solemn tone ?",
+        "propositions": [
+          "Medieval",
+          "Baroque",
+          "Modern",
+          "Romantic"
+        ],
+        "réponse": "Baroque",
+        "anecdote": "After a first printing around 1760, the first score (in Latin) was published in London in 1782 by Samuel Webbe."
+      },
+      {
+        "id": 16,
+        "question": "What region is « It's Christmas Day » a traditional Christmas song from ?",
+        "propositions": [
+          "Brittany",
+          "Limousin",
+          "Auvergne",
+          "Berry"
+        ],
+        "réponse": "Auvergne",
+        "anecdote": "« It was on Christmas Day that Jesus was born. He was born in a corner, over the straw. He was born in a corner, on top of the hay. »"
+      },
+      {
+        "id": 17,
+        "question": "Which French humorist adapted the song « Jingle Bells » into French ?",
+        "propositions": [
+          "Raymond Devos",
+          "Thierry Le Luron",
+          "Francis Blanche",
+          "Stéphane Collaro"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "This adaptation is very popular in France and has been performed by several singers, such as Dalida and Mireille Mathieu."
+      },
+      {
+        "id": 18,
+        "question": "What Christmas song was created by singer Bing Crosby in December 1941 ?",
+        "propositions": [
+          "O Christmas tree",
+          "Silent night",
+          "Happy Xmas",
+          "White Christmas"
+        ],
+        "réponse": "White Christmas",
+        "anecdote": "He recorded a version on May 29, 1942 with the John Scott Trotter Orchestra and the Ken Darby Singers in the studios of Decca."
+      },
+      {
+        "id": 19,
+        "question": "Approximately how many copies were sold of the 1942 single « White Christmas » ?",
+        "propositions": [
+          "20 million",
+          "35 million",
+          "5 million",
+          "50 million"
+        ],
+        "réponse": "50 million",
+        "anecdote": "The song was included in the movie « Love Sings and Dances » in which Crosby sang it in duet with Marjorie Reynolds."
+      },
+      {
+        "id": 20,
+        "question": "With whom did Véronique Sanson sing a duet on the album « Noël ensemble » ?",
+        "propositions": [
+          "Jacques Dutronc",
+          "Johnny Hallyday",
+          "Henri Salvador",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "In the French-speaking world, the song « White Christmas » was adapted by Francis Blanche under the title « Noël blanc »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "To which Savoyard poet who died around 1570 do we owe many Christmas carols ?",
+        "propositions": [
+          "Jean Pasquier",
+          "Antoine Cartier",
+          "Didier Le Blanc",
+          "Nicolas Martin"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "In 1555 he published « Noëlz and newly composed songs in both vulgar françoys and savoysien dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "Who interpreted « Douce nuit, sainte nuit » on his simple « Merry Christmas » published in 1960 ?",
+        "propositions": [
+          "Tino Rossi",
+          "Dalida",
+          "Francis Blanche",
+          "Mireille Matthieu"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine and many others also performed it."
+      },
+      {
+        "id": 23,
+        "question": "In which film by Didier Kaminka can we hear « The Angels in our countryside » ?",
+        "propositions": [
+          "Ripoux 3",
+          "Low Profile",
+          "Force 8",
+          "Sofa promotion"
+        ],
+        "réponse": "Sofa promotion",
+        "anecdote": "In the film, a passer-by sings the tune in the department store, with the Latin lyrics clearly audible."
+      },
+      {
+        "id": 24,
+        "question": "Which Christmas carol is sometimes also called « La Marseillaise Religieuse » ?",
+        "propositions": [
+          "Midnight, Christians",
+          "Long live the wind",
+          "My beautiful Christmas tree",
+          "New Christmas"
+        ],
+        "réponse": "Midnight, Christians",
+        "anecdote": "Originally composed for soprano and keyboard, this hymn is often sung by a baritone or tenor solo accompanied on the organ."
+      },
+      {
+        "id": 25,
+        "question": "How many verses does the traditional « In a Dark Stable » Christmas carol have ?",
+        "propositions": [
+          "31",
+          "16",
+          "23",
+          "44"
+        ],
+        "réponse": "23",
+        "anecdote": "The French lyrics were written by Augustin Mahot in 1621 and are not a translation of the original German text."
+      },
+      {
+        "id": 26,
+        "question": "Who wrote the music for the Christmas carol « What is that pleasant smell » ?",
+        "propositions": [
+          "Charles Johnson",
+          "Henry Fielding",
+          "Aaron Hill",
+          "John Gay"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« What is that pleasant smell » is a traditional Christmas carol written in the 17th century dealing with the Christian Nativity."
+      },
+      {
+        "id": 27,
+        "question": "In what year was « Céline Dion sings Christmas » released, the singer's second album ?",
+        "propositions": [
+          "2001",
+          "2011",
+          "1981",
+          "1991"
+        ],
+        "réponse": "1981",
+        "anecdote": "Distributed exclusively in Quebec, no single was extracted from it and it is the only one of its discography not to have been certified."
+      },
+      {
+        "id": 28,
+        "question": "Which Christmas carol is also the official anthem of the state of Maryland in the United States ?",
+        "propositions": [
+          "It's Christmas",
+          "White Christmas",
+          "Long live the wind",
+          "My beautiful Christmas tree"
+        ],
+        "réponse": "My beautiful Christmas tree",
+        "anecdote": "The first known version of the lyrics dates from 1550, another version was composed in 1615 by Melchior Franck."
+      },
+      {
+        "id": 29,
+        "question": "What title does Fernandel sing on the 45 rpm extract from the film « Honoré de Marseille » ?",
+        "propositions": [
+          "Little Papa Christmas",
+          "Long live the wind",
+          "My beautiful Christmas tree",
+          "It's Christmas"
+        ],
+        "réponse": "It's Christmas",
+        "anecdote": "« It's Christmas » was one of the four songs Fernandel sings in the film, but the scene was cut in the edit."
+      },
+      {
+        "id": 30,
+        "question": "Which song by John Lennon is a protest song against the Vietnam War ?",
+        "propositions": [
+          "O Christmas tree",
+          "White Christmas",
+          "Silent night",
+          "Happy Xmas"
+        ],
+        "réponse": "Happy Xmas",
+        "anecdote": "It originates from an advertising campaign against the Vietnam War that John Lennon and Yoko Ono launched in 1969."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Worauf beziehen sich die Worte von « Zwischen dem Büffel und dem grauen Esel » ?",
+        "propositions": [
+          "Kindergarten",
+          "Kirche",
+          "Presbyterium",
+          "Kathedrale"
+        ],
+        "réponse": "Kindergarten",
+        "anecdote": "Nach populären Berichten wäre es der Atem der beiden Tiere (des Ochsen und des Esels), der das Neugeborene gewärmt hätte."
+      },
+      {
+        "id": 2,
+        "question": "Welchen großen Erfolg bei Weihnachtsliedern und französischen Liedern haben wir Tino Rossi zu verdanken ?",
+        "propositions": [
+          "Mein schöner Weihnachtsbaum",
+          "Es lebe der Wind",
+          "Mitternacht, Christen",
+          "Little Papa Christmas"
+        ],
+        "réponse": "Little Papa Christmas",
+        "anecdote": "Das Lied reagierte auf die Anweisungen der Regierung, religiöse Lieder zu unterdrücken, die vom Vichy-Regime gefördert wurden."
+      },
+      {
+        "id": 3,
+        "question": "Wer hat nach katholischer Tradition die ersten Weihnachtslieder gesungen ?",
+        "propositions": [
+          "Die Wolken",
+          "Die Sterne",
+          "Die Götter",
+          "Die Engel"
+        ],
+        "réponse": "Die Engel",
+        "anecdote": "Die ersten Weihnachtslieder, die über der Krippe Jesu erklangen, waren fröhliche Weihnachtslieder."
+      },
+      {
+        "id": 4,
+        "question": "Vervollständige dieses beliebte französische Weihnachtslied: « Er wurde als Göttlicher geboren ... »",
+        "propositions": [
+          "Riese",
+          "Gelehrter",
+          "Stinkende",
+          "Kind"
+        ],
+        "réponse": "Kind",
+        "anecdote": "Dieses Lied wurde erstmals 1874 in einer Sammlung lothringischer Weihnachtsarien veröffentlicht."
+      },
+      {
+        "id": 5,
+        "question": "Wie heißt die vierwöchige Zeit vor Weihnachten ?",
+        "propositions": [
+          "Vor",
+          "Vor",
+          "Während",
+          "Nach"
+        ],
+        "réponse": "Vor",
+        "anecdote": "In den Kirchen mit Gregorianischem Kalender beginnt der Advent am vierten Sonntag vor Weihnachten und markiert den Beginn des liturgischen Jahres."
+      },
+      {
+        "id": 6,
+        "question": "Wie wurde das Lied « Jingle Bells » ins Französische übersetzt ?",
+        "propositions": [
+          "Mein schöner Weihnachtsbaum",
+          "Es lebe der Wind",
+          "Weihnachten zusammen",
+          "Es ist Weihnachten"
+        ],
+        "réponse": "Es lebe der Wind",
+        "anecdote": "Es wurde am 4. Dezember 1956 von Elvis Presley, Carl Perkins, Jerry Lee Lewis und Johnny Cash mit dem Million Dollar Quartet aufgeführt."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Film aus den frühen 1990er Jahren etablierte « White Christmas » als Weihnachtsklassiker ?",
+        "propositions": [
+          "Dirty Papy",
+          "Spieleabend",
+          "Allein zu Hause",
+          "Außerhalb der Geschäftszeiten"
+        ],
+        "réponse": "Allein zu Hause",
+        "anecdote": "« Mom, I Missed the Plane » (Home Alone) ist eine US-amerikanische Familienkomödie unter der Regie von Chris Columbus, die 1990 veröffentlicht wurde."
+      },
+      {
+        "id": 8,
+        "question": "Warum wurde das gemeinnützige Album « Christmas Together » verkauft ?",
+        "propositions": [
+          "Obdachlos",
+          "Mukoviszidose",
+          "AIDS",
+          "Restos du Coeur"
+        ],
+        "réponse": "AIDS",
+        "anecdote": "Das im Jahr 2000 von Mercury Universal veröffentlichte Album enthält 19 Tracks, die von mehr als 75 französischsprachigen Künstlern und Prominenten gesungen wurden."
+      },
+      {
+        "id": 9,
+        "question": "Welche Farbe hat die Nase des kleinen Rentiers in einem von Robert May inspirierten Weihnachtslied ?",
+        "propositions": [
+          "Grün",
+          "Rot",
+          "Weiß",
+          "Blau"
+        ],
+        "réponse": "Rot",
+        "anecdote": "Viele Künstler haben « Le Petit Renne au nez rouge » aufgeführt, darunter Nana Mouskouri, Henri Dé und Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "Wer hält mit « Petit Papa Noël » den Rekord für die meistverkauften 45 U/min in Frankreich ?",
+        "propositions": [
+          "Yves Montand",
+          "Tino Rossi",
+          "Charles Trenet",
+          "Maurice Chevalier"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Durch Dekret vom 22. Oktober 1952 zum Ritter der Ehrenlegion ernannt, wird Tino Rossi am 23. Dezember in Cassis ausgezeichnet."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Auf welches Jahrhundert geht das Lied « Between the Ox and the Grey Donkey » zurück ?",
+        "propositions": [
+          "16. Jahrhundert",
+          "10. Jahrhundert",
+          "12. Jahrhundert",
+          "14. Jahrhundert"
+        ],
+        "réponse": "16. Jahrhundert",
+        "anecdote": "Das älteste bis heute erhaltene französische Weihnachtslied ist die Cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "In welchem Land wurde die Musik für « Sweet Night, Holy Night » komponiert ?",
+        "propositions": [
+          "Frankreich",
+          "Österreich",
+          "Österreich",
+          "Ungarn"
+        ],
+        "réponse": "Österreich",
+        "anecdote": "Dieses Lied wurde 1816 von Joseph Mohr geschrieben und seine Musik 1818 vom Organisten Franz Xaver Gruber komponiert."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Komponist hat « La Marche des rois » für seine « Arlésienne » übernommen ?",
+        "propositions": [
+          "Georges Bizet",
+          "Gabriel Fauré",
+          "Hector Berlioz",
+          "Jules Garcin"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet komponierte « Carmen », eine der berühmtesten und meistgespielten Opern der Welt."
+      },
+      {
+        "id": 14,
+        "question": "Ein beliebtes christliches Lied von Pater Simon-Joseph Pellegrin trägt den Titel « Komm göttlich ... »",
+        "propositions": [
+          "Bedenken",
+          "gehärtet",
+          "Messias",
+          "geschwärzt"
+        ],
+        "réponse": "Messias",
+        "anecdote": "Dieses Lied erinnert an die Wartezeit des Volkes Israel vor der Geburt Christi sowie an ihren Ruf in der Eucharistie."
+      },
+      {
+        "id": 15,
+        "question": "Zu welcher Musik hat die Hymne « Adeste fideles » einen feierlichen Ton ?",
+        "propositions": [
+          "Modern",
+          "Barock",
+          "Romantisch",
+          "Mittelalter"
+        ],
+        "réponse": "Barock",
+        "anecdote": "Nach einem Erstdruck um 1760 wurde die erste Partitur (in lateinischer Sprache) 1782 in London von Samuel Webbe veröffentlicht."
+      },
+      {
+        "id": 16,
+        "question": "Aus welcher Region stammt « It's Christmas Day » ein traditionelles Weihnachtslied ?",
+        "propositions": [
+          "Auvergne",
+          "Beere",
+          "Limousine",
+          "Bretagne"
+        ],
+        "réponse": "Auvergne",
+        "anecdote": "« Es war am Weihnachtstag, an dem Jesus geboren wurde. Er wurde in einer Ecke geboren, über dem Stroh. Er wurde in einer Ecke auf dem Heu geboren. »"
+      },
+      {
+        "id": 17,
+        "question": "Welcher französische Humorist hat das Lied « Jingle Bells » ins Französische adaptiert ?",
+        "propositions": [
+          "Stéphane Collaro",
+          "Francis Blanche",
+          "Thierry Le Luron",
+          "Raymond Devos"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "Diese Adaption ist in Frankreich sehr beliebt und wurde von mehreren Sängern wie Dalida und Mireille Mathieu aufgeführt."
+      },
+      {
+        "id": 18,
+        "question": "Welches Weihnachtslied kreierte Sänger Bing Crosby im Dezember 1941 ?",
+        "propositions": [
+          "Stille Nacht",
+          "O Weihnachtsbaum",
+          "Weiße Weihnachten",
+          "Frohe Weihnachten"
+        ],
+        "réponse": "Weiße Weihnachten",
+        "anecdote": "Eine Version nahm er am 29. Mai 1942 mit dem John Scott Trotter Orchestra und den Ken Darby Singers in den Studios von Decca auf."
+      },
+      {
+        "id": 19,
+        "question": "Wie viele Exemplare wurden von der Single « White Christmas » von 1942 ungefähr verkauft ?",
+        "propositions": [
+          "5 Millionen",
+          "20 Millionen",
+          "50 Millionen",
+          "35 Millionen"
+        ],
+        "réponse": "50 Millionen",
+        "anecdote": "Das Lied wurde in den Film « Love Sings and Dances » aufgenommen, in dem Crosby es im Duett mit Marjorie Reynolds sang."
+      },
+      {
+        "id": 20,
+        "question": "Mit wem hat Véronique Sanson auf dem Album « Noël ensemble » ein Duett gesungen ?",
+        "propositions": [
+          "Jacques Dutronc",
+          "Henri Salvador",
+          "Johnny Hallyday",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "Im französischsprachigen Raum wurde das Lied « White Christmas » von Francis Blanche unter dem Titel « Noël blanc » adaptiert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welchem savoyischen Dichter, der um 1570 starb, verdanken wir viele Weihnachtslieder ?",
+        "propositions": [
+          "Jean Pasquier",
+          "Nicolas Martin",
+          "Antoine Cartier",
+          "Didier Le Blanc"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "1555 veröffentlichte er « Noëlz und neu komponierte Lieder sowohl in vulgärer Françoys als auch in savoyischen dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "Wer hat « Douce nuit, sainte nuit » in seinem 1960 veröffentlichten einfachen « Frohe Weihnachten » interpretiert ?",
+        "propositions": [
+          "Tino Rossi",
+          "Francis Blanche",
+          "Dalida",
+          "Mireille Matthieu"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine und viele andere führten es ebenfalls auf."
+      },
+      {
+        "id": 23,
+        "question": "In welchem Film von Didier Kaminka können wir « Die Engel in unserem Land » hören ?",
+        "propositions": [
+          "Sofa-Werbung",
+          "8 erzwingen",
+          "Unauffällig",
+          "Ripoux 3"
+        ],
+        "réponse": "Sofa-Werbung",
+        "anecdote": "Im Film singt ein Passant die Melodie im Kaufhaus, wobei der lateinische Text deutlich hörbar ist."
+      },
+      {
+        "id": 24,
+        "question": "Welches Weihnachtslied wird manchmal auch « La Marseillaise Religieuse » genannt ?",
+        "propositions": [
+          "Mein schöner Weihnachtsbaum",
+          "Mitternacht, Christen",
+          "Es lebe der Wind",
+          "Neues Weihnachten"
+        ],
+        "réponse": "Mitternacht, Christen",
+        "anecdote": "Ursprünglich für Sopran und Keyboard komponiert, wird diese Hymne oft von einem Bariton- oder Tenor-Solo mit Orgelbegleitung gesungen."
+      },
+      {
+        "id": 25,
+        "question": "Wie viele Verse hat das traditionelle Weihnachtslied « In a Dark Stable » ?",
+        "propositions": [
+          "23",
+          "31",
+          "44",
+          "16"
+        ],
+        "réponse": "23",
+        "anecdote": "Der französische Text wurde 1621 von Augustin Mahot geschrieben und ist keine Übersetzung des deutschen Originaltextes."
+      },
+      {
+        "id": 26,
+        "question": "Wer hat die Musik für das Weihnachtslied geschrieben « Was ist das für ein angenehmer Geruch » ?",
+        "propositions": [
+          "Charles Johnson",
+          "Henry Fielding",
+          "John Gay",
+          "Aaron Hill"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« Was ist das für ein angenehmer Geruch » ist ein traditionelles Weihnachtslied aus dem 17."
+      },
+      {
+        "id": 27,
+        "question": "In welchem Jahr wurde « Céline Dion singt Weihnachten » veröffentlicht, das zweite Album der Sängerin ?",
+        "propositions": [
+          "1981",
+          "1991",
+          "2011",
+          "2001"
+        ],
+        "réponse": "1981",
+        "anecdote": "Ausschließlich in Quebec vertrieben, wurde keine Single daraus extrahiert und es ist die einzige ihrer Diskographie, die nicht zertifiziert wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welches Weihnachtslied ist auch die offizielle Hymne des Bundesstaates Maryland in den USA ?",
+        "propositions": [
+          "Mein schöner Weihnachtsbaum",
+          "Weiße Weihnachten",
+          "Es lebe der Wind",
+          "Es ist Weihnachten"
+        ],
+        "réponse": "Mein schöner Weihnachtsbaum",
+        "anecdote": "Die erste bekannte Fassung des Liedtextes stammt aus dem Jahr 1550, eine weitere Fassung wurde 1615 von Melchior Franck komponiert."
+      },
+      {
+        "id": 29,
+        "question": "Welchen Titel singt Fernandel auf dem 45 U/min-Auszug aus dem Film « Honoré de Marseille » ?",
+        "propositions": [
+          "Weihnachtspapa",
+          "Es ist Weihnachten",
+          "Mein schöner Weihnachtsbaum",
+          "Es lebe der Wind"
+        ],
+        "réponse": "Es ist Weihnachten",
+        "anecdote": "« It's Christmas » war eines der vier Lieder, die Fernandel im Film singt, aber die Szene wurde im Schnitt gekürzt."
+      },
+      {
+        "id": 30,
+        "question": "Welches Lied von John Lennon ist ein Protestlied gegen den Vietnamkrieg ?",
+        "propositions": [
+          "Stille Nacht",
+          "Frohe Weihnachten",
+          "Weiße Weihnachten",
+          "O Weihnachtsbaum"
+        ],
+        "réponse": "Frohe Weihnachten",
+        "anecdote": "Es stammt aus einer Werbekampagne gegen den Vietnamkrieg, die 1969 von John Lennon und Yoko Ono gestartet wurde."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿A dónde se refieren las palabras de « Entre el Buey y el Asno Gris » ?",
+        "propositions": [
+          "Catedral",
+          "Iglesia",
+          "Vivero",
+          "Presbiterio"
+        ],
+        "réponse": "Vivero",
+        "anecdote": "Según los relatos populares, es el aliento de los dos animales (el buey y el burro) lo que habría calentado al recién nacido."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué gran éxito navideño y de la canción francesa le debemos a Tino Rossi ?",
+        "propositions": [
+          "Little Papa Christmas",
+          "Mi hermoso árbol de Navidad",
+          "Medianoche, cristianos",
+          "Viva el viento"
+        ],
+        "réponse": "Little Papa Christmas",
+        "anecdote": "La canción respondió a las instrucciones del gobierno de suprimir las canciones religiosas promovidas por el régimen de Vichy."
+      },
+      {
+        "id": 3,
+        "question": "Según la tradición católica, ¿quién cantó los primeros villancicos ?",
+        "propositions": [
+          "Los dioses",
+          "Las nubes",
+          "Las estrellas",
+          "Los ángeles"
+        ],
+        "réponse": "Los ángeles",
+        "anecdote": "Los primeros villancicos que resonaron sobre el pesebre de Jesús fueron villancicos alegres de la Natividad."
+      },
+      {
+        "id": 4,
+        "question": "Completa este popular villancico francés: « Nació el divino ... »",
+        "propositions": [
+          "Apestoso",
+          "Académico",
+          "Niño",
+          "Gigante"
+        ],
+        "réponse": "Niño",
+        "anecdote": "Esta canción se publicó por primera vez en 1874, en una colección de melodías navideñas de Lorena."
+      },
+      {
+        "id": 5,
+        "question": "¿Cómo se llama el período de cuatro semanas previo a la Navidad ?",
+        "propositions": [
+          "Durante",
+          "Después",
+          "Delante de",
+          "Antes"
+        ],
+        "réponse": "Antes",
+        "anecdote": "En las iglesias con calendario gregoriano, el Adviento comienza el cuarto domingo antes de Navidad y marca el comienzo del año litúrgico."
+      },
+      {
+        "id": 6,
+        "question": "¿Cómo se tradujo al francés la canción « Jingle Bells » ?",
+        "propositions": [
+          "Mi hermoso árbol de Navidad",
+          "Viva el viento",
+          "Es Navidad",
+          "Navidad juntos"
+        ],
+        "réponse": "Viva el viento",
+        "anecdote": "Fue interpretada por Elvis Presley, Carl Perkins, Jerry Lee Lewis y Johnny Cash el 4 de diciembre de 1956 con el Million Dollar Quartet."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué película de principios de la década de 1990 estableció « White Christmas » como un clásico navideño ?",
+        "propositions": [
+          "Noche de juegos",
+          "Solo en casa",
+          "Fuera de horario",
+          "Dirty Papy"
+        ],
+        "réponse": "Solo en casa",
+        "anecdote": "« Mom, I Missed the Plane » (Solo en casa) es una película de comedia familiar estadounidense dirigida por Chris Columbus, estrenada en 1990."
+      },
+      {
+        "id": 8,
+        "question": "¿Por qué se vendió el álbum benéfico « Christmas Together » ?",
+        "propositions": [
+          "Restos du Coeur",
+          "Fibrosis quística",
+          "Sin hogar",
+          "SIDA"
+        ],
+        "réponse": "SIDA",
+        "anecdote": "El álbum, lanzado en 2000 por Mercury Universal, incluye 19 pistas cantadas por más de 75 artistas y celebridades de habla francesa."
+      },
+      {
+        "id": 9,
+        "question": "¿De qué color es la nariz del pequeño reno en un villancico inspirado en Robert May ?",
+        "propositions": [
+          "Rojo",
+          "Verde",
+          "Azul",
+          "Blanco"
+        ],
+        "réponse": "Rojo",
+        "anecdote": "Muchos artistas han interpretado « Le Petit Renne au nez rouge », incluidos Nana Mouskouri, Henri Dé y Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "Con « Petit Papa Noël », ¿quién ostenta el récord de las 45 rpm más vendidas en Francia ?",
+        "propositions": [
+          "Yves Montand",
+          "Charles Trenet",
+          "Tino Rossi",
+          "Maurice Chevalier"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Nombrado Caballero de la Legión de Honor por decreto del 22 de octubre de 1952, Tino Rossi será condecorado el 23 de diciembre en Cassis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿A qué siglo se remonta la canción « Entre el buey y el burro gris » ?",
+        "propositions": [
+          "Siglo 12",
+          "Siglo 14",
+          "Siglo 16",
+          "Siglo 10"
+        ],
+        "réponse": "Siglo 16",
+        "anecdote": "El villancico francés más antiguo que ha sobrevivido hasta nuestros días es el cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué país se compuso la música de « Sweet Night, Holy Night » ?",
+        "propositions": [
+          "Austria",
+          "Francia",
+          "Austria",
+          "Hungría"
+        ],
+        "réponse": "Austria",
+        "anecdote": "Esta canción fue escrita en 1816 por Joseph Mohr y su música fue compuesta por el organista Franz Xaver Gruber en 1818."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué compositor se hizo cargo de « La Marche des rois » por su « Arlésienne » ?",
+        "propositions": [
+          "Georges Bizet",
+          "Gabriel Fauré",
+          "Jules Garcin",
+          "Hector Berlioz"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet compuso « Carmen », una de las óperas más famosas y representadas del mundo."
+      },
+      {
+        "id": 14,
+        "question": "Una popular canción cristiana del padre Simon-Joseph Pellegrin se titula « Ven divino ... »",
+        "propositions": [
+          "Preocupaciones",
+          "Endurecido",
+          "Mesías",
+          "Ennegrecido"
+        ],
+        "réponse": "Mesías",
+        "anecdote": "Esta canción recuerda el tiempo de espera del pueblo de Israel antes del nacimiento de Cristo, así como su llamado en la Eucaristía."
+      },
+      {
+        "id": 15,
+        "question": "¿A qué música presenta un tono solemne el himno « Adeste fideles » ?",
+        "propositions": [
+          "Medieval",
+          "Moderno",
+          "Romántico",
+          "Barroco"
+        ],
+        "réponse": "Barroco",
+        "anecdote": "Después de una primera impresión alrededor de 1760, la primera partitura (en latín) fue publicada en Londres en 1782 por Samuel Webbe."
+      },
+      {
+        "id": 16,
+        "question": "¿De qué región es « Es el día de Navidad » una canción navideña tradicional ?",
+        "propositions": [
+          "Auvernia",
+          "Berry",
+          "Bretaña",
+          "Lemosín"
+        ],
+        "réponse": "Auvernia",
+        "anecdote": "« Fue el día de Navidad que nació Jesús. Nació en un rincón, sobre la paja. Nació en un rincón, encima del heno. »"
+      },
+      {
+        "id": 17,
+        "question": "¿Qué humorista francés adaptó la canción « Jingle Bells » al francés ?",
+        "propositions": [
+          "Raymond Devos",
+          "Thierry Le Luron",
+          "Stéphane Collaro",
+          "Francis Blanche"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "Esta adaptación es muy popular en Francia y ha sido interpretada por varios cantantes, como Dalida y Mireille Mathieu."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué canción navideña creó el cantante Bing Crosby en diciembre de 1941 ?",
+        "propositions": [
+          "Feliz Navidad",
+          "Blanca Navidad",
+          "O árbol de Navidad",
+          "Noche de paz"
+        ],
+        "réponse": "Blanca Navidad",
+        "anecdote": "Grabó una versión el 29 de mayo de 1942 con la John Scott Trotter Orchestra y los Ken Darby Singers en los estudios de Decca."
+      },
+      {
+        "id": 19,
+        "question": "¿Aproximadamente cuántas copias se vendieron del sencillo de 1942 « White Christmas » ?",
+        "propositions": [
+          "5 millones",
+          "35 millones",
+          "20 millones",
+          "50 millones"
+        ],
+        "réponse": "50 millones",
+        "anecdote": "La canción fue incluida en la película « Love Sings and Dances » en la que Crosby la cantó a dúo con Marjorie Reynolds."
+      },
+      {
+        "id": 20,
+        "question": "¿Con quién cantó Véronique Sanson a dúo en el álbum « Noël ensemble » ?",
+        "propositions": [
+          "Jacques Dutronc",
+          "Henri Salvador",
+          "Johnny Hallyday",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "En el mundo francófono, la canción « White Christmas » fue adaptada por Francis Blanche bajo el título « Noël blanc »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿A qué poeta saboyano muerto hacia 1570 le debemos muchos villancicos ?",
+        "propositions": [
+          "Jean Pasquier",
+          "Antoine Cartier",
+          "Nicolas Martin",
+          "Didier Le Blanc"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "En 1555 publicó « Noëlz y canciones de nueva composición tanto en vulgar françoys como en savoysien dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "¿Quién interpretó « Douce nuit, sainte nuit » en su sencillo « Feliz Navidad » publicado en 1960 ?",
+        "propositions": [
+          "Francis Blanche",
+          "Mireille Matthieu",
+          "Tino Rossi",
+          "Dalida"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine y muchos otros también la interpretaron."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué película de Didier Kaminka podemos escuchar « Los ángeles en nuestro campo » ?",
+        "propositions": [
+          "Perfil bajo",
+          "Fuerza 8",
+          "Ripoux 3",
+          "Promoción de sofás"
+        ],
+        "réponse": "Promoción de sofás",
+        "anecdote": "En la película, un transeúnte canta la melodía en los grandes almacenes, con la letra en latín claramente audible."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué villancico a veces también se llama « La Marseillaise Religieuse » ?",
+        "propositions": [
+          "Mi hermoso árbol de Navidad",
+          "Medianoche, cristianos",
+          "Viva el viento",
+          "Nueva Navidad"
+        ],
+        "réponse": "Medianoche, cristianos",
+        "anecdote": "Originalmente compuesto para soprano y teclado, este himno suele ser cantado por un solo de barítono o tenor acompañado de órgano."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuántos versos tiene el villancico tradicional « En un establo oscuro » ?",
+        "propositions": [
+          "31",
+          "44",
+          "16",
+          "23"
+        ],
+        "réponse": "23",
+        "anecdote": "La letra en francés fue escrita por Augustin Mahot en 1621 y no es una traducción del texto original en alemán."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién escribió la música del villancico « Qué es ese olor agradable » ?",
+        "propositions": [
+          "Henry Fielding",
+          "Aaron Hill",
+          "John Gay",
+          "Charles Johnson"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« ¿Qué es ese olor agradable ? » es un villancico tradicional escrito en el siglo XVII que trata sobre la Natividad cristiana."
+      },
+      {
+        "id": 27,
+        "question": "¿En qué año se lanzó « Céline Dion canta Navidad », el segundo álbum de la cantante ?",
+        "propositions": [
+          "1991",
+          "2001",
+          "1981",
+          "2011"
+        ],
+        "réponse": "1981",
+        "anecdote": "Distribuido exclusivamente en Quebec, no se extrajo ningún single de él y es el único de su discografía que no ha sido certificado."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué villancico es también el himno oficial del estado de Maryland en los Estados Unidos ?",
+        "propositions": [
+          "Blanca Navidad",
+          "Viva el viento",
+          "Es Navidad",
+          "Mi hermoso árbol de Navidad"
+        ],
+        "réponse": "Mi hermoso árbol de Navidad",
+        "anecdote": "La primera versión conocida de la letra data de 1550, otra versión fue compuesta en 1615 por Melchior Franck."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué título canta Fernandel en el extracto de 45 rpm de la película « Honoré de Marseille » ?",
+        "propositions": [
+          "Little Papa Christmas",
+          "Es Navidad",
+          "Viva el viento",
+          "Mi hermoso árbol de Navidad"
+        ],
+        "réponse": "Es Navidad",
+        "anecdote": "« It's Christmas » fue una de las cuatro canciones que canta Fernandel en la película, pero la escena se cortó en la edición."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué canción de John Lennon es una canción de protesta contra la guerra de Vietnam ?",
+        "propositions": [
+          "Feliz Navidad",
+          "Blanca Navidad",
+          "Noche de paz",
+          "Oh árbol de Navidad"
+        ],
+        "réponse": "Feliz Navidad",
+        "anecdote": "Tiene su origen en una campaña publicitaria contra la guerra de Vietnam que John Lennon y Yoko Ono lanzaron en 1969."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dove si riferiscono le parole di « Tra il bue e l'asino grigio » ?",
+        "propositions": [
+          "Chiesa",
+          "Asilo nido",
+          "Presbiterio",
+          "Cattedrale"
+        ],
+        "réponse": "Asilo nido",
+        "anecdote": "Secondo i racconti popolari, sarebbe stato il respiro dei due animali (il bue e l'asino) a riscaldare il neonato."
+      },
+      {
+        "id": 2,
+        "question": "Quale grande successo natalizio e della canzone francese dobbiamo a Tino Rossi ?",
+        "propositions": [
+          "Papà Natale",
+          "Viva il vento",
+          "Il mio bellissimo albero di Natale",
+          "Mezzanotte, Cristiani"
+        ],
+        "réponse": "Papà Natale",
+        "anecdote": "La canzone ha risposto alle istruzioni del governo di sopprimere i canti religiosi promossi dal regime di Vichy."
+      },
+      {
+        "id": 3,
+        "question": "Secondo la tradizione cattolica, chi ha cantato i primi canti natalizi ?",
+        "propositions": [
+          "Le nuvole",
+          "Gli angeli",
+          "Le stelle",
+          "Gli dei"
+        ],
+        "réponse": "Gli angeli",
+        "anecdote": "I primi canti natalizi che risuonavano sopra la mangiatoia di Gesù erano canti gioiosi della Natività."
+      },
+      {
+        "id": 4,
+        "question": "Completa questo popolare canto natalizio francese: « È nato il divino ... »",
+        "propositions": [
+          "Studioso",
+          "Puzzolente",
+          "Bambino",
+          "Gigante"
+        ],
+        "réponse": "Bambino",
+        "anecdote": "Questa canzone è stata pubblicata per la prima volta nel 1874, in una raccolta di arie natalizie lorenesi."
+      },
+      {
+        "id": 5,
+        "question": "Come si chiama il periodo di quattro settimane che precede il Natale ?",
+        "propositions": [
+          "Dopo",
+          "Durante",
+          "Davanti a",
+          "Prima"
+        ],
+        "réponse": "Prima",
+        "anecdote": "Nelle chiese con calendario gregoriano, l'Avvento inizia la quarta domenica prima di Natale e segna l'inizio dell'anno liturgico."
+      },
+      {
+        "id": 6,
+        "question": "Come è stata tradotta in francese la canzone « Jingle Bells » ?",
+        "propositions": [
+          "Natale insieme",
+          "Viva il vento",
+          "Il mio bellissimo albero di Natale",
+          "È Natale"
+        ],
+        "réponse": "Viva il vento",
+        "anecdote": "Fu eseguita da Elvis Presley, Carl Perkins, Jerry Lee Lewis e Johnny Cash il 4 dicembre 1956 con il Million Dollar Quartet."
+      },
+      {
+        "id": 7,
+        "question": "Quale film dei primi anni '90 ha reso « White Christmas » un classico delle feste ?",
+        "propositions": [
+          "Serata di gioco",
+          "A casa da solo",
+          "Fuori orario",
+          "Papy sporco"
+        ],
+        "réponse": "A casa da solo",
+        "anecdote": "« Mamma, ho perso l'aereo » (Home Alone) è un film commedia per famiglie americano diretto da Chris Columbus, uscito nel 1990."
+      },
+      {
+        "id": 8,
+        "question": "Perché è stato venduto l'album di beneficenza « Christmas Together » ?",
+        "propositions": [
+          "Fibrosi Cistica",
+          "AIDS",
+          "Senzatetto",
+          "Restos du Coeur"
+        ],
+        "réponse": "AIDS",
+        "anecdote": "L'album, pubblicato nel 2000 da Mercury Universal, include 19 brani cantati da più di 75 artisti e celebrità di lingua francese."
+      },
+      {
+        "id": 9,
+        "question": "Di che colore è il naso della Renna in un canto natalizio ispirato a Robert May ?",
+        "propositions": [
+          "Bianco",
+          "Blu",
+          "Rosso",
+          "Verde"
+        ],
+        "réponse": "Rosso",
+        "anecdote": "Molti artisti hanno eseguito « Le Petit Renne au nez rouge », tra cui Nana Mouskouri, Henri Dé e Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "Con « Petit Papa Noël », chi detiene il record del 45 giri più venduto in Francia ?",
+        "propositions": [
+          "Charles Trenet",
+          "Maurice Chevalier",
+          "Tino Rossi",
+          "Yves Montand"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Nominato Cavaliere della Legion d'Onore con decreto del 22 ottobre 1952, Tino Rossi sarà decorato il 23 dicembre a Cassis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "A che secolo risale la canzone « Tra il bue e l'asino grigio » ?",
+        "propositions": [
+          "XVI secolo",
+          "XIV secolo",
+          "XII secolo",
+          "X secolo"
+        ],
+        "réponse": "XVI secolo",
+        "anecdote": "Il più antico canto natalizio francese sopravvissuto fino ad oggi è il cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "In quale paese è stata composta la musica di « Sweet Night, Holy Night » ?",
+        "propositions": [
+          "Austria",
+          "Austria",
+          "Ungheria",
+          "Francia"
+        ],
+        "réponse": "Austria",
+        "anecdote": "Questa canzone è stata scritta nel 1816 da Joseph Mohr e la sua musica composta dall'organista Franz Xaver Gruber nel 1818."
+      },
+      {
+        "id": 13,
+        "question": "Quale compositore ha rilevato « La Marche des rois » per il suo « Arlésienne » ?",
+        "propositions": [
+          "Gabriel Fauré",
+          "Georges Bizet",
+          "Jules Garcin",
+          "Hector Berlioz"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet ha composto « Carmen », una delle opere più famose e rappresentate al mondo."
+      },
+      {
+        "id": 14,
+        "question": "Una popolare canzone cristiana di padre Simon-Joseph Pellegrin si intitola « Vieni divino ... »",
+        "propositions": [
+          "annerito",
+          "Indurito",
+          "Preoccupazioni",
+          "Messia"
+        ],
+        "réponse": "Messia",
+        "anecdote": "Questo canto ricorda il tempo di attesa del popolo d'Israele prima della nascita di Cristo, così come la sua chiamata nell'Eucaristia."
+      },
+      {
+        "id": 15,
+        "question": "A quale musica l'inno « Adeste fideles » presenta un tono solenne ?",
+        "propositions": [
+          "Medievale",
+          "Moderno",
+          "Romantico",
+          "Barocco"
+        ],
+        "réponse": "Barocco",
+        "anecdote": "Dopo una prima stampa intorno al 1760, la prima partitura (in latino) fu pubblicata a Londra nel 1782 da Samuel Webbe."
+      },
+      {
+        "id": 16,
+        "question": "In quale regione è « È il giorno di Natale » una tradizionale canzone natalizia ?",
+        "propositions": [
+          "Limosino",
+          "Bretagna",
+          "Bacca",
+          "Alvernia"
+        ],
+        "réponse": "Alvernia",
+        "anecdote": "« Fu il giorno di Natale che nacque Gesù. È nato in un angolo, sopra la paglia. È nato in un angolo, sopra il fieno. »"
+      },
+      {
+        "id": 17,
+        "question": "Quale umorista francese ha adattato in francese la canzone « Jingle Bells » ?",
+        "propositions": [
+          "Raymond Devos",
+          "Thierry Le Luron",
+          "Francis Blanche",
+          "Stéphane Collaro"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "Questo adattamento è molto popolare in Francia ed è stato eseguito da diversi cantanti, come Dalida e Mireille Mathieu."
+      },
+      {
+        "id": 18,
+        "question": "Quale canzone di Natale è stata creata dal cantante Bing Crosby nel dicembre 1941 ?",
+        "propositions": [
+          "O albero di Natale",
+          "Buon Natale",
+          "Notte silenziosa",
+          "Bianco Natale"
+        ],
+        "réponse": "Bianco Natale",
+        "anecdote": "Ne registrò una versione il 29 maggio 1942 con la John Scott Trotter Orchestra e i Ken Darby Singers negli studi della Decca."
+      },
+      {
+        "id": 19,
+        "question": "Quante copie furono vendute approssimativamente del singolo del 1942 « White Christmas » ?",
+        "propositions": [
+          "35 milioni",
+          "50 milioni",
+          "5 milioni",
+          "20 milioni"
+        ],
+        "réponse": "50 milioni",
+        "anecdote": "La canzone è stata inclusa nel film « Love Sings and Dances » in cui Crosby l'ha cantata in duetto con Marjorie Reynolds."
+      },
+      {
+        "id": 20,
+        "question": "Con chi Véronique Sanson ha cantato un duetto nell'album « Noël ensemble » ?",
+        "propositions": [
+          "Jacques Dutronc",
+          "Eddy Mitchell",
+          "Johnny Hallyday",
+          "Henri Salvador"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "Nel mondo francofono, la canzone « White Christmas » è stata adattata da Francis Blanche con il titolo « Noël blanc »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "A quale poeta sabaudo morto intorno al 1570 dobbiamo molti canti natalizi ?",
+        "propositions": [
+          "Jean Pasquier",
+          "Didier Le Blanc",
+          "Nicolas Martin",
+          "Antoine Cartier"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "Nel 1555 pubblicò « Noëlz e canzoni di nuova composizione sia in volgare françoys che in savoysien dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "Chi ha interpretato « Douce nuit, sainte nuit » nel suo semplice « Buon Natale » pubblicato nel 1960 ?",
+        "propositions": [
+          "Tino Rossi",
+          "Mireille Matthieu",
+          "Dalida",
+          "Francis Blanche"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Anche Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine e molti altri lo hanno eseguito."
+      },
+      {
+        "id": 23,
+        "question": "In quale film di Didier Kaminka possiamo ascoltare « Gli angeli nelle nostre campagne » ?",
+        "propositions": [
+          "Promozione divano",
+          "Ripoux 3",
+          "Basso profilo",
+          "Forza 8"
+        ],
+        "réponse": "Promozione divano",
+        "anecdote": "Nel film, un passante canta la melodia nel grande magazzino, con i testi in latino chiaramente udibili."
+      },
+      {
+        "id": 24,
+        "question": "Quale canto natalizio viene talvolta chiamato anche « La Marsigliese Religieuse » ?",
+        "propositions": [
+          "Mezzanotte, Cristiani",
+          "Nuovo Natale",
+          "Viva il vento",
+          "Il mio bellissimo albero di Natale"
+        ],
+        "réponse": "Mezzanotte, Cristiani",
+        "anecdote": "Originariamente composto per soprano e tastiera, questo inno è spesso cantato da un baritono o da un tenore solista accompagnato all'organo."
+      },
+      {
+        "id": 25,
+        "question": "Quanti versi ha il tradizionale canto natalizio « In a Dark Stable » ?",
+        "propositions": [
+          "16",
+          "31",
+          "44",
+          "23"
+        ],
+        "réponse": "23",
+        "anecdote": "I testi francesi sono stati scritti da Augustin Mahot nel 1621 e non sono una traduzione del testo originale tedesco."
+      },
+      {
+        "id": 26,
+        "question": "Chi ha scritto la musica per il canto di Natale « Che cos'è quell'odore gradevole » ?",
+        "propositions": [
+          "John Gay",
+          "Aaron Hill",
+          "Henry Fielding",
+          "Charles Johnson"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« Che cos'è quell'odore gradevole » è un tradizionale canto natalizio scritto nel XVII secolo che tratta della Natività cristiana."
+      },
+      {
+        "id": 27,
+        "question": "In che anno è uscito « Céline Dion canta il Natale », il secondo album della cantante ?",
+        "propositions": [
+          "2011",
+          "1981",
+          "1991",
+          "2001"
+        ],
+        "réponse": "1981",
+        "anecdote": "Distribuito esclusivamente in Quebec, non ne è stato estratto nessun singolo ed è l'unico della sua discografia a non essere stato certificato."
+      },
+      {
+        "id": 28,
+        "question": "Quale canto natalizio è anche l'inno ufficiale dello stato del Maryland negli Stati Uniti ?",
+        "propositions": [
+          "Viva il vento",
+          "Bianco Natale",
+          "Il mio bellissimo albero di Natale",
+          "È Natale"
+        ],
+        "réponse": "Il mio bellissimo albero di Natale",
+        "anecdote": "La prima versione conosciuta dei testi risale al 1550, un'altra versione fu composta nel 1615 da Melchior Franck."
+      },
+      {
+        "id": 29,
+        "question": "Quale titolo canta Fernandel nell'estratto 45 giri del film « Honoré de Marseille » ?",
+        "propositions": [
+          "Papà Natale",
+          "Viva il vento",
+          "Il mio bellissimo albero di Natale",
+          "È Natale"
+        ],
+        "réponse": "È Natale",
+        "anecdote": "« It's Christmas » era una delle quattro canzoni che Fernandel canta nel film, ma la scena è stata tagliata durante il montaggio."
+      },
+      {
+        "id": 30,
+        "question": "Quale canzone di John Lennon è una canzone di protesta contro la guerra del Vietnam ?",
+        "propositions": [
+          "Bianco Natale",
+          "O albero di Natale",
+          "Notte silenziosa",
+          "Buon Natale"
+        ],
+        "réponse": "Buon Natale",
+        "anecdote": "Nasce da una campagna pubblicitaria contro la guerra del Vietnam che John Lennon e Yoko Ono lanciarono nel 1969."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Waar verwijzen de woorden van « Between the Ox and the Grey Ass » naar ?",
+        "propositions": [
+          "Kathedraal",
+          "Kwekerij",
+          "pastorie",
+          "Kerk"
+        ],
+        "réponse": "Kwekerij",
+        "anecdote": "Volgens populaire verhalen is het de adem van de twee dieren (de os en de ezel) die de pasgeborene zouden hebben verwarmd."
+      },
+      {
+        "id": 2,
+        "question": "Welk groot succes met kerst en Franse liedjes hebben we te danken aan Tino Rossi ?",
+        "propositions": [
+          "middernacht, christenen",
+          "Mijn mooie kerstboom",
+          "Kleine Papa Kerst",
+          "Lang leve de wind"
+        ],
+        "réponse": "Kleine Papa Kerst",
+        "anecdote": "Het lied reageerde op instructies van de regering om religieuze liederen te onderdrukken die door het Vichy-regime werden gepromoot."
+      },
+      {
+        "id": 3,
+        "question": "Wie zong volgens de katholieke traditie de eerste kerstliederen ?",
+        "propositions": [
+          "De sterren",
+          "De Goden",
+          "De engelen",
+          "De wolken"
+        ],
+        "réponse": "De engelen",
+        "anecdote": "De eerste kerstliederen die boven de kribbe van Jezus weerklonken, waren vrolijke kerstliederen."
+      },
+      {
+        "id": 4,
+        "question": "Voltooi dit populaire Franse kerstlied: « Hij werd geboren als de goddelijke ... »",
+        "propositions": [
+          "Kind",
+          "Reus",
+          "Geleerde",
+          "Stinkend"
+        ],
+        "réponse": "Kind",
+        "anecdote": "Dit lied werd voor het eerst gepubliceerd in 1874, in een verzameling Lorraine kerstaria's."
+      },
+      {
+        "id": 5,
+        "question": "Hoe heet de periode van vier weken voorafgaand aan Kerstmis ?",
+        "propositions": [
+          "Tijdens",
+          "na",
+          "Voor",
+          "Voor"
+        ],
+        "réponse": "Voor",
+        "anecdote": "In de kerken met de Gregoriaanse kalender begint de advent op de vierde zondag voor Kerstmis en markeert het het begin van het liturgische jaar."
+      },
+      {
+        "id": 6,
+        "question": "Hoe is het nummer « Jingle Bells » in het Frans vertaald ?",
+        "propositions": [
+          "Samen Kerst",
+          "Het is Kerstmis",
+          "Mijn mooie kerstboom",
+          "Lang leve de wind"
+        ],
+        "réponse": "Lang leve de wind",
+        "anecdote": "Het werd uitgevoerd door Elvis Presley, Carl Perkins, Jerry Lee Lewis en Johnny Cash op 4 december 1956 met het Million Dollar Quartet."
+      },
+      {
+        "id": 7,
+        "question": "Welke film uit het begin van de jaren negentig maakte van « White Christmas » een klassieker voor de feestdagen ?",
+        "propositions": [
+          "Spelavond",
+          "Na sluitingstijd",
+          "Vuile papy",
+          "Alleen thuis"
+        ],
+        "réponse": "Alleen thuis",
+        "anecdote": "« Mom, I Missed the Plane » (Home Alone) is een Amerikaanse familiekomedie, geregisseerd door Chris Columbus, uitgebracht in 1990."
+      },
+      {
+        "id": 8,
+        "question": "Waarom is het liefdadigheidsalbum « Christmas Together » verkocht ?",
+        "propositions": [
+          "AIDS",
+          "Restos du Coeur",
+          "Dakloos",
+          "Cystische fibrose"
+        ],
+        "réponse": "AIDS",
+        "anecdote": "Het album, in 2000 uitgebracht door Mercury Universal, bevat 19 nummers die zijn gezongen door meer dan 75 Franstalige artiesten en beroemdheden."
+      },
+      {
+        "id": 9,
+        "question": "Welke kleur heeft de neus van het kleine rendier in een kerstlied geïnspireerd door Robert May ?",
+        "propositions": [
+          "Wit",
+          "Rood",
+          "Groen",
+          "Blauw"
+        ],
+        "réponse": "Rood",
+        "anecdote": "Veel artiesten hebben « Le Petit Renne au nez rouge » uitgevoerd, waaronder Nana Mouskouri, Henri Dé en Céline Dion."
+      },
+      {
+        "id": 10,
+        "question": "Met « Petit Papa Noël », wie heeft het record voor de best verkochte 45 toeren in Frankrijk ?",
+        "propositions": [
+          "Tino Rossi",
+          "Yves Montand",
+          "Charles Trenet",
+          "Maurice Chevalier"
+        ],
+        "réponse": "Tino Rossi",
+        "anecdote": "Benoemd tot Ridder in het Legioen van Eer bij decreet van 22 oktober 1952, zal Tino Rossi worden onderscheiden op 23 december in Cassis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Naar welke eeuw gaat het nummer « Between the Ox and the Grey Donkey » terug ?",
+        "propositions": [
+          "16e eeuw",
+          "12e eeuw",
+          "14e eeuw",
+          "10e eeuw"
+        ],
+        "réponse": "16e eeuw",
+        "anecdote": "Het oudste Franse kerstlied dat tot op de dag van vandaag bewaard is gebleven, is de cantique « Entre le boeuf et l'âne gris »."
+      },
+      {
+        "id": 12,
+        "question": "In welk land werd de muziek voor « Sweet Night, Holy Night » gecomponeerd ?",
+        "propositions": [
+          "Frankrijk",
+          "Oostenrijk",
+          "Hongarije",
+          "Oostenrijk"
+        ],
+        "réponse": "Oostenrijk",
+        "anecdote": "Dit lied werd in 1816 geschreven door Joseph Mohr en zijn muziek gecomponeerd door organist Franz Xaver Gruber in 1818."
+      },
+      {
+        "id": 13,
+        "question": "Welke componist nam « La Marche des rois » over voor zijn « Arlésienne » ?",
+        "propositions": [
+          "Jules Garcin",
+          "Georges Bizet",
+          "Hector Berlioz",
+          "Gabriël Fauré"
+        ],
+        "réponse": "Georges Bizet",
+        "anecdote": "Alexandre-César-Léopold Bizet componeerde « Carmen », een van de beroemdste en meest uitgevoerde opera's ter wereld."
+      },
+      {
+        "id": 14,
+        "question": "Een populair christelijk lied van pater Simon-Joseph Pellegrin is getiteld « Come Divine ... »",
+        "propositions": [
+          "Bezorgdheid",
+          "Zwartgeblakerd",
+          "Messias",
+          "gehard"
+        ],
+        "réponse": "Messias",
+        "anecdote": "Dit lied herinnert aan de wachttijd van het volk Israël voor de geboorte van Christus, evenals aan hun oproep in de Eucharistie."
+      },
+      {
+        "id": 15,
+        "question": "Op welke muziek brengt de hymne « Adeste fideles » een plechtige toon ?",
+        "propositions": [
+          "Romantisch",
+          "Middeleeuws",
+          "Barok",
+          "Modern"
+        ],
+        "réponse": "Barok",
+        "anecdote": "Na een eerste druk omstreeks 1760 werd de eerste partituur (in het Latijn) in 1782 in Londen uitgegeven door Samuel Webbe."
+      },
+      {
+        "id": 16,
+        "question": "Uit welke regio komt « Het is eerste kerstdag » een traditioneel kerstlied ?",
+        "propositions": [
+          "Bretagne",
+          "Auvergne",
+          "Bes",
+          "Limousin"
+        ],
+        "réponse": "Auvergne",
+        "anecdote": "« Het was op eerste kerstdag dat Jezus werd geboren. Hij werd geboren in een hoek, over het stro. Hij is geboren in een hoek, bovenop het hooi. »"
+      },
+      {
+        "id": 17,
+        "question": "Welke Franse humorist heeft het nummer « Jingle Bells » aangepast in het Frans ?",
+        "propositions": [
+          "Thierry Le Luron",
+          "Raymond Devos",
+          "Stéphane Collaro",
+          "Francis Blanche"
+        ],
+        "réponse": "Francis Blanche",
+        "anecdote": "Deze bewerking is erg populair in Frankrijk en is uitgevoerd door verschillende zangeressen, zoals Dalida en Mireille Mathieu."
+      },
+      {
+        "id": 18,
+        "question": "Welk kerstlied werd in december 1941 door zanger Bing Crosby gemaakt ?",
+        "propositions": [
+          "Witte Kerst",
+          "Fijne kerstdagen",
+          "O kerstboom",
+          "Stille nacht"
+        ],
+        "réponse": "Witte Kerst",
+        "anecdote": "Hij nam op 29 mei 1942 een versie op met het John Scott Trotter Orchestra en de Ken Darby Singers in de studio's van Decca."
+      },
+      {
+        "id": 19,
+        "question": "Hoeveel exemplaren zijn er ongeveer verkocht van de single « White Christmas » uit 1942 ?",
+        "propositions": [
+          "20 miljoen",
+          "50 miljoen",
+          "35 miljoen",
+          "5 miljoen"
+        ],
+        "réponse": "50 miljoen",
+        "anecdote": "Het nummer is opgenomen in de film « Love Sings and Dances » waarin Crosby het in duet met Marjorie Reynolds zong."
+      },
+      {
+        "id": 20,
+        "question": "Met wie zong Véronique Sanson een duet op het album « Noël ensemble » ?",
+        "propositions": [
+          "Jacques Dutronc",
+          "Johnny Hallyday",
+          "Henri Salvador",
+          "Eddy Mitchell"
+        ],
+        "réponse": "Eddy Mitchell",
+        "anecdote": "In de Franstalige wereld werd het lied « White Christmas » bewerkt door Francis Blanche onder de titel « Noël blanc »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Aan welke Savoyaardse dichter die omstreeks 1570 stierf hebben we veel kerstliederen te danken ?",
+        "propositions": [
+          "Didier Le Blanc",
+          "Antoine Cartier",
+          "Jean Pasquier",
+          "Nicolas Martin"
+        ],
+        "réponse": "Nicolas Martin",
+        "anecdote": "In 1555 publiceerde hij « Noëlz en nieuw gecomponeerde liederen in zowel vulgaire françoys als savoysien dict patoys »."
+      },
+      {
+        "id": 22,
+        "question": "Wie interpreteerde « Douce nuit, sainte nuit » op zijn eenvoudige « Merry Christmas » gepubliceerd in 1960 ?",
+        "propositions": [
+          "Mireille Matthieu",
+          "Dalida",
+          "Tino Rossi",
+          "Francis Blanche"
+        ],
+        "réponse": "Dalida",
+        "anecdote": "Luis Mariano, Ginette Reno, Gérard Lenorman, Céline Dion, Roch Voisine en vele anderen voerden het ook uit."
+      },
+      {
+        "id": 23,
+        "question": "In welke film van Didier Kaminka kunnen we « The Angels in our country » horen ?",
+        "propositions": [
+          "Ripoux 3",
+          "Kracht 8",
+          "Bankpromotie",
+          "Laag profiel"
+        ],
+        "réponse": "Bankpromotie",
+        "anecdote": "In de film zingt een voorbijganger het deuntje in het warenhuis, waarbij de Latijnse tekst duidelijk hoorbaar is."
+      },
+      {
+        "id": 24,
+        "question": "Welk kerstlied wordt soms ook wel « La Marseillaise Religieuse » genoemd ?",
+        "propositions": [
+          "middernacht, christenen",
+          "Mijn mooie kerstboom",
+          "Lang leve de wind",
+          "Nieuwe kerst"
+        ],
+        "réponse": "middernacht, christenen",
+        "anecdote": "Oorspronkelijk gecomponeerd voor sopraan en keyboard, wordt deze hymne vaak gezongen door een bariton of tenorsolo, begeleid op het orgel."
+      },
+      {
+        "id": 25,
+        "question": "Hoeveel verzen heeft het traditionele kerstlied « In a Dark Stable » ?",
+        "propositions": [
+          "44",
+          "31",
+          "23",
+          "16"
+        ],
+        "réponse": "23",
+        "anecdote": "De Franse teksten zijn geschreven door Augustin Mahot in 1621 en zijn geen vertaling van de originele Duitse tekst."
+      },
+      {
+        "id": 26,
+        "question": "Wie schreef de muziek voor het kerstlied « Wat is die aangename geur » ?",
+        "propositions": [
+          "Aaron Hill",
+          "Henry Fielding",
+          "John Gay",
+          "Charles Johnson"
+        ],
+        "réponse": "John Gay",
+        "anecdote": "« Wat is die aangename geur » is een traditioneel kerstlied, geschreven in de 17e eeuw, over de christelijke geboorte."
+      },
+      {
+        "id": 27,
+        "question": "In welk jaar werd « Céline Dion sings Christmas » uitgebracht, het tweede album van de zangeres ?",
+        "propositions": [
+          "2011",
+          "2001",
+          "1981",
+          "1991"
+        ],
+        "réponse": "1981",
+        "anecdote": "Exclusief gedistribueerd in Quebec, er is geen single uit gehaald en het is de enige van zijn discografie die niet is gecertificeerd."
+      },
+      {
+        "id": 28,
+        "question": "Welk kerstlied is ook het officiële volkslied van de staat Maryland in de Verenigde Staten ?",
+        "propositions": [
+          "Mijn mooie kerstboom",
+          "Lang leve de wind",
+          "Het is Kerstmis",
+          "Witte Kerst"
+        ],
+        "réponse": "Mijn mooie kerstboom",
+        "anecdote": "De eerste bekende versie van de tekst dateert uit 1550, een andere versie werd in 1615 gecomponeerd door Melchior Franck."
+      },
+      {
+        "id": 29,
+        "question": "Welke titel zingt Fernandel op het 45-toeren fragment uit de film « Honoré de Marseille » ?",
+        "propositions": [
+          "Lang leve de wind",
+          "Het is Kerstmis",
+          "Mijn mooie kerstboom",
+          "Kleine Papa Kerst"
+        ],
+        "réponse": "Het is Kerstmis",
+        "anecdote": "« It's Christmas » was een van de vier liedjes die Fernandel in de film zingt, maar de scène is tijdens de montage geknipt."
+      },
+      {
+        "id": 30,
+        "question": "Welk nummer van John Lennon is een protestlied tegen de oorlog in Vietnam ?",
+        "propositions": [
+          "O kerstboom",
+          "Witte Kerst",
+          "Fijne kerstdagen",
+          "Stille nacht"
+        ],
+        "réponse": "Fijne kerstdagen",
+        "anecdote": "Het komt voort uit een reclamecampagne tegen de oorlog in Vietnam die John Lennon en Yoko Ono in 1969 lanceerden."
+      }
+    ]
+    }
+  }
+}

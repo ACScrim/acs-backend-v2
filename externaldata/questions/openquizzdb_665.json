@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Catherine De Smeytere",       
+  "difficulté": "3 / 5",
+  "version": 9,
+  "mise-à-jour": "2024-01-02",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Loisirs",
+      "nom": "Dishonored 2",
+      "slogan": "Voyage dans le Grand Vide"
+    },
+    "en": {
+      "catégorie": "Hobbies",
+      "nom": "Dishonored 2",
+      "slogan": "Journey into the Great Void"
+    },
+    "es": {
+      "catégorie": "Aficiones",
+      "nom": "Dishonored 2",
+      "slogan": "Viaje al gran vacío"
+    },
+    "it": {
+      "catégorie": "Hobby",
+      "nom": "Dishonored 2",
+      "slogan": "Viaggio nel Grande Vuoto"
+    },
+    "de": {
+      "catégorie": "Hobbys",
+      "nom": "Dishonored 2",
+      "slogan": "Reise in die Große Leere"
+    },
+    "nl": {
+      "catégorie": "Hobby's",
+      "nom": "Dishonored 2",
+      "slogan": "Reis naar de Grote Leegte"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En quelle année est sorti « Dishonored 2 », développé par Arkane Studios ?",
+        "propositions": [
+          "2014",
+          "2012",
+          "2016",
+          "2018"
+        ],
+        "réponse": "2016",
+        "anecdote": "L'histoire se déroule dans la ville côtière de Karnaca, quinze ans après les événements du jeu original, « Dishonored », sortie en 2012."
+      },
+      {
+        "id": 2,
+        "question": "Quel genre de femmes sont les soeurs de l'ordre oraculaire ?",
+        "propositions": [
+          "Vampires",
+          "Loups-garous",
+          "Sorcières",
+          "Prêtresses"
+        ],
+        "réponse": "Sorcières",
+        "anecdote": "Sorti en 2013, « Les Sorcière de Brigmore » est le deuxième contenu supplémentaire téléchargeable pour le jeu « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "Dans quelle ville industrielle se trouve le palais de l'impératrice ?",
+        "propositions": [
+          "Daventry",
+          "Dinotopia",
+          "Durpar",
+          "Dunwall"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Bien que le jeu commence et se termine à Dunwall, une grande partie de son intrigue se déroule dans la ville côtière de Karnaca."
+      },
+      {
+        "id": 4,
+        "question": "Qui a participé à une cérémonie occulte pour rendre Delilah immortelle ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Corvo Attano",
+          "Kirin Jindosh",
+          "Anton Sokolov"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "L'Outsider a chargé Daud d'enquêter sur Delilah, et on découvre qu'elle est en fait le leader des puissantes sorcières de Brigmore."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel bateau, propriété de Meagan Foster, Emily échappe-t-elle au coup d'état ?",
+        "propositions": [
+          "Daventry",
+          "Dreadful Wale",
+          "Silver Spike",
+          "Addermire"
+        ],
+        "réponse": "Dreadful Wale",
+        "anecdote": "Le personnage choisi est aidé par Meagan Foster, capitaine du Dreadful Wale, qui travaille avec l'inventeur Anton Sokolov."
+      },
+      {
+        "id": 6,
+        "question": "Quel être surnaturel règne en maître dans le Grand Vide ?",
+        "propositions": [
+          "Corvo",
+          "Dr Hypatia",
+          "Outsider",
+          "Sokolov"
+        ],
+        "réponse": "Outsider",
+        "anecdote": "L'Outsider est l'une des nombreuses représentations du Vide qui ont existé, à l'origine un gamin des rues avant d'être sacrifié."
+      },
+      {
+        "id": 7,
+        "question": "Que permet de détecter le Coeur, donné à Emily par l'Outsider ?",
+        "propositions": [
+          "Runes",
+          "Ennemis",
+          "Pièces",
+          "Armes"
+        ],
+        "réponse": "Runes",
+        "anecdote": "Proposant sa Marque au début du jeu, l'Outsider vous donne le Coeur, contenant l'esprit piégé de Jessamine Kaldwin."
+      },
+      {
+        "id": 8,
+        "question": "À qui appartient le manoir mécanique dans lequel a été emmené Sokolov ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Corvo Attano",
+          "Kirin Jindosh",
+          "Liam Byrne"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "C'est également Kirin Jindosh qui fabrique les soldats mécaniques pour les revendre une petite fortune aux riches de la haute société."
+      },
+      {
+        "id": 9,
+        "question": "Quelle armée Kirin Jindosh souhaite-t-il fabriquer en retenant Anton Sokolov ?",
+        "propositions": [
+          "Bombes",
+          "Automates",
+          "Soldats mécaniques",
+          "Fusées"
+        ],
+        "réponse": "Soldats mécaniques",
+        "anecdote": "Rejeté par l'Académie des Sciences pour ses positions contre l'éthique, Kirin Jindosh voue une fascination pour Sokolov."
+      },
+      {
+        "id": 10,
+        "question": "Quel est devenu le principal matériau pour produire de l'énergie électrique ?",
+        "propositions": [
+          "Huile de baleine",
+          "Alcool frelaté",
+          "Poussière d'argent",
+          "Graines de tournesol"
+        ],
+        "réponse": "Huile de baleine",
+        "anecdote": "Extraite du lard de l'animal, l'exploitation industrielle de l'huile de baleine est l'une des causes de régression des grands cétacés."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel est le grade de Mortimer Ramsey, l'un des fidèles de Delilah ?",
+        "propositions": [
+          "Lieutenant",
+          "Capitaine",
+          "Général",
+          "Colonel"
+        ],
+        "réponse": "Capitaine",
+        "anecdote": "Sa famille étant tombée en disgrâce, si Delilah redevient impératrice, le nom des Ramzy risque à nouveau d'être flamboyant."
+      },
+      {
+        "id": 12,
+        "question": "Quel groupe de voleurs et de criminels est dirigé par Paolo ?",
+        "propositions": [
+          "Hurleurs",
+          "Sorciers",
+          "Superviseurs",
+          "Architectes"
+        ],
+        "réponse": "Hurleurs",
+        "anecdote": "Deux factions, les Hurleurs et les Superviseurs, sont en conflit violent et permanent au début du jeu, dans le district de Poussièreville."
+      },
+      {
+        "id": 13,
+        "question": "Qu'a mis en place la grande garde entre les différents quartiers de la ville ?",
+        "propositions": [
+          "Lecteurs digitaux",
+          "Tunnels",
+          "Tours",
+          "Portails foudroyants"
+        ],
+        "réponse": "Portails foudroyants",
+        "anecdote": "Ils sont alimentés avec des batteries qui contiennent de l'huile de baleine, matériau principal pour produire de l'énergie."
+      },
+      {
+        "id": 14,
+        "question": "Où se trouve la marque de l'Outsider sur le corps d'Emily ?",
+        "propositions": [
+          "Son bras droit",
+          "Sa main gauche",
+          "Son dos",
+          "Son front"
+        ],
+        "réponse": "Sa main gauche",
+        "anecdote": "L'Outsider était à l'origine un gamin des rues vulnérable, jusqu'à ce qu'il soit retrouvé par une secte, kidnappé et sacrifié rituellement."
+      },
+      {
+        "id": 15,
+        "question": "Quelle sorcière est également la conservatrice du Conservatoire Royal ?",
+        "propositions": [
+          "Breanna Ashworth",
+          "Billie Lurk",
+          "Meagan Foster",
+          "Alexandria Hypatia"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Les sorcières cruelles ont pris le contrôle du Conservatoire et s'en servent comme laboratoire pour leurs expériences et maléfices."
+      },
+      {
+        "id": 16,
+        "question": "Pour quel groupe, combattant les sorcières, les Superviseurs travaillent-ils ?",
+        "propositions": [
+          "L'Abbaye",
+          "La Mission",
+          "La Forge",
+          "Le Domaine"
+        ],
+        "réponse": "L'Abbaye",
+        "anecdote": "L'Abbaye du Quidam, souvent simplement appelée l'Abbaye, est un ordre religieux actif à travers tout l'Empire des Îles."
+      },
+      {
+        "id": 17,
+        "question": "Quel matériau extrait-on de la mine située dans le sud de Dunwall ?",
+        "propositions": [
+          "Bronze",
+          "Or",
+          "Argent",
+          "Cuivre"
+        ],
+        "réponse": "Argent",
+        "anecdote": "Dans « Dishonored 2 », si un lieu se trouve près d'une mine d'argent, on y trouvera probablement des objets en argent comme des bijoux."
+      },
+      {
+        "id": 18,
+        "question": "De quoi ont besoin les mouches de sang pour pondre leurs oeufs ?",
+        "propositions": [
+          "Rivière",
+          "Cave sombre",
+          "Animal vivant",
+          "Cadavres humains"
+        ],
+        "réponse": "Cadavres humains",
+        "anecdote": "Originaires du continent Pandyssien, les mouches de sang préfèrent un climat chaud et font des nids dans les cadavres humains."
+      },
+      {
+        "id": 19,
+        "question": "Dans quelle dimension d'un autre monde réside l'Outsider ?",
+        "propositions": [
+          "Le Cold",
+          "Le Told",
+          "Le Void",
+          "Le Sand"
+        ],
+        "réponse": "Le Void",
+        "anecdote": "Développé par Arkane Studios, le Void Engine est aussi le moteur de jeu utilisé dans « Dishonored 2 », basé sur l'id Tech 6 d'id Software."
+      },
+      {
+        "id": 20,
+        "question": "À quel Grand Inventeur du Duc doit-on l'appareil argengraphique ?",
+        "propositions": [
+          "Hiram Burrows",
+          "Kirin Jindosh",
+          "Teague Martin",
+          "Thaddeus Campbell"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, un savant sans éthique, garda prisonnier Sokolov pour ses connaissances, prévoyant ensuite de le lobotomiser."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle est la première arme récupérée par Emily sur le Dreadful Wale ?",
+        "propositions": [
+          "Épée",
+          "Couteau",
+          "Pistolet",
+          "Arbalète"
+        ],
+        "réponse": "Arbalète",
+        "anecdote": "Le joueur dispose de plusieurs objets tels que l'épée, le pistolet, l'arbalète et les grenades, qui peuvent être améliorés."
+      },
+      {
+        "id": 22,
+        "question": "Quelle alchimiste travaille dans le laboratoire de l'institut d'Addermire ?",
+        "propositions": [
+          "Dr Batista",
+          "Dr Breanna",
+          "Dr Hypatia",
+          "Dr Karnaca"
+        ],
+        "réponse": "Dr Hypatia",
+        "anecdote": "C'est par la voie ferrée aérienne que l'on peut rejoindre l'Institut Addermire, un solarium abandonné où travaille Alexandria Hypatia."
+      },
+      {
+        "id": 23,
+        "question": "Combien de fois le charme de Paolo lui permet-il de revenir à la vie ?",
+        "propositions": [
+          "Une seule fois",
+          "Une fois par jour",
+          "Une fois par an",
+          "Une fois par mois"
+        ],
+        "réponse": "Une fois par jour",
+        "anecdote": "Paolo dirige un groupe de voleurs et de criminels appelé les Hurleurs, qui veulent s'opposer au nouveau duc et à son gouvernement."
+      },
+      {
+        "id": 24,
+        "question": "Quel ancien médecin royal est le dirigeant de l'Académie de Philosophie Naturelle ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Anton Sokolov",
+          "Kirin Jindosh",
+          "Thaddeus Campbell"
+        ],
+        "réponse": "Anton Sokolov",
+        "anecdote": "Non seulement il est un peintre hautement renommé, mais il est aussi un inventeur prolifique et le créateur de technologies militaires."
+      },
+      {
+        "id": 25,
+        "question": "Combien d'années se passent entre l'aide de l'Outsider à Corvo puis à Emily ?",
+        "propositions": [
+          "5 ans",
+          "20 ans",
+          "15 ans",
+          "10 ans"
+        ],
+        "réponse": "15 ans",
+        "anecdote": "L'aspect et le caractère de l'Outsider a évolué, apportant des modifications à certains détails et une silhouette plus équilibrée."
+      },
+      {
+        "id": 26,
+        "question": "Quel prototype est savamment protégé par les sorcières au Conservatoire Royal ?",
+        "propositions": [
+          "Cleui de Roseburrow",
+          "Celui de Theodanis",
+          "Celui de Stilton",
+          "Celui de l'Outsider"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "C'est en 1820 qu'Anton Sokolov rencontra Esmond Roseburrow, qui lui a appris le secret de son raffinage d'huile de baleine."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le nom du journal édité pour la population de Dunwall ?",
+        "propositions": [
+          "Daily Express",
+          "Silver Spike",
+          "Daily Mail",
+          "Sunday Times"
+        ],
+        "réponse": "Silver Spike",
+        "anecdote": "L'ennemi que tout le monde poursuit dans le jeu « Dishonored 2 » est connu sous le nom de tueur de la couronne."
+      },
+      {
+        "id": 28,
+        "question": "Quel était le prénom du père d'Abel, le nouveau duc de Serkonos ?",
+        "propositions": [
+          "Silver",
+          "Mortimer",
+          "Aramis",
+          "Theodanis"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "Le jeu se déroule dans la ville côtière de Karnaca, la capitale de l'île de Serkonos, qui se trouve dans la région sud de l'Empire des îles."
+      },
+      {
+        "id": 29,
+        "question": "Qui a fabriqué la lame légère, rétractable et tranchante d'Emily ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Mortimer Ramsey",
+          "Piero Joplin",
+          "Liam Byrne"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "Les développeurs du jeu ont noté que la relation entre Emily et le joueur est l'un des éléments les plus convaincants de la suite."
+      },
+      {
+        "id": 30,
+        "question": "Quel âge avait Jesamin Caldwin lorsqu'elle est décédée ?",
+        "propositions": [
+          "42 ans",
+          "52 ans",
+          "32 ans",
+          "22 ans"
+        ],
+        "réponse": "32 ans",
+        "anecdote": "En début de jeu, on retrouve sur un mur une affiche en l'honneur de Jesamin Caldwin, sur laquelle on trouve ces dates : 1805-1837."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In what year was « Dishonored 2 » released, developed by Arkane Studios ?",
+        "propositions": [
+          "2018",
+          "2014",
+          "2016",
+          "2012"
+        ],
+        "réponse": "2016",
+        "anecdote": "The story takes place in the coastal town of Karnaca, fifteen years after the events of the original game, « Dishonored », released in 2012."
+      },
+      {
+        "id": 2,
+        "question": "What kind of women are the sisters of the oracular order ?",
+        "propositions": [
+          "Priestesses",
+          "Vampires",
+          "Witches",
+          "Werewolves"
+        ],
+        "réponse": "Witches",
+        "anecdote": "Released in 2013, « The Witches of Brigmore » is the second additional downloadable content for the game « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "In which industrial city is the Empress's palace located ?",
+        "propositions": [
+          "Durpar",
+          "Dinotopia",
+          "Daventry",
+          "Dunwall"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Although the game begins and ends in Dunwall, much of its plot takes place in the coastal town of Karnaca."
+      },
+      {
+        "id": 4,
+        "question": "Who participated in an occult ceremony to make Delilah immortal ?",
+        "propositions": [
+          "Kirin Jindosh",
+          "Anton Sokolov",
+          "Aramis Stilton",
+          "Corvo Attano"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "The Outsider has tasked Daud with investigating Delilah, and it is discovered that she is in fact the leader of the powerful witches of Brigmore."
+      },
+      {
+        "id": 5,
+        "question": "In which boat, owned by Meagan Foster, did Emily escape the coup ?",
+        "propositions": [
+          "Addermire",
+          "Silver Spike",
+          "Daventry",
+          "Dreadful Wale"
+        ],
+        "réponse": "Dreadful Wale",
+        "anecdote": "The chosen character is aided by Meagan Foster, captain of the Dreadful Wale, who works with inventor Anton Sokolov."
+      },
+      {
+        "id": 6,
+        "question": "Which supernatural being reigns supreme in the Great Void ?",
+        "propositions": [
+          "Corvo",
+          "Sokolov",
+          "Outsider",
+          "Dr. Hypatia"
+        ],
+        "réponse": "Outsider",
+        "anecdote": "The Outsider is one of many representations of the Void that have existed, originally a street urchin before being sacrificed."
+      },
+      {
+        "id": 7,
+        "question": "What can the Heart, given to Emily by the Outsider, detect ?",
+        "propositions": [
+          "Enemies",
+          "Parts",
+          "Weapons",
+          "Runes"
+        ],
+        "réponse": "Runes",
+        "anecdote": "Offering his Mark at the start of the game, the Outsider gives you the Heart, containing the trapped spirit of Jessamine Kaldwin."
+      },
+      {
+        "id": 8,
+        "question": "Who owns the mechanical mansion to which Sokolov was taken ?",
+        "propositions": [
+          "Corvo Attano",
+          "Aramis Stilton",
+          "Kirin Jindosh",
+          "Liam Byrne"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "It is also Kirin Jindosh who manufactures the mechanical soldiers to sell them for a small fortune to the rich of high society."
+      },
+      {
+        "id": 9,
+        "question": "What army does Kirin Jindosh want to build by retaining Anton Sokolov ?",
+        "propositions": [
+          "Mechanical Soldiers",
+          "Automata",
+          "Bombs",
+          "Rockets"
+        ],
+        "réponse": "Mechanical Soldiers",
+        "anecdote": "Rejected by the Academy of Sciences for his anti-ethics positions, Kirin Jindosh has a fascination with Sokolov."
+      },
+      {
+        "id": 10,
+        "question": "What has become the main material for producing electrical energy ?",
+        "propositions": [
+          "Silver Dust",
+          "Sunflower seeds",
+          "Whale oil",
+          "Adulterated alcohol"
+        ],
+        "réponse": "Whale oil",
+        "anecdote": "Extracted from the animal's blubber, the industrial exploitation of whale oil is one of the causes of the decline of large cetaceans."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What is the rank of Mortimer Ramsey, one of Delilah's followers ?",
+        "propositions": [
+          "Colonel",
+          "General",
+          "Lieutenant",
+          "Captain"
+        ],
+        "réponse": "Captain",
+        "anecdote": "With her family having fallen into disgrace, if Delilah becomes empress again, the Ramzy name risks once again being flamboyant."
+      },
+      {
+        "id": 12,
+        "question": "Which group of thieves and criminals is led by Paolo ?",
+        "propositions": [
+          "Supervisors",
+          "Wizards",
+          "Howlers",
+          "Architects"
+        ],
+        "réponse": "Howlers",
+        "anecdote": "Two factions, the Howlers and the Overseers, are in violent and constant conflict at the start of the game, in the Dustville district."
+      },
+      {
+        "id": 13,
+        "question": "What has the grand guard set up between the different districts of the city ?",
+        "propositions": [
+          "Towers",
+          "Tunnels",
+          "Fingerprint readers",
+          "Lightning Portals"
+        ],
+        "réponse": "Lightning Portals",
+        "anecdote": "They are powered by batteries that contain whale oil, the main material for producing energy."
+      },
+      {
+        "id": 14,
+        "question": "Where is the Mark of the Outsider on Emily's body ?",
+        "propositions": [
+          "His forehead",
+          "His left hand",
+          "His back",
+          "His right arm"
+        ],
+        "réponse": "His left hand",
+        "anecdote": "The Outsider was originally a vulnerable street urchin, until he was found by a cult, kidnapped, and ritually sacrificed."
+      },
+      {
+        "id": 15,
+        "question": "Which witch is also the curator of the Royal Conservatory ?",
+        "propositions": [
+          "Breanna Ashworth",
+          "Billie Lurk",
+          "Alexandria Hypatia",
+          "Meagan Foster"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Cruel witches have taken control of the Conservatory and are using it as a laboratory for their experiments and curses."
+      },
+      {
+        "id": 16,
+        "question": "For which witch-fighting group do the Overseers work ?",
+        "propositions": [
+          "The Forge",
+          "The Estate",
+          "The Abbey",
+          "The Mission"
+        ],
+        "réponse": "The Abbey",
+        "anecdote": "Quidam Abbey, often simply called the Abbey, is a religious order active throughout the Empire of the Isles."
+      },
+      {
+        "id": 17,
+        "question": "What material is extracted from the mine located south of Dunwall ?",
+        "propositions": [
+          "Gold",
+          "Money",
+          "Copper",
+          "Bronze"
+        ],
+        "réponse": "Money",
+        "anecdote": "In « Dishonored 2 », if a location is near a silver mine, silver items like jewelry will likely be found there."
+      },
+      {
+        "id": 18,
+        "question": "What do blood flies need to lay their eggs ?",
+        "propositions": [
+          "Human corpses",
+          "Dark cellar",
+          "River",
+          "Live animal"
+        ],
+        "réponse": "Human corpses",
+        "anecdote": "Native to the Pandyssian continent, blood flies prefer a warm climate and make nests in human corpses."
+      },
+      {
+        "id": 19,
+        "question": "In which otherworldly dimension does the Outsider reside ?",
+        "propositions": [
+          "The Void",
+          "The Cold",
+          "The Told",
+          "The Sand"
+        ],
+        "réponse": "The Void",
+        "anecdote": "Developed by Arkane Studios, the Void Engine is also the game engine used in « Dishonored 2 », based on id Software's id Tech 6."
+      },
+      {
+        "id": 20,
+        "question": "To which Great Inventor of the Duke do we owe the argengraphic device ?",
+        "propositions": [
+          "Teague Martin",
+          "Kirin Jindosh",
+          "Thaddeus Campbell",
+          "Hiram Burrows"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, an unethical scholar, kept Sokolov prisoner for his knowledge, later planning to lobotomize him."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What is the first weapon Emily collected from the Dreadful Wale ?",
+        "propositions": [
+          "Knife",
+          "Sword",
+          "Gun",
+          "Crossbow"
+        ],
+        "réponse": "Crossbow",
+        "anecdote": "The player has several items such as sword, pistol, crossbow and grenades, which can be upgraded."
+      },
+      {
+        "id": 22,
+        "question": "Which alchemist works in the Addermire Institute laboratory ?",
+        "propositions": [
+          "Dr. Hypatia",
+          "Dr. Karnaca",
+          "Dr. Batista",
+          "Dr. Breanna"
+        ],
+        "réponse": "Dr. Hypatia",
+        "anecdote": "It is by the elevated railway that one can reach the Addermire Institute, an abandoned solarium where Alexandria Hypatia works."
+      },
+      {
+        "id": 23,
+        "question": "How many times does Paolo's charm allow him to come back to life ?",
+        "propositions": [
+          "Once a week",
+          "Once a year",
+          "Once a month",
+          "Once a day"
+        ],
+        "réponse": "Once a day",
+        "anecdote": "Paolo leads a group of thieves and criminals called the Howlers, who want to oppose the new Duke and his government."
+      },
+      {
+        "id": 24,
+        "question": "Which former royal physician is the leader of the Academy of Natural Philosophy ?",
+        "propositions": [
+          "Thaddeus Campbell",
+          "Kirin Jindosh",
+          "Anton Sokolov",
+          "Aramis Stilton"
+        ],
+        "réponse": "Anton Sokolov",
+        "anecdote": "Not only is he a highly renowned painter, but he is also a prolific inventor and creator of military technology."
+      },
+      {
+        "id": 25,
+        "question": "How many years pass between the Outsider's help to Corvo and then to Emily ?",
+        "propositions": [
+          "5 years",
+          "20 years",
+          "10 years",
+          "15 years"
+        ],
+        "réponse": "15 years",
+        "anecdote": "The appearance and character of the Outsider has evolved, bringing changes to certain details and a more balanced silhouette."
+      },
+      {
+        "id": 26,
+        "question": "Which prototype is carefully protected by witches at the Royal Conservatory ?",
+        "propositions": [
+          "Stilton's",
+          "That of Theodanis",
+          "That of the Outsider",
+          "Cleui de Roseburrow"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "It was in 1820 that Anton Sokolov met Esmond Roseburrow, who taught him the secret of his whale oil refining."
+      },
+      {
+        "id": 27,
+        "question": "What is the name of the newspaper published for the people of Dunwall ?",
+        "propositions": [
+          "Sunday Times",
+          "DailyMail",
+          "Silver Spike",
+          "DailyExpress"
+        ],
+        "réponse": "Silver Spike",
+        "anecdote": "The enemy that everyone is chasing in the game « Dishonored 2 » is known as the Crown Killer."
+      },
+      {
+        "id": 28,
+        "question": "What was the first name of the father of Abel, the new Duke of Serkonos ?",
+        "propositions": [
+          "Silver",
+          "Theodanis",
+          "Aramis",
+          "Mortimer"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "The game takes place in the coastal town of Karnaca, the capital of the island of Serkonos, which is located in the southern region of the Empire of the Isles."
+      },
+      {
+        "id": 29,
+        "question": "Who made Emily's lightweight, retractable, sharp blade ?",
+        "propositions": [
+          "Liam Byrne",
+          "Piero Joplin",
+          "Aramis Stilton",
+          "Mortimer Ramsey"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "The game's developers noted that the relationship between Emily and the player is one of the most compelling elements of the sequel."
+      },
+      {
+        "id": 30,
+        "question": "How old was Jesamin Caldwin when she died ?",
+        "propositions": [
+          "22 years old",
+          "32 years old",
+          "52 years old",
+          "42 years old"
+        ],
+        "réponse": "32 years old",
+        "anecdote": "At the start of the game, we find on a wall a poster in honor of Jesamin Caldwin, on which we find these dates : 1805-1837."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welchem Jahr wurde « Dishonored 2 » veröffentlicht und von Arkane Studios entwickelt ?",
+        "propositions": [
+          "2018",
+          "2016",
+          "2014",
+          "2012"
+        ],
+        "réponse": "2016",
+        "anecdote": "Die Geschichte spielt in der Küstenstadt Karnaca, fünfzehn Jahre nach den Ereignissen des Originalspiels « Dishonored », das 2012 veröffentlicht wurde."
+      },
+      {
+        "id": 2,
+        "question": "Was für Frauen sind die Schwestern des Orakelordens ?",
+        "propositions": [
+          "Vampire",
+          "Priesterinnen",
+          "Werwölfe",
+          "Hexen"
+        ],
+        "réponse": "Hexen",
+        "anecdote": "« The Witches of Brigmore » wurde 2013 veröffentlicht und ist der zweite zusätzliche herunterladbare Inhalt für das Spiel « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "In welcher Industriestadt steht der Palast der Kaiserin ?",
+        "propositions": [
+          "Dinotopie",
+          "Daventry",
+          "Dunwall",
+          "Durpar"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Obwohl das Spiel in Dunwall beginnt und endet, spielt sich ein Großteil der Handlung in der Küstenstadt Karnaca ab."
+      },
+      {
+        "id": 4,
+        "question": "Wer nahm an einer okkulten Zeremonie teil, um Delilah unsterblich zu machen ?",
+        "propositions": [
+          "Corvo Attano",
+          "Anton Sokolov",
+          "Kirin Jindosh",
+          "Aramis Stilton"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "Der Outsider hat Daud damit beauftragt, gegen Delilah zu ermitteln, und es stellt sich heraus, dass sie tatsächlich die Anführerin der mächtigen Hexen von Brigmore ist."
+      },
+      {
+        "id": 5,
+        "question": "In welchem Boot, das Meagan Foster gehörte, entkam Emily dem Putsch ?",
+        "propositions": [
+          "Daventry",
+          "Silberne Spitze",
+          "Addermire",
+          "Schrecklicher Wal"
+        ],
+        "réponse": "Schrecklicher Wal",
+        "anecdote": "Der ausgewählte Charakter wird von Meagan Foster unterstützt, dem Kapitän der Dreadful Wale, der mit dem Erfinder Anton Sokolov zusammenarbeitet."
+      },
+      {
+        "id": 6,
+        "question": "Welches übernatürliche Wesen herrscht in der Großen Leere ?",
+        "propositions": [
+          "Sokolov",
+          "Dr. Hypatia",
+          "Corvo",
+          "Außenseiter"
+        ],
+        "réponse": "Außenseiter",
+        "anecdote": "Der Outsider ist eine von vielen Darstellungen der Leere, die es gab, ursprünglich ein Straßenjunge, bevor er geopfert wurde."
+      },
+      {
+        "id": 7,
+        "question": "Was kann das Herz erkennen, das Emily vom Outsider geschenkt hat ?",
+        "propositions": [
+          "Waffen",
+          "Runen",
+          "Feinde",
+          "Teile"
+        ],
+        "réponse": "Runen",
+        "anecdote": "Zu Beginn des Spiels bietet der Außenseiter sein Mal an und gibt Ihnen das Herz, das den gefangenen Geist von Jessamine Kaldwin enthält."
+      },
+      {
+        "id": 8,
+        "question": "Wem gehört die mechanische Villa, in die Sokolov gebracht wurde ?",
+        "propositions": [
+          "Corvo Attano",
+          "Kirin Jindosh",
+          "Liam Byrne",
+          "Aramis Stilton"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Es ist auch Kirin Jindosh, die die mechanischen Soldaten herstellt, um sie für ein kleines Vermögen an die Reichen der High Society zu verkaufen."
+      },
+      {
+        "id": 9,
+        "question": "Welche Armee möchte Kirin Jindosh aufbauen, indem er Anton Sokolov behält ?",
+        "propositions": [
+          "Bomben",
+          "Raketen",
+          "Automaten",
+          "Mechanische Soldaten"
+        ],
+        "réponse": "Mechanische Soldaten",
+        "anecdote": "Kirin Jindosh wurde von der Akademie der Wissenschaften wegen seiner Anti-Ethik-Positionen abgelehnt und ist von Sokolov fasziniert."
+      },
+      {
+        "id": 10,
+        "question": "Was ist zum Hauptmaterial zur Erzeugung elektrischer Energie geworden ?",
+        "propositions": [
+          "Walöl",
+          "Sonnenblumenkerne",
+          "Silberstaub",
+          "Gepanschter Alkohol"
+        ],
+        "réponse": "Walöl",
+        "anecdote": "Die industrielle Ausbeutung von Walöl, das aus dem Speck des Tieres gewonnen wird, ist eine der Ursachen für den Rückgang der Großwale."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welchen Rang hat Mortimer Ramsey, einer von Delilahs Anhängern ?",
+        "propositions": [
+          "Oberst",
+          "Kapitän",
+          "Allgemein",
+          "Leutnant"
+        ],
+        "réponse": "Kapitän",
+        "anecdote": "Da ihre Familie in Ungnade gefallen ist und Delilah erneut Kaiserin wird, besteht die Gefahr, dass der Name Ramzy erneut extravagant wird."
+      },
+      {
+        "id": 12,
+        "question": "Welche Gruppe von Dieben und Kriminellen wird von Paolo angeführt ?",
+        "propositions": [
+          "Zauberer",
+          "Architekten",
+          "Vorgesetzte",
+          "Heuler"
+        ],
+        "réponse": "Heuler",
+        "anecdote": "Zwei Fraktionen, die Heuler und die Aufseher, befinden sich zu Beginn des Spiels im Bezirk Dustville in einem gewalttätigen und ständigen Konflikt."
+      },
+      {
+        "id": 13,
+        "question": "Was hat die Großgarde zwischen den verschiedenen Stadtteilen eingerichtet ?",
+        "propositions": [
+          "Türme",
+          "Tunnel",
+          "Blitzportale",
+          "Fingerabdruckleser"
+        ],
+        "réponse": "Blitzportale",
+        "anecdote": "Sie werden von Batterien angetrieben, die Walöl enthalten, den Hauptstoff zur Energieerzeugung."
+      },
+      {
+        "id": 14,
+        "question": "Wo ist das Mal des Außenseiters auf Emilys Körper ?",
+        "propositions": [
+          "Sein rechter Arm",
+          "Sein Rücken",
+          "Seine linke Hand",
+          "Seine Stirn"
+        ],
+        "réponse": "Seine linke Hand",
+        "anecdote": "Der Outsider war ursprünglich ein verletzlicher Straßenjunge, bis er von einer Sekte gefunden, entführt und rituell geopfert wurde."
+      },
+      {
+        "id": 15,
+        "question": "Welche Hexe ist auch Kuratorin des Königlichen Konservatoriums ?",
+        "propositions": [
+          "Meagan Foster",
+          "Billie Lurk",
+          "Breanna Ashworth",
+          "Alexandria Hypatia"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Grausame Hexen haben die Kontrolle über das Konservatorium übernommen und nutzen es als Labor für ihre Experimente und Flüche."
+      },
+      {
+        "id": 16,
+        "question": "Für welche Hexenbekämpfungsgruppe arbeiten die Aufseher ?",
+        "propositions": [
+          "Die Schmiede",
+          "Die Mission",
+          "Die Abtei",
+          "Das Anwesen"
+        ],
+        "réponse": "Die Abtei",
+        "anecdote": "Die Quidam-Abtei, oft einfach Abtei genannt, ist ein religiöser Orden, der im gesamten Reich der Inseln tätig ist."
+      },
+      {
+        "id": 17,
+        "question": "Welches Material wird aus der Mine südlich von Dunwall gefördert ?",
+        "propositions": [
+          "Geld",
+          "Kupfer",
+          "Gold",
+          "Bronze"
+        ],
+        "réponse": "Geld",
+        "anecdote": "Wenn sich in « Dishonored 2 » ein Ort in der Nähe einer Silbermine befindet, werden dort wahrscheinlich Silbergegenstände wie Schmuck gefunden."
+      },
+      {
+        "id": 18,
+        "question": "Was brauchen Blutfliegen zum Eierlegen ?",
+        "propositions": [
+          "Dunkler Keller",
+          "Menschliche Leichen",
+          "Fluss",
+          "Lebendes Tier"
+        ],
+        "réponse": "Menschliche Leichen",
+        "anecdote": "Die auf dem pandyssischen Kontinent beheimateten Blutfliegen bevorzugen ein warmes Klima und bauen Nester in menschlichen Leichen."
+      },
+      {
+        "id": 19,
+        "question": "In welcher jenseitigen Dimension wohnt der Outsider ?",
+        "propositions": [
+          "Der Sand",
+          "Die Kälte",
+          "Das Erzählte",
+          "Die Leere"
+        ],
+        "réponse": "Die Leere",
+        "anecdote": "Die von Arkane Studios entwickelte Void Engine ist auch die Spiel-Engine, die in « Dishonored 2 » verwendet wird und auf id Softwares id Tech 6 basiert."
+      },
+      {
+        "id": 20,
+        "question": "Welchem großen Erfinder des Herzogs verdanken wir das argengraphische Gerät ?",
+        "propositions": [
+          "Thaddeus Campbell",
+          "Hiram Burrows",
+          "Kirin Jindosh",
+          "Teague Martin"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, ein unethischer Gelehrter, hielt Sokolov wegen seines Wissens gefangen und plante später, ihn einer Lobotomie zu unterziehen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was ist die erste Waffe, die Emily vom Dreadful Wale gesammelt hat ?",
+        "propositions": [
+          "Schwert",
+          "Waffe",
+          "Messer",
+          "Armbrust"
+        ],
+        "réponse": "Armbrust",
+        "anecdote": "Der Spieler verfügt über mehrere Gegenstände wie Schwert, Pistole, Armbrust und Granaten, die aufgerüstet werden können."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Alchemist arbeitet im Labor des Addermire Institute ?",
+        "propositions": [
+          "Dr. Breanna",
+          "Dr. Batista",
+          "Dr. Karnaca",
+          "Dr. Hypatia"
+        ],
+        "réponse": "Dr. Hypatia",
+        "anecdote": "Über die Hochbahn erreicht man das Addermire Institute, ein verlassenes Solarium, in dem Alexandria Hypatia arbeitet."
+      },
+      {
+        "id": 23,
+        "question": "Wie oft erlaubt ihm Paolos Charme, wieder zum Leben zu erwachen ?",
+        "propositions": [
+          "Einmal im Jahr",
+          "Einmal am Tag",
+          "Einmal im Monat",
+          "Einmal pro Woche"
+        ],
+        "réponse": "Einmal am Tag",
+        "anecdote": "Paolo führt eine Gruppe von Dieben und Kriminellen namens Howlers an, die sich dem neuen Herzog und seiner Regierung widersetzen wollen."
+      },
+      {
+        "id": 24,
+        "question": "Welcher ehemalige königliche Arzt ist der Leiter der Akademie für Naturphilosophie ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Anton Sokolov",
+          "Thaddeus Campbell",
+          "Kirin Jindosh"
+        ],
+        "réponse": "Anton Sokolov",
+        "anecdote": "Er ist nicht nur ein renommierter Maler, sondern auch ein produktiver Erfinder und Schöpfer militärischer Technologie."
+      },
+      {
+        "id": 25,
+        "question": "Wie viele Jahre vergehen zwischen der Hilfe des Outsiders für Corvo und dann für Emily ?",
+        "propositions": [
+          "5 Jahre",
+          "20 Jahre",
+          "15 Jahre",
+          "10 Jahre"
+        ],
+        "réponse": "15 Jahre",
+        "anecdote": "Das Aussehen und der Charakter des Outsider haben sich weiterentwickelt, was zu Änderungen an bestimmten Details und einer ausgewogeneren Silhouette geführt hat."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Prototyp wird am Königlichen Konservatorium sorgfältig von Hexen beschützt ?",
+        "propositions": [
+          "Stiltons",
+          "Das des Außenseiters",
+          "Cleui de Roseburrow",
+          "Das von Theodanis"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "Im Jahr 1820 lernte Anton Sokolov Esmond Roseburrow kennen, der ihn in das Geheimnis seiner Walölraffinierung einweihte."
+      },
+      {
+        "id": 27,
+        "question": "Wie heißt die Zeitung, die für die Einwohner von Dunwall herausgegeben wird ?",
+        "propositions": [
+          "DailyExpress",
+          "Sunday Times",
+          "Silberne Spitze",
+          "DailyMail"
+        ],
+        "réponse": "Silberne Spitze",
+        "anecdote": "Der Feind, den jeder im Spiel « Dishonored 2 » jagt, ist als Crown Killer bekannt."
+      },
+      {
+        "id": 28,
+        "question": "Wie lautete der Vorname des Vaters von Abel, dem neuen Herzog von Serkonos ?",
+        "propositions": [
+          "Theodanis",
+          "Silver",
+          "Aramis",
+          "Mortimer"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "Das Spiel findet in der Küstenstadt Karnaca statt, der Hauptstadt der Insel Serkonos, die in der südlichen Region des Imperiums der Inseln liegt."
+      },
+      {
+        "id": 29,
+        "question": "Wer hat Emilys leichte, einziehbare und scharfe Klinge hergestellt ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Liam Byrne",
+          "Piero Joplin",
+          "Mortimer Ramsey"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "Die Entwickler des Spiels stellten fest, dass die Beziehung zwischen Emily und dem Spieler eines der fesselndsten Elemente der Fortsetzung ist."
+      },
+      {
+        "id": 30,
+        "question": "Wie alt war Jesamin Caldwin, als sie starb ?",
+        "propositions": [
+          "42 Jahre alt",
+          "32 Jahre alt",
+          "52 Jahre alt",
+          "22 Jahre alt"
+        ],
+        "réponse": "32 Jahre alt",
+        "anecdote": "Zu Beginn des Spiels finden wir an einer Wand ein Plakat zu Ehren von Jesamin Caldwin, auf dem wir diese Daten finden : 1805-1837."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿En qué año se lanzó « Dishonored 2 », desarrollado por Arkane Studios ?",
+        "propositions": [
+          "2012",
+          "2018",
+          "2014",
+          "2016"
+        ],
+        "réponse": "2016",
+        "anecdote": "La historia tiene lugar en la ciudad costera de Karnaca, quince años después de los acontecimientos del juego original, « Dishonored », lanzado en 2012."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué clase de mujeres son las hermanas de la orden oracular ?",
+        "propositions": [
+          "Hombres lobo",
+          "Sacerdotisas",
+          "Vampiros",
+          "Brujas"
+        ],
+        "réponse": "Brujas",
+        "anecdote": "Lanzado en 2013, « The Witches of Brigmore » es el segundo contenido descargable adicional del juego « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué ciudad industrial se encuentra el palacio de la emperatriz ?",
+        "propositions": [
+          "Dunwall",
+          "Dinotopía",
+          "Durpar",
+          "Daventry"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Aunque el juego comienza y termina en Dunwall, gran parte de su trama se desarrolla en la localidad costera de Karnaca."
+      },
+      {
+        "id": 4,
+        "question": "¿Quién participó en una ceremonia oculta para hacer inmortal a Dalila ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Corvo Attano",
+          "Antón Sokolov",
+          "Kirin Jindosh"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "El Forastero le ha encargado a Daud que investigue a Delilah, y se descubre que ella es, de hecho, la líder de las poderosas brujas de Brigmore."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué barco, propiedad de Meagan Foster, escapó Emily del golpe ?",
+        "propositions": [
+          "Daventry",
+          "Addermire",
+          "Pico de plata",
+          "Terrible Wale"
+        ],
+        "réponse": "Terrible Wale",
+        "anecdote": "El personaje elegido cuenta con la ayuda de Meagan Foster, capitana del Dreadful Wale, que trabaja con el inventor Anton Sokolov."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué ser sobrenatural reina supremo en el Gran Vacío ?",
+        "propositions": [
+          "Sokolov",
+          "Dra. Hipatia",
+          "Corvo",
+          "Forastero"
+        ],
+        "réponse": "Forastero",
+        "anecdote": "El Forastero es una de las muchas representaciones del Vacío que han existido, originalmente un pilluelo callejero antes de ser sacrificado."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué puede detectar el Corazón que el Forastero le dio a Emily ?",
+        "propositions": [
+          "Piezas",
+          "Enemigos",
+          "Runas",
+          "Armas"
+        ],
+        "réponse": "Runas",
+        "anecdote": "Ofreciendo su Marca al comienzo del juego, el Forastero te da el Corazón, que contiene el espíritu atrapado de Jessamine Kaldwin."
+      },
+      {
+        "id": 8,
+        "question": "¿A quién pertenece la mansión mecánica a la que llevaron a Sokolov ?",
+        "propositions": [
+          "Liam Byrne",
+          "Corvo Attano",
+          "Aramis Stilton",
+          "Kirin Jindosh"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "También es Kirin Jindosh quien fabrica los soldados mecánicos para venderlos por una pequeña fortuna a los ricos de la alta sociedad."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué ejército quiere construir Kirin Jindosh reteniendo a Anton Sokolov ?",
+        "propositions": [
+          "Autómatas",
+          "Soldados mecánicos",
+          "Bombas",
+          "Cohetes"
+        ],
+        "réponse": "Soldados mecánicos",
+        "anecdote": "Rechazado por la Academia de Ciencias por sus posiciones antiéticas, Kirin Jindosh siente fascinación por Sokolov."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál se ha convertido en el principal material para producir energía eléctrica ?",
+        "propositions": [
+          "Alcohol adulterado",
+          "Polvo de plata",
+          "Aceite de ballena",
+          "Semillas de girasol"
+        ],
+        "réponse": "Aceite de ballena",
+        "anecdote": "Extraído de la grasa del animal, la explotación industrial del aceite de ballena es una de las causas del declive de los grandes cetáceos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál es el rango de Mortimer Ramsey, uno de los seguidores de Delilah ?",
+        "propositions": [
+          "Coronel",
+          "Teniente",
+          "Generalidades",
+          "Capitán"
+        ],
+        "réponse": "Capitán",
+        "anecdote": "Con su familia caída en desgracia, si Delilah vuelve a ser emperatriz, el apellido Ramzy corre el riesgo de volver a ser extravagante."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué grupo de ladrones y criminales lidera Paolo ?",
+        "propositions": [
+          "Aulladores",
+          "Magos",
+          "Supervisores",
+          "Arquitectos"
+        ],
+        "réponse": "Aulladores",
+        "anecdote": "Dos facciones, los Aulladores y los Supervisores, están en conflicto violento y constante al comienzo del juego, en el distrito de Dustville."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué ha montado la gran guardia entre los distintos barrios de la ciudad ?",
+        "propositions": [
+          "Lectores de huellas dactilares",
+          "Túneles",
+          "Portales de rayos",
+          "Torres"
+        ],
+        "réponse": "Portales de rayos",
+        "anecdote": "Funcionan con baterías que contienen aceite de ballena, principal material para producir energía."
+      },
+      {
+        "id": 14,
+        "question": "¿Dónde está la Marca del Forastero en el cuerpo de Emily ?",
+        "propositions": [
+          "Su brazo derecho",
+          "Su frente",
+          "Su mano izquierda",
+          "Su espalda"
+        ],
+        "réponse": "Su mano izquierda",
+        "anecdote": "El Forastero era originalmente un pilluelo callejero vulnerable, hasta que fue encontrado por una secta, secuestrado y sacrificado ritualmente."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué bruja es también la curadora del Real Conservatorio ?",
+        "propositions": [
+          "Billie Lurk",
+          "Alexandria Hypatia",
+          "Meagan Foster",
+          "Breanna Ashworth"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Brujas crueles han tomado el control del Conservatorio y lo utilizan como laboratorio para sus experimentos y maldiciones."
+      },
+      {
+        "id": 16,
+        "question": "¿Para qué grupo de lucha contra las brujas trabajan los Supervisores ?",
+        "propositions": [
+          "La Forja",
+          "La Abadía",
+          "La finca",
+          "La Misión"
+        ],
+        "réponse": "La Abadía",
+        "anecdote": "La Abadía de Quidam, a menudo llamada simplemente Abadía, es una orden religiosa activa en todo el Imperio de las Islas."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué material se extrae de la mina situada al sur de Dunwall ?",
+        "propositions": [
+          "Cobre",
+          "Oro",
+          "Bronce",
+          "Dinero"
+        ],
+        "réponse": "Dinero",
+        "anecdote": "En « Dishonored 2 », si una ubicación está cerca de una mina de plata, es probable que allí se encuentren artículos de plata, como joyas."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué necesitan las moscas sanguíneas para poner sus huevos ?",
+        "propositions": [
+          "Río",
+          "Cadáveres humanos",
+          "Sótano oscuro",
+          "Animal vivo"
+        ],
+        "réponse": "Cadáveres humanos",
+        "anecdote": "Originarias del continente Pandisiano, las moscas de sangre prefieren un clima cálido y hacen nidos en cadáveres humanos."
+      },
+      {
+        "id": 19,
+        "question": "¿En qué dimensión de otro mundo reside el Forastero ?",
+        "propositions": [
+          "El vacío",
+          "El Frío",
+          "Lo dicho",
+          "La arena"
+        ],
+        "réponse": "El vacío",
+        "anecdote": "Desarrollado por Arkane Studios, Void Engine es también el motor de juego utilizado en « Dishonored 2 », basado en id Tech 6 de id Software."
+      },
+      {
+        "id": 20,
+        "question": "¿A qué gran inventor del duque le debemos el dispositivo argengráfico ?",
+        "propositions": [
+          "Hiram Burrows",
+          "Teague Martín",
+          "Thaddeus Campbell",
+          "Kirin Jindosh"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, un erudito poco ético, mantuvo prisionero a Sokolov por sus conocimientos y luego planeó lobotomizarlo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál es la primera arma que Emily recogió del Dreadful Wale ?",
+        "propositions": [
+          "Arma",
+          "Ballesta",
+          "Cuchillo",
+          "Espada"
+        ],
+        "réponse": "Ballesta",
+        "anecdote": "El jugador tiene varios elementos, como espada, pistola, ballesta y granadas, que se pueden actualizar."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué alquimista trabaja en el laboratorio del Instituto Addermire ?",
+        "propositions": [
+          "Dr. Karnaca",
+          "Dr. Batista",
+          "Dr. Breanna",
+          "Dr. Hypatia"
+        ],
+        "réponse": "Dr. Hypatia",
+        "anecdote": "A través del ferrocarril elevado se puede llegar al Instituto Addermire, un solárium abandonado donde trabaja Alexandria Hypatia."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuántas veces el encanto de Paolo le permite volver a la vida ?",
+        "propositions": [
+          "Una vez al mes",
+          "Una vez al día",
+          "Una vez al año",
+          "Una vez a la semana"
+        ],
+        "réponse": "Una vez al día",
+        "anecdote": "Paolo lidera un grupo de ladrones y criminales llamados los Aulladores, que quieren oponerse al nuevo Duque y su gobierno."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué ex médico real es el líder de la Academia de Filosofía Natural ?",
+        "propositions": [
+          "Kirin Jindosh",
+          "Aramis Stilton",
+          "Antón Sokolov",
+          "Thaddeus Campbell"
+        ],
+        "réponse": "Antón Sokolov",
+        "anecdote": "No sólo es un pintor de gran renombre, sino que también es un prolífico inventor y creador de tecnología militar."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuántos años pasan entre la ayuda del Forastero a Corvo y luego a Emily ?",
+        "propositions": [
+          "20 años",
+          "15 años",
+          "5 años",
+          "10 años"
+        ],
+        "réponse": "15 años",
+        "anecdote": "La apariencia y carácter del Outsider ha evolucionado, trayendo cambios en ciertos detalles y una silueta más equilibrada."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué prototipo está cuidadosamente protegido por las brujas del Real Conservatorio ?",
+        "propositions": [
+          "La del Forastero",
+          "Cleui de Roseburrow",
+          "El de Teodanis",
+          "Stilton"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "Fue en 1820 cuando Anton Sokolov conoció a Esmond Roseburrow, quien le enseñó el secreto de cómo refinar el aceite de ballena."
+      },
+      {
+        "id": 27,
+        "question": "¿Cómo se llama el periódico que se publica para la gente de Dunwall ?",
+        "propositions": [
+          "Correo diario",
+          "Horario del domingo",
+          "Pico de plata",
+          "Expreso diario"
+        ],
+        "réponse": "Pico de plata",
+        "anecdote": "El enemigo que todos persiguen en el juego « Dishonored 2 » se conoce como Crown Killer."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál era el nombre del padre de Abel, el nuevo duque de Serkonos ?",
+        "propositions": [
+          "Mortimer",
+          "Aramís",
+          "Silver",
+          "Theodanis"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "El juego tiene lugar en la ciudad costera de Karnaca, la capital de la isla de Serkonos, que se encuentra en la región sur del Imperio de las Islas."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién hizo la espada afilada, retráctil y liviana de Emily ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Piero Joplin",
+          "Liam Byrne",
+          "Mortimer Ramsey"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "Los desarrolladores del juego señalaron que la relación entre Emily y el jugador es uno de los elementos más convincentes de la secuela."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué edad tenía Jesamin Caldwin cuando murió ?",
+        "propositions": [
+          "22 años",
+          "32 años",
+          "42 años",
+          "52 años"
+        ],
+        "réponse": "32 años",
+        "anecdote": "Al inicio del juego, encontramos en una pared un cartel en honor a Jesamin Caldwin, en el que encontramos estas fechas : 1805-1837."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In che anno è uscito « Dishonored 2 », sviluppato da Arkane Studios ?",
+        "propositions": [
+          "2018",
+          "2014",
+          "2016",
+          "2012"
+        ],
+        "réponse": "2016",
+        "anecdote": "La storia è ambientata nella città costiera di Karnaca, quindici anni dopo gli eventi del gioco originale, « Dishonored », pubblicato nel 2012."
+      },
+      {
+        "id": 2,
+        "question": "Che tipo di donne sono le sorelle dell'ordine oracolare ?",
+        "propositions": [
+          "Sacerdotesse",
+          "Vampiri",
+          "Streghe",
+          "Lupi mannari"
+        ],
+        "réponse": "Streghe",
+        "anecdote": "Pubblicato nel 2013, « The Witches of Brigmore » è il secondo contenuto scaricabile aggiuntivo per il gioco « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "In quale città industriale si trova il palazzo dell'Imperatrice ?",
+        "propositions": [
+          "Daventry",
+          "Dinotopia",
+          "Dunwall",
+          "Durpar"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Sebbene il gioco inizi e finisca a Dunwall, gran parte della trama si svolge nella città costiera di Karnaca."
+      },
+      {
+        "id": 4,
+        "question": "Chi ha partecipato ad una cerimonia occulta per rendere Dalila immortale ?",
+        "propositions": [
+          "Anton Sokolov",
+          "Kirin Jindosh",
+          "Aramis Stilton",
+          "Corvo Attano"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "L'Esterno ha incaricato Daud di indagare su Delilah, e si scopre che lei è in realtà il capo delle potenti streghe di Brigmore."
+      },
+      {
+        "id": 5,
+        "question": "In quale barca, di proprietà di Meagan Foster, Emily è sfuggita al colpo di stato ?",
+        "propositions": [
+          "Wale terribile",
+          "Punta d'argento",
+          "Daventry",
+          "Addemire"
+        ],
+        "réponse": "Wale terribile",
+        "anecdote": "Il personaggio scelto è aiutato da Meagan Foster, capitano della Dreadful Wale, che lavora con l'inventore Anton Sokolov."
+      },
+      {
+        "id": 6,
+        "question": "Quale essere soprannaturale regna supremo nel Grande Vuoto ?",
+        "propositions": [
+          "Dott.ssa Ipazia",
+          "Esterno",
+          "Sokolov",
+          "Corvo"
+        ],
+        "réponse": "Esterno",
+        "anecdote": "L'Outsider è una delle tante rappresentazioni del Vuoto che sono esistite, originariamente un monello di strada prima di essere sacrificato."
+      },
+      {
+        "id": 7,
+        "question": "Cosa può rilevare il Cuore donato a Emily dall'Esterno ?",
+        "propositions": [
+          "Armi",
+          "Nemici",
+          "Parti",
+          "Rune"
+        ],
+        "réponse": "Rune",
+        "anecdote": "Offrendo il suo Marchio all'inizio del gioco, l'Esterno ti darà il Cuore, contenente lo spirito intrappolato di Jessamine Kaldwin."
+      },
+      {
+        "id": 8,
+        "question": "Chi possiede la villa meccanica in cui è stato portato Sokolov ?",
+        "propositions": [
+          "Corvo Attano",
+          "Aramis Stilton",
+          "Kirin Jindosh",
+          "Liam Byrne"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "È sempre Kirin Jindosh a fabbricare i soldati meccanici per venderli per una piccola fortuna ai ricchi dell'alta società."
+      },
+      {
+        "id": 9,
+        "question": "Quale esercito vuole costruire Kirin Jindosh mantenendo Anton Sokolov ?",
+        "propositions": [
+          "Automi",
+          "Bombe",
+          "Soldati meccanici",
+          "Razzi"
+        ],
+        "réponse": "Soldati meccanici",
+        "anecdote": "Rifiutato dall'Accademia delle Scienze per le sue posizioni antietiche, Kirin Jindosh è affascinato da Sokolov."
+      },
+      {
+        "id": 10,
+        "question": "Qual è diventato il materiale principale per la produzione di energia elettrica ?",
+        "propositions": [
+          "Polvere d'argento",
+          "Semi di girasole",
+          "Olio di balena",
+          "Alcol adulterato"
+        ],
+        "réponse": "Olio di balena",
+        "anecdote": "Estratto dal grasso dell'animale, lo sfruttamento industriale dell'olio di balena è una delle cause del declino dei grandi cetacei."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual è il grado di Mortimer Ramsey, uno dei seguaci di Delilah ?",
+        "propositions": [
+          "Colonnello",
+          "Capitano",
+          "Tenente",
+          "Generale"
+        ],
+        "réponse": "Capitano",
+        "anecdote": "Con la sua famiglia caduta in disgrazia, se Delilah diventasse nuovamente imperatrice, il nome Ramzy rischierebbe di essere ancora una volta appariscente."
+      },
+      {
+        "id": 12,
+        "question": "Quale gruppo di ladri e criminali è guidato da Paolo ?",
+        "propositions": [
+          "Urlatori",
+          "Architetti",
+          "Maghi",
+          "Supervisori"
+        ],
+        "réponse": "Urlatori",
+        "anecdote": "Due fazioni, gli Urlatori e i Sorveglianti, sono in conflitto violento e costante all'inizio del gioco, nel distretto di Dustville."
+      },
+      {
+        "id": 13,
+        "question": "Cosa ha disposto la grande guardia tra i diversi quartieri della città ?",
+        "propositions": [
+          "Torri",
+          "Portali fulmini",
+          "Tunnel",
+          "Lettori di impronte digitali"
+        ],
+        "réponse": "Portali fulmini",
+        "anecdote": "Sono alimentati da batterie che contengono olio di balena, il materiale principale per la produzione di energia."
+      },
+      {
+        "id": 14,
+        "question": "Dov'è il marchio dell'outsider sul corpo di Emily ?",
+        "propositions": [
+          "La sua mano sinistra",
+          "La sua fronte",
+          "Il suo braccio destro",
+          "La sua schiena"
+        ],
+        "réponse": "La sua mano sinistra",
+        "anecdote": "L'Outsider era originariamente un monello di strada vulnerabile, finché non fu trovato da una setta, rapito e sacrificato ritualmente."
+      },
+      {
+        "id": 15,
+        "question": "Quale strega è anche la curatrice del Conservatorio Reale ?",
+        "propositions": [
+          "Billie Lurk",
+          "Meagan Foster",
+          "Alexandria Hypatia",
+          "Breanna Ashworth"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Le streghe crudeli hanno preso il controllo del Conservatorio e lo usano come laboratorio per i loro esperimenti e maledizioni."
+      },
+      {
+        "id": 16,
+        "question": "Per quale gruppo di lotta alle streghe lavorano i Supervisori ?",
+        "propositions": [
+          "La Tenuta",
+          "La Forgia",
+          "La Missione",
+          "L'Abbazia"
+        ],
+        "réponse": "L'Abbazia",
+        "anecdote": "L'Abbazia di Quidam, spesso chiamata semplicemente l'Abbazia, è un ordine religioso attivo in tutto l'Impero delle Isole."
+      },
+      {
+        "id": 17,
+        "question": "Quale materiale viene estratto dalla miniera situata a sud di Dunwall ?",
+        "propositions": [
+          "Soldi",
+          "Rame",
+          "Oro",
+          "Bronzo"
+        ],
+        "réponse": "Soldi",
+        "anecdote": "In « Dishonored 2 », se un luogo è vicino a una miniera d'argento, è probabile che lì si trovino oggetti d'argento come gioielli."
+      },
+      {
+        "id": 18,
+        "question": "Di cosa hanno bisogno le mosche sanguigne per deporre le uova ?",
+        "propositions": [
+          "Cadaveri umani",
+          "Animale vivo",
+          "Cantina buia",
+          "Fiume"
+        ],
+        "réponse": "Cadaveri umani",
+        "anecdote": "Originarie del continente pandyssiano, le mosche sanguigne preferiscono un clima caldo e nidificano nei cadaveri umani."
+      },
+      {
+        "id": 19,
+        "question": "In quale dimensione ultraterrena risiede l'Outsider ?",
+        "propositions": [
+          "La sabbia",
+          "Il Raccontato",
+          "Il Vuoto",
+          "Il freddo"
+        ],
+        "réponse": "Il Vuoto",
+        "anecdote": "Sviluppato da Arkane Studios, il Void Engine è anche il motore di gioco utilizzato in « Dishonored 2 », basato su id Tech 6 di id Software."
+      },
+      {
+        "id": 20,
+        "question": "A quale Grande Inventore del Duca dobbiamo l'apparato argengrafico ?",
+        "propositions": [
+          "Teague Martin",
+          "Thaddeus Campbell",
+          "Hiram Burrows",
+          "Kirin Jindosh"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, uno studioso immorale, tenne prigioniero Sokolov per sua conoscenza, progettando in seguito di lobotomizzarlo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è la prima arma che Emily ha raccolto dalla Dreadful Wale ?",
+        "propositions": [
+          "Coltello",
+          "Pistola",
+          "Balestra",
+          "Spada"
+        ],
+        "réponse": "Balestra",
+        "anecdote": "Il giocatore ha diversi oggetti come spada, pistola, balestra e granate, che possono essere aggiornati."
+      },
+      {
+        "id": 22,
+        "question": "Quale alchimista lavora nel laboratorio dell'Istituto Addermire ?",
+        "propositions": [
+          "Dr. Hypatia",
+          "Dr. Breanna",
+          "Dr. Batista",
+          "Dr. Karnaca"
+        ],
+        "réponse": "Dr. Hypatia",
+        "anecdote": "È tramite la ferrovia sopraelevata che si può raggiungere l'Istituto Addermire, un solarium abbandonato dove lavora Alexandria Hypatia."
+      },
+      {
+        "id": 23,
+        "question": "Quante volte il fascino di Paolo gli permette di ritornare in vita ?",
+        "propositions": [
+          "Una volta alla settimana",
+          "Una volta al giorno",
+          "Una volta al mese",
+          "Una volta all'anno"
+        ],
+        "réponse": "Una volta al giorno",
+        "anecdote": "Paolo è a capo di un gruppo di ladri e criminali chiamati gli Urlatori, che vogliono opporsi al nuovo Duca e al suo governo."
+      },
+      {
+        "id": 24,
+        "question": "Quale ex medico reale è il leader dell'Accademia di filosofia naturale ?",
+        "propositions": [
+          "Thaddeus Campbell",
+          "Anton Sokolov",
+          "Kirin Jindosh",
+          "Aramis Stilton"
+        ],
+        "réponse": "Anton Sokolov",
+        "anecdote": "Non solo è un pittore molto rinomato, ma è anche un prolifico inventore e creatore di tecnologia militare."
+      },
+      {
+        "id": 25,
+        "question": "Quanti anni passano tra l'aiuto dell'Outsider a Corvo e poi a Emily ?",
+        "propositions": [
+          "20 anni",
+          "5 anni",
+          "10 anni",
+          "15 anni"
+        ],
+        "réponse": "15 anni",
+        "anecdote": "L'aspetto e il carattere dell'Outsider si sono evoluti, apportando modifiche ad alcuni dettagli e una silhouette più equilibrata."
+      },
+      {
+        "id": 26,
+        "question": "Quale prototipo è attentamente protetto dalle streghe al Conservatorio Reale ?",
+        "propositions": [
+          "Cleui de Roseburrow",
+          "Stilton",
+          "Quello di Teodanis",
+          "Quello dell'Outsider"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "Fu nel 1820 che Anton Sokolov incontrò Esmond Roseburrow, che gli insegnò il segreto della raffinazione dell'olio di balena."
+      },
+      {
+        "id": 27,
+        "question": "Qual è il nome del giornale pubblicato per la gente di Dunwall ?",
+        "propositions": [
+          "DailyExpress",
+          "Punta d'argento",
+          "DailyMail",
+          "Domenica Times"
+        ],
+        "réponse": "Punta d'argento",
+        "anecdote": "Il nemico che tutti stanno inseguendo nel gioco « Dishonored 2 » è conosciuto come Crown Killer."
+      },
+      {
+        "id": 28,
+        "question": "Qual era il nome del padre di Abele, il nuovo duca di Serkonos ?",
+        "propositions": [
+          "Theodanis",
+          "Aramis",
+          "Mortimer",
+          "Silver"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "Il gioco è ambientato nella città costiera di Karnaca, la capitale dell'isola di Serkonos, che si trova nella regione meridionale dell'Impero delle Isole."
+      },
+      {
+        "id": 29,
+        "question": "Chi ha realizzato la lama affilata, leggera e retrattile di Emily ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Piero Joplin",
+          "Mortimer Ramsey",
+          "Liam Byrne"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "Gli sviluppatori del gioco hanno notato che la relazione tra Emily e il giocatore è uno degli elementi più avvincenti del sequel."
+      },
+      {
+        "id": 30,
+        "question": "Quanti anni aveva Jesamin Caldwin quando morì ?",
+        "propositions": [
+          "32 anni",
+          "52 anni",
+          "42 anni",
+          "22 anni"
+        ],
+        "réponse": "32 anni",
+        "anecdote": "All'inizio del gioco troviamo su un muro un poster in onore di Jesamin Caldwin, sul quale troviamo queste date : 1805-1837."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welk jaar werd « Dishonored 2 » uitgebracht, ontwikkeld door Arkane Studios ?",
+        "propositions": [
+          "2018",
+          "2014",
+          "2012",
+          "2016"
+        ],
+        "réponse": "2016",
+        "anecdote": "Het verhaal speelt zich af in de kustplaats Karnaca, vijftien jaar na de gebeurtenissen in het originele spel, « Dishonored », uitgebracht in 2012."
+      },
+      {
+        "id": 2,
+        "question": "Wat voor soort vrouwen zijn de zusters van de orakelorde ?",
+        "propositions": [
+          "Weerwolven",
+          "Priesteressen",
+          "Heksen",
+          "Vampieren"
+        ],
+        "réponse": "Heksen",
+        "anecdote": "« The Witches of Brigmore », uitgebracht in 2013, is de tweede aanvullende downloadbare content voor de game « Dishonored »."
+      },
+      {
+        "id": 3,
+        "question": "In welke industriële stad bevindt zich het paleis van de keizerin ?",
+        "propositions": [
+          "Dunwall",
+          "Daventry",
+          "Dinotopie",
+          "Durpar"
+        ],
+        "réponse": "Dunwall",
+        "anecdote": "Hoewel het spel begint en eindigt in Dunwall, speelt een groot deel van het plot zich af in de kustplaats Karnaca."
+      },
+      {
+        "id": 4,
+        "question": "Wie nam deel aan een occulte ceremonie om Delilah onsterfelijk te maken ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Corvo Attano",
+          "Kirin Jindosh",
+          "Anton Sokolov"
+        ],
+        "réponse": "Aramis Stilton",
+        "anecdote": "De Outsider heeft Daud de opdracht gegeven om Delilah te onderzoeken, en er wordt ontdekt dat zij in feite de leider is van de machtige heksen van Brigmore."
+      },
+      {
+        "id": 5,
+        "question": "In welke boot, eigendom van Meagan Foster, ontsnapte Emily aan de staatsgreep ?",
+        "propositions": [
+          "Addermire",
+          "Zilveren Aar",
+          "Vreselijke Wale",
+          "Daventry"
+        ],
+        "réponse": "Vreselijke Wale",
+        "anecdote": "Het gekozen personage wordt bijgestaan door Meagan Foster, kapitein van de Dreadful Wale, die samenwerkt met uitvinder Anton Sokolov."
+      },
+      {
+        "id": 6,
+        "question": "Welk bovennatuurlijk wezen regeert in de Grote Leegte ?",
+        "propositions": [
+          "Korvo",
+          "Dr. Hypatia",
+          "Buitenstaander",
+          "Sokolov"
+        ],
+        "réponse": "Buitenstaander",
+        "anecdote": "De Buitenstaander is een van de vele representaties van de Leegte die er hebben bestaan, oorspronkelijk een straatjongen voordat hij werd opgeofferd."
+      },
+      {
+        "id": 7,
+        "question": "Wat kan het Hart, dat door de Buitenstaander aan Emily is gegeven, detecteren ?",
+        "propositions": [
+          "Vijanden",
+          "Onderdelen",
+          "Wapens",
+          "Runen"
+        ],
+        "réponse": "Runen",
+        "anecdote": "De Outsider biedt je aan het begin van het spel zijn Mark aan en geeft je het Hart, met daarin de gevangen geest van Jessamine Kaldwin."
+      },
+      {
+        "id": 8,
+        "question": "Wie is de eigenaar van het mechanische landhuis waar Sokolov naartoe werd gebracht ?",
+        "propositions": [
+          "Aramis Stilton",
+          "Liam Byrne",
+          "Kirin Jindosh",
+          "Corvo Attano"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Het is ook Kirin Jindosh die de mechanische soldaten vervaardigt om ze voor een klein fortuin te verkopen aan de rijken van de high society."
+      },
+      {
+        "id": 9,
+        "question": "Welk leger wil Kirin Jindosh bouwen door Anton Sokolov vast te houden ?",
+        "propositions": [
+          "Mechanische soldaten",
+          "Raketten",
+          "Automaten",
+          "Bommen"
+        ],
+        "réponse": "Mechanische soldaten",
+        "anecdote": "Kirin Jindosh is door de Academie van Wetenschappen afgewezen vanwege zijn anti-ethische standpunten en heeft een fascinatie voor Sokolov."
+      },
+      {
+        "id": 10,
+        "question": "Wat is het belangrijkste materiaal geworden voor de productie van elektrische energie ?",
+        "propositions": [
+          "Zonnebloempitten",
+          "Walvisolie",
+          "Vervalste alcohol",
+          "Zilverstof"
+        ],
+        "réponse": "Walvisolie",
+        "anecdote": "De industriële exploitatie van walvisolie, gewonnen uit de blubber van het dier, is een van de oorzaken van de achteruitgang van grote walvisachtigen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat is de rang van Mortimer Ramsey, een van Delilah's volgelingen ?",
+        "propositions": [
+          "Kapitein",
+          "Kolonel",
+          "Algemeen",
+          "Luitenant"
+        ],
+        "réponse": "Kapitein",
+        "anecdote": "Nu haar familie in ongenade is gevallen, dreigt de naam Ramzy opnieuw flamboyant te worden als Delilah opnieuw keizerin wordt."
+      },
+      {
+        "id": 12,
+        "question": "Welke groep dieven en criminelen wordt geleid door Paolo ?",
+        "propositions": [
+          "Tovenaars",
+          "Toezichthouders",
+          "Architecten",
+          "Brulaars"
+        ],
+        "réponse": "Brulaars",
+        "anecdote": "Twee facties, de Howlers en de Overseers, zijn aan het begin van het spel in het district Dustville in gewelddadige en voortdurende conflicten verwikkeld."
+      },
+      {
+        "id": 13,
+        "question": "Wat heeft de grote wacht tussen de verschillende wijken van de stad opgezet ?",
+        "propositions": [
+          "Tunnels",
+          "Vingerafdruklezers",
+          "Torens",
+          "Bliksemportals"
+        ],
+        "réponse": "Bliksemportals",
+        "anecdote": "Ze worden aangedreven door batterijen die walvisolie bevatten, het belangrijkste materiaal voor de productie van energie."
+      },
+      {
+        "id": 14,
+        "question": "Waar is het teken van de buitenstaander op Emily's lichaam ?",
+        "propositions": [
+          "Zijn rug",
+          "Zijn rechterarm",
+          "Zijn voorhoofd",
+          "Zijn linkerhand"
+        ],
+        "réponse": "Zijn linkerhand",
+        "anecdote": "De Outsider was oorspronkelijk een kwetsbare straatjongen, totdat hij door een sekte werd gevonden, ontvoerd en ritueel geofferd."
+      },
+      {
+        "id": 15,
+        "question": "Welke heks is tevens curator van het Koninklijk Conservatorium ?",
+        "propositions": [
+          "Breanna Ashworth",
+          "Meagan Foster",
+          "Alexandrië Hypatia",
+          "Billie Lurk"
+        ],
+        "réponse": "Breanna Ashworth",
+        "anecdote": "Wrede heksen hebben de controle over het conservatorium overgenomen en gebruiken het als laboratorium voor hun experimenten en vloeken."
+      },
+      {
+        "id": 16,
+        "question": "Voor welke heksenvechtgroep werken de Overseers ?",
+        "propositions": [
+          "Het landgoed",
+          "De missie",
+          "De Abdij",
+          "De Smidse"
+        ],
+        "réponse": "De Abdij",
+        "anecdote": "Quidam Abbey, vaak simpelweg de abdij genoemd, is een religieuze orde die actief is in het hele rijk van de eilanden."
+      },
+      {
+        "id": 17,
+        "question": "Welk materiaal wordt gewonnen uit de mijn ten zuiden van Dunwall ?",
+        "propositions": [
+          "Geld",
+          "Koper",
+          "Goud",
+          "Brons"
+        ],
+        "réponse": "Geld",
+        "anecdote": "Als een locatie in « Dishonored 2 » zich in de buurt van een zilvermijn bevindt, zullen daar waarschijnlijk zilveren voorwerpen zoals sieraden worden gevonden."
+      },
+      {
+        "id": 18,
+        "question": "Wat hebben bloedvliegen nodig om hun eieren te leggen ?",
+        "propositions": [
+          "Levend dier",
+          "Donkere kelder",
+          "Menselijke lijken",
+          "Rivier"
+        ],
+        "réponse": "Menselijke lijken",
+        "anecdote": "Bloedvliegen komen oorspronkelijk uit het Pandyssische continent en geven de voorkeur aan een warm klimaat en maken nesten in menselijke lijken."
+      },
+      {
+        "id": 19,
+        "question": "In welke buitenaardse dimensie verblijft de Buitenstaander ?",
+        "propositions": [
+          "Het vertelde",
+          "Het zand",
+          "De leegte",
+          "De kou"
+        ],
+        "réponse": "De leegte",
+        "anecdote": "De Void Engine is ontwikkeld door Arkane Studios en is ook de game-engine die wordt gebruikt in « Dishonored 2 », gebaseerd op id Software's id Tech 6."
+      },
+      {
+        "id": 20,
+        "question": "Aan welke grote uitvinder van de hertog hebben we het argengrafische apparaat te danken ?",
+        "propositions": [
+          "Thaddeus Campbell",
+          "Kirin Jindosh",
+          "Hiram Burrows",
+          "Teague Martin"
+        ],
+        "réponse": "Kirin Jindosh",
+        "anecdote": "Kirin Jindosh, een onethische geleerde, hield Sokolov gevangen vanwege zijn kennis en was later van plan hem een lobotomie te geven."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat is het eerste wapen dat Emily van de Dreadful Wale verzamelde ?",
+        "propositions": [
+          "Mes",
+          "Zwaard",
+          "Kruisboog",
+          "Geweer"
+        ],
+        "réponse": "Kruisboog",
+        "anecdote": "De speler heeft verschillende items, zoals zwaard, pistool, kruisboog en granaten, die kunnen worden geüpgraded."
+      },
+      {
+        "id": 22,
+        "question": "Welke alchemist werkt in het laboratorium van het Addermire Instituut ?",
+        "propositions": [
+          "Dr. Batista",
+          "Dr. Breanna",
+          "Dr. Karnaca",
+          "Dr. Hypatia"
+        ],
+        "réponse": "Dr. Hypatia",
+        "anecdote": "Via de verhoogde spoorlijn kan men het Addermire Instituut bereiken, een verlaten solarium waar Alexandria Hypatia werkt."
+      },
+      {
+        "id": 23,
+        "question": "Hoe vaak zorgt Paolo's charme ervoor dat hij weer tot leven komt ?",
+        "propositions": [
+          "Eén keer per week",
+          "Eén keer per jaar",
+          "Eén keer per dag",
+          "Eén keer per maand"
+        ],
+        "réponse": "Eén keer per dag",
+        "anecdote": "Paolo leidt een groep dieven en criminelen, de Howlers genaamd, die zich willen verzetten tegen de nieuwe hertog en zijn regering."
+      },
+      {
+        "id": 24,
+        "question": "Welke voormalige koninklijke arts is de leider van de Academie voor Natuurfilosofie ?",
+        "propositions": [
+          "Kirin Jindosh",
+          "Anton Sokolov",
+          "Thaddeus Campbell",
+          "Aramis Stilton"
+        ],
+        "réponse": "Anton Sokolov",
+        "anecdote": "Hij is niet alleen een zeer gerenommeerd schilder, maar hij is ook een productief uitvinder en schepper van militaire technologie."
+      },
+      {
+        "id": 25,
+        "question": "Hoeveel jaar verstrijken er tussen de hulp van de Outsider aan Corvo en vervolgens aan Emily ?",
+        "propositions": [
+          "5 jaar",
+          "10 jaar",
+          "20 jaar",
+          "15 jaar"
+        ],
+        "réponse": "15 jaar",
+        "anecdote": "Het uiterlijk en karakter van de Outsider is geëvolueerd, waardoor bepaalde details zijn gewijzigd en een evenwichtiger silhouet is ontstaan."
+      },
+      {
+        "id": 26,
+        "question": "Welk prototype wordt zorgvuldig beschermd door heksen op het Koninklijk Conservatorium ?",
+        "propositions": [
+          "Die van de Buitenstaander",
+          "Cleui de Roseburrow",
+          "Stilton",
+          "Die van Theodanis"
+        ],
+        "réponse": "Cleui de Roseburrow",
+        "anecdote": "Het was in 1820 dat Anton Sokolov Esmond Roseburrow ontmoette, die hem het geheim van zijn walvisolieraffinage leerde."
+      },
+      {
+        "id": 27,
+        "question": "Wat is de naam van de krant die wordt uitgegeven voor de inwoners van Dunwall ?",
+        "propositions": [
+          "Zilveren Aar",
+          "DailyMail",
+          "DagelijksExpress",
+          "Zondagtijden"
+        ],
+        "réponse": "Zilveren Aar",
+        "anecdote": "De vijand waar iedereen in het spel « Dishonored 2 » achteraan zit, staat bekend als de Crown Killer."
+      },
+      {
+        "id": 28,
+        "question": "Wat was de voornaam van de vader van Abel, de nieuwe hertog van Serkonos ?",
+        "propositions": [
+          "Mortimer",
+          "Aramis",
+          "Silver",
+          "Theodanis"
+        ],
+        "réponse": "Theodanis",
+        "anecdote": "Het spel speelt zich af in de kustplaats Karnaca, de hoofdstad van het eiland Serkonos, gelegen in de zuidelijke regio van het Empire of the Isles."
+      },
+      {
+        "id": 29,
+        "question": "Wie heeft Emily's lichtgewicht, intrekbare, scherpe mes gemaakt ?",
+        "propositions": [
+          "Mortimer Ramsey",
+          "Piero Joplin",
+          "Aramis Stilton",
+          "Liam Byrne"
+        ],
+        "réponse": "Piero Joplin",
+        "anecdote": "De ontwikkelaars van de game merkten op dat de relatie tussen Emily en de speler een van de meest overtuigende elementen van het vervolg is."
+      },
+      {
+        "id": 30,
+        "question": "Hoe oud was Jesamin Caldwin toen ze stierf ?",
+        "propositions": [
+          "22 jaar oud",
+          "42 jaar oud",
+          "52 jaar oud",
+          "32 jaar oud"
+        ],
+        "réponse": "32 jaar oud",
+        "anecdote": "Aan het begin van het spel vinden we op een muur een poster ter ere van Jesamin Caldwin, waarop we deze data vinden : 1805-1837."
+      }
+    ]
+    }
+  }
+}

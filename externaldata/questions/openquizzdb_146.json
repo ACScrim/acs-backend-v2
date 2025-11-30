@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Catherine De Smeytere",       
+  "difficulté": "2 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-12-02",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Superstitions",
+      "slogan": "Croyances sur un fond de vérité"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Superstitions",
+      "slogan": "Beliefs based on truth"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Supersticiones",
+      "slogan": "Creencias basadas en la verdad"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Superstizioni",
+      "slogan": "Credenze basate sulla verità"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Aberglaube",
+      "slogan": "Auf Wahrheit basierende Überzeugungen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Bijgeloof",
+      "slogan": "Overtuigingen gebaseerd op waarheid"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Briser un miroir peut vous apporter combien d'années de malheur ?",
+        "propositions": [
+          "Dix",
+          "Vingt",
+          "Cinq",
+          "Sept"
+        ],
+        "réponse": "Sept",
+        "anecdote": "Dans l'Antiquité, certains peuples y voyaient le reflet de l'âme, briser un miroir revenait donc à détruire l'âme de son propriétaire."
+      },
+      {
+        "id": 2,
+        "question": "Quelle couleur est proscrite pour un vêtement lors d'un spectacle ?",
+        "propositions": [
+          "Rouge",
+          "Orange",
+          "Verte",
+          "Jaune"
+        ],
+        "réponse": "Verte",
+        "anecdote": "La légende raconte que Molière est mort peu après la représentation du « Malade Imaginaire », alors vêtu d'un costume vert."
+      },
+      {
+        "id": 3,
+        "question": "Quel nombre est à la base de nombreuses superstitions ?",
+        "propositions": [
+          "13",
+          "101",
+          "666",
+          "27"
+        ],
+        "réponse": "13",
+        "anecdote": "La superstition du vendredi 13 est parfois reliée au vendredi 13 octobre 1307, date où le roi Philippe le Bel fit tuer des citoyens."
+      },
+      {
+        "id": 4,
+        "question": "Où ne faut-il pas passer en croisant une échelle sur un trottoir ?",
+        "propositions": [
+          "Dessus",
+          "Dessous",
+          "À gauche",
+          "À droite"
+        ],
+        "réponse": "Dessous",
+        "anecdote": "Passer sous une échelle reviendrait à briser la Sainte Trinité et à commettre un sacrilège. Cela relève aussi de la simple prudence."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est la couleur du chat qui peut vous amener mauvais présage ?",
+        "propositions": [
+          "Noire",
+          "Blanc",
+          "Roux",
+          "Gris"
+        ],
+        "réponse": "Noire",
+        "anecdote": "Cette croyance bien incrustée date du Moyen-Âge, où les chats noirs étaient représentés comme compagnons des sorcières."
+      },
+      {
+        "id": 6,
+        "question": "Sur quoi faut-il marcher du pied gauche pour favoriser la chance ?",
+        "propositions": [
+          "Chewing-gum",
+          "Caillou",
+          "Fourmi",
+          "Crotte"
+        ],
+        "réponse": "Crotte",
+        "anecdote": "Se promener en rue et marcher sur une crotte de chien n'est jamais agréable, mais du pied gauche, la chance sera au coin de la rue."
+      },
+      {
+        "id": 7,
+        "question": "Que faut-il accrocher au-dessus d'une porte d'entrée pour porter bonheur ?",
+        "propositions": [
+          "Fleurs séchées",
+          "Fer à cheval",
+          "Cadre photo",
+          "Horloge"
+        ],
+        "réponse": "Fer à cheval",
+        "anecdote": "Cette vertu légendaire viendrait du fait qu'un fer à cheval égaré et revendu au forgeron permettait d'en récolter quelques espèces."
+      },
+      {
+        "id": 8,
+        "question": "Quel objet, une fois jeté dans une fontaine, porterait bonheur ?",
+        "propositions": [
+          "Pièce de monnaie",
+          "Clé de maison",
+          "Caillou blanc",
+          "Chaussure"
+        ],
+        "réponse": "Pièce de monnaie",
+        "anecdote": "Une fontaine est d'abord le lieu d'une source, d'une eau vive qui sort de terre, selon le premier dictionnaire de l'Académie française."
+      },
+      {
+        "id": 9,
+        "question": "Quelle plante protégerait contre les esprits maléfiques et les vampires ?",
+        "propositions": [
+          "Ail",
+          "Céleri",
+          "Origan",
+          "Estragon"
+        ],
+        "réponse": "Ail",
+        "anecdote": "Une superstition persistante a investi l'ail de puissants pouvoirs, en particulier celui de chasser les mauvais esprits de la maison."
+      },
+      {
+        "id": 10,
+        "question": "Que ne faut-il pas ouvrir à l'intérieur de sa maison ?",
+        "propositions": [
+          "Parapluie",
+          "Tenture",
+          "Fenêtre",
+          "Coffre à bijoux"
+        ],
+        "réponse": "Parapluie",
+        "anecdote": "Le mécanisme d'ouverture des parapluies à armature métallique était dangereux et pouvait blesser quelqu'un ou abîmer un objet."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel aliment, posé à l'envers sur une table, porterait malheur ?",
+        "propositions": [
+          "Tomate",
+          "Aubergine",
+          "Poivron",
+          "Pain"
+        ],
+        "réponse": "Pain",
+        "anecdote": "Les boulangers avaient pour habitude de réserver une miche de pain pour le bourreau, celle-ci étant souvent posée à l'envers."
+      },
+      {
+        "id": 12,
+        "question": "Quel matériau faut-il toucher pour conjurer le mauvais sort ?",
+        "propositions": [
+          "Bois",
+          "Marbre",
+          "Cuivre",
+          "Plomb"
+        ],
+        "réponse": "Bois",
+        "anecdote": "Le bois représenterait la Croix du Christ, et donc toucher du bois reviendrait à formuler une prière, un appel pour éviter le malheur."
+      },
+      {
+        "id": 13,
+        "question": "La patte de quel animal retrouve-t-on par superstition sur certains porte-clés ?",
+        "propositions": [
+          "Chameau",
+          "Chien",
+          "Brebis",
+          "Lapin"
+        ],
+        "réponse": "Lapin",
+        "anecdote": "La patte de lapin, partie non consommée qui sèche et se conserve facilement, a été employée comme talisman par diverses cultures."
+      },
+      {
+        "id": 14,
+        "question": "Quel mot utilise-t-on parfois au lieu de l'expression « bonne chance » ?",
+        "propositions": [
+          "Merde",
+          "Étron",
+          "Crotte",
+          "Bouse"
+        ],
+        "réponse": "Merde",
+        "anecdote": "Son origine remonte au théâtre français, où les acteurs utilisaient l'expression avant une représentation pour conjurer le mauvais sort."
+      },
+      {
+        "id": 15,
+        "question": "Qu'est-il préférable de voir dans le ciel avant de faire un voeu ?",
+        "propositions": [
+          "Soleil",
+          "Lune",
+          "Étoile filante",
+          "Étoile polaire"
+        ],
+        "réponse": "Étoile filante",
+        "anecdote": "Une étoile filante est un petit corps circulant dans l'espace à une vitesse pouvant atteindre 42 km/s dans un référentiel lié au Soleil."
+      },
+      {
+        "id": 16,
+        "question": "De quelle couleur est le pompon du bonnet de marin français ?",
+        "propositions": [
+          "Jaune",
+          "Verte",
+          "Bleue",
+          "Rouge"
+        ],
+        "réponse": "Rouge",
+        "anecdote": "Traditionnellement associé au dieu de la mer dans de nombreuses cultures, toucher le pompon rouge protégerait des mauvais esprits."
+      },
+      {
+        "id": 17,
+        "question": "Quel objet de la cuisine, une fois renversé, porterait malheur ?",
+        "propositions": [
+          "Salière",
+          "Carafe",
+          "Verre",
+          "Casserole"
+        ],
+        "réponse": "Salière",
+        "anecdote": "Au Moyen Âge, renverser sur la table le sel très coûteux était un malheur. Aujourd'hui, on pose la salière à côté du voisin de table."
+      },
+      {
+        "id": 18,
+        "question": "Que ne faut-il pas faire avec les verres en trinquant avec des amis ?",
+        "propositions": [
+          "Les croiser",
+          "Les retourner",
+          "Les secouer",
+          "Les lancer"
+        ],
+        "réponse": "Les croiser",
+        "anecdote": "Il est de coutume de trinquer en regardant l'autre personne dans les yeux, mais également de ne pas boire avant d'avoir trinqué."
+      },
+      {
+        "id": 19,
+        "question": "Combien d'amandes faut-il dans sa poche droite pour éviter la foudre ?",
+        "propositions": [
+          "Douze",
+          "Neuf",
+          "Trois",
+          "Six"
+        ],
+        "réponse": "Trois",
+        "anecdote": "Si une femme trouve deux amandes dans un même noyau, il y aura très probablement la naissance de jumeaux dans la famille."
+      },
+      {
+        "id": 20,
+        "question": "Dans quel moyen de transport ne faut-il pas faire sa demande en mariage ?",
+        "propositions": [
+          "Métro",
+          "Avion",
+          "Taxi",
+          "Bus"
+        ],
+        "réponse": "Bus",
+        "anecdote": "On dit qu'il porte malchance à un homme de faire une proposition de mariage dans un bus, un train ou tout autre lieu public."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Au Brésil, quel objet ne faut-il surtout pas déposer sur le sol ?",
+        "propositions": [
+          "Montre",
+          "Paire de gants",
+          "Sac à main",
+          "Chapeau"
+        ],
+        "réponse": "Sac à main",
+        "anecdote": "Pour les Brésiliens, laisser un sac à main toucher le sol est une grave erreur et apporterait la pauvreté, d'où les accroches-sac."
+      },
+      {
+        "id": 22,
+        "question": "Que vaut-il mieux ne pas se couper avant de passer un examen ?",
+        "propositions": [
+          "Ongles",
+          "Doigt",
+          "Cheveux",
+          "Barbe"
+        ],
+        "réponse": "Cheveux",
+        "anecdote": "Cette superstition, originaire de Russie, aurait pour conséquence de supprimer le savoir (durement) acquis lors de vos sessions."
+      },
+      {
+        "id": 23,
+        "question": "Quel objet, reçu ou donné, aurait pour effet de briser une amitié ?",
+        "propositions": [
+          "Scie",
+          "Couteau",
+          "Marteau",
+          "Tournevis"
+        ],
+        "réponse": "Couteau",
+        "anecdote": "Cet objet (ainsi que tous les objets pointus ou coupants) briserait l'amitié, à moins de l'échanger contre une pièce de monnaie."
+      },
+      {
+        "id": 24,
+        "question": "En Turquie, qu'est-il préférable de ne pas mâcher la nuit ?",
+        "propositions": [
+          "Chocolat",
+          "Chewing-gum",
+          "Caramel",
+          "Raisin"
+        ],
+        "réponse": "Chewing-gum",
+        "anecdote": "En Turquie, il est déconseillé de mâcher un chewing-gum la nuit car il deviendrait ensuite la chair des morts à la tombée du jour."
+      },
+      {
+        "id": 25,
+        "question": "Quel objet, posé sur un lit, pourrait attirer le mauvais sort ?",
+        "propositions": [
+          "Clé de maison",
+          "Journal",
+          "Chapeau",
+          "Peignoir"
+        ],
+        "réponse": "Chapeau",
+        "anecdote": "À une époque plus ancienne, les hommes ôtaient leur chapeau lorsqu'ils entraient dans la chambre où reposait un mort."
+      },
+      {
+        "id": 26,
+        "question": "Que faut-il jeter par-dessus son épaule gauche contre le mauvais sort ?",
+        "propositions": [
+          "Du pain",
+          "Du blé",
+          "Du sel",
+          "Du riz"
+        ],
+        "réponse": "Du sel",
+        "anecdote": "Jeter une pincée de sel par-dessus son épaule gauche pour aveugler ou repousser les mauvais esprits qui se trouveraient derrière soi."
+      },
+      {
+        "id": 27,
+        "question": "Se promener avec quel objet vide en main porterait malheur ?",
+        "propositions": [
+          "Porte-monnaie",
+          "Sac à dos",
+          "Étui à lunettes",
+          "Seau"
+        ],
+        "réponse": "Seau",
+        "anecdote": "Les Russes croient en cette superstition du fait que le Tsar Alexander a été assassiné avec un seau vide dans les mains."
+      },
+      {
+        "id": 28,
+        "question": "Quel insecte, une fois attrapé, vous fournirait santé et bonheur ?",
+        "propositions": [
+          "Bourdon",
+          "Coccinelle",
+          "Libellule",
+          "Mouche"
+        ],
+        "réponse": "Coccinelle",
+        "anecdote": "Dans certaines cultures, on dit que le nombre de points présents sur le dos de la coccinelle indique le niveau de chance accordé."
+      },
+      {
+        "id": 29,
+        "question": "Que faut-il éviter de croiser à table sous peine de malheur ?",
+        "propositions": [
+          "Deux fourchettes",
+          "Deux cuillères",
+          "Deux serviettes",
+          "Deux couteaux"
+        ],
+        "réponse": "Deux couteaux",
+        "anecdote": "Durant l'époque médiévale, où les couteaux étaient souvent utilisés comme armes, les croiser pouvait représenter un danger potentiel."
+      },
+      {
+        "id": 30,
+        "question": "En Angleterre, avoir un aphte dans la bouche vous fait passer pour quoi ?",
+        "propositions": [
+          "Un vaurien",
+          "Un traître",
+          "Un menteur",
+          "Un tricheur"
+        ],
+        "réponse": "Un menteur",
+        "anecdote": "On peut parfois associer les aphtes à la malchance ou à une mauvaise hygiène buccale, mais il n'y a pas de corrélation directe."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Breaking a mirror can bring you how many years of bad luck ?",
+        "propositions": [
+          "Ten",
+          "Twenty",
+          "Five",
+          "Seven"
+        ],
+        "réponse": "Seven",
+        "anecdote": "In Antiquity, some peoples saw in it the reflection of the soul, so breaking a mirror was tantamount to destroying the soul of its owner."
+      },
+      {
+        "id": 2,
+        "question": "What color is prohibited for clothing during a show ?",
+        "propositions": [
+          "Orange",
+          "Red",
+          "Yellow",
+          "Green"
+        ],
+        "réponse": "Green",
+        "anecdote": "Legend has it that Molière died shortly after the performance of the « Malade Imaginaire », while dressed in a green suit."
+      },
+      {
+        "id": 3,
+        "question": "What number is the basis of many superstitions ?",
+        "propositions": [
+          "13",
+          "666",
+          "27",
+          "101"
+        ],
+        "réponse": "13",
+        "anecdote": "The Friday the 13th superstition is sometimes linked to Friday, October 13, 1307, when King Philip the Fair had citizens killed."
+      },
+      {
+        "id": 4,
+        "question": "Where should you not pass when crossing a ladder on a sidewalk ?",
+        "propositions": [
+          "Below",
+          "Top",
+          "Right",
+          "Left"
+        ],
+        "réponse": "Below",
+        "anecdote": "To go under a ladder would be to break the Holy Trinity and commit sacrilege. This is also just a matter of caution."
+      },
+      {
+        "id": 5,
+        "question": "What is the color of the cat that can bring you a bad omen ?",
+        "propositions": [
+          "White",
+          "Redhead",
+          "Gray",
+          "Black"
+        ],
+        "réponse": "Black",
+        "anecdote": "This well-established belief dates back to the Middle Ages, when black cats were represented as companions of witches."
+      },
+      {
+        "id": 6,
+        "question": "What should you step on with your left foot to promote luck ?",
+        "propositions": [
+          "ant",
+          "Pebble",
+          "poo",
+          "chewing gum"
+        ],
+        "réponse": "poo",
+        "anecdote": "Walking down the street and stepping on dog poop is never pleasant, but with your left foot, luck will be around the corner."
+      },
+      {
+        "id": 7,
+        "question": "What should be hung above a front door to bring good luck ?",
+        "propositions": [
+          "Dried flowers",
+          "Clock",
+          "Picture frame",
+          "Horseshoe"
+        ],
+        "réponse": "Horseshoe",
+        "anecdote": "This legendary virtue would come from the fact that a horseshoe lost and resold to the blacksmith made it possible to harvest a few species."
+      },
+      {
+        "id": 8,
+        "question": "What object, once thrown into a fountain, would bring good luck ?",
+        "propositions": [
+          "Shoe",
+          "Coin",
+          "House key",
+          "White pebble"
+        ],
+        "réponse": "Coin",
+        "anecdote": "A fountain is first and foremost the place of a spring, of living water that comes out of the ground, according to the first dictionary of the French Academy."
+      },
+      {
+        "id": 9,
+        "question": "Which plant would protect against evil spirits and vampires ?",
+        "propositions": [
+          "Garlic",
+          "Oregano",
+          "Tarragon",
+          "Celery"
+        ],
+        "réponse": "Garlic",
+        "anecdote": "A persistent superstition has invested garlic with powerful powers, in particular that of driving away evil spirits from the house."
+      },
+      {
+        "id": 10,
+        "question": "What should not be opened inside his house ?",
+        "propositions": [
+          "Hanging",
+          "Jewelry box",
+          "Umbrella",
+          "Window"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "The opening mechanism of metal frame umbrellas was dangerous and could injure someone or damage an object."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What food, placed upside down on a table, would bring bad luck ?",
+        "propositions": [
+          "Eggplant",
+          "Tomato",
+          "Bread",
+          "Pepper"
+        ],
+        "réponse": "Bread",
+        "anecdote": "Bakers used to reserve a loaf of bread for the executioner, which was often placed upside down."
+      },
+      {
+        "id": 12,
+        "question": "What material should you touch to ward off bad luck ?",
+        "propositions": [
+          "Lead",
+          "Marble",
+          "Wood",
+          "Copper"
+        ],
+        "réponse": "Wood",
+        "anecdote": "The wood would represent the Cross of Christ, and therefore touching wood would amount to formulating a prayer, a call to avoid misfortune."
+      },
+      {
+        "id": 13,
+        "question": "Which animal's paw is found on some keychains ?",
+        "propositions": [
+          "Dog",
+          "Sheep",
+          "Rabbit",
+          "camel"
+        ],
+        "réponse": "Rabbit",
+        "anecdote": "The rabbit's foot, an uneaten part that dries and is easily stored, has been used as a talisman by various cultures."
+      },
+      {
+        "id": 14,
+        "question": "What word is sometimes used instead of the phrase « good luck » ?",
+        "propositions": [
+          "Dung",
+          "turd",
+          "poo",
+          "Shit"
+        ],
+        "réponse": "Shit",
+        "anecdote": "Its origin dates back to French theater, where actors used the expression before a performance to ward off bad luck."
+      },
+      {
+        "id": 15,
+        "question": "What is best to see in the sky before making a wish ?",
+        "propositions": [
+          "Sun",
+          "North Star",
+          "Moon",
+          "shooting star"
+        ],
+        "réponse": "shooting star",
+        "anecdote": "A shooting star is a small body circulating in space at a speed of up to 42 km/s in a reference frame linked to the Sun."
+      },
+      {
+        "id": 16,
+        "question": "What color is the pompom on the French sailor's cap ?",
+        "propositions": [
+          "Blue",
+          "Green",
+          "Red",
+          "Yellow"
+        ],
+        "réponse": "Red",
+        "anecdote": "Traditionally associated with the god of the sea in many cultures, touching the red pompom is said to protect against evil spirits."
+      },
+      {
+        "id": 17,
+        "question": "What object in the kitchen, once knocked over, would bring bad luck ?",
+        "propositions": [
+          "Saucepan",
+          "Glass",
+          "Decanter",
+          "Salt shaker"
+        ],
+        "réponse": "Salt shaker",
+        "anecdote": "In the Middle Ages, spilling the very expensive salt on the table was a misfortune. Today, we put the salt shaker next to the table neighbor."
+      },
+      {
+        "id": 18,
+        "question": "What not to do with the glasses when clinking glasses with friends ?",
+        "propositions": [
+          "Shake them",
+          "Throw them",
+          "Cross them",
+          "Return them"
+        ],
+        "réponse": "Cross them",
+        "anecdote": "It is customary to toast while looking the other person in the eye, but also not to drink before having toasted."
+      },
+      {
+        "id": 19,
+        "question": "How many almonds does it take in its right pocket to avoid lightning ?",
+        "propositions": [
+          "New",
+          "Six",
+          "Three",
+          "Twelve"
+        ],
+        "réponse": "Three",
+        "anecdote": "If a woman finds two almonds in one kernel, there will most likely be twins in the family."
+      },
+      {
+        "id": 20,
+        "question": "In which means of transport should you not make your marriage proposal ?",
+        "propositions": [
+          "Airplane",
+          "Metro",
+          "Buses",
+          "Taxi"
+        ],
+        "réponse": "Buses",
+        "anecdote": "It is said to be bad luck for a man to make a marriage proposal on a bus, train or any other public place."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In Brazil, what object should you absolutely not put on the ground ?",
+        "propositions": [
+          "Pair of gloves",
+          "Watch",
+          "Handbag",
+          "Hat"
+        ],
+        "réponse": "Handbag",
+        "anecdote": "For Brazilians, letting a handbag touch the ground is a big mistake and would bring poverty, hence the bag hooks."
+      },
+      {
+        "id": 22,
+        "question": "What is better not to cut yourself before taking an exam ?",
+        "propositions": [
+          "Beard",
+          "Nails",
+          "Finger",
+          "Hair"
+        ],
+        "réponse": "Hair",
+        "anecdote": "This superstition, originating in Russia, would have the consequence of suppressing the (hard) knowledge acquired during your sessions."
+      },
+      {
+        "id": 23,
+        "question": "What object, received or given, would have the effect of breaking a friendship ?",
+        "propositions": [
+          "Hammer",
+          "Saw",
+          "Knife",
+          "Screwdriver"
+        ],
+        "réponse": "Knife",
+        "anecdote": "This item (and any sharp or pointed items) would break the friendship unless traded for a coin."
+      },
+      {
+        "id": 24,
+        "question": "In Turkey, what is better not to chew at night ?",
+        "propositions": [
+          "chewing gum",
+          "Grape",
+          "Chocolate",
+          "Toffee"
+        ],
+        "réponse": "chewing gum",
+        "anecdote": "In Turkey, it is not recommended to chew gum at night because it will then become the flesh of the dead at nightfall."
+      },
+      {
+        "id": 25,
+        "question": "What object, placed on a bed, could attract bad luck ?",
+        "propositions": [
+          "House key",
+          "Hat",
+          "Newspaper",
+          "Bathrobe"
+        ],
+        "réponse": "Hat",
+        "anecdote": "In earlier times, men took off their hats when they entered the chamber where a dead person lay."
+      },
+      {
+        "id": 26,
+        "question": "What should be thrown over his left shoulder against bad luck ?",
+        "propositions": [
+          "Rice",
+          "Salt",
+          "Wheat",
+          "Bread"
+        ],
+        "réponse": "Salt",
+        "anecdote": "Throw a pinch of salt over your left shoulder to blind or ward off evil spirits behind you."
+      },
+      {
+        "id": 27,
+        "question": "Walking around with what empty object in hand would bring bad luck ?",
+        "propositions": [
+          "Backpack",
+          "Glasses case",
+          "Wallet",
+          "Bucket"
+        ],
+        "réponse": "Bucket",
+        "anecdote": "Russians believe in this superstition from the fact that Tsar Alexander was assassinated with an empty bucket in his hands."
+      },
+      {
+        "id": 28,
+        "question": "Which insect, when caught, would provide you with health and happiness ?",
+        "propositions": [
+          "Bumblebee",
+          "Fly",
+          "Dragonfly",
+          "Ladybug"
+        ],
+        "réponse": "Ladybug",
+        "anecdote": "In some cultures, the number of dots on the ladybug's back is said to indicate the level of luck granted."
+      },
+      {
+        "id": 29,
+        "question": "What should you avoid meeting at the table on pain of misfortune ?",
+        "propositions": [
+          "Two towels",
+          "Two forks",
+          "Two Spoons",
+          "Two knives"
+        ],
+        "réponse": "Two knives",
+        "anecdote": "During medieval times, when knives were often used as weapons, crossing them could represent a potential danger."
+      },
+      {
+        "id": 30,
+        "question": "In England, having a canker sore in your mouth makes you look like what ?",
+        "propositions": [
+          "A liar",
+          "A scoundrel",
+          "A cheater",
+          "A traitor"
+        ],
+        "réponse": "A liar",
+        "anecdote": "Canker sores can sometimes be associated with bad luck or poor oral hygiene, but there is no direct correlation."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie viele Jahre Pech kann Ihnen das Zerbrechen eines Spiegels bringen ?",
+        "propositions": [
+          "Zwanzig",
+          "Fünf",
+          "Zehn",
+          "Sieben"
+        ],
+        "réponse": "Sieben",
+        "anecdote": "In der Antike sahen einige Völker darin das Spiegelbild der Seele, daher war das Zerbrechen eines Spiegels gleichbedeutend mit der Zerstörung der Seele seines Besitzers."
+      },
+      {
+        "id": 2,
+        "question": "Welche Farbe ist für Kleidung während einer Show verboten ?",
+        "propositions": [
+          "Grün",
+          "Rot",
+          "Orange",
+          "Gelb"
+        ],
+        "réponse": "Grün",
+        "anecdote": "Der Legende nach starb Molière kurz nach der Aufführung von « Malade Imaginaire » in einem grünen Anzug."
+      },
+      {
+        "id": 3,
+        "question": "Welche Zahl ist die Grundlage vieler Aberglauben ?",
+        "propositions": [
+          "666",
+          "13",
+          "27",
+          "101"
+        ],
+        "réponse": "13",
+        "anecdote": "Der Aberglaube vom Freitag, dem 13., wird manchmal mit Freitag, dem 13. Oktober 1307, in Verbindung gebracht, als König Philipp der Schöne Bürger töten ließ."
+      },
+      {
+        "id": 4,
+        "question": "Wo darf man beim Überqueren einer Leiter auf dem Gehweg nicht passieren ?",
+        "propositions": [
+          "Nach oben",
+          "Richtig",
+          "Links",
+          "Unten"
+        ],
+        "réponse": "Unten",
+        "anecdote": "Unter eine Leiter zu gehen wäre ein Bruch der Heiligen Dreifaltigkeit und ein Sakrileg. Auch das ist nur eine Frage der Vorsicht."
+      },
+      {
+        "id": 5,
+        "question": "Welche Farbe hat die Katze, die Ihnen ein schlechtes Omen bringen kann ?",
+        "propositions": [
+          "Grau",
+          "Weiß",
+          "Rothaarige",
+          "Schwarz"
+        ],
+        "réponse": "Schwarz",
+        "anecdote": "Dieser weit verbreitete Glaube geht auf das Mittelalter zurück, als schwarze Katzen als Gefährten von Hexen dargestellt wurden."
+      },
+      {
+        "id": 6,
+        "question": "Worauf sollte man mit dem linken Fuß treten, um Glück zu fördern ?",
+        "propositions": [
+          "Kiesel",
+          "Ameise",
+          "kacke",
+          "Kaugummi"
+        ],
+        "réponse": "kacke",
+        "anecdote": "Es ist nie angenehm, die Straße entlangzulaufen und dabei auf Hundekot zu treten, aber mit dem linken Fuß ist das Glück schon bald vorbei."
+      },
+      {
+        "id": 7,
+        "question": "Was sollte über einer Haustür aufgehängt werden, um Glück zu bringen ?",
+        "propositions": [
+          "Bilderrahmen",
+          "Uhr",
+          "Getrocknete Blumen",
+          "Hufeisen"
+        ],
+        "réponse": "Hufeisen",
+        "anecdote": "Diese legendäre Tugend entstand aus der Tatsache, dass ein verlorenes und an den Schmied weiterverkauftes Hufeisen die Ernte einiger Arten ermöglichte."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Gegenstand würde Glück bringen, wenn er einmal in einen Brunnen geworfen wird ?",
+        "propositions": [
+          "Weißer Kieselstein",
+          "Hausschlüssel",
+          "Münze",
+          "Schuh"
+        ],
+        "réponse": "Münze",
+        "anecdote": "Laut dem ersten Wörterbuch der Französischen Akademie ist ein Brunnen in erster Linie der Ort einer Quelle, eines lebendigen Wassers, das aus der Erde kommt."
+      },
+      {
+        "id": 9,
+        "question": "Welche Pflanze schützt vor bösen Geistern und Vampiren ?",
+        "propositions": [
+          "Oregano",
+          "Estragon",
+          "Sellerie",
+          "Knoblauch"
+        ],
+        "réponse": "Knoblauch",
+        "anecdote": "Ein hartnäckiger Aberglaube verleiht dem Knoblauch mächtige Kräfte, insbesondere die, böse Geister aus dem Haus zu vertreiben."
+      },
+      {
+        "id": 10,
+        "question": "Was sollte in seinem Haus nicht geöffnet werden ?",
+        "propositions": [
+          "Regenschirm",
+          "Hängend",
+          "Fenster",
+          "Schmuckschatulle"
+        ],
+        "réponse": "Regenschirm",
+        "anecdote": "Der Öffnungsmechanismus von Regenschirmen mit Metallrahmen war gefährlich und konnte Personen verletzen oder Gegenstände beschädigen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches Essen würde Unglück bringen, wenn es verkehrt herum auf einen Tisch gelegt würde ?",
+        "propositions": [
+          "Aubergine",
+          "Tomate",
+          "Brot",
+          "Pfeffer"
+        ],
+        "réponse": "Brot",
+        "anecdote": "Bäcker reservierten für den Henker einen Laib Brot, der oft umgedreht abgelegt wurde."
+      },
+      {
+        "id": 12,
+        "question": "Welches Material sollte man anfassen, um Unglück abzuwehren ?",
+        "propositions": [
+          "Blei",
+          "Marmor",
+          "Kupfer",
+          "Holz"
+        ],
+        "réponse": "Holz",
+        "anecdote": "Das Holz würde das Kreuz Christi darstellen, und daher würde die Berührung des Holzes einem Gebet gleichkommen, einem Aufruf, Unglück zu vermeiden."
+      },
+      {
+        "id": 13,
+        "question": "Welche Tierpfote ist auf manchen Schlüsselanhängern zu finden ?",
+        "propositions": [
+          "Kaninchen",
+          "Hund",
+          "Schaf",
+          "Kamel"
+        ],
+        "réponse": "Kaninchen",
+        "anecdote": "Die Hasenpfote, ein nicht gefressener Teil, der trocknet und leicht aufbewahrt werden kann, wurde von verschiedenen Kulturen als Talisman verwendet."
+      },
+      {
+        "id": 14,
+        "question": "Welches Wort wird manchmal anstelle der Phrase « Viel Glück » verwendet ?",
+        "propositions": [
+          "Scheiße",
+          "Scheißhaufen",
+          "Mist",
+          "kacke"
+        ],
+        "réponse": "Scheiße",
+        "anecdote": "Sein Ursprung geht auf das französische Theater zurück, wo Schauspieler den Ausdruck vor einer Aufführung verwendeten, um Unglück abzuwehren."
+      },
+      {
+        "id": 15,
+        "question": "Was sollte man am besten am Himmel sehen, bevor man sich etwas wünscht ?",
+        "propositions": [
+          "Nordstern",
+          "Sonne",
+          "Sternschnuppe",
+          "Mond"
+        ],
+        "réponse": "Sternschnuppe",
+        "anecdote": "Eine Sternschnuppe ist ein kleiner Körper, der mit einer Geschwindigkeit von bis zu 42 km/s in einem mit der Sonne verbundenen Bezugssystem im Weltraum kreist."
+      },
+      {
+        "id": 16,
+        "question": "Welche Farbe hat der Pompon auf der französischen Matrosenmütze ?",
+        "propositions": [
+          "Rot",
+          "Grün",
+          "Blau",
+          "Gelb"
+        ],
+        "réponse": "Rot",
+        "anecdote": "In vielen Kulturen wird er traditionell mit dem Gott des Meeres in Verbindung gebracht. Das Berühren des roten Pompons soll vor bösen Geistern schützen."
+      },
+      {
+        "id": 17,
+        "question": "Welcher umgeworfene Gegenstand in der Küche würde Unglück bringen ?",
+        "propositions": [
+          "Glas",
+          "Topf",
+          "Dekanter",
+          "Salzstreuer"
+        ],
+        "réponse": "Salzstreuer",
+        "anecdote": "Im Mittelalter war es ein Unglück, das sehr teure Salz auf dem Tisch zu verschütten. Heute haben wir den Salzstreuer neben den Tischnachbarn gestellt."
+      },
+      {
+        "id": 18,
+        "question": "Was sollte man beim Anstoßen mit Freunden nicht mit den Gläsern machen ?",
+        "propositions": [
+          "Gib sie zurück",
+          "Überquere sie",
+          "Schütteln Sie sie",
+          "Wirf sie"
+        ],
+        "réponse": "Überquere sie",
+        "anecdote": "Es ist üblich, beim Anstoßen dem anderen in die Augen zu schauen, aber man darf auch nicht trinken, bevor man angestoßen hat."
+      },
+      {
+        "id": 19,
+        "question": "Wie viele Mandeln braucht es in der rechten Tasche, um einem Blitz zu entgehen ?",
+        "propositions": [
+          "Zwölf",
+          "Sechs",
+          "Drei",
+          "Neu"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Wenn eine Frau zwei Mandeln in einem Kern findet, gibt es höchstwahrscheinlich Zwillinge in der Familie."
+      },
+      {
+        "id": 20,
+        "question": "In welchem Verkehrsmittel sollten Sie Ihren Heiratsantrag nicht machen ?",
+        "propositions": [
+          "Busse",
+          "Flugzeug",
+          "U-Bahn",
+          "Taxi"
+        ],
+        "réponse": "Busse",
+        "anecdote": "Es soll Unglück bringen, wenn ein Mann im Bus, Zug oder an einem anderen öffentlichen Ort einen Heiratsantrag macht."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welchen Gegenstand sollte man in Brasilien auf keinen Fall auf den Boden legen ?",
+        "propositions": [
+          "Ansehen",
+          "Handtasche",
+          "Hut",
+          "Paar Handschuhe"
+        ],
+        "réponse": "Handtasche",
+        "anecdote": "Für Brasilianer ist es ein großer Fehler, eine Handtasche den Boden berühren zu lassen und würde Armut mit sich bringen, daher die Taschenhaken."
+      },
+      {
+        "id": 22,
+        "question": "Was ist besser, sich vor einer Prüfung nicht zu schneiden ?",
+        "propositions": [
+          "Finger",
+          "Nägel",
+          "Bart",
+          "Haare"
+        ],
+        "réponse": "Haare",
+        "anecdote": "Dieser aus Russland stammende Aberglaube hätte zur Folge, dass das in Ihren Sitzungen erworbene (harte) Wissen unterdrückt würde."
+      },
+      {
+        "id": 23,
+        "question": "Welcher erhaltene oder gegebene Gegenstand würde dazu führen, dass eine Freundschaft zerbricht ?",
+        "propositions": [
+          "Messer",
+          "Hammer",
+          "Schraubendreher",
+          "Säge"
+        ],
+        "réponse": "Messer",
+        "anecdote": "Dieser Gegenstand (und alle scharfen oder spitzen Gegenstände) würden die Freundschaft zerstören, wenn er nicht gegen eine Münze eingetauscht würde."
+      },
+      {
+        "id": 24,
+        "question": "Was sollte man in der Türkei nachts besser nicht kauen ?",
+        "propositions": [
+          "Traube",
+          "Kaugummi",
+          "Toffee",
+          "Schokolade"
+        ],
+        "réponse": "Kaugummi",
+        "anecdote": "In der Türkei ist es nicht empfehlenswert, nachts Kaugummi zu kauen, da dieser bei Einbruch der Dunkelheit zum Fleisch der Toten wird."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Gegenstand könnte auf einem Bett Unglück anlocken ?",
+        "propositions": [
+          "Hausschlüssel",
+          "Zeitung",
+          "Bademantel",
+          "Hut"
+        ],
+        "réponse": "Hut",
+        "anecdote": "In früheren Zeiten nahmen Männer ihre Hüte ab, wenn sie die Kammer betraten, in der ein Verstorbener lag."
+      },
+      {
+        "id": 26,
+        "question": "Was sollte man ihm gegen Pech über die linke Schulter werfen ?",
+        "propositions": [
+          "Brot",
+          "Reis",
+          "Salz",
+          "Weizen"
+        ],
+        "réponse": "Salz",
+        "anecdote": "Werfen Sie eine Prise Salz über Ihre linke Schulter, um böse Geister hinter Ihnen zu blenden oder abzuwehren."
+      },
+      {
+        "id": 27,
+        "question": "Mit welchem leeren Gegenstand in der Hand herumzulaufen würde Unglück bringen ?",
+        "propositions": [
+          "Rucksack",
+          "Brillenetui",
+          "Geldbörse",
+          "Eimer"
+        ],
+        "réponse": "Eimer",
+        "anecdote": "Die Russen glauben an diesen Aberglauben, da Zar Alexander mit einem leeren Eimer in der Hand ermordet wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welches Insekt würde Ihnen Gesundheit und Glück bescheren, wenn es gefangen wird ?",
+        "propositions": [
+          "Libelle",
+          "Fliegen",
+          "Marienkäfer",
+          "Hummel"
+        ],
+        "réponse": "Marienkäfer",
+        "anecdote": "In einigen Kulturen soll die Anzahl der Punkte auf dem Rücken des Marienkäfers den Grad des gewährten Glücks anzeigen."
+      },
+      {
+        "id": 29,
+        "question": "Was sollten Sie aus Angst vor Unglück vermeiden, sich am Tisch zu treffen ?",
+        "propositions": [
+          "Zwei Löffel",
+          "Zwei Messer",
+          "Zwei Handtücher",
+          "Zwei Gabeln"
+        ],
+        "réponse": "Zwei Messer",
+        "anecdote": "Im Mittelalter, als Messer oft als Waffen verwendet wurden, konnte das Kreuzen mit Messern eine potenzielle Gefahr darstellen."
+      },
+      {
+        "id": 30,
+        "question": "Wie sieht man in England aus, wenn man ein Krebsgeschwür im Mund hat ?",
+        "propositions": [
+          "Ein Lügner",
+          "Ein Schurke",
+          "Ein Verräter",
+          "Ein Betrüger"
+        ],
+        "réponse": "Ein Lügner",
+        "anecdote": "Krebsgeschwüre können manchmal mit Pech oder schlechter Mundhygiene in Verbindung gebracht werden, es besteht jedoch kein direkter Zusammenhang."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Romper un espejo puede traerte cuántos años de mala suerte ?",
+        "propositions": [
+          "Siete",
+          "Cinco",
+          "Veinte",
+          "Diez"
+        ],
+        "réponse": "Siete",
+        "anecdote": "En la Antigüedad, algunos pueblos veían en él el reflejo del alma, por lo que romper un espejo equivalía a destruir el alma de su dueño."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué color está prohibido para la ropa durante un espectáculo ?",
+        "propositions": [
+          "rojo",
+          "amarillo",
+          "Verde",
+          "Naranja"
+        ],
+        "réponse": "Verde",
+        "anecdote": "Cuenta la leyenda que Molière murió poco después de la representación del « Malade Imaginaire », vestido con un traje verde."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué número es la base de muchas supersticiones ?",
+        "propositions": [
+          "27",
+          "101",
+          "13",
+          "666"
+        ],
+        "réponse": "13",
+        "anecdote": "La superstición del viernes 13 a veces se relaciona con el viernes 13 de octubre de 1307, cuando el rey Felipe el Hermoso hizo matar a los ciudadanos."
+      },
+      {
+        "id": 4,
+        "question": "¿Por dónde no debe pasar al cruzar una escalera en una acera ?",
+        "propositions": [
+          "Arriba",
+          "Derecha",
+          "Abajo",
+          "Izquierda"
+        ],
+        "réponse": "Abajo",
+        "anecdote": "Pasar por debajo de una escalera sería romper la Santísima Trinidad y cometer un sacrilegio. Esto también es solo una cuestión de precaución."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál es el color del gato que te puede traer un mal presagio ?",
+        "propositions": [
+          "Negro",
+          "Blanco",
+          "gris",
+          "Pelirroja"
+        ],
+        "réponse": "Negro",
+        "anecdote": "Esta creencia bien establecida se remonta a la Edad Media, cuando los gatos negros eran representados como compañeros de las brujas."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué debes pisar con el pie izquierdo para promover la suerte ?",
+        "propositions": [
+          "caca",
+          "goma de mascar",
+          "hormiga",
+          "Guijarro"
+        ],
+        "réponse": "caca",
+        "anecdote": "Caminar por la calle y pisar caca de perro nunca es agradable, pero con el pie izquierdo, la suerte estará a la vuelta de la esquina."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué se debe colgar sobre la puerta de entrada para traer buena suerte ?",
+        "propositions": [
+          "Flores secas",
+          "Reloj",
+          "herradura",
+          "Marco de fotos"
+        ],
+        "réponse": "herradura",
+        "anecdote": "Esta virtud legendaria vendría del hecho de que una herradura perdida y revendida al herrero permitió recolectar algunas especies."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué objeto, una vez arrojado a una fuente, traería buena suerte ?",
+        "propositions": [
+          "Llave de la casa",
+          "Zapato",
+          "Moneda",
+          "Guijarro blanco"
+        ],
+        "réponse": "Moneda",
+        "anecdote": "Una fuente es ante todo el lugar de un manantial, de agua viva que brota de la tierra, según el primer diccionario de la Academia Francesa."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué planta protegería contra los espíritus malignos y los vampiros ?",
+        "propositions": [
+          "orégano",
+          "ajo",
+          "Apio",
+          "Estragón"
+        ],
+        "réponse": "ajo",
+        "anecdote": "Una superstición persistente ha dotado al ajo de poderosos poderes, en particular el de ahuyentar a los malos espíritus de la casa."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué no se debe abrir dentro de su casa ?",
+        "propositions": [
+          "Joyero",
+          "Paraguas",
+          "Ventana",
+          "Colgando"
+        ],
+        "réponse": "Paraguas",
+        "anecdote": "El mecanismo de apertura de los paraguas con armazón de metal era peligroso y podía herir a alguien o dañar un objeto."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué comida, colocada boca abajo sobre una mesa, traería mala suerte ?",
+        "propositions": [
+          "Tomate",
+          "Pimienta",
+          "Berenjena",
+          "Pan"
+        ],
+        "réponse": "Pan",
+        "anecdote": "Los panaderos solían reservar una hogaza de pan para el verdugo, que a menudo se colocaba boca abajo."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué material debes tocar para alejar la mala suerte ?",
+        "propositions": [
+          "Plomo",
+          "Cobre",
+          "Madera",
+          "Mármol"
+        ],
+        "réponse": "Madera",
+        "anecdote": "El madero representaría la Cruz de Cristo, y por tanto tocar el madero equivaldría a formular una oración, una llamada para evitar la desgracia."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué pata de animal se encuentra en algunos llaveros ?",
+        "propositions": [
+          "perro",
+          "Conejo",
+          "Ovejas",
+          "camello"
+        ],
+        "réponse": "Conejo",
+        "anecdote": "La pata de conejo, una parte no consumida que se seca y se almacena fácilmente, ha sido utilizada como talismán por diversas culturas."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué palabra se usa a veces en lugar de la frase « ebuena suerte » ?",
+        "propositions": [
+          "Zurullo",
+          "Mierda",
+          "Caca",
+          "Estiércol"
+        ],
+        "réponse": "Mierda",
+        "anecdote": "Su origen se remonta al teatro francés, donde los actores usaban la expresión antes de una función para ahuyentar la mala suerte."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué es mejor ver en el cielo antes de pedir un deseo ?",
+        "propositions": [
+          "Estrella del Norte",
+          "Luna",
+          "estrella fugaz",
+          "sol"
+        ],
+        "réponse": "estrella fugaz",
+        "anecdote": "Una estrella fugaz es un pequeño cuerpo que circula en el espacio a una velocidad de hasta 42 km/s en un marco de referencia vinculado al Sol."
+      },
+      {
+        "id": 16,
+        "question": "¿De qué color es el pompón de la gorra de marinero francés ?",
+        "propositions": [
+          "amarillo",
+          "Azul",
+          "rojo",
+          "Verde"
+        ],
+        "réponse": "rojo",
+        "anecdote": "Asociado tradicionalmente con el dios del mar en muchas culturas, se dice que tocar el pompón rojo protege contra los malos espíritus."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué objeto de la cocina, una vez volcado, traería mala suerte ?",
+        "propositions": [
+          "Vidrio",
+          "cacerola",
+          "Decantador",
+          "Salero"
+        ],
+        "réponse": "Salero",
+        "anecdote": "En la Edad Media, derramar la carísima sal sobre la mesa era una desgracia. Hoy, ponemos el salero al lado de la mesa del vecino."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué no hacer con las copas al chocar copas con amigos ?",
+        "propositions": [
+          "Sacúdelos",
+          "Devuélvelos",
+          "cruzarlos",
+          "Tíralos"
+        ],
+        "réponse": "cruzarlos",
+        "anecdote": "Es costumbre brindar mirando a la otra persona a los ojos, pero también no beber antes de haber brindado."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuántas almendras lleva en el bolsillo derecho para evitar un rayo ?",
+        "propositions": [
+          "Seis",
+          "Tres",
+          "Doce",
+          "Nuevo"
+        ],
+        "réponse": "Tres",
+        "anecdote": "Si una mujer encuentra dos almendras en un grano, lo más probable es que haya gemelos en la familia."
+      },
+      {
+        "id": 20,
+        "question": "¿En qué medio de transporte no debes hacer tu propuesta de matrimonio ?",
+        "propositions": [
+          "Avión",
+          "Autobuses",
+          "Metro",
+          "Taxis"
+        ],
+        "réponse": "Autobuses",
+        "anecdote": "Se dice que trae mala suerte que un hombre haga una propuesta de matrimonio en un autobús, tren o cualquier otro lugar público."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En Brasil, ¿qué objeto no deberías poner en el suelo en absoluto ?",
+        "propositions": [
+          "Reloj",
+          "Bolso",
+          "Par de guantes",
+          "Sombrero"
+        ],
+        "réponse": "Bolso",
+        "anecdote": "Para los brasileños, dejar que un bolso toque el suelo es un gran error y traería pobreza, por lo tanto, los ganchos del bolso."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué es mejor no cortarse antes de hacer un examen ?",
+        "propositions": [
+          "Cabello",
+          "Dedo",
+          "Barba",
+          "Uñas"
+        ],
+        "réponse": "Cabello",
+        "anecdote": "Esta superstición, originaria de Rusia, tendría como consecuencia suprimir los (duros) conocimientos adquiridos durante tus sesiones."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué objeto, recibido o dado, tendría el efecto de romper una amistad ?",
+        "propositions": [
+          "destornillador",
+          "Sierra",
+          "cuchillo",
+          "Martillo"
+        ],
+        "réponse": "cuchillo",
+        "anecdote": "Este artículo (y cualquier artículo afilado o puntiagudo) rompería la amistad a menos que se intercambie por una moneda."
+      },
+      {
+        "id": 24,
+        "question": "En Turquía, ¿qué es mejor no masticar por la noche ?",
+        "propositions": [
+          "goma de mascar",
+          "Chocolatada",
+          "Uva",
+          "caramelo"
+        ],
+        "réponse": "goma de mascar",
+        "anecdote": "En Turquía no se recomienda masticar chicle por la noche porque luego se convertirá en la carne de los muertos al caer la noche."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué objeto, colocado sobre una cama, podría atraer la mala suerte ?",
+        "propositions": [
+          "Albornoz",
+          "Llave de la casa",
+          "Periódico",
+          "Sombrero"
+        ],
+        "réponse": "Sombrero",
+        "anecdote": "En épocas anteriores, los hombres se quitaban el sombrero cuando entraban en la cámara donde yacía un muerto."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué hay que tirar por encima del hombro izquierdo contra la mala suerte ?",
+        "propositions": [
+          "Sal",
+          "Arroz",
+          "Trigo",
+          "Pan"
+        ],
+        "réponse": "Sal",
+        "anecdote": "Tira una pizca de sal sobre tu hombro izquierdo para cegar o alejar a los malos espíritus detrás de ti."
+      },
+      {
+        "id": 27,
+        "question": "¿Pasear con qué objeto vacío en la mano traería mala suerte ?",
+        "propositions": [
+          "Estuche para gafas",
+          "Cartera",
+          "Mochila",
+          "Cubo"
+        ],
+        "réponse": "Cubo",
+        "anecdote": "Los rusos creen en esta superstición por el hecho de que el zar Alejandro fue asesinado con un balde vacío en sus manos."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué insecto, cuando lo atrapas, te proporcionará salud y felicidad ?",
+        "propositions": [
+          "Volar",
+          "Mariquita",
+          "abejorro",
+          "Libélula"
+        ],
+        "réponse": "Mariquita",
+        "anecdote": "En algunas culturas, se dice que la cantidad de puntos en la espalda de la mariquita indica el nivel de suerte otorgado."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué debe evitar reunirse en la mesa so pena de desgracia ?",
+        "propositions": [
+          "Dos tenedores",
+          "Dos cuchillos",
+          "dos cucharas",
+          "Dos toallas"
+        ],
+        "réponse": "Dos cuchillos",
+        "anecdote": "Durante la época medieval, cuando los cuchillos se usaban a menudo como armas, cruzarlos podía representar un peligro potencial."
+      },
+      {
+        "id": 30,
+        "question": "En Inglaterra, ¿tener una afta en la boca te hace ver como qué ?",
+        "propositions": [
+          "Un tramposo",
+          "Un sinvergüenza",
+          "un traidor",
+          "un mentiroso"
+        ],
+        "réponse": "un mentiroso",
+        "anecdote": "Las aftas bucales a veces se pueden asociar con mala suerte o mala higiene bucal, pero no existe una correlación directa."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Rompere uno specchio può portarti quanti anni di sfortuna ?",
+        "propositions": [
+          "Cinque",
+          "Dieci",
+          "Venti",
+          "Sette"
+        ],
+        "réponse": "Sette",
+        "anecdote": "Nell'antichità, alcuni popoli vedevano in esso il riflesso dell'anima, quindi rompere uno specchio equivaleva a distruggere l'anima del suo proprietario."
+      },
+      {
+        "id": 2,
+        "question": "Di che colore è vietato l'abbigliamento durante uno spettacolo ?",
+        "propositions": [
+          "Arancione",
+          "Verde",
+          "Rosso",
+          "Giallo"
+        ],
+        "réponse": "Verde",
+        "anecdote": "La leggenda narra che Molière morì poco dopo la rappresentazione di « Malade Imaginaire », mentre indossava un abito verde."
+      },
+      {
+        "id": 3,
+        "question": "Quale numero è alla base di molte superstizioni ?",
+        "propositions": [
+          "101",
+          "13",
+          "27",
+          "666"
+        ],
+        "réponse": "13",
+        "anecdote": "La superstizione del venerdì 13 è talvolta collegata a venerdì 13 ottobre 1307, quando il re Filippo il Bello fece uccidere i cittadini."
+      },
+      {
+        "id": 4,
+        "question": "Dove non dovresti passare quando attraversi una scala su un marciapiede ?",
+        "propositions": [
+          "Sotto",
+          "Superiore",
+          "Destra",
+          "Sinistra"
+        ],
+        "réponse": "Sotto",
+        "anecdote": "Andare sotto una scala significherebbe infrangere la Santissima Trinità e commettere sacrilegio. Anche questa è solo una questione di cautela."
+      },
+      {
+        "id": 5,
+        "question": "Qual è il colore del gatto che può portarti un cattivo presagio ?",
+        "propositions": [
+          "Bianco",
+          "Grigio",
+          "Nero",
+          "Rossa"
+        ],
+        "réponse": "Nero",
+        "anecdote": "Questa radicata credenza risale al Medioevo, quando i gatti neri venivano rappresentati come compagni delle streghe."
+      },
+      {
+        "id": 6,
+        "question": "Cosa dovresti calpestare con il piede sinistro per favorire la fortuna ?",
+        "propositions": [
+          "formica",
+          "gomma da masticare",
+          "Sasso",
+          "cacca"
+        ],
+        "réponse": "cacca",
+        "anecdote": "Camminare per strada e calpestare la cacca del cane non è mai piacevole, ma con il piede sinistro la fortuna sarà dietro l'angolo."
+      },
+      {
+        "id": 7,
+        "question": "Cosa dovrebbe essere appeso sopra una porta d'ingresso per portare fortuna ?",
+        "propositions": [
+          "Fiori secchi",
+          "Orologio",
+          "Ferro di cavallo",
+          "Cornice"
+        ],
+        "réponse": "Ferro di cavallo",
+        "anecdote": "Questa leggendaria virtù deriverebbe dal fatto che un ferro di cavallo smarrito e rivenduto al fabbro consentiva di raccoglierne alcune specie."
+      },
+      {
+        "id": 8,
+        "question": "Quale oggetto, una volta gettato in una fontana, porterebbe fortuna ?",
+        "propositions": [
+          "Scarpa",
+          "Moneta",
+          "Ciottolo bianco",
+          "Chiave di casa"
+        ],
+        "réponse": "Moneta",
+        "anecdote": "Una fontana è prima di tutto il luogo di una sorgente, dell'acqua viva che sgorga dal terreno, secondo il primo dizionario dell'Accademia di Francia."
+      },
+      {
+        "id": 9,
+        "question": "Quale pianta proteggerebbe dagli spiriti maligni e dai vampiri ?",
+        "propositions": [
+          "Dragoncello",
+          "Origano",
+          "Aglio",
+          "Sedano"
+        ],
+        "réponse": "Aglio",
+        "anecdote": "Una persistente superstizione ha investito l'aglio di potenti poteri, in particolare quello di allontanare dalla casa gli spiriti maligni."
+      },
+      {
+        "id": 10,
+        "question": "Cosa non dovrebbe essere aperto all'interno della sua casa ?",
+        "propositions": [
+          "Ombrello",
+          "Portagioie",
+          "Appeso",
+          "Finestra"
+        ],
+        "réponse": "Ombrello",
+        "anecdote": "Il meccanismo di apertura degli ombrelli con struttura in metallo era pericoloso e poteva ferire qualcuno o danneggiare un oggetto."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale cibo, messo capovolto su un tavolo, porterebbe sfortuna ?",
+        "propositions": [
+          "Pepe",
+          "Pane",
+          "Melanzane",
+          "Pomodoro"
+        ],
+        "réponse": "Pane",
+        "anecdote": "I fornai erano soliti riservare al carnefice una pagnotta, che spesso veniva messa a testa in giù."
+      },
+      {
+        "id": 12,
+        "question": "Quale materiale dovresti toccare per scongiurare la sfortuna ?",
+        "propositions": [
+          "Rame",
+          "Legno",
+          "Piombo",
+          "Marmo"
+        ],
+        "réponse": "Legno",
+        "anecdote": "Il legno rappresenterebbe la Croce di Cristo, e quindi toccare il legno equivarrebbe a formulare una preghiera, un appello per evitare la sfortuna."
+      },
+      {
+        "id": 13,
+        "question": "Quale zampa di animale si trova su alcuni portachiavi ?",
+        "propositions": [
+          "Cane",
+          "Coniglio",
+          "Pecore",
+          "cammello"
+        ],
+        "réponse": "Coniglio",
+        "anecdote": "La zampa di coniglio, una parte non consumata che si asciuga e si conserva facilmente, è stata usata come talismano da varie culture."
+      },
+      {
+        "id": 14,
+        "question": "Quale parola viene talvolta usata al posto della frase « ebuona fortuna » ?",
+        "propositions": [
+          "stronzo",
+          "Merda",
+          "cacca",
+          "Sterco"
+        ],
+        "réponse": "Merda",
+        "anecdote": "La sua origine risale al teatro francese, dove gli attori usavano l'espressione prima di uno spettacolo per scongiurare la sfortuna."
+      },
+      {
+        "id": 15,
+        "question": "Cosa è meglio vedere nel cielo prima di esprimere un desiderio ?",
+        "propositions": [
+          "Luna",
+          "Stella Polare",
+          "Sole",
+          "stella cadente"
+        ],
+        "réponse": "stella cadente",
+        "anecdote": "Una stella cadente è un piccolo corpo che circola nello spazio a una velocità fino a 42 km/s in un sistema di riferimento collegato al Sole."
+      },
+      {
+        "id": 16,
+        "question": "Di che colore è il pompon sul berretto da marinaio francese ?",
+        "propositions": [
+          "Verde",
+          "Blu",
+          "Giallo",
+          "Rosso"
+        ],
+        "réponse": "Rosso",
+        "anecdote": "Tradizionalmente associato al dio del mare in molte culture, si dice che toccare il pompon rosso protegga dagli spiriti maligni."
+      },
+      {
+        "id": 17,
+        "question": "Quale oggetto in cucina, una volta rovesciato, porterebbe sfortuna ?",
+        "propositions": [
+          "Pentola",
+          "Vetro",
+          "Decanter",
+          "Saliera"
+        ],
+        "réponse": "Saliera",
+        "anecdote": "Nel Medioevo, versare il costosissimo sale sulla tavola era una disgrazia. Oggi mettiamo la saliera accanto al vicino di tavola."
+      },
+      {
+        "id": 18,
+        "question": "Cosa non fare con i bicchieri quando si fa tintinnare i bicchieri con gli amici ?",
+        "propositions": [
+          "Scuotili",
+          "Lanciali",
+          "Incrociali",
+          "Restituiscili"
+        ],
+        "réponse": "Incrociali",
+        "anecdote": "È consuetudine brindare guardando l'interlocutore negli occhi, ma anche non bere prima di aver brindato."
+      },
+      {
+        "id": 19,
+        "question": "Quante mandorle ci mette nella tasca destra per evitare i fulmini ?",
+        "propositions": [
+          "Nuovo",
+          "Tre",
+          "Dodici",
+          "Sei"
+        ],
+        "réponse": "Tre",
+        "anecdote": "Se una donna trova due mandorle in un nocciolo, molto probabilmente ci saranno gemelli in famiglia."
+      },
+      {
+        "id": 20,
+        "question": "In quale mezzo di trasporto non dovresti fare la tua proposta di matrimonio ?",
+        "propositions": [
+          "Aereo",
+          "Taxi",
+          "Autobus",
+          "Metropolitana"
+        ],
+        "réponse": "Autobus",
+        "anecdote": "Si dice che porti sfortuna per un uomo fare una proposta di matrimonio su un autobus, un treno o qualsiasi altro luogo pubblico."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In Brasile, quale oggetto non dovresti assolutamente mettere a terra ?",
+        "propositions": [
+          "Guarda",
+          "Borsa",
+          "Paio di guanti",
+          "Cappello"
+        ],
+        "réponse": "Borsa",
+        "anecdote": "Per i brasiliani, lasciare che una borsetta tocchi terra è un grosso errore e porterebbe povertà, da qui i ganci per borse."
+      },
+      {
+        "id": 22,
+        "question": "Cosa è meglio non tagliarsi prima di sostenere un esame ?",
+        "propositions": [
+          "Dito",
+          "Unghie",
+          "Capelli",
+          "Barba"
+        ],
+        "réponse": "Capelli",
+        "anecdote": "Questa superstizione, originaria della Russia, avrebbe la conseguenza di sopprimere le (dure) conoscenze acquisite durante le vostre sedute."
+      },
+      {
+        "id": 23,
+        "question": "Quale oggetto, ricevuto o donato, avrebbe l'effetto di rompere un'amicizia ?",
+        "propositions": [
+          "Coltello",
+          "visto",
+          "Martello",
+          "Cacciavite"
+        ],
+        "réponse": "Coltello",
+        "anecdote": "Questo oggetto (e qualsiasi oggetto affilato o appuntito) spezzerebbe l'amicizia a meno che non venga scambiato con una moneta."
+      },
+      {
+        "id": 24,
+        "question": "In Turchia, cosa è meglio non masticare di notte ?",
+        "propositions": [
+          "Cioccolato",
+          "gomma da masticare",
+          "Uva",
+          "Caramella"
+        ],
+        "réponse": "gomma da masticare",
+        "anecdote": "In Turchia, è sconsigliato masticare gomma di notte perché diventerà carne di morto al calar della notte."
+      },
+      {
+        "id": 25,
+        "question": "Quale oggetto, posto su un letto, potrebbe attirare la sfortuna ?",
+        "propositions": [
+          "Giornale",
+          "Cappello",
+          "Accappatoio",
+          "Chiave di casa"
+        ],
+        "réponse": "Cappello",
+        "anecdote": "In passato, gli uomini si toglievano il cappello quando entravano nella camera dove giaceva un morto."
+      },
+      {
+        "id": 26,
+        "question": "Cosa dovrebbe essere gettato sulla sua spalla sinistra contro la sfortuna ?",
+        "propositions": [
+          "Grano",
+          "Pane",
+          "Sale",
+          "Riso"
+        ],
+        "réponse": "Sale",
+        "anecdote": "Getta un pizzico di sale sulla spalla sinistra per accecare o allontanare gli spiriti maligni dietro di te."
+      },
+      {
+        "id": 27,
+        "question": "Andare in giro con quale oggetto vuoto in mano porterebbe sfortuna ?",
+        "propositions": [
+          "Zaino",
+          "Custodia per occhiali",
+          "Secchio",
+          "Portafoglio"
+        ],
+        "réponse": "Secchio",
+        "anecdote": "I russi credono in questa superstizione dal fatto che lo zar Alessandro fu assassinato con un secchio vuoto tra le mani."
+      },
+      {
+        "id": 28,
+        "question": "Quale insetto, una volta catturato, ti darebbe salute e felicità ?",
+        "propositions": [
+          "Vola",
+          "Libellula",
+          "Coccinella",
+          "Bombo"
+        ],
+        "réponse": "Coccinella",
+        "anecdote": "In alcune culture, si dice che il numero di punti sul dorso della coccinella indichi il livello di fortuna concesso."
+      },
+      {
+        "id": 29,
+        "question": "Cosa dovresti evitare di incontrare a tavola pena la sfortuna ?",
+        "propositions": [
+          "Due asciugamani",
+          "Due cucchiai",
+          "Due forchette",
+          "Due coltelli"
+        ],
+        "réponse": "Due coltelli",
+        "anecdote": "In epoca medievale, quando i coltelli erano spesso usati come armi, incrociarli poteva rappresentare un potenziale pericolo."
+      },
+      {
+        "id": 30,
+        "question": "In Inghilterra, avere un mal di ulcera in bocca ti fa sembrare cosa ?",
+        "propositions": [
+          "Un traditore",
+          "Un mascalzone",
+          "Un bugiardo",
+          "Un imbroglione"
+        ],
+        "réponse": "Un bugiardo",
+        "anecdote": "Le afte a volte possono essere associate a sfortuna o scarsa igiene orale, ma non esiste una correlazione diretta."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Het breken van een spiegel kan je hoeveel jaren pech brengen ?",
+        "propositions": [
+          "Vijf",
+          "zeven",
+          "Tien",
+          "Twintig"
+        ],
+        "réponse": "zeven",
+        "anecdote": "In de oudheid zagen sommige volkeren de weerspiegeling van de ziel erin, dus het breken van een spiegel kwam neer op het vernietigen van de ziel van de eigenaar."
+      },
+      {
+        "id": 2,
+        "question": "Welke kleur is verboden voor kleding tijdens een show ?",
+        "propositions": [
+          "rood",
+          "Groen",
+          "Geel",
+          "Oranje"
+        ],
+        "réponse": "Groen",
+        "anecdote": "Volgens de legende stierf Molière kort na de uitvoering van « Malade Imaginaire », gekleed in een groen pak."
+      },
+      {
+        "id": 3,
+        "question": "Welk getal is de basis van veel bijgeloof ?",
+        "propositions": [
+          "27",
+          "101",
+          "666",
+          "13"
+        ],
+        "réponse": "13",
+        "anecdote": "Het bijgeloof van vrijdag de 13e wordt soms in verband gebracht met vrijdag 13 oktober 1307, toen koning Filips de Schone burgers liet vermoorden."
+      },
+      {
+        "id": 4,
+        "question": "Waar mag je niet langs bij het oversteken van een ladder op een stoep ?",
+        "propositions": [
+          "Juist",
+          "Links",
+          "Boven",
+          "Hieronder"
+        ],
+        "réponse": "Hieronder",
+        "anecdote": "Onder een ladder doorgaan zou neerkomen op het breken van de Heilige Drie-eenheid en het plegen van heiligschennis."
+      },
+      {
+        "id": 5,
+        "question": "Wat is de kleur van de kat die je een slecht voorteken kan brengen ?",
+        "propositions": [
+          "Zwart",
+          "Wit",
+          "Roodharige",
+          "grijs"
+        ],
+        "réponse": "Zwart",
+        "anecdote": "Dit gevestigde geloof dateert uit de Middeleeuwen, toen zwarte katten werden voorgesteld als metgezellen van heksen."
+      },
+      {
+        "id": 6,
+        "question": "Waar moet je op stappen met je linkervoet om geluk te bevorderen ?",
+        "propositions": [
+          "Kiezel",
+          "mier",
+          "kauwgom",
+          "poep"
+        ],
+        "réponse": "poep",
+        "anecdote": "Over straat lopen en op hondenpoep stappen is nooit prettig, maar met je linkervoet ligt het geluk om de hoek."
+      },
+      {
+        "id": 7,
+        "question": "Wat moet er boven een voordeur worden gehangen om geluk te brengen ?",
+        "propositions": [
+          "Hoefijzer",
+          "Droogbloemen",
+          "Fotolijstje",
+          "Klok"
+        ],
+        "réponse": "Hoefijzer",
+        "anecdote": "Deze legendarische deugd zou voortkomen uit het feit dat een verloren en doorverkocht hoefijzer aan de smid het mogelijk maakte om een \u200b\u200bpaar soorten te oogsten."
+      },
+      {
+        "id": 8,
+        "question": "Welk voorwerp, eenmaal in een fontein gegooid, zou geluk brengen ?",
+        "propositions": [
+          "Munt",
+          "Schoen",
+          "Witte kiezelsteen",
+          "Huissleutel"
+        ],
+        "réponse": "Munt",
+        "anecdote": "Een fontein is in de eerste plaats de plaats van een bron, van levend water dat uit de grond komt, aldus het eerste woordenboek van de Franse Académie."
+      },
+      {
+        "id": 9,
+        "question": "Welke plant zou beschermen tegen boze geesten en vampiers ?",
+        "propositions": [
+          "Dragon",
+          "Selderij",
+          "Oregano",
+          "Knoflook"
+        ],
+        "réponse": "Knoflook",
+        "anecdote": "Door een aanhoudend bijgeloof heeft knoflook krachtige krachten gekregen, met name om boze geesten uit huis te verdrijven."
+      },
+      {
+        "id": 10,
+        "question": "Wat mag niet worden geopend in zijn huis ?",
+        "propositions": [
+          "Paraplu",
+          "Venster",
+          "Sieradendoos",
+          "Hangend"
+        ],
+        "réponse": "Paraplu",
+        "anecdote": "Het openingsmechanisme van paraplu's met een metalen frame was gevaarlijk en kon iemand verwonden of een object beschadigen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk voedsel, ondersteboven op een tafel geplaatst, zou ongeluk brengen ?",
+        "propositions": [
+          "Peper",
+          "Brood",
+          "Tomaat",
+          "Aubergine"
+        ],
+        "réponse": "Brood",
+        "anecdote": "Vroeger bewaarden bakkers een brood voor de beul, dat vaak ondersteboven werd gelegd."
+      },
+      {
+        "id": 12,
+        "question": "Welk materiaal moet je aanraken om pech af te weren ?",
+        "propositions": [
+          "Leiden",
+          "Marmer",
+          "Hout",
+          "Koper"
+        ],
+        "réponse": "Hout",
+        "anecdote": "Het hout zou het Kruis van Christus voorstellen, en daarom zou het aanraken van hout neerkomen op het formuleren van een gebed, een oproep om ongeluk te vermijden."
+      },
+      {
+        "id": 13,
+        "question": "Van welk dier staat de poot op sommige sleutelhangers ?",
+        "propositions": [
+          "Hond",
+          "Schapen",
+          "Konijn",
+          "kameel"
+        ],
+        "réponse": "Konijn",
+        "anecdote": "De poot van het konijn, een niet opgegeten deel dat droogt en gemakkelijk kan worden opgeborgen, wordt door verschillende culturen als talisman gebruikt."
+      },
+      {
+        "id": 14,
+        "question": "Welk woord wordt soms gebruikt in plaats van de uitdrukking « veel succes » ?",
+        "propositions": [
+          "drol",
+          "Mest",
+          "poep",
+          "Shit"
+        ],
+        "réponse": "Shit",
+        "anecdote": "De oorsprong gaat terug tot het Franse theater, waar acteurs de uitdrukking voor een optreden gebruikten om pech af te weren."
+      },
+      {
+        "id": 15,
+        "question": "Wat kun je het beste in de lucht zien voordat je een wens doet ?",
+        "propositions": [
+          "Maan",
+          "Poolster",
+          "vallende ster",
+          "zon"
+        ],
+        "réponse": "vallende ster",
+        "anecdote": "Een vallende ster is een klein lichaam dat in de ruimte circuleert met een snelheid tot 42 km/s in een referentiekader gekoppeld aan de zon."
+      },
+      {
+        "id": 16,
+        "question": "Welke kleur heeft de pompon op de Franse zeemanspet ?",
+        "propositions": [
+          "Groen",
+          "Blauw",
+          "Geel",
+          "rood"
+        ],
+        "réponse": "rood",
+        "anecdote": "Traditioneel geassocieerd met de god van de zee in veel culturen, wordt gezegd dat het aanraken van de rode pompon beschermt tegen boze geesten."
+      },
+      {
+        "id": 17,
+        "question": "Welk voorwerp in de keuken zou, eenmaal omgestoten, ongeluk brengen ?",
+        "propositions": [
+          "Karaf",
+          "Glas",
+          "Zoutstrooier",
+          "Steelpan"
+        ],
+        "réponse": "Zoutstrooier",
+        "anecdote": "In de Middeleeuwen was het een ongeluk om het peperdure zout op tafel te morsen. Vandaag hebben we het zoutvaatje naast de tafelbuurman gezet."
+      },
+      {
+        "id": 18,
+        "question": "Wat niet te doen met de bril bij het klinken van een bril met vrienden ?",
+        "propositions": [
+          "Retourneer ze",
+          "Steek ze over",
+          "Schud ze",
+          "Gooi ze"
+        ],
+        "réponse": "Steek ze over",
+        "anecdote": "Het is gebruikelijk om te proosten terwijl je de ander in de ogen kijkt, maar ook om niet te drinken voordat je hebt geproost."
+      },
+      {
+        "id": 19,
+        "question": "Hoeveel amandelen heeft hij in zijn rechterzak om bliksem te voorkomen ?",
+        "propositions": [
+          "Nieuw",
+          "Zes",
+          "Drie",
+          "Twaalf"
+        ],
+        "réponse": "Drie",
+        "anecdote": "Als een vrouw twee amandelen in één pit vindt, zal er hoogstwaarschijnlijk een tweeling in de familie zijn."
+      },
+      {
+        "id": 20,
+        "question": "In welk vervoermiddel mag u uw huwelijksaanzoek niet doen ?",
+        "propositions": [
+          "metro",
+          "Bussen",
+          "Vliegtuig",
+          "taxiën"
+        ],
+        "réponse": "Bussen",
+        "anecdote": "Er wordt gezegd dat het ongeluk brengt als een man een huwelijksaanzoek doet in een bus, trein of een andere openbare plaats."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk voorwerp mag je in Brazilië absoluut niet op de grond zetten ?",
+        "propositions": [
+          "Kijk",
+          "Paar handschoenen",
+          "Handtas",
+          "Hoed"
+        ],
+        "réponse": "Handtas",
+        "anecdote": "Voor Brazilianen is het een grote vergissing om een \u200b\u200bhandtas de grond te laten raken, wat armoede zou veroorzaken, vandaar de tashaken."
+      },
+      {
+        "id": 22,
+        "question": "Wat is beter om jezelf niet te snijden voordat je een examen aflegt ?",
+        "propositions": [
+          "Haar",
+          "Baard",
+          "Nagels",
+          "Vinger"
+        ],
+        "réponse": "Haar",
+        "anecdote": "Dit bijgeloof, afkomstig uit Rusland, zou tot gevolg hebben dat de tijdens je sessies opgedane (harde) kennis wordt onderdrukt."
+      },
+      {
+        "id": 23,
+        "question": "Welk voorwerp, ontvangen of gegeven, zou een vriendschap kunnen verbreken ?",
+        "propositions": [
+          "zag",
+          "Hamer",
+          "Schroevendraaier",
+          "Mes"
+        ],
+        "réponse": "Mes",
+        "anecdote": "Dit item (en alle scherpe of puntige items) zou de vriendschap verbreken, tenzij het wordt geruild voor een munt."
+      },
+      {
+        "id": 24,
+        "question": "Wat is in Turkije beter om's nachts niet te kauwen ?",
+        "propositions": [
+          "Druif",
+          "Toffee",
+          "kauwgom",
+          "Chocolade"
+        ],
+        "réponse": "kauwgom",
+        "anecdote": "In Turkije wordt het afgeraden om 's nachts kauwgom te kauwen, omdat het dan 's avonds het vlees van de doden wordt."
+      },
+      {
+        "id": 25,
+        "question": "Welk voorwerp, geplaatst op een bed, zou ongeluk kunnen aantrekken ?",
+        "propositions": [
+          "Krant",
+          "Badjas",
+          "Huissleutel",
+          "Hoed"
+        ],
+        "réponse": "Hoed",
+        "anecdote": "Vroeger namen mannen hun hoed af als ze de kamer binnengingen waar een dode lag."
+      },
+      {
+        "id": 26,
+        "question": "Wat moet er over zijn linkerschouder worden gegooid tegen pech ?",
+        "propositions": [
+          "Tarwe",
+          "Brood",
+          "Rijst",
+          "Zout"
+        ],
+        "réponse": "Zout",
+        "anecdote": "Gooi een snufje zout over je linkerschouder om boze geesten achter je te verblinden of af te weren."
+      },
+      {
+        "id": 27,
+        "question": "Rondlopen met welk leeg voorwerp in de hand zou ongeluk brengen ?",
+        "propositions": [
+          "Portemonnee",
+          "Emmer",
+          "Brillenkoker",
+          "Rugzak"
+        ],
+        "réponse": "Emmer",
+        "anecdote": "Russen geloven in dit bijgeloof vanwege het feit dat tsaar Alexander werd vermoord met een lege emmer in zijn handen."
+      },
+      {
+        "id": 28,
+        "question": "Welk insect, als het wordt gevangen, zou je gezondheid en geluk geven ?",
+        "propositions": [
+          "Libel",
+          "Hommel",
+          "Lieveheersbeestje",
+          "Vlieg"
+        ],
+        "réponse": "Lieveheersbeestje",
+        "anecdote": "In sommige culturen wordt gezegd dat het aantal stippen op de rug van het lieveheersbeestje het toegekende geluksniveau aangeeft."
+      },
+      {
+        "id": 29,
+        "question": "Wat moet je op straffe van tegenslag vermijden aan tafel te ontmoeten ?",
+        "propositions": [
+          "Twee Lepels",
+          "Twee messen",
+          "Twee vorken",
+          "Twee handdoeken"
+        ],
+        "réponse": "Twee messen",
+        "anecdote": "In de Middeleeuwen, toen messen vaak als wapen werden gebruikt, kon het kruisen ervan een potentieel gevaar vormen."
+      },
+      {
+        "id": 30,
+        "question": "In Engeland, als je een aft in je mond hebt, zie je er zo uit ?",
+        "propositions": [
+          "Een verrader",
+          "Een bedrieger",
+          "Een schurk",
+          "Een leugenaar"
+        ],
+        "réponse": "Een leugenaar",
+        "anecdote": "Aften kunnen soms in verband worden gebracht met pech of een slechte mondhygiëne, maar er is geen direct verband."
+      }
+    ]
+    }
+  }
+}

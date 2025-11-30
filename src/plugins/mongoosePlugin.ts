@@ -10,6 +10,8 @@ import GameProposal from '../models/GameProposal';
 import PlayerGameLevel from '../models/PlayerGameLevel';
 import Tournament from '../models/Tournament';
 import Report from '../models/Report';
+import QuizQuestion from "../models/QuizQuestion";
+import QuizAnswer from "../models/QuizAnswer";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -25,7 +27,9 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     GameProposal: GameProposal,
     PlayerGameLevel: PlayerGameLevel,
     Tournament: Tournament,
-    Report: Report
+    Report: Report,
+    QuizQuestion: QuizQuestion,
+    QuizAnswer: QuizAnswer
   });
 
   fastify.addHook('onClose', async () => {

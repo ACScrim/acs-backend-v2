@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 1,
+  "mise-à-jour": "2023-06-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Cinéma",
+      "nom": "Clint Eastwood",
+      "slogan": "Acteur, réalisateur et producteur"
+    },
+    "en": {
+      "catégorie": "Cinema",
+      "nom": "Clint Eastwood",
+      "slogan": "Actor, director and producer"
+    },
+    "es": {
+      "catégorie": "Cine",
+      "nom": "Clint Eastwood",
+      "slogan": "Actor, director y productor"
+    },
+    "it": {
+      "catégorie": "Cinema",
+      "nom": "Clint Eastwood",
+      "slogan": "Attore, regista e produttore"
+    },
+    "de": {
+      "catégorie": "Kino",
+      "nom": "Clint Eastwood",
+      "slogan": "Schauspieler, Regisseur und Produzent"
+    },
+    "nl": {
+      "catégorie": "Bioscoop",
+      "nom": "Clint Eastwood",
+      "slogan": "Acteur, regisseur en producent"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans quel film de Clint Eastwood un fugitif prend-il en otage un jeune enfant ?",
+        "propositions": [
+          "Magnum Force",
+          "La Corde raide",
+          "Un monde parfait",
+          "La Sanction"
+        ],
+        "réponse": "Un monde parfait",
+        "anecdote": "Alors que le film a été proposé à Steven Spielberg, c'est finalement Clint Eastwood qui a récupéré le projet."
+      },
+      {
+        "id": 2,
+        "question": "Quel acteur et musicien est également le fils du réalisateur Clint Eastwood ?",
+        "propositions": [
+          "Kevin",
+          "Kyle",
+          "Killian",
+          "Kenneth"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "Après avoir fait des études de cinéma, Kyle Eastwood est devenu bassiste et contrebassiste de jazz."
+      },
+      {
+        "id": 3,
+        "question": "Dans quel film sorti en 1974 Jeff Bridges a-t-il volé la vedette à Clint Eastwood ?",
+        "propositions": [
+          "Le Canardeur",
+          "Rancho Deluxe",
+          "Stay Hungry",
+          "La Dernière Chance"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "La bande originale du film est composée par Dee Barton mais la chanson titre est interprétée et composée par Paul Williams."
+      },
+      {
+        "id": 4,
+        "question": "Quelle actrice et compagne Clint Eastwood surnommait-il « princesse » ?",
+        "propositions": [
+          "Sondra Locke",
+          "Dina Ruiz",
+          "Frances Fisher",
+          "Jocelyn Reeves"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "Après la séparation d'avec Clint Eastwood et de graves problèmes de santé, les années 1990 furent plus chaotiques pour Sondra Locke."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel film de guerre Clint Eastwood interprète-t-il le rôle de Tom Highway ?",
+        "propositions": [
+          "Les Pleins Pouvoirs",
+          "Le Canardeur",
+          "La Sanction",
+          "Le Maître de guerre"
+        ],
+        "réponse": "Le Maître de guerre",
+        "anecdote": "Le titre en anglais fait référence à la bataille de Crèvecoeur (Battle of Heartbreak Ridge), pendant la guerre de Corée."
+      },
+      {
+        "id": 6,
+        "question": "Qui retrouve-t-on aux côtés de Clint Eastwood dans le film « Sur la route de Madison » ?",
+        "propositions": [
+          "Jodie Foster",
+          "Meryl Streep",
+          "Sondra Locke",
+          "Jane Fonda"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "Le film a reçu un Oscar de la meilleure actrice pour Meryl Streep et un César du meilleur film étranger en 1996."
+      },
+      {
+        "id": 7,
+        "question": "Quel film Clint Eastwood a-t-il consacré au saxophoniste Charlie Parker ?",
+        "propositions": [
+          "Bird",
+          "Pink Cadillac",
+          "Breezy",
+          "La Dernière Chance"
+        ],
+        "réponse": "Bird",
+        "anecdote": "Le film « Bird » est l'un des très rares films consacrés au jazz et émane d'un réalisateur lui-même musicien."
+      },
+      {
+        "id": 8,
+        "question": "À 70 ans, quel film Clint Eastwood a-t-il tourné en accord avec la NASA ?",
+        "propositions": [
+          "La Relève",
+          "Au-delà",
+          "Space Cowboys",
+          "Invictus"
+        ],
+        "réponse": "Space Cowboys",
+        "anecdote": "Clint Eastwood a voulu ici rendre hommage à des pionniers de l'aviation moderne qui n'ont pu participer à la conquête spatiale."
+      },
+      {
+        "id": 9,
+        "question": "Qui interprète le rôle de la jeune boxeuse dans « Million Dollar Baby », de Clint Eastwood ?",
+        "propositions": [
+          "Reese Witherspoon",
+          "Charlize Theron",
+          "Halle Berry",
+          "Hilary Swank"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "Pour se préparer au rôle, Hilary Swank, qui n'a eu que trois mois, s'est entraînée avec Hector Roca, un ancien coach."
+      },
+      {
+        "id": 10,
+        "question": "Quel réalisateur a embauché Clint Eastwood pour la « Trilogie du dollar » ?",
+        "propositions": [
+          "Sergio Corbucci",
+          "Tonino Valerii",
+          "Giorgio Ferroni",
+          "Sergio Leone"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "Les films ont été réunis sous ce nom commun pour des raisons promotionnelles postérieures à leur réalisation et diffusion."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quelle série traitant de la transhumance Clint Eastwood incarne-t-il Rowdy ?",
+        "propositions": [
+          "Les Proies",
+          "Rawhide",
+          "Les Sorcières",
+          "Sierra torride"
+        ],
+        "réponse": "Rawhide",
+        "anecdote": "La série « Rawhide » est surtout restée célèbre pour avoir fait découvrir un jeune acteur prometteur : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "Dans quel film Clint et Kyle Eastwood ont-ils joué ensemble sur fond de country ?",
+        "propositions": [
+          "Mystic River",
+          "Pink Cadillac",
+          "Bird",
+          "Honkytonk Man"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "Le film a été nominé au prix de la plus mauvaise chanson (Gail Redd et Mitchell Torok, pour « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "Le premier film réalisé par Clint Eastwood en 1971 a pour titre « Un frisson dans... »",
+        "propositions": [
+          "La suie",
+          "La nuit",
+          "La pluie",
+          "La vie"
+        ],
+        "réponse": "La nuit",
+        "anecdote": "Clint Eastwood ne fut payé qu'en tant qu'acteur pour ce film, ayant en effet accepté de ne pas être rétribué comme réalisateur."
+      },
+      {
+        "id": 14,
+        "question": "Quel est le nom de famille de l'inspecteur Harry interprété par Clint Eastwood ?",
+        "propositions": [
+          "Beddoe",
+          "Dunn",
+          "Coogan",
+          "Calahan"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "L'histoire de ce film s'inspire du tueur du Zodiaque, qui sévit à San Francisco dès la fin des années 1960."
+      },
+      {
+        "id": 15,
+        "question": "Le tournage de quel film de Clint Eastwood a-t-il eu lieu dans les Alpes suisses ?",
+        "propositions": [
+          "Les Proies",
+          "Les Sorcières",
+          "La Sanction",
+          "Créance de sang"
+        ],
+        "réponse": "La Sanction",
+        "anecdote": "Le film « La Sanction » devait être interprété au départ par Paul Newman, mais celui-ci n'était pas intéressé par le projet."
+      },
+      {
+        "id": 16,
+        "question": "Dans quel film sorti en 1984 Clint et Alison Eastwood ont-ils joué ensemble ?",
+        "propositions": [
+          "Ça va cogner",
+          "Joe Kidd",
+          "La Corde raide",
+          "Un monde parfait"
+        ],
+        "réponse": "La Corde raide",
+        "anecdote": "« La Corde raide » mélange ambiance noire, réalisation haletante ainsi qu'un questionnement sur les rapports sexe / pouvoir / argent."
+      },
+      {
+        "id": 17,
+        "question": "De quelle ville de Californie Clint Eastwood a-t-il été élu maire en 1986 ?",
+        "propositions": [
+          "Fremont",
+          "Carmel",
+          "Fresno",
+          "Inglewood"
+        ],
+        "réponse": "Carmel",
+        "anecdote": "Carmel-by-the-Sea est une municipalité américaine de Californie, située à environ 150 km au sud de San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "En quelle année Clint Eastwood a-t-il présidé le jury du Festival de Cannes ?",
+        "propositions": [
+          "1994",
+          "2002",
+          "2006",
+          "1998"
+        ],
+        "réponse": "1994",
+        "anecdote": "L'actrice, chanteuse et réalisatrice Jeanne Moreau fut à nouveau chargée d'animer les cérémonies d'ouverture et de remise des prix."
+      },
+      {
+        "id": 19,
+        "question": "Quel film de Clint Eastwood met en scène trois anciens amis liés par un sombre incident ?",
+        "propositions": [
+          "Pink Cadillac",
+          "Gran Torino",
+          "Million Dollar Baby",
+          "Mystic River"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood a expliqué que Sean Penn, Tim Robbins et Kevin Bacon étaient ses premiers choix pour les rôles principaux."
+      },
+      {
+        "id": 20,
+        "question": "Avec quelle société Clint Eastwood est-il devenu producteur en 1968 ?",
+        "propositions": [
+          "TriStar",
+          "Malpaso",
+          "Brooksfilms",
+          "Newsreel"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard a été le président de la compagnie Malpaso jusqu'à son décès en décembre 1969 à l'âge de 53 ans."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Combien de Césars Clint Eastwood a-t-il reçu au cours de sa carrière ?",
+        "propositions": [
+          "Trois",
+          "Un",
+          "Deux",
+          "Aucun"
+        ],
+        "réponse": "Trois",
+        "anecdote": "Clint Eastwood a remporté quatre Oscars, cinq Golden Globes, trois Césars et la Palme d'honneur au Festival de Cannes en 2009."
+      },
+      {
+        "id": 22,
+        "question": "Grâce à qui Clint Eastwood a-t-il découvert le jazz via une collection de disques ?",
+        "propositions": [
+          "Son père",
+          "Son frère",
+          "Sa mère",
+          "Sa soeur"
+        ],
+        "réponse": "Sa mère",
+        "anecdote": "Adolescent, il commence lui-même à jouer de la clarinette, puis du piano, et finit même par prendre des cours."
+      },
+      {
+        "id": 23,
+        "question": "Quel film avec Clint Eastwood fut appelé « Vigilance » avant son titre définitif ?",
+        "propositions": [
+          "Honkytonk Man",
+          "Magnum Force",
+          "Le Canardeur",
+          "La Sanction"
+        ],
+        "réponse": "Magnum Force",
+        "anecdote": "À noter la présence d'Albert Popwell, qui apparaît dans les quatre premiers films de la saga avec un rôle à chaque fois différent."
+      },
+      {
+        "id": 24,
+        "question": "Quel domaine artistique fut le premier contact entre Clint Eastwood et le monde artistique ?",
+        "propositions": [
+          "Sculpture",
+          "Danse",
+          "Photographie",
+          "Théâtre"
+        ],
+        "réponse": "Photographie",
+        "anecdote": "« Sur la route de Madison », Clint Eastwood interprète un photographe qui va vivre un grand amour romantique sans lendemain."
+      },
+      {
+        "id": 25,
+        "question": "Quelle société a remis à Clint Eastwood son diplôme de maître-nageur ?",
+        "propositions": [
+          "IBM",
+          "Croix-Rouge",
+          "Universal",
+          "Speedo"
+        ],
+        "réponse": "Croix-Rouge",
+        "anecdote": "Clint Eastwood a reçu au même moment sa convocation au service militaire, où ce diplôme de maître-nageur se révéla précieux."
+      },
+      {
+        "id": 26,
+        "question": "Durant quel tournage Clint Eastwood a-t-il attrapé une grippe puis une bronchite ?",
+        "propositions": [
+          "Jugé coupable",
+          "Impitoyable",
+          "Casper",
+          "Joe Kidd"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall et John Saxon s'illustrent tout spécialement dans cette oeuvre efficace mais classique."
+      },
+      {
+        "id": 27,
+        "question": "Comment Clint Eastwood fut-il longtemps surnommé par ses parents ?",
+        "propositions": [
+          "Easty",
+          "Woody",
+          "Clinny",
+          "Sonny"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "Il fut aussi surnommé Clinton Jr. en hommage à son père, bien que son nom complet soit Clinton Elias Eastwood Jr."
+      },
+      {
+        "id": 28,
+        "question": "À quel âge Clint Eastwood a-t-il bien failli mourir noyé à Pacific Palisades, Los Angeles ?",
+        "propositions": [
+          "Douze ans",
+          "Quatre ans",
+          "Seize ans",
+          "Huit ans"
+        ],
+        "réponse": "Quatre ans",
+        "anecdote": "L'enfance de Clint Jr. est aussi marquée par des déménagements incessants dus aux changements de travail de son père."
+      },
+      {
+        "id": 29,
+        "question": "Sous quel label Clint Eastwood a-t-il enregistré son premier album studio ?",
+        "propositions": [
+          "Jazzovo",
+          "Malpaso",
+          "Figaro",
+          "Cameo"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "La société Cameo Records, créée en 1922 et basée à Manhattan, proposait des distributions se concentrant autour du jazz."
+      },
+      {
+        "id": 30,
+        "question": "Quel est le prénom du deuxième enfant de Clint Eastwood, né en 1972 ?",
+        "propositions": [
+          "Kyle",
+          "Scott",
+          "Alison",
+          "Kimber"
+        ],
+        "réponse": "Alison",
+        "anecdote": "Après une adolescence rebelle, Alison Eastwood est partie à 18 ans étudier le métier d'actrice à Santa Barbara."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In which Clint Eastwood film does a fugitive take a young child hostage ?",
+        "propositions": [
+          "Magnum Force",
+          "The Sanction",
+          "A perfect world",
+          "The Tightrope"
+        ],
+        "réponse": "A perfect world",
+        "anecdote": "While the film was offered to Steven Spielberg, it was ultimately Clint Eastwood who took over the project."
+      },
+      {
+        "id": 2,
+        "question": "What is the first name of actor and director Clint Eastwood's first child ?",
+        "propositions": [
+          "Kyle",
+          "Scott",
+          "Alison",
+          "Kimber"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "After studying cinema, Kyle Eastwood became a jazz bassist and double bassist."
+      },
+      {
+        "id": 3,
+        "question": "In which 1974 movie did Jeff Bridges steal the show from Clint Eastwood ?",
+        "propositions": [
+          "Rancho Deluxe",
+          "The Last Chance",
+          "Le Canardeur",
+          "Stay Hungry"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "The film's soundtrack is composed by Dee Barton but the title song is performed and composed by Paul Williams."
+      },
+      {
+        "id": 4,
+        "question": "Which actress and companion Clint Eastwood nicknamed princess ?",
+        "propositions": [
+          "Jocelyn Reeves",
+          "Sondra Locke",
+          "Frances Fisher",
+          "Dina Ruiz"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "After separation from Clint Eastwood and serious health problems, the 1990s were more chaotic for Sondra Locke."
+      },
+      {
+        "id": 5,
+        "question": "In which war film does Clint Eastwood play the role of Tom Highway ?",
+        "propositions": [
+          "The Warmaster",
+          "The Sanction",
+          "The Full Powers",
+          "Le Canardeur"
+        ],
+        "réponse": "The Warmaster",
+        "anecdote": "The title in English refers to the Battle of Heartbreak Ridge, during the Korean War."
+      },
+      {
+        "id": 6,
+        "question": "Who do we find alongside Clint Eastwood in the movie « On the road to Madison » ?",
+        "propositions": [
+          "Meryl Streep",
+          "Jodie Foster",
+          "Sondra Locke",
+          "Jane Fonda"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "The film received an Oscar for Best Actress for Meryl Streep and a César for Best Foreign Film in 1996."
+      },
+      {
+        "id": 7,
+        "question": "Which film did Clint Eastwood dedicate to saxophonist Charlie Parker ?",
+        "propositions": [
+          "Bird",
+          "Pink Cadillac",
+          "Breezy",
+          "The Last Chance"
+        ],
+        "réponse": "Bird",
+        "anecdote": "The film « Bird » is one of the very few films devoted to jazz and comes from a director who is a musician himself."
+      },
+      {
+        "id": 8,
+        "question": "At the age of 70, what film did Clint Eastwood shoot in agreement with NASA ?",
+        "propositions": [
+          "Beyond",
+          "Space Cowboys",
+          "La Relève",
+          "Invictus"
+        ],
+        "réponse": "Space Cowboys",
+        "anecdote": "Clint Eastwood wanted here to pay tribute to pioneers of modern aviation who were unable to participate in the conquest of space."
+      },
+      {
+        "id": 9,
+        "question": "Who plays the role of the young boxer in « Million Dollar Baby », by Clint Eastwood ?",
+        "propositions": [
+          "Charlize Theron",
+          "Hilary Swank",
+          "Reese Witherspoon",
+          "Halle Berry"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "To prepare for the role, Hilary Swank, who was only three months old, trained with Hector Roca, a former coach."
+      },
+      {
+        "id": 10,
+        "question": "Which director did Clint Eastwood hire for the « Dollar Trilogy » ?",
+        "propositions": [
+          "Giorgio Ferroni",
+          "Sergio Leone",
+          "Sergio Corbucci",
+          "Tonino Valerii"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "The films have been combined under this common name for promotional reasons subsequent to their production and distribution."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which series dealing with transhumance does Clint Eastwood play Rowdy ?",
+        "propositions": [
+          "The Prey",
+          "Rawhide",
+          "Scorching Sierra",
+          "The Witches"
+        ],
+        "réponse": "Rawhide",
+        "anecdote": "The series « Rawhide » has especially remained famous for having introduced a promising young actor : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "In which movie did Clint and Kyle Eastwood play together against a country background ?",
+        "propositions": [
+          "Pink Cadillac",
+          "Mystic River",
+          "Bird",
+          "Honkytonk Man"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "The film was nominated for Worst Song (Gail Redd and Mitchell Torok, for « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "The first film directed by Clint Eastwood in 1971 is entitled « A thrill in ... »",
+        "propositions": [
+          "At night",
+          "The rain",
+          "Soot",
+          "Life"
+        ],
+        "réponse": "At night",
+        "anecdote": "Clint Eastwood was only paid as an actor for this film, having agreed not to be paid as a director."
+      },
+      {
+        "id": 14,
+        "question": "What is the last name of the famous detective Harry played by Clint Eastwood ?",
+        "propositions": [
+          "Calahan",
+          "Coogan",
+          "Beddoe",
+          "Dunn"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "The story of this film is inspired by the Zodiac killer, who raged in San Francisco from the late 1960s."
+      },
+      {
+        "id": 15,
+        "question": "Which Clint Eastwood movie was filmed in the Swiss Alps ?",
+        "propositions": [
+          "Blood debt",
+          "The Witches",
+          "The Sanction",
+          "The Prey"
+        ],
+        "réponse": "The Sanction",
+        "anecdote": "The film « La Sanction » was originally to be played by Paul Newman, but he was not interested in the project."
+      },
+      {
+        "id": 16,
+        "question": "In which 1984 movie did Clint and Alison Eastwood star together ?",
+        "propositions": [
+          "A perfect world",
+          "Joe Kidd",
+          "It'll knock",
+          "The Tightrope"
+        ],
+        "réponse": "The Tightrope",
+        "anecdote": "« La Corde raide » mixes a dark atmosphere, a breathtaking production as well as a questioning of the sex / power / money relationship."
+      },
+      {
+        "id": 17,
+        "question": "What city in California was Clint Eastwood elected mayor in 1986 ?",
+        "propositions": [
+          "Carmel",
+          "Fresno",
+          "Inglewood",
+          "Fremont"
+        ],
+        "réponse": "Carmel",
+        "anecdote": "Carmel-by-the-Sea is a municipality in the United States of California, located about 150 km south of San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "In which year did Clint Eastwood preside over the jury of the Cannes Film Festival ?",
+        "propositions": [
+          "1994",
+          "2002",
+          "2006",
+          "1998"
+        ],
+        "réponse": "1994",
+        "anecdote": "The actress, singer and director Jeanne Moreau was once again responsible for hosting the opening and award ceremonies."
+      },
+      {
+        "id": 19,
+        "question": "Which Clint Eastwood movie features three old friends linked by a dark incident ?",
+        "propositions": [
+          "Mystic River",
+          "Pink Cadillac",
+          "Gran Torino",
+          "Million Dollar Baby"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood explained that Sean Penn, Tim Robbins, and Kevin Bacon were his top picks for the lead roles."
+      },
+      {
+        "id": 20,
+        "question": "With which company did Clint Eastwood become a producer in 1968 ?",
+        "propositions": [
+          "Newsreel",
+          "Malpaso",
+          "TriStar",
+          "Brooksfilms"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard was the President of the Malpaso Company until his death in December 1969 at the age of 53."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "How many Caesars has Clint Eastwood received during his career ?",
+        "propositions": [
+          "None",
+          "A",
+          "Three",
+          "Two"
+        ],
+        "réponse": "Three",
+        "anecdote": "Clint Eastwood won four Oscars, five Golden Globes, three Césars and the Palme d'honneur at the Cannes Film Festival in 2009."
+      },
+      {
+        "id": 22,
+        "question": "Thanks to whom did Clint Eastwood discover jazz through a record collection ?",
+        "propositions": [
+          "His sister",
+          "His brother",
+          "His mother",
+          "His father"
+        ],
+        "réponse": "His mother",
+        "anecdote": "As a teenager, he began to play the clarinet himself, then the piano, and even ended up taking lessons."
+      },
+      {
+        "id": 23,
+        "question": "Which movie starring Clint Eastwood was called « Vigilance » before its final title ?",
+        "propositions": [
+          "The Sanction",
+          "Le Canardeur",
+          "Honkytonk Man",
+          "Magnum Force"
+        ],
+        "réponse": "Magnum Force",
+        "anecdote": "Note the presence of Albert Popwell, who appears in the first four films of the saga with a different role each time."
+      },
+      {
+        "id": 24,
+        "question": "What artistic field was Clint Eastwood's first contact with the artistic world ?",
+        "propositions": [
+          "Dance",
+          "Photography",
+          "Sculpture",
+          "Theater"
+        ],
+        "réponse": "Photography",
+        "anecdote": "« On the road to Madison », Clint Eastwood plays a photographer who will experience a great romantic love without tomorrow."
+      },
+      {
+        "id": 25,
+        "question": "Which company gave Clint Eastwood his lifeguard diploma ?",
+        "propositions": [
+          "Red Cross",
+          "Speedo",
+          "Universal",
+          "IBM"
+        ],
+        "réponse": "Red Cross",
+        "anecdote": "At the same time, Clint Eastwood received his summons to military service, where this lifeguard diploma proved invaluable."
+      },
+      {
+        "id": 26,
+        "question": "During which shooting did Clint Eastwood catch the flu and then bronchitis ?",
+        "propositions": [
+          "Ruthless",
+          "Joe Kidd",
+          "Found guilty",
+          "Casper"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall and John Saxon stand out especially in this effective but classic work."
+      },
+      {
+        "id": 27,
+        "question": "How was Clint Eastwood long nicknamed by his parents ?",
+        "propositions": [
+          "Woody",
+          "Clinny",
+          "Easty",
+          "Sonny"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "He was also nicknamed Clinton Jr. in honor of his father, although his full name was Clinton Elias Eastwood Jr."
+      },
+      {
+        "id": 28,
+        "question": "At what age did Clint Eastwood almost drown in Pacific Palisades, Los Angeles ?",
+        "propositions": [
+          "Four years",
+          "Sixteen years",
+          "Eight years",
+          "Twelve years"
+        ],
+        "réponse": "Four years",
+        "anecdote": "The childhood of Clint Jr. is also marked by incessant moves due to the changes of work of his father."
+      },
+      {
+        "id": 29,
+        "question": "Under which label did Clint Eastwood record his first studio album ?",
+        "propositions": [
+          "Figaro",
+          "Jazzovo",
+          "Cameo",
+          "Malpaso"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "Cameo Records, founded in 1922 and based in Manhattan, offered distributions focusing on jazz."
+      },
+      {
+        "id": 30,
+        "question": "What is the first name of Clint Eastwood's second child, born in 1972 ?",
+        "propositions": [
+          "Kyle",
+          "Alison",
+          "Kimber",
+          "Scott"
+        ],
+        "réponse": "Alison",
+        "anecdote": "After a rebellious adolescence, Alison Eastwood left at the age of 18 to study the profession of actress in Santa Barbara."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welchem Film von Clint Eastwood nimmt ein Flüchtling ein kleines Kind als Geisel ?",
+        "propositions": [
+          "Eine perfekte Welt",
+          "Die Sanktion",
+          "Magnum Force",
+          "Das Drahtseil"
+        ],
+        "réponse": "Eine perfekte Welt",
+        "anecdote": "Während der Film Steven Spielberg angeboten wurde, war es letztendlich Clint Eastwood, der das Projekt übernahm."
+      },
+      {
+        "id": 2,
+        "question": "Wie lautet der Vorname des ersten Kindes des Schauspielers und Regisseurs Clint Eastwood ?",
+        "propositions": [
+          "Kimber",
+          "Alison",
+          "Scott",
+          "Kyle"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "Nach dem Studium des Kinos wurde Kyle Eastwood Jazzbassist und Kontrabassist."
+      },
+      {
+        "id": 3,
+        "question": "In welchem Film von 1974 hat Jeff Bridges die Show von Clint Eastwood gestohlen ?",
+        "propositions": [
+          "Rancho Deluxe",
+          "Hungrig bleiben",
+          "Le Canardeur",
+          "Die letzte Chance"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "Der Soundtrack des Films wird von Dee Barton komponiert, der Titelsong wird jedoch von Paul Williams aufgeführt und komponiert."
+      },
+      {
+        "id": 4,
+        "question": "Welche Schauspielerin und Begleiterin Clint Eastwood nannte Prinzessin ?",
+        "propositions": [
+          "Sondra Locke",
+          "Dina Ruiz",
+          "Frances Fisher",
+          "Jocelyn Reeves"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "Nach der Trennung von Clint Eastwood und schwerwiegenden Gesundheitsproblemen waren die neunziger Jahre für Sondra Locke chaotischer."
+      },
+      {
+        "id": 5,
+        "question": "In welchem Kriegsfilm spielt Clint Eastwood die Rolle des Tom Highway ?",
+        "propositions": [
+          "Der Kriegsmeister",
+          "Die Sanktion",
+          "Le Canardeur",
+          "Die vollen Kräfte"
+        ],
+        "réponse": "Der Kriegsmeister",
+        "anecdote": "Der Titel in englischer Sprache bezieht sich auf die Schlacht von Heartbreak Ridge während des Koreakrieges."
+      },
+      {
+        "id": 6,
+        "question": "Wen finden wir neben Clint Eastwood im Film « Auf dem Weg nach Madison » ?",
+        "propositions": [
+          "Meryl Streep",
+          "Sondra Locke",
+          "Jane Fonda",
+          "Jodie Foster"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "Der Film erhielt 1996 einen Oscar für die beste Darstellerin für Meryl Streep und einen César für den besten ausländischen Film."
+      },
+      {
+        "id": 7,
+        "question": "Welchen Film widmete Clint Eastwood dem Saxophonisten Charlie Parker ?",
+        "propositions": [
+          "Vogel",
+          "Die letzte Chance",
+          "Pink Cadillac",
+          "Luftig"
+        ],
+        "réponse": "Vogel",
+        "anecdote": "Der Film « Bird » ist einer der wenigen Filme, die sich dem Jazz widmen, und stammt von einem Regisseur, der selbst Musiker ist."
+      },
+      {
+        "id": 8,
+        "question": "Welchen Film drehte Clint Eastwood im Alter von 70 Jahren in Übereinstimmung mit der NASA ?",
+        "propositions": [
+          "La Relève",
+          "Invictus",
+          "Jenseits von",
+          "Space Cowboys"
+        ],
+        "réponse": "Space Cowboys",
+        "anecdote": "Clint Eastwood wollte hier Pionieren der modernen Luftfahrt Tribut zollen, die nicht an der Eroberung des Weltraums teilnehmen konnten."
+      },
+      {
+        "id": 9,
+        "question": "Wer spielt die Rolle des jungen Boxers in « Million Dollar Baby » von Clint Eastwood ?",
+        "propositions": [
+          "Halle Berry",
+          "Reese Witherspoon",
+          "Charlize Theron",
+          "Hilary Swank"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "Um sich auf die Rolle vorzubereiten, trainierte die erst drei Monate alte Hilary Swank bei Hector Roca, einem ehemaligen Trainer."
+      },
+      {
+        "id": 10,
+        "question": "Welchen Regisseur hat Clint Eastwood für die « Dollar Trilogy » engagiert ?",
+        "propositions": [
+          "Tonino Valerii",
+          "Giorgio Ferroni",
+          "Sergio Leone",
+          "Sergio Corbucci"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "Die Filme wurden aus Werbegründen nach ihrer Produktion und ihrem Vertrieb unter diesem gebräuchlichen Namen zusammengefasst."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welcher Serie über Transhumanz spielt Clint Eastwood Rowdy ?",
+        "propositions": [
+          "Rohleder",
+          "Die Beute",
+          "Die Hexen",
+          "Scorching Sierra"
+        ],
+        "réponse": "Rohleder",
+        "anecdote": "Die Serie « Rawhide » ist besonders berühmt dafür, einen vielversprechenden jungen Schauspieler vorgestellt zu haben : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "In welchem Film spielten Clint und Kyle Eastwood vor einem ländlichen Hintergrund zusammen ?",
+        "propositions": [
+          "Honkytonk Man",
+          "Mystic River",
+          "Vogel",
+          "Pink Cadillac"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "Der Film wurde für Worst Song nominiert (Gail Redd und Mitchell Torok, für « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "Der erste Film von Clint Eastwood aus dem Jahr 1971 trägt den Titel « Ein Nervenkitzel in ... »",
+        "propositions": [
+          "Leben",
+          "Der Regen",
+          "Ruß",
+          "Nachts"
+        ],
+        "réponse": "Nachts",
+        "anecdote": "Clint Eastwood wurde nur als Schauspieler für diesen Film bezahlt, nachdem er zugestimmt hatte, nicht als Regisseur bezahlt zu werden."
+      },
+      {
+        "id": 14,
+        "question": "Wie lautet der Nachname des berühmten Detektivs Harry, der von Clint Eastwood gespielt wird ?",
+        "propositions": [
+          "Beddoe",
+          "Calahan",
+          "Dunn",
+          "Coogan"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "Die Geschichte dieses Films ist inspiriert von dem Zodiac-Killer, der ab Ende der 1960er Jahre in San Francisco tobte."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Clint Eastwood Film wurde in den Schweizer Alpen gedreht ?",
+        "propositions": [
+          "Blutschuld",
+          "Die Sanktion",
+          "Die Beute",
+          "Die Hexen"
+        ],
+        "réponse": "Die Sanktion",
+        "anecdote": "Der Film « La Sanction » sollte ursprünglich von Paul Newman gespielt werden, interessierte sich aber nicht für das Projekt."
+      },
+      {
+        "id": 16,
+        "question": "In welchem Film von 1984 spielten Clint und Alison Eastwood zusammen ?",
+        "propositions": [
+          "Joe Kidd",
+          "Das Drahtseil",
+          "Eine perfekte Welt",
+          "Es wird klopfen"
+        ],
+        "réponse": "Das Drahtseil",
+        "anecdote": "« La Corde Raide » mischt eine dunkle Atmosphäre, eine atemberaubende Produktion sowie eine Infragestellung der Beziehung zwischen Sex, Macht und Geld."
+      },
+      {
+        "id": 17,
+        "question": "In welcher Stadt in Kalifornien wurde Clint Eastwood 1986 zum Bürgermeister gewählt ?",
+        "propositions": [
+          "Inglewood",
+          "Fremont",
+          "Fresno",
+          "Karmel"
+        ],
+        "réponse": "Karmel",
+        "anecdote": "Carmel-by-the-Sea ist eine Gemeinde in den Vereinigten Staaten von Kalifornien und liegt etwa 150 km südlich von San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "In welchem Jahr hatte Clint Eastwood den Vorsitz in der Jury der Filmfestspiele von Cannes ?",
+        "propositions": [
+          "1994",
+          "1998",
+          "2006",
+          "2002"
+        ],
+        "réponse": "1994",
+        "anecdote": "Die Schauspielerin, Sängerin und Regisseurin Jeanne Moreau war erneut für die Eröffnung und die Preisverleihung verantwortlich."
+      },
+      {
+        "id": 19,
+        "question": "In welchem Clint Eastwood-Film sind drei alte Freunde zu sehen, die durch einen dunklen Vorfall miteinander verbunden sind ?",
+        "propositions": [
+          "Pink Cadillac",
+          "Gran Torino",
+          "Mystic River",
+          "Million Dollar Baby"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood erklärte, dass Sean Penn, Tim Robbins und Kevin Bacon seine Top-Picks für die Hauptrollen waren."
+      },
+      {
+        "id": 20,
+        "question": "Mit welcher Firma wurde Clint Eastwood 1968 Produzent ?",
+        "propositions": [
+          "Malpaso",
+          "Wochenschau",
+          "TriStar",
+          "Brooksfilms"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard war bis zu seinem Tod im Dezember 1969 im Alter von 53 Jahren Präsident der Malpaso Company."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie viele Caesars hat Clint Eastwood während seiner Karriere erhalten ?",
+        "propositions": [
+          "A",
+          "Zwei",
+          "Drei",
+          "Keine"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Clint Eastwood gewann 2009 bei den Filmfestspielen in Cannes vier Oscars, fünf Golden Globes, drei Césars und die Palme d'honneur."
+      },
+      {
+        "id": 22,
+        "question": "Dank wem hat Clint Eastwood Jazz durch eine Plattensammlung entdeckt ?",
+        "propositions": [
+          "Sein Bruder",
+          "Seine Mutter",
+          "Seine Schwester",
+          "Sein Vater"
+        ],
+        "réponse": "Seine Mutter",
+        "anecdote": "Als Teenager begann er selbst Klarinette zu spielen, dann Klavier und nahm sogar Unterricht."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Film mit Clint Eastwood hieß vor seinem endgültigen Titel « Vigilance » ?",
+        "propositions": [
+          "Magnum Force",
+          "Le Canardeur",
+          "Honkytonk Man",
+          "Die Sanktion"
+        ],
+        "réponse": "Magnum Force",
+        "anecdote": "Beachten Sie die Anwesenheit von Albert Popwell, der in den ersten vier Filmen der Saga jedes Mal eine andere Rolle spielt."
+      },
+      {
+        "id": 24,
+        "question": "Welches künstlerische Feld war Clint Eastwoods erster Kontakt mit der künstlerischen Welt ?",
+        "propositions": [
+          "Fotografie",
+          "Tanz",
+          "Skulptur",
+          "Theater"
+        ],
+        "réponse": "Fotografie",
+        "anecdote": "« Auf dem Weg nach Madison » spielt Clint Eastwood einen Fotografen, der ohne morgen eine große romantische Liebe erleben wird."
+      },
+      {
+        "id": 25,
+        "question": "Welche Firma hat Clint Eastwood sein Rettungsschwimmer-Diplom verliehen ?",
+        "propositions": [
+          "Universal",
+          "Rotes Kreuz",
+          "IBM",
+          "Tacho"
+        ],
+        "réponse": "Rotes Kreuz",
+        "anecdote": "Zur gleichen Zeit erhielt Clint Eastwood seine Vorladung zum Militärdienst, wo sich dieses Rettungsschwimmer-Diplom als von unschätzbarem Wert erwies."
+      },
+      {
+        "id": 26,
+        "question": "Während welcher Schießerei hat sich Clint Eastwood die Grippe und dann die Bronchitis zugezogen ?",
+        "propositions": [
+          "Für schuldig befunden",
+          "Casper",
+          "Rücksichtslos",
+          "Joe Kidd"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall und John Saxon zeichnen sich besonders durch dieses effektive, aber klassische Werk aus."
+      },
+      {
+        "id": 27,
+        "question": "Wie wurde Clint Eastwood lange von seinen Eltern genannt ?",
+        "propositions": [
+          "Clinny",
+          "Easty",
+          "Woody",
+          "Sonny"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "Zu Ehren seines Vaters wurde er auch Clinton Jr. genannt, obwohl sein voller Name Clinton Elias Eastwood Jr. war."
+      },
+      {
+        "id": 28,
+        "question": "In welchem Alter wäre Clint Eastwood in Pacific Palisades, Los Angeles, fast ertrunken ?",
+        "propositions": [
+          "Vier Jahre",
+          "Sechzehn Jahre",
+          "Acht Jahre",
+          "Zwölf Jahre"
+        ],
+        "réponse": "Vier Jahre",
+        "anecdote": "Die Kindheit von Clint Jr. ist auch durch unaufhörliche Bewegungen aufgrund der Veränderungen in der Arbeit seines Vaters gekennzeichnet."
+      },
+      {
+        "id": 29,
+        "question": "Unter welchem Label hat Clint Eastwood sein erstes Studioalbum aufgenommen ?",
+        "propositions": [
+          "Cameo",
+          "Jazzovo",
+          "Malpaso",
+          "Figaro"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "Cameo Records, 1922 gegründet und in Manhattan ansässig, bot Distributionen mit Schwerpunkt Jazz an."
+      },
+      {
+        "id": 30,
+        "question": "Wie lautet der Vorname von Clint Eastwoods zweitem Kind, das 1972 geboren wurde ?",
+        "propositions": [
+          "Kyle",
+          "Scott",
+          "Kimber",
+          "Alison"
+        ],
+        "réponse": "Alison",
+        "anecdote": "Nach einer rebellischen Jugend verließ Alison Eastwood im Alter von 18 Jahren das Unternehmen, um in Santa Barbara den Beruf der Schauspielerin zu studieren."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿En qué película de Clint Eastwood un fugitivo toma como rehén a un niño pequeño ?",
+        "propositions": [
+          "Un mundo perfecto",
+          "La Sanción",
+          "La cuerda floja",
+          "Fuerza Magnum"
+        ],
+        "réponse": "Un mundo perfecto",
+        "anecdote": "Si bien la película se le ofreció a Steven Spielberg, finalmente fue Clint Eastwood quien se hizo cargo del proyecto."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuál es el nombre del primer hijo del actor y director Clint Eastwood ?",
+        "propositions": [
+          "Scott",
+          "Kyle",
+          "Alison",
+          "Kimber"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "Después de estudiar cine, Kyle Eastwood se convirtió en bajista y contrabajista de jazz."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué película de 1974 Jeff Bridges le robó el show a Clint Eastwood ?",
+        "propositions": [
+          "Quédate con hambre",
+          "Rancho Deluxe",
+          "La última oportunidad",
+          "Le Canardeur"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "La banda sonora de la película está compuesta por Dee Barton, pero la canción principal la interpreta y compone Paul Williams."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué actriz y compañera Clint Eastwood apodó princesa ?",
+        "propositions": [
+          "Dina Ruiz",
+          "Jocelyn Reeves",
+          "Frances Fisher",
+          "Sondra Locke"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "Después de la separación de Clint Eastwood y los graves problemas de salud, la década de 1990 fue más caótica para Sondra Locke."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué película de guerra Clint Eastwood interpreta el papel de Tom Highway ?",
+        "propositions": [
+          "Le Canardeur",
+          "La Sanción",
+          "Los plenos poderes",
+          "El Señor de la Guerra"
+        ],
+        "réponse": "El Señor de la Guerra",
+        "anecdote": "El título en inglés se refiere a la batalla de Heartbreak Ridge, durante la Guerra de Corea."
+      },
+      {
+        "id": 6,
+        "question": "¿A quién encontramos junto a Clint Eastwood en la película « En el camino a Madison » ?",
+        "propositions": [
+          "Sondra Locke",
+          "Jane Fonda",
+          "Meryl Streep",
+          "Jodie Foster"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "La película recibió un Oscar a la Mejor Actriz por Meryl Streep y un César a la Mejor Película Extranjera en 1996."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué película dedicó Clint Eastwood al saxofonista Charlie Parker ?",
+        "propositions": [
+          "Pájaro",
+          "Cadillac rosa",
+          "La última oportunidad",
+          "Ventoso"
+        ],
+        "réponse": "Pájaro",
+        "anecdote": "La película « Bird » es una de las pocas películas dedicadas al jazz y proviene de un director que también es músico."
+      },
+      {
+        "id": 8,
+        "question": "A la edad de 70 años, ¿qué película rodó Clint Eastwood de acuerdo con la NASA ?",
+        "propositions": [
+          "Vaqueros espaciales",
+          "Más allá",
+          "La Relève",
+          "Invictus"
+        ],
+        "réponse": "Vaqueros espaciales",
+        "anecdote": "Clint Eastwood quiso aquí rendir homenaje a los pioneros de la aviación moderna que no pudieron participar en la conquista del espacio."
+      },
+      {
+        "id": 9,
+        "question": "¿Quién interpreta el papel del joven boxeador en « Million Dollar Baby », de Clint Eastwood ?",
+        "propositions": [
+          "Charlize Theron",
+          "Halle Berry",
+          "Reese Witherspoon",
+          "Hilary Swank"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "Para prepararse para el papel, Hilary Swank, que tenía solo tres meses, entrenó con Héctor Roca, un ex entrenador."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué director contrató Clint Eastwood para la « Trilogía del dólar » ?",
+        "propositions": [
+          "Tonino Valerii",
+          "Giorgio Ferroni",
+          "Sergio Leone",
+          "Sergio Corbucci"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "Las películas se han combinado bajo este nombre común por motivos promocionales posteriores a su producción y distribución."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué serie sobre la trashumancia interpreta Clint Eastwood a Rowdy ?",
+        "propositions": [
+          "La presa",
+          "Las Brujas",
+          "Sierra Abrasadora",
+          "Cuero crudo"
+        ],
+        "réponse": "Cuero crudo",
+        "anecdote": "La serie « Rawhide » se ha mantenido especialmente famosa por haber presentado a un joven actor prometedor : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué película actuaron Clint y Kyle Eastwood juntos en un contexto rural ?",
+        "propositions": [
+          "Pájaro",
+          "Honkytonk Man",
+          "Mystic River",
+          "Cadillac rosa"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "La película fue nominada a Peor Canción (Gail Redd y Mitchell Torok, por « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "La primera película dirigida por Clint Eastwood en 1971 se titula « Una emoción en ... »",
+        "propositions": [
+          "La lluvia",
+          "La noche",
+          "Vida",
+          "Hollín"
+        ],
+        "réponse": "La noche",
+        "anecdote": "A Clint Eastwood solo se le pagó como actor por esta película, habiendo acordado no ser pagado como director."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el apellido del famoso detective Harry interpretado por Clint Eastwood ?",
+        "propositions": [
+          "Calahan",
+          "Coogan",
+          "Dunn",
+          "Beddoe"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "La historia de esta película está inspirada en el asesino del Zodíaco, que hizo estragos en San Francisco desde finales de la década de 1960."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué película de Clint Eastwood se filmó en los Alpes suizos ?",
+        "propositions": [
+          "La presa",
+          "Las Brujas",
+          "Deuda de sangre",
+          "La Sanción"
+        ],
+        "réponse": "La Sanción",
+        "anecdote": "La película « La Sanction » originalmente iba a ser interpretada por Paul Newman, pero no estaba interesado en el proyecto."
+      },
+      {
+        "id": 16,
+        "question": "¿En qué película de 1984 protagonizaron juntos Clint y Alison Eastwood ?",
+        "propositions": [
+          "La cuerda floja",
+          "Un mundo perfecto",
+          "Golpeará",
+          "Joe Kidd"
+        ],
+        "réponse": "La cuerda floja",
+        "anecdote": "« La Corde raide » mezcla una atmósfera oscura, una producción impresionante y un cuestionamiento de la relación sexo / poder / dinero."
+      },
+      {
+        "id": 17,
+        "question": "¿En qué ciudad de California Clint Eastwood fue elegido alcalde en 1986 ?",
+        "propositions": [
+          "Fresno",
+          "Inglewood",
+          "Fremont",
+          "Carmel"
+        ],
+        "réponse": "Carmel",
+        "anecdote": "Carmel-by-the-Sea es un municipio de los Estados Unidos de California, ubicado a unos 150 km al sur de San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué año presidió Clint Eastwood el jurado del Festival de Cine de Cannes ?",
+        "propositions": [
+          "1994",
+          "2002",
+          "1998",
+          "2006"
+        ],
+        "réponse": "1994",
+        "anecdote": "La actriz, cantante y directora Jeanne Moreau fue una vez más la encargada de albergar las ceremonias de inauguración y premiación."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué película de Clint Eastwood presenta a tres viejos amigos vinculados por un oscuro incidente ?",
+        "propositions": [
+          "Mystic River",
+          "Million Dollar Baby",
+          "Gran Torino",
+          "Cadillac rosa"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood explicó que Sean Penn, Tim Robbins y Kevin Bacon fueron sus principales opciones para los papeles principales."
+      },
+      {
+        "id": 20,
+        "question": "¿Con qué empresa Clint Eastwood se convirtió en productor en 1968 ?",
+        "propositions": [
+          "TriStar",
+          "Brooksfilms",
+          "Malpaso",
+          "Noticiero"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard fue el presidente de la Compañía Malpaso hasta su muerte en diciembre de 1969 a la edad de 53 años."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuántos Caesars ha recibido Clint Eastwood durante su carrera ?",
+        "propositions": [
+          "A",
+          "Tres",
+          "Ninguno",
+          "Dos"
+        ],
+        "réponse": "Tres",
+        "anecdote": "Clint Eastwood ganó cuatro premios Oscar, cinco Globos de Oro, tres Césars y la Palme d'honneur en el Festival de Cine de Cannes en 2009."
+      },
+      {
+        "id": 22,
+        "question": "¿Gracias a quién Clint Eastwood descubrió el jazz a través de una colección de discos ?",
+        "propositions": [
+          "Su madre",
+          "Su padre",
+          "Su hermana",
+          "Su hermano"
+        ],
+        "réponse": "Su madre",
+        "anecdote": "Cuando era adolescente, comenzó a tocar el clarinete él mismo, luego el piano, e incluso terminó tomando lecciones."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué película protagonizada por Clint Eastwood se llamó « Vigilancia » antes de su título final ?",
+        "propositions": [
+          "La Sanción",
+          "Honkytonk Man",
+          "Fuerza Magnum",
+          "Le Canardeur"
+        ],
+        "réponse": "Fuerza Magnum",
+        "anecdote": "Nótese la presencia de Albert Popwell, que aparece en las cuatro primeras películas de la saga con un papel diferente cada vez."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué campo artístico fue el primer contacto de Clint Eastwood con el mundo artístico ?",
+        "propositions": [
+          "Danza",
+          "Teatro",
+          "Escultura ","Sculpture",
+          "Fotografía"
+        ],
+        "réponse": "Fotografía",
+        "anecdote": "« De camino a Madison », Clint Eastwood interpreta a un fotógrafo que experimentará un gran amor romántico sin mañana."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué empresa le dio a Clint Eastwood su diploma de salvavidas ?",
+        "propositions": [
+          "Speedo",
+          "Universal",
+          "IBM",
+          "Cruz Roja"
+        ],
+        "réponse": "Cruz Roja",
+        "anecdote": "Al mismo tiempo, Clint Eastwood recibió su citación para el servicio militar, donde este diploma de salvavidas resultó invaluable."
+      },
+      {
+        "id": 26,
+        "question": "¿Durante qué tiroteo Clint Eastwood contrajo gripe y luego bronquitis ?",
+        "propositions": [
+          "Casper",
+          "Despiadado",
+          "Joe Kidd",
+          "Encontrado culpable"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall y John Saxon destacan especialmente en esta obra eficaz pero clásica."
+      },
+      {
+        "id": 27,
+        "question": "¿Cómo fue apodado Clint Eastwood por sus padres durante mucho tiempo ?",
+        "propositions": [
+          "Sonny",
+          "Easty",
+          "Woody",
+          "Clinny"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "También fue apodado Clinton Jr. en honor a su padre, aunque su nombre completo era Clinton Elias Eastwood Jr."
+      },
+      {
+        "id": 28,
+        "question": "¿A qué edad casi se ahoga Clint Eastwood en Pacific Palisades, Los Ángeles ?",
+        "propositions": [
+          "Dieciséis años",
+          "Ocho años",
+          "Doce años",
+          "Cuatro años"
+        ],
+        "réponse": "Cuatro años",
+        "anecdote": "La infancia de Clint Jr. también está marcada por incesantes movimientos debido a los cambios de trabajo de su padre."
+      },
+      {
+        "id": 29,
+        "question": "¿Bajo qué sello grabó Clint Eastwood su primer álbum de estudio ?",
+        "propositions": [
+          "Figaro",
+          "Cameo",
+          "Jazzovo",
+          "Malpaso"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "Cameo Records, fundada en 1922 y con sede en Manhattan, ofreció distribuciones centradas en el jazz."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuál es el primer nombre del segundo hijo de Clint Eastwood, nacido en 1972 ?",
+        "propositions": [
+          "Kimber",
+          "Kyle",
+          "Alison",
+          "Scott"
+        ],
+        "réponse": "Alison",
+        "anecdote": "Tras una adolescencia rebelde, Alison Eastwood se marchó a los 18 años para estudiar la profesión de actriz en Santa Bárbara."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In quale film di Clint Eastwood un fuggitivo prende in ostaggio un bambino ?",
+        "propositions": [
+          "Un mondo perfetto",
+          "La sanzione",
+          "Il filo del rasoio",
+          "Magnum Force"
+        ],
+        "réponse": "Un mondo perfetto",
+        "anecdote": "Mentre il film è stato offerto a Steven Spielberg, alla fine è stato Clint Eastwood a subentrare al progetto."
+      },
+      {
+        "id": 2,
+        "question": "Qual è il nome del primo figlio dell'attore e regista Clint Eastwood ?",
+        "propositions": [
+          "Alison",
+          "Kimber",
+          "Scott",
+          "Kyle"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "Dopo aver studiato cinema, Kyle Eastwood è diventato un bassista jazz e contrabbassista."
+      },
+      {
+        "id": 3,
+        "question": "In quale film del 1974 Jeff Bridges ha rubato la scena a Clint Eastwood ?",
+        "propositions": [
+          "Resta affamato",
+          "Rancho Deluxe",
+          "L'ultima possibilità",
+          "Le Canardeur"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "La colonna sonora del film è composta da Dee Barton ma la canzone del titolo è eseguita e composta da Paul Williams."
+      },
+      {
+        "id": 4,
+        "question": "Quale attrice e compagna Clint Eastwood ha soprannominato principessa ?",
+        "propositions": [
+          "Sondra Locke",
+          "Dina Ruiz",
+          "Frances Fisher",
+          "Jocelyn Reeves"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "Dopo la separazione da Clint Eastwood e gravi problemi di salute, gli anni '90 furono più caotici per Sondra Locke."
+      },
+      {
+        "id": 5,
+        "question": "In quale film di guerra Clint Eastwood interpreta il ruolo di Tom Highway ?",
+        "propositions": [
+          "Il Warmaster",
+          "La sanzione",
+          "I pieni poteri",
+          "Le Canardeur"
+        ],
+        "réponse": "Il Warmaster",
+        "anecdote": "Il titolo in inglese si riferisce alla battaglia di Heartbreak Ridge, durante la guerra di Corea."
+      },
+      {
+        "id": 6,
+        "question": "Chi troviamo accanto a Clint Eastwood nel film « Sulla strada per Madison » ?",
+        "propositions": [
+          "Jane Fonda",
+          "Jodie Foster",
+          "Sondra Locke",
+          "Meryl Streep"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "Il film ha ricevuto un Oscar come miglior attrice per Meryl Streep e un César come miglior film straniero nel 1996."
+      },
+      {
+        "id": 7,
+        "question": "Quale film Clint Eastwood ha dedicato al sassofonista Charlie Parker ?",
+        "propositions": [
+          "Breezy",
+          "Pink Cadillac",
+          "Uccello",
+          "L'ultima possibilità"
+        ],
+        "réponse": "Uccello",
+        "anecdote": "Il film « Bird » è uno dei pochissimi film dedicati al jazz e proviene da un regista che è lui stesso un musicista."
+      },
+      {
+        "id": 8,
+        "question": "All'età di 70 anni, quale film ha girato Clint Eastwood in accordo con la NASA ?",
+        "propositions": [
+          "Space Cowboys",
+          "Invictus",
+          "La Relève",
+          "Oltre"
+        ],
+        "réponse": "Space Cowboys",
+        "anecdote": "Clint Eastwood ha voluto qui rendere omaggio ai pionieri dell'aviazione moderna che non sono stati in grado di partecipare alla conquista dello spazio."
+      },
+      {
+        "id": 9,
+        "question": "Chi interpreta il ruolo del giovane pugile in « Million Dollar Baby », di Clint Eastwood ?",
+        "propositions": [
+          "Charlize Theron",
+          "Reese Witherspoon",
+          "Halle Berry",
+          "Hilary Swank"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "Per prepararsi al ruolo, Hilary Swank, che aveva solo tre mesi, si è allenata con Hector Roca, un ex allenatore."
+      },
+      {
+        "id": 10,
+        "question": "Quale regista ha assunto Clint Eastwood per la « Dollar Trilogy » ?",
+        "propositions": [
+          "Sergio Corbucci",
+          "Sergio Leone",
+          "Giorgio Ferroni",
+          "Tonino Valerii"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "I film sono stati combinati sotto questo nome comune per motivi promozionali successivi alla loro produzione e distribuzione."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale serie sulla transumanza Clint Eastwood interpreta Rowdy ?",
+        "propositions": [
+          "Rawhide",
+          "Scorching Sierra",
+          "The Prey",
+          "Le streghe"
+        ],
+        "réponse": "Rawhide",
+        "anecdote": "La serie « Rawhide » è rimasta famosa soprattutto per aver introdotto un giovane promettente attore : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "In quale film Clint e Kyle Eastwood hanno recitato insieme in un contesto country ?",
+        "propositions": [
+          "Honkytonk Man",
+          "Pink Cadillac",
+          "Uccello",
+          "Mystic River"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "Il film è stato nominato per Worst Song (Gail Redd e Mitchell Torok, per « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "Il primo film diretto da Clint Eastwood nel 1971 si intitola « Un brivido in ... »",
+        "propositions": [
+          "Di notte",
+          "Fuliggine",
+          "Vita",
+          "La pioggia"
+        ],
+        "réponse": "Di notte",
+        "anecdote": "Clint Eastwood è stato pagato solo come attore per questo film, avendo accettato di non essere pagato come regista."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il cognome del famoso detective Harry interpretato da Clint Eastwood ?",
+        "propositions": [
+          "Coogan",
+          "Dunn",
+          "Calahan",
+          "Beddoe"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "La storia di questo film è ispirata al killer Zodiac, che imperversava a San Francisco dalla fine degli anni '60."
+      },
+      {
+        "id": 15,
+        "question": "Quale film di Clint Eastwood è stato girato nelle Alpi svizzere ?",
+        "propositions": [
+          "La sanzione",
+          "The Prey",
+          "Debito di sangue",
+          "Le streghe"
+        ],
+        "réponse": "La sanzione",
+        "anecdote": "Il film « La Sanction » doveva essere originariamente interpretato da Paul Newman, ma non era interessato al progetto."
+      },
+      {
+        "id": 16,
+        "question": "In quale film del 1984 Clint e Alison Eastwood recitano insieme ?",
+        "propositions": [
+          "Il filo del rasoio",
+          "Busserà",
+          "Un mondo perfetto",
+          "Joe Kidd"
+        ],
+        "réponse": "Il filo del rasoio",
+        "anecdote": "« La Corde raide » mescola un'atmosfera oscura, una produzione mozzafiato e una messa in discussione del rapporto sesso / potere / denaro."
+      },
+      {
+        "id": 17,
+        "question": "In quale città della California è stato eletto sindaco Clint Eastwood nel 1986 ?",
+        "propositions": [
+          "Inglewood",
+          "Fresno",
+          "Fremont",
+          "Carmel"
+        ],
+        "réponse": "Carmel",
+        "anecdote": "Carmel-by-the-Sea è un comune degli Stati Uniti della California, situato a circa 150 km a sud di San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "In quale anno Clint Eastwood ha presieduto la giuria del Festival di Cannes ?",
+        "propositions": [
+          "2006",
+          "1998",
+          "2002",
+          "1994"
+        ],
+        "réponse": "1994",
+        "anecdote": "L'attrice, cantante e regista Jeanne Moreau è stata ancora una volta incaricata di ospitare le cerimonie di apertura e di premiazione."
+      },
+      {
+        "id": 19,
+        "question": "Quale film di Clint Eastwood presenta tre vecchi amici legati da un oscuro incidente ?",
+        "propositions": [
+          "Gran Torino",
+          "Mystic River",
+          "Million Dollar Baby",
+          "Pink Cadillac"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood ha spiegato che Sean Penn, Tim Robbins e Kevin Bacon erano le sue prime scelte per i ruoli principali."
+      },
+      {
+        "id": 20,
+        "question": "Con quale compagnia Clint Eastwood divenne produttore nel 1968 ?",
+        "propositions": [
+          "TriStar",
+          "Brooksfilms",
+          "Cinegiornale",
+          "Malpaso"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard è stato il presidente della Malpaso Company fino alla sua morte nel dicembre 1969 all'età di 53 anni."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quanti Cesari ha ricevuto Clint Eastwood durante la sua carriera ?",
+        "propositions": [
+          "Due",
+          "Nessuno",
+          "Tre",
+          "A"
+        ],
+        "réponse": "Tre",
+        "anecdote": "Clint Eastwood ha vinto quattro Oscar, cinque Golden Globe, tre César e la Palma d'Onore al Festival di Cannes nel 2009."
+      },
+      {
+        "id": 22,
+        "question": "Grazie a chi Clint Eastwood ha scoperto il jazz attraverso una collezione di dischi ?",
+        "propositions": [
+          "Suo fratello",
+          "Suo padre",
+          "Sua madre",
+          "Sua sorella"
+        ],
+        "réponse": "Sua madre",
+        "anecdote": "Da adolescente, ha iniziato a suonare il clarinetto da solo, poi il pianoforte e ha persino preso lezioni."
+      },
+      {
+        "id": 23,
+        "question": "Quale film con Clint Eastwood si chiamava « Vigilance » prima del titolo finale ?",
+        "propositions": [
+          "Honkytonk Man",
+          "Le Canardeur",
+          "Magnum Force",
+          "La sanzione"
+        ],
+        "réponse": "Magnum Force",
+        "anecdote": "Da notare la presenza di Albert Popwell, che appare nei primi quattro film della saga con un ruolo ogni volta diverso."
+      },
+      {
+        "id": 24,
+        "question": "Quale campo artistico è stato il primo contatto di Clint Eastwood con il mondo artistico ?",
+        "propositions": [
+          "Danza",
+          "Teatro",
+          "Fotografia",
+          "Scultura"
+        ],
+        "réponse": "Fotografia",
+        "anecdote": "« Sulla strada per Madison », Clint Eastwood interpreta un fotografo che vivrà un grande amore romantico senza domani."
+      },
+      {
+        "id": 25,
+        "question": "Quale azienda ha dato a Clint Eastwood il diploma di bagnino ?",
+        "propositions": [
+          "Speedo",
+          "Universale",
+          "Croce Rossa",
+          "IBM"
+        ],
+        "réponse": "Croce Rossa",
+        "anecdote": "Allo stesso tempo, Clint Eastwood ha ricevuto la sua convocazione al servizio militare, dove questo diploma di bagnino si è rivelato inestimabile."
+      },
+      {
+        "id": 26,
+        "question": "Durante quali riprese Clint Eastwood ha preso l'influenza e poi la bronchite ?",
+        "propositions": [
+          "Joe Kidd",
+          "Spietato",
+          "Casper",
+          "Trovato colpevole"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall e John Saxon si distinguono soprattutto in questo lavoro efficace ma classico."
+      },
+      {
+        "id": 27,
+        "question": "Come è stato a lungo soprannominato Clint Eastwood dai suoi genitori ?",
+        "propositions": [
+          "Clinny",
+          "Woody",
+          "Sonny",
+          "Easty"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "Era anche soprannominato Clinton Jr. in onore di suo padre, sebbene il suo nome completo fosse Clinton Elias Eastwood Jr."
+      },
+      {
+        "id": 28,
+        "question": "A che età Clint Eastwood è quasi annegato a Pacific Palisades, a Los Angeles ?",
+        "propositions": [
+          "Sedici anni",
+          "Dodici anni",
+          "Otto anni",
+          "Quattro anni"
+        ],
+        "réponse": "Quattro anni",
+        "anecdote": "L'infanzia di Clint Jr. è segnata anche da incessanti spostamenti dovuti ai cambiamenti di lavoro del padre."
+      },
+      {
+        "id": 29,
+        "question": "Sotto quale etichetta Clint Eastwood ha registrato il suo primo album in studio ?",
+        "propositions": [
+          "Figaro",
+          "Malpaso",
+          "Cameo",
+          "Jazzovo"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "Cameo Records, fondata nel 1922 e con sede a Manhattan, offriva distribuzioni incentrate sul jazz."
+      },
+      {
+        "id": 30,
+        "question": "Qual è il nome del secondo figlio di Clint Eastwood, nato nel 1972 ?",
+        "propositions": [
+          "Kimber",
+          "Alison",
+          "Kyle",
+          "Scott"
+        ],
+        "réponse": "Alison",
+        "anecdote": "Dopo un'adolescenza ribelle, Alison Eastwood partì all'età di 18 anni per studiare la professione di attrice a Santa Barbara."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welke film van Clint Eastwood gijzelt een voortvluchtige een jong kind ?",
+        "propositions": [
+          "The Tightrope",
+          "Een perfecte wereld",
+          "Magnum Force",
+          "De sanctie"
+        ],
+        "réponse": "Een perfecte wereld",
+        "anecdote": "Terwijl de film werd aangeboden aan Steven Spielberg, was het uiteindelijk Clint Eastwood die het project overnam."
+      },
+      {
+        "id": 2,
+        "question": "Wat is de voornaam van het eerste kind van acteur en regisseur Clint Eastwood ?",
+        "propositions": [
+          "Scott",
+          "Alison",
+          "Kimber",
+          "Kyle"
+        ],
+        "réponse": "Kyle",
+        "anecdote": "Na zijn studie cinema werd Kyle Eastwood jazzbassist en contrabassist."
+      },
+      {
+        "id": 3,
+        "question": "In welke film uit 1974 stal Jeff Bridges de show van Clint Eastwood ?",
+        "propositions": [
+          "The Last Chance",
+          "Rancho Deluxe",
+          "Le Canardeur",
+          "Blijf hongerig"
+        ],
+        "réponse": "Le Canardeur",
+        "anecdote": "De soundtrack van de film is gecomponeerd door Dee Barton, maar het titelnummer is uitgevoerd en gecomponeerd door Paul Williams."
+      },
+      {
+        "id": 4,
+        "question": "Welke actrice en metgezel Clint Eastwood gaf de bijnaam prinses ?",
+        "propositions": [
+          "Jocelyn Reeves",
+          "Sondra Locke",
+          "Frances Fisher",
+          "Dina Ruiz"
+        ],
+        "réponse": "Sondra Locke",
+        "anecdote": "Na de scheiding van Clint Eastwood en ernstige gezondheidsproblemen waren de jaren negentig chaotischer voor Sondra Locke."
+      },
+      {
+        "id": 5,
+        "question": "In welke oorlogsfilm speelt Clint Eastwood de rol van Tom Highway ?",
+        "propositions": [
+          "The Full Powers",
+          "Le Canardeur",
+          "The Warmaster",
+          "De sanctie"
+        ],
+        "réponse": "The Warmaster",
+        "anecdote": "De titel in het Engels verwijst naar de slag om Heartbreak Ridge, tijdens de Koreaanse oorlog."
+      },
+      {
+        "id": 6,
+        "question": "Wie vinden we naast Clint Eastwood in de film « Op weg naar Madison » ?",
+        "propositions": [
+          "Jodie Foster",
+          "Jane Fonda",
+          "Sondra Locke",
+          "Meryl Streep"
+        ],
+        "réponse": "Meryl Streep",
+        "anecdote": "De film ontving in 1996 een Oscar voor Beste Actrice voor Meryl Streep en een César voor Beste Buitenlandse Film."
+      },
+      {
+        "id": 7,
+        "question": "Welke film droeg Clint Eastwood op aan saxofonist Charlie Parker ?",
+        "propositions": [
+          "The Last Chance",
+          "Vogel",
+          "Roze Cadillac",
+          "Luchtig"
+        ],
+        "réponse": "Vogel",
+        "anecdote": "De film « Bird » is een van de weinige films over jazz en komt van een regisseur die zelf muzikant is."
+      },
+      {
+        "id": 8,
+        "question": "Welke film maakte Clint Eastwood op 70-jarige leeftijd in overleg met NASA ?",
+        "propositions": [
+          "La Relève",
+          "Invictus",
+          "Beyond",
+          "Space Cowboys"
+        ],
+        "réponse": "Space Cowboys",
+        "anecdote": "Clint Eastwood wilde hier hulde brengen aan pioniers van de moderne luchtvaart die niet in staat waren om deel te nemen aan de verovering van de ruimte."
+      },
+      {
+        "id": 9,
+        "question": "Wie speelt de rol van de jonge bokser in « Million Dollar Baby », door Clint Eastwood ?",
+        "propositions": [
+          "Charlize Theron",
+          "Halle Berry",
+          "Reese Witherspoon",
+          "Hilary Swank"
+        ],
+        "réponse": "Hilary Swank",
+        "anecdote": "Ter voorbereiding op de rol trainde Hilary Swank, die pas drie maanden oud was, samen met Hector Roca, een voormalig coach."
+      },
+      {
+        "id": 10,
+        "question": "Welke regisseur heeft Clint Eastwood aangenomen voor de « Dollar Trilogy » ?",
+        "propositions": [
+          "Sergio Leone",
+          "Giorgio Ferroni",
+          "Tonino Valerii",
+          "Sergio Corbucci"
+        ],
+        "réponse": "Sergio Leone",
+        "anecdote": "De films zijn na productie en distributie om promotionele redenen onder deze algemene naam gecombineerd."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welke serie over transhumance speelt Clint Eastwood Rowdy ?",
+        "propositions": [
+          "Rawhide",
+          "The Witches",
+          "The Prey",
+          "Gloeiend Sierra"
+        ],
+        "réponse": "Rawhide",
+        "anecdote": "De serie « Rawhide » is vooral beroemd gebleven vanwege de introductie van een veelbelovende jonge acteur : Clint Eastwood."
+      },
+      {
+        "id": 12,
+        "question": "In welke film speelden Clint en Kyle Eastwood samen tegen een landelijke achtergrond ?",
+        "propositions": [
+          "Mystic River",
+          "Vogel",
+          "Roze Cadillac",
+          "Honkytonk Man"
+        ],
+        "réponse": "Honkytonk Man",
+        "anecdote": "De film werd genomineerd voor Worst Song (Gail Redd en Mitchell Torok, voor « No Sweeter Cheater Than You »)."
+      },
+      {
+        "id": 13,
+        "question": "De eerste film, geregisseerd door Clint Eastwood in 1971, heeft de titel « A thrill in ... »",
+        "propositions": [
+          "'s nachts",
+          "Roet",
+          "Leven",
+          "De regen"
+        ],
+        "réponse": "'s nachts",
+        "anecdote": "Clint Eastwood werd alleen betaald als acteur voor deze film, nadat hij ermee had ingestemd niet als regisseur te worden betaald."
+      },
+      {
+        "id": 14,
+        "question": "Wat is de achternaam van de beroemde detective Harry gespeeld door Clint Eastwood ?",
+        "propositions": [
+          "Coogan",
+          "Beddoe",
+          "Dunn",
+          "Calahan"
+        ],
+        "réponse": "Calahan",
+        "anecdote": "Het verhaal van deze film is geïnspireerd door de Zodiac-killer, die vanaf eind jaren zestig in San Francisco woedde."
+      },
+      {
+        "id": 15,
+        "question": "Welke film van Clint Eastwood is in de Zwitserse Alpen opgenomen ?",
+        "propositions": [
+          "De sanctie",
+          "The Witches",
+          "The Prey",
+          "Bloedschuld"
+        ],
+        "réponse": "De sanctie",
+        "anecdote": "De film « La Sanction » zou oorspronkelijk worden gespeeld door Paul Newman, maar hij was niet geïnteresseerd in het project."
+      },
+      {
+        "id": 16,
+        "question": "In welke film uit 1984 speelden Clint en Alison Eastwood samen de hoofdrol ?",
+        "propositions": [
+          "The Tightrope",
+          "Het zal kloppen",
+          "Joe Kidd",
+          "Een perfecte wereld"
+        ],
+        "réponse": "The Tightrope",
+        "anecdote": "« La Corde raide » mengt een donkere sfeer, een adembenemende productie en vraagtekens bij de seks / macht / geldrelatie."
+      },
+      {
+        "id": 17,
+        "question": "In welke stad in Californië werd Clint Eastwood in 1986 tot burgemeester gekozen ?",
+        "propositions": [
+          "Fresno",
+          "Inglewood",
+          "Fremont",
+          "Carmel"
+        ],
+        "réponse": "Carmel",
+        "anecdote": "Carmel-by-the-Sea is een gemeente in de Verenigde Staten van Californië, ongeveer 150 km ten zuiden van San Francisco."
+      },
+      {
+        "id": 18,
+        "question": "In welk jaar zat Clint Eastwood de jury van het filmfestival van Cannes voor ?",
+        "propositions": [
+          "1994",
+          "2006",
+          "2002",
+          "1998"
+        ],
+        "réponse": "1994",
+        "anecdote": "De actrice, zangeres en regisseur Jeanne Moreau was opnieuw verantwoordelijk voor het hosten van de openingsceremonie en de prijsuitreiking."
+      },
+      {
+        "id": 19,
+        "question": "In welke film van Clint Eastwood zijn drie oude vrienden te zien die met elkaar verbonden zijn door een duister incident ?",
+        "propositions": [
+          "Gran Torino",
+          "Miljoen dollar baby",
+          "Roze Cadillac",
+          "Mystic River"
+        ],
+        "réponse": "Mystic River",
+        "anecdote": "Clint Eastwood legde uit dat Sean Penn, Tim Robbins en Kevin Bacon zijn beste keuzes waren voor de hoofdrollen."
+      },
+      {
+        "id": 20,
+        "question": "Bij welk bedrijf werd Clint Eastwood in 1968 producer ?",
+        "propositions": [
+          "TriStar",
+          "Brooksfilms",
+          "Malpaso",
+          "Journaal"
+        ],
+        "réponse": "Malpaso",
+        "anecdote": "Irving Leonard was de president van de Malpaso Company tot zijn dood in december 1969 op 53-jarige leeftijd."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Hoeveel Caesars heeft Clint Eastwood tijdens zijn carrière ontvangen ?",
+        "propositions": [
+          "Drie",
+          "A",
+          "Geen",
+          "Twee"
+        ],
+        "réponse": "Drie",
+        "anecdote": "Clint Eastwood won vier Oscars, vijf Golden Globes, drie Césars en de Palme d'honneur op het filmfestival van Cannes in 2009."
+      },
+      {
+        "id": 22,
+        "question": "Dankzij wie ontdekte Clint Eastwood jazz via een platencollectie ?",
+        "propositions": [
+          "Zijn vader",
+          "Zijn broer",
+          "Zijn moeder",
+          "Zijn zus"
+        ],
+        "réponse": "Zijn moeder",
+        "anecdote": "Als tiener begon hij zelf klarinet te spelen, daarna piano en nam hij zelfs lessen."
+      },
+      {
+        "id": 23,
+        "question": "Welke film met in de hoofdrol Clint Eastwood heette « Vigilance » vóór de uiteindelijke titel ?",
+        "propositions": [
+          "Magnum Force",
+          "Honkytonk Man",
+          "Le Canardeur",
+          "De sanctie"
+        ],
+        "réponse": "Magnum Force",
+        "anecdote": "Let op de aanwezigheid van Albert Popwell, die in de eerste vier films van de saga telkens met een andere rol verschijnt."
+      },
+      {
+        "id": 24,
+        "question": "Op welk artistiek gebied kwam Clint Eastwood voor het eerst in contact met de artistieke wereld ?",
+        "propositions": [
+          "Dans",
+          "Theater",
+          "Fotografie",
+          "Sculptuur"
+        ],
+        "réponse": "Fotografie",
+        "anecdote": "« Op weg naar Madison » speelt Clint Eastwood een fotograaf die zonder morgen een grote romantische liefde zal ervaren."
+      },
+      {
+        "id": 25,
+        "question": "Welk bedrijf heeft Clint Eastwood zijn strandwachtdiploma gegeven ?",
+        "propositions": [
+          "Universeel",
+          "Speedo",
+          "IBM",
+          "Rode Kruis"
+        ],
+        "réponse": "Rode Kruis",
+        "anecdote": "Tegelijkertijd ontving Clint Eastwood zijn oproep voor militaire dienst, waar dit strandwachtdiploma van onschatbare waarde bleek."
+      },
+      {
+        "id": 26,
+        "question": "Tijdens welke schietpartij kreeg Clint Eastwood griep en vervolgens bronchitis ?",
+        "propositions": [
+          "Casper",
+          "Joe Kidd",
+          "Schuldig bevonden",
+          "Meedogenloos"
+        ],
+        "réponse": "Joe Kidd",
+        "anecdote": "Clint Eastwood, Robert Duvall en John Saxon vallen vooral op in dit effectieve maar klassieke werk."
+      },
+      {
+        "id": 27,
+        "question": "Hoe werd Clint Eastwood lang door zijn ouders genoemd ?",
+        "propositions": [
+          "Easty",
+          "Woody",
+          "Clinny",
+          "Sonny"
+        ],
+        "réponse": "Sonny",
+        "anecdote": "Hij kreeg ook de bijnaam Clinton Jr. ter ere van zijn vader, hoewel zijn volledige naam Clinton Elias Eastwood Jr. was."
+      },
+      {
+        "id": 28,
+        "question": "Op welke leeftijd is Clint Eastwood bijna verdronken in Pacific Palisades, Los Angeles ?",
+        "propositions": [
+          "Acht jaar",
+          "Vier jaar",
+          "Zestien jaar",
+          "Twaalf jaar"
+        ],
+        "réponse": "Vier jaar",
+        "anecdote": "De jeugd van Clint Jr. wordt ook gekenmerkt door onophoudelijke bewegingen als gevolg van de veranderingen in het werk van zijn vader."
+      },
+      {
+        "id": 29,
+        "question": "Onder welk label nam Clint Eastwood zijn eerste studioalbum op ?",
+        "propositions": [
+          "Cameo",
+          "Jazzovo",
+          "Malpaso",
+          "Figaro"
+        ],
+        "réponse": "Cameo",
+        "anecdote": "Cameo Records, opgericht in 1922 en gevestigd in Manhattan, bood distributies aan gericht op jazz."
+      },
+      {
+        "id": 30,
+        "question": "Wat is de voornaam van het tweede kind van Clint Eastwood, geboren in 1972 ?",
+        "propositions": [
+          "Kimber",
+          "Alison",
+          "Kyle",
+          "Scott"
+        ],
+        "réponse": "Alison",
+        "anecdote": "Na een rebelse adolescentie vertrok Alison Eastwood op 18-jarige leeftijd om het beroep van actrice te studeren in Santa Barbara."
+      }
+    ]
+    }
+  }
+}

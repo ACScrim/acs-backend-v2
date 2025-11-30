@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-05-13",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Télévision",
+      "nom": "Jeux télévisés",
+      "slogan": "C'est mon dernier mot Jean-Pierre"
+    },
+    "en": {
+      "catégorie": "Television",
+      "nom": "TV games",
+      "slogan": "This is my last word Jean-Pierre"
+    },
+    "es": {
+      "catégorie": "Televisión",
+      "nom": "Juegos de television",
+      "slogan": "Esta es mi última palabra Jean-Pierre"
+    },
+    "it": {
+      "catégorie": "Televisione",
+      "nom": "Giochi televisivi",
+      "slogan": "Questa è la mia ultima parola Jean-Pierre"
+    },
+    "de": {
+      "catégorie": "Fernsehen",
+      "nom": "TV-Spiele",
+      "slogan": "Dies ist mein letztes Wort, Jean-Pierre"
+    },
+    "nl": {
+      "catégorie": "Televisie",
+      "nom": "TV-spellen",
+      "slogan": "Dit is mijn laatste woord Jean-Pierre"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quels objets sont à la base du jeu télévisé « À prendre ou à laisser » ?",
+        "propositions": [
+          "Boîtes",
+          "Jetons",
+          "Cadeaux",
+          "Boules"
+        ],
+        "réponse": "Boîtes",
+        "anecdote": "24 candidats possèdent une boîte, répartie au hasard par un huissier de justice dans laquelle se cache une somme d'argent différente."
+      },
+      {
+        "id": 2,
+        "question": "Dans quel jeu d'aventure plusieurs binômes voyagent-ils en auto-stop ?",
+        "propositions": [
+          "Fear Factor",
+          "Ninja Warrior",
+          "Pékin Express",
+          "Intervilles"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "Au cours du jeu, les candidats peuvent gagner des amulettes, une avance dans la course ou un coffre-fort pour ne pas quitter la partie."
+      },
+      {
+        "id": 3,
+        "question": "Dans quel jeu fallait-il, durant 29 saisons, éviter de piocher une boule noire ?",
+        "propositions": [
+          "Pyramide",
+          "L'Or à l'appel",
+          "Le Bigdil",
+          "Motus"
+        ],
+        "réponse": "Motus",
+        "anecdote": "La plus grosse cagnotte de l'histoire du jeu avec Thierry Beccaro est de 17 600 €, soit 22 émissions sans Super partie gagnée."
+      },
+      {
+        "id": 4,
+        "question": "Sur quelle chaîne de télévision se déroule « Le Grand Concours des animateurs » ?",
+        "propositions": [
+          "C8",
+          "France 2",
+          "TF1",
+          "Canal+"
+        ],
+        "réponse": "TF1",
+        "anecdote": "Cette émission réunit les animateurs des chaînes françaises qui se battent pour remporter le Trophée du Grand Concours."
+      },
+      {
+        "id": 5,
+        "question": "À bord de quel engin voyagent les candidats de la « Chasse aux trésors » ?",
+        "propositions": [
+          "Hydravion",
+          "Sous-marin",
+          "Hélicoptère",
+          "Taxi"
+        ],
+        "réponse": "Hélicoptère",
+        "anecdote": "Philippe de Dieuleveult incarnait le rôle d'un journaliste-aventurier, prêt à tous les exploits pour le jeu aux quatre coins du monde."
+      },
+      {
+        "id": 6,
+        "question": "Qui a animé « Questions pour un champion » durant 28 ans ?",
+        "propositions": [
+          "Philippe Risoli",
+          "Vincent Perrot",
+          "Julien Lepers",
+          "Samuel Étienne"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "L'émission est souvent parodiée et de nombreux extraits de plusieurs candidats reviennent dans les bêtisiers et zappings."
+      },
+      {
+        "id": 7,
+        "question": "Dans quel célèbre jeu des aventuriers sont-ils livrés à eux-mêmes sur une île ?",
+        "propositions": [
+          "Koh-Lanta",
+          "La Cible",
+          "Pékin Express",
+          "Ninja Warrior"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "Ces aventuriers, qui s'affrontent au cours d'épreuves souvent physiques, sont répartis en plusieurs équipes avant d'être réunifiés."
+      },
+      {
+        "id": 8,
+        "question": "Qui est le présentateur emblématique de « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Jonathan Cohen",
+          "Jean-Pierre Foucault",
+          "Denis Brogniart",
+          "Jarry"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "Le 27 août 2004, Marie Friedel a obtenu 1 million d'euros, ce qui fut le record du plus gros gain acquis par un candidat dans ce jeu."
+      },
+      {
+        "id": 9,
+        "question": "Quel jeu télévisé matrimonial français a proposé « Le Jeu des célibataires » ?",
+        "propositions": [
+          "Motus",
+          "Le Maillon faible",
+          "Slam",
+          "Tournez Manège"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "Le couple sélectionné revenait une semaine après pour tenter de gagner un voyage dans le jeu des questions de Simone Garnier."
+      },
+      {
+        "id": 10,
+        "question": "Quel jeu télévisé français est aussi connu comme le parcours des héros ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Total Wipeout",
+          "District Z",
+          "Pékin Express"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Présenté par Christophe Beaugrand, Denis Brogniart et Iris Mittenaere, le format est adapté d'une émission japonaise, « Sasuke »."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel président français a inspiré la création de « Jeux sans frontières » ?",
+        "propositions": [
+          "Mitterrand",
+          "De Gaulle",
+          "Pompidou",
+          "Chirac"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "En 2019, plusieurs sociétés privées ont racheté les droits du programme à l'UER pour créer un jeu baptisé Eurogames."
+      },
+      {
+        "id": 12,
+        "question": "Dans quel jeu des boules étaient lancées du haut d'une planche de douze mètres ?",
+        "propositions": [
+          "The Wall",
+          "Le Bigdil",
+          "Pyramide",
+          "Fear Factor"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "Le mur est habillé de diodes électroluminescentes, ce qui lui permet également d'être un écran et d'apporter une ambiance lumineuse."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel jeu fallait-il faire deviner un mot en utilisant des synonymes ?",
+        "propositions": [
+          "Motus",
+          "Strike",
+          "Le Juste Prix",
+          "Pyramide"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pépita était chargée, à chaque émission, de tirer au sort une carte postale dont l'auteur était invité à participer au jeu téléphonique."
+      },
+      {
+        "id": 14,
+        "question": "Quel jeu télévisé comprend une quête de clés et une salle du trésor ?",
+        "propositions": [
+          "Money Drop",
+          "Fort Boyard",
+          "Koh-Lanta",
+          "Ninja Warrior"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "La plus jeune célébrité ayant participé est Gloria Palermo de Blasi, chanteuse du groupe Kids United, alors âgée de 9 ans."
+      },
+      {
+        "id": 15,
+        "question": "Dans que jeu en sept saisons Vincent Lagaf' était-il entouré des Gafettes ?",
+        "propositions": [
+          "Le Bigdil",
+          "La Cible",
+          "Burger Quiz",
+          "Le Maillon faible"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill est un extraterrestre originaire de la planète Fricus, ayant atterri sur Paris après que sa soucoupe a été frappée par la foudre."
+      },
+      {
+        "id": 16,
+        "question": "Dans quelle émission, créée en 1962 par Guy Lux, retrouvait-on des vachettes ?",
+        "propositions": [
+          "Zone rouge",
+          "Intervilles",
+          "Atoukado",
+          "Tournez Manège"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "Il est l'un des jeux télévisés français à la plus importante longévité et l'un des programmes français les plus adaptés à l'étranger."
+      },
+      {
+        "id": 17,
+        "question": "Dans quel jeu Laurence Boccolini était-elle froide et cinglante avec les candidats ?",
+        "propositions": [
+          "Le Maillon faible",
+          "Money Drop",
+          "La Cible",
+          "Le Juste Prix"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "Ce jeu était basé sur des questions élémentaires de culture générale posées à neuf candidats, de la vitesse et de la stratégie."
+      },
+      {
+        "id": 18,
+        "question": "Quel jeu proposait de gagner 250 000 € répartis en 50 liasses indivisibles ?",
+        "propositions": [
+          "The Wall",
+          "Le Bigdil",
+          "Boom",
+          "Money Drop"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "Pour repartir avec la totalité de l'argent, les candidats devaient répondre correctement à huit questions de culture générale."
+      },
+      {
+        "id": 19,
+        "question": "Qui fut le tout premier animateur à présenter « Une famille en or » ?",
+        "propositions": [
+          "Bernard Montiel",
+          "Pascal Brunner",
+          "Patrick Roy",
+          "Laurent Cabrol"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "Le but du jeu est de répondre à des questions ouvertes posées à un panel de Français sondés composé de cent personnes."
+      },
+      {
+        "id": 20,
+        "question": "Quel jeu présenté par Olivier Minne a remplacé le jeu « Pyramide » ?",
+        "propositions": [
+          "Slam",
+          "La Cible",
+          "Strike",
+          "Fear Factor"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "Le jeu « La Cible » sera quant à lui remplacé par le jeu « Tout le monde veut prendre sa place », animé par Nagui à partir du 3 juillet 2006."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel fut le premier jeu en France à montrer des candidats avec des billets de banque ?",
+        "propositions": [
+          "1 contre 100",
+          "Je compte sur toi",
+          "Le Banquier",
+          "Money Drop"
+        ],
+        "réponse": "Je compte sur toi",
+        "anecdote": "Ce jeu télévisé créé par Jacques Antoine (Fort Boyard) et Jean Yanne fut présenté par Olivier Lejeune assisté de Valérie Lamour."
+      },
+      {
+        "id": 22,
+        "question": "Pour quel jeu télévisé Philippe Risoli a-t-il remplacé Patrick Roy à l'animation ?",
+        "propositions": [
+          "L'Or à l'appel",
+          "Le Maillon faible",
+          "Le Juste Prix",
+          "Le Bigdil"
+        ],
+        "réponse": "Le Juste Prix",
+        "anecdote": "De novembre 1992 à 1996, l'arrivée de Philippe Risoli s'est faite par une entrée spécifique entre la vitrine de droite et la Roue."
+      },
+      {
+        "id": 23,
+        "question": "Quel jeu télévisé a été inventé par Alain Chabat et Kader Aoun ?",
+        "propositions": [
+          "Fear Factor",
+          "Slam",
+          "Burger Quiz",
+          "Kamoulox"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "Le jeu est produit par la société de production Chez Wam, puis par la société RG Productions et réalisée par Jérôme Revon."
+      },
+      {
+        "id": 24,
+        "question": "Quel jeu diffusé sur TF1 était basé sur les peurs et les phobies des candidats ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Koh-Lanta",
+          "Fear Factor",
+          "Pékin Express"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Chaque épisode présentait des défis différents et variés comme le saut à l'élastique, des épreuves de plongée ou d'escalade."
+      },
+      {
+        "id": 25,
+        "question": "Quel jeu télévisé français est présenté par Cyril Féraud depuis octobre 2009 ?",
+        "propositions": [
+          "Pyramide",
+          "Mask Singer",
+          "District Z",
+          "Slam"
+        ],
+        "réponse": "Slam",
+        "anecdote": "Les enregistrements ont lieu tous les mois, six fois par jour, du lundi au samedi, pour des diffusions dans les deux mois qui suivent."
+      },
+      {
+        "id": 26,
+        "question": "Quel jeu s'effectue entre des célébrités masquées et entièrement déguisées ?",
+        "propositions": [
+          "Fear Factor",
+          "The Wall",
+          "La Cible",
+          "Mask Singer"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Leurs prestations sont jugées par un jury d'enquêteurs et le public présent, auquel peut s'ajouter un enquêteur invité certains soirs."
+      },
+      {
+        "id": 27,
+        "question": "Quel jeu télévisé parodique a été créé par les humoristes Kad et Olivier ?",
+        "propositions": [
+          "Strike",
+          "Kamoulox",
+          "Atoukado",
+          "Le Banquier"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "Le nom Kamoulox serait le résultat d'une contraction assez libre des noms des deux auteurs, Kad Merad et Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "Dans quel jeu un candidat devait-il affronter un groupe de personnes appelé le Mur ?",
+        "propositions": [
+          "Fear Factor",
+          "Strike",
+          "La Cible",
+          "1 contre 100"
+        ],
+        "réponse": "1 contre 100",
+        "anecdote": "« 1 contre 100 » est un jeu télévisé français d'origine néerlandaise, diffusé sur TF1 de 2007 à 2008 et présenté par Benjamin Castaldi."
+      },
+      {
+        "id": 29,
+        "question": "Quel ancien jeu télé était adapté du jeu américain « Hollywood Squares » ?",
+        "propositions": [
+          "Le Banquier",
+          "Atoukado",
+          "L'Académie des neuf",
+          "Atout Coeur"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "Lors de L'Académie des neuf, neuf personnalités étaient invitées et réparties dans les neuf cases du décor, sur trois étages."
+      },
+      {
+        "id": 30,
+        "question": "Quel célèbre jeu télévisé luxembourgeois était animé par Fabrice et Sophie Garel ?",
+        "propositions": [
+          "Le Banquier",
+          "Atoukado",
+          "Charivari",
+          "Atout Coeur"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "Ce sont les premières notes de la chanson « Le Pornographe » de Georges Brassens qui on construit le jingle du jeu « Atoukado »."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What objects are the basis of the game show « Take it or Leave it » ?",
+        "propositions": [
+          "Balls",
+          "Tokens",
+          "Gifts",
+          "Boxes"
+        ],
+        "réponse": "Boxes",
+        "anecdote": "24 candidates have a box, distributed at random by a bailiff in which hides a different sum of money."
+      },
+      {
+        "id": 2,
+        "question": "In which adventure game do several pairs hitchhike ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Fear Factor",
+          "Pékin Express",
+          "Intervilles"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "As the game progresses, contestants can earn amulets, a race lead, or a safe so they don't quit the game."
+      },
+      {
+        "id": 3,
+        "question": "In which game was it necessary, during 29 seasons, to avoid drawing a black ball ?",
+        "propositions": [
+          "Le Bigdil",
+          "L'Or à l'appel",
+          "Motus",
+          "Pyramide"
+        ],
+        "réponse": "Motus",
+        "anecdote": "The biggest jackpot in the history of the game with Thierry Beccaro is €17,600, or 22 shows without a Super game won."
+      },
+      {
+        "id": 4,
+        "question": "On which TV channel is taking place « The Grand Contest of animators » ?",
+        "propositions": [
+          "Canal+",
+          "TF1",
+          "France 2",
+          "C8"
+        ],
+        "réponse": "TF1",
+        "anecdote": "This program brings together the hosts of the French channels who are fighting to win the Grand Concours Trophy."
+      },
+      {
+        "id": 5,
+        "question": "On board what craft do the candidates of the « Treasure Hunt » travel ?",
+        "propositions": [
+          "Submarine",
+          "Helicopter",
+          "Taxi",
+          "Seaplane"
+        ],
+        "réponse": "Helicopter",
+        "anecdote": "Philippe de Dieuleveult embodied the role of a journalist-adventurer, ready for all the exploits for the game in the four corners of the world."
+      },
+      {
+        "id": 6,
+        "question": "Who hosted « Questions for a Champion » for 28 years ?",
+        "propositions": [
+          "Vincent Perrot",
+          "Philippe Risoli",
+          "Samuel Etienne",
+          "Julien Lepers"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "The show is often parodied and many excerpts from several candidates return in bloopers and zappings."
+      },
+      {
+        "id": 7,
+        "question": "In what famous game are adventurers left to fend for themselves on an island ?",
+        "propositions": [
+          "Pékin Express",
+          "Ninja Warrior",
+          "La Cible/I>",
+          "Koh-Lanta"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "These adventurers, who compete in often physical challenges, are divided into several teams before being reunited."
+      },
+      {
+        "id": 8,
+        "question": "Who is the iconic presenter of « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Jean-Pierre Foucault",
+          "Jarry",
+          "Jonathan Cohen",
+          "Denis Brogniart"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "On August 27, 2004, Marie Friedel obtained 1 million euros, which was the record for the biggest gain acquired by a candidate in this game."
+      },
+      {
+        "id": 9,
+        "question": "What French matrimonial game show featured « Le Jeu des célibataires » ?",
+        "propositions": [
+          "Tournez Manège",
+          "Slam",
+          "Le Maillon faible",
+          "Motus"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "The selected couple returned a week later to try to win a trip to Simone Garnier's question game."
+      },
+      {
+        "id": 10,
+        "question": "Which French game show is also known as the hero's journey ?",
+        "propositions": [
+          "Pékin Express",
+          "Ninja Warrior",
+          "District Z",
+          "Total Wipeout"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Presented by Christophe Beaugrand, Denis Brogniart and Iris Mittenaere, the format is adapted from a Japanese show, \u003cI\u003eSasuke\u003c/I\u003e."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which French president inspired the creation of « Jeux sans frontières » ?",
+        "propositions": [
+          "De Gaulle",
+          "Pompidou",
+          "Chirac",
+          "Mitterrand"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "In 2019, several private companies bought the rights to the program from the EBU to create a game called Eurogames."
+      },
+      {
+        "id": 12,
+        "question": "In which game balls were thrown from the top of a twelve-meter board ?",
+        "propositions": [
+          "Le Bigdil",
+          "Fear Factor",
+          "The Wall",
+          "Pyramide"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "The wall is dressed in light-emitting diodes, which also allows it to be a screen and provide a luminous atmosphere."
+      },
+      {
+        "id": 13,
+        "question": "In which game did you have to guess a word using synonyms ?",
+        "propositions": [
+          "Strike",
+          "Motus",
+          "Le Juste Prix",
+          "Pyramide"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pepita was in charge, at each show, of drawing lots for a postcard whose author was invited to participate in the telephone game."
+      },
+      {
+        "id": 14,
+        "question": "Which game show includes a quest for keys and a treasure room ?",
+        "propositions": [
+          "Money Drop",
+          "Koh-Lanta",
+          "Ninja Warrior",
+          "Fort Boyard"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "The youngest celebrity to participate was Gloria Palermo de Blasi, singer of Kids United, then 9 years old."
+      },
+      {
+        "id": 15,
+        "question": "In what game in seven seasons was Vincent Lagaf surrounded by the Gafettes ?",
+        "propositions": [
+          "Burger Quiz",
+          "Le Bigdil",
+          "La Cible",
+          "Le Maillon faible"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill is an alien from the planet Fricus, having landed on Paris after his saucer was struck by lightning."
+      },
+      {
+        "id": 16,
+        "question": "In which show, created in 1962 by Guy Lux, were cows found ?",
+        "propositions": [
+          "Intervilles",
+          "Atoukado",
+          "Zone rouge",
+          "Tournez Manège"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "It is one of the longest-lived French game shows and one of the most adapted French programs abroad."
+      },
+      {
+        "id": 17,
+        "question": "In what game was Laurence Boccolini cold and scathing with the candidates ?",
+        "propositions": [
+          "Le Juste Prix",
+          "La Cible",
+          "Money Drop",
+          "Le Maillon faible"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "This game was based on elementary questions of general culture posed to nine candidates, speed and strategy."
+      },
+      {
+        "id": 18,
+        "question": "What game offered to win €250,000 divided into 50 indivisible bundles ?",
+        "propositions": [
+          "The Wall",
+          "Money Drop",
+          "Le Bigdil",
+          "Boom"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "To walk away with all the money, the candidates had to correctly answer eight questions of general culture."
+      },
+      {
+        "id": 19,
+        "question": "Who was the very first animator to present « Une famille en or » ?",
+        "propositions": [
+          "Pascal Brunner",
+          "Bernard Montiel",
+          "Patrick Roy",
+          "Laurent Cabrol"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "The goal of the game is to answer open questions posed to a panel of French respondents made up of one hundred people."
+      },
+      {
+        "id": 20,
+        "question": "What game presented by Olivier Minne replaced the « Pyramide » game ?",
+        "propositions": [
+          "Fear Factor",
+          "La Cible",
+          "Strike",
+          "Slam"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "The game « La Cible » will be replaced by the game « Everyone wants to take their place », hosted by Nagui from July 3, 2006."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What was the first game in France to show candidates handling banknotes ?",
+        "propositions": [
+          "1 against 100",
+          "Money Drop",
+          "The Banker",
+          "I'm counting on you"
+        ],
+        "réponse": "I'm counting on you",
+        "anecdote": "This game show created by Jacques Antoine (Fort Boyard) and Jean Yanne was presented by Olivier Lejeune assisted by Valérie Lamour."
+      },
+      {
+        "id": 22,
+        "question": "For which game show did Philippe Risoli replace Patrick Roy in animation ?",
+        "propositions": [
+          "The Right Price",
+          "The Bigdil",
+          "Gold on the call",
+          "The Weakest Link"
+        ],
+        "réponse": "The Right Price",
+        "anecdote": "From November 1992 to 1996, Philippe Risoli arrived via a specific entrance between the window on the right and the Wheel."
+      },
+      {
+        "id": 23,
+        "question": "What game show was invented by Alain Chabat and Kader Aoun ?",
+        "propositions": [
+          "Fear Factor",
+          "Slam",
+          "Kamoulox",
+          "Burger Quiz"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "The game is produced by the production company Chez Wam, then by the company RG Productions and directed by Jérôme Revon."
+      },
+      {
+        "id": 24,
+        "question": "Which game broadcast on TF1 was based on the fears and phobias of the candidates ?",
+        "propositions": [
+          "Pékin Express",
+          "Fear Factor",
+          "Ninja Warrior",
+          "Koh-Lanta"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Each episode presented different and varied challenges such as bungee jumping, diving or climbing events."
+      },
+      {
+        "id": 25,
+        "question": "Which French game show has been presented by Cyril Féraud since October 2009 ?",
+        "propositions": [
+          "District Z",
+          "Mask Singer",
+          "Slam",
+          "Pyramide"
+        ],
+        "réponse": "Slam",
+        "anecdote": "The recordings take place every month, six times a day, from Monday to Saturday, for broadcasts in the following two months."
+      },
+      {
+        "id": 26,
+        "question": "What game is played between masked and fully disguised celebrities ?",
+        "propositions": [
+          "The Wall",
+          "Mask Singer",
+          "La Cible",
+          "Fear Factor"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Their performances are judged by a jury of investigators and the public present, to which may be added a guest investigator on certain evenings."
+      },
+      {
+        "id": 27,
+        "question": "What parody game show was created by comedians Kad and Olivier ?",
+        "propositions": [
+          "The Banker",
+          "Atoukado",
+          "Strike",
+          "Kamoulox"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "The name Kamoulox would be the result of a fairly free contraction of the names of the two authors, Kad Merad and Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "In what game did a contestant have to face a group of people called the Wall ?",
+        "propositions": [
+          "Fear Factor",
+          "1 against 100",
+          "La Cible",
+          "Strike"
+        ],
+        "réponse": "1 against 100",
+        "anecdote": "« 1 contre 100 » is a French game show of Dutch origin, broadcast on TF1 from 2007 to 2008 and presented by Benjamin Castaldi."
+      },
+      {
+        "id": 29,
+        "question": "What old game show was adapted from the American game « Hollywood Squares » ?",
+        "propositions": [
+          "The Banker",
+          "Atoukado",
+          "Atout Coeur",
+          "L'Académie des neuf"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "During L'Académie des neuf, nine personalities were invited and distributed in the nine boxes of the decor, on three floors."
+      },
+      {
+        "id": 30,
+        "question": "Which famous Luxembourg game show was hosted by Fabrice and Sophie Garel ?",
+        "propositions": [
+          "The Banker",
+          "Atoukado",
+          "Charivari",
+          "Atout Coeur"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "It was the first notes of the song « Le Pornographe » by Georges Brassens that formed the jingle of the game « Atoukado »."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Objekte liegen der Spielshow « Take it or Leave it » zugrunde ?",
+        "propositions": [
+          "Boxen",
+          "Bälle",
+          "Token",
+          "Geschenke"
+        ],
+        "réponse": "Boxen",
+        "anecdote": "24 Kandidaten haben eine von einem Gerichtsvollzieher zufällig verteilte Kiste, in der sich ein unterschiedlicher Geldbetrag verbirgt."
+      },
+      {
+        "id": 2,
+        "question": "In welchem Abenteuerspiel trampen mehrere Paare ?",
+        "propositions": [
+          "Fear Factor",
+          "Pékin Express",
+          "Intervilles",
+          "Ninja Warrior"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "Im Verlauf des Spiels können sich die Teilnehmer Amulette, einen Rennvorsprung oder einen Safe verdienen, damit sie das Spiel nicht aufgeben."
+      },
+      {
+        "id": 3,
+        "question": "In welchem Spiel musste in 29 Spielzeiten vermieden werden, dass eine schwarze Kugel gezogen wurde ?",
+        "propositions": [
+          "Motus",
+          "Pyramide",
+          "L'Or à l'appel",
+          "Le Bigdil"
+        ],
+        "réponse": "Motus",
+        "anecdote": "Der größte Jackpot in der Geschichte des Spiels mit Thierry Beccaro beträgt 17.600 €, oder 22 Shows ohne gewonnenes Superspiel."
+      },
+      {
+        "id": 4,
+        "question": "Auf welchem Fernsehsender findet der « Große Wettbewerb der Animatoren » statt ?",
+        "propositions": [
+          "Kanal+",
+          "Frankreich 2",
+          "TF1",
+          "C8"
+        ],
+        "réponse": "TF1",
+        "anecdote": "Dieses Programm bringt die Moderatoren der französischen Sender zusammen, die um den Gewinn der Grand Concours Trophy kämpfen."
+      },
+      {
+        "id": 5,
+        "question": "An Bord welcher Schiffe reisen die Kandidaten der « Schatzsuche » ?",
+        "propositions": [
+          "Hubschrauber",
+          "Wasserflugzeug",
+          "Taxi",
+          "U-Boot"
+        ],
+        "réponse": "Hubschrauber",
+        "anecdote": "Philippe de Dieuleveult verkörperte die Rolle eines journalistischen Abenteurers, der zu allen Abenteuern des Spiels in allen Teilen der Welt bereit war."
+      },
+      {
+        "id": 6,
+        "question": "Wer war 28 Jahre lang Gastgeber von « Questions for a Champion » ?",
+        "propositions": [
+          "Vincent Perrot",
+          "Philippe Risoli",
+          "Samuel Etienne",
+          "Julien Lepers"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "Die Show wird oft parodiert und viele Ausschnitte mehrerer Kandidaten kehren in Pannen und Zappings zurück."
+      },
+      {
+        "id": 7,
+        "question": "In welchem berühmten Spiel sind Abenteurer auf einer Insel sich selbst überlassen ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Koh-Lanta",
+          "Pékin Express",
+          "La Cible/I>"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "Diese Abenteurer, die häufig körperliche Herausforderungen meistern, werden in mehrere Teams aufgeteilt, bevor sie wieder vereint werden."
+      },
+      {
+        "id": 8,
+        "question": "Wer ist der legendäre Moderator von « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Denis Brogniart",
+          "Jarry",
+          "Jean-Pierre Foucault",
+          "Jonathan Cohen"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "Am 27. August 2004 erhielt Marie Friedel 1 Million Euro, was den Rekord für den höchsten Gewinn einer Kandidatin in diesem Spiel darstellte."
+      },
+      {
+        "id": 9,
+        "question": "In welcher französischen Ehespielshow war « Le Jeu des célibataires » zu sehen ?",
+        "propositions": [
+          "Slam",
+          "Motus",
+          "Tournez Manège",
+          "Le Maillon faible"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "Das ausgewählte Paar kehrte eine Woche später zurück, um zu versuchen, eine Reise zu Simone Garniers Fragespiel zu gewinnen."
+      },
+      {
+        "id": 10,
+        "question": "Welche französische Spielshow ist auch als Heldenreise bekannt ?",
+        "propositions": [
+          "Pékin Express",
+          "District Z",
+          "Ninja Warrior",
+          "Total Wipeout"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Das von Christophe Beaugrand, Denis Brogniart und Iris Mittenaere präsentierte Format basiert auf der japanischen Show \u003cI\u003eSasuke\u003c/I\u003e."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher französische Präsident hat die Gründung von « Jeux sans frontières » inspiriert ?",
+        "propositions": [
+          "Chirac",
+          "De Gaulle",
+          "Pompidou",
+          "Mitterrand"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "Im Jahr 2019 kauften mehrere private Unternehmen die Rechte an dem Programm von der EBU, um ein Spiel namens Eurogames zu entwickeln."
+      },
+      {
+        "id": 12,
+        "question": "Bei welchem Spiel wurden Bälle von der Spitze eines Zwölf-Meter-Bretts geworfen ?",
+        "propositions": [
+          "Le Bigdil",
+          "Fear Factor",
+          "Pyramide",
+          "The Wall"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "Die Wand ist mit Leuchtdioden bekleidet, wodurch sie gleichzeitig als Sichtschutz dient und für eine leuchtende Atmosphäre sorgt."
+      },
+      {
+        "id": 13,
+        "question": "In welchem Spiel mussten Sie ein Wort anhand von Synonymen erraten ?",
+        "propositions": [
+          "Pyramide",
+          "Motus",
+          "Strike",
+          "Le Juste Prix"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pepita hatte bei jeder Ausstellung die Aufgabe, eine Postkarte zu verlosen, deren Autor zur Teilnahme am Telefonspiel eingeladen wurde."
+      },
+      {
+        "id": 14,
+        "question": "Welche Spielshow beinhaltet eine Schlüsselsuche und eine Schatzkammer ?",
+        "propositions": [
+          "Money Drop",
+          "Ninja Warrior",
+          "Koh-Lanta",
+          "Fort Boyard"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "Die jüngste Berühmtheit, die teilnahm, war Gloria Palermo de Blasi, Sängerin von Kids United, damals 9 Jahre alt."
+      },
+      {
+        "id": 15,
+        "question": "In welchem Spiel in sieben Saisons war Vincent Lagaf von den Gafettes umzingelt ?",
+        "propositions": [
+          "La Cible",
+          "Burger Quiz",
+          "Le Bigdil",
+          "Le Maillon faible"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill ist ein Außerirdischer vom Planeten Fricus, der auf Paris gelandet ist, nachdem seine Untertasse vom Blitz getroffen wurde."
+      },
+      {
+        "id": 16,
+        "question": "In welcher Show, die 1962 von Guy Lux ins Leben gerufen wurde, wurden Kühe gefunden ?",
+        "propositions": [
+          "Intervilles",
+          "Atoukado",
+          "Tournez Manège",
+          "Zone rouge"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "Es ist eine der langlebigsten französischen Spielshows und eines der am besten adaptierten französischen Programme im Ausland."
+      },
+      {
+        "id": 17,
+        "question": "In welchem Spiel war Laurence Boccolini den Kandidaten gegenüber kalt und bissig ?",
+        "propositions": [
+          "Money Drop",
+          "Le Maillon faible",
+          "La Cible",
+          "Le Juste Prix"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "Dieses Spiel basierte auf elementaren Fragen der allgemeinen Kultur, die neun Kandidaten gestellt wurden, sowie auf Geschwindigkeit und Strategie."
+      },
+      {
+        "id": 18,
+        "question": "Bei welchem Spiel konnte man 250.000 € gewinnen, aufgeteilt in 50 unteilbare Pakete ?",
+        "propositions": [
+          "The Wall",
+          "Le Bigdil",
+          "Money Drop",
+          "Boom"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "Um das ganze Geld zu gewinnen, mussten die Kandidaten acht Fragen zur allgemeinen Kultur richtig beantworten."
+      },
+      {
+        "id": 19,
+        "question": "Wer war der allererste Animator, der « Une famille en or » vorstellte ?",
+        "propositions": [
+          "Pascal Brunner",
+          "Laurent Cabrol",
+          "Bernard Montiel",
+          "Patrick Roy"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "Ziel des Spiels ist es, offene Fragen zu beantworten, die einem aus hundert Personen bestehenden Gremium französischer Befragter gestellt werden."
+      },
+      {
+        "id": 20,
+        "question": "Welches von Olivier Minne vorgestellte Spiel ersetzte das « Pyramide »-Spiel ?",
+        "propositions": [
+          "Fear Factor",
+          "Strike",
+          "Slam",
+          "La Cible"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "Das Spiel « La Cible » wird durch das Spiel « Jeder will seinen Platz einnehmen » ersetzt, das ab dem 3. Juli 2006 von Nagui veranstaltet wird."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was war das erste Spiel in Frankreich, bei dem Kandidaten beim Umgang mit Geldscheinen gezeigt wurden ?",
+        "propositions": [
+          "1 gegen 100",
+          "Der Bankier",
+          "EIch zähle auf dich",
+          "Money Drop"
+        ],
+        "réponse": "EIch zähle auf dich",
+        "anecdote": "Diese von Jacques Antoine (Fort Boyard) und Jean Yanne kreierte Spielshow wurde von Olivier Lejeune mit Unterstützung von Valérie Lamour moderiert."
+      },
+      {
+        "id": 22,
+        "question": "Für welche Spielshow ersetzte Philippe Risoli Patrick Roy in der Animation ?",
+        "propositions": [
+          "Der richtige Preis",
+          "Das schwächste Glied",
+          "Der Bigdil",
+          "Gold auf Anhieb"
+        ],
+        "réponse": "Der richtige Preis",
+        "anecdote": "Von November 1992 bis 1996 gelangte Philippe Risoli über einen speziellen Eingang zwischen dem Fenster rechts und dem Rad."
+      },
+      {
+        "id": 23,
+        "question": "Welche Spielshow wurde von Alain Chabat und Kader Aoun erfunden ?",
+        "propositions": [
+          "Kamoulox",
+          "Fear Factor",
+          "Slam",
+          "Burger Quiz"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "Das Spiel wurde von der Produktionsfirma Chez Wam, dann von der Firma RG Productions produziert und von Jérôme Revon inszeniert."
+      },
+      {
+        "id": 24,
+        "question": "Welche Spielübertragung auf TF1 basierte auf den Ängsten und Phobien der Kandidaten ?",
+        "propositions": [
+          "Pékin Express",
+          "Fear Factor",
+          "Ninja Warrior",
+          "Koh-Lanta"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Jede Folge präsentierte unterschiedliche und abwechslungsreiche Herausforderungen wie Bungee-Jumping, Tauchen oder Kletterevents."
+      },
+      {
+        "id": 25,
+        "question": "Welche französische Spielshow wird seit Oktober 2009 von Cyril Féraud moderiert ?",
+        "propositions": [
+          "Slam",
+          "District Z",
+          "Mask Singer",
+          "Pyramide"
+        ],
+        "réponse": "Slam",
+        "anecdote": "Die Aufzeichnungen erfolgen jeden Monat, sechsmal täglich, von Montag bis Samstag, für die Ausstrahlungen in den folgenden zwei Monaten."
+      },
+      {
+        "id": 26,
+        "question": "Welches Spiel wird zwischen maskierten und vollständig verkleideten Prominenten gespielt ?",
+        "propositions": [
+          "Mask Singer",
+          "Fear Factor",
+          "The Wall",
+          "La Cible"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Ihre Leistungen werden von einer Jury aus Ermittlern und dem anwesenden Publikum beurteilt, zu der an bestimmten Abenden auch ein Gastermittler hinzukommen kann."
+      },
+      {
+        "id": 27,
+        "question": "Welche Parodie-Gameshow wurde von den Komikern Kad und Olivier kreiert ?",
+        "propositions": [
+          "Strike",
+          "Kamoulox",
+          "Atoukado",
+          "Der Bankier"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "Der Name Kamoulox wäre das Ergebnis einer ziemlich freien Zusammenführung der Namen der beiden Autoren Kad Merad und Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "In welchem Spiel musste sich ein Teilnehmer einer Gruppe von Menschen namens Mauer stellen ?",
+        "propositions": [
+          "La Cible",
+          "Strike",
+          "1 gegen 100",
+          "Fear Factor"
+        ],
+        "réponse": "1 gegen 100",
+        "anecdote": "« 1 contre 100 » ist eine französische Spielshow niederländischer Herkunft, die von 2007 bis 2008 auf TF1 ausgestrahlt und von Benjamin Castaldi moderiert wurde."
+      },
+      {
+        "id": 29,
+        "question": "Welche alte Spielshow wurde aus dem amerikanischen Spiel « Hollywood Squares » adaptiert ?",
+        "propositions": [
+          "Atout Coeur",
+          "Der Bankier",
+          "L'Académie des neuf",
+          "Atoukado"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "Während der L'Académie des neuf wurden neun Persönlichkeiten eingeladen und in den neun Boxen der Dekoration auf drei Etagen verteilt."
+      },
+      {
+        "id": 30,
+        "question": "Welche berühmte luxemburgische Spielshow wurde von Fabrice und Sophie Garel moderiert ?",
+        "propositions": [
+          "Charivari",
+          "Atoukado",
+          "Der Bankier",
+          "Atout Coeur"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "Es waren die ersten Noten des Liedes « Le Pornographe » von Georges Brassens, die den Jingle des Spiels « Atoukado » bildeten."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué objetos son la base del programa de juegos « Tómalo o déjalo » ?",
+        "propositions": [
+          "fichas",
+          "Cajas",
+          "Bolas",
+          "Regalos"
+        ],
+        "réponse": "Cajas",
+        "anecdote": "24 candidatos tienen una caja, distribuida al azar por un alguacil en la que se esconde una suma de dinero diferente."
+      },
+      {
+        "id": 2,
+        "question": "¿En qué juego de aventuras hacen autostop varias parejas ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Fear Factor",
+          "Intervilles",
+          "Pékin Express"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "A medida que avanza el juego, los concursantes pueden ganar amuletos, una ventaja de carrera o una caja fuerte para no abandonar el juego."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué juego fue necesario, durante 29 temporadas, evitar sacar una bola negra ?",
+        "propositions": [
+          "Motus",
+          "Le Bigdil",
+          "Pyramide",
+          "L'Or à l'appel"
+        ],
+        "réponse": "Motus",
+        "anecdote": "El premio mayor más grande en la historia del juego con Thierry Beccaro es de 17 600 €, o 22 espectáculos sin ganar un juego Super."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué canal de televisión tiene lugar « El Gran Concurso de Animadores » ?",
+        "propositions": [
+          "TF1",
+          "C8",
+          "Francia 2",
+          "Canal+"
+        ],
+        "réponse": "TF1",
+        "anecdote": "Este programa reúne a los presentadores de las cadenas francesas que luchan por ganar el Trofeo Grand Concours."
+      },
+      {
+        "id": 5,
+        "question": "¿A bordo de qué embarcación viajan los candidatos a la « Búsqueda del Tesoro » ?",
+        "propositions": [
+          "helicóptero",
+          "hidroavión",
+          "Taxis",
+          "submarino"
+        ],
+        "réponse": "helicóptero",
+        "anecdote": "Philippe de Dieuleveult encarnó el papel de un periodista aventurero, listo para todas las hazañas del juego en los cuatro rincones del mundo."
+      },
+      {
+        "id": 6,
+        "question": "¿Quién organizó « Preguntas para un campeón » durante 28 años ?",
+        "propositions": [
+          "Philippe Risoli",
+          "Vincent Perrot",
+          "Julien Lepers",
+          "Samuel Etienne"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "El programa a menudo se parodia y muchos extractos de varios candidatos regresan en bloopers y zapping."
+      },
+      {
+        "id": 7,
+        "question": "¿En qué famoso juego se deja que los aventureros se las arreglen solos en una isla ?",
+        "propositions": [
+          "Pékin Express",
+          "Koh-Lanta",
+          "La Cible/I>",
+          "Ninja Warrior"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "Estos aventureros, que compiten a menudo en desafíos físicos, se dividen en varios equipos antes de volver a reunirse."
+      },
+      {
+        "id": 8,
+        "question": "¿Quién es el icónico presentador de « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Jarry",
+          "Denis Brogniart",
+          "Jonathan Cohen",
+          "Jean-Pierre Foucault"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "El 27 de agosto de 2004, Marie Friedel obtuvo 1 millón de euros, que fue el récord de mayor ganancia adquirida por un candidato en este juego."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué programa de concurso matrimonial francés presentó « Le Jeu des célibataires » ?",
+        "propositions": [
+          "Motus",
+          "Le Maillon faible",
+          "Slam",
+          "Tournez Manège"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "La pareja seleccionada volvió una semana después para intentar ganar un viaje al juego de preguntas de Simone Garnier."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué programa de juegos francés también se conoce como el viaje del héroe ?",
+        "propositions": [
+          "District Z",
+          "Pékin Express",
+          "Ninja Warrior",
+          "Total Wipeout"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Presentado por Christophe Beaugrand, Denis Brogniart e Iris Mittenaere, el formato es una adaptación de un espectáculo japonés, \u003cI\u003eSasuke\u003c/I\u003e."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué presidente francés inspiró la creación de « Jeux sans frontières » ?",
+        "propositions": [
+          "Chirac",
+          "De Gaulle",
+          "Mitterrand",
+          "Pompidou"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "En 2019, varias empresas privadas compraron los derechos del programa a la EBU para crear un juego llamado Eurogames."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué juego se lanzaron bolas desde lo alto de un tablero de doce metros ?",
+        "propositions": [
+          "Pyramide",
+          "Le Bigdil",
+          "Fear Factor",
+          "The Wall"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "La pared se viste con diodos emisores de luz, lo que también le permite ser una pantalla y proporcionar un ambiente luminoso."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué juego tuviste que adivinar una palabra usando sinónimos ?",
+        "propositions": [
+          "Le Juste Prix",
+          "Strike",
+          "Pyramide",
+          "Motus"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pepita se encargaba, en cada función, de sortear una postal cuyo autor era invitado a participar en el juego telefónico."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué programa de juegos incluye una búsqueda de llaves y una sala del tesoro ?",
+        "propositions": [
+          "Koh-Lanta",
+          "Ninja Warrior",
+          "Fort Boyard",
+          "Money Drop"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "La celebridad más joven en participar fue Gloria Palermo de Blasi, cantante de Kids United, entonces de 9 años."
+      },
+      {
+        "id": 15,
+        "question": "¿En qué partido de siete temporadas estuvo Vincent Lagaf rodeado por los Gafettes ?",
+        "propositions": [
+          "Le Bigdil",
+          "La Cible",
+          "Le Maillon faible",
+          "Burger Quiz"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill es un extraterrestre del planeta Fricus, que aterrizó en París después de que su platillo fuera alcanzado por un rayo."
+      },
+      {
+        "id": 16,
+        "question": "¿En qué espectáculo, creado en 1962 por Guy Lux, se encontraron vacas ?",
+        "propositions": [
+          "Tournez Manège",
+          "Zone rouge",
+          "Intervilles",
+          "Atoukado"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "Es uno de los concursos franceses más longevos y uno de los programas franceses más adaptados en el extranjero."
+      },
+      {
+        "id": 17,
+        "question": "¿En qué juego Laurence Boccolini fue frío y mordaz con los candidatos ?",
+        "propositions": [
+          "Money Drop",
+          "Le Maillon faible",
+          "La Cible",
+          "Le Juste Prix"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "Este juego se basó en cuestiones elementales de cultura general planteadas a nueve candidatos, rapidez y estrategia."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué juego ofrecía ganar 250.000€ divididos en 50 paquetes indivisibles ?",
+        "propositions": [
+          "The Wall",
+          "Le Bigdil",
+          "Boom",
+          "Money Drop"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "Para llevarse todo el dinero, los candidatos debían responder correctamente ocho preguntas de cultura general."
+      },
+      {
+        "id": 19,
+        "question": "¿Quién fue el primer animador en presentar « Une famille en or » ?",
+        "propositions": [
+          "Bernard Montiel",
+          "Patrick Roy",
+          "Pascal Brunner",
+          "Laurent Cabrol"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "El objetivo del juego es responder preguntas abiertas planteadas a un panel de encuestados franceses compuesto por cien personas."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué juego presentado por Olivier Minne reemplazó al juego « Pyramide » ?",
+        "propositions": [
+          "Strike",
+          "Fear Factor",
+          "La Cible",
+          "Slam"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "El juego « La Cible » será sustituido por el juego « Todos quieren ocupar su lugar », presentado por Nagui desde el 3 de julio de 2006."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál fue el primer juego en Francia que mostró a los candidatos manipulando billetes ?",
+        "propositions": [
+          "Cuento contigo",
+          "El banquero",
+          "Money Drop",
+          "1 contra 100"
+        ],
+        "réponse": "Cuento contigo",
+        "anecdote": "Este concurso creado por Jacques Antoine (Fort Boyard) y Jean Yanne fue presentado por Olivier Lejeune asistido por Valérie Lamour."
+      },
+      {
+        "id": 22,
+        "question": "¿Para qué programa de juegos Philippe Risoli reemplazó a Patrick Roy en animación ?",
+        "propositions": [
+          "El eslabón más débil",
+          "El Bigdil",
+          "El precio correcto",
+          "Oro en la llamada"
+        ],
+        "réponse": "El precio correcto",
+        "anecdote": "De noviembre de 1992 a 1996, Philippe Risoli llegó a través de una entrada específica entre la ventana de la derecha y la Rueda."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué programa de juegos fue inventado por Alain Chabat y Kader Aoun ?",
+        "propositions": [
+          "Burger Quiz",
+          "Kamoulox",
+          "Slam",
+          "Fear Factor"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "El juego es producido por la productora Chez Wam, luego por la compañía RG Productions y dirigido por Jérôme Revon."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué juego retransmitido en TF1 se basó en los miedos y fobias de los candidatos ?",
+        "propositions": [
+          "Koh-Lanta",
+          "Pékin Express",
+          "Fear Factor",
+          "Ninja Warrior"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Cada episodio presentaba desafíos diferentes y variados, como puenting, clavados o eventos de escalada."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué concurso francés presenta Cyril Féraud desde octubre de 2009 ?",
+        "propositions": [
+          "District Z",
+          "Slam",
+          "Mask Singer",
+          "Pyramide"
+        ],
+        "réponse": "Slam",
+        "anecdote": "Las grabaciones se realizan todos los meses, seis veces al día, de lunes a sábado, para las emisiones de los dos meses siguientes."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué juego se juega entre celebridades enmascaradas y completamente disfrazadas ?",
+        "propositions": [
+          "La Cible",
+          "Fear Factor",
+          "The Wall",
+          "Mask Singer"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Sus actuaciones son juzgadas por un jurado de investigadores y el público presente, al que puede añadirse un investigador invitado en determinadas veladas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué programa de juegos de parodia fue creado por los comediantes Kad y Olivier ?",
+        "propositions": [
+          "El banquero",
+          "Kamoulox",
+          "Strike",
+          "Atoukado"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "El nombre Kamoulox sería el resultado de una contracción bastante libre de los nombres de los dos autores, Kad Merad y Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "¿En qué juego un concursante tuvo que enfrentarse a un grupo de personas llamado Muro ?",
+        "propositions": [
+          "Fear Factor",
+          "1 contra 100",
+          "La Cible",
+          "Strike"
+        ],
+        "réponse": "1 contra 100",
+        "anecdote": "« 1 contre 100 » es un programa de juegos francés de origen holandés, transmitido por TF1 de 2007 a 2008 y presentado por Benjamin Castaldi."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué antiguo programa de juegos se adaptó del juego estadounidense « Hollywood Squares » ?",
+        "propositions": [
+          "Atout Coeur",
+          "Atoukado",
+          "L'Académie des neuf",
+          "El banquero"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "Durante L'Académie des neuf, nueve personalidades fueron invitadas y distribuidas en los nueve palcos de la decoración, en tres plantas."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué famoso programa de juegos de Luxemburgo fue presentado por Fabrice y Sophie Garel ?",
+        "propositions": [
+          "El banquero",
+          "Charivari",
+          "Atout Coeur",
+          "Atoukado"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "Fueron las primeras notas de la canción « Le Pornographe » de Georges Brassens las que formaron el jingle del juego « Atoukado »."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quali oggetti sono alla base del game show « Take it or Leave it » ?",
+        "propositions": [
+          "Palle",
+          "Regali",
+          "Gettoni",
+          "Scatole"
+        ],
+        "réponse": "Scatole",
+        "anecdote": "24 candidati hanno una scatola, distribuita a caso da un ufficiale giudiziario, nella quale si nasconde una diversa somma di denaro."
+      },
+      {
+        "id": 2,
+        "question": "In quale gioco di avventura diverse coppie fanno l'autostop ?",
+        "propositions": [
+          "Pékin Express",
+          "Fear Factor",
+          "Ninja Warrior",
+          "Intervilles"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "Man mano che il gioco procede, i concorrenti possono guadagnare amuleti, un vantaggio di gara o una cassaforte in modo da non abbandonare il gioco."
+      },
+      {
+        "id": 3,
+        "question": "In quale partita è stato necessario, durante 29 stagioni, evitare di pescare una palla nera ?",
+        "propositions": [
+          "Motus",
+          "Pyramide",
+          "Le Bigdil",
+          "L'Or à l'appel"
+        ],
+        "réponse": "Motus",
+        "anecdote": "Il più grande jackpot nella storia del gioco con Thierry Beccaro è di € 17.600, ovvero 22 spettacoli senza una Super partita vinta."
+      },
+      {
+        "id": 4,
+        "question": "Su quale canale televisivo si svolge « Il Gran Concorso degli animatori » ?",
+        "propositions": [
+          "Francia 2",
+          "TF1",
+          "DO8",
+          "Canale+"
+        ],
+        "réponse": "TF1",
+        "anecdote": "Questo programma riunisce i conduttori dei canali francesi che stanno lottando per vincere il Grand Concours Trophy."
+      },
+      {
+        "id": 5,
+        "question": "A bordo di quale imbarcazione viaggiano i candidati alla « Caccia al Tesoro » ?",
+        "propositions": [
+          "Idrovolante",
+          "Sottomarino",
+          "Taxi",
+          "Elicottero"
+        ],
+        "réponse": "Elicottero",
+        "anecdote": "Philippe de Dieuleveult incarnava il ruolo di un giornalista-avventuriero, pronto a tutte le imprese per il gioco nei quattro angoli del mondo."
+      },
+      {
+        "id": 6,
+        "question": "Chi ha ospitato « Domande per un campione » per 28 anni ?",
+        "propositions": [
+          "Vincent Perrot",
+          "Julien Lepers",
+          "Philippe Risoli",
+          "Samuel Etienne"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "Lo spettacolo è spesso parodiato e molti estratti di diversi candidati tornano in errori e zapping."
+      },
+      {
+        "id": 7,
+        "question": "In quale famoso gioco gli avventurieri sono lasciati a se stessi su un'isola ?",
+        "propositions": [
+          "La Cible/I>",
+          "Koh-Lanta",
+          "Pékin Express",
+          "Ninja Warrior"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "Questi avventurieri, che competono spesso in sfide fisiche, vengono divisi in diverse squadre prima di essere riuniti."
+      },
+      {
+        "id": 8,
+        "question": "Chi è l'iconico presentatore di « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Denis Brogniart",
+          "Jonathan Cohen",
+          "Jean-Pierre Foucault",
+          "Jarry"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "Il 27 agosto 2004, Marie Friedel ha ottenuto 1 milione di euro, che è stato il record per il più grande guadagno ottenuto da un candidato in questo gioco."
+      },
+      {
+        "id": 9,
+        "question": "Quale game show matrimoniale francese presentava « Le Jeu des célibataires » ?",
+        "propositions": [
+          "Le Maillon faible",
+          "Motus",
+          "Slam",
+          "Tournez Manège"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "La coppia selezionata è tornata una settimana dopo per provare a vincere un viaggio al gioco delle domande di Simone Garnier."
+      },
+      {
+        "id": 10,
+        "question": "Quale game show francese è conosciuto anche come il viaggio dell'eroe ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Pékin Express",
+          "Total Wipeout",
+          "District Z"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Presentato da Christophe Beaugrand, Denis Brogniart e Iris Mittenaere, il formato è adattato da uno spettacolo giapponese, \u003cI\u003eSasuke\u003c/I\u003e."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale presidente francese ha ispirato la creazione di « Jeux sans frontières » ?",
+        "propositions": [
+          "Chirac",
+          "Pompidou",
+          "De Gaulle",
+          "Mitterrand"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "Nel 2019, diverse società private hanno acquistato i diritti del programma dall'EBU per creare un gioco chiamato Eurogames."
+      },
+      {
+        "id": 12,
+        "question": "In quale gioco venivano lanciate palline dall'alto di un tabellone di dodici metri ?",
+        "propositions": [
+          "Le Bigdil",
+          "Fear Factor",
+          "The Wall",
+          "Pyramide"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "La parete è rivestita di diodi emettitori di luce, che le consentono anche di fungere da schermo e di creare un'atmosfera luminosa."
+      },
+      {
+        "id": 13,
+        "question": "In quale gioco hai dovuto indovinare una parola usando i sinonimi ?",
+        "propositions": [
+          "Le Juste Prix",
+          "Motus",
+          "Strike",
+          "Pyramide"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pepita si occupava, ad ogni mostra, di estrarre a sorte una cartolina il cui autore veniva invitato a partecipare al gioco del telefono."
+      },
+      {
+        "id": 14,
+        "question": "Quale programma televisivo include una ricerca di chiavi e una stanza del tesoro ?",
+        "propositions": [
+          "Fort Boyard",
+          "Ninja Warrior",
+          "Money Drop",
+          "Koh-Lanta"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "La celebrità più giovane a partecipare è stata Gloria Palermo de Blasi, cantante dei Kids United, allora 9 anni."
+      },
+      {
+        "id": 15,
+        "question": "In quale partita in sette stagioni Vincent Lagaf è stato circondato dalle Gafette ?",
+        "propositions": [
+          "Le Maillon faible",
+          "Burger Quiz",
+          "La Cible",
+          "Le Bigdil"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill è un alieno del pianeta Fricus, atterrato su Parigi dopo che il suo disco è stato colpito da un fulmine."
+      },
+      {
+        "id": 16,
+        "question": "In quale spettacolo, ideato nel 1962 da Guy Lux, sono state trovate delle mucche ?",
+        "propositions": [
+          "Zone rouge",
+          "Tournez Manège",
+          "Atoukado",
+          "Intervilles"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "È uno dei game show francesi più longevi e uno dei programmi francesi più adattati all'estero."
+      },
+      {
+        "id": 17,
+        "question": "In che gioco Laurence Boccolini è stato freddo e aspro con i candidati ?",
+        "propositions": [
+          "Le Maillon faible",
+          "Le Juste Prix",
+          "La Cible",
+          "Money Drop"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "Questo gioco si basava su domande elementari di cultura generale poste a nove candidati, velocità e strategia."
+      },
+      {
+        "id": 18,
+        "question": "Quale gioco offriva per vincere 250.000€ suddivisi in 50 pacchetti indivisibili ?",
+        "propositions": [
+          "Money Drop",
+          "Boom",
+          "The Wall",
+          "Le Bigdil"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "Per andarsene con tutti i soldi, i candidati dovevano rispondere correttamente a otto domande di cultura generale."
+      },
+      {
+        "id": 19,
+        "question": "Chi è stato il primo animatore a presentare « Une famille en or » ?",
+        "propositions": [
+          "Bernard Montiel",
+          "Laurent Cabrol",
+          "Pascal Brunner",
+          "Patrick Roy"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "L'obiettivo del gioco è rispondere a domande aperte poste a un gruppo di intervistati francesi composto da un centinaio di persone."
+      },
+      {
+        "id": 20,
+        "question": "Quale gioco presentato da Olivier Minne ha sostituito il gioco « Pyramide » ?",
+        "propositions": [
+          "Fear Factor",
+          "La Cible",
+          "Slam",
+          "Strike"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "Il gioco « La Cible » sarà sostituito dal gioco « Tutti vogliono prendere il loro posto », ospitato da Nagui dal 3 luglio 2006."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è stato il primo gioco in Francia in cui i candidati maneggiano banconote ?",
+        "propositions": [
+          "Money Drop",
+          "Conto su di te",
+          "1 contro 100",
+          "Il banchiere"
+        ],
+        "réponse": "Conto su di te",
+        "anecdote": "Questo game show creato da Jacques Antoine (Fort Boyard) e Jean Yanne è stato presentato da Olivier Lejeune assistito da Valérie Lamour."
+      },
+      {
+        "id": 22,
+        "question": "Per quale game show Philippe Risoli ha sostituito Patrick Roy nell'animazione ?",
+        "propositions": [
+          "Oro alla chiamata",
+          "L'anello più debole",
+          "Il giusto prezzo",
+          "Il Bigdil"
+        ],
+        "réponse": "Il giusto prezzo",
+        "anecdote": "Dal novembre 1992 al 1996, Philippe Risoli è arrivato attraverso un ingresso specifico tra la finestra a destra e la Ruota."
+      },
+      {
+        "id": 23,
+        "question": "Quale programma televisivo è stato inventato da Alain Chabat e Kader Aoun ?",
+        "propositions": [
+          "Kamoulox",
+          "Burger Quiz",
+          "Slam",
+          "Fear Factor"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "Il gioco è prodotto dalla società di produzione Chez Wam, poi dalla società RG Productions e diretto da Jérôme Revon."
+      },
+      {
+        "id": 24,
+        "question": "Quale partita trasmessa su TF1 si basava sulle paure e le fobie dei candidati ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Koh-Lanta",
+          "Fear Factor",
+          "Pékin Express"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Ogni episodio presentava sfide diverse e varie come il bungee jumping, le immersioni o gli eventi di arrampicata."
+      },
+      {
+        "id": 25,
+        "question": "Quale game show francese è stato presentato da Cyril Féraud dall'ottobre 2009 ?",
+        "propositions": [
+          "Slam",
+          "Mask Singer",
+          "Pyramide",
+          "District Z"
+        ],
+        "réponse": "Slam",
+        "anecdote": "Le registrazioni avvengono ogni mese, sei volte al giorno, dal lunedì al sabato, per le trasmissioni nei due mesi successivi."
+      },
+      {
+        "id": 26,
+        "question": "Che gioco si gioca tra celebrità mascherate e completamente camuffate ?",
+        "propositions": [
+          "Mask Singer",
+          "The Wall",
+          "Fear Factor",
+          "La Cible"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Le loro esibizioni sono giudicate da una giuria di investigatori e dal pubblico presente, a cui si può aggiungere in certe serate un investigatore ospite."
+      },
+      {
+        "id": 27,
+        "question": "Quale game show parodia è stato creato dai comici Kad e Olivier ?",
+        "propositions": [
+          "Il banchiere",
+          "Kamoulox",
+          "Atoukado",
+          "Strike"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "Il nome Kamoulox sarebbe il risultato di una contrazione abbastanza libera dei nomi dei due autori, Kad Merad e Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "In quale gioco un concorrente doveva affrontare un gruppo di persone chiamato il Muro ?",
+        "propositions": [
+          "La Cible",
+          "Fear Factor",
+          "Strike",
+          "1 contro 100"
+        ],
+        "réponse": "1 contro 100",
+        "anecdote": "« 1 contre 100 » è un game show francese di origine olandese, trasmesso su TF1 dal 2007 al 2008 e condotto da Benjamin Castaldi."
+      },
+      {
+        "id": 29,
+        "question": "Quale vecchio programma televisivo è stato adattato dal gioco americano « Hollywood Squares » ?",
+        "propositions": [
+          "Atout Coeur",
+          "Atoukado",
+          "Il banchiere",
+          "L'Académie des neuf"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "Durante L'Académie des neuf, nove personalità sono state invitate e distribuite nei nove palchi della decorazione, su tre piani."
+      },
+      {
+        "id": 30,
+        "question": "Quale famoso game show lussemburghese è stato ospitato da Fabrice e Sophie Garel ?",
+        "propositions": [
+          "Atout Coeur",
+          "Charivari",
+          "Atoukado",
+          "Il banchiere"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "Sono state le prime note della canzone « Le Pornographe » di Georges Brassens a formare il jingle del gioco « Atoukado »."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke objecten vormen de basis van de spelshow « Take it or Leave it » ?",
+        "propositions": [
+          "Geschenken",
+          "Penningen",
+          "Ballen",
+          "Dozen"
+        ],
+        "réponse": "Dozen",
+        "anecdote": "24 kandidaten hebben een door een gerechtsdeurwaarder willekeurig verspreide doos waarin een ander geldbedrag zit."
+      },
+      {
+        "id": 2,
+        "question": "In welk avonturenspel liften meerdere paren ?",
+        "propositions": [
+          "Intervilles",
+          "Pékin Express",
+          "Fear Factor",
+          "Ninja Warrior"
+        ],
+        "réponse": "Pékin Express",
+        "anecdote": "Naarmate het spel vordert, kunnen deelnemers amuletten, een voorsprong in de race of een kluis verdienen, zodat ze het spel niet verlaten."
+      },
+      {
+        "id": 3,
+        "question": "In welke wedstrijd was het gedurende 29 seizoenen nodig om te voorkomen dat er een zwarte bal werd getrokken ?",
+        "propositions": [
+          "Le Bigdil",
+          "L'Or à l'appel",
+          "Motus",
+          "Pyramide"
+        ],
+        "réponse": "Motus",
+        "anecdote": "De grootste jackpot in de geschiedenis van het spel met Thierry Beccaro is € 17.600, of 22 shows zonder een Super game gewonnen."
+      },
+      {
+        "id": 4,
+        "question": "Op welke tv-zender vindt « The Grand Contest of animators » plaats ?",
+        "propositions": [
+          "Kanaal+",
+          "C8",
+          "Frankrijk 2",
+          "TF1"
+        ],
+        "réponse": "TF1",
+        "anecdote": "Dit programma brengt de presentatoren van de Franse zenders samen die strijden om de Grand Concours Trophy te winnen."
+      },
+      {
+        "id": 5,
+        "question": "Aan boord van welk vaartuig reizen de kandidaten van de « Treasure Hunt » ?",
+        "propositions": [
+          "Onderzeeër",
+          "Watervliegtuig",
+          "Helikopter",
+          "taxiën"
+        ],
+        "réponse": "Helikopter",
+        "anecdote": "Philippe de Dieuleveult belichaamde de rol van een journalist-avonturier, klaar voor alle heldendaden voor het spel in de vier hoeken van de wereld."
+      },
+      {
+        "id": 6,
+        "question": "Wie organiseerde 28 jaar lang « Questions for a Champion » ?",
+        "propositions": [
+          "Julien Lepers",
+          "Philippe Risoli",
+          "Vincent Perrot",
+          "Samuel Etienne"
+        ],
+        "réponse": "Julien Lepers",
+        "anecdote": "De show wordt vaak geparodieerd en veel fragmenten van verschillende kandidaten keren terug in bloopers en zappen."
+      },
+      {
+        "id": 7,
+        "question": "In welk beroemd spel worden avonturiers aan hun lot overgelaten op een eiland ?",
+        "propositions": [
+          "Ninja Warrior",
+          "Koh-Lanta",
+          "La Cible/I>",
+          "Pékin Express"
+        ],
+        "réponse": "Koh-Lanta",
+        "anecdote": "Deze avonturiers, die strijden in vaak fysieke uitdagingen, worden in verschillende teams verdeeld voordat ze worden herenigd."
+      },
+      {
+        "id": 8,
+        "question": "Wie is de iconische presentator van « Qui veut gagner des millions » ?",
+        "propositions": [
+          "Jonathan Cohen",
+          "Jarry",
+          "Denis Brogniart",
+          "Jean-Pierre Foucault"
+        ],
+        "réponse": "Jean-Pierre Foucault",
+        "anecdote": "Op 27 augustus 2004 behaalde Marie Friedel 1 miljoen euro, het record voor de grootste winst die een kandidaat in dit spel behaalde."
+      },
+      {
+        "id": 9,
+        "question": "In welke Franse huwelijksspelshow was « Le Jeu des célibataires » te zien ?",
+        "propositions": [
+          "Tournez Manège",
+          "Motus",
+          "Le Maillon faible",
+          "Slam"
+        ],
+        "réponse": "Tournez Manège",
+        "anecdote": "Het geselecteerde koppel keerde een week later terug om te proberen een reis naar het vragenspel van Simone Garnier te winnen."
+      },
+      {
+        "id": 10,
+        "question": "Welke Franse spelshow staat ook wel bekend als de reis van de held ?",
+        "propositions": [
+          "District Z",
+          "Pékin Express",
+          "Total Wipeout",
+          "Ninja Warrior"
+        ],
+        "réponse": "Ninja Warrior",
+        "anecdote": "Gepresenteerd door Christophe Beaugrand, Denis Brogniart en Iris Mittenaere, is het formaat aangepast van een Japanse show, \u003cI\u003eSasuke\u003c/I\u003e."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Franse president inspireerde de oprichting van « Jeux sans frontières » ?",
+        "propositions": [
+          "De Gaulle",
+          "Mitterrand",
+          "Pompidou",
+          "Chirac"
+        ],
+        "réponse": "De Gaulle",
+        "anecdote": "In 2019 kochten verschillende particuliere bedrijven de rechten op het programma van de EBU om een spel genaamd Eurogames te maken."
+      },
+      {
+        "id": 12,
+        "question": "In welk spel werden ballen vanaf de bovenkant van een bord van twaalf meter gegooid ?",
+        "propositions": [
+          "Fear Factor",
+          "Pyramide",
+          "Le Bigdil",
+          "The Wall"
+        ],
+        "réponse": "The Wall",
+        "anecdote": "De muur is bekleed met lichtgevende diodes, waardoor het ook een scherm kan zijn en een verlichte atmosfeer kan bieden."
+      },
+      {
+        "id": 13,
+        "question": "In welk spel moest je een woord raden met behulp van synoniemen ?",
+        "propositions": [
+          "Pyramide",
+          "Strike",
+          "Le Juste Prix",
+          "Motus"
+        ],
+        "réponse": "Pyramide",
+        "anecdote": "Pepita had bij elke show de leiding over het loten van een ansichtkaart waarvan de auteur was uitgenodigd om deel te nemen aan het telefoonspel."
+      },
+      {
+        "id": 14,
+        "question": "Welke spelshow bevat een zoektocht naar sleutels en een schatkamer ?",
+        "propositions": [
+          "Fort Boyard",
+          "Koh-Lanta",
+          "Money Drop",
+          "Ninja Warrior"
+        ],
+        "réponse": "Fort Boyard",
+        "anecdote": "De jongste beroemdheid die meedeed was Gloria Palermo de Blasi, zangeres van Kids United, toen 9 jaar oud."
+      },
+      {
+        "id": 15,
+        "question": "In welke wedstrijd in zeven seizoenen werd Vincent Lagaf omringd door de Gafettes ?",
+        "propositions": [
+          "Burger Quiz",
+          "La Cible",
+          "Le Bigdil",
+          "Le Maillon faible"
+        ],
+        "réponse": "Le Bigdil",
+        "anecdote": "Bill is een alien van de planeet Fricus, die op Parijs is geland nadat zijn schotel door de bliksem was getroffen."
+      },
+      {
+        "id": 16,
+        "question": "In welke show, gemaakt in 1962 door Guy Lux, werden koeien gevonden ?",
+        "propositions": [
+          "Intervilles",
+          "Atoukado",
+          "Zone rouge",
+          "Tournez Manège"
+        ],
+        "réponse": "Intervilles",
+        "anecdote": "Het is een van de langstlevende Franse spelshows en een van de meest aangepaste Franse programma's in het buitenland."
+      },
+      {
+        "id": 17,
+        "question": "In welke wedstrijd was Laurence Boccolini koel en vernietigend tegenover de kandidaten ?",
+        "propositions": [
+          "Money Drop",
+          "La Cible",
+          "Le Maillon faible",
+          "Le Juste Prix"
+        ],
+        "réponse": "Le Maillon faible",
+        "anecdote": "Dit spel was gebaseerd op elementaire vragen over de algemene cultuur, gesteld aan negen kandidaten, snelheid en strategie."
+      },
+      {
+        "id": 18,
+        "question": "Welk spel bood aan om € 250.000 te winnen, verdeeld over 50 ondeelbare bundels ?",
+        "propositions": [
+          "The Wall",
+          "Money Drop",
+          "Le Bigdil",
+          "Boom"
+        ],
+        "réponse": "Money Drop",
+        "anecdote": "Om met al het geld weg te lopen, moesten de kandidaten acht algemene kennisvragen correct beantwoorden."
+      },
+      {
+        "id": 19,
+        "question": "Wie was de allereerste animator die « Une famille en or » presenteerde ?",
+        "propositions": [
+          "Patrick Roy",
+          "Pascal Brunner",
+          "Bernard Montiel",
+          "Laurent Cabrol"
+        ],
+        "réponse": "Patrick Roy",
+        "anecdote": "Het doel van het spel is om open vragen te beantwoorden die zijn gesteld aan een panel van Franse respondenten bestaande uit honderd mensen."
+      },
+      {
+        "id": 20,
+        "question": "Welk spel van Olivier Minne heeft het spel « Pyramide » vervangen ?",
+        "propositions": [
+          "La Cible",
+          "Fear Factor",
+          "Strike",
+          "Slam"
+        ],
+        "réponse": "La Cible",
+        "anecdote": "Het spel « La Cible » wordt vervangen door het spel « Iedereen wil zijn plaats innemen », gehost door Nagui vanaf 3 juli 2006."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat was de eerste game in Frankrijk waarin kandidaten met bankbiljetten omgingen ?",
+        "propositions": [
+          "De bankier",
+          "1 tegen 100",
+          "Money Drop",
+          "EIk reken op je"
+        ],
+        "réponse": "EIk reken op je",
+        "anecdote": "Deze spelshow gemaakt door Jacques Antoine (Fort Boyard) en Jean Yanne werd gepresenteerd door Olivier Lejeune bijgestaan \u200b\u200bdoor Valérie Lamour."
+      },
+      {
+        "id": 22,
+        "question": "Voor welke spelshow verving Philippe Risoli Patrick Roy in animatie ?",
+        "propositions": [
+          "Goud op de call",
+          "De Bigdil",
+          "De juiste prijs",
+          "De zwakste schakel"
+        ],
+        "réponse": "De juiste prijs",
+        "anecdote": "Van november 1992 tot 1996 arriveerde Philippe Risoli via een specifieke ingang tussen het raam rechts en het Wiel."
+      },
+      {
+        "id": 23,
+        "question": "Welke spelshow is bedacht door Alain Chabat en Kader Aoun ?",
+        "propositions": [
+          "Burger Quiz",
+          "Slam",
+          "Kamoulox",
+          "Fear Factor"
+        ],
+        "réponse": "Burger Quiz",
+        "anecdote": "Het spel wordt geproduceerd door het productiebedrijf Chez Wam, daarna door het bedrijf RG Productions en geregisseerd door Jérôme Revon."
+      },
+      {
+        "id": 24,
+        "question": "Welke game-uitzending op TF1 was gebaseerd op de angsten en fobieën van de kandidaten ?",
+        "propositions": [
+          "Koh-Lanta",
+          "Ninja Warrior",
+          "Fear Factor",
+          "Pékin Express"
+        ],
+        "réponse": "Fear Factor",
+        "anecdote": "Elke aflevering bood verschillende en gevarieerde uitdagingen, zoals bungeejumpen, duiken of klimevenementen."
+      },
+      {
+        "id": 25,
+        "question": "Welke Franse spelshow is sinds oktober 2009 door Cyril Féraud gepresenteerd ?",
+        "propositions": [
+          "Slam",
+          "Mask Singer",
+          "District Z",
+          "Pyramide"
+        ],
+        "réponse": "Slam",
+        "anecdote": "De opnames vinden elke maand plaats, zes keer per dag, van maandag tot en met zaterdag, voor uitzendingen in de volgende twee maanden."
+      },
+      {
+        "id": 26,
+        "question": "Welk spel wordt gespeeld tussen gemaskerde en volledig vermomde beroemdheden ?",
+        "propositions": [
+          "Mask Singer",
+          "Fear Factor",
+          "The Wall",
+          "La Cible"
+        ],
+        "réponse": "Mask Singer",
+        "anecdote": "Hun optredens worden beoordeeld door een jury van onderzoekers en het aanwezige publiek, waaraan op bepaalde avonden een gastonderzoeker kan worden toegevoegd."
+      },
+      {
+        "id": 27,
+        "question": "Welke parodie-spelshow is gemaakt door komieken Kad en Olivier ?",
+        "propositions": [
+          "Atoukado",
+          "Kamoulox",
+          "De bankier",
+          "Strike"
+        ],
+        "réponse": "Kamoulox",
+        "anecdote": "De naam Kamoulox zou het resultaat zijn van een vrij vrije samentrekking van de namen van de twee auteurs, Kad Merad en Olivier Baroux."
+      },
+      {
+        "id": 28,
+        "question": "In welk spel moest een deelnemer het opnemen tegen een groep mensen genaamd de Muur ?",
+        "propositions": [
+          "1 tegen 100",
+          "La Cible",
+          "Fear Factor",
+          "Strike"
+        ],
+        "réponse": "1 tegen 100",
+        "anecdote": "« 1 contre 100 » is een Franse spelshow van Nederlandse bodem, uitgezonden op TF1 van 2007 tot 2008 en gepresenteerd door Benjamin Castaldi."
+      },
+      {
+        "id": 29,
+        "question": "Welke oude spelshow is aangepast van het Amerikaanse spel « Hollywood Squares » ?",
+        "propositions": [
+          "L'Académie des neuf",
+          "Atoukado",
+          "De bankier",
+          "Atout Coeur"
+        ],
+        "réponse": "L'Académie des neuf",
+        "anecdote": "Tijdens L'Académie des neuf werden negen persoonlijkheden uitgenodigd en verdeeld in de negen dozen van het decor, verdeeld over drie verdiepingen."
+      },
+      {
+        "id": 30,
+        "question": "Welke beroemde Luxemburgse spelshow werd gepresenteerd door Fabrice en Sophie Garel ?",
+        "propositions": [
+          "Atoukado",
+          "De bankier",
+          "Atout Coeur",
+          "Charivari"
+        ],
+        "réponse": "Atoukado",
+        "anecdote": "Het waren de eerste noten van het nummer « Le Pornographe » van Georges Brassens die de jingle vormden van het spel « Atoukado »."
+      }
+    ]
+    }
+  }
+}

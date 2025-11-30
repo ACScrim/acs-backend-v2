@@ -1,5 +1,5 @@
-import {ITeam, ITournament} from "@models/Tournament";
-import {IUser} from "@models/User";
+import {ITeam, ITournament} from "../../models/Tournament";
+import {IUser} from "../../models/User";
 import {FastifyPluginAsync} from "fastify";
 import {log} from "../../utils/utils";
 

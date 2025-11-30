@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "François Vandergucht",       
+  "difficulté": "4 / 5",
+  "version": 9,
+  "mise-à-jour": "2024-03-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Zombies",
+      "slogan": "Sans conscience ni humanité"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Zombies",
+      "slogan": "Without conscience or humanity"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Zombies",
+      "slogan": "Sin conciencia ni humanidad"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Zombie",
+      "slogan": "Senza coscienza né umanità"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Zombies",
+      "slogan": "Ohne Gewissen oder Menschlichkeit"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Zombieën",
+      "slogan": "Zonder geweten of menselijkheid"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans la plupart des oeuvres, comment fait-on pour venir à bout d'un zombie ?",
+        "propositions": [
+          "Viser la tête",
+          "L'étouffer",
+          "Le nourrir",
+          "Le brûler"
+        ],
+        "réponse": "Viser la tête",
+        "anecdote": "Bien que la pandémie virale soit fréquemment utilisée, il n'existe aucune règle concernant l'apparition du phénomène des zombies."
+      },
+      {
+        "id": 2,
+        "question": "Avec quelle arme Michonne se bat-t-elle dans « The Walking Dead » ?",
+        "propositions": [
+          "Hache",
+          "Machette",
+          "Katana",
+          "Arbalète"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne a tué le huitième plus grand nombre de personnages vivants avec un total minimum de quarante-trois victimes."
+      },
+      {
+        "id": 3,
+        "question": "Quelle société de recherches a mis au point le virus T dans « Resident Evil » ?",
+        "propositions": [
+          "Umbrella",
+          "Aperture Science",
+          "Biotechnica",
+          "Vault-Tec"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "Umbrella est créée en 1968 par les trois découvreurs du virus Progenitor : Oswell E. Spencer, James Marcus, et Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "Quel chanteur pop s'est illustré à danser aux cotés de zombies dans un clip culte ?",
+        "propositions": [
+          "Michael Jackson",
+          "The Weekend",
+          "David Bowie",
+          "Justin Timberlake"
+        ],
+        "réponse": "Michael Jackson",
+        "anecdote": "« Thriller » est un clip vidéo de la chanson « Thriller » de Michael Jackson, réalisé par John Landis et écrit par Landis et Michael Jackson."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel type de bâtiment les héros du film « L'Armée des morts » se barricadent-ils ?",
+        "propositions": [
+          "Bar",
+          "Église",
+          "Ferme",
+          "Centre commercial"
+        ],
+        "réponse": "Centre commercial",
+        "anecdote": "Dans le film original de Romero, les zombies se déplacent très lentement et sont plus menaçants quand ils sont en grands groupes."
+      },
+      {
+        "id": 6,
+        "question": "Dans « The Walking Dead » (comics et série), dans quel lieu Rick se réveille-t-il ?",
+        "propositions": [
+          "Commissariat",
+          "Hôpital",
+          "Hôtel",
+          "Caserne"
+        ],
+        "réponse": "Hôpital",
+        "anecdote": "La série raconte l'histoire d'un groupe de survivants mené par Rick Grimes qui tente de survivre dans un monde post-apocalyptique."
+      },
+      {
+        "id": 7,
+        "question": "Le zombie était avant tout une figure folklorique provenant de quel pays ?",
+        "propositions": [
+          "Japon",
+          "Haïti",
+          "France",
+          "Sénégal"
+        ],
+        "réponse": "Haïti",
+        "anecdote": "Le zombie (ou zombi) trouve ses origines dans la culture haïtienne et sert également à qualifier les victimes de sortilèges vaudous."
+      },
+      {
+        "id": 8,
+        "question": "Dans quel pays se situe l'action du film « REC », sorti en 2007 ?",
+        "propositions": [
+          "Espagne",
+          "France",
+          "Angleterre",
+          "Portugal"
+        ],
+        "réponse": "Espagne",
+        "anecdote": "L'idée à la genèse du film fut de placer le spectateur au centre de l'histoire et de relier l'horreur au documentaire (found footage)."
+      },
+      {
+        "id": 9,
+        "question": "Quel groupe irlandais a utilisé le mot zombie comme titre d'une chanson ?",
+        "propositions": [
+          "Celtic Woman",
+          "U2",
+          "The Cranberries",
+          "The Script"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "The Cranberries annonça en septembre 2018 que le groupe ne continuera pas sans Dolores O'Riordan, morte par noyade en 2018."
+      },
+      {
+        "id": 10,
+        "question": "Dans « Left 4 Dead », tirer sur un boomer aura tendance à le faire quoi ?",
+        "propositions": [
+          "Sautiller",
+          "Exploser",
+          "Rire",
+          "Pleurer"
+        ],
+        "réponse": "Exploser",
+        "anecdote": "Le Boomer (Exploseur ou Vommisseur) est un infecté très corpulent, lent et mou avec un nombre de points de vie très faible (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Au japon, la franchise a succès « Resident Evil » porte quel autre nom ?",
+        "propositions": [
+          "DayZ",
+          "Biohazard",
+          "Dead island",
+          "Project Zomboïd"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Ayant fait ses débuts sur PlayStation en 1996, grâce à son succès, de nombreuses suites furent réalisées sur beaucoup de consoles."
+      },
+      {
+        "id": 12,
+        "question": "Quel acteur interprète Daryl Dixon dans la série « The Walking Dead » ?",
+        "propositions": [
+          "Norman Reedus",
+          "Steven Yeun",
+          "Jeffrey Dean Morgan",
+          "Andrew Lincoln"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "Ce personnage original, populaire auprès des amateurs de l'adaptation, a été créé exclusivement pour la série télévisée."
+      },
+      {
+        "id": 13,
+        "question": "Quels infectés aveugles se repèrent par écholocalisation dans « The Last of Us » ?",
+        "propositions": [
+          "Coureurs",
+          "Claqueurs",
+          "Rôdeurs",
+          "Colosses"
+        ],
+        "réponse": "Claqueurs",
+        "anecdote": "Les infectés sont des humains vivants ayant été infectés par contact avec le sang ou en respirant des spores en suspension dans l'air."
+      },
+      {
+        "id": 14,
+        "question": "De quoi les héros de « Walking Dead » se badigeonnent-ils face aux zombies ?",
+        "propositions": [
+          "Essence",
+          "Restes de zombies",
+          "Boue",
+          "Urine"
+        ],
+        "réponse": "Restes de zombies",
+        "anecdote": "La série télévisée a généralement tendance à suivre et s'inspirer des trames et personnages de la série de comics de Robert Kirkman."
+      },
+      {
+        "id": 15,
+        "question": "Quel DLC d'épouvante de « Red Dead Redemption » met en scène des zombies ?",
+        "propositions": [
+          "Western Zombie",
+          "Night of Dead",
+          "Army of the Dead",
+          "Undead Nightmare"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "Le jeu « Red Dead Redemption » fait partie de la série de jeux vidéo « Red Dead » et est le successeur de « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "Quel champignon est responsable de la contamination dans « The Last of Us » ?",
+        "propositions": [
+          "Cordyceps",
+          "Amanite",
+          "Marasme",
+          "Hericium"
+        ],
+        "réponse": "Cordyceps",
+        "anecdote": "Le cordyceps existe bel et bien, mais fort heureusement pour nous, il n'infecte que les insectes, les araignées et d'autres champignons."
+      },
+      {
+        "id": 17,
+        "question": "Dans le livre « World War Z », la pandémie commence dans quel pays ?",
+        "propositions": [
+          "Chine",
+          "Sibérie",
+          "Pakistan",
+          "États-Unis"
+        ],
+        "réponse": "Chine",
+        "anecdote": "« World War Z » est aussi un film américain réalisé par Marc Forster, sorti en 2013, où l'on suit un ancien employé de l'ONU Gerry Lane."
+      },
+      {
+        "id": 18,
+        "question": "Selon Max Brooks, quel serait le meilleur moyen de transport en cas d'attaque zombie ?",
+        "propositions": [
+          "Vélo",
+          "4X4",
+          "Moto",
+          "Tank"
+        ],
+        "réponse": "Vélo",
+        "anecdote": "Max Brooks est connu comme le maître de littérature contemporaine de zombie, avec son guide de survie à une épidémie de zombies."
+      },
+      {
+        "id": 19,
+        "question": "Quel virus met fin au monde tel que nous le connaissons dans « World War Z » ?",
+        "propositions": [
+          "Virus T",
+          "Ebola",
+          "La Fureur",
+          "Solanum"
+        ],
+        "réponse": "Solanum",
+        "anecdote": "L'auteur Max Brooks a déclaré que « World War Z » suit les lois mises en place dans le « Guide de survie en territoire zombie »."
+      },
+      {
+        "id": 20,
+        "question": "Quel est le nom du réalisateur du film « 28 Jours plus tard » ?",
+        "propositions": [
+          "Danny Boyle",
+          "George Romero",
+          "Max Brooks",
+          "Zack Snyder"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "Une suite, intitulée « 28 Semaines plus tard » (28 Weeks Later) et sortie en 2007, a été réalisée par Juan Carlos Fresnadillo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel est le nom de famille de Joel, héros que l'on incarne dans le jeu « The Last of Us » ?",
+        "propositions": [
+          "Wilson",
+          "Davis",
+          "Miller",
+          "Johnson"
+        ],
+        "réponse": "Miller",
+        "anecdote": "Le visage du personnage d'Ellie à dû être modifié en raison d'une trop grande ressemblance avec l'acteur Elliot Page."
+      },
+      {
+        "id": 22,
+        "question": "Dans quel manoir se réfugient les membres du STARS de « Resident Evil » ?",
+        "propositions": [
+          "Hill House",
+          "Rannroke",
+          "Spencer",
+          "Winchester"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "Les STARS (Special Tactics And Rescue Service) est une unité spéciale, fondée à New York puis transposée à Raccoon City."
+      },
+      {
+        "id": 23,
+        "question": "Combien de tomes font le pont entre 28 Jours plus tard et 28 Semaines plus tard ?",
+        "propositions": [
+          "Trois",
+          "Cinq",
+          "Trente",
+          "Dix"
+        ],
+        "réponse": "Cinq",
+        "anecdote": "« 28 Days Later: The Aftermath », roman graphique publié en 2007 chez Fox Atomic Comics, fait en effet le lien entre les deux films."
+      },
+      {
+        "id": 24,
+        "question": "Pour la projection de quel film Stephen King a-t-il acheté toutes les places d'un cinéma ?",
+        "propositions": [
+          "28 Jours plus tard",
+          "The Last of Us",
+          "Resident Evil",
+          "World War Z"
+        ],
+        "réponse": "28 Jours plus tard",
+        "anecdote": "Stephen king s'est aussi essayé a raconter une histoire mettant en scène des zombies dans son livre « Cellulaire »."
+      },
+      {
+        "id": 25,
+        "question": "Dans « 28 Semaines plus tard », quel est le nom de la dernière phase du code rouge ?",
+        "propositions": [
+          "Insertion",
+          "Propagation",
+          "Extermination",
+          "Destruction"
+        ],
+        "réponse": "Extermination",
+        "anecdote": "En 2007, après la sortie du film, la rumeur d'un troisième volet est apparue, alimentée par la fin en suspens du second volet."
+      },
+      {
+        "id": 26,
+        "question": "Dans quel bar les héros de « Shaun of the Dead » veulent-ils se rendre ?",
+        "propositions": [
+          "Good Companions",
+          "Coltman",
+          "Winchester",
+          "World's End"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« Shaun of the Dead » est une comédie horrifique américano-franco-britannique, réalisée par Edgar Wright et sortie en 2004."
+      },
+      {
+        "id": 27,
+        "question": "Quelle créature de la mythologie nordique s'apparente à nos zombies actuels ?",
+        "propositions": [
+          "Djinn",
+          "Draugr",
+          "Goule",
+          "Vampire"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "Les draugar sont des cadavres animés qui ont un corps physique avec des aptitudes physiques, similaires à celles des êtres vivants."
+      },
+      {
+        "id": 28,
+        "question": "Sur quelle île fictive se déroule l'action du jeu « Dead Island » ?",
+        "propositions": [
+          "Bouïane",
+          "Banoi",
+          "Hawaiki",
+          "Cayuna"
+        ],
+        "réponse": "Banoi",
+        "anecdote": "Le joueur se réveille dans une chambre d'hôtel sur une île paradisiaque au large des côtes de la Papouasie-Nouvelle-Guinée."
+      },
+      {
+        "id": 29,
+        "question": "Quelle particularité ont les zombies du film français « La nuit a dévoré le monde » ?",
+        "propositions": [
+          "Ils parlent",
+          "Ils chantent",
+          "Ils sont silencieux",
+          "Ils volent"
+        ],
+        "réponse": "Ils sont silencieux",
+        "anecdote": "« La nuit a dévoré le monde » est un film d'horreur français coécrit et réalisé par Dominique Rocher, sorti en 2018."
+      },
+      {
+        "id": 30,
+        "question": "Quelle arme est créée pour faire face aux morts vivants dans le livre « World War Z » ?",
+        "propositions": [
+          "Tueuse d'âmes",
+          "XM26",
+          "Lobo",
+          "Aristocrate"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks a utilisé « World War Z » pour fournir des commentaires sur des sujets tels que la survie et l'incertitude de notre temps."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In most works, how do you defeat a zombie ?",
+        "propositions": [
+          "Choke it",
+          "Aim for the head",
+          "Feed him",
+          "Burn it"
+        ],
+        "réponse": "Aim for the head",
+        "anecdote": "Although the viral pandemic is frequently used, there are no rules regarding the occurrence of the zombie phenomenon."
+      },
+      {
+        "id": 2,
+        "question": "What weapon does Michonne fight with in « The Walking Dead » ?",
+        "propositions": [
+          "Machete",
+          "Ax",
+          "Crossbow",
+          "Katana"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne has killed the eighth most characters alive with a minimum total of forty-three kills."
+      },
+      {
+        "id": 3,
+        "question": "Which research company developed the T virus in « Resident Evil » ?",
+        "propositions": [
+          "Biotechnica",
+          "Umbrella",
+          "ApertureScience",
+          "Vault-Tec"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "Umbrella was created in 1968 by the three discoverers of the Progenitor virus : Oswell E. Spencer, James Marcus, and Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "Which pop singer famously danced alongside zombies in a cult music video ?",
+        "propositions": [
+          "Michael Jackson",
+          "David Bowie",
+          "The Weekend",
+          "Justin Timberlake"
+        ],
+        "réponse": "Michael Jackson",
+        "anecdote": "« Thriller » is a music video for the song « Thriller » by Michael Jackson, directed by John Landis and written by Landis and Michael Jackson."
+      },
+      {
+        "id": 5,
+        "question": "In which building do the heroes of the film « Army of the Dead » barricade themselves ?",
+        "propositions": [
+          "Bar",
+          "Shopping center",
+          "Farm",
+          "Church"
+        ],
+        "réponse": "Shopping center",
+        "anecdote": "In Romero's original film, zombies move very slowly and are most threatening when they are in large groups."
+      },
+      {
+        "id": 6,
+        "question": "In « The Walking Dead » (comics and series), where does Rick wake up ?",
+        "propositions": [
+          "Barracks",
+          "Hotel",
+          "Police station",
+          "Hospital"
+        ],
+        "réponse": "Hospital",
+        "anecdote": "The series tells the story of a group of survivors led by Rick Grimes who try to survive in a post-apocalyptic world."
+      },
+      {
+        "id": 7,
+        "question": "The zombie was above all a folkloric figure from which country ?",
+        "propositions": [
+          "Haiti",
+          "Japan",
+          "France",
+          "Senegal"
+        ],
+        "réponse": "Haiti",
+        "anecdote": "The zombie (or zombi) has its origins in Haitian culture and is also used to describe the victims of voodoo spells."
+      },
+      {
+        "id": 8,
+        "question": "In which country is the action of the film « REC », released in 2007 ?",
+        "propositions": [
+          "England",
+          "Spain",
+          "France",
+          "Portugal"
+        ],
+        "réponse": "Spain",
+        "anecdote": "The idea behind the film was to place the viewer at the center of the story and to connect the horror to the documentary in real time."
+      },
+      {
+        "id": 9,
+        "question": "Which Irish band used the word zombie as a song title ?",
+        "propositions": [
+          "Celtic Woman",
+          "The Script",
+          "U2",
+          "The Cranberries"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "The Cranberries announced in September 2018 that the group would not continue without Dolores O'Riordan, who died from drowning in 2018."
+      },
+      {
+        "id": 10,
+        "question": "In « Left 4 Dead », shooting a boomer will tend to do what ?",
+        "propositions": [
+          "Explode",
+          "Laugh",
+          "Cry",
+          "Hop"
+        ],
+        "réponse": "Explode",
+        "anecdote": "The Boomer (Exploder or Vomiteur) is a very corpulent, slow and soft infected with a very low number of life points (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In Japan, the successful « Resident Evil » franchise has what other name ?",
+        "propositions": [
+          "Project Zomboid",
+          "DayZ",
+          "Dead island",
+          "Biohazard"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Having debuted on PlayStation in 1996, thanks to its success, numerous sequels were made on many consoles."
+      },
+      {
+        "id": 12,
+        "question": "Which actor plays Daryl Dixon in the series « The Walking Dead » ?",
+        "propositions": [
+          "Norman Reedus",
+          "Andrew Lincoln",
+          "Steven Yeun",
+          "Jeffrey Dean Morgan"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "This original character, popular with fans of the adaptation, was created exclusively for the television series."
+      },
+      {
+        "id": 13,
+        "question": "Which blind infected find themselves by echolocation in « The Last of Us » ?",
+        "propositions": [
+          "Colossi",
+          "Runners",
+          "Lurkers",
+          "Clackers"
+        ],
+        "réponse": "Clackers",
+        "anecdote": "The infected are living humans who have been infected through contact with blood or by breathing airborne spores."
+      },
+      {
+        "id": 14,
+        "question": "What do the heroes of « Walking Dead » smear against zombies ?",
+        "propositions": [
+          "Mud",
+          "Zombie Remains",
+          "Gasoline",
+          "Urine"
+        ],
+        "réponse": "Zombie Remains",
+        "anecdote": "The television series generally tends to follow and draw inspiration from the plots and characters of Robert Kirkman's comic series."
+      },
+      {
+        "id": 15,
+        "question": "Which « Red Dead Redemption » horror DLC features zombies ?",
+        "propositions": [
+          "Army of the Dead",
+          "Night of Dead",
+          "Undead Nightmare",
+          "Western Zombie"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "The game « Red Dead Redemption » is part of the « Red Dead » video game series and is the successor to « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "Which mushroom is responsible for the contamination in « The Last of Us » ?",
+        "propositions": [
+          "Amanita",
+          "Cordyceps",
+          "Marasmus",
+          "Hericium"
+        ],
+        "réponse": "Cordyceps",
+        "anecdote": "Cordyceps does exist, but fortunately for us, it only infects insects, spiders and other fungi."
+      },
+      {
+        "id": 17,
+        "question": "In the book « World War Z », the pandemic begins in which country ?",
+        "propositions": [
+          "United States",
+          "Pakistan",
+          "China",
+          "Siberia"
+        ],
+        "réponse": "China",
+        "anecdote": "« World War Z » is also an American film directed by Marc Forster, released in 2013, where we follow a former UN employee Gerry Lane."
+      },
+      {
+        "id": 18,
+        "question": "What would be the best means of transportation in the event of a zombie apocalypse ?",
+        "propositions": [
+          "Tank",
+          "Bike",
+          "Motorcycle",
+          "4X4"
+        ],
+        "réponse": "Bike",
+        "anecdote": "Max Brooks is known as the master of contemporary zombie literature, with his guide to surviving a zombie outbreak."
+      },
+      {
+        "id": 19,
+        "question": "What virus ends the world as we know it in « World War Z » ?",
+        "propositions": [
+          "The Fury",
+          "T virus",
+          "Solanum",
+          "Ebola"
+        ],
+        "réponse": "Solanum",
+        "anecdote": "Author Max Brooks stated that « World War Z » follows the laws set up in the « Zombie Territory Survival Guide »."
+      },
+      {
+        "id": 20,
+        "question": "What is the name of the director of the film « 28 Days Later » ?",
+        "propositions": [
+          "Max Brooks",
+          "Danny Boyle",
+          "Zack Snyder",
+          "George Romero"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "A sequel, titled « 28 Weeks Later » (28 Weeks Later) and released in 2007, was directed by Juan Carlos Fresnadillo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What is the last name of Joel, the hero we play in « The Last of Us » ?",
+        "propositions": [
+          "Davis",
+          "Johnson",
+          "Wilson",
+          "Miller"
+        ],
+        "réponse": "Miller",
+        "anecdote": "The two main characters of the video game, Joel and Ellie, must recover ammunition and food to advance in their quest."
+      },
+      {
+        "id": 22,
+        "question": "In which mansion are the STARS members of « Resident Evil » taking refuge ?",
+        "propositions": [
+          "Spencer",
+          "Winchester",
+          "Rannroke",
+          "Hill House"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "The STARS (Special Tactics And Rescue Service) is a special unit, founded in New York then transposed to Raccoon City."
+      },
+      {
+        "id": 23,
+        "question": "How many volumes bridge the gap between 28 Days Later and 28 Weeks Later ?",
+        "propositions": [
+          "Five",
+          "Three",
+          "Thirty",
+          "Ten"
+        ],
+        "réponse": "Five",
+        "anecdote": "« 28 Days Later : The Aftermath », a graphic novel published in 2007 by Fox Atomic Comics, makes the link between the two films."
+      },
+      {
+        "id": 24,
+        "question": "For which film did Stephen King buy out all the tickets in a cinema ?",
+        "propositions": [
+          "World War Z",
+          "28 Days Later",
+          "Resident Evil",
+          "The Last of Us"
+        ],
+        "réponse": "28 Days Later",
+        "anecdote": "He was awarded the National Medal of Arts in 2015, directly from President Barack Obama at the White House."
+      },
+      {
+        "id": 25,
+        "question": "« 28 Weeks Later », what is the name of the last phase of code red ?",
+        "propositions": [
+          "Spread",
+          "Extermination",
+          "Insert",
+          "Destruction"
+        ],
+        "réponse": "Extermination",
+        "anecdote": "In 2007, after the film's release, rumors of a third part appeared, fueled by the suspenseful ending of the second part."
+      },
+      {
+        "id": 26,
+        "question": "Which bar do the heroes of « Shaun of the Dead » want to go to ?",
+        "propositions": [
+          "Good Companions",
+          "World's End",
+          "Coltmann",
+          "Winchester"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« Shaun of the Dead » is an American-French-British horror comedy, directed by Edgar Wright and released in 2004."
+      },
+      {
+        "id": 27,
+        "question": "Which creature from Norse mythology is similar to our current zombies ?",
+        "propositions": [
+          "Draugr",
+          "Jinn",
+          "Vampire",
+          "Ghoul"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "Draugar are animated corpses that have a physical body with physical abilities, similar to those of living beings."
+      },
+      {
+        "id": 28,
+        "question": "On which fictional island does the action of the game « Dead Island » take place ?",
+        "propositions": [
+          "Banoi",
+          "Cayuna",
+          "Hawaii",
+          "Bouïane"
+        ],
+        "réponse": "Banoi",
+        "anecdote": "The player wakes up in a hotel room on an island paradise off the coast of Papua New Guinea."
+      },
+      {
+        "id": 29,
+        "question": "What is special about the zombies in the French film « The Night Devoured the World » ?",
+        "propositions": [
+          "They sing",
+          "They fly",
+          "They speak",
+          "They are silent"
+        ],
+        "réponse": "They are silent",
+        "anecdote": "« The night devoured the world » is a French horror film co-written and directed by Dominique Rocher, released in 2018."
+      },
+      {
+        "id": 30,
+        "question": "What weapon is created to deal with the undead in the book « World War Z » ?",
+        "propositions": [
+          "Aristocrat",
+          "Lobo",
+          "XM26",
+          "Soul Slayer"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks used « World War Z » to provide commentary on topics such as survival and the uncertainty of our times."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie besiegt man in den meisten Werken einen Zombie ?",
+        "propositions": [
+          "Füttere ihn",
+          "Ersticke es",
+          "Verbrenne es",
+          "Auf den Kopf zielen"
+        ],
+        "réponse": "Auf den Kopf zielen",
+        "anecdote": "Obwohl die Viruspandemie häufig verwendet wird, gibt es keine Regeln für das Auftreten des Zombie-Phänomens."
+      },
+      {
+        "id": 2,
+        "question": "Mit welcher Waffe kämpft Michonne in « The Walking Dead » ?",
+        "propositions": [
+          "Axt",
+          "Machete",
+          "Katana",
+          "Armbrust"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne hat mit mindestens 43 Kills die achtmeisten lebenden Charaktere getötet."
+      },
+      {
+        "id": 3,
+        "question": "Welches Forschungsunternehmen hat den T-Virus in « Resident Evil » entwickelt ?",
+        "propositions": [
+          "Vault-Tec",
+          "Umbrella",
+          "ApertureScience",
+          "Biotechnica"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "Umbrella wurde 1968 von den drei Entdeckern des Progenitor-Virus gegründet : Oswell E. Spencer, James Marcus und Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Popsänger tanzte in einem Kult-Musikvideo neben Zombies ?",
+        "propositions": [
+          "The Weekend",
+          "Justin Timberlake",
+          "Michael Jackson",
+          "David Bowie"
+        ],
+        "réponse": "Michael Jackson",
+        "anecdote": "« Thriller » ist ein Musikvideo zum Song « Thriller » von Michael Jackson, bei dem John Landis Regie führte und das von Landis und Michael Jackson geschrieben wurde."
+      },
+      {
+        "id": 5,
+        "question": "In welchem Gebäude verbarrikadieren sich die Helden des Films « Army of the Dead » ?",
+        "propositions": [
+          "Bar",
+          "Kirche",
+          "Einkaufszentrum",
+          "Bauernhof"
+        ],
+        "réponse": "Einkaufszentrum",
+        "anecdote": "In Romeros Originalfilm bewegen sich Zombies sehr langsam und sind in großen Gruppen am bedrohlichsten."
+      },
+      {
+        "id": 6,
+        "question": "Wo wacht Rick in « The Walking Dead » (Comics und Serien) auf ?",
+        "propositions": [
+          "Hotel",
+          "Kaserne",
+          "Krankenhaus",
+          "Polizeistation"
+        ],
+        "réponse": "Krankenhaus",
+        "anecdote": "Die Serie erzählt die Geschichte einer Gruppe von Überlebenden unter der Führung von Rick Grimes, die versuchen, in einer postapokalyptischen Welt zu überleben."
+      },
+      {
+        "id": 7,
+        "question": "Der Zombie war vor allem eine folkloristische Figur aus welchem Land ?",
+        "propositions": [
+          "Japan",
+          "Senegal",
+          "Haiti",
+          "Frankreich"
+        ],
+        "réponse": "Haiti",
+        "anecdote": "Der Zombie (oder Zombi) hat seinen Ursprung in der haitianischen Kultur und wird auch zur Beschreibung der Opfer von Voodoo-Zaubersprüchen verwendet."
+      },
+      {
+        "id": 8,
+        "question": "In welchem Land spielt der 2007 erschienene Film « REC » ?",
+        "propositions": [
+          "Frankreich",
+          "England",
+          "Portugal",
+          "Spanien"
+        ],
+        "réponse": "Spanien",
+        "anecdote": "Die Idee hinter dem Film war, den Zuschauer in den Mittelpunkt der Geschichte zu stellen und den Horror in Echtzeit mit der Dokumentation zu verbinden."
+      },
+      {
+        "id": 9,
+        "question": "Welche irische Band verwendete das Wort Zombie als Songtitel ?",
+        "propositions": [
+          "The Script",
+          "U2",
+          "The Cranberries",
+          "Celtic Woman"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "Die Cranberries gaben im September 2018 bekannt, dass die Gruppe ohne Dolores O'Riordan, die 2018 durch Ertrinken starb, nicht weitermachen würde."
+      },
+      {
+        "id": 10,
+        "question": "Was bewirkt das Erschießen eines Boomers in « Left 4 Dead » ?",
+        "propositions": [
+          "Hopfen",
+          "Lachen",
+          "Explodieren",
+          "Weinen"
+        ],
+        "réponse": "Explodieren",
+        "anecdote": "Der Boomer (Exploder oder Vomiteur) ist ein sehr korpulenter, langsamer und weicher Infizierter mit einer sehr geringen Anzahl an Lebenspunkten (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welchen anderen Namen hat das erfolgreiche « Resident Evil »-Franchise in Japan ?",
+        "propositions": [
+          "Dead island",
+          "DayZ",
+          "Projekt Zomboid",
+          "Biohazard"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Nach seinem Debüt auf PlayStation im Jahr 1996 wurden dank seines Erfolgs zahlreiche Fortsetzungen auf vielen Konsolen produziert."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Schauspieler spielt Daryl Dixon in der Serie « The Walking Dead » ?",
+        "propositions": [
+          "Steven Yeun",
+          "Norman Reedus",
+          "Andrew Lincoln",
+          "Jeffrey Dean Morgan"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "Dieser bei Fans der Adaption beliebte Originalcharakter wurde exklusiv für die Fernsehserie geschaffen."
+      },
+      {
+        "id": 13,
+        "question": "Welche blinden Infizierten finden sich durch Echoortung in « The Last of Us » ?",
+        "propositions": [
+          "Klacker",
+          "Kolosse",
+          "Läufer",
+          "Lauerer"
+        ],
+        "réponse": "Klacker",
+        "anecdote": "Bei den Infizierten handelt es sich um lebende Menschen, die durch Kontakt mit Blut oder durch das Einatmen von Sporen aus der Luft infiziert wurden."
+      },
+      {
+        "id": 14,
+        "question": "Was schmieren die Helden von « Walking Dead » gegen Zombies ?",
+        "propositions": [
+          "Urin",
+          "Benzin",
+          "Zombie bleibt",
+          "Schlamm"
+        ],
+        "réponse": "Zombie bleibt",
+        "anecdote": "Die Fernsehserie tendiert im Allgemeinen dazu, sich an den Handlungen und Charakteren der Comicserie von Robert Kirkman zu orientieren und sich von ihnen inspirieren zu lassen."
+      },
+      {
+        "id": 15,
+        "question": "Welcher « Red Dead Redemption » Horror-DLC enthält Zombies ?",
+        "propositions": [
+          "Western Zombie",
+          "Army of the Dead",
+          "Undead Nightmare",
+          "Night of Dead"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "Das Spiel « Red Dead Redemption » ist Teil der Videospielserie « Red Dead » und der Nachfolger von « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Pilz ist für die Kontamination in « The Last of Us » verantwortlich ?",
+        "propositions": [
+          "Marasmus",
+          "Cordyceps",
+          "Amanita",
+          "Hericium"
+        ],
+        "réponse": "Cordyceps",
+        "anecdote": "Cordyceps gibt es zwar, aber zum Glück befällt er nur Insekten, Spinnen und andere Pilze."
+      },
+      {
+        "id": 17,
+        "question": "Im Buch « World War Z » beginnt die Pandemie in welchem Land ?",
+        "propositions": [
+          "China",
+          "Sibirien",
+          "Vereinigte Staaten",
+          "Pakistan"
+        ],
+        "réponse": "China",
+        "anecdote": "« World War Z » ist ebenfalls ein amerikanischer Film von Marc Forster aus dem Jahr 2013, in dem wir einem ehemaligen UN-Mitarbeiter Gerry Lane folgen."
+      },
+      {
+        "id": 18,
+        "question": "Was wäre das beste Transportmittel im Falle einer Zombie-Apokalypse ?",
+        "propositions": [
+          "Motorrad",
+          "Fahrrad",
+          "Panzer",
+          "4X4"
+        ],
+        "réponse": "Fahrrad",
+        "anecdote": "Max Brooks gilt mit seinem Leitfaden zum Überleben eines Zombie-Ausbruchs als Meister der zeitgenössischen Zombie-Literatur."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Virus beendet die Welt, wie wir sie kennen, im « World War Z » ?",
+        "propositions": [
+          "Ebola",
+          "T-Virus",
+          "Nachtschatten",
+          "Die Wut"
+        ],
+        "réponse": "Nachtschatten",
+        "anecdote": "Der Autor Max Brooks erklärte, dass « World War Z » den im « Zombie Territory Survival Guide » festgelegten Gesetzen folgt."
+      },
+      {
+        "id": 20,
+        "question": "Wie heißt der Regisseur des Films « 28 Days Later » ?",
+        "propositions": [
+          "Danny Boyle",
+          "Zack Snyder",
+          "George Romero",
+          "Max Brooks"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "Eine Fortsetzung mit dem Titel « 28 Weeks Later » (28 Weeks Later), die 2007 veröffentlicht wurde, wurde von Juan Carlos Fresnadillo inszeniert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie lautet der Nachname von Joel, dem Helden, den wir in « The Last of Us » spielen ?",
+        "propositions": [
+          "Davis",
+          "Müller",
+          "Wilson",
+          "Johnson"
+        ],
+        "réponse": "Müller",
+        "anecdote": "Die beiden Hauptfiguren des Videospiels, Joel und Ellie, müssen Munition und Nahrung beschaffen, um auf ihrer Suche voranzukommen."
+      },
+      {
+        "id": 22,
+        "question": "In welcher Villa suchen die STARS-Mitglieder von « Resident Evil » Zuflucht ?",
+        "propositions": [
+          "Hill House",
+          "Spencer",
+          "Rannroke",
+          "Winchester"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "Die STARS (Special Tactics And Rescue Service) ist eine Spezialeinheit, die in New York gegründet und dann nach Raccoon City verlegt wurde."
+      },
+      {
+        "id": 23,
+        "question": "Wie viele Bände überbrücken die Lücke zwischen 28 Days Later und 28 Weeks Later ?",
+        "propositions": [
+          "Dreißig",
+          "Zehn",
+          "Fünf",
+          "Drei"
+        ],
+        "réponse": "Fünf",
+        "anecdote": "« 28 Days Later : The Aftermath », eine 2007 von Fox Atomic Comics veröffentlichte Graphic Novel, stellt die Verbindung zwischen den beiden Filmen her."
+      },
+      {
+        "id": 24,
+        "question": "Für welchen Film hat Stephen King in einem Kino alle Karten aufgekauft ?",
+        "propositions": [
+          "The Last of Us",
+          "Resident Evil",
+          "World War Z",
+          "28 Tage später"
+        ],
+        "réponse": "28 Tage später",
+        "anecdote": "Er wurde 2015 direkt von Präsident Barack Obama im Weißen Haus mit der National Medal of Arts ausgezeichnet."
+      },
+      {
+        "id": 25,
+        "question": "Wie heißt in « 28 Weeks Later » die letzte Phase von Code Red ?",
+        "propositions": [
+          "Zerstörung",
+          "Einfügen",
+          "Vernichtung",
+          "Verbreitung"
+        ],
+        "réponse": "Vernichtung",
+        "anecdote": "2007, nach der Veröffentlichung des Films, tauchten Gerüchte über einen dritten Teil auf, angeheizt durch das spannende Ende des zweiten Teils."
+      },
+      {
+        "id": 26,
+        "question": "In welche Bar wollen die Helden von « Shaun of the Dead » gehen ?",
+        "propositions": [
+          "Gute Begleiter",
+          "Coltmann",
+          "Das Ende der Welt",
+          "Winchester"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« Shaun of the Dead » ist eine amerikanisch-französisch-britische Horrorkomödie unter der Regie von Edgar Wright, die 2004 in die Kinos kam."
+      },
+      {
+        "id": 27,
+        "question": "Welches Wesen aus der nordischen Mythologie ähnelt unseren heutigen Zombies ?",
+        "propositions": [
+          "Ghul",
+          "Dschinn",
+          "Draugr",
+          "Vampir"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "Draugar sind belebte Leichen, die einen physischen Körper mit körperlichen Fähigkeiten haben, die denen von Lebewesen ähneln."
+      },
+      {
+        "id": 28,
+        "question": "Auf welcher fiktiven Insel spielt sich die Handlung des Spiels « Dead Island » ab ?",
+        "propositions": [
+          "Bouïane",
+          "Cayuna",
+          "Hawaii",
+          "Banoi"
+        ],
+        "réponse": "Banoi",
+        "anecdote": "Der Spieler wacht in einem Hotelzimmer auf einem Inselparadies vor der Küste von Papua-Neuguinea auf."
+      },
+      {
+        "id": 29,
+        "question": "Was ist das Besondere an den Zombies im französischen Film « The Night Devoured the World » ?",
+        "propositions": [
+          "Sie schweigen",
+          "Sie fliegen",
+          "Sie sprechen",
+          "Sie singen"
+        ],
+        "réponse": "Sie schweigen",
+        "anecdote": "« Die Nacht verschlang die Welt » ist ein französischer Horrorfilm, der 2018 von Dominique Rocher mitgeschrieben und inszeniert wurde."
+      },
+      {
+        "id": 30,
+        "question": "Welche Waffe wurde im Buch « World War Z » entwickelt, um mit den Untoten fertig zu werden ?",
+        "propositions": [
+          "Lobo",
+          "XM26",
+          "Seelentöter",
+          "Aristokrat"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks nutzte « World War Z », um Kommentare zu Themen wie Überleben und der Unsicherheit unserer Zeit abzugeben."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En la mayoría de las obras, ¿cómo se derrota a un zombie ?",
+        "propositions": [
+          "Quémalo",
+          "Asfixiarlo",
+          "Apunta a la cabeza",
+          "Aliméntalo"
+        ],
+        "réponse": "Apunta a la cabeza",
+        "anecdote": "Aunque la pandemia viral se utiliza con frecuencia, no existen reglas sobre la aparición del fenómeno zombie."
+      },
+      {
+        "id": 2,
+        "question": "¿Con qué arma pelea Michonne en « The Walking Dead » ?",
+        "propositions": [
+          "Katana",
+          "Machete",
+          "Ballesta",
+          "Hacha"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne ha matado al octavo mayor número de personajes vivos con un total mínimo de cuarenta y tres muertes."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué empresa de investigación desarrolló el virus T en « Resident Evil » ?",
+        "propositions": [
+          "Umbrella",
+          "Biotechnica",
+          "Vault-Tec",
+          "ApertureScience"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "Umbrella fue creado en 1968 por los tres descubridores del virus Progenitor : Oswell E. Spencer, James Marcus y Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué cantante pop bailó junto a zombies en un vídeo musical de culto ?",
+        "propositions": [
+          "Justin Timberlake",
+          "The Weekend",
+          "Michael Jackson",
+          "David Bowie"
+        ],
+        "réponse": "Michael Jackson",
+        "anecdote": "« Thriller » es un vídeo musical de la canción « Thriller » de Michael Jackson, dirigido por John Landis y escrito por Landis y Michael Jackson."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué edificio se atrincheran los héroes de la película « El ejército de los muertos » ?",
+        "propositions": [
+          "Granja",
+          "Iglesia",
+          "Centro comercial",
+          "Barra"
+        ],
+        "réponse": "Centro comercial",
+        "anecdote": "En la película original de Romero, los zombis se mueven muy lentamente y son más amenazadores cuando están en grupos grandes."
+      },
+      {
+        "id": 6,
+        "question": "En « The Walking Dead » (cómics y series), ¿dónde despierta Rick ?",
+        "propositions": [
+          "hospitales",
+          "Cuartel",
+          "Hoteles",
+          "Comisaría de policía"
+        ],
+        "réponse": "hospitales",
+        "anecdote": "La serie cuenta la historia de un grupo de supervivientes liderados por Rick Grimes que intentan sobrevivir en un mundo post-apocalíptico."
+      },
+      {
+        "id": 7,
+        "question": "¿El zombi era sobre todo una figura folclórica de qué país ?",
+        "propositions": [
+          "Japón",
+          "Haití",
+          "Francia",
+          "Senegal"
+        ],
+        "réponse": "Haití",
+        "anecdote": "El zombi (o zombi) tiene su origen en la cultura haitiana y también se utiliza para describir a las víctimas de hechizos vudú."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué país se desarrolla la acción de la película « REC », estrenada en 2007 ?",
+        "propositions": [
+          "Portugal",
+          "Inglaterra",
+          "España",
+          "Francia"
+        ],
+        "réponse": "España",
+        "anecdote": "La idea detrás de la película era colocar al espectador en el centro de la historia y conectar el horror con el documental en tiempo real."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué banda irlandesa usó la palabra zombie como título de una canción ?",
+        "propositions": [
+          "The Script",
+          "Celtic Woman",
+          "The Cranberries",
+          "U2"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "Los Cranberries anunciaron en septiembre de 2018 que el grupo no continuaría sin Dolores O'Riordan, quien murió ahogada en 2018."
+      },
+      {
+        "id": 10,
+        "question": "En « Left 4 Dead », ¿disparar a un boom tenderá a hacer qué ?",
+        "propositions": [
+          "Explotar",
+          "Llorar",
+          "Reír",
+          "Salto"
+        ],
+        "réponse": "Explotar",
+        "anecdote": "El Boomer (Exploder o Vomiteur) es un infectado muy corpulento, lento y blando con un número muy bajo de puntos de vida (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "En Japón, ¿qué otro nombre tiene la exitosa franquicia « Resident Evil » ?",
+        "propositions": [
+          "Proyecto Zomboid",
+          "Isla muerta",
+          "Biohazard",
+          "DayZ"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Tras debutar en PlayStation en 1996, gracias a su éxito se realizaron numerosas secuelas en muchas consolas."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué actor interpreta a Daryl Dixon en la serie « The Walking Dead » ?",
+        "propositions": [
+          "Jeffrey Dean Morgan",
+          "Andrés Lincoln",
+          "Steven Yeun",
+          "Norman Reedus"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "Este personaje original, popular entre los fans de la adaptación, fue creado exclusivamente para la serie de televisión."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué ciegos infectados se encuentran por ecolocalización en « The Last of Us » ?",
+        "propositions": [
+          "Acechadores",
+          "Colosos",
+          "Clackers",
+          "Corredores"
+        ],
+        "réponse": "Clackers",
+        "anecdote": "Los infectados son seres humanos vivos que han sido infectados por contacto con la sangre o por respirar esporas en el aire."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué difaman los héroes de « Walking Dead » contra los zombies ?",
+        "propositions": [
+          "Barro",
+          "Restos de zombis",
+          "Gasolina",
+          "Orina"
+        ],
+        "réponse": "Restos de zombis",
+        "anecdote": "La serie de televisión generalmente tiende a seguir y inspirarse en las tramas y personajes de la serie de cómics de Robert Kirkman."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué contenido descargable de terror de « Red Dead Redemption » presenta zombis ?",
+        "propositions": [
+          "Undead Nightmare",
+          "Night of Dead",
+          "Army of the Dead",
+          "Western Zombie"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "El juego « Red Dead Redemption » forma parte de la serie de videojuegos « Red Dead » y es el sucesor de « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué hongo es responsable de la contaminación en « The Last of Us » ?",
+        "propositions": [
+          "Hericio",
+          "Marasmo",
+          "Cordíceps",
+          "amanita"
+        ],
+        "réponse": "Cordíceps",
+        "anecdote": "Cordyceps existe, pero, afortunadamente para nosotros, sólo infecta a insectos, arañas y otros hongos."
+      },
+      {
+        "id": 17,
+        "question": "En el libro « Guerra Mundial Z », ¿en qué país comienza la pandemia ?",
+        "propositions": [
+          "Estados Unidos",
+          "Siberia",
+          "China",
+          "Pakistán"
+        ],
+        "réponse": "China",
+        "anecdote": "« Guerra Mundial Z » es también una película estadounidense dirigida por Marc Forster, estrenada en 2013, donde seguimos a un ex empleado de la ONU, Gerry Lane."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál sería el mejor medio de transporte en caso de un apocalipsis zombie ?",
+        "propositions": [
+          "4X4",
+          "Bicicleta",
+          "Tanque",
+          "Motocicleta"
+        ],
+        "réponse": "Bicicleta",
+        "anecdote": "Max Brooks es conocido como el maestro de la literatura zombie contemporánea, con su guía para sobrevivir a un brote zombie."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué virus acaba con el mundo tal como lo conocemos en la « World War Z » ?",
+        "propositions": [
+          "Solana",
+          "virus T",
+          "Ébola",
+          "La furia"
+        ],
+        "réponse": "Solana",
+        "anecdote": "El autor Max Brooks afirmó que « Guerra Mundial Z » sigue las leyes establecidas en la « Guía de supervivencia del territorio zombi »."
+      },
+      {
+        "id": 20,
+        "question": "¿Cómo se llama el director de la película « 28 días después » ?",
+        "propositions": [
+          "George Romero",
+          "Zack Snyder",
+          "Danny Boyle",
+          "Max Brooks"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "Una secuela, titulada « 28 Weeks Later » (28 Semanas Después) y estrenada en 2007, fue dirigida por Juan Carlos Fresnadillo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál es el apellido de Joel, el héroe que interpretamos en « The Last of Us » ?",
+        "propositions": [
+          "Davis",
+          "Johnson",
+          "Molinero",
+          "Wilson"
+        ],
+        "réponse": "Molinero",
+        "anecdote": "Los dos personajes principales del videojuego, Joel y Ellie, deberán recuperar munición y comida para avanzar en su búsqueda."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué mansión se refugian los miembros STARS de « Resident Evil » ?",
+        "propositions": [
+          "Casa de la colina",
+          "Winchester",
+          "Spencer",
+          "Ranroke"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "El STARS (Special Tactics And Rescue Service) es una unidad especial, fundada en Nueva York y luego trasladada a Raccoon City."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuántos volúmenes cierran la brecha entre 28 días después y 28 semanas después ?",
+        "propositions": [
+          "Diez",
+          "Cinco",
+          "Treinta",
+          "Tres"
+        ],
+        "réponse": "Cinco",
+        "anecdote": "« 28 días después : The Aftermath », una novela gráfica publicada en 2007 por Fox Atomic Comics, establece el vínculo entre las dos películas."
+      },
+      {
+        "id": 24,
+        "question": "¿Para qué película Stephen King compró todas las entradas del cine ?",
+        "propositions": [
+          "28 días después",
+          "The Last of Us",
+          "Guerra Mundial Z",
+          "Resident Evil"
+        ],
+        "réponse": "28 días después",
+        "anecdote": "Recibió la Medalla Nacional de las Artes en 2015, directamente de manos del presidente Barack Obama en la Casa Blanca."
+      },
+      {
+        "id": 25,
+        "question": "En « 28 Weeks Later », ¿cómo se llama la última fase del código rojo ?",
+        "propositions": [
+          "Insertar",
+          "Exterminio",
+          "Difundir",
+          "Destrucción"
+        ],
+        "réponse": "Exterminio",
+        "anecdote": "En 2007, tras el estreno de la película, aparecieron rumores sobre una tercera parte, alimentados por el final de suspenso de la segunda parte."
+      },
+      {
+        "id": 26,
+        "question": "¿A qué bar quieren ir los héroes de « Shaun of the Dead » ?",
+        "propositions": [
+          "Buenos compañeros",
+          "Coltman",
+          "El fin del mundo",
+          "Winchester"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« Shaun of the Dead » es una comedia de terror estadounidense, francesa y británica, dirigida por Edgar Wright y estrenada en 2004."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué criatura de la mitología nórdica se parece a nuestros zombies actuales ?",
+        "propositions": [
+          "Draugr",
+          "demonio",
+          "Vampiro",
+          "genios"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "Los Draugar son cadáveres animados que tienen un cuerpo físico con capacidades físicas, similares a las de los seres vivos."
+      },
+      {
+        "id": 28,
+        "question": "¿En qué isla ficticia se desarrolla la acción del juego « Dead Island » ?",
+        "propositions": [
+          "Bouïane",
+          "Bañoí",
+          "Cayuña",
+          "Hawái"
+        ],
+        "réponse": "Bañoí",
+        "anecdote": "El jugador se despierta en una habitación de hotel en una isla paradisíaca frente a la costa de Papúa Nueva Guinea."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué tienen de especial los zombies de la película francesa « La noche devoró el mundo » ?",
+        "propositions": [
+          "Están en silencio",
+          "Ellos vuelan",
+          "Ellos cantan",
+          "Ellos hablan"
+        ],
+        "réponse": "Están en silencio",
+        "anecdote": "« La noche devoró el mundo » es una película de terror francesa coescrita y dirigida por Dominique Rocher, estrenada en 2018."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué arma se crea para hacer frente a los no-muertos en el libro « Guerra Mundial Z » ?",
+        "propositions": [
+          "XM26",
+          "Asesino de almas",
+          "Lobo",
+          "Aristócrata"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks utilizó « World War Z » para comentar temas como la supervivencia y la incertidumbre de nuestros tiempos."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Nella maggior parte dei lavori, come sconfiggi uno zombi ?",
+        "propositions": [
+          "Dagli da mangiare",
+          "Soffocalo",
+          "Brucialo",
+          "Mira alla testa"
+        ],
+        "réponse": "Mira alla testa",
+        "anecdote": "Sebbene la pandemia virale sia utilizzata frequentemente, non esistono regole riguardanti il verificarsi del fenomeno zombie."
+      },
+      {
+        "id": 2,
+        "question": "Con quale arma combatte Michonne in « The Walking Dead » ?",
+        "propositions": [
+          "Machete",
+          "Katana",
+          "Ascia",
+          "Balestra"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne ha ucciso l'ottavo personaggio in vita con un totale minimo di quarantatré uccisioni."
+      },
+      {
+        "id": 3,
+        "question": "Quale società di ricerca ha sviluppato il virus T in « Resident Evil » ?",
+        "propositions": [
+          "ApertureScience",
+          "Umbrella",
+          "Vault-Tec",
+          "Biotechnica"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "L'ombrello è stato creato nel 1968 dai tre scopritori del virus Progenitore : Oswell E. Spencer, James Marcus e Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "Quale cantante pop ha ballato insieme agli zombie in un video musicale cult ?",
+        "propositions": [
+          "David Bowie",
+          "Justin Timberlake",
+          "The Weekend",
+          "Michael Jackson"
+        ],
+        "réponse": "Michael Jackson",
+        "anecdote": "« Thriller » è un video musicale per la canzone « Thriller » di Michael Jackson, diretto da John Landis e scritto da Landis e Michael Jackson."
+      },
+      {
+        "id": 5,
+        "question": "In quale edificio si barricano gli eroi del film « L'esercito dei morti » ?",
+        "propositions": [
+          "Centro commerciale",
+          "Chiesa",
+          "Barra",
+          "Fattoria"
+        ],
+        "réponse": "Centro commerciale",
+        "anecdote": "Nel film originale di Romero, gli zombi si muovono molto lentamente e sono più minacciosi quando sono in grandi gruppi."
+      },
+      {
+        "id": 6,
+        "question": "In « The Walking Dead » (fumetti e serie), dove si sveglia Rick ?",
+        "propositions": [
+          "Stazione di polizia",
+          "Ospedale",
+          "Albergo",
+          "Caserma"
+        ],
+        "réponse": "Ospedale",
+        "anecdote": "La serie racconta la storia di un gruppo di sopravvissuti guidati da Rick Grimes che cercano di sopravvivere in un mondo post-apocalittico."
+      },
+      {
+        "id": 7,
+        "question": "Lo zombie era soprattutto una figura folcloristica di quale paese ?",
+        "propositions": [
+          "Senegal",
+          "Francia",
+          "Haiti",
+          "Giappone"
+        ],
+        "réponse": "Haiti",
+        "anecdote": "Lo zombie (o zombi) ha le sue origini nella cultura haitiana ed è usato anche per descrivere le vittime degli incantesimi voodoo."
+      },
+      {
+        "id": 8,
+        "question": "In quale paese è ambientato il film « REC », uscito nel 2007 ?",
+        "propositions": [
+          "Spagna",
+          "Francia",
+          "Portogallo",
+          "Inghilterra"
+        ],
+        "réponse": "Spagna",
+        "anecdote": "L'idea alla base del film era quella di mettere lo spettatore al centro della storia e di collegare l'orrore al documentario in tempo reale."
+      },
+      {
+        "id": 9,
+        "question": "Quale band irlandese ha usato la parola zombie come titolo di una canzone ?",
+        "propositions": [
+          "The Script",
+          "Celtic Woman",
+          "The Cranberries",
+          "U2"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "I Cranberries hanno annunciato nel settembre 2018 che il gruppo non avrebbe continuato senza Dolores O'Riordan, morta per annegamento nel 2018."
+      },
+      {
+        "id": 10,
+        "question": "In « Left 4 Dead », sparare a un boomer cosa tenderà a fare ?",
+        "propositions": [
+          "Piangere",
+          "Hop",
+          "Esplodere",
+          "Ridi"
+        ],
+        "réponse": "Esplodere",
+        "anecdote": "Il Boomer (Exploder o Vomiteur) è un infetto molto corpulento, lento e molle con un numero di punti vita molto basso (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In Giappone, quale altro nome ha il franchise di successo « Resident Evil » ?",
+        "propositions": [
+          "Progetto Zomboid",
+          "Isola morta",
+          "DayZ",
+          "Biohazard"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Dopo aver debuttato su PlayStation nel 1996, grazie al suo successo sono stati realizzati numerosi seguiti su molte console."
+      },
+      {
+        "id": 12,
+        "question": "Quale attore interpreta Daryl Dixon nella serie « The Walking Dead » ?",
+        "propositions": [
+          "Jeffrey Dean Morgan",
+          "Andrea Lincoln",
+          "Norman Reedus",
+          "Steven Yeun"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "Questo personaggio originale, popolare tra i fan dell'adattamento, è stato creato esclusivamente per la serie televisiva."
+      },
+      {
+        "id": 13,
+        "question": "Quali infetti ciechi si ritrovano tramite l'ecolocalizzazione in « The Last of Us » ?",
+        "propositions": [
+          "Colossi",
+          "Corridori",
+          "Agguatatori",
+          "Clackers"
+        ],
+        "réponse": "Clackers",
+        "anecdote": "Gli infetti sono esseri umani viventi che sono stati infettati attraverso il contatto con il sangue o respirando spore disperse nell'aria."
+      },
+      {
+        "id": 14,
+        "question": "Cosa diffamano gli eroi di « Walking Dead » contro gli zombie ?",
+        "propositions": [
+          "Fango",
+          "Benzina",
+          "Urina",
+          "Resti di zombi"
+        ],
+        "réponse": "Resti di zombi",
+        "anecdote": "Le serie televisive tendono generalmente a ricalcare e trarre ispirazione dalle trame e dai personaggi delle serie a fumetti di Robert Kirkman."
+      },
+      {
+        "id": 15,
+        "question": "Quale DLC horror di « Red Dead Redemption » presenta gli zombi ?",
+        "propositions": [
+          "Army of the Dead",
+          "Undead Nightmare",
+          "Night of Dead",
+          "Western Zombie"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "Il gioco « Red Dead Redemption » fa parte della serie di videogiochi « Red Dead » ed è il successore di « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "Quale fungo è responsabile della contaminazione in « The Last of Us » ?",
+        "propositions": [
+          "Ericio",
+          "Amanita",
+          "Marasma",
+          "Cordyceps"
+        ],
+        "réponse": "Cordyceps",
+        "anecdote": "Il Cordyceps esiste, ma fortunatamente per noi infetta solo insetti, ragni e altri funghi."
+      },
+      {
+        "id": 17,
+        "question": "Nel libro « World War Z », in quale paese inizia la pandemia ?",
+        "propositions": [
+          "Pakistan",
+          "Cina",
+          "Stati Uniti",
+          "Siberia"
+        ],
+        "réponse": "Cina",
+        "anecdote": "« World War Z » è anche un film americano diretto da Marc Forster, uscito nel 2013, in cui seguiamo un ex dipendente delle Nazioni Unite Gerry Lane."
+      },
+      {
+        "id": 18,
+        "question": "Quale sarebbe il miglior mezzo di trasporto in caso di un'apocalisse zombi ?",
+        "propositions": [
+          "4X4",
+          "Bicicletta",
+          "Serbatoio",
+          "Moto"
+        ],
+        "réponse": "Bicicletta",
+        "anecdote": "Max Brooks è conosciuto come il maestro della letteratura zombie contemporanea, con la sua guida per sopravvivere a un'epidemia di zombi."
+      },
+      {
+        "id": 19,
+        "question": "Quale virus mette fine al mondo come lo conosciamo in « World War Z » ?",
+        "propositions": [
+          "La Furia",
+          "Solanum",
+          "Virus T",
+          "Ebola"
+        ],
+        "réponse": "Solanum",
+        "anecdote": "L'autore Max Brooks ha affermato che « World War Z » segue le leggi stabilite nella « Zombie Territory Survival Guide »."
+      },
+      {
+        "id": 20,
+        "question": "Come si chiama il regista del film « 28 giorni dopo » ?",
+        "propositions": [
+          "Danny Boyle",
+          "Zack Snyder",
+          "George Romero",
+          "Max Brooks"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "Un seguito, intitolato « 28 settimane dopo » (28 settimane dopo) e pubblicato nel 2007, è stato diretto da Juan Carlos Fresnadillo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è il cognome di Joel, l'eroe che interpretiamo in « The Last of Us » ?",
+        "propositions": [
+          "Miller",
+          "Johnson",
+          "Wilson",
+          "Davis"
+        ],
+        "réponse": "Miller",
+        "anecdote": "I due personaggi principali del videogioco, Joel ed Ellie, devono recuperare munizioni e cibo per avanzare nella loro ricerca."
+      },
+      {
+        "id": 22,
+        "question": "In quale villa si rifugiano i membri STARS di « Resident Evil » ?",
+        "propositions": [
+          "Rannroke",
+          "Casa in collina",
+          "Winchester",
+          "Spencer"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "La STARS (Special Tactics And Rescue Service) è un'unità speciale, fondata a New York poi trasposta a Raccoon City."
+      },
+      {
+        "id": 23,
+        "question": "Quanti volumi colmano il divario tra 28 giorni dopo e 28 settimane dopo ?",
+        "propositions": [
+          "Trenta",
+          "Cinque",
+          "Dieci",
+          "Tre"
+        ],
+        "réponse": "Cinque",
+        "anecdote": "« 28 giorni dopo : The Aftermath », una graphic novel pubblicata nel 2007 da Fox Atomic Comics, crea il collegamento tra i due film."
+      },
+      {
+        "id": 24,
+        "question": "Per quale film Stephen King ha comprato tutti i biglietti del cinema ?",
+        "propositions": [
+          "Resident Evil",
+          "Guerra Mondiale Z",
+          "The Last of Us",
+          "28 giorni dopo"
+        ],
+        "réponse": "28 giorni dopo",
+        "anecdote": "È stato insignito della National Medal of Arts nel 2015, direttamente dal presidente Barack Obama alla Casa Bianca."
+      },
+      {
+        "id": 25,
+        "question": "In « 28 Weeks Later », come si chiama l'ultima fase del codice rosso ?",
+        "propositions": [
+          "Sterminio",
+          "Diffusione",
+          "Inserisci",
+          "Distruzione"
+        ],
+        "réponse": "Sterminio",
+        "anecdote": "Nel 2007, dopo l'uscita del film, sono apparse le voci su una terza parte, alimentate dal finale pieno di suspense della seconda parte."
+      },
+      {
+        "id": 26,
+        "question": "In quale bar vogliono andare gli eroi di « Shaun of the Dead » ?",
+        "propositions": [
+          "Winchester",
+          "La fine del mondo",
+          "Buoni compagni",
+          "Coltman"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« L'alba dei morti dementi » è una commedia horror americano-franco-britannica, diretta da Edgar Wright e pubblicata nel 2004."
+      },
+      {
+        "id": 27,
+        "question": "Quale creatura della mitologia norrena è simile ai nostri attuali zombi ?",
+        "propositions": [
+          "Vampiro",
+          "Draugr",
+          "Ghoul",
+          "Jinn"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "I Draugar sono cadaveri animati che possiedono un corpo fisico con capacità fisiche, simili a quelle degli esseri viventi."
+      },
+      {
+        "id": 28,
+        "question": "Su quale isola immaginaria si svolge l'azione del gioco « Dead Island » ?",
+        "propositions": [
+          "Bouïane",
+          "Banoi",
+          "Cayuna",
+          "Hawaii"
+        ],
+        "réponse": "Banoi",
+        "anecdote": "Il giocatore si sveglia in una stanza d'albergo su un'isola paradisiaca al largo della costa della Papua Nuova Guinea."
+      },
+      {
+        "id": 29,
+        "question": "Cosa hanno di speciale gli zombie nel film francese « La notte divorò il mondo » ?",
+        "propositions": [
+          "Cantano",
+          "Tacciono",
+          "Volano",
+          "Parlano"
+        ],
+        "réponse": "Tacciono",
+        "anecdote": "« La notte divorò il mondo » è un film horror francese co-scritto e diretto da Dominique Rocher, uscito nel 2018."
+      },
+      {
+        "id": 30,
+        "question": "Quale arma viene creata per affrontare i non morti nel libro « World War Z » ?",
+        "propositions": [
+          "Uccisore di anime",
+          "XM26",
+          "Lobo",
+          "Aristocratico"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks ha utilizzato « World War Z » per fornire commenti su argomenti come la sopravvivenza e l'incertezza dei nostri tempi."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Hoe versla je in de meeste werken een zombie ?",
+        "propositions": [
+          "Richt op het hoofd",
+          "Verstik het",
+          "Verbrand het",
+          "Voed hem"
+        ],
+        "réponse": "Richt op het hoofd",
+        "anecdote": "Hoewel er veelvuldig gebruik wordt gemaakt van de viruspandemie, bestaan er geen regels over het optreden van het zombiefenomeen."
+      },
+      {
+        "id": 2,
+        "question": "Met welk wapen vecht Michonne in « The Walking Dead » ?",
+        "propositions": [
+          "Katana",
+          "Bijl",
+          "Kruisboog",
+          "Machete"
+        ],
+        "réponse": "Katana",
+        "anecdote": "Michonne heeft de achtste meeste personages in leven gedood, met een minimum van drieënveertig moorden."
+      },
+      {
+        "id": 3,
+        "question": "Welk onderzoeksbureau heeft het T-virus in « Resident Evil » ontwikkeld ?",
+        "propositions": [
+          "Umbrella",
+          "Biotechnica",
+          "ApertureScience",
+          "Vault-Tec"
+        ],
+        "réponse": "Umbrella",
+        "anecdote": "Umbrella werd in 1968 gemaakt door de drie ontdekkers van het Progenitor-virus : Oswell E. Spencer, James Marcus en Edward Ashford."
+      },
+      {
+        "id": 4,
+        "question": "Welke popzanger danste beroemd naast zombies in een cultmuziekvideo ?",
+        "propositions": [
+          "David Bowie",
+          "Michaël Jackson",
+          "Justin Timberlake",
+          "The Weekend"
+        ],
+        "réponse": "Michaël Jackson",
+        "anecdote": "« Thriller » is een videoclip voor het nummer « Thriller » van Michael Jackson, geregisseerd door John Landis en geschreven door Landis en Michael Jackson."
+      },
+      {
+        "id": 5,
+        "question": "In welk gebouw barricaderen de helden van de film « Army of the Dead » zich ?",
+        "propositions": [
+          "Winkelcentrum",
+          "Balk",
+          "Kerk",
+          "Boerderij"
+        ],
+        "réponse": "Winkelcentrum",
+        "anecdote": "In Romero's originele film bewegen zombies heel langzaam en zijn ze het meest bedreigend als ze in grote groepen zijn."
+      },
+      {
+        "id": 6,
+        "question": "Waar wordt Rick wakker in « The Walking Dead » (strips en series) ?",
+        "propositions": [
+          "Hotel",
+          "Ziekenhuis",
+          "Politiebureau",
+          "Kazerne"
+        ],
+        "réponse": "Ziekenhuis",
+        "anecdote": "De serie vertelt het verhaal van een groep overlevenden onder leiding van Rick Grimes die proberen te overleven in een post-apocalyptische wereld."
+      },
+      {
+        "id": 7,
+        "question": "Uit welk land was de zombie vooral een folkloristische figuur ?",
+        "propositions": [
+          "Japan",
+          "Frankrijk",
+          "Haïti",
+          "Senegal"
+        ],
+        "réponse": "Haïti",
+        "anecdote": "De zombie (of zombie) vindt zijn oorsprong in de Haïtiaanse cultuur en wordt ook gebruikt om de slachtoffers van voodoo-spreuken te beschrijven."
+      },
+      {
+        "id": 8,
+        "question": "In welk land vindt de actie plaats van de film « REC », uitgebracht in 2007 ?",
+        "propositions": [
+          "Portugal",
+          "Spanje",
+          "Engeland",
+          "Frankrijk"
+        ],
+        "réponse": "Spanje",
+        "anecdote": "Het idee achter de film was om de kijker centraal in het verhaal te plaatsen en de horror in realtime aan de documentaire te koppelen."
+      },
+      {
+        "id": 9,
+        "question": "Welke Ierse band gebruikte het woord zombie als songtitel ?",
+        "propositions": [
+          "The Script",
+          "Celtic Woman",
+          "The Cranberries",
+          "U2"
+        ],
+        "réponse": "The Cranberries",
+        "anecdote": "The Cranberries maakten in september 2018 bekend dat de groep niet verder zou gaan zonder Dolores O'Riordan, die in 2018 door verdrinking om het leven kwam."
+      },
+      {
+        "id": 10,
+        "question": "Wat heeft het neerschieten van een boomer in « Left 4 Dead » tot gevolg ?",
+        "propositions": [
+          "Exploderen",
+          "Lach",
+          "Hop",
+          "Huilen"
+        ],
+        "réponse": "Exploderen",
+        "anecdote": "De Boomer (Exploder of Vomiteur) is een zeer corpulente, langzame en zachte geïnfecteerde met een zeer laag aantal levenspunten (50)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke andere naam heeft de succesvolle « Resident Evil » franchise in Japan ?",
+        "propositions": [
+          "Project Zomboid",
+          "DayZ",
+          "Dood eiland",
+          "Biohazard"
+        ],
+        "réponse": "Biohazard",
+        "anecdote": "Na zijn debuut op PlayStation in 1996, zijn er dankzij het succes talloze sequels gemaakt op veel consoles."
+      },
+      {
+        "id": 12,
+        "question": "Welke acteur speelt Daryl Dixon in de serie « The Walking Dead » ?",
+        "propositions": [
+          "Jeffrey Dean Morgan",
+          "Steven Yeun",
+          "Norman Reedus",
+          "Andrew Lincoln"
+        ],
+        "réponse": "Norman Reedus",
+        "anecdote": "Dit originele personage, populair bij fans van de aanpassing, is exclusief voor de televisieserie gemaakt."
+      },
+      {
+        "id": 13,
+        "question": "Welke blinde geïnfecteerden bevinden zich door echolocatie in « The Last of Us » ?",
+        "propositions": [
+          "Klackers",
+          "Loeraars",
+          "Kolossen",
+          "Lopers"
+        ],
+        "réponse": "Klackers",
+        "anecdote": "De geïnfecteerden zijn levende mensen die besmet zijn geraakt door contact met bloed of door het inademen van sporen in de lucht."
+      },
+      {
+        "id": 14,
+        "question": "Wat smeren de helden van « Walking Dead » tegen zombies ?",
+        "propositions": [
+          "Benzine",
+          "Zombieresten",
+          "Modder",
+          "Urine"
+        ],
+        "réponse": "Zombieresten",
+        "anecdote": "De televisieserie heeft over het algemeen de neiging om de plots en karakters van de stripreeks van Robert Kirkman te volgen en er inspiratie uit te putten."
+      },
+      {
+        "id": 15,
+        "question": "Welke « Red Dead Redemption » horror-DLC bevat zombies ?",
+        "propositions": [
+          "Undead Nightmare",
+          "Western Zombie",
+          "Night of Dead",
+          "Army of the Dead"
+        ],
+        "réponse": "Undead Nightmare",
+        "anecdote": "Het spel « Red Dead Redemption » maakt deel uit van de videogameserie « Red Dead » en is de opvolger van « Red Dead Revolver »."
+      },
+      {
+        "id": 16,
+        "question": "Welke paddenstoel is verantwoordelijk voor de besmetting in « The Last of Us » ?",
+        "propositions": [
+          "Amanita",
+          "Marasmus",
+          "Hericium",
+          "Cordyceps"
+        ],
+        "réponse": "Cordyceps",
+        "anecdote": "Cordyceps bestaat wel, maar gelukkig voor ons infecteert hij alleen insecten, spinnen en andere schimmels."
+      },
+      {
+        "id": 17,
+        "question": "In welk land begint de pandemie in het boek « World War Z » ?",
+        "propositions": [
+          "Siberië",
+          "China",
+          "Verenigde Staten",
+          "Pakistan"
+        ],
+        "réponse": "China",
+        "anecdote": "« World War Z » is ook een Amerikaanse film geregisseerd door Marc Forster, uitgebracht in 2013, waarin we voormalig VN-medewerker Gerry Lane volgen."
+      },
+      {
+        "id": 18,
+        "question": "Wat zou het beste vervoermiddel zijn in het geval van een zombie-apocalyps ?",
+        "propositions": [
+          "4X4",
+          "Tank",
+          "Motor",
+          "Fiets"
+        ],
+        "réponse": "Fiets",
+        "anecdote": "Max Brooks staat bekend als de meester van de hedendaagse zombieliteratuur, met zijn gids voor het overleven van een zombie-uitbraak."
+      },
+      {
+        "id": 19,
+        "question": "Welk virus maakt een einde aan de wereld zoals we die kennen in « World War Z » ?",
+        "propositions": [
+          "De woede",
+          "Ebola",
+          "T-virus",
+          "Solanum"
+        ],
+        "réponse": "Solanum",
+        "anecdote": "Auteur Max Brooks verklaarde dat « World War Z » de wetten volgt die zijn opgesteld in de « Zombie Territory Survival Guide »."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de naam van de regisseur van de film « 28 Days Later » ?",
+        "propositions": [
+          "George Romero",
+          "Max Brooks",
+          "Danny Boyle",
+          "Zack Snyder"
+        ],
+        "réponse": "Danny Boyle",
+        "anecdote": "Een vervolg, getiteld « 28 Weeks Later » (28 Weeks Later) en uitgebracht in 2007, werd geregisseerd door Juan Carlos Fresnadillo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat is de achternaam van Joel, de held die we spelen in « The Last of Us » ?",
+        "propositions": [
+          "Johnson",
+          "Wilson",
+          "Davis",
+          "Molenaar"
+        ],
+        "réponse": "Molenaar",
+        "anecdote": "De twee hoofdpersonen van de videogame, Joel en Ellie, moeten munitie en voedsel terugvinden om verder te komen in hun zoektocht."
+      },
+      {
+        "id": 22,
+        "question": "In welk landhuis zoeken de STARS-leden van « Resident Evil » hun toevlucht ?",
+        "propositions": [
+          "Ranroke",
+          "Spencer",
+          "Heuvelhuis",
+          "Winchester"
+        ],
+        "réponse": "Spencer",
+        "anecdote": "De STARS (Special Tactics And Rescue Service) is een speciale eenheid, opgericht in New York en vervolgens overgebracht naar Raccoon City."
+      },
+      {
+        "id": 23,
+        "question": "Hoeveel volumes overbruggen de kloof tussen 28 Days Later en 28 Weeks Later ?",
+        "propositions": [
+          "Dertig",
+          "Vijf",
+          "Tien",
+          "Drie"
+        ],
+        "réponse": "Vijf",
+        "anecdote": "« 28 Days Later : The Aftermath », een graphic novel die in 2007 werd gepubliceerd door Fox Atomic Comics, legt de link tussen de twee films."
+      },
+      {
+        "id": 24,
+        "question": "Voor welke film kocht Stephen King alle kaartjes in een bioscoop ?",
+        "propositions": [
+          "28 dagen later",
+          "\u003cI\u003eDe laatste van ons",
+          "Resident Evil",
+          "Wereldoorlog Z"
+        ],
+        "réponse": "28 dagen later",
+        "anecdote": "In 2015 ontving hij de National Medal of Arts, rechtstreeks uit handen van president Barack Obama in het Witte Huis."
+      },
+      {
+        "id": 25,
+        "question": "Hoe heet de laatste fase van code rood in « 28 Weeks Later » ?",
+        "propositions": [
+          "Uitroeiing",
+          "Invoegen",
+          "Verspreiding",
+          "Vernietiging"
+        ],
+        "réponse": "Uitroeiing",
+        "anecdote": "In 2007, na de release van de film, verschenen er geruchten over een derde deel, aangewakkerd door het spannende einde van het tweede deel."
+      },
+      {
+        "id": 26,
+        "question": "Naar welke bar willen de helden van « Shaun of the Dead » ?",
+        "propositions": [
+          "Winchester",
+          "Het einde van de wereld",
+          "Goede metgezellen",
+          "Coltmann"
+        ],
+        "réponse": "Winchester",
+        "anecdote": "« Shaun of the Dead » is een Amerikaans-Frans-Britse horrorkomedie, geregisseerd door Edgar Wright en uitgebracht in 2004."
+      },
+      {
+        "id": 27,
+        "question": "Welk wezen uit de Noorse mythologie lijkt op onze huidige zombies ?",
+        "propositions": [
+          "Draugr",
+          "Jinn",
+          "Ghoul",
+          "Vampier"
+        ],
+        "réponse": "Draugr",
+        "anecdote": "Draugar zijn geanimeerde lijken die een fysiek lichaam hebben met fysieke vermogens, vergelijkbaar met die van levende wezens."
+      },
+      {
+        "id": 28,
+        "question": "Op welk fictieve eiland vindt de actie van het spel « Dead Island » plaats ?",
+        "propositions": [
+          "Bouïane",
+          "Hawaï",
+          "Banoi",
+          "Cayuna"
+        ],
+        "réponse": "Banoi",
+        "anecdote": "De speler wordt wakker in een hotelkamer op een paradijselijk eiland voor de kust van Papoea-Nieuw-Guinea."
+      },
+      {
+        "id": 29,
+        "question": "Wat is er speciaal aan de zombies in de Franse film « The Night Devoured the World » ?",
+        "propositions": [
+          "Ze spreken",
+          "Ze zijn stil",
+          "Ze vliegen",
+          "Ze zingen"
+        ],
+        "réponse": "Ze zijn stil",
+        "anecdote": "« The night verslond de wereld » is een Franse horrorfilm, mede geschreven en geregisseerd door Dominique Rocher, uitgebracht in 2018."
+      },
+      {
+        "id": 30,
+        "question": "Welk wapen is gemaakt om met de ondoden om te gaan in het boek « World War Z » ?",
+        "propositions": [
+          "Aristocraat",
+          "Zielendoder",
+          "XM26",
+          "Lobo"
+        ],
+        "réponse": "Lobo",
+        "anecdote": "Max Brooks gebruikte « World War Z » om commentaar te geven op onderwerpen als overleven en de onzekerheid van onze tijd."
+      }
+    ]
+    }
+  }
+}

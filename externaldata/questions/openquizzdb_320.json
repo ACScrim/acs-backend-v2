@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-02-08",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Vie quotidienne",
+      "nom": "Jeux de cartes",
+      "slogan": "Traditionnelles ou spécifiques"
+    },
+    "en": {
+      "catégorie": "Everyday life",
+      "nom": "Card games",
+      "slogan": "Traditional or specific"
+    },
+    "es": {
+      "catégorie": "Vida cotidiana",
+      "nom": "Juegos de cartas",
+      "slogan": "Tradicional o específico"
+    },
+    "it": {
+      "catégorie": "Vita di ogni giorno",
+      "nom": "Giochi di carte",
+      "slogan": "Tradicional o específico"
+    },
+    "de": {
+      "catégorie": "Alltagsleben",
+      "nom": "Kartenspiele",
+      "slogan": "Tradicional o específico"
+    },
+    "nl": {
+      "catégorie": "Alledaagse leven",
+      "nom": "Kaartspellen",
+      "slogan": "Traditioneel of specifiek"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Que jeu de cartes a fait son apparition sous le nom de 21 ?",
+        "propositions": [
+          "Dame de Pique",
+          "Blackjack",
+          "8 américain",
+          "Bataille"
+        ],
+        "réponse": "Blackjack",
+        "anecdote": "Au Canada, 50% des joueurs qui se connectent régulièrement sur un site de casino virtuel le font pour jouer au blackjack."
+      },
+      {
+        "id": 2,
+        "question": "Pour quel jeu de cartes Patrick Bruel a-t-il remporté de nombreuses compétitions ?",
+        "propositions": [
+          "Canasta",
+          "Nain jaune",
+          "Poker",
+          "Crapette"
+        ],
+        "réponse": "Poker",
+        "anecdote": "Le but est de remporter les jetons de ses adversaires en constituant, avec le croupier, la meilleure combinaison de cinq cartes."
+      },
+      {
+        "id": 3,
+        "question": "Quel jeu de cartes à un seul joueur est aussi appelé la Ruée vers l'Or ?",
+        "propositions": [
+          "Uno",
+          "Solitaire",
+          "Bataille",
+          "Rami"
+        ],
+        "réponse": "Solitaire",
+        "anecdote": "Si la distribution des cartes semble aléatoire sous Windows, elle est en réalité calculée en fonction de l'heure de l'horloge."
+      },
+      {
+        "id": 4,
+        "question": "Quel jeu s'apparente au jeu de cartes connu sous le nom de Crazy Eights ?",
+        "propositions": [
+          "Sept et Demi",
+          "8 américain",
+          "7 familles",
+          "1000 bornes"
+        ],
+        "réponse": "8 américain",
+        "anecdote": "Ce jeu a été popularisé par le jeu Uno qui en reprend les principes dans une version commerciale, plus simple et plus attractive."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel jeu de cartes ne faut-il pas prendre le valet de pique ?",
+        "propositions": [
+          "Baccara",
+          "Janus",
+          "Pouilleux",
+          "Kilo de merde"
+        ],
+        "réponse": "Pouilleux",
+        "anecdote": "Le pouilleux étant un jeu de hasard, il ne possède pas de technique particulière pour augmenter ses chances de gagner."
+      },
+      {
+        "id": 6,
+        "question": "Quel très ancien jeu de cartes de hasard peut se pratiquer à partir de 5 ans ?",
+        "propositions": [
+          "Crib",
+          "Gin rami",
+          "Blackjack",
+          "Bataille"
+        ],
+        "réponse": "Bataille",
+        "anecdote": "Par simulation numérique, on peut estimer à 90 % de chance de victoire une main initiale à la bataille contenant les quatre as."
+      },
+      {
+        "id": 7,
+        "question": "Dans quel jeu de cartes a-t-on parfois la possibilité de tirer la chasse ?",
+        "propositions": [
+          "Canasta",
+          "1000 bornes",
+          "Citadelles",
+          "Kilo de merde"
+        ],
+        "réponse": "Kilo de merde",
+        "anecdote": "Quand un joueur tire un 7, il a la possibilité de se débarrasser de tous ses kilos de merde qu'il remet sous le tas de merde."
+      },
+      {
+        "id": 8,
+        "question": "Quel jeu dérivé du barbu est l'un des jeux de cartes de base de Windows ?",
+        "propositions": [
+          "Canasta",
+          "Bang !",
+          "Mao",
+          "Dame de Pique"
+        ],
+        "réponse": "Dame de Pique",
+        "anecdote": "La partie s'achève lorsqu'un joueur obtient un total de 100 points ou plus, le vainqueur étant celui qui a le moins de points."
+      },
+      {
+        "id": 9,
+        "question": "Quel jeu de cartes regroupe grand-père, grand-mère, père, mère, fils et fille ?",
+        "propositions": [
+          "1000 bornes",
+          "Bataille",
+          "7 familles",
+          "Solitaire"
+        ],
+        "réponse": "7 familles",
+        "anecdote": "Faisant intervenir la mémoire et l'observation, le gagnant est le joueur qui pose devant lui le plus de familles complètes."
+      },
+      {
+        "id": 10,
+        "question": "Que jeu utilise des cartes spéciales sur le thème de la course automobile ?",
+        "propositions": [
+          "Crapette",
+          "Jungle Speed",
+          "Baccara",
+          "1000 bornes"
+        ],
+        "réponse": "1000 bornes",
+        "anecdote": "Il a été inventé en 1954 par Edmond Dujardin, un éditeur de matériel pour auto-écoles, illustré par Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quel jeu de cartes faut-il totaliser au minimum 5 000 points ?",
+        "propositions": [
+          "Nain jaune",
+          "Canasta",
+          "Rami",
+          "Crapette"
+        ],
+        "réponse": "Canasta",
+        "anecdote": "Quand une canasta devient complète on forme une pile en mettant au-dessus une couleur indiquant la couleur de la canasta."
+      },
+      {
+        "id": 12,
+        "question": "Quel jeu des communautés asiatiques est aussi appelé « Treize » ?",
+        "propositions": [
+          "Hanabi",
+          "Dixit",
+          "Poker chinois",
+          "Crib"
+        ],
+        "réponse": "Poker chinois",
+        "anecdote": "Il s'agit pour le joueur de disposer ses cartes en trois parties, chaque partie devant être moins forte que la précédente."
+      },
+      {
+        "id": 13,
+        "question": "Quel jeu de cartes de combinaisons est d'origine indienne ?",
+        "propositions": [
+          "Mao",
+          "Janus",
+          "Rami",
+          "Vitou"
+        ],
+        "réponse": "Rami",
+        "anecdote": "Le jeu du rami est directement inspiré d'un jeu dénommé Conquian apparu à la frontière du Mexique et des États-Unis."
+      },
+      {
+        "id": 14,
+        "question": "Quel jeu de cartes s'apparente à une patience jouée en concurrence ?",
+        "propositions": [
+          "Baccara",
+          "Crapette",
+          "Canasta",
+          "Crib"
+        ],
+        "réponse": "Crapette",
+        "anecdote": "Se jouant avec deux jeux, les deux paquets de cartes auront un dos différent afin de faciliter leur reconstitution après la partie."
+      },
+      {
+        "id": 15,
+        "question": "Quel jeu de cartes utilise un tableau composé de cinq cases ?",
+        "propositions": [
+          "Blackjack",
+          "Poker",
+          "Nain jaune",
+          "Canasta"
+        ],
+        "réponse": "Nain jaune",
+        "anecdote": "C'est un jeu de hasard raisonné car il mêle les aléas de la distribution des cartes et la stratégie de la construction des suites."
+      },
+      {
+        "id": 16,
+        "question": "Que jeu de cartes édité par Mattel est basé sur les règles du 8 américain ?",
+        "propositions": [
+          "Uncharted",
+          "Urbex",
+          "Uno",
+          "Ultima"
+        ],
+        "réponse": "Uno",
+        "anecdote": "Pour gagner une manche, il faut être le premier joueur à n'avoir plus de cartes en mains sur les 108 cartes qui composent le jeu."
+      },
+      {
+        "id": 17,
+        "question": "Que jeu de cartes parodique met en scène des sociétés secrètes ?",
+        "propositions": [
+          "Citadelles",
+          "In extremis",
+          "Illuminati",
+          "Dixit"
+        ],
+        "réponse": "Illuminati",
+        "anecdote": "On peut y jouer de 2 à 7 personnes pour des parties qui durent de une à cinq heures en fonction du nombre de joueurs présents."
+      },
+      {
+        "id": 18,
+        "question": "Quel jeu de cartes se joue avec un banquier et des joueurs appelés pontes ?",
+        "propositions": [
+          "Crapette",
+          "Baccara",
+          "Mao",
+          "Crib"
+        ],
+        "réponse": "Baccara",
+        "anecdote": "Ce jeu est devenu renommé par le film « James Bond 007 contre Dr No », où le héros joue à ce jeu contre Sylvia Trench."
+      },
+      {
+        "id": 19,
+        "question": "Quel jeu de cartes de mémoire est basé sur le thème de Rome ?",
+        "propositions": [
+          "Janus",
+          "Citadelles",
+          "Hanabi",
+          "In extremis"
+        ],
+        "réponse": "Janus",
+        "anecdote": "Le jeu inventé par Lothar Hannappel et édité en 1996 se pratique avec des cartes spéciales qui ont deux faces différentes."
+      },
+      {
+        "id": 20,
+        "question": "Quel jeu fut en 2010 le premier jeu de l'année en Allemagne d'un auteur français ?",
+        "propositions": [
+          "Uno",
+          "Mao",
+          "Dixit",
+          "Crib"
+        ],
+        "réponse": "Dixit",
+        "anecdote": "Créé en 2008 par Jean-Louis Roubira, « Dixit » proposa en octobre 2017 sa huitième extension, toujours avec des cartes sans texte."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel jeu de bluff médiéval a été créé en 2000 par Bruno Faidutti ?",
+        "propositions": [
+          "Mao",
+          "Citadelles",
+          "Vitou",
+          "Hanabi"
+        ],
+        "réponse": "Citadelles",
+        "anecdote": "Le vainqueur sera le plus souvent celui qui aura su déduire ou sentir les personnages qu'allaient choisir ses adversaires."
+      },
+      {
+        "id": 22,
+        "question": "De quel jeu de cartes Stu Ungar est-il le plus grand joueur de l'histoire ?",
+        "propositions": [
+          "Poker",
+          "Canasta",
+          "Gin rami",
+          "Baccara"
+        ],
+        "réponse": "Gin rami",
+        "anecdote": "Une fois sa renommée faite, il ne trouvait d'ailleurs plus d'adversaire contre qui jouer tellement sa victoire était assurée."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel jeu l'objectif est-il d'être le premier à atteindre 121 points ?",
+        "propositions": [
+          "Jungle Speed",
+          "Nain jaune",
+          "Bang !",
+          "Crib"
+        ],
+        "réponse": "Crib",
+        "anecdote": "Le Crib est un jeu de cartes inventé en 1630 par Sir John Suckling (1609-1642), un chevalier anglais et poète à ses heures."
+      },
+      {
+        "id": 24,
+        "question": "Dans quel jeu inspiré du blackjack utilise-t-on seulement 44 cartes sur 52 ?",
+        "propositions": [
+          "Crapette",
+          "Canasta",
+          "Baccara",
+          "Sept et Demi"
+        ],
+        "réponse": "Sept et Demi",
+        "anecdote": "Il existe plusieurs variantes de ce jeu notamment le Siete y media espagnol se jouant aux cartes ainsi qu'une version dés."
+      },
+      {
+        "id": 25,
+        "question": "Dans quel jeu de cartes les règles s'inventent-elles au fur et à mesure ?",
+        "propositions": [
+          "Hanabi",
+          "Bang !",
+          "Vitou",
+          "Mao"
+        ],
+        "réponse": "Mao",
+        "anecdote": "Lorsque l'on joue avec une personne qui n'a jamais joué au Mao, celle-ci n'est censée savoir qu'une seule chose sur le jeu : rien."
+      },
+      {
+        "id": 26,
+        "question": "Quel jeu Niçois repose à la fois sur les enchères et sur le jeu de carte ?",
+        "propositions": [
+          "Illuminati",
+          "Vitou",
+          "Pouilleux",
+          "7 familles"
+        ],
+        "réponse": "Vitou",
+        "anecdote": "Tout l'intérêt du jeu est dans le bluff (les enchères) mais aussi dans le jeu de la carte, le premier pli étant déterminant."
+      },
+      {
+        "id": 27,
+        "question": "Dans quel jeu de cartes faut-il attraper un bouchon posé au centre de la table ?",
+        "propositions": [
+          "Hanabi",
+          "Janus",
+          "Jungle Speed",
+          "Illuminati"
+        ],
+        "réponse": "Jungle Speed",
+        "anecdote": "Il existe une extension pour le Jungle Speed qui ajoute 80 cartes et symboles supplémentaires, augmentant le niveau de difficulté."
+      },
+      {
+        "id": 28,
+        "question": "Dans quel jeu de cartes un mot doit-il commencer par une face verte ?",
+        "propositions": [
+          "In extremis",
+          "Rami",
+          "Dixit",
+          "8 américain"
+        ],
+        "réponse": "In extremis",
+        "anecdote": "Le premier joueur à trouver un mot valable (tout sauf les verbes conjugués) remporte toutes les cartes posées sur la table."
+      },
+      {
+        "id": 29,
+        "question": "Dans quel jeu original voit-on toutes les cartes sauf les siennes ?",
+        "propositions": [
+          "Hanabi",
+          "Vitou",
+          "Mao",
+          "Bang !"
+        ],
+        "réponse": "Hanabi",
+        "anecdote": "Le jeu de base complet comporte 50 cartes : trois cartes 1, deux cartes 2, deux cartes 3, deux cartes 4 et une carte 5."
+      },
+      {
+        "id": 30,
+        "question": "Quel jeu de cartes sur le thème du western est proposé par Emiliano Sciarra ?",
+        "propositions": [
+          "Bang !",
+          "Crib",
+          "Dixit",
+          "Janus"
+        ],
+        "réponse": "Bang !",
+        "anecdote": "Le jeu a été complété par quatre extensions : « Dodge City » (2004), « High Noon » et « A Fistfull of cards » (2005), puis « Wild West Show » (2010)."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What card game first appeared as 21 ?",
+        "propositions": [
+          "8 American",
+          "Battle",
+          "Queen of Spades",
+          "black jack"
+        ],
+        "réponse": "black jack",
+        "anecdote": "In Canada, 50% of players who regularly connect to a virtual casino site do so to play blackjack."
+      },
+      {
+        "id": 2,
+        "question": "For which card game did Patrick Bruel win many competitions ?",
+        "propositions": [
+          "Poker",
+          "Canasta",
+          "Yellow Dwarf",
+          "Crapette"
+        ],
+        "réponse": "Poker",
+        "anecdote": "The goal is to win the chips of his opponents by constituting, with the dealer, the best combination of five cards."
+      },
+      {
+        "id": 3,
+        "question": "What single player card game is also called the Gold Rush ?",
+        "propositions": [
+          "Rummy",
+          "Battle",
+          "solitary",
+          "one"
+        ],
+        "réponse": "solitary",
+        "anecdote": "If the distribution of the cards seems random under Windows, it is actually calculated according to the time of the clock."
+      },
+      {
+        "id": 4,
+        "question": "What game is akin to the card game known as Crazy Eights ?",
+        "propositions": [
+          "8 American",
+          "1000 terminals",
+          "7 families",
+          "Seven and a Half"
+        ],
+        "réponse": "8 American",
+        "anecdote": "This game was popularized by the game Uno which uses its principles in a commercial version, simpler and more attractive."
+      },
+      {
+        "id": 5,
+        "question": "In which card game should you not take the jack of spades ?",
+        "propositions": [
+          "Baccarat",
+          "lousy",
+          "janus",
+          "Kilos of shit"
+        ],
+        "réponse": "lousy",
+        "anecdote": "Lousy being a game of chance, it does not have any particular technique to increase its chances of winning."
+      },
+      {
+        "id": 6,
+        "question": "What very old card game of chance can be played from 5 years old ?",
+        "propositions": [
+          "Gin rummy",
+          "black jack",
+          "Battle",
+          "crib"
+        ],
+        "réponse": "Battle",
+        "anecdote": "By numerical simulation, we can estimate a 90% chance of victory for an initial hand in the battle containing the four aces."
+      },
+      {
+        "id": 7,
+        "question": "In which card game do you sometimes have the opportunity to flush ?",
+        "propositions": [
+          "Kilos of shit",
+          "Citadels",
+          "1000 terminals",
+          "Canasta"
+        ],
+        "réponse": "Kilos of shit",
+        "anecdote": "When a player rolls a 7, he has the opportunity to get rid of all his pounds of shit which he puts back under the pile of shit."
+      },
+      {
+        "id": 8,
+        "question": "Which game derived from the bearded man is one of the basic card games of Windows ?",
+        "propositions": [
+          "Canasta",
+          "Bang !",
+          "Queen of Spades",
+          "mao"
+        ],
+        "réponse": "Queen of Spades",
+        "anecdote": "The game ends when one player scores a total of 100 points or more, with the winner being the one with the fewest points."
+      },
+      {
+        "id": 9,
+        "question": "What card game combines grandfather, grandmother, father, mother, son and daughter ?",
+        "propositions": [
+          "solitary",
+          "7 families",
+          "1000 terminals",
+          "Battle"
+        ],
+        "réponse": "7 families",
+        "anecdote": "Using memory and observation, the winner is the player who places the most complete families in front of him."
+      },
+      {
+        "id": 10,
+        "question": "What game uses special car racing themed cards ?",
+        "propositions": [
+          "Crapette",
+          "Baccarat",
+          "Jungle Speed",
+          "1000 terminals"
+        ],
+        "réponse": "1000 terminals",
+        "anecdote": "It was invented in 1954 by Edmond Dujardin, a publisher of equipment for driving schools, illustrated by Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which card game do you have to total at least 5,000 points ?",
+        "propositions": [
+          "Canasta",
+          "Crapette",
+          "Yellow Dwarf",
+          "Rummy"
+        ],
+        "réponse": "Canasta",
+        "anecdote": "When a canasta becomes complete, a pile is formed by putting a color on top indicating the color of the canasta."
+      },
+      {
+        "id": 12,
+        "question": "Which Asian communities game is also called « Thirteen » ?",
+        "propositions": [
+          "Says",
+          "habi",
+          "crib",
+          "Chinese Poker"
+        ],
+        "réponse": "Chinese Poker",
+        "anecdote": "It is for the player to lay out his cards in three parts, each part having to be less strong than the preceding one."
+      },
+      {
+        "id": 13,
+        "question": "Which combination card game is of Indian origin ?",
+        "propositions": [
+          "Vitu",
+          "janus",
+          "mao",
+          "Rummy"
+        ],
+        "réponse": "Rummy",
+        "anecdote": "The rummy game is directly inspired by a game called Conquian that appeared on the border between Mexico and the United States."
+      },
+      {
+        "id": 14,
+        "question": "What card game is akin to patience played competitively ?",
+        "propositions": [
+          "crib",
+          "Canasta",
+          "Crapette",
+          "Baccarat"
+        ],
+        "réponse": "Crapette",
+        "anecdote": "Being played with two games, the two packs of cards will have a different back to facilitate their reconstitution after the game."
+      },
+      {
+        "id": 15,
+        "question": "Which card game uses a tableau consisting of five squares ?",
+        "propositions": [
+          "Canasta",
+          "Yellow Dwarf",
+          "black jack",
+          "Poker"
+        ],
+        "réponse": "Yellow Dwarf",
+        "anecdote": "It is a reasoned game of chance because it mixes the vagaries of the distribution of the cards and the strategy of the construction of the continuations."
+      },
+      {
+        "id": 16,
+        "question": "What card game published by Mattel is based on the American 8 rules ?",
+        "propositions": [
+          "one",
+          "In extremis",
+          "Seven and a Half",
+          "crib"
+        ],
+        "réponse": "one",
+        "anecdote": "To win a round, you must be the first player to have no more cards in hand out of the 108 cards that make up the game."
+      },
+      {
+        "id": 17,
+        "question": "What parody card game features secret societies ?",
+        "propositions": [
+          "Citadels",
+          "Says",
+          "Illuminati",
+          "In extremis"
+        ],
+        "réponse": "Illuminati",
+        "anecdote": "It can be played by 2 to 7 people for games that last from one to five hours depending on the number of players present."
+      },
+      {
+        "id": 18,
+        "question": "What card game is played with a banker and players called pontes ?",
+        "propositions": [
+          "Crapette",
+          "mao",
+          "crib",
+          "Baccarat"
+        ],
+        "réponse": "Baccarat",
+        "anecdote": "This game became famous by the movie « James Bond 007 vs. Dr No », where the hero plays this game against Sylvia Trench."
+      },
+      {
+        "id": 19,
+        "question": "Which flashcard game is Rome-themed ?",
+        "propositions": [
+          "In extremis",
+          "janus",
+          "Citadels",
+          "habi"
+        ],
+        "réponse": "janus",
+        "anecdote": "The game invented by Lothar Hannappel and published in 1996 is played with special cards that have two different sides."
+      },
+      {
+        "id": 20,
+        "question": "Which game was in 2010 the first game of the year in Germany by a French author ?",
+        "propositions": [
+          "mao",
+          "Says",
+          "crib",
+          "one"
+        ],
+        "réponse": "Says",
+        "anecdote": "Created in 2008 by Jean-Louis Roubira, « Dixit » offered its eighth expansion in October 2017, still with cards without text."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What medieval bluff game was created in 2000 by Bruno Faidutti ?",
+        "propositions": [
+          "mao",
+          "habi",
+          "Citadels",
+          "Vitu"
+        ],
+        "réponse": "Citadels",
+        "anecdote": "The winner will most often be the one who knows how to deduce or sense the characters that his adversaries were going to choose."
+      },
+      {
+        "id": 22,
+        "question": "Which card game is Stu Ungar the greatest player in history ?",
+        "propositions": [
+          "Canasta",
+          "Gin rummy",
+          "Poker",
+          "Baccarat"
+        ],
+        "réponse": "Gin rummy",
+        "anecdote": "Once his fame was made, he no longer found an opponent against whom to play, his victory was so assured."
+      },
+      {
+        "id": 23,
+        "question": "In which game is the goal to be the first to reach 121 points ?",
+        "propositions": [
+          "Jungle Speed",
+          "Yellow dwarf",
+          "Bang !",
+          "crib"
+        ],
+        "réponse": "crib",
+        "anecdote": "Crib is a card game invented in 1630 by Sir John Suckling (1609-1642), an English knight and occasional poet."
+      },
+      {
+        "id": 24,
+        "question": "In which blackjack-inspired game do you only use 44 out of 52 cards ?",
+        "propositions": [
+          "Baccarat",
+          "Crapette",
+          "Seven and a Half",
+          "Canasta"
+        ],
+        "réponse": "Seven and a Half",
+        "anecdote": "There are several variants of this game including the Spanish Siete y media played with cards as well as a dice version."
+      },
+      {
+        "id": 25,
+        "question": "In which card game are the rules invented over time ?",
+        "propositions": [
+          "Bang !",
+          "mao",
+          "Vitu",
+          "habi"
+        ],
+        "réponse": "mao",
+        "anecdote": "When playing with someone who has never played Mao, they are only supposed to know one thing about the game : nothing."
+      },
+      {
+        "id": 26,
+        "question": "Which Niçois game is based on both bidding and card games ?",
+        "propositions": [
+          "Vitu",
+          "lousy",
+          "7 families",
+          "Illuminati"
+        ],
+        "réponse": "Vitu",
+        "anecdote": "All the interest of the game is in the bluff (bidding) but also in the game of the card, the first fold being decisive."
+      },
+      {
+        "id": 27,
+        "question": "In which card game do you have to catch a cork placed in the center of the table ?",
+        "propositions": [
+          "Illuminati",
+          "Jungle Speed",
+          "habi",
+          "janus"
+        ],
+        "réponse": "Jungle Speed",
+        "anecdote": "There is an extension for the Jungle Speed which adds 80 additional cards and symbols, increasing the level of difficulty."
+      },
+      {
+        "id": 28,
+        "question": "In which card game must a word start with a green side ?",
+        "propositions": [
+          "8 American",
+          "Says",
+          "In extremis",
+          "Rummy"
+        ],
+        "réponse": "In extremis",
+        "anecdote": "The first player to find a valid word (everything except conjugated verbs) wins all the cards on the table."
+      },
+      {
+        "id": 29,
+        "question": "In which original game do we see all the cards except his own ?",
+        "propositions": [
+          "Bang !",
+          "Vitu",
+          "habi",
+          "mao"
+        ],
+        "réponse": "habi",
+        "anecdote": "The complete base game has 50 cards : three 1-cards, two 2-cards, two 3-cards, two 4-cards and one 5-card."
+      },
+      {
+        "id": 30,
+        "question": "Which western-themed card game is offered by Emiliano Sciarra ?",
+        "propositions": [
+          "janus",
+          "Bang !",
+          "Says",
+          "crib"
+        ],
+        "réponse": "Bang !",
+        "anecdote": "The game was completed by four extensions : « Dodge City » (2004), « High Noon » and « A Fistfull of cards » (2005), then « Wild West Show » (2010)."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Kartenspiel erschien zuerst als 21 ?",
+        "propositions": [
+          "Kampf",
+          "Pik-Dame",
+          "schwarze Buchse",
+          "8 amerikanisch"
+        ],
+        "réponse": "schwarze Buchse",
+        "anecdote": "In Kanada verbinden sich 50 % der Spieler regelmäßig mit einer virtuellen Casinoseite, um Blackjack zu spielen."
+      },
+      {
+        "id": 2,
+        "question": "Für welches Kartenspiel hat Patrick Bruel viele Wettbewerbe gewonnen ?",
+        "propositions": [
+          "Schürhaken",
+          "Kanasta",
+          "Gelber Zwerg",
+          "Krabbe"
+        ],
+        "réponse": "Schürhaken",
+        "anecdote": "Das Ziel ist es, die Chips seiner Gegner zu gewinnen, indem er mit dem Dealer die beste Kombination aus fünf Karten bildet."
+      },
+      {
+        "id": 3,
+        "question": "Welches Einzelspieler-Kartenspiel wird auch Gold Rush genannt ?",
+        "propositions": [
+          "Rommé",
+          "eins",
+          "einsam",
+          "Kampf"
+        ],
+        "réponse": "einsam",
+        "anecdote": "Wenn die Verteilung der Karten unter Windows zufällig erscheint, wird sie tatsächlich nach der Zeit der Uhr berechnet."
+      },
+      {
+        "id": 4,
+        "question": "Welches Spiel ähnelt dem Kartenspiel Crazy Eights ?",
+        "propositions": [
+          "Siebeneinhalb",
+          "7 Familien",
+          "1000 Endgeräte",
+          "8 amerikanisch"
+        ],
+        "réponse": "8 amerikanisch",
+        "anecdote": "Dieses Spiel wurde durch das Spiel Uno populär, das seine Prinzipien in einer kommerziellen Version verwendet, einfacher und attraktiver."
+      },
+      {
+        "id": 5,
+        "question": "Bei welchem Kartenspiel sollte man den Pikbuben nicht nehmen ?",
+        "propositions": [
+          "mies",
+          "Janus",
+          "Kilo Scheiße",
+          "Baccarat"
+        ],
+        "réponse": "mies",
+        "anecdote": "Da es sich um ein Glücksspiel handelt, verfügt es nicht über eine bestimmte Technik, um seine Gewinnchancen zu erhöhen."
+      },
+      {
+        "id": 6,
+        "question": "Welches sehr alte Glückskartenspiel kann ab 5 Jahren gespielt werden ?",
+        "propositions": [
+          "schwarze Buchse",
+          "Gin Rommé",
+          "Kampf",
+          "Krippe"
+        ],
+        "réponse": "Kampf",
+        "anecdote": "Durch numerische Simulation können wir eine Siegchance von 90 % für eine erste Hand im Kampf mit den vier Assen schätzen."
+      },
+      {
+        "id": 7,
+        "question": "Bei welchem Kartenspiel hast du manchmal die Möglichkeit zu spülen ?",
+        "propositions": [
+          "Kilo Scheiße",
+          "Kanasta",
+          "1000 Endgeräte",
+          "Zitadellen"
+        ],
+        "réponse": "Kilo Scheiße",
+        "anecdote": "Wenn ein Spieler eine 7 würfelt, hat er die Möglichkeit, all seine Pfunde Scheiße loszuwerden, die er wieder unter den Scheißhaufen legt."
+      },
+      {
+        "id": 8,
+        "question": "Welches vom bärtigen Mann abgeleitete Spiel ist eines der grundlegenden Kartenspiele von Windows ?",
+        "propositions": [
+          "Pik-Dame",
+          "Knall !",
+          "Kanasta",
+          "Mao"
+        ],
+        "réponse": "Pik-Dame",
+        "anecdote": "Das Spiel endet, wenn ein Spieler insgesamt 100 Punkte oder mehr erzielt, wobei der Gewinner derjenige mit den wenigsten Punkten ist."
+      },
+      {
+        "id": 9,
+        "question": "Welches Kartenspiel vereint Großvater, Großmutter, Vater, Mutter, Sohn und Tochter ?",
+        "propositions": [
+          "7 Familien",
+          "einsam",
+          "1000 Endgeräte",
+          "Schlacht"
+        ],
+        "réponse": "7 Familien",
+        "anecdote": "Mit Gedächtnis und Beobachtung gewinnt der Spieler, der die vollständigsten Familien vor sich ablegt."
+      },
+      {
+        "id": 10,
+        "question": "Welches Spiel verwendet spezielle Autorennen-Themenkarten ?",
+        "propositions": [
+          "Baccarat",
+          "Dschungelgeschwindigkeit",
+          "Krabbe",
+          "1000 Endgeräte"
+        ],
+        "réponse": "1000 Endgeräte",
+        "anecdote": "Es wurde 1954 von Edmond Dujardin erfunden, einem Herausgeber von Ausrüstung für Fahrschulen, illustriert von Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Bei welchem Kartenspiel muss man mindestens 5.000 Punkte erreichen ?",
+        "propositions": [
+          "Kanasta",
+          "Gelber Zwerg",
+          "Krabbe",
+          "Rommé"
+        ],
+        "réponse": "Kanasta",
+        "anecdote": "Wenn ein Canasta vollständig ist, wird ein Stapel gebildet, indem eine Farbe darauf gelegt wird, die die Farbe des Canasta angibt."
+      },
+      {
+        "id": 12,
+        "question": "Welches asiatische Community-Spiel heißt auch « Thirteen » ?",
+        "propositions": [
+          "Chinesisches Poker",
+          "Habi",
+          "Krippe",
+          "Sagt"
+        ],
+        "réponse": "Chinesisches Poker",
+        "anecdote": "Es ist Sache des Spielers, seine Karten in drei Teile auszulegen, wobei jeder Teil weniger stark sein muss als der vorhergehende."
+      },
+      {
+        "id": 13,
+        "question": "Welches Kombinationskartenspiel ist indischen Ursprungs ?",
+        "propositions": [
+          "Vitu",
+          "Janus",
+          "Mao",
+          "Rommé"
+        ],
+        "réponse": "Rommé",
+        "anecdote": "Das Rommé-Spiel ist direkt von einem Spiel namens Conquian inspiriert, das an der Grenze zwischen Mexiko und den Vereinigten Staaten erschien."
+      },
+      {
+        "id": 14,
+        "question": "Welches Kartenspiel ähnelt Geduld, das im Wettbewerb gespielt wird ?",
+        "propositions": [
+          "Krippe",
+          "Baccarat",
+          "Kanasta",
+          "Krabbe"
+        ],
+        "réponse": "Krabbe",
+        "anecdote": "Da sie mit zwei Spielen gespielt werden, haben die beiden Kartenpakete eine unterschiedliche Rückseite, um ihre Wiederherstellung nach dem Spiel zu erleichtern."
+      },
+      {
+        "id": 15,
+        "question": "Welches Kartenspiel verwendet ein Tableau, das aus fünf Feldern besteht ?",
+        "propositions": [
+          "Kanasta",
+          "Schürhaken",
+          "schwarze Buchse",
+          "Gelber Zwerg"
+        ],
+        "réponse": "Gelber Zwerg",
+        "anecdote": "Es ist ein durchdachtes Glücksspiel, weil es die Launen der Verteilung der Karten und die Strategie der Konstruktion der Fortsetzungen vermischt."
+      },
+      {
+        "id": 16,
+        "question": "Welches von Mattel veröffentlichte Kartenspiel basiert auf den American 8-Regeln ?",
+        "propositions": [
+          "Siebeneinhalb",
+          "Krippe",
+          "eins",
+          "Im Extremfall"
+        ],
+        "réponse": "eins",
+        "anecdote": "Um eine Runde zu gewinnen, müssen Sie der erste Spieler sein, der von den 108 Karten, aus denen das Spiel besteht, keine Karten mehr auf der Hand hat."
+      },
+      {
+        "id": 17,
+        "question": "In welchem Parodie-Kartenspiel gibt es Geheimbünde ?",
+        "propositions": [
+          "Im Extremfall",
+          "Sagt",
+          "Illuminaten",
+          "Zitadellen"
+        ],
+        "réponse": "Illuminaten",
+        "anecdote": "Es kann von 2 bis 7 Personen für Spiele gespielt werden, die je nach Anzahl der anwesenden Spieler eine bis fünf Stunden dauern."
+      },
+      {
+        "id": 18,
+        "question": "Welches Kartenspiel wird mit einem Bankier und Spielern namens Pontes gespielt ?",
+        "propositions": [
+          "Krippe",
+          "Krabbe",
+          "Baccarat",
+          "Mao"
+        ],
+        "réponse": "Baccarat",
+        "anecdote": "Dieses Spiel wurde durch den Film « James Bond 007 gegen Dr. No » berühmt, in dem der Held dieses Spiel gegen Sylvia Trench spielt."
+      },
+      {
+        "id": 19,
+        "question": "Welches Karteikartenspiel hat ein Rom-Thema ?",
+        "propositions": [
+          "Habi",
+          "Zitadellen",
+          "Janus",
+          "Im Extremfall"
+        ],
+        "réponse": "Janus",
+        "anecdote": "Das von Lothar Hannappel erfundene und 1996 veröffentlichte Spiel wird mit Spezialkarten gespielt, die zwei unterschiedliche Seiten haben."
+      },
+      {
+        "id": 20,
+        "question": "Welches Spiel war 2010 das erste Spiel des Jahres in Deutschland von einem französischen Autor ?",
+        "propositions": [
+          "Krippe",
+          "Mao",
+          "eins",
+          "Sagt"
+        ],
+        "réponse": "Sagt",
+        "anecdote": "« Dixit » wurde 2008 von Jean-Louis Roubira entwickelt und bot im Oktober 2017 seine achte Erweiterung an, immer noch mit Karten ohne Text."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches mittelalterliche Bluffspiel wurde im Jahr 2000 von Bruno Faidutti erfunden ?",
+        "propositions": [
+          "Zitadellen",
+          "Habi",
+          "Mao",
+          "Vitu"
+        ],
+        "réponse": "Zitadellen",
+        "anecdote": "Der Gewinner wird meistens derjenige sein, der weiß, wie man die Charaktere herleitet oder erahnt, die seine Gegner wählen würden."
+      },
+      {
+        "id": 22,
+        "question": "Bei welchem Kartenspiel ist Stu Ungar der größte Spieler der Geschichte ?",
+        "propositions": [
+          "Kanasta",
+          "Gin Rommé",
+          "Baccarat",
+          "Schürhaken"
+        ],
+        "réponse": "Gin Rommé",
+        "anecdote": "Sobald sein Ruhm gemacht war, fand er keinen Gegner mehr, gegen den er spielen konnte, sein Sieg war so sicher."
+      },
+      {
+        "id": 23,
+        "question": "In welchem Spiel ist das Ziel, als Erster 121 Punkte zu erreichen ?",
+        "propositions": [
+          "Krippe",
+          "Gelber Zwerg",
+          "Knall !",
+          "Dschungelgeschwindigkeit"
+        ],
+        "réponse": "Krippe",
+        "anecdote": "Crib ist ein Kartenspiel, das 1630 von Sir John Suckling (1609-1642), einem englischen Ritter und Gelegenheitsdichter, erfunden wurde."
+      },
+      {
+        "id": 24,
+        "question": "In welchem vom Blackjack inspirierten Spiel verwenden Sie nur 44 von 52 Karten ?",
+        "propositions": [
+          "Siebeneinhalb",
+          "Kanasta",
+          "Baccarat",
+          "Krabbe"
+        ],
+        "réponse": "Siebeneinhalb",
+        "anecdote": "Es gibt mehrere Varianten dieses Spiels, darunter das spanische Siete y media, das mit Karten gespielt wird, sowie eine Würfelversion."
+      },
+      {
+        "id": 25,
+        "question": "Bei welchem Kartenspiel werden die Regeln im Laufe der Zeit erfunden ?",
+        "propositions": [
+          "Mao",
+          "Knall !",
+          "Habi",
+          "Vitu"
+        ],
+        "réponse": "Mao",
+        "anecdote": "Wenn man mit jemandem spielt, der noch nie Mao gespielt hat, soll er nur eines über das Spiel wissen : nichts."
+      },
+      {
+        "id": 26,
+        "question": "Welches Niçois-Spiel basiert sowohl auf Gebots- als auch auf Kartenspielen ?",
+        "propositions": [
+          "Vitu",
+          "Illuminaten",
+          "7 Familien",
+          "mies"
+        ],
+        "réponse": "Vitu",
+        "anecdote": "Das ganze Interesse des Spiels liegt im Bluff (Bieten), aber auch im Spiel der Karte, wobei das erste Fold entscheidend ist."
+      },
+      {
+        "id": 27,
+        "question": "Bei welchem Kartenspiel muss man einen Korken fangen, der in der Mitte des Tisches liegt ?",
+        "propositions": [
+          "Habi",
+          "Illuminaten",
+          "Dschungelgeschwindigkeit",
+          "Janus"
+        ],
+        "réponse": "Dschungelgeschwindigkeit",
+        "anecdote": "Für Jungle Speed gibt es eine Erweiterung, die 80 zusätzliche Karten und Symbole hinzufügt und so den Schwierigkeitsgrad erhöht."
+      },
+      {
+        "id": 28,
+        "question": "Bei welchem Kartenspiel muss ein Wort mit einer grünen Seite beginnen ?",
+        "propositions": [
+          "Im Extremfall",
+          "Sagt",
+          "Rommé",
+          "8 amerikanisch"
+        ],
+        "réponse": "Im Extremfall",
+        "anecdote": "Der erste Spieler, der ein gültiges Wort findet (alles außer konjugierten Verben), gewinnt alle Karten auf dem Tisch."
+      },
+      {
+        "id": 29,
+        "question": "In welchem Originalspiel sehen wir alle Karten außer seiner eigenen ?",
+        "propositions": [
+          "Knall !",
+          "Vitu",
+          "Mao",
+          "Habi"
+        ],
+        "réponse": "Habi",
+        "anecdote": "Das komplette Basisspiel hat 50 Karten : drei 1er-Karten, zwei 2er-Karten, zwei 3er-Karten, zwei 4er-Karten und eine 5er-Karte."
+      },
+      {
+        "id": 30,
+        "question": "Welches Western-Kartenspiel bietet Emiliano Sciarra an ?",
+        "propositions": [
+          "Janus",
+          "Sagt",
+          "Krippe",
+          "Knall !"
+        ],
+        "réponse": "Knall !",
+        "anecdote": "Das Spiel wurde mit vier Erweiterungen vervollständigt : « Dodge City » (2004), « High Noon » und « A Fistfull of Cards » (2005), dann « Wild-West-Show » (2010)."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué juego de cartas apareció por primera vez como 21 ?",
+        "propositions": [
+          "Reina de Picas",
+          "gato negro",
+          "8 americano",
+          "Batalla"
+        ],
+        "réponse": "gato negro",
+        "anecdote": "En Canadá, el 50 % de los jugadores que se conectan regularmente a un sitio de casino virtual lo hacen para jugar al blackjack."
+      },
+      {
+        "id": 2,
+        "question": "¿Para qué juego de cartas Patrick Bruel ganó muchas competencias ?",
+        "propositions": [
+          "Canasta",
+          "Enana amarilla",
+          "Crapette",
+          "póquer"
+        ],
+        "réponse": "póquer",
+        "anecdote": "El objetivo es ganar las fichas de sus oponentes constituyendo, con el crupier, la mejor combinación de cinco cartas."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué juego de cartas para un solo jugador también se llama Gold Rush ?",
+        "propositions": [
+          "solitario",
+          "Rummy",
+          "uno",
+          "Batalla"
+        ],
+        "réponse": "solitario",
+        "anecdote": "Si la distribución de las tarjetas parece aleatoria en Windows, en realidad se calcula según la hora del reloj."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué juego es similar al juego de cartas conocido como Crazy Eights ?",
+        "propositions": [
+          "7 familias",
+          "8 americano",
+          "1000 terminales",
+          "Siete y medio"
+        ],
+        "réponse": "8 americano",
+        "anecdote": "Este juego fue popularizado por el juego Uno que utiliza sus principios en una versión comercial, más simple y atractiva."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué juego de cartas no deberías tomar la jota de picas ?",
+        "propositions": [
+          "janus",
+          "Bacará",
+          "pésimo",
+          "Kilos de mierda"
+        ],
+        "réponse": "pésimo",
+        "anecdote": "Pésimo al ser un juego de azar, no tiene ninguna técnica en particular para aumentar sus posibilidades de ganar."
+      },
+      {
+        "id": 6,
+        "question": "¿A qué viejísimo juego de cartas de azar se puede jugar a partir de los 5 años ?",
+        "propositions": [
+          "cuna",
+          "Rummy de ginebra",
+          "Batalla",
+          "gato negro"
+        ],
+        "réponse": "Batalla",
+        "anecdote": "Por simulación numérica, podemos estimar un 90% de posibilidades de victoria para una mano inicial en la batalla que contiene los cuatro ases."
+      },
+      {
+        "id": 7,
+        "question": "¿En qué juego de cartas a veces tienes la oportunidad de tirar de color ?",
+        "propositions": [
+          "Canasta",
+          "1000 terminales",
+          "Kilos de mierda",
+          "ciudadelas"
+        ],
+        "réponse": "Kilos de mierda",
+        "anecdote": "Cuando un jugador saca un 7, tiene la oportunidad de deshacerse de todos sus kilos de mierda que vuelve a poner debajo del montón de mierda."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué juego derivado del hombre barbudo es uno de los juegos de cartas básicos de Windows ?",
+        "propositions": [
+          "Canasta",
+          "¡Estallido !",
+          "mao",
+          "Reina de Picas"
+        ],
+        "réponse": "Reina de Picas",
+        "anecdote": "El juego termina cuando un jugador anota un total de 100 puntos o más, siendo el ganador el que tiene la menor cantidad de puntos."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué juego de cartas combina abuelo, abuela, padre, madre, hijo e hija ?",
+        "propositions": [
+          "7 familias",
+          "solitario",
+          "Batalla",
+          "1000 terminales"
+        ],
+        "réponse": "7 familias",
+        "anecdote": "Usando la memoria y la observación, el ganador es el jugador que coloca las familias más completas frente a él."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué juego usa cartas temáticas especiales de carreras de autos ?",
+        "propositions": [
+          "1000 terminales",
+          "Velocidad de la jungla",
+          "Bacará",
+          "Crapette"
+        ],
+        "réponse": "1000 terminales",
+        "anecdote": "Fue inventado en 1954 por Edmond Dujardin, un editor de equipos para autoescuelas, ilustrado por Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué juego de cartas tienes que sumar al menos 5.000 puntos ?",
+        "propositions": [
+          "Enana amarilla",
+          "Canasta",
+          "Rummy",
+          "Crapette"
+        ],
+        "réponse": "Canasta",
+        "anecdote": "Cuando se completa una canasta, se forma una pila poniendo un color encima que indica el color de la canasta."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué juego de comunidades asiáticas también se llama « Trece » ?",
+        "propositions": [
+          "cuna",
+          "dice",
+          "hab",
+          "Póquer chino"
+        ],
+        "réponse": "Póquer chino",
+        "anecdote": "Corresponde al jugador disponer sus cartas en tres partes, cada parte debe ser menos fuerte que la anterior."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué juego de cartas combinado es de origen indio ?",
+        "propositions": [
+          "Vitu",
+          "janus",
+          "Rummy",
+          "mao"
+        ],
+        "réponse": "Rummy",
+        "anecdote": "El juego de rummy está directamente inspirado en un juego llamado Conquian que apareció en la frontera entre México y Estados Unidos."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué juego de cartas es similar a la paciencia jugado competitivamente ?",
+        "propositions": [
+          "Crapette",
+          "Bacará",
+          "cuna",
+          "Canasta"
+        ],
+        "réponse": "Crapette",
+        "anecdote": "Al jugarse con dos juegos, los dos mazos de cartas tendrán un dorso diferente para facilitar su reconstitución después del juego."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué juego de cartas utiliza un cuadro que consta de cinco cuadrados ?",
+        "propositions": [
+          "gato negro",
+          "Enana amarilla",
+          "Canasta",
+          "póquer"
+        ],
+        "réponse": "Enana amarilla",
+        "anecdote": "Es un juego de azar razonado porque mezcla los caprichos de la distribución de las cartas y la estrategia de construcción de las continuaciones."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué juego de cartas publicado por Mattel se basa en las reglas del 8 americano ?",
+        "propositions": [
+          "cuna",
+          "in extremis",
+          "Siete y medio",
+          "uno"
+        ],
+        "réponse": "uno",
+        "anecdote": "Para ganar una ronda, debes ser el primer jugador en no tener más cartas en la mano de las 108 cartas que componen el juego."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué juego de cartas de parodia presenta sociedades secretas ?",
+        "propositions": [
+          "in extremis",
+          "dice",
+          "Iluminati",
+          "ciudadelas"
+        ],
+        "réponse": "Iluminati",
+        "anecdote": "Puede ser jugado por 2 a 7 personas para juegos que duran de una a cinco horas dependiendo de la cantidad de jugadores presentes."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué juego de cartas se juega con un banquero y jugadores llamados pontes ?",
+        "propositions": [
+          "mao",
+          "Crapette",
+          "cuna",
+          "Bacará"
+        ],
+        "réponse": "Bacará",
+        "anecdote": "Este juego se hizo famoso por la película « James Bond 007 vs. Dr. No », donde el héroe juega este juego contra Sylvia Trench."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué juego de tarjetas flash tiene el tema de Roma ?",
+        "propositions": [
+          "hab",
+          "janus",
+          "ciudadelas",
+          "in extremis"
+        ],
+        "réponse": "janus",
+        "anecdote": "El juego inventado por Lothar Hannappel y publicado en 1996 se juega con cartas especiales que tienen dos lados diferentes."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué juego fue en 2010 el primer juego del año en Alemania de un autor francés ?",
+        "propositions": [
+          "cuna",
+          "mao",
+          "uno",
+          "dice"
+        ],
+        "réponse": "dice",
+        "anecdote": "Creado en 2008 por Jean-Louis Roubira, « Dixit » ofreció su octava expansión en octubre de 2017, todavía con tarjetas sin texto."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué juego de farol medieval fue creado en 2000 por Bruno Faidutti ?",
+        "propositions": [
+          "hab",
+          "Vitu",
+          "ciudadelas",
+          "mao"
+        ],
+        "réponse": "ciudadelas",
+        "anecdote": "El ganador será más a menudo el que sepa deducir o intuir los personajes que sus adversarios iban a elegir."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué juego de cartas Stu Ungar es el mejor jugador de la historia ?",
+        "propositions": [
+          "Canasta",
+          "Rummy de ginebra",
+          "Bacará",
+          "póquer"
+        ],
+        "réponse": "Rummy de ginebra",
+        "anecdote": "Una vez hecha su fama, ya no encontraba un oponente contra el cual jugar, su victoria estaba tan asegurada."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué juego el objetivo es ser el primero en llegar a 121 puntos ?",
+        "propositions": [
+          "Crib",
+          "Jungle Speed",
+          "Enana amarilla",
+          "¡Estallido !"
+        ],
+        "réponse": "Crib",
+        "anecdote": "Crib es un juego de cartas inventado en 1630 por Sir John Suckling (1609-1642), un caballero inglés y poeta ocasional."
+      },
+      {
+        "id": 24,
+        "question": "¿En qué juego inspirado en el blackjack solo usas 44 de 52 cartas ?",
+        "propositions": [
+          "Canasta",
+          "Bacará",
+          "Crapette",
+          "Siete y Medio"
+        ],
+        "réponse": "Siete y Medio",
+        "anecdote": "Hay varias variantes de este juego, incluido el español Siete y los medios se juegan con cartas, así como una versión de dados."
+      },
+      {
+        "id": 25,
+        "question": "¿En qué juego de cartas se inventan las reglas con el tiempo ?",
+        "propositions": [
+          "mao",
+          "hab",
+          "¡Estallido !",
+          "Vitu"
+        ],
+        "réponse": "mao",
+        "anecdote": "Cuando juegas con alguien que nunca ha jugado Mao, se supone que solo debe saber una cosa sobre el juego: nada."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué juego de Niçois se basa tanto en las apuestas como en los juegos de cartas ?",
+        "propositions": [
+          "Iluminati",
+          "pésimo",
+          "Vitu",
+          "7 familias"
+        ],
+        "réponse": "Vitu",
+        "anecdote": "Todo el interés del juego está en el bluff (subasta) pero también en el juego de la carta, siendo decisivo el primer fold."
+      },
+      {
+        "id": 27,
+        "question": "¿En qué juego de cartas tienes que atrapar un corcho colocado en el centro de la mesa ?",
+        "propositions": [
+          "hab",
+          "Velocidad de la jungla",
+          "janus",
+          "Iluminati"
+        ],
+        "réponse": "Velocidad de la jungla",
+        "anecdote": "Hay una extensión para Jungle Speed que agrega 80 cartas y símbolos adicionales, aumentando el nivel de dificultad."
+      },
+      {
+        "id": 28,
+        "question": "¿En qué juego de cartas una palabra debe comenzar con un lado verde ?",
+        "propositions": [
+          "dice",
+          "8 americano",
+          "Rummy",
+          "in extremis"
+        ],
+        "réponse": "in extremis",
+        "anecdote": "El primer jugador que encuentre una palabra válida (todas excepto los verbos conjugados) gana todas las cartas de la mesa."
+      },
+      {
+        "id": 29,
+        "question": "¿En qué juego original vemos todas las cartas excepto la suya ?",
+        "propositions": [
+          "mao",
+          "¡Estallido !",
+          "hab",
+          "Vitu"
+        ],
+        "réponse": "hab",
+        "anecdote": "El juego base completo tiene 50 cartas: tres cartas de 1, dos cartas de 2, dos cartas de 3, dos cartas de 4 y una carta de 5."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué juego de cartas de temática occidental ofrece Emiliano Sciarra ?",
+        "propositions": [
+          "Crib",
+          "Dixit",
+          "Janus",
+          "¡Estallido !"
+        ],
+        "réponse": "¡Estallido !",
+        "anecdote": "El juego se completó con cuatro extensiones : « Dodge City » (2004), « High Noon » y « A Fistfull of Cards » (2005), luego « Espectáculo del Salvaje Oeste » (2010)."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale gioco di carte è apparso per la prima volta come 21 ?",
+        "propositions": [
+          "battaglia",
+          "Regina di picche",
+          "jack nero",
+          "8 americano"
+        ],
+        "réponse": "jack nero",
+        "anecdote": "In Canada, il 50% dei giocatori che si connettono regolarmente a un sito di casinò virtuale lo fa per giocare a blackjack."
+      },
+      {
+        "id": 2,
+        "question": "Per quale gioco di carte Patrick Bruel ha vinto molte competizioni ?",
+        "propositions": [
+          "Canasta",
+          "Poker",
+          "nana gialla",
+          "Crapette"
+        ],
+        "réponse": "Poker",
+        "anecdote": "L'obiettivo è vincere le chips dei suoi avversari costituendo, con il dealer, la migliore combinazione di cinque carte."
+      },
+      {
+        "id": 3,
+        "question": "Quale gioco di carte per giocatore singolo è anche chiamato Gold Rush ?",
+        "propositions": [
+          "solitario",
+          "Ramino",
+          "battaglia",
+          "uno"
+        ],
+        "réponse": "solitario",
+        "anecdote": "Se la distribuzione delle carte sembra casuale in Windows, in realtà viene calcolata in base all'ora dell'orologio."
+      },
+      {
+        "id": 4,
+        "question": "Quale gioco è simile al gioco di carte conosciuto come Crazy Eights ?",
+        "propositions": [
+          "1000 terminali",
+          "7 famiglie",
+          "Sette e mezzo",
+          "8 americano"
+        ],
+        "réponse": "8 americano",
+        "anecdote": "Questo gioco è stato reso popolare dal gioco Uno che ne usa i principi in una versione commerciale, più semplice e attraente."
+      },
+      {
+        "id": 5,
+        "question": "In quale gioco di carte non dovresti prendere il fante di picche ?",
+        "propositions": [
+          "schifoso",
+          "Chili di merda",
+          "janus",
+          "Baccarat"
+        ],
+        "réponse": "schifoso",
+        "anecdote": "Pessimo essendo un gioco d'azzardo, non ha nessuna tecnica particolare per aumentare le sue possibilità di vincita."
+      },
+      {
+        "id": 6,
+        "question": "A quale antichissimo gioco di carte d'azzardo si può giocare a partire dai 5 anni ?",
+        "propositions": [
+          "culla",
+          "jack nero",
+          "battaglia",
+          "Gin ramino"
+        ],
+        "réponse": "battaglia",
+        "anecdote": "Mediante la simulazione numerica, possiamo stimare una probabilità di vittoria del 90% per una mano iniziale nella battaglia contenente i quattro assi."
+      },
+      {
+        "id": 7,
+        "question": "In quale gioco di carte a volte hai l'opportunità di fare colore ?",
+        "propositions": [
+          "Canasta",
+          "1000 terminali",
+          "Cittadelle",
+          "Chili di merda"
+        ],
+        "réponse": "Chili di merda",
+        "anecdote": "Quando un giocatore tira un 7, ha l'opportunità di sbarazzarsi di tutti i suoi chili di merda che rimette sotto il mucchio di merda."
+      },
+      {
+        "id": 8,
+        "question": "Quale gioco derivato dall'uomo barbuto è uno dei giochi di carte base di Windows ?",
+        "propositions": [
+          "Canasta",
+          "Scoppio !",
+          "mao",
+          "Regina di picche"
+        ],
+        "réponse": "Regina di picche",
+        "anecdote": "Il gioco termina quando un giocatore ottiene un totale di 100 punti o più, con il vincitore che è quello con il minor numero di punti."
+      },
+      {
+        "id": 9,
+        "question": "Quale gioco di carte unisce nonno, nonna, padre, madre, figlio e figlia ?",
+        "propositions": [
+          "1000 terminali",
+          "solitario",
+          "7 famiglie",
+          "battaglia"
+        ],
+        "réponse": "7 famiglie",
+        "anecdote": "Usando la memoria e l'osservazione, il vincitore è il giocatore che mette davanti a sé le famiglie più complete."
+      },
+      {
+        "id": 10,
+        "question": "Quale gioco utilizza carte speciali a tema di corse automobilistiche ?",
+        "propositions": [
+          "Crapette",
+          "Baccarat",
+          "1000 terminali",
+          "Velocità nella giungla"
+        ],
+        "réponse": "1000 terminali",
+        "anecdote": "Fu inventato nel 1954 da Edmond Dujardin, editore di attrezzature per autoscuole, illustrato da Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale gioco di carte devi totalizzare almeno 5.000 punti ?",
+        "propositions": [
+          "nana gialla",
+          "Ramino",
+          "Canasta",
+          "Crapette"
+        ],
+        "réponse": "Canasta",
+        "anecdote": "Quando una canasta diventa completa, si forma una pila mettendo un colore sopra che indica il colore della canasta."
+      },
+      {
+        "id": 12,
+        "question": "Quale gioco delle comunità asiatiche è anche chiamato « Tredici » ?",
+        "propositions": [
+          "culla",
+          "Poker cinese",
+          "Dice",
+          "habi"
+        ],
+        "réponse": "Poker cinese",
+        "anecdote": "Spetta al giocatore disporre le sue carte in tre parti, ciascuna parte deve essere meno forte della precedente."
+      },
+      {
+        "id": 13,
+        "question": "Quale gioco di carte combinato è di origine indiana ?",
+        "propositions": [
+          "Ramino",
+          "Vitù",
+          "janus",
+          "mao"
+        ],
+        "réponse": "Ramino",
+        "anecdote": "Il gioco del ramino è direttamente ispirato da un gioco chiamato Conquian apparso al confine tra Messico e Stati Uniti."
+      },
+      {
+        "id": 14,
+        "question": "Quale gioco di carte è simile alla pazienza giocato in modo competitivo ?",
+        "propositions": [
+          "Crapette",
+          "Baccarat",
+          "Canasta",
+          "culla"
+        ],
+        "réponse": "Crapette",
+        "anecdote": "Essendo giocati con due partite, i due mazzi di carte avranno un dorso diverso per facilitare la loro ricostituzione a fine partita."
+      },
+      {
+        "id": 15,
+        "question": "Quale gioco di carte utilizza un tableau composto da cinque quadrati ?",
+        "propositions": [
+          "Poker",
+          "jack nero",
+          "Canasta",
+          "nana gialla"
+        ],
+        "réponse": "nana gialla",
+        "anecdote": "È un gioco d'azzardo ragionato perché mescola i capricci della distribuzione delle carte e la strategia della costruzione dei seguiti."
+      },
+      {
+        "id": 16,
+        "question": "Quale gioco di carte pubblicato da Mattel si basa sulle regole americane 8 ?",
+        "propositions": [
+          "uno",
+          "culla",
+          "In extremis",
+          "Sette e mezzo"
+        ],
+        "réponse": "uno",
+        "anecdote": "Per vincere un round, devi essere il primo giocatore a non avere più carte in mano delle 108 carte che compongono il gioco."
+      },
+      {
+        "id": 17,
+        "question": "Quale gioco di carte parodia presenta società segrete ?",
+        "propositions": [
+          "Dice",
+          "In extremis",
+          "Illuminati",
+          "Cittadelle"
+        ],
+        "réponse": "Illuminati",
+        "anecdote": "Può essere giocato da 2 a 7 persone per partite che durano da una a cinque ore a seconda del numero di giocatori presenti."
+      },
+      {
+        "id": 18,
+        "question": "Quale gioco di carte si gioca con un banchiere e giocatori chiamati pontes ?",
+        "propositions": [
+          "culla",
+          "Crapette",
+          "mao",
+          "Baccarat"
+        ],
+        "réponse": "Baccarat",
+        "anecdote": "Questo gioco è diventato famoso grazie al film « James Bond 007 vs. Dr No », in cui l'eroe gioca a questo gioco contro Sylvia Trench."
+      },
+      {
+        "id": 19,
+        "question": "Quale gioco di flashcard è a tema Roma ?",
+        "propositions": [
+          "In extremis",
+          "habi",
+          "janus",
+          "Cittadelle"
+        ],
+        "réponse": "janus",
+        "anecdote": "Il gioco inventato da Lothar Hannappel e pubblicato nel 1996 si gioca con carte speciali che hanno due facce diverse."
+      },
+      {
+        "id": 20,
+        "question": "Quale gioco è stato nel 2010 il primo gioco dell'anno in Germania di un autore francese ?",
+        "propositions": [
+          "uno",
+          "mao",
+          "Dice",
+          "culla"
+        ],
+        "réponse": "Dice",
+        "anecdote": "Creato nel 2008 da Jean-Louis Roubira, « Dixit » ha offerto la sua ottava espansione nell'ottobre 2017, ancora con carte senza testo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale gioco di bluff medievale è stato creato nel 2000 da Bruno Faidutti ?",
+        "propositions": [
+          "Vitù",
+          "habi",
+          "mao",
+          "Cittadelle"
+        ],
+        "réponse": "Cittadelle",
+        "anecdote": "Il vincitore sarà molto spesso colui che sa dedurre o intuire i personaggi che i suoi avversari avrebbero scelto."
+      },
+      {
+        "id": 22,
+        "question": "Quale gioco di carte è Stu Ungar il più grande giocatore della storia ?",
+        "propositions": [
+          "Baccarat",
+          "Canasta",
+          "Poker",
+          "Gin ramino"
+        ],
+        "réponse": "Gin ramino",
+        "anecdote": "Una volta fatta la sua fama, non trovava più un avversario contro cui giocare, la sua vittoria era così assicurata."
+      },
+      {
+        "id": 23,
+        "question": "In quale partita l'obiettivo è arrivare per primi a 121 punti ?",
+        "propositions": [
+          "culla",
+          "Scoppio !",
+          "Nano giallo",
+          "Velocità nella giungla"
+        ],
+        "réponse": "culla",
+        "anecdote": "Crib è un gioco di carte inventato nel 1630 da Sir John Suckling (1609-1642), cavaliere inglese e poeta occasionale."
+      },
+      {
+        "id": 24,
+        "question": "In quale gioco ispirato al blackjack usi solo 44 carte su 52 ?",
+        "propositions": [
+          "Canasta",
+          "Baccarat",
+          "Sette e mezzo",
+          "Crapette"
+        ],
+        "réponse": "Sette e mezzo",
+        "anecdote": "Esistono diverse varianti di questo gioco, tra cui il media spagnolo Siete y giocato con le carte e una versione dei dadi."
+      },
+      {
+        "id": 25,
+        "question": "In quale gioco di carte vengono inventate le regole nel tempo ?",
+        "propositions": [
+          "Vitù",
+          "Scoppio !",
+          "habi",
+          "mao"
+        ],
+        "réponse": "mao",
+        "anecdote": "Quando giocano con qualcuno che non ha mai giocato a Mao, dovrebbero sapere solo una cosa del gioco : niente."
+      },
+      {
+        "id": 26,
+        "question": "Quale gioco di Niçois si basa sia sulle offerte che sui giochi di carte ?",
+        "propositions": [
+          "Vitù",
+          "schifoso",
+          "7 famiglie",
+          "Illuminati"
+        ],
+        "réponse": "Vitù",
+        "anecdote": "Tutto l'interesse del gioco è nel bluff (bidding) ma anche nel gioco della carta, il primo fold è decisivo."
+      },
+      {
+        "id": 27,
+        "question": "In quale gioco di carte devi prendere un tappo posto al centro del tavolo ?",
+        "propositions": [
+          "Illuminati",
+          "janus",
+          "habi",
+          "Velocità nella giungla"
+        ],
+        "réponse": "Velocità nella giungla",
+        "anecdote": "C'è un'estensione per la Jungle Speed che aggiunge 80 carte e simboli aggiuntivi, aumentando il livello di difficoltà."
+      },
+      {
+        "id": 28,
+        "question": "In quale gioco di carte una parola deve iniziare con un lato verde ?",
+        "propositions": [
+          "Ramino",
+          "In extremis",
+          "Dice",
+          "8 americano"
+        ],
+        "réponse": "In extremis",
+        "anecdote": "Il primo giocatore che trova una parola valida (tutto tranne i verbi coniugati) vince tutte le carte sul tavolo."
+      },
+      {
+        "id": 29,
+        "question": "In quale gioco originale vediamo tutte le carte tranne la sua ?",
+        "propositions": [
+          "Scoppio !",
+          "Vitù",
+          "mao",
+          "habi"
+        ],
+        "réponse": "habi",
+        "anecdote": "Il gioco base completo ha 50 carte : tre carte 1, due carte 2, due carte 3, due carte 4 e una carta 5."
+      },
+      {
+        "id": 30,
+        "question": "Quale gioco di carte a tema western propone Emiliano Sciarra ?",
+        "propositions": [
+          "Scoppio !",
+          "Dice",
+          "janus",
+          "culla"
+        ],
+        "réponse": "Scoppio !",
+        "anecdote": "Il gioco è stato completato con quattro espansioni : « Dodge City » (2004), « Mezzogiorno di fuoco » e « Un pugno di carte » (2005), quindi « Spettacolo del selvaggio West » (2010)."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk kaartspel verscheen voor het eerst als 21 ?",
+        "propositions": [
+          "Strijd",
+          "Schoppenvrouw",
+          "zwarte jack",
+          "8 Amerikaans"
+        ],
+        "réponse": "zwarte jack",
+        "anecdote": "In Canada doet 50% van de spelers die regelmatig verbinding maken met een virtuele casinosite dit om blackjack te spelen."
+      },
+      {
+        "id": 2,
+        "question": "Voor welk kaartspel won Patrick Bruel veel wedstrijden ?",
+        "propositions": [
+          "Tapijt",
+          "Canasta",
+          "Poker",
+          "Gele dwerg"
+        ],
+        "réponse": "Poker",
+        "anecdote": "Het doel is om de chips van zijn tegenstanders te winnen door samen met de dealer de beste combinatie van vijf kaarten te vormen."
+      },
+      {
+        "id": 3,
+        "question": "Welk kaartspel voor één speler wordt ook wel de Gold Rush genoemd ?",
+        "propositions": [
+          "eenzaam",
+          "Strijd",
+          "Rummy",
+          "een"
+        ],
+        "réponse": "eenzaam",
+        "anecdote": "Als de verdeling van de kaarten onder Windows willekeurig lijkt, wordt deze in feite berekend volgens de tijd van de klok."
+      },
+      {
+        "id": 4,
+        "question": "Welk spel is verwant aan het kaartspel dat bekend staat als Crazy Eights ?",
+        "propositions": [
+          "1000 klemmen",
+          "Zeven en een half",
+          "7 gezinnen",
+          "8 Amerikaans"
+        ],
+        "réponse": "8 Amerikaans",
+        "anecdote": "Dit spel werd gepopulariseerd door het spel Uno dat zijn principes in een commerciële versie gebruikt, eenvoudiger en aantrekkelijker."
+      },
+      {
+        "id": 5,
+        "question": "In welk kaartspel mag je de schoppenboer niet nemen ?",
+        "propositions": [
+          "waardeloos",
+          "janus",
+          "Baccarat",
+          "Kilo's stront"
+        ],
+        "réponse": "waardeloos",
+        "anecdote": "Omdat het een kansspel is, heeft het geen specifieke techniek om zijn winkansen te vergroten."
+      },
+      {
+        "id": 6,
+        "question": "Welk heel oud kaartspel kan er gespeeld worden vanaf 5 jaar ?",
+        "propositions": [
+          "Gin rummy",
+          "Strijd",
+          "zwarte jack",
+          "wieg"
+        ],
+        "réponse": "Strijd",
+        "anecdote": "Door numerieke simulatie kunnen we een kans van 90% op overwinning schatten voor een eerste hand in de strijd met de vier azen."
+      },
+      {
+        "id": 7,
+        "question": "In welk kaartspel heb je soms de mogelijkheid om te flushen ?",
+        "propositions": [
+          "Canasta",
+          "citadellen",
+          "1000 klemmen",
+          "Kilo's stront"
+        ],
+        "réponse": "Kilo's stront",
+        "anecdote": "Wanneer een speler een 7 gooit, heeft hij de mogelijkheid om al zijn kilo's stront kwijt te raken die hij terug onder de stapel stront legt."
+      },
+      {
+        "id": 8,
+        "question": "Welk spel afgeleid van de bebaarde man is een van de basiskaartspellen van Windows ?",
+        "propositions": [
+          "Knal !",
+          "mao",
+          "Schoppenvrouw",
+          "Canasta"
+        ],
+        "réponse": "Schoppenvrouw",
+        "anecdote": "Het spel eindigt wanneer een speler in totaal 100 punten of meer scoort, waarbij de winnaar degene is met de minste punten."
+      },
+      {
+        "id": 9,
+        "question": "Welk kaartspel combineert opa, oma, vader, moeder, zoon en dochter ?",
+        "propositions": [
+          "1000 klemmen",
+          "7 gezinnen",
+          "Strijd",
+          "eenzaam"
+        ],
+        "réponse": "7 gezinnen",
+        "anecdote": "Met behulp van geheugen en observatie is de winnaar de speler die de meest complete families voor zich neerzet."
+      },
+      {
+        "id": 10,
+        "question": "Welke game gebruikt speciale kaarten met autorace-thema ?",
+        "propositions": [
+          "Tapijt",
+          "Jungle snelheid",
+          "Baccarat",
+          "1000 klemmen"
+        ],
+        "réponse": "1000 klemmen",
+        "anecdote": "Het werd in 1954 uitgevonden door Edmond Dujardin, een uitgever van uitrusting voor rijscholen, geïllustreerd door Joseph Le Callennec."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welk kaartspel moet je minimaal 5.000 punten hebben ?",
+        "propositions": [
+          "Rummy",
+          "Tapijt",
+          "Canasta",
+          "Gele dwerg"
+        ],
+        "réponse": "Canasta",
+        "anecdote": "Wanneer een canasta compleet is, wordt er een stapel gevormd door er een kleur bovenop te leggen die de kleur van de canasta aangeeft."
+      },
+      {
+        "id": 12,
+        "question": "Welk spel uit de Aziatische gemeenschap wordt ook wel « Thirteen » genoemd ?",
+        "propositions": [
+          "habi",
+          "zegt",
+          "Chinees poker",
+          "wieg"
+        ],
+        "réponse": "Chinees poker",
+        "anecdote": "Het is aan de speler om zijn kaarten in drie delen neer te leggen, waarbij elk deel minder sterk moet zijn dan het voorgaande."
+      },
+      {
+        "id": 13,
+        "question": "Welk combinatiekaartspel is van Indiase afkomst ?",
+        "propositions": [
+          "Vitu",
+          "mao",
+          "Rummy",
+          "janus"
+        ],
+        "réponse": "Rummy",
+        "anecdote": "Het rummy-spel is rechtstreeks geïnspireerd op een spel genaamd Conquian dat verscheen op de grens tussen Mexico en de Verenigde Staten."
+      },
+      {
+        "id": 14,
+        "question": "Welk kaartspel is verwant aan geduld dat competitief wordt gespeeld ?",
+        "propositions": [
+          "Canasta",
+          "Tapijt",
+          "wieg",
+          "Baccarat"
+        ],
+        "réponse": "Tapijt",
+        "anecdote": "Omdat ze met twee spellen worden gespeeld, hebben de twee pakjes kaarten een verschillende achterkant om hun reconstructie na het spel te vergemakkelijken."
+      },
+      {
+        "id": 15,
+        "question": "Welk kaartspel gebruikt een tableau dat uit vijf vierkanten bestaat ?",
+        "propositions": [
+          "Poker",
+          "zwarte jack",
+          "Canasta",
+          "Gele dwerg"
+        ],
+        "réponse": "Gele dwerg",
+        "anecdote": "Het is een beredeneerd kansspel omdat het de grillen van de verdeling van de kaarten en de strategie van de constructie van de voortzettingen vermengt."
+      },
+      {
+        "id": 16,
+        "question": "Welk kaartspel uitgegeven door Mattel is gebaseerd op de Amerikaanse 8-regels ?",
+        "propositions": [
+          "Zeven en een half",
+          "wieg",
+          "In extremis",
+          "een"
+        ],
+        "réponse": "een",
+        "anecdote": "Om een ronde te winnen, moet je de eerste speler zijn die geen kaarten meer in de hand heeft van de 108 kaarten waaruit het spel bestaat."
+      },
+      {
+        "id": 17,
+        "question": "Welk parodiekaartspel bevat geheime genootschappen ?",
+        "propositions": [
+          "Illuminati",
+          "In extremis",
+          "citadellen",
+          "zegt"
+        ],
+        "réponse": "Illuminati",
+        "anecdote": "Het kan gespeeld worden door 2 tot 7 personen voor spellen die één tot vijf uur duren, afhankelijk van het aantal aanwezige spelers."
+      },
+      {
+        "id": 18,
+        "question": "Welk kaartspel wordt gespeeld met een bankier en spelers genaamd pontes ?",
+        "propositions": [
+          "wieg",
+          "Baccarat",
+          "mao",
+          "Tapijt"
+        ],
+        "réponse": "Baccarat",
+        "anecdote": "Dit spel werd beroemd door de film « James Bond 007 vs. Dr No », waarin de held dit spel speelt tegen Sylvia Trench."
+      },
+      {
+        "id": 19,
+        "question": "Welk flashcard-spel heeft een Rome-thema ?",
+        "propositions": [
+          "citadellen",
+          "habi",
+          "janus",
+          "In extremis"
+        ],
+        "réponse": "janus",
+        "anecdote": "Het spel uitgevonden door Lothar Hannappel en uitgegeven in 1996 wordt gespeeld met speciale kaarten die twee verschillende kanten hebben."
+      },
+      {
+        "id": 20,
+        "question": "Welke game was in 2010 de eerste game van het jaar in Duitsland van een Franse auteur ?",
+        "propositions": [
+          "een",
+          "wieg",
+          "zegt",
+          "mao"
+        ],
+        "réponse": "zegt",
+        "anecdote": "« Dixit », in 2008 gecreëerd door Jean-Louis Roubira, bood in oktober 2017 zijn achtste uitbreiding aan, nog steeds met kaarten zonder tekst."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk middeleeuws blufspel werd in 2000 gemaakt door Bruno Faidutti ?",
+        "propositions": [
+          "citadellen",
+          "habi",
+          "Vitu",
+          "mao"
+        ],
+        "réponse": "citadellen",
+        "anecdote": "De winnaar zal meestal degene zijn die de personages weet af te leiden of te voelen die zijn tegenstanders zouden kiezen."
+      },
+      {
+        "id": 22,
+        "question": "Welk kaartspel is Stu Ungar de beste speler in de geschiedenis ?",
+        "propositions": [
+          "Baccarat",
+          "Canasta",
+          "Gin rummy",
+          "Poker"
+        ],
+        "réponse": "Gin rummy",
+        "anecdote": "Toen hij eenmaal bekend was, vond hij geen tegenstander meer om tegen te spelen, zo verzekerd was zijn overwinning."
+      },
+      {
+        "id": 23,
+        "question": "In welk spel is het de bedoeling om als eerste 121 punten te behalen ?",
+        "propositions": [
+          "wieg",
+          "Knal !",
+          "Gele dwerg",
+          "Jungle snelheid"
+        ],
+        "réponse": "wieg",
+        "anecdote": "Crib is een kaartspel dat in 1630 werd uitgevonden door Sir John Suckling (1609-1642), een Engelse ridder en gelegenheidsdichter."
+      },
+      {
+        "id": 24,
+        "question": "In welk op blackjack geïnspireerd spel gebruik je maar 44 van de 52 kaarten ?",
+        "propositions": [
+          "Zeven en een half",
+          "Canasta",
+          "Baccarat",
+          "Tapijt"
+        ],
+        "réponse": "Zeven en een half",
+        "anecdote": "Er zijn verschillende varianten van dit spel, waaronder de Spaanse Siete y media gespeeld met kaarten en een dobbelsteenversie."
+      },
+      {
+        "id": 25,
+        "question": "In welk kaartspel zijn de regels in de loop van de tijd uitgevonden ?",
+        "propositions": [
+          "Knal !",
+          "mao",
+          "habi",
+          "Vitu"
+        ],
+        "réponse": "mao",
+        "anecdote": "Als je met iemand speelt die nog nooit Mao heeft gespeeld, wordt hij verondersteld maar één ding over het spel te weten : niets."
+      },
+      {
+        "id": 26,
+        "question": "Welk Niçois-spel is gebaseerd op zowel bied- als kaartspellen ?",
+        "propositions": [
+          "Vitu",
+          "7 gezinnen",
+          "waardeloos",
+          "Illuminati"
+        ],
+        "réponse": "Vitu",
+        "anecdote": "Alle interesse van het spel gaat uit naar het bluffen (bieden) maar ook naar het spel van de kaart, waarbij de eerste fold beslissend is."
+      },
+      {
+        "id": 27,
+        "question": "In welk kaartspel moet je een kurk in het midden van de tafel vangen ?",
+        "propositions": [
+          "Illuminati",
+          "janus",
+          "habi",
+          "Jungle snelheid"
+        ],
+        "réponse": "Jungle snelheid",
+        "anecdote": "Er is een uitbreiding voor de Jungle Speed die 80 extra kaarten en symbolen toevoegt, waardoor de moeilijkheidsgraad toeneemt."
+      },
+      {
+        "id": 28,
+        "question": "In welk kaartspel moet een woord beginnen met een groene kant ?",
+        "propositions": [
+          "Rummy",
+          "8 Amerikaans",
+          "zegt",
+          "In extremis"
+        ],
+        "réponse": "In extremis",
+        "anecdote": "De eerste speler die een geldig woord vindt (alles behalve vervoegde werkwoorden) wint alle kaarten op tafel."
+      },
+      {
+        "id": 29,
+        "question": "In welk origineel spel zien we alle kaarten behalve de zijne ?",
+        "propositions": [
+          "mao",
+          "Vitu",
+          "habi",
+          "Knal !"
+        ],
+        "réponse": "habi",
+        "anecdote": "Het volledige basisspel heeft 50 kaarten : drie 1-kaarten, twee 2-kaarten, twee 3-kaarten, twee 4-kaarten en één 5-kaart."
+      },
+      {
+        "id": 30,
+        "question": "Welk kaartspel met een westers thema wordt aangeboden door Emiliano Sciarra ?",
+        "propositions": [
+          "wieg",
+          "Knal !",
+          "zegt",
+          "janus"
+        ],
+        "réponse": "Knal !",
+        "anecdote": "Het spel werd aangevuld met vier uitbreidingen : « Dodge City » (2004), « High Noon » en « A Fistfull of cards » (2005), daarna « Wild West Show » (2010)."
+      }
+    ]
+    }
+  }
+}

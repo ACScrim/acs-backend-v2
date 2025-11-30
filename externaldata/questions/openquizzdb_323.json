@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-10-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Célébrités",
+      "nom": "Humoristes belges",
+      "slogan": "Dérision et humour noir"
+    },
+    "en": {
+      "catégorie": "Celebrities",
+      "nom": "Belgian comedians",
+      "slogan": "Derision and dark humor"
+    },
+    "es": {
+      "catégorie": "Famosos",
+      "nom": "Humoristas belgas",
+      "slogan": "Burla e humor negro"
+    },
+    "it": {
+      "catégorie": "Celebrità",
+      "nom": "Comici belgi",
+      "slogan": "Derisione e umorismo nero"
+    },
+    "de": {
+      "catégorie": "Prominente",
+      "nom": "Belgische Komiker",
+      "slogan": "Spott und schwarzer Humor"
+    },
+    "nl": {
+      "catégorie": "Beroemdheden",
+      "nom": "Belgische komieken",
+      "slogan": "Spot en zwarte humor"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qui a rendu célèbre Amédée, octogénaire habitant dans une maison de retraite ?",
+        "propositions": [
+          "Marc Herman",
+          "François Damiens",
+          "François Pirette",
+          "Richard Ruben"
+        ],
+        "réponse": "François Pirette",
+        "anecdote": "Les spectacles de François Pirette se déroulent sous forme de sketchs dans lesquels ses personnages dépeignent la société belge."
+      },
+      {
+        "id": 2,
+        "question": "Quel humoriste était connu pour son rôle de commandant dans « Faux contact » ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Jérôme de Warzée",
+          "Frédéric Jannin",
+          "Manu Thoreau"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "L'humoriste Manu Thoreau est décédé accidentellement le 9 mars 2000 à Ibiza, en Espagne, à la suite d'une chute d'une falaise."
+      },
+      {
+        "id": 3,
+        "question": "Quel humoriste anime « Le Grand Cactus » aux côtés d'Adrien Devyver ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Philippe Geluck",
+          "Jérôme de Warzée",
+          "Manu Thoreau"
+        ],
+        "réponse": "Jérôme de Warzée",
+        "anecdote": "Jérôme de Warzée tient une chronique quotidienne sur la chaîne de radio VivaCité et fait de fréquents passages à la télévision belge."
+      },
+      {
+        "id": 4,
+        "question": "Quel humoriste belge est principalement connu pour ses Stuuût ?",
+        "propositions": [
+          "Marc Herman",
+          "Manu Thoreau",
+          "Stéphane Steeman",
+          "André Valardy"
+        ],
+        "réponse": "Marc Herman",
+        "anecdote": "Depuis 1997, Marc Herman utilise dans ses sketches le nom de Luc Dierrieckx, adoptant pour ses spectacles un très fort accent flamand."
+      },
+      {
+        "id": 5,
+        "question": "Qui est surtout connu pour être l'auteur de la série de bande dessinée « Le Chat » ?",
+        "propositions": [
+          "Albert Cougnet",
+          "François Damiens",
+          "Stéphane De Groodt",
+          "Philippe Geluck"
+        ],
+        "réponse": "Philippe Geluck",
+        "anecdote": "Le Chat est apparu pour la toute première fois en 1980 sur les faire-parts du mariage de son auteur, en compagnie de la femme du Chat."
+      },
+      {
+        "id": 6,
+        "question": "Quel humoriste belge est le membre le plus connu du groupe Sttellla ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Jean-Luc Fonck",
+          "Marc Moulin",
+          "André Valardy"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "C'est le contrat avec le label français Boucherie Productions qui fera de Sttellla une valeur sûre des festivals avec 500 concerts donnés."
+      },
+      {
+        "id": 7,
+        "question": "Quel célèbre humoriste est né avec un pied en Belgique et un pied en France ?",
+        "propositions": [
+          "Stéphane Steeman",
+          "Raymond Devos",
+          "Marc Herman",
+          "Alex Vizorek"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "La Fondation Raymond Devos a reconstitué l'univers de l'artiste dans sa maison de Saint-Rémy-lès-Chevreuse, située dasn les Yvelines."
+      },
+      {
+        "id": 8,
+        "question": "Quel humoriste a généré un moment culte avec Nabilla sur Canal+ dans « Le Supplément » ?",
+        "propositions": [
+          "Stéphane De Groodt",
+          "Frédéric Jannin",
+          "Albert Cougnet",
+          "François Renard"
+        ],
+        "réponse": "Stéphane De Groodt",
+        "anecdote": "Son humour absurde et très littéraire ainsi que le rythme effréné de ses jeux de mots le rapprochent de Ramond Devos ou Pierre Repp."
+      },
+      {
+        "id": 9,
+        "question": "Quel humoriste anime la séquence « Votez pour moi » sur Bel RTL ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Richard Ruben",
+          "André Lamy",
+          "François Pirette"
+        ],
+        "réponse": "André Lamy",
+        "anecdote": "En 1987, André Lamy montera à Paris et sera repéré par les frères Hubert, producteurs de Thierry Le Luron, mort l'année précédente."
+      },
+      {
+        "id": 10,
+        "question": "Qui s'est constitué un public très fidèle grâce à Gonzague, le BCBG belge ?",
+        "propositions": [
+          "Richard Ruben",
+          "Patrick Alen",
+          "Albert Cougnet",
+          "Dan Gagnon"
+        ],
+        "réponse": "Richard Ruben",
+        "anecdote": "Richard Ruben est le premier humoriste belge à avoir rempli en 1995 le temple belge du rock, à savoir la scène de Forest National."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel humoriste belge possédait une très riche collection sur Hergé ?",
+        "propositions": [
+          "André Valardy",
+          "Marc Herman",
+          "Stéphane Steeman",
+          "André Lamy"
+        ],
+        "réponse": "Stéphane Steeman",
+        "anecdote": "Stéphane Steeman sera d'ailleurs un des initiateurs de l'exposition « Tout Hergé » qui s'est tenue durant l'été 1991 à Welkenraedt."
+      },
+      {
+        "id": 12,
+        "question": "Qui a présenté le one-woman-show « Qui a dit faible  ? » écrit avec Patrick Ridremont ?",
+        "propositions": [
+          "Virginie Hocq",
+          "Véronique Gallo",
+          "Laurence Bibot",
+          "Sandra Zidani"
+        ],
+        "réponse": "Virginie Hocq",
+        "anecdote": "En 2015, elle est également au générique de la nouvelle série de TF1 « Presque Parfaite » avec Claudia Tagbo et Arié Elmaleh."
+      },
+      {
+        "id": 13,
+        "question": "Qui a incarné Claudy Focan en 2006 dans lu cultissime film « Dikkenek » ?",
+        "propositions": [
+          "François Damiens",
+          "Marc Moulin",
+          "Dan Gagnon",
+          "Frédéric Jannin"
+        ],
+        "réponse": "François Damiens",
+        "anecdote": "Très populaire en Belgique, il a dû arrêter les tournages de ses caméras cachées en 2004, ne pouvant plus jouer sans être reconnu."
+      },
+      {
+        "id": 14,
+        "question": "Qui a incarné un faux reporter benêt à l'accent liégeois muni d'une oreillette ?",
+        "propositions": [
+          "Marc Herman",
+          "Bruno Coppens",
+          "André Valardy",
+          "Albert Cougnet"
+        ],
+        "réponse": "Albert Cougnet",
+        "anecdote": "Né à Ans le 4 août 1952, Alain Soreil est le frère de Philippe Soreil, présentateur de la RTBF, et le fils de Paul Soreil, romaniste."
+      },
+      {
+        "id": 15,
+        "question": "Quelle humoriste belge a incarné Miss Bricola avec Les Snuls ?",
+        "propositions": [
+          "Virginie Hocq",
+          "Véronique Gallo",
+          "Laurence Bibot",
+          "Sandra Zidani"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Mariée au chanteur Marka, Laurence Bibot est également la mère du rappeur Roméo Elvis et de la chanteuse Angèle."
+      },
+      {
+        "id": 16,
+        "question": "Quelle belge née à Frameries a créé « Le Diable est une Gentille Petite Fille » ?",
+        "propositions": [
+          "Clair Jaz",
+          "Julie Villers",
+          "Virginie Hocq",
+          "Laura Laune"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "Elle sera récompensée plusieurs fois dans des festivals d'humour et par la suite fera la première partie du spectacle de Jeff Panacloc."
+      },
+      {
+        "id": 17,
+        "question": "Quel touche-à-tout belge a créé le groupe musical Telex suite à un canular ?",
+        "propositions": [
+          "Marc Moulin",
+          "Jean-Luc Fonck",
+          "Marc Herman",
+          "Manu Thoreau"
+        ],
+        "réponse": "Marc Moulin",
+        "anecdote": "Pierre Kroll, qui illustrait ses humeurs dans « Télémoustique » dira à la mort de Marc Moulin : « Il est irremplaçable »."
+      },
+      {
+        "id": 18,
+        "question": "Quel belge était surnommé l'homme caoutchouc ou l'homme caméléon ?",
+        "propositions": [
+          "André Valardy",
+          "Patrick Alen",
+          "Bruno Coppens",
+          "François Renard"
+        ],
+        "réponse": "André Valardy",
+        "anecdote": "L'homme caméléon pouvait camper à la fois une Scarlett O'Hara défraîchie, une religieuse hystérique ou encore l'incroyable Hulk."
+      },
+      {
+        "id": 19,
+        "question": "Quelle humoriste est la créatrice de la série « Vie de mère » sur YouTube et sur Téva ?",
+        "propositions": [
+          "Clair Jaz",
+          "Julie Villers",
+          "Sandra Zidani",
+          "Véronique Gallo"
+        ],
+        "réponse": "Véronique Gallo",
+        "anecdote": "Youtubeuse, humoriste et écrivaine, les spectacles de Véronique Gallo se construisent autour de la femme, du couple et de la famille."
+      },
+      {
+        "id": 20,
+        "question": "Quelle humoriste belge a incarné le lieutenant Martine dans « Commissaire Valence » ?",
+        "propositions": [
+          "Laura Laune",
+          "Sandra Zidani",
+          "Véronique Gallo",
+          "Clair Jaz"
+        ],
+        "réponse": "Clair Jaz",
+        "anecdote": "Depuis 2010, Claire Jaz coécrit et met en scène les sketchs de Florent Peyre dans l'émission « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel humoriste belge a commenté des matchs de foot sur Bel RTL ?",
+        "propositions": [
+          "François Pirette",
+          "Richard Ruben",
+          "Marc Herman",
+          "Alex Vizorek"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "En 2018, avec Charline Vanhoenacker et Guillaume Meurice, Alex Vizorek a déposé sa candidature à la présidence de Radio France."
+      },
+      {
+        "id": 22,
+        "question": "Quel belge a composé le dernier générique du « Jeu des dictionnaires » ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Frédéric Jannin",
+          "Albert Cougnet",
+          "Philippe Geluck"
+        ],
+        "réponse": "Frédéric Jannin",
+        "anecdote": "Frédéric Jannin produit des séries télévisées comme « J'aime autant de t'ouvrir les yeux », « Froud et Stouf » et « Twin fliks »."
+      },
+      {
+        "id": 23,
+        "question": "Qui a incarné Mr Virgule dans l'émission « Ici-Bla-Bla » sur la RTBF ?",
+        "propositions": [
+          "Bruno Coppens",
+          "Serge Honorez",
+          "Elliot Jenicot",
+          "Patrick Alen"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens a été chroniqueur pour l'émission « Le Fou du roi » sur France Inter et pour l'émission « Les Dicodeurs » en Suisse."
+      },
+      {
+        "id": 24,
+        "question": "Qui incarne Francis Joskin, guitariste du groupe humoristique les Gauff' au Suc' ?",
+        "propositions": [
+          "François Renard",
+          "André Valardy",
+          "Manu Thoreau",
+          "Patrick Alen"
+        ],
+        "réponse": "Patrick Alen",
+        "anecdote": "Depuis 2008, il produit grâce à sa société de production Alien Production « Tu l'as pas volée », une série de sketches humoristiques."
+      },
+      {
+        "id": 25,
+        "question": "Quel humoriste liégeois a pour personnage le plus connu Popol ?",
+        "propositions": [
+          "François Renard",
+          "Didier Boclinville",
+          "Frank Bruynbroek",
+          "Gaston Berghmans"
+        ],
+        "réponse": "François Renard",
+        "anecdote": "François Renard a animé une émission radio hebdomadaire à la RTB, « Popol et tante Titine » avec Henriette Brenu à ses côtés."
+      },
+      {
+        "id": 26,
+        "question": "Qui a créé la web-série « Presque Normal » sur sa presque vraie vie ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Joseph Collard",
+          "Martin Charlier",
+          "Patrick Chaboud"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "En 2017, Dan Gagnon a présenté « Rose », son quatrième spectacle, avec lequel il a rempli plusieurs salles en Wallonie et à Bruxelles."
+      },
+      {
+        "id": 27,
+        "question": "Quel humoriste a déjà réalisé plus de 250 films publicitaires ?",
+        "propositions": [
+          "Cédric Gervy",
+          "Michaël Dufour",
+          "James Deano",
+          "Serge Honorez"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Serge Honorez a également intégré l'équipe de « La Télévision infernale » de façon régulière à partir de la saison 2005-2006."
+      },
+      {
+        "id": 28,
+        "question": "Quelle humoriste belge est marraine de Amnesty International depuis 2004 ?",
+        "propositions": [
+          "Clair Jaz",
+          "Sandra Zidani",
+          "Simone Max",
+          "Sarah Grosjean"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "Pour sandra Zidani, très marquée par Coluche et les Restos du Coeur, la frontière entre humoriste et humaniste est très proche."
+      },
+      {
+        "id": 29,
+        "question": "Quel humoriste belge est devenu pensionnaire de la Comédie-Française en 2011 ?",
+        "propositions": [
+          "Elliot Jenicot",
+          "Bert Kruismans",
+          "Renaud Rutten",
+          "Guillermo Guiz"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot a suivi des stages de clown et participé à des ateliers de mime avec Fujio Ishimura et Joseph Collard en Belgique."
+      },
+      {
+        "id": 30,
+        "question": "Quelle humoriste belge a joué dans le film de Danièle Thompson, « Le code a changé » ?",
+        "propositions": [
+          "Julie Villers",
+          "Laura Laune",
+          "Sandra Zidani",
+          "Véronique Gallo"
+        ],
+        "réponse": "Julie Villers",
+        "anecdote": "En 2009, elle a écrit son premier one-woman-show, « Pommée(s) », où elle se produira dans des scènes ouvertes à Paris et en Belgique."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who made famous Amédée, octogenarian living in a retirement home ?",
+        "propositions": [
+          "Richard Reuben",
+          "Mark Herman",
+          "Francois Pirette",
+          "Francois Damiens"
+        ],
+        "réponse": "Francois Pirette",
+        "anecdote": "François Pirette's shows take the form of sketches in which his characters depict Belgian society."
+      },
+      {
+        "id": 2,
+        "question": "Which comedian was known for his role as a commander in « Faux contact » ?",
+        "propositions": [
+          "Frederic Jannin",
+          "Jerome de Warzee",
+          "Alex Vizorek",
+          "Manu Thoreau"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "Comedian Manu Thoreau died accidentally on March 9, 2000 in Ibiza, Spain, following a fall from a cliff."
+      },
+      {
+        "id": 3,
+        "question": "Which comedian hosts « Le Grand Cactus » alongside Adrien Devyver ?",
+        "propositions": [
+          "Jerome de Warzee",
+          "Philip Geluck",
+          "Jean-Luc Fonck",
+          "Manu Thoreau"
+        ],
+        "réponse": "Jerome de Warzee",
+        "anecdote": "Jérôme de Warzée writes a daily column on the VivaCité radio channel and makes frequent appearances on Belgian television."
+      },
+      {
+        "id": 4,
+        "question": "Which Belgian comedian is best known for his Stuuût ?",
+        "propositions": [
+          "Stephane Steeman",
+          "Mark Herman",
+          "André Valardy",
+          "Manu Thoreau"
+        ],
+        "réponse": "Mark Herman",
+        "anecdote": "Since 1997, Marc Herman has been using the name of Luc Dierrieckx in his sketches, adopting a very strong Flemish accent for his shows."
+      },
+      {
+        "id": 5,
+        "question": "Who is best known for being the author of the comic book series « Le Chat » ?",
+        "propositions": [
+          "Philip Geluck",
+          "Francois Damiens",
+          "Albert Cognet",
+          "Stephane De Groodt"
+        ],
+        "réponse": "Philip Geluck",
+        "anecdote": "The Cat appeared for the very first time in 1980 on the wedding invitations of its author, in the company of the Cat's wife."
+      },
+      {
+        "id": 6,
+        "question": "Which Belgian comedian is the most famous member of the group Sttellla ?",
+        "propositions": [
+          "Mark Moulin",
+          "André Valardy",
+          "Jean-Luc Fonck",
+          "Manu Thoreau"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "It is the contract with the French label Boucherie Productions that will make Sttellla a safe bet for festivals with 500 concerts given."
+      },
+      {
+        "id": 7,
+        "question": "Which famous comedian was born with one foot in Belgium and one foot in France ?",
+        "propositions": [
+          "Mark Herman",
+          "Alex Vizorek",
+          "Stephane Steeman",
+          "Raymond Devos"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "The Raymond Devos Foundation has reconstructed the artist's universe in his house in Saint-Rémy-lès-Chevreuse, located in the Yvelines."
+      },
+      {
+        "id": 8,
+        "question": "Which comedian generated a cult moment with Nabilla on Canal  in « Le Supplément » ?",
+        "propositions": [
+          "Albert Cognet",
+          "Stephane De Groodt",
+          "Francois Renard",
+          "Frederic Jannin"
+        ],
+        "réponse": "Stephane De Groodt",
+        "anecdote": "His absurd and very literary humor as well as the frantic pace of his puns bring him closer to Ramond Devos or Pierre Repp."
+      },
+      {
+        "id": 9,
+        "question": "Which comedian hosts the « Votez pour moi » sequence on Bel RTL ?",
+        "propositions": [
+          "Francois Pirette",
+          "Alex Vizorek",
+          "Richard Reuben",
+          "André Lamy"
+        ],
+        "réponse": "André Lamy",
+        "anecdote": "In 1987, André Lamy will go up to Paris and will be spotted by the Hubert brothers, producers of Thierry Le Luron, who died the previous year."
+      },
+      {
+        "id": 10,
+        "question": "Who has built up a very loyal following thanks to Gonzague, the Belgian BCBG ?",
+        "propositions": [
+          "Albert Cognet",
+          "Patrick Allen",
+          "Richard Reuben",
+          "Dan Gagnon"
+        ],
+        "réponse": "Richard Reuben",
+        "anecdote": "Richard Ruben is the first Belgian humorist to have filled the Belgian temple of rock in 1995, namely the stage of Forest National."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which Belgian humorist had a very rich collection on Hergé ?",
+        "propositions": [
+          "Stephane Steeman",
+          "Mark Herman",
+          "André Valardy",
+          "André Lamy"
+        ],
+        "réponse": "Stephane Steeman",
+        "anecdote": "Stéphane Steeman will also be one of the initiators of the exhibition « Tout Hergé » which was held during the summer of 1991 in Welkenraedt."
+      },
+      {
+        "id": 12,
+        "question": "Who presented the one-woman-show « Qui a dit faible  ? » written with Patrick Ridremont ?",
+        "propositions": [
+          "Virginie Hocq",
+          "Laurence Bibot",
+          "Veronique Gallo",
+          "Sandra Zidani"
+        ],
+        "réponse": "Virginie Hocq",
+        "anecdote": "In 2015, she is also in the credits of the new TF1 series « Presque Parfaite » with Claudia Tagbo and Arié Elmaleh."
+      },
+      {
+        "id": 13,
+        "question": "Who played Claudy Focan in 2006 in the cult film « Dikkenek » ?",
+        "propositions": [
+          "Francois Damiens",
+          "Mark Moulin",
+          "Frederic Jannin",
+          "Dan Gagnon"
+        ],
+        "réponse": "Francois Damiens",
+        "anecdote": "Very popular in Belgium, he had to stop filming with his hidden cameras in 2004, as he could no longer play without being recognized."
+      },
+      {
+        "id": 14,
+        "question": "Who embodied a stupid fake reporter with a Liège accent equipped with a headset ?",
+        "propositions": [
+          "Mark Herman",
+          "Albert Cognet",
+          "André Valardy",
+          "Bruno Coppens"
+        ],
+        "réponse": "Albert Cognet",
+        "anecdote": "Born in Ans on August 4, 1952, Alain Soreil is the brother of Philippe Soreil, RTBF presenter, and the son of Paul Soreil, Romanist."
+      },
+      {
+        "id": 15,
+        "question": "Which Belgian humorist played Miss Bricola with Les Snuls ?",
+        "propositions": [
+          "Laurence Bibot",
+          "Sandra Zidani",
+          "Virginie Hocq",
+          "Veronique Gallo"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Married to singer Marka, Laurence Bibot is also the mother of rapper Roméo Elvis and singer Angèle."
+      },
+      {
+        "id": 16,
+        "question": "Which Belgian born in Frameries created « The Devil is a Nice Little Girl » ?",
+        "propositions": [
+          "Clear Jaz",
+          "Laura Laune",
+          "Virginie Hocq",
+          "Julie Villers"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "She will be rewarded several times in festivals of humor and thereafter will make the first part of the spectacle of Jeff Panacloc."
+      },
+      {
+        "id": 17,
+        "question": "What Belgian jack-of-all-trades created the musical group Telex following a hoax ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Mark Moulin",
+          "Jean-Luc Fonck",
+          "Mark Herman"
+        ],
+        "réponse": "Mark Moulin",
+        "anecdote": "Pierre Kroll, who illustrated his moods in « Télémoustique » will say on the death of Marc Moulin : « He is irreplaceable »."
+      },
+      {
+        "id": 18,
+        "question": "Which Belgian was nicknamed the rubber man or the chameleon man ?",
+        "propositions": [
+          "Francois Renard",
+          "Patrick Allen",
+          "Bruno Coppens",
+          "André Valardy"
+        ],
+        "réponse": "André Valardy",
+        "anecdote": "The chameleon man could camp both a faded Scarlett O'Hara, a hysterical nun or the Incredible Hulk."
+      },
+      {
+        "id": 19,
+        "question": "Which comedian is the creator of the series « Mother's Life » on YouTube and on Téva ?",
+        "propositions": [
+          "Veronique Gallo",
+          "Sandra Zidani",
+          "Julie Villers",
+          "Clear Jaz"
+        ],
+        "réponse": "Veronique Gallo",
+        "anecdote": "Youtuber, humorist and writer, Véronique Gallo's shows are built around women, couples and families."
+      },
+      {
+        "id": 20,
+        "question": "Which Belgian comedian played Lieutenant Martine in « Commissaire Valence » ?",
+        "propositions": [
+          "Sandra Zidani",
+          "Clear Jaz",
+          "Veronique Gallo",
+          "Laura Laune"
+        ],
+        "réponse": "Clear Jaz",
+        "anecdote": "Since 2010, Claire Jaz has co-written and directed sketches by Florent Peyre on the show « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Belgian comedian commented on football matches on Bel RTL ?",
+        "propositions": [
+          "Francois Pirette",
+          "Alex Vizorek",
+          "Richard Reuben",
+          "Mark Herman"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "In 2018, with Charline Vanhoenacker and Guillaume Meurice, Alex Vizorek applied for the presidency of Radio France."
+      },
+      {
+        "id": 22,
+        "question": "Which Belgian composed the last credits of the « Dictionaries game » ?",
+        "propositions": [
+          "Albert Cognet",
+          "Philip Geluck",
+          "Jean-Luc Fonck",
+          "Frederic Jannin"
+        ],
+        "réponse": "Frederic Jannin",
+        "anecdote": "Frédéric Jannin produces television series such as « I love opening your eyes so much », « Froud and Stouf » and « Twin flicks »."
+      },
+      {
+        "id": 23,
+        "question": "Who played Mr Virgule in the show « Ici-Bla-Bla » on RTBF ?",
+        "propositions": [
+          "Serge Honorez",
+          "Bruno Coppens",
+          "Elliot Jenicot",
+          "Patrick Allen"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens was a columnist for the program « Le Fou du roi » on France Inter and for the program « Les Dicodeurs » in Switzerland."
+      },
+      {
+        "id": 24,
+        "question": "Who embodies Francis Joskin, guitarist of the humorous group Gauff 'au Suc' ?",
+        "propositions": [
+          "Patrick Allen",
+          "Manu Thoreau",
+          "André Valardy",
+          "Francois Renard"
+        ],
+        "réponse": "Patrick Allen",
+        "anecdote": "Since 2008, he has produced, thanks to his production company Alien Production, « Tu l'as pas volée », a series of humorous sketches."
+      },
+      {
+        "id": 25,
+        "question": "Which comedian from Liège has Popol as his best-known character ?",
+        "propositions": [
+          "Francois Renard",
+          "Frank Bruynbroek",
+          "Gaston Bergmans",
+          "Didier Boclinville"
+        ],
+        "réponse": "Francois Renard",
+        "anecdote": "François Renard hosted a weekly radio program on RTB, « Popol et tante Titine » with Henriette Brenu at his side."
+      },
+      {
+        "id": 26,
+        "question": "Who created the « Almost Normal » web-series about his almost real life ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Joseph Collard",
+          "Martin Charlier",
+          "Patrick Chaboud"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "In 2017, Dan Gagnon presented « Rose », his fourth show, with which he filled several halls in Wallonia and Brussels."
+      },
+      {
+        "id": 27,
+        "question": "Which comedian has already made more than 250 commercials ?",
+        "propositions": [
+          "Serge Honorez",
+          "Cedric Gervy",
+          "Michael Dufour",
+          "James Deano"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Serge Honorez also joined the team of « La Télévision infernale » on a regular basis from the 2005-2006 season."
+      },
+      {
+        "id": 28,
+        "question": "Which Belgian humorist has been the sponsor of Amnesty International since 2004 ?",
+        "propositions": [
+          "Sarah Grosjean",
+          "Sandra Zidani",
+          "Simone Max",
+          "Clear Jaz"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "For sandra Zidani, very marked by Coluche and the Restos du Coeur, the border between comedian and humanist is very close."
+      },
+      {
+        "id": 29,
+        "question": "Which Belgian humorist became a resident of the Comédie-Française in 2011 ?",
+        "propositions": [
+          "Bert Kruismans",
+          "Renaud Rutten",
+          "Elliot Jenicot",
+          "Guillermo Guiz"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot took clown courses and took part in mime workshops with Fujio Ishimura and Joseph Collard in Belgium."
+      },
+      {
+        "id": 30,
+        "question": "Which Belgian comedian played in Danièle Thompson's film, « The code has changed » ?",
+        "propositions": [
+          "Veronique Gallo",
+          "Julie Villers",
+          "Laura Laune",
+          "Sandra Zidani"
+        ],
+        "réponse": "Julie Villers",
+        "anecdote": "In 2009, she wrote her first one-woman-show, « Pommée(s) », where she performed on open stages in Paris and Belgium."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer hat Amédée berühmt gemacht, Achtzigjähriger, der in einem Altersheim lebt ?",
+        "propositions": [
+          "François Pirette",
+          "Markus Hermann",
+          "François Damiens",
+          "Richard Ruben"
+        ],
+        "réponse": "François Pirette",
+        "anecdote": "Die Shows von François Pirette haben die Form von Skizzen, in denen seine Figuren die belgische Gesellschaft darstellen."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Komiker war für seine Rolle als Kommandant in « Faux contact » bekannt ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Frederik Jannin",
+          "Jerome de Warzee",
+          "Alex Vizorek"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "Der Komiker Manu Thoreau starb versehentlich am 9. März 2000 auf Ibiza, Spanien, nach einem Sturz von einer Klippe."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Komiker moderiert neben Adrien Devyver « Le Grand Cactus » ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Philipp Geluck",
+          "Jean-Luc Fonck",
+          "Jerome de Warzee"
+        ],
+        "réponse": "Jerome de Warzee",
+        "anecdote": "Jérôme de Warzée schreibt eine tägliche Kolumne für den Radiosender VivaCité und tritt häufig im belgischen Fernsehen auf."
+      },
+      {
+        "id": 4,
+        "question": "Welcher belgische Komiker ist am besten für seinen Stuuût bekannt ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Stéphane Steemann",
+          "Markus Hermann",
+          "André Valardy"
+        ],
+        "réponse": "Markus Hermann",
+        "anecdote": "Seit 1997 verwendet Marc Herman den Namen Luc Dierrieckx in seinen Skizzen und verwendet für seine Shows einen sehr starken flämischen Akzent."
+      },
+      {
+        "id": 5,
+        "question": "Wer ist am besten als Autor der Comicbuchreihe « Le Chat » bekannt ?",
+        "propositions": [
+          "Philipp Geluck",
+          "François Damiens",
+          "Albert Cognet",
+          "Stéphane de Groodt"
+        ],
+        "réponse": "Philipp Geluck",
+        "anecdote": "Die Katze erschien zum ersten Mal 1980 auf den Hochzeitseinladungen ihres Autors in Begleitung der Frau der Katze."
+      },
+      {
+        "id": 6,
+        "question": "Welcher belgische Komiker ist das berühmteste Mitglied der Gruppe Sttellla ?",
+        "propositions": [
+          "Mark Moulin",
+          "Manu Thoreau",
+          "Jean-Luc Fonck",
+          "André Valardy"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "Es ist der Vertrag mit dem französischen Label Boucherie Productions, der Sttellla mit 500 Konzerten zu einer sicheren Bank für Festivals macht."
+      },
+      {
+        "id": 7,
+        "question": "Welcher berühmte Komiker wurde mit einem Fuß in Belgien und einem Fuß in Frankreich geboren ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Raymond Devos",
+          "Stéphane Steemann",
+          "Markus Hermann"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "Die Raymond Devos Foundation hat das Universum des Künstlers in seinem Haus in Saint-Rémy-lès-Chevreuse in den Yvelines rekonstruiert."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Komiker sorgte mit Nabilla auf Canal  in « Le Supplément » für einen Kultmoment ?",
+        "propositions": [
+          "Frederik Jannin",
+          "François Renard",
+          "Stéphane de Groodt",
+          "Albert Cognet"
+        ],
+        "réponse": "Stéphane de Groodt",
+        "anecdote": "Sein absurder und sehr literarischer Humor sowie das hektische Tempo seiner Wortspiele bringen ihn Ramond Devos oder Pierre Repp näher."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Comedian moderiert die Folge « Votez pour moi » auf Bel RTL ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Richard Ruben",
+          "Andre Lamy",
+          "François Pirette"
+        ],
+        "réponse": "Andre Lamy",
+        "anecdote": "1987 reist André Lamy nach Paris und wird von den Brüdern Hubert, Produzenten von Thierry Le Luron, entdeckt, der im Vorjahr gestorben ist."
+      },
+      {
+        "id": 10,
+        "question": "Wer hat dank Gonzague, dem belgischen BCBG, eine sehr treue Anhängerschaft aufgebaut ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Albert Cognet",
+          "Richard Ruben",
+          "Patrick Allen"
+        ],
+        "réponse": "Richard Ruben",
+        "anecdote": "Richard Ruben ist der erste belgische Humorist, der 1995 den belgischen Rocktempel gefüllt hat, nämlich die Bühne von Forest National."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher belgische Humorist hatte eine sehr reiche Sammlung über Hergé ?",
+        "propositions": [
+          "Stéphane Steemann",
+          "Andre Lamy",
+          "André Valardy",
+          "Markus Hermann"
+        ],
+        "réponse": "Stéphane Steemann",
+        "anecdote": "Stéphane Steeman wird auch einer der Initiatoren der Ausstellung « Tout Hergé » sein, die im Sommer 1991 in Welkenraedt stattfand."
+      },
+      {
+        "id": 12,
+        "question": "Wer moderierte die mit Patrick Ridremont geschriebene One-Woman-Show « Qui a dit faible  ? » ?",
+        "propositions": [
+          "Veronique Gallo",
+          "Sandra Zidani",
+          "Laurence Bibot",
+          "Virginie Hocq"
+        ],
+        "réponse": "Virginie Hocq",
+        "anecdote": "2015 ist sie auch im Abspann der neuen TF1-Serie « Presque Parfaite » mit Claudia Tagbo und Arié Elmaleh zu sehen."
+      },
+      {
+        "id": 13,
+        "question": "Wer spielte 2006 Claudy Focan im Kultfilm « Dikkenek » ?",
+        "propositions": [
+          "François Damiens",
+          "Dan Gagnon",
+          "Mark Moulin",
+          "Frederik Jannin"
+        ],
+        "réponse": "François Damiens",
+        "anecdote": "In Belgien sehr beliebt, musste er 2004 aufhören, mit seinen versteckten Kameras zu filmen, da er nicht mehr unerkannt spielen konnte."
+      },
+      {
+        "id": 14,
+        "question": "Wer verkörperte einen dummen falschen Reporter mit Lütticher Akzent, der mit einem Headset ausgestattet war ?",
+        "propositions": [
+          "Markus Hermann",
+          "André Valardy",
+          "Bruno Coppens",
+          "Albert Cognet"
+        ],
+        "réponse": "Albert Cognet",
+        "anecdote": "Alain Soreil wurde am 4. August 1952 in Ans geboren und ist der Bruder von Philippe Soreil, RTBF-Moderator, und der Sohn von Paul Soreil, Romanist."
+      },
+      {
+        "id": 15,
+        "question": "Welcher belgische Humorist spielte Miss Bricola mit Les Snuls ?",
+        "propositions": [
+          "Veronique Gallo",
+          "Laurence Bibot",
+          "Virginie Hocq",
+          "Sandra Zidani"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Laurence Bibot ist mit der Sängerin Marka verheiratet und Mutter des Rappers Roméo Elvis und der Sängerin Angèle."
+      },
+      {
+        "id": 16,
+        "question": "Welcher in Frameries geborene Belgier hat « The Devil is a Nice Little Girl » erfunden ?",
+        "propositions": [
+          "Julie Villers",
+          "Laura Laune",
+          "Virginie Hocq",
+          "Löschen Sie Jaz"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "Sie wird mehrfach bei Humorfestivals ausgezeichnet und wird danach den ersten Teil des Spektakels von Jeff Panacloc machen."
+      },
+      {
+        "id": 17,
+        "question": "Welcher belgische Hansdampf in allen Gassen hat nach einem Scherz die Musikgruppe Telex gegründet ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Jean-Luc Fonck",
+          "Mark Moulin",
+          "Markus Hermann"
+        ],
+        "réponse": "Mark Moulin",
+        "anecdote": "Pierre Kroll, der seine Stimmungen in « Télémoustique » illustrierte, wird zum Tod von Marc Moulin sagen : « Er ist unersetzlich »."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Belgier wurde Gummimann oder Chamäleonmann genannt ?",
+        "propositions": [
+          "François Renard",
+          "André Valardy",
+          "Patrick Allen",
+          "Bruno Coppens"
+        ],
+        "réponse": "André Valardy",
+        "anecdote": "Der Chamäleon-Mann könnte sowohl eine verblasste Scarlett O'Hara, eine hysterische Nonne oder den Incredible Hulk campen."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Komiker ist der Schöpfer der Serie « Mother's Life » auf YouTube und auf Téva ?",
+        "propositions": [
+          "Löschen Sie Jaz",
+          "Julie Villers",
+          "Sandra Zidani",
+          "Veronique Gallo"
+        ],
+        "réponse": "Veronique Gallo",
+        "anecdote": "Die Shows von Youtuberin, Humoristin und Autorin Véronique Gallo drehen sich um Frauen, Paare und Familien."
+      },
+      {
+        "id": 20,
+        "question": "Welcher belgische Komiker spielte Lieutenant Martine in « Commissaire Valence » ?",
+        "propositions": [
+          "Löschen Sie Jaz",
+          "Laura Laune",
+          "Sandra Zidani",
+          "Veronique Gallo"
+        ],
+        "réponse": "Löschen Sie Jaz",
+        "anecdote": "Seit 2010 ist Claire Jaz Co-Autorin und Regisseurin von Sketchen von Florent Peyre in der Show « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher belgische Komiker kommentierte Fußballspiele bei Bel RTL ?",
+        "propositions": [
+          "Markus Hermann",
+          "Alex Vizorek",
+          "Richard Ruben",
+          "François Pirette"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "2018 bewarb sich Alex Vizorek zusammen mit Charline Vanhoenacker und Guillaume Meurice um die Präsidentschaft von Radio France."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Belgier hat den letzten Abspann des Spiels « Wörterbücher » verfasst ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Albert Cognet",
+          "Frederik Jannin",
+          "Philipp Geluck"
+        ],
+        "réponse": "Frederik Jannin",
+        "anecdote": "Frédéric Jannin produziert Fernsehserien wie « Ich liebe es, deine Augen so sehr zu öffnen », « Froud und Stouf » und « Twin flicks »."
+      },
+      {
+        "id": 23,
+        "question": "Wer spielte Mr Virgule in der Show « Ici-Bla-Bla » auf RTBF ?",
+        "propositions": [
+          "Serge Honorez",
+          "Elliot Jenicot",
+          "Patrick Allen",
+          "Bruno Coppens"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens war Kolumnist für die Sendung « Le Fou du roi » bei France Inter und für die Sendung « Les Dicodeurs » in der Schweiz."
+      },
+      {
+        "id": 24,
+        "question": "Wer verkörpert Francis Joskin, Gitarrist der Humorgruppe Gauff 'au Suc' ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Patrick Allen",
+          "André Valardy",
+          "François Renard"
+        ],
+        "réponse": "Patrick Allen",
+        "anecdote": "Seit 2008 produziert er dank seiner Produktionsfirma Alien Production « Tu l'as pas volée », eine Reihe humorvoller Sketche."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Komiker aus Lüttich hat Popol als seine bekannteste Figur ?",
+        "propositions": [
+          "Didier Boclinville",
+          "Gaston Bergmans",
+          "Frank Bruynbroek",
+          "François Renard"
+        ],
+        "réponse": "François Renard",
+        "anecdote": "François Renard moderierte eine wöchentliche Radiosendung auf RTB, « Popol et tante Titine » mit Henriette Brenu an seiner Seite."
+      },
+      {
+        "id": 26,
+        "question": "Wer hat die Webserie « Almost Normal » über sein fast echtes Leben erstellt ?",
+        "propositions": [
+          "Joseph Collard",
+          "Patrick Chaboud",
+          "Dan Gagnon",
+          "Martin Charlier"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "2017 präsentierte Dan Gagnon mit « Rose » seine vierte Show, mit der er mehrere Säle in Wallonien und Brüssel füllte."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Comedian hat bereits mehr als 250 Werbespots gedreht ?",
+        "propositions": [
+          "James Deano",
+          "Serge Honorez",
+          "Michael Dufour",
+          "Cedric Gervy"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Serge Honorez trat ab der Saison 2005-2006 regelmäßig dem Team von « La Télévision infernale » bei."
+      },
+      {
+        "id": 28,
+        "question": "Welcher belgische Humorist ist seit 2004 Sponsor von Amnesty International ?",
+        "propositions": [
+          "Sarah Grosjean",
+          "Simon Max",
+          "Sandra Zidani",
+          "Löschen Sie Jaz"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "Für Sandra Zidani, sehr geprägt von Coluche und den Restos du Coeur, ist die Grenze zwischen Comedian und Humanist sehr eng."
+      },
+      {
+        "id": 29,
+        "question": "Welcher belgische Humorist wurde 2011 Resident der Comédie-Française ?",
+        "propositions": [
+          "Renaud Rutten",
+          "Elliot Jenicot",
+          "Guillermo Guiz",
+          "Bert Kruismans"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot belegte Clownkurse und nahm an Pantomime-Workshops mit Fujio Ishimura und Joseph Collard in Belgien teil."
+      },
+      {
+        "id": 30,
+        "question": "Welcher belgische Komiker spielte in Danièle Thompsons Film « Der Code hat sich geändert » ?",
+        "propositions": [
+          "Laura Laune",
+          "Veronique Gallo",
+          "Sandra Zidani",
+          "Julie Villers"
+        ],
+        "réponse": "Julie Villers",
+        "anecdote": "2009 schrieb sie ihre erste One-Woman-Show, « Pommée(s) », wo sie auf offenen Bühnen in Paris und Belgien auftrat."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién hizo famosa a Amédée, octogenaria que vivía en una casa de retiro ?",
+        "propositions": [
+          "François Pirette",
+          "François Damiens",
+          "Ricardo Rubén",
+          "Marcos Herman"
+        ],
+        "réponse": "François Pirette",
+        "anecdote": "Los espectáculos de François Pirette toman la forma de bocetos en los que sus personajes representan la sociedad belga."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué comediante fue conocido por su papel de comandante en « Faux contact » ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Frédéric Jannin",
+          "Jerónimo de Warzee",
+          "Manu Thoreau"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "El comediante Manu Thoreau murió accidentalmente el 9 de marzo de 2000 en Ibiza, España, tras una caída desde un acantilado."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué comediante presenta « Le Grand Cactus » junto a Adrien Devyver ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Jerónimo de Warzee",
+          "Felipe Geluck",
+          "Manu Thoreau"
+        ],
+        "réponse": "Jerónimo de Warzee",
+        "anecdote": "Jérôme de Warzée escribe una columna diaria en el canal de radio VivaCité y aparece con frecuencia en la televisión belga."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué comediante belga es más conocido por su Stuuût ?",
+        "propositions": [
+          "Andre Valardy",
+          "Stéphane Steeman",
+          "Marcos Herman",
+          "Manu Thoreau"
+        ],
+        "réponse": "Marcos Herman",
+        "anecdote": "Desde 1997, Marc Herman utiliza el nombre de Luc Dierrieckx en sus bocetos, adoptando un acento flamenco muy fuerte para sus espectáculos."
+      },
+      {
+        "id": 5,
+        "question": "¿Quién es mejor conocido por ser el autor de la serie de cómics « Le Chat » ?",
+        "propositions": [
+          "Alberto Cognet",
+          "Felipe Geluck",
+          "François Damiens",
+          "Stéphane De Groodt"
+        ],
+        "réponse": "Felipe Geluck",
+        "anecdote": "El Gato apareció por primera vez en 1980 en las invitaciones de boda de su autor, en compañía de la mujer del Gato."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué comediante belga es el miembro más famoso del grupo Sttellla ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Andre Valardy",
+          "Marcos Moulin",
+          "Manu Thoreau"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "Es el contrato con el sello francés Boucherie Productions lo que hará de Sttellla una apuesta segura para los festivales con 500 conciertos ofrecidos."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué comediante famoso nació con un pie en Bélgica y un pie en Francia ?",
+        "propositions": [
+          "Marcos Herman",
+          "Raymond Devos",
+          "Stéphane Steeman",
+          "Alex Vizorek"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "La Fundación Raymond Devos ha reconstruido el universo del artista en su casa de Saint-Rémy-lès-Chevreuse, situada en Yvelines."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué humorista generó un momento de culto con Nabilla en Canal  en « Le Supplément » ?",
+        "propositions": [
+          "Frédéric Jannin",
+          "François Renard",
+          "Stéphane De Groodt",
+          "Alberto Cognet"
+        ],
+        "réponse": "Stéphane De Groodt",
+        "anecdote": "Su humor absurdo y muy literario así como el ritmo frenético de sus juegos de palabras lo acercan a Ramond Devos o Pierre Repp."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué comediante presenta la secuencia « Votez pour moi » en Bel RTL ?",
+        "propositions": [
+          "Ricardo Rubén",
+          "François Pirette",
+          "André Lamy",
+          "Alex Vizorek"
+        ],
+        "réponse": "André Lamy",
+        "anecdote": "En 1987, André Lamy subirá a París y será descubierto por los hermanos Hubert, productores de Thierry Le Luron, fallecido el año anterior."
+      },
+      {
+        "id": 10,
+        "question": "¿Quién ha conseguido seguidores muy leales gracias a Gonzague, el BCBG belga ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Ricardo Rubén",
+          "Alberto Cognet",
+          "Patricio Allen"
+        ],
+        "réponse": "Ricardo Rubén",
+        "anecdote": "Richard Ruben es el primer humorista belga que llenó el templo belga del rock en 1995, concretamente el escenario del Forest National."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué humorista belga tenía una colección muy rica sobre Hergé ?",
+        "propositions": [
+          "André Lamy",
+          "Marcos Herman",
+          "Stéphane Steeman",
+          "Andre Valardy"
+        ],
+        "réponse": "Stéphane Steeman",
+        "anecdote": "Stéphane Steeman será también uno de los iniciadores de la exposición « Tout Hergé » que se celebró durante el verano de 1991 en Welkenraedt."
+      },
+      {
+        "id": 12,
+        "question": "¿Quién presentó el espectáculo de una mujer « Qui a dit faible  ? » escrito con Patrick Ridremont ?",
+        "propositions": [
+          "Verónica Gallo",
+          "Sandra Zidani",
+          "Laurence Bibot",
+          "Virginia Hocq"
+        ],
+        "réponse": "Virginia Hocq",
+        "anecdote": "En 2015, también aparece en los créditos de la nueva serie TF1 « Presque Parfaite » con Claudia Tagbo y Arié Elmaleh."
+      },
+      {
+        "id": 13,
+        "question": "¿Quién interpretó a Claudy Focan en 2006 en la película de culto « Dikkenek » ?",
+        "propositions": [
+          "Marcos Moulin",
+          "Frédéric Jannin",
+          "François Damiens",
+          "Dan Gagnon"
+        ],
+        "réponse": "François Damiens",
+        "anecdote": "Muy popular en Bélgica, tuvo que dejar de filmar con sus cámaras ocultas en 2004, ya que ya no podía jugar sin ser reconocido."
+      },
+      {
+        "id": 14,
+        "question": "¿Quién encarnaba a un estúpido reportero falso con acento de Lieja equipado con auriculares ?",
+        "propositions": [
+          "Marcos Herman",
+          "Bruno Coppens",
+          "Alberto Cognet",
+          "Andre Valardy"
+        ],
+        "réponse": "Alberto Cognet",
+        "anecdote": "Nacido en Ans el 4 de agosto de 1952, Alain Soreil es hermano de Philippe Soreil, presentador de la RTBF, e hijo de Paul Soreil, romanista."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué humorista belga interpretó a Miss Bricola con Les Snuls ?",
+        "propositions": [
+          "Verónica Gallo",
+          "Laurence Bibot",
+          "Sandra Zidani",
+          "Virginia Hocq"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Casada con la cantante Marka, Laurence Bibot es también madre del rapero Roméo Elvis y de la cantante Angèle."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué belga nacido en Frameries creó « The Devil is a Nice Little Girl » ?",
+        "propositions": [
+          "Borrar Jaz",
+          "Laura Laune",
+          "julie villers",
+          "Virginia Hocq"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "Será premiada varias veces en festivales de humor y luego hará la primera parte del espectáculo de Jeff Panacloc."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué polifacético belga creó el grupo musical Telex a raíz de un engaño ?",
+        "propositions": [
+          "Marcos Herman",
+          "Jean-Luc Fonck",
+          "Marcos Moulin",
+          "Manu Thoreau"
+        ],
+        "réponse": "Marcos Moulin",
+        "anecdote": "Pierre Kroll, que ilustró sus estados de ánimo en « Télémoustique » dirá sobre la muerte de Marc Moulin : « Es insustituible »."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué belga fue apodado el hombre de goma o el hombre camaleón ?",
+        "propositions": [
+          "François Renard",
+          "Patricio Allen",
+          "Bruno Coppens",
+          "Andre Valardy"
+        ],
+        "réponse": "Andre Valardy",
+        "anecdote": "El hombre camaleónico podría acampar tanto con una desvanecida Scarlett O'Hara, una monja histérica o el Increíble Hulk."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué comediante es el creador de la serie « Vida de madre » en YouTube y en Téva ?",
+        "propositions": [
+          "julie villers",
+          "Borrar Jaz",
+          "Sandra Zidani",
+          "Verónica Gallo"
+        ],
+        "réponse": "Verónica Gallo",
+        "anecdote": "Youtuber, humorista y escritora, los espectáculos de Véronique Gallo se construyen en torno a mujeres, parejas y familias."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué comediante belga interpretó a la teniente Martine en « Commissaire Valence » ?",
+        "propositions": [
+          "Verónica Gallo",
+          "Sandra Zidani",
+          "Laura Laune",
+          "Borrar Jaz"
+        ],
+        "réponse": "Borrar Jaz",
+        "anecdote": "Desde 2010, Claire Jaz ha coescrito y dirigido bocetos de Florent Peyre en el programa « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué comediante belga comentó sobre partidos de fútbol en Bel RTL ?",
+        "propositions": [
+          "Marcos Herman",
+          "François Pirette",
+          "Ricardo Rubén",
+          "Alex Vizorek"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "En 2018, con Charline Vanhoenacker y Guillaume Meurice, Alex Vizorek se postuló para la presidencia de Radio France."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué belga compuso los últimos créditos del « juego de diccionarios » ?",
+        "propositions": [
+          "Frédéric Jannin",
+          "Jean-Luc Fonck",
+          "Alberto Cognet",
+          "Felipe Geluck"
+        ],
+        "réponse": "Frédéric Jannin",
+        "anecdote": "Frédéric Jannin produce series de televisión como « Me encanta tanto abrir los ojos », « Froud and Stouf » y « Twin flicks »."
+      },
+      {
+        "id": 23,
+        "question": "¿Quién interpretó al Sr. Virgule en el programa « Ici-Bla-Bla » en RTBF ?",
+        "propositions": [
+          "Serge Honorez",
+          "Patricio Allen",
+          "Bruno Coppens",
+          "Elliot Jenicot"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens fue columnista del programa « Le Fou du roi » de France Inter y del programa « Les Dicodeurs » de Suiza."
+      },
+      {
+        "id": 24,
+        "question": "¿Quién encarna a Francis Joskin, guitarrista del grupo humorístico Gauff 'au Suc' ?",
+        "propositions": [
+          "Patricio Allen",
+          "François Renard",
+          "Manu Thoreau",
+          "Andre Valardy"
+        ],
+        "réponse": "Patricio Allen",
+        "anecdote": "Desde 2008 produce, gracias a su productora Alien Production, « Tu l'as pas volée », una serie de sketches humorísticos."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué comediante de Lieja tiene a Popol como su personaje más conocido ?",
+        "propositions": [
+          "Gastón Bergmans",
+          "Frank Bruynbroek",
+          "Didier Boclinville",
+          "François Renard"
+        ],
+        "réponse": "François Renard",
+        "anecdote": "François Renard presentaba un programa de radio semanal en RTB, « Popol et tante Titine » con Henriette Brenu a su lado."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién creó la serie web « Almost Normal » sobre su vida casi real ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Martín Charlier",
+          "Patricio Chaboud",
+          "José Collard"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "En 2017, Dan Gagnon presentó « Rose », su cuarto espectáculo, con el que llenó varias salas de Valonia y Bruselas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué comediante ya ha hecho más de 250 comerciales ?",
+        "propositions": [
+          "James Deano",
+          "Cédric Gervy",
+          "Serge Honorez",
+          "Michael Dufour"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Serge Honorez también se unió al equipo de « La Télévision infernale » de forma regular desde la temporada 2005-2006."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué humorista belga ha sido el patrocinador de Amnistía Internacional desde 2004 ?",
+        "propositions": [
+          "Borrar Jaz",
+          "Sara Grosjean",
+          "Sandra Zidani",
+          "Simón Max"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "Para sandra Zidani, muy marcada por Coluche y los Restos du Coeur, la frontera entre humorista y humanista es muy estrecha."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué humorista belga se convirtió en residente de la Comédie-Française en 2011 ?",
+        "propositions": [
+          "Elliot Jenicot",
+          "Renaud Rutten",
+          "Bert Kruisman",
+          "Guillermo Guiz"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot tomó cursos de clown y participó en talleres de mimo con Fujio Ishimura y Joseph Collard en Bélgica."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué comediante belga actuó en la película de Danièle Thompson, « El código ha cambiado » ?",
+        "propositions": [
+          "Verónica Gallo",
+          "julie villers",
+          "Sandra Zidani",
+          "Laura Laune"
+        ],
+        "réponse": "julie villers",
+        "anecdote": "En 2009, escribió su primer espectáculo unipersonal, « Pommée(s) », donde actuó en escenarios abiertos de París y Bélgica."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi ha reso famosa Amédée, ottuagenario che vive in una casa di riposo ?",
+        "propositions": [
+          "Francois Damiens",
+          "Riccardo Ruben",
+          "Francois Pirette",
+          "Marco Herman"
+        ],
+        "réponse": "Francois Pirette",
+        "anecdote": "Gli spettacoli di François Pirette prendono la forma di schizzi in cui i suoi personaggi ritraggono la società belga."
+      },
+      {
+        "id": 2,
+        "question": "Quale comico era noto per il suo ruolo di comandante in « Faux contact » ?",
+        "propositions": [
+          "Girolamo di Warzee",
+          "Manu Thoreau",
+          "Frederic Jannin",
+          "Alex Vizorek"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "Il comico Manu Thoreau è morto accidentalmente il 9 marzo 2000 a Ibiza, in Spagna, in seguito a una caduta da una scogliera."
+      },
+      {
+        "id": 3,
+        "question": "Quale comico presenta « Le Grand Cactus » insieme ad Adrien Devyver ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Girolamo di Warzee",
+          "Manu Thoreau",
+          "Filippo Geluck"
+        ],
+        "réponse": "Girolamo di Warzee",
+        "anecdote": "Jérôme de Warzée scrive una rubrica quotidiana sul canale radiofonico VivaCité e fa frequenti apparizioni alla televisione belga."
+      },
+      {
+        "id": 4,
+        "question": "Quale comico belga è meglio conosciuto per il suo Stuuût ?",
+        "propositions": [
+          "André Valardy",
+          "Marco Herman",
+          "Manu Thoreau",
+          "Stephane Steeman"
+        ],
+        "réponse": "Marco Herman",
+        "anecdote": "Dal 1997 Marc Herman usa il nome di Luc Dierrieckx nei suoi sketch, adottando un fortissimo accento fiammingo per i suoi spettacoli."
+      },
+      {
+        "id": 5,
+        "question": "Chi è meglio conosciuto per essere l'autore della serie di fumetti « Le Chat » ?",
+        "propositions": [
+          "Alberto Cognet",
+          "Francois Damiens",
+          "Filippo Geluck",
+          "Stephane De Groodt"
+        ],
+        "réponse": "Filippo Geluck",
+        "anecdote": "Il gatto è apparso per la prima volta in assoluto nel 1980 sulle partecipazioni di nozze del suo autore, in compagnia della moglie del gatto."
+      },
+      {
+        "id": 6,
+        "question": "Quale comico belga è il membro più famoso del gruppo Sttellla ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Marco Moulin",
+          "Manu Thoreau",
+          "André Valardy"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "È il contratto con l'etichetta francese Boucherie Productions che renderà Sttellla una scommessa sicura per i festival con 500 concerti offerti."
+      },
+      {
+        "id": 7,
+        "question": "Quale famoso comico è nato con un piede in Belgio e uno in Francia ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Stephane Steeman",
+          "Raymond Devos",
+          "Marco Herman"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "La Fondazione Raymond Devos ha ricostruito l'universo dell'artista nella sua casa di Saint-Rémy-lès-Chevreuse, situata nelle Yvelines."
+      },
+      {
+        "id": 8,
+        "question": "Quale comico ha generato un momento cult con Nabilla su Canal  in « Le Supplément » ?",
+        "propositions": [
+          "Stephane De Groodt",
+          "Alberto Cognet",
+          "Francois Renard",
+          "Frederic Jannin"
+        ],
+        "réponse": "Stephane De Groodt",
+        "anecdote": "Il suo umorismo assurdo e molto letterario, così come il ritmo frenetico dei suoi giochi di parole, lo avvicinano a Ramond Devos o Pierre Repp."
+      },
+      {
+        "id": 9,
+        "question": "Quale comico ospita la sequenza « Votez pour moi » su Bel RTL ?",
+        "propositions": [
+          "Francois Pirette",
+          "Riccardo Ruben",
+          "Alex Vizorek",
+          "André Lamy"
+        ],
+        "réponse": "André Lamy",
+        "anecdote": "Nel 1987 André Lamy andrà a Parigi e sarà notato dai fratelli Hubert, produttori di Thierry Le Luron, scomparso l'anno precedente."
+      },
+      {
+        "id": 10,
+        "question": "Chi ha costruito un seguito molto fedele grazie a Gonzague, il BCBG belga ?",
+        "propositions": [
+          "Alberto Cognet",
+          "Patrick Allen",
+          "Riccardo Ruben",
+          "Dan Gagnon"
+        ],
+        "réponse": "Riccardo Ruben",
+        "anecdote": "Richard Ruben è il primo umorista belga ad aver riempito il tempio belga del rock nel 1995, ovvero il palcoscenico di Forest National."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale umorista belga ha avuto una ricca collezione su Hergé ?",
+        "propositions": [
+          "André Lamy",
+          "Stephane Steeman",
+          "Marco Herman",
+          "André Valardy"
+        ],
+        "réponse": "Stephane Steeman",
+        "anecdote": "Stéphane Steeman sarà anche uno degli iniziatori della mostra « Tout Hergé » che si è tenuta nell'estate del 1991 a Welkenraedt."
+      },
+      {
+        "id": 12,
+        "question": "Chi ha presentato lo spettacolo personale « Qui a dit faible  ? » scritto con Patrick Ridremont ?",
+        "propositions": [
+          "Sandra Zidani",
+          "Virginie Hocq",
+          "Laurence Bibot",
+          "Veronica Gallo"
+        ],
+        "réponse": "Virginie Hocq",
+        "anecdote": "Nel 2015 è anche nei crediti della nuova serie TF1 « Presque Parfaite » con Claudia Tagbo e Arié Elmaleh."
+      },
+      {
+        "id": 13,
+        "question": "Chi ha interpretato Claudy Focan nel 2006 nel film cult « Dikkenek » ?",
+        "propositions": [
+          "Frederic Jannin",
+          "Francois Damiens",
+          "Dan Gagnon",
+          "Marco Moulin"
+        ],
+        "réponse": "Francois Damiens",
+        "anecdote": "Molto popolare in Belgio, ha dovuto interrompere le riprese con le sue telecamere nascoste nel 2004, poiché non poteva più suonare senza essere riconosciuto."
+      },
+      {
+        "id": 14,
+        "question": "Chi ha incarnato uno stupido falso giornalista con un accento di Liegi dotato di cuffia ?",
+        "propositions": [
+          "André Valardy",
+          "Bruno Coppens",
+          "Marco Herman",
+          "Alberto Cognet"
+        ],
+        "réponse": "Alberto Cognet",
+        "anecdote": "Nato ad Ans il 4 agosto 1952, Alain Soreil è fratello di Philippe Soreil, presentatore di RTBF, e figlio di Paul Soreil, romanista."
+      },
+      {
+        "id": 15,
+        "question": "Quale umorista belga ha interpretato Miss Bricola con Les Snuls ?",
+        "propositions": [
+          "Sandra Zidani",
+          "Veronica Gallo",
+          "Virginie Hocq",
+          "Laurence Bibot"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Sposata con la cantante Marka, Laurence Bibot è anche madre del rapper Roméo Elvis e della cantante Angèle."
+      },
+      {
+        "id": 16,
+        "question": "Quale belga nato a Frameries ha creato « Il diavolo è una brava bambina » ?",
+        "propositions": [
+          "Virginie Hocq",
+          "Julie Viller",
+          "Chiaro Jaz",
+          "Laura Laune"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "Sarà premiata più volte nei festival dell'umorismo e da allora in poi farà la prima parte dello spettacolo di Jeff Panacloc."
+      },
+      {
+        "id": 17,
+        "question": "Quale tuttofare belga ha creato il gruppo musicale Telex a seguito di una bufala ?",
+        "propositions": [
+          "Marco Herman",
+          "Manu Thoreau",
+          "Marco Moulin",
+          "Jean-Luc Fonck"
+        ],
+        "réponse": "Marco Moulin",
+        "anecdote": "Pierre Kroll, che ha illustrato i suoi stati d'animo in « Télémoustique », dirà sulla morte di Marc Moulin : « È insostituibile »."
+      },
+      {
+        "id": 18,
+        "question": "Quale belga è stato soprannominato l'uomo di gomma o l'uomo camaleonte ?",
+        "propositions": [
+          "Patrick Allen",
+          "André Valardy",
+          "Francois Renard",
+          "Bruno Coppens"
+        ],
+        "réponse": "André Valardy",
+        "anecdote": "L'uomo camaleontico potrebbe accampare sia una sbiadita Scarlett O'Hara, una suora isterica o l'incredibile Hulk."
+      },
+      {
+        "id": 19,
+        "question": "Quale comico è l'ideatore della serie « Mother's Life » su YouTube e Téva ?",
+        "propositions": [
+          "Julie Viller",
+          "Chiaro Jaz",
+          "Sandra Zidani",
+          "Veronica Gallo"
+        ],
+        "réponse": "Veronica Gallo",
+        "anecdote": "Youtuber, umorista e scrittrice, gli spettacoli di Véronique Gallo sono costruiti attorno a donne, coppie e famiglie."
+      },
+      {
+        "id": 20,
+        "question": "Quale comico belga ha interpretato il tenente Martine in « Commissaire Valence » ?",
+        "propositions": [
+          "Laura Laune",
+          "Veronica Gallo",
+          "Chiaro Jaz",
+          "Sandra Zidani"
+        ],
+        "réponse": "Chiaro Jaz",
+        "anecdote": "Dal 2010, Claire Jaz ha co-scritto e diretto gli sketch di Florent Peyre nello show « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale comico belga ha commentato le partite di calcio su Bel RTL ?",
+        "propositions": [
+          "Marco Herman",
+          "Riccardo Ruben",
+          "Francois Pirette",
+          "Alex Vizorek"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "Nel 2018, con Charline Vanhoenacker e Guillaume Meurice, Alex Vizorek ha presentato domanda per la presidenza di Radio France."
+      },
+      {
+        "id": 22,
+        "question": "Quale belga ha composto gli ultimi titoli di coda del « gioco Dizionari » ?",
+        "propositions": [
+          "Frederic Jannin",
+          "Alberto Cognet",
+          "Jean-Luc Fonck",
+          "Filippo Geluck"
+        ],
+        "réponse": "Frederic Jannin",
+        "anecdote": "Frédéric Jannin produce serie televisive come « I love opening your eyes », « Froud and Stouf » e « Twin flicks »."
+      },
+      {
+        "id": 23,
+        "question": "Chi ha interpretato Mr Virgule nello spettacolo « Ici-Bla-Bla » su RTBF ?",
+        "propositions": [
+          "Elliot Jenicot",
+          "Bruno Coppens",
+          "Serge Honorez",
+          "Patrick Allen"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens è stato editorialista del programma « Le Fou du roi » su France Inter e del programma « Les Dicodeurs » in Svizzera."
+      },
+      {
+        "id": 24,
+        "question": "Chi incarna Francis Joskin, chitarrista del gruppo umoristico Gauff 'au Suc' ?",
+        "propositions": [
+          "Francois Renard",
+          "Manu Thoreau",
+          "Patrick Allen",
+          "André Valardy"
+        ],
+        "réponse": "Patrick Allen",
+        "anecdote": "Dal 2008 produce, grazie alla sua casa di produzione Alien Production, « Tu l'as pas volée », una serie di sketch umoristici."
+      },
+      {
+        "id": 25,
+        "question": "Quale comico di Liegi ha Popol come il suo personaggio più noto ?",
+        "propositions": [
+          "Gaston Bergmans",
+          "Francois Renard",
+          "Frank Bruynbroek",
+          "Didier Boclinville"
+        ],
+        "réponse": "Francois Renard",
+        "anecdote": "François Renard ha condotto un programma radiofonico settimanale su RTB, « Popol et tante Titine » con Henriette Brenu al suo fianco."
+      },
+      {
+        "id": 26,
+        "question": "Chi ha creato la serie web « Almost Normal » sulla sua vita quasi reale ?",
+        "propositions": [
+          "Martin Charlier",
+          "Dan Gagnon",
+          "Patrick Chaboud",
+          "Giuseppe Collard"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "Nel 2017 Dan Gagnon ha presentato « Rose », il suo quarto spettacolo, con il quale ha riempito diverse sale in Vallonia e Bruxelles."
+      },
+      {
+        "id": 27,
+        "question": "Quale comico ha già realizzato più di 250 spot ?",
+        "propositions": [
+          "Cedric Gervy",
+          "Michael Dufour",
+          "Serge Honorez",
+          "Giacomo Deano"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Anche Serge Honorez è entrato a far parte regolarmente della squadra de « La Télévision infernale » dalla stagione 2005-2006."
+      },
+      {
+        "id": 28,
+        "question": "Quale umorista belga è sponsor di Amnesty International dal 2004 ?",
+        "propositions": [
+          "Sandra Zidani",
+          "Chiaro Jaz",
+          "Simone Massimo",
+          "Sarah Grosjean"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "Per sandra Zidani, molto segnata da Coluche e dai Restos du Coeur, il confine tra comico e umanista è molto stretto."
+      },
+      {
+        "id": 29,
+        "question": "Quale umorista belga è diventato residente della Comédie-Française nel 2011 ?",
+        "propositions": [
+          "Renaud Rutten",
+          "Guillermo Guiz",
+          "Bert Kruisman",
+          "Elliot Jenicot"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot ha seguito corsi di clown e ha preso parte a seminari di mimo con Fujio Ishimura e Joseph Collard in Belgio."
+      },
+      {
+        "id": 30,
+        "question": "Quale comico belga ha recitato nel film di Danièle Thompson, « Il codice è cambiato » ?",
+        "propositions": [
+          "Veronica Gallo",
+          "Laura Laune",
+          "Sandra Zidani",
+          "Julie Viller"
+        ],
+        "réponse": "Julie Viller",
+        "anecdote": "Nel 2009 ha scritto il suo primo spettacolo personale, « Pommée(s) », dove si è esibita su palchi aperti a Parigi e in Belgio."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie heeft Amédée beroemd gemaakt, de tachtigjarige die in een bejaardentehuis woont ?",
+        "propositions": [
+          "Mark Herman",
+          "François Damiens",
+          "François Pirette",
+          "Richard Ruben"
+        ],
+        "réponse": "François Pirette",
+        "anecdote": "De voorstellingen van François Pirette nemen de vorm aan van schetsen waarin zijn personages de Belgische samenleving verbeelden."
+      },
+      {
+        "id": 2,
+        "question": "Welke komiek stond bekend om zijn rol als commandant in « Faux contact » ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Frederic Jannin",
+          "Manu Thoreau",
+          "Jerome de Warzee"
+        ],
+        "réponse": "Manu Thoreau",
+        "anecdote": "Komiek Manu Thoreau stierf per ongeluk op 9 maart 2000 in Ibiza, Spanje, na een val van een klif."
+      },
+      {
+        "id": 3,
+        "question": "Welke komiek presenteert « Le Grand Cactus » naast Adrien Devyver ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Jerome de Warzee",
+          "Manu Thoreau",
+          "Philip Geluck"
+        ],
+        "réponse": "Jerome de Warzee",
+        "anecdote": "Jérôme de Warzée schrijft dagelijks een column op de radiozender VivaCité en verschijnt regelmatig op de Belgische televisie."
+      },
+      {
+        "id": 4,
+        "question": "Welke Belgische komiek is vooral bekend van zijn Stuuût ?",
+        "propositions": [
+          "Stephane Steeman",
+          "Mark Herman",
+          "Manu Thoreau",
+          "André Valardy"
+        ],
+        "réponse": "Mark Herman",
+        "anecdote": "Sinds 1997 gebruikt Marc Herman de naam van Luc Dierrieckx in zijn schetsen, met een zeer sterk Vlaams accent voor zijn shows."
+      },
+      {
+        "id": 5,
+        "question": "Wie is vooral bekend als de auteur van de stripreeks « Le Chat » ?",
+        "propositions": [
+          "Stephane De Groodt",
+          "Albert Cognet",
+          "Philip Geluck",
+          "François Damiens"
+        ],
+        "réponse": "Philip Geluck",
+        "anecdote": "De kat verscheen voor het eerst in 1980 op de huwelijksuitnodigingen van de auteur, in het gezelschap van de vrouw van de kat."
+      },
+      {
+        "id": 6,
+        "question": "Welke Belgische komiek is het bekendste lid van de groep Sttellla ?",
+        "propositions": [
+          "Jean-Luc Fonck",
+          "Manu Thoreau",
+          "Mark Moulin",
+          "André Valardy"
+        ],
+        "réponse": "Jean-Luc Fonck",
+        "anecdote": "Het is het contract met het Franse label Boucherie Productions dat van Sttellla een veilige gok maakt voor festivals met 500 concerten."
+      },
+      {
+        "id": 7,
+        "question": "Welke beroemde komiek werd geboren met één voet in België en één voet in Frankrijk ?",
+        "propositions": [
+          "Alex Vizorek",
+          "Stephane Steeman",
+          "Mark Herman",
+          "Raymond Devos"
+        ],
+        "réponse": "Raymond Devos",
+        "anecdote": "De Stichting Raymond Devos heeft het universum van de kunstenaar gereconstrueerd in zijn huis in Saint-Rémy-lès-Chevreuse, gelegen in de Yvelines."
+      },
+      {
+        "id": 8,
+        "question": "Welke komiek zorgde voor een cultmoment met Nabilla op Canal  in « Le Supplément » ?",
+        "propositions": [
+          "Stephane De Groodt",
+          "Albert Cognet",
+          "Frederic Jannin",
+          "François Renard"
+        ],
+        "réponse": "Stephane De Groodt",
+        "anecdote": "Zijn absurde en zeer literaire humor en het razende tempo van zijn woordspelingen brengen hem dichter bij Ramond Devos of Pierre Repp."
+      },
+      {
+        "id": 9,
+        "question": "Welke komiek presenteert de reeks « Votez pour moi » op Bel RTL ?",
+        "propositions": [
+          "François Pirette",
+          "André Lamy",
+          "Alex Vizorek",
+          "Richard Ruben"
+        ],
+        "réponse": "André Lamy",
+        "anecdote": "In 1987 gaat André Lamy naar Parijs en wordt daar gespot door de gebroeders Hubert, de producenten van Thierry Le Luron, die het jaar daarvoor stierf."
+      },
+      {
+        "id": 10,
+        "question": "Wie heeft er dankzij Gonzague, de Belgische BCBG, een zeer trouwe aanhang opgebouwd ?",
+        "propositions": [
+          "Patrick Allen",
+          "Dan Gagnon",
+          "Albert Cognet",
+          "Richard Ruben"
+        ],
+        "réponse": "Richard Ruben",
+        "anecdote": "Richard Ruben is de eerste Belgische humorist die in 1995 de Belgische rocktempel heeft gevuld, namelijk het podium van Vorst Nationaal."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Belgische humorist had een zeer rijke collectie over Hergé ?",
+        "propositions": [
+          "André Lamy",
+          "Stephane Steeman",
+          "Mark Herman",
+          "André Valardy"
+        ],
+        "réponse": "Stephane Steeman",
+        "anecdote": "Stéphane Steeman is ook een van de initiatiefnemers van de tentoonstelling « Tout Hergé » die in de zomer van 1991 in Welkenraedt werd gehouden."
+      },
+      {
+        "id": 12,
+        "question": "Wie presenteerde de one-woman-show « Qui a dit faible  ? » geschreven met Patrick Ridremont ?",
+        "propositions": [
+          "Virginie Hocq",
+          "Laurence Bibot",
+          "Véronique Gallo",
+          "Sandra Zidani"
+        ],
+        "réponse": "Virginie Hocq",
+        "anecdote": "In 2015 staat ze ook in de aftiteling van de nieuwe TF1-serie « Presque Parfaite » met Claudia Tagbo en Arié Elmaleh."
+      },
+      {
+        "id": 13,
+        "question": "Wie speelde Claudy Focan in 2006 in de cultfilm « Dikkenek » ?",
+        "propositions": [
+          "Mark Moulin",
+          "Frederic Jannin",
+          "Dan Gagnon",
+          "François Damiens"
+        ],
+        "réponse": "François Damiens",
+        "anecdote": "Hij was erg populair in België en moest in 2004 stoppen met filmen met zijn verborgen camera's, omdat hij niet meer kon spelen zonder herkend te worden."
+      },
+      {
+        "id": 14,
+        "question": "Wie belichaamde een domme nepreporter met een Luiks accent uitgerust met een headset ?",
+        "propositions": [
+          "André Valardy",
+          "Albert Cognet",
+          "Mark Herman",
+          "Bruno Coppens"
+        ],
+        "réponse": "Albert Cognet",
+        "anecdote": "Alain Soreil, geboren in Ans op 4 augustus 1952, is de broer van Philippe Soreil, presentator van de RTBF, en de zoon van Paul Soreil, Romanist."
+      },
+      {
+        "id": 15,
+        "question": "Welke Belgische humorist speelde Miss Bricola met Les Snuls ?",
+        "propositions": [
+          "Véronique Gallo",
+          "Laurence Bibot",
+          "Virginie Hocq",
+          "Sandra Zidani"
+        ],
+        "réponse": "Laurence Bibot",
+        "anecdote": "Laurence Bibot, getrouwd met zanger Marka, is ook de moeder van rapper Roméo Elvis en zangeres Angèle."
+      },
+      {
+        "id": 16,
+        "question": "Welke Belg geboren in Frameries creëerde « The Devil is a Nice Little Girl » ?",
+        "propositions": [
+          "Laura Laune",
+          "Julie Villers",
+          "Virginie Hocq",
+          "Clear Jaz"
+        ],
+        "réponse": "Laura Laune",
+        "anecdote": "Ze zal verschillende keren worden beloond op festivals van humor en daarna zal ze het eerste deel van het spektakel van Jeff Panacloc maken."
+      },
+      {
+        "id": 17,
+        "question": "Welke Belgische manusje-van-alles creëerde de muziekgroep Telex na een hoax ?",
+        "propositions": [
+          "Manu Thoreau",
+          "Mark Moulin",
+          "Jean-Luc Fonck",
+          "Mark Herman"
+        ],
+        "réponse": "Mark Moulin",
+        "anecdote": "Pierre Kroll, die zijn stemmingen illustreerde in « Télémoustique », zal over de dood van Marc Moulin zeggen : « Hij is onvervangbaar »."
+      },
+      {
+        "id": 18,
+        "question": "Welke Belg kreeg de bijnaam de rubberman of de kameleonman ?",
+        "propositions": [
+          "Bruno Coppens",
+          "François Renard",
+          "André Valardy",
+          "Patrick Allen"
+        ],
+        "réponse": "André Valardy",
+        "anecdote": "De kameleonman kon kamperen met zowel een vervaagde Scarlett O'Hara, een hysterische non als de Incredible Hulk."
+      },
+      {
+        "id": 19,
+        "question": "Welke komiek is de maker van de serie « Mother's Life » op YouTube en op Téva ?",
+        "propositions": [
+          "Julie Villers",
+          "Clear Jaz",
+          "Véronique Gallo",
+          "Sandra Zidani"
+        ],
+        "réponse": "Véronique Gallo",
+        "anecdote": "Youtuber, humorist en schrijver, de shows van Véronique Gallo zijn opgebouwd rond vrouwen, koppels en gezinnen."
+      },
+      {
+        "id": 20,
+        "question": "Welke Belgische komiek speelde luitenant Martine in « Commissaire Valence » ?",
+        "propositions": [
+          "Clear Jaz",
+          "Véronique Gallo",
+          "Laura Laune",
+          "Sandra Zidani"
+        ],
+        "réponse": "Clear Jaz",
+        "anecdote": "Sinds 2010 schrijft en regisseert Claire Jaz de sketches van Florent Peyre voor de show « On ne demande qu'à en rire »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke Belgische komiek gaf commentaar op voetbalwedstrijden op Bel RTL ?",
+        "propositions": [
+          "Mark Herman",
+          "Alex Vizorek",
+          "Richard Ruben",
+          "François Pirette"
+        ],
+        "réponse": "Alex Vizorek",
+        "anecdote": "In 2018 solliciteerde Alex Vizorek, samen met Charline Vanhoenacker en Guillaume Meurice, voor het voorzitterschap van Radio France."
+      },
+      {
+        "id": 22,
+        "question": "Welke Belg schreef de laatste aftiteling van het spel « Woordenboeken » ?",
+        "propositions": [
+          "Frederic Jannin",
+          "Philip Geluck",
+          "Albert Cognet",
+          "Jean-Luc Fonck"
+        ],
+        "réponse": "Frederic Jannin",
+        "anecdote": "Frédéric Jannin maakt televisieseries als « I love opening your eyes so much », « Froud and Stouf » en « Twin flicks »."
+      },
+      {
+        "id": 23,
+        "question": "Wie speelde Mr Virgule in de show « Ici-Bla-Bla » op RTBF ?",
+        "propositions": [
+          "Bruno Coppens",
+          "Elliot Jenicot",
+          "Serge Honorez",
+          "Patrick Allen"
+        ],
+        "réponse": "Bruno Coppens",
+        "anecdote": "Bruno Coppens was columnist voor het programma « Le Fou du roi » op France Inter en voor het programma « Les Dicodeurs » in Zwitserland."
+      },
+      {
+        "id": 24,
+        "question": "Wie belichaamt Francis Joskin, gitarist van de humoristische groep Gauff 'au Suc' ?",
+        "propositions": [
+          "André Valardy",
+          "Patrick Allen",
+          "Manu Thoreau",
+          "François Renard"
+        ],
+        "réponse": "Patrick Allen",
+        "anecdote": "Sinds 2008 maakt hij, dankzij zijn productiebedrijf Alien Production, « Tu l'as pas volée », een serie humoristische sketches."
+      },
+      {
+        "id": 25,
+        "question": "Welke Luikse komiek heeft Popol als zijn bekendste personage ?",
+        "propositions": [
+          "Frank Bruynbroek",
+          "Didier Boclinville",
+          "François Renard",
+          "Gaston Bergmans"
+        ],
+        "réponse": "François Renard",
+        "anecdote": "François Renard presenteerde een wekelijks radioprogramma op RTB, « Popol et tante Titine » met Henriette Brenu aan zijn zijde."
+      },
+      {
+        "id": 26,
+        "question": "Wie heeft de webserie « Bijna Normaal » gemaakt over zijn bijna echte leven ?",
+        "propositions": [
+          "Dan Gagnon",
+          "Joseph Collard",
+          "Martin Charlier",
+          "Patrick Chaboud"
+        ],
+        "réponse": "Dan Gagnon",
+        "anecdote": "In 2017 presenteerde Dan Gagnon « Rose », zijn vierde show, waarmee hij verschillende zalen in Wallonië en Brussel vulde."
+      },
+      {
+        "id": 27,
+        "question": "Welke komiek heeft al meer dan 250 commercials gemaakt ?",
+        "propositions": [
+          "Michael Dufour",
+          "Cedric Gervy",
+          "Serge Honorez",
+          "James Deano"
+        ],
+        "réponse": "Serge Honorez",
+        "anecdote": "Serge Honorez voegde zich vanaf het seizoen 2005-2006 ook regelmatig bij het team van « La Télévision infernale »."
+      },
+      {
+        "id": 28,
+        "question": "Welke Belgische humorist is sinds 2004 sponsor van Amnesty International ?",
+        "propositions": [
+          "Sarah Grosjean",
+          "Sandra Zidani",
+          "Simone Max",
+          "Clear Jaz"
+        ],
+        "réponse": "Sandra Zidani",
+        "anecdote": "Voor Sandra Zidani, zeer gemarkeerd door Coluche en de Restos du Coeur, is de grens tussen komiek en humanist heel dichtbij."
+      },
+      {
+        "id": 29,
+        "question": "Welke Belgische humorist werd in 2011 inwoner van de Comédie-Française ?",
+        "propositions": [
+          "Bert Kruismans",
+          "Renaud Rutten",
+          "Guillermo Guiz",
+          "Elliot Jenicot"
+        ],
+        "réponse": "Elliot Jenicot",
+        "anecdote": "Elliot Jenicot volgde cursussen clowns en nam deel aan mime-workshops bij Fujio Ishimura en Joseph Collard in België."
+      },
+      {
+        "id": 30,
+        "question": "Welke Belgische komiek speelde in de film van Danièle Thompson, « De code is veranderd » ?",
+        "propositions": [
+          "Sandra Zidani",
+          "Véronique Gallo",
+          "Laura Laune",
+          "Julie Villers"
+        ],
+        "réponse": "Julie Villers",
+        "anecdote": "In 2009 schreef ze haar eerste one-woman-show, « Pommée(s) », waar ze optrad op open podia in Parijs en België."
+      }
+    ]
+    }
+  }
+}

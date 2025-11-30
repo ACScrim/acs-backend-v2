@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2023-06-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Informatique",
+      "nom": "Linux",
+      "slogan": "Non, ce n'est pas un pingouin"
+    },
+    "en": {
+      "catégorie": "Computer science",
+      "nom": "Linux",
+      "slogan": "No, it's not a penguin"
+    },
+    "es": {
+      "catégorie": "Ciencias de la Computación",
+      "nom": "Linux",
+      "slogan": "No, no es un pingüino"
+    },
+    "it": {
+      "catégorie": "Informatica",
+      "nom": "Linux",
+      "slogan": "No, non è un pinguino"
+    },
+    "de": {
+      "catégorie": "Informatik",
+      "nom": "Linux",
+      "slogan": "Nein, es ist kein Pinguin"
+    },
+    "nl": {
+      "catégorie": "Computertechnologie",
+      "nom": "Linux",
+      "slogan": "Nee, het is geen pinguïn"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel programmeur a créé et continue de diriger le développement du noyau de Linux ?",
+        "propositions": [
+          "Linus Torvalds",
+          "Steeve Jobs",
+          "Bill Gates",
+          "Larry Ellison"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds a découvert l'informatique vers l'âge de 11 ans grâce à l'ordinateur de son grand-père, un Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "Quel est le principal atout de Linux, développé et maintenu par Linus Torvalds ?",
+        "propositions": [
+          "Il est libre",
+          "Il est amusant",
+          "Il est Finlandais",
+          "Il est beau"
+        ],
+        "réponse": "Il est libre",
+        "anecdote": "« Linux » est le nom couramment donné à tout système d'exploitation libre fonctionnant avec le noyau Linux."
+      },
+      {
+        "id": 3,
+        "question": "Quel animal représentant Linux est aussi la mascotte de l'université d'Helsinki ?",
+        "propositions": [
+          "Manchot",
+          "Caribou",
+          "Gnou",
+          "Marmotte"
+        ],
+        "réponse": "Manchot",
+        "anecdote": "Dessiné en 1996, l'usage de ce manchot est libre et se retrouve dans de très nombreux projets et logotypes liés à Linux."
+      },
+      {
+        "id": 4,
+        "question": "Quelle commande Linux, basée sur la commande UNIX, permet d'effacer un fichier ?",
+        "propositions": [
+          "Rem",
+          "Del",
+          "Delete",
+          "Rm"
+        ],
+        "réponse": "Rm",
+        "anecdote": "De par la filiation avec UNIX, la ligne de commande est toujours disponible dans GNU/Linux, quelle que soit la distribution."
+      },
+      {
+        "id": 5,
+        "question": "Laquelle de ces propositions désigne une distribution Linux fondée en 1993 ?",
+        "propositions": [
+          "Mandrika",
+          "Red Hat",
+          "Souze",
+          "Zubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "Red Hat est l'une des entreprises dédiées aux logiciels Open Source les plus importantes et les plus reconnues."
+      },
+      {
+        "id": 6,
+        "question": "Quel système d'exploitation mobile majeur de l'industrie s'appuie sur un noyau Linux ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "BlackBerry 10",
+          "Windows Phone"
+        ],
+        "réponse": "Android",
+        "anecdote": "En 2015, Android était le système d'exploitation le plus utilisé dans le monde avec plus de 80 % de parts de marché."
+      },
+      {
+        "id": 7,
+        "question": "Sous Linux, comment appelle-t-on les logiciels assemblés autour du noyau ?",
+        "propositions": [
+          "Logithèque",
+          "Intégré",
+          "Distribution",
+          "Progiciel"
+        ],
+        "réponse": "Distribution",
+        "anecdote": "Il existe une très grande variété de distributions, ayant chacune des objectifs et une philosophie particulière."
+      },
+      {
+        "id": 8,
+        "question": "Quel serveur web présent sous Linux est aussi présent sur les serveurs du monde entier ?",
+        "propositions": [
+          "Comanche",
+          "Mohican",
+          "Apache",
+          "Sioux"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Depuis avril 1996, selon l'étude permanente de Netcraft, Apache est devenu le serveur HTTP le plus répandu sur Internet."
+      },
+      {
+        "id": 9,
+        "question": "Quel est le nom de la mascotte de Linux, connue des mordus du système ?",
+        "propositions": [
+          "Wilber",
+          "Tux",
+          "Puffy",
+          "Gnu"
+        ],
+        "réponse": "Tux",
+        "anecdote": "Le dessin du personnage a été choisi à l'issue d'un concours organisé en 1996, remporté par Larry Ewing."
+      },
+      {
+        "id": 10,
+        "question": "Parmi ces commandes Linux, laquelle affiche à l'écran le contenu d'un fichier texte ?",
+        "propositions": [
+          "Type",
+          "Cat",
+          "Man",
+          "Ls"
+        ],
+        "réponse": "Cat",
+        "anecdote": "La différence essentielle de Linux par rapport à d'autres systèmes d'exploitation concurrents est d'être un système d'exploitation libre."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "En quelle année Linus Torvalds a-t-il livré la première version du noyau Linux ?",
+        "propositions": [
+          "1995",
+          "1993",
+          "1997",
+          "1991"
+        ],
+        "réponse": "1991",
+        "anecdote": "En 1991, les compatibles PC dominent le marché des ordinateurs personnels et fonctionnent généralement sous MS-DOS ou Windows."
+      },
+      {
+        "id": 12,
+        "question": "Quel ancien mot bantou désigne une célèbre distribution Linux ?",
+        "propositions": [
+          "Ubuntu",
+          "Uhura",
+          "Ursula",
+          "Umbro"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "Le nom de la distribution provient d'un ancien mot bantou qui signifie « Je suis ce que je suis grâce à ce que nous sommes tous »."
+      },
+      {
+        "id": 13,
+        "question": "Quel navigateur web et gestionnaire de fichiers est utilisé par défaut pour KDE ?",
+        "propositions": [
+          "Konqueror",
+          "Firefox",
+          "Netscape",
+          "Chrome"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror peut également afficher le contenu d'un serveur FTP, permettre de parcourir le réseau local et de visualiser des fichiers."
+      },
+      {
+        "id": 14,
+        "question": "Quel nom porte la distribution française de Linux, simple à installer et à utiliser ?",
+        "propositions": [
+          "Slackware",
+          "Mandriva",
+          "Debian",
+          "SUSE"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Ciblant à la fois le grand public et les professionnels, cette distribution GNU/Linux est construite autour de KDE."
+      },
+      {
+        "id": 15,
+        "question": "Quel type de fichiers est pris en compte par le gestionnaire de paquets intégré à Ubuntu ?",
+        "propositions": [
+          ".rpm",
+          ".rss",
+          ".dev",
+          ".deb"
+        ],
+        "réponse": ".deb",
+        "anecdote": "Par défaut, Ubuntu est installé avec une pluralité de logiciels libres tels que LibreOffice, Firefox, Thunderbird et Transmission."
+      },
+      {
+        "id": 16,
+        "question": "Sous Linux, quelle commande est utilisée pour créer un compte utilisateur ?",
+        "propositions": [
+          "Adduser",
+          "Passwd",
+          "Mkaccount",
+          "Useradd"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Grâce à sa ligne de commande, scientifiques, ingénieurs et développeurs comptent parmi ses plus fréquents utilisateurs."
+      },
+      {
+        "id": 17,
+        "question": "De quel projet sont tirés les outils gravitant autour de Linux ?",
+        "propositions": [
+          "BSD",
+          "iOS",
+          "Mimix",
+          "GNU"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU est un projet de système d'exploitation libre lancé en 1983 par Richard Stallman, puis maintenu par le projet GNU."
+      },
+      {
+        "id": 18,
+        "question": "De quelle distribution Linux est dérivé le système d'exploitation Ubuntu ?",
+        "propositions": [
+          "Slackware",
+          "Fedora",
+          "Debian",
+          "Red Hat"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Ancien développeur Debian, Mark Shuttleworth souhaitait proposer une version plus facile d'accès pour les novices."
+      },
+      {
+        "id": 19,
+        "question": "Quelle est la plus ancienne distribution Linux encore maintenue à ce jour ?",
+        "propositions": [
+          "Ubuntu",
+          "Red Hat",
+          "Slackware",
+          "Mandriva"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware est une distribution Linux qui, à la différence d'autres distributions, a longtemps été maintenue par une seule personne."
+      },
+      {
+        "id": 20,
+        "question": "Quel environnement graphique de type fenêtré est utilisé sous Linux ?",
+        "propositions": [
+          "X Color",
+          "X Window",
+          "X Graph",
+          "X Click"
+        ],
+        "réponse": "X Window",
+        "anecdote": "Cet environnement graphique gère l'interaction homme-machine par l'écran, la souris et le clavier de certains ordinateurs en réseau."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel programmeur et militant du logiciel libre a créé le Projet GNU en 1984 ?",
+        "propositions": [
+          "John Neumann",
+          "Alan Cox",
+          "Richard Stallman",
+          "Linus Torvalds"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman consacre la majeure partie de son temps à la promotion du logiciel libre auprès de divers publics et assemblées."
+      },
+      {
+        "id": 22,
+        "question": "Quel lecteur multimédia ressemblant à « Winamp » est utilisé sous Linux ?",
+        "propositions": [
+          "Xmind",
+          "XAMPP",
+          "XMMS",
+          "XnView"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS fut codé sous le nom de « X11Amp » par Peter et Mikal Alm en novembre 1997, pour combler un manque sous GNU/Linux."
+      },
+      {
+        "id": 23,
+        "question": "Quelle société financée par le sud-africain Mark Shuttleworth commandite Ubuntu ?",
+        "propositions": [
+          "Panasonic",
+          "Nikon",
+          "Canonical",
+          "Pentax"
+        ],
+        "réponse": "Canonical",
+        "anecdote": "La société Canonical, basée sur l'Île de Man, a été créée en 2004 et opère dans 30 pays différents, employant 500 personnes."
+      },
+      {
+        "id": 24,
+        "question": "Avec quel acteur du monde Linux la société Microsoft a-t-elle signé un important accord ?",
+        "propositions": [
+          "Mandriva",
+          "Red Hat",
+          "Ubuntu",
+          "SUSE"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "Apparue au début de l'année 1994, SUSE est en effet la plus ancienne distribution commerciale encore existante."
+      },
+      {
+        "id": 25,
+        "question": "La station spatiale internationale a abandonné Windows au profit de quelle distribution ?",
+        "propositions": [
+          "Debian",
+          "SUSE",
+          "Red Hat",
+          "Ubuntu"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian est utilisée comme base de nombreuses autres distributions telles que Knoppix et Ubuntu, qui rencontrent un grand succès."
+      },
+      {
+        "id": 26,
+        "question": "Quel pays utilise le plus régulièrement GNU/Linux comme système pour ses bureaux ?",
+        "propositions": [
+          "Finlande",
+          "Kenya",
+          "Cuba",
+          "Venezuela"
+        ],
+        "réponse": "Cuba",
+        "anecdote": "Les deux environnements GNOME et KDE, qui reposent sur des technologies communes, ont atteint une maturité certaine."
+      },
+      {
+        "id": 27,
+        "question": "Quel graphiste a dessiné en 1996 le manchot Tux initial, mascotte du projet Linux ?",
+        "propositions": [
+          "Larry Ewing",
+          "Wes Wilson",
+          "Rob Janoff",
+          "Jeffrey Lynch"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "Programmeur américain, Larry Ewing a réalisé la mascotte Tux avec l'aide du logiciel libre « The GIMP »."
+      },
+      {
+        "id": 28,
+        "question": "Lequel de ces jeux tourne nativement sous GNU/Linux ?",
+        "propositions": [
+          "Super Mario Kart",
+          "Quake III Arena",
+          "Splinter Cell",
+          "Zelda"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "Le jeu développé par ID Software a également été publié sur Macintosh, Dreamcast, PlayStation 2 et sur Xbox Live Arcade."
+      },
+      {
+        "id": 29,
+        "question": "Quelle console de jeu open source possède un système d'exploitation Linux compilé ?",
+        "propositions": [
+          "N-Gage",
+          "Game Gear",
+          "Pandora",
+          "GP32"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "La Pandora était capable à sa sortie de lancer « Quake », « Quake II » et « Quake III » Arena sans ralentissement."
+      },
+      {
+        "id": 30,
+        "question": "Comment fut initialement appelé le projet Linux, devenu par la suite une marque ?",
+        "propositions": [
+          "Freax",
+          "Longhorn",
+          "Serval",
+          "Panther"
+        ],
+        "réponse": "Freax",
+        "anecdote": "Le projet Freax trouve son nom grâce à Ari Lemmke qui héberge le travail de Linus Torvalds dans un répertoire nommé « Linux »."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which programmer created and continues to lead the development of the Linux kernel ?",
+        "propositions": [
+          "Bill Gates",
+          "Larry Ellison",
+          "Linus Torvalds",
+          "Steeve Jobs"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds discovered computers at the age of 11 thanks to his grandfather's computer, a Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "What is the main asset of Linux, developed and maintained by Linus Torvalds ?",
+        "propositions": [
+          "It is fun",
+          "He is beautiful",
+          "He is Finnish",
+          "He is free"
+        ],
+        "réponse": "He is free",
+        "anecdote": "« Linux » is the name commonly given to any free operating system that works with the Linux kernel."
+      },
+      {
+        "id": 3,
+        "question": "Which animal representing Linux is also the mascot of the University of Helsinki ?",
+        "propositions": [
+          "Wildebeest",
+          "Groundhog",
+          "Penguin",
+          "Caribou"
+        ],
+        "réponse": "Penguin",
+        "anecdote": "Designed in 1996, the use of this penguin is free and can be found in many projects and logos related to Linux."
+      },
+      {
+        "id": 4,
+        "question": "Which Linux command, based on the UNIX command, deletes a file ?",
+        "propositions": [
+          "Del",
+          "Rem",
+          "Rm",
+          "Delete"
+        ],
+        "réponse": "Rm",
+        "anecdote": "By descent from UNIX, the command line is always available in GNU / Linux, regardless of the distribution."
+      },
+      {
+        "id": 5,
+        "question": "Which of the following denotes a Linux distribution founded in 1993 ?",
+        "propositions": [
+          "Souze",
+          "Zubuntu",
+          "Mandrika",
+          "Red Hat"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "Red Hat is one of the largest and most recognized open source software companies."
+      },
+      {
+        "id": 6,
+        "question": "Which industry's leading mobile operating system relies on a Linux kernel ?",
+        "propositions": [
+          "BlackBerry 10",
+          "Windows Phone",
+          "iOS",
+          "Android"
+        ],
+        "réponse": "Android",
+        "anecdote": "In 2015, Android was the most widely used operating system in the world with over 80% market share."
+      },
+      {
+        "id": 7,
+        "question": "In Linux, what do you call software assembled around the kernel ?",
+        "propositions": [
+          "Distribution",
+          "Software library",
+          "Integrated",
+          "Software package"
+        ],
+        "réponse": "Distribution",
+        "anecdote": "There is a very wide variety of distributions, each with its own objectives and philosophy."
+      },
+      {
+        "id": 8,
+        "question": "Which web server under Linux is also present on servers all over the world ?",
+        "propositions": [
+          "Comanche",
+          "Apache",
+          "Sioux",
+          "Mohican"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Since April 1996, according to Netcraft's permanent study, Apache has become the most popular HTTP server on the Internet."
+      },
+      {
+        "id": 9,
+        "question": "What is the name of the Linux mascot, known to fans of the operating system ?",
+        "propositions": [
+          "Puffy",
+          "Gnu",
+          "Wilber",
+          "Tux"
+        ],
+        "réponse": "Tux",
+        "anecdote": "The design of the character was chosen after a competition organized in 1996 won by Larry Ewing."
+      },
+      {
+        "id": 10,
+        "question": "Which of these Linux commands displays the contents of a text file on the screen ?",
+        "propositions": [
+          "Man",
+          "Cat",
+          "Type",
+          "Ls"
+        ],
+        "réponse": "Cat",
+        "anecdote": "The main difference between Linux and other competitive operating systems is that it is a free operating system."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In what year did Linus Torvalds ship the first version of the Linux kernel ?",
+        "propositions": [
+          "1997",
+          "1993",
+          "1995",
+          "1991"
+        ],
+        "réponse": "1991",
+        "anecdote": "By 1991, PC compatible dominated the personal computer market and generally operated under MS-DOS or Windows."
+      },
+      {
+        "id": 12,
+        "question": "What ancient Bantu word designates a famous Linux distribution ?",
+        "propositions": [
+          "Gentoo",
+          "Mandriva",
+          "Ubuntu",
+          "Fedora"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "The name of the cast comes from an ancient Bantu word which means « I am what I am because of what we all are »."
+      },
+      {
+        "id": 13,
+        "question": "Which web browser and file manager is used by default for KDE ?",
+        "propositions": [
+          "Chrome",
+          "Netscape",
+          "Firefox",
+          "Konqueror"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror can also display the contents of an FTP server, allow browsing the local network and view files."
+      },
+      {
+        "id": 14,
+        "question": "What is the name of the French distribution of Linux, which is easy to install and use ?",
+        "propositions": [
+          "Debian",
+          "SUSE",
+          "Mandriva",
+          "Slackware"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Targeting both the general public and professionals, this GNU / Linux distribution is built around KDE."
+      },
+      {
+        "id": 15,
+        "question": "What type of files are taken into account by the package manager integrated in Ubuntu ?",
+        "propositions": [
+          ".deb",
+          ".dev",
+          ".rss",
+          ".rpm"
+        ],
+        "réponse": ".deb",
+        "anecdote": "By default, Ubuntu is installed with a variety of free software such as LibreOffice, Firefox, Thunderbird and Transmission."
+      },
+      {
+        "id": 16,
+        "question": "In Linux, which command is used to create a user account ?",
+        "propositions": [
+          "Passwd",
+          "Adduser",
+          "Mkaccount",
+          "Useradd"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Thanks to its command line, scientists, engineers and developers are among its most frequent users."
+      },
+      {
+        "id": 17,
+        "question": "What project are the tools revolving around Linux drawn from ?",
+        "propositions": [
+          "Mimix",
+          "iOS",
+          "GNU",
+          "BSD"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU is a free operating system project started in 1983 by Richard Stallman, and then maintained by the GNU Project."
+      },
+      {
+        "id": 18,
+        "question": "What Linux distribution is the Ubuntu operating system derived from ?",
+        "propositions": [
+          "Slackware",
+          "Red Hat",
+          "Fedora",
+          "Debian"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Former Debian developer Mark Shuttleworth wanted to provide a version that was easier to access for novices."
+      },
+      {
+        "id": 19,
+        "question": "What is the oldest Linux distribution still maintained to this day ?",
+        "propositions": [
+          "Slackware",
+          "Mandriva",
+          "Ubuntu",
+          "Red Hat"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware is a Linux distribution that, unlike other distributions, has long been maintained by one person."
+      },
+      {
+        "id": 20,
+        "question": "Which windowed graphical environment is used in Linux ?",
+        "propositions": [
+          "L Window",
+          "K Window",
+          "Z Window",
+          "X Window"
+        ],
+        "réponse": "X Window",
+        "anecdote": "This graphical environment manages human-machine interaction via the screen, mouse and keyboard of certain networked computers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which programmer and free software activist created the GNU Project in 1984 ?",
+        "propositions": [
+          "Linus Torvalds",
+          "Richard Stallman",
+          "John Neumann",
+          "Alan Cox"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman devotes most of his time to promoting free software to various audiences and assemblies."
+      },
+      {
+        "id": 22,
+        "question": "Which « Winamp »-like media player is often used in Linux ?",
+        "propositions": [
+          "XMMS",
+          "Tomahawk",
+          "Spotify",
+          "Mplayer"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS was originally coded as « X11Amp » by Peter and Mikal Alm in November 1997, to fill a gap in GNU / Linux."
+      },
+      {
+        "id": 23,
+        "question": "Which company funded by South African Mark Shuttleworth is sponsoring Ubuntu ?",
+        "propositions": [
+          "Pentax",
+          "Canonical",
+          "Nikon",
+          "Panasonic"
+        ],
+        "réponse": "Canonical",
+        "anecdote": "Isle of Man-based Canonical was established in 2004 and operates in 30 different countries, employing 500 people."
+      },
+      {
+        "id": 24,
+        "question": "With which player in the Linux world has Microsoft signed a major agreement ?",
+        "propositions": [
+          "SUSE",
+          "Mandriva",
+          "Ubuntu",
+          "Red Hat"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "Appeared at the beginning of 1994, SUSE is in fact the oldest commercial distribution still in existence."
+      },
+      {
+        "id": 25,
+        "question": "The International Space Station has abandoned Windows in favor of which Linux distribution ?",
+        "propositions": [
+          "Ubuntu",
+          "SUSE",
+          "Red Hat",
+          "Debian"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian is used as the basis for many other very successful distributions such as Knoppix and Ubuntu."
+      },
+      {
+        "id": 26,
+        "question": "To date, which country uses GNU / Linux the most regularly as a desktop operating system ?",
+        "propositions": [
+          "Kenya",
+          "Cuba",
+          "Venezuela",
+          "Finland"
+        ],
+        "réponse": "Cuba",
+        "anecdote": "The two environments GNOME and KDE, which are based on common technologies, have reached a certain maturity."
+      },
+      {
+        "id": 27,
+        "question": "Which graphic designer drew in 1996 the initial Tux penguin, mascot of the Linux project ?",
+        "propositions": [
+          "Jeffrey Lynch",
+          "Rob Janoff",
+          "Larry Ewing",
+          "Wes Wilson"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "American programmer Larry Ewing made the Tux mascot with the help of free software « The GIMP »."
+      },
+      {
+        "id": 28,
+        "question": "Which of these games runs natively under GNU / Linux ?",
+        "propositions": [
+          "Splinter Cell",
+          "Quake III Arena",
+          "Super Mario Kart",
+          "Zelda"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "The game developed by ID Software has also been released for Macintosh, Dreamcast, PlayStation 2, and Xbox Live Arcade."
+      },
+      {
+        "id": 29,
+        "question": "Which open source game console has a compiled Linux operating system ?",
+        "propositions": [
+          "Game Gear",
+          "GP32",
+          "Pandora",
+          "N-Gage"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "Pandora was able at release to launch « Quake », « Quake II » and « Quake III » Arena without slowing down."
+      },
+      {
+        "id": 30,
+        "question": "What was the Linux project initially called, which later became a brand ?",
+        "propositions": [
+          "Longhorn",
+          "Serval",
+          "Freax",
+          "Panther"
+        ],
+        "réponse": "Freax",
+        "anecdote": "The Freax project finds its final name thanks to Ari Lemmke who hosts the work of Linus Torvalds in a directory named « Linux »."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Programmierer hat die Entwicklung des Linux-Kernels erstellt und leitet diese weiter ?",
+        "propositions": [
+          "Steeve Jobs",
+          "Larry Ellison",
+          "Bill Gates",
+          "Linus Torvalds"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds entdeckte Computer im Alter von 11 Jahren dank des Computers seines Großvaters, eines Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "Was ist das Hauptargument von Linux, das von Linus Torvalds entwickelt und gewartet wird ?",
+        "propositions": [
+          "Es macht Spaß",
+          "Er ist frei",
+          "Er ist schön ","Il est beau",
+          "Er ist finnisch"
+        ],
+        "réponse": "Er ist frei",
+        "anecdote": "« Linux » ist der Name, der üblicherweise für jedes freie Betriebssystem verwendet wird, das mit dem Linux-Kernel arbeitet."
+      },
+      {
+        "id": 3,
+        "question": "Welches Tier, das Linux repräsentiert, ist auch das Maskottchen der Universität von Helsinki ?",
+        "propositions": [
+          "Karibu",
+          "Gnus",
+          "Pinguin",
+          "Murmeltier"
+        ],
+        "réponse": "Pinguin",
+        "anecdote": "Die Verwendung dieses Pinguins wurde 1996 entwickelt und ist kostenlos. Er ist in vielen Projekten und Logos zu finden, die sich auf Linux beziehen."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Linux-Befehl, der auf dem UNIX-Befehl basiert, löscht eine Datei ?",
+        "propositions": [
+          "Löschen",
+          "Rm",
+          "Rem",
+          "Del"
+        ],
+        "réponse": "Rm",
+        "anecdote": "Beim Abstieg von UNIX ist die Befehlszeile in GNU / Linux unabhängig von der Distribution immer verfügbar."
+      },
+      {
+        "id": 5,
+        "question": "Welche der folgenden Angaben bezeichnet eine 1993 gegründete Linux-Distribution ?",
+        "propositions": [
+          "Roter Hut",
+          "Zubuntu",
+          "Mandrika",
+          "Souze"
+        ],
+        "réponse": "Roter Hut",
+        "anecdote": "Red Hat ist eines der größten und anerkanntesten Open-Source-Softwareunternehmen."
+      },
+      {
+        "id": 6,
+        "question": "Welches branchenweit führende mobile Betriebssystem basiert auf einem Linux-Kernel ?",
+        "propositions": [
+          "BlackBerry 10",
+          "Windows Phone",
+          "iOS",
+          "Android"
+        ],
+        "réponse": "Android",
+        "anecdote": "Im Jahr 2015 war Android mit einem Marktanteil von über 80% das weltweit am häufigsten verwendete Betriebssystem."
+      },
+      {
+        "id": 7,
+        "question": "Wie nennt man unter Linux Software, die um den Kernel herum zusammengestellt wurde ?",
+        "propositions": [
+          "Softwarebibliothek",
+          "Softwarepaket",
+          "Integriert",
+          "Verteilung"
+        ],
+        "réponse": "Verteilung",
+        "anecdote": "Es gibt eine Vielzahl von Distributionen, jede mit ihren eigenen Zielen und ihrer eigenen Philosophie."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Webserver unter Linux ist auch auf Servern auf der ganzen Welt vorhanden ?",
+        "propositions": [
+          "Mohican",
+          "Apache",
+          "Comanche",
+          "Sioux"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Laut der permanenten Studie von Netcraft ist Apache seit April 1996 der beliebteste HTTP-Server im Internet."
+      },
+      {
+        "id": 9,
+        "question": "Wie heißt das Linux-Maskottchen, das Fans des Betriebssystems bekannt ist ?",
+        "propositions": [
+          "Puffy",
+          "Tux",
+          "Gnu",
+          "Wilber"
+        ],
+        "réponse": "Tux",
+        "anecdote": "Das Design des Charakters wurde nach einem 1996 von Larry Ewing gewonnenen Wettbewerb ausgewählt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher dieser Linux-Befehle zeigt den Inhalt einer Textdatei auf dem Bildschirm an ?",
+        "propositions": [
+          "Katze",
+          "Mann",
+          "Geben Sie",
+          "Ls"
+        ],
+        "réponse": "Katze",
+        "anecdote": "Der Hauptunterschied zwischen Linux und anderen wettbewerbsfähigen Betriebssystemen besteht darin, dass es sich um ein freies Betriebssystem handelt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welchem Jahr hat Linus Torvalds die erste Version des Linux-Kernels ausgeliefert ?",
+        "propositions": [
+          "1991",
+          "1997",
+          "1993",
+          "1995"
+        ],
+        "réponse": "1991",
+        "anecdote": "Bis 1991 dominierte PC-kompatibel den PC-Markt und wurde im Allgemeinen unter MS-DOS oder Windows betrieben."
+      },
+      {
+        "id": 12,
+        "question": "Welches alte Bantu-Wort bezeichnet eine berühmte Linux-Distribution ?",
+        "propositions": [
+          "Ubuntu",
+          "Gentoo",
+          "Mandriva",
+          "Fedora"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "Der Name der Besetzung stammt von einem alten Bantu-Wort, das bedeutet : « Ich bin, was ich bin, aufgrund dessen, was wir alle sind »."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Webbrowser und Dateimanager wird standardmäßig für KDE verwendet ?",
+        "propositions": [
+          "Firefox",
+          "Chrome",
+          "Konqueror",
+          "Netscape"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror kann auch den Inhalt eines FTP-Servers anzeigen, das Durchsuchen des lokalen Netzwerks und das Anzeigen von Dateien ermöglichen."
+      },
+      {
+        "id": 14,
+        "question": "Wie heißt die französische Linux-Distribution, die einfach zu installieren und zu verwenden ist ?",
+        "propositions": [
+          "SUSE",
+          "Mandriva",
+          "Slackware",
+          "Debian"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Diese GNU / Linux-Distribution richtet sich sowohl an die breite Öffentlichkeit als auch an Fachleute und basiert auf KDE."
+      },
+      {
+        "id": 15,
+        "question": "Welche Art von Dateien berücksichtigt der in Ubuntu integrierte Paketmanager ?",
+        "propositions": [
+          ".deb",
+          ".dev",
+          ".rpm",
+          ".rss"
+        ],
+        "réponse": ".deb",
+        "anecdote": "Standardmäßig wird Ubuntu mit einer Vielzahl kostenloser Software wie LibreOffice, Firefox, Thunderbird und Transmission installiert."
+      },
+      {
+        "id": 16,
+        "question": "Mit welchem Befehl wird unter Linux ein Benutzerkonto erstellt ?",
+        "propositions": [
+          "Passwd",
+          "Useradd",
+          "Adduser",
+          "Mkaccount"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Dank der Befehlszeile gehören Wissenschaftler, Ingenieure und Entwickler zu den häufigsten Benutzern."
+      },
+      {
+        "id": 17,
+        "question": "Aus welchem Projekt stammen die Tools rund um Linux ?",
+        "propositions": [
+          "iOS",
+          "GNU",
+          "Mimix",
+          "BSD"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU ist ein freies Betriebssystemprojekt, das 1983 von Richard Stallman gestartet und dann vom GNU-Projekt verwaltet wird."
+      },
+      {
+        "id": 18,
+        "question": "Von welcher Linux-Distribution leitet sich das Ubuntu-Betriebssystem ab ?",
+        "propositions": [
+          "Roter Hut",
+          "Fedora",
+          "Debian",
+          "Slackware"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Der frühere Debian-Entwickler Mark Shuttleworth wollte eine Version bereitstellen, auf die Anfänger leichter zugreifen können."
+      },
+      {
+        "id": 19,
+        "question": "Was ist die älteste Linux-Distribution, die bis heute gepflegt wird ?",
+        "propositions": [
+          "Mandriva",
+          "Slackware",
+          "Ubuntu",
+          "Roter Hut"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware ist eine Linux-Distribution, die im Gegensatz zu anderen Distributionen seit langem von einer Person gepflegt wird."
+      },
+      {
+        "id": 20,
+        "question": "Welche fenstergesteuerte grafische Umgebung wird unter Linux verwendet ?",
+        "propositions": [
+          "K Fenster",
+          "L Fenster",
+          "Z Fenster",
+          "X Fenster"
+        ],
+        "réponse": "X Fenster",
+        "anecdote": "Diese grafische Umgebung verwaltet die Mensch-Maschine-Interaktion über Bildschirm, Maus und Tastatur bestimmter Netzwerkcomputer."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Programmierer und Aktivist für freie Software hat 1984 das GNU-Projekt ins Leben gerufen ?",
+        "propositions": [
+          "Alan Cox",
+          "Richard Stallman",
+          "John Neumann",
+          "Linus Torvalds"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman widmet sich die meiste Zeit der Förderung freier Software für verschiedene Zielgruppen und Versammlungen."
+      },
+      {
+        "id": 22,
+        "question": "Welcher « Winamp » -ähnliche Media Player wird unter Linux häufig verwendet ?",
+        "propositions": [
+          "Tomahawk",
+          "Mplayer",
+          "XMMS",
+          "Spotify"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS wurde ursprünglich von Peter und Mikal Alm im November 1997 als « X11Amp » codiert, um eine Lücke in GNU / Linux zu schließen."
+      },
+      {
+        "id": 23,
+        "question": "Welches von dem Südafrikaner Mark Shuttleworth finanzierte Unternehmen sponsert Ubuntu ?",
+        "propositions": [
+          "Pentax",
+          "Panasonic",
+          "Kanonisch",
+          "Nikon"
+        ],
+        "réponse": "Kanonisch",
+        "anecdote": "Canonical mit Sitz auf der Isle of Man wurde 2004 gegründet und ist in 30 verschiedenen Ländern tätig und beschäftigt 500 Mitarbeiter."
+      },
+      {
+        "id": 24,
+        "question": "Mit welchem Player in der Linux-Welt hat Microsoft eine wichtige Vereinbarung unterzeichnet ?",
+        "propositions": [
+          "SUSE",
+          "Ubuntu",
+          "Roter Hut",
+          "Mandriva"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "SUSE wurde Anfang 1994 auf den Markt gebracht und ist in der Tat die älteste noch existierende kommerzielle Distribution."
+      },
+      {
+        "id": 25,
+        "question": "Die Internationale Raumstation hat Windows zugunsten welcher Linux-Distribution aufgegeben ?",
+        "propositions": [
+          "SUSE",
+          "Roter Hut",
+          "Debian",
+          "Ubuntu"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian wird als Basis für viele andere sehr erfolgreiche Distributionen wie Knoppix und Ubuntu verwendet."
+      },
+      {
+        "id": 26,
+        "question": "Welches Land verwendet GNU / Linux bisher am häufigsten als Desktop-Betriebssystem ?",
+        "propositions": [
+          "Kenia",
+          "Kuba",
+          "Finnland",
+          "Venezuela"
+        ],
+        "réponse": "Kuba",
+        "anecdote": "Die beiden Umgebungen GNOME und KDE, die auf gemeinsamen Technologien basieren, haben eine gewisse Reife erreicht."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Grafikdesigner zeichnete 1996 den ersten Tux-Pinguin, das Maskottchen des Linux-Projekts ?",
+        "propositions": [
+          "Wes Wilson",
+          "Larry Ewing",
+          "Jeffrey Lynch",
+          "Rob Janoff"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "Der amerikanische Programmierer Larry Ewing hat das Tux-Maskottchen mit Hilfe der freien Software « The GIMP » hergestellt."
+      },
+      {
+        "id": 28,
+        "question": "Welches dieser Spiele läuft nativ unter GNU / Linux ?",
+        "propositions": [
+          "Zelda",
+          "Quake III Arena",
+          "Splitterzelle",
+          "Super Mario Kart"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "Das von ID Software entwickelte Spiel wurde auch für Macintosh, Dreamcast, PlayStation 2 und Xbox Live Arcade veröffentlicht."
+      },
+      {
+        "id": 29,
+        "question": "Welche Open Source-Spielekonsole hat ein kompiliertes Linux-Betriebssystem ?",
+        "propositions": [
+          "Spielausrüstung",
+          "Pandora",
+          "N-Gage",
+          "GP32"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "Pandora konnte bei der Veröffentlichung die Arena « Quake », « Quake II » und « Quake III » starten, ohne sich zu verlangsamen."
+      },
+      {
+        "id": 30,
+        "question": "Wie hieß das Linux-Projekt ursprünglich, das später zu einer Marke wurde ?",
+        "propositions": [
+          "Longhorn",
+          "Panther",
+          "Freax",
+          "Serval"
+        ],
+        "réponse": "Freax",
+        "anecdote": "Das endgültige Freax-Projekt findet seinen endgültigen Namen dank Ari Lemmke, der die Arbeit von Linus Torvalds in einem Verzeichnis mit dem Namen « Linux » hostet."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué programador creó y continúa liderando el desarrollo del kernel de Linux ?",
+        "propositions": [
+          "Larry Ellison",
+          "Steeve Jobs",
+          "Bill Gates",
+          "Linus Torvalds"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds descubrió las computadoras a la edad de 11 años gracias a la computadora de su abuelo, una Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuál es el principal activo de Linux, desarrollado y mantenido por Linus Torvalds ?",
+        "propositions": [
+          "Es divertido",
+          "Es finlandés",
+          "El es hermoso",
+          "Es libre"
+        ],
+        "réponse": "Es libre",
+        "anecdote": "« Linux » es el nombre que comúnmente se le da a cualquier sistema operativo libre que funcione con el kernel de Linux."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué animal que representa a Linux es también la mascota de la Universidad de Helsinki ?",
+        "propositions": [
+          "Caribou",
+          "Marmota",
+          "Pingüino",
+          "Ñu"
+        ],
+        "réponse": "Pingüino",
+        "anecdote": "Diseñado en 1996, el uso de este pingüino es gratuito y se puede encontrar en muchos proyectos y logotipos relacionados con Linux."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué comando de Linux, basado en el comando de UNIX, elimina un archivo ?",
+        "propositions": [
+          "Eliminar",
+          "Del",
+          "Rm",
+          "Rem"
+        ],
+        "réponse": "Rm",
+        "anecdote": "Por descendencia de UNIX, la línea de comandos siempre está disponible en GNU / Linux, independientemente de la distribución."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál de las siguientes denota una distribución de Linux fundada en 1993 ?",
+        "propositions": [
+          "Red Hat",
+          "Souze",
+          "Mandrika",
+          "Zubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "Red Hat es una de las empresas de software de código abierto más grandes y reconocidas."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué sistema operativo móvil líder en la industria se basa en un kernel de Linux ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "BlackBerry 10",
+          "Windows Phone"
+        ],
+        "réponse": "Android",
+        "anecdote": "En 2015, Android fue el sistema operativo más utilizado en el mundo con más del 80% de participación de mercado."
+      },
+      {
+        "id": 7,
+        "question": "En Linux, ¿cómo se llama software ensamblado alrededor del kernel ?",
+        "propositions": [
+          "Biblioteca de software",
+          "Paquete de software",
+          "Distribución",
+          "Integrado"
+        ],
+        "réponse": "Distribución",
+        "anecdote": "Existe una variedad muy amplia de distribuciones, cada una con sus propios objetivos y filosofía."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué servidor web bajo Linux también está presente en servidores de todo el mundo ?",
+        "propositions": [
+          "Comanche",
+          "Mohicano",
+          "Apache",
+          "Sioux"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Desde abril de 1996, según el estudio permanente de Netcraft, Apache se ha convertido en el servidor HTTP más popular de Internet."
+      },
+      {
+        "id": 9,
+        "question": "¿Cuál es el nombre de la mascota de Linux, conocida por los fanáticos del sistema operativo ?",
+        "propositions": [
+          "Hinchado",
+          "Tux",
+          "Gnu",
+          "Wilber"
+        ],
+        "réponse": "Tux",
+        "anecdote": "El diseño del personaje fue elegido después de un concurso organizado en 1996 ganado por Larry Ewing."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál de estos comandos de Linux muestra el contenido de un archivo de texto en la pantalla ?",
+        "propositions": [
+          "Ls",
+          "Gato",
+          "Tipo",
+          "Hombre"
+        ],
+        "réponse": "Gato",
+        "anecdote": "La principal diferencia entre Linux y otros sistemas operativos de la competencia es que es un sistema operativo gratuito."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué año envió Linus Torvalds la primera versión del kernel de Linux ?",
+        "propositions": [
+          "1997",
+          "1991",
+          "1993",
+          "1995"
+        ],
+        "réponse": "1991",
+        "anecdote": "En 1991, la compatibilidad con PC dominaba el mercado de las computadoras personales y generalmente operaba bajo MS-DOS o Windows."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué palabra antigua bantú designa una famosa distribución de Linux ?",
+        "propositions": [
+          "Gentoo",
+          "Fedora",
+          "Ubuntu",
+          "Mandriva"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "El nombre del elenco proviene de una antigua palabra bantú que significa « Soy lo que soy por lo que todos somos »."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué navegador web y administrador de archivos se utiliza de forma predeterminada para KDE ?",
+        "propositions": [
+          "Netscape",
+          "Konqueror",
+          "Chrome",
+          "Firefox"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror también puede mostrar el contenido de un servidor FTP, permitir navegar por la red local y ver archivos."
+      },
+      {
+        "id": 14,
+        "question": "¿Cómo se llama la distribución francesa de Linux, que es fácil de instalar y usar ?",
+        "propositions": [
+          "Debian",
+          "Mandriva",
+          "SUSE",
+          "Slackware"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Dirigida tanto al público en general como a los profesionales, esta distribución GNU / Linux se basa en KDE."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué tipo de archivos tiene en cuenta el administrador de paquetes integrado en Ubuntu ?",
+        "propositions": [
+          ".deb",
+          ".rpm",
+          ".rss",
+          ".dev"
+        ],
+        "réponse": ".deb",
+        "anecdote": "De forma predeterminada, Ubuntu se instala con una variedad de software gratuito como LibreOffice, Firefox, Thunderbird y Transmission."
+      },
+      {
+        "id": 16,
+        "question": "En Linux, ¿qué comando se usa para crear una cuenta de usuario ?",
+        "propositions": [
+          "Useradd",
+          "Passwd",
+          "Adduser",
+          "Mkaccount"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Gracias a su línea de comandos, los científicos, ingenieros y desarrolladores se encuentran entre sus usuarios más frecuentes."
+      },
+      {
+        "id": 17,
+        "question": "¿De qué proyecto se basan las herramientas que giran en torno a Linux ?",
+        "propositions": [
+          "BSD",
+          "GNU",
+          "iOS",
+          "Mimix"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU es un proyecto de sistema operativo libre iniciado en 1983 por Richard Stallman y luego mantenido por el Proyecto GNU."
+      },
+      {
+        "id": 18,
+        "question": "¿De qué distribución de Linux se deriva el sistema operativo Ubuntu ?",
+        "propositions": [
+          "Red Hat",
+          "Slackware",
+          "Debian",
+          "Fedora"
+        ],
+        "réponse": "Debian",
+        "anecdote": "El ex desarrollador de Debian, Mark Shuttleworth, quería proporcionar una versión que fuera más fácil de acceder para los principiantes."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál es la distribución de Linux más antigua que se conserva hasta el día de hoy ?",
+        "propositions": [
+          "Red Hat",
+          "Mandriva",
+          "Slackware",
+          "Ubuntu"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware es una distribución de Linux que, a diferencia de otras distribuciones, ha sido mantenida durante mucho tiempo por una persona."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué entorno gráfico de ventana se utiliza en Linux ?",
+        "propositions": [
+          "Ventana K",
+          "Ventana Z",
+          "Ventana L",
+          "Ventana X"
+        ],
+        "réponse": "Ventana X",
+        "anecdote": "Este entorno gráfico gestiona la interacción hombre-máquina a través de la pantalla, el ratón y el teclado de determinadas computadoras en red."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué programador y activista del software libre creó el Proyecto GNU en 1984 ?",
+        "propositions": [
+          "Richard Stallman",
+          "John Neumann",
+          "Linus Torvalds",
+          "Alan Cox"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman dedica la mayor parte de su tiempo a promover el software libre para diversas audiencias y asambleas."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué reproductor multimedia similar a « Winamp » se usa a menudo en Linux ?",
+        "propositions": [
+          "Spotify",
+          "Tomahawk",
+          "XMMS",
+          "Mplayer"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS fue originalmente codificado como « X11Amp » por Peter y Mikal Alm en noviembre de 1997, para llenar un vacío en GNU / Linux."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué empresa financiada por el sudafricano Mark Shuttleworth patrocina Ubuntu ?",
+        "propositions": [
+          "Pentax",
+          "Nikon",
+          "Panasonic",
+          "Canonical"
+        ],
+        "réponse": "Canonical",
+        "anecdote": "Canonical, con sede en la Isla de Man, se estableció en 2004 y opera en 30 países diferentes, empleando a 500 personas."
+      },
+      {
+        "id": 24,
+        "question": "¿Con qué jugador del mundo Linux ha firmado Microsoft un acuerdo importante ?",
+        "propositions": [
+          "Mandriva",
+          "SUSE",
+          "Ubuntu",
+          "Red Hat"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "Aparecida a principios de 1994, SUSE es de hecho la distribución comercial más antigua que existe."
+      },
+      {
+        "id": 25,
+        "question": "¿La Estación Espacial Internacional ha abandonado Windows en favor de qué distribución de Linux ?",
+        "propositions": [
+          "Red Hat",
+          "SUSE",
+          "Ubuntu",
+          "Debian"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian se utiliza como base para muchas otras distribuciones muy exitosas como Knoppix y Ubuntu."
+      },
+      {
+        "id": 26,
+        "question": "Hasta la fecha, ¿qué país usa GNU / Linux con mayor frecuencia como sistema operativo de escritorio ?",
+        "propositions": [
+          "Venezuela",
+          "Cuba",
+          "Kenia",
+          "Finlandia"
+        ],
+        "réponse": "Cuba",
+        "anecdote": "Los dos entornos GNOME y KDE, que se basan en tecnologías comunes, han alcanzado una cierta madurez."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué diseñador gráfico dibujó en 1996 el pingüino Tux inicial, mascota del proyecto Linux ?",
+        "propositions": [
+          "Rob Janoff",
+          "Larry Ewing",
+          "Jeffrey Lynch",
+          "Wes Wilson"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "El programador estadounidense Larry Ewing hizo la mascota de Tux con la ayuda del software libre « The GIMP »."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál de estos juegos se ejecuta de forma nativa en GNU / Linux ?",
+        "propositions": [
+          "Zelda",
+          "Quake III Arena",
+          "Super Mario Kart",
+          "Splinter Cell"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "El juego desarrollado por ID Software también se ha lanzado para Macintosh, Dreamcast, PlayStation 2 y Xbox Live Arcade."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué consola de juegos de código abierto tiene un sistema operativo Linux compilado ?",
+        "propositions": [
+          "Equipo de juego",
+          "GP32",
+          "N-Gage",
+          "Pandora"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "En el lanzamiento, Pandora pudo lanzar « Quake », « Quake II » y « Quake III » Arena sin disminuir la velocidad."
+      },
+      {
+        "id": 30,
+        "question": "¿Cómo se llamó inicialmente el proyecto Linux, que luego se convirtió en una marca ?",
+        "propositions": [
+          "Freax",
+          "Longhorn",
+          "Serval",
+          "Panther"
+        ],
+        "réponse": "Freax",
+        "anecdote": "El proyecto Freax encuentra su nombre final gracias a Ari Lemmke que aloja el trabajo de Linus Torvalds en un directorio llamado « Linux »."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale programmatore ha creato e continua a guidare lo sviluppo del kernel Linux ?",
+        "propositions": [
+          "Steeve Jobs",
+          "Larry Ellison",
+          "Bill Gates",
+          "Linus Torvalds"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds ha scoperto i computer all'età di 11 anni grazie al computer di suo nonno, un Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "Qual è l'asset principale di Linux, sviluppato e mantenuto da Linus Torvalds ?",
+        "propositions": [
+          "È libero",
+          "È bello",
+          "È finlandese",
+          "È divertente"
+        ],
+        "réponse": "È libero",
+        "anecdote": "« Linux » è il nome comunemente dato a qualsiasi sistema operativo libero che funziona con il kernel Linux."
+      },
+      {
+        "id": 3,
+        "question": "Quale animale che rappresenta Linux è anche la mascotte dell'Università di Helsinki ?",
+        "propositions": [
+          "Pinguino",
+          "Gnu",
+          "Marmotta",
+          "Caribou"
+        ],
+        "réponse": "Pinguino",
+        "anecdote": "Progettato nel 1996, l'uso di questo pinguino è gratuito e si può trovare in molti progetti e loghi legati a Linux."
+      },
+      {
+        "id": 4,
+        "question": "Quale comando Linux, basato sul comando UNIX, elimina un file ?",
+        "propositions": [
+          "Rm",
+          "Elimina",
+          "Del",
+          "Rem"
+        ],
+        "réponse": "Rm",
+        "anecdote": "Per discendenza da UNIX, la riga di comando è sempre disponibile in GNU / Linux, indipendentemente dalla distribuzione."
+      },
+      {
+        "id": 5,
+        "question": "Quale dei seguenti denota una distribuzione Linux fondata nel 1993 ?",
+        "propositions": [
+          "Mandrika",
+          "Red Hat",
+          "Souze",
+          "Zubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "Red Hat è una delle società di software open source più grandi e riconosciute."
+      },
+      {
+        "id": 6,
+        "question": "Quale sistema operativo mobile leader del settore si basa su un kernel Linux ?",
+        "propositions": [
+          "iOS",
+          "Windows Phone",
+          "Android",
+          "BlackBerry 10"
+        ],
+        "réponse": "Android",
+        "anecdote": "Nel 2015, Android era il sistema operativo più utilizzato al mondo con una quota di mercato superiore all'80%."
+      },
+      {
+        "id": 7,
+        "question": "In Linux, cosa chiamate software assemblato attorno al kernel ?",
+        "propositions": [
+          "Integrato",
+          "Distribuzione",
+          "Pacchetto software",
+          "Libreria software"
+        ],
+        "réponse": "Distribuzione",
+        "anecdote": "Esiste un'ampia varietà di distribuzioni, ciascuna con i propri obiettivi e la propria filosofia."
+      },
+      {
+        "id": 8,
+        "question": "Quale web server sotto Linux è presente anche sui server di tutto il mondo ?",
+        "propositions": [
+          "Comanche",
+          "Apache",
+          "Mohican",
+          "Sioux"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Dall'aprile 1996, secondo lo studio permanente di Netcraft, Apache è diventato il server HTTP più popolare su Internet."
+      },
+      {
+        "id": 9,
+        "question": "Qual è il nome della mascotte di Linux, nota ai fan del sistema operativo ?",
+        "propositions": [
+          "Tux",
+          "Wilber",
+          "Gnu",
+          "Puffy"
+        ],
+        "réponse": "Tux",
+        "anecdote": "Il design del personaggio è stato scelto dopo un concorso organizzato nel 1996 vinto da Larry Ewing."
+      },
+      {
+        "id": 10,
+        "question": "Quale di questi comandi Linux mostra il contenuto di un file di testo sullo schermo ?",
+        "propositions": [
+          "Tipo",
+          "Uomo",
+          "Ls",
+          "Gatto"
+        ],
+        "réponse": "Gatto",
+        "anecdote": "La principale differenza tra Linux e altri sistemi operativi competitivi è che si tratta di un sistema operativo gratuito."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In che anno Linus Torvalds ha distribuito la prima versione del kernel Linux ?",
+        "propositions": [
+          "1993",
+          "1995",
+          "1991",
+          "1997"
+        ],
+        "réponse": "1991",
+        "anecdote": "Nel 1991, il PC compatibile dominava il mercato dei personal computer e generalmente funzionava sotto MS-DOS o Windows."
+      },
+      {
+        "id": 12,
+        "question": "Quale antica parola bantu designa una famosa distribuzione Linux ?",
+        "propositions": [
+          "Fedora",
+          "Ubuntu",
+          "Gentoo",
+          "Mandriva"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "Il nome del cast deriva da un'antica parola bantu che significa « Sono quello che sono per quello che siamo tutti »."
+      },
+      {
+        "id": 13,
+        "question": "Quale browser web e gestore di file viene utilizzato di default per KDE ?",
+        "propositions": [
+          "Firefox",
+          "Chrome",
+          "Konqueror",
+          "Netscape"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror può anche visualizzare i contenuti di un server FTP, consentire la navigazione nella rete locale e visualizzare i file."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il nome della distribuzione francese di Linux, che è facile da installare e utilizzare ?",
+        "propositions": [
+          "SUSE",
+          "Slackware",
+          "Debian",
+          "Mandriva"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Rivolta sia al pubblico in generale che ai professionisti, questa distribuzione GNU / Linux è basata su KDE."
+      },
+      {
+        "id": 15,
+        "question": "Che tipo di file vengono presi in considerazione dal gestore di pacchetti integrato in Ubuntu ?",
+        "propositions": [
+          ".deb",
+          ".rpm",
+          ".rss",
+          ".dev"
+        ],
+        "réponse": ".deb",
+        "anecdote": "Per impostazione predefinita, Ubuntu è installato con una varietà di software gratuiti come LibreOffice, Firefox, Thunderbird e Transmission."
+      },
+      {
+        "id": 16,
+        "question": "In Linux, quale comando viene utilizzato per creare un account utente ?",
+        "propositions": [
+          "Passwd",
+          "Useradd",
+          "Adduser",
+          "Mkaccount"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Grazie alla sua riga di comando, scienziati, ingegneri e sviluppatori sono tra i suoi utenti più frequenti."
+      },
+      {
+        "id": 17,
+        "question": "Da quale progetto sono tratti gli strumenti che ruotano attorno a Linux ?",
+        "propositions": [
+          "BSD",
+          "iOS",
+          "GNU",
+          "Mimix"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU è un progetto di sistema operativo libero iniziato nel 1983 da Richard Stallman e poi mantenuto dal Progetto GNU."
+      },
+      {
+        "id": 18,
+        "question": "Da quale distribuzione Linux deriva il sistema operativo Ubuntu ?",
+        "propositions": [
+          "Slackware",
+          "Red Hat",
+          "Fedora",
+          "Debian"
+        ],
+        "réponse": "Debian",
+        "anecdote": "L'ex sviluppatore Debian Mark Shuttleworth voleva fornire una versione di più facile accesso per i principianti."
+      },
+      {
+        "id": 19,
+        "question": "Qual è la distribuzione Linux più vecchia ancora mantenuta fino ad oggi ?",
+        "propositions": [
+          "Mandriva",
+          "Ubuntu",
+          "Slackware",
+          "Red Hat"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware è una distribuzione Linux che, a differenza di altre distribuzioni, è stata a lungo mantenuta da una persona."
+      },
+      {
+        "id": 20,
+        "question": "Quale ambiente grafico a finestre viene utilizzato in Linux ?",
+        "propositions": [
+          "Finestra L",
+          "X Window",
+          "Finestra K",
+          "Finestra Z"
+        ],
+        "réponse": "X Window",
+        "anecdote": "Questo ambiente grafico gestisce l'interazione uomo-macchina tramite lo schermo, il mouse e la tastiera di alcuni computer in rete."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale programmatore e attivista del software libero ha creato il progetto GNU nel 1984 ?",
+        "propositions": [
+          "John Neumann",
+          "Richard Stallman",
+          "Alan Cox",
+          "Linus Torvalds"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman dedica la maggior parte del suo tempo alla promozione del software libero a diversi pubblici e assemblee."
+      },
+      {
+        "id": 22,
+        "question": "Quale lettore multimediale simile a « Winamp » viene spesso utilizzato in Linux ?",
+        "propositions": [
+          "Spotify",
+          "Mplayer",
+          "Tomahawk",
+          "XMMS"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS è stato originariamente codificato come « X11Amp » da Peter e Mikal Alm nel novembre 1997, per colmare una lacuna in GNU / Linux."
+      },
+      {
+        "id": 23,
+        "question": "Quale azienda finanziata dal sudafricano Mark Shuttleworth sponsorizza Ubuntu ?",
+        "propositions": [
+          "Nikon",
+          "Panasonic",
+          "Canonical",
+          "Pentax"
+        ],
+        "réponse": "Canonical",
+        "anecdote": "Canonical, con sede a Isola di Man, è stata fondata nel 2004 e opera in 30 paesi diversi, impiegando 500 persone."
+      },
+      {
+        "id": 24,
+        "question": "Con quale player nel mondo Linux Microsoft ha firmato un importante accordo ?",
+        "propositions": [
+          "Mandriva",
+          "Ubuntu",
+          "Red Hat",
+          "SUSE"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "Apparso all'inizio del 1994, SUSE è infatti la più antica distribuzione commerciale ancora esistente."
+      },
+      {
+        "id": 25,
+        "question": "La Stazione Spaziale Internazionale ha abbandonato Windows a favore di quale distribuzione Linux ?",
+        "propositions": [
+          "Debian",
+          "Red Hat",
+          "SUSE",
+          "Ubuntu"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian è usata come base per molte altre distribuzioni di grande successo come Knoppix e Ubuntu."
+      },
+      {
+        "id": 26,
+        "question": "Ad oggi, quale paese utilizza GNU / Linux più regolarmente come sistema operativo desktop ?",
+        "propositions": [
+          "Finlandia",
+          "Venezuela",
+          "Cuba",
+          "Kenya"
+        ],
+        "réponse": "Cuba",
+        "anecdote": "I due ambienti GNOME e KDE, che si basano su tecnologie comuni, hanno raggiunto una certa maturità."
+      },
+      {
+        "id": 27,
+        "question": "Quale grafico ha disegnato nel 1996 il pinguino Tux iniziale, mascotte del progetto Linux ?",
+        "propositions": [
+          "Rob Janoff",
+          "Larry Ewing",
+          "Jeffrey Lynch",
+          "Wes Wilson"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "Il programmatore americano Larry Ewing ha creato la mascotte di Tux con l'aiuto del software gratuito « The GIMP »."
+      },
+      {
+        "id": 28,
+        "question": "Quale di questi giochi funziona in modo nativo sotto GNU / Linux ?",
+        "propositions": [
+          "Quake III Arena",
+          "Splinter Cell",
+          "Zelda",
+          "Super Mario Kart"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "Il gioco sviluppato da ID Software è stato rilasciato anche per Macintosh, Dreamcast, PlayStation 2 e Xbox Live Arcade."
+      },
+      {
+        "id": 29,
+        "question": "Quale console di gioco open source ha un sistema operativo Linux compilato ?",
+        "propositions": [
+          "GP32",
+          "Pandora",
+          "Game Gear",
+          "N-Gage"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "Pandora è stato in grado di lanciare « Quake », « Quake II » e « Quake III » Arena senza rallentare."
+      },
+      {
+        "id": 30,
+        "question": "Come si chiamava inizialmente il progetto Linux, che in seguito divenne un marchio ?",
+        "propositions": [
+          "Serval",
+          "Longhorn",
+          "Pantera",
+          "Freax"
+        ],
+        "réponse": "Freax",
+        "anecdote": "Il progetto Freax trova il suo nome definitivo grazie ad Ari Lemmke che ospita il lavoro di Linus Torvalds in una directory chiamata « Linux »."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke programmeur heeft de ontwikkeling van de Linux-kernel gemaakt en blijft deze leiden ?",
+        "propositions": [
+          "Linus Torvalds",
+          "Bill Gates",
+          "Larry Ellison",
+          "Steeve Jobs"
+        ],
+        "réponse": "Linus Torvalds",
+        "anecdote": "Linus Torvalds ontdekte computers op 11-jarige leeftijd dankzij de computer van zijn grootvader, een Commodore VIC-20."
+      },
+      {
+        "id": 2,
+        "question": "Wat is de belangrijkste troef van Linux, ontwikkeld en onderhouden door Linus Torvalds ?",
+        "propositions": [
+          "Het is leuk",
+          "Hij is gratis",
+          "Hij is mooi",
+          "Hij is Fins"
+        ],
+        "réponse": "Hij is gratis",
+        "anecdote": "« Linux » is de naam die gewoonlijk wordt gegeven aan elk gratis besturingssysteem dat werkt met de Linux-kernel."
+      },
+      {
+        "id": 3,
+        "question": "Welk dier dat Linux vertegenwoordigt, is ook de mascotte van de Universiteit van Helsinki ?",
+        "propositions": [
+          "Groundhog",
+          "Pinguïn",
+          "Gnoe",
+          "Caribou"
+        ],
+        "réponse": "Pinguïn",
+        "anecdote": "Ontworpen in 1996, het gebruik van deze pinguïn is gratis en is te vinden in veel projecten en logo's gerelateerd aan Linux."
+      },
+      {
+        "id": 4,
+        "question": "Welk Linux-commando, gebaseerd op het UNIX-commando, verwijdert een bestand ?",
+        "propositions": [
+          "Rm",
+          "Rem",
+          "Verwijderen",
+          "Del"
+        ],
+        "réponse": "Rm",
+        "anecdote": "Door afstamming van UNIX is de opdrachtregel altijd beschikbaar in GNU / Linux, ongeacht de distributie."
+      },
+      {
+        "id": 5,
+        "question": "Welke van de volgende duidt een Linux-distributie aan die in 1993 is opgericht ?",
+        "propositions": [
+          "Mandrika",
+          "Souze",
+          "Red Hat",
+          "Zubuntu"
+        ],
+        "réponse": "Red Hat",
+        "anecdote": "Red Hat is een van de grootste en meest erkende open source softwarebedrijven."
+      },
+      {
+        "id": 6,
+        "question": "Welk toonaangevende mobiele besturingssysteem vertrouwt op een Linux-kernel ?",
+        "propositions": [
+          "Android",
+          "Windows Phone",
+          "iOS",
+          "BlackBerry 10"
+        ],
+        "réponse": "Android",
+        "anecdote": "In 2015 was Android het meest gebruikte besturingssysteem ter wereld met een marktaandeel van meer dan 80%."
+      },
+      {
+        "id": 7,
+        "question": "Hoe noem je in Linux software die rond de kernel is geassembleerd ?",
+        "propositions": [
+          "Softwarebibliotheek",
+          "Geïntegreerd",
+          "Softwarepakket",
+          "Distributie"
+        ],
+        "réponse": "Distributie",
+        "anecdote": "Er is een zeer grote verscheidenheid aan distributies, elk met zijn eigen doelstellingen en filosofie."
+      },
+      {
+        "id": 8,
+        "question": "Welke webserver onder Linux staat ook op servers over de hele wereld ?",
+        "propositions": [
+          "Mohican",
+          "Apache",
+          "Sioux",
+          "Comanche"
+        ],
+        "réponse": "Apache",
+        "anecdote": "Volgens de permanente studie van Netcraft is Apache sinds april 1996 de populairste HTTP-server op internet geworden."
+      },
+      {
+        "id": 9,
+        "question": "Wat is de naam van de Linux-mascotte, bekend bij fans van het besturingssysteem ?",
+        "propositions": [
+          "GNU",
+          "Wilber",
+          "Tux",
+          "Gezwollen"
+        ],
+        "réponse": "Tux",
+        "anecdote": "Het ontwerp van het personage werd gekozen na een wedstrijd die in 1996 werd georganiseerd en gewonnen door Larry Ewing."
+      },
+      {
+        "id": 10,
+        "question": "Welke van deze Linux-commando's geeft de inhoud van een tekstbestand op het scherm weer ?",
+        "propositions": [
+          "Ls",
+          "Man",
+          "Kat",
+          "Type"
+        ],
+        "réponse": "Kat",
+        "anecdote": "Het belangrijkste verschil tussen Linux en andere concurrerende besturingssystemen is dat het een gratis besturingssysteem is."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welk jaar heeft Linus Torvalds de eerste versie van de Linux-kernel verzonden ?",
+        "propositions": [
+          "1993",
+          "1995",
+          "1991",
+          "1997"
+        ],
+        "réponse": "1991",
+        "anecdote": "In 1991 domineerde pc-compatibel de pc-markt en werd deze over het algemeen beheerd onder MS-DOS of Windows."
+      },
+      {
+        "id": 12,
+        "question": "Welk oud Bantu-woord duidt een beroemde Linux-distributie aan ?",
+        "propositions": [
+          "Fedora",
+          "Gentoo",
+          "Mandriva",
+          "Ubuntu"
+        ],
+        "réponse": "Ubuntu",
+        "anecdote": "De naam van de cast komt van een oud Bantu-woord, wat betekent : « Ik ben wat ik ben vanwege wat we allemaal zijn »."
+      },
+      {
+        "id": 13,
+        "question": "Welke webbrowser en bestandsbeheerder wordt standaard gebruikt voor KDE ?",
+        "propositions": [
+          "Konqueror",
+          "Firefox",
+          "Netscape",
+          "Chroom"
+        ],
+        "réponse": "Konqueror",
+        "anecdote": "Konqueror kan ook de inhoud van een FTP-server weergeven, door het lokale netwerk bladeren en bestanden bekijken."
+      },
+      {
+        "id": 14,
+        "question": "Hoe heet de Franse distributie van Linux, die gemakkelijk te installeren en te gebruiken is ?",
+        "propositions": [
+          "Slackware",
+          "Mandriva",
+          "Debian",
+          "SUSE"
+        ],
+        "réponse": "Mandriva",
+        "anecdote": "Deze GNU / Linux-distributie is zowel gericht op het grote publiek als op professionals en is gebouwd rond KDE."
+      },
+      {
+        "id": 15,
+        "question": "Met welk type bestanden wordt rekening gehouden door de pakketbeheerder die in Ubuntu is geïntegreerd ?",
+        "propositions": [
+          ".deb",
+          ".rpm",
+          ".rss",
+          ".dev"
+        ],
+        "réponse": ".deb",
+        "anecdote": "Ubuntu wordt standaard geïnstalleerd met een verscheidenheid aan gratis software zoals LibreOffice, Firefox, Thunderbird en Transmission."
+      },
+      {
+        "id": 16,
+        "question": "Welke opdracht wordt in Linux gebruikt om een gebruikersaccount aan te maken ?",
+        "propositions": [
+          "Passwd",
+          "Useradd",
+          "Mkaccount",
+          "Adduser"
+        ],
+        "réponse": "Useradd",
+        "anecdote": "Dankzij de opdrachtregel behoren wetenschappers, ingenieurs en ontwikkelaars tot de meest frequente gebruikers."
+      },
+      {
+        "id": 17,
+        "question": "Van welk project zijn de tools die rond Linux draaien afkomstig ?",
+        "propositions": [
+          "Mimix",
+          "iOS",
+          "BSD",
+          "GNU"
+        ],
+        "réponse": "GNU",
+        "anecdote": "GNU is een gratis besturingssysteemproject dat in 1983 is gestart door Richard Stallman en vervolgens wordt onderhouden door het GNU-project."
+      },
+      {
+        "id": 18,
+        "question": "Van welke Linux-distributie is het Ubuntu-besturingssysteem afgeleid ?",
+        "propositions": [
+          "Debian",
+          "Slackware",
+          "Red Hat",
+          "Fedora"
+        ],
+        "réponse": "Debian",
+        "anecdote": "De voormalige Debian-ontwikkelaar Mark Shuttleworth wilde een versie leveren die gemakkelijker toegankelijk was voor beginners."
+      },
+      {
+        "id": 19,
+        "question": "Wat is de oudste Linux-distributie die tot op de dag van vandaag nog wordt onderhouden ?",
+        "propositions": [
+          "Red Hat",
+          "Slackware",
+          "Mandriva",
+          "Ubuntu"
+        ],
+        "réponse": "Slackware",
+        "anecdote": "Slackware is een Linux-distributie die, in tegenstelling tot andere distributies, lange tijd door één persoon wordt onderhouden."
+      },
+      {
+        "id": 20,
+        "question": "Welke grafische omgeving met vensters wordt gebruikt in Linux ?",
+        "propositions": [
+          "L Venster",
+          "Z Venster",
+          "K Venster",
+          "X-venster"
+        ],
+        "réponse": "X-venster",
+        "anecdote": "Deze grafische omgeving beheert de interactie tussen mens en machine via het scherm, de muis en het toetsenbord van bepaalde netwerkcomputers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke programmeur en vrije software-activist heeft het GNU-project in 1984 opgericht ?",
+        "propositions": [
+          "John Neumann",
+          "Richard Stallman",
+          "Linus Torvalds",
+          "Alan Cox"
+        ],
+        "réponse": "Richard Stallman",
+        "anecdote": "Richard Stallman besteedt het grootste deel van zijn tijd aan het promoten van gratis software voor verschillende doelgroepen en vergaderingen."
+      },
+      {
+        "id": 22,
+        "question": "Welke « Winamp » -achtige mediaspeler wordt vaak gebruikt in Linux ?",
+        "propositions": [
+          "Mplayer",
+          "Spotify",
+          "XMMS",
+          "Tomahawk"
+        ],
+        "réponse": "XMMS",
+        "anecdote": "XMMS werd oorspronkelijk gecodeerd als « X11Amp » door Peter en Mikal Alm in november 1997 om een \u200b\u200bleemte in GNU / Linux op te vullen."
+      },
+      {
+        "id": 23,
+        "question": "Welk bedrijf dat wordt gefinancierd door de Zuid-Afrikaanse Mark Shuttleworth sponsort Ubuntu ?",
+        "propositions": [
+          "Nikon",
+          "Pentax",
+          "Canoniek",
+          "Panasonic"
+        ],
+        "réponse": "Canoniek",
+        "anecdote": "Het op het eiland Man gevestigde Canonical werd opgericht in 2004 en is actief in 30 verschillende landen en heeft 500 mensen in dienst."
+      },
+      {
+        "id": 24,
+        "question": "Met welke speler in de Linux-wereld heeft Microsoft een grote overeenkomst getekend ?",
+        "propositions": [
+          "SUSE",
+          "Mandriva",
+          "Red Hat",
+          "Ubuntu"
+        ],
+        "réponse": "SUSE",
+        "anecdote": "SUSE verscheen begin 1994 en is in feite de oudste nog bestaande commerciële distributie."
+      },
+      {
+        "id": 25,
+        "question": "Het internationale ruimtestation heeft Windows verlaten ten gunste van welke Linux-distributie ?",
+        "propositions": [
+          "Ubuntu",
+          "Debian",
+          "SUSE",
+          "Red Hat"
+        ],
+        "réponse": "Debian",
+        "anecdote": "Debian wordt gebruikt als basis voor vele andere zeer succesvolle distributies zoals Knoppix en Ubuntu."
+      },
+      {
+        "id": 26,
+        "question": "Welk land gebruikt tot op heden GNU / Linux het meest regelmatig als desktopbesturingssysteem ?",
+        "propositions": [
+          "Cuba",
+          "Venezuela",
+          "Finland",
+          "Kenia"
+        ],
+        "réponse": "Cuba",
+        "anecdote": "De twee omgevingen GNOME en KDE, die zijn gebaseerd op gemeenschappelijke technologieën, hebben een zekere volwassenheid bereikt."
+      },
+      {
+        "id": 27,
+        "question": "Welke grafisch ontwerper tekende in 1996 de eerste Tux-pinguïn, de mascotte van het Linux-project ?",
+        "propositions": [
+          "Larry Ewing",
+          "Jeffrey Lynch",
+          "Wes Wilson",
+          "Rob Janoff"
+        ],
+        "réponse": "Larry Ewing",
+        "anecdote": "De Amerikaanse programmeur Larry Ewing maakte de Tux-mascotte met behulp van gratis software « The GIMP »."
+      },
+      {
+        "id": 28,
+        "question": "Welke van deze games draait native onder GNU / Linux ?",
+        "propositions": [
+          "Splintercel",
+          "Super Mario Kart",
+          "Zelda",
+          "Quake III Arena"
+        ],
+        "réponse": "Quake III Arena",
+        "anecdote": "De game die is ontwikkeld door ID Software is ook uitgebracht voor Macintosh, Dreamcast, PlayStation 2 en Xbox Live Arcade."
+      },
+      {
+        "id": 29,
+        "question": "Welke open source gameconsole heeft een gecompileerd Linux-besturingssysteem ?",
+        "propositions": [
+          "Pandora",
+          "GP32",
+          "N-Gage",
+          "Game-uitrusting"
+        ],
+        "réponse": "Pandora",
+        "anecdote": "Pandora was in staat om « Quake », « Quake II » en « Quake III » Arena te lanceren zonder te vertragen."
+      },
+      {
+        "id": 30,
+        "question": "Hoe heette het Linux-project aanvankelijk, dat later een merk werd ?",
+        "propositions": [
+          "Serval",
+          "Longhorn",
+          "Panter",
+          "Freax"
+        ],
+        "réponse": "Freax",
+        "anecdote": "Het Freax-project vindt zijn definitieve naam dankzij Ari Lemmke die het werk van Linus Torvalds host in een directory met de naam « Linux »."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2024-11-05",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Animaux",
+      "nom": "Nos amis les chats",
+      "slogan": "Adoptez un nouveau compagnon"
+    },
+    "en": {
+      "catégorie": "Animals",
+      "nom": "Our friends the cats",
+      "slogan": "Adopt a new companion"
+    },
+    "es": {
+      "catégorie": "Animales",
+      "nom": "Nuestros amigos los gatos",
+      "slogan": "Adopta un nuevo compañero"
+    },
+    "it": {
+      "catégorie": "Animali",
+      "nom": "I nostri amici i gatti",
+      "slogan": "Adotta un nuovo compagno"
+    },
+    "de": {
+      "catégorie": "Tiere",
+      "nom": "Unsere Freunde die Katzen",
+      "slogan": "Adoptiere einen neuen Gefährten"
+    },
+    "nl": {
+      "catégorie": "Dieren",
+      "nom": "Onze vrienden de katten",
+      "slogan": "Adopteer een nieuwe metgezel"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "À quelle classe d'animaux vertébrés, regroupant 5.400 espèces, appartient le chat ?",
+        "propositions": [
+          "Reptiles",
+          "Poissons",
+          "Mammifères",
+          "Oiseaux"
+        ],
+        "réponse": "Mammifères",
+        "anecdote": "De nombreux mammifères élevés par l'homme jusqu'au XIXème siècle ont disparu ou ont fortement régressé."
+      },
+      {
+        "id": 2,
+        "question": "Lorsque vous apercevez votre chat faire le gros dos, il est probablement...",
+        "propositions": [
+          "Effrayé",
+          "En chasse",
+          "Malade",
+          "Content"
+        ],
+        "réponse": "Effrayé",
+        "anecdote": "Si un chat fait une chute de deux mètres et plus, alors qu'il est sur le dos, il peut se retourner afin d'amortir cette chute."
+      },
+      {
+        "id": 3,
+        "question": "Que fait principalement le chat de ses journées, selon des proverbes et idiotismes ?",
+        "propositions": [
+          "Il boit",
+          "Il mange",
+          "Il court",
+          "Il dort"
+        ],
+        "réponse": "Il dort",
+        "anecdote": "La plupart de ces dictons datent de plusieurs siècles, certains remontent même au Moyen Âge."
+      },
+      {
+        "id": 4,
+        "question": "Dans quel endroit du globe le chat reste-t-il synonyme de chance ou de longévité ?",
+        "propositions": [
+          "Australie",
+          "Asie",
+          "Afrique",
+          "Europe"
+        ],
+        "réponse": "Asie",
+        "anecdote": "Ce félin a laissé son empreinte dans la culture populaire au travers d'expressions et de représentations diverses."
+      },
+      {
+        "id": 5,
+        "question": "Combien le chat possède-t-il de doigts aux pattes antérieures ?",
+        "propositions": [
+          "Cinq",
+          "Quatre",
+          "Six",
+          "Trois"
+        ],
+        "réponse": "Cinq",
+        "anecdote": "Le chat possède cinq doigts aux pattes antérieures, dont seulement quatre touchent le sol, le pouce restant à l'écart."
+      },
+      {
+        "id": 6,
+        "question": "Quel est le cri du chat, pourtant très peu utilisé lorsque des chats communiquent entre eux ?",
+        "propositions": [
+          "Le bêlement",
+          "Le miaulement",
+          "Le beuglement",
+          "Le jappement"
+        ],
+        "réponse": "Le miaulement",
+        "anecdote": "Par contre, au contact de l'humain, le chat continue souvent à utiliser différentes vocalises pour communiquer."
+      },
+      {
+        "id": 7,
+        "question": "Lequel de ces chats est le seul à avoir des poils longs ?",
+        "propositions": [
+          "Angora",
+          "Abyssin",
+          "Chartreux",
+          "Siamois"
+        ],
+        "réponse": "Angora",
+        "anecdote": "L'angora turc est caractérisé par sa robe à poils mi-longs très soyeuse et sans sous-poils."
+      },
+      {
+        "id": 8,
+        "question": "De quelle famille de carnivores féliformes le chat fait-il partie ?",
+        "propositions": [
+          "Les mustélidés",
+          "Les hominidés",
+          "Les félidés",
+          "Les canidés"
+        ],
+        "réponse": "Les félidés",
+        "anecdote": "Parmi leurs traits caractéristiques figurent leur tête ronde au crâne raccourci, leur mâchoire à trente dents et leurs griffes rétractiles."
+      },
+      {
+        "id": 9,
+        "question": "Quelle manifestation sonore du chat aurait un effet relaxant sur l'homme ?",
+        "propositions": [
+          "Ronronnement",
+          "Meuglement",
+          "Bourdonnement",
+          "Roucoulement"
+        ],
+        "réponse": "Ronronnement",
+        "anecdote": "Produit à l'expiration comme à l'inspiration, ce son de basse fréquence apparaît dès l'âge de deux jours."
+      },
+      {
+        "id": 10,
+        "question": "Le chat, qui possède une mâchoire et une denture de chasseur, est un mammifère...",
+        "propositions": [
+          "Frugivore",
+          "Omnivore",
+          "Insectivore",
+          "Carnivore"
+        ],
+        "réponse": "Carnivore",
+        "anecdote": "Tous les mammifères carnassiers ne sont pas forcément membres de l'ordre des carnivores."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Comment appelle-t-on les longs poils présents sur les moustaches du chat ?",
+        "propositions": [
+          "Les vibrisses",
+          "Les tectrices",
+          "Les bréchets",
+          "Les barbules"
+        ],
+        "réponse": "Les vibrisses",
+        "anecdote": "Chez l'Homme, les vibrisses désignent les poils à l'intérieur des narines et sous les bras."
+      },
+      {
+        "id": 12,
+        "question": "Combien pèse un chaton à la naissance, soumis à un élevage communautaire ?",
+        "propositions": [
+          "500 g",
+          "700 g",
+          "100 g",
+          "300 g"
+        ],
+        "réponse": "100 g",
+        "anecdote": "En cas de disparition d'une des mères, les chatons orphelins sont ainsi élevés par les autres femelles."
+      },
+      {
+        "id": 13,
+        "question": "Bien que non coureur de fond, quelle vitesse maximale peut atteindre un chat ?",
+        "propositions": [
+          "70 Km/h",
+          "90 Km/h",
+          "50 Km/h",
+          "110 Km/h"
+        ],
+        "réponse": "50 Km/h",
+        "anecdote": "À la course, la vitesse moyenne du chat est de 40 km/h et il met environ neuf secondes pour parcourir 100 mètres."
+      },
+      {
+        "id": 14,
+        "question": "Combien de temps une chatte garde-t-elle environ les petits dans son ventre ?",
+        "propositions": [
+          "Neuf minutes",
+          "Neuf mois",
+          "Neuf semaines",
+          "Neuf jours"
+        ],
+        "réponse": "Neuf semaines",
+        "anecdote": "Le ventre de la chatte commence à gonfler vers 4 semaines et à environ 35 jours, les mamelles grossissent et rosissent."
+      },
+      {
+        "id": 15,
+        "question": "Combien de races différentes de chats sont reconnues par les instances de certification ?",
+        "propositions": [
+          "50",
+          "80",
+          "140",
+          "110"
+        ],
+        "réponse": "50",
+        "anecdote": "Dans de nombreux pays, le chat entre dans le cadre de la législation sur les carnivores domestiques à l'instar du chien et du furet."
+      },
+      {
+        "id": 16,
+        "question": "De combien d'os est composé le squelette du chat, à la fois axial et appendiculaire ?",
+        "propositions": [
+          "190",
+          "220",
+          "250",
+          "160"
+        ],
+        "réponse": "250",
+        "anecdote": "Les vertèbres du cou du chat sont courtes et sa colonne vertébrale est quant à elle très souple."
+      },
+      {
+        "id": 17,
+        "question": "Combien de temps un chat mettra-t-il au minimum pour parcourir cent mètres ?",
+        "propositions": [
+          "18 secondes",
+          "9 secondes",
+          "12 secondes",
+          "15 secondes"
+        ],
+        "réponse": "9 secondes",
+        "anecdote": "Les spécificités de l'anatomie du chat confèrent à cet animal une grande souplesse et une détente ample lors des sauts."
+      },
+      {
+        "id": 18,
+        "question": "Quel est en moyenne le nombre de lapées par seconde pour le chat ?",
+        "propositions": [
+          "Trois",
+          "Cinq",
+          "Quatre",
+          "Deux"
+        ],
+        "réponse": "Quatre",
+        "anecdote": "Une hypothèse expliquant ce lapement met en cause la région extrêmement sensible du nez et des moustaches du chat."
+      },
+      {
+        "id": 19,
+        "question": "Quel chat est le seul à être caractérisé par la quasi-absence de sa fourrure ?",
+        "propositions": [
+          "Le persan",
+          "Le siamois",
+          "Le sphynx",
+          "Le maine coon"
+        ],
+        "réponse": "Le sphynx",
+        "anecdote": "C'est en 1966 au Canada qu'une chatte de gouttière donna naissance à une portée de chatons nus."
+      },
+      {
+        "id": 20,
+        "question": "Combien le chat a-t-il de griffes, sujettes à une pousse continue suite à une usure naturelle ?",
+        "propositions": [
+          "20",
+          "16",
+          "18",
+          "22"
+        ],
+        "réponse": "18",
+        "anecdote": "Le chat peut ajuster la longueur de ses griffes et les aiguiser en les frottant contre une surface rugueuse : il « fait ses griffes »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel pourcentage les chats de race représentent-ils parmi la population totale ?",
+        "propositions": [
+          "5 %",
+          "25 %",
+          "35 %",
+          "15 %"
+        ],
+        "réponse": "5 %",
+        "anecdote": "Si votre animal est un chat de race, il doit posséder un pedigree ou avoir fait l'objet d'une demande spécifique."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, déesse de la joie du foyer aux traits félins, est une déesse de quelle nationalité ?",
+        "propositions": [
+          "Égyptienne",
+          "Viking",
+          "Romaine",
+          "Grecque"
+        ],
+        "réponse": "Égyptienne",
+        "anecdote": "Bastet est l'une des déesses les plus discrètes du panthéon égyptien et n'est jamais représentée."
+      },
+      {
+        "id": 23,
+        "question": "Le Manx est un chat très particulier car il ne possède pas...",
+        "propositions": [
+          "De nez",
+          "De moustaches",
+          "De queue",
+          "De poils"
+        ],
+        "réponse": "De queue",
+        "anecdote": "La mutation du gène s'est développée sur l'île de Man à cause de l'isolement des chats et de la trop forte consanguinité."
+      },
+      {
+        "id": 24,
+        "question": "Où sont situées les glandes odoriférantes chez le chat ?",
+        "propositions": [
+          "Dans le ventre",
+          "Derrière les oreilles",
+          "Sous les pattes",
+          "Sur la langue"
+        ],
+        "réponse": "Dans le ventre",
+        "anecdote": "Les chats communiquent principalement entre eux par des phéromones ou des positions corporelles."
+      },
+      {
+        "id": 25,
+        "question": "Selon le langage courant, comment appelle-t-on un chat en argot ?",
+        "propositions": [
+          "Greffier",
+          "Grognant",
+          "Canasson",
+          "Bourrin"
+        ],
+        "réponse": "Greffier",
+        "anecdote": "Deux explications s'opposent : le jeu de mot sur « griffe » ainsi que la fourrure de certains chats évoquant la robe des greffiers."
+      },
+      {
+        "id": 26,
+        "question": "À quel gène de l'absence de pigment dans le poil est lié la surdité des chats blancs ?",
+        "propositions": [
+          "Gène X",
+          "Gène W",
+          "Gène Y",
+          "Gène Z"
+        ],
+        "réponse": "Gène W",
+        "anecdote": "Il est en effet démontré que l'allèle W est directement responsable d'une dégénérescence de l'oreille interne, occasionnant la surdité."
+      },
+      {
+        "id": 27,
+        "question": "À combien de degrés se monte le champ de vision total du chat ?",
+        "propositions": [
+          "206 degrés",
+          "175 degrés",
+          "287 degrés",
+          "253 degrés"
+        ],
+        "réponse": "287 degrés",
+        "anecdote": "L'angle de vision binoculaire est de 130°, pour un champ de vision total de 287°, contre seulement 180° chez l'homme."
+      },
+      {
+        "id": 28,
+        "question": "Comment appelle-t-on un chat domestique qui retourne à l'état sauvage ?",
+        "propositions": [
+          "Chartreux",
+          "Ragdoll",
+          "Sibérien",
+          "Haret"
+        ],
+        "réponse": "Haret",
+        "anecdote": "Le chat haret, ou chat errant, peut avoir connu la vie auprès des êtres humains ou bien être né dans la nature."
+      },
+      {
+        "id": 29,
+        "question": "Quel ecclésiastique et homme d'État possédait 14 chats à sa mort ?",
+        "propositions": [
+          "Napoléon",
+          "Richelieu",
+          "Colbert",
+          "Louis XV"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "Pour l'anecdote, le Cardinal de Richelieu a contribué à faire considérer les chats comme animaux de compagnie."
+      },
+      {
+        "id": 30,
+        "question": "Comment s'appelle le chat du « Chat qui parlait malgré lui » de Claude Roy ?",
+        "propositions": [
+          "Chaminou",
+          "Titus",
+          "Thomas",
+          "Gaspard"
+        ],
+        "réponse": "Gaspard",
+        "anecdote": "Claude Roy, né et mort à Paris, était un poète, journaliste et écrivain français."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "To which class of vertebrate animals, comprising 5,400 species, does the cat belong ?",
+        "propositions": [
+          "Reptiles",
+          "Mammals",
+          "Birds",
+          "Fish"
+        ],
+        "réponse": "Mammals",
+        "anecdote": "Many mammals raised by humans until the 19th century disappeared or declined significantly."
+      },
+      {
+        "id": 2,
+        "question": "When you see your cat pushing his back, he's probably...",
+        "propositions": [
+          "Scared",
+          "On the hunt",
+          "Sick",
+          "Happy"
+        ],
+        "réponse": "Scared",
+        "anecdote": "If a cat falls from two meters or more while on its back, it can turn around to cushion the fall."
+      },
+      {
+        "id": 3,
+        "question": "What does the cat mainly do during his days, according to proverbs and idiocies ?",
+        "propositions": [
+          "He runs",
+          "He eats",
+          "He sleeps",
+          "He drinks"
+        ],
+        "réponse": "He sleeps",
+        "anecdote": "Most of these sayings date back centuries, some even date back to the Middle Ages."
+      },
+      {
+        "id": 4,
+        "question": "In what part of the world does the cat remain synonymous with luck or longevity ?",
+        "propositions": [
+          "Asia",
+          "Australia",
+          "Africa",
+          "Europe"
+        ],
+        "réponse": "Asia",
+        "anecdote": "This feline has left its mark on popular culture through various expressions and representations."
+      },
+      {
+        "id": 5,
+        "question": "How many toes does the cat have on its front paws ?",
+        "propositions": [
+          "Three",
+          "Six",
+          "Four",
+          "Five"
+        ],
+        "réponse": "Five",
+        "anecdote": "The cat has five toes on its front paws, only four of which touch the ground, with the thumb remaining out of the way."
+      },
+      {
+        "id": 6,
+        "question": "What is the cat's cry, although it is rarely used when cats communicate with each other ?",
+        "propositions": [
+          "Bleating",
+          "The meow",
+          "The yap",
+          "The bellow"
+        ],
+        "réponse": "The meow",
+        "anecdote": "On the other hand, when in contact with humans, cats often continue to use different vocalizations to communicate."
+      },
+      {
+        "id": 7,
+        "question": "Which of these cats is the only one with long hair ?",
+        "propositions": [
+          "Siamese",
+          "Chartreux",
+          "Abyssinian",
+          "Angora"
+        ],
+        "réponse": "Angora",
+        "anecdote": "The Turkish Angora is characterized by its very silky, mid-length coat with no undercoat."
+      },
+      {
+        "id": 8,
+        "question": "Which family of feliform carnivores is the cat part of ?",
+        "propositions": [
+          "Felidae",
+          "Hominids",
+          "Mustelids",
+          "Canines"
+        ],
+        "réponse": "Felidae",
+        "anecdote": "Among their characteristic features are their round head with a shortened skull, their jaw with thirty teeth and their retractable claws."
+      },
+      {
+        "id": 9,
+        "question": "What sound manifestation of the cat would have a relaxing effect on humans ?",
+        "propositions": [
+          "Purring",
+          "Cooing",
+          "Moo",
+          "Buzzing"
+        ],
+        "réponse": "Purring",
+        "anecdote": "Produced during expiration as well as inspiration, this low frequency sound appears from the age of two days."
+      },
+      {
+        "id": 10,
+        "question": "The cat, which has a hunter's jaw and teeth, is a mammal...",
+        "propositions": [
+          "Omnivore",
+          "Insectivore",
+          "Carnivorous",
+          "Frugivore"
+        ],
+        "réponse": "Carnivorous",
+        "anecdote": "Not all carnivorous mammals are necessarily members of the order Carnivora."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What are the long hairs on a cat's whiskers called ?",
+        "propositions": [
+          "The coverts",
+          "The barbules",
+          "Vibrissae",
+          "Wishbones"
+        ],
+        "réponse": "Vibrissae",
+        "anecdote": "In humans, vibrissae refer to the hairs inside the nostrils and under the arms."
+      },
+      {
+        "id": 12,
+        "question": "How much does a kitten weigh at birth, subjected to community breeding ?",
+        "propositions": [
+          "100g",
+          "500g",
+          "700g",
+          "300g"
+        ],
+        "réponse": "100g",
+        "anecdote": "In the event of the disappearance of one of the mothers, the orphaned kittens are raised by the other females."
+      },
+      {
+        "id": 13,
+        "question": "Although not a long-distance runner, what maximum speed can a cat reach ?",
+        "propositions": [
+          "70 km/h",
+          "90 km/h",
+          "110 km/h",
+          "50 km/h"
+        ],
+        "réponse": "50 km/h",
+        "anecdote": "When running, the cat's average speed is 40 km/h and it takes around nine seconds to cover 100 meters."
+      },
+      {
+        "id": 14,
+        "question": "Approximately how long does a cat keep the babies in her belly ?",
+        "propositions": [
+          "Nine months",
+          "Nine weeks",
+          "Nine minutes",
+          "Nine days"
+        ],
+        "réponse": "Nine weeks",
+        "anecdote": "The cat's belly begins to swell around 4 weeks and at around 35 days, the udders enlarge and turn pink."
+      },
+      {
+        "id": 15,
+        "question": "How many different breeds of cats are recognized by certification bodies ?",
+        "propositions": [
+          "80",
+          "110",
+          "140",
+          "50"
+        ],
+        "réponse": "50",
+        "anecdote": "In many countries, the cat falls within the framework of the legislation on domestic carnivores like the dog and the ferret."
+      },
+      {
+        "id": 16,
+        "question": "How many bones are in the cat's skeleton, both axial and appendicular ?",
+        "propositions": [
+          "220",
+          "250",
+          "160",
+          "190"
+        ],
+        "réponse": "250",
+        "anecdote": "The vertebrae of the cat's neck are short and its spine is very flexible."
+      },
+      {
+        "id": 17,
+        "question": "How long will it take a cat at least to travel a hundred meters ?",
+        "propositions": [
+          "12 seconds",
+          "15 seconds",
+          "9 seconds",
+          "18 seconds"
+        ],
+        "réponse": "9 seconds",
+        "anecdote": "The specificities of the cat's anatomy give this animal great flexibility and ample relaxation when jumping."
+      },
+      {
+        "id": 18,
+        "question": "What is the average number of lappings per second for the cat ?",
+        "propositions": [
+          "Five",
+          "Four",
+          "Two",
+          "Three"
+        ],
+        "réponse": "Four",
+        "anecdote": "One hypothesis explaining this lapping involves the extremely sensitive region of the cat's nose and whiskers."
+      },
+      {
+        "id": 19,
+        "question": "Which cat is the only one to be characterized by the virtual absence of its fur ?",
+        "propositions": [
+          "The Siamese",
+          "The sphynx",
+          "Persian",
+          "The Maine Coon"
+        ],
+        "réponse": "The sphynx",
+        "anecdote": "It was in 1966 in Canada that an alley cat gave birth to a litter of naked kittens."
+      },
+      {
+        "id": 20,
+        "question": "How many claws does the cat have, subject to continuous growth following natural wear ?",
+        "propositions": [
+          "18",
+          "16",
+          "22",
+          "20"
+        ],
+        "réponse": "18",
+        "anecdote": "The cat can adjust the length of its claws and sharpen them by rubbing them against a rough surface : it makes its claws."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What percentage do purebred cats represent among the total population ?",
+        "propositions": [
+          "15%",
+          "5%",
+          "35%",
+          "25%"
+        ],
+        "réponse": "5%",
+        "anecdote": "If your animal is a purebred cat, it must have a pedigree or have been the subject of a specific request."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, goddess of home joy with feline features, is a goddess of what nationality ?",
+        "propositions": [
+          "Greek",
+          "Viking",
+          "Roman",
+          "Egyptian"
+        ],
+        "réponse": "Egyptian",
+        "anecdote": "Bastet is one of the most discreet goddesses in the Egyptian pantheon and is never depicted."
+      },
+      {
+        "id": 23,
+        "question": "The Manx is a very particular cat because it does not have...",
+        "propositions": [
+          "Of mustaches",
+          "Nose",
+          "Tail",
+          "Hair"
+        ],
+        "réponse": "Tail",
+        "anecdote": "The gene mutation developed on the Isle of Man due to the isolation of cats and excessive inbreeding."
+      },
+      {
+        "id": 24,
+        "question": "Where are the scent glands located in cats ?",
+        "propositions": [
+          "Under the paws",
+          "On the tongue",
+          "Behind the ears",
+          "In the belly"
+        ],
+        "réponse": "In the belly",
+        "anecdote": "Cats primarily communicate with each other through pheromones or body positions."
+      },
+      {
+        "id": 25,
+        "question": "According to common parlance, what do you call a cat in slang ?",
+        "propositions": [
+          "Canasson",
+          "Groaning",
+          "Bourrin",
+          "Clerk"
+        ],
+        "réponse": "Clerk",
+        "anecdote": "Two explanations oppose each other : the pun on claw as well as the fur of certain cats evoking the dress of clerks."
+      },
+      {
+        "id": 26,
+        "question": "To which gene for the absence of pigment in the hair is linked the deafness of white cats ?",
+        "propositions": [
+          "Gene W",
+          "Gene X",
+          "Gene Z",
+          "Gene Y"
+        ],
+        "réponse": "Gene W",
+        "anecdote": "It has indeed been demonstrated that the W allele is directly responsible for degeneration of the inner ear, causing deafness."
+      },
+      {
+        "id": 27,
+        "question": "How many degrees is the cat's total field of vision ?",
+        "propositions": [
+          "287 degrees",
+          "206 degrees",
+          "175 degrees",
+          "253 degrees"
+        ],
+        "réponse": "287 degrees",
+        "anecdote": "The binocular viewing angle is 130°, for a total field of vision of 287°, compared to only 180° in humans."
+      },
+      {
+        "id": 28,
+        "question": "What do you call a domestic cat that returns to the wild ?",
+        "propositions": [
+          "Harett",
+          "Siberian",
+          "Ragdoll",
+          "Chartreux"
+        ],
+        "réponse": "Harett",
+        "anecdote": "The haret cat, or stray cat, may have known life among human beings or may have been born in the wild."
+      },
+      {
+        "id": 29,
+        "question": "Which clergyman and statesman owned 14 cats when he died ?",
+        "propositions": [
+          "Colbert",
+          "Napoleon",
+          "Louis XV",
+          "Richelieu"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "For the record, Cardinal Richelieu helped to make cats considered pets."
+      },
+      {
+        "id": 30,
+        "question": "What is the name of the cat in « Cat who spoke in spite of himself » by Claude Roy ?",
+        "propositions": [
+          "Gaspard",
+          "Titus",
+          "Chaminou",
+          "Thomas"
+        ],
+        "réponse": "Gaspard",
+        "anecdote": "Claude Roy, born and died in Paris, was a French poet, journalist and writer."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Zu welcher Wirbeltierklasse mit 5.400 Arten gehört die Katze ?",
+        "propositions": [
+          "Reptilien",
+          "Fisch",
+          "Säugetiere",
+          "Vögel"
+        ],
+        "réponse": "Säugetiere",
+        "anecdote": "Viele Säugetiere, die bis zum 19. Jahrhundert von Menschen gezüchtet wurden, verschwanden oder gingen stark zurück."
+      },
+      {
+        "id": 2,
+        "question": "Wenn Sie sehen, wie Ihre Katze seinen Rücken drückt, ist er wahrscheinlich...",
+        "propositions": [
+          "Krank",
+          "Glücklich",
+          "Auf der Jagd",
+          "Angst"
+        ],
+        "réponse": "Angst",
+        "anecdote": "Wenn eine Katze auf dem Rücken aus zwei Metern oder mehr fällt, kann sie sich umdrehen, um den Sturz abzufedern."
+      },
+      {
+        "id": 3,
+        "question": "Was macht die Katze laut Sprichwörtern und Idioten im Laufe ihres Lebens hauptsächlich ?",
+        "propositions": [
+          "Er schläft",
+          "Er trinkt",
+          "Er isst",
+          "Er läuft"
+        ],
+        "réponse": "Er schläft",
+        "anecdote": "Die meisten dieser Sprüche reichen Jahrhunderte zurück, einige reichen sogar bis ins Mittelalter zurück."
+      },
+      {
+        "id": 4,
+        "question": "In welchem Teil der Welt ist die Katze noch immer ein Synonym für Glück oder Langlebigkeit ?",
+        "propositions": [
+          "Europa",
+          "Asien",
+          "Australien",
+          "Afrika"
+        ],
+        "réponse": "Asien",
+        "anecdote": "Diese Katze hat durch verschiedene Ausdrucksformen und Darstellungen ihre Spuren in der Populärkultur hinterlassen."
+      },
+      {
+        "id": 5,
+        "question": "Wie viele Zehen hat die Katze an den Vorderpfoten ?",
+        "propositions": [
+          "Vier",
+          "Sechs",
+          "Fünf",
+          "Drei"
+        ],
+        "réponse": "Fünf",
+        "anecdote": "Die Katze hat fünf Zehen an den Vorderpfoten, von denen nur vier den Boden berühren, wobei der Daumen nicht im Weg ist."
+      },
+      {
+        "id": 6,
+        "question": "Was ist der Katzenschrei, obwohl er selten verwendet wird, wenn Katzen miteinander kommunizieren ?",
+        "propositions": [
+          "Das kläffen",
+          "Das Miauen",
+          "Blöken",
+          "Der Balg"
+        ],
+        "réponse": "Das Miauen",
+        "anecdote": "Andererseits verwenden Katzen im Kontakt mit Menschen häufig weiterhin unterschiedliche Lautäußerungen zur Kommunikation."
+      },
+      {
+        "id": 7,
+        "question": "Welche dieser Katzen ist die einzige mit langen Haaren ?",
+        "propositions": [
+          "Siamesisch",
+          "Chartreux",
+          "Angora",
+          "Abessinier"
+        ],
+        "réponse": "Angora",
+        "anecdote": "Charakteristisch für die Türkisch Angora ist ihr sehr seidiges, mittellanges Fell ohne Unterwolle."
+      },
+      {
+        "id": 8,
+        "question": "Zu welcher Familie feliformer Fleischfresser gehört die Katze ?",
+        "propositions": [
+          "Felidae",
+          "Eckzähne",
+          "Hominiden",
+          "Musteliden"
+        ],
+        "réponse": "Felidae",
+        "anecdote": "Zu ihren charakteristischen Merkmalen zählen ihr runder Kopf mit verkürztem Schädel, ihr Kiefer mit dreißig Zähnen und ihre einziehbaren Krallen."
+      },
+      {
+        "id": 9,
+        "question": "Welche Klangmanifestation der Katze hätte eine entspannende Wirkung auf den Menschen ?",
+        "propositions": [
+          "Muh",
+          "Schnurren",
+          "Summen",
+          "Gurren"
+        ],
+        "réponse": "Schnurren",
+        "anecdote": "Dieser niederfrequente Ton entsteht sowohl beim Ausatmen als auch beim Einatmen und tritt ab einem Alter von zwei Tagen auf."
+      },
+      {
+        "id": 10,
+        "question": "Die Katze, die einen Jägerkiefer und Zähne hat, ist ein Säugetier...",
+        "propositions": [
+          "Insektenfresser",
+          "Fleischfresser",
+          "Allesfresser",
+          "Fruchtfresser"
+        ],
+        "réponse": "Fleischfresser",
+        "anecdote": "Nicht alle fleischfressenden Säugetiere sind notwendigerweise Mitglieder der Ordnung Carnivora."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie heißen die langen Haare auf den Schnurrhaaren einer Katze ?",
+        "propositions": [
+          "Querlenker",
+          "Die Verstecke",
+          "Vibrissen",
+          "Die Barbulen"
+        ],
+        "réponse": "Vibrissen",
+        "anecdote": "Als Vibrissen bezeichnet man beim Menschen die Haare in den Nasenlöchern und unter den Armen."
+      },
+      {
+        "id": 12,
+        "question": "Wie viel wiegt ein Kätzchen bei der Geburt, wenn es in der Gemeinschaft gezüchtet wird ?",
+        "propositions": [
+          "500g",
+          "100g",
+          "700g",
+          "300g"
+        ],
+        "réponse": "100g",
+        "anecdote": "Im Falle des Verschwindens einer der Mütter werden die verwaisten Kätzchen von den anderen Weibchen großgezogen."
+      },
+      {
+        "id": 13,
+        "question": "Welche Höchstgeschwindigkeit kann eine Katze erreichen, auch wenn sie kein Langstreckenläufer ist ?",
+        "propositions": [
+          "110 km/h",
+          "90 km/h",
+          "50 km/h",
+          "70 km/h"
+        ],
+        "réponse": "50 km/h",
+        "anecdote": "Beim Laufen beträgt die Durchschnittsgeschwindigkeit der Katze 40 km/h und für die 100 Meter benötigt sie etwa neun Sekunden."
+      },
+      {
+        "id": 14,
+        "question": "Wie lange behält eine Katze die Babys ungefähr im Bauch ?",
+        "propositions": [
+          "Neun Tage",
+          "Neun Monate",
+          "Neun Wochen",
+          "Neun Minuten"
+        ],
+        "réponse": "Neun Wochen",
+        "anecdote": "Der Bauch der Katze beginnt etwa in der 4. Woche anzuschwellen und nach etwa 35 Tagen vergrößern sich die Euter und werden rosa."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele verschiedene Katzenrassen werden von Zertifizierungsstellen anerkannt ?",
+        "propositions": [
+          "50",
+          "110",
+          "140",
+          "80"
+        ],
+        "réponse": "50",
+        "anecdote": "In vielen Ländern fällt die Katze in den Rahmen der Gesetzgebung über heimische Fleischfresser wie den Hund und das Frettchen."
+      },
+      {
+        "id": 16,
+        "question": "Wie viele Knochen hat das Skelett der Katze, sowohl axiale als auch appendikuläre Knochen ?",
+        "propositions": [
+          "250",
+          "160",
+          "220",
+          "190"
+        ],
+        "réponse": "250",
+        "anecdote": "Die Halswirbel der Katze sind kurz und ihre Wirbelsäule ist sehr flexibel."
+      },
+      {
+        "id": 17,
+        "question": "Wie lange braucht eine Katze mindestens, um hundert Meter zurückzulegen ?",
+        "propositions": [
+          "12 Sekunden",
+          "9 Sekunden",
+          "18 Sekunden",
+          "15 Sekunden"
+        ],
+        "réponse": "9 Sekunden",
+        "anecdote": "Die Besonderheiten der Anatomie der Katze verleihen diesem Tier große Flexibilität und viel Entspannung beim Springen."
+      },
+      {
+        "id": 18,
+        "question": "Wie viele Runden pro Sekunde hat die Katze durchschnittlich ?",
+        "propositions": [
+          "Drei",
+          "Zwei",
+          "Fünf",
+          "Vier"
+        ],
+        "réponse": "Vier",
+        "anecdote": "Eine Hypothese, die dieses Läppen erklärt, betrifft den äußerst empfindlichen Bereich der Nase und der Schnurrhaare der Katze."
+      },
+      {
+        "id": 19,
+        "question": "Welche Katze zeichnet sich als Einzige dadurch aus, dass sie praktisch kein Fell hat ?",
+        "propositions": [
+          "Die Sphynx",
+          "Die Siamesen",
+          "Persisch",
+          "Die Maine Coon"
+        ],
+        "réponse": "Die Sphynx",
+        "anecdote": "Im Jahr 1966 brachte eine Straßenkatze in Kanada einen Wurf nackter Kätzchen zur Welt."
+      },
+      {
+        "id": 20,
+        "question": "Wie viele Krallen hat die Katze, sofern sie durch natürliche Abnutzung kontinuierlich wächst ?",
+        "propositions": [
+          "20",
+          "16",
+          "18",
+          "22"
+        ],
+        "réponse": "18",
+        "anecdote": "Die Katze kann die Länge ihrer Krallen anpassen und sie schärfen, indem sie sie an einer rauen Oberfläche reibt : Sie stellt ihre Krallen her."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welchen Anteil haben reinrassige Katzen an der Gesamtpopulation ?",
+        "propositions": [
+          "25 %",
+          "35 %",
+          "15 %",
+          "5 %"
+        ],
+        "réponse": "5 %",
+        "anecdote": "Wenn es sich bei Ihrem Tier um eine reinrassige Katze handelt, muss es einen Stammbaum haben oder Gegenstand einer besonderen Anfrage gewesen sein."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, Göttin der Heimfreude mit katzenartigen Zügen, ist eine Göttin welcher Nationalität ?",
+        "propositions": [
+          "Ägyptisch",
+          "Griechisch",
+          "Roman",
+          "Wikinger"
+        ],
+        "réponse": "Ägyptisch",
+        "anecdote": "Bastet ist eine der diskretesten Göttinnen im ägyptischen Pantheon und wird nie abgebildet."
+      },
+      {
+        "id": 23,
+        "question": "Die Manx ist eine ganz besondere Katze, weil sie nicht...",
+        "propositions": [
+          "Nase",
+          "Haare",
+          "Von Schnurrbärten",
+          "Schwanz"
+        ],
+        "réponse": "Schwanz",
+        "anecdote": "Die Genmutation entstand auf der Isle of Man aufgrund der Isolation von Katzen und übermäßiger Inzucht."
+      },
+      {
+        "id": 24,
+        "question": "Wo befinden sich die Duftdrüsen bei Katzen ?",
+        "propositions": [
+          "Unter den Pfoten",
+          "Im Bauch",
+          "Auf der Zunge",
+          "Hinter den Ohren"
+        ],
+        "réponse": "Im Bauch",
+        "anecdote": "Katzen kommunizieren hauptsächlich über Pheromone oder Körperpositionen miteinander."
+      },
+      {
+        "id": 25,
+        "question": "Wie nennt man im Volksmund eine Katze im Slang ?",
+        "propositions": [
+          "Bourrin",
+          "Stöhnen",
+          "Sachbearbeiter",
+          "Canasson"
+        ],
+        "réponse": "Sachbearbeiter",
+        "anecdote": "Zwei Erklärungen stehen einander gegenüber : das Wortspiel mit der Kralle sowie das Fell bestimmter Katzen, das an die Kleidung von Angestellten erinnert."
+      },
+      {
+        "id": 26,
+        "question": "Mit welchem Gen für das Fehlen von Pigmenten im Haar ist die Taubheit weißer Katzen verbunden ?",
+        "propositions": [
+          "Gen Z",
+          "Gene W",
+          "Gen Y",
+          "Gen X"
+        ],
+        "réponse": "Gene W",
+        "anecdote": "Es wurde tatsächlich nachgewiesen, dass das W-Allel direkt für die Degeneration des Innenohrs verantwortlich ist, die zu Taubheit führt."
+      },
+      {
+        "id": 27,
+        "question": "Wie viele Grad hat das gesamte Sichtfeld der Katze ?",
+        "propositions": [
+          "206 Grad",
+          "175 Grad",
+          "287 Grad",
+          "253 Grad"
+        ],
+        "réponse": "287 Grad",
+        "anecdote": "Der binokulare Blickwinkel beträgt 130°, was einem Gesamtsichtfeld von 287° entspricht, im Vergleich zu nur 180° beim Menschen."
+      },
+      {
+        "id": 28,
+        "question": "Wie nennt man eine Hauskatze, die in die Wildnis zurückkehrt ?",
+        "propositions": [
+          "Ragdoll",
+          "Sibirisch",
+          "Chartreux",
+          "Harett"
+        ],
+        "réponse": "Harett",
+        "anecdote": "Die Hasenkatze oder streunende Katze kann unter Menschen gelebt haben oder in der Wildnis geboren worden sein."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Geistliche und Staatsmann besaß bei seinem Tod 14 Katzen ?",
+        "propositions": [
+          "Ludwig XV.",
+          "Colbert",
+          "Richelieu",
+          "Napoleon"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "Zur Erinnerung : Kardinal Richelieu hat dazu beigetragen, Katzen zu Haustieren zu machen."
+      },
+      {
+        "id": 30,
+        "question": "Wie heißt die Katze in « Die Katze, die wider Willen sprach » von Claude Roy ?",
+        "propositions": [
+          "Thomas",
+          "Gaspard",
+          "Titus",
+          "Chaminou"
+        ],
+        "réponse": "Gaspard",
+        "anecdote": "Claude Roy, geboren und gestorben in Paris, war ein französischer Dichter, Journalist und Schriftsteller."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿A qué clase de animales vertebrados, que comprende 5.400 especies, pertenece el gato ?",
+        "propositions": [
+          "Reptiles",
+          "Mamíferos",
+          "Aves",
+          "Pescado"
+        ],
+        "réponse": "Mamíferos",
+        "anecdote": "Muchos mamíferos criados por humanos hasta el siglo XIX desaparecieron o disminuyeron significativamente."
+      },
+      {
+        "id": 2,
+        "question": "Cuando veas a tu gato empujándole la espalda, probablemente esté...",
+        "propositions": [
+          "Asustado",
+          "Feliz",
+          "A la caza",
+          "Enfermo"
+        ],
+        "réponse": "Asustado",
+        "anecdote": "Si un gato cae desde dos metros o más, mientras está de espaldas, puede darse la vuelta para amortiguar la caída."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué hace principalmente el gato durante sus días, según refranes e idioteces ?",
+        "propositions": [
+          "El come",
+          "Él corre",
+          "Él bebe",
+          "El duerme"
+        ],
+        "réponse": "El duerme",
+        "anecdote": "La mayoría de estos dichos se remontan a siglos atrás, algunos incluso se remontan a la Edad Media."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué parte del mundo el gato sigue siendo sinónimo de suerte o longevidad ?",
+        "propositions": [
+          "Europa",
+          "Australia",
+          "Asia",
+          "África"
+        ],
+        "réponse": "Asia",
+        "anecdote": "Este felino ha dejado su huella en la cultura popular a través de diversas expresiones y representaciones."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuántos dedos tiene el gato en las patas delanteras ?",
+        "propositions": [
+          "Seis",
+          "Cinco",
+          "Tres",
+          "Cuatro"
+        ],
+        "réponse": "Cinco",
+        "anecdote": "El gato tiene cinco dedos en las patas delanteras, de los cuales sólo cuatro tocan el suelo y el pulgar queda apartado."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué es el llanto de un gato, aunque rara vez se utiliza cuando los gatos se comunican entre sí ?",
+        "propositions": [
+          "El maullido",
+          "Balando",
+          "El ladrido",
+          "El bramido"
+        ],
+        "réponse": "El maullido",
+        "anecdote": "Por otro lado, cuando están en contacto con humanos, los gatos suelen seguir utilizando diferentes vocalizaciones para comunicarse."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuál de estos gatos es el único que tiene el pelo largo ?",
+        "propositions": [
+          "Abisinio",
+          "siamés",
+          "angora",
+          "Cartujo"
+        ],
+        "réponse": "angora",
+        "anecdote": "El Angora turco se caracteriza por su pelaje medio, muy sedoso y sin subpelo."
+      },
+      {
+        "id": 8,
+        "question": "¿A qué familia de carnívoros feliformes pertenece el gato ?",
+        "propositions": [
+          "Homínidos",
+          "Félidos",
+          "Caninos",
+          "Mustélidos"
+        ],
+        "réponse": "Félidos",
+        "anecdote": "Entre sus rasgos característicos se encuentran su cabeza redonda con el cráneo acortado, su mandíbula con treinta dientes y sus garras retráctiles."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué manifestación sonora del gato tendría un efecto relajante en los humanos ?",
+        "propositions": [
+          "Zumbido",
+          "Muuu",
+          "Ronroneando",
+          "Arrullo"
+        ],
+        "réponse": "Ronroneando",
+        "anecdote": "Producido tanto durante la espiración como durante la inspiración, este sonido de baja frecuencia aparece a partir de los dos días de edad."
+      },
+      {
+        "id": 10,
+        "question": "El gato, que tiene mandíbula y dientes de cazador, es un mamífero...",
+        "propositions": [
+          "Insectívoro",
+          "Carnívoro",
+          "Omnívoro",
+          "Frugívoro"
+        ],
+        "réponse": "Carnívoro",
+        "anecdote": "No todos los mamíferos carnívoros son necesariamente miembros del orden Carnivora."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cómo se llaman los pelos largos de los bigotes de un gato ?",
+        "propositions": [
+          "Las bárbulas",
+          "Espoletas",
+          "Vibrisas",
+          "Las coberteras"
+        ],
+        "réponse": "Vibrisas",
+        "anecdote": "En los seres humanos, las vibrisas se refieren a los pelos que se encuentran dentro de las fosas nasales y debajo de los brazos."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuánto pesa un gatito al nacer sometido a cría comunitaria ?",
+        "propositions": [
+          "700g",
+          "500g",
+          "100g",
+          "300g"
+        ],
+        "réponse": "100g",
+        "anecdote": "En caso de desaparición de una de las madres, los gatitos huérfanos son criados por las otras hembras."
+      },
+      {
+        "id": 13,
+        "question": "Aunque no es un corredor de largas distancias, ¿qué velocidad máxima puede alcanzar un gato ?",
+        "propositions": [
+          "90 kilómetros por hora",
+          "70 kilómetros por hora",
+          "50 kilómetros por hora",
+          "110 kilómetros por hora"
+        ],
+        "réponse": "50 kilómetros por hora",
+        "anecdote": "Cuando corre, la velocidad media del gato es de 40 km/h y tarda unos nueve segundos en recorrer 100 metros."
+      },
+      {
+        "id": 14,
+        "question": "¿Aproximadamente cuánto tiempo mantiene una gata a los bebés en su barriga ?",
+        "propositions": [
+          "Nueve meses",
+          "Nueve semanas",
+          "Nueve días",
+          "Nueve minutos"
+        ],
+        "réponse": "Nueve semanas",
+        "anecdote": "La barriga del gato comienza a hincharse alrededor de las 4 semanas y alrededor de los 35 días, las ubres se agrandan y se vuelven rosadas."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuántas razas diferentes de gatos reconocen los organismos de certificación ?",
+        "propositions": [
+          "80",
+          "50",
+          "110",
+          "140"
+        ],
+        "réponse": "50",
+        "anecdote": "En muchos países, el gato entra en el marco de la legislación sobre carnívoros domésticos como el perro y el hurón."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuántos huesos hay en el esqueleto del gato, tanto axiales como apendiculares ?",
+        "propositions": [
+          "250",
+          "190",
+          "220",
+          "160"
+        ],
+        "réponse": "250",
+        "anecdote": "Las vértebras del cuello del gato son cortas y su columna vertebral muy flexible."
+      },
+      {
+        "id": 17,
+        "question": "¿Cuánto tiempo tardará un gato en recorrer al menos cien metros ?",
+        "propositions": [
+          "12 segundos",
+          "15 segundos",
+          "9 segundos",
+          "18 segundos"
+        ],
+        "réponse": "9 segundos",
+        "anecdote": "Las especificidades de la anatomía del gato confieren a este animal una gran flexibilidad y una amplia relajación al saltar."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál es el promedio de lametones por segundo del gato ?",
+        "propositions": [
+          "Cuatro",
+          "Tres",
+          "Cinco",
+          "Dos"
+        ],
+        "réponse": "Cuatro",
+        "anecdote": "Una hipótesis que explica este lamido involucra la región extremadamente sensible de la nariz y los bigotes del gato."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué gato es el único que se caracteriza por la práctica ausencia de pelaje ?",
+        "propositions": [
+          "La esfinge",
+          "persa",
+          "Los siameses",
+          "El Maine Coon"
+        ],
+        "réponse": "La esfinge",
+        "anecdote": "Fue en 1966 en Canadá cuando una gata callejera dio a luz a una camada de gatitos desnudos."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuántas garras tiene el gato, sujetas a un crecimiento continuo tras el desgaste natural ?",
+        "propositions": [
+          "16",
+          "22",
+          "20",
+          "18"
+        ],
+        "réponse": "18",
+        "anecdote": "El gato puede ajustar la longitud de sus garras y afilarlas frotándolas contra una superficie rugosa : forma sus garras."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué porcentaje representan los gatos de pura raza entre la población total ?",
+        "propositions": [
+          "15%",
+          "5%",
+          "35%",
+          "25%"
+        ],
+        "réponse": "5%",
+        "anecdote": "Si tu animal es un gato de pura raza, deberá tener pedigrí o haber sido objeto de una solicitud específica."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, diosa de la alegría hogareña con rasgos felinos, ¿es diosa de qué nacionalidad ?",
+        "propositions": [
+          "Griego",
+          "vikingo",
+          "romano",
+          "egipcio"
+        ],
+        "réponse": "egipcio",
+        "anecdote": "Bastet es una de las diosas más discretas del panteón egipcio y nunca aparece representada."
+      },
+      {
+        "id": 23,
+        "question": "El Manx es un gato muy particular porque no tiene...",
+        "propositions": [
+          "Cola",
+          "Cabello",
+          "Nariz",
+          "De bigotes"
+        ],
+        "réponse": "Cola",
+        "anecdote": "La mutación genética se desarrolló en la Isla de Man debido al aislamiento de los gatos y a la excesiva endogamia."
+      },
+      {
+        "id": 24,
+        "question": "¿Dónde se encuentran las glándulas odoríferas en los gatos ?",
+        "propositions": [
+          "En el vientre",
+          "Detrás de las orejas",
+          "En la lengua",
+          "Debajo de las patas"
+        ],
+        "réponse": "En el vientre",
+        "anecdote": "Los gatos se comunican principalmente entre sí mediante feromonas o posiciones corporales."
+      },
+      {
+        "id": 25,
+        "question": "Según el lenguaje común, ¿cómo se llama en jerga a un gato ?",
+        "propositions": [
+          "Bourrín",
+          "Gemidos",
+          "empleado",
+          "Canasson"
+        ],
+        "réponse": "empleado",
+        "anecdote": "Se oponen dos explicaciones : el juego de palabras con la garra y el pelaje de ciertos gatos que evoca la vestimenta de los oficinistas."
+      },
+      {
+        "id": 26,
+        "question": "¿A qué gen de la ausencia de pigmento en el pelo se relaciona la sordera de los gatos blancos ?",
+        "propositions": [
+          "Gene X",
+          "Gen W",
+          "Gene Z",
+          "Gene Y"
+        ],
+        "réponse": "Gen W",
+        "anecdote": "De hecho, se ha demostrado que el alelo Wall es directamente responsable de la degeneración del oído interno, provocando la sordera."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuántos grados tiene el campo visual total del gato ?",
+        "propositions": [
+          "206 grados",
+          "253 grados",
+          "175 grados",
+          "287 grados"
+        ],
+        "réponse": "287 grados",
+        "anecdote": "El ángulo de visión de los binoculares es de 130°, para un campo de visión total de 287°, en comparación con sólo 180° en los humanos."
+      },
+      {
+        "id": 28,
+        "question": "¿Cómo se llama un gato doméstico que regresa a la naturaleza ?",
+        "propositions": [
+          "Harett",
+          "Cartujo",
+          "muñeca de trapo",
+          "siberiano"
+        ],
+        "réponse": "Harett",
+        "anecdote": "El gato liebre, o gato callejero, pudo haber conocido la vida entre los seres humanos o haber nacido en la naturaleza."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué clérigo y estadista tenía 14 gatos cuando murió ?",
+        "propositions": [
+          "Napoleón",
+          "Colberto",
+          "Richelieu",
+          "Luis XV"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "Para que conste, el cardenal Richelieu ayudó a que los gatos fueran considerados mascotas."
+      },
+      {
+        "id": 30,
+        "question": "¿Cómo se llama el gato de « El gato que habló a pesar de sí mismo » de Claude Roy ?",
+        "propositions": [
+          "Tomás",
+          "Chaminou",
+          "Gaspardo",
+          "Tito"
+        ],
+        "réponse": "Gaspardo",
+        "anecdote": "Claude Roy, nacido y fallecido en París, fue un poeta, periodista y escritor francés."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "A quale classe di animali vertebrati, che comprende 5.400 specie, appartiene il gatto ?",
+        "propositions": [
+          "Rettili",
+          "Mammiferi",
+          "Pesce",
+          "Uccelli"
+        ],
+        "réponse": "Mammiferi",
+        "anecdote": "Molti mammiferi allevati dall'uomo fino al XIX secolo sono scomparsi o sono diminuiti in modo significativo."
+      },
+      {
+        "id": 2,
+        "question": "Quando vedi il tuo gatto che gli spinge la schiena, probabilmente è...",
+        "propositions": [
+          "A caccia",
+          "Malato",
+          "Felice",
+          "Spaventato"
+        ],
+        "réponse": "Spaventato",
+        "anecdote": "Se un gatto cade da due metri o più mentre è sul dorso, può girarsi per attutire la caduta."
+      },
+      {
+        "id": 3,
+        "question": "Cosa fa principalmente il gatto durante le sue giornate, secondo proverbi e idiozie ?",
+        "propositions": [
+          "Beve",
+          "Mangia",
+          "Dorme",
+          "Corre"
+        ],
+        "réponse": "Dorme",
+        "anecdote": "La maggior parte di questi detti risalgono a secoli fa, alcuni risalgono addirittura al Medioevo."
+      },
+      {
+        "id": 4,
+        "question": "In quale parte del mondo il gatto resta sinonimo di fortuna o longevità ?",
+        "propositions": [
+          "Asia",
+          "Europa",
+          "Africa",
+          "Australia"
+        ],
+        "réponse": "Asia",
+        "anecdote": "Questo felino ha lasciato il segno nella cultura popolare attraverso varie espressioni e rappresentazioni."
+      },
+      {
+        "id": 5,
+        "question": "Quante dita ha il gatto sulle zampe anteriori ?",
+        "propositions": [
+          "Quattro",
+          "Tre",
+          "Cinque",
+          "Sei"
+        ],
+        "réponse": "Cinque",
+        "anecdote": "Il gatto ha cinque dita sulle zampe anteriori, solo quattro delle quali toccano il suolo, mentre il pollice rimane lontano."
+      },
+      {
+        "id": 6,
+        "question": "Cos'è il grido del gatto, anche se viene usato raramente quando i gatti comunicano tra loro ?",
+        "propositions": [
+          "Il miagolio",
+          "Belare",
+          "Il soffietto",
+          "Il già"
+        ],
+        "réponse": "Il miagolio",
+        "anecdote": "D'altra parte, quando entrano in contatto con gli esseri umani, i gatti continuano spesso a utilizzare vocalizzazioni diverse per comunicare."
+      },
+      {
+        "id": 7,
+        "question": "Quale di questi gatti è l'unico con il pelo lungo ?",
+        "propositions": [
+          "Angora",
+          "Siamese",
+          "Certosino",
+          "Abissino"
+        ],
+        "réponse": "Angora",
+        "anecdote": "L'Angora Turco è caratterizzato da un pelo molto setoso, di media lunghezza, senza sottopelo."
+      },
+      {
+        "id": 8,
+        "question": "Di quale famiglia di carnivori feliformi fa parte il gatto ?",
+        "propositions": [
+          "Ominidi",
+          "Mustelidi",
+          "Felidi",
+          "Canini"
+        ],
+        "réponse": "Felidi",
+        "anecdote": "Tra i loro tratti caratteristici ci sono la testa rotonda con il cranio accorciato, la mascella con trenta denti e gli artigli retrattili."
+      },
+      {
+        "id": 9,
+        "question": "Quale manifestazione sonora del gatto avrebbe un effetto rilassante sugli esseri umani ?",
+        "propositions": [
+          "Muu",
+          "Ronzio",
+          "Facendo le fusa",
+          "Tubare"
+        ],
+        "réponse": "Facendo le fusa",
+        "anecdote": "Prodotto durante l'espirazione e l'inspirazione, questo suono a bassa frequenza appare dall'età di due giorni."
+      },
+      {
+        "id": 10,
+        "question": "Il gatto, che ha mascella e denti da cacciatore, è un mammifero...",
+        "propositions": [
+          "Carnivoro",
+          "Insettivoro",
+          "Onnivoro",
+          "Frugivoro"
+        ],
+        "réponse": "Carnivoro",
+        "anecdote": "Non tutti i mammiferi carnivori sono necessariamente membri dell'ordine dei carnivori."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Come si chiamano i lunghi peli sui baffi del gatto ?",
+        "propositions": [
+          "Le barbule",
+          "Vibrisse",
+          "Le copritrici",
+          "Bracci trasversali"
+        ],
+        "réponse": "Vibrisse",
+        "anecdote": "Negli esseri umani, le vibrisse si riferiscono ai peli all'interno delle narici e sotto le ascelle."
+      },
+      {
+        "id": 12,
+        "question": "Quanto pesa alla nascita un gattino sottoposto ad allevamento in comunità ?",
+        "propositions": [
+          "700g",
+          "100g",
+          "500g",
+          "300g"
+        ],
+        "réponse": "100g",
+        "anecdote": "In caso di scomparsa di una delle madri, i gattini orfani vengono allevati dalle altre femmine."
+      },
+      {
+        "id": 13,
+        "question": "Pur non essendo un maratoneta, quale velocità massima può raggiungere un gatto ?",
+        "propositions": [
+          "110 chilometri all'ora",
+          "70 chilometri all'ora",
+          "90 chilometri all'ora",
+          "50 chilometri all'ora"
+        ],
+        "réponse": "50 chilometri all'ora",
+        "anecdote": "Quando corre, la velocità media del gatto è di 40 km/h e impiega circa nove secondi per percorrere 100 metri."
+      },
+      {
+        "id": 14,
+        "question": "Approssimativamente per quanto tempo una gatta tiene i cuccioli nella pancia ?",
+        "propositions": [
+          "Nove giorni",
+          "Nove mesi",
+          "Nove settimane",
+          "Nove minuti"
+        ],
+        "réponse": "Nove settimane",
+        "anecdote": "La pancia del gatto inizia a gonfiarsi intorno alle 4 settimane e intorno ai 35 giorni le mammelle si allargano e diventano rosa."
+      },
+      {
+        "id": 15,
+        "question": "Quante razze diverse di gatti sono riconosciute dagli enti di certificazione ?",
+        "propositions": [
+          "140",
+          "50",
+          "80",
+          "110"
+        ],
+        "réponse": "50",
+        "anecdote": "In molti paesi il gatto rientra nel quadro della legislazione sui carnivori domestici come il cane e il furetto."
+      },
+      {
+        "id": 16,
+        "question": "Quante ossa ci sono nello scheletro del gatto, sia assiali che appendicolari ?",
+        "propositions": [
+          "160",
+          "190",
+          "220",
+          "250"
+        ],
+        "réponse": "250",
+        "anecdote": "Le vertebre del collo del gatto sono corte e la sua colonna vertebrale è molto flessibile."
+      },
+      {
+        "id": 17,
+        "question": "Quanto tempo impiega un gatto per percorrere almeno un centinaio di metri ?",
+        "propositions": [
+          "12 secondi",
+          "9 secondi",
+          "15 secondi",
+          "18 secondi"
+        ],
+        "réponse": "9 secondi",
+        "anecdote": "Le specificità dell'anatomia del gatto conferiscono a questo animale una grande flessibilità e un ampio relax durante i salti."
+      },
+      {
+        "id": 18,
+        "question": "Qual è il numero medio di lappature al secondo del gatto ?",
+        "propositions": [
+          "Due",
+          "Tre",
+          "Quattro",
+          "Cinque"
+        ],
+        "réponse": "Quattro",
+        "anecdote": "Un'ipotesi che spiega questo lambimento coinvolge la regione estremamente sensibile del naso e dei baffi del gatto."
+      },
+      {
+        "id": 19,
+        "question": "Quale gatto è l'unico ad essere caratterizzato dalla virtuale assenza del pelo ?",
+        "propositions": [
+          "Il Maine Coon",
+          "La sfinge",
+          "Il siamese",
+          "Persiano"
+        ],
+        "réponse": "La sfinge",
+        "anecdote": "Fu nel 1966 in Canada che una gatta randagia diede alla luce una cucciolata di gattini nudi."
+      },
+      {
+        "id": 20,
+        "question": "Quanti artigli ha il gatto, soggetti a continua crescita a seguito della naturale usura ?",
+        "propositions": [
+          "22",
+          "16",
+          "20",
+          "18"
+        ],
+        "réponse": "18",
+        "anecdote": "Il gatto può regolare la lunghezza dei suoi artigli e affilarli strofinandoli contro una superficie ruvida : forma gli artigli."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale percentuale rappresentano i gatti di razza rispetto alla popolazione totale ?",
+        "propositions": [
+          "15%",
+          "25%",
+          "5%",
+          "35%"
+        ],
+        "réponse": "5%",
+        "anecdote": "Se il tuo animale è un gatto di razza, deve avere un pedigree o essere stato oggetto di una richiesta specifica."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, dea della gioia domestica dalle sembianze feline, è una dea di quale nazionalità ?",
+        "propositions": [
+          "Romano",
+          "Greco",
+          "Vichingo",
+          "Egiziano"
+        ],
+        "réponse": "Egiziano",
+        "anecdote": "Bastet è una delle dee più discrete del pantheon egiziano e non viene mai raffigurata."
+      },
+      {
+        "id": 23,
+        "question": "Il Manx è un gatto molto particolare perchè non ha...",
+        "propositions": [
+          "Naso",
+          "Capelli",
+          "Coda",
+          "Di baffi"
+        ],
+        "réponse": "Coda",
+        "anecdote": "La mutazione genetica si è sviluppata sull'Isola di Man a causa dell'isolamento dei gatti e dell'eccessiva consanguineità."
+      },
+      {
+        "id": 24,
+        "question": "Dove si trovano le ghiandole odorifere nei gatti ?",
+        "propositions": [
+          "Sotto le zampe",
+          "Dietro le orecchie",
+          "Nella pancia",
+          "Sulla lingua"
+        ],
+        "réponse": "Nella pancia",
+        "anecdote": "I gatti comunicano tra loro principalmente attraverso i feromoni o le posizioni del corpo."
+      },
+      {
+        "id": 25,
+        "question": "Secondo il linguaggio comune, come si chiama un gatto in slang ?",
+        "propositions": [
+          "Bourin",
+          "Impiegato",
+          "Canasson",
+          "Gemendo"
+        ],
+        "réponse": "Impiegato",
+        "anecdote": "Due spiegazioni si oppongono : il gioco di parole sull'artiglio e il pelo di certi gatti che evocano l'abito degli impiegati."
+      },
+      {
+        "id": 26,
+        "question": "A quale gene responsabile dell'assenza di pigmento nel pelo è legata la sordità dei gatti bianchi ?",
+        "propositions": [
+          "Gene W",
+          "Gene Y",
+          "Gene X",
+          "Gene Z"
+        ],
+        "réponse": "Gene W",
+        "anecdote": "È stato infatti dimostrato che l'allele W è direttamente responsabile della degenerazione dell'orecchio interno, causando la sordità."
+      },
+      {
+        "id": 27,
+        "question": "Di quanti gradi è il campo visivo totale del gatto ?",
+        "propositions": [
+          "206 gradi",
+          "287 gradi",
+          "175 gradi",
+          "253 gradi"
+        ],
+        "réponse": "287 gradi",
+        "anecdote": "L'angolo di visione binoculare è di 130°, per un campo visivo totale di 287°, rispetto ai soli 180° dell'uomo."
+      },
+      {
+        "id": 28,
+        "question": "Come si chiama un gatto domestico che ritorna in libertà ?",
+        "propositions": [
+          "Siberiano",
+          "Harett",
+          "Ragdoll",
+          "Certosino"
+        ],
+        "réponse": "Harett",
+        "anecdote": "Il gatto leprotto, o gatto randagio, potrebbe aver conosciuto la vita tra gli esseri umani o potrebbe essere nato allo stato brado."
+      },
+      {
+        "id": 29,
+        "question": "Quale sacerdote e statista possedeva 14 gatti quando morì ?",
+        "propositions": [
+          "Luigi XV",
+          "Richelieu",
+          "Colbert",
+          "Napoleone"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "Per la cronaca, il cardinale Richelieu ha contribuito a rendere i gatti considerati animali domestici."
+      },
+      {
+        "id": 30,
+        "question": "Come si chiama il gatto in « Il gatto che parlava suo malgrado » di Claude Roy ?",
+        "propositions": [
+          "Tommaso",
+          "Chaminou",
+          "Gaspare",
+          "Tito"
+        ],
+        "réponse": "Gaspare",
+        "anecdote": "Claude Roy, nato e morto a Parigi, è stato un poeta, giornalista e scrittore francese."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Tot welke klasse van gewervelde dieren, die 5.400 soorten omvat, behoort de kat ?",
+        "propositions": [
+          "Vogels",
+          "Reptielen",
+          "Vis",
+          "Zoogdieren"
+        ],
+        "réponse": "Zoogdieren",
+        "anecdote": "Veel zoogdieren die tot de 19e eeuw door mensen werden grootgebracht, verdwenen of gingen aanzienlijk achteruit."
+      },
+      {
+        "id": 2,
+        "question": "Als je ziet dat je kat zijn rug duwt, is hij waarschijnlijk...",
+        "propositions": [
+          "Op jacht",
+          "Ziek",
+          "Gelukkig",
+          "Bang"
+        ],
+        "réponse": "Bang",
+        "anecdote": "Als een kat van twee meter of meer valt terwijl hij op zijn rug ligt, kan hij zich omdraaien om de val op te vangen."
+      },
+      {
+        "id": 3,
+        "question": "Wat doet de kat voornamelijk tijdens zijn dagen, volgens spreekwoorden en idioten ?",
+        "propositions": [
+          "Hij slaapt",
+          "Hij drinkt",
+          "Hij rent",
+          "Hij eet"
+        ],
+        "réponse": "Hij slaapt",
+        "anecdote": "De meeste van deze uitspraken dateren van eeuwen, sommige dateren zelfs uit de Middeleeuwen."
+      },
+      {
+        "id": 4,
+        "question": "In welk deel van de wereld blijft de kat synoniem voor geluk of een lang leven ?",
+        "propositions": [
+          "Afrika",
+          "Europa",
+          "Azië",
+          "Australië"
+        ],
+        "réponse": "Azië",
+        "anecdote": "Deze katachtige heeft via verschillende uitingen en representaties zijn stempel gedrukt op de populaire cultuur."
+      },
+      {
+        "id": 5,
+        "question": "Hoeveel tenen heeft de kat aan zijn voorpoten ?",
+        "propositions": [
+          "Zes",
+          "Vier",
+          "Vijf",
+          "Drie"
+        ],
+        "réponse": "Vijf",
+        "anecdote": "De kat heeft vijf tenen aan de voorpoten, waarvan er slechts vier de grond raken, waarbij de duim uit de weg blijft."
+      },
+      {
+        "id": 6,
+        "question": "Wat is de kreet van de kat, hoewel deze zelden wordt gebruikt wanneer katten met elkaar communiceren ?",
+        "propositions": [
+          "De balg",
+          "Blaten",
+          "De jaap",
+          "De miauw"
+        ],
+        "réponse": "De miauw",
+        "anecdote": "Aan de andere kant blijven katten, wanneer ze in contact komen met mensen, vaak verschillende vocalisaties gebruiken om te communiceren."
+      },
+      {
+        "id": 7,
+        "question": "Welke van deze katten is de enige met lang haar ?",
+        "propositions": [
+          "Chartreux",
+          "Abessijn",
+          "Angora",
+          "Siamees"
+        ],
+        "réponse": "Angora",
+        "anecdote": "De Turkse Angora wordt gekenmerkt door zijn zeer zijdeachtige, halflange vacht zonder ondervacht."
+      },
+      {
+        "id": 8,
+        "question": "Van welke familie van feliforme carnivoren maakt de kat deel uit ?",
+        "propositions": [
+          "Mensachtigen",
+          "Hoektanden",
+          "Marterachtigen",
+          "Felidae"
+        ],
+        "réponse": "Felidae",
+        "anecdote": "Tot hun karakteristieke kenmerken behoren hun ronde kop met een verkorte schedel, hun kaak met dertig tanden en hun intrekbare klauwen."
+      },
+      {
+        "id": 9,
+        "question": "Welke geluidsmanifestatie van de kat zou een ontspannend effect hebben op mensen ?",
+        "propositions": [
+          "Koeren",
+          "Spinnen",
+          "Moe",
+          "Zoemend"
+        ],
+        "réponse": "Spinnen",
+        "anecdote": "Dit laagfrequente geluid, geproduceerd tijdens de uitademing en de inspiratie, verschijnt vanaf de leeftijd van twee dagen."
+      },
+      {
+        "id": 10,
+        "question": "De kat, die de kaak en tanden van een jager heeft, is een zoogdier...",
+        "propositions": [
+          "Insecteneter",
+          "Frugivore",
+          "Alleseter",
+          "Vleesetende"
+        ],
+        "réponse": "Vleesetende",
+        "anecdote": "Niet alle vleesetende zoogdieren zijn noodzakelijkerwijs lid van de orde Carnivora."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hoe heten de lange haren op de snorharen van een kat ?",
+        "propositions": [
+          "De schuilplaatsen",
+          "De baardjes",
+          "Vibrissae",
+          "Draagarmen"
+        ],
+        "réponse": "Vibrissae",
+        "anecdote": "Bij mensen verwijzen vibrissae naar de haren in de neusgaten en onder de armen."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel weegt een kitten bij de geboorte als hij in de gemeenschap wordt gefokt ?",
+        "propositions": [
+          "700g",
+          "100g",
+          "300g",
+          "500g"
+        ],
+        "réponse": "100g",
+        "anecdote": "Bij de verdwijning van een van de moeders worden de weeskittens opgevoed door de andere vrouwtjes."
+      },
+      {
+        "id": 13,
+        "question": "Welke maximale snelheid kan een kat bereiken, ook al is hij geen langeafstandsloper ?",
+        "propositions": [
+          "50 km/u",
+          "90 km/u",
+          "110 km/u",
+          "70 km/u"
+        ],
+        "réponse": "50 km/u",
+        "anecdote": "Tijdens het rennen is de gemiddelde snelheid van de kat 40 km/u en het duurt ongeveer negen seconden om 100 meter af te leggen."
+      },
+      {
+        "id": 14,
+        "question": "Hoe lang houdt een kat de baby's ongeveer in haar buik ?",
+        "propositions": [
+          "Negen minuten",
+          "Negen dagen",
+          "Negen maanden",
+          "Negen weken"
+        ],
+        "réponse": "Negen weken",
+        "anecdote": "De buik van de kat begint rond de 4 weken op te zwellen en rond de 35 dagen worden de uiers groter en roze."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel verschillende kattenrassen worden door certificeringsinstanties erkend ?",
+        "propositions": [
+          "50",
+          "80",
+          "110",
+          "140"
+        ],
+        "réponse": "50",
+        "anecdote": "In veel landen valt de kat binnen het kader van de wetgeving inzake binnenlandse carnivoren zoals de hond en de fret."
+      },
+      {
+        "id": 16,
+        "question": "Hoeveel botten zitten er in het skelet van de kat, zowel axiaal als appendiculair ?",
+        "propositions": [
+          "160",
+          "220",
+          "250",
+          "190"
+        ],
+        "réponse": "250",
+        "anecdote": "De wervels van de nek van de kat zijn kort en de wervelkolom is zeer flexibel."
+      },
+      {
+        "id": 17,
+        "question": "Hoe lang doet een kat er minstens over om honderd meter af te leggen ?",
+        "propositions": [
+          "15 seconden",
+          "18 seconden",
+          "9 seconden",
+          "12 seconden"
+        ],
+        "réponse": "9 seconden",
+        "anecdote": "De specifieke kenmerken van de anatomie van de kat geven dit dier een grote flexibiliteit en voldoende ontspanning tijdens het springen."
+      },
+      {
+        "id": 18,
+        "question": "Wat is het gemiddelde aantal lappen per seconde voor de kat ?",
+        "propositions": [
+          "Drie",
+          "Twee",
+          "Vier",
+          "Vijf"
+        ],
+        "réponse": "Vier",
+        "anecdote": "Eén hypothese die dit lappen verklaart, heeft betrekking op het extreem gevoelige gebied van de neus en snorharen van de kat."
+      },
+      {
+        "id": 19,
+        "question": "Welke kat is de enige die wordt gekenmerkt door de vrijwel afwezigheid van zijn vacht ?",
+        "propositions": [
+          "De Siamees",
+          "De Maine Coon",
+          "De sfinx",
+          "Perzisch"
+        ],
+        "réponse": "De sfinx",
+        "anecdote": "Het was in 1966 in Canada dat een straatkat een nest naakte kittens baarde."
+      },
+      {
+        "id": 20,
+        "question": "Hoeveel klauwen heeft de kat, onderhevig aan voortdurende groei als gevolg van natuurlijke slijtage ?",
+        "propositions": [
+          "18",
+          "16",
+          "20",
+          "22"
+        ],
+        "réponse": "18",
+        "anecdote": "De kat kan de lengte van zijn klauwen aanpassen en deze scherpen door ze tegen een ruw oppervlak te wrijven : hij maakt zijn klauwen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk percentage vertegenwoordigen raskatten in de totale populatie ?",
+        "propositions": [
+          "35%",
+          "25%",
+          "15%",
+          "5%"
+        ],
+        "réponse": "5%",
+        "anecdote": "Als uw dier een raskat is, moet het een stamboom hebben of het onderwerp zijn geweest van een specifiek verzoek."
+      },
+      {
+        "id": 22,
+        "question": "Bastet, de godin van het huiselijke plezier met katachtige trekken, is een godin van welke nationaliteit ?",
+        "propositions": [
+          "Viking",
+          "Egyptisch",
+          "Grieks",
+          "Romeins"
+        ],
+        "réponse": "Egyptisch",
+        "anecdote": "Bastet is een van de meest discrete godinnen in het Egyptische pantheon en wordt nooit afgebeeld."
+      },
+      {
+        "id": 23,
+        "question": "De Manx is een heel bijzondere kat omdat hij geen...",
+        "propositions": [
+          "Haar",
+          "Staart",
+          "Neus",
+          "Van snorren"
+        ],
+        "réponse": "Staart",
+        "anecdote": "De genmutatie ontstond op het eiland Man als gevolg van de isolatie van katten en overmatige inteelt."
+      },
+      {
+        "id": 24,
+        "question": "Waar bevinden zich de geurklieren bij katten ?",
+        "propositions": [
+          "Onder de poten",
+          "Op de tong",
+          "Achter de oren",
+          "In de buik"
+        ],
+        "réponse": "In de buik",
+        "anecdote": "Katten communiceren voornamelijk met elkaar via feromonen of lichaamshoudingen."
+      },
+      {
+        "id": 25,
+        "question": "Hoe noem je, in het gewone taalgebruik, een kat in het jargon ?",
+        "propositions": [
+          "Klerk",
+          "Canasson",
+          "Bourrin",
+          "Kreunen"
+        ],
+        "réponse": "Klerk",
+        "anecdote": "Twee verklaringen zijn tegengesteld : de woordspeling op klauw en de vacht van bepaalde katten die doen denken aan de kleding van klerken."
+      },
+      {
+        "id": 26,
+        "question": "Met welk gen voor de afwezigheid van pigment in het haar is de doofheid van witte katten verbonden ?",
+        "propositions": [
+          "Gen Z",
+          "Gen W",
+          "Gen X",
+          "Gen Y"
+        ],
+        "réponse": "Gen W",
+        "anecdote": "Er is inderdaad aangetoond dat het W-allel direct verantwoordelijk is voor degeneratie van het binnenoor, waardoor doofheid ontstaat."
+      },
+      {
+        "id": 27,
+        "question": "Hoeveel graden is het totale gezichtsveld van de kat ?",
+        "propositions": [
+          "175 graden",
+          "206 graden",
+          "287 graden",
+          "253 graden"
+        ],
+        "réponse": "287 graden",
+        "anecdote": "De binoculaire kijkhoek is 130°, voor een totaal gezichtsveld van 287°, vergeleken met slechts 180° bij mensen."
+      },
+      {
+        "id": 28,
+        "question": "Hoe noem je een huiskat die terugkeert naar het wild ?",
+        "propositions": [
+          "Siberisch",
+          "Chartreux",
+          "Ragdoll",
+          "Harett"
+        ],
+        "réponse": "Harett",
+        "anecdote": "De haaskat, of zwerfkat, heeft mogelijk het leven onder mensen gekend of is in het wild geboren."
+      },
+      {
+        "id": 29,
+        "question": "Welke predikant en staatsman bezat 14 katten toen hij stierf ?",
+        "propositions": [
+          "Lodewijk XV",
+          "Richelieu",
+          "Colbert",
+          "Napoleon"
+        ],
+        "réponse": "Richelieu",
+        "anecdote": "Voor de goede orde : kardinaal Richelieu heeft meegeholpen om katten als huisdieren te beschouwen."
+      },
+      {
+        "id": 30,
+        "question": "Hoe heet de kat in « Kat die ondanks zichzelf sprak » van Claude Roy ?",
+        "propositions": [
+          "Chaminou",
+          "Gaspard",
+          "Titus",
+          "Thomas"
+        ],
+        "réponse": "Gaspard",
+        "anecdote": "Claude Roy, geboren en gestorven in Parijs, was een Franse dichter, journalist en schrijver."
+      }
+    ]
+    }
+  }
+}

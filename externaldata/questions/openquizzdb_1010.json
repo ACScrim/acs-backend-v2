@@ -1,0 +1,410 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 2,
+  "mise-à-jour": "2024-04-04",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Culture en vrac #10",
+      "slogan": "De la culture à tous les niveaux"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Bulk culture #10",
+      "slogan": "General culture at all levels"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Cultivo a granel #10",
+      "slogan": "Cultura general a todos los niveles"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Cultura di massa #10",
+      "slogan": "Cultura generale a tutti i livelli"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Massenkultur #10",
+      "slogan": "Allgemeine Kultur auf allen Ebenen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Bulkcultuur #10",
+      "slogan": "Algemene cultuur op alle niveaus"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans quelle ville a sévi le tueur en série surnommé Jack l'Éventreur ?",
+        "propositions": [
+          "Londres",
+          "New York",
+          "Paris",
+          "Amsterdam"
+        ],
+        "réponse": "Londres",
+        "anecdote": "Le nom du tueur, dont l'identité est toujours inconnue, apparut pour la première fois dans une lettre reçue en 1888 par la presse."
+      },
+      {
+        "id": 2,
+        "question": "Quelle célèbre émission politique était animée par Anne Sinclair ?",
+        "propositions": [
+          "2 sur 2",
+          "3 sur 3",
+          "5 sur 5",
+          "7 sur 7"
+        ],
+        "réponse": "7 sur 7",
+        "anecdote": "Le principe de l'émission était d'inviter une personnalité pour commenter les reportages diffusés et l'actualité."
+      },
+      {
+        "id": 3,
+        "question": "Sous quel autre nom est mieux connu l'acide ascorbique ?",
+        "propositions": [
+          "Vitamine C",
+          "Acide gastrique",
+          "Acide sulfurique",
+          "Sel de cuisine"
+        ],
+        "réponse": "Vitamine C",
+        "anecdote": "Avec ses propriétés antioxydantes, l'acide ascorbique est présent dans les citrons, les jus de fruits et la plupart des légumes frais."
+      },
+      {
+        "id": 4,
+        "question": "À quel peintre doit-on le célèbre tableau « Le Baiser » ?",
+        "propositions": [
+          "Gustav Klimt",
+          "Vincent Van Gogh",
+          "Marc Chagall",
+          "Pablo Picasso"
+        ],
+        "réponse": "Gustav Klimt",
+        "anecdote": "Réalisée de 1908 à 1909, cette huile sur toile recouverte de feuilles d'or est conservée au palais du Belvédère à Vienne, en Autriche."
+      },
+      {
+        "id": 5,
+        "question": "Quels sont les prénoms de Monsieur et Madame Bidochon ?",
+        "propositions": [
+          "Roger et Germaine",
+          "Gustave et Gertrude",
+          "Robert et Raymonde",
+          "Jean et Denise"
+        ],
+        "réponse": "Robert et Raymonde",
+        "anecdote": "« Les Bidochon » est une série de bandes dessinées française créée par Binet, qui réalise scénario et dessin depuis le début."
+      },
+      {
+        "id": 6,
+        "question": "En 1814, sur quelle île a été banni Napoléon Bonaparte ?",
+        "propositions": [
+          "Île d'Elbe",
+          "Stromboli",
+          "Sardaigne",
+          "Sicile"
+        ],
+        "réponse": "Île d'Elbe",
+        "anecdote": "La mort en exil de Napoléon Ier en 1821, à Sainte-Hélène et sous la garde des Anglais, fait l'objet de nombreuses controverses."
+      },
+      {
+        "id": 7,
+        "question": "De quoi se nourrissent les coccinelles réparties en plus de 6 000 espèces ?",
+        "propositions": [
+          "Pucerons",
+          "Feuilles",
+          "Racines",
+          "Pollen"
+        ],
+        "réponse": "Pucerons",
+        "anecdote": "Selon la croyance populaire, le nombre de taches de la coccinelle dépend directement de son âge (en réalité il dépend de son espèce)."
+      },
+      {
+        "id": 8,
+        "question": "Quels versets ont valu à Salman Rushdie d'être condamné à mort ?",
+        "propositions": [
+          "Sataniques",
+          "Pacifiques",
+          "Diaboliques",
+          "Magnifiques"
+        ],
+        "réponse": "Sataniques",
+        "anecdote": "Le style narratif de cet écrivain d'origine indienne, mêlant mythe avec la vie réelle, a été qualifié de réalisme magique."
+      },
+      {
+        "id": 9,
+        "question": "Qui mène l'enquête des les romans policiers de l'auteur belge Georges Simenon ?",
+        "propositions": [
+          "Arsène Lupin",
+          "Hercule Poirot",
+          "Maigret",
+          "Miss Marple"
+        ],
+        "réponse": "Maigret",
+        "anecdote": "Physiquement, il s'agit d'un homme imposant, large d'épaules, à l'allure bourrue, qui prend son temps pour ses enquêtes."
+      },
+      {
+        "id": 10,
+        "question": "Quel fut le plan de reconstruction allemand, après la Seconde Guerre mondiale ?",
+        "propositions": [
+          "Marshall",
+          "Powell",
+          "Truman",
+          "Berlioz"
+        ],
+        "réponse": "Marshall",
+        "anecdote": "L'initiative fut baptisée, par les journalistes, du nom du secrétaire d'État des États-Unis, le général George Marshall."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "De quelle plante est tiré le safran, souvent utilisé en cuisine ?",
+        "propositions": [
+          "Salsepareille",
+          "Bambou",
+          "Canne à sucre",
+          "Crocus"
+        ],
+        "réponse": "Crocus",
+        "anecdote": "Originaire de Crète, le safran, parfois appelé « or rouge », est l'épice la plus laborieuse à produire au monde et donc de haute valeur."
+      },
+      {
+        "id": 12,
+        "question": "Qui a fait bâtir la pyramide de Khéops ou grande pyramide de Gizeh ?",
+        "propositions": [
+          "Ramsès",
+          "Nabuchodonosor",
+          "Néfertiti",
+          "Khéops"
+        ],
+        "réponse": "Khéops",
+        "anecdote": "Tombeau présumé du pharaon Khéops, elle fut édifiée il y a plus de 4 500 ans, sous la IVe dynastie à Gizeh, en Égypte."
+      },
+      {
+        "id": 13,
+        "question": "L'équivalent de combien de fois son poids peut manger chaque jour une araignée ?",
+        "propositions": [
+          "16 fois",
+          "26 fois",
+          "6 fois",
+          "36 fois"
+        ],
+        "réponse": "26 fois",
+        "anecdote": "Contrairement aux insectes, les araignées ne disposent ni d'ailes ni d'antennes ni de pièces masticatrices dans la bouche."
+      },
+      {
+        "id": 14,
+        "question": "Quelle capitale européenne n'est distante que de soixante kilomètres de Vienne ?",
+        "propositions": [
+          "Rome",
+          "Bratislava",
+          "Budapest",
+          "Prague"
+        ],
+        "réponse": "Bratislava",
+        "anecdote": "Plus grande ville de Slovaquie avec une population de plus de 420 000 habitants, les Carpates commencent sur le territoire de la ville."
+      },
+      {
+        "id": 15,
+        "question": "Laquelle de ces rivières n'est pas un affluent de la Seine ?",
+        "propositions": [
+          "Oise",
+          "Yonne",
+          "Eure",
+          "Escaut"
+        ],
+        "réponse": "Escaut",
+        "anecdote": "La Seine est un fleuve long de 776 km qui coule dans le Bassin parisien et arrose notamment Troyes, Paris, Rouen et Le Havre."
+      },
+      {
+        "id": 16,
+        "question": "Combien de jours environ dure la gestation chez l'éléphant ?",
+        "propositions": [
+          "300",
+          "400",
+          "500",
+          "600"
+        ],
+        "réponse": "600",
+        "anecdote": "L'éléphant est symbole de sagesse dans la culture asiatique, connu pour sa mémoire et son intelligence, comparée à celle des cétacés."
+      },
+      {
+        "id": 17,
+        "question": "Qui a composé la musique du film « West Side Story » ?",
+        "propositions": [
+          "Richard Rodgers",
+          "George Gershwin",
+          "Leonard Bernstein",
+          "Sidney Jones"
+        ],
+        "réponse": "Leonard Bernstein",
+        "anecdote": "Mort en 1990 à l'âge de 72 ans, Leonard Bernstein fut durant onze années le directeur de l'Orchestre philharmonique de New York."
+      },
+      {
+        "id": 18,
+        "question": "Quel sport est de nouveau olympique depuis 1972, après une interruption de 50 ans ?",
+        "propositions": [
+          "Tennis",
+          "Lancer du marteau",
+          "Tir à l'arc",
+          "Golf"
+        ],
+        "réponse": "Tir à l'arc",
+        "anecdote": "Historiquement, le tir à l'arc a été utilisé pour la chasse et le combat, son utilisation principale étant à présent celle d'une activité sportive."
+      },
+      {
+        "id": 19,
+        "question": "En quelle année est née Canal+, première chaîne française privée et cryptée ?",
+        "propositions": [
+          "1988",
+          "1984",
+          "1986",
+          "1982"
+        ],
+        "réponse": "1984",
+        "anecdote": "L'accès aux programmes payants de la chaîne Canal+ était réservé aux détenteurs d'un décodeur TV et d'une carte à puce."
+      },
+      {
+        "id": 20,
+        "question": "Qui joue le rôle du mari violent de Whoopie Goldberg dans « La Couleur pourpre » ?",
+        "propositions": [
+          "Sidney Poitier",
+          "Danny Glover",
+          "Samuel L. Jackson",
+          "Denzel Washington"
+        ],
+        "réponse": "Danny Glover",
+        "anecdote": "« La Couleur Pourpre » est un film dramatique américain de Steven Spielberg sorti en 1985 et inspiré du roman éponyme d'Alice Walker."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel livre met en scène le personnage de Jean-Baptiste Grenouille ?",
+        "propositions": [
+          "Sans famille",
+          "Le Parfum",
+          "Les Batraciens",
+          "La Prophétie"
+        ],
+        "réponse": "Le Parfum",
+        "anecdote": "Le livre de Patrick Süskind a été traduit de l'allemand au français par Bernard Lortholary et fut adapté au cinéma par Tom Tykwer."
+      },
+      {
+        "id": 22,
+        "question": "Quelles lois décrivent les propriétés principales du mouvement des planètes ?",
+        "propositions": [
+          "Lois de Kirchhoff",
+          "Lois de Joule",
+          "Lois de Kepler",
+          "Lois de Cassini"
+        ],
+        "réponse": "Lois de Kepler",
+        "anecdote": "Elles ont été découvertes par Johannes Kepler à partir des mesures de la position des planètes faites par Tycho Brahe."
+      },
+      {
+        "id": 23,
+        "question": "Au baseball, combien y a-t-il de joueurs par équipe sur le terrain ?",
+        "propositions": [
+          "7",
+          "5",
+          "11",
+          "9"
+        ],
+        "réponse": "9",
+        "anecdote": "Les origines du baseball prêtent encore à controverses, mais les premières règles modernes ont été codifiées aux États-Unis en 1845."
+      },
+      {
+        "id": 24,
+        "question": "Lequel de ces éléments chimiques n'est pas un gaz rare du groupe 18 ?",
+        "propositions": [
+          "Krypton",
+          "Xénon",
+          "Oxygène",
+          "Néon"
+        ],
+        "réponse": "Oxygène",
+        "anecdote": "La nature chimiquement inerte des gaz nobles les rend utiles pour toutes les applications où les réactions chimiques sont indésirables."
+      },
+      {
+        "id": 25,
+        "question": "Comment s'appellent les accords qui mirent fin au mouvement de Mai 68 ?",
+        "propositions": [
+          "Paris",
+          "Grenelle",
+          "Évian",
+          "Élisée"
+        ],
+        "réponse": "Grenelle",
+        "anecdote": "Bien qu'aucune des parties ne l'ait paraphé, les principales mesures de cet accord seront mises en application par le gouvernement."
+      },
+      {
+        "id": 26,
+        "question": "Dans quel sport y a-t-il un premier, un deuxième, un vice et un skip ?",
+        "propositions": [
+          "Bobsleigh",
+          "Squash",
+          "Voile",
+          "Curling"
+        ],
+        "réponse": "Curling",
+        "anecdote": "Le curling est un sport de précision pratiqué sur la glace avec des pierres en granite, taillées et polies selon un gabarit international."
+      },
+      {
+        "id": 27,
+        "question": "Quel poison est naturellement contenu dans l'amande amère ?",
+        "propositions": [
+          "Cyanure",
+          "Dioxine",
+          "Histamine",
+          "Ricin"
+        ],
+        "réponse": "Cyanure",
+        "anecdote": "L'amande douce sélectionnée contient encore un peu de cyanure mais en quantité bien moindre que la graine sauvage."
+      },
+      {
+        "id": 28,
+        "question": "Quel historien et sénateur romain a raconté l'Incendie de Rome ?",
+        "propositions": [
+          "Sénèque",
+          "Horace",
+          "Tacite",
+          "Virgile"
+        ],
+        "réponse": "Tacite",
+        "anecdote": "On sait grâce à Pline l'Ancien que son père probable, nommé aussi Cornelius Tacitus, fut procurateur de la province de Gaule."
+      },
+      {
+        "id": 29,
+        "question": "Lequel de ces compositeurs allemands est décédé dans une maison de santé ?",
+        "propositions": [
+          "Felix Mendelssohn",
+          "Robert Schuman",
+          "Richard Strauss",
+          "Richard Wagner"
+        ],
+        "réponse": "Robert Schuman",
+        "anecdote": "La musique de Robert Schuman s'inscrit dans le mouvement romantique qui domine au début du XIXe une Europe en mutation."
+      },
+      {
+        "id": 30,
+        "question": "Qui est le premier alpiniste à avoir vaincu les quatorze sommets de plus de 8000 m ?",
+        "propositions": [
+          "Walter Bonatti",
+          "Reinhold Messner",
+          "Christophe Profit",
+          "Andrew Lock"
+        ],
+        "réponse": "Reinhold Messner",
+        "anecdote": "Aujourd'hui, l'alpiniste Reinhold Messner espace ses ascensions et s'adonne à la randonnée pédestre de façon intensive (trekking)."
+      }
+    ]
+    }
+  }
+}

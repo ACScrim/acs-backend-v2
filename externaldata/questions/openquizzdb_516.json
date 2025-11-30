@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Jaubert",       
+  "difficulté": "4 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-07-10",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Loisirs",
+      "nom": "Action-Aventure",
+      "slogan": "Les classiques du jeu vidéo"
+    },
+    "en": {
+      "catégorie": "Hobbies",
+      "nom": "Action-Adventure",
+      "slogan": "Video game classics"
+    },
+    "es": {
+      "catégorie": "Aficiones",
+      "nom": "Acción Aventura",
+      "slogan": "Clásicos de videojuegos"
+    },
+    "it": {
+      "catégorie": "Hobby",
+      "nom": "Azione avventura",
+      "slogan": "Classici dei videogiochi"
+    },
+    "de": {
+      "catégorie": "Hobbys",
+      "nom": "Action-Abenteuer",
+      "slogan": "Videospielklassiker"
+    },
+    "nl": {
+      "catégorie": "Hobby's",
+      "nom": "Actie avontuur",
+      "slogan": "Klassiekers van videogames"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans la série des « Splinter Cell », à quelle organisation secrète appartient Sam Fisher ?",
+        "propositions": [
+          "Echelon 3",
+          "Echelon 1",
+          "Echelon 0",
+          "Echelon 2"
+        ],
+        "réponse": "Echelon 3",
+        "anecdote": "Le nom de la série se découpe en deux parties : Tom Clancy, romancier américain et scénariste, et Splinter Cell, cellule dissidente."
+      },
+      {
+        "id": 2,
+        "question": "Dans « Cyberpunk 2077 », par quoi est sauvé(e) V lorsque Dex tente d'attenter à sa vie ?",
+        "propositions": [
+          "Casque",
+          "Édriseur",
+          "Engramme",
+          "Bouclier"
+        ],
+        "réponse": "Engramme",
+        "anecdote": "« Cyberpunk 2077 » est un jeu vidéo d'action-RPG développé par CD Projekt RED, inspiré du jeu de rôle sur table « Cyberpunk 2020 »."
+      },
+      {
+        "id": 3,
+        "question": "Dans « World of Warcraft », quelle classe peut se transformer en ours et en félin ?",
+        "propositions": [
+          "Chasseur",
+          "Druide",
+          "Paladin",
+          "Chaman"
+        ],
+        "réponse": "Druide",
+        "anecdote": "WoW prend place en Azeroth, près de quatre ans après les événements de la fin du jeu précédent, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "Dans « Minecraft », combien de blocs de laine vaut la tonte d'un mouton avec des cisailles ?",
+        "propositions": [
+          "Cinq",
+          "Quatre",
+          "Trois",
+          "Deux"
+        ],
+        "réponse": "Deux",
+        "anecdote": "Ce jeu vidéo de type aventure bac à sable fut développé par le Suédois Markus Persson, alias Notch, puis par Mojang Studios."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est le nom de la première relique recherchée dans le premier « Tomb Raider » ?",
+        "propositions": [
+          "Dague de Xian",
+          "Main de Rathmore",
+          "Scion des Atlantes",
+          "Masque de Tornarsuk"
+        ],
+        "réponse": "Scion des Atlantes",
+        "anecdote": "La série fut initialement développée par Core Design qui produit six épisodes, avant d'être reprise en 2003 par Crystal Dynamics."
+      },
+      {
+        "id": 6,
+        "question": "Lequel de ces Golem ne peut-on retrouver dans le jeu « Diablo III » ?",
+        "propositions": [
+          "Golem de sang",
+          "Golem d'argile",
+          "Golem de foudre",
+          "Golem de feu"
+        ],
+        "réponse": "Golem de foudre",
+        "anecdote": "Dans un univers imaginaire médiéval-fantastique, le joueur peut devenir sorcier, barbare, féticheur, chasseur de démon ou moine."
+      },
+      {
+        "id": 7,
+        "question": "Dans la série des « Crash Bandicoot », quel est le nom du créateur de Crash ?",
+        "propositions": [
+          "Ripper Roo",
+          "N. Tropy",
+          "Aku Aku",
+          "Neo Cortex"
+        ],
+        "réponse": "Neo Cortex",
+        "anecdote": "Crash Bandicoot est une série de jeux vidéo de plates-formes créée par Andy Gavin et Jason Rubin, débutée en 1996 sur PlayStation."
+      },
+      {
+        "id": 8,
+        "question": "Dans « Left 4 Dead 2 », quel infecté peut s'accrocher aux survivants pour les diriger ?",
+        "propositions": [
+          "La Witch",
+          "Le Hunter",
+          "Le Jockey",
+          "Le Smoke"
+        ],
+        "réponse": "Le Jockey",
+        "anecdote": "Abrégé L4D2, « Left 4 Dead 2 » est un jeu de tir à la première personne développé par Valve Corporation et sorti en novembre 2009."
+      },
+      {
+        "id": 9,
+        "question": "Dans la série des « Hitman », quelle est l'arme favorite de l'agent 47 ?",
+        "propositions": [
+          "SC-20K",
+          "Colt 1911",
+          "Poignard",
+          "Corde à piano"
+        ],
+        "réponse": "Corde à piano",
+        "anecdote": "Le jeu met en scène l'agent 47, un assassin génétiquement modifié travaillant pour l'Agence, envoyé partout à travers le monde."
+      },
+      {
+        "id": 10,
+        "question": "Dans « Life is Strange », qui était l'amie de Chloé lorsque Maxine était à Seattle ?",
+        "propositions": [
+          "Joyce",
+          "Warren",
+          "Mark",
+          "Rachel"
+        ],
+        "réponse": "Rachel",
+        "anecdote": "« Life Is Strange » est une série de cinq jeux vidéo épisodiques d'aventure graphique en vue objective, proche du film interactif."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Lors d'un speedrun de « Super Mario 64 », quel glitch faut-il savoir exploiter ?",
+        "propositions": [
+          "BFG",
+          "LMB",
+          "BMG",
+          "BLJ"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » est le premier jeu de la série entièrement en 3D temps réel et propose à ce titre une liberté totale de mouvement."
+      },
+      {
+        "id": 12,
+        "question": "Dans « The Legend of Zelda: Breath of the Wild », quel glitch se joue sur une créature activée ?",
+        "propositions": [
+          "Space Jump",
+          "Infinity Jump",
+          "Huge Jump",
+          "Moon Jump"
+        ],
+        "réponse": "Moon Jump",
+        "anecdote": "« Breath of the Wild » propose d'incarner Link, amnésique, réveillé après un sommeil d'une centaine d'années par une mystérieuse voix."
+      },
+      {
+        "id": 13,
+        "question": "Dans « Rainbow Six: Siege », qui se relève de lui-même sans aucun points de vie ?",
+        "propositions": [
+          "Montagne",
+          "Zofia",
+          "Rook",
+          "Doc"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "Dans ce jeu de tir tactique, le joueur incarne différents agents de plusieurs unités de forces spéciales et de groupes d'interventions."
+      },
+      {
+        "id": 14,
+        "question": "Dans le jeu « Starcraft 2 » sont présentes Terrans, Protoss et quelle autre race ?",
+        "propositions": [
+          "Zyphs",
+          "Zerg",
+          "Zotrich",
+          "Zarx"
+        ],
+        "réponse": "Zerg",
+        "anecdote": "« StarCraft 2 » est divisé en trois parties : le jeu de base ainsi que deux extensions appelées « Heart of the Swarm » et « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "Dans « Grand Theft Auto V », quelle est la race de Chop, le chien de Franklin ?",
+        "propositions": [
+          "American Bully",
+          "Doberman",
+          "Rottweiler",
+          "Pitbull"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "Cet épisode se déroule dans l'État fictif de San Andreas en Californie du Sud, dont l'histoire solo suit trois différents protagonistes."
+      },
+      {
+        "id": 16,
+        "question": "Dans « Borderlands 2 », de Gearbox Software, dans quelle ville se situe le bar de Moxxi ?",
+        "propositions": [
+          "Three Horns",
+          "Lynchwood",
+          "Sanctuary",
+          "The Dust"
+        ],
+        "réponse": "Sanctuary",
+        "anecdote": "Dans « Borderlands », Sanctuary est la dernière ville libre de Pandore et la capitale du mouvement de résistance des Pillards Écarlates."
+      },
+      {
+        "id": 17,
+        "question": "Quel est le premier boss rencontré dans le jeu d'action-RPG « Elden Ring » ?",
+        "propositions": [
+          "Chimère Léonine",
+          "Margit Déchu",
+          "Godrick Cendré",
+          "Rejeton Greffé"
+        ],
+        "réponse": "Rejeton Greffé",
+        "anecdote": "Le jeu a reçu un excellent accueil critique et commercial, remportant plusieurs récompenses de jeu vidéo de l'année 2022."
+      },
+      {
+        "id": 18,
+        "question": "Quelle est la couleur de Dominus Ghaul dans le jeu « Destiny 2 » ?",
+        "propositions": [
+          "Rouge",
+          "Bleue",
+          "Noire",
+          "Blanche"
+        ],
+        "réponse": "Blanche",
+        "anecdote": "Les actions des joueurs ont un impact, allant jusqu'à créer des événements que même les développeurs n'avaient pas planifiés."
+      },
+      {
+        "id": 19,
+        "question": "Quel est le premier boss rencontré dans « Metal Gear Solid 2: Sons of Liberty » ?",
+        "propositions": [
+          "Olga",
+          "Meryl",
+          "Fortune",
+          "Vamp"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) a connu un succès public et critique, avec plus de sept millions d'exemplaires de jeu vendu à travers le monde."
+      },
+      {
+        "id": 20,
+        "question": "Dans « Unreal Tournament 3 », quel est le tir secondaire du Shock Rifle ?",
+        "propositions": [
+          "Rayon laser",
+          "Boule de plasma",
+          "Missile téléguidé",
+          "Mine de proximité"
+        ],
+        "réponse": "Boule de plasma",
+        "anecdote": "Bien que la partie solo fasse l'objet d'une attention particulière des développeurs, l'intérêt principal réside dans les parties en ligne."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel type de bug de jeu vidéo peut laisser votre personnage traverser un mur ?",
+        "propositions": [
+          "Hitbox",
+          "Collision",
+          "Ragdoll",
+          "Texture"
+        ],
+        "réponse": "Collision",
+        "anecdote": "Les collisions sont un aspect fondamental de tout jeu d'action ou d'animation en général, dont la gestion s'appuie sur des fonctions."
+      },
+      {
+        "id": 22,
+        "question": "De quoi sont composées les surfaces affichées par rastérisation par un moteur graphique ?",
+        "propositions": [
+          "Vertex",
+          "Carrés",
+          "Sprites",
+          "Triangles"
+        ],
+        "réponse": "Triangles",
+        "anecdote": "La carte graphique fait dans ce cas subir aux triangles différentes transformations géométriques afin de les projeter sur l'écran."
+      },
+      {
+        "id": 23,
+        "question": "Dans « Gamedec », quel est le nom du second jeu vidéo dans lequel vous devez enquêter ?",
+        "propositions": [
+          "Twisted and Perverted",
+          "Paradise Beach",
+          "Axis Mundi",
+          "Harvest Time"
+        ],
+        "réponse": "Harvest Time",
+        "anecdote": "Explorez un autre monde virtuel de « Gamedec », l'un des mondes virtuels disponibles dans ce RPG adaptatif sur le cyberpunk."
+      },
+      {
+        "id": 24,
+        "question": "Lequel de ces noms n'est pas celui d'un personnage de « Quake III Arena » ?",
+        "propositions": [
+          "Blast",
+          "Angel",
+          "Hunter",
+          "Doom"
+        ],
+        "réponse": "Blast",
+        "anecdote": "« Quake III Arena » est un jeu vidéo de tir à la première personne développé par id Software et publié par Activision sur PC en 1999."
+      },
+      {
+        "id": 25,
+        "question": "Dans « Red Dead Redemption II », quelle est la bande rivale de Dutch Van Der Linde ?",
+        "propositions": [
+          "Bande de Jack Hall",
+          "O'Driscolls",
+          "Peuple de la nuit",
+          "Anderson Boys"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » est le jeu le plus pré-commandé de l'histoire sur le PlayStation Network ainsi que sur le site de la Fnac."
+      },
+      {
+        "id": 26,
+        "question": "Qui a fondé la société Rapture Industries, dans la série des « Bioshock » ?",
+        "propositions": [
+          "Andrew Ryan",
+          "Sander Cohen",
+          "J.S. Steinman",
+          "Frank Fontaine"
+        ],
+        "réponse": "Andrew Ryan",
+        "anecdote": "BioShock est un jeu vidéo de tir en vue à la première personne développé par 2K Boston/2K Australia et conçu par Ken Levine."
+      },
+      {
+        "id": 27,
+        "question": "Dans la série des « Tekken », qui pratique le Zui Quan, la boxe de l'homme ivre ?",
+        "propositions": [
+          "Katarina Alves",
+          "Asuka Kazama",
+          "Lei Wulong",
+          "Leroy-Smith"
+        ],
+        "réponse": "Lei Wulong",
+        "anecdote": "Apparu en 1994, « Tekken » fut traditionnellement développée par Namco pour borne d'arcade puis adapté sur les consoles de salon."
+      },
+      {
+        "id": 28,
+        "question": "Quel est le nom du personnage principal joué dans la série de jeux « Portal » ?",
+        "propositions": [
+          "Shell",
+          "Chell",
+          "Michelle",
+          "Michel"
+        ],
+        "réponse": "Chell",
+        "anecdote": "Le jeu consiste en une succession de parcours que le joueur doit franchir en téléportant son personnage ou des objets via une arme."
+      },
+      {
+        "id": 29,
+        "question": "Dans « Oddworld : L'Odyssée d'Abe », quelle phrase les Sligs ne disent jamais ?",
+        "propositions": [
+          "Here Boy !",
+          "Look Out !",
+          "Work !",
+          "Freeze !"
+        ],
+        "réponse": "Work !",
+        "anecdote": "Le jeu est centré sur l'aventure d'Abe, un esclave Mudokon travaillant à RuptureFarms, abattoir et usine de viande sur Oddworld."
+      },
+      {
+        "id": 30,
+        "question": "Dans « Rollerdrome », quand le bouclier d'un Warhead se déclenche-t-il s'il est touché ?",
+        "propositions": [
+          "Jamais",
+          "La première fois",
+          "Une seule fois",
+          "Toujours"
+        ],
+        "réponse": "Toujours",
+        "anecdote": "Dans ce jeu, les joueurs prennent le contrôle de Kara Hassan, une participante à un sport mortel que l'on a nommé Rollerdrome."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In the « Splinter Cell » series, which secret organization does Sam Fisher belong to ?",
+        "propositions": [
+          "Echelon 3",
+          "Echelon 2",
+          "Echelon 1",
+          "Echelon 0"
+        ],
+        "réponse": "Echelon 3",
+        "anecdote": "The name of the series is divided into two parts : Tom Clancy, American novelist and screenwriter, and Splinter Cell, dissident cell."
+      },
+      {
+        "id": 2,
+        "question": "In « Cyberpunk 2077 », what is V saved by when Dex tries to attempt his life ?",
+        "propositions": [
+          "Hedger",
+          "Helmet",
+          "Engram",
+          "Shield"
+        ],
+        "réponse": "Engram",
+        "anecdote": "« Cyberpunk 2077 » is an Action-RPG video game developed by CD Projekt RED, inspired by « Cyberpunk 2020 » tabletop role-playing game."
+      },
+      {
+        "id": 3,
+        "question": "In « World of Warcraft », which class can transform into a bear and a feline ?",
+        "propositions": [
+          "Druid",
+          "Shaman",
+          "Hunter",
+          "paladin"
+        ],
+        "réponse": "Druid",
+        "anecdote": "WoW takes place in Azeroth, nearly four years after the events of the previous ending, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "In « Minecraft », how many blocks of wool is worth shearing a sheep with shears ?",
+        "propositions": [
+          "Three",
+          "Five",
+          "Four",
+          "Two"
+        ],
+        "réponse": "Two",
+        "anecdote": "This sandbox adventure type video game was developed by Swedish Markus Persson, alias Notch, then by Mojang Studios."
+      },
+      {
+        "id": 5,
+        "question": "What is the name of the first relic sought in the first « Tomb Raider » ?",
+        "propositions": [
+          "Dagger of Xian",
+          "Mask of Tornarsuk",
+          "Hand of Rathmore",
+          "Scion of the Atlanteans"
+        ],
+        "réponse": "Scion of the Atlanteans",
+        "anecdote": "The series was initially developed by Core Design, which produced six episodes, before being taken over in 2003 by Crystal Dynamics."
+      },
+      {
+        "id": 6,
+        "question": "Which of these Golems can't be found in the game « Diablo III » ?",
+        "propositions": [
+          "Lightning Golem",
+          "fire golem",
+          "Clay golem",
+          "Blood Golem"
+        ],
+        "réponse": "Lightning Golem",
+        "anecdote": "In an imaginary medieval-fantasy universe, the player can become a sorcerer, barbarian, witch doctor, demon hunter or monk."
+      },
+      {
+        "id": 7,
+        "question": "In the « Crash Bandicoot » series, what is the name of the creator of Crash ?",
+        "propositions": [
+          "Ripper Roo",
+          "aku aku",
+          "neo-cortex",
+          "N. Tropy"
+        ],
+        "réponse": "neo-cortex",
+        "anecdote": "Crash Bandicoot is a series of platform video games created by Andy Gavin and Jason Rubin, started in 1996 on PlayStation."
+      },
+      {
+        "id": 8,
+        "question": "In « Left 4 Dead 2 », which infected can latch on to survivors to lead them ?",
+        "propositions": [
+          "The Smoker",
+          "The Jockey",
+          "The Witch",
+          "The Hunter"
+        ],
+        "réponse": "The Jockey",
+        "anecdote": "Abbreviated L4D2, « Left 4 Dead 2 » is a first-person shooter game developed by Valve Corporation and released in November 2009."
+      },
+      {
+        "id": 9,
+        "question": "In the « Hitman » series, what is Agent 47's favorite weapon ?",
+        "propositions": [
+          "piano wire",
+          "Colt 1911",
+          "Dagger",
+          "SC-20K"
+        ],
+        "réponse": "piano wire",
+        "anecdote": "The game features Agent 47, a genetically modified assassin working for the Agency, sent all over the world."
+      },
+      {
+        "id": 10,
+        "question": "In « Life is Strange », who was Chloe's friend when Maxine was in Seattle ?",
+        "propositions": [
+          "Joyce",
+          "Rachel",
+          "warren",
+          "Mark"
+        ],
+        "réponse": "Rachel",
+        "anecdote": "« Life is Strange » is a series of five episodic graphic adventure video games in objective view, close to the interactive film."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "When speedrunning « Super Mario 64 », what glitch do you need to know how to exploit ?",
+        "propositions": [
+          "BMG",
+          "LMB",
+          "BFG",
+          "BLJ"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » is the first game in the series to be fully real-time 3D and as such offers complete freedom of movement."
+      },
+      {
+        "id": 12,
+        "question": "In « The Legend of Zelda: Breath of the Wild », what glitch plays on an activated creature ?",
+        "propositions": [
+          "Huge Jump",
+          "Space Jump",
+          "moonjump",
+          "Infinity Jump"
+        ],
+        "réponse": "moonjump",
+        "anecdote": "« Breath of the Wild » proposes to embody Link, amnesia, awakened after a hundred years of sleep by a mysterious voice."
+      },
+      {
+        "id": 13,
+        "question": "In « Rainbow Six: Siege », who gets up on their own without any hit points ?",
+        "propositions": [
+          "Mountain",
+          "Zofia",
+          "Document",
+          "Rook"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "In this tactical shooting game, the player embodies different agents of several special forces units and intervention groups."
+      },
+      {
+        "id": 14,
+        "question": "In the game « Starcraft 2 » are present Terrans, Protoss and what other race ?",
+        "propositions": [
+          "Zyphs",
+          "zerg",
+          "zotric",
+          "zarx"
+        ],
+        "réponse": "zerg",
+        "anecdote": "« StarCraft 2 » is divided into three parts : the base game as well as two expansions called « Heart of the Swarm » and « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "In « Grand Theft Auto V », what is the race of Chop, Franklin's dog ?",
+        "propositions": [
+          "Doberman",
+          "Rottweiler",
+          "American Bully",
+          "pit bull"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "This episode is set in the fictional state of San Andreas in Southern California, whose single-player story follows three different protagonists."
+      },
+      {
+        "id": 16,
+        "question": "In « Borderlands 2 », from Gearbox Software, in which city is Moxxi's bar located ?",
+        "propositions": [
+          "The Dust",
+          "Three Horns",
+          "Lynchwood",
+          "Sanctuary"
+        ],
+        "réponse": "Sanctuary",
+        "anecdote": "In « Borderlands », Sanctuary is Pandora's last free city and the capital of the Scarlet Raider resistance movement."
+      },
+      {
+        "id": 17,
+        "question": "What is the first boss encountered in the action-RPG game « Elden Ring » ?",
+        "propositions": [
+          "Fallen Margit",
+          "Leonine Chimera",
+          "Godrick Ash",
+          "Offspring Grafted"
+        ],
+        "réponse": "Offspring Grafted",
+        "anecdote": "The game received excellent critical and commercial reception, winning multiple Video Game of the Year 2022 awards."
+      },
+      {
+        "id": 18,
+        "question": "What color is Dominus Ghaul in « Destiny 2 » game ?",
+        "propositions": [
+          "White",
+          "Blue",
+          "Red",
+          "Black"
+        ],
+        "réponse": "White",
+        "anecdote": "Player actions have an impact, even creating events that even the developers hadn't planned."
+      },
+      {
+        "id": 19,
+        "question": "What is the first boss encountered in « Metal Gear Solid 2: Sons of Liberty » ?",
+        "propositions": [
+          "Wealth",
+          "vampire",
+          "mary",
+          "Olga"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) was a critical and public success, with over seven million game copies sold worldwide."
+      },
+      {
+        "id": 20,
+        "question": "In « Unreal Tournament 3 », what is the secondary fire of the Shock Rifle ?",
+        "propositions": [
+          "Guided missile",
+          "Proximity mine",
+          "Laser beam",
+          "Plasma ball"
+        ],
+        "réponse": "Plasma ball",
+        "anecdote": "Although the single-player game is the subject of special attention from the developers, the main interest lies in the online games."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What type of video game bug can let your character walk through a wall ?",
+        "propositions": [
+          "Hitboxes",
+          "ragdoll",
+          "Texture",
+          "Collision"
+        ],
+        "réponse": "Collision",
+        "anecdote": "Collisions are a fundamental aspect of any action or animation game in general, whose management is based on functions."
+      },
+      {
+        "id": 22,
+        "question": "What are the surfaces displayed by rasterization by a graphics engine made of ?",
+        "propositions": [
+          "Sprites",
+          "Triangles",
+          "Squares",
+          "vertex"
+        ],
+        "réponse": "Triangles",
+        "anecdote": "In this case, the graphics card causes the triangles to undergo various geometric transformations in order to project them on the screen."
+      },
+      {
+        "id": 23,
+        "question": "In « Gamedec », what is the name of the second video game in which you must investigate ?",
+        "propositions": [
+          "Harvest Time",
+          "Axis Mundi",
+          "Twisted and Perverted",
+          "Paradise Beach"
+        ],
+        "réponse": "Harvest Time",
+        "anecdote": "Explore another virtual world of « Gamedec », one of the virtual worlds available in this adaptive cyberpunk RPG."
+      },
+      {
+        "id": 24,
+        "question": "Which of these names is not that of a character from « Quake III Arena » ?",
+        "propositions": [
+          "Doom",
+          "Hunter",
+          "blast",
+          "Angel"
+        ],
+        "réponse": "blast",
+        "anecdote": "« Quake III Arena » is a first-person shooter video game developed by id Software and published by Activision for PC in 1999."
+      },
+      {
+        "id": 25,
+        "question": "In « Red Dead Redemption II », what is Dutch Van Der Linde's rival gang ?",
+        "propositions": [
+          "People of the night",
+          "Anderson Boys",
+          "O'Driscolls",
+          "Jack Hall Band"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » is the most pre-ordered game in history on the PlayStation Network as well as on the Fnac website."
+      },
+      {
+        "id": 26,
+        "question": "Who founded Rapture Industries, in the « Bioshock » series ?",
+        "propositions": [
+          "Sander Cohen",
+          "Frank Fontaine",
+          "andrew ryan",
+          "J.S. Steinman"
+        ],
+        "réponse": "andrew ryan",
+        "anecdote": "BioShock is a first-person shooter video game developed by 2K Boston/2K Australia and designed by Ken Levine."
+      },
+      {
+        "id": 27,
+        "question": "In the « Tekken » series, who practices Zui Quan, drunken man's boxing ?",
+        "propositions": [
+          "Lei Wu Long",
+          "Leroy Smith",
+          "Katarina Alves",
+          "Asuka Kazama"
+        ],
+        "réponse": "Lei Wu Long",
+        "anecdote": "Appeared in 1994, « Tekken » was traditionally developed by Namco for arcade machines then adapted to home consoles."
+      },
+      {
+        "id": 28,
+        "question": "What is the name of the main character played in the « Portal » game series ?",
+        "propositions": [
+          "chel",
+          "Shell",
+          "michelle",
+          "Michael"
+        ],
+        "réponse": "chel",
+        "anecdote": "The game consists of a succession of courses that the player must cross by teleporting his character or objects via a weapon."
+      },
+      {
+        "id": 29,
+        "question": "In « Oddworld : L'Odyssée d'Abe », what phrase do the Sligs never say ?",
+        "propositions": [
+          "Here Boy!",
+          "Look Out!",
+          "Freeze!",
+          "Work!"
+        ],
+        "réponse": "Work!",
+        "anecdote": "The game centers around the adventure of Abe, a Mudokon slave working at RuptureFarms, slaughterhouse and meat factory on Oddworld."
+      },
+      {
+        "id": 30,
+        "question": "In « Rollerdrome », when does a Warhead's shield go off if hit ?",
+        "propositions": [
+          "One time",
+          "Never",
+          "The first time",
+          "Always"
+        ],
+        "réponse": "Always",
+        "anecdote": "In this game, players take control of Kara Hassan, a participant in a deadly sport known as Rollerdrome."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Geheimorganisation gehört Sam Fisher in der « Splinter Cell »-Reihe an ?",
+        "propositions": [
+          "Staffel 3",
+          "Staffel 1",
+          "Staffel 0",
+          "Staffel 2"
+        ],
+        "réponse": "Staffel 3",
+        "anecdote": "Der Name der Serie gliedert sich in zwei Teile : Tom Clancy, US-amerikanischer Schriftsteller und Drehbuchautor, und Splinter Cell, Dissidentenzelle."
+      },
+      {
+        "id": 2,
+        "question": "Wodurch wird V in « Cyberpunk 2077 » gerettet, als Dex versucht, ihm das Leben zu nehmen ?",
+        "propositions": [
+          "Engramm",
+          "Helm",
+          "Absicherung",
+          "Schild"
+        ],
+        "réponse": "Engramm",
+        "anecdote": "« Cyberpunk 2077 » ist ein von CD Projekt RED entwickeltes Action-RPG-Videospiel, das vom Tabletop-Rollenspiel « Cyberpunk 2020 » inspiriert wurde."
+      },
+      {
+        "id": 3,
+        "question": "Welche Klasse kann sich in « World of Warcraft » in einen Bären und eine Katze verwandeln ?",
+        "propositions": [
+          "Jäger",
+          "Druide",
+          "Schamane",
+          "Paladin"
+        ],
+        "réponse": "Druide",
+        "anecdote": "WoW findet in Azeroth statt, fast vier Jahre nach den Ereignissen des vorherigen Endes, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "Wie viele Wollblöcke sind es wert, in « Minecraft » ein Schaf mit einer Schere zu scheren ?",
+        "propositions": [
+          "Fünf",
+          "Zwei",
+          "Vier",
+          "Drei"
+        ],
+        "réponse": "Zwei",
+        "anecdote": "Dieses Sandbox-Abenteuer-Videospiel wurde vom Schweden Markus Persson alias Notch und dann von Mojang Studios entwickelt."
+      },
+      {
+        "id": 5,
+        "question": "Wie heißt das erste Relikt, nach dem im ersten « Tomb Raider » gesucht wurde ?",
+        "propositions": [
+          "Maske von Tornarsuk",
+          "Dolch von Xian",
+          "Hand von Rathmore",
+          "Spross der Atlanter"
+        ],
+        "réponse": "Spross der Atlanter",
+        "anecdote": "Die Serie wurde zunächst von Core Design entwickelt, das sechs Episoden produzierte, bevor sie 2003 von Crystal Dynamics übernommen wurde."
+      },
+      {
+        "id": 6,
+        "question": "Welcher dieser Golems ist im Spiel « Diablo III » nicht zu finden ?",
+        "propositions": [
+          "Feuergolem",
+          "Blutgolem",
+          "Tongolem",
+          "Blitzgolem"
+        ],
+        "réponse": "Blitzgolem",
+        "anecdote": "In einem imaginären Mittelalter-Fantasy-Universum kann der Spieler zum Zauberer, Barbaren, Hexendoktor, Dämonenjäger oder Mönch werden."
+      },
+      {
+        "id": 7,
+        "question": "Wie heißt in der « Crash Bandicoot »-Reihe der Schöpfer von Crash ?",
+        "propositions": [
+          "Neokortex",
+          "Ripper Roo",
+          "aku aku",
+          "N. Tropy"
+        ],
+        "réponse": "Neokortex",
+        "anecdote": "Crash Bandicoot ist eine Reihe von Plattform-Videospielen, die von Andy Gavin und Jason Rubin entwickelt und 1996 auf PlayStation gestartet wurden."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Infizierte kann sich in « Left 4 Dead 2 » an Überlebende klammern, um sie zu führen ?",
+        "propositions": [
+          "Der Raucher",
+          "Die Hexe",
+          "Der Jockey",
+          "Der Jäger"
+        ],
+        "réponse": "Der Jockey",
+        "anecdote": "Abgekürzt L4D2, « Left 4 Dead 2 » ist ein Ego-Shooter-Spiel, das von Valve Corporation entwickelt und im November 2009 veröffentlicht wurde."
+      },
+      {
+        "id": 9,
+        "question": "Was ist in der « Hitman »-Reihe die Lieblingswaffe von Agent 47 ?",
+        "propositions": [
+          "Colt 1911",
+          "Dolch",
+          "Klavierdraht",
+          "SC-20K"
+        ],
+        "réponse": "Klavierdraht",
+        "anecdote": "Im Spiel ist Agent 47 zu sehen, ein gentechnisch veränderter Attentäter, der für die Agentur arbeitet und in die ganze Welt geschickt wird."
+      },
+      {
+        "id": 10,
+        "question": "Wer war in « Life is Strange » Chloes Freundin, als Maxine in Seattle war ?",
+        "propositions": [
+          "warren",
+          "Rachel",
+          "Joyce",
+          "Mark"
+        ],
+        "réponse": "Rachel",
+        "anecdote": "« Life is Strange » ist eine Serie von fünf episodischen grafischen Abenteuervideospielen in objektiver Sicht, nah am interaktiven Film."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welchen Fehler müssen Sie beim Speedrunning von « Super Mario 64 » ausnutzen können ?",
+        "propositions": [
+          "BMG",
+          "BLJ",
+          "BFG",
+          "LMB"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » ist das erste Spiel der Serie, das vollständig in Echtzeit in 3D läuft und daher völlige Bewegungsfreiheit bietet."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Fehler tritt in « The Legend of Zelda: Breath of the Wild » bei einer aktivierten Kreatur auf ?",
+        "propositions": [
+          "Mondsprung",
+          "Riesiger Sprung",
+          "Unendlichkeitssprung",
+          "Weltraumsprung"
+        ],
+        "réponse": "Mondsprung",
+        "anecdote": "« Breath of the Wild » schlägt vor, Link zu verkörpern, Amnesie, der nach hundert Jahren Schlaf von einer mysteriösen Stimme geweckt wird."
+      },
+      {
+        "id": 13,
+        "question": "Wer steht in « Rainbow Six: Siege » alleine ohne Trefferpunkte auf ?",
+        "propositions": [
+          "Dokument",
+          "Turm",
+          "Berg",
+          "Zofia"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "In diesem taktischen Schießspiel verkörpert der Spieler verschiedene Agenten mehrerer Spezialeinheiten und Interventionsgruppen."
+      },
+      {
+        "id": 14,
+        "question": "Im Spiel « Starcraft 2 » gibt es Terraner, Protoss und welche andere Rasse ?",
+        "propositions": [
+          "zarx",
+          "zotric",
+          "zerg",
+          "Zyphen"
+        ],
+        "réponse": "zerg",
+        "anecdote": "« StarCraft 2 » ist in drei Teile unterteilt : das Basisspiel sowie zwei Erweiterungen namens « Heart of the Swarm » und « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Rasse gehört Chop, Franklins Hund, in « Grand Theft Auto V » an ?",
+        "propositions": [
+          "Dobermann",
+          "Amerikanischer Tyrann",
+          "Pitbull",
+          "Rottweiler"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "Diese Episode spielt im fiktiven Bundesstaat San Andreas in Südkalifornien, dessen Einzelspieler-Geschichte drei verschiedenen Protagonisten folgt."
+      },
+      {
+        "id": 16,
+        "question": "In « Borderlands 2 » von Gearbox Software, in welcher Stadt befindet sich Moxxis Bar ?",
+        "propositions": [
+          "Drei Hörner",
+          "Der Staub",
+          "Heiligtum",
+          "Lynchwood"
+        ],
+        "réponse": "Heiligtum",
+        "anecdote": "In « Borderlands » ist Sanctuary Pandoras letzte freie Stadt und die Hauptstadt der Widerstandsbewegung Scarlet Raider."
+      },
+      {
+        "id": 17,
+        "question": "Was ist der erste Boss, dem man im Action-RPG-Spiel « Elden Ring » begegnet ?",
+        "propositions": [
+          "Godrick Ash",
+          "Leoninische Chimäre",
+          "Gefallene Margit",
+          "Nachkommen gepfropft"
+        ],
+        "réponse": "Nachkommen gepfropft",
+        "anecdote": "Das Spiel wurde von der Kritik und der Öffentlichkeit hervorragend aufgenommen und mehrfach als Videospiel des Jahres 2022 ausgezeichnet."
+      },
+      {
+        "id": 18,
+        "question": "Welche Farbe hat Dominus Ghaul im Spiel « Destiny 2 » ?",
+        "propositions": [
+          "Weiß",
+          "Rot",
+          "Schwarz",
+          "Blau"
+        ],
+        "réponse": "Weiß",
+        "anecdote": "Spieleraktionen haben Auswirkungen und verursachen sogar Ereignisse, die nicht einmal die Entwickler geplant hatten."
+      },
+      {
+        "id": 19,
+        "question": "Was ist der erste Boss, dem man in « Metal Gear Solid 2: Sons of Liberty » begegnet ?",
+        "propositions": [
+          "Maria",
+          "Vampir",
+          "Olga",
+          "Reichtum"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) war ein kritischer und öffentlicher Erfolg, mit weltweit über sieben Millionen verkauften Spielexemplaren."
+      },
+      {
+        "id": 20,
+        "question": "Was ist in « Unreal Tournament 3 » das Sekundärfeuer des Schockgewehrs ?",
+        "propositions": [
+          "Näherungsmine",
+          "Lenkflugkörper",
+          "Laserstrahl",
+          "Plasmaball"
+        ],
+        "réponse": "Plasmaball",
+        "anecdote": "Obwohl dem Einzelspieler-Spiel besondere Aufmerksamkeit seitens der Entwickler gewidmet wird, liegt das Hauptinteresse bei den Online-Spielen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Art von Videospielfehler kann dazu führen, dass Ihr Charakter durch eine Wand läuft ?",
+        "propositions": [
+          "Hitboxen",
+          "Stoffpuppe",
+          "Kollision",
+          "Textur"
+        ],
+        "réponse": "Kollision",
+        "anecdote": "Kollisionen sind ein grundlegender Aspekt jedes Action- oder Animationsspiels im Allgemeinen, dessen Management auf Funktionen basiert."
+      },
+      {
+        "id": 22,
+        "question": "Woraus bestehen die durch Rasterung durch eine Grafik-Engine angezeigten Flächen ?",
+        "propositions": [
+          "Quadrate",
+          "Sprites",
+          "Scheitelpunkt",
+          "Dreiecke"
+        ],
+        "réponse": "Dreiecke",
+        "anecdote": "In diesem Fall führt die Grafikkarte dazu, dass die Dreiecke verschiedene geometrische Transformationen durchlaufen, um sie auf den Bildschirm zu projizieren."
+      },
+      {
+        "id": 23,
+        "question": "Wie heißt in « Gamedec » das zweite Videospiel, in dem Sie Nachforschungen anstellen müssen ?",
+        "propositions": [
+          "Erntezeit",
+          "Paradiesstrand",
+          "Axis Mundi",
+          "Verdreht und pervers"
+        ],
+        "réponse": "Erntezeit",
+        "anecdote": "Entdecken Sie eine weitere virtuelle Welt von « Gamedec », einer der virtuellen Welten, die in diesem adaptiven Cyberpunk-Rollenspiel verfügbar sind."
+      },
+      {
+        "id": 24,
+        "question": "Welcher dieser Namen ist nicht der eines Charakters aus « Quake III Arena » ?",
+        "propositions": [
+          "Explosion",
+          "Jäger",
+          "Untergang",
+          "Engel"
+        ],
+        "réponse": "Explosion",
+        "anecdote": "« Quake III Arena » ist ein Ego-Shooter-Videospiel, das von id Software entwickelt und 1999 von Activision für PC veröffentlicht wurde."
+      },
+      {
+        "id": 25,
+        "question": "Was ist die rivalisierende Bande von Dutch Van Der Linde in « Red Dead Redemption II » ?",
+        "propositions": [
+          "Jack Hall Band",
+          "Anderson Boys",
+          "Menschen der Nacht",
+          "O'Driscolls"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » ist das am häufigsten vorbestellte Spiel der Geschichte sowohl im PlayStation Network als auch auf der Fnac-Website."
+      },
+      {
+        "id": 26,
+        "question": "Wer hat Rapture Industries in der « Bioshock »-Reihe gegründet ?",
+        "propositions": [
+          "Andrew Ryan",
+          "Sander Cohen",
+          "Frank Fontaine",
+          "J. S. Steinman"
+        ],
+        "réponse": "Andrew Ryan",
+        "anecdote": "BioShock ist ein Ego-Shooter-Videospiel, das von 2K Boston/2K Australia entwickelt und von Ken Levine entworfen wurde."
+      },
+      {
+        "id": 27,
+        "question": "Wer übt in der « Tekken »-Reihe Zui Quan, das Boxen betrunkener Männer ?",
+        "propositions": [
+          "Leroy Smith",
+          "Katarina Alves",
+          "Asuka Kazama",
+          "Lei Wu Long"
+        ],
+        "réponse": "Lei Wu Long",
+        "anecdote": "« Tekken » erschien 1994 und wurde ursprünglich von Namco für Arcade-Automaten entwickelt und dann an Heimkonsolen angepasst."
+      },
+      {
+        "id": 28,
+        "question": "Wie heißt die Hauptfigur der « Portal »-Spieleserie ?",
+        "propositions": [
+          "chel",
+          "Michael",
+          "Schale",
+          "michelle"
+        ],
+        "réponse": "chel",
+        "anecdote": "Das Spiel besteht aus einer Reihe von Parcours, die der Spieler durchqueren muss, indem er seinen Charakter oder Objekte mit einer Waffe teleportiert."
+      },
+      {
+        "id": 29,
+        "question": "Welchen Satz sagen die Sligs in « Oddworld : L'Odyssée d'Abe » nie ?",
+        "propositions": [
+          "Einfrieren!",
+          "Hier Junge!",
+          "Achtung!",
+          "Arbeiten!"
+        ],
+        "réponse": "Arbeiten!",
+        "anecdote": "Im Mittelpunkt des Spiels steht das Abenteuer von Abe, einem Mudokon-Sklaven, der bei RuptureFarms, einem Schlachthaus und einer Fleischfabrik auf Oddworld, arbeitet."
+      },
+      {
+        "id": 30,
+        "question": "Wann geht in « Rollerdrome » der Schild eines Sprengkopfes hoch, wenn er getroffen wird ?",
+        "propositions": [
+          "Immer",
+          "Niemals",
+          "Einmal",
+          "Das erste Mal"
+        ],
+        "réponse": "Immer",
+        "anecdote": "In diesem Spiel übernehmen die Spieler die Kontrolle über Kara Hassan, eine Teilnehmerin einer tödlichen Sportart namens Rollerdrome."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En la serie « Splinter Cell », ¿a qué organización secreta pertenece Sam Fisher ?",
+        "propositions": [
+          "Escalón 2",
+          "Escalón 3",
+          "Escalón 0",
+          "Escalón 1"
+        ],
+        "réponse": "Escalón 3",
+        "anecdote": "El nombre de la serie se divide en dos partes : Tom Clancy, novelista y guionista estadounidense, y Splinter Cell, célula disidente."
+      },
+      {
+        "id": 2,
+        "question": "En « Cyberpunk 2077 », ¿qué salva V cuando Dex intenta atentar contra su vida ?",
+        "propositions": [
+          "Casco",
+          "Cobertura",
+          "Escudo",
+          "Engrama"
+        ],
+        "réponse": "Engrama",
+        "anecdote": "« Cyberpunk 2077 » es un videojuego de rol y acción desarrollado por CD Projekt RED, inspirado en el juego de rol de mesa « Cyberpunk 2020 »."
+      },
+      {
+        "id": 3,
+        "question": "En « World of Warcraft », ¿qué clase puede transformarse en un oso y un felino ?",
+        "propositions": [
+          "Chamán",
+          "Cazador",
+          "paladín",
+          "Druida"
+        ],
+        "réponse": "Druida",
+        "anecdote": "WoW tiene lugar en Azeroth, casi cuatro años después de los eventos del final anterior, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "En « Minecraft », ¿cuántos bloques de lana valen para esquilar una oveja con tijeras ?",
+        "propositions": [
+          "Dos",
+          "Tres",
+          "Cinco",
+          "Cuatro"
+        ],
+        "réponse": "Dos",
+        "anecdote": "Este videojuego tipo sandbox de aventura fue desarrollado por el sueco Markus Persson, alias Notch, luego por Mojang Studios."
+      },
+      {
+        "id": 5,
+        "question": "¿Cómo se llama la primera reliquia buscada en el primer « Tomb Raider » ?",
+        "propositions": [
+          "Máscara de Tornarsuk",
+          "Vástago de los atlantes",
+          "Daga de Xian",
+          "Mano de Rathmore"
+        ],
+        "réponse": "Vástago de los atlantes",
+        "anecdote": "La serie fue desarrollada inicialmente por Core Design, que produjo seis episodios, antes de ser adquirida en 2003 por Crystal Dynamics."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál de estos Golems no se puede encontrar en el juego « Diablo III » ?",
+        "propositions": [
+          "Golem de sangre",
+          "Golem de arcilla",
+          "Golem relámpago",
+          "golem de fuego"
+        ],
+        "réponse": "Golem relámpago",
+        "anecdote": "En un universo imaginario de fantasía medieval, el jugador puede convertirse en hechicero, bárbaro, médico brujo, cazador de demonios o monje."
+      },
+      {
+        "id": 7,
+        "question": "En la serie « Crash Bandicoot », ¿cómo se llama el creador de Crash ?",
+        "propositions": [
+          "aku aku",
+          "neo-corteza",
+          "Roo el destripador",
+          "N. Tropía"
+        ],
+        "réponse": "neo-corteza",
+        "anecdote": "Crash Bandicoot es una serie de videojuegos de plataformas creada por Andy Gavin y Jason Rubin, iniciada en 1996 en PlayStation."
+      },
+      {
+        "id": 8,
+        "question": "En « Left 4 Dead 2 », ¿qué infectado puede agarrarse a los sobrevivientes para guiarlos ?",
+        "propositions": [
+          "el cazador",
+          "el jockey",
+          "la bruja",
+          "El fumador"
+        ],
+        "réponse": "el jockey",
+        "anecdote": "Abreviado L4D2, « Left 4 Dead 2 » es un juego de disparos en primera persona desarrollado por Valve Corporation y lanzado en noviembre de 2009."
+      },
+      {
+        "id": 9,
+        "question": "En la serie « Hitman », ¿cuál es el arma favorita del Agente 47 ?",
+        "propositions": [
+          "Daga",
+          "SC-20K",
+          "cuerda de piano",
+          "potro 1911"
+        ],
+        "réponse": "cuerda de piano",
+        "anecdote": "El juego presenta al Agente 47, un asesino modificado genéticamente que trabaja para la Agencia, enviado por todo el mundo."
+      },
+      {
+        "id": 10,
+        "question": "En « Life is Strange », ¿quién era amigo de Chloe cuando Maxine estaba en Seattle ?",
+        "propositions": [
+          "Joyce",
+          "Raquel",
+          "marca",
+          "madriguera"
+        ],
+        "réponse": "Raquel",
+        "anecdote": "« Life is Strange » es una serie de cinco videojuegos de aventuras gráficas por episodios en una vista objetiva, cercana a la película interactiva."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Al correr « Super Mario 64 », ¿qué falla necesitas saber cómo explotar ?",
+        "propositions": [
+          "LMB",
+          "BLJ",
+          "BFG",
+          "BMG"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » es el primer juego de la serie completamente en 3D en tiempo real y, como tal, ofrece total libertad de movimiento."
+      },
+      {
+        "id": 12,
+        "question": "En « The Legend of Zelda: Breath of the Wild », ¿qué falla ocurre en una criatura activada ?",
+        "propositions": [
+          "Salto espacial",
+          "Salto infinito",
+          "gran salto",
+          "salto lunar"
+        ],
+        "réponse": "salto lunar",
+        "anecdote": "« Breath of the Wild » propone encarnar a Link, amnésico, despertado tras cien años de sueño por una voz misteriosa."
+      },
+      {
+        "id": 13,
+        "question": "En « Rainbow Six: Siege », ¿quién se levanta solo sin puntos de vida ?",
+        "propositions": [
+          "montaña",
+          "Documento",
+          "Zofia",
+          "Torre"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "En este juego de disparos tácticos, el jugador encarna a diferentes agentes de varias unidades de fuerzas especiales y grupos de intervención."
+      },
+      {
+        "id": 14,
+        "question": "En el juego « Starcraft 2 » están presentes Terrans, Protoss y qué otra raza ?",
+        "propositions": [
+          "zarx",
+          "zotrico",
+          "Zifs",
+          "zerg"
+        ],
+        "réponse": "zerg",
+        "anecdote": "« StarCraft 2 » se divide en tres partes : el juego base y dos expansiones llamadas « Heart of the Swarm » y « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "En « Grand Theft Auto V », ¿cuál es la raza de Chop, el perro de Franklin ?",
+        "propositions": [
+          "dóberman",
+          "rottweiler",
+          "pitbull",
+          "matón americano"
+        ],
+        "réponse": "rottweiler",
+        "anecdote": "Este episodio está ambientado en el estado ficticio de San Andreas en el sur de California, cuya historia para un jugador sigue a tres protagonistas diferentes."
+      },
+      {
+        "id": 16,
+        "question": "En « Borderlands 2 », de Gearbox Software, ¿en qué ciudad se encuentra el bar de Moxxi ?",
+        "propositions": [
+          "Santuario",
+          "Tres Cuernos",
+          "el polvo",
+          "Lynchwood"
+        ],
+        "réponse": "Santuario",
+        "anecdote": "En « Borderlands », Sanctuary es la última ciudad libre de Pandora y la capital del movimiento de resistencia Scarlet Raider."
+      },
+      {
+        "id": 17,
+        "question": "¿Cuál es el primer jefe encontrado en el juego RPG de acción « Elden Ring » ?",
+        "propositions": [
+          "Margarita caída",
+          "Ceniza de Godrick",
+          "descendencia injertada",
+          "Quimera leonina"
+        ],
+        "réponse": "descendencia injertada",
+        "anecdote": "El juego recibió una excelente recepción crítica y comercial, ganando múltiples premios al Videojuego del año 2022."
+      },
+      {
+        "id": 18,
+        "question": "¿De qué color es Dominus Ghaul en el juego « Destiny 2 » ?",
+        "propositions": [
+          "Negro",
+          "azul",
+          "Blanco",
+          "rojo"
+        ],
+        "réponse": "Blanco",
+        "anecdote": "Las acciones de los jugadores tienen un impacto, incluso creando eventos que ni siquiera los desarrolladores habían planeado."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál es el primer jefe encontrado en « Metal Gear Solid 2: Sons of Liberty » ?",
+        "propositions": [
+          "Olga",
+          "Riqueza",
+          "maría",
+          "vampiro"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) fue un éxito de crítica y público, con más de siete millones de copias vendidas en todo el mundo."
+      },
+      {
+        "id": 20,
+        "question": "En « Unreal Tournament 3 », ¿cuál es el fuego secundario del Shock Rifle ?",
+        "propositions": [
+          "Rayo láser",
+          "Misiles guiados",
+          "Mina de proximidad",
+          "bola de plasma"
+        ],
+        "réponse": "bola de plasma",
+        "anecdote": "Aunque el juego para un solo jugador es objeto de especial atención por parte de los desarrolladores, el principal interés radica en los juegos en línea."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué tipo de error de videojuego puede hacer que tu personaje atraviese una pared ?",
+        "propositions": [
+          "Hitboxes",
+          "Colisión",
+          "muñeco de trapo",
+          "Textura"
+        ],
+        "réponse": "Colisión",
+        "anecdote": "Las colisiones son un aspecto fundamental de cualquier juego de acción o animación en general, cuya gestión se basa en funciones."
+      },
+      {
+        "id": 22,
+        "question": "¿De qué están hechas las superficies mostradas por rasterización por un motor gráfico ?",
+        "propositions": [
+          "Cuadrados",
+          "vértice",
+          "duendes",
+          "Triángulos"
+        ],
+        "réponse": "Triángulos",
+        "anecdote": "En este caso, la tarjeta gráfica hace que los triángulos sufran diversas transformaciones geométricas para poder proyectarlos en la pantalla."
+      },
+      {
+        "id": 23,
+        "question": "En « Gamedec », ¿cómo se llama el segundo videojuego en el que debes investigar ?",
+        "propositions": [
+          "Tiempo de cosecha",
+          "Eje Mundi",
+          "Retorcido y Pervertido",
+          "Playa Paraíso"
+        ],
+        "réponse": "Tiempo de cosecha",
+        "anecdote": "Explora otro mundo virtual de « Gamedec », uno de los mundos virtuales disponibles en este juego de rol cyberpunk adaptativo."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál de estos nombres no es el de un personaje de « Quake III Arena » ?",
+        "propositions": [
+          "explosión",
+          "Cazador",
+          "ángel",
+          "fatalidad"
+        ],
+        "réponse": "explosión",
+        "anecdote": "« Quake III Arena » es un videojuego de disparos en primera persona desarrollado por id Software y publicado por Activision para PC en 1999."
+      },
+      {
+        "id": 25,
+        "question": "En « Red Dead Redemption II », ¿cuál es la pandilla rival de Dutch Van Der Linde ?",
+        "propositions": [
+          "Banda de Jack Hall",
+          "O'Driscolls",
+          "chicos anderson",
+          "gente de la noche"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » es el juego con más pedidos anticipados de la historia en PlayStation Network y en el sitio web de Fnac."
+      },
+      {
+        "id": 26,
+        "question": "¿Quién fundó Rapture Industries, en la serie « Bioshock » ?",
+        "propositions": [
+          "franco fontaine",
+          "lijadora cohen",
+          "andres ryan",
+          "JS Steinman"
+        ],
+        "réponse": "andres ryan",
+        "anecdote": "BioShock es un videojuego de disparos en primera persona desarrollado por 2K Boston/2K Australia y diseñado por Ken Levine."
+      },
+      {
+        "id": 27,
+        "question": "En la serie « Tekken », ¿quién practica Zui Quan, boxeo de borrachos ?",
+        "propositions": [
+          "Leroy Smith",
+          "Asuka Kazama",
+          "Lei Wu largo",
+          "Katarina Alves"
+        ],
+        "réponse": "Lei Wu largo",
+        "anecdote": "Aparecido en 1994, « Tekken » fue desarrollado tradicionalmente por Namco para máquinas recreativas y luego adaptado a consolas domésticas."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál es el nombre del personaje principal interpretado en la serie de juegos « Portal » ?",
+        "propositions": [
+          "michelle",
+          "Miguel",
+          "Concha",
+          "chel"
+        ],
+        "réponse": "chel",
+        "anecdote": "El juego consiste en una sucesión de cursos que el jugador debe cruzar teletransportando a su personaje u objetos a través de un arma."
+      },
+      {
+        "id": 29,
+        "question": "En « Oddworld : L'Odyssée d'Abe », ¿qué frase nunca dicen los Sligs ?",
+        "propositions": [
+          "¡Congelar!",
+          "¡Estar atento!",
+          "¡Aquí chico!",
+          "¡Trabajar!"
+        ],
+        "réponse": "¡Trabajar!",
+        "anecdote": "El juego se centra en la aventura de Abe, un esclavo Mudokon que trabaja en RuptureFarms, matadero y fábrica de carne en Oddworld."
+      },
+      {
+        "id": 30,
+        "question": "En « Rollerdrome », ¿cuándo se dispara el escudo de un ojiva si es golpeado ?",
+        "propositions": [
+          "La primera vez",
+          "Nunca",
+          "Una vez",
+          "Siempre"
+        ],
+        "réponse": "Siempre",
+        "anecdote": "En este juego, los jugadores toman el control de Kara Hassan, una participante en un deporte mortal conocido como Rollerdrome."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Nella serie « Splinter Cell », a quale organizzazione segreta appartiene Sam Fisher ?",
+        "propositions": [
+          "Scaglione 0",
+          "Scaglione 2",
+          "Scaglione 3",
+          "Scaglione 1"
+        ],
+        "réponse": "Scaglione 3",
+        "anecdote": "Il nome della serie è diviso in due parti : Tom Clancy, romanziere e sceneggiatore americano, e Splinter Cell, cellula dissidente."
+      },
+      {
+        "id": 2,
+        "question": "In « Cyberpunk 2077 », da cosa viene salvato V quando Dex cerca di attentare alla sua vita ?",
+        "propositions": [
+          "Casco",
+          "Engramma",
+          "Scudo",
+          "Siepe"
+        ],
+        "réponse": "Engramma",
+        "anecdote": "« Cyberpunk 2077 » è un videogioco d'azione-RPG sviluppato da CD Projekt RED, ispirato al gioco di ruolo da tavolo « Cyberpunk 2020 »."
+      },
+      {
+        "id": 3,
+        "question": "In « World of Warcraft », quale classe può trasformarsi in un orso e in un felino ?",
+        "propositions": [
+          "Druido",
+          "Sciamano",
+          "cacciatore",
+          "paladino"
+        ],
+        "réponse": "Druido",
+        "anecdote": "WoW si svolge ad Azeroth, quasi quattro anni dopo gli eventi del finale precedente, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "In « Minecraft », quanti blocchi di lana valgono per tosare una pecora con le cesoie ?",
+        "propositions": [
+          "Cinque",
+          "Quattro",
+          "Tre",
+          "Due"
+        ],
+        "réponse": "Due",
+        "anecdote": "Questo videogioco di tipo avventura sandbox è stato sviluppato dallo svedese Markus Persson, alias Notch, poi da Mojang Studios."
+      },
+      {
+        "id": 5,
+        "question": "Qual è il nome della prima reliquia cercata nel primo « Tomb Raider » ?",
+        "propositions": [
+          "Pugnale di Xian",
+          "Mano di Rathmore",
+          "Maschera di Tornarsuk",
+          "Discendente degli Atlantidei"
+        ],
+        "réponse": "Discendente degli Atlantidei",
+        "anecdote": "La serie è stata inizialmente sviluppata da Core Design, che ha prodotto sei episodi, prima di essere rilevata nel 2003 da Crystal Dynamics."
+      },
+      {
+        "id": 6,
+        "question": "Quale di questi Golem non si trova nel gioco « Diablo III » ?",
+        "propositions": [
+          "Golem di argilla",
+          "golem di fuoco",
+          "Golem di sangue",
+          "Golem di fulmini"
+        ],
+        "réponse": "Golem di fulmini",
+        "anecdote": "In un immaginario universo fantasy medievale, il giocatore può diventare uno stregone, un barbaro, uno stregone, un cacciatore di demoni o un monaco."
+      },
+      {
+        "id": 7,
+        "question": "Nella serie « Crash Bandicoot », come si chiama il creatore di Crash ?",
+        "propositions": [
+          "Squartatore",
+          "neo-corteccia",
+          "aku aku",
+          "N. Tropia"
+        ],
+        "réponse": "neo-corteccia",
+        "anecdote": "Crash Bandicoot è una serie di videogiochi platform creati da Andy Gavin e Jason Rubin, iniziata nel 1996 su PlayStation."
+      },
+      {
+        "id": 8,
+        "question": "In « Left 4 Dead 2 », quali infetti possono attaccarsi ai sopravvissuti per guidarli ?",
+        "propositions": [
+          "Il fantino",
+          "Il fumatore",
+          "Il cacciatore",
+          "La strega"
+        ],
+        "réponse": "Il fantino",
+        "anecdote": "Abbreviato L4D2, « Left 4 Dead 2 » è un gioco sparatutto in prima persona sviluppato da Valve Corporation e pubblicato nel novembre 2009."
+      },
+      {
+        "id": 9,
+        "question": "Nella serie « Hitman », qual è l'arma preferita dell'Agente 47 ?",
+        "propositions": [
+          "filo di pianoforte",
+          "SC-20K",
+          "Pugnale",
+          "Colt 1911"
+        ],
+        "réponse": "filo di pianoforte",
+        "anecdote": "Il gioco presenta l'Agente 47, un assassino geneticamente modificato che lavora per l'Agenzia, inviato in tutto il mondo."
+      },
+      {
+        "id": 10,
+        "question": "In « Life is Strange », chi era l'amica di Chloe quando Maxine era a Seattle ?",
+        "propositions": [
+          "Marco",
+          "Rachele",
+          "Gioia",
+          "labirinto"
+        ],
+        "réponse": "Rachele",
+        "anecdote": "« Life is Strange » è una serie di cinque videogiochi di avventura grafica a episodi in vista obiettiva, vicini al film interattivo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Durante lo speedrunning « Super Mario 64 », quale glitch devi sapere come sfruttare ?",
+        "propositions": [
+          "BMG",
+          "BLJ",
+          "GGG",
+          "LMB"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » è il primo gioco della serie ad essere completamente in 3D in tempo reale e come tale offre completa libertà di movimento."
+      },
+      {
+        "id": 12,
+        "question": "In « The Legend of Zelda: Breath of the Wild », quale glitch si verifica su una creatura attivata ?",
+        "propositions": [
+          "Enorme salto",
+          "Salto nello spazio",
+          "Salto all'infinito",
+          "salto lunare"
+        ],
+        "réponse": "salto lunare",
+        "anecdote": "« Breath of the Wild » propone di incarnare Link, amnesia, risvegliato dopo cento anni di sonno da una voce misteriosa."
+      },
+      {
+        "id": 13,
+        "question": "In « Rainbow Six: Siege », chi si alza da solo senza punti ferita ?",
+        "propositions": [
+          "Zofia",
+          "Montagna",
+          "Torre",
+          "Documento"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "In questo gioco di tiro tattico, il giocatore incarna diversi agenti di diverse unità di forze speciali e gruppi di intervento."
+      },
+      {
+        "id": 14,
+        "question": "Nel gioco « Starcraft 2 » sono presenti Terrans, Protoss e quale altra razza ?",
+        "propositions": [
+          "zifi",
+          "zax",
+          "zotrico",
+          "zerg"
+        ],
+        "réponse": "zerg",
+        "anecdote": "« StarCraft 2 » è diviso in tre parti : il gioco base e due espansioni chiamate « Heart of the Swarm » e « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "In « Grand Theft Auto V », qual è la razza di Chop, il cane di Franklin ?",
+        "propositions": [
+          "Dobermann",
+          "pitbull",
+          "rottweiler",
+          "Bullo americano"
+        ],
+        "réponse": "rottweiler",
+        "anecdote": "Questo episodio è ambientato nello stato immaginario di San Andreas nel sud della California, la cui storia per giocatore singolo segue tre diversi protagonisti."
+      },
+      {
+        "id": 16,
+        "question": "In « Borderlands 2 », di Gearbox Software, in quale città si trova il bar di Moxxi ?",
+        "propositions": [
+          "Tre Corni",
+          "La polvere",
+          "Santuario",
+          "Lynchwood"
+        ],
+        "réponse": "Santuario",
+        "anecdote": "In « Borderlands », Sanctuary è l'ultima città libera di Pandora e la capitale del movimento di resistenza Scarlet Raider."
+      },
+      {
+        "id": 17,
+        "question": "Qual è il primo boss incontrato nel gioco di ruolo d'azione « Elden Ring » ?",
+        "propositions": [
+          "Godrick cenere",
+          "Prole innestata",
+          "Margherita caduta",
+          "Chimera Leonina"
+        ],
+        "réponse": "Prole innestata",
+        "anecdote": "Il gioco ha ricevuto un'eccellente accoglienza di critica e commerciale, vincendo numerosi premi Videogioco dell'anno 2022."
+      },
+      {
+        "id": 18,
+        "question": "Di che colore è Dominus Ghaul nel gioco « Destiny 2 » ?",
+        "propositions": [
+          "Blu",
+          "Bianco",
+          "Nero",
+          "Rosso"
+        ],
+        "réponse": "Bianco",
+        "anecdote": "Le azioni dei giocatori hanno un impatto, creando anche eventi che nemmeno gli sviluppatori avevano pianificato."
+      },
+      {
+        "id": 19,
+        "question": "Qual è il primo boss incontrato in « Metal Gear Solid 2: Sons of Liberty » ?",
+        "propositions": [
+          "Ricchezza",
+          "maria",
+          "vampiro",
+          "Olga"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) è stato un successo di critica e di pubblico, con oltre sette milioni di copie del gioco vendute in tutto il mondo."
+      },
+      {
+        "id": 20,
+        "question": "In « Unreal Tournament 3 », qual è il fuoco secondario del fucile elettrico ?",
+        "propositions": [
+          "Missile guidato",
+          "Miniera di prossimità",
+          "Sfera al plasma",
+          "Raggio laser"
+        ],
+        "réponse": "Sfera al plasma",
+        "anecdote": "Sebbene il gioco per giocatore singolo sia oggetto di particolare attenzione da parte degli sviluppatori, l'interesse principale risiede nei giochi online."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Che tipo di bug del videogioco può far passare il tuo personaggio attraverso un muro ?",
+        "propositions": [
+          "Collisione",
+          "bambola di pezza",
+          "Hitbox",
+          "Trama"
+        ],
+        "réponse": "Collisione",
+        "anecdote": "Le collisioni sono un aspetto fondamentale di qualsiasi gioco d'azione o di animazione in generale, la cui gestione si basa sulle funzioni."
+      },
+      {
+        "id": 22,
+        "question": "Di cosa sono fatte le superfici visualizzate dalla rasterizzazione da parte di un motore grafico ?",
+        "propositions": [
+          "vertice",
+          "Sprite",
+          "Triangoli",
+          "Piazze"
+        ],
+        "réponse": "Triangoli",
+        "anecdote": "In questo caso, la scheda grafica fa subire ai triangoli varie trasformazioni geometriche per proiettarli sullo schermo."
+      },
+      {
+        "id": 23,
+        "question": "In « Gamedec », qual è il nome del secondo videogioco in cui devi indagare ?",
+        "propositions": [
+          "Contorto e pervertito",
+          "Tempo di raccolta",
+          "Asse Mundi",
+          "Spiaggia del Paradiso"
+        ],
+        "réponse": "Tempo di raccolta",
+        "anecdote": "Esplora un altro mondo virtuale di « Gamedec », uno dei mondi virtuali disponibili in questo gioco di ruolo cyberpunk adattivo."
+      },
+      {
+        "id": 24,
+        "question": "Quale di questi nomi non è quello di un personaggio di « Quake III Arena » ?",
+        "propositions": [
+          "esplosione",
+          "Angelo",
+          "cacciatore",
+          "Destino"
+        ],
+        "réponse": "esplosione",
+        "anecdote": "« Quake III Arena » è un videogioco sparatutto in prima persona sviluppato da id Software e pubblicato da Activision per PC nel 1999."
+      },
+      {
+        "id": 25,
+        "question": "In « Red Dead Redemption II », qual è la banda rivale di Dutch Van Der Linde ?",
+        "propositions": [
+          "Gente della notte",
+          "Anderson ragazzi",
+          "Banda di Jack Hall",
+          "O'Driscolls"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » è il gioco più preordinato della storia su PlayStation Network e sul sito web della Fnac."
+      },
+      {
+        "id": 26,
+        "question": "Chi ha fondato Rapture Industries, nella serie « Bioshock » ?",
+        "propositions": [
+          "JS Steinman",
+          "Franco Fontaine",
+          "andrew ryan",
+          "SanderCohen"
+        ],
+        "réponse": "andrew ryan",
+        "anecdote": "BioShock è un videogioco sparatutto in prima persona sviluppato da 2K Boston/2K Australia e progettato da Ken Levine."
+      },
+      {
+        "id": 27,
+        "question": "Nella serie « Tekken », chi pratica lo Zui Quan, la boxe degli ubriachi ?",
+        "propositions": [
+          "Lei Wu lungo",
+          "Leroy Smith",
+          "Katarina Alves",
+          "Asuka Kazama"
+        ],
+        "réponse": "Lei Wu lungo",
+        "anecdote": "Apparso nel 1994, « Tekken » è stato tradizionalmente sviluppato da Namco per macchine arcade poi adattato alle console domestiche."
+      },
+      {
+        "id": 28,
+        "question": "Qual è il nome del personaggio principale interpretato nella serie di giochi « Portal » ?",
+        "propositions": [
+          "michele",
+          "chel",
+          "Michele",
+          "Conchiglia"
+        ],
+        "réponse": "chel",
+        "anecdote": "Il gioco consiste in una successione di percorsi che il giocatore deve attraversare teletrasportando il proprio personaggio o gli oggetti tramite un'arma."
+      },
+      {
+        "id": 29,
+        "question": "In « Oddworld : L'Odyssée d'Abe », quale frase non dicono mai gli Slig ?",
+        "propositions": [
+          "Congelare!",
+          "Lavoro!",
+          "Qui ragazzo!",
+          "Attenzione!"
+        ],
+        "réponse": "Lavoro!",
+        "anecdote": "Il gioco è incentrato sull'avventura di Abe, uno schiavo Mudokon che lavora a RuptureFarms, macello e fabbrica di carne su Oddworld."
+      },
+      {
+        "id": 30,
+        "question": "In « Rollerdrome », quando esplode lo scudo di una Warhead se colpito ?",
+        "propositions": [
+          "Mai",
+          "Sempre",
+          "La prima volta",
+          "Una volta"
+        ],
+        "réponse": "Sempre",
+        "anecdote": "In questo gioco, i giocatori prendono il controllo di Kara Hassan, una partecipante a uno sport mortale noto come Rollerdrome."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Tot welke geheime organisatie behoort Sam Fisher in de « Splinter Cell »-serie ?",
+        "propositions": [
+          "Echelon 3",
+          "Echelon 0",
+          "Echelon 1",
+          "Echelon 2"
+        ],
+        "réponse": "Echelon 3",
+        "anecdote": "De naam van de serie is verdeeld in twee delen : Tom Clancy, Amerikaanse romanschrijver en scenarioschrijver, en Splinter Cell, dissidente cel."
+      },
+      {
+        "id": 2,
+        "question": "Waardoor wordt V in « Cyberpunk 2077 » gered als Dex een poging tot leven probeert te wagen ?",
+        "propositions": [
+          "Engram",
+          "Heggenschaar",
+          "Helm",
+          "Schild"
+        ],
+        "réponse": "Engram",
+        "anecdote": "« Cyberpunk 2077 » is een actie-RPG-videogame ontwikkeld door CD Projekt RED, geïnspireerd door « Cyberpunk 2020 » rollenspel op tafel."
+      },
+      {
+        "id": 3,
+        "question": "Welke klasse kan in « World of Warcraft » transformeren in een beer en een katachtige ?",
+        "propositions": [
+          "Druïde",
+          "Jager",
+          "Sjamaan",
+          "paladijn"
+        ],
+        "réponse": "Druïde",
+        "anecdote": "WoW speelt zich af in Azeroth, bijna vier jaar na de gebeurtenissen van het vorige einde, « The Frozen Throne »."
+      },
+      {
+        "id": 4,
+        "question": "In « Minecraft », hoeveel blokken wol is het waard om een schaap met een schaar te scheren ?",
+        "propositions": [
+          "Vier",
+          "Drie",
+          "Twee",
+          "Vijf"
+        ],
+        "réponse": "Twee",
+        "anecdote": "Deze videogame van het sandbox-avontuurtype is ontwikkeld door de Zweed Markus Persson, alias Notch, en vervolgens door Mojang Studios."
+      },
+      {
+        "id": 5,
+        "question": "Wat is de naam van het eerste gezochte relikwie in de eerste « Tomb Raider » ?",
+        "propositions": [
+          "Masker van Tornarsuk",
+          "Telg van de Atlantiërs",
+          "Dolk van Xian",
+          "Hand van Rathmore"
+        ],
+        "réponse": "Telg van de Atlantiërs",
+        "anecdote": "De serie is in eerste instantie ontwikkeld door Core Design, dat zes afleveringen produceerde, voordat het in 2003 werd overgenomen door Crystal Dynamics."
+      },
+      {
+        "id": 6,
+        "question": "Welke van deze Golems is niet te vinden in het spel « Diablo III » ?",
+        "propositions": [
+          "Kleigolem",
+          "Bloedgolem",
+          "vuurgolem",
+          "Bliksemgolem"
+        ],
+        "réponse": "Bliksemgolem",
+        "anecdote": "In een denkbeeldig middeleeuws-fantasie-universum kan de speler een tovenaar, barbaar, toverdokter, demonenjager of monnik worden."
+      },
+      {
+        "id": 7,
+        "question": "Wat is de naam van de maker van Crash in de « Crash Bandicoot »-serie ?",
+        "propositions": [
+          "Ripper Roe",
+          "N. Tropy",
+          "neocortex",
+          "aku aku"
+        ],
+        "réponse": "neocortex",
+        "anecdote": "Crash Bandicoot is een serie platformvideogames gemaakt door Andy Gavin en Jason Rubin en begon in 1996 op PlayStation."
+      },
+      {
+        "id": 8,
+        "question": "Welke geïnfecteerden kunnen zich in « Left 4 Dead 2 » vastklampen aan overlevenden om ze te leiden ?",
+        "propositions": [
+          "De Jager",
+          "De roker",
+          "De heks",
+          "De jockey"
+        ],
+        "réponse": "De jockey",
+        "anecdote": "« Left 4 Dead 2 », afgekort als L4D2, is een first-person shooter-game ontwikkeld door Valve Corporation en uitgebracht in november 2009."
+      },
+      {
+        "id": 9,
+        "question": "Wat is het favoriete wapen van Agent 47 in de « Hitman »-serie ?",
+        "propositions": [
+          "pianosnaar",
+          "Veulen 1911",
+          "Dolk",
+          "SC-20K"
+        ],
+        "réponse": "pianosnaar",
+        "anecdote": "De game bevat Agent 47, een genetisch gemodificeerde huurmoordenaar die voor de Agency werkt en de hele wereld over is gestuurd."
+      },
+      {
+        "id": 10,
+        "question": "Wie was Chloe's vriendin in « Life is Strange » toen Maxine in Seattle was ?",
+        "propositions": [
+          "Rachel",
+          "warren",
+          "Markeer",
+          "Joyce"
+        ],
+        "réponse": "Rachel",
+        "anecdote": "« Life is Strange » is een serie van vijf episodische grafische avontuurlijke videogames in objectieve weergave, dicht bij de interactieve film."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wanneer je « Super Mario 64 » snel uitvoert, welke storing moet je dan weten te misbruiken ?",
+        "propositions": [
+          "LB",
+          "BMG",
+          "BLJ",
+          "GVR"
+        ],
+        "réponse": "BLJ",
+        "anecdote": "« Super Mario 64 » is de eerste game in de serie die volledig real-time 3D is en als zodanig volledige bewegingsvrijheid biedt."
+      },
+      {
+        "id": 12,
+        "question": "Welke glitch speelt er in « The Legend of Zelda: Breath of the Wild » op een geactiveerd wezen ?",
+        "propositions": [
+          "Ruimtesprong",
+          "Enorme sprong",
+          "maansprong",
+          "Oneindige sprong"
+        ],
+        "réponse": "maansprong",
+        "anecdote": "« Breath of the Wild » stelt voor om Link te belichamen, geheugenverlies, na honderd jaar slaap gewekt door een mysterieuze stem."
+      },
+      {
+        "id": 13,
+        "question": "Wie staat er in « Rainbow Six: Siege » alleen op zonder levenspunten ?",
+        "propositions": [
+          "Berg",
+          "Zofia",
+          "Roek",
+          "Documenteren"
+        ],
+        "réponse": "Zofia",
+        "anecdote": "In dit tactische schietspel belichaamt de speler verschillende agenten van verschillende speciale eenheden en interventiegroepen."
+      },
+      {
+        "id": 14,
+        "question": "In het spel « Starcraft 2 » zijn Terrans, Protoss en welk ander ras aanwezig ?",
+        "propositions": [
+          "Zyphs",
+          "zerg",
+          "zotrisch",
+          "zarx"
+        ],
+        "réponse": "zerg",
+        "anecdote": "« StarCraft 2 » bestaat uit drie delen : het basisspel en twee uitbreidingen genaamd « Heart of the Swarm » en « Legacy of the Void »."
+      },
+      {
+        "id": 15,
+        "question": "Wat is het ras van Chop, de hond van Franklin in « Grand Theft Auto V » ?",
+        "propositions": [
+          "Rottweiler",
+          "Amerikaanse pestkop",
+          "pitbull",
+          "Dobermann"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "Deze aflevering speelt zich af in de fictieve staat San Andreas in Zuid-Californië, wiens verhaal voor één speler drie verschillende hoofdrolspelers volgt."
+      },
+      {
+        "id": 16,
+        "question": "In « Borderlands 2 », van Gearbox Software, in welke stad bevindt zich Moxxi's bar ?",
+        "propositions": [
+          "Het stof",
+          "Heiligdom",
+          "Lynchwood",
+          "Drie Hoorns"
+        ],
+        "réponse": "Heiligdom",
+        "anecdote": "In « Borderlands » is Sanctuary de laatste vrije stad van Pandora en de hoofdstad van de Scarlet Raider-verzetsbeweging."
+      },
+      {
+        "id": 17,
+        "question": "Wat is de eerste baas die je tegenkomt in de actie-RPG-game « Elden Ring » ?",
+        "propositions": [
+          "Nakomelingen geënt",
+          "Gevallen Margit",
+          "Godrick Ash",
+          "Leonine Chimaera"
+        ],
+        "réponse": "Nakomelingen geënt",
+        "anecdote": "De game werd uitstekend kritisch en commercieel onthaald en won meerdere prijzen voor Videogame van het jaar 2022."
+      },
+      {
+        "id": 18,
+        "question": "Welke kleur heeft Dominus Ghaul in het spel « Destiny 2 » ?",
+        "propositions": [
+          "Wit",
+          "rood",
+          "Blauw",
+          "Zwart"
+        ],
+        "réponse": "Wit",
+        "anecdote": "Acties van spelers hebben een impact, zelfs het creëren van evenementen die zelfs de ontwikkelaars niet hadden gepland."
+      },
+      {
+        "id": 19,
+        "question": "Wat is de eerste baas die je tegenkomt in « Metal Gear Solid 2: Sons of Liberty » ?",
+        "propositions": [
+          "Rijkdom",
+          "vampier",
+          "Olga",
+          "maria"
+        ],
+        "réponse": "Olga",
+        "anecdote": "« Sons of Liberty » (2001) was een kritisch en publiek succes, met wereldwijd meer dan zeven miljoen verkochte exemplaren van het spel."
+      },
+      {
+        "id": 20,
+        "question": "Wat is het secundaire vuur van de Shock Rifle in « Unreal Tournament 3 » ?",
+        "propositions": [
+          "Plasmabal",
+          "Laserstraal",
+          "Geleide raket",
+          "Nabijheid van mij"
+        ],
+        "réponse": "Plasmabal",
+        "anecdote": "Hoewel de game voor één speler het onderwerp is van speciale aandacht van de ontwikkelaars, ligt de belangrijkste interesse in de online games."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk type bug in een videogame kan je personage door een muur laten lopen ?",
+        "propositions": [
+          "Hitboxen",
+          "Textuur",
+          "lappenpop",
+          "Botsing"
+        ],
+        "réponse": "Botsing",
+        "anecdote": "Botsingen zijn een fundamenteel aspect van elk actie- of animatiespel in het algemeen, waarvan het beheer is gebaseerd op functies."
+      },
+      {
+        "id": 22,
+        "question": "Waar zijn de oppervlakken die worden weergegeven door rastering door een grafische engine van gemaakt ?",
+        "propositions": [
+          "Driehoeken",
+          "Sprietjes",
+          "hoekpunt",
+          "Pleinen"
+        ],
+        "réponse": "Driehoeken",
+        "anecdote": "In dit geval zorgt de grafische kaart ervoor dat de driehoeken verschillende geometrische transformaties ondergaan om ze op het scherm te projecteren."
+      },
+      {
+        "id": 23,
+        "question": "Hoe heet in « Gamedec » de tweede videogame waarin je moet onderzoeken ?",
+        "propositions": [
+          "Oogsttijd",
+          "Verdraaid en Pervers",
+          "Paradijsstrand",
+          "Axis Mundi"
+        ],
+        "réponse": "Oogsttijd",
+        "anecdote": "Verken een andere virtuele wereld van « Gamedec », een van de virtuele werelden die beschikbaar zijn in deze adaptieve cyberpunk-RPG."
+      },
+      {
+        "id": 24,
+        "question": "Welke van deze namen is niet die van een personage uit « Quake III Arena » ?",
+        "propositions": [
+          "Engel",
+          "Jager",
+          "Doom",
+          "ontploffing"
+        ],
+        "réponse": "ontploffing",
+        "anecdote": "« Quake III Arena » is een first-person shooter-videogame ontwikkeld door id Software en uitgegeven door Activision voor pc in 1999."
+      },
+      {
+        "id": 25,
+        "question": "Wat is de rivaliserende bende van de Nederlandse Van Der Linde in « Red Dead Redemption II » ?",
+        "propositions": [
+          "O'Driscolls",
+          "Jack Hall-band",
+          "Mensen van de Nacht",
+          "Anderson Jongens"
+        ],
+        "réponse": "O'Driscolls",
+        "anecdote": "« Red Dead Redemption II » is de meest vooruitbestelde game in de geschiedenis op PlayStation Network en op de Fnac-website."
+      },
+      {
+        "id": 26,
+        "question": "Wie heeft Rapture Industries opgericht, in de « Bioshock »-serie ?",
+        "propositions": [
+          "Frank Fontaine",
+          "JS Steinman",
+          "Sander Cohe",
+          "andre ryan"
+        ],
+        "réponse": "andre ryan",
+        "anecdote": "BioShock is een first-person shooter-videogame ontwikkeld door 2K Boston/2K Australia en ontworpen door Ken Levine."
+      },
+      {
+        "id": 27,
+        "question": "Wie beoefent in de « Tekken »-serie Zui Quan, dronkenmansboksen ?",
+        "propositions": [
+          "Katarina Alves",
+          "Asuka Kazama",
+          "Lei Wu Lang",
+          "Leroy Smit"
+        ],
+        "réponse": "Lei Wu Lang",
+        "anecdote": "« Tekken » verscheen in 1994 en werd van oudsher ontwikkeld door Namco voor arcade-machines en vervolgens aangepast aan thuisconsoles."
+      },
+      {
+        "id": 28,
+        "question": "Wat is de naam van het hoofdpersonage dat wordt gespeeld in de « Portal »-gameserie ?",
+        "propositions": [
+          "chel",
+          "Schelp",
+          "Michaël",
+          "michel"
+        ],
+        "réponse": "chel",
+        "anecdote": "Het spel bestaat uit een opeenvolging van banen die de speler moet oversteken door zijn personage of objecten via een wapen te teleporteren."
+      },
+      {
+        "id": 29,
+        "question": "Welke zin zeggen de Sligs nooit in « Oddworld : L'Odyssée d'Abe » ?",
+        "propositions": [
+          "Hier jongen!",
+          "Bevriezen!",
+          "Werk!",
+          "Pas op!"
+        ],
+        "réponse": "Werk!",
+        "anecdote": "De game draait om het avontuur van Abe, een Mudokon-slaaf die werkt bij RuptureFarms, slachthuis en vleesfabriek op Oddworld."
+      },
+      {
+        "id": 30,
+        "question": "Wanneer gaat in « Rollerdrome » het schild van een kernkop af als het geraakt wordt ?",
+        "propositions": [
+          "Een keer",
+          "Altijd",
+          "De eerste keer",
+          "Nooit"
+        ],
+        "réponse": "Altijd",
+        "anecdote": "In dit spel nemen spelers de controle over Kara Hassan, een deelnemer aan een dodelijke sport die bekend staat als Rollerdrome."
+      }
+    ]
+    }
+  }
+}

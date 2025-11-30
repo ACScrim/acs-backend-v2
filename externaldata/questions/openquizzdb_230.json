@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-08-30",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Vie quotidienne",
+      "nom": "Dans la maison",
+      "slogan": "Parce qu'on est souvent bien chez soi"
+    },
+    "en": {
+      "catégorie": "Everyday life",
+      "nom": "In the house",
+      "slogan": "Because one is often comfortable at home"
+    },
+    "es": {
+      "catégorie": "Vida cotidiana",
+      "nom": "En la casa",
+      "slogan": "Porque a menudo se está bien en casa"
+    },
+    "it": {
+      "catégorie": "Vita di ogni giorno",
+      "nom": "In casa",
+      "slogan": "Perché spesso si sta bene a casa"
+    },
+    "de": {
+      "catégorie": "Alltagsleben",
+      "nom": "Im Haus",
+      "slogan": "Weil man sich zu Hause oft wohlfühlt"
+    },
+    "nl": {
+      "catégorie": "Alledaagse leven",
+      "nom": "In het huis",
+      "slogan": "Omdat men zich thuis vaak goed voelt"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel objet, parfois imposant, est un incontournable de la cuisine moderne ?",
+        "propositions": [
+          "Radiateur",
+          "Réfrigérateur",
+          "Aspirateur",
+          "Surgélateur"
+        ],
+        "réponse": "Réfrigérateur",
+        "anecdote": "Inventé en 1927 par l'ingénieur Nathaniel B. Wales, le premier modèle commercial avait un compartiment de refroidissement."
+      },
+      {
+        "id": 2,
+        "question": "Dans quelle pièce de la maison place-t-on généralement un lave-linge ?",
+        "propositions": [
+          "Mezzanine",
+          "Véranda",
+          "Vestibule",
+          "Buanderie"
+        ],
+        "réponse": "Buanderie",
+        "anecdote": "En 1907, la première machine à laver électrique a été introduite, permettant aux ménages de laver efficacement leurs vêtements."
+      },
+      {
+        "id": 3,
+        "question": "Quel dispositif est l'élément central de toute chambre à coucher ?",
+        "propositions": [
+          "Bureau",
+          "Baignoire",
+          "Table",
+          "Lit"
+        ],
+        "réponse": "Lit",
+        "anecdote": "De nos jours, il existe une variété infinie de lits, du traditionnel au moderne, avec des options comme les lits réglables et intelligents."
+      },
+      {
+        "id": 4,
+        "question": "Quel ensemble de pièces sont réservées à la vie intime des parents ?",
+        "propositions": [
+          "Suite parentale",
+          "Sauna",
+          "Salle d'eau",
+          "Dressing"
+        ],
+        "réponse": "Suite parentale",
+        "anecdote": "Lorsque l'espace est suffisant, une suite parentale peut également comporter une garde-robe, un bureau ou un salon de détente."
+      },
+      {
+        "id": 5,
+        "question": "Quel meuble permet de ranger les vêtements sans les froisser ?",
+        "propositions": [
+          "Cellier",
+          "Vestibule",
+          "Buanderie",
+          "Penderie"
+        ],
+        "réponse": "Penderie",
+        "anecdote": "Une penderie ou garde-robe est un espace prévu pour ranger des vêtements en les suspendant afin d'éviter qu'ils ne se froissent."
+      },
+      {
+        "id": 6,
+        "question": "Quel appareil moderne est souvent retrouvé sur la table d'un bureau à domicile ?",
+        "propositions": [
+          "Perceuse",
+          "Ordinateur",
+          "Machine à écrire",
+          "Rasoir"
+        ],
+        "réponse": "Ordinateur",
+        "anecdote": "En architecture intérieure, un bureau est une pièce principalement conçue et réservée au travail, dit aussi cabinet de travail."
+      },
+      {
+        "id": 7,
+        "question": "Quel élément de la maison est symbole de détente et de soins personnels ?",
+        "propositions": [
+          "Dressing",
+          "Jardin d'hiver",
+          "Cave à vin",
+          "Salle de bain"
+        ],
+        "réponse": "Salle de bain",
+        "anecdote": "L'avènement de la plomberie moderne a permis d'introduire des baignoires en fonte émaillée, rendant les bains plus accessibles."
+      },
+      {
+        "id": 8,
+        "question": "Quelle pièce supplémentaire à la maison possède des parois vitrées ?",
+        "propositions": [
+          "Fumoir",
+          "Buanderie",
+          "Véranda",
+          "Cellier"
+        ],
+        "réponse": "Véranda",
+        "anecdote": "Dans les démarches d'habitation bioclimatique, les vérandas sont utilisées pour chauffer les habitations par apport solaire."
+      },
+      {
+        "id": 9,
+        "question": "Dans une maison, quelle pièce comporte une douche mais pas de baignoire ?",
+        "propositions": [
+          "Boudoir",
+          "Salle d'eau",
+          "Suite parentale",
+          "Salle de bains"
+        ],
+        "réponse": "Salle d'eau",
+        "anecdote": "En France, un hôtel classifié de première catégorie doit avoir au moins 70 % de ses chambres équipé d'une salle d'eau."
+      },
+      {
+        "id": 10,
+        "question": "Quel objet, aussi appelé sofa ou divan, fait partie de la salle de séjour ?",
+        "propositions": [
+          "Canapé",
+          "Fauteuil",
+          "Tabouret",
+          "Chaise"
+        ],
+        "réponse": "Canapé",
+        "anecdote": "L'origine du canapé remonte à l'Antiquité égyptienne, où les gens utilisaient des bancs recouverts de coussins pour se reposer."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle pièce est affectée à la conservation de provisions, fruits et légumes ?",
+        "propositions": [
+          "Garage",
+          "Dressing",
+          "Buanderie",
+          "Cellier"
+        ],
+        "réponse": "Cellier",
+        "anecdote": "Aujourd'hui, quand il existe, ce local frais aux murs épais, et pas ou peu éclairé, est généralement proche de la cuisine."
+      },
+      {
+        "id": 12,
+        "question": "Quel passage en surplomb dessert les pièces du niveau supérieur d'un logement ?",
+        "propositions": [
+          "Véranda",
+          "Mezzanine",
+          "Carport",
+          "Balcon"
+        ],
+        "réponse": "Mezzanine",
+        "anecdote": "De nos jours, le terme désigne également un passage en surplomb desservant les pièces du niveau supérieur d'un logement."
+      },
+      {
+        "id": 13,
+        "question": "Quelle plate-forme, souvent extérieure, se dégage du mur d'un édifice ?",
+        "propositions": [
+          "Garage",
+          "Vestibule",
+          "Balcon",
+          "Véranda"
+        ],
+        "réponse": "Balcon",
+        "anecdote": "Il peut aussi être à l'intérieur, dans une grande pièce (une salle de spectacle ou une galerie), ou encore se situer dans une cour fermée."
+      },
+      {
+        "id": 14,
+        "question": "Quel endroit de la maison est conçu pour conserver les spiritueux ?",
+        "propositions": [
+          "Carport",
+          "Cave à vin",
+          "Penderie",
+          "Suite parentale"
+        ],
+        "réponse": "Cave à vin",
+        "anecdote": "Les bouteilles doivent y être horizontales, ainsi le mouillage des bouchons en liège est permanent, ce qui en assure l'étanchéité."
+      },
+      {
+        "id": 15,
+        "question": "Quelle alternative au garage classique est ouverte sur les côtés ?",
+        "propositions": [
+          "Cellier",
+          "Véranda",
+          "Comble",
+          "Carport"
+        ],
+        "réponse": "Carport",
+        "anecdote": "Le carport peut être simple ou double, selon qu'il accueille deux véhicules, adapté aux camping-cars, ou complété d'un débarras."
+      },
+      {
+        "id": 16,
+        "question": "Quel local est consacré à l'intimité d'un moment de soulagement volontaire ?",
+        "propositions": [
+          "Home cinéma",
+          "Dressing",
+          "Chambre d'ami",
+          "Toilettes"
+        ],
+        "réponse": "Toilettes",
+        "anecdote": "Le terme toilette désigne aussi parfois l'élément receveur ouvert, permettant de s'asseoir, vasque (souvent en forme de siège)."
+      },
+      {
+        "id": 17,
+        "question": "Quelle antichambre est située à proximité immédiate de la chambre à coucher ?",
+        "propositions": [
+          "Fumoir",
+          "Dressing",
+          "Mezzanine",
+          "Buanderie"
+        ],
+        "réponse": "Dressing",
+        "anecdote": "Cette pièce, généralement petite, est spécialement aménagée pour y ranger les vêtements dans des étagères, armoires ou penderies."
+      },
+      {
+        "id": 18,
+        "question": "Quelle pièce est principalement conçue pour loger des personnes de passage ?",
+        "propositions": [
+          "Sauna",
+          "Suite parentale",
+          "Chambre d'ami",
+          "Véranda"
+        ],
+        "réponse": "Chambre d'ami",
+        "anecdote": "Une chambre d'ami est une chambre à coucher qui n'est souvent pas utilisée par les occupants habituels d'un logement."
+      },
+      {
+        "id": 19,
+        "question": "Quelle installation électronique permet de bénéficier d'un confort sonore et visuel ?",
+        "propositions": [
+          "Parloir",
+          "Boudoir",
+          "Chambre de bonne",
+          "Home cinéma"
+        ],
+        "réponse": "Home cinéma",
+        "anecdote": "Par extension, le dispositif permet d'exploiter diverses sources télévisuelles comme le DVD, le Blu-ray ainsi que les jeux vidéo."
+      },
+      {
+        "id": 20,
+        "question": "Quel jardin dans la maison est cultivé sous une structure métallique largement vitrée ?",
+        "propositions": [
+          "Vestibule",
+          "Carport",
+          "Balcon",
+          "Jardin d'hiver"
+        ],
+        "réponse": "Jardin d'hiver",
+        "anecdote": "Les jardins d'hiver sont un prolongement des pièces à vivre, faisant la transition entre la maison et le jardin lui-même."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Dans quelle pièce de la maison peut-on prendre un bain de chaleur sèche ?",
+        "propositions": [
+          "Hammam",
+          "Sauna",
+          "Jacuzzi",
+          "Comble"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "La pratique du sauna est une tradition sociale et familiale qui semble exister depuis plus de 2 000 ans dans les pays nordiques."
+      },
+      {
+        "id": 22,
+        "question": "Quel espace retrouve-t-on souvent au rez-de-chaussée d'une maison bel étage ?",
+        "propositions": [
+          "Cellier",
+          "Garage",
+          "Parloir",
+          "Boudoir"
+        ],
+        "réponse": "Garage",
+        "anecdote": "En 1913, la porte de garage automatisée a été inventée par C.G. Johnson, transformant la façon dont les gens garent leurs véhicules."
+      },
+      {
+        "id": 23,
+        "question": "Quelle pièce d'une maison peut être dévolue à la consommation du tabac ?",
+        "propositions": [
+          "Comble",
+          "Vestibule",
+          "Fumoir",
+          "Parloir"
+        ],
+        "réponse": "Fumoir",
+        "anecdote": "On en trouve aussi dans des bâtiments où il est interdit de fumer, comme des immeubles de bureaux, des aéroports ou des navires."
+      },
+      {
+        "id": 24,
+        "question": "Quel ensemble non aménagé est constitué par la charpente et la couverture d'une maison ?",
+        "propositions": [
+          "Vestibule",
+          "Chambre de bonne",
+          "Pièce de survie",
+          "Comble"
+        ],
+        "réponse": "Comble",
+        "anecdote": "Il désigne par extension l'espace situé sous la toiture, volume intérieur délimité par les versants de toiture et le dernier plancher."
+      },
+      {
+        "id": 25,
+        "question": "Quelle pièce d'un bâtiment permet à des personnes de communiquer oralement ?",
+        "propositions": [
+          "Parloir",
+          "Chambre de bonne",
+          "Chambre d'ami",
+          "Boudoir"
+        ],
+        "réponse": "Parloir",
+        "anecdote": "Le terme désigne aussi de façon courante le parloir carcéral destiné aux rencontres entre les détenus et leurs visiteurs."
+      },
+      {
+        "id": 26,
+        "question": "Par quel hall d'entrée peut-on parfois accéder à l'escalier d'une maison ?",
+        "propositions": [
+          "Buanderie",
+          "Vestibule",
+          "Véranda",
+          "Carport"
+        ],
+        "réponse": "Vestibule",
+        "anecdote": "On ne trouve pas de vestibule dans les châteaux et manoirs féodaux, où les escaliers sont à vis et dissimulés."
+      },
+      {
+        "id": 27,
+        "question": "Quelle pièce séparée d'une maison bourgeoise est destinée à loger les domestiques ?",
+        "propositions": [
+          "Pièce de survie",
+          "Vide sanitaire",
+          "Chambre de bonne",
+          "Comble"
+        ],
+        "réponse": "Chambre de bonne",
+        "anecdote": "Les chambres de bonne ont fait l'objet de réglementations sanitaires, préservant la qualité de vie et la santé de l'occupant."
+      },
+      {
+        "id": 28,
+        "question": "Dans quel salon les dames se retirent-elles pour des causeries féminines ?",
+        "propositions": [
+          "Pièce de survie",
+          "Boudoir",
+          "Vestibule",
+          "Fumoir"
+        ],
+        "réponse": "Boudoir",
+        "anecdote": "Le marquis de Sade a contribué à développer une renommée à cette petite pièce dédiée à l'intimité des causeries féminines."
+      },
+      {
+        "id": 29,
+        "question": "Quelle pièce de secours, dissimulée, possède un passage secret ?",
+        "propositions": [
+          "Comble",
+          "Carport",
+          "Pièce de survie",
+          "Vide sanitaire"
+        ],
+        "réponse": "Pièce de survie",
+        "anecdote": "Ses propriétaires peuvent s'y réfugier en cas de cambriolages, de violation de domicile, de tornades ou d'attaques terroristes."
+      },
+      {
+        "id": 30,
+        "question": "En France, quel espace est situé entre le sol et le premier plancher du bâtiment ?",
+        "propositions": [
+          "Pièce de survie",
+          "Vide sanitaire",
+          "Chambre de bonne",
+          "Vestibule"
+        ],
+        "réponse": "Vide sanitaire",
+        "anecdote": "Considéré comme une surface non aménageable, il fait office d'espace tampon entre le sol et le premier plancher du bâtiment."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What object, sometimes imposing, is a must-have in the modern kitchen ?",
+        "propositions": [
+          "Fridge",
+          "Vacuum cleaner",
+          "Freezer",
+          "Radiator"
+        ],
+        "réponse": "Fridge",
+        "anecdote": "Invented in 1927 by engineer Nathaniel B. Wales, the first commercial model had a cooling compartment."
+      },
+      {
+        "id": 2,
+        "question": "In which room of the house is a washing machine usually placed ?",
+        "propositions": [
+          "Veranda",
+          "Mezzanine",
+          "Hallway",
+          "Laundry room"
+        ],
+        "réponse": "Laundry room",
+        "anecdote": "In 1907, the first electric washing machine was introduced, allowing households to wash their clothes efficiently."
+      },
+      {
+        "id": 3,
+        "question": "What device is the centerpiece of any bedroom ?",
+        "propositions": [
+          "Office",
+          "Bed",
+          "Bathtub",
+          "Table"
+        ],
+        "réponse": "Bed",
+        "anecdote": "These days, there are an endless variety of beds, from traditional to modern, with options like adjustable and smart beds."
+      },
+      {
+        "id": 4,
+        "question": "What set of rooms are reserved for the intimate life of parents ?",
+        "propositions": [
+          "Powder room",
+          "Dressing",
+          "Parental suite",
+          "Sauna"
+        ],
+        "réponse": "Parental suite",
+        "anecdote": "When space is sufficient, a master suite can also include a wardrobe, office or relaxation lounge."
+      },
+      {
+        "id": 5,
+        "question": "What piece of furniture allows you to store clothes without wrinkling them ?",
+        "propositions": [
+          "Laundry room",
+          "Wardrobe",
+          "Cellar",
+          "Vestibule"
+        ],
+        "réponse": "Wardrobe",
+        "anecdote": "A closet or wardrobe is a space designed for storing clothes by hanging them to prevent them from wrinkling."
+      },
+      {
+        "id": 6,
+        "question": "What modern object is often found on a home office table ?",
+        "propositions": [
+          "Computer",
+          "Vase",
+          "Typewriter",
+          "Tablecloth"
+        ],
+        "réponse": "Computer",
+        "anecdote": "In interior architecture, an office is a room mainly designed and reserved for work, also known as a study."
+      },
+      {
+        "id": 7,
+        "question": "What element of the house is a symbol of relaxation and self-care ?",
+        "propositions": [
+          "Wine cellar",
+          "Dressing room",
+          "Winter Garden",
+          "Bathtub"
+        ],
+        "réponse": "Bathtub",
+        "anecdote": "The advent of modern plumbing saw the introduction of enameled cast iron bathtubs, making bathing more accessible."
+      },
+      {
+        "id": 8,
+        "question": "What extra room in the house has glass walls ?",
+        "propositions": [
+          "Cellar",
+          "Smokehouse",
+          "Laundry room",
+          "Veranda"
+        ],
+        "réponse": "Veranda",
+        "anecdote": "Dans les démarches d'habitation bioclimatique, les vérandas sont utilisées pour chauffer les habitations par apport solaire."
+      },
+      {
+        "id": 9,
+        "question": "Which room in a house has a shower but no bathtub ?",
+        "propositions": [
+          "Water room",
+          "Parental suite",
+          "Bathroom",
+          "Boudoir"
+        ],
+        "réponse": "Water room",
+        "anecdote": "In France, a hotel classified as first category must have at least 70 % of its rooms equipped with a bathroom."
+      },
+      {
+        "id": 10,
+        "question": "What object, also called a sofa or couch, is part of the living room ?",
+        "propositions": [
+          "Armchair",
+          "Stool",
+          "Couch",
+          "Chair"
+        ],
+        "réponse": "Couch",
+        "anecdote": "L'origine du canapé remonte à l'Antiquité égyptienne, où les gens utilisaient des bancs recouverts de coussins pour se reposer."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which room is assigned to storing provisions, fruits and vegetables ?",
+        "propositions": [
+          "Laundry room",
+          "Garage",
+          "Dressing room",
+          "Cellar"
+        ],
+        "réponse": "Cellar",
+        "anecdote": "Today, when it exists, this cool room with thick walls and little or no lighting is generally close to the kitchen."
+      },
+      {
+        "id": 12,
+        "question": "Which overhanging passage serves the rooms on the upper level of a dwelling ?",
+        "propositions": [
+          "Balcony",
+          "Mezzanine",
+          "Carport",
+          "Véranda"
+        ],
+        "réponse": "Mezzanine",
+        "anecdote": "Nowadays, the term also refers to an overhanging passage serving the rooms on the upper level of a home."
+      },
+      {
+        "id": 13,
+        "question": "What platform, often exterior, emerges from the wall of a building ?",
+        "propositions": [
+          "Vestibule",
+          "Garage",
+          "Veranda",
+          "Balcony"
+        ],
+        "réponse": "Balcony",
+        "anecdote": "It can also be indoors, in a large room (a performance hall or gallery), or even located in an enclosed courtyard."
+      },
+      {
+        "id": 14,
+        "question": "What place in the house is designed to store spirits ?",
+        "propositions": [
+          "Master suite",
+          "Wine cellar",
+          "Wardrobe",
+          "Carport"
+        ],
+        "réponse": "Wine cellar",
+        "anecdote": "The bottles must be horizontal, so the wetting of the corks is permanent, which ensures watertightness."
+      },
+      {
+        "id": 15,
+        "question": "What alternative to the classic garage is open on the sides ?",
+        "propositions": [
+          "Carport",
+          "Cellar",
+          "Comble",
+          "Veranda"
+        ],
+        "réponse": "Carport",
+        "anecdote": "The carport can be single or double, depending on whether it accommodates two vehicles, suitable for motorhomes, or supplemented with a storage room."
+      },
+      {
+        "id": 16,
+        "question": "What space is devoted to the intimacy of a moment of voluntary relief ?",
+        "propositions": [
+          "Bathroom",
+          "Dressing",
+          "Guest room",
+          "Home cinéma"
+        ],
+        "réponse": "Bathroom",
+        "anecdote": "The term toilet also sometimes refers to the open receiving element, allowing one to sit, basin (often in the form of a seat)."
+      },
+      {
+        "id": 17,
+        "question": "Which antechamber is located in the immediate vicinity of the bedroom ?",
+        "propositions": [
+          "Smokehouse",
+          "Dressing",
+          "Laundry room",
+          "Mezzanine"
+        ],
+        "réponse": "Dressing",
+        "anecdote": "This room, generally small, is specially designed to store clothes in shelves, cupboards or wardrobes."
+      },
+      {
+        "id": 18,
+        "question": "Which room is primarily designed to accommodate people passing through ?",
+        "propositions": [
+          "Sauna",
+          "Guest room",
+          "Parental suite",
+          "Veranda"
+        ],
+        "réponse": "Guest room",
+        "anecdote": "A guest room is a bedroom that is often not used by the usual occupants of a home."
+      },
+      {
+        "id": 19,
+        "question": "Which electronic installation allows you to benefit from sound and visual comfort ?",
+        "propositions": [
+          "Boudoir",
+          "Home cinema",
+          "Parlor",
+          "Maid's room"
+        ],
+        "réponse": "Home cinema",
+        "anecdote": "By extension, the device allows you to use various television sources such as DVD, Blu-ray as well as video games."
+      },
+      {
+        "id": 20,
+        "question": "Which garden in the house is cultivated under a largely glazed metal structure ?",
+        "propositions": [
+          "Balcony",
+          "Vestibule",
+          "Carport",
+          "Winter Garden"
+        ],
+        "réponse": "Winter Garden",
+        "anecdote": "Winter gardens are an extension of the living rooms, making the transition between the house and the garden itself."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In which room of the house can you take a dry heat bath ?",
+        "propositions": [
+          "Jacuzzi",
+          "Hammam",
+          "Attic",
+          "Sauna"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "Sauna practice is a social and family tradition that appears to have existed for over 2,000 years in Nordic countries."
+      },
+      {
+        "id": 22,
+        "question": "What space is often found on the ground floor of a high-rise house ?",
+        "propositions": [
+          "Parlor",
+          "Garage",
+          "Boudoir",
+          "Cellar"
+        ],
+        "réponse": "Garage",
+        "anecdote": "In 1913, the automated garage door was invented by C.G. Johnson, transforming the way people park their vehicles."
+      },
+      {
+        "id": 23,
+        "question": "Which room in a house can be used for tobacco consumption ?",
+        "propositions": [
+          "Smokehouse",
+          "Attic",
+          "Vestibule",
+          "Parlor"
+        ],
+        "réponse": "Smokehouse",
+        "anecdote": "They are also found in buildings where smoking is prohibited, such as office buildings, airports or ships."
+      },
+      {
+        "id": 24,
+        "question": "What undeveloped unit is made up of the frame and roof of a house ?",
+        "propositions": [
+          "Attic",
+          "Survival room",
+          "Maid's room",
+          "Vestibule"
+        ],
+        "réponse": "Attic",
+        "anecdote": "Il désigne par extension l'espace situé sous la toiture, volume intérieur délimité par les versants de toiture et le dernier plancher."
+      },
+      {
+        "id": 25,
+        "question": "Which room in a building allows people to communicate orally ?",
+        "propositions": [
+          "Chambre d'ami",
+          "Parlor",
+          "Boudoir",
+          "Maid's room"
+        ],
+        "réponse": "Parlor",
+        "anecdote": "The term also commonly refers to the prison visiting room intended for meetings between prisoners and their visitors."
+      },
+      {
+        "id": 26,
+        "question": "Through which entrance hall can we sometimes access the stairs of a house ?",
+        "propositions": [
+          "Carport",
+          "Vestibule",
+          "Veranda",
+          "Laundry room"
+        ],
+        "réponse": "Vestibule",
+        "anecdote": "We do not find a vestibule in castles and feudal manors, where the staircases are spiral and hidden."
+      },
+      {
+        "id": 27,
+        "question": "Which separate room in a bourgeois house is intended to accommodate servants ?",
+        "propositions": [
+          "Attic",
+          "Crawlspace",
+          "Chambre de bonne",
+          "Survival room"
+        ],
+        "réponse": "Chambre de bonne",
+        "anecdote": "Maid rooms have been subject to health regulations, preserving the quality of life and the health of the occupant."
+      },
+      {
+        "id": 28,
+        "question": "Which salon do the ladies retire to for feminine chats ?",
+        "propositions": [
+          "Vestibule",
+          "Smokehouse",
+          "Survival room",
+          "Boudoir"
+        ],
+        "réponse": "Boudoir",
+        "anecdote": "The Marquis de Sade helped to develop a reputation for this small room dedicated to the intimacy of women's chats."
+      },
+      {
+        "id": 29,
+        "question": "Which hidden emergency room has a secret passage ?",
+        "propositions": [
+          "Survival room",
+          "Carport",
+          "Attic",
+          "Vide sanitaire"
+        ],
+        "réponse": "Survival room",
+        "anecdote": "Its owners can take refuge there in the event of burglaries, home invasions, tornadoes or terrorist attacks."
+      },
+      {
+        "id": 30,
+        "question": "In France, what outdoor space is located between the ground and the first floor of the building ?",
+        "propositions": [
+          "Crawlspace",
+          "Maid's room",
+          "Vestibule",
+          "Survival room"
+        ],
+        "réponse": "Crawlspace",
+        "anecdote": "Considered as a non-developable surface, it acts as a buffer space between the ground and the first floor of the building."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher manchmal imposante Gegenstand darf in der modernen Küche nicht fehlen ?",
+        "propositions": [
+          "Kühlschrank",
+          "Gefrierschrank",
+          "Staubsauger",
+          "Heizkörper"
+        ],
+        "réponse": "Kühlschrank",
+        "anecdote": "Das erste kommerzielle Modell wurde 1927 vom Ingenieur Nathaniel B. Wales erfunden und verfügte über ein Kühlfach."
+      },
+      {
+        "id": 2,
+        "question": "In welchem Raum des Hauses steht normalerweise eine Waschmaschine ?",
+        "propositions": [
+          "Waschküche",
+          "Veranda",
+          "Zwischengeschoss",
+          "Flur"
+        ],
+        "réponse": "Waschküche",
+        "anecdote": "Im Jahr 1907 wurde die erste elektrische Waschmaschine eingeführt, die es Haushalten ermöglichte, ihre Kleidung effizient zu waschen."
+      },
+      {
+        "id": 3,
+        "question": "Welches Gerät ist das Herzstück eines jeden Schlafzimmers ?",
+        "propositions": [
+          "Badewanne",
+          "Bett",
+          "Büro",
+          "Tabelle"
+        ],
+        "réponse": "Bett",
+        "anecdote": "Heutzutage gibt es eine endlose Vielfalt an Betten, von traditionell bis modern, mit Optionen wie verstellbaren und intelligenten Betten."
+      },
+      {
+        "id": 4,
+        "question": "Welche Räume sind für das Intimleben der Eltern reserviert ?",
+        "propositions": [
+          "Master-Suite",
+          "Gästetoilette",
+          "Sauna",
+          "Dressing"
+        ],
+        "réponse": "Master-Suite",
+        "anecdote": "Wenn genügend Platz vorhanden ist, kann eine Master-Suite auch einen Kleiderschrank, ein Büro oder eine Entspannungslounge umfassen."
+      },
+      {
+        "id": 5,
+        "question": "Welches Möbelstück ermöglicht es, Kleidung knitterfrei aufzubewahren ?",
+        "propositions": [
+          "Keller",
+          "Waschküche",
+          "Kleiderschrank",
+          "Flur"
+        ],
+        "réponse": "Kleiderschrank",
+        "anecdote": "Ein Schrank oder Kleiderschrank ist ein Raum zum Aufbewahren von Kleidung, indem man sie aufhängt, um zu verhindern, dass sie knittert."
+      },
+      {
+        "id": 6,
+        "question": "Welcher moderne Gegenstand findet sich oft auf dem Home-Office-Tisch ?",
+        "propositions": [
+          "Tischdecke",
+          "Schreibmaschine",
+          "Vase",
+          "Computer"
+        ],
+        "réponse": "Computer",
+        "anecdote": "In der Innenarchitektur ist ein Büro ein hauptsächlich für die Arbeit konzipierter und reservierter Raum, auch Arbeitszimmer genannt."
+      },
+      {
+        "id": 7,
+        "question": "Welches Element des Hauses ist ein Symbol für Entspannung und Selbstfürsorge ?",
+        "propositions": [
+          "Weinkeller",
+          "Wintergarten",
+          "Dressing",
+          "Badewanne"
+        ],
+        "réponse": "Badewanne",
+        "anecdote": "Mit dem Aufkommen moderner Sanitäranlagen wurden emaillierte Gusseisenbadewannen eingeführt, die das Baden leichter zugänglich machten."
+      },
+      {
+        "id": 8,
+        "question": "Welcher zusätzliche Raum im Haus hat Glaswände ?",
+        "propositions": [
+          "Veranda",
+          "Keller",
+          "Waschküche",
+          "Räucherei"
+        ],
+        "réponse": "Veranda",
+        "anecdote": "Bei bioklimatischen Wohnansätzen werden Veranden genutzt, um Häuser mit Solarenergie zu heizen."
+      },
+      {
+        "id": 9,
+        "question": "Welches Zimmer in einem Haus hat eine Dusche, aber keine Badewanne ?",
+        "propositions": [
+          "Badezimmer",
+          "Boudoir",
+          "Master-Suite",
+          "Gästetoilette"
+        ],
+        "réponse": "Gästetoilette",
+        "anecdote": "In Frankreich müssen mindestens 70 % der Zimmer eines Hotels der ersten Kategorie mit einem Badezimmer ausgestattet sein."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Gegenstand, auch Sofa oder Couch genannt, gehört zum Wohnzimmer ?",
+        "propositions": [
+          "Stuhl",
+          "Sessel",
+          "Sofa",
+          "Hocker"
+        ],
+        "réponse": "Sofa",
+        "anecdote": "Der Ursprung des Sofas geht auf das alte Ägypten zurück, wo die Menschen mit Kissen bedeckte Bänke zum Ausruhen nutzten."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Raum ist für die Lagerung von Proviant, Obst und Gemüse vorgesehen ?",
+        "propositions": [
+          "Garage",
+          "Waschküche",
+          "Dressing",
+          "Keller"
+        ],
+        "réponse": "Keller",
+        "anecdote": "Heute, wenn es ihn gibt, liegt dieser kühle Raum mit dicken Wänden und wenig oder gar keiner Beleuchtung in der Regel in der Nähe der Küche."
+      },
+      {
+        "id": 12,
+        "question": "Welcher überhängende Durchgang dient den Räumen im Obergeschoss einer Wohnung ?",
+        "propositions": [
+          "Zwischengeschoss",
+          "Carport",
+          "Veranda",
+          "Balkon"
+        ],
+        "réponse": "Zwischengeschoss",
+        "anecdote": "Heutzutage bezieht sich der Begriff auch auf einen überhängenden Durchgang, der die Räume im Obergeschoss eines Hauses bedient."
+      },
+      {
+        "id": 13,
+        "question": "Welche Plattform, oft außen, ragt aus der Wand eines Gebäudes hervor ?",
+        "propositions": [
+          "Balkon",
+          "Veranda",
+          "Flur",
+          "Garage"
+        ],
+        "réponse": "Balkon",
+        "anecdote": "Es kann auch drinnen, in einem großen Raum (einem Veranstaltungssaal oder einer Galerie) oder sogar in einem geschlossenen Innenhof aufgestellt werden."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Ort im Haus ist für die Lagerung von Spirituosen vorgesehen ?",
+        "propositions": [
+          "Kleiderschrank",
+          "Master-Suite",
+          "Carport",
+          "Weinkeller"
+        ],
+        "réponse": "Weinkeller",
+        "anecdote": "Die Flaschen müssen waagerecht stehen, damit die Benetzung der Korken dauerhaft erfolgt und die Wasserdichtigkeit gewährleistet ist."
+      },
+      {
+        "id": 15,
+        "question": "Welche Alternative zur klassischen, seitlich offenen Garage ?",
+        "propositions": [
+          "Keller",
+          "Veranda",
+          "Dachboden",
+          "Carport"
+        ],
+        "réponse": "Carport",
+        "anecdote": "Der Carport kann einzeln oder doppelt sein, je nachdem, ob er Platz für zwei Fahrzeuge bietet, für Wohnmobile geeignet oder mit einem Abstellraum ergänzt ist."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Raum ist der Intimität eines Moments freiwilliger Erleichterung gewidmet ?",
+        "propositions": [
+          "Gästezimmer",
+          "Dressing",
+          "Toiletten",
+          "Heimkino"
+        ],
+        "réponse": "Toiletten",
+        "anecdote": "Der Begriff Toilette bezieht sich manchmal auch auf das offene Aufnahmeelement, das das Sitzen ermöglicht, ein Waschbecken (oft in Form eines Sitzes)."
+      },
+      {
+        "id": 17,
+        "question": "Welches Vorzimmer befindet sich in unmittelbarer Nähe des Schlafzimmers ?",
+        "propositions": [
+          "Waschküche",
+          "Dressing",
+          "Räucherei",
+          "Zwischengeschoss"
+        ],
+        "réponse": "Dressing",
+        "anecdote": "Dieser im Allgemeinen kleine Raum ist speziell für die Aufbewahrung von Kleidung in Regalen, Schränken oder Kleiderschränken konzipiert."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Raum ist in erster Linie für die Unterbringung von Durchreisenden konzipiert ?",
+        "propositions": [
+          "Sauna",
+          "Gästezimmer",
+          "Master-Suite",
+          "Veranda"
+        ],
+        "réponse": "Gästezimmer",
+        "anecdote": "Ein Gästezimmer ist ein Schlafzimmer, das häufig nicht von den üblichen Bewohnern eines Hauses genutzt wird."
+      },
+      {
+        "id": 19,
+        "question": "Mit welcher elektronischen Installation profitieren Sie von akustischem und visuellem Komfort ?",
+        "propositions": [
+          "Boudoir",
+          "Zimmermädchen",
+          "Heimkino",
+          "Salon"
+        ],
+        "réponse": "Heimkino",
+        "anecdote": "Darüber hinaus ermöglicht das Gerät die Nutzung verschiedener Fernsehquellen wie DVD, Blu-ray sowie Videospiele."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Garten im Haus wird unter einer weitgehend verglasten Metallkonstruktion gepflegt ?",
+        "propositions": [
+          "Wintergarten",
+          "Balkon",
+          "Carport",
+          "Flur"
+        ],
+        "réponse": "Wintergarten",
+        "anecdote": "Wintergärten sind eine Erweiterung des Wohnzimmers und bilden den Übergang zwischen dem Haus und dem Garten."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Raum des Hauses kann man ein trockenes Wärmebad nehmen ?",
+        "propositions": [
+          "Hamam",
+          "Whirlpool",
+          "Sauna",
+          "Dachboden"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "Das Saunieren ist eine gesellschaftliche und familiäre Tradition, die in den nordischen Ländern offenbar schon seit über 2."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Raum findet sich häufig im Erdgeschoss eines Hochhauses ?",
+        "propositions": [
+          "Salon",
+          "Keller",
+          "Garage",
+          "Boudoir"
+        ],
+        "réponse": "Garage",
+        "anecdote": "Im Jahr 1913 erfand C.G. Johnson das automatische Garagentor und veränderte damit die Art und Weise, wie Menschen ihre Fahrzeuge parken."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Raum in einem Haus kann für den Tabakkonsum genutzt werden ?",
+        "propositions": [
+          "Salon",
+          "Dachboden",
+          "Flur",
+          "Räucherei"
+        ],
+        "réponse": "Räucherei",
+        "anecdote": "Man findet sie auch in Gebäuden, in denen das Rauchen verboten ist, etwa in Bürogebäuden, auf Flughäfen oder auf Schiffen."
+      },
+      {
+        "id": 24,
+        "question": "Welche unbebaute Einheit besteht aus Rahmen und Dach eines Hauses ?",
+        "propositions": [
+          "Flur",
+          "Zimmermädchen",
+          "Dachboden",
+          "Überlebensmünze"
+        ],
+        "réponse": "Dachboden",
+        "anecdote": "Es bezeichnet im weiteren Sinne den Raum unter dem Dach, ein Innenvolumen, das durch die Dachschrägen und das oberste Stockwerk begrenzt wird."
+      },
+      {
+        "id": 25,
+        "question": "In welchem Raum in einem Gebäude können Menschen mündlich kommunizieren ?",
+        "propositions": [
+          "Salon",
+          "Boudoir",
+          "Zimmermädchen",
+          "Gästezimmer"
+        ],
+        "réponse": "Salon",
+        "anecdote": "Der Begriff bezieht sich im Allgemeinen auch auf den Besuchsraum des Gefängnisses, der für Treffen zwischen Gefangenen und ihren Besuchern vorgesehen ist."
+      },
+      {
+        "id": 26,
+        "question": "Durch welche Eingangshalle können wir manchmal die Treppe eines Hauses erreichen ?",
+        "propositions": [
+          "Carport",
+          "Flur",
+          "Waschküche",
+          "Veranda"
+        ],
+        "réponse": "Flur",
+        "anecdote": "In Schlössern und feudalen Herrenhäusern, in denen die Treppen spiralförmig und versteckt verlaufen, gibt es kein Vestibül."
+      },
+      {
+        "id": 27,
+        "question": "Welcher separate Raum in einem Bürgerhaus ist für die Unterbringung von Bediensteten vorgesehen ?",
+        "propositions": [
+          "Dachboden",
+          "Überlebensmünze",
+          "Kriechraum",
+          "Zimmermädchen"
+        ],
+        "réponse": "Zimmermädchen",
+        "anecdote": "Dienstmädchenzimmer unterliegen Gesundheitsvorschriften, um die Lebensqualität und die Gesundheit der Bewohner zu schützen."
+      },
+      {
+        "id": 28,
+        "question": "In welchen Salon ziehen sich die Damen für feminine Gespräche zurück ?",
+        "propositions": [
+          "Räucherei",
+          "Boudoir",
+          "Flur",
+          "Überlebensmünze"
+        ],
+        "réponse": "Boudoir",
+        "anecdote": "Der Marquis de Sade trug dazu bei, einen guten Ruf für diesen kleinen Raum zu entwickeln, der der Intimität von Frauengesprächen gewidmet ist."
+      },
+      {
+        "id": 29,
+        "question": "Welche versteckte Notaufnahme hat einen Geheimgang ?",
+        "propositions": [
+          "Dachboden",
+          "Überlebensmünze",
+          "Carport",
+          "Kriechraum"
+        ],
+        "réponse": "Überlebensmünze",
+        "anecdote": "Bei Einbrüchen, Einbrüchen, Tornados oder Terroranschlägen können die Besitzer dort Zuflucht finden."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Außenbereich befindet sich in Frankreich zwischen dem Erdgeschoss und dem ersten Stock des Gebäudes ?",
+        "propositions": [
+          "Kriechraum",
+          "Zimmermädchen",
+          "Überlebensmünze",
+          "Flur"
+        ],
+        "réponse": "Kriechraum",
+        "anecdote": "Sie gilt als nicht bebaubare Fläche und fungiert als Pufferraum zwischen dem Erdgeschoss und dem ersten Stock des Gebäudes."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué objeto, a veces imponente, es imprescindible en la cocina moderna ?",
+        "propositions": [
+          "Congelador",
+          "Refrigerador",
+          "Aspiradora",
+          "Radiador"
+        ],
+        "réponse": "Refrigerador",
+        "anecdote": "Inventado en 1927 por el ingeniero Nathaniel B. Wales, el primer modelo comercial tenía un compartimento de refrigeración."
+      },
+      {
+        "id": 2,
+        "question": "¿En qué habitación de la casa suele colocarse la lavadora ?",
+        "propositions": [
+          "Terraza",
+          "Entresuelo",
+          "Cuarto de lavado",
+          "Pasillo"
+        ],
+        "réponse": "Cuarto de lavado",
+        "anecdote": "En 1907 se introdujo la primera lavadora eléctrica, que permitió a los hogares lavar la ropa de forma eficiente."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué dispositivo es la pieza central de cualquier dormitorio ?",
+        "propositions": [
+          "Mesa",
+          "Oficina",
+          "Bañera",
+          "Cama"
+        ],
+        "réponse": "Cama",
+        "anecdote": "Hoy en día, existe una variedad infinita de camas, desde tradicionales hasta modernas, con opciones como camas ajustables e inteligentes."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué conjunto de estancias están reservadas para la vida íntima de los padres ?",
+        "propositions": [
+          "Sauna",
+          "Suite principal",
+          "Tocador",
+          "Aderezo"
+        ],
+        "réponse": "Suite principal",
+        "anecdote": "Cuando el espacio es suficiente, una suite principal también puede incluir un armario, una oficina o una sala de relajación."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué mueble te permite guardar la ropa sin que se arrugue ?",
+        "propositions": [
+          "Bodega",
+          "Armario",
+          "Pasillo",
+          "Cuarto de lavado"
+        ],
+        "réponse": "Armario",
+        "anecdote": "Un armario o guardarropa es un espacio destinado a guardar la ropa colgándola para evitar que se arrugue."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué objeto moderno se encuentra a menudo en la mesa de una oficina en casa ?",
+        "propositions": [
+          "Máquina de escribir",
+          "Mantel",
+          "Florero",
+          "Computadora"
+        ],
+        "réponse": "Computadora",
+        "anecdote": "En arquitectura de interiores, una oficina es una estancia principalmente diseñada y reservada para el trabajo, también conocida como estudio."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué elemento de la casa es símbolo de relajación y autocuidado ?",
+        "propositions": [
+          "Jardín de invierno",
+          "Bañera",
+          "Aderezo",
+          "Bodega"
+        ],
+        "réponse": "Bañera",
+        "anecdote": "Con la llegada de la fontanería moderna se introdujeron las bañeras de hierro fundido esmaltado, lo que hizo que el baño fuera más accesible."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué habitación extra de la casa tiene paredes de cristal ?",
+        "propositions": [
+          "Bodega",
+          "Terraza",
+          "Ahumadero",
+          "Cuarto de lavado"
+        ],
+        "réponse": "Terraza",
+        "anecdote": "En los enfoques de vivienda bioclimática, las terrazas se utilizan para calentar las casas con aporte solar."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué habitación de una casa tiene ducha pero no bañera ?",
+        "propositions": [
+          "Tocador",
+          "Cuarto de baño",
+          "Suite principal",
+          "tocador"
+        ],
+        "réponse": "Tocador",
+        "anecdote": "En Francia, un hotel clasificado como de primera categoría debe tener al menos el 70% de sus habitaciones equipadas con baño."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué objeto, también llamado sofá o sillón, forma parte del salón ?",
+        "propositions": [
+          "Taburete",
+          "Sillón",
+          "Sofá",
+          "Silla"
+        ],
+        "réponse": "Sofá",
+        "anecdote": "El origen del sofá se remonta al antiguo Egipto, donde la gente utilizaba bancos cubiertos con cojines para descansar."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué cuarto está asignado para almacenar provisiones, frutas y verduras ?",
+        "propositions": [
+          "Bodega",
+          "Aderezo",
+          "Cuarto de lavado",
+          "Garaje"
+        ],
+        "réponse": "Bodega",
+        "anecdote": "Hoy en día, cuando existe, esta habitación fresca con paredes gruesas y poca o ninguna iluminación generalmente está cerca de la cocina."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué pasillo saliente sirve a las habitaciones del nivel superior de una vivienda ?",
+        "propositions": [
+          "Cochera",
+          "Balcón",
+          "Terraza",
+          "Entresuelo"
+        ],
+        "réponse": "Entresuelo",
+        "anecdote": "Hoy en día, el término también se refiere a un pasillo en voladizo que sirve a las habitaciones del nivel superior de una casa."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué plataforma, a menudo exterior, emerge de la pared de un edificio ?",
+        "propositions": [
+          "Terraza",
+          "Garaje",
+          "Pasillo",
+          "Balcón"
+        ],
+        "réponse": "Balcón",
+        "anecdote": "También puede ser en el interior, en una sala grande (una sala de espectáculos o una galería) o incluso en un patio cerrado."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué lugar de la casa está destinado a almacenar bebidas espirituosas ?",
+        "propositions": [
+          "Armario",
+          "Bodega",
+          "Suite principal",
+          "Cochera"
+        ],
+        "réponse": "Bodega",
+        "anecdote": "Las botellas deben estar en posición horizontal, para que el mojado de los corchos sea permanente, lo que garantiza la estanqueidad."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué alternativa al clásico garaje abierto lateralmente ?",
+        "propositions": [
+          "Bodega",
+          "Terraza",
+          "Cochera",
+          "Ático"
+        ],
+        "réponse": "Cochera",
+        "anecdote": "La cochera puede ser individual o doble, según tenga capacidad para dos vehículos, apta para autocaravanas, o complementarse con un trastero."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué espacio se dedica a la intimidad de un momento de alivio voluntario ?",
+        "propositions": [
+          "Cine en casa",
+          "Aseos",
+          "Aderezo",
+          "Habitación de invitados"
+        ],
+        "réponse": "Aseos",
+        "anecdote": "El término inodoro también se refiere a veces al elemento receptor abierto que permite sentarse, un lavabo (a menudo en forma de asiento)."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué antecámara se encuentra en las inmediaciones del dormitorio ?",
+        "propositions": [
+          "Cuarto de lavado",
+          "Ahumadero",
+          "Entresuelo",
+          "Aderezo"
+        ],
+        "réponse": "Aderezo",
+        "anecdote": "Esta estancia, generalmente de tamaño pequeño, está especialmente diseñada para guardar la ropa en estanterías, armarios o armarios."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué habitación está diseñada principalmente para acomodar a las personas de paso ?",
+        "propositions": [
+          "Suite principal",
+          "Sauna",
+          "Terraza",
+          "Habitación de invitados"
+        ],
+        "réponse": "Habitación de invitados",
+        "anecdote": "Una habitación de invitados es un dormitorio que a menudo no es utilizado por los ocupantes habituales de una casa."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué instalación electrónica le permite beneficiarse del confort acústico y visual ?",
+        "propositions": [
+          "Cine en casa",
+          "tocador",
+          "Cuarto de servicio",
+          "salón"
+        ],
+        "réponse": "Cine en casa",
+        "anecdote": "Por extensión, el dispositivo permite utilizar diversas fuentes de televisión como DVD, Blu-ray y videojuegos."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué jardín de la casa se cultiva bajo una estructura metálica en gran parte acristalada ?",
+        "propositions": [
+          "Cochera",
+          "Balcón",
+          "Jardín de invierno",
+          "Pasillo"
+        ],
+        "réponse": "Jardín de invierno",
+        "anecdote": "Los jardines de invierno son una extensión de las salas de estar, haciendo la transición entre la casa y el propio jardín."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿En qué estancia de la casa puedes darte un baño de calor seco ?",
+        "propositions": [
+          "Sauna",
+          "Ático",
+          "Baño turco",
+          "Jacuzzi"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "La práctica de la sauna es una tradición social y familiar que parece existir desde hace más de 2."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué espacio se suele encontrar en la planta baja de una casa de gran altura ?",
+        "propositions": [
+          "Bodega",
+          "tocador",
+          "Garaje",
+          "salón"
+        ],
+        "réponse": "Garaje",
+        "anecdote": "En 1913, CG Johnson inventó la puerta de garaje automatizada, transformando la forma en que las personas estacionan sus vehículos."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué habitación de una casa se puede utilizar para el consumo de tabaco ?",
+        "propositions": [
+          "Ahumadero",
+          "salón",
+          "Ático",
+          "Pasillo"
+        ],
+        "réponse": "Ahumadero",
+        "anecdote": "También se encuentran en edificios donde está prohibido fumar, como edificios de oficinas, aeropuertos o barcos."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué unidad no desarrollada está formada por la estructura y el techo de una casa ?",
+        "propositions": [
+          "Pasillo",
+          "Ático",
+          "Moneda de supervivencia",
+          "Cuarto de servicio"
+        ],
+        "réponse": "Ático",
+        "anecdote": "Designa por extensión el espacio situado bajo la cubierta, un volumen interior delimitado por las vertientes de la cubierta y la planta superior."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué habitación de un edificio permite a las personas comunicarse oralmente ?",
+        "propositions": [
+          "Cuarto de servicio",
+          "tocador",
+          "salón",
+          "Habitación de invitados"
+        ],
+        "réponse": "salón",
+        "anecdote": "El término también se refiere comúnmente a la sala de visitas de la prisión destinada a las reuniones entre los presos y sus visitantes."
+      },
+      {
+        "id": 26,
+        "question": "¿Por qué recibidor podemos acceder en ocasiones a las escaleras de una casa ?",
+        "propositions": [
+          "Cuarto de lavado",
+          "Terraza",
+          "Pasillo",
+          "Cochera"
+        ],
+        "réponse": "Pasillo",
+        "anecdote": "No encontramos vestíbulo en los castillos y señoríos feudales, donde las escaleras son de caracol y están escondidas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué habitación separada de una casa burguesa está destinada a alojar a los sirvientes ?",
+        "propositions": [
+          "Cuarto de servicio",
+          "Espacio de rastreo",
+          "Ático",
+          "Moneda de supervivencia"
+        ],
+        "réponse": "Cuarto de servicio",
+        "anecdote": "Los cuartos de servicio han sido sujetos a normas sanitarias, preservando la calidad de vida y la salud del ocupante."
+      },
+      {
+        "id": 28,
+        "question": "¿A qué salón se retiran las damas para charlas femeninas ?",
+        "propositions": [
+          "Ahumadero",
+          "tocador",
+          "Pasillo",
+          "Moneda de supervivencia"
+        ],
+        "réponse": "tocador",
+        "anecdote": "El marqués de Sade contribuyó a dar fama a esta pequeña sala dedicada a la intimidad de las charlas femeninas."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué sala de urgencias oculta tiene un pasaje secreto ?",
+        "propositions": [
+          "Espacio de rastreo",
+          "Cochera",
+          "Moneda de supervivencia",
+          "Ático"
+        ],
+        "réponse": "Moneda de supervivencia",
+        "anecdote": "Sus propietarios pueden refugiarse allí en caso de robos, allanamientos de viviendas, tornados o ataques terroristas."
+      },
+      {
+        "id": 30,
+        "question": "En Francia, ¿qué espacio exterior se sitúa entre la planta baja y el primer piso del edificio ?",
+        "propositions": [
+          "Espacio de rastreo",
+          "Pasillo",
+          "Moneda de supervivencia",
+          "Cuarto de servicio"
+        ],
+        "réponse": "Espacio de rastreo",
+        "anecdote": "Considerada como superficie no urbanizable, actúa como espacio amortiguador entre la planta baja y la primera planta del edificio."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale oggetto, a volte imponente, è un must nella cucina moderna ?",
+        "propositions": [
+          "Congelatore",
+          "Frigorifero",
+          "Radiatore",
+          "Aspirapolvere"
+        ],
+        "réponse": "Frigorifero",
+        "anecdote": "Inventato nel 1927 dall'ingegnere Nathaniel B. Wales, il primo modello commerciale aveva un vano frigorifero."
+      },
+      {
+        "id": 2,
+        "question": "In quale stanza della casa viene solitamente posizionata la lavatrice ?",
+        "propositions": [
+          "Soppalco",
+          "Lavanderia",
+          "Corridoio",
+          "Veranda"
+        ],
+        "réponse": "Lavanderia",
+        "anecdote": "Nel 1907 fu introdotta la prima lavatrice elettrica, che consentì alle famiglie di lavare i propri vestiti in modo efficiente."
+      },
+      {
+        "id": 3,
+        "question": "Quale dispositivo è il fulcro di ogni camera da letto ?",
+        "propositions": [
+          "Letto",
+          "Tabella",
+          "Ufficio",
+          "Vasca da bagno"
+        ],
+        "réponse": "Letto",
+        "anecdote": "Oggigiorno esiste una varietà infinita di letti, da quelli tradizionali a quelli moderni, con opzioni come letti regolabili e intelligenti."
+      },
+      {
+        "id": 4,
+        "question": "Quali ambienti sono riservati alla vita intima dei genitori ?",
+        "propositions": [
+          "Condimento",
+          "Suite padronale",
+          "Sauna",
+          "Stanza delle polveri"
+        ],
+        "réponse": "Suite padronale",
+        "anecdote": "Quando lo spazio è sufficiente, una master suite può includere anche un guardaroba, un ufficio o una sala relax."
+      },
+      {
+        "id": 5,
+        "question": "Quale mobile ti permette di riporre i vestiti senza stropicciarli ?",
+        "propositions": [
+          "Cantina",
+          "Lavanderia",
+          "Guardaroba",
+          "Corridoio"
+        ],
+        "réponse": "Guardaroba",
+        "anecdote": "Un armadio o un guardaroba è uno spazio progettato per riporre i vestiti appendendoli per evitare che si sgualciscano."
+      },
+      {
+        "id": 6,
+        "question": "Quale oggetto moderno si trova spesso sul tavolo dell'home office ?",
+        "propositions": [
+          "Tovaglia",
+          "Vaso",
+          "Macchina da scrivere",
+          "Informatica"
+        ],
+        "réponse": "Informatica",
+        "anecdote": "Nell'architettura d'interni l'ufficio è un locale prevalentemente destinato e riservato al lavoro, detto anche studio."
+      },
+      {
+        "id": 7,
+        "question": "Quale elemento della casa è simbolo di relax e cura di sé ?",
+        "propositions": [
+          "Cantina",
+          "Vasca da bagno",
+          "Giardino d'inverno",
+          "Condimento"
+        ],
+        "réponse": "Vasca da bagno",
+        "anecdote": "L'avvento dell'impianto idraulico moderno ha visto l'introduzione delle vasche da bagno in ghisa smaltata, che hanno reso il bagno più accessibile."
+      },
+      {
+        "id": 8,
+        "question": "Quale stanza in più della casa ha pareti di vetro ?",
+        "propositions": [
+          "Affumicatoio",
+          "Cantina",
+          "Lavanderia",
+          "Veranda"
+        ],
+        "réponse": "Veranda",
+        "anecdote": "Negli approcci abitativi bioclimatici, le verande vengono utilizzate per riscaldare le case con l'apporto solare."
+      },
+      {
+        "id": 9,
+        "question": "Quale stanza della casa ha la doccia ma non la vasca ?",
+        "propositions": [
+          "Suite padronale",
+          "Stanza delle polveri",
+          "Bagno",
+          "Boudoir"
+        ],
+        "réponse": "Stanza delle polveri",
+        "anecdote": "In Francia, un hotel classificato di prima categoria deve avere almeno il 70% delle camere dotate di bagno."
+      },
+      {
+        "id": 10,
+        "question": "Quale oggetto, chiamato anche divano o divano, fa parte del soggiorno ?",
+        "propositions": [
+          "Sgabello",
+          "Sedia",
+          "Poltrona",
+          "Divano"
+        ],
+        "réponse": "Divano",
+        "anecdote": "L'origine del divano risale all'antico Egitto, dove le persone utilizzavano panche ricoperte di cuscini per riposarsi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale stanza è destinata alla conservazione delle provviste, della frutta e della verdura ?",
+        "propositions": [
+          "Garage",
+          "Lavanderia",
+          "Condimento",
+          "Cantina"
+        ],
+        "réponse": "Cantina",
+        "anecdote": "Oggi, quando esiste, questa stanza fresca con muri spessi e poca o nessuna illuminazione è generalmente vicina alla cucina."
+      },
+      {
+        "id": 12,
+        "question": "Quale passaggio a sbalzo serve gli ambienti del piano superiore di un'abitazione ?",
+        "propositions": [
+          "Balcone",
+          "Posto auto coperto",
+          "Veranda",
+          "Soppalco"
+        ],
+        "réponse": "Soppalco",
+        "anecdote": "Oggi con il termine si indica anche un passaggio sovrastante che serve gli ambienti del piano superiore di un'abitazione."
+      },
+      {
+        "id": 13,
+        "question": "Quale piattaforma, spesso esterna, emerge dal muro di un edificio ?",
+        "propositions": [
+          "Garage",
+          "Balcone",
+          "Corridoio",
+          "Veranda"
+        ],
+        "réponse": "Balcone",
+        "anecdote": "Può anche svolgersi al chiuso, in una grande stanza (una sala per spettacoli o una galleria), o addirittura collocato in un cortile chiuso."
+      },
+      {
+        "id": 14,
+        "question": "Quale posto della casa è destinato alla conservazione degli alcolici ?",
+        "propositions": [
+          "Cantina",
+          "Guardaroba",
+          "Posto auto coperto",
+          "Suite padronale"
+        ],
+        "réponse": "Cantina",
+        "anecdote": "Le bottiglie devono essere orizzontali, affinché la bagnatura dei tappi sia permanente, il che garantisce la tenuta stagna."
+      },
+      {
+        "id": 15,
+        "question": "Quale alternativa al classico garage aperto sui lati ?",
+        "propositions": [
+          "Soffitta",
+          "Cantina",
+          "Veranda",
+          "Posto auto coperto"
+        ],
+        "réponse": "Posto auto coperto",
+        "anecdote": "Il posto auto coperto può essere singolo o doppio, a seconda che possa ospitare due veicoli, adatto per camper, o integrato con un ripostiglio."
+      },
+      {
+        "id": 16,
+        "question": "Quale spazio è dedicato all'intimità di un momento di volontariato sollievo ?",
+        "propositions": [
+          "Servizi igienici",
+          "Camera degli ospiti",
+          "Condimento",
+          "Cinema domestico"
+        ],
+        "réponse": "Servizi igienici",
+        "anecdote": "Il termine WC si riferisce talvolta anche all'elemento ricevente aperto, che consente di sedersi, al lavabo (spesso sotto forma di sedile)."
+      },
+      {
+        "id": 17,
+        "question": "Quale anticamera si trova nelle immediate vicinanze della camera da letto ?",
+        "propositions": [
+          "Affumicatoio",
+          "Condimento",
+          "Lavanderia",
+          "Soppalco"
+        ],
+        "réponse": "Condimento",
+        "anecdote": "Questa stanza, generalmente piccola, è appositamente progettata per riporre i vestiti su scaffali, armadi o guardaroba."
+      },
+      {
+        "id": 18,
+        "question": "Quale stanza è destinata principalmente ad accogliere le persone di passaggio ?",
+        "propositions": [
+          "Veranda",
+          "Suite padronale",
+          "Sauna",
+          "Camera degli ospiti"
+        ],
+        "réponse": "Camera degli ospiti",
+        "anecdote": "Una camera degli ospiti è una camera da letto che spesso non viene utilizzata dai soliti occupanti di una casa."
+      },
+      {
+        "id": 19,
+        "question": "Quale installazione elettronica ti consente di beneficiare del comfort acustico e visivo ?",
+        "propositions": [
+          "Boudoir",
+          "Cinema domestico",
+          "Salone",
+          "Camera della cameriera"
+        ],
+        "réponse": "Cinema domestico",
+        "anecdote": "Per estensione, il dispositivo consente di utilizzare diverse fonti televisive come DVD, Blu-ray e videogiochi."
+      },
+      {
+        "id": 20,
+        "question": "Quale giardino della casa è coltivato sotto una struttura metallica in gran parte vetrata ?",
+        "propositions": [
+          "Giardino d'inverno",
+          "Balcone",
+          "Posto auto coperto",
+          "Corridoio"
+        ],
+        "réponse": "Giardino d'inverno",
+        "anecdote": "I giardini d'inverno sono un'estensione dei soggiorni, costituiscono il passaggio tra la casa e il giardino stesso."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In quale stanza della casa si può fare un bagno di calore secco ?",
+        "propositions": [
+          "Hammam",
+          "Sauna",
+          "Jacuzzi",
+          "Soffitta"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "La pratica della sauna è una tradizione sociale e familiare che sembra esistere da oltre 2000 anni nei paesi nordici."
+      },
+      {
+        "id": 22,
+        "question": "Che spazio si trova spesso al piano terra di una casa a molti piani ?",
+        "propositions": [
+          "Garage",
+          "Cantina",
+          "Boudoir",
+          "Salone"
+        ],
+        "réponse": "Garage",
+        "anecdote": "Nel 1913, C.G. Johnson inventò la porta del garage automatizzata, trasformando il modo in cui le persone parcheggiano i propri veicoli."
+      },
+      {
+        "id": 23,
+        "question": "Quale stanza della casa può essere utilizzata per il consumo di tabacco ?",
+        "propositions": [
+          "Salone",
+          "Affumicatoio",
+          "Corridoio",
+          "Soffitta"
+        ],
+        "réponse": "Affumicatoio",
+        "anecdote": "Si trovano anche in edifici in cui è vietato fumare, come uffici, aeroporti o navi."
+      },
+      {
+        "id": 24,
+        "question": "Quale unità non sviluppata è costituita dalla struttura e dal tetto di una casa ?",
+        "propositions": [
+          "Camera della cameriera",
+          "Soffitta",
+          "Corridoio",
+          "Moneta di sopravvivenza"
+        ],
+        "réponse": "Soffitta",
+        "anecdote": "Designa per estensione lo spazio situato sotto il tetto, un volume interno delimitato dalle falde del tetto e dall'ultimo piano."
+      },
+      {
+        "id": 25,
+        "question": "Quale stanza di un edificio consente alle persone di comunicare oralmente ?",
+        "propositions": [
+          "Salone",
+          "Boudoir",
+          "Camera degli ospiti",
+          "Camera della cameriera"
+        ],
+        "réponse": "Salone",
+        "anecdote": "Il termine si riferisce comunemente anche alla sala visite del carcere destinata agli incontri tra i detenuti e i loro visitatori."
+      },
+      {
+        "id": 26,
+        "question": "Attraverso quale androne a volte possiamo accedere alle scale di una casa ?",
+        "propositions": [
+          "Lavanderia",
+          "Veranda",
+          "Posto auto coperto",
+          "Corridoio"
+        ],
+        "réponse": "Corridoio",
+        "anecdote": "Non troviamo il vestibolo nei castelli e nei manieri feudali, dove le scale sono a chiocciola e nascoste."
+      },
+      {
+        "id": 27,
+        "question": "Quale stanza separata in una casa borghese è destinata ad ospitare la servitù ?",
+        "propositions": [
+          "Moneta di sopravvivenza",
+          "Soffitta",
+          "Spazio di scansione",
+          "Camera della cameriera"
+        ],
+        "réponse": "Camera della cameriera",
+        "anecdote": "Le stanze di servizio sono state soggette a norme sanitarie, preservando la qualità della vita e la salute dell'occupante."
+      },
+      {
+        "id": 28,
+        "question": "In quale salone si ritirano le donne per chiacchierate femminili ?",
+        "propositions": [
+          "Boudoir",
+          "Corridoio",
+          "Affumicatoio",
+          "Moneta di sopravvivenza"
+        ],
+        "réponse": "Boudoir",
+        "anecdote": "Il Marchese de Sade ha contribuito a far conoscere questa piccola stanza dedicata all'intimità delle chiacchiere tra donne."
+      },
+      {
+        "id": 29,
+        "question": "Quale pronto soccorso nascosto ha un passaggio segreto ?",
+        "propositions": [
+          "Soffitta",
+          "Posto auto coperto",
+          "Moneta di sopravvivenza",
+          "Spazio di scansione"
+        ],
+        "réponse": "Moneta di sopravvivenza",
+        "anecdote": "I suoi proprietari possono rifugiarsi lì in caso di furti con scasso, invasioni domestiche, tornado o attacchi terroristici."
+      },
+      {
+        "id": 30,
+        "question": "In Francia, quale spazio esterno si trova tra il piano terra e il primo piano dell'edificio ?",
+        "propositions": [
+          "Corridoio",
+          "Moneta di sopravvivenza",
+          "Camera della cameriera",
+          "Spazio di scansione"
+        ],
+        "réponse": "Spazio di scansione",
+        "anecdote": "Considerata come superficie non edificabile, funge da spazio cuscinetto tra il piano terra e il primo piano dell'edificio."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk object, soms imposant, mag niet ontbreken in de moderne keuken ?",
+        "propositions": [
+          "Stofzuiger",
+          "Koelkast",
+          "Radiateur",
+          "Vriezer"
+        ],
+        "réponse": "Koelkast",
+        "anecdote": "Het eerste commerciële model, uitgevonden in 1927 door ingenieur Nathaniel B. Wales, had een koelcompartiment."
+      },
+      {
+        "id": 2,
+        "question": "In welke kamer van het huis staat meestal een wasmachine ?",
+        "propositions": [
+          "Veranda",
+          "Wasruimte",
+          "Gang",
+          "Tussenverdieping"
+        ],
+        "réponse": "Wasruimte",
+        "anecdote": "In 1907 werd de eerste elektrische wasmachine geïntroduceerd, waardoor huishoudens hun kleding efficiënt konden wassen."
+      },
+      {
+        "id": 3,
+        "question": "Welk apparaat is het middelpunt van elke slaapkamer ?",
+        "propositions": [
+          "Kantoor",
+          "Slaapkamer",
+          "Tabel",
+          "Badkuip"
+        ],
+        "réponse": "Slaapkamer",
+        "anecdote": "Tegenwoordig is er een eindeloze verscheidenheid aan bedden, van traditioneel tot modern, met opties zoals verstelbare en slimme bedden."
+      },
+      {
+        "id": 4,
+        "question": "Welke kamers zijn gereserveerd voor het intieme leven van ouders ?",
+        "propositions": [
+          "Sauna",
+          "Mastersuite",
+          "Damestoilet",
+          "Aankleden"
+        ],
+        "réponse": "Mastersuite",
+        "anecdote": "Wanneer er voldoende ruimte is, kan een master suite ook een kledingkast, kantoor of ontspanningsruimte bevatten."
+      },
+      {
+        "id": 5,
+        "question": "Met welk meubelstuk kun je kleding opbergen zonder dat deze kreukt ?",
+        "propositions": [
+          "Wasruimte",
+          "Kledingkast",
+          "Kelder",
+          "Gang"
+        ],
+        "réponse": "Kledingkast",
+        "anecdote": "Een kast of kledingkast is een ruimte die is ontworpen voor het opbergen van kleding door ze op te hangen om te voorkomen dat ze kreuken."
+      },
+      {
+        "id": 6,
+        "question": "Welk modern object vind je vaak op een thuiskantoortafel ?",
+        "propositions": [
+          "Typemachine",
+          "Vaas",
+          "Computer",
+          "Tafelkleed"
+        ],
+        "réponse": "Computer",
+        "anecdote": "In de interieurarchitectuur is een kantoor een kamer die voornamelijk is ontworpen en gereserveerd voor werk, ook wel studeerkamer genoemd."
+      },
+      {
+        "id": 7,
+        "question": "Welk element van het huis is een symbool van ontspanning en zelfzorg ?",
+        "propositions": [
+          "Aankleden",
+          "Wintertuin",
+          "Badkuip",
+          "Wijnkelder"
+        ],
+        "réponse": "Badkuip",
+        "anecdote": "Door de komst van modern sanitair werden geëmailleerde gietijzeren badkuipen geïntroduceerd, waardoor baden toegankelijker werd."
+      },
+      {
+        "id": 8,
+        "question": "Welke extra kamer in huis heeft glazen wanden ?",
+        "propositions": [
+          "Wasruimte",
+          "Kelder",
+          "Veranda",
+          "Rokerij"
+        ],
+        "réponse": "Veranda",
+        "anecdote": "Bij bioklimatische woningbouwbenaderingen worden veranda's gebruikt om huizen te verwarmen met zonne-energie."
+      },
+      {
+        "id": 9,
+        "question": "Welke kamer in een huis heeft een douche maar geen bad ?",
+        "propositions": [
+          "Boudoir",
+          "Badkamer",
+          "Mastersuite",
+          "Damestoilet"
+        ],
+        "réponse": "Damestoilet",
+        "anecdote": "In Frankrijk moet een hotel dat in de eerste categorie valt, ten minste 70% van de kamers hebben die zijn uitgerust met een badkamer."
+      },
+      {
+        "id": 10,
+        "question": "Welk object, ook wel bank of bank genoemd, maakt deel uit van de woonkamer ?",
+        "propositions": [
+          "Kruk",
+          "Fauteuil",
+          "Bank",
+          "Stoel"
+        ],
+        "réponse": "Bank",
+        "anecdote": "De oorsprong van de bank gaat terug tot het oude Egypte, waar mensen bankjes met kussens gebruikten om uit te rusten."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke kamer is bedoeld voor het opslaan van proviand, fruit en groenten ?",
+        "propositions": [
+          "Wasruimte",
+          "Kelder",
+          "Aankleden",
+          "Garage"
+        ],
+        "réponse": "Kelder",
+        "anecdote": "Tegenwoordig, als deze bestaat, bevindt deze koele kamer met dikke muren en weinig of geen verlichting zich meestal dicht bij de keuken."
+      },
+      {
+        "id": 12,
+        "question": "Welke overhangende doorgang bedient de kamers op de bovenste verdieping van een woning ?",
+        "propositions": [
+          "Tussenverdieping",
+          "Balkon",
+          "Carport",
+          "Veranda"
+        ],
+        "réponse": "Tussenverdieping",
+        "anecdote": "Tegenwoordig verwijst de term ook naar een overhangende doorgang die de kamers op de bovenverdieping van een huis bedient."
+      },
+      {
+        "id": 13,
+        "question": "Welk platform, vaak aan de buitenkant, steekt uit de muur van een gebouw ?",
+        "propositions": [
+          "Gang",
+          "Balkon",
+          "Garage",
+          "Veranda"
+        ],
+        "réponse": "Balkon",
+        "anecdote": "Het kan ook binnenshuis zijn, in een grote ruimte (een voorstellingszaal of galerij), of zelfs op een afgesloten binnenplaats."
+      },
+      {
+        "id": 14,
+        "question": "Welke plek in huis is bedoeld om sterke drank op te slaan ?",
+        "propositions": [
+          "Mastersuite",
+          "Carport",
+          "Kledingkast",
+          "Wijnkelder"
+        ],
+        "réponse": "Wijnkelder",
+        "anecdote": "De flessen moeten horizontaal staan, zodat de bevochtiging van de kurken permanent is, wat de waterdichtheid garandeert."
+      },
+      {
+        "id": 15,
+        "question": "Welk alternatief voor de klassieke garage is aan de zijkanten open ?",
+        "propositions": [
+          "Zolder",
+          "Carport",
+          "Kelder",
+          "Veranda"
+        ],
+        "réponse": "Carport",
+        "anecdote": "De carport kan enkel of dubbel zijn, afhankelijk van of deze plaats biedt aan twee voertuigen, geschikt is voor campers of aangevuld wordt met een berging."
+      },
+      {
+        "id": 16,
+        "question": "Welke ruimte wordt besteed aan de intimiteit van een moment van vrijwillige opluchting ?",
+        "propositions": [
+          "Thuisbioscoop",
+          "Aankleden",
+          "Gastenkamer",
+          "Toiletten"
+        ],
+        "réponse": "Toiletten",
+        "anecdote": "De term toilet verwijst soms ook naar het open ontvangstelement, waardoor men kan zitten, wastafel (vaak in de vorm van een zitje)."
+      },
+      {
+        "id": 17,
+        "question": "Welke voorkamer bevindt zich in de directe omgeving van de slaapkamer ?",
+        "propositions": [
+          "Rokerij",
+          "Aankleden",
+          "Tussenverdieping",
+          "Wasruimte"
+        ],
+        "réponse": "Aankleden",
+        "anecdote": "Deze kamer, meestal klein, is speciaal ontworpen om kleding op te bergen in planken, kasten of kledingkasten."
+      },
+      {
+        "id": 18,
+        "question": "Welke kamer is in de eerste plaats ontworpen voor passerende personen ?",
+        "propositions": [
+          "Veranda",
+          "Mastersuite",
+          "Sauna",
+          "Gastenkamer"
+        ],
+        "réponse": "Gastenkamer",
+        "anecdote": "Een logeerkamer is een slaapkamer die vaak niet wordt gebruikt door de gebruikelijke bewoners van een huis."
+      },
+      {
+        "id": 19,
+        "question": "Met welke elektronische installatie profiteert u van geluids- en visueel comfort ?",
+        "propositions": [
+          "Kamermeisje",
+          "Boudoir",
+          "Salon",
+          "Thuisbioscoop"
+        ],
+        "réponse": "Thuisbioscoop",
+        "anecdote": "Bij uitbreiding kunt u met het apparaat verschillende televisiebronnen gebruiken, zoals dvd, Blu-ray en videogames."
+      },
+      {
+        "id": 20,
+        "question": "Welke tuin in het huis wordt aangelegd onder een grotendeels glazen metalen constructie ?",
+        "propositions": [
+          "Gang",
+          "Wintertuin",
+          "Balkon",
+          "Carport"
+        ],
+        "réponse": "Wintertuin",
+        "anecdote": "Wintertuinen zijn een verlengstuk van de woonkamers en vormen de overgang tussen het huis en de tuin zelf."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welke kamer van het huis kun je een droog warmtebad nemen ?",
+        "propositions": [
+          "Zolder",
+          "Sauna",
+          "Hamam",
+          "Bubbelbad"
+        ],
+        "réponse": "Sauna",
+        "anecdote": "Het beoefenen van sauna's is een sociale en familiale traditie die in de Scandinavische landen al meer dan 2000 jaar lijkt te bestaan."
+      },
+      {
+        "id": 22,
+        "question": "Welke ruimte vind je vaak op de begane grond van een hoogbouwwoning ?",
+        "propositions": [
+          "Boudoir",
+          "Garage",
+          "Salon",
+          "Kelder"
+        ],
+        "réponse": "Garage",
+        "anecdote": "In 1913 werd de geautomatiseerde garagedeur uitgevonden door C.G. Johnson, die de manier waarop mensen hun auto parkeren transformeerde."
+      },
+      {
+        "id": 23,
+        "question": "Welke kamer in een huis kan worden gebruikt voor tabaksconsumptie ?",
+        "propositions": [
+          "Rokerij",
+          "Gang",
+          "Zolder",
+          "Salon"
+        ],
+        "réponse": "Rokerij",
+        "anecdote": "Ze worden ook aangetroffen in gebouwen waar roken verboden is, zoals kantoorgebouwen, luchthavens of schepen."
+      },
+      {
+        "id": 24,
+        "question": "Welke onontwikkelde eenheid bestaat uit het frame en het dak van een huis ?",
+        "propositions": [
+          "Gang",
+          "Overlevingsmunt",
+          "Zolder",
+          "Kamermeisje"
+        ],
+        "réponse": "Zolder",
+        "anecdote": "Het duidt bij uitbreiding de ruimte onder het dak aan, een binnenvolume begrensd door de dakhellingen en de bovenste verdieping."
+      },
+      {
+        "id": 25,
+        "question": "In welke ruimte in een gebouw kunnen mensen mondeling communiceren ?",
+        "propositions": [
+          "Boudoir",
+          "Gastenkamer",
+          "Kamermeisje",
+          "Salon"
+        ],
+        "réponse": "Salon",
+        "anecdote": "De term verwijst ook vaak naar de gevangenisbezoekruimte die bedoeld is voor ontmoetingen tussen gevangenen en hun bezoekers."
+      },
+      {
+        "id": 26,
+        "question": "Via welke inkomhal kunnen we soms de trap van een huis betreden ?",
+        "propositions": [
+          "Carport",
+          "Gang",
+          "Wasruimte",
+          "Veranda"
+        ],
+        "réponse": "Gang",
+        "anecdote": "In kastelen en feodale herenhuizen vinden we geen vestibule, waar de trappen spiraalvormig en verborgen zijn."
+      },
+      {
+        "id": 27,
+        "question": "Welke aparte kamer in een burgerlijk huis is bedoeld om bedienden te huisvesten ?",
+        "propositions": [
+          "Zolder",
+          "Kamermeisje",
+          "Kruipruimte",
+          "Overlevingsmunt"
+        ],
+        "réponse": "Kamermeisje",
+        "anecdote": "Dienstmeisjeskamers zijn onderworpen aan gezondheidsvoorschriften, waardoor de levenskwaliteit en de gezondheid van de bewoner behouden blijven."
+      },
+      {
+        "id": 28,
+        "question": "In welke salon trekken de dames zich terug voor vrouwelijke chats ?",
+        "propositions": [
+          "Rokerij",
+          "Boudoir",
+          "Overlevingsmunt",
+          "Gang"
+        ],
+        "réponse": "Boudoir",
+        "anecdote": "De markies de Sade heeft bijgedragen aan de ontwikkeling van een reputatie voor deze kleine kamer gewijd aan de intimiteit van vrouwengesprekken."
+      },
+      {
+        "id": 29,
+        "question": "Welke verborgen eerstehulpafdeling heeft een geheime doorgang ?",
+        "propositions": [
+          "Zolder",
+          "Overlevingsmunt",
+          "Kruipruimte",
+          "Carport"
+        ],
+        "réponse": "Overlevingsmunt",
+        "anecdote": "De eigenaren kunnen er hun toevlucht zoeken bij inbraken, woninginbraken, tornado's of terroristische aanslagen."
+      },
+      {
+        "id": 30,
+        "question": "Welke buitenruimte bevindt zich in Frankrijk tussen de begane grond en de eerste verdieping van het gebouw ?",
+        "propositions": [
+          "Kruipruimte",
+          "Overlevingsmunt",
+          "Kamermeisje",
+          "Gang"
+        ],
+        "réponse": "Kruipruimte",
+        "anecdote": "Het wordt beschouwd als een niet-bewikkelbaar oppervlak en fungeert als bufferruimte tussen de begane grond en de eerste verdieping van het gebouw."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "1 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-05-29",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Transport motorisé",
+      "slogan": "Le progrès au service du citoyen"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Motorized transport",
+      "slogan": "Progress at the service of the citizen"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Transporte motorizado",
+      "slogan": "El progreso al servicio del ciudadano"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Trasporto motorizzato",
+      "slogan": "Il progresso al servizio del cittadino"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Motorisierter Transport",
+      "slogan": "Fortschritt im Dienste der Bürger"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Motorisierter Transport",
+      "slogan": "Vooruitgang ten dienste van de burger"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel véhicule ferroviaire fournit l'énergie motrice d'un train ?",
+        "propositions": [
+          "Tracteur",
+          "Tramway",
+          "Téléphérique",
+          "Locomotive"
+        ],
+        "réponse": "Locomotive",
+        "anecdote": "Une locomotive n'a pas de charge utile en elle-même, sa principale fonction étant de tracter un train et d'en assurer le chauffage."
+      },
+      {
+        "id": 2,
+        "question": "Quel dispositif de transport vertical assure le déplacement en hauteur ?",
+        "propositions": [
+          "Trolleybus",
+          "Métro",
+          "Ascenseur",
+          "Funiculaire"
+        ],
+        "réponse": "Ascenseur",
+        "anecdote": "Les dimensions, la construction et le contrôle en temps réel pendant l'usage des ascenseurs permettent l'accès sécurisé des personnes."
+      },
+      {
+        "id": 3,
+        "question": "Quel véhicule longiligne est capable de se déplacer dans l'espace proche ?",
+        "propositions": [
+          "Fusée",
+          "ULM",
+          "Bac",
+          "Side-car"
+        ],
+        "réponse": "Fusée",
+        "anecdote": "Les plus grosses fusées construites, comme Saturn V, permettent de placer jusqu'à 150 tonnes en orbite basse."
+      },
+      {
+        "id": 4,
+        "question": "Quel est le principal type de véhicules employé dans les transports en commun ?",
+        "propositions": [
+          "Paquebot",
+          "Sous-marin",
+          "Char d'assaut",
+          "Autobus"
+        ],
+        "réponse": "Autobus",
+        "anecdote": "À Nantes, en 18261, Étienne Bureau imagina un véhicule pour transporter les employés entre les bureaux et les entrepôts."
+      },
+      {
+        "id": 5,
+        "question": "Quel véhicule de transport à cabine est conçu pour circuler sur les routes enneigées ?",
+        "propositions": [
+          "Chasse-neige",
+          "Aéroglisseur",
+          "Autoneige",
+          "Téléphérique"
+        ],
+        "réponse": "Autoneige",
+        "anecdote": "Il ne faut pas confondre l'autoneige avec la motoneige, qui est un véhicule récréatif à un ou deux passagers sur une selle."
+      },
+      {
+        "id": 6,
+        "question": "Quel grand navire est spécialisé dans le transport de passagers en haute mer ?",
+        "propositions": [
+          "Galère",
+          "Paquebot",
+          "Monocoque",
+          "Trimaran"
+        ],
+        "réponse": "Paquebot",
+        "anecdote": "Les premiers paquebots sont apparus au début du XIXe siècle avec l'essor des migrations internationales et du phénomène colonial."
+      },
+      {
+        "id": 7,
+        "question": "Quel véhicule privé, conduit par un chauffeur, est destiné au transport payant ?",
+        "propositions": [
+          "Taxi",
+          "Camping-car",
+          "Autobus",
+          "Hélicoptère"
+        ],
+        "réponse": "Taxi",
+        "anecdote": "Dans les pays moins riches, d'autres types de véhicules peuvent prendre le rôle de taxis : rickshaw, pousse-pousse, taximan."
+      },
+      {
+        "id": 8,
+        "question": "Quel navire submersible est capable de se déplacer sous l'eau ?",
+        "propositions": [
+          "Bateau-mouche",
+          "Sous-marin",
+          "Ferry",
+          "Paquebot"
+        ],
+        "réponse": "Sous-marin",
+        "anecdote": "Il se distingue des autres bateaux et navires, et des bathyscaphes qui se déplacent principalement selon l'axe vertical."
+      },
+      {
+        "id": 9,
+        "question": "Quel bateau de plaisance de luxe retrouve-t-on en grand nombre à Saint-Tropez ?",
+        "propositions": [
+          "Hydravion",
+          "Yacht",
+          "Bateau-mouche",
+          "Porte-avions"
+        ],
+        "réponse": "Yacht",
+        "anecdote": "Le yacht moderne est un navire habitable et utilisé aux fins de loisir et de sport, dans une ambiance au luxe affirmé voire raffiné."
+      },
+      {
+        "id": 10,
+        "question": "Quel véhicule automobile est destiné au transport routier de marchandises ?",
+        "propositions": [
+          "Tracteur",
+          "Camion",
+          "Remorqueur",
+          "Aérotrain"
+        ],
+        "réponse": "Camion",
+        "anecdote": "Un camion se distingue du véhicule léger, principalement par une charge à l'essieu et des dimensions plus importantes."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel mot d'usage courant en France est utilisé pour désigner un véhicule habitable ?",
+        "propositions": [
+          "Caravane",
+          "Monocycle",
+          "Camping-car",
+          "Diligence"
+        ],
+        "réponse": "Camping-car",
+        "anecdote": "La pratique du camping-car étant en expansion, de plus en plus de communes créent des parkings réservés aux camping-cars."
+      },
+      {
+        "id": 12,
+        "question": "Quel transport en commun urbain non câblé circule sur des voies ferrées ?",
+        "propositions": [
+          "Trolleybus",
+          "Zeppelin",
+          "Tramway",
+          "Funiculaire"
+        ],
+        "réponse": "Tramway",
+        "anecdote": "Une interprétation éponyme fait remonter le mot tram à un emprunt, au nom de l'inventeur anglais Benjamin Outram."
+      },
+      {
+        "id": 13,
+        "question": "Quel type de navette est principalement utilisée pour le tourisme fluvial à Paris ?",
+        "propositions": [
+          "Ferry",
+          "Paquebot",
+          "Bateau-mouche",
+          "Bateau-bus"
+        ],
+        "réponse": "Bateau-mouche",
+        "anecdote": "En France, cette dénomination est une marque déposée et enregistrée depuis 1950 par la Compagnie des Bateaux Mouches."
+      },
+      {
+        "id": 14,
+        "question": "Quel avion possède la capacité de se poser ou de décoller sur l'eau ?",
+        "propositions": [
+          "Planeur",
+          "Hydravion",
+          "Deltaplane",
+          "ULM"
+        ],
+        "réponse": "Hydravion",
+        "anecdote": "Cet avion est décliné en divers types : hydravion à flotteurs, hydravion à coque, navion ou aéronef amphibie."
+      },
+      {
+        "id": 15,
+        "question": "Quel véhicule automoteur remplit des fonctions dans les travaux agricoles et ruraux ?",
+        "propositions": [
+          "Tracteur",
+          "Tandem",
+          "Bathyscaphe",
+          "Tramway"
+        ],
+        "réponse": "Tracteur",
+        "anecdote": "Les agriculteurs utilisent des tracteurs de plus en plus puissants, demandant plus d'adhérence et donc à quatre roues motrices."
+      },
+      {
+        "id": 16,
+        "question": "Quel aéronef est propulsé par une voilure tournante appelée rotor ?",
+        "propositions": [
+          "Hélicoptère",
+          "Aérostat",
+          "Montgolfière",
+          "Aéroglisseur"
+        ],
+        "réponse": "Hélicoptère",
+        "anecdote": "Son aptitude à décoller et atterrir sur des terrains étroits et non préparés le rend indispensable pour certaines missions."
+      },
+      {
+        "id": 17,
+        "question": "Quel engin de service hivernal est destiné au déneigement de la voirie ?",
+        "propositions": [
+          "Chasse-neige",
+          "Retire-neige",
+          "Déplace-neige",
+          "Enlève-neige"
+        ],
+        "réponse": "Chasse-neige",
+        "anecdote": "Cet appareil, aussi appelé gratte, est muni d'un ou de plusieurs versoirs à l'avant, utilisés pour pousser la neige sur le bas-côté."
+      },
+      {
+        "id": 18,
+        "question": "Quel système d'arme mobile est constitué d'un canon monté sur un véhicule blindé ?",
+        "propositions": [
+          "Dériveur",
+          "Diligence",
+          "Tracteur",
+          "Char d'assaut"
+        ],
+        "réponse": "Char d'assaut",
+        "anecdote": "Le char d'assaut d'aujourd'hui, blindé tout terrain armé d'un canon, a pris forme lors de la Première Guerre mondiale."
+      },
+      {
+        "id": 19,
+        "question": "Quel navire de guerre permet le lancement et la réception d'aéronefs ?",
+        "propositions": [
+          "Destroyer",
+          "Cuirassé",
+          "Torpilleur",
+          "Porte-avions"
+        ],
+        "réponse": "Porte-avions",
+        "anecdote": "Ces bâtiments sont dotés d'une puissance militaire considérable dont les capacités multiples en font des instruments diplomatiques."
+      },
+      {
+        "id": 20,
+        "question": "Quelle rame automotrice de conception française atteint la vitesse de 320 km/h ?",
+        "propositions": [
+          "Locomotive",
+          "Tramway",
+          "TGV",
+          "Petit-train"
+        ],
+        "réponse": "TGV",
+        "anecdote": "Les TGV sont notamment fabriqués à Belfort (Alstom) pour les motrices et à Aytré (Alstom) pour les remorques intermédiaires."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle remontée mécanique tractée par câble circule sur des rails en pente ?",
+        "propositions": [
+          "Funiculaire",
+          "Métro",
+          "Aérotrain",
+          "Hyperloop"
+        ],
+        "réponse": "Funiculaire",
+        "anecdote": "Le moteur actionnant le câble est situé, à de très rares exceptions près, dans la station la plus élevée de la ligne."
+      },
+      {
+        "id": 22,
+        "question": "Quel aéronef ultraléger est autorisé à décoller et atterrir hors des aérodromes ?",
+        "propositions": [
+          "ULM",
+          "Aéroglisseur",
+          "Fusée",
+          "Hélicoptère"
+        ],
+        "réponse": "ULM",
+        "anecdote": "Les débuts de l'ultraléger motorisé remontent aux débuts de l'aviation, avec le travail précurseur d'Étienne Dormoy à Dayton."
+      },
+      {
+        "id": 23,
+        "question": "Quelle motocyclette est pourvue d'une troisième roue latérale et d'un panier ?",
+        "propositions": [
+          "Solex",
+          "Tandem",
+          "Side-car",
+          "Coccinelle"
+        ],
+        "réponse": "Side-car",
+        "anecdote": "Historiquement le side-car a d'abord été un véhicule utilitaire pour qui n'avait pas les moyens de s'offrir une voiture, même d'occasion."
+      },
+      {
+        "id": 24,
+        "question": "Quel bateau à fond plat peut être utilisé pour passer d'une rive à une autre ?",
+        "propositions": [
+          "Bac",
+          "Vedette",
+          "Bombardier",
+          "Lanceur"
+        ],
+        "réponse": "Bac",
+        "anecdote": "Les bacs sont fréquemment utilisés pour faire passer des personnes ou des véhicules d'une rive à l'autre d'un fleuve ou d'un lac."
+      },
+      {
+        "id": 25,
+        "question": "Quel appareil est destiné au transfert de charges dans les usines ou les entrepôts ?",
+        "propositions": [
+          "Chariot élévateur",
+          "Charrette",
+          "Traîneau",
+          "Semi-remorque"
+        ],
+        "réponse": "Chariot élévateur",
+        "anecdote": "Le chariot élévateur sert principalement au transport de produits finis depuis les chaînes de fabrication vers les lieux de stockage."
+      },
+      {
+        "id": 26,
+        "question": "Quel véhicule articulé routier touristique suit généralement un itinéraire déterminé ?",
+        "propositions": [
+          "Tracteur",
+          "Autobus",
+          "Petit-train",
+          "Camping-car"
+        ],
+        "réponse": "Petit-train",
+        "anecdote": "Il est considéré comme une attraction à part entière offrant une autre vue, et ainsi une utilité autre qu'un simple mode de transport."
+      },
+      {
+        "id": 27,
+        "question": "Quel moyen de transport utilise des câbles différents pour porter et tracter ?",
+        "propositions": [
+          "Side-car",
+          "Téléphérique",
+          "Chalutier",
+          "Butanier"
+        ],
+        "réponse": "Téléphérique",
+        "anecdote": "Le téléphérique est un moyen de transport apprécié pour sa faculté à se soustraire des contraintes topographiques du terrain."
+      },
+      {
+        "id": 28,
+        "question": "Quel bateau de service, relativement petit, est pourtant très puissant et très manoeuvrable ?",
+        "propositions": [
+          "Remorqueur",
+          "Chalutier",
+          "Cargo",
+          "Pétrolier"
+        ],
+        "réponse": "Remorqueur",
+        "anecdote": "Il existe aussi des bâtiments plus gros utilisés pour le remorquage des plates-formes pétrolières capables de supporter le gros temps."
+      },
+      {
+        "id": 29,
+        "question": "Quel véhicule amphibie, à portance aérostatique, avance par propulsion aérienne ?",
+        "propositions": [
+          "Bac",
+          "ULM",
+          "Aéroglisseur",
+          "Butanier"
+        ],
+        "réponse": "Aéroglisseur",
+        "anecdote": "Les aéroglisseurs se déplacent souvent sur la mer, mais aussi sur toute surface terrestre ne présentant pas d'obstacles importants."
+      },
+      {
+        "id": 30,
+        "question": "Quel type de bateau de transport fluvial est adapté au gabarit Freycinet ?",
+        "propositions": [
+          "Péniche",
+          "Chalutier",
+          "Câblier",
+          "Ferry"
+        ],
+        "réponse": "Péniche",
+        "anecdote": "Le gabarit Freycinet est une norme européenne régissant la dimension des écluses de certains canaux, mise en place en 1879."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which rail vehicle provides the motive power for a train ?",
+        "propositions": [
+          "Tractor",
+          "Tramway",
+          "Locomotive",
+          "Cable car"
+        ],
+        "réponse": "Locomotive",
+        "anecdote": "A locomotive has no payload in itself, its main function being to tow a train and provide heating."
+      },
+      {
+        "id": 2,
+        "question": "Which vertical transport device ensures the movement in height ?",
+        "propositions": [
+          "Trolleybus",
+          "Metro",
+          "Elevator",
+          "Funicular"
+        ],
+        "réponse": "Elevator",
+        "anecdote": "The dimensions, construction and real-time control during use of the elevators allow safe access for people."
+      },
+      {
+        "id": 3,
+        "question": "Which slender vehicle is able to move in near space ?",
+        "propositions": [
+          "Sidecar",
+          "Rocket",
+          "microlight",
+          "Bac"
+        ],
+        "réponse": "Rocket",
+        "anecdote": "The largest rockets built, such as Saturn V, can place up to 150 tons in low orbit."
+      },
+      {
+        "id": 4,
+        "question": "What is the main type of vehicle used in public transport ?",
+        "propositions": [
+          "Submarine",
+          "Bus",
+          "Liner",
+          "Assault tank"
+        ],
+        "réponse": "Bus",
+        "anecdote": "In Nantes, in 18261, Étienne Bureau imagined a vehicle to transport employees between offices and warehouses."
+      },
+      {
+        "id": 5,
+        "question": "Which cabin vehicle is designed to travel on snowy roads ?",
+        "propositions": [
+          "Snow plow",
+          "Cable car",
+          "Snowmobile",
+          "Hovercraft"
+        ],
+        "réponse": "Snowmobile",
+        "anecdote": "The snowmobile should not be confused with the snowmobile, which is a recreational vehicle with one or two passengers on a saddle."
+      },
+      {
+        "id": 6,
+        "question": "Which ship specializes in transporting passengers on the high seas ?",
+        "propositions": [
+          "Monohull",
+          "Trimarans",
+          "Galley",
+          "Liner"
+        ],
+        "réponse": "Liner",
+        "anecdote": "The first liners appeared at the beginning of the 19th century with the rise of international migration and the colonial phenomenon."
+      },
+      {
+        "id": 7,
+        "question": "Which private vehicle, driven by a driver, is intended for paid transportation ?",
+        "propositions": [
+          "Bus",
+          "Taxi",
+          "Helicopter",
+          "Motorhome"
+        ],
+        "réponse": "Taxi",
+        "anecdote": "In less wealthy countries, other types of vehicles can take the role of taxis : rickshaw, rickshaw, taximan."
+      },
+      {
+        "id": 8,
+        "question": "Which submersible ship is able to move underwater ?",
+        "propositions": [
+          "Bateau-mouche",
+          "Liner",
+          "ferry",
+          "Submarine"
+        ],
+        "réponse": "Submarine",
+        "anecdote": "It differs from other boats and ships, and from bathyscaphes which move mainly along the vertical axis."
+      },
+      {
+        "id": 9,
+        "question": "What luxury pleasure boat are there in large numbers in Saint-Tropez ?",
+        "propositions": [
+          "Aircraft carriers",
+          "Bateau-mouche",
+          "Yacht",
+          "Seaplane"
+        ],
+        "réponse": "Yacht",
+        "anecdote": "The modern yacht is a ship that is habitable and used for leisure and sport purposes, in an atmosphere of assertive and even refined luxury."
+      },
+      {
+        "id": 10,
+        "question": "Which motor vehicle is intended for the road transport of goods ?",
+        "propositions": [
+          "Aerotrain",
+          "Truck",
+          "Tugboat",
+          "Tractor"
+        ],
+        "réponse": "Truck",
+        "anecdote": "A truck is distinguished from a light vehicle, mainly by an axle load and larger dimensions."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What common usage word is used to refer to a livable vehicle ?",
+        "propositions": [
+          "Diligence",
+          "Caravan",
+          "Motorhome",
+          "Unicycle"
+        ],
+        "réponse": "Motorhome",
+        "anecdote": "As the practice of motorhomes is expanding, more and more municipalities are creating parking lots reserved for motorhomes."
+      },
+      {
+        "id": 12,
+        "question": "What unwired urban mass transit runs on railroad tracks ?",
+        "propositions": [
+          "Trolleybus",
+          "Zeppelin",
+          "Tramway",
+          "Funicular"
+        ],
+        "réponse": "Tramway",
+        "anecdote": "An eponymous interpretation traces the word tram back to a borrowing, in the name of the English inventor Benjamin Outram."
+      },
+      {
+        "id": 13,
+        "question": "What type of shuttle is mainly used for river tourism in Paris ?",
+        "propositions": [
+          "Bateau-mouche",
+          "Liner",
+          "ferry",
+          "Water bus"
+        ],
+        "réponse": "Bateau-mouche",
+        "anecdote": "In France, this name is a registered trademark and registered since 1950 by the Compagnie des Bateaux Mouches."
+      },
+      {
+        "id": 14,
+        "question": "Which aircraft has the ability to land or take off on water ?",
+        "propositions": [
+          "Seaplane",
+          "Hang glider",
+          "microlight",
+          "Glider"
+        ],
+        "réponse": "Seaplane",
+        "anecdote": "This aircraft is available in various types : floatplane, hull seaplane, navion or amphibious aircraft."
+      },
+      {
+        "id": 15,
+        "question": "What self-propelled vehicle performs functions in agricultural and rural work ?",
+        "propositions": [
+          "Tandem",
+          "Tractor",
+          "Tramway",
+          "Bathyscaphe"
+        ],
+        "réponse": "Tractor",
+        "anecdote": "Farmers use increasingly powerful tractors, requiring more grip and therefore four-wheel drive."
+      },
+      {
+        "id": 16,
+        "question": "Which aircraft is powered by a rotary wing called a rotor ?",
+        "propositions": [
+          "Hovercraft",
+          "Aerostat",
+          "Helicopter",
+          "hot air balloon"
+        ],
+        "réponse": "Helicopter",
+        "anecdote": "Its ability to take off and land on narrow and unprepared terrain makes it essential for certain missions."
+      },
+      {
+        "id": 17,
+        "question": "Which winter service vehicle is intended for road snow removal ?",
+        "propositions": [
+          "Move-snow",
+          "Snow plow",
+          "Snow plow",
+          "Snow plow"
+        ],
+        "réponse": "Snow plow",
+        "anecdote": "This device, also called plow, is equipped with one or more mouldboards at the front, used to push the snow to the side."
+      },
+      {
+        "id": 18,
+        "question": "What mobile weapon system consists of a gun mounted on an armored vehicle ?",
+        "propositions": [
+          "Diligence",
+          "Assault tank",
+          "Dinghy",
+          "Tractor"
+        ],
+        "réponse": "Assault tank",
+        "anecdote": "Today's tank, an all-terrain armored vehicle armed with a cannon, took shape during the First World War."
+      },
+      {
+        "id": 19,
+        "question": "Which warship allows launching and receiving aircraft ?",
+        "propositions": [
+          "Battleship",
+          "Aircraft carriers",
+          "Torpedo Boat",
+          "Destroyer"
+        ],
+        "réponse": "Aircraft carriers",
+        "anecdote": "These buildings are endowed with considerable military power whose multiple capabilities make them diplomatic instruments."
+      },
+      {
+        "id": 20,
+        "question": "Which French-designed self-propelled train reaches a speed of 320 km/h ?",
+        "propositions": [
+          "Locomotive",
+          "Little train",
+          "TGV",
+          "Tramway"
+        ],
+        "réponse": "TGV",
+        "anecdote": "The TGVs are notably manufactured in Belfort (Alstom) for the power cars and in Aytré (Alstom) for the intermediate trailers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which cable-driven ski lift runs on sloping rails ?",
+        "propositions": [
+          "Aerotrain",
+          "Funicular",
+          "hyper loop",
+          "Metro"
+        ],
+        "réponse": "Funicular",
+        "anecdote": "The motor driving the cable is located, with very few exceptions, in the highest station of the line."
+      },
+      {
+        "id": 22,
+        "question": "Which ultralight aircraft is authorized to take off and land off aerodromes ?",
+        "propositions": [
+          "Rocket",
+          "Helicopter",
+          "Hovercraft",
+          "microlight"
+        ],
+        "réponse": "microlight",
+        "anecdote": "The beginnings of the motorized ultralight go back to the beginnings of aviation, with the pioneering work of Etienne Dormoy in Dayton."
+      },
+      {
+        "id": 23,
+        "question": "Which motorcycle has a third side wheel and a basket ?",
+        "propositions": [
+          "Sidecar",
+          "Ladybug",
+          "Tandem",
+          "solex"
+        ],
+        "réponse": "Sidecar",
+        "anecdote": "Historically, the sidecar was first a utility vehicle for those who could not afford a car, even a second-hand one."
+      },
+      {
+        "id": 24,
+        "question": "What flat-bottomed boat can be used to cross from shore to shore ?",
+        "propositions": [
+          "Bombardier",
+          "Featured",
+          "Launcher",
+          "Bac"
+        ],
+        "réponse": "Bac",
+        "anecdote": "Ferries are frequently used to transport people or vehicles from one side of a river or lake to the other."
+      },
+      {
+        "id": 25,
+        "question": "Which device is intended for transferring loads in factories or warehouses ?",
+        "propositions": [
+          "Cart",
+          "Semi-trailer",
+          "Sled",
+          "Forklift"
+        ],
+        "réponse": "Forklift",
+        "anecdote": "The forklift is mainly used to transport finished products from production lines to storage locations."
+      },
+      {
+        "id": 26,
+        "question": "Which tourist road articulated vehicle generally follows a determined route ?",
+        "propositions": [
+          "Little train",
+          "Bus",
+          "Tractor",
+          "Motorhome"
+        ],
+        "réponse": "Little train",
+        "anecdote": "It is considered as an attraction in its own right offering another view, and thus a utility other than a simple mode of transport."
+      },
+      {
+        "id": 27,
+        "question": "Which means of transport uses different cables for carrying and towing ?",
+        "propositions": [
+          "Cable car",
+          "Trawler",
+          "Butanier",
+          "Sidecar"
+        ],
+        "réponse": "Cable car",
+        "anecdote": "The cable car is a means of transport appreciated for its ability to escape the topographical constraints of the terrain."
+      },
+      {
+        "id": 28,
+        "question": "What service boat, relatively small, is nevertheless very powerful and very manoeuvrable ?",
+        "propositions": [
+          "Tugboat",
+          "Oil tanker",
+          "Trawler",
+          "Cargo"
+        ],
+        "réponse": "Tugboat",
+        "anecdote": "There are also larger buildings used for towing oil rigs capable of withstanding heavy weather."
+      },
+      {
+        "id": 29,
+        "question": "What amphibious vehicle, with aerostatic lift, advances by air propulsion ?",
+        "propositions": [
+          "Bac",
+          "Butanier",
+          "Hovercraft",
+          "microlight"
+        ],
+        "réponse": "Hovercraft",
+        "anecdote": "Hovercraft often travel over the sea, but also over any land surface that does not present significant obstacles."
+      },
+      {
+        "id": 30,
+        "question": "What type of river transport vessel is suitable for the Freycinet jig ?",
+        "propositions": [
+          "ferry",
+          "Cable ship",
+          "Barge",
+          "Trawler"
+        ],
+        "réponse": "Barge",
+        "anecdote": "The Freycinet gauge is a European standard governing the size of the locks of certain canals, set up in 1879."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Schienenfahrzeug liefert die Antriebskraft für einen Zug ?",
+        "propositions": [
+          "Seilbahn",
+          "Traktor",
+          "Lokomotive",
+          "Straßenbahn"
+        ],
+        "réponse": "Lokomotive",
+        "anecdote": "Eine Lokomotive selbst hat keine Nutzlast, ihre Hauptfunktion besteht darin, einen Zug zu ziehen und für Heizung zu sorgen."
+      },
+      {
+        "id": 2,
+        "question": "Welches vertikale Transportgerät sorgt für die Bewegung in der Höhe ?",
+        "propositions": [
+          "Standseilbahn",
+          "Trolleybus",
+          "U-Bahn",
+          "Aufzug"
+        ],
+        "réponse": "Aufzug",
+        "anecdote": "Die Abmessungen, die Konstruktion und die Echtzeitsteuerung während der Nutzung der Aufzüge ermöglichen einen sicheren Zugang für Personen."
+      },
+      {
+        "id": 3,
+        "question": "Welches schlanke Fahrzeug kann sich im nahen Weltraum bewegen ?",
+        "propositions": [
+          "Bac",
+          "Ultraleichtflugzeug",
+          "Beiwagen",
+          "Rakete"
+        ],
+        "réponse": "Rakete",
+        "anecdote": "Die größten gebauten Raketen wie Saturn V können bis zu 150 Tonnen in eine niedrige Umlaufbahn befördern."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Fahrzeugtyp wird hauptsächlich im öffentlichen Verkehr eingesetzt ?",
+        "propositions": [
+          "U-Boot",
+          "Angriffspanzer",
+          "Liner",
+          "Bus"
+        ],
+        "réponse": "Bus",
+        "anecdote": "Im Jahr 18261 stellte sich Étienne Bureau in Nantes ein Fahrzeug vor, um Mitarbeiter zwischen Büros und Lagerhäusern zu transportieren."
+      },
+      {
+        "id": 5,
+        "question": "Welches Kabinenfahrzeug ist für die Fahrt auf verschneiten Straßen ausgelegt ?",
+        "propositions": [
+          "Schneemobil",
+          "Seilbahn",
+          "Schneepflug",
+          "Hovercraft"
+        ],
+        "réponse": "Schneemobil",
+        "anecdote": "Das Schneemobil sollte nicht mit dem Schneemobil verwechselt werden, bei dem es sich um ein Freizeitfahrzeug mit einem oder zwei Passagieren auf einem Sattel handelt."
+      },
+      {
+        "id": 6,
+        "question": "Welches Schiff ist auf die Beförderung von Passagieren auf hoher See spezialisiert ?",
+        "propositions": [
+          "Liner",
+          "Einrumpf",
+          "Galeere",
+          "Trimarane"
+        ],
+        "réponse": "Liner",
+        "anecdote": "Die ersten Linienschiffe tauchten zu Beginn des 19. Jahrhunderts mit dem Aufkommen der internationalen Migration und dem Kolonialphänomen auf."
+      },
+      {
+        "id": 7,
+        "question": "Welches Privatfahrzeug mit Fahrer ist für den kostenpflichtigen Transport vorgesehen ?",
+        "propositions": [
+          "Bus",
+          "Hubschrauber",
+          "Taxi",
+          "Wohnmobil"
+        ],
+        "réponse": "Taxi",
+        "anecdote": "In weniger wohlhabenden Ländern können andere Fahrzeugtypen die Rolle von Taxis übernehmen : Rikscha, Rikscha, Taximann."
+      },
+      {
+        "id": 8,
+        "question": "Welches Tauchschiff kann sich unter Wasser fortbewegen ?",
+        "propositions": [
+          "U-Boot",
+          "Bateau-mouche",
+          "Fähre",
+          "Liner"
+        ],
+        "réponse": "U-Boot",
+        "anecdote": "Es unterscheidet sich von anderen Booten und Schiffen sowie von Bathyscaphes, die sich hauptsächlich entlang der vertikalen Achse bewegen."
+      },
+      {
+        "id": 9,
+        "question": "Welche Luxus-Vergnügungsboote gibt es in großer Zahl in Saint-Tropez ?",
+        "propositions": [
+          "Flugzeugträger",
+          "Yacht",
+          "Bateau-mouche",
+          "Wasserflugzeug"
+        ],
+        "réponse": "Yacht",
+        "anecdote": "Die moderne Yacht ist ein bewohnbares und für Freizeit- und Sportzwecke genutztes Schiff in einer Atmosphäre von selbstbewusstem und sogar raffiniertem Luxus."
+      },
+      {
+        "id": 10,
+        "question": "Welches Kraftfahrzeug ist für den Gütertransport auf der Straße vorgesehen ?",
+        "propositions": [
+          "Schlepper",
+          "LKW",
+          "Aerotrain",
+          "Traktor"
+        ],
+        "réponse": "LKW",
+        "anecdote": "Ein LKW unterscheidet sich von einem Leichtfahrzeug vor allem durch die Achslast und größere Abmessungen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches gebräuchliche Wort wird für ein bewohnbares Fahrzeug verwendet ?",
+        "propositions": [
+          "Sorgfalt",
+          "Einrad",
+          "Wohnmobil",
+          "Wohnwagen"
+        ],
+        "réponse": "Wohnmobil",
+        "anecdote": "Da die Nutzung von Wohnmobilen zunimmt, schaffen immer mehr Kommunen Parkplätze für Wohnmobile."
+      },
+      {
+        "id": 12,
+        "question": "Welcher unverkabelte städtische Nahverkehr läuft auf Eisenbahnschienen ?",
+        "propositions": [
+          "Trolleybus",
+          "Standseilbahn",
+          "Straßenbahn",
+          "Zeppelin"
+        ],
+        "réponse": "Straßenbahn",
+        "anecdote": "Eine gleichnamige Interpretation führt das Wort Straßenbahn auf eine Entlehnung an den englischen Erfinder Benjamin Outram zurück."
+      },
+      {
+        "id": 13,
+        "question": "Welche Art von Shuttle wird hauptsächlich für den Flusstourismus in Paris genutzt ?",
+        "propositions": [
+          "Bateau-mouche",
+          "Fähre",
+          "Liner",
+          "Wasserbus"
+        ],
+        "réponse": "Bateau-mouche",
+        "anecdote": "In Frankreich ist dieser Name eine eingetragene Marke und seit 1950 von der Compagnie des Bateaux Mouches registriert."
+      },
+      {
+        "id": 14,
+        "question": "Welches Flugzeug kann auf dem Wasser landen oder starten ?",
+        "propositions": [
+          "Drachenflieger",
+          "Segelflugzeug",
+          "Ultraleichtflugzeug",
+          "Wasserflugzeug"
+        ],
+        "réponse": "Wasserflugzeug",
+        "anecdote": "Dieses Flugzeug ist in verschiedenen Ausführungen erhältlich : Wasserflugzeug, Rumpfwasserflugzeug, Navion oder Amphibienflugzeug."
+      },
+      {
+        "id": 15,
+        "question": "Welches selbstfahrende Fahrzeug erfüllt Funktionen bei landwirtschaftlichen und ländlichen Arbeiten ?",
+        "propositions": [
+          "Straßenbahn",
+          "Bathyscaphe",
+          "Tandem",
+          "Traktor"
+        ],
+        "réponse": "Traktor",
+        "anecdote": "Landwirte nutzen immer leistungsstärkere Traktoren, die mehr Bodenhaftung und damit einen Allradantrieb erfordern."
+      },
+      {
+        "id": 16,
+        "question": "Welches Flugzeug wird von einem Drehflügel namens Rotor angetrieben ?",
+        "propositions": [
+          "Aerostat",
+          "Hubschrauber",
+          "Heißluftballon",
+          "Hovercraft"
+        ],
+        "réponse": "Hubschrauber",
+        "anecdote": "Seine Fähigkeit, auf engem und unvorbereitetem Gelände zu starten und zu landen, macht es für bestimmte Missionen unverzichtbar."
+      },
+      {
+        "id": 17,
+        "question": "Welches Winterdienstfahrzeug ist für die Schneeräumung auf der Straße vorgesehen ?",
+        "propositions": [
+          "Schneepflug",
+          "Schnee bewegen",
+          "Schneepflug",
+          "Schneepflug"
+        ],
+        "réponse": "Schneepflug",
+        "anecdote": "Dieses Gerät, auch Pflug genannt, ist vorne mit einem oder mehreren Streichblechen ausgestattet, die dazu dienen, den Schnee zur Seite zu schieben."
+      },
+      {
+        "id": 18,
+        "question": "Welches mobile Waffensystem besteht aus einer Waffe, die auf einem gepanzerten Fahrzeug montiert ist ?",
+        "propositions": [
+          "Traktor",
+          "Sorgfalt",
+          "Beiboot",
+          "Angriffspanzer"
+        ],
+        "réponse": "Angriffspanzer",
+        "anecdote": "Der heutige Panzer, ein mit einer Kanone bewaffnetes geländegängiges Panzerfahrzeug, entstand im Ersten Weltkrieg."
+      },
+      {
+        "id": 19,
+        "question": "Welches Kriegsschiff erlaubt den Start und Empfang von Flugzeugen ?",
+        "propositions": [
+          "Flugzeugträger",
+          "Zerstörer",
+          "Torpedoboot",
+          "Schlachtschiff"
+        ],
+        "réponse": "Flugzeugträger",
+        "anecdote": "Diese Gebäude sind mit beträchtlicher militärischer Macht ausgestattet, deren vielfältige Fähigkeiten sie zu diplomatischen Instrumenten machen."
+      },
+      {
+        "id": 20,
+        "question": "Welcher selbstfahrende Zug französischer Bauart erreicht eine Geschwindigkeit von 320 km/h ?",
+        "propositions": [
+          "Straßenbahn",
+          "Kleiner Zug",
+          "Lokomotive",
+          "TGV"
+        ],
+        "réponse": "TGV",
+        "anecdote": "Die TGVs werden insbesondere in Belfort (Alstom) für die Triebwagen und in Aytré (Alstom) für die Zwischenanhänger hergestellt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Seilskilift fährt auf schrägen Schienen ?",
+        "propositions": [
+          "U-Bahn",
+          "Hyperschleife",
+          "Standseilbahn",
+          "Aerotrain"
+        ],
+        "réponse": "Standseilbahn",
+        "anecdote": "Der Motor, der das Seil antreibt, befindet sich bis auf wenige Ausnahmen in der höchsten Station der Strecke."
+      },
+      {
+        "id": 22,
+        "question": "Welches Ultraleichtflugzeug darf auf Flugplätzen starten und landen ?",
+        "propositions": [
+          "Hovercraft",
+          "Ultraleichtflugzeug",
+          "Hubschrauber",
+          "Rakete"
+        ],
+        "réponse": "Ultraleichtflugzeug",
+        "anecdote": "Die Anfänge des motorisierten Ultraleichtflugzeugs gehen auf die Anfänge der Luftfahrt zurück, mit der Pionierarbeit von Etienne Dormoy in Dayton."
+      },
+      {
+        "id": 23,
+        "question": "Welches Motorrad hat ein drittes Seitenrad und einen Korb ?",
+        "propositions": [
+          "solex",
+          "Marienkäfer",
+          "Tandem",
+          "Beiwagen"
+        ],
+        "réponse": "Beiwagen",
+        "anecdote": "Historisch gesehen war der Beiwagen zunächst ein Nutzfahrzeug für diejenigen, die sich kein Auto leisten konnten, nicht einmal ein Gebrauchtwagen."
+      },
+      {
+        "id": 24,
+        "question": "Mit welchem Plattbodenboot kann man von Ufer zu Ufer überqueren ?",
+        "propositions": [
+          "Launcher",
+          "Vorgestellt",
+          "Bac",
+          "Bombardier"
+        ],
+        "réponse": "Bac",
+        "anecdote": "Fähren werden häufig verwendet, um Personen oder Fahrzeuge von einem Fluss- oder Seeufer zum anderen zu transportieren."
+      },
+      {
+        "id": 25,
+        "question": "Welches Gerät ist für den Lastentransport in Fabriken oder Lagerhallen vorgesehen ?",
+        "propositions": [
+          "Warenkorb",
+          "Schlitten",
+          "Sattelauflieger",
+          "Gabelstapler"
+        ],
+        "réponse": "Gabelstapler",
+        "anecdote": "Der Gabelstapler wird hauptsächlich zum Transport fertiger Produkte von Produktionslinien zu Lagerorten eingesetzt."
+      },
+      {
+        "id": 26,
+        "question": "Welches Touristenstraßen-Sattelfahrzeug folgt im Allgemeinen einer festgelegten Route ?",
+        "propositions": [
+          "Bus",
+          "Wohnmobil",
+          "Kleiner Zug",
+          "Traktor"
+        ],
+        "réponse": "Kleiner Zug",
+        "anecdote": "Es wird als eine eigenständige Attraktion angesehen, die eine andere Aussicht bietet und somit einen anderen Nutzen als ein einfaches Transportmittel darstellt."
+      },
+      {
+        "id": 27,
+        "question": "Welches Transportmittel nutzt unterschiedliche Seile zum Tragen und Ziehen ?",
+        "propositions": [
+          "Trawler",
+          "Butanier",
+          "Seilbahn",
+          "Beiwagen"
+        ],
+        "réponse": "Seilbahn",
+        "anecdote": "Die Seilbahn ist ein Transportmittel, das für seine Fähigkeit geschätzt wird, den topografischen Zwängen des Geländes zu entkommen."
+      },
+      {
+        "id": 28,
+        "question": "Welches relativ kleine Dienstboot ist dennoch sehr leistungsstark und sehr wendig ?",
+        "propositions": [
+          "Fracht",
+          "Öltanker",
+          "Schlepper",
+          "Trawler"
+        ],
+        "réponse": "Schlepper",
+        "anecdote": "Es gibt auch größere Gebäude zum Abschleppen von Ölbohrinseln, die schwerem Wetter standhalten können."
+      },
+      {
+        "id": 29,
+        "question": "Welches Amphibienfahrzeug mit aerostatischem Auftrieb bewegt sich durch Luftantrieb voran ?",
+        "propositions": [
+          "Ultraleichtflugzeug",
+          "Bac",
+          "Butanier",
+          "Hovercraft"
+        ],
+        "réponse": "Hovercraft",
+        "anecdote": "Hovercrafts bewegen sich häufig über dem Meer, aber auch über Landflächen, die keine nennenswerten Hindernisse darstellen."
+      },
+      {
+        "id": 30,
+        "question": "Welche Art von Flusstransportschiff eignet sich für die Freycinet-Vorrichtung ?",
+        "propositions": [
+          "Fähre",
+          "Trawler",
+          "Lastkahn",
+          "Kabelschiff"
+        ],
+        "réponse": "Lastkahn",
+        "anecdote": "Das Freycinet-Messgerät ist ein europäischer Standard, der 1879 die Größe der Schleusen bestimmter Kanäle regelt."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué vehículo ferroviario proporciona la fuerza motriz de un tren ?",
+        "propositions": [
+          "Tranvía",
+          "Teleférico",
+          "Locomotora",
+          "Tractores"
+        ],
+        "réponse": "Locomotora",
+        "anecdote": "Una locomotora no tiene carga útil en sí misma, siendo su función principal remolcar un tren y proporcionar calefacción."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué dispositivo de transporte vertical asegura el movimiento en altura ?",
+        "propositions": [
+          "Trolebús",
+          "Ascensor",
+          "Teleférico",
+          "Metro"
+        ],
+        "réponse": "Ascensor",
+        "anecdote": "Las dimensiones, la construcción y el control en tiempo real durante el uso de los ascensores permiten un acceso seguro para las personas."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué vehículo delgado es capaz de moverse en el espacio cercano ?",
+        "propositions": [
+          "ultraligero",
+          "sidecar",
+          "Cohete",
+          "Bac"
+        ],
+        "réponse": "Cohete",
+        "anecdote": "Los cohetes más grandes construidos, como el Saturno V, pueden colocar hasta 150 toneladas en órbita baja."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuál es el principal tipo de vehículo utilizado en el transporte público ?",
+        "propositions": [
+          "Forro",
+          "Tanque de asalto",
+          "submarino",
+          "Autobús"
+        ],
+        "réponse": "Autobús",
+        "anecdote": "En Nantes, en 18261, Étienne Bureau imaginó un vehículo para el transporte de empleados entre oficinas y almacenes."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué vehículo de cabina está diseñado para circular por caminos nevados ?",
+        "propositions": [
+          "Aerodeslizador",
+          "Moto de nieve",
+          "Quitanieves",
+          "Teleférico"
+        ],
+        "réponse": "Moto de nieve",
+        "anecdote": "La moto de nieve no debe confundirse con la moto de nieve, que es un vehículo recreativo con uno o dos pasajeros en una silla de montar."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué barco se especializa en el transporte de pasajeros en alta mar ?",
+        "propositions": [
+          "Galera",
+          "Monocasco",
+          "Trimaranes",
+          "Forro"
+        ],
+        "réponse": "Forro",
+        "anecdote": "Los primeros transatlánticos aparecieron a principios del siglo XIX con el auge de la migración internacional y el fenómeno colonial."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué vehículo privado, conducido por un conductor, está destinado al transporte pagado ?",
+        "propositions": [
+          "Autobús",
+          "Taxis",
+          "Autocaravana",
+          "helicóptero"
+        ],
+        "réponse": "Taxis",
+        "anecdote": "En los países menos ricos, otros tipos de vehículos pueden desempeñar el papel de taxis : rickshaw, rickshaw, taximan."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué barco sumergible es capaz de moverse bajo el agua ?",
+        "propositions": [
+          "Forro",
+          "submarino",
+          "transbordador",
+          "Bateau-mouche"
+        ],
+        "réponse": "submarino",
+        "anecdote": "Se diferencia de otros barcos y barcos, y de los batiscafos que se mueven principalmente a lo largo del eje vertical."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué embarcaciones de recreo de lujo abundan en Saint-Tropez ?",
+        "propositions": [
+          "Yate",
+          "Portaaviones",
+          "Bateau-mouche",
+          "hidroavión"
+        ],
+        "réponse": "Yate",
+        "anecdote": "El yate moderno es un barco habitable y utilizado para el ocio y el deporte, en un ambiente de lujo asertivo e incluso refinado."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué vehículo de motor está destinado al transporte de mercancías por carretera ?",
+        "propositions": [
+          "Remolcador",
+          "Tractores",
+          "camión",
+          "Aerotren"
+        ],
+        "réponse": "camión",
+        "anecdote": "Un camión se distingue de un vehículo ligero, principalmente por una carga por eje y dimensiones más grandes."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué palabra de uso común se usa para referirse a un vehículo habitable ?",
+        "propositions": [
+          "Autocaravana",
+          "caravana",
+          "Diligencia",
+          "Monociclo"
+        ],
+        "réponse": "Autocaravana",
+        "anecdote": "A medida que se expande la práctica de las autocaravanas, cada vez más municipios crean estacionamientos reservados para autocaravanas."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué transporte masivo urbano no cableado corre sobre las vías del tren ?",
+        "propositions": [
+          "Tranvía",
+          "Zepelín",
+          "Trolebús",
+          "Teleférico"
+        ],
+        "réponse": "Tranvía",
+        "anecdote": "Una interpretación homónima remonta la palabra tranvía a un préstamo, a nombre del inventor inglés Benjamin Outram."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué tipo de lanzadera se utiliza principalmente para el turismo fluvial en París ?",
+        "propositions": [
+          "Bateau-mouche",
+          "Autobús acuático",
+          "Forro",
+          "transbordador"
+        ],
+        "réponse": "Bateau-mouche",
+        "anecdote": "En Francia, este nombre es una marca registrada y registrada desde 1950 por la Compagnie des Bateaux Mouches."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué aeronave tiene la capacidad de aterrizar o despegar en el agua ?",
+        "propositions": [
+          "hidroavión",
+          "planeador",
+          "ultraligero",
+          "Ala delta"
+        ],
+        "réponse": "hidroavión",
+        "anecdote": "Este avión está disponible en varios tipos : hidroavión, hidroavión de casco, navío o avión anfibio."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué vehículo autopropulsado realiza funciones en el trabajo agrícola y rural ?",
+        "propositions": [
+          "Tranvía",
+          "Tándem",
+          "batiscafo",
+          "Tractores"
+        ],
+        "réponse": "Tractores",
+        "anecdote": "Los agricultores utilizan tractores cada vez más potentes, que requieren más agarre y, por lo tanto, tracción en las cuatro ruedas."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué avión está propulsado por un ala giratoria llamada rotor ?",
+        "propositions": [
+          "Aerostato",
+          "helicóptero",
+          "Aerodeslizador",
+          "globo aerostático"
+        ],
+        "réponse": "helicóptero",
+        "anecdote": "Su capacidad para despegar y aterrizar en terrenos estrechos y poco preparados lo hace imprescindible para determinadas misiones."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué vehículo de servicio de invierno está destinado a la remoción de nieve en la carretera ?",
+        "propositions": [
+          "Move-nieve",
+          "Quitanieves",
+          "Quitanieves",
+          "Quitanieves"
+        ],
+        "réponse": "Quitanieves",
+        "anecdote": "Este dispositivo, también llamado arado, está equipado con una o más vertederas en la parte delantera, que se utilizan para empujar la nieve hacia un lado."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué sistema de armas móviles consiste en un arma montada en un vehículo blindado ?",
+        "propositions": [
+          "Tanque de asalto",
+          "Diligencia",
+          "Bote",
+          "Tractores"
+        ],
+        "réponse": "Tanque de asalto",
+        "anecdote": "El tanque de hoy, un vehículo blindado todo terreno armado con un cañón, tomó forma durante la Primera Guerra Mundial."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué buque de guerra permite lanzar y recibir aeronaves ?",
+        "propositions": [
+          "Barco torpedero",
+          "Portaaviones",
+          "Destructor",
+          "acorazado"
+        ],
+        "réponse": "Portaaviones",
+        "anecdote": "Estos edificios están dotados de un considerable poder militar cuyas múltiples capacidades los convierten en instrumentos diplomáticos."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué tren autopropulsado de diseño francés alcanza una velocidad de 320 km/h ?",
+        "propositions": [
+          "Tranvía",
+          "Locomotora",
+          "Pequeño tren",
+          "TGV"
+        ],
+        "réponse": "TGV",
+        "anecdote": "Los TGV se fabrican principalmente en Belfort (Alstom) para los coches de motor y en Aytré (Alstom) para los remolques intermedios."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué telesquí accionado por cable funciona sobre rieles inclinados ?",
+        "propositions": [
+          "Teleférico",
+          "Metro",
+          "Aerotren",
+          "hiperbucle"
+        ],
+        "réponse": "Teleférico",
+        "anecdote": "El motor que acciona el cable se encuentra, salvo contadas excepciones, en la estación más alta de la línea."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué aeronave ultraligera está autorizada para despegar y aterrizar en aeródromos ?",
+        "propositions": [
+          "Aerodeslizador",
+          "ultraligero",
+          "Cohete",
+          "helicóptero"
+        ],
+        "réponse": "ultraligero",
+        "anecdote": "Los inicios del ultraligero motorizado se remontan a los inicios de la aviación, con el trabajo pionero de Etienne Dormoy en Dayton."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué motocicleta tiene una tercera rueda lateral y una canasta ?",
+        "propositions": [
+          "Tándem",
+          "solex",
+          "Mariquita",
+          "sidecar"
+        ],
+        "réponse": "sidecar",
+        "anecdote": "Históricamente, el sidecar fue primero un vehículo utilitario para aquellos que no podían pagar un automóvil, ni siquiera uno de segunda mano."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué bote de fondo plano se puede usar para cruzar de orilla a orilla ?",
+        "propositions": [
+          "Lanzador",
+          "bombardero",
+          "Destacado",
+          "Bac"
+        ],
+        "réponse": "Bac",
+        "anecdote": "Los transbordadores se utilizan con frecuencia para transportar personas o vehículos de un lado a otro de un río o lago."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué dispositivo está destinado a la transferencia de cargas en fábricas o almacenes ?",
+        "propositions": [
+          "Carretilla elevadora",
+          "trineo",
+          "Semirremolque",
+          "Carrito"
+        ],
+        "réponse": "Carretilla elevadora",
+        "anecdote": "La carretilla elevadora se utiliza principalmente para transportar productos terminados desde las líneas de producción hasta los lugares de almacenamiento."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué vehículo articulado de carretera turística sigue generalmente una ruta determinada ?",
+        "propositions": [
+          "Pequeño tren",
+          "Autobús",
+          "Tractores",
+          "Autocaravana"
+        ],
+        "réponse": "Pequeño tren",
+        "anecdote": "Se considera como una atracción por derecho propio que ofrece otra vista y, por lo tanto, una utilidad más que un simple medio de transporte."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué medio de transporte utiliza diferentes cables para transportar y remolcar ?",
+        "propositions": [
+          "Teleférico",
+          "Butanier",
+          "Arrastrero",
+          "sidecar"
+        ],
+        "réponse": "Teleférico",
+        "anecdote": "El teleférico es un medio de transporte apreciado por su capacidad para escapar de las limitaciones topográficas del terreno."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué barco de servicio, relativamente pequeño, es sin embargo muy potente y maniobrable ?",
+        "propositions": [
+          "Petrolero",
+          "Carga",
+          "Remolcador",
+          "Arrastrero"
+        ],
+        "réponse": "Remolcador",
+        "anecdote": "También hay edificios más grandes que se utilizan para remolcar plataformas petrolíferas capaces de resistir las inclemencias del tiempo."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué vehículo anfibio, con sustentación aeroestática, avanza por propulsión aérea ?",
+        "propositions": [
+          "ultraligero",
+          "Bac",
+          "Butanier",
+          "Aerodeslizador"
+        ],
+        "réponse": "Aerodeslizador",
+        "anecdote": "Los aerodeslizadores suelen viajar sobre el mar, pero también sobre cualquier superficie terrestre que no presente obstáculos significativos."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué tipo de embarcación de transporte fluvial es adecuada para la plantilla Freycinet ?",
+        "propositions": [
+          "Arrastrero",
+          "Barcaza",
+          "transbordador",
+          "barco de cable"
+        ],
+        "réponse": "Barcaza",
+        "anecdote": "El ancho de vía Freycinet es una norma europea que rige el tamaño de las esclusas de determinados canales, establecida en 1879."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale veicolo ferroviario fornisce la forza motrice per un treno ?",
+        "propositions": [
+          "Tram",
+          "Locomotiva",
+          "Funivia",
+          "Trattore"
+        ],
+        "réponse": "Locomotiva",
+        "anecdote": "Una locomotiva non ha carico utile in sé, la sua funzione principale è quella di trainare un treno e fornire riscaldamento."
+      },
+      {
+        "id": 2,
+        "question": "Quale dispositivo di trasporto verticale assicura il movimento in altezza ?",
+        "propositions": [
+          "Funicolare",
+          "Filobus",
+          "Metropolitana",
+          "Ascensore"
+        ],
+        "réponse": "Ascensore",
+        "anecdote": "Le dimensioni, la costruzione e il controllo in tempo reale durante l'utilizzo degli ascensori consentono un accesso sicuro per le persone."
+      },
+      {
+        "id": 3,
+        "question": "Quale veicolo snello è in grado di muoversi nello spazio vicino ?",
+        "propositions": [
+          "Sidecar",
+          "ultraleggero",
+          "Razzo",
+          "Bac"
+        ],
+        "réponse": "Razzo",
+        "anecdote": "I più grandi razzi costruiti, come Saturn V, possono posizionare fino a 150 tonnellate in orbita bassa."
+      },
+      {
+        "id": 4,
+        "question": "Qual è il principale tipo di veicolo utilizzato nel trasporto pubblico ?",
+        "propositions": [
+          "Fodera",
+          "Carro armato d'assalto",
+          "Autobus",
+          "Sottomarino"
+        ],
+        "réponse": "Autobus",
+        "anecdote": "A Nantes, nel 18261, Étienne Bureau ha immaginato un veicolo per trasportare i dipendenti tra uffici e magazzini."
+      },
+      {
+        "id": 5,
+        "question": "Quale cabinato è progettato per viaggiare su strade innevate ?",
+        "propositions": [
+          "Hovercraft",
+          "Spazzaneve",
+          "Motoslitta",
+          "Funivia"
+        ],
+        "réponse": "Motoslitta",
+        "anecdote": "La motoslitta non deve essere confusa con la motoslitta, che è un veicolo ricreativo con uno o due passeggeri in sella."
+      },
+      {
+        "id": 6,
+        "question": "Quale nave è specializzata nel trasporto di passeggeri in alto mare ?",
+        "propositions": [
+          "Trimarani",
+          "Cambusa",
+          "Monoscafo",
+          "Fodera"
+        ],
+        "réponse": "Fodera",
+        "anecdote": "I primi transatlantici apparvero all'inizio del XIX secolo con l'aumento della migrazione internazionale e del fenomeno coloniale."
+      },
+      {
+        "id": 7,
+        "question": "Quale veicolo privato, guidato da un autista, è destinato al trasporto a pagamento ?",
+        "propositions": [
+          "Taxi",
+          "Elicottero",
+          "Camper",
+          "Autobus"
+        ],
+        "réponse": "Taxi",
+        "anecdote": "Nei paesi meno ricchi, altri tipi di veicoli possono svolgere il ruolo di taxi : risciò, risciò, tassista."
+      },
+      {
+        "id": 8,
+        "question": "Quale nave sommergibile è in grado di muoversi sott'acqua ?",
+        "propositions": [
+          "Sottomarino",
+          "Fodera",
+          "Bateau Mouche",
+          "traghetto"
+        ],
+        "réponse": "Sottomarino",
+        "anecdote": "Si differenzia dalle altre barche e navi e dai batiscafi che si muovono principalmente lungo l'asse verticale."
+      },
+      {
+        "id": 9,
+        "question": "Quali lussuose imbarcazioni da diporto ci sono in gran numero a Saint-Tropez ?",
+        "propositions": [
+          "Bateau Mouche",
+          "Idrovolante",
+          "Yacht",
+          "Portaerei"
+        ],
+        "réponse": "Yacht",
+        "anecdote": "Lo yacht moderno è una nave abitabile e utilizzata per il tempo libero e lo sport, in un'atmosfera di lusso deciso e anche raffinato."
+      },
+      {
+        "id": 10,
+        "question": "Quale autoveicolo è destinato al trasporto su strada di merci ?",
+        "propositions": [
+          "Rimorchiatore",
+          "Trattore",
+          "Camion",
+          "Aerotreno"
+        ],
+        "réponse": "Camion",
+        "anecdote": "Un autocarro si distingue da un veicolo leggero principalmente per il carico per asse e per le dimensioni maggiori."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale parola di uso comune viene utilizzata per riferirsi a un veicolo vivibile ?",
+        "propositions": [
+          "Camper",
+          "Diligenza",
+          "Monociclo",
+          "Carovana"
+        ],
+        "réponse": "Camper",
+        "anecdote": "Con l'espansione della pratica dei camper, sempre più comuni stanno creando parcheggi riservati ai camper."
+      },
+      {
+        "id": 12,
+        "question": "Quale trasporto di massa urbano non cablato corre sui binari della ferrovia ?",
+        "propositions": [
+          "Zeppelin",
+          "Filobus",
+          "Funicolare",
+          "Tram"
+        ],
+        "réponse": "Tram",
+        "anecdote": "Un'interpretazione omonima fa risalire la parola tram a un prestito, nel nome dell'inventore inglese Benjamin Outram."
+      },
+      {
+        "id": 13,
+        "question": "Che tipo di navetta viene utilizzata principalmente per il turismo fluviale a Parigi ?",
+        "propositions": [
+          "Bateau Mouche",
+          "Vaporetto",
+          "traghetto",
+          "Fodera"
+        ],
+        "réponse": "Bateau Mouche",
+        "anecdote": "In Francia, questo nome è un marchio registrato e registrato dal 1950 dalla Compagnie des Bateaux Mouches."
+      },
+      {
+        "id": 14,
+        "question": "Quale aereo ha la capacità di atterrare o decollare sull'acqua ?",
+        "propositions": [
+          "ultraleggero",
+          "Idrovolante",
+          "Deltaplano",
+          "Aliante"
+        ],
+        "réponse": "Idrovolante",
+        "anecdote": "Questo velivolo è disponibile in varie tipologie : idrovolanti, idrovolanti a scafo, navion o velivoli anfibi."
+      },
+      {
+        "id": 15,
+        "question": "Quale veicolo semovente svolge funzioni nei lavori agricoli e rurali ?",
+        "propositions": [
+          "Tram",
+          "Tandem",
+          "Batiscafo",
+          "Trattore"
+        ],
+        "réponse": "Trattore",
+        "anecdote": "Gli agricoltori utilizzano trattori sempre più potenti, che richiedono maggiore aderenza e quindi quattro ruote motrici."
+      },
+      {
+        "id": 16,
+        "question": "Quale aereo è alimentato da un'ala rotante chiamata rotore ?",
+        "propositions": [
+          "Hovercraft",
+          "Aerostato",
+          "mongolfiera",
+          "Elicottero"
+        ],
+        "réponse": "Elicottero",
+        "anecdote": "La sua capacità di decollare e atterrare su terreni stretti e impreparati lo rende indispensabile per determinate missioni."
+      },
+      {
+        "id": 17,
+        "question": "Quale veicolo per il servizio invernale è destinato allo sgombero neve stradale ?",
+        "propositions": [
+          "Spazzaneve",
+          "Spazzaneve",
+          "Move-neve",
+          "Spazzaneve"
+        ],
+        "réponse": "Spazzaneve",
+        "anecdote": "Questo dispositivo, chiamato anche aratro, è dotato di uno o più versoi nella parte anteriore, utilizzati per spingere lateralmente la neve."
+      },
+      {
+        "id": 18,
+        "question": "Quale sistema d'arma mobile è costituito da un cannone montato su un veicolo blindato ?",
+        "propositions": [
+          "Gommone",
+          "Diligenza",
+          "Trattore",
+          "Carro armato d'assalto"
+        ],
+        "réponse": "Carro armato d'assalto",
+        "anecdote": "Il carro armato di oggi, un veicolo corazzato fuoristrada armato di cannone, prese forma durante la prima guerra mondiale."
+      },
+      {
+        "id": 19,
+        "question": "Quale nave da guerra consente di lanciare e ricevere aerei ?",
+        "propositions": [
+          "Corazzata",
+          "Portaerei",
+          "Distruttore",
+          "Torpediniera"
+        ],
+        "réponse": "Portaerei",
+        "anecdote": "Questi edifici sono dotati di un notevole potere militare le cui molteplici capacità li rendono strumenti diplomatici."
+      },
+      {
+        "id": 20,
+        "question": "Quale treno semovente di progettazione francese raggiunge una velocità di 320 km/h ?",
+        "propositions": [
+          "Trenino",
+          "TGV",
+          "Locomotiva",
+          "Tram"
+        ],
+        "réponse": "TGV",
+        "anecdote": "I TGV sono fabbricati in particolare a Belfort (Alstom) per le auto a motore e ad Aytré (Alstom) per i rimorchi intermedi."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale funivia corre su rotaie inclinate ?",
+        "propositions": [
+          "Metropolitana",
+          "ciclo iper",
+          "Aerotreno",
+          "Funicolare"
+        ],
+        "réponse": "Funicolare",
+        "anecdote": "Il motore che aziona la fune si trova, con pochissime eccezioni, nella stazione più alta della linea."
+      },
+      {
+        "id": 22,
+        "question": "Quale ultraleggero è autorizzato a decollare e atterrare dagli aeroporti ?",
+        "propositions": [
+          "Razzo",
+          "Elicottero",
+          "Hovercraft",
+          "ultraleggero"
+        ],
+        "réponse": "ultraleggero",
+        "anecdote": "Gli inizi dell'ultraleggero motorizzato risalgono agli inizi dell'aviazione, con il lavoro pionieristico di Etienne Dormoy a Dayton."
+      },
+      {
+        "id": 23,
+        "question": "Quale moto ha una terza ruota laterale e un cestino ?",
+        "propositions": [
+          "Tandem",
+          "Coccinella",
+          "Sidecar",
+          "solex"
+        ],
+        "réponse": "Sidecar",
+        "anecdote": "Storicamente il sidecar è stato prima un utilitario per chi non poteva permettersi un'auto, anche di seconda mano."
+      },
+      {
+        "id": 24,
+        "question": "Quale barca a fondo piatto può essere utilizzata per attraversare da una riva all'altra ?",
+        "propositions": [
+          "Lanciatore",
+          "Bac",
+          "Bombardiere",
+          "In primo piano"
+        ],
+        "réponse": "Bac",
+        "anecdote": "I traghetti sono spesso utilizzati per trasportare persone o veicoli da una sponda all'altra di un fiume o di un lago."
+      },
+      {
+        "id": 25,
+        "question": "Quale dispositivo è destinato al trasferimento di carichi in fabbriche o magazzini ?",
+        "propositions": [
+          "Carrello",
+          "Slitta",
+          "Semirimorchio",
+          "Carrello elevatore"
+        ],
+        "réponse": "Carrello elevatore",
+        "anecdote": "Il carrello elevatore viene utilizzato principalmente per trasportare i prodotti finiti dalle linee di produzione ai luoghi di stoccaggio."
+      },
+      {
+        "id": 26,
+        "question": "Quale autoarticolato stradale turistico segue generalmente un determinato percorso ?",
+        "propositions": [
+          "Camper",
+          "Trenino",
+          "Autobus",
+          "Trattore"
+        ],
+        "réponse": "Trenino",
+        "anecdote": "È considerato un'attrazione a sé stante che offre un'altra visione, e quindi un'utilità diversa da un semplice mezzo di trasporto."
+      },
+      {
+        "id": 27,
+        "question": "Quale mezzo di trasporto utilizza cavi diversi per il trasporto e il traino ?",
+        "propositions": [
+          "Sidecar",
+          "Funivia",
+          "Peschereccio",
+          "Butanier"
+        ],
+        "réponse": "Funivia",
+        "anecdote": "La funivia è un mezzo di trasporto apprezzato per la sua capacità di sfuggire ai vincoli topografici del terreno."
+      },
+      {
+        "id": 28,
+        "question": "Quale barca di servizio, relativamente piccola, è tuttavia molto potente e manovrabile ?",
+        "propositions": [
+          "Rimorchiatore",
+          "Petroliera",
+          "Carico",
+          "Peschereccio"
+        ],
+        "réponse": "Rimorchiatore",
+        "anecdote": "Ci sono anche edifici più grandi utilizzati per il traino di piattaforme petrolifere in grado di resistere alle intemperie."
+      },
+      {
+        "id": 29,
+        "question": "Quale veicolo anfibio, dotato di portanza aerostatica, avanza a propulsione aerea ?",
+        "propositions": [
+          "ultraleggero",
+          "Bac",
+          "Butanier",
+          "Hovercraft"
+        ],
+        "réponse": "Hovercraft",
+        "anecdote": "Gli hovercraft viaggiano spesso sul mare, ma anche su qualsiasi superficie terrestre che non presenti ostacoli significativi."
+      },
+      {
+        "id": 30,
+        "question": "Che tipo di nave da trasporto fluviale è adatta per il jig Freycinet ?",
+        "propositions": [
+          "Chiatta",
+          "traghetto",
+          "Peschereccio",
+          "Nave via cavo"
+        ],
+        "réponse": "Chiatta",
+        "anecdote": "Lo scartamento Freycinet è una norma europea che disciplina le dimensioni delle chiuse di alcuni canali, istituita nel 1879."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk spoorvoertuig zorgt voor de aandrijving van een trein ?",
+        "propositions": [
+          "Trekker",
+          "Tram",
+          "Kabelbaan",
+          "Locomotief"
+        ],
+        "réponse": "Locomotief",
+        "anecdote": "Een locomotief heeft zelf geen lading, de belangrijkste functie is het slepen van een trein en het leveren van verwarming."
+      },
+      {
+        "id": 2,
+        "question": "Welk verticaal transportmiddel zorgt voor de beweging in de hoogte ?",
+        "propositions": [
+          "Kabelbaan",
+          "Lift",
+          "Trolleybus",
+          "metro"
+        ],
+        "réponse": "Lift",
+        "anecdote": "De afmetingen, constructie en real-time controle tijdens het gebruik van de liften zorgen voor een veilige toegang voor mensen."
+      },
+      {
+        "id": 3,
+        "question": "Welk slank voertuig kan zich in de nabije ruimte verplaatsen ?",
+        "propositions": [
+          "Zijspan",
+          "microlicht",
+          "Raket",
+          "Bac"
+        ],
+        "réponse": "Raket",
+        "anecdote": "De grootste gebouwde raketten, zoals Saturn V, kunnen tot 150 ton in een lage baan om de aarde brengen."
+      },
+      {
+        "id": 4,
+        "question": "Wat is het belangrijkste type voertuig dat in het openbaar vervoer wordt gebruikt ?",
+        "propositions": [
+          "Bu",
+          "Voering",
+          "Aanvalstank",
+          "Onderzeeër"
+        ],
+        "réponse": "Bu",
+        "anecdote": "In Nantes bedacht Étienne Bureau in 18261 een voertuig om werknemers tussen kantoren en magazijnen te vervoeren."
+      },
+      {
+        "id": 5,
+        "question": "Welk cabinevoertuig is ontworpen om op besneeuwde wegen te rijden ?",
+        "propositions": [
+          "Sneeuwscooter",
+          "Sneeuwschuiver",
+          "Kabelbaan",
+          "Hovercraft"
+        ],
+        "réponse": "Sneeuwscooter",
+        "anecdote": "De sneeuwscooter moet niet worden verward met de sneeuwscooter, een recreatief voertuig met een of twee passagiers op een zadel."
+      },
+      {
+        "id": 6,
+        "question": "Welk schip is gespecialiseerd in het vervoeren van passagiers op volle zee ?",
+        "propositions": [
+          "Kombuis",
+          "Monohull",
+          "Voering",
+          "Trimarans"
+        ],
+        "réponse": "Voering",
+        "anecdote": "De eerste lijnschepen verschenen aan het begin van de 19e eeuw met de opkomst van internationale migratie en het koloniale fenomeen."
+      },
+      {
+        "id": 7,
+        "question": "Welk particulier voertuig, bestuurd door een chauffeur, is bestemd voor betaald vervoer ?",
+        "propositions": [
+          "Helikopter",
+          "taxiën",
+          "Bu",
+          "Camper"
+        ],
+        "réponse": "taxiën",
+        "anecdote": "In minder welvarende landen kunnen andere soorten voertuigen de rol van taxi op zich nemen : riksja, riksja, taxichauffeur."
+      },
+      {
+        "id": 8,
+        "question": "Welk onderwaterschip kan onder water bewegen ?",
+        "propositions": [
+          "Voering",
+          "Bateau-mouche",
+          "veerboot",
+          "Onderzeeër"
+        ],
+        "réponse": "Onderzeeër",
+        "anecdote": "Het verschilt van andere boten en schepen, en van bathyscaphes die voornamelijk langs de verticale as bewegen."
+      },
+      {
+        "id": 9,
+        "question": "Welke luxe pleziervaartuigen liggen er in groten getale in Saint-Tropez ?",
+        "propositions": [
+          "Jacht",
+          "Vliegdekschepen",
+          "Watervliegtuig",
+          "Bateau-mouche"
+        ],
+        "réponse": "Jacht",
+        "anecdote": "Het moderne jacht is een schip dat bewoonbaar is en wordt gebruikt voor vrijetijds- en sportdoeleinden, in een sfeer van assertieve en zelfs verfijnde luxe."
+      },
+      {
+        "id": 10,
+        "question": "Welk motorrijtuig is bestemd voor het vervoer van goederen over de weg ?",
+        "propositions": [
+          "Vliegtuigtrein",
+          "Vrachtwagen",
+          "Sleepboot",
+          "Trekker"
+        ],
+        "réponse": "Vrachtwagen",
+        "anecdote": "Een vrachtwagen onderscheidt zich van een licht voertuig vooral door een aslast en grotere afmetingen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk algemeen gebruikswoord wordt gebruikt om naar een leefbaar voertuig te verwijzen ?",
+        "propositions": [
+          "Caravan",
+          "Camper",
+          "ijver",
+          "Eenwieler"
+        ],
+        "réponse": "Camper",
+        "anecdote": "Naarmate de praktijk van campers zich uitbreidt, creëren steeds meer gemeenten parkeerplaatsen gereserveerd voor campers."
+      },
+      {
+        "id": 12,
+        "question": "Welk onbedraad stedelijk openbaar vervoer rijdt op spoorrails ?",
+        "propositions": [
+          "Tram",
+          "Kabelbaan",
+          "Zeppelin",
+          "Trolleybus"
+        ],
+        "réponse": "Tram",
+        "anecdote": "Een gelijknamige interpretatie traceert het woord tram terug naar een lening, in de naam van de Engelse uitvinder Benjamin Outram."
+      },
+      {
+        "id": 13,
+        "question": "Welk type shuttle wordt voornamelijk gebruikt voor riviertoerisme in Parijs ?",
+        "propositions": [
+          "Voering",
+          "Waterbus",
+          "Bateau-mouche",
+          "veerboot"
+        ],
+        "réponse": "Bateau-mouche",
+        "anecdote": "In Frankrijk is deze naam een geregistreerd handelsmerk en sinds 1950 geregistreerd door de Compagnie des Bateaux Mouches."
+      },
+      {
+        "id": 14,
+        "question": "Welk vliegtuig kan op het water landen of opstijgen ?",
+        "propositions": [
+          "Watervliegtuig",
+          "Deltavlieger",
+          "microlicht",
+          "Zweefvliegtuig"
+        ],
+        "réponse": "Watervliegtuig",
+        "anecdote": "Dit vliegtuig is verkrijgbaar in verschillende typen : watervliegtuig, casco watervliegtuig, navion of amfibievliegtuig."
+      },
+      {
+        "id": 15,
+        "question": "Welk zelfrijdend voertuig vervult functies in de landbouw en op het platteland ?",
+        "propositions": [
+          "Tram",
+          "Trekker",
+          "Bathyscaaf",
+          "Tandem"
+        ],
+        "réponse": "Trekker",
+        "anecdote": "Boeren gebruiken steeds krachtigere tractoren, die meer grip en dus vierwielaandrijving vereisen."
+      },
+      {
+        "id": 16,
+        "question": "Welk vliegtuig wordt aangedreven door een roterende vleugel die een rotor wordt genoemd ?",
+        "propositions": [
+          "luchtballon",
+          "Hovercraft",
+          "Helikopter",
+          "Aerostaat"
+        ],
+        "réponse": "Helikopter",
+        "anecdote": "Het vermogen om op te stijgen en te landen op smal en onvoorbereid terrein maakt het essentieel voor bepaalde missies."
+      },
+      {
+        "id": 17,
+        "question": "Welk winterdienstvoertuig is bedoeld voor het ruimen van sneeuw op de weg ?",
+        "propositions": [
+          "Sneeuwschuiver",
+          "Verplaats-sneeuw",
+          "Sneeuwschuiver",
+          "Sneeuwschuiver"
+        ],
+        "réponse": "Sneeuwschuiver",
+        "anecdote": "Dit apparaat, ook wel ploeg genoemd, is voorzien van één of meerdere risters aan de voorzijde, die gebruikt worden om de sneeuw opzij te duwen."
+      },
+      {
+        "id": 18,
+        "question": "Welk mobiel wapensysteem bestaat uit een kanon gemonteerd op een gepantserd voertuig ?",
+        "propositions": [
+          "Bijboot",
+          "Trekker",
+          "Aanvalstank",
+          "ijver"
+        ],
+        "réponse": "Aanvalstank",
+        "anecdote": "De tank van vandaag, een pantservoertuig voor alle terreinen bewapend met een kanon, kreeg vorm tijdens de Eerste Wereldoorlog."
+      },
+      {
+        "id": 19,
+        "question": "Met welk oorlogsschip kunnen vliegtuigen worden gelanceerd en ontvangen ?",
+        "propositions": [
+          "Slagschip",
+          "Torpedoboot",
+          "Vernietiger",
+          "Vliegdekschepen"
+        ],
+        "réponse": "Vliegdekschepen",
+        "anecdote": "Deze gebouwen zijn begiftigd met een aanzienlijke militaire macht en de vele mogelijkheden maken ze tot diplomatieke instrumenten."
+      },
+      {
+        "id": 20,
+        "question": "Welke zelfrijdende trein van Frans ontwerp haalt een snelheid van 320 km/u ?",
+        "propositions": [
+          "Locomotief",
+          "Treintje",
+          "Tram",
+          "TGV"
+        ],
+        "réponse": "TGV",
+        "anecdote": "De TGV's worden met name geproduceerd in Belfort (Alstom) voor de motorwagens en in Aytré (Alstom) voor de tussenliggende aanhangwagens."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke kabellift loopt op schuine rails ?",
+        "propositions": [
+          "Vliegtuigtrein",
+          "hyperlus",
+          "metro",
+          "Kabelbaan"
+        ],
+        "réponse": "Kabelbaan",
+        "anecdote": "De motor die de kabel aandrijft, bevindt zich, op enkele uitzonderingen na, in het hoogste station van de lijn."
+      },
+      {
+        "id": 22,
+        "question": "Welke ultralichte vliegtuigen mogen van luchtvaartterreinen opstijgen en landen ?",
+        "propositions": [
+          "Hovercraft",
+          "Raket",
+          "Helikopter",
+          "microlicht"
+        ],
+        "réponse": "microlicht",
+        "anecdote": "Het begin van de gemotoriseerde ultralight gaat terug naar het begin van de luchtvaart, met het pionierswerk van Etienne Dormoy in Dayton."
+      },
+      {
+        "id": 23,
+        "question": "Welke motorfiets heeft een derde zijwiel en een mand ?",
+        "propositions": [
+          "Lieveheersbeestje",
+          "Tandem",
+          "Zijspan",
+          "solex"
+        ],
+        "réponse": "Zijspan",
+        "anecdote": "Historisch gezien was het zijspan eerst een bedrijfswagen voor degenen die zich geen auto konden veroorloven, zelfs geen tweedehands."
+      },
+      {
+        "id": 24,
+        "question": "Welke platbodem kan gebruikt worden om van de ene oever naar de andere over te steken ?",
+        "propositions": [
+          "Opstartprogramma",
+          "Bombardier",
+          "Bac",
+          "Uitgelicht"
+        ],
+        "réponse": "Bac",
+        "anecdote": "Veerboten worden vaak gebruikt om mensen of voertuigen van de ene kant van een rivier of meer naar de andere kant te vervoeren."
+      },
+      {
+        "id": 25,
+        "question": "Welk apparaat is bedoeld voor het overbrengen van lasten in fabrieken of magazijnen ?",
+        "propositions": [
+          "Oplegger",
+          "Heftruck",
+          "Slee",
+          "Winkelwagen"
+        ],
+        "réponse": "Heftruck",
+        "anecdote": "De heftruck wordt voornamelijk gebruikt om afgewerkte producten van productielijnen naar opslaglocaties te vervoeren."
+      },
+      {
+        "id": 26,
+        "question": "Welk geleed voertuig voor de toeristische weg volgt over het algemeen een bepaalde route ?",
+        "propositions": [
+          "Treintje",
+          "Trekker",
+          "Camper",
+          "Bu"
+        ],
+        "réponse": "Treintje",
+        "anecdote": "Het wordt beschouwd als een attractie op zich die een ander uitzicht biedt, en dus een ander nut dan een eenvoudig vervoermiddel."
+      },
+      {
+        "id": 27,
+        "question": "Welk transportmiddel gebruikt verschillende kabels voor dragen en slepen ?",
+        "propositions": [
+          "Butanier",
+          "Zijspan",
+          "Kabelbaan",
+          "Trawler"
+        ],
+        "réponse": "Kabelbaan",
+        "anecdote": "De kabelbaan is een vervoermiddel dat wordt gewaardeerd om zijn vermogen om te ontsnappen aan de topografische beperkingen van het terrein."
+      },
+      {
+        "id": 28,
+        "question": "Welke dienstboot, relatief klein, is toch zeer krachtig en zeer wendbaar ?",
+        "propositions": [
+          "Trawler",
+          "Lading",
+          "Olietanker",
+          "Sleepboot"
+        ],
+        "réponse": "Sleepboot",
+        "anecdote": "Er zijn ook grotere gebouwen die worden gebruikt voor het slepen van booreilanden die bestand zijn tegen zwaar weer."
+      },
+      {
+        "id": 29,
+        "question": "Welk amfibievoertuig, met aerostatische lift, komt vooruit door luchtvoortstuwing ?",
+        "propositions": [
+          "Bac",
+          "Hovercraft",
+          "microlicht",
+          "Butanier"
+        ],
+        "réponse": "Hovercraft",
+        "anecdote": "Hovercrafts reizen vaak over de zee, maar ook over elk landoppervlak dat geen noemenswaardige obstakels vormt."
+      },
+      {
+        "id": 30,
+        "question": "Welk type riviertransportschip is geschikt voor de Freycinet jig ?",
+        "propositions": [
+          "Kabelschip",
+          "Binnenvaart",
+          "veerboot",
+          "Trawler"
+        ],
+        "réponse": "Binnenvaart",
+        "anecdote": "De Freycinet-meter is een Europese norm voor de grootte van de sluizen van bepaalde kanalen, opgesteld in 1879."
+      }
+    ]
+    }
+  }
+}

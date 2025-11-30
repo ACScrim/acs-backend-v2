@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-12-07",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Géographie",
+      "nom": "Nord-Pas-de-Calais",
+      "slogan": "La parole est aux ch'timis"
+    },
+    "en": {
+      "catégorie": "Geography",
+      "nom": "Nord-Pas-de-Calais",
+      "slogan": "The floor is up to the ch'timis"
+    },
+    "es": {
+      "catégorie": "Geografía",
+      "nom": "Norte-Paso de Calais",
+      "slogan": "La palabra es hasta los ch'timis"
+    },
+    "it": {
+      "catégorie": "Geografia",
+      "nom": "Nord-Pas-de-Calais",
+      "slogan": "La parola spetta ai ch'timis"
+    },
+    "de": {
+      "catégorie": "Erdkunde",
+      "nom": "Nord-Pas-de-Calais",
+      "slogan": "Der Boden reicht bis zu den Ch'timis"
+    },
+    "nl": {
+      "catégorie": "Aardrijkskunde",
+      "nom": "Noord-Pas-de-Calais",
+      "slogan": "Het woord is tot aan de ch'timis"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "La chicorée s'est répandue dans le Nord suite à l'absence de quelle matière première ?",
+        "propositions": [
+          "Cacao",
+          "Orge",
+          "Café",
+          "Thé"
+        ],
+        "réponse": "Café",
+        "anecdote": "C'est la racine de la chicorée industrielle, tronçonnée en cossettes ou râpée, puis séchée, torréfiée et moulue, qui est utilisée."
+      },
+      {
+        "id": 2,
+        "question": "Quel fleuve passant à Tournai traverse également la ville de Valenciennes ?",
+        "propositions": [
+          "Scarpe",
+          "Deûle",
+          "Yser",
+          "Escaut"
+        ],
+        "réponse": "Escaut",
+        "anecdote": "L'Escaut est un fleuve de 355 km de long qui traverse trois pays (France, Belgique et Pays-Bas) avant de se jeter en mer du Nord."
+      },
+      {
+        "id": 3,
+        "question": "Quelle boisson est aux gens du Nord ce que le cidre est aux Bretons ?",
+        "propositions": [
+          "Bière",
+          "Kirsch",
+          "Armagnac",
+          "Triple sec"
+        ],
+        "réponse": "Bière",
+        "anecdote": "L'essentiel de la production est assurée en Alsace, en Lorraine, dans le Nord-Pas-de-Calais, en Bretagne et en Bourgogne."
+      },
+      {
+        "id": 4,
+        "question": "Durant quel mois des cyclistes quittent-ils Paris pour rejoindre Roubaix ?",
+        "propositions": [
+          "Août",
+          "Juin",
+          "Septembre",
+          "Juillet"
+        ],
+        "réponse": "Juin",
+        "anecdote": "Paris-Roubaix est une course cycliste créée en 1896 par Théodore Vienne après l'ouverture du nouveau vélodrome de Roubaix."
+      },
+      {
+        "id": 5,
+        "question": "Que savourez-vous si vous demandez une blonde dans le Nord ?",
+        "propositions": [
+          "Un digestif",
+          "Un dessert",
+          "Une bière",
+          "Un cocktail"
+        ],
+        "réponse": "Une bière",
+        "anecdote": "Il est souvent fait confusion entre le terme bière blonde qui désigne la couleur de la bière et les types de bières à proprement parler."
+      },
+      {
+        "id": 6,
+        "question": "Dans quelle ville du Nord peut-on admirer le clair de lune en passant ?",
+        "propositions": [
+          "Béthune",
+          "Douai",
+          "Cambrai",
+          "Maubeuge"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "Taxi de métier, Pierre Perrin est connu pour « Un clair de lune à Maubeuge » (1962), chanson qui resta neuf semaines au hit-parade."
+      },
+      {
+        "id": 7,
+        "question": "De combien de mètres le cap Gris-Nez surplombe-t-il l'océan ?",
+        "propositions": [
+          "55 mètres",
+          "45 mètres",
+          "35 mètres",
+          "25 mètres"
+        ],
+        "réponse": "45 mètres",
+        "anecdote": "Situé à environ 15 km au nord de Boulogne-sur-Mer, il s'agit du point du littoral français le plus proche de l'Angleterre (30,3 km)."
+      },
+      {
+        "id": 8,
+        "question": "Quel architecte fit bâtir la citadelle de Lille et les fortifications de Dunkerque ?",
+        "propositions": [
+          "Vauban",
+          "Beausire",
+          "Ducret",
+          "Groignard"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "Baptisée par Vauban lui-même la reine des citadelles, la citadelle de Lille est un ouvrage militaire remarquable par ses dimensions."
+      },
+      {
+        "id": 9,
+        "question": "Dans quelle ville du Nord l'industrie du cristal a-t-elle connu un remarquable essor ?",
+        "propositions": [
+          "Saint-Omer",
+          "Arques",
+          "Houlle",
+          "Cléty"
+        ],
+        "réponse": "Arques",
+        "anecdote": "La commune d'Arques est également célèbre pour son ancien ascenseur à bateaux des Fontinettes, aujourd'hui unique en France."
+      },
+      {
+        "id": 10,
+        "question": "Quel sucre roux non raffiné est une spécialité belge et nordiste ?",
+        "propositions": [
+          "Cosumar",
+          "Panela",
+          "Wasanbon",
+          "Cassonade"
+        ],
+        "réponse": "Cassonade",
+        "anecdote": "On l'utilise principalement sur des crêpes, dans du fromage blanc, du riz au lait, des pommes au four ou simplement sur du pain."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "À Tourcoing, quel édifice de 1905 est classé à l'inventaire des monuments historiques ?",
+        "propositions": [
+          "Hôtel de Ville",
+          "Gare",
+          "Casino",
+          "Beffroi"
+        ],
+        "réponse": "Gare",
+        "anecdote": "La gare de Tourcoing servit de décor pour la scène d'ouverture du film « Le Corps de mon ennemi » (1976), réalisé par Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "En quelle année l'Eurotunnel a-t-il été ouvert à Coquelles au grand public ?",
+        "propositions": [
+          "1994",
+          "1998",
+          "1996",
+          "2000"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink transporte chaque année 20 millions de passagers, 1,6 million de camions et 2 milliards de tonnes de marchandises."
+      },
+      {
+        "id": 13,
+        "question": "Quel parc d'attractions est installé dans la forêt de Merlimont ?",
+        "propositions": [
+          "Bagatelle",
+          "Scénoparc",
+          "Aquanor",
+          "Zygofolis"
+        ],
+        "réponse": "Bagatelle",
+        "anecdote": "Comprenant une quarantaine d'attractions, des jeux payants et des spectacles, c'est le plus ancien parc d'attractions français en activité."
+      },
+      {
+        "id": 14,
+        "question": "Quel motif floral retrouve-t-on sur le blason de la ville de Lille ?",
+        "propositions": [
+          "Croix",
+          "Lion",
+          "Aigle",
+          "Fleur de Lys"
+        ],
+        "réponse": "Fleur de Lys",
+        "anecdote": "Présente dans le monde romain byzantin, la fleur de lys est l'une des quatre figures les plus populaires avec les croix, l'aigle et le lion."
+      },
+      {
+        "id": 15,
+        "question": "Comment appelle-t-on la terrine de lapin, veau, porc et poulet de la région ?",
+        "propositions": [
+          "Touffaye",
+          "Pudding au pain",
+          "Potjevlesch",
+          "Pintxos"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "Ce plat est né dans le Westhoek au Moyen Âge, mais certains situent plus précisément son origine à la région dunkerquoise."
+      },
+      {
+        "id": 16,
+        "question": "Quelle plante vivace et semi-aquatique est abondamment cultivée dans la région ?",
+        "propositions": [
+          "Épinard",
+          "Cresson",
+          "Roquette",
+          "Cerfeuil"
+        ],
+        "réponse": "Cresson",
+        "anecdote": "Le cresson présente un taux record de fer et de calcium ainsi que beaucoup de vitamine C, ce qui en fait un aliment de choix."
+      },
+      {
+        "id": 17,
+        "question": "Quelle fut la dernière grande ville de France à être libérée le 9 mai 1945 ?",
+        "propositions": [
+          "Calais",
+          "Dunkerque",
+          "Tourcoing",
+          "Roubaix"
+        ],
+        "réponse": "Dunkerque",
+        "anecdote": "La ville de Dunkerque a donné son nom à une des chansons du groupe Indochine, figurant dans l'album « Paradize » sorti en 2002."
+      },
+      {
+        "id": 18,
+        "question": "La décoction de quelle racine a des effets bénéfiques sur les reins et l'estomac ?",
+        "propositions": [
+          "Chicorée",
+          "Artichaut",
+          "Bardane",
+          "Chardon"
+        ],
+        "réponse": "Chicorée",
+        "anecdote": "La chicorée, sous forme de boisson combinée ou non au café, est très populaire en Belgique, ainsi que dans le Nord-Pas-de-Calais."
+      },
+      {
+        "id": 19,
+        "question": "Quelle variété de poisson peut-on venir caresser dans le bassin tactile de Nausicaa ?",
+        "propositions": [
+          "Raies",
+          "Tortues",
+          "Saumons",
+          "Requins"
+        ],
+        "réponse": "Raies",
+        "anecdote": "Avec plus de 600 000 visiteurs par an, il s'agit du deuxième site touristique le plus fréquenté au nord de Paris après le Parc Astérix."
+      },
+      {
+        "id": 20,
+        "question": "Dans quelle ville de France se trouve l'un des deux terminaux de l'Eurotunnel ?",
+        "propositions": [
+          "Marck",
+          "Boursin",
+          "Coulogne",
+          "Coquelles"
+        ],
+        "réponse": "Coquelles",
+        "anecdote": "Coquelles est située à proximité du port de Calais, premier port français pour le trafic de voyageurs entre la France et l'Angleterre."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Pour quel géant de 6,25 mètres la ville de Cassel est-elle désormais célèbre ?",
+        "propositions": [
+          "Reuze Papa",
+          "Belle Hélène",
+          "T'chio Blaise",
+          "Binbin"
+        ],
+        "réponse": "Reuze Papa",
+        "anecdote": "Le carnaval du lundi de Pâques est l'occasion d'une grande fête où Reuze Papa et Reuze Maman rentrent au bercail."
+      },
+      {
+        "id": 22,
+        "question": "Quel animal est représenté sur la girouette du beffroi de Bergues ?",
+        "propositions": [
+          "Coq",
+          "Hirondelle",
+          "Ours",
+          "Lion"
+        ],
+        "réponse": "Lion",
+        "anecdote": "Le beffroi de Bergues a été endommagé par un incendie en 1940 et détruit par dynamitage par les troupes allemandes en 1944."
+      },
+      {
+        "id": 23,
+        "question": "Quel biscuit proche du Spéculoos est fabriqué à Aire-sur-la-Lys ?",
+        "propositions": [
+          "Kouign amann",
+          "Gimblette",
+          "Mastelle",
+          "Snickerdoodles"
+        ],
+        "réponse": "Mastelle",
+        "anecdote": "Ce petit gâteau sec à base d'amande en poudre, de cassonade et de fleurs d'oranger a été créé à la fin du XVIIIe siècle par Cyrille Faes."
+      },
+      {
+        "id": 24,
+        "question": "Quel fut le premier nom de scène de Line Renaud, née à Armentières ?",
+        "propositions": [
+          "Josette Daydé",
+          "Jane Chacun",
+          "Jacqueline Ray",
+          "Jeanne Aubert"
+        ],
+        "réponse": "Jacqueline Ray",
+        "anecdote": "La Line Renaud Road de Las vegas se trouve non loin des rues portant les noms de ses amis Frank Sinatra et Dean Martin."
+      },
+      {
+        "id": 25,
+        "question": "Capitale mondiale de la chicorée, quelle ville propose un musée qui y est dédié ?",
+        "propositions": [
+          "Douai",
+          "Bouvignies",
+          "Lécluse",
+          "Orchies"
+        ],
+        "réponse": "Orchies",
+        "anecdote": "Orchies est le siège de la Société Leroux. Cette entreprise est Leader mondial pour la production et la transformation de la chicorée."
+      },
+      {
+        "id": 26,
+        "question": "De quel genre musical Didier Lockwood, natif de Calais, est-il un spécialiste ?",
+        "propositions": [
+          "Country",
+          "Jazz",
+          "Electro",
+          "Reggae"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "Il est le co-fondateur du Festival des Puces, un festival de jazz manouche qui se tient chaque année aux Puces de Saint-Ouen."
+      },
+      {
+        "id": 27,
+        "question": "Quel célèbre boxeur, natif de Hénin-Beaumont, a été surnommé le « démolisseur » ?",
+        "propositions": [
+          "Alphonse Halimi",
+          "Charles Humez",
+          "Steve Hérélius",
+          "Maurice Holtzer"
+        ],
+        "réponse": "Charles Humez",
+        "anecdote": "Il a dû arrêter sa carrière après une blessure lors d'une défense de son titre de champion d'Europe à Berlin le 4 octobre 1958."
+      },
+      {
+        "id": 28,
+        "question": "Quel ancien port du Pas-de-Calais Dante évoque-t-il dans « Divine Comédie » ?",
+        "propositions": [
+          "Brest",
+          "Calais",
+          "Wissant",
+          "Boulogne"
+        ],
+        "réponse": "Wissant",
+        "anecdote": "La « Commedia » est l'oeuvre de Dante la plus célèbre et l'un des plus importants témoignages de la civilisation médiévale."
+      },
+      {
+        "id": 29,
+        "question": "Quel Roubaisien fut vainqueur du Paris-Roubaix en 1912 et 1914 ?",
+        "propositions": [
+          "Jean Alavoine",
+          "Henri Pélissier",
+          "Charles Crupelandt",
+          "Achille Souchard"
+        ],
+        "réponse": "Charles Crupelandt",
+        "anecdote": "Mort en 1955, Charles Crupelandt était surnommé le Taureau du Nord pour son gabarit hors norme et surtout ses sprints."
+      },
+      {
+        "id": 30,
+        "question": "Quelle est la case la plus chère dans le « Monopoly » du Nord-Pas-de-Calais ?",
+        "propositions": [
+          "Dunkerque",
+          "Tourcoing",
+          "Roubaix",
+          "Lille"
+        ],
+        "réponse": "Lille",
+        "anecdote": "Le Monopoly est un jeu de société sur parcours dont le but est, à travers l'achat et la vente de propriétés, de ruiner ses adversaires."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chicory spread in the North due to the lack of what raw material ?",
+        "propositions": [
+          "Tea",
+          "Cocoa",
+          "Barley",
+          "Coffee"
+        ],
+        "réponse": "Coffee",
+        "anecdote": "It is the root of industrial chicory, cut into cossettes or grated, then dried, roasted and ground, which is used."
+      },
+      {
+        "id": 2,
+        "question": "Which river passing through Tournai also crosses the city of Valenciennes ?",
+        "propositions": [
+          "Deule",
+          "Scheldt",
+          "yzer",
+          "scarf"
+        ],
+        "réponse": "Scheldt",
+        "anecdote": "The Scheldt is a 355 km long river that crosses three countries (France, Belgium and the Netherlands) before flowing into the North Sea."
+      },
+      {
+        "id": 3,
+        "question": "What drink is to the people of the North what cider is to the Bretons ?",
+        "propositions": [
+          "kirsch",
+          "Triple sec",
+          "Armagnac",
+          "Beer"
+        ],
+        "réponse": "Beer",
+        "anecdote": "Most of the production is carried out in Alsace, Lorraine, Nord-Pas-de-Calais, Brittany and Burgundy."
+      },
+      {
+        "id": 4,
+        "question": "During which month do cyclists leave Paris to reach Roubaix ?",
+        "propositions": [
+          "September",
+          "July",
+          "June",
+          "August"
+        ],
+        "réponse": "June",
+        "anecdote": "Paris-Roubaix is a cycling race created in 1896 by Théodore Vienne after the opening of the new Roubaix velodrome."
+      },
+      {
+        "id": 5,
+        "question": "What do you savor if you ask for a blonde in the North ?",
+        "propositions": [
+          "A dessert",
+          "A digestive",
+          "A cocktail",
+          "A beer"
+        ],
+        "réponse": "A beer",
+        "anecdote": "It is often confused between the term blond beer which designates the color of the beer and the types of beer strictly speaking."
+      },
+      {
+        "id": 6,
+        "question": "In which city in the North can you admire the moonlight while passing ?",
+        "propositions": [
+          "Bethune",
+          "Cambria",
+          "Maubeuge",
+          "duai"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "A taxi driver, Pierre Perrin is known for « Un clair de lune à Maubeuge » (1962), a song which remained on the charts for nine weeks."
+      },
+      {
+        "id": 7,
+        "question": "How many meters does Cap Gris-Nez rise above the ocean ?",
+        "propositions": [
+          "25 meters",
+          "35 meters",
+          "55 meters",
+          "45 meters"
+        ],
+        "réponse": "45 meters",
+        "anecdote": "Located about 15 km north of Boulogne-sur-Mer, it is the closest point on the French coast to England (30.3 km)."
+      },
+      {
+        "id": 8,
+        "question": "Which architect built the citadel of Lille and the fortifications of Dunkirk ?",
+        "propositions": [
+          "growler",
+          "Vauban",
+          "Beausire",
+          "ducret"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "Baptized by Vauban himself the queen of citadels, the citadel of Lille is a military structure remarkable for its dimensions."
+      },
+      {
+        "id": 9,
+        "question": "In which city in the North has the crystal industry experienced a remarkable boom ?",
+        "propositions": [
+          "houle",
+          "Saint Omer",
+          "arches",
+          "Clety"
+        ],
+        "réponse": "arches",
+        "anecdote": "The town of Arques is also famous for its old Fontinettes boat lift, now unique in France."
+      },
+      {
+        "id": 10,
+        "question": "Which unrefined brown sugar is a Belgian and northern specialty ?",
+        "propositions": [
+          "panela",
+          "cosumar",
+          "brown sugar",
+          "wasabon"
+        ],
+        "réponse": "brown sugar",
+        "anecdote": "It is mainly used on pancakes, in cottage cheese, rice pudding, baked apples or simply on bread."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In Tourcoing, which 1905 building is listed in the inventory of historical monuments ?",
+        "propositions": [
+          "Casinos",
+          "City Hall",
+          "Belfry",
+          "Station"
+        ],
+        "réponse": "Station",
+        "anecdote": "Tourcoing station served as the setting for the opening scene of the film « Le Corps de mon ennemi » (1976), directed by Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "In which year was the Eurotunnel opened in Coquelles to the general public ?",
+        "propositions": [
+          "1996",
+          "1998",
+          "2000",
+          "1994"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink transports 20 million passengers, 1.6 million trucks and 2 billion tons of goods every year."
+      },
+      {
+        "id": 13,
+        "question": "Which amusement park is located in the forest of Merlimont ?",
+        "propositions": [
+          "Aquanor",
+          "Zygofolis",
+          "Scenoparc",
+          "Trifle"
+        ],
+        "réponse": "Trifle",
+        "anecdote": "Comprising around forty attractions, paying games and shows, it is the oldest active amusement park in France."
+      },
+      {
+        "id": 14,
+        "question": "What floral motif is found on the coat of arms of the city of Lille ?",
+        "propositions": [
+          "Eagle",
+          "Lily flower",
+          "Leo",
+          "Cross"
+        ],
+        "réponse": "Lily flower",
+        "anecdote": "Present in the Byzantine Roman world, the fleur-de-lis is one of the four most popular figures along with the crosses, the eagle and the lion."
+      },
+      {
+        "id": 15,
+        "question": "What is the local rabbit, veal, pork and chicken terrine called ?",
+        "propositions": [
+          "Pintxos",
+          "Touffaye",
+          "bread pudding",
+          "Potjevlesch"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "This dish was born in the Westhoek in the Middle Ages, but some place its origin more precisely in the Dunkirk region."
+      },
+      {
+        "id": 16,
+        "question": "What perennial, semi-aquatic plant is widely grown in the region ?",
+        "propositions": [
+          "arugula",
+          "Spinach",
+          "Watercress",
+          "Chervil"
+        ],
+        "réponse": "Watercress",
+        "anecdote": "Watercress has a record level of iron and calcium as well as a lot of vitamin C, which makes it a food of choice."
+      },
+      {
+        "id": 17,
+        "question": "What was the last major city in France to be liberated on May 9, 1945 ?",
+        "propositions": [
+          "Calais",
+          "Tourcoing",
+          "Roubaix",
+          "Dunkirk"
+        ],
+        "réponse": "Dunkirk",
+        "anecdote": "The city of Dunkirk gave its name to one of the songs of the group Indochine, appearing in the album « Paradize » released in 2002."
+      },
+      {
+        "id": 18,
+        "question": "The decoction of which root has beneficial effects on the kidneys and stomach ?",
+        "propositions": [
+          "Burdock",
+          "Chicory",
+          "Thistle",
+          "Artichoke"
+        ],
+        "réponse": "Chicory",
+        "anecdote": "Chicory, in the form of a drink combined or not with coffee, is very popular in Belgium, as well as in Nord-Pas-de-Calais."
+      },
+      {
+        "id": 19,
+        "question": "What variety of fish can you pet in the Nausicaa touch pool ?",
+        "propositions": [
+          "Turtles",
+          "Rays",
+          "Salmon",
+          "Sharks"
+        ],
+        "réponse": "Rays",
+        "anecdote": "With more than 600,000 visitors per year, it is the second busiest tourist site north of Paris after Parc Astérix."
+      },
+      {
+        "id": 20,
+        "question": "In which city in France is one of the two Eurotunnel terminals located ?",
+        "propositions": [
+          "Boursine",
+          "Cockroaches",
+          "Mark",
+          "Coulogne"
+        ],
+        "réponse": "Cockroaches",
+        "anecdote": "Coquelles is located near the port of Calais, the leading French port for passenger traffic between France and England."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "For which 6.25 meter giant is the city of Kassel now famous ?",
+        "propositions": [
+          "binbin",
+          "Beautiful Helen",
+          "T'chio Blaise",
+          "Reuze Papa"
+        ],
+        "réponse": "Reuze Papa",
+        "anecdote": "The Easter Monday carnival is the occasion of a big party when Reuze Papa and Reuze Maman return to the fold."
+      },
+      {
+        "id": 22,
+        "question": "What animal is represented on the weather vane of the belfry of Bergues ?",
+        "propositions": [
+          "Leo",
+          "Bear",
+          "Rooster",
+          "Swallow"
+        ],
+        "réponse": "Leo",
+        "anecdote": "The Belfry of Bergues was damaged by fire in 1940 and destroyed by blasting by German troops in 1944."
+      },
+      {
+        "id": 23,
+        "question": "Which biscuit similar to Speculoos is made in Aire-sur-la-Lys ?",
+        "propositions": [
+          "mastel",
+          "Gimblette",
+          "Kouign amann",
+          "Snickerdoodles"
+        ],
+        "réponse": "mastel",
+        "anecdote": "This little dry cake made from powdered almonds, brown sugar and orange blossoms was created at the end of the 18th century by Cyrille Faes."
+      },
+      {
+        "id": 24,
+        "question": "What was the first stage name of Line Renaud, born in Armentières ?",
+        "propositions": [
+          "Josette Dayde",
+          "Jean Aubert",
+          "Jacqueline Ray",
+          "Jane Everyone"
+        ],
+        "réponse": "Jacqueline Ray",
+        "anecdote": "The Line Renaud Road in Las Vegas is near the streets named after his friends Frank Sinatra and Dean Martin."
+      },
+      {
+        "id": 25,
+        "question": "World capital of chicory, which city offers a museum dedicated to it ?",
+        "propositions": [
+          "orchids",
+          "Bouvignies",
+          "duai",
+          "Lecluse"
+        ],
+        "réponse": "orchids",
+        "anecdote": "Orchies is the headquarters of the Leroux Company. This company is the world leader in the production and processing of chicory."
+      },
+      {
+        "id": 26,
+        "question": "What musical genre is Didier Lockwood, a native of Calais, a specialist in ?",
+        "propositions": [
+          "Country",
+          "Jazz",
+          "Electro",
+          "Reggae"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "He is the co-founder of the Festival des Puces, a gypsy jazz festival held every year at the Puces de Saint-Ouen."
+      },
+      {
+        "id": 27,
+        "question": "Which famous boxer, native of Hénin-Beaumont, was nicknamed the ",
+        "propositions": [
+          "Alphonse Halimi",
+          "Steve Herelius",
+          "Charles Humez",
+          "Maurice Holtzer"
+        ],
+        "réponse": "Charles Humez",
+        "anecdote": "He had to stop his career after an injury during a defense of his European championship title in Berlin on October 4, 1958."
+      },
+      {
+        "id": 28,
+        "question": "Which ancient port of Pas-de-Calais does Dante evoke in « Divine Comédie » ?",
+        "propositions": [
+          "Boulogne",
+          "wissant",
+          "Brest",
+          "Calais"
+        ],
+        "réponse": "wissant",
+        "anecdote": "The « Commedia » is Dante's most famous work and one of the most important testimonies of medieval civilisation."
+      },
+      {
+        "id": 29,
+        "question": "Which Roubaisien won the Paris-Roubaix in 1912 and 1914 ?",
+        "propositions": [
+          "Charles Crupelandt",
+          "Henri Pelissier",
+          "John Alavoine",
+          "Achille Souchard"
+        ],
+        "réponse": "Charles Crupelandt",
+        "anecdote": "Died in 1955, Charles Crupelandt was nicknamed the Bull of the North for his exceptional size and especially his sprints."
+      },
+      {
+        "id": 30,
+        "question": "What is the most expensive space in the « Monopoly » of Nord-Pas-de-Calais ?",
+        "propositions": [
+          "Lille",
+          "Roubaix",
+          "Dunkirk",
+          "Tourcoing"
+        ],
+        "réponse": "Lille",
+        "anecdote": "Monopoly is an on-course board game whose goal is, through the buying and selling of properties, to ruin opponents."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chicorée breitete sich im Norden aus Mangel an welchem Rohstoff aus ?",
+        "propositions": [
+          "Kakao",
+          "Gerste",
+          "Tee",
+          "Kaffee"
+        ],
+        "réponse": "Kaffee",
+        "anecdote": "Es ist die Wurzel des industriellen Chicorées, der in Schnitzel geschnitten oder gerieben, dann getrocknet, geröstet und gemahlen verwendet wird."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Fluss, der durch Tournai fließt, durchquert auch die Stadt Valenciennes ?",
+        "propositions": [
+          "Schal",
+          "Yer",
+          "Schelde",
+          "Deule"
+        ],
+        "réponse": "Schelde",
+        "anecdote": "Die Schelde ist ein 355 km langer Fluss, der drei Länder (Frankreich, Belgien und die Niederlande) durchquert, bevor er in die Nordsee mündet."
+      },
+      {
+        "id": 3,
+        "question": "Welches Getränk ist für die Menschen im Norden, was Apfelwein für die Bretonen ?",
+        "propositions": [
+          "Bier",
+          "Dreifache Sekunde",
+          "Kirsch",
+          "Armagnac"
+        ],
+        "réponse": "Bier",
+        "anecdote": "Der Großteil der Produktion findet im Elsass, in Lothringen, Nord-Pas-de-Calais, in der Bretagne und in Burgund statt."
+      },
+      {
+        "id": 4,
+        "question": "In welchem Monat verlassen Radfahrer Paris, um Roubaix zu erreichen ?",
+        "propositions": [
+          "Juli",
+          "September",
+          "Juni",
+          "August"
+        ],
+        "réponse": "Juni",
+        "anecdote": "Paris-Roubaix ist ein Radrennen, das 1896 von Théodore Vienne nach der Eröffnung des neuen Velodroms von Roubaix ins Leben gerufen wurde."
+      },
+      {
+        "id": 5,
+        "question": "Was schmeckt dir, wenn du im Norden nach einer Blondine fragst ?",
+        "propositions": [
+          "Ein Nachtisch",
+          "Ein Bier",
+          "Ein Digestif",
+          "Ein Cocktail"
+        ],
+        "réponse": "Ein Bier",
+        "anecdote": "Häufig wird der Begriff Lager, der die Farbe des Bieres bezeichnet, mit den Biersorten im engeren Sinne verwechselt."
+      },
+      {
+        "id": 6,
+        "question": "In welcher Stadt im Norden kann man im Vorbeigehen das Mondlicht bewundern ?",
+        "propositions": [
+          "Bethune",
+          "Duai",
+          "Maubeuge",
+          "Kambria"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "Der Taxifahrer Pierre Perrin ist bekannt für « Un clair de lune à Maubeuge » (1962), ein Lied, das neun Wochen in den Charts blieb."
+      },
+      {
+        "id": 7,
+        "question": "Wie viele Meter erhebt sich Cap Gris-Nez aus dem Ozean ?",
+        "propositions": [
+          "25 Meter",
+          "55 Meter",
+          "45 Meter",
+          "35 Meter"
+        ],
+        "réponse": "45 Meter",
+        "anecdote": "Etwa 15 km nördlich von Boulogne-sur-Mer gelegen, ist es der nächstgelegene Punkt an der französischen Küste zu England (30,3 km)."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Architekt baute die Zitadelle von Lille und die Befestigungsanlagen von Dünkirchen ?",
+        "propositions": [
+          "Beausire",
+          "ducret",
+          "Knurrer",
+          "Vauban"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "Die Zitadelle von Lille, die von Vauban selbst zur Königin der Zitadellen getauft wurde, ist eine militärische Struktur, die sich durch ihre Dimensionen auszeichnet."
+      },
+      {
+        "id": 9,
+        "question": "In welcher Stadt im Norden hat die Kristallindustrie einen bemerkenswerten Aufschwung erlebt ?",
+        "propositions": [
+          "Clety",
+          "Heiliges Omer",
+          "Bögen",
+          "Loch"
+        ],
+        "réponse": "Bögen",
+        "anecdote": "Die Stadt Arques ist auch berühmt für ihr altes Schiffshebewerk Fontinettes, das heute einzigartig in Frankreich ist."
+      },
+      {
+        "id": 10,
+        "question": "Welcher unraffinierte braune Zucker ist eine belgische und nordische Spezialität ?",
+        "propositions": [
+          "cosumar",
+          "Panela",
+          "brauner Zucker",
+          "Wasabon"
+        ],
+        "réponse": "brauner Zucker",
+        "anecdote": "Es wird hauptsächlich auf Pfannkuchen, in Hüttenkäse, Milchreis, Bratäpfeln oder einfach auf Brot verwendet."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches Gebäude von 1905 in Tourcoing ist im Inventar der historischen Denkmäler aufgeführt ?",
+        "propositions": [
+          "Kasinos",
+          "Bahnhof",
+          "Rathaus",
+          "Glockenturm"
+        ],
+        "réponse": "Bahnhof",
+        "anecdote": "Der Bahnhof Tourcoing diente als Kulisse für die Eröffnungsszene des Films « Le Corps de mon ennemi » (1976) unter der Regie von Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "In welchem Jahr wurde der Eurotunnel in Coquelles der Öffentlichkeit zugänglich gemacht ?",
+        "propositions": [
+          "1994",
+          "1996",
+          "2000",
+          "1998"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink transportiert jedes Jahr 20 Millionen Passagiere, 1,6 Millionen Lkw und 2 Milliarden Tonnen Güter."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Vergnügungspark befindet sich im Wald von Merlimont ?",
+        "propositions": [
+          "Aquanor",
+          "Kleinigkeit",
+          "Szeneparc",
+          "Zygofolis"
+        ],
+        "réponse": "Kleinigkeit",
+        "anecdote": "Mit rund vierzig Attraktionen, kostenpflichtigen Spielen und Shows ist er der älteste aktive Vergnügungspark Frankreichs."
+      },
+      {
+        "id": 14,
+        "question": "Welches Blumenmotiv findet sich auf dem Wappen der Stadt Lille ?",
+        "propositions": [
+          "Lilienblume",
+          "Kreuz",
+          "Adler",
+          "Löwe"
+        ],
+        "réponse": "Lilienblume",
+        "anecdote": "In der byzantinischen römischen Welt ist die Lilie neben den Kreuzen, dem Adler und dem Löwen eine der vier beliebtesten Figuren."
+      },
+      {
+        "id": 15,
+        "question": "Wie heißt die heimische Kaninchen-, Kalbs-, Schweine- und Hühnerterrine ?",
+        "propositions": [
+          "Potjevlesch",
+          "Pintxos",
+          "Brotpudding",
+          "Touffaye"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "Dieses Gericht wurde im Mittelalter in Westhoek geboren, aber manche sehen seinen Ursprung genauer in der Region Dünkirchen."
+      },
+      {
+        "id": 16,
+        "question": "Welche mehrjährige, semi-aquatische Pflanze wird in der Region weit verbreitet angebaut ?",
+        "propositions": [
+          "Rucola",
+          "Brunnenkresse",
+          "Spinat",
+          "Kerbel"
+        ],
+        "réponse": "Brunnenkresse",
+        "anecdote": "Brunnenkresse hat einen Rekordgehalt an Eisen und Kalzium sowie viel Vitamin C, was sie zu einem Lebensmittel der Wahl macht."
+      },
+      {
+        "id": 17,
+        "question": "Was war die letzte größere Stadt in Frankreich, die am 9. Mai 1945 befreit wurde ?",
+        "propositions": [
+          "Dünkirchen",
+          "Calais",
+          "Roubaix",
+          "Tourcoing"
+        ],
+        "réponse": "Dünkirchen",
+        "anecdote": "Die Stadt Dünkirchen gab einem der Lieder der Gruppe Indochine ihren Namen, der auf dem 2002 erschienenen Album « Paradize » erschien."
+      },
+      {
+        "id": 18,
+        "question": "Die Abkochung welcher Wurzel hat wohltuende Wirkungen auf Nieren und Magen ?",
+        "propositions": [
+          "Klette",
+          "Chicorée",
+          "Artischocke",
+          "Distel"
+        ],
+        "réponse": "Chicorée",
+        "anecdote": "Chicorée, als Getränk mit oder ohne Kaffee, ist in Belgien, aber auch in Nord-Pas-de-Calais sehr beliebt."
+      },
+      {
+        "id": 19,
+        "question": "Welche Fischarten können Sie im Nausikaa-Streichbecken streicheln ?",
+        "propositions": [
+          "Schildkröten",
+          "Strahlen",
+          "Lachs",
+          "Haie"
+        ],
+        "réponse": "Strahlen",
+        "anecdote": "Mit mehr als 600.000 Besuchern pro Jahr ist es nach dem Parc Astérix die zweitgrößte Touristenattraktion nördlich von Paris."
+      },
+      {
+        "id": 20,
+        "question": "In welcher Stadt in Frankreich befindet sich einer der beiden Eurotunnel-Terminals ?",
+        "propositions": [
+          "Boursine",
+          "Köln",
+          "Kakerlaken",
+          "Markieren"
+        ],
+        "réponse": "Kakerlaken",
+        "anecdote": "Coquelles liegt in der Nähe des Hafens von Calais, dem führenden französischen Hafen für den Passagierverkehr zwischen Frankreich und England."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Für welchen 6,25-Meter-Giganten ist die Stadt Kassel heute berühmt ?",
+        "propositions": [
+          "Mülleimer",
+          "Schöne Helena",
+          "T'chio Blaise",
+          "Reuze Papa"
+        ],
+        "réponse": "Reuze Papa",
+        "anecdote": "Der Karneval am Ostermontag ist der Anlass für eine große Party, wenn Reuze Papa und Reuze Maman in die Herde zurückkehren."
+      },
+      {
+        "id": 22,
+        "question": "Welches Tier ist auf der Wetterfahne des Glockenturms von Bergues dargestellt ?",
+        "propositions": [
+          "Schlucken",
+          "Hahn",
+          "Löwe",
+          "Bär"
+        ],
+        "réponse": "Löwe",
+        "anecdote": "Der Belfried von Bergues wurde 1940 durch einen Brand beschädigt und 1944 durch Sprengungen deutscher Truppen zerstört."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Spekulatius-ähnliche Keks wird in Aire-sur-la-Lys hergestellt ?",
+        "propositions": [
+          "Snickerdoodles",
+          "Kouign amann",
+          "Meister",
+          "Gimbel"
+        ],
+        "réponse": "Meister",
+        "anecdote": "Dieser kleine trockene Kuchen aus gemahlenen Mandeln, braunem Zucker und Orangenblüten wurde Ende des 18. Jahrhunderts von Cyrille Faes kreiert."
+      },
+      {
+        "id": 24,
+        "question": "Was war der erste Künstlername von Line Renaud, geboren in Armentières ?",
+        "propositions": [
+          "Jane Alle",
+          "Jean Aubert",
+          "Jacqueline Strahl",
+          "Josette Dayde"
+        ],
+        "réponse": "Jacqueline Strahl",
+        "anecdote": "Die Line Renaud Road in Las Vegas liegt in der Nähe der Straßen, die nach seinen Freunden Frank Sinatra und Dean Martin benannt sind."
+      },
+      {
+        "id": 25,
+        "question": "Welthauptstadt der Zichorie, welche Stadt hat ihr ein Museum gewidmet ?",
+        "propositions": [
+          "Orchideen",
+          "Lecluse",
+          "Duai",
+          "Bouvignies"
+        ],
+        "réponse": "Orchideen",
+        "anecdote": "Orchies ist der Hauptsitz der Leroux Company. Dieses Unternehmen ist weltweit führend in der Produktion und Verarbeitung von Chicorée."
+      },
+      {
+        "id": 26,
+        "question": "Auf welches Musikgenre ist der aus Calais stammende Didier Lockwood ein Spezialist ?",
+        "propositions": [
+          "Jazz",
+          "Reggae",
+          "Land",
+          "Elektro"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "Er ist Mitbegründer des Festival des Puces, eines Gypsy-Jazz-Festivals, das jedes Jahr im Puces de Saint-Ouen stattfindet."
+      },
+      {
+        "id": 27,
+        "question": "Welcher berühmte Boxer, gebürtig aus Hénin-Beaumont, erhielt den Spitznamen „Zerstörer“ ?",
+        "propositions": [
+          "Maurice Holtzer",
+          "Steve Herelius",
+          "Alfons Halimi",
+          "Charles Humez"
+        ],
+        "réponse": "Charles Humez",
+        "anecdote": "Seine Karriere musste er nach einer Verletzung bei der Verteidigung seines Europameistertitels am 4."
+      },
+      {
+        "id": 28,
+        "question": "Welchen alten Hafen von Pas-de-Calais beschwört Dante in « Divine Comédie » herauf ?",
+        "propositions": [
+          "Calais",
+          "Boulogne",
+          "Wisser",
+          "Brest"
+        ],
+        "réponse": "Wisser",
+        "anecdote": "Die « Commedia » ist Dantes berühmtestes Werk und eines der wichtigsten Zeugnisse mittelalterlicher Zivilisation."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Roubaisien gewann 1912 und 1914 das Paris-Roubaix ?",
+        "propositions": [
+          "Charles Crupelandt",
+          "John Alavone",
+          "Achille Souchard",
+          "Henri Pelissier"
+        ],
+        "réponse": "Charles Crupelandt",
+        "anecdote": "Der 1955 verstorbene Charles Crupelandt wurde wegen seiner außergewöhnlichen Größe und insbesondere seiner Sprints als Stier des Nordens bezeichnet."
+      },
+      {
+        "id": 30,
+        "question": "Was ist die teuerste Fläche im « Monopoly » von Nord-Pas-de-Calais ?",
+        "propositions": [
+          "Tourcoing",
+          "Roubaix",
+          "Lille",
+          "Dünkirchen"
+        ],
+        "réponse": "Lille",
+        "anecdote": "Monopoly ist ein On-Course-Brettspiel, dessen Ziel es ist, Gegner durch den Kauf und Verkauf von Grundstücken zu ruinieren."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "La achicoria se propagó en el Norte por falta de qué materia prima ?",
+        "propositions": [
+          "Cacao",
+          "cebada",
+          "Té",
+          "Café"
+        ],
+        "réponse": "Café",
+        "anecdote": "Es la raíz de achicoria industrial, cortada en cosetas o rallada, luego secada, tostada y molida, la que se utiliza."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué río que pasa por Tournai también cruza la ciudad de Valenciennes ?",
+        "propositions": [
+          "yzer",
+          "Escalda",
+          "Deule",
+          "bufanda"
+        ],
+        "réponse": "Escalda",
+        "anecdote": "El Escalda es un río de 355 km de largo que atraviesa tres países (Francia, Bélgica y los Países Bajos) antes de desembocar en el Mar del Norte."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué bebida es para la gente del norte lo que es la sidra para los bretones ?",
+        "propositions": [
+          "Triple segundo",
+          "Armañac",
+          "Cerveza",
+          "Kirsch"
+        ],
+        "réponse": "Cerveza",
+        "anecdote": "La mayor parte de la producción se lleva a cabo en Alsacia, Lorena, Nord-Pas-de-Calais, Bretaña y Borgoña."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué mes salen los ciclistas de París para llegar a Roubaix ?",
+        "propositions": [
+          "septiembre",
+          "agosto",
+          "julio",
+          "junio"
+        ],
+        "réponse": "junio",
+        "anecdote": "Paris-Roubaix es una carrera ciclista creada en 1896 por Théodore Vienne tras la inauguración del nuevo velódromo de Roubaix."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué saboreas si pides una rubia en el Norte ?",
+        "propositions": [
+          "Una cerveza",
+          "Un digestivo",
+          "Un coctel",
+          "Un postre"
+        ],
+        "réponse": "Una cerveza",
+        "anecdote": "A menudo se confunde entre el término lager, que designa el color de la cerveza, y los tipos de cerveza en sentido estricto."
+      },
+      {
+        "id": 6,
+        "question": "¿En qué ciudad del norte puedes admirar la luz de la luna al pasar ?",
+        "propositions": [
+          "Cambria",
+          "duai",
+          "Maubeuge",
+          "Bethune"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "Pierre Perrin, taxista, es conocido por « Un clair de lune à Maubeuge » (1962), una canción que permaneció en las listas durante nueve semanas."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuántos metros se eleva Cap Gris-Nez sobre el océano ?",
+        "propositions": [
+          "25 metros",
+          "45 metros",
+          "35 metros",
+          "55 metros"
+        ],
+        "réponse": "45 metros",
+        "anecdote": "Situado a unos 15 km al norte de Boulogne-sur-Mer, es el punto de la costa francesa más cercano a Inglaterra (30,3 km)."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué arquitecto construyó la ciudadela de Lille y las fortificaciones de Dunkerque ?",
+        "propositions": [
+          "Beausire",
+          "duceto",
+          "Vauban",
+          "gruñidor"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "Bautizada por el mismo Vauban como la reina de las ciudadelas, la ciudadela de Lille es una estructura militar notable por sus dimensiones."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué ciudad del Norte ha experimentado un auge notable la industria del cristal ?",
+        "propositions": [
+          "Clety",
+          "San Omer",
+          "hora",
+          "arcos"
+        ],
+        "réponse": "arcos",
+        "anecdote": "La ciudad de Arques también es famosa por su antiguo ascensor de barcos Fontinettes, ahora único en Francia."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué azúcar moreno sin refinar es una especialidad belga y del norte ?",
+        "propositions": [
+          "azúcar moreno",
+          "panela",
+          "Wasabón",
+          "cosumar"
+        ],
+        "réponse": "azúcar moreno",
+        "anecdote": "Se utiliza principalmente en tortitas, requesón, arroz con leche, manzanas al horno o simplemente en pan."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "En Tourcoing, ¿qué edificio de 1905 figura en el inventario de monumentos históricos ?",
+        "propositions": [
+          "Ayuntamiento",
+          "Casinos",
+          "Campanario",
+          "Estación"
+        ],
+        "réponse": "Estación",
+        "anecdote": "La estación de Tourcoing sirvió de escenario para la escena inicial de la película « Le Corps de mon ennemi » (1976), dirigida por Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué año se abrió al público el Eurotúnel de Coquelles ?",
+        "propositions": [
+          "1994",
+          "2000",
+          "1998",
+          "1996"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink transporta 20 millones de pasajeros, 1,6 millones de camiones y 2 mil millones de toneladas de mercancías cada año."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué parque de atracciones se encuentra en el bosque de Merlimont ?",
+        "propositions": [
+          "Scenoparc",
+          "Bagatela",
+          "Zygofolis",
+          "Aquanor"
+        ],
+        "réponse": "Bagatela",
+        "anecdote": "Con una cuarentena de atracciones, juegos y espectáculos de pago, es el parque de atracciones activo más antiguo de Francia."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué motivo floral se encuentra en el escudo de armas de la ciudad de Lille ?",
+        "propositions": [
+          "León",
+          "Cruz",
+          "Águila",
+          "flor de lirio"
+        ],
+        "réponse": "flor de lirio",
+        "anecdote": "Presente en el mundo romano bizantino, la flor de lis es una de las cuatro figuras más populares junto con las cruces, el águila y el león."
+      },
+      {
+        "id": 15,
+        "question": "¿Cómo se llama la terrina local de conejo, ternera, cerdo y pollo ?",
+        "propositions": [
+          "Potjevlesch",
+          "budín de pan",
+          "Touffaye",
+          "pintxos"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "Este plato nació en Westhoek en la Edad Media, pero algunos sitúan su origen más precisamente en la región de Dunkerque."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué planta semiacuática perenne se cultiva ampliamente en la región ?",
+        "propositions": [
+          "perifollo",
+          "Espinacas",
+          "berro",
+          "rúcula"
+        ],
+        "réponse": "berro",
+        "anecdote": "El berro tiene un nivel récord de hierro y calcio, así como mucha vitamina C, lo que lo convierte en un alimento de elección."
+      },
+      {
+        "id": 17,
+        "question": "¿Cuál fue la última gran ciudad de Francia en ser liberada el 9 de mayo de 1945 ?",
+        "propositions": [
+          "Calais",
+          "Turismo",
+          "Roubaix",
+          "Dunkerque"
+        ],
+        "réponse": "Dunkerque",
+        "anecdote": "La ciudad de Dunkerque dio nombre a una de las canciones del grupo Indochine, apareciendo en el álbum « Paradize » lanzado en 2002."
+      },
+      {
+        "id": 18,
+        "question": "¿La decocción de qué raíz tiene efectos beneficiosos sobre los riñones y el estómago ?",
+        "propositions": [
+          "Bardana",
+          "Cardo",
+          "Alcachofa",
+          "Achicoria"
+        ],
+        "réponse": "Achicoria",
+        "anecdote": "La achicoria, en forma de bebida combinada o no con café, es muy popular en Bélgica, así como en Nord-Pas-de-Calais."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué variedad de peces puedes acariciar en la piscina Nausicaa touch ?",
+        "propositions": [
+          "Tiburones",
+          "salmón",
+          "Rayos",
+          "Tortugas"
+        ],
+        "réponse": "Rayos",
+        "anecdote": "Con más de 600.000 visitantes al año, es el segundo sitio turístico más concurrido al norte de París después de Parc Astérix."
+      },
+      {
+        "id": 20,
+        "question": "¿En qué ciudad de Francia se encuentra una de las dos terminales de Eurotunnel ?",
+        "propositions": [
+          "colonia",
+          "cucarachas",
+          "Boursine",
+          "marca"
+        ],
+        "réponse": "cucarachas",
+        "anecdote": "Coquelles se encuentra cerca del puerto de Calais, el puerto francés líder en tráfico de pasajeros entre Francia e Inglaterra."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Por qué gigante de 6,25 metros es ahora famosa la ciudad de Kassel ?",
+        "propositions": [
+          "Papá Reuze",
+          "papelera",
+          "Hermosa Helena",
+          "T'chio Blaise"
+        ],
+        "réponse": "Papá Reuze",
+        "anecdote": "El carnaval del Lunes de Pascua es la ocasión de una gran fiesta cuando Reuze Papa y Reuze Maman regresan al redil."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué animal está representado en la veleta del campanario de Bergues ?",
+        "propositions": [
+          "León",
+          "Oso",
+          "gallo",
+          "Golondrina"
+        ],
+        "réponse": "León",
+        "anecdote": "El campanario de Bergues fue dañado por un incendio en 1940 y destruido por una voladura de las tropas alemanas en 1944."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué galleta similar a Speculoos se hace en Aire-sur-la-Lys ?",
+        "propositions": [
+          "Kouign amann",
+          "Snickerdoodles",
+          "mastel",
+          "gimblette"
+        ],
+        "réponse": "mastel",
+        "anecdote": "Este pequeño pastel seco elaborado con almendras en polvo, azúcar moreno y azahar fue creado a finales del siglo XVIII por Cyrille Faes."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál fue el primer nombre artístico de Line Renaud, nacida en Armentières ?",
+        "propositions": [
+          "Rayo Jacqueline",
+          "Jane Todos",
+          "Juan Aubert",
+          "Josette Dayde"
+        ],
+        "réponse": "Rayo Jacqueline",
+        "anecdote": "The Line Renaud Road en Las Vegas está cerca de las calles que llevan el nombre de sus amigos Frank Sinatra y Dean Martin."
+      },
+      {
+        "id": 25,
+        "question": "Capital mundial de la achicoria, ¿qué ciudad ofrece un museo dedicado a ella ?",
+        "propositions": [
+          "Bouvignies",
+          "Leclusa",
+          "duai",
+          "orquideas"
+        ],
+        "réponse": "orquideas",
+        "anecdote": "Orchies es la sede de la Compañía Leroux. Esta empresa es líder mundial en la producción y procesamiento de achicoria."
+      },
+      {
+        "id": 26,
+        "question": "¿En qué género musical es especialista Didier Lockwood, natural de Calais ?",
+        "propositions": [
+          "Jazz",
+          "reggae",
+          "electro",
+          "País"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "Es cofundador del Festival des Puces, un festival de jazz gitano que se celebra todos los años en el Puces de Saint-Ouen."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué famoso boxeador, nativo de Hénin-Beaumont, fue apodado el ",
+        "propositions": [
+          "Carlos Húmez",
+          "Mauricio Holtzer",
+          "Steve Herelio",
+          "Alfonso Halimi"
+        ],
+        "réponse": "Carlos Húmez",
+        "anecdote": "Tuvo que detener su carrera tras una lesión durante la defensa de su título de campeón de Europa en Berlín el 4 de octubre de 1958."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué antiguo puerto de Paso de Calais evoca Dante en la « Divine Comédie » ?",
+        "propositions": [
+          "Calais",
+          "Brest",
+          "Bolonia",
+          "Wissant"
+        ],
+        "réponse": "Wissant",
+        "anecdote": "La « Commedia » es la obra más famosa de Dante y uno de los testimonios más importantes de la civilización medieval."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué Roubaisien ganó la París-Roubaix en 1912 y 1914 ?",
+        "propositions": [
+          "Enrique Pelissier",
+          "Carlos Crupelandt",
+          "Juan Alavoine",
+          "Achille Souchard"
+        ],
+        "réponse": "Carlos Crupelandt",
+        "anecdote": "Fallecido en 1955, Charles Crupelandt fue apodado el Toro del Norte por su excepcional tamaño y sobre todo por sus sprints."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuál es el espacio más caro del « Monopoly » de Nord-Pas-de-Calais ?",
+        "propositions": [
+          "Roubaix",
+          "Dunkerque",
+          "Turismo",
+          "Lila"
+        ],
+        "réponse": "Lila",
+        "anecdote": "Monopoly es un juego de mesa en curso cuyo objetivo es, a través de la compra y venta de propiedades, arruinar a los oponentes."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "La cicoria si è diffusa al Nord per mancanza di quale materia prima ?",
+        "propositions": [
+          "cacao",
+          "Orzo",
+          "Tè",
+          "Caffè"
+        ],
+        "réponse": "Caffè",
+        "anecdote": "E' la radice della cicoria industriale, tagliata a fettine o grattugiata, poi essiccata, tostata e macinata, che viene utilizzata."
+      },
+      {
+        "id": 2,
+        "question": "Quale fiume, passando per Tournai, attraversa anche la città di Valenciennes ?",
+        "propositions": [
+          "Schelda",
+          "Delè",
+          "sciarpa",
+          "yzer"
+        ],
+        "réponse": "Schelda",
+        "anecdote": "La Schelda è un fiume lungo 355 km che attraversa tre paesi (Francia, Belgio e Paesi Bassi) prima di sfociare nel Mare del Nord."
+      },
+      {
+        "id": 3,
+        "question": "Che bevanda è per la gente del nord che cosa è il sidro per i bretoni ?",
+        "propositions": [
+          "Armagnac",
+          "Birra",
+          "Triplo secondo",
+          "Kirsch"
+        ],
+        "réponse": "Birra",
+        "anecdote": "La maggior parte della produzione viene svolta in Alsazia, Lorena, Nord-Passo di Calais, Bretagna e Borgogna."
+      },
+      {
+        "id": 4,
+        "question": "In quale mese i ciclisti lasciano Parigi per raggiungere Roubaix ?",
+        "propositions": [
+          "giugno",
+          "settembre",
+          "agosto",
+          "luglio"
+        ],
+        "réponse": "giugno",
+        "anecdote": "La Parigi-Roubaix è una corsa ciclistica creata nel 1896 da Théodore Vienne dopo l'apertura del nuovo velodromo di Roubaix."
+      },
+      {
+        "id": 5,
+        "question": "Cosa assapori se chiedi una bionda al nord ?",
+        "propositions": [
+          "Un dolce",
+          "Un cocktail",
+          "Un digestivo",
+          "Una birra"
+        ],
+        "réponse": "Una birra",
+        "anecdote": "Viene spesso confuso tra il termine lager, che designa il colore della birra, e le tipologie di birra in senso stretto."
+      },
+      {
+        "id": 6,
+        "question": "In quale città del nord puoi ammirare il chiaro di luna di passaggio ?",
+        "propositions": [
+          "duai",
+          "Cambria",
+          "Bethune",
+          "Maubeuge"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "Un tassista, Pierre Perrin è noto per « Un clair de lune à Maubeuge » (1962), una canzone che è rimasta in classifica per nove settimane."
+      },
+      {
+        "id": 7,
+        "question": "Quanti metri si erge Cap Gris-Nez al di sopra dell'oceano ?",
+        "propositions": [
+          "45 metri",
+          "35 metri",
+          "55 metri",
+          "25 metri"
+        ],
+        "réponse": "45 metri",
+        "anecdote": "Situato a circa 15 km a nord di Boulogne-sur-Mer, è il punto più vicino della costa francese all'Inghilterra (30,3 km)."
+      },
+      {
+        "id": 8,
+        "question": "Quale architetto costruì la cittadella di Lille e le fortificazioni di Dunkerque ?",
+        "propositions": [
+          "Vauban",
+          "ringhiatore",
+          "Beausire",
+          "ducreto"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "Battezzata dallo stesso Vauban regina delle cittadelle, la cittadella di Lille è una struttura militare notevole per le sue dimensioni."
+      },
+      {
+        "id": 9,
+        "question": "In quale città del nord l'industria del cristallo ha conosciuto un notevole boom ?",
+        "propositions": [
+          "archi",
+          "Sant'Omer",
+          "Clety",
+          "buca"
+        ],
+        "réponse": "archi",
+        "anecdote": "La città di Arques è anche famosa per il suo vecchio impianto di risalita delle Fontinettes, oggi unico in Francia."
+      },
+      {
+        "id": 10,
+        "question": "Quale zucchero di canna grezzo è una specialità belga e settentrionale ?",
+        "propositions": [
+          "Wasabon",
+          "zucchero di canna",
+          "pannello",
+          "cosumare"
+        ],
+        "réponse": "zucchero di canna",
+        "anecdote": "Viene utilizzato principalmente sulle frittelle, nella ricotta, nel budino di riso, nelle mele al forno o semplicemente sul pane."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "A Tourcoing, quale edificio del 1905 è elencato nell'inventario dei monumenti storici ?",
+        "propositions": [
+          "Casinò",
+          "Campanile",
+          "stazione",
+          "Municipio"
+        ],
+        "réponse": "stazione",
+        "anecdote": "La stazione di Tourcoing è stata l'ambientazione per la scena di apertura del film « Le Corps de mon ennemi » (1976), diretto da Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "In quale anno è stato aperto al pubblico l'Eurotunnel di Coquelles ?",
+        "propositions": [
+          "1998",
+          "2000",
+          "1994",
+          "1996"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink trasporta 20 milioni di passeggeri, 1,6 milioni di camion e 2 miliardi di tonnellate di merci ogni anno."
+      },
+      {
+        "id": 13,
+        "question": "Quale parco divertimenti si trova nella foresta di Merlimont ?",
+        "propositions": [
+          "Scenoparco",
+          "sciocchezza",
+          "Acquanor",
+          "Zigofolis"
+        ],
+        "réponse": "sciocchezza",
+        "anecdote": "Composto da una quarantina di attrazioni, giochi e spettacoli a pagamento, è il più antico parco divertimenti attivo in Francia."
+      },
+      {
+        "id": 14,
+        "question": "Quale motivo floreale si trova sullo stemma della città di Lille ?",
+        "propositions": [
+          "Croce",
+          "Fiore di giglio",
+          "Leone",
+          "Aquila"
+        ],
+        "réponse": "Fiore di giglio",
+        "anecdote": "Presente nel mondo romano bizantino, il giglio è una delle quattro figure più popolari insieme alle croci, all'aquila e al leone."
+      },
+      {
+        "id": 15,
+        "question": "Come si chiama la terrina locale di coniglio, vitello, maiale e pollo ?",
+        "propositions": [
+          "budino di pane",
+          "Pintxos",
+          "Potjevlesch",
+          "Touffay"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "Questo piatto è nato nel Westhoek nel Medioevo, ma alcuni ne collocano l'origine più precisamente nella regione di Dunkerque."
+      },
+      {
+        "id": 16,
+        "question": "Quale pianta perenne semiacquatica è ampiamente coltivata nella regione ?",
+        "propositions": [
+          "crescione",
+          "rucola",
+          "Spinaci",
+          "Cerfoglio"
+        ],
+        "réponse": "crescione",
+        "anecdote": "Il crescione ha un livello record di ferro e calcio, oltre a molta vitamina C, il che lo rende un alimento preferito."
+      },
+      {
+        "id": 17,
+        "question": "Qual è stata l'ultima grande città francese ad essere liberata il 9 maggio 1945 ?",
+        "propositions": [
+          "Calais",
+          "Roubaix",
+          "Tourcoing",
+          "Dunkerque"
+        ],
+        "réponse": "Dunkerque",
+        "anecdote": "La città di Dunkerque ha dato il nome a una delle canzoni del gruppo Indochine, che appare nell'album « Paradize » pubblicato nel 2002."
+      },
+      {
+        "id": 18,
+        "question": "Il decotto di quale radice ha effetti benefici sui reni e sullo stomaco ?",
+        "propositions": [
+          "Carciofo",
+          "cardo",
+          "Bardana",
+          "cicoria"
+        ],
+        "réponse": "cicoria",
+        "anecdote": "La cicoria, sotto forma di bevanda abbinata o meno al caffè, è molto popolare in Belgio, così come nel Nord-Pas-de-Calais."
+      },
+      {
+        "id": 19,
+        "question": "Che varietà di pesci puoi accarezzare nella piscina tattile Nausicaa ?",
+        "propositions": [
+          "Raggi",
+          "squali",
+          "salmone",
+          "tartarughe"
+        ],
+        "réponse": "Raggi",
+        "anecdote": "Con oltre 600.000 visitatori all'anno, è il secondo sito turistico più trafficato a nord di Parigi dopo il Parc Astérix."
+      },
+      {
+        "id": 20,
+        "question": "In quale città della Francia si trova uno dei due terminal dell'Eurotunnel ?",
+        "propositions": [
+          "Marco",
+          "scarafaggi",
+          "Coulogne",
+          "Borsina"
+        ],
+        "réponse": "scarafaggi",
+        "anecdote": "Coquelles si trova vicino al porto di Calais, il principale porto francese per il traffico passeggeri tra Francia e Inghilterra."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Per quale gigante di 6,25 metri è ormai famosa la città di Kassel ?",
+        "propositions": [
+          "T'chio Blaise",
+          "Reuze Papà",
+          "cestino",
+          "Bella Elena"
+        ],
+        "réponse": "Reuze Papà",
+        "anecdote": "Il carnevale del lunedì di Pasqua è l'occasione di una grande festa quando Reuze Papa e Reuze Maman tornano all'ovile."
+      },
+      {
+        "id": 22,
+        "question": "Quale animale è rappresentato sulla banderuola del campanile di Bergues ?",
+        "propositions": [
+          "Gallo",
+          "Orso",
+          "Leone",
+          "rondine"
+        ],
+        "réponse": "Leone",
+        "anecdote": "Il Campanile di Bergues fu danneggiato da un incendio nel 1940 e distrutto da un'esplosione dalle truppe tedesche nel 1944."
+      },
+      {
+        "id": 23,
+        "question": "Quale biscotto simile a Speculoos viene prodotto ad Aire-sur-la-Lys ?",
+        "propositions": [
+          "Kouign amann",
+          "Snickerdoodles",
+          "Gimblette",
+          "mastello"
+        ],
+        "réponse": "mastello",
+        "anecdote": "Questa piccola torta secca a base di polvere di mandorle, zucchero di canna e fiori d'arancio è stata creata alla fine del 18° secolo da Cyrille Faes."
+      },
+      {
+        "id": 24,
+        "question": "Qual è stato il primo nome d'arte di Line Renaud, nata ad Armentières ?",
+        "propositions": [
+          "Jacqueline Ray",
+          "Jane Tutti",
+          "Josette Dayde",
+          "Jean Aubert"
+        ],
+        "réponse": "Jacqueline Ray",
+        "anecdote": "La Line Renaud Road a Las Vegas si trova vicino alle strade intitolate ai suoi amici Frank Sinatra e Dean Martin."
+      },
+      {
+        "id": 25,
+        "question": "Capitale mondiale della cicoria, quale città offre un museo ad essa dedicato ?",
+        "propositions": [
+          "Bouvignies",
+          "Lecluse",
+          "duai",
+          "orchidee"
+        ],
+        "réponse": "orchidee",
+        "anecdote": "Orchies è la sede della Leroux Company. Questa azienda è leader mondiale nella produzione e lavorazione della cicoria."
+      },
+      {
+        "id": 26,
+        "question": "Di che genere musicale è Didier Lockwood, originario di Calais, specialista ?",
+        "propositions": [
+          "Elettro",
+          "Paese",
+          "Jazz",
+          "Reggae"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "È co-fondatore del Festival des Puces, un festival jazz gitano che si tiene ogni anno al Puces de Saint-Ouen."
+      },
+      {
+        "id": 27,
+        "question": "Quale famoso pugile, originario di Hénin-Beaumont, era soprannominato il ",
+        "propositions": [
+          "Alfonso Halimi",
+          "Carlo Humez",
+          "Steve Herelius",
+          "Maurice Holtzer"
+        ],
+        "réponse": "Carlo Humez",
+        "anecdote": "Ha dovuto interrompere la sua carriera dopo un infortunio durante la difesa del suo titolo di campionato europeo a Berlino il 4 ottobre 1958."
+      },
+      {
+        "id": 28,
+        "question": "Quale antico porto di Pas-de-Calais evoca Dante nella « Divine Comédie » ?",
+        "propositions": [
+          "Boulogne",
+          "Calais",
+          "Brest",
+          "saggio"
+        ],
+        "réponse": "saggio",
+        "anecdote": "La « Commedia » è l'opera più famosa di Dante e una delle più importanti testimonianze della civiltà medievale."
+      },
+      {
+        "id": 29,
+        "question": "Quale Roubaisien vinse la Parigi-Roubaix nel 1912 e nel 1914 ?",
+        "propositions": [
+          "Achille Souchard",
+          "Charles Crupelandt",
+          "Henri Pelissier",
+          "Giovanni Alavoine"
+        ],
+        "réponse": "Charles Crupelandt",
+        "anecdote": "Morto nel 1955, Charles Crupelandt fu soprannominato il Toro del Nord per le sue eccezionali dimensioni e soprattutto per i suoi sprint."
+      },
+      {
+        "id": 30,
+        "question": "Qual è lo spazio più costoso del « Monopoly » del Nord-Passo di Calais ?",
+        "propositions": [
+          "Lilla",
+          "Roubaix",
+          "Tourcoing",
+          "Dunkerque"
+        ],
+        "réponse": "Lilla",
+        "anecdote": "Il monopolio è un gioco da tavolo in corso il cui obiettivo è, attraverso l'acquisto e la vendita di proprietà, rovinare gli avversari."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Witlof verspreidde zich in het noorden door gebrek aan welke grondstof ?",
+        "propositions": [
+          "Thee",
+          "Gerst",
+          "Koffie",
+          "Cacao"
+        ],
+        "réponse": "Koffie",
+        "anecdote": "Het is de wortel van industrieel cichorei, in cossettes gesneden of geraspt, vervolgens gedroogd, geroosterd en gemalen, die wordt gebruikt."
+      },
+      {
+        "id": 2,
+        "question": "Welke rivier die door Doornik stroomt, doorkruist ook de stad Valenciennes ?",
+        "propositions": [
+          "yzer",
+          "Deule",
+          "Schelde",
+          "sjaal"
+        ],
+        "réponse": "Schelde",
+        "anecdote": "De Schelde is een 355 km lange rivier die drie landen (Frankrijk, België en Nederland) doorkruist alvorens uit te monden in de Noordzee."
+      },
+      {
+        "id": 3,
+        "question": "Welke drank is voor de mensen in het noorden wat cider is voor de Bretons ?",
+        "propositions": [
+          "Armagnac",
+          "Drie seconden",
+          "kirsch",
+          "Bier"
+        ],
+        "réponse": "Bier",
+        "anecdote": "Het grootste deel van de productie vindt plaats in de Elzas, Lotharingen, Nord-Pas-de-Calais, Bretagne en Bourgondië."
+      },
+      {
+        "id": 4,
+        "question": "In welke maand verlaten fietsers Parijs om Roubaix te bereiken ?",
+        "propositions": [
+          "augustus",
+          "september",
+          "juli",
+          "juni"
+        ],
+        "réponse": "juni",
+        "anecdote": "Paris-Roubaix is een wielerwedstrijd die in 1896 werd opgericht door Théodore Vienne na de opening van de nieuwe wielerbaan van Roubaix."
+      },
+      {
+        "id": 5,
+        "question": "Waar geniet je van als je om een blondine in het noorden vraagt ?",
+        "propositions": [
+          "Een cocktail",
+          "Een spijsvertering",
+          "Een biertje",
+          "Een toetje"
+        ],
+        "réponse": "Een biertje",
+        "anecdote": "Het wordt vaak verward tussen de term pils, die de kleur van het bier aangeeft, en de soorten bier strikt genomen."
+      },
+      {
+        "id": 6,
+        "question": "In welke stad in het noorden kun je het maanlicht bewonderen tijdens het passeren ?",
+        "propositions": [
+          "Bethune",
+          "Maubeuge",
+          "Cambria",
+          "duai"
+        ],
+        "réponse": "Maubeuge",
+        "anecdote": "Pierre Perrin, een taxichauffeur, staat bekend om « Un clair de lune à Maubeuge » (1962), een nummer dat negen weken in de hitlijsten stond."
+      },
+      {
+        "id": 7,
+        "question": "Hoeveel meter steekt Cap Gris-Nez boven de oceaan uit ?",
+        "propositions": [
+          "45 meter",
+          "55 meter",
+          "25 meter",
+          "35 meter"
+        ],
+        "réponse": "45 meter",
+        "anecdote": "Het ligt ongeveer 15 km ten noorden van Boulogne-sur-Mer en is het dichtstbijzijnde punt aan de Franse kust naar Engeland (30,3 km)."
+      },
+      {
+        "id": 8,
+        "question": "Welke architect bouwde de citadel van Lille en de vestingwerken van Duinkerke ?",
+        "propositions": [
+          "grommer",
+          "Beausire",
+          "ducret",
+          "Vauban"
+        ],
+        "réponse": "Vauban",
+        "anecdote": "De citadel van Lille, gedoopt door Vauban zelf, de koningin van de citadellen, is een militair bouwwerk dat opmerkelijk is vanwege zijn afmetingen."
+      },
+      {
+        "id": 9,
+        "question": "In welke stad in het noorden heeft de kristalindustrie een opmerkelijke bloei doorgemaakt ?",
+        "propositions": [
+          "Clety",
+          "Sint Omer",
+          "bogen",
+          "huis"
+        ],
+        "réponse": "bogen",
+        "anecdote": "De stad Arques is ook beroemd om zijn oude Fontinettes-bootlift, nu uniek in Frankrijk."
+      },
+      {
+        "id": 10,
+        "question": "Welke ongeraffineerde bruine suiker is een Belgische en noordelijke specialiteit ?",
+        "propositions": [
+          "bruine suiker",
+          "panela",
+          "Wasabon",
+          "cosumar"
+        ],
+        "réponse": "bruine suiker",
+        "anecdote": "Het wordt voornamelijk gebruikt op pannenkoeken, in kwark, rijstpudding, gebakken appels of gewoon op brood."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk gebouw uit 1905 staat in Tourcoing op de inventaris van historische monumenten ?",
+        "propositions": [
+          "Station",
+          "Belfort",
+          "Stadhuis",
+          "Casino's"
+        ],
+        "réponse": "Station",
+        "anecdote": "Station Tourcoing diende als decor voor de openingsscène van de film « Le Corps de mon ennemi » (1976), geregisseerd door Henri Verneuil."
+      },
+      {
+        "id": 12,
+        "question": "In welk jaar werd de Eurotunnel in Coquelles voor het grote publiek geopend ?",
+        "propositions": [
+          "1998",
+          "1996",
+          "2000",
+          "1994"
+        ],
+        "réponse": "1994",
+        "anecdote": "Getlink vervoert jaarlijks 20 miljoen passagiers, 1,6 miljoen vrachtwagens en 2 miljard ton goederen."
+      },
+      {
+        "id": 13,
+        "question": "Welk pretpark ligt in het bos van Merlimont ?",
+        "propositions": [
+          "Zygofolis",
+          "Kleinigheid",
+          "Aquanor",
+          "Scenoparc"
+        ],
+        "réponse": "Kleinigheid",
+        "anecdote": "Met een veertigtal attracties, betalende spelletjes en shows is het het oudste actieve pretpark van Frankrijk."
+      },
+      {
+        "id": 14,
+        "question": "Welk bloemmotief staat op het wapen van de stad Lille ?",
+        "propositions": [
+          "Lelie Bloem",
+          "Leeuw",
+          "Adelaar",
+          "Kruis"
+        ],
+        "réponse": "Lelie Bloem",
+        "anecdote": "Aanwezig in de Byzantijnse Romeinse wereld, is de fleur-de-lis een van de vier meest populaire figuren, samen met de kruisen, de adelaar en de leeuw."
+      },
+      {
+        "id": 15,
+        "question": "Hoe heet de lokale konijnen-, kalfs-, varkens- en kippenterrine ?",
+        "propositions": [
+          "Pintxos",
+          "broodpudding",
+          "Touffaye",
+          "Potjevlesch"
+        ],
+        "réponse": "Potjevlesch",
+        "anecdote": "Dit gerecht werd in de middeleeuwen in de Westhoek geboren, maar sommigen vinden zijn oorsprong meer bepaald in de regio van Duinkerken."
+      },
+      {
+        "id": 16,
+        "question": "Welke meerjarige, semi-aquatische plant wordt op grote schaal in de regio gekweekt ?",
+        "propositions": [
+          "Kervel",
+          "Waterkers",
+          "Spinazie",
+          "rucola"
+        ],
+        "réponse": "Waterkers",
+        "anecdote": "Waterkers heeft een recordgehalte aan ijzer en calcium, evenals veel vitamine C, waardoor het een voedsel bij uitstek is."
+      },
+      {
+        "id": 17,
+        "question": "Wat was de laatste grote stad in Frankrijk die op 9 mei 1945 werd bevrijd ?",
+        "propositions": [
+          "Calais",
+          "Tourcoing",
+          "Roubaix",
+          "Duinkerken"
+        ],
+        "réponse": "Duinkerken",
+        "anecdote": "De stad Duinkerken gaf zijn naam aan een van de nummers van de groep Indochine, die verscheen op het album « Paradize » dat in 2002 werd uitgebracht."
+      },
+      {
+        "id": 18,
+        "question": "Het afkooksel van welke wortel heeft gunstige effecten op de nieren en maag ?",
+        "propositions": [
+          "Witlof",
+          "Distel",
+          "Artisjok",
+          "Klis"
+        ],
+        "réponse": "Witlof",
+        "anecdote": "Witlof, in de vorm van een drankje, al dan niet gecombineerd met koffie, is erg populair in België, maar ook in Nord-Pas-de-Calais."
+      },
+      {
+        "id": 19,
+        "question": "Welke soorten vissen kun je aaien in de Nausicaa touch pool ?",
+        "propositions": [
+          "Schildpadden",
+          "Stralen",
+          "Haaien",
+          "Zalm"
+        ],
+        "réponse": "Stralen",
+        "anecdote": "Met meer dan 600.000 bezoekers per jaar is het na Parc Astérix de drukste toeristische trekpleister ten noorden van Parijs."
+      },
+      {
+        "id": 20,
+        "question": "In welke stad in Frankrijk bevindt zich een van de twee Eurotunnel-terminals ?",
+        "propositions": [
+          "Markeer",
+          "Coulogne",
+          "Boursine",
+          "Kakkerlakken"
+        ],
+        "réponse": "Kakkerlakken",
+        "anecdote": "Coquelles ligt vlakbij de haven van Calais, de belangrijkste Franse haven voor passagiersvervoer tussen Frankrijk en Engeland."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Om welke reus van 6,25 meter is de stad Kassel nu beroemd ?",
+        "propositions": [
+          "Mooie Helena",
+          "binbin",
+          "Reuze Papa",
+          "T'chio Blaise"
+        ],
+        "réponse": "Reuze Papa",
+        "anecdote": "Het carnaval van Paasmaandag is de gelegenheid van een groot feest wanneer Reuze Papa en Reuze Maman terugkeren naar de kudde."
+      },
+      {
+        "id": 22,
+        "question": "Welk dier staat afgebeeld op de windwijzer van het belfort van Bergues ?",
+        "propositions": [
+          "Haan",
+          "Leeuw",
+          "Beer",
+          "slikken"
+        ],
+        "réponse": "Leeuw",
+        "anecdote": "Het Belfort van Bergues werd in 1940 door brand beschadigd en in 1944 verwoest door explosies door Duitse troepen."
+      },
+      {
+        "id": 23,
+        "question": "Welk koekje vergelijkbaar met Speculoos wordt gemaakt in Aire-sur-la-Lys ?",
+        "propositions": [
+          "Kouign amann",
+          "Gimblette",
+          "Snickerdoodles",
+          "mastel"
+        ],
+        "réponse": "mastel",
+        "anecdote": "Deze kleine droge cake gemaakt van amandelpoeder, bruine suiker en oranjebloesem werd aan het einde van de 18e eeuw gemaakt door Cyrille Faes."
+      },
+      {
+        "id": 24,
+        "question": "Wat was de eerste artiestennaam van Line Renaud, geboren in Armentières ?",
+        "propositions": [
+          "Jean Aubert",
+          "Jane Iedereen",
+          "Josette Dayde",
+          "Jacqueline Ray"
+        ],
+        "réponse": "Jacqueline Ray",
+        "anecdote": "The Line Renaud Road in Las Vegas ligt in de buurt van de straten die zijn vernoemd naar zijn vrienden Frank Sinatra en Dean Martin."
+      },
+      {
+        "id": 25,
+        "question": "Wereldhoofdstad van cichorei, in welke stad is een museum gewijd ?",
+        "propositions": [
+          "Lecluse",
+          "duai",
+          "orchideeën",
+          "Bouvignies"
+        ],
+        "réponse": "orchideeën",
+        "anecdote": "Orchies is het hoofdkantoor van de Leroux Company. Dit bedrijf is wereldleider in de productie en verwerking van witlof."
+      },
+      {
+        "id": 26,
+        "question": "In welk muziekgenre is Didier Lockwood, geboren in Calais, een specialist ?",
+        "propositions": [
+          "Reggae",
+          "Land",
+          "Jazz",
+          "Elektro"
+        ],
+        "réponse": "Jazz",
+        "anecdote": "Hij is mede-oprichter van het Festival des Puces, een zigeunerjazzfestival dat elk jaar in de Puces de Saint-Ouen wordt gehouden."
+      },
+      {
+        "id": 27,
+        "question": "Welke beroemde bokser, afkomstig uit Hénin-Beaumont, kreeg de bijnaam ",
+        "propositions": [
+          "Alphonse Halimi",
+          "Maurice Holtzer",
+          "Steve Herelius",
+          "Charles Humez"
+        ],
+        "réponse": "Charles Humez",
+        "anecdote": "Hij moest zijn loopbaan stopzetten na een blessure tijdens een verdediging van zijn Europese kampioenstitel in Berlijn op 4 oktober 1958."
+      },
+      {
+        "id": 28,
+        "question": "Welke oude havenstad van Pas-de-Calais roept Dante op in « Divine Comédie » ?",
+        "propositions": [
+          "Brest",
+          "wissant",
+          "Boulogne",
+          "Calais"
+        ],
+        "réponse": "wissant",
+        "anecdote": "De « Commedia » is Dantes beroemdste werk en een van de belangrijkste getuigenissen van de middeleeuwse beschaving."
+      },
+      {
+        "id": 29,
+        "question": "Welke Roubaisien won de Parijs-Roubaix in 1912 en 1914 ?",
+        "propositions": [
+          "Henri Pelissier",
+          "Achille Souchard",
+          "John Alavoine",
+          "Charles Crupelandt"
+        ],
+        "réponse": "Charles Crupelandt",
+        "anecdote": "Charles Crupelandt stierf in 1955 en kreeg de bijnaam de Stier van het Noorden vanwege zijn uitzonderlijke grootte en vooral zijn sprints."
+      },
+      {
+        "id": 30,
+        "question": "Wat is de duurste ruimte in het « Monopoly » van Nord-Pas-de-Calais ?",
+        "propositions": [
+          "Rijsel",
+          "Duinkerken",
+          "Roubaix",
+          "Tourcoing"
+        ],
+        "réponse": "Rijsel",
+        "anecdote": "Monopoly is een bordspel op de baan waarvan het doel is, door het kopen en verkopen van eigendommen, tegenstanders te ruïneren."
+      }
+    ]
+    }
+  }
+}

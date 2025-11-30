@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-07-28",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sciences",
+      "nom": "Planète Mars",
+      "slogan": "La planète rouge"
+    },
+    "en": {
+      "catégorie": "Sciences",
+      "nom": "Planet Mars",
+      "slogan": "The red planet"
+    },
+    "es": {
+      "catégorie": "Ciencias",
+      "nom": "Planeta Marte",
+      "slogan": "El planeta rojo"
+    },
+    "it": {
+      "catégorie": "Scienze",
+      "nom": "Pianeta Marte",
+      "slogan": "Il pianeta rosso"
+    },
+    "de": {
+      "catégorie": "Wissenschaft",
+      "nom": "Planet Mars",
+      "slogan": "Der Rote Planet"
+    },
+    "nl": {
+      "catégorie": "Sciences",
+      "nom": "Planeet Mars",
+      "slogan": "De rode planeet"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle couleur caractérise visuellement la planète Mars ?",
+        "propositions": [
+          "Jaune",
+          "Verte",
+          "Rouge",
+          "Bleue"
+        ],
+        "réponse": "Rouge",
+        "anecdote": "Cette couleur apparente est due à l'abondance de l'hématite amorphe ou oxyde de fer à sa surface."
+      },
+      {
+        "id": 2,
+        "question": "Quel film de Ridley Scott met en scène Matt Damon sur la planète Mars ?",
+        "propositions": [
+          "Exodus",
+          "Les Associés",
+          "Prometheus",
+          "Seul sur Mars"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon a accepté d'interpréter le personnage de Mark Watney, deux jours après avoir reçu le scénario."
+      },
+      {
+        "id": 3,
+        "question": "Quelle est la position de Mars par ordre de distance croissante au Soleil ?",
+        "propositions": [
+          "Deuxième",
+          "Cinquième",
+          "Troisième",
+          "Quatrième"
+        ],
+        "réponse": "Quatrième",
+        "anecdote": "Son éloignement au Soleil est compris entre 1,381 et 1,666 UA, soit 206,6 à 249,2 millions de kilomètres."
+      },
+      {
+        "id": 4,
+        "question": "Outre Phobos, quel est l'autre petit satellite naturel de Mars ?",
+        "propositions": [
+          "Peneos",
+          "Erebos",
+          "Déimos",
+          "Biblos"
+        ],
+        "réponse": "Déimos",
+        "anecdote": "De même nature que Phobos, Déimos orbite à un peu plus de 23 000 km d'altitude, sur une orbite quasiment circulaire."
+      },
+      {
+        "id": 5,
+        "question": "Quel film est une parodie de « La Guerre des mondes » de H. G. Wells ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "Mission to Mars",
+          "Mars Attacks!"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "Par de nombreux aspects, le film « Mars Attacks! » rappelle le film « Les soucoupes volantes attaquent » de 1956."
+      },
+      {
+        "id": 6,
+        "question": "De quoi est constamment chargée l'atmosphère martienne ?",
+        "propositions": [
+          "Poussière",
+          "Eau",
+          "Électrons",
+          "Nuages"
+        ],
+        "réponse": "Poussière",
+        "anecdote": "Cette poussière, responsable de la teinte ocre, est continuellement injectée dans l'atmosphère par des tourbillons de poussière."
+      },
+      {
+        "id": 7,
+        "question": "Selon John Gray, si les hommes viennent de Mars, d'où viennent les femmes ?",
+        "propositions": [
+          "De Vénus",
+          "De Saturne",
+          "De Pluton",
+          "De Neptune"
+        ],
+        "réponse": "De Vénus",
+        "anecdote": "Le spectacle et le livre (essai américain paru en 1992) traitent les relations du couple sous leur angle très caricaturé."
+      },
+      {
+        "id": 8,
+        "question": "Dans quel film exploite-t-on Mars pour le turbinium enfoui dans son sous-sol ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "John Carter",
+          "Mission to Mars"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell a repris le rôle rendu célèbre par Schwarzenegger dans le remake « Total Recall : Mémoires programmées »."
+      },
+      {
+        "id": 9,
+        "question": "Quelle est la saison la plus longue de l'hémisphère nord de Mars ?",
+        "propositions": [
+          "Automne",
+          "Hiver",
+          "Été",
+          "Printemps"
+        ],
+        "réponse": "Printemps",
+        "anecdote": "La saison la plus longue est le printemps (198 jours), qui excède la plus courte (l'automne, 146 jours) de 35 %."
+      },
+      {
+        "id": 10,
+        "question": "Quel film autour de Mars a réuni Carrie-Anne Moss et Val Kilmer ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "Mission to Mars",
+          "John Carter"
+        ],
+        "réponse": "Planète rouge",
+        "anecdote": "Dans le film, une éruption solaire oblige l'équipage à atterrir en catastrophe, transformant l'expédition en véritable mission suicide."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle astromobile a été envoyée sur Mars par la NASA en 2003 ?",
+        "propositions": [
+          "Phoenix",
+          "InSight",
+          "ExoMars",
+          "Spirit"
+        ],
+        "réponse": "Spirit",
+        "anecdote": "Spirit a pour objectif principal l'étude géologique de la surface de Mars d'une région jugée susceptible d'avoir été autrefois irriguée."
+      },
+      {
+        "id": 12,
+        "question": "Combien de temps environ Mars met-elle pour faire le tour du Soleil ?",
+        "propositions": [
+          "Deux ans",
+          "Cinq ans",
+          "Quatre ans",
+          "Trois ans"
+        ],
+        "réponse": "Deux ans",
+        "anecdote": "Mars est une planète tellurique moitié moins grande que la Terre et près de dix fois moins massive que celle-ci."
+      },
+      {
+        "id": 13,
+        "question": "Quel film est une libre adaptation du roman « Une princesse de Mars » ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "John Carter",
+          "Mission to Mars"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » est la deuxième adaptation à l'écran des romans mettant en scène John Carter, après « Les Chroniques de Mars »."
+      },
+      {
+        "id": 14,
+        "question": "Quelle sonde fut la première à survoler Mars en 1965 ?",
+        "propositions": [
+          "Opportunity",
+          "Viking 2",
+          "Spirit",
+          "Mariner 4"
+        ],
+        "réponse": "Mariner 4",
+        "anecdote": "Dès 1965, Mariner 4 permit de découvrir une planète dépourvue de champ magnétique global avec une atmosphère ténue."
+      },
+      {
+        "id": 15,
+        "question": "Quel film de science-fiction de Brian de Palma fait référence au visage de Mars ?",
+        "propositions": [
+          "Mission to Mars",
+          "Planète rouge",
+          "John Carter",
+          "Total Recall"
+        ],
+        "réponse": "Mission to Mars",
+        "anecdote": "Brian De Palma a voulu réaliser avec le film « Mission to Mars » une approche ultra-réaliste et plausible d'un point de vue scientifique."
+      },
+      {
+        "id": 16,
+        "question": "Quelle est la température moyenne relevée à la surface de Mars ?",
+        "propositions": [
+          "-63 °C",
+          "103 °C",
+          "216 °C",
+          "-114 °C"
+        ],
+        "réponse": "-63 °C",
+        "anecdote": "Malgré la faible inertie thermique, Viking 1 Lander a toutefois relevé des variations diurnes allant typiquement de -89 à -31 °C."
+      },
+      {
+        "id": 17,
+        "question": "Quel orbiteur a permis de cartographier la presque totalité de la surface martienne ?",
+        "propositions": [
+          "Mariner 9",
+          "Beagle 2",
+          "Viking 1",
+          "Spoutnik 24"
+        ],
+        "réponse": "Mariner 9",
+        "anecdote": "Ce sont les données recueillies à cette occasion sur lesquelles se sont notamment fondées les missions Viking 1 et Viking 2."
+      },
+      {
+        "id": 18,
+        "question": "Quelle marque a intégré dans son logo le symbole astronomique de Mars ?",
+        "propositions": [
+          "Audi",
+          "Volvo",
+          "Skoda",
+          "Renault"
+        ],
+        "réponse": "Volvo",
+        "anecdote": "Le cercle avec une flèche pointant vers le nord-est marque son association avec le fer, et donc l'industrie sidérurgique."
+      },
+      {
+        "id": 19,
+        "question": "Dans quel jeu vidéo sorti en 1993 l'action se passe-t-elle exclusivement sur Mars ?",
+        "propositions": [
+          "Doom",
+          "Blender",
+          "Ryzom",
+          "Etherpad"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » fait partie des premiers jeux vidéo à utiliser un graphisme en 3D immersive et un mode jeu multijoueur en réseau."
+      },
+      {
+        "id": 20,
+        "question": "Quelle astromobile a atterri sur Mars trois semaines après son jumeau Spirit ?",
+        "propositions": [
+          "Octopus",
+          "Opportunity",
+          "Origin",
+          "Observation"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Depuis le 10 juin 2018, suite à une importante tempête ayant touché la planète Mars, Opportunity n'émet plus aucun signal."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle est le plus emblématique des volcans boucliers martiens ?",
+        "propositions": [
+          "Albor Tholus",
+          "Syrtis Major",
+          "Olympus Mons",
+          "Peneus Patera"
+        ],
+        "réponse": "Olympus Mons",
+        "anecdote": "Olympus Mons s'élève à 22,5 km en moyenne au-dessus des plaines environnantes, dont l'altitude est inférieure au niveau de référence."
+      },
+      {
+        "id": 22,
+        "question": "Quelle sonde a découvert à l'été 2008 de la glace d'eau à une faible profondeur ?",
+        "propositions": [
+          "Beagle 2",
+          "Cosmos",
+          "Phoenix",
+          "Deep Space"
+        ],
+        "réponse": "Phoenix",
+        "anecdote": "L'engin qui s'est posé sur le sol de Mars a une masse de 350 kg et dispose de deux petits laboratoires d'analyse chimique."
+      },
+      {
+        "id": 23,
+        "question": "En quelle année la planète Mars sera-t-elle la plus proche de la Terre ?",
+        "propositions": [
+          "2050",
+          "2100",
+          "2150",
+          "2200"
+        ],
+        "réponse": "2050",
+        "anecdote": "Un rapprochement encore un peu plus resserré est prévu le 28 août 2287, avec une distance de 55,688 millions de kilomètres."
+      },
+      {
+        "id": 24,
+        "question": "Quel astronome amateur américain a fait surgir le débat sur les canaux de Mars ?",
+        "propositions": [
+          "Percival Lowell",
+          "Lewis Swift",
+          "Alvan Clark",
+          "Henry Draper"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "Astronome amateur inspiré et entreprenant, Lowell a fondé un observatoire qui porte son nom à Flagstaff, en Arizona."
+      },
+      {
+        "id": 25,
+        "question": "Au-dessus de quel bassin naissent les tempêtes de poussière sur Mars ?",
+        "propositions": [
+          "Arabia Terra",
+          "Malea Planum",
+          "Aeolis Palus",
+          "Hellas Planitia"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "Ce bassin d'impact d'environ 2 200 km de diamètre et 9 500 m de profondeur est situé dans l'hémisphère sud de la planète Mars."
+      },
+      {
+        "id": 26,
+        "question": "Dans la géologie martienne, quel terme correspond aux terrains les plus anciens ?",
+        "propositions": [
+          "Noachien",
+          "Hespérien",
+          "Phyllosien",
+          "Amazonien"
+        ],
+        "réponse": "Noachien",
+        "anecdote": "Cette échelle repose essentiellement sur la comparaison quantitative de la cratérisation des différents types de terrains martiens."
+      },
+      {
+        "id": 27,
+        "question": "Quel nom a été donné au plus vaste volcan bouclier de la planète Mars ?",
+        "propositions": [
+          "Alba Mons",
+          "Albor Tholus",
+          "Syrtis Major",
+          "Peneus Patera"
+        ],
+        "réponse": "Alba Mons",
+        "anecdote": "Avec des restes de coulées de laves s'étendant jusqu'à 1 350 km de son sommet, sa taille est comparable à celle des États-Unis."
+      },
+      {
+        "id": 28,
+        "question": "Qui a découvert que l'orbite de Mars était elliptique et non circulaire ?",
+        "propositions": [
+          "Isaac Newton",
+          "Edmond Halley",
+          "Nicolas Copernic",
+          "Johannes Kepler"
+        ],
+        "réponse": "Johannes Kepler",
+        "anecdote": "Après six ans de calcul, Kepler définira sa première loi qu'il publiera en 1609 dans son ouvrage « Astronomia nova »."
+      },
+      {
+        "id": 29,
+        "question": "Qui a reçu le prix Nebula du meilleur roman en 1994 pour « L'Envol de Mars » ?",
+        "propositions": [
+          "Scott Baker",
+          "Greg Bear",
+          "Tim Powers",
+          "Michel Jeury"
+        ],
+        "réponse": "Greg Bear",
+        "anecdote": "Greg Bear a été journaliste, dessinateur de science-fiction, libraire et conseiller technique pour quelques séries télévisées."
+      },
+      {
+        "id": 30,
+        "question": "Quelle série de bande dessinée française place Mars en voie de terraformation ?",
+        "propositions": [
+          "Jukurpa",
+          "Gord",
+          "Aménophis IV",
+          "Atome Kid"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » est une série de bande dessinée française scénarisée par Dieter et dessinée par Étienne Le Roux."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What color visually characterizes the planet Mars ?",
+        "propositions": [
+          "Green",
+          "Blue",
+          "Yellow",
+          "Red"
+        ],
+        "réponse": "Red",
+        "anecdote": "This apparent color is due to the abundance of amorphous hematite or iron oxide on its surface."
+      },
+      {
+        "id": 2,
+        "question": "Which Ridley Scott movie features Matt Damon on the planet Mars ?",
+        "propositions": [
+          "Exodus",
+          "Seul sur Mars",
+          "Les Associés",
+          "Prometheus"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon agreed to play Mark Watney's character two days after receiving the script."
+      },
+      {
+        "id": 3,
+        "question": "What is the position of Mars in order of increasing distance from the Sun ?",
+        "propositions": [
+          "Fourth",
+          "Second",
+          "Fifth",
+          "Third"
+        ],
+        "réponse": "Fourth",
+        "anecdote": "Its distance from the Sun is between 1.381 and 1.666 AU, or 206.6 to 249.2 million kilometers."
+      },
+      {
+        "id": 4,
+        "question": "Besides Phobos, what is the other small natural satellite of Mars ?",
+        "propositions": [
+          "Bibles",
+          "peneos",
+          "Erebus",
+          "Deimos"
+        ],
+        "réponse": "Deimos",
+        "anecdote": "Similar in nature to Phobos, Deimos orbits at an altitude of just over 23,000 km, in an almost circular orbit."
+      },
+      {
+        "id": 5,
+        "question": "Which movie is a parody of H. G. Wells' « War of the Worlds » ?",
+        "propositions": [
+          "Mission to Mars",
+          "Mars Attacks!",
+          "Total Recall",
+          "Planète rouge"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "In many ways, the movie « Mars Attacks! » is reminiscent of the 1956 movie « Flying Saucers Attack »."
+      },
+      {
+        "id": 6,
+        "question": "What is the Martian atmosphere constantly charged with ?",
+        "propositions": [
+          "Electrons",
+          "Water",
+          "Dust",
+          "Clouds"
+        ],
+        "réponse": "Dust",
+        "anecdote": "This dust, responsible for the ocher tint, is continuously injected into the atmosphere by dust devils."
+      },
+      {
+        "id": 7,
+        "question": "According to John Gray, if men are from Mars, where are women from ?",
+        "propositions": [
+          "Of Neptune",
+          "Of Saturn",
+          "Of Pluto",
+          "Of Venus"
+        ],
+        "réponse": "Of Venus",
+        "anecdote": "The show and the book (American essay published in 1992) deal with the relationship of the couple from their very caricatured angle."
+      },
+      {
+        "id": 8,
+        "question": "In which film is Mars exploited for the turbinium buried in its basement ?",
+        "propositions": [
+          "John Carter",
+          "Mission to Mars",
+          "Total Recall",
+          "Planète rouge"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell reprized the role made famous by Schwarzenegger in the « Total Recall : Programmed Memories » remake."
+      },
+      {
+        "id": 9,
+        "question": "What is the longest season in the northern hemisphere of Mars ?",
+        "propositions": [
+          "Summer",
+          "Spring",
+          "Autumn",
+          "Winter"
+        ],
+        "réponse": "Spring",
+        "anecdote": "The longest season is spring (198 days), which exceeds the shortest (autumn, 146 days) by 35%."
+      },
+      {
+        "id": 10,
+        "question": "What movie around Mars brought together Carrie-Anne Moss and Val Kilmer ?",
+        "propositions": [
+          "John Carter",
+          "Total Recall",
+          "Mission to Mars",
+          "Red Planet"
+        ],
+        "réponse": "Red Planet",
+        "anecdote": "In the film, a solar flare forces the crew to crash-land, turning the expedition into a true suicide mission."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What rover was sent to Mars by NASA in 2003 ?",
+        "propositions": [
+          "phoenix",
+          "Spirit",
+          "ExoMars",
+          "Insight"
+        ],
+        "réponse": "Spirit",
+        "anecdote": "Spirit's main objective is the geological study of the surface of Mars in an area deemed likely to have once been irrigated."
+      },
+      {
+        "id": 12,
+        "question": "Approximately how long does Mars take to go around the Sun ?",
+        "propositions": [
+          "Five years",
+          "Two years",
+          "Four years",
+          "Three years"
+        ],
+        "réponse": "Two years",
+        "anecdote": "Mars is a telluric planet half the size of Earth and almost ten times less massive than the latter."
+      },
+      {
+        "id": 13,
+        "question": "Which film is a loose adaptation of the novel « A Princess of Mars » ?",
+        "propositions": [
+          "Total Recall",
+          "Mission to Mars",
+          "Red Planet",
+          "John Carter"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » is the second screen adaptation of the novels starring John Carter, after « The Chronicles of Mars »."
+      },
+      {
+        "id": 14,
+        "question": "Which probe was the first to fly over Mars in 1965 ?",
+        "propositions": [
+          "Opportunity",
+          "Spirit",
+          "Viking 2",
+          "Mariner 4"
+        ],
+        "réponse": "Mariner 4",
+        "anecdote": "As early as 1965, Mariner 4 made it possible to discover a planet devoid of a global magnetic field with a thin atmosphere."
+      },
+      {
+        "id": 15,
+        "question": "Which Brian de Palma sci-fi movie references the face of Mars ?",
+        "propositions": [
+          "John Carter",
+          "Total Recall",
+          "Red Planet",
+          "Mission to Mars"
+        ],
+        "réponse": "Mission to Mars",
+        "anecdote": "Brian De Palma wanted to achieve with the film « Mission to Mars » an ultra-realistic and plausible approach from a scientific point of view."
+      },
+      {
+        "id": 16,
+        "question": "What is the average temperature recorded on the surface of Mars ?",
+        "propositions": [
+          "216°C",
+          "-114°C",
+          "-63°C",
+          "103°C"
+        ],
+        "réponse": "-63°C",
+        "anecdote": "Despite the low thermal inertia, however, Viking 1 Lander noted diurnal variations typically ranging from -89 to -31°C."
+      },
+      {
+        "id": 17,
+        "question": "Which orbiter made it possible to map almost the entire Martian surface ?",
+        "propositions": [
+          "Viking 1",
+          "Mariner 9",
+          "Beagle 2",
+          "Sputnik 24"
+        ],
+        "réponse": "Mariner 9",
+        "anecdote": "These are the data collected on this occasion on which the Viking 1 and Viking 2 missions were based."
+      },
+      {
+        "id": 18,
+        "question": "Which brand has integrated the astronomical symbol of Mars into its logo ?",
+        "propositions": [
+          "Škoda",
+          "Audi",
+          "Volvo",
+          "Renault"
+        ],
+        "réponse": "Volvo",
+        "anecdote": "The circle with an arrow pointing northeast marks its association with iron, and therefore the steel industry."
+      },
+      {
+        "id": 19,
+        "question": "In which video game released in 1993 does the action take place exclusively on Mars ?",
+        "propositions": [
+          "Blender",
+          "Etherpad",
+          "Doom",
+          "Ryzom"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » is one of the first video games to use immersive 3D graphics and a network multiplayer game mode."
+      },
+      {
+        "id": 20,
+        "question": "Which rover landed on Mars three weeks after its twin Spirit ?",
+        "propositions": [
+          "Surveyor",
+          "PathFinder",
+          "Opportunity",
+          "Beagle 3"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Since June 10, 2018, following a major storm that hit the planet Mars, Opportunity no longer emits any signal."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What is the most iconic of the Martian shield volcanoes ?",
+        "propositions": [
+          "Syrtis Major",
+          "Peneus Patera",
+          "Albor Tholus",
+          "Olympus Mons"
+        ],
+        "réponse": "Olympus Mons",
+        "anecdote": "Olympus Mons rises 22.5 km on average above the surrounding plains, whose altitude is lower than the reference level."
+      },
+      {
+        "id": 22,
+        "question": "Which probe discovered in the summer of 2008 water ice at a shallow depth ?",
+        "propositions": [
+          "Cosmos",
+          "Deep Space",
+          "Beagle 2",
+          "phoenix"
+        ],
+        "réponse": "phoenix",
+        "anecdote": "The machine which landed on the ground of Mars has a mass of 350 kg and has two small chemical analysis laboratories."
+      },
+      {
+        "id": 23,
+        "question": "In which year will Mars be closest to Earth ?",
+        "propositions": [
+          "2200",
+          "2150",
+          "2050",
+          "2100"
+        ],
+        "réponse": "2050",
+        "anecdote": "An even closer rapprochement is scheduled for August 28, 2287, with a distance of 55.688 million kilometers."
+      },
+      {
+        "id": 24,
+        "question": "Which American amateur astronomer sparked the Mars canals debate ?",
+        "propositions": [
+          "Lewis Swift",
+          "Alvan Clark",
+          "Henry Draper",
+          "Percival Lowell"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "An inspired and enterprising amateur astronomer, Lowell founded an observatory that bears his name in Flagstaff, Arizona."
+      },
+      {
+        "id": 25,
+        "question": "Over which basin do dust storms on Mars originate ?",
+        "propositions": [
+          "Aeolis Palus",
+          "Arabia Terra",
+          "Hellas Planitia",
+          "Malea Planum"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "This impact basin, approximately 2,200 km in diameter and 9,500 m deep, is located in the southern hemisphere of the planet Mars."
+      },
+      {
+        "id": 26,
+        "question": "In Martian geology, which term corresponds to the oldest terrains ?",
+        "propositions": [
+          "Amazonian",
+          "Hesperian",
+          "Noachian",
+          "Phyllosian"
+        ],
+        "réponse": "Noachian",
+        "anecdote": "This scale is essentially based on the quantitative comparison of the cratering of different types of Martian terrain."
+      },
+      {
+        "id": 27,
+        "question": "What name was given to the largest shield volcano on the planet Mars ?",
+        "propositions": [
+          "Peneus Patera",
+          "Albor Tholus",
+          "Alba Mons",
+          "Syrtis Major"
+        ],
+        "réponse": "Alba Mons",
+        "anecdote": "With remnants of lava flows extending up to 1,350 km from its summit, its size is comparable to that of the United States."
+      },
+      {
+        "id": 28,
+        "question": "Who discovered that the orbit of Mars was elliptical and not circular ?",
+        "propositions": [
+          "Johannes Kepler",
+          "Edmond Halley",
+          "Nicolaus Copernicus",
+          "Issac Newton"
+        ],
+        "réponse": "Johannes Kepler",
+        "anecdote": "After six years of calculation, Kepler will define his first law which he will publish in 1609 in his work « Astronomia nova »."
+      },
+      {
+        "id": 29,
+        "question": "Who received the Nebula prize for best novel in 1994 for « Rise of Mars » ?",
+        "propositions": [
+          "Scott Baker",
+          "Greg Bear",
+          "Tim Powers",
+          "Michel Jeury"
+        ],
+        "réponse": "Greg Bear",
+        "anecdote": "Greg Bear has been a journalist, science fiction cartoonist, bookseller and technical advisor for a few television series."
+      },
+      {
+        "id": 30,
+        "question": "Which French comic series puts Mars in the process of terraforming ?",
+        "propositions": [
+          "Gord",
+          "Atome Kid",
+          "Jukurpa",
+          "Aménophis IV"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » is a French comic book series scripted by Dieter and drawn by Étienne Le Roux."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Farbe charakterisiert den Planeten Mars optisch ?",
+        "propositions": [
+          "Grün",
+          "Gelb",
+          "Blau",
+          "Rot"
+        ],
+        "réponse": "Rot",
+        "anecdote": "Diese scheinbare Farbe ist auf die Fülle von amorphem Hämatit oder Eisenoxid auf seiner Oberfläche zurückzuführen."
+      },
+      {
+        "id": 2,
+        "question": "In welchem Film von Ridley Scott ist Matt Damon auf dem Planeten Mars zu sehen ?",
+        "propositions": [
+          "Les Associés",
+          "Seul sur Mars",
+          "Exodus",
+          "Prometheus"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon erklärte sich zwei Tage nach Erhalt des Drehbuchs bereit, Mark Watneys Rolle zu spielen."
+      },
+      {
+        "id": 3,
+        "question": "Wie ist die Position des Mars in der Reihenfolge zunehmender Entfernung von der Sonne ?",
+        "propositions": [
+          "Zweite",
+          "Dritter",
+          "Fünfte",
+          "Vierter"
+        ],
+        "réponse": "Vierter",
+        "anecdote": "Seine Entfernung von der Sonne beträgt zwischen 1,381 und 1,666 AE oder 206,6 bis 249,2 Millionen Kilometer."
+      },
+      {
+        "id": 4,
+        "question": "Was ist neben Phobos der andere kleine natürliche Satellit des Mars ?",
+        "propositions": [
+          "Erebbus",
+          "Bibeln",
+          "Deimos",
+          "Peneos"
+        ],
+        "réponse": "Deimos",
+        "anecdote": "Ähnlich wie Phobos umkreist Deimos in einer Höhe von etwas mehr als 23.000 km eine fast kreisförmige Umlaufbahn."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Film ist eine Parodie auf « Krieg der Welten » von H. G. Wells ?",
+        "propositions": [
+          "Mars Attacks!",
+          "Planète rouge",
+          "Mission to Mars",
+          "Total Recall"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "In vielerlei Hinsicht erinnert der Film « Mars Attacks! » an den Film « Flying Saucers Attack » von 1956."
+      },
+      {
+        "id": 6,
+        "question": "Womit wird die Marsatmosphäre ständig aufgeladen ?",
+        "propositions": [
+          "Elektronen",
+          "Wolken",
+          "Staub",
+          "Wasser"
+        ],
+        "réponse": "Staub",
+        "anecdote": "Dieser Staub, der für die Ockerfärbung verantwortlich ist, wird von Staubteufeln kontinuierlich in die Atmosphäre geschleudert."
+      },
+      {
+        "id": 7,
+        "question": "Laut John Gray, wenn Männer vom Mars sind, woher kommen Frauen ?",
+        "propositions": [
+          "des Saturns",
+          "der Venus",
+          "Von Pluto",
+          "Von Neptun"
+        ],
+        "réponse": "der Venus",
+        "anecdote": "Die Show und das Buch (amerikanischer Essay, erschienen 1992) behandeln die Beziehung des Paares aus ihrer sehr karikierten Perspektive."
+      },
+      {
+        "id": 8,
+        "question": "In welchem Film wird der Mars für das in seinem Keller vergrabene Turbinium ausgebeutet ?",
+        "propositions": [
+          "John Carter",
+          "Planète rouge",
+          "Mission to Mars",
+          "Total Recall"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell wiederholte die Rolle, die durch Schwarzenegger im Remake von « Total Recall : Programmed Memories » berühmt wurde."
+      },
+      {
+        "id": 9,
+        "question": "Was ist die längste Jahreszeit auf der Nordhalbkugel des Mars ?",
+        "propositions": [
+          "Herbst",
+          "Winter",
+          "Sommer",
+          "Frühling"
+        ],
+        "réponse": "Frühling",
+        "anecdote": "Die längste Saison ist der Frühling (198 Tage), der die kürzeste (Herbst, 146 Tage) um 35 % übertrifft."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Film rund um den Mars brachte Carrie-Anne Moss und Val Kilmer zusammen ?",
+        "propositions": [
+          "Totaler Rückruf",
+          "Mission zum Mars",
+          "Roter Planet",
+          "John Carter"
+        ],
+        "réponse": "Roter Planet",
+        "anecdote": "Im Film zwingt eine Sonneneruption die Crew zu einer Bruchlandung, wodurch die Expedition zu einem wahren Selbstmordkommando wird."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Rover wurde 2003 von der NASA zum Mars geschickt ?",
+        "propositions": [
+          "Geist",
+          "ExoMars",
+          "Phönix",
+          "Einsicht"
+        ],
+        "réponse": "Geist",
+        "anecdote": "Das Hauptziel von Spirit ist die geologische Untersuchung der Marsoberfläche in einem Gebiet, von dem angenommen wird, dass es einst bewässert wurde."
+      },
+      {
+        "id": 12,
+        "question": "Wie lange braucht der Mars ungefähr für einen Umlauf um die Sonne ?",
+        "propositions": [
+          "Fünf Jahre",
+          "Drei Jahre",
+          "Vier Jahre",
+          "Zwei Jahre"
+        ],
+        "réponse": "Zwei Jahre",
+        "anecdote": "Der Mars ist ein Tellurplanet, halb so groß wie die Erde und fast zehnmal weniger massiv als letztere."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Film ist eine lose Adaption des Romans « Eine Prinzessin vom Mars » ?",
+        "propositions": [
+          "Total Recall",
+          "John Carter",
+          "Mission zum Mars",
+          "Roter Planet"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » ist nach « The Chronicles of Mars » die zweite Verfilmung der Romane mit John Carter in der Hauptrolle."
+      },
+      {
+        "id": 14,
+        "question": "Welche Sonde flog 1965 als erste über den Mars ?",
+        "propositions": [
+          "Gelegenheit",
+          "Seemann 4",
+          "Wikinger 2",
+          "Geist"
+        ],
+        "réponse": "Seemann 4",
+        "anecdote": "Bereits 1965 ermöglichte Mariner 4 die Entdeckung eines Planeten ohne globales Magnetfeld mit einer dünnen Atmosphäre."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Science-Fiction-Film von Brian de Palma bezieht sich auf das Antlitz des Mars ?",
+        "propositions": [
+          "Total Recall",
+          "Mission zum Mars",
+          "Roter Planet",
+          "John Carter"
+        ],
+        "réponse": "Mission zum Mars",
+        "anecdote": "Brian De Palma wollte mit dem Film « Mission to Mars » einen ultrarealistischen und aus wissenschaftlicher Sicht plausiblen Ansatz erreichen."
+      },
+      {
+        "id": 16,
+        "question": "Welche Durchschnittstemperatur wird auf der Marsoberfläche gemessen ?",
+        "propositions": [
+          "103 °C",
+          "-114 °C",
+          "-63 °C",
+          "216 °C"
+        ],
+        "réponse": "-63 °C",
+        "anecdote": "Trotz der geringen thermischen Trägheit stellte Viking 1 Lander jedoch Tagesschwankungen fest, die typischerweise zwischen -89 und -31 °C lagen."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Orbiter hat es ermöglicht, fast die gesamte Marsoberfläche zu kartieren ?",
+        "propositions": [
+          "Spürhund 2",
+          "Sputnik 24",
+          "Wikinger 1",
+          "Seefahrer 9"
+        ],
+        "réponse": "Seefahrer 9",
+        "anecdote": "Dies sind die bei dieser Gelegenheit gesammelten Daten, auf denen die Missionen Viking 1 und Viking 2 basierten."
+      },
+      {
+        "id": 18,
+        "question": "Welche Marke hat das astronomische Symbol des Mars in ihr Logo integriert ?",
+        "propositions": [
+          "Skoda",
+          "Audi",
+          "Volvo",
+          "Renault"
+        ],
+        "réponse": "Volvo",
+        "anecdote": "Der Kreis mit einem nach Nordosten weisenden Pfeil markiert die Zugehörigkeit zum Eisen und damit zur Stahlindustrie."
+      },
+      {
+        "id": 19,
+        "question": "In welchem Videospiel, das 1993 veröffentlicht wurde, findet die Handlung ausschließlich auf dem Mars statt ?",
+        "propositions": [
+          "Doom",
+          "Ryzom",
+          "Etherpad",
+          "Blender"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » ist eines der ersten Videospiele, das immersive 3D-Grafiken und einen Netzwerk-Multiplayer-Spielmodus verwendet."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Rover landete drei Wochen nach seinem Zwilling Spirit auf dem Mars ?",
+        "propositions": [
+          "Beagle 3",
+          "Surveyor",
+          "Opportunity",
+          "PathFinder"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Seit dem 10. Juni 2018 sendet Opportunity nach einem großen Sturm, der den Planeten Mars getroffen hat, kein Signal mehr aus."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher der Schildvulkane des Mars ist der bekannteste ?",
+        "propositions": [
+          "Albor Tholus",
+          "Olympus Mons",
+          "Peneus Patera",
+          "Syrtis Major"
+        ],
+        "réponse": "Olympus Mons",
+        "anecdote": "Olympus Mons erhebt sich durchschnittlich 22,5 km über die umliegenden Ebenen, die unterhalb der Datumsebene liegen."
+      },
+      {
+        "id": 22,
+        "question": "Welche Sonde entdeckte im Sommer 2008 Wassereis in geringer Tiefe ?",
+        "propositions": [
+          "Kosmos",
+          "Spürhund 2",
+          "Weltraum",
+          "Phönix"
+        ],
+        "réponse": "Phönix",
+        "anecdote": "Die auf dem Marsboden gelandete Maschine hat eine Masse von 350 kg und verfügt über zwei kleine chemische Analyselabore."
+      },
+      {
+        "id": 23,
+        "question": "In welchem Jahr wird der Mars der Erde am nächsten sein ?",
+        "propositions": [
+          "2150",
+          "2050",
+          "2100",
+          "2200"
+        ],
+        "réponse": "2050",
+        "anecdote": "Eine noch engere Annäherung ist für den 28. August 2287 mit einer Distanz von 55,688 Millionen Kilometern geplant."
+      },
+      {
+        "id": 24,
+        "question": "Welcher amerikanische Amateurastronom hat die Debatte über die Marskanäle ausgelöst ?",
+        "propositions": [
+          "Henry Draper",
+          "Lewis Swift",
+          "Alvan Clark",
+          "Percival Lowell"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "Als inspirierter und unternehmungslustiger Amateurastronom gründete Lowell in Flagstaff, Arizona, ein Observatorium, das seinen Namen trägt."
+      },
+      {
+        "id": 25,
+        "question": "Über welchem Becken entstehen Staubstürme auf dem Mars ?",
+        "propositions": [
+          "Äolis Palus",
+          "Malea planum",
+          "Arabien Terra",
+          "Hellas Planitia"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "Dieses Einschlagbecken mit einem Durchmesser von etwa 2.200 km und einer Tiefe von 9.500 m befindet sich auf der Südhalbkugel des Planeten Mars."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Begriff entspricht in der Marsgeologie den ältesten Terrains ?",
+        "propositions": [
+          "Amazonas",
+          "Noachisch",
+          "Phyllosianisch",
+          "Hesperisch"
+        ],
+        "réponse": "Noachisch",
+        "anecdote": "Diese Skala basiert im Wesentlichen auf dem quantitativen Vergleich der Kraterbildung verschiedener Arten von Marsgelände."
+      },
+      {
+        "id": 27,
+        "question": "Wie hieß der größte Schildvulkan auf dem Planeten Mars ?",
+        "propositions": [
+          "Albor Tholus",
+          "Syrtis Major",
+          "Alba Mons",
+          "Peneus Patera"
+        ],
+        "réponse": "Alba Mons",
+        "anecdote": "Mit Überresten von Lavaströmen, die sich bis zu 1.350 km von seinem Gipfel erstrecken, ist seine Größe mit der der Vereinigten Staaten vergleichbar."
+      },
+      {
+        "id": 28,
+        "question": "Wer entdeckte, dass die Umlaufbahn des Mars elliptisch und nicht kreisförmig war ?",
+        "propositions": [
+          "Johannes Kepler",
+          "Edmond Halley",
+          "Nikolaus Kopernikus",
+          "Issac Newton"
+        ],
+        "réponse": "Johannes Kepler",
+        "anecdote": "Nach sechs Jahren Berechnung wird Kepler sein erstes Gesetz definieren, das er 1609 in seinem Werk « Astronomia nova » veröffentlichen wird."
+      },
+      {
+        "id": 29,
+        "question": "Wer erhielt 1994 den Nebula-Preis für den besten Roman für « Rise of Mars » ?",
+        "propositions": [
+          "Greg Bär",
+          "Tim Powers",
+          "Michel Jeury",
+          "Scott Bäcker"
+        ],
+        "réponse": "Greg Bär",
+        "anecdote": "Greg Bear war Journalist, Science-Fiction-Cartoonist, Buchhändler und technischer Berater für einige Fernsehserien."
+      },
+      {
+        "id": 30,
+        "question": "Welche französische Comicserie versetzt den Mars in einen Terraforming-Prozess ?",
+        "propositions": [
+          "Gord",
+          "Aménophis IV",
+          "Jukurpa",
+          "Atome Kid"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » ist eine französische Comicserie, die von Dieter geschrieben und von Étienne Le Roux gezeichnet wurde."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué color caracteriza visualmente al planeta Marte ?",
+        "propositions": [
+          "Verde",
+          "amarillo",
+          "azul",
+          "rojo"
+        ],
+        "réponse": "rojo",
+        "anecdote": "Este color aparente se debe a la abundancia de hematita amorfa u óxido de hierro en su superficie."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué película de Ridley Scott presenta a Matt Damon en el planeta Marte ?",
+        "propositions": [
+          "Seul sur Mars",
+          "Prometheus",
+          "Les Associés",
+          "Exodus"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon aceptó interpretar el personaje de Mark Watney dos días después de recibir el guión."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál es la posición de Marte en orden creciente de distancia al Sol ?",
+        "propositions": [
+          "Segundo",
+          "Quinto",
+          "Tercero",
+          "Cuarto"
+        ],
+        "réponse": "Cuarto",
+        "anecdote": "Su distancia al Sol está entre 1.381 y 1.666 AU, o 206,6 a 249,2 millones de kilómetros."
+      },
+      {
+        "id": 4,
+        "question": "Además de Fobos, ¿cuál es el otro pequeño satélite natural de Marte ?",
+        "propositions": [
+          "Erebo",
+          "Biblias",
+          "penes",
+          "Deimos"
+        ],
+        "réponse": "Deimos",
+        "anecdote": "De naturaleza similar a Fobos, Deimos orbita a una altitud de poco más de 23.000 km, en una órbita casi circular."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué película es una parodia de « La guerra de los mundos » de H. G. Wells ?",
+        "propositions": [
+          "Mars Attacks!",
+          "Planète rouge",
+          "Mission to Mars",
+          "Total Recall"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "En muchos sentidos, la película « Mars Attacks! » recuerda a la película de 1956 « Flying Saucers Attack »."
+      },
+      {
+        "id": 6,
+        "question": "¿De qué está constantemente cargada la atmósfera marciana ?",
+        "propositions": [
+          "Nubes",
+          "electrones",
+          "Polvo",
+          "Agua"
+        ],
+        "réponse": "Polvo",
+        "anecdote": "Este polvo, responsable del tinte ocre, es continuamente inyectado a la atmósfera por remolinos de polvo."
+      },
+      {
+        "id": 7,
+        "question": "Según John Gray, si los hombres son de Marte, ¿de dónde son las mujeres ?",
+        "propositions": [
+          "de Plutón",
+          "de venus",
+          "de Neptuno",
+          "de Saturno"
+        ],
+        "réponse": "de venus",
+        "anecdote": "La muestra y el libro (ensayo estadounidense publicado en 1992) abordan la relación de pareja desde su ángulo muy caricaturesco."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué película se explota a Marte por el turbinio enterrado en su sótano ?",
+        "propositions": [
+          "Total Recall",
+          "Planète rouge",
+          "John Carter",
+          "Mission to Mars"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell repitió el papel que Schwarzenegger hizo famoso en la nueva versión de « Total Recall : Programmed Memories »."
+      },
+      {
+        "id": 9,
+        "question": "¿Cuál es la estación más larga en el hemisferio norte de Marte ?",
+        "propositions": [
+          "Otoño",
+          "Invierno",
+          "Primavera",
+          "Verano"
+        ],
+        "réponse": "Primavera",
+        "anecdote": "La estación más larga es la primavera (198 días), que supera en un 35% a la más corta (otoño, 146 días)."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué película sobre Marte reunió a Carrie-Anne Moss y Val Kilmer ?",
+        "propositions": [
+          "Recuperación Total",
+          "Misión a Marte",
+          "Planeta rojo",
+          "John Carter"
+        ],
+        "réponse": "Planeta rojo",
+        "anecdote": "En la película, una llamarada solar obliga a la tripulación a hacer un aterrizaje forzoso, convirtiendo la expedición en una verdadera misión suicida."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué rover fue enviado a Marte por la NASA en 2003 ?",
+        "propositions": [
+          "Perspicacia",
+          "fénix",
+          "Espíritu",
+          "ExoMarte"
+        ],
+        "réponse": "Espíritu",
+        "anecdote": "El objetivo principal de Spirit es el estudio geológico de la superficie de Marte en un área que se cree que probablemente alguna vez fue irrigada."
+      },
+      {
+        "id": 12,
+        "question": "¿Aproximadamente cuánto tarda Marte en dar una vuelta alrededor del Sol ?",
+        "propositions": [
+          "cinco años",
+          "cuatro años",
+          "dos años",
+          "Tres años"
+        ],
+        "réponse": "dos años",
+        "anecdote": "Marte es un planeta telúrico del tamaño de la mitad de la Tierra y casi diez veces menos masivo que esta última."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué película es una adaptación libre de la novela « A Princess of Mars » ?",
+        "propositions": [
+          "Misión a Marte",
+          "John Carter",
+          "Planeta rojo",
+          "Total Recall"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » es la segunda adaptación cinematográfica de las novelas protagonizadas por John Carter, después de « Las crónicas de Marte »."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué sonda fue la primera en sobrevolar Marte en 1965 ?",
+        "propositions": [
+          "vikingo 2",
+          "Espíritu",
+          "Marinero 4",
+          "Oportunidad"
+        ],
+        "réponse": "Marinero 4",
+        "anecdote": "Ya en 1965, Mariner 4 hizo posible descubrir un planeta desprovisto de un campo magnético global con una atmósfera delgada."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué película de ciencia ficción de Brian de Palma hace referencia a la cara de Marte ?",
+        "propositions": [
+          "Misión a Marte",
+          "Planeta rojo",
+          "John Carter",
+          "Total Recall"
+        ],
+        "réponse": "Misión a Marte",
+        "anecdote": "Brian De Palma quería lograr con la película « Mission to Mars » un enfoque ultrarrealista y plausible desde un punto de vista científico."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuál es la temperatura promedio registrada en la superficie de Marte ?",
+        "propositions": [
+          "-63°C",
+          "103°C",
+          "216°C",
+          "-114°C"
+        ],
+        "réponse": "-63°C",
+        "anecdote": "Sin embargo, a pesar de la baja inercia térmica, Viking 1 Lander notó variaciones diurnas que oscilan típicamente entre -89 y -31 °C."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué orbitador hizo posible cartografiar casi toda la superficie marciana ?",
+        "propositions": [
+          "Sputnik 24",
+          "Marinero 9",
+          "vikingo 1",
+          "Beagle 2"
+        ],
+        "réponse": "Marinero 9",
+        "anecdote": "Estos son los datos recogidos en esta ocasión en los que se basaron las misiones Viking 1 y Viking 2."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué marca ha integrado el símbolo astronómico de Marte en su logotipo ?",
+        "propositions": [
+          "Audi",
+          "Škoda",
+          "Renault",
+          "volvo"
+        ],
+        "réponse": "volvo",
+        "anecdote": "El círculo con una flecha que apunta al noreste marca su asociación con el hierro y, por lo tanto, con la industria del acero."
+      },
+      {
+        "id": 19,
+        "question": "¿En qué videojuego lanzado en 1993 la acción tiene lugar exclusivamente en Marte ?",
+        "propositions": [
+          "Ryzom",
+          "Etherpad",
+          "Blender",
+          "Doom"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » es uno de los primeros videojuegos en utilizar gráficos 3D inmersivos y un modo de juego multijugador en red."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué rover aterrizó en Marte tres semanas después que su gemelo Spirit ?",
+        "propositions": [
+          "Beagle 3",
+          "Surveyor",
+          "Opportunity",
+          "PathFinder"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Desde el 10 de junio de 2018, luego de una gran tormenta que azotó el planeta Marte, Opportunity ya no emite ninguna señal."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál es el más icónico de los volcanes en escudo marcianos ?",
+        "propositions": [
+          "Peneo Pátera",
+          "Albor Tholus",
+          "Monte Olimpo",
+          "Syrtis mayor"
+        ],
+        "réponse": "Monte Olimpo",
+        "anecdote": "Olympus Mons se eleva un promedio de 22,5 km sobre las llanuras circundantes, que están por debajo del nivel de referencia."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué sonda descubrió en el verano de 2008 hielo de agua a poca profundidad ?",
+        "propositions": [
+          "Beagle 2",
+          "Espacio Profundo",
+          "cosmos",
+          "fénix"
+        ],
+        "réponse": "fénix",
+        "anecdote": "La máquina que aterrizó en el suelo de Marte tiene una masa de 350 kg y cuenta con dos pequeños laboratorios de análisis químico."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué año estará Marte más cerca de la Tierra ?",
+        "propositions": [
+          "2150",
+          "2050",
+          "2100",
+          "2200"
+        ],
+        "réponse": "2050",
+        "anecdote": "Un acercamiento aún más cercano está previsto para el 28 de agosto de 2287, con una distancia de 55.688 millones de kilómetros."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué astrónomo aficionado estadounidense provocó el debate sobre los canales de Marte ?",
+        "propositions": [
+          "Alván Clark",
+          "Lewis Swift",
+          "Percival Lowell",
+          "Henry Draper"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "Un astrónomo aficionado inspirado y emprendedor, Lowell fundó un observatorio que lleva su nombre en Flagstaff, Arizona."
+      },
+      {
+        "id": 25,
+        "question": "¿Sobre qué cuenca se originan las tormentas de polvo en Marte ?",
+        "propositions": [
+          "Hellas Planitia",
+          "Arabia Tierra",
+          "malea planum",
+          "Eolis Palus"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "Esta cuenca de impacto, de aproximadamente 2.200 km de diámetro y 9.500 m de profundidad, se encuentra en el hemisferio sur del planeta Marte."
+      },
+      {
+        "id": 26,
+        "question": "En la geología marciana, ¿qué término corresponde a los terrenos más antiguos ?",
+        "propositions": [
+          "filosiano",
+          "amazónico",
+          "Hespérico",
+          "Noé"
+        ],
+        "réponse": "Noé",
+        "anecdote": "Esta escala se basa esencialmente en la comparación cuantitativa de la formación de cráteres de diferentes tipos de terreno marciano."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué nombre recibió el volcán en escudo más grande del planeta Marte ?",
+        "propositions": [
+          "Syrtis mayor",
+          "Albor Tholus",
+          "Alba Mons",
+          "Peneo Pátera"
+        ],
+        "réponse": "Alba Mons",
+        "anecdote": "Con restos de coladas de lava que se extienden hasta 1.350 km desde su cumbre, su tamaño es comparable al de Estados Unidos."
+      },
+      {
+        "id": 28,
+        "question": "¿Quién descubrió que la órbita de Marte era elíptica y no circular ?",
+        "propositions": [
+          "Nicolás Copérnico",
+          "Edmundo Halley",
+          "Juan Kepler",
+          "Isaac Newton"
+        ],
+        "réponse": "Juan Kepler",
+        "anecdote": "Tras seis años de cálculo, Kepler definirá su primera ley que publicará en 1609 en su obra « Astronomia nova »."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién recibió el premio Nebula a la mejor novela en 1994 por « Rise of Mars » ?",
+        "propositions": [
+          "panadero scott",
+          "Poderes de Tim",
+          "Oso Greg",
+          "Michel Jeury"
+        ],
+        "réponse": "Oso Greg",
+        "anecdote": "Greg Bear ha sido periodista, dibujante de ciencia ficción, librero y asesor técnico de algunas series de televisión."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué serie de cómics francesa pone a Marte en proceso de terraformación ?",
+        "propositions": [
+          "Atome Kid",
+          "Gord",
+          "Aménophis IV",
+          "Jukurpa"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » es una serie de cómics francesa escrita por Dieter y dibujada por Étienne Le Roux."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Di che colore caratterizza visivamente il pianeta Marte ?",
+        "propositions": [
+          "verde",
+          "rosso",
+          "blu",
+          "giallo"
+        ],
+        "réponse": "rosso",
+        "anecdote": "Questo colore apparente è dovuto all'abbondanza di ematite amorfa o ossido di ferro sulla sua superficie."
+      },
+      {
+        "id": 2,
+        "question": "Quale film di Ridley Scott presenta Matt Damon sul pianeta Marte ?",
+        "propositions": [
+          "Prometheus",
+          "Les Associés",
+          "Exodus",
+          "Seul sur Mars"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon ha accettato di interpretare il personaggio di Mark Watney due giorni dopo aver ricevuto la sceneggiatura."
+      },
+      {
+        "id": 3,
+        "question": "Qual è la posizione di Marte in ordine crescente di distanza dal Sole ?",
+        "propositions": [
+          "quarto",
+          "Secondo",
+          "Quinto",
+          "Terzo"
+        ],
+        "réponse": "quarto",
+        "anecdote": "La sua distanza dal Sole è compresa tra 1.381 e 1.666 UA, o tra 206,6 e 249,2 milioni di chilometri."
+      },
+      {
+        "id": 4,
+        "question": "Oltre a Phobos, qual è l'altro piccolo satellite naturale di Marte ?",
+        "propositions": [
+          "Bibbie",
+          "Erebo",
+          "penei",
+          "Deimos"
+        ],
+        "réponse": "Deimos",
+        "anecdote": "Simile in natura a Phobos, Deimos orbita a un'altitudine di poco più di 23.000 km, in un'orbita quasi circolare."
+      },
+      {
+        "id": 5,
+        "question": "Quale film è una parodia di « War of the Worlds » di H.G. Wells ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "Mars Attacks!",
+          "Mission to Mars"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "Per molti versi, il film « Mars Attacks! » ricorda il film del 1956 « Flying Saucers Attack »."
+      },
+      {
+        "id": 6,
+        "question": "Di cosa è costantemente caricata l'atmosfera marziana ?",
+        "propositions": [
+          "Acqua",
+          "nuvole",
+          "elettroni",
+          "polvere"
+        ],
+        "réponse": "polvere",
+        "anecdote": "Questa polvere, responsabile della tinta ocra, viene continuamente iniettata nell'atmosfera dai diavoli della polvere."
+      },
+      {
+        "id": 7,
+        "question": "Secondo John Gray, se gli uomini vengono da Marte, da dove vengono le donne ?",
+        "propositions": [
+          "di Nettuno",
+          "Di Venere",
+          "di Plutone",
+          "Di Saturno"
+        ],
+        "réponse": "Di Venere",
+        "anecdote": "Lo spettacolo e il libro (saggio americano pubblicato nel 1992) affrontano il rapporto della coppia dal loro punto di vista molto caricaturale."
+      },
+      {
+        "id": 8,
+        "question": "In quale film Marte viene sfruttato per il turbinio sepolto nei suoi sotterranei ?",
+        "propositions": [
+          "Mission to Mars",
+          "Planète rouge",
+          "John Carter",
+          "Total Recall"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell ha ripreso il ruolo reso famoso da Schwarzenegger nel remake di « Total Recall : Programmed Memories »."
+      },
+      {
+        "id": 9,
+        "question": "Qual è la stagione più lunga nell'emisfero settentrionale di Marte ?",
+        "propositions": [
+          "Estate",
+          "Inverno",
+          "Autunno",
+          "Primavera"
+        ],
+        "réponse": "Primavera",
+        "anecdote": "La stagione più lunga è la primavera (198 giorni), che supera del 35% la più breve (autunno, 146 giorni)."
+      },
+      {
+        "id": 10,
+        "question": "Quale film su Marte ha riunito Carrie-Anne Moss e Val Kilmer ?",
+        "propositions": [
+          "Richiamo totale",
+          "Missione su Marte",
+          "Pianeta Rosso",
+          "John Carter"
+        ],
+        "réponse": "Pianeta Rosso",
+        "anecdote": "Nel film, un brillamento solare costringe l'equipaggio ad atterrare, trasformando la spedizione in una vera missione suicida."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale rover è stato inviato su Marte dalla NASA nel 2003 ?",
+        "propositions": [
+          "fenice",
+          "Approfondimento",
+          "Spirito",
+          "ExoMars"
+        ],
+        "réponse": "Spirito",
+        "anecdote": "L'obiettivo principale di Spirit è lo studio geologico della superficie di Marte in un'area ritenuta probabile un tempo irrigata."
+      },
+      {
+        "id": 12,
+        "question": "Approssimativamente quanto tempo impiega Marte per girare intorno al Sole ?",
+        "propositions": [
+          "Quattro anni",
+          "Cinque anni",
+          "Due anni",
+          "Tre anni"
+        ],
+        "réponse": "Due anni",
+        "anecdote": "Marte è un pianeta tellurico grande la metà della Terra e quasi dieci volte meno massiccio di quest'ultimo."
+      },
+      {
+        "id": 13,
+        "question": "Quale film è un libero adattamento del romanzo « La principessa di Marte » ?",
+        "propositions": [
+          "John Carter",
+          "Pianeta Rosso",
+          "Missione su Marte",
+          "Total Recall"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » è il secondo adattamento cinematografico dei romanzi con protagonista John Carter, dopo « Le cronache di Marte »."
+      },
+      {
+        "id": 14,
+        "question": "Quale sonda è stata la prima a sorvolare Marte nel 1965 ?",
+        "propositions": [
+          "Spirito",
+          "opportunità",
+          "Marinaio 4",
+          "Vichingo 2"
+        ],
+        "réponse": "Marinaio 4",
+        "anecdote": "Già nel 1965, Mariner 4 ha permesso di scoprire un pianeta privo di un campo magnetico globale con un'atmosfera sottile."
+      },
+      {
+        "id": 15,
+        "question": "Quale film di fantascienza di Brian de Palma fa riferimento al volto di Marte ?",
+        "propositions": [
+          "Total Recall",
+          "Missione su Marte",
+          "Pianeta Rosso",
+          "John Carter"
+        ],
+        "réponse": "Missione su Marte",
+        "anecdote": "Brian De Palma ha voluto ottenere con il film « Mission to Mars » un approccio ultrarealistico e plausibile da un punto di vista scientifico."
+      },
+      {
+        "id": 16,
+        "question": "Qual è la temperatura media registrata sulla superficie di Marte ?",
+        "propositions": [
+          "216°C",
+          "-63°C",
+          "103°C",
+          "-114°C"
+        ],
+        "réponse": "-63°C",
+        "anecdote": "Nonostante la bassa inerzia termica, tuttavia, Viking 1 Lander ha notato variazioni diurne che generalmente vanno da -89 a -31°C."
+      },
+      {
+        "id": 17,
+        "question": "Quale orbiter ha permesso di mappare quasi l'intera superficie marziana ?",
+        "propositions": [
+          "Sputnik 24",
+          "Marinaio 9",
+          "Beagle 2",
+          "vichingo 1"
+        ],
+        "réponse": "Marinaio 9",
+        "anecdote": "Questi sono i dati raccolti in questa occasione su cui si basavano le missioni Viking 1 e Viking 2."
+      },
+      {
+        "id": 18,
+        "question": "Quale marchio ha integrato nel proprio logo il simbolo astronomico di Marte ?",
+        "propositions": [
+          "Audi",
+          "Volvo",
+          "Škoda",
+          "Renault"
+        ],
+        "réponse": "Volvo",
+        "anecdote": "Il cerchio con una freccia che punta a nord-est segna la sua associazione con il ferro, e quindi l'industria siderurgica."
+      },
+      {
+        "id": 19,
+        "question": "In quale videogioco uscito nel 1993 l'azione si svolge esclusivamente su Marte ?",
+        "propositions": [
+          "Doom",
+          "Ryzom",
+          "Etherpad",
+          "Blender"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » è uno dei primi videogiochi a utilizzare una grafica 3D immersiva e una modalità di gioco multiplayer in rete."
+      },
+      {
+        "id": 20,
+        "question": "Quale rover è atterrato su Marte tre settimane dopo il suo gemello Spirit ?",
+        "propositions": [
+          "Surveyor",
+          "Beagle 3",
+          "Opportunity",
+          "PathFinder"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Dal 10 giugno 2018, a seguito di una forte tempesta che ha colpito il pianeta Marte, Opportunity non emette più alcun segnale."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è il più iconico dei vulcani a scudo marziano ?",
+        "propositions": [
+          "Syrtis Maggiore",
+          "Peneo Patera",
+          "Albor Tolo",
+          "Mons. Olimpo"
+        ],
+        "réponse": "Mons. Olimpo",
+        "anecdote": "Olympus Mons sorge in media di 22,5 km al di sopra delle pianure circostanti, che sono al di sotto del livello di dato."
+      },
+      {
+        "id": 22,
+        "question": "Quale sonda ha scoperto nell'estate del 2008 del ghiaccio d'acqua a una profondità ridotta ?",
+        "propositions": [
+          "Cosmo",
+          "Spazio profondo",
+          "fenice",
+          "Beagle 2"
+        ],
+        "réponse": "fenice",
+        "anecdote": "La macchina che è atterrata sulla terra di Marte ha una massa di 350 kg e dispone di due piccoli laboratori di analisi chimiche."
+      },
+      {
+        "id": 23,
+        "question": "In quale anno Marte sarà più vicino alla Terra ?",
+        "propositions": [
+          "2050",
+          "2200",
+          "2150",
+          "2100"
+        ],
+        "réponse": "2050",
+        "anecdote": "Un riavvicinamento ancora più stretto è previsto per il 28 agosto 2287, con una distanza di 55,688 milioni di chilometri."
+      },
+      {
+        "id": 24,
+        "question": "Quale astronomo dilettante americano ha acceso il dibattito sui canali di Marte ?",
+        "propositions": [
+          "Lewis Swift",
+          "Alvan Clark",
+          "Percival Lowell",
+          "Henry Draper"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "Astronomo dilettante ispirato e intraprendente, Lowell fondò un osservatorio che porta il suo nome a Flagstaff, in Arizona."
+      },
+      {
+        "id": 25,
+        "question": "Su quale bacino hanno origine le tempeste di polvere su Marte ?",
+        "propositions": [
+          "Hellas Planitia",
+          "Arabia Terra",
+          "Malea Planum",
+          "Eolis Palo"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "Questo bacino d'impatto, di circa 2.200 km di diametro e profondo 9.500 m, si trova nell'emisfero sud del pianeta Marte."
+      },
+      {
+        "id": 26,
+        "question": "Nella geologia marziana, quale termine corrisponde ai terreni più antichi ?",
+        "propositions": [
+          "Esperiano",
+          "filloso",
+          "noachiano",
+          "amazzonico"
+        ],
+        "réponse": "noachiano",
+        "anecdote": "Questa scala si basa essenzialmente sul confronto quantitativo dei crateri di diversi tipi di terreno marziano."
+      },
+      {
+        "id": 27,
+        "question": "Quale nome è stato dato al più grande vulcano a scudo del pianeta Marte ?",
+        "propositions": [
+          "Albor Tolo",
+          "Peneo Patera",
+          "Alba Mons",
+          "Syrtis Maggiore"
+        ],
+        "réponse": "Alba Mons",
+        "anecdote": "Con resti di colate laviche che si estendono fino a 1.350 km dalla sua sommità, le sue dimensioni sono paragonabili a quelle degli Stati Uniti."
+      },
+      {
+        "id": 28,
+        "question": "Chi ha scoperto che l'orbita di Marte era ellittica e non circolare ?",
+        "propositions": [
+          "Isacco Newton",
+          "Niccolò Copernico",
+          "Giovanni Keplero",
+          "Edmond Halley"
+        ],
+        "réponse": "Giovanni Keplero",
+        "anecdote": "Dopo sei anni di calcoli, Keplero definirà la sua prima legge che pubblicherà nel 1609 nella sua opera « Astronomia nova »."
+      },
+      {
+        "id": 29,
+        "question": "Chi ha ricevuto il premio Nebula per il miglior romanzo nel 1994 per « L'alba di Marte » ?",
+        "propositions": [
+          "Greg Orso",
+          "Tim Powers",
+          "Scott Baker",
+          "Michel Jeury"
+        ],
+        "réponse": "Greg Orso",
+        "anecdote": "Greg Bear è stato giornalista, fumettista di fantascienza, libraio e consulente tecnico per alcune serie televisive."
+      },
+      {
+        "id": 30,
+        "question": "Quale serie a fumetti francese mette Marte nel processo di terraformazione ?",
+        "propositions": [
+          "Aménophis IV",
+          "Atome Kid",
+          "Gord",
+          "Jukurpa"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » è una serie di fumetti francese sceneggiata da Dieter e disegnata da Étienne Le Roux."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke kleur kenmerkt de planeet Mars visueel ?",
+        "propositions": [
+          "Groen",
+          "Geel",
+          "Rood",
+          "Blauw"
+        ],
+        "réponse": "Rood",
+        "anecdote": "Deze schijnbare kleur is te wijten aan de overvloed aan amorf hematiet of ijzeroxide op het oppervlak."
+      },
+      {
+        "id": 2,
+        "question": "In welke Ridley Scott-film speelt Matt Damon op de planeet Mars ?",
+        "propositions": [
+          "Prometheus",
+          "Seul sur Mars",
+          "Exodus",
+          "Les Associés"
+        ],
+        "réponse": "Seul sur Mars",
+        "anecdote": "Matt Damon stemde twee dagen na ontvangst van het script in om het personage van Mark Watney te spelen."
+      },
+      {
+        "id": 3,
+        "question": "Wat is de positie van Mars in volgorde van toenemende afstand tot de zon ?",
+        "propositions": [
+          "derde",
+          "Tweede",
+          "vijfde",
+          "vierde"
+        ],
+        "réponse": "vierde",
+        "anecdote": "De afstand tot de zon ligt tussen 1.381 en 1.666 AU, of 206,6 tot 249,2 miljoen kilometer."
+      },
+      {
+        "id": 4,
+        "question": "Wat is naast Phobos de andere kleine natuurlijke satelliet van Mars ?",
+        "propositions": [
+          "peneos",
+          "Bijbels",
+          "Deimos",
+          "Erebus"
+        ],
+        "réponse": "Deimos",
+        "anecdote": "Vergelijkbaar met Phobos, draait Deimos op een hoogte van iets meer dan 23.000 km, in een bijna cirkelvormige baan."
+      },
+      {
+        "id": 5,
+        "question": "Welke film is een parodie op « War of the Worlds » van H.G. Wells ?",
+        "propositions": [
+          "Planète rouge",
+          "Mars Attacks!",
+          "Total Recall",
+          "Mission to Mars"
+        ],
+        "réponse": "Mars Attacks!",
+        "anecdote": "In veel opzichten doet de film « Mars Attacks! » denken aan de film « Flying Saucers Attack » uit 1956."
+      },
+      {
+        "id": 6,
+        "question": "Waar wordt de atmosfeer van Mars voortdurend mee geladen ?",
+        "propositions": [
+          "Wolken",
+          "Stof",
+          "Water",
+          "elektronen"
+        ],
+        "réponse": "Stof",
+        "anecdote": "Dit stof, verantwoordelijk voor de okerkleurige tint, wordt continu door stofduivels in de atmosfeer geïnjecteerd."
+      },
+      {
+        "id": 7,
+        "question": "Volgens John Gray, als mannen van Mars komen, waar komen vrouwen dan vandaan ?",
+        "propositions": [
+          "Van Saturnus",
+          "Van Pluto",
+          "Van Neptunus",
+          "Van Venus"
+        ],
+        "réponse": "Van Venus",
+        "anecdote": "De show en het boek (Amerikaans essay gepubliceerd in 1992) behandelen de relatie van het paar vanuit hun zeer karikaturale invalshoek."
+      },
+      {
+        "id": 8,
+        "question": "In welke film wordt Mars uitgebuit voor het turbinium dat in zijn kelder is begraven ?",
+        "propositions": [
+          "Planète rouge",
+          "Total Recall",
+          "Mission to Mars",
+          "John Carter"
+        ],
+        "réponse": "Total Recall",
+        "anecdote": "Colin Farrell hernam de rol die Schwarzenegger beroemd maakte in de remake van « Total Recall : Programmed Memories »."
+      },
+      {
+        "id": 9,
+        "question": "Wat is het langste seizoen op het noordelijk halfrond van Mars ?",
+        "propositions": [
+          "Winter",
+          "Herfst",
+          "Lente",
+          "Zomer"
+        ],
+        "réponse": "Lente",
+        "anecdote": "Het langste seizoen is de lente (198 dagen), die het kortste (herfst, 146 dagen) met 35% overschrijdt."
+      },
+      {
+        "id": 10,
+        "question": "Welke film rond Mars bracht Carrie-Anne Moss en Val Kilmer samen ?",
+        "propositions": [
+          "John Carter",
+          "Totale terugroepactie",
+          "Rode Planeet",
+          "Missie naar Mars"
+        ],
+        "réponse": "Rode Planeet",
+        "anecdote": "In de film dwingt een zonnevlam de bemanning tot een noodlanding, waardoor de expeditie in een ware zelfmoordmissie verandert."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke rover werd in 2003 door NASA naar Mars gestuurd ?",
+        "propositions": [
+          "feniks",
+          "Geest",
+          "Inzicht",
+          "ExoMars"
+        ],
+        "réponse": "Geest",
+        "anecdote": "Het hoofddoel van Spirit is de geologische studie van het oppervlak van Mars in een gebied dat waarschijnlijk ooit geïrrigeerd is geweest."
+      },
+      {
+        "id": 12,
+        "question": "Hoe lang duurt het ongeveer voordat Mars om de zon draait ?",
+        "propositions": [
+          "Vier jaar",
+          "Twee jaar",
+          "Drie jaar",
+          "Vijf jaar"
+        ],
+        "réponse": "Twee jaar",
+        "anecdote": "Mars is een tellurische planeet die half zo groot is als de aarde en bijna tien keer minder zwaar is dan de laatste."
+      },
+      {
+        "id": 13,
+        "question": "Welke film is een losse bewerking van de roman « A Princess of Mars » ?",
+        "propositions": [
+          "Total Recall",
+          "John Carter",
+          "Rode Planeet",
+          "Missie naar Mars"
+        ],
+        "réponse": "John Carter",
+        "anecdote": "« John Carter » is de tweede verfilming van de romans met John Carter in de hoofdrol, na « The Chronicles of Mars »."
+      },
+      {
+        "id": 14,
+        "question": "Welke sonde vloog in 1965 als eerste over Mars ?",
+        "propositions": [
+          "Zeeman 4",
+          "Geest",
+          "Kans",
+          "Viking 2"
+        ],
+        "réponse": "Zeeman 4",
+        "anecdote": "Al in 1965 maakte Mariner 4 het mogelijk om een planeet te ontdekken zonder een globaal magnetisch veld met een dunne atmosfeer."
+      },
+      {
+        "id": 15,
+        "question": "Welke sciencefictionfilm van Brian de Palma verwijst naar het gezicht van Mars ?",
+        "propositions": [
+          "John Carter",
+          "Total Recall",
+          "Rode Planeet",
+          "Missie naar Mars"
+        ],
+        "réponse": "Missie naar Mars",
+        "anecdote": "Brian De Palma wilde met de film « Mission to Mars » een ultrarealistische en plausibele benadering bereiken vanuit wetenschappelijk oogpunt."
+      },
+      {
+        "id": 16,
+        "question": "Wat is de gemiddelde temperatuur gemeten op het oppervlak van Mars ?",
+        "propositions": [
+          "-114°C",
+          "103°C",
+          "-63°C",
+          "216°C"
+        ],
+        "réponse": "-63°C",
+        "anecdote": "Ondanks de lage thermische inertie merkte Viking 1 Lander echter dagelijkse variaties op die doorgaans varieerden van -89 tot -31°C."
+      },
+      {
+        "id": 17,
+        "question": "Welke orbiter maakte het mogelijk om bijna het hele oppervlak van Mars in kaart te brengen ?",
+        "propositions": [
+          "Spoetnik 24",
+          "Viking 1",
+          "Zeeman 9",
+          "Beagle 2"
+        ],
+        "réponse": "Zeeman 9",
+        "anecdote": "Dit zijn de gegevens die bij deze gelegenheid zijn verzameld en waarop de Viking 1- en Viking 2-missies waren gebaseerd."
+      },
+      {
+        "id": 18,
+        "question": "Welk merk heeft het astronomische symbool van Mars in zijn logo geïntegreerd ?",
+        "propositions": [
+          "Audi",
+          "Renault",
+          "Volvo",
+          "koda"
+        ],
+        "réponse": "Volvo",
+        "anecdote": "De cirkel met een pijl die naar het noordoosten wijst, markeert de associatie met ijzer, en dus met de staalindustrie."
+      },
+      {
+        "id": 19,
+        "question": "In welke videogame die in 1993 werd uitgebracht, vindt de actie exclusief op Mars plaats ?",
+        "propositions": [
+          "Etherpad",
+          "Ryzom",
+          "Blender",
+          "Doom"
+        ],
+        "réponse": "Doom",
+        "anecdote": "« Doom » is een van de eerste videogames die gebruikmaakt van meeslepende 3D-graphics en een netwerkmodus voor meerdere spelers."
+      },
+      {
+        "id": 20,
+        "question": "Welke rover landde drie weken na zijn tweeling Spirit op Mars ?",
+        "propositions": [
+          "Opportunity",
+          "Surveyor",
+          "Beagle 3",
+          "PathFinder"
+        ],
+        "réponse": "Opportunity",
+        "anecdote": "Sinds 10 juni 2018, na een grote storm die de planeet Mars trof, zendt Opportunity geen signaal meer uit."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat is de meest iconische van de Mars-schildvulkanen ?",
+        "propositions": [
+          "Peneus Patera",
+          "Olympus Bergen",
+          "Albor Tholus",
+          "Syrtis Major"
+        ],
+        "réponse": "Olympus Bergen",
+        "anecdote": "Olympus Mons stijgt gemiddeld 22,5 km boven de omringende vlaktes, die onder het referentieniveau liggen."
+      },
+      {
+        "id": 22,
+        "question": "Welke sonde ontdekte in de zomer van 2008 waterijs op ondiepe diepte ?",
+        "propositions": [
+          "Kosmos",
+          "feniks",
+          "Beagle 2",
+          "Diepe ruimte"
+        ],
+        "réponse": "feniks",
+        "anecdote": "De machine die op Mars landde heeft een massa van 350 kg en beschikt over twee kleine chemische analyselaboratoria."
+      },
+      {
+        "id": 23,
+        "question": "In welk jaar zal Mars het dichtst bij de aarde zijn ?",
+        "propositions": [
+          "2150",
+          "2100",
+          "2050",
+          "2200"
+        ],
+        "réponse": "2050",
+        "anecdote": "Een nog nauwere toenadering staat gepland op 28 augustus 2287, met een afstand van 55,688 miljoen kilometer."
+      },
+      {
+        "id": 24,
+        "question": "Welke Amerikaanse amateurastronoom leidde tot het debat over de Marskanalen ?",
+        "propositions": [
+          "Alvan Clark",
+          "Henry Draper",
+          "Lewis Swift",
+          "Percival Lowell"
+        ],
+        "réponse": "Percival Lowell",
+        "anecdote": "Lowell, een geïnspireerde en ondernemende amateur-astronoom, richtte een observatorium op dat zijn naam draagt in Flagstaff, Arizona."
+      },
+      {
+        "id": 25,
+        "question": "Over welk bassin ontstaan stofstormen op Mars ?",
+        "propositions": [
+          "Hellas Planitia",
+          "Malea Planum",
+          "Arabië Terra",
+          "Aeolis Palus"
+        ],
+        "réponse": "Hellas Planitia",
+        "anecdote": "Dit inslagbassin, met een diameter van ongeveer 2.200 km en een diepte van 9.500 m, bevindt zich op het zuidelijk halfrond van de planeet Mars."
+      },
+      {
+        "id": 26,
+        "question": "Welke term komt in de geologie van Mars overeen met de oudste terreinen ?",
+        "propositions": [
+          "Hesperiaans",
+          "Noachische",
+          "Fyllosisch",
+          "Amazone"
+        ],
+        "réponse": "Noachische",
+        "anecdote": "Deze schaal is in wezen gebaseerd op de kwantitatieve vergelijking van de kratervorming van verschillende soorten Mars-terrein."
+      },
+      {
+        "id": 27,
+        "question": "Welke naam kreeg de grootste schildvulkaan op de planeet Mars ?",
+        "propositions": [
+          "Syrtis Major",
+          "Peneus Patera",
+          "Albor Tholus",
+          "Alba Bergen"
+        ],
+        "réponse": "Alba Bergen",
+        "anecdote": "Met overblijfselen van lavastromen die zich uitstrekken tot 1350 km van de top, is de grootte vergelijkbaar met die van de Verenigde Staten."
+      },
+      {
+        "id": 28,
+        "question": "Wie ontdekte dat de baan van Mars elliptisch was en niet cirkelvormig ?",
+        "propositions": [
+          "Nicolaus Copernicus",
+          "Isaac Newton",
+          "Edmond Halley",
+          "Johannes Kepler"
+        ],
+        "réponse": "Johannes Kepler",
+        "anecdote": "Na zes jaar rekenen zal Kepler zijn eerste wet definiëren die hij in 1609 zal publiceren in zijn werk « Astronomia nova »."
+      },
+      {
+        "id": 29,
+        "question": "Wie ontving in 1994 de Nebula-prijs voor beste roman voor « Rise of Mars » ?",
+        "propositions": [
+          "Michel Jeury",
+          "Greg Beer",
+          "Tim Powers",
+          "Scott Baker"
+        ],
+        "réponse": "Greg Beer",
+        "anecdote": "Greg Bear is journalist, sciencefictioncartoonist, boekhandelaar en technisch adviseur geweest voor een aantal televisieseries."
+      },
+      {
+        "id": 30,
+        "question": "Welke Franse stripreeks zet Mars in het proces van terraforming ?",
+        "propositions": [
+          "Jukurpa",
+          "Atome Kid",
+          "Aménophis IV",
+          "Gord"
+        ],
+        "réponse": "Aménophis IV",
+        "anecdote": "« Aménophis IV » is een Franse stripreeks, geschreven door Dieter en getekend door Étienne Le Roux."
+      }
+    ]
+    }
+  }
+}

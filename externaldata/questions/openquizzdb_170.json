@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-03-22",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sports",
+      "nom": "Sport féminin",
+      "slogan": "Rien à envier aux sportifs masculins"
+    },
+    "en": {
+      "catégorie": "Sports",
+      "nom": "Women's sport",
+      "slogan": "Nothing to envy from male athletes"
+    },
+    "es": {
+      "catégorie": "Deportes",
+      "nom": "Deporte femenino",
+      "slogan": "Nada que envidiar a los deportistas masculinos"
+    },
+    "it": {
+      "catégorie": "Gli sport",
+      "nom": "Sport femminile",
+      "slogan": "Niente da invidiare agli atleti maschi"
+    },
+    "de": {
+      "catégorie": "Sport",
+      "nom": "Frauensport",
+      "slogan": "Nichts, wovor man männliche Sportler beneiden könnte"
+    },
+    "nl": {
+      "catégorie": "Sport",
+      "nom": "Damessport",
+      "slogan": "Niets om jaloers op te zijn bij mannelijke atleten"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qui est depuis décembre 2021 directrice du tournoi de Roland-Garros ?",
+        "propositions": [
+          "Julie Halard",
+          "Nathalie Tauziat",
+          "Mary Pierce",
+          "Amélie Mauresmo"
+        ],
+        "réponse": "Amélie Mauresmo",
+        "anecdote": "Professionnelle de 1993 à 2009, elle a remporté vingt-cinq titres en simple sur le circuit WTA, dont trois tournois majeurs."
+      },
+      {
+        "id": 2,
+        "question": "Quelle judoka a remporté le bronze à Londres et l'argent à Rio ?",
+        "propositions": [
+          "Mayra Aguiar",
+          "Audrey Tcheuméo",
+          "Madeleine Malonga",
+          "Inbar Lanir"
+        ],
+        "réponse": "Audrey Tcheuméo",
+        "anecdote": "Audrey Tcheuméo a également donné son nom à un gymnase de Villemomble où l'on peut pratiquer différents types de sport."
+      },
+      {
+        "id": 3,
+        "question": "Quelle spécialiste du quatre nages a trouvé la mort à seulement 25 ans ?",
+        "propositions": [
+          "Brooke Bennett",
+          "Camille Muffat",
+          "Michelle Smith",
+          "Katie Ledecky"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "Au plus haut niveau, elle battra à 15 ans Laure Manaudou sur 200m 4 nages lors des Championnats de France 2005."
+      },
+      {
+        "id": 4,
+        "question": "Quelle nageuse pratiquant les quatre nages fut entraînée par Philippe Lucas ?",
+        "propositions": [
+          "Ariarne Titmus",
+          "Janet Evans",
+          "Laure Manaudou",
+          "Katie Ledecky"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "Elle évolue désormais fréquemment comme consultante sur les épreuves de natation dans les grands événements à la télévision."
+      },
+      {
+        "id": 5,
+        "question": "Quelle coureuse cycliste possède un palmarès de soixante titres nationaux ?",
+        "propositions": [
+          "Mélodie Lesueur",
+          "Sonia Huguet",
+          "Catherine Marsal",
+          "Jeannie Longo"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "En parallèle à ses activités sportives, elle joue du piano avec une participation au concours annuel international de piano de Besançon."
+      },
+      {
+        "id": 6,
+        "question": "Qui fut la première joueuse de tennis Russe à remporter Wimbledon ?",
+        "propositions": [
+          "Tatiana Panova",
+          "Maria Sharapova",
+          "Elena Bovina",
+          "Maria Kirilenko"
+        ],
+        "réponse": "Maria Sharapova",
+        "anecdote": "Contrôlée positive au meldonium en 2016, Maria Sharapova sera suspendue pour deux ans par la Fédération internationale de tennis."
+      },
+      {
+        "id": 7,
+        "question": "Qui est la créatrice d'un mouvement sur la glace, le salto arrière ?",
+        "propositions": [
+          "Gaby Barbey",
+          "Surya Bonaly",
+          "Fanny Besson",
+          "Simone Poujade"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "Naturalisée américaine, Surya Bonaly a commencé sa carrière d'entraîneur à Las Vegas (où elle vit), puis à Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "Quelle spécialiste de l'épée est devenue femme politique française ?",
+        "propositions": [
+          "Valérie Barlois",
+          "Britta Heidemann",
+          "Laura Flessel",
+          "Timea Nagy"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "Elle fut quintuple médaillée olympique et remporta les deux médailles d'or des débuts de l'épée féminine aux JO de 1996."
+      },
+      {
+        "id": 9,
+        "question": "Qui est la seule athlète française à être triple championne olympique ?",
+        "propositions": [
+          "Marie-José Pérec",
+          "Muriel Hurtis",
+          "Sandra Myers",
+          "Marita Koch"
+        ],
+        "réponse": "Marie-José Pérec",
+        "anecdote": "En 1992 aux Jeux de Barcelone sur 400 mètres et deux fois aux Jeux d'Atlanta en 1996 sur 400 mètres et 200 mètres."
+      },
+      {
+        "id": 10,
+        "question": "Quelle gymnaste roumaine a obtenu la note de 10 en compétition olympique ?",
+        "propositions": [
+          "Alexandra Eremia",
+          "Oana Ban",
+          "Catalina Ponor",
+          "Nadia Comaneci"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Ses rapports avec l'État roumain dirigé par Nicolae Ceausescu, huit ans après la fin de sa carrière, elle quitta le pays pour le États-Unis."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle kitesurfeuse française est triple championne du monde de vitesse ?",
+        "propositions": [
+          "Charlotte Consorti",
+          "Anne-Laure Pégon",
+          "Alexia Fancelli",
+          "Aurélie Godet"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "Quand elle ne voyage pas à travers le monde, c'est en Méditerranée que Charlotte Consorti continue de s'entraîner."
+      },
+      {
+        "id": 12,
+        "question": "Quelle capitaine de l'OL Reign fut meilleure buteuse du Mondial 2019 ?",
+        "propositions": [
+          "Alexia Putellas",
+          "Alex Morgan",
+          "Megan Rapinoe",
+          "Ada Hegerberg"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe a été choisie à deux reprises comme faisant partie des cent personnes les plus influentes du magazine Time."
+      },
+      {
+        "id": 13,
+        "question": "Quelle norvégienne a remporté le premier Ballon d'or féminin France Football ?",
+        "propositions": [
+          "Andrea Norheim",
+          "Ada Hegerberg",
+          "Linda Medalen",
+          "Julie Blakstad"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "De par ses performances uniques en leur genre et ses engagements, Ada Hegerberg est l'une des figures majeures de son sport."
+      },
+      {
+        "id": 14,
+        "question": "Qui fut la première femme à remporter une course dans un Grand Prix moto ?",
+        "propositions": [
+          "Ana Carrasco",
+          "Lucy Glockner",
+          "Maria Herrera",
+          "Gina Bovaird"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "En 2018, Ana Carrasco s'imposera lors de deux courses, en Italie et au Royaume-Uni, et remportera le Supersport 300 de 2018."
+      },
+      {
+        "id": 15,
+        "question": "Quelle joueuse de tennis américaine a fondé la WTA en 1973 ?",
+        "propositions": [
+          "Billie Jean King",
+          "Tracy Austin",
+          "Angela Mortimer",
+          "Virginia Wade"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King détient, avec Martina Navrátilova, le record de vingt sacres dans le temple londonien de Wimbledon."
+      },
+      {
+        "id": 16,
+        "question": "Quelle meneuse de l'équipe de France de basket-ball est surnommée Caps ?",
+        "propositions": [
+          "Céline Dumerc",
+          "Laura Gil",
+          "Marine Fauthoux",
+          "Kendra Chéry"
+        ],
+        "réponse": "Céline Dumerc",
+        "anecdote": "Avec 262 sélections, elle détient le record de sélections en équipe de France de basket-ball hommes et femmes confondus."
+      },
+      {
+        "id": 17,
+        "question": "Quelle joueuse de tennis fut considérée comme la révélation de la saison 2016 ?",
+        "propositions": [
+          "Dinara Safina",
+          "Angelique Kerber",
+          "Tracy Austin",
+          "Naomi Osaka"
+        ],
+        "réponse": "Naomi Osaka",
+        "anecdote": "Hommes et femmes confondus, Naomi Osaka est la première japonaise à remporter un tournoi du Grand Chelem."
+      },
+      {
+        "id": 18,
+        "question": "Quelle grande judokate possède la nationalité française et togolaise ?",
+        "propositions": [
+          "Keiko Maeda",
+          "Lucie Décosse",
+          "Clarisse Agbégnénou",
+          "Yarden Gerbi"
+        ],
+        "réponse": "Clarisse Agbégnénou",
+        "anecdote": "Elle sera désignée, en compagnie du gymnaste Samir Aït-Saïd, porte-drapeau de l'équipe de France olympique pour les JO 2020."
+      },
+      {
+        "id": 19,
+        "question": "Qui fut la première boxeuse française à remporter l'or aux Jeux olympiques ?",
+        "propositions": [
+          "Lauren Price",
+          "Estelle Mossely",
+          "Kellie Harrington",
+          "Katie Taylor"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "En 2016, le jour de son anniversaire, elle sera sacrée championne olympique à Rio en s'imposant face à la Chinoise Yin Junhua."
+      },
+      {
+        "id": 20,
+        "question": "Quelle skieuse française est double championne du monde de slalom géant ?",
+        "propositions": [
+          "Carole Merle",
+          "Tina Maze",
+          "Tessa Worley",
+          "Nicole Hosp"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley fut, en compagnie de Kevin Rolland, porte-drapeau de l'équipe de France olympique pour les Jeux d'hiver de 2022."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle licenciée du Levallois Sporting Club Judo est triple championne du monde ?",
+        "propositions": [
+          "Keiko Maeda",
+          "Yarden Gerbi",
+          "Lucie Décosse",
+          "Gévrise Emane"
+        ],
+        "réponse": "Gévrise Emane",
+        "anecdote": "La judokate française est l'une des ambassadrices, à l'occasion des Jeux olympiques à Rio en 2016, de l'association Solidario."
+      },
+      {
+        "id": 22,
+        "question": "Qui est la première footballeuse française pro ayant évolué aux États-Unis ?",
+        "propositions": [
+          "Camille Abily",
+          "Amel Majri",
+          "Marinette Pichon",
+          "Gaëtane Thiney"
+        ],
+        "réponse": "Marinette Pichon",
+        "anecdote": "Considérée comme la première star française du football féminin, elle est devenue consultante télé et entraîneuse au Québec."
+      },
+      {
+        "id": 23,
+        "question": "Qui est la skieuse acrobatique française la plus titrée dans sa discipline ?",
+        "propositions": [
+          "Perrine Laffont",
+          "Sandra Schmitt",
+          "Candice Gilg",
+          "Jennifer Heil"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "Cinq fois championne du monde, elle est détentrice de neuf globes de cristal pour ses victoires en classement de la Coupe du monde."
+      },
+      {
+        "id": 24,
+        "question": "Quel Ballon d'Argent a marqué un superbe but contre le Mexique en 2015 ?",
+        "propositions": [
+          "Emelyne Laurent",
+          "Ève Périsset",
+          "Wendie Renard",
+          "Amandine Henry"
+        ],
+        "réponse": "Amandine Henry",
+        "anecdote": "En 2017, peu après l'arrivée de Corinne Diacre au poste de sélectionneuse nationale, elle deviendra la capitaine des Bleues."
+      },
+      {
+        "id": 25,
+        "question": "Qui la première à gravir en solitaire les trois grandes faces nord des Alpes ?",
+        "propositions": [
+          "Catherine Destivelle",
+          "Sophie Lavaud",
+          "Marie Marvingt",
+          "Liliane Barrard"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "À partir de 2011 avec Bruno Dupety, elle se lance dans l'édition (Éditions du Mont-Blanc) de livres sur la montagne et l'alpinisme."
+      },
+      {
+        "id": 26,
+        "question": "Quelle spécialiste de la nage libre vit en couple avec Jérémy Desplanches ?",
+        "propositions": [
+          "Camelia Potec",
+          "Michelle Smith",
+          "Federica Pellegrini",
+          "Charlotte Bonnet"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet a quitté Fabrice Pellerin, son entraîneur depuis dix ans à Nice, pour rejoindre Philippe Lucas à Martigues."
+      },
+      {
+        "id": 27,
+        "question": "Qui fut la première femme enregistrée à courir le marathon de Boston ?",
+        "propositions": [
+          "Mary Decke",
+          "Molly Huddle",
+          "Kathrine Switzer",
+          "Shalane Flanagan"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "Le 17 avril 2017, à 70 ans (50 ans après sa première participation), elle a couru le marathon avec le même dossard qu'en 1967."
+      },
+      {
+        "id": 28,
+        "question": "Quelle australienne elle est la plus jeune surfeuse à gagner en WCT ?",
+        "propositions": [
+          "Carissa Moore",
+          "Stéphanie Gilmore",
+          "Johanne Defay",
+          "Tyler Wright"
+        ],
+        "réponse": "Stéphanie Gilmore",
+        "anecdote": "C'est la première fois dans l'histoire de ce sport qu'une surfeuse devient championne du monde la première année de participation."
+      },
+      {
+        "id": 29,
+        "question": "Qui fut la détentrice du record du monde féminin du marathon durant 16 ans ?",
+        "propositions": [
+          "Paula Radcliffe",
+          "Rose Chelimo",
+          "Edna Kiplagat",
+          "Lidia Simon"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Bien que souffrant d'asthme et d'anémie durant ses jeunes années, elle débuta la course à sept ans, encouragée par son père."
+      },
+      {
+        "id": 30,
+        "question": "Quelle championne olympique de VTT cross-country a stoppé sa carrière à 32 ans ?",
+        "propositions": [
+          "Julie Bresset",
+          "Jolanda Neff",
+          "Sabine Spitz",
+          "Paola Pezzo"
+        ],
+        "réponse": "Julie Bresset",
+        "anecdote": "En 2014, elle fut atteinte en cours de saison d'un burn-out. Une infection virale lui fera ensuite manquer trois mois de compétition."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who has been director of the Roland-Garros tournament since December 2021 ?",
+        "propositions": [
+          "Mary Pierce",
+          "Nathalie Tauziat",
+          "Amélie Mauresmo",
+          "Julie Halard"
+        ],
+        "réponse": "Amélie Mauresmo",
+        "anecdote": "Professional from 1993 to 2009, she won twenty-five singles titles on the WTA circuit, including three major tournaments."
+      },
+      {
+        "id": 2,
+        "question": "Which judoka won bronze in London and silver in Rio ?",
+        "propositions": [
+          "Madeleine Malonga",
+          "Mayra Aguiar",
+          "Audrey Tcheumeo",
+          "Inbar Lanir"
+        ],
+        "réponse": "Audrey Tcheumeo",
+        "anecdote": "Audrey Tcheuméo also gave her name to a gymnasium in Villemomble where you can practice different types of sport."
+      },
+      {
+        "id": 3,
+        "question": "Which medley specialist died at just 25 years old ?",
+        "propositions": [
+          "Michelle Smith",
+          "Katie Ledecky",
+          "Brooke Bennett",
+          "Camille Muffat"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "At the highest level, at the age of 15, she beat Laure Manaudou in the 200m medley at the 2005 French Championships."
+      },
+      {
+        "id": 4,
+        "question": "Which swimmer practicing the medley was trained by Philippe Lucas ?",
+        "propositions": [
+          "Katie Ledecky",
+          "Janet Evans",
+          "Ariarne Titmus",
+          "Laure Manaudou"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "She now frequently acts as a consultant on swimming events in major events on television."
+      },
+      {
+        "id": 5,
+        "question": "Which cyclist has a record of sixty national titles ?",
+        "propositions": [
+          "Sonia Huguet",
+          "Mélodie Lesueur",
+          "Jeannie Longo",
+          "Catherine Marsal"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "In parallel to her sports activities, she plays the piano with a participation in the annual international piano competition of Besançon."
+      },
+      {
+        "id": 6,
+        "question": "Who was the first Russian tennis player to win Wimbledon ?",
+        "propositions": [
+          "Elena Bovina",
+          "Maria Kirilenko",
+          "Tatiana Panova",
+          "Maria Sharapova"
+        ],
+        "réponse": "Maria Sharapova",
+        "anecdote": "Tested positive for meldonium in 2016, Maria Sharapova will be suspended for two years by the International Tennis Federation."
+      },
+      {
+        "id": 7,
+        "question": "Who is the creator of a movement on the ice, the backflip ?",
+        "propositions": [
+          "Fanny Besson",
+          "Surya Bonaly",
+          "Gaby Barbey",
+          "Simone Poujade"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "A naturalized American, Surya Bonaly began her coaching career in Las Vegas (where she lives), then in Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "Which sword specialist became a French politician ?",
+        "propositions": [
+          "Laura Flessel",
+          "Britta Heidemann",
+          "Valérie Barlois",
+          "Timea Nagy"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "She was a five-time Olympic medalist and won the two gold medals at the start of women's epee at the 1996 Olympics."
+      },
+      {
+        "id": 9,
+        "question": "Who is the only French athlete to be a triple Olympic champion ?",
+        "propositions": [
+          "Muriel Hurtis",
+          "Marita Koch",
+          "Marie-José Pérec",
+          "Sandra Myers"
+        ],
+        "réponse": "Marie-José Pérec",
+        "anecdote": "In 1992 at the Barcelona Games over 400 meters and twice at the Atlanta Games in 1996 over 400 meters and 200 meters."
+      },
+      {
+        "id": 10,
+        "question": "Which Romanian gymnast scored 10 in Olympic competition ?",
+        "propositions": [
+          "Alexandra Eremia",
+          "Oana Ban",
+          "Catalina Ponor",
+          "Nadia Comaneci"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Her relationship with the Romanian state led by Nicolae Ceausescu, eight years after the end of her career, she left the country for the United States."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which French kitesurfer is a triple world speed champion ?",
+        "propositions": [
+          "Aurélie Godet",
+          "Alexia Fancelli",
+          "Anne-Laure Pégon",
+          "Charlotte Consorti"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "When she is not traveling around the world, it is in the Mediterranean that Charlotte Consorti continues to train."
+      },
+      {
+        "id": 12,
+        "question": "Which OL Reign captain was top scorer at the 2019 World Cup ?",
+        "propositions": [
+          "Alexia Putellas",
+          "Megan Rapinoe",
+          "Alex Morgan",
+          "Ada Hegerberg"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe has twice been chosen as one of Time magazine's 100 Most Influential People."
+      },
+      {
+        "id": 13,
+        "question": "Which Norwegian won the first France Football Women's Golden Ball ?",
+        "propositions": [
+          "Ada Hegerberg",
+          "Andrea Norheim",
+          "Linda Medalen",
+          "Julie Blakstad"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "Through her unique performances and her commitments, Ada Hegerberg is one of the major figures in her sport."
+      },
+      {
+        "id": 14,
+        "question": "Who was the first woman to win a race in a motorcycle Grand Prix ?",
+        "propositions": [
+          "Gina Bovaird",
+          "Maria Herrera",
+          "Ana Carrasco",
+          "Lucy Glockner"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "In 2018, Ana Carrasco won two races, in Italy and the United Kingdom, and won the 2018 Supersport 300."
+      },
+      {
+        "id": 15,
+        "question": "Which American tennis player founded the WTA in 1973 ?",
+        "propositions": [
+          "Virginia Wade",
+          "Billie Jean King",
+          "Tracy Austin",
+          "Angela Mortimer"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King holds, with Martina Navrátilova, the record of twenty coronations in the London temple of Wimbledon."
+      },
+      {
+        "id": 16,
+        "question": "Which leader of the French basketball team is nicknamed Caps ?",
+        "propositions": [
+          "Laura Gil",
+          "Céline Dumerc",
+          "Kendra Chery",
+          "Marine Fauthoux"
+        ],
+        "réponse": "Céline Dumerc",
+        "anecdote": "With 262 selections, she holds the record for selections for the French basketball team for men and women combined."
+      },
+      {
+        "id": 17,
+        "question": "Which tennis player was considered the revelation of the 2016 season ?",
+        "propositions": [
+          "Angelique Kerber",
+          "Tracy Austin",
+          "Naomi Osaka",
+          "Dinara Safina"
+        ],
+        "réponse": "Naomi Osaka",
+        "anecdote": "Men and women alike, Naomi Osaka is the first Japanese to win a Grand Slam tournament."
+      },
+      {
+        "id": 18,
+        "question": "Which great judoka has French and Togolese nationality ?",
+        "propositions": [
+          "Keiko Maeda",
+          "Yarden Gerbi",
+          "Lucie Décosse",
+          "Clarisse Agbégnénou"
+        ],
+        "réponse": "Clarisse Agbégnénou",
+        "anecdote": "She will be designated, along with gymnast Samir Aït-Saïd, flag bearer for the French Olympic team for the 2020 Olympics."
+      },
+      {
+        "id": 19,
+        "question": "Who was the first French boxer to win gold at the Olympics ?",
+        "propositions": [
+          "Lauren Price",
+          "Estelle Mossely",
+          "Katie Taylor",
+          "Kellie Harrington"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "In 2016, on her birthday, she will be crowned Olympic champion in Rio by winning against the Chinese Yin Junhua."
+      },
+      {
+        "id": 20,
+        "question": "Which French skier is a double giant slalom world champion ?",
+        "propositions": [
+          "Carole Merle",
+          "Tessa Worley",
+          "Tina Maze",
+          "Nicole Hosp"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley was, along with Kevin Rolland, flag bearer for the French Olympic team for the 2022 Winter Games."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which member of the Levallois Sporting Club Judo is a three-time world champion ?",
+        "propositions": [
+          "Lucie Décosse",
+          "Gévrise Emane",
+          "Yarden Gerbi",
+          "Keiko Maeda"
+        ],
+        "réponse": "Gévrise Emane",
+        "anecdote": "The French judoka is one of the ambassadors, on the occasion of the Olympic Games in Rio in 2016, of the Solidario association."
+      },
+      {
+        "id": 22,
+        "question": "Who is the first French professional footballer to have played in the United States ?",
+        "propositions": [
+          "Marinette Pichon",
+          "Camille Abily",
+          "Gaëtane Thiney",
+          "Amel Majri"
+        ],
+        "réponse": "Marinette Pichon",
+        "anecdote": "Considered the first French star of women's football, she became a TV consultant and coach in Quebec."
+      },
+      {
+        "id": 23,
+        "question": "Who is the most successful French freestyle skier in her discipline ?",
+        "propositions": [
+          "Perrine Laffont",
+          "Sandra Schmitt",
+          "Jennifer Heil",
+          "Candice Gilg"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "A five-time world champion, she is the holder of nine crystal globes for her World Cup ranking victories."
+      },
+      {
+        "id": 24,
+        "question": "Which Silver Ball scored a superb goal against Mexico in 2015 ?",
+        "propositions": [
+          "Wendie Renard",
+          "Emelyne Laurent",
+          "Amandine Henry",
+          "Eva Perisset"
+        ],
+        "réponse": "Amandine Henry",
+        "anecdote": "In 2017, shortly after the arrival of Corinne Diacre as national coach, she will become the captain of the Bleues."
+      },
+      {
+        "id": 25,
+        "question": "Who was the first to climb the three major northern faces of the Alps alone ?",
+        "propositions": [
+          "Sophie Lavaud",
+          "Catherine Destivelle",
+          "Marie Marvingt",
+          "Liliane Barrard"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "From 2011 with Bruno Dupety, she started publishing (Éditions du Mont-Blanc) books on mountains and mountaineering."
+      },
+      {
+        "id": 26,
+        "question": "Which freestyle specialist lives in a relationship with Jérémy Desplanches ?",
+        "propositions": [
+          "Charlotte Bonnet",
+          "Federica Pellegrini",
+          "Camelia Potec",
+          "Michelle Smith"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet left Fabrice Pellerin, her coach for ten years in Nice, to join Philippe Lucas in Martigues."
+      },
+      {
+        "id": 27,
+        "question": "Who was the first recorded woman to run the Boston Marathon ?",
+        "propositions": [
+          "Molly Huddle",
+          "Kathrine Switzer",
+          "Mary Decke",
+          "Shalane Flanagan"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "On April 17, 2017, at age 70 (50 years after her first participation), she ran the marathon with the same bib as in 1967."
+      },
+      {
+        "id": 28,
+        "question": "Which Australian is the youngest surfer to win in WCT ?",
+        "propositions": [
+          "Stephanie Gilmore",
+          "Tyler Wright",
+          "Johanne Defay",
+          "Carissa Moore"
+        ],
+        "réponse": "Stephanie Gilmore",
+        "anecdote": "This is the first time in the history of this sport that a surfer becomes world champion in the first year of participation."
+      },
+      {
+        "id": 29,
+        "question": "Who held the women's marathon world record for 16 years ?",
+        "propositions": [
+          "Edna Kiplagat",
+          "Rose Chelimo",
+          "Paula Radcliffe",
+          "Lidia Simon"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Although suffering from asthma and anemia during her younger years, she began running at age seven, encouraged by her father."
+      },
+      {
+        "id": 30,
+        "question": "Which Olympic cross-country mountain bike champion ended her career at 32 ?",
+        "propositions": [
+          "Julie Bresset",
+          "Jolanda Neff",
+          "Sabine Spitz",
+          "Paola Pezzo"
+        ],
+        "réponse": "Julie Bresset",
+        "anecdote": "In 2014, she suffered burnout during the season. A viral infection will then cause him to miss three months of competition."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer ist seit Dezember 2021 Direktor des Roland-Garros-Turniers ?",
+        "propositions": [
+          "Amelie Mauresmo",
+          "Nathalie Tauziat",
+          "Julie Hallard",
+          "Mary Pierce"
+        ],
+        "réponse": "Amelie Mauresmo",
+        "anecdote": "Von 1993 bis 2009 war sie Profi und gewann 25 Einzeltitel auf der WTA-Tour, darunter drei große Turniere."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Judoka gewann Bronze in London und Silber in Rio ?",
+        "propositions": [
+          "Madeleine Malonga",
+          "Inbar Lanir",
+          "Mayra Aguiar",
+          "Audrey Tcheumeo"
+        ],
+        "réponse": "Audrey Tcheumeo",
+        "anecdote": "Audrey Tcheuméo gab auch einer Turnhalle in Villemomble ihren Namen, in der man verschiedene Sportarten ausüben kann."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Medley-Spezialist starb im Alter von nur 25 Jahren ?",
+        "propositions": [
+          "Camille Muffat",
+          "Brooke Bennett",
+          "Katie Ledecky",
+          "Michelle Smith"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "Auf höchstem Niveau besiegte sie im Alter von 15 Jahren Laure Manaudou im 200-m-Lagen bei den französischen Meisterschaften 2005."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Lagenschwimmer wurde von Philippe Lucas trainiert ?",
+        "propositions": [
+          "Katie Ledecky",
+          "Janet Evans",
+          "Ariarne Titmus",
+          "Laure Manaudou"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "Mittlerweile fungiert sie häufig als Beraterin für Schwimmveranstaltungen bei Großveranstaltungen im Fernsehen."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Radfahrer hat eine Bilanz von 60 nationalen Titeln ?",
+        "propositions": [
+          "Sonia Huguet",
+          "Catherine Marsal",
+          "Melodie Lesueur",
+          "Jeannie Longo"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "Parallel zu ihren sportlichen Aktivitäten spielt sie Klavier und nimmt am jährlichen internationalen Klavierwettbewerb von Besançon teil."
+      },
+      {
+        "id": 6,
+        "question": "Wer war der erste russische Tennisspieler, der Wimbledon gewann ?",
+        "propositions": [
+          "Maria Kirilenko",
+          "Elena Bovina",
+          "Maria Sharapova",
+          "Tatiana Panova"
+        ],
+        "réponse": "Maria Sharapova",
+        "anecdote": "Maria Sharapova wurde 2016 positiv auf Meldonium getestet und wird vom Internationalen Tennisverband für zwei Jahre gesperrt."
+      },
+      {
+        "id": 7,
+        "question": "Wer ist der Erfinder einer Bewegung auf dem Eis, des Backflips ?",
+        "propositions": [
+          "Simone Poujade",
+          "Surya Bonaly",
+          "Gaby Barbey",
+          "Fanny Besson"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "Surya Bonaly, eine eingebürgerte Amerikanerin, begann ihre Trainerkarriere in Las Vegas (wo sie lebt) und dann in Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Schwertspezialist wurde französischer Politiker ?",
+        "propositions": [
+          "Timea Nagy",
+          "Britta Heidemann",
+          "Laura Flessel",
+          "Valerie Barlois"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "Sie war fünfmalige Olympiamedaillengewinnerin und gewann bei den Olympischen Spielen 1996 zwei Goldmedaillen am Start im Damen-Degen."
+      },
+      {
+        "id": 9,
+        "question": "Wer ist der einzige französische Athlet, der dreifacher Olympiasieger wurde ?",
+        "propositions": [
+          "Muriel Hurtis",
+          "Marita Koch",
+          "Marie-José Pérec",
+          "Sandra Myers"
+        ],
+        "réponse": "Marie-José Pérec",
+        "anecdote": "1992 bei den Spielen in Barcelona über 400 Meter und zweimal bei den Spielen in Atlanta 1996 über 400 Meter und 200 Meter."
+      },
+      {
+        "id": 10,
+        "question": "Welcher rumänische Turner erzielte im olympischen Wettkampf 10 Punkte ?",
+        "propositions": [
+          "Catalina Ponor",
+          "Alexandra Eremia",
+          "Nadia Comaneci",
+          "Oana Ban"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Ihre Beziehung zum rumänischen Staat unter der Führung von Nicolae Ceausescu, acht Jahre nach dem Ende ihrer Karriere verließ sie das Land in Richtung USA."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher französische Kitesurfer ist dreimaliger Speed-Weltmeister ?",
+        "propositions": [
+          "Anne-Laure Pégon",
+          "Alexia Fancelli",
+          "Aurélie Godet",
+          "Charlotte Consorti"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "Wenn sie nicht gerade um die Welt reist, trainiert Charlotte Consorti weiterhin im Mittelmeerraum."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Kapitän von OL Reign war bester Torschütze bei der Weltmeisterschaft 2019 ?",
+        "propositions": [
+          "Megan Rapinoe",
+          "Alexia Putellas",
+          "Ada Hegerberg",
+          "Alex Morgan"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe wurde vom Time Magazine zweimal zu einer der 100 einflussreichsten Personen gewählt."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Norweger gewann den ersten Goldenen Ball der France-Football-Frauen ?",
+        "propositions": [
+          "Andrea Norheim",
+          "Ada Hegerberg",
+          "Linda Medallen",
+          "Julie Blakstad"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "Durch ihre einzigartigen Leistungen und ihr Engagement ist Ada Hegerberg eine der großen Persönlichkeiten ihres Sports."
+      },
+      {
+        "id": 14,
+        "question": "Wer war die erste Frau, die ein Rennen bei einem Motorrad-Grand-Prix gewann ?",
+        "propositions": [
+          "Lucy Glockner",
+          "Maria Herrera",
+          "Gina Bovaird",
+          "Ana Carrasco"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "Im Jahr 2018 gewann Ana Carrasco zwei Rennen, in Italien und im Vereinigten Königreich, und siegte 2018 beim Supersport 300."
+      },
+      {
+        "id": 15,
+        "question": "Welcher amerikanische Tennisspieler gründete 1973 die WTA ?",
+        "propositions": [
+          "Virginia Wade",
+          "Tracy Austin",
+          "Billie Jean King",
+          "Angela Mortimer"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King hält zusammen mit Martina Navrátilova den Rekord von zwanzig Krönungen im Londoner Wimbledon-Tempel."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Anführer der französischen Basketballmannschaft trägt den Spitznamen Caps ?",
+        "propositions": [
+          "Kendra Chery",
+          "Laura Gil",
+          "Marine Fauthoux",
+          "Céline Dumerc"
+        ],
+        "réponse": "Céline Dumerc",
+        "anecdote": "Mit 262 Auswahlen hält sie den Rekord für Auswahlen in der französischen Herren- und Damen-Basketballmannschaft zusammen."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Tennisspieler galt als Offenbarung der Saison 2016 ?",
+        "propositions": [
+          "Tracy Austin",
+          "Dinara Safina",
+          "Angelique Kerber",
+          "Naomi Osaka"
+        ],
+        "réponse": "Naomi Osaka",
+        "anecdote": "Sowohl bei den Männern als auch bei den Frauen ist Naomi Osaka die erste Japanerin, die ein Grand-Slam-Turnier gewonnen hat."
+      },
+      {
+        "id": 18,
+        "question": "Welcher große Judoka hat die französische und togoische Staatsangehörigkeit ?",
+        "propositions": [
+          "Yarden Gerbi",
+          "Clarisse Agbegnenou",
+          "Keiko Maeda",
+          "Lucie Décosse"
+        ],
+        "réponse": "Clarisse Agbegnenou",
+        "anecdote": "Sie wird zusammen mit dem Turner Samir Aït-Saïd zur Fahnenträgerin der französischen Olympiamannschaft für die Olympischen Spiele 2020 ernannt."
+      },
+      {
+        "id": 19,
+        "question": "Wer war der erste französische Boxer, der bei den Olympischen Spielen Gold gewann ?",
+        "propositions": [
+          "Katie Taylor",
+          "Lauren Price",
+          "Kellie Harrington",
+          "Estelle Mossely"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "2016, an ihrem Geburtstag, krönt sie sich in Rio zur Olympiasiegerin, indem sie gegen die Chinesin Yin Junhua siegt."
+      },
+      {
+        "id": 20,
+        "question": "Welcher französische Skifahrer ist Doppel-Riesenslalom-Weltmeister ?",
+        "propositions": [
+          "Carole Merle",
+          "Tina Maze",
+          "Tessa Worley",
+          "Nicole Hosp"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley war zusammen mit Kevin Rolland Fahnenträgerin der französischen Olympiamannschaft für die Winterspiele 2022."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches Mitglied des Levallois Sporting Club Judo ist dreimaliger Weltmeister ?",
+        "propositions": [
+          "Gévrise Emane",
+          "Keiko Maeda",
+          "Lucie Décosse",
+          "Yarden Gerbi"
+        ],
+        "réponse": "Gévrise Emane",
+        "anecdote": "Der französische Judoka ist während der Olympischen Spiele in Rio 2016 einer der Botschafter des Vereins Solidario."
+      },
+      {
+        "id": 22,
+        "question": "Wer ist der erste professionelle französische Fußballspieler, der in den Vereinigten Staaten spielte ?",
+        "propositions": [
+          "Gaëtane Thiney",
+          "Marinette Pichon",
+          "Camille Abily",
+          "Amel Majri"
+        ],
+        "réponse": "Marinette Pichon",
+        "anecdote": "Sie gilt als der erste französische Star des Frauenfußballs und wurde Fernsehberaterin und Trainerin in Quebec."
+      },
+      {
+        "id": 23,
+        "question": "Wer ist die erfolgreichste französische Freestyle-Skifahrerin in ihrer Disziplin ?",
+        "propositions": [
+          "Perrine Laffont",
+          "Jennifer Heil",
+          "Sandra Schmitt",
+          "Candice Gilg"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "Als fünfmalige Weltmeisterin hält sie neun Kristallkugeln für ihre Weltcup-Ranglistensiege."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Silver Ball erzielte 2015 ein hervorragendes Tor gegen Mexiko ?",
+        "propositions": [
+          "Amandine Henry",
+          "Eva Perisset",
+          "Emelyne Laurent",
+          "Wendie Renard"
+        ],
+        "réponse": "Amandine Henry",
+        "anecdote": "2017, kurz nach dem Amtsantritt von Corinne Diacre als Nationaltrainerin, wird sie Kapitänin der Bleues."
+      },
+      {
+        "id": 25,
+        "question": "Wer hat als Erster die drei großen Nordwände der Alpen im Alleingang bestiegen ?",
+        "propositions": [
+          "Marie Marvingt",
+          "Liliane Barrard",
+          "Catherine Destivelle",
+          "Sophie Lavaud"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "Ab 2011 begann sie mit Bruno Dupety, Bücher über Berge und Bergsteigen zu veröffentlichen (Éditions du Mont-Blanc)."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Freestyle-Spezialist lebt in einer Beziehung mit Jérémy Desplanches ?",
+        "propositions": [
+          "Michelle Smith",
+          "Camélia Potec",
+          "Charlotte Bonnet",
+          "Federica Pellegrini"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet verließ Fabrice Pellerin, ihren zehnjährigen Trainer in Nizza, um sich Philippe Lucas in Martigues anzuschließen."
+      },
+      {
+        "id": 27,
+        "question": "Wer war die erste Frau, die den Boston-Marathon lief ?",
+        "propositions": [
+          "Molly Huddle",
+          "Kathrine Switzer",
+          "Mary Decke",
+          "Shalane Flanagan"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "Am 17. April 2017, im Alter von 70 Jahren (50 Jahre nach ihrer ersten Teilnahme), lief sie den Marathon mit der gleichen Startnummer wie 1967."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Australier ist der jüngste Surfer, der die WCT gewonnen hat ?",
+        "propositions": [
+          "Johanne Defay",
+          "Stephanie Gilmore",
+          "Tyler Wright",
+          "Carissa Moore"
+        ],
+        "réponse": "Stephanie Gilmore",
+        "anecdote": "Es ist das erste Mal in der Geschichte dieser Sportart, dass ein Surfer bereits im ersten Teilnahmejahr Weltmeister wird."
+      },
+      {
+        "id": 29,
+        "question": "Wer hielt 16 Jahre lang den Marathon-Weltrekord der Frauen ?",
+        "propositions": [
+          "Lidia Simon",
+          "Rose Chelimo",
+          "Paula Radcliffe",
+          "Edna Kiplagat"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Obwohl sie in jungen Jahren an Asthma und Anämie litt, begann sie auf Anregung ihres Vaters im Alter von sieben Jahren mit dem Laufen."
+      },
+      {
+        "id": 30,
+        "question": "Welche Cross-Country-Mountainbike-Olympiasiegerin beendete ihre Karriere mit 32 ?",
+        "propositions": [
+          "Jolanda Neff",
+          "Julie Bresset",
+          "Paola Pezzo",
+          "Sabine Spitz"
+        ],
+        "réponse": "Julie Bresset",
+        "anecdote": "2014 erlitt sie während der Saison einen Burnout. Eine Virusinfektion führt dann dazu, dass er drei Monate lang nicht an Wettkämpfen teilnehmen kann."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién ha sido director del torneo de Roland-Garros desde diciembre de 2021 ?",
+        "propositions": [
+          "Nathalie Tauziat",
+          "Amélie Mauresmo",
+          "María Pierce",
+          "Julie Hallard"
+        ],
+        "réponse": "Amélie Mauresmo",
+        "anecdote": "Profesional de 1993 a 2009, ganó veinticinco títulos individuales en el circuito de la WTA, incluidos tres torneos importantes."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué judoka ganó el bronce en Londres y la plata en Río ?",
+        "propositions": [
+          "Mayra Aguiar",
+          "Audrey Tcheumeo",
+          "Madeleine Malonga",
+          "Inbar Lanir"
+        ],
+        "réponse": "Audrey Tcheumeo",
+        "anecdote": "Audrey Tcheuméo también dio su nombre a un gimnasio en Villemomble donde se pueden practicar diferentes tipos de deportes."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué especialista en popurrí murió con solo 25 años ?",
+        "propositions": [
+          "Michelle Smith",
+          "Camille Muffat",
+          "Katie Ledecky",
+          "Brooke Bennett"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "Al más alto nivel, a la edad de 15 años, venció a Laure Manaudou en los 200 metros combinados en el Campeonato de Francia de 2005."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué nadador practicando el medley fue entrenado por Philippe Lucas ?",
+        "propositions": [
+          "Janet Evans",
+          "Katie Ledecky",
+          "Ariarne Titmus",
+          "Laure Manaudou"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "Ahora actúa con frecuencia como consultora en eventos de natación en eventos importantes en televisión."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué ciclista tiene un récord de sesenta títulos nacionales ?",
+        "propositions": [
+          "Jeannie Longo",
+          "Catherine Marsal",
+          "Melody Lesueur",
+          "Sonia Huguet"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "Paralelamente a sus actividades deportivas, toca el piano con una participación en el concurso anual internacional de piano de Besançon."
+      },
+      {
+        "id": 6,
+        "question": "¿Quién fue el primer tenista ruso en ganar Wimbledon ?",
+        "propositions": [
+          "Elena Bovina",
+          "María Kirilenko",
+          "Tatiana Panova",
+          "María Sharápova"
+        ],
+        "réponse": "María Sharápova",
+        "anecdote": "Maria Sharapova, que dio positivo por meldonium en 2016, será suspendida por dos años por la Federación Internacional de Tenis."
+      },
+      {
+        "id": 7,
+        "question": "¿Quién es el creador de un movimiento sobre el hielo, el backflip ?",
+        "propositions": [
+          "Gaby Barbey",
+          "Fanny Besson",
+          "Surya Bonaly",
+          "Simone Poujade"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "Surya Bonaly, estadounidense naturalizada, comenzó su carrera como entrenadora en Las Vegas (donde vive) y luego en Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué especialista en espadas se convirtió en político francés ?",
+        "propositions": [
+          "Timea Nagy",
+          "Laura Flessel",
+          "Valérie Barlois",
+          "Britta Heidemann"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "Fue cinco veces medallista olímpica y ganó las dos medallas de oro al comienzo de la espada femenina en los Juegos Olímpicos de 1996."
+      },
+      {
+        "id": 9,
+        "question": "¿Quién es el único atleta francés en ser triple campeón olímpico ?",
+        "propositions": [
+          "Sandra Myers",
+          "Muriel Hurtis",
+          "Marie-José Pérec",
+          "Marita Koch"
+        ],
+        "réponse": "Marie-José Pérec",
+        "anecdote": "En 1992 en los Juegos de Barcelona sobre 400 metros y dos veces en los Juegos de Atlanta en 1996 sobre 400 metros y 200 metros."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué gimnasta rumana anotó 10 en una competencia olímpica ?",
+        "propositions": [
+          "Oana Ban",
+          "Catalina Ponor",
+          "Nadia Comaneci",
+          "Alexandra Eremia"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Su relación con el estado rumano liderado por Nicolae Ceausescu, ocho años después del final de su carrera, dejó el país rumbo a Estados Unidos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué kitesurfista francés es tres veces campeón del mundo de velocidad ?",
+        "propositions": [
+          "Alexia Fancelli",
+          "Aurélie Godet",
+          "Anne-Laure Pegon",
+          "Charlotte Consorti"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "Cuando no está viajando por el mundo, Charlotte Consorti sigue entrenándose en el Mediterráneo."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué capitán de OL Reign fue el máximo goleador del Mundial 2019 ?",
+        "propositions": [
+          "Megan Rapinoe",
+          "Álex Morgan",
+          "Alexia Putellas",
+          "Ada Hegerberg"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe ha sido elegida dos veces como una de las 100 personas más influyentes de la revista Time."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué noruega ganó el primer Balón de Oro femenino de France Football ?",
+        "propositions": [
+          "Andrea Norheim",
+          "Linda Medalen",
+          "Julie Blakstad",
+          "Ada Hegerberg"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "Gracias a sus actuaciones únicas y a sus compromisos, Ada Hegerberg es una de las figuras más importantes de su deporte."
+      },
+      {
+        "id": 14,
+        "question": "¿Quién fue la primera mujer en ganar una carrera en un Gran Premio de motociclismo ?",
+        "propositions": [
+          "María Herrera",
+          "Ana Carrasco",
+          "Lucy Glockner",
+          "Gina Bovaird"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "En 2018, Ana Carrasco ganó dos carreras, en Italia y Reino Unido, y ganó la Supersport 300 de 2018."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué tenista estadounidense fundó la WTA en 1973 ?",
+        "propositions": [
+          "Tracy Austin",
+          "Virginia Wade",
+          "Billie Jean King",
+          "Ángela Mortimer"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King ostenta, junto a Martina Navrátilova, el récord de veinte coronaciones en el templo londinense de Wimbledon."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué líder de la selección francesa de baloncesto recibe el sobrenombre de Caps ?",
+        "propositions": [
+          "Marine Fauthoux",
+          "Céline Dumerc",
+          "Laura Gil",
+          "Kendra Chery"
+        ],
+        "réponse": "Céline Dumerc",
+        "anecdote": "Con 262 selecciones, ostenta el récord de selecciones de la selección francesa de baloncesto tanto masculina como femenina."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué tenista fue considerado la revelación de la temporada 2016 ?",
+        "propositions": [
+          "Naomi Osaka",
+          "Tracy Austin",
+          "Dinara Safina",
+          "Angélique Kerber"
+        ],
+        "réponse": "Naomi Osaka",
+        "anecdote": "Tanto hombres como mujeres, Naomi Osaka es la primera mujer japonesa en ganar un torneo de Grand Slam."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué gran judoka tiene la nacionalidad francesa y togolesa ?",
+        "propositions": [
+          "Yardén Gerbi",
+          "Keiko Maeda",
+          "Lucía Decosse",
+          "Clarisse Agbegnenou"
+        ],
+        "réponse": "Clarisse Agbegnenou",
+        "anecdote": "Será designada, junto con el gimnasta Samir Aït-Saïd, abanderada del equipo olímpico francés para los Juegos Olímpicos de 2020."
+      },
+      {
+        "id": 19,
+        "question": "¿Quién fue el primer boxeador francés en ganar el oro en los Juegos Olímpicos ?",
+        "propositions": [
+          "Estelle Mossely",
+          "Kellie Harrington",
+          "Katie Taylor",
+          "Lauren Price"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "En 2016, el día de su cumpleaños, se coronará campeona olímpica en Río al vencer a la china Yin Junhua."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué esquiador francés es doble campeón del mundo de slalom gigante ?",
+        "propositions": [
+          "Tessa Worley",
+          "Tina Maze",
+          "Nicole Hosp",
+          "Carole Merle"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley fue, junto con Kevin Rolland, abanderada del equipo olímpico francés para los Juegos de Invierno de 2022."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué miembro del Levallois Sporting Club Judo es tres veces campeón del mundo ?",
+        "propositions": [
+          "Keiko Maeda",
+          "Gévrise Emane",
+          "Yardén Gerbi",
+          "Lucía Decosse"
+        ],
+        "réponse": "Gévrise Emane",
+        "anecdote": "El judoka francés es uno de los embajadores, durante los Juegos Olímpicos de Río de 2016, de la asociación Solidario."
+      },
+      {
+        "id": 22,
+        "question": "¿Quién es el primer futbolista francés profesional que jugó en Estados Unidos ?",
+        "propositions": [
+          "Gaëtane Thiney",
+          "Amel Majri",
+          "Marinette Pichón",
+          "Camille Abily"
+        ],
+        "réponse": "Marinette Pichón",
+        "anecdote": "Considerada la primera estrella francesa del fútbol femenino, se convirtió en asesora televisiva y entrenadora en Quebec."
+      },
+      {
+        "id": 23,
+        "question": "¿Quién es la esquiadora francesa de estilo libre con más éxito en su disciplina ?",
+        "propositions": [
+          "Sandra Schmitt",
+          "Jennifer Heil",
+          "Perrine Laffont",
+          "Candice Gilg"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "Cinco veces campeona del mundo, posee nueve globos de cristal por sus victorias en el ranking de la Copa del Mundo."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué Balón de Plata le marcó un gol soberbio a México en 2015 ?",
+        "propositions": [
+          "Wendie Renard",
+          "Eva Perisset",
+          "Emelyne Laurent",
+          "Amandina Henry"
+        ],
+        "réponse": "Amandina Henry",
+        "anecdote": "En 2017, poco después de la llegada de Corinne Diacre como seleccionadora nacional, se convertirá en la capitana de las Bleues."
+      },
+      {
+        "id": 25,
+        "question": "¿Quién fue el primero en escalar solo las tres principales caras septentrionales de los Alpes ?",
+        "propositions": [
+          "Sophie Lavaud",
+          "María Marvingt",
+          "Catherine Destivelle",
+          "Liliane Barrard"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "A partir de 2011, con Bruno Dupety, comenzó a publicar (Éditions du Mont-Blanc) libros sobre montaña y montañismo."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué especialista en natación estilo libre vive en pareja con Jérémy Desplanches ?",
+        "propositions": [
+          "Camelia Potec",
+          "Federica Pellegrini",
+          "Charlotte Bonnet",
+          "Michelle Smith"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet dejó a Fabrice Pellerin, su entrenador durante diez años en Niza, para unirse a Philippe Lucas en Martigues."
+      },
+      {
+        "id": 27,
+        "question": "¿Quién fue la primera mujer registrada en correr el maratón de Boston ?",
+        "propositions": [
+          "Mary Decke",
+          "Molly Huddle",
+          "Shalane Flanagan",
+          "Kathrine Switzer"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "El 17 de abril de 2017, a los 70 años (50 años después de su primera participación), corrió la maratón con el mismo dorsal que en 1967."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué australiano es el surfista más joven en ganar el WCT ?",
+        "propositions": [
+          "Johanne Defay",
+          "Carissa Moore",
+          "Tyler Wright",
+          "Stephanie Gilmore"
+        ],
+        "réponse": "Stephanie Gilmore",
+        "anecdote": "Es la primera vez en la historia de este deporte que un surfista se convierte en campeón del mundo en el primer año de participación."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién fue la poseedora del récord mundial de maratón femenino durante 16 años ?",
+        "propositions": [
+          "Paula Radcliffe",
+          "Rose Chelimo",
+          "Lidia Simón",
+          "Edna Kiplagat"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Aunque sufrió asma y anemia en sus primeros años, empezó a correr a los siete años, animada por su padre."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué campeona olímpica de ciclismo de montaña de cross-country terminó su carrera a los 32 años ?",
+        "propositions": [
+          "Jolanda Neff",
+          "Sabine Spitz",
+          "Julia Bresset",
+          "Paula Pezzo"
+        ],
+        "réponse": "Julia Bresset",
+        "anecdote": "En 2014, sufrió un agotamiento durante la temporada. Una infección viral le hará perderse tres meses de competición."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi è il direttore del torneo Roland-Garros da dicembre 2021 ?",
+        "propositions": [
+          "Nathalie Tauziat",
+          "Maria Pierce",
+          "Amélie Mauresmo",
+          "Julie Hallard"
+        ],
+        "réponse": "Amélie Mauresmo",
+        "anecdote": "Professionista dal 1993 al 2009, ha vinto venticinque titoli in singolare nel circuito WTA, inclusi tre tornei importanti."
+      },
+      {
+        "id": 2,
+        "question": "Quale judoka ha vinto il bronzo a Londra e l'argento a Rio ?",
+        "propositions": [
+          "Madeleine Malonga",
+          "Inbar Lanir",
+          "Mayra Aguiar",
+          "Audrey Tcheumeo"
+        ],
+        "réponse": "Audrey Tcheumeo",
+        "anecdote": "Audrey Tcheuméo ha anche dato il suo nome a una palestra a Villemomble dove si possono praticare diversi tipi di sport."
+      },
+      {
+        "id": 3,
+        "question": "Quale specialista di medley è morto a soli 25 anni ?",
+        "propositions": [
+          "Brooke Bennett",
+          "Camille Muffat",
+          "Katie Ledecky",
+          "Michelle Smith"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "Ai massimi livelli, all'età di 15 anni, ha battuto Laure Manaudou nei 200 m misti ai Campionati di Francia del 2005."
+      },
+      {
+        "id": 4,
+        "question": "Quale nuotatore che praticava il medley è stato allenato da Philippe Lucas ?",
+        "propositions": [
+          "Ariarne Titmus",
+          "Laure Manaudou",
+          "Janet Evans",
+          "Katie Ledecky"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "Ora funge spesso da consulente per eventi di nuoto in grandi eventi televisivi."
+      },
+      {
+        "id": 5,
+        "question": "Quale ciclista ha un record di sessanta titoli nazionali ?",
+        "propositions": [
+          "Sonia Huguet",
+          "Melody Lesueur",
+          "Jeannie Longo",
+          "Catherine Marsal"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "Parallelamente alle sue attività sportive, suona il pianoforte con una partecipazione all'annuale concorso pianistico internazionale di Besançon."
+      },
+      {
+        "id": 6,
+        "question": "Chi è stato il primo tennista russo a vincere Wimbledon ?",
+        "propositions": [
+          "Elena Bovina",
+          "Maria Sharapova",
+          "Maria Kirilenko",
+          "Tatiana Panova"
+        ],
+        "réponse": "Maria Sharapova",
+        "anecdote": "Risultata positiva al meldonium nel 2016, Maria Sharapova sarà sospesa per due anni dalla International Tennis Federation."
+      },
+      {
+        "id": 7,
+        "question": "Chi è l'ideatore di un movimento sul ghiaccio, il backflip ?",
+        "propositions": [
+          "Surya Bonaly",
+          "Gaby Barbay",
+          "Fanny Besson",
+          "Simone Poujade"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "Americana naturalizzata, Surya Bonaly ha iniziato la sua carriera da allenatrice a Las Vegas (dove vive), poi a Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "Quale specialista di spade è diventato un politico francese ?",
+        "propositions": [
+          "Laura Flessel",
+          "Timea Nagy",
+          "Britta Heidemann",
+          "Valerie Barlois"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "È stata cinque volte medaglia olimpica e ha vinto le due medaglie d'oro all'inizio della spada femminile alle Olimpiadi del 1996."
+      },
+      {
+        "id": 9,
+        "question": "Chi è l'unico atleta francese ad essere tre volte campione olimpico ?",
+        "propositions": [
+          "Muriel Hurtis",
+          "Sandra Myers",
+          "Marita Koch",
+          "Marie-José Perec"
+        ],
+        "réponse": "Marie-José Perec",
+        "anecdote": "Nel 1992 ai Giochi di Barcellona oltre i 400 metri e due volte ai Giochi di Atlanta nel 1996 oltre i 400 metri e 200 metri."
+      },
+      {
+        "id": 10,
+        "question": "Quale ginnasta rumena ha segnato 10 nella competizione olimpica ?",
+        "propositions": [
+          "Alexandra Eremia",
+          "Nadia Comaneci",
+          "Catalina Ponor",
+          "Oana Ban"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Il suo rapporto con lo stato rumeno guidato da Nicolae Ceausescu, otto anni dopo la fine della sua carriera, ha lasciato il paese per gli Stati Uniti."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale kitesurfista francese è tre volte campione del mondo di velocità ?",
+        "propositions": [
+          "Charlotte Consorti",
+          "Aurelie Godet",
+          "Anne-Laure Pegon",
+          "Alessia Fancelli"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "Quando non è in giro per il mondo, è nel Mediterraneo che Charlotte Consorti continua ad allenarsi."
+      },
+      {
+        "id": 12,
+        "question": "Quale capitano dell'OL Reign è stato capocannoniere della Coppa del Mondo 2019 ?",
+        "propositions": [
+          "Alexia Putellas",
+          "Ada Hegerberg",
+          "Alex Morgan",
+          "Megan Rapinoe"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe è stata scelta due volte come una delle 100 persone più influenti dalla rivista Time."
+      },
+      {
+        "id": 13,
+        "question": "Quale norvegese ha vinto il primo Pallone d'Oro femminile di France Football ?",
+        "propositions": [
+          "Ada Hegerberg",
+          "Julie Blakstad",
+          "Andrea Norheim",
+          "Linda Medalen"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "Grazie alle sue prestazioni uniche e al suo impegno, Ada Hegerberg è una delle figure più importanti del suo sport."
+      },
+      {
+        "id": 14,
+        "question": "Chi è stata la prima donna a vincere una gara in un Gran Premio motociclistico ?",
+        "propositions": [
+          "Maria Herrera",
+          "Gina Bovaird",
+          "Ana Carrasco",
+          "Lucy Glockner"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "Nel 2018, Ana Carrasco ha vinto due gare, in Italia e nel Regno Unito, e ha vinto la Supersport 300 2018."
+      },
+      {
+        "id": 15,
+        "question": "Quale tennista americana ha fondato la WTA nel 1973 ?",
+        "propositions": [
+          "Angela Mortimer",
+          "Tracy Austin",
+          "Billie Jean King",
+          "Virginia Wade"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King detiene, insieme a Martina Navrátilova, il record di venti incoronazioni nel tempio londinese di Wimbledon."
+      },
+      {
+        "id": 16,
+        "question": "Quale leader della squadra di basket francese è soprannominato Caps ?",
+        "propositions": [
+          "Kendra Chery",
+          "Laura Gil",
+          "Marine Fauthoux",
+          "Céline Dumerc"
+        ],
+        "réponse": "Céline Dumerc",
+        "anecdote": "Con 262 selezioni, detiene il record di selezioni per la squadra francese di basket maschile e femminile combinate."
+      },
+      {
+        "id": 17,
+        "question": "Quale tennista è stata considerata la rivelazione della stagione 2016 ?",
+        "propositions": [
+          "Tracy Austin",
+          "Noemi Osaka",
+          "Angelique Kerber",
+          "Dinara Safina"
+        ],
+        "réponse": "Noemi Osaka",
+        "anecdote": "Uomini e donne, Naomi Osaka è la prima donna giapponese a vincere un torneo del Grande Slam."
+      },
+      {
+        "id": 18,
+        "question": "Quale grande judokate ha nazionalità francese e togolese ?",
+        "propositions": [
+          "Yarden Gerbi",
+          "Clarisse Agbégnénou",
+          "Lucia Decosse",
+          "Keiko Maeda"
+        ],
+        "réponse": "Clarisse Agbégnénou",
+        "anecdote": "Sarà designata, insieme al ginnasta Samir Aït-Saïd, portabandiera della squadra olimpica francese per le Olimpiadi del 2020."
+      },
+      {
+        "id": 19,
+        "question": "Chi è stato il primo pugile francese a vincere l'oro ai Giochi Olimpici ?",
+        "propositions": [
+          "Estelle Mossely",
+          "Lauren Price",
+          "Kellie Harrington",
+          "Katie Taylor"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "Nel 2016, nel giorno del suo compleanno, verrà incoronata campionessa olimpica a Rio vincendo contro la cinese Yin Junhua."
+      },
+      {
+        "id": 20,
+        "question": "Quale sciatore francese è due volte campione del mondo di slalom gigante ?",
+        "propositions": [
+          "Tina Maze",
+          "Nicole Hosp",
+          "Carole Merle",
+          "Tessa Worley"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley è stata, insieme a Kevin Rolland, portabandiera della squadra olimpica francese per i Giochi invernali del 2022."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale membro del Levallois Sporting Club Judo è tre volte campione del mondo ?",
+        "propositions": [
+          "Gévrise Emane",
+          "Keiko Maeda",
+          "Yarden Gerbi",
+          "Lucia Decosse"
+        ],
+        "réponse": "Gévrise Emane",
+        "anecdote": "Il judokate francese è uno degli ambasciatori, durante i Giochi Olimpici di Rio 2016, dell'associazione Solidario."
+      },
+      {
+        "id": 22,
+        "question": "Chi è il primo calciatore professionista francese a giocare negli Stati Uniti ?",
+        "propositions": [
+          "Gaëtane Thiney",
+          "Camille Abily",
+          "Amel Majri",
+          "Marinette Pichon"
+        ],
+        "réponse": "Marinette Pichon",
+        "anecdote": "Considerata la prima stella francese del calcio femminile, diventa consulente televisiva e allenatrice in Quebec."
+      },
+      {
+        "id": 23,
+        "question": "Chi è la sciatrice freestyle francese di maggior successo nella sua disciplina ?",
+        "propositions": [
+          "Candice Gilg",
+          "Sandra Schmitt",
+          "Jennifer Heil",
+          "Perrine Laffont"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "Cinque volte campionessa del mondo, è detentrice di nove globi di cristallo per le sue vittorie nella classifica della Coppa del Mondo."
+      },
+      {
+        "id": 24,
+        "question": "Quale Pallone d'Argento ha segnato uno splendido gol contro il Messico nel 2015 ?",
+        "propositions": [
+          "Emélyne Laurent",
+          "Eva Perisset",
+          "Wendie Renard",
+          "Amandine Henry"
+        ],
+        "réponse": "Amandine Henry",
+        "anecdote": "Nel 2017, poco dopo l'arrivo di Corinne Diacre sulla panchina della Nazionale, diventerà lei il capitano dei Bleues."
+      },
+      {
+        "id": 25,
+        "question": "Chi è stato il primo a scalare in solitaria le tre principali pareti settentrionali delle Alpi ?",
+        "propositions": [
+          "Liliane Barrard",
+          "Sophie Lavaud",
+          "Catherine Destivelle",
+          "Marie Marvingt"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "Dal 2011 con Bruno Dupety, inizia a pubblicare (Éditions du Mont-Blanc) libri sulla montagna e l'alpinismo."
+      },
+      {
+        "id": 26,
+        "question": "Quale specialista del nuoto stile libero vive in coppia con Jérémy Desplanches ?",
+        "propositions": [
+          "Charlotte Bonnet",
+          "Michelle Smith",
+          "Federica Pellegrini",
+          "Camélia Potec"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet ha lasciato Fabrice Pellerin, suo allenatore per dieci anni al Nizza, per raggiungere Philippe Lucas a Martigues."
+      },
+      {
+        "id": 27,
+        "question": "Chi è stata la prima donna registrata a correre la maratona di Boston ?",
+        "propositions": [
+          "Mary Decke",
+          "Molly Huddle",
+          "Shalane Flanagan",
+          "Kathrine Switzer"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "Il 17 aprile 2017, all'età di 70 anni (50 anni dopo la sua prima partecipazione), ha corso la maratona con lo stesso pettorale del 1967."
+      },
+      {
+        "id": 28,
+        "question": "Quale australiana è la surfista più giovane a vincere nel WCT ?",
+        "propositions": [
+          "Johanne Defay",
+          "Carissa Moore",
+          "Stephanie Gilmore",
+          "Tyler Wright"
+        ],
+        "réponse": "Stephanie Gilmore",
+        "anecdote": "Questa è la prima volta nella storia di questo sport che un surfista diventa campione del mondo già nel primo anno di partecipazione."
+      },
+      {
+        "id": 29,
+        "question": "Chi ha detenuto il record mondiale della maratona femminile per 16 anni ?",
+        "propositions": [
+          "Rose Chelimo",
+          "Edna Kiplagat",
+          "Paula Radcliffe",
+          "Lidia Simon"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Sebbene soffrisse di asma e anemia da giovane, iniziò a correre all'età di sette anni, incoraggiata da suo padre."
+      },
+      {
+        "id": 30,
+        "question": "Quale campionessa olimpica di mountain bike di fondo ha concluso la sua carriera a 32 anni ?",
+        "propositions": [
+          "Julie Bresset",
+          "Jolanda Neff",
+          "Sabine Spitz",
+          "Paolo Pezzo"
+        ],
+        "réponse": "Julie Bresset",
+        "anecdote": "Nel 2014, ha sofferto di burnout durante la stagione. Un'infezione virale gli farà poi saltare tre mesi di gara."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie is sinds december 2021 directeur van het Roland-Garros-toernooi ?",
+        "propositions": [
+          "Julie Hallard",
+          "Nathalie Tauziat",
+          "Amelie Mauresmo",
+          "Maria Pierce"
+        ],
+        "réponse": "Amelie Mauresmo",
+        "anecdote": "Professioneel van 1993 tot 2009 won ze vijfentwintig singles-titels op het WTA-circuit, waaronder drie grote toernooien."
+      },
+      {
+        "id": 2,
+        "question": "Welke judoka won brons in Londen en zilver in Rio ?",
+        "propositions": [
+          "Inbar Lanir",
+          "Madeleine Malonga",
+          "Audrey Tcheumeo",
+          "Mayra Aguiar"
+        ],
+        "réponse": "Audrey Tcheumeo",
+        "anecdote": "Audrey Tcheuméo gaf haar naam ook aan een gymnasium in Villemomble waar je verschillende soorten sporten kunt beoefenen."
+      },
+      {
+        "id": 3,
+        "question": "Welke medley-specialist stierf op slechts 25-jarige leeftijd ?",
+        "propositions": [
+          "Camille Muffat",
+          "Brooke Bennett",
+          "Michelle Smith",
+          "Katie Ledecky"
+        ],
+        "réponse": "Camille Muffat",
+        "anecdote": "Op het hoogste niveau versloeg ze op 15-jarige leeftijd Laure Manaudou op de 200 meter wisselslag op de Franse kampioenschappen van 2005."
+      },
+      {
+        "id": 4,
+        "question": "Welke zwemmer die de wisselslag beoefende, werd getraind door Philippe Lucas ?",
+        "propositions": [
+          "Janet Evans",
+          "Katie Ledecky",
+          "Ariarne Titmus",
+          "Laure Manaudou"
+        ],
+        "réponse": "Laure Manaudou",
+        "anecdote": "Ze treedt nu regelmatig op als adviseur bij zwemevenementen bij grote evenementen op televisie."
+      },
+      {
+        "id": 5,
+        "question": "Welke wielrenner heeft een record van zestig landstitels ?",
+        "propositions": [
+          "Catherine Marsal",
+          "Melodie Lesueur",
+          "Sonia Huguet",
+          "Jeannie Longo"
+        ],
+        "réponse": "Jeannie Longo",
+        "anecdote": "Naast haar sportactiviteiten speelt ze piano met deelname aan de jaarlijkse internationale pianowedstrijd van Besançon."
+      },
+      {
+        "id": 6,
+        "question": "Wie was de eerste Russische tennisser die Wimbledon won ?",
+        "propositions": [
+          "Maria Sharapova",
+          "Maria Kirilenko",
+          "Tatjana Panova",
+          "Elena Bovina"
+        ],
+        "réponse": "Maria Sharapova",
+        "anecdote": "Maria Sharapova werd in 2016 positief getest op meldonium en wordt door de Internationale Tennisfederatie voor twee jaar geschorst."
+      },
+      {
+        "id": 7,
+        "question": "Wie is de bedenker van een beweging op het ijs, de backflip ?",
+        "propositions": [
+          "Simone Poujade",
+          "Gaby Barbey",
+          "Surya Bonaly",
+          "Fanny Besson"
+        ],
+        "réponse": "Surya Bonaly",
+        "anecdote": "Surya Bonaly, een genaturaliseerde Amerikaanse, begon haar coachingcarrière in Las Vegas (waar ze woont) en vervolgens in Minneapolis."
+      },
+      {
+        "id": 8,
+        "question": "Welke zwaardspecialist werd een Franse politicus ?",
+        "propositions": [
+          "Britta Heidemann",
+          "Timea Nagy",
+          "Laura Flessel",
+          "Valérie Barlois"
+        ],
+        "réponse": "Laura Flessel",
+        "anecdote": "Ze was een vijfvoudig Olympisch medaillewinnaar en won de twee gouden medailles bij de start van de dames degen op de Olympische Spelen van 1996."
+      },
+      {
+        "id": 9,
+        "question": "Wie is de enige Franse atleet die drievoudig Olympisch kampioen is ?",
+        "propositions": [
+          "Sandra Myers",
+          "Marita Koch",
+          "Marie-José Perec",
+          "Muriël Hurtis"
+        ],
+        "réponse": "Marie-José Perec",
+        "anecdote": "In 1992 bij de Spelen van Barcelona over de 400 meter en tweemaal bij de Spelen van Atlanta in 1996 over de 400 meter en de 200 meter."
+      },
+      {
+        "id": 10,
+        "question": "Welke Roemeense turnster scoorde 10 in de Olympische competitie ?",
+        "propositions": [
+          "Nadia Comaneci",
+          "Alexandra Eremia",
+          "Catalina Ponor",
+          "Oana Ban"
+        ],
+        "réponse": "Nadia Comaneci",
+        "anecdote": "Haar relatie met de Roemeense staat onder leiding van Nicolae Ceausescu, acht jaar na het einde van haar carrière, verliet ze het land naar de Verenigde Staten."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Franse kitesurfer is drievoudig wereldkampioen snelheid ?",
+        "propositions": [
+          "Anne-Laure Pégon",
+          "Alexia Fancelli",
+          "Charlotte Consorti",
+          "Aurélie Godet"
+        ],
+        "réponse": "Charlotte Consorti",
+        "anecdote": "Als ze niet de wereld rondreist, blijft Charlotte Consorti in de Middellandse Zee trainen."
+      },
+      {
+        "id": 12,
+        "question": "Welke aanvoerder van OL Reign was topscorer op het WK 2019 ?",
+        "propositions": [
+          "Megan Rapinoe",
+          "Alexia Putellas",
+          "Ada Hegerberg",
+          "Alex Morgan"
+        ],
+        "réponse": "Megan Rapinoe",
+        "anecdote": "Megan Rapinoe is tweemaal gekozen als een van de 100 meest invloedrijke mensen van Time Magazine."
+      },
+      {
+        "id": 13,
+        "question": "Welke Noor heeft de eerste Ballon d'Or voor dames in het Franse voetbal gewonnen ?",
+        "propositions": [
+          "Andrea Norheim",
+          "Ada Hegerberg",
+          "Julie Blakstad",
+          "Linda Medallen"
+        ],
+        "réponse": "Ada Hegerberg",
+        "anecdote": "Door haar unieke prestaties en inzet is Ada Hegerberg een van de grote figuren in haar sport."
+      },
+      {
+        "id": 14,
+        "question": "Wie was de eerste vrouw die een race in een Grand Prix voor motorfietsen won ?",
+        "propositions": [
+          "Gina Bovaird",
+          "Ana Carrasco",
+          "Lucy Glockner",
+          "Maria Herrera"
+        ],
+        "réponse": "Ana Carrasco",
+        "anecdote": "In 2018 won Ana Carrasco twee races, in Italië en het Verenigd Koninkrijk, en won ze de Supersport 300 van 2018."
+      },
+      {
+        "id": 15,
+        "question": "Welke Amerikaanse tennisser richtte de WTA in 1973 op ?",
+        "propositions": [
+          "Virginia Wade",
+          "Tracy Austin",
+          "Angela Mortimer",
+          "Billie Jean King"
+        ],
+        "réponse": "Billie Jean King",
+        "anecdote": "Billie Jean King heeft, samen met Martina Navrátilova, het record van twintig kroningen in de Londense tempel van Wimbledon."
+      },
+      {
+        "id": 16,
+        "question": "Welke leider van het Franse basketbalteam heeft de bijnaam Caps ?",
+        "propositions": [
+          "Kendra Chery",
+          "Laura Gil",
+          "Marine Fauthoux",
+          "Celine Dumerc"
+        ],
+        "réponse": "Celine Dumerc",
+        "anecdote": "Met 262 selecties is ze houder van het record voor selecties in het Franse heren- en damesbasketbalteam samen."
+      },
+      {
+        "id": 17,
+        "question": "Welke tennisser werd beschouwd als de revelatie van het seizoen 2016 ?",
+        "propositions": [
+          "Tracy Austin",
+          "Dinara Safina",
+          "Naomi Osaka",
+          "Angelique Kerber"
+        ],
+        "réponse": "Naomi Osaka",
+        "anecdote": "Zowel mannen als vrouwen : Naomi Osaka is de eerste Japanner die een Grand Slam-toernooi wint."
+      },
+      {
+        "id": 18,
+        "question": "Welke grote judoka heeft de Franse en Togolese nationaliteit ?",
+        "propositions": [
+          "Lucia Decosse",
+          "Keiko Maeda",
+          "Yarden Gerbi",
+          "Clarisse Agbégnénou"
+        ],
+        "réponse": "Clarisse Agbégnénou",
+        "anecdote": "Ze wordt, samen met turnster Samir Aït-Saïd, benoemd tot vaandeldrager van het Franse Olympische team voor de Olympische Spelen van 2020."
+      },
+      {
+        "id": 19,
+        "question": "Wie was de eerste Franse bokser die goud won op de Olympische Spelen ?",
+        "propositions": [
+          "Lauren Price",
+          "Katie Taylor",
+          "Estelle Mossely",
+          "Kellie Harington"
+        ],
+        "réponse": "Estelle Mossely",
+        "anecdote": "In 2016, op haar verjaardag, kroont ze zich in Rio tot Olympisch kampioen door te winnen van de Chinese Yin Junhua."
+      },
+      {
+        "id": 20,
+        "question": "Welke Franse skiër is tweevoudig wereldkampioen reuzenslalom ?",
+        "propositions": [
+          "Nicole Hosp",
+          "Tessa Worley",
+          "Tina Maze",
+          "Carole Merle"
+        ],
+        "réponse": "Tessa Worley",
+        "anecdote": "Tessa Worley was, samen met Kevin Rolland, vaandeldrager van het Franse Olympische team voor de Winterspelen van 2022."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk lid van de Levallois Sporting Club Judo is drievoudig wereldkampioen ?",
+        "propositions": [
+          "Yarden Gerbi",
+          "Gevrise Emane",
+          "Keiko Maeda",
+          "Lucia Decosse"
+        ],
+        "réponse": "Gevrise Emane",
+        "anecdote": "De Franse judoka is tijdens de Olympische Spelen in Rio in 2016 een van de ambassadeurs van de vereniging Solidario."
+      },
+      {
+        "id": 22,
+        "question": "Wie is de eerste Franse profvoetballer die in de Verenigde Staten heeft gespeeld ?",
+        "propositions": [
+          "Camille Abily",
+          "Marinette Pichon",
+          "Amel Majri",
+          "Gaëtane Thiney"
+        ],
+        "réponse": "Marinette Pichon",
+        "anecdote": "Beschouwd als de eerste Franse ster van het damesvoetbal, werd ze tv-consulent en coach in Quebec."
+      },
+      {
+        "id": 23,
+        "question": "Wie is de meest succesvolle Franse freestyleskiër in haar discipline ?",
+        "propositions": [
+          "Perrine Laffont",
+          "Candice Gilg",
+          "Jennifer Heil",
+          "Sandra Schmitt"
+        ],
+        "réponse": "Perrine Laffont",
+        "anecdote": "Ze is vijfvoudig wereldkampioen en heeft negen kristallen bollen vast voor haar overwinningen op de Wereldbekerranglijst."
+      },
+      {
+        "id": 24,
+        "question": "Welke Zilveren Bal scoorde in 2015 een schitterend doelpunt tegen Mexico ?",
+        "propositions": [
+          "Amandine Henry",
+          "Eva Périsset",
+          "Emelyne Laurent",
+          "Wendie Renard"
+        ],
+        "réponse": "Amandine Henry",
+        "anecdote": "In 2017, kort na de komst van Corinne Diacre als bondscoach, wordt zij aanvoerder van de Bleues."
+      },
+      {
+        "id": 25,
+        "question": "Wie was de eerste die alleen de drie grote noordwanden van de Alpen beklom ?",
+        "propositions": [
+          "Marie Marvingt",
+          "Catherine Destivelle",
+          "Sophie Lavaud",
+          "Liliane Barrard"
+        ],
+        "réponse": "Catherine Destivelle",
+        "anecdote": "Vanaf 2011 begon ze samen met Bruno Dupety boeken te publiceren (Éditions du Mont-Blanc) over bergen en bergbeklimmen."
+      },
+      {
+        "id": 26,
+        "question": "Welke freestyle-zwemspecialist woont als koppel bij Jérémy Desplanches ?",
+        "propositions": [
+          "Charlotte Bonnet",
+          "Federica Pellegrini",
+          "Michelle Smith",
+          "Camelia Potec"
+        ],
+        "réponse": "Charlotte Bonnet",
+        "anecdote": "Charlotte Bonnet verliet Fabrice Pellerin, haar coach gedurende tien jaar in Nice, om zich bij Philippe Lucas te voegen in Martigues."
+      },
+      {
+        "id": 27,
+        "question": "Wie was de eerste geregistreerde vrouw die de marathon van Boston liep ?",
+        "propositions": [
+          "Mary Decke",
+          "Molly Huddle",
+          "Shalane Flanagan",
+          "Kathrine Switzer"
+        ],
+        "réponse": "Kathrine Switzer",
+        "anecdote": "Op 17 april 2017 liep ze op 70-jarige leeftijd (50 jaar na haar eerste deelname) de marathon met hetzelfde startnummer als in 1967."
+      },
+      {
+        "id": 28,
+        "question": "Welke Australische is zij de jongste surfer die wint in de WCT ?",
+        "propositions": [
+          "Carissa Moore",
+          "Tyler Wright",
+          "Stephanie Gilmore",
+          "Johanne Defay"
+        ],
+        "réponse": "Stephanie Gilmore",
+        "anecdote": "Het is de eerste keer in de geschiedenis van deze sport dat een surfer in het eerste jaar van deelname wereldkampioen wordt."
+      },
+      {
+        "id": 29,
+        "question": "Wie was 16 jaar lang houder van het wereldrecord op de marathon voor dames ?",
+        "propositions": [
+          "Edna Kiplagat",
+          "Lidia Simon",
+          "Paula Radcliffe",
+          "Rose Chelimo"
+        ],
+        "réponse": "Paula Radcliffe",
+        "anecdote": "Hoewel ze in haar vroege jaren aan astma en bloedarmoede leed, begon ze op zevenjarige leeftijd met hardlopen, aangemoedigd door haar vader."
+      },
+      {
+        "id": 30,
+        "question": "Welke Olympisch kampioene crosscountry mountainbike beëindigde haar carrière op 32-jarige leeftijd ?",
+        "propositions": [
+          "Sabine Spitz",
+          "Jolanda Neff",
+          "Julie Bresset",
+          "Paula Pezzo"
+        ],
+        "réponse": "Julie Bresset",
+        "anecdote": "In 2014 kreeg ze tijdens het seizoen een burn-out. Een virale infectie zorgt er dan voor dat hij drie maanden competitie moet missen."
+      }
+    ]
+    }
+  }
+}

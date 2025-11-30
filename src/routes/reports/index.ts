@@ -1,4 +1,4 @@
-import { IReport } from "@models/Report";
+import { IReport } from "../../models/Report";
 import { FastifyPluginAsync } from "fastify";
 import { adminGuard } from "../../middleware/authGuard";
 import { log } from "../../utils/utils";

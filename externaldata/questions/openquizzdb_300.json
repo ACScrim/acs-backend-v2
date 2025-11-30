@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 8,
+  "mise-à-jour": "2024-01-02",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Géographie",
+      "nom": "Californie",
+      "slogan": "Le rêve américain"
+    },
+    "en": {
+      "catégorie": "Geography",
+      "nom": "California",
+      "slogan": "The American dream"
+    },
+    "es": {
+      "catégorie": "Geografía",
+      "nom": "California",
+      "slogan": "El sueño americano"
+    },
+    "it": {
+      "catégorie": "Geografia",
+      "nom": "California",
+      "slogan": "Il sogno americano"
+    },
+    "de": {
+      "catégorie": "Erdkunde",
+      "nom": "Kalifornien",
+      "slogan": "Der amerikanische Traum"
+    },
+    "nl": {
+      "catégorie": "Aardrijkskunde",
+      "nom": "Californië",
+      "slogan": "De Amerikaanse droom"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "À San Francisco, quel lieu est le premier pôle mondial des hautes technologies ?",
+        "propositions": [
+          "Inland Empire",
+          "Côte centrale",
+          "Gold Country",
+          "Silicon Valley"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "Silicon Valley a inspiré bon nombre de technopoles en Europe, dont Aerospace Valley, Sophia Antipolis, Inovallée ou EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "Quelle ville de Californie est devenue la capitale mondiale du cinéma ?",
+        "propositions": [
+          "Los Angeles",
+          "Sacramento",
+          "Long Beach",
+          "San Francisco"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Hollywood est un quartier de la ville américaine de Los Angeles, en Californie, situé au nord-ouest de Downtown Los Angeles."
+      },
+      {
+        "id": 3,
+        "question": "Quelle île hébergea une prison fédérale de haute sécurité jusqu'en 1963 ?",
+        "propositions": [
+          "Anacapa",
+          "Santa Cruz",
+          "San Miguel",
+          "Alvatraz"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "Le complexe d'Alcatraz est aujourd'hui reconverti en un site historique géré par le service des parcs nationaux des États-Unis."
+      },
+      {
+        "id": 4,
+        "question": "Quelle riviera américaine possède une série télévisée à son nom ?",
+        "propositions": [
+          "Santa Clarita",
+          "Santa Rosa",
+          "Santa Monica",
+          "Santa Barbara"
+        ],
+        "réponse": "Santa Barbara",
+        "anecdote": "Elle est aussi connue pour être le lieu de résidence de nombreuses personnalités d'Hollywood ou du monde des médias californiens."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel océan se jettent la majorité des cours d'eau de la Californie ?",
+        "propositions": [
+          "Atlantique",
+          "Pacifique",
+          "Indien",
+          "Arctique"
+        ],
+        "réponse": "Pacifique",
+        "anecdote": "Les rivières et les fleuves côtiers coulent de façon parallèle aux chaînes, jusqu'à ce qu'ils se fraient un passage vers le Pacifique."
+      },
+      {
+        "id": 6,
+        "question": "Quelle ville de Californie est devenue la capitale mondiale de la haute technologie ?",
+        "propositions": [
+          "San Francisco",
+          "San Marino",
+          "Santa Monica",
+          "Santa Clara"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "La région de La Baie diffère des métropoles américaines par son intégration de plusieurs centres urbains et banlieues distincts."
+      },
+      {
+        "id": 7,
+        "question": "Quel conifère géant est recensé en Californie, dans la Sierra Nevada ?",
+        "propositions": [
+          "Frêne blanc",
+          "Noyer noir",
+          "Sapin gracieux",
+          "Séquoia géant"
+        ],
+        "réponse": "Séquoia géant",
+        "anecdote": "Le chef indien Sequoyah le Cherokee, inventeur de l'alphabet cherokee, a donné son nom à l'arbre en raison de sa force."
+      },
+      {
+        "id": 8,
+        "question": "Quelle est, depuis 1986, la langue officielle de la Californie ?",
+        "propositions": [
+          "Italien",
+          "Espagnol",
+          "Anglais",
+          "Chinois"
+        ],
+        "réponse": "Anglais",
+        "anecdote": "La variante d'anglais américain local, l'anglais de Californie, possède des particularités par rapport à l'anglais de l'est des États-Unis."
+      },
+      {
+        "id": 9,
+        "question": "Quel immense parc à thèmes est situé dans la ville d'Anaheim, en Californie ?",
+        "propositions": [
+          "Disneyland",
+          "Belmont Park",
+          "Pacific Park",
+          "Gilroy Gardens"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Certains de ses écosystèmes menacés subissent l'urbanisation, l'exploitation forestière et l'introduction d'espèces exotiques."
+      },
+      {
+        "id": 10,
+        "question": "Pour quelle démocrate la Californie avait-elle majoritairement voté en 2016 ?",
+        "propositions": [
+          "Nancy Reagan",
+          "Barbara Bush",
+          "Hillary Clinton",
+          "Michelle Obama"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Historiquement, la Californie est divisée entre une moitié nord plutôt démocrate et une moitié sud plutôt républicaine."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle est la plus grande ville de la région de la baie de San Francisco ?",
+        "propositions": [
+          "Riverside",
+          "San José",
+          "Oakland",
+          "Sacramento"
+        ],
+        "réponse": "San José",
+        "anecdote": "Troisième plus grande ville de Californie, siège du comté de Santa Clara, San José est aussi la capitale de la Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Combien d'habitants environ compte la Californie de nos jours ?",
+        "propositions": [
+          "50 millions",
+          "60 millions",
+          "30 millions",
+          "40 millions"
+        ],
+        "réponse": "40 millions",
+        "anecdote": "En 2013, les métropoles les plus peuplées de l'État sont le Grand Los Angeles, San Francisco, San Diego et Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "Quelle ville est la capitale de l'État américain de Californie ?",
+        "propositions": [
+          "Atlanta",
+          "Denver",
+          "Sacramento",
+          "Nashville"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento s'est développée à partir de la ruée vers l'or, durant laquelle elle était un centre commercial et agricole important."
+      },
+      {
+        "id": 14,
+        "question": "Quel pourcentage du territoire californien est couvert de forêts ?",
+        "propositions": [
+          "50 %",
+          "20 %",
+          "30 %",
+          "40 %"
+        ],
+        "réponse": "40 %",
+        "anecdote": "Certains de ses écosystèmes menacés subissent l'urbanisation, l'exploitation forestière et l'introduction d'espèces exotiques."
+      },
+      {
+        "id": 15,
+        "question": "Quelle est la religion la plus pratiquée dans l'État de Californie ?",
+        "propositions": [
+          "Catholicisme",
+          "Hindouisme",
+          "Judaïsme",
+          "Bouddhisme"
+        ],
+        "réponse": "Catholicisme",
+        "anecdote": "L'histoire religieuse de l'État remonte au temps des missions espagnoles, qui convertirent les Amérindiens au christianisme."
+      },
+      {
+        "id": 16,
+        "question": "Combien de millions de touristes environ visitent chaque année la Californie ?",
+        "propositions": [
+          "20 millions",
+          "15 millions",
+          "30 millions",
+          "25 millions"
+        ],
+        "réponse": "20 millions",
+        "anecdote": "Le parc Disneyland et le parc d'attractions marin de SeaWorld à San Diego sont les deux principaux parcs d'attraction de l'État."
+      },
+      {
+        "id": 17,
+        "question": "Quelle activité de production a pour but d'élever des truites et des saumons ?",
+        "propositions": [
+          "Mytiliculture",
+          "Ostréiculture",
+          "Aquaculture",
+          "Conchyliculture"
+        ],
+        "réponse": "Aquaculture",
+        "anecdote": "L'aquaculture est l'une des réponses apportées à la surpêche constatée en Californie et aux besoins croissants de poisson."
+      },
+      {
+        "id": 18,
+        "question": "Quel parc à thème spécialisé dans le monde marin se situe à Orlando, en Californie ?",
+        "propositions": [
+          "SeaWorld",
+          "Everland",
+          "Epcot",
+          "Magic Kingdom"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "Les représentants de la mascotte du parc (l'orque Shamu) s'exécutent dans un spectacle qui existe depuis l'ouverture du parc."
+      },
+      {
+        "id": 19,
+        "question": "Combien de procès sont traités chaque année par le système judiciaire de la Californie ?",
+        "propositions": [
+          "6 millions",
+          "10 millions",
+          "12 millions",
+          "8 millions"
+        ],
+        "réponse": "8 millions",
+        "anecdote": "Ayant son siège à San Francisco, la Californie dispose d'une Cour suprême composée d'un président et de six autres juges."
+      },
+      {
+        "id": 20,
+        "question": "Dans quelle vallée de Californie se situe le point le plus bas des États-Unis ?",
+        "propositions": [
+          "Vallée de Conejo",
+          "Vallée de la Mort",
+          "Vallée de Pomona",
+          "Vallée impériale"
+        ],
+        "réponse": "Vallée de la Mort",
+        "anecdote": "La température la plus élevée enregistrée sur Terre l'a été le 10 juillet 1913 à Furnace Creek avec 56,7 °C."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel mammifère terrestre fut choisi comme symbole vivant de la Californie ?",
+        "propositions": [
+          "Grizzli",
+          "Antilope",
+          "Cheval",
+          "Bison"
+        ],
+        "réponse": "Grizzli",
+        "anecdote": "L'empreinte du grizzli se reconnaît à son coussin de forme ovale avec 5 orteils au sommet de l'empreinte de la patte arrière."
+      },
+      {
+        "id": 22,
+        "question": "Quel fleuve marque la frontière géographique entre la Californie et l'Arizona ?",
+        "propositions": [
+          "Hudson",
+          "Potomac",
+          "Colorado",
+          "Mississippi"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Le Colorado est à l'origine du creusement du Grand Canyon et traverse des paysages très marqués par l'érosion."
+      },
+      {
+        "id": 23,
+        "question": "Quel massif montagneux élevé constitue le château d'eau de la Californie ?",
+        "propositions": [
+          "Pyramid Hills",
+          "Monts Bodie",
+          "Sierra Nevada",
+          "Monts Laguna"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Situé à 1 867 mètres d'altitude, le lac Tahoe mesure 19 km de large et 35 km de long, pour une superficie d'environ 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "Quelle base a servi de piste d'atterrissage de secours pour la NASA ?",
+        "propositions": [
+          "Fort Ord",
+          "Fort Irwin",
+          "Base Edwards",
+          "Base Hamilton"
+        ],
+        "réponse": "Base Edwards",
+        "anecdote": "Cette base était utilisée quand la météo sur le Centre spatial Kennedy en Floride ne permettait pas à l'avion spatial de se poser."
+      },
+      {
+        "id": 25,
+        "question": "Par quel désert, réputé pour ses cactus allongés, la Californie est-elle bordée au sud ?",
+        "propositions": [
+          "Amargosa",
+          "Alvord",
+          "Mojaves",
+          "Sonora"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "Avec une superficie de 320 000 km², la désert de Sonora est la plus grande zone désertique de l'Amérique du Nord."
+      },
+      {
+        "id": 26,
+        "question": "Quel est le port d'attache de la plus grande flotte navale du monde ?",
+        "propositions": [
+          "San Diego",
+          "San Francisco",
+          "Long Beach",
+          "Oakland"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "On y trouve 53 navires et 35 000 marins, soldats, employés civils et contractuels du Département de la Défense des États-Unis."
+      },
+      {
+        "id": 27,
+        "question": "Quelle est la capitale agricole de l'État de Californie, dans la vallée de San Joaquin ?",
+        "propositions": [
+          "San Antonio",
+          "Fresno",
+          "Denver",
+          "Tucson"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "En septembre 1958, Bank of America y lanca un produit innovant, la Bank Americard, celle qui s'appellera plus tard la VISA."
+      },
+      {
+        "id": 28,
+        "question": "Combien d'éoliennes comptabilisait-on en 2021 à Altamont Pass, près de San Francisco ?",
+        "propositions": [
+          "3 700",
+          "1 500",
+          "4 800",
+          "2 600"
+        ],
+        "réponse": "4 800",
+        "anecdote": "La Californie produit 80 % de l'énergie qu'elle consomme, le reste étant importé d'autres États américains ou du Canada."
+      },
+      {
+        "id": 29,
+        "question": "Quel démocrate fut gouverneur de Californie en 2010, puis réélu en 2014 ?",
+        "propositions": [
+          "Pete Wilson",
+          "Jerry Brown",
+          "Gray Davis",
+          "Gavin Newsom"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Fils du gouverneur Pat Brown, il sera élu secrétaire d'État de Californie de 1971 à 1975 avant d'accéder au gouvernorat."
+      },
+      {
+        "id": 30,
+        "question": "Quel domaine du magnat William Randolph Hearst est situé à San Simeon ?",
+        "propositions": [
+          "Beacon Towers",
+          "Hearst Castle",
+          "Bishop Castle",
+          "Scotty's Castle"
+        ],
+        "réponse": "Hearst Castle",
+        "anecdote": "Le palais, évoqué dans le film « Citizen Kane », est à la démesure des palais mythiques de l'Antiquité transposés au coeur de la Californie."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In San Francisco, where is the world's leading high-tech hub ?",
+        "propositions": [
+          "Silicon Valley",
+          "Central Coast",
+          "Inland Empire",
+          "Gold Country"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "Silicon Valley has inspired many technopoles in Europe, including Aerospace Valley, Sophia Antipolis, Inovallée or EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "Which city in California has become the cinema capital of the world ?",
+        "propositions": [
+          "Long Beach",
+          "Sacramento",
+          "Los Angeles",
+          "San Francisco"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Hollywood is a neighborhood in the American city of Los Angeles, California, located northwest of Downtown Los Angeles."
+      },
+      {
+        "id": 3,
+        "question": "Which island housed a high security federal prison until 1963 ?",
+        "propositions": [
+          "Santa Cruz",
+          "San Miguel",
+          "Anacapa",
+          "Alvatraz"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "The Alcatraz complex is now converted into a historic site managed by the United States National Park Service."
+      },
+      {
+        "id": 4,
+        "question": "Which American Riviera has a television series in its name ?",
+        "propositions": [
+          "Santa Barbara",
+          "Santa Clarita",
+          "Santa Monica",
+          "Santa Rosa"
+        ],
+        "réponse": "Santa Barbara",
+        "anecdote": "It is also known to be the place of residence of many personalities of Hollywood or the world of the Californian media."
+      },
+      {
+        "id": 5,
+        "question": "What ocean do most of California's waterways flow into ?",
+        "propositions": [
+          "Pacific",
+          "Arctic",
+          "Indian",
+          "Atlantic"
+        ],
+        "réponse": "Pacific",
+        "anecdote": "Rivers and coastal rivers flow parallel to the chains, until they make their way to the Pacific."
+      },
+      {
+        "id": 6,
+        "question": "Which city in California has become the high-tech capital of the world ?",
+        "propositions": [
+          "San Marino",
+          "Santa Clara",
+          "Santa Monica",
+          "San Francisco"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "The La Baie region differs from American metropolises by its integration of several distinct urban centers and suburbs."
+      },
+      {
+        "id": 7,
+        "question": "Which giant conifer is found in California, in the Sierra Nevada ?",
+        "propositions": [
+          "Black walnut",
+          "White ash",
+          "Graceful fir",
+          "Giant sequoia"
+        ],
+        "réponse": "Giant sequoia",
+        "anecdote": "Indian chief Sequoyah the Cherokee, inventor of the Cherokee alphabet, gave the tree its name because of its strength."
+      },
+      {
+        "id": 8,
+        "question": "What has been the official language of California since 1986 ?",
+        "propositions": [
+          "Italian",
+          "Spanish",
+          "Chinese",
+          "English"
+        ],
+        "réponse": "English",
+        "anecdote": "The local American English variant, California English, has some peculiarities compared to English in the eastern United States."
+      },
+      {
+        "id": 9,
+        "question": "What huge theme park is located in the city of Anaheim, California ?",
+        "propositions": [
+          "Disneyland",
+          "Pacific Park",
+          "Belmont Park",
+          "Gilroy Gardens"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Some of its threatened ecosystems are subject to urbanization, logging and the introduction of exotic species."
+      },
+      {
+        "id": 10,
+        "question": "Which Democrat did California mostly vote for in 2016 ?",
+        "propositions": [
+          "Hillary Clinton",
+          "Barbara Bush",
+          "Nancy Reagan",
+          "Michelle Obama"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Historically, California has been divided between a more Democratic northern half and a more Republican southern half."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What is the largest city in the San Francisco Bay Area ?",
+        "propositions": [
+          "San José",
+          "Riverside",
+          "Sacramento",
+          "Oakland"
+        ],
+        "réponse": "San José",
+        "anecdote": "Third largest city in California, seat of Santa Clara County, San José is also the capital of Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Approximately how many people do California have today ?",
+        "propositions": [
+          "30 million",
+          "40 million",
+          "50 million",
+          "60 million"
+        ],
+        "réponse": "40 million",
+        "anecdote": "As of 2013, the most populous metropolises in the state are Greater Los Angeles, San Francisco, San Diego and Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "What city is the capital of the US state of California ?",
+        "propositions": [
+          "Nashville",
+          "Denver",
+          "Sacramento",
+          "Atlanta"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento developed from the Gold Rush, during which it was an important commercial and agricultural center."
+      },
+      {
+        "id": 14,
+        "question": "What percentage of California's land is forested ?",
+        "propositions": [
+          "30%",
+          "50%",
+          "20%",
+          "40%"
+        ],
+        "réponse": "40%",
+        "anecdote": "Some of its threatened ecosystems are subject to urbanization, logging and the introduction of exotic species."
+      },
+      {
+        "id": 15,
+        "question": "What is the most widely practiced religion in the state of California ?",
+        "propositions": [
+          "Judaism",
+          "Catholicism",
+          "Hinduism",
+          "Buddhism"
+        ],
+        "réponse": "Catholicism",
+        "anecdote": "The religious history of the state dates back to the days of the Spanish missions, which converted Native Americans to Christianity."
+      },
+      {
+        "id": 16,
+        "question": "How many millions of tourists or so visit California each year ?",
+        "propositions": [
+          "15 million",
+          "25 million",
+          "20 million",
+          "30 million"
+        ],
+        "réponse": "20 million",
+        "anecdote": "Disneyland Park and SeaWorld Marine Amusement Park in San Diego are the two main theme parks in the state."
+      },
+      {
+        "id": 17,
+        "question": "What production activity aims to breed trout and salmon ?",
+        "propositions": [
+          "Aquaculture",
+          "Oyster farming",
+          "Shellfish farming",
+          "Mussel farming"
+        ],
+        "réponse": "Aquaculture",
+        "anecdote": "Aquaculture is one of the responses to the overfishing observed in California and the growing needs for fish."
+      },
+      {
+        "id": 18,
+        "question": "Which marine theme park is located in Orlando, California ?",
+        "propositions": [
+          "Epcot",
+          "Magic Kingdom",
+          "Everland",
+          "SeaWorld"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "Representatives of the park mascot (the orca Shamu) perform in a show that has been around since the park opened."
+      },
+      {
+        "id": 19,
+        "question": "How many lawsuits are processed by the California court system each year ?",
+        "propositions": [
+          "12 million",
+          "6 million",
+          "10 million",
+          "8 million"
+        ],
+        "réponse": "8 million",
+        "anecdote": "Headquartered in San Francisco, California has a Supreme Court made up of a president and six other justices."
+      },
+      {
+        "id": 20,
+        "question": "Which valley in California is the lowest point in the United States ?",
+        "propositions": [
+          "Conejo Valley",
+          "Imperial Valley",
+          "Death Valley",
+          "Pomona Valley"
+        ],
+        "réponse": "Death Valley",
+        "anecdote": "The highest temperature recorded on Earth was on July 10, 1913 at Furnace Creek with 56.7 ° C."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which land mammal was chosen as the living symbol of California ?",
+        "propositions": [
+          "Grizzly Bear",
+          "Horse",
+          "Bison",
+          "Antelope"
+        ],
+        "réponse": "Grizzly Bear",
+        "anecdote": "The grizzly bear's print can be recognized by its oval shaped cushion with 5 toes at the top of the hind paw print."
+      },
+      {
+        "id": 22,
+        "question": "Which river marks the geographic border between California and Arizona ?",
+        "propositions": [
+          "Mississippi",
+          "Potomac",
+          "Hudson",
+          "Colorado"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Colorado is at the origin of the digging of the Grand Canyon and crosses landscapes very marked by erosion."
+      },
+      {
+        "id": 23,
+        "question": "What high mountain range constitutes in a way the water tower of California ?",
+        "propositions": [
+          "Pyramid Hills",
+          "Bodie Mountains",
+          "Sierra Nevada",
+          "Laguna Mountains"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Located at 1,867 meters above sea level, Lake Tahoe is 19 km wide and 35 km long, with an area of approximately 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "Which base served as a back-up airstrip for NASA ?",
+        "propositions": [
+          "Fort Irwin",
+          "Hamilton Base",
+          "Base Edwards",
+          "Fort Ord"
+        ],
+        "réponse": "Base Edwards",
+        "anecdote": "This base was used when the weather at Kennedy Space Center in Florida did not allow the spacecraft to land."
+      },
+      {
+        "id": 25,
+        "question": "By which desert, famous for its elongated cacti, is California bordered to the south ?",
+        "propositions": [
+          "Mojaves",
+          "Amargosa",
+          "Sonora",
+          "Alvord"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "With an area of 320,000 km², the Sonoran Desert is the largest desert area in North America."
+      },
+      {
+        "id": 26,
+        "question": "What is the home port of the world's largest naval fleet ?",
+        "propositions": [
+          "San Diego",
+          "San Francisco",
+          "Oakland",
+          "Long Beach"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "There are 53 ships and 35,000 sailors, soldiers, civilian and contract employees of the United States Department of Defense."
+      },
+      {
+        "id": 27,
+        "question": "What is the agricultural capital of the State of California, in the heart of the San Joaquin Valley ?",
+        "propositions": [
+          "Denver",
+          "Tucson",
+          "Fresno",
+          "San Antonio"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "In September 1958, Bank of America launched an innovative product there, Bank Americard, later known as VISA."
+      },
+      {
+        "id": 28,
+        "question": "How many wind turbines were there in 2021 at Altamont Pass, east of San Francisco ?",
+        "propositions": [
+          "3,700",
+          "4,800",
+          "2,600",
+          "1,500"
+        ],
+        "réponse": "4,800",
+        "anecdote": "California produces 80% of the energy it consumes, the rest being imported from other US states or Canada."
+      },
+      {
+        "id": 29,
+        "question": "Which Democrat was Governor of California in 2010, then re-elected in 2014 ?",
+        "propositions": [
+          "Gray Davis",
+          "Gavin Newsom",
+          "Pete Wilson",
+          "Jerry Brown"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Son of Governor Pat Brown, he was elected Secretary of State of California from 1971 to 1975 before becoming governor."
+      },
+      {
+        "id": 30,
+        "question": "What lavish estate of magnate William Randolph Hearst is located in San Simeon ?",
+        "propositions": [
+          "Bishop's Castle",
+          "Scotty's Castle",
+          "Hearst Castle",
+          "Beacon Towers"
+        ],
+        "réponse": "Hearst Castle",
+        "anecdote": "The palace, evoked in the film « Citizen Kane », is in excess of the mythical palaces of Antiquity transposed to the heart of California."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wo befindet sich in San Francisco der weltweit führende Hightech-Hub ?",
+        "propositions": [
+          "Silicon Valley",
+          "Goldland",
+          "Binnenreich",
+          "Zentralküste"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "Silicon Valley hat viele Technopole in Europa inspiriert, darunter Aerospace Valley, Sophia Antipolis, Inovallée oder EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "Welche Stadt in Kalifornien ist zur Kinohauptstadt der Welt geworden ?",
+        "propositions": [
+          "Sacramento",
+          "Los Angeles",
+          "Long Beach",
+          "San Francisco"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Hollywood ist ein Stadtteil in der amerikanischen Stadt Los Angeles, Kalifornien, nordwestlich von Downtown Los Angeles."
+      },
+      {
+        "id": 3,
+        "question": "Auf welcher Insel befand sich bis 1963 ein Hochsicherheitsgefängnis des Bundes ?",
+        "propositions": [
+          "San Miguel",
+          "Alvatraz",
+          "Anacapa",
+          "Santa Cruz"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "Der Alcatraz-Komplex wird jetzt in eine historische Stätte umgewandelt, die vom United States National Park Service verwaltet wird."
+      },
+      {
+        "id": 4,
+        "question": "Welche amerikanische Riviera hat eine Fernsehserie im Namen ?",
+        "propositions": [
+          "Santa Rosa",
+          "Santa Clarita",
+          "Santa Barbara",
+          "Santa Monica"
+        ],
+        "réponse": "Santa Barbara",
+        "anecdote": "Es ist auch als Wohnort vieler Persönlichkeiten Hollywoods oder der kalifornischen Medienwelt bekannt."
+      },
+      {
+        "id": 5,
+        "question": "In welchen Ozean münden die meisten kalifornischen Wasserstraßen ?",
+        "propositions": [
+          "Atlantik",
+          "Pazifik",
+          "Arktis",
+          "Inder"
+        ],
+        "réponse": "Pazifik",
+        "anecdote": "Flüsse und Küstenflüsse fließen parallel zu den Ketten, bis sie ihren Weg in den Pazifik finden."
+      },
+      {
+        "id": 6,
+        "question": "Welche Stadt in Kalifornien hat sich zur Hightech-Hauptstadt der Welt entwickelt ?",
+        "propositions": [
+          "San Francisco",
+          "Santa Monica",
+          "Santa Clara",
+          "San Marino"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "Die Region La Baie unterscheidet sich von amerikanischen Metropolen durch die Integration mehrerer unterschiedlicher urbaner Zentren und Vororte."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Riesennadelbaum kommt in Kalifornien in der Sierra Nevada vor ?",
+        "propositions": [
+          "Anmutige Tanne",
+          "Riesenmammutbaum",
+          "Weiße Asche",
+          "Schwarznuss"
+        ],
+        "réponse": "Riesenmammutbaum",
+        "anecdote": "Der Indianerhäuptling Sequoyah the Cherokee, Erfinder des Cherokee-Alphabets, gab dem Baum seinen Namen wegen seiner Stärke."
+      },
+      {
+        "id": 8,
+        "question": "Was ist seit 1986 die offizielle Sprache Kaliforniens ?",
+        "propositions": [
+          "Italienisch",
+          "Chinesisch",
+          "Englisch",
+          "Spanisch"
+        ],
+        "réponse": "Englisch",
+        "anecdote": "Die lokale Variante des amerikanischen Englischen, California English, weist im Vergleich zum Englischen im Osten der USA einige Besonderheiten auf."
+      },
+      {
+        "id": 9,
+        "question": "Welcher riesige Themenpark befindet sich in der Stadt Anaheim, Kalifornien ?",
+        "propositions": [
+          "Gilroy-Gärten",
+          "Disneyland",
+          "Pacific Park",
+          "Belmont Park"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Einige seiner bedrohten Ökosysteme unterliegen der Urbanisierung, Abholzung und der Einführung exotischer Arten."
+      },
+      {
+        "id": 10,
+        "question": "Welchen Demokraten hat Kalifornien 2016 am häufigsten gewählt ?",
+        "propositions": [
+          "Barbara Busch",
+          "Nancy Reagan",
+          "Michelle Obama",
+          "Hillary Clinton"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Historisch gesehen wurde Kalifornien in eine eher demokratische Nordhälfte und eine eher republikanische Südhälfte geteilt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Was ist die größte Stadt in der San Francisco Bay Area ?",
+        "propositions": [
+          "Oakland",
+          "Flussufer",
+          "San José",
+          "Sacramento"
+        ],
+        "réponse": "San José",
+        "anecdote": "San José, die drittgrößte Stadt Kaliforniens, Sitz des Santa Clara County, ist auch die Hauptstadt des Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Wie viele Einwohner hat Kalifornien heute ungefähr ?",
+        "propositions": [
+          "30 Millionen",
+          "40 Millionen",
+          "60 Millionen",
+          "50 Millionen"
+        ],
+        "réponse": "40 Millionen",
+        "anecdote": "Ab 2013 sind die bevölkerungsreichsten Metropolen des Bundesstaates Greater Los Angeles, San Francisco, San Diego und Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "Welche Stadt ist die Hauptstadt des US-Bundesstaates Kalifornien ?",
+        "propositions": [
+          "Nashville",
+          "Sacramento",
+          "Atlanta",
+          "Denver"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento entwickelte sich aus dem Goldrausch, in dem es ein wichtiges Handels- und Landwirtschaftszentrum war."
+      },
+      {
+        "id": 14,
+        "question": "Wie viel Prozent des kalifornischen Landes sind bewaldet ?",
+        "propositions": [
+          "50%",
+          "30%",
+          "40%",
+          "20%"
+        ],
+        "réponse": "40%",
+        "anecdote": "Einige seiner bedrohten Ökosysteme unterliegen der Urbanisierung, Abholzung und der Einführung exotischer Arten."
+      },
+      {
+        "id": 15,
+        "question": "Was ist die am weitesten verbreitete Religion im Bundesstaat Kalifornien ?",
+        "propositions": [
+          "Hinduismus",
+          "Judentum",
+          "Katholizismus",
+          "Buddhismus"
+        ],
+        "réponse": "Katholizismus",
+        "anecdote": "Die religiöse Geschichte des Staates reicht bis in die Zeit der spanischen Missionen zurück, die amerikanische Ureinwohner zum Christentum bekehrten."
+      },
+      {
+        "id": 16,
+        "question": "Wie viele Millionen Touristen oder so besuchen Kalifornien jedes Jahr ?",
+        "propositions": [
+          "20 Millionen",
+          "30 Millionen",
+          "15 Millionen",
+          "25 Millionen"
+        ],
+        "réponse": "20 Millionen",
+        "anecdote": "Disneyland Park und SeaWorld Marine Amusement Park in San Diego sind die beiden wichtigsten Themenparks des Staates."
+      },
+      {
+        "id": 17,
+        "question": "Mit welcher Produktionstätigkeit sollen Forellen und Lachse gezüchtet werden ?",
+        "propositions": [
+          "Muschelzucht",
+          "Muschelzucht",
+          "Austernzucht",
+          "Aquakultur"
+        ],
+        "réponse": "Aquakultur",
+        "anecdote": "Aquakultur ist eine der Antworten auf die in Kalifornien beobachtete Überfischung und den wachsenden Fischbedarf."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Meeresthemenpark befindet sich in Orlando, Kalifornien ?",
+        "propositions": [
+          "Magisches Königreich",
+          "Epcot",
+          "Everland",
+          "SeaWorld"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "Vertreter des Parkmaskottchens (der Orca Shamu) treten in einer Show auf, die es seit der Eröffnung des Parks gibt."
+      },
+      {
+        "id": 19,
+        "question": "Wie viele Klagen werden jedes Jahr vom kalifornischen Gerichtssystem bearbeitet ?",
+        "propositions": [
+          "12 Millionen",
+          "6 Millionen",
+          "8 Millionen",
+          "10 Millionen"
+        ],
+        "réponse": "8 Millionen",
+        "anecdote": "Kalifornien hat seinen Hauptsitz in San Francisco und hat einen Obersten Gerichtshof, der aus einem Präsidenten und sechs weiteren Richtern besteht."
+      },
+      {
+        "id": 20,
+        "question": "Welches Tal in Kalifornien ist der tiefste Punkt der USA ?",
+        "propositions": [
+          "Pomona-Tal",
+          "Death Valley",
+          "Imperial Valley",
+          "Conejo-Tal"
+        ],
+        "réponse": "Death Valley",
+        "anecdote": "Die höchste auf der Erde gemessene Temperatur wurde am 10. Juli 1913 am Furnace Creek mit 56,7°C gemessen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches Landsäugetier wurde zum lebenden Symbol Kaliforniens gewählt ?",
+        "propositions": [
+          "Grizzlybär",
+          "Antilope",
+          "Pferd",
+          "Bison"
+        ],
+        "réponse": "Grizzlybär",
+        "anecdote": "Der Abdruck des Grizzlybären ist an seinem ovalen Kissen mit 5 Zehen oben am Hinterpfotenabdruck zu erkennen."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Fluss markiert die geografische Grenze zwischen Kalifornien und Arizona ?",
+        "propositions": [
+          "Potomac",
+          "Colorado",
+          "Mississippi",
+          "Hudson"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Colorado ist der Ursprung der Ausgrabungen des Grand Canyon und durchquert Landschaften, die stark von Erosion geprägt sind."
+      },
+      {
+        "id": 23,
+        "question": "Welches Hochgebirge bildet gewissermaßen den Wasserturm Kaliforniens ?",
+        "propositions": [
+          "Laguna-Gebirge",
+          "Bodie-Berge",
+          "Sierra Nevada",
+          "Pyramidenhügel"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Der Lake Tahoe liegt auf 1.867 Metern über dem Meeresspiegel, ist 19 km breit und 35 km lang und hat eine Fläche von etwa 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "Welche Basis diente der NASA als Backup-Landebahn ?",
+        "propositions": [
+          "Fort Irwin",
+          "Hamilton-Basis",
+          "Basis Edwards",
+          "Fort Ord"
+        ],
+        "réponse": "Basis Edwards",
+        "anecdote": "Diese Basis wurde verwendet, wenn das Wetter im Kennedy Space Center in Florida die Landung der Raumsonde nicht zuließ."
+      },
+      {
+        "id": 25,
+        "question": "An welche Wüste, berühmt für ihre langgestreckten Kakteen, grenzt Kalifornien im Süden ?",
+        "propositions": [
+          "Mojaves",
+          "Alvord",
+          "Amargosa",
+          "Sonora"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "Mit einer Fläche von 320.000 km² ist die Sonora-Wüste das größte Wüstengebiet Nordamerikas."
+      },
+      {
+        "id": 26,
+        "question": "Was ist der Heimathafen der größten Marineflotte der Welt ?",
+        "propositions": [
+          "Oakland",
+          "San Francisco",
+          "Long Beach",
+          "San Diego"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "Es gibt 53 Schiffe und 35.000 Matrosen, Soldaten, Zivil- und Vertragsangestellte des US-Verteidigungsministeriums."
+      },
+      {
+        "id": 27,
+        "question": "Was ist die landwirtschaftliche Hauptstadt des Staates Kalifornien im Herzen des San Joaquin Valley ?",
+        "propositions": [
+          "San Antonio",
+          "Denver",
+          "Fresno",
+          "Tucson"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "Im September 1958 brachte die Bank of America dort ein innovatives Produkt auf den Markt, Bank Americard, später bekannt als VISA."
+      },
+      {
+        "id": 28,
+        "question": "Wie viele Windkraftanlagen gab es 2021 am Altamont Pass, östlich von San Francisco ?",
+        "propositions": [
+          "3.700",
+          "1.500",
+          "2.600",
+          "4.800"
+        ],
+        "réponse": "4.800",
+        "anecdote": "Kalifornien produziert 80 % der Energie, die es verbraucht, der Rest wird aus anderen US-Bundesstaaten oder Kanada importiert."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Demokrat war 2010 Gouverneur von Kalifornien und wurde 2014 wiedergewählt ?",
+        "propositions": [
+          "Pete Wilson",
+          "Gavin Newsom",
+          "Gray Davis",
+          "Jerry Brown"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Als Sohn von Gouverneur Pat Brown wurde er von 1971 bis 1975 zum Außenminister von Kalifornien gewählt, bevor er Gouverneur wurde."
+      },
+      {
+        "id": 30,
+        "question": "Welches prächtige Anwesen des Magnaten William Randolph Hearst befindet sich in San Simeon ?",
+        "propositions": [
+          "Scottys Schloss",
+          "Leuchttürme",
+          "Bischofsburg",
+          "Hearst-Schloss"
+        ],
+        "réponse": "Hearst-Schloss",
+        "anecdote": "Der Palast, der im Film « Citizen Kane » erwähnt wird, ist mehr als die mythischen Paläste der Antike, die ins Herz Kaliforniens versetzt wurden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En San Francisco, ¿dónde está el centro de alta tecnología líder en el mundo ?",
+        "propositions": [
+          "Costa central",
+          "Inland Empire",
+          "País de oro",
+          "Silicon Valley"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "Silicon Valley ha inspirado muchos tecnopolos en Europa, incluidos Aerospace Valley, Sophia Antipolis, Inovallée o EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué ciudad de California se ha convertido en la capital mundial del cine ?",
+        "propositions": [
+          "Los Ángeles",
+          "San Francisco",
+          "Long Beach",
+          "Sacramento"
+        ],
+        "réponse": "Los Ángeles",
+        "anecdote": "Hollywood es un barrio de la ciudad estadounidense de Los Ángeles, California, ubicado al noroeste del centro de Los Ángeles."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué isla albergó una prisión federal de alta seguridad hasta 1963 ?",
+        "propositions": [
+          "Santa Cruz",
+          "San Miguel",
+          "Anacapa",
+          "Alvatraz"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "El complejo de Alcatraz ahora se convierte en un sitio histórico administrado por el Servicio de Parques Nacionales de los Estados Unidos."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué Riviera Americana tiene una serie de televisión a su nombre ?",
+        "propositions": [
+          "Santa Rosa",
+          "Santa Monica",
+          "Santa Bárbara",
+          "Santa Clarita"
+        ],
+        "réponse": "Santa Bárbara",
+        "anecdote": "También es conocido por ser el lugar de residencia de muchas personalidades de Hollywood o del mundo de los medios californianos."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué océano desembocan la mayoría de las vías fluviales de California ?",
+        "propositions": [
+          "Indio",
+          "Ártico",
+          "Atlántico",
+          "Pacífico"
+        ],
+        "réponse": "Pacífico",
+        "anecdote": "Los ríos y los ríos costeros fluyen paralelos a las cadenas, hasta llegar al Pacífico."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué ciudad de California se ha convertido en la capital mundial de la alta tecnología ?",
+        "propositions": [
+          "Santa Clara",
+          "San Marino",
+          "San Francisco",
+          "Santa Monica"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "La región de La Baie se diferencia de las metrópolis estadounidenses por la integración de varios centros urbanos y suburbios distintos."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué conífera gigante se encuentra en California, en Sierra Nevada ?",
+        "propositions": [
+          "Nuez negra",
+          "Abeto agraciado",
+          "Fresno blanco",
+          "Secuoya gigante"
+        ],
+        "réponse": "Secuoya gigante",
+        "anecdote": "El jefe indio Sequoyah the Cherokee, inventor del alfabeto Cherokee, le dio su nombre al árbol debido a su fuerza."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál ha sido el idioma oficial de California desde 1986 ?",
+        "propositions": [
+          "Italiano",
+          "Español",
+          "Inglés",
+          "Chino"
+        ],
+        "réponse": "Inglés",
+        "anecdote": "La variante local del inglés americano, el inglés de California, tiene algunas peculiaridades en comparación con el inglés del este de los Estados Unidos."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué enorme parque temático se encuentra en la ciudad de Anaheim, California ?",
+        "propositions": [
+          "Pacific Park",
+          "Disneyland",
+          "Jardines de Gilroy",
+          "Belmont Park"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Algunos de sus ecosistemas amenazados están sujetos a urbanización, tala e introducción de especies exóticas."
+      },
+      {
+        "id": 10,
+        "question": "¿A qué demócrata votó principalmente California en 2016 ?",
+        "propositions": [
+          "Nancy Reagan",
+          "Hillary Clinton",
+          "Michelle Obama",
+          "Barbara Bush"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Históricamente, California se ha dividido entre una mitad norte más demócrata y una mitad sur más republicana."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál es la ciudad más grande del Área de la Bahía de San Francisco ?",
+        "propositions": [
+          "Riverside",
+          "Sacramento",
+          "Oakland",
+          "San José"
+        ],
+        "réponse": "San José",
+        "anecdote": "San José, tercera ciudad más grande de California, sede del condado de Santa Clara, es también la capital de Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Aproximadamente, ¿cuántas personas tiene California en la actualidad ?",
+        "propositions": [
+          "60 millones",
+          "50 millones",
+          "30 millones",
+          "40 millones"
+        ],
+        "réponse": "40 millones",
+        "anecdote": "A partir de 2013, las metrópolis más pobladas del estado son el Gran Los Ángeles, San Francisco, San Diego y Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué ciudad es la capital del estado estadounidense de California ?",
+        "propositions": [
+          "Atlanta",
+          "Sacramento",
+          "Nashville",
+          "Denver"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento se desarrolló a partir de la fiebre del oro, durante la cual fue un importante centro comercial y agrícola."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué porcentaje de la tierra de California está cubierta de bosques ?",
+        "propositions": [
+          "40%",
+          "30%",
+          "20%",
+          "50%"
+        ],
+        "réponse": "40%",
+        "anecdote": "Algunos de sus ecosistemas amenazados están sujetos a urbanización, tala e introducción de especies exóticas."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál es la religión más practicada en el estado de California ?",
+        "propositions": [
+          "Budismo",
+          "Judaísmo",
+          "Catolicismo",
+          "Hinduismo"
+        ],
+        "réponse": "Catolicismo",
+        "anecdote": "La historia religiosa del estado se remonta a los días de las misiones españolas, que convirtieron a los nativos americanos al cristianismo."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuántos millones de turistas visitan California cada año ?",
+        "propositions": [
+          "20 millones",
+          "25 millones",
+          "15 millones",
+          "30 millones"
+        ],
+        "réponse": "20 millones",
+        "anecdote": "Disneyland Park y SeaWorld Marine Amusement Park en San Diego son los dos principales parques temáticos del estado."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué actividad productiva tiene como objetivo la cría de truchas y salmones ?",
+        "propositions": [
+          "Cultivo de mejillones",
+          "Acuicultura",
+          "Cultivo de mariscos",
+          "Cultivo de ostras"
+        ],
+        "réponse": "Acuicultura",
+        "anecdote": "La acuicultura es una de las respuestas a la sobrepesca observada en California y las crecientes necesidades de peces."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué parque temático marino se encuentra en Orlando, California ?",
+        "propositions": [
+          "Magic Kingdom",
+          "SeaWorld",
+          "Everland",
+          "Epcot"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "Representantes de la mascota del parque (la orca Shamu) actúan en un espectáculo que ha existido desde que se inauguró el parque."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuántas demandas procesa el sistema judicial de California cada año ?",
+        "propositions": [
+          "8 millones",
+          "12 millones",
+          "10 millones",
+          "6 millones"
+        ],
+        "réponse": "8 millones",
+        "anecdote": "Con sede en San Francisco, California, tiene una Corte Suprema compuesta por un presidente y otros seis jueces."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué valle de California es el punto más bajo de los Estados Unidos ?",
+        "propositions": [
+          "Valle Imperial",
+          "Valle de la Muerte",
+          "Conejo Valley",
+          "Valle de Pomona"
+        ],
+        "réponse": "Valle de la Muerte",
+        "anecdote": "La temperatura más alta registrada en la Tierra fue el 10 de julio de 1913 en Furnace Creek con 56,7 ° C."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué mamífero terrestre fue elegido como símbolo viviente de California ?",
+        "propositions": [
+          "Bison",
+          "Caballo",
+          "Antílope",
+          "Oso Grizzly"
+        ],
+        "réponse": "Oso Grizzly",
+        "anecdote": "La huella del oso grizzly se puede reconocer por su cojín de forma ovalada con 5 dedos en la parte superior de la huella de la pata trasera."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué río marca la frontera geográfica entre California y Arizona ?",
+        "propositions": [
+          "Hudson",
+          "Mississippi",
+          "Potomac",
+          "Colorado"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Colorado está en el origen de la excavación del Gran Cañón y atraviesa paisajes muy marcados por la erosión."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué alta cordillera constituye en cierto modo la torre de agua de California ?",
+        "propositions": [
+          "Pyramid Hills",
+          "Sierra Nevada",
+          "Montañas Laguna",
+          "Montañas Bodie"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Ubicado a 1.867 metros sobre el nivel del mar, el lago Tahoe tiene 19 km de ancho y 35 km de largo, con un área de aproximadamente 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué base sirvió como pista de aterrizaje de respaldo para la NASA ?",
+        "propositions": [
+          "Fort Ord",
+          "Base Edwards",
+          "Fort Irwin",
+          "Base de Hamilton"
+        ],
+        "réponse": "Base Edwards",
+        "anecdote": "Esta base se utilizó cuando el clima en el Centro Espacial Kennedy en Florida no permitió que la nave aterrizara."
+      },
+      {
+        "id": 25,
+        "question": "¿Por qué desierto, famoso por sus cactus alargados, limita con California al sur ?",
+        "propositions": [
+          "Amargosa",
+          "Mojaves",
+          "Sonora",
+          "Alvord"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "Con una superficie de 320 000 km², el desierto de Sonora es la zona desértica más grande de América del Norte."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuál es el puerto base de la flota naval más grande del mundo ?",
+        "propositions": [
+          "San Francisco",
+          "Oakland",
+          "Long Beach",
+          "San Diego"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "Hay 53 barcos y 35.000 marineros, soldados, empleados civiles y contratados del Departamento de Defensa de los Estados Unidos."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es la capital agrícola del estado de California, en el corazón del Valle de San Joaquín ?",
+        "propositions": [
+          "Denver",
+          "Tucson",
+          "Fresno",
+          "San Antonio"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "En septiembre de 1958, Bank of America lanzó allí un producto innovador, Bank Americard, más tarde conocido como VISA."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuántas turbinas eólicas había en 2021 en Altamont Pass, al este de San Francisco ?",
+        "propositions": [
+          "3.700",
+          "4.800",
+          "1,500",
+          "2,600"
+        ],
+        "réponse": "4.800",
+        "anecdote": "California produce el 80 % de la energía que consume, siendo el resto importado de otros estados de EE.UU. o Canadá."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué demócrata fue gobernador de California en 2010 y luego reelegido en 2014 ?",
+        "propositions": [
+          "Gavin Newsom",
+          "Pete Wilson",
+          "Jerry Brown",
+          "Gray Davis"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Hijo del gobernador Pat Brown, fue elegido Secretario de Estado de California de 1971 a 1975 antes de convertirse en gobernador."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué lujosa propiedad del magnate William Randolph Hearst se encuentra en San Simeón ?",
+        "propositions": [
+          "Castillo del obispo",
+          "Castillo Hearst",
+          "Torres de baliza",
+          "Castillo de Scotty"
+        ],
+        "réponse": "Castillo Hearst",
+        "anecdote": "El palacio, evocado en la película « Citizen Kane », supera los míticos palacios de la Antigüedad trasladados al corazón de California."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "A San Francisco, dov'è il principale hub high-tech del mondo ?",
+        "propositions": [
+          "Costa Centrale",
+          "Impero interno",
+          "Silicon Valley",
+          "Paese d'oro"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "La Silicon Valley ha ispirato molti tecnopoli in Europa, tra cui Aerospace Valley, Sophia Antipolis, Inovallée o EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "Quale città della California è diventata la capitale mondiale del cinema ?",
+        "propositions": [
+          "San Francisco",
+          "Sacramento",
+          "Long Beach",
+          "Los Angeles"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Hollywood è un quartiere della città americana di Los Angeles, California, situato a nord-ovest del centro di Los Angeles."
+      },
+      {
+        "id": 3,
+        "question": "Quale isola ha ospitato una prigione federale di massima sicurezza fino al 1963 ?",
+        "propositions": [
+          "Santa Cruz",
+          "San Miguel",
+          "Anacapa",
+          "Alvatraz"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "Il complesso di Alcatraz è ora convertito in un sito storico gestito dal National Park Service degli Stati Uniti."
+      },
+      {
+        "id": 4,
+        "question": "Quale Riviera americana ha una serie televisiva nel suo nome ?",
+        "propositions": [
+          "Santa Clarita",
+          "Santa Barbara",
+          "Santa Rosa",
+          "Santa Monica"
+        ],
+        "réponse": "Santa Barbara",
+        "anecdote": "È anche noto per essere il luogo di residenza di molte personalità di Hollywood o del mondo dei media californiani."
+      },
+      {
+        "id": 5,
+        "question": "In quale oceano sfociano la maggior parte dei corsi d'acqua della California ?",
+        "propositions": [
+          "Atlantico",
+          "indiano",
+          "Pacifico",
+          "Artico"
+        ],
+        "réponse": "Pacifico",
+        "anecdote": "Fiumi e fiumi costieri scorrono paralleli alle catene, fino a raggiungere il Pacifico."
+      },
+      {
+        "id": 6,
+        "question": "Quale città della California è diventata la capitale mondiale dell'alta tecnologia ?",
+        "propositions": [
+          "San Marino",
+          "San Francisco",
+          "Santa Monica",
+          "Santa Clara"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "La regione di La Baie si differenzia dalle metropoli americane per la sua integrazione di diversi centri urbani e periferie distinti."
+      },
+      {
+        "id": 7,
+        "question": "Quale conifera gigante si trova in California, nella Sierra Nevada ?",
+        "propositions": [
+          "Sequoia gigante",
+          "Abete grazioso",
+          "Frassino bianco",
+          "Noce nero"
+        ],
+        "réponse": "Sequoia gigante",
+        "anecdote": "Il capo indiano Sequoyah the Cherokee, inventore dell'alfabeto Cherokee, ha dato il nome all'albero a causa della sua forza."
+      },
+      {
+        "id": 8,
+        "question": "Qual è stata la lingua ufficiale della California dal 1986 ?",
+        "propositions": [
+          "cinese",
+          "italiano",
+          "spagnolo",
+          "inglese"
+        ],
+        "réponse": "inglese",
+        "anecdote": "La variante locale dell'inglese americano, California English, presenta alcune peculiarità rispetto all'inglese degli Stati Uniti orientali."
+      },
+      {
+        "id": 9,
+        "question": "Quale enorme parco a tema si trova nella città di Anaheim, in California ?",
+        "propositions": [
+          "Disneyland",
+          "Giardini Gilroy",
+          "Parco del Pacifico",
+          "Belmont Park"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Alcuni dei suoi ecosistemi minacciati sono soggetti a urbanizzazione, disboscamento e introduzione di specie esotiche."
+      },
+      {
+        "id": 10,
+        "question": "Per quale democratico ha votato maggiormente la California nel 2016 ?",
+        "propositions": [
+          "Nancy Reagan",
+          "Barbara Bush",
+          "Michelle Obama",
+          "Hillary Clinton"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Storicamente, la California è stata divisa tra una metà settentrionale più democratica e una metà meridionale più repubblicana."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual è la città più grande della San Francisco Bay Area ?",
+        "propositions": [
+          "Oakland",
+          "San José",
+          "Riverside",
+          "Sacramento"
+        ],
+        "réponse": "San José",
+        "anecdote": "Terza città più grande della California, sede della contea di Santa Clara, San José è anche la capitale della Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Quante persone ci sono approssimativamente in California oggi ?",
+        "propositions": [
+          "60 milioni",
+          "40 milioni",
+          "30 milioni",
+          "50 milioni"
+        ],
+        "réponse": "40 milioni",
+        "anecdote": "A partire dal 2013, le metropoli più popolose dello stato sono Greater Los Angeles, San Francisco, San Diego e Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "Quale città è la capitale dello stato americano della California ?",
+        "propositions": [
+          "Atlanta",
+          "Sacramento",
+          "Denver",
+          "Nashville"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento si sviluppò dalla corsa all'oro, durante la quale fu un importante centro commerciale e agricolo."
+      },
+      {
+        "id": 14,
+        "question": "Quale percentuale della terra della California è boscosa ?",
+        "propositions": [
+          "20%",
+          "40%",
+          "50%",
+          "30%"
+        ],
+        "réponse": "40%",
+        "anecdote": "Alcuni dei suoi ecosistemi minacciati sono soggetti a urbanizzazione, disboscamento e introduzione di specie esotiche."
+      },
+      {
+        "id": 15,
+        "question": "Qual è la religione più praticata nello stato della California ?",
+        "propositions": [
+          "ebraismo",
+          "Induismo",
+          "cattolicesimo",
+          "Buddismo"
+        ],
+        "réponse": "cattolicesimo",
+        "anecdote": "La storia religiosa dello stato risale ai tempi delle missioni spagnole, che convertirono i nativi americani al cristianesimo."
+      },
+      {
+        "id": 16,
+        "question": "Quanti milioni di turisti visitano la California ogni anno ?",
+        "propositions": [
+          "20 milioni",
+          "25 milioni",
+          "15 milioni",
+          "30 milioni"
+        ],
+        "réponse": "20 milioni",
+        "anecdote": "Disneyland Park e SeaWorld Marine Amusement Park a San Diego sono i due principali parchi a tema dello stato."
+      },
+      {
+        "id": 17,
+        "question": "Quale attività produttiva mira ad allevare trote e salmoni ?",
+        "propositions": [
+          "Allevamento di ostriche",
+          "Acquacoltura",
+          "Mitilicoltura",
+          "Molluschicoltura"
+        ],
+        "réponse": "Acquacoltura",
+        "anecdote": "L'acquacoltura è una delle risposte alla pesca eccessiva osservata in California e alle crescenti esigenze di pesce."
+      },
+      {
+        "id": 18,
+        "question": "Quale parco a tema marino si trova a Orlando, in California ?",
+        "propositions": [
+          "Regno magico",
+          "SeaWorld",
+          "Epcot",
+          "Everland"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "I rappresentanti della mascotte del parco (l'orca Shamu) si esibiscono in uno spettacolo che esiste dall'apertura del parco."
+      },
+      {
+        "id": 19,
+        "question": "Quante cause vengono processate dal sistema giudiziario della California ogni anno ?",
+        "propositions": [
+          "8 milioni",
+          "10 milioni",
+          "12 milioni",
+          "6 milioni"
+        ],
+        "réponse": "8 milioni",
+        "anecdote": "Con sede a San Francisco, in California, ha una Corte Suprema composta da un presidente e altri sei giudici."
+      },
+      {
+        "id": 20,
+        "question": "Quale valle della California è il punto più basso degli Stati Uniti ?",
+        "propositions": [
+          "Val Pomona",
+          "Valle Imperiale",
+          "Valle del Conejo",
+          "Valle della Morte"
+        ],
+        "réponse": "Valle della Morte",
+        "anecdote": "La temperatura più alta registrata sulla Terra è stata il 10 luglio 1913 a Furnace Creek con 56,7 ° C."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale mammifero terrestre è stato scelto come simbolo vivente della California ?",
+        "propositions": [
+          "cavallo",
+          "Orso Grizzly",
+          "Antilope",
+          "Bisonte"
+        ],
+        "réponse": "Orso Grizzly",
+        "anecdote": "L'impronta dell'orso grizzly può essere riconosciuta dal suo cuscino di forma ovale con 5 dita nella parte superiore dell'impronta della zampa posteriore."
+      },
+      {
+        "id": 22,
+        "question": "Quale fiume segna il confine geografico tra California e Arizona ?",
+        "propositions": [
+          "Potomac",
+          "Hudson",
+          "Mississippi",
+          "Colorado"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Il Colorado è all'origine degli scavi del Grand Canyon e attraversa paesaggi molto segnati dall'erosione."
+      },
+      {
+        "id": 23,
+        "question": "Quale alta catena montuosa costituisce in qualche modo la torre dell'acqua della California ?",
+        "propositions": [
+          "Monti Bodie",
+          "Pyramid Hills",
+          "Montagne della Laguna",
+          "Sierra Nevada"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Situato a 1.867 metri sul livello del mare, il Lago Tahoe è largo 19 km e lungo 35 km, con una superficie di circa 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "Quale base fungeva da pista di atterraggio di riserva per la NASA ?",
+        "propositions": [
+          "Forte Irwin",
+          "Base Hamilton",
+          "Fort Ord",
+          "Base Edwards"
+        ],
+        "réponse": "Base Edwards",
+        "anecdote": "Questa base è stata utilizzata quando il tempo al Kennedy Space Center in Florida non ha permesso alla navicella di atterrare."
+      },
+      {
+        "id": 25,
+        "question": "Con quale deserto, famoso per i suoi cactus allungati, confina a sud la California ?",
+        "propositions": [
+          "Mojaves",
+          "Alvord",
+          "Sonora",
+          "Amargosa"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "Con una superficie di 320.000 km², il deserto di Sonora è la più grande area desertica del Nord America."
+      },
+      {
+        "id": 26,
+        "question": "Qual è l'home port della flotta navale più grande del mondo ?",
+        "propositions": [
+          "San Francisco",
+          "Long Beach",
+          "San Diego",
+          "Oakland"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "Ci sono 53 navi e 35.000 marinai, soldati, civili e dipendenti a contratto del Dipartimento della Difesa degli Stati Uniti."
+      },
+      {
+        "id": 27,
+        "question": "Qual è la capitale agricola dello Stato della California, nel cuore della San Joaquin Valley ?",
+        "propositions": [
+          "Fresno",
+          "San Antonio",
+          "Denver",
+          "Tucson"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "Nel settembre 1958, Bank of America lanciò un prodotto innovativo, Bank Americard, in seguito noto come VISA."
+      },
+      {
+        "id": 28,
+        "question": "Quante turbine eoliche c'erano nel 2021 ad Altamont Pass, a est di San Francisco ?",
+        "propositions": [
+          "3.700",
+          "1.500",
+          "4.800",
+          "2.600"
+        ],
+        "réponse": "4.800",
+        "anecdote": "La California produce l'80% dell'energia che consuma, il resto viene importato da altri stati degli Stati Uniti o dal Canada."
+      },
+      {
+        "id": 29,
+        "question": "Quale democratico è stato governatore della California nel 2010, poi rieletto nel 2014 ?",
+        "propositions": [
+          "Pete Wilson",
+          "Jerry Brown",
+          "Gavin Newsom",
+          "Gray Davis"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Figlio del governatore Pat Brown, è stato eletto Segretario di Stato della California dal 1971 al 1975 prima di diventare governatore."
+      },
+      {
+        "id": 30,
+        "question": "Quale sontuosa tenuta del magnate William Randolph Hearst si trova a San Simeone ?",
+        "propositions": [
+          "Il castello di Scotty",
+          "Castello di Hearst",
+          "Castello Vescovile",
+          "Torri faro"
+        ],
+        "réponse": "Castello di Hearst",
+        "anecdote": "Il palazzo, evocato nel film « Citizen Kane », supera i mitici palazzi dell'antichità trasposti nel cuore della California."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Waar bevindt zich in San Francisco's werelds toonaangevende hightech-hub ?",
+        "propositions": [
+          "Silicon Valley",
+          "Inland Empire",
+          "Gouden Land",
+          "Centrale kust"
+        ],
+        "réponse": "Silicon Valley",
+        "anecdote": "Silicon Valley heeft vele technopolen in Europa geïnspireerd, waaronder Aerospace Valley, Sophia Antipolis, Inovallée of EuraTechnologie."
+      },
+      {
+        "id": 2,
+        "question": "Welke stad in Californië is de bioscoophoofdstad van de wereld geworden ?",
+        "propositions": [
+          "San Francisco",
+          "Los Angeles",
+          "Sacramento",
+          "Lang strand"
+        ],
+        "réponse": "Los Angeles",
+        "anecdote": "Hollywood is een wijk in de Amerikaanse stad Los Angeles, Californië, ten noordwesten van Downtown Los Angeles."
+      },
+      {
+        "id": 3,
+        "question": "Op welk eiland was tot 1963 een hoogbeveiligde federale gevangenis ?",
+        "propositions": [
+          "Santa Cruz",
+          "Anacapa",
+          "Alvatraz",
+          "San Miguel"
+        ],
+        "réponse": "Alvatraz",
+        "anecdote": "Het Alcatraz-complex is nu omgebouwd tot een historische site die wordt beheerd door de National Park Service van de Verenigde Staten."
+      },
+      {
+        "id": 4,
+        "question": "Welke Amerikaanse Rivièra heeft een televisieserie op zijn naam ?",
+        "propositions": [
+          "Santa Barbara",
+          "Santa Rosa",
+          "Santa Clarita",
+          "Santa Monica"
+        ],
+        "réponse": "Santa Barbara",
+        "anecdote": "Het is ook bekend als de woonplaats van vele persoonlijkheden uit Hollywood of de wereld van de Californische media."
+      },
+      {
+        "id": 5,
+        "question": "In welke oceaan stromen de meeste waterwegen van Californië ?",
+        "propositions": [
+          "Arctisch",
+          "Stille Oceaan",
+          "Atlantische",
+          "Indiaas"
+        ],
+        "réponse": "Stille Oceaan",
+        "anecdote": "Rivieren en kustrivieren stromen evenwijdig aan de kettingen, totdat ze hun weg vinden naar de Stille Oceaan."
+      },
+      {
+        "id": 6,
+        "question": "Welke stad in Californië is de hightech hoofdstad van de wereld geworden ?",
+        "propositions": [
+          "Santa Monica",
+          "San Francisco",
+          "San Marino",
+          "Santa Clara"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "De regio La Baie onderscheidt zich van Amerikaanse metropolen door de integratie van verschillende verschillende stedelijke centra en buitenwijken."
+      },
+      {
+        "id": 7,
+        "question": "Welke reuzenconifeer komt voor in Californië, in de Sierra Nevada ?",
+        "propositions": [
+          "Zwarte walnoot",
+          "Mammoetboom",
+          "Witte essen",
+          "Sierlijke spar"
+        ],
+        "réponse": "Mammoetboom",
+        "anecdote": "Het Indiase opperhoofd Sequoyah de Cherokee, uitvinder van het Cherokee-alfabet, gaf de boom zijn naam vanwege zijn kracht."
+      },
+      {
+        "id": 8,
+        "question": "Wat is sinds 1986 de officiële taal van Californië ?",
+        "propositions": [
+          "Spaans",
+          "Chinees",
+          "Italiaans",
+          "Engels"
+        ],
+        "réponse": "Engels",
+        "anecdote": "De lokale Amerikaans-Engelse variant, Californisch Engels, heeft enkele eigenaardigheden in vergelijking met het Engels in het oosten van de Verenigde Staten."
+      },
+      {
+        "id": 9,
+        "question": "Welk enorm themapark ligt in de stad Anaheim, Californië ?",
+        "propositions": [
+          "Pacific Park",
+          "Belmontpark",
+          "Gilroy-tuinen",
+          "Disneyland"
+        ],
+        "réponse": "Disneyland",
+        "anecdote": "Sommige van de bedreigde ecosystemen zijn onderhevig aan verstedelijking, houtkap en de introductie van exotische soorten."
+      },
+      {
+        "id": 10,
+        "question": "Op welke democraat stemde Californië in 2016 het meest ?",
+        "propositions": [
+          "Barbara Bush",
+          "Hillary Clinton",
+          "Michelle Obama",
+          "Nancy Reagan"
+        ],
+        "réponse": "Hillary Clinton",
+        "anecdote": "Historisch gezien is Californië verdeeld tussen een meer Democratische noordelijke helft en een meer Republikeinse zuidelijke helft."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat is de grootste stad in de San Francisco Bay Area ?",
+        "propositions": [
+          "Oakland",
+          "Sacramento",
+          "Rivieroever",
+          "San José"
+        ],
+        "réponse": "San José",
+        "anecdote": "De op twee na grootste stad van Californië, zetel van Santa Clara County, San José is ook de hoofdstad van Silicon Valley."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel mensen heeft Californië tegenwoordig ongeveer ?",
+        "propositions": [
+          "30 miljoen",
+          "50 miljoen",
+          "40 miljoen",
+          "60 miljoen"
+        ],
+        "réponse": "40 miljoen",
+        "anecdote": "Vanaf 2013 zijn de meest bevolkte metropolen in de staat Greater Los Angeles, San Francisco, San Diego en Sacramento."
+      },
+      {
+        "id": 13,
+        "question": "Welke stad is de hoofdstad van de Amerikaanse staat Californië ?",
+        "propositions": [
+          "Sacramento",
+          "Nashville",
+          "Atlanta",
+          "Denver"
+        ],
+        "réponse": "Sacramento",
+        "anecdote": "Sacramento ontwikkelde zich vanuit de goudkoorts, waarin het een belangrijk commercieel en agrarisch centrum was."
+      },
+      {
+        "id": 14,
+        "question": "Welk percentage van het land van Californië is bebost ?",
+        "propositions": [
+          "50%",
+          "30%",
+          "40%",
+          "20%"
+        ],
+        "réponse": "40%",
+        "anecdote": "Sommige van de bedreigde ecosystemen zijn onderhevig aan verstedelijking, houtkap en de introductie van exotische soorten."
+      },
+      {
+        "id": 15,
+        "question": "Wat is de meest beoefende religie in de staat Californië ?",
+        "propositions": [
+          "Jodendom",
+          "katholicisme",
+          "Boeddhisme",
+          "hindoeïsme"
+        ],
+        "réponse": "katholicisme",
+        "anecdote": "De religieuze geschiedenis van de staat gaat terug tot de dagen van de Spaanse missies, die indianen tot het christendom bekeerden."
+      },
+      {
+        "id": 16,
+        "question": "Hoeveel miljoenen toeristen of zo bezoeken Californië elk jaar ?",
+        "propositions": [
+          "30 miljoen",
+          "20 miljoen",
+          "25 miljoen",
+          "15 miljoen"
+        ],
+        "réponse": "20 miljoen",
+        "anecdote": "Disneyland Park en SeaWorld Marine Amusement Park in San Diego zijn de twee belangrijkste themaparken in de staat."
+      },
+      {
+        "id": 17,
+        "question": "Welke productieactiviteit heeft tot doel forel en zalm te kweken ?",
+        "propositions": [
+          "Mosselkweek",
+          "Aquacultuur",
+          "Oesterteelt",
+          "Schaaldieren kweken"
+        ],
+        "réponse": "Aquacultuur",
+        "anecdote": "Aquacultuur is een van de reacties op de overbevissing in Californië en de groeiende behoefte aan vis."
+      },
+      {
+        "id": 18,
+        "question": "Welk maritiem themapark ligt in Orlando, Californië ?",
+        "propositions": [
+          "Epcot",
+          "SeaWorld",
+          "Everland",
+          "Magisch Koninkrijk"
+        ],
+        "réponse": "SeaWorld",
+        "anecdote": "Vertegenwoordigers van de parkmascotte (de orka Shamu) treden op in een show die al bestaat sinds de opening van het park."
+      },
+      {
+        "id": 19,
+        "question": "Hoeveel rechtszaken worden er elk jaar door het Californische rechtssysteem behandeld ?",
+        "propositions": [
+          "6 miljoen",
+          "8 miljoen",
+          "10 miljoen",
+          "12 miljoen"
+        ],
+        "réponse": "8 miljoen",
+        "anecdote": "Het hoofdkantoor is gevestigd in San Francisco, Californië, en er is een Hooggerechtshof dat bestaat uit een president en zes andere rechters."
+      },
+      {
+        "id": 20,
+        "question": "Welke vallei in Californië is het laagste punt van de Verenigde Staten ?",
+        "propositions": [
+          "Pomona-vallei",
+          "Death Valley",
+          "Conejo-vallei",
+          "Keizerlijke Vallei"
+        ],
+        "réponse": "Death Valley",
+        "anecdote": "De hoogst gemeten temperatuur op aarde was op 10 juli 1913 bij Furnace Creek met 56,7°C."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk landzoogdier werd gekozen als het levende symbool van Californië ?",
+        "propositions": [
+          "Antilope",
+          "Paard",
+          "Grizzlybeer",
+          "Bizon"
+        ],
+        "réponse": "Grizzlybeer",
+        "anecdote": "De afdruk van de grizzlybeer is te herkennen aan het ovale kussen met 5 tenen bovenaan de achterpootafdruk."
+      },
+      {
+        "id": 22,
+        "question": "Welke rivier markeert de geografische grens tussen Californië en Arizona ?",
+        "propositions": [
+          "Colorado",
+          "Potomac",
+          "Hudson",
+          "Mississippi"
+        ],
+        "réponse": "Colorado",
+        "anecdote": "Colorado ligt aan de oorsprong van het graven van de Grand Canyon en doorkruist landschappen die erg door erosie zijn getekend."
+      },
+      {
+        "id": 23,
+        "question": "Welk hooggebergte vormt in zekere zin de watertoren van Californië ?",
+        "propositions": [
+          "Piramideheuvels",
+          "Sierra Nevada",
+          "Laguna-gebergte",
+          "Bodie Bergen"
+        ],
+        "réponse": "Sierra Nevada",
+        "anecdote": "Lake Tahoe ligt op 1.867 meter boven zeeniveau en is 19 km breed en 35 km lang, met een oppervlakte van ongeveer 502 km2."
+      },
+      {
+        "id": 24,
+        "question": "Welke basis diende als back-up landingsbaan voor NASA ?",
+        "propositions": [
+          "Fort Ord",
+          "Fort Irwin",
+          "Basis Edwards",
+          "Hamilton basis"
+        ],
+        "réponse": "Basis Edwards",
+        "anecdote": "Deze basis werd gebruikt toen het weer in het Kennedy Space Center in Florida het ruimtevaartuig niet toestond te landen."
+      },
+      {
+        "id": 25,
+        "question": "Aan welke woestijn, beroemd om zijn langgerekte cactussen, grenst Californië in het zuiden ?",
+        "propositions": [
+          "Alvord",
+          "Amargosa",
+          "Sonora",
+          "Mojaves"
+        ],
+        "réponse": "Sonora",
+        "anecdote": "Met een oppervlakte van 320.000 km² is de Sonorawoestijn het grootste woestijngebied van Noord-Amerika."
+      },
+      {
+        "id": 26,
+        "question": "Wat is de thuishaven van's werelds grootste marinevloot ?",
+        "propositions": [
+          "Lang strand",
+          "San Diego",
+          "San Francisco",
+          "Oakland"
+        ],
+        "réponse": "San Diego",
+        "anecdote": "Er zijn 53 schepen en 35.000 matrozen, soldaten, civiele en contractmedewerkers van het Amerikaanse ministerie van Defensie."
+      },
+      {
+        "id": 27,
+        "question": "Wat is de agrarische hoofdstad van de staat Californië, in het hart van de San Joaquin Valley ?",
+        "propositions": [
+          "Tucson",
+          "Fresno",
+          "San Antonio",
+          "Denver"
+        ],
+        "réponse": "Fresno",
+        "anecdote": "In september 1958 lanceerde Bank of America daar een innovatief product, Bank Americard, later bekend als VISA."
+      },
+      {
+        "id": 28,
+        "question": "Hoeveel windturbines stonden er in 2021 op Altamont Pass, ten oosten van San Francisco ?",
+        "propositions": [
+          "2.600",
+          "3.700",
+          "1.500",
+          "4.800"
+        ],
+        "réponse": "4.800",
+        "anecdote": "Californië produceert 80% van de energie die het verbruikt, de rest wordt geïmporteerd uit andere Amerikaanse staten of Canada."
+      },
+      {
+        "id": 29,
+        "question": "Welke democraat was in 2010 gouverneur van Californië en werd in 2014 herkozen ?",
+        "propositions": [
+          "Jerry Brown",
+          "Pete Wilson",
+          "Gavin Newsom",
+          "Gray Davis"
+        ],
+        "réponse": "Jerry Brown",
+        "anecdote": "Als zoon van gouverneur Pat Brown, werd hij van 1971 tot 1975 verkozen tot staatssecretaris van Californië voordat hij gouverneur werd."
+      },
+      {
+        "id": 30,
+        "question": "Welk weelderige landgoed van magnaat William Randolph Hearst ligt in San Simeon ?",
+        "propositions": [
+          "Kasteel van Hearst",
+          "Scotty's Castle",
+          "Baken Torens",
+          "Bisschopskasteel"
+        ],
+        "réponse": "Kasteel van Hearst",
+        "anecdote": "Het paleis, opgeroepen in de film « Citizen Kane », overtreft de mythische paleizen uit de oudheid die naar het hart van Californië zijn overgebracht."
+      }
+    ]
+    }
+  }
+}

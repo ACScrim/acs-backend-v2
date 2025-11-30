@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-06-28",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Vie quotidienne",
+      "nom": "Voiture électrique",
+      "slogan": "Avant le passage à l'hydrogène"
+    },
+    "en": {
+      "catégorie": "Everyday life",
+      "nom": "Electric car",
+      "slogan": "Before the transition to hydrogen"
+    },
+    "es": {
+      "catégorie": "Vida cotidiana",
+      "nom": "Coche eléctrico",
+      "slogan": "Antes del paso al hidrógeno"
+    },
+    "it": {
+      "catégorie": "Vita di ogni giorno",
+      "nom": "Auto elettrica",
+      "slogan": "Prima del passaggio all'idrogeno"
+    },
+    "de": {
+      "catégorie": "Alltagsleben",
+      "nom": "Elektroauto",
+      "slogan": "Vor dem Übergang zu Wasserstoff"
+    },
+    "nl": {
+      "catégorie": "Alledaagse leven",
+      "nom": "Elektrische auto",
+      "slogan": "Voor de overstap naar waterstof"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En 2022, quelle était l'autonomie standard annoncée d'une voiture électrique ?",
+        "propositions": [
+          "100-200 km",
+          "700-800 km",
+          "500-600 km",
+          "300-400 km"
+        ],
+        "réponse": "300-400 km",
+        "anecdote": "La Tesla Model S Plaid+ visait une autonomie de plus de 800 km avant son annulation en 2021 faute d'avancées technologiques."
+      },
+      {
+        "id": 2,
+        "question": "Quel élément d'une voiture électrique permet d'en stocker l'énergie ?",
+        "propositions": [
+          "Batterie",
+          "Radiateur",
+          "Démarreur",
+          "Alternateur"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "La batterie de la Porsche Taycan (premier modèle électrique Porsche) peut se recharger de 5 à 80 % en seulement 22,5 minutes."
+      },
+      {
+        "id": 3,
+        "question": "Par quel moyen les voitures électriques rechargent-elles leurs batteries ?",
+        "propositions": [
+          "Électricité",
+          "Gaz naturel",
+          "Diesel",
+          "Essence"
+        ],
+        "réponse": "Électricité",
+        "anecdote": "Certains modèles électriques peuvent être rechargés à plus de 80 % de leur capacité en 30 minutes grâce à la charge rapide."
+      },
+      {
+        "id": 4,
+        "question": "Comment appelle-t-on le câble utilisé pour charger une voiture électrique ?",
+        "propositions": [
+          "Cordon d'essence",
+          "Câble électrique",
+          "Câble de batterie",
+          "Câble de charge"
+        ],
+        "réponse": "Câble de charge",
+        "anecdote": "Certains modèles de véhicules électriques disposent d'un chargeur embarqué, éliminant ainsi le besoin de câbles externes."
+      },
+      {
+        "id": 5,
+        "question": "Quelle entreprise propose un réseau de Superchargeurs pour voitures électriques ?",
+        "propositions": [
+          "ExxonMobil",
+          "Shell",
+          "Tesla",
+          "BP"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Superchargeur est un réseau de recharge rapide (322 km en 15 minutes) en courant continu de 480 volts, déployé depuis 2012."
+      },
+      {
+        "id": 6,
+        "question": "Quel élément crucial influe sur l'autonomie d'une voiture électrique ?",
+        "propositions": [
+          "Pneus",
+          "Passagers",
+          "Température",
+          "Couleur"
+        ],
+        "réponse": "Température",
+        "anecdote": "Les températures extrêmes peuvent réduire l'autonomie d'une voiture électrique en affectant notoirement la chimie de la batterie."
+      },
+      {
+        "id": 7,
+        "question": "Comment qualifier le temps de charge par rapport à une voiture thermique ?",
+        "propositions": [
+          "Plus long",
+          "Insignifiant",
+          "Plus court",
+          "Identique"
+        ],
+        "réponse": "Plus long",
+        "anecdote": "L'autonomie d'un véhicule électrique dépend directement de la capacité de la batterie et du type de trajet (plat, varié, urbain)."
+      },
+      {
+        "id": 8,
+        "question": "Où est le plus souvent placée la batterie dans un véhicule électrique ?",
+        "propositions": [
+          "À l'avant",
+          "Dans le coffre",
+          "Sous la voiture",
+          "Sur les ailes"
+        ],
+        "réponse": "Sous la voiture",
+        "anecdote": "La batterie, placée sous la voiture, autorise un plancher plat, le moteur y est plus compact et le réservoir à carburant est absent."
+      },
+      {
+        "id": 9,
+        "question": "Quel constructeur fut numéro un mondial de la voiture électrique en 2022 ?",
+        "propositions": [
+          "Volvo",
+          "Honda",
+          "Tesla",
+          "BYD"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) est à l'origine un fabricant chinois de batteries basé à Shenzhen, dans le Guangdong, en Chine."
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la principale source d'émission de gaz à effet de serre d'une voiture électrique ?",
+        "propositions": [
+          "Pneus",
+          "Échappement",
+          "Batterie",
+          "Freins"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "Les batteries au lithium-ion sont recyclables, sans effet mémoire, mais leur recyclage à grande échelle reste en développement."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle marque a vendu le plus grand nombre de voitures électriques en Chine en 2021 ?",
+        "propositions": [
+          "Tesla",
+          "Ford",
+          "Nissan",
+          "Toyota"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla a construit une Gigafactory en Chine (Tesla Giga Shanghai) pour répondre à la demande croissante de voitures électriques."
+      },
+      {
+        "id": 12,
+        "question": "Quel pays possède le plus grand nombre de bornes de recharge publiques ?",
+        "propositions": [
+          "Allemagne",
+          "Japon",
+          "Chine",
+          "États-Unis"
+        ],
+        "réponse": "Chine",
+        "anecdote": "La Chine possède une infrastructure de recharge en constante expansion avec des milliers de bornes accessibles au public."
+      },
+      {
+        "id": 13,
+        "question": "Comment mesure-t-on la capacité d'une batterie de voiture électrique ?",
+        "propositions": [
+          "Kilogramme",
+          "Mètre carré",
+          "Volt-ampère",
+          "Watt-heure"
+        ],
+        "réponse": "Watt-heure",
+        "anecdote": "Le kilowatt-heure est utilisé pour l'énergie électrique, mais aussi pour facturer le gaz combustible et faire des bilans énergétiques."
+      },
+      {
+        "id": 14,
+        "question": "Quel est l'effet d'une température froide sur l'autonomie d'une voiture électrique ?",
+        "propositions": [
+          "Aucun effet",
+          "Réduction",
+          "Augmentation",
+          "Stabilité"
+        ],
+        "réponse": "Réduction",
+        "anecdote": "La batterie d'accumulateurs permet de stocker l'énergie électrique sous forme chimique et de la restituer en courant continu."
+      },
+      {
+        "id": 15,
+        "question": "Une voiture électrique émet combien de CO2 en moins qu'une voiture essence ?",
+        "propositions": [
+          "Environ 75 %",
+          "Environ 10 %",
+          "Environ 50 %",
+          "Environ 25 %"
+        ],
+        "réponse": "Environ 75 %",
+        "anecdote": "La réduction des émissions de CO2 des voitures électriques devrait être portée de 15 à 25 % d'ici 2025 et de 30 à 45 % pour 2030."
+      },
+      {
+        "id": 16,
+        "question": "Par quel procédé sont refroidies les batteries pendant la charge et durant la conduite ?",
+        "propositions": [
+          "Air",
+          "Liquide",
+          "Azote",
+          "Hydrogène"
+        ],
+        "réponse": "Liquide",
+        "anecdote": "Certains modèles utilisent des systèmes de refroidissement liquide pour maintenir les batteries à une température optimale."
+      },
+      {
+        "id": 17,
+        "question": "Quel phénomène climatique peut affecter temporairement la vitesse de charge ?",
+        "propositions": [
+          "Pluie",
+          "Grêle",
+          "Neige",
+          "Chaleur intense"
+        ],
+        "réponse": "Neige",
+        "anecdote": "On comptait 1 300 000 points de recharges publiques en 2020, dont 807 000 en Chine, 286 000 en Europe et 99 000 aux États-Unis."
+      },
+      {
+        "id": 18,
+        "question": "Quel élément, supprimé des voitures électriques, permet d'en réduire le bruit ?",
+        "propositions": [
+          "Batterie",
+          "Transmission",
+          "Aération",
+          "Alternateur"
+        ],
+        "réponse": "Transmission",
+        "anecdote": "La maintenance des véhicules électriques nécessite moins de main d'oeuvre, avec une mécanique moins complexe et moins de pièces."
+      },
+      {
+        "id": 19,
+        "question": "Quelle part de marché la voiture électrique a-t-elle atteint au niveau mondial en 2021 ?",
+        "propositions": [
+          "6 %",
+          "36 %",
+          "16 %",
+          "26 %"
+        ],
+        "réponse": "6 %",
+        "anecdote": "Les parts de marché les plus élevées en 2022 se rencontrent en Norvège (79 %), Suède (33 %), Pays-Bas (23 %) et Allemagne (18 %)."
+      },
+      {
+        "id": 20,
+        "question": "Quel modèle de voiture est devenu la première voiture hybride sur le marché ?",
+        "propositions": [
+          "Nissan Leaf",
+          "Tesla Model 3",
+          "Toyota Prius",
+          "Renault Zoe"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "La dénomination Toyota Prius couvre des modèles d'automobiles à motorisation hybride, à double motorisation thermique et électrique."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "De quoi doit être légalement équipée une voiture électrique vis-à-vis des piétons ?",
+        "propositions": [
+          "Bruiteur",
+          "Boîte de vitesse",
+          "Pare-soleil",
+          "Phares"
+        ],
+        "réponse": "Bruiteur",
+        "anecdote": "En Europe, les voitures électriques sont tenues d'émettre un signal sonore afin d'indiquer aux piétons un éventuel danger."
+      },
+      {
+        "id": 22,
+        "question": "Quel type de freinage permet de récupérer de l'énergie dans une voiture électrique ?",
+        "propositions": [
+          "Régénératif",
+          "Cinétique",
+          "Mécanique",
+          "Hydraulique"
+        ],
+        "réponse": "Régénératif",
+        "anecdote": "Le freinage régénératif permet de convertir une partie de l'énergie cinétique en électricité, rechargeant dans le cas présent la batterie."
+      },
+      {
+        "id": 23,
+        "question": "Quelle voiture électrique Chevrolet a été produite en masse dès les années 2010 ?",
+        "propositions": [
+          "Impala",
+          "Volt",
+          "Spark",
+          "Malibu"
+        ],
+        "réponse": "Volt",
+        "anecdote": "La Chevrolet Volt, produite entre 2011 et 2015, a été l'une des premières voitures électriques grand public à autonomie étendue."
+      },
+      {
+        "id": 24,
+        "question": "Quelle voiture électrique détient le record de zéro à cent km/h le plus rapide ?",
+        "propositions": [
+          "Tesla S Plaid",
+          "BMW i3",
+          "Chevrolet Bolt",
+          "Nissan Leaf"
+        ],
+        "réponse": "Tesla S Plaid",
+        "anecdote": "Depuis le lancement de la Porsche Taycan en 2019, Elon Musk a souvent évoqué une nouvelle version plus puissante de la Model S."
+      },
+      {
+        "id": 25,
+        "question": "Quelle voiture électrique est considérée comme la première produite en série ?",
+        "propositions": [
+          "Chevrolet Volt",
+          "BMW i3",
+          "Nissan Leaf",
+          "Toyota Prius"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "La Leaf a contribué à populariser les voitures électriques grand public, avec 470 000 unités ont été vendues en dix ans."
+      },
+      {
+        "id": 26,
+        "question": "Quelle voiture a été utilisée comme base pour les taxis électriques de New York ?",
+        "propositions": [
+          "Ford Mustang",
+          "Tesla Model 3",
+          "Chevrolet Bolt",
+          "Nissan Leaf"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Une loi votée en 1967 a imposé à tous les Medallion taxis, nom donné aux taxis agréés, une carrosserie de couleur jaune."
+      },
+      {
+        "id": 27,
+        "question": "Quelle course met chaque année en avant les performances des voitures électriques ?",
+        "propositions": [
+          "Formule E",
+          "24 heures du Mans",
+          "Rallye Dakar",
+          "Formule 1"
+        ],
+        "réponse": "Formule E",
+        "anecdote": "La Formule E est la seule catégorie de monoplace actuellement en compétition équipée d'un moteur exclusivement électrique."
+      },
+      {
+        "id": 28,
+        "question": "Quelle entreprise a produit en série le premier bus entièrement électrique ?",
+        "propositions": [
+          "BYD",
+          "Ford",
+          "Volvo",
+          "Mercedes-Benz"
+        ],
+        "réponse": "BYD",
+        "anecdote": "Début 2019, BYD avait une part de marché de près de 20 % dans les bus électriques à l'échelle mondiale, avec son BYD ebus."
+      },
+      {
+        "id": 29,
+        "question": "Quelle voiture électrique fut utilisée comme véhicule de service par le Pape François ?",
+        "propositions": [
+          "Renault Zoe",
+          "Nissan Leaf",
+          "Hyundai Kona",
+          "Tesla Model 3"
+        ],
+        "réponse": "Renault Zoe",
+        "anecdote": "Il a semblé choquant pour certains de donner un prénom humain à une voiture, d'autant plus que le prénom Zoé est en vogue."
+      },
+      {
+        "id": 30,
+        "question": "Quel modèle fut le premier à dépasser un million d'unités vendues dans le monde ?",
+        "propositions": [
+          "Nissan Leaf",
+          "Chevrolet Bolt",
+          "BMW i3",
+          "Toyota Prius"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Il s'agit du deuxième modèle de Nissan étudié pour être 100 % électrique, après la Hypermini produite entre 1999 et 2001."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In 2022, what was the standard announced range of an electric car ?",
+        "propositions": [
+          "700-800 km",
+          "500-600 km",
+          "300-400 km",
+          "100-200 km"
+        ],
+        "réponse": "300-400 km",
+        "anecdote": "The Tesla Model S Plaid  aimed for a range of more than 800 km before its cancellation in 2021 due to lack of technological progress."
+      },
+      {
+        "id": 2,
+        "question": "What element of an electric car allows energy to be stored ?",
+        "propositions": [
+          "Radiator",
+          "Starter",
+          "Battery",
+          "Alternator"
+        ],
+        "réponse": "Battery",
+        "anecdote": "The battery of the Porsche Taycan (Porsche's first electric model) can be recharged from 5 to 80 % in just 22.5 minutes."
+      },
+      {
+        "id": 3,
+        "question": "How do electric cars recharge their batteries ?",
+        "propositions": [
+          "Essence",
+          "Natural gas",
+          "Diesel",
+          "Electricity"
+        ],
+        "réponse": "Electricity",
+        "anecdote": "Some electric models can be recharged to more than 80 % capacity in 30 minutes using fast charging."
+      },
+      {
+        "id": 4,
+        "question": "What is the cable used to charge an electric car called ?",
+        "propositions": [
+          "Electric cable",
+          "Câble de batterie",
+          "Charging cable",
+          "Fuel cord"
+        ],
+        "réponse": "Charging cable",
+        "anecdote": "Some electric vehicle models have an onboard charger, eliminating the need for external cables."
+      },
+      {
+        "id": 5,
+        "question": "Which company offers a network of Superchargers for electric cars ?",
+        "propositions": [
+          "BP",
+          "ExxonMobil",
+          "Shell",
+          "Tesla"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Supercharger is a fast charging network (322 km in 15 minutes) using 480 volt direct current, deployed since 2012."
+      },
+      {
+        "id": 6,
+        "question": "What crucial element influences the range of an electric car ?",
+        "propositions": [
+          "Color",
+          "Tires",
+          "Passengers",
+          "Temperature"
+        ],
+        "réponse": "Temperature",
+        "anecdote": "Extreme temperatures can shorten an electric car's range by noticeably affecting battery chemistry."
+      },
+      {
+        "id": 7,
+        "question": "How to qualify the charging time compared to a thermal car ?",
+        "propositions": [
+          "Shorter",
+          "Identique",
+          "Insignificant",
+          "Longer"
+        ],
+        "réponse": "Longer",
+        "anecdote": "The range of an electric vehicle directly depends on the capacity of the battery and the type of journey (flat, varied, urban)."
+      },
+      {
+        "id": 8,
+        "question": "Where is the battery most often placed in an electric vehicle ?",
+        "propositions": [
+          "In the front",
+          "In the trunk",
+          "Under the car",
+          "On the wings"
+        ],
+        "réponse": "Under the car",
+        "anecdote": "The battery, placed under the car, allows for a flat floor, the engine is more compact and the fuel tank is absent."
+      },
+      {
+        "id": 9,
+        "question": "Which manufacturer was the world number one in electric cars in 2022 ?",
+        "propositions": [
+          "Honda",
+          "BYD",
+          "Tesla",
+          "Volvo"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) is originally a Chinese battery manufacturer based in Shenzhen, Guangdong, China."
+      },
+      {
+        "id": 10,
+        "question": "What is the main source of greenhouse gas emissions from an electric car ?",
+        "propositions": [
+          "Battery",
+          "Exhaust",
+          "Tires",
+          "Brakes"
+        ],
+        "réponse": "Battery",
+        "anecdote": "Lithium-ion batteries are recyclable, without memory effect, but their large-scale recycling remains under development."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which brand sold the most electric cars in China in 2021 ?",
+        "propositions": [
+          "Tesla",
+          "Ford",
+          "Toyota",
+          "Nissan"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla has built a Gigafactory in China (Tesla Giga Shanghai) to meet the growing demand for electric cars."
+      },
+      {
+        "id": 12,
+        "question": "Which country has the most public charging stations ?",
+        "propositions": [
+          "China",
+          "United States",
+          "Japan",
+          "Germany"
+        ],
+        "réponse": "China",
+        "anecdote": "China has an ever-expanding charging infrastructure with thousands of publicly accessible stations."
+      },
+      {
+        "id": 13,
+        "question": "How do you measure the capacity of an electric car battery ?",
+        "propositions": [
+          "Square meter",
+          "Volt-ampere",
+          "Watt hour",
+          "Kilogram"
+        ],
+        "réponse": "Watt hour",
+        "anecdote": "The kilowatt-hour is used for electrical energy, but also to bill fuel gas and make energy assessments."
+      },
+      {
+        "id": 14,
+        "question": "What effect does cold weather have on the range of an electric car ?",
+        "propositions": [
+          "Reduction",
+          "Increase",
+          "Stability",
+          "No effect"
+        ],
+        "réponse": "Reduction",
+        "anecdote": "The storage battery allows electrical energy to be stored in chemical form and released in direct current."
+      },
+      {
+        "id": 15,
+        "question": "How much less CO2 does an electric car emit than a gasoline car ?",
+        "propositions": [
+          "About 10%",
+          "About 25%",
+          "About 75%",
+          "About 50%"
+        ],
+        "réponse": "About 75%",
+        "anecdote": "The reduction in CO2 emissions from electric cars should be increased from 15 to 25 % by 2025 and from 30 to 45 % for 2030."
+      },
+      {
+        "id": 16,
+        "question": "How are batteries cooled during charging and while driving ?",
+        "propositions": [
+          "Air",
+          "Hydrogen",
+          "Liquid",
+          "Nitrogen"
+        ],
+        "réponse": "Liquid",
+        "anecdote": "Some models use liquid cooling systems to keep the batteries at optimal temperature."
+      },
+      {
+        "id": 17,
+        "question": "What weather phenomenon can temporarily affect the charging speed ?",
+        "propositions": [
+          "Rain",
+          "Snow",
+          "Intense heat",
+          "Hail"
+        ],
+        "réponse": "Snow",
+        "anecdote": "There were 1,300,000 public charging points in 2020, including 807,000 in China, 286,000 in Europe and 99,000 in the United States."
+      },
+      {
+        "id": 18,
+        "question": "What element, removed from electric cars, reduces noise ?",
+        "propositions": [
+          "Battery",
+          "Transmission",
+          "Alternator",
+          "Aeration"
+        ],
+        "réponse": "Transmission",
+        "anecdote": "Maintenance of electric vehicles requires less labor, with less complex mechanics and fewer parts."
+      },
+      {
+        "id": 19,
+        "question": "What market share have electric cars reached globally in 2021 ?",
+        "propositions": [
+          "6 %",
+          "16 %",
+          "36 %",
+          "26 %"
+        ],
+        "réponse": "6 %",
+        "anecdote": "The highest market shares in 2022 are found in Norway (79 %), Sweden (33 %), the Netherlands (23 %) and Germany (18 %)."
+      },
+      {
+        "id": 20,
+        "question": "Which car model became the first hybrid car on the market ?",
+        "propositions": [
+          "Tesla Model 3",
+          "Nissan Leaf",
+          "Toyota Prius",
+          "Renault Zoe"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "The name Toyota Prius covers automobile models with hybrid engines, dual thermal and electric engines."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What must an electric car legally be equipped with in relation to pedestrians ?",
+        "propositions": [
+          "Gearbox",
+          "Headlights",
+          "Sun visor",
+          "Noisemaker"
+        ],
+        "réponse": "Noisemaker",
+        "anecdote": "In Europe, electric cars are required to emit a sound signal to alert pedestrians of possible danger."
+      },
+      {
+        "id": 22,
+        "question": "What type of braking recovers energy in an electric car ?",
+        "propositions": [
+          "Hydraulic",
+          "Regenerative",
+          "Kinetic",
+          "Mécanique"
+        ],
+        "réponse": "Regenerative",
+        "anecdote": "Regenerative braking converts part of the kinetic energy into electricity, in this case recharging the battery."
+      },
+      {
+        "id": 23,
+        "question": "Which Chevrolet electric car was mass produced in the 2010s ?",
+        "propositions": [
+          "Volt",
+          "Impala",
+          "Malibu",
+          "Spark"
+        ],
+        "réponse": "Volt",
+        "anecdote": "The Chevrolet Volt, produced between 2011 and 2015, was one of the first mainstream electric cars with extended range."
+      },
+      {
+        "id": 24,
+        "question": "Which electric car holds the fastest zero to hundred km/h record ?",
+        "propositions": [
+          "Chevrolet Bolt",
+          "Nissan Leaf",
+          "BMW i3",
+          "Tesla S Plaid"
+        ],
+        "réponse": "Tesla S Plaid",
+        "anecdote": "Since the launch of the Porsche Taycan in 2019, Elon Musk has often mentioned a new, more powerful version of the Model S."
+      },
+      {
+        "id": 25,
+        "question": "Which electric car is considered the first mass-produced car ?",
+        "propositions": [
+          "Nissan Leaf",
+          "Toyota Prius",
+          "BMW i3",
+          "Chevrolet Volt"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "The Leaf helped popularize mainstream electric cars, with 470,000 units sold in ten years."
+      },
+      {
+        "id": 26,
+        "question": "Which car was used as the basis for New York's electric taxis ?",
+        "propositions": [
+          "Nissan Leaf",
+          "Tesla Model 3",
+          "Chevrolet Bolt",
+          "Ford Mustang"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "A law passed in 1967 required all Medallion taxis, the name given to approved taxis, to have yellow bodywork."
+      },
+      {
+        "id": 27,
+        "question": "Which race highlights the performance of electric cars each year ?",
+        "propositions": [
+          "Formula E",
+          "Formula 1",
+          "24 hours of Le Mans",
+          "Dakar Rally"
+        ],
+        "réponse": "Formula E",
+        "anecdote": "Formula E is the only single-seater category currently in competition equipped with an exclusively electric engine."
+      },
+      {
+        "id": 28,
+        "question": "Which company mass-produced the first fully electric bus ?",
+        "propositions": [
+          "BYD",
+          "Mercedes-Benz",
+          "Volvo",
+          "Ford"
+        ],
+        "réponse": "BYD",
+        "anecdote": "At the start of 2019, BYD had a market share of almost 20 % in electric buses globally, with its BYD ebus."
+      },
+      {
+        "id": 29,
+        "question": "Which electric car was used as a service vehicle by Pope Francis ?",
+        "propositions": [
+          "Tesla Model 3",
+          "Nissan Leaf",
+          "Hyundai Kona",
+          "Renault Zoe"
+        ],
+        "réponse": "Renault Zoe",
+        "anecdote": "It seemed shocking to some to give a human name to a car, especially since the name Zoé is in vogue."
+      },
+      {
+        "id": 30,
+        "question": "Which model was the first to exceed one million units sold worldwide ?",
+        "propositions": [
+          "Chevrolet Bolt",
+          "Toyota Prius",
+          "BMW i3",
+          "Nissan Leaf"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "This is the second Nissan model studied to be 100 % electric, after the Hypermini produced between 1999 and 2001."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie hoch war im Jahr 2022 die angekündigte Standardreichweite eines Elektroautos ?",
+        "propositions": [
+          "500-600 km",
+          "700-800 km",
+          "300-400 km",
+          "100-200 km"
+        ],
+        "réponse": "300-400 km",
+        "anecdote": "Das Tesla Model S Plaid+ strebte eine Reichweite von mehr als 800 km an, bevor es 2021 mangels technischem Fortschritt eingestellt wurde."
+      },
+      {
+        "id": 2,
+        "question": "Welches Element eines Elektroautos ermöglicht die Speicherung von Energie ?",
+        "propositions": [
+          "Batterie",
+          "Anlasser",
+          "Heizkörper",
+          "Lichtmaschine"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "Die Batterie des Porsche Taycan (erstes Elektromodell von Porsche) lässt sich in nur 22,5 Minuten von 5 auf 80 % aufladen."
+      },
+      {
+        "id": 3,
+        "question": "Wie laden Elektroautos ihre Batterien auf ?",
+        "propositions": [
+          "Benzin",
+          "Strom",
+          "Diesel",
+          "Erdgas"
+        ],
+        "réponse": "Strom",
+        "anecdote": "Einige Elektromodelle können per Schnellladung in 30 Minuten zu mehr als 80 % aufgeladen werden."
+      },
+      {
+        "id": 4,
+        "question": "Wie heißt das Kabel, mit dem ein Elektroauto aufgeladen wird ?",
+        "propositions": [
+          "Ladekabel",
+          "Elektrokabel",
+          "Batteriekabel",
+          "Kraftstoffkabel"
+        ],
+        "réponse": "Ladekabel",
+        "anecdote": "Einige Elektrofahrzeugmodelle verfügen über ein integriertes Ladegerät, sodass keine externen Kabel erforderlich sind."
+      },
+      {
+        "id": 5,
+        "question": "Welches Unternehmen bietet ein Netzwerk von Superchargern für Elektroautos an ?",
+        "propositions": [
+          "Schale",
+          "ExxonMobil",
+          "Tesla",
+          "BP"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Supercharger ist ein Schnellladenetzwerk (322 km in 15 Minuten) mit 480-Volt-Gleichstrom, das seit 2012 im Einsatz ist."
+      },
+      {
+        "id": 6,
+        "question": "Welches entscheidende Element beeinflusst die Reichweite eines Elektroautos ?",
+        "propositions": [
+          "Passagiere",
+          "Farbe",
+          "Reifen",
+          "Temperatur"
+        ],
+        "réponse": "Temperatur",
+        "anecdote": "Extreme Temperaturen können die Reichweite eines Elektroautos verringern, indem sie die Batteriechemie spürbar beeinträchtigen."
+      },
+      {
+        "id": 7,
+        "question": "Wie lässt sich die Ladezeit im Vergleich zu einem Thermoauto bewerten ?",
+        "propositions": [
+          "Gleich",
+          "Kürzer",
+          "Länger",
+          "Unbedeutend"
+        ],
+        "réponse": "Länger",
+        "anecdote": "Die Reichweite eines Elektrofahrzeugs hängt direkt von der Kapazität der Batterie und der Art der Fahrt (flach, abwechslungsreich, innerstädtisch) ab."
+      },
+      {
+        "id": 8,
+        "question": "Wo wird die Batterie in einem Elektrofahrzeug am häufigsten platziert ?",
+        "propositions": [
+          "Auf den Flügeln",
+          "Im Kofferraum",
+          "Vorne",
+          "Unter dem Auto"
+        ],
+        "réponse": "Unter dem Auto",
+        "anecdote": "Die unter dem Auto platzierte Batterie ermöglicht einen ebenen Boden, der Motor ist kompakter und der Kraftstofftank fehlt."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Hersteller war 2022 weltweit die Nummer eins bei Elektroautos ?",
+        "propositions": [
+          "BYD",
+          "Tesla",
+          "Honda",
+          "Volvo"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) ist ursprünglich ein chinesischer Batteriehersteller mit Sitz in Shenzhen, Guangdong, China."
+      },
+      {
+        "id": 10,
+        "question": "Was ist die Hauptquelle der Treibhausgasemissionen eines Elektroautos ?",
+        "propositions": [
+          "Reifen",
+          "Batterie",
+          "Auspuff",
+          "Bremsen"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "Lithium-Ionen-Batterien sind ohne Memory-Effekt recycelbar, ihr Recycling in großem Maßstab befindet sich jedoch noch in der Entwicklung."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Marke hat 2021 in China die meisten Elektroautos verkauft ?",
+        "propositions": [
+          "Ford",
+          "Nissan",
+          "Tesla",
+          "Toyota"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla hat in China eine Gigafactory (Tesla Giga Shanghai) gebaut, um der wachsenden Nachfrage nach Elektroautos gerecht zu werden."
+      },
+      {
+        "id": 12,
+        "question": "Welches Land hat die meisten öffentlichen Ladestationen ?",
+        "propositions": [
+          "Deutschland",
+          "China",
+          "Vereinigte Staaten",
+          "Japan"
+        ],
+        "réponse": "China",
+        "anecdote": "China verfügt über eine ständig wachsende Ladeinfrastruktur mit Tausenden öffentlich zugänglichen Stationen."
+      },
+      {
+        "id": 13,
+        "question": "Wie misst man die Kapazität einer Elektroautobatterie ?",
+        "propositions": [
+          "Kilogramm",
+          "Wattstunde",
+          "Volt-Ampere",
+          "Quadratmeter"
+        ],
+        "réponse": "Wattstunde",
+        "anecdote": "Die Kilowattstunde wird für elektrische Energie, aber auch für die Abrechnung von Brenngas und Energieauswertungen verwendet."
+      },
+      {
+        "id": 14,
+        "question": "Welchen Einfluss hat kaltes Wetter auf die Reichweite eines Elektroautos ?",
+        "propositions": [
+          "Stabilität",
+          "Rabatt",
+          "Erhöhung",
+          "Keine Auswirkung"
+        ],
+        "réponse": "Rabatt",
+        "anecdote": "Der Akkumulator ermöglicht die Speicherung elektrischer Energie in chemischer Form und die Abgabe in Gleichstrom."
+      },
+      {
+        "id": 15,
+        "question": "Wie viel weniger CO2 stößt ein Elektroauto aus als ein Benzinauto ?",
+        "propositions": [
+          "Etwa 50 %",
+          "Etwa 10 %",
+          "Etwa 75 %",
+          "Etwa 25 %"
+        ],
+        "réponse": "Etwa 75 %",
+        "anecdote": "Die Reduzierung der CO2-Emissionen von Elektroautos soll bis 2025 von 15 auf 25 % und bis 2030 von 30 auf 45 % gesteigert werden."
+      },
+      {
+        "id": 16,
+        "question": "Wie werden Batterien beim Laden und während der Fahrt gekühlt ?",
+        "propositions": [
+          "Luft",
+          "Stickstoff",
+          "Flüssigkeit",
+          "Wasserstoff"
+        ],
+        "réponse": "Flüssigkeit",
+        "anecdote": "Einige Modelle verwenden Flüssigkeitskühlsysteme, um die Batterien auf optimaler Temperatur zu halten."
+      },
+      {
+        "id": 17,
+        "question": "Welches Wetterphänomen kann die Ladegeschwindigkeit vorübergehend beeinflussen ?",
+        "propositions": [
+          "Schnee",
+          "Hagel",
+          "Starke Hitze",
+          "Regen"
+        ],
+        "réponse": "Schnee",
+        "anecdote": "Im Jahr 2020 gab es 1.300.000 öffentliche Ladepunkte, davon 807.000 in China, 286.000 in Europa und 99.000 in den Vereinigten Staaten."
+      },
+      {
+        "id": 18,
+        "question": "Welches aus Elektroautos entfernte Element reduziert den Lärm ?",
+        "propositions": [
+          "Übertragung",
+          "Batterie",
+          "Lichtmaschine",
+          "Belüftung"
+        ],
+        "réponse": "Übertragung",
+        "anecdote": "Die Wartung von Elektrofahrzeugen erfordert weniger Arbeitsaufwand, weniger komplexe Mechanik und weniger Teile."
+      },
+      {
+        "id": 19,
+        "question": "Welchen Marktanteil haben Elektroautos im Jahr 2021 weltweit erreicht ?",
+        "propositions": [
+          "26 %",
+          "16 %",
+          "36 %",
+          "6%"
+        ],
+        "réponse": "6%",
+        "anecdote": "Die höchsten Marktanteile im Jahr 2022 finden sich in Norwegen (79 %), Schweden (33 %), den Niederlanden (23 %) und Deutschland (18 %)."
+      },
+      {
+        "id": 20,
+        "question": "Welches Automodell war das erste Hybridauto auf dem Markt ?",
+        "propositions": [
+          "Toyota Prius",
+          "Tesla Model 3",
+          "Nissan Leaf",
+          "Renault Zoe"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "Der Name Toyota Prius umfasst Automobilmodelle mit Hybridmotoren, dualem Wärme- und Elektromotor."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Womit muss ein Elektroauto in Bezug auf Fußgänger gesetzlich ausgestattet sein ?",
+        "propositions": [
+          "Getriebe",
+          "Leuchttürme",
+          "Lärmmacher",
+          "Sonnenschirm"
+        ],
+        "réponse": "Lärmmacher",
+        "anecdote": "In Europa müssen Elektroautos ein akustisches Signal abgeben, um Fußgänger auf mögliche Gefahren aufmerksam zu machen."
+      },
+      {
+        "id": 22,
+        "question": "Welche Art von Bremsung gewinnt bei einem Elektroauto Energie zurück ?",
+        "propositions": [
+          "Hydraulik",
+          "Kinetik",
+          "Mechanik",
+          "Regenerativ"
+        ],
+        "réponse": "Regenerativ",
+        "anecdote": "Beim regenerativen Bremsen wird ein Teil der kinetischen Energie in Strom umgewandelt und in diesem Fall die Batterie wieder aufgeladen."
+      },
+      {
+        "id": 23,
+        "question": "Welches Chevrolet-Elektroauto wurde in den 2010er Jahren in Massenproduktion hergestellt ?",
+        "propositions": [
+          "Malibu",
+          "Impala",
+          "Volt",
+          "Funke"
+        ],
+        "réponse": "Volt",
+        "anecdote": "Der zwischen 2011 und 2015 produzierte Chevrolet Volt war eines der ersten Mainstream-Elektroautos mit erweiterter Reichweite."
+      },
+      {
+        "id": 24,
+        "question": "Welches Elektroauto hält den schnellsten Rekord von null bis hundert km/h ?",
+        "propositions": [
+          "Tesla S Wurf",
+          "Nissan Leaf",
+          "Chevrolet Bolt",
+          "BMW i3"
+        ],
+        "réponse": "Tesla S Wurf",
+        "anecdote": "Seit der Einführung des Porsche Taycan im Jahr 2019 erwähnt Elon Musk oft eine neue, leistungsstärkere Version des Model S."
+      },
+      {
+        "id": 25,
+        "question": "Welches Elektroauto gilt als das erste Serienauto ?",
+        "propositions": [
+          "Toyota Prius",
+          "Nissan Leaf",
+          "BMW i3",
+          "Chevrolet Volt"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Mit 470.000 verkauften Exemplaren in zehn Jahren trug der Leaf zur Popularisierung von Mainstream-Elektroautos bei."
+      },
+      {
+        "id": 26,
+        "question": "Welches Auto diente als Basis für New Yorks Elektrotaxis ?",
+        "propositions": [
+          "Ford Mustang",
+          "Nissan Leaf",
+          "Chevrolet Bolt",
+          "Tesla Model 3"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Ein 1967 verabschiedetes Gesetz verlangte, dass alle Medallion-Taxis, wie zugelassene Taxis genannt werden, eine gelbe Karosserie haben müssen."
+      },
+      {
+        "id": 27,
+        "question": "Welches Rennen unterstreicht jedes Jahr die Leistung von Elektroautos ?",
+        "propositions": [
+          "Rallye Dakar",
+          "Formel E",
+          "Formel 1",
+          "24 Stunden von Le Mans"
+        ],
+        "réponse": "Formel E",
+        "anecdote": "Die Formel E ist derzeit die einzige Einsitzer-Kategorie im Wettbewerb, die ausschließlich mit einem Elektromotor ausgestattet ist."
+      },
+      {
+        "id": 28,
+        "question": "Welches Unternehmen hat den ersten vollelektrischen Bus in Serie hergestellt ?",
+        "propositions": [
+          "Volvo",
+          "Ford",
+          "Mercedes-Benz",
+          "BYD"
+        ],
+        "réponse": "BYD",
+        "anecdote": "Zu Beginn des Jahres 2019 hatte BYD mit seinem BYD ebus einen Marktanteil von fast 20 % bei Elektrobussen weltweit."
+      },
+      {
+        "id": 29,
+        "question": "Welches Elektroauto nutzte Papst Franziskus als Dienstfahrzeug ?",
+        "propositions": [
+          "Hyundai Kona",
+          "Renault Zoe",
+          "Nissan Leaf",
+          "Tesla Model 3"
+        ],
+        "réponse": "Renault Zoe",
+        "anecdote": "Für manche schien es schockierend, einem Auto einen menschlichen Namen zu geben, zumal der Name Zoé in Mode ist."
+      },
+      {
+        "id": 30,
+        "question": "Welches Modell war das erste, das weltweit mehr als eine Million Mal verkauft wurde ?",
+        "propositions": [
+          "Chevrolet Bolt",
+          "Nissan Leaf",
+          "Toyota Prius",
+          "BMW i3"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Nach dem Hypermini, der zwischen 1999 und 2001 produziert wurde, ist dies das zweite Nissan-Modell, das als 100 %-Elektroauto untersucht wurde."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En 2022, ¿cuál era la autonomía estándar anunciada de un coche eléctrico ?",
+        "propositions": [
+          "700-800 kilómetros",
+          "500-600 kilómetros",
+          "300-400 kilómetros",
+          "100-200 kilómetros"
+        ],
+        "réponse": "300-400 kilómetros",
+        "anecdote": "El Tesla Model S Plaid+ aspiraba a una autonomía de más de 800 km antes de su cancelación en 2021 por falta de progreso tecnológico."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué elemento de un coche eléctrico permite almacenar energía ?",
+        "propositions": [
+          "Alternador",
+          "Arrancador",
+          "Radiador",
+          "Batería"
+        ],
+        "réponse": "Batería",
+        "anecdote": "La batería del Porsche Taycan (el primer modelo eléctrico de Porsche) se puede recargar del 5 al 80% en sólo 22,5 minutos."
+      },
+      {
+        "id": 3,
+        "question": "¿Cómo recargan sus baterías los coches eléctricos ?",
+        "propositions": [
+          "Electricidad",
+          "Gasolina",
+          "Gas natural",
+          "Diésel"
+        ],
+        "réponse": "Electricidad",
+        "anecdote": "Algunos modelos eléctricos se pueden recargar hasta más del 80% de su capacidad en 30 minutos mediante carga rápida."
+      },
+      {
+        "id": 4,
+        "question": "¿Cómo se llama el cable que se utiliza para cargar un coche eléctrico ?",
+        "propositions": [
+          "Cable de carga",
+          "Cable electrico",
+          "Cable de batería",
+          "Cable de combustible"
+        ],
+        "réponse": "Cable de carga",
+        "anecdote": "Algunos modelos de vehículos eléctricos cuentan con un cargador integrado, lo que elimina la necesidad de cables externos."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué empresa ofrece una red de Supercargadores para coches eléctricos ?",
+        "propositions": [
+          "ExxonMobil",
+          "BP",
+          "Tesla",
+          "Concha"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Supercharger es una red de carga rápida (322 km en 15 minutos) que utiliza corriente continua de 480 voltios, implementada desde 2012."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué elemento crucial influye en la autonomía de un coche eléctrico ?",
+        "propositions": [
+          "Color",
+          "Temperatura",
+          "Neumáticos",
+          "Pasajeros"
+        ],
+        "réponse": "Temperatura",
+        "anecdote": "Las temperaturas extremas pueden acortar la autonomía de un coche eléctrico al afectar notablemente la química de la batería."
+      },
+      {
+        "id": 7,
+        "question": "¿Cómo calificar el tiempo de carga respecto a un coche térmico ?",
+        "propositions": [
+          "Lo mismo",
+          "Más corto",
+          "insignificante",
+          "Más largo"
+        ],
+        "réponse": "Más largo",
+        "anecdote": "La autonomía de un vehículo eléctrico depende directamente de la capacidad de la batería y del tipo de trayecto (plano, variado, urbano)."
+      },
+      {
+        "id": 8,
+        "question": "¿Dónde se coloca con mayor frecuencia la batería en un vehículo eléctrico ?",
+        "propositions": [
+          "En las alas",
+          "Debajo del coche",
+          "Al frente",
+          "En el maletero"
+        ],
+        "réponse": "Debajo del coche",
+        "anecdote": "La batería, situada debajo del coche, permite un suelo plano, el motor es más compacto y no hay depósito de combustible."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué fabricante fue el número uno mundial en coches eléctricos en 2022 ?",
+        "propositions": [
+          "Honda",
+          "Tesla",
+          "Volvo",
+          "BYD"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) es originalmente un fabricante chino de baterías con sede en Shenzhen, Guangdong, China."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál es la principal fuente de emisiones de gases de efecto invernadero de un coche eléctrico ?",
+        "propositions": [
+          "Neumáticos",
+          "Batería",
+          "Frenos",
+          "Escape"
+        ],
+        "réponse": "Batería",
+        "anecdote": "Las baterías de iones de litio son reciclables, sin efecto memoria, pero su reciclaje a gran escala aún está en desarrollo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué marca vendió más coches eléctricos en China en 2021 ?",
+        "propositions": [
+          "Ford",
+          "Tesla",
+          "Toyota",
+          "Nissan"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla ha construido una Gigafábrica en China (Tesla Giga Shanghai) para satisfacer la creciente demanda de coches eléctricos."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué país tiene más estaciones de carga públicas ?",
+        "propositions": [
+          "Alemania",
+          "Estados Unidos",
+          "China",
+          "Japón"
+        ],
+        "réponse": "China",
+        "anecdote": "China tiene una infraestructura de carga en constante expansión con miles de estaciones de acceso público."
+      },
+      {
+        "id": 13,
+        "question": "¿Cómo se mide la capacidad de la batería de un coche eléctrico ?",
+        "propositions": [
+          "Metro cuadrado",
+          "Vatios hora",
+          "Volt-amperio",
+          "Kilogramo"
+        ],
+        "réponse": "Vatios hora",
+        "anecdote": "El kilovatio-hora se utiliza para obtener energía eléctrica, pero también para facturar el gas combustible y realizar valoraciones energéticas."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué efecto tiene el frío en la autonomía de un coche eléctrico ?",
+        "propositions": [
+          "Descuento",
+          "Aumentar",
+          "Sin efecto",
+          "Estabilidad"
+        ],
+        "réponse": "Descuento",
+        "anecdote": "La batería de almacenamiento permite almacenar energía eléctrica en forma química y liberarla en corriente continua."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuánto menos CO2 emite un coche eléctrico que uno de gasolina ?",
+        "propositions": [
+          "Alrededor del 25%",
+          "Alrededor del 10%",
+          "Alrededor del 50%",
+          "Alrededor del 75%"
+        ],
+        "réponse": "Alrededor del 75%",
+        "anecdote": "La reducción de las emisiones de CO2 de los coches eléctricos debería aumentar del 15 al 25% para 2025 y del 30 al 45% para 2030."
+      },
+      {
+        "id": 16,
+        "question": "¿Cómo se enfrían las baterías durante la carga y mientras se conduce ?",
+        "propositions": [
+          "Nitrógeno",
+          "Aire",
+          "Líquido",
+          "Hidrógeno"
+        ],
+        "réponse": "Líquido",
+        "anecdote": "Algunos modelos utilizan sistemas de refrigeración líquida para mantener las baterías a una temperatura óptima."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué fenómeno climático puede afectar temporalmente la velocidad de carga ?",
+        "propositions": [
+          "Nieve",
+          "Granizo",
+          "Lluvia",
+          "Calor intenso"
+        ],
+        "réponse": "Nieve",
+        "anecdote": "En 2020 había 1.300.000 puntos de carga públicos, incluidos 807.000 en China, 286.000 en Europa y 99.000 en Estados Unidos."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué elemento, eliminado de los coches eléctricos, reduce el ruido ?",
+        "propositions": [
+          "Ventilación",
+          "Batería",
+          "Alternador",
+          "Transmisión"
+        ],
+        "réponse": "Transmisión",
+        "anecdote": "El mantenimiento de los vehículos eléctricos requiere menos mano de obra, con mecánicas menos complejas y menos piezas."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué cuota de mercado han alcanzado los coches eléctricos a nivel mundial en 2021 ?",
+        "propositions": [
+          "16%",
+          "36%",
+          "26%",
+          "6%"
+        ],
+        "réponse": "6%",
+        "anecdote": "Las cuotas de mercado más altas en 2022 se encuentran en Noruega (79%), Suecia (33%), Países Bajos (23%) y Alemania (18%)."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué modelo de coche se convirtió en el primer coche híbrido del mercado ?",
+        "propositions": [
+          "Tesla Modelo 3",
+          "Nissan Leaf",
+          "Toyota Prius",
+          "Renault Zoé"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "El nombre Toyota Prius abarca modelos de automóviles con motores híbridos, motores duales térmicos y eléctricos."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Con qué debe estar equipado legalmente un coche eléctrico en relación con los peatones ?",
+        "propositions": [
+          "Generador de ruido",
+          "Caja de cambios",
+          "Sombrilla",
+          "Faros"
+        ],
+        "réponse": "Generador de ruido",
+        "anecdote": "En Europa, los coches eléctricos deben emitir una señal sonora para alertar a los peatones de un posible peligro."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué tipo de frenada recupera energía en un coche eléctrico ?",
+        "propositions": [
+          "Cinética",
+          "Regenerativo",
+          "Mecánica",
+          "Hidráulica"
+        ],
+        "réponse": "Regenerativo",
+        "anecdote": "La frenada regenerativa convierte parte de la energía cinética en electricidad, en este caso recargando la batería."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué coche eléctrico Chevrolet se produjo en masa en la década de 2010 ?",
+        "propositions": [
+          "voltio",
+          "Malibú",
+          "Impala",
+          "Chispa"
+        ],
+        "réponse": "voltio",
+        "anecdote": "El Chevrolet Volt, producido entre 2011 y 2015, fue uno de los primeros coches eléctricos convencionales con autonomía ampliada."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué coche eléctrico tiene el récord más rápido de 0 a 100 km/h ?",
+        "propositions": [
+          "BMW i3",
+          "Tiro Tesla S",
+          "Chevrolet Perno",
+          "Hoja de Nissan"
+        ],
+        "réponse": "Tiro Tesla S",
+        "anecdote": "Desde el lanzamiento del Porsche Taycan en 2019, Elon Musk ha mencionado a menudo una versión nueva y más potente del Model S."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué coche eléctrico se considera el primer coche producido en serie ?",
+        "propositions": [
+          "Nissan Leaf",
+          "BMW i3",
+          "Chevrolet Volt",
+          "Toyota Prius"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "El Leaf ayudó a popularizar los coches eléctricos convencionales, con 470."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué coche sirvió de base para los taxis eléctricos de Nueva York ?",
+        "propositions": [
+          "Chevrolet Bolt",
+          "Ford Mustang",
+          "Tesla Modelo 3",
+          "Nissan Leaf"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Una ley aprobada en 1967 exigía que todos los taxis Medallion, nombre que reciben los taxis homologados, tuvieran carrocería amarilla."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué carrera destaca el rendimiento de los coches eléctricos cada año ?",
+        "propositions": [
+          "24 horas de Le Mans",
+          "Rally Dakar",
+          "Fórmula E",
+          "Fórmula 1"
+        ],
+        "réponse": "Fórmula E",
+        "anecdote": "La Fórmula E es la única categoría de monoplazas actualmente en competición equipada con un motor exclusivamente eléctrico."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué empresa produjo en masa el primer autobús totalmente eléctrico ?",
+        "propositions": [
+          "BYD",
+          "Mercedes-Benz",
+          "Volvo",
+          "Ford"
+        ],
+        "réponse": "BYD",
+        "anecdote": "A principios de 2019, BYD tenía una cuota de mercado de casi el 20% en autobuses eléctricos a nivel mundial, con su BYD ebus."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué coche eléctrico utilizó el Papa Francisco como vehículo de servicio ?",
+        "propositions": [
+          "Hoja de Nissan",
+          "Renault Zoé",
+          "Tesla Modelo 3",
+          "Hyundai Kona"
+        ],
+        "réponse": "Renault Zoé",
+        "anecdote": "A algunos les pareció chocante poner un nombre humano a un coche, sobre todo porque el nombre Zoé está de moda."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué modelo fue el primero en superar el millón de unidades vendidas en todo el mundo ?",
+        "propositions": [
+          "BMW i3",
+          "Chevrolet Bolt",
+          "Nissan Leaf",
+          "Toyota Prius"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Se trata del segundo modelo de Nissan estudiado para ser 100% eléctrico, tras el Hypermini producido entre 1999 y 2001."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Nel 2022, qual è stata l'autonomia standard annunciata di un'auto elettrica ?",
+        "propositions": [
+          "500-600 chilometr",
+          "300-400 chilometr",
+          "100-200 chilometr",
+          "700-800 chilometr"
+        ],
+        "réponse": "300-400 chilometr",
+        "anecdote": "La Tesla Model S Plaid+ mirava a un'autonomia di oltre 800 km prima della sua cancellazione nel 2021 a causa della mancanza di progresso tecnologico."
+      },
+      {
+        "id": 2,
+        "question": "Quale elemento di un'auto elettrica consente di immagazzinare energia ?",
+        "propositions": [
+          "Batteria",
+          "Radiatore",
+          "Antipasto",
+          "Alternatore"
+        ],
+        "réponse": "Batteria",
+        "anecdote": "La batteria della Porsche Taycan (il primo modello elettrico della Porsche) si ricarica dal 5 all'80% in soli 22,5 minuti."
+      },
+      {
+        "id": 3,
+        "question": "Come fanno le auto elettriche a ricaricare le batterie ?",
+        "propositions": [
+          "Benzina",
+          "Diesel",
+          "Gas naturale",
+          "Elettricità"
+        ],
+        "réponse": "Elettricità",
+        "anecdote": "Alcuni modelli elettrici possono essere ricaricati fino a oltre l'80% della capacità in 30 minuti utilizzando la ricarica rapida."
+      },
+      {
+        "id": 4,
+        "question": "Come si chiama il cavo utilizzato per caricare un'auto elettrica ?",
+        "propositions": [
+          "Cavo di ricarica",
+          "Cavo batteria",
+          "Cavo elettrico",
+          "Cavo carburante"
+        ],
+        "réponse": "Cavo di ricarica",
+        "anecdote": "Alcuni modelli di veicoli elettrici sono dotati di caricabatterie integrato, eliminando la necessità di cavi esterni."
+      },
+      {
+        "id": 5,
+        "question": "Quale azienda offre una rete di Supercharger per auto elettriche ?",
+        "propositions": [
+          "Tesla",
+          "Conchiglia",
+          "BP",
+          "ExxonMobil"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Supercharger è una rete di ricarica rapida (322 km in 15 minuti) che utilizza corrente continua a 480 volt, implementata dal 2012."
+      },
+      {
+        "id": 6,
+        "question": "Quale elemento cruciale influenza l'autonomia di un'auto elettrica ?",
+        "propositions": [
+          "Temperatura",
+          "Passeggeri",
+          "Colore",
+          "Pneumatici"
+        ],
+        "réponse": "Temperatura",
+        "anecdote": "Le temperature estreme possono ridurre l'autonomia di un'auto elettrica influenzando notevolmente la chimica della batteria."
+      },
+      {
+        "id": 7,
+        "question": "Come qualificare il tempo di ricarica rispetto ad un'auto termica ?",
+        "propositions": [
+          "Insignificante",
+          "Più breve",
+          "Lo stesso",
+          "Più lungo"
+        ],
+        "réponse": "Più lungo",
+        "anecdote": "L'autonomia di un veicolo elettrico dipende direttamente dalla capacità della batteria e dal tipo di viaggio (pianeggiante, vario, urbano)."
+      },
+      {
+        "id": 8,
+        "question": "Dove viene posizionata più spesso la batteria in un veicolo elettrico ?",
+        "propositions": [
+          "Nel bagagliaio",
+          "Davanti",
+          "Sotto la macchina",
+          "Sulle ali"
+        ],
+        "réponse": "Sotto la macchina",
+        "anecdote": "La batteria, posizionata sotto la vettura, consente di avere un pavimento piatto, il motore è più compatto ed è assente il serbatoio del carburante."
+      },
+      {
+        "id": 9,
+        "question": "Quale produttore è stato il numero uno al mondo nelle auto elettriche nel 2022 ?",
+        "propositions": [
+          "Honda",
+          "BYD",
+          "Tesla",
+          "Volvo"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) è originariamente un produttore cinese di batterie con sede a Shenzhen, Guangdong, Cina."
+      },
+      {
+        "id": 10,
+        "question": "Qual è la principale fonte di emissioni di gas serra di un'auto elettrica ?",
+        "propositions": [
+          "Scarico",
+          "Pneumatici",
+          "Freni",
+          "Batteria"
+        ],
+        "réponse": "Batteria",
+        "anecdote": "Le batterie agli ioni di litio sono riciclabili, senza effetto memoria, ma il loro riciclaggio su larga scala è ancora in fase di sviluppo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale marchio ha venduto più auto elettriche in Cina nel 2021 ?",
+        "propositions": [
+          "Tesla",
+          "Toyota",
+          "Nissan",
+          "Ford"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla ha costruito una Gigafactory in Cina (Tesla Giga Shanghai) per soddisfare la crescente domanda di auto elettriche."
+      },
+      {
+        "id": 12,
+        "question": "Quale Paese ha il maggior numero di stazioni di ricarica pubbliche ?",
+        "propositions": [
+          "Stati Uniti",
+          "Giappone",
+          "Cina",
+          "Germania"
+        ],
+        "réponse": "Cina",
+        "anecdote": "La Cina dispone di un'infrastruttura di ricarica in continua espansione con migliaia di stazioni accessibili al pubblico."
+      },
+      {
+        "id": 13,
+        "question": "Come si misura la capacità della batteria di un'auto elettrica ?",
+        "propositions": [
+          "Chilogrammo",
+          "Metro quadrato",
+          "Voltampere",
+          "Wattora"
+        ],
+        "réponse": "Wattora",
+        "anecdote": "Il kilowattora viene utilizzato per l'energia elettrica, ma anche per fatturare il gas combustibile e fare valutazioni energetiche."
+      },
+      {
+        "id": 14,
+        "question": "Che effetti ha il freddo sull'autonomia di un'auto elettrica ?",
+        "propositions": [
+          "Nessun effetto",
+          "Sconto",
+          "Aumenta",
+          "Stabilità"
+        ],
+        "réponse": "Sconto",
+        "anecdote": "La batteria di accumulo consente di immagazzinare energia elettrica in forma chimica e rilasciarla in corrente continua."
+      },
+      {
+        "id": 15,
+        "question": "Quanta meno CO2 emette un'auto elettrica rispetto a un'auto a benzina ?",
+        "propositions": [
+          "Circa il 50%",
+          "Circa il 25%",
+          "Circa il 75%",
+          "Circa il 10%"
+        ],
+        "réponse": "Circa il 75%",
+        "anecdote": "La riduzione delle emissioni di CO2 delle auto elettriche dovrebbe essere aumentata dal 15 al 25% entro il 2025 e dal 30 al 45% per il 2030."
+      },
+      {
+        "id": 16,
+        "question": "Come vengono raffreddate le batterie durante la ricarica e durante la guida ?",
+        "propositions": [
+          "Liquido",
+          "Idrogeno",
+          "Aria",
+          "Azoto"
+        ],
+        "réponse": "Liquido",
+        "anecdote": "Alcuni modelli utilizzano sistemi di raffreddamento a liquido per mantenere le batterie alla temperatura ottimale."
+      },
+      {
+        "id": 17,
+        "question": "Quale fenomeno meteorologico può influenzare temporaneamente la velocità di ricarica ?",
+        "propositions": [
+          "Salve",
+          "Calore intenso",
+          "Pioggia",
+          "Neve"
+        ],
+        "réponse": "Neve",
+        "anecdote": "Nel 2020 i punti di ricarica pubblici erano 1.300.000, di cui 807.000 in Cina, 286.000 in Europa e 99.000 negli Stati Uniti."
+      },
+      {
+        "id": 18,
+        "question": "Quale elemento, rimosso dalle auto elettriche, riduce il rumore ?",
+        "propositions": [
+          "Alternatore",
+          "Trasmissione",
+          "Batteria",
+          "Ventilazione"
+        ],
+        "réponse": "Trasmissione",
+        "anecdote": "La manutenzione dei veicoli elettrici richiede meno manodopera, con meccanica meno complessa e meno parti."
+      },
+      {
+        "id": 19,
+        "question": "Quale quota di mercato hanno raggiunto le auto elettriche a livello globale nel 2021 ?",
+        "propositions": [
+          "26",
+          "36",
+          "6",
+          "16"
+        ],
+        "réponse": "6",
+        "anecdote": "Le quote di mercato più elevate nel 2022 si trovano in Norvegia (79%), Svezia (33%), Paesi Bassi (23%) e Germania (18%)."
+      },
+      {
+        "id": 20,
+        "question": "Quale modello di auto è diventata la prima auto ibrida sul mercato ?",
+        "propositions": [
+          "Toyota Prius",
+          "Renault Zoe",
+          "Nissan Leaf",
+          "Tesla Modello 3"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "Il nome Toyota Prius copre modelli di automobili con motori ibridi, doppi motori termici ed elettrici."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Di cosa deve essere legalmente dotata un'auto elettrica rispetto ai pedoni ?",
+        "propositions": [
+          "Fari",
+          "Creatore di rumore",
+          "Ombrellone",
+          "Cambio"
+        ],
+        "réponse": "Creatore di rumore",
+        "anecdote": "In Europa, le auto elettriche devono emettere un segnale acustico per avvisare i pedoni di un possibile pericolo."
+      },
+      {
+        "id": 22,
+        "question": "Che tipo di frenata recupera energia in un'auto elettrica ?",
+        "propositions": [
+          "Rigenerativo",
+          "Cinetica",
+          "Meccanica",
+          "Idraulica"
+        ],
+        "réponse": "Rigenerativo",
+        "anecdote": "La frenata rigenerativa converte parte dell'energia cinetica in energia elettrica, in questo caso ricaricando la batteria."
+      },
+      {
+        "id": 23,
+        "question": "Quale auto elettrica Chevrolet è stata prodotta in serie negli anni 2010 ?",
+        "propositions": [
+          "Malibù",
+          "Scintilla",
+          "Impala",
+          "Volt"
+        ],
+        "réponse": "Volt",
+        "anecdote": "La Chevrolet Volt, prodotta tra il 2011 e il 2015, è stata una delle prime auto elettriche tradizionali con autonomia estesa."
+      },
+      {
+        "id": 24,
+        "question": "Quale auto elettrica detiene il record più veloce da zero a cento km/h ?",
+        "propositions": [
+          "Lancio Tesla S",
+          "Chevrolet Bolt",
+          "BMW i3",
+          "Nissan Foglia"
+        ],
+        "réponse": "Lancio Tesla S",
+        "anecdote": "Dal lancio della Porsche Taycan nel 2019, Elon Musk ha spesso menzionato una nuova versione più potente della Model S."
+      },
+      {
+        "id": 25,
+        "question": "Quale auto elettrica è considerata la prima auto prodotta in serie ?",
+        "propositions": [
+          "ChevroletVolt",
+          "Toyota Prius",
+          "Nissan Leaf",
+          "BMW i3"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "La Leaf ha contribuito a rendere popolari le auto elettriche tradizionali, con 470."
+      },
+      {
+        "id": 26,
+        "question": "Quale auto è stata utilizzata come base per i taxi elettrici di New York ?",
+        "propositions": [
+          "Chevrolet Bolt",
+          "Nissan Leaf",
+          "Tesla Modello 3",
+          "Ford Mustang"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Una legge approvata nel 1967 richiedeva che tutti i taxi Medaglione, nome dato ai taxi omologati, avessero la carrozzeria gialla."
+      },
+      {
+        "id": 27,
+        "question": "Quale gara mette in risalto ogni anno le prestazioni delle auto elettriche ?",
+        "propositions": [
+          "Formula 1",
+          "Formula E",
+          "24 ore di Le Mans",
+          "Rally Dakar"
+        ],
+        "réponse": "Formula E",
+        "anecdote": "La Formula E è l'unica categoria di monoposto attualmente in competizione dotata di motore esclusivamente elettrico."
+      },
+      {
+        "id": 28,
+        "question": "Quale azienda ha prodotto in serie il primo autobus completamente elettrico ?",
+        "propositions": [
+          "Ford",
+          "Mercedes-Benz",
+          "BYD",
+          "Volvo"
+        ],
+        "réponse": "BYD",
+        "anecdote": "All'inizio del 2019, BYD deteneva una quota di mercato di quasi il 20% negli autobus elettrici a livello globale, con il suo BYD ebus."
+      },
+      {
+        "id": 29,
+        "question": "Quale auto elettrica è stata utilizzata come veicolo di servizio da Papa Francesco ?",
+        "propositions": [
+          "Nissan Foglia",
+          "Hyundai Kona",
+          "Tesla Modello 3",
+          "Renault Zoe"
+        ],
+        "réponse": "Renault Zoe",
+        "anecdote": "Ad alcuni è sembrato scioccante dare un nome umano a un'auto, soprattutto perché il nome Zoé è in voga."
+      },
+      {
+        "id": 30,
+        "question": "Quale modello è stato il primo a superare il milione di unità vendute nel mondo ?",
+        "propositions": [
+          "Toyota Prius",
+          "Nissan Leaf",
+          "BMW i3",
+          "Chevrolet Bolt"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Si tratta del secondo modello Nissan studiato per essere 100% elettrico, dopo la Hypermini prodotta tra il 1999 e il 2001."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wat was in 2022 de standaard aangekondigde actieradius van een elektrische auto ?",
+        "propositions": [
+          "100-200 km",
+          "500-600km",
+          "300-400 km",
+          "700-800km"
+        ],
+        "réponse": "300-400 km",
+        "anecdote": "De Tesla Model S Plaid+ streefde naar een actieradius van meer dan 800 km voordat deze in 2021 werd stopgezet vanwege een gebrek aan technologische vooruitgang."
+      },
+      {
+        "id": 2,
+        "question": "Welk onderdeel van een elektrische auto maakt het mogelijk energie op te slaan ?",
+        "propositions": [
+          "Dynamo",
+          "Radiateur",
+          "Voorgerecht",
+          "Batterij"
+        ],
+        "réponse": "Batterij",
+        "anecdote": "De batterij van de Porsche Taycan (het eerste elektrische model van Porsche) kan in slechts 22,5 minuten worden opgeladen van 5 tot 80%."
+      },
+      {
+        "id": 3,
+        "question": "Hoe laden elektrische auto's hun accu's op ?",
+        "propositions": [
+          "Benzine",
+          "Elektriciteit",
+          "Aardgas",
+          "Diesel"
+        ],
+        "réponse": "Elektriciteit",
+        "anecdote": "Sommige elektrische modellen kunnen via snelladen in 30 minuten tot meer dan 80% van hun capaciteit worden opgeladen."
+      },
+      {
+        "id": 4,
+        "question": "Hoe heet de kabel waarmee een elektrische auto wordt opgeladen ?",
+        "propositions": [
+          "Brandstofsnoer",
+          "Oplaadkabel",
+          "Accukabel",
+          "Elektrische kabel"
+        ],
+        "réponse": "Oplaadkabel",
+        "anecdote": "Sommige elektrische voertuigmodellen hebben een ingebouwde lader, waardoor er geen externe kabels nodig zijn."
+      },
+      {
+        "id": 5,
+        "question": "Welk bedrijf biedt een netwerk van Superchargers voor elektrische auto's aan ?",
+        "propositions": [
+          "Tesla",
+          "ExxonMobil",
+          "BP",
+          "Schil"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla Supercharger is een snellaadnetwerk (322 km in 15 minuten) op 480 volt gelijkstroom, ingezet sinds 2012."
+      },
+      {
+        "id": 6,
+        "question": "Welk cruciaal element beïnvloedt de actieradius van een elektrische auto ?",
+        "propositions": [
+          "Passagiers",
+          "Banden",
+          "Kleur",
+          "Temperatuur"
+        ],
+        "réponse": "Temperatuur",
+        "anecdote": "Extreme temperaturen kunnen de actieradius van een elektrische auto verkleinen door de chemie van de accu merkbaar te beïnvloeden."
+      },
+      {
+        "id": 7,
+        "question": "Hoe kwalificeer ik de laadtijd ten opzichte van een thermische auto ?",
+        "propositions": [
+          "Hetzelfde",
+          "Korter",
+          "Langer",
+          "Onbeduidend"
+        ],
+        "réponse": "Langer",
+        "anecdote": "De actieradius van een elektrisch voertuig is direct afhankelijk van de capaciteit van de accu en het soort rit (vlak, afwisselend, in de stad)."
+      },
+      {
+        "id": 8,
+        "question": "Waar wordt de batterij het vaakst geplaatst in een elektrisch voertuig ?",
+        "propositions": [
+          "In de kofferbak",
+          "Onder de auto",
+          "Op de vleugels",
+          "Aan de voorzijde"
+        ],
+        "réponse": "Onder de auto",
+        "anecdote": "De onder de auto geplaatste accu zorgt voor een vlakke vloer, de motor is compacter en de brandstoftank ontbreekt."
+      },
+      {
+        "id": 9,
+        "question": "Welke fabrikant was in 2022 de nummer één ter wereld op het gebied van elektrische auto's ?",
+        "propositions": [
+          "Volvo",
+          "BYD",
+          "Tesla",
+          "Honda"
+        ],
+        "réponse": "BYD",
+        "anecdote": "BYD Auto (Build Your Dreams) is van oorsprong een Chinese accufabrikant gevestigd in Shenzhen, Guangdong, China."
+      },
+      {
+        "id": 10,
+        "question": "Wat is de belangrijkste bron van de uitstoot van broeikasgassen door een elektrische auto ?",
+        "propositions": [
+          "Banden",
+          "Uitlaat",
+          "Remmen",
+          "Batterij"
+        ],
+        "réponse": "Batterij",
+        "anecdote": "Lithium-ionbatterijen zijn recyclebaar, zonder geheugeneffect, maar de grootschalige recycling ervan blijft in ontwikkeling."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk merk verkocht in 2021 de meeste elektrische auto's in China ?",
+        "propositions": [
+          "Tesla",
+          "Ford",
+          "Toyota",
+          "Nissan"
+        ],
+        "réponse": "Tesla",
+        "anecdote": "Tesla heeft in China een Gigafabriek (Tesla Giga Shanghai) gebouwd om aan de groeiende vraag naar elektrische auto's te voldoen."
+      },
+      {
+        "id": 12,
+        "question": "Welk land heeft de meeste openbare laadstations ?",
+        "propositions": [
+          "Duitsland",
+          "Verenigde Staten",
+          "Japan",
+          "China"
+        ],
+        "réponse": "China",
+        "anecdote": "China heeft een steeds groter wordende laadinfrastructuur met duizenden publiek toegankelijke stations."
+      },
+      {
+        "id": 13,
+        "question": "Hoe meet je de capaciteit van een accu van een elektrische auto ?",
+        "propositions": [
+          "Volt-ampère",
+          "Wattuur",
+          "Vierkante meter",
+          "Kilogram"
+        ],
+        "réponse": "Wattuur",
+        "anecdote": "Het kilowattuur wordt gebruikt voor elektrische energie, maar ook om brandstofgas te factureren en energiebeoordelingen te maken."
+      },
+      {
+        "id": 14,
+        "question": "Welk effect heeft koud weer op de actieradius van een elektrische auto ?",
+        "propositions": [
+          "Stabiliteit",
+          "Geen effect",
+          "Verhogen",
+          "Korting"
+        ],
+        "réponse": "Korting",
+        "anecdote": "Met de accu kan elektrische energie in chemische vorm worden opgeslagen en in gelijkstroom worden vrijgegeven."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel minder CO2 stoot een elektrische auto uit dan een benzineauto ?",
+        "propositions": [
+          "Ongeveer 10%",
+          "Ongeveer 75%",
+          "Ongeveer 25%",
+          "Ongeveer 50%"
+        ],
+        "réponse": "Ongeveer 75%",
+        "anecdote": "De reductie van de CO2-uitstoot van elektrische auto's moet worden verhoogd van 15 naar 25% in 2025 en van 30 naar 45% in 2030."
+      },
+      {
+        "id": 16,
+        "question": "Hoe worden accu's gekoeld tijdens het opladen en tijdens het rijden ?",
+        "propositions": [
+          "Lucht",
+          "Vloeistof",
+          "Stikstof",
+          "Waterstof"
+        ],
+        "réponse": "Vloeistof",
+        "anecdote": "Sommige modellen gebruiken vloeistofkoelsystemen om de batterijen op een optimale temperatuur te houden."
+      },
+      {
+        "id": 17,
+        "question": "Welk weersverschijnsel kan tijdelijk de laadsnelheid beïnvloeden ?",
+        "propositions": [
+          "Intense hitte",
+          "Gegroet",
+          "Sneeuw",
+          "Regen"
+        ],
+        "réponse": "Sneeuw",
+        "anecdote": "In 2020 waren er 1.300.000 openbare laadpunten, waarvan 807.000 in China, 286.000 in Europa en 99.000 in de Verenigde Staten."
+      },
+      {
+        "id": 18,
+        "question": "Welk element, verwijderd uit elektrische auto's, vermindert het geluid ?",
+        "propositions": [
+          "Dynamo",
+          "Transmissie",
+          "Ventilatie",
+          "Batterij"
+        ],
+        "réponse": "Transmissie",
+        "anecdote": "Het onderhoud van elektrische voertuigen vereist minder arbeid, met minder complexe mechanica en minder onderdelen."
+      },
+      {
+        "id": 19,
+        "question": "Welk marktaandeel hebben elektrische auto's wereldwijd bereikt in 2021 ?",
+        "propositions": [
+          "36%",
+          "26%",
+          "16%",
+          "6%"
+        ],
+        "réponse": "6%",
+        "anecdote": "De hoogste marktaandelen in 2022 zijn te vinden in Noorwegen (79%), Zweden (33%), Nederland (23%) en Duitsland (18%)."
+      },
+      {
+        "id": 20,
+        "question": "Welk automodel werd de eerste hybride auto op de markt ?",
+        "propositions": [
+          "Toyota Prius",
+          "Renault Zoë",
+          "Teslamodel 3",
+          "Nissan Leaf"
+        ],
+        "réponse": "Toyota Prius",
+        "anecdote": "De naam Toyota Prius omvat automodellen met hybride motoren, dubbele thermische en elektrische motoren."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Waarmee moet een elektrische auto wettelijk uitgerust zijn in relatie tot voetgangers ?",
+        "propositions": [
+          "Lawaaimaker",
+          "Zonnescherm",
+          "Vuurtorens",
+          "Versnellingsbak"
+        ],
+        "réponse": "Lawaaimaker",
+        "anecdote": "In Europa zijn elektrische auto's verplicht een geluidssignaal uit te zenden om voetgangers te waarschuwen voor mogelijk gevaar."
+      },
+      {
+        "id": 22,
+        "question": "Bij welk type remmen wordt energie teruggewonnen in een elektrische auto ?",
+        "propositions": [
+          "Mechanica",
+          "Kinetiek",
+          "Hydrauliek",
+          "Regeneratief"
+        ],
+        "réponse": "Regeneratief",
+        "anecdote": "Regeneratief remmen zet een deel van de kinetische energie om in elektriciteit, waarbij in dit geval de accu wordt opgeladen."
+      },
+      {
+        "id": 23,
+        "question": "Welke elektrische auto van Chevrolet werd in de jaren 2010 in serie geproduceerd ?",
+        "propositions": [
+          "Vonk",
+          "Volt",
+          "Impala",
+          "Malibu"
+        ],
+        "réponse": "Volt",
+        "anecdote": "De Chevrolet Volt, geproduceerd tussen 2011 en 2015, was een van de eerste reguliere elektrische auto's met een grotere actieradius."
+      },
+      {
+        "id": 24,
+        "question": "Welke elektrische auto heeft het snelste record van nul tot honderd kilometer per uur ?",
+        "propositions": [
+          "BMW i3",
+          "Nissan Leaf",
+          "Chevrolet-bout",
+          "Tesla S Gooi"
+        ],
+        "réponse": "Tesla S Gooi",
+        "anecdote": "Sinds de lancering van de Porsche Taycan in 2019 heeft Elon Musk vaak gesproken over een nieuwe, krachtigere versie van de Model S."
+      },
+      {
+        "id": 25,
+        "question": "Welke elektrische auto wordt beschouwd als de eerste in massa geproduceerde auto ?",
+        "propositions": [
+          "Nissan Leaf",
+          "Toyota Prius",
+          "Chevrolet Volt",
+          "BMW i3"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "De Leaf hielp bij het populair maken van reguliere elektrische auto's, met 470."
+      },
+      {
+        "id": 26,
+        "question": "Welke auto werd gebruikt als basis voor de elektrische taxi's in New York ?",
+        "propositions": [
+          "Ford Mustang",
+          "Nissan Leaf",
+          "Chevrolet-bout",
+          "Teslamodel 3"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Een in 1967 aangenomen wet vereiste dat alle Medallion-taxi's, de naam die aan goedgekeurde taxi's wordt gegeven, een gele carrosserie moesten hebben."
+      },
+      {
+        "id": 27,
+        "question": "Welke race belicht elk jaar de prestaties van elektrische auto's ?",
+        "propositions": [
+          "Dakar-rally",
+          "24 uur van Le Mans",
+          "Formule E",
+          "Formule 1"
+        ],
+        "réponse": "Formule E",
+        "anecdote": "De Formule E is de enige eenzittercategorie die momenteel in competitie is en uitgerust is met een uitsluitend elektrische motor."
+      },
+      {
+        "id": 28,
+        "question": "Welk bedrijf produceerde de eerste volledig elektrische bus in massa ?",
+        "propositions": [
+          "BYD",
+          "Volv",
+          "Ford",
+          "Mercedes-Benz"
+        ],
+        "réponse": "BYD",
+        "anecdote": "Begin 2019 had BYD met zijn BYD ebus wereldwijd een marktaandeel van bijna 20% in elektrische bussen."
+      },
+      {
+        "id": 29,
+        "question": "Welke elektrische auto werd door paus Franciscus als dienstvoertuig gebruikt ?",
+        "propositions": [
+          "Hyundai Kona",
+          "Teslamodel 3",
+          "Nissan Leaf",
+          "Renault Zoë"
+        ],
+        "réponse": "Renault Zoë",
+        "anecdote": "Sommigen vonden het schokkend om een menselijke naam aan een auto te geven, vooral omdat de naam Zoé in de mode is."
+      },
+      {
+        "id": 30,
+        "question": "Welk model was het eerste waarvan wereldwijd meer dan een miljoen exemplaren werden verkocht ?",
+        "propositions": [
+          "Toyota Prius",
+          "BMW i3",
+          "Chevrolet Bolt",
+          "Nissan Leaf"
+        ],
+        "réponse": "Nissan Leaf",
+        "anecdote": "Dit is het tweede Nissan-model dat 100% elektrisch is onderzocht, na de Hypermini die tussen 1999 en 2001 werd geproduceerd."
+      }
+    ]
+    }
+  }
+}

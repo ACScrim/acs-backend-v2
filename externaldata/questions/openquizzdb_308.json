@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2024-09-21",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Géographie",
+      "nom": "Géo du globe",
+      "slogan": "Une écriture de la terre"
+    },
+    "en": {
+      "catégorie": "Geography",
+      "nom": "Geo of the globe",
+      "slogan": "A writing from the earth"
+    },
+    "es": {
+      "catégorie": "Geografía",
+      "nom": "Geo del globo",
+      "slogan": "Una escritura desde la tierra"
+    },
+    "it": {
+      "catégorie": "Geografia",
+      "nom": "Geo del globo",
+      "slogan": "Una scrittura dalla terra"
+    },
+    "de": {
+      "catégorie": "Erdkunde",
+      "nom": "Geo des Globus",
+      "slogan": "Eine Schrift aus der Erde"
+    },
+    "nl": {
+      "catégorie": "Aardrijkskunde",
+      "nom": "Geo van de wereld",
+      "slogan": "Een schrift uit de aarde"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel pont de Florence est aussi une rue piétonne et une galerie marchande ?",
+        "propositions": [
+          "San Niccolo",
+          "Vittoria",
+          "Ponte Vecchio",
+          "Santa Trinita"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "Haut lieu de la joaillerie et de l'orfèvrerie de luxe de la ville et de l'Italie, il traverse le fleuve Arno à son point le plus étroit."
+      },
+      {
+        "id": 2,
+        "question": "Quelle mer les Grecs connaissent-ils sous le nom de Pont Euxin ?",
+        "propositions": [
+          "Mer Adriatique",
+          "Mer Noire",
+          "Mer Ionienne",
+          "Mer Égée"
+        ],
+        "réponse": "Mer Noire",
+        "anecdote": "L'adjectif correspondant à la mer Noire est pontique, qui vient du nom antique de cette mer, le Pont Euxin."
+      },
+      {
+        "id": 3,
+        "question": "Quel est le pourcentage d'occupation des mers sur la surface du globe ?",
+        "propositions": [
+          "50 %",
+          "80 %",
+          "60 %",
+          "70 %"
+        ],
+        "réponse": "70 %",
+        "anecdote": "Sur Terre, l'océan Mondial est communément divisé en cinq océans : Pacifique, Atlantique, Arctique, Austral et Indien."
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la nationalité de la presqu'île du Yucatan, dont la capitale est Mérida ?",
+        "propositions": [
+          "Bolivienne",
+          "Colombienne",
+          "Mexicaine",
+          "Cubaine"
+        ],
+        "réponse": "Mexicaine",
+        "anecdote": "Le Yucatan s'étend sur 38 402 km2 et est bordé par les États de Campeche au sud-ouest et de Quintana Roo à l'est."
+      },
+      {
+        "id": 5,
+        "question": "Quel est, avec ses 7 025 kilomètres, le plus long fleuve au monde ?",
+        "propositions": [
+          "Saint-Laurent",
+          "Amazone",
+          "Danube",
+          "Colorado"
+        ],
+        "réponse": "Amazone",
+        "anecdote": "Le fleuve prend sa source dans les Andes, traverse le Pérou, la Colombie et le Brésil, et se jette ensuite dans l'océan Atlantique."
+      },
+      {
+        "id": 6,
+        "question": "Quelle ville portugaise située au bord du Douro a donné son nom à un vin apéritif ?",
+        "propositions": [
+          "Douro",
+          "Porto",
+          "Dao",
+          "Madère"
+        ],
+        "réponse": "Porto",
+        "anecdote": "Le porto est un vin muté portugais, produit uniquement dans la région du Haut Douro, à 100 km en amont de la ville de Porto."
+      },
+      {
+        "id": 7,
+        "question": "Quel viaduc conçu par Norman Foster surplombe la vallée du Tarn ?",
+        "propositions": [
+          "Viaduc du Viaur",
+          "Viaduc de Gien",
+          "Viaduc de Ventabren",
+          "Viaduc de Millau"
+        ],
+        "réponse": "Viaduc de Millau",
+        "anecdote": "Maillon de l'autoroute A75 reliant Clermont-Ferrand à Béziers, ce projet a nécessité 13 ans d'études techniques et financières."
+      },
+      {
+        "id": 8,
+        "question": "Dans quel département français se trouvent les villes de Quimper, Brest et Morlaix ?",
+        "propositions": [
+          "Finistère",
+          "Morbihan",
+          "Charente",
+          "Aveyron"
+        ],
+        "réponse": "Finistère",
+        "anecdote": "Le Finistère, situé à l'extrémité ouest de la Bretagne, est bordé par la Manche, la Mer Celtique et l'océan Atlantique."
+      },
+      {
+        "id": 9,
+        "question": "En géographie, quel cours d'eau, grossi par ses affluents, va se jeter dans la mer ?",
+        "propositions": [
+          "Rivière",
+          "Torrent",
+          "Fleuve",
+          "Ruisseau"
+        ],
+        "réponse": "Fleuve",
+        "anecdote": "Les trois plus longs fleuves au monde sont le Nil avec 6 718 km, l'Amazone avec 6 500 km et le Yangtsé avec 6 300 km."
+      },
+      {
+        "id": 10,
+        "question": "Sur quelle île se trouvait le colosse de la série des sept merveilles du monde ?",
+        "propositions": [
+          "Mykonos",
+          "Lipsi",
+          "Rhodes",
+          "Kassos"
+        ],
+        "réponse": "Rhodes",
+        "anecdote": "Le colosse de Rhodes était une statue d'Hélios, le dieu Soleil, de trente mètres de haut en bronze, oeuvre de Charès de Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Face aux côtes de quel pays se déploie dans l'Océan Indien l'archipel de Zanzibar ?",
+        "propositions": [
+          "Malawi",
+          "Botswana",
+          "Cameroun",
+          "Tanzanie"
+        ],
+        "réponse": "Tanzanie",
+        "anecdote": "Le nom de Zanzibar a été donné au Moyen Âge par les navigateurs perses qui désignaient comme Zangibar la terre des noirs."
+      },
+      {
+        "id": 12,
+        "question": "À l'est de quel État américain se dresse le massif de la Sierra Nevada ?",
+        "propositions": [
+          "Géorgie",
+          "Californie",
+          "Floride",
+          "Colorado"
+        ],
+        "réponse": "Californie",
+        "anecdote": "La chaîne offre plusieurs parcs naturels dont le Yosemite, renommé pour ses forêts, ses cascades et ses falaises granitiques."
+      },
+      {
+        "id": 13,
+        "question": "Sur quelle île se rendent les vedettes en partance de la pointe de l'Arcouest ?",
+        "propositions": [
+          "Ouessant",
+          "Île de Bréhat",
+          "Île de Ré",
+          "Groix"
+        ],
+        "réponse": "Île de Bréhat",
+        "anecdote": "L'île possède une seule véritable plage, celle du Guerzido, en arc de cercle, tapissée de sable rose et entourée de rochers granitiques."
+      },
+      {
+        "id": 14,
+        "question": "Quel est le plus grand département français en terme de superficie ?",
+        "propositions": [
+          "Martinique",
+          "Guadeloupe",
+          "La Réunion",
+          "Guyane"
+        ],
+        "réponse": "Guyane",
+        "anecdote": "C'est le seul territoire continental de France en Amérique du Sud et le dernier territoire français en Amérique continentale."
+      },
+      {
+        "id": 15,
+        "question": "Quel est le troisième pays qui, avec la Corée et le Japon, donne sur la mer du Japon ?",
+        "propositions": [
+          "Australie",
+          "Inde",
+          "Pakistan",
+          "Russie"
+        ],
+        "réponse": "Russie",
+        "anecdote": "Au cours des siècles, cette mer s'est appelée mer de l'Est, mer de Corée, mer du Japon ou encore mer Orientale."
+      },
+      {
+        "id": 16,
+        "question": "Quel volcan culminant à 3 330 mètres d'altitude est le plus grand d'Europe ?",
+        "propositions": [
+          "Krakatoa",
+          "Popocatepetl",
+          "Stromboli",
+          "Etna"
+        ],
+        "réponse": "Etna",
+        "anecdote": "Il est le plus haut volcan actif d'Europe et l'un des plus actifs du monde avec presque cent éruptions au cours du XXe siècle."
+      },
+      {
+        "id": 17,
+        "question": "Quelle région autonome d'Italie est aussi la plus grande île de la Méditerranée ?",
+        "propositions": [
+          "Sicile",
+          "Sardaigne",
+          "Lombardie",
+          "Toscane"
+        ],
+        "réponse": "Sicile",
+        "anecdote": "La Sicile est également la seule région italienne à compter deux des dix villes les plus peuplées du pays : Palerme et Catane."
+      },
+      {
+        "id": 18,
+        "question": "Avec lequel de ces pays la république islamique d'Iran n'a-t-elle pas de frontière ?",
+        "propositions": [
+          "Afghanistan",
+          "Irak",
+          "Turquie",
+          "Syrie"
+        ],
+        "réponse": "Syrie",
+        "anecdote": "L'Iran est un pays fortement diversifié tant sur le plan des grands ensembles naturels que de sa population et sa culture."
+      },
+      {
+        "id": 19,
+        "question": "Sur quel continent coule le fleuve Amour, qui se jette dans le détroit de Tatarie ?",
+        "propositions": [
+          "Afrique",
+          "Asie",
+          "Europe",
+          "Océanie"
+        ],
+        "réponse": "Asie",
+        "anecdote": "Long de 4 354 kilomètres, une grande partie du cours du fleuve Amour marque la frontière entre l'extrême-orient russe et la Chine."
+      },
+      {
+        "id": 20,
+        "question": "Quel fleuve né au Tibet forme un immense delta avant de se jeter dans la mer de Chine ?",
+        "propositions": [
+          "Euphrate",
+          "Tigre",
+          "Gange",
+          "Mékong"
+        ],
+        "réponse": "Mékong",
+        "anecdote": "Le fleuve est utilisé pour l'irrigation, comme réceptacle de systèmes de drainage et d'eaux usées, pour la pêche et la pisciculture."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle capitale de l'Irlande du Nord possède officiellement le statut de cité ?",
+        "propositions": [
+          "Bangor",
+          "Belfast",
+          "Derry",
+          "Larne"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast a été un centre important dans l'industrialisation du lin, du tabac et des chantiers navals, avec la construction du Titanic."
+      },
+      {
+        "id": 22,
+        "question": "Quelle rivière longue de 51 kilomètres relie le Lac Sainte-Claire au Lac Érié ?",
+        "propositions": [
+          "Bonnet Plume",
+          "Kazan",
+          "Détroit",
+          "Mattawa"
+        ],
+        "réponse": "Détroit",
+        "anecdote": "Aujourd'hui au patrimoine canadien, la rivière Détroit fournit l'eau potable pour plus de cinq millions de personnes."
+      },
+      {
+        "id": 23,
+        "question": "Dans quelle région du Portugal peut-on atterrir à l'aéroport international de Faro ?",
+        "propositions": [
+          "Algarve",
+          "Açores",
+          "Alentejo",
+          "Madère"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "Le trafic 2007 a atteint 5,5 millions de passagers, classant Faro au second rang des aéroports portugais après Lisbonne-H. Delgado."
+      },
+      {
+        "id": 24,
+        "question": "Dans quel pays se trouvent les déserts Victoria, Simson et Gibson ?",
+        "propositions": [
+          "Chine",
+          "Russie",
+          "Malaisie",
+          "Australie"
+        ],
+        "réponse": "Australie",
+        "anecdote": "Le grand désert Victoria fut traversé pour la première fois en 1875 par l'explorateur britannique Ernest Giles."
+      },
+      {
+        "id": 25,
+        "question": "Quelle vague déferlante est capable de remonter l'estuaire d'un fleuve ?",
+        "propositions": [
+          "Atoll",
+          "Mascaret",
+          "Tsunami",
+          "Tourbillon"
+        ],
+        "réponse": "Mascaret",
+        "anecdote": "Ce phénomène de brusque surélévation de l'eau est provoqué par l'onde de la marée montante lors des grandes marées."
+      },
+      {
+        "id": 26,
+        "question": "Quelles sont les plus célèbres îles appartenant à la République d'Équateur ?",
+        "propositions": [
+          "Mariannes",
+          "Kouriles",
+          "Galapagos",
+          "San Juan"
+        ],
+        "réponse": "Galapagos",
+        "anecdote": "L'archipel des îles Galapagos se compose d'une quarantaine d'îles volcaniques formant une province de l'Équateur depuis 1832."
+      },
+      {
+        "id": 27,
+        "question": "À l'embouchure de quel fleuve est bâtie la ville portugaise de Lisbonne ?",
+        "propositions": [
+          "Douro",
+          "Tage",
+          "Guadalquivir",
+          "Èbre"
+        ],
+        "réponse": "Tage",
+        "anecdote": "Lisbonne est située entre la côte de l'océan Atlantique à l'ouest et la mer de paille à l'est, dans laquelle se jette le Tage."
+      },
+      {
+        "id": 28,
+        "question": "Quelle est la ville de plus d'un million d'habitants la plus septentrionale au monde ?",
+        "propositions": [
+          "Saint-Petersbourg",
+          "Mourmansk",
+          "Kiev",
+          "Minsk"
+        ],
+        "réponse": "Saint-Petersbourg",
+        "anecdote": "Saint-Petersbourg est située dans le nord-ouest du pays sur le delta de la Neva, au fond du golfe de Finlande, dans la mer Baltique."
+      },
+      {
+        "id": 29,
+        "question": "Dans quelle région d'Espagne se trouve Saint-Jacques-de-Compostelle ?",
+        "propositions": [
+          "Andalousie",
+          "Galice",
+          "Catalogne",
+          "Asturies"
+        ],
+        "réponse": "Galice",
+        "anecdote": "Le pèlerinage sur le tombeau supposé de Jacques, fils de Zébédée, était un des plus importants de la Chrétienté au Moyen Âge."
+      },
+      {
+        "id": 30,
+        "question": "Sur quelle île peut-on aller bronzer sur les plages de Saint-Florent ?",
+        "propositions": [
+          "Mayotte",
+          "Martinique",
+          "La Réunion",
+          "Corse"
+        ],
+        "réponse": "Corse",
+        "anecdote": "Capitale de l'ancienne province de Nebbio, l'ancienne cité génoise est bâtie au fond du golfe de Saint-Florent."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which bridge in Florence is also a pedestrian street and a shopping arcade ?",
+        "propositions": [
+          "santa trinita",
+          "Victoria",
+          "Ponte Vecchio",
+          "San Niccolo"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "A mecca for luxury jewelry and goldsmithing in the city and in Italy, it crosses the Arno River at its narrowest point."
+      },
+      {
+        "id": 2,
+        "question": "What sea do the Greeks know as Pont Euxin ?",
+        "propositions": [
+          "Black Sea",
+          "Ionian Sea",
+          "Adriatic Sea",
+          "Aegean Sea"
+        ],
+        "réponse": "Black Sea",
+        "anecdote": "The adjective corresponding to the Black Sea is Pontic, which comes from the ancient name of this sea, Pont Euxin."
+      },
+      {
+        "id": 3,
+        "question": "What is the percentage of occupation of the seas on the surface of the globe ?",
+        "propositions": [
+          "60%",
+          "70%",
+          "80%",
+          "50%"
+        ],
+        "réponse": "70%",
+        "anecdote": "On Earth, the World Ocean is commonly divided into five oceans : Pacific, Atlantic, Arctic, Southern, and Indian."
+      },
+      {
+        "id": 4,
+        "question": "What is the nationality of the Yucatan peninsula, whose capital is Mérida ?",
+        "propositions": [
+          "Mexican",
+          "Colombian",
+          "Cuban",
+          "Bolivian"
+        ],
+        "réponse": "Mexican",
+        "anecdote": "The Yucatan covers 38,402 km2 and is bordered by the states of Campeche to the southwest and Quintana Roo to the east."
+      },
+      {
+        "id": 5,
+        "question": "What is, at 7,025 kilometres, the longest river in the world ?",
+        "propositions": [
+          "colorado",
+          "St. Lawrence",
+          "danube",
+          "Amazon"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "The river originates in the Andes, crosses Peru, Colombia and Brazil, and then empties into the Atlantic Ocean."
+      },
+      {
+        "id": 6,
+        "question": "Which Portuguese town on the banks of the Douro gave its name to an aperitif wine ?",
+        "propositions": [
+          "Oporto",
+          "Douro",
+          "dao",
+          "Madeira"
+        ],
+        "réponse": "Oporto",
+        "anecdote": "Port is a Portuguese fortified wine, produced only in the Upper Douro region, 100 km upstream from the city of Porto."
+      },
+      {
+        "id": 7,
+        "question": "Which viaduct designed by Norman Foster overlooks the Tarn valley ?",
+        "propositions": [
+          "Ventabren Viaduct",
+          "Gien Viaduct",
+          "Viaur Viaduct",
+          "Millau Viaduct"
+        ],
+        "réponse": "Millau Viaduct",
+        "anecdote": "A link in the A75 motorway linking Clermont-Ferrand to Béziers, this project required 13 years of technical and financial studies."
+      },
+      {
+        "id": 8,
+        "question": "In which French department are the cities of Quimper, Brest and Morlaix located ?",
+        "propositions": [
+          "Finistere",
+          "Charente",
+          "Morbihan",
+          "Aveyron"
+        ],
+        "réponse": "Finistere",
+        "anecdote": "Finistère, located at the western end of Brittany, is bordered by the English Channel, the Celtic Sea and the Atlantic Ocean."
+      },
+      {
+        "id": 9,
+        "question": "In geography, what stream, swollen by its tributaries, will flow into the sea ?",
+        "propositions": [
+          "Torrent",
+          "River",
+          "Stream",
+          "river"
+        ],
+        "réponse": "river",
+        "anecdote": "The three longest rivers in the world are the Nile with 6,718 km, the Amazon with 6,500 km and the Yangtze with 6,300 km."
+      },
+      {
+        "id": 10,
+        "question": "On which island was the colossus belonging to the series of the seven wonders of the world ?",
+        "propositions": [
+          "Lipsi",
+          "Kasos",
+          "Mykonos",
+          "Rhodos"
+        ],
+        "réponse": "Rhodos",
+        "anecdote": "The Colossus of Rhodes was a bronze statue of Helios, the Sun God, thirty meters high, the work of Chares of Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Facing the coasts of which country in the Indian Ocean is the archipelago of Zanzibar ?",
+        "propositions": [
+          "Botswana",
+          "Malawi",
+          "Tanzania",
+          "Cameroon"
+        ],
+        "réponse": "Tanzania",
+        "anecdote": "The name Zanzibar was given in the Middle Ages by Persian navigators who designated Zangibar as the land of the blacks."
+      },
+      {
+        "id": 12,
+        "question": "To the east of which U.S. state is the Sierra Nevada Mountains ?",
+        "propositions": [
+          "Florida",
+          "colorado",
+          "California",
+          "Georgia"
+        ],
+        "réponse": "California",
+        "anecdote": "The chain offers several natural parks including Yosemite, renowned for its forests, waterfalls and granite cliffs."
+      },
+      {
+        "id": 13,
+        "question": "On which island do the speedboats go from the tip of Arcouest ?",
+        "propositions": [
+          "Island of Brehat",
+          "groix",
+          "Island of Re",
+          "Ushant"
+        ],
+        "réponse": "Island of Brehat",
+        "anecdote": "The island has only one real beach, that of Guerzido, in an arc, covered with pink sand and surrounded by granite rocks."
+      },
+      {
+        "id": 14,
+        "question": "What is the largest French department in terms of area ?",
+        "propositions": [
+          "Martinique",
+          "Guyana",
+          "Guadeloupe",
+          "Reunion"
+        ],
+        "réponse": "Guyana",
+        "anecdote": "It is the only continental territory of France in South America and the last French territory in continental America."
+      },
+      {
+        "id": 15,
+        "question": "What is the third country that, along with Korea and Japan, faces the Sea of Japan ?",
+        "propositions": [
+          "Russia",
+          "Australia",
+          "pakistan",
+          "India"
+        ],
+        "réponse": "Russia",
+        "anecdote": "Over the centuries, this sea has been called the East Sea, the Sea of Korea, the Sea of Japan or the Eastern Sea."
+      },
+      {
+        "id": 16,
+        "question": "Which volcano culminating at 3,330 meters above sea level is the largest in Europe ?",
+        "propositions": [
+          "Popocatepetl",
+          "Etna",
+          "krakatoa",
+          "Stromboli"
+        ],
+        "réponse": "Etna",
+        "anecdote": "It is the highest active volcano in Europe and one of the most active in the world with almost a hundred eruptions during the 20th century."
+      },
+      {
+        "id": 17,
+        "question": "Which autonomous region of Italy is also the largest island in the Mediterranean ?",
+        "propositions": [
+          "Lombardy",
+          "Sardinia",
+          "Sicily",
+          "Tuscany"
+        ],
+        "réponse": "Sicily",
+        "anecdote": "Sicily is also the only Italian region to have two of the ten most populous cities in the country : Palermo and Catania."
+      },
+      {
+        "id": 18,
+        "question": "Which of these countries does the Islamic Republic of Iran have no border with ?",
+        "propositions": [
+          "Turkey",
+          "Syria",
+          "Afghanistan",
+          "Iraq"
+        ],
+        "réponse": "Syria",
+        "anecdote": "Iran is a highly diversified country both in terms of large natural areas and its population and culture."
+      },
+      {
+        "id": 19,
+        "question": "On which continent flows the Amur River, which flows into the Tatar Strait ?",
+        "propositions": [
+          "Africa",
+          "Europa",
+          "Oceania",
+          "Asia"
+        ],
+        "réponse": "Asia",
+        "anecdote": "4,354 kilometers long, a large part of the course of the Amur River marks the border between the Russian Far East and China."
+      },
+      {
+        "id": 20,
+        "question": "Which river born in Tibet forms an immense delta before flowing into the China Sea ?",
+        "propositions": [
+          "Mekong",
+          "Euphrates",
+          "Ganges",
+          "tiger"
+        ],
+        "réponse": "Mekong",
+        "anecdote": "The river is used for irrigation, as a receptacle for drainage and waste water systems, for fishing and fish farming."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which capital of Northern Ireland officially has city status ?",
+        "propositions": [
+          "Belfast",
+          "Larn",
+          "derry",
+          "bangor"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast was an important center in the industrialization of flax, tobacco and shipyards, with the construction of the Titanic."
+      },
+      {
+        "id": 22,
+        "question": "Which 51 kilometer long river connects Lake St. Clair to Lake Erie ?",
+        "propositions": [
+          "Detroit",
+          "kazan",
+          "Matawa",
+          "Feather Beanie"
+        ],
+        "réponse": "Detroit",
+        "anecdote": "Now a Canadian Heritage Site, the Detroit River provides drinking water for more than five million people."
+      },
+      {
+        "id": 23,
+        "question": "In which region of Portugal can I land at Faro International Airport ?",
+        "propositions": [
+          "Alentejo",
+          "Madeira",
+          "Algarve",
+          "Azores"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "Traffic in 2007 reached 5.5 million passengers, ranking Faro as the second portuguese airport after Lisbon-H. Delgado."
+      },
+      {
+        "id": 24,
+        "question": "In which country are the Victoria, Simson and Gibson deserts located ?",
+        "propositions": [
+          "Russia",
+          "Australia",
+          "China",
+          "Malaysia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "The Great Victoria Desert was first traversed in 1875 by British explorer Ernest Giles."
+      },
+      {
+        "id": 25,
+        "question": "What breaking wave is able to travel up the estuary of a river ?",
+        "propositions": [
+          "Tourbillon",
+          "Atoll",
+          "tsunami",
+          "tidal wave"
+        ],
+        "réponse": "tidal wave",
+        "anecdote": "This phenomenon of sudden elevation of the water is caused by the wave of the rising tide during high tides."
+      },
+      {
+        "id": 26,
+        "question": "What are the most famous islands belonging to the Republic of Ecuador ?",
+        "propositions": [
+          "Kurils",
+          "Galapagos",
+          "Marianas",
+          "San Juan"
+        ],
+        "réponse": "Galapagos",
+        "anecdote": "The Galapagos Islands archipelago consists of about forty volcanic islands forming a province of Ecuador since 1832."
+      },
+      {
+        "id": 27,
+        "question": "At the mouth of which river is the Portuguese city of Lisbon built ?",
+        "propositions": [
+          "Guadalquivir",
+          "Douro",
+          "river ebro",
+          "Tagus"
+        ],
+        "réponse": "Tagus",
+        "anecdote": "Lisbon is located between the coast of the Atlantic Ocean to the west and the sea of \u200b\u200bstraw to the east, into which the Tagus flows."
+      },
+      {
+        "id": 28,
+        "question": "What is the northernmost city of more than a million people in the world ?",
+        "propositions": [
+          "Minsk",
+          "Kyiv",
+          "Murmansk",
+          "Saint-Petersburg"
+        ],
+        "réponse": "Saint-Petersburg",
+        "anecdote": "Saint Petersburg is located in the northwest of the country on the Neva delta, at the bottom of the Gulf of Finland, in the Baltic Sea."
+      },
+      {
+        "id": 29,
+        "question": "In which region of Spain is Santiago de Compostela located ?",
+        "propositions": [
+          "Asturias",
+          "Andalusia",
+          "Catalonia",
+          "Galicia"
+        ],
+        "réponse": "Galicia",
+        "anecdote": "The pilgrimage to the supposed tomb of James, son of Zebedee, was one of the most important of Christianity in the Middle Ages."
+      },
+      {
+        "id": 30,
+        "question": "On which island can you go sunbathing on the beaches of Saint-Florent ?",
+        "propositions": [
+          "Corsica",
+          "Reunion",
+          "Mayotte",
+          "Martinique"
+        ],
+        "réponse": "Corsica",
+        "anecdote": "Capital of the former province of Nebbio, the ancient Genoese city is built at the bottom of the Gulf of Saint-Florent."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Brücke in Florenz ist gleichzeitig eine Fußgängerzone und eine Einkaufspassage ?",
+        "propositions": [
+          "Viktoria",
+          "San Niccolò",
+          "Ponte Vecchio",
+          "Heilige Dreifaltigkeit"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "Als Mekka für Luxusschmuck und Goldschmiedekunst in der Stadt und in Italien überquert sie den Fluss Arno an seiner schmalsten Stelle."
+      },
+      {
+        "id": 2,
+        "question": "Welches Meer kennen die Griechen als Pont Euxin ?",
+        "propositions": [
+          "Adriatisches Meer",
+          "Schwarzes Meer",
+          "Ionisches Meer",
+          "Ägäis"
+        ],
+        "réponse": "Schwarzes Meer",
+        "anecdote": "Das Adjektiv, das dem Schwarzen Meer entspricht, ist pontisch, was von dem alten Namen dieses Meeres, Pont Euxin, stammt."
+      },
+      {
+        "id": 3,
+        "question": "Wie hoch ist der Prozentsatz der Besetzung der Meere auf der Erdoberfläche ?",
+        "propositions": [
+          "70 %",
+          "50 %",
+          "80 %",
+          "60 %"
+        ],
+        "réponse": "70 %",
+        "anecdote": "Auf der Erde wird der Weltozean üblicherweise in fünf Ozeane unterteilt : Pazifik, Atlantik, Arktis, Süd und Indisch."
+      },
+      {
+        "id": 4,
+        "question": "Welche Nationalität hat die Halbinsel Yucatan, deren Hauptstadt Mérida ist ?",
+        "propositions": [
+          "Mexikanisch",
+          "kubanisch",
+          "kolumbianisch",
+          "bolivianisch"
+        ],
+        "réponse": "Mexikanisch",
+        "anecdote": "Yucatan umfasst 38."
+      },
+      {
+        "id": 5,
+        "question": "Was ist mit 7.025 Kilometern der längste Fluss der Welt ?",
+        "propositions": [
+          "St. Laurentius",
+          "donau",
+          "Colorado",
+          "Amazonas"
+        ],
+        "réponse": "Amazonas",
+        "anecdote": "Der Fluss entspringt in den Anden, durchquert Peru, Kolumbien und Brasilien und mündet dann in den Atlantischen Ozean."
+      },
+      {
+        "id": 6,
+        "question": "Welche portugiesische Stadt am Ufer des Douro gab einem Aperitifwein seinen Namen ?",
+        "propositions": [
+          "dao",
+          "Porto",
+          "Madeira",
+          "Douro"
+        ],
+        "réponse": "Porto",
+        "anecdote": "Portwein ist ein portugiesischer Likörwein, der nur in der Region Upper Douro, 100 km stromaufwärts von der Stadt Porto, hergestellt wird."
+      },
+      {
+        "id": 7,
+        "question": "Welcher von Norman Foster entworfene Viadukt überblickt das Tarn-Tal ?",
+        "propositions": [
+          "Gien-Viadukt",
+          "Viadukt von Millau",
+          "Ventabren-Viadukt",
+          "Viaur-Viadukt"
+        ],
+        "réponse": "Viadukt von Millau",
+        "anecdote": "Dieses Projekt, eine Verbindung der Autobahn A75, die Clermont-Ferrand mit Béziers verbindet, erforderte 13 Jahre technischer und finanzieller Studien."
+      },
+      {
+        "id": 8,
+        "question": "In welchem französischen Departement liegen die Städte Quimper, Brest und Morlaix ?",
+        "propositions": [
+          "Finistère",
+          "Aveyron",
+          "Morbihan",
+          "Charente"
+        ],
+        "réponse": "Finistère",
+        "anecdote": "Finistère, am westlichen Ende der Bretagne gelegen, wird vom Ärmelkanal, der Keltischen See und dem Atlantischen Ozean begrenzt."
+      },
+      {
+        "id": 9,
+        "question": "In der Geographie, welcher Strom, der von seinen Nebenflüssen angeschwollen ist, wird ins Meer fließen ?",
+        "propositions": [
+          "Fluss",
+          "Fluss",
+          "Strom",
+          "Streamen"
+        ],
+        "réponse": "Fluss",
+        "anecdote": "Die drei längsten Flüsse der Welt sind der Nil mit 6."
+      },
+      {
+        "id": 10,
+        "question": "Auf welcher Insel befand sich der Koloss aus der Reihe der sieben Weltwunder ?",
+        "propositions": [
+          "Rhodos",
+          "Mykonos",
+          "Kasos",
+          "Lipsi"
+        ],
+        "réponse": "Rhodos",
+        "anecdote": "Der Koloss von Rhodos war eine dreißig Meter hohe Bronzestatue von Helios, dem Sonnengott, das Werk von Chares von Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Vor der Küste welchen Landes im Indischen Ozean liegt die Inselgruppe Sansibar ?",
+        "propositions": [
+          "Kamerun",
+          "Malawi",
+          "Tansania",
+          "Botsuana"
+        ],
+        "réponse": "Tansania",
+        "anecdote": "Der Name Sansibar wurde im Mittelalter von persischen Seefahrern vergeben, die Sangibar als das Land der Schwarzen bezeichneten."
+      },
+      {
+        "id": 12,
+        "question": "Östlich von welchem US-Bundesstaat liegt die Sierra Nevada ?",
+        "propositions": [
+          "Colorado",
+          "Georgien",
+          "Kalifornien",
+          "Florida"
+        ],
+        "réponse": "Kalifornien",
+        "anecdote": "Die Kette bietet mehrere Naturparks, darunter Yosemite, das für seine Wälder, Wasserfälle und Granitfelsen bekannt ist."
+      },
+      {
+        "id": 13,
+        "question": "Auf welcher Insel fahren die Schnellboote von der Spitze von Arcouest ab ?",
+        "propositions": [
+          "Insel Re",
+          "Uschant",
+          "Insel Brehat",
+          "groix"
+        ],
+        "réponse": "Insel Brehat",
+        "anecdote": "Die Insel hat nur einen echten Strand, den von Guerzido, der in einem Bogen liegt, mit rosafarbenem Sand bedeckt und von Granitfelsen umgeben ist."
+      },
+      {
+        "id": 14,
+        "question": "Was ist das flächenmäßig größte französische Departement ?",
+        "propositions": [
+          "Guyana",
+          "Wiedersehen",
+          "Guadeloupe",
+          "Martinique"
+        ],
+        "réponse": "Guyana",
+        "anecdote": "Es ist das einzige kontinentale Territorium Frankreichs in Südamerika und das letzte französische Territorium in Kontinentalamerika."
+      },
+      {
+        "id": 15,
+        "question": "Welches ist das dritte Land, das neben Korea und Japan am Japanischen Meer liegt ?",
+        "propositions": [
+          "Australien",
+          "Indien",
+          "Russland",
+          "Pakistan"
+        ],
+        "réponse": "Russland",
+        "anecdote": "Im Laufe der Jahrhunderte wurde dieses Meer Ostmeer, Koreanisches Meer, Japanisches Meer oder Ostmeer genannt."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Vulkan mit 3.330 Metern über dem Meeresspiegel ist der größte in Europa ?",
+        "propositions": [
+          "Popocatepetl",
+          "Stromboli",
+          "Krakatau",
+          "Ätna"
+        ],
+        "réponse": "Ätna",
+        "anecdote": "Es ist der höchste aktive Vulkan in Europa und einer der aktivsten der Welt mit fast hundert Eruptionen im zwanzigsten Jahrhundert."
+      },
+      {
+        "id": 17,
+        "question": "Welche autonome Region Italiens ist auch die größte Insel im Mittelmeer ?",
+        "propositions": [
+          "Toskana",
+          "Lombardei",
+          "Sizilien",
+          "Sardinien"
+        ],
+        "réponse": "Sizilien",
+        "anecdote": "Sizilien ist auch die einzige italienische Region mit zwei der zehn bevölkerungsreichsten Städte des Landes : Palermo und Catania."
+      },
+      {
+        "id": 18,
+        "question": "An welches dieser Länder grenzt die Islamische Republik Iran nicht ?",
+        "propositions": [
+          "Syrien",
+          "Irak",
+          "Afghanistan",
+          "Türkei"
+        ],
+        "réponse": "Syrien",
+        "anecdote": "Der Iran ist ein stark diversifiziertes Land, sowohl in Bezug auf große Naturgebiete als auch auf seine Bevölkerung und Kultur."
+      },
+      {
+        "id": 19,
+        "question": "Auf welchem Kontinent fließt der Fluss Amur, der in die Tatarenstraße mündet ?",
+        "propositions": [
+          "Europa",
+          "Afrika",
+          "Ozeanien",
+          "Asien"
+        ],
+        "réponse": "Asien",
+        "anecdote": "Mit einer Länge von 4.354 Kilometern markiert ein großer Teil des Amurlaufs die Grenze zwischen dem russischen Fernen Osten und China."
+      },
+      {
+        "id": 20,
+        "question": "Welcher in Tibet geborene Fluss bildet ein riesiges Delta, bevor er in das Chinesische Meer mündet ?",
+        "propositions": [
+          "Euphrat",
+          "Tiger",
+          "Ganges",
+          "Mekong"
+        ],
+        "réponse": "Mekong",
+        "anecdote": "Der Fluss wird zur Bewässerung, als Sammelbecken für Entwässerungs- und Abwassersysteme, zum Fischfang und zur Fischzucht genutzt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Hauptstadt Nordirlands hat offiziell den Status einer Stadt ?",
+        "propositions": [
+          "Larn",
+          "Bangor",
+          "Derri",
+          "Belfast"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast war ein wichtiges Zentrum in der Industrialisierung von Flachs, Tabak und Werften mit dem Bau der Titanic."
+      },
+      {
+        "id": 22,
+        "question": "Welcher 51 Kilometer lange Fluss verbindet den Lake St. Clair mit dem Lake Erie ?",
+        "propositions": [
+          "Federmütze",
+          "Detroit",
+          "Kasan",
+          "Matawa"
+        ],
+        "réponse": "Detroit",
+        "anecdote": "Der Detroit River ist heute ein kanadisches Kulturerbe und versorgt mehr als fünf Millionen Menschen mit Trinkwasser."
+      },
+      {
+        "id": 23,
+        "question": "In welcher Region Portugals kann ich am Faro International Airport landen ?",
+        "propositions": [
+          "Algarve",
+          "Alentejo",
+          "Madeira",
+          "Azoren"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "Der Verkehr im Jahr 2007 erreichte 5,5 Millionen Passagiere, womit Faro nach Lissabon-H der zweite portugiesische Flughafen ist. Delgado."
+      },
+      {
+        "id": 24,
+        "question": "In welchem Land liegen die Wüsten von Victoria, Simson und Gibson ?",
+        "propositions": [
+          "China",
+          "Malaysien",
+          "Russland",
+          "Australien"
+        ],
+        "réponse": "Australien",
+        "anecdote": "Die Great Victoria Desert wurde erstmals 1875 vom britischen Entdecker Ernest Giles durchquert."
+      },
+      {
+        "id": 25,
+        "question": "Welche brechende Welle kann die Mündung eines Flusses hinaufwandern ?",
+        "propositions": [
+          "Tsunami",
+          "Atoll",
+          "Tourbillon",
+          "Flutwelle"
+        ],
+        "réponse": "Flutwelle",
+        "anecdote": "Dieses Phänomen des plötzlichen Anhebens des Wassers wird durch die Welle der steigenden Flut während der Flut verursacht."
+      },
+      {
+        "id": 26,
+        "question": "Was sind die berühmtesten Inseln der Republik Ecuador ?",
+        "propositions": [
+          "San Juan",
+          "Kurilen",
+          "Galapagos",
+          "Marianen"
+        ],
+        "réponse": "Galapagos",
+        "anecdote": "Der Archipel der Galapagosinseln besteht aus etwa vierzig Vulkaninseln, die seit 1832 eine Provinz Ecuadors bilden."
+      },
+      {
+        "id": 27,
+        "question": "An welcher Flussmündung liegt die portugiesische Stadt Lissabon ?",
+        "propositions": [
+          "Guadalquivir",
+          "Douro",
+          "Tejo",
+          "fluss ebro"
+        ],
+        "réponse": "Tejo",
+        "anecdote": "Lissabon liegt zwischen der Küste des Atlantischen Ozeans im Westen und dem Strohmeer im Osten, in das der Tejo mündet."
+      },
+      {
+        "id": 28,
+        "question": "Was ist die nördlichste Millionenstadt der Welt ?",
+        "propositions": [
+          "Murmansk",
+          "Kiew",
+          "Minsk",
+          "Sankt-Petersburg"
+        ],
+        "réponse": "Sankt-Petersburg",
+        "anecdote": "Sankt Petersburg liegt im Nordwesten des Landes am Newa-Delta, am Grund des Finnischen Meerbusens, in der Ostsee."
+      },
+      {
+        "id": 29,
+        "question": "In welcher Region Spaniens liegt Santiago de Compostela ?",
+        "propositions": [
+          "Galizien",
+          "Asturien",
+          "Katalonien",
+          "Andalusien"
+        ],
+        "réponse": "Galizien",
+        "anecdote": "Die Pilgerfahrt zum angeblichen Grab des Jakobus, Sohn des Zebedäus, war eine der wichtigsten des Christentums im Mittelalter."
+      },
+      {
+        "id": 30,
+        "question": "Auf welcher Insel kann man sich an den Stränden von Saint-Florent sonnen ?",
+        "propositions": [
+          "Martinique",
+          "Korsika",
+          "Wiedersehen",
+          "Mayotte"
+        ],
+        "réponse": "Korsika",
+        "anecdote": "Die alte genuesische Stadt, Hauptstadt der ehemaligen Provinz Nebbio, wurde am Fuße des Golfs von Saint-Florent erbaut."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué puente de Florencia es también una calle peatonal y una galería comercial ?",
+        "propositions": [
+          "San Nicolás",
+          "santa trinita",
+          "vitoria",
+          "Ponte Vecchio"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "Meca de la joyería y la orfebrería de lujo en la ciudad y en Italia, cruza el río Arno en su punto más estrecho."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué mar conocen los griegos como Pont Euxin ?",
+        "propositions": [
+          "Mar Egeo",
+          "Mar Negro",
+          "Mar Adriático",
+          "Mar Jónico"
+        ],
+        "réponse": "Mar Negro",
+        "anecdote": "El adjetivo correspondiente al Mar Negro es Pontic, que proviene del antiguo nombre de este mar, Pont Euxin."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál es el porcentaje de ocupación de los mares en la superficie del globo ?",
+        "propositions": [
+          "80%",
+          "60%",
+          "70%",
+          "50%"
+        ],
+        "réponse": "70%",
+        "anecdote": "En la Tierra, el Océano Mundial se divide comúnmente en cinco océanos : Pacífico, Atlántico, Ártico, Sur e Índico."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuál es la nacionalidad de la península de Yucatán, cuya capital es Mérida ?",
+        "propositions": [
+          "cubano",
+          "mexicano",
+          "boliviano",
+          "colombiano"
+        ],
+        "réponse": "mexicano",
+        "anecdote": "Yucatán cubre 38,402 km2 y limita con los estados de Campeche al suroeste y Quintana Roo al este."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál es, con 7.025 kilómetros, el río más largo del mundo ?",
+        "propositions": [
+          "colorado",
+          "San Lorenzo",
+          "danubio",
+          "Amazonas"
+        ],
+        "réponse": "Amazonas",
+        "anecdote": "El río se origina en los Andes, atraviesa Perú, Colombia y Brasil, y luego desemboca en el Océano Atlántico."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué ciudad portuguesa a orillas del Duero dio su nombre a un vino de aperitivo ?",
+        "propositions": [
+          "Oporto",
+          "Madeira",
+          "Dao",
+          "Duero"
+        ],
+        "réponse": "Oporto",
+        "anecdote": "El Oporto es un vino fortificado portugués, producido únicamente en la región del Alto Duero, 100 km río arriba de la ciudad de Oporto."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué viaducto diseñado por Norman Foster domina el valle del Tarn ?",
+        "propositions": [
+          "Viaducto de Ventabren",
+          "Viaur Viaducto",
+          "Viaducto de Millau",
+          "Viaducto de Gien"
+        ],
+        "réponse": "Viaducto de Millau",
+        "anecdote": "Un enlace en la autopista A75 que une Clermont-Ferrand con Béziers, este proyecto requirió 13 años de estudios técnicos y financieros."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué departamento francés se encuentran las ciudades de Quimper, Brest y Morlaix ?",
+        "propositions": [
+          "Finisterre",
+          "charente",
+          "Morbihan",
+          "aveyron"
+        ],
+        "réponse": "Finisterre",
+        "anecdote": "Finistère, ubicado en el extremo occidental de Bretaña, limita con el Canal de la Mancha, el Mar Céltico y el Océano Atlántico."
+      },
+      {
+        "id": 9,
+        "question": "En geografía, ¿qué corriente, crecida por sus afluentes, desembocará en el mar ?",
+        "propositions": [
+          "Torrente",
+          "río",
+          "corriente",
+          "río"
+        ],
+        "réponse": "río",
+        "anecdote": "Los tres ríos más largos del mundo son el Nilo con 6.718 km, el Amazonas con 6.500 km y el Yangtsé con 6.300 km."
+      },
+      {
+        "id": 10,
+        "question": "¿En qué isla se encontraba el coloso perteneciente a la serie de las siete maravillas del mundo ?",
+        "propositions": [
+          "Míkonos",
+          "Kasos",
+          "Rodas",
+          "Lipsi"
+        ],
+        "réponse": "Rodas",
+        "anecdote": "El Coloso de Rodas era una estatua de bronce de Helios, el dios Sol, de treinta metros de altura, obra de Chares de Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Frente a las costas de qué país del Océano Índico se encuentra el archipiélago de Zanzíbar ?",
+        "propositions": [
+          "Malaui",
+          "Botsuana",
+          "Camerún",
+          "Tanzania"
+        ],
+        "réponse": "Tanzania",
+        "anecdote": "El nombre Zanzíbar fue dado en la Edad Media por navegantes persas que designaron a Zangibar como la tierra de los negros."
+      },
+      {
+        "id": 12,
+        "question": "¿Al este de qué estado de EE. UU. se encuentran las montañas de Sierra Nevada ?",
+        "propositions": [
+          "florida",
+          "georgia",
+          "California",
+          "colorado"
+        ],
+        "réponse": "California",
+        "anecdote": "La cadena ofrece varios parques naturales, incluido Yosemite, famoso por sus bosques, cascadas y acantilados de granito."
+      },
+      {
+        "id": 13,
+        "question": "¿A qué isla van las lanchas rápidas desde la punta de Arcouest ?",
+        "propositions": [
+          "Isla de Re",
+          "Groix",
+          "Ouessant",
+          "Isla de Brehat"
+        ],
+        "réponse": "Isla de Brehat",
+        "anecdote": "La isla tiene una sola playa real, la de Guerzido, en forma de arco, cubierta de arena rosa y rodeada de rocas graníticas."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el departamento francés más grande en términos de área ?",
+        "propositions": [
+          "Guayana",
+          "Martinica",
+          "Reunión",
+          "Guadalupe"
+        ],
+        "réponse": "Guayana",
+        "anecdote": "Es el único territorio continental de Francia en América del Sur y el último territorio francés en América continental."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál es el tercer país que, junto con Corea y Japón, da al Mar de Japón ?",
+        "propositions": [
+          "Australia",
+          "Rusia",
+          "pakistán",
+          "India"
+        ],
+        "réponse": "Rusia",
+        "anecdote": "A lo largo de los siglos, este mar ha sido llamado Mar del Este, Mar de Corea, Mar de Japón o Mar del Este."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué volcán que culmina a 3.330 metros sobre el nivel del mar es el más grande de Europa ?",
+        "propositions": [
+          "Popocatepetl",
+          "Etna",
+          "krakatoa",
+          "Stromboli"
+        ],
+        "réponse": "Etna",
+        "anecdote": "Es el volcán activo más alto de Europa y uno de los más activos del mundo con casi un centenar de erupciones durante el siglo XX."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué región autónoma de Italia es también la isla más grande del Mediterráneo ?",
+        "propositions": [
+          "Cerdeña",
+          "Lombardia",
+          "sicilia",
+          "Toscana"
+        ],
+        "réponse": "sicilia",
+        "anecdote": "Sicilia es también la única región italiana que tiene dos de las diez ciudades más pobladas del país : Palermo y Catania."
+      },
+      {
+        "id": 18,
+        "question": "¿Con cuál de estos países no tiene fronteras la República Islámica de Irán ?",
+        "propositions": [
+          "Turquía",
+          "Afganistán",
+          "Irak",
+          "Siria"
+        ],
+        "réponse": "Siria",
+        "anecdote": "Irán es un país muy diversificado tanto en términos de grandes áreas naturales como en su población y cultura."
+      },
+      {
+        "id": 19,
+        "question": "¿En qué continente fluye el río Amur, que desemboca en el estrecho de Tatar ?",
+        "propositions": [
+          "África",
+          "Asia",
+          "Oceanía",
+          "Europa"
+        ],
+        "réponse": "Asia",
+        "anecdote": "Con 4.354 kilómetros de largo, gran parte del curso del río Amur marca la frontera entre el Lejano Oriente ruso y China."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué río que nace en el Tíbet forma un inmenso delta antes de desembocar en el Mar de China ?",
+        "propositions": [
+          "tigre",
+          "Mekong",
+          "Ganges",
+          "Éufrates"
+        ],
+        "réponse": "Mekong",
+        "anecdote": "El río se utiliza para riego, como receptáculo para sistemas de drenaje y aguas residuales, para la pesca y la piscicultura."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué capital de Irlanda del Norte tiene oficialmente el estatus de ciudad ?",
+        "propositions": [
+          "bangor",
+          "derry",
+          "larn",
+          "Belfast"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast fue un centro importante en la industrialización del lino, el tabaco y los astilleros, con la construcción del Titanic."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué río de 51 kilómetros de largo conecta el lago St. Clair con el lago Erie ?",
+        "propositions": [
+          "Matawa",
+          "kazán",
+          "detroit",
+          "gorro de plumas"
+        ],
+        "réponse": "detroit",
+        "anecdote": "Ahora un sitio de patrimonio canadiense, el río Detroit proporciona agua potable a más de cinco millones de personas."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué región de Portugal puedo aterrizar en el Aeropuerto Internacional de Faro ?",
+        "propositions": [
+          "Alentejo",
+          "Azores",
+          "Algarve",
+          "Madeira"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "El tráfico en 2007 alcanzó los 5,5 millones de pasajeros, lo que sitúa a Faro en segundo lugar entre los aeropuertos portugueses después de Lisboa-H."
+      },
+      {
+        "id": 24,
+        "question": "¿En qué país se encuentran los desiertos de Victoria, Simson y Gibson ?",
+        "propositions": [
+          "Australia",
+          "Rusia",
+          "chino",
+          "Malasia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "El Gran Desierto de Victoria fue atravesado por primera vez en 1875 por el explorador británico Ernest Giles."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué ola rompiente es capaz de subir por el estuario de un río ?",
+        "propositions": [
+          "Atolón",
+          "maremoto",
+          "Tourbillon",
+          "maremoto"
+        ],
+        "réponse": "maremoto",
+        "anecdote": "Este fenómeno de elevación repentina del agua es causado por el oleaje de la marea creciente durante las mareas altas."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuáles son las islas más famosas pertenecientes a la República del Ecuador ?",
+        "propositions": [
+          "Kuriles",
+          "San Juan",
+          "marianas",
+          "Galápagos"
+        ],
+        "réponse": "Galápagos",
+        "anecdote": "El archipiélago de las Islas Galápagos consta de unas cuarenta islas volcánicas que forman una provincia de Ecuador desde 1832."
+      },
+      {
+        "id": 27,
+        "question": "¿En la desembocadura de qué río está construida la ciudad portuguesa de Lisboa ?",
+        "propositions": [
+          "Tajo",
+          "Duero",
+          "Guadalquivir",
+          "rio ebro"
+        ],
+        "réponse": "Tajo",
+        "anecdote": "Lisboa se encuentra entre la costa del Océano Atlántico al oeste y el mar de paja al este, en el que desemboca el Tajo."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál es la ciudad más septentrional de más de un millón de personas en el mundo ?",
+        "propositions": [
+          "Múrmansk",
+          "Minsk",
+          "San Petersburgo",
+          "Kiev"
+        ],
+        "réponse": "San Petersburgo",
+        "anecdote": "San Petersburgo se encuentra en el noroeste del país en el delta del Neva, en el fondo del Golfo de Finlandia, en el Mar Báltico."
+      },
+      {
+        "id": 29,
+        "question": "¿En qué región de España se encuentra Santiago de Compostela ?",
+        "propositions": [
+          "Andalucía",
+          "Asturias",
+          "Galicia",
+          "Cataluña"
+        ],
+        "réponse": "Galicia",
+        "anecdote": "La peregrinación a la supuesta tumba de Santiago, hijo de Zebedeo, fue una de las más importantes de la cristiandad en la Edad Media."
+      },
+      {
+        "id": 30,
+        "question": "¿En qué isla se puede tomar el sol en las playas de Saint-Florent ?",
+        "propositions": [
+          "Córcega",
+          "Reunión",
+          "Martinica",
+          "Mayotte"
+        ],
+        "réponse": "Córcega",
+        "anecdote": "Capital de la antigua provincia de Nebbio, la antigua ciudad genovesa está construida en el fondo del Golfo de Saint-Florent."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale ponte di Firenze è anche una via pedonale e una galleria di negozi ?",
+        "propositions": [
+          "santa trinita",
+          "Vittoria",
+          "San Nicolò",
+          "Ponte Vecchio"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "Mecca della gioielleria e dell'oreficeria di lusso in città e in Italia, attraversa il fiume Arno nel suo punto più stretto."
+      },
+      {
+        "id": 2,
+        "question": "Quale mare chiamano i greci Pont Euxin ?",
+        "propositions": [
+          "Mar Ionio",
+          "Mare Adriatico",
+          "Mar Egeo",
+          "Mar Nero"
+        ],
+        "réponse": "Mar Nero",
+        "anecdote": "L'aggettivo corrispondente al Mar Nero è Pontic, che deriva dall'antico nome di questo mare, Pont Euxin."
+      },
+      {
+        "id": 3,
+        "question": "Qual è la percentuale di occupazione dei mari sulla superficie del globo ?",
+        "propositions": [
+          "80%",
+          "70%",
+          "50%",
+          "60%"
+        ],
+        "réponse": "70%",
+        "anecdote": "Sulla Terra, l'Oceano Mondiale è comunemente diviso in cinque oceani : Pacifico, Atlantico, Artico, Meridionale e Indiano."
+      },
+      {
+        "id": 4,
+        "question": "Qual è la nazionalità della penisola dello Yucatan, la cui capitale è Mérida ?",
+        "propositions": [
+          "messicano",
+          "colombiano",
+          "boliviano",
+          "cubano"
+        ],
+        "réponse": "messicano",
+        "anecdote": "Lo Yucatan copre 38."
+      },
+      {
+        "id": 5,
+        "question": "Qual è, a 7.025 chilometri, il fiume più lungo del mondo ?",
+        "propositions": [
+          "San Lorenzo",
+          "danubio",
+          "colorado",
+          "Amazon"
+        ],
+        "réponse": "Amazon",
+        "anecdote": "Il fiume nasce nelle Ande, attraversa Perù, Colombia e Brasile, per poi sfociare nell'Oceano Atlantico."
+      },
+      {
+        "id": 6,
+        "question": "Quale città portoghese sulle rive del Douro ha dato il nome a un vino da aperitivo ?",
+        "propositions": [
+          "Porto",
+          "Douro",
+          "Madera",
+          "dao"
+        ],
+        "réponse": "Porto",
+        "anecdote": "Il porto è un vino fortificato portoghese, prodotto solo nella regione dell'Alto Douro, 100 km a monte della città di Porto."
+      },
+      {
+        "id": 7,
+        "question": "Quale viadotto disegnato da Norman Foster si affaccia sulla valle del Tarn ?",
+        "propositions": [
+          "Viadotto Gien",
+          "Viadotto",
+          "Viadotto di Millau",
+          "Viadotto Ventabre"
+        ],
+        "réponse": "Viadotto di Millau",
+        "anecdote": "Un collegamento nell'autostrada A75 che collega Clermont-Ferrand a Béziers, questo progetto ha richiesto 13 anni di studi tecnici e finanziari."
+      },
+      {
+        "id": 8,
+        "question": "In quale dipartimento francese si trovano le città di Quimper, Brest e Morlaix ?",
+        "propositions": [
+          "Morbihan",
+          "Finistere",
+          "Charente",
+          "Aveyron"
+        ],
+        "réponse": "Finistere",
+        "anecdote": "Finistère, situata all'estremità occidentale della Bretagna, confina con il Canale della Manica, il Mar Celtico e l'Oceano Atlantico."
+      },
+      {
+        "id": 9,
+        "question": "In geografia, quale corso d'acqua, gonfio dei suoi affluenti, sfocerà nel mare ?",
+        "propositions": [
+          "Stream",
+          "fiume",
+          "Torrente",
+          "fiume"
+        ],
+        "réponse": "fiume",
+        "anecdote": "I tre fiumi più lunghi del mondo sono il Nilo con 6.718 km, l'Amazzonia con 6.500 km e lo Yangtze con 6.300 km."
+      },
+      {
+        "id": 10,
+        "question": "Su quale isola era il colosso appartenente alla serie delle sette meraviglie del mondo ?",
+        "propositions": [
+          "Lipsi",
+          "Cass",
+          "Micono",
+          "Rodi"
+        ],
+        "réponse": "Rodi",
+        "anecdote": "Il Colosso di Rodi era una statua in bronzo di Helios, il Dio Sole, alta trenta metri, opera di Chares di Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Di fronte alle coste di quale paese dell'Oceano Indiano si trova l'arcipelago di Zanzibar ?",
+        "propositions": [
+          "Camerun",
+          "Botswana",
+          "Tanzania",
+          "Malawi"
+        ],
+        "réponse": "Tanzania",
+        "anecdote": "Il nome Zanzibar fu dato nel medioevo dai navigatori persiani che designarono Zangibar come la terra dei neri."
+      },
+      {
+        "id": 12,
+        "question": "A est di quale stato degli Stati Uniti si trovano le montagne della Sierra Nevada ?",
+        "propositions": [
+          "Georgia",
+          "California",
+          "Florida",
+          "colorado"
+        ],
+        "réponse": "California",
+        "anecdote": "La catena offre diversi parchi naturali tra cui Yosemite, rinomato per le sue foreste, cascate e scogliere di granito."
+      },
+      {
+        "id": 13,
+        "question": "Su quale isola passano i motoscafi dalla punta di Arcouest ?",
+        "propositions": [
+          "Ushant",
+          "groix",
+          "Isola di Bréhat",
+          "Isola di Re"
+        ],
+        "réponse": "Isola di Bréhat",
+        "anecdote": "L'isola ha una sola vera spiaggia, quella di Guerzido, ad arco, ricoperta di sabbia rosa e circondata da rocce granitiche."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il più grande dipartimento francese in termini di superficie ?",
+        "propositions": [
+          "Guyana",
+          "Guadalupa",
+          "Riunione",
+          "Martinica"
+        ],
+        "réponse": "Guyana",
+        "anecdote": "È l'unico territorio continentale della Francia in Sud America e l'ultimo territorio francese nell'America continentale."
+      },
+      {
+        "id": 15,
+        "question": "Qual è il terzo Paese che, insieme a Corea e Giappone, si affaccia sul Mar del Giappone ?",
+        "propositions": [
+          "Australia",
+          "Russia",
+          "pakistan",
+          "India"
+        ],
+        "réponse": "Russia",
+        "anecdote": "Nel corso dei secoli, questo mare è stato chiamato Mare Orientale, Mare di Corea, Mar del Giappone o Mare Orientale."
+      },
+      {
+        "id": 16,
+        "question": "Quale vulcano culmina a 3.330 metri sul livello del mare è il più grande d'Europa ?",
+        "propositions": [
+          "Popocatepetl",
+          "Stromboli",
+          "Etna",
+          "Cracovia"
+        ],
+        "réponse": "Etna",
+        "anecdote": "È il vulcano attivo più alto d'Europa e uno dei più attivi al mondo con quasi cento eruzioni nel corso del 20° secolo."
+      },
+      {
+        "id": 17,
+        "question": "Quale regione autonoma d'Italia è anche l'isola più grande del Mediterraneo ?",
+        "propositions": [
+          "Sardegna",
+          "Sicilia",
+          "Lombardia",
+          "Toscana"
+        ],
+        "réponse": "Sicilia",
+        "anecdote": "La Sicilia è anche l'unica regione italiana ad avere due delle dieci città più popolose del paese : Palermo e Catania."
+      },
+      {
+        "id": 18,
+        "question": "Con quale di questi paesi la Repubblica islamica dell'Iran non ha confini ?",
+        "propositions": [
+          "Iraq",
+          "Afghanistan",
+          "Siria",
+          "Turchia"
+        ],
+        "réponse": "Siria",
+        "anecdote": "L'Iran è un paese altamente diversificato sia in termini di vaste aree naturali che di popolazione e cultura."
+      },
+      {
+        "id": 19,
+        "question": "In quale continente scorre il fiume Amur, che sfocia nello stretto tartaro ?",
+        "propositions": [
+          "Europa",
+          "Africa",
+          "Oceania",
+          "Asia"
+        ],
+        "réponse": "Asia",
+        "anecdote": "Lungo 4.354 chilometri, gran parte del corso del fiume Amur segna il confine tra l'Estremo Oriente russo e la Cina."
+      },
+      {
+        "id": 20,
+        "question": "Quale fiume nato in Tibet forma un immenso delta prima di sfociare nel Mar Cinese ?",
+        "propositions": [
+          "Mekong",
+          "tigre",
+          "Gange",
+          "Eufrate"
+        ],
+        "réponse": "Mekong",
+        "anecdote": "Il fiume è utilizzato per l'irrigazione, come ricettacolo per sistemi di drenaggio e acque reflue, per la pesca e la piscicoltura."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale capitale dell'Irlanda del Nord ha ufficialmente lo status di città ?",
+        "propositions": [
+          "Belfast",
+          "Larn",
+          "derry",
+          "bangor"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast fu un centro importante nell'industrializzazione del lino, del tabacco e dei cantieri navali, con la costruzione del Titanic."
+      },
+      {
+        "id": 22,
+        "question": "Quale fiume lungo 51 chilometri collega il lago St. Clair al lago Erie ?",
+        "propositions": [
+          "kazan",
+          "Matawa",
+          "Detroit",
+          "Berretto di piume"
+        ],
+        "réponse": "Detroit",
+        "anecdote": "Ora un sito del patrimonio canadese, il fiume Detroit fornisce acqua potabile a più di cinque milioni di persone."
+      },
+      {
+        "id": 23,
+        "question": "In quale regione del Portogallo posso atterrare all'aeroporto internazionale di Faro ?",
+        "propositions": [
+          "Alentejo",
+          "Madera",
+          "Azzorre",
+          "Algarve"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "Il traffico nel 2007 ha raggiunto i 5,5 milioni di passeggeri, classificando Faro al secondo posto tra gli aeroporti portoghesi dopo Lisbona-H."
+      },
+      {
+        "id": 24,
+        "question": "In quale paese si trovano i deserti di Victoria, Simson e Gibson ?",
+        "propositions": [
+          "Cina",
+          "Australia",
+          "Russia",
+          "Malesia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "Il Great Victoria Desert fu attraversato per la prima volta nel 1875 dall'esploratore britannico Ernest Giles."
+      },
+      {
+        "id": 25,
+        "question": "Quale onda che si infrange è in grado di risalire l'estuario di un fiume ?",
+        "propositions": [
+          "maremoto",
+          "Atollo",
+          "tsunami",
+          "Tourbillon"
+        ],
+        "réponse": "maremoto",
+        "anecdote": "Questo fenomeno di elevazione improvvisa dell'acqua è causato dall'onda della marea che sale durante l'alta marea."
+      },
+      {
+        "id": 26,
+        "question": "Quali sono le isole più famose appartenenti alla Repubblica dell'Ecuador ?",
+        "propositions": [
+          "Galapagos",
+          "Marianne",
+          "San Giovanni",
+          "Curili"
+        ],
+        "réponse": "Galapagos",
+        "anecdote": "L'arcipelago delle Isole Galapagos è costituito da una quarantina di isole vulcaniche che formano una provincia dell'Ecuador dal 1832."
+      },
+      {
+        "id": 27,
+        "question": "Alla foce di quale fiume è costruita la città portoghese di Lisbona ?",
+        "propositions": [
+          "Douro",
+          "Guadalquivir",
+          "fiume ebro",
+          "Tago"
+        ],
+        "réponse": "Tago",
+        "anecdote": "Lisbona si trova tra la costa dell'Oceano Atlantico a ovest e il mare di paglia a est, in cui scorre il Tago."
+      },
+      {
+        "id": 28,
+        "question": "Qual è la città più settentrionale con più di un milione di persone nel mondo ?",
+        "propositions": [
+          "Kiev",
+          "Minsk",
+          "Murmansk",
+          "San Pietroburgo"
+        ],
+        "réponse": "San Pietroburgo",
+        "anecdote": "San Pietroburgo si trova nel nord-ovest del paese, sul delta della Neva, in fondo al Golfo di Finlandia, nel Mar Baltico."
+      },
+      {
+        "id": 29,
+        "question": "In quale regione della Spagna si trova Santiago de Compostela ?",
+        "propositions": [
+          "Galizia",
+          "Asturie",
+          "Catalogna",
+          "Andalusa"
+        ],
+        "réponse": "Galizia",
+        "anecdote": "Il pellegrinaggio alla presunta tomba di Giacomo, figlio di Zebedeo, fu uno dei più importanti della cristianità del medioevo."
+      },
+      {
+        "id": 30,
+        "question": "Su quale isola si può prendere il sole sulle spiagge di Saint-Florent ?",
+        "propositions": [
+          "Corsica",
+          "Mayotte",
+          "Martinica",
+          "Riunione"
+        ],
+        "réponse": "Corsica",
+        "anecdote": "Capoluogo dell'ex provincia di Nebbio, l'antica città genovese sorge ai piedi del Golfo di Saint-Florent."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke brug in Florence is ook een voetgangersstraat en een winkelgalerij ?",
+        "propositions": [
+          "kerstman trinita",
+          "San Nicolo",
+          "Victoria",
+          "Ponte Vecchio"
+        ],
+        "réponse": "Ponte Vecchio",
+        "anecdote": "Een mekka voor luxe sieraden en goudsmeden in de stad en in Italië, het steekt de rivier de Arno op het smalste punt over."
+      },
+      {
+        "id": 2,
+        "question": "Welke zee kennen de Grieken als Pont Euxin ?",
+        "propositions": [
+          "Egeïsche Zee",
+          "Zwarte Zee",
+          "Adriatische Zee",
+          "Ionische Zee"
+        ],
+        "réponse": "Zwarte Zee",
+        "anecdote": "Het bijvoeglijk naamwoord dat overeenkomt met de Zwarte Zee is Pontisch, wat afkomstig is van de oude naam van deze zee, Pont Euxin."
+      },
+      {
+        "id": 3,
+        "question": "Wat is het bezettingspercentage van de zeeën op het aardoppervlak ?",
+        "propositions": [
+          "50%",
+          "70%",
+          "60%",
+          "80%"
+        ],
+        "réponse": "70%",
+        "anecdote": "Op aarde wordt de wereldoceaan gewoonlijk verdeeld in vijf oceanen : de Stille Oceaan, de Atlantische Oceaan, de Noordpool, het Zuiden en de Indische Oceaan."
+      },
+      {
+        "id": 4,
+        "question": "Wat is de nationaliteit van het schiereiland Yucatan, waarvan de hoofdstad Mérida is ?",
+        "propositions": [
+          "Cubaans",
+          "Boliviaans",
+          "Mexicaans",
+          "Colombiaans"
+        ],
+        "réponse": "Mexicaans",
+        "anecdote": "Yucatan beslaat 38."
+      },
+      {
+        "id": 5,
+        "question": "Wat is met 7.025 kilometer de langste rivier ter wereld ?",
+        "propositions": [
+          "Colorado",
+          "donau",
+          "Amazone",
+          "St. Laurens"
+        ],
+        "réponse": "Amazone",
+        "anecdote": "De rivier ontspringt in de Andes, doorkruist Peru, Colombia en Brazilië en mondt vervolgens uit in de Atlantische Oceaan."
+      },
+      {
+        "id": 6,
+        "question": "Welke Portugese stad aan de oevers van de Douro heeft zijn naam gegeven aan een aperitiefwijn ?",
+        "propositions": [
+          "Madeira",
+          "Douro",
+          "dao",
+          "Porto"
+        ],
+        "réponse": "Porto",
+        "anecdote": "Port is een Portugese versterkte wijn, die alleen wordt geproduceerd in de regio Boven-Douro, 100 km stroomopwaarts van de stad Porto."
+      },
+      {
+        "id": 7,
+        "question": "Welk viaduct ontworpen door Norman Foster kijkt uit over de Tarn-vallei ?",
+        "propositions": [
+          "Ventabrenviaduct",
+          "Gienviaduct",
+          "Viaduct van Millau",
+          "Viaurviaduct"
+        ],
+        "réponse": "Viaduct van Millau",
+        "anecdote": "Dit project, een verbinding in de snelweg A75 die Clermont-Ferrand met Béziers verbindt, vergde 13 jaar technische en financiële studies."
+      },
+      {
+        "id": 8,
+        "question": "In welk Franse departement liggen de steden Quimper, Brest en Morlaix ?",
+        "propositions": [
+          "Charente",
+          "Aveyron",
+          "Morbihan",
+          "Finistère"
+        ],
+        "réponse": "Finistère",
+        "anecdote": "Finistère, gelegen aan de westkant van Bretagne, wordt begrensd door het Kanaal, de Keltische Zee en de Atlantische Oceaan."
+      },
+      {
+        "id": 9,
+        "question": "Welke stroom, gezwollen door zijn zijrivieren, zal in de geografie in de zee stromen ?",
+        "propositions": [
+          "Torrent",
+          "Rivier",
+          "rivier",
+          "Stream"
+        ],
+        "réponse": "rivier",
+        "anecdote": "De drie langste rivieren ter wereld zijn de Nijl met 6.718 km, de Amazone met 6.500 km en de Yangtze met 6.300 km."
+      },
+      {
+        "id": 10,
+        "question": "Op welk eiland bevond de kolos zich in de reeks van de zeven wereldwonderen ?",
+        "propositions": [
+          "Rhodos",
+          "Lipsi",
+          "Kasos",
+          "Mykonos"
+        ],
+        "réponse": "Rhodos",
+        "anecdote": "De Kolossus van Rhodos was een bronzen beeld van Helios, de zonnegod, dertig meter hoog, het werk van Chares van Lindos."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Tegenover de kusten van welk land in de Indische Oceaan ligt de archipel van Zanzibar ?",
+        "propositions": [
+          "Kameroen",
+          "Botswana",
+          "Malawi",
+          "Tanzania"
+        ],
+        "réponse": "Tanzania",
+        "anecdote": "De naam Zanzibar werd in de middeleeuwen gegeven door Perzische zeevaarders die Zanzibar bestempelden als het land van de zwarten."
+      },
+      {
+        "id": 12,
+        "question": "Ten oosten van welke Amerikaanse staat ligt de Sierra Nevada Mountains ?",
+        "propositions": [
+          "Florida",
+          "Californië",
+          "Colorado",
+          "Georgië"
+        ],
+        "réponse": "Californië",
+        "anecdote": "De keten biedt verschillende natuurparken, waaronder Yosemite, bekend om zijn bossen, watervallen en granieten kliffen."
+      },
+      {
+        "id": 13,
+        "question": "Op welk eiland gaan de speedboten vanaf de punt van Arcouest ?",
+        "propositions": [
+          "Eiland Brehat",
+          "grijns",
+          "Oesjant",
+          "Eiland Re"
+        ],
+        "réponse": "Eiland Brehat",
+        "anecdote": "Het eiland heeft maar één echt strand, dat van Guerzido, in een boog, bedekt met roze zand en omgeven door granieten rotsen."
+      },
+      {
+        "id": 14,
+        "question": "Wat is qua oppervlakte het grootste Franse departement ?",
+        "propositions": [
+          "Martinique",
+          "Reünie",
+          "Guyana",
+          "Guadeloupe"
+        ],
+        "réponse": "Guyana",
+        "anecdote": "Het is het enige continentale grondgebied van Frankrijk in Zuid-Amerika en het laatste Franse grondgebied in continentaal Amerika."
+      },
+      {
+        "id": 15,
+        "question": "Wat is het derde land dat, samen met Korea en Japan, uitkijkt op de Zee van Japan ?",
+        "propositions": [
+          "pakistan",
+          "Australië",
+          "Indië",
+          "Rusland"
+        ],
+        "réponse": "Rusland",
+        "anecdote": "Door de eeuwen heen wordt deze zee de Oostzee, de Zee van Korea, de Zee van Japan of de Oostzee genoemd."
+      },
+      {
+        "id": 16,
+        "question": "Welke vulkaan met zijn hoogtepunt op 3.330 meter boven zeeniveau is de grootste van Europa ?",
+        "propositions": [
+          "krakatoa",
+          "Popocatepetl",
+          "Stromboli",
+          "Etna"
+        ],
+        "réponse": "Etna",
+        "anecdote": "Het is de hoogste actieve vulkaan van Europa en een van de meest actieve ter wereld met bijna honderd uitbarstingen in de twintigste eeuw."
+      },
+      {
+        "id": 17,
+        "question": "Welke autonome regio van Italië is ook het grootste eiland in de Middellandse Zee ?",
+        "propositions": [
+          "Sicilië",
+          "Toscane",
+          "Sardinië",
+          "Lombardije"
+        ],
+        "réponse": "Sicilië",
+        "anecdote": "Sicilië is ook de enige Italiaanse regio met twee van de tien meest bevolkte steden van het land : Palermo en Catania."
+      },
+      {
+        "id": 18,
+        "question": "Met welke van deze landen heeft de Islamitische Republiek Iran geen grens ?",
+        "propositions": [
+          "Afghanistan",
+          "Turkije",
+          "Syrië",
+          "Irak"
+        ],
+        "réponse": "Syrië",
+        "anecdote": "Iran is een zeer gediversifieerd land, zowel qua grote natuurgebieden als qua bevolking en cultuur."
+      },
+      {
+        "id": 19,
+        "question": "Op welk continent stroomt de rivier de Amoer, die uitmondt in de Tataarse Straat ?",
+        "propositions": [
+          "Afrika",
+          "Oceanië",
+          "Azië",
+          "Europa"
+        ],
+        "réponse": "Azië",
+        "anecdote": "4.354 kilometer lang, een groot deel van de loop van de rivier de Amoer markeert de grens tussen het Russische Verre Oosten en China."
+      },
+      {
+        "id": 20,
+        "question": "Welke rivier, geboren in Tibet, vormt een immense delta voordat hij uitmondt in de Chinese Zee ?",
+        "propositions": [
+          "Mekong",
+          "Eufraat",
+          "tijger",
+          "Ganges"
+        ],
+        "réponse": "Mekong",
+        "anecdote": "De rivier wordt gebruikt voor irrigatie, als opvangbak voor drainage en afvalwatersystemen, voor visserij en viskweek."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke hoofdstad van Noord-Ierland heeft officieel de status van stad ?",
+        "propositions": [
+          "derry",
+          "Larn",
+          "bangor",
+          "Belfast"
+        ],
+        "réponse": "Belfast",
+        "anecdote": "Belfast was een belangrijk centrum in de industrialisatie van vlas, tabak en scheepswerven, met de bouw van de Titanic."
+      },
+      {
+        "id": 22,
+        "question": "Welke 51 kilometer lange rivier verbindt Lake St. Clair met Lake Erie ?",
+        "propositions": [
+          "Muts met veren",
+          "Detroit",
+          "Matawa",
+          "Kazan"
+        ],
+        "réponse": "Detroit",
+        "anecdote": "De Detroit River, nu een Canadian Heritage Site, levert drinkwater voor meer dan vijf miljoen mensen."
+      },
+      {
+        "id": 23,
+        "question": "In welke regio van Portugal kan ik landen op Faro International Airport ?",
+        "propositions": [
+          "Madeira",
+          "Algarve",
+          "Azoren",
+          "Alentejo"
+        ],
+        "réponse": "Algarve",
+        "anecdote": "Het verkeer bereikte in 2007 5,5 miljoen passagiers, waardoor Faro de tweede Portugese luchthaven is na Lissabon-H. Delgado."
+      },
+      {
+        "id": 24,
+        "question": "In welk land liggen de woestijnen Victoria, Simson en Gibson ?",
+        "propositions": [
+          "Rusland",
+          "Maleisië",
+          "Australië",
+          "China"
+        ],
+        "réponse": "Australië",
+        "anecdote": "De Great Victoria Desert werd voor het eerst doorkruist in 1875 door de Britse ontdekkingsreiziger Ernest Giles."
+      },
+      {
+        "id": 25,
+        "question": "Welke brekende golf kan de monding van een rivier op ?",
+        "propositions": [
+          "tsunami",
+          "Atol",
+          "tourbillon",
+          "vloedgolf"
+        ],
+        "réponse": "vloedgolf",
+        "anecdote": "Dit fenomeen van plotselinge verhoging van het water wordt veroorzaakt door de golf van het opkomend tij tijdens vloed."
+      },
+      {
+        "id": 26,
+        "question": "Wat zijn de bekendste eilanden van de Republiek Ecuador ?",
+        "propositions": [
+          "Galapagos",
+          "San Juan",
+          "Koerilen",
+          "Marianen"
+        ],
+        "réponse": "Galapagos",
+        "anecdote": "De archipel van de Galapagos-eilanden bestaat uit ongeveer veertig vulkanische eilanden die sinds 1832 een provincie van Ecuador vormen."
+      },
+      {
+        "id": 27,
+        "question": "Aan de monding van welke rivier ligt de Portugese stad Lissabon ?",
+        "propositions": [
+          "Douro",
+          "Taag",
+          "rivier ebro",
+          "Guadalquivir"
+        ],
+        "réponse": "Taag",
+        "anecdote": "Lissabon ligt tussen de kust van de Atlantische Oceaan in het westen en de zee van stro in het oosten, waar de Taag in uitmondt."
+      },
+      {
+        "id": 28,
+        "question": "Wat is de meest noordelijke stad van meer dan een miljoen mensen ter wereld ?",
+        "propositions": [
+          "Sint-Petersburg",
+          "Kiev",
+          "Moermansk",
+          "Minsk"
+        ],
+        "réponse": "Sint-Petersburg",
+        "anecdote": "Sint-Petersburg ligt in het noordwesten van het land aan de Neva-delta, op de bodem van de Finse Golf, in de Oostzee."
+      },
+      {
+        "id": 29,
+        "question": "In welke regio van Spanje ligt Santiago de Compostela ?",
+        "propositions": [
+          "Galicië",
+          "Andalusië",
+          "Catalonië",
+          "Asturië"
+        ],
+        "réponse": "Galicië",
+        "anecdote": "De bedevaart naar het vermeende graf van Jacobus, de zoon van Zebedeüs, was een van de belangrijkste van het christendom in de middeleeuwen."
+      },
+      {
+        "id": 30,
+        "question": "Op welk eiland kun je zonnebaden op de stranden van Saint-Florent ?",
+        "propositions": [
+          "Mayotte",
+          "Martinique",
+          "Reünie",
+          "Corsica"
+        ],
+        "réponse": "Corsica",
+        "anecdote": "Hoofdstad van de voormalige provincie Nebbio, de oude Genuese stad is gebouwd aan de voet van de Golf van Saint-Florent."
+      }
+    ]
+    }
+  }
+}

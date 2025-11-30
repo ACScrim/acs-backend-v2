@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 8,
+  "mise-à-jour": "2023-02-11",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Célébrités",
+      "nom": "Personnalités 2013",
+      "slogan": "Elles ont parcouru les médias"
+    },
+    "en": {
+      "catégorie": "Celebrities",
+      "nom": "Personalities 2013",
+      "slogan": "They scoured the media"
+    },
+    "es": {
+      "catégorie": "Famosos",
+      "nom": "Personalidades 2013",
+      "slogan": "Recorrieron los medios"
+    },
+    "it": {
+      "catégorie": "Celebrità",
+      "nom": "Personalità 2013",
+      "slogan": "Hanno setacciato i media"
+    },
+    "de": {
+      "catégorie": "Prominente",
+      "nom": "Persönlichkeiten 2013",
+      "slogan": "Sie haben die Medien durchforstet"
+    },
+    "nl": {
+      "catégorie": "Beroemdheden",
+      "nom": "Persoonlijkheden 2013",
+      "slogan": "Ze schuimden de media af"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel pseudonyme masculin J. K. Rowling a-t-elle utilisé pour publier un livre ?",
+        "propositions": [
+          "Robert Holdstock",
+          "Adam Roberts",
+          "Robert Galbraith",
+          "Robert J. Harris"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne a toujours voulu s'appeler Ella Galbraith, le choix de Robert étant un hommage au président Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "Quel coureur cycliste kényan a remporté le Tour de France 2013 ?",
+        "propositions": [
+          "Bradley Wiggins",
+          "Cadel Evans",
+          "Christopher Froome",
+          "Vincenzo Nibali"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "Quelques jours avant le Tour de France 2018, il sera blanchi dans le cadre de l'enquête concernant un possible dopage."
+      },
+      {
+        "id": 3,
+        "question": "Quel avocat français a défendu le nazi Klaus Barbie et le dictateur Slobodan Milosevic ?",
+        "propositions": [
+          "Jacques Vergès",
+          "Alexandre Varenne",
+          "Pierre Verdier",
+          "Jean Veil"
+        ],
+        "réponse": "Jacques Vergès",
+        "anecdote": "Après avoir été résistant, l'avocat Jacques Vergès est devenu célèbre en raison de ses convictions anticolonialistes."
+      },
+      {
+        "id": 4,
+        "question": "Qui a été élu meilleur joueur du tournoi européen de basket-ball en 2013 ?",
+        "propositions": [
+          "Andreï Kirilenko",
+          "Tony Parker",
+          "Pau Gasol",
+          "Christian Welp"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Tony Parker est également président et actionnaire majoritaire depuis 2014 du club français de l'ASVEL Lyon-Villeurbanne."
+      },
+      {
+        "id": 5,
+        "question": "Qui a fait son grand retour sur scène avec « Robin revient... Tsoin Tsoin » ?",
+        "propositions": [
+          "Josiane Balasko",
+          "Muriel Robin",
+          "Chantal Lauby",
+          "Michèle Laroque"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "On la verra également à la télévision dans les téléfilms « Passage du désir », « Indiscrétions » et « Le Clan des Lanzac »."
+      },
+      {
+        "id": 6,
+        "question": "Quelle célèbre auteure a écrit une histoire sado-maso en trois tomes ?",
+        "propositions": [
+          "E. L. James",
+          "Elizabeth Cadell",
+          "Carole Mortimer",
+          "Betty Neels"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "Cette ancienne dirigeante de télévision BBC a vendu plus de 150 millions d'exemplaires de la saga « Fifty Shades of Grey »."
+      },
+      {
+        "id": 7,
+        "question": "Quel rappeur blanc est capable de prononcer 101 mots en 16 secondes ?",
+        "propositions": [
+          "Eminem",
+          "Brisco",
+          "Ludacris",
+          "Doseone"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "En plus de sa carrière solo, il est aussi membre du groupe D12 et compose le duo Bad Meets Evil avec Royce da 5'9."
+      },
+      {
+        "id": 8,
+        "question": "Quel pilote allemand de F1 a obtenu quatre titres de champion du monde consécutifs ?",
+        "propositions": [
+          "Klaus Graf",
+          "Manuel Reuter",
+          "Hermann Lang",
+          "Sebastian Vettel"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "En 2008, à Monza, Sebastian Vettel devint le plus jeune vainqueur d'un Grand Prix (record battu en 2016 par Max Verstappen)."
+      },
+      {
+        "id": 9,
+        "question": "Quel célèbre président noir est mort à 95 ans le 5 décembre 2013 ?",
+        "propositions": [
+          "Jacob Zuma",
+          "Thabo Mbeki",
+          "Cyril Ramaphosa",
+          "Nelson Mandela"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela est salué comme le père d'une Afrique du Sud multiraciale et pleinement démocratique, qualifiée de nation arc-en-ciel."
+      },
+      {
+        "id": 10,
+        "question": "À quel jeune ténor français doit-on un album reprenant des titres de Luis Mariano ?",
+        "propositions": [
+          "Vincent Niclo",
+          "Pablo Villafranca",
+          "Roberto Alagna",
+          "Ivan Rebroff"
+        ],
+        "réponse": "Vincent Niclo",
+        "anecdote": "Au printemps 2016, Vincent Niclo a sorti un quatrième album intitulé « 5.0 », entièrement composé et réalisé par Pascal Obispo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel chanteur du groupe The Calling a été kidnappé en 2013 ?",
+        "propositions": [
+          "Wayne Brady",
+          "Max Bemis",
+          "Alex Band",
+          "Adam Bomb"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "Après une apparition dans le film « Coyote Girls » avec leur titre « Wherever You Will Go », ce fut la révélation pour The Calling."
+      },
+      {
+        "id": 12,
+        "question": "Quelle bombe du clip « Blurred Lines » de Robin Thicke a explosé aux yeux du monde ?",
+        "propositions": [
+          "Shannon Elizabeth",
+          "Lindsay Ellingson",
+          "Angie Everhart",
+          "Elle Evans"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "Après cette vidéo, visionnée plus de 410 millions de fois sur Youtube, Elle Evans a tourné dans deux clips vidéo de Beyoncé."
+      },
+      {
+        "id": 13,
+        "question": "Qui fut le roi des nominations aux MTV Video Music Awards 2013 ?",
+        "propositions": [
+          "Drake",
+          "Bruno Mars",
+          "Robin Thicke",
+          "Justin Timberlake"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "L'édition 2013 des MTV Video Music Awards a eu lieu le 25 août 2013 dans la salle omnisports Barclays Center à Brooklyn."
+      },
+      {
+        "id": 14,
+        "question": "Quel rappeur canadien est devenu en 2013 ambassadeur des NBA Toronto Raptors ?",
+        "propositions": [
+          "Belly",
+          "Drake",
+          "Snow",
+          "Nav"
+        ],
+        "réponse": "Drake",
+        "anecdote": "En novembre 2016, Drake est devenu le troisième rappeur à atteindre le milliard de vues sur YouTube avec « Hotline Bling »."
+      },
+      {
+        "id": 15,
+        "question": "À quelle romancière doit-on la célèbre saga des « Bridget Jones » ?",
+        "propositions": [
+          "Helen Fielding",
+          "Dorothy Cannell",
+          "Denise Robins",
+          "Barbara Pym"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "Les romans furent d'abord publiés dans les colonnes des journaux The Independent et The Daily Telegraph, en 1997 et 1998."
+      },
+      {
+        "id": 16,
+        "question": "Qui a quitté son poste de directeur artistique chez Louis Vuitton le 2 octobre 2013 ?",
+        "propositions": [
+          "François Demachy",
+          "Marc Jacobs",
+          "Bernard Arnault",
+          "Michael Burke"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "En seize ans, Marc Jacobs a réussi à transformer la marque d'un maroquinier de luxe en une marque de mode de premier plan."
+      },
+      {
+        "id": 17,
+        "question": "Qui était la partenaire de Titoff dans la quatrième saison de « Danse avec les stars » ?",
+        "propositions": [
+          "Silvia Notargiacomo",
+          "Fauve Hautot",
+          "Denitsa Ikonomova",
+          "Candice Pascal"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "Elle fut aussi la partenaire de David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé et de Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "Quel réalisateur de « La reine Margot » est décédé suite à un cancer du poumon ?",
+        "propositions": [
+          "Alain Sachs",
+          "Gildas Bourdet",
+          "Jean-Louis Benoît",
+          "Patrice Chéreau"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "Les travaux de Patrice Chéreau combinent recherches plastiques, réflexions politiques et exploration des obsessions humaines."
+      },
+      {
+        "id": 19,
+        "question": "Quel chanteur a parcouru les pays européens avec sa tournée « Take The Crown Tour » ?",
+        "propositions": [
+          "Robbie Williams",
+          "Patrick Wolf",
+          "Darren White",
+          "Ben Watt"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "Il donnera 26 concerts pendant tout l'été dans les grands stades d'Europe, accompagné d'Olly Murs en première partie de concert."
+      },
+      {
+        "id": 20,
+        "question": "Quel personnage était incarné par Yves Marchesseau dans « Fort Boyard » ?",
+        "propositions": [
+          "Mister-Boo",
+          "Passe-Temps",
+          "La Boule",
+          "Père Fouras"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Depuis son départ en 2014 pour raison de santé, c'est Félindra (Monique Angeon), la dompteuse, qui s'occupe de sonner le gong."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel Français est devenu champion du monde de triple saut à Moscou en 2013 ?",
+        "propositions": [
+          "Christian Olsson",
+          "Christian Taylor",
+          "Serge Hélan",
+          "Teddy Tamgho"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "Son saut à 18,04 mètres a fait de Teddy Tamgho le troisième athlète à dépasser la limite des dix-huit mètres au triple saut."
+      },
+      {
+        "id": 22,
+        "question": "Quelle ancienne ministre française fait une apparition dans un clip de Joyce Jonathan ?",
+        "propositions": [
+          "Roselyne Bachelot",
+          "Élisabeth Guigou",
+          "Martine Aubry",
+          "Myriam El Khomri"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "D'abord apparue dans le remake du clip de « Ça ira », elle jouera ensuite dans l'épisode « Avis de tempête » de « Nos chers voisins »."
+      },
+      {
+        "id": 23,
+        "question": "Quelle jeune chanteuse américaine est la petite protégée du rappeur Eminem ?",
+        "propositions": [
+          "Skylar Grey",
+          "Lisa Germano",
+          "Marie Osmond",
+          "Bella Thorne"
+        ],
+        "réponse": "Skylar Grey",
+        "anecdote": "Skylar Grey a fait ses débuts professionnels dans un groupe de folk composé avec sa mère, appelé Generations."
+      },
+      {
+        "id": 24,
+        "question": "Quel alpiniste américain est le héros du film « 127 heures », de Danny Boyle ?",
+        "propositions": [
+          "Terris Moore",
+          "Scott Fischer",
+          "Bruce Carson",
+          "Aron Ralston"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "Coincé au fin fond d'un canyon reculé, Aron Ralston s'est lui-même amputé l'avant-bras droit avec son canif dans le seul but de survivre."
+      },
+      {
+        "id": 25,
+        "question": "À quel basketteur américain les chaussures All Star de Converse font-elles honneur ?",
+        "propositions": [
+          "Isiah Thomas",
+          "Rod Thorn",
+          "John Thompson",
+          "Chuck Taylor"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor a passé une grande partie de sa vie à promouvoir et à vendre des chaussures à travers les États-Unis."
+      },
+      {
+        "id": 26,
+        "question": "Quel est le nom du sosie belge du chanteur et acteur canadien Justin Bieber ?",
+        "propositions": [
+          "C. Hagelstein",
+          "C. Stéphane",
+          "F. Vincent",
+          "J. Richarts"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber est le plus jeune artiste à placer son premier album en tête du Billboard 200 depuis Stevie Wonder en 1963."
+      },
+      {
+        "id": 27,
+        "question": "Qui incarne Félindra, la dresseuse de tigres de « Fort Boyard » sur France 2 ?",
+        "propositions": [
+          "Mabel Stark",
+          "Monique Angeon",
+          "Barbara Woodhouse",
+          "Rosa Bouglione"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "Elle s'occupe des tigres pendant les deux mois de tournage de l'émission, puis les ramène chez le dresseur Thierry Le Portier."
+      },
+      {
+        "id": 28,
+        "question": "Qui a créé en 2001 le désormais célèbre calendrier des Dieux du Stade ?",
+        "propositions": [
+          "Joseph Galy",
+          "Max Guazzini",
+          "Paul Goze",
+          "Albert Ginesty"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini a produit un double CD des 46 principaux chants grégoriens et latins intitulé « Credo », sorti le 11 avril 2011."
+      },
+      {
+        "id": 29,
+        "question": "Qui est la voix américaine de Siri, le système de reconnaissance vocale des iPhone ?",
+        "propositions": [
+          "Sofia Carson",
+          "Peggy March",
+          "Vonda Shepard",
+          "Susan Benett"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Certains considèrent qu'avec Google Now et Cortana, Siri est l'un des indices d'une large pénétration de la vie numérique."
+      },
+      {
+        "id": 30,
+        "question": "Qui fut le premier écrivain hispanique à recevoir le prix Pulitzer de la fiction ?",
+        "propositions": [
+          "Norman Mailer",
+          "Peter Taylor",
+          "John Updike",
+          "Oscar Hijuelos"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "Le romancier est décédé le 12 octobre 2013, terrassé par une crise cardiaque lors d'une partie de tennis à Manhattan."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What male pseudonym did J. K. Rowling use to publish a book ?",
+        "propositions": [
+          "Robert Holdstock",
+          "Robert J. Harris",
+          "Robert Galbraith",
+          "Adam Roberts"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne always wanted to be called Ella Galbraith, Robert's choice being a tribute to President Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "Which Kenyan cyclist won the 2013 Tour de France ?",
+        "propositions": [
+          "Bradley Wiggins",
+          "Cadel Evans",
+          "Vincenzo Nibali",
+          "Christopher Froome"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "A few days before the Tour de France 2018, he will be cleared as part of the investigation into possible doping."
+      },
+      {
+        "id": 3,
+        "question": "Which French lawyer defended Nazi Klaus Barbie and dictator Slobodan Milosevic ?",
+        "propositions": [
+          "Pierre Verdier",
+          "Jacques Vergès",
+          "Alexandre Varenne",
+          "Jean Veil"
+        ],
+        "réponse": "Jacques Vergès",
+        "anecdote": "After being resistant, the lawyer Jacques Vergès became famous because of his anti-colonialist convictions."
+      },
+      {
+        "id": 4,
+        "question": "Who was voted best player of the European basketball tournament in 2013 ?",
+        "propositions": [
+          "Pau Gasol",
+          "Tony Parker",
+          "Andrei Kirilenko",
+          "Christian Welp"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Tony Parker has also been president and majority shareholder of the French club ASVEL Lyon-Villeurbanne since 2014."
+      },
+      {
+        "id": 5,
+        "question": "Who made his comeback on stage with « Robin returns ... Tsoin Tsoin » ?",
+        "propositions": [
+          "Michèle Laroque",
+          "Chantal Lauby",
+          "Josiane Balasko",
+          "Muriel Robin"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "She will also be seen on television in the TV films « Passage du desire », « Indiscretions » and « Le Clan des Lanzac »."
+      },
+      {
+        "id": 6,
+        "question": "Which famous author wrote a sadomasochistic story in three volumes ?",
+        "propositions": [
+          "Carole Mortimer",
+          "E. L. James",
+          "Elizabeth Cadell",
+          "Betty Neels"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "This former BBC television executive has sold over 150 million copies of the « Fifty Shades of Gray » saga."
+      },
+      {
+        "id": 7,
+        "question": "What white rapper can say 101 words in 16 seconds ?",
+        "propositions": [
+          "Ludacris",
+          "Brisco",
+          "Eminem",
+          "Doseone"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "In addition to his solo career, he is also a member of the group D12 and composes the duo Bad Meets Evil with Royce da 5'9."
+      },
+      {
+        "id": 8,
+        "question": "Which German F1 driver has won four consecutive world championship titles ?",
+        "propositions": [
+          "Sebastian Vettel",
+          "Manuel Reuter",
+          "Klaus Graf",
+          "Hermann Lang"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "In 2008, at Monza, Sebastian Vettel became the youngest winner of a Grand Prix (record broken in 2016 by Max Verstappen)."
+      },
+      {
+        "id": 9,
+        "question": "Which famous black president died at age 95 on December 5, 2013 ?",
+        "propositions": [
+          "Cyril Ramaphosa",
+          "Jacob Zuma",
+          "Thabo Mbeki",
+          "Nelson Mandela"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela is hailed as the father of a multiracial and fully democratic South Africa known as a rainbow nation."
+      },
+      {
+        "id": 10,
+        "question": "To which young French tenor do we owe an album with songs by Luis Mariano ?",
+        "propositions": [
+          "Vincent Niclo",
+          "Pablo Villafranca",
+          "Ivan Rebroff",
+          "Roberto Alagna"
+        ],
+        "réponse": "Vincent Niclo",
+        "anecdote": "In the spring of 2016, Vincent Niclo released a fourth album entitled « 5.0 », entirely composed and produced by Pascal Obispo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which singer from The Calling was kidnapped in 2013 ?",
+        "propositions": [
+          "Wayne Brady",
+          "Adam Bomb",
+          "Alex Band",
+          "Max Bemis"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "After an appearance in the movie « Coyote Girls » with their title « Wherever You Will Go », it was the revelation for The Calling."
+      },
+      {
+        "id": 12,
+        "question": "Which bomb from Robin Thicke's « Blurred Lines » clip exploded in the eyes of the world ?",
+        "propositions": [
+          "Shannon Elizabeth",
+          "Elle Evans",
+          "Angie Everhart",
+          "Lindsay Ellingson"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "After this video viewed over 410 million times on Youtube, Elle Evans appeared in two Beyoncé music videos."
+      },
+      {
+        "id": 13,
+        "question": "Who was the king of the 2013 MTV Video Music Awards nominations ?",
+        "propositions": [
+          "Drake",
+          "Robin Thicke",
+          "Bruno Mars",
+          "Justin Timberlake"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "The 2013 MTV Video Music Awards took place on August 25, 2013 at Barclays Center in Brooklyn."
+      },
+      {
+        "id": 14,
+        "question": "Which Canadian rapper became NBA Toronto Raptors ambassador in 2013 ?",
+        "propositions": [
+          "Nav",
+          "Belly",
+          "Snow",
+          "Drake"
+        ],
+        "réponse": "Drake",
+        "anecdote": "In November 2016, Drake became the third rapper to reach one billion views on YouTube with « Hotline Bling »."
+      },
+      {
+        "id": 15,
+        "question": "To which novelist do we owe the « Bridget Jones » saga ?",
+        "propositions": [
+          "Helen Fielding",
+          "Denise Robins",
+          "Dorothy Cannell",
+          "Barbara Pym"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "The novels were first published in the columns of The Independent and The Daily Telegraph newspapers in 1997 and 1998."
+      },
+      {
+        "id": 16,
+        "question": "Who left his post as artistic director of Louis Vuitton on October 2, 2013 ?",
+        "propositions": [
+          "François Demachy",
+          "Marc Jacobs",
+          "Bernard Arnault",
+          "Michael Burke"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "In sixteen years, Marc Jacobs has succeeded in transforming the brand from a luxury leather goods manufacturer to a leading fashion brand."
+      },
+      {
+        "id": 17,
+        "question": "Who was Titoff's partner in the fourth season of « Dancing with the Stars » ?",
+        "propositions": [
+          "Denitsa Ikonomova",
+          "Candice Pascal",
+          "Silvia Notargiacomo",
+          "Fauve Hautot"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "She was also the partner of David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé and Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "Which « Queen Margot » director died of lung cancer ?",
+        "propositions": [
+          "Jean-Louis Benoît",
+          "Patrice Chéreau",
+          "Gildas Bourdet",
+          "Alain Sachs"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "Patrice Chéreau's work combines plastic research, political reflections and the exploration of human obsessions."
+      },
+      {
+        "id": 19,
+        "question": "Which singer has traveled through European countries with his « Take The Crown Tour » tour ?",
+        "propositions": [
+          "Ben Watt",
+          "Robbie Williams",
+          "Patrick Wolf",
+          "Darren White"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "He will give 26 concerts throughout the summer in major European stadiums, accompanied by Olly Murs in the first part of the concert."
+      },
+      {
+        "id": 20,
+        "question": "Which character was played by Yves Marchesseau in « Fort Boyard » ?",
+        "propositions": [
+          "Father Fouras",
+          "La Boule",
+          "Mister-Boo",
+          "Passe-Temps"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Since her departure in 2014 for health reasons, it is Félindra (Monique Angeon), the tamer, who takes care of ringing the gong."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Frenchman became world triple jump champion in Moscow in 2013 ?",
+        "propositions": [
+          "Teddy Tamgho",
+          "Christian Taylor",
+          "Serge Hélan",
+          "Christian Olsson"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "His jump to 18.04 meters made Teddy Tamgho the third athlete to exceed the eighteen-meter limit in the triple jump."
+      },
+      {
+        "id": 22,
+        "question": "Which former French minister makes an appearance in a Joyce Jonathan music video ?",
+        "propositions": [
+          "Élisabeth Guigou",
+          "Roselyne Bachelot",
+          "Myriam El Khomri",
+          "Martine Aubry"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "First appeared in the remake of the clip for « It'll be okay », she will then play in the episode « Storm Warning » of « Our Dear Neighbors »."
+      },
+      {
+        "id": 23,
+        "question": "Which young American singer is rapper Eminem's protege ?",
+        "propositions": [
+          "Lisa Germano",
+          "Skylar Gray",
+          "Marie Osmond",
+          "Bella Thorne"
+        ],
+        "réponse": "Skylar Gray",
+        "anecdote": "Skylar Gray made his professional debut in a folk group composed with his mother called Generations."
+      },
+      {
+        "id": 24,
+        "question": "Which American climber is the hero of Danny Boyle's « 127 Hours » ?",
+        "propositions": [
+          "Terris Moore",
+          "Bruce Carson",
+          "Aron Ralston",
+          "Scott Fischer"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "Stuck in the depths of a remote canyon, Aron Ralston himself amputated his right forearm with his knife in order to survive."
+      },
+      {
+        "id": 25,
+        "question": "Which American basketball player does the Converse All Star honor ?",
+        "propositions": [
+          "Rod Thorn",
+          "John Thompson",
+          "Isiah Thomas",
+          "Chuck Taylor"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor has spent much of his life promoting and selling shoes across the United States."
+      },
+      {
+        "id": 26,
+        "question": "What is the name of the Belgian double of Canadian singer and actor Justin Bieber ?",
+        "propositions": [
+          "C. Stéphane",
+          "J. Richarts",
+          "F. Vincent",
+          "C. Hagelstein"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber is the youngest artist to place his first album topped the Billboard 200 since Stevie Wonder in 1963."
+      },
+      {
+        "id": 27,
+        "question": "Who plays Félindra, the tiger trainer from « Fort Boyard » on France 2 ?",
+        "propositions": [
+          "Rosa Bouglione",
+          "Barbara Woodhouse",
+          "Monique Angeon",
+          "Mabel Stark"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "She takes care of the tigers during the two months of filming the show, then brings them back to the trainer Thierry Le Portier."
+      },
+      {
+        "id": 28,
+        "question": "In 2001, who created the now famous Stadium Gods calendar ?",
+        "propositions": [
+          "Joseph Galy",
+          "Paul Goze",
+          "Albert Ginesty",
+          "Max Guazzini"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini has produced a double CD of the 46 main Gregorian and Latin chants entitled « Credo », released on April 11, 2011."
+      },
+      {
+        "id": 29,
+        "question": "Who is the American voice of Siri, the iPhone voice recognition system ?",
+        "propositions": [
+          "Susan Benett",
+          "Vonda Shepard",
+          "Peggy March",
+          "Sofia Carson"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Some consider that with Google Now and Cortana, Siri is one of the clues of a wide penetration of digital life."
+      },
+      {
+        "id": 30,
+        "question": "Who was the first Hispanic writer to receive the Pulitzer Prize for Fiction ?",
+        "propositions": [
+          "Norman Mailer",
+          "Peter Taylor",
+          "Oscar Hijuelos",
+          "John Updike"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "The novelist died on October 12, 2013, after a heart attack while playing tennis in Manhattan."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Mit welchem männlichen Pseudonym hat J. K. Rowling ein Buch veröffentlicht ?",
+        "propositions": [
+          "Robert J. Harris",
+          "Robert Galbraith",
+          "Adam Roberts",
+          "Robert Holdstock"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne wollte schon immer Ella Galbraith heißen, Roberts Wahl war eine Hommage an Präsident Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "Welcher kenianische Radrennfahrer hat die Tour de France 2013 gewonnen ?",
+        "propositions": [
+          "Vincenzo Nibali",
+          "Christopher Froome",
+          "Bradley Wiggins",
+          "Cadel Evans"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "Wenige Tage vor der Tour de France 2018 wird er im Rahmen der Ermittlungen wegen möglichem Doping freigesprochen."
+      },
+      {
+        "id": 3,
+        "question": "Welcher französische Anwalt hat Nazi Klaus Barbie und Diktator Slobodan Milosevic verteidigt ?",
+        "propositions": [
+          "Jean Veil",
+          "Alexandre Varenne",
+          "Jacques Vergès",
+          "Pierre Verdier"
+        ],
+        "réponse": "Jacques Vergès",
+        "anecdote": "Nach Widerstand wurde der Anwalt Jacques Vergès wegen seiner antikolonialistischen Überzeugungen berühmt."
+      },
+      {
+        "id": 4,
+        "question": "Wer wurde 2013 zum besten Spieler des europäischen Basketballturniers gewählt ?",
+        "propositions": [
+          "Tony Parker",
+          "Christian Welp",
+          "Pau Gasol",
+          "Andrei Kirilenko"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Außerdem ist Tony Parker seit 2014 Präsident und Mehrheitsaktionär des französischen Clubs ASVEL Lyon-Villeurbanne."
+      },
+      {
+        "id": 5,
+        "question": "Wer feierte mit Robin kehrt zurück ... Tsoin Tsoin » sein Comeback auf der Bühne ?",
+        "propositions": [
+          "Muriel Robin",
+          "Michèle Laroque",
+          "Chantal Lauby",
+          "Josiane Balasko"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "Außerdem wird sie im Fernsehen in den Fernsehfilmen « Passage du Desire », « Indiscretions » und « Le Clan des Lanzac » zu sehen sein."
+      },
+      {
+        "id": 6,
+        "question": "Welcher berühmte Autor hat eine sadomasochistische Geschichte in drei Bänden geschrieben ?",
+        "propositions": [
+          "Betty Neels",
+          "Carole Mortimer",
+          "Elizabeth Cadell",
+          "E. L. James"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "Dieser ehemalige BBC-TV-Manager hat über 150 Millionen Exemplare der « Fifty Shades of Grey » Saga verkauft."
+      },
+      {
+        "id": 7,
+        "question": "Welcher weiße Rapper kann in 16 Sekunden 101 Wörter sagen ?",
+        "propositions": [
+          "Doseone",
+          "Ludacris",
+          "Eminem",
+          "Brisco"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "Neben seiner Solokarriere ist er auch Mitglied der Gruppe D12 und komponiert mit Royce da 5'9 das Duo Bad Meets Evil."
+      },
+      {
+        "id": 8,
+        "question": "Welcher deutsche F1-Fahrer hat vier Weltmeistertitel in Folge gewonnen ?",
+        "propositions": [
+          "Klaus Graf",
+          "Hermann Lang",
+          "Sebastian Vettel",
+          "Manuel Reuter"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "2008 wurde Sebastian Vettel in Monza jüngster Sieger eines Grand Prix (2016 von Max Verstappen gebrochener Rekord)."
+      },
+      {
+        "id": 9,
+        "question": "Welcher berühmte schwarze Präsident starb am 5. Dezember 2013 im Alter von 95 Jahren ?",
+        "propositions": [
+          "Jacob Zuma",
+          "Cyril Ramaphosa",
+          "Thabo Mbeki",
+          "Nelson Mandela"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela wird als Vater eines gemischtrassigen und vollständig demokratischen Südafrikas gefeiert, das als Regenbogennation bekannt ist."
+      },
+      {
+        "id": 10,
+        "question": "Welchem jungen französischen Tenor verdanken wir ein Album mit Liedern von Luis Mariano ?",
+        "propositions": [
+          "Ivan Rebroff",
+          "Pablo Villafranca",
+          "Roberto Alagna",
+          "Vincent Nicol"
+        ],
+        "réponse": "Vincent Nicol",
+        "anecdote": "Im Frühjahr 2016 veröffentlichte Vincent Niclo ein viertes Album mit dem Titel « 5.0 », das vollständig von Pascal Obispo komponiert und produziert wurde."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Sänger von The Calling wurde 2013 entführt ?",
+        "propositions": [
+          "Max Bemis",
+          "Wayne Brady",
+          "Alex Band",
+          "Adam Bomb"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "Nach einem Auftritt im Film « Coyote Girls » mit ihrem Titel « Where You Will Go » war es die Offenbarung für The Calling."
+      },
+      {
+        "id": 12,
+        "question": "Welche Bombe aus Robin Thickes Clip « Blurred Lines » explodierte in den Augen der Welt ?",
+        "propositions": [
+          "Shannon Elizabeth",
+          "Elle Evans",
+          "Angie Everhart",
+          "Lindsay Ellingson"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "Nachdem dieses Video auf Youtube über 410 Millionen Mal angesehen wurde, trat Elle Evans in zwei Beyoncé-Musikvideos auf."
+      },
+      {
+        "id": 13,
+        "question": "Wer war der König der Nominierungen für die MTV Video Music Awards 2013 ?",
+        "propositions": [
+          "Justin Timberlake",
+          "Robin Thicke",
+          "Drake",
+          "Bruno Mars"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "Die MTV Video Music Awards 2013 fanden am 25. August 2013 im Barclays Center in Brooklyn statt."
+      },
+      {
+        "id": 14,
+        "question": "Welcher kanadische Rapper wurde 2013 NBA-Botschafter der Toronto Raptors ?",
+        "propositions": [
+          "Belly",
+          "Drake",
+          "Nav",
+          "Snow"
+        ],
+        "réponse": "Drake",
+        "anecdote": "Im November 2016 erreichte Drake mit « Hotline Bling » als dritter Rapper eine Milliarde Aufrufe auf YouTube."
+      },
+      {
+        "id": 15,
+        "question": "Welchem Schriftsteller verdanken wir die « Bridget Jones »-Saga ?",
+        "propositions": [
+          "Helen Fielding",
+          "Dorothy Cannell",
+          "Denise Robins",
+          "Barbara Pym"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "Die Romane wurden erstmals 1997 und 1998 in den Kolumnen der Zeitungen The Independent und The Daily Telegraph veröffentlicht."
+      },
+      {
+        "id": 16,
+        "question": "Wer hat am 2. Oktober 2013 seinen Posten als künstlerischer Leiter von Louis Vuitton verlassen ?",
+        "propositions": [
+          "François Demachy",
+          "Bernard Arnault",
+          "Michael Burke",
+          "Marc Jacobs"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "In sechzehn Jahren ist es Marc Jacobs gelungen, die Marke von einem Luxuslederwarenhersteller zu einer führenden Modemarke zu entwickeln."
+      },
+      {
+        "id": 17,
+        "question": "Wer war Titoffs Partner in der vierten Staffel von « Dancing with the Stars » ?",
+        "propositions": [
+          "Silvia Notargiacomo",
+          "Candice Pascal",
+          "Denitsa Ikonomova",
+          "Fauve Hautot"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "Sie war auch Partnerin von David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé und Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Regisseur von « Königin Margot » starb an Lungenkrebs ?",
+        "propositions": [
+          "Gildas Bourdet",
+          "Jean-Louis Benoît",
+          "Patrice Chéreau",
+          "Alain Sachs"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "Die Arbeit von Patrice Chéreau verbindet plastische Forschung, politische Reflexion und die Erforschung menschlicher Obsessionen."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Sänger ist mit seiner « Take The Crown Tour » Tour durch europäische Länder gereist ?",
+        "propositions": [
+          "Patrick Wolf",
+          "Ben Watt",
+          "Robbie Williams",
+          "Darren White"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "Er wird den ganzen Sommer über 26 Konzerte in großen europäischen Stadien geben, begleitet von Olly Murs im ersten Teil des Konzerts."
+      },
+      {
+        "id": 20,
+        "question": "Welche Figur wurde von Yves Marchesseau in « Fort Boyard » gespielt ?",
+        "propositions": [
+          "Passe-Temps",
+          "La Boule",
+          "Mister-Boo",
+          "Vater Fouras"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Seit ihrem Ausscheiden im Jahr 2014 aus gesundheitlichen Gründen ist es Félindra (Monique Angeon), die Bändigerin, die sich um das Klingeln des Gongs kümmert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Franzose wurde 2013 in Moskau Weltmeister im Dreisprung ?",
+        "propositions": [
+          "Serge Hélan",
+          "Christian Taylor",
+          "Teddy Tamgho",
+          "Christian Olsson"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "Mit seinem Sprung auf 18,04 Meter überschritt Teddy Tamgho als dritter Athlet die 18-Meter-Grenze im Dreisprung."
+      },
+      {
+        "id": 22,
+        "question": "Welcher ehemalige französische Minister tritt in einem Musikvideo von Joyce Jonathan auf ?",
+        "propositions": [
+          "Roselyne Bachelot",
+          "Myriam El Khomri",
+          "Martine Aubry",
+          "Elisabeth Guigou"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "Zuerst erschien sie im Remake des Clips für « eEs wird schon », sie wird dann in der Folge « Sturmwarnung » von « Unsere lieben Nachbarn » mitspielen."
+      },
+      {
+        "id": 23,
+        "question": "Welcher junge amerikanische Sänger ist der Schützling von Rapper Eminem ?",
+        "propositions": [
+          "Marie Osmond",
+          "Bella Thorne",
+          "Skylar Grey",
+          "Lisa Germano"
+        ],
+        "réponse": "Skylar Grey",
+        "anecdote": "Skylar Gray gab sein professionelles Debüt in einer Folk-Gruppe namens Generations, die mit seiner Mutter komponiert wurde."
+      },
+      {
+        "id": 24,
+        "question": "Welcher amerikanische Kletterer ist der Held von Danny Boyles « 127 Stunden » ?",
+        "propositions": [
+          "Terris Moore",
+          "Scott Fischer",
+          "Aron Ralston",
+          "Bruce Carson"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "In den Tiefen einer abgelegenen Schlucht gefangen, amputierte Aron Ralston selbst mit seinem Messer seinen rechten Unterarm, um zu überleben."
+      },
+      {
+        "id": 25,
+        "question": "Welchen amerikanischen Basketballspieler ehrt der Converse All Star ?",
+        "propositions": [
+          "Chuck Taylor",
+          "John Thompson",
+          "Stab Dorn",
+          "Isiah Thomas"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor hat einen Großteil seines Lebens damit verbracht, Schuhe in den Vereinigten Staaten zu bewerben und zu verkaufen."
+      },
+      {
+        "id": 26,
+        "question": "Wie heißt das belgische Double des kanadischen Sängers und Schauspielers Justin Bieber ?",
+        "propositions": [
+          "C. Hagelstein",
+          "C. Stephane",
+          "J. Richarts",
+          "F. Vincent"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber ist der jüngste Künstler, der sein erstes Album seit Stevie Wonder im Jahr 1963 an die Spitze der Billboard 200 platziert hat."
+      },
+      {
+        "id": 27,
+        "question": "Wer spielt Félindra, die Tigertrainerin aus « Fort Boyard » bei France 2 ?",
+        "propositions": [
+          "Mabel Stark",
+          "Monique Angeon",
+          "Rosa Bouglione",
+          "Barbara Woodhouse"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "Sie kümmert sich während der zweimonatigen Dreharbeiten um die Tiger und bringt sie dann zum Trainer Thierry Le Portier zurück."
+      },
+      {
+        "id": 28,
+        "question": "Wer hat 2001 den heute berühmten Stadion Gods Kalender erstellt ?",
+        "propositions": [
+          "Max Guazzini",
+          "Joseph Galy",
+          "Albert Ginesty",
+          "Paul Goze"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini hat eine Doppel-CD mit den 46 wichtigsten gregorianischen und lateinischen Gesängen mit dem Titel « Credo » produziert, die am 11."
+      },
+      {
+        "id": 29,
+        "question": "Wer ist die amerikanische Stimme von Siri, dem iPhone-Spracherkennungssystem ?",
+        "propositions": [
+          "Peggy March",
+          "Susan Benett",
+          "Vonda Shepard",
+          "Sofia Carson"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Einige meinen, dass Siri mit Google Now und Cortana einer der Hinweise auf eine breite Durchdringung des digitalen Lebens ist."
+      },
+      {
+        "id": 30,
+        "question": "Wer war der erste spanische Schriftsteller, der den Pulitzer-Preis für Belletristik erhielt ?",
+        "propositions": [
+          "Peter Taylor",
+          "John Updike",
+          "Norman Mailer",
+          "Oscar Hijuelos"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "Der Schriftsteller starb am 12. Oktober 2013 nach einem Herzinfarkt beim Tennisspielen in Manhattan."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué seudónimo masculino utilizó J. K. Rowling para publicar un libro ?",
+        "propositions": [
+          "Robert J. Harris",
+          "Robert Galbraith",
+          "Adam Roberts",
+          "Robert Holdstock"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne siempre quiso que la llamaran Ella Galbraith, siendo la elección de Robert un tributo al presidente Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué ciclista keniano ganó el Tour de Francia 2013 ?",
+        "propositions": [
+          "Vincenzo Nibali",
+          "Bradley Wiggins",
+          "Cadel Evans",
+          "Christopher Froome"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "Unos días antes del Tour de Francia 2018, será absuelto como parte de la investigación sobre posible dopaje."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué abogado francés defendió al nazi Klaus Barbie y al dictador Slobodan Milosevic ?",
+        "propositions": [
+          "Alexandre Varenne",
+          "Jean Veil",
+          "Jacques Vergès",
+          "Pierre Verdier"
+        ],
+        "réponse": "Jacques Vergès",
+        "anecdote": "Después de resistirse, el abogado Jacques Vergès se hizo famoso por sus convicciones anticolonialistas."
+      },
+      {
+        "id": 4,
+        "question": "¿Quién fue elegido mejor jugador del torneo europeo de baloncesto en 2013 ?",
+        "propositions": [
+          "Tony Parker",
+          "Christian Welp",
+          "Andrei Kirilenko",
+          "Pau Gasol"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Tony Parker también ha sido presidente y accionista mayoritario del club francés ASVEL Lyon-Villeurbanne desde 2014."
+      },
+      {
+        "id": 5,
+        "question": "¿Quién hizo su regreso al escenario con « Robin regresa ... Tsoin Tsoin » ?",
+        "propositions": [
+          "Muriel Robin",
+          "Josiane Balasko",
+          "Chantal Lauby",
+          "Michèle Laroque"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "También se la verá en televisión en las películas para televisión « Passage du desire », « Indiscretions » y « Le Clan des Lanzac »."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué autor famoso escribió una historia sadomasoquista en tres volúmenes ?",
+        "propositions": [
+          "Betty Neels",
+          "Elizabeth Cadell",
+          "E. L. James",
+          "Carole Mortimer"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "Este ex ejecutivo de televisión de la BBC ha vendido más de 150 millones de copias de la saga « Cincuenta sombras de Grey »."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué rapero blanco puede decir 101 palabras en 16 segundos ?",
+        "propositions": [
+          "Eminem",
+          "Ludacris",
+          "Brisco",
+          "Doseone"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "Además de su carrera en solitario, también es miembro del grupo D12 y compone el dúo Bad Meets Evil con Royce da 5'9."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué piloto alemán de F1 ha ganado cuatro títulos mundiales consecutivos ?",
+        "propositions": [
+          "Manuel Reuter",
+          "Hermann Lang",
+          "Sebastian Vettel",
+          "Klaus Graf"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "En 2008, en Monza, Sebastian Vettel se convirtió en el ganador más joven de un Gran Premio (récord batido en 2016 por Max Verstappen)."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué famoso presidente negro murió a los 95 años el 5 de diciembre de 2013 ?",
+        "propositions": [
+          "Thabo Mbeki",
+          "Cyril Ramaphosa",
+          "Jacob Zuma",
+          "Nelson Mandela"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela es aclamado como el padre de una Sudáfrica multirracial y completamente democrática conocida como una nación arcoíris."
+      },
+      {
+        "id": 10,
+        "question": "¿A qué joven tenor francés le debemos un disco con canciones de Luis Mariano ?",
+        "propositions": [
+          "Pablo Villafranca",
+          "Vincent Niclo",
+          "Roberto Alagna",
+          "Ivan Rebroff"
+        ],
+        "réponse": "Vincent Niclo",
+        "anecdote": "En la primavera de 2016, Vincent Niclo lanzó un cuarto álbum titulado « 5.0 », íntegramente compuesto y producido por Pascal Obispo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué cantante de The Calling fue secuestrado en 2013 ?",
+        "propositions": [
+          "Alex Band",
+          "Adam Bomb",
+          "Max Bemis",
+          "Wayne Brady"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "Después de una aparición en la película « Coyote Girls » con su título « Wherever You Will Go », fue la revelación de The Calling."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué bomba del clip « Blurred Lines » de Robin Thicke explotó ante los ojos del mundo ?",
+        "propositions": [
+          "Angie Everhart",
+          "Shannon Elizabeth",
+          "Lindsay Ellingson",
+          "Elle Evans"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "Después de que este video se viera más de 410 millones de veces en Youtube, Elle Evans apareció en dos videos musicales de Beyoncé."
+      },
+      {
+        "id": 13,
+        "question": "¿Quién fue el rey de las nominaciones a los MTV Video Music Awards 2013 ?",
+        "propositions": [
+          "Drake",
+          "Bruno Mars",
+          "Justin Timberlake",
+          "Robin Thicke"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "Los MTV Video Music Awards 2013 se llevaron a cabo el 25 de agosto de 2013 en Barclays Center en Brooklyn."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué rapero canadiense se convirtió en embajador de la NBA Toronto Raptors en 2013 ?",
+        "propositions": [
+          "Belly",
+          "Nav",
+          "Snow",
+          "Drake"
+        ],
+        "réponse": "Drake",
+        "anecdote": "En noviembre de 2016, Drake se convirtió en el tercer rapero en alcanzar mil millones de visitas en YouTube con « Hotline Bling »."
+      },
+      {
+        "id": 15,
+        "question": "¿A qué novelista le debemos la saga de « Bridget Jones » ?",
+        "propositions": [
+          "Barbara Pym",
+          "Dorothy Cannell",
+          "Denise Robins",
+          "Helen Fielding"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "Las novelas se publicaron por primera vez en las columnas de los periódicos The Independent y The Daily Telegraph en 1997 y 1998."
+      },
+      {
+        "id": 16,
+        "question": "¿Quién dejó su puesto como director artístico de Louis Vuitton el 2 de octubre de 2013 ?",
+        "propositions": [
+          "Michael Burke",
+          "Marc Jacobs",
+          "Bernard Arnault",
+          "François Demachy"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "En dieciséis años, Marc Jacobs ha logrado transformar la marca de un fabricante de artículos de cuero de lujo a una marca de moda líder."
+      },
+      {
+        "id": 17,
+        "question": "¿Quién fue el compañero de Titoff en la cuarta temporada de « Dancing with the Stars » ?",
+        "propositions": [
+          "Denitsa Ikonomova",
+          "Fauve Hautot",
+          "Silvia Notargiacomo",
+          "Candice Pascal"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "También fue pareja de David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé y Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué director de « Queen Margot » murió de cáncer de pulmón ?",
+        "propositions": [
+          "Patrice Chéreau",
+          "Alain Sachs",
+          "Gildas Bourdet",
+          "Jean-Louis Benoît"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "El trabajo de Patrice Chéreau combina la investigación plástica, las reflexiones políticas y la exploración de las obsesiones humanas."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué cantante ha viajado por países europeos con su gira « Take The Crown Tour » ?",
+        "propositions": [
+          "Darren White",
+          "Ben Watt",
+          "Robbie Williams",
+          "Patrick Wolf"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "Dará 26 conciertos a lo largo del verano en los principales estadios europeos, acompañado por Olly Murs en la primera parte del concierto."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué personaje interpretó Yves Marchesseau en « Fort Boyard » ?",
+        "propositions": [
+          "La Boule",
+          "Passe-Temps",
+          "Mister-Boo",
+          "Padre Fouras"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Desde su marcha en 2014 por motivos de salud, es Félindra (Monique Angeon), la domadora, quien se encarga de tocar el gong."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué francés se convirtió en campeón mundial de triple salto en Moscú en 2013 ?",
+        "propositions": [
+          "Christian Olsson",
+          "Teddy Tamgho",
+          "Christian Taylor",
+          "Serge Hélan"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "Su salto a 18,04 metros convirtió a Teddy Tamgho en el tercer atleta en superar el límite de los dieciocho metros en el triple salto."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué exministro francés aparece en un video musical de Joyce Jonathan ?",
+        "propositions": [
+          "Roselyne Bachelot",
+          "Myriam El Khomri",
+          "Martine Aubry",
+          "Élisabeth Guigou"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "Apareció por primera vez en la nueva versión del clip de « Todo estará bien », luego jugará en el episodio « Advertencia de tormenta » de « Nuestros queridos vecinos »."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué joven cantante estadounidense es el protegido del rapero Eminem ?",
+        "propositions": [
+          "Bella Thorne",
+          "Lisa Germano",
+          "Skylar Grey",
+          "Marie Osmond"
+        ],
+        "réponse": "Skylar Grey",
+        "anecdote": "Skylar Gray hizo su debut profesional en un grupo de folk compuesto con su madre llamado Generations."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué escalador estadounidense es el héroe de las « 127 horas » de Danny Boyle ?",
+        "propositions": [
+          "Aron Ralston",
+          "Scott Fischer",
+          "Terris Moore",
+          "Bruce Carson"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "Atrapado en las profundidades de un cañón remoto, el propio Aron Ralston se amputó el antebrazo derecho con su cuchillo para sobrevivir."
+      },
+      {
+        "id": 25,
+        "question": "¿A qué jugador de baloncesto estadounidense honra el Converse All Star ?",
+        "propositions": [
+          "Rod Thorn",
+          "Chuck Taylor",
+          "Isiah Thomas",
+          "John Thompson"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor ha pasado gran parte de su vida promocionando y vendiendo zapatos en los Estados Unidos."
+      },
+      {
+        "id": 26,
+        "question": "¿Cómo se llama el doble belga del cantante y actor canadiense Justin Bieber ?",
+        "propositions": [
+          "C. Stéphane",
+          "F. Vincent",
+          "J. Richarts",
+          "C. Hagelstein"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber es el artista más joven en colocar su primer álbum en la cima del Billboard 200 desde Stevie Wonder en 1963."
+      },
+      {
+        "id": 27,
+        "question": "¿Quién interpreta a Félindra, la entrenadora de tigres de « Fort Boyard » en France 2 ?",
+        "propositions": [
+          "Monique Angeon",
+          "Mabel Stark",
+          "Barbara Woodhouse",
+          "Rosa Bouglione"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "Ella se ocupa de los tigres durante los dos meses de filmación del programa y luego se los lleva al entrenador Thierry Le Portier."
+      },
+      {
+        "id": 28,
+        "question": "¿Quién creó en 2001 el ahora famoso calendario de los Dioses del Estadio ?",
+        "propositions": [
+          "Paul Goze",
+          "Joseph Galy",
+          "Albert Ginesty",
+          "Max Guazzini"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini ha producido un doble CD de los 46 principales cantos gregorianos y latinos titulado « Credo », lanzado el 11 de abril de 2011."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién es la voz estadounidense de Siri, el sistema de reconocimiento de voz del iPhone ?",
+        "propositions": [
+          "Susan Benett",
+          "Sofia Carson",
+          "Vonda Shepard",
+          "Peggy March"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Algunos consideran que con Google Now y Cortana, Siri es una de las pistas de una amplia penetración de la vida digital."
+      },
+      {
+        "id": 30,
+        "question": "¿Quién fue el primer escritor hispano en recibir el premio Pulitzer de ficción ?",
+        "propositions": [
+          "Peter Taylor",
+          "Oscar Hijuelos",
+          "Norman Mailer",
+          "John Updike"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "El novelista murió el 12 de octubre de 2013, tras un infarto mientras jugaba al tenis en Manhattan."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale pseudonimo maschile ha usato J.K. Rowling per pubblicare un libro ?",
+        "propositions": [
+          "Robert J. Harris",
+          "Robert Galbraith",
+          "Robert Holdstock",
+          "Adam Roberts"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne ha sempre voluto essere chiamata Ella Galbraith, la scelta di Robert è stata un tributo al presidente Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "Quale ciclista keniota ha vinto il Tour de France 2013 ?",
+        "propositions": [
+          "Bradley Wiggins",
+          "Cadel Evans",
+          "Christopher Froome",
+          "Vincenzo Nibali"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "Pochi giorni prima del Tour de France 2018, verrà scagionato nell'ambito delle indagini su possibile doping."
+      },
+      {
+        "id": 3,
+        "question": "Quale avvocato francese ha difeso il nazista Klaus Barbie e il dittatore Slobodan Milosevic ?",
+        "propositions": [
+          "Pierre Verdier",
+          "Jean Veil",
+          "Jacques Vergès",
+          "Alexandre Varenne"
+        ],
+        "réponse": "Jacques Vergès",
+        "anecdote": "Dopo aver opposto resistenza, l'avvocato Jacques Vergès divenne famoso per le sue convinzioni anticolonialiste."
+      },
+      {
+        "id": 4,
+        "question": "Chi è stato votato miglior giocatore del torneo europeo di basket nel 2013 ?",
+        "propositions": [
+          "Tony Parker",
+          "Andrei Kirilenko",
+          "Christian Welp",
+          "Pau Gasol"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Tony Parker è anche presidente e azionista di maggioranza del club francese ASVEL Lyon-Villeurbanne dal 2014."
+      },
+      {
+        "id": 5,
+        "question": "Chi ha fatto il suo ritorno sul palco con « Robin ritorna ... Tsoin Tsoin » ?",
+        "propositions": [
+          "Muriel Robin",
+          "Michèle Laroque",
+          "Chantal Lauby",
+          "Josiane Balasko"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "Apparirà anche in televisione nei film TV « Passage du desire », « Indiscretions » e « Le Clan des Lanzac »."
+      },
+      {
+        "id": 6,
+        "question": "Quale famoso autore ha scritto una storia sadomaso in tre volumi ?",
+        "propositions": [
+          "E. L. James",
+          "Betty Neels",
+          "Carole Mortimer",
+          "Elizabeth Cadell"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "Questo ex dirigente televisivo della BBC ha venduto oltre 150 milioni di copie della saga « Cinquanta sfumature di grigio »."
+      },
+      {
+        "id": 7,
+        "question": "Quale rapper bianco può dire 101 parole in 16 secondi ?",
+        "propositions": [
+          "Doseone",
+          "Brisco",
+          "Ludacris",
+          "Eminem"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "Oltre alla sua carriera solista, è anche membro del gruppo D12 e compone il duo Bad Meets Evil con Royce da 5'9."
+      },
+      {
+        "id": 8,
+        "question": "Quale pilota tedesco di F1 ha vinto quattro titoli mondiali consecutivi ?",
+        "propositions": [
+          "Manuel Reuter",
+          "Hermann Lang",
+          "Sebastian Vettel",
+          "Klaus Graf"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "Nel 2008, a Monza, Sebastian Vettel diventa il più giovane vincitore di un Gran Premio (record battuto nel 2016 da Max Verstappen)."
+      },
+      {
+        "id": 9,
+        "question": "Quale famoso presidente nero è morto all'età di 95 anni il 5 dicembre 2013 ?",
+        "propositions": [
+          "Nelson Mandela",
+          "Cyril Ramaphosa",
+          "Thabo Mbeki",
+          "Jacob Zuma"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela è salutato come il padre di un Sudafrica multirazziale e completamente democratico noto come una nazione arcobaleno."
+      },
+      {
+        "id": 10,
+        "question": "A quale giovane tenore francese dobbiamo un album con canzoni di Luis Mariano ?",
+        "propositions": [
+          "Ivan Rebroff",
+          "Vincent Niclo",
+          "Pablo Villafranca",
+          "Roberto Alagna"
+        ],
+        "réponse": "Vincent Niclo",
+        "anecdote": "Nella primavera del 2016, Vincent Niclo ha pubblicato un quarto album intitolato « 5.0 », interamente composto e prodotto da Pascal Obispo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale cantante di The Calling è stato rapito nel 2013 ?",
+        "propositions": [
+          "Alex Band",
+          "Max Bemis",
+          "Adam Bomb",
+          "Wayne Brady"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "Dopo un'apparizione nel film « Coyote Girls » con il titolo « Ovunque andrai », è stata la rivelazione per The Calling."
+      },
+      {
+        "id": 12,
+        "question": "Quale bomba del clip « Blurred Lines » di Robin Thicke è esplosa agli occhi del mondo ?",
+        "propositions": [
+          "Elle Evans",
+          "Lindsay Ellingson",
+          "Shannon Elizabeth",
+          "Angie Everhart"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "Dopo che questo video è stato visto oltre 410 milioni di volte su Youtube, Elle Evans è apparsa in due video musicali di Beyoncé."
+      },
+      {
+        "id": 13,
+        "question": "Chi è stato il re delle nomination agli MTV Video Music Awards 2013 ?",
+        "propositions": [
+          "Drake",
+          "Bruno Mars",
+          "Robin Thicke",
+          "Justin Timberlake"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "Gli MTV Video Music Awards 2013 si sono svolti il 25 agosto 2013 al Barclays Center di Brooklyn."
+      },
+      {
+        "id": 14,
+        "question": "Quale rapper canadese è diventato ambasciatore NBA Toronto Raptors nel 2013 ?",
+        "propositions": [
+          "Nav",
+          "Belly",
+          "Drake",
+          "Snow"
+        ],
+        "réponse": "Drake",
+        "anecdote": "Nel novembre 2016, Drake è diventato il terzo rapper a raggiungere un miliardo di visualizzazioni su YouTube con « Hotline Bling »."
+      },
+      {
+        "id": 15,
+        "question": "A quale romanziere dobbiamo la saga di « Bridget Jones » ?",
+        "propositions": [
+          "Denise Robins",
+          "Helen Fielding",
+          "Dorothy Cannell",
+          "Barbara Pym"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "I romanzi sono stati pubblicati per la prima volta nelle colonne dei giornali The Independent e The Daily Telegraph nel 1997 e nel 1998."
+      },
+      {
+        "id": 16,
+        "question": "Chi ha lasciato il suo incarico di direttore artistico di Louis Vuitton il 2 ottobre 2013 ?",
+        "propositions": [
+          "François Demachy",
+          "Marc Jacobs",
+          "Bernard Arnault",
+          "Michael Burke"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "In sedici anni, Marc Jacobs è riuscito a trasformare il marchio da produttore di pelletteria di lusso a marchio di moda leader."
+      },
+      {
+        "id": 17,
+        "question": "Chi era il partner di Titoff nella quarta stagione di « Ballando con le stelle » ?",
+        "propositions": [
+          "Denitsa Ikonomova",
+          "Silvia Notargiacomo",
+          "Fauve Hautot",
+          "Candice Pascal"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "È stata anche partner di David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé e Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "Quale regista della « Queen Margot » è morta di cancro ai polmoni ?",
+        "propositions": [
+          "Patrice Chéreau",
+          "Jean-Louis Benoît",
+          "Alain Sachs",
+          "Gildas Bourdet"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "Il lavoro di Patrice Chéreau unisce ricerca plastica, riflessioni politiche ed esplorazione delle ossessioni umane."
+      },
+      {
+        "id": 19,
+        "question": "Quale cantante ha viaggiato attraverso i paesi europei con il suo tour « Take The Crown Tour » ?",
+        "propositions": [
+          "Darren White",
+          "Robbie Williams",
+          "Ben Watt",
+          "Patrick Wolf"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "Darà 26 concerti per tutta l'estate nei maggiori stadi europei, accompagnato da Olly Murs nella prima parte del concerto."
+      },
+      {
+        "id": 20,
+        "question": "Quale personaggio è stato interpretato da Yves Marchesseau in « Fort Boyard » ?",
+        "propositions": [
+          "Padre Fouras",
+          "Passe-Temps",
+          "Mister-Boo",
+          "La Boule"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Dalla sua partenza nel 2014 per motivi di salute, è Félindra (Monique Angeon), la domatrice, che si occupa di suonare il gong."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale francese è diventato campione del mondo di salto triplo a Mosca nel 2013 ?",
+        "propositions": [
+          "Serge Hélan",
+          "Christian Taylor",
+          "Teddy Tamgho",
+          "Christian Olsson"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "Il suo salto a 18,04 metri ha reso Teddy Tamgho il terzo atleta a superare il limite dei diciotto metri nel salto triplo."
+      },
+      {
+        "id": 22,
+        "question": "Quale ex ministro francese fa la sua apparizione in un video musicale di Joyce Jonathan ?",
+        "propositions": [
+          "Myriam El Khomri",
+          "Elisabeth Guigou",
+          "Roselyne Bachelot",
+          "Martine Aubry"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "Apparsa per la prima volta nel remake della clip di « Andrà tutto bene », interpreterà poi nell'episodio « Storm Warning » di « Our Dear Neighbours »."
+      },
+      {
+        "id": 23,
+        "question": "Quale giovane cantante americana è il protetto del rapper Eminem ?",
+        "propositions": [
+          "Marie Osmond",
+          "Skylar Grey",
+          "Bella Thorne",
+          "Lisa Germano"
+        ],
+        "réponse": "Skylar Grey",
+        "anecdote": "Skylar Gray ha fatto il suo debutto professionale in un gruppo folk composto con sua madre chiamato Generations."
+      },
+      {
+        "id": 24,
+        "question": "Quale scalatore americano è l'eroe di « 127 Hours » di Danny Boyle ?",
+        "propositions": [
+          "Aron Ralston",
+          "Bruce Carson",
+          "Scott Fischer",
+          "Terris Moore"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "Bloccato nelle profondità di un canyon remoto, lo stesso Aron Ralston ha amputato il suo avambraccio destro con il suo coltello per sopravvivere."
+      },
+      {
+        "id": 25,
+        "question": "Quale giocatore di basket americano onora le Converse All Star ?",
+        "propositions": [
+          "Isiah Thomas",
+          "Rod Thorn",
+          "Chuck Taylor",
+          "John Thompson"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor ha trascorso gran parte della sua vita a promuovere e vendere scarpe negli Stati Uniti."
+      },
+      {
+        "id": 26,
+        "question": "Come si chiama il doppio belga del cantante e attore canadese Justin Bieber ?",
+        "propositions": [
+          "F. Vincent",
+          "J. Richarts",
+          "C. Hagelstein",
+          "C. Stéphane"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber è l'artista più giovane a piazzare il suo primo album in cima alla Billboard 200 da Stevie Wonder nel 1963."
+      },
+      {
+        "id": 27,
+        "question": "Chi interpreta Félindra, l'addestratrice di tigri di « Fort Boyard » in France 2 ?",
+        "propositions": [
+          "Monique Angeon",
+          "Mabel Stark",
+          "Barbara Woodhouse",
+          "Rosa Bouglione"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "Si prende cura delle tigri durante i due mesi di riprese dello spettacolo, poi le riporta all'allenatore Thierry Le Portier."
+      },
+      {
+        "id": 28,
+        "question": "Nel 2001, chi ha creato l'ormai famoso Calendario degli Dei dello Stadio ?",
+        "propositions": [
+          "Joseph Galy",
+          "Paul Goze",
+          "Max Guazzini",
+          "Albert Ginesty"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini ha prodotto un doppio CD dei 46 principali canti gregoriani e latini dal titolo « Credo », uscito l'11 aprile 2011."
+      },
+      {
+        "id": 29,
+        "question": "Chi è la voce americana di Siri, il sistema di riconoscimento vocale per iPhone ?",
+        "propositions": [
+          "Sofia Carson",
+          "Peggy March",
+          "Susan Benett",
+          "Vonda Shepard"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Alcuni considerano che con Google Now e Cortana, Siri sia uno degli indizi di un'ampia penetrazione della vita digitale."
+      },
+      {
+        "id": 30,
+        "question": "Chi è stato il primo scrittore ispanico a ricevere il Premio Pulitzer per la narrativa ?",
+        "propositions": [
+          "Peter Taylor",
+          "John Updike",
+          "Oscar Hijuelos",
+          "Norman Mailer"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "Il romanziere è morto il 12 ottobre 2013, dopo un attacco di cuore mentre giocava a tennis a Manhattan."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk mannelijk pseudoniem gebruikte J.K. Rowling om een boek uit te geven ?",
+        "propositions": [
+          "Robert Holdstock",
+          "Robert J. Harris",
+          "Robert Galbraith",
+          "Adam Roberts"
+        ],
+        "réponse": "Robert Galbraith",
+        "anecdote": "Joanne wilde altijd Ella Galbraith heten, Robert's keuze was een eerbetoon aan president Robert F. Kennedy."
+      },
+      {
+        "id": 2,
+        "question": "Welke Keniaanse wielrenner won de Tour de France 2013 ?",
+        "propositions": [
+          "Cadel Evans",
+          "Bradley Wiggins",
+          "Vincenzo Nibali",
+          "Christopher Froome"
+        ],
+        "réponse": "Christopher Froome",
+        "anecdote": "Enkele dagen voor de Tour de France 2018 wordt hij vrijgesproken in het kader van het onderzoek naar mogelijke doping."
+      },
+      {
+        "id": 3,
+        "question": "Welke Franse advocaat verdedigde nazi Klaus Barbie en dictator Slobodan Milosevic ?",
+        "propositions": [
+          "Alexandre Varenne",
+          "Pierre Verdier",
+          "Jacques Verges",
+          "Jean Veil"
+        ],
+        "réponse": "Jacques Verges",
+        "anecdote": "Na weerstand te hebben geboden, werd de advocaat Jacques Vergès beroemd vanwege zijn antikolonialistische overtuigingen."
+      },
+      {
+        "id": 4,
+        "question": "Wie werd in 2013 verkozen tot beste speler van het Europese basketbaltoernooi ?",
+        "propositions": [
+          "Tony Parker",
+          "Christian Welp",
+          "Andrei Kirilenko",
+          "Pau Gasol"
+        ],
+        "réponse": "Tony Parker",
+        "anecdote": "Tony Parker is sinds 2014 ook voorzitter en meerderheidsaandeelhouder van de Franse club ASVEL Lyon-Villeurbanne."
+      },
+      {
+        "id": 5,
+        "question": "Wie maakte zijn comeback op het podium met « Robin keert terug ... Tsoin Tsoin » ?",
+        "propositions": [
+          "Michèle Laroque",
+          "Muriel Robin",
+          "Chantal Lauby",
+          "Josiane Balasko"
+        ],
+        "réponse": "Muriel Robin",
+        "anecdote": "Ze zal ook op televisie te zien zijn in de tv-films « Passage du desire », « Indiscretions » en « Le Clan des Lanzac »."
+      },
+      {
+        "id": 6,
+        "question": "Welke beroemde auteur schreef een sadomasochistisch verhaal in drie delen ?",
+        "propositions": [
+          "Betty Neels",
+          "Carole Mortimer",
+          "E. L. James",
+          "Elizabeth Cadell"
+        ],
+        "réponse": "E. L. James",
+        "anecdote": "Deze voormalige BBC-televisiedirecteur heeft meer dan 150 miljoen exemplaren van de « Fifty Shades of Grey » saga verkocht."
+      },
+      {
+        "id": 7,
+        "question": "Welke blanke rapper kan in 16 seconden 101 woorden zeggen ?",
+        "propositions": [
+          "Brisco",
+          "Eminem",
+          "Doseone",
+          "Ludacris"
+        ],
+        "réponse": "Eminem",
+        "anecdote": "Naast zijn solocarrière is hij ook lid van de groep D12 en componeert hij het duo Bad Meets Evil met Royce da 5'9."
+      },
+      {
+        "id": 8,
+        "question": "Welke Duitse F1-coureur heeft vier opeenvolgende wereldkampioenschappen gewonnen ?",
+        "propositions": [
+          "Klaus Graf",
+          "Hermann Lang",
+          "Manuel Reuter",
+          "Sebastian Vettel"
+        ],
+        "réponse": "Sebastian Vettel",
+        "anecdote": "In 2008 werd Sebastian Vettel op Monza de jongste winnaar van een Grand Prix (record in 2016 verbroken door Max Verstappen)."
+      },
+      {
+        "id": 9,
+        "question": "Welke beroemde zwarte president stierf op 5 december 2013 op 95-jarige leeftijd ?",
+        "propositions": [
+          "Nelson Mandela",
+          "Jacob Zuma",
+          "Cyril Ramaphosa",
+          "Thabo Mbeki"
+        ],
+        "réponse": "Nelson Mandela",
+        "anecdote": "Mandela wordt geprezen als de vader van een multiraciaal en volledig democratisch Zuid-Afrika dat bekend staat als een regenboognatie."
+      },
+      {
+        "id": 10,
+        "question": "Aan welke jonge Franse tenor hebben we een album te danken met liedjes van Luis Mariano ?",
+        "propositions": [
+          "Vincent Niclo",
+          "Ivan Rebroff",
+          "Roberto Alagna",
+          "Pablo Villafranca"
+        ],
+        "réponse": "Vincent Niclo",
+        "anecdote": "In het voorjaar van 2016 bracht Vincent Niclo een vierde album uit, getiteld « 5.0 », volledig gecomponeerd en geproduceerd door Pascal Obispo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke zanger van The Calling werd in 2013 ontvoerd ?",
+        "propositions": [
+          "Alex Band",
+          "Max Bemis",
+          "Wayne Brady",
+          "Adam Bom"
+        ],
+        "réponse": "Alex Band",
+        "anecdote": "Na een optreden in de film « Coyote Girls » met hun titel « Wherever You Will Go », was het de openbaring voor The Calling."
+      },
+      {
+        "id": 12,
+        "question": "Welke bom uit Robin Thicke's clip « Blurred Lines » ontplofte in de ogen van de wereld ?",
+        "propositions": [
+          "Angie Everhart",
+          "Elle Evans",
+          "Shannon Elizabeth",
+          "Lindsay Ellingson"
+        ],
+        "réponse": "Elle Evans",
+        "anecdote": "Nadat deze video meer dan 410 miljoen keer op YouTube was bekeken, verscheen Elle Evans in twee Beyoncé-muziekvideo's."
+      },
+      {
+        "id": 13,
+        "question": "Wie was de koning van de nominaties voor de MTV Video Music Awards 2013 ?",
+        "propositions": [
+          "Robin Thicke",
+          "Bruno Mars",
+          "Justin Timberlake",
+          "Drake"
+        ],
+        "réponse": "Justin Timberlake",
+        "anecdote": "De MTV Video Music Awards 2013 vonden plaats op 25 augustus 2013 in het Barclays Center in Brooklyn."
+      },
+      {
+        "id": 14,
+        "question": "Welke Canadese rapper werd in 2013 NBA Toronto Raptors-ambassadeur ?",
+        "propositions": [
+          "Belly",
+          "Nav",
+          "Snow",
+          "Drake"
+        ],
+        "réponse": "Drake",
+        "anecdote": "In november 2016 werd Drake de derde rapper die een miljard views op YouTube bereikte met « Hotline Bling »."
+      },
+      {
+        "id": 15,
+        "question": "Aan welke romanschrijver hebben we de « Bridget Jones » sage te danken ?",
+        "propositions": [
+          "Barbara Pym",
+          "Dorothy Cannell",
+          "Denise Robins",
+          "Helen Fielding"
+        ],
+        "réponse": "Helen Fielding",
+        "anecdote": "De romans werden voor het eerst gepubliceerd in de kolommen van The Independent en The Daily Telegraph kranten in 1997 en 1998."
+      },
+      {
+        "id": 16,
+        "question": "Wie verliet zijn functie als artistiek directeur van Louis Vuitton op 2 oktober 2013 ?",
+        "propositions": [
+          "François Demachy",
+          "Marc Jacobs",
+          "Bernard Arnault",
+          "Michael Burke"
+        ],
+        "réponse": "Marc Jacobs",
+        "anecdote": "In zestien jaar tijd is Marc Jacobs erin geslaagd het merk te transformeren van een luxe lederwarenfabrikant tot een toonaangevend modemerk."
+      },
+      {
+        "id": 17,
+        "question": "Wie was Titoffs partner in het vierde seizoen van « Dancing with the Stars » ?",
+        "propositions": [
+          "Silvia Notargiacomo",
+          "Fauve Hautot",
+          "Denitsa Ikonomova",
+          "Candice Pascal"
+        ],
+        "réponse": "Silvia Notargiacomo",
+        "anecdote": "Ze was ook de partner van David Ginola, Francis Lalanne, Gérard Vives, Anthony Kavanagh, Djibril Cissé en Julien Lepers."
+      },
+      {
+        "id": 18,
+        "question": "Welke regisseur van « Koningin Margot » stierf aan longkanker ?",
+        "propositions": [
+          "Alain Sachs",
+          "Gildas Bourdet",
+          "Patrice Chéreau",
+          "Jean-Louis Benoît"
+        ],
+        "réponse": "Patrice Chéreau",
+        "anecdote": "Het werk van Patrice Chéreau combineert plastisch onderzoek, politieke reflecties en de verkenning van menselijke obsessies."
+      },
+      {
+        "id": 19,
+        "question": "Welke zanger heeft met zijn « Take The Crown Tour » tour door Europese landen gereisd ?",
+        "propositions": [
+          "Robbie Williams",
+          "Darren White",
+          "Ben Watt",
+          "Patrick Wolf"
+        ],
+        "réponse": "Robbie Williams",
+        "anecdote": "Hij zal de hele zomer 26 concerten geven in grote Europese stadions, begeleid door Olly Murs in het eerste deel van het concert."
+      },
+      {
+        "id": 20,
+        "question": "Welk personage werd gespeeld door Yves Marchesseau in « Fort Boyard » ?",
+        "propositions": [
+          "Mister-Boo",
+          "La Boule",
+          "Passe-Temps",
+          "Vader Fouras"
+        ],
+        "réponse": "La Boule",
+        "anecdote": "Sinds haar vertrek in 2014 om gezondheidsredenen is het Félindra (Monique Angeon), de temmer, die zorgt voor het luiden van de gong."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke Fransman werd in 2013 wereldkampioen hinkstapspringen in Moskou ?",
+        "propositions": [
+          "Christian Olsson",
+          "Teddy Tamgho",
+          "Christian Taylor",
+          "Serge Hélan"
+        ],
+        "réponse": "Teddy Tamgho",
+        "anecdote": "Zijn sprong naar 18,04 meter maakte Teddy Tamgho de derde atleet die de achttien meter limiet overschreed in het hinkstapspringen."
+      },
+      {
+        "id": 22,
+        "question": "Welke voormalige Franse minister verschijnt in een muziekvideo van Joyce Jonathan ?",
+        "propositions": [
+          "Elisabeth Guigou",
+          "Roselyne Bachelot",
+          "Myriam El Khomri",
+          "Martine Aubry"
+        ],
+        "réponse": "Roselyne Bachelot",
+        "anecdote": "Verscheen voor het eerst in de remake van de clip voor « It'll be okay », ze zal daarna spelen in de aflevering « Storm Warning » van « Our Dear Neighbours »."
+      },
+      {
+        "id": 23,
+        "question": "Welke jonge Amerikaanse zangeres is de beschermeling van rapper Eminem ?",
+        "propositions": [
+          "Skylar Grey",
+          "Marie Osmond",
+          "Bella Thorne",
+          "Lisa Germano"
+        ],
+        "réponse": "Skylar Grey",
+        "anecdote": "Skylar Gray maakte zijn professionele debuut in een folkgroep gecomponeerd met zijn moeder genaamd Generations."
+      },
+      {
+        "id": 24,
+        "question": "Welke Amerikaanse klimmer is de held van Danny Boyle's « 127 Hours » ?",
+        "propositions": [
+          "Aron Ralston",
+          "Bruce Carson",
+          "Scott Fischer",
+          "Terris Moore"
+        ],
+        "réponse": "Aron Ralston",
+        "anecdote": "Aron Ralston zat vast in de diepten van een afgelegen ravijn en amputeerde zelf zijn rechteronderarm met zijn mes om te overleven."
+      },
+      {
+        "id": 25,
+        "question": "Welke Amerikaanse basketballer eert de Converse All Star ?",
+        "propositions": [
+          "Rod Thorn",
+          "John Thompson",
+          "Chuck Taylor",
+          "Isia Thomas"
+        ],
+        "réponse": "Chuck Taylor",
+        "anecdote": "Chuck Taylor heeft een groot deel van zijn leven besteed aan het promoten en verkopen van schoenen in de Verenigde Staten."
+      },
+      {
+        "id": 26,
+        "question": "Hoe heet de Belgische dubbelganger van de Canadese zanger en acteur Justin Bieber ?",
+        "propositions": [
+          "C. Stéphane",
+          "J. Richarts",
+          "F. Vincent",
+          "C. Hagelstein"
+        ],
+        "réponse": "C. Hagelstein",
+        "anecdote": "Justin Bieber is de jongste artiest die zijn eerste album bovenaan de Billboard 200 plaatst sinds Stevie Wonder in 1963."
+      },
+      {
+        "id": 27,
+        "question": "Wie speelt Félindra, de tijgertrainer uit « Fort Boyard » op France 2 ?",
+        "propositions": [
+          "Barbara Woodhouse",
+          "Rosa Bouglione",
+          "Monique Angeon",
+          "Mabel Stark"
+        ],
+        "réponse": "Monique Angeon",
+        "anecdote": "Ze zorgt voor de tijgers tijdens de twee maanden van het filmen van de show en brengt ze vervolgens terug naar de trainer Thierry Le Portier."
+      },
+      {
+        "id": 28,
+        "question": "Wie creëerde in 2001 de nu beroemde kalender van de Goden van het Stadion ?",
+        "propositions": [
+          "Paul Goze",
+          "Max Guazzini",
+          "Albert Ginesty",
+          "Joseph Galy"
+        ],
+        "réponse": "Max Guazzini",
+        "anecdote": "Max Guazzini heeft een dubbel-cd geproduceerd met de 46 belangrijkste Gregoriaanse en Latijnse gezangen, getiteld « Credo », uitgebracht op 11 april 2011."
+      },
+      {
+        "id": 29,
+        "question": "Wie is de Amerikaanse stem van Siri, het iPhone-spraakherkenningssysteem ?",
+        "propositions": [
+          "Susan Benett",
+          "Vonda Shepard",
+          "Peggy March",
+          "Sofia Carson"
+        ],
+        "réponse": "Susan Benett",
+        "anecdote": "Sommigen zijn van mening dat Siri met Google Now en Cortana een van de aanwijzingen is voor een brede penetratie van het digitale leven."
+      },
+      {
+        "id": 30,
+        "question": "Wie was de eerste Spaanse schrijver die de Pulitzerprijs voor fictie ontving ?",
+        "propositions": [
+          "John Updike",
+          "Peter Taylor",
+          "Norman Mailer",
+          "Oscar Hijuelos"
+        ],
+        "réponse": "Oscar Hijuelos",
+        "anecdote": "De romanschrijver stierf op 12 oktober 2013 na een hartaanval tijdens het tennissen in Manhattan."
+      }
+    ]
+    }
+  }
+}

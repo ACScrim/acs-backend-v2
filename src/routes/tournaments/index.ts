@@ -1,7 +1,7 @@
-import { ITournament } from "@models/Tournament";
+import { ITournament } from "../../models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
-import {IGame} from "@models/Game";
+import {IGame} from "../../models/Game";
 import { log } from "../../utils/utils";
 
 const populateCurrentPlayerLevel = async (fastify: any, tournament: ITournament & { game: any }, currentUserId: string) => {

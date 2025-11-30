@@ -1,5 +1,5 @@
-import { IReport } from "@models/Report";
-import { IUser } from "@models/User";
+import { IReport } from "../../../models/Report";
+import { IUser } from "../../../models/User";
 import { FastifyPluginAsync } from "fastify";
 import { log } from "../../../utils/utils";
 

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2023-03-11",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Informatique",
+      "nom": "Android",
+      "slogan": "La meilleure affaire de Google"
+    },
+    "en": {
+      "catégorie": "Computer science",
+      "nom": "Android",
+      "slogan": "Google's Best Deal"
+    },
+    "es": {
+      "catégorie": "Ciencias de la Computación",
+      "nom": "Android",
+      "slogan": "La mejor oferta de Google"
+    },
+    "it": {
+      "catégorie": "Informatica",
+      "nom": "Android",
+      "slogan": "La migliore offerta di Google"
+    },
+    "de": {
+      "catégorie": "Informatik",
+      "nom": "Android",
+      "slogan": "Das beste Angebot von Google"
+    },
+    "nl": {
+      "catégorie": "Computertechnologie",
+      "nom": "Android",
+      "slogan": "De beste deal van Google"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Sur quel noyau le système d'exploitation mobile Android est-il basé ?",
+        "propositions": [
+          "Accent",
+          "Linux",
+          "Windows NT",
+          "BSD"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Le noyau Linux est un logiciel libre développé essentiellement en langage C par des milliers de bénévoles sur Internet."
+      },
+      {
+        "id": 2,
+        "question": "Par quelle société le système Android est-il actuellement développé ?",
+        "propositions": [
+          "Google",
+          "HP",
+          "Apple",
+          "Microsoft"
+        ],
+        "réponse": "Google",
+        "anecdote": "Le système d'exploitation Android fut lancé en juin 2007 à la suite du rachat par Google en 2005 de la startup du même nom."
+      },
+      {
+        "id": 3,
+        "question": "Quel petit robot vert est utilisé par Google pour présenter son système Android ?",
+        "propositions": [
+          "Tux",
+          "Archie",
+          "Bugdroid",
+          "Woody"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, le logo d'Android, serait en fait un personnage d'un jeu des années 1990 sur Atari : « Gauntlet: The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "Quelle boutique en ligne permet l'achat d'applications pour Android ?",
+        "propositions": [
+          "Steam",
+          "App Store",
+          "Impulse",
+          "Google Play"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Bien que non inclus dans les sources d'Android, Google Play joue un rôle essentiel pour la popularité d'Android."
+      },
+      {
+        "id": 5,
+        "question": "Comment est nommé le navigateur web intégré par défaut à Android ?",
+        "propositions": [
+          "Surfeur",
+          "Web",
+          "Internet",
+          "Galerie"
+        ],
+        "réponse": "Internet",
+        "anecdote": "Android AOSP (code source) comporte de nombreuses applications incorporées : Téléphone, Contacts, E-Mail, Agenda, ..."
+      },
+      {
+        "id": 6,
+        "question": "Sur quel type de carte pouvez-vous déplacer des applications Android ?",
+        "propositions": [
+          "MicroSD",
+          "Réseau",
+          "Graphique",
+          "Wi-Fi"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "Cette possibilité repose sur les permissions et paramètres contenus dans le fichier manifeste de l'application qui l'autorise."
+      },
+      {
+        "id": 7,
+        "question": "Quel téléphone de Google fut le premier à bénéficier d'Android 2.2 (Froyo) ?",
+        "propositions": [
+          "Nexus Galaxy",
+          "Nexus S",
+          "Nexus One",
+          "Nexus Pixel"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "Ses ventes ne furent pas exceptionnelles avec seulement environ 20 000 exemplaires vendus la semaine de sa sortie."
+      },
+      {
+        "id": 8,
+        "question": "Quel modèle Samsung est devenu une référence en matière de tablettes Android ?",
+        "propositions": [
+          "GamePad",
+          "Galaxy Tab",
+          "Padphone",
+          "Nook"
+        ],
+        "réponse": "Galaxy Tab",
+        "anecdote": "À l'origine livrée sous Android 2.2, deux mois après sa sortie, la Samsung Galaxy Tab fut vendue à plus de 600 000 exemplaires."
+      },
+      {
+        "id": 9,
+        "question": "Quel nom a été donné à la version 8 du système d'exploitation Android ?",
+        "propositions": [
+          "Marshmallow",
+          "Oreo",
+          "Nougat",
+          "Lollipop"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "Cette version du système Android est disponible depuis le 21 août 2017 et porte le nom de la marque de biscuits Oreo."
+      },
+      {
+        "id": 10,
+        "question": "Quel pourcentage environ d'applications du Google Play sont gratuites ?",
+        "propositions": [
+          "45 %",
+          "55 %",
+          "35 %",
+          "65 %"
+        ],
+        "réponse": "65 %",
+        "anecdote": "Google Play permet de télécharger des applications, des livres, des films ou de la musique, payants ou non."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Avant mars 2012, quel était le précédent nom donné au Google Play Store ?",
+        "propositions": [
+          "Android Market",
+          "3DSWare",
+          "Galaxy Apps",
+          "Zeebo"
+        ],
+        "réponse": "Android Market",
+        "anecdote": "Début 2013, Google Play était fort de 800 000 applications, ce qui en faisait déjà le plus gros magasin d'applications au monde."
+      },
+      {
+        "id": 12,
+        "question": "Quel smartphone fut commercialisé dans le monde sous le nom de Motorola Milestone ?",
+        "propositions": [
+          "Droid",
+          "Galaxy S",
+          "Xperia",
+          "Nexus"
+        ],
+        "réponse": "Droid",
+        "anecdote": "Premier téléphone muni de la version 2.0 d'Android, l'appareil trouva 250 000 acheteurs une semaine après son lancement."
+      },
+      {
+        "id": 13,
+        "question": "Que faut-il dans son smartphone pour accéder au magasin d'applications Tegra ?",
+        "propositions": [
+          "iOS",
+          "Clé SSL",
+          "Bitcoins",
+          "Puce Tegra"
+        ],
+        "réponse": "Puce Tegra",
+        "anecdote": "Ce magasin permet notamment de télécharger des applications très haute définition (THD) dédiées aux téléphones sous Tegra."
+      },
+      {
+        "id": 14,
+        "question": "Quel service d'applications libres a été créé par la Free Software Foundation ?",
+        "propositions": [
+          "F-Droid",
+          "Android Market",
+          "Appslib",
+          "Zeebo"
+        ],
+        "réponse": "F-Droid",
+        "anecdote": "Les applications peuvent être installées via l'application F-Droid, mais peuvent également être chargées depuis le site web."
+      },
+      {
+        "id": 15,
+        "question": "En France, quelle société a commercialisé le premier mobile sous Android ?",
+        "propositions": [
+          "Free Mobile",
+          "SFR",
+          "Orange",
+          "Bouygues Telecom"
+        ],
+        "réponse": "Orange",
+        "anecdote": "Après le HTC Dream, le HTC Magic est arrivé début mai 2009 chez SFR, suivi par le Samsung Galaxy (ou i7500) chez Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "Quel smartphone proposé en octobre 2011, fut le premier fonctionnant sous Android 4 ?",
+        "propositions": [
+          "Galaxy Nexus",
+          "Xperia Play",
+          "Moto E",
+          "Xiaomi Mi 4"
+        ],
+        "réponse": "Galaxy Nexus",
+        "anecdote": "Celui-ci intègre le déverrouillage par reconnaissance faciale, les boutons virtuels et une reconnaissance vocale avancée."
+      },
+      {
+        "id": 17,
+        "question": "Quelle version d'Android pouvait-on retrouver sur le Nexus 6 de Google ?",
+        "propositions": [
+          "KitKat",
+          "Honeycomb",
+          "Jelly Bean",
+          "Lollipop"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "Les changements les plus importants d'Android 5.0 sont sa disponibilité sur les plateformes Android TV et Android Auto."
+      },
+      {
+        "id": 18,
+        "question": "En quelle année fut dévoilée la première télévision sous Android ?",
+        "propositions": [
+          "2016",
+          "2014",
+          "2010",
+          "2012"
+        ],
+        "réponse": "2010",
+        "anecdote": "Scandinavia, développée par l'entreprise suédoise People of Lava, possédait un navigateur Web ainsi qu'un client de messagerie."
+      },
+      {
+        "id": 19,
+        "question": "Quel smartphone Google, équipé d'Android 4.4, fut le premier à supporter la 4G ?",
+        "propositions": [
+          "Nexus 4",
+          "Nexus 6P",
+          "Nexus 5X",
+          "Nexus 5"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "Succédant au Nexus 4, le Nexus 5 est l'un des deux modèles de la gamme Nexus 2013 de Google, avec la tablette Nexus 7."
+      },
+      {
+        "id": 20,
+        "question": "Comment se nomme la première tablette de Google en partenariat avec Asus ?",
+        "propositions": [
+          "Nexus 7",
+          "Nook 7",
+          "Galaxy Tab 7",
+          "Xperia 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "Elle coûtait, en 2012, 199 euros TTC dans sa version 16 Go et 249 euros toutes taxes comprises pour la version 32 Go."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel ancien CEO de Danger Inc est aussi le cofondateur du système Android ?",
+        "propositions": [
+          "Chad Hurley",
+          "Andy Rubin",
+          "Matt Cutts",
+          "John Doerr"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "En mai 2017, la société Essential Products créée par Andy Rubin a annoncé la sortie du smartphone Essential PH-1."
+      },
+      {
+        "id": 22,
+        "question": "Quelle machine virtuelle était incluse jusqu'à la version 4.4 d'Android ?",
+        "propositions": [
+          "Beam",
+          "Dalvik",
+          "Parrot",
+          "Pugs"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "C'est une machine virtuelle conçue dès le départ pour les appareils mobiles et leurs ressources réduites."
+      },
+      {
+        "id": 23,
+        "question": "Quel service indépendant de chez Arkos permet de télécharger des apps Android ?",
+        "propositions": [
+          "F-Droid",
+          "App Store",
+          "Galaxy Apps",
+          "Appslib"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Appslib permet ainsi à Archos de ne pas remplir les critères de Google autorisant l'intégration de Google Play à un appareil."
+      },
+      {
+        "id": 24,
+        "question": "Avec quel système la société HP a-t-elle concurrencé Android jusqu'en août 2011 ?",
+        "propositions": [
+          "webOS",
+          "Symbian",
+          "Firefox OS",
+          "iOS"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Depuis 2013, suite à une position quasi dominante de Google, HP utilise aussi Android sur sa gamme de tablettes Slate."
+      },
+      {
+        "id": 25,
+        "question": "Quel droit faut-il avoir pour installer une version alternative d'Android ?",
+        "propositions": [
+          "Flac",
+          "Root",
+          "Next",
+          "Join"
+        ],
+        "réponse": "Root",
+        "anecdote": "Entraînant généralement un risque de perte de garantie, l'Union européenne a voté des directives protectrices à ce sujet."
+      },
+      {
+        "id": 26,
+        "question": "Quelle ROM Android était précédemment connue sous le nom de CyanogenMod ?",
+        "propositions": [
+          "LineageOS",
+          "Oreo",
+          "Wear OS",
+          "Baidu"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "Compatible avec de nombreux modèles du marché, LineageOS offre une alternative épurée de certaines fonctionnalités malveillantes."
+      },
+      {
+        "id": 27,
+        "question": "Quel environnement d'exécution a remplacé la machine virtuelle Dalvik ?",
+        "propositions": [
+          "APK",
+          "ALE",
+          "AVO",
+          "ART"
+        ],
+        "réponse": "ART",
+        "anecdote": "Avec ART, contrairement à la machine virtuelle java, les fichiers .apk ne sont plus lancés directement mais décompressés."
+      },
+      {
+        "id": 28,
+        "question": "Quel fut le tout premier téléphone commercialisé sous Android ?",
+        "propositions": [
+          "Sony Arc",
+          "HTC G1/Dream",
+          "LG G3",
+          "Xiaomi Mi"
+        ],
+        "réponse": "HTC G1/Dream",
+        "anecdote": "Produit par la firme Taïwanaise HTC, le HTC G1 fut lancé aux États-Unis sur le réseau T-Mobile le 22 octobre 2008."
+      },
+      {
+        "id": 29,
+        "question": "Quelle ROM Android, orientée 100 % libre, ne contient aucun paquet propriétaire ?",
+        "propositions": [
+          "OmniROM",
+          "Replicant",
+          "Timescape",
+          "Iconia"
+        ],
+        "réponse": "Replicant",
+        "anecdote": "Soutenu par la Free Software Foundation, le nom Replicant est tiré des androïdes du même nom dans le film « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "Quelle console de jeu portable fabriquée par Nvidia tourne sous Android ?",
+        "propositions": [
+          "Pandora",
+          "SupaBoy",
+          "Nvidia Shield",
+          "Tapwave"
+        ],
+        "réponse": "Nvidia Shield",
+        "anecdote": "Outre des caractéristiques de premier ordre, un de ses principaux atouts consiste en sa capacité à diffuser les jeux d'un PC."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What kernel is the Android mobile operating system based on ?",
+        "propositions": [
+          "BSD",
+          "Accent",
+          "Windows NT",
+          "Linux"
+        ],
+        "réponse": "Linux",
+        "anecdote": "The Linux kernel is free software developed primarily in the C language by thousands of volunteers on the Internet."
+      },
+      {
+        "id": 2,
+        "question": "By which company is the Android system currently developed ?",
+        "propositions": [
+          "Apple",
+          "HP",
+          "Microsoft",
+          "Google"
+        ],
+        "réponse": "Google",
+        "anecdote": "The Android operating system was launched in June 2007 following the takeover by Google in 2005 of the startup of the same name."
+      },
+      {
+        "id": 3,
+        "question": "Which little green robot is used by Google to present its Android system ?",
+        "propositions": [
+          "Archie",
+          "Tux",
+          "Bugdroid",
+          "Woody"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, the logo of Android, is actually a character from a game from the 1990s on Atari : « Gauntlet : The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "Which online store allows the purchase of applications for Android ?",
+        "propositions": [
+          "App Store",
+          "Impulse",
+          "Steam",
+          "Google Play"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Although not included in the Android sources, Google Play plays a vital role in the popularity of Android."
+      },
+      {
+        "id": 5,
+        "question": "What is the name of the default built-in web browser in Android ?",
+        "propositions": [
+          "Gallery",
+          "Surfer",
+          "Internet",
+          "Web"
+        ],
+        "réponse": "Internet",
+        "anecdote": "Android AOSP (source code) has many built-in applications : Phone, Contacts, E-Mail, Calendar, ..."
+      },
+      {
+        "id": 6,
+        "question": "What type of card can you move Android apps to ?",
+        "propositions": [
+          "Graphic",
+          "Wi-Fi",
+          "Network",
+          "MicroSD"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "This possibility is based on the permissions and parameters contained in the manifest file of the application which authorizes it."
+      },
+      {
+        "id": 7,
+        "question": "Which Google phone was the first to benefit from Android 2.2 (Froyo) ?",
+        "propositions": [
+          "Nexus Galaxy",
+          "Nexus Pixel",
+          "Nexus S",
+          "Nexus One"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "Its sales were not exceptional with only around 20,000 copies sold the week of its release."
+      },
+      {
+        "id": 8,
+        "question": "Which Samsung model has become a benchmark for Android tablets ?",
+        "propositions": [
+          "Padphone",
+          "Galaxy Tab",
+          "Nook",
+          "GamePad"
+        ],
+        "réponse": "Galaxy Tab",
+        "anecdote": "Originally delivered under Android 2.2, two months after its release, the Samsung Galaxy Tab was sold over 600,000 copies."
+      },
+      {
+        "id": 9,
+        "question": "What name has version 8 of the Android operating system been given ?",
+        "propositions": [
+          "Oreo",
+          "Lollipop",
+          "Nougat",
+          "Marshmallow"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "This version of the Android system has been available since August 21, 2017 and bears the name of the Oreo cookie brand."
+      },
+      {
+        "id": 10,
+        "question": "Approximately what percentage of Google Play apps are free ?",
+        "propositions": [
+          "35%",
+          "45%",
+          "65%",
+          "55%"
+        ],
+        "réponse": "65%",
+        "anecdote": "Google Play allows you to download applications, books, movies or music, paid or not."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Before March 2012, what was the previous name given to the Google Play Store ?",
+        "propositions": [
+          "3DSWare",
+          "Android Market",
+          "Zeebo",
+          "Galaxy Apps"
+        ],
+        "réponse": "Android Market",
+        "anecdote": "At the start of 2013, Google Play had 800,000 applications strong, which already made it the largest application store in the world."
+      },
+      {
+        "id": 12,
+        "question": "What smartphone was marketed in the world under the name Motorola Milestone ?",
+        "propositions": [
+          "Xperia",
+          "Galaxy S",
+          "Droid",
+          "Nexus"
+        ],
+        "réponse": "Droid",
+        "anecdote": "The first phone equipped with version 2.0 of Android, the device found 250,000 buyers a week after its launch."
+      },
+      {
+        "id": 13,
+        "question": "What do you need in your smartphone to access the Tegra app store ?",
+        "propositions": [
+          "iOS",
+          "SSL key",
+          "Tegra chip",
+          "Bitcoins"
+        ],
+        "réponse": "Tegra chip",
+        "anecdote": "This store makes it possible in particular to download very high definition (THD) applications dedicated to telephones running Tegra."
+      },
+      {
+        "id": 14,
+        "question": "What free applications service was created by the Free Software Foundation ?",
+        "propositions": [
+          "F-Droid",
+          "Appslib",
+          "Zeebo",
+          "Android Market"
+        ],
+        "réponse": "F-Droid",
+        "anecdote": "The apps can be installed through the F-Droid app, but can also be loaded from the website."
+      },
+      {
+        "id": 15,
+        "question": "In France, which company marketed the first Android mobile ?",
+        "propositions": [
+          "Bouygues Telecom",
+          "Free Mobile",
+          "Orange",
+          "SFR"
+        ],
+        "réponse": "Orange",
+        "anecdote": "After the HTC Dream, the HTC Magic arrived in early May 2009 at SFR, followed by the Samsung Galaxy (or i7500) at Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "Which smartphone offered in October 2011 was the first to run Android 4 ?",
+        "propositions": [
+          "Moto E",
+          "Galaxy Nexus",
+          "Xiaomi Mi 4",
+          "Xperia Play"
+        ],
+        "réponse": "Galaxy Nexus",
+        "anecdote": "It incorporates facial recognition unlocking, virtual buttons and advanced voice recognition."
+      },
+      {
+        "id": 17,
+        "question": "What version of Android could we find on the Google Nexus 6 ?",
+        "propositions": [
+          "Honeycomb",
+          "Jelly Bean",
+          "Lollipop",
+          "KitKat"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "The most significant changes in Android 5.0 are its availability on the Android TV and Android Auto platforms."
+      },
+      {
+        "id": 18,
+        "question": "In what year was the first Android TV unveiled ?",
+        "propositions": [
+          "2016",
+          "2012",
+          "2010",
+          "2014"
+        ],
+        "réponse": "2010",
+        "anecdote": "Scandinavia, developed by the Swedish company People of Lava, had a web browser and an email client."
+      },
+      {
+        "id": 19,
+        "question": "Which Google smartphone, equipped with Android 4.4, was the first to now support 4G ?",
+        "propositions": [
+          "Nexus 5",
+          "Nexus 5X",
+          "Nexus 6P",
+          "Nexus 4"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "The successor to the Nexus 4, the Nexus 5 is one of two models in Google's 2013 Nexus range, along with the Nexus 7 tablet."
+      },
+      {
+        "id": 20,
+        "question": "What is the name of the first Google tablet in partnership with Asus ?",
+        "propositions": [
+          "Nook 7",
+          "Xperia 7",
+          "Nexus 7",
+          "Galaxy Tab 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "In 2012, it cost euros 199 all taxes included in its 16 GB version and euros 249 all taxes included for the 32 GB version."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which former CEO of Danger Inc is also the co-founder of the Android system ?",
+        "propositions": [
+          "Chad Hurley",
+          "Andy Rubin",
+          "Matt Cutts",
+          "John Doerr"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "In May 2017, the Essential Products company created by Andy Rubin announced the release of the Essential PH-1 smartphone."
+      },
+      {
+        "id": 22,
+        "question": "Which virtual machine was included until Android version 4.4 ?",
+        "propositions": [
+          "Parrot",
+          "Beam",
+          "Pugs",
+          "Dalvik"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "It's a virtual machine designed from the ground up for mobile devices and their limited resources."
+      },
+      {
+        "id": 23,
+        "question": "Which independent service from Arkos allows you to download Android applications ?",
+        "propositions": [
+          "Appslib",
+          "Galaxy Apps",
+          "App Store",
+          "F-Droid"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Appslib thus allows Archos not to meet Google's criteria authorizing the integration of Google Play into a device."
+      },
+      {
+        "id": 24,
+        "question": "With which system did the HP company compete with Android until August 2011 ?",
+        "propositions": [
+          "Firefox OS",
+          "webOS",
+          "iOS",
+          "Symbian"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Since 2013, following a near dominant position by Google, HP has also been using Android on its Slate range of tablets."
+      },
+      {
+        "id": 25,
+        "question": "What rights do I have to have to install an alternative version of Android ?",
+        "propositions": [
+          "Flac",
+          "Next",
+          "Join",
+          "Root"
+        ],
+        "réponse": "Root",
+        "anecdote": "Usually involving a risk of loss of warranty, the European Union has passed protective directives on this subject."
+      },
+      {
+        "id": 26,
+        "question": "Which Android ROM was previously known as CyanogenMod ?",
+        "propositions": [
+          "Baidu",
+          "LineageOS",
+          "Wear OS",
+          "Oreo"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "Compatible with many models on the market, LineageOS offers a clean alternative to some malicious features."
+      },
+      {
+        "id": 27,
+        "question": "Which runtime environment replaced the Dalvik virtual machine ?",
+        "propositions": [
+          "ART",
+          "APK",
+          "ALE",
+          "AVO"
+        ],
+        "réponse": "ART",
+        "anecdote": "With ART, unlike the java virtual machine, the .apk files are no longer launched directly but are decompressed."
+      },
+      {
+        "id": 28,
+        "question": "What was the very first phone released for Android ?",
+        "propositions": [
+          "LG G3",
+          "Xiaomi Mi",
+          "HTC G1 / Dream",
+          "Sony Arc"
+        ],
+        "réponse": "HTC G1 / Dream",
+        "anecdote": "Produced by the Taiwanese company HTC, the HTC G1 was launched in the United States on the T-Mobile network on October 22, 2008."
+      },
+      {
+        "id": 29,
+        "question": "Which 100% free-oriented Android ROM does not contain any proprietary packages ?",
+        "propositions": [
+          "Replicant",
+          "OmniROM",
+          "Iconia",
+          "Timescape"
+        ],
+        "réponse": "Replicant",
+        "anecdote": "Supported by the Free Software Foundation, the name Replicant is taken from the androids of the same name in the movie « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "Which portable game console manufactured by Nvidia runs on Android ?",
+        "propositions": [
+          "Nvidia Shield",
+          "Pandora",
+          "SupaBoy",
+          "Tapwave"
+        ],
+        "réponse": "Nvidia Shield",
+        "anecdote": "Besides top-notch features, one of its main strengths is its ability to stream games from a PC."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Auf welchem Kernel basiert das mobile Android-Betriebssystem ?",
+        "propositions": [
+          "Akzent",
+          "BSD",
+          "Linux",
+          "Windows NT"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Der Linux-Kernel ist freie Software, die hauptsächlich in der Sprache C von Tausenden von Freiwilligen im Internet entwickelt wurde."
+      },
+      {
+        "id": 2,
+        "question": "Von welchem Unternehmen wird das Android-System derzeit entwickelt ?",
+        "propositions": [
+          "Google",
+          "PS",
+          "Microsoft",
+          "Apfel"
+        ],
+        "réponse": "Google",
+        "anecdote": "Das Betriebssystem Android wurde im Juni 2007 nach der Übernahme des gleichnamigen Startups durch Google im Jahr 2005 auf den Markt gebracht."
+      },
+      {
+        "id": 3,
+        "question": "Mit welchem kleinen grünen Roboter präsentiert Google sein Android-System ?",
+        "propositions": [
+          "Archie",
+          "Holzig",
+          "Smoking",
+          "Bugdroid"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, das Logo von Android, ist eigentlich ein Charakter aus einem Spiel aus den 1990er Jahren auf Atari : « Gauntlet : The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Online-Shop ermöglicht den Kauf von Anwendungen für Android ?",
+        "propositions": [
+          "App Store",
+          "Steam",
+          "Google Play",
+          "Impulse"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Obwohl es nicht in den Android-Quellen enthalten ist, spielt Google Play eine entscheidende Rolle für die Popularität von Android."
+      },
+      {
+        "id": 5,
+        "question": "Wie heißt der standardmäßig integrierte Webbrowser in Android ?",
+        "propositions": [
+          "Internet",
+          "Galerie",
+          "Surfer",
+          "Web"
+        ],
+        "réponse": "Internet",
+        "anecdote": "Android AOSP (Quellcode) hat viele integrierte Anwendungen : Telefon, Kontakte, E-Mail, Kalender, ..."
+      },
+      {
+        "id": 6,
+        "question": "Auf welchen Kartentyp können Sie Android-Apps verschieben ?",
+        "propositions": [
+          "MicroSD",
+          "Netzwerk",
+          "WLAN",
+          "Grafik"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "Diese Möglichkeit basiert auf den Berechtigungen und Parametern, die in der Manifestdatei der Anwendung enthalten sind, die sie autorisiert."
+      },
+      {
+        "id": 7,
+        "question": "Welches Google-Handy hat als erstes von Android 2.2 (Froyo) profitiert ?",
+        "propositions": [
+          "Nexus Galaxy",
+          "Nexus-Pixel",
+          "Nexus One",
+          "Nexus S"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "Die Verkaufszahlen waren mit nur rund 20.000 verkauften Exemplaren in der Woche der Veröffentlichung nicht außergewöhnlich."
+      },
+      {
+        "id": 8,
+        "question": "Welches Samsung-Modell hat sich zum Maßstab für Android-Tablets entwickelt ?",
+        "propositions": [
+          "Nook",
+          "Galaxy-Tab",
+          "GamePad",
+          "Padphone"
+        ],
+        "réponse": "Galaxy-Tab",
+        "anecdote": "Ursprünglich unter Android 2.2 ausgeliefert, wurde das Samsung Galaxy Tab zwei Monate nach seiner Veröffentlichung über 600.000 Mal verkauft."
+      },
+      {
+        "id": 9,
+        "question": "Wie heißt die Version 8 des Android-Betriebssystems ?",
+        "propositions": [
+          "Marshmallow",
+          "Oreo",
+          "Lutscher",
+          "Nougat"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "Diese Version des Android-Systems ist seit dem 21. August 2017 verfügbar und trägt den Namen der Cookie-Marke Oreo."
+      },
+      {
+        "id": 10,
+        "question": "Wie viel Prozent der Google Play-Apps sind ungefähr kostenlos ?",
+        "propositions": [
+          "55%",
+          "65%",
+          "45%",
+          "35%"
+        ],
+        "réponse": "65%",
+        "anecdote": "Mit Google Play können Sie kostenpflichtige oder nicht kostenpflichtige Anwendungen, Bücher, Filme oder Musik herunterladen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie hieß der Google Play Store vor März 2012 ?",
+        "propositions": [
+          "3DSWare",
+          "Android Market",
+          "Galaxy-Apps",
+          "Zeebo"
+        ],
+        "réponse": "Android Market",
+        "anecdote": "Anfang 2013 hatte Google Play 800.000 Anwendungen und war damit bereits der größte App Store der Welt."
+      },
+      {
+        "id": 12,
+        "question": "Welches Smartphone wurde weltweit unter dem Namen Motorola Milestone vermarktet ?",
+        "propositions": [
+          "Galaxie S",
+          "Xperia",
+          "Droide",
+          "Nexus"
+        ],
+        "réponse": "Droide",
+        "anecdote": "Das erste Telefon, das mit der Android-Version 2.0 ausgestattet war, fand eine Woche nach seiner Einführung 250.000 Käufer."
+      },
+      {
+        "id": 13,
+        "question": "Was benötigen Sie in Ihrem Smartphone, um auf den Tegra App Store zuzugreifen ?",
+        "propositions": [
+          "Tegra-Chip",
+          "Bitcoins",
+          "SSL-Schlüssel",
+          "iOS"
+        ],
+        "réponse": "Tegra-Chip",
+        "anecdote": "Dieser Shop ermöglicht es insbesondere, Anwendungen mit sehr hoher Auflösung (THD) für Telefone mit Tegra herunterzuladen."
+      },
+      {
+        "id": 14,
+        "question": "Welcher kostenlose Anwendungsdienst wurde von der Free Software Foundation erstellt ?",
+        "propositions": [
+          "Zeebo",
+          "F-Droide",
+          "Appslib",
+          "Android Market"
+        ],
+        "réponse": "F-Droide",
+        "anecdote": "Die Apps können über die F-Droid-App installiert, aber auch von der Website geladen werden."
+      },
+      {
+        "id": 15,
+        "question": "Welches Unternehmen hat in Frankreich das erste Android-Handy auf den Markt gebracht ?",
+        "propositions": [
+          "SFR",
+          "Free Mobile",
+          "Bouygues Telekom",
+          "Orange"
+        ],
+        "réponse": "Orange",
+        "anecdote": "Nach dem HTC Dream kam Anfang Mai 2009 das HTC Magic bei SFR an, gefolgt vom Samsung Galaxy (bzw. i7500) bei Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "Welches Smartphone, das im Oktober 2011 angeboten wurde, war das erste mit Android 4 ?",
+        "propositions": [
+          "Xperia Play",
+          "Galaxy Nexus",
+          "Xiaomi Mi 4",
+          "Moto E"
+        ],
+        "réponse": "Galaxy Nexus",
+        "anecdote": "Es enthält Gesichtserkennungs-Entsperrung, virtuelle Tasten und erweiterte Spracherkennung."
+      },
+      {
+        "id": 17,
+        "question": "Welche Android-Version konnten wir auf dem Google Nexus 6 finden ?",
+        "propositions": [
+          "Honeycomb",
+          "Jelly Bean",
+          "KitKat",
+          "Lollipop"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "Die wichtigsten Änderungen in Android 5.0 sind die Verfügbarkeit auf den Plattformen Android TV und Android Auto."
+      },
+      {
+        "id": 18,
+        "question": "In welchem Jahr wurde das erste Android TV vorgestellt ?",
+        "propositions": [
+          "2012",
+          "2014",
+          "2016",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "Scandinavia, entwickelt von der schwedischen Firma People of Lava, verfügte über einen Webbrowser und einen E-Mail-Client."
+      },
+      {
+        "id": 19,
+        "question": "Welches Google-Smartphone, ausgestattet mit Android 4.4, war das erste, das jetzt 4G unterstützte ?",
+        "propositions": [
+          "Nexus 6P",
+          "Nexus 4",
+          "Nexus 5",
+          "Nexus 5X"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "Der Nachfolger des Nexus 4, das Nexus 5, ist neben dem Nexus 7 Tablet eines von zwei Modellen in der 2013er Nexus-Reihe von Google."
+      },
+      {
+        "id": 20,
+        "question": "Wie heißt das erste Google-Tablet in Zusammenarbeit mit Asus ?",
+        "propositions": [
+          "Nook 7",
+          "Nexus 7",
+          "Galaxy Tab 7",
+          "Xperia 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "Im Jahr 2012 kostete es in der 16-GB-Version 199 euros inklusive Steuern und 249 euros inklusive aller Steuern in der 32-GB-Version."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher ehemalige CEO von Danger Inc ist auch Mitbegründer des Android-Systems ?",
+        "propositions": [
+          "John Doerr",
+          "Matt Cutts",
+          "Andy Rubin",
+          "Chad Hurley"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "Im Mai 2017 kündigte das von Andy Rubin gegründete Unternehmen Essential Products die Veröffentlichung des Smartphones Essential PH-1 an."
+      },
+      {
+        "id": 22,
+        "question": "Welche virtuelle Maschine war bis Android 4.4 enthalten ?",
+        "propositions": [
+          "Dalvik",
+          "Beam",
+          "Pugs",
+          "Parrot"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "Es ist eine virtuelle Maschine, die von Grund auf für mobile Geräte und deren begrenzte Ressourcen entwickelt wurde."
+      },
+      {
+        "id": 23,
+        "question": "Mit welchem unabhängigen Dienst von Arkos können Sie Android-Anwendungen herunterladen ?",
+        "propositions": [
+          "Appslib",
+          "F-Droide",
+          "App Store",
+          "Galaxy-Apps"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Appslib erlaubt es Archos somit, die Kriterien von Google nicht zu erfüllen, die die Integration von Google Play in ein Gerät erlauben."
+      },
+      {
+        "id": 24,
+        "question": "Mit welchem System hat die Firma HP bis August 2011 mit Android konkurriert ?",
+        "propositions": [
+          "Firefox OS",
+          "iOS",
+          "webOS",
+          "Symbian"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Seit 2013 nutzt HP nach einer nahezu marktbeherrschenden Stellung von Google auch Android auf seiner Slate-Tablet-Reihe."
+      },
+      {
+        "id": 25,
+        "question": "Welche Rechte benötige ich, um eine alternative Android-Version zu installieren ?",
+        "propositions": [
+          "Beitreten",
+          "Flach",
+          "Wurzel",
+          "Weiter"
+        ],
+        "réponse": "Wurzel",
+        "anecdote": "In der Regel mit dem Risiko des Garantieverlustes verbunden, hat die Europäische Union zu diesem Thema Schutzrichtlinien erlassen."
+      },
+      {
+        "id": 26,
+        "question": "Welches Android-ROM war früher als CyanogenMod bekannt ?",
+        "propositions": [
+          "LineageOS",
+          "Oreo",
+          "Baidu",
+          "Wear OS"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "LineageOS ist mit vielen Modellen auf dem Markt kompatibel und bietet eine saubere Alternative zu einigen bösartigen Funktionen."
+      },
+      {
+        "id": 27,
+        "question": "Welche Laufzeitumgebung hat die virtuelle Maschine von Dalvik ersetzt ?",
+        "propositions": [
+          "ART",
+          "AVO",
+          "ALE",
+          "APK"
+        ],
+        "réponse": "ART",
+        "anecdote": "Bei ART werden im Gegensatz zur Java Virtual Machine die .apk-Dateien nicht mehr direkt gestartet, sondern dekomprimiert."
+      },
+      {
+        "id": 28,
+        "question": "Was war das allererste Telefon, das für Android veröffentlicht wurde ?",
+        "propositions": [
+          "Xiaomi Mi",
+          "LG G3",
+          "Sony Arc",
+          "HTC G1 / Traum"
+        ],
+        "réponse": "HTC G1 / Traum",
+        "anecdote": "Das von der taiwanesischen Firma HTC produzierte HTC G1 wurde am 22. Oktober 2008 in den USA im T-Mobile-Netz eingeführt."
+      },
+      {
+        "id": 29,
+        "question": "Welches 100% frei orientierte Android-ROM enthält keine proprietären Pakete ?",
+        "propositions": [
+          "Zeitlandschaft",
+          "Iconia",
+          "OmniROM",
+          "Replikant"
+        ],
+        "réponse": "Replikant",
+        "anecdote": "Der Name Replicant wird von der Free Software Foundation unterstützt und stammt von den gleichnamigen Androiden aus dem Film « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "Welche tragbare Spielekonsole von Nvidia läuft auf Android ?",
+        "propositions": [
+          "SupaBoy",
+          "Pandora",
+          "Nvidia-Schild",
+          "Tapwave"
+        ],
+        "réponse": "Nvidia-Schild",
+        "anecdote": "Neben erstklassigen Funktionen ist eine seiner Hauptstärken die Fähigkeit, Spiele von einem PC zu streamen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿En qué kernel se basa el sistema operativo móvil Android ?",
+        "propositions": [
+          "Acento",
+          "Linux",
+          "Windows NT",
+          "BSD"
+        ],
+        "réponse": "Linux",
+        "anecdote": "El kernel de Linux es un software gratuito desarrollado principalmente en lenguaje C por miles de voluntarios en Internet."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué empresa desarrolla actualmente el sistema Android ?",
+        "propositions": [
+          "Google",
+          "Apple",
+          "HP",
+          "Microsoft"
+        ],
+        "réponse": "Google",
+        "anecdote": "El sistema operativo Android se lanzó en junio de 2007 tras la adquisición por parte de Google en 2005 de la puesta en marcha del mismo nombre."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué pequeño robot verde utiliza Google para presentar su sistema Android ?",
+        "propositions": [
+          "Woody",
+          "Bugdroid",
+          "Archie",
+          "Tux"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, el logotipo de Android, es en realidad un personaje de un juego de la década de 1990 en Atari : « Gauntlet : The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué tienda online permite la compra de aplicaciones para Android ?",
+        "propositions": [
+          "Steam",
+          "Impulse",
+          "Google Play",
+          "App Store"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Aunque no se incluye en las fuentes de Android, Google Play juega un papel vital en la popularidad de Android."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál es el nombre del navegador web integrado predeterminado en Android ?",
+        "propositions": [
+          "Galería",
+          "Surfista",
+          "Web",
+          "Internet"
+        ],
+        "réponse": "Internet",
+        "anecdote": "Android AOSP (código fuente) tiene muchas aplicaciones integradas : teléfono, contactos, correo electrónico, calendario, ..."
+      },
+      {
+        "id": 6,
+        "question": "¿A qué tipo de tarjeta puedes mover aplicaciones de Android ?",
+        "propositions": [
+          "Gráfico",
+          "Red",
+          "Wi-Fi",
+          "MicroSD"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "Esta posibilidad se basa en los permisos y parámetros contenidos en el archivo de manifiesto de la aplicación que lo autoriza."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué teléfono de Google fue el primero en beneficiarse de Android 2.2 (Froyo) ?",
+        "propositions": [
+          "Nexus Galaxy",
+          "Nexus S",
+          "Nexus Pixel",
+          "Nexus One"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "Sus ventas no fueron excepcionales con solo alrededor de 20,000 copias vendidas la semana de su lanzamiento."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué modelo de Samsung se ha convertido en un referente para las tablets Android ?",
+        "propositions": [
+          "Nook",
+          "Padphone",
+          "GamePad",
+          "Galaxy Tab"
+        ],
+        "réponse": "Galaxy Tab",
+        "anecdote": "Entregado originalmente con Android 2.2, dos meses después de su lanzamiento, el Samsung Galaxy Tab se vendió más de 600.000 copias."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué nombre se le ha dado a la versión 8 del sistema operativo Android ?",
+        "propositions": [
+          "Malvavisco",
+          "Lollipop",
+          "Turrón",
+          "Oreo"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "Esta versión del sistema Android está disponible desde el 21 de agosto de 2017 y lleva el nombre de la marca de galletas Oreo."
+      },
+      {
+        "id": 10,
+        "question": "Aproximadamente, ¿qué porcentaje de las aplicaciones de Google Play son gratuitas ?",
+        "propositions": [
+          "55%",
+          "65%",
+          "35%",
+          "45%"
+        ],
+        "réponse": "65%",
+        "anecdote": "Google Play te permite descargar aplicaciones, libros, películas o música, pagas o no."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Antes de marzo de 2012, ¿cuál era el nombre anterior que se le daba a Google Play Store ?",
+        "propositions": [
+          "3DSWare",
+          "Aplicaciones Galaxy",
+          "Android Market",
+          "Zeebo"
+        ],
+        "réponse": "Android Market",
+        "anecdote": "A principios de 2013, Google Play tenía 800.000 aplicaciones sólidas, lo que ya la convertía en la tienda de aplicaciones más grande del mundo."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué teléfono inteligente se comercializó en el mundo con el nombre Motorola Milestone ?",
+        "propositions": [
+          "Galaxy S",
+          "Droid",
+          "Xperia",
+          "Nexus"
+        ],
+        "réponse": "Droid",
+        "anecdote": "El primer teléfono equipado con la versión 2.0 de Android, el dispositivo encontró 250.000 compradores una semana después de su lanzamiento."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué necesita en su teléfono inteligente para acceder a la tienda de aplicaciones de Tegra ?",
+        "propositions": [
+          "Chip Tegra",
+          "Bitcoins",
+          "iOS",
+          "Clave SSL"
+        ],
+        "réponse": "Chip Tegra",
+        "anecdote": "Esta tienda permite, en particular, descargar aplicaciones de muy alta definición (THD) dedicadas a teléfonos con Tegra."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué servicio de aplicaciones gratuitas creó la Free Software Foundation ?",
+        "propositions": [
+          "Appslib",
+          "F-Droid",
+          "Android Market",
+          "Zeebo"
+        ],
+        "réponse": "F-Droid",
+        "anecdote": "Las aplicaciones se pueden instalar a través de la aplicación F-Droid, pero también se pueden cargar desde el sitio web."
+      },
+      {
+        "id": 15,
+        "question": "En Francia, ¿qué empresa comercializó el primer móvil Android ?",
+        "propositions": [
+          "Free Mobile",
+          "Bouygues Telecom",
+          "SFR",
+          "Orange"
+        ],
+        "réponse": "Orange",
+        "anecdote": "Después del HTC Dream, el HTC Magic llegó a principios de mayo de 2009 a SFR, seguido del Samsung Galaxy (o i7500) en Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué teléfono inteligente ofrecido en octubre de 2011 fue el primero en ejecutar Android 4 ?",
+        "propositions": [
+          "Galaxy Nexus",
+          "Xiaomi Mi 4",
+          "Moto E",
+          "Xperia Play"
+        ],
+        "réponse": "Galaxy Nexus",
+        "anecdote": "Incorpora desbloqueo por reconocimiento facial, botones virtuales y reconocimiento de voz avanzado."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué versión de Android podríamos encontrar en el Google Nexus 6 ?",
+        "propositions": [
+          "Jelly Bean",
+          "KitKat",
+          "Lollipop",
+          "Honeycomb"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "Los cambios más significativos en Android 5.0 son su disponibilidad en las plataformas Android TV y Android Auto."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué año se presentó el primer Android TV ?",
+        "propositions": [
+          "2014",
+          "2012",
+          "2016",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "Escandinavia, desarrollado por la empresa sueca People of Lava, tenía un navegador web y un cliente de correo electrónico."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué teléfono inteligente de Google, equipado con Android 4.4, fue el primero en admitir 4G ?",
+        "propositions": [
+          "Nexus 4",
+          "Nexus 5",
+          "Nexus 5X",
+          "Nexus 6P"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "El sucesor del Nexus 4, el Nexus 5 es uno de los dos modelos de la gama Nexus 2013 de Google, junto con la tableta Nexus 7."
+      },
+      {
+        "id": 20,
+        "question": "¿Cómo se llama la primera tableta de Google en asociación con Asus ?",
+        "propositions": [
+          "Nexus 7",
+          "Xperia 7",
+          "Nook 7",
+          "Galaxy Tab 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "En 2012, costó 199 euros todos los impuestos incluidos en su versión de 16 GB y 249 euros todos los impuestos incluidos para la versión de 32 GB."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué ex CEO de Danger Inc es también cofundador del sistema Android ?",
+        "propositions": [
+          "John Doerr",
+          "Chad Hurley",
+          "Andy Rubin",
+          "Matt Cutts"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "En mayo de 2017, la compañía Essential Products creada por Andy Rubin anunció el lanzamiento del teléfono inteligente Essential PH-1."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué máquina virtual se incluyó hasta la versión 4.4 de Android ?",
+        "propositions": [
+          "Beam",
+          "Parrot",
+          "Pugs",
+          "Dalvik"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "Es una máquina virtual diseñada desde cero para dispositivos móviles y sus recursos limitados."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué servicio independiente de Arkos te permite descargar aplicaciones de Android ?",
+        "propositions": [
+          "Tienda de aplicaciones",
+          "Aplicaciones Galaxy",
+          "F-Droid",
+          "Appslib"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Appslib permite así que Archos no cumpla con los criterios de Google que autorizan la integración de Google Play en un dispositivo."
+      },
+      {
+        "id": 24,
+        "question": "¿Con qué sistema compitió la empresa HP con Android hasta agosto de 2011 ?",
+        "propositions": [
+          "Symbian",
+          "iOS",
+          "Firefox OS",
+          "webOS"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Desde 2013, tras una posición casi dominante de Google, HP también ha estado utilizando Android en su gama de tabletas Slate."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué derechos debo tener para instalar una versión alternativa de Android ?",
+        "propositions": [
+          "Únete",
+          "Flac",
+          "Raíz",
+          "Siguiente"
+        ],
+        "réponse": "Raíz",
+        "anecdote": "Por lo general, implica un riesgo de pérdida de garantía, la Unión Europea ha aprobado directivas de protección sobre este tema."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué ROM de Android se conocía anteriormente como CyanogenMod ?",
+        "propositions": [
+          "Oreo",
+          "LineageOS",
+          "Wear OS",
+          "Baidu"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "Compatible con muchos modelos del mercado, LineageOS ofrece una alternativa limpia a algunas funciones maliciosas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué entorno de ejecución reemplazó a la máquina virtual Dalvik ?",
+        "propositions": [
+          "AVO",
+          "APK",
+          "ALE",
+          "ART"
+        ],
+        "réponse": "ART",
+        "anecdote": "Con ART, a diferencia de la máquina virtual java, los archivos .apk ya no se ejecutan directamente, sino que se descomprimen."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál fue el primer teléfono lanzado para Android ?",
+        "propositions": [
+          "Xiaomi Mi",
+          "HTC G1 / Dream",
+          "LG G3",
+          "Sony Arc"
+        ],
+        "réponse": "HTC G1 / Dream",
+        "anecdote": "Producido por la empresa taiwanesa HTC, el HTC G1 fue lanzado en los Estados Unidos en la red T-Mobile el 22 de octubre de 2008."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué ROM de Android 100% libre y orientada no contiene ningún paquete propietario ?",
+        "propositions": [
+          "Iconia",
+          "OmniROM",
+          "Replicante",
+          "Timescape"
+        ],
+        "réponse": "Replicante",
+        "anecdote": "Con el apoyo de la Free Software Foundation, el nombre Replicant se toma de los androides del mismo nombre en la película « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué consola de juegos portátil fabricada por Nvidia funciona con Android ?",
+        "propositions": [
+          "Tapwave",
+          "SupaBoy",
+          "Escudo de Nvidia",
+          "Pandora"
+        ],
+        "réponse": "Escudo de Nvidia",
+        "anecdote": "Además de las características de primer nivel, una de sus principales fortalezas es su capacidad para transmitir juegos desde una PC."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Su quale kernel si basa il sistema operativo mobile Android ?",
+        "propositions": [
+          "Linux",
+          "Accento",
+          "Windows NT",
+          "BSD"
+        ],
+        "réponse": "Linux",
+        "anecdote": "Il kernel Linux è un software libero sviluppato principalmente in linguaggio C da migliaia di volontari su Internet."
+      },
+      {
+        "id": 2,
+        "question": "Da quale azienda è attualmente sviluppato il sistema Android ?",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "HP",
+          "mela"
+        ],
+        "réponse": "Google",
+        "anecdote": "Il sistema operativo Android è stato lanciato nel giugno 2007 in seguito all'acquisizione da parte di Google nel 2005 dell'omonima startup."
+      },
+      {
+        "id": 3,
+        "question": "Quale robottino verde viene utilizzato da Google per presentare il suo sistema Android ?",
+        "propositions": [
+          "Tux",
+          "Bugdroid",
+          "legnoso",
+          "Archie"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, il logo di Android, è in realtà un personaggio di un gioco degli anni '90 su Atari : « Gauntlet : The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "Quale negozio online consente l'acquisto di applicazioni per Android ?",
+        "propositions": [
+          "App Store",
+          "Google Play",
+          "Impulse",
+          "Steam"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Sebbene non sia incluso nelle fonti Android, Google Play svolge un ruolo fondamentale nella popolarità di Android."
+      },
+      {
+        "id": 5,
+        "question": "Qual è il nome del browser Web predefinito predefinito in Android ?",
+        "propositions": [
+          "Galleria",
+          "Surfista",
+          "Web",
+          "Internet"
+        ],
+        "réponse": "Internet",
+        "anecdote": "Android AOSP (codice sorgente) ha molte applicazioni integrate : telefono, contatti, e-mail, calendario, ..."
+      },
+      {
+        "id": 6,
+        "question": "Su quale tipo di carta puoi spostare le app Android ?",
+        "propositions": [
+          "Wi-Fi",
+          "Grafica",
+          "Rete",
+          "MicroSD"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "Questa possibilità si basa sui permessi e sui parametri contenuti nel file manifest dell'applicazione che lo autorizza."
+      },
+      {
+        "id": 7,
+        "question": "Quale telefono Google è stato il primo a beneficiare di Android 2.2 (Froyo) ?",
+        "propositions": [
+          "Nexus Pixel",
+          "Nexus Galaxy",
+          "Nexus One",
+          "Nexus S"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "Le sue vendite non sono state eccezionali con solo circa 20.000 copie vendute la settimana della sua uscita."
+      },
+      {
+        "id": 8,
+        "question": "Quale modello Samsung è diventato un punto di riferimento per i tablet Android ?",
+        "propositions": [
+          "Galaxy Tab",
+          "Padphone",
+          "Nook",
+          "GamePad"
+        ],
+        "réponse": "Galaxy Tab",
+        "anecdote": "Consegnato originariamente con Android 2.2, due mesi dopo il suo rilascio, il Samsung Galaxy Tab è stato venduto oltre 600.000 copie."
+      },
+      {
+        "id": 9,
+        "question": "Che nome è stato dato alla versione 8 del sistema operativo Android ?",
+        "propositions": [
+          "Marshmallow",
+          "Torrone",
+          "Oreo",
+          "Lecca-lecca"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "Questa versione del sistema Android è disponibile dal 21 agosto 2017 e porta il nome del marchio di biscotti Oreo."
+      },
+      {
+        "id": 10,
+        "question": "Qual è approssimativamente la percentuale di app di Google Play gratuite ?",
+        "propositions": [
+          "45%",
+          "35%",
+          "55%",
+          "65%"
+        ],
+        "réponse": "65%",
+        "anecdote": "Google Play ti consente di scaricare applicazioni, libri, film o musica, a pagamento o meno."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Prima di marzo 2012, qual era il nome precedente dato al Google Play Store ?",
+        "propositions": [
+          "3DSWare",
+          "App Galaxy",
+          "Zeebo",
+          "Mercato Android"
+        ],
+        "réponse": "Mercato Android",
+        "anecdote": "All'inizio del 2013, Google Play disponeva di 800.000 applicazioni, il che lo rendeva già il più grande negozio di applicazioni al mondo."
+      },
+      {
+        "id": 12,
+        "question": "Quale smartphone è stato commercializzato nel mondo con il nome Motorola Milestone ?",
+        "propositions": [
+          "Droide",
+          "Galaxy S",
+          "Xperia",
+          "Nexus"
+        ],
+        "réponse": "Droide",
+        "anecdote": "Il primo telefono dotato della versione 2.0 di Android, il dispositivo ha trovato 250.000 acquirenti una settimana dopo il suo lancio."
+      },
+      {
+        "id": 13,
+        "question": "Di cosa hai bisogno nel tuo smartphone per accedere all'app store Tegra ?",
+        "propositions": [
+          "Chiave SSL",
+          "iOS",
+          "Bitcoin",
+          "Chip Tegra"
+        ],
+        "réponse": "Chip Tegra",
+        "anecdote": "Questo negozio permette in particolare di scaricare applicazioni ad altissima definizione (THD) dedicate ai telefoni con Tegra."
+      },
+      {
+        "id": 14,
+        "question": "Quale servizio di applicazioni gratuite è stato creato dalla Free Software Foundation ?",
+        "propositions": [
+          "Zeebo",
+          "Appslib",
+          "Mercato Android",
+          "F-Droid"
+        ],
+        "réponse": "F-Droid",
+        "anecdote": "Le app possono essere installate tramite l'app F-Droid, ma possono anche essere caricate dal sito web."
+      },
+      {
+        "id": 15,
+        "question": "In Francia, quale azienda ha commercializzato il primo cellulare Android ?",
+        "propositions": [
+          "SFR",
+          "Orange",
+          "Bouygues Telecom",
+          "Free Mobile"
+        ],
+        "réponse": "Orange",
+        "anecdote": "Dopo l'HTC Dream, l'HTC Magic è arrivato all'inizio di maggio 2009 a SFR, seguito dal Samsung Galaxy (o i7500) a Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "Quale smartphone offerto nell'ottobre 2011 è stato il primo a eseguire Android 4 ?",
+        "propositions": [
+          "Moto E",
+          "Xperia Play",
+          "Xiaomi Mi 4",
+          "Nexus di Galassia"
+        ],
+        "réponse": "Nexus di Galassia",
+        "anecdote": "Incorpora lo sblocco del riconoscimento facciale, pulsanti virtuali e riconoscimento vocale avanzato."
+      },
+      {
+        "id": 17,
+        "question": "Quale versione di Android potremmo trovare sul Google Nexus 6 ?",
+        "propositions": [
+          "Lollipop",
+          "Honeycomb",
+          "KitKat",
+          "Jelly Bean"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "I cambiamenti più significativi in  ? ?Android 5.0 sono la sua disponibilità sulle piattaforme Android TV e Android Auto."
+      },
+      {
+        "id": 18,
+        "question": "In che anno è stato presentato il primo Android TV ?",
+        "propositions": [
+          "2014",
+          "2010",
+          "2012",
+          "2016"
+        ],
+        "réponse": "2010",
+        "anecdote": "Scandinavia, sviluppato dalla società svedese People of Lava, disponeva di un browser Web e di un client di posta elettronica."
+      },
+      {
+        "id": 19,
+        "question": "Quale smartphone Google, dotato di Android 4.4, è stato il primo a supportare ora il 4G ?",
+        "propositions": [
+          "Nexus 5X",
+          "Nexus 4",
+          "Nexus 5",
+          "Nexus 6P"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "Il successore del Nexus 4, il Nexus 5 è uno dei due modelli della gamma Nexus 2013 di Google, insieme al tablet Nexus 7."
+      },
+      {
+        "id": 20,
+        "question": "Come si chiama il primo tablet Google in collaborazione con Asus ?",
+        "propositions": [
+          "Nexus 7",
+          "Nook 7",
+          "Galaxy Tab 7",
+          "Xperia 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "Nel 2012 costava euros 199 tasse incluse per la versione da 16 GB e 249 euros tasse incluse per la versione da 32 GB."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale ex CEO di Danger Inc è anche il co-fondatore del sistema Android ?",
+        "propositions": [
+          "John Doerr",
+          "Andy Rubin",
+          "Chad Hurley",
+          "Matt Cutts"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "Nel maggio 2017, la società Essential Products creata da Andy Rubin ha annunciato il rilascio dello smartphone Essential PH-1."
+      },
+      {
+        "id": 22,
+        "question": "Quale macchina virtuale era inclusa fino alla versione 4.4 di Android ?",
+        "propositions": [
+          "Pugs",
+          "Beam",
+          "Parrot",
+          "Dalvik"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "È una macchina virtuale progettata da zero per i dispositivi mobili e le loro risorse limitate."
+      },
+      {
+        "id": 23,
+        "question": "Quale servizio indipendente da Arkos ti permette di scaricare applicazioni Android ?",
+        "propositions": [
+          "Appslib",
+          "F-Droid",
+          "App Store",
+          "App Galaxy"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Appslib consente quindi ad Archos di non soddisfare i criteri di Google che autorizzano l'integrazione di Google Play in un dispositivo."
+      },
+      {
+        "id": 24,
+        "question": "Con quale sistema l'azienda HP ha gareggiato con Android fino ad agosto 2011 ?",
+        "propositions": [
+          "Firefox OS",
+          "Symbian",
+          "iOS",
+          "webOS"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Dal 2013, a seguito di una posizione quasi dominante di Google, HP utilizza Android anche sulla sua gamma di tablet Slate."
+      },
+      {
+        "id": 25,
+        "question": "Quali diritti devo avere per installare una versione alternativa di Android ?",
+        "propositions": [
+          "Iscriviti",
+          "Radice",
+          "Successivo",
+          "Flac"
+        ],
+        "réponse": "Radice",
+        "anecdote": "Di solito comportando un rischio di perdita della garanzia, l'Unione Europea ha approvato direttive protettive su questo argomento."
+      },
+      {
+        "id": 26,
+        "question": "Quale ROM Android era precedentemente nota come CyanogenMod ?",
+        "propositions": [
+          "LineageOS",
+          "Wear OS",
+          "Oreo",
+          "Baidu"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "Compatibile con molti modelli sul mercato, LineageOS offre un'alternativa pulita ad alcune funzionalità dannose."
+      },
+      {
+        "id": 27,
+        "question": "Quale ambiente di runtime ha sostituito la macchina virtuale Dalvik ?",
+        "propositions": [
+          "ART",
+          "APK",
+          "ALE",
+          "AVO"
+        ],
+        "réponse": "ART",
+        "anecdote": "Con ART, a differenza della java virtual machine, i file .apk non vengono più lanciati direttamente ma vengono decompressi."
+      },
+      {
+        "id": 28,
+        "question": "Qual è stato il primo telefono rilasciato per Android ?",
+        "propositions": [
+          "Xiaomi Mi",
+          "Sony Arc",
+          "HTC G1 / Sogno",
+          "LG G3"
+        ],
+        "réponse": "HTC G1 / Sogno",
+        "anecdote": "Prodotto dalla società taiwanese HTC, l'HTC G1 è stato lanciato negli Stati Uniti sulla rete T-Mobile il 22 ottobre 2008."
+      },
+      {
+        "id": 29,
+        "question": "Quale ROM Android 100% free-oriented non contiene alcun pacchetto proprietario ?",
+        "propositions": [
+          "Iconia",
+          "Timescape",
+          "OmniROM",
+          "Replicante"
+        ],
+        "réponse": "Replicante",
+        "anecdote": "Supportato dalla Free Software Foundation, il nome Replicant è preso dagli androidi con lo stesso nome nel film « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "Quale console di gioco portatile prodotta da Nvidia funziona su Android ?",
+        "propositions": [
+          "SupaBoy",
+          "Tapwave",
+          "Scudo Nvidia",
+          "Pandora"
+        ],
+        "réponse": "Scudo Nvidia",
+        "anecdote": "Oltre alle funzionalità di prim'ordine, uno dei suoi principali punti di forza è la capacità di eseguire lo streaming di giochi da un PC."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Op welke kernel is het mobiele Android-besturingssysteem gebaseerd ?",
+        "propositions": [
+          "Accent",
+          "Linux",
+          "Windows NT",
+          "BSD"
+        ],
+        "réponse": "Linux",
+        "anecdote": "De Linux-kernel is gratis software die voornamelijk in de C-taal is ontwikkeld door duizenden vrijwilligers op internet."
+      },
+      {
+        "id": 2,
+        "question": "Door welk bedrijf wordt het Android-systeem momenteel ontwikkeld ?",
+        "propositions": [
+          "HP",
+          "Microsoft",
+          "Google",
+          "Appel"
+        ],
+        "réponse": "Google",
+        "anecdote": "Het Android-besturingssysteem werd in juni 2007 gelanceerd na de overname door Google in 2005 van de gelijknamige startup."
+      },
+      {
+        "id": 3,
+        "question": "Welke kleine groene robot gebruikt Google om zijn Android-systeem te presenteren ?",
+        "propositions": [
+          "Bugdroid",
+          "Archie",
+          "Tux",
+          "Houtachtig"
+        ],
+        "réponse": "Bugdroid",
+        "anecdote": "Bugdroid, het logo van Android, is eigenlijk een personage uit een game uit de jaren 90 op Atari : « Gauntlet : The Third Encounter »."
+      },
+      {
+        "id": 4,
+        "question": "In welke online winkel kunnen applicaties voor Android worden gekocht ?",
+        "propositions": [
+          "App Store",
+          "Steam",
+          "Impulse",
+          "Google Play"
+        ],
+        "réponse": "Google Play",
+        "anecdote": "Hoewel niet opgenomen in de Android-bronnen, speelt Google Play een cruciale rol in de populariteit van Android."
+      },
+      {
+        "id": 5,
+        "question": "Wat is de naam van de standaard ingebouwde webbrowser in Android ?",
+        "propositions": [
+          "Galerij",
+          "Surfer",
+          "internet",
+          "Web"
+        ],
+        "réponse": "internet",
+        "anecdote": "Android AOSP (broncode) heeft veel ingebouwde applicaties : telefoon, contacten, e-mail, agenda, ..."
+      },
+      {
+        "id": 6,
+        "question": "Naar welk type kaart kun je Android-apps verplaatsen ?",
+        "propositions": [
+          "Wifi",
+          "MicroSD",
+          "Grafisch",
+          "Netwerk"
+        ],
+        "réponse": "MicroSD",
+        "anecdote": "Deze mogelijkheid is gebaseerd op de machtigingen en parameters in het manifestbestand van de toepassing die het autoriseert."
+      },
+      {
+        "id": 7,
+        "question": "Welke Google-telefoon profiteerde als eerste van Android 2.2 (Froyo) ?",
+        "propositions": [
+          "Nexus Galaxy",
+          "Nexus-pixel",
+          "Nexus S",
+          "Nexus One"
+        ],
+        "réponse": "Nexus One",
+        "anecdote": "De verkoop was niet uitzonderlijk met slechts ongeveer 20.000 verkochte exemplaren in de week van de release."
+      },
+      {
+        "id": 8,
+        "question": "Welk Samsung-model is een benchmark geworden voor Android-tablets ?",
+        "propositions": [
+          "Padphone",
+          "Nook",
+          "GamePad",
+          "Galaxy Tab"
+        ],
+        "réponse": "Galaxy Tab",
+        "anecdote": "Oorspronkelijk geleverd onder Android 2.2, twee maanden na de release, werden meer dan 600.000 exemplaren van de Samsung Galaxy Tab verkocht."
+      },
+      {
+        "id": 9,
+        "question": "Welke naam heeft versie 8 van het Android-besturingssysteem gekregen ?",
+        "propositions": [
+          "Lolly",
+          "Oreo",
+          "Heemst",
+          "Nougat"
+        ],
+        "réponse": "Oreo",
+        "anecdote": "Deze versie van het Android-systeem is sinds 21 augustus 2017 beschikbaar en draagt \u200b\u200bde naam van het cookie-merk Oreo."
+      },
+      {
+        "id": 10,
+        "question": "Hoeveel procent van de Google Play-apps is ongeveer gratis ?",
+        "propositions": [
+          "55%",
+          "35%",
+          "45%",
+          "65%"
+        ],
+        "réponse": "65%",
+        "anecdote": "Met Google Play kun je applicaties, boeken, films of muziek downloaden, al dan niet betaald."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat was de vorige naam die vóór maart 2012 aan de Google Play Store werd gegeven ?",
+        "propositions": [
+          "Zeebo",
+          "3DSWare",
+          "Galaxy-apps",
+          "Android Markt"
+        ],
+        "réponse": "Android Markt",
+        "anecdote": "Begin 2013 telde Google Play 800.000 applicaties, waarmee het al de grootste applicatiewinkel ter wereld was."
+      },
+      {
+        "id": 12,
+        "question": "Welke smartphone werd er in de wereld op de markt gebracht onder de naam Motorola Milestone ?",
+        "propositions": [
+          "Xperia",
+          "Galaxy S",
+          "Droid",
+          "Nexus"
+        ],
+        "réponse": "Droid",
+        "anecdote": "De eerste telefoon uitgerust met versie 2.0 van Android, vond een week na de lancering 250.000 kopers."
+      },
+      {
+        "id": 13,
+        "question": "Wat heb je nodig op je smartphone om toegang te krijgen tot de Tegra app store ?",
+        "propositions": [
+          "SSL-sleutel",
+          "Bitcoins",
+          "iOS",
+          "Tegra-chip"
+        ],
+        "réponse": "Tegra-chip",
+        "anecdote": "Deze winkel maakt het in het bijzonder mogelijk om zeer hoge definitie (THD) applicaties te downloaden die speciaal zijn bedoeld voor telefoons met Tegra."
+      },
+      {
+        "id": 14,
+        "question": "Welke gratis applicatieservice is gemaakt door de Free Software Foundation ?",
+        "propositions": [
+          "Android Markt",
+          "Zeebo",
+          "Appslib",
+          "F-Droid"
+        ],
+        "réponse": "F-Droid",
+        "anecdote": "De apps zijn te installeren via de F-Droid app, maar kunnen ook vanaf de website geladen worden."
+      },
+      {
+        "id": 15,
+        "question": "Welk bedrijf bracht in Frankrijk de eerste Android-mobiel op de markt ?",
+        "propositions": [
+          "SFR",
+          "Bouygues Telecom",
+          "Free Mobile",
+          "Orange"
+        ],
+        "réponse": "Orange",
+        "anecdote": "Na de HTC Dream arriveerde begin mei 2009 de HTC Magic bij SFR, gevolgd door de Samsung Galaxy (of i7500) bij Bouygues."
+      },
+      {
+        "id": 16,
+        "question": "Welke smartphone die in oktober 2011 werd aangeboden, was de eerste met Android 4 ?",
+        "propositions": [
+          "Xiaomi Mi 4",
+          "Moto E",
+          "Galaxy Nexus",
+          "Xperia Spelen"
+        ],
+        "réponse": "Galaxy Nexus",
+        "anecdote": "Het bevat ontgrendeling van gezichtsherkenning, virtuele knoppen en geavanceerde spraakherkenning."
+      },
+      {
+        "id": 17,
+        "question": "Welke versie van Android konden we vinden op de Google Nexus 6 ?",
+        "propositions": [
+          "Lollipop",
+          "Jelly Bean",
+          "KitKat",
+          "Honeycomb"
+        ],
+        "réponse": "Lollipop",
+        "anecdote": "De belangrijkste wijzigingen in Android 5.0 zijn de beschikbaarheid op de Android TV- en Android Auto-platforms."
+      },
+      {
+        "id": 18,
+        "question": "In welk jaar werd de eerste Android TV onthuld ?",
+        "propositions": [
+          "2014",
+          "2012",
+          "2016",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "Scandinavië, ontwikkeld door het Zweedse bedrijf People of Lava, had een webbrowser en een e-mailclient."
+      },
+      {
+        "id": 19,
+        "question": "Welke Google-smartphone, uitgerust met Android 4.4, ondersteunde nu als eerste 4G ?",
+        "propositions": [
+          "Nexus 4",
+          "Nexus 6P",
+          "Nexus 5",
+          "Nexus 5X"
+        ],
+        "réponse": "Nexus 5",
+        "anecdote": "De opvolger van de Nexus 4, de Nexus 5, is een van de twee modellen in Google's Nexus-reeks van 2013, samen met de Nexus 7-tablet."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de naam van de eerste Google-tablet in samenwerking met Asus ?",
+        "propositions": [
+          "Nook 7",
+          "Galaxy Tab 7",
+          "Nexus 7",
+          "Xperia 7"
+        ],
+        "réponse": "Nexus 7",
+        "anecdote": "In 2012 kostte het euros 199 alle belastingen inbegrepen in de 16 GB-versie en euros 249 alle belastingen inbegrepen voor de 32 GB-versie."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke voormalig CEO van Danger Inc is ook de mede-oprichter van het Android-systeem ?",
+        "propositions": [
+          "Andy Rubin",
+          "Chad Hurley",
+          "Matt Cutts",
+          "John Doerr"
+        ],
+        "réponse": "Andy Rubin",
+        "anecdote": "In mei 2017 kondigde het bedrijf Essential Products, opgericht door Andy Rubin, de release van de Essential PH-1-smartphone aan."
+      },
+      {
+        "id": 22,
+        "question": "Welke virtuele machine was inbegrepen tot Android-versie 4.4 ?",
+        "propositions": [
+          "Beam",
+          "Parrot",
+          "Pugs",
+          "Dalvik"
+        ],
+        "réponse": "Dalvik",
+        "anecdote": "Het is een virtuele machine die vanaf het begin is ontworpen voor mobiele apparaten en hun beperkte middelen."
+      },
+      {
+        "id": 23,
+        "question": "Met welke onafhankelijke service van Arkos kunt u Android-applicaties downloaden ?",
+        "propositions": [
+          "Appslib",
+          "App Store",
+          "F-Droid",
+          "Galaxy-apps"
+        ],
+        "réponse": "Appslib",
+        "anecdote": "Met Appslib kan Archos dus niet voldoen aan de criteria van Google die de integratie van Google Play in een apparaat toestaan."
+      },
+      {
+        "id": 24,
+        "question": "Met welk systeem concurreerde het HP-bedrijf tot augustus 2011 met Android ?",
+        "propositions": [
+          "iOS",
+          "Symbian",
+          "webOS",
+          "Firefox OS"
+        ],
+        "réponse": "webOS",
+        "anecdote": "Sinds 2013 gebruikt HP, na een bijna dominante positie van Google, ook Android op zijn Slate-reeks tablets."
+      },
+      {
+        "id": 25,
+        "question": "Welke rechten moet ik hebben om een alternatieve versie van Android te installeren ?",
+        "propositions": [
+          "Volgende",
+          "Wortel",
+          "Doe mee",
+          "Flac"
+        ],
+        "réponse": "Wortel",
+        "anecdote": "Meestal met een risico op verlies van garantie, heeft de Europese Unie beschermende richtlijnen over dit onderwerp aangenomen."
+      },
+      {
+        "id": 26,
+        "question": "Welke Android-ROM was voorheen bekend als CyanogenMod ?",
+        "propositions": [
+          "Oreo",
+          "Baidu",
+          "Wear OS",
+          "LineageOS"
+        ],
+        "réponse": "LineageOS",
+        "anecdote": "LineageOS is compatibel met veel modellen op de markt en biedt een schoon alternatief voor sommige kwaadaardige functies."
+      },
+      {
+        "id": 27,
+        "question": "Welke runtime-omgeving verving de virtuele Dalvik-machine ?",
+        "propositions": [
+          "ART",
+          "ALE",
+          "APK",
+          "AVO"
+        ],
+        "réponse": "ART",
+        "anecdote": "Met ART worden de .apk-bestanden, in tegenstelling tot de virtuele java-machine, niet langer rechtstreeks gestart, maar gedecomprimeerd."
+      },
+      {
+        "id": 28,
+        "question": "Wat was de allereerste telefoon die voor Android werd uitgebracht ?",
+        "propositions": [
+          "HTC G1 / Droom",
+          "LG G3",
+          "Sony Arc",
+          "Xiaomi Mi"
+        ],
+        "réponse": "HTC G1 / Droom",
+        "anecdote": "Geproduceerd door het Taiwanese bedrijf HTC, werd de HTC G1 op 22 oktober 2008 in de Verenigde Staten gelanceerd op het T-Mobile-netwerk."
+      },
+      {
+        "id": 29,
+        "question": "Welke 100% gratis georiënteerde Android ROM bevat geen propriëtaire pakketten ?",
+        "propositions": [
+          "Tijdlandschap",
+          "Iconia",
+          "OmniROM",
+          "Replicant"
+        ],
+        "réponse": "Replicant",
+        "anecdote": "Ondersteund door de Free Software Foundation, is de naam Replicant ontleend aan de androïden met dezelfde naam in de film « Blade Runner »."
+      },
+      {
+        "id": 30,
+        "question": "Welke draagbare gameconsole van Nvidia draait op Android ?",
+        "propositions": [
+          "Nvidia-schild",
+          "SupaBoy",
+          "Pandora",
+          "Tapgolf"
+        ],
+        "réponse": "Nvidia-schild",
+        "anecdote": "Naast eersteklas functies, is een van de belangrijkste sterke punten de mogelijkheid om games vanaf een pc te streamen."
+      }
+    ]
+    }
+  }
+}

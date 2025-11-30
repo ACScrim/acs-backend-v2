@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-03-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Animaux",
+      "nom": "Races de chien",
+      "slogan": "Le meilleur ami de l'homme"
+    },
+    "en": {
+      "catégorie": "Animals",
+      "nom": "Dog breeds",
+      "slogan": "The men's best friend"
+    },
+    "es": {
+      "catégorie": "Animales",
+      "nom": "Razas de perros",
+      "slogan": "El mejor amigo de los hombres"
+    },
+    "it": {
+      "catégorie": "Animali",
+      "nom": "Razze di cani",
+      "slogan": "Il migliore amico degli uomini"
+    },
+    "de": {
+      "catégorie": "Tiere",
+      "nom": "Races de chien",
+      "slogan": "Der beste Freund der Männer"
+    },
+    "nl": {
+      "catégorie": "Dieren",
+      "nom": "Honden rassen",
+      "slogan": "De beste vriend van de mannen"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle race de chien de petite taille a un pelage soyeux bleu, gris et feu ?",
+        "propositions": [
+          "Bouvier",
+          "Dalmatien",
+          "Corgi",
+          "Yorkshire"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "En dépit de sa taille minuscule, c'est un petit chien très vif, affectueux et têtu, qui apprécie beaucoup les sorties dans la nature."
+      },
+      {
+        "id": 2,
+        "question": "Quel est le plus rustique et le plus utilisé des chiens de berger belges ?",
+        "propositions": [
+          "Beagle",
+          "Golden retriever",
+          "Malinois",
+          "Lévrier"
+        ],
+        "réponse": "Malinois",
+        "anecdote": "C'est un chien vif ayant de grandes facultés d'apprentissage : si elles sont sollicitées régulièrement, il peut devenir très obéissant."
+      },
+      {
+        "id": 3,
+        "question": "Quels étaient les chiens préférés de la reine Élisabeth II ?",
+        "propositions": [
+          "Yorkshire",
+          "Corgi",
+          "Carlin",
+          "Fox-terrier"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "Elle en a possédé une trentaine depuis qu'un corgi nommé Susan lui avait été offert en 1944, pour son 18e anniversaire."
+      },
+      {
+        "id": 4,
+        "question": "Quelle race de chien à poil court est aussi appelée grand danois ?",
+        "propositions": [
+          "Rottweiler",
+          "Malinois",
+          "Dobermann",
+          "Dogue allemand"
+        ],
+        "réponse": "Dogue allemand",
+        "anecdote": "La place du plus grand chien connu au monde a longtemps été détenue par un dogue allemand arlequin du nom de Gibson."
+      },
+      {
+        "id": 5,
+        "question": "Quel fameux emblème du Royaume-Uni a des babines bien pendantes ?",
+        "propositions": [
+          "Bouledogue",
+          "Terre-neuve",
+          "Border collie",
+          "Boxer"
+        ],
+        "réponse": "Bouledogue",
+        "anecdote": "Trapu, court sur pattes avec un poitrail imposant, le bulldog anglais inspire au premier coup d'oeil force et robustesse."
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la race de Frank, personnages des films « Men in Black » 1 et 2 ?",
+        "propositions": [
+          "Carlin",
+          "Mastiff",
+          "Épagneul breton",
+          "Yorkshire"
+        ],
+        "réponse": "Carlin",
+        "anecdote": "Il existe quatre différentes couleurs de robe : fauve à masque noir, abricot à masque noir, argent à masque noir et noire."
+      },
+      {
+        "id": 7,
+        "question": "Quel chien de coche possède une robe blanche avec des taches rondes ?",
+        "propositions": [
+          "Cocker anglais",
+          "Dalmatien",
+          "Pékinois",
+          "Spitz finlandais"
+        ],
+        "réponse": "Dalmatien",
+        "anecdote": "Le standard de la Fédération cynologique internationale décrit le dalmatien comme amical, vif, loyal, indépendant et facile à éduquer."
+      },
+      {
+        "id": 8,
+        "question": "Quelle race de chien accompagne Tintin tout au long de ses aventures ?",
+        "propositions": [
+          "Fox-terrier",
+          "Shih tzu",
+          "Bouvier",
+          "Yorkshire"
+        ],
+        "réponse": "Fox-terrier",
+        "anecdote": "Le fox-terrier est vif, intelligent et adaptable, volontiers joueur, il saura aussi veiller sur les enfants, avec qui il est très gentil."
+      },
+      {
+        "id": 9,
+        "question": "Quel chien longiligne, aux longues pattes fines, est bâti pour la course ?",
+        "propositions": [
+          "Lévrier",
+          "Épagneul breton",
+          "Malinois",
+          "Pinscher"
+        ],
+        "réponse": "Lévrier",
+        "anecdote": "Ce sont d'excellents chiens de compagnie, très attachés aux personnes avec lesquelles ils vivent, distants avec les étrangers."
+      },
+      {
+        "id": 10,
+        "question": "Quel chien long et court sur pattes est souvent surnommé chien-saucisse ?",
+        "propositions": [
+          "Griffon belge",
+          "Golden retriever",
+          "Bouledogue",
+          "Teckel"
+        ],
+        "réponse": "Teckel",
+        "anecdote": "Originaire d'Allemagne, le teckel était utilisé pour la chasse aux renards, aux lapins et aux blaireaux, qu'il délogeait de leurs terriers."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle race de chien de berger est originaire de la frontière anglo-écossaise ?",
+        "propositions": [
+          "Border collie",
+          "Shih tzu",
+          "Basset",
+          "Braque"
+        ],
+        "réponse": "Border collie",
+        "anecdote": "Partout dans le monde, ce chien de travail assiste les agriculteurs dans la conduite du bétail, notamment des moutons."
+      },
+      {
+        "id": 12,
+        "question": "Quel chien aux longues oreilles pendantes en subit souvent de nombreuses infections ?",
+        "propositions": [
+          "Cocker anglais",
+          "Pékinois",
+          "Malinois",
+          "Terre-neuve"
+        ],
+        "réponse": "Cocker anglais",
+        "anecdote": "Pour l'éviter, il faut les nettoyer avec un produit spécialisé environ une fois par semaine et les alléger en coupant un peu de poils."
+      },
+      {
+        "id": 13,
+        "question": "Quelle race gracieuse a été créée comme chien de garde et chien policier ?",
+        "propositions": [
+          "Teckel",
+          "Boxer",
+          "Dobermann",
+          "Spitz finlandais"
+        ],
+        "réponse": "Dobermann",
+        "anecdote": "Le Dobermann est devenu chien de compagnie pour sa loyauté envers son maître et sa famille, qu'il voudra protéger du danger."
+      },
+      {
+        "id": 14,
+        "question": "Quelle race de chien a eu le rôle de gardien de bovins auprès de l'homme ?",
+        "propositions": [
+          "Beagle",
+          "Corgi",
+          "Caniche",
+          "Bouvier"
+        ],
+        "réponse": "Bouvier",
+        "anecdote": "Des chiens d'autres races peuvent aussi être ou avoir été des bouviers par leur fonction prépondérante (ou non)."
+      },
+      {
+        "id": 15,
+        "question": "Quelle race de chien très massif a un nom qui signifie « puissant » ?",
+        "propositions": [
+          "Mastiff",
+          "Pinscher",
+          "Shih tzu",
+          "Spitz finlandais"
+        ],
+        "réponse": "Mastiff",
+        "anecdote": "En termes de masse, c'est une des plus grosses races de chien, dépassée en taille par l'Irish Wolfhound et le dogue allemand."
+      },
+      {
+        "id": 16,
+        "question": "Quelle race de chien robuste est aussi appelée bouvier allemand ?",
+        "propositions": [
+          "Rottweiler",
+          "Braque",
+          "Dobermann",
+          "Golden retriever"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "En France, une absence de permis de détention du chien sera punie avec une amende pouvant égaler un montant de 750 euros."
+      },
+      {
+        "id": 17,
+        "question": "Quel chien, originaire d'une île canadienne, possède une épaisse fourrure noire ?",
+        "propositions": [
+          "Terre-neuve",
+          "Border collie",
+          "Carlin",
+          "Basset"
+        ],
+        "réponse": "Terre-neuve",
+        "anecdote": "Ses pattes dites palmées, sa corpulence et sa docilité font du terre-neuve l'animal idéal pour le sauvetage, notamment en mer."
+      },
+      {
+        "id": 18,
+        "question": "Quel chien, originaire de Bretagne, est réputé pour ses talents de chasseur ?",
+        "propositions": [
+          "Lévrier",
+          "Dalmatien",
+          "Bouvier",
+          "Épagneul breton"
+        ],
+        "réponse": "Épagneul breton",
+        "anecdote": "Les épagneuls de type chien d'arrêt chassent de façon similaire aux braques, au pointer et au setter, vu comme un épagneul couchant."
+      },
+      {
+        "id": 19,
+        "question": "Quel chien est dépeint dans la BD, notamment avec le personnage de Snoopy ?",
+        "propositions": [
+          "Corgi",
+          "Fox-terrier",
+          "Beagle",
+          "Bouledogue"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy n'est pas un beagle ordinaire : il est amoureux des livres, aspirant écrivain, et également collectionneur de beaux-arts."
+      },
+      {
+        "id": 20,
+        "question": "Quelle race de chien originaire de Finlande a la robe rouge-brun à brun doré ?",
+        "propositions": [
+          "Spitz finlandais",
+          "Terre-neuve",
+          "Mastiff",
+          "Boxer"
+        ],
+        "réponse": "Spitz finlandais",
+        "anecdote": "Issue des régions orientales et septentrionales de la Finlande, la race a été désignée « Chien national finlandais » en 1979."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel chien tibétain est parfois surnommé le chien lion ?",
+        "propositions": [
+          "Dogue allemand",
+          "Teckel",
+          "Pinscher",
+          "Shih tzu"
+        ],
+        "réponse": "Shih tzu",
+        "anecdote": "Ce surnom est lié à une légende, selon laquelle cette race canine entretenait des liens étroits avec le lion des neiges."
+      },
+      {
+        "id": 22,
+        "question": "Quelle race de chien de Grande-Bretagne signifie en anglais rapporteur doré ?",
+        "propositions": [
+          "Beagle",
+          "Dobermann",
+          "Golden retriever",
+          "Cocker anglais"
+        ],
+        "réponse": "Golden retriever",
+        "anecdote": "Comme c'est typique des races de retriever, la race est généralement calme et docile, étant très facile à dresser."
+      },
+      {
+        "id": 23,
+        "question": "Quel chien de compagnie fut le préféré de la cour impériale à la Cité interdite ?",
+        "propositions": [
+          "Carlin",
+          "Pékinois",
+          "Griffon belge",
+          "Caniche"
+        ],
+        "réponse": "Pékinois",
+        "anecdote": "Les Chinois semblent avoir sélectionné ce chien pour lui donner la même apparence que les statues de lion."
+      },
+      {
+        "id": 24,
+        "question": "Quel chien de chasse d'origine française était spécialisé dans le petit gibier ?",
+        "propositions": [
+          "Basset",
+          "Bouvier",
+          "Braque",
+          "Dalmatien"
+        ],
+        "réponse": "Basset",
+        "anecdote": "Les bassets sont facilement distinguables par leur dos long et leurs courtes pattes, ainsi qu'un poil court, lisse, dense et dur."
+      },
+      {
+        "id": 25,
+        "question": "Quelle race est née de l'accouplement d'un Bullenbeisser et d'un Bulldog ?",
+        "propositions": [
+          "Rottweiler",
+          "Dogue allemand",
+          "Boxer",
+          "Border collie"
+        ],
+        "réponse": "Boxer",
+        "anecdote": "Le Boxer actuel, doux et fidèle, a longtemps été utilisé pour chasser et abattre les ours, mais aussi dans le bull baiting."
+      },
+      {
+        "id": 26,
+        "question": "Quel chien de garde ressemble physiquement au Dobermann ?",
+        "propositions": [
+          "Épagneul breton",
+          "Pinscher",
+          "Griffon belge",
+          "Mastiff"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "Le Pinscher allemand est un chien énergique, intelligent et loyal, qualités qui en font un excellent chien de compagnie et de garde."
+      },
+      {
+        "id": 27,
+        "question": "Quel chien était autrefois adapté à la chasse au canard dans l'eau ?",
+        "propositions": [
+          "Fox-terrier",
+          "Bouledogue",
+          "Pékinois",
+          "Caniche"
+        ],
+        "réponse": "Caniche",
+        "anecdote": "Ce type de chasse explique le toilettage en lion qui lui est souvent appliqué, et qui était fort à la mode à la Belle Époque."
+      },
+      {
+        "id": 28,
+        "question": "Quelle race belge de petite taille est caractérisée par son museau écrasé ?",
+        "propositions": [
+          "Teckel",
+          "Basset",
+          "Malinois",
+          "Griffon belge"
+        ],
+        "réponse": "Griffon belge",
+        "anecdote": "La race est issue de croisements effectués au XIXe siècle entre le smousje (chien à poil dur), l'épagneul King Charles et le carlin."
+      },
+      {
+        "id": 29,
+        "question": "Quel chien d'arrêt, de taille moyenne, a un poil court de couleur marron ?",
+        "propositions": [
+          "Setter anglais",
+          "Braque",
+          "Lévrier",
+          "Caniche"
+        ],
+        "réponse": "Braque",
+        "anecdote": "À l'aise tant au bois qu'en plaine, il est adapté à tous les gibiers, mais est surtout adapté pour la caille, la bécasse et la bécassine."
+      },
+      {
+        "id": 30,
+        "question": "Quel chien à la robe blanche truitée descend de l'ancien épagneul ?",
+        "propositions": [
+          "Rottweiler",
+          "Dogue allemand",
+          "Cocker anglais",
+          "Setter anglais"
+        ],
+        "réponse": "Setter anglais",
+        "anecdote": "La beauté de la race est très appréciée et certains éleveurs, notamment en Angleterre, ont formé des lignées d'exposition."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What breed of small dog has a silky blue, gray and tan coat ?",
+        "propositions": [
+          "Corgi",
+          "Yorkshire",
+          "Dalmatian",
+          "Herdsman"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "Despite its tiny size, it is a very lively, affectionate and stubborn little dog, who really enjoys going out into nature."
+      },
+      {
+        "id": 2,
+        "question": "What is the hardiest and most widely used Belgian Shepherd Dog ?",
+        "propositions": [
+          "golden retriever",
+          "Malinois",
+          "Greyhound",
+          "Beagle"
+        ],
+        "réponse": "Malinois",
+        "anecdote": "He is a lively dog with great learning skills : if they are used regularly, he can become very obedient."
+      },
+      {
+        "id": 3,
+        "question": "What were Queen Elizabeth II's favorite dogs ?",
+        "propositions": [
+          "Corgi",
+          "Yorkshire",
+          "Fox Terrier",
+          "Pug"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "She has owned around 30 since a corgi named Susan was given to her in 1944, for her 18th birthday."
+      },
+      {
+        "id": 4,
+        "question": "What breed of short-haired dog is also called a Great Dane ?",
+        "propositions": [
+          "Great Dane",
+          "Doberman",
+          "Rottweiler",
+          "Malinois"
+        ],
+        "réponse": "Great Dane",
+        "anecdote": "The place for the largest known dog in the world has long been held by a harlequin Great Dane named Gibson."
+      },
+      {
+        "id": 5,
+        "question": "Which famous emblem of the United Kingdom has very hanging lips ?",
+        "propositions": [
+          "Bulldog",
+          "Boxers",
+          "Border collie",
+          "Newfoundland"
+        ],
+        "réponse": "Bulldog",
+        "anecdote": "Stocky, short on legs with an imposing chest, the English bulldog inspires strength and robustness at first glance."
+      },
+      {
+        "id": 6,
+        "question": "What is the race of Frank, characters in the films « Men in Black » 1 and 2 ?",
+        "propositions": [
+          "Brittany Spaniel",
+          "Mastiff",
+          "Yorkshire",
+          "Pug"
+        ],
+        "réponse": "Pug",
+        "anecdote": "There are four different coat colors : fawn with black mask, apricot with black mask, silver with black mask and black."
+      },
+      {
+        "id": 7,
+        "question": "Which check dog has a white coat with round spots ?",
+        "propositions": [
+          "Dalmatian",
+          "Finnish Spitz",
+          "Pekingese",
+          "English Cocker Spaniel"
+        ],
+        "réponse": "Dalmatian",
+        "anecdote": "The International Cynological Federation standard describes the Dalmatian as friendly, lively, loyal, independent and easy to train."
+      },
+      {
+        "id": 8,
+        "question": "What breed of dog accompanies Tintin throughout his adventures ?",
+        "propositions": [
+          "Shih tzu",
+          "Yorkshire",
+          "Fox Terrier",
+          "Herdsman"
+        ],
+        "réponse": "Fox Terrier",
+        "anecdote": "The fox terrier is lively, intelligent and adaptable, willingly playful, he will also watch over children, with whom he is very kind."
+      },
+      {
+        "id": 9,
+        "question": "Which slender dog, with long, thin legs, is built for running ?",
+        "propositions": [
+          "Pinscher",
+          "Greyhound",
+          "Malinois",
+          "Brittany Spaniel"
+        ],
+        "réponse": "Greyhound",
+        "anecdote": "They are excellent companion dogs, very attached to the people they live with, distant with strangers."
+      },
+      {
+        "id": 10,
+        "question": "Which long, short-legged dog is often nicknamed sausage dog ?",
+        "propositions": [
+          "golden retriever",
+          "Dachshund",
+          "Bulldog",
+          "Belgian Griffon"
+        ],
+        "réponse": "Dachshund",
+        "anecdote": "Originally from Germany, the dachshund was used to hunt foxes, rabbits and badgers, which it dislodged from their burrows."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What breed of sheepdog originated on the Anglo-Scottish border ?",
+        "propositions": [
+          "Pointer",
+          "Shih tzu",
+          "Bassett",
+          "Border collie"
+        ],
+        "réponse": "Border collie",
+        "anecdote": "All over the world, this working dog assists farmers in herding livestock, especially sheep."
+      },
+      {
+        "id": 12,
+        "question": "Which dog with long ears often suffers from numerous infections ?",
+        "propositions": [
+          "Pekingese",
+          "English Cocker Spaniel",
+          "Newfoundland",
+          "Malinois"
+        ],
+        "réponse": "English Cocker Spaniel",
+        "anecdote": "To avoid this, you should clean them with a specialized product about once a week and lighten them by cutting a little hair."
+      },
+      {
+        "id": 13,
+        "question": "What graceful breed was created as a guard dog and police dog ?",
+        "propositions": [
+          "Doberman",
+          "Dachshund",
+          "Boxers",
+          "Finnish Spitz"
+        ],
+        "réponse": "Doberman",
+        "anecdote": "The Doberman became a companion dog for his loyalty to his master and his family, whom he will want to protect from danger."
+      },
+      {
+        "id": 14,
+        "question": "What breed of dog played the role of cattle guard for man ?",
+        "propositions": [
+          "Herdsman",
+          "Beagle",
+          "Corgi",
+          "Poodle"
+        ],
+        "réponse": "Herdsman",
+        "anecdote": "Dogs of other breeds may also be or have been herdsmen by their predominant function (or not)."
+      },
+      {
+        "id": 15,
+        "question": "What breed of very massive dog has a name that means « powerful » ?",
+        "propositions": [
+          "Shih tzu",
+          "Mastiff",
+          "Finnish Spitz",
+          "Pinscher"
+        ],
+        "réponse": "Mastiff",
+        "anecdote": "In terms of mass, it is one of the largest dog breeds, surpassed in size by the Irish Wolfhound and the Great Dane."
+      },
+      {
+        "id": 16,
+        "question": "What sturdy dog breed is also called a German Cattle Dog ?",
+        "propositions": [
+          "Rottweiler",
+          "Pointer",
+          "Doberman",
+          "golden retriever"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "In France, the absence of a dog possession permit will be punished with a fine of up to 750 euros."
+      },
+      {
+        "id": 17,
+        "question": "Which dog, originally from a Canadian island, has thick black fur ?",
+        "propositions": [
+          "Border collie",
+          "Newfoundland",
+          "Bassett",
+          "Pug"
+        ],
+        "réponse": "Newfoundland",
+        "anecdote": "Its so-called webbed feet, its corpulence and its docility make the Newfoundland the ideal animal for rescue, particularly at sea."
+      },
+      {
+        "id": 18,
+        "question": "Which dog, originally from Brittany, is renowned for its hunting skills ?",
+        "propositions": [
+          "Greyhound",
+          "Herdsman",
+          "Brittany Spaniel",
+          "Dalmatian"
+        ],
+        "réponse": "Brittany Spaniel",
+        "anecdote": "Pointing dog type spaniels hunt in a similar way to pointers, pointers and setters, seen like a lying spaniel."
+      },
+      {
+        "id": 19,
+        "question": "Which dog is depicted in the comics, particularly with the character Snoopy ?",
+        "propositions": [
+          "Beagle",
+          "Bulldog",
+          "Fox Terrier",
+          "Corgi"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy is no ordinary beagle : he is a book lover, an aspiring writer, and also a collector of fine art."
+      },
+      {
+        "id": 20,
+        "question": "What breed of dog from Finland has a red-brown to golden brown coat ?",
+        "propositions": [
+          "Mastiff",
+          "Boxers",
+          "Finnish Spitz",
+          "Newfoundland"
+        ],
+        "réponse": "Finnish Spitz",
+        "anecdote": "Originating from the eastern and northern regions of Finland, the breed was designated the « Finnish National Dog » in 1979."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Tibetan dog is sometimes nicknamed the lion dog ?",
+        "propositions": [
+          "Shih tzu",
+          "Dachshund",
+          "Pinscher",
+          "Great Dane"
+        ],
+        "réponse": "Shih tzu",
+        "anecdote": "This nickname is linked to a legend, according to which this canine breed had close links with the snow lion."
+      },
+      {
+        "id": 22,
+        "question": "What breed of dog from Great Britain means golden protractor in English ?",
+        "propositions": [
+          "English Cocker Spaniel",
+          "Doberman",
+          "Beagle",
+          "golden retriever"
+        ],
+        "réponse": "golden retriever",
+        "anecdote": "As is typical of retriever breeds, the breed is generally calm and docile, being very easy to train."
+      },
+      {
+        "id": 23,
+        "question": "Which pet dog was the favorite of the imperial court in the Forbidden City ?",
+        "propositions": [
+          "Poodle",
+          "Belgian Griffon",
+          "Pekingese",
+          "Pug"
+        ],
+        "réponse": "Pekingese",
+        "anecdote": "The Chinese seem to have selected this dog to give it the same appearance as lion statues."
+      },
+      {
+        "id": 24,
+        "question": "Which hunting dog of French origin specialized in small game ?",
+        "propositions": [
+          "Bassett",
+          "Pointer",
+          "Herdsman",
+          "Dalmatian"
+        ],
+        "réponse": "Bassett",
+        "anecdote": "Bassets are easily distinguished by their long backs and short legs, as well as a short, smooth, dense and harsh coat."
+      },
+      {
+        "id": 25,
+        "question": "What breed was born from the mating of a Bullenbeisser and a Bulldog ?",
+        "propositions": [
+          "Rottweiler",
+          "Border collie",
+          "Boxers",
+          "Great Dane"
+        ],
+        "réponse": "Boxers",
+        "anecdote": "The current Boxer, gentle and faithful, has long been used to hunt and shoot bears, but also in bull baiting."
+      },
+      {
+        "id": 26,
+        "question": "Which guard dog physically resembles the Doberman ?",
+        "propositions": [
+          "Belgian Griffon",
+          "Mastiff",
+          "Brittany Spaniel",
+          "Pinscher"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "The German Pinscher is an energetic, intelligent and loyal dog, qualities that make it an excellent companion and guard dog."
+      },
+      {
+        "id": 27,
+        "question": "Which dog was once suitable for duck hunting in the water ?",
+        "propositions": [
+          "Poodle",
+          "Fox Terrier",
+          "Pekingese",
+          "Bulldog"
+        ],
+        "réponse": "Poodle",
+        "anecdote": "This type of hunting explains the lion grooming which is often applied to it, and which was very fashionable during the Belle Époque."
+      },
+      {
+        "id": 28,
+        "question": "Which small Belgian breed is characterized by its crushed muzzle ?",
+        "propositions": [
+          "Belgian Griffon",
+          "Malinois",
+          "Dachshund",
+          "Bassett"
+        ],
+        "réponse": "Belgian Griffon",
+        "anecdote": "The breed comes from crosses carried out in the 19th century between the smousje (wire-haired dog), the King Charles spaniel and the pug."
+      },
+      {
+        "id": 29,
+        "question": "Which medium-sized pointing dog has short brown hair ?",
+        "propositions": [
+          "Poodle",
+          "English Setter",
+          "Pointer",
+          "Greyhound"
+        ],
+        "réponse": "Pointer",
+        "anecdote": "At ease both in the woods and in the plains, it is suitable for all game, but is especially suitable for quail, woodcock and snipe."
+      },
+      {
+        "id": 30,
+        "question": "Which dog with a trout-white coat descends from the ancient spaniel ?",
+        "propositions": [
+          "English Cocker Spaniel",
+          "Great Dane",
+          "Rottweiler",
+          "English Setter"
+        ],
+        "réponse": "English Setter",
+        "anecdote": "The beauty of the breed is highly appreciated and some breeders, particularly in England, have formed show lines."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche kleine Hunderasse hat ein seidenblaues, graues und braunes Fell ?",
+        "propositions": [
+          "Yorkshire",
+          "Hirte",
+          "Dalmatiner",
+          "Corgi"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "Trotz seiner geringen Größe ist er ein sehr lebhafter, anhänglicher und eigensinniger kleiner Hund, der sich sehr gerne in der Natur aufhält."
+      },
+      {
+        "id": 2,
+        "question": "Welcher ist der robusteste und am weitesten verbreitete Belgische Schäferhund ?",
+        "propositions": [
+          "Golden Retriever",
+          "Beagle",
+          "Malinois",
+          "Windhund"
+        ],
+        "réponse": "Malinois",
+        "anecdote": "Er ist ein lebhafter Hund mit großen Lernfähigkeiten : Bei regelmäßigem Einsatz kann er sehr gehorsam werden."
+      },
+      {
+        "id": 3,
+        "question": "Was waren die Lieblingshunde von Königin Elizabeth II. ?",
+        "propositions": [
+          "Corgi",
+          "Yorkshire",
+          "Foxterrier",
+          "Mops"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "Sie besitzt rund 30 Exemplare, seit ihr 1944 zu ihrem 18."
+      },
+      {
+        "id": 4,
+        "question": "Welche kurzhaarige Hunderasse wird auch Deutsche Dogge genannt ?",
+        "propositions": [
+          "Rottweiler",
+          "Deutsche Dogge",
+          "Malinois",
+          "Dobermann"
+        ],
+        "réponse": "Deutsche Dogge",
+        "anecdote": "Der Platz für den größten bekannten Hund der Welt wurde lange von einer harlekinartigen Deutschen Dogge namens Gibson eingenommen."
+      },
+      {
+        "id": 5,
+        "question": "Welches berühmte Wahrzeichen des Vereinigten Königreichs hat sehr hängende Lippen ?",
+        "propositions": [
+          "Bulldogge",
+          "Border Collie",
+          "Boxer",
+          "Neufundland"
+        ],
+        "réponse": "Bulldogge",
+        "anecdote": "Die englische Bulldogge ist stämmig, hat kurze Beine und eine imposante Brust und vermittelt auf den ersten Blick Kraft und Robustheit."
+      },
+      {
+        "id": 6,
+        "question": "Was ist die Rasse von Frank, den Charakteren in den Filmen « Men in Black » 1 und 2 ?",
+        "propositions": [
+          "Mastiff",
+          "Bretagne Spaniel",
+          "Yorkshire",
+          "Mops"
+        ],
+        "réponse": "Mops",
+        "anecdote": "Es gibt vier verschiedene Fellfarben : Rehbraun mit schwarzer Maske, Apricot mit schwarzer Maske, Silber mit schwarzer Maske und Schwarz."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Scheckhund hat ein weißes Fell mit runden Flecken ?",
+        "propositions": [
+          "Finnischer Spitz",
+          "Englischer Cocker Spaniel",
+          "Dalmatiner",
+          "Pekingese"
+        ],
+        "réponse": "Dalmatiner",
+        "anecdote": "Der Standard der International Cynological Federation beschreibt den Dalmatiner als freundlich, lebhaft, loyal, unabhängig und leicht zu erziehen."
+      },
+      {
+        "id": 8,
+        "question": "Welche Hunderasse begleitet Tim und Struppi auf seinen Abenteuern ?",
+        "propositions": [
+          "Hirte",
+          "Shih Tzu",
+          "Yorkshire",
+          "Foxterrier"
+        ],
+        "réponse": "Foxterrier",
+        "anecdote": "Der Foxterrier ist lebhaft, intelligent und anpassungsfähig, gerne verspielt, er passt auch auf Kinder auf, mit denen er sehr freundlich ist."
+      },
+      {
+        "id": 9,
+        "question": "Welcher schlanke Hund mit langen, dünnen Beinen ist zum Laufen geeignet ?",
+        "propositions": [
+          "Bretagne Spaniel",
+          "Windhund",
+          "Pinscher",
+          "Malinois"
+        ],
+        "réponse": "Windhund",
+        "anecdote": "Sie sind ausgezeichnete Begleithunde, die den Menschen, mit denen sie zusammenleben, sehr verbunden sind und Fremden gegenüber distanziert sind."
+      },
+      {
+        "id": 10,
+        "question": "Welcher lange, kurzbeinige Hund wird oft als Wursthund bezeichnet ?",
+        "propositions": [
+          "Belgischer Greif",
+          "Dackel",
+          "Bulldogge",
+          "Golden Retriever"
+        ],
+        "réponse": "Dackel",
+        "anecdote": "Der ursprünglich aus Deutschland stammende Dackel wurde zur Jagd auf Füchse, Kaninchen und Dachse eingesetzt, die er aus ihren Höhlen vertrieb."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Schäferhundrasse hat ihren Ursprung an der anglo-schottischen Grenze ?",
+        "propositions": [
+          "Border Collie",
+          "Shih Tzu",
+          "Bassett",
+          "Zeiger"
+        ],
+        "réponse": "Border Collie",
+        "anecdote": "Auf der ganzen Welt unterstützt dieser Arbeitshund Landwirte bei der Viehhaltung, insbesondere bei der Schafhaltung."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Hund mit langen Ohren leidet oft unter zahlreichen Infektionen ?",
+        "propositions": [
+          "Malinois",
+          "Pekingese",
+          "Neufundland",
+          "Englischer Cocker Spaniel"
+        ],
+        "réponse": "Englischer Cocker Spaniel",
+        "anecdote": "Um dies zu vermeiden, sollten Sie sie etwa einmal pro Woche mit einem Spezialprodukt reinigen und sie durch ein wenig Haareschneiden aufhellen."
+      },
+      {
+        "id": 13,
+        "question": "Welche anmutige Rasse wurde als Wachhund und Polizeihund geschaffen ?",
+        "propositions": [
+          "Dackel",
+          "Boxer",
+          "Dobermann",
+          "Finnischer Spitz"
+        ],
+        "réponse": "Dobermann",
+        "anecdote": "Der Dobermann wurde aufgrund seiner Loyalität gegenüber seinem Herrchen und seiner Familie, die er vor Gefahren schützen möchte, zum Begleithund."
+      },
+      {
+        "id": 14,
+        "question": "Welche Hunderasse spielte beim Menschen die Rolle des Viehwächters ?",
+        "propositions": [
+          "Beagle",
+          "Pudel",
+          "Hirte",
+          "Corgi"
+        ],
+        "réponse": "Hirte",
+        "anecdote": "Hunde anderer Rassen können aufgrund ihrer vorherrschenden Funktion ebenfalls Hirten sein oder gewesen sein (oder auch nicht)."
+      },
+      {
+        "id": 15,
+        "question": "Welche sehr massive Hunderasse hat einen Namen, der « mächtig » bedeutet ?",
+        "propositions": [
+          "Finnischer Spitz",
+          "Mastiff",
+          "Shih Tzu",
+          "Pinscher"
+        ],
+        "réponse": "Mastiff",
+        "anecdote": "Gemessen an der Masse ist er eine der größten Hunderassen und wird an Größe vom Irischen Wolfshund und der Deutschen Dogge übertroffen."
+      },
+      {
+        "id": 16,
+        "question": "Welche robuste Hunderasse wird auch Deutscher Sennenhund genannt ?",
+        "propositions": [
+          "Dobermann",
+          "Zeiger",
+          "Rottweiler",
+          "Golden Retriever"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "In Frankreich wird das Fehlen einer Hundehaltungserlaubnis mit einem Bußgeld von bis zu 750 Euro geahndet."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Hund, der ursprünglich von einer kanadischen Insel stammt, hat dickes schwarzes Fell ?",
+        "propositions": [
+          "Border Collie",
+          "Neufundland",
+          "Mops",
+          "Bassett"
+        ],
+        "réponse": "Neufundland",
+        "anecdote": "Seine sogenannten Schwimmhäute, seine Fülle und seine Fügsamkeit machen den Neufundländer zum idealen Rettungstier, insbesondere auf See."
+      },
+      {
+        "id": 18,
+        "question": "Welcher ursprünglich aus der Bretagne stammende Hund ist für seine Jagdfähigkeiten bekannt ?",
+        "propositions": [
+          "Dalmatiner",
+          "Bretagne Spaniel",
+          "Hirte",
+          "Windhund"
+        ],
+        "réponse": "Bretagne Spaniel",
+        "anecdote": "Vorstehhund-Spaniels jagen auf ähnliche Weise wie Vorstehhunde, Vorstehhunde und Setter, gesehen wie ein liegender Spaniel."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Hund wird in den Comics dargestellt, insbesondere mit der Figur Snoopy ?",
+        "propositions": [
+          "Foxterrier",
+          "Corgi",
+          "Bulldogge",
+          "Beagle"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy ist kein gewöhnlicher Beagle : Er ist ein Buchliebhaber, ein aufstrebender Schriftsteller und auch ein Kunstsammler."
+      },
+      {
+        "id": 20,
+        "question": "Welche Hunderasse aus Finnland hat ein rotbraunes bis goldbraunes Fell ?",
+        "propositions": [
+          "Neufundland",
+          "Finnischer Spitz",
+          "Boxer",
+          "Mastiff"
+        ],
+        "réponse": "Finnischer Spitz",
+        "anecdote": "Die aus den östlichen und nördlichen Regionen Finnlands stammende Rasse wurde 1979 zum « Finnischen Nationalhund » ernannt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher tibetische Hund wird manchmal als Löwenhund bezeichnet ?",
+        "propositions": [
+          "Dackel",
+          "Pinscher",
+          "Deutsche Dogge",
+          "Shih Tzu"
+        ],
+        "réponse": "Shih Tzu",
+        "anecdote": "Dieser Spitzname ist mit einer Legende verbunden, der zufolge diese Hunderasse enge Verbindungen zum Schneelöwen hatte."
+      },
+      {
+        "id": 22,
+        "question": "Welche Hunderasse aus Großbritannien bedeutet auf Englisch goldener Winkelmesser ?",
+        "propositions": [
+          "Dobermann",
+          "Beagle",
+          "Englischer Cocker Spaniel",
+          "Golden Retriever"
+        ],
+        "réponse": "Golden Retriever",
+        "anecdote": "Wie für Retriever-Rassen typisch, ist die Rasse im Allgemeinen ruhig und fügsam und sehr leicht zu trainieren."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Hund war der Liebling des kaiserlichen Hofes in der Verbotenen Stadt ?",
+        "propositions": [
+          "Mops",
+          "Pekingese",
+          "Pudel",
+          "Belgischer Greif"
+        ],
+        "réponse": "Pekingese",
+        "anecdote": "Die Chinesen scheinen diesen Hund ausgewählt zu haben, um ihm das gleiche Aussehen wie Löwenstatuen zu verleihen."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Jagdhund französischer Herkunft hat sich auf Kleinwild spezialisiert ?",
+        "propositions": [
+          "Zeiger",
+          "Dalmatiner",
+          "Bassett",
+          "Hirte"
+        ],
+        "réponse": "Bassett",
+        "anecdote": "Bassets sind leicht an ihrem langen Rücken und ihren kurzen Beinen sowie an einem kurzen, glatten, dichten und rauen Fell zu erkennen."
+      },
+      {
+        "id": 25,
+        "question": "Welche Rasse entstand aus der Paarung eines Bullenbeissers und einer Bulldogge ?",
+        "propositions": [
+          "Deutsche Dogge",
+          "Rottweiler",
+          "Boxer",
+          "Border Collie"
+        ],
+        "réponse": "Boxer",
+        "anecdote": "Der heutige Boxer, sanft und treu, wird seit langem zur Bärenjagd und zum Schießen, aber auch zur Stierjagd eingesetzt."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Wachhund ähnelt körperlich dem Dobermann ?",
+        "propositions": [
+          "Bretagne Spaniel",
+          "Mastiff",
+          "Pinscher",
+          "Belgischer Greif"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "Der Deutsche Pinscher ist ein energischer, intelligenter und loyaler Hund, Eigenschaften, die ihn zu einem hervorragenden Begleit- und Wachhund machen."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Hund eignete sich einst für die Entenjagd im Wasser ?",
+        "propositions": [
+          "Pudel",
+          "Bulldogge",
+          "Pekingese",
+          "Foxterrier"
+        ],
+        "réponse": "Pudel",
+        "anecdote": "Diese Art der Jagd erklärt die oft angewandte Löwenpflege, die in der Belle Époque sehr in Mode war."
+      },
+      {
+        "id": 28,
+        "question": "Welche kleine belgische Rasse zeichnet sich durch ihre gequetschte Schnauze aus ?",
+        "propositions": [
+          "Belgischer Greif",
+          "Malinois",
+          "Dackel",
+          "Bassett"
+        ],
+        "réponse": "Belgischer Greif",
+        "anecdote": "Die Rasse stammt aus Kreuzungen aus dem 19. Jahrhundert zwischen dem Smousje (Drahthaarhund), dem King Charles Spaniel und dem Mops."
+      },
+      {
+        "id": 29,
+        "question": "Welcher mittelgroße Vorstehhund hat kurze braune Haare ?",
+        "propositions": [
+          "Pudel",
+          "Zeiger",
+          "Englischer Setter",
+          "Windhund"
+        ],
+        "réponse": "Zeiger",
+        "anecdote": "Es fühlt sich sowohl im Wald als auch in der Ebene wohl und eignet sich für jedes Wild, besonders aber für Wachteln, Waldschnepfen und Bekassinen."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Hund mit forellenweißem Fell stammt vom alten Spaniel ab ?",
+        "propositions": [
+          "Rottweiler",
+          "Deutsche Dogge",
+          "Englischer Setter",
+          "Englischer Cocker Spaniel"
+        ],
+        "réponse": "Englischer Setter",
+        "anecdote": "Die Schönheit der Rasse wird sehr geschätzt und einige Züchter, insbesondere in England, haben Showlinien gegründet."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué raza de perro pequeño tiene un pelaje sedoso de color azul, gris y tostado ?",
+        "propositions": [
+          "Yorkshire",
+          "Corgi",
+          "Pastor",
+          "Dálmata"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "A pesar de su diminuto tamaño, es un perrito muy vivaz, cariñoso y testarudo, que disfruta mucho saliendo a la naturaleza."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuál es el perro pastor belga más resistente y más utilizado ?",
+        "propositions": [
+          "Beagle",
+          "Malinois",
+          "Galgo",
+          "perro perdiguero de oro"
+        ],
+        "réponse": "Malinois",
+        "anecdote": "Es un perro vivaz y con grandes capacidades de aprendizaje : si se utilizan con regularidad, puede llegar a ser muy obediente."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuáles eran los perros favoritos de la reina Isabel II ?",
+        "propositions": [
+          "Corgi",
+          "Yorkshire",
+          "perro",
+          "Fox terrier"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "Ha tenido alrededor de 30 desde que le regalaron un corgi llamado Susan en 1944, por su cumpleaños número 18."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué raza de perro de pelo corto también se llama gran danés ?",
+        "propositions": [
+          "Rottweiler",
+          "Gran danés",
+          "Malinois",
+          "Dóberman"
+        ],
+        "réponse": "Gran danés",
+        "anecdote": "El lugar del perro más grande conocido del mundo lo ocupa desde hace mucho tiempo un gran danés arlequín llamado Gibson."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué famoso emblema del Reino Unido tiene los labios muy colgantes ?",
+        "propositions": [
+          "Bulldog",
+          "Terranova",
+          "Boxeadores",
+          "collie fronterizo"
+        ],
+        "réponse": "Bulldog",
+        "anecdote": "Rechoncho, de piernas cortas y con un pecho imponente, el bulldog inglés inspira fuerza y robustez a primera vista."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál es la raza de Frank, personajes de las películas « Men in Black » 1 y 2 ?",
+        "propositions": [
+          "perro",
+          "Yorkshire",
+          "Perro de aguas de Bretaña",
+          "Mastín"
+        ],
+        "réponse": "perro",
+        "anecdote": "Hay cuatro colores de pelaje diferentes : leonado con antifaz negro, albaricoque con antifaz negro, plateado con antifaz negro y negro."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué perro de control tiene una bata blanca con manchas redondas ?",
+        "propositions": [
+          "pequinés",
+          "Dálmata",
+          "Spitz finlandés",
+          "Cocker Spaniel Inglés"
+        ],
+        "réponse": "Dálmata",
+        "anecdote": "El estándar de la Federación Cinológica Internacional describe al dálmata como amigable, vivaz, leal, independiente y fácil de entrenar."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué raza de perro acompaña a Tintín en sus aventuras ?",
+        "propositions": [
+          "Pastor",
+          "Yorkshire",
+          "Fox terrier",
+          "shih tzu"
+        ],
+        "réponse": "Fox terrier",
+        "anecdote": "El fox terrier es vivaz, inteligente y adaptable, voluntariamente juguetón, también cuida de los niños, con los que es muy amable."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué perro delgado, con patas largas y delgadas, está hecho para correr ?",
+        "propositions": [
+          "Perro de aguas de Bretaña",
+          "Galgo",
+          "Pinscher",
+          "Malinois"
+        ],
+        "réponse": "Galgo",
+        "anecdote": "Son excelentes perros de compañía, muy apegados a las personas con las que conviven, distantes con los extraños."
+      },
+      {
+        "id": 10,
+        "question": "¿A qué perro de patas largas y cortas se le suele apodar perro salchicha ?",
+        "propositions": [
+          "Bulldog",
+          "Grifo belga",
+          "perro salchicha",
+          "perro perdiguero de oro"
+        ],
+        "réponse": "perro salchicha",
+        "anecdote": "Originario de Alemania, el perro salchicha se utilizaba para cazar zorros, conejos y tejones, a los que desalojaba de sus madrigueras."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué raza de perro pastor se originó en la frontera anglo-escocesa ?",
+        "propositions": [
+          "Bassett",
+          "shih tzu",
+          "collie fronterizo",
+          "Puntero"
+        ],
+        "réponse": "collie fronterizo",
+        "anecdote": "En todo el mundo, este perro de trabajo ayuda a los agricultores a pastorear el ganado, especialmente las ovejas."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué perro con orejas largas suele sufrir numerosas infecciones ?",
+        "propositions": [
+          "Terranova",
+          "Cocker Spaniel Inglés",
+          "pequinés",
+          "Malinois"
+        ],
+        "réponse": "Cocker Spaniel Inglés",
+        "anecdote": "Para evitarlo, debes limpiarlos con un producto especializado aproximadamente una vez por semana y aclararlos cortando un poco de pelo."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué elegante raza se creó como perro guardián y perro policía ?",
+        "propositions": [
+          "Spitz finlandés",
+          "Dóberman",
+          "Boxeadores",
+          "perro salchicha"
+        ],
+        "réponse": "Dóberman",
+        "anecdote": "El Doberman se convirtió en un perro de compañía por su lealtad hacia su amo y su familia, a quienes querrá proteger del peligro."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué raza de perro desempeñaba la función de guardián del ganado para el hombre ?",
+        "propositions": [
+          "Caniche",
+          "Beagle",
+          "Corgi",
+          "Pastor"
+        ],
+        "réponse": "Pastor",
+        "anecdote": "Los perros de otras razas también pueden ser o haber sido pastores por su función predominante (o no)."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué raza de perro muy grande tiene un nombre que significa « poderoso » ?",
+        "propositions": [
+          "Spitz finlandés",
+          "Mastín",
+          "shih tzu",
+          "Pinscher"
+        ],
+        "réponse": "Mastín",
+        "anecdote": "En términos de masa, es una de las razas de perros más grandes, superada en tamaño por el lobero irlandés y el gran danés."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué raza de perro robusta también se llama perro boyero alemán ?",
+        "propositions": [
+          "Puntero",
+          "Dóberman",
+          "Rottweiler",
+          "perro perdiguero de oro"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "En Francia, la falta de permiso de tenencia de perros se castigará con una multa de hasta 750 euros."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué perro, originario de una isla canadiense, tiene un pelaje negro y espeso ?",
+        "propositions": [
+          "Terranova",
+          "collie fronterizo",
+          "Bassett",
+          "perro"
+        ],
+        "réponse": "Terranova",
+        "anecdote": "Sus llamadas patas palmeadas, su corpulencia y su docilidad hacen del Terranova el animal ideal para el rescate, especialmente en el mar."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué perro, originario de Bretaña, es famoso por sus habilidades de caza ?",
+        "propositions": [
+          "Galgo",
+          "Perro de aguas de Bretaña",
+          "Pastor",
+          "Dálmata"
+        ],
+        "réponse": "Perro de aguas de Bretaña",
+        "anecdote": "Los spaniels tipo perro de muestra cazan de forma similar a los pointers, pointers y setters, vistos como un spaniel tumbado."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué perro aparece en los cómics, especialmente con el personaje de Snoopy ?",
+        "propositions": [
+          "Corgi",
+          "Fox terrier",
+          "Bulldog",
+          "Beagle"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy no es un beagle cualquiera : es un amante de los libros, un aspirante a escritor y también un coleccionista de bellas artes."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué raza de perro de Finlandia tiene un pelaje de color marrón rojizo a marrón dorado ?",
+        "propositions": [
+          "Terranova",
+          "Mastín",
+          "Boxeadores",
+          "Spitz finlandés"
+        ],
+        "réponse": "Spitz finlandés",
+        "anecdote": "Originaria de las regiones del este y del norte de Finlandia, la raza fue designada « Perro Nacional de Finlandia » en 1979."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué perro tibetano recibe a veces el apodo de perro león ?",
+        "propositions": [
+          "perro salchicha",
+          "Gran danés",
+          "Pinscher",
+          "Shih tzu"
+        ],
+        "réponse": "Shih tzu",
+        "anecdote": "Este apodo está ligado a una leyenda, según la cual esta raza canina tenía estrechos vínculos con el león de las nieves."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué raza de perro de Gran Bretaña significa transportador dorado en inglés ?",
+        "propositions": [
+          "Cocker Spaniel Inglés",
+          "Dóberman",
+          "Beagle",
+          "perro perdiguero de oro"
+        ],
+        "réponse": "perro perdiguero de oro",
+        "anecdote": "Como es típico de las razas retriever, la raza es generalmente tranquila y dócil, siendo muy fácil de entrenar."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué perro mascota era el favorito de la corte imperial en la Ciudad Prohibida ?",
+        "propositions": [
+          "Grifo belga",
+          "perro",
+          "Caniche",
+          "pequinés"
+        ],
+        "réponse": "pequinés",
+        "anecdote": "Los chinos parecen haber seleccionado a este perro para darle la misma apariencia que las estatuas de leones."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué perro de caza de origen francés se especializó en caza menor ?",
+        "propositions": [
+          "Dálmata",
+          "Pastor",
+          "Puntero",
+          "Bassett"
+        ],
+        "réponse": "Bassett",
+        "anecdote": "Los bassets se distinguen fácilmente por su espalda larga y patas cortas, así como por un pelaje corto, liso, denso y áspero."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué raza nació del cruce de un Bullenbeisser y un Bulldog ?",
+        "propositions": [
+          "collie fronterizo",
+          "Gran danés",
+          "Rottweiler",
+          "Boxeadores"
+        ],
+        "réponse": "Boxeadores",
+        "anecdote": "El Bóxer actual, amable y fiel, se utiliza desde hace mucho tiempo para cazar y disparar a los osos, pero también para hostigar a los toros."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué perro guardián se parece físicamente al Doberman ?",
+        "propositions": [
+          "Grifo belga",
+          "Perro de aguas de Bretaña",
+          "Mastín",
+          "Pinscher"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "El Pinscher alemán es un perro enérgico, inteligente y leal, cualidades que lo convierten en un excelente perro de compañía y guardián."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué perro alguna vez fue apto para cazar patos en el agua ?",
+        "propositions": [
+          "pequinés",
+          "Bulldog",
+          "Caniche",
+          "Fox terrier"
+        ],
+        "réponse": "Caniche",
+        "anecdote": "Este tipo de caza explica el acicalamiento del león que se le aplica a menudo y que estuvo muy de moda durante la Belle Époque."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué pequeña raza belga se caracteriza por su hocico aplastado ?",
+        "propositions": [
+          "perro salchicha",
+          "Malinois",
+          "Bassett",
+          "Grifo belga"
+        ],
+        "réponse": "Grifo belga",
+        "anecdote": "La raza procede de cruces realizados en el siglo XIX entre el smousje (perro de pelo duro), el King Charles spaniel y el pug."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué perro de muestra de tamaño mediano tiene el pelo corto y castaño ?",
+        "propositions": [
+          "Galgo",
+          "Caniche",
+          "Puntero",
+          "Setter inglés"
+        ],
+        "réponse": "Puntero",
+        "anecdote": "Se siente cómodo tanto en el bosque como en la llanura, y se adapta a todas las especies de caza, pero es especialmente adecuado para la codorniz, la becada y la agachadiza."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué perro con pelaje blanco trucha desciende del antiguo spaniel ?",
+        "propositions": [
+          "Gran danés",
+          "Setter inglés",
+          "Cocker Spaniel Inglés",
+          "Rottweiler"
+        ],
+        "réponse": "Setter inglés",
+        "anecdote": "La belleza de la raza es muy apreciada y algunos criadores, particularmente en Inglaterra, han formado líneas de exposición."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale razza di cane di piccola taglia ha un pelo setoso blu, grigio e marrone chiaro ?",
+        "propositions": [
+          "Dalmata",
+          "Yorkshire",
+          "Corgi",
+          "Pastore"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "Nonostante le sue piccole dimensioni, è un cagnolino molto vivace, affettuoso e testardo, a cui piace molto uscire nella natura."
+      },
+      {
+        "id": 2,
+        "question": "Qual è il pastore belga più resistente e più utilizzato ?",
+        "propositions": [
+          "Malinois",
+          "Golden Retriever",
+          "Beagle",
+          "Levriero"
+        ],
+        "réponse": "Malinois",
+        "anecdote": "È un cane vivace e con grandi capacità di apprendimento : se usato con regolarità, può diventare molto ubbidiente."
+      },
+      {
+        "id": 3,
+        "question": "Quali erano i cani preferiti della regina Elisabetta II ?",
+        "propositions": [
+          "Carlino",
+          "Fox Terrier",
+          "Yorkshire",
+          "Corgi"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "Ne ha posseduti circa 30 da quando le fu regalato un corgi di nome Susan nel 1944, per il suo 18esimo compleanno."
+      },
+      {
+        "id": 4,
+        "question": "Quale razza di cane a pelo corto è chiamata anche Alano ?",
+        "propositions": [
+          "Malinois",
+          "Alano",
+          "Doberman",
+          "Rottweiler"
+        ],
+        "réponse": "Alano",
+        "anecdote": "Il posto del cane più grande conosciuto al mondo è stato a lungo occupato da un alano arlecchino di nome Gibson."
+      },
+      {
+        "id": 5,
+        "question": "Quale famoso emblema del Regno Unito ha le labbra molto pendenti ?",
+        "propositions": [
+          "Bulldog",
+          "Terranova",
+          "Collie di confine",
+          "Boxer"
+        ],
+        "réponse": "Bulldog",
+        "anecdote": "Tarchiato, con le gambe corte e un petto imponente, il bulldog inglese ispira forza e robustezza a prima vista."
+      },
+      {
+        "id": 6,
+        "question": "Di quale razza è Frank, personaggio dei film « Men in Black » 1 e 2 ?",
+        "propositions": [
+          "Yorkshire",
+          "Mastino",
+          "Carlino",
+          "Spaniel Bretone"
+        ],
+        "réponse": "Carlino",
+        "anecdote": "Esistono quattro diversi colori del mantello : fulvo con maschera nera, albicocca con maschera nera, argento con maschera nera e nero."
+      },
+      {
+        "id": 7,
+        "question": "Quale cane da controllo ha il mantello bianco con macchie rotonde ?",
+        "propositions": [
+          "Cocker Spaniel Inglese",
+          "Spitz finlandese",
+          "Dalmata",
+          "Pechinese"
+        ],
+        "réponse": "Dalmata",
+        "anecdote": "Lo standard della Federazione Cinologica Internazionale descrive il dalmata come amichevole, vivace, leale, indipendente e facile da addestrare."
+      },
+      {
+        "id": 8,
+        "question": "Quale razza di cane accompagna Tintin nelle sue avventure ?",
+        "propositions": [
+          "Fox Terrier",
+          "Shih tzu",
+          "Pastore",
+          "Yorkshire"
+        ],
+        "réponse": "Fox Terrier",
+        "anecdote": "Il fox terrier è vivace, intelligente e adattabile, volentieri giocherellone, veglierà anche sui bambini, con i quali è molto gentile."
+      },
+      {
+        "id": 9,
+        "question": "Quale cane snello, con le gambe lunghe e sottili, è costruito per correre ?",
+        "propositions": [
+          "Levriero",
+          "Spaniel Bretone",
+          "Pinscher",
+          "Malinois"
+        ],
+        "réponse": "Levriero",
+        "anecdote": "Sono ottimi cani da compagnia, molto legati alle persone con cui convivono, distanti con gli estranei."
+      },
+      {
+        "id": 10,
+        "question": "Quale cane dalle zampe lunghe e corte viene spesso soprannominato cane salsiccia ?",
+        "propositions": [
+          "Grifone belga",
+          "Bassotto",
+          "Bulldog",
+          "Golden Retriever"
+        ],
+        "réponse": "Bassotto",
+        "anecdote": "Originario della Germania, il bassotto veniva utilizzato per cacciare volpi, conigli e tassi, che staccava dalle tane."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale razza di cane da pastore è originaria del confine anglo-scozzese ?",
+        "propositions": [
+          "Shih tzu",
+          "Collie di confine",
+          "Bassetto",
+          "Puntatore"
+        ],
+        "réponse": "Collie di confine",
+        "anecdote": "In tutto il mondo, questo cane da lavoro aiuta gli agricoltori nell'allevamento del bestiame, in particolare delle pecore."
+      },
+      {
+        "id": 12,
+        "question": "Quale cane con le orecchie lunghe soffre spesso di numerose infezioni ?",
+        "propositions": [
+          "Malinois",
+          "Pechinese",
+          "Terranova",
+          "Cocker Spaniel Inglese"
+        ],
+        "réponse": "Cocker Spaniel Inglese",
+        "anecdote": "Per evitare ciò, dovresti pulirli con un prodotto specializzato circa una volta alla settimana e schiarirli tagliando un po' di pelo."
+      },
+      {
+        "id": 13,
+        "question": "Quale razza aggraziata è stata creata come cane da guardia e cane poliziotto ?",
+        "propositions": [
+          "Doberman",
+          "Boxer",
+          "Spitz finlandese",
+          "Bassotto"
+        ],
+        "réponse": "Doberman",
+        "anecdote": "Il Doberman è diventato un cane da compagnia per la sua fedeltà al suo padrone e alla sua famiglia, che vorrà proteggere dai pericoli."
+      },
+      {
+        "id": 14,
+        "question": "Quale razza di cane svolgeva il ruolo di guardia del bestiame per l'uomo ?",
+        "propositions": [
+          "Beagle",
+          "Corgi",
+          "Pastore",
+          "Barboncino"
+        ],
+        "réponse": "Pastore",
+        "anecdote": "Anche i cani di altre razze possono essere o essere stati pastori in base alla loro funzione predominante (o meno)."
+      },
+      {
+        "id": 15,
+        "question": "Quale razza di cane molto massiccio ha un nome che significa « potente » ?",
+        "propositions": [
+          "Mastino",
+          "Spitz finlandese",
+          "Shih tzu",
+          "Pinscher"
+        ],
+        "réponse": "Mastino",
+        "anecdote": "In termini di massa, è una delle razze canine più grandi, superata in dimensioni dal levriero irlandese e dall'alano."
+      },
+      {
+        "id": 16,
+        "question": "Quale razza di cane robusta è anche chiamata bovaro tedesco ?",
+        "propositions": [
+          "Doberman",
+          "Puntatore",
+          "Golden Retriever",
+          "Rottweiler"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "In Francia, la mancanza di permesso di possesso di cane sarà punita con una multa fino a 750 euro."
+      },
+      {
+        "id": 17,
+        "question": "Quale cane, originario di un'isola canadese, ha una folta pelliccia nera ?",
+        "propositions": [
+          "Terranova",
+          "Carlino",
+          "Collie di confine",
+          "Bassetto"
+        ],
+        "réponse": "Terranova",
+        "anecdote": "I suoi piedi cosiddetti palmati, la sua corpulenza e la sua docilità fanno del Terranova l'animale ideale per il salvataggio, soprattutto in mare."
+      },
+      {
+        "id": 18,
+        "question": "Quale cane, originario della Bretagna, è rinomato per le sue abilità nella caccia ?",
+        "propositions": [
+          "Pastore",
+          "Dalmata",
+          "Levriero",
+          "Spaniel Bretone"
+        ],
+        "réponse": "Spaniel Bretone",
+        "anecdote": "Gli spaniel di tipo cane da ferma cacciano in modo simile ai puntatori, ai puntatori e ai setter, visti come uno spaniel sdraiato."
+      },
+      {
+        "id": 19,
+        "question": "Quale cane è raffigurato nei fumetti, in particolare con il personaggio Snoopy ?",
+        "propositions": [
+          "Beagle",
+          "Fox Terrier",
+          "Corgi",
+          "Bulldog"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy non è un normale beagle : è un amante dei libri, un aspirante scrittore e anche un collezionista di belle arti."
+      },
+      {
+        "id": 20,
+        "question": "Quale razza di cane finlandese ha il mantello da rosso-marrone a marrone dorato ?",
+        "propositions": [
+          "Mastino",
+          "Boxer",
+          "Spitz finlandese",
+          "Terranova"
+        ],
+        "réponse": "Spitz finlandese",
+        "anecdote": "Originaria delle regioni orientali e settentrionali della Finlandia, la razza è stata designata « Cane nazionale finlandese » nel 1979."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale cane tibetano è talvolta soprannominato il cane leone ?",
+        "propositions": [
+          "Alano",
+          "Bassotto",
+          "Shih tzu",
+          "Pinscher"
+        ],
+        "réponse": "Shih tzu",
+        "anecdote": "Questo soprannome è legato ad una leggenda, secondo la quale questa razza canina aveva stretti legami con il leone delle nevi."
+      },
+      {
+        "id": 22,
+        "question": "Quale razza di cane della Gran Bretagna significa goniometro d'oro in inglese ?",
+        "propositions": [
+          "Golden Retriever",
+          "Beagle",
+          "Dobermann",
+          "Cocker Spaniel Inglese"
+        ],
+        "réponse": "Golden Retriever",
+        "anecdote": "Come è tipico delle razze retriever, la razza è generalmente calma e docile, essendo molto facile da addestrare."
+      },
+      {
+        "id": 23,
+        "question": "Quale cane da compagnia era il preferito della corte imperiale nella Città Proibita ?",
+        "propositions": [
+          "Grifone belga",
+          "Carlino",
+          "Barboncino",
+          "Pechinese"
+        ],
+        "réponse": "Pechinese",
+        "anecdote": "Sembra che i cinesi abbiano selezionato questo cane per conferirgli lo stesso aspetto delle statue dei leoni."
+      },
+      {
+        "id": 24,
+        "question": "Quale cane da caccia di origine francese specializzato nella piccola selvaggina ?",
+        "propositions": [
+          "Pastore",
+          "Puntatore",
+          "Bassetto",
+          "Dalmata"
+        ],
+        "réponse": "Bassetto",
+        "anecdote": "I bassetti si distinguono facilmente per il dorso lungo e le zampe corte, nonché per il pelo corto, liscio, denso e duro."
+      },
+      {
+        "id": 25,
+        "question": "Quale razza è nata dall'accoppiamento di un Bullenbeisser e di un Bulldog ?",
+        "propositions": [
+          "Rottweiler",
+          "Collie di confine",
+          "Boxer",
+          "Alano"
+        ],
+        "réponse": "Boxer",
+        "anecdote": "L'attuale Boxer, docile e fedele, è stato a lungo utilizzato per cacciare e sparare agli orsi, ma anche nel bull baiting."
+      },
+      {
+        "id": 26,
+        "question": "Quale cane da guardia somiglia fisicamente al dobermann ?",
+        "propositions": [
+          "Mastino",
+          "Pinscher",
+          "Grifone belga",
+          "Spaniel Bretone"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "Il Pinscher tedesco è un cane energico, intelligente e leale, qualità che lo rendono un ottimo cane da compagnia e da guardia."
+      },
+      {
+        "id": 27,
+        "question": "Quale cane un tempo era adatto alla caccia alle anatre in acqua ?",
+        "propositions": [
+          "Barboncino",
+          "Bulldog",
+          "Fox Terrier",
+          "Pechinese"
+        ],
+        "réponse": "Barboncino",
+        "anecdote": "Questo tipo di caccia spiega la toelettatura del leone che spesso vi viene praticata e che era molto di moda durante la Belle Époque."
+      },
+      {
+        "id": 28,
+        "question": "Quale piccola razza belga è caratterizzata dal muso schiacciato ?",
+        "propositions": [
+          "Bassetto",
+          "Grifone belga",
+          "Bassotto",
+          "Malinois"
+        ],
+        "réponse": "Grifone belga",
+        "anecdote": "La razza deriva da incroci effettuati nel XIX secolo tra lo smousje (cane a pelo duro), il King Charles spaniel e il carlino."
+      },
+      {
+        "id": 29,
+        "question": "Quale cane da ferma di taglia media ha il pelo corto castano ?",
+        "propositions": [
+          "Levriero",
+          "Puntatore",
+          "Setter inglese",
+          "Barboncino"
+        ],
+        "réponse": "Puntatore",
+        "anecdote": "A suo agio sia nei boschi che in pianura, è adatto a tutta la selvaggina, ma è particolarmente indicato per quaglie, beccacce e beccaccini."
+      },
+      {
+        "id": 30,
+        "question": "Quale cane dal mantello bianco trota discende dall'antico spaniel ?",
+        "propositions": [
+          "Setter inglese",
+          "Alano",
+          "Cocker Spaniel Inglese",
+          "Rottweiler"
+        ],
+        "réponse": "Setter inglese",
+        "anecdote": "La bellezza della razza è molto apprezzata e alcuni allevatori, soprattutto in Inghilterra, hanno formato linee da esposizione."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk kleine hondenras heeft een zijdeachtige blauwe, grijze en bruine vacht ?",
+        "propositions": [
+          "Dalmatiër",
+          "Corgi",
+          "Yorkshire",
+          "Herder"
+        ],
+        "réponse": "Yorkshire",
+        "anecdote": "Ondanks zijn kleine formaat is het een zeer levendig, aanhankelijk en eigenwijs hondje, dat graag de natuur in gaat."
+      },
+      {
+        "id": 2,
+        "question": "Wat is de meest winterharde en meest gebruikte Belgische herdershond ?",
+        "propositions": [
+          "gouden retriever",
+          "Windhond",
+          "Mechelaar",
+          "Beagle"
+        ],
+        "réponse": "Mechelaar",
+        "anecdote": "Hij is een levendige hond met een groot leervermogen : bij regelmatig gebruik kan hij zeer gehoorzaam worden."
+      },
+      {
+        "id": 3,
+        "question": "Wat waren de favoriete honden van koningin Elizabeth II ?",
+        "propositions": [
+          "Mopshond",
+          "Foxterriër",
+          "Corgi",
+          "Yorkshire"
+        ],
+        "réponse": "Corgi",
+        "anecdote": "Ze heeft er ongeveer 30 gehad sinds ze in 1944, voor haar 18e verjaardag, een corgi met de naam Susan kreeg."
+      },
+      {
+        "id": 4,
+        "question": "Welk kortharige hondenras wordt ook wel Duitse Dog genoemd ?",
+        "propositions": [
+          "Duitse Dog",
+          "Mechelaar",
+          "Rottweiler",
+          "Doberman"
+        ],
+        "réponse": "Duitse Dog",
+        "anecdote": "De plaats voor de grootste bekende hond ter wereld is al lang in handen van een harlekijn Duitse Dog genaamd Gibson."
+      },
+      {
+        "id": 5,
+        "question": "Welk beroemd embleem van het Verenigd Koninkrijk heeft zeer hangende lippen ?",
+        "propositions": [
+          "Boksers",
+          "Newfoundland",
+          "Buldog",
+          "Bordercollie"
+        ],
+        "réponse": "Buldog",
+        "anecdote": "De Engelse bulldog is gedrongen, kort op de poten en heeft een imposante borst."
+      },
+      {
+        "id": 6,
+        "question": "Wat is het ras van Frank, personages in de films « Men in Black » 1 en 2 ?",
+        "propositions": [
+          "Bretagne-spaniël",
+          "Mopshond",
+          "Mastiff",
+          "Yorkshire"
+        ],
+        "réponse": "Mopshond",
+        "anecdote": "Er zijn vier verschillende vachtkleuren : fawn met zwart masker, abrikoos met zwart masker, zilver met zwart masker en zwart."
+      },
+      {
+        "id": 7,
+        "question": "Welke controlehond heeft een witte vacht met ronde vlekken ?",
+        "propositions": [
+          "Pekinees",
+          "Finse spits",
+          "Engelse Cocker-spaniël",
+          "Dalmatiër"
+        ],
+        "réponse": "Dalmatiër",
+        "anecdote": "De standaard van de Internationale Cynologische Federatie beschrijft de Dalmatiër als vriendelijk, levendig, loyaal, onafhankelijk en gemakkelijk te trainen."
+      },
+      {
+        "id": 8,
+        "question": "Welk hondenras vergezelt Kuifje tijdens zijn avonturen ?",
+        "propositions": [
+          "Yorkshire",
+          "Foxterriër",
+          "Shih-tzu",
+          "Herder"
+        ],
+        "réponse": "Foxterriër",
+        "anecdote": "De foxterriër is levendig, intelligent en aanpasbaar, graag speels, hij waakt ook over kinderen, met wie hij erg aardig is."
+      },
+      {
+        "id": 9,
+        "question": "Welke slanke hond, met lange, dunne benen, is gebouwd om te rennen ?",
+        "propositions": [
+          "Windhond",
+          "Pinscher",
+          "Mechelaar",
+          "Bretagne-spaniël"
+        ],
+        "réponse": "Windhond",
+        "anecdote": "Het zijn uitstekende gezelschapshonden, zeer gehecht aan de mensen met wie ze leven, afstandelijk tegenover vreemden."
+      },
+      {
+        "id": 10,
+        "question": "Welke lange, kortbenige hond wordt vaak de bijnaam Worsthond genoemd ?",
+        "propositions": [
+          "gouden retriever",
+          "Teckel",
+          "Belgische Griffon",
+          "Buldog"
+        ],
+        "réponse": "Teckel",
+        "anecdote": "De teckel, oorspronkelijk afkomstig uit Duitsland, werd gebruikt om op vossen, konijnen en dassen te jagen, die hij uit hun holen verdreef."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk herdershondras is ontstaan aan de Brits-Schotse grens ?",
+        "propositions": [
+          "Bassett",
+          "Shih-tzu",
+          "Aanwijzer",
+          "Bordercollie"
+        ],
+        "réponse": "Bordercollie",
+        "anecdote": "Over de hele wereld helpt deze werkhond boeren bij het hoeden van vee, vooral schapen."
+      },
+      {
+        "id": 12,
+        "question": "Welke hond met lange oren heeft vaak last van talloze infecties ?",
+        "propositions": [
+          "Pekinees",
+          "Engelse Cocker-spaniël",
+          "Mechelaar",
+          "Newfoundland"
+        ],
+        "réponse": "Engelse Cocker-spaniël",
+        "anecdote": "Om dit te voorkomen, moet u ze ongeveer één keer per week schoonmaken met een speciaal product en ze lichter maken door een beetje haar te knippen."
+      },
+      {
+        "id": 13,
+        "question": "Welk sierlijke ras is ontstaan als waakhond en politiehond ?",
+        "propositions": [
+          "Finse spits",
+          "Teckel",
+          "Doberman",
+          "Boksers"
+        ],
+        "réponse": "Doberman",
+        "anecdote": "De Doberman werd een gezelschapshond vanwege zijn loyaliteit aan zijn meester en zijn familie, die hij tegen gevaar wil beschermen."
+      },
+      {
+        "id": 14,
+        "question": "Welk hondenras speelde de rol van veewacht voor de mens ?",
+        "propositions": [
+          "Herder",
+          "Corgi",
+          "Beagle",
+          "Poedel"
+        ],
+        "réponse": "Herder",
+        "anecdote": "Honden van andere rassen kunnen ook herders zijn of zijn geweest vanwege hun overheersende functie (of niet)."
+      },
+      {
+        "id": 15,
+        "question": "Welk ras van zeer massieve honden heeft een naam die « krachtig » betekent ?",
+        "propositions": [
+          "Mastiff",
+          "Finse spits",
+          "Shih-tzu",
+          "Pinscher"
+        ],
+        "réponse": "Mastiff",
+        "anecdote": "Qua massa is het een van de grootste hondenrassen, in omvang overtroffen door de Ierse Wolfshond en de Duitse Dog."
+      },
+      {
+        "id": 16,
+        "question": "Welk stoere hondenras wordt ook wel German Cattle Dog genoemd ?",
+        "propositions": [
+          "Aanwijzer",
+          "gouden retriever",
+          "Rottweiler",
+          "Doberman"
+        ],
+        "réponse": "Rottweiler",
+        "anecdote": "In Frankrijk wordt het ontbreken van een vergunning voor hondenbezit bestraft met een boete van maximaal 750 euro."
+      },
+      {
+        "id": 17,
+        "question": "Welke hond, oorspronkelijk afkomstig van een Canadees eiland, heeft een dikke zwarte vacht ?",
+        "propositions": [
+          "Mopshond",
+          "Bassett",
+          "Bordercollie",
+          "Newfoundland"
+        ],
+        "réponse": "Newfoundland",
+        "anecdote": "Zijn zogenaamde zwemvliezen, zijn zwaarlijvigheid en zijn volgzaamheid maken de Newfoundlander tot het ideale dier voor redding, vooral op zee."
+      },
+      {
+        "id": 18,
+        "question": "Welke hond, oorspronkelijk uit Bretagne, staat bekend om zijn jachtvaardigheden ?",
+        "propositions": [
+          "Bretagne-spaniël",
+          "Dalmatiër",
+          "Windhond",
+          "Herder"
+        ],
+        "réponse": "Bretagne-spaniël",
+        "anecdote": "Spaniels van het staande hondtype jagen op een vergelijkbare manier als pointers, pointers en setters, gezien als een liggende spaniël."
+      },
+      {
+        "id": 19,
+        "question": "Welke hond wordt afgebeeld in de strips, vooral met het personage Snoopy ?",
+        "propositions": [
+          "Beagle",
+          "Foxterriër",
+          "Buldog",
+          "Corgi"
+        ],
+        "réponse": "Beagle",
+        "anecdote": "Snoopy is geen gewone beagle : hij is een boekenliefhebber, een aspirant-schrijver en ook een verzamelaar van beeldende kunst."
+      },
+      {
+        "id": 20,
+        "question": "Welk hondenras uit Finland heeft een roodbruine tot goudbruine vacht ?",
+        "propositions": [
+          "Mastiff",
+          "Finse spits",
+          "Newfoundland",
+          "Boksers"
+        ],
+        "réponse": "Finse spits",
+        "anecdote": "Het ras komt oorspronkelijk uit de oostelijke en noordelijke regio's van Finland en werd in 1979 uitgeroepen tot de « Finse Nationale Hond »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke Tibetaanse hond wordt ook wel de leeuwenhond genoemd ?",
+        "propositions": [
+          "Teckel",
+          "Pinscher",
+          "Duitse Dog",
+          "Shih-tzu"
+        ],
+        "réponse": "Shih-tzu",
+        "anecdote": "Deze bijnaam is gekoppeld aan een legende, volgens welke dit hondenras nauwe banden had met de sneeuwleeuw."
+      },
+      {
+        "id": 22,
+        "question": "Welk hondenras uit Groot-Brittannië betekent gouden gradenboog in het Engels ?",
+        "propositions": [
+          "Engelse Cocker-spaniël",
+          "Beagle",
+          "gouden retriever",
+          "Doberman"
+        ],
+        "réponse": "gouden retriever",
+        "anecdote": "Zoals typisch is voor retrieverrassen, is het ras over het algemeen kalm en volgzaam en zeer gemakkelijk te trainen."
+      },
+      {
+        "id": 23,
+        "question": "Welke hond was de favoriet van het keizerlijk hof in de Verboden Stad ?",
+        "propositions": [
+          "Pekinees",
+          "Poedel",
+          "Mopshond",
+          "Belgische Griffon"
+        ],
+        "réponse": "Pekinees",
+        "anecdote": "Het lijkt erop dat de Chinezen deze hond hebben uitgekozen om hem hetzelfde uiterlijk te geven als leeuwenbeelden."
+      },
+      {
+        "id": 24,
+        "question": "Welke jachthond van Franse afkomst specialiseerde zich in klein wild ?",
+        "propositions": [
+          "Bassett",
+          "Herder",
+          "Dalmatiër",
+          "Aanwijzer"
+        ],
+        "réponse": "Bassett",
+        "anecdote": "Bassets zijn gemakkelijk te onderscheiden door hun lange ruggen en korte benen, evenals een korte, gladde, dichte en harde vacht."
+      },
+      {
+        "id": 25,
+        "question": "Welk ras is ontstaan uit de kruising van een Bullenbeisser en een Bulldog ?",
+        "propositions": [
+          "Bordercollie",
+          "Rottweiler",
+          "Duitse Dog",
+          "Boksers"
+        ],
+        "réponse": "Boksers",
+        "anecdote": "De huidige Boxer, zachtaardig en trouw, wordt al lang gebruikt voor het jagen en schieten op beren, maar ook voor het bullbaiten."
+      },
+      {
+        "id": 26,
+        "question": "Welke waakhond lijkt fysiek op de Doberman ?",
+        "propositions": [
+          "Belgische Griffon",
+          "Pinscher",
+          "Bretagne-spaniël",
+          "Mastiff"
+        ],
+        "réponse": "Pinscher",
+        "anecdote": "De Duitse Pinscher is een energieke, intelligente en loyale hond, eigenschappen die hem tot een uitstekende gezelschaps- en waakhond maken."
+      },
+      {
+        "id": 27,
+        "question": "Welke hond was ooit geschikt voor de eendenjacht in het water ?",
+        "propositions": [
+          "Buldog",
+          "Pekinees",
+          "Foxterriër",
+          "Poedel"
+        ],
+        "réponse": "Poedel",
+        "anecdote": "Deze vorm van jacht verklaart de leeuwenverzorging die er vaak op wordt toegepast en die tijdens de Belle Époque erg in de mode was."
+      },
+      {
+        "id": 28,
+        "question": "Welk klein Belgisch ras wordt gekenmerkt door zijn verbrijzelde snuit ?",
+        "propositions": [
+          "Belgische Griffon",
+          "Bassett",
+          "Teckel",
+          "Mechelaar"
+        ],
+        "réponse": "Belgische Griffon",
+        "anecdote": "Het ras komt voort uit kruisingen die in de 19e eeuw werden uitgevoerd tussen de smousje (ruwharige hond), de King Charles-spaniël en de mopshond."
+      },
+      {
+        "id": 29,
+        "question": "Welke middelgrote staande hond heeft kort bruin haar ?",
+        "propositions": [
+          "Aanwijzer",
+          "Engelse setter",
+          "Windhond",
+          "Poedel"
+        ],
+        "réponse": "Aanwijzer",
+        "anecdote": "Hij voelt zich zowel in het bos als op de vlakten op zijn gemak en is geschikt voor alle soorten wild, maar is vooral geschikt voor kwartels, houtsnip en watersnip."
+      },
+      {
+        "id": 30,
+        "question": "Welke hond met een forelwitte vacht stamt af van de oude spaniël ?",
+        "propositions": [
+          "Engelse setter",
+          "Engelse Cocker-spaniël",
+          "Duitse Dog",
+          "Rottweiler"
+        ],
+        "réponse": "Engelse setter",
+        "anecdote": "De schoonheid van het ras wordt zeer gewaardeerd en sommige fokkers, vooral in Engeland, hebben showlijnen gevormd."
+      }
+    ]
+    }
+  }
+}

@@ -1,16 +1,9 @@
-import { FastifyPluginAsync } from 'fastify';
+import {FastifyPluginAsync} from 'fastify';
 import fp from "fastify-plugin";
-import {
-  ButtonInteraction,
-  Client,
-  IntentsBitField,
-  InteractionType,
-  SelectMenuInteraction,
-  StringSelectMenuInteraction
-} from 'discord.js';
+import {ButtonInteraction, Client, IntentsBitField, InteractionType, StringSelectMenuInteraction} from 'discord.js';
 import DiscordService from "../services/discordService";
-import {ITournamentPlayer} from "@models/Tournament";
-import {IUser} from "@models/User";
+import {ITournamentPlayer} from "../models/Tournament";
+import {IUser} from "../models/User";
 
 const discordPlugin: FastifyPluginAsync = async (fastify) => {
   const discordClient = new Client({

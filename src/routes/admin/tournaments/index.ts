@@ -1,9 +1,8 @@
-import {ITournament, ITournamentPlayer} from "@models/Tournament";
+import {ITournament, ITournamentPlayer} from "../../../models/Tournament";
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
-import {IGame} from "@models/Game";
+import {IGame} from "../../../models/Game";
 import {log} from "../../../utils/utils";
-import {IUser} from "@models/User";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************

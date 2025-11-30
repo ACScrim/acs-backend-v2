@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-07-20",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Tourisme",
+      "nom": "Grandes vacances",
+      "slogan": "Moment de détente en famille"
+    },
+    "en": {
+      "catégorie": "Tourism",
+      "nom": "Summer holidays",
+      "slogan": "Family relaxation time"
+    },
+    "es": {
+      "catégorie": "Turismo",
+      "nom": "Vacaciones de verano",
+      "slogan": "Momento de relajación en familia"
+    },
+    "it": {
+      "catégorie": "Turismo",
+      "nom": "Vacanze estive",
+      "slogan": "Momento di relax in famiglia"
+    },
+    "de": {
+      "catégorie": "Tourismus",
+      "nom": "Sommerferien",
+      "slogan": "Entspannungsmoment mit der Familie"
+    },
+    "nl": {
+      "catégorie": "Toerisme",
+      "nom": "Zomervakantie",
+      "slogan": "Ontspanningsmoment met het gezin"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle est la période la plus populaire pour les vacances estivales en Europe ?",
+        "propositions": [
+          "Janvier à mars",
+          "Avril à juin",
+          "Juillet à septembre",
+          "Octobre à décembre"
+        ],
+        "réponse": "Juillet à septembre",
+        "anecdote": "Les plages méditerranéennes d'Espagne et de Grèce attirent chaque année des millions de visiteurs, pour profiter du soleil et de la mer."
+      },
+      {
+        "id": 2,
+        "question": "Quelle destination estivale est principalement connue pour sa tour penchée ?",
+        "propositions": [
+          "Athènes",
+          "Barcelone",
+          "Paris",
+          "Pise"
+        ],
+        "réponse": "Pise",
+        "anecdote": "Cette inclinaison est apparue très rapidement pendant sa construction (1173), car édifiée sur une plaine alluviale."
+      },
+      {
+        "id": 3,
+        "question": "Quelle ville américaine est réputée pour ses plages et ses parcs à thème ?",
+        "propositions": [
+          "Los Angeles",
+          "Miami",
+          "Chicago",
+          "New York"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Miami attire aussi les amateurs d'art avec son quartier de Wynwood, célèbre pour ses fresques murales et ses galeries contemporaines."
+      },
+      {
+        "id": 4,
+        "question": "Quel festival annuel se déroule à Rio de Janeiro, attirant des milliers de visiteurs ?",
+        "propositions": [
+          "La danse du feu",
+          "La Tomatina",
+          "Carnaval",
+          "Les Lanternes"
+        ],
+        "réponse": "Carnaval",
+        "anecdote": "Des milliers de danseurs, de musiciens et de spectateurs se rassemblent dans les rues de Rio de Janeiro pour célébrer cette fête."
+      },
+      {
+        "id": 5,
+        "question": "Quelle ville italienne vous propose des gondoles romantiques sur ses canaux ?",
+        "propositions": [
+          "Milan",
+          "Venise",
+          "Rome",
+          "Florence"
+        ],
+        "réponse": "Venise",
+        "anecdote": "Les visiteurs peuvent naviguer sur les eaux de la lagune vénitienne et découvrir des trésors architecturaux tels que la place Saint-Marc."
+      },
+      {
+        "id": 6,
+        "question": "Au cinéma, qui a dû passer ses vacances en compagnie de la famille Gratin ?",
+        "propositions": [
+          "Arthur",
+          "Barbie",
+          "Beethoven",
+          "Ducobu"
+        ],
+        "réponse": "Ducobu",
+        "anecdote": "« Les Vacances de Ducobu » est une comédie française écrite et réalisée par Philippe de Chauveron, sortie le 25 avril 2012."
+      },
+      {
+        "id": 7,
+        "question": "Quelle ville côtière californienne est célèbre pour son emblématique pont suspendu ?",
+        "propositions": [
+          "Santa Monica",
+          "Los Angeles",
+          "San Francisco",
+          "San Diego"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "Le brouillard, surnommé Karl the Fog, ajoute une atmosphère mystique à la région et au célèbre Golden Gate Bridge rouge."
+      },
+      {
+        "id": 8,
+        "question": "Quelle île grecque est parsemée de maisons blanches et de dômes bleus ?",
+        "propositions": [
+          "Crète",
+          "Mykonos",
+          "Rhodes",
+          "Santorin"
+        ],
+        "réponse": "Santorin",
+        "anecdote": "Le contraste des bâtiments avec les eaux azur de la mer Égée en fait l'une des destinations estivales les plus photographiées."
+      },
+      {
+        "id": 9,
+        "question": "Quelle ville européenne est célèbre pour son Colisée antique et ses fontaines baroques ?",
+        "propositions": [
+          "Madrid",
+          "Lisbonne",
+          "Rome",
+          "Athènes"
+        ],
+        "réponse": "Rome",
+        "anecdote": "La fontaine de Trevi, une oeuvre baroque emblématique, est un lieu incontournable pour les visiteurs de la ville de Rome."
+      },
+      {
+        "id": 10,
+        "question": "Dans quelle ville la promenade des Anglais est-elle devenue une célèbre avenue ?",
+        "propositions": [
+          "Marseille",
+          "Nice",
+          "Toulouse",
+          "Cannes"
+        ],
+        "réponse": "Nice",
+        "anecdote": "Son histoire, liée aux débuts du tourisme international, et sa situation en bord de mer en font une destination estivale."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Laquelle de ces îles tropicales est réputée pour ses bungalows sur pilotis ?",
+        "propositions": [
+          "Bali",
+          "Les Maldives",
+          "Tahiti",
+          "Maui"
+        ],
+        "réponse": "Les Maldives",
+        "anecdote": "Ces structures offrent une expérience de vacances inoubliable avec une vue imprenable sur l'océan et un accès direct à la vie marine."
+      },
+      {
+        "id": 12,
+        "question": "Quel parc national américain est célèbre pour ses chutes spectaculaires ?",
+        "propositions": [
+          "Yellowstone",
+          "Grand Canyon",
+          "Acadia",
+          "Yosemite"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "Le parc de Yosemite, en Californie, est renommé pour ses falaises de granit majestueuses, ses séquoias géants et ses chutes d'eau."
+      },
+      {
+        "id": 13,
+        "question": "Dans quelles îles caribéennes pourrez-vous marcher sur des plages de sable rose ?",
+        "propositions": [
+          "Grenade",
+          "Sainte-Lucie",
+          "La Barbade",
+          "Bahamas"
+        ],
+        "réponse": "Bahamas",
+        "anecdote": "L'île est réputée pour ses plages de sable rose, créées par la combinaison de sable blanc et des fragments de corail rose."
+      },
+      {
+        "id": 14,
+        "question": "Quelle île européenne est réputée pour ses fjords et ses aurores boréales ?",
+        "propositions": [
+          "Suède",
+          "Islande",
+          "Finlande",
+          "Norvège"
+        ],
+        "réponse": "Islande",
+        "anecdote": "L'Islande, située à la limite de l'Arctique, offre une expérience unique en été avec le phénomène du soleil de minuit."
+      },
+      {
+        "id": 15,
+        "question": "Quelle ville espagnole est célèbre pour le modernisme de sa Sagrada Família ?",
+        "propositions": [
+          "Valence",
+          "Barcelone",
+          "Madrid",
+          "Séville"
+        ],
+        "réponse": "Barcelone",
+        "anecdote": "Le style unique de Gaudí, inspiré par la nature et le modernisme, est également présent dans d'autres sites tels que le parc Güell."
+      },
+      {
+        "id": 16,
+        "question": "Quelle île des Caraïbes est connue pour ses eaux turquoise et son Triangle du Rhum ?",
+        "propositions": [
+          "Sainte-Lucie",
+          "Martinique",
+          "Barbade",
+          "Jamaïque"
+        ],
+        "réponse": "Martinique",
+        "anecdote": "Les visiteurs peuvent explorer les distilleries locales et déguster des rhums traditionnels, touche unique aux vacances estivales."
+      },
+      {
+        "id": 17,
+        "question": "Quel pays d'Asie du Sud-Est est réputé pour ses temples anciens et sa cuisine épicée ?",
+        "propositions": [
+          "Malaisie",
+          "Thaïlande",
+          "Indonésie",
+          "Vietnam"
+        ],
+        "réponse": "Thaïlande",
+        "anecdote": "La cuisine thaïlandaise, célèbre pour son équilibre subtil entre doux, épicé, aigre et salé, est une aventure culinaire à ne pas manquer."
+      },
+      {
+        "id": 18,
+        "question": "Comment appelle-t-on un travailleur n'exerçant que durant les grandes vacances ?",
+        "propositions": [
+          "Saisonnier",
+          "Plongeur",
+          "Camériste",
+          "Laquais"
+        ],
+        "réponse": "Saisonnier",
+        "anecdote": "Les saisonniers servent à faire face à l'afflux de clients dans la restauration ou l'hôtellerie pendant les périodes les plus attractives."
+      },
+      {
+        "id": 19,
+        "question": "Comment est aussi appelée l'autoroute A7, reliant Lyon à Marseille ?",
+        "propositions": [
+          "Autoroute joyeuse",
+          "Autoroute jaune",
+          "Autoroute du Soleil",
+          "Autoroute chaude"
+        ],
+        "réponse": "Autoroute du Soleil",
+        "anecdote": "L'autoroute est placée dans un couloir pourvu en infrastructures de transport, aux côtés d'une voie fluviale et de trois voies ferrées."
+      },
+      {
+        "id": 20,
+        "question": "De quel type de résidence certaines familles profitent-elles durant les vacances ?",
+        "propositions": [
+          "Tertiaire",
+          "Vacancière",
+          "Secondaire",
+          "Planétaire"
+        ],
+        "réponse": "Secondaire",
+        "anecdote": "La résidence secondaire est une habitation servant notamment de logement de villégiature à ses propriétaires ou locataires."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En France, en quelle année les congés payés sont-ils passés à cinq semaines ?",
+        "propositions": [
+          "1977",
+          "1982",
+          "1969",
+          "1991"
+        ],
+        "réponse": "1982",
+        "anecdote": "Le passage à cinq semaines fut réalisée par une ordonnance du 16 janvier 1982, considérée comme faisant partie des Lois Auroux."
+      },
+      {
+        "id": 22,
+        "question": "Qui a écrit et interprété en 1966 « Les Jolies Colonies de vacances » ?",
+        "propositions": [
+          "Alain Souchon",
+          "Charles Trenet",
+          "Pierre Perret",
+          "Georges Brassens"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Alors qu'elle est à prendre au second degré, la chanson a valu à son auteur d'être censurée pendant six mois à la télévision."
+      },
+      {
+        "id": 23,
+        "question": "Quel pays de dix millions de kilomètres carrés est réputé pour ses festivals de la Saint-Jean ?",
+        "propositions": [
+          "Australie",
+          "Japon",
+          "France",
+          "Canada"
+        ],
+        "réponse": "Canada",
+        "anecdote": "Les origines de cette fête remontent aux coutumes religieuses et agricoles des premiers colons français en Amérique du Nord."
+      },
+      {
+        "id": 24,
+        "question": "Quelle destination estivale asiatique est réputée pour ses sports nautiques ?",
+        "propositions": [
+          "Shanghai",
+          "Bangkok",
+          "Bali",
+          "Tokyo"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali est une île indonésienne qui attire des voyageurs du monde entier pour ses plages de sable blanc et ses eaux turquoise."
+      },
+      {
+        "id": 25,
+        "question": "Quelle ville européenne est célèbre pour son Pont Charles et son architecture médiévale ?",
+        "propositions": [
+          "Venise",
+          "Barcelone",
+          "Amsterdam",
+          "Prague"
+        ],
+        "réponse": "Prague",
+        "anecdote": "Le Pont Charles, un pont en pierre du XIVe siècle orné de statues, relie les quartiers historiques de la ville aux cent clochers."
+      },
+      {
+        "id": 26,
+        "question": "Quel est le plus grand désert de sable du monde, prisé par les amateurs de trekking ?",
+        "propositions": [
+          "Désert du Sahara",
+          "Désert de Simpson",
+          "Désert d'Atacama",
+          "Désert du Kalahari"
+        ],
+        "réponse": "Désert de Simpson",
+        "anecdote": "L'une des attractions les plus célèbres du désert est Big Red, une dune de sable haute de 40 mètres offrant une vue spectaculaire."
+      },
+      {
+        "id": 27,
+        "question": "Quelle île au sable rouge en été propose une architecture cycladique aux touristes ?",
+        "propositions": [
+          "Majorque",
+          "Malte",
+          "Chypre",
+          "Santorin"
+        ],
+        "réponse": "Santorin",
+        "anecdote": "Santorin, également connue sous le nom de Théra, est une île volcanique des Cyclades, ayant subit des éruptions volcaniques."
+      },
+      {
+        "id": 28,
+        "question": "De combien de jours de vacances annuelles dispose-t-on à Hong Kong et à Singapour ?",
+        "propositions": [
+          "Aucun",
+          "Sept",
+          "Cinq",
+          "Douze"
+        ],
+        "réponse": "Sept",
+        "anecdote": "Les congés payés désignent les périodes de congé au cours desquelles le salarié est payé par l'employeur de manière légale."
+      },
+      {
+        "id": 29,
+        "question": "En France, quelle somme est générée chaque année par l'industrie du tourisme ?",
+        "propositions": [
+          "145 milliards",
+          "165 milliards",
+          "105 milliards",
+          "125 milliards"
+        ],
+        "réponse": "145 milliards",
+        "anecdote": "Dans ce secteur, le travail saisonnier est synonyme d'atteintes au droit du travail, de précarité et de conditions de vie dégradées."
+      },
+      {
+        "id": 30,
+        "question": "Quelle émission pour la jeunesse Claude Pierrard a-t-il présenté durant les vacances ?",
+        "propositions": [
+          "TF1 jeunesse",
+          "Tfou",
+          "Vitamine",
+          "Croque-vacances"
+        ],
+        "réponse": "Croque-vacances",
+        "anecdote": "Pour l'accompagner, en plus des nombreux animaux ou personnalités, Claude Pierrard pouvait compter sur le lapin Isidore."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "When is the most popular time for summer vacations in Europe ?",
+        "propositions": [
+          "January to March",
+          "April to June",
+          "July to September",
+          "October to December"
+        ],
+        "réponse": "July to September",
+        "anecdote": "The Mediterranean beaches of Spain and Greece attract millions of visitors every year to enjoy the sun and the sea."
+      },
+      {
+        "id": 2,
+        "question": "What summer destination is best known for its leaning tower ?",
+        "propositions": [
+          "Paris",
+          "Athens",
+          "Pisa",
+          "Barcelona"
+        ],
+        "réponse": "Pisa",
+        "anecdote": "This inclination appeared very quickly during its construction (1173), because it was built on an alluvial plain."
+      },
+      {
+        "id": 3,
+        "question": "Which American city is known for its beaches and theme parks ?",
+        "propositions": [
+          "New York",
+          "Miami",
+          "Chicago",
+          "Los Angeles"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Miami also attracts art lovers with its Wynwood district, famous for its murals and contemporary galleries."
+      },
+      {
+        "id": 4,
+        "question": "What annual festival takes place in Rio de Janeiro, attracting visitors from all over the world ?",
+        "propositions": [
+          "The Lanterns",
+          "Carnival",
+          "The fire dance",
+          "La Tomatina"
+        ],
+        "réponse": "Carnival",
+        "anecdote": "Thousands of dancers, musicians and spectators gather in the streets of Rio de Janeiro to celebrate this holiday."
+      },
+      {
+        "id": 5,
+        "question": "Which Italian city offers you romantic gondolas on its canals ?",
+        "propositions": [
+          "Venice",
+          "Milan",
+          "Florence",
+          "Rome"
+        ],
+        "réponse": "Venice",
+        "anecdote": "Visitors can sail the waters of the Venetian lagoon and discover architectural treasures such as St. Mark's Square."
+      },
+      {
+        "id": 6,
+        "question": "At the cinema, who had to spend their vacation with the Gratin family ?",
+        "propositions": [
+          "Ducobu",
+          "Beethoven",
+          "Barbie",
+          "Arthur"
+        ],
+        "réponse": "Ducobu",
+        "anecdote": "« Les Vacances de Ducobu » is a French comedy written and directed by Philippe de Chauveron, released on April 25, 2012."
+      },
+      {
+        "id": 7,
+        "question": "Which California coastal city is famous for its iconic suspension bridge ?",
+        "propositions": [
+          "San Francisco",
+          "Santa Monica",
+          "Los Angeles",
+          "San Diego"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "The fog, nicknamed Karl the Fog, adds a mystical atmosphere to the area and the famous red Golden Gate Bridge."
+      },
+      {
+        "id": 8,
+        "question": "Which Greek island is dotted with white houses and blue domes ?",
+        "propositions": [
+          "Rhodes",
+          "Mykonos",
+          "Crete",
+          "Santorini"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "The contrast of the buildings with the azure waters of the Aegean Sea makes it one of the most photographed summer destinations."
+      },
+      {
+        "id": 9,
+        "question": "Which European city is famous for its ancient Colosseum and baroque fountains ?",
+        "propositions": [
+          "Athens",
+          "Madrid",
+          "Rome",
+          "Lisbon"
+        ],
+        "réponse": "Rome",
+        "anecdote": "The Trevi Fountain, an iconic Baroque work, is a must-see for visitors to the city of Rome."
+      },
+      {
+        "id": 10,
+        "question": "In which city did the Promenade des Anglais become a famous avenue ?",
+        "propositions": [
+          "Toulouse",
+          "Nice",
+          "Cannes",
+          "Marseille"
+        ],
+        "réponse": "Nice",
+        "anecdote": "Its history, linked to the beginnings of international tourism, and its location by the sea make it a summer destination."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which of these tropical islands is famous for its overwater bungalows ?",
+        "propositions": [
+          "Bali",
+          "Maui",
+          "Tahiti",
+          "The Maldives"
+        ],
+        "réponse": "The Maldives",
+        "anecdote": "These structures offer an unforgettable vacation experience with breathtaking ocean views and direct access to marine life."
+      },
+      {
+        "id": 12,
+        "question": "Which American national park is famous for its spectacular falls ?",
+        "propositions": [
+          "Yosemite",
+          "Yellowstone",
+          "Acadia",
+          "Grand Canyon"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "Yosemite Park in California is renowned for its majestic granite cliffs, giant sequoias and waterfalls."
+      },
+      {
+        "id": 13,
+        "question": "In which Caribbean islands will you be able to walk on pink sand beaches ?",
+        "propositions": [
+          "Grenade",
+          "Barbados",
+          "St. Lucia",
+          "Bahamas"
+        ],
+        "réponse": "Bahamas",
+        "anecdote": "The island is famous for its pink sand beaches, created by the combination of white sand and fragments of pink coral."
+      },
+      {
+        "id": 14,
+        "question": "Which European island is famous for its fjords and northern lights ?",
+        "propositions": [
+          "Norway",
+          "Finland",
+          "Iceland",
+          "Sweden"
+        ],
+        "réponse": "Iceland",
+        "anecdote": "Iceland, located on the edge of the Arctic, offers a unique experience in summer with the phenomenon of the midnight sun."
+      },
+      {
+        "id": 15,
+        "question": "Which Spanish city is famous for the modernism of its Sagrada Família ?",
+        "propositions": [
+          "Sevilla",
+          "Madrid",
+          "Barcelona",
+          "Valencia"
+        ],
+        "réponse": "Barcelona",
+        "anecdote": "Gaudí's unique style, inspired by nature and modernism, is also present in other sites such as Park Güell."
+      },
+      {
+        "id": 16,
+        "question": "Which Caribbean island is known for its turquoise waters and the Rum Triangle ?",
+        "propositions": [
+          "St. Lucia",
+          "Barbados",
+          "Martinique",
+          "Jamaica"
+        ],
+        "réponse": "Martinique",
+        "anecdote": "Visitors can explore local distilleries and taste traditional rums, a unique touch to a summer vacation."
+      },
+      {
+        "id": 17,
+        "question": "Which Southeast Asian country is famous for its ancient temples and spicy cuisine ?",
+        "propositions": [
+          "Indonesia",
+          "Malaysia",
+          "Thailand",
+          "Vietnam"
+        ],
+        "réponse": "Thailand",
+        "anecdote": "Thai cuisine, famous for its subtle balance of sweet, spicy, sour and salty, is a culinary adventure not to be missed."
+      },
+      {
+        "id": 18,
+        "question": "What do you call a worker who only works during the summer holidays ?",
+        "propositions": [
+          "Seasonal",
+          "Maid",
+          "Lackey",
+          "Diver"
+        ],
+        "réponse": "Seasonal",
+        "anecdote": "Seasonal workers are used to cope with the influx of customers in the restaurant or hotel sector during the most attractive periods."
+      },
+      {
+        "id": 19,
+        "question": "What is the A7 motorway also called, linking Lyon to Marseille ?",
+        "propositions": [
+          "Happy Highway",
+          "Highway of the Sun",
+          "Hot highway",
+          "Autoroute jaune"
+        ],
+        "réponse": "Highway of the Sun",
+        "anecdote": "The highway is located in a corridor provided with transport infrastructure, alongside a waterway and three railway lines."
+      },
+      {
+        "id": 20,
+        "question": "What type of residence do some families enjoy during the holidays ?",
+        "propositions": [
+          "Planetary",
+          "Secondary",
+          "Tertiary",
+          "Vacationer"
+        ],
+        "réponse": "Secondary",
+        "anecdote": "A secondary residence is a dwelling serving in particular as vacation accommodation for its owners or tenants."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In France, in what year did paid leave increase to five weeks ?",
+        "propositions": [
+          "1991",
+          "1982",
+          "1977",
+          "1969"
+        ],
+        "réponse": "1982",
+        "anecdote": "The change to five weeks was made by an order of January 16, 1982, considered to be part of the Auroux Laws."
+      },
+      {
+        "id": 22,
+        "question": "Wer hat 1966 « Les Jolies Colonies de vacances » geschrieben und aufgeführt ?",
+        "propositions": [
+          "Alain Souchon",
+          "Pierre Perret",
+          "Georges Brassens",
+          "Charles Trenet"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Obwohl es im zweiten Grad zu verstehen wäre, führte das Lied dazu, dass sein Autor sechs Monate lang im Fernsehen zensiert wurde."
+      },
+      {
+        "id": 23,
+        "question": "Which country of ten million square kilometers is famous for its Midsummer festivals ?",
+        "propositions": [
+          "Canada",
+          "France",
+          "Japan",
+          "Australia"
+        ],
+        "réponse": "Canada",
+        "anecdote": "The origins of this holiday date back to the religious and agricultural customs of the first French settlers in North America."
+      },
+      {
+        "id": 24,
+        "question": "Which Asian summer destination is famous for its water sports ?",
+        "propositions": [
+          "Bangkok",
+          "Bali",
+          "Tokyo",
+          "Shanghai"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali is an Indonesian island that attracts travelers from all over the world for its white sand beaches and turquoise waters."
+      },
+      {
+        "id": 25,
+        "question": "Which European city is famous for its Charles Bridge and its medieval architecture ?",
+        "propositions": [
+          "Prague",
+          "Amsterdam",
+          "Venice",
+          "Barcelona"
+        ],
+        "réponse": "Prague",
+        "anecdote": "The Charles Bridge, a 14th-century stone bridge adorned with statues, connects the historic districts of the city with its hundred bell towers."
+      },
+      {
+        "id": 26,
+        "question": "What is the largest sand desert in the world, popular with trekking enthusiasts ?",
+        "propositions": [
+          "Atacama Desert",
+          "Kalahari Desert",
+          "Simpson Desert",
+          "Sahara desert"
+        ],
+        "réponse": "Simpson Desert",
+        "anecdote": "One of the desert's most famous attractions is Big Red, a 40 meter high sand dune with spectacular views."
+      },
+      {
+        "id": 27,
+        "question": "Which island with red sand in summer offers Cycladic architecture to tourists ?",
+        "propositions": [
+          "Santorini",
+          "Cyprus",
+          "Majorca",
+          "Malta"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Santorini, also known as Thera, is a volcanic island in the Cyclades, having suffered volcanic eruptions."
+      },
+      {
+        "id": 28,
+        "question": "How many days of annual vacation do we have in Hong Kong and Singapore ?",
+        "propositions": [
+          "None",
+          "Seven",
+          "Twelve",
+          "Five"
+        ],
+        "réponse": "Seven",
+        "anecdote": "Paid leave refers to periods of leave during which the employee is legally paid by the employer."
+      },
+      {
+        "id": 29,
+        "question": "In France, how much money is generated each year by the tourism industry ?",
+        "propositions": [
+          "105 billion",
+          "145 billion",
+          "165 billion",
+          "125 billion"
+        ],
+        "réponse": "145 billion",
+        "anecdote": "In this sector, seasonal work is synonymous with violations of labor laws, precariousness and degraded living conditions."
+      },
+      {
+        "id": 30,
+        "question": "What program for young people did Claude Pierrard present during the holidays ?",
+        "propositions": [
+          "Vitamine",
+          "Tfou",
+          "TF1 jeunesse",
+          "Croque-vacances"
+        ],
+        "réponse": "Croque-vacances",
+        "anecdote": "To accompany him, in addition to the numerous animals or personalities, Claude Pierrard could count on the rabbit Isidore."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wann ist die beliebteste Zeit für Sommerferien in Europa ?",
+        "propositions": [
+          "Januar bis März",
+          "Juli bis September",
+          "April bis Juni",
+          "Oktober bis Dezember"
+        ],
+        "réponse": "Juli bis September",
+        "anecdote": "Die Mittelmeerstrände Spaniens und Griechenlands locken jedes Jahr Millionen von Besuchern an, die Sonne und Meer genießen möchten."
+      },
+      {
+        "id": 2,
+        "question": "Welches Sommerziel ist vor allem für seinen schiefen Turm bekannt ?",
+        "propositions": [
+          "Pisa",
+          "Paris",
+          "Barcelona",
+          "Athen"
+        ],
+        "réponse": "Pisa",
+        "anecdote": "Diese Neigung zeigte sich sehr schnell während des Baus (1173), da die Anlage auf einer Schwemmebene errichtet wurde."
+      },
+      {
+        "id": 3,
+        "question": "Welche amerikanische Stadt ist für ihre Strände und Themenparks bekannt ?",
+        "propositions": [
+          "Chicago",
+          "New York",
+          "Miami",
+          "Los Angeles"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Auch Kunstliebhaber lockt Miami mit seinem Stadtteil Wynwood an, der für seine Wandgemälde und zeitgenössischen Galerien bekannt ist."
+      },
+      {
+        "id": 4,
+        "question": "Welches jährliche Festival findet in Rio de Janeiro statt und lockt Besucher aus der ganzen Welt an ?",
+        "propositions": [
+          "La Tomatina",
+          "Der Feuertanz",
+          "Karneval",
+          "Die Laternen"
+        ],
+        "réponse": "Karneval",
+        "anecdote": "Tausende Tänzer, Musiker und Zuschauer versammeln sich in den Straßen von Rio de Janeiro, um diesen Feiertag zu feiern."
+      },
+      {
+        "id": 5,
+        "question": "Welche italienische Stadt bietet romantische Gondelfahrten auf ihren Kanälen ?",
+        "propositions": [
+          "Rom",
+          "Florenz",
+          "Venedig",
+          "Mailand"
+        ],
+        "réponse": "Venedig",
+        "anecdote": "Besucher können auf den Gewässern der Lagune von Venedig segeln und architektonische Schätze wie den Markusplatz entdecken."
+      },
+      {
+        "id": 6,
+        "question": "Wer musste im Kino seinen Urlaub bei der Familie Gratin verbringen ?",
+        "propositions": [
+          "Arthur",
+          "Barbie",
+          "Beethoven",
+          "Ducobu"
+        ],
+        "réponse": "Ducobu",
+        "anecdote": "\u003cI\u003eLes Vacances de Ducobu\u003c/I\u003e ist eine französische Komödie von Philippe de Chauveron, die am 25."
+      },
+      {
+        "id": 7,
+        "question": "Welche kalifornische Küstenstadt ist berühmt für ihre berühmte Hängebrücke ?",
+        "propositions": [
+          "Los Angeles",
+          "San Francisco",
+          "Santa Monica",
+          "San Diego"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "Der Nebel, auch Karl der Nebel genannt, verleiht der Gegend und der berühmten roten Golden Gate Bridge eine mystische Atmosphäre."
+      },
+      {
+        "id": 8,
+        "question": "Welche griechische Insel ist übersät mit weißen Häusern und blauen Kuppeln ?",
+        "propositions": [
+          "Mykonos",
+          "Santorin",
+          "Rhodos",
+          "Kreta"
+        ],
+        "réponse": "Santorin",
+        "anecdote": "Der Kontrast der Gebäude mit dem azurblauen Wasser der Ägäis macht es zu einem der meistfotografierten Sommerziele."
+      },
+      {
+        "id": 9,
+        "question": "Welche europäische Stadt ist berühmt für ihr antikes Kolosseum und ihre barocken Brunnen ?",
+        "propositions": [
+          "Madrid",
+          "Athen",
+          "Rom",
+          "Lissabon"
+        ],
+        "réponse": "Rom",
+        "anecdote": "Der Trevi-Brunnen, ein ikonisches Barockwerk, ist ein Muss für Besucher der Stadt Rom."
+      },
+      {
+        "id": 10,
+        "question": "In welcher Stadt wurde die Promenade des Anglais zu einer berühmten Allee ?",
+        "propositions": [
+          "Cannes",
+          "Schön",
+          "Marseille",
+          "Toulouse"
+        ],
+        "réponse": "Schön",
+        "anecdote": "Seine Geschichte, die mit den Anfängen des internationalen Tourismus verbunden ist, und seine Lage am Meer machen es zu einem Sommerziel."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche dieser tropischen Inseln ist berühmt für ihre Überwasserbungalows ?",
+        "propositions": [
+          "Die Malediven",
+          "Tahiti",
+          "Maui",
+          "Bali"
+        ],
+        "réponse": "Die Malediven",
+        "anecdote": "Diese Strukturen bieten ein unvergessliches Urlaubserlebnis mit atemberaubendem Meerblick und direktem Zugang zum Meeresleben."
+      },
+      {
+        "id": 12,
+        "question": "Welcher amerikanische Nationalpark ist berühmt für seine spektakulären Wasserfälle ?",
+        "propositions": [
+          "Yosemite",
+          "Yellowstone",
+          "Akadien",
+          "Grand Canyon"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "Der Yosemite Park in Kalifornien ist bekannt für seine majestätischen Granitfelsen, Riesenmammutbäume und Wasserfälle."
+      },
+      {
+        "id": 13,
+        "question": "Auf welchen karibischen Inseln können Sie an rosa Sandstränden spazieren gehen ?",
+        "propositions": [
+          "St. Lucia",
+          "Barbados",
+          "Bahamas",
+          "Grenada"
+        ],
+        "réponse": "Bahamas",
+        "anecdote": "Die Insel ist berühmt für ihre rosa Sandstrände, die durch die Kombination von weißem Sand und rosa Korallenfragmenten entstehen."
+      },
+      {
+        "id": 14,
+        "question": "Welche europäische Insel ist berühmt für ihre Fjorde und Nordlichter ?",
+        "propositions": [
+          "Island",
+          "Schweden",
+          "Finnland",
+          "Norwegen"
+        ],
+        "réponse": "Island",
+        "anecdote": "Island, am Rande der Arktis gelegen, bietet im Sommer mit dem Phänomen der Mitternachtssonne ein einzigartiges Erlebnis."
+      },
+      {
+        "id": 15,
+        "question": "Welche spanische Stadt ist berühmt für den Modernismus ihrer Sagrada Família ?",
+        "propositions": [
+          "Barcelona",
+          "Sevilla",
+          "Valencia",
+          "Madrid"
+        ],
+        "réponse": "Barcelona",
+        "anecdote": "Gaudís einzigartiger Stil, inspiriert von der Natur und der Moderne, ist auch an anderen Orten wie dem Park Güell präsent."
+      },
+      {
+        "id": 16,
+        "question": "Welche Karibikinsel ist für ihr türkisfarbenes Wasser und das Rum-Dreieck bekannt ?",
+        "propositions": [
+          "Barbados",
+          "St. Lucia",
+          "Jamaika",
+          "Martinique"
+        ],
+        "réponse": "Martinique",
+        "anecdote": "Besucher können lokale Brennereien erkunden und traditionelle Rumsorten probieren – eine einzigartige Note für einen Sommerurlaub."
+      },
+      {
+        "id": 17,
+        "question": "Welches südostasiatische Land ist berühmt für seine alten Tempel und seine würzige Küche ?",
+        "propositions": [
+          "Thailand",
+          "Indonesien",
+          "Malaysia",
+          "Vietnam"
+        ],
+        "réponse": "Thailand",
+        "anecdote": "Die thailändische Küche, die für ihr subtiles Gleichgewicht zwischen süß, scharf, sauer und salzig bekannt ist, ist ein kulinarisches Abenteuer, das Sie sich nicht entgehen lassen sollten."
+      },
+      {
+        "id": 18,
+        "question": "Wie nennt man einen Arbeiter, der nur in den Sommerferien arbeitet ?",
+        "propositions": [
+          "Dienstmädchen",
+          "Lakai",
+          "Taucher",
+          "Saisonal"
+        ],
+        "réponse": "Saisonal",
+        "anecdote": "Saisonarbeiter werden eingesetzt, um den Kundenansturm in der Gastronomie oder im Hotelgewerbe zu den attraktivsten Zeiten zu bewältigen."
+      },
+      {
+        "id": 19,
+        "question": "Wie heißt auch die Autobahn A7, die Lyon mit Marseille verbindet ?",
+        "propositions": [
+          "Heiße Autobahn",
+          "Autobahn der Sonne",
+          "Glückliche Autobahn",
+          "Gelbe Autobahn"
+        ],
+        "réponse": "Autobahn der Sonne",
+        "anecdote": "Die Autobahn liegt in einem mit Verkehrsinfrastruktur ausgestatteten Korridor neben einer Wasserstraße und drei Eisenbahnlinien."
+      },
+      {
+        "id": 20,
+        "question": "Welche Art von Wohnort genießen manche Familien in den Ferien ?",
+        "propositions": [
+          "Urlauber",
+          "Tertiär",
+          "Planetarisch",
+          "Sekundär"
+        ],
+        "réponse": "Sekundär",
+        "anecdote": "Eine Zweitwohnung ist eine Wohnung, die ihren Eigentümern oder Mietern insbesondere als Ferienunterkunft dient."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Jahr wurde in Frankreich der bezahlte Urlaub auf fünf Wochen erhöht ?",
+        "propositions": [
+          "1982",
+          "1991",
+          "1969",
+          "1977"
+        ],
+        "réponse": "1982",
+        "anecdote": "Die Änderung auf fünf Wochen erfolgte durch einen Erlass vom 16. Januar 1982, der als Teil der Auroux-Gesetze gilt."
+      },
+      {
+        "id": 22,
+        "question": "Wer hat 1966 « Les Jolies Colonies de vacances » geschrieben und aufgeführt ?",
+        "propositions": [
+          "Pierre Perret",
+          "Alain Souchon",
+          "Charles Trenet",
+          "Georges Brassens"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Obwohl es im zweiten Grad zu verstehen wäre, führte das Lied dazu, dass sein Autor sechs Monate lang im Fernsehen zensiert wurde."
+      },
+      {
+        "id": 23,
+        "question": "Welches Land mit einer Fläche von zehn Millionen Quadratkilometern ist berühmt für seine Mittsommerfeste ?",
+        "propositions": [
+          "Frankreich",
+          "Kanada",
+          "Australien",
+          "Japan"
+        ],
+        "réponse": "Kanada",
+        "anecdote": "Die Ursprünge dieses Feiertags gehen auf die religiösen und landwirtschaftlichen Bräuche der ersten französischen Siedler in Nordamerika zurück."
+      },
+      {
+        "id": 24,
+        "question": "Welches asiatische Sommerziel ist berühmt für seine Wassersportarten ?",
+        "propositions": [
+          "Bangkok",
+          "Tokio",
+          "Shanghai",
+          "Bali"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali ist eine indonesische Insel, die wegen ihrer weißen Sandstrände und dem türkisfarbenen Wasser Reisende aus aller Welt anzieht."
+      },
+      {
+        "id": 25,
+        "question": "Welche europäische Stadt ist berühmt für ihre Karlsbrücke und ihre mittelalterliche Architektur ?",
+        "propositions": [
+          "Amsterdam",
+          "Venedig",
+          "Prag",
+          "Barcelona"
+        ],
+        "réponse": "Prag",
+        "anecdote": "Die Karlsbrücke, eine mit Statuen geschmückte Steinbrücke aus dem 14."
+      },
+      {
+        "id": 26,
+        "question": "Was ist die größte Sandwüste der Welt, die bei Trekking-Enthusiasten beliebt ist ?",
+        "propositions": [
+          "Atacama-Wüste",
+          "Simpson-Wüste",
+          "Sahara-Wüste",
+          "Kalahari-Wüste"
+        ],
+        "réponse": "Simpson-Wüste",
+        "anecdote": "Eine der berühmtesten Attraktionen der Wüste ist Big Red, eine 40 Meter hohe Sanddüne mit spektakulärer Aussicht."
+      },
+      {
+        "id": 27,
+        "question": "Welche Insel mit rotem Sand bietet Touristen im Sommer kykladische Architektur ?",
+        "propositions": [
+          "Malta",
+          "Zypern",
+          "Mallorca",
+          "Santorin"
+        ],
+        "réponse": "Santorin",
+        "anecdote": "Santorini, auch Thera genannt, ist eine Vulkaninsel auf den Kykladen, die von Vulkanausbrüchen heimgesucht wurde."
+      },
+      {
+        "id": 28,
+        "question": "Wie viele Tage Jahresurlaub haben wir in Hongkong und Singapur ?",
+        "propositions": [
+          "Sieben",
+          "Zwölf",
+          "Keine",
+          "Fünf"
+        ],
+        "réponse": "Sieben",
+        "anecdote": "Bezahlter Urlaub bezieht sich auf Urlaubszeiten, während derer der Arbeitnehmer gesetzlich vom Arbeitgeber bezahlt wird."
+      },
+      {
+        "id": 29,
+        "question": "Wie viel Geld erwirtschaftet die Tourismusbranche in Frankreich jedes Jahr ?",
+        "propositions": [
+          "125 Milliarden",
+          "165 Milliarden",
+          "145 Milliarden",
+          "105 Milliarden"
+        ],
+        "réponse": "145 Milliarden",
+        "anecdote": "In diesem Sektor ist Saisonarbeit gleichbedeutend mit Verstößen gegen das Arbeitsrecht, Prekarität und verschlechterten Lebensbedingungen."
+      },
+      {
+        "id": 30,
+        "question": "Welches Programm für junge Leute präsentierte Claude Pierrard in den Ferien ?",
+        "propositions": [
+          "\u003cI\u003eVitamin",
+          "Feiertagssnack",
+          "TF1 jeunesse",
+          "Tfou"
+        ],
+        "réponse": "Feiertagssnack",
+        "anecdote": "Als Begleiter konnte Claude Pierrard neben den zahlreichen Tieren oder Persönlichkeiten auch auf den Hasen Isidor zählen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuándo es la época más popular para las vacaciones de verano en Europa ?",
+        "propositions": [
+          "Enero a marzo",
+          "Octubre a diciembre",
+          "Julio a septiembre",
+          "Abril a junio"
+        ],
+        "réponse": "Julio a septiembre",
+        "anecdote": "Las playas mediterráneas de España y Grecia atraen cada año a millones de visitantes para disfrutar del sol y el mar."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué destino de verano es más conocido por su torre inclinada ?",
+        "propositions": [
+          "París",
+          "Atenas",
+          "Pisa",
+          "Barcelona"
+        ],
+        "réponse": "Pisa",
+        "anecdote": "Esta inclinación apareció muy rápidamente durante su construcción (1173), debido a que estaba construida sobre una llanura aluvial."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué ciudad estadounidense es conocida por sus playas y parques temáticos ?",
+        "propositions": [
+          "Chicago",
+          "Los Ángeles",
+          "Nueva York",
+          "Miami"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Miami también atrae a los amantes del arte con su distrito Wynwood, famoso por sus murales y galerías contemporáneas."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué festival anual se lleva a cabo en Río de Janeiro y atrae a visitantes de todo el mundo ?",
+        "propositions": [
+          "La danza del fuego",
+          "Carnaval",
+          "Las Linternas",
+          "La Tomatina"
+        ],
+        "réponse": "Carnaval",
+        "anecdote": "Miles de bailarines, músicos y espectadores se reúnen en las calles de Río de Janeiro para celebrar esta festividad."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué ciudad italiana te ofrece románticas góndolas por sus canales ?",
+        "propositions": [
+          "Florencia",
+          "Milán",
+          "Roma",
+          "Venecia"
+        ],
+        "réponse": "Venecia",
+        "anecdote": "Los visitantes pueden navegar por las aguas de la laguna veneciana y descubrir tesoros arquitectónicos como la Plaza de San Marcos."
+      },
+      {
+        "id": 6,
+        "question": "En el cine, ¿quién tuvo que pasar sus vacaciones con la familia Gratin ?",
+        "propositions": [
+          "Arturo",
+          "beethoven",
+          "Ducobú",
+          "Barbie"
+        ],
+        "réponse": "Ducobú",
+        "anecdote": "« Les Vacances de Ducobu » es una comedia francesa escrita y dirigida por Philippe de Chauveron, estrenada el 25 de abril de 2012."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué ciudad costera de California es famosa por su emblemático puente colgante ?",
+        "propositions": [
+          "San Diego",
+          "Los Ángeles",
+          "Santa Mónica",
+          "San Francisco"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "La niebla, apodada Karl the Fog, añade una atmósfera mística a la zona y al famoso puente rojo Golden Gate."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué isla griega está salpicada de casas blancas y cúpulas azules ?",
+        "propositions": [
+          "Santorini",
+          "Creta",
+          "Rodas",
+          "Míkonos"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "El contraste de los edificios con las aguas azules del mar Egeo lo convierte en uno de los destinos de verano más fotografiados."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué ciudad europea es famosa por su antiguo Coliseo y sus fuentes barrocas ?",
+        "propositions": [
+          "Madrid",
+          "Lisboa",
+          "Atenas",
+          "Roma"
+        ],
+        "réponse": "Roma",
+        "anecdote": "La Fontana de Trevi, una obra icónica del barroco, es una visita obligada para los visitantes de la ciudad de Roma."
+      },
+      {
+        "id": 10,
+        "question": "¿En qué ciudad la Promenade des Anglais se convirtió en una avenida famosa ?",
+        "propositions": [
+          "Niza",
+          "Marsella",
+          "Tolosa",
+          "Cannes"
+        ],
+        "réponse": "Niza",
+        "anecdote": "Su historia, ligada a los inicios del turismo internacional, y su ubicación junto al mar la convierten en un destino de verano."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál de estas islas tropicales es famosa por sus bungalows sobre el agua ?",
+        "propositions": [
+          "Las Maldivas",
+          "Tahití",
+          "Bali",
+          "Maui"
+        ],
+        "réponse": "Las Maldivas",
+        "anecdote": "Estas estructuras ofrecen una experiencia vacacional inolvidable con impresionantes vistas al mar y acceso directo a la vida marina."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué parque nacional estadounidense es famoso por sus espectaculares cataratas ?",
+        "propositions": [
+          "Yosemite",
+          "Yellowstone",
+          "Gran Cañón",
+          "Acadía"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "El parque Yosemite en California es famoso por sus majestuosos acantilados de granito, secuoyas gigantes y cascadas."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué islas del Caribe podrás caminar por playas de arena rosada ?",
+        "propositions": [
+          "Granada",
+          "Barbados",
+          "Bahamas",
+          "Santa Lucía"
+        ],
+        "réponse": "Bahamas",
+        "anecdote": "La isla es famosa por sus playas de arena rosada, creadas por la combinación de arena blanca y fragmentos de coral rosa."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué isla europea es famosa por sus fiordos y auroras boreales ?",
+        "propositions": [
+          "Finlandia",
+          "Noruega",
+          "Islandia",
+          "Suecia"
+        ],
+        "réponse": "Islandia",
+        "anecdote": "Islandia, situada al borde del Ártico, ofrece en verano una experiencia única con el fenómeno del sol de medianoche."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué ciudad española es famosa por el modernismo de su Sagrada Familia ?",
+        "propositions": [
+          "Sevilla",
+          "Madrid",
+          "Valencia",
+          "Barcelona"
+        ],
+        "réponse": "Barcelona",
+        "anecdote": "El estilo único de Gaudí, inspirado en la naturaleza y el modernismo, también está presente en otros sitios como el Parque Güell."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué isla del Caribe es conocida por sus aguas turquesas y el Triángulo del Ron ?",
+        "propositions": [
+          "Barbados",
+          "Santa Lucía",
+          "Jamaica",
+          "Martinica"
+        ],
+        "réponse": "Martinica",
+        "anecdote": "Los visitantes pueden explorar las destilerías locales y probar rones tradicionales, un toque único para unas vacaciones de verano."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué país del sudeste asiático es famoso por sus templos antiguos y su cocina picante ?",
+        "propositions": [
+          "Vietnam",
+          "Malasia",
+          "Indonesia",
+          "Tailandia"
+        ],
+        "réponse": "Tailandia",
+        "anecdote": "La cocina tailandesa, famosa por su sutil equilibrio entre lo dulce, lo picante, lo ácido y lo salado, es una aventura culinaria que no debe perderse."
+      },
+      {
+        "id": 18,
+        "question": "¿Cómo se llama a un trabajador que sólo trabaja durante las vacaciones de verano ?",
+        "propositions": [
+          "Estacional",
+          "Buceador",
+          "Lacayo",
+          "mucama"
+        ],
+        "réponse": "Estacional",
+        "anecdote": "Los trabajadores temporeros se utilizan para hacer frente a la afluencia de clientes en el sector de la restauración o la hostelería durante los periodos más atractivos."
+      },
+      {
+        "id": 19,
+        "question": "¿Cómo se llama también la autopista A7 que une Lyon con Marsella ?",
+        "propositions": [
+          "Carretera feliz",
+          "Carretera caliente",
+          "Carretera amarilla",
+          "Carretera del Sol"
+        ],
+        "réponse": "Carretera del Sol",
+        "anecdote": "La autopista está situada en un corredor dotado de infraestructuras de transporte, junto a una vía fluvial y tres líneas ferroviarias."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué tipo de residencia disfrutan algunas familias durante las vacaciones ?",
+        "propositions": [
+          "Turista",
+          "Secundaria",
+          "Terciario",
+          "Planetario"
+        ],
+        "réponse": "Secundaria",
+        "anecdote": "Una segunda residencia es una vivienda que sirve, en particular, de alojamiento vacacional a sus propietarios o inquilinos."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En Francia, ¿en qué año las vacaciones remuneradas aumentaron a cinco semanas ?",
+        "propositions": [
+          "1982",
+          "1977",
+          "1969",
+          "1991"
+        ],
+        "réponse": "1982",
+        "anecdote": "El cambio a cinco semanas se realizó mediante orden del 16 de enero de 1982, considerada parte de las Leyes Auroux."
+      },
+      {
+        "id": 22,
+        "question": "¿Quién escribió e interpretó « Les Jolies Colonies de vacances » en 1966 ?",
+        "propositions": [
+          "Alain Souchon",
+          "Charles Trenet",
+          "Pierre Perret",
+          "Georges Brassens"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Si bien debería ser tomada en segundo grado, la canción provocó que su autor fuera censurado durante seis meses en televisión."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué país de diez millones de kilómetros cuadrados es famoso por sus festivales de verano ?",
+        "propositions": [
+          "Australia",
+          "Canadá",
+          "Francia",
+          "Japón"
+        ],
+        "réponse": "Canadá",
+        "anecdote": "Los orígenes de esta festividad se remontan a las costumbres religiosas y agrícolas de los primeros colonos franceses en América del Norte."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué destino de verano asiático es famoso por sus deportes acuáticos ?",
+        "propositions": [
+          "Tokio",
+          "Bali",
+          "Shanghái",
+          "Bangkok"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali es una isla de Indonesia que atrae a viajeros de todo el mundo por sus playas de arena blanca y aguas turquesas."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué ciudad europea es famosa por su Puente de Carlos y su arquitectura medieval ?",
+        "propositions": [
+          "Venecia",
+          "Praga",
+          "Barcelona",
+          "Ámsterdam"
+        ],
+        "réponse": "Praga",
+        "anecdote": "El Puente de Carlos, un puente de piedra del siglo XIV adornado con estatuas, conecta los barrios históricos de la ciudad con sus cien campanarios."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuál es el desierto de arena más grande del mundo, popular entre los entusiastas del trekking ?",
+        "propositions": [
+          "Desierto de Kalahari",
+          "Desierto del Sahara",
+          "Desierto de Atacama",
+          "Desierto de Simpson"
+        ],
+        "réponse": "Desierto de Simpson",
+        "anecdote": "Una de las atracciones más famosas del desierto es Big Red, una duna de arena de 40 metros de altura con vistas espectaculares."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué isla de arena roja en verano ofrece arquitectura cicládica a los turistas ?",
+        "propositions": [
+          "Malta",
+          "Mallorca",
+          "Chipre",
+          "Santorini"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Santorini, también conocida como Thera, es una isla volcánica de las Cícladas que ha sufrido erupciones volcánicas."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuántos días de vacaciones anuales tenemos en Hong Kong y Singapur ?",
+        "propositions": [
+          "Cinco",
+          "Ninguno",
+          "Siete",
+          "Doce"
+        ],
+        "réponse": "Siete",
+        "anecdote": "Las licencias remuneradas se refieren a períodos de licencia durante los cuales el empleador paga legalmente al empleado."
+      },
+      {
+        "id": 29,
+        "question": "En Francia, ¿cuánto dinero genera cada año la industria del turismo ?",
+        "propositions": [
+          "105 mil millones",
+          "145 mil millones",
+          "165 mil millones",
+          "125 mil millones"
+        ],
+        "réponse": "145 mil millones",
+        "anecdote": "En este sector, el trabajo estacional es sinónimo de violaciones de las leyes laborales, precariedad y condiciones de vida degradadas."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué programa para jóvenes presentó Claude Pierrard durante las vacaciones ?",
+        "propositions": [
+          "\u003cI\u003eTú",
+          "TF1 joven",
+          "\u003cI\u003eVitamina\u003c/I\u003e",
+          "Merienda navideña"
+        ],
+        "réponse": "Merienda navideña",
+        "anecdote": "Para acompañarlo, además de numerosos animales o personalidades, Claude Pierrard podía contar con el conejo Isidoro."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qual è il periodo più popolare per le vacanze estive in Europa ?",
+        "propositions": [
+          "Da luglio a settembre",
+          "Da aprile a giugno",
+          "Da ottobre a dicembre",
+          "Da gennaio a marzo"
+        ],
+        "réponse": "Da luglio a settembre",
+        "anecdote": "Le spiagge mediterranee di Spagna e Grecia attirano ogni anno milioni di visitatori per godersi il sole e il mare."
+      },
+      {
+        "id": 2,
+        "question": "Quale destinazione estiva è meglio conosciuta per la sua torre pendente ?",
+        "propositions": [
+          "Atene",
+          "Pisa",
+          "Barcellona",
+          "Parigi"
+        ],
+        "réponse": "Pisa",
+        "anecdote": "Questa inclinazione si manifestò molto presto durante la sua costruzione (1173), poiché fu edificata su una pianura alluvionale."
+      },
+      {
+        "id": 3,
+        "question": "Quale città americana è nota per le sue spiagge e i suoi parchi a tema ?",
+        "propositions": [
+          "Miami",
+          "Los Angeles",
+          "Chicago",
+          "Nuova York"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Miami attira anche gli amanti dell'arte con il suo quartiere Wynwood, famoso per i suoi murales e le gallerie contemporanee."
+      },
+      {
+        "id": 4,
+        "question": "Quale festival annuale si svolge a Rio de Janeiro, attirando visitatori da tutto il mondo ?",
+        "propositions": [
+          "Le Lanterne",
+          "Carnevale",
+          "La danza del fuoco",
+          "La Tomatina"
+        ],
+        "réponse": "Carnevale",
+        "anecdote": "Migliaia di ballerini, musicisti e spettatori si riuniscono per le strade di Rio de Janeiro per celebrare questa festa."
+      },
+      {
+        "id": 5,
+        "question": "Quale città italiana vi propone romantiche gondole sui suoi canali ?",
+        "propositions": [
+          "Venezia",
+          "Milano",
+          "Roma",
+          "Firenze"
+        ],
+        "réponse": "Venezia",
+        "anecdote": "I visitatori potranno solcare le acque della laguna veneziana e scoprire tesori architettonici come Piazza San Marco."
+      },
+      {
+        "id": 6,
+        "question": "Al cinema chi doveva trascorrere le vacanze con la famiglia Gratin ?",
+        "propositions": [
+          "Artù",
+          "Ducobu",
+          "Barbie",
+          "Beethoven"
+        ],
+        "réponse": "Ducobu",
+        "anecdote": "« Les Vacances de Ducobu » è una commedia francese scritta e diretta da Philippe de Chauveron, uscita il 25 aprile 2012."
+      },
+      {
+        "id": 7,
+        "question": "Quale città costiera della California è famosa per il suo iconico ponte sospeso ?",
+        "propositions": [
+          "Santa Monica",
+          "Los Angeles",
+          "San Francisco",
+          "San Diego"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "La nebbia, soprannominata Karl the Fog, aggiunge un'atmosfera mistica alla zona e al famoso Golden Gate Bridge rosso."
+      },
+      {
+        "id": 8,
+        "question": "Quale isola greca è costellata di case bianche e cupole blu ?",
+        "propositions": [
+          "Rodi",
+          "Santorini",
+          "Mykonos",
+          "Creta"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Il contrasto degli edifici con le acque azzurre del Mar Egeo la rende una delle destinazioni estive più fotografate."
+      },
+      {
+        "id": 9,
+        "question": "Quale città europea è famosa per il suo antico Colosseo e le fontane barocche ?",
+        "propositions": [
+          "Lisbona",
+          "Atene",
+          "Madrid",
+          "Roma"
+        ],
+        "réponse": "Roma",
+        "anecdote": "La Fontana di Trevi, un'iconica opera barocca, è una tappa obbligata per i visitatori della città di Roma."
+      },
+      {
+        "id": 10,
+        "question": "In quale città la Promenade des Anglais è diventata un viale famoso ?",
+        "propositions": [
+          "Cannes",
+          "Marsiglia",
+          "Tolosa",
+          "Bello"
+        ],
+        "réponse": "Bello",
+        "anecdote": "La sua storia, legata agli esordi del turismo internazionale, e la sua posizione in riva al mare ne fanno una meta estiva."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale di queste isole tropicali è famosa per i suoi bungalow sull'acqua ?",
+        "propositions": [
+          "Maui",
+          "Bali",
+          "Tahiti",
+          "Le Maldive"
+        ],
+        "réponse": "Le Maldive",
+        "anecdote": "Queste strutture offrono un'esperienza di vacanza indimenticabile con viste mozzafiato sull'oceano e accesso diretto alla vita marina."
+      },
+      {
+        "id": 12,
+        "question": "Quale parco nazionale americano è famoso per le sue spettacolari cascate ?",
+        "propositions": [
+          "Yosemite",
+          "Yellowstone",
+          "Gran Canyon",
+          "Acadia"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "Lo Yosemite Park in California è rinomato per le sue maestose scogliere di granito, sequoie giganti e cascate."
+      },
+      {
+        "id": 13,
+        "question": "In quali isole dei Caraibi potrai passeggiare su spiagge di sabbia rosa ?",
+        "propositions": [
+          "Bahamas",
+          "Barbados",
+          "Santa Lucia",
+          "Grenada"
+        ],
+        "réponse": "Bahamas",
+        "anecdote": "L'isola è famosa per le sue spiagge di sabbia rosa, create dalla combinazione di sabbia bianca e frammenti di corallo rosa."
+      },
+      {
+        "id": 14,
+        "question": "Quale isola europea è famosa per i suoi fiordi e l'aurora boreale ?",
+        "propositions": [
+          "Finlandia",
+          "Islanda",
+          "Norvegia",
+          "Svezia"
+        ],
+        "réponse": "Islanda",
+        "anecdote": "L'Islanda, situata ai margini dell'Artico, offre un'esperienza unica in estate con il fenomeno del sole di mezzanotte."
+      },
+      {
+        "id": 15,
+        "question": "Quale città spagnola è famosa per il modernismo della sua Sagrada Família ?",
+        "propositions": [
+          "Madrid",
+          "Barcellona",
+          "Valenza",
+          "Siviglia"
+        ],
+        "réponse": "Barcellona",
+        "anecdote": "Lo stile unico di Gaudí, ispirato alla natura e al modernismo, è presente anche in altri siti come il Parco Güell."
+      },
+      {
+        "id": 16,
+        "question": "Quale isola dei Caraibi è nota per le sue acque turchesi e il Triangolo del Rum ?",
+        "propositions": [
+          "Santa Lucia",
+          "Martinica",
+          "Giamaica",
+          "Barbados"
+        ],
+        "réponse": "Martinica",
+        "anecdote": "I visitatori possono esplorare le distillerie locali e degustare rum tradizionali, un tocco unico per una vacanza estiva."
+      },
+      {
+        "id": 17,
+        "question": "Quale paese del sud-est asiatico è famoso per i suoi antichi templi e la cucina piccante ?",
+        "propositions": [
+          "Indonesia",
+          "Thailandia",
+          "Vietnam",
+          "Malesia"
+        ],
+        "réponse": "Thailandia",
+        "anecdote": "La cucina tailandese, famosa per il suo sottile equilibrio tra dolce, piccante, acido e salato, è un'avventura culinaria da non perdere."
+      },
+      {
+        "id": 18,
+        "question": "Come si chiama un lavoratore che lavora solo durante le vacanze estive ?",
+        "propositions": [
+          "Lacchè",
+          "Stagionale",
+          "Tuffatore",
+          "Cameriera"
+        ],
+        "réponse": "Stagionale",
+        "anecdote": "I lavoratori stagionali sono abituati a far fronte all'afflusso di clienti nel settore della ristorazione o in quello alberghiero nei periodi più attraenti."
+      },
+      {
+        "id": 19,
+        "question": "Come si chiama anche l'autostrada A7 che collega Lione a Marsiglia ?",
+        "propositions": [
+          "Autostrada del sole",
+          "Autostrada gialla",
+          "Autostrada calda",
+          "Buona autostrada"
+        ],
+        "réponse": "Autostrada del sole",
+        "anecdote": "L'autostrada si trova in un corridoio dotato di infrastrutture di trasporto, lungo un corso d'acqua e tre linee ferroviarie."
+      },
+      {
+        "id": 20,
+        "question": "Di che tipo di residenza godono alcune famiglie durante le vacanze ?",
+        "propositions": [
+          "Vacanziere",
+          "Planetario",
+          "Secondario",
+          "Terziario"
+        ],
+        "réponse": "Secondario",
+        "anecdote": "Una residenza secondaria è un'abitazione che serve in particolare come alloggio per le vacanze dei suoi proprietari o locatari."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In Francia, in quale anno le ferie retribuite sono aumentate a cinque settimane ?",
+        "propositions": [
+          "1977",
+          "1969",
+          "1982",
+          "1991"
+        ],
+        "réponse": "1982",
+        "anecdote": "Il passaggio a cinque settimane è stato effettuato con un'ordinanza del 16 gennaio 1982, considerata parte delle leggi Auroux."
+      },
+      {
+        "id": 22,
+        "question": "Chi ha scritto e interpretato « Les Jolies Colonies de vacances » nel 1966 ?",
+        "propositions": [
+          "Pierre Perret",
+          "Charles Trenet",
+          "Georges Brassens",
+          "Alain Souchon"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Anche se dovrebbe essere considerata in secondo grado, la canzone ha causato la censura televisiva del suo autore per sei mesi."
+      },
+      {
+        "id": 23,
+        "question": "Quale paese di dieci milioni di chilometri quadrati è famoso per le sue feste di mezza estate ?",
+        "propositions": [
+          "Francia",
+          "Giappone",
+          "Australia",
+          "Canada"
+        ],
+        "réponse": "Canada",
+        "anecdote": "Le origini di questa festa risalgono alle usanze religiose e agricole dei primi coloni francesi nel Nord America."
+      },
+      {
+        "id": 24,
+        "question": "Quale destinazione estiva asiatica è famosa per i suoi sport acquatici ?",
+        "propositions": [
+          "Tokio",
+          "Bali",
+          "Shangai",
+          "Bangkok"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali è un'isola indonesiana che attira viaggiatori da tutto il mondo per le sue spiagge di sabbia bianca e le acque turchesi."
+      },
+      {
+        "id": 25,
+        "question": "Quale città europea è famosa per il suo Ponte Carlo e la sua architettura medievale ?",
+        "propositions": [
+          "Venezia",
+          "Praga",
+          "Amsterdam",
+          "Barcellona"
+        ],
+        "réponse": "Praga",
+        "anecdote": "Il Ponte Carlo, ponte in pietra del XIV secolo ornato di statue, collega con i suoi cento campanili i quartieri storici della città."
+      },
+      {
+        "id": 26,
+        "question": "Qual è il deserto di sabbia più grande del mondo, frequentato dagli appassionati di trekking ?",
+        "propositions": [
+          "Deserto del Kalahari",
+          "Deserto Simpson",
+          "Deserto del Sahara",
+          "Deserto di Atacama"
+        ],
+        "réponse": "Deserto Simpson",
+        "anecdote": "Una delle attrazioni più famose del deserto è Big Red, una duna di sabbia alta 40 metri con viste spettacolari."
+      },
+      {
+        "id": 27,
+        "question": "Quale isola dalla sabbia rossa in estate offre l'architettura delle Cicladi ai turisti ?",
+        "propositions": [
+          "Maiorca",
+          "Santorini",
+          "Malta",
+          "Cipro"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Santorini, conosciuta anche come Thera, è un'isola vulcanica delle Cicladi, che ha subito eruzioni vulcaniche."
+      },
+      {
+        "id": 28,
+        "question": "Quanti giorni di ferie annuali abbiamo a Hong Kong e Singapore ?",
+        "propositions": [
+          "Cinque",
+          "Dodici",
+          "Nessuno",
+          "Sette"
+        ],
+        "réponse": "Sette",
+        "anecdote": "Per ferie retribuite si intendono i periodi di ferie durante i quali il dipendente è legalmente retribuito dal datore di lavoro."
+      },
+      {
+        "id": 29,
+        "question": "In Francia, quanto denaro viene generato ogni anno dall'industria del turismo ?",
+        "propositions": [
+          "125 miliardi",
+          "145 miliardi",
+          "105 miliardi",
+          "165 miliardi"
+        ],
+        "réponse": "145 miliardi",
+        "anecdote": "In questo settore il lavoro stagionale è sinonimo di violazioni delle leggi sul lavoro, precarietà e condizioni di vita degradate."
+      },
+      {
+        "id": 30,
+        "question": "Quale programma per i giovani ha presentato Claude Pierrard durante le vacanze ?",
+        "propositions": [
+          "\u003cI\u003eVitamina",
+          "Snack festivo",
+          "Tfou",
+          "TF1 giovane"
+        ],
+        "réponse": "Snack festivo",
+        "anecdote": "Ad accompagnarlo, oltre ai numerosi animali o personaggi, Claude Pierrard poteva contare sul coniglio Isidore."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wanneer is de populairste tijd voor zomervakanties in Europa ?",
+        "propositions": [
+          "Juli tot september",
+          "Oktober tot december",
+          "Januari tot maart",
+          "april tot juni"
+        ],
+        "réponse": "Juli tot september",
+        "anecdote": "De mediterrane stranden van Spanje en Griekenland trekken jaarlijks miljoenen bezoekers om te genieten van de zon en de zee."
+      },
+      {
+        "id": 2,
+        "question": "Welke zomerbestemming staat vooral bekend om zijn scheve toren ?",
+        "propositions": [
+          "Barcelona",
+          "Athene",
+          "Parijs",
+          "Pisa"
+        ],
+        "réponse": "Pisa",
+        "anecdote": "Deze helling verscheen zeer snel tijdens de bouw (1173), omdat het op een alluviale vlakte werd gebouwd."
+      },
+      {
+        "id": 3,
+        "question": "Welke Amerikaanse stad staat bekend om zijn stranden en themaparken ?",
+        "propositions": [
+          "Los Angeles",
+          "Miami",
+          "New York",
+          "Chicago"
+        ],
+        "réponse": "Miami",
+        "anecdote": "Miami trekt ook kunstliefhebbers aan met de wijk Wynwood, beroemd om zijn muurschilderingen en moderne galerijen."
+      },
+      {
+        "id": 4,
+        "question": "Welk jaarlijkse festival vindt plaats in Rio de Janeiro en trekt bezoekers van over de hele wereld ?",
+        "propositions": [
+          "Carnaval",
+          "La Tomatina",
+          "De Lantaarns",
+          "De Vuurdans"
+        ],
+        "réponse": "Carnaval",
+        "anecdote": "Duizenden dansers, muzikanten en toeschouwers verzamelen zich in de straten van Rio de Janeiro om deze feestdag te vieren."
+      },
+      {
+        "id": 5,
+        "question": "Welke Italiaanse stad biedt romantische gondels op de grachten ?",
+        "propositions": [
+          "Venetië",
+          "Rome",
+          "Milaan",
+          "Firenze"
+        ],
+        "réponse": "Venetië",
+        "anecdote": "Bezoekers kunnen over de wateren van de Venetiaanse lagune varen en architectonische schatten ontdekken, zoals het San Marcoplein."
+      },
+      {
+        "id": 6,
+        "question": "Wie moest er in de bioscoop zijn vakantie doorbrengen bij de familie Gratin ?",
+        "propositions": [
+          "Ducobu",
+          "Arthur",
+          "Beethoven",
+          "Barbie"
+        ],
+        "réponse": "Ducobu",
+        "anecdote": "« Les Vacances de Ducobu » is een Franse komedie geschreven en geregisseerd door Philippe de Chauveron, uitgebracht op 25 april 2012."
+      },
+      {
+        "id": 7,
+        "question": "Welke kuststad in Californië staat bekend om zijn iconische hangbrug ?",
+        "propositions": [
+          "San Francisco",
+          "Santa Monica",
+          "San Diego",
+          "Los Angeles"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "De mist, bijgenaamd Karl the Fog, voegt een mystieke sfeer toe aan het gebied en de beroemde rode Golden Gate Bridge."
+      },
+      {
+        "id": 8,
+        "question": "Welk Griekse eiland is bezaaid met witte huizen en blauwe koepels ?",
+        "propositions": [
+          "Mikonos",
+          "Kreta",
+          "Rhodos",
+          "Santorini"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Het contrast van de gebouwen met het azuurblauwe water van de Egeïsche Zee maakt het tot een van de meest gefotografeerde zomerbestemmingen."
+      },
+      {
+        "id": 9,
+        "question": "Welke Europese stad is beroemd om zijn oude Colosseum en barokke fonteinen ?",
+        "propositions": [
+          "Rome",
+          "Athene",
+          "Madrid",
+          "Lissabon"
+        ],
+        "réponse": "Rome",
+        "anecdote": "De Trevifontein, een iconisch barokwerk, is een must-see voor bezoekers van de stad Rome."
+      },
+      {
+        "id": 10,
+        "question": "In welke stad werd de Promenade des Anglais een beroemde laan ?",
+        "propositions": [
+          "Leuk",
+          "Cannes",
+          "Marseille",
+          "Toulouse"
+        ],
+        "réponse": "Leuk",
+        "anecdote": "De geschiedenis, verbonden met het begin van het internationale toerisme, en de ligging aan zee maken het tot een zomerbestemming."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk van deze tropische eilanden staat bekend om zijn bungalows boven het water ?",
+        "propositions": [
+          "Maui",
+          "Tahiti",
+          "De Malediven",
+          "Bali"
+        ],
+        "réponse": "De Malediven",
+        "anecdote": "Deze structuren bieden een onvergetelijke vakantie-ervaring met adembenemend uitzicht op de oceaan en directe toegang tot het zeeleven."
+      },
+      {
+        "id": 12,
+        "question": "Welk Amerikaans nationaal park staat bekend om zijn spectaculaire watervallen ?",
+        "propositions": [
+          "Acadia",
+          "Grote Canyon",
+          "Yellowstone",
+          "Yosemite"
+        ],
+        "réponse": "Yosemite",
+        "anecdote": "Yosemite Park in Californië staat bekend om zijn majestueuze granieten kliffen, gigantische sequoia's en watervallen."
+      },
+      {
+        "id": 13,
+        "question": "Op welke Caribische eilanden kun je over roze zandstranden lopen ?",
+        "propositions": [
+          "Bahama's",
+          "Grenada",
+          "Barbados",
+          "Sint Lucia"
+        ],
+        "réponse": "Bahama's",
+        "anecdote": "Het eiland staat bekend om zijn roze zandstranden, gecreëerd door de combinatie van wit zand en fragmenten roze koraal."
+      },
+      {
+        "id": 14,
+        "question": "Welk Europese eiland is beroemd om zijn fjorden en noorderlicht ?",
+        "propositions": [
+          "Finland",
+          "Zweden",
+          "Noorwegen",
+          "IJsland"
+        ],
+        "réponse": "IJsland",
+        "anecdote": "IJsland, gelegen aan de rand van het Noordpoolgebied, biedt in de zomer een unieke ervaring met het fenomeen van de middernachtzon."
+      },
+      {
+        "id": 15,
+        "question": "Welke Spaanse stad staat bekend om het modernisme van de Sagrada Família ?",
+        "propositions": [
+          "Barcelona",
+          "Madrid",
+          "Valencia",
+          "Sevilla"
+        ],
+        "réponse": "Barcelona",
+        "anecdote": "Gaudí's unieke stijl, geïnspireerd door de natuur en het modernisme, is ook aanwezig op andere locaties zoals Park Güell."
+      },
+      {
+        "id": 16,
+        "question": "Welk Caribische eiland staat bekend om zijn turquoise wateren en de Rum Triangle ?",
+        "propositions": [
+          "Sint Lucia",
+          "Jamaica",
+          "Barbados",
+          "Martinique"
+        ],
+        "réponse": "Martinique",
+        "anecdote": "Bezoekers kunnen lokale distilleerderijen verkennen en traditionele rum proeven, een uniek tintje aan een zomervakantie."
+      },
+      {
+        "id": 17,
+        "question": "Welk Zuidoost-Aziatische land staat bekend om zijn oude tempels en pittige keuken ?",
+        "propositions": [
+          "Thailand",
+          "Maleisië",
+          "Vietnam",
+          "Indonesië"
+        ],
+        "réponse": "Thailand",
+        "anecdote": "De Thaise keuken, beroemd om zijn subtiele balans tussen zoet, pittig, zuur en zout, is een culinair avontuur dat je niet mag missen."
+      },
+      {
+        "id": 18,
+        "question": "Hoe noem je een werknemer die alleen tijdens de zomervakantie werkt ?",
+        "propositions": [
+          "Seizoensgebonden",
+          "Lackey",
+          "Dienstmeisje",
+          "Duiker"
+        ],
+        "réponse": "Seizoensgebonden",
+        "anecdote": "Seizoensarbeiders worden ingezet om de toestroom van klanten in de restaurant- of hotelsector tijdens de meest aantrekkelijke periodes op te vangen."
+      },
+      {
+        "id": 19,
+        "question": "Hoe heet de snelweg A7, die Lyon met Marseille verbindt ?",
+        "propositions": [
+          "Hete snelweg",
+          "Gele snelweg",
+          "Gelukkige snelweg",
+          "Snelweg van de zon"
+        ],
+        "réponse": "Snelweg van de zon",
+        "anecdote": "De snelweg ligt in een corridor voorzien van transportinfrastructuur, langs een waterweg en drie spoorlijnen."
+      },
+      {
+        "id": 20,
+        "question": "Van welk type verblijf genieten sommige gezinnen tijdens de vakantie ?",
+        "propositions": [
+          "Vakantieganger",
+          "Secundair",
+          "Planetair",
+          "Tertiair"
+        ],
+        "réponse": "Secundair",
+        "anecdote": "Een tweede woning is een woning die in het bijzonder dient als vakantieverblijf voor de eigenaars of huurders."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welk jaar werd het betaalde verlof in Frankrijk verhoogd tot vijf weken ?",
+        "propositions": [
+          "1991",
+          "1969",
+          "1977",
+          "1982"
+        ],
+        "réponse": "1982",
+        "anecdote": "De wijziging in vijf weken werd doorgevoerd bij besluit van 16 januari 1982, dat wordt beschouwd als onderdeel van de Auroux-wetten."
+      },
+      {
+        "id": 22,
+        "question": "Wie schreef en speelde « Les Jolies Colonies de vacances » in 1966 ?",
+        "propositions": [
+          "Georges Brassens",
+          "Alain Souchon",
+          "Charles Trenet",
+          "Pierre Perret"
+        ],
+        "réponse": "Pierre Perret",
+        "anecdote": "Hoewel het in de tweede graad zou moeten worden opgevat, zorgde het lied ervoor dat de auteur ervan zes maanden lang op televisie werd gecensureerd."
+      },
+      {
+        "id": 23,
+        "question": "Welk land van tien miljoen vierkante kilometer is beroemd om zijn midzomerfestivals ?",
+        "propositions": [
+          "Japan",
+          "Canada",
+          "Australië",
+          "Frankrijk"
+        ],
+        "réponse": "Canada",
+        "anecdote": "De oorsprong van deze feestdag gaat terug tot de religieuze en agrarische gebruiken van de eerste Franse kolonisten in Noord-Amerika."
+      },
+      {
+        "id": 24,
+        "question": "Welke Aziatische zomerbestemming staat bekend om zijn watersporten ?",
+        "propositions": [
+          "Bangkok",
+          "Tokio",
+          "Bali",
+          "Sjanghai"
+        ],
+        "réponse": "Bali",
+        "anecdote": "Bali is een Indonesisch eiland dat reizigers van over de hele wereld trekt vanwege zijn witte zandstranden en turquoise wateren."
+      },
+      {
+        "id": 25,
+        "question": "Welke Europese stad is beroemd om zijn Karelsbrug en zijn middeleeuwse architectuur ?",
+        "propositions": [
+          "Barcelona",
+          "Praag",
+          "Amsterdam",
+          "Venetië"
+        ],
+        "réponse": "Praag",
+        "anecdote": "De Karelsbrug, een 14e-eeuwse stenen brug versierd met beelden, verbindt met zijn honderd klokkentorens de historische wijken van de stad."
+      },
+      {
+        "id": 26,
+        "question": "Wat is de grootste zandwoestijn ter wereld, populair bij trekkingliefhebbers ?",
+        "propositions": [
+          "Atacama-woestijn",
+          "Simpson-woestijn",
+          "Sahara-woestijn",
+          "Kalahari-woestijn"
+        ],
+        "réponse": "Simpson-woestijn",
+        "anecdote": "Een van de bekendste attracties van de woestijn is Big Red, een 40 meter hoge zandduin met spectaculaire uitzichten."
+      },
+      {
+        "id": 27,
+        "question": "Welk eiland met rood zand in de zomer biedt toeristen Cycladische architectuur ?",
+        "propositions": [
+          "Santorini",
+          "Mallorca",
+          "Malta",
+          "Cyprus"
+        ],
+        "réponse": "Santorini",
+        "anecdote": "Santorini, ook wel bekend als Thera, is een vulkanisch eiland in de Cycladen, na vulkaanuitbarstingen."
+      },
+      {
+        "id": 28,
+        "question": "Hoeveel vakantiedagen hebben we jaarlijks in Hong Kong en Singapore ?",
+        "propositions": [
+          "Geen",
+          "Twaalf",
+          "Zeven",
+          "Vijf"
+        ],
+        "réponse": "Zeven",
+        "anecdote": "Onder betaald verlof worden de verlofperioden verstaan waarin de werknemer wettelijk doorbetaald wordt door de werkgever."
+      },
+      {
+        "id": 29,
+        "question": "Hoeveel geld wordt er in Frankrijk jaarlijks gegenereerd door de toeristische sector ?",
+        "propositions": [
+          "165 miljard",
+          "125 miljard",
+          "145 miljard",
+          "105 miljard"
+        ],
+        "réponse": "145 miljard",
+        "anecdote": "In deze sector is seizoenswerk synoniem met schendingen van de arbeidswetten, onzekerheid en verslechterde levensomstandigheden."
+      },
+      {
+        "id": 30,
+        "question": "Welk jongerenprogramma presenteerde Claude Pierrard tijdens de vakantie ?",
+        "propositions": [
+          "\u003cI\u003eVitamine",
+          "TF1 jeunesse",
+          "Tfou",
+          "Vakantiesnack"
+        ],
+        "réponse": "Vakantiesnack",
+        "anecdote": "Om hem te vergezellen, kon Claude Pierrard, naast de talrijke dieren of persoonlijkheden, rekenen op het konijn Isidore."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-09-13",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Culture en vrac #14",
+      "slogan": "De la culture à tous les niveaux"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Bulk culture #14",
+      "slogan": "General culture at all levels"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Cultivo a granel #14",
+      "slogan": "Cultura general a todos los niveles"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Cultura di massa #14",
+      "slogan": "Cultura generale a tutti i livelli"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Massenkultur #14",
+      "slogan": "Allgemeine Kultur auf allen Ebenen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Bulkcultuur #14",
+      "slogan": "Algemene cultuur op alle niveaus"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel gâteau du « Père Noël est une ordure » possède une double couche ?",
+        "propositions": [
+          "Doubitchou",
+          "Schtonk",
+          "Ragoutchi",
+          "Klug"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » est un film réalisé par Jean-Marie Poiré et sorti au cinéma le 25 août 1982, interprété par la troupe du Splendid."
+      },
+      {
+        "id": 2,
+        "question": "Quel numéro porte Patrick McGoohan dans la série télévisée « Le Prisonnier » ?",
+        "propositions": [
+          "8",
+          "6",
+          "10",
+          "3"
+        ],
+        "réponse": "6",
+        "anecdote": "« Le Prisonnier » utilise les ficelles du roman d'espionnage, teintées de science-fiction, d'allégorie et de drame psychologique."
+      },
+      {
+        "id": 3,
+        "question": "Quel titre porte le plus célèbre roman d'anticipation de George Orwell ?",
+        "propositions": [
+          "1894",
+          "2020",
+          "1984",
+          "2000"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell décrit une Grande-Bretagne trente ans après une guerre nucléaire entre l'Est et l'Ouest censée avoir eu lieu dans les années 1950."
+      },
+      {
+        "id": 4,
+        "question": "Laquelle de ces professions ne peut-on associer au grand Léonard de Vinci ?",
+        "propositions": [
+          "Botaniste",
+          "Auteur dramatique",
+          "Sculpteur",
+          "Peintre"
+        ],
+        "réponse": "Auteur dramatique",
+        "anecdote": "Léonard de Vinci, génie universel, est souvent décrit comme l'archétype et le symbole de l'homme de la Renaissance."
+      },
+      {
+        "id": 5,
+        "question": "Quel astronaute américain a le premier posé le pied sur la Lune ?",
+        "propositions": [
+          "James Lovell",
+          "Frank Borman",
+          "John Young",
+          "Neil Armstrong"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "Il a ensuite occupé un poste d'enseignant dans le domaine aérospatial et servi de porte-parole pour le compte de sociétés américaines."
+      },
+      {
+        "id": 6,
+        "question": "Quelle femelle a pour habitude de manger son partenaire pendant l'accouplement ?",
+        "propositions": [
+          "Mante religieuse",
+          "Caméléon",
+          "Anguille",
+          "Abeille"
+        ],
+        "réponse": "Mante religieuse",
+        "anecdote": "Les deux sexes sont aptes au vol, mais la femelle, alourdie à l'approche de la ponte, ne peut se déplacer que grâce à ses pattes postérieures."
+      },
+      {
+        "id": 7,
+        "question": "Qui a écrit le roman dont est inspiré l'opéra de Sergueï Prokofiev « Guerre et Paix » ?",
+        "propositions": [
+          "Tolstoï",
+          "Pouchkine",
+          "Pasternak",
+          "Dostoïevski"
+        ],
+        "réponse": "Tolstoï",
+        "anecdote": "Publié en feuilleton entre 1865 et 1869 dans « Le Messager russe », ce livre narre l'histoire de la Russie à l'époque de Napoléon Ier."
+      },
+      {
+        "id": 8,
+        "question": "Lequel de ces instruments de musique n'est pas un instrument à vent en bois ?",
+        "propositions": [
+          "Cor de chasse",
+          "Flûte à bec",
+          "Flûte traversière",
+          "Saxophone"
+        ],
+        "réponse": "Cor de chasse",
+        "anecdote": "Cet ancêtre du cor naturel, lui-même à l'origine du cor moderne, est la première apparition du cor dans sa configuration moderne circulaire."
+      },
+      {
+        "id": 9,
+        "question": "Dans quelle saga de George Lucas est-il question de coté obscur et de Jedi ?",
+        "propositions": [
+          "Stargate",
+          "Star Wars",
+          "Alien",
+          "Star Trek"
+        ],
+        "réponse": "Star Wars",
+        "anecdote": "Les droits d'auteur de « Star Wars » ont été achetés en 2012 par la Walt Disney Company pour plus de quatre milliards de dollars."
+      },
+      {
+        "id": 10,
+        "question": "Qui prononce les célèbres paroles : « Élémentaire mon cher Watson » ?",
+        "propositions": [
+          "Hercule Poirot",
+          "Maigret",
+          "Derrick",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes est un personnage de fiction créé par Sir Arthur Conan Doyle dans le roman policier « Une étude en rouge » en 1887."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Lequel de ces quatre éléments chimiques n'a pas de propriété radioactive ?",
+        "propositions": [
+          "Radon",
+          "Rhodium",
+          "Polonium",
+          "Uranium"
+        ],
+        "réponse": "Rhodium",
+        "anecdote": "Le rhodium, élément chimique de numéro atomique 45, est un métal dur et cassant de la catégorie des platinoïdes légers."
+      },
+      {
+        "id": 12,
+        "question": "Quel chef gaulois infligea une défaite à l'armée romaine en 52 avant J.-C. ?",
+        "propositions": [
+          "Hannibal",
+          "Scipion",
+          "Abraracourcix",
+          "Vercingétorix"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "Oubliée jusqu'au milieu du XIXe siècle, sa figure de représentant de la civilisation gauloise sera largement mise en avant sous Napoléon III."
+      },
+      {
+        "id": 13,
+        "question": "Lequel de ces contes n'est pas attribué aux frères Grimm ?",
+        "propositions": [
+          "Blanche-Neige",
+          "Cendrillon",
+          "Tom Pouce",
+          "Le Chat botté"
+        ],
+        "réponse": "Le Chat botté",
+        "anecdote": "Giovanni Francesco Straparola semble avoir transcrit la plus ancienne version connue de cette histoire dans son livre « Les Nuits facétieuses »."
+      },
+      {
+        "id": 14,
+        "question": "Comment s'appelait l'émission littéraire animée par Bernard Pivot jusqu'en juin 1990 ?",
+        "propositions": [
+          "Apostrophes",
+          "Point à la ligne",
+          "Ex Libris",
+          "Parenthèses"
+        ],
+        "réponse": "Apostrophes",
+        "anecdote": "L'émission proposait des discussions ouvertes entre des auteurs autour d'un sujet commun, mais aussi des entrevues individuelles."
+      },
+      {
+        "id": 15,
+        "question": "Quelle marionnette jouait de la trompette à la fin du « Muppet Show » ?",
+        "propositions": [
+          "Kermitt",
+          "Fozzie",
+          "Gonzo",
+          "Grover"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "En France, cette série est à l'origine du « Bébête show », parodie politique créée en 1982 par Stéphane Collaro, Jean Amadou et Jean Roucas."
+      },
+      {
+        "id": 16,
+        "question": "Qui a peint l'huile sur toile monumentale intitulée « Guernica » ?",
+        "propositions": [
+          "Pablo Picasso",
+          "Salvador Dali",
+          "Paul Gauguin",
+          "Juan Miro"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "Cette toile monumentale est une dénonciation engagée du bombardement de Guernica, qui venait de se produire le 26 avril 1937."
+      },
+      {
+        "id": 17,
+        "question": "Qui commandait l'armée carthaginoise lors de la deuxième guerre punique ?",
+        "propositions": [
+          "Hannibal",
+          "Gengis Khan",
+          "Attila",
+          "Hjules César"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "Ce général et homme politique carthaginois est généralement considéré comme l'un des plus grands tacticiens militaires de l'histoire."
+      },
+      {
+        "id": 18,
+        "question": "Quel artiste a composé la musique du long-métrage d'animation Disney « Tarzan » ?",
+        "propositions": [
+          "Vangelis",
+          "Phil Collins",
+          "Sting",
+          "John Williams"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "Une suite sortie directement en vidéo, « Tarzan 2 », a été donnée au film en 2005, ainsi qu'une série télévisée, « La Légende de Tarzan »."
+      },
+      {
+        "id": 19,
+        "question": "De quelle couleur sont les fleurs du genêt, parfois aussi appelé cytise ?",
+        "propositions": [
+          "Roses",
+          "Jaunes",
+          "Rouges",
+          "Bleues"
+        ],
+        "réponse": "Jaunes",
+        "anecdote": "Le Genêt à balais a longtemps été utilisé pour faire des brosses et balais. Le mot genêt en breton (balan) a donné le mot balai en français."
+      },
+      {
+        "id": 20,
+        "question": "Qui a remporté tous les tournois du grand chelem en simple entre 1988 et 1994 ?",
+        "propositions": [
+          "Martina Navratilova",
+          "Martina Hingis",
+          "Chris Evert-Lloyd",
+          "Steffi Graf"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "Professionnelle de 1982 à 1999, Graf a remporté 107 titres en simple dames, dont 28 majeurs, incluant 22 titres du Grand Chelem."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel jour férié tombant le deuxième dimanche de mai est né aux États-Unis en 1912 ?",
+        "propositions": [
+          "Fête du Président",
+          "Fête des Mères",
+          "Fête du Travail",
+          "Fête du Souvenir"
+        ],
+        "réponse": "Fête des Mères",
+        "anecdote": "À cette occasion, les enfants offrent des cadeaux à leur mère, des gâteaux ou des objets qu'ils ont confectionnés à l'école ou à la maison."
+      },
+      {
+        "id": 22,
+        "question": "De quel pays est origine Rembrandt, grand maître de la peinture baroque ?",
+        "propositions": [
+          "Pays-Bas",
+          "Belgique",
+          "Autriche",
+          "Allemagne"
+        ],
+        "réponse": "Pays-Bas",
+        "anecdote": "Il a vécu pendant le siècle d'or néerlandais durant lequel culture, sciences, commerce et politique des Pays-Bas ont atteint leur apogée."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel registre de voix l'espagnol Placido Domingo chantait-il ?",
+        "propositions": [
+          "Basse",
+          "Ténor",
+          "Contre-ténor",
+          "Baryton"
+        ],
+        "réponse": "Ténor",
+        "anecdote": "Chantant en italien, français, allemand, espagnol, anglais ou russe, il s'est produit dans les plus prestigieux opéras à travers le monde."
+      },
+      {
+        "id": 24,
+        "question": "Sur quelle discipline sportive a régné l'américain Edwin Moses de 1977 à 1987 ?",
+        "propositions": [
+          "400 m haies",
+          "Saut en hauteur",
+          "Saut en longueur",
+          "100 m"
+        ],
+        "réponse": "400 m haies",
+        "anecdote": "Invaincu sur cette distance entre 1977 et 1987 avec 122 victoires consécutives, il remporta deux titres olympiques, en 1976 et 1984."
+      },
+      {
+        "id": 25,
+        "question": "Quel sommet du Puy-de-Dôme est le point culminant du Massif Central ?",
+        "propositions": [
+          "Mont Lozère",
+          "Puy de Dôme",
+          "Puy de Sancy",
+          "Plomb du Cantal"
+        ],
+        "réponse": "Puy de Sancy",
+        "anecdote": "Le massif du Sancy présente un grand intérêt pour sa flore : on y trouve un certain nombre d'espèces alpines devenues très rares."
+      },
+      {
+        "id": 26,
+        "question": "Dans la classification animale, à quelle famille appartient le cloporte ?",
+        "propositions": [
+          "Crustacés",
+          "Palmipèdes",
+          "Arachnides",
+          "Insectes"
+        ],
+        "réponse": "Crustacés",
+        "anecdote": "Lors de leur colonisation des biotopes terrestres, ils ont développé une stratégie visant à contrôler les pertes en eau de leur organisme."
+      },
+      {
+        "id": 27,
+        "question": "Quel groupe fut fondé en 1955 par John Lennon, juste avant les Beatles ?",
+        "propositions": [
+          "The Cousins",
+          "The Shadows",
+          "The Hurricanes",
+          "The Quarrymen"
+        ],
+        "réponse": "The Quarrymen",
+        "anecdote": "Ce groupe de Skiffle et de Rock 'n' roll fut formé à Liverpool par John Lennon pendant l'été 1956 avec plusieurs amis d'école."
+      },
+      {
+        "id": 28,
+        "question": "Derrière lequel de ces noms ne se cache aucun animal ?",
+        "propositions": [
+          "Anémone de mer",
+          "Concombre de mer",
+          "Oursin",
+          "Varech"
+        ],
+        "réponse": "Varech",
+        "anecdote": "Le varech ou goémon est constitué d'un mélange indéterminé d'algues brunes, rouges ou vertes, laissées par le retrait des marées."
+      },
+      {
+        "id": 29,
+        "question": "Développée au Moyen Âge, de quelle science l'héraldique est-elle l'étude ?",
+        "propositions": [
+          "Héros",
+          "Dieux",
+          "Armoiries",
+          "Fouilles"
+        ],
+        "réponse": "Armoiries",
+        "anecdote": "Apparue au XIIe siècle au sein de la chevalerie, l'héraldique s'est rapidement diffusée dans l'ensemble de la société occidentale."
+      },
+      {
+        "id": 30,
+        "question": "Comment nommait-on début du XXe siècle les femmes militantes en Angleterre ?",
+        "propositions": [
+          "Midinettes",
+          "Coquettes",
+          "Suffragettes",
+          "Serpolettes"
+        ],
+        "réponse": "Suffragettes",
+        "anecdote": "Le terme désigne, en son sens strict, les militantes de la Women's Social and Political Union, une organisation créée en 1903."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which « Père Noël est une ordure » cake has a double layer ?",
+        "propositions": [
+          "Doubitchou",
+          "Ragoutchi",
+          "Klug",
+          "Schtonk"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » is a film directed by Jean-Marie Poiré and released in cinemas on August 25, 1982, performed by the Splendid troupe."
+      },
+      {
+        "id": 2,
+        "question": "What number does Patrick McGoohan wear in the TV series « The Prisoner » ?",
+        "propositions": [
+          "10",
+          "3",
+          "6",
+          "8"
+        ],
+        "réponse": "6",
+        "anecdote": "« The Prisoner » uses the tricks of the spy novel, tinged with science fiction, allegory and psychological drama."
+      },
+      {
+        "id": 3,
+        "question": "What is the title of George Orwell's most famous science fiction novel ?",
+        "propositions": [
+          "1894",
+          "2020",
+          "1984",
+          "2000"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell describes a Britain thirty years after a nuclear war between East and West believed to have taken place in the 1950s."
+      },
+      {
+        "id": 4,
+        "question": "Which of these professions cannot be associated with the great Leonardo da Vinci ?",
+        "propositions": [
+          "Painter",
+          "Sculptor",
+          "Dramatic Author",
+          "Botanist"
+        ],
+        "réponse": "Dramatic Author",
+        "anecdote": "Leonardo da Vinci, a universal genius, is often described as the archetype and symbol of the Renaissance man."
+      },
+      {
+        "id": 5,
+        "question": "Which American astronaut first set foot on the moon ?",
+        "propositions": [
+          "Frank Borman",
+          "James Lovell",
+          "Neil Armstrong",
+          "John Young"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "He then held a teaching position in the aerospace field and served as spokespersons on behalf of American companies."
+      },
+      {
+        "id": 6,
+        "question": "What female has the habit of eating her partner during coupling ?",
+        "propositions": [
+          "Religious Mante",
+          "Chameleon",
+          "Eel",
+          "Bee"
+        ],
+        "réponse": "Religious Mante",
+        "anecdote": "The two sexes are able to theft, but the female, weighing down the se laying, can only move thanks to her posterior legs."
+      },
+      {
+        "id": 7,
+        "question": "Who wrote the novel in which the opera of Sergei Prokofiev <i> war and peace is inspired by the operai and peace </i> ?",
+        "propositions": [
+          "Pasternak",
+          "Tolstoy",
+          "Dostoyevski",
+          "Pouchkine"
+        ],
+        "réponse": "Tolstoy",
+        "anecdote": "published in soap between 1865 and 1869 in <i> The Russian Messenger </i>, this book narrates the story of Russia at the time of Napoleon"
+      },
+      {
+        "id": 8,
+        "question": "Which of these musical instruments is not a wooden wind instrument ?",
+        "propositions": [
+          "Beak Flute",
+          "Saxophone",
+          "Hunting Horn",
+          "Flute"
+        ],
+        "réponse": "Hunting Horn",
+        "anecdote": "This ancestor of the natural horn, itself at the origin of the modern horn, is the first appearance of the horn in its modern circular configuration."
+      },
+      {
+        "id": 9,
+        "question": "In which saga of George Lucas is it question of obscure side and Jedi ?",
+        "propositions": [
+          " Alien ",
+          " Star Trek ",
+          " Star Wars ",
+          " Stargate "
+        ],
+        "réponse": " Star Wars ",
+        "anecdote": "The copyright of Star Wars was purchased in 2012 by the Walt Disney Company for more than four billion dollars."
+      },
+      {
+        "id": 10,
+        "question": "Who pronounces the famous words: <i> elementary my dear Watson </i> ?",
+        "propositions": [
+          "Maigret",
+          "Hercule Poirot",
+          "Derrick",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes is a fictional character created by Sir Arthur Conan Doyle in the detective novel <i> A study in red </i> in 1887."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which of these four chemical elements has no radioactive property ?",
+        "propositions": [
+          "Radon",
+          "Rhodium",
+          "Polonium",
+          "Uranium"
+        ],
+        "réponse": "Rhodium",
+        "anecdote": "rhodium, chemical atomic number 45, is a hard and brittle metal of the category of light platinoids."
+      },
+      {
+        "id": 12,
+        "question": "Which Gallic leader inflicted a defeat on the Roman army in 52 BC ?",
+        "propositions": [
+          "Vercingétorix",
+          "Hannibal",
+          "Scipion",
+          "Abraracourcix"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "Forgotten until the mid-19th century, his figure as a representative of Gallic civilization was widely promoted under Napoleon III."
+      },
+      {
+        "id": 13,
+        "question": "Which of these tales is not attributed to the Brothers Grimm ?",
+        "propositions": [
+          " Cinderella ",
+          " Snow White ",
+          " Tom Pouce ",
+          " The Cat Botté "
+        ],
+        "réponse": " The Cat Botté ",
+        "anecdote": "Giovanni Francesco Straparola seems to have transcribed the earliest known version of this story in his book The Facetious Nights."
+      },
+      {
+        "id": 14,
+        "question": "What was the name of the literary program hosted by Bernard Pivot until June 1990 ?",
+        "propositions": [
+          " Apostrophes ",
+          "  Ex Libris ",
+          " Parentheses ",
+          " Point To The Line "
+        ],
+        "réponse": " Apostrophes ",
+        "anecdote": "The program offered open discussions between authors on a common topic, as well as individual interviews."
+      },
+      {
+        "id": 15,
+        "question": "What a puppet played the trumpet at the end of <i> MUPET Show </i> ?",
+        "propositions": [
+          "Gonzo",
+          "Grover",
+          "Fozzie",
+          "Kermitt"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "In France, this series is at the origin of <i> Bébête Show </i>, political parody created in 1982 by Stéphane Collaro, Jean Amadou and Jean Roucas."
+      },
+      {
+        "id": 16,
+        "question": "Who painted oil on monumental canvas entitled <i> Guernica </i> ?",
+        "propositions": [
+          "Paul Gauguin",
+          "Salvador Dali",
+          "Pablo Picasso",
+          "Juan Miro"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "This monumental canvas is a committed denunciation of the bombardment of Guernica, which had just occurred on April 26, 1937."
+      },
+      {
+        "id": 17,
+        "question": "Who commanded the Carthaginian army during the Second Punic War ?",
+        "propositions": [
+          "Hjules César",
+          "Gengis Khan",
+          "Hannibal",
+          "Attila"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "This Carthaginian general and politician is generally considered one of the greatest military tacticians in history."
+      },
+      {
+        "id": 18,
+        "question": "Which artist composed the music of the Disney animated feature film <i> Tarzan </i> ?",
+        "propositions": [
+          "Phil Collins",
+          "Sting",
+          "John Williams",
+          "Vangelis"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "A sequence directly on video, <i> Tarzan 2 </i>, was given to the film in 2005, as well as a television series, <i> The legend of Tarzan </i>."
+      },
+      {
+        "id": 19,
+        "question": "What color are the flowers of the broom, sometimes also called cytise ?",
+        "propositions": [
+          "Blue",
+          "Roses",
+          "Yellow",
+          "Red"
+        ],
+        "réponse": "Yellow",
+        "anecdote": "The broom plant has long been used to make brushes and brooms. The word genêt in Breton (balan) gave rise to the French word balai."
+      },
+      {
+        "id": 20,
+        "question": "Who won all the Grand Slam tournaments in single between 1988 and 1994 ?",
+        "propositions": [
+          "Martina Navratilova",
+          "Martina Hingis",
+          "Chris Evert-Lloyd",
+          "Steffi Graf"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "Professional from 1982 to 1999, Graf won 107 titles in simple ladies, including 28 adults, including 22 Grand Slam titles."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What a holiday falling on the second Sunday in May was born in the United States in 1912 ?",
+        "propositions": [
+          "Mother's Day",
+          "President's Party",
+          "Souvenir Festival",
+          "Labor Festival"
+        ],
+        "réponse": "Mother's Day",
+        "anecdote": "On this occasion, children offer gifts to their mother, cakes or objects they have made at school or home."
+      },
+      {
+        "id": 22,
+        "question": "From which country is Rembrandt origin, great master of baroque painting ?",
+        "propositions": [
+          "Austria",
+          "Netherlands",
+          "Belgium",
+          "Germany"
+        ],
+        "réponse": "Netherlands",
+        "anecdote": "He lived during the Dutch Golden Age during which Culture, Sciences, Commerce and Politics of the Netherlands reached their peak."
+      },
+      {
+        "id": 23,
+        "question": "In what register of voice the Spanish placido Domingo sang ?",
+        "propositions": [
+          "Counter-Tenor",
+          "Tenor",
+          "Low",
+          "Baritone"
+        ],
+        "réponse": "Tenor",
+        "anecdote": "singing in Italian, French, German, Spanish, English or Russian, he occurred in the most prestigious operas around the world."
+      },
+      {
+        "id": 24,
+        "question": "On what sporting discipline reigned the American Edwin Moses from 1977 to 1987 ?",
+        "propositions": [
+          "400 M Hurdles",
+          "Length",
+          "High Jump",
+          "100 M"
+        ],
+        "réponse": "400 M Hurdles",
+        "anecdote": "Invainu over this distance between 1977 and 1987 with 122 consecutive victories, he won two Olympic titles, in 1976 and 1984."
+      },
+      {
+        "id": 25,
+        "question": "What a summit of Puy-de-Dôme is the culmination of the Massif Central ?",
+        "propositions": [
+          "Lead Of Cantal",
+          "Puy De Dôme",
+          "Puy De Sancy",
+          "Mont Lozère"
+        ],
+        "réponse": "Puy De Sancy",
+        "anecdote": "The Massif du Sancy is of great interest for its flora : there are a number of alpine species that have become very rare."
+      },
+      {
+        "id": 26,
+        "question": "In the animal classification, what family belongs to the cloport ?",
+        "propositions": [
+          "Crustaceans",
+          "Insects",
+          "Arachnids",
+          "Palmipeds"
+        ],
+        "réponse": "Crustaceans",
+        "anecdote": "During their colonization of terrestrial biotopes, they developed a strategy aimed at controlling the water losses of their organism."
+      },
+      {
+        "id": 27,
+        "question": "What a group was founded in 1955 by John Lennon, just before the Beatles ?",
+        "propositions": [
+          "The Hurricanes",
+          "The Quarrymen",
+          "The Shadows",
+          "The Cousins  ? ?"
+        ],
+        "réponse": "The Quarrymen",
+        "anecdote": "This skiffle and rock group 'N' Roll was trained in Liverpool by John Lennon during the summer of 1956 with several school friends."
+      },
+      {
+        "id": 28,
+        "question": "Behind which of these names is no animal hiding ?",
+        "propositions": [
+          "Sea Anemone",
+          "Oursin",
+          "Sea Cucumber",
+          "Varech"
+        ],
+        "réponse": "Varech",
+        "anecdote": "Varech or Goémon is made up of an indefinite mixture of brown, red or green algae, left by the withdrawal of tides."
+      },
+      {
+        "id": 29,
+        "question": "Developed in the Middle Ages, what science is heraldry the study ?",
+        "propositions": [
+          "Excavations",
+          "Gods",
+          "Coat Of Arms",
+          "Heroes"
+        ],
+        "réponse": "Coat Of Arms",
+        "anecdote": "appeared in the 12th century within chivalry, the heraldry quickly spread throughout Western society."
+      },
+      {
+        "id": 30,
+        "question": "How did we name the activist women in England at the beginning of the 20th century ?",
+        "propositions": [
+          "Coquettes",
+          "Suffragettes",
+          "Midinettes",
+          "Serpolettes"
+        ],
+        "réponse": "Suffragettes",
+        "anecdote": "The term designates, in its strict sense, the activists of Women's Social and Political Union, an organization created in 1903."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher « Père Noël est une ordure »-Kuchen hat eine doppelte Schicht ?",
+        "propositions": [
+          "Klug",
+          "Schtonk",
+          "Doubitchou",
+          "Ragoutchi"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » ist ein Film von Jean-Marie Poiré, der am 25. August 1982 in die Kinos kam und von der Truppe Splendid aufgeführt wurde."
+      },
+      {
+        "id": 2,
+        "question": "Welche Nummer trägt Patrick McGoohan in der TV-Serie « The Prisoner » ?",
+        "propositions": [
+          "6",
+          "3",
+          "10",
+          "8"
+        ],
+        "réponse": "6",
+        "anecdote": "« The Prisoner » nutzt die Tricks des Spionageromans, angereichert mit Science-Fiction, Allegorie und psychologischem Drama."
+      },
+      {
+        "id": 3,
+        "question": "Wie lautet der Titel von George Orwells berühmtestem Science-Fiction-Roman ?",
+        "propositions": [
+          "2020",
+          "2000",
+          "1894",
+          "1984"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell beschreibt ein Großbritannien dreißig Jahre nach einem Atomkrieg zwischen Ost und West, der vermutlich in den 1950er Jahren stattgefunden hat."
+      },
+      {
+        "id": 4,
+        "question": "Welche dieser Berufe kann nicht mit dem großen Leonardo da Vinci in Verbindung gebracht werden ?",
+        "propositions": [
+          "Botaniker",
+          "Maler",
+          "Dramatischer Autor",
+          "Bildhauerin"
+        ],
+        "réponse": "Dramatischer Autor",
+        "anecdote": "Leonardo da Vinci, ein universelles Genie, wird oft als das Urbild und Symbol des Renaissance-Menschen beschrieben."
+      },
+      {
+        "id": 5,
+        "question": "Welcher amerikanische Astronaut hat zum ersten Mal den Mond betreten ?",
+        "propositions": [
+          "Frank Borman",
+          "John Young",
+          "Neil Armstrong",
+          "James Lovell"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "Er hatte dann eine Lehrposition im Bereich der Luft- und Raumfahrt inne und diente als Sprecher im Auftrag amerikanischer Unternehmen."
+      },
+      {
+        "id": 6,
+        "question": "Welche Frau hat die Angewohnheit, ihren Partner während der Kupplung zu essen ?",
+        "propositions": [
+          "Chameleon",
+          "Religiöser Mante",
+          "Aal",
+          "Biene"
+        ],
+        "réponse": "Religiöser Mante",
+        "anecdote": "Die beiden Geschlechter können Diebstahl, aber das Weibchen, das die SE -Lichtung abweist, können sich nur dank ihrer hinteren Beine bewegen."
+      },
+      {
+        "id": 7,
+        "question": "Wer hat den Roman geschrieben, in dem die Oper von Sergei Prokofiev <i> Krieg und Frieden von Operai und Peace </i> inspiriert sind ?",
+        "propositions": [
+          "Dostoyevski",
+          "Tolstoy",
+          "Pasternak",
+          "Pouchkin"
+        ],
+        "réponse": "Tolstoy",
+        "anecdote": "veröffentlicht in Seife zwischen 1865 und 1869 in <i> The Russian Messenger </i>, dieses Buch erzählt die Geschichte Russlands zum Zeitpunkt des 1. Napoleons."
+      },
+      {
+        "id": 8,
+        "question": "Welches dieser Musikinstrumente ist kein Holzwindinstrument ?",
+        "propositions": [
+          "Saxophon",
+          "Jagdhorn",
+          "Flöte",
+          "Schnabelflöte"
+        ],
+        "réponse": "Jagdhorn",
+        "anecdote": "Dieser Vorfahr des natürlichen Horns, selbst am Ursprung des modernen Horns, ist das erste Erscheinungsbild des Horns in seiner modernen kreisförmigen Konfiguration."
+      },
+      {
+        "id": 9,
+        "question": "In welcher Saga von George Lucas ist es die Frage der obskuren Seite und Jedi ?",
+        "propositions": [
+          " Star Trek ",
+          " Star Wars ",
+          " Alien ",
+          " Stargate "
+        ],
+        "réponse": " Star Wars ",
+        "anecdote": "Die Urheberrechte an Star Wars wurden 2012 von der Walt Disney Company für mehr als vier Milliarden Dollar erworben."
+      },
+      {
+        "id": 10,
+        "question": "Wer spricht die berühmten Wörter aus: <i> Elementary mein lieber Watson </i> ?",
+        "propositions": [
+          "Maigret",
+          "Derrick",
+          "Sherlock Holmes",
+          "Hercule Poirot"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes ist eine fiktive Figur, die von Sir Arthur Conan Doyle im Detektivroman im Jahr 1887 erstellt wurde."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher dieser vier chemischen Elemente hat keine radioaktive Eigenschaft ?",
+        "propositions": [
+          "Radon",
+          "Polonium",
+          "Rhodium",
+          "Uran"
+        ],
+        "réponse": "Rhodium",
+        "anecdote": "Rhodium, Chemische Atomzahl 45, ist ein hartes und spröderes Metall der Kategorie leichter Platinoide."
+      },
+      {
+        "id": 12,
+        "question": "Welcher gallische Anführer fügte der römischen Armee im Jahr 52 v. Chr. eine Niederlage zu ?",
+        "propositions": [
+          "Scipion",
+          "Abraracourcix",
+          "Vercingétorix",
+          "Hannibal"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "Bis zur Mitte des 19. Jahrhunderts vergessen, wurde seine Gestalt als Vertreter der gallischen Zivilisation unter Napoleon III. stark hervorgehoben."
+      },
+      {
+        "id": 13,
+        "question": "Welches dieser Märchen wird den Brüdern Grimm nicht zugeschrieben ?",
+        "propositions": [
+          "Le Chat botté",
+          "Tom Pouce",
+          "Cendrillon",
+          "Blanche-Neige"
+        ],
+        "réponse": "Le Chat botté",
+        "anecdote": "Giovanni Francesco Straparola scheint die älteste bekannte Version dieser Geschichte in seinem Buch Die ergötzlichen Nächte niedergeschrieben zu haben."
+      },
+      {
+        "id": 14,
+        "question": "",
+        "propositions": [
+          "Apostrophes",
+          "Ex Libris",
+          "Point à la ligne",
+          "Parenthèses"
+        ],
+        "réponse": "Apostrophes",
+        "anecdote": "Die Sendung bot offene Diskussionen zwischen Autoren zu einem gemeinsamen Thema, aber auch Einzelinterviews."
+      },
+      {
+        "id": 15,
+        "question": "Was für eine Marionette spielte die Trompete am Ende von <i> mupet Show </i> ?",
+        "propositions": [
+          "Grover",
+          "Fozzie",
+          "Gonzo",
+          "Kermitt"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "In Frankreich befindet sich diese Serie am Ursprung von <i> bébête Show </i>, politische Parodie, die 1982 von Stéphane Collaro, Jean Amadou und Jean Roucas erstellt wurde."
+      },
+      {
+        "id": 16,
+        "question": "Wer hat Öl auf monumentaler Leinwand mit dem Titel <i> Guernica </i> gestrichen ?",
+        "propositions": [
+          "Juan Miro",
+          "Salvador Dali",
+          "Paul Gauguin",
+          "Pablo Picasso"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "Diese monumentale Leinwand ist eine begangene Denunziation des Bombardents von Guernica, das gerade am 26. April 1937 stattgefunden hat."
+      },
+      {
+        "id": 17,
+        "question": "Wer hat die karthagische Armee während des zweiten punischen Krieges kommandiert ?",
+        "propositions": [
+          "Gengis Khan",
+          "Attila",
+          "Hannibal",
+          "Hjules César"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "Dieser karthagische General und Politiker gilt allgemein als eine der größten militärischen Taktiker in der Geschichte."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Künstler komponierte die Musik des Disney Animations -Spielfilms <i> Tarzan </i> ?",
+        "propositions": [
+          "Vangelis",
+          "Phil Collins",
+          "John Williams",
+          "Sting"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "Eine Sequenz direkt auf Video, <i> Tarzan 2 </i>, wurde 2005 dem Film sowie eine Fernsehserie, <i> The Legend of Tarzan </i>, vergeben."
+      },
+      {
+        "id": 19,
+        "question": "Welche Farbe sind die Blumen des Besens, manchmal auch Cytise genannt ?",
+        "propositions": [
+          "Gelb",
+          "Blau",
+          "Rosen",
+          "Rot"
+        ],
+        "réponse": "Gelb",
+        "anecdote": "Der Besenginster wurde lange Zeit zur Herstellung von Bürsten und Besen verwendet. Das bretonische Wort genêt (balan) hat das französische Wort balai hervorgebracht."
+      },
+      {
+        "id": 20,
+        "question": "Wer hat zwischen 1988 und 1994 alle Grand Slam -Turniere im Single gewonnen ?",
+        "propositions": [
+          "Steffi Graf",
+          "Martina Hingis",
+          "Martina Navratilova",
+          "Chris Evert-Lloyd"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "Profi von 1982 bis 1999 gewann GRAF 107 Titel in einfachen Damen, darunter 28 Erwachsene, darunter 22 Grand Slam-Titel."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was für ein Urlaub am zweiten Sonntag im Mai wurde 1912 in den USA geboren ?",
+        "propositions": [
+          "Labour Festival",
+          "Präsidentschaftspartei",
+          "Muttertag",
+          "Souvenir Festival"
+        ],
+        "réponse": "Muttertag",
+        "anecdote": "Bei dieser Gelegenheit bieten Kinder ihre Mutter, Kuchen oder Objekte, die sie in der Schule oder zu Hause gemacht haben."
+      },
+      {
+        "id": 22,
+        "question": "Aus welchem  ? ?Land ist Rembrandt Origin, großer Meister des Barockmalerei ?",
+        "propositions": [
+          "Österreich",
+          "Belgien",
+          "Deutschland",
+          "Niederlande"
+        ],
+        "réponse": "Niederlande",
+        "anecdote": "Er lebte während des niederländischen goldenen Zeitalters, in dem Kultur, Wissenschaften, Handel und Politik der Niederlande ihren Höhepunkt erreichten."
+      },
+      {
+        "id": 23,
+        "question": "In welchem  ? ?Voice -Register sang der spanische Placido Domingo ?",
+        "propositions": [
+          "Tenor",
+          "Bariton",
+          "Gegenzerz",
+          "Low"
+        ],
+        "réponse": "Tenor",
+        "anecdote": "Singen in italienischen, französischen, deutschen, spanischen, englischen oder russischen, ereignete er sich in den angesehensten Opern der Welt."
+      },
+      {
+        "id": 24,
+        "question": "Welche sportliche Disziplin regierte die amerikanische Edwin Moses von 1977 bis 1987 ?",
+        "propositions": [
+          "400 M Hürden",
+          "Länge",
+          "Hochsprung",
+          "100 M"
+        ],
+        "réponse": "400 M Hürden",
+        "anecdote": "Invainu über diese Entfernung zwischen 1977 und 1987 mit 122 aufeinanderfolgenden Siegen gewann 1976 und 1984 zwei olympische Titel."
+      },
+      {
+        "id": 25,
+        "question": "Was für ein Gipfel von Puy-de-dôme ist der Höhepunkt des Massiv Central ?",
+        "propositions": [
+          "Puy De Dôme",
+          "Vorsprung Von Cantal",
+          "Puy De Sancy",
+          "Mont Lozère"
+        ],
+        "réponse": "Puy De Sancy",
+        "anecdote": "Der Massiv du Sancy ist für seine Flora von großem Interesse : Es gibt eine Reihe von alpinen Arten, die sehr selten geworden sind."
+      },
+      {
+        "id": 26,
+        "question": "Welche Familie gehört in der Tierklassifizierung zum Cloport ?",
+        "propositions": [
+          "Arachnids",
+          "Insekten",
+          "Palmipeds",
+          "Krustentiere"
+        ],
+        "réponse": "Krustentiere",
+        "anecdote": "Während ihrer Kolonisierung terrestrischer Biotope entwickelten sie eine Strategie zur Kontrolle der Wasserverluste ihres Organismus."
+      },
+      {
+        "id": 27,
+        "question": "Was wurde eine Gruppe 1955 von John Lennon kurz vor den Beatles gegründet ?",
+        "propositions": [
+          "Die Schatten",
+          "Die Steinbrären",
+          "Die Cousins  ? ?",
+          "Die Hurricanes"
+        ],
+        "réponse": "Die Steinbrären",
+        "anecdote": "Diese Skiffle and Rock Group 'n' Roll wurde im Sommer 1956 in Liverpool von John Lennon mit mehreren Schulfreunden ausgebildet."
+      },
+      {
+        "id": 28,
+        "question": "Nach welchem  ? ?dieser Namen versteckt sich kein Tier ?",
+        "propositions": [
+          "Oursin",
+          "Varech",
+          "Sea Gurken",
+          "Sea Anemone"
+        ],
+        "réponse": "Varech",
+        "anecdote": "Varech oder Goémon besteht aus einer unbestimmten Mischung aus braunen, roten oder grünen Algen, die durch den Rückzug der Gezeiten hinterlassen wird."
+      },
+      {
+        "id": 29,
+        "question": "Welche Wissenschaft ist im Mittelalter, welche Wissenschaft die Studie ist ?",
+        "propositions": [
+          "Ausgrabungen",
+          "Helden",
+          "Waffenschicht",
+          "Götter"
+        ],
+        "réponse": "Waffenschicht",
+        "anecdote": "erschien im 12. Jahrhundert im Ritterlichkeit, wobei sich die Heraldik in der westlichen Gesellschaft schnell ausbreitete."
+      },
+      {
+        "id": 30,
+        "question": "Wie haben wir die Aktivistenfrauen in England zu Beginn des 20. Jahrhunderts genannt ?",
+        "propositions": [
+          "Coquettes",
+          "Midinetten",
+          "Serpolettes",
+          "Suffragetten"
+        ],
+        "réponse": "Suffragetten",
+        "anecdote": "Der Begriff bezeichnet in seinem strengen Sinne die Aktivisten der Sozial- und politischen Union von Frauen, eine 1903 geschaffene Organisation."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué pastel « Père Noël est une ordure » tiene doble capa ?",
+        "propositions": [
+          "Klug",
+          "Doubitchou",
+          "Ragoutchi",
+          "Schtonk"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » es una película dirigida por Jean-Marie Poiré y estrenada en cines el 25 de agosto de 1982, interpretada por la compañía Splendid."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué número usa Patrick McGoohan en la serie de televisión « The Prisoner » ?",
+        "propositions": [
+          "8",
+          "10",
+          "3",
+          "6"
+        ],
+        "réponse": "6",
+        "anecdote": "« The Prisoner » utiliza los trucos de la novela de espías, teñidos de ciencia ficción, alegoría y drama psicológico."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál es el título de la novela de ciencia ficción más famosa de George Orwell ?",
+        "propositions": [
+          "1984",
+          "2020",
+          "2000",
+          "1894"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell describe una Gran Bretaña treinta años después de una guerra nuclear entre Oriente y Occidente que se cree tuvo lugar en los años cincuenta."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuál de estas profesiones no puede asociarse con el gran Leonardo da Vinci ?",
+        "propositions": [
+          "Botánico",
+          "Autor Dramático",
+          "Pintor",
+          "Escultor"
+        ],
+        "réponse": "Autor Dramático",
+        "anecdote": "Leonardo da Vinci, genio universal, es a menudo descrito como el arquetipo y símbolo del hombre del Renacimiento."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué astronauta estadounidense pisó por primera vez la luna ?",
+        "propositions": [
+          "James Lovell",
+          "John Young",
+          "Neil Armstrong",
+          "Frank Borman"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "Luego ocupó un puesto de enseñanza en el campo aeroespacial y se desempeñó como portavoces en nombre de las compañías estadounidenses."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué hembra tiene el hábito de comer a su pareja durante el acoplamiento ?",
+        "propositions": [
+          "Mante Religiosa",
+          "Bee",
+          "Eel",
+          "Chameleon"
+        ],
+        "réponse": "Mante Religiosa",
+        "anecdote": "Los dos sexos pueden robar, pero la mujer, que pesa por el SE, solo puede moverse gracias a sus piernas posteriores."
+      },
+      {
+        "id": 7,
+        "question": "¿Quién escribió la novela en la que la ópera de Sergei Prokofiev <i> War and Peace está inspirada en la Operai y la Paz </i> ?",
+        "propositions": [
+          "Dostoyevski",
+          "Pasternak",
+          "Tolstoy",
+          "Pouchkine"
+        ],
+        "réponse": "Tolstoy",
+        "anecdote": "Publicado en el jabón entre 1865 y 1869 en <i> el Mensajero ruso </i>, este libro narra la historia de Rusia en la época de Napoleón 1."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál de estos instrumentos musicales no es un instrumento de viento de madera ?",
+        "propositions": [
+          "Flauta",
+          "Saxofón",
+          "Flute De Pico",
+          "Cuerno De Caza"
+        ],
+        "réponse": "Cuerno De Caza",
+        "anecdote": "Este antepasado del cuerno natural, en sí mismo en el origen del cuerno moderno, es la primera aparición del cuerno en su configuración circular moderna."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué saga de George Lucas se trata de un lado oscuro y Jedi ?",
+        "propositions": [
+          " Star Wars ",
+          " Star Trek ",
+          " Stargate ",
+          " Alien "
+        ],
+        "réponse": " Star Wars ",
+        "anecdote": "Los derechos de autor de Star Wars fueron comprados en 2012 por The Walt Disney Company por más de cuatro mil millones de dólares."
+      },
+      {
+        "id": 10,
+        "question": "¿Quién pronuncia las palabras famosas: <i> Elemental mi querido Watson </i> ?",
+        "propositions": [
+          "Maigret",
+          "Hercule Poirot",
+          "Sherlock Holmes",
+          "Derrick"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes es un personaje ficticio creado por Sir Arthur Conan Doyle en la novela de detective <i> un estudio en rojo </i> en 1887."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál de estos cuatro elementos químicos no tiene propiedad radiactiva ?",
+        "propositions": [
+          "Polonio",
+          "Uranio",
+          "Rodium",
+          "Radón"
+        ],
+        "réponse": "Rodium",
+        "anecdote": "Rodium, Número Atómico Químico 45, es un metal duro y frágil de la categoría de platinoides de luz."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué jefe galo infligió una derrota al ejército romano en el 52 a. C. ?",
+        "propositions": [
+          "Abraracourcix",
+          "Vercingétorix",
+          "Hannibal",
+          "Scipion"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "Olvidado hasta mediados del siglo XIX, su figura como representante de la civilización gala fue ampliamente resaltada bajo Napoleón III."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál de estos cuentos no se atribuye a los hermanos Grimm ?",
+        "propositions": [
+          " Cinderella ",
+          " Tom Pouce ",
+          " Blancanieves ",
+          " El Gato Botté "
+        ],
+        "réponse": " El Gato Botté ",
+        "anecdote": "Giovanni Francesco Straparola parece haber transcrito la versión más antigua conocida de esta historia en su libro Las noches agradables."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál era el nombre del programa literario organizado por Bernard Pivot hasta junio de 1990 ?",
+        "propositions": [
+          " Parentales ",
+          " Señala La Línea ",
+          " Apostrophes ",
+          "  Ex Libris "
+        ],
+        "réponse": " Apostrophes ",
+        "anecdote": "El programa proponía discusiones abiertas entre autores sobre un tema común, así como entrevistas individuales."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué títere tocó la trompeta al final del show de <i> Mupet </i> ?",
+        "propositions": [
+          "Grover",
+          "Fozzie",
+          "Kermitt",
+          "Gonzo"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "En Francia, esta serie está en el origen de <i> bébête show </i>, parodia política creada en 1982 por Stéphane Collaro, Jean Amoadou y Jean Rucas."
+      },
+      {
+        "id": 16,
+        "question": "¿Quién pintó aceite en lienzo monumental titulado <i> Guernica </i> ?",
+        "propositions": [
+          "Juan Miro",
+          "Paul Gauguin",
+          "Salvador Dali",
+          "Pablo Picasso"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "Este lienzo monumental es una denuncia comprometida del bombardeo de Guernica, que acababa de ocurrir el 26 de abril de 1937."
+      },
+      {
+        "id": 17,
+        "question": "¿Quién ordenó al ejército cartaginés durante la Segunda Guerra Púnica ?",
+        "propositions": [
+          "Hannibal",
+          "Atila",
+          "Gengis Khan",
+          "Hjules César"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "Este general cartaginés y político generalmente se considera uno de los mayores tácticos militares de la historia."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué artista compuso la música del largometraje animado de Disney <i> Tarzan </i> ?",
+        "propositions": [
+          "Sting",
+          "Vangelis",
+          "John Williams",
+          "Phil Collins"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "Una secuencia directamente en el video, <i> Tarzan 2 </i>, se dio a la película en 2005, así como una serie de televisión, <i> La leyenda de Tarzan </i>."
+      },
+      {
+        "id": 19,
+        "question": "¿De qué color son las flores de la escoba, a veces también se llaman citización ?",
+        "propositions": [
+          "Azul",
+          "Amarillo",
+          "Rosas",
+          "Red"
+        ],
+        "réponse": "Amarillo",
+        "anecdote": "La retama se ha utilizado durante mucho tiempo para fabricar cepillos y escobas. La palabra genêt en bretón (balan) dio origen a la palabra francesa balai."
+      },
+      {
+        "id": 20,
+        "question": "¿Quién ganó todos los torneos de Grand Slam en sencillo entre 1988 y 1994 ?",
+        "propositions": [
+          "Steffi Graf",
+          "Martina Hingis",
+          "Chris Evert-Lloyd",
+          "Martina Navratilova"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "Profesional de 1982 a 1999, Graf ganó 107 títulos en damas simples, incluidos 28 adultos, incluidos 22 títulos de Grand Slam."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué festivos cayendo el segundo domingo de mayo nació en los Estados Unidos en 1912 ?",
+        "propositions": [
+          "Partido Del Presidente",
+          "Día De La Madre",
+          "Festival De Recuerdos",
+          "Festival Laborista"
+        ],
+        "réponse": "Día De La Madre",
+        "anecdote": ", en esta ocasión, los niños ofrecen regalos a su madre, pasteles u objetos que han hecho en la escuela o en el hogar."
+      },
+      {
+        "id": 22,
+        "question": "¿De qué país es el origen Rembrandt, gran maestro de la pintura barroca ?",
+        "propositions": [
+          "Austria",
+          "Alemania",
+          "Bélgica",
+          "Países Bajos"
+        ],
+        "réponse": "Países Bajos",
+        "anecdote": "Vivió durante la Edad de Oro holandesa durante la cual la cultura, las ciencias, el comercio y la política de los Países Bajos alcanzaron su apogeo."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué Registro de Voz del Domingo español Sang ?",
+        "propositions": [
+          "Barítono",
+          "Tenor",
+          "Bajo",
+          "Contra-Tenor"
+        ],
+        "réponse": "Tenor",
+        "anecdote": "Cantando en italiano, francés, alemán, español, inglés o ruso, ocurrió en las óperas más prestigiosas del mundo."
+      },
+      {
+        "id": 24,
+        "question": "¿Sobre qué disciplina deportiva reinó el estadounidense Edwin Moses de 1977 a 1987 ?",
+        "propositions": [
+          "400 M Obstáculos",
+          "100 M",
+          "Jump",
+          "Longitud"
+        ],
+        "réponse": "400 M Obstáculos",
+        "anecdote": "Invainu sobre esta distancia entre 1977 y 1987 con 122 victorias consecutivas, ganó dos títulos olímpicos, en 1976 y 1984."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué cumbre de Puy-de-Dôme es la culminación del Massif Central ?",
+        "propositions": [
+          "Puy De Dôme",
+          "Lead Del Cantal",
+          "Puy De Sancy",
+          "Mont Lozère"
+        ],
+        "réponse": "Puy De Sancy",
+        "anecdote": "El Masivo Du Sancy es de gran interés para su flora : hay una serie de especies alpinas que se han vuelto muy raras."
+      },
+      {
+        "id": 26,
+        "question": "En la clasificación de animales, ¿qué familia pertenece al Cloport ?",
+        "propositions": [
+          "Crustáceos",
+          "Palmipeds",
+          "Arácnidos",
+          "Insectos"
+        ],
+        "réponse": "Crustáceos",
+        "anecdote": "Durante su colonización de biotopos terrestres, desarrollaron una estrategia destinada a controlar las pérdidas de agua de su organismo."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué grupo fue fundado en 1955 por John Lennon, justo antes de los Beatles ?",
+        "propositions": [
+          "Los Primos",
+          "Los Huracanes",
+          "Las Sombras",
+          "The Quarrymen"
+        ],
+        "réponse": "The Quarrymen",
+        "anecdote": "Este skiffle y el grupo de rock 'n' roll fue entrenado en Liverpool por John Lennon durante el verano de 1956 con varios amigos de la escuela."
+      },
+      {
+        "id": 28,
+        "question": "¿Detrás de cuál de estos nombres no se esconde animales ?",
+        "propositions": [
+          "Cepino De Mar",
+          "Varech",
+          "Anémona De Mar",
+          "Oursin"
+        ],
+        "réponse": "Varech",
+        "anecdote": "Varech o Goémon está compuesto por una mezcla indefinida de algas marrones, rojas o verdes, dejadas por la retirada de las mareas."
+      },
+      {
+        "id": 29,
+        "question": "Desarrollado en la Edad Media, ¿qué ciencia es la heráldica el estudio ?",
+        "propositions": [
+          "Héroes",
+          "Excavaciones",
+          "Cubo De Armas",
+          "Dioses"
+        ],
+        "réponse": "Cubo De Armas",
+        "anecdote": "apareció en el siglo XII dentro de la caballería, la heráldica se extendió rápidamente por toda la sociedad occidental."
+      },
+      {
+        "id": 30,
+        "question": "¿Cómo nombramos a las mujeres activistas en Inglaterra a principios del siglo XX ?",
+        "propositions": [
+          "Coquettes",
+          "Sufregettes",
+          "Midinettes",
+          "Serpolettes"
+        ],
+        "réponse": "Sufregettes",
+        "anecdote": "El término designa, en su sentido estricto, los activistas de la unión social y política de las mujeres, una organización creada en 1903."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale torta « Père Noël est une ordure » ha un doppio strato ?",
+        "propositions": [
+          "Ragoutchi",
+          "Klug",
+          "Schtonk",
+          "Doubitchou"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » è un film diretto da Jean-Marie Poiré e uscito nelle sale il 25 agosto 1982, interpretato dalla troupe Splendid."
+      },
+      {
+        "id": 2,
+        "question": "Che numero indossa Patrick McGoohan nella serie TV « The Prisoner » ?",
+        "propositions": [
+          "10",
+          "6",
+          "3",
+          "8"
+        ],
+        "réponse": "6",
+        "anecdote": "« The Prisoner » utilizza i trucchi del romanzo di spionaggio, con sfumature di fantascienza, allegoria e dramma psicologico."
+      },
+      {
+        "id": 3,
+        "question": "Qual è il titolo del più famoso romanzo di fantascienza di George Orwell ?",
+        "propositions": [
+          "1984",
+          "2000",
+          "2020",
+          "1894"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell descrive una Gran Bretagna trent'anni dopo una guerra nucleare tra Est e Ovest che si ritiene abbia avuto luogo negli anni '50."
+      },
+      {
+        "id": 4,
+        "question": "Quale di queste professioni non può essere associata al grande Leonardo da Vinci ?",
+        "propositions": [
+          "Botanico",
+          "Pittore",
+          "Autore Drammatico",
+          "Scultore"
+        ],
+        "réponse": "Autore Drammatico",
+        "anecdote": "Leonardo da Vinci, genio universale, è spesso descritto come l'archetipo e il simbolo dell'uomo del Rinascimento."
+      },
+      {
+        "id": 5,
+        "question": "Quale astronauta americano ha messo piede per la prima volta sulla luna ?",
+        "propositions": [
+          "Neil Armstrong",
+          "James Lovell",
+          "John Young",
+          "Frank Borman"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "Ha quindi ricoperto una posizione di insegnamento nel campo aerospaziale e ha lavorato come portavoce per conto delle società americane."
+      },
+      {
+        "id": 6,
+        "question": "Quale femmina ha l'abitudine di mangiare il suo partner durante l'accoppiamento ?",
+        "propositions": [
+          "Camaleonte",
+          "Eel",
+          "Religious Mante",
+          "Bee"
+        ],
+        "réponse": "Religious Mante",
+        "anecdote": "i due sessi sono in grado di furto, ma la femmina, appesantita la posa SE, può solo muoversi grazie alle sue gambe posteriori."
+      },
+      {
+        "id": 7,
+        "question": "Chi ha scritto il romanzo in cui l'opera di Sergei Prokofiev <i> War and Peace è ispirato all'operai e alla pace </i> ?",
+        "propositions": [
+          "Pouchkine",
+          "Dostooyevski",
+          "Tolstoy",
+          "Pasternak"
+        ],
+        "réponse": "Tolstoy",
+        "anecdote": "pubblicato nel sapone tra il 1865 e il 1869 in <i> The Russian Messenger </i>, questo libro racconta la storia della Russia al momento del 1 ° Napoleone."
+      },
+      {
+        "id": 8,
+        "question": "Quale di questi strumenti musicali non è uno strumento a fiato in legno ?",
+        "propositions": [
+          "Hunting Horn",
+          "Flauto",
+          "Sassofono",
+          "Flauto A Becco"
+        ],
+        "réponse": "Hunting Horn",
+        "anecdote": "Questo antenato del corno naturale, a sua volta all'origine del corno moderno, è la prima apparizione del corno nella sua moderna configurazione circolare."
+      },
+      {
+        "id": 9,
+        "question": "In quale saga di George Lucas è questione di oscuro lato e Jedi ?",
+        "propositions": [
+          " Stargate ",
+          " Star Trek ",
+          " Star Wars ",
+          " Alien "
+        ],
+        "réponse": " Star Wars ",
+        "anecdote": "I diritti d'autore di Star Wars sono stati acquistati nel 2012 dalla Walt Disney Company per oltre quattro miliardi di dollari."
+      },
+      {
+        "id": 10,
+        "question": "Chi pronuncia le famose parole: <i> Elementare mio caro Watson </i> ?",
+        "propositions": [
+          "Derrick",
+          "Hercule Poirot",
+          "Maigret",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes è un personaggio immaginario creato da Sir Arthur Conan Doyle nel romanzo investigativo <i> Uno studio in rosso </i> nel 1887."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale di questi quattro elementi chimici non ha proprietà radioattive ?",
+        "propositions": [
+          "Radon",
+          "Uranio",
+          "Rhodium",
+          "Polonio"
+        ],
+        "réponse": "Rhodium",
+        "anecdote": "Rhodium, numero atomico chimico 45, è un metallo duro e fragile della categoria di platinoidi luce."
+      },
+      {
+        "id": 12,
+        "question": "Quale capo gallico inflisse una sconfitta all'esercito romano nel 52 a.C. ?",
+        "propositions": [
+          "Hannibal",
+          "Abraracourcix",
+          "Scipion",
+          "Vercingétorix"
+        ],
+        "réponse": "Vercingétorix",
+        "anecdote": "Dimenticato fino a metà del XIX secolo, la sua figura di rappresentante della civiltà gallica fu ampiamente valorizzata sotto Napoleone III."
+      },
+      {
+        "id": 13,
+        "question": "Quale di queste fiabe non è attribuita ai fratelli Grimm ?",
+        "propositions": [
+          " Bianco Di Neve ",
+          " The Cat Botté ",
+          " Cenerentola ",
+          " Tom Pouce "
+        ],
+        "réponse": " The Cat Botté ",
+        "anecdote": "Giovanni Francesco Straparola sembra aver trascritto la versione più antica conosciuta di questa storia nel suo libro Le piacevoli notti."
+      },
+      {
+        "id": 14,
+        "question": "Qual era il nome del programma letterario ospitato da Bernard Pivot fino al giugno 1990 ?",
+        "propositions": [
+          " Punta Alla Linea ",
+          " Apostrofi ",
+          " Parentesi ",
+          "  Ex Libris "
+        ],
+        "réponse": " Apostrofi ",
+        "anecdote": "Il programma proponeva discussioni aperte tra autori su un argomento comune, ma anche interviste individuali."
+      },
+      {
+        "id": 15,
+        "question": "Cosa ha suonato un burattino alla tromba alla fine di <i> Mupet Show </i> ?",
+        "propositions": [
+          "Grover",
+          "Gonzo",
+          "Kermitt",
+          "Fozzie"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "in Francia, questa serie è all'origine di <i> Bébête Show </i>, parodia politica creata nel 1982 da Stéphane Collaro, Jean Amadou e Jean Roucas."
+      },
+      {
+        "id": 16,
+        "question": "Chi ha dipinto olio su tela monumentale intitolata <i> Guernica </i> ?",
+        "propositions": [
+          "Paul Gauguin",
+          "Juan Miro",
+          "Salvador Dali",
+          "Pablo Picasso"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "Questa monumentale tela è una denuncia impegnata del bombardamento di Guernica, che si era appena verificata il 26 aprile 1937."
+      },
+      {
+        "id": 17,
+        "question": "Chi comandava l'esercito cartaginiano durante la seconda guerra punica ?",
+        "propositions": [
+          "Hjules César",
+          "Hannibal",
+          "Gengis Khan",
+          "Attila"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "Questo generale e politico Cartaginiano sono generalmente considerati uno dei più grandi tattici militari della storia."
+      },
+      {
+        "id": 18,
+        "question": "Quale artista ha composto la musica del film d'animazione Disney <i> Tarzan </i> ?",
+        "propositions": [
+          "Vangelis",
+          "Sting",
+          "Phil Collins",
+          "John Williams"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "Una sequenza direttamente sul video, <i> Tarzan 2 </i>, è stata data al film nel 2005, nonché una serie televisiva, <i> La leggenda di Tarzan </i>."
+      },
+      {
+        "id": 19,
+        "question": "Di che colore sono i fiori della scopa, a volte chiamati anche Citizza ?",
+        "propositions": [
+          "Rosso",
+          "Blu",
+          "Rose",
+          "Giallo"
+        ],
+        "réponse": "Giallo",
+        "anecdote": "La ginestra è stata a lungo utilizzata per fare spazzole e scope. La parola genêt in bretone (balan) ha dato origine alla parola francese balai."
+      },
+      {
+        "id": 20,
+        "question": "Chi ha vinto tutti i tornei del Grande Slam in singolo tra il 1988 e il 1994 ?",
+        "propositions": [
+          "Chris Evert-Lloyd",
+          "Martina Navratilova",
+          "Martina Hingis",
+          "Steffi Graf"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "professionista dal 1982 al 1999, Graf ha vinto 107 titoli in donne semplici, tra cui 28 adulti, tra cui 22 titoli del Grand Slam."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Che vacanza che cade la seconda domenica di maggio è nata negli Stati Uniti nel 1912 ?",
+        "propositions": [
+          "Festival Di Souvenir",
+          "Festival Del Lavoro",
+          "Festa Della Mamma",
+          "Partito Del Presidente"
+        ],
+        "réponse": "Festa Della Mamma",
+        "anecdote": "In questa occasione, i bambini offrono regali alla madre, alle torte o agli oggetti che hanno fatto a scuola o a casa."
+      },
+      {
+        "id": 22,
+        "question": "Da quale paese è Rembrandt Origin, grande maestro di pittura barocca ?",
+        "propositions": [
+          "Austria",
+          "Germania",
+          "Paesi Bassi",
+          "Belgio"
+        ],
+        "réponse": "Paesi Bassi",
+        "anecdote": "ha vissuto durante l'età d'oro olandese durante la quale cultura, scienze, commercio e politica dei Paesi Bassi hanno raggiunto l'apice."
+      },
+      {
+        "id": 23,
+        "question": "In quale registro di voce cantava il placido spagnolo Domingo ?",
+        "propositions": [
+          "Basso",
+          "Controtenor",
+          "Tenore",
+          "Baritono"
+        ],
+        "réponse": "Tenore",
+        "anecdote": "cantando in italiano, francese, tedesco, spagnolo, inglese o russo, si è verificato nelle opere più prestigiose del mondo."
+      },
+      {
+        "id": 24,
+        "question": "Su quale disciplina sportiva regnò l'American Edwin Moses dal 1977 al 1987 ?",
+        "propositions": [
+          "Salto In Alto",
+          "400 M Ostacoli",
+          "100 M",
+          "Lunghezza"
+        ],
+        "réponse": "400 M Ostacoli",
+        "anecdote": "innoinu su questa distanza tra il 1977 e il 1987 con 122 vittorie consecutive, ha vinto due titoli olimpici, nel 1976 e nel 1984."
+      },
+      {
+        "id": 25,
+        "question": "Che cima di PUY-DE-Dôme è il culmine del Massif Central ?",
+        "propositions": [
+          "Puy De Sancy",
+          "Piombo Di Cantal",
+          "Mont Lozère",
+          "Puy De Dôme"
+        ],
+        "réponse": "Puy De Sancy",
+        "anecdote": "il massiccio di Santancy è di grande interesse per la sua flora : ci sono un certo numero di specie alpine che sono diventate molto rare."
+      },
+      {
+        "id": 26,
+        "question": "Nella classificazione degli animali, quale famiglia appartiene al cloport ?",
+        "propositions": [
+          "Aracnidi",
+          "Insetti",
+          "Palmipeds",
+          "Crostacei"
+        ],
+        "réponse": "Crostacei",
+        "anecdote": "Durante la loro colonizzazione di biotopi terrestri, hanno sviluppato una strategia volta a controllare le perdite d'acqua del loro organismo."
+      },
+      {
+        "id": 27,
+        "question": "Che gruppo fu fondato nel 1955 da John Lennon, poco prima dei Beatles ?",
+        "propositions": [
+          "The Shadows",
+          "The Quarrymen",
+          "I Cugini",
+          "The Hurricanes"
+        ],
+        "réponse": "The Quarrymen",
+        "anecdote": "Questo gruppo di skiffle e rock 'n' roll fu addestrato a Liverpool da John Lennon durante l'estate del 1956 con diversi amici della scuola."
+      },
+      {
+        "id": 28,
+        "question": "Dietro quale di questi nomi non si nasconde animali ?",
+        "propositions": [
+          "Varech",
+          "Cetriolo Di Mare",
+          "Oursin",
+          "Sea Anemone"
+        ],
+        "réponse": "Varech",
+        "anecdote": "Varech o Goémon è costituito da una miscela indefinita di alghe marroni, rosse o verdi, lasciate dal ritiro delle maree."
+      },
+      {
+        "id": 29,
+        "question": "Sviluppato nel Medioevo, quale scienza è araldica ?",
+        "propositions": [
+          "Eroi",
+          "Gods",
+          "Coat Of Arms",
+          "Scavazioni"
+        ],
+        "réponse": "Coat Of Arms",
+        "anecdote": "è apparso nel XII secolo all'interno della cavalleria, l'araldica si è rapidamente diffusa in tutta la società occidentale."
+      },
+      {
+        "id": 30,
+        "question": "Come abbiamo nominato le donne attiviste in Inghilterra all'inizio del 20 ° secolo ?",
+        "propositions": [
+          "Coquettes",
+          "Suffragettes",
+          "Serpolettes",
+          "Midinettes"
+        ],
+        "réponse": "Suffragettes",
+        "anecdote": "Il termine designa, nel suo senso stretto, gli attivisti dell'Unione sociale e politica delle donne, un'organizzazione creata nel 1903."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke « Père Noël est une ordure » cake heeft een dubbele laag ?",
+        "propositions": [
+          "Doubitchou",
+          "Schtonk",
+          "Ragoutchi",
+          "Klug"
+        ],
+        "réponse": "Klug",
+        "anecdote": "« Le père Noël est une ordure » is een film geregisseerd door Jean-Marie Poiré en uitgebracht in de bioscopen op 25 augustus 1982, uitgevoerd door de Splendid-groep."
+      },
+      {
+        "id": 2,
+        "question": "Welk nummer draagt Patrick McGoohan in de tv-serie « The Prisoner » ?",
+        "propositions": [
+          "8",
+          "6",
+          "10",
+          "3"
+        ],
+        "réponse": "6",
+        "anecdote": "« The Prisoner » gebruikt de trucs van de spionageroman, doorspekt met sciencefiction, allegorie en psychologisch drama."
+      },
+      {
+        "id": 3,
+        "question": "Wat is de titel van de beroemdste sciencefictionroman van George Orwell ?",
+        "propositions": [
+          "2020",
+          "1894",
+          "1984",
+          "2000"
+        ],
+        "réponse": "1984",
+        "anecdote": "Orwell beschrijft een Groot-Brittannië dertig jaar na een nucleaire oorlog tussen Oost en West die vermoedelijk in de jaren vijftig heeft plaatsgevonden."
+      },
+      {
+        "id": 4,
+        "question": "Welke van deze beroepen kunnen niet worden geassocieerd met de grote Leonardo da Vinci ?",
+        "propositions": [
+          "Botanist",
+          "Dramatische Auteur",
+          "Schilder",
+          "Beeldhouwer"
+        ],
+        "réponse": "Dramatische Auteur",
+        "anecdote": "Leonardo da Vinci, een universeel genie, wordt vaak beschreven als het archetype en symbool van de renaissancemens."
+      },
+      {
+        "id": 5,
+        "question": "Welke Amerikaanse astronaut zette eerst voet op de maan ?",
+        "propositions": [
+          "John Young",
+          "Frank Borman",
+          "Neil Armstrong",
+          "James Lovell"
+        ],
+        "réponse": "Neil Armstrong",
+        "anecdote": "Hij bekleedde vervolgens een onderwijspositie in het gebied van ruimtevaart en diende als woordvoerders namens Amerikaanse bedrijven."
+      },
+      {
+        "id": 6,
+        "question": "Welke vrouw heeft de gewoonte om haar partner te eten tijdens het koppelen ?",
+        "propositions": [
+          "Religieuze Mante",
+          "Kameleon",
+          "Paling",
+          "Bij"
+        ],
+        "réponse": "Religieuze Mante",
+        "anecdote": "De twee geslachten kunnen diefstal, maar het vrouwtje, dat de SE -liggen weegt, kan alleen bewegen dankzij haar achterpoten."
+      },
+      {
+        "id": 7,
+        "question": "Wie schreef de roman waarin de opera van Sergei Prokofiev <i> oorlog en vrede is geïnspireerd door de opera en vrede </i> ?",
+        "propositions": [
+          "Tolstoy",
+          "Dostoyevski",
+          "Pouchkine",
+          "Pasternak"
+        ],
+        "réponse": "Tolstoy",
+        "anecdote": "gepubliceerd in SOAP tussen 1865 en 1869 in <i> The Russian Messenger </i>, vertelt dit boek het verhaal van Rusland ten tijde van Napoleon 1e."
+      },
+      {
+        "id": 8,
+        "question": "Welke van deze muziekinstrumenten is geen houten windinstrument ?",
+        "propositions": [
+          "Jagende Hoorn",
+          "Snakfluit",
+          "Saxofoon",
+          "Fluit"
+        ],
+        "réponse": "Jagende Hoorn",
+        "anecdote": "Deze voorouder van de natuurlijke hoorn, zelf bij de oorsprong van de moderne hoorn, is de eerste verschijning van de hoorn in zijn moderne cirkelvormige configuratie."
+      },
+      {
+        "id": 9,
+        "question": "In welke saga van George Lucas is het een kwestie van obscure kant en Jedi ?",
+        "propositions": [
+          " Star Wars ",
+          " Alien ",
+          " Stargate ",
+          " Star Trek "
+        ],
+        "réponse": " Star Wars ",
+        "anecdote": "De auteursrechten van Star Wars werden in 2012 gekocht door The Walt Disney Company voor meer dan vier miljard dollar."
+      },
+      {
+        "id": 10,
+        "question": "Wie spreekt de beroemde woorden uit: <i> Elementair mijn beste Watson </i> ?",
+        "propositions": [
+          "Hercule Poirot",
+          "Sherlock Holmes",
+          "Derrick",
+          "Maigret"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes is een fictief personage gecreëerd door Sir Arthur Conan Doyle in de detective -roman <i> Een onderzoek in rood </i> in 1887."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke van deze vier chemische elementen heeft geen radioactieve eigenschap ?",
+        "propositions": [
+          "Rhodium",
+          "Polonium",
+          "Radon",
+          "Uranium"
+        ],
+        "réponse": "Rhodium",
+        "anecdote": "Rhodium, chemisch atoomnummer 45, is een hard en bros metaal van de categorie lichte platinoïden."
+      },
+      {
+        "id": 12,
+        "question": "Welke Gallische leider bracht het Romeinse leger in 52 v.Chr. een nederlaag toe ?",
+        "propositions": [
+          "",
+          "Hannibal",
+          "Scipion",
+          ""
+        ],
+        "réponse": "",
+        "anecdote": "Tot het midden van de 19e eeuw vergeten, werd zijn figuur als vertegenwoordiger van de Gallische beschaving sterk naar voren gebracht onder Napoleon III."
+      },
+      {
+        "id": 13,
+        "question": "Welk van deze sprookjes wordt niet aan de gebroeders Grimm toegeschreven ?",
+        "propositions": [
+          " The Cat Botté ",
+          " Tom Pouce ",
+          " Assepoesterla ",
+          " Sneeuwwitje "
+        ],
+        "réponse": " The Cat Botté ",
+        "anecdote": "Giovanni Francesco Straparola lijkt de oudst bekende versie van dit verhaal te hebben opgeschreven in zijn boek De vermakelijke nachten."
+      },
+      {
+        "id": 14,
+        "question": "Wat was de naam van het literaire programma georganiseerd door Bernard Pivot tot juni 1990 ?",
+        "propositions": [
+          " Haakjes ",
+          " Wijs Naar De Lijn ",
+          "  Ex Bibliotheek ",
+          " Apostrofes "
+        ],
+        "réponse": " Apostrofes ",
+        "anecdote": "Het programma bood open gesprekken tussen auteurs over een gemeenschappelijk thema, maar ook individuele interviews."
+      },
+      {
+        "id": 15,
+        "question": "Wat een pop speelde de trompet aan het einde van <i> Mupet Show </i> ?",
+        "propositions": [
+          "Fozzie",
+          "Kermitt",
+          "Grover",
+          "Gonzo"
+        ],
+        "réponse": "Gonzo",
+        "anecdote": "In Frankrijk bevindt deze serie de oorsprong van <i> Bébête Show </i>, politieke parodie gecreëerd in 1982 door Stéphane Collaro, Jean Amadou en Jean Roucas."
+      },
+      {
+        "id": 16,
+        "question": "Wie schilderde olie op monumentale canvas getiteld <i> Guernica </i> ?",
+        "propositions": [
+          "Paul Gauguin",
+          "Juan Miro",
+          "Pablo Picasso",
+          "Salvador Dali"
+        ],
+        "réponse": "Pablo Picasso",
+        "anecdote": "Dit monumentale canvas is een toegewijde opzegging van het bombardement van Guernica, dat net had plaatsgevonden op 26 april 1937."
+      },
+      {
+        "id": 17,
+        "question": "Wie beval het Carthaagse leger tijdens de tweede Punische oorlog ?",
+        "propositions": [
+          "Attila",
+          "Hjules César",
+          "Gengis Khan",
+          "Hannibal"
+        ],
+        "réponse": "Hannibal",
+        "anecdote": "Deze Carthaagse generaal en politicus wordt over het algemeen beschouwd als een van de grootste militaire tactieken in de geschiedenis."
+      },
+      {
+        "id": 18,
+        "question": "Welke artiest componeerde de muziek van de Disney -animatiefilm <i> Tarzan </i> ?",
+        "propositions": [
+          "Vangelis",
+          "Sting",
+          "John Williams",
+          "Phil Collins"
+        ],
+        "réponse": "Phil Collins",
+        "anecdote": "Een reeks rechtstreeks op video, <i> Tarzan 2 </i>, werd in 2005 aan de film gegeven, evenals een televisieserie, <i> The Legend of Tarzan </i>."
+      },
+      {
+        "id": 19,
+        "question": "Welke kleur zijn de bloemen van de bezem, soms ook wel cytise genoemd ?",
+        "propositions": [
+          "Rood",
+          "Geel",
+          "Rozen",
+          "Blauw"
+        ],
+        "réponse": "Geel",
+        "anecdote": "De brem is lange gebruikt om borstels en bezems te maken. Het Bretonse woord genêt (balan) heeft het Franse woord balai voortgebracht."
+      },
+      {
+        "id": 20,
+        "question": "Wie won alle Grand Slam -toernooien in single tussen 1988 en 1994 ?",
+        "propositions": [
+          "Martina Navratilova",
+          "Chris Evert-Lloyd",
+          "Martina Hingis",
+          "Steffi Graf"
+        ],
+        "réponse": "Steffi Graf",
+        "anecdote": "professional van 1982 tot 1999 won Graf 107 titels in eenvoudige dames, waaronder 28 volwassenen, waaronder 22 Grand Slam-titels."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat een vakantie die op de tweede zondag in mei viel, werd in 1912 in de Verenigde Staten geboren ?",
+        "propositions": [
+          "Moederdag",
+          "Labour Festival",
+          "President's Party",
+          "Souvenir Festival"
+        ],
+        "réponse": "Moederdag",
+        "anecdote": "Aan deze gelegenheid bieden kinderen geschenken aan hun moeder, cakes of objecten die ze op school of thuis hebben gemaakt."
+      },
+      {
+        "id": 22,
+        "question": "Van welk land is Rembrandt oorsprong, grote meester van barokschilderkunst ?",
+        "propositions": [
+          "Nederland",
+          "Duitsland",
+          "België",
+          "Oostenrijk"
+        ],
+        "réponse": "Nederland",
+        "anecdote": "Hij leefde tijdens de Nederlandse gouden eeuw gedurende welke cultuur, wetenschappen, handel en politiek van Nederland hun piek bereikten."
+      },
+      {
+        "id": 23,
+        "question": "In welk stemregister zong de Spaanse Placido Domingo ?",
+        "propositions": [
+          "Low",
+          "Counter-Tenor",
+          "Bariton",
+          "Tenor"
+        ],
+        "réponse": "Tenor",
+        "anecdote": "Zingend in het Italiaans, Frans, Duits, Spaans, Engels of Russisch, vond hij plaats in de meest prestigieuze opera's over de hele wereld."
+      },
+      {
+        "id": 24,
+        "question": "Op welke sportdiscipline regeerde de Amerikaanse Edwin Moses van 1977 tot 1987 ?",
+        "propositions": [
+          "Lengte",
+          "Hoogspringen",
+          "100 M",
+          "400 M Hindernissen"
+        ],
+        "réponse": "400 M Hindernissen",
+        "anecdote": "vingu over deze afstand tussen 1977 en 1987 met 122 opeenvolgende overwinningen, won hij twee Olympische titels, in 1976 en 1984."
+      },
+      {
+        "id": 25,
+        "question": "Wat een top van Puy-de-Dôme is het hoogtepunt van het Massif Central ?",
+        "propositions": [
+          "Puy De Dôme",
+          "Mont Lozère",
+          "Puy De Sancy",
+          "Lood Van Cantal"
+        ],
+        "réponse": "Puy De Sancy",
+        "anecdote": "De massifu is van groot belang voor zijn flora : er zijn een aantal alpinesoorten die zeer zeldzaam zijn geworden."
+      },
+      {
+        "id": 26,
+        "question": "Welke familie behoort bij de dierenclassificatie tot de Cloport ?",
+        "propositions": [
+          "Palmipeds",
+          "Arachniden",
+          "Insecten",
+          "Crustaceans"
+        ],
+        "réponse": "Crustaceans",
+        "anecdote": "Tijdens hun kolonisatie van terrestrische biotopen ontwikkelden ze een strategie die gericht was op het beheersen van de waterverliezen van hun organisme."
+      },
+      {
+        "id": 27,
+        "question": "Wat een groep werd in 1955 opgericht door John Lennon, net voor de Beatles ?",
+        "propositions": [
+          "De Neven",
+          "De Schaduwen",
+          "De Orkanen",
+          "De Steengroevers"
+        ],
+        "réponse": "De Steengroevers",
+        "anecdote": "Deze skiffle en rockgroep 'n' roll werd in de zomer van 1956 in Liverpool getraind door John Lennon met verschillende schoolvrienden."
+      },
+      {
+        "id": 28,
+        "question": "Achter welke van deze namen verstopt geen dieren ?",
+        "propositions": [
+          "Zeekomkommer",
+          "Onze",
+          "Varech",
+          "Zeeanemoon"
+        ],
+        "réponse": "Varech",
+        "anecdote": "varech of goémon bestaat uit een onbepaald mengsel van bruine, rode of groene algen, achtergelaten door de terugtrekking van getijden."
+      },
+      {
+        "id": 29,
+        "question": "Ontwikkeld in de middeleeuwen, welke wetenschap is heraldiek de studie ?",
+        "propositions": [
+          "Wapenschild",
+          "Goden",
+          "Helden",
+          "Opgravingen"
+        ],
+        "réponse": "Wapenschild",
+        "anecdote": "verschenen in de 12e eeuw binnen de ridderlijkheid, de heraldiek verspreidde zich snel over de westerse samenleving."
+      },
+      {
+        "id": 30,
+        "question": "Hoe hebben we aan het begin van de 20e eeuw de activistische vrouwen in Engeland genoemd ?",
+        "propositions": [
+          "Suffragettes",
+          "Kuquettes",
+          "Midinettes",
+          "Serpolettes"
+        ],
+        "réponse": "Suffragettes",
+        "anecdote": "De term duidt in strikte zin in de activisten van de sociale en politieke unie van vrouwen, een organisatie op die in 1903 is opgericht."
+      }
+    ]
+    }
+  }
+}

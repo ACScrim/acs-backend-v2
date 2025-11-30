@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Alexandre Verfaillie",       
+  "difficulté": "4 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-11-12",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sports",
+      "nom": "Planche à voile",
+      "slogan": "Embarcation à voile minimaliste"
+    },
+    "en": {
+      "catégorie": "Sports",
+      "nom": "Zeilplank",
+      "slogan": "Minimalist sailing boat"
+    },
+    "es": {
+      "catégorie": "Deportes",
+      "nom": "Windsurf",
+      "slogan": "Velero minimalista"
+    },
+    "it": {
+      "catégorie": "Gli sport",
+      "nom": "Tavola a vela",
+      "slogan": "Barca a vela minimalista"
+    },
+    "de": {
+      "catégorie": "Sport",
+      "nom": "Segelbrett",
+      "slogan": "Minimalistisches Segelboot"
+    },
+    "nl": {
+      "catégorie": "Sport",
+      "nom": "Zeilplank",
+      "slogan": "Minimalistische zeilboot"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel appareil permet de mesurer la vitesse ou la pression du vent ?",
+        "propositions": [
+          "Thermomètre",
+          "Baromètre",
+          "Boussole",
+          "Anémomètre"
+        ],
+        "réponse": "Anémomètre",
+        "anecdote": "Instrument indispensable en météorologie, l'anémomètre, qui mesure la force du vent, est aussi essentiel pour les planchistes."
+      },
+      {
+        "id": 2,
+        "question": "Quel sport nautique combine à la fois glisse et voile ?",
+        "propositions": [
+          "Windsurf",
+          "Kitesurf",
+          "Surf",
+          "Voile"
+        ],
+        "réponse": "Windsurf",
+        "anecdote": "Ce type d'embarcation à voile minimaliste est aussi le sport de glisse pratiqué avec cette embarcation."
+      },
+      {
+        "id": 3,
+        "question": "Quelle manoeuvre de changement de direction s'effectue en planche à voile ?",
+        "propositions": [
+          "Tack",
+          "Jibe",
+          "Carve",
+          "Loop"
+        ],
+        "réponse": "Jibe",
+        "anecdote": "Pratique alliant la vitesse, l'habileté et la stratégie dans les manoeuvres, le slalom se pratique sur un parcours en W."
+      },
+      {
+        "id": 4,
+        "question": "Quel type de voile est utilisé par les planchistes lors de vents forts ?",
+        "propositions": [
+          "Voile de slalom",
+          "Voile de wave",
+          "Voile de race",
+          "Voile de freestyle"
+        ],
+        "réponse": "Voile de slalom",
+        "anecdote": "Le champion du monde de slalom en titre est le Français Pierre Mortefon, qui a succédé à Antoine Albeau (FRA 192)."
+      },
+      {
+        "id": 5,
+        "question": "Quel virage gracieux est pratiqué sur les vagues en planche à voile ?",
+        "propositions": [
+          "Spin",
+          "Carve",
+          "Jump",
+          "Slide"
+        ],
+        "réponse": "Carve",
+        "anecdote": "La Starboard Carve est une planche de freeride facile et accessible, disponible en quatre nouvelles tailles sur le modèle 2022."
+      },
+      {
+        "id": 6,
+        "question": "Quel matériau est principalement utilisé pour fabriquer des planches à voile ?",
+        "propositions": [
+          "Bois",
+          "Aluminium",
+          "Plastique",
+          "Fibre de carbone"
+        ],
+        "réponse": "Fibre de carbone",
+        "anecdote": "De nouveaux matériaux sont de plus en plus utilisés pour améliorer la légèreté et la résistance, au détriment d'un coût plus élevé."
+      },
+      {
+        "id": 7,
+        "question": "Quel élément permet de contrôler la direction en planche à voile ?",
+        "propositions": [
+          "Aileron",
+          "Foil",
+          "Voile",
+          "Dérive"
+        ],
+        "réponse": "Aileron",
+        "anecdote": "Sa profondeur, son épaisseur et sa forme, voire leur nombre sur certains flotteurs doivent être adapté au programme de navigation."
+      },
+      {
+        "id": 8,
+        "question": "Quelle est la position de base standard en planche à voile ?",
+        "propositions": [
+          "Accroupi",
+          "Assis",
+          "Debout",
+          "Allongé"
+        ],
+        "réponse": "Debout",
+        "anecdote": "La planche à voile se caractérise par la position debout de son pratiquant et par l'absence de gouvernail et d'écoutes."
+      },
+      {
+        "id": 9,
+        "question": "Quel accessoire permet de soulager l'effort physique en planche à voile ?",
+        "propositions": [
+          "Combinaison",
+          "Gilet de sauvetage",
+          "Casque",
+          "Harnais"
+        ],
+        "réponse": "Harnais",
+        "anecdote": "L'invention du harnais, qui permet de maîtriser une voile plus grande, marque une transition entre ancienne et nouvelle pratique."
+      },
+      {
+        "id": 10,
+        "question": "Dans quel pays la planche à voile a-t-elle été inventée dans les années 1960 ?",
+        "propositions": [
+          "Brésil",
+          "États-Unis",
+          "Australie",
+          "France"
+        ],
+        "réponse": "États-Unis",
+        "anecdote": "C'est en fait un jeune Anglais, Peter Chilvers, qui esquissa au début des années 1960 une sorte d'ancêtre de la planche à voile."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Comment appelle-t-on une personne pratiquant la planche à voile ?",
+        "propositions": [
+          "Véliplanchiste",
+          "Voiliste",
+          "Planiste",
+          "Plancheur"
+        ],
+        "réponse": "Véliplanchiste",
+        "anecdote": "C'est le véliplanchiste qui soulève puis maintient le mât et la voile en position active, s'orientant sur l'eau en inclinant le gréement."
+      },
+      {
+        "id": 12,
+        "question": "Combien de voiles un planchiste peut-il utiliser durant une compétition ?",
+        "propositions": [
+          "Une",
+          "Quatre",
+          "Trois",
+          "Deux"
+        ],
+        "réponse": "Trois",
+        "anecdote": "Il existe aujourd'hui de nombreuses compétitions, comme par exemple l'European Funboard expression dans le Sud de la France."
+      },
+      {
+        "id": 13,
+        "question": "Quelle manoeuvre consiste à faire tourner la planche autour de son axe ?",
+        "propositions": [
+          "Frontloop",
+          "Backloop",
+          "Rotation",
+          "Loop"
+        ],
+        "réponse": "Rotation",
+        "anecdote": "Les flotteurs de vagues sont alors courts, avec peu de volume, existant en 1, 2, 3 ou 4 ailerons, et sont très manoeuvrants."
+      },
+      {
+        "id": 14,
+        "question": "Quelle est à ce jour la vitesse record réalisée en planche à voile ?",
+        "propositions": [
+          "83 noeuds",
+          "63 noeuds",
+          "53 noeuds",
+          "73 noeuds"
+        ],
+        "réponse": "53 noeuds",
+        "anecdote": "Le record de vitesse en planche à voile est détenu par Antoine Albeau, son record actuel de 53,27 noeuds ayant été réalisé en 2015."
+      },
+      {
+        "id": 15,
+        "question": "Quel est l'un des principaux dangers rencontrés en planche à voile ?",
+        "propositions": [
+          "Requin",
+          "Méduse",
+          "Chute",
+          "Vent faible"
+        ],
+        "réponse": "Chute",
+        "anecdote": "Les voiles de vague présentent la particularité d'être renforcées pour supporter les chutes violentes et la force des vagues."
+      },
+      {
+        "id": 16,
+        "question": "Quelle technique permet de remonter le vent en planche à voile ?",
+        "propositions": [
+          "Sidewind",
+          "Downwind",
+          "Upwind",
+          "Crosswind"
+        ],
+        "réponse": "Upwind",
+        "anecdote": "La planche à voile au vent est une technique de base qui permet aux planchistes de naviguer d'où vient le vent."
+      },
+      {
+        "id": 17,
+        "question": "Quelle discipline permet aux riders d'exprimer leur créativité ?",
+        "propositions": [
+          "Slalom",
+          "Raceboard",
+          "Freestyle",
+          "Formula Windsurfing"
+        ],
+        "réponse": "Freestyle",
+        "anecdote": "Le freestyle existe depuis l'invention de la planche à voile, mais a connu un renouveau important à l'approche des années 2000."
+      },
+      {
+        "id": 18,
+        "question": "Quelle vitesse de vent est recommandée pour pratiquer la planche à voile ?",
+        "propositions": [
+          "Environ 40 noeuds",
+          "Environ 30 noeuds",
+          "Environ 10 noeuds",
+          "Environ 20 noeuds"
+        ],
+        "réponse": "Environ 10 noeuds",
+        "anecdote": "Pour les plus expérimentés, des gammes de flotteurs sont adaptées à toutes les pratiques, à toutes les conditions de vent et de mer."
+      },
+      {
+        "id": 19,
+        "question": "Quel système de fixation relie la voile à la planche à voile ?",
+        "propositions": [
+          "Rudder",
+          "Mast",
+          "Wishbone",
+          "Boom"
+        ],
+        "réponse": "Wishbone",
+        "anecdote": "Appelé ainsi en référence à l'os de poulet, le wishbone est une double-bôme, qui se fixe sur le mât par une poignée automatique."
+      },
+      {
+        "id": 20,
+        "question": "Dans quelle direction fait-on face lors d'un jibe en planche à voile ?",
+        "propositions": [
+          "Face au soleil",
+          "Sous le vent",
+          "Face au vent",
+          "Latéralement"
+        ],
+        "réponse": "Face au vent",
+        "anecdote": "Le jibe (empannage) doit être maîtrisé pour pouvoir effectuer un demi-tour dans l'urgence, comme une vague ou une mousse."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle est la longueur des planches à voile de course olympique ?",
+        "propositions": [
+          "Environ 3 mètres",
+          "Environ 5 mètres",
+          "Environ 4 mètres",
+          "Environ 6 mètres"
+        ],
+        "réponse": "Environ 4 mètres",
+        "anecdote": "Depuis 2005, la planche support des JO a été modifiée dans l'idée de rapprocher ce matériel de celui plus performant du Formula."
+      },
+      {
+        "id": 22,
+        "question": "Quelle technique permet de surfer sur des vagues générées par un bateau ?",
+        "propositions": [
+          "Foiling",
+          "Surf towing",
+          "Wave riding",
+          "Tow-in"
+        ],
+        "réponse": "Tow-in",
+        "anecdote": "Le tow-in est une technique particulière et spécifique à la planche à voile pour surfer sur des vagues générées par un bateau."
+      },
+      {
+        "id": 23,
+        "question": "Lequel de ces pays est le plus titré en planche à voile aux Jeux olympiques ?",
+        "propositions": [
+          "Australie",
+          "Pays-Bas",
+          "France",
+          "États-Unis"
+        ],
+        "réponse": "Pays-Bas",
+        "anecdote": "Le programme olympique de la Voile, initialement mixte, se compose désormais d'une grande majorité d'épreuves par sexe."
+      },
+      {
+        "id": 24,
+        "question": "Laquelle de ces marques propose des planches à voile de haute performance ?",
+        "propositions": [
+          "NeilPryde",
+          "Rip Curl",
+          "Quiksilver",
+          "Billabong"
+        ],
+        "réponse": "NeilPryde",
+        "anecdote": "Sa première réalisation de gréement pour des planches à voile olympiques remonte à la Lechner A-390, dessinée en 1987."
+      },
+      {
+        "id": 25,
+        "question": "Quelle compétition de planche à voile se déroule chaque année à Hawaii ?",
+        "propositions": [
+          "PWA World Tour",
+          "Red Bull Storm Chase",
+          "Aloha Classic",
+          "Windsurf World Cup"
+        ],
+        "réponse": "Aloha Classic",
+        "anecdote": "Levi Siver, windsurfeur professionnel américain reconnu mondialement, a plusieurs fois remporté le trophée Aloha Classic."
+      },
+      {
+        "id": 26,
+        "question": "Quelle est la discipline de planche à voile la plus populaire ?",
+        "propositions": [
+          "Slalom",
+          "Wave",
+          "Formula",
+          "Freeride"
+        ],
+        "réponse": "Freeride",
+        "anecdote": "Les voiles de freeride proposent un compromis entre performances des voiles de race, maniabilité et facilité d'utilisation."
+      },
+      {
+        "id": 27,
+        "question": "Quelle est la longueur approximative d'un mât de planche à voile ?",
+        "propositions": [
+          "Environ 2 mètres",
+          "Environ 5 mètres",
+          "Environ 3 mètres",
+          "Environ 4 mètres"
+        ],
+        "réponse": "Environ 4 mètres",
+        "anecdote": "D'une longueur comprise entre 3,40 et 5,80 mètres échelonnée tous les 30 cm, le mât est un cône en fibre de verre ou en carbone."
+      },
+      {
+        "id": 28,
+        "question": "Qui est le champion du monde en titre de planche à voile ?",
+        "propositions": [
+          "Philip Köster",
+          "Antoine Albeau",
+          "Sarah-Quita Offringa",
+          "Ricardo Campello"
+        ],
+        "réponse": "Antoine Albeau",
+        "anecdote": "Sacré Marin de l'année 2010 par la Fédération française de voile, Antoine Albeau possède l'un des plus grands palmarès de la voile."
+      },
+      {
+        "id": 29,
+        "question": "Quel type de planche à voile est conçu pour surfer sur les vagues ?",
+        "propositions": [
+          "Waveboard",
+          "Slalomboard",
+          "Formula board",
+          "Freerideboard"
+        ],
+        "réponse": "Waveboard",
+        "anecdote": "Le wakeboard est un sport nautique qui apparaît au début des années 1980 après l'avènement du skiboard (désormais snowboard)."
+      },
+      {
+        "id": 30,
+        "question": "Quelle technologie permet de voler au-dessus de l'eau en planche à voile ?",
+        "propositions": [
+          "Foiling",
+          "Flying",
+          "Floating",
+          "Jumping"
+        ],
+        "réponse": "Foiling",
+        "anecdote": "En 2011, grâce à la marque AHD, les planches à voiles avec foil (Windfoil) apparaissent mais gardent un prix très élevé."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which device can measure wind speed or pressure ?",
+        "propositions": [
+          "Compass",
+          "Barometer",
+          "Thermometer",
+          "Anemometer"
+        ],
+        "réponse": "Anemometer",
+        "anecdote": "An essential instrument in meteorology, the anemometer, which measures the strength of the wind, is also essential for snowboarders."
+      },
+      {
+        "id": 2,
+        "question": "Which water sport combines both sliding and sailing ?",
+        "propositions": [
+          "Kitesurfing",
+          "Surfing",
+          "Windsurfing",
+          "Sailing"
+        ],
+        "réponse": "Windsurfing",
+        "anecdote": "This type of minimalist sailing boat is also the sliding sport practiced with this boat."
+      },
+      {
+        "id": 3,
+        "question": "What change of direction maneuver is performed when windsurfing ?",
+        "propositions": [
+          "Jibe",
+          "Loop",
+          "carves",
+          "tak"
+        ],
+        "réponse": "Jibe",
+        "anecdote": "A practical combination of speed, skill and maneuvering strategy, slalom is practiced on a W-shaped course."
+      },
+      {
+        "id": 4,
+        "question": "What type of sail is used by windsurfers in strong winds ?",
+        "propositions": [
+          "Veil race",
+          "Freestyle sail",
+          "wave sail",
+          "Slalom sail"
+        ],
+        "réponse": "Slalom sail",
+        "anecdote": "The reigning slalom world champion is Frenchman Pierre Mortefon, who succeeded Antoine Albeau (FRA 192)."
+      },
+      {
+        "id": 5,
+        "question": "What graceful turn is practiced on the waves in windsurfing ?",
+        "propositions": [
+          "Spin",
+          "Slide",
+          "Jump",
+          "carves"
+        ],
+        "réponse": "carves",
+        "anecdote": "The Starboard Carve is an easy and accessible freeride board, available in four new sizes on the 2022 model."
+      },
+      {
+        "id": 6,
+        "question": "What material is mainly used to make windsurf boards ?",
+        "propositions": [
+          "Carbon fiber",
+          "Aluminum",
+          "Wood",
+          "Plastic"
+        ],
+        "réponse": "Carbon fiber",
+        "anecdote": "New materials are increasingly being used to improve lightness and strength, at the expense of higher cost."
+      },
+      {
+        "id": 7,
+        "question": "Which element controls the direction in windsurfing ?",
+        "propositions": [
+          "Fin",
+          "foil",
+          "Sailing",
+          "Drift"
+        ],
+        "réponse": "Fin",
+        "anecdote": "Its depth, its thickness and its shape, even their number on certain floats must be adapted to the navigation program."
+      },
+      {
+        "id": 8,
+        "question": "What is the standard basic position in windsurfing ?",
+        "propositions": [
+          "Standing",
+          "Seated",
+          "Crouched",
+          "Lying"
+        ],
+        "réponse": "Standing",
+        "anecdote": "Windsurfing is characterized by the standing position of its practitioner and by the absence of a rudder and sheets."
+      },
+      {
+        "id": 9,
+        "question": "What accessory relieves physical effort when windsurfing ?",
+        "propositions": [
+          "Helmet",
+          "Harness",
+          "Combination",
+          "Life jacket"
+        ],
+        "réponse": "Harness",
+        "anecdote": "The invention of the harness, which made it possible to control a larger sail, marked a transition between old and new practice."
+      },
+      {
+        "id": 10,
+        "question": "In which country was windsurfing invented in the 1960s ?",
+        "propositions": [
+          "Australia",
+          "United States",
+          "France",
+          "Brazil"
+        ],
+        "réponse": "United States",
+        "anecdote": "It was in fact a young Englishman, Peter Chilvers, who sketched out a sort of ancestor of windsurfing in the early 1960s."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What do you call a person who practices windsurfing ?",
+        "propositions": [
+          "sailboat",
+          "Plank",
+          "Planner",
+          "Windsurfer"
+        ],
+        "réponse": "Windsurfer",
+        "anecdote": "It is the windsurfer who raises and then holds the mast and the sail in the active position, orienting themselves on the water by tilting the rig."
+      },
+      {
+        "id": 12,
+        "question": "How many sails can a rider use during a competition ?",
+        "propositions": [
+          "Two",
+          "A",
+          "Four",
+          "Three"
+        ],
+        "réponse": "Three",
+        "anecdote": "Today there are many competitions, such as the European Funboard expression in the South of France."
+      },
+      {
+        "id": 13,
+        "question": "What maneuver involves rotating the board around its axis ?",
+        "propositions": [
+          "Front loop",
+          "Loop",
+          "Backloop",
+          "rotate"
+        ],
+        "réponse": "rotate",
+        "anecdote": "The wave floats are then short, with little volume, existing in 1, 2, 3 or 4 fins, and are very manoeuvrable."
+      },
+      {
+        "id": 14,
+        "question": "What is the record speed achieved in windsurfing to date ?",
+        "propositions": [
+          "73 knots",
+          "53 knots",
+          "63 knots",
+          "83 knots"
+        ],
+        "réponse": "53 knots",
+        "anecdote": "The windsurfing speed record is held by Antoine Albeau, his current record of 53.27 knots having been achieved in 2015."
+      },
+      {
+        "id": 15,
+        "question": "What is one of the main dangers encountered in windsurfing ?",
+        "propositions": [
+          "Fall",
+          "Shark",
+          "Weak wind",
+          "jellyfish"
+        ],
+        "réponse": "Fall",
+        "anecdote": "Wave sails have the particularity of being reinforced to withstand violent falls and the force of the waves."
+      },
+      {
+        "id": 16,
+        "question": "What technique allows you to go upwind in windsurfing ?",
+        "propositions": [
+          "Crosswind",
+          "Upwind",
+          "Downwind",
+          "side wind"
+        ],
+        "réponse": "Upwind",
+        "anecdote": "Windsurfing is a basic technique that allows riders to navigate where the wind is coming from."
+      },
+      {
+        "id": 17,
+        "question": "Which discipline allows riders to express their creativity ?",
+        "propositions": [
+          "Formula Windsurfing",
+          "Freestyling",
+          "Raceboard",
+          "Slalom"
+        ],
+        "réponse": "Freestyling",
+        "anecdote": "Freestyle has been around since the invention of windsurfing, but saw a major revival as the 2000s approached."
+      },
+      {
+        "id": 18,
+        "question": "What wind speed is recommended for windsurfing ?",
+        "propositions": [
+          "About 10 knots",
+          "About 40 knots",
+          "About 30 knots",
+          "About 20 knots"
+        ],
+        "réponse": "About 10 knots",
+        "anecdote": "For the more experienced, ranges of floats are suitable for all practices, all wind and sea conditions."
+      },
+      {
+        "id": 19,
+        "question": "What attachment system connects the sail to the windsurf board ?",
+        "propositions": [
+          "boom",
+          "rudder",
+          "Wishbone",
+          "mast"
+        ],
+        "réponse": "Wishbone",
+        "anecdote": "Named in reference to the chicken bone, the boom is a double boom, which is fixed to the mast by an automatic handle."
+      },
+      {
+        "id": 20,
+        "question": "Which direction do you face when jibing in windsurfing ?",
+        "propositions": [
+          "Laterally",
+          "Leeward",
+          "Facing the wind",
+          "Facing the sun"
+        ],
+        "réponse": "Facing the wind",
+        "anecdote": "The jibe (jibe) must be mastered in order to be able to perform an emergency U-turn, like a wave or a foam."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What is the length of Olympic racing windsurf boards ?",
+        "propositions": [
+          "About 6 meters",
+          "About 3 meters",
+          "About 4 meters",
+          "About 5 meters"
+        ],
+        "réponse": "About 4 meters",
+        "anecdote": "Since 2005, the support board of the Olympics has been modified with the idea of bringing this material closer to that of the more efficient Formula."
+      },
+      {
+        "id": 22,
+        "question": "What technique allows surfing on waves generated by a boat ?",
+        "propositions": [
+          "wave riding",
+          "Foiling",
+          "surf towing",
+          "tow-in"
+        ],
+        "réponse": "tow-in",
+        "anecdote": "The tow-in is a particular technique specific to windsurfing to surf on waves generated by a boat."
+      },
+      {
+        "id": 23,
+        "question": "Which of these countries is the most successful in windsurfing at the Olympics ?",
+        "propositions": [
+          "Australia",
+          "Netherlands",
+          "United States",
+          "France"
+        ],
+        "réponse": "Netherlands",
+        "anecdote": "The Olympic Sailing programme, initially mixed, now consists of a large majority of events per gender."
+      },
+      {
+        "id": 24,
+        "question": "Which of these brands offers high performance windsurf boards ?",
+        "propositions": [
+          "NeilPryde",
+          "billabong",
+          "Rip Curl",
+          "Quiksilver"
+        ],
+        "réponse": "NeilPryde",
+        "anecdote": "His first rig achievement for Olympic windsurfers dates back to the Lechner A-390, designed in 1987."
+      },
+      {
+        "id": 25,
+        "question": "What windsurfing competition is held each year in Hawaii ?",
+        "propositions": [
+          "Windsurfing World Cup",
+          "Aloha Classic",
+          "Red Bull Storm Chase",
+          "PWA World Tour"
+        ],
+        "réponse": "Aloha Classic",
+        "anecdote": "Levi Siver, a world-renowned American professional windsurfer, has won the Aloha Classic trophy several times."
+      },
+      {
+        "id": 26,
+        "question": "What is the most popular windsurfing discipline ?",
+        "propositions": [
+          "Freeriding",
+          "Slalom",
+          "Formula",
+          "wave"
+        ],
+        "réponse": "Freeriding",
+        "anecdote": "Freeride sails offer a compromise between the performance of race sails, maneuverability and ease of use."
+      },
+      {
+        "id": 27,
+        "question": "What is the approximate length of a windsurf mast ?",
+        "propositions": [
+          "About 3 meters",
+          "About 2 meters",
+          "About 5 meters",
+          "About 4 meters"
+        ],
+        "réponse": "About 4 meters",
+        "anecdote": "With a length of between 3.40 and 5.80 meters staggered every 30 cm, the mast is a fiberglass or carbon cone."
+      },
+      {
+        "id": 28,
+        "question": "Who is the reigning windsurfing world champion ?",
+        "propositions": [
+          "Antoine Albeau",
+          "Philip Koster",
+          "Ricardo Campello",
+          "Sarah Quita Offringa"
+        ],
+        "réponse": "Antoine Albeau",
+        "anecdote": "Sailor of the Year 2010 by the French Sailing Federation, Antoine Albeau has one of the greatest records in sailing."
+      },
+      {
+        "id": 29,
+        "question": "What type of windsurf board is designed for surfing the waves ?",
+        "propositions": [
+          "wave board",
+          "Formula board",
+          "Slalomboarding",
+          "freeriding"
+        ],
+        "réponse": "wave board",
+        "anecdote": "Wakeboarding is a water sport that appeared in the early 1980s after the advent of skiboarding (now snowboarding)."
+      },
+      {
+        "id": 30,
+        "question": "What technology makes it possible to fly over water in windsurfing ?",
+        "propositions": [
+          "Flying",
+          "jumping",
+          "floating",
+          "Foiling"
+        ],
+        "réponse": "Foiling",
+        "anecdote": "In 2011, thanks to the AHD brand, windsurfing boards with foil (Windfoil) appeared but kept a very high price."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Gerät kann Windgeschwindigkeit oder Winddruck messen ?",
+        "propositions": [
+          "Kompass",
+          "Thermometer",
+          "Anemometer",
+          "Barometer"
+        ],
+        "réponse": "Anemometer",
+        "anecdote": "Als unverzichtbares Instrument der Meteorologie ist das Anemometer, das die Stärke des Windes misst, auch für Snowboarder unverzichtbar."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Wassersport kombiniert Rutschen und Segeln ?",
+        "propositions": [
+          "Windsurfen",
+          "Kitesurfen",
+          "Surfen",
+          "Segeln"
+        ],
+        "réponse": "Windsurfen",
+        "anecdote": "Diese Art von minimalistischem Segelboot ist auch der mit diesem Boot ausgeübte Gleitsport."
+      },
+      {
+        "id": 3,
+        "question": "Welches Richtungswechselmanöver wird beim Windsurfen durchgeführt ?",
+        "propositions": [
+          "Halse",
+          "schnitzt",
+          "Schleife",
+          "nimm"
+        ],
+        "réponse": "Halse",
+        "anecdote": "Slalom ist eine praktische Kombination aus Geschwindigkeit, Geschicklichkeit und Manövrierstrategie und wird auf einer W-förmigen Strecke geübt."
+      },
+      {
+        "id": 4,
+        "question": "Welchen Segeltyp nutzen Windsurfer bei starkem Wind ?",
+        "propositions": [
+          "Wellensegel",
+          "Freestyle-Segel",
+          "Schleierrennen",
+          "Slalomsegel"
+        ],
+        "réponse": "Slalomsegel",
+        "anecdote": "Der amtierende Slalom-Weltmeister ist der Franzose Pierre Mortefon, der die Nachfolge von Antoine Albeau (FRA 192) antrat."
+      },
+      {
+        "id": 5,
+        "question": "Welche anmutige Wendung wird beim Windsurfen auf den Wellen geübt ?",
+        "propositions": [
+          "schnitzt",
+          "Drehen",
+          "Folie",
+          "Springen"
+        ],
+        "réponse": "schnitzt",
+        "anecdote": "Das Starboard Carve ist ein einfaches und zugängliches Freeride-Board, das beim Modell 2022 in vier neuen Größen erhältlich ist."
+      },
+      {
+        "id": 6,
+        "question": "Aus welchem Material werden hauptsächlich Windsurfbretter hergestellt ?",
+        "propositions": [
+          "Holz",
+          "Aluminium",
+          "Kohlefaser",
+          "Kunststoff"
+        ],
+        "réponse": "Kohlefaser",
+        "anecdote": "Zur Verbesserung der Leichtigkeit und Festigkeit werden zunehmend neue Materialien eingesetzt, allerdings auf Kosten höherer Kosten."
+      },
+      {
+        "id": 7,
+        "question": "Welches Element bestimmt die Richtung beim Windsurfen ?",
+        "propositions": [
+          "Drift",
+          "Flosse",
+          "Segeln",
+          "Folie"
+        ],
+        "réponse": "Flosse",
+        "anecdote": "Seine Tiefe, seine Dicke und seine Form, bei bestimmten Schwimmkörpern sogar deren Anzahl, müssen an das Navigationsprogramm angepasst werden."
+      },
+      {
+        "id": 8,
+        "question": "Was ist die Standard-Grundposition beim Windsurfen ?",
+        "propositions": [
+          "Sitzend",
+          "Lügen",
+          "Stehend",
+          "Geduckt"
+        ],
+        "réponse": "Stehend",
+        "anecdote": "Windsurfen zeichnet sich durch die stehende Position des Sportlers und das Fehlen von Ruder und Schoten aus."
+      },
+      {
+        "id": 9,
+        "question": "Welches Zubehör erleichtert die körperliche Anstrengung beim Windsurfen ?",
+        "propositions": [
+          "Geschirr",
+          "Schwimmweste",
+          "Helm",
+          "Kombination"
+        ],
+        "réponse": "Geschirr",
+        "anecdote": "Die Erfindung des Gurtzeugs, das die Kontrolle eines größeren Segels ermöglichte, markierte einen Übergang zwischen alter und neuer Praxis."
+      },
+      {
+        "id": 10,
+        "question": "In welchem Land wurde das Windsurfen in den 1960er Jahren erfunden ?",
+        "propositions": [
+          "Australien",
+          "Frankreich",
+          "Vereinigte Staaten",
+          "Brasilien"
+        ],
+        "réponse": "Vereinigte Staaten",
+        "anecdote": "Tatsächlich war es ein junger Engländer, Peter Chilvers, der Anfang der 1960er Jahre eine Art Vorläufer des Windsurfens entwarf."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie nennt man eine Person, die Windsurfen betreibt ?",
+        "propositions": [
+          "Planke",
+          "Windsurfer",
+          "Planer",
+          "Segelboot"
+        ],
+        "réponse": "Windsurfer",
+        "anecdote": "Es ist der Windsurfer, der den Mast und das Segel anhebt und dann in der aktiven Position hält, wobei er sich durch Neigen des Riggs am Wasser ausrichtet."
+      },
+      {
+        "id": 12,
+        "question": "Wie viele Segel kann ein Fahrer während eines Wettbewerbs verwenden ?",
+        "propositions": [
+          "A",
+          "Zwei",
+          "Drei",
+          "Vier"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Heutzutage gibt es viele Wettbewerbe, wie zum Beispiel den European Funboard Expression in Südfrankreich."
+      },
+      {
+        "id": 13,
+        "question": "Bei welchem Manöver wird das Brett um die eigene Achse gedreht ?",
+        "propositions": [
+          "Backloop",
+          "drehen",
+          "Vordere Schlaufe",
+          "Schleife"
+        ],
+        "réponse": "drehen",
+        "anecdote": "Die Wellenschwimmer sind dann kurz, haben wenig Volumen, bestehen aus 1, 2, 3 oder 4 Flossen und sind sehr wendig."
+      },
+      {
+        "id": 14,
+        "question": "Welche Rekordgeschwindigkeit wurde bisher beim Windsurfen erreicht ?",
+        "propositions": [
+          "73 Knoten",
+          "53 Knoten",
+          "63 Knoten",
+          "83 Knoten"
+        ],
+        "réponse": "53 Knoten",
+        "anecdote": "Der Windsurf-Geschwindigkeitsrekord wird von Antoine Albeau gehalten, sein aktueller Rekord von 53,27 Knoten wurde 2015 aufgestellt."
+      },
+      {
+        "id": 15,
+        "question": "Was ist eine der größten Gefahren beim Windsurfen ?",
+        "propositions": [
+          "Qualle",
+          "Herbst",
+          "Schwacher Wind",
+          "Hai"
+        ],
+        "réponse": "Herbst",
+        "anecdote": "Wellensegel haben die Besonderheit, dass sie verstärkt sind, um heftigen Stürzen und der Kraft der Wellen standzuhalten."
+      },
+      {
+        "id": 16,
+        "question": "Mit welcher Technik kann man beim Windsurfen gegen den Wind gehen ?",
+        "propositions": [
+          "Seitenwind",
+          "Gegen den Wind",
+          "Gegen den Wind",
+          "Seitenwind"
+        ],
+        "réponse": "Gegen den Wind",
+        "anecdote": "Windsurfen ist eine grundlegende Technik, die es dem Fahrer ermöglicht, dorthin zu navigieren, woher der Wind kommt."
+      },
+      {
+        "id": 17,
+        "question": "In welcher Disziplin können Fahrer ihrer Kreativität freien Lauf lassen ?",
+        "propositions": [
+          "Formel Windsurfen",
+          "Rennbrett",
+          "Slalom",
+          "Freestyle"
+        ],
+        "réponse": "Freestyle",
+        "anecdote": "Freestyle gibt es seit der Erfindung des Windsurfens, erlebte jedoch in den 2000er Jahren ein großes Revival."
+      },
+      {
+        "id": 18,
+        "question": "Welche Windgeschwindigkeit wird zum Windsurfen empfohlen ?",
+        "propositions": [
+          "Ungefähr 20 Knoten",
+          "Ungefähr 10 Knoten",
+          "Ungefähr 30 Knoten",
+          "Ungefähr 40 Knoten"
+        ],
+        "réponse": "Ungefähr 10 Knoten",
+        "anecdote": "Für Fortgeschrittene gibt es verschiedene Schwimmkörper, die für alle Übungen und alle Wind- und Seebedingungen geeignet sind."
+      },
+      {
+        "id": 19,
+        "question": "Welches Befestigungssystem verbindet das Segel mit dem Windsurfbrett ?",
+        "propositions": [
+          "Ruder",
+          "Mast",
+          "Querlenker",
+          "Boom"
+        ],
+        "réponse": "Querlenker",
+        "anecdote": "Der in Anlehnung an den Hühnerknochen benannte Gabelbaum ist ein Doppelbaum, der über einen automatischen Griff am Mast befestigt wird."
+      },
+      {
+        "id": 20,
+        "question": "In welche Richtung blickst du beim Halsen beim Windsurfen ?",
+        "propositions": [
+          "Dem Wind zugewandt",
+          "Seitlich",
+          "Leeward",
+          "Der Sonne zugewandt"
+        ],
+        "réponse": "Dem Wind zugewandt",
+        "anecdote": "Die Halse (Halse) muss beherrscht werden, um eine Notwende, wie eine Welle oder einen Schaum, durchführen zu können."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie lang sind olympische Renn-Windsurfbretter ?",
+        "propositions": [
+          "Ungefähr 5 Meter",
+          "Ungefähr 3 Meter",
+          "Ungefähr 6 Meter",
+          "Ungefähr 4 Meter"
+        ],
+        "réponse": "Ungefähr 4 Meter",
+        "anecdote": "Seit 2005 wurde das Unterstützungsgremium der Olympischen Spiele mit der Idee geändert, dieses Material dem der effizienteren Formel anzunähern."
+      },
+      {
+        "id": 22,
+        "question": "Welche Technik ermöglicht das Surfen auf Wellen, die von einem Boot erzeugt werden ?",
+        "propositions": [
+          "Surfschleppen",
+          "Abschleppdienst",
+          "Wellenreiten",
+          "Folierung"
+        ],
+        "réponse": "Abschleppdienst",
+        "anecdote": "Beim Tow-In handelt es sich um eine besondere Technik beim Windsurfen, um auf den von einem Boot erzeugten Wellen zu surfen."
+      },
+      {
+        "id": 23,
+        "question": "Welches dieser Länder ist im Windsurfen bei den Olympischen Spielen am erfolgreichsten ?",
+        "propositions": [
+          "Niederlande",
+          "Frankreich",
+          "Australien",
+          "Vereinigte Staaten"
+        ],
+        "réponse": "Niederlande",
+        "anecdote": "Das ursprünglich gemischte olympische Segelprogramm besteht heute aus einer großen Mehrheit von Wettbewerben pro Geschlecht."
+      },
+      {
+        "id": 24,
+        "question": "Welche dieser Marken bietet Hochleistungs-Windsurfbretter an ?",
+        "propositions": [
+          "Quiksilver",
+          "Rip Curl",
+          "billabong",
+          "NeilPryde"
+        ],
+        "réponse": "NeilPryde",
+        "anecdote": "Sein erster Rig-Erfolg für olympische Windsurfer geht auf die Lechner A-390 zurück, die 1987 entworfen wurde."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Windsurfwettbewerb findet jedes Jahr auf Hawaii statt ?",
+        "propositions": [
+          "Aloha-Klassiker",
+          "Red Bull Storm Chase",
+          "PWA-Welttournee",
+          "Windsurf-Weltcup"
+        ],
+        "réponse": "Aloha-Klassiker",
+        "anecdote": "Levi Siver, ein weltbekannter amerikanischer Profi-Windsurfer, hat die Aloha Classic-Trophäe mehrmals gewonnen."
+      },
+      {
+        "id": 26,
+        "question": "Was ist die beliebteste Windsurfdisziplin ?",
+        "propositions": [
+          "Freeriden",
+          "Welle",
+          "Slalom",
+          "Formel"
+        ],
+        "réponse": "Freeriden",
+        "anecdote": "Freeride-Segel bieten einen Kompromiss zwischen der Leistung von Rennsegeln, Manövrierfähigkeit und Benutzerfreundlichkeit."
+      },
+      {
+        "id": 27,
+        "question": "Wie lang ist ein Windsurfmast ungefähr ?",
+        "propositions": [
+          "Ungefähr 4 Meter",
+          "Etwa 2 Meter",
+          "Ungefähr 5 Meter",
+          "Ungefähr 3 Meter"
+        ],
+        "réponse": "Ungefähr 4 Meter",
+        "anecdote": "Mit einer Länge zwischen 3,40 und 5,80 Metern im Abstand von 30 cm ist der Mast ein Glasfaser- oder Carbonkegel."
+      },
+      {
+        "id": 28,
+        "question": "Wer ist der amtierende Windsurf-Weltmeister ?",
+        "propositions": [
+          "Ricardo Campello",
+          "Antoine Albeau",
+          "Philip Koster",
+          "Sarah Quita Offringa"
+        ],
+        "réponse": "Antoine Albeau",
+        "anecdote": "Antoine Albeau wurde vom französischen Segelverband zum Segler des Jahres 2010 gekürt und verfügt über einen der größten Rekorde im Segelsport."
+      },
+      {
+        "id": 29,
+        "question": "Welche Art von Windsurfbrett ist zum Surfen auf den Wellen geeignet ?",
+        "propositions": [
+          "Wellenbrett",
+          "Freeriden",
+          "Formeltafel",
+          "Slalomboarden"
+        ],
+        "réponse": "Wellenbrett",
+        "anecdote": "Wakeboarden ist eine Wassersportart, die in den frühen 1980er Jahren nach dem Aufkommen des Skiboardens (heute Snowboardens) aufkam."
+      },
+      {
+        "id": 30,
+        "question": "Welche Technologie ermöglicht es, beim Windsurfen über Wasser zu fliegen ?",
+        "propositions": [
+          "springen",
+          "Fliegen",
+          "Folierung",
+          "schwebend"
+        ],
+        "réponse": "Folierung",
+        "anecdote": "Im Jahr 2011 kamen dank der Marke AHD Windsurfbretter mit Folie (Windfoil) auf den Markt, die jedoch einen sehr hohen Preis hatten."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué dispositivo puede medir la velocidad o la presión del viento ?",
+        "propositions": [
+          "Termómetro",
+          "Barómetro",
+          "Anemómetro",
+          "Brújula"
+        ],
+        "réponse": "Anemómetro",
+        "anecdote": "Instrumento esencial en meteorología, el anemómetro, que mide la fuerza del viento, también es fundamental para los practicantes de snowboard."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué deporte acuático combina deslizamiento y vela ?",
+        "propositions": [
+          "Kitesurf",
+          "Vela",
+          "Surf",
+          "Windsurf"
+        ],
+        "réponse": "Windsurf",
+        "anecdote": "Este tipo de velero minimalista es también el deporte de deslizamiento que se practica con esta embarcación."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué maniobra de cambio de dirección se realiza cuando se practica windsurf ?",
+        "propositions": [
+          "tomar",
+          "burlarse",
+          "Bucle",
+          "talla"
+        ],
+        "réponse": "burlarse",
+        "anecdote": "Una combinación práctica de velocidad, habilidad y estrategia de maniobra, el slalom se practica en un recorrido en forma de W."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué tipo de vela utilizan los windsurfistas con viento fuerte ?",
+        "propositions": [
+          "carrera de velo",
+          "vela de olas",
+          "Vela de estilo libre",
+          "Vela de eslalon"
+        ],
+        "réponse": "Vela de eslalon",
+        "anecdote": "El actual campeón del mundo de slalom es el francés Pierre Mortefon, que sucedió a Antoine Albeau (FRA 192)."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué giro elegante se practica sobre las olas en el windsurf ?",
+        "propositions": [
+          "Diapositiva",
+          "Saltar",
+          "talla",
+          "Girar"
+        ],
+        "réponse": "talla",
+        "anecdote": "La Starboard Carve es una tabla de freeride fácil y accesible, disponible en cuatro nuevos tamaños en el modelo 2022."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué material se utiliza principalmente para fabricar tablas de windsurf ?",
+        "propositions": [
+          "fibra de carbono",
+          "Aluminio",
+          "Madera",
+          "Plástico"
+        ],
+        "réponse": "fibra de carbono",
+        "anecdote": "Cada vez se utilizan más nuevos materiales para mejorar la ligereza y la resistencia, a expensas de un mayor coste."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué elemento controla la dirección en el windsurf ?",
+        "propositions": [
+          "Deriva",
+          "Vela",
+          "Aleta",
+          "lámina"
+        ],
+        "réponse": "Aleta",
+        "anecdote": "Su profundidad, su espesor y su forma, incluso su número en ciertos flotadores, deben adaptarse al programa de navegación."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál es la posición básica estándar en el windsurf ?",
+        "propositions": [
+          "mintiendo",
+          "agachado",
+          "De pie",
+          "sentado"
+        ],
+        "réponse": "De pie",
+        "anecdote": "El windsurf se caracteriza por la posición de pie de su practicante y por la ausencia de timón y escotas."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué accesorio alivia el esfuerzo físico al hacer windsurf ?",
+        "propositions": [
+          "Casco",
+          "Arnés",
+          "Chaleco salvavidas",
+          "combinación"
+        ],
+        "réponse": "Arnés",
+        "anecdote": "La invención del arnés, que hizo posible controlar una vela más grande, marcó una transición entre la vieja y la nueva práctica."
+      },
+      {
+        "id": 10,
+        "question": "¿En qué país se inventó el windsurf en la década de 1960 ?",
+        "propositions": [
+          "Australia",
+          "Brasil",
+          "Estados Unidos",
+          "Francia"
+        ],
+        "réponse": "Estados Unidos",
+        "anecdote": "De hecho, fue un joven inglés, Peter Chilvers, quien esbozó una especie de antepasado del windsurf a principios de los años sesenta."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cómo llamas a una persona que practica windsurf ?",
+        "propositions": [
+          "tablón",
+          "velero",
+          "Windsurfista",
+          "Planificador"
+        ],
+        "réponse": "Windsurfista",
+        "anecdote": "Es el windsurfista quien levanta y luego sostiene el mástil y la vela en la posición activa, orientándose en el agua inclinando el aparejo."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuántas velas puede usar un jinete durante una competencia ?",
+        "propositions": [
+          "un",
+          "Tres",
+          "Cuatro",
+          "Dos"
+        ],
+        "réponse": "Tres",
+        "anecdote": "Hoy en día hay muchas competiciones, como la expresión europea Funboard en el sur de Francia."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué maniobra consiste en girar la tabla alrededor de su eje ?",
+        "propositions": [
+          "Bucle",
+          "Bucle de fondo",
+          "Bucle delantero",
+          "rotar"
+        ],
+        "réponse": "rotar",
+        "anecdote": "Los flotadores de olas son entonces cortos, con poco volumen, existiendo en 1, 2, 3 o 4 aletas, y son muy maniobrables."
+      },
+      {
+        "id": 14,
+        "question": "¿Cuál es el récord de velocidad conseguido en windsurf hasta la fecha ?",
+        "propositions": [
+          "63 nudos",
+          "53 nudos",
+          "73 nudos",
+          "83 nudos"
+        ],
+        "réponse": "53 nudos",
+        "anecdote": "El récord de velocidad de windsurf lo ostenta Antoine Albeau, su récord actual de 53,27 nudos se logró en 2015."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál es uno de los principales peligros que se encuentran en el windsurf ?",
+        "propositions": [
+          "medusas",
+          "tiburón",
+          "Viento débil",
+          "Otoño"
+        ],
+        "réponse": "Otoño",
+        "anecdote": "Las velas de olas tienen la particularidad de estar reforzadas para soportar caídas violentas y la fuerza de las olas."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué técnica te permite ir en ceñida en el windsurf ?",
+        "propositions": [
+          "contra el viento",
+          "A favor del viento",
+          "viento lateral",
+          "Viento cruzado"
+        ],
+        "réponse": "contra el viento",
+        "anecdote": "El windsurf es una técnica básica que permite navegar por donde sopla el viento."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué disciplina permite a los ciclistas expresar su creatividad ?",
+        "propositions": [
+          "Tablero de carreras",
+          "eslalon",
+          "Fórmula Windsurf",
+          "estilo libre"
+        ],
+        "réponse": "estilo libre",
+        "anecdote": "El estilo libre ha existido desde la invención del windsurf, pero experimentó un gran renacimiento a medida que se acercaba la década de 2000."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué velocidad de viento se recomienda para hacer windsurf ?",
+        "propositions": [
+          "Unos 20 nudos",
+          "Unos 40 nudos",
+          "Unos 10 nudos",
+          "Unos 30 nudos"
+        ],
+        "réponse": "Unos 10 nudos",
+        "anecdote": "Para los más experimentados, las gamas de flotadores son adecuadas para todas las prácticas, todas las condiciones de viento y mar."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué sistema de fijación conecta la vela a la tabla de windsurf ?",
+        "propositions": [
+          "timón",
+          "mástil",
+          "espoleta",
+          "auge"
+        ],
+        "réponse": "espoleta",
+        "anecdote": "Nombrada en referencia al hueso de pollo, la botavara es una botavara doble, que se fija al mástil mediante una manija automática."
+      },
+      {
+        "id": 20,
+        "question": "¿En qué dirección miras cuando haces trasluchadas en windsurf ?",
+        "propositions": [
+          "Sotavento",
+          "Frente al viento",
+          "Lateralmente",
+          "Frente al sol"
+        ],
+        "réponse": "Frente al viento",
+        "anecdote": "Se debe dominar la trasluchada (jibe) para poder realizar un giro en U de emergencia, como una ola o una espuma."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál es la longitud de las tablas de windsurf de carreras olímpicas ?",
+        "propositions": [
+          "Unos 4 metros",
+          "Unos 6 metros",
+          "Unos 3 metros",
+          "Unos 5 metros"
+        ],
+        "réponse": "Unos 4 metros",
+        "anecdote": "Desde 2005, el tablero de soporte de los Juegos Olímpicos se ha modificado con la idea de acercar este material al de la Fórmula más eficiente."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué técnica permite surfear sobre las olas generadas por un barco ?",
+        "propositions": [
+          "remolque",
+          "montar olas",
+          "Frustrando",
+          "remolque de surf"
+        ],
+        "réponse": "remolque",
+        "anecdote": "El tow-in es una técnica particular propia del windsurf para surfear sobre las olas generadas por una embarcación."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál de estos países es el más exitoso en windsurf en los Juegos Olímpicos ?",
+        "propositions": [
+          "Estados Unidos",
+          "Australia",
+          "Francia",
+          "Países Bajos"
+        ],
+        "réponse": "Países Bajos",
+        "anecdote": "El programa de Vela Olímpica, inicialmente mixto, ahora consta de una gran mayoría de eventos por género."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál de estas marcas ofrece tablas de windsurf de alto rendimiento ?",
+        "propositions": [
+          "NeilPryde",
+          "rasgar el rizo",
+          "Quiksilver",
+          "billabong"
+        ],
+        "réponse": "NeilPryde",
+        "anecdote": "Su primer logro con un aparejo para windsurfistas olímpicos se remonta al Lechner A-390, diseñado en 1987."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué competición de windsurf se celebra cada año en Hawái ?",
+        "propositions": [
+          "Copa del Mundo de Windsurf",
+          "Aloha Clásico",
+          "Caza de tormentas de Red Bull",
+          "Gira mundial de la PWA"
+        ],
+        "réponse": "Aloha Clásico",
+        "anecdote": "Levi Siver, un windsurfista profesional estadounidense de renombre mundial, ha ganado el trofeo Aloha Classic en varias ocasiones."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuál es la disciplina de windsurf más popular ?",
+        "propositions": [
+          "ola",
+          "Freeriding",
+          "eslalon",
+          "Fórmula"
+        ],
+        "réponse": "Freeriding",
+        "anecdote": "Las velas de freeride ofrecen un compromiso entre el rendimiento de las velas de regata, la maniobrabilidad y la facilidad de uso."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es la longitud aproximada de un mástil de windsurf ?",
+        "propositions": [
+          "Unos 4 metros",
+          "Unos 5 metros",
+          "Unos 2 metros",
+          "Unos 3 metros"
+        ],
+        "réponse": "Unos 4 metros",
+        "anecdote": "Con una longitud de entre 3,40 y 5,80 metros escalonados cada 30 cm, el mástil es un cono de fibra de vidrio o carbono."
+      },
+      {
+        "id": 28,
+        "question": "¿Quién es el actual campeón mundial de windsurf ?",
+        "propositions": [
+          "ricardo campello",
+          "Felipe Koster",
+          "Sarah Quita Ofringa",
+          "Antonio Albeau"
+        ],
+        "réponse": "Antonio Albeau",
+        "anecdote": "Marinero del Año 2010 por la Federación Francesa de Vela, Antoine Albeau tiene uno de los mejores récords de la vela."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué tipo de tabla de windsurf está diseñada para surfear las olas ?",
+        "propositions": [
+          "freeriding",
+          "tabla de olas",
+          "Tablero de fórmulas",
+          "Slalomboarding"
+        ],
+        "réponse": "tabla de olas",
+        "anecdote": "Wakeboarding es un deporte acuático que apareció a principios de la década de 1980 después de la llegada del skiboarding (ahora snowboarding)."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué tecnología hace posible volar sobre el agua en windsurf ?",
+        "propositions": [
+          "flotante",
+          "Frustrando",
+          "Volador",
+          "saltando"
+        ],
+        "réponse": "Frustrando",
+        "anecdote": "En 2011, gracias a la marca AHD, aparecieron las tablas de windsurf con foil (Windfoil) pero mantuvieron un precio muy elevado."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale dispositivo può misurare la velocità o la pressione del vento ?",
+        "propositions": [
+          "Barometro",
+          "Bussola",
+          "Anemometro",
+          "Termometro"
+        ],
+        "réponse": "Anemometro",
+        "anecdote": "Uno strumento essenziale in meteorologia, l'anemometro, che misura la forza del vento, è essenziale anche per gli snowboarder."
+      },
+      {
+        "id": 2,
+        "question": "Quale sport acquatico combina lo scivolamento e la vela ?",
+        "propositions": [
+          "Navigare",
+          "Kitesurf",
+          "Vela",
+          "Windsurf"
+        ],
+        "réponse": "Windsurf",
+        "anecdote": "Questo tipo di barca a vela minimalista è anche lo sport scorrevole praticato con questa barca."
+      },
+      {
+        "id": 3,
+        "question": "Quale manovra di cambio di direzione viene eseguita durante il windsurf ?",
+        "propositions": [
+          "scolpisce",
+          "prendere",
+          "Ciclo",
+          "Strambata"
+        ],
+        "réponse": "Strambata",
+        "anecdote": "Pratica combinazione di velocità, abilità e strategia di manovra, lo slalom si pratica su un percorso a forma di W."
+      },
+      {
+        "id": 4,
+        "question": "Che tipo di vela viene utilizzata dai windsurfisti con vento forte ?",
+        "propositions": [
+          "Corsa del velo",
+          "Vela da freestyle",
+          "vela d'onda",
+          "Vela da slalom"
+        ],
+        "réponse": "Vela da slalom",
+        "anecdote": "Il campione del mondo di slalom in carica è il francese Pierre Mortefon, succeduto ad Antoine Albeau (FRA 192)."
+      },
+      {
+        "id": 5,
+        "question": "Quale giro aggraziato si pratica sulle onde nel windsurf ?",
+        "propositions": [
+          "Diapositiva",
+          "scolpisce",
+          "Salta",
+          "Gira"
+        ],
+        "réponse": "scolpisce",
+        "anecdote": "La Starboard Carve è una tavola da freeride facile e accessibile, disponibile in quattro nuove misure sul modello 2022."
+      },
+      {
+        "id": 6,
+        "question": "Quale materiale viene utilizzato principalmente per realizzare tavole da windsurf ?",
+        "propositions": [
+          "Legno",
+          "Fibra di carbonio",
+          "Plastica",
+          "Alluminio"
+        ],
+        "réponse": "Fibra di carbonio",
+        "anecdote": "Nuovi materiali sono sempre più utilizzati per migliorare leggerezza e resistenza, a scapito di un costo maggiore."
+      },
+      {
+        "id": 7,
+        "question": "Quale elemento controlla la direzione nel windsurf ?",
+        "propositions": [
+          "Vela",
+          "Pinna",
+          "pellicola",
+          "Deriva"
+        ],
+        "réponse": "Pinna",
+        "anecdote": "La sua profondità, il suo spessore e la sua forma, anche il loro numero su alcuni galleggianti deve essere adattato al programma di navigazione."
+      },
+      {
+        "id": 8,
+        "question": "Qual è la posizione base standard nel windsurf ?",
+        "propositions": [
+          "Seduto",
+          "In piedi",
+          "Mentire",
+          "Accovacciato"
+        ],
+        "réponse": "In piedi",
+        "anecdote": "Il windsurf è caratterizzato dalla posizione eretta del praticante e dall'assenza di timone e scotte."
+      },
+      {
+        "id": 9,
+        "question": "Quale accessorio allevia lo sforzo fisico durante il windsurf ?",
+        "propositions": [
+          "Combinazione",
+          "Imbracatura",
+          "Casco",
+          "Giubbotto di salvataggio"
+        ],
+        "réponse": "Imbracatura",
+        "anecdote": "L'invenzione dell'imbracatura, che ha permesso di controllare una vela più grande, ha segnato un passaggio tra la vecchia e la nuova pratica."
+      },
+      {
+        "id": 10,
+        "question": "In quale paese è stato inventato il windsurf negli anni '60 ?",
+        "propositions": [
+          "Francia",
+          "Brasile",
+          "Australia",
+          "Stati Uniti"
+        ],
+        "réponse": "Stati Uniti",
+        "anecdote": "Fu infatti un giovane inglese, Peter Chilvers, a delineare una sorta di antenato del windsurf nei primi anni '60."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Come si chiama una persona che pratica windsurf ?",
+        "propositions": [
+          "Pianificatore",
+          "barca a vela",
+          "Plancia",
+          "Windsurfista"
+        ],
+        "réponse": "Windsurfista",
+        "anecdote": "È il windsurfista che alza e poi tiene in posizione attiva l'albero e la vela, orientandosi sull'acqua inclinando il rig."
+      },
+      {
+        "id": 12,
+        "question": "Quante vele può utilizzare un rider durante una competizione ?",
+        "propositions": [
+          "Tre",
+          "Quattro",
+          "Due",
+          "UN"
+        ],
+        "réponse": "Tre",
+        "anecdote": "Oggi ci sono molte competizioni, come l'espressione European Funboard nel sud della Francia."
+      },
+      {
+        "id": 13,
+        "question": "Quale manovra comporta la rotazione della tavola attorno al proprio asse ?",
+        "propositions": [
+          "Ciclo",
+          "ruotare",
+          "Backloop",
+          "Passante frontale"
+        ],
+        "réponse": "ruotare",
+        "anecdote": "I galleggianti wave sono quindi corti, con poco volume, esistenti in 1, 2, 3 o 4 pinne, e sono molto manovrabili."
+      },
+      {
+        "id": 14,
+        "question": "Qual è il record di velocità raggiunto fino ad oggi nel windsurf ?",
+        "propositions": [
+          "83 nodi",
+          "53 nodi",
+          "73 nodi",
+          "63 nodi"
+        ],
+        "réponse": "53 nodi",
+        "anecdote": "Il record di velocità del windsurf è detenuto da Antoine Albeau, il suo attuale record di 53,27 nodi è stato raggiunto nel 2015."
+      },
+      {
+        "id": 15,
+        "question": "Qual è uno dei principali pericoli che si incontrano nel windsurf ?",
+        "propositions": [
+          "Squalo",
+          "Caduta",
+          "medusa",
+          "Vento debole"
+        ],
+        "réponse": "Caduta",
+        "anecdote": "Le vele Wave hanno la particolarità di essere rinforzate per resistere a cadute violente e alla forza delle onde."
+      },
+      {
+        "id": 16,
+        "question": "Quale tecnica ti permette di andare di bolina nel windsurf ?",
+        "propositions": [
+          "Controvento",
+          "Sottovento",
+          "Vento al traverso",
+          "vento laterale"
+        ],
+        "réponse": "Controvento",
+        "anecdote": "Il windsurf è una tecnica di base che consente ai ciclisti di navigare da dove proviene il vento."
+      },
+      {
+        "id": 17,
+        "question": "Quale disciplina consente ai rider di esprimere la propria creatività ?",
+        "propositions": [
+          "Formula Windsurf",
+          "Raceboard",
+          "Slalom",
+          "Stile libero"
+        ],
+        "réponse": "Stile libero",
+        "anecdote": "Il freestyle esiste dall'invenzione del windsurf, ma ha visto un grande revival con l'avvicinarsi degli anni 2000."
+      },
+      {
+        "id": 18,
+        "question": "Quale velocità del vento è consigliata per il windsurf ?",
+        "propositions": [
+          "Circa 30 nodi",
+          "Circa 10 nodi",
+          "Circa 20 nodi",
+          "Circa 40 nodi"
+        ],
+        "réponse": "Circa 10 nodi",
+        "anecdote": "Per i più esperti, le gamme di galleggianti sono adatte a tutte le pratiche, a tutte le condizioni di vento e mare."
+      },
+      {
+        "id": 19,
+        "question": "Quale sistema di fissaggio collega la vela alla tavola da windsurf ?",
+        "propositions": [
+          "albero",
+          "boom",
+          "timone",
+          "Braccio oscillante"
+        ],
+        "réponse": "Braccio oscillante",
+        "anecdote": "Chiamato in riferimento all'osso di pollo, il boma è un doppio boma, fissato all'albero da una maniglia automatica."
+      },
+      {
+        "id": 20,
+        "question": "In quale direzione guardi quando strambati nel windsurf ?",
+        "propositions": [
+          "Sottovento",
+          "Affrontare il vento",
+          "Di fronte al sole",
+          "Lateralmente"
+        ],
+        "réponse": "Affrontare il vento",
+        "anecdote": "La strambata (strambata) deve essere padroneggiata per poter eseguire un'inversione di marcia di emergenza, come un'onda o una schiuma."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è la lunghezza delle tavole da windsurf da competizione olimpiche ?",
+        "propositions": [
+          "Circa 6 metri",
+          "Circa 5 metri",
+          "Circa 4 metri",
+          "Circa 3 metri"
+        ],
+        "réponse": "Circa 4 metri",
+        "anecdote": "Dal 2005 la tavola portante delle Olimpiadi è stata modificata con l'idea di avvicinare questo materiale a quello del più performante Formula."
+      },
+      {
+        "id": 22,
+        "question": "Quale tecnica permette di navigare sulle onde generate da una barca ?",
+        "propositions": [
+          "traino surf",
+          "traino",
+          "cavalcare le onde",
+          "Sventare"
+        ],
+        "réponse": "traino",
+        "anecdote": "Il tow-in è una particolare tecnica specifica del windsurf per surfare sulle onde generate da una barca."
+      },
+      {
+        "id": 23,
+        "question": "Quale di questi paesi ha più successo nel windsurf alle Olimpiadi ?",
+        "propositions": [
+          "Australia",
+          "Francia",
+          "Paesi Bassi",
+          "Stati Uniti"
+        ],
+        "réponse": "Paesi Bassi",
+        "anecdote": "Il programma della vela olimpica, inizialmente misto, è ora composto da una grande maggioranza di eventi per genere."
+      },
+      {
+        "id": 24,
+        "question": "Quale di questi marchi offre tavole da windsurf ad alte prestazioni ?",
+        "propositions": [
+          "Neil Pryde",
+          "Quiksilver",
+          "billabong",
+          "Rip Curl"
+        ],
+        "réponse": "Neil Pryde",
+        "anecdote": "Il suo primo successo con il rig per i windsurfisti olimpici risale al Lechner A-390, progettato nel 1987."
+      },
+      {
+        "id": 25,
+        "question": "Quale competizione di windsurf si tiene ogni anno alle Hawaii ?",
+        "propositions": [
+          "Aloha classico",
+          "Tour mondiale PWA",
+          "Red Bull Tempesta Chase",
+          "Coppa del mondo di windsurf"
+        ],
+        "réponse": "Aloha classico",
+        "anecdote": "Levi Siver, windsurfer professionista americano di fama mondiale, ha vinto più volte il trofeo Aloha Classic."
+      },
+      {
+        "id": 26,
+        "question": "Qual è la disciplina più popolare del windsurf ?",
+        "propositions": [
+          "Formula",
+          "Slalom",
+          "onda",
+          "Freeride"
+        ],
+        "réponse": "Freeride",
+        "anecdote": "Le vele da freeride offrono un compromesso tra le prestazioni delle vele da regata, la manovrabilità e la facilità d'uso."
+      },
+      {
+        "id": 27,
+        "question": "Qual è la lunghezza approssimativa di un albero da windsurf ?",
+        "propositions": [
+          "Circa 2 metri",
+          "Circa 3 metri",
+          "Circa 4 metri",
+          "Circa 5 metri"
+        ],
+        "réponse": "Circa 4 metri",
+        "anecdote": "Con una lunghezza compresa tra 3,40 e 5,80 metri sfalsati ogni 30 cm, l'albero è un cono in fibra di vetro o carbonio."
+      },
+      {
+        "id": 28,
+        "question": "Chi è il campione del mondo di windsurf in carica ?",
+        "propositions": [
+          "Filippo Koster",
+          "Ricardo Campello",
+          "Antoine Albeau",
+          "Sarah Quita Offrenga"
+        ],
+        "réponse": "Antoine Albeau",
+        "anecdote": "Velista dell'anno 2010 dalla Federazione Francese di Vela, Antoine Albeau detiene uno dei più grandi record della vela."
+      },
+      {
+        "id": 29,
+        "question": "Che tipo di tavola da windsurf è progettata per surfare le onde ?",
+        "propositions": [
+          "Slalomboard",
+          "tavola d'onda",
+          "Consiglio di formula",
+          "freeride"
+        ],
+        "réponse": "tavola d'onda",
+        "anecdote": "Il wakeboard è uno sport acquatico apparso nei primi anni '80 dopo l'avvento dello skiboard (ora snowboard)."
+      },
+      {
+        "id": 30,
+        "question": "Quale tecnologia consente di sorvolare l'acqua nel windsurf ?",
+        "propositions": [
+          "salto",
+          "Volare",
+          "galleggiante",
+          "Sventare"
+        ],
+        "réponse": "Sventare",
+        "anecdote": "Nel 2011, grazie al marchio AHD, sono comparse le tavole da windsurf con foil (Windfoil) ma hanno mantenuto un prezzo molto alto."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk apparaat kan windsnelheid of -druk meten ?",
+        "propositions": [
+          "Kompas",
+          "thermometer",
+          "Windmeter",
+          "Barometer"
+        ],
+        "réponse": "Windmeter",
+        "anecdote": "Een essentieel instrument in de meteorologie, de anemometer, die de kracht van de wind meet, is ook essentieel voor snowboarders."
+      },
+      {
+        "id": 2,
+        "question": "Welke watersport combineert glijden en zeilen ?",
+        "propositions": [
+          "Windsurfen",
+          "Zeilen",
+          "Surfen",
+          "Kitesurfen"
+        ],
+        "réponse": "Windsurfen",
+        "anecdote": "Bij dit type minimalistische zeilboot wordt ook de glijsport beoefend met deze boot."
+      },
+      {
+        "id": 3,
+        "question": "Welke richtingsveranderingsmanoeuvre wordt uitgevoerd bij het windsurfen ?",
+        "propositions": [
+          "Gijp",
+          "neem",
+          "Lus",
+          "kerft"
+        ],
+        "réponse": "Gijp",
+        "anecdote": "Een praktische combinatie van snelheid, vaardigheid en manoeuvreerstrategie, slalom wordt beoefend op een W-vormig parcours."
+      },
+      {
+        "id": 4,
+        "question": "Welk type zeil gebruiken windsurfers bij harde wind ?",
+        "propositions": [
+          "Freestyle zeil",
+          "Sluierrace",
+          "golfzeil",
+          "Slalomzeil"
+        ],
+        "réponse": "Slalomzeil",
+        "anecdote": "De regerend wereldkampioen slalom is de Fransman Pierre Mortefon, die Antoine Albeau (FRA 192) opvolgde."
+      },
+      {
+        "id": 5,
+        "question": "Welke sierlijke wending wordt bij het windsurfen op de golven geoefend ?",
+        "propositions": [
+          "Draai",
+          "Schuif",
+          "Spring",
+          "kerft"
+        ],
+        "réponse": "kerft",
+        "anecdote": "De Starboard Carve is een gemakkelijk en toegankelijk freeride-board, verkrijgbaar in vier nieuwe maten op het 2022-model."
+      },
+      {
+        "id": 6,
+        "question": "Welk materiaal wordt voornamelijk gebruikt om windsurfplanken te maken ?",
+        "propositions": [
+          "Koolstofvezel",
+          "Kunststof",
+          "Hout",
+          "Aluminium"
+        ],
+        "réponse": "Koolstofvezel",
+        "anecdote": "Er worden steeds meer nieuwe materialen gebruikt om de lichtheid en sterkte te verbeteren, ten koste van hogere kosten."
+      },
+      {
+        "id": 7,
+        "question": "Welk element bepaalt de richting bij het windsurfen ?",
+        "propositions": [
+          "folie",
+          "Afdrijven",
+          "Zeilen",
+          "Fin"
+        ],
+        "réponse": "Fin",
+        "anecdote": "De diepte, de dikte en de vorm, zelfs hun aantal op bepaalde drijvers, moet worden aangepast aan het navigatieprogramma."
+      },
+      {
+        "id": 8,
+        "question": "Wat is de standaard basishouding bij het windsurfen ?",
+        "propositions": [
+          "Staan",
+          "Zittend",
+          "Gehurkt",
+          "Liegen"
+        ],
+        "réponse": "Staan",
+        "anecdote": "Windsurfen kenmerkt zich door de staande houding van de beoefenaar en door het ontbreken van een roer en schoten."
+      },
+      {
+        "id": 9,
+        "question": "Welk accessoire verlicht de fysieke inspanning bij het windsurfen ?",
+        "propositions": [
+          "Reddingsvest",
+          "Combinatie",
+          "Helm",
+          "Harnas"
+        ],
+        "réponse": "Harnas",
+        "anecdote": "De uitvinding van het harnas, dat het mogelijk maakte om een groter zeil te besturen, markeerde een overgang tussen oude en nieuwe praktijk."
+      },
+      {
+        "id": 10,
+        "question": "In welk land werd windsurfen uitgevonden in de jaren zestig ?",
+        "propositions": [
+          "Brazilië",
+          "Frankrijk",
+          "Australië",
+          "Verenigde Staten"
+        ],
+        "réponse": "Verenigde Staten",
+        "anecdote": "Het was namelijk een jonge Engelsman, Peter Chilvers, die begin jaren zestig een soort voorouder van het windsurfen schetste."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hoe noem je iemand die aan windsurfen doet ?",
+        "propositions": [
+          "Planner",
+          "Windsurfer",
+          "zeilboot",
+          "planken"
+        ],
+        "réponse": "Windsurfer",
+        "anecdote": "Het is de windsurfer die de mast en het zeil omhoog brengt en vervolgens in de actieve positie houdt, zich oriënterend op het water door de tuigage te kantelen."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel zeilen kan een rijder gebruiken tijdens een wedstrijd ?",
+        "propositions": [
+          "Twee",
+          "een",
+          "Vier",
+          "Drie"
+        ],
+        "réponse": "Drie",
+        "anecdote": "Tegenwoordig zijn er veel wedstrijden, zoals de European Funboard-expressie in Zuid-Frankrijk."
+      },
+      {
+        "id": 13,
+        "question": "Bij welke manoeuvre draait het bord om zijn as ?",
+        "propositions": [
+          "draaien",
+          "Achterloop",
+          "Lus",
+          "Voorlus"
+        ],
+        "réponse": "draaien",
+        "anecdote": "De golfdrijvers zijn dan kort, met weinig volume, bestaande uit 1, 2, 3 of 4 vinnen, en zijn zeer wendbaar."
+      },
+      {
+        "id": 14,
+        "question": "Wat is tot nu toe de recordsnelheid in het windsurfen ?",
+        "propositions": [
+          "73 knopen",
+          "63 knopen",
+          "53 knopen",
+          "83 knopen"
+        ],
+        "réponse": "53 knopen",
+        "anecdote": "Het snelheidsrecord windsurfen is in handen van Antoine Albeau, zijn huidige record van 53,27 knopen behaalde hij in 2015."
+      },
+      {
+        "id": 15,
+        "question": "Wat is een van de grootste gevaren bij het windsurfen ?",
+        "propositions": [
+          "kwallen",
+          "Haai",
+          "Herfst",
+          "Zwakke wind"
+        ],
+        "réponse": "Herfst",
+        "anecdote": "Golfzeilen hebben de bijzonderheid dat ze versterkt zijn om gewelddadige vallen en de kracht van de golven te weerstaan."
+      },
+      {
+        "id": 16,
+        "question": "Met welke techniek kun je tegen de wind in windsurfen ?",
+        "propositions": [
+          "Zijwind",
+          "Benedenwinds",
+          "Bovenwinds",
+          "zijwind"
+        ],
+        "réponse": "Bovenwinds",
+        "anecdote": "Windsurfen is een basistechniek waarmee rijders kunnen navigeren waar de wind vandaan komt."
+      },
+      {
+        "id": 17,
+        "question": "In welke discipline kunnen ruiters hun creativiteit uiten ?",
+        "propositions": [
+          "Slalom",
+          "Formule Windsurfen",
+          "Racebord",
+          "Freestylen"
+        ],
+        "réponse": "Freestylen",
+        "anecdote": "Freestyle bestaat al sinds de uitvinding van het windsurfen, maar zag een grote opleving toen de jaren 2000 naderden."
+      },
+      {
+        "id": 18,
+        "question": "Welke windsnelheid wordt aanbevolen voor windsurfen ?",
+        "propositions": [
+          "Ongeveer 30 knopen",
+          "Ongeveer 10 knopen",
+          "Ongeveer 20 knopen",
+          "Ongeveer 40 knopen"
+        ],
+        "réponse": "Ongeveer 10 knopen",
+        "anecdote": "Voor de meer ervaren drijvers zijn er reeksen die geschikt zijn voor alle praktijken, alle wind- en zeecondities."
+      },
+      {
+        "id": 19,
+        "question": "Welk bevestigingssysteem verbindt het zeil met het windsurfboard ?",
+        "propositions": [
+          "mast",
+          "roer",
+          "Draagarm",
+          "boem"
+        ],
+        "réponse": "Draagarm",
+        "anecdote": "De giek, genoemd naar het kippenbot, is een dubbele giek, die met een automatische hendel aan de mast is bevestigd."
+      },
+      {
+        "id": 20,
+        "question": "In welke richting sta je tijdens het gijpen tijdens het windsurfen ?",
+        "propositions": [
+          "Benedenwinds",
+          "Tegen de wind in",
+          "Zijwaarts",
+          "Tegen de zon in"
+        ],
+        "réponse": "Tegen de wind in",
+        "anecdote": "De gijp (gijp) moet worden beheerst om een nood-U-bocht te kunnen maken, zoals een golf of een schuim."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat is de lengte van Olympische race-windsurfplanken ?",
+        "propositions": [
+          "Ongeveer 4 meter",
+          "Ongeveer 6 meter",
+          "Ongeveer 5 meter",
+          "Ongeveer 3 meter"
+        ],
+        "réponse": "Ongeveer 4 meter",
+        "anecdote": "Sinds 2005 is het ondersteuningsbord van de Olympische Spelen aangepast met het idee om dit materiaal dichter bij dat van de efficiëntere Formula te brengen."
+      },
+      {
+        "id": 22,
+        "question": "Met welke techniek kun je surfen op golven die door een boot worden gegenereerd ?",
+        "propositions": [
+          "binnenslepen",
+          "golf rijden",
+          "Verijdelen",
+          "branding slepen"
+        ],
+        "réponse": "binnenslepen",
+        "anecdote": "De tow-in is een specifieke techniek die specifiek is voor windsurfen om te surfen op golven die door een boot worden gegenereerd."
+      },
+      {
+        "id": 23,
+        "question": "Welk van deze landen is het meest succesvol in windsurfen op de Olympische Spelen ?",
+        "propositions": [
+          "Australië",
+          "Verenigde Staten",
+          "Nederland",
+          "Frankrijk"
+        ],
+        "réponse": "Nederland",
+        "anecdote": "Het Olympisch Zeilen programma, aanvankelijk gemengd, bestaat nu uit een grote meerderheid van evenementen per geslacht."
+      },
+      {
+        "id": 24,
+        "question": "Welke van deze merken biedt high performance windsurfboards aan ?",
+        "propositions": [
+          "Neil Pryde",
+          "Quiksilver",
+          "billabong",
+          "Rip Krul"
+        ],
+        "réponse": "Neil Pryde",
+        "anecdote": "Zijn eerste rig-prestatie voor Olympische windsurfers dateert van de Lechner A-390, ontworpen in 1987."
+      },
+      {
+        "id": 25,
+        "question": "Welke windsurfwedstrijd wordt er elk jaar op Hawaï gehouden ?",
+        "propositions": [
+          "Wereldbeker windsurfen",
+          "PWA-wereldtour",
+          "Aloha Klassieker",
+          "Red Bull Stormachtervolging"
+        ],
+        "réponse": "Aloha Klassieker",
+        "anecdote": "Levi Siver, een wereldberoemde Amerikaanse professionele windsurfer, heeft verschillende keren de Aloha Classic-trofee gewonnen."
+      },
+      {
+        "id": 26,
+        "question": "Wat is de populairste windsurfdiscipline ?",
+        "propositions": [
+          "Freeriden",
+          "golf",
+          "Slalom",
+          "Formule"
+        ],
+        "réponse": "Freeriden",
+        "anecdote": "Freeride zeilen bieden een compromis tussen de prestaties van racezeilen, wendbaarheid en gebruiksgemak."
+      },
+      {
+        "id": 27,
+        "question": "Wat is bij benadering de lengte van een windsurfmast ?",
+        "propositions": [
+          "Ongeveer 3 meter",
+          "Ongeveer 5 meter",
+          "Ongeveer 4 meter",
+          "Ongeveer 2 meter"
+        ],
+        "réponse": "Ongeveer 4 meter",
+        "anecdote": "Met een lengte van tussen de 3,40 en 5,80 meter versprongen om de 30 cm, is de mast een kegel van glasvezel of koolstof."
+      },
+      {
+        "id": 28,
+        "question": "Wie is de regerend wereldkampioen windsurfen ?",
+        "propositions": [
+          "Philip Koster",
+          "Sarah Quita Offringa",
+          "Ricardo Campello",
+          "Antoine Albeau"
+        ],
+        "réponse": "Antoine Albeau",
+        "anecdote": "Antoine Albeau, zeeman van het jaar 2010 door de Franse zeilfederatie, heeft een van de grootste records in zeilen."
+      },
+      {
+        "id": 29,
+        "question": "Welk type windsurfplank is ontworpen om op de golven te surfen ?",
+        "propositions": [
+          "Formulebord",
+          "freeriden",
+          "Slalomboarden",
+          "golfbord"
+        ],
+        "réponse": "golfbord",
+        "anecdote": "Wakeboarden is een watersport die begin jaren tachtig opkwam na de komst van skiboarden (nu snowboarden)."
+      },
+      {
+        "id": 30,
+        "question": "Welke technologie maakt het mogelijk om tijdens het windsurfen over water te vliegen ?",
+        "propositions": [
+          "zwevend",
+          "vliegen",
+          "springen",
+          "Verijdelen"
+        ],
+        "réponse": "Verijdelen",
+        "anecdote": "In 2011 verschenen er dankzij het merk AHD windsurfplanken met folie (Windfoil), maar die hielden een zeer hoge prijs."
+      }
+    ]
+    }
+  }
+}

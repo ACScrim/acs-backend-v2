@@ -1,4 +1,4 @@
-import { DiscordUser } from "@app-types/index";
+import { DiscordUser } from "../../../../types";
 import { FastifyPluginAsync } from "fastify";
 import { log } from "../../../../utils/utils";
 

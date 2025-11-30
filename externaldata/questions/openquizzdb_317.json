@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "5 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-12-22",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Nature",
+      "nom": "Plantes magiques",
+      "slogan": "Herbivicus"
+    },
+    "en": {
+      "catégorie": "Nature",
+      "nom": "Magical plants",
+      "slogan": "Herbivicus"
+    },
+    "es": {
+      "catégorie": "Naturaleza",
+      "nom": "Plantas magicas",
+      "slogan": "Herbivicus"
+    },
+    "it": {
+      "catégorie": "Natura",
+      "nom": "Piante magiche",
+      "slogan": "Herbivicus"
+    },
+    "de": {
+      "catégorie": "Natur",
+      "nom": "Zauberhafte Pflanzen",
+      "slogan": "Herbivicus"
+    },
+    "nl": {
+      "catégorie": "Natuur",
+      "nom": "Magische planten",
+      "slogan": "Herbivicus"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle plante devient magique lorsqu'elle possède au moins quatre feuilles ?",
+        "propositions": [
+          "Herbe à la fièvre",
+          "Valériane officinale",
+          "Rue vineuse",
+          "Trèfle"
+        ],
+        "réponse": "Trèfle",
+        "anecdote": "Une tradition irlandaise forte veut que saint Patrick se soit servi de la feuille de trèfle pour illustrer le mystère de la Trinité."
+      },
+      {
+        "id": 2,
+        "question": "Quelle plante a traité les traumatismes nerveux des combattants de guerre ?",
+        "propositions": [
+          "Armoise vulgaire",
+          "Valériane officinale",
+          "Basilic",
+          "Barbe de Jupiter"
+        ],
+        "réponse": "Valériane officinale",
+        "anecdote": "Autrefois puissant philtre d'amour, l'herbe aux chats est désormais surtout employée dans les tisanes soporifiques."
+      },
+      {
+        "id": 3,
+        "question": "Les graines de quelle plante retrouvé dans nos vêtements seraient diurétiques ?",
+        "propositions": [
+          "Lin",
+          "Ciguë",
+          "Coriandre",
+          "Hamamélis"
+        ],
+        "réponse": "Lin",
+        "anecdote": "C'est Philippe de Girard qui, avec sa machine à filer le lin, a converti le nord de la France en un centre de filature industriel."
+      },
+      {
+        "id": 4,
+        "question": "Quelle plante aromatique est proposée en pharmacie en tant que vermifuge ?",
+        "propositions": [
+          "Basilic",
+          "Datura",
+          "Basilic",
+          "Bryone dioïque"
+        ],
+        "réponse": "Basilic",
+        "anecdote": "Le Basilic est largement employé dans la cuisine italienne, d'autres variétés étant répandues dans certaines cuisines asiatiques."
+      },
+      {
+        "id": 5,
+        "question": "Quelle plante toxique était à la base du poison officiel des Athéniens ?",
+        "propositions": [
+          "Rue vineuse",
+          "Armoise vulgaire",
+          "Ciguë",
+          "Benoîte commune"
+        ],
+        "réponse": "Ciguë",
+        "anecdote": "Socrate est mort après avoir bu de la ciguë alors que Mithridate VI s'en est immunisé en absorbant des doses croissantes."
+      },
+      {
+        "id": 6,
+        "question": "Quelle plante aux propriétés aphrodisiaques est utilisé dans certains pain d'épices ?",
+        "propositions": [
+          "Herbe à la fièvre",
+          "Datura",
+          "Gingembre",
+          "Callune"
+        ],
+        "réponse": "Gingembre",
+        "anecdote": "Le chapitre 7 du Kâmasûtra évoque son usage dans des pratiques sexuelles : « Le gingembre aide à la nature luxurieuse »."
+      },
+      {
+        "id": 7,
+        "question": "Quelle plante moulue, base des currys, favorise la production de sperme ?",
+        "propositions": [
+          "Ciguë",
+          "Lierre terrestre",
+          "Jasmin blanc",
+          "Coriandre"
+        ],
+        "réponse": "Coriandre",
+        "anecdote": "L'huile essentielle de coriandre est employée dans l'industrie pharmaceutique pour masquer l'amertume des médicaments."
+      },
+      {
+        "id": 8,
+        "question": "Quelle plante est évoquée dans la chanson « Purple Haze » de Jimi Hendrix ?",
+        "propositions": [
+          "Belladone",
+          "Chanvre cultivé",
+          "Callune",
+          "Genêt"
+        ],
+        "réponse": "Chanvre cultivé",
+        "anecdote": "Originaire d'Asie centrale, cette plante est parfois utilisée en médecine mais surtout pour fabriquer des textiles et des cordages."
+      },
+      {
+        "id": 9,
+        "question": "Quelle plante était associée à la claire vision dans la Grèce antique ?",
+        "propositions": [
+          "Chanvre cultivé",
+          "Amarante caudée",
+          "Fenouil sauvage",
+          "Gingembre"
+        ],
+        "réponse": "Fenouil sauvage",
+        "anecdote": "La culture du fenouil commun était recommandée dans les domaines royaux par Charlemagne dans le capitulaire De Villis."
+      },
+      {
+        "id": 10,
+        "question": "Quel est le phytomédicament aujourd'hui prescrit contre la dépression nerveuse ?",
+        "propositions": [
+          "Millepertuis perforé",
+          "Arum tacheté",
+          "Lin",
+          "Trèfle"
+        ],
+        "réponse": "Millepertuis perforé",
+        "anecdote": "L'usage médicinal du millepertuis remonte à au moins 2 400 ans, date où Dioscoride le préconisait dans ses ordonnances."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Malgré son rouge carmin, repérable de loin, quelle plante rendrait invisible ?",
+        "propositions": [
+          "Amarante caudée",
+          "Sarriette",
+          "Arum tacheté",
+          "Millepertuis perforé"
+        ],
+        "réponse": "Amarante caudée",
+        "anecdote": "Elle est aussi nommée Kiwicha, de son nom en langue quechua au Pérou, où elle est cultivée à des fins alimentaires."
+      },
+      {
+        "id": 12,
+        "question": "Quelle plante a servi à préserver la bière avant l'utilisation du houblon ?",
+        "propositions": [
+          "Lin",
+          "Arum tacheté",
+          "Jasmin blanc",
+          "Lierre terrestre"
+        ],
+        "réponse": "Lierre terrestre",
+        "anecdote": "Placée sous la couche des jeunes mères, le lierre avait la vertu de leur redonner des forces après le travail de l'enfantement."
+      },
+      {
+        "id": 13,
+        "question": "Quel arbuste à feuillage caduc permet de soigner les varices et les hémorroïdes ?",
+        "propositions": [
+          "Hamamélis",
+          "Gingembre",
+          "Trèfle",
+          "Ail des ours"
+        ],
+        "réponse": "Hamamélis",
+        "anecdote": "L'Hamamélis soignerait aussi les contusions, les entorses, les plaies mineures, les inflammations de la peau et des muqueuses."
+      },
+      {
+        "id": 14,
+        "question": "Quel arbuste séché a longtemps été utilisé pour en faire des balais ?",
+        "propositions": [
+          "Valériane officinale",
+          "Barbe de Jupiter",
+          "Genêt",
+          "Sarriette"
+        ],
+        "réponse": "Genêt",
+        "anecdote": "Traditionnellement on utilisait la fleur du Genêt à balais comme diurétique et pour le traitement des troubles circulatoires."
+      },
+      {
+        "id": 15,
+        "question": "Quelle plante de choix est utilisée contre les infections respiratoires ?",
+        "propositions": [
+          "Chanvre cultivé",
+          "Amarante caudée",
+          "Ivraie enivrante",
+          "Sarriette"
+        ],
+        "réponse": "Sarriette",
+        "anecdote": "Les feuilles sont utilisées comme condiment depuis l'Antiquité, à la fois pour relever les grillades, les sauces et les légumes."
+      },
+      {
+        "id": 16,
+        "question": "Quel fleur du Pakistan se retrouve dans « Absolutely Irrésistible » de Givenchy ?",
+        "propositions": [
+          "Ivraie enivrante",
+          "Ciguë",
+          "Jasmin blanc",
+          "Bryone dioïque"
+        ],
+        "réponse": "Jasmin blanc",
+        "anecdote": "Les fleurs de jasmin officinal sont utilisées en médecine chinoise pour refroidir le sang et restaurer l'équilibre des énergies."
+      },
+      {
+        "id": 17,
+        "question": "Quelle plante toxique présente en France mûrit en même temps que le blé ?",
+        "propositions": [
+          "Mandragore",
+          "Belladone",
+          "Datura",
+          "Ivraie enivrante"
+        ],
+        "réponse": "Ivraie enivrante",
+        "anecdote": "Absorbée accidentellement dans le pain, l'ivraie enivrante faisait tituber le sujet qui se comportait comme un homme ivre."
+      },
+      {
+        "id": 18,
+        "question": "Quelle plante à l'apparence vaguement humaine aurait des vertus magiques ?",
+        "propositions": [
+          "Benoîte commune",
+          "Coriandre",
+          "Mandragore",
+          "Hamamélis"
+        ],
+        "réponse": "Mandragore",
+        "anecdote": "La racine de mandragore traite les maladies de peau et la goutte, les feuilles sont quant à elles efficaces pour soigner les blessures."
+      },
+      {
+        "id": 19,
+        "question": "Quelle herbacée est réputée comme plante médicinale des pathologies cardiaques ?",
+        "propositions": [
+          "Genêt",
+          "Bryone dioïque",
+          "Digitale jaune",
+          "Fenouil sauvage"
+        ],
+        "réponse": "Digitale jaune",
+        "anecdote": "Aujourd'hui protégée, la Digitale jaune est moins prisée que la Digitale pourpre car elle contient moins de principes actifs."
+      },
+      {
+        "id": 20,
+        "question": "Quelle plante toxique aux baies noires contient de l'atropine ?",
+        "propositions": [
+          "Belladone",
+          "Digitale jaune",
+          "Mandragore",
+          "Ivraie enivrante"
+        ],
+        "réponse": "Belladone",
+        "anecdote": "Il est dangereux pour l'homme de manger ou de boire de la belle dame, car elle frappe son esprit et en quelque sorte le tue."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle plante herbacée vivace par sa racine augmenterait la tolérance à l'alcool ?",
+        "propositions": [
+          "Armoise vulgaire",
+          "Bryone dioïque",
+          "Hamamélis",
+          "Sarriette"
+        ],
+        "réponse": "Bryone dioïque",
+        "anecdote": "C'est une plante grimpante des haies, aux baies rouges et noires, dont la racine charnue est amylacée et fortement purgative."
+      },
+      {
+        "id": 22,
+        "question": "Quel nom est également donné à l'angélique des bois ou angélique sylvestre ?",
+        "propositions": [
+          "Herbe des dieux",
+          "Herbe à la fièvre",
+          "Herbe blanche",
+          "Herbe aux chats"
+        ],
+        "réponse": "Herbe à la fièvre",
+        "anecdote": "Selon la légende, l'angélique protégerait les enfants, combattrait la peste et guérirait des morsures des bêtes enragées."
+      },
+      {
+        "id": 23,
+        "question": "Quelle plante régularise le cycle des menstruations à la ménopause ?",
+        "propositions": [
+          "Benoîte commune",
+          "Ail des ours",
+          "Rue vineuse",
+          "Armoise vulgaire"
+        ],
+        "réponse": "Armoise vulgaire",
+        "anecdote": "Mise dans les chaussures, l'Armoise commune aurait également comme vertu de diminuer la fatigue pendant la marche."
+      },
+      {
+        "id": 24,
+        "question": "Quelle plante autrefois médicinale est utilisée pour parfumer l'eau-de-vie ?",
+        "propositions": [
+          "Barbe de Jupiter",
+          "Digitale jaune",
+          "Rue vineuse",
+          "Millepertuis perforé"
+        ],
+        "réponse": "Rue vineuse",
+        "anecdote": "Toxique à forte dose, une rumeur veut que la fille de Titus serait morte après en avoir consommé lors d'un avortement forcé."
+      },
+      {
+        "id": 25,
+        "question": "De quelle herbe employait-on la racine desséchée pour remplacer le clou de girofle ?",
+        "propositions": [
+          "Chanvre cultivé",
+          "Basilic",
+          "Hamamélis",
+          "Benoîte commune"
+        ],
+        "réponse": "Benoîte commune",
+        "anecdote": "Au Moyen Âge, l'Herbe du bon soldat était l'alliée des moines exorcistes qui utilisaient la benoîte pour chasser le diable."
+      },
+      {
+        "id": 26,
+        "question": "Quelle plante riche en vitamine C possède des propriétés amaigrissantes ?",
+        "propositions": [
+          "Ail des ours",
+          "Trèfle",
+          "Amarante caudée",
+          "Lin"
+        ],
+        "réponse": "Ail des ours",
+        "anecdote": "Selon une légende, après l'hibernation des ours, ces mammifères se mettraient en quête de ses feuilles pour se purger."
+      },
+      {
+        "id": 27,
+        "question": "Quelle plante toxique, utilisée en cataplasme, permet de soigner les verrues ?",
+        "propositions": [
+          "Fenouil sauvage",
+          "Arum tacheté",
+          "Lierre terrestre",
+          "Jasmin blanc"
+        ],
+        "réponse": "Arum tacheté",
+        "anecdote": "Les tubercules contiennent des cristaux d'oxalate de calcium qui les rendent impropres à la consommation sans préparation."
+      },
+      {
+        "id": 28,
+        "question": "Quelle plante fixée sur le toit des chaumières protégerait contre la foudre ?",
+        "propositions": [
+          "Poil de Zeus",
+          "Sourcil de Junon",
+          "Barbe de Jupiter",
+          "Bouc de Néron"
+        ],
+        "réponse": "Barbe de Jupiter",
+        "anecdote": "En France, la Joubarbe des toits se rencontre surtout dans le Jura, les Alpes, le Massif Central et les Pyrénées."
+      },
+      {
+        "id": 29,
+        "question": "Quelle plante jugée protectrice est la fleur nationale de la Norvège ?",
+        "propositions": [
+          "Genêt",
+          "Herbe à la fièvre",
+          "Callune",
+          "Digitale jaune"
+        ],
+        "réponse": "Callune",
+        "anecdote": "En Écosse, si une jeune fille trouve un brin de bruyère blanche (calluna vulgaris), elle est sûre de se marier dans l'année."
+      },
+      {
+        "id": 30,
+        "question": "Quelle plante a été surnommée l'herbe aux fous suite à ses effets délétères ?",
+        "propositions": [
+          "Coriandre",
+          "Fenouil sauvage",
+          "Datura",
+          "Callune"
+        ],
+        "réponse": "Datura",
+        "anecdote": "La pomme épineuse en onguent, en philtre ou en fumée provoque la déconnexion du réel, hallucinations et sommeil."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which plant becomes magical when it has at least four leaves ?",
+        "propositions": [
+          "Valerian officinalis",
+          "Clover",
+          "Fever Grass",
+          "Vine Street"
+        ],
+        "réponse": "Clover",
+        "anecdote": "A strong Irish tradition has it that Saint Patrick used the cloverleaf to illustrate the mystery of the Trinity."
+      },
+      {
+        "id": 2,
+        "question": "Which plant treated nerve trauma in war fighters ?",
+        "propositions": [
+          "Basil",
+          "Valerian officinalis",
+          "Jupiter's Beard",
+          "mugwort"
+        ],
+        "réponse": "Valerian officinalis",
+        "anecdote": "Once a powerful love potion, catnip is now mainly used in soporific herbal teas."
+      },
+      {
+        "id": 3,
+        "question": "The seeds of which plant found in our clothes would be diuretic ?",
+        "propositions": [
+          "witch hazel",
+          "Linen",
+          "hemlock",
+          "Coriander"
+        ],
+        "réponse": "Linen",
+        "anecdote": "It was Philippe de Girard who, with his linen spinning machine, converted the north of France into an industrial spinning centre."
+      },
+      {
+        "id": 4,
+        "question": "Which aromatic plant is offered in pharmacies as a dewormer ?",
+        "propositions": [
+          "Basil",
+          "Basil",
+          "Dature",
+          "Dioecious Bryony"
+        ],
+        "réponse": "Basil",
+        "anecdote": "Basil is widely used in Italian cuisine, with other varieties common in some Asian cuisines."
+      },
+      {
+        "id": 5,
+        "question": "What poisonous plant was the basis of the official poison of the Athenians ?",
+        "propositions": [
+          "common avens",
+          "hemlock",
+          "mugwort",
+          "Vine Street"
+        ],
+        "réponse": "hemlock",
+        "anecdote": "Socrates died after drinking hemlock while Mithridates VI became immune to it by taking increasing doses."
+      },
+      {
+        "id": 6,
+        "question": "Which plant with aphrodisiac properties is used in some gingerbread ?",
+        "propositions": [
+          "calluna",
+          "Ginger",
+          "Dature",
+          "Fever Grass"
+        ],
+        "réponse": "Ginger",
+        "anecdote": "Chapter 7 of the Kamasutra discusses its use in sexual practices : « Ginger aids in the lustful nature »."
+      },
+      {
+        "id": 7,
+        "question": "Which ground plant, the basis of curries, promotes sperm production ?",
+        "propositions": [
+          "Coriander",
+          "hemlock",
+          "White Jasmine",
+          "Ground ivy"
+        ],
+        "réponse": "Coriander",
+        "anecdote": "Coriander essential oil is used in the pharmaceutical industry to mask the bitterness of certain drugs."
+      },
+      {
+        "id": 8,
+        "question": "What plant is mentioned in the song « Purple Haze » by Jimi Hendrix ?",
+        "propositions": [
+          "calluna",
+          "Broom",
+          "Cultivated hemp",
+          "belladonna"
+        ],
+        "réponse": "Cultivated hemp",
+        "anecdote": "Originally from Central Asia, this plant is sometimes used in medicine but especially to make textiles and ropes."
+      },
+      {
+        "id": 9,
+        "question": "What plant was associated with clairvoyance in ancient Greece ?",
+        "propositions": [
+          "Cultivated hemp",
+          "Caudate amaranth",
+          "Ginger",
+          "Wild fennel"
+        ],
+        "réponse": "Wild fennel",
+        "anecdote": "The cultivation of common fennel was recommended in the royal domains by Charlemagne in the De Villis capitulary."
+      },
+      {
+        "id": 10,
+        "question": "What is the phytomedicine prescribed today against nervous breakdown ?",
+        "propositions": [
+          "Clover",
+          "Perforated St. John's Wort",
+          "Spotted Arum",
+          "Linen"
+        ],
+        "réponse": "Perforated St. John's Wort",
+        "anecdote": "The medicinal use of St. John's wort dates back at least 2,400 years, when Dioscorides recommended it in his prescriptions."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Despite its crimson red, visible from afar, what plant would make you invisible ?",
+        "propositions": [
+          "Spotted Arum",
+          "Caudate amaranth",
+          "Perforated St. John's Wort",
+          "Savory"
+        ],
+        "réponse": "Caudate amaranth",
+        "anecdote": "It is also called Kiwicha, from its name in the Quechua language in Peru, where it is cultivated for food purposes."
+      },
+      {
+        "id": 12,
+        "question": "What plant was used to preserve beer before the use of hops ?",
+        "propositions": [
+          "Linen",
+          "White Jasmine",
+          "Ground ivy",
+          "Spotted Arum"
+        ],
+        "réponse": "Ground ivy",
+        "anecdote": "Placed under the bed of young mothers, ivy had the virtue of giving them strength after the labor of childbirth."
+      },
+      {
+        "id": 13,
+        "question": "Which deciduous shrub can cure varicose veins and hemorrhoids ?",
+        "propositions": [
+          "witch hazel",
+          "Ginger",
+          "wild garlic",
+          "Clover"
+        ],
+        "réponse": "witch hazel",
+        "anecdote": "Witch hazel would also treat bruises, sprains, minor wounds, inflammation of the skin and mucous membranes."
+      },
+      {
+        "id": 14,
+        "question": "What dried shrub has long been used to make brooms ?",
+        "propositions": [
+          "Broom",
+          "Jupiter's Beard",
+          "Savory",
+          "Valerian officinalis"
+        ],
+        "réponse": "Broom",
+        "anecdote": "Traditionally, Scotch Broom flower was used as a diuretic and for the treatment of circulatory disorders."
+      },
+      {
+        "id": 15,
+        "question": "Which plant of choice is used against respiratory infections ?",
+        "propositions": [
+          "Intoxicating Tares",
+          "Savory",
+          "Caudate amaranth",
+          "Cultivated hemp"
+        ],
+        "réponse": "Savory",
+        "anecdote": "The leaves have been used as a condiment since ancient times, both to season grilled meats, sauces and vegetables."
+      },
+      {
+        "id": 16,
+        "question": "What flower from Pakistan is found in Givenchy's « Absolutely Irrésistible » ?",
+        "propositions": [
+          "White Jasmine",
+          "Intoxicating Tares",
+          "hemlock",
+          "Dioecious Bryony"
+        ],
+        "réponse": "White Jasmine",
+        "anecdote": "Jasmine flowers are used in Chinese medicine to cool the blood and restore the balance of energies."
+      },
+      {
+        "id": 17,
+        "question": "What flower from Pakistan is found in Givenchy's « Absolutely Irrésistible » ?",
+        "propositions": [
+          "White Jasmine",
+          "hemlock",
+          "Dioecious Bryony",
+          "Intoxicating Tares"
+        ],
+        "réponse": "White Jasmine",
+        "anecdote": "Jasmine flowers are used in Chinese medicine to cool the blood and restore the balance of energies."
+      },
+      {
+        "id": 18,
+        "question": "What plant with a vaguely human appearance would have magical virtues ?",
+        "propositions": [
+          "common avens",
+          "mandrake",
+          "Coriander",
+          "witch hazel"
+        ],
+        "réponse": "mandrake",
+        "anecdote": "Mandrake root treats skin diseases and gout, while the leaves are effective in healing wounds."
+      },
+      {
+        "id": 19,
+        "question": "Which herb is reputed to be the medicinal plant for cardiac pathologies ?",
+        "propositions": [
+          "Wild fennel",
+          "Dioecious Bryony",
+          "Broom",
+          "Yellow foxglove"
+        ],
+        "réponse": "Yellow foxglove",
+        "anecdote": "Now protected, Digitalis yellow is less popular than Digitalis purple because it contains fewer active ingredients."
+      },
+      {
+        "id": 20,
+        "question": "Which poisonous black berry plant contains atropine ?",
+        "propositions": [
+          "Intoxicating Tares",
+          "Yellow foxglove",
+          "mandrake",
+          "belladonna"
+        ],
+        "réponse": "belladonna",
+        "anecdote": "It is dangerous for the man to eat or drink from the beautiful lady, because she strikes his spirit and somehow kills him."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which herbaceous perennial by its root would increase alcohol tolerance ?",
+        "propositions": [
+          "Savory",
+          "witch hazel",
+          "Dioecious Bryony",
+          "mugwort"
+        ],
+        "réponse": "Dioecious Bryony",
+        "anecdote": "It is a climbing hedge plant, with red and black berries, whose fleshy root is starchy and strongly purgative."
+      },
+      {
+        "id": 22,
+        "question": "What name is also given to the angelica of the woods or angelica sylvester ?",
+        "propositions": [
+          "Catnip",
+          "Fever Grass",
+          "Grass of the Gods",
+          "White Grass"
+        ],
+        "réponse": "Fever Grass",
+        "anecdote": "According to legend, angelica would protect children, fight the plague and heal from the bites of rabid beasts."
+      },
+      {
+        "id": 23,
+        "question": "Which plant regulates the cycle of menstruation at menopause ?",
+        "propositions": [
+          "wild garlic",
+          "common avens",
+          "Vine Street",
+          "mugwort"
+        ],
+        "réponse": "mugwort",
+        "anecdote": "Put in shoes, Mugwort would also have the virtue of reducing fatigue while walking."
+      },
+      {
+        "id": 24,
+        "question": "Which once medicinal plant is used to flavor brandy ?",
+        "propositions": [
+          "Yellow foxglove",
+          "Perforated St. John's Wort",
+          "Vine Street",
+          "Jupiter's Beard"
+        ],
+        "réponse": "Vine Street",
+        "anecdote": "Toxic in high doses, a rumor has it that Titus' daughter died after consuming it during a forced abortion."
+      },
+      {
+        "id": 25,
+        "question": "Of what herb was the dried root used to replace the clove ?",
+        "propositions": [
+          "Basil",
+          "common avens",
+          "witch hazel",
+          "Cultivated hemp"
+        ],
+        "réponse": "common avens",
+        "anecdote": "In the Middle Ages, the Herb of the good soldier was the ally of exorcist monks who used avens to chase away the devil."
+      },
+      {
+        "id": 26,
+        "question": "Which plant rich in vitamin C has weight loss properties ?",
+        "propositions": [
+          "wild garlic",
+          "Linen",
+          "Clover",
+          "Caudate amaranth"
+        ],
+        "réponse": "wild garlic",
+        "anecdote": "According to a legend, after the bears hibernate, these mammals would go in search of its leaves to purge themselves."
+      },
+      {
+        "id": 27,
+        "question": "Which poisonous plant, used as a poultice, can cure warts ?",
+        "propositions": [
+          "Wild fennel",
+          "White Jasmine",
+          "Spotted Arum",
+          "Ground ivy"
+        ],
+        "réponse": "Spotted Arum",
+        "anecdote": "The tubers contain crystals of calcium oxalate which make them unsuitable for consumption without preparation."
+      },
+      {
+        "id": 28,
+        "question": "What plant attached to the roof of cottages would protect against lightning ?",
+        "propositions": [
+          "Hair of Zeus",
+          "Jupiter's Beard",
+          "Nero's Goat",
+          "Eyebrow of Juno"
+        ],
+        "réponse": "Jupiter's Beard",
+        "anecdote": "In France, the Houseleek of the roofs is found especially in the Jura, the Alps, the Massif Central and the Pyrenees."
+      },
+      {
+        "id": 29,
+        "question": "Which protective plant is Norway's national flower ?",
+        "propositions": [
+          "Yellow foxglove",
+          "Broom",
+          "Fever Grass",
+          "calluna"
+        ],
+        "réponse": "calluna",
+        "anecdote": "In Scotland, if a young girl finds a sprig of white heather (calluna vulgaris), she is sure to be married within a year."
+      },
+      {
+        "id": 30,
+        "question": "What plant has been dubbed mad grass due to its deleterious effects ?",
+        "propositions": [
+          "calluna",
+          "Wild fennel",
+          "Dature",
+          "Coriander"
+        ],
+        "réponse": "Dature",
+        "anecdote": "The thorny apple in ointment, potion or smoke causes disconnection from reality, hallucinations and sleep."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Pflanze wird magisch, wenn sie mindestens vier Blätter hat ?",
+        "propositions": [
+          "Baldrian officinalis",
+          "Fiebergras",
+          "Klee",
+          "Weinstraße"
+        ],
+        "réponse": "Klee",
+        "anecdote": "Eine starke irische Tradition besagt, dass der Heilige Patrick das Kleeblatt benutzte, um das Mysterium der Dreifaltigkeit zu veranschaulichen."
+      },
+      {
+        "id": 2,
+        "question": "Welche Pflanze behandelte Nervenverletzungen bei Kriegskämpfern ?",
+        "propositions": [
+          "Baldrian officinalis",
+          "Basilikum",
+          "Jupiters Bart",
+          "Beifuß"
+        ],
+        "réponse": "Baldrian officinalis",
+        "anecdote": "Einst ein starker Liebestrank, wird Katzenminze heute hauptsächlich in einschläfernden Kräutertees verwendet."
+      },
+      {
+        "id": 3,
+        "question": "Die Samen welcher Pflanze in unserer Kleidung wären harntreibend ?",
+        "propositions": [
+          "Leinen",
+          "Schierling",
+          "Koriander",
+          "Hamamelis"
+        ],
+        "réponse": "Leinen",
+        "anecdote": "Es war Philippe de Girard, der mit seiner Flachsspinnmaschine den Norden Frankreichs in ein industrielles Spinnzentrum verwandelte."
+      },
+      {
+        "id": 4,
+        "question": "Welche Gewürzpflanze wird in Apotheken als Entwurmungsmittel angeboten ?",
+        "propositions": [
+          "Basilikum",
+          "Zweihäusige Zaunrübe",
+          "Basilikum",
+          "Datum"
+        ],
+        "réponse": "Basilikum",
+        "anecdote": "Basilikum ist in der italienischen Küche weit verbreitet, andere Sorten sind in einigen asiatischen Küchen verbreitet."
+      },
+      {
+        "id": 5,
+        "question": "Welche Giftpflanze war die Grundlage des offiziellen Giftes der Athener ?",
+        "propositions": [
+          "Schierling",
+          "Weinstraße",
+          "Beifuß",
+          "Nelkenwurz"
+        ],
+        "réponse": "Schierling",
+        "anecdote": "Sokrates starb, nachdem er Hemlock getrunken hatte, während Mithridates VI durch die Einnahme zunehmender Dosen dagegen immun wurde."
+      },
+      {
+        "id": 6,
+        "question": "Welche Pflanze mit aphrodisischen Eigenschaften wird in einigen Lebkuchen verwendet ?",
+        "propositions": [
+          "Ingwer",
+          "Kallu",
+          "Datum",
+          "Fiebergras"
+        ],
+        "réponse": "Ingwer",
+        "anecdote": "Kapitel 7 des Kamasutra diskutiert seine Verwendung in sexuellen Praktiken : « Ingwer unterstützt die lustvolle Natur »."
+      },
+      {
+        "id": 7,
+        "question": "Welche Bodenpflanze, die Basis von Currys, fördert die Spermienproduktion ?",
+        "propositions": [
+          "Weißer Jasmin",
+          "Schierling",
+          "Gundermann",
+          "Koriander"
+        ],
+        "réponse": "Koriander",
+        "anecdote": "Ätherisches Korianderöl wird in der pharmazeutischen Industrie verwendet, um die Bitterkeit bestimmter Medikamente zu überdecken."
+      },
+      {
+        "id": 8,
+        "question": "Welche Pflanze wird im Song « Purple Haze » von Jimi Hendrix erwähnt ?",
+        "propositions": [
+          "Belladonna",
+          "Kulturhanf",
+          "Kallu",
+          "Besen"
+        ],
+        "réponse": "Kulturhanf",
+        "anecdote": "Diese ursprünglich aus Zentralasien stammende Pflanze wird manchmal in der Medizin, aber insbesondere zur Herstellung von Textilien und Seilen verwendet."
+      },
+      {
+        "id": 9,
+        "question": "Welche Pflanze wurde im antiken Griechenland mit Hellsehen in Verbindung gebracht ?",
+        "propositions": [
+          "Ingwer",
+          "Caudatus-Amaranth",
+          "Kulturhanf",
+          "Wilder Fenchel"
+        ],
+        "réponse": "Wilder Fenchel",
+        "anecdote": "Der Anbau von gemeinem Fenchel wurde in den königlichen Domänen von Karl dem Großen im Kapitel De Villis empfohlen."
+      },
+      {
+        "id": 10,
+        "question": "Was ist die heute verschriebene Phytomedizin gegen Nervenzusammenbruch ?",
+        "propositions": [
+          "Leinen",
+          "Klee",
+          "Perforiertes Johanniskraut",
+          "Gefleckter Aronstab"
+        ],
+        "réponse": "Perforiertes Johanniskraut",
+        "anecdote": "Die medizinische Verwendung von Johanniskraut reicht mindestens 2.400 Jahre zurück, als Dioskurides es in seinen Rezepten empfahl."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Pflanze würde Sie trotz ihres weithin sichtbaren Purpurrots unsichtbar machen ?",
+        "propositions": [
+          "Gefleckter Aronstab",
+          "Herzhaft",
+          "Perforiertes Johanniskraut",
+          "Caudatus-Amaranth"
+        ],
+        "réponse": "Caudatus-Amaranth",
+        "anecdote": "Es wird auch Kiwicha genannt, von seinem Namen in der Quechua-Sprache in Peru, wo es für Lebensmittelzwecke angebaut wird."
+      },
+      {
+        "id": 12,
+        "question": "Welche Pflanze wurde verwendet, um Bier vor der Verwendung von Hopfen haltbar zu machen ?",
+        "propositions": [
+          "Gundermann",
+          "Weißer Jasmin",
+          "Leinen",
+          "Gefleckter Aronstab"
+        ],
+        "réponse": "Gundermann",
+        "anecdote": "Unter dem Bett junger Mütter platziert, hatte Efeu die Tugend, ihnen Kraft nach der Geburt zu geben."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Laubstrauch kann Krampfadern und Hämorrhoiden heilen ?",
+        "propositions": [
+          "Bärlauch",
+          "Ingwer",
+          "Klee",
+          "Hamamelis"
+        ],
+        "réponse": "Hamamelis",
+        "anecdote": "Zaubernuss würde auch Prellungen, Verstauchungen, kleinere Wunden, Entzündungen der Haut und der Schleimhäute behandeln."
+      },
+      {
+        "id": 14,
+        "question": "Welcher getrocknete Strauch wird seit langem zur Herstellung von Besen verwendet ?",
+        "propositions": [
+          "Herzhaft",
+          "Baldrian officinalis",
+          "Besen",
+          "Jupiters Bart"
+        ],
+        "réponse": "Besen",
+        "anecdote": "Traditionell wurde die Ginsterblüte als Diuretikum und zur Behandlung von Durchblutungsstörungen eingesetzt."
+      },
+      {
+        "id": 15,
+        "question": "Welche Pflanze der Wahl wird gegen Atemwegsinfektionen eingesetzt ?",
+        "propositions": [
+          "Kulturhanf",
+          "Caudatus-Amaranth",
+          "Berauschendes Unkraut",
+          "Herzhaft"
+        ],
+        "réponse": "Herzhaft",
+        "anecdote": "Die Blätter werden seit der Antike als Gewürz verwendet, sowohl zum Würzen von gegrilltem Fleisch, Saucen als auch von Gemüse."
+      },
+      {
+        "id": 16,
+        "question": "Welche Blume aus Pakistan ist in Givenchys « Absolutely Irrésistible » zu finden ?",
+        "propositions": [
+          "Weißer Jasmin",
+          "Berauschendes Unkraut",
+          "Zweihäusige Zaunrübe",
+          "Schierling"
+        ],
+        "réponse": "Weißer Jasmin",
+        "anecdote": "Jasminblüten werden in der chinesischen Medizin verwendet, um das Blut zu kühlen und das Gleichgewicht der Energien wiederherzustellen."
+      },
+      {
+        "id": 17,
+        "question": "Welche Blume aus Pakistan ist in Givenchys « Absolutely Irrésistible » zu finden ?",
+        "propositions": [
+          "Berauschendes Unkraut",
+          "Schierling",
+          "Zweihäusige Zaunrübe",
+          "Weißer Jasmin"
+        ],
+        "réponse": "Weißer Jasmin",
+        "anecdote": "Jasminblüten werden in der chinesischen Medizin verwendet, um das Blut zu kühlen und das Gleichgewicht der Energien wiederherzustellen."
+      },
+      {
+        "id": 18,
+        "question": "Welche Pflanze mit einem vage menschlichen Aussehen hätte magische Tugenden ?",
+        "propositions": [
+          "Nelkenwurz",
+          "Alraune",
+          "Hamamelis",
+          "Koriander"
+        ],
+        "réponse": "Alraune",
+        "anecdote": "Alraunenwurzel behandelt Hautkrankheiten und Gicht, während die Blätter bei der Heilung von Wunden wirksam sind."
+      },
+      {
+        "id": 19,
+        "question": "Welches Kraut gilt als Heilpflanze bei Herzerkrankungen ?",
+        "propositions": [
+          "Gelber Fingerhut",
+          "Zweihäusige Zaunrübe",
+          "Wilder Fenchel",
+          "Besen"
+        ],
+        "réponse": "Gelber Fingerhut",
+        "anecdote": "Jetzt geschützt, ist Digitalis gelb weniger beliebt als Digitalis lila, weil es weniger Wirkstoffe enthält."
+      },
+      {
+        "id": 20,
+        "question": "Welche giftige Brombeerpflanze enthält Atropin ?",
+        "propositions": [
+          "Alraune",
+          "Gelber Fingerhut",
+          "Berauschendes Unkraut",
+          "Belladonna"
+        ],
+        "réponse": "Belladonna",
+        "anecdote": "Es ist gefährlich für den Mann, von der schönen Dame zu essen oder zu trinken, weil sie seinen Geist trifft und ihn irgendwie tötet."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Staude würde durch ihre Wurzel die Alkoholtoleranz erhöhen ?",
+        "propositions": [
+          "Hamamelis",
+          "Beifuß",
+          "Herzhaft",
+          "Zweihäusige Zaunrübe"
+        ],
+        "réponse": "Zweihäusige Zaunrübe",
+        "anecdote": "Es ist eine Kletterheckenpflanze mit roten und schwarzen Beeren, deren fleischige Wurzel stärkehaltig und stark abführend ist."
+      },
+      {
+        "id": 22,
+        "question": "Wie wird die Engelwurz des Waldes oder die Sylvester-Engelwurz auch genannt ?",
+        "propositions": [
+          "Katzenminze",
+          "Gras der Götter",
+          "Fiebergras",
+          "Weißes Gras"
+        ],
+        "réponse": "Fiebergras",
+        "anecdote": "Der Legende nach schützte Engelwurz Kinder, bekämpfte die Pest und heilte von den Bissen tollwütiger Bestien."
+      },
+      {
+        "id": 23,
+        "question": "Welche Pflanze reguliert den Menstruationszyklus in den Wechseljahren ?",
+        "propositions": [
+          "Weinstraße",
+          "Nelkenwurz",
+          "Bärlauch",
+          "Beifuß"
+        ],
+        "réponse": "Beifuß",
+        "anecdote": "In Schuhe gesteckt, hätte Beifuß auch die Eigenschaft, die Ermüdung beim Gehen zu reduzieren."
+      },
+      {
+        "id": 24,
+        "question": "Welche einstige Heilpflanze wird zum Würzen von Weinbrand verwendet ?",
+        "propositions": [
+          "Weinstraße",
+          "Perforiertes Johanniskraut",
+          "Jupiters Bart",
+          "Gelber Fingerhut"
+        ],
+        "réponse": "Weinstraße",
+        "anecdote": "In hohen Dosen giftig, geht ein Gerücht um, dass die Tochter von Titus starb, nachdem sie es während einer erzwungenen Abtreibung konsumiert hatte."
+      },
+      {
+        "id": 25,
+        "question": "Von welchem Kraut wurde die getrocknete Wurzel verwendet, um die Gewürznelke zu ersetzen ?",
+        "propositions": [
+          "Basilikum",
+          "Nelkenwurz",
+          "Hamamelis",
+          "Kulturhanf"
+        ],
+        "réponse": "Nelkenwurz",
+        "anecdote": "Im Mittelalter war das Kraut des guten Soldaten der Verbündete exorzistischer Mönche, die mit der Nelkenwurz den Teufel verjagten."
+      },
+      {
+        "id": 26,
+        "question": "Welche Pflanze, die reich an Vitamin C ist, hat Eigenschaften zum Abnehmen ?",
+        "propositions": [
+          "Caudatus-Amaranth",
+          "Bärlauch",
+          "Leinen",
+          "Klee"
+        ],
+        "réponse": "Bärlauch",
+        "anecdote": "Einer Legende nach machten sich diese Säugetiere nach dem Winterschlaf auf die Suche nach den Blättern, um sich zu reinigen."
+      },
+      {
+        "id": 27,
+        "question": "Welche giftige Pflanze, die als Umschlag verwendet wird, kann Warzen heilen ?",
+        "propositions": [
+          "Gundermann",
+          "Weißer Jasmin",
+          "Gefleckter Aronstab",
+          "Wilder Fenchel"
+        ],
+        "réponse": "Gefleckter Aronstab",
+        "anecdote": "Die Knollen enthalten Kristalle von Calciumoxalat, die sie für den Verzehr ohne Zubereitung ungeeignet machen."
+      },
+      {
+        "id": 28,
+        "question": "Welche Pflanze auf dem Dach von Hütten würde vor Blitzschlag schützen ?",
+        "propositions": [
+          "Augenbraue von Juno",
+          "Haare des Zeus",
+          "Jupiters Bart",
+          "Neros Ziege"
+        ],
+        "réponse": "Jupiters Bart",
+        "anecdote": "In Frankreich kommt die Hauswurz der Dächer vor allem im Jura, den Alpen, dem Zentralmassiv und den Pyrenäen vor."
+      },
+      {
+        "id": 29,
+        "question": "Welche Schutzpflanze ist Norwegens Nationalblume ?",
+        "propositions": [
+          "Fiebergras",
+          "Kallu",
+          "Gelber Fingerhut",
+          "Besen"
+        ],
+        "réponse": "Kallu",
+        "anecdote": "Wenn ein junges Mädchen in Schottland einen Zweig weißes Heidekraut (Calluna vulgaris) findet, ist es sicher, dass es innerhalb eines Jahres verheiratet ist."
+      },
+      {
+        "id": 30,
+        "question": "Welche Pflanze wurde aufgrund ihrer schädlichen Wirkung als Tollwurz bezeichnet ?",
+        "propositions": [
+          "Kallu",
+          "Wilder Fenchel",
+          "Koriander",
+          "Datum"
+        ],
+        "réponse": "Datum",
+        "anecdote": "Der Dornapfel in Salbe, Trank oder Rauch verursacht Realitätsverlust, Halluzinationen und Schlaf."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué planta se vuelve mágica cuando tiene al menos cuatro hojas ?",
+        "propositions": [
+          "trébol",
+          "Calle de la vid",
+          "hierba de la fiebre",
+          "Valeriana officinalis"
+        ],
+        "réponse": "trébol",
+        "anecdote": "Una fuerte tradición irlandesa dice que San Patricio usó la hoja de trébol para ilustrar el misterio de la Trinidad."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué planta trató el trauma nervioso en los combatientes de guerra ?",
+        "propositions": [
+          "Barba de Júpiter",
+          "Valeriana officinalis",
+          "artemisa",
+          "Albahaca"
+        ],
+        "réponse": "Valeriana officinalis",
+        "anecdote": "Una vez que fue una poderosa poción de amor, la hierba gatera ahora se usa principalmente en tés de hierbas soporíferos."
+      },
+      {
+        "id": 3,
+        "question": "¿Las semillas de qué planta que encontramos en nuestra ropa serían diuréticas ?",
+        "propositions": [
+          "hamamelis",
+          "Cilantro",
+          "cicuta",
+          "Lino"
+        ],
+        "réponse": "Lino",
+        "anecdote": "Fue Philippe de Girard quien, con su máquina de hilar lino, convirtió el norte de Francia en un centro industrial de hilados."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué planta aromática se ofrece en las farmacias como antiparasitario ?",
+        "propositions": [
+          "Albahaca",
+          "Fecha",
+          "Albahaca",
+          "Bryonia dioica"
+        ],
+        "réponse": "Albahaca",
+        "anecdote": "La albahaca se usa ampliamente en la cocina italiana, con otras variedades comunes en algunas cocinas asiáticas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué planta venenosa fue la base del veneno oficial de los atenienses ?",
+        "propositions": [
+          "cicuta",
+          "artemisa",
+          "avens comunes",
+          "Calle de la vid"
+        ],
+        "réponse": "cicuta",
+        "anecdote": "Sócrates murió después de beber cicuta, mientras que Mitrídates VI se volvió inmune tomando dosis crecientes."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué planta con propiedades afrodisíacas se usa en algunos panes de jengibre ?",
+        "propositions": [
+          "calluna",
+          "jengibre",
+          "Fecha",
+          "hierba de la fiebre"
+        ],
+        "réponse": "jengibre",
+        "anecdote": "El capítulo 7 del Kamasutra analiza su uso en las prácticas sexuales : « El jengibre ayuda en la naturaleza lujuriosa »."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué planta molida, la base del curry, promueve la producción de esperma ?",
+        "propositions": [
+          "Jazmín blanco",
+          "Hiedra terrestre",
+          "Cilantro",
+          "cicuta"
+        ],
+        "réponse": "Cilantro",
+        "anecdote": "El aceite esencial de cilantro se usa en la industria farmacéutica para enmascarar el amargor de ciertos medicamentos."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué planta se menciona en la canción « Purple Haze » de Jimi Hendrix ?",
+        "propositions": [
+          "Cáñamo cultivado",
+          "calluna",
+          "Escoba",
+          "belladona"
+        ],
+        "réponse": "Cáñamo cultivado",
+        "anecdote": "Originaria de Asia Central, esta planta se usa a veces en medicina, pero especialmente para hacer textiles y cuerdas."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué planta estaba asociada con la clarividencia en la antigua Grecia ?",
+        "propositions": [
+          "Hinojo silvestre",
+          "jengibre",
+          "Cáñamo cultivado",
+          "amaranto caudado"
+        ],
+        "réponse": "Hinojo silvestre",
+        "anecdote": "El cultivo del hinojo común fue recomendado en los dominios reales por Carlomagno en el capítulo De Villis."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál es el fitomedicamento prescrito hoy contra la crisis nerviosa ?",
+        "propositions": [
+          "Lino",
+          "Arum manchado",
+          "trébol",
+          "Hierba de San Juan perforada"
+        ],
+        "réponse": "Hierba de San Juan perforada",
+        "anecdote": "El uso medicinal de la hierba de San Juan se remonta al menos a 2.400 años, cuando Dioscórides la recomendaba en sus recetas."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "A pesar de su rojo carmesí, visible desde lejos, ¿qué planta te haría invisible ?",
+        "propositions": [
+          "Salado",
+          "amaranto caudado",
+          "Arum manchado",
+          "Hierba de San Juan perforada"
+        ],
+        "réponse": "amaranto caudado",
+        "anecdote": "También se le llama Kiwicha, por su nombre en lengua quechua en Perú, donde se cultiva con fines alimentarios."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué planta se usaba para conservar la cerveza antes del uso del lúpulo ?",
+        "propositions": [
+          "Hiedra terrestre",
+          "Lino",
+          "Arum manchado",
+          "Jazmín blanco"
+        ],
+        "réponse": "Hiedra terrestre",
+        "anecdote": "Colocada debajo de la cama de las madres jóvenes, la hiedra tenía la virtud de darles fuerza después del parto."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué arbusto de hoja caduca puede curar las venas varicosas y las hemorroides ?",
+        "propositions": [
+          "trébol",
+          "jengibre",
+          "hamamelis",
+          "ajo silvestre"
+        ],
+        "réponse": "hamamelis",
+        "anecdote": "El hamamelis también trataría contusiones, esguinces, heridas menores, inflamación de la piel y las membranas mucosas."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué arbusto seco se ha usado durante mucho tiempo para hacer escobas ?",
+        "propositions": [
+          "Valeriana officinalis",
+          "Salado",
+          "Barba de Júpiter",
+          "Escoba"
+        ],
+        "réponse": "Escoba",
+        "anecdote": "Tradicionalmente, la flor de Scotch Broom se usaba como diurético y para el tratamiento de trastornos circulatorios."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué planta de elección se utiliza contra las infecciones respiratorias ?",
+        "propositions": [
+          "Cáñamo cultivado",
+          "Salado",
+          "La cizaña embriagadora",
+          "amaranto caudado"
+        ],
+        "réponse": "Salado",
+        "anecdote": "Las hojas se han utilizado como condimento desde la antigüedad, tanto para sazonar carnes a la brasa, salsas y verduras."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué flor de Pakistán se encuentra en « Absolutely Irrésistible » de Givenchy ?",
+        "propositions": [
+          "Bryonia dioica",
+          "Jazmín blanco",
+          "La cizaña embriagadora",
+          "cicuta"
+        ],
+        "réponse": "Jazmín blanco",
+        "anecdote": "Las flores de jazmín se utilizan en la medicina china para refrescar la sangre y restablecer el equilibrio de las energías."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué flor de Pakistán se encuentra en « Absolutely Irrésistible » de Givenchy ?",
+        "propositions": [
+          "Jazmín blanco",
+          "Bryonia dioica",
+          "cicuta",
+          "La cizaña embriagadora"
+        ],
+        "réponse": "Jazmín blanco",
+        "anecdote": "Las flores de jazmín se utilizan en la medicina china para refrescar la sangre y restablecer el equilibrio de las energías."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué planta de apariencia vagamente humana tendría virtudes mágicas ?",
+        "propositions": [
+          "avens comunes",
+          "Cilantro",
+          "mandrágora",
+          "hamamelis"
+        ],
+        "réponse": "mandrágora",
+        "anecdote": "La raíz de mandrágora trata las enfermedades de la piel y la gota, mientras que las hojas son eficaces para curar heridas."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué hierba tiene fama de ser la planta medicinal para las patologías cardíacas ?",
+        "propositions": [
+          "Dedalera amarilla",
+          "Hinojo silvestre",
+          "Bryonia dioica",
+          "Escoba"
+        ],
+        "réponse": "Dedalera amarilla",
+        "anecdote": "Ahora protegido, Digitalis yellow es menos popular que Digitalis purple porque contiene menos ingredientes activos."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué planta venenosa de bayas negras contiene atropina ?",
+        "propositions": [
+          "mandrágora",
+          "belladona",
+          "La cizaña embriagadora",
+          "Dedalera amarilla"
+        ],
+        "réponse": "belladona",
+        "anecdote": "Es peligroso para el hombre comer o beber de la bella dama, porque ella golpea su espíritu y de alguna manera lo mata."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué herbácea perenne por su raíz aumentaría la tolerancia al alcohol ?",
+        "propositions": [
+          "Salado",
+          "hamamelis",
+          "artemisa",
+          "Bryonia dioica"
+        ],
+        "réponse": "Bryonia dioica",
+        "anecdote": "Es una planta de seto trepador, con bayas rojas y negras, cuya raíz carnosa es almidonosa y fuertemente purgante."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué nombre se le da también a la angélica del bosque o angélica sylvester ?",
+        "propositions": [
+          "hierba de la fiebre",
+          "Hierba de los Dioses",
+          "hierba gatera",
+          "hierba blanca"
+        ],
+        "réponse": "hierba de la fiebre",
+        "anecdote": "Según la leyenda, angélica protegería a los niños, combatiría la peste y se curaría de las mordeduras de las bestias rabiosas."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué planta regula el ciclo de la menstruación en la menopausia ?",
+        "propositions": [
+          "artemisa",
+          "Calle de la vid",
+          "ajo silvestre",
+          "avens comunes"
+        ],
+        "réponse": "artemisa",
+        "anecdote": "Ponerse en los zapatos, Artemisa también tendría la virtud de reducir la fatiga al caminar."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué antigua planta medicinal se utiliza para aromatizar el brandy ?",
+        "propositions": [
+          "Calle de la vid",
+          "Barba de Júpiter",
+          "Dedalera amarilla",
+          "Hierba de San Juan perforada"
+        ],
+        "réponse": "Calle de la vid",
+        "anecdote": "Tóxico en altas dosis, corre el rumor de que la hija de Titus murió tras consumirlo durante un aborto forzado."
+      },
+      {
+        "id": 25,
+        "question": "¿De qué hierba se usó la raíz seca para reemplazar el clavo ?",
+        "propositions": [
+          "Cáñamo cultivado",
+          "avens comunes",
+          "Albahaca",
+          "hamamelis"
+        ],
+        "réponse": "avens comunes",
+        "anecdote": "En la Edad Media, la hierba del buen soldado era la aliada de los monjes exorcistas que usaban avens para ahuyentar al diablo."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué planta rica en vitamina C tiene propiedades para adelgazar ?",
+        "propositions": [
+          "trébol",
+          "ajo silvestre",
+          "Lino",
+          "amaranto caudado"
+        ],
+        "réponse": "ajo silvestre",
+        "anecdote": "Según una leyenda, después de que los osos hibernan, estos mamíferos irían en busca de sus hojas para purgarse."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué planta venenosa, utilizada como cataplasma, puede curar las verrugas ?",
+        "propositions": [
+          "Hinojo silvestre",
+          "Hiedra terrestre",
+          "Arum manchado",
+          "Jazmín blanco"
+        ],
+        "réponse": "Arum manchado",
+        "anecdote": "Los tubérculos contienen cristales de oxalato de calcio que los hacen inadecuados para el consumo sin preparación."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué planta adherida al techo de las cabañas protegería contra los rayos ?",
+        "propositions": [
+          "Cabra de Nerón",
+          "Ceja de Juno",
+          "Barba de Júpiter",
+          "Cabello de Zeus"
+        ],
+        "réponse": "Barba de Júpiter",
+        "anecdote": "En Francia, la Houseleek de los tejados se encuentra especialmente en el Jura, los Alpes, el Macizo Central y los Pirineos."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué planta protectora es la flor nacional de Noruega ?",
+        "propositions": [
+          "hierba de la fiebre",
+          "Escoba",
+          "Dedalera amarilla",
+          "calluna"
+        ],
+        "réponse": "calluna",
+        "anecdote": "En Escocia, si una joven encuentra una ramita de brezo blanco (calluna vulgaris), seguramente se casará dentro de un año."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué planta ha sido apodada hierba loca debido a sus efectos nocivos ?",
+        "propositions": [
+          "Cilantro",
+          "Hinojo silvestre",
+          "calluna",
+          "Fecha"
+        ],
+        "réponse": "Fecha",
+        "anecdote": "La manzana espinosa en pomada, poción o humo provoca desconexión de la realidad, alucinaciones y sueño."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale pianta diventa magica quando ha almeno quattro foglie ?",
+        "propositions": [
+          "Febbre Erba",
+          "trifoglio",
+          "Valeriana officinalis",
+          "Via della vite"
+        ],
+        "réponse": "trifoglio",
+        "anecdote": "Una forte tradizione irlandese vuole che San Patrizio usasse il quadrifoglio per illustrare il mistero della Trinità."
+      },
+      {
+        "id": 2,
+        "question": "Quale pianta ha curato il trauma nervoso nei combattenti di guerra ?",
+        "propositions": [
+          "artemisia",
+          "Valeriana officinalis",
+          "Basilio",
+          "Barba di Giove"
+        ],
+        "réponse": "Valeriana officinalis",
+        "anecdote": "Un tempo potente pozione d'amore, l'erba gatta è ora usata principalmente nelle tisane soporifere."
+      },
+      {
+        "id": 3,
+        "question": "I semi di quale pianta trovata nei nostri vestiti sarebbero diuretici ?",
+        "propositions": [
+          "coriandolo",
+          "amamelide",
+          "cicuta",
+          "Lino"
+        ],
+        "réponse": "Lino",
+        "anecdote": "Fu Philippe de Girard che, con il suo filatoio di lino, trasformò il nord della Francia in un centro di filatura industriale."
+      },
+      {
+        "id": 4,
+        "question": "Quale pianta aromatica viene offerta in farmacia come vermifugo ?",
+        "propositions": [
+          "Dioico Bryony",
+          "Basilio",
+          "Basilio",
+          "Datura"
+        ],
+        "réponse": "Basilio",
+        "anecdote": "Il basilico è ampiamente utilizzato nella cucina italiana, con altre varietà comuni in alcune cucine asiatiche."
+      },
+      {
+        "id": 5,
+        "question": "Quale pianta velenosa era alla base del veleno ufficiale degli Ateniesi ?",
+        "propositions": [
+          "aven comuni",
+          "Via della vite",
+          "cicuta",
+          "artemisia"
+        ],
+        "réponse": "cicuta",
+        "anecdote": "Socrate morì dopo aver bevuto la cicuta mentre Mitridate VI ne divenne immune assumendo dosi crescenti."
+      },
+      {
+        "id": 6,
+        "question": "Quale pianta dalle proprietà afrodisiache viene utilizzata in alcuni pan di zenzero ?",
+        "propositions": [
+          "Febbre Erba",
+          "Datura",
+          "calluna",
+          "zenzero"
+        ],
+        "réponse": "zenzero",
+        "anecdote": "Il capitolo 7 del Kamasutra ne discute l'uso nelle pratiche sessuali : « Lo zenzero aiuta nella natura lussuriosa »."
+      },
+      {
+        "id": 7,
+        "question": "Quale pianta macinata, alla base del curry, favorisce la produzione di sperma ?",
+        "propositions": [
+          "cicuta",
+          "Edera terrestre",
+          "Gelsomino bianco",
+          "coriandolo"
+        ],
+        "réponse": "coriandolo",
+        "anecdote": "L'olio essenziale di coriandolo viene utilizzato nell'industria farmaceutica per mascherare l'amaro di alcuni farmaci."
+      },
+      {
+        "id": 8,
+        "question": "Quale pianta è menzionata nella canzone « Purple Haze » di Jimi Hendrix ?",
+        "propositions": [
+          "Canapa coltivata",
+          "belladonna",
+          "scopa",
+          "calluna"
+        ],
+        "réponse": "Canapa coltivata",
+        "anecdote": "Originaria dell'Asia centrale, questa pianta è talvolta usata in medicina ma soprattutto per realizzare tessuti e corde."
+      },
+      {
+        "id": 9,
+        "question": "Quale pianta era associata alla chiaroveggenza nell'antica Grecia ?",
+        "propositions": [
+          "amaranto caudato",
+          "zenzero",
+          "Canapa coltivata",
+          "Finocchietto selvatico"
+        ],
+        "réponse": "Finocchietto selvatico",
+        "anecdote": "La coltivazione del finocchio comune fu raccomandata nei domini reali da Carlo Magno nel capitolo De Villis."
+      },
+      {
+        "id": 10,
+        "question": "Qual è la fitomedicina oggi prescritta contro l'esaurimento nervoso ?",
+        "propositions": [
+          "Erba di San Giovanni perforata",
+          "trifoglio",
+          "Lino",
+          "Arum maculato"
+        ],
+        "réponse": "Erba di San Giovanni perforata",
+        "anecdote": "L'uso medicinale dell'erba di San Giovanni risale ad almeno 2400 anni fa, quando Dioscoride la raccomandava nelle sue prescrizioni."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Nonostante il suo rosso cremisi, visibile da lontano, quale pianta ti renderebbe invisibile ?",
+        "propositions": [
+          "Erba di San Giovanni perforata",
+          "Arum maculato",
+          "amaranto caudato",
+          "salato"
+        ],
+        "réponse": "amaranto caudato",
+        "anecdote": "Viene anche chiamato Kiwicha, dal suo nome in lingua quechua in Perù, dove viene coltivato a scopo alimentare."
+      },
+      {
+        "id": 12,
+        "question": "Quale pianta veniva utilizzata per conservare la birra prima dell'uso del luppolo ?",
+        "propositions": [
+          "Gelsomino bianco",
+          "Lino",
+          "Arum maculato",
+          "Edera terrestre"
+        ],
+        "réponse": "Edera terrestre",
+        "anecdote": "Posta sotto il letto delle giovani madri, l'edera aveva la virtù di dar loro forza dopo il travaglio del parto."
+      },
+      {
+        "id": 13,
+        "question": "Quale arbusto deciduo può curare le vene varicose e le emorroidi ?",
+        "propositions": [
+          "aglio selvatico",
+          "trifoglio",
+          "amamelide",
+          "zenzero"
+        ],
+        "réponse": "amamelide",
+        "anecdote": "Amamelide curerebbe anche lividi, distorsioni, ferite minori, infiammazioni della pelle e delle mucose."
+      },
+      {
+        "id": 14,
+        "question": "Quale arbusto essiccato è stato a lungo utilizzato per fare le scope ?",
+        "propositions": [
+          "salato",
+          "scopa",
+          "Valeriana officinalis",
+          "Barba di Giove"
+        ],
+        "réponse": "scopa",
+        "anecdote": "Tradizionalmente, il fiore di Scotch Broom era usato come diuretico e per il trattamento dei disturbi circolatori."
+      },
+      {
+        "id": 15,
+        "question": "Quale pianta preferita viene utilizzata contro le infezioni respiratorie ?",
+        "propositions": [
+          "Canapa coltivata",
+          "salato",
+          "Tares inebrianti",
+          "amaranto caudato"
+        ],
+        "réponse": "salato",
+        "anecdote": "Le foglie sono state usate come condimento fin dall'antichità, sia per condire carni alla griglia, salse e verdure."
+      },
+      {
+        "id": 16,
+        "question": "Quale fiore del Pakistan si trova in « Absolutely Irrésistible » di Givenchy ?",
+        "propositions": [
+          "Dioico Bryony",
+          "cicuta",
+          "Gelsomino bianco",
+          "Tares inebrianti"
+        ],
+        "réponse": "Gelsomino bianco",
+        "anecdote": "I fiori di gelsomino sono usati nella medicina cinese per raffreddare il sangue e ripristinare l'equilibrio delle energie."
+      },
+      {
+        "id": 17,
+        "question": "Quale fiore del Pakistan si trova in « Absolutely Irrésistible » di Givenchy ?",
+        "propositions": [
+          "Gelsomino bianco",
+          "Dioico Bryony",
+          "cicuta",
+          "Tares inebrianti"
+        ],
+        "réponse": "Gelsomino bianco",
+        "anecdote": "I fiori di gelsomino sono usati nella medicina cinese per raffreddare il sangue e ripristinare l'equilibrio delle energie."
+      },
+      {
+        "id": 18,
+        "question": "Quale pianta dall'aspetto vagamente umano avrebbe virtù magiche ?",
+        "propositions": [
+          "coriandolo",
+          "aven comuni",
+          "mandragora",
+          "amamelide"
+        ],
+        "réponse": "mandragora",
+        "anecdote": "La radice di mandragora cura le malattie della pelle e la gotta, mentre le foglie sono efficaci nella guarigione delle ferite."
+      },
+      {
+        "id": 19,
+        "question": "Quale erba è considerata la pianta medicinale per le patologie cardiache ?",
+        "propositions": [
+          "scopa",
+          "Digitale gialla",
+          "Finocchietto selvatico",
+          "Dioico Bryony"
+        ],
+        "réponse": "Digitale gialla",
+        "anecdote": "Ora protetto, il giallo digitale è meno popolare del viola digitale perché contiene meno principi attivi."
+      },
+      {
+        "id": 20,
+        "question": "Quale pianta velenosa di bacche nere contiene atropina ?",
+        "propositions": [
+          "belladonna",
+          "Tares inebrianti",
+          "mandragora",
+          "Digitale gialla"
+        ],
+        "réponse": "belladonna",
+        "anecdote": "È pericoloso per l'uomo mangiare o bere dalla bella signora, perché colpisce il suo spirito e in qualche modo lo uccide."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale erbacea perenne per radice aumenterebbe la tolleranza all'alcol ?",
+        "propositions": [
+          "artemisia",
+          "Dioico Bryony",
+          "amamelide",
+          "salato"
+        ],
+        "réponse": "Dioico Bryony",
+        "anecdote": "Si tratta di una pianta rampicante da siepe, con bacche rosse e nere, la cui radice carnosa è amidacea e fortemente purgativa."
+      },
+      {
+        "id": 22,
+        "question": "Quale nome viene dato anche all'angelica dei boschi o angelica sylvester ?",
+        "propositions": [
+          "Febbre Erba",
+          "erba gatta",
+          "Erba degli Dei",
+          "Erba bianca"
+        ],
+        "réponse": "Febbre Erba",
+        "anecdote": "Secondo la leggenda, l'angelica avrebbe protetto i bambini, combattuto la peste e guarito dai morsi delle bestie rabbiose."
+      },
+      {
+        "id": 23,
+        "question": "Quale pianta regola il ciclo mestruale in menopausa ?",
+        "propositions": [
+          "artemisia",
+          "Via della vite",
+          "aven comuni",
+          "aglio selvatico"
+        ],
+        "réponse": "artemisia",
+        "anecdote": "Messa nelle scarpe, l'Artemisia avrebbe anche il pregio di ridurre la fatica mentre si cammina."
+      },
+      {
+        "id": 24,
+        "question": "Quale pianta un tempo medicinale viene usata per aromatizzare il brandy ?",
+        "propositions": [
+          "Erba di San Giovanni perforata",
+          "Digitale gialla",
+          "Via della vite",
+          "Barba di Giove"
+        ],
+        "réponse": "Via della vite",
+        "anecdote": "Tossico ad alte dosi, si dice che la figlia di Titus sia morta dopo averla consumata durante un aborto forzato."
+      },
+      {
+        "id": 25,
+        "question": "Di quale erba veniva usata la radice essiccata per sostituire il chiodo di garofano ?",
+        "propositions": [
+          "Basilio",
+          "Canapa coltivata",
+          "aven comuni",
+          "amamelide"
+        ],
+        "réponse": "aven comuni",
+        "anecdote": "Nel medioevo l'erba del buon soldato era alleata dei monaci esorcisti che usavano gli aven per scacciare il diavolo."
+      },
+      {
+        "id": 26,
+        "question": "Quale pianta ricca di vitamina C ha proprietà dimagranti ?",
+        "propositions": [
+          "amaranto caudato",
+          "Lino",
+          "aglio selvatico",
+          "trifoglio"
+        ],
+        "réponse": "aglio selvatico",
+        "anecdote": "Secondo una leggenda, dopo il letargo degli orsi, questi mammiferi sarebbero andati alla ricerca delle sue foglie per purificarsi."
+      },
+      {
+        "id": 27,
+        "question": "Quale pianta velenosa, usata come cataplasma, può curare le verruche ?",
+        "propositions": [
+          "Finocchietto selvatico",
+          "Arum maculato",
+          "Edera terrestre",
+          "Gelsomino bianco"
+        ],
+        "réponse": "Arum maculato",
+        "anecdote": "I tuberi contengono cristalli di ossalato di calcio che li rendono inadatti al consumo senza preparazione."
+      },
+      {
+        "id": 28,
+        "question": "Quale pianta attaccata al tetto dei cottage proteggerebbe dai fulmini ?",
+        "propositions": [
+          "Barba di Giove",
+          "Capelli di Zeus",
+          "Sopracciglio di Giunone",
+          "Capra di Nerone"
+        ],
+        "réponse": "Barba di Giove",
+        "anecdote": "In Francia il Semprevivo dei tetti si trova soprattutto nel Giura, nelle Alpi, nel Massiccio Centrale e nei Pirenei."
+      },
+      {
+        "id": 29,
+        "question": "Quale pianta protettiva è il fiore nazionale della Norvegia ?",
+        "propositions": [
+          "Digitale gialla",
+          "Febbre Erba",
+          "scopa",
+          "calluna"
+        ],
+        "réponse": "calluna",
+        "anecdote": "In Scozia, se una ragazza trova un rametto di erica bianca (calluna vulgaris), si sposerà sicuramente entro un anno."
+      },
+      {
+        "id": 30,
+        "question": "Quale pianta è stata soprannominata erba pazza a causa dei suoi effetti deleteri ?",
+        "propositions": [
+          "calluna",
+          "Datura",
+          "coriandolo",
+          "Finocchietto selvatico"
+        ],
+        "réponse": "Datura",
+        "anecdote": "La mela spinosa in unguento, pozione o fumo provoca la disconnessione dalla realtà, allucinazioni e sonno."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke plant wordt magisch als hij minstens vier bladeren heeft ?",
+        "propositions": [
+          "Klaver",
+          "Wijnstokstraat",
+          "Koorts Gras",
+          "Valeriaan officinalis"
+        ],
+        "réponse": "Klaver",
+        "anecdote": "Volgens een sterke Ierse traditie gebruikte Saint Patrick het klaverblad om het mysterie van de Drie-eenheid te illustreren."
+      },
+      {
+        "id": 2,
+        "question": "Welke plant behandelde zenuwtrauma bij oorlogsjagers ?",
+        "propositions": [
+          "Jupiters baard",
+          "Valeriaan officinalis",
+          "Basilicum",
+          "bijvoet"
+        ],
+        "réponse": "Valeriaan officinalis",
+        "anecdote": "Eens een krachtig liefdesdrankje, wordt kattenkruid nu voornamelijk gebruikt in slaapverwekkende kruidenthee."
+      },
+      {
+        "id": 3,
+        "question": "De zaden van welke plant in onze kleding zouden diuretisch zijn ?",
+        "propositions": [
+          "toverhazelaar",
+          "Linnen",
+          "Koriander",
+          "hemlock"
+        ],
+        "réponse": "Linnen",
+        "anecdote": "Het was Philippe de Girard die met zijn vlasspinmachine het noorden van Frankrijk ombouwde tot een industrieel spinnerijcentrum."
+      },
+      {
+        "id": 4,
+        "question": "Welke aromatische plant wordt in de apotheek aangeboden als ontwormingsmiddel ?",
+        "propositions": [
+          "Basilicum",
+          "Basilicum",
+          "Tweehuizige Bryony",
+          "Datum"
+        ],
+        "réponse": "Basilicum",
+        "anecdote": "Basilicum wordt veel gebruikt in de Italiaanse keuken, met andere variëteiten die in sommige Aziatische keukens voorkomen."
+      },
+      {
+        "id": 5,
+        "question": "Welke giftige plant was de basis van het officiële gif van de Atheners ?",
+        "propositions": [
+          "gemeenschappelijke avens",
+          "hemlock",
+          "bijvoet",
+          "Wijnstokstraat"
+        ],
+        "réponse": "hemlock",
+        "anecdote": "Socrates stierf na het drinken van hemlock, terwijl Mithridates VI er immuun voor werd door toenemende doses te nemen."
+      },
+      {
+        "id": 6,
+        "question": "Welke plant met lustopwekkende eigenschappen wordt in sommige peperkoek gebruikt ?",
+        "propositions": [
+          "Koorts Gras",
+          "Gember",
+          "Datum",
+          "calluna"
+        ],
+        "réponse": "Gember",
+        "anecdote": "Hoofdstuk 7 van de Kamasutra bespreekt het gebruik ervan in seksuele praktijken : « Gember helpt bij de wellustige aard »."
+      },
+      {
+        "id": 7,
+        "question": "Welke grondplant, de basis van curry's, bevordert de spermaproductie ?",
+        "propositions": [
+          "Koriander",
+          "Gemalen klimop",
+          "hemlock",
+          "Witte Jasmijn"
+        ],
+        "réponse": "Koriander",
+        "anecdote": "Essentiële olie van koriander wordt in de farmaceutische industrie gebruikt om de bitterheid van bepaalde medicijnen te maskeren."
+      },
+      {
+        "id": 8,
+        "question": "Welke plant wordt genoemd in het nummer « Purple Haze » van Jimi Hendrix ?",
+        "propositions": [
+          "belladonna",
+          "Gekweekte hennep",
+          "calluna",
+          "Bezem"
+        ],
+        "réponse": "Gekweekte hennep",
+        "anecdote": "Oorspronkelijk uit Centraal-Azië, wordt deze plant soms gebruikt in de geneeskunde maar vooral om textiel en touwen te maken."
+      },
+      {
+        "id": 9,
+        "question": "Welke plant werd in het oude Griekenland geassocieerd met helderziendheid ?",
+        "propositions": [
+          "Caudate amarant",
+          "Gember",
+          "Gekweekte hennep",
+          "Wilde venkel"
+        ],
+        "réponse": "Wilde venkel",
+        "anecdote": "De teelt van gewone venkel werd in de koninklijke domeinen aanbevolen door Karel de Grote in het hoofdstuk De Villis."
+      },
+      {
+        "id": 10,
+        "question": "Wat is het fytomedicijn dat tegenwoordig wordt voorgeschreven tegen zenuwinzinking ?",
+        "propositions": [
+          "Klaver",
+          "Gevlekte Aronskelk",
+          "Linnen",
+          "Geperforeerd sint-janskruid"
+        ],
+        "réponse": "Geperforeerd sint-janskruid",
+        "anecdote": "Het medicinale gebruik van sint-janskruid dateert van minstens 2.400 jaar, toen Dioscorides het in zijn voorschriften aanbeval."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke plant zou je onzichtbaar maken, ondanks zijn karmozijnrode, van verre zichtbare kleur ?",
+        "propositions": [
+          "Hartig",
+          "Caudate amarant",
+          "Geperforeerd sint-janskruid",
+          "Gevlekte Aronskelk"
+        ],
+        "réponse": "Caudate amarant",
+        "anecdote": "Het wordt ook Kiwicha genoemd, van zijn naam in de Quechua-taal in Peru, waar het wordt gekweekt voor voedseldoeleinden."
+      },
+      {
+        "id": 12,
+        "question": "Welke plant werd gebruikt om bier te bewaren vóór het gebruik van hop ?",
+        "propositions": [
+          "Gevlekte Aronskelk",
+          "Linnen",
+          "Gemalen klimop",
+          "Witte Jasmijn"
+        ],
+        "réponse": "Gemalen klimop",
+        "anecdote": "Geplaatst onder het bed van jonge moeders, had klimop de deugd hen kracht te geven na de bevalling."
+      },
+      {
+        "id": 13,
+        "question": "Welke bladverliezende struik kan spataderen en aambeien genezen ?",
+        "propositions": [
+          "wilde knoflook",
+          "Gember",
+          "toverhazelaar",
+          "Klaver"
+        ],
+        "réponse": "toverhazelaar",
+        "anecdote": "Toverhazelaar zou ook kneuzingen, verstuikingen, kleine wonden, ontstekingen van de huid en slijmvliezen behandelen."
+      },
+      {
+        "id": 14,
+        "question": "Welke gedroogde struik wordt al lang gebruikt om bezems te maken ?",
+        "propositions": [
+          "Jupiters baard",
+          "Valeriaan officinalis",
+          "Bezem",
+          "Hartig"
+        ],
+        "réponse": "Bezem",
+        "anecdote": "Traditioneel werd Scotch Broom-bloem gebruikt als diureticum en voor de behandeling van stoornissen in de bloedsomloop."
+      },
+      {
+        "id": 15,
+        "question": "Welke plant naar keuze wordt gebruikt tegen luchtweginfecties ?",
+        "propositions": [
+          "Hartig",
+          "Bedwelmend onkruid",
+          "Gekweekte hennep",
+          "Caudate amarant"
+        ],
+        "réponse": "Hartig",
+        "anecdote": "De bladeren worden al sinds de oudheid als smaakmaker gebruikt, zowel om gegrild vlees, sauzen als groenten op smaak te brengen."
+      },
+      {
+        "id": 16,
+        "question": "Welke bloem uit Pakistan wordt gevonden in « Absolutely Irrésistible » van Givenchy ?",
+        "propositions": [
+          "Tweehuizige Bryony",
+          "hemlock",
+          "Witte Jasmijn",
+          "Bedwelmend onkruid"
+        ],
+        "réponse": "Witte Jasmijn",
+        "anecdote": "Jasmijnbloemen worden in de Chinese geneeskunde gebruikt om het bloed te koelen en de energiebalans te herstellen."
+      },
+      {
+        "id": 17,
+        "question": "Welke bloem uit Pakistan wordt gevonden in « Absolutely Irrésistible » van Givenchy ?",
+        "propositions": [
+          "hemlock",
+          "Bedwelmend onkruid",
+          "Tweehuizige Bryony",
+          "Witte Jasmijn"
+        ],
+        "réponse": "Witte Jasmijn",
+        "anecdote": "Jasmijnbloemen worden in de Chinese geneeskunde gebruikt om het bloed te koelen en de energiebalans te herstellen."
+      },
+      {
+        "id": 18,
+        "question": "Welke plant met een vaag menselijk uiterlijk zou magische deugden hebben ?",
+        "propositions": [
+          "gemeenschappelijke avens",
+          "Koriander",
+          "mandrake",
+          "toverhazelaar"
+        ],
+        "réponse": "mandrake",
+        "anecdote": "Mandrakewortel behandelt huidziekten en jicht, terwijl de bladeren effectief zijn bij het genezen van wonden."
+      },
+      {
+        "id": 19,
+        "question": "Welk kruid staat bekend als de medicinale plant voor hartpathologieën ?",
+        "propositions": [
+          "Geel vingerhoedskruid",
+          "Wilde venkel",
+          "Tweehuizige Bryony",
+          "Bezem"
+        ],
+        "réponse": "Geel vingerhoedskruid",
+        "anecdote": "Nu beschermd, is Digitalis-geel minder populair dan Digitalis-paars omdat het minder actieve ingrediënten bevat."
+      },
+      {
+        "id": 20,
+        "question": "Welke giftige zwarte bessenplant bevat atropine ?",
+        "propositions": [
+          "belladonna",
+          "Bedwelmend onkruid",
+          "mandrake",
+          "Geel vingerhoedskruid"
+        ],
+        "réponse": "belladonna",
+        "anecdote": "Het is gevaarlijk voor de man om van de mooie dame te eten of te drinken, omdat ze zijn geest slaat en hem op de een of andere manier doodt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke kruidachtige vaste plant zou bij zijn wortel de alcoholtolerantie verhogen ?",
+        "propositions": [
+          "Tweehuizige Bryony",
+          "bijvoet",
+          "Hartig",
+          "toverhazelaar"
+        ],
+        "réponse": "Tweehuizige Bryony",
+        "anecdote": "Het is een klimhaagplant, met rode en zwarte bessen, waarvan de vlezige wortel zetmeelrijk en sterk zuiverend is."
+      },
+      {
+        "id": 22,
+        "question": "Welke naam wordt ook gegeven aan de engelwortel van het bos of engelwortel sylvester ?",
+        "propositions": [
+          "Kattenkruid",
+          "Gras van de Goden",
+          "Koorts Gras",
+          "Wit gras"
+        ],
+        "réponse": "Koorts Gras",
+        "anecdote": "Volgens de legende zou engelwortel kinderen beschermen, de pest bestrijden en genezen van de beten van hondsdolle beesten."
+      },
+      {
+        "id": 23,
+        "question": "Welke plant reguleert de menstruatiecyclus tijdens de menopauze ?",
+        "propositions": [
+          "Wijnstokstraat",
+          "wilde knoflook",
+          "bijvoet",
+          "gemeenschappelijke avens"
+        ],
+        "réponse": "bijvoet",
+        "anecdote": "In schoenen gedaan, zou Bijvoet ook de verdienste hebben om vermoeidheid tijdens het lopen te verminderen."
+      },
+      {
+        "id": 24,
+        "question": "Welke eens medicinale plant wordt gebruikt om brandewijn op smaak te brengen ?",
+        "propositions": [
+          "Geel vingerhoedskruid",
+          "Wijnstokstraat",
+          "Geperforeerd sint-janskruid",
+          "Jupiters baard"
+        ],
+        "réponse": "Wijnstokstraat",
+        "anecdote": "Giftig in hoge doses, het gerucht gaat dat de dochter van Titus stierf na het consumeren ervan tijdens een gedwongen abortus."
+      },
+      {
+        "id": 25,
+        "question": "Van welk kruid werd de gedroogde wortel gebruikt om de kruidnagel te vervangen ?",
+        "propositions": [
+          "gemeenschappelijke avens",
+          "toverhazelaar",
+          "Basilicum",
+          "Gekweekte hennep"
+        ],
+        "réponse": "gemeenschappelijke avens",
+        "anecdote": "In de Middeleeuwen was het kruid van de goede soldaat de bondgenoot van exorcistische monniken die avens gebruikten om de duivel te verjagen."
+      },
+      {
+        "id": 26,
+        "question": "Welke plant rijk aan vitamine C heeft eigenschappen om af te vallen ?",
+        "propositions": [
+          "Klaver",
+          "Caudate amarant",
+          "Linnen",
+          "wilde knoflook"
+        ],
+        "réponse": "wilde knoflook",
+        "anecdote": "Volgens een legende zouden deze zoogdieren, nadat de beren hun winterslaap hadden gehouden, op zoek gaan naar de bladeren om zichzelf te zuiveren."
+      },
+      {
+        "id": 27,
+        "question": "Welke giftige plant, gebruikt als kompres, kan wratten genezen ?",
+        "propositions": [
+          "Wilde venkel",
+          "Gemalen klimop",
+          "Witte Jasmijn",
+          "Gevlekte Aronskelk"
+        ],
+        "réponse": "Gevlekte Aronskelk",
+        "anecdote": "De knollen bevatten kristallen van calciumoxalaat waardoor ze ongeschikt zijn voor consumptie zonder voorbereiding."
+      },
+      {
+        "id": 28,
+        "question": "Welke plant op het dak van huisjes zou beschermen tegen bliksem ?",
+        "propositions": [
+          "Nero's Geit",
+          "Wenkbrauw van Juno",
+          "Jupiters baard",
+          "Haar van Zeus"
+        ],
+        "réponse": "Jupiters baard",
+        "anecdote": "In Frankrijk komt de Huislook van de daken vooral voor in de Jura, de Alpen, het Centraal Massief en de Pyreneeën."
+      },
+      {
+        "id": 29,
+        "question": "Welke beschermende plant is de nationale bloem van Noorwegen ?",
+        "propositions": [
+          "Geel vingerhoedskruid",
+          "calluna",
+          "Bezem",
+          "Koorts Gras"
+        ],
+        "réponse": "calluna",
+        "anecdote": "Als een jong meisje in Schotland een takje witte heide (calluna vulgaris) vindt, zal ze zeker binnen een jaar trouwen."
+      },
+      {
+        "id": 30,
+        "question": "Welke plant wordt gek gras genoemd vanwege de schadelijke effecten ?",
+        "propositions": [
+          "Wilde venkel",
+          "Koriander",
+          "calluna",
+          "Datum"
+        ],
+        "réponse": "Datum",
+        "anecdote": "De doornige appel in zalf, drankje of rook zorgt voor loskoppeling van de werkelijkheid, hallucinaties en slaap."
+      }
+    ]
+    }
+  }
+}

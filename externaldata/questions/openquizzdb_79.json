@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Catherine De Smeytere",       
+  "difficulté": "4 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-02-03",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Cinéma",
+      "nom": "Alien Passagers",
+      "slogan": "Coloniser la galaxie"
+    },
+    "en": {
+      "catégorie": "Cinema",
+      "nom": "Alien Passengers",
+      "slogan": "Colonize the galaxy"
+    },
+    "es": {
+      "catégorie": "Cine",
+      "nom": "Pasajeros extraterrestres",
+      "slogan": "Colonizar la galaxia"
+    },
+    "it": {
+      "catégorie": "Cinema",
+      "nom": "Passeggeri alieni",
+      "slogan": "Colonizzare la galassia"
+    },
+    "de": {
+      "catégorie": "Kino",
+      "nom": "Außerirdische Passagiere",
+      "slogan": "Alles über alles"
+    },
+    "nl": {
+      "catégorie": "Bioscoop",
+      "nom": "Buitenaardse passagiers",
+      "slogan": "Koloniseer de melkweg"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans la saga Alien, qui a réalisé le film « Alien, le retour » ?",
+        "propositions": [
+          "James Cameron",
+          "Ridley Scott",
+          "Jean-Pierre Jeunet",
+          "David Fincher"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "Sorti en 1986, le film fut cité pour sept Oscars et remporta ceux du meilleur montage son et des meilleurs effets visuels."
+      },
+      {
+        "id": 2,
+        "question": "Comment appelle-t-on la créature principale du film « Alien » ?",
+        "propositions": [
+          "Xénomorphe",
+          "Trilobite",
+          "Facehugger",
+          "Mala'kak"
+        ],
+        "réponse": "Xénomorphe",
+        "anecdote": "David ayant contaminé un membre d'équipage avec un pathogène extraterrestre, cela donnera naissance au premier xénomorphe."
+      },
+      {
+        "id": 3,
+        "question": "Quelle est la couleur du fluide vital qui remplace le sang des androïdes ?",
+        "propositions": [
+          "Vert",
+          "Jaune",
+          "Blanc",
+          "Rouge"
+        ],
+        "réponse": "Blanc",
+        "anecdote": "Les androïdes jouent un rôle important dans « Alien », étant les seuls que les Aliens ne peuvent cibler pour pondre leurs oeufs."
+      },
+      {
+        "id": 4,
+        "question": "Dans « Alien », quelle entreprise organise et finance le voyage spatial ?",
+        "propositions": [
+          "Fiorina",
+          "Cobb",
+          "Requiem",
+          "Weyland"
+        ],
+        "réponse": "Weyland",
+        "anecdote": "Nommée Weyland-Yutani, la Compagnie est un conglomérat dont l'influence s'étend sur la plupart des colonies humaines."
+      },
+      {
+        "id": 5,
+        "question": "Quelle actrice interprète le rôle culte d'Ellen Ripley dans la saga « Alien » ?",
+        "propositions": [
+          "Sigourney Weaver",
+          "Julianne Moore",
+          "Susan Sarandon",
+          "Meryl Streep"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "Durant les années 2010, elle opéra un retour au premier plan grâce à des seconds rôles dans le blockbuster « Avatar » (2009)."
+      },
+      {
+        "id": 6,
+        "question": "Quel androïde Weyland considère-t-il comme le fils qu'il n'aura jamais ?",
+        "propositions": [
+          "Call",
+          "David",
+          "Bishop",
+          "Walter"
+        ],
+        "réponse": "David",
+        "anecdote": "David est responsable de la catastrophe de l'équipage du Prometheus après une contamination avec un pathogène."
+      },
+      {
+        "id": 7,
+        "question": "Quelle est la particularité de la planète Fiorina-16 du film « Alien 3 » ?",
+        "propositions": [
+          "Planète creuse",
+          "Planète acide",
+          "Planète marécageuse",
+          "Planète prison"
+        ],
+        "réponse": "Planète prison",
+        "anecdote": "Si sa situation orbitale est compatible avec la vie, Fiorina-16 reste extrêmement inhospitalière, balayée par des vents puissants."
+      },
+      {
+        "id": 8,
+        "question": "Dans quelle phase l'être humain est-il placé pour voyager dans l'espace ?",
+        "propositions": [
+          "Biostatique",
+          "Biosphère",
+          "Biostase",
+          "Biomasse"
+        ],
+        "réponse": "Biostase",
+        "anecdote": "L'équipage du Nostromo fut mis en biostase sur le trajet de retour vers la Terre après avoir effectué leur récolte de raffinerie."
+      },
+      {
+        "id": 9,
+        "question": "Quelle actrice interprète la fille de Weyland dans le film « Prometheus » ?",
+        "propositions": [
+          "Emily Watson",
+          "Winona Ryder",
+          "Jodie Foster",
+          "Charlize Theron"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "Le Prometheus est un vaisseau scientifique équipé de matériel médical, d'exploration et de recherche de haute technologie."
+      },
+      {
+        "id": 10,
+        "question": "Quel est le nom du chat de l'équipage dans la série « Alien » ?",
+        "propositions": [
+          "Jones",
+          "John",
+          "Tipy",
+          "Jack"
+        ],
+        "réponse": "Jones",
+        "anecdote": "Le Lieutenant Ellen L. Ripley (Sigourney Weaver) est le troisième officier et l'unique survivante (avec le chat Jones) du Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel est le seul vaisseau spatial qui réussira à revenir sur Terre dans « Alien » ?",
+        "propositions": [
+          "Artemis",
+          "Boops",
+          "Betty",
+          "Unami"
+        ],
+        "réponse": "Betty",
+        "anecdote": "Le Betty est un vieux vaisseau piloté par une bande de six pirates. De la bouche du clone de Ripley, il serait aussi vieux qu'elle."
+      },
+      {
+        "id": 12,
+        "question": "Quelle actrice interprète le rôle de Call dans la saga « Alien » ?",
+        "propositions": [
+          "Natalia Dyer",
+          "Winona Ryder",
+          "Geena Davis",
+          "Natalie Portman"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "Ingénieur, elle se révèle être une androïde de type Auton prête à tout pour protéger l'humanité, car programmée pour cela."
+      },
+      {
+        "id": 13,
+        "question": "Combien y a-t-il de membres d'équipage à bord du Prometheus ?",
+        "propositions": [
+          "17",
+          "57",
+          "77",
+          "37"
+        ],
+        "réponse": "17",
+        "anecdote": "Une expédition scientifique fut organisée par la société Weyland, qui envoya dix-sept membres à bord du Prometheus jusqu'à LV-223."
+      },
+      {
+        "id": 14,
+        "question": "Quel nom l'équipage a-t-il donné à l'ordinateur de bord du Nostromo ?",
+        "propositions": [
+          "Wally",
+          "Maman",
+          "Hall",
+          "Kyle"
+        ],
+        "réponse": "Maman",
+        "anecdote": "De retour vers la Terre, c'est Maman qui interrompt le trajet et réveille les sept membres de l'équipage maintenus en biostase."
+      },
+      {
+        "id": 15,
+        "question": "Combien de clones de Ripley a-t-il fallu avant une réussite complète ?",
+        "propositions": [
+          "Deux",
+          "Six",
+          "Quatre",
+          "Huit"
+        ],
+        "réponse": "Huit",
+        "anecdote": "Ripley est, avec son clone Ripley 8, l'héroïne de quatre films et est un personnage des extensions du jeu vidéo « Alien: Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "Quelle créature surgit de son oeuf pour s'agripper au visage d'un humain ?",
+        "propositions": [
+          "Chestburster",
+          "Xénomorphe",
+          "Fremen",
+          "Facehugger"
+        ],
+        "réponse": "Facehugger",
+        "anecdote": "Un facehugger s'agrippe au visage d'un hôte qu'il va alors paralyser, et dans lequel il va implanter un embryon avant de mourir."
+      },
+      {
+        "id": 17,
+        "question": "Fin 2023, combien de films comptait la saga « Alien » ?",
+        "propositions": [
+          "Huit",
+          "Sept",
+          "Six",
+          "Neuf"
+        ],
+        "réponse": "Huit",
+        "anecdote": "L'univers d'Alien est fondé sur le postulat que les humains ont commencé à coloniser la galaxie au milieu du XXIe siècle."
+      },
+      {
+        "id": 18,
+        "question": "Quelle archéologue a convaincu Weyland de financer son voyage spatial ?",
+        "propositions": [
+          "Meredith Vickers",
+          "Elisabeth Shaw",
+          "Karine Oram",
+          "Ellen Ripley"
+        ],
+        "réponse": "Elisabeth Shaw",
+        "anecdote": "Elle et son compagnon découvrent, sur l'île de Skye en Écosse, une peinture préhistorique figurant un humanoïde désignant six étoiles."
+      },
+      {
+        "id": 19,
+        "question": "Qui sauve et répare David, le majordome androïde ?",
+        "propositions": [
+          "Charlie Mollowd",
+          "Elisabeth Shawn",
+          "Ellen Ripley",
+          "Daniel Branson"
+        ],
+        "réponse": "Elisabeth Shawn",
+        "anecdote": "Alors que Shaw est en hibernation, David, une fois réparée par celle-ci, a fait atterrir le Promotheus sur la planète des Ingénieurs."
+      },
+      {
+        "id": 20,
+        "question": "Dans « le huitième passager », de quelle planète est émis le signal radio ?",
+        "propositions": [
+          "Zeta Reticuli",
+          "LV-223",
+          "Origae-6",
+          "Fiorina-16"
+        ],
+        "réponse": "Zeta Reticuli",
+        "anecdote": "Zeta Reticuli est une étoile située à une distance de 39 années-lumière de la Terre, dans la constellation australe du Réticule."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel acteur français interprète un mercenaire paralysé dans « Alien » ?",
+        "propositions": [
+          "Dominique Pinon",
+          "Jean-Claude Dreyfus",
+          "Ticky Holgado",
+          "Marc Caro"
+        ],
+        "réponse": "Dominique Pinon",
+        "anecdote": "Ingénieur, il est paralysé des jambes et se déplace dans un fauteuil à chenilles électrique dans « Alien, la résurrection »."
+      },
+      {
+        "id": 22,
+        "question": "Dans la saga « Alien », quelle est la fonction principale du liquide noir ?",
+        "propositions": [
+          "Vaccin",
+          "Conservateur",
+          "Arme biologique",
+          "Énergie de propulsion"
+        ],
+        "réponse": "Arme biologique",
+        "anecdote": "Le liquide a pour propriété de modifier la structure moléculaire d'une forme de vie lui étant en contact, en devenant une nouvelle."
+      },
+      {
+        "id": 23,
+        "question": "Combien de temps s'écoule entre « Prometheus » et le premier « Alien » ?",
+        "propositions": [
+          "1 300 ans",
+          "2 300 ans",
+          "3 300 ans",
+          "300 ans"
+        ],
+        "réponse": "1 300 ans",
+        "anecdote": "Prévu à l'origine en tant que préquelle directe d'« Alien, le huitième passager » (1979), le scénario définitif s'éloignera de la saga Alien."
+      },
+      {
+        "id": 24,
+        "question": "Quelle créature Shaw parvient-elle à se retirer du ventre ?",
+        "propositions": [
+          "Cénobyte",
+          "Fribuster",
+          "Trilobite",
+          "Chestburster"
+        ],
+        "réponse": "Trilobite",
+        "anecdote": "En référence à sa ressemblance avec un poulpe et une classe d'arthropodes marins fossiles ayant vécu durant le Paléozoïque."
+      },
+      {
+        "id": 25,
+        "question": "Combien de temps après la mort de Ripley des scientifiques vont-ils la cloner ?",
+        "propositions": [
+          "300 ans",
+          "200 ans",
+          "400 ans",
+          "100 ans"
+        ],
+        "réponse": "200 ans",
+        "anecdote": "200 ans après son suicide, des scientifiques sont parvenus à cloner Ripley d'après un échantillon de sang collecté sur Fiorina-16."
+      },
+      {
+        "id": 26,
+        "question": "Quelle créature sort d'un corps humain en lui explosant la cage thoracique ?",
+        "propositions": [
+          "Xénomorphe",
+          "Préface",
+          "Chestburster",
+          "Facebuster"
+        ],
+        "réponse": "Chestburster",
+        "anecdote": "Le Chestburster mue et grandit rapidement pour atteindre de deux à trois mètres en quelques heures, et devenir un Alien adulte."
+      },
+      {
+        "id": 27,
+        "question": "Quelle est la nationalité de l'actrice Noomi Rapace, qui interprète Shaw ?",
+        "propositions": [
+          "Australienne",
+          "Américaine",
+          "Suédoise",
+          "Finlandaise"
+        ],
+        "réponse": "Suédoise",
+        "anecdote": "Noomi Rapace prête ses traits à la scientifique Elizabeth Shaw, aux côtés de Charlize Theron, Idris Elba et Michael Fassbender."
+      },
+      {
+        "id": 28,
+        "question": "Pendant combien d'années Ripley dérive-t-elle en biostase avec son chat ?",
+        "propositions": [
+          "127 ans",
+          "157 ans",
+          "57 ans",
+          "257 ans"
+        ],
+        "réponse": "57 ans",
+        "anecdote": "Rapatriée sur la station orbitale Gateway, rendue fautive de la destruction du Nostromo, Ripley devra repartir en mission."
+      },
+      {
+        "id": 29,
+        "question": "Quel acteur interprète le rôle de l'androïde intelligent Bishop ?",
+        "propositions": [
+          "Ron Perlman",
+          "Michael Wincott",
+          "Lance Henriksen",
+          "Michael Fassbender"
+        ],
+        "réponse": "Lance Henriksen",
+        "anecdote": "L'apparence de ce modèle d'androïde est calquée sur celle de Charles Bishop Weyland, fondateur de Weyland Industries."
+      },
+      {
+        "id": 30,
+        "question": "Selon la saga Alien, quels êtres seraient à l'origine de la création de l'humanité ?",
+        "propositions": [
+          "Ingénieurs",
+          "Créateurs",
+          "Concepteurs",
+          "Découvreurs"
+        ],
+        "réponse": "Ingénieurs",
+        "anecdote": "Space Jockey, Mala'kak, Pilote ou Ingénieur sont les noms des créatures intelligentes rencontrées sur LV-426 et sur la Planète 4."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In the Alien saga, who directed the film « Alien Returns » ?",
+        "propositions": [
+          "James Cameron",
+          "David Fincher",
+          "Ridley Scott",
+          "Jean-Pierre Jeunet"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "Released in 1986, the film was nominated for seven Oscars and won those for best sound editing and best visual effects."
+      },
+      {
+        "id": 2,
+        "question": "What is the main creature in the movie « Alien » called ?",
+        "propositions": [
+          "Mala'kak",
+          "Xenomorph",
+          "Trilobite",
+          "Facehugger"
+        ],
+        "réponse": "Xenomorph",
+        "anecdote": "David having contaminated a crew member with an extraterrestrial pathogen, this will give rise to the first xenomorph."
+      },
+      {
+        "id": 3,
+        "question": "What is the color of the vital fluid that replaces the blood of androids ?",
+        "propositions": [
+          "White",
+          "Red",
+          "Yellow",
+          "Green"
+        ],
+        "réponse": "White",
+        "anecdote": "Androids play an important role in « Alien », being the only ones that Aliens cannot target to lay their eggs."
+      },
+      {
+        "id": 4,
+        "question": "In « Alien », which company organizes and finances space travel ?",
+        "propositions": [
+          "Requiem",
+          "Cobb",
+          "Fiorina",
+          "Weyland"
+        ],
+        "réponse": "Weyland",
+        "anecdote": "Named Weyland-Yutani, the Company is a conglomerate whose influence extends over most human colonies."
+      },
+      {
+        "id": 5,
+        "question": "Which actress plays the cult role of Ellen Ripley in the « Alien » saga ?",
+        "propositions": [
+          "Susan Sarandon",
+          "Sigourney Weaver",
+          "Julianne Moore",
+          "Meryl Streep"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "During the 2010s, she made a return to the forefront thanks to supporting roles in the blockbuster « Avatar » (2009)."
+      },
+      {
+        "id": 6,
+        "question": "Which android does Weyland consider the son he will never have ?",
+        "propositions": [
+          "Bishop",
+          "Call",
+          "Walter",
+          "David"
+        ],
+        "réponse": "David",
+        "anecdote": "David is responsible for the disaster of the Prometheus crew after contamination with a pathogen."
+      },
+      {
+        "id": 7,
+        "question": "What is special about the planet Fiorina-16 from the movie « Alien 3 » ?",
+        "propositions": [
+          "Swamp planet",
+          "Prison planet",
+          "Hollow planet",
+          "Acid planet"
+        ],
+        "réponse": "Prison planet",
+        "anecdote": "If its orbital location is compatible with life, Fiorina-16 remains extremely inhospitable, swept by powerful winds."
+      },
+      {
+        "id": 8,
+        "question": "In what phase are humans placed for space travel ?",
+        "propositions": [
+          "Biomass",
+          "Biosphere",
+          "Biostatic",
+          "Biostasis"
+        ],
+        "réponse": "Biostasis",
+        "anecdote": "The Nostromo crew was placed in biostasis on their way back to Earth after completing their refinery harvest."
+      },
+      {
+        "id": 9,
+        "question": "Which actress plays Weyland's daughter in the film « Prometheus » ?",
+        "propositions": [
+          "Winona Ryder",
+          "Emily Watson",
+          "Charlize Theron",
+          "Jodie Foster"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "The Prometheus is a scientific vessel equipped with high-tech medical, exploration and research equipment."
+      },
+      {
+        "id": 10,
+        "question": "What is the name of the crew cat in the « Alien » series ?",
+        "propositions": [
+          "John",
+          "Jack",
+          "Tipy",
+          "Jones"
+        ],
+        "réponse": "Jones",
+        "anecdote": "Lieutenant Ellen L. Ripley (Sigourney Weaver) is the third officer and sole survivor (along with the cat Jones) of the Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What is the only spaceship that will succeed in returning to Earth in « Alien » ?",
+        "propositions": [
+          "Boops",
+          "Artemis",
+          "Betty",
+          "Unami"
+        ],
+        "réponse": "Betty",
+        "anecdote": "The Betty is an old ship piloted by a band of six pirates. From the mouth of Ripley's clone, he would be as old as her."
+      },
+      {
+        "id": 12,
+        "question": "Which actress plays the role of Call in the « Alien » saga ?",
+        "propositions": [
+          "Geena Davis",
+          "Winona Ryder",
+          "Natalia Dyer",
+          "Natalie Portman"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "An engineer, she turns out to be an Auton-type android ready to do anything to protect humanity, because she is programmed for that."
+      },
+      {
+        "id": 13,
+        "question": "How many crew members are on board the Prometheus ?",
+        "propositions": [
+          "57",
+          "77",
+          "37",
+          "17"
+        ],
+        "réponse": "17",
+        "anecdote": "A scientific expedition was organized by the Weyland Company, which sent seventeen members aboard the Prometheus to LV-223."
+      },
+      {
+        "id": 14,
+        "question": "What name did the crew give to the Nostromo's onboard computer ?",
+        "propositions": [
+          "Wally",
+          "Kyle",
+          "Lobby",
+          "Mom"
+        ],
+        "réponse": "Mom",
+        "anecdote": "Returning to Earth, it is Mom who interrupts the journey and wakes up the seven members of the crew kept in biostasis."
+      },
+      {
+        "id": 15,
+        "question": "How many clones of Ripley did it take before complete success ?",
+        "propositions": [
+          "Two",
+          "Eight",
+          "Four",
+          "Six"
+        ],
+        "réponse": "Eight",
+        "anecdote": "Ripley is, with her clone Ripley 8, the heroine of four films and is a character in the expansions of the video game « Alien : Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "What creature emerges from its egg to grab onto a human's face ?",
+        "propositions": [
+          "Facehugger",
+          "Xenomorph",
+          "Fremen",
+          "Chestburster"
+        ],
+        "réponse": "Facehugger",
+        "anecdote": "A facehugger grabs onto the face of a host which it will then paralyze, and into which it will implant an embryo before dying."
+      },
+      {
+        "id": 17,
+        "question": "At the end of 2023, how many films would there be in the « Alien » saga ?",
+        "propositions": [
+          "Seven",
+          "Eight",
+          "New",
+          "Six"
+        ],
+        "réponse": "Eight",
+        "anecdote": "The Alien universe is based on the premise that humans began colonizing the galaxy in the mid-21st century."
+      },
+      {
+        "id": 18,
+        "question": "Which archaeologist convinced Weyland to finance his space trip ?",
+        "propositions": [
+          "Elizabeth Shaw",
+          "Ellen Ripley",
+          "Meredith Vickers",
+          "Karine Oram"
+        ],
+        "réponse": "Elizabeth Shaw",
+        "anecdote": "She and her companion discover, on the Isle of Skye in Scotland, a prehistoric painting depicting a humanoid pointing to six stars."
+      },
+      {
+        "id": 19,
+        "question": "Who saves and repairs David, the android butler ?",
+        "propositions": [
+          "Elizabeth Shawn",
+          "Ellen Ripley",
+          "Daniel Branson",
+          "Charlie Mollowd"
+        ],
+        "réponse": "Elizabeth Shawn",
+        "anecdote": "While Shaw is in hibernation, David, once repaired by her, lands the Promotheus on the Engineers' planet."
+      },
+      {
+        "id": 20,
+        "question": "In « the eighth passenger », from which planet is the radio signal emitted ?",
+        "propositions": [
+          "LV-223",
+          "Origae-6",
+          "Zeta Reticuli",
+          "Fiorina-16"
+        ],
+        "réponse": "Zeta Reticuli",
+        "anecdote": "Zeta Reticuli is a star located 39 light years from Earth, in the southern constellation Reticule."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which French actor plays a paralyzed mercenary in « Alien » ?",
+        "propositions": [
+          "Dominique Pinon",
+          "Ticky Holgado",
+          "Jean-Claude Dreyfus",
+          "Marc Caro"
+        ],
+        "réponse": "Dominique Pinon",
+        "anecdote": "An engineer, he is paralyzed from the legs down and moves in an electric tracked chair in « Alien, Resurrection »."
+      },
+      {
+        "id": 22,
+        "question": "In the « Alien » saga, what is the main function of the black liquid ?",
+        "propositions": [
+          "Biological weapon",
+          "Conservative",
+          "Propulsion energy",
+          "Vaccine"
+        ],
+        "réponse": "Biological weapon",
+        "anecdote": "The liquid has the property of modifying the molecular structure of a life form in contact with it, becoming a new one."
+      },
+      {
+        "id": 23,
+        "question": "How much time passes between « Prometheus » and the first « Alien » ?",
+        "propositions": [
+          "3,300 years",
+          "300 years",
+          "1,300 years",
+          "2,300 years"
+        ],
+        "réponse": "1,300 years",
+        "anecdote": "Originally planned as a direct prequel to « Alien, the Eighth Passenger » (1979), the final storyline will move away from the Alien saga."
+      },
+      {
+        "id": 24,
+        "question": "Which creature does Shaw manage to remove from the womb ?",
+        "propositions": [
+          "Cenobyte",
+          "Chestburster",
+          "Trilobite",
+          "Fribuster"
+        ],
+        "réponse": "Trilobite",
+        "anecdote": "In reference to its resemblance to an octopus and a class of fossil marine arthropods that lived during the Paleozoic."
+      },
+      {
+        "id": 25,
+        "question": "How long after Ripley's death will scientists clone her ?",
+        "propositions": [
+          "200 years",
+          "400 years",
+          "300 years",
+          "100 years"
+        ],
+        "réponse": "200 years",
+        "anecdote": "200 years after her suicide, scientists managed to clone Ripley based on a blood sample collected on Fiorina-16."
+      },
+      {
+        "id": 26,
+        "question": "What creature comes out of a human body by exploding its ribcage ?",
+        "propositions": [
+          "Chestburster",
+          "Facebuster",
+          "Preface",
+          "Xenomorph"
+        ],
+        "réponse": "Chestburster",
+        "anecdote": "The Chestburster molts and grows rapidly, reaching two to three meters in a few hours, and becoming an adult Alien."
+      },
+      {
+        "id": 27,
+        "question": "What is the nationality of actress Noomi Rapace, who plays Shaw ?",
+        "propositions": [
+          "Finnish",
+          "Australian",
+          "American",
+          "Swedish"
+        ],
+        "réponse": "Swedish",
+        "anecdote": "Noomi Rapace lends her features to scientist Elizabeth Shaw, alongside Charlize Theron, Idris Elba and Michael Fassbender."
+      },
+      {
+        "id": 28,
+        "question": "How many years has Ripley drifted in biostasis with her cat ?",
+        "propositions": [
+          "257 years",
+          "57 years old",
+          "157 years",
+          "127 years"
+        ],
+        "réponse": "57 years old",
+        "anecdote": "Repatriated to the Gateway orbital station, blamed for the destruction of the Nostromo, Ripley will have to go back on a mission."
+      },
+      {
+        "id": 29,
+        "question": "Which actor plays the role of the intelligent android Bishop ?",
+        "propositions": [
+          "Michael Fassbender",
+          "Michael Wincott",
+          "Ron Perlman",
+          "Lance Henriksen"
+        ],
+        "réponse": "Lance Henriksen",
+        "anecdote": "The appearance of this android model is modeled on that of Charles Bishop Weyland, founder of Weyland Industries."
+      },
+      {
+        "id": 30,
+        "question": "According to the Alien saga, which beings were behind the creation of humanity ?",
+        "propositions": [
+          "Creators",
+          "Designers",
+          "Discoverers",
+          "Engineers"
+        ],
+        "réponse": "Engineers",
+        "anecdote": "Space Jockey, Mala'kak, Pilot or Engineer are the names of the intelligent creatures encountered on LV-426 and on Planet 4."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer war in der Alien-Saga Regisseur des Films « Alien Returns » ?",
+        "propositions": [
+          "Jean-Pierre Jeunet",
+          "James Cameron",
+          "David Fincher",
+          "Ridley Scott"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "Der 1986 erschienene Film wurde für sieben Oscars nominiert und gewann diese für den besten Tonschnitt und die besten visuellen Effekte."
+      },
+      {
+        "id": 2,
+        "question": "Wie heißt die Hauptkreatur im Film « Alien » ?",
+        "propositions": [
+          "Facehugger",
+          "Trilobit",
+          "Xenomorph",
+          "Mala'kak"
+        ],
+        "réponse": "Xenomorph",
+        "anecdote": "Da David ein Besatzungsmitglied mit einem außerirdischen Krankheitserreger kontaminiert hat, entsteht der erste Xenomorph."
+      },
+      {
+        "id": 3,
+        "question": "Welche Farbe hat die lebenswichtige Flüssigkeit, die das Blut von Androiden ersetzt ?",
+        "propositions": [
+          "Weiß",
+          "Grün",
+          "Gelb",
+          "Rot"
+        ],
+        "réponse": "Weiß",
+        "anecdote": "Androiden spielen in « Alien » eine wichtige Rolle, da sie die einzigen sind, die Aliens nicht angreifen können, um ihre Eier abzulegen."
+      },
+      {
+        "id": 4,
+        "question": "Welches Unternehmen organisiert und finanziert in « Alien » die Raumfahrt ?",
+        "propositions": [
+          "Requiem",
+          "Weyland",
+          "Cobb",
+          "Fiorina"
+        ],
+        "réponse": "Weyland",
+        "anecdote": "Das Unternehmen mit dem Namen Weyland-Yutani ist ein Konglomerat, dessen Einfluss sich auf die meisten menschlichen Kolonien erstreckt."
+      },
+      {
+        "id": 5,
+        "question": "Welche Schauspielerin spielt die Kultrolle der Ellen Ripley in der « Alien »-Saga ?",
+        "propositions": [
+          "Julianne Moore",
+          "Sigourney Weaver",
+          "Meryl Streep",
+          "Susan Sarandon"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "In den 2010er Jahren gelangte sie dank Nebenrollen im Blockbuster « Avatar » (2009) wieder in den Vordergrund."
+      },
+      {
+        "id": 6,
+        "question": "Welchen Androiden hält Weyland für den Sohn, den er nie bekommen wird ?",
+        "propositions": [
+          "Anruf",
+          "Walter",
+          "Bischof",
+          "David"
+        ],
+        "réponse": "David",
+        "anecdote": "David ist für das Desaster der Prometheus-Crew nach einer Infektion mit einem Krankheitserreger verantwortlich."
+      },
+      {
+        "id": 7,
+        "question": "Was ist das Besondere am Planeten Fiorina-16 aus dem Film « Alien 3 » ?",
+        "propositions": [
+          "Hohlplanet",
+          "Sumpfplanet",
+          "Saurer Planet",
+          "Gefängnisplanet"
+        ],
+        "réponse": "Gefängnisplanet",
+        "anecdote": "Wenn seine Orbitposition mit Leben vereinbar ist, bleibt Fiorina-16 äußerst unwirtlich und wird von starken Winden heimgesucht."
+      },
+      {
+        "id": 8,
+        "question": "In welcher Phase befinden sich Menschen für die Raumfahrt ?",
+        "propositions": [
+          "Biosphäre",
+          "Biomasse",
+          "Biostase",
+          "Biostatisch"
+        ],
+        "réponse": "Biostase",
+        "anecdote": "Die Nostromo-Besatzung wurde auf dem Weg zurück zur Erde nach Abschluss ihrer Raffinerieernte in Biostase versetzt."
+      },
+      {
+        "id": 9,
+        "question": "Welche Schauspielerin spielt Weylands Tochter im Film « Prometheus » ?",
+        "propositions": [
+          "Emily Watson",
+          "Jodie Foster",
+          "Charlize Theron",
+          "Winona Ryder"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "Die Prometheus ist ein wissenschaftliches Schiff, das mit modernster Medizin-, Explorations- und Forschungsausrüstung ausgestattet ist."
+      },
+      {
+        "id": 10,
+        "question": "Wie heißt die Crew-Katze in der Serie « Alien » ?",
+        "propositions": [
+          "Tipy",
+          "Jack",
+          "John",
+          "Jones"
+        ],
+        "réponse": "Jones",
+        "anecdote": "Leutnant Ellen L. Ripley (Sigourney Weaver) ist der dritte Offizier und einzige Überlebende (zusammen mit der Katze Jones) der Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches ist das einzige Raumschiff, dem es in « Alien » gelingt, zur Erde zurückzukehren ?",
+        "propositions": [
+          "Betty",
+          "Artemis",
+          "Unami",
+          "Hoppla"
+        ],
+        "réponse": "Betty",
+        "anecdote": "Die Betty ist ein altes Schiff, das von einer sechsköpfigen Piratenbande gesteuert wird. Aus dem Mund von Ripleys Klon wäre er so alt wie sie."
+      },
+      {
+        "id": 12,
+        "question": "Welche Schauspielerin spielt die Rolle von Call in der « Alien »-Saga ?",
+        "propositions": [
+          "Natalia Dyer",
+          "Winona Ryder",
+          "Natalie Portman",
+          "Geena Davis"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "Als Ingenieurin entpuppt sie sich als Androide vom Typ Auton, die bereit ist, alles zu tun, um die Menschheit zu schützen, weil sie dafür programmiert ist."
+      },
+      {
+        "id": 13,
+        "question": "Wie viele Besatzungsmitglieder sind an Bord der Prometheus ?",
+        "propositions": [
+          "17",
+          "77",
+          "37",
+          "57"
+        ],
+        "réponse": "17",
+        "anecdote": "Eine wissenschaftliche Expedition wurde von der Weyland Company organisiert, die siebzehn Mitglieder an Bord der Prometheus nach LV-223 schickte."
+      },
+      {
+        "id": 14,
+        "question": "Welchen Namen gab die Besatzung dem Bordcomputer der Nostromo ?",
+        "propositions": [
+          "Wally",
+          "Lobby",
+          "Mama",
+          "Kyle"
+        ],
+        "réponse": "Mama",
+        "anecdote": "Als sie zur Erde zurückkehrt, ist es Mama, die die Reise unterbricht und die sieben in Biostase gehaltenen Besatzungsmitglieder aufweckt."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele Ripley-Klone brauchte es bis zum vollen Erfolg ?",
+        "propositions": [
+          "Zwei",
+          "Acht",
+          "Vier",
+          "Sechs"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Ripley ist mit ihrem Klon Ripley 8 die Heldin von vier Filmen und eine Figur in den Erweiterungen des Videospiels « Alien: Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "Welches Lebewesen schlüpft aus seinem Ei, um sich an das Gesicht eines Menschen zu klammern ?",
+        "propositions": [
+          "Facehugger",
+          "Chestburster",
+          "Fremen",
+          "Xenomorph"
+        ],
+        "réponse": "Facehugger",
+        "anecdote": "Ein Facehugger greift nach dem Gesicht eines Wirts, lähmt ihn und pflanzt dort einen Embryo ein, bevor er stirbt."
+      },
+      {
+        "id": 17,
+        "question": "Wie viele Filme würde es Ende 2023 in der « Alien »-Saga geben ?",
+        "propositions": [
+          "Sechs",
+          "Sieben",
+          "Neu",
+          "Acht"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Das Alien-Universum basiert auf der Annahme, dass Menschen Mitte des 21. Jahrhunderts mit der Kolonisierung der Galaxie begannen."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Archäologe überzeugte Weyland, seine Weltraumreise zu finanzieren ?",
+        "propositions": [
+          "Ellen Ripley",
+          "Elizabeth Shaw",
+          "Meredith Vickers",
+          "Karine Oram"
+        ],
+        "réponse": "Elizabeth Shaw",
+        "anecdote": "Sie und ihr Begleiter entdecken auf der Isle of Skye in Schottland ein prähistorisches Gemälde, das einen Humanoiden zeigt, der auf sechs Sterne zeigt."
+      },
+      {
+        "id": 19,
+        "question": "Wer rettet und repariert David, den Android-Butler ?",
+        "propositions": [
+          "Charlie Mollowd",
+          "Elizabeth Shawn",
+          "Ellen Ripley",
+          "Daniel Branson"
+        ],
+        "réponse": "Elizabeth Shawn",
+        "anecdote": "Während Shaw im Winterschlaf liegt, landet David, nachdem er von ihr repariert wurde, die Promotheus auf dem Planeten der Ingenieure."
+      },
+      {
+        "id": 20,
+        "question": "Von welchem Planeten wird im « achten Passagier » das Funksignal ausgesendet ?",
+        "propositions": [
+          "Zeta Reticuli",
+          "LV-223",
+          "Fiorina-16",
+          "Origae-6"
+        ],
+        "réponse": "Zeta Reticuli",
+        "anecdote": "Zeta Reticuli ist ein Stern, der 39 Lichtjahre von der Erde entfernt im südlichen Sternbild Reticule liegt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher französische Schauspieler spielt in « Alien » einen gelähmten Söldner ?",
+        "propositions": [
+          "Ticky Holgado",
+          "Jean-Claude Dreyfus",
+          "Marc Caro",
+          "Dominique Pinon"
+        ],
+        "réponse": "Dominique Pinon",
+        "anecdote": "Als Ingenieur ist er von den Beinen abwärts gelähmt und bewegt sich in « Alien, la résurrection » auf einem elektrischen Stuhl."
+      },
+      {
+        "id": 22,
+        "question": "Was ist in der « Alien »-Saga die Hauptfunktion der schwarzen Flüssigkeit ?",
+        "propositions": [
+          "Antriebsenergie",
+          "Biologische Waffe",
+          "Impfstoff",
+          "Konservativ"
+        ],
+        "réponse": "Biologische Waffe",
+        "anecdote": "Die Flüssigkeit hat die Eigenschaft, die Molekularstruktur einer mit ihr in Kontakt kommenden Lebensform zu verändern und zu einer neuen zu werden."
+      },
+      {
+        "id": 23,
+        "question": "Wie viel Zeit vergeht zwischen « Prometheus » und dem ersten « Alien » ?",
+        "propositions": [
+          "300 Jahre",
+          "3.300 Jahre",
+          "2.300 Jahre",
+          "1.300 Jahre"
+        ],
+        "réponse": "1.300 Jahre",
+        "anecdote": "Ursprünglich als direktes Prequel zu « Alien, der achte Passagier » (1979) geplant, wird sich die letzte Handlung von der Alien-Saga entfernen."
+      },
+      {
+        "id": 24,
+        "question": "Welches Lebewesen gelingt es Shaw, aus der Gebärmutter zu entfernen ?",
+        "propositions": [
+          "Cenobyte",
+          "Chestburster",
+          "Trilobit",
+          "Fribuster"
+        ],
+        "réponse": "Trilobit",
+        "anecdote": "In Anspielung auf seine Ähnlichkeit mit einem Oktopus und einer Klasse fossiler Meeresarthropoden, die im Paläozoikum lebten."
+      },
+      {
+        "id": 25,
+        "question": "Wie lange nach Ripleys Tod werden Wissenschaftler sie klonen ?",
+        "propositions": [
+          "200 Jahre",
+          "100 Jahre",
+          "400 Jahre",
+          "300 Jahre"
+        ],
+        "réponse": "200 Jahre",
+        "anecdote": "200 Jahre nach ihrem Selbstmord gelang es Wissenschaftlern, Ripley anhand einer auf Fiorina-16 gesammelten Blutprobe zu klonen."
+      },
+      {
+        "id": 26,
+        "question": "Welches Lebewesen verlässt einen menschlichen Körper, indem sein Brustkorb explodiert ?",
+        "propositions": [
+          "Facebuster",
+          "Vorwort",
+          "Chestburster",
+          "Xenomorph"
+        ],
+        "réponse": "Chestburster",
+        "anecdote": "Der Chestburster häutet sich und wächst schnell, erreicht in wenigen Stunden eine Größe von zwei bis drei Metern und wird zu einem erwachsenen Alien."
+      },
+      {
+        "id": 27,
+        "question": "Welche Nationalität hat die Schauspielerin Noomi Rapace, die Shaw spielt ?",
+        "propositions": [
+          "Amerikanisch",
+          "Finnisch",
+          "Australisch",
+          "Schwedisch"
+        ],
+        "réponse": "Schwedisch",
+        "anecdote": "Noomi Rapace leiht ihre Gesichtszüge neben Charlize Theron, Idris Elba und Michael Fassbender der Wissenschaftlerin Elizabeth Shaw."
+      },
+      {
+        "id": 28,
+        "question": "Wie viele Jahre hat Ripley mit ihrer Katze in der Biostase gelebt ?",
+        "propositions": [
+          "127 Jahre",
+          "157 Jahre",
+          "257 Jahre",
+          "57 Jahre alt"
+        ],
+        "réponse": "57 Jahre alt",
+        "anecdote": "Ripley wird zur Gateway-Orbitalstation zurückgeführt und für die Zerstörung der Nostromo verantwortlich gemacht."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Schauspieler spielt die Rolle des intelligenten Androiden Bishop ?",
+        "propositions": [
+          "Ron Perlman",
+          "Lance Henriksen",
+          "Michael Wincott",
+          "Michael Fassbender"
+        ],
+        "réponse": "Lance Henriksen",
+        "anecdote": "Das Erscheinungsbild dieses Android-Modells ist dem von Charles Bishop Weyland, dem Gründer von Weyland Industries, nachempfunden."
+      },
+      {
+        "id": 30,
+        "question": "Welche Wesen standen laut der Alien-Saga hinter der Erschaffung der Menschheit ?",
+        "propositions": [
+          "Schöpfer",
+          "Entdecker",
+          "Ingenieure",
+          "Designer"
+        ],
+        "réponse": "Ingenieure",
+        "anecdote": "Space Jockey, Mala'kak, Pilot oder Engineer sind die Namen der intelligenten Kreaturen, denen man auf LV-426 und auf Planet 4 begegnet."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En la saga Alien, ¿quién dirigió la película « Alien Returns » ?",
+        "propositions": [
+          "Ridley Scott",
+          "James Cameron",
+          "David Fincher",
+          "Jean-Pierre Jeunet"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "Estrenada en 1986, la película fue nominada a siete premios Oscar y ganó los de mejor edición de sonido y mejores efectos visuales."
+      },
+      {
+        "id": 2,
+        "question": "¿Cómo se llama la criatura principal de la película « Alien » ?",
+        "propositions": [
+          "Xenomorfo",
+          "Abrazacaras",
+          "Trilobites",
+          "Mala'kak"
+        ],
+        "réponse": "Xenomorfo",
+        "anecdote": "Al haber contaminado David a un miembro de la tripulación con un patógeno extraterrestre, esto dará lugar al primer xenomorfo."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál es el color del fluido vital que reemplaza la sangre de los androides ?",
+        "propositions": [
+          "Amarillo",
+          "Verde",
+          "Blanco",
+          "Rojo"
+        ],
+        "réponse": "Blanco",
+        "anecdote": "Los androides juegan un papel importante en « Alien », siendo los únicos a los que los alienígenas no pueden apuntar para poner sus huevos."
+      },
+      {
+        "id": 4,
+        "question": "En « Alien », ¿qué empresa organiza y financia los viajes espaciales ?",
+        "propositions": [
+          "Weylandia",
+          "Réquiem",
+          "florina",
+          "Cob"
+        ],
+        "réponse": "Weylandia",
+        "anecdote": "Llamada Weyland-Yutani, la Compañía es un conglomerado cuya influencia se extiende a la mayoría de las colonias humanas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué actriz interpreta el papel de culto de Ellen Ripley en la saga « Alien » ?",
+        "propositions": [
+          "Susan Sarandon",
+          "Meryl Streep",
+          "Julianne Moore",
+          "Sigourney Weaver"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "Durante la década de 2010, regresó a los primeros planos gracias a papeles secundarios en la superproducción « Avatar » (2009)."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué androide considera Weyland el hijo que nunca tendrá ?",
+        "propositions": [
+          "Obispo",
+          "Walter",
+          "Llamar",
+          "David"
+        ],
+        "réponse": "David",
+        "anecdote": "David es responsable del desastre de la tripulación del Prometheus tras la contaminación con un patógeno."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué tiene de especial el planeta Fiorina-16 de la película « Alien 3 » ?",
+        "propositions": [
+          "Planeta hueco",
+          "Planeta pantanoso",
+          "Planeta prisión",
+          "Planeta ácido"
+        ],
+        "réponse": "Planeta prisión",
+        "anecdote": "Si su ubicación orbital es compatible con la vida, Fiorina-16 sigue siendo extremadamente inhóspita, arrastrada por fuertes vientos."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué fase se encuentran los humanos para los viajes espaciales ?",
+        "propositions": [
+          "Bioestática",
+          "Biomasa",
+          "Biostasis",
+          "Biosfera"
+        ],
+        "réponse": "Biostasis",
+        "anecdote": "La tripulación de Nostromo fue colocada en biostasis en su camino de regreso a la Tierra después de completar la cosecha de su refinería."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué actriz interpreta a la hija de Weyland en la película « Prometheus » ?",
+        "propositions": [
+          "Jodie Foster",
+          "Charlize Theron",
+          "Winona Ryder",
+          "Emily Watson"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "El Prometheus es un buque científico equipado con equipos médicos, de exploración e investigación de alta tecnología."
+      },
+      {
+        "id": 10,
+        "question": "¿Cómo se llama el gato de la tripulación de la serie « Alien » ?",
+        "propositions": [
+          "Gato",
+          "tipico",
+          "Juan",
+          "Jones"
+        ],
+        "réponse": "Jones",
+        "anecdote": "La teniente Ellen L. Ripley (Sigourney Weaver) es la tercera oficial y única superviviente (junto con el gato Jones) del Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál es la única nave espacial que logrará regresar a la Tierra en « Alien » ?",
+        "propositions": [
+          "Artemisa",
+          "Aburridos",
+          "Unami",
+          "betty"
+        ],
+        "réponse": "betty",
+        "anecdote": "El Betty es un viejo barco pilotado por una banda de seis piratas. Según la boca del clon de Ripley, él sería tan viejo como ella."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué actriz interpreta el papel de Call en la saga « Alien » ?",
+        "propositions": [
+          "Geena Davis",
+          "Winona Ryder",
+          "Natalia Dyer",
+          "Natalia Portman"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "Ingeniera, resulta ser un androide tipo Auton dispuesto a hacer cualquier cosa para proteger a la humanidad, porque está programada para eso."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuántos miembros de la tripulación hay a bordo del Prometheus ?",
+        "propositions": [
+          "77",
+          "37",
+          "17",
+          "57"
+        ],
+        "réponse": "17",
+        "anecdote": "La Compañía Weyland organizó una expedición científica, que envió diecisiete miembros a bordo del Prometheus al LV-223."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué nombre le dio la tripulación a la computadora de a bordo del Nostromo ?",
+        "propositions": [
+          "Mamá",
+          "Kyle",
+          "Vestíbulo",
+          "Wally"
+        ],
+        "réponse": "Mamá",
+        "anecdote": "Al regresar a la Tierra, es mamá quien interrumpe el viaje y despierta a los siete miembros de la tripulación mantenidos en biostasis."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuántos clones de Ripley fueron necesarios para alcanzar el éxito total ?",
+        "propositions": [
+          "Dos",
+          "Cuatro",
+          "Ocho",
+          "Seis"
+        ],
+        "réponse": "Ocho",
+        "anecdote": "Ripley es, con su clon Ripley 8, la heroína de cuatro películas y es un personaje de las expansiones del videojuego « Alien: Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué criatura emerge de su huevo para agarrarse al rostro de un humano ?",
+        "propositions": [
+          "Abrazacaras",
+          "Xenomorfo",
+          "Fremen",
+          "Rompepefres"
+        ],
+        "réponse": "Abrazacaras",
+        "anecdote": "Un facehugger agarra la cara de un huésped que luego paralizará y en el que implantará un embrión antes de morir."
+      },
+      {
+        "id": 17,
+        "question": "A finales de 2023, ¿cuántas películas habría de la saga « Alien » ?",
+        "propositions": [
+          "Ocho",
+          "Seis",
+          "Nuevo",
+          "Siete"
+        ],
+        "réponse": "Ocho",
+        "anecdote": "El universo Alien se basa en la premisa de que los humanos comenzaron a colonizar la galaxia a mediados del siglo XXI."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué arqueólogo convenció a Weyland para financiar su viaje espacial ?",
+        "propositions": [
+          "Meredith Vickers",
+          "Elisabeth Shaw",
+          "Karine Oram",
+          "Ellen Ripley"
+        ],
+        "réponse": "Elisabeth Shaw",
+        "anecdote": "Ella y su compañero descubren, en la isla de Skye, en Escocia, una pintura prehistórica que representa a un humanoide apuntando a seis estrellas."
+      },
+      {
+        "id": 19,
+        "question": "¿Quién salva y repara a David, el mayordomo androide ?",
+        "propositions": [
+          "Daniel Branson",
+          "Ellen Ripley",
+          "Charlie Mollowd",
+          "Elizabeth Shawn"
+        ],
+        "réponse": "Elizabeth Shawn",
+        "anecdote": "Mientras Shaw está en hibernación, David, una vez reparado por ella, aterriza el Promotheus en el planeta de los Ingenieros."
+      },
+      {
+        "id": 20,
+        "question": "En « el octavo pasajero », ¿desde qué planeta se emite la señal de radio ?",
+        "propositions": [
+          "LV-223",
+          "Origae-6",
+          "Zeta Reticuli",
+          "Florina-16"
+        ],
+        "réponse": "Zeta Reticuli",
+        "anecdote": "Zeta Reticuli es una estrella ubicada a 39 años luz de la Tierra, en la constelación austral de Reticule."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué actor francés interpreta a un mercenario paralizado en « Alien » ?",
+        "propositions": [
+          "Marc Caro",
+          "Dominique Piñón",
+          "Jean-Claude Dreyfus",
+          "Ticky Holgado"
+        ],
+        "réponse": "Dominique Piñón",
+        "anecdote": "Un ingeniero, está paralizado de las piernas para abajo y se mueve en una silla eléctrica con orugas en « Alien, Resurrection »."
+      },
+      {
+        "id": 22,
+        "question": "En la saga « Alien » ¿cuál es la función principal del líquido negro ?",
+        "propositions": [
+          "Arma biológica",
+          "Conservador",
+          "Energía de propulsión",
+          "Vacuna"
+        ],
+        "réponse": "Arma biológica",
+        "anecdote": "El líquido tiene la propiedad de modificar la estructura molecular de una forma de vida en contacto con él, convirtiéndose en una nueva."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuánto tiempo pasa entre « Prometeo » y el primer « Alien » ?",
+        "propositions": [
+          "3.300 años",
+          "2.300 años",
+          "300 años",
+          "1.300 años"
+        ],
+        "réponse": "1.300 años",
+        "anecdote": "Originalmente planeada como una precuela directa de « Alien, el octavo pasajero » (1979), la trama final se alejará de la saga Alien."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué criatura logra Shaw sacar del útero ?",
+        "propositions": [
+          "Rompepefres",
+          "Trilobites",
+          "Cenobyte",
+          "Fribustero"
+        ],
+        "réponse": "Trilobites",
+        "anecdote": "En referencia a su parecido con un pulpo y una clase de artrópodos marinos fósiles que vivieron durante el Paleozoico."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuánto tiempo después de la muerte de Ripley la clonarán los científicos ?",
+        "propositions": [
+          "400 años",
+          "100 años",
+          "300 años",
+          "200 años"
+        ],
+        "réponse": "200 años",
+        "anecdote": "200 años después de su suicidio, los científicos lograron clonar a Ripley basándose en una muestra de sangre extraída de Fiorina-16."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué criatura sale de un cuerpo humano haciendo explotar su caja torácica ?",
+        "propositions": [
+          "Rompecaras",
+          "Xenomorfo",
+          "Prefacio",
+          "Rompepefres"
+        ],
+        "réponse": "Rompepefres",
+        "anecdote": "El Chestburster muda y crece rápidamente, alcanzando de dos a tres metros en unas pocas horas, y convirtiéndose en un Alien adulto."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es la nacionalidad de la actriz Noomi Rapace, que interpreta a Shaw ?",
+        "propositions": [
+          "finlandés",
+          "sueco",
+          "australiano",
+          "americano"
+        ],
+        "réponse": "sueco",
+        "anecdote": "Noomi Rapace presta sus rasgos a la científica Elizabeth Shaw, junto a Charlize Theron, Idris Elba y Michael Fassbender."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuántos años lleva Ripley a la deriva en biostasis con su gato ?",
+        "propositions": [
+          "257 años",
+          "157 años",
+          "57 años",
+          "127 años"
+        ],
+        "réponse": "57 años",
+        "anecdote": "Repatriada a la estación orbital Gateway, culpada de la destrucción del Nostromo, Ripley tendrá que regresar a una misión."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué actor interpreta el papel del inteligente androide Bishop ?",
+        "propositions": [
+          "Michael Wincott",
+          "Michael Fassbender",
+          "Lanza Henriksen",
+          "Ron Perlman"
+        ],
+        "réponse": "Lanza Henriksen",
+        "anecdote": "La apariencia de este modelo de Android sigue el modelo de Charles Bishop Weyland, fundador de Weyland Industries."
+      },
+      {
+        "id": 30,
+        "question": "Según la saga Alien, ¿qué seres estuvieron detrás de la creación de la humanidad ?",
+        "propositions": [
+          "Creadores",
+          "Ingenieros",
+          "Diseñadores",
+          "Descubridores"
+        ],
+        "réponse": "Ingenieros",
+        "anecdote": "Space Jockey, Mala'kak, Piloto o Ingeniero son los nombres de las criaturas inteligentes que se encuentran en LV-426 y en el Planeta 4."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Nella saga di Alien, chi ha diretto il film « Alien Returns » ?",
+        "propositions": [
+          "James Cameron",
+          "Jean-Pierre Jeunet",
+          "Ridley Scott",
+          "David Fincher"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "Uscito nel 1986, il film è stato nominato a sette Oscar e ha vinto quelli per il miglior montaggio sonoro e i migliori effetti visivi."
+      },
+      {
+        "id": 2,
+        "question": "Come si chiama la creatura principale del film « Alien » ?",
+        "propositions": [
+          "Mala'kak",
+          "Facehugger",
+          "Trilobite",
+          "Xenomorfo"
+        ],
+        "réponse": "Xenomorfo",
+        "anecdote": "David avendo contaminato un membro dell'equipaggio con un agente patogeno extraterrestre, questo darà origine al primo xenomorfo."
+      },
+      {
+        "id": 3,
+        "question": "Di che colore è il fluido vitale che sostituisce il sangue degli androidi ?",
+        "propositions": [
+          "Rosso",
+          "Bianco",
+          "Giallo",
+          "Verde"
+        ],
+        "réponse": "Bianco",
+        "anecdote": "Gli androidi svolgono un ruolo importante in « Alien », essendo gli unici che gli alieni non possono prendere di mira per deporre le uova."
+      },
+      {
+        "id": 4,
+        "question": "In « Alien », quale compagnia organizza e finanzia i viaggi spaziali ?",
+        "propositions": [
+          "Fiorina",
+          "Weyland",
+          "Cobb",
+          "Requiem"
+        ],
+        "réponse": "Weyland",
+        "anecdote": "Chiamata Weyland-Yutani, la Compagnia è un conglomerato la cui influenza si estende sulla maggior parte delle colonie umane."
+      },
+      {
+        "id": 5,
+        "question": "Quale attrice interpreta il ruolo cult di Ellen Ripley nella saga « Alien » ?",
+        "propositions": [
+          "Sigourney Weaver",
+          "Susan Sarandon",
+          "Julianne Moore",
+          "Meryl Streep"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "Negli anni 2010 è tornata alla ribalta grazie a ruoli secondari nel film di successo « Avatar » (2009)."
+      },
+      {
+        "id": 6,
+        "question": "Quale androide Weyland considera il figlio che non avrà mai ?",
+        "propositions": [
+          "Davide",
+          "Vescovo",
+          "Chiama",
+          "Walter"
+        ],
+        "réponse": "Davide",
+        "anecdote": "David è responsabile del disastro dell'equipaggio della Prometheus dopo la contaminazione con un agente patogeno."
+      },
+      {
+        "id": 7,
+        "question": "Cos'ha di speciale il pianeta Fiorina-16 del film « Alien 3 » ?",
+        "propositions": [
+          "Pianeta acido",
+          "Pianeta prigione",
+          "Pianeta palude",
+          "Pianeta cavo"
+        ],
+        "réponse": "Pianeta prigione",
+        "anecdote": "Se la sua posizione orbitale è compatibile con la vita, Fiorina-16 resta estremamente inospitale, spazzata da venti potenti."
+      },
+      {
+        "id": 8,
+        "question": "In quale fase vengono collocati gli esseri umani per i viaggi nello spazio ?",
+        "propositions": [
+          "Biomassa",
+          "Biosfera",
+          "Biostatico",
+          "Biostasi"
+        ],
+        "réponse": "Biostasi",
+        "anecdote": "L'equipaggio della Nostromo è stato messo in biostasi durante il viaggio di ritorno sulla Terra dopo aver completato il raccolto della raffineria."
+      },
+      {
+        "id": 9,
+        "question": "Quale attrice interpreta la figlia di Weyland nel film « Prometheus » ?",
+        "propositions": [
+          "Emily Watson",
+          "Charlize Theron",
+          "Jodie Foster",
+          "Winona Ryder"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "La Prometheus è una nave scientifica dotata di attrezzature mediche, di esplorazione e di ricerca ad alta tecnologia."
+      },
+      {
+        "id": 10,
+        "question": "Come si chiama il gatto dell'equipaggio della serie « Alien » ?",
+        "propositions": [
+          "Giovanni",
+          "Jack",
+          "Tipico",
+          "Jones"
+        ],
+        "réponse": "Jones",
+        "anecdote": "Il tenente Ellen L. Ripley (Sigourney Weaver) è il terzo ufficiale e unico sopravvissuto (insieme al gatto Jones) della Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual è l'unica astronave che riuscirà a tornare sulla Terra in « Alien » ?",
+        "propositions": [
+          "Boops",
+          "Unami",
+          "Betty",
+          "Artemide"
+        ],
+        "réponse": "Betty",
+        "anecdote": "La Betty è una vecchia nave pilotata da una banda di sei pirati. Dalla bocca del clone di Ripley, lui sarebbe vecchio quanto lei."
+      },
+      {
+        "id": 12,
+        "question": "Quale attrice interpreta il ruolo di Call nella saga « Alien » ?",
+        "propositions": [
+          "Natalia Dyer",
+          "Geena Davis",
+          "Winona Ryder",
+          "Natalie Portman"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "Ingegnere, si scopre essere un androide di tipo Auton pronto a tutto per proteggere l'umanità, perché è programmata per questo."
+      },
+      {
+        "id": 13,
+        "question": "Quanti membri dell'equipaggio ci sono a bordo della Prometheus ?",
+        "propositions": [
+          "17",
+          "77",
+          "37",
+          "57"
+        ],
+        "réponse": "17",
+        "anecdote": "Una spedizione scientifica fu organizzata dalla Compagnia Weyland, che inviò diciassette membri a bordo della Prometheus su LV-223."
+      },
+      {
+        "id": 14,
+        "question": "Che nome ha dato l'equipaggio al computer di bordo della Nostromo ?",
+        "propositions": [
+          "Ingresso",
+          "Wally",
+          "Kyle",
+          "Mamma"
+        ],
+        "réponse": "Mamma",
+        "anecdote": "Ritornando sulla Terra, è la Mamma a interrompere il viaggio e a svegliare i sette membri dell'equipaggio tenuti in biostasi."
+      },
+      {
+        "id": 15,
+        "question": "Quanti cloni di Ripley ci sono voluti prima del completo successo ?",
+        "propositions": [
+          "Due",
+          "Quattro",
+          "Otto",
+          "Sei"
+        ],
+        "réponse": "Otto",
+        "anecdote": "Ripley è, con il suo clone Ripley 8, l'eroina di quattro film ed è un personaggio delle espansioni del videogioco « Alien : Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "Quale creatura esce dal suo uovo per afferrare il volto di un essere umano ?",
+        "propositions": [
+          "Fremen",
+          "Facehugger",
+          "Xenomorfo",
+          "Pettobuster"
+        ],
+        "réponse": "Facehugger",
+        "anecdote": "Un facehugger si aggrappa al volto di un ospite che poi paralizzerà e nel quale impianterà un embrione prima di morire."
+      },
+      {
+        "id": 17,
+        "question": "Alla fine del 2023, quanti film ci saranno della saga « Alien » ?",
+        "propositions": [
+          "Nuovo",
+          "Sei",
+          "Sette",
+          "Otto"
+        ],
+        "réponse": "Otto",
+        "anecdote": "L'universo alieno si basa sulla premessa che gli umani iniziarono a colonizzare la galassia a metà del 21° secolo."
+      },
+      {
+        "id": 18,
+        "question": "Quale archeologo ha convinto Weyland a finanziare il suo viaggio nello spazio ?",
+        "propositions": [
+          "Elisabetta Shaw",
+          "Ellen Ripley",
+          "Karine Oram",
+          "Meredith Vickers"
+        ],
+        "réponse": "Elisabetta Shaw",
+        "anecdote": "Lei e il suo compagno scoprono, sull'isola di Skye in Scozia, un dipinto preistorico raffigurante un umanoide che indica sei stelle."
+      },
+      {
+        "id": 19,
+        "question": "Chi salva e ripara David, il maggiordomo androide ?",
+        "propositions": [
+          "Daniel Branson",
+          "Elizabeth Shawn",
+          "Ellen Ripley",
+          "Charlie Mollowd"
+        ],
+        "réponse": "Elizabeth Shawn",
+        "anecdote": "Mentre Shaw è in letargo, David, una volta riparato da lei, fa atterrare la Promotheus sul pianeta degli Ingegneri."
+      },
+      {
+        "id": 20,
+        "question": "In « l'ottavo passeggero », da quale pianeta viene emesso il segnale radio ?",
+        "propositions": [
+          "Zeta Reticoli",
+          "LV-223",
+          "Fiorina-16",
+          "Origae-6"
+        ],
+        "réponse": "Zeta Reticoli",
+        "anecdote": "Zeta Reticuli è una stella situata a 39 anni luce dalla Terra, nella costellazione meridionale del Reticolo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale attore francese interpreta un mercenario paralizzato in « Alien » ?",
+        "propositions": [
+          "Dominique Pinón",
+          "Ticky Holgado",
+          "Marc Caro",
+          "Jean-Claude Dreyfus"
+        ],
+        "réponse": "Dominique Pinón",
+        "anecdote": "Ingegnere, è paralizzato dalle gambe in giù e si muove su una sedia elettrica con cingoli in « Alien, Resurrection »."
+      },
+      {
+        "id": 22,
+        "question": "Nella saga « Alien », qual è la funzione principale del liquido nero ?",
+        "propositions": [
+          "Energia di propulsione",
+          "Conservatore",
+          "Vaccino",
+          "Arma biologica"
+        ],
+        "réponse": "Arma biologica",
+        "anecdote": "Il liquido ha la proprietà di modificare la struttura molecolare di una forma di vita a contatto con esso, diventando una nuova."
+      },
+      {
+        "id": 23,
+        "question": "Quanto tempo passa tra « Prometeo » e il primo « Alien » ?",
+        "propositions": [
+          "300 anni",
+          "2.300 anni",
+          "3.300 anni",
+          "1.300 anni"
+        ],
+        "réponse": "1.300 anni",
+        "anecdote": "Originariamente concepita come prequel diretto di « Alien, the Eighth Passenger » (1979), la trama finale si allontanerà dalla saga di Alien."
+      },
+      {
+        "id": 24,
+        "question": "Quale creatura Shaw riesce a rimuovere dal grembo materno ?",
+        "propositions": [
+          "Cenobite",
+          "Pettobuster",
+          "Fribuster",
+          "Trilobite"
+        ],
+        "réponse": "Trilobite",
+        "anecdote": "In riferimento alla sua somiglianza con un polipo e ad una classe di artropodi marini fossili vissuti durante il Paleozoico."
+      },
+      {
+        "id": 25,
+        "question": "Quanto tempo dopo la morte di Ripley gli scienziati la cloneranno ?",
+        "propositions": [
+          "300 anni",
+          "200 anni",
+          "400 anni",
+          "100 anni"
+        ],
+        "réponse": "200 anni",
+        "anecdote": "200 anni dopo il suo suicidio, gli scienziati riuscirono a clonare Ripley sulla base di un campione di sangue raccolto su Fiorina-16."
+      },
+      {
+        "id": 26,
+        "question": "Quale creatura esce da un corpo umano facendo esplodere la sua cassa toracica ?",
+        "propositions": [
+          "Pettobuster",
+          "Prefazione",
+          "Facebuster",
+          "Xenomorfo"
+        ],
+        "réponse": "Pettobuster",
+        "anecdote": "Il Chestburster fa la muta e cresce rapidamente, raggiungendo i due o i tre metri in poche ore e diventando un alieno adulto."
+      },
+      {
+        "id": 27,
+        "question": "Qual è la nazionalità dell'attrice Noomi Rapace, che interpreta Shaw ?",
+        "propositions": [
+          "Australiano",
+          "finlandese",
+          "Americano",
+          "Svedese"
+        ],
+        "réponse": "Svedese",
+        "anecdote": "Noomi Rapace presta i suoi lungometraggi alla scienziata Elizabeth Shaw, accanto a Charlize Theron, Idris Elba e Michael Fassbender."
+      },
+      {
+        "id": 28,
+        "question": "Da quanti anni Ripley va alla deriva in biostasi con il suo gatto ?",
+        "propositions": [
+          "157 anni",
+          "257 anni",
+          "57 anni",
+          "127 anni"
+        ],
+        "réponse": "57 anni",
+        "anecdote": "Rimpatriato sulla stazione orbitale Gateway, accusata della distruzione della Nostromo, Ripley dovrà tornare in missione."
+      },
+      {
+        "id": 29,
+        "question": "Quale attore interpreta il ruolo dell'intelligente androide Bishop ?",
+        "propositions": [
+          "Lance Henriksen",
+          "Michael Fassbender",
+          "Ron Perlman",
+          "Michael Wincott"
+        ],
+        "réponse": "Lance Henriksen",
+        "anecdote": "L'aspetto di questo modello di androide è modellato su quello di Charles Bishop Weyland, fondatore della Weyland Industries."
+      },
+      {
+        "id": 30,
+        "question": "Secondo la saga di Alien, quali esseri si celavano dietro la creazione dell'umanità ?",
+        "propositions": [
+          "Creatori",
+          "Ingegneri",
+          "Designer",
+          "Scopritori"
+        ],
+        "réponse": "Ingegneri",
+        "anecdote": "Space Jockey, Mala'kak, Pilota o Ingegnere sono i nomi delle creature intelligenti incontrate su LV-426 e sul Pianeta 4."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie regisseerde in de Alien-saga de film « Alien Returns » ?",
+        "propositions": [
+          "David Fincher",
+          "James Cameron",
+          "Jean-Pierre Jeunet",
+          "Ridley Scott"
+        ],
+        "réponse": "James Cameron",
+        "anecdote": "De film, uitgebracht in 1986, werd genomineerd voor zeven Oscars en won die voor de beste geluidsmontage en de beste visuele effecten."
+      },
+      {
+        "id": 2,
+        "question": "Hoe heet het hoofdwezen in de film « Alien » ?",
+        "propositions": [
+          "Trilobiet",
+          "Mala'kak",
+          "Xenomorf",
+          "Facehugger"
+        ],
+        "réponse": "Xenomorf",
+        "anecdote": "Omdat David een bemanningslid heeft besmet met een buitenaardse ziekteverwekker, zal dit aanleiding geven tot de eerste xenomorf."
+      },
+      {
+        "id": 3,
+        "question": "Wat is de kleur van de vitale vloeistof die het bloed van androïden vervangt ?",
+        "propositions": [
+          "Wit",
+          "Geel",
+          "Groen",
+          "Rood"
+        ],
+        "réponse": "Wit",
+        "anecdote": "Androïden spelen een belangrijke rol in « Alien », omdat ze de enige zijn waarop Aliens zich niet kunnen richten om hun eieren te leggen."
+      },
+      {
+        "id": 4,
+        "question": "Welk bedrijf in « Alien » organiseert en financiert ruimtevaart ?",
+        "propositions": [
+          "Cobb",
+          "Weyland",
+          "Requiem",
+          "Fiorina"
+        ],
+        "réponse": "Weyland",
+        "anecdote": "De compagnie, genaamd Weyland-Yutani, is een conglomeraat waarvan de invloed zich uitstrekt over de meeste menselijke koloniën."
+      },
+      {
+        "id": 5,
+        "question": "Welke actrice speelt de cultrol van Ellen Ripley in de « Alien »-saga ?",
+        "propositions": [
+          "Meryl Streep",
+          "Sigourney Weaver",
+          "Susan Sarandon",
+          "Julianne Moore"
+        ],
+        "réponse": "Sigourney Weaver",
+        "anecdote": "In de jaren 2010 keerde ze terug naar de voorgrond dankzij bijrollen in de blockbuster « Avatar » (2009)."
+      },
+      {
+        "id": 6,
+        "question": "Welke androïde beschouwt Weyland als de zoon die hij nooit zal krijgen ?",
+        "propositions": [
+          "David",
+          "Bisschop",
+          "Walter",
+          "Bel"
+        ],
+        "réponse": "David",
+        "anecdote": "David is verantwoordelijk voor de ramp van de Prometheus-bemanning na besmetting met een ziekteverwekker."
+      },
+      {
+        "id": 7,
+        "question": "Wat is er speciaal aan de planeet Fiorina-16 uit de film « Alien 3 » ?",
+        "propositions": [
+          "Zure planeet",
+          "Holle planeet",
+          "Moerasplaneet",
+          "Gevangenisplaneet"
+        ],
+        "réponse": "Gevangenisplaneet",
+        "anecdote": "Als de locatie in de baan verenigbaar is met leven, blijft Fiorina-16 uiterst onherbergzaam, geteisterd door krachtige winden."
+      },
+      {
+        "id": 8,
+        "question": "In welke fase wordt de mens geplaatst voor ruimtevaart ?",
+        "propositions": [
+          "Biostatisch",
+          "Biostase",
+          "Biosfeer",
+          "Biomassa"
+        ],
+        "réponse": "Biostase",
+        "anecdote": "De Nostromo-bemanning werd op weg terug naar de aarde in biostase geplaatst nadat ze de oogst van hun raffinaderij hadden voltooid."
+      },
+      {
+        "id": 9,
+        "question": "Welke actrice speelt de dochter van Weyland in de film « Prometheus » ?",
+        "propositions": [
+          "Jodie Foster",
+          "Emily Watson",
+          "Winona Ryder",
+          "Charlize Theron"
+        ],
+        "réponse": "Charlize Theron",
+        "anecdote": "De Prometheus is een wetenschappelijk schip uitgerust met hightech medische, exploratie- en onderzoeksapparatuur."
+      },
+      {
+        "id": 10,
+        "question": "Wat is de naam van de bemanningskat in de « Alien »-serie ?",
+        "propositions": [
+          "Johannes",
+          "Jones",
+          "Jac",
+          "Tipy"
+        ],
+        "réponse": "Jones",
+        "anecdote": "Luitenant Ellen L. Ripley (Sigourney Weaver) is de derde officier en enige overlevende (samen met de kat Jones) van de Nostromo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat is het enige ruimteschip dat erin zal slagen terug te keren naar de aarde in « Alien » ?",
+        "propositions": [
+          "Boop",
+          "Artemis",
+          "Unami",
+          "Betty"
+        ],
+        "réponse": "Betty",
+        "anecdote": "De Betty is een oud schip bestuurd door een bende van zes piraten. Volgens de mond van Ripley's kloon zou hij net zo oud zijn als zij."
+      },
+      {
+        "id": 12,
+        "question": "Welke actrice speelt de rol van Call in de « Alien »-saga ?",
+        "propositions": [
+          "Natalia Dyer",
+          "Winona Ryder",
+          "Geena Davis",
+          "Natalie Portman"
+        ],
+        "réponse": "Winona Ryder",
+        "anecdote": "Als ingenieur blijkt ze een Android van het Auton-type te zijn die alles wil doen om de mensheid te beschermen, omdat ze daarvoor geprogrammeerd is."
+      },
+      {
+        "id": 13,
+        "question": "Hoeveel bemanningsleden zijn er aan boord van de Prometheus ?",
+        "propositions": [
+          "37",
+          "77",
+          "17",
+          "57"
+        ],
+        "réponse": "17",
+        "anecdote": "Er werd een wetenschappelijke expeditie georganiseerd door de Weyland Company, die zeventien leden aan boord van de Prometheus naar LV-223 stuurde."
+      },
+      {
+        "id": 14,
+        "question": "Welke naam heeft de bemanning gegeven aan de boordcomputer van de Nostromo ?",
+        "propositions": [
+          "mama",
+          "Wallie",
+          "Lobby",
+          "Kyle"
+        ],
+        "réponse": "mama",
+        "anecdote": "Terugkerend naar de aarde, is het moeder die de reis onderbreekt en de zeven bemanningsleden wakker maakt die in biostase worden vastgehouden."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel klonen van Ripley waren er nodig voordat het volledig succes had ?",
+        "propositions": [
+          "Acht",
+          "Twee",
+          "Zes",
+          "Vier"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Ripley is met haar kloon Ripley 8 de heldin van vier films en is een personage in de uitbreidingen van de videogame « Alien : Isolation »."
+      },
+      {
+        "id": 16,
+        "question": "Welk wezen komt uit zijn ei en grijpt zich vast aan het gezicht van een mens ?",
+        "propositions": [
+          "Facehugger",
+          "Vrijmannen",
+          "Borstburster",
+          "Xenomorf"
+        ],
+        "réponse": "Facehugger",
+        "anecdote": "Een facehugger grijpt het gezicht van een gastheer vast, die hij vervolgens zal verlammen, en waarin hij een embryo zal implanteren voordat hij sterft."
+      },
+      {
+        "id": 17,
+        "question": "Hoeveel films zouden er eind 2023 zijn in de « Alien »-saga ?",
+        "propositions": [
+          "Acht",
+          "Nieuw",
+          "Zeven",
+          "Zes"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Het buitenaardse universum is gebaseerd op de veronderstelling dat mensen halverwege de 21e eeuw begonnen met het koloniseren van de Melkweg."
+      },
+      {
+        "id": 18,
+        "question": "Welke archeoloog overtuigde Weyland ervan zijn ruimtereis te financieren ?",
+        "propositions": [
+          "Meredith Vickers",
+          "Karine Oram",
+          "Elizabeth Shaw",
+          "Ellen Ripley"
+        ],
+        "réponse": "Elizabeth Shaw",
+        "anecdote": "Zij en haar metgezel ontdekken op het eiland Skye in Schotland een prehistorisch schilderij met een mensachtige die naar zes sterren wijst."
+      },
+      {
+        "id": 19,
+        "question": "Wie redt en repareert David, de Android-butler ?",
+        "propositions": [
+          "Ellen Ripley",
+          "Elizabeth Shawn",
+          "Daniël Branson",
+          "Charlie Mollowd"
+        ],
+        "réponse": "Elizabeth Shawn",
+        "anecdote": "Terwijl Shaw in winterslaap is, landt David, nadat hij door haar is gerepareerd, de Promotheus op de planeet van de Engineers."
+      },
+      {
+        "id": 20,
+        "question": "Vanaf welke planeet wordt in « de achtste passagier » het radiosignaal uitgezonden ?",
+        "propositions": [
+          "LV-223",
+          "Zeta Reticuli",
+          "Origae-6",
+          "Fiorina-16"
+        ],
+        "réponse": "Zeta Reticuli",
+        "anecdote": "Zeta Reticuli is een ster die zich op 39 lichtjaar van de aarde bevindt, in het zuidelijke sterrenbeeld Reticule."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke Franse acteur speelt een verlamde huursoldaat in « Alien » ?",
+        "propositions": [
+          "Ticky Holgado",
+          "Marc Caro",
+          "Jean-Claude Dreyfus",
+          "Dominique Pinon"
+        ],
+        "réponse": "Dominique Pinon",
+        "anecdote": "Hij is een ingenieur en is vanaf zijn benen verlamd en beweegt zich in een stoel met elektrische rupsbanden in « Alien, Resurrection »."
+      },
+      {
+        "id": 22,
+        "question": "Wat is in de « Alien »-saga de belangrijkste functie van de zwarte vloeistof ?",
+        "propositions": [
+          "Vaccin",
+          "Biologisch wapen",
+          "Aandrijfenergie",
+          "Conservatief"
+        ],
+        "réponse": "Biologisch wapen",
+        "anecdote": "De vloeistof heeft de eigenschap de moleculaire structuur van een levensvorm die ermee in contact komt, te wijzigen en een nieuwe te worden."
+      },
+      {
+        "id": 23,
+        "question": "Hoeveel tijd verstrijkt er tussen « Prometheus » en de eerste « Alien » ?",
+        "propositions": [
+          "3.300 jaar",
+          "1.300 jaar",
+          "300 jaar",
+          "2.300 jaar"
+        ],
+        "réponse": "1.300 jaar",
+        "anecdote": "Oorspronkelijk gepland als een directe prequel op « Alien, the Eighth Passenger » (1979), zal de laatste verhaallijn afwijken van de Alien-saga."
+      },
+      {
+        "id": 24,
+        "question": "Welk wezen weet Shaw uit de baarmoeder te halen ?",
+        "propositions": [
+          "Fribuster",
+          "Cenobyte",
+          "Trilobiet",
+          "Borstburster"
+        ],
+        "réponse": "Trilobiet",
+        "anecdote": "Verwijzend naar de gelijkenis met een octopus en een klasse van fossiele mariene geleedpotigen die leefden tijdens het Paleozoïcum."
+      },
+      {
+        "id": 25,
+        "question": "Hoe lang na de dood van Ripley zullen wetenschappers haar klonen ?",
+        "propositions": [
+          "400 jaar",
+          "100 jaar",
+          "300 jaar",
+          "200 jaar"
+        ],
+        "réponse": "200 jaar",
+        "anecdote": "200 jaar na haar zelfmoord slaagden wetenschappers erin Ripley te klonen op basis van een bloedmonster verzameld op Fiorina-16."
+      },
+      {
+        "id": 26,
+        "question": "Welk wezen komt uit een menselijk lichaam door zijn ribbenkast te laten exploderen ?",
+        "propositions": [
+          "Xenomorf",
+          "Borstburster",
+          "Voorwoord",
+          "Facebuster"
+        ],
+        "réponse": "Borstburster",
+        "anecdote": "De Chestburster vervelt en groeit snel, bereikt binnen een paar uur twee tot drie meter en wordt een volwassen buitenaards wezen."
+      },
+      {
+        "id": 27,
+        "question": "Wat is de nationaliteit van actrice Noomi Rapace, die Shaw speelt ?",
+        "propositions": [
+          "Amerikaans",
+          "Fins",
+          "Zweeds",
+          "Australisch"
+        ],
+        "réponse": "Zweeds",
+        "anecdote": "Noomi Rapace leent haar gelaatstrekken aan wetenschapper Elizabeth Shaw, naast Charlize Theron, Idris Elba en Michael Fassbender."
+      },
+      {
+        "id": 28,
+        "question": "Hoeveel jaar heeft Ripley samen met haar kat in biostase rondgedreven ?",
+        "propositions": [
+          "257 jaar",
+          "57 jaar oud",
+          "157 jaar",
+          "127 jaar"
+        ],
+        "réponse": "57 jaar oud",
+        "anecdote": "Gerepatrieerd naar het Gateway-orbitaalstation, beschuldigd van de vernietiging van de Nostromo, zal Ripley terug moeten gaan op een missie."
+      },
+      {
+        "id": 29,
+        "question": "Welke acteur speelt de rol van de intelligente androïde Bishop ?",
+        "propositions": [
+          "Michael Wincott",
+          "Michael Fassbender",
+          "Lance Henriksen",
+          "Ron Perlman"
+        ],
+        "réponse": "Lance Henriksen",
+        "anecdote": "Het uiterlijk van dit Android-model is gemodelleerd naar dat van Charles Bishop Weyland, oprichter van Weyland Industries."
+      },
+      {
+        "id": 30,
+        "question": "Welke wezens zaten volgens de Alien-sage achter de schepping van de mensheid ?",
+        "propositions": [
+          "Makers",
+          "Ontdekkers",
+          "Ontwerpers",
+          "Ingenieurs"
+        ],
+        "réponse": "Ingenieurs",
+        "anecdote": "Space Jockey, Mala'kak, Pilot of Engineer zijn de namen van de intelligente wezens die je tegenkomt op LV-426 en op Planet 4."
+      }
+    ]
+    }
+  }
+}

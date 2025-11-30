@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-08-07",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Intrusion",
+      "slogan": "Chassez l'intrus parmi les propositions"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Intruder",
+      "slogan": "Find the odd one out among the options"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Intruso",
+      "slogan": "Encuentra al intruso entre las opciones"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Intruso",
+      "slogan": "Trova l'intruso tra le opzioni"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Eindringling",
+      "slogan": "Finde den Eindringling unter den Vorschlägen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Indringer",
+      "slogan": "Vind de indringer tussen de opties"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel intrus se cache parmi ces vices des sept péchés capitaux ?",
+        "propositions": [
+          "Colère",
+          "Paresse",
+          "Mensonge",
+          "Envie"
+        ],
+        "réponse": "Mensonge",
+        "anecdote": "La liste fut définitivement fixée au quatrième concile du Latran en 1215 et consignée par Thomas d'Aquin au XIIIe siècle."
+      },
+      {
+        "id": 2,
+        "question": "Quel intrus se cache parmi ces plantes dont on mange la racine ?",
+        "propositions": [
+          "Asperge",
+          "Betterave",
+          "Carotte",
+          "Navet"
+        ],
+        "réponse": "Asperge",
+        "anecdote": "Les asperges sont depuis longtemps utilisées comme légumes, en raison de leur saveur délicate et leurs propriétés diurétiques."
+      },
+      {
+        "id": 3,
+        "question": "Quel intrus se cache parmi ces pratiques à cheval ?",
+        "propositions": [
+          "Polo",
+          "Pulka",
+          "Fantasia",
+          "Rodéo"
+        ],
+        "réponse": "Pulka",
+        "anecdote": "En Scandinavie, la pulka est un traîneau utilisé pour la pratique sportive ou le transport, tirée par une personne ou un chien."
+      },
+      {
+        "id": 4,
+        "question": "Quel intrus se cache parmi ces adeptes du noeud papillon ?",
+        "propositions": [
+          "James Bond",
+          "Donald Duck",
+          "Hercule Poirot",
+          "Charlot"
+        ],
+        "réponse": "Charlot",
+        "anecdote": "Charlot est un personnage de fiction, un vagabond interprété par l'acteur britannique Charlie Chaplin dans la plupart de ses films."
+      },
+      {
+        "id": 5,
+        "question": "Quel intrus se cache parmi ces personnages ayant existé ?",
+        "propositions": [
+          "Sherlock Holmes",
+          "Laura Ingalls",
+          "D'Artagnan",
+          "Faust"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes est un personnage de fiction britannique créé par Sir Arthur Conan Doyle dans « Une étude en rouge », en 1887."
+      },
+      {
+        "id": 6,
+        "question": "Quel intrus se cache parmi ces mots qui peuvent être vapeur ?",
+        "propositions": [
+          "Centrale",
+          "Friteuse",
+          "Pomme",
+          "Cheval"
+        ],
+        "réponse": "Friteuse",
+        "anecdote": "Utilisées communément dans les restaurants et les collectivités, des modèles domestiques sont disponibles et sont devenus courants."
+      },
+      {
+        "id": 7,
+        "question": "Quel intrus se cache parmi ces albums de Madonna ?",
+        "propositions": [
+          "Like a Virgin",
+          "In the Zone",
+          "Erotica",
+          "True Blue"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » est le quatrième album studio de chanteuse américaine Britney Spears, aux critiques mitigées, sorti le 16 novembre 2003."
+      },
+      {
+        "id": 8,
+        "question": "Quel intrus se cache parmi ces fruits généralement murs en automne ?",
+        "propositions": [
+          "Groseille",
+          "Kaki",
+          "Grenade",
+          "Banane"
+        ],
+        "réponse": "Groseille",
+        "anecdote": "Les groseilles sont des fruits acides, et pour cette raison, la variété rouge est généralement employée cuite et additionnée de sucre."
+      },
+      {
+        "id": 9,
+        "question": "Quel intrus se cache parmi ces célèbres fumeurs de pipe ?",
+        "propositions": [
+          "Popeye",
+          "Kojak",
+          "Sherlock Holmes",
+          "Maigret"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (interprété par Telly Savalas), est un élégant policier d'origine grecque au crâne rasé, amateur de cigares et de sucettes."
+      },
+      {
+        "id": 10,
+        "question": "Quel intrus se cache parmi ces films de catastrophe naturelle ?",
+        "propositions": [
+          "Independence Day",
+          "2012",
+          "Volcano",
+          "Twister"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "Sorti en 1996, « Independence Day » est un film de science-fiction de Roland Emmerich racontant l'invasion d'extraterrestres."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel intrus se cache parmi ces disciplines sportives asiatiques ?",
+        "propositions": [
+          "Ju-Jitsu",
+          "Qi-Gong",
+          "Gong-Li",
+          "Wushu"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Née en Chine en 1965, Gong Li est une actrice sino-singapourienne considérée comme l'une des plus grandes actrices en Chine."
+      },
+      {
+        "id": 12,
+        "question": "Quel intrus se cache parmi ces pays au drapeau bleu, blanc et rouge ?",
+        "propositions": [
+          "Australie",
+          "Islande",
+          "Pays-Bas",
+          "Estonie"
+        ],
+        "réponse": "Estonie",
+        "anecdote": "Le drapeau national de l'Estonie est composé de trois bandes horizontales égales, avec de haut en bas le bleu, le noir et le blanc."
+      },
+      {
+        "id": 13,
+        "question": "Quel intrus se cache parmi ces figures du french cancan ?",
+        "propositions": [
+          "Pas de charge",
+          "Saute-mouton",
+          "Coup de cul",
+          "Pas de bourrée"
+        ],
+        "réponse": "Pas de bourrée",
+        "anecdote": "Le French cancan est une célèbre forme de spectacle musical et chorégraphique français, apparue à Londres autour de 1868."
+      },
+      {
+        "id": 14,
+        "question": "Quel intrus se cache parmi ces lacs étendus sur au moins deux pays ?",
+        "propositions": [
+          "Lac Baïkal",
+          "Lac Titicaca",
+          "Lac Léman",
+          "Lac Ontario"
+        ],
+        "réponse": "Lac Baïkal",
+        "anecdote": "Le lac Baïkal, situé au sud de la Sibérie (Russie), constitue la plus grande réserve d'eau douce liquide à la surface de la Terre."
+      },
+      {
+        "id": 15,
+        "question": "Quel intrus se cache parmi ces mots du genre masculin ?",
+        "propositions": [
+          "Haltère",
+          "Hémisphère",
+          "Tentacule",
+          "Algèbre"
+        ],
+        "réponse": "Algèbre",
+        "anecdote": "L'algèbre est une branche des mathématiques qui permet d'exprimer les propriétés des opérations et le traitement des équations."
+      },
+      {
+        "id": 16,
+        "question": "Quel intrus se cache parmi ces films se déroulant à Noël ?",
+        "propositions": [
+          "Love actually",
+          "Un jour sans fin",
+          "Gremlins",
+          "La vie est belle"
+        ],
+        "réponse": "Un jour sans fin",
+        "anecdote": "Bill Murray y interprète Phil Connors, présentateur météo cynique et misanthrope chargé de couvrir le traditionnel jour de la marmotte."
+      },
+      {
+        "id": 17,
+        "question": "Quel intrus se cache parmi ces récompenses cinématographiques ?",
+        "propositions": [
+          "Ours d'or",
+          "Abricot d'or",
+          "Palme d'or",
+          "Casque d'or"
+        ],
+        "réponse": "Casque d'or",
+        "anecdote": "« Casque d'or » est un film dramatique français réalisé par Jacques Becker, sorti en 1952, inspiré de l'histoire vraie d'Amélie Élie."
+      },
+      {
+        "id": 18,
+        "question": "Quel intrus se cache parmi ces célébrités notoirement barbues ?",
+        "propositions": [
+          "Aristote",
+          "Jules Verne",
+          "Cicéron",
+          "Émile Zola"
+        ],
+        "réponse": "Cicéron",
+        "anecdote": "Orateur remarquable, Cicéron a publié une abondante production considérée comme un modèle de l'expression latine classique."
+      },
+      {
+        "id": 19,
+        "question": "Quel intrus se cache parmi ces variétés de salade ?",
+        "propositions": [
+          "Romaine",
+          "Trévise",
+          "Roquette",
+          "Mesclun"
+        ],
+        "réponse": "Mesclun",
+        "anecdote": "Le mesclun est un mélange de pousses et de feuilles, d'au moins cinq variétés différentes, de plantes consommées en salade."
+      },
+      {
+        "id": 20,
+        "question": "Quel intrus se cache parmi ces capitales situées au sud de Paris ?",
+        "propositions": [
+          "Pékin",
+          "Vienne",
+          "Kiev",
+          "Budapest"
+        ],
+        "réponse": "Kiev",
+        "anecdote": "Kiev, la capitale de l'Ukraine, est située au centre nord du pays à 90 kilomètres à vol d'oiseau au sud de la frontière biélorusse."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel intrus se cache parmi ces chanteuses n'ayant pas eu le bac ?",
+        "propositions": [
+          "Jenifer",
+          "Chimène Badi",
+          "Vanessa Paradis",
+          "Eve Angeli"
+        ],
+        "réponse": "Eve Angeli",
+        "anecdote": "Née en 1980, Ève Angeli fait ses premiers pas à la télévision dans le monde de la chanson lors de l'émission Graines de star en 1999."
+      },
+      {
+        "id": 22,
+        "question": "Quel intrus se cache parmi ces inventions créées par des femmes ?",
+        "propositions": [
+          "Scie circulaire",
+          "Lave-vaisselle",
+          "Soutien-gorge",
+          "Bas nylon"
+        ],
+        "réponse": "Bas nylon",
+        "anecdote": "Le type de tissu utilisé pour les bas devient un critère de distinction et d'appellation, comme les bas résilles, les bas de soie, etc."
+      },
+      {
+        "id": 23,
+        "question": "Quel intrus se cache parmi ces variétés de pomme de terre ?",
+        "propositions": [
+          "Carentan",
+          "Roseval",
+          "Charlotte",
+          "Monalisa"
+        ],
+        "réponse": "Carentan",
+        "anecdote": "Carentan est une ancienne commune française de 6 000 habitants, située dans le département de la Manche en région Normandie."
+      },
+      {
+        "id": 24,
+        "question": "Quel intrus se cache parmi ces surnoms de Louis de France ?",
+        "propositions": [
+          "Le Simple",
+          "Le Gros",
+          "Le Hutin",
+          "Le Lion"
+        ],
+        "réponse": "Le Simple",
+        "anecdote": "Charles III, dit le Simple, appartenant à la dynastie carolingienne, fut roi de Francie occidentale de la fin du IXe et du début du Xe siècle."
+      },
+      {
+        "id": 25,
+        "question": "Quel intrus se cache parmi ces tennismen gauchers ?",
+        "propositions": [
+          "Andy Murray",
+          "Rafael Nadal",
+          "Jimmy Connors",
+          "Guy Forget"
+        ],
+        "réponse": "Andy Murray",
+        "anecdote": "Aux Jeux olympiques, il a remporté deux médailles d'or consécutives en simple, ce qui fait de lui le recordman dans cette catégorie."
+      },
+      {
+        "id": 26,
+        "question": "Quel intrus se cache parmi ces mots provenant de la langue arabe ?",
+        "propositions": [
+          "Gazelle",
+          "Girafe",
+          "Panoplie",
+          "Magasin"
+        ],
+        "réponse": "Panoplie",
+        "anecdote": "C'est un ensemble de possibilités, de moyens d'action dont on dispose dans une situation donnée (ex : une panoplie de sanctions)."
+      },
+      {
+        "id": 27,
+        "question": "Quel intrus se cache parmi ces mots désignant le postérieur ?",
+        "propositions": [
+          "Coquillard",
+          "Bousin",
+          "Boule",
+          "Pétard"
+        ],
+        "réponse": "Bousin",
+        "anecdote": "Dans les domaines de la géologie, le bousin est la matière étrangère, terreuse, qui recouvre des pierres extraites d'une carrière."
+      },
+      {
+        "id": 28,
+        "question": "Quel intrus se cache parmi ces inventions françaises ?",
+        "propositions": [
+          "Margarine",
+          "Tronçonneuse",
+          "Sécateur",
+          "Cinémascope"
+        ],
+        "réponse": "Tronçonneuse",
+        "anecdote": "L'allemand Andreas Stihl a développé et breveté une tronçonneuse en 1925 ainsi qu'une autre tronçonneuse à gasoil en 1929."
+      },
+      {
+        "id": 29,
+        "question": "Quel intrus se cache parmi ces mots de genre féminin ?",
+        "propositions": [
+          "Orthographe",
+          "Écritoire",
+          "Équinoxe",
+          "Octave"
+        ],
+        "réponse": "Équinoxe",
+        "anecdote": "Un équinoxe est un instant de l'année où le Soleil traverse le plan équatorial terrestre, changeant ainsi d'hémisphère céleste."
+      },
+      {
+        "id": 30,
+        "question": "Quel intrus se cache parmi ces instruments de mesure ?",
+        "propositions": [
+          "Pied à coulisse",
+          "Clepsydre",
+          "Équerre à chapeau",
+          "Sextant"
+        ],
+        "réponse": "Équerre à chapeau",
+        "anecdote": "Généralement non graduée, l'équerre de mécanicien sert au traçage et à la vérification de la planéité et des angles droits."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What intruder hides among these vices of the seven deadly sins ?",
+        "propositions": [
+          "Lie",
+          "Envy",
+          "Anger",
+          "Laziness"
+        ],
+        "réponse": "Lie",
+        "anecdote": "The list was definitively fixed at the Fourth Lateran Council in 1215 and recorded by Thomas Aquinas in the 13th century."
+      },
+      {
+        "id": 2,
+        "question": "What intruder is hiding among these plants whose roots we eat ?",
+        "propositions": [
+          "Turnip",
+          "Carrot",
+          "Beet",
+          "Asparagus"
+        ],
+        "réponse": "Asparagus",
+        "anecdote": "Asparagus has long been used as a vegetable, due to its delicate flavor and diuretic properties."
+      },
+      {
+        "id": 3,
+        "question": "What intruder is hiding among these horseback practices ?",
+        "propositions": [
+          "Pulka",
+          "Fantasia",
+          "Rodeo",
+          "Polo"
+        ],
+        "réponse": "Pulka",
+        "anecdote": "In Scandinavia, the pulka is a sled used for sports or transport, pulled by a person or a dog."
+      },
+      {
+        "id": 4,
+        "question": "Which intruder is hiding among these bow tie enthusiasts ?",
+        "propositions": [
+          "James Bond",
+          "Donald Duck",
+          "Charlot",
+          "Hercule Poirot"
+        ],
+        "réponse": "Charlot",
+        "anecdote": "Tramp is a fictional character, a wanderer played by the British actor Charlie Chaplin in most of his films."
+      },
+      {
+        "id": 5,
+        "question": "What intruder is hiding among these characters who existed ?",
+        "propositions": [
+          "Laura Ingalls",
+          "Faust",
+          "D'Artagnan",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes is a British fictional character created by Sir Arthur Conan Doyle in « A Study in Red », in 1887."
+      },
+      {
+        "id": 6,
+        "question": "What intruder is hidden among these words that can be steam ?",
+        "propositions": [
+          "Horse",
+          "Deep fryer",
+          "Apple",
+          "Central"
+        ],
+        "réponse": "Deep fryer",
+        "anecdote": "Commonly used in restaurants and communities, domestic models are available and have become common."
+      },
+      {
+        "id": 7,
+        "question": "What intruder is hiding among these Madonna albums ?",
+        "propositions": [
+          "In the Zone",
+          "Erotica",
+          "Like a Virgin",
+          "True Blue"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » is the fourth studio album by American singer Britney Spears, to mixed reviews, released on November 16, 2003."
+      },
+      {
+        "id": 8,
+        "question": "What intruder is hiding among these fruits which are generally ripe in autumn ?",
+        "propositions": [
+          "Kaki",
+          "Currant",
+          "Grenada",
+          "Banana"
+        ],
+        "réponse": "Currant",
+        "anecdote": "Currants are acidic fruits, and for this reason, the red variety is generally used cooked and added sugar."
+      },
+      {
+        "id": 9,
+        "question": "Which intruder is hiding among these famous pipe smokers ?",
+        "propositions": [
+          "Sherlock Holmes",
+          "Popeye",
+          "Maigret",
+          "Kojak"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (played by Telly Savalas), is an elegant policeman of Greek origin with a shaved head, a lover of cigars and lollipops."
+      },
+      {
+        "id": 10,
+        "question": "What intruder is hiding among these natural disaster films ?",
+        "propositions": [
+          "Volcano",
+          "Independence Day",
+          "2012",
+          "Twister"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "Released in 1996, « Independence Day » is a science fiction film by Roland Emmerich recounting the invasion of extraterrestrials."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What intruder is hiding among these Asian sporting disciplines ?",
+        "propositions": [
+          "Wushu",
+          "Gong-Li",
+          "Ju-Jitsu",
+          "Qi-Gong"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Born in China in 1965, Gong Li is a Chinese-Singaporean actress considered one of the greatest actresses in China."
+      },
+      {
+        "id": 12,
+        "question": "What intruder is hiding among these countries with the blue, white and red flag ?",
+        "propositions": [
+          "The Netherlands",
+          "Iceland",
+          "Estonia",
+          "Australia"
+        ],
+        "réponse": "Estonia",
+        "anecdote": "The national flag of Estonia is made up of three equal horizontal bands, with blue, black and white from top to bottom."
+      },
+      {
+        "id": 13,
+        "question": "Which intruder is hiding among these French cancan figures ?",
+        "propositions": [
+          "Charge dance",
+          "Ass kick",
+          "Drunk dance",
+          "Leapfrog"
+        ],
+        "réponse": "Drunk dance",
+        "anecdote": "The French cancan is a famous form of French musical and choreographic performance, which appeared in London around 1868."
+      },
+      {
+        "id": 14,
+        "question": "What intruder is hiding among these lakes spread over at least two countries ?",
+        "propositions": [
+          "Lac Titicaca",
+          "Lake Ontario",
+          "Lake Baikal",
+          "Lake Geneva"
+        ],
+        "réponse": "Lake Baikal",
+        "anecdote": "Lake Baikal, located in southern Siberia (Russia), constitutes the largest reserve of liquid fresh water on the Earth's surface."
+      },
+      {
+        "id": 15,
+        "question": "What intruder is hidden among these words of the masculine gender ?",
+        "propositions": [
+          "Dumbbell",
+          "Hemisphere",
+          "Algebra",
+          "Tentacle"
+        ],
+        "réponse": "Algebra",
+        "anecdote": "Algebra is a branch of mathematics that allows us to express the properties of operations and the treatment of equations."
+      },
+      {
+        "id": 16,
+        "question": "What intruder is hiding among these films set at Christmas ?",
+        "propositions": [
+          "Gremlins",
+          "Un jour sans fin",
+          "Love actually",
+          "La vie est belle"
+        ],
+        "réponse": "Un jour sans fin",
+        "anecdote": "Bill Murray plays Phil Connors, a cynical and misanthropic weatherman responsible for covering the traditional Groundhog Day."
+      },
+      {
+        "id": 17,
+        "question": "What intruder is hiding among these cinematic awards ?",
+        "propositions": [
+          "Golden helmet",
+          "Golden Bear",
+          "Palme d'Or",
+          "Golden Apricot"
+        ],
+        "réponse": "Golden helmet",
+        "anecdote": "« Casque d'or » is a French drama film directed by Jacques Becker, released in 1952, inspired by the true story of Amélie Élie."
+      },
+      {
+        "id": 18,
+        "question": "Which intruder is hiding among these notoriously bearded celebrities ?",
+        "propositions": [
+          "Cicero",
+          "Jules Verne",
+          "Aristotle",
+          "Émile Zola"
+        ],
+        "réponse": "Cicero",
+        "anecdote": "A remarkable orator, Cicero published an abundant production considered a model of classical Latin expression."
+      },
+      {
+        "id": 19,
+        "question": "What intruder is hiding among these salad varieties ?",
+        "propositions": [
+          "Roman",
+          "Rocket",
+          "Mesclun",
+          "Treviso"
+        ],
+        "réponse": "Mesclun",
+        "anecdote": "Mesclun is a mixture of shoots and leaves, of at least five different varieties, of plants eaten in salads."
+      },
+      {
+        "id": 20,
+        "question": "Which intruder is hiding among these capitals located south of Paris ?",
+        "propositions": [
+          "Vienna",
+          "Kiev",
+          "Budapest",
+          "Beijing"
+        ],
+        "réponse": "Kiev",
+        "anecdote": "kyiv, the capital of Ukraine, is located in the north-central part of the country, 90 kilometers as the crow flies south of the Belarusian border."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What intruder is hiding among these singers who have not passed the baccalaureate ?",
+        "propositions": [
+          "Chimene Badi",
+          "Jenifer",
+          "Eve Angeli",
+          "Vanessa Paradis"
+        ],
+        "réponse": "Eve Angeli",
+        "anecdote": "Born in 1980, Ève Angeli took her first steps on television in the world of singing during the show Graines de star in 1999."
+      },
+      {
+        "id": 22,
+        "question": "What intruder is hiding among these inventions created by women ?",
+        "propositions": [
+          "Nylon stockings",
+          "Dishwasher",
+          "Circular saw",
+          "Bra"
+        ],
+        "réponse": "Nylon stockings",
+        "anecdote": "The type of fabric used for the stockings becomes a criterion of distinction and name, such as fishnet stockings, silk stockings, etc."
+      },
+      {
+        "id": 23,
+        "question": "What intruder is hiding among these potato varieties ?",
+        "propositions": [
+          "Monalisa",
+          "Carentan",
+          "Roseval",
+          "Charlotte"
+        ],
+        "réponse": "Carentan",
+        "anecdote": "Carentan is a former French commune of 6,000 inhabitants, located in the Manche department in the Normandy region."
+      },
+      {
+        "id": 24,
+        "question": "Which intruder is hidden among these nicknames of Louis of France ?",
+        "propositions": [
+          "The Fat One",
+          "The Simple",
+          "Lion",
+          "The Hutin"
+        ],
+        "réponse": "The Simple",
+        "anecdote": "Charles III, known as the Simple, belonging to the Carolingian dynasty, was king of West Francia from the end of the 9th and beginning of the 10th century."
+      },
+      {
+        "id": 25,
+        "question": "Which intruder is hiding among these left-handed tennis players ?",
+        "propositions": [
+          "Guy Forget",
+          "Rafael Nadal",
+          "Andy Murray",
+          "Jimmy Connors"
+        ],
+        "réponse": "Andy Murray",
+        "anecdote": "At the Olympics, he won two consecutive gold medals in singles, making him the record holder in this category."
+      },
+      {
+        "id": 26,
+        "question": "What intruder is hidden among these words from the Arabic language ?",
+        "propositions": [
+          "Girafe",
+          "Gazelle",
+          "Shop",
+          "Panoply"
+        ],
+        "réponse": "Panoply",
+        "anecdote": "It is a set of possibilities, means of action available in a given situation (eg: a range of sanctions)."
+      },
+      {
+        "id": 27,
+        "question": "What intruder is hidden among these words designating the posterior ?",
+        "propositions": [
+          "Ball",
+          "Pétard",
+          "Coquillard",
+          "Bousin"
+        ],
+        "réponse": "Bousin",
+        "anecdote": "In the fields of geology, bousin is the foreign, earthy material that covers stones extracted from a quarry."
+      },
+      {
+        "id": 28,
+        "question": "What intruder is hiding among these French inventions ?",
+        "propositions": [
+          "Cinemascope",
+          "Chain saw",
+          "Margarine",
+          "Secateurs"
+        ],
+        "réponse": "Chain saw",
+        "anecdote": "The German Andreas Stihl developed and patented a chainsaw in 1925 as well as another diesel chainsaw in 1929."
+      },
+      {
+        "id": 29,
+        "question": "Quel intrus se cache parmi ces mots de genre féminin ?",
+        "propositions": [
+          "Equinox",
+          "Spelling",
+          "Writing desk",
+          "Octave"
+        ],
+        "réponse": "Equinox",
+        "anecdote": "An equinox is a time of the year when the Sun crosses the Earth's equatorial plane, thus changing celestial hemisphere."
+      },
+      {
+        "id": 30,
+        "question": "What intruder is hiding among these measuring instruments ?",
+        "propositions": [
+          "Hat square",
+          "Caliper",
+          "Clepsydra",
+          "Sextant"
+        ],
+        "réponse": "Hat square",
+        "anecdote": "Generally ungraduated, the mechanic's square is used for tracing and checking flatness and right angles."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Lastern der sieben Todsünden ?",
+        "propositions": [
+          "Faulheit",
+          "Wut",
+          "Lüge",
+          "Wollen"
+        ],
+        "réponse": "Lüge",
+        "anecdote": "Die Liste wurde 1215 auf dem Vierten Laterankonzil endgültig festgelegt und im 13. Jahrhundert von Thomas von Aquin aufgezeichnet."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Eindringling versteckt sich unter diesen Pflanzen, deren Wurzeln wir essen ?",
+        "propositions": [
+          "Karotte",
+          "Rübe",
+          "Spargel",
+          "Rübe"
+        ],
+        "réponse": "Spargel",
+        "anecdote": "Spargel wird aufgrund seines delikaten Geschmacks und seiner harntreibenden Eigenschaften seit langem als Gemüse verwendet."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Eindringling versteckt sich zwischen diesen Reitpraktiken ?",
+        "propositions": [
+          "Pulka",
+          "Rodeo",
+          "Fantasie",
+          "Polo"
+        ],
+        "réponse": "Pulka",
+        "anecdote": "In Skandinavien ist die Pulka ein Schlitten, der zu Sport- oder Transportzwecken von einer Person oder einem Hund gezogen wird."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Eindringling versteckt sich unter diesen Fliegen-Enthusiasten ?",
+        "propositions": [
+          "Charlot",
+          "Donald Duck",
+          "James Bond",
+          "Hercule Poirot"
+        ],
+        "réponse": "Charlot",
+        "anecdote": "Tramp ist eine fiktive Figur, ein Wanderer, den der britische Schauspieler Charlie Chaplin in den meisten seiner Filme spielt."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Eindringling verbirgt sich unter diesen existierenden Charakteren ?",
+        "propositions": [
+          "D'Artagnan",
+          "Sherlock Holmes",
+          "Laura Ingalls",
+          "Faust"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes ist eine britische Romanfigur, die 1887 von Sir Arthur Conan Doyle in « Eine Studie in Rof » geschaffen wurde."
+      },
+      {
+        "id": 6,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Worten, der Dampf sein kann ?",
+        "propositions": [
+          "Apfel",
+          "Zentral",
+          "Pferd",
+          "Fritteuse"
+        ],
+        "réponse": "Fritteuse",
+        "anecdote": "In Restaurants und Gemeinden werden sie häufig verwendet, auch Haushaltsmodelle sind erhältlich und haben sich durchgesetzt."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Eindringling versteckt sich unter diesen Madonna-Alben ?",
+        "propositions": [
+          "Erotica",
+          "True Blue",
+          "In the Zone",
+          "Like a Virgin"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » ist das vierte Studioalbum der amerikanischen Sängerin Britney Spears, das gemischte Kritiken erhielt und am 16."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Eindringling versteckt sich unter diesen meist im Herbst reifen Früchten ?",
+        "propositions": [
+          "Grenada",
+          "Khaki",
+          "Johannisbeere",
+          "Banane"
+        ],
+        "réponse": "Johannisbeere",
+        "anecdote": "Johannisbeeren sind säurehaltige Früchte, daher wird die rote Sorte meist gekocht und mit Zucker versetzt verwendet."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Eindringling versteckt sich unter diesen berühmten Pfeifenrauchern ?",
+        "propositions": [
+          "Sherlock Holmes",
+          "Popeye",
+          "Kojak",
+          "Maigret"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (gespielt von Telly Savalas) ist ein eleganter Polizist griechischer Herkunft mit rasiertem Kopf, der Zigarren und Lutscher liebt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Eindringling verbirgt sich in diesen Naturkatastrophenfilmen ?",
+        "propositions": [
+          "Vulkan",
+          "Independence Day",
+          "2012",
+          "Twister"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "« Independence Day » erschien 1996 und ist ein Science-Fiction-Film von Roland Emmerich, der die Invasion Außerirdischer erzählt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Eindringling verbirgt sich unter diesen asiatischen Sportdisziplinen ?",
+        "propositions": [
+          "Wushu",
+          "Qigong",
+          "Ju-Jitsu",
+          "Gong-Li"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Gong Li wurde 1965 in China geboren und ist eine chinesisch-singapurische Schauspielerin, die als eine der größten Schauspielerinnen Chinas gilt."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Eindringling versteckt sich unter diesen Ländern mit der blau-weiß-roten Flagge ?",
+        "propositions": [
+          "Niederlande",
+          "Australien",
+          "Island",
+          "Estland"
+        ],
+        "réponse": "Estland",
+        "anecdote": "Die Nationalflagge Estlands besteht aus drei gleichen horizontalen Streifen mit Blau, Schwarz und Weiß von oben nach unten."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Eindringling versteckt sich unter diesen französischen Cancan-Figuren ?",
+        "propositions": [
+          "Leapfrog",
+          "Keine Füllung",
+          "Keine Gebühr",
+          "Arschtritt"
+        ],
+        "réponse": "Keine Füllung",
+        "anecdote": "Der französische Cancan ist eine berühmte Form französischer Musik- und Choreografie, die um 1868 in London erschien."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Eindringling versteckt sich in diesen Seen, die über mindestens zwei Länder verteilt sind ?",
+        "propositions": [
+          "Baikalsee",
+          "Genfersee",
+          "Titicacasee",
+          "Ontariosee"
+        ],
+        "réponse": "Baikalsee",
+        "anecdote": "Der Baikalsee liegt im Süden Sibiriens (Russland) und stellt die größte Reserve an flüssigem Süßwasser auf der Erdoberfläche dar."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Worten des männlichen Geschlechts ?",
+        "propositions": [
+          "Hantel",
+          "Halbkugel",
+          "Algebra",
+          "Tentakel"
+        ],
+        "réponse": "Algebra",
+        "anecdote": "Algebra ist ein Zweig der Mathematik, der es uns ermöglicht, die Eigenschaften von Operationen und die Verarbeitung von Gleichungen auszudrücken."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Eindringling verbirgt sich in diesen Weihnachtsfilmen ?",
+        "propositions": [
+          "Das Leben ist schön",
+          "Gremlins",
+          "Love actually",
+          "Ein Tag ohne Ende"
+        ],
+        "réponse": "Ein Tag ohne Ende",
+        "anecdote": "Bill Murray spielt Phil Connors, einen zynischen und menschenfeindlichen Wettermann, der für die Berichterstattung über den traditionellen Tag des Murmeltiers verantwortlich ist."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Filmpreisen ?",
+        "propositions": [
+          "Goldener Bär",
+          "Goldene Palme",
+          "Goldhelm",
+          "Goldene Aprikose"
+        ],
+        "réponse": "Goldhelm",
+        "anecdote": "« Casque d'or » ist ein französischer Dramafilm von Jacques Becker aus dem Jahr 1952, der von der wahren Geschichte von Amélie Élie inspiriert ist."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Eindringling versteckt sich unter diesen notorisch bärtigen Prominenten ?",
+        "propositions": [
+          "Aristoteles",
+          "Jules Verne",
+          "Cicero",
+          "Émile Zola"
+        ],
+        "réponse": "Cicero",
+        "anecdote": "Cicero, ein bemerkenswerter Redner, veröffentlichte ein umfangreiches Werk, das als Modell des klassischen lateinischen Ausdrucks gilt."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Eindringling versteckt sich unter diesen Salatsorten ?",
+        "propositions": [
+          "Mesclun",
+          "Rucola",
+          "Roman",
+          "Treviso"
+        ],
+        "réponse": "Mesclun",
+        "anecdote": "Mesclun ist eine Mischung aus Trieben und Blättern von mindestens fünf verschiedenen Pflanzenarten, die in Salaten gegessen werden."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Eindringling versteckt sich in diesen Hauptstädten südlich von Paris ?",
+        "propositions": [
+          "Wien",
+          "Kiew",
+          "Budapest",
+          "Peking"
+        ],
+        "réponse": "Kiew",
+        "anecdote": "Kiew, die Hauptstadt der Ukraine, liegt im nördlich-zentralen Teil des Landes, 90 Kilometer Luftlinie südlich der weißrussischen Grenze."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Sängern, die das Abitur nicht bestanden haben ?",
+        "propositions": [
+          "Jenifer",
+          "Vanessa Paradis",
+          "Eve Angeli",
+          "Chimène Badi"
+        ],
+        "réponse": "Eve Angeli",
+        "anecdote": "Ève Angeli wurde 1980 geboren und machte ihre ersten Schritte im Fernsehen in der Welt des Gesangs während der Show Graines de Star im Jahr 1999."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Erfindungen von Frauen ?",
+        "propositions": [
+          "Spülmaschine",
+          "Nylonstrümpfe",
+          "BH",
+          "Kreissäge"
+        ],
+        "réponse": "Nylonstrümpfe",
+        "anecdote": "Die Art des für die Strümpfe verwendeten Stoffes wird zum Unterscheidungs- und Namenskriterium, z. B. Netzstrümpfe, Seidenstrümpfe usw."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Eindringling versteckt sich unter diesen Kartoffelsorten ?",
+        "propositions": [
+          "Carentan",
+          "Charlotte",
+          "Monalisa",
+          "Roseval"
+        ],
+        "réponse": "Carentan",
+        "anecdote": "Carentan ist eine ehemalige französische Gemeinde mit 6.000 Einwohnern im Département Manche in der Region Normandie."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Spitznamen Ludwigs von Frankreich ?",
+        "propositions": [
+          "Der Hutin",
+          "Das Einfache",
+          "Der Löwe",
+          "Der Dicke"
+        ],
+        "réponse": "Das Einfache",
+        "anecdote": "Karl III., genannt der Einfache, stammte aus der karolingischen Dynastie und war vom Ende des 9. und Anfang des 10. Jahrhunderts König von Westfranken."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Eindringling versteckt sich unter diesen linkshändigen Tennisspielern ?",
+        "propositions": [
+          "Jimmy Connors",
+          "Andy Murray",
+          "Guy Forget",
+          "Rafael Nadal"
+        ],
+        "réponse": "Andy Murray",
+        "anecdote": "Bei den Olympischen Spielen gewann er zwei Goldmedaillen in Folge im Einzel und war damit Rekordhalter in dieser Kategorie."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Wörtern aus der arabischen Sprache ?",
+        "propositions": [
+          "Giraffe",
+          "Panoply",
+          "Speichern",
+          "Gazelle"
+        ],
+        "réponse": "Panoply",
+        "anecdote": "Dabei handelt es sich um eine Reihe von Möglichkeiten und Handlungsmitteln, die in einer bestimmten Situation zur Verfügung stehen (z."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Worten, die das Hinterteil bezeichnen ?",
+        "propositions": [
+          "Feuerwerkskörper",
+          "Coquillard",
+          "Bousin",
+          "Kugel"
+        ],
+        "réponse": "Bousin",
+        "anecdote": "In der Geologie bezeichnet Bousin das fremde, erdige Material, das die in einem Steinbruch gewonnenen Steine bedeckt."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Eindringling verbirgt sich unter diesen französischen Erfindungen ?",
+        "propositions": [
+          "Cinemascope",
+          "Kettensäge",
+          "Gartenschere",
+          "Margarine"
+        ],
+        "réponse": "Kettensäge",
+        "anecdote": "Der Deutsche Andreas Stihl entwickelte und patentierte 1925 eine Kettensäge sowie 1929 eine weitere Dieselkettensäge."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Eindringling verbirgt sich hinter diesen weiblichen Geschlechtswörtern ?",
+        "propositions": [
+          "Oktave",
+          "Tagundnachtgleiche",
+          "Rechtschreibung",
+          "Schreibtisch"
+        ],
+        "réponse": "Tagundnachtgleiche",
+        "anecdote": "Eine Tagundnachtgleiche ist eine Jahreszeit, in der die Sonne die Äquatorialebene der Erde kreuzt und so die Himmelshalbkugel verändert."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Eindringling verbirgt sich unter diesen Messgeräten ?",
+        "propositions": [
+          "Clepsydra",
+          "Messschieber",
+          "Hutquadrat",
+          "Sextant"
+        ],
+        "réponse": "Hutquadrat",
+        "anecdote": "Das Mechanikerwinkel ist im Allgemeinen nicht graduiert und wird zum Nachzeichnen und Überprüfen von Ebenheit und rechten Winkeln verwendet."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué intruso se esconde entre estos vicios de los siete pecados capitales ?",
+        "propositions": [
+          "Pereza",
+          "Ira",
+          "mentira",
+          "Quiero"
+        ],
+        "réponse": "mentira",
+        "anecdote": "La lista fue fijada definitivamente en el Cuarto Concilio de Letrán en 1215 y registrada por Tomás de Aquino en el siglo XIII."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué intruso se esconde entre estas plantas cuyas raíces nos comemos ?",
+        "propositions": [
+          "Espárragos",
+          "Remolacha",
+          "Zanahoria",
+          "nabo"
+        ],
+        "réponse": "Espárragos",
+        "anecdote": "Los espárragos se han utilizado durante mucho tiempo como verdura debido a su delicado sabor y sus propiedades diuréticas."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué intruso se esconde entre estas prácticas a caballo ?",
+        "propositions": [
+          "Pulká",
+          "Rodeo",
+          "Polo",
+          "Fantasía"
+        ],
+        "réponse": "Pulká",
+        "anecdote": "En Escandinavia, la pulka es un trineo utilizado para deportes o transporte, tirado por una persona o un perro."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué intruso se esconde entre estos entusiastas de las pajaritas ?",
+        "propositions": [
+          "Charlot",
+          "Donald Duck",
+          "James Bond",
+          "Hércules Poirot"
+        ],
+        "réponse": "Charlot",
+        "anecdote": "Tramp es un personaje ficticio, un vagabundo interpretado por el actor británico Charlie Chaplin en la mayoría de sus películas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué intruso se esconde entre estos personajes que existieron ?",
+        "propositions": [
+          "D'Artagnan",
+          "Laura Ingalls",
+          "Fausto",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes es un personaje de ficción británico creado por Sir Arthur Conan Doyle en « Un estudio en rojo », en 1887."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué intruso se esconde entre estas palabras que pueda ser vapor ?",
+        "propositions": [
+          "Caballo",
+          "Céntrico",
+          "Manzana",
+          "Freidora"
+        ],
+        "réponse": "Freidora",
+        "anecdote": "Comúnmente utilizados en restaurantes y comunidades, los modelos domésticos están disponibles y se han vuelto comunes."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué intruso se esconde entre estos álbumes de Madonna ?",
+        "propositions": [
+          "Like a Virgin",
+          "In the Zone",
+          "Erotica",
+          "True Blue"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » es el cuarto álbum de estudio de la cantante estadounidense Britney Spears, con críticas mixtas, lanzado el 16 de noviembre de 2003."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué intruso se esconde entre estos frutos que generalmente maduran en otoño ?",
+        "propositions": [
+          "Caqui",
+          "Granada",
+          "Plátano",
+          "grosella"
+        ],
+        "réponse": "grosella",
+        "anecdote": "Las grosellas son frutas ácidas, por este motivo la variedad roja se utiliza generalmente cocida y con azúcar añadido."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué intruso se esconde entre estos famosos fumadores de pipa ?",
+        "propositions": [
+          "Sherlock Holmes",
+          "Popeye",
+          "Kojak",
+          "Maigret"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (interpretado por Telly Savalas), es un elegante policía de origen griego con la cabeza rapada, amante de los puros y las piruletas."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué intruso se esconde entre estas películas de desastres naturales ?",
+        "propositions": [
+          "Volcán",
+          "Tornado",
+          "2012",
+          "Independence Day"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "Estrenada en 1996, « Independence Day » es una película de ciencia ficción de Roland Emmerich que narra la invasión de extraterrestres."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué intruso se esconde entre estas disciplinas deportivas asiáticas ?",
+        "propositions": [
+          "Wushu",
+          "Ju-Jitsu",
+          "Qigong",
+          "Gong-Li"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Nacida en China en 1965, Gong Li es una actriz chino-singapurense considerada una de las más grandes actrices de China."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué intruso se esconde entre estos países de la bandera azul, blanca y roja ?",
+        "propositions": [
+          "Países Bajos",
+          "Estonia",
+          "Islandia",
+          "Australia"
+        ],
+        "réponse": "Estonia",
+        "anecdote": "La bandera nacional de Estonia se compone de tres franjas horizontales iguales, con colores azul, negro y blanco de arriba a abajo."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué intruso se esconde entre estas figuras del cancán francés ?",
+        "propositions": [
+          "Patada en el culo",
+          "Sin relleno",
+          "Salto de rana",
+          "Sin cargo"
+        ],
+        "réponse": "Sin relleno",
+        "anecdote": "El cancán francés es una forma famosa de interpretación musical y coreográfica francesa, que apareció en Londres alrededor de 1868."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué intruso se esconde entre estos lagos repartidos por al menos dos países ?",
+        "propositions": [
+          "Lago Baikal",
+          "Lago Titicaca",
+          "Lago Ontario",
+          "Lago Lemán"
+        ],
+        "réponse": "Lago Baikal",
+        "anecdote": "El lago Baikal, situado al sur de Siberia (Rusia), constituye la mayor reserva de agua dulce líquida de la superficie terrestre."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué intruso se esconde entre estas palabras del género masculino ?",
+        "propositions": [
+          "Hemisferio",
+          "Mancuerna",
+          "Álgebra",
+          "Tentáculo"
+        ],
+        "réponse": "Álgebra",
+        "anecdote": "El álgebra es una rama de las matemáticas que nos permite expresar las propiedades de las operaciones y el procesamiento de ecuaciones."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué intruso se esconde entre estas películas ambientadas en Navidad ?",
+        "propositions": [
+          "Gremlins",
+          "Love actually",
+          "La vida es bella",
+          "Un día sin fin"
+        ],
+        "réponse": "Un día sin fin",
+        "anecdote": "Bill Murray interpreta a Phil Connors, un meteorólogo cínico y misántropo encargado de cubrir el tradicional Día de la Marmota."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué intruso se esconde entre estos premios cinematográficos ?",
+        "propositions": [
+          "Oso Dorado",
+          "Casco dorado",
+          "Palma de Oro",
+          "Albaricoque dorado"
+        ],
+        "réponse": "Casco dorado",
+        "anecdote": "« Casque d'or » es una película dramática francesa dirigida por Jacques Becker, estrenada en 1952, inspirada en la historia real de Amélie Élie."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué intruso se esconde entre estas famosas celebridades barbudas ?",
+        "propositions": [
+          "Émile Zola",
+          "Cicerón",
+          "Aristóteles",
+          "Julio Verne"
+        ],
+        "réponse": "Cicerón",
+        "anecdote": "Cicerón, un orador notable, publicó una abundante producción considerada un modelo de expresión latina clásica."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué intruso se esconde entre estas variedades de ensaladas ?",
+        "propositions": [
+          "Rúcula",
+          "Treviso",
+          "Mezclum",
+          "romano"
+        ],
+        "réponse": "Mezclum",
+        "anecdote": "Mezclum es una mezcla de brotes y hojas, de al menos cinco variedades diferentes, de plantas que se comen en ensaladas."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué intruso se esconde entre estas capitales situadas al sur de París ?",
+        "propositions": [
+          "8735bd792ef0a942ca930eb98ea0a745","fr_en_2023q1.md",
+          "Beijing",
+          "Kyiv",
+          "Budapest"
+        ],
+        "réponse": "Kyiv",
+        "anecdote": "Kiev, la capital de Ucrania, está situada en la parte centro-norte del país, a 90 kilómetros en línea recta al sur de la frontera con Bielorrusia."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué intruso se esconde entre estos cantantes que no han superado el bachillerato ?",
+        "propositions": [
+          "Vanessa Paradis",
+          "Jenifer",
+          "Chimene Badi",
+          "Eva Angeli"
+        ],
+        "réponse": "Eva Angeli",
+        "anecdote": "Nacida en 1980, Ève Angeli dio sus primeros pasos en televisión en el mundo del canto durante el programa Graines de star en 1999."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué intruso se esconde entre estos inventos creados por mujeres ?",
+        "propositions": [
+          "Medias de nailon",
+          "Sierra circular",
+          "sujetador",
+          "Lavavajillas"
+        ],
+        "réponse": "Medias de nailon",
+        "anecdote": "El tipo de tejido utilizado para las medias se convierte en criterio de distinción y denominación, como por ejemplo medias de rejilla, medias de seda, etc."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué intruso se esconde entre estas variedades de patatas ?",
+        "propositions": [
+          "Roseval",
+          "Carentan",
+          "Carlota",
+          "Monalisa"
+        ],
+        "réponse": "Carentan",
+        "anecdote": "Carentan es una antigua comuna francesa de 6.000 habitantes, situada en el departamento de La Mancha, en la región de Normandía."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué intruso se esconde entre estos apodos de Luis de Francia ?",
+        "propositions": [
+          "El Gordo",
+          "El León",
+          "Lo sencillo",
+          "El hutín"
+        ],
+        "réponse": "Lo sencillo",
+        "anecdote": "Carlos III, conocido como el Simple, perteneciente a la dinastía carolingia, fue rey de Francia Occidental desde finales del siglo IX y principios del X."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué intruso se esconde entre estos tenistas zurdos ?",
+        "propositions": [
+          "Jimmy Connors",
+          "Andy Murray",
+          "Guy Forget",
+          "Rafael Nadal"
+        ],
+        "réponse": "Andy Murray",
+        "anecdote": "En los Juegos Olímpicos ganó dos medallas de oro consecutivas en individuales, lo que le convirtió en poseedor del récord en esta categoría."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué intruso se esconde entre estas palabras de la lengua árabe ?",
+        "propositions": [
+          "Tienda",
+          "Jirafa",
+          "Gacela",
+          "Panoplia"
+        ],
+        "réponse": "Panoplia",
+        "anecdote": "Es un conjunto de posibilidades, medios de acción disponibles en una situación dada (por ejemplo : una gama de sanciones)."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué intruso se esconde entre estas palabras que designan el posterior ?",
+        "propositions": [
+          "Bola",
+          "Petardo",
+          "Bousin",
+          "Coquillard"
+        ],
+        "réponse": "Bousin",
+        "anecdote": "En el campo de la geología, bousin es el material terroso extraño que recubre las piedras extraídas de una cantera."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué intruso se esconde entre estos inventos franceses ?",
+        "propositions": [
+          "Cinescopio",
+          "Tijeras de podar",
+          "Motosierra",
+          "Margarina"
+        ],
+        "réponse": "Motosierra",
+        "anecdote": "El alemán Andreas Stihl desarrolló y patentó una motosierra en 1925 y otra motosierra diésel en 1929."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué intruso se esconde entre estas palabras de género femenino ?",
+        "propositions": [
+          "Octava",
+          "Ortografía",
+          "Equinoccio",
+          "Escritorio"
+        ],
+        "réponse": "Equinoccio",
+        "anecdote": "Un equinoccio es una época del año en la que el Sol cruza el plano ecuatorial de la Tierra, cambiando así el hemisferio celeste."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué intruso se esconde entre estos instrumentos de medición ?",
+        "propositions": [
+          "Pie de rey",
+          "Sombrero cuadrado",
+          "Clepsidra",
+          "Sextante"
+        ],
+        "réponse": "Sombrero cuadrado",
+        "anecdote": "Generalmente sin graduar, la escuadra de mecánico se utiliza para trazar y comprobar la planitud y los ángulos rectos."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale intruso si nasconde tra questi vizi dei sette peccati capitali ?",
+        "propositions": [
+          "Bugia",
+          "Pigrizia",
+          "Vuoi",
+          "Rabbia"
+        ],
+        "réponse": "Bugia",
+        "anecdote": "L'elenco fu definitivamente fissato dal Concilio Lateranense IV nel 1215 e registrato da Tommaso d'Aquino nel XIII secolo."
+      },
+      {
+        "id": 2,
+        "question": "Quale intruso si nasconde tra queste piante di cui mangiamo le radici ?",
+        "propositions": [
+          "Asparagi",
+          "Carota",
+          "Rapa",
+          "Barbabietola"
+        ],
+        "réponse": "Asparagi",
+        "anecdote": "Gli asparagi sono stati a lungo utilizzati come verdura, per il loro sapore delicato e le proprietà diuretiche."
+      },
+      {
+        "id": 3,
+        "question": "Quale intruso si nasconde tra queste pratiche a cavallo ?",
+        "propositions": [
+          "Polo",
+          "Fantasia",
+          "Pulca",
+          "Rodeo"
+        ],
+        "réponse": "Pulca",
+        "anecdote": "In Scandinavia la pulka è una slitta utilizzata per lo sport o il trasporto, trainata da una persona o da un cane."
+      },
+      {
+        "id": 4,
+        "question": "Quale intruso si nasconde tra questi appassionati di papillon ?",
+        "propositions": [
+          "Carlotta",
+          "Hercule Poirot",
+          "James Bond",
+          "Paperino"
+        ],
+        "réponse": "Carlotta",
+        "anecdote": "Il vagabondo è un personaggio immaginario, un vagabondo interpretato dall'attore britannico Charlie Chaplin nella maggior parte dei suoi film."
+      },
+      {
+        "id": 5,
+        "question": "Quale intruso si nasconde tra questi personaggi che sono esistiti ?",
+        "propositions": [
+          "Laura Ingalls",
+          "Faust",
+          "D'Artagnan",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes è un personaggio immaginario britannico creato da Sir Arthur Conan Doyle in « A Study in Red », nel 1887."
+      },
+      {
+        "id": 6,
+        "question": "Quale intruso si nasconde tra queste parole che possono essere vapore ?",
+        "propositions": [
+          "Cavallo",
+          "Mela",
+          "Centrale",
+          "Friggitrice"
+        ],
+        "réponse": "Friggitrice",
+        "anecdote": "Comunemente utilizzati nei ristoranti e nelle comunità, i modelli domestici sono disponibili e sono diventati comuni."
+      },
+      {
+        "id": 7,
+        "question": "Quale intruso si nasconde tra questi album di Madonna ?",
+        "propositions": [
+          "In the Zone",
+          "True Blue",
+          "Like a Virgin",
+          "Erotica"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » è il quarto album in studio della cantante americana Britney Spears, con recensioni contrastanti, pubblicato il 16 novembre 2003."
+      },
+      {
+        "id": 8,
+        "question": "Quale intruso si nasconde tra questi frutti che generalmente maturano in autunno ?",
+        "propositions": [
+          "Banana",
+          "Cachi",
+          "Grenada",
+          "Ribes"
+        ],
+        "réponse": "Ribes",
+        "anecdote": "Il ribes è un frutto acido e per questo motivo la varietà rossa viene generalmente utilizzata cotta e con aggiunta di zucchero."
+      },
+      {
+        "id": 9,
+        "question": "Quale intruso si nasconde tra questi famosi fumatori di pipa ?",
+        "propositions": [
+          "Kojak",
+          "Popeye",
+          "Maigret",
+          "Sherlock Holmes"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (interpretato da Telly Savalas), è un elegante poliziotto di origine greca con la testa rasata, amante di sigari e lecca-lecca."
+      },
+      {
+        "id": 10,
+        "question": "Quale intruso si nasconde tra questi film sui disastri naturali ?",
+        "propositions": [
+          "Vulcano",
+          "Twister",
+          "2012",
+          "Independence Day"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "Uscito nel 1996, « Independence Day » è un film di fantascienza di Roland Emmerich che racconta l'invasione degli extraterrestri."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale intruso si nasconde tra queste discipline sportive asiatiche ?",
+        "propositions": [
+          "Wushu",
+          "Qi Gong",
+          "Ju-Jitsu",
+          "Gong-Li"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Nata in Cina nel 1965, Gong Li è un'attrice cinese-singaporiana considerata una delle più grandi attrici cinesi."
+      },
+      {
+        "id": 12,
+        "question": "Quale intruso si nasconde tra questi paesi con la bandiera blu, bianca e rossa ?",
+        "propositions": [
+          "Islanda",
+          "Australia",
+          "Paesi Bassi",
+          "Estonia"
+        ],
+        "réponse": "Estonia",
+        "anecdote": "La bandiera nazionale dell'Estonia è composta da tre bande orizzontali uguali, blu, nera e bianca dall'alto verso il basso."
+      },
+      {
+        "id": 13,
+        "question": "Quale intruso si nasconde tra queste figure del cancan francese ?",
+        "propositions": [
+          "Calcio nel culo",
+          "Nessun addebito",
+          "Salta la rana",
+          "Nessun ripieno"
+        ],
+        "réponse": "Nessun ripieno",
+        "anecdote": "Il cancan francese è una famosa forma di performance musicale e coreografica francese, apparsa a Londra intorno al 1868."
+      },
+      {
+        "id": 14,
+        "question": "Quale intruso si nasconde tra questi laghi sparsi su almeno due paesi ?",
+        "propositions": [
+          "Lago Titicaca",
+          "Lago di Ginevra",
+          "Lago Baikal",
+          "Lago Ontario"
+        ],
+        "réponse": "Lago Baikal",
+        "anecdote": "Il Lago Baikal, situato nella Siberia meridionale (Russia), costituisce la più grande riserva di acqua dolce liquida sulla superficie terrestre."
+      },
+      {
+        "id": 15,
+        "question": "Quale intruso si nasconde tra queste parole di genere maschile ?",
+        "propositions": [
+          "Emisfero",
+          "Tentacolo",
+          "Manubrio",
+          "Algebra"
+        ],
+        "réponse": "Algebra",
+        "anecdote": "L'algebra è una branca della matematica che ci permette di esprimere le proprietà delle operazioni e il trattamento delle equazioni."
+      },
+      {
+        "id": 16,
+        "question": "Quale intruso si nasconde tra questi film ambientati nel periodo natalizio ?",
+        "propositions": [
+          "Gremlins",
+          "Love actually",
+          "La vita è bella",
+          "Un giorno senza fine"
+        ],
+        "réponse": "Un giorno senza fine",
+        "anecdote": "Bill Murray interpreta Phil Connors, un meteorologo cinico e misantropico responsabile della copertura del tradizionale Giorno della Marmotta."
+      },
+      {
+        "id": 17,
+        "question": "Quale intruso si nasconde tra questi premi cinematografici ?",
+        "propositions": [
+          "Albicocca dorata",
+          "Palma d'Oro",
+          "Orso d'oro",
+          "Casco d'oro"
+        ],
+        "réponse": "Casco d'oro",
+        "anecdote": "« Casque d'or » è un film drammatico francese diretto da Jacques Becker, uscito nel 1952, ispirato alla storia vera di Amélie Élie."
+      },
+      {
+        "id": 18,
+        "question": "Quale intruso si nasconde tra queste celebrità notoriamente barbute ?",
+        "propositions": [
+          "Emile Zola",
+          "Giulio Verne",
+          "Cicerone",
+          "Aristotele"
+        ],
+        "réponse": "Cicerone",
+        "anecdote": "Notevole oratore, Cicerone pubblicò un'abbondante produzione considerata un modello dell'espressione latina classica."
+      },
+      {
+        "id": 19,
+        "question": "Quale intruso si nasconde tra queste varietà di insalate ?",
+        "propositions": [
+          "Trevigiano",
+          "Rucola",
+          "Romano",
+          "Mesclun"
+        ],
+        "réponse": "Mesclun",
+        "anecdote": "Il mesclun è una miscela di germogli e foglie, di almeno cinque varietà diverse, di piante consumate in insalata."
+      },
+      {
+        "id": 20,
+        "question": "Quale intruso si nasconde tra queste capitali situate a sud di Parigi ?",
+        "propositions": [
+          "Vienna",
+          "Budapest",
+          "Kiev",
+          "Pechino"
+        ],
+        "réponse": "Kiev",
+        "anecdote": "Kiev, la capitale dell'Ucraina, si trova nella parte centro-settentrionale del Paese, a 90 chilometri in linea d'aria a sud del confine bielorusso."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale intruso si nasconde tra questi cantanti che non hanno superato il diploma di maturità ?",
+        "propositions": [
+          "Jenifer",
+          "Chimene Badi",
+          "Eva Angeli",
+          "Vanessa Paradis"
+        ],
+        "réponse": "Eva Angeli",
+        "anecdote": "Classe 1980, Ève Angeli ha mosso i primi passi televisivi nel mondo del canto durante la trasmissione Graines de star nel 1999."
+      },
+      {
+        "id": 22,
+        "question": "Quale intruso si nasconde tra queste invenzioni create dalle donne ?",
+        "propositions": [
+          "Reggiseno",
+          "Lavastoviglie",
+          "Calze di nylon",
+          "Sega circolare"
+        ],
+        "réponse": "Calze di nylon",
+        "anecdote": "Il tipo di tessuto utilizzato per le calze diventa criterio di distinzione e di denominazione, come ad esempio le calze a rete, le calze di seta, ecc."
+      },
+      {
+        "id": 23,
+        "question": "Quale intruso si nasconde tra queste varietà di patate ?",
+        "propositions": [
+          "Roseval",
+          "Monalisa",
+          "Carentán",
+          "Carlotta"
+        ],
+        "réponse": "Carentán",
+        "anecdote": "Carentan è un ex comune francese di 6.000 abitanti, situato nel dipartimento della Manica nella regione della Normandia."
+      },
+      {
+        "id": 24,
+        "question": "Quale intruso si nasconde tra questi soprannomi di Luigi di Francia ?",
+        "propositions": [
+          "Il grasso",
+          "Il leone",
+          "Il Semplice",
+          "L'Hutin"
+        ],
+        "réponse": "Il Semplice",
+        "anecdote": "Carlo III, detto il Semplice, appartenente alla dinastia carolingia, fu re della Francia occidentale dalla fine del IX all'inizio del X secolo."
+      },
+      {
+        "id": 25,
+        "question": "Quale intruso si nasconde tra questi tennisti mancini ?",
+        "propositions": [
+          "AndyMurray",
+          "Guy Forget",
+          "Jimmy Connors",
+          "Rafael Nadal"
+        ],
+        "réponse": "AndyMurray",
+        "anecdote": "Alle Olimpiadi ha vinto due medaglie d'oro consecutive nel singolare, diventando così il detentore del record in questa categoria."
+      },
+      {
+        "id": 26,
+        "question": "Quale intruso si nasconde tra queste parole della lingua araba ?",
+        "propositions": [
+          "Negozio",
+          "Gazzella",
+          "Panoplia",
+          "Giraffa"
+        ],
+        "réponse": "Panoplia",
+        "anecdote": "È un insieme di possibilità, mezzi di azione disponibili in una data situazione (ad esempio : una serie di sanzioni)."
+      },
+      {
+        "id": 27,
+        "question": "Quale intruso si nasconde tra queste parole che designano il posteriore ?",
+        "propositions": [
+          "Palla",
+          "Coquillard",
+          "Bousino",
+          "Petardo"
+        ],
+        "réponse": "Bousino",
+        "anecdote": "Nel campo della geologia, il bousin è il materiale estraneo e terroso che ricopre le pietre estratte da una cava."
+      },
+      {
+        "id": 28,
+        "question": "Quale intruso si nasconde tra queste invenzioni francesi ?",
+        "propositions": [
+          "Cinemascope",
+          "Margarina",
+          "Motosega",
+          "Cesoie"
+        ],
+        "réponse": "Motosega",
+        "anecdote": "Il tedesco Andreas Stihl sviluppò e brevettò una motosega nel 1925 e un'altra motosega diesel nel 1929."
+      },
+      {
+        "id": 29,
+        "question": "Quale intruso si nasconde tra queste parole di genere femminile ?",
+        "propositions": [
+          "Ortografia",
+          "Ottava",
+          "Scrivania",
+          "Equinozio"
+        ],
+        "réponse": "Equinozio",
+        "anecdote": "L'equinozio è il periodo dell'anno in cui il Sole attraversa il piano equatoriale della Terra, cambiando così l'emisfero celeste."
+      },
+      {
+        "id": 30,
+        "question": "Quale intruso si nasconde tra questi strumenti di misura ?",
+        "propositions": [
+          "Sestante",
+          "Clessidra",
+          "Calibro a corsoio",
+          "Cappello quadrato"
+        ],
+        "réponse": "Cappello quadrato",
+        "anecdote": "Generalmente non graduata, la squadra da meccanico viene utilizzata per tracciare e controllare la planarità e gli angoli retti."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke indringer verbergt zich tussen deze ondeugden van de zeven hoofdzonden ?",
+        "propositions": [
+          "Woede",
+          "Liegen",
+          "Luiheid",
+          "Wil"
+        ],
+        "réponse": "Liegen",
+        "anecdote": "De lijst werd definitief vastgesteld op het Vierde Concilie van Lateranen in 1215 en opgetekend door Thomas van Aquino in de 13e eeuw."
+      },
+      {
+        "id": 2,
+        "question": "Welke indringer verbergt zich tussen deze planten waarvan we de wortels eten ?",
+        "propositions": [
+          "Wortel",
+          "Biet",
+          "Raap",
+          "Asperges"
+        ],
+        "réponse": "Asperges",
+        "anecdote": "Asperges worden al lang als groente gebruikt vanwege de delicate smaak en diuretische eigenschappen."
+      },
+      {
+        "id": 3,
+        "question": "Welke indringer verbergt zich tussen deze paardenpraktijken ?",
+        "propositions": [
+          "Fantasie",
+          "Polo",
+          "Pulka",
+          "Rodeo"
+        ],
+        "réponse": "Pulka",
+        "anecdote": "In Scandinavië is de pulka een slee die wordt gebruikt voor sport of transport, getrokken door een persoon of een hond."
+      },
+      {
+        "id": 4,
+        "question": "Welke indringer verbergt zich onder deze vlinderdasliefhebbers ?",
+        "propositions": [
+          "Donald Duck",
+          "Charlot",
+          "Hercules Poirot",
+          "James Bond"
+        ],
+        "réponse": "Charlot",
+        "anecdote": "Vagebond is een fictief personage, een zwerver gespeeld door de Britse acteur Charlie Chaplin in de meeste van zijn films."
+      },
+      {
+        "id": 5,
+        "question": "Welke indringer verbergt zich tussen deze personages die bestonden ?",
+        "propositions": [
+          "Faust",
+          "Laura Ingalls",
+          "Sherlock Holmes",
+          "D'Artagnan"
+        ],
+        "réponse": "Sherlock Holmes",
+        "anecdote": "Sherlock Holmes is een Brits fictief personage gecreëerd door Sir Arthur Conan Doyle in « A Study in Red », in 1887."
+      },
+      {
+        "id": 6,
+        "question": "Welke indringer zit verborgen tussen deze woorden die stoom kunnen zijn ?",
+        "propositions": [
+          "Centraal",
+          "Paard",
+          "Appel",
+          "Friteuse"
+        ],
+        "réponse": "Friteuse",
+        "anecdote": "Huishoudelijke modellen worden vaak gebruikt in restaurants en gemeenschappen en zijn gebruikelijk geworden."
+      },
+      {
+        "id": 7,
+        "question": "Welke indringer verbergt zich tussen deze Madonna-albums ?",
+        "propositions": [
+          "Like a Virgin",
+          "Erotica",
+          "In the Zone",
+          "True Blue"
+        ],
+        "réponse": "In the Zone",
+        "anecdote": "« In the Zone » is het vierde studioalbum van de Amerikaanse zangeres Britney Spears, met gemengde recensies, uitgebracht op 16 november 2003."
+      },
+      {
+        "id": 8,
+        "question": "Welke indringer verbergt zich tussen deze vruchten, die over het algemeen rijp zijn in de herfst ?",
+        "propositions": [
+          "Bes",
+          "Banaan",
+          "Grenada",
+          "Kaki"
+        ],
+        "réponse": "Bes",
+        "anecdote": "Bessen zijn zure vruchten en om deze reden wordt de rode variant meestal gekookt en met toegevoegde suiker gebruikt."
+      },
+      {
+        "id": 9,
+        "question": "Welke indringer verbergt zich tussen deze beroemde pijprokers ?",
+        "propositions": [
+          "Maigret",
+          "Popeye",
+          "Sherlock Holmes",
+          "Kojak"
+        ],
+        "réponse": "Kojak",
+        "anecdote": "Theo Kojak (gespeeld door Telly Savalas), is een elegante politieagent van Griekse afkomst met een geschoren hoofd, een liefhebber van sigaren en lolly's."
+      },
+      {
+        "id": 10,
+        "question": "Welke indringer verbergt zich tussen deze natuurrampenfilms ?",
+        "propositions": [
+          "Vulkaan",
+          "Twister",
+          "2012",
+          "Independence Day"
+        ],
+        "réponse": "Independence Day",
+        "anecdote": "« Independence Day », uitgebracht in 1996, is een sciencefictionfilm van Roland Emmerich die de invasie van buitenaardse wezens vertelt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke indringer verbergt zich onder deze Aziatische sportdisciplines ?",
+        "propositions": [
+          "Wushu",
+          "Ju-Jitsu",
+          "Qigong",
+          "Gong-Li"
+        ],
+        "réponse": "Gong-Li",
+        "anecdote": "Gong Li, geboren in 1965 in China, is een Chinees-Singaporese actrice die wordt beschouwd als een van de grootste actrices in China."
+      },
+      {
+        "id": 12,
+        "question": "Welke indringer verbergt zich tussen deze landen met de blauwe, witte en rode vlag ?",
+        "propositions": [
+          "Australië",
+          "IJsland",
+          "Nederland",
+          "Estland"
+        ],
+        "réponse": "Estland",
+        "anecdote": "De nationale vlag van Estland bestaat uit drie gelijke horizontale banden, met blauw, zwart en wit van boven naar beneden."
+      },
+      {
+        "id": 13,
+        "question": "Welke indringer verbergt zich tussen deze Franse cancanfiguren ?",
+        "propositions": [
+          "Haasje",
+          "Kontschop",
+          "Geen kosten",
+          "Geen vulling"
+        ],
+        "réponse": "Geen vulling",
+        "anecdote": "De Franse cancan is een beroemde vorm van Franse muzikale en choreografische uitvoering, die rond 1868 in Londen verscheen."
+      },
+      {
+        "id": 14,
+        "question": "Welke indringer verbergt zich tussen deze meren verspreid over minstens twee landen ?",
+        "propositions": [
+          "Meer van Genève",
+          "Ontariomeer",
+          "Titicacameer",
+          "Baikalmeer"
+        ],
+        "réponse": "Baikalmeer",
+        "anecdote": "Het Baikalmeer, gelegen in het zuiden van Siberië (Rusland), vormt de grootste reserve aan vloeibaar zoet water op het aardoppervlak."
+      },
+      {
+        "id": 15,
+        "question": "Welke indringer schuilt er tussen deze woorden van het mannelijke geslacht ?",
+        "propositions": [
+          "Halter",
+          "Halfrond",
+          "Algebra",
+          "Tentakel"
+        ],
+        "réponse": "Algebra",
+        "anecdote": "Algebra is een tak van de wiskunde waarmee we de eigenschappen van bewerkingen en de verwerking van vergelijkingen kunnen uitdrukken."
+      },
+      {
+        "id": 16,
+        "question": "Welke indringer verbergt zich tussen deze films die zich afspelen met Kerstmis ?",
+        "propositions": [
+          "Een dag zonder einde",
+          "Het leven is mooi",
+          "Love actually",
+          "Gremlins"
+        ],
+        "réponse": "Een dag zonder einde",
+        "anecdote": "Bill Murray speelt Phil Connors, een cynische en misantropische weerman die verantwoordelijk is voor verslaggeving over de traditionele Groundhog Day."
+      },
+      {
+        "id": 17,
+        "question": "Welke indringer verbergt zich tussen deze filmprijzen ?",
+        "propositions": [
+          "Gouden helm",
+          "Palme d'Or",
+          "Gouden Abrikoos",
+          "Gouden Beer"
+        ],
+        "réponse": "Gouden helm",
+        "anecdote": "« Casque d'or » is een Franse dramafilm geregisseerd door Jacques Becker, uitgebracht in 1952, geïnspireerd op het waargebeurde verhaal van Amélie Élie."
+      },
+      {
+        "id": 18,
+        "question": "Welke indringer verbergt zich tussen deze beruchte beroemdheden ?",
+        "propositions": [
+          "Jules Verne",
+          "Aristoteles",
+          "Cicero",
+          "Emile Zola"
+        ],
+        "réponse": "Cicero",
+        "anecdote": "Cicero, een opmerkelijke redenaar, publiceerde een overvloedige productie die wordt beschouwd als een model van klassieke Latijnse uitdrukking."
+      },
+      {
+        "id": 19,
+        "question": "Welke indringer verbergt zich tussen deze saladevariëteiten ?",
+        "propositions": [
+          "Mesclun",
+          "Romeins",
+          "Treviso",
+          "Rucola"
+        ],
+        "réponse": "Mesclun",
+        "anecdote": "Mesclun is een mengsel van scheuten en bladeren, van minstens vijf verschillende soorten, van planten die in salades worden gegeten."
+      },
+      {
+        "id": 20,
+        "question": "Welke indringer verbergt zich tussen deze hoofdsteden ten zuiden van Parijs ?",
+        "propositions": [
+          "Kiev",
+          "Boedapest",
+          "Peking",
+          "Wenen"
+        ],
+        "réponse": "Kiev",
+        "anecdote": "Kiev, de hoofdstad van Oekraïne, ligt in het noord-centrale deel van het land, hemelsbreed 90 kilometer ten zuiden van de Wit-Russische grens."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke indringer verbergt zich onder deze zangers die het baccalaureaat niet hebben behaald ?",
+        "propositions": [
+          "Jenifer",
+          "Chimene Badi",
+          "Eva Angeli",
+          "Vanessa Paradis"
+        ],
+        "réponse": "Eva Angeli",
+        "anecdote": "Ève Angeli, geboren in 1980, zette haar eerste stappen op televisie in de zangwereld tijdens de show Graines de star in 1999."
+      },
+      {
+        "id": 22,
+        "question": "Welke indringer verbergt zich tussen deze uitvindingen van vrouwen ?",
+        "propositions": [
+          "Nylonkousen",
+          "Vaatwasser",
+          "BH",
+          "Cirkelzaag"
+        ],
+        "réponse": "Nylonkousen",
+        "anecdote": "Het type stof dat voor de kousen wordt gebruikt, wordt een criterium voor onderscheid en naam, zoals visnetkousen, zijden kousen, enz."
+      },
+      {
+        "id": 23,
+        "question": "Welke indringer verbergt zich tussen deze aardappelrassen ?",
+        "propositions": [
+          "Rozeval",
+          "Carentan",
+          "Monalisa",
+          "Charlotte"
+        ],
+        "réponse": "Carentan",
+        "anecdote": "Carentan is een voormalige Franse gemeente met 6.000 inwoners, gelegen in het departement Manche in de regio Normandië."
+      },
+      {
+        "id": 24,
+        "question": "Welke indringer zit verborgen tussen deze bijnamen van Lodewijk van Frankrijk ?",
+        "propositions": [
+          "De Dikke",
+          "De Leeuw",
+          "De Hutin",
+          "De eenvoudige"
+        ],
+        "réponse": "De eenvoudige",
+        "anecdote": "Karel III, bekend als de Eenvoudige, behorend tot de Karolingische dynastie, was koning van West-Francië vanaf het einde van de 9e en het begin van de 10e eeuw."
+      },
+      {
+        "id": 25,
+        "question": "Welke indringer verbergt zich onder deze linkshandige tennissers ?",
+        "propositions": [
+          "Jimmy Connors",
+          "Andy Murray",
+          "Guy Forget",
+          "Rafaël Nadal"
+        ],
+        "réponse": "Andy Murray",
+        "anecdote": "Op de Olympische Spelen won hij twee opeenvolgende gouden medailles in het enkelspel, waarmee hij recordhouder in deze categorie was."
+      },
+      {
+        "id": 26,
+        "question": "Welke indringer zit verborgen tussen deze woorden uit de Arabische taal ?",
+        "propositions": [
+          "Gazelle",
+          "Panoplie",
+          "Giraf",
+          "Winkel"
+        ],
+        "réponse": "Panoplie",
+        "anecdote": "Het is een reeks mogelijkheden, handelingsmiddelen die beschikbaar zijn in een bepaalde situatie (bijvoorbeeld : een reeks sancties)."
+      },
+      {
+        "id": 27,
+        "question": "Welke indringer zit verborgen tussen deze woorden die het achterste aanduiden ?",
+        "propositions": [
+          "Voetzoeker",
+          "Bousin",
+          "Bal",
+          "Coquillard"
+        ],
+        "réponse": "Bousin",
+        "anecdote": "In de geologie is bousin het vreemde, aardse materiaal dat stenen bedekt die uit een steengroeve zijn gewonnen."
+      },
+      {
+        "id": 28,
+        "question": "Welke indringer verbergt zich tussen deze Franse uitvindingen ?",
+        "propositions": [
+          "Margarine",
+          "Kettingzaag",
+          "Snoeischaar",
+          "Cinemascoop"
+        ],
+        "réponse": "Kettingzaag",
+        "anecdote": "De Duitser Andreas Stihl ontwikkelde en patenteerde in 1925 een kettingzaag en in 1929 een andere dieselkettingzaag."
+      },
+      {
+        "id": 29,
+        "question": "Welke indringer schuilt er tussen deze vrouwelijke genderwoorden ?",
+        "propositions": [
+          "Bureau",
+          "Spelling",
+          "Equinox",
+          "Octaaf"
+        ],
+        "réponse": "Equinox",
+        "anecdote": "Een equinox is een tijd van het jaar waarin de zon het equatoriale vlak van de aarde kruist, waardoor het hemelhalfrond verandert."
+      },
+      {
+        "id": 30,
+        "question": "Welke indringer verbergt zich tussen deze meetinstrumenten ?",
+        "propositions": [
+          "Schuifmaat",
+          "Hoed vierkant",
+          "Sextant",
+          "Clepsydra"
+        ],
+        "réponse": "Hoed vierkant",
+        "anecdote": "Het monteursvierkant is over het algemeen niet gegradueerd en wordt gebruikt voor het traceren en controleren van vlakheid en rechte hoeken."
+      }
+    ]
+    }
+  }
+}

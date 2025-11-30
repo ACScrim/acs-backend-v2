@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "5 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-08-03",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Boucles de corde",
+      "slogan": "Entrecroisement serré de cordage"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Nodes",
+      "slogan": "Tight criss-crossing of rope"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Nodos",
+      "slogan": "Apretado entrecruzamiento de cuerda"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Nodi",
+      "slogan": "Stretto incrocio di corda"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Knoten",
+      "slogan": "Enge Überkreuzung des Seils"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Knooppunten",
+      "slogan": "Strak kriskras touw"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel noeud marin en forme de boule est toujours en usage aujourd'hui ?",
+        "propositions": [
+          "Poing de singe",
+          "Noeud de chaise",
+          "Noeud de palan",
+          "Noeud de sang"
+        ],
+        "réponse": "Poing de singe",
+        "anecdote": "Enroulement continu du même cordage, le poing de singe est souvent réalisé autour d'une bille qui va lui donner sa forme."
+      },
+      {
+        "id": 2,
+        "question": "Quel noeud permet de lester l'extrémité d'un cordage ?",
+        "propositions": [
+          "Noeud de Joséphine",
+          "Noeud de lestage",
+          "Noeud de voleur",
+          "Noeud de fouet"
+        ],
+        "réponse": "Noeud de lestage",
+        "anecdote": "Facile a réaliser, un noeud de lestage peut facilement remplacer le poing de singe dans la réalisation d'une pomme de touline."
+      },
+      {
+        "id": 3,
+        "question": "Quel noeud serait à l'origine d'un noeud de cravate très complexe ?",
+        "propositions": [
+          "Noeud papillon",
+          "Noeud de grappin",
+          "Noeud de sangle",
+          "Noeud chinois"
+        ],
+        "réponse": "Noeud papillon",
+        "anecdote": "C'est la date de 1904 et la représentation de Madame Butterfly de Puccini qui semble faire consensus chez les historiens."
+      },
+      {
+        "id": 4,
+        "question": "Quel noeud, utilisé en chirurgie, maintient un point de suture sous tension ?",
+        "propositions": [
+          "Noeud de Carrick",
+          "Noeud de cravate",
+          "Noeud de chirurgien",
+          "Noeud de gabier"
+        ],
+        "réponse": "Noeud de chirurgien",
+        "anecdote": "Simple dérivé du noeud plat, il est également très utilisé pour la pêche en tant que noeud de raccord entre deux matériaux."
+      },
+      {
+        "id": 5,
+        "question": "Quel noeud permet de gréer un palan sans poulies ?",
+        "propositions": [
+          "Noeud de palan",
+          "Noeud double",
+          "Noeud de cabestan",
+          "Noeud de bois"
+        ],
+        "réponse": "Noeud de palan",
+        "anecdote": "Le noeud de palan n'est pas vraiment un noeud à proprement parler, mais plutôt un laçage qui circule dans des noeuds existants."
+      },
+      {
+        "id": 6,
+        "question": "Quel noeud non coulant est facile à défaire, même après une forte traction ?",
+        "propositions": [
+          "Noeud de ride",
+          "Noeud de lestage",
+          "Noeud de chaise",
+          "Noeud de traverse"
+        ],
+        "réponse": "Noeud de chaise",
+        "anecdote": "Toutefois, s'il ne peut être dénoué sous tension, il risque de se dénouer tout seul s'il n'est pas soumis à une tension constante."
+      },
+      {
+        "id": 7,
+        "question": "Quel noeud américain est utilisable pour joindre deux sangles identiques ?",
+        "propositions": [
+          "Noeud en huit",
+          "Noeud de croc",
+          "Noeud de rosette",
+          "Noeud de sangle"
+        ],
+        "réponse": "Noeud de sangle",
+        "anecdote": "Il se confectionne par un noeud simple sur un des bouts, et en repassant l'autre bout en sens inverse en doublant le noeud simple."
+      },
+      {
+        "id": 8,
+        "question": "En Chine, quel noeud est souvent utilisé comme porte-bonheur ?",
+        "propositions": [
+          "Noeud de galère",
+          "Noeud de chirurgien",
+          "Noeud de fouet",
+          "Noeud chinois"
+        ],
+        "réponse": "Noeud chinois",
+        "anecdote": "Des découvertes récentes ont montré des aiguilles en os vieilles de 100 000 ans qui auraient été utilisées pour créer ces noeuds."
+      },
+      {
+        "id": 9,
+        "question": "Quel noeud se fait entrecroiser les deux bandes de tissu d'une cravate ?",
+        "propositions": [
+          "Noeud de cravate",
+          "Noeud carré",
+          "Noeud de gabier",
+          "Noeud étrangleur"
+        ],
+        "réponse": "Noeud de cravate",
+        "anecdote": "Sous Louis XIV, la cravate s'agrémente de différents noeuds de rubans multicolores, le Roi Soleil créant la fonction de cravatier."
+      },
+      {
+        "id": 10,
+        "question": "Quel noeud d'arrêt est aussi appelé noeud entier ou noeud plein ?",
+        "propositions": [
+          "Noeud de bois",
+          "Noeud papillon",
+          "Noeud double",
+          "Noeud de voleur"
+        ],
+        "réponse": "Noeud double",
+        "anecdote": "En spéléologie, le noeud double est souvent utilisé pour terminer la corde de progression, généralement enkitée (ensachée)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel noeud, utilisé en matelotage, évite qu'une écoute lâchée ne s'échappe ?",
+        "propositions": [
+          "Noeud de bois",
+          "Noeud en huit",
+          "Noeud de Joséphine",
+          "Noeud de cravate"
+        ],
+        "réponse": "Noeud en huit",
+        "anecdote": "Dans ce cas, une marge de sécurité de vingt centimètres est laissée en cas de glissement du noeud à la suite de secousses."
+      },
+      {
+        "id": 12,
+        "question": "Quel noeud servant à relier deux cordes fut attribué à Edward Hunter ?",
+        "propositions": [
+          "Noeud de gabier",
+          "Noeud de traverse",
+          "Noeud chinois",
+          "Noeud de sangle"
+        ],
+        "réponse": "Noeud de gabier",
+        "anecdote": "Le noeud de gabier est de la famille des noeuds de base entrelacés, comme le noeud de Zeppelin ou encore le noeud de Ashley."
+      },
+      {
+        "id": 13,
+        "question": "Quel noeud de lacet est souvent utilisé pour lacer des chaussures ?",
+        "propositions": [
+          "Noeud de croc",
+          "Noeud de lestage",
+          "Noeud de Joséphine",
+          "Noeud de rosette"
+        ],
+        "réponse": "Noeud de rosette",
+        "anecdote": "Variante du noeud plat, il ne glisse pas ni ne se défait tout seul, mais en tirant sur l'une des deux extrémités, il s'ouvrira facilement."
+      },
+      {
+        "id": 14,
+        "question": "Quel noeud décoratif est utilisé par les scouts pour nouer leurs foulards ?",
+        "propositions": [
+          "Noeud de lapin",
+          "Noeud de cabestan",
+          "Noeud de fouet",
+          "Noeud carré"
+        ],
+        "réponse": "Noeud carré",
+        "anecdote": "Initialement symbole du scoutisme féminin mondial, l'usage du noeud carré s'est répandu dans toutes les branches du scoutisme."
+      },
+      {
+        "id": 15,
+        "question": "Quel noeud d'anguille est souvent utilisé par les bûcherons ?",
+        "propositions": [
+          "Noeud de palan",
+          "Noeud étrangleur",
+          "Noeud de chaise",
+          "Noeud de bois"
+        ],
+        "réponse": "Noeud de bois",
+        "anecdote": "Pour qu'il soit sûr, ce noeud doit être exécuté de façon que chacune des torsades forme un angle de 45 degrés avec le tour mort."
+      },
+      {
+        "id": 16,
+        "question": "Quel demi-noeud gansé est simple à réaliser et à défaire ?",
+        "propositions": [
+          "Noeud de rosette",
+          "Noeud de piton",
+          "Noeud de traverse",
+          "Noeud de galère"
+        ],
+        "réponse": "Noeud de galère",
+        "anecdote": "Pouvant être réalisé en milieu de corde, le noeud de galère se dénoue tout seul lorsque ses deux brins sont tirés, grâce à la ganse."
+      },
+      {
+        "id": 17,
+        "question": "Quel noeud de marin est probablement le plus mauvais noeud d'ajut ?",
+        "propositions": [
+          "Noeud de grappin",
+          "Noeud en huit",
+          "Noeud de voleur",
+          "Noeud papillon"
+        ],
+        "réponse": "Noeud de voleur",
+        "anecdote": "À l'origine, ce noeud était utilisé par les marins pour fermer leur sac : un voleur qui ouvrirait le sac le refermerait avec un noeud plat."
+      },
+      {
+        "id": 18,
+        "question": "Quel loisir créatif fut célébré dans une chanson de Sacha Distel ?",
+        "propositions": [
+          "Boogaloo",
+          "Twister",
+          "Macramé",
+          "Scoubidou"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "À l'aide de tuyaux en plastique souple millimétrique, on tresse d'interminables boudins colorés pour en faire des porte-clefs."
+      },
+      {
+        "id": 19,
+        "question": "Quel noeud à usage décoratif est ajusté mais jamais serré ?",
+        "propositions": [
+          "Noeud de Carrick",
+          "Noeud de Joséphine",
+          "Noeud de chaise",
+          "Noeud en huit"
+        ],
+        "réponse": "Noeud de Joséphine",
+        "anecdote": "Les mauvaises langues diront que le noeud de Joséphine est au noeud de carrick comme le noeud de vache est au noeud plat."
+      },
+      {
+        "id": 20,
+        "question": "Quel noeud est connu des scouts sous le nom d'oreilles de Mickey ?",
+        "propositions": [
+          "Noeud de croc",
+          "Noeud carré",
+          "Noeud de cabestan",
+          "Noeud de lestage"
+        ],
+        "réponse": "Noeud de cabestan",
+        "anecdote": "Le noeud de cabestan est un noeud classique servant à attacher rapidement une corde à une barre fixe (poteau, mat, piquet, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel noeud est utilisé pour attacher une corde à un anneau ?",
+        "propositions": [
+          "Noeud de gabier",
+          "Noeud de lapin",
+          "Noeud de chirurgien",
+          "Noeud de grappin"
+        ],
+        "réponse": "Noeud de grappin",
+        "anecdote": "Pour sécuriser le noeud de grappin, il est complété par deux demi-clefs ou un noeud de chaise pour éviter au noeud de se défaire."
+      },
+      {
+        "id": 22,
+        "question": "Quel noeud a la particularité d'être coulissant ou fixe à volonté ?",
+        "propositions": [
+          "Noeud chinois",
+          "Noeud de sang",
+          "Noeud de galère",
+          "Noeud de fouet"
+        ],
+        "réponse": "Noeud de fouet",
+        "anecdote": "On peut le faire autour d'une structure solide ou du dormant, réalisant une boucle coulissante de taille variable pouvant coulisser."
+      },
+      {
+        "id": 23,
+        "question": "Quel noeud comporte un demi-noeud sous un virage à cheval ?",
+        "propositions": [
+          "Noeud papillon",
+          "Noeud de ride",
+          "Noeud étrangleur",
+          "Noeud de piton"
+        ],
+        "réponse": "Noeud étrangleur",
+        "anecdote": "Une différence visible est que les extrémités émergent sur les bords extérieurs, plutôt qu'entre les tours comme pour un constricteur."
+      },
+      {
+        "id": 24,
+        "question": "Quel simple noeud d'accroche est utilisé pour fixer deux objets linéaires ?",
+        "propositions": [
+          "Noeud de cravate",
+          "Noeud de cabestan",
+          "Noeud de sang",
+          "Noeud de traverse"
+        ],
+        "réponse": "Noeud de traverse",
+        "anecdote": "Après avoir été adopté par les boy-scouts pour les constructions, ce noeud fait aujourd'hui le bonheur des amateurs de cerfs-volants."
+      },
+      {
+        "id": 25,
+        "question": "Quel noeud était confectionné avec les torons du cordage servant de ride ?",
+        "propositions": [
+          "Noeud de lapin",
+          "Noeud de sangle",
+          "Noeud de rosette",
+          "Noeud de ride"
+        ],
+        "réponse": "Noeud de ride",
+        "anecdote": "Réalisé avec un nombre de brins plus important, il fait un excellent noeud décoratif, par exemple sur une corde de cloche."
+      },
+      {
+        "id": 26,
+        "question": "Quel noeud d'ajut est particulièrement adapté aux câbles épais et fort raides ?",
+        "propositions": [
+          "Noeud de piton",
+          "Noeud double",
+          "Noeud de Carrick",
+          "Noeud carré"
+        ],
+        "réponse": "Noeud de Carrick",
+        "anecdote": "Il se défait facilement, même après avoir supporté une charge importante, et même après être resté un certain temps dans l'eau."
+      },
+      {
+        "id": 27,
+        "question": "Quel noeud d'amarrage permet de fixer rapidement une corde sur un crochet ?",
+        "propositions": [
+          "Noeud de bois",
+          "Noeud de fouet",
+          "Noeud de chirurgien",
+          "Noeud de croc"
+        ],
+        "réponse": "Noeud de croc",
+        "anecdote": "Il existe diverses variantes appelés : noeud de croc simple, noeud de croc double, noeud de croc de palan ou encore noeud de griffe."
+      },
+      {
+        "id": 28,
+        "question": "Quelle variante du huit double est utilisée en spéléologie ?",
+        "propositions": [
+          "Noeud de galère",
+          "Noeud de lapin",
+          "Noeud en huit",
+          "Noeud de grappin"
+        ],
+        "réponse": "Noeud de lapin",
+        "anecdote": "Il a tendance à être remplacé par le noeud de fusion, plus facile à défaire après avoir été mis sous tension et plus économe en corde."
+      },
+      {
+        "id": 29,
+        "question": "Quel noeud est utilisé joindre des sections de ligne en nylon monofilament ?",
+        "propositions": [
+          "Noeud de bois",
+          "Noeud de palan",
+          "Noeud de sang",
+          "Noeud de galère"
+        ],
+        "réponse": "Noeud de sang",
+        "anecdote": "En pêche à la mouche, en raccordant ainsi plusieurs fils de diamètre différent, le fil présente un diamètre qui diminue progressivement."
+      },
+      {
+        "id": 30,
+        "question": "Quel noeud est souvent confondu avec un bonnet turc réalisé à plat ?",
+        "propositions": [
+          "Noeud de voleur",
+          "Noeud étrangleur",
+          "Noeud de piton",
+          "Noeud de Carrick"
+        ],
+        "réponse": "Noeud de piton",
+        "anecdote": "Ce nouage est utilisé comme protection sur les navires aux endroits où des poulies ou des éléments durs peuvent venir frapper le bois."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which ball-shaped nautical knot is still in use today ?",
+        "propositions": [
+          "Bowline",
+          "Hoist knot",
+          "Monkey fist",
+          "Blood Knot"
+        ],
+        "réponse": "Monkey fist",
+        "anecdote": "Continuous winding of the same rope, the monkey fist is often made around a ball that will give it its shape."
+      },
+      {
+        "id": 2,
+        "question": "What knot is used to weight the end of a rope ?",
+        "propositions": [
+          "whip knot",
+          "Josephine's Knot",
+          "Weight knot",
+          "Thief's Knot"
+        ],
+        "réponse": "Weight knot",
+        "anecdote": "Easy to make, a ballast knot can easily replace the monkey fist in the realization of a touline apple."
+      },
+      {
+        "id": 3,
+        "question": "Which knot would cause a very complex tie knot ?",
+        "propositions": [
+          "Grapple Knot",
+          "Webbing knot",
+          "Chinese knot",
+          "Bow tie"
+        ],
+        "réponse": "Bow tie",
+        "anecdote": "It is the date of 1904 and the representation of Madame Butterfly by Puccini that seems to have consensus among historians."
+      },
+      {
+        "id": 4,
+        "question": "Which knot, used in surgery, holds a stitch under tension ?",
+        "propositions": [
+          "Topsman knot",
+          "Tie Knot",
+          "Carrick's Knot",
+          "Surgeon's knot"
+        ],
+        "réponse": "Surgeon's knot",
+        "anecdote": "Simple derivative of the square knot, it is also widely used for fishing as a connecting knot between two materials."
+      },
+      {
+        "id": 5,
+        "question": "What knot allows you to rig a hoist without pulleys ?",
+        "propositions": [
+          "Double knot",
+          "Wood knot",
+          "Hoist knot",
+          "Capstan knot"
+        ],
+        "réponse": "Hoist knot",
+        "anecdote": "The hoist knot is not really a knot per se, but rather a lacing that runs through existing knots."
+      },
+      {
+        "id": 6,
+        "question": "Which non-slip knot is easy to untie, even after a strong pull ?",
+        "propositions": [
+          "Traverse knot",
+          "Weight knot",
+          "Bowline",
+          "Wrinkle Knot"
+        ],
+        "réponse": "Bowline",
+        "anecdote": "However, if it cannot be untied under tension, it risks untying itself if it is not subjected to constant tension."
+      },
+      {
+        "id": 7,
+        "question": "Which American knot can be used to join two identical straps ?",
+        "propositions": [
+          "Webbing knot",
+          "Rosette Knot",
+          "Figure-of-eight knot",
+          "Fang Knot"
+        ],
+        "réponse": "Webbing knot",
+        "anecdote": "It is made with a simple knot on one of the ends, and ironing the other end in the opposite direction, doubling the simple knot."
+      },
+      {
+        "id": 8,
+        "question": "In China, which knot is often used as a lucky charm ?",
+        "propositions": [
+          "whip knot",
+          "Galley knot",
+          "Surgeon's knot",
+          "Chinese knot"
+        ],
+        "réponse": "Chinese knot",
+        "anecdote": "Recent finds have shown 100,000-year-old bone needles believed to have been used to create these knots."
+      },
+      {
+        "id": 9,
+        "question": "What knot intertwine the two strips of fabric of a tie ?",
+        "propositions": [
+          "Square knot",
+          "Tie Knot",
+          "Strangler knot",
+          "Topsman knot"
+        ],
+        "réponse": "Tie Knot",
+        "anecdote": "Under Louis XIV, the tie was embellished with various knots of multicolored ribbons, the Sun King creating the function of tie-maker."
+      },
+      {
+        "id": 10,
+        "question": "Which stopper knot is also called whole knot or full knot ?",
+        "propositions": [
+          "Wood knot",
+          "Double knot",
+          "Bow tie",
+          "Thief's Knot"
+        ],
+        "réponse": "Double knot",
+        "anecdote": "In caving, the double knot is often used to terminate the progression rope, generally enkitée (bagged)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What knot, used in seamanship, prevents a loose sheet from escaping ?",
+        "propositions": [
+          "Tie Knot",
+          "Josephine's Knot",
+          "Figure-of-eight knot",
+          "Wood knot"
+        ],
+        "réponse": "Figure-of-eight knot",
+        "anecdote": "In this case, a safety margin of twenty centimeters is left in case the knot slips as a result of jerks."
+      },
+      {
+        "id": 12,
+        "question": "Which knot used to connect two ropes was attributed to Edward Hunter ?",
+        "propositions": [
+          "Traverse knot",
+          "Topsman knot",
+          "Chinese knot",
+          "Webbing knot"
+        ],
+        "réponse": "Topsman knot",
+        "anecdote": "The gabier's knot is from the family of basic interlaced knots, such as the Zeppelin knot or the Ashley knot."
+      },
+      {
+        "id": 13,
+        "question": "Which shoelace knot is often used to tie shoes ?",
+        "propositions": [
+          "Weight knot",
+          "Fang Knot",
+          "Josephine's Knot",
+          "Rosette Knot"
+        ],
+        "réponse": "Rosette Knot",
+        "anecdote": "Variation of the square knot, it does not slip or come undone on its own, but by pulling on one of the two ends, it will open easily."
+      },
+      {
+        "id": 14,
+        "question": "What decorative knot do Scouts use to tie their scarves ?",
+        "propositions": [
+          "Bunny Knot",
+          "Capstan knot",
+          "whip knot",
+          "Square knot"
+        ],
+        "réponse": "Square knot",
+        "anecdote": "Initially a symbol of world female scouting, the use of the square knot has spread to all branches of scouting."
+      },
+      {
+        "id": 15,
+        "question": "Which eel knot is often used by lumberjacks ?",
+        "propositions": [
+          "Hoist knot",
+          "Wood knot",
+          "Bowline",
+          "Strangler knot"
+        ],
+        "réponse": "Wood knot",
+        "anecdote": "For it to be secure, this knot must be executed so that each of the twists forms a 45 degree angle with the dead turn."
+      },
+      {
+        "id": 16,
+        "question": "Which braided half knot is easy to tie and untie ?",
+        "propositions": [
+          "Peak knot",
+          "Galley knot",
+          "Traverse knot",
+          "Rosette Knot"
+        ],
+        "réponse": "Galley knot",
+        "anecdote": "Can be made in the middle of the rope, the galley knot unties itself when its two strands are pulled, thanks to the braid."
+      },
+      {
+        "id": 17,
+        "question": "Which sailor's knot is probably the worst butt knot ?",
+        "propositions": [
+          "Figure-of-eight knot",
+          "Bow tie",
+          "Thief's Knot",
+          "Grapple Knot"
+        ],
+        "réponse": "Thief's Knot",
+        "anecdote": "Originally, this knot was used by sailors to close their bag : a thief who opened the bag would close it with a square knot."
+      },
+      {
+        "id": 18,
+        "question": "What creative hobby was celebrated in a song by Sacha Distel ?",
+        "propositions": [
+          "Twister",
+          "Boogaloo",
+          "Scoubidou",
+          "Macrame"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "Using millimetric flexible plastic pipes, we braid endless colored sausages to make key rings."
+      },
+      {
+        "id": 19,
+        "question": "Which decorative knot is snug but never tight ?",
+        "propositions": [
+          "Bowline",
+          "Carrick's Knot",
+          "Josephine's Knot",
+          "Figure-of-eight knot"
+        ],
+        "réponse": "Josephine's Knot",
+        "anecdote": "Gossips will say that Josephine's knot is in the carrick knot like the cow's knot is in the flat knot."
+      },
+      {
+        "id": 20,
+        "question": "What knot is known to Boy Scouts as Mickey's ears ?",
+        "propositions": [
+          "Square knot",
+          "Weight knot",
+          "Capstan knot",
+          "Fang Knot"
+        ],
+        "réponse": "Capstan knot",
+        "anecdote": "The capstan knot is a classic knot used to quickly attach a rope to a fixed bar (post, mast, stake, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What knot is used to tie a rope to a ring ?",
+        "propositions": [
+          "Surgeon's knot",
+          "Grapple Knot",
+          "Bunny Knot",
+          "Topsman knot"
+        ],
+        "réponse": "Grapple Knot",
+        "anecdote": "To secure the grapple knot, it is completed with two half hitches or a bowline to prevent the knot from unraveling."
+      },
+      {
+        "id": 22,
+        "question": "Which knot has the particularity of being sliding or fixed at will ?",
+        "propositions": [
+          "whip knot",
+          "Chinese knot",
+          "Blood Knot",
+          "Galley knot"
+        ],
+        "réponse": "whip knot",
+        "anecdote": "It can be done around a solid structure or the frame, making a sliding loop of variable size that can slide."
+      },
+      {
+        "id": 23,
+        "question": "Which knot has a half knot under a saddle bend ?",
+        "propositions": [
+          "Strangler knot",
+          "Peak knot",
+          "Bow tie",
+          "Wrinkle Knot"
+        ],
+        "réponse": "Strangler knot",
+        "anecdote": "A visible difference is that the ends emerge at the outer edges, rather than between turns as with a constrictor."
+      },
+      {
+        "id": 24,
+        "question": "What simple hook knot is used to fix two linear objects ?",
+        "propositions": [
+          "Tie Knot",
+          "Blood Knot",
+          "Traverse knot",
+          "Capstan knot"
+        ],
+        "réponse": "Traverse knot",
+        "anecdote": "After being adopted by boy scouts for construction, this knot is now the delight of kite lovers."
+      },
+      {
+        "id": 25,
+        "question": "What knot was made with the strands of the rope serving as a ride ?",
+        "propositions": [
+          "Bunny Knot",
+          "Webbing knot",
+          "Rosette Knot",
+          "Wrinkle Knot"
+        ],
+        "réponse": "Wrinkle Knot",
+        "anecdote": "Made with a larger number of strands, it makes an excellent decorative knot, for example on a bell rope."
+      },
+      {
+        "id": 26,
+        "question": "Which butt knot is particularly suitable for thick and very stiff cables ?",
+        "propositions": [
+          "Square knot",
+          "Carrick's Knot",
+          "Double knot",
+          "Peak knot"
+        ],
+        "réponse": "Carrick's Knot",
+        "anecdote": "It comes apart easily, even after bearing a heavy load, and even after standing in water for a while."
+      },
+      {
+        "id": 27,
+        "question": "Which mooring knot allows you to quickly attach a rope to a hook ?",
+        "propositions": [
+          "Fang Knot",
+          "whip knot",
+          "Surgeon's knot",
+          "Wood knot"
+        ],
+        "réponse": "Fang Knot",
+        "anecdote": "There are various variations called : simple croc knot, double croc knot, hoist croc knot or even claw knot."
+      },
+      {
+        "id": 28,
+        "question": "Which variant of the double eight is used in caving ?",
+        "propositions": [
+          "Galley knot",
+          "Grapple Knot",
+          "Figure-of-eight knot",
+          "Bunny Knot"
+        ],
+        "réponse": "Bunny Knot",
+        "anecdote": "It tends to be replaced by the fusion knot, which is easier to untie after being put under tension and more cord-saving."
+      },
+      {
+        "id": 29,
+        "question": "What knot is used to join sections of monofilament nylon line ?",
+        "propositions": [
+          "Blood Knot",
+          "Wood knot",
+          "Hoist knot",
+          "Galley knot"
+        ],
+        "réponse": "Blood Knot",
+        "anecdote": "In fly fishing, by connecting several threads of different diameters in this way, the thread has a diameter which gradually decreases."
+      },
+      {
+        "id": 30,
+        "question": "Which knot is often mistaken for a Turkish hat made flat ?",
+        "propositions": [
+          "Thief's Knot",
+          "Strangler knot",
+          "Peak knot",
+          "Carrick's Knot"
+        ],
+        "réponse": "Peak knot",
+        "anecdote": "This knot is used as protection on ships where pulleys or hard elements can strike the wood."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher kugelförmige Seeknoten wird heute noch verwendet ?",
+        "propositions": [
+          "Bowline",
+          "Affenfaust",
+          "Hebeknoten",
+          "Blutknoten"
+        ],
+        "réponse": "Affenfaust",
+        "anecdote": "Die Affenfaust wird kontinuierlich aus demselben Seil gewickelt und oft um eine Kugel geformt, die ihr ihre Form verleiht."
+      },
+      {
+        "id": 2,
+        "question": "Mit welchem Knoten wird das Ende eines Seils beschwert ?",
+        "propositions": [
+          "Gewichtsknoten",
+          "Josephines Knoten",
+          "Peitschenknoten",
+          "Diebesknoten"
+        ],
+        "réponse": "Gewichtsknoten",
+        "anecdote": "Ein Ballastknoten ist einfach herzustellen und kann die Affenfaust bei der Herstellung eines Touliné-Apfels leicht ersetzen."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Knoten würde einen sehr komplexen Krawattenknoten verursachen ?",
+        "propositions": [
+          "Gurtbandknoten",
+          "Fliege",
+          "Greifknoten",
+          "Chinesischer Knoten"
+        ],
+        "réponse": "Fliege",
+        "anecdote": "Es ist das Datum 1904 und die Darstellung von Madame Butterfly durch Puccini, über die sich die Historiker offenbar einig sind."
+      },
+      {
+        "id": 4,
+        "question": "Welcher in der Chirurgie verwendete Knoten hält eine Naht unter Spannung ?",
+        "propositions": [
+          "Krawattenknoten",
+          "Topsman-Knoten",
+          "Carricks Knoten",
+          "Chirurgenknoten"
+        ],
+        "réponse": "Chirurgenknoten",
+        "anecdote": "Er ist eine einfache Ableitung des Quadratknotens und wird auch häufig beim Angeln als Verbindungsknoten zwischen zwei Materialien verwendet."
+      },
+      {
+        "id": 5,
+        "question": "Mit welchem Knoten lässt sich ein Hebezeug ohne Riemenscheiben befestigen ?",
+        "propositions": [
+          "Holzknoten",
+          "Windenknoten",
+          "Hebeknoten",
+          "Doppelknoten"
+        ],
+        "réponse": "Hebeknoten",
+        "anecdote": "Der Hebeknoten ist eigentlich kein Knoten an sich, sondern eine Schnürung, die durch bestehende Knoten verläuft."
+      },
+      {
+        "id": 6,
+        "question": "Welcher rutschfeste Knoten lässt sich auch nach starkem Zug leicht lösen ?",
+        "propositions": [
+          "Bowline",
+          "Querknoten",
+          "Gewichtsknoten",
+          "Faltenknoten"
+        ],
+        "réponse": "Bowline",
+        "anecdote": "Wenn es jedoch unter Spannung nicht gelöst werden kann, besteht die Gefahr, dass es sich selbst löst, wenn es nicht ständiger Spannung ausgesetzt ist."
+      },
+      {
+        "id": 7,
+        "question": "Mit welchem amerikanischen Knoten lassen sich zwei identische Riemen verbinden ?",
+        "propositions": [
+          "Gurtbandknoten",
+          "Achterknoten",
+          "Rosettenknoten",
+          "Fangknoten"
+        ],
+        "réponse": "Gurtbandknoten",
+        "anecdote": "Es besteht aus einem einfachen Knoten an einem Ende und dem Bügeln des anderen Endes in die entgegengesetzte Richtung, wodurch der einfache Knoten verdoppelt wird."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Knoten wird in China oft als Glücksbringer verwendet ?",
+        "propositions": [
+          "Peitschenknoten",
+          "Chirurgenknoten",
+          "Galeerenknoten",
+          "Chinesischer Knoten"
+        ],
+        "réponse": "Chinesischer Knoten",
+        "anecdote": "Jüngste Funde haben gezeigt, dass 100.000 Jahre alte Knochennadeln vermutlich zur Herstellung dieser Knoten verwendet wurden."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Knoten verbindet die beiden Stoffstreifen einer Krawatte ?",
+        "propositions": [
+          "Quadratischer Knoten",
+          "Würgeknoten",
+          "Krawattenknoten",
+          "Topsman-Knoten"
+        ],
+        "réponse": "Krawattenknoten",
+        "anecdote": "Unter Ludwig XIV. wurde die Krawatte mit verschiedenen Knoten aus bunten Bändern verziert, wobei der Sonnenkönig die Funktion des Krawattenmachers übernahm."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Stopperknoten wird auch Ganzknoten oder Vollknoten genannt ?",
+        "propositions": [
+          "Diebesknoten",
+          "Doppelknoten",
+          "Holzknoten",
+          "Fliege"
+        ],
+        "réponse": "Doppelknoten",
+        "anecdote": "In der Höhlenforschung wird der Doppelknoten häufig zum Abschluss des Fortbewegungsseils verwendet, im Allgemeinen enkitée (verpackt)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher in der Seemannschaft verwendete Knoten verhindert, dass ein loses Schot entweicht ?",
+        "propositions": [
+          "Achterknoten",
+          "Holzknoten",
+          "Krawattenknoten",
+          "Josephines Knoten"
+        ],
+        "réponse": "Achterknoten",
+        "anecdote": "In diesem Fall verbleibt ein Sicherheitsspielraum von zwanzig Zentimetern für den Fall, dass der Knoten durch Stöße abrutscht."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Knoten zur Verbindung zweier Seile wurde Edward Hunter zugeschrieben ?",
+        "propositions": [
+          "Topsman-Knoten",
+          "Gurtbandknoten",
+          "Chinesischer Knoten",
+          "Querknoten"
+        ],
+        "réponse": "Topsman-Knoten",
+        "anecdote": "Der Gabier-Knoten gehört zur Familie der einfachen Flechtknoten, wie zum Beispiel der Zeppelin-Knoten oder der Ashley-Knoten."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Schnürsenkelknoten wird häufig zum Binden von Schuhen verwendet ?",
+        "propositions": [
+          "Josephines Knoten",
+          "Gewichtsknoten",
+          "Rosettenknoten",
+          "Fangknoten"
+        ],
+        "réponse": "Rosettenknoten",
+        "anecdote": "Variation des Quadratknotens, er verrutscht nicht und löst sich nicht von selbst, sondern lässt sich durch Ziehen an einem der beiden Enden leicht öffnen."
+      },
+      {
+        "id": 14,
+        "question": "Welchen Zierknoten verwenden Pfadfinder zum Binden ihrer Schals ?",
+        "propositions": [
+          "Peitschenknoten",
+          "Windenknoten",
+          "Hasenknoten",
+          "Quadratischer Knoten"
+        ],
+        "réponse": "Quadratischer Knoten",
+        "anecdote": "Ursprünglich ein Symbol der weltweiten weiblichen Pfadfinderschaft, hat sich die Verwendung des quadratischen Knotens auf alle Pfadfinderzweige ausgeweitet."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Aalknoten wird oft von Holzfällern verwendet ?",
+        "propositions": [
+          "Würgeknoten",
+          "Holzknoten",
+          "Bowline",
+          "Hebeknoten"
+        ],
+        "réponse": "Holzknoten",
+        "anecdote": "Damit er sicher ist, muss dieser Knoten so ausgeführt werden, dass jede Drehung einen 45-Grad-Winkel mit der toten Drehung bildet."
+      },
+      {
+        "id": 16,
+        "question": "Welcher geflochtene Halbknoten lässt sich leicht binden und lösen ?",
+        "propositions": [
+          "Querknoten",
+          "Galeerenknoten",
+          "Rosettenknoten",
+          "Spitzenknoten"
+        ],
+        "réponse": "Galeerenknoten",
+        "anecdote": "Kann in der Mitte des Seils hergestellt werden, der Galeerenknoten löst sich dank des Geflechts beim Ziehen seiner beiden Stränge von selbst."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Seemannsknoten ist wahrscheinlich der schlechteste Hinternknoten ?",
+        "propositions": [
+          "Diebesknoten",
+          "Fliege",
+          "Achterknoten",
+          "Greifknoten"
+        ],
+        "réponse": "Diebesknoten",
+        "anecdote": "Ursprünglich wurde dieser Knoten von Seeleuten verwendet, um ihre Taschen zu verschließen : Ein Dieb, der die Tasche öffnete, verschloss sie mit einem quadratischen Knoten."
+      },
+      {
+        "id": 18,
+        "question": "Welches kreative Hobby wurde in einem Lied von Sacha Distel gefeiert ?",
+        "propositions": [
+          "Twister",
+          "Boogaloo",
+          "Makramee",
+          "Scoubidou"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "Aus millimetergroßen flexiblen Kunststoffrohren flechten wir endlose bunte Würstchen zu Schlüsselanhängern."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Zierknoten sitzt fest, aber niemals fest ?",
+        "propositions": [
+          "Carricks Knoten",
+          "Achterknoten",
+          "Bowline",
+          "Josephines Knoten"
+        ],
+        "réponse": "Josephines Knoten",
+        "anecdote": "Gerüchte besagen, dass Josephines Knoten im Carrick-Knoten liegt wie der Kuhknoten im Flachknoten."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Knoten ist bei Pfadfindern als Mickys Ohren bekannt ?",
+        "propositions": [
+          "Quadratischer Knoten",
+          "Gewichtsknoten",
+          "Windenknoten",
+          "Fangknoten"
+        ],
+        "réponse": "Windenknoten",
+        "anecdote": "Der Spillknoten ist ein klassischer Knoten, mit dem ein Seil schnell an einer festen Stange (Pfosten, Mast, Pfahl, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Mit welchem Knoten wird ein Seil an einen Ring gebunden ?",
+        "propositions": [
+          "Hasenknoten",
+          "Chirurgenknoten",
+          "Topsman-Knoten",
+          "Greifknoten"
+        ],
+        "réponse": "Greifknoten",
+        "anecdote": "Um den Greiferknoten zu sichern, wird er mit zwei halben Schlägen oder einem Palstek vervollständigt, um ein Auflösen des Knotens zu verhindern."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Knoten hat die Besonderheit, dass er nach Belieben verschoben oder fixiert werden kann ?",
+        "propositions": [
+          "Galeerenknoten",
+          "Peitschenknoten",
+          "Blutknoten",
+          "Chinesischer Knoten"
+        ],
+        "réponse": "Peitschenknoten",
+        "anecdote": "Dies kann um eine feste Struktur oder den Rahmen herum erfolgen, wodurch eine verschiebbare Gleitschlaufe variabler Größe entsteht."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Knoten hat einen halben Knoten unter einer Sattelbiegung ?",
+        "propositions": [
+          "Fliege",
+          "Spitzenknoten",
+          "Würgeknoten",
+          "Faltenknoten"
+        ],
+        "réponse": "Würgeknoten",
+        "anecdote": "Ein sichtbarer Unterschied besteht darin, dass die Enden an den Außenkanten austreten und nicht wie bei einem Constrictor zwischen den Windungen."
+      },
+      {
+        "id": 24,
+        "question": "Mit welchem einfachen Hakenknoten werden zwei lineare Objekte befestigt ?",
+        "propositions": [
+          "Windenknoten",
+          "Blutknoten",
+          "Querknoten",
+          "Krawattenknoten"
+        ],
+        "réponse": "Querknoten",
+        "anecdote": "Nachdem dieser Knoten von Pfadfindern für den Bau übernommen wurde, ist er heute die Freude von Drachenliebhabern."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Knoten wurde mit den Strängen des Seils gemacht, das als Fahrgeschäft diente ?",
+        "propositions": [
+          "Gurtbandknoten",
+          "Faltenknoten",
+          "Hasenknoten",
+          "Rosettenknoten"
+        ],
+        "réponse": "Faltenknoten",
+        "anecdote": "Mit einer größeren Anzahl von Strängen hergestellt, eignet es sich hervorragend als dekorativer Knoten, beispielsweise an einem Glockenseil."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Stoßknoten eignet sich besonders für dicke und sehr steife Kabel ?",
+        "propositions": [
+          "Carricks Knoten",
+          "Doppelknoten",
+          "Spitzenknoten",
+          "Quadratischer Knoten"
+        ],
+        "réponse": "Carricks Knoten",
+        "anecdote": "Es löst sich leicht, selbst wenn es einer schweren Last ausgesetzt ist und auch wenn es längere Zeit im Wasser steht."
+      },
+      {
+        "id": 27,
+        "question": "Mit welchem Festmacherknoten lässt sich ein Seil schnell an einem Haken befestigen ?",
+        "propositions": [
+          "Fangknoten",
+          "Holzknoten",
+          "Chirurgenknoten",
+          "Peitschenknoten"
+        ],
+        "réponse": "Fangknoten",
+        "anecdote": "Es gibt verschiedene Variationen, die als einfacher Krokoknoten, doppelter Krokoknoten, Hebe-Krokodilknoten oder sogar Klauenknoten bezeichnet werden."
+      },
+      {
+        "id": 28,
+        "question": "Welche Variante der Doppelacht wird in der Höhlenforschung verwendet ?",
+        "propositions": [
+          "Achterknoten",
+          "Greifknoten",
+          "Galeerenknoten",
+          "Hasenknoten"
+        ],
+        "réponse": "Hasenknoten",
+        "anecdote": "Er wird tendenziell durch den Fusionsknoten ersetzt, der nach Belastung leichter zu lösen und schnurschonender ist."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Knoten wird verwendet, um Abschnitte einer monofilen Nylonschnur zu verbinden ?",
+        "propositions": [
+          "Hebeknoten",
+          "Holzknoten",
+          "Galeerenknoten",
+          "Blutknoten"
+        ],
+        "réponse": "Blutknoten",
+        "anecdote": "Beim Fliegenfischen wird durch die Verbindung mehrerer Fäden mit unterschiedlichem Durchmesser auf diese Weise erreicht, dass der Fadendurchmesser allmählich abnimmt."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Knoten wird oft mit einem flach gemachten türkischen Hut verwechselt ?",
+        "propositions": [
+          "Diebesknoten",
+          "Spitzenknoten",
+          "Carricks Knoten",
+          "Würgeknoten"
+        ],
+        "réponse": "Spitzenknoten",
+        "anecdote": "Dieser Knoten dient als Schutz auf Schiffen, wo Rollen oder harte Elemente auf das Holz treffen können."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué nudo náutico en forma de bola todavía se usa hoy en día ?",
+        "propositions": [
+          "Nudo de sangre",
+          "Nudo de polipasto",
+          "bolina",
+          "Puño de mono"
+        ],
+        "réponse": "Puño de mono",
+        "anecdote": "Enrollado continuo de la misma cuerda, el puño de mono se hace a menudo alrededor de una bola que le dará su forma."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué nudo se usa para pesar el extremo de una cuerda ?",
+        "propositions": [
+          "Nudo de peso",
+          "nudo de ladrón",
+          "nudo de látigo",
+          "Nudo de Josefina"
+        ],
+        "réponse": "Nudo de peso",
+        "anecdote": "Fácil de hacer, un nudo de lastre puede reemplazar fácilmente el puño de mono en la realización de una manzana touline."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué nudo causaría un nudo de corbata muy complejo ?",
+        "propositions": [
+          "Nudo de cincha",
+          "Pajarita",
+          "Nudo de agarre",
+          "nudo chino"
+        ],
+        "réponse": "Pajarita",
+        "anecdote": "Es la fecha de 1904 y la representación de Madame Butterfly por Puccini lo que parece tener consenso entre los historiadores."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué nudo, usado en cirugía, mantiene una puntada bajo tensión ?",
+        "propositions": [
+          "Nudo de Carrick",
+          "nudo topsman",
+          "Nudo de cirujano",
+          "nudo de corbata"
+        ],
+        "réponse": "Nudo de cirujano",
+        "anecdote": "Derivado simple del nudo cuadrado, también es muy utilizado para la pesca como nudo de conexión entre dos materiales."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué nudo le permite montar un polipasto sin poleas ?",
+        "propositions": [
+          "Nudo doble",
+          "Nudo cabrestante",
+          "Nudo de polipasto",
+          "Nudo de madera"
+        ],
+        "réponse": "Nudo de polipasto",
+        "anecdote": "El nudo de izar no es realmente un nudo per se, sino más bien un lazo que atraviesa nudos existentes."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué nudo antideslizante es fácil de desatar, incluso después de un fuerte tirón ?",
+        "propositions": [
+          "nudo arrugado",
+          "Nudo transversal",
+          "bolina",
+          "Nudo de peso"
+        ],
+        "réponse": "bolina",
+        "anecdote": "Sin embargo, si no se puede desatar bajo tensión, corre el riesgo de desatarse si no se somete a una tensión constante."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué nudo americano se puede usar para unir dos correas idénticas ?",
+        "propositions": [
+          "Nudo en forma de ocho",
+          "Nudo de colmillo",
+          "Nudo de cincha",
+          "Nudo de roseta"
+        ],
+        "réponse": "Nudo de cincha",
+        "anecdote": "Se hace con un nudo simple en uno de los extremos, y planchando el otro extremo en sentido contrario, doblando el nudo simple."
+      },
+      {
+        "id": 8,
+        "question": "En China, ¿qué nudo se usa a menudo como amuleto de la suerte ?",
+        "propositions": [
+          "nudo de látigo",
+          "Nudo de galera",
+          "nudo chino",
+          "Nudo de cirujano"
+        ],
+        "réponse": "nudo chino",
+        "anecdote": "Hallazgos recientes han mostrado agujas de hueso de 100.000 años de antigüedad que se cree que se utilizaron para crear estos nudos."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué nudo entrelazan las dos tiras de tela de una corbata ?",
+        "propositions": [
+          "Nudo cuadrado",
+          "nudo de corbata",
+          "Nudo estrangulador",
+          "nudo topsman"
+        ],
+        "réponse": "nudo de corbata",
+        "anecdote": "Bajo Luis XIV, la corbata se embellecía con varios nudos de cintas multicolores, el Rey Sol creaba la función de hacedor de corbatas."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué nudo de tope también se llama nudo completo o nudo completo ?",
+        "propositions": [
+          "nudo de ladrón",
+          "Nudo doble",
+          "Pajarita",
+          "Nudo de madera"
+        ],
+        "réponse": "Nudo doble",
+        "anecdote": "En espeleología, el doble nudo se utiliza a menudo para terminar la cuerda de progresión, generalmente enkitée (en bolsa)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué nudo, usado en la náutica, impide que se escape una escota suelta ?",
+        "propositions": [
+          "Nudo de Josefina",
+          "Nudo en forma de ocho",
+          "Nudo de madera",
+          "nudo de corbata"
+        ],
+        "réponse": "Nudo en forma de ocho",
+        "anecdote": "En este caso se deja un margen de seguridad de veinte centímetros por si el nudo se desliza por tirones."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué nudo usado para conectar dos cuerdas se atribuyó a Edward Hunter ?",
+        "propositions": [
+          "nudo topsman",
+          "Nudo transversal",
+          "Nudo de cincha",
+          "nudo chino"
+        ],
+        "réponse": "nudo topsman",
+        "anecdote": "El nudo gabier pertenece a la familia de los nudos entrelazados básicos, como el nudo Zeppelin o el nudo Ashley."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué nudo de cordón se usa a menudo para atar los zapatos ?",
+        "propositions": [
+          "Nudo de Josefina",
+          "Nudo de colmillo",
+          "Nudo de roseta",
+          "Nudo de peso"
+        ],
+        "réponse": "Nudo de roseta",
+        "anecdote": "Variación del nudo cuadrado, no se resbala ni se deshace solo, sino que tirando de uno de los dos extremos se abre fácilmente."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué nudo decorativo usan los Scouts para atar sus bufandas ?",
+        "propositions": [
+          "Nudo cabrestante",
+          "Nudo cuadrado",
+          "nudo de látigo",
+          "nudo de conejito"
+        ],
+        "réponse": "Nudo cuadrado",
+        "anecdote": "Inicialmente un símbolo del escultismo femenino mundial, el uso del nudo cuadrado se ha extendido a todas las ramas del escultismo."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué nudo de anguila suelen usar los leñadores ?",
+        "propositions": [
+          "bolina",
+          "Nudo de madera",
+          "Nudo estrangulador",
+          "Nudo de polipasto"
+        ],
+        "réponse": "Nudo de madera",
+        "anecdote": "Para que sea seguro, este nudo debe ejecutarse de manera que cada uno de los giros forme un ángulo de 45 grados con el punto muerto."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué medio nudo trenzado es fácil de atar y desatar ?",
+        "propositions": [
+          "Nudo de roseta",
+          "Nudo de galera",
+          "Nudo pico",
+          "Nudo transversal"
+        ],
+        "réponse": "Nudo de galera",
+        "anecdote": "Se puede hacer en medio de la cuerda, el nudo de galera se deshace solo al tirar de sus dos cabos, gracias a la trenza."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué nudo marinero es probablemente el peor nudo a tope ?",
+        "propositions": [
+          "nudo de ladrón",
+          "Nudo en forma de ocho",
+          "Nudo de agarre",
+          "Pajarita"
+        ],
+        "réponse": "nudo de ladrón",
+        "anecdote": "Originalmente, este nudo lo usaban los marineros para cerrar su bolsa : un ladrón que abría la bolsa la cerraba con un nudo cuadrado."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué pasatiempo creativo se celebró en una canción de Sacha Distel ?",
+        "propositions": [
+          "tornado",
+          "Scoubidou",
+          "Boogaloo",
+          "Macramé"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "Usando tubos de plástico flexibles milimétricos, trenzamos un sinfín de salchichas de colores para hacer llaveros."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué nudo decorativo queda ajustado pero nunca apretado ?",
+        "propositions": [
+          "bolina",
+          "Nudo de Carrick",
+          "Nudo de Josefina",
+          "Nudo en forma de ocho"
+        ],
+        "réponse": "Nudo de Josefina",
+        "anecdote": "Los chismosos dirán que el nudo de Josephine está en el nudo de carrick como el nudo de la vaca está en el nudo plano."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué nudo es conocido por los Boy Scouts como las orejas de Mickey ?",
+        "propositions": [
+          "Nudo de peso",
+          "Nudo cabrestante",
+          "Nudo cuadrado",
+          "Nudo de colmillo"
+        ],
+        "réponse": "Nudo cabrestante",
+        "anecdote": "El nudo cabrestante es un nudo clásico que se utiliza para unir rápidamente una cuerda a una barra fija (poste, mástil, estaca, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué nudo se usa para atar una cuerda a un anillo ?",
+        "propositions": [
+          "Nudo de agarre",
+          "nudo topsman",
+          "Nudo de cirujano",
+          "nudo de conejito"
+        ],
+        "réponse": "Nudo de agarre",
+        "anecdote": "Para asegurar el nudo de la grapa, se completa con dos medios nudos o una bolina para evitar que se deshaga el nudo."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué nudo tiene la particularidad de ser deslizante o fijo a voluntad ?",
+        "propositions": [
+          "nudo chino",
+          "Nudo de galera",
+          "Nudo de sangre",
+          "nudo de látigo"
+        ],
+        "réponse": "nudo de látigo",
+        "anecdote": "Se puede hacer alrededor de una estructura sólida o del marco, haciendo un lazo deslizante de tamaño variable que puede deslizarse."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué nudo tiene un medio nudo debajo de una curva de silla de montar ?",
+        "propositions": [
+          "nudo arrugado",
+          "Nudo estrangulador",
+          "Nudo pico",
+          "Pajarita"
+        ],
+        "réponse": "Nudo estrangulador",
+        "anecdote": "Una diferencia visible es que los extremos emergen en los bordes exteriores, en lugar de entre vueltas como con un constrictor."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué nudo de gancho simple se usa para fijar dos objetos lineales ?",
+        "propositions": [
+          "Nudo cabrestante",
+          "Nudo transversal",
+          "nudo de corbata",
+          "Nudo de sangre"
+        ],
+        "réponse": "Nudo transversal",
+        "anecdote": "Después de ser adoptado por los boy scouts para la construcción, este nudo es ahora la delicia de los amantes de las cometas."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué nudo se hizo con los hilos de la cuerda que servían de paseo ?",
+        "propositions": [
+          "Nudo de cincha",
+          "nudo de conejito",
+          "Nudo de roseta",
+          "nudo arrugado"
+        ],
+        "réponse": "nudo arrugado",
+        "anecdote": "Fabricado con un mayor número de hebras, hace un excelente nudo decorativo, por ejemplo, en una cuerda de campana."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué nudo a tope es especialmente adecuado para cables gruesos y muy rígidos ?",
+        "propositions": [
+          "Nudo doble",
+          "Nudo pico",
+          "Nudo cuadrado",
+          "Nudo de Carrick"
+        ],
+        "réponse": "Nudo de Carrick",
+        "anecdote": "Se deshace fácilmente, incluso después de soportar una carga pesada, e incluso después de permanecer en el agua durante un tiempo."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué nudo de amarre te permite atar rápidamente una cuerda a un anzuelo ?",
+        "propositions": [
+          "nudo de látigo",
+          "Nudo de colmillo",
+          "Nudo de cirujano",
+          "Nudo de madera"
+        ],
+        "réponse": "Nudo de colmillo",
+        "anecdote": "Hay varias variaciones llamadas : nudo de cocodrilo simple, nudo de cocodrilo doble, nudo de cocodrilo de elevación o incluso nudo de garra."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué variante del doble ocho se utiliza en la espeleología ?",
+        "propositions": [
+          "nudo de conejito",
+          "Nudo de galera",
+          "Nudo en forma de ocho",
+          "Nudo de agarre"
+        ],
+        "réponse": "nudo de conejito",
+        "anecdote": "Suele ser sustituido por el nudo de fusión, que es más fácil de desatar después de ser puesto en tensión y ahorra más cuerda."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué nudo se usa para unir secciones de hilo de nylon monofilamento ?",
+        "propositions": [
+          "Nudo de polipasto",
+          "Nudo de galera",
+          "Nudo de madera",
+          "Nudo de sangre"
+        ],
+        "réponse": "Nudo de sangre",
+        "anecdote": "En la pesca con mosca, al conectar varios hilos de diferentes diámetros de esta manera, el hilo tiene un diámetro que va disminuyendo gradualmente."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué nudo se confunde a menudo con un sombrero turco plano ?",
+        "propositions": [
+          "Nudo de Carrick",
+          "Nudo pico",
+          "Nudo estrangulador",
+          "nudo de ladrón"
+        ],
+        "réponse": "Nudo pico",
+        "anecdote": "Este nudo se utiliza como protección en barcos donde poleas o elementos duros pueden golpear la madera."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale nodo nautico a forma di palla è ancora in uso oggi ?",
+        "propositions": [
+          "Pugno di scimmia",
+          "Nodo di sangue",
+          "Nodo di sollevamento",
+          "bolina"
+        ],
+        "réponse": "Pugno di scimmia",
+        "anecdote": "Avvolgimento continuo della stessa corda, il pugno di scimmia è spesso realizzato attorno a una palla che gli darà la forma."
+      },
+      {
+        "id": 2,
+        "question": "Quale nodo si usa per appesantire l'estremità di una corda ?",
+        "propositions": [
+          "Nodo di Josephine",
+          "Nodo del ladro",
+          "nodo frusta",
+          "Peso nodo"
+        ],
+        "réponse": "Peso nodo",
+        "anecdote": "Facile da realizzare, un nodo di zavorra può tranquillamente sostituire il pugno di scimmia nella realizzazione di una mela touline."
+      },
+      {
+        "id": 3,
+        "question": "Quale nodo causerebbe un nodo alla cravatta molto complesso ?",
+        "propositions": [
+          "Nodo cinese",
+          "Papillon",
+          "Nodo fettuccia",
+          "Rampino Nodo"
+        ],
+        "réponse": "Papillon",
+        "anecdote": "È la data del 1904 e la rappresentazione della Madama Butterfly di Puccini che sembra avere consensi tra gli storici."
+      },
+      {
+        "id": 4,
+        "question": "Quale nodo, utilizzato in chirurgia, tiene in tensione un punto ?",
+        "propositions": [
+          "Nodo di Carrick",
+          "Nodo Topsman",
+          "Nodo del chirurgo",
+          "Cravatta Nodo"
+        ],
+        "réponse": "Nodo del chirurgo",
+        "anecdote": "Semplice derivato del nodo quadro, è molto utilizzato anche per la pesca come nodo di congiunzione tra due materiali."
+      },
+      {
+        "id": 5,
+        "question": "Quale nodo ti permette di montare un paranco senza carrucole ?",
+        "propositions": [
+          "Nodo argano",
+          "Nodo di sollevamento",
+          "Nodo di legno",
+          "Doppio nodo"
+        ],
+        "réponse": "Nodo di sollevamento",
+        "anecdote": "Il nodo di sollevamento non è in realtà un nodo in sé, ma piuttosto un'allacciatura che attraversa i nodi esistenti."
+      },
+      {
+        "id": 6,
+        "question": "Quale nodo antiscivolo è facile da sciogliere, anche dopo una forte trazione ?",
+        "propositions": [
+          "Nodo trasversale",
+          "bolina",
+          "Peso nodo",
+          "Nodo antirughe"
+        ],
+        "réponse": "bolina",
+        "anecdote": "Tuttavia, se non può essere slegato sotto tensione, rischia di slegarsi se non è sottoposto a una tensione costante."
+      },
+      {
+        "id": 7,
+        "question": "Quale nodo americano può essere utilizzato per unire due cinghie identiche ?",
+        "propositions": [
+          "Nodo a otto",
+          "Nodo a rosetta",
+          "Nodo di zanna",
+          "Nodo fettuccia"
+        ],
+        "réponse": "Nodo fettuccia",
+        "anecdote": "Si fa con un nodo semplice su una delle estremità, e stirando l'altra estremità in senso contrario, raddoppiando il nodo semplice."
+      },
+      {
+        "id": 8,
+        "question": "In Cina, quale nodo viene spesso utilizzato come portafortuna ?",
+        "propositions": [
+          "nodo frusta",
+          "Nodo di cambusa",
+          "Nodo cinese",
+          "Nodo del chirurgo"
+        ],
+        "réponse": "Nodo cinese",
+        "anecdote": "Recenti ritrovamenti hanno mostrato aghi ossei di 100.000 anni che si ritiene siano stati usati per creare questi nodi."
+      },
+      {
+        "id": 9,
+        "question": "Quale nodo intrecciano le due strisce di tessuto di una cravatta ?",
+        "propositions": [
+          "Nodo strangolatore",
+          "Nodo quadrato",
+          "Cravatta Nodo",
+          "Nodo Topsman"
+        ],
+        "réponse": "Cravatta Nodo",
+        "anecdote": "Sotto Luigi XIV la cravatta fu abbellita con vari nodi di nastri multicolori, il Re Sole creò la funzione di cravattere."
+      },
+      {
+        "id": 10,
+        "question": "Quale nodo stopper è anche chiamato nodo intero o nodo pieno ?",
+        "propositions": [
+          "Papillon",
+          "Doppio nodo",
+          "Nodo del ladro",
+          "Nodo di legno"
+        ],
+        "réponse": "Doppio nodo",
+        "anecdote": "In speleologia, il doppio nodo è spesso utilizzato per terminare la corda di progressione, generalmente enkitée (insaccato)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale nodo, usato nella navigazione, impedisce la fuoriuscita di un lenzuolo sciolto ?",
+        "propositions": [
+          "Nodo di legno",
+          "Nodo di Josephine",
+          "Nodo a otto",
+          "Cravatta Nodo"
+        ],
+        "réponse": "Nodo a otto",
+        "anecdote": "In questo caso viene lasciato un margine di sicurezza di venti centimetri nel caso in cui il nodo scivoli a causa degli strappi."
+      },
+      {
+        "id": 12,
+        "question": "Quale nodo utilizzato per unire due corde è stato attribuito a Edward Hunter ?",
+        "propositions": [
+          "Nodo Topsman",
+          "Nodo fettuccia",
+          "Nodo cinese",
+          "Nodo trasversale"
+        ],
+        "réponse": "Nodo Topsman",
+        "anecdote": "Il nodo del gabier appartiene alla famiglia dei nodi intrecciati di base, come il nodo Zeppelin o il nodo Ashley."
+      },
+      {
+        "id": 13,
+        "question": "Quale nodo del laccio viene spesso utilizzato per allacciare le scarpe ?",
+        "propositions": [
+          "Nodo a rosetta",
+          "Nodo di zanna",
+          "Nodo di Josephine",
+          "Peso nodo"
+        ],
+        "réponse": "Nodo a rosetta",
+        "anecdote": "Variante del nodo quadro, non scivola e non si scioglie da solo, ma tirando una delle due estremità si aprirà facilmente."
+      },
+      {
+        "id": 14,
+        "question": "Quale nodo decorativo usano gli scout per annodare le loro sciarpe ?",
+        "propositions": [
+          "Nodo coniglietto",
+          "Nodo argano",
+          "Nodo quadrato",
+          "nodo frusta"
+        ],
+        "réponse": "Nodo quadrato",
+        "anecdote": "Inizialmente simbolo dello scoutismo femminile mondiale, l'uso del nodo quadro si è diffuso in tutti i rami dello scoutismo."
+      },
+      {
+        "id": 15,
+        "question": "Quale nodo di anguilla viene spesso utilizzato dai boscaioli ?",
+        "propositions": [
+          "Nodo di sollevamento",
+          "Nodo di legno",
+          "bolina",
+          "Nodo strangolatore"
+        ],
+        "réponse": "Nodo di legno",
+        "anecdote": "Perché sia sicuro, questo nodo deve essere eseguito in modo che ciascuna delle torsioni formi un angolo di 45 gradi con il giro morto."
+      },
+      {
+        "id": 16,
+        "question": "Quale mezzo nodo intrecciato è facile da annodare e sciogliere ?",
+        "propositions": [
+          "Nodo di picco",
+          "Nodo di cambusa",
+          "Nodo trasversale",
+          "Nodo a rosetta"
+        ],
+        "réponse": "Nodo di cambusa",
+        "anecdote": "Realizzabile a metà della corda, il nodo della cambusa si scioglie quando si tirano i suoi due capi, grazie alla treccia."
+      },
+      {
+        "id": 17,
+        "question": "Quale nodo da marinaio è probabilmente il peggior nodo del sedere ?",
+        "propositions": [
+          "Rampino Nodo",
+          "Nodo a otto",
+          "Papillon",
+          "Nodo del ladro"
+        ],
+        "réponse": "Nodo del ladro",
+        "anecdote": "In origine questo nodo serviva ai marinai per chiudere la borsa : un ladro che apriva la borsa la chiudeva con un nodo quadrato."
+      },
+      {
+        "id": 18,
+        "question": "Quale hobby creativo è stato celebrato in una canzone di Sacha Distel ?",
+        "propositions": [
+          "Boogaloo",
+          "Twister",
+          "Macramè",
+          "Scoubidou"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "Utilizzando tubi di plastica flessibili millimetrici, intrecciamo infiniti salsicce colorate per realizzare portachiavi."
+      },
+      {
+        "id": 19,
+        "question": "Quale nodo decorativo è aderente ma mai stretto ?",
+        "propositions": [
+          "Nodo di Josephine",
+          "Nodo a otto",
+          "bolina",
+          "Nodo di Carrick"
+        ],
+        "réponse": "Nodo di Josephine",
+        "anecdote": "I pettegolezzi diranno che il nodo di Josephine è nel nodo carrick come il nodo della mucca è nel nodo piatto."
+      },
+      {
+        "id": 20,
+        "question": "Quale nodo è noto ai boy scout come le orecchie di Topolino ?",
+        "propositions": [
+          "Nodo di zanna",
+          "Nodo argano",
+          "Nodo quadrato",
+          "Peso nodo"
+        ],
+        "réponse": "Nodo argano",
+        "anecdote": "Il nodo cabestano è un classico nodo utilizzato per fissare velocemente una corda ad una barra fissa (palo, palo, palo, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale nodo si usa per legare una corda a un anello ?",
+        "propositions": [
+          "Nodo del chirurgo",
+          "Nodo Topsman",
+          "Nodo coniglietto",
+          "Rampino Nodo"
+        ],
+        "réponse": "Rampino Nodo",
+        "anecdote": "Per fissare il nodo del rampino, si completa con due mezzi intoppi o una bolina per evitare che il nodo si srotoli."
+      },
+      {
+        "id": 22,
+        "question": "Quale nodo ha la particolarità di essere scorrevole o fisso a piacere ?",
+        "propositions": [
+          "Nodo cinese",
+          "Nodo di sangue",
+          "nodo frusta",
+          "Nodo di cambusa"
+        ],
+        "réponse": "nodo frusta",
+        "anecdote": "Si può fare attorno ad una struttura solida o al telaio, realizzando un anello scorrevole di dimensioni variabili che può scorrere."
+      },
+      {
+        "id": 23,
+        "question": "Quale nodo ha un mezzo nodo sotto una curva a sella ?",
+        "propositions": [
+          "Nodo antirughe",
+          "Papillon",
+          "Nodo strangolatore",
+          "Nodo di picco"
+        ],
+        "réponse": "Nodo strangolatore",
+        "anecdote": "Una differenza visibile è che le estremità emergono ai bordi esterni, piuttosto che tra le spire come con un constrictor."
+      },
+      {
+        "id": 24,
+        "question": "Quale semplice nodo a uncino viene utilizzato per fissare due oggetti lineari ?",
+        "propositions": [
+          "Cravatta Nodo",
+          "Nodo argano",
+          "Nodo di sangue",
+          "Nodo trasversale"
+        ],
+        "réponse": "Nodo trasversale",
+        "anecdote": "Dopo essere stato adottato dai boy scout per la costruzione, questo nodo è ora la gioia degli amanti degli aquiloni."
+      },
+      {
+        "id": 25,
+        "question": "Quale nodo è stato fatto con i trefoli della corda che servivano da giostra ?",
+        "propositions": [
+          "Nodo antirughe",
+          "Nodo fettuccia",
+          "Nodo coniglietto",
+          "Nodo a rosetta"
+        ],
+        "réponse": "Nodo antirughe",
+        "anecdote": "Realizzato con un numero maggiore di fili, costituisce un ottimo nodo decorativo, ad esempio su un cordone a campana."
+      },
+      {
+        "id": 26,
+        "question": "Quale nodo di testa è particolarmente adatto per cavi spessi e molto rigidi ?",
+        "propositions": [
+          "Doppio nodo",
+          "Nodo di picco",
+          "Nodo di Carrick",
+          "Nodo quadrato"
+        ],
+        "réponse": "Nodo di Carrick",
+        "anecdote": "Si smonta facilmente, anche dopo aver sopportato un carico pesante e anche dopo essere rimasto in acqua per un po'."
+      },
+      {
+        "id": 27,
+        "question": "Quale nodo di ormeggio ti consente di fissare rapidamente una cima a un gancio ?",
+        "propositions": [
+          "nodo frusta",
+          "Nodo del chirurgo",
+          "Nodo di legno",
+          "Nodo di zanna"
+        ],
+        "réponse": "Nodo di zanna",
+        "anecdote": "Esistono varie varianti chiamate : nodo coccodrillo semplice, nodo coccodrillo doppio, nodo coccodrillo o anche nodo artiglio."
+      },
+      {
+        "id": 28,
+        "question": "Quale variante del doppio otto si usa in speleologia ?",
+        "propositions": [
+          "Nodo di cambusa",
+          "Rampino Nodo",
+          "Nodo a otto",
+          "Nodo coniglietto"
+        ],
+        "réponse": "Nodo coniglietto",
+        "anecdote": "Tende a essere sostituito dal nodo di fusione, che è più facile da sciogliere dopo essere stato messo in tensione e consente di risparmiare più cordone."
+      },
+      {
+        "id": 29,
+        "question": "Quale nodo viene utilizzato per unire sezioni di filo di nylon monofilamento ?",
+        "propositions": [
+          "Nodo di sollevamento",
+          "Nodo di legno",
+          "Nodo di sangue",
+          "Nodo di cambusa"
+        ],
+        "réponse": "Nodo di sangue",
+        "anecdote": "Nella pesca a mosca, unendo in questo modo più fili di diverso diametro, il filo ha un diametro che va via via diminuendo."
+      },
+      {
+        "id": 30,
+        "question": "Quale nodo viene spesso scambiato per un cappello turco fatto piatto ?",
+        "propositions": [
+          "Nodo del ladro",
+          "Nodo strangolatore",
+          "Nodo di Carrick",
+          "Nodo di picco"
+        ],
+        "réponse": "Nodo di picco",
+        "anecdote": "Questo nodo viene utilizzato come protezione sulle navi dove pulegge o elementi duri possono colpire il legno."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke bolvormige nautische knoop wordt nog steeds gebruikt ?",
+        "propositions": [
+          "Apenvuist",
+          "Bloedknoop",
+          "Hijsknoop",
+          "Boelijn"
+        ],
+        "réponse": "Apenvuist",
+        "anecdote": "Continu opwinden van hetzelfde touw, de apenvuist wordt vaak gemaakt rond een bal die het zijn vorm zal geven."
+      },
+      {
+        "id": 2,
+        "question": "Welke knoop wordt gebruikt om het uiteinde van een touw te verzwaren ?",
+        "propositions": [
+          "Gewicht knoop",
+          "zweepknoop",
+          "Josephines knoop",
+          "Dievenknoop"
+        ],
+        "réponse": "Gewicht knoop",
+        "anecdote": "Eenvoudig te maken, een ballastknoop kan gemakkelijk de apenvuist vervangen bij de realisatie van een touline-appel."
+      },
+      {
+        "id": 3,
+        "question": "Welke knoop zou een zeer complexe stropdasknoop veroorzaken ?",
+        "propositions": [
+          "Grijpknoop",
+          "Chinese knoop",
+          "Webbing knoop",
+          "Vlinderdas"
+        ],
+        "réponse": "Vlinderdas",
+        "anecdote": "Het is de datum van 1904 en de weergave van Madame Butterfly door Puccini waarover onder historici overeenstemming lijkt te bestaan."
+      },
+      {
+        "id": 4,
+        "question": "Welke knoop, gebruikt bij operaties, houdt een steek onder spanning ?",
+        "propositions": [
+          "Topsman knoop",
+          "Chirurgische knoop",
+          "Stropdas knoop",
+          "Carrick's knoop"
+        ],
+        "réponse": "Chirurgische knoop",
+        "anecdote": "Simpele afgeleide van de vierkante knoop, het wordt ook veel gebruikt voor vissen als verbindingsknoop tussen twee materialen."
+      },
+      {
+        "id": 5,
+        "question": "Met welke knoop kun je een takel zonder katrollen optuigen ?",
+        "propositions": [
+          "Houten knoop",
+          "Dubbele knoop",
+          "Kaapstander knoop",
+          "Hijsknoop"
+        ],
+        "réponse": "Hijsknoop",
+        "anecdote": "De hijsknoop is eigenlijk geen knoop op zich, maar eerder een veter die door bestaande knopen loopt."
+      },
+      {
+        "id": 6,
+        "question": "Welke antislipknoop is gemakkelijk los te maken, zelfs na stevig trekken ?",
+        "propositions": [
+          "Dwarsknoop",
+          "Boelijn",
+          "Rimpelknoop",
+          "Gewicht knoop"
+        ],
+        "réponse": "Boelijn",
+        "anecdote": "Als het echter niet onder spanning kan worden losgemaakt, loopt het het risico zichzelf los te maken als het niet constant onder spanning staat."
+      },
+      {
+        "id": 7,
+        "question": "Welke Amerikaanse knoop kan worden gebruikt om twee identieke banden met elkaar te verbinden ?",
+        "propositions": [
+          "Achtknoop",
+          "Rozetknoop",
+          "Webbing knoop",
+          "Hoektand"
+        ],
+        "réponse": "Webbing knoop",
+        "anecdote": "Het is gemaakt met een eenvoudige knoop aan een van de uiteinden en het andere uiteinde in de tegenovergestelde richting strijken, waardoor de eenvoudige knoop wordt verdubbeld."
+      },
+      {
+        "id": 8,
+        "question": "Welke knoop wordt in China vaak als geluksbrenger gebruikt ?",
+        "propositions": [
+          "Chinese knoop",
+          "zweepknoop",
+          "Drukknoop",
+          "Chirurgische knoop"
+        ],
+        "réponse": "Chinese knoop",
+        "anecdote": "Recente vondsten hebben aangetoond dat 100.000 jaar oude botnaalden zijn gebruikt om deze knopen te maken."
+      },
+      {
+        "id": 9,
+        "question": "Welke knoop verstrengelt de twee stroken stof van een stropdas ?",
+        "propositions": [
+          "Strangler knoop",
+          "Vierkante knoop",
+          "Stropdas knoop",
+          "Topsman knoop"
+        ],
+        "réponse": "Stropdas knoop",
+        "anecdote": "Onder Lodewijk XIV werd de stropdas verfraaid met verschillende knopen van veelkleurige linten, waarbij de Zonnekoning de functie van stropdasmaker creëerde."
+      },
+      {
+        "id": 10,
+        "question": "Welke stopknoop wordt ook wel hele knoop of volle knoop genoemd ?",
+        "propositions": [
+          "Vlinderdas",
+          "Dubbele knoop",
+          "Dievenknoop",
+          "Houten knoop"
+        ],
+        "réponse": "Dubbele knoop",
+        "anecdote": "Bij speleologie wordt de dubbele knoop vaak gebruikt om het voortgangstouw te beëindigen, meestal enkitée (in zakken gedaan)."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke knoop, gebruikt in de zeevaart, verhindert dat een los laken ontsnapt ?",
+        "propositions": [
+          "Stropdas knoop",
+          "Houten knoop",
+          "Achtknoop",
+          "Josephines knoop"
+        ],
+        "réponse": "Achtknoop",
+        "anecdote": "In dit geval blijft er een veiligheidsmarge van twintig centimeter over voor het geval de knoop door schokken losraakt."
+      },
+      {
+        "id": 12,
+        "question": "Welke knoop die gebruikt werd om twee touwen te verbinden werd toegeschreven aan Edward Hunter ?",
+        "propositions": [
+          "Chinese knoop",
+          "Dwarsknoop",
+          "Webbing knoop",
+          "Topsman knoop"
+        ],
+        "réponse": "Topsman knoop",
+        "anecdote": "De knoop van de gabier komt uit de familie van fundamentele dooreengevlochten knopen, zoals de Zeppelin-knoop of de Ashley-knoop."
+      },
+      {
+        "id": 13,
+        "question": "Welke schoenveterknoop wordt vaak gebruikt om schoenen te strikken ?",
+        "propositions": [
+          "Hoektand",
+          "Gewicht knoop",
+          "Rozetknoop",
+          "Josephines knoop"
+        ],
+        "réponse": "Rozetknoop",
+        "anecdote": "Variatie op de vierkante knoop, hij glijdt niet weg of komt niet vanzelf los, maar door aan een van de twee uiteinden te trekken, gaat hij gemakkelijk open."
+      },
+      {
+        "id": 14,
+        "question": "Welke decoratieve knoop gebruiken Scouts om hun sjaals te knopen ?",
+        "propositions": [
+          "zweepknoop",
+          "Vierkante knoop",
+          "Kaapstander knoop",
+          "Konijnenknoop"
+        ],
+        "réponse": "Vierkante knoop",
+        "anecdote": "Aanvankelijk een symbool van wereldwijde vrouwelijke scouting, heeft het gebruik van de vierkante knoop zich verspreid naar alle takken van scouting."
+      },
+      {
+        "id": 15,
+        "question": "Welke palingknoop wordt vaak gebruikt door houthakkers ?",
+        "propositions": [
+          "Hijsknoop",
+          "Boelijn",
+          "Houten knoop",
+          "Strangler knoop"
+        ],
+        "réponse": "Houten knoop",
+        "anecdote": "Om veilig te zijn, moet deze knoop zo worden uitgevoerd dat elk van de wendingen een hoek van 45 graden vormt met de dode bocht."
+      },
+      {
+        "id": 16,
+        "question": "Welke gevlochten halve knoop is makkelijk te knopen en los te maken ?",
+        "propositions": [
+          "Rozetknoop",
+          "Piek knoop",
+          "Drukknoop",
+          "Dwarsknoop"
+        ],
+        "réponse": "Drukknoop",
+        "anecdote": "Kan in het midden van het touw worden gemaakt, de kombuisknoop maakt zichzelf los wanneer aan de twee strengen wordt getrokken, dankzij de vlecht."
+      },
+      {
+        "id": 17,
+        "question": "Welke zeemansknoop is waarschijnlijk de slechtste knoop ?",
+        "propositions": [
+          "Vlinderdas",
+          "Achtknoop",
+          "Grijpknoop",
+          "Dievenknoop"
+        ],
+        "réponse": "Dievenknoop",
+        "anecdote": "Oorspronkelijk werd deze knoop door zeelieden gebruikt om hun tas te sluiten : een dief die de tas opende, sloot hem met een vierkante knoop."
+      },
+      {
+        "id": 18,
+        "question": "Welke creatieve hobby werd gevierd in een lied van Sacha Distel ?",
+        "propositions": [
+          "Macramé",
+          "Boogaloo",
+          "Verdraaier",
+          "Scoubidou"
+        ],
+        "réponse": "Scoubidou",
+        "anecdote": "Met behulp van millimeter flexibele plastic buizen vlechten we eindeloos gekleurde worstjes om sleutelhangers van te maken."
+      },
+      {
+        "id": 19,
+        "question": "Welke decoratieve knoop is knus maar nooit strak ?",
+        "propositions": [
+          "Carrick's knoop",
+          "Josephines knoop",
+          "Boelijn",
+          "Achtknoop"
+        ],
+        "réponse": "Josephines knoop",
+        "anecdote": "Roddels zullen zeggen dat de knoop van Josephine in de kartelknoop zit zoals de knoop van de koe in de platte knoop."
+      },
+      {
+        "id": 20,
+        "question": "Welke knoop staat bij padvinders bekend als Mickey's oren ?",
+        "propositions": [
+          "Gewicht knoop",
+          "Vierkante knoop",
+          "Hoektand",
+          "Kaapstander knoop"
+        ],
+        "réponse": "Kaapstander knoop",
+        "anecdote": "De kaapstanderknoop is een klassieke knoop die wordt gebruikt om snel een touw aan een vaste staaf (paal, mast, paal, ...)."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke knoop wordt gebruikt om een touw aan een ring te binden ?",
+        "propositions": [
+          "Grijpknoop",
+          "Chirurgische knoop",
+          "Konijnenknoop",
+          "Topsman knoop"
+        ],
+        "réponse": "Grijpknoop",
+        "anecdote": "Om de grijpknoop vast te zetten, wordt deze aangevuld met twee halve steken of een paalsteek om te voorkomen dat de knoop losraakt."
+      },
+      {
+        "id": 22,
+        "question": "Welke knoop heeft de bijzonderheid om naar believen te glijden of te fixeren ?",
+        "propositions": [
+          "Drukknoop",
+          "Bloedknoop",
+          "Chinese knoop",
+          "zweepknoop"
+        ],
+        "réponse": "zweepknoop",
+        "anecdote": "Het kan rond een stevige structuur of het frame worden gedaan, waardoor een glijdende lus van variabele grootte ontstaat die kan schuiven."
+      },
+      {
+        "id": 23,
+        "question": "Welke knoop heeft een halve knoop onder een zadelbocht ?",
+        "propositions": [
+          "Strangler knoop",
+          "Rimpelknoop",
+          "Piek knoop",
+          "Vlinderdas"
+        ],
+        "réponse": "Strangler knoop",
+        "anecdote": "Een zichtbaar verschil is dat de uiteinden aan de buitenranden verschijnen, in plaats van tussen windingen zoals bij een constrictor."
+      },
+      {
+        "id": 24,
+        "question": "Welke eenvoudige haakknoop wordt gebruikt om twee lineaire objecten vast te zetten ?",
+        "propositions": [
+          "Kaapstander knoop",
+          "Bloedknoop",
+          "Dwarsknoop",
+          "Stropdas knoop"
+        ],
+        "réponse": "Dwarsknoop",
+        "anecdote": "Na door padvinders te zijn geadopteerd voor de bouw, is deze knoop nu een lust voor vliegerliefhebbers."
+      },
+      {
+        "id": 25,
+        "question": "Welke knoop werd gemaakt met de strengen van het touw die als rit dienden ?",
+        "propositions": [
+          "Rimpelknoop",
+          "Konijnenknoop",
+          "Rozetknoop",
+          "Webbing knoop"
+        ],
+        "réponse": "Rimpelknoop",
+        "anecdote": "Gemaakt met een groter aantal strengen, maakt het een uitstekende decoratieve knoop, bijvoorbeeld op een beltouw."
+      },
+      {
+        "id": 26,
+        "question": "Welke stompe knoop is bijzonder geschikt voor dikke en zeer stijve kabels ?",
+        "propositions": [
+          "Piek knoop",
+          "Dubbele knoop",
+          "Vierkante knoop",
+          "Carrick's knoop"
+        ],
+        "réponse": "Carrick's knoop",
+        "anecdote": "Het valt gemakkelijk uit elkaar, zelfs na een zware belasting en zelfs na een tijdje in water te hebben gestaan."
+      },
+      {
+        "id": 27,
+        "question": "Met welke meerknoop bevestig je snel een touw aan een haak ?",
+        "propositions": [
+          "Hoektand",
+          "zweepknoop",
+          "Houten knoop",
+          "Chirurgische knoop"
+        ],
+        "réponse": "Hoektand",
+        "anecdote": "Er zijn verschillende variaties genaamd : eenvoudige krokodillenknoop, dubbele krokodillenknoop, hijskrokodil of zelfs klauwknoop."
+      },
+      {
+        "id": 28,
+        "question": "Welke variant van de dubbele acht wordt gebruikt bij speleologie ?",
+        "propositions": [
+          "Grijpknoop",
+          "Drukknoop",
+          "Konijnenknoop",
+          "Achtknoop"
+        ],
+        "réponse": "Konijnenknoop",
+        "anecdote": "Het wordt meestal vervangen door de fusieknoop, die gemakkelijker los te maken is nadat hij onder spanning is gezet en meer snoerbesparend is."
+      },
+      {
+        "id": 29,
+        "question": "Welke knoop wordt gebruikt om secties van monofilament nylonlijn met elkaar te verbinden ?",
+        "propositions": [
+          "Hijsknoop",
+          "Houten knoop",
+          "Drukknoop",
+          "Bloedknoop"
+        ],
+        "réponse": "Bloedknoop",
+        "anecdote": "Door op deze manier meerdere draden van verschillende diameters met elkaar te verbinden, krijgt de draad bij het vliegvissen een diameter die geleidelijk afneemt."
+      },
+      {
+        "id": 30,
+        "question": "Welke knoop wordt vaak verward met een plat gemaakte Turkse hoed ?",
+        "propositions": [
+          "Carrick's knoop",
+          "Strangler knoop",
+          "Piek knoop",
+          "Dievenknoop"
+        ],
+        "réponse": "Piek knoop",
+        "anecdote": "Deze knoop wordt gebruikt als bescherming op schepen waar katrollen of harde elementen het hout kunnen raken."
+      }
+    ]
+    }
+  }
+}

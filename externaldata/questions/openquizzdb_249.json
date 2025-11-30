@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-06-15",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Geek World",
+      "slogan": "Pour les passionnés"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Geek World",
+      "slogan": "For enthusiasts"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Geek World",
+      "slogan": "Para entusiastas"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Geek World",
+      "slogan": "Per gli appassionati"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Geek World",
+      "slogan": "Für Enthusiasten"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Geek World",
+      "slogan": "Voor liefhebbers"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel assistant personnel de chez Apple répond aux commandes vocales ?",
+        "propositions": [
+          "Cortana",
+          "Alexa",
+          "Silvia",
+          "Siri"
+        ],
+        "réponse": "Siri",
+        "anecdote": "L'interface homme-machine de Siri repose sur la reconnaissance vocale avancée, le traitement du langage et la synthèse vocale."
+      },
+      {
+        "id": 2,
+        "question": "Comment se prénomment le père et la mère de Matt Groening ?",
+        "propositions": [
+          "Ned et Maude",
+          "Jasper et Agnès",
+          "Homer et Marge",
+          "Bart et Lisa"
+        ],
+        "réponse": "Homer et Marge",
+        "anecdote": "Déclarant qu'il était trop évident de nommer un des personnages comme lui-même, il s'est choisi l'anagramme de brat (morveux)."
+      },
+      {
+        "id": 3,
+        "question": "Qui est probablement le Wookiee le plus connu au monde ?",
+        "propositions": [
+          "Boba Fett",
+          "Chewbacca",
+          "Watto",
+          "Finn"
+        ],
+        "réponse": "Chewbacca",
+        "anecdote": "Chewbacca est un légendaire guerrier Wookiee et copilote du Faucon Millenium aux côtés du légendaire contrebandier Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la particularité physique de Son Goku, héros de « Dragon Ball » ?",
+        "propositions": [
+          "Queue de lion",
+          "Queue de singe",
+          "Queue de lapin",
+          "Queue de renard"
+        ],
+        "réponse": "Queue de singe",
+        "anecdote": "Vivant seul dans les montagnes loin de la ville, Son Goku héritera d'une boule à quatre étoiles connue sous le nom de Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "Dans « Game of Thrones », combien de couronnes compte le royaume ?",
+        "propositions": [
+          "Dix",
+          "Huit",
+          "Sept",
+          "Neuf"
+        ],
+        "réponse": "Sept",
+        "anecdote": "La Religion des Sept, également appelée « la Foi », est la religion largement prédominante dans les Sept Couronnes."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter et la Coupe de feu » est le quantième volet de la saga ?",
+        "propositions": [
+          "Troisième",
+          "Deuxième",
+          "Cinquième",
+          "Quatrième"
+        ],
+        "réponse": "Quatrième",
+        "anecdote": "Contre toute attente, alors que les trois champions sont choisis par la Coupe de feu, un autre champion est désigné, Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "Quelle Supergirl possède une ceinture magique et des bracelets dorés ?",
+        "propositions": [
+          "Wonder Woman",
+          "Vixen",
+          "Catwoman",
+          "Huntress"
+        ],
+        "réponse": "Wonder Woman",
+        "anecdote": "Wonder Woman est une super-héroïne de BD américaine créée par William Moulton Marston (sous le pseudo de Charles Moulton)."
+      },
+      {
+        "id": 8,
+        "question": "Comment Robin Williams a-t-il prénommé sa fille en hommage à son jeu préféré ?",
+        "propositions": [
+          "Daisy",
+          "Kirby",
+          "Harmonie",
+          "Zelda"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "Le prénom de la Princesse Zelda a été choisi par Shigeru Miyamoto lui-même en référence à la romancière Zelda Fitzgerald."
+      },
+      {
+        "id": 9,
+        "question": "Quel est le handicap de taille du super-héros Daredevil ?",
+        "propositions": [
+          "Sourd",
+          "Muet",
+          "Aveugle",
+          "Unijambiste"
+        ],
+        "réponse": "Aveugle",
+        "anecdote": "Sous son identité civile, Daredevil est Matthew Murdock, dit Matt Murdock, un avocat de New York aveugle, accompli et respecté."
+      },
+      {
+        "id": 10,
+        "question": "Quel acteur a interprété Spock dans une ancienne série télévisée ?",
+        "propositions": [
+          "Robert Wise",
+          "William Shatner",
+          "David Carson",
+          "Leonard Nimoy"
+        ],
+        "réponse": "Leonard Nimoy",
+        "anecdote": "Nimoy est connu pour avoir incarné le personnage du Vulcain M. Spock dans la franchise « Star Trek », pendant plus de quarante ans."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel monstre de « Mario World » passe son temps à kidnapper Peach ?",
+        "propositions": [
+          "Bowser",
+          "Birdo",
+          "Wario",
+          "Boo"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Bien que possédant des caractéristiques de dragon, il est le plus souvent considéré comme une tortue, parfois comme un dinosaure."
+      },
+      {
+        "id": 12,
+        "question": "Quelle est la couleur de l'oiseau le plus puissant du jeu « Angry Birds » ?",
+        "propositions": [
+          "Rouge",
+          "Noir",
+          "Jaune",
+          "Vert"
+        ],
+        "réponse": "Noir",
+        "anecdote": "Trois parcs à thème autour du jeu Angry Birds ont ouvert dans le monde : en Finlande, puis en Grande-Bretagne et enfin en Chine."
+      },
+      {
+        "id": 13,
+        "question": "Quel acteur américain a joué dans les cinématiques de « Wing Commander 3 » ?",
+        "propositions": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "Mark Hamill",
+          "Jeff Daniels"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill est parfois devenu la voix du Joker dans « Batman » et celle de plusieurs autres, tels Christopher Blair dans « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "Quel personnage de manga peut se transformer de garçon en fille avec de l'eau ?",
+        "propositions": [
+          "Ranma",
+          "Genma",
+          "Koruma",
+          "Shampoo"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "Beaucoup de personnages se transforment en effet au contact de l'eau froide, ce qui provoque de nombreux gags et péripéties."
+      },
+      {
+        "id": 15,
+        "question": "Dans quelle série télé deux informaticiens créent-ils la femme idéale ?",
+        "propositions": [
+          "Les Monstres",
+          "Sliders",
+          "Dream On",
+          "Code Lisa"
+        ],
+        "réponse": "Code Lisa",
+        "anecdote": "En France, la série « Code Lisa » a été diffusée à partir du 17 mars 1995 sur France 2 et rediffusée sur MCM, NRJ 12 et Game One."
+      },
+      {
+        "id": 16,
+        "question": "Quelle sorte de lutin ne faut-il pas mouiller ni nourrir après minuit ?",
+        "propositions": [
+          "Mogwai",
+          "Korrigan",
+          "Sottai",
+          "Chichiga"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "D'après la tradition chinoise, le mogwai est une espèce de lutin qui utilise des pouvoirs surnaturels pour faire du tort aux humains."
+      },
+      {
+        "id": 17,
+        "question": "Qui a adapté au cinéma le roman de J.R.R. Tolkien, « Le Seigneur des anneaux » ?",
+        "propositions": [
+          "Tom Hooper",
+          "Ron Howard",
+          "Danny Boyle",
+          "Peter Jackson"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson a été fait Compagnon de l'Ordre du Mérite de Nouvelle-Zélande en 2002 pour ses services rendus au cinéma."
+      },
+      {
+        "id": 18,
+        "question": "À quelle célèbre maison d'édition appartient Green Lantern ?",
+        "propositions": [
+          "Marvel",
+          "Urban",
+          "RAW",
+          "DC Comics"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "Une adaptation cinématographique, réalisée par Martin Campbell, est sortie en 2011 avec Ryan Reynolds dans le rôle de Hal Jordan."
+      },
+      {
+        "id": 19,
+        "question": "Qui a remplacé Tobey Maguire dans le rôle de Spiderman sur les écrans ?",
+        "propositions": [
+          "Colin Farrell",
+          "Christian Bale",
+          "Tom Holland",
+          "Andrew Garfield"
+        ],
+        "réponse": "Andrew Garfield",
+        "anecdote": "Les résultats du second opus étant décevants, les studios Sony et Marvel décidèrent de rebooter la saga avec l'acteur Tom Holland."
+      },
+      {
+        "id": 20,
+        "question": "De combien de pouvoirs dispose Jack-Jack de la famille des Indestructibles ?",
+        "propositions": [
+          "Six",
+          "Tous",
+          "Un seul",
+          "Douze"
+        ],
+        "réponse": "Tous",
+        "anecdote": "Il peut devenir un bébé en caoutchouc, augmenter sa taille, prendre l'apparence d'un autre, se cloner, ou faire léviter des objets."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qu'a perdu Albator lors d'un combat contre les humanoïdes ?",
+        "propositions": [
+          "Une jambe",
+          "Un bras",
+          "Un oeil",
+          "Une main"
+        ],
+        "réponse": "Un oeil",
+        "anecdote": "Albator est le fils de Great Harlock, légendaire pirate de l'espace aux côtés duquel il combat le dieu Wotan et les créatures du Walhalla."
+      },
+      {
+        "id": 22,
+        "question": "Quelle fée et compagne de Link l'aide à trouver les points faibles de ses ennemis ?",
+        "propositions": [
+          "Navi",
+          "Onox",
+          "Saria",
+          "Rauru"
+        ],
+        "réponse": "Navi",
+        "anecdote": "Cette petite fée en boule de lumière, dont émerge une paire d'ailes de papillon, a été envoyée par Mojo, gardien de la forêt."
+      },
+      {
+        "id": 23,
+        "question": "Aussi jaune qu'un citron, quel âge a Pac-Man dans le jeu vidéo du même nom ?",
+        "propositions": [
+          "60 ans",
+          "50 ans",
+          "30 ans",
+          "40 ans"
+        ],
+        "réponse": "30 ans",
+        "anecdote": "Le jeu consiste à déplacer Pac-Man, un personnage qui, vu de profil, ressemble à un diagramme circulaire à l'intérieur d'un labyrinthe."
+      },
+      {
+        "id": 24,
+        "question": "Dans le jeu vidéo culte « Doom », quelle est l'arme la plus puissante ?",
+        "propositions": [
+          "Final 4000",
+          "BFG 9000",
+          "RPG 5000",
+          "Evil 2000"
+        ],
+        "réponse": "BFG 9000",
+        "anecdote": "La version shareware a été téléchargée trente millions de fois, les deux premiers opus se vendant chacun à un million d'exemplaires."
+      },
+      {
+        "id": 25,
+        "question": "Comment appelle-t-on un lanceur de sorts dans le jeu « Donjons et Dragons » ?",
+        "propositions": [
+          "Nécromancien",
+          "Casteur",
+          "Mage",
+          "Clerc"
+        ],
+        "réponse": "Casteur",
+        "anecdote": "L'influence de Tolkien, auteur du « Seigneur des anneaux », est minime et fut motivée par les joueurs et l'immense succès de l'oeuvre."
+      },
+      {
+        "id": 26,
+        "question": "Quelle est la nationalité du personnage de Vega dans « Street Fighter II » ?",
+        "propositions": [
+          "Russe",
+          "Chinoise",
+          "Espagnole",
+          "Japonaise"
+        ],
+        "réponse": "Espagnole",
+        "anecdote": "Vega est un espagnol au visage androgyne, aux yeux bleus et aux cheveux blonds, pratiquant un art martial adapté du ninjutsu."
+      },
+      {
+        "id": 27,
+        "question": "Quel a été le premier jeu vidéo de combat à intégrer des Easter Eggs ?",
+        "propositions": [
+          "Street Fighter",
+          "Mortal Kombat",
+          "Tekken",
+          "Killer Instinct"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "La Mega Drive contenait quelques easter eggs uniques, comme la Fergalité, transformant l'adversaire en un des développeurs du jeu."
+      },
+      {
+        "id": 28,
+        "question": "Selon la société Sanrio, quel est l'âge réel du personnage Hello Kitty ?",
+        "propositions": [
+          "25 ans",
+          "15 ans",
+          "35 ans",
+          "5 ans"
+        ],
+        "réponse": "35 ans",
+        "anecdote": "Les produits Hello Kitty utilisent généralement des couleurs rose vif et sont reconnaissables par le logo représentant une petite chatte."
+      },
+      {
+        "id": 29,
+        "question": "Qui est le propriétaire de la boutique « The Android's Dungeon and Baseball » ?",
+        "propositions": [
+          "Ned Flanders",
+          "Jeff Albertson",
+          "Frank Grimes",
+          "Barney Gumble"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson apparaît pour la première fois dans l'épisode « Un pour tous, tous contre un » (« Trois hommes et une bédé » au Québec)."
+      },
+      {
+        "id": 30,
+        "question": "Qui fut le premier anti-héros de la littérature espagnole ?",
+        "propositions": [
+          "Don Quichotte",
+          "Tom Jones",
+          "Gargantua",
+          "Pantagruel"
+        ],
+        "réponse": "Don Quichotte",
+        "anecdote": "Ce justicier autoproclamé est le symbole d'une génération d'hommes idéalistes et rêveurs, mais peu doués pour le guerre."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which Apple personal assistant responds to voice commands ?",
+        "propositions": [
+          "Siri",
+          "Silvia",
+          "Alexa",
+          "Cortana"
+        ],
+        "réponse": "Siri",
+        "anecdote": "Siri's human-machine interface is based on advanced speech recognition, language processing and speech synthesis."
+      },
+      {
+        "id": 2,
+        "question": "What are Matt Groening's father and mother's names ?",
+        "propositions": [
+          "Ned and Maude",
+          "Homer and Marge",
+          "Bart and Lisa",
+          "Jasper and Agnes"
+        ],
+        "réponse": "Homer and Marge",
+        "anecdote": "Declaring that it was too obvious to name one of the characters after himself, he chose the anagram of brat (brat)."
+      },
+      {
+        "id": 3,
+        "question": "Who is probably the most famous Wookiee in the world ?",
+        "propositions": [
+          "Chewbacca",
+          "Finn",
+          "Boba Fett",
+          "Watto"
+        ],
+        "réponse": "Chewbacca",
+        "anecdote": "Chewbacca is a legendary Wookiee warrior and co-pilot of the Millennium Falcon alongside legendary smuggler Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "What is the physical peculiarity of Son Goku, hero of « Dragon Ball » ?",
+        "propositions": [
+          "Bunny Tail",
+          "Lion tail",
+          "Fox tail",
+          "Monkey Tail"
+        ],
+        "réponse": "Monkey Tail",
+        "anecdote": "Living alone in the mountains far from the city, Son Goku will inherit a four-star ball known as the Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "In « Game of Thrones », how many crowns does the kingdom have ?",
+        "propositions": [
+          "Ten",
+          "Eight",
+          "New",
+          "Seven"
+        ],
+        "réponse": "Seven",
+        "anecdote": "The Religion of the Seven, also called « the Faith », is the largely predominant religion in the Seven Kingdoms."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter and the Goblet of Fire » is the fourth installment of the saga ?",
+        "propositions": [
+          "Fifth",
+          "Third",
+          "Fourth",
+          "Second"
+        ],
+        "réponse": "Fourth",
+        "anecdote": "Against all odds, while the three champions are chosen by the Goblet of Fire, another champion is chosen, Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "Which Supergirl has a magic belt and golden bracelets ?",
+        "propositions": [
+          "Vixen",
+          "Wonder Woman",
+          "Huntress",
+          "Catwoman"
+        ],
+        "réponse": "Wonder Woman",
+        "anecdote": "Wonder Woman is an American comic book superhero created by William Moulton Marston (under the pseudonym Charles Moulton)."
+      },
+      {
+        "id": 8,
+        "question": "What did Robin Williams name his daughter in homage to her favorite game ?",
+        "propositions": [
+          "Daisy",
+          "Harmony",
+          "Kirby",
+          "Zelda"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "Princess Zelda's first name was chosen by Shigeru Miyamoto himself in reference to the novelist Zelda Fitzgerald."
+      },
+      {
+        "id": 9,
+        "question": "What is the superhero Daredevil's height handicap ?",
+        "propositions": [
+          "Deaf",
+          "Blind",
+          "Mute",
+          "One-legged"
+        ],
+        "réponse": "Blind",
+        "anecdote": "Under his civilian identity, Daredevil is Matthew Murdock, known as Matt Murdock, a blind, accomplished and respected New York lawyer."
+      },
+      {
+        "id": 10,
+        "question": "Which actor played Spock in an old TV series ?",
+        "propositions": [
+          "William Shatner",
+          "David Carson",
+          "Robert Wise",
+          "Leonard Nimoy"
+        ],
+        "réponse": "Leonard Nimoy",
+        "anecdote": "Nimoy is known for playing the Vulcan character Mr. Spock in the « Star Trek » franchise for over forty years."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which monster from « Mario World » spends its time kidnapping Peach ?",
+        "propositions": [
+          "Bowser",
+          "Wario",
+          "Boo",
+          "Birdo"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Although possessing dragon-like characteristics, it is most often thought of as a turtle, sometimes as a dinosaur."
+      },
+      {
+        "id": 12,
+        "question": "What is the color of the most powerful bird in the « Angry Birds » game ?",
+        "propositions": [
+          "Black",
+          "Yellow",
+          "Green",
+          "Red"
+        ],
+        "réponse": "Black",
+        "anecdote": "Three theme parks based around the Angry Birds game have opened around the world : in Finland, then in Great Britain and finally in China."
+      },
+      {
+        "id": 13,
+        "question": "Which American actor starred in the « Wing Commander 3 » cutscenes ?",
+        "propositions": [
+          "Mark Hamill",
+          "Jeff Daniels",
+          "Leonard Nimoy",
+          "William Shatner"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill has sometimes become the voice of the Joker in « Batman » and that of several others, such as Christopher Blair in « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "Which manga character can transform from a boy to a girl with water ?",
+        "propositions": [
+          "Ranma",
+          "Shampoo",
+          "Koruma",
+          "Genma"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "Many characters actually transform upon contact with cold water, which causes numerous gags and adventures."
+      },
+      {
+        "id": 15,
+        "question": "In which TV series do two computer scientists create the ideal woman ?",
+        "propositions": [
+          "The Monsters",
+          "Dream On",
+          "Sliders",
+          "Lisa code"
+        ],
+        "réponse": "Lisa code",
+        "anecdote": "In France, the series « Code Lisa » was broadcast from March 17, 1995 on France 2 and rebroadcast on MCM, NRJ 12 and Game One."
+      },
+      {
+        "id": 16,
+        "question": "What kind of leprechaun should not be wetted or fed after midnight ?",
+        "propositions": [
+          "Chichiga",
+          "Mogwai",
+          "Sottai",
+          "Korrigan"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "According to Chinese tradition, the mogwai is a species of imp that uses supernatural powers to harm humans."
+      },
+      {
+        "id": 17,
+        "question": "Who adapted J.R.R. Tolkien's novel, « The Lord of the Rings » for the cinema ?",
+        "propositions": [
+          "Ron Howard",
+          "Peter Jackson",
+          "Tom Hooper",
+          "Danny Boyle"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson was made a Companion of the New Zealand Order of Merit in 2002 for his services to film."
+      },
+      {
+        "id": 18,
+        "question": "Which famous publishing house does Green Lantern belong to ?",
+        "propositions": [
+          "Urban",
+          "Marvel",
+          "DC Comics",
+          "RAW"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "A film adaptation, directed by Martin Campbell, was released in 2011 starring Ryan Reynolds as Hal Jordan."
+      },
+      {
+        "id": 19,
+        "question": "Who replaced Tobey Maguire as Spiderman on screen ?",
+        "propositions": [
+          "Andrew Garfield",
+          "Christian Bale",
+          "Tom Holland",
+          "Colin Farrell"
+        ],
+        "réponse": "Andrew Garfield",
+        "anecdote": "The results of the second opus being disappointing, Sony and Marvel studios decided to reboot the saga with actor Tom Holland."
+      },
+      {
+        "id": 20,
+        "question": "How many powers does Jack-Jack from the Incredibles family have ?",
+        "propositions": [
+          "Only one",
+          "Twelve",
+          "Six",
+          "All"
+        ],
+        "réponse": "All",
+        "anecdote": "He can become a rubber baby, increase his size, take on the appearance of another, clone himself, or levitate objects."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What did Albator lose in a fight against the humanoids ?",
+        "propositions": [
+          "One arm",
+          "One eye",
+          "One hand",
+          "One leg"
+        ],
+        "réponse": "One eye",
+        "anecdote": "Albator is the son of Great Harlock, legendary space pirate alongside whom he fights the god Wotan and the creatures of Walhalla."
+      },
+      {
+        "id": 22,
+        "question": "Which fairy and companion of Link helps him find the weak points of his enemies ?",
+        "propositions": [
+          "Sarah",
+          "Navi",
+          "Rauru",
+          "Onox"
+        ],
+        "réponse": "Navi",
+        "anecdote": "This little fairy ball of light, from which emerges a pair of butterfly wings, was sent by Mojo, guardian of the forest."
+      },
+      {
+        "id": 23,
+        "question": "As yellow as a lemon, how old is Pac-Man in the video game of the same name ?",
+        "propositions": [
+          "30 years",
+          "60 years",
+          "40 years",
+          "50 years"
+        ],
+        "réponse": "30 years",
+        "anecdote": "The game involves moving Pac-Man, a character who, when viewed in profile, resembles a circular diagram inside a maze."
+      },
+      {
+        "id": 24,
+        "question": "In the cult video game « Doom », what is the most powerful weapon ?",
+        "propositions": [
+          "RPG5000",
+          "Evil 2000",
+          "Final 4000",
+          "BFG9000"
+        ],
+        "réponse": "BFG9000",
+        "anecdote": "The shareware version has been downloaded thirty million times, with the first two installments each selling a million copies."
+      },
+      {
+        "id": 25,
+        "question": "What is a spellcaster called in the game « Dungeons and Dragons » ?",
+        "propositions": [
+          "Mage",
+          "Cleric",
+          "Necromancer",
+          "Castor"
+        ],
+        "réponse": "Castor",
+        "anecdote": "The influence of Tolkien, author of « Lord of the Rings », is minimal and was motivated by the players and the immense success of the work."
+      },
+      {
+        "id": 26,
+        "question": "What is the nationality of Vega's character in « Street Fighter II » ?",
+        "propositions": [
+          "Spanish",
+          "Chinese",
+          "Japanese",
+          "Russian"
+        ],
+        "réponse": "Spanish",
+        "anecdote": "Vega is a Spaniard with an androgynous face, blue eyes and blond hair, practicing a martial art adapted from ninjutsu."
+      },
+      {
+        "id": 27,
+        "question": "What was the first fighting video game to feature Easter Eggs ?",
+        "propositions": [
+          "Killer Instinct",
+          "Tekken",
+          "Street Fighter",
+          "Mortal Kombat"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "The Mega Drive contained some unique easter eggs, such as Fergality, transforming the opponent into one of the game's developers."
+      },
+      {
+        "id": 28,
+        "question": "According to the company Sanrio, how old is the character Hello Kitty ?",
+        "propositions": [
+          "15 years",
+          "35 years",
+          "25 years",
+          "5 years"
+        ],
+        "réponse": "35 years",
+        "anecdote": "Hello Kitty products generally use bright pink colors and are recognizable by the little cat logo."
+      },
+      {
+        "id": 29,
+        "question": "Who is the owner of the « The Android's Dungeon and Baseball » store ?",
+        "propositions": [
+          "Barney Gumble",
+          "Jeff Albertson",
+          "Ned Flanders",
+          "Frank Grimes"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson appears for the first time in the episode « One for All, All Against One » (« Three Men and a Comic » in Quebec)."
+      },
+      {
+        "id": 30,
+        "question": "Who was the first anti-hero in Spanish literature ?",
+        "propositions": [
+          "Don Quixote",
+          "Gargantua",
+          "Pantagruel",
+          "Tom Jones"
+        ],
+        "réponse": "Don Quixote",
+        "anecdote": "This self-proclaimed vigilante is the symbol of a generation of idealistic and dreaming men, but little gifted for war."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher persönliche Assistent von Apple reagiert auf Sprachbefehle ?",
+        "propositions": [
+          "Silvia",
+          "Siri",
+          "Cortana",
+          "Alexa"
+        ],
+        "réponse": "Siri",
+        "anecdote": "Die Mensch-Maschine-Schnittstelle von Siri basiert auf fortschrittlicher Spracherkennung, Sprachverarbeitung und Sprachsynthese."
+      },
+      {
+        "id": 2,
+        "question": "Wie heißen Matt Groenings Vater und Mutter ?",
+        "propositions": [
+          "Jasper und Agnes",
+          "Ned und Maude",
+          "Homer und Marge",
+          "Bart und Lisa"
+        ],
+        "réponse": "Homer und Marge",
+        "anecdote": "Da er erklärte, dass es zu offensichtlich sei, einen der Charaktere nach sich selbst zu benennen, wählte er das Anagramm von brat (Brat)."
+      },
+      {
+        "id": 3,
+        "question": "Wer ist der wohl berühmteste Wookiee der Welt ?",
+        "propositions": [
+          "Watto",
+          "Chewbacca",
+          "Finn",
+          "Boba Fett"
+        ],
+        "réponse": "Chewbacca",
+        "anecdote": "Chewbacca ist ein legendärer Wookiee-Krieger und Co-Pilot des Millennium Falcon neben dem legendären Schmuggler Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "Was ist die körperliche Besonderheit von Son Goku, dem Helden von « Dragon Ball » ?",
+        "propositions": [
+          "Fuchsschwanz",
+          "Hasenschwanz",
+          "Löwenschwanz",
+          "Affenschwanz"
+        ],
+        "réponse": "Affenschwanz",
+        "anecdote": "Son Goku lebt allein in den Bergen weit weg von der Stadt und erbt einen Vier-Sterne-Ball namens Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "Wie viele Kronen hat das Königreich in « Game of Thrones » ?",
+        "propositions": [
+          "Sieben",
+          "Zehn",
+          "Acht",
+          "Neu"
+        ],
+        "réponse": "Sieben",
+        "anecdote": "Die Religion der Sieben, auch « der Glaube » genannt, ist die weitgehend vorherrschende Religion in den Sieben Königreichen."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter und der Feuerkelch » ist der vierte Teil der Saga ?",
+        "propositions": [
+          "Dritter",
+          "Fünfter",
+          "Zweiter",
+          "Vierter"
+        ],
+        "réponse": "Vierter",
+        "anecdote": "Allen Widrigkeiten zum Trotz wird, während der Feuerkelch die drei Champions auswählt, ein weiterer Champion ausgewählt : Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "Welches Supergirl hat einen magischen Gürtel und goldene Armbänder ?",
+        "propositions": [
+          "Füchsin",
+          "Katzenfrau",
+          "Jägerin",
+          "Wunderfrau"
+        ],
+        "réponse": "Wunderfrau",
+        "anecdote": "Wonder Woman ist eine amerikanische Comic-Superheldin, die von William Moulton Marston (unter dem Pseudonym Charles Moulton) geschaffen wurde."
+      },
+      {
+        "id": 8,
+        "question": "Wie nannte Robin Williams seine Tochter als Hommage an ihr Lieblingsspiel ?",
+        "propositions": [
+          "Gänseblümchen",
+          "Zelda",
+          "Harmonie",
+          "Kirby"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "Der Vorname von Prinzessin Zelda wurde von Shigeru Miyamoto selbst in Anlehnung an die Schriftstellerin Zelda Fitzgerald gewählt."
+      },
+      {
+        "id": 9,
+        "question": "Was ist das Größenhandicap des Superhelden Daredevil ?",
+        "propositions": [
+          "Einbeinig",
+          "Gehörlos",
+          "Blind",
+          "Stumm"
+        ],
+        "réponse": "Blind",
+        "anecdote": "Unter seiner zivilen Identität ist Daredevil Matthew Murdock, bekannt als Matt Murdock, ein blinder, gebildeter und angesehener New Yorker Anwalt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Schauspieler spielte Spock in einer alten Fernsehserie ?",
+        "propositions": [
+          "Leonard Nimoy",
+          "William Shatner",
+          "Robert Wise",
+          "David Carson"
+        ],
+        "réponse": "Leonard Nimoy",
+        "anecdote": "Nimoy ist seit über vierzig Jahren dafür bekannt, den vulkanischen Charakter Mr. Spock in der « Star Trek »-Reihe zu spielen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches Monster aus « Mario World » verbringt seine Zeit damit, Peach zu entführen ?",
+        "propositions": [
+          "Bowser",
+          "Birdo",
+          "Boo",
+          "Wario"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Obwohl er drachenähnliche Eigenschaften besitzt, wird er meist als Schildkröte, manchmal auch als Dinosaurier angesehen."
+      },
+      {
+        "id": 12,
+        "question": "Welche Farbe hat der mächtigste Vogel im Spiel « Angry Birds » ?",
+        "propositions": [
+          "Grün",
+          "Gelb",
+          "Schwarz",
+          "Rot"
+        ],
+        "réponse": "Schwarz",
+        "anecdote": "Weltweit wurden drei Themenparks rund um das Spiel Angry Birds eröffnet : in Finnland, dann in Großbritannien und schließlich in China."
+      },
+      {
+        "id": 13,
+        "question": "Welcher amerikanische Schauspieler spielte in den Zwischensequenzen von « Wing Commander 3 » mit ?",
+        "propositions": [
+          "William Shatner",
+          "Mark Hamill",
+          "Jeff Daniels",
+          "Leonard Nimoy"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill wurde manchmal zur Stimme des Jokers in « Batman » und der einiger anderer, wie beispielsweise Christopher Blair in « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "Welche Manga-Figur kann sich mit Wasser von einem Jungen in ein Mädchen verwandeln ?",
+        "propositions": [
+          "Shampoo",
+          "Ranma",
+          "Genma",
+          "Koruma"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "Viele Charaktere verwandeln sich tatsächlich bei Kontakt mit kaltem Wasser, was zu zahlreichen Gags und Abenteuern führt."
+      },
+      {
+        "id": 15,
+        "question": "In welcher Fernsehserie erschaffen zwei Informatiker die ideale Frau ?",
+        "propositions": [
+          "Die Monster",
+          "Sliders",
+          "Dream On",
+          "Lisa-Code"
+        ],
+        "réponse": "Lisa-Code",
+        "anecdote": "In Frankreich wurde die Serie « Code Lisa » ab dem 17. März 1995 auf France 2 ausgestrahlt und auf MCM, NRJ 12 und Game One erneut ausgestrahlt."
+      },
+      {
+        "id": 16,
+        "question": "Welche Art von Kobold sollte nach Mitternacht nicht nass gemacht oder gefüttert werden ?",
+        "propositions": [
+          "Chichiga",
+          "Mogwai",
+          "Sottai",
+          "Korrigan"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "Der chinesischen Tradition zufolge ist der Mogwai eine Koboldart, die übernatürliche Kräfte einsetzt, um Menschen zu schaden."
+      },
+      {
+        "id": 17,
+        "question": "Wer hat J.R.R. Tolkiens Roman « Der Herr der Ringe » für das Kino adaptiert ?",
+        "propositions": [
+          "Danny Boyle",
+          "Tom Hooper",
+          "Peter Jackson",
+          "Ron Howard"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson wurde 2002 für seine Verdienste um den Film zum Companion of the New Zealand Order of Merit ernannt."
+      },
+      {
+        "id": 18,
+        "question": "Zu welchem berühmten Verlag gehört Green Lantern ?",
+        "propositions": [
+          "RAW",
+          "Urban",
+          "Marvel",
+          "DC Comics"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "Eine Verfilmung unter der Regie von Martin Campbell erschien 2011 mit Ryan Reynolds als Hal Jordan in der Hauptrolle."
+      },
+      {
+        "id": 19,
+        "question": "Wer ersetzte Tobey Maguire als Spiderman auf der Leinwand ?",
+        "propositions": [
+          "Andrew Garfield",
+          "Colin Farrell",
+          "Christian Bale",
+          "Tom Holland"
+        ],
+        "réponse": "Andrew Garfield",
+        "anecdote": "Da die Ergebnisse des zweiten Werks enttäuschend waren, beschlossen die Sony- und Marvel-Studios, die Saga mit dem Schauspieler Tom Holland neu zu starten."
+      },
+      {
+        "id": 20,
+        "question": "Wie viele Kräfte hat Jack-Jack aus der Familie der Unglaublichen ?",
+        "propositions": [
+          "Sechs",
+          "Nur ein",
+          "Zwölf",
+          "Alle"
+        ],
+        "réponse": "Alle",
+        "anecdote": "Er kann ein Gummibaby werden, seine Größe vergrößern, das Aussehen eines anderen annehmen, sich selbst klonen oder Gegenstände schweben lassen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was hat Albator im Kampf gegen die Humanoiden verloren ?",
+        "propositions": [
+          "Ein Arm",
+          "Ein Bein",
+          "Eine Hand",
+          "Ein Auge"
+        ],
+        "réponse": "Ein Auge",
+        "anecdote": "Albator ist der Sohn von Great Harlock, dem legendären Weltraumpiraten, an dessen Seite er gegen den Gott Wotan und die Kreaturen von Walhalla kämpft."
+      },
+      {
+        "id": 22,
+        "question": "Welche Fee und Begleiterin von Link hilft ihm, die Schwachstellen seiner Feinde zu finden ?",
+        "propositions": [
+          "Navi",
+          "Rauru",
+          "Sarah",
+          "Onox"
+        ],
+        "réponse": "Navi",
+        "anecdote": "Dieser kleine feenhafte Lichtball, aus dem ein Paar Schmetterlingsflügel hervorgeht, wurde von Mojo, dem Hüter des Waldes, geschickt."
+      },
+      {
+        "id": 23,
+        "question": "Gelb wie eine Zitrone, wie alt ist Pac-Man im gleichnamigen Videospiel ?",
+        "propositions": [
+          "50 Jahre",
+          "30 Jahre",
+          "60 Jahre",
+          "40 Jahre"
+        ],
+        "réponse": "30 Jahre",
+        "anecdote": "Bei dem Spiel geht es darum, Pac-Man zu bewegen, eine Figur, die im Profil betrachtet einem kreisförmigen Diagramm in einem Labyrinth ähnelt."
+      },
+      {
+        "id": 24,
+        "question": "Was ist im Kult-Videospiel « Doom » die stärkste Waffe ?",
+        "propositions": [
+          "RPG5000",
+          "BFG9000",
+          "Das Böse 2000",
+          "Letzte 4000"
+        ],
+        "réponse": "BFG9000",
+        "anecdote": "Die Shareware-Version wurde dreißig Millionen Mal heruntergeladen, wobei die ersten beiden Teile jeweils eine Million Mal verkauft wurden."
+      },
+      {
+        "id": 25,
+        "question": "Wie heißt ein Zauberer im Spiel « Dungeons and Dragons » ?",
+        "propositions": [
+          "Rolle",
+          "Nekromant",
+          "Kleriker",
+          "Magier"
+        ],
+        "réponse": "Rolle",
+        "anecdote": "Der Einfluss von Tolkien, dem Autor von « Herr der Ringe », ist minimal und wurde durch die Spieler und den immensen Erfolg des Werks motiviert."
+      },
+      {
+        "id": 26,
+        "question": "Welche Nationalität hat Vegas Charakter in « Street Fighter II » ?",
+        "propositions": [
+          "Spanisch",
+          "Japanisch",
+          "Chinesisch",
+          "Russisch"
+        ],
+        "réponse": "Spanisch",
+        "anecdote": "Vega ist eine Spanierin mit androgynem Gesicht, blauen Augen und blonden Haaren, die eine dem Ninjutsu nachempfundene Kampfkunst praktiziert."
+      },
+      {
+        "id": 27,
+        "question": "Was war das erste Kampfvideospiel mit Easter Eggs ?",
+        "propositions": [
+          "Mortal Kombat",
+          "Killer Instinct",
+          "Street Fighter",
+          "Tekken"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "Der Mega Drive enthielt einige einzigartige Easter Eggs, wie z. B. Fergality, die den Gegner in einen der Entwickler des Spiels verwandelten."
+      },
+      {
+        "id": 28,
+        "question": "Wie alt ist laut der Firma Sanrio die Figur Hello Kitty ?",
+        "propositions": [
+          "35 Jahre",
+          "5 Jahre",
+          "15 Jahre",
+          "25 Jahre"
+        ],
+        "réponse": "35 Jahre",
+        "anecdote": "Hello Kitty-Produkte verwenden im Allgemeinen leuchtende rosa Farben und sind an dem kleinen Katzenlogo erkennbar."
+      },
+      {
+        "id": 29,
+        "question": "Wer ist der Besitzer des Stores « The Android's Dungeon and Baseball » ?",
+        "propositions": [
+          "Ned Flanders",
+          "Barney Gumble",
+          "Frank Grimes",
+          "Jeff Albertson"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson erscheint zum ersten Mal in der Folge « Einer für alle, alle gegen einen » (« Drei Männer und ein Comic » in Quebec)."
+      },
+      {
+        "id": 30,
+        "question": "Wer war der erste Antiheld in der spanischen Literatur ?",
+        "propositions": [
+          "Don Quijote",
+          "Tom Jones",
+          "Pantagruel",
+          "Gargantua"
+        ],
+        "réponse": "Don Quijote",
+        "anecdote": "Dieser selbsternannte Bürgerwehrmann ist das Symbol einer Generation idealistischer und träumerischer Männer, die jedoch für den Krieg wenig begabt sind."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué asistente personal de Apple responde a los comandos de voz ?",
+        "propositions": [
+          "Cortana",
+          "Silvia",
+          "Alexa",
+          "Siri"
+        ],
+        "réponse": "Siri",
+        "anecdote": "La interfaz hombre-máquina de Siri se basa en reconocimiento de voz avanzado, procesamiento del lenguaje y síntesis de voz."
+      },
+      {
+        "id": 2,
+        "question": "¿Cómo se llaman el padre y la madre de Matt Groening ?",
+        "propositions": [
+          "Homero y Marge",
+          "Ned y Maude",
+          "Bart y Lisa",
+          "Jaspe y Inés"
+        ],
+        "réponse": "Homero y Marge",
+        "anecdote": "Declarando que era demasiado obvio ponerle su propio nombre a uno de los personajes, eligió el anagrama de mocoso (mocoso)."
+      },
+      {
+        "id": 3,
+        "question": "¿Quién es probablemente el wookiee más famoso del mundo ?",
+        "propositions": [
+          "Boba Fett",
+          "finlandés",
+          "Chewbacca",
+          "Watto"
+        ],
+        "réponse": "Chewbacca",
+        "anecdote": "Chewbacca es un legendario guerrero wookiee y copiloto del Halcón Milenario junto al legendario contrabandista Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuál es la particularidad física de Son Goku, héroe de « Dragon Ball » ?",
+        "propositions": [
+          "Cola de zorro",
+          "Cola de conejito",
+          "Cola de león",
+          "Cola de mono"
+        ],
+        "réponse": "Cola de mono",
+        "anecdote": "Al vivir solo en las montañas lejos de la ciudad, Son Goku heredará una bola de cuatro estrellas conocida como Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "En « Game of Thrones », ¿cuántas coronas tiene el reino ?",
+        "propositions": [
+          "Siete",
+          "Ocho",
+          "Diez",
+          "Nuevo"
+        ],
+        "réponse": "Siete",
+        "anecdote": "La Religión de los Siete, también llamada « la Fe », es la religión mayoritariamente predominante en los Siete Reinos."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter y el cáliz de fuego » ¿es la cuarta entrega de la saga ?",
+        "propositions": [
+          "Quinto",
+          "Segundo",
+          "Cuarto",
+          "Tercero"
+        ],
+        "réponse": "Cuarto",
+        "anecdote": "Contra todo pronóstico, mientras los tres campeones son elegidos por el Cáliz de Fuego, se elige otro campeón, Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué Supergirl tiene un cinturón mágico y pulseras doradas ?",
+        "propositions": [
+          "Catwoman",
+          "Mujer Maravilla",
+          "Cazadora",
+          "Zorra"
+        ],
+        "réponse": "Mujer Maravilla",
+        "anecdote": "Wonder Woman es una superheroína de cómic estadounidense creada por William Moulton Marston (bajo el seudónimo de Charles Moulton)."
+      },
+      {
+        "id": 8,
+        "question": "¿Cómo llamó Robin Williams a su hija en homenaje a su juego favorito ?",
+        "propositions": [
+          "Kirby",
+          "Zelda",
+          "Margarita",
+          "Armonía"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "El nombre de la princesa Zelda fue elegido por el propio Shigeru Miyamoto en referencia a la novelista Zelda Fitzgerald."
+      },
+      {
+        "id": 9,
+        "question": "¿Cuál es la desventaja de altura del superhéroe Daredevil ?",
+        "propositions": [
+          "Ciego",
+          "Con una sola pierna",
+          "Silenciar",
+          "Sordo"
+        ],
+        "réponse": "Ciego",
+        "anecdote": "Bajo su identidad civil, Daredevil es Matthew Murdock, conocido como Matt Murdock, un abogado neoyorquino ciego, consumado y respetado."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué actor interpretó a Spock en una antigua serie de televisión ?",
+        "propositions": [
+          "Robert Wise",
+          "Leonardo Nimoy",
+          "William Shatner",
+          "David Carson"
+        ],
+        "réponse": "Leonardo Nimoy",
+        "anecdote": "Nimoy es conocido por interpretar al personaje vulcano Sr. Spock en la franquicia « Star Trek » durante más de cuarenta años."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué monstruo de « Mario World » dedica su tiempo a secuestrar a Peach ?",
+        "propositions": [
+          "Birdo",
+          "Wario",
+          "Boo",
+          "Bowser"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Aunque posee características parecidas a las de un dragón, a menudo se le considera una tortuga y, a veces, un dinosaurio."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuál es el color del pájaro más poderoso del juego « Angry Birds » ?",
+        "propositions": [
+          "Verde",
+          "Negro",
+          "Amarillo",
+          "Rojo"
+        ],
+        "réponse": "Negro",
+        "anecdote": "Se han abierto tres parques temáticos en torno al juego Angry Birds en todo el mundo : en Finlandia, luego en Gran Bretaña y finalmente en China."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué actor estadounidense protagonizó las escenas de « Wing Commander 3 » ?",
+        "propositions": [
+          "Leonard Nimoy",
+          "Mark Hamill",
+          "William Shatner",
+          "Jeff Daniels"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill se ha convertido en ocasiones en la voz del Joker en « Batman » y en la de varios otros, como Christopher Blair en « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué personaje de manga puede transformarse de niño a niña con agua ?",
+        "propositions": [
+          "Korumá",
+          "Shampoo",
+          "Genma",
+          "Ranma"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "De hecho, muchos personajes se transforman al entrar en contacto con el agua fría, lo que provoca numerosos chistes y aventuras."
+      },
+      {
+        "id": 15,
+        "question": "¿En qué serie de televisión dos informáticos crean a la mujer ideal ?",
+        "propositions": [
+          "Dream On",
+          "Sliders",
+          "Los monstruos",
+          "Código Lisa"
+        ],
+        "réponse": "Código Lisa",
+        "anecdote": "En Francia, la serie « Code Lisa » se emitió desde el 17 de marzo de 1995 en France 2 y se retransmitió en MCM, NRJ 12 y Game One."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué tipo de duende no se debe mojar ni alimentar después de medianoche ?",
+        "propositions": [
+          "Korrigan",
+          "Mogwai",
+          "Chichiga",
+          "Sottai"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "Según la tradición china, el mogwai es una especie de diablillo que utiliza poderes sobrenaturales para dañar a los humanos."
+      },
+      {
+        "id": 17,
+        "question": "¿Quién adaptó la novela de J.R.R. Tolkien, « El señor de los anillos » al cine ?",
+        "propositions": [
+          "Danny Boyle",
+          "Ron Howard",
+          "Tom Hooper",
+          "Peter Jackson"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson fue nombrado Compañero de la Orden del Mérito de Nueva Zelanda en 2002 por sus servicios en el cine."
+      },
+      {
+        "id": 18,
+        "question": "¿A qué editorial famosa pertenece Green Lantern ?",
+        "propositions": [
+          "Marvel",
+          "RAW",
+          "Urban",
+          "DC Comics"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "En 2011 se estrenó una adaptación cinematográfica, dirigida por Martin Campbell, protagonizada por Ryan Reynolds como Hal Jordan."
+      },
+      {
+        "id": 19,
+        "question": "¿Quién reemplazó a Tobey Maguire como Spiderman en la pantalla ?",
+        "propositions": [
+          "Cristiano Bale",
+          "Andrés Garfield",
+          "Colin Farrell",
+          "Tom Holland"
+        ],
+        "réponse": "Andrés Garfield",
+        "anecdote": "Como los resultados de la segunda entrega fueron decepcionantes, Sony y Marvel Studios decidieron reiniciar la saga con el actor Tom Holland."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuántos poderes tiene Jack-Jack de la familia Los Increíbles ?",
+        "propositions": [
+          "Doce",
+          "Sólo uno",
+          "Seis",
+          "Todo"
+        ],
+        "réponse": "Todo",
+        "anecdote": "Puede convertirse en un bebé de goma, aumentar su tamaño, adoptar la apariencia de otro, clonarse a sí mismo o levitar objetos."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué perdió Albator en una lucha contra los humanoides ?",
+        "propositions": [
+          "Un ojo",
+          "Una mano",
+          "Un brazo",
+          "Una pierna"
+        ],
+        "réponse": "Un ojo",
+        "anecdote": "Albator es hijo de Great Harlock, legendario pirata espacial junto a quien lucha contra el dios Wotan y las criaturas de Walhalla."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué hada y compañera de Link le ayuda a encontrar los puntos débiles de sus enemigos ?",
+        "propositions": [
+          "Rauru",
+          "Sara",
+          "Navegar",
+          "Onox"
+        ],
+        "réponse": "Navegar",
+        "anecdote": "Esta pequeña bola de luz de hadas, de la que emergen un par de alas de mariposa, fue enviada por Mojo, guardián del bosque."
+      },
+      {
+        "id": 23,
+        "question": "Amarillo como un limón, ¿qué edad tiene Pac-Man en el videojuego del mismo nombre ?",
+        "propositions": [
+          "40 años",
+          "60 años",
+          "30 años",
+          "50 años"
+        ],
+        "réponse": "30 años",
+        "anecdote": "El juego consiste en mover a Pac-Man, un personaje que, visto de perfil, parece un diagrama circular dentro de un laberinto."
+      },
+      {
+        "id": 24,
+        "question": "En el videojuego de culto « Doom », ¿cuál es el arma más poderosa ?",
+        "propositions": [
+          "BFG9000",
+          "Mal 2000",
+          "Finales 4000",
+          "RPG5000"
+        ],
+        "réponse": "BFG9000",
+        "anecdote": "La versión shareware se ha descargado treinta millones de veces y las dos primeras entregas han vendido un millón de copias cada una."
+      },
+      {
+        "id": 25,
+        "question": "¿Cómo se llama un lanzador de hechizos en el juego « Dragones y Mazmorras » ?",
+        "propositions": [
+          "ricino",
+          "clérigo",
+          "Mago",
+          "Nigromante"
+        ],
+        "réponse": "ricino",
+        "anecdote": "La influencia de Tolkien, autor de « El señor de los anillos », es mínima y estuvo motivado por los protagonistas y el inmenso éxito de la obra."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuál es la nacionalidad del personaje de Vega en « Street Fighter II » ?",
+        "propositions": [
+          "Español",
+          "Chino",
+          "ruso",
+          "Japonés"
+        ],
+        "réponse": "Español",
+        "anecdote": "Vega es un español de rostro andrógino, ojos azules y cabello rubio, que practica un arte marcial adaptado del ninjutsu."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál fue el primer videojuego de lucha que incluyó huevos de Pascua ?",
+        "propositions": [
+          "Street Fighter",
+          "Killer Instinct",
+          "Mortal Kombat",
+          "Tekken"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "Mega Drive contenía algunos huevos de Pascua únicos, como Fergality, que transformaba al oponente en uno de los desarrolladores del juego."
+      },
+      {
+        "id": 28,
+        "question": "Según la empresa Sanrio, ¿cuántos años tiene el personaje Hello Kitty ?",
+        "propositions": [
+          "15 años",
+          "25 años",
+          "5 años",
+          "35 años"
+        ],
+        "réponse": "35 años",
+        "anecdote": "Los productos de Hello Kitty generalmente usan colores rosa brillantes y son reconocibles por el logo del pequeño gato."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién es el propietario de la tienda « The Android's Dungeon and Baseball » ?",
+        "propositions": [
+          "Ned Flanders",
+          "Barney Gumble",
+          "Jeff Albertson",
+          "Frank Grimes"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson aparece por primera vez en el episodio « Uno para todos, todos contra uno » (« Tres hombres y un cómic » en Quebec)."
+      },
+      {
+        "id": 30,
+        "question": "¿Quién fue el primer antihéroe de la literatura española ?",
+        "propositions": [
+          "Don Quijote",
+          "Tom Jones",
+          "Gargantúa",
+          "Pantagruel"
+        ],
+        "réponse": "Don Quijote",
+        "anecdote": "Este autoproclamado justiciero es el símbolo de una generación de hombres idealistas y soñadores, pero poco dotados para la guerra."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale assistente personale Apple risponde ai comandi vocali ?",
+        "propositions": [
+          "Alexa",
+          "Siri",
+          "Silvia",
+          "Cortana"
+        ],
+        "réponse": "Siri",
+        "anecdote": "L'interfaccia uomo-macchina di Siri si basa sul riconoscimento vocale avanzato, sull'elaborazione del linguaggio e sulla sintesi vocale."
+      },
+      {
+        "id": 2,
+        "question": "Come si chiamano il padre e la madre di Matt Groening ?",
+        "propositions": [
+          "Bart e Lisa",
+          "Omero e Marge",
+          "Jasper e Agnese",
+          "Ned e Maude"
+        ],
+        "réponse": "Omero e Marge",
+        "anecdote": "Dichiarando che era troppo ovvio dare il suo nome ad uno dei personaggi, scelse l'anagramma di brat (monello)."
+      },
+      {
+        "id": 3,
+        "question": "Chi è probabilmente il Wookiee più famoso al mondo ?",
+        "propositions": [
+          "Chewbecca",
+          "Watto",
+          "Finn",
+          "Boba Fett"
+        ],
+        "réponse": "Chewbecca",
+        "anecdote": "Chewbecca è un leggendario guerriero Wookiee e copilota del Millennium Falcon insieme al leggendario contrabbandiere Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "Qual è la particolarità fisica di Son Goku, eroe di « Dragon Ball » ?",
+        "propositions": [
+          "Coda di scimmia",
+          "Coda di leone",
+          "Coda di coniglio",
+          "Coda di volpe"
+        ],
+        "réponse": "Coda di scimmia",
+        "anecdote": "Vivendo da solo sulle montagne lontano dalla città, Son Goku erediterà una sfera a quattro stelle conosciuta come Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "In « Game of Thrones », quante corone ha il regno ?",
+        "propositions": [
+          "Nuovo",
+          "Sette",
+          "Otto",
+          "Dieci"
+        ],
+        "réponse": "Sette",
+        "anecdote": "La Religione dei Sette, chiamata anche « la Fede », è la religione largamente predominante nei Sette Regni."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter e il Calice di Fuoco » è il quarto capitolo della saga ?",
+        "propositions": [
+          "Secondo",
+          "Terzo",
+          "Quarto",
+          "Quinto"
+        ],
+        "réponse": "Quarto",
+        "anecdote": "Contro ogni previsione, mentre i tre campioni vengono scelti dal Calice di Fuoco, viene scelto un altro campione, Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "Quale Supergirl ha una cintura magica e braccialetti d'oro ?",
+        "propositions": [
+          "Volpe",
+          "Catwoman",
+          "Cacciatrice",
+          "Wonder Woman"
+        ],
+        "réponse": "Wonder Woman",
+        "anecdote": "Wonder Woman è un supereroe dei fumetti americano creato da William Moulton Marston (con lo pseudonimo di Charles Moulton)."
+      },
+      {
+        "id": 8,
+        "question": "Come ha chiamato Robin Williams la figlia in omaggio al suo gioco preferito ?",
+        "propositions": [
+          "Zelda",
+          "Armonia",
+          "Margherita",
+          "Kirby"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "Il nome di battesimo della principessa Zelda è stato scelto dallo stesso Shigeru Miyamoto in riferimento alla scrittrice Zelda Fitzgerald."
+      },
+      {
+        "id": 9,
+        "question": "Qual è l'handicap in altezza del supereroe Daredevil ?",
+        "propositions": [
+          "Con una gamba sola",
+          "Cieco",
+          "Muto",
+          "Sordi"
+        ],
+        "réponse": "Cieco",
+        "anecdote": "Sotto la sua identità civile, Daredevil è Matthew Murdock, noto come Matt Murdock, un avvocato di New York cieco, esperto e rispettato."
+      },
+      {
+        "id": 10,
+        "question": "Quale attore ha interpretato Spock in una vecchia serie TV ?",
+        "propositions": [
+          "Robert Wise",
+          "David Carson",
+          "William Shatner",
+          "Leonard Nimoy"
+        ],
+        "réponse": "Leonard Nimoy",
+        "anecdote": "Nimoy è noto per aver interpretato per oltre quarant'anni il personaggio vulcaniano Spock nella serie « Star Trek »."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale mostro di « Mario World » passa il tempo a rapire Peach ?",
+        "propositions": [
+          "Wario",
+          "Boo",
+          "Birdo",
+          "Bowser"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Sebbene possieda caratteristiche simili a quelle del drago, è spesso considerato una tartaruga, a volte un dinosauro."
+      },
+      {
+        "id": 12,
+        "question": "Qual è il colore dell'uccello più potente nel gioco « Angry Birds » ?",
+        "propositions": [
+          "Rosso",
+          "Nero",
+          "Verde",
+          "Giallo"
+        ],
+        "réponse": "Nero",
+        "anecdote": "Tre parchi tematici basati sul gioco Angry Birds sono stati aperti in tutto il mondo : in Finlandia, poi in Gran Bretagna e infine in Cina."
+      },
+      {
+        "id": 13,
+        "question": "Quale attore americano ha recitato nei filmati di « Wing Commander 3 » ?",
+        "propositions": [
+          "Jeff Daniels",
+          "William Shatner",
+          "Leonard Nimoy",
+          "Mark Hamill"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill è talvolta diventato la voce del Joker in « Batman » e quella di molti altri, come Christopher Blair in « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "Quale personaggio manga può trasformarsi da ragazzo a ragazza con l'acqua ?",
+        "propositions": [
+          "Shampoo",
+          "Ranma",
+          "Genma",
+          "Koruma"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "Molti personaggi si trasformano effettivamente al contatto con l'acqua fredda, il che provoca numerose gag e avventure."
+      },
+      {
+        "id": 15,
+        "question": "In quale serie TV due informatici creano la donna ideale ?",
+        "propositions": [
+          "Dream On",
+          "I Mostri",
+          "Sliders",
+          "Codice Lisa"
+        ],
+        "réponse": "Codice Lisa",
+        "anecdote": "In Francia, la serie « Code Lisa » è stata trasmessa dal 17 marzo 1995 su France 2 e ritrasmessa su MCM, NRJ 12 e Game One."
+      },
+      {
+        "id": 16,
+        "question": "Che tipo di folletto non dovrebbe essere bagnato o nutrito dopo la mezzanotte ?",
+        "propositions": [
+          "Sottai",
+          "Mogwai",
+          "Chichiga",
+          "Korrigan"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "Secondo la tradizione cinese, il mogwai è una specie di diavoletto che usa poteri soprannaturali per danneggiare gli esseri umani."
+      },
+      {
+        "id": 17,
+        "question": "Chi ha adattato il romanzo di J.R.R. Tolkien, « Il Signore degli Anelli » per il cinema ?",
+        "propositions": [
+          "Ron Howard",
+          "Tom Hooper",
+          "Danny Boyle",
+          "Peter Jackson"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson è stato nominato Compagno dell'Ordine al Merito della Nuova Zelanda nel 2002 per i suoi servizi cinematografici."
+      },
+      {
+        "id": 18,
+        "question": "A quale famosa casa editrice appartiene Lanterna Verde ?",
+        "propositions": [
+          "RAW",
+          "Urban",
+          "Marvel",
+          "DC Comics"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "Un adattamento cinematografico, diretto da Martin Campbell, è stato rilasciato nel 2011 con Ryan Reynolds nel ruolo di Hal Jordan."
+      },
+      {
+        "id": 19,
+        "question": "Chi ha sostituito Tobey Maguire nei panni di Spiderman sullo schermo ?",
+        "propositions": [
+          "Christian Bale",
+          "Colin Farrell",
+          "Tom Holland",
+          "Andrew Garfield"
+        ],
+        "réponse": "Andrew Garfield",
+        "anecdote": "Essendo i risultati della seconda opera deludenti, gli studi Sony e Marvel hanno deciso di riavviare la saga con l'attore Tom Holland."
+      },
+      {
+        "id": 20,
+        "question": "Quanti poteri ha Jack-Jack della famiglia Gli Incredibili ?",
+        "propositions": [
+          "Dodici",
+          "Sei",
+          "Tutti",
+          "Solo uno"
+        ],
+        "réponse": "Tutti",
+        "anecdote": "Può diventare un bambino di gomma, aumentare le sue dimensioni, assumere l'aspetto di un altro, clonarsi o far levitare oggetti."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Cosa ha perso Albator nella lotta contro gli umanoidi ?",
+        "propositions": [
+          "Un occhio",
+          "Un braccio",
+          "Una mano",
+          "Una gamba"
+        ],
+        "réponse": "Un occhio",
+        "anecdote": "Albator è il figlio del Grande Harlock, leggendario pirata spaziale al fianco del quale combatte il dio Wotan e le creature del Walhalla."
+      },
+      {
+        "id": 22,
+        "question": "Quale fata e compagna di Link lo aiuta a trovare i punti deboli dei suoi nemici ?",
+        "propositions": [
+          "Sara",
+          "Rauru",
+          "Onox",
+          "Navi"
+        ],
+        "réponse": "Navi",
+        "anecdote": "Questa piccola sfera di luce, da cui emergono un paio di ali di farfalla, è stata inviata da Mojo, guardiano della foresta."
+      },
+      {
+        "id": 23,
+        "question": "Giallo come un limone, quanti anni ha Pac-Man nel videogioco omonimo ?",
+        "propositions": [
+          "50 anni",
+          "30 anni",
+          "40 anni",
+          "60 anni"
+        ],
+        "réponse": "30 anni",
+        "anecdote": "Il gioco prevede lo spostamento di Pac-Man, un personaggio che, se visto di profilo, assomiglia a un diagramma circolare all'interno di un labirinto."
+      },
+      {
+        "id": 24,
+        "question": "Nel videogioco cult « Doom », qual è l'arma più potente ?",
+        "propositions": [
+          "Finale 4000",
+          "BFG9000",
+          "Male 2000",
+          "RPG5000"
+        ],
+        "réponse": "BFG9000",
+        "anecdote": "La versione shareware è stata scaricata trenta milioni di volte e le prime due versioni hanno venduto ciascuna un milione di copie."
+      },
+      {
+        "id": 25,
+        "question": "Come si chiama un incantatore nel gioco « Dungeons and Dragons » ?",
+        "propositions": [
+          "Negromante",
+          "Castore",
+          "Mago",
+          "Chierico"
+        ],
+        "réponse": "Castore",
+        "anecdote": "L'influenza di Tolkien, autore di « Il Signore degli Anelli », è minima ed è stata motivata dai protagonisti e dall'immenso successo dell'opera."
+      },
+      {
+        "id": 26,
+        "question": "Qual è la nazionalità del personaggio di Vega in « Street Fighter II » ?",
+        "propositions": [
+          "Cinese",
+          "Russo",
+          "giapponese",
+          "spagnolo"
+        ],
+        "réponse": "spagnolo",
+        "anecdote": "Vega è uno spagnolo dal viso androgino, occhi azzurri e capelli biondi, che pratica un'arte marziale adattata dal ninjutsu."
+      },
+      {
+        "id": 27,
+        "question": "Qual è stato il primo videogioco di combattimento a contenere le uova di Pasqua ?",
+        "propositions": [
+          "Mortal Kombat",
+          "Street Fighter",
+          "Tekken",
+          "Killer Instinct"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "Il Mega Drive conteneva alcuni easter Egg unici, come Fergality, che trasformavano l'avversario in uno degli sviluppatori del gioco."
+      },
+      {
+        "id": 28,
+        "question": "Secondo l'azienda Sanrio, quanti anni ha il personaggio Hello Kitty ?",
+        "propositions": [
+          "5 anni",
+          "35 anni",
+          "25 anni",
+          "15 anni"
+        ],
+        "réponse": "35 anni",
+        "anecdote": "I prodotti Hello Kitty utilizzano generalmente colori rosa brillante e sono riconoscibili dal logo del gattino."
+      },
+      {
+        "id": 29,
+        "question": "Chi è il proprietario del negozio « The Android's Dungeon and Baseball » ?",
+        "propositions": [
+          "Jeff Albertson",
+          "Barney Gumble",
+          "Frank Grimes",
+          "Ned Flanders"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson appare per la prima volta nell'episodio « Uno per tutti, tutti contro uno » (« Tre uomini e un fumetto » in Quebec)."
+      },
+      {
+        "id": 30,
+        "question": "Chi è stato il primo antieroe della letteratura spagnola ?",
+        "propositions": [
+          "Pantagruele",
+          "Don Chisciotte",
+          "TomJones",
+          "Gargantua"
+        ],
+        "réponse": "Don Chisciotte",
+        "anecdote": "Questo autoproclamato vigilante è il simbolo di una generazione di uomini idealisti e sognatori, ma poco dotati per la guerra."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke persoonlijke assistent van Apple reageert op spraakopdrachten ?",
+        "propositions": [
+          "Cortana",
+          "Alexa",
+          "Siri",
+          "Silvia"
+        ],
+        "réponse": "Siri",
+        "anecdote": "Siri's mens-machine-interface is gebaseerd op geavanceerde spraakherkenning, taalverwerking en spraaksynthese."
+      },
+      {
+        "id": 2,
+        "question": "Hoe heten de vader en moeder van Matt Groening ?",
+        "propositions": [
+          "Homerus en Marge",
+          "Bart en Lisa",
+          "Jasper en Agnes",
+          "Ned en Maude"
+        ],
+        "réponse": "Homerus en Marge",
+        "anecdote": "Omdat hij verklaarde dat het te voor de hand liggend was om een van de personages naar zichzelf te vernoemen, koos hij het anagram van snotaap (snotaap)."
+      },
+      {
+        "id": 3,
+        "question": "Wie is waarschijnlijk de beroemdste Wookiee ter wereld ?",
+        "propositions": [
+          "Chewbacca",
+          "Watto",
+          "Boba Fett",
+          "Fin"
+        ],
+        "réponse": "Chewbacca",
+        "anecdote": "Chewbacca is een legendarische Wookiee-krijger en co-piloot van de Millennium Falcon naast de legendarische smokkelaar Han Solo."
+      },
+      {
+        "id": 4,
+        "question": "Wat is de fysieke eigenaardigheid van Son Goku, held van « Dragon Ball » ?",
+        "propositions": [
+          "Apenstaart",
+          "Konijnenstaart",
+          "Leeuwenstaart",
+          "Vossenstaart"
+        ],
+        "réponse": "Apenstaart",
+        "anecdote": "Son Goku woont alleen in de bergen, ver van de stad, en zal een viersterrenbal erven die bekend staat als de Dragon Ball."
+      },
+      {
+        "id": 5,
+        "question": "Hoeveel kronen heeft het koninkrijk in « Game of Thrones » ?",
+        "propositions": [
+          "Tien",
+          "Zeven",
+          "Acht",
+          "Nieuw"
+        ],
+        "réponse": "Zeven",
+        "anecdote": "De Religie van de Zeven, ook wel « het Geloof » genoemd, is de grotendeels overheersende religie in de Zeven Koninkrijken."
+      },
+      {
+        "id": 6,
+        "question": "« Harry Potter en de Vuurbeker » is het vierde deel van de saga ?",
+        "propositions": [
+          "Vijfde",
+          "Derde",
+          "Tweede",
+          "Vierde"
+        ],
+        "réponse": "Vierde",
+        "anecdote": "Tegen alle verwachtingen in, terwijl de drie kampioenen worden gekozen door de Vuurbeker, wordt er een andere kampioen gekozen : Harry Potter."
+      },
+      {
+        "id": 7,
+        "question": "Welke Supergirl heeft een magische riem en gouden armbanden ?",
+        "propositions": [
+          "Vixen",
+          "Wondervrouw",
+          "Kattenvrouw",
+          "Jager"
+        ],
+        "réponse": "Wondervrouw",
+        "anecdote": "Wonder Woman is een Amerikaanse superheld uit het stripboek, gemaakt door William Moulton Marston (onder het pseudoniem Charles Moulton)."
+      },
+      {
+        "id": 8,
+        "question": "Hoe noemde Robin Williams zijn dochter als eerbetoon aan haar favoriete spel ?",
+        "propositions": [
+          "Madeliefje",
+          "Kirby",
+          "Zelda",
+          "Harmonie"
+        ],
+        "réponse": "Zelda",
+        "anecdote": "De voornaam van prinses Zelda werd door Shigeru Miyamoto zelf gekozen, verwijzend naar de romanschrijver Zelda Fitzgerald."
+      },
+      {
+        "id": 9,
+        "question": "Wat is de lengtehandicap van superheld Daredevil ?",
+        "propositions": [
+          "Eenbenig",
+          "Blind",
+          "Dempen",
+          "Doof"
+        ],
+        "réponse": "Blind",
+        "anecdote": "Onder zijn burgeridentiteit is Daredevil Matthew Murdock, bekend als Matt Murdock, een blinde, ervaren en gerespecteerde advocaat uit New York."
+      },
+      {
+        "id": 10,
+        "question": "Welke acteur speelde Spock in een oude tv-serie ?",
+        "propositions": [
+          "Leonard Nimoy",
+          "David Carson",
+          "William Shatner",
+          "Robert Wise"
+        ],
+        "réponse": "Leonard Nimoy",
+        "anecdote": "Nimoy staat bekend om het spelen van het Vulcan-personage Mr. Spock in de « Star Trek »-franchise gedurende meer dan veertig jaar."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk monster uit « Mario World » besteedt zijn tijd aan het ontvoeren van Peach ?",
+        "propositions": [
+          "Bowser",
+          "Wario",
+          "Boo",
+          "Birdo"
+        ],
+        "réponse": "Bowser",
+        "anecdote": "Hoewel hij draakachtige kenmerken bezit, wordt hij meestal gezien als een schildpad, soms als een dinosaurus."
+      },
+      {
+        "id": 12,
+        "question": "Wat is de kleur van de krachtigste vogel in het spel « Angry Birds » ?",
+        "propositions": [
+          "Rood",
+          "Groen",
+          "Geel",
+          "Zwart"
+        ],
+        "réponse": "Zwart",
+        "anecdote": "Er zijn over de hele wereld drie themaparken geopend rond het spel Angry Birds : in Finland, vervolgens in Groot-Brittannië en ten slotte in China."
+      },
+      {
+        "id": 13,
+        "question": "Welke Amerikaanse acteur speelde in de tussenfilmpjes van « Wing Commander 3 » ?",
+        "propositions": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "Mark Hamill",
+          "Jeff Daniels"
+        ],
+        "réponse": "Mark Hamill",
+        "anecdote": "Hamill is soms de stem geworden van de Joker in « Batman » en die van verschillende anderen, zoals Christopher Blair in « Wing Commander »."
+      },
+      {
+        "id": 14,
+        "question": "Welk mangakarakter kan met water van een jongen in een meisje veranderen ?",
+        "propositions": [
+          "Shampoo",
+          "Koruma",
+          "Genma",
+          "Ranma"
+        ],
+        "réponse": "Ranma",
+        "anecdote": "Veel personages transformeren daadwerkelijk bij contact met koud water, wat talloze grappen en avonturen veroorzaakt."
+      },
+      {
+        "id": 15,
+        "question": "In welke tv-serie creëren twee computerwetenschappers de ideale vrouw ?",
+        "propositions": [
+          "Dream On",
+          "Sliders",
+          "Lisa-code",
+          "De monsters"
+        ],
+        "réponse": "Lisa-code",
+        "anecdote": "In Frankrijk werd de serie « Code Lisa » vanaf 17 maart 1995 uitgezonden op France 2 en opnieuw uitgezonden op MCM, NRJ 12 en Game One."
+      },
+      {
+        "id": 16,
+        "question": "Welk soort kabouter mag na middernacht niet worden bevochtigd of gevoerd ?",
+        "propositions": [
+          "Sottai",
+          "Korrigan",
+          "Mogwai",
+          "Chichiga"
+        ],
+        "réponse": "Mogwai",
+        "anecdote": "Volgens de Chinese traditie is de mogwai een soort duivel die bovennatuurlijke krachten gebruikt om mensen schade te berokkenen."
+      },
+      {
+        "id": 17,
+        "question": "Wie heeft de roman van J.R.R. Tolkien, « The Lord of the Rings », verfilmd ?",
+        "propositions": [
+          "Peter Jackson",
+          "Danny Boyle",
+          "Ron Howard",
+          "Tom Hooper"
+        ],
+        "réponse": "Peter Jackson",
+        "anecdote": "Peter Jackson werd in 2002 benoemd tot Companion of the New Zealand Order of Merit vanwege zijn verdiensten op het gebied van film."
+      },
+      {
+        "id": 18,
+        "question": "Tot welke beroemde uitgeverij behoort Green Lantern ?",
+        "propositions": [
+          "DC Comics",
+          "RAW",
+          "Marvel",
+          "Urban"
+        ],
+        "réponse": "DC Comics",
+        "anecdote": "Een verfilming, geregisseerd door Martin Campbell, werd in 2011 uitgebracht met Ryan Reynolds als Hal Jordan in de hoofdrol."
+      },
+      {
+        "id": 19,
+        "question": "Wie verving Tobey Maguire als Spiderman op het scherm ?",
+        "propositions": [
+          "Andrew Garfield",
+          "Tom Holland",
+          "Colin Farrell",
+          "Christian Bale"
+        ],
+        "réponse": "Andrew Garfield",
+        "anecdote": "Omdat de resultaten van het tweede opus teleurstellend waren, besloten de studio's van Sony en Marvel de saga opnieuw op te starten met acteur Tom Holland."
+      },
+      {
+        "id": 20,
+        "question": "Hoeveel krachten heeft Jack-Jack uit de Incredibles-familie ?",
+        "propositions": [
+          "Twaalf",
+          "Alles",
+          "Slechts één",
+          "Zes"
+        ],
+        "réponse": "Alles",
+        "anecdote": "Hij kan een rubberen baby worden, groter worden, het uiterlijk van een ander aannemen, zichzelf klonen of objecten laten zweven."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat verloor Albator in een gevecht tegen de mensachtigen ?",
+        "propositions": [
+          "Eén arm",
+          "Eén hand",
+          "Eén been",
+          "Eén oog"
+        ],
+        "réponse": "Eén oog",
+        "anecdote": "Albator is de zoon van Grote Harlock, de legendarische ruimtepiraat met wie hij vecht tegen de god Wotan en de wezens van Walhalla."
+      },
+      {
+        "id": 22,
+        "question": "Welke fee en metgezel van Link helpt hem de zwakke punten van zijn vijanden te vinden ?",
+        "propositions": [
+          "Rauru",
+          "Onox",
+          "Navi",
+          "Sara"
+        ],
+        "réponse": "Navi",
+        "anecdote": "Deze kleine sprookjesbal van licht, waaruit een paar vlindervleugels tevoorschijn komen, werd gestuurd door Mojo, bewaker van het bos."
+      },
+      {
+        "id": 23,
+        "question": "Zo geel als een citroen: hoe oud is Pac-Man in de gelijknamige videogame ?",
+        "propositions": [
+          "60 jaar",
+          "30 jaar",
+          "40 jaar",
+          "50 jaar"
+        ],
+        "réponse": "30 jaar",
+        "anecdote": "Het spel omvat het verplaatsen van Pac-Man, een personage dat, gezien in profiel, lijkt op een cirkelvormig diagram in een doolhof."
+      },
+      {
+        "id": 24,
+        "question": "Wat is het krachtigste wapen in de cultvideogame « Doom » ?",
+        "propositions": [
+          "Kwaad 2000",
+          "BFG9000",
+          "RPG5000",
+          "Laatste 4000"
+        ],
+        "réponse": "BFG9000",
+        "anecdote": "De shareware-versie is dertig miljoen keer gedownload, waarbij van de eerste twee delen elk een miljoen exemplaren zijn verkocht."
+      },
+      {
+        "id": 25,
+        "question": "Hoe wordt een spellcaster genoemd in het spel « Dungeons and Dragons » ?",
+        "propositions": [
+          "Castor",
+          "Geestelijke",
+          "Magiër",
+          "Necromancer"
+        ],
+        "réponse": "Castor",
+        "anecdote": "De invloed van Tolkien, auteur van « Lord of the Rings », is minimaal en werd gemotiveerd door de spelers en het immense succes van het werk."
+      },
+      {
+        "id": 26,
+        "question": "Wat is de nationaliteit van Vega's personage in « Street Fighter II » ?",
+        "propositions": [
+          "Russisch",
+          "Spaans",
+          "Chinees",
+          "Japans"
+        ],
+        "réponse": "Spaans",
+        "anecdote": "Vega is een Spanjaard met een androgyn gezicht, blauwe ogen en blond haar, die een krijgskunst beoefent die is overgenomen van ninjutsu."
+      },
+      {
+        "id": 27,
+        "question": "Wat was de eerste vechtvideogame met Easter Eggs ?",
+        "propositions": [
+          "Killer Instinct",
+          "Mortal Kombat",
+          "Straatvechter",
+          "Tekken"
+        ],
+        "réponse": "Mortal Kombat",
+        "anecdote": "De Mega Drive bevatte een aantal unieke paaseieren, zoals Fergality, waardoor de tegenstander in een van de ontwikkelaars van het spel veranderde."
+      },
+      {
+        "id": 28,
+        "question": "Hoe oud is het personage Hello Kitty volgens het bedrijf Sanrio ?",
+        "propositions": [
+          "5 jaar",
+          "15 jaar",
+          "25 jaar",
+          "35 jaar"
+        ],
+        "réponse": "35 jaar",
+        "anecdote": "Hello Kitty-producten gebruiken over het algemeen felroze kleuren en zijn herkenbaar aan het kleine kattenlogo."
+      },
+      {
+        "id": 29,
+        "question": "Wie is de eigenaar van de winkel « The Android's Dungeon and Baseball » ?",
+        "propositions": [
+          "Barney Gumble",
+          "Ned Flanders",
+          "Jeff Albertson",
+          "Frank Grimes"
+        ],
+        "réponse": "Jeff Albertson",
+        "anecdote": "Jeff Albertson verschijnt voor het eerst in de aflevering « One for All, All Against One » (« Three Men and a Comic » in Quebec)."
+      },
+      {
+        "id": 30,
+        "question": "Wie was de eerste antiheld in de Spaanse literatuur ?",
+        "propositions": [
+          "Pantagruel",
+          "Tom Jones",
+          "Don Quichot",
+          "Gargantua"
+        ],
+        "réponse": "Don Quichot",
+        "anecdote": "Deze zelfbenoemde burgerwacht is het symbool van een generatie idealistische en dromende mannen, maar weinig begaafd voor oorlog."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 6,
+  "mise-à-jour": "2024-04-06",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Couleur bleue",
+      "slogan": "Isabelle a les yeux bleus"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Color blue",
+      "slogan": "Isabelle has blue eyes"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Color azul",
+      "slogan": "Isabelle tiene ojos azules."
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Colore blu",
+      "slogan": "Isabelle ha gli occhi azzurri"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Farbe blau",
+      "slogan": "Isabelle hat blaue Augen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Kleur blauw",
+      "slogan": "Isabelle heeft blauwe ogen"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle couleur est depuis 1930 associée aux bébés de sexe masculin ?",
+        "propositions": [
+          "Bleu turquin",
+          "Bleu maya",
+          "Bleu azur",
+          "Bleu ciel"
+        ],
+        "réponse": "Bleu ciel",
+        "anecdote": "Ce bleu clair et lumineux se réfère à la couleur du ciel, causée par la diffusion de la lumière, en fait très variable."
+      },
+      {
+        "id": 2,
+        "question": "Que dénote invariablement le bleu dans les images thermographiques ?",
+        "propositions": [
+          "Humide",
+          "Sec",
+          "Chaud",
+          "Froid"
+        ],
+        "réponse": "Froid",
+        "anecdote": "De la même manière, sur la robinetterie domestique de nos salles de bain, la pastille bleue indique l'évacuation de l'eau froide."
+      },
+      {
+        "id": 3,
+        "question": "De quelle matière est fait le pantalon de travail Blue Jeans créé en 1873 ?",
+        "propositions": [
+          "Denim",
+          "Organdi",
+          "Madras",
+          "Bazin"
+        ],
+        "réponse": "Denim",
+        "anecdote": "Le terme est dérivé de serge de Nîmes, tissu français étant à l'origine un mélange de laine et de soie provenant des Cévennes."
+      },
+      {
+        "id": 4,
+        "question": "Quelle expression appliquée à la cuisine désigne aujourd'hui un grand chef cuisinier ?",
+        "propositions": [
+          "Lacet bleu",
+          "Ficelle bleue",
+          "Cordon bleu",
+          "Toque bleue"
+        ],
+        "réponse": "Cordon bleu",
+        "anecdote": "Autrefois, des porteurs du ruban bleu de l'ordre du Saint-Esprit se réunissaient régulièrement autour d'un succulent déjeuner."
+      },
+      {
+        "id": 5,
+        "question": "En électricité, à quoi correspond un fil de couleur bleue ?",
+        "propositions": [
+          "Positif",
+          "Terre",
+          "Neutre",
+          "Négatif"
+        ],
+        "réponse": "Neutre",
+        "anecdote": "Un système de courant (ou tension) triphasé est constitué de trois courants (ou tensions) sinusoïdaux de même fréquence."
+      },
+      {
+        "id": 6,
+        "question": "Quel système d'exploitation proposait un écran bleu en cas de plantage ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "Windows",
+          "Palm OS"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Les utilisateurs surnommèrent écran bleu de la mort (BSOD : Blue Screen Of Death) l'écran bleu survenant en cas de plantage."
+      },
+      {
+        "id": 7,
+        "question": "Lequel de ces pays possède un drapeau contenant du bleu ?",
+        "propositions": [
+          "Argentine",
+          "Mexique",
+          "Canada",
+          "Italie"
+        ],
+        "réponse": "Argentine",
+        "anecdote": "Il est constitué de deux bandes bleu ciel horizontales séparées par une bande blanche, avec en son centre un soleil doré."
+      },
+      {
+        "id": 8,
+        "question": "Quelle marque allemande a pour symbole un point bleu sérigraphié ?",
+        "propositions": [
+          "Siemens",
+          "Blaupunkt",
+          "Grundig",
+          "Bosch"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "La marque est née car le point bleu était estampillé sur les appareils déclarés en ordre pour la commercialisation."
+      },
+      {
+        "id": 9,
+        "question": "Quelles petites pilules bleues font le bonheur des couples d'un certain âge ?",
+        "propositions": [
+          "Xanax",
+          "Champix",
+          "Rescriptor",
+          "Viagra"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "Le citrate de sildénafil est un médicament de la classe des inhibiteurs développé par la firme pharmaceutique Pfizer."
+      },
+      {
+        "id": 10,
+        "question": "En France, quel type de lait est vendu dans une bouteille au bouchon bleu ?",
+        "propositions": [
+          "Demi-écrémé",
+          "Écrémé",
+          "Entier",
+          "Pasteurisé"
+        ],
+        "réponse": "Demi-écrémé",
+        "anecdote": "L'humain utilise le lait produit par certains mammifères domestiques, principalement celui de la vache, comme un aliment."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel bleu portent les marins de la Royal Navy depuis 1748 déjà ?",
+        "propositions": [
+          "Bleu marine",
+          "Bleu pétrole",
+          "Bleu dragée",
+          "Bleu acier"
+        ],
+        "réponse": "Bleu marine",
+        "anecdote": "Le gros bleu désigne aussi le tissu teint dans la couleur d'uniforme, dans lequel étaient taillées les tenues."
+      },
+      {
+        "id": 12,
+        "question": "Le bleu se constitue par la superposition du cyan et de quelle autre couleur ?",
+        "propositions": [
+          "Rouge",
+          "Marron",
+          "Magenta",
+          "Jaune"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "Dans les arts visuels, les bleus se situent sur le cercle chromatique entre les verts et les rouges, à l'opposé des jaunes."
+      },
+      {
+        "id": 13,
+        "question": "Quel bleu était utilisé sur les sarcophages, sculptures, papyrus et peintures murales ?",
+        "propositions": [
+          "Bleu cobalt",
+          "Bleu pervenche",
+          "Bleu pastel",
+          "Bleu égyptien"
+        ],
+        "réponse": "Bleu égyptien",
+        "anecdote": "La teinte obtenue variait selon la température de fonte et les impuretés qui affectent les minéraux utilisés dans la préparation."
+      },
+      {
+        "id": 14,
+        "question": "Quelle couleur est souvent qualifiée de septième couleur de l'arc-en-ciel ?",
+        "propositions": [
+          "Indigo",
+          "Outremer",
+          "Canard",
+          "Persan"
+        ],
+        "réponse": "Indigo",
+        "anecdote": "Newton distingua, dans le dégradé continu des couleurs de la lumière blanche décomposée par le prisme, sept couleurs."
+      },
+      {
+        "id": 15,
+        "question": "Quel état de mélancolie a donné naissance à un genre musical ?",
+        "propositions": [
+          "Blues",
+          "Folk",
+          "Funk",
+          "Gospel"
+        ],
+        "réponse": "Blues",
+        "anecdote": "Le terme blues vient de l'abréviation de l'expression anglaise blue devils (diables bleus) qui signifie idées noires."
+      },
+      {
+        "id": 16,
+        "question": "Quel terme est utilisé pour désigner une encre ou un tissu bleu très foncé ?",
+        "propositions": [
+          "Bleu barbeau",
+          "Bleu minéral",
+          "Bleu céleste",
+          "Bleu nuit"
+        ],
+        "réponse": "Bleu nuit",
+        "anecdote": "L'assimilation de la nuit à la couleur bleue est une référence naïve à ce que les savants appellent l'effet Purkinje."
+      },
+      {
+        "id": 17,
+        "question": "Le bleu est la couleur conventionnelle du manteau de quelle célèbre mère ?",
+        "propositions": [
+          "Vierge Marie",
+          "Mère Theresa",
+          "Mère Michel",
+          "Mère Poulard"
+        ],
+        "réponse": "Vierge Marie",
+        "anecdote": "Dans l'Église catholique, Marie est l'objet d'un culte particulier, supérieur au simple culte rendu aux saints et aux anges."
+      },
+      {
+        "id": 18,
+        "question": "Quel géant du milieu informatique se fait appeler Big Blue ?",
+        "propositions": [
+          "Microsoft",
+          "HP",
+          "IBM",
+          "Dell"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Née le 16 juin 1911, on prête au géant IBM le surnom de Big Blue en référence au bleu sombre, couleur longtemps associée à l'entreprise."
+      },
+      {
+        "id": 19,
+        "question": "Quel bleu soutenu était la couleur principale de l'uniforme de la Garde française ?",
+        "propositions": [
+          "Bleu fumée",
+          "Bleu roi",
+          "Bleu charrette",
+          "Bleu smalt"
+        ],
+        "réponse": "Bleu roi",
+        "anecdote": "À la Révolution française, la couleur de l'uniforme bleu de roi des Gardes françaises devint celui de la Garde nationale."
+      },
+      {
+        "id": 20,
+        "question": "Quel peuple du Sahara est connu par le surnom d'hommes bleus ?",
+        "propositions": [
+          "Doulats",
+          "Sengos",
+          "Touaregs",
+          "Gologs"
+        ],
+        "réponse": "Touaregs",
+        "anecdote": "Beaucoup ont abandonné le nomadisme pour se fixer dans les grandes villes en bordure du Sahara, comme Tamanrasset."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel bleu est obtenu par broyage de la pierre fine de lapis-lazuli ?",
+        "propositions": [
+          "Canard",
+          "Outremer",
+          "Saphir",
+          "Persan"
+        ],
+        "réponse": "Outremer",
+        "anecdote": "Le bleu outremer ne peut servir, en peinture, que pour certains usages : il doit en effet coexister avec d'autres bleus."
+      },
+      {
+        "id": 22,
+        "question": "Quel procédé ajoute une petite quantité de colorant bleu à une surface blanche ?",
+        "propositions": [
+          "Cuivrage",
+          "Enluminage",
+          "Azurage",
+          "Thermopliage"
+        ],
+        "réponse": "Azurage",
+        "anecdote": "L'indigo destiné à cet usage se vendait au début du XIXe siècle comme bleu céleste, bleu anglais ou boules de bleu."
+      },
+      {
+        "id": 23,
+        "question": "À partir de quels cristaux le premier pigment bleu fut-il obtenu par les Égyptiens ?",
+        "propositions": [
+          "Micrite",
+          "Otavite",
+          "Azurite",
+          "Sidérite"
+        ],
+        "réponse": "Azurite",
+        "anecdote": "L'azurite se présente sous forme de cristaux prismatiques ou tabulaires dont la couleur peut varier du bleu azur au bleu de Prusse."
+      },
+      {
+        "id": 24,
+        "question": "Comment est aussi appelé le bleu de Prusse, en raison de sa ville de découverte ?",
+        "propositions": [
+          "Bleu de Cologne",
+          "Bleu de Berlin",
+          "Bleu de Maastricht",
+          "Bleu de Munich"
+        ],
+        "réponse": "Bleu de Berlin",
+        "anecdote": "Le bleu de Prusse fut découvert accidentellement par le fabricant de couleurs Johann Jacob Diesbach, dans son labo en 1706."
+      },
+      {
+        "id": 25,
+        "question": "Résistant aux solvants, quel bleu sert de couche de marquage en chaudronnerie ?",
+        "propositions": [
+          "Bleu de Berlin",
+          "Bleu de Prusse",
+          "Bleu de cobalt",
+          "Bleu de France"
+        ],
+        "réponse": "Bleu de Prusse",
+        "anecdote": "Le bleu de Prusse fait partie de la liste des médicaments essentiels de l'Organisation mondiale de la santé (OMS)."
+      },
+      {
+        "id": 26,
+        "question": "Comment aiment parfois à se désigner les chasseur alpins ?",
+        "propositions": [
+          "Géants bleus",
+          "Sauveurs bleus",
+          "Héros bleus",
+          "Diables bleus"
+        ],
+        "réponse": "Diables bleus",
+        "anecdote": "Les chasseurs alpins sont des fantassins de l'Armée de terre française spécialisés dans le combat en milieu montagneux."
+      },
+      {
+        "id": 27,
+        "question": "Quel pigment extrêmement cher était admiré de Vincent van Gogh ?",
+        "propositions": [
+          "Bleu de cobalt",
+          "Bleu de titane",
+          "Bleu de nickel",
+          "Bleu de cadmium"
+        ],
+        "réponse": "Bleu de cobalt",
+        "anecdote": "Les bleus de cobalt ont l'inconvénient de perdre leur éclat de la lumière du jour quand on les éclaire à la lumière incandescente."
+      },
+      {
+        "id": 28,
+        "question": "Quel bleu bon marché est chimiquement identique au bleu outremer véritable ?",
+        "propositions": [
+          "Bleu Gautier",
+          "Bleu Guimet",
+          "Bleu Girard",
+          "Bleu Grimaux"
+        ],
+        "réponse": "Bleu Guimet",
+        "anecdote": "Le bleu Guimet est utilisé pour la peinture et pour l'azurage en teinturerie, en blanchisserie et dans l'industrie de la pâte à papier."
+      },
+      {
+        "id": 29,
+        "question": "Quel bleu a été à la mode pour les costumes masculins au début du XIXe siècle ?",
+        "propositions": [
+          "Bleu minéral",
+          "Bleu ciel",
+          "Bleu barbeau",
+          "Bleu céleste"
+        ],
+        "réponse": "Bleu barbeau",
+        "anecdote": "À l'époque, on pouvait porter un superbe habit bleu barbeau, une culotte de casimir noisette, des bottes à revers et un long gilet blanc."
+      },
+      {
+        "id": 30,
+        "question": "Quelle expression désigne péjorativement une femme lettrée et cultivée ?",
+        "propositions": [
+          "Sous-bleu",
+          "Petit-bleu",
+          "Bas-bleu",
+          "Faux-bleu"
+        ],
+        "réponse": "Bas-bleu",
+        "anecdote": "En France, le terme connut le même sort que celui de précieuse au XVIIe siècle pour devenir une critique."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What color has been associated with male babies since 1930 ?",
+        "propositions": [
+          "Sky blue",
+          "Mayan blue",
+          "Azure blue",
+          "Turquin blue"
+        ],
+        "réponse": "Sky blue",
+        "anecdote": "This light and bright blue refers to the color of the sky, caused by the scattering of light, in fact very variable."
+      },
+      {
+        "id": 2,
+        "question": "What does blue invariably denote in thermographic images ?",
+        "propositions": [
+          "Cold",
+          "Dry",
+          "Wet",
+          "Hot"
+        ],
+        "réponse": "Cold",
+        "anecdote": "Likewise, on the domestic taps in our bathrooms, the blue dot indicates the evacuation of cold water."
+      },
+      {
+        "id": 3,
+        "question": "What material are the Blue Jeans work pants created in 1873 made of ?",
+        "propositions": [
+          "Bazin",
+          "Organdi",
+          "Denim",
+          "Madras"
+        ],
+        "réponse": "Denim",
+        "anecdote": "The term is derived from serge de Nîmes, a French fabric that was originally a blend of wool and silk from the Cévennes."
+      },
+      {
+        "id": 4,
+        "question": "What expression applied to cooking today designates a great chef ?",
+        "propositions": [
+          "Blue string",
+          "Blue lace",
+          "Blue cord",
+          "Blue strap"
+        ],
+        "réponse": "Blue cord",
+        "anecdote": "In the past, holders of the blue ribbon of the Order of the Holy Spirit gathered regularly around a delicious lunch."
+      },
+      {
+        "id": 5,
+        "question": "In electricity, what is a blue wire ?",
+        "propositions": [
+          "Negative",
+          "Positive",
+          "Neutral",
+          "Earth"
+        ],
+        "réponse": "Neutral",
+        "anecdote": "A three-phase current (or voltage) system is made up of three sinusoidal currents (or voltages) of the same frequency."
+      },
+      {
+        "id": 6,
+        "question": "Which operating system offered a blue screen in the event of a crash ?",
+        "propositions": [
+          "Android",
+          "Windows",
+          "iOS",
+          "Palm OS"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Users nicknamed Blue Screen Of Death (BSOD) the blue screen that occurs when a crash occurs."
+      },
+      {
+        "id": 7,
+        "question": "Which of these countries has a flag containing blue ?",
+        "propositions": [
+          "Argentina",
+          "Canada",
+          "Italy",
+          "Mexico"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "It consists of two horizontal sky blue bands separated by a white band, with a golden sun in its center."
+      },
+      {
+        "id": 8,
+        "question": "Which German brand has a silkscreened blue dot as its symbol ?",
+        "propositions": [
+          "Bosch",
+          "Siemens",
+          "Grundig",
+          "Blaupunkt"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "The brand was born because the blue dot was stamped on devices declared in order for marketing."
+      },
+      {
+        "id": 9,
+        "question": "What little blue pills are popular with older couples ?",
+        "propositions": [
+          "Viagra",
+          "Rescriptor",
+          "Xanax",
+          "Champix"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "Sildenafil citrate is a drug from the inhibitor class developed by the pharmaceutical company Pfizer."
+      },
+      {
+        "id": 10,
+        "question": "In France, what type of milk is sold in a bottle with a blue cap ?",
+        "propositions": [
+          "Pasteurized",
+          "Whole",
+          "Skimmed",
+          "Semi-skimmed"
+        ],
+        "réponse": "Semi-skimmed",
+        "anecdote": "Humans use the milk produced by certain domestic mammals, mainly that of cows, as food."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What blue have sailors in the Royal Navy been wearing since 1748 ?",
+        "propositions": [
+          "Steel blue",
+          "Petrol blue",
+          "Navy blue",
+          "Blue dragee"
+        ],
+        "réponse": "Navy blue",
+        "anecdote": "The big blue also designates the fabric dyed in the color of the uniform, from which the outfits were cut."
+      },
+      {
+        "id": 12,
+        "question": "Blue is formed by the superposition of cyan and what other color ?",
+        "propositions": [
+          "Brown",
+          "Red",
+          "Yellow",
+          "Magenta"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "In the visual arts, blues are located on the chromatic circle between greens and reds, as opposed to yellows."
+      },
+      {
+        "id": 13,
+        "question": "What blue was used on sarcophagi, sculptures, papyri and wall paintings ?",
+        "propositions": [
+          "Periwinkle blue",
+          "Egyptian blue",
+          "Pastel blue",
+          "Cobalt blue"
+        ],
+        "réponse": "Egyptian blue",
+        "anecdote": "The color obtained varied according to the melting temperature and the impurities that affect the minerals used in the preparation."
+      },
+      {
+        "id": 14,
+        "question": "What color is often referred to as the seventh color of the rainbow ?",
+        "propositions": [
+          "Indigo",
+          "Persian",
+          "Duck",
+          "Overseas"
+        ],
+        "réponse": "Indigo",
+        "anecdote": "Newton distinguished, in the continuous gradient of the colors of the white light decomposed by the prism, seven colors."
+      },
+      {
+        "id": 15,
+        "question": "What state of melancholy gave birth to a musical genre ?",
+        "propositions": [
+          "Folk",
+          "Blues",
+          "Gospel",
+          "Funk"
+        ],
+        "réponse": "Blues",
+        "anecdote": "The term blues comes from the abbreviation of the English expression blue devils (blue devils) which means black ideas."
+      },
+      {
+        "id": 16,
+        "question": "What term is used to refer to a very dark blue ink or fabric ?",
+        "propositions": [
+          "Cornflower blue",
+          "Celestial blue",
+          "Midnight blue",
+          "Mineral blue"
+        ],
+        "réponse": "Midnight blue",
+        "anecdote": "The assimilation of night to the color blue is a naive reference to what scholars call the Purkinje effect."
+      },
+      {
+        "id": 17,
+        "question": "Blue is the conventional color of what famous mother's coat ?",
+        "propositions": [
+          "Mother Poulard",
+          "Mother Theresa",
+          "Virgin Mary",
+          "Mother Michel"
+        ],
+        "réponse": "Virgin Mary",
+        "anecdote": "In the Catholic Church, Mary is the object of a particular worship, superior to the simple worship rendered to saints and angels."
+      },
+      {
+        "id": 18,
+        "question": "Which IT giant calls itself Big Blue ?",
+        "propositions": [
+          "IBM",
+          "Microsoft",
+          "HP",
+          "Dell"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Born on June 16, 1911, she is given the nickname Big Blue in reference to dark blue, a color long associated with the company."
+      },
+      {
+        "id": 19,
+        "question": "What deep blue was the main color of the uniform of the French Guard ?",
+        "propositions": [
+          "Royal blue",
+          "Blue cart",
+          "Smoke blue",
+          "Smalt blue"
+        ],
+        "réponse": "Royal blue",
+        "anecdote": "During the French Revolution, the color of the royal blue uniform of the French Guards became that of the National Guard."
+      },
+      {
+        "id": 20,
+        "question": "Which people of the Sahara are known by the nickname of blue men ?",
+        "propositions": [
+          "Doulats",
+          "Sengos",
+          "Tuaregs",
+          "Gologs"
+        ],
+        "réponse": "Tuaregs",
+        "anecdote": "Many have abandoned nomadism to settle in large cities on the edge of the Sahara, such as Tamanrasset."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What blue is obtained by grinding fine lapis lazuli stone ?",
+        "propositions": [
+          "Sapphire",
+          "Persian",
+          "Duck",
+          "Overseas"
+        ],
+        "réponse": "Overseas",
+        "anecdote": "Ultramarine blue can only be used in painting for certain uses : it must indeed coexist with other blues."
+      },
+      {
+        "id": 22,
+        "question": "What process adds a small amount of blue dye to a white surface ?",
+        "propositions": [
+          "Illumination",
+          "Copper plating",
+          "Azure",
+          "Thermofolding"
+        ],
+        "réponse": "Azure",
+        "anecdote": "Indigo intended for this use was sold at the beginning of the 19th century as celestial blue, English blue or balls of blue."
+      },
+      {
+        "id": 23,
+        "question": "From which crystals was the first blue pigment obtained by the Egyptians ?",
+        "propositions": [
+          "Micrite",
+          "Otavite",
+          "Azurite",
+          "Siderite"
+        ],
+        "réponse": "Azurite",
+        "anecdote": "Azurite occurs as prismatic or tabular crystals, the color of which can vary from azure blue to Prussian blue."
+      },
+      {
+        "id": 24,
+        "question": "What is Prussian blue also called, due to its city of discovery ?",
+        "propositions": [
+          "Maastricht Blue",
+          "Berlin Blue",
+          "Cologne Blue",
+          "Munich Blue"
+        ],
+        "réponse": "Berlin Blue",
+        "anecdote": "Prussian blue was accidentally discovered by color maker Johann Jacob Diesbach in his lab in 1706."
+      },
+      {
+        "id": 25,
+        "question": "Resistant to solvents, which blue is used as a marking layer in boiler making ?",
+        "propositions": [
+          "Berlin Blue",
+          "Cobalt blue",
+          "Prussian Blue",
+          "Bleu de France"
+        ],
+        "réponse": "Prussian Blue",
+        "anecdote": "Prussian blue is on the World Health Organization (WHO) list of essential drugs."
+      },
+      {
+        "id": 26,
+        "question": "How do alpine hunters sometimes like to refer to themselves ?",
+        "propositions": [
+          "Blue devils",
+          "Blue Saviors",
+          "Blue giants",
+          "Blue heroes"
+        ],
+        "réponse": "Blue devils",
+        "anecdote": "The alpine hunters are infantrymen of the French Army specialized in combat in mountainous environments."
+      },
+      {
+        "id": 27,
+        "question": "What extremely expensive pigment was Vincent van Gogh admired ?",
+        "propositions": [
+          "Cobalt blue",
+          "Nickel blue",
+          "Cadmium blue",
+          "Titanium blue"
+        ],
+        "réponse": "Cobalt blue",
+        "anecdote": "Cobalt blues have the disadvantage of losing their daylight glow when illuminated with incandescent light."
+      },
+      {
+        "id": 28,
+        "question": "What inexpensive blue is chemically identical to true ultramarine blue ?",
+        "propositions": [
+          "Guimet Blue",
+          "Blue Grimaux",
+          "Gautier Blue",
+          "Girard Blue"
+        ],
+        "réponse": "Guimet Blue",
+        "anecdote": "Guimet blue is used for painting and for brightening in dyeing, laundry and in the pulp industry."
+      },
+      {
+        "id": 29,
+        "question": "What blue was fashionable for men's suits in the early 19th century ?",
+        "propositions": [
+          "Cornflower blue",
+          "Sky blue",
+          "Celestial blue",
+          "Mineral blue"
+        ],
+        "réponse": "Cornflower blue",
+        "anecdote": "He wore a superb barbel blue coat, hazelnut casimir breeches, cuffed boots and a long white waistcoat."
+      },
+      {
+        "id": 30,
+        "question": "What expression pejoratively designates a literate and cultured woman ?",
+        "propositions": [
+          "Under-blue",
+          "Faux-blue",
+          "Small-blue",
+          "Bas-blue"
+        ],
+        "réponse": "Bas-blue",
+        "anecdote": "In France, the term met the same fate as that of precious in the seventeenth century to become a criticism."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Farbe wird seit 1930 mit männlichen Babys in Verbindung gebracht ?",
+        "propositions": [
+          "Türkisblau",
+          "Azurblau",
+          "Mayablau",
+          "Himmelblau"
+        ],
+        "réponse": "Himmelblau",
+        "anecdote": "Dieses helle und helle Blau bezieht sich auf die Farbe des Himmels, die durch die Streuung des Lichts verursacht wird und tatsächlich sehr variabel ist."
+      },
+      {
+        "id": 2,
+        "question": "Was bedeutet Blau in Thermografiebildern ausnahmslos ?",
+        "propositions": [
+          "Heiß",
+          "Nass",
+          "Trocken",
+          "Kälte"
+        ],
+        "réponse": "Kälte",
+        "anecdote": "Auch an den Haushaltshähnen in unseren Bädern weist der blaue Punkt auf die Ableitung von Kaltwasser hin."
+      },
+      {
+        "id": 3,
+        "question": "Aus welchem Material besteht die Blue Jeans Arbeitshose aus dem Jahr 1873 ?",
+        "propositions": [
+          "Bazin",
+          "Jeans",
+          "Madras",
+          "Organdi"
+        ],
+        "réponse": "Jeans",
+        "anecdote": "Der Begriff leitet sich von Serge de Nîmes ab, einem französischen Stoff, der ursprünglich eine Mischung aus Wolle und Seide aus den Cevennen war."
+      },
+      {
+        "id": 4,
+        "question": "Welcher Ausdruck, der heute beim Kochen verwendet wird, bezeichnet einen großen Koch ?",
+        "propositions": [
+          "Blaue Spitze",
+          "Blaues Armband",
+          "Blaue Schnur",
+          "Blaue Kordel"
+        ],
+        "réponse": "Blaue Kordel",
+        "anecdote": "In der Vergangenheit versammelten sich regelmäßig Träger des blauen Bandes des Heiligen Geistes um ein leckeres Mittagessen."
+      },
+      {
+        "id": 5,
+        "question": "Was ist in der Elektrizität ein blaues Kabel ?",
+        "propositions": [
+          "Positiv",
+          "Neutral",
+          "Erde",
+          "Negativ"
+        ],
+        "réponse": "Neutral",
+        "anecdote": "Ein dreiphasiges Strom- (oder Spannungs-)System besteht aus drei sinusförmigen Strömen (oder Spannungen) gleicher Frequenz."
+      },
+      {
+        "id": 6,
+        "question": "Welches Betriebssystem bot bei einem Absturz einen Bluescreen ?",
+        "propositions": [
+          "iOS",
+          "Palm OS",
+          "Windows",
+          "Android"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Benutzer nannten Blue Screen Of Death (BSOD) den blauen Bildschirm, der auftritt, wenn ein Absturz auftritt."
+      },
+      {
+        "id": 7,
+        "question": "Welches dieser Länder hat eine blaue Flagge ?",
+        "propositions": [
+          "Argentinien",
+          "Kanada",
+          "Mexiko",
+          "Italien"
+        ],
+        "réponse": "Argentinien",
+        "anecdote": "Es besteht aus zwei horizontalen himmelblauen Bändern, die durch ein weißes Band getrennt sind, mit einer goldenen Sonne in der Mitte."
+      },
+      {
+        "id": 8,
+        "question": "Welche deutsche Marke hat einen siebgedruckten blauen Punkt als Symbol ?",
+        "propositions": [
+          "Bosch",
+          "Siemens",
+          "Blaupunkt",
+          "Grundig"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "Die Marke wurde geboren, weil der blaue Punkt auf Geräten gestempelt wurde, die für die Vermarktung deklariert wurden."
+      },
+      {
+        "id": 9,
+        "question": "Welche kleinen blauen Pillen sind bei älteren Paaren beliebt ?",
+        "propositions": [
+          "Viagra",
+          "Champix",
+          "Reskriptor",
+          "Xanax"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "Sildenafilcitrat ist ein Medikament aus der Inhibitorklasse, das vom Pharmaunternehmen Pfizer entwickelt wurde."
+      },
+      {
+        "id": 10,
+        "question": "Welche Milch wird in Frankreich in einer Flasche mit blauem Verschluss verkauft ?",
+        "propositions": [
+          "Abgeschöpft",
+          "Ganze",
+          "Pasteurisiert",
+          "teilentrahmt"
+        ],
+        "réponse": "teilentrahmt",
+        "anecdote": "Der Mensch verwendet die Milch bestimmter Haussäugetiere, vor allem der Kühe, als Nahrung."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches Blau haben Matrosen der Royal Navy seit 1748 getragen ?",
+        "propositions": [
+          "Marineblau",
+          "Blaues Dragee",
+          "Stahlblau",
+          "Petrolblau"
+        ],
+        "réponse": "Marineblau",
+        "anecdote": "Das große Blau bezeichnet auch den in der Farbe der Uniform gefärbten Stoff, aus dem die Outfits geschnitten wurden."
+      },
+      {
+        "id": 12,
+        "question": "Blau entsteht durch die Überlagerung von Cyan und welcher anderen Farbe ?",
+        "propositions": [
+          "Magenta",
+          "Braun",
+          "Gelb",
+          "Rot"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "In der bildenden Kunst liegt Blau im Gegensatz zu Gelb auf dem Farbkreis zwischen Grün und Rot."
+      },
+      {
+        "id": 13,
+        "question": "Welches Blau wurde auf Sarkophagen, Skulpturen, Papyri und Wandmalereien verwendet ?",
+        "propositions": [
+          "Ägyptisch blau",
+          "Kobaltblau",
+          "Pastellblau",
+          "Immergrün blau"
+        ],
+        "réponse": "Ägyptisch blau",
+        "anecdote": "Die erhaltene Farbe variiert je nach Schmelztemperatur und den Verunreinigungen, die die in der Zubereitung verwendeten Mineralien beeinträchtigen."
+      },
+      {
+        "id": 14,
+        "question": "Welche Farbe wird oft als siebte Farbe des Regenbogens bezeichnet ?",
+        "propositions": [
+          "Ente",
+          "Indigo",
+          "Persisch",
+          "Übersee"
+        ],
+        "réponse": "Indigo",
+        "anecdote": "Newton unterschied im kontinuierlichen Farbverlauf des durch das Prisma zerlegten weißen Lichts sieben Farben."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Zustand der Melancholie hat ein Musikgenre geboren ?",
+        "propositions": [
+          "Funk",
+          "Volk",
+          "Blues",
+          "Evangelium"
+        ],
+        "réponse": "Blues",
+        "anecdote": "Der Begriff Blues leitet sich von der Abkürzung des englischen Ausdrucks blue devils (blue devils) ab, was soviel wie schwarze Ideen bedeutet."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Begriff wird verwendet, um eine sehr dunkelblaue Tinte oder einen Stoff zu bezeichnen ?",
+        "propositions": [
+          "Mineralblau",
+          "Himmlisches Blau",
+          "Mitternachtsblau",
+          "Kornblumenblau"
+        ],
+        "réponse": "Mitternachtsblau",
+        "anecdote": "Die Angleichung der Nacht an die Farbe Blau ist ein naiver Hinweis auf das, was Gelehrte den Purkinje-Effekt nennen."
+      },
+      {
+        "id": 17,
+        "question": "Blau ist die konventionelle Farbe des Mantels welcher berühmten Mutter ?",
+        "propositions": [
+          "Mutter Poularde",
+          "Jungfrau Maria",
+          "Mutter Michel",
+          "Mutter Theresa"
+        ],
+        "réponse": "Jungfrau Maria",
+        "anecdote": "In der katholischen Kirche ist Maria Gegenstand einer besonderen Anbetung, die der einfachen Anbetung von Heiligen und Engeln überlegen ist."
+      },
+      {
+        "id": 18,
+        "question": "Welcher IT-Riese nennt sich Big Blue ?",
+        "propositions": [
+          "PS",
+          "Dell",
+          "IBM",
+          "Microsoft"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Sie wurde am 16. Juni 1911 geboren und erhält den Spitznamen Big Blue in Anlehnung an das Dunkelblau, eine Farbe, die seit langem mit dem Unternehmen verbunden ist."
+      },
+      {
+        "id": 19,
+        "question": "Welches Tiefblau war die Hauptfarbe der Uniform der französischen Garde ?",
+        "propositions": [
+          "Rauchblau",
+          "Blauer Wagen",
+          "Königsblau",
+          "Blau"
+        ],
+        "réponse": "Königsblau",
+        "anecdote": "Während der Französischen Revolution wurde die Farbe der königsblauen Uniform der französischen Garde die der Nationalgarde."
+      },
+      {
+        "id": 20,
+        "question": "Welche Menschen in der Sahara sind unter dem Spitznamen blaue Männer bekannt ?",
+        "propositions": [
+          "Doulat",
+          "Tuareg",
+          "Sengos",
+          "Gologs"
+        ],
+        "réponse": "Tuareg",
+        "anecdote": "Viele haben das Nomadentum aufgegeben und sich in großen Städten am Rande der Sahara wie Tamanrasset niedergelassen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches Blau erhält man durch das Schleifen von feinem Lapislazuli-Stein ?",
+        "propositions": [
+          "Saphir",
+          "Übersee",
+          "Ente",
+          "Persisch"
+        ],
+        "réponse": "Übersee",
+        "anecdote": "Ultramarinblau kann nur für bestimmte Zwecke in der Malerei verwendet werden : Es muss tatsächlich mit anderen Blautönen koexistieren."
+      },
+      {
+        "id": 22,
+        "question": "Welches Verfahren fügt einer weißen Oberfläche eine kleine Menge blauen Farbstoffs hinzu ?",
+        "propositions": [
+          "Beleuchtung",
+          "Azur",
+          "Thermofaltung",
+          "Verkupfern"
+        ],
+        "réponse": "Azur",
+        "anecdote": "Indigo zu diesem Zweck wurde im frühen neunzehnten Jahrhundert als himmlische blaue, englische blaue oder blaue Kugeln verkauft."
+      },
+      {
+        "id": 23,
+        "question": "Aus welchen Kristallen wurde das erste blaue Pigment der Ägypter gewonnen ?",
+        "propositions": [
+          "Azurit",
+          "Mikrit",
+          "Otavit",
+          "Siderit"
+        ],
+        "réponse": "Azurit",
+        "anecdote": "Azurit kommt in Form von prismatischen oder tafelförmigen Kristallen vor, deren Farbe von Azurblau bis Preußischblau variieren kann."
+      },
+      {
+        "id": 24,
+        "question": "Wie wird Preußischblau wegen seiner Entdeckungsstadt auch genannt ?",
+        "propositions": [
+          "Köln Blau",
+          "Maastricht Blau",
+          "Berliner Blau",
+          "München Blau"
+        ],
+        "réponse": "Berliner Blau",
+        "anecdote": "Das Preußische Blau wurde 1706 zufällig vom Farbmacher Johann Jacob Diesbach in seinem Labor entdeckt."
+      },
+      {
+        "id": 25,
+        "question": "Beständig gegen Lösungsmittel, welches Blau wird als Markierungsschicht im Kesselbau verwendet ?",
+        "propositions": [
+          "Kobaltblau",
+          "Bleu de France",
+          "Preußischblau",
+          "Berliner Blau"
+        ],
+        "réponse": "Preußischblau",
+        "anecdote": "Preußisch Blau steht auf der Liste der unentbehrlichen Medikamente der Weltgesundheitsorganisation (WHO)."
+      },
+      {
+        "id": 26,
+        "question": "Wie bezeichnen sich Alpenjäger manchmal gerne selbst ?",
+        "propositions": [
+          "Blaue Retter",
+          "Blaue Teufel",
+          "Blaue Helden",
+          "Blaue Riesen"
+        ],
+        "réponse": "Blaue Teufel",
+        "anecdote": "Die Alpenjäger sind Infanteristen der französischen Armee, die auf den Kampf in bergiger Umgebung spezialisiert sind."
+      },
+      {
+        "id": 27,
+        "question": "Welches extrem teure Pigment wurde von Vincent van Gogh bewundert ?",
+        "propositions": [
+          "Cadmiumblau",
+          "Nickelblau",
+          "Kobaltblau",
+          "Titanblau"
+        ],
+        "réponse": "Kobaltblau",
+        "anecdote": "Kobaltblaue haben den Nachteil, dass sie bei Beleuchtung mit Glühlampen ihr Tageslicht verlieren."
+      },
+      {
+        "id": 28,
+        "question": "Welches billige Blau ist chemisch mit echtem Ultramarinblau identisch ?",
+        "propositions": [
+          "Girard Blau",
+          "Gautier Blau",
+          "Blauer Grimaux",
+          "Guimet Blau"
+        ],
+        "réponse": "Guimet Blau",
+        "anecdote": "Guimet Blau wird zum Lackieren und Aufhellen in der Färberei, Wäscherei und in der Zellstoffindustrie verwendet."
+      },
+      {
+        "id": 29,
+        "question": "Welches Blau war im frühen 19. Jahrhundert für Herrenanzüge in Mode ?",
+        "propositions": [
+          "Mineralblau",
+          "Himmelblau",
+          "Himmlisches Blau",
+          "Kornblumenblau"
+        ],
+        "réponse": "Kornblumenblau",
+        "anecdote": "Er trug einen prächtigen, barbenblauen Mantel, eine haselnussbraune Kasimir-Reithose, Stiefel mit Manschetten und eine lange weiße Weste."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Ausdruck bezeichnet abwertend eine gebildete und gebildete Frau ?",
+        "propositions": [
+          "Kunstblau",
+          "Bas-blau",
+          "Klein-blau",
+          "Unterblau"
+        ],
+        "réponse": "Bas-blau",
+        "anecdote": "In Frankreich traf der Begriff das gleiche Schicksal wie das von kostbar im siebzehnten Jahrhundert, um ein Kritiker zu werden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué color se ha asociado con los bebés varones desde 1930 ?",
+        "propositions": [
+          "Azul maya",
+          "Azul celeste",
+          "Azul cielo",
+          "Azul turquín"
+        ],
+        "réponse": "Azul cielo",
+        "anecdote": "Este azul claro y brillante hace referencia al color del cielo, provocado por la dispersión de la luz, de hecho muy variable."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué denota invariablemente el azul en las imágenes termográficas ?",
+        "propositions": [
+          "Mojado",
+          "Caliente",
+          "Frío",
+          "Seco"
+        ],
+        "réponse": "Frío",
+        "anecdote": "Asimismo, en la grifería doméstica de nuestros baños, el punto azul indica la evacuación del agua fría."
+      },
+      {
+        "id": 3,
+        "question": "¿De qué material están hechos los pantalones de trabajo Blue Jeans creados en 1873 ?",
+        "propositions": [
+          "Bazin",
+          "Denim",
+          "Madras",
+          "Organdi"
+        ],
+        "réponse": "Denim",
+        "anecdote": "El término se deriva de serge de Nîmes, una tela francesa que originalmente era una mezcla de lana y seda de las Cevenas."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué expresión aplicada a la cocina actual designa a un gran chef ?",
+        "propositions": [
+          "Cadena azul",
+          "Correa azul",
+          "Cordón azul",
+          "Encaje azul"
+        ],
+        "réponse": "Cordón azul",
+        "anecdote": "En el pasado, los poseedores de la cinta azul de la Orden del Espíritu Santo se reunían regularmente en torno a un delicioso almuerzo."
+      },
+      {
+        "id": 5,
+        "question": "En electricidad, ¿qué es un cable azul ?",
+        "propositions": [
+          "Neutral",
+          "Negativo",
+          "Tierra",
+          "Positivo"
+        ],
+        "réponse": "Neutral",
+        "anecdote": "Un sistema de corriente (o voltaje) trifásico se compone de tres corrientes (o voltajes) sinusoidales de la misma frecuencia."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué sistema operativo ofrecía una pantalla azul en caso de bloqueo ?",
+        "propositions": [
+          "iOS",
+          "Palm OS",
+          "Android",
+          "Windows"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Los usuarios apodaron Blue Screen Of Death (BSOD) la pantalla azul que ocurre cuando ocurre un accidente."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuál de estos países tiene una bandera que contiene azul ?",
+        "propositions": [
+          "México",
+          "Argentina",
+          "Italia ","Italie",
+          "Canadá"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Consiste en dos bandas horizontales de color azul cielo separadas por una banda blanca, con un sol dorado en su centro."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué marca alemana tiene un punto azul serigrafiado como símbolo ?",
+        "propositions": [
+          "Blaupunkt",
+          "Bosch",
+          "Grundig",
+          "Siemens"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "La marca nació porque el punto azul estaba estampado en los dispositivos declarados para su comercialización."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué pequeñas píldoras azules son populares entre las parejas mayores ?",
+        "propositions": [
+          "Viagra",
+          "Rescriptor",
+          "Xanax",
+          "Champix"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "El citrato de sildenafil es un fármaco de la clase de inhibidores desarrollado por la compañía farmacéutica Pfizer."
+      },
+      {
+        "id": 10,
+        "question": "En Francia, ¿qué tipo de leche se vende en una botella con tapón azul ?",
+        "propositions": [
+          "Pasteurizado",
+          "Entero",
+          "Desnatado",
+          "Semidesnatada"
+        ],
+        "réponse": "Semidesnatada",
+        "anecdote": "Los seres humanos utilizan la leche producida por determinados mamíferos domésticos, principalmente la de las vacas, como alimento."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué azul llevan los marineros de la Royal Navy desde 1748 ?",
+        "propositions": [
+          "Azul acero",
+          "Azul petróleo",
+          "Azul marino",
+          "Gragea azul"
+        ],
+        "réponse": "Azul marino",
+        "anecdote": "El azul grande también designa la tela teñida del color del uniforme, de la cual se cortaron los conjuntos."
+      },
+      {
+        "id": 12,
+        "question": "El azul está formado por la superposición de cian y ¿de qué otro color ?",
+        "propositions": [
+          "Amarillo",
+          "Rojo",
+          "Magenta",
+          "Marrón"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "En las artes visuales, los azules se ubican en el círculo cromático entre verdes y rojos, a diferencia de los amarillos."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué azul se utilizó en sarcófagos, esculturas, papiros y pinturas murales ?",
+        "propositions": [
+          "Azul bígaro",
+          "Azul egipcio",
+          "Azul pastel",
+          "Azul cobalto"
+        ],
+        "réponse": "Azul egipcio",
+        "anecdote": "El color obtenido varió según la temperatura de fusión y las impurezas que afectan a los minerales utilizados en la preparación."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué color se conoce a menudo como el séptimo color del arco iris ?",
+        "propositions": [
+          "En el extranjero",
+          "Indigo",
+          "Pato",
+          "Persa"
+        ],
+        "réponse": "Indigo",
+        "anecdote": "Newton distinguió, en el degradado continuo de los colores de la luz blanca descompuesta por el prisma, siete colores."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué estado de melancolía dio origen a un género musical ?",
+        "propositions": [
+          "Evangelio",
+          "Funk",
+          "Folk",
+          "Blues"
+        ],
+        "réponse": "Blues",
+        "anecdote": "El término blues proviene de la abreviatura de la expresión inglesa blue devils (diablos azules) que significa ideas negras."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué término se utiliza para referirse a una tinta o tela de color azul muy oscuro ?",
+        "propositions": [
+          "Azul medianoche",
+          "Azul aciano",
+          "Azul celeste",
+          "Azul mineral"
+        ],
+        "réponse": "Azul medianoche",
+        "anecdote": "La asimilación de la noche al color azul es una referencia ingenua a lo que los estudiosos llaman el efecto Purkinje."
+      },
+      {
+        "id": 17,
+        "question": "¿El azul es el color convencional del abrigo de qué famosa madre ?",
+        "propositions": [
+          "Madre Poulard",
+          "Madre Teresa",
+          "Madre Michel",
+          "Virgen María"
+        ],
+        "réponse": "Virgen María",
+        "anecdote": "En la Iglesia Católica, María es objeto de un culto particular, superior al simple culto que se rinde a los santos y ángeles."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué gigante de TI se llama a sí mismo Big Blue ?",
+        "propositions": [
+          "IBM",
+          "Microsoft",
+          "HP",
+          "Dell"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Nacida el 16 de junio de 1911, recibe el sobrenombre de Big Blue en referencia al azul oscuro, un color asociado durante mucho tiempo a la empresa."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué azul profundo era el color principal del uniforme de la Guardia francesa ?",
+        "propositions": [
+          "Azul humo",
+          "Azul esmeralda",
+          "Azul real",
+          "Carro azul"
+        ],
+        "réponse": "Azul real",
+        "anecdote": "Durante la Revolución Francesa, el color del uniforme azul real de la Guardia Francesa se convirtió en el de la Guardia Nacional."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué pueblo del Sahara se conoce con el sobrenombre de hombres azules ?",
+        "propositions": [
+          "Tuaregs",
+          "Doulats",
+          "Gologs",
+          "Sengos"
+        ],
+        "réponse": "Tuaregs",
+        "anecdote": "Muchos han abandonado el nomadismo para asentarse en grandes ciudades al borde del Sahara, como Tamanrasset."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué azul se obtiene al moler la piedra fina de lapislázuli ?",
+        "propositions": [
+          "Zafiro",
+          "persa",
+          "en el extranjero",
+          "Pato"
+        ],
+        "réponse": "en el extranjero",
+        "anecdote": "El azul ultramar solo se puede utilizar en pintura para ciertos usos : de hecho, debe coexistir con otros azules."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué proceso agrega una pequeña cantidad de tinte azul a una superficie blanca ?",
+        "propositions": [
+          "Recubrimiento de cobre",
+          "azur",
+          "Iluminación",
+          "Termoplegado"
+        ],
+        "réponse": "azur",
+        "anecdote": "El índigo destinado a este uso se vendía a principios del siglo XIX como azul celeste, azul inglés o balls of blue."
+      },
+      {
+        "id": 23,
+        "question": "¿De qué cristales obtuvieron los egipcios el primer pigmento azul ?",
+        "propositions": [
+          "Azurita",
+          "Otavita",
+          "Siderita",
+          "Micrita"
+        ],
+        "réponse": "Azurita",
+        "anecdote": "La azurita se presenta en forma de cristales prismáticos o tabulares, cuyo color puede variar del azul celeste al azul de Prusia."
+      },
+      {
+        "id": 24,
+        "question": "¿Cómo se llama también al azul de Prusia, por su ciudad de descubrimiento ?",
+        "propositions": [
+          "Azul Berlín",
+          "Azul de Maastricht",
+          "Colonia Azul",
+          "Azul de Múnich"
+        ],
+        "réponse": "Azul Berlín",
+        "anecdote": "El azul de Prusia fue descubierto accidentalmente por el fabricante de colores Johann Jacob Diesbach en su laboratorio en 1706."
+      },
+      {
+        "id": 25,
+        "question": "Resistente a los disolventes, ¿qué azul se utiliza como capa de marcaje en la calderería ?",
+        "propositions": [
+          "Azul Berlín",
+          "Azul de Francia",
+          "Azul de Prusia",
+          "Azul cobalto"
+        ],
+        "réponse": "Azul de Prusia",
+        "anecdote": "El azul de Prusia está en la lista de medicamentos esenciales de la Organización Mundial de la Salud (OMS)."
+      },
+      {
+        "id": 26,
+        "question": "¿Cómo les gusta referirse a sí mismos a los cazadores alpinos ?",
+        "propositions": [
+          "Gigantes azules",
+          "diablos azules",
+          "Héroes azules",
+          "Salvadores azules"
+        ],
+        "réponse": "diablos azules",
+        "anecdote": "Los cazadores alpinos son soldados de infantería del ejército francés especializados en el combate en entornos montañosos."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué pigmento extremadamente caro admiraba Vincent van Gogh ?",
+        "propositions": [
+          "Azul cobalto",
+          "Níquel azul",
+          "Azul titanio",
+          "Azul de cadmio"
+        ],
+        "réponse": "Azul cobalto",
+        "anecdote": "Los azules cobalto tienen la desventaja de perder su brillo diurno cuando se iluminan con luz incandescente."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué azul económico es químicamente idéntico al verdadero azul ultramar ?",
+        "propositions": [
+          "Azul Gautier",
+          "Grimaux azules",
+          "Guimet Azul",
+          "Girard Azul"
+        ],
+        "réponse": "Guimet Azul",
+        "anecdote": "El azul de Guimet se utiliza para pintar y dar brillo en tintorería, lavandería y en la industria de la pulpa."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué azul estaba de moda para los trajes de hombre a principios del siglo XIX ?",
+        "propositions": [
+          "azul aciano",
+          "azul cielo",
+          "azul celeste",
+          "Azul mineral"
+        ],
+        "réponse": "azul aciano",
+        "anecdote": "Llevaba un soberbio abrigo azul barbo, calzones casimir color avellana, botas con puños y un chaleco largo blanco."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué expresión designa peyorativamente a una mujer alfabetizada y culta ?",
+        "propositions": [
+          "Bas-azul",
+          "Pequeño-azul",
+          "bajo azul",
+          "Falso-azul"
+        ],
+        "réponse": "Bas-azul",
+        "anecdote": "En Francia, el término corrió la misma suerte que el de precioso en el siglo XVII para convertirse en una crítica."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Che colore è stato associato ai bambini maschi dal 1930 ?",
+        "propositions": [
+          "Azzurro",
+          "Azzurro",
+          "Blu turchese",
+          "Blu Maya"
+        ],
+        "réponse": "Azzurro",
+        "anecdote": "Questo azzurro chiaro e brillante si riferisce al colore del cielo, causato dalla dispersione della luce, infatti molto variabile."
+      },
+      {
+        "id": 2,
+        "question": "Cosa denota invariabilmente il blu nelle immagini termografiche ?",
+        "propositions": [
+          "Secco",
+          "Caldo",
+          "Freddo",
+          "bagnato"
+        ],
+        "réponse": "Freddo",
+        "anecdote": "Allo stesso modo, sui rubinetti domestici dei nostri bagni, il punto blu indica l'evacuazione dell'acqua fredda."
+      },
+      {
+        "id": 3,
+        "question": "Di che materiale sono fatti i pantaloni da lavoro Blue Jeans creati nel 1873 ?",
+        "propositions": [
+          "Organdi",
+          "Bazin",
+          "Jeans",
+          "Madras"
+        ],
+        "réponse": "Jeans",
+        "anecdote": "Il termine deriva da serge de Nîmes, un tessuto francese che originariamente era una miscela di lana e seta delle Cevenne."
+      },
+      {
+        "id": 4,
+        "question": "Quale espressione applicata alla cucina oggi designa un grande chef ?",
+        "propositions": [
+          "Cavo blu",
+          "Pizzo blu",
+          "Cinturino blu",
+          "Corda blu"
+        ],
+        "réponse": "Cavo blu",
+        "anecdote": "In passato, i detentori del nastro azzurro dell'Ordine dello Spirito Santo si riunivano regolarmente attorno a un delizioso pranzo."
+      },
+      {
+        "id": 5,
+        "question": "In elettricità, cos'è un filo blu ?",
+        "propositions": [
+          "Neutro",
+          "Negativo",
+          "Positivo",
+          "Terra"
+        ],
+        "réponse": "Neutro",
+        "anecdote": "Un sistema di corrente (o tensione) trifase è costituito da tre correnti (o tensioni) sinusoidali della stessa frequenza."
+      },
+      {
+        "id": 6,
+        "question": "Quale sistema operativo offriva una schermata blu in caso di crash ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "Palm OS",
+          "Windows"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Gli utenti hanno soprannominato Blue Screen Of Death (BSOD) la schermata blu che si verifica quando si verifica un arresto anomalo."
+      },
+      {
+        "id": 7,
+        "question": "Quale di questi paesi ha una bandiera contenente il blu ?",
+        "propositions": [
+          "Italia",
+          "Argentina",
+          "Messico",
+          "Canada"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Consiste di due bande orizzontali azzurre separate da una banda bianca, con un sole dorato al centro."
+      },
+      {
+        "id": 8,
+        "question": "Quale marchio tedesco ha come simbolo un punto blu serigrafato ?",
+        "propositions": [
+          "Siemens",
+          "Grundig",
+          "Bosch",
+          "Blaupunkt"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "Il marchio è nato perché il punto blu era stampigliato sui dispositivi dichiarati in regola per la commercializzazione."
+      },
+      {
+        "id": 9,
+        "question": "Quali piccole pillole blu sono popolari tra le coppie anziane ?",
+        "propositions": [
+          "Xanax",
+          "Rescrittore",
+          "Champix",
+          "Viagra"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "Il citrato di sildenafil è un farmaco della classe degli inibitori sviluppato dalla società farmaceutica Pfizer."
+      },
+      {
+        "id": 10,
+        "question": "In Francia, che tipo di latte viene venduto in una bottiglia con tappo blu ?",
+        "propositions": [
+          "pastorizzato",
+          "Parzialmente scremato",
+          "Scremato",
+          "Intero"
+        ],
+        "réponse": "Parzialmente scremato",
+        "anecdote": "Gli esseri umani utilizzano il latte prodotto da alcuni mammiferi domestici, principalmente quello delle mucche, come cibo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Che blu indossano i marinai della Royal Navy dal 1748 ?",
+        "propositions": [
+          "Blu navy",
+          "Confetto blu",
+          "Blu acciaio",
+          "Blu petrolio"
+        ],
+        "réponse": "Blu navy",
+        "anecdote": "Il grande blu designa anche il tessuto tinto nel colore dell'uniforme, da cui sono stati tagliati gli abiti."
+      },
+      {
+        "id": 12,
+        "question": "Il blu è formato dalla sovrapposizione del ciano e di quale altro colore ?",
+        "propositions": [
+          "Magenta",
+          "Rosso",
+          "Giallo",
+          "Marrone"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "Nelle arti visive, i blu si trovano sul cerchio cromatico tra verdi e rossi, al contrario dei gialli."
+      },
+      {
+        "id": 13,
+        "question": "Quale blu veniva usato su sarcofagi, sculture, papiri e pitture murali ?",
+        "propositions": [
+          "Blu pastello",
+          "Blu pervinca",
+          "Blu egiziano",
+          "Blu cobalto"
+        ],
+        "réponse": "Blu egiziano",
+        "anecdote": "Il colore ottenuto variava in base alla temperatura di fusione e alle impurità che interessano i minerali utilizzati nella preparazione."
+      },
+      {
+        "id": 14,
+        "question": "Quale colore viene spesso definito il settimo colore dell'arcobaleno ?",
+        "propositions": [
+          "Indaco",
+          "Anatra",
+          "persiano",
+          "All'estero"
+        ],
+        "réponse": "Indaco",
+        "anecdote": "Newton distinse, nel gradiente continuo dei colori della luce bianca scomposta dal prisma, sette colori."
+      },
+      {
+        "id": 15,
+        "question": "Quale stato di malinconia ha fatto nascere un genere musicale ?",
+        "propositions": [
+          "Popolare",
+          "Blues",
+          "Vangelo",
+          "Funk"
+        ],
+        "réponse": "Blues",
+        "anecdote": "Il termine blues deriva dall'abbreviazione dell'espressione inglese blue devils (diavoli blu) che significa idee nere."
+      },
+      {
+        "id": 16,
+        "question": "Quale termine viene usato per riferirsi a un inchiostro o un tessuto blu molto scuro ?",
+        "propositions": [
+          "Fiordaliso",
+          "Blu notte",
+          "Celeste blu",
+          "Blu minerale"
+        ],
+        "réponse": "Blu notte",
+        "anecdote": "L'assimilazione della notte al colore blu è un ingenuo riferimento a quello che gli studiosi chiamano effetto Purkinje."
+      },
+      {
+        "id": 17,
+        "question": "Il blu è il colore convenzionale di quale famoso cappotto della madre ?",
+        "propositions": [
+          "Madre Teresa",
+          "Madre Poulard",
+          "Madre Michel",
+          "Vergine Maria"
+        ],
+        "réponse": "Vergine Maria",
+        "anecdote": "Nella Chiesa cattolica Maria è oggetto di un culto particolare, superiore al semplice culto reso ai santi e agli angeli."
+      },
+      {
+        "id": 18,
+        "question": "Quale gigante IT si definisce Big Blue ?",
+        "propositions": [
+          "IBM",
+          "HP",
+          "Dell",
+          "Microsoft"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Nata il 16 giugno 1911, le viene dato il soprannome di Big Blue in riferimento al blu scuro, un colore a lungo associato all'azienda."
+      },
+      {
+        "id": 19,
+        "question": "Quale blu intenso era il colore principale dell'uniforme della Guardia francese ?",
+        "propositions": [
+          "Fumo blu",
+          "Carrello blu",
+          "Azzurro",
+          "Blu reale"
+        ],
+        "réponse": "Blu reale",
+        "anecdote": "Durante la Rivoluzione francese, il colore dell'uniforme blu reale delle Guardie francesi divenne quello della Guardia nazionale."
+      },
+      {
+        "id": 20,
+        "question": "Quale popolo del Sahara è conosciuto con il soprannome di uomini blu ?",
+        "propositions": [
+          "Golog",
+          "Sengos",
+          "Tuareg",
+          "Doulat"
+        ],
+        "réponse": "Tuareg",
+        "anecdote": "Molti hanno abbandonato il nomadismo per stabilirsi nelle grandi città ai margini del Sahara, come Tamanrasset."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale blu si ottiene macinando fine pietra di lapislazzuli ?",
+        "propositions": [
+          "Anatra",
+          "Zaffiro",
+          "Oltremare",
+          "persiano"
+        ],
+        "réponse": "Oltremare",
+        "anecdote": "Il blu oltremare può essere utilizzato in pittura solo per determinati usi : deve infatti coesistere con altri blu."
+      },
+      {
+        "id": 22,
+        "question": "Quale processo aggiunge una piccola quantità di colorante blu a una superficie bianca ?",
+        "propositions": [
+          "ramatura",
+          "Illuminazione",
+          "Azzurro",
+          "Termopiegatura"
+        ],
+        "réponse": "Azzurro",
+        "anecdote": "L'indaco destinato a questo uso fu venduto all'inizio del XIX secolo come blu celeste, blu inglese o palline di blu."
+      },
+      {
+        "id": 23,
+        "question": "Da quali cristalli si ottenne il primo pigmento blu dagli egiziani ?",
+        "propositions": [
+          "Otavite",
+          "azzurrite",
+          "siderite",
+          "Micrita"
+        ],
+        "réponse": "azzurrite",
+        "anecdote": "L'azzurrite si presenta sotto forma di cristalli prismatici o tabulari, il cui colore può variare dal blu azzurro al blu di Prussia."
+      },
+      {
+        "id": 24,
+        "question": "Come viene chiamato anche il blu di Prussia, per via della sua città di scoperta ?",
+        "propositions": [
+          "Blu Berlino",
+          "Blu di Colonia",
+          "Blu Maastricht",
+          "Blu di Monaco"
+        ],
+        "réponse": "Blu Berlino",
+        "anecdote": "Il blu di Prussia fu scoperto casualmente dal colorista Johann Jacob Diesbach nel suo laboratorio nel 1706."
+      },
+      {
+        "id": 25,
+        "question": "Resistente ai solventi, quale blu viene utilizzato come strato di marcatura nella produzione di caldaie ?",
+        "propositions": [
+          "Blu di Francia",
+          "Blu di Prussia",
+          "Blu Berlino",
+          "Blu cobalto"
+        ],
+        "réponse": "Blu di Prussia",
+        "anecdote": "Il blu di Prussia è nell'elenco dei farmaci essenziali dell'Organizzazione mondiale della sanità (OMS)."
+      },
+      {
+        "id": 26,
+        "question": "In che modo i cacciatori alpini a volte amano riferirsi a se stessi ?",
+        "propositions": [
+          "Salvatori blu",
+          "Giganti blu",
+          "Eroi blu",
+          "diavoli blu"
+        ],
+        "réponse": "diavoli blu",
+        "anecdote": "I cacciatori alpini sono fanti dell'esercito francese specializzati nel combattimento in ambienti montuosi."
+      },
+      {
+        "id": 27,
+        "question": "Quale pigmento estremamente costoso era ammirato da Vincent van Gogh ?",
+        "propositions": [
+          "Blu cobalto",
+          "Blu cadmio",
+          "Nichel blu",
+          "Blu titanio"
+        ],
+        "réponse": "Blu cobalto",
+        "anecdote": "Il blu cobalto ha lo svantaggio di perdere il bagliore diurno se illuminato con luce a incandescenza."
+      },
+      {
+        "id": 28,
+        "question": "Quale blu poco costoso è chimicamente identico al vero blu oltremare ?",
+        "propositions": [
+          "Blu Gautier",
+          "Guimet Blu",
+          "Girard blu",
+          "Grimaux blu"
+        ],
+        "réponse": "Guimet Blu",
+        "anecdote": "Il blu Guimet è utilizzato per la verniciatura e per la ravvivatura in tintoria, bucato e nell'industria della pasta di legno."
+      },
+      {
+        "id": 29,
+        "question": "Quale blu era di moda per gli abiti da uomo all'inizio del XIX secolo ?",
+        "propositions": [
+          "Blu fiordaliso",
+          "Blu minerale",
+          "Azzurro cielo",
+          "Azzurro celeste"
+        ],
+        "réponse": "Blu fiordaliso",
+        "anecdote": "Indossava un superbo cappotto blu barbo, calzoni casimir nocciola, stivali con risvolto e un lungo panciotto bianco."
+      },
+      {
+        "id": 30,
+        "question": "Quale espressione designa in senso peggiorativo una donna colta e colta ?",
+        "propositions": [
+          "Bas-blu",
+          "Finto blu",
+          "Under-blu",
+          "Piccolo-blu"
+        ],
+        "réponse": "Bas-blu",
+        "anecdote": "In Francia il termine subì la stessa sorte di quello di prezioso nel XVII secolo fino a diventare una critica."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke kleur wordt sinds 1930 in verband gebracht met mannelijke baby's ?",
+        "propositions": [
+          "Turquin blauw",
+          "Azuurblauw",
+          "Hemelsblauw",
+          "Maya blauw"
+        ],
+        "réponse": "Hemelsblauw",
+        "anecdote": "Dit lichte en heldere blauw verwijst naar de kleur van de lucht, veroorzaakt door de verstrooiing van licht, in feite zeer variabel."
+      },
+      {
+        "id": 2,
+        "question": "Wat betekent blauw steevast in thermografische afbeeldingen ?",
+        "propositions": [
+          "Koud",
+          "Heet",
+          "Droog",
+          "Nat"
+        ],
+        "réponse": "Koud",
+        "anecdote": "Evenzo geeft de blauwe stip op de huishoudelijke kranen in onze badkamers de afvoer van koud water aan."
+      },
+      {
+        "id": 3,
+        "question": "Van welk materiaal is de Blue Jeans werkbroek gemaakt in 1873 gemaakt ?",
+        "propositions": [
+          "Denim",
+          "Organdi",
+          "Madras",
+          "Bazin"
+        ],
+        "réponse": "Denim",
+        "anecdote": "De term is afgeleid van serge de Nîmes, een Franse stof die oorspronkelijk een mix was van wol en zijde uit de Cevennen."
+      },
+      {
+        "id": 4,
+        "question": "Welke uitdrukking die tegenwoordig op koken wordt toegepast, duidt een geweldige chef-kok aan ?",
+        "propositions": [
+          "Blauwe string",
+          "Blauwe kant",
+          "Blauw koord",
+          "Blauwe band"
+        ],
+        "réponse": "Blauw koord",
+        "anecdote": "Vroeger verzamelden houders van het blauwe lint van de Orde van de Heilige Geest zich regelmatig rond een heerlijke lunch."
+      },
+      {
+        "id": 5,
+        "question": "Wat is een blauwe draad in elektriciteit ?",
+        "propositions": [
+          "Negatief",
+          "Aarde",
+          "Neutraal",
+          "Positief"
+        ],
+        "réponse": "Neutraal",
+        "anecdote": "Een driefasig stroom- (of spannings) systeem bestaat uit drie sinusvormige stromen (of spanningen) van dezelfde frequentie."
+      },
+      {
+        "id": 6,
+        "question": "Welk besturingssysteem bood een blauw scherm bij een crash ?",
+        "propositions": [
+          "Android",
+          "iOS",
+          "Windows",
+          "Palm OS"
+        ],
+        "réponse": "Windows",
+        "anecdote": "Gebruikers noemden Blue Screen Of Death (BSOD) het blauwe scherm dat optreedt wanneer een crash optreedt."
+      },
+      {
+        "id": 7,
+        "question": "Welke van deze landen heeft een vlag met blauw ?",
+        "propositions": [
+          "Canada",
+          "Mexico",
+          "Argentinië",
+          "Italië"
+        ],
+        "réponse": "Argentinië",
+        "anecdote": "Het bestaat uit twee horizontale hemelsblauwe banden, gescheiden door een witte band, met een gouden zon in het midden."
+      },
+      {
+        "id": 8,
+        "question": "Welk Duits merk heeft een gezeefdrukte blauwe stip als symbool ?",
+        "propositions": [
+          "Grundig",
+          "Bosch",
+          "Blaupunkt",
+          "Siemens"
+        ],
+        "réponse": "Blaupunkt",
+        "anecdote": "Het merk werd geboren omdat de blauwe stip was gestempeld op apparaten die waren aangegeven voor marketing."
+      },
+      {
+        "id": 9,
+        "question": "Welke kleine blauwe pillen zijn populair bij oudere stellen ?",
+        "propositions": [
+          "Xanax",
+          "Viagra",
+          "Rescriptor",
+          "Champix"
+        ],
+        "réponse": "Viagra",
+        "anecdote": "Sildenafilcitraat is een medicijn uit de klasse van remmers dat is ontwikkeld door het farmaceutische bedrijf Pfizer."
+      },
+      {
+        "id": 10,
+        "question": "Wat voor soort melk wordt er in Frankrijk verkocht in een fles met een blauwe dop ?",
+        "propositions": [
+          "magere",
+          "Halfvolle",
+          "Heel",
+          "gepasteuriseerd"
+        ],
+        "réponse": "Halfvolle",
+        "anecdote": "Mensen gebruiken de melk die wordt geproduceerd door bepaalde gedomesticeerde zoogdieren, voornamelijk die van koeien, als voedsel."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk blauw dragen zeelieden van de Royal Navy sinds 1748 ?",
+        "propositions": [
+          "Marineblauw",
+          "Staalblauw",
+          "Benzine blauw",
+          "Blauwe dragee"
+        ],
+        "réponse": "Marineblauw",
+        "anecdote": "Het grote blauw duidt ook de stof aan die is geverfd in de kleur van het uniform, waaruit de outfits zijn gesneden."
+      },
+      {
+        "id": 12,
+        "question": "Blauw wordt gevormd door de superpositie van cyaan en welke andere kleur ?",
+        "propositions": [
+          "Geel",
+          "Rood",
+          "Bruin",
+          "Magenta"
+        ],
+        "réponse": "Magenta",
+        "anecdote": "In de beeldende kunst bevindt blauw zich op de chromatische cirkel tussen groen en rood, in tegenstelling tot geel."
+      },
+      {
+        "id": 13,
+        "question": "Welk blauw werd gebruikt op sarcofagen, sculpturen, papyri en muurschilderingen ?",
+        "propositions": [
+          "Pastelblauw",
+          "Egyptisch blauw",
+          "Maagdenpalm blauw",
+          "Kobaltblauw"
+        ],
+        "réponse": "Egyptisch blauw",
+        "anecdote": "De verkregen kleur varieerde afhankelijk van de smelttemperatuur en de onzuiverheden die de mineralen aantasten die bij het preparaat worden gebruikt."
+      },
+      {
+        "id": 14,
+        "question": "Welke kleur wordt vaak de zevende kleur van de regenboog genoemd ?",
+        "propositions": [
+          "Overzee",
+          "Eend",
+          "Perzisch",
+          "Indigo"
+        ],
+        "réponse": "Indigo",
+        "anecdote": "Newton onderscheidde in de continue gradiënt van de kleuren van het witte licht dat door het prisma wordt afgebroken, zeven kleuren."
+      },
+      {
+        "id": 15,
+        "question": "Uit welke staat van melancholie is een muzikaal genre voortgekomen ?",
+        "propositions": [
+          "Blues",
+          "Volk",
+          "evangelie",
+          "Funk"
+        ],
+        "réponse": "Blues",
+        "anecdote": "De term blues komt van de afkorting van de Engelse uitdrukking blue devils (blauwe duivels), wat zwarte ideeën betekent."
+      },
+      {
+        "id": 16,
+        "question": "Welke term wordt gebruikt om te verwijzen naar een zeer donkerblauwe inkt of stof ?",
+        "propositions": [
+          "Hemelsblauw",
+          "Mineraal blauw",
+          "Korenbloemblauw",
+          "Middernachtblauw"
+        ],
+        "réponse": "Middernachtblauw",
+        "anecdote": "De assimilatie van de nacht met de kleur blauw is een naïeve verwijzing naar wat geleerden het Purkinje-effect noemen."
+      },
+      {
+        "id": 17,
+        "question": "Blauw is de conventionele kleur van welke beroemde moeders jas ?",
+        "propositions": [
+          "Moeder Poulard",
+          "Moeder Theresa",
+          "Maagd Maria",
+          "Moeder Michel"
+        ],
+        "réponse": "Maagd Maria",
+        "anecdote": "In de katholieke kerk is Maria het voorwerp van een bijzondere aanbidding, superieur aan de eenvoudige aanbidding van heiligen en engelen."
+      },
+      {
+        "id": 18,
+        "question": "Welke IT-gigant noemt zichzelf Big Blue ?",
+        "propositions": [
+          "IBM",
+          "HP",
+          "Microsoft",
+          "Dell"
+        ],
+        "réponse": "IBM",
+        "anecdote": "Ze werd geboren op 16 juni 1911 en kreeg de bijnaam Big Blue als verwijzing naar donkerblauw, een kleur die al lang met het bedrijf wordt geassocieerd."
+      },
+      {
+        "id": 19,
+        "question": "Welk diepblauw was de hoofdkleur van het uniform van de Franse Garde ?",
+        "propositions": [
+          "Smalblauw",
+          "Blauwe kar",
+          "Koningsblauw",
+          "Rookblauw"
+        ],
+        "réponse": "Koningsblauw",
+        "anecdote": "Tijdens de Franse Revolutie werd de kleur van het koningsblauwe uniform van de Franse Garde die van de Nationale Garde."
+      },
+      {
+        "id": 20,
+        "question": "Welke mensen in de Sahara staan bekend onder de bijnaam blauwe mannen ?",
+        "propositions": [
+          "Gologs",
+          "Sengos",
+          "Doulats",
+          "Toearegs"
+        ],
+        "réponse": "Toearegs",
+        "anecdote": "Velen hebben het nomadisme verlaten om zich te vestigen in grote steden aan de rand van de Sahara, zoals Tamanrasset."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk blauw wordt verkregen door fijne lapis lazuli-steen te slijpen ?",
+        "propositions": [
+          "Eend",
+          "Perzisch",
+          "Overzee",
+          "Saffier"
+        ],
+        "réponse": "Overzee",
+        "anecdote": "Ultramarijnblauw kan alleen voor bepaalde toepassingen in de schilderkunst worden gebruikt : het moet inderdaad naast andere blauwsoorten bestaan."
+      },
+      {
+        "id": 22,
+        "question": "Welk proces voegt een kleine hoeveelheid blauwe kleurstof toe aan een wit oppervlak ?",
+        "propositions": [
+          "Thermovouwen",
+          "Koperen beplating",
+          "Azure",
+          "Verlichting"
+        ],
+        "réponse": "Azure",
+        "anecdote": "Indigo bedoeld voor dit gebruik werd aan het begin van de 19e eeuw verkocht als hemelsblauw, Engels blauw of ballen van blauw."
+      },
+      {
+        "id": 23,
+        "question": "Van welke kristallen werd het eerste blauwe pigment door de Egyptenaren verkregen ?",
+        "propositions": [
+          "Micriet",
+          "Otavite",
+          "Azuriet",
+          "Sideriet"
+        ],
+        "réponse": "Azuriet",
+        "anecdote": "Azuriet komt voor in de vorm van prismatische of tabulaire kristallen, waarvan de kleur kan variëren van azuurblauw tot Pruisisch blauw."
+      },
+      {
+        "id": 24,
+        "question": "Hoe wordt Pruisisch blauw ook wel genoemd vanwege zijn ontdekkingsstad ?",
+        "propositions": [
+          "München Blauw",
+          "Berlijns Blauw",
+          "Maastricht Blauw",
+          "Keulen Blauw"
+        ],
+        "réponse": "Berlijns Blauw",
+        "anecdote": "Pruisisch blauw werd in 1706 bij toeval ontdekt door kleurmaker Johann Jacob Diesbach in zijn laboratorium."
+      },
+      {
+        "id": 25,
+        "question": "Bestand tegen oplosmiddelen, welk blauw wordt gebruikt als markeringslaag bij de ketelbouw ?",
+        "propositions": [
+          "Pruisisch blauw",
+          "Bleu de France",
+          "Berlijns Blauw",
+          "Kobaltblauw"
+        ],
+        "réponse": "Pruisisch blauw",
+        "anecdote": "Pruisisch blauw staat op de lijst van essentiële medicijnen van de Wereldgezondheidsorganisatie (WHO)."
+      },
+      {
+        "id": 26,
+        "question": "Hoe noemen bergjagers zichzelf soms graag ?",
+        "propositions": [
+          "Blauwe Verlossers",
+          "Blauwe reuzen",
+          "Blauwe duivels",
+          "Blauwe helden"
+        ],
+        "réponse": "Blauwe duivels",
+        "anecdote": "De alpenjagers zijn infanteristen van het Franse leger die gespecialiseerd zijn in gevechten in bergachtige omgevingen."
+      },
+      {
+        "id": 27,
+        "question": "Welk extreem duur pigment bewonderde Vincent van Gogh ?",
+        "propositions": [
+          "Cadmiumblauw",
+          "Kobaltblauw",
+          "Titaanblauw",
+          "Nikkel blauw"
+        ],
+        "réponse": "Kobaltblauw",
+        "anecdote": "Kobaltblauw heeft het nadeel dat ze hun daglichtglans verliezen wanneer ze worden verlicht met gloeilampen."
+      },
+      {
+        "id": 28,
+        "question": "Welk goedkoop blauw is chemisch identiek aan echt ultramarijnblauw ?",
+        "propositions": [
+          "Guimet Blauw",
+          "Blauwe Grimaux",
+          "Gautier Blauw",
+          "Girard Blauw"
+        ],
+        "réponse": "Guimet Blauw",
+        "anecdote": "Guimet blauw wordt gebruikt om te verven en op te fleuren in het verven, wassen en in de pulpindustrie."
+      },
+      {
+        "id": 29,
+        "question": "Welk blauw was in het begin van de 19e eeuw in de mode voor herenpakken ?",
+        "propositions": [
+          "Hemelsblauw",
+          "Hemelsblauw",
+          "Korenbloemblauw",
+          "Mineraal blauw"
+        ],
+        "réponse": "Korenbloemblauw",
+        "anecdote": "Hij droeg een prachtige barbeelblauwe jas, hazelnootkleurige casimirbroek, laarzen met manchetten en een lang wit vest."
+      },
+      {
+        "id": 30,
+        "question": "Welke uitdrukking duidt pejoratief een geletterde en beschaafde vrouw aan ?",
+        "propositions": [
+          "Onderblauw",
+          "Bas-blauw",
+          "Klein-blauw",
+          "Imitatieblauw"
+        ],
+        "réponse": "Bas-blauw",
+        "anecdote": "In Frankrijk ontmoette de term hetzelfde lot als die van kostbaar in de zeventiende eeuw om een kritiekpunt te worden."
+      }
+    ]
+    }
+  }
+}

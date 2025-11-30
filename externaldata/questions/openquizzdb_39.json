@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 1,
+  "mise-à-jour": "2023-06-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Musique",
+      "nom": "Timbale et maracas",
+      "slogan": "Par famille ou par formation"
+    },
+    "en": {
+      "catégorie": "Music",
+      "nom": "Timpani and maracas",
+      "slogan": "By family or by formation"
+    },
+    "es": {
+      "catégorie": "Música",
+      "nom": "Timbales y maracas",
+      "slogan": "Por familia o por formación"
+    },
+    "it": {
+      "catégorie": "Musica",
+      "nom": "Timpani e maracas",
+      "slogan": "Per famiglia o per formazione"
+    },
+    "de": {
+      "catégorie": "Musik",
+      "nom": "Pauken und Maracas",
+      "slogan": "Nach Familie oder Formation"
+    },
+    "nl": {
+      "catégorie": "Muziek",
+      "nom": "Pauken en maracas",
+      "slogan": "Door familie of door vorming"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "De quel instrument joue Lisa Simpson, personnage créé par Matt Groening ?",
+        "propositions": [
+          "Saxophone",
+          "Flûte",
+          "Trompette",
+          "Piano"
+        ],
+        "réponse": "Saxophone",
+        "anecdote": "Les Simpson forment une famille américaine typique de classe moyenne qui vit dans la ville de Springfield."
+      },
+      {
+        "id": 2,
+        "question": "Quel instrument à cordes pincées, voisin de la guitare, est utilisé en Inde ?",
+        "propositions": [
+          "Sitar",
+          "Cithare",
+          "Gling",
+          "Théorbe"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "En Inde, on en joue assis en tailleur par terre : l'instrument, calé sous le coude, repose par terre (parfois sur le pied)."
+      },
+      {
+        "id": 3,
+        "question": "Pour quel instrument de musique Mozart a-t-il composé le plus grand nombre de concerto ?",
+        "propositions": [
+          "Violoncelle",
+          "Piano",
+          "Violon",
+          "Clarinette"
+        ],
+        "réponse": "Piano",
+        "anecdote": "Mort à trente-cinq ans, Mozart laissa une oeuvre importante qui embrasse tous les genres musicaux de son époque."
+      },
+      {
+        "id": 4,
+        "question": "Combien de cordes possède un violon, instrument de la musique classique ?",
+        "propositions": [
+          "Six",
+          "Cinq",
+          "Quatre",
+          "Trois"
+        ],
+        "réponse": "Quatre",
+        "anecdote": "Les luthiers comme Antonio Stradivari font partie des nombreux artisans qui créent et entretiennent les instruments à cordes."
+      },
+      {
+        "id": 5,
+        "question": "Quel instrument de musique à cordes pincées est souvent utilisé dans la musique country ?",
+        "propositions": [
+          "Balalaïka",
+          "Banjo",
+          "Basson",
+          "Bouzouki"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "Accompagnateur dans le style New Orleans, le banjo est également utilisé comme soliste dans la musique irlandaise."
+      },
+      {
+        "id": 6,
+        "question": "En quelle matière est faite la mèche présente sur un archet de violon ?",
+        "propositions": [
+          "Mohair",
+          "Coton",
+          "Crin",
+          "Angora"
+        ],
+        "réponse": "Crin",
+        "anecdote": "La mèche d'un archet est constituée de crins de cheval prélevés sur la queue de l'étalon car ceux de la jument sont abîmés par l'urine."
+      },
+      {
+        "id": 7,
+        "question": "De quel instrument de musique à vent et à anche libre joue un harmoniciste ?",
+        "propositions": [
+          "Accordéon",
+          "Harmonica",
+          "Harmonium",
+          "Xylophone"
+        ],
+        "réponse": "Harmonica",
+        "anecdote": "Malgré la connaissance réduite du public, il semblerait que l'harmonica soit en quantité l'instrument le plus vendu au monde."
+      },
+      {
+        "id": 8,
+        "question": "Combien de cordes au minimum dénombre-t-on sur une guitare basse ?",
+        "propositions": [
+          "Cinq",
+          "Six",
+          "Quatre",
+          "Trois"
+        ],
+        "réponse": "Quatre",
+        "anecdote": "Depuis les années 1950, la guitare basse a remplacé la contrebasse dans la musique rock."
+      },
+      {
+        "id": 9,
+        "question": "De quel instrument John Lennon jouait-il au sein des Beatles ?",
+        "propositions": [
+          "Clavier",
+          "Guitare",
+          "Batterie",
+          "Saxophone"
+        ],
+        "réponse": "Guitare",
+        "anecdote": "Lennon forme avec McCartney l'un des tandems d'auteurs-compositeurs les plus influents et prolifiques de l'histoire du rock."
+      },
+      {
+        "id": 10,
+        "question": "Instrument de la famille des violons, dans quelle position joue-t-on du violoncelle ?",
+        "propositions": [
+          "Assise",
+          "À genoux",
+          "Couchée",
+          "Debout"
+        ],
+        "réponse": "Assise",
+        "anecdote": "Le violoncelle se joue assis, tenu entre les jambes, reposant désormais sur une pique escamotable."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle clef, proche du la du diapason, est utilisée entre autre par le violoniste ?",
+        "propositions": [
+          "Clef de sol",
+          "Clef de do",
+          "Clef de ré",
+          "Clef de fa"
+        ],
+        "réponse": "Clef de sol",
+        "anecdote": "En solfège, une clé est un signe graphique placé au début de la portée qui indique la hauteur des notes associées à chaque ligne."
+      },
+      {
+        "id": 12,
+        "question": "Quel instrument fut popularisé par Lionel Hampton à la fin des années 1930 ?",
+        "propositions": [
+          "Violon",
+          "Violoncelle",
+          "Viole de gambe",
+          "Vibraphone"
+        ],
+        "réponse": "Vibraphone",
+        "anecdote": "Surnommé Le lion, Lionel Hampton a été le premier géant du jazz à donner ses lettres de noblesse au vibraphone."
+      },
+      {
+        "id": 13,
+        "question": "Sur quel instrument à percussion frappe-t-on avec une baguette à tampon ?",
+        "propositions": [
+          "Bang",
+          "Gang",
+          "Gong",
+          "Bong"
+        ],
+        "réponse": "Gong",
+        "anecdote": "L'instrument en lui-même provient vraisemblablement des percussions en bronze de Chine."
+      },
+      {
+        "id": 14,
+        "question": "De quel instrument Ginger Baker était-il tenu pour un virtuose ?",
+        "propositions": [
+          "Violon",
+          "Batterie",
+          "Guitare",
+          "Trompette"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "Depuis 1986, Ginger Baker a sorti plusieurs albums de jazz fusion et a tourné avec des groupes de styles variés."
+      },
+      {
+        "id": 15,
+        "question": "Quel instrument de musique assez répandu en Grèce est joué avec un plectre ?",
+        "propositions": [
+          "Rebétiko",
+          "Kanoun",
+          "Baglama",
+          "Bouzouki"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "Le bouzouki est souvent considéré comme l'instrument national de la Grèce depuis le milieu du XXe siècle."
+      },
+      {
+        "id": 16,
+        "question": "La balalaïka est un instrument de musique à cordes pincées russe, mais de quelle forme ?",
+        "propositions": [
+          "Triangulaire",
+          "Rectangulaire",
+          "Carrée",
+          "Ronde"
+        ],
+        "réponse": "Triangulaire",
+        "anecdote": "La balalaïka se joue le plus souvent au doigt, parfois avec un plectre, et se décline en plusieurs tailles."
+      },
+      {
+        "id": 17,
+        "question": "Quel instrument de musique est le plus aigu dans un orchestre symphonique ?",
+        "propositions": [
+          "Trombone",
+          "Hautbois",
+          "Piccolo",
+          "Tuba"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "Le piccolo était surtout utilisé pour doubler la grande flûte à l'octave supérieure, pour augmenter l'éclat orchestral."
+      },
+      {
+        "id": 18,
+        "question": "Dans quel pays joue-t-on du sitar et du vînâ, cithare sur bâton avec deux résonateurs ?",
+        "propositions": [
+          "Espagne",
+          "Maroc",
+          "Inde",
+          "Brésil"
+        ],
+        "réponse": "Inde",
+        "anecdote": "La rudra vînâ est le plus ancien des instruments à cordes frettées indiens : on la nomme aussi bîn."
+      },
+      {
+        "id": 19,
+        "question": "Quel instrument de musique figure sur les étiquettes de la brasserie Guinness ?",
+        "propositions": [
+          "Harmonium",
+          "Hautbois",
+          "Harpe",
+          "Harmonica"
+        ],
+        "réponse": "Harpe",
+        "anecdote": "La Guinness est un stout, une bière noire coiffée d'une mousse blanche, connue mondialement pour sa saveur et son aspect."
+      },
+      {
+        "id": 20,
+        "question": "Combien de pistons une trompette compte-t-elle afin de la rendre chromatique ?",
+        "propositions": [
+          "Deux",
+          "Cinq",
+          "Trois",
+          "Quatre"
+        ],
+        "réponse": "Trois",
+        "anecdote": "La trompette à pistons est celle qui est la plus utilisée aujourd'hui dans la plupart des pays."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Combien y a-t-il de cordes sur une harpe de concert, avec une tessiture de six octaves ?",
+        "propositions": [
+          "57",
+          "37",
+          "67",
+          "47"
+        ],
+        "réponse": "47",
+        "anecdote": "La harpe de concert a la particularité d'avoir des cordes perpendiculaires à la caisse de résonance."
+      },
+      {
+        "id": 22,
+        "question": "Quelle est la fréquence du diapason, constitué de deux lames parallèles soudées en U ?",
+        "propositions": [
+          "440 hertz",
+          "450 hertz",
+          "460 hertz",
+          "430 hertz"
+        ],
+        "réponse": "440 hertz",
+        "anecdote": "En musique, le diapason est un outil de musicien donnant la hauteur d'une note-repère conventionnelle."
+      },
+      {
+        "id": 23,
+        "question": "Quelle partie du violon le violoniste bloque-t-il entre son cou et son épaule ?",
+        "propositions": [
+          "Mentonnière",
+          "Épauloire",
+          "Mâchoire",
+          "Reposoir"
+        ],
+        "réponse": "Mentonnière",
+        "anecdote": "Un violon, souvent réalisé en bois d'érable, se compose de trois parties distinctes : la caisse de résonance, le manche et les cordes."
+      },
+      {
+        "id": 24,
+        "question": "Le coquillage de quel mollusque peut servir d'instrument de musique à vent ?",
+        "propositions": [
+          "Conque",
+          "Céphalopode",
+          "Calmar",
+          "Crabe"
+        ],
+        "réponse": "Conque",
+        "anecdote": "Prenant la conque entre ses deux mains, l'instrumentiste en produit un son selon le même principe que la trompe ou la corne."
+      },
+      {
+        "id": 25,
+        "question": "Quelle est la tonalité la plus fréquente des bourdons de la cornemuse écossaise ?",
+        "propositions": [
+          "Do",
+          "Mi bémol",
+          "Sol",
+          "Si bémol"
+        ],
+        "réponse": "Si bémol",
+        "anecdote": "Les anches doubles sont aussi utilisées par le basson, la chalemie, le hautbois, la bombarde, ou encore le cor anglais."
+      },
+      {
+        "id": 26,
+        "question": "De combien de pièces de bois, collées ou assemblées, un violon est-il composé ?",
+        "propositions": [
+          "91 pièces",
+          "71 pièces",
+          "51 pièces",
+          "31 pièces"
+        ],
+        "réponse": "71 pièces",
+        "anecdote": "Dans les formations de musique classique, le violon est l'instrument le plus petit et de tessiture la plus aiguë parmi sa famille."
+      },
+      {
+        "id": 27,
+        "question": "Quel instrument de musique est aussi connu sous le nom de trompette tsigane ?",
+        "propositions": [
+          "Glockenspiel",
+          "Guimbarde",
+          "Gong",
+          "Gamelan"
+        ],
+        "réponse": "Guimbarde",
+        "anecdote": "Composée de deux éléments, la guimbarde est l'un des instruments de musique les plus anciens du monde."
+      },
+      {
+        "id": 28,
+        "question": "Quelle petite flûte traversière était autrefois utilisée dans les fanfares militaires ?",
+        "propositions": [
+          "Gasba",
+          "Kaval",
+          "Sodina",
+          "Fifre"
+        ],
+        "réponse": "Fifre",
+        "anecdote": "Le fifre, de petite longueur et fabriqué en bois, comporte six ou sept trous de jeu et parfois une clé."
+      },
+      {
+        "id": 29,
+        "question": "Quel marteau léger est utilisé pour frapper différents instruments à percussion ?",
+        "propositions": [
+          "Brochoir",
+          "Mailloche",
+          "Dérivoir",
+          "Tricoise"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Différentes variétés de mailloches (parfois appelées cigognes) permettent d'obtenir des sons différents."
+      },
+      {
+        "id": 30,
+        "question": "Quel instrument de musique traditionnel à cordes est devenu celui des geisha ?",
+        "propositions": [
+          "Shamisen",
+          "Sasquatch",
+          "Sitar",
+          "Shakuhachi"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "Le shamisen se joue agenouillé sur un zabuton en pinçant les cordes à l'aide d'un large plectre en ivoire."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What instrument does Lisa Simpson, a character created by designer Matt Groening, play ?",
+        "propositions": [
+          "Piano",
+          "Saxophone",
+          "Flute",
+          "Trumpet"
+        ],
+        "réponse": "Saxophone",
+        "anecdote": "The Simpsons are a typical middle-class American family who live in the city of Springfield."
+      },
+      {
+        "id": 2,
+        "question": "What musical instrument with plucked strings, similar to the guitar, is used in India ?",
+        "propositions": [
+          "Sitar",
+          "Gling",
+          "Theorb",
+          "Zither"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "It is played sitting cross-legged on the ground : the instrument, wedged under the right elbow, rests on the ground (sometimes on the foot)."
+      },
+      {
+        "id": 3,
+        "question": "For which musical instrument did Mozart compose the greatest number of concertos ?",
+        "propositions": [
+          "Piano",
+          "Violin",
+          "Cello",
+          "Clarinet"
+        ],
+        "réponse": "Piano",
+        "anecdote": "Dead at the age of thirty-five, Mozart left an important work which embraces all the musical genres of his time."
+      },
+      {
+        "id": 4,
+        "question": "How many strings does a violin have, an instrument occupying an important place in classical music ?",
+        "propositions": [
+          "5 strings",
+          "6 strings",
+          "4 strings",
+          "3 strings"
+        ],
+        "réponse": "4 strings",
+        "anecdote": "Violin makers like Antonio Stradivari are the craftsmen who create and maintain stringed instruments."
+      },
+      {
+        "id": 5,
+        "question": "Which plucked string musical instrument is often used in country music ?",
+        "propositions": [
+          "Panjo",
+          "Banjo",
+          "Ranjo",
+          "Danjo"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "An accompanist in the New Orleans style, the banjo is also used as a soloist in Irish music."
+      },
+      {
+        "id": 6,
+        "question": "What material is the wick on a violin bow made of ?",
+        "propositions": [
+          "Cotton",
+          "Horsehair",
+          "Angora",
+          "Mohair"
+        ],
+        "réponse": "Horsehair",
+        "anecdote": "The wick of a bow is made of horsehair taken from the tail of the stallion because those of the mare are damaged by urine."
+      },
+      {
+        "id": 7,
+        "question": "What musical wind and free reed instrument does a harmonica player play ?",
+        "propositions": [
+          "Harmonica",
+          "Xylophone",
+          "Accordion",
+          "Harmonium"
+        ],
+        "réponse": "Harmonica",
+        "anecdote": "Despite the limited knowledge of the public, it seems that the harmonica is in quantity the most sold instrument in the world."
+      },
+      {
+        "id": 8,
+        "question": "How many strings at least are there on a bass guitar ?",
+        "propositions": [
+          "Six",
+          "Five",
+          "Three",
+          "Four"
+        ],
+        "réponse": "Four",
+        "anecdote": "Since the 1950s, the bass guitar has replaced the double bass in rock music."
+      },
+      {
+        "id": 9,
+        "question": "What instrument did John Lennon play with the Beatles ?",
+        "propositions": [
+          "Saxophone",
+          "Guitar",
+          "Keyboard",
+          "Battery"
+        ],
+        "réponse": "Guitar",
+        "anecdote": "Lennon and McCartney formed one of the most influential and prolific songwriting tandems in rock history."
+      },
+      {
+        "id": 10,
+        "question": "Instrument of the violin family, in what position do you play the cello ?",
+        "propositions": [
+          "Sitting",
+          "On her knees",
+          "Standing",
+          "Lying down"
+        ],
+        "réponse": "Sitting",
+        "anecdote": "The cello is played seated, held between the legs, now resting on a retractable spike."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which key, close to the A of the tuning fork, is used by the violinist among others ?",
+        "propositions": [
+          "Key of D",
+          "Treble clef",
+          "Bass clef",
+          "Clef of C"
+        ],
+        "réponse": "Treble clef",
+        "anecdote": "In music theory, a clef is a graphic sign placed at the start of the staff which indicates the pitch of the notes associated with each line."
+      },
+      {
+        "id": 12,
+        "question": "What instrument was popularized by Lionel Hampton in the late 1930s ?",
+        "propositions": [
+          "Xylophone",
+          "Vibraphone",
+          "Saxophone",
+          "Metallophone"
+        ],
+        "réponse": "Vibraphone",
+        "anecdote": "Nicknamed The Lion, Lionel Hampton was the first jazz giant to give the vibraphone its nobility."
+      },
+      {
+        "id": 13,
+        "question": "On which percussion instrument do you strike with a buffer stick ?",
+        "propositions": [
+          "Bong",
+          "Gang",
+          "Gong",
+          "Bang"
+        ],
+        "réponse": "Gong",
+        "anecdote": "The instrument itself probably comes from Chinese bronze percussion."
+      },
+      {
+        "id": 14,
+        "question": "What instrument was Ginger Baker considered a virtuoso ?",
+        "propositions": [
+          "Battery",
+          "Violin",
+          "Guitar",
+          "Trumpet"
+        ],
+        "réponse": "Battery",
+        "anecdote": "Since 1986, Ginger Baker has released several jazz fusion albums and has toured with bands of various styles."
+      },
+      {
+        "id": 15,
+        "question": "What musical instrument widely used in Greece is played with a plectrum ?",
+        "propositions": [
+          "Baglama",
+          "Bouzouki",
+          "Rebétiko",
+          "Kanoun"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "The bouzouki has often been considered the national instrument of Greece since the mid-20th century."
+      },
+      {
+        "id": 16,
+        "question": "The balalaika is a Russian plucked string musical instrument, but in what shape ?",
+        "propositions": [
+          "Rectangular",
+          "Triangular",
+          "Round",
+          "Square"
+        ],
+        "réponse": "Triangular",
+        "anecdote": "The balalaika is most often played with the finger, sometimes with a plectrum, and comes in several sizes."
+      },
+      {
+        "id": 17,
+        "question": "Which musical instrument is the highest in a symphony orchestra ?",
+        "propositions": [
+          "Oboe",
+          "Trombone",
+          "Piccolo",
+          "Tuba"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "The piccolo was mainly used to double the large flute in the upper octave, to increase the orchestral brilliance."
+      },
+      {
+        "id": 18,
+        "question": "In which country do you play sitar and vînâ, zither on a stick with two resonators ?",
+        "propositions": [
+          "Brazil",
+          "India",
+          "Spain",
+          "Morocco"
+        ],
+        "réponse": "India",
+        "anecdote": "The rudra vînâ is the oldest of the Indian fretted string instruments : it is also called bîn."
+      },
+      {
+        "id": 19,
+        "question": "What musical instrument is on the labels of the Irish brewery Guinness ?",
+        "propositions": [
+          "Harp",
+          "Flute",
+          "Saxophone",
+          "Violin"
+        ],
+        "réponse": "Harp",
+        "anecdote": "Guinness is a stout, a dark beer with a white head, known worldwide for its flavor and appearance."
+      },
+      {
+        "id": 20,
+        "question": "How many pistons does a trumpet have in order to make it chromatic ?",
+        "propositions": [
+          "Two",
+          "Four",
+          "Three",
+          "Five"
+        ],
+        "réponse": "Three",
+        "anecdote": "The piston trumpet is the most widely used today in most countries."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "How many strings are there on a concert harp, with a range of six octaves ?",
+        "propositions": [
+          "57",
+          "67",
+          "47",
+          "37"
+        ],
+        "réponse": "47",
+        "anecdote": "The concert harp has the particularity of having strings perpendicular to the resonance chamber."
+      },
+      {
+        "id": 22,
+        "question": "What is the frequency of the tuning fork, made up of two parallel blades welded in a U ?",
+        "propositions": [
+          "450 hertz",
+          "430 hertz",
+          "460 hertz",
+          "440 hertz"
+        ],
+        "réponse": "440 hertz",
+        "anecdote": "In music, the tuning fork is a musician's tool giving the pitch of a conventional cue note."
+      },
+      {
+        "id": 23,
+        "question": "What part of the violin does the violinist block between his neck and shoulder ?",
+        "propositions": [
+          "Jaw",
+          "Chinrest",
+          "Depauloire",
+          "Rest"
+        ],
+        "réponse": "Chinrest",
+        "anecdote": "A violin is made up of three distinct parts : the sound box, the neck and the strings."
+      },
+      {
+        "id": 24,
+        "question": "What mollusc can you use the shell as a wind musical instrument ?",
+        "propositions": [
+          "Whistle",
+          "Conch",
+          "Piri",
+          "Dizi"
+        ],
+        "réponse": "Conch",
+        "anecdote": "Taking the conch in hand, the instrumentalist produces its sound according to the same principle as the horn or the horn."
+      },
+      {
+        "id": 25,
+        "question": "What is the most common key of the Scottish bagpipe drones ?",
+        "propositions": [
+          "Do",
+          "B flat",
+          "Soil",
+          "E flat"
+        ],
+        "réponse": "B flat",
+        "anecdote": "Double reeds are also used by the bassoon, the chalemie, the oboe, the bombarde, or the English horn."
+      },
+      {
+        "id": 26,
+        "question": "How many pieces of wood, glued or assembled, is a violin made of ?",
+        "propositions": [
+          "51 pieces",
+          "71 pieces",
+          "91 pieces",
+          "31 pieces"
+        ],
+        "réponse": "71 pieces",
+        "anecdote": "In classical music groups, the violin is the smallest and highest pitched instrument among its family."
+      },
+      {
+        "id": 27,
+        "question": "What musical instrument is also known as the Gypsy trumpet ?",
+        "propositions": [
+          "Rattle",
+          "Harp",
+          "Bandurria",
+          "Jew's harp"
+        ],
+        "réponse": "Jew's harp",
+        "anecdote": "Composed of two elements, the Jew's harp is one of the oldest musical instruments in the world."
+      },
+      {
+        "id": 28,
+        "question": "What small transverse flute was once used in military bands ?",
+        "propositions": [
+          "Sodina",
+          "Kaval",
+          "Gasba",
+          "Fife"
+        ],
+        "réponse": "Fife",
+        "anecdote": "The fife, small in length and made of wood, has six or seven playing holes and sometimes a key."
+      },
+      {
+        "id": 29,
+        "question": "What light hammer is used to strike different percussion instruments ?",
+        "propositions": [
+          "Brochoir",
+          "Mailloche",
+          "Tricoise",
+          "Dérivoir"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Different varieties of mallets (sometimes called storks) provide different sounds."
+      },
+      {
+        "id": 30,
+        "question": "What traditional stringed musical instrument has become that of the geisha ?",
+        "propositions": [
+          "Koto",
+          "Taiko",
+          "Shakuhachi",
+          "Shamisen"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "The shamisen is played kneeling on a zabuton by plucking the strings using a large ivory plectrum."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Instrument spielt Lisa Simpson, eine Figur des Designers Matt Groening ?",
+        "propositions": [
+          "Klavier",
+          "Flöte",
+          "Trompete",
+          "Saxophon"
+        ],
+        "réponse": "Saxophon",
+        "anecdote": "Die Simpsons sind eine typische amerikanische Mittelklassefamilie, die in der Stadt Springfield lebt."
+      },
+      {
+        "id": 2,
+        "question": "Welches Musikinstrument mit gezupften Saiten, ähnlich der Gitarre, wird in Indien verwendet ?",
+        "propositions": [
+          "Theorb",
+          "Gling",
+          "Zither",
+          "Sitar"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "Es wird mit gekreuzten Beinen auf dem Boden gespielt : Das Instrument, das unter dem rechten Ellbogen eingeklemmt ist, ruht auf dem Boden (manchmal auf dem Fuß)."
+      },
+      {
+        "id": 3,
+        "question": "Für welches Musikinstrument hat Mozart die meisten Konzerte komponiert ?",
+        "propositions": [
+          "Klarinette",
+          "Geige",
+          "Cello",
+          "Klavier"
+        ],
+        "réponse": "Klavier",
+        "anecdote": "Mozart starb im Alter von fünfunddreißig Jahren und hinterließ ein wichtiges Werk, das alle Musikgenres seiner Zeit umfasst."
+      },
+      {
+        "id": 4,
+        "question": "Wie viele Saiten hat eine Geige, ein Instrument, das einen wichtigen Platz in der klassischen Musik einnimmt ?",
+        "propositions": [
+          "3 Saiten",
+          "6 Saiten",
+          "5 Saiten",
+          "4 Saiten"
+        ],
+        "réponse": "4 Saiten",
+        "anecdote": "Geigenbauer wie Antonio Stradivari sind die Handwerker, die Saiteninstrumente herstellen und warten."
+      },
+      {
+        "id": 5,
+        "question": "Welches gezupfte Streichmusikinstrument wird in der Country-Musik häufig verwendet ?",
+        "propositions": [
+          "Panjo",
+          "Banjo",
+          "Ranjo",
+          "Danjo"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "Als Begleiter im New Orleans-Stil wird das Banjo auch als Solist in der irischen Musik eingesetzt."
+      },
+      {
+        "id": 6,
+        "question": "Aus welchem Material besteht der Docht eines Geigenbogens ?",
+        "propositions": [
+          "Mohair",
+          "Rosshaar",
+          "Baumwolle",
+          "Angora"
+        ],
+        "réponse": "Rosshaar",
+        "anecdote": "Der Docht eines Bogens besteht aus Rosshaar, das dem Schwanz des Hengstes entnommen wurde, weil die der Stute durch Urin geschädigt sind."
+      },
+      {
+        "id": 7,
+        "question": "Welches musikalische Blas- und Schilfinstrument spielt ein Mundharmonikaspieler ?",
+        "propositions": [
+          "Harmonium",
+          "Mundharmonika",
+          "Akkordeon",
+          "Xylophon"
+        ],
+        "réponse": "Mundharmonika",
+        "anecdote": "Trotz des begrenzten Wissens der Öffentlichkeit scheint die Mundharmonika in ihrer Menge das meistverkaufte Instrument der Welt zu sein."
+      },
+      {
+        "id": 8,
+        "question": "Wie viele Saiten hat mindestens eine Bassgitarre ?",
+        "propositions": [
+          "Fünf",
+          "Sechs",
+          "Vier",
+          "Drei"
+        ],
+        "réponse": "Vier",
+        "anecdote": "Seit den 1950er Jahren ersetzt die Bassgitarre den Kontrabass in der Rockmusik."
+      },
+      {
+        "id": 9,
+        "question": "Welches Instrument hat John Lennon mit den Beatles gespielt ?",
+        "propositions": [
+          "Tastatur",
+          "Saxophon",
+          "Batterie",
+          "Gitarre"
+        ],
+        "réponse": "Gitarre",
+        "anecdote": "Lennon und McCartney bildeten eines der einflussreichsten und produktivsten Songwriting-Tandems in der Rockgeschichte."
+      },
+      {
+        "id": 10,
+        "question": "Instrument der Geigenfamilie, in welcher Position spielen Sie Cello ?",
+        "propositions": [
+          "Sitzen",
+          "Hinlegen",
+          "Stehend",
+          "Auf den Knien"
+        ],
+        "réponse": "Sitzen",
+        "anecdote": "Das Cello wird sitzend gespielt, zwischen den Beinen gehalten und ruht nun auf einem einziehbaren Dorn."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Tonart in der Nähe des A der Stimmgabel wird unter anderem vom Geiger verwendet ?",
+        "propositions": [
+          "Notenschlüssel von C",
+          "Violinschlüssel",
+          "Schlüssel von D",
+          "Bassschlüssel"
+        ],
+        "réponse": "Violinschlüssel",
+        "anecdote": "In der Musiktheorie ist ein Notenschlüssel ein grafisches Zeichen am Anfang des Stabes, das die Tonhöhe der jeder Zeile zugeordneten Noten angibt."
+      },
+      {
+        "id": 12,
+        "question": "Welches Instrument wurde in den späten 1930er Jahren von Lionel Hampton populär gemacht ?",
+        "propositions": [
+          "Vibraphon",
+          "Saxophon",
+          "Xylophon",
+          "Metallophon"
+        ],
+        "réponse": "Vibraphon",
+        "anecdote": "Lionel Hampton mit dem Spitznamen The Lion war der erste Jazzgigant, der dem Vibraphon seinen Adel verlieh."
+      },
+      {
+        "id": 13,
+        "question": "Auf welches Schlaginstrument schlagen Sie mit einem Buffer Stick ?",
+        "propositions": [
+          "Gang",
+          "Bong",
+          "Gong",
+          "Bang"
+        ],
+        "réponse": "Gong",
+        "anecdote": "Das Instrument selbst stammt wahrscheinlich aus chinesischer Bronze-Percussion."
+      },
+      {
+        "id": 14,
+        "question": "Welches Instrument galt Ginger Baker als Virtuose ?",
+        "propositions": [
+          "Trompete",
+          "Batterie",
+          "Geige",
+          "Gitarre"
+        ],
+        "réponse": "Batterie",
+        "anecdote": "Seit 1986 hat Ginger Baker mehrere Jazz-Fusion-Alben veröffentlicht und mit Bands verschiedener Stile getourt."
+      },
+      {
+        "id": 15,
+        "question": "Welches in Griechenland weit verbreitete Musikinstrument wird mit einem Plektrum gespielt ?",
+        "propositions": [
+          "Bouzouki",
+          "Baglama",
+          "Rebétiko",
+          "Kanoun"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "Der Bouzouki wurde seit Mitte des 20. Jahrhunderts oft als nationales Instrument Griechenlands angesehen."
+      },
+      {
+        "id": 16,
+        "question": "Die Balalaika ist ein russisches Zupfinstrument, aber in welcher Form ?",
+        "propositions": [
+          "Rechteckig",
+          "Rund",
+          "Dreieckig",
+          "Quadrat"
+        ],
+        "réponse": "Dreieckig",
+        "anecdote": "Die Balalaika wird meistens mit dem Finger gespielt, manchmal mit einem Plektrum, und ist in verschiedenen Größen erhältlich."
+      },
+      {
+        "id": 17,
+        "question": "Welches Musikinstrument ist das höchste in einem Sinfonieorchester ?",
+        "propositions": [
+          "Tuba",
+          "Oboe",
+          "Piccolo",
+          "Posaune"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "Das Piccolo wurde hauptsächlich verwendet, um die große Flöte in der oberen Oktave zu verdoppeln und die orchestrale Brillanz zu erhöhen."
+      },
+      {
+        "id": 18,
+        "question": "In welchem Land spielst du Sitar und Vînâ, Zither auf einem Stock mit zwei Resonatoren ?",
+        "propositions": [
+          "Brasilien",
+          "Spanien",
+          "Marokko",
+          "Indien"
+        ],
+        "réponse": "Indien",
+        "anecdote": "Die Rudra Vînâ ist die ältesten indischen Frettchen-Saiteninstrumente : Es wird auch als bîn genehmigt."
+      },
+      {
+        "id": 19,
+        "question": "Welches Musikinstrument steht auf den Etiketten der irischen Brauerei Guinness ?",
+        "propositions": [
+          "Saxophon",
+          "Harfe",
+          "Geige",
+          "Flöte"
+        ],
+        "réponse": "Harfe",
+        "anecdote": "Guinness ist ein dickes, dunkles Bier mit weißem Kopf, das weltweit für seinen Geschmack und sein Aussehen bekannt ist."
+      },
+      {
+        "id": 20,
+        "question": "Wie viele Kolben hat eine Trompete, um sie chromatisch zu machen ?",
+        "propositions": [
+          "Zwei",
+          "Vier",
+          "Drei",
+          "Fünf"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Die Kolbentrompete ist heute in den meisten Ländern die am weitesten verbreitete."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie viele Saiten gibt es auf einer Konzertharfe mit einem Bereich von sechs Oktaven ?",
+        "propositions": [
+          "37",
+          "47",
+          "67",
+          "57"
+        ],
+        "réponse": "47",
+        "anecdote": "Die Konzertharfe hat die Besonderheit, Saiten senkrecht zur Resonanzkammer zu haben."
+      },
+      {
+        "id": 22,
+        "question": "Was ist die Frequenz der Stimmgabel, die aus zwei parallelen Klingen besteht, die in einem U verschweißt sind ?",
+        "propositions": [
+          "430 Hertz",
+          "460 Hertz",
+          "440 Hertz",
+          "450 Hertz"
+        ],
+        "réponse": "440 Hertz",
+        "anecdote": "In der Musik ist die Stimmgabel ein Werkzeug für Musiker, das die Tonhöhe einer herkömmlichen Cue-Note angibt."
+      },
+      {
+        "id": 23,
+        "question": "Welchen Teil der Geige blockiert der Geiger zwischen Hals und Schulter ?",
+        "propositions": [
+          "Ruhe",
+          "Kiefer",
+          "Kinnhalter",
+          "Depauloire"
+        ],
+        "réponse": "Kinnhalter",
+        "anecdote": "Eine Geige besteht aus drei Teilen : dem Resonanzkörper, dem Hals und den Saiten."
+      },
+      {
+        "id": 24,
+        "question": "Mit welcher Molluske können Sie die Muschel als Blasmusikinstrument verwenden ?",
+        "propositions": [
+          "Pfeife",
+          "Piri",
+          "Muschel",
+          "Dizi"
+        ],
+        "réponse": "Muschel",
+        "anecdote": "Der Instrumentalist nimmt die Muschel in die Hand und erzeugt ihren Klang nach dem gleichen Prinzip wie das Horn oder das Horn."
+      },
+      {
+        "id": 25,
+        "question": "Was ist der häufigste Schlüssel der schottischen Dudelsackdrohnen ?",
+        "propositions": [
+          "Do",
+          "B",
+          "Boden",
+          "Es"
+        ],
+        "réponse": "B",
+        "anecdote": "Doppelschilf wird auch vom Fagott, der Chalemie, der Oboe, der Bombarde oder dem Englischhorn verwendet."
+      },
+      {
+        "id": 26,
+        "question": "Aus wie vielen Holzstücken, geklebt oder zusammengesetzt, besteht eine Geige ?",
+        "propositions": [
+          "51 Stück",
+          "71 Stück",
+          "31 Stück",
+          "91 Stück"
+        ],
+        "réponse": "71 Stück",
+        "anecdote": "In klassischen Musikgruppen ist die Geige das kleinste und höchste Instrument ihrer Familie."
+      },
+      {
+        "id": 27,
+        "question": "Welches Musikinstrument ist auch als Zigeunertrompete bekannt ?",
+        "propositions": [
+          "Rassel",
+          "Maultrommel",
+          "Bandurria",
+          "Harfe"
+        ],
+        "réponse": "Maultrommel",
+        "anecdote": "Die aus zwei Elementen bestehende Harfe des Juden ist eines der ältesten Musikinstrumente der Welt."
+      },
+      {
+        "id": 28,
+        "question": "Welche kleine Querflöte wurde einst in Militärkapellen verwendet ?",
+        "propositions": [
+          "Kaval",
+          "Fife",
+          "Gasba",
+          "Sodina"
+        ],
+        "réponse": "Fife",
+        "anecdote": "Die Pfeife, klein und aus Holz, hat sechs oder sieben Spiellöcher und manchmal einen Schlüssel."
+      },
+      {
+        "id": 29,
+        "question": "Mit welchem leichten Hammer werden verschiedene Schlaginstrumente angeschlagen ?",
+        "propositions": [
+          "Dérivoir",
+          "Brochoir",
+          "Tricoise",
+          "Mailloche"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Verschiedene Arten von Schlägeln (manchmal auch Störche genannt) liefern unterschiedliche Geräusche."
+      },
+      {
+        "id": 30,
+        "question": "Welches traditionelle Saitenmusikinstrument ist das der Geisha geworden ?",
+        "propositions": [
+          "Taiko",
+          "Shakuhachi",
+          "Shamisen",
+          "Koto"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "Die Shamisen werden auf einem Zabuton kniend gespielt, indem die Saiten mit einem großen Elfenbeinplektrum gezupft werden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué instrumento toca Lisa Simpson, un personaje creado por el diseñador Matt Groening ?",
+        "propositions": [
+          "Trompeta",
+          "Saxofón",
+          "Piano",
+          "Flauta"
+        ],
+        "réponse": "Saxofón",
+        "anecdote": "Los Simpson son una típica familia estadounidense de clase media que vive en la ciudad de Springfield."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué instrumento musical con cuerdas punteadas, similar a la guitarra, se usa en la India ?",
+        "propositions": [
+          "Cítara",
+          "Sitar",
+          "Gling",
+          "Theorb"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "Se toca sentado con las piernas cruzadas en el suelo : el instrumento, encajado debajo del codo derecho, descansa en el suelo (a veces en el pie)."
+      },
+      {
+        "id": 3,
+        "question": "¿Para qué instrumento musical Mozart compuso el mayor número de conciertos ?",
+        "propositions": [
+          "Clarinete",
+          "Piano",
+          "Violín",
+          "Violonchelo"
+        ],
+        "réponse": "Piano",
+        "anecdote": "Muerto a los treinta y cinco años, Mozart dejó una obra importante que abarca todos los géneros musicales de su tiempo."
+      },
+      {
+        "id": 4,
+        "question": "¿Cuántas cuerdas tiene un violín, instrumento que ocupa un lugar importante en la música clásica ?",
+        "propositions": [
+          "5 cuerdas",
+          "3 cuerdas",
+          "4 cuerdas",
+          "6 cuerdas"
+        ],
+        "réponse": "4 cuerdas",
+        "anecdote": "Los fabricantes de violines como Antonio Stradivari son los artesanos que crean y mantienen los instrumentos de cuerda."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué instrumento musical de cuerda pulsada se usa a menudo en la música country ?",
+        "propositions": [
+          "Panjo",
+          "Danjo",
+          "Banjo",
+          "Ranjo"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "Acompañante al estilo de Nueva Orleans, el banjo también se usa como solista en la música irlandesa."
+      },
+      {
+        "id": 6,
+        "question": "¿De qué material está hecha la mecha de un arco de violín ?",
+        "propositions": [
+          "Crin de caballo",
+          "Mohair",
+          "Angora",
+          "Algodón ","Coton"
+        ],
+        "réponse": "Crin de caballo",
+        "anecdote": "La mecha de un arco está hecha de crin extraída de la cola del semental porque las de la yegua están dañadas por la orina."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué instrumento musical de viento y lengüeta libre toca un músico de armónica ?",
+        "propositions": [
+          "Armonio",
+          "Xilófono",
+          "Acordeón",
+          "Armónica"
+        ],
+        "réponse": "Armónica",
+        "anecdote": "A pesar del conocimiento limitado del público, parece que la armónica es en cantidad el instrumento más vendido en el mundo."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuántas cuerdas al menos hay en un bajo ?",
+        "propositions": [
+          "Cinco",
+          "Cuatro",
+          "Tres",
+          "Seis"
+        ],
+        "réponse": "Cuatro",
+        "anecdote": "Desde la década de 1950, el bajo ha reemplazado al contrabajo en la música rock."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué instrumento tocó John Lennon con los Beatles ?",
+        "propositions": [
+          "Batería",
+          "Teclado",
+          "Saxofón",
+          "Guitarra"
+        ],
+        "réponse": "Guitarra",
+        "anecdote": "Lennon y McCartney formaron uno de los tándems de compositores más influyentes y prolíficos en la historia del rock."
+      },
+      {
+        "id": 10,
+        "question": "Instrumento de la familia del violín, ¿en qué posición tocas el violonchelo ?",
+        "propositions": [
+          "De pie",
+          "Sentado",
+          "Acostado",
+          "De rodillas"
+        ],
+        "réponse": "Sentado",
+        "anecdote": "El violonchelo se toca sentado, sostenido entre las piernas, ahora descansando sobre una púa retráctil."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué tecla, cercana a la A del diapasón, usa el violinista entre otros ?",
+        "propositions": [
+          "Clave de C",
+          "Clave de sol",
+          "Clave de fa",
+          "Clave de D"
+        ],
+        "réponse": "Clave de sol",
+        "anecdote": "En teoría musical, una clave es un signo gráfico colocado al comienzo del pentagrama que indica el tono de las notas asociadas con cada línea."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué instrumento popularizó Lionel Hampton a finales de la década de 1930 ?",
+        "propositions": [
+          "Xilófono",
+          "Saxofón",
+          "Metalófono",
+          "Vibráfono"
+        ],
+        "réponse": "Vibráfono",
+        "anecdote": "Apodado El León, Lionel Hampton fue el primer gigante del jazz en darle al vibráfono su nobleza."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué instrumento de percusión golpeas con una baqueta amortiguadora ?",
+        "propositions": [
+          "Gong",
+          "Gang",
+          "Bang",
+          "Bong"
+        ],
+        "réponse": "Gong",
+        "anecdote": "El instrumento en sí probablemente proviene de la percusión china de bronce."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué instrumento se consideraba virtuoso a Ginger Baker ?",
+        "propositions": [
+          "Trompeta",
+          "Guitarra",
+          "Violín",
+          "Batería"
+        ],
+        "réponse": "Batería",
+        "anecdote": "Desde 1986, Ginger Baker ha lanzado varios álbumes de jazz fusión y ha realizado giras con bandas de varios estilos."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué instrumento musical ampliamente utilizado en Grecia se toca con una púa ?",
+        "propositions": [
+          "Baglama",
+          "Bouzouki",
+          "Rebétiko",
+          "Kanoun"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "El bouzouki a menudo se ha considerado el instrumento nacional de Grecia desde mediados del siglo XX."
+      },
+      {
+        "id": 16,
+        "question": "La balalaika es un instrumento musical ruso de cuerda pulsada, pero ¿en qué forma ?",
+        "propositions": [
+          "Triangular",
+          "Cuadrado",
+          "Ronda",
+          "Rectangular"
+        ],
+        "réponse": "Triangular",
+        "anecdote": "La balalaika se toca con mayor frecuencia con el dedo, a veces con una púa, y viene en varios tamaños."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué instrumento musical es el más alto de una orquesta sinfónica ?",
+        "propositions": [
+          "Piccolo",
+          "Tuba",
+          "Oboe",
+          "Trombón"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "El flautín se utilizó principalmente para doblar la flauta grande en la octava superior, para aumentar el brillo orquestal."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué país tocas sitar y vînâ, cítara en un palo con dos resonadores ?",
+        "propositions": [
+          "Marruecos",
+          "España",
+          "Brasil",
+          "India"
+        ],
+        "réponse": "India",
+        "anecdote": "El rudra vînâ es el más antiguo de los instrumentos de cuerda con trastes de la India : también se le llama bîn."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué instrumento musical está en las etiquetas de la cervecería irlandesa Guinness ?",
+        "propositions": [
+          "Saxofón",
+          "Violín",
+          "Flauta",
+          "Arpa"
+        ],
+        "réponse": "Arpa",
+        "anecdote": "Guinness es una cerveza negra, negra y con espuma blanca, conocida mundialmente por su sabor y apariencia."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuántos pistones tiene una trompeta para hacerla cromática ?",
+        "propositions": [
+          "Cinco",
+          "Cuatro",
+          "Dos",
+          "Tres"
+        ],
+        "réponse": "Tres",
+        "anecdote": "La trompeta de pistón es la más utilizada hoy en día en la mayoría de los países."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuántas cuerdas hay en un arpa de concierto, con un rango de seis octavas ?",
+        "propositions": [
+          "47",
+          "67",
+          "57",
+          "37"
+        ],
+        "réponse": "47",
+        "anecdote": "El arpa de concierto tiene la particularidad de tener cuerdas perpendiculares a la cámara de resonancia."
+      },
+      {
+        "id": 22,
+        "question": "¿Cuál es la frecuencia del diapasón, formado por dos hojas paralelas soldadas en U ?",
+        "propositions": [
+          "440 hercios",
+          "460 hercios",
+          "450 hercios",
+          "430 hercios"
+        ],
+        "réponse": "440 hercios",
+        "anecdote": "En la música, el diapasón es la herramienta de un músico que da el tono de una nota de referencia convencional."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué parte del violín bloquea el violinista entre el cuello y el hombro ?",
+        "propositions": [
+          "Mentonera",
+          "Depauloire",
+          "Mandíbula",
+          "Descanso"
+        ],
+        "réponse": "Mentonera",
+        "anecdote": "Un violín se compone de tres partes distintas : la caja de resonancia, el mástil y las cuerdas."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué molusco puedes usar la concha como instrumento musical de viento ?",
+        "propositions": [
+          "Silbato",
+          "Dizi",
+          "Concha",
+          "Piri"
+        ],
+        "réponse": "Concha",
+        "anecdote": "Tomando la caracola en la mano, el instrumentista produce su sonido según el mismo principio que el cuerno o el cuerno."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuál es la clave más común de los drones de gaita escoceses ?",
+        "propositions": [
+          "Hacer",
+          "Mi bemol",
+          "Si bemol",
+          "Suelo"
+        ],
+        "réponse": "Si bemol",
+        "anecdote": "Las cañas dobles también son utilizadas por el fagot, el chalemie, el oboe, la bombarde o el corno inglés."
+      },
+      {
+        "id": 26,
+        "question": "¿De cuántas piezas de madera, pegadas o ensambladas, está hecho un violín ?",
+        "propositions": [
+          "31 piezas",
+          "51 piezas",
+          "91 piezas",
+          "71 piezas"
+        ],
+        "réponse": "71 piezas",
+        "anecdote": "En los grupos de música clásica, el violín es el instrumento más pequeño y con el tono más alto de su familia."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué instrumento musical también se conoce como trompeta gitana ?",
+        "propositions": [
+          "Sonajero",
+          "Bandurria",
+          "Arpa",
+          "Arpa judía"
+        ],
+        "réponse": "Arpa judía",
+        "anecdote": "Compuesto por dos elementos, el arpa judía es uno de los instrumentos musicales más antiguos del mundo."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué pequeña flauta transversal se usó alguna vez en bandas militares ?",
+        "propositions": [
+          "Fife",
+          "Gasba",
+          "Sodina",
+          "Kaval"
+        ],
+        "réponse": "Fife",
+        "anecdote": "El pífano, de pequeño tamaño y hecho de madera, tiene seis o siete agujeros de juego y, a veces, una llave."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué martillo ligero se utiliza para golpear diferentes instrumentos de percusión ?",
+        "propositions": [
+          "Tricoise",
+          "Brochoir",
+          "Mailloche",
+          "Dérivoir"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Diferentes variedades de mazos (a veces llamados cigüeñas) proporcionan diferentes sonidos."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué instrumento musical de cuerda tradicional se ha convertido en el de las geishas ?",
+        "propositions": [
+          "Taiko",
+          "Koto",
+          "Shamisen",
+          "Shakuhachi"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "El shamisen se toca de rodillas sobre un zabuton punteando las cuerdas con una gran púa de marfil."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Che strumento suona Lisa Simpson, un personaggio creato dal designer Matt Groening ?",
+        "propositions": [
+          "Tromba",
+          "Sassofono",
+          "Flauto",
+          "Piano"
+        ],
+        "réponse": "Sassofono",
+        "anecdote": "I Simpson sono una tipica famiglia americana della classe media che vive nella città di Springfield."
+      },
+      {
+        "id": 2,
+        "question": "Quale strumento musicale con corde pizzicate, simile alla chitarra, viene utilizzato in India ?",
+        "propositions": [
+          "Theorb",
+          "Cetra",
+          "Gling",
+          "Sitar"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "Si suona seduti a terra a gambe incrociate : lo strumento, incuneato sotto il gomito destro, poggia a terra (a volte sul piede)."
+      },
+      {
+        "id": 3,
+        "question": "Per quale strumento musicale Mozart ha composto il maggior numero di concerti ?",
+        "propositions": [
+          "Piano",
+          "Violoncello",
+          "Violino",
+          "Clarinetto"
+        ],
+        "réponse": "Piano",
+        "anecdote": "Morto all'età di trentacinque anni, Mozart ha lasciato un'opera importante che abbraccia tutti i generi musicali del suo tempo."
+      },
+      {
+        "id": 4,
+        "question": "Quante corde ha un violino, uno strumento che occupa un posto importante nella musica classica ?",
+        "propositions": [
+          "6 corde",
+          "5 corde",
+          "4 corde",
+          "3 corde"
+        ],
+        "réponse": "4 corde",
+        "anecdote": "I liutai come Antonio Stradivari sono gli artigiani che creano e mantengono strumenti ad arco."
+      },
+      {
+        "id": 5,
+        "question": "Quale strumento musicale a corde pizzicate viene spesso utilizzato nella musica country ?",
+        "propositions": [
+          "Panjo",
+          "Danjo",
+          "Banjo",
+          "Ranjo"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "Un accompagnatore nello stile di New Orleans, il banjo è anche usato come solista nella musica irlandese."
+      },
+      {
+        "id": 6,
+        "question": "Di che materiale è fatto lo stoppino di un arco di violino ?",
+        "propositions": [
+          "Angora",
+          "Cotone",
+          "Crine di cavallo",
+          "Mohair"
+        ],
+        "réponse": "Crine di cavallo",
+        "anecdote": "Lo stoppino di un arco è fatto di crine di cavallo preso dalla coda dello stallone perché quelli della giumenta sono danneggiati dall'urina."
+      },
+      {
+        "id": 7,
+        "question": "Quale strumento musicale a fiato e ad ancia libera suona un armonicista ?",
+        "propositions": [
+          "Xilofono",
+          "Harmonium",
+          "Fisarmonica",
+          "Armonica"
+        ],
+        "réponse": "Armonica",
+        "anecdote": "Nonostante la scarsa conoscenza del pubblico, sembra che l'armonica sia in quantità lo strumento più venduto al mondo."
+      },
+      {
+        "id": 8,
+        "question": "Quante corde ci sono almeno su un basso ?",
+        "propositions": [
+          "Cinque",
+          "Tre",
+          "Sei",
+          "Quattro"
+        ],
+        "réponse": "Quattro",
+        "anecdote": "Dagli anni '50, il basso ha sostituito il contrabbasso nella musica rock."
+      },
+      {
+        "id": 9,
+        "question": "Quale strumento suonava John Lennon con i Beatles ?",
+        "propositions": [
+          "Sassofono",
+          "Chitarra",
+          "Batteria",
+          "Tastiera"
+        ],
+        "réponse": "Chitarra",
+        "anecdote": "Lennon e McCartney hanno formato uno dei tandem di songwriting più influenti e prolifici nella storia del rock."
+      },
+      {
+        "id": 10,
+        "question": "Strumento della famiglia dei violini, in che posizione suoni il violoncello ?",
+        "propositions": [
+          "In piedi",
+          "In ginocchio",
+          "Seduto",
+          "Sdraiato"
+        ],
+        "réponse": "Seduto",
+        "anecdote": "Il violoncello si suona seduto, tenuto tra le gambe, ora poggiato su una punta retrattile."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale chiave, vicino al LA del diapason, è usata dal violinista tra le altre ?",
+        "propositions": [
+          "Chiave di basso",
+          "Chiave di Re",
+          "Chiave di C",
+          "Chiave di violino"
+        ],
+        "réponse": "Chiave di violino",
+        "anecdote": "Nella teoria musicale, una chiave è un segno grafico posto all'inizio del rigo che indica l'altezza delle note associate a ciascuna linea."
+      },
+      {
+        "id": 12,
+        "question": "Quale strumento è stato reso popolare da Lionel Hampton alla fine degli anni '30 ?",
+        "propositions": [
+          "Sassofono",
+          "Metallophone",
+          "Vibrafono",
+          "Xilofono"
+        ],
+        "réponse": "Vibrafono",
+        "anecdote": "Soprannominato The Lion, Lionel Hampton è stato il primo gigante del jazz a conferire al vibrafono la sua nobiltà."
+      },
+      {
+        "id": 13,
+        "question": "Su quale strumento a percussione colpisci con un buffer stick ?",
+        "propositions": [
+          "Gong",
+          "Bang",
+          "Bong",
+          "Gang"
+        ],
+        "réponse": "Gong",
+        "anecdote": "Lo strumento stesso proviene probabilmente dalle percussioni cinesi in bronzo."
+      },
+      {
+        "id": 14,
+        "question": "Quale strumento Ginger Baker era considerato un virtuoso ?",
+        "propositions": [
+          "Chitarra",
+          "Tromba",
+          "Batteria",
+          "Violino"
+        ],
+        "réponse": "Batteria",
+        "anecdote": "Dal 1986, Ginger Baker ha pubblicato diversi album di jazz fusion ed è andato in tour con band di vari stili."
+      },
+      {
+        "id": 15,
+        "question": "Quale strumento musicale ampiamente utilizzato in Grecia viene suonato con un plettro ?",
+        "propositions": [
+          "Baglama",
+          "Bouzouki",
+          "Kanoun",
+          "Rebétiko"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "Il bouzouki è stato spesso considerato lo strumento nazionale della Grecia dalla metà del XX secolo."
+      },
+      {
+        "id": 16,
+        "question": "La balalaika è uno strumento musicale a corde pizzicate russo, ma in che forma ?",
+        "propositions": [
+          "Triangolare",
+          "Rettangolare",
+          "Round",
+          "Square"
+        ],
+        "réponse": "Triangolare",
+        "anecdote": "La balalaika è più spesso suonata con il dito, a volte con un plettro, ed è disponibile in diverse dimensioni."
+      },
+      {
+        "id": 17,
+        "question": "Quale strumento musicale è il più alto in un'orchestra sinfonica ?",
+        "propositions": [
+          "Tuba",
+          "Oboe",
+          "Trombone",
+          "Piccolo"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "L'ottavino è stato utilizzato principalmente per raddoppiare il grande flauto nell'ottava superiore, per aumentare la brillantezza orchestrale."
+      },
+      {
+        "id": 18,
+        "question": "In quale paese suoni il sitar e vînâ, cetra su un bastone con due risonatori ?",
+        "propositions": [
+          "India",
+          "Brasile",
+          "Marocco",
+          "Spagna"
+        ],
+        "réponse": "India",
+        "anecdote": "La rudra vînâ è il più antico degli strumenti a corde indiani : è anche chiamata bîn."
+      },
+      {
+        "id": 19,
+        "question": "Quale strumento musicale è sulle etichette del birrificio irlandese Guinness ?",
+        "propositions": [
+          "Violino",
+          "Arpa",
+          "Flauto",
+          "Sassofono"
+        ],
+        "réponse": "Arpa",
+        "anecdote": "La Guinness è una stout, una birra scura con una schiuma bianca, conosciuta in tutto il mondo per il suo sapore e il suo aspetto."
+      },
+      {
+        "id": 20,
+        "question": "Quanti pistoni ha una tromba per renderla cromatica ?",
+        "propositions": [
+          "Quattro",
+          "Tre",
+          "Due",
+          "Cinque"
+        ],
+        "réponse": "Tre",
+        "anecdote": "La tromba a pistone è la più utilizzata oggi nella maggior parte dei paesi."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quante corde ci sono su un'arpa da concerto, con un'estensione di sei ottave ?",
+        "propositions": [
+          "37",
+          "47",
+          "57",
+          "67"
+        ],
+        "réponse": "47",
+        "anecdote": "L'arpa da concerto ha la particolarità di avere corde perpendicolari alla cassa di risonanza."
+      },
+      {
+        "id": 22,
+        "question": "Qual è la frequenza del diapason, composto da due lame parallele saldate a U ?",
+        "propositions": [
+          "460 hertz",
+          "440 hertz",
+          "430 hertz",
+          "450 hertz"
+        ],
+        "réponse": "440 hertz",
+        "anecdote": "Nella musica, il diapason è lo strumento di un musicista che dà il tono di una nota di spunto convenzionale."
+      },
+      {
+        "id": 23,
+        "question": "Quale parte del violino blocca il violinista tra il collo e la spalla ?",
+        "propositions": [
+          "Depauloire",
+          "Riposo",
+          "Mentoniera",
+          "Mascella"
+        ],
+        "réponse": "Mentoniera",
+        "anecdote": "Un violino è composto da tre parti distinte : la cassa armonica, il manico e gli archi."
+      },
+      {
+        "id": 24,
+        "question": "Quale mollusco puoi usare la conchiglia come strumento musicale a fiato ?",
+        "propositions": [
+          "Piri",
+          "Conch",
+          "Dizi",
+          "Fischietto"
+        ],
+        "réponse": "Conch",
+        "anecdote": "Prendendo in mano la conchiglia, lo strumentista produce il suo suono secondo lo stesso principio del corno o del corno."
+      },
+      {
+        "id": 25,
+        "question": "Qual è la chiave più comune dei droni della cornamusa scozzese ?",
+        "propositions": [
+          "Suolo",
+          "Fare",
+          "Mi bemolle",
+          "Si bemolle"
+        ],
+        "réponse": "Si bemolle",
+        "anecdote": "Le doppie ance sono utilizzate anche dal fagotto, dalla chalemie, dall'oboe, dalle bombarde o dal corno inglese."
+      },
+      {
+        "id": 26,
+        "question": "Di quanti pezzi di legno, incollati o assemblati, è fatto un violino ?",
+        "propositions": [
+          "71 pezzi",
+          "51 pezzi",
+          "91 pezzi",
+          "31 pezzi"
+        ],
+        "réponse": "71 pezzi",
+        "anecdote": "Nei gruppi di musica classica, il violino è lo strumento più piccolo e più acuto della sua famiglia."
+      },
+      {
+        "id": 27,
+        "question": "Quale strumento musicale è anche conosciuto come la tromba zingara ?",
+        "propositions": [
+          "Arpa",
+          "Sonaglio",
+          "Bandurria",
+          "Arpa dell'ebreo"
+        ],
+        "réponse": "Arpa dell'ebreo",
+        "anecdote": "Composta da due elementi, l'arpa degli ebrei è uno degli strumenti musicali più antichi del mondo."
+      },
+      {
+        "id": 28,
+        "question": "Quale piccolo flauto traverso veniva usato una volta nelle bande militari ?",
+        "propositions": [
+          "Sodina",
+          "Kaval",
+          "Fife",
+          "Gasba"
+        ],
+        "réponse": "Fife",
+        "anecdote": "Il piffero, piccolo di lunghezza e di legno, ha sei o sette buche e talvolta una chiave."
+      },
+      {
+        "id": 29,
+        "question": "Quale martello leggero viene utilizzato per colpire diversi strumenti a percussione ?",
+        "propositions": [
+          "Brochoir",
+          "Dérivoir",
+          "Tricoise",
+          "Mailloche"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Diverse varietà di mazze (a volte chiamate cicogne) forniscono suoni diversi."
+      },
+      {
+        "id": 30,
+        "question": "Quale strumento musicale a corde tradizionale è diventato quello della geisha ?",
+        "propositions": [
+          "Shakuhachi",
+          "Taiko",
+          "Shamisen",
+          "Koto"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "Lo shamisen viene suonato in ginocchio su uno zabuton pizzicando le corde con un grande plettro d'avorio."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk instrument bespeelt Lisa Simpson, een personage gemaakt door ontwerper Matt Groening ?",
+        "propositions": [
+          "Trompet",
+          "Piano",
+          "Saxofoon",
+          "Fluit"
+        ],
+        "réponse": "Saxofoon",
+        "anecdote": "De Simpsons zijn een typisch Amerikaans gezin uit de middenklasse dat in de stad Springfield woont."
+      },
+      {
+        "id": 2,
+        "question": "Welk muziekinstrument met getokkelde snaren, vergelijkbaar met de gitaar, wordt in India gebruikt ?",
+        "propositions": [
+          "Sitar",
+          "Citer",
+          "Theorb",
+          "Gling"
+        ],
+        "réponse": "Sitar",
+        "anecdote": "Het wordt gespeeld zittend op de grond met gekruiste benen : het instrument, ingeklemd onder de rechterelleboog, rust op de grond (soms op de voet)."
+      },
+      {
+        "id": 3,
+        "question": "Voor welk muziekinstrument componeerde Mozart het grootste aantal concerto's ?",
+        "propositions": [
+          "Piano",
+          "Klarinet",
+          "Viool",
+          "Cello"
+        ],
+        "réponse": "Piano",
+        "anecdote": "Mozart stierf op vijfendertigjarige leeftijd en liet een belangrijk werk na dat alle muzikale genres van zijn tijd omvat."
+      },
+      {
+        "id": 4,
+        "question": "Hoeveel snaren heeft een viool, een instrument dat een belangrijke plaats inneemt in de klassieke muziek ?",
+        "propositions": [
+          "6 snaren",
+          "4 snaren",
+          "3 snaren",
+          "5 snaren"
+        ],
+        "réponse": "4 snaren",
+        "anecdote": "Vioolbouwers zoals Antonio Stradivari zijn de vakmensen die snaarinstrumenten maken en onderhouden."
+      },
+      {
+        "id": 5,
+        "question": "Welk tokkelinstrument wordt vaak gebruikt in countrymuziek ?",
+        "propositions": [
+          "Banjo",
+          "Panjo",
+          "Ranjo",
+          "Danjo"
+        ],
+        "réponse": "Banjo",
+        "anecdote": "De banjo, een begeleider in de stijl van New Orleans, wordt ook gebruikt als solist in Ierse muziek."
+      },
+      {
+        "id": 6,
+        "question": "Van welk materiaal is de pit van een strijkstok gemaakt ?",
+        "propositions": [
+          "Angora",
+          "Katoen",
+          "Paardenhaar",
+          "Mohair"
+        ],
+        "réponse": "Paardenhaar",
+        "anecdote": "De lont van een boog is gemaakt van paardenhaar dat uit de staart van de hengst is gehaald omdat die van de merrie beschadigd zijn door urine."
+      },
+      {
+        "id": 7,
+        "question": "Welk muzikaal blaasinstrument en vrij rietinstrument bespeelt een mondharmonicaspeler ?",
+        "propositions": [
+          "Harmonium",
+          "Accordeon",
+          "Xylofoon",
+          "Mondharmonica"
+        ],
+        "réponse": "Mondharmonica",
+        "anecdote": "Ondanks de beperkte kennis van het publiek, lijkt het erop dat de mondharmonica in kwantiteit het meest verkochte instrument ter wereld is."
+      },
+      {
+        "id": 8,
+        "question": "Hoeveel snaren zitten er tenminste op een basgitaar ?",
+        "propositions": [
+          "Vijf",
+          "Vier",
+          "Zes",
+          "Drie"
+        ],
+        "réponse": "Vier",
+        "anecdote": "Sinds de jaren vijftig heeft de basgitaar de contrabas vervangen in rockmuziek."
+      },
+      {
+        "id": 9,
+        "question": "Welk instrument speelde John Lennon met de Beatles ?",
+        "propositions": [
+          "Saxofoon",
+          "Toetsenbord",
+          "Gitaar",
+          "Batterij"
+        ],
+        "réponse": "Gitaar",
+        "anecdote": "Lennon en McCartney vormden een van de meest invloedrijke en productieve tandems voor songwriting in de rockgeschiedenis."
+      },
+      {
+        "id": 10,
+        "question": "Instrument van de vioolfamilie, in welke positie speel je cello ?",
+        "propositions": [
+          "Zitten",
+          "Liggen",
+          "Staand",
+          "Op haar knieën"
+        ],
+        "réponse": "Zitten",
+        "anecdote": "De cello wordt zittend bespeeld, tussen de benen vastgehouden, nu rustend op een intrekbare spies."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke toonsoort, dicht bij de A van de stemvork, wordt onder andere door de violist gebruikt ?",
+        "propositions": [
+          "Solsleutel",
+          "Sleutel van D",
+          "Sleutel van C",
+          "Bassleutel"
+        ],
+        "réponse": "Solsleutel",
+        "anecdote": "In de muziektheorie is een sleutel een grafisch teken dat aan het begin van de notenbalk wordt geplaatst en de toonhoogte aangeeft van de noten die bij elke regel horen."
+      },
+      {
+        "id": 12,
+        "question": "Welk instrument werd eind jaren dertig door Lionel Hampton gepopulariseerd ?",
+        "propositions": [
+          "Saxofoon",
+          "Vibrafoon",
+          "Metallofoon",
+          "Xylofoon"
+        ],
+        "réponse": "Vibrafoon",
+        "anecdote": "Lionel Hampton, bijgenaamd The Lion, was de eerste jazzgigant die de vibrafoon zijn adel gaf."
+      },
+      {
+        "id": 13,
+        "question": "Op welk percussie-instrument sla je met een bufferstok ?",
+        "propositions": [
+          "Bang",
+          "Gong",
+          "Bong",
+          "Bende"
+        ],
+        "réponse": "Gong",
+        "anecdote": "Het instrument zelf is waarschijnlijk afkomstig van Chinese bronzen percussie."
+      },
+      {
+        "id": 14,
+        "question": "Welk instrument werd Ginger Baker als een virtuoos beschouwd ?",
+        "propositions": [
+          "Viool",
+          "Batterij",
+          "Gitaar",
+          "Trompet"
+        ],
+        "réponse": "Batterij",
+        "anecdote": "Sinds 1986 heeft Ginger Baker verschillende jazzfusionalbums uitgebracht en toerde met bands van verschillende stijlen."
+      },
+      {
+        "id": 15,
+        "question": "Welk muziekinstrument dat in Griekenland veel wordt gebruikt, wordt bespeeld met een plectrum ?",
+        "propositions": [
+          "Kanoun",
+          "Bouzouki",
+          "Baglama",
+          "Rebétiko"
+        ],
+        "réponse": "Bouzouki",
+        "anecdote": "De bouzouki wordt sinds het midden van de 20e eeuw vaak beschouwd als het nationale instrument van Griekenland."
+      },
+      {
+        "id": 16,
+        "question": "De balalaika is een Russisch tokkelinstrument, maar in welke vorm ?",
+        "propositions": [
+          "Rond",
+          "Rechthoekig",
+          "Driehoekig",
+          "Vierkant"
+        ],
+        "réponse": "Driehoekig",
+        "anecdote": "De balalaika wordt meestal met de vinger gespeeld, soms met een plectrum, en is er in verschillende maten."
+      },
+      {
+        "id": 17,
+        "question": "Welk muziekinstrument is het hoogste in een symfonieorkest ?",
+        "propositions": [
+          "Piccolo",
+          "Hobo",
+          "Trombone",
+          "Tuba"
+        ],
+        "réponse": "Piccolo",
+        "anecdote": "De piccolo werd voornamelijk gebruikt om de grote fluit in het bovenste octaaf te verdubbelen, om de orkestrale schittering te vergroten."
+      },
+      {
+        "id": 18,
+        "question": "In welk land speel je sitar en vînâ, citer op een stok met twee resonatoren ?",
+        "propositions": [
+          "Spanje",
+          "India",
+          "Brazilië",
+          "Marokko"
+        ],
+        "réponse": "India",
+        "anecdote": "De rudra vînâ is de oudste van de Indiase snaarinstrumenten met frets : hij wordt ook wel bîn genoemd."
+      },
+      {
+        "id": 19,
+        "question": "Welk muziekinstrument staat op de etiketten van de Ierse brouwerij Guinness ?",
+        "propositions": [
+          "Viool",
+          "Harp",
+          "Fluit",
+          "Saxofoon"
+        ],
+        "réponse": "Harp",
+        "anecdote": "Guinness is een stout, een donker bier met een witte schuimkraag, wereldwijd bekend om zijn smaak en uiterlijk."
+      },
+      {
+        "id": 20,
+        "question": "Hoeveel zuigers heeft een trompet om hem chromatisch te maken ?",
+        "propositions": [
+          "Vijf",
+          "Vier",
+          "Twee",
+          "Drie"
+        ],
+        "réponse": "Drie",
+        "anecdote": "De zuigertrompet wordt tegenwoordig in de meeste landen het meest gebruikt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Hoeveel snaren zijn er op een concertharp, met een bereik van zes octaven ?",
+        "propositions": [
+          "57",
+          "47",
+          "37",
+          "67"
+        ],
+        "réponse": "47",
+        "anecdote": "De concertharp heeft de bijzonderheid dat hij snaren heeft die loodrecht op de resonantiekamer staan."
+      },
+      {
+        "id": 22,
+        "question": "Wat is de frequentie van de stemvork, bestaande uit twee parallelle messen die in een U zijn gelast ?",
+        "propositions": [
+          "440 hertz",
+          "460 hertz",
+          "450 hertz",
+          "430 hertz"
+        ],
+        "réponse": "440 hertz",
+        "anecdote": "In de muziek is de stemvork het instrument van een muzikant dat de toonhoogte van een conventionele cue-noot geeft."
+      },
+      {
+        "id": 23,
+        "question": "Welk deel van de viool blokkeert de violist tussen zijn nek en schouder ?",
+        "propositions": [
+          "Kaak",
+          "Kinsteun",
+          "Depauloire",
+          "Rust"
+        ],
+        "réponse": "Kinsteun",
+        "anecdote": "Een viool bestaat uit drie verschillende delen : de klankkast, de hals en de snaren."
+      },
+      {
+        "id": 24,
+        "question": "Welk weekdier kun je de schelp gebruiken als een muziekinstrument voor blazers ?",
+        "propositions": [
+          "Fluitje",
+          "Schelp",
+          "Dizi",
+          "Piri"
+        ],
+        "réponse": "Schelp",
+        "anecdote": "De instrumentalist neemt de schelp in de hand en produceert zijn geluid volgens hetzelfde principe als de hoorn of de hoorn."
+      },
+      {
+        "id": 25,
+        "question": "Wat is de meest voorkomende toonsoort van de Schotse doedelzakdrones ?",
+        "propositions": [
+          "Bes",
+          "Doen",
+          "Es",
+          "Bodem"
+        ],
+        "réponse": "Bes",
+        "anecdote": "Dubbelriet wordt ook gebruikt door de fagot, de chalemie, de hobo, de bombarde of de Engelse hoorn."
+      },
+      {
+        "id": 26,
+        "question": "Van hoeveel stukken hout, gelijmd of gemonteerd, is een viool gemaakt ?",
+        "propositions": [
+          "51 stuks",
+          "91 stuks",
+          "71 stuks",
+          "31 stuks"
+        ],
+        "réponse": "71 stuks",
+        "anecdote": "In klassieke muziekgroepen is de viool het kleinste en hoogste instrument in zijn familie."
+      },
+      {
+        "id": 27,
+        "question": "Welk muziekinstrument is ook bekend als de zigeunertrompet ?",
+        "propositions": [
+          "Joods harp",
+          "Harp",
+          "Bandurria",
+          "Rammelaar"
+        ],
+        "réponse": "Joods harp",
+        "anecdote": "De joodse harp, die uit twee elementen bestaat, is een van de oudste muziekinstrumenten ter wereld."
+      },
+      {
+        "id": 28,
+        "question": "Welke kleine dwarsfluit werd ooit gebruikt in militaire bands ?",
+        "propositions": [
+          "Fife",
+          "Sodina",
+          "Kaval",
+          "Gasba"
+        ],
+        "réponse": "Fife",
+        "anecdote": "Het vijfje, klein van lengte en gemaakt van hout, heeft zes of zeven speelgaten en soms een sleutel."
+      },
+      {
+        "id": 29,
+        "question": "Welke lichte hamer wordt gebruikt om verschillende percussie-instrumenten te slaan ?",
+        "propositions": [
+          "Mailloche",
+          "Brochoir",
+          "Tricoise",
+          "Dérivoir"
+        ],
+        "réponse": "Mailloche",
+        "anecdote": "Verschillende soorten hamers (ook wel ooievaars genoemd) zorgen voor verschillende geluiden."
+      },
+      {
+        "id": 30,
+        "question": "Welk traditioneel snaarinstrument is dat van de geisha geworden ?",
+        "propositions": [
+          "Shamisen",
+          "Shakuhachi",
+          "Koto",
+          "Taiko"
+        ],
+        "réponse": "Shamisen",
+        "anecdote": "De shamisen wordt geknield op een zabuton gespeeld door de snaren te tokkelen met een groot ivoren plectrum."
+      }
+    ]
+    }
+  }
+}

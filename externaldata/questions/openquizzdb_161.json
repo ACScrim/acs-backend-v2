@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 8,
+  "mise-à-jour": "2024-05-20",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Gastronomie",
+      "nom": "Cuisine italienne",
+      "slogan": "Grande diversité régionale"
+    },
+    "en": {
+      "catégorie": "Gastronomy",
+      "nom": "Italian food",
+      "slogan": "Great regional diversity"
+    },
+    "es": {
+      "catégorie": "Gastronomía",
+      "nom": "Comida italiana",
+      "slogan": "Gran diversidad regional"
+    },
+    "it": {
+      "catégorie": "Gastronomia",
+      "nom": "Italiaans eten",
+      "slogan": "Grande diversità regionale"
+    },
+    "de": {
+      "catégorie": "Gastronomie",
+      "nom": "Italienisches Essen",
+      "slogan": "Große regionale Vielfalt"
+    },
+    "nl": {
+      "catégorie": "Gastronomie",
+      "nom": "Italiaans eten",
+      "slogan": "Grote regionale diversiteit"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle recette originaire de Naples est faite à base de galette de pâte à pain ?",
+        "propositions": [
+          "Pizza",
+          "Truffade",
+          "Poutine",
+          "Taco"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "Cuite au four, la pizza traditionnelle est principalement garnie d'huile d'olive, de sauce tomate, de mozzarella et d'autres ingrédients."
+      },
+      {
+        "id": 2,
+        "question": "Quelle sauce est faite à base de boeuf haché, sauce tomate et oignons ?",
+        "propositions": [
+          "Génoise",
+          "Pesto",
+          "Vincotto",
+          "Bolognaise"
+        ],
+        "réponse": "Bolognaise",
+        "anecdote": "À Bologne, la sauce bolognaise est surtout utilisée avec des tagliatelles, lasagnes, cannellonis, pâtes au four, ou polenta."
+      },
+      {
+        "id": 3,
+        "question": "Quelle préparation propose du boeuf cru coupé en tranches très fines ?",
+        "propositions": [
+          "Carpaccio",
+          "Crostino",
+          "Frico",
+          "Risotto"
+        ],
+        "réponse": "Carpaccio",
+        "anecdote": "Cette recette d'origine a depuis été déclinée en de nombreuses variantes, à base d'autres viandes, mais aussi de poissons."
+      },
+      {
+        "id": 4,
+        "question": "Quelle spécialité à base de viande de veau peut se préparer à la milanaise ?",
+        "propositions": [
+          "Escalope",
+          "Aiguillette",
+          "Persillé",
+          "Carcasse"
+        ],
+        "réponse": "Escalope",
+        "anecdote": "Elle est traditionnellement cuite au beurre, et généralement servie avec des légumes ou salade, et éventuellement du jus de citron."
+      },
+      {
+        "id": 5,
+        "question": "Quelle réduction d'un bouillon de riz est cuit avec divers ingrédients ?",
+        "propositions": [
+          "Congri",
+          "Paella",
+          "Risotto",
+          "Massa"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "Le safran est à l'origine utilisé pour relever le goût du risotto, et son usage est reconnaissable grâce à sa coloration jaune."
+      },
+      {
+        "id": 6,
+        "question": "Quelle liqueur de citron originaire d'Italie est entre autres produite à Capri ?",
+        "propositions": [
+          "Granizado",
+          "Martini",
+          "Limoncello",
+          "Sidecar"
+        ],
+        "réponse": "Limoncello",
+        "anecdote": "Le limoncello est peu cher à produire, ne nécessitant que du sucre, de l'eau, des zestes de citron, de l'alcool et du temps de maturation."
+      },
+      {
+        "id": 7,
+        "question": "Quelles pâtes alimentaires se présentent en forme de feuilles rectangulaires ?",
+        "propositions": [
+          "Tortellini",
+          "Cannelloni",
+          "Fusilli",
+          "Lasagnes"
+        ],
+        "réponse": "Lasagnes",
+        "anecdote": "Originaires du centre-sud italien, les lasagnes sont déclinées sous de multiples variantes dans le monde (épinard, aubergine, pesto)."
+      },
+      {
+        "id": 8,
+        "question": "Quelle recette de pâtes farcies pliées est une spécialité du nord-ouest de l'Italie ?",
+        "propositions": [
+          "Orama",
+          "Ravioli",
+          "Ducana",
+          "Samoussa"
+        ],
+        "réponse": "Ravioli",
+        "anecdote": "La farce des raviolis peut être composée de légumes, fromages, viandes, poissons, pomme de terre, herbes, biscuits ou des fruits."
+      },
+      {
+        "id": 9,
+        "question": "Quelle variété de pâtes longues est vendue sous forme de lanières ?",
+        "propositions": [
+          "Spaghetti",
+          "Fettuccine",
+          "Tagliatelles",
+          "Luinguine"
+        ],
+        "réponse": "Tagliatelles",
+        "anecdote": "Les tagliatelles sont souvent cuisinées avec une sauce bolognaise, ou à la sauce tomate napolitaine, ou à la carbonara."
+      },
+      {
+        "id": 10,
+        "question": "Quel plat de pâtes est jeté dans une poêle avec des oeufs et des lardons ?",
+        "propositions": [
+          "Carbonara",
+          "Tortellini",
+          "Lasagne",
+          "Ravioli"
+        ],
+        "réponse": "Carbonara",
+        "anecdote": "La recette moderne des pâtes à la carbonara utilise des spaghettis, du guanciale, du pecorino, du jaune d'oeuf et du poivre."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle cuisine italienne préfère les pâtes de semoule de blé dur ?",
+        "propositions": [
+          "Sarde",
+          "Lombarde",
+          "Toscane",
+          "Napolitaine"
+        ],
+        "réponse": "Napolitaine",
+        "anecdote": "Le temps de cuisson des pâtes est très important et elles doivent être cuites al dente, surtout si elles sont cuisinées à la poêle."
+      },
+      {
+        "id": 12,
+        "question": "Quel dessert du Piémont incorpore de la crème, du lait, du sucre et de la gélatine ?",
+        "propositions": [
+          "Panna cotta",
+          "Barfi",
+          "Blanc-manger",
+          "Manjar"
+        ],
+        "réponse": "Panna cotta",
+        "anecdote": "Pour le gélifiant, la recette piémontaise moderne de la panna cotta utilise une petite quantité de gélatine de porc ou de poisson."
+      },
+      {
+        "id": 13,
+        "question": "Quelle pizza typique des Pouilles est pliée en deux pour en faire une pâte farcie ?",
+        "propositions": [
+          "Sicilienne",
+          "Stromboli",
+          "Calzone",
+          "Panzerotti"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "Le plus souvent, les pizzas calzone sont préparées par un traiteur, à la demande du client et sont dégustées très chaudes."
+      },
+      {
+        "id": 14,
+        "question": "Quel condiment, originaire de Ligurie, est semblable au pistou provençal ?",
+        "propositions": [
+          "Mojo",
+          "Toum",
+          "Agliata",
+          "Pesto"
+        ],
+        "réponse": "Pesto",
+        "anecdote": "Le pesto est obtenu en pilant (remuant sous pression) le basilic avec du sel, des pignons de pin et de l'ail, assaisonné d'huile d'olive."
+      },
+      {
+        "id": 15,
+        "question": "Quel dessert est obtenu en incorporant du marsala à des jaunes d'oeufs ?",
+        "propositions": [
+          "Sabayon",
+          "Pastiera",
+          "Maritozzo",
+          "Budino"
+        ],
+        "réponse": "Sabayon",
+        "anecdote": "Cette incorporation se fait au fouet et à feu vif, jusqu'à obtenir une préparation mousseuse et parfumée, servie chaude ou tiède."
+      },
+      {
+        "id": 16,
+        "question": "Quelle boisson alcoolisée douce présente une légère saveur d'amande amère ?",
+        "propositions": [
+          "Negroni",
+          "Sambuca",
+          "Amaretto",
+          "Grappa"
+        ],
+        "réponse": "Amaretto",
+        "anecdote": "Titrant généralement à 28 degrés d'alcool, l'amaretto est l'une des liqueurs pouvant servir à aromatiser le tiramisu, un dessert italien."
+      },
+      {
+        "id": 17,
+        "question": "Quel dérivé de la pizza se présente sous la forme d'un roulé au fromage ?",
+        "propositions": [
+          "Poutine",
+          "Frico",
+          "Stromboli",
+          "Tiropita"
+        ],
+        "réponse": "Stromboli",
+        "anecdote": "Le stromboli contient de la mozzarella, de charcuterie italienne tel du salami, de la coppa ou de la bresaola ainsi que des légumes."
+      },
+      {
+        "id": 18,
+        "question": "Quel dessert traditionnel italien signifie « redonne-moi des forces » ?",
+        "propositions": [
+          "Trianon",
+          "Tiramisu",
+          "Brownie",
+          "Opéra"
+        ],
+        "réponse": "Tiramisu",
+        "anecdote": "Il est conseillé de ne pas immerger entièrement les biscuits du tiramisu dans le café, au risque d'une consistance spongieuse."
+      },
+      {
+        "id": 19,
+        "question": "Laquelle de ces spécialités n'est pas d'origine italienne mais espagnole ?",
+        "propositions": [
+          "Grappa",
+          "Paella",
+          "Carbonara",
+          "Polenta"
+        ],
+        "réponse": "Paella",
+        "anecdote": "Originaire de la région de Valence, à l'est et au sud-est de péninsule Ibérique, la paella tient son nom de la poêle qui sert à la cuisiner."
+      },
+      {
+        "id": 20,
+        "question": "Quel entremets glacé italien, typiquement sicilien, est servi semi-congelé ?",
+        "propositions": [
+          "Mellorine",
+          "Granita",
+          "Halo-halo",
+          "Cendol"
+        ],
+        "réponse": "Granita",
+        "anecdote": "La préparation de la granita est unique et lui donne un aspect de neige, obtenu en respectant une phase précise de solidification."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel terme désigne à la fois une tartine et une préparation de tomates ?",
+        "propositions": [
+          "Loubia",
+          "Salmorejo",
+          "Bruschetta",
+          "Clamato"
+        ],
+        "réponse": "Bruschetta",
+        "anecdote": "Il s'agit souvent d'une tranche de pain de campagne, rassis ou grillé au gril ou au four, sur laquelle on frotte une gousse d'ail."
+      },
+      {
+        "id": 22,
+        "question": "Quel long drink alcoolisé est entre autres composé de prosecco et d'eau de Seltz ?",
+        "propositions": [
+          "Grappa",
+          "Spritz",
+          "Aquardiente",
+          "Hyprocas"
+        ],
+        "réponse": "Spritz",
+        "anecdote": "Depuis 2015, la contre-étiquette de la bouteille d'Aperol indique le verre à pied comme idéal pour la préparation d'Aperol Spritz."
+      },
+      {
+        "id": 23,
+        "question": "Quelle région d'Italie est une des seules à avoir adopté le pain sans sel ?",
+        "propositions": [
+          "Calabre",
+          "Vénétie",
+          "Toscane",
+          "Lombardie"
+        ],
+        "réponse": "Toscane",
+        "anecdote": "La cuisine toscane se caractérise par le manque d'homogénéité et par la divergence radicale des recettes et des traditions culinaires."
+      },
+      {
+        "id": 24,
+        "question": "Quelle eau-de-vie de marc de raisin est produite en Italie et à Saint-Marin ?",
+        "propositions": [
+          "Sambuca",
+          "Negroni",
+          "Grappa",
+          "Amaretto"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Produit pauvre par définition, cette boisson alcoolisée a été baptisée pour la première fois grappa à la fin du XIXe siècle."
+      },
+      {
+        "id": 25,
+        "question": "Avec les intestins de quel animal sont préparés les rigatoni con la pajata ?",
+        "propositions": [
+          "Veau",
+          "Porc",
+          "Cheval",
+          "Chèvre"
+        ],
+        "réponse": "Veau",
+        "anecdote": "L'intestin est coupé en morceaux de 20 à 25 cm de long, qui sont liés entre eux par un fil blanc, formant ainsi des anneaux."
+      },
+      {
+        "id": 26,
+        "question": "Quelle pâte semi-liquide est constituée d'eau et de farine de céréales ?",
+        "propositions": [
+          "Rafanata",
+          "Polenta",
+          "Baccala",
+          "Cotoletta"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "Celle-ci est versée dans un chaudron d'eau bouillante salée et est traditionnellement agitée en continu avec un bâton de noisetier."
+      },
+      {
+        "id": 27,
+        "question": "Quel ragoût de tronçons de jarret de veau est un plat traditionnel milanais ?",
+        "propositions": [
+          "Tripou",
+          "Paupiette",
+          "Osso buco",
+          "Hochepot"
+        ],
+        "réponse": "Osso buco",
+        "anecdote": "Connu depuis le XVIIIe siècle, l'osso buco peut s'accompagner de risotto, polenta, purée de pommes de terre ou pâtes fraîches."
+      },
+      {
+        "id": 28,
+        "question": "Quelle mousse glacée italienne propose trois parfums différents ?",
+        "propositions": [
+          "Spumone",
+          "Ciambella",
+          "Zeppole",
+          "Amaretti"
+        ],
+        "réponse": "Spumone",
+        "anecdote": "Le spumone (de spuma, qui signifie mousse; au pluriel spumoni) peut également parfois contenir des fruits confits ou des noix."
+      },
+      {
+        "id": 29,
+        "question": "Quelle entreprise italienne produit un amaro parfumé à l'écorce d'orange ?",
+        "propositions": [
+          "Campari",
+          "Jinro",
+          "Bacardi",
+          "Cuervo"
+        ],
+        "réponse": "Campari",
+        "anecdote": "Un amaro se consomme habituellement comme digestif, mais nombre d'amers italiens se consomment fréquemment en cocktail."
+      },
+      {
+        "id": 30,
+        "question": "Quels chaussons de pâte à pizza, originaires des Pouilles, sont parfois appelés calzone ?",
+        "propositions": [
+          "Scaccia",
+          "Panzerotti",
+          "Farinata",
+          "Piadina"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Préparés à l'avance, les panzerotti peuvent être réchauffés ensuite au four, dans les établissements de restauration rapide."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which recipe from Naples is made with bread dough pancakes ?",
+        "propositions": [
+          "Putin",
+          "Taco",
+          "Truffade",
+          "Pizza"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "Baked in the oven, traditional pizza is mainly topped with olive oil, tomato sauce, mozzarella and other ingredients."
+      },
+      {
+        "id": 2,
+        "question": "What sauce is made from ground beef, tomato sauce and onions ?",
+        "propositions": [
+          "Vincotto",
+          "Sponge cake",
+          "Pesto",
+          "Bolognese"
+        ],
+        "réponse": "Bolognese",
+        "anecdote": "In Bologna, Bolognese sauce is mainly used with tagliatelle, lasagna, cannelloni, baked pasta, or polenta."
+      },
+      {
+        "id": 3,
+        "question": "What preparation uses raw beef cut into very thin slices ?",
+        "propositions": [
+          "Frico",
+          "Risotto",
+          "Crostin",
+          "Carpaccio"
+        ],
+        "réponse": "Carpaccio",
+        "anecdote": "This original recipe has since been declined in numerous variations, based on other meats, but also fish."
+      },
+      {
+        "id": 4,
+        "question": "What veal specialty can be prepared Milanese style ?",
+        "propositions": [
+          "Marbled",
+          "Aiguillette",
+          "Carcass",
+          "Escalope"
+        ],
+        "réponse": "Escalope",
+        "anecdote": "It is traditionally cooked in butter, and generally served with vegetables or salad, and possibly lemon juice."
+      },
+      {
+        "id": 5,
+        "question": "What reduction of a rice broth is cooked with various ingredients ?",
+        "propositions": [
+          "Congri",
+          "Risotto",
+          "Massa",
+          "Paella"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "Saffron is originally used to enhance the flavor of risotto, and its use is recognizable thanks to its yellow coloring."
+      },
+      {
+        "id": 6,
+        "question": "Which lemon liqueur from Italy is produced in Capri, among others ?",
+        "propositions": [
+          "Martini",
+          "Granizado",
+          "Limoncello",
+          "Sidecar"
+        ],
+        "réponse": "Limoncello",
+        "anecdote": "Limoncello is inexpensive to produce, requiring only sugar, water, lemon zest, alcohol and maturation time."
+      },
+      {
+        "id": 7,
+        "question": "Which pasta comes in the shape of rectangular sheets ?",
+        "propositions": [
+          "Shot",
+          "Lasagna",
+          "Cannelloni",
+          "Tortellini"
+        ],
+        "réponse": "Lasagna",
+        "anecdote": "Originating from south-central Italy, lasagna is available in multiple variations around the world (spinach, eggplant, pesto)."
+      },
+      {
+        "id": 8,
+        "question": "Which folded stuffed pasta recipe is a specialty of northwest Italy ?",
+        "propositions": [
+          "Ravioli",
+          "Samosa",
+          "Orama",
+          "Ducana"
+        ],
+        "réponse": "Ravioli",
+        "anecdote": "The ravioli stuffing can be made from vegetables, cheese, meat, fish, potatoes, herbs, biscuits or fruit."
+      },
+      {
+        "id": 9,
+        "question": "What variety of long pasta is sold in strip form ?",
+        "propositions": [
+          "Tagliatelle",
+          "Fettuccine",
+          "Spaghetti",
+          "Luinguine"
+        ],
+        "réponse": "Tagliatelle",
+        "anecdote": "Tagliatelle is often cooked with a Bolognese sauce, or Neapolitan tomato sauce, or carbonara."
+      },
+      {
+        "id": 10,
+        "question": "What pasta dish is thrown in a pan with eggs and bacon ?",
+        "propositions": [
+          "Ravioli",
+          "Lasagna",
+          "Tortellini",
+          "Carbonara"
+        ],
+        "réponse": "Carbonara",
+        "anecdote": "The modern carbonara pasta recipe uses spaghetti, guanciale, pecorino, egg yolk and pepper."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which Italian cuisine prefers durum wheat semolina pasta ?",
+        "propositions": [
+          "Tuscany",
+          "Neapolitan",
+          "Sardinian",
+          "Lombardy"
+        ],
+        "réponse": "Neapolitan",
+        "anecdote": "The cooking time of pasta is very important and it must be cooked al dente, especially if cooked in a pan."
+      },
+      {
+        "id": 12,
+        "question": "What Piedmont dessert incorporates cream, milk, sugar and gelatin ?",
+        "propositions": [
+          "Manjar",
+          "Barfi",
+          "Blancmange",
+          "Panna cotta"
+        ],
+        "réponse": "Panna cotta",
+        "anecdote": "For the gelling agent, the modern Piedmontese recipe for panna cotta uses a small amount of pork or fish gelatin."
+      },
+      {
+        "id": 13,
+        "question": "What typical Apulian pizza is folded in half to make a stuffed dough ?",
+        "propositions": [
+          "Stromboli",
+          "Panzerotti",
+          "Calzone",
+          "Sicilian"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "Most often, calzone pizzas are prepared by a caterer, at the customer's request and are eaten very hot."
+      },
+      {
+        "id": 14,
+        "question": "What condiment, originally from Liguria, is similar to Provençal pistou ?",
+        "propositions": [
+          "Agliata",
+          "Pesto",
+          "Toum",
+          "Mojo"
+        ],
+        "réponse": "Pesto",
+        "anecdote": "Pesto is made by pounding (stirring under pressure) basil with salt, pine nuts and garlic, seasoned with olive oil."
+      },
+      {
+        "id": 15,
+        "question": "What dessert is obtained by incorporating marsala into egg yolks ?",
+        "propositions": [
+          "Zabayon",
+          "Maritozzo",
+          "Pastiera",
+          "Budino"
+        ],
+        "réponse": "Zabayon",
+        "anecdote": "This incorporation is done with a whisk and over high heat, until you obtain a foamy and fragrant preparation, served hot or lukewarm."
+      },
+      {
+        "id": 16,
+        "question": "What mild alcoholic beverage has a slight bitter almond flavor ?",
+        "propositions": [
+          "Sambuca",
+          "Amaretto",
+          "Grappa",
+          "Negroni"
+        ],
+        "réponse": "Amaretto",
+        "anecdote": "Generally with an alcohol content of 28 degrees, amaretto is one of the liqueurs that can be used to flavor tiramisu, an Italian dessert."
+      },
+      {
+        "id": 17,
+        "question": "What pizza derivative comes in the form of a cheese roll ?",
+        "propositions": [
+          "Tiropita",
+          "Frico",
+          "Putin",
+          "Stromboli"
+        ],
+        "réponse": "Stromboli",
+        "anecdote": "The stromboli contains mozzarella, Italian cold cuts such as salami, coppa or bresaola as well as vegetables."
+      },
+      {
+        "id": 18,
+        "question": "What traditional Italian dessert means « give me strength » ?",
+        "propositions": [
+          "Brownies",
+          "Opera",
+          "Trianon",
+          "Tiramisu"
+        ],
+        "réponse": "Tiramisu",
+        "anecdote": "It is recommended not to completely immerse the tiramisu biscuits in the coffee, as this could result in a spongy consistency."
+      },
+      {
+        "id": 19,
+        "question": "Which of these specialties is not of Italian but of Spanish origin ?",
+        "propositions": [
+          "Polenta",
+          "Paella",
+          "Carbonara",
+          "Grappa"
+        ],
+        "réponse": "Paella",
+        "anecdote": "Originally from the Valencia region, to the east and southeast of the Iberian Peninsula, paella takes its name from the pan used to cook it."
+      },
+      {
+        "id": 20,
+        "question": "Which Italian frozen dessert, typically Sicilian, is served semi-frozen ?",
+        "propositions": [
+          "Cendol",
+          "Halo-halo",
+          "Granite",
+          "Mellorine"
+        ],
+        "réponse": "Granite",
+        "anecdote": "The preparation of granita is unique and gives it a snow-like appearance, obtained by respecting a precise solidification phase."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What term designates both a toast and a tomato preparation ?",
+        "propositions": [
+          "Loubia",
+          "Salmorejo",
+          "Clamato",
+          "Bruschetta"
+        ],
+        "réponse": "Bruschetta",
+        "anecdote": "It is often a slice of country bread, stale or toasted on the grill or in the oven, on which a clove of garlic is rubbed."
+      },
+      {
+        "id": 22,
+        "question": "What alcoholic long drink is made, among other things, from prosecco and seltzer ?",
+        "propositions": [
+          "Hyprocas",
+          "Aquardient",
+          "Spritz",
+          "Grappa"
+        ],
+        "réponse": "Spritz",
+        "anecdote": "Since 2015, the back label of the Aperol bottle indicates the stemmed glass as ideal for the preparation of Aperol Spritz."
+      },
+      {
+        "id": 23,
+        "question": "Which region of Italy is one of the only ones to have adopted salt-free bread ?",
+        "propositions": [
+          "Calabria",
+          "Veneto",
+          "Lombardy",
+          "Tuscany"
+        ],
+        "réponse": "Tuscany",
+        "anecdote": "Tuscan cuisine is characterized by the lack of homogeneity and the radical divergence of recipes and culinary traditions."
+      },
+      {
+        "id": 24,
+        "question": "What grape marc brandy is produced in Italy and San Marino ?",
+        "propositions": [
+          "Grappa",
+          "Sambuca",
+          "Negroni",
+          "Amaretto"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "A poor product by definition, this alcoholic drink was first called grappa at the end of the 19th century."
+      },
+      {
+        "id": 25,
+        "question": "With the intestines of which animal are rigatoni con la pajata prepared ?",
+        "propositions": [
+          "Calf",
+          "Pork",
+          "Horse",
+          "Goat"
+        ],
+        "réponse": "Calf",
+        "anecdote": "The intestine is cut into pieces 20-25 cm long, which are tied together with a white thread, thus forming rings."
+      },
+      {
+        "id": 26,
+        "question": "Which semi-liquid dough is made from water and cereal flour ?",
+        "propositions": [
+          "Cotoletta",
+          "Polenta",
+          "Rafanata",
+          "Baccalaureate"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "This is poured into a cauldron of boiling salted water and is traditionally stirred continuously with a hazel stick."
+      },
+      {
+        "id": 27,
+        "question": "Which veal shank stew is a traditional Milanese dish ?",
+        "propositions": [
+          "Hochepot",
+          "Paupiette",
+          "Tripou",
+          "Ossobucco"
+        ],
+        "réponse": "Ossobucco",
+        "anecdote": "Known since the 18th century, osso buco can be accompanied by risotto, polenta, mashed potatoes or fresh pasta."
+      },
+      {
+        "id": 28,
+        "question": "Which Italian frozen mousse has three different flavors ?",
+        "propositions": [
+          "Spumone",
+          "Zeppole",
+          "Amaretti",
+          "Ciambella"
+        ],
+        "réponse": "Spumone",
+        "anecdote": "Spumone (from spuma, meaning foam; plural spumoni) can also sometimes contain candied fruit or nuts."
+      },
+      {
+        "id": 29,
+        "question": "Which Italian company produces an amaro flavored with orange peel ?",
+        "propositions": [
+          "Cuervo",
+          "Jinro",
+          "Bacardi",
+          "Campari"
+        ],
+        "réponse": "Campari",
+        "anecdote": "An amaro is usually consumed as a digestive, but many Italian bitters are frequently consumed in cocktails."
+      },
+      {
+        "id": 30,
+        "question": "Which pizza dough turnovers, originating from Puglia, are sometimes called calzone ?",
+        "propositions": [
+          "Scaccia",
+          "Farinata",
+          "Panzerotti",
+          "Piadina"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Prepared in advance, panzerotti can then be reheated in the oven in fast food establishments."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Rezept aus Neapel besteht aus Brotteigpfannkuchen ?",
+        "propositions": [
+          "Taco",
+          "Truffade",
+          "Pizza",
+          "Putin"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "Traditionelle im Ofen gebackene Pizza wird hauptsächlich mit Olivenöl, Tomatensauce, Mozzarella und anderen Zutaten belegt."
+      },
+      {
+        "id": 2,
+        "question": "Welche Soße wird aus Hackfleisch, Tomatensoße und Zwiebeln hergestellt ?",
+        "propositions": [
+          "Biskuitkuchen",
+          "Vincotto",
+          "Pesto",
+          "Bolognese"
+        ],
+        "réponse": "Bolognese",
+        "anecdote": "In Bologna wird Bolognese-Sauce hauptsächlich zu Tagliatelle, Lasagne, Cannelloni, gebackenen Nudeln oder Polenta verwendet."
+      },
+      {
+        "id": 3,
+        "question": "Bei welcher Zubereitung wird rohes, in sehr dünne Scheiben geschnittenes Rindfleisch verwendet ?",
+        "propositions": [
+          "Carpaccio",
+          "Crostin",
+          "Frico",
+          "Risotto"
+        ],
+        "réponse": "Carpaccio",
+        "anecdote": "Dieses Originalrezept wurde seitdem in zahlreichen Variationen verfeinert, die auf anderen Fleischsorten, aber auch Fisch basieren."
+      },
+      {
+        "id": 4,
+        "question": "Welche Kalbsspezialität lässt sich nach Mailänder Art zubereiten ?",
+        "propositions": [
+          "Marmoriert",
+          "Aiguillette",
+          "Kadaver",
+          "Schnitzel"
+        ],
+        "réponse": "Schnitzel",
+        "anecdote": "Es wird traditionell in Butter gekocht und im Allgemeinen mit Gemüse oder Salat und möglicherweise Zitronensaft serviert."
+      },
+      {
+        "id": 5,
+        "question": "Welche Reduktion einer Reisbrühe wird mit verschiedenen Zutaten gekocht ?",
+        "propositions": [
+          "Massa",
+          "Risotto",
+          "Congri",
+          "Paella"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "Safran wird ursprünglich zur Geschmacksverfeinerung von Risotto verwendet und ist an seiner gelben Farbe erkennbar."
+      },
+      {
+        "id": 6,
+        "question": "Welcher Zitronenlikör aus Italien wird unter anderem in Capri hergestellt ?",
+        "propositions": [
+          "Limoncello",
+          "Graniziert",
+          "Beiwagen",
+          "Martini"
+        ],
+        "réponse": "Limoncello",
+        "anecdote": "Limoncello ist kostengünstig herzustellen und erfordert lediglich Zucker, Wasser, Zitronenschale, Alkohol und Reifezeit."
+      },
+      {
+        "id": 7,
+        "question": "Welche Nudeln gibt es in Form rechteckiger Blätter ?",
+        "propositions": [
+          "Tortellini",
+          "Cannelloni",
+          "Schuss",
+          "Lasagne"
+        ],
+        "réponse": "Lasagne",
+        "anecdote": "Die ursprünglich aus Südmittelitalien stammende Lasagne ist weltweit in zahlreichen Variationen erhältlich (Spinat, Aubergine, Pesto)."
+      },
+      {
+        "id": 8,
+        "question": "Welches Rezept für gefaltete gefüllte Nudeln ist eine Spezialität aus Nordwestitalien ?",
+        "propositions": [
+          "Samosa",
+          "Ducana",
+          "Ravioli",
+          "Orama"
+        ],
+        "réponse": "Ravioli",
+        "anecdote": "Die Ravioli-Füllung kann aus Gemüse, Käse, Fleisch, Fisch, Kartoffeln, Kräutern, Keksen oder Obst hergestellt werden."
+      },
+      {
+        "id": 9,
+        "question": "Welche Sorte langer Nudeln wird in Streifenform verkauft ?",
+        "propositions": [
+          "Fettuccine",
+          "Luinguine",
+          "Spaghetti",
+          "Tagliatelle"
+        ],
+        "réponse": "Tagliatelle",
+        "anecdote": "Tagliatelle werden oft mit Bolognese-Sauce, neapolitanischer Tomatensauce oder Carbonara zubereitet."
+      },
+      {
+        "id": 10,
+        "question": "Welches Nudelgericht wird mit Eiern und Speck in eine Pfanne geworfen ?",
+        "propositions": [
+          "Tortellini",
+          "Carbonara",
+          "Ravioli",
+          "Lasagne"
+        ],
+        "réponse": "Carbonara",
+        "anecdote": "Das moderne Carbonara-Nudelrezept verwendet Spaghetti, Guanciale, Pecorino, Eigelb und Pfeffer."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche italienische Küche bevorzugt Nudeln aus Hartweizengrieß ?",
+        "propositions": [
+          "Sardisch",
+          "Toskana",
+          "Lombardei",
+          "Neapolitanisch"
+        ],
+        "réponse": "Neapolitanisch",
+        "anecdote": "Die Kochzeit von Nudeln ist sehr wichtig und sie müssen al dente gekocht werden, insbesondere wenn sie in der Pfanne gekocht werden."
+      },
+      {
+        "id": 12,
+        "question": "Welches Dessert aus dem Piemont enthält Sahne, Milch, Zucker und Gelatine ?",
+        "propositions": [
+          "Blancmange",
+          "Barfi",
+          "Pannacotta",
+          "Manjar"
+        ],
+        "réponse": "Pannacotta",
+        "anecdote": "Als Geliermittel verwendet das moderne piemontesische Rezept für Panna Cotta eine kleine Menge Schweine- oder Fischgelatine."
+      },
+      {
+        "id": 13,
+        "question": "Welche typische apulische Pizza wird in der Mitte gefaltet, um einen gefüllten Teig zu erhalten ?",
+        "propositions": [
+          "Panzerotti",
+          "Sizilianisch",
+          "Stromboli",
+          "Calzone"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "Am häufigsten werden Calzone-Pizzen auf Wunsch des Kunden von einem Caterer zubereitet und sehr heiß gegessen."
+      },
+      {
+        "id": 14,
+        "question": "Welches ursprünglich aus Ligurien stammende Gewürz ähnelt dem provenzalischen Pistou ?",
+        "propositions": [
+          "Agliata",
+          "Toum",
+          "Pesto",
+          "Mojo"
+        ],
+        "réponse": "Pesto",
+        "anecdote": "Pesto wird durch Zerstampfen (Rühren unter Druck) von Basilikum mit Salz, Pinienkernen und Knoblauch hergestellt und mit Olivenöl gewürzt."
+      },
+      {
+        "id": 15,
+        "question": "Welches Dessert erhält man, wenn man Marsala in Eigelb einarbeitet ?",
+        "propositions": [
+          "Budino",
+          "Pastiera",
+          "Zabayon",
+          "Maritozzo"
+        ],
+        "réponse": "Zabayon",
+        "anecdote": "Diese Einarbeitung erfolgt mit einem Schneebesen und bei starker Hitze, bis eine schaumige und duftende Zubereitung entsteht, die heiß oder lauwarm serviert wird."
+      },
+      {
+        "id": 16,
+        "question": "Welches milde alkoholische Getränk hat einen leichten Bittermandelgeschmack ?",
+        "propositions": [
+          "Sambuca",
+          "Amaretto",
+          "Grappa",
+          "Negroni"
+        ],
+        "réponse": "Amaretto",
+        "anecdote": "Mit einem Alkoholgehalt von in der Regel 28 Grad gehört Amaretto zu den Likören, mit denen man Tiramisu, ein italienisches Dessert, würzen kann."
+      },
+      {
+        "id": 17,
+        "question": "Welches Pizza-Derivat gibt es in Form eines Käsebrötchens ?",
+        "propositions": [
+          "Frico",
+          "Tiropita",
+          "Putin",
+          "Stromboli"
+        ],
+        "réponse": "Stromboli",
+        "anecdote": "Die Stromboli enthalten Mozzarella, italienischen Aufschnitt wie Salami, Coppa oder Bresaola sowie Gemüse."
+      },
+      {
+        "id": 18,
+        "question": "Welches traditionelle italienische Dessert soll mir « Kraft geben » ?",
+        "propositions": [
+          "Tiramisu",
+          "Trianon",
+          "Oper",
+          "Brownies"
+        ],
+        "réponse": "Tiramisu",
+        "anecdote": "Es wird empfohlen, die Tiramisu-Kekse nicht vollständig in den Kaffee einzutauchen, da dies zu einer schwammigen Konsistenz führen könnte."
+      },
+      {
+        "id": 19,
+        "question": "Welche dieser Spezialitäten ist nicht italienischen, sondern spanischen Ursprungs ?",
+        "propositions": [
+          "Paella",
+          "Carbonara",
+          "Polenta",
+          "Grappa"
+        ],
+        "réponse": "Paella",
+        "anecdote": "Die Paella stammt ursprünglich aus der Region Valencia im Osten und Südosten der Iberischen Halbinsel und hat ihren Namen von der Pfanne, in der sie zubereitet wird."
+      },
+      {
+        "id": 20,
+        "question": "Welches italienische Tiefkühldessert, typisch sizilianisch, wird halbgefroren serviert ?",
+        "propositions": [
+          "Halo-Halo",
+          "Granit",
+          "Cendol",
+          "Mellorine"
+        ],
+        "réponse": "Granit",
+        "anecdote": "Die Zubereitung von Granita ist einzigartig und verleiht ihm ein schneeähnliches Aussehen, das durch die Einhaltung einer genauen Erstarrungsphase erreicht wird."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Begriff bezeichnet sowohl einen Toast als auch eine Tomatenzubereitung ?",
+        "propositions": [
+          "Clamato",
+          "Bruschetta",
+          "Loubia",
+          "Salmorejo"
+        ],
+        "réponse": "Bruschetta",
+        "anecdote": "Dabei handelt es sich oft um eine Scheibe Landbrot, altbacken oder auf dem Grill oder im Ofen geröstet, auf die eine Knoblauchzehe gerieben wird."
+      },
+      {
+        "id": 22,
+        "question": "Welcher alkoholische Longdrink wird unter anderem aus Prosecco und Selters hergestellt ?",
+        "propositions": [
+          "Hyprocas",
+          "Grappa",
+          "Aquardient",
+          "Spritz"
+        ],
+        "réponse": "Spritz",
+        "anecdote": "Seit 2015 weist das hintere Etikett der Aperol-Flasche darauf hin, dass sich das Stielglas ideal für die Zubereitung von Aperol Spritz eignet."
+      },
+      {
+        "id": 23,
+        "question": "Welche Region Italiens ist eine der wenigen, die salzfreies Brot eingeführt hat ?",
+        "propositions": [
+          "Kalabrien",
+          "Toskana",
+          "Venetien",
+          "Lombardei"
+        ],
+        "réponse": "Toskana",
+        "anecdote": "Die toskanische Küche zeichnet sich durch mangelnde Homogenität und radikale Divergenz der Rezepte und kulinarischen Traditionen aus."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Tresterbrand wird in Italien und San Marino hergestellt ?",
+        "propositions": [
+          "Amaretto",
+          "Grappa",
+          "Sambuca",
+          "Negroni"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Dieses alkoholische Getränk ist per Definition ein schlechtes Produkt und wurde Ende des 19. Jahrhunderts erstmals Grappa genannt."
+      },
+      {
+        "id": 25,
+        "question": "Aus den Därmen von welchem Tier werden Rigatoni con la pajata zubereitet ?",
+        "propositions": [
+          "Kalb",
+          "Pferd",
+          "Schweinefleisch",
+          "Ziege"
+        ],
+        "réponse": "Kalb",
+        "anecdote": "Der Darm wird in 20-25 cm lange Stücke geschnitten, die mit einem weißen Faden zusammengebunden werden und so Ringe bilden."
+      },
+      {
+        "id": 26,
+        "question": "Welcher halbflüssige Teig wird aus Wasser und Getreidemehl hergestellt ?",
+        "propositions": [
+          "Rafanata",
+          "Cotoletta",
+          "Abitur",
+          "Polenta"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "Dieses wird in einen Kessel mit kochendem Salzwasser gegossen und traditionell mit einem Haselnussstiel ständig gerührt."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Kalbshaxeneintopf ist ein traditionelles Mailänder Gericht ?",
+        "propositions": [
+          "Tripou",
+          "Paupiette",
+          "Ossobucco",
+          "Hochepot"
+        ],
+        "réponse": "Ossobucco",
+        "anecdote": "Osso Buco ist seit dem 18. Jahrhundert bekannt und kann mit Risotto, Polenta, Kartoffelpüree oder frischen Nudeln serviert werden."
+      },
+      {
+        "id": 28,
+        "question": "Welche italienische gefrorene Mousse hat drei verschiedene Geschmacksrichtungen ?",
+        "propositions": [
+          "Spumone",
+          "Amaretti",
+          "Ciambella",
+          "Zeppole"
+        ],
+        "réponse": "Spumone",
+        "anecdote": "Spumone (von spuma, was Schaum bedeutet; Plural spumoni) kann manchmal auch kandierte Früchte oder Nüsse enthalten."
+      },
+      {
+        "id": 29,
+        "question": "Welches italienische Unternehmen stellt Amaro mit Orangenschalengeschmack her ?",
+        "propositions": [
+          "Jinro",
+          "Campari",
+          "Bacardi",
+          "Cuervo"
+        ],
+        "réponse": "Campari",
+        "anecdote": "Ein Amaro wird normalerweise als Digestif konsumiert, aber viele italienische Bitterstoffe werden häufig in Cocktails konsumiert."
+      },
+      {
+        "id": 30,
+        "question": "Welche aus Apulien stammenden Pizzateigtaschen werden manchmal Calzone genannt ?",
+        "propositions": [
+          "Panzerotti",
+          "Piadina",
+          "Scaccia",
+          "Farinata"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Fertig zubereitet können Panzerotti dann in Fast-Food-Restaurants im Ofen aufgewärmt werden."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué receta de Nápoles se hace con tortitas de masa de pan ?",
+        "propositions": [
+          "Pizza",
+          "Tacos",
+          "Trufada",
+          "Putin"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "La pizza tradicional, horneada en el horno, se cubre principalmente con aceite de oliva, salsa de tomate, mozzarella y otros ingredientes."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué salsa se hace con carne molida, salsa de tomate y cebolla ?",
+        "propositions": [
+          "Bizcocho",
+          "pesto",
+          "vincotto",
+          "boloñesa"
+        ],
+        "réponse": "boloñesa",
+        "anecdote": "En Bolonia, la salsa boloñesa se utiliza principalmente con tallarines, lasaña, canelones, pasta al horno o polenta."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué preparación se utiliza carne de res cruda cortada en rodajas muy finas ?",
+        "propositions": [
+          "Frico",
+          "Crostina",
+          "Risotto",
+          "Carpacho"
+        ],
+        "réponse": "Carpacho",
+        "anecdote": "Desde entonces, esta receta original ha sido objeto de numerosas variaciones, basadas en otras carnes, pero también en pescado."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué especialidad de ternera se puede preparar a la milanesa ?",
+        "propositions": [
+          "Aiguillette",
+          "Escalope",
+          "Marmoleado",
+          "Canal"
+        ],
+        "réponse": "Escalope",
+        "anecdote": "Tradicionalmente se cocina en mantequilla y generalmente se sirve con verduras o ensalada y posiblemente con jugo de limón."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué reducción de un caldo de arroz se cocina con varios ingredientes ?",
+        "propositions": [
+          "Congrí",
+          "Paella",
+          "masa",
+          "Risotto"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "El azafrán se utilizaba originalmente para realzar el sabor del risotto, y su uso es reconocible gracias a su color amarillo."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué licor de limón italiano se produce, entre otros, en Capri ?",
+        "propositions": [
+          "limoncello",
+          "Granizados",
+          "martini",
+          "Sidecar"
+        ],
+        "réponse": "limoncello",
+        "anecdote": "El limoncello es económico de producir y solo requiere azúcar, agua, ralladura de limón, alcohol y tiempo de maduración."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué pasta viene en forma de láminas rectangulares ?",
+        "propositions": [
+          "Canelones",
+          "Disparo",
+          "Tortellini",
+          "Lasaña"
+        ],
+        "réponse": "Lasaña",
+        "anecdote": "Originaria del centro-sur de Italia, la lasaña está disponible en múltiples variaciones en todo el mundo (espinacas, berenjenas, pesto)."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué receta de pasta rellena plegada es una especialidad del noroeste de Italia ?",
+        "propositions": [
+          "Orama",
+          "Samosas",
+          "Ducana",
+          "Ravioles"
+        ],
+        "réponse": "Ravioles",
+        "anecdote": "El relleno de los ravioles se puede preparar con verduras, queso, carne, pescado, patatas, hierbas, galletas o frutas."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué variedad de pasta larga se comercializa en forma de tiras ?",
+        "propositions": [
+          "Fetuccini",
+          "Espaguetis",
+          "Luinguino",
+          "Tagliatelle"
+        ],
+        "réponse": "Tagliatelle",
+        "anecdote": "Los tallarines a menudo se cocinan con salsa boloñesa, salsa de tomate napolitana o carbonara."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué plato de pasta se echa en una sartén con huevos y tocino ?",
+        "propositions": [
+          "Lasaña",
+          "Tortellini",
+          "carbonara",
+          "Ravioles"
+        ],
+        "réponse": "carbonara",
+        "anecdote": "La receta moderna de pasta carbonara utiliza espaguetis, guanciale, queso pecorino, yema de huevo y pimienta."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué cocina italiana prefiere la pasta de sémola de trigo duro ?",
+        "propositions": [
+          "napolitano",
+          "sardo",
+          "Lombardía",
+          "Toscana"
+        ],
+        "réponse": "napolitano",
+        "anecdote": "El tiempo de cocción de la pasta es muy importante y debe cocinarse al dente, sobre todo si se cocina en sartén."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué postre piamontés incorpora nata, leche, azúcar y gelatina ?",
+        "propositions": [
+          "Manjar",
+          "Barfi",
+          "Panna cotta",
+          "Manjar blanco"
+        ],
+        "réponse": "Panna cotta",
+        "anecdote": "Como agente gelificante, la receta piamontesa moderna de panna cotta utiliza una pequeña cantidad de gelatina de cerdo o pescado."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué pizza típica de Apulia se dobla por la mitad para formar una masa rellena ?",
+        "propositions": [
+          "Calzone",
+          "siciliano",
+          "Panzerotti",
+          "Estrómboli"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "La mayoría de las veces, las pizzas calzone las prepara un proveedor de catering, a petición del cliente, y se comen muy calientes."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué condimento, originario de Liguria, se parece al pistou provenzal ?",
+        "propositions": [
+          "Tour",
+          "Agliata",
+          "Mojo",
+          "pesto"
+        ],
+        "réponse": "pesto",
+        "anecdote": "El pesto se elabora machacando (revolviendo bajo presión) albahaca con sal, piñones y ajo, aderezado con aceite de oliva."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué postre se obtiene incorporando marsala a las yemas de huevo ?",
+        "propositions": [
+          "Pastiera",
+          "Budino",
+          "Maritozo",
+          "Zabayón"
+        ],
+        "réponse": "Zabayón",
+        "anecdote": "Esta incorporación se realiza con una batidora y a fuego alto, hasta obtener una preparación espumosa y fragante, servida caliente o tibia."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué bebida alcohólica suave tiene un ligero sabor a almendra amarga ?",
+        "propositions": [
+          "Grapa",
+          "Negroni",
+          "Sambuca",
+          "Amareto"
+        ],
+        "réponse": "Amareto",
+        "anecdote": "Generalmente con una graduación alcohólica de 28 grados, el amaretto es uno de los licores que se pueden utilizar para condimentar el tiramisú, un postre italiano."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué derivado de la pizza viene en forma de rollo de queso ?",
+        "propositions": [
+          "Tiropita",
+          "Frico",
+          "Putin",
+          "Estrómboli"
+        ],
+        "réponse": "Estrómboli",
+        "anecdote": "El stromboli contiene mozzarella, embutidos italianos como salami, coppa o bresaola, además de verduras."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué postre tradicional italiano significa « dame fuerzas » ?",
+        "propositions": [
+          "Trianón",
+          "Tiramisú",
+          "brownies",
+          "Ópera"
+        ],
+        "réponse": "Tiramisú",
+        "anecdote": "Se recomienda no sumergir completamente las galletas de tiramisú en el café, ya que esto podría dar como resultado una consistencia esponjosa."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál de estas especialidades no es de origen italiano sino español ?",
+        "propositions": [
+          "Polenta",
+          "carbonara",
+          "Grapa",
+          "Paella"
+        ],
+        "réponse": "Paella",
+        "anecdote": "Originaria de la región de Valencia, al este y sureste de la Península Ibérica, la paella toma su nombre de la sartén con la que se cocina."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué postre helado italiano, típicamente siciliano, se sirve semicongelado ?",
+        "propositions": [
+          "Cendol",
+          "Granito",
+          "Mellorina",
+          "Halo-halo"
+        ],
+        "réponse": "Granito",
+        "anecdote": "La preparación del granizado es única y le confiere un aspecto de nieve, que se obtiene respetando una fase de solidificación precisa."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué término designa tanto una tostada como una preparación con tomate ?",
+        "propositions": [
+          "Salmorejo",
+          "clamato",
+          "Brusqueta",
+          "Loubia"
+        ],
+        "réponse": "Brusqueta",
+        "anecdote": "Suele ser una rebanada de pan de campo, duro o tostado a la parrilla o al horno, sobre la que se frota un diente de ajo."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué trago alcohólico se elabora, entre otras cosas, con prosecco y seltzer ?",
+        "propositions": [
+          "Grapa",
+          "Hiprocas",
+          "Aquardiente",
+          "Rocíe"
+        ],
+        "réponse": "Rocíe",
+        "anecdote": "Desde 2015, la contraetiqueta de la botella de Aperol indica que el vaso con pie es ideal para la preparación de Aperol Spritz."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué región de Italia es una de las únicas que ha adoptado el pan sin sal ?",
+        "propositions": [
+          "Calabria",
+          "Toscana",
+          "Lombardía",
+          "Véneto"
+        ],
+        "réponse": "Toscana",
+        "anecdote": "La cocina toscana se caracteriza por la falta de homogeneidad y la divergencia radical de recetas y tradiciones culinarias."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué aguardiente de orujo se produce en Italia y San Marino ?",
+        "propositions": [
+          "Amareto",
+          "Negroni",
+          "Sambuca",
+          "Grapa"
+        ],
+        "réponse": "Grapa",
+        "anecdote": "Producto pobre por definición, esta bebida alcohólica recibió el nombre de grappa por primera vez a finales del siglo XIX."
+      },
+      {
+        "id": 25,
+        "question": "¿Con los intestinos de qué animal se preparan los rigatoni con la pajata ?",
+        "propositions": [
+          "Becerro",
+          "Caballo",
+          "Cerdo",
+          "Cabra"
+        ],
+        "réponse": "Becerro",
+        "anecdote": "El intestino se corta en trozos de 20-25 cm de largo, que se atan con un hilo blanco formando así anillos."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué masa semilíquida se elabora con agua y harina de cereales ?",
+        "propositions": [
+          "Polenta",
+          "Bachillerato",
+          "Rafanata",
+          "Cotoleta"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "Esto se vierte en un caldero de agua hirviendo con sal y tradicionalmente se revuelve continuamente con una rama de avellana."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué guiso de pierna de ternera es un plato tradicional milanés ?",
+        "propositions": [
+          "Paupiette",
+          "Trípou",
+          "Hochepot",
+          "Osobuco"
+        ],
+        "réponse": "Osobuco",
+        "anecdote": "Conocido desde el siglo XVIII, el ossobuco se puede acompañar con risotto, polenta, puré de patatas o pasta fresca."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué mousse helada italiana tiene tres sabores diferentes ?",
+        "propositions": [
+          "Amaretti",
+          "Ciambella",
+          "Espumona",
+          "Zeppole"
+        ],
+        "réponse": "Espumona",
+        "anecdote": "La espumona (de spuma, que significa espuma; plural spumoni) a veces también puede contener frutas confitadas o nueces."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué empresa italiana produce un amaro con sabor a piel de naranja ?",
+        "propositions": [
+          "Cuervo",
+          "Jinro",
+          "Campari",
+          "Bacardí"
+        ],
+        "réponse": "Campari",
+        "anecdote": "El amaro suele consumirse como digestivo, pero muchos amargos italianos se consumen con frecuencia en cócteles."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué empanadas de masa de pizza, originarias de Apulia, a veces se llaman calzone ?",
+        "propositions": [
+          "Farinata",
+          "piadina",
+          "escacia",
+          "Panzerotti"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Los panzerotti, preparados con antelación, se pueden recalentar en el horno en establecimientos de comida rápida."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale ricetta napoletana è fatta con le frittelle di pasta di pane ?",
+        "propositions": [
+          "Putin",
+          "Pizza",
+          "Truffade",
+          "Taco"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "Cotta al forno, la pizza tradizionale è principalmente condita con olio d'oliva, salsa di pomodoro, mozzarella e altri ingredienti."
+      },
+      {
+        "id": 2,
+        "question": "Quale salsa è composta da carne macinata, salsa di pomodoro e cipolle ?",
+        "propositions": [
+          "Bolognese",
+          "Pesto",
+          "Pan di Spagna",
+          "Vincotto"
+        ],
+        "réponse": "Bolognese",
+        "anecdote": "A Bologna il ragù alla bolognese viene utilizzato principalmente con tagliatelle, lasagne, cannelloni, pasta al forno o polenta."
+      },
+      {
+        "id": 3,
+        "question": "In quale preparazione si utilizza carne di manzo cruda tagliata a fettine sottilissime ?",
+        "propositions": [
+          "Crostin",
+          "Frico",
+          "Risotto",
+          "Carpaccio"
+        ],
+        "réponse": "Carpaccio",
+        "anecdote": "Questa ricetta originale è stata da allora declinata in numerose varianti, a base di altre carni, ma anche di pesce."
+      },
+      {
+        "id": 4,
+        "question": "Quale specialità di vitello si può preparare alla milanese ?",
+        "propositions": [
+          "Marmorizzato",
+          "Carcassa",
+          "Aiguillette",
+          "Scaloppine"
+        ],
+        "réponse": "Scaloppine",
+        "anecdote": "È tradizionalmente cotto nel burro e generalmente servito con verdure o insalata ed eventualmente succo di limone."
+      },
+      {
+        "id": 5,
+        "question": "Quale riduzione di brodo di riso si cucina con vari ingredienti ?",
+        "propositions": [
+          "Risotto",
+          "Congri",
+          "Massa",
+          "Paella"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "Lo zafferano viene originariamente utilizzato per esaltare il sapore del risotto, e il suo utilizzo è riconoscibile grazie alla sua colorazione gialla."
+      },
+      {
+        "id": 6,
+        "question": "Quale liquore al limone italiano viene prodotto a Capri, tra gli altri ?",
+        "propositions": [
+          "Sidecar",
+          "Limoncello",
+          "Martini",
+          "Granizzato"
+        ],
+        "réponse": "Limoncello",
+        "anecdote": "Il limoncello è poco costoso da produrre e richiede solo zucchero, acqua, scorza di limone, alcool e tempo di maturazione."
+      },
+      {
+        "id": 7,
+        "question": "Quale pasta ha la forma di sfoglie rettangolari ?",
+        "propositions": [
+          "Cannelloni",
+          "Tortellini",
+          "Tiro",
+          "Lasagne"
+        ],
+        "réponse": "Lasagne",
+        "anecdote": "Originarie dell'Italia centro-meridionale, le lasagne sono disponibili in molteplici varianti in tutto il mondo (spinaci, melanzane, pesto)."
+      },
+      {
+        "id": 8,
+        "question": "Quale ricetta di pasta piegata ripiena è una specialità del nord-ovest d'Italia ?",
+        "propositions": [
+          "Ravioli",
+          "Samosa",
+          "Ducana",
+          "Orama"
+        ],
+        "réponse": "Ravioli",
+        "anecdote": "Il ripieno dei ravioli può essere composto da verdure, formaggio, carne, pesce, patate, erbe aromatiche, biscotti o frutta."
+      },
+      {
+        "id": 9,
+        "question": "Quale varietà di pasta lunga viene venduta a strisce ?",
+        "propositions": [
+          "Luiguine",
+          "Tagliatelle",
+          "Fettuccine",
+          "Spaghetti"
+        ],
+        "réponse": "Tagliatelle",
+        "anecdote": "Le tagliatelle vengono spesso cucinate con sugo alla bolognese, salsa di pomodoro napoletana o carbonara."
+      },
+      {
+        "id": 10,
+        "question": "Quale piatto di pasta viene buttato in padella con uova e pancetta ?",
+        "propositions": [
+          "Tortellini",
+          "Lasagne",
+          "Ravioli",
+          "Carbonare"
+        ],
+        "réponse": "Carbonare",
+        "anecdote": "La ricetta moderna della pasta alla carbonara utilizza spaghetti, guanciale, pecorino, tuorlo d'uovo e pepe."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale cucina italiana preferisce la pasta di semola di grano duro ?",
+        "propositions": [
+          "Napoletano",
+          "Lombardia",
+          "Toscana",
+          "Sardo"
+        ],
+        "réponse": "Napoletano",
+        "anecdote": "Il tempo di cottura della pasta è molto importante e deve essere cotta al dente, soprattutto se cotta in padella."
+      },
+      {
+        "id": 12,
+        "question": "Quale dolce piemontese incorpora panna, latte, zucchero e gelatina ?",
+        "propositions": [
+          "Manjar",
+          "Barfi",
+          "Biancomangiare",
+          "Panna cotta"
+        ],
+        "réponse": "Panna cotta",
+        "anecdote": "La moderna ricetta piemontese della panna cotta utilizza come gelificante una piccola quantità di gelatina di maiale o di pesce."
+      },
+      {
+        "id": 13,
+        "question": "Quale tipica pizza pugliese viene piegata a metà per ottenere un impasto ripieno ?",
+        "propositions": [
+          "Calzone",
+          "Stromboli",
+          "siciliano",
+          "Panzerotti"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "Molto spesso le pizze calzoni vengono preparate da un ristoratore, su richiesta del cliente e vengono consumate molto calde."
+      },
+      {
+        "id": 14,
+        "question": "Quale condimento, originario della Liguria, somiglia al pistou provenzale ?",
+        "propositions": [
+          "Pesto",
+          "Mojo",
+          "Agliata",
+          "Tum"
+        ],
+        "réponse": "Pesto",
+        "anecdote": "Il pesto si ottiene pestando (agitando sotto pressione) il basilico con sale, pinoli e aglio, condito con olio d'oliva."
+      },
+      {
+        "id": 15,
+        "question": "Quale dolce si ottiene incorporando il marsala ai tuorli d'uovo ?",
+        "propositions": [
+          "Maritozzo",
+          "Budino",
+          "Pastiera",
+          "Zabaione"
+        ],
+        "réponse": "Zabaione",
+        "anecdote": "Questa incorporazione si effettua con una frusta e a fuoco vivo, fino ad ottenere una preparazione schiumosa e profumata, servita calda o tiepida."
+      },
+      {
+        "id": 16,
+        "question": "Quale bevanda alcolica delicata ha un leggero sapore di mandorla amara ?",
+        "propositions": [
+          "Negroni",
+          "Grappa",
+          "Sambuca",
+          "Amaretto"
+        ],
+        "réponse": "Amaretto",
+        "anecdote": "Generalmente con una gradazione alcolica di 28 gradi, l'amaretto è uno dei liquori che si possono utilizzare per aromatizzare il tiramisù, un dolce italiano."
+      },
+      {
+        "id": 17,
+        "question": "Quale derivato della pizza si presenta sotto forma di panino al formaggio ?",
+        "propositions": [
+          "Putin",
+          "Stromboli",
+          "Frico",
+          "Tiropita"
+        ],
+        "réponse": "Stromboli",
+        "anecdote": "Lo stromboli contiene mozzarella, salumi italiani come salame, coppa o bresaola oltre a verdure."
+      },
+      {
+        "id": 18,
+        "question": "Cosa significa dolce tradizionale italiano « dammi la forza » ?",
+        "propositions": [
+          "Brownies",
+          "Opera",
+          "Tiramisù",
+          "Trianon"
+        ],
+        "réponse": "Tiramisù",
+        "anecdote": "Si consiglia di non immergere completamente i biscotti tiramisù nel caffè, poiché ciò potrebbe risultare in una consistenza spugnosa."
+      },
+      {
+        "id": 19,
+        "question": "Quale di queste specialità non è di origine italiana ma spagnola ?",
+        "propositions": [
+          "Polenta",
+          "Carbonare",
+          "Grappa",
+          "Paella"
+        ],
+        "réponse": "Paella",
+        "anecdote": "Originaria della regione valenciana, a est e sud-est della penisola iberica, la paella prende il nome dalla padella utilizzata per cucinarla."
+      },
+      {
+        "id": 20,
+        "question": "Quale dolce gelato italiano, tipicamente siciliano, viene servito semicongelato ?",
+        "propositions": [
+          "Cendol",
+          "Mellorina",
+          "Alone-alone",
+          "Granito"
+        ],
+        "réponse": "Granito",
+        "anecdote": "La preparazione della granita è unica e le conferisce un aspetto simile alla neve, ottenuto rispettando una precisa fase di solidificazione."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale termine designa sia un toast che una preparazione a base di pomodoro ?",
+        "propositions": [
+          "Salmorejo",
+          "Loubia",
+          "Bruschetta",
+          "Clamato"
+        ],
+        "réponse": "Bruschetta",
+        "anecdote": "Spesso si tratta di una fetta di pane rustico, raffermo o tostato sulla griglia o al forno, su cui viene strofinato uno spicchio d'aglio."
+      },
+      {
+        "id": 22,
+        "question": "Quale long drink alcolico è composto, tra le altre cose, da prosecco e seltzer ?",
+        "propositions": [
+          "Acquardiente",
+          "Grappa",
+          "Iproca",
+          "Spritz"
+        ],
+        "réponse": "Spritz",
+        "anecdote": "Dal 2015 la retroetichetta della bottiglia di Aperol indica il calice come ideale per la preparazione di Aperol Spritz."
+      },
+      {
+        "id": 23,
+        "question": "Quale regione d'Italia è una delle uniche ad aver adottato il pane senza sale ?",
+        "propositions": [
+          "Veneto",
+          "Lombardia",
+          "Calabria",
+          "Toscana"
+        ],
+        "réponse": "Toscana",
+        "anecdote": "La cucina toscana è caratterizzata dalla disomogeneità e dalla radicale divergenza di ricette e tradizioni culinarie."
+      },
+      {
+        "id": 24,
+        "question": "Quale acquavite di vinacce viene prodotta in Italia e a San Marino ?",
+        "propositions": [
+          "Negroni",
+          "Grappa",
+          "Amaretto",
+          "Sambuca"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Prodotto povero per definizione, questa bevanda alcolica venne chiamata grappa per la prima volta alla fine dell'Ottocento."
+      },
+      {
+        "id": 25,
+        "question": "Con le budella di quale animale si preparano i rigatoni con la pajata ?",
+        "propositions": [
+          "Cavallo",
+          "Capra",
+          "Vitello",
+          "Maiale"
+        ],
+        "réponse": "Vitello",
+        "anecdote": "L'intestino viene tagliato in pezzi lunghi 20-25 cm, che vengono legati insieme con un filo bianco, formando così degli anelli."
+      },
+      {
+        "id": 26,
+        "question": "Quale impasto semiliquido è composto da acqua e farina di cereali ?",
+        "propositions": [
+          "Baccalaureato",
+          "Rafanata",
+          "Polenta",
+          "Cotoletta"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "Questo viene versato in un paiolo di acqua bollente salata e viene tradizionalmente mescolato continuamente con un bastoncino di nocciolo."
+      },
+      {
+        "id": 27,
+        "question": "Quale stinco di vitello è un piatto della tradizione milanese ?",
+        "propositions": [
+          "Tripou",
+          "Ossobucco",
+          "Hochepot",
+          "Paupietta"
+        ],
+        "réponse": "Ossobucco",
+        "anecdote": "Conosciuto fin dal XVIII secolo, l'ossobuco può essere accompagnato da risotti, polenta, purè di patate o pasta fresca."
+      },
+      {
+        "id": 28,
+        "question": "Quale mousse ghiacciata italiana ha tre gusti diversi ?",
+        "propositions": [
+          "Zeppole",
+          "Ciambella",
+          "Spumone",
+          "Amaretti"
+        ],
+        "réponse": "Spumone",
+        "anecdote": "Lo spumone (da spuma, che significa schiuma; plurale spumoni) può talvolta contenere anche frutta candita o noci."
+      },
+      {
+        "id": 29,
+        "question": "Quale azienda italiana produce un amaro aromatizzato alla scorza d'arancia ?",
+        "propositions": [
+          "Cuervo",
+          "Jinro",
+          "Campari",
+          "Bacardi"
+        ],
+        "réponse": "Campari",
+        "anecdote": "Un amaro viene solitamente consumato come digestivo, ma molti amari italiani vengono spesso consumati nei cocktail."
+      },
+      {
+        "id": 30,
+        "question": "Quali panzerotti di pasta per pizza, originari della Puglia, vengono talvolta chiamati calzone ?",
+        "propositions": [
+          "Scaccia",
+          "Panzerotti",
+          "Farinata",
+          "Piadine"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Preparati in anticipo, i panzerotti possono poi essere riscaldati al forno nei fast food."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk recept uit Napels is gemaakt met brooddeegpannenkoekjes ?",
+        "propositions": [
+          "Truffade",
+          "Poetin",
+          "Taco",
+          "Pizza"
+        ],
+        "réponse": "Pizza",
+        "anecdote": "Traditionele pizza, gebakken in de oven, wordt voornamelijk belegd met olijfolie, tomatensaus, mozzarella en andere ingrediënten."
+      },
+      {
+        "id": 2,
+        "question": "Welke saus wordt gemaakt van rundergehakt, tomatensaus en uien ?",
+        "propositions": [
+          "Vincotto",
+          "Pest",
+          "Biscuitgebak",
+          "Bolognese"
+        ],
+        "réponse": "Bolognese",
+        "anecdote": "In Bologna wordt Bolognese saus vooral gebruikt bij tagliatelle, lasagne, cannelloni, gebakken pasta of polenta."
+      },
+      {
+        "id": 3,
+        "question": "Bij welke bereiding wordt rauw rundvlees gebruikt dat in zeer dunne plakjes is gesneden ?",
+        "propositions": [
+          "Crostin",
+          "Risotto",
+          "Carpaccio",
+          "Frico"
+        ],
+        "réponse": "Carpaccio",
+        "anecdote": "Dit originele recept is sindsdien in talloze variaties afgewezen, op basis van ander vlees, maar ook vis."
+      },
+      {
+        "id": 4,
+        "question": "Welke kalfsspecialiteit kan op Milanese wijze worden bereid ?",
+        "propositions": [
+          "Gemarmerd",
+          "Aiguillet",
+          "Schnitzel",
+          "Karkas"
+        ],
+        "réponse": "Schnitzel",
+        "anecdote": "Het wordt traditioneel gekookt in boter en wordt meestal geserveerd met groenten of salade, en eventueel citroensap."
+      },
+      {
+        "id": 5,
+        "question": "Welke reductie van een rijstbouillon wordt gekookt met verschillende ingrediënten ?",
+        "propositions": [
+          "Congri",
+          "Risotto",
+          "Massa",
+          "Paëlla"
+        ],
+        "réponse": "Risotto",
+        "anecdote": "Saffraan wordt oorspronkelijk gebruikt om de smaak van risotto te versterken en het gebruik ervan is herkenbaar aan de gele kleur."
+      },
+      {
+        "id": 6,
+        "question": "Welke citroenlikeur uit Italië wordt onder andere in Capri geproduceerd ?",
+        "propositions": [
+          "Limoncello",
+          "Martini",
+          "Granizado",
+          "Zijspan"
+        ],
+        "réponse": "Limoncello",
+        "anecdote": "Limoncello is goedkoop te produceren en vereist alleen suiker, water, citroenschil, alcohol en rijpingstijd."
+      },
+      {
+        "id": 7,
+        "question": "Welke pasta heeft de vorm van rechthoekige vellen ?",
+        "propositions": [
+          "Schot",
+          "Tortellini",
+          "Lasagne",
+          "Canneloni"
+        ],
+        "réponse": "Lasagne",
+        "anecdote": "Afkomstig uit Zuid-Midden-Italië is lasagne in meerdere varianten over de hele wereld verkrijgbaar (spinazie, aubergine, pesto)."
+      },
+      {
+        "id": 8,
+        "question": "Welk recept voor gevouwen gevulde pasta is een specialiteit uit Noordwest-Italië ?",
+        "propositions": [
+          "Ducana",
+          "Ravioli",
+          "Orama",
+          "Samosa"
+        ],
+        "réponse": "Ravioli",
+        "anecdote": "De raviolivulling kan gemaakt worden van groenten, kaas, vlees, vis, aardappelen, kruiden, koekjes of fruit."
+      },
+      {
+        "id": 9,
+        "question": "Welke soort lange pasta wordt in reepvorm verkocht ?",
+        "propositions": [
+          "Tagliatelle",
+          "Fettuccine",
+          "Luinguïne",
+          "Spaghetti"
+        ],
+        "réponse": "Tagliatelle",
+        "anecdote": "Tagliatelle wordt vaak gekookt met een Bolognese saus, of Napolitaanse tomatensaus, of carbonara."
+      },
+      {
+        "id": 10,
+        "question": "Welk pastagerecht wordt in een pan met eieren en spek gegooid ?",
+        "propositions": [
+          "Ravioli",
+          "Carbonara",
+          "Lasagne",
+          "Tortellini"
+        ],
+        "réponse": "Carbonara",
+        "anecdote": "Het moderne recept voor carbonara-pasta maakt gebruik van spaghetti, guanciale, pecorino, eigeel en peper."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Italiaanse keuken geeft de voorkeur aan pasta met harde tarwegriesmeel ?",
+        "propositions": [
+          "Lombardije",
+          "Toscane",
+          "Sardijns",
+          "Napolitaans"
+        ],
+        "réponse": "Napolitaans",
+        "anecdote": "De kooktijd van pasta is erg belangrijk en moet al dente worden gekookt, vooral als deze in een pan wordt gekookt."
+      },
+      {
+        "id": 12,
+        "question": "Welk dessert uit Piemonte bevat room, melk, suiker en gelatine ?",
+        "propositions": [
+          "Manjar",
+          "Blancmange",
+          "Pannacotta",
+          "Barfi"
+        ],
+        "réponse": "Pannacotta",
+        "anecdote": "Voor het geleermiddel gebruikt het moderne Piemontese recept voor panna cotta een kleine hoeveelheid varkens- of visgelatine."
+      },
+      {
+        "id": 13,
+        "question": "Welke typische Apulische pizza wordt dubbelgevouwen tot een gevuld deeg ?",
+        "propositions": [
+          "Calzone",
+          "Panzerotti",
+          "Stromboli",
+          "Siciliaans"
+        ],
+        "réponse": "Calzone",
+        "anecdote": "Meestal worden Calzone-pizza's op verzoek van de klant door een cateraar bereid en zeer warm gegeten."
+      },
+      {
+        "id": 14,
+        "question": "Welke smaakmaker, oorspronkelijk uit Ligurië, lijkt op Provençaalse pistou ?",
+        "propositions": [
+          "Mojo",
+          "Toum",
+          "Pest",
+          "Agliata"
+        ],
+        "réponse": "Pest",
+        "anecdote": "Pesto wordt gemaakt door basilicum fijn te stampen (roeren onder druk) met zout, pijnboompitten en knoflook, op smaak gebracht met olijfolie."
+      },
+      {
+        "id": 15,
+        "question": "Welk dessert wordt verkregen door marsala in eierdooiers te verwerken ?",
+        "propositions": [
+          "Zabayon",
+          "Maritozzo",
+          "Budino",
+          "Pastiera"
+        ],
+        "réponse": "Zabayon",
+        "anecdote": "Dit verwerken gebeurt met een garde en op hoog vuur, totdat je een schuimige en geurige bereiding verkrijgt, die warm of lauw wordt geserveerd."
+      },
+      {
+        "id": 16,
+        "question": "Welke milde alcoholische drank heeft een licht bittere amandelsmaak ?",
+        "propositions": [
+          "Grappa",
+          "Negroni",
+          "Sambuca",
+          "Amaretto"
+        ],
+        "réponse": "Amaretto",
+        "anecdote": "Met een alcoholgehalte van doorgaans 28 graden is amaretto een van de likeuren die gebruikt kunnen worden om tiramisu, een Italiaans dessert, op smaak te brengen."
+      },
+      {
+        "id": 17,
+        "question": "Welk pizzaderivaat heeft de vorm van een kaasbroodje ?",
+        "propositions": [
+          "Poetin",
+          "Stromboli",
+          "Tiropita",
+          "Frico"
+        ],
+        "réponse": "Stromboli",
+        "anecdote": "De stromboli bevat mozzarella, Italiaanse vleeswaren zoals salami, coppa of bresaola en groenten."
+      },
+      {
+        "id": 18,
+        "question": "Welk traditioneel Italiaans dessert betekent « geef mij kracht » ?",
+        "propositions": [
+          "Brownies",
+          "Trianon",
+          "Oper",
+          "Tiramisu"
+        ],
+        "réponse": "Tiramisu",
+        "anecdote": "Het wordt aanbevolen om de tiramisukoekjes niet volledig in de koffie onder te dompelen, omdat dit een sponsachtige consistentie kan veroorzaken."
+      },
+      {
+        "id": 19,
+        "question": "Welke van deze specialiteiten is niet van Italiaanse maar van Spaanse afkomst ?",
+        "propositions": [
+          "Polenta",
+          "Grappa",
+          "Carbonara",
+          "Paëlla"
+        ],
+        "réponse": "Paëlla",
+        "anecdote": "Oorspronkelijk afkomstig uit de regio Valencia, ten oosten en zuidoosten van het Iberisch schiereiland, ontleent paella zijn naam aan de pan waarin het wordt gekookt."
+      },
+      {
+        "id": 20,
+        "question": "Welk Italiaans bevroren dessert, typisch Siciliaans, wordt half bevroren geserveerd ?",
+        "propositions": [
+          "Cendol",
+          "Halo-halo",
+          "Mellorine",
+          "Graniet"
+        ],
+        "réponse": "Graniet",
+        "anecdote": "De bereiding van granita is uniek en geeft het een sneeuwachtig uiterlijk, verkregen door een nauwkeurige stollingsfase te respecteren."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke term duidt zowel een toast als een tomatenbereiding aan ?",
+        "propositions": [
+          "Loubia",
+          "Salmorejo",
+          "Bruschetta",
+          "Clamato"
+        ],
+        "réponse": "Bruschetta",
+        "anecdote": "Vaak is het een sneetje boerenbrood, oud of geroosterd op de grill of in de oven, waarover een teentje knoflook wordt gewreven."
+      },
+      {
+        "id": 22,
+        "question": "Welke alcoholische longdrink wordt er onder andere gemaakt van prosecco en seltzer ?",
+        "propositions": [
+          "Waterman",
+          "Spritz",
+          "Grappa",
+          "Hyprocas"
+        ],
+        "réponse": "Spritz",
+        "anecdote": "Sinds 2015 geeft het achteretiket van de Aperol-fles aan dat het glas met steel ideaal is voor de bereiding van Aperol Spritz."
+      },
+      {
+        "id": 23,
+        "question": "Welke regio van Italië is een van de weinige regio's waar zoutvrij brood is ingevoerd ?",
+        "propositions": [
+          "Calabrië",
+          "Veneto",
+          "Toscane",
+          "Lombardije"
+        ],
+        "réponse": "Toscane",
+        "anecdote": "De Toscaanse keuken wordt gekenmerkt door het gebrek aan homogeniteit en de radicale divergentie van recepten en culinaire tradities."
+      },
+      {
+        "id": 24,
+        "question": "Welke druivendrafbrandewijn wordt geproduceerd in Italië en San Marino ?",
+        "propositions": [
+          "Amaretto",
+          "Negroni",
+          "Grappa",
+          "Sambuca"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Deze alcoholische drank is per definitie een slecht product en werd eind 19e eeuw voor het eerst grappa genoemd."
+      },
+      {
+        "id": 25,
+        "question": "Met de darmen van welk dier wordt rigatoni con la pajata bereid ?",
+        "propositions": [
+          "Kalf",
+          "Geit",
+          "Varkensvlees",
+          "Paard"
+        ],
+        "réponse": "Kalf",
+        "anecdote": "De darm wordt in stukken van 20-25 cm lang gesneden, die met een witte draad aan elkaar worden gebonden en zo ringen vormen."
+      },
+      {
+        "id": 26,
+        "question": "Welk halfvloeibaar deeg wordt gemaakt van water en graanmeel ?",
+        "propositions": [
+          "Cotoletta",
+          "Rafanata",
+          "Polenta",
+          "Baccalaureaat"
+        ],
+        "réponse": "Polenta",
+        "anecdote": "Dit wordt in een ketel met kokend gezouten water gegoten en traditioneel continu geroerd met een hazelaarstokje."
+      },
+      {
+        "id": 27,
+        "question": "Welke kalfsschenkelstoofpot is een traditioneel Milanees gerecht ?",
+        "propositions": [
+          "Ossobuco",
+          "Tripou",
+          "Hochepot",
+          "Paupiet"
+        ],
+        "réponse": "Ossobuco",
+        "anecdote": "Osso buco, bekend sinds de 18e eeuw, kan vergezeld worden van risotto, polenta, aardappelpuree of verse pasta."
+      },
+      {
+        "id": 28,
+        "question": "Welke Italiaanse diepvriesmousse heeft drie verschillende smaken ?",
+        "propositions": [
+          "Amaretti",
+          "Zeppole",
+          "Spumone",
+          "Ciambella"
+        ],
+        "réponse": "Spumone",
+        "anecdote": "Spumone (van spuma, wat schuim betekent; meervoud spumoni) kan soms ook gekonfijt fruit of noten bevatten."
+      },
+      {
+        "id": 29,
+        "question": "Welk Italiaans bedrijf produceert een amaro op smaak gebracht met sinaasappelschil ?",
+        "propositions": [
+          "Jinro",
+          "Bacardi",
+          "Campari",
+          "Cuervo"
+        ],
+        "réponse": "Campari",
+        "anecdote": "Een amaro wordt meestal geconsumeerd als digestief, maar veel Italiaanse bitters worden vaak geconsumeerd in cocktails."
+      },
+      {
+        "id": 30,
+        "question": "Welke pizzadeegflappen, afkomstig uit Puglia, worden ook wel calzone genoemd ?",
+        "propositions": [
+          "Piadina",
+          "Farinata",
+          "Panzerotti",
+          "Scaccia"
+        ],
+        "réponse": "Panzerotti",
+        "anecdote": "Van tevoren bereide panzerotti kunnen vervolgens in fastfoodrestaurants in de oven worden opgewarmd."
+      }
+    ]
+    }
+  }
+}

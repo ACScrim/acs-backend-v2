@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "5 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-12-14",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Culture en vrac #12",
+      "slogan": "De la culture à tous les niveaux"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Bulk culture #12",
+      "slogan": "General culture at all levels"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Cultivo a granel #12",
+      "slogan": "Cultura general a todos los niveles"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Cultura di massa #12",
+      "slogan": "Cultura generale a tutti i livelli"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Massenkultur #12",
+      "slogan": "Allgemeine Kultur auf allen Ebenen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Bulkcultuur #12",
+      "slogan": "Algemene cultuur op alle niveaus"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qui gère les Minions dans le dessin animé « Moi, moche et méchant » ?",
+        "propositions": [
+          "Vector",
+          "Gru",
+          "Jerry",
+          "Nefario"
+        ],
+        "réponse": "Gru",
+        "anecdote": "Le méprisable Gru est un super-méchant professionnel, odieux et fier de l'être, aidé de son associé-inventeur, le vieux docteur Néfario."
+      },
+      {
+        "id": 2,
+        "question": "Quelle élément de votre lave-linge vous permet de voir le linge tourner ?",
+        "propositions": [
+          "Hublot",
+          "Tambour",
+          "Pompe",
+          "Capteur"
+        ],
+        "réponse": "Hublot",
+        "anecdote": "Avec la lessiveuse brevetée en 1856 et sa généralisation, la machine à laver a contribué à l'amélioration de la condition féminine."
+      },
+      {
+        "id": 3,
+        "question": "Quel groupe de rap français a eu la fièvre pendant des heures ?",
+        "propositions": [
+          "Fonky Family",
+          "NTM",
+          "Reciprok",
+          "La Cliqua"
+        ],
+        "réponse": "NTM",
+        "anecdote": "Composé principalement de JoeyStarr (Didier Morville) et Kool Shen (Bruno Lopes), le groupe marque les débuts du rap en France."
+      },
+      {
+        "id": 4,
+        "question": "De qui David Fincher retrace-t-il la vie dans le film « The Social Network » ?",
+        "propositions": [
+          "Steve Jobs",
+          "Paul Allen",
+          "Bill Gates",
+          "Mark Zukerberg"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "Le film revient sur la création du réseau social Facebook par Mark Zuckerberg et ses relations avec ses camarades de Harvard."
+      },
+      {
+        "id": 5,
+        "question": "Quelle plante de la famille des légumineuses donne la cacahuète ?",
+        "propositions": [
+          "Arachide",
+          "Lentille",
+          "Fève",
+          "Pois"
+        ],
+        "réponse": "Arachide",
+        "anecdote": "Originaire du Mexique, avec ses graines oléagineuses, l'arachide présente la particularité d'enterrer ses fruits après la fécondation."
+      },
+      {
+        "id": 6,
+        "question": "Aux César 2009, à qui Elie Seimoun a-t-il rendu hommage en se déguisant en Tootsie ?",
+        "propositions": [
+          "Michael Douglas",
+          "Paul Newman",
+          "William Hurt",
+          "Dustin Hofman"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "Le film « Tootsie » fut un succès à la fois critique et commercial qui lui valut sa cinquième nominations à l'Oscar du meilleur acteur."
+      },
+      {
+        "id": 7,
+        "question": "Quelle strip-teaseuse burlesque est une icône du fétichisme aux États-Unis ?",
+        "propositions": [
+          "Dita Von Teese",
+          "Claudia Letizia",
+          "Dorothea Rust",
+          "Margie Hart"
+        ],
+        "réponse": "Dita Von Teese",
+        "anecdote": "La signature de Dita, née Heather Renée Sweet, provient d'une rencontre avec celle qui devint sa meilleure amie, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "À quel peuple appartiennent Sam et Merry dans « Le Seigneur des Anneaux » ?",
+        "propositions": [
+          "Nains",
+          "Elfes",
+          "Hobbits",
+          "Orques"
+        ],
+        "réponse": "Hobbits",
+        "anecdote": "Les Hobbits se caractérisent par leur petite taille, l'abondante pilosité de leurs pieds, leurs oreilles pointues et leur visage rubicond."
+      },
+      {
+        "id": 9,
+        "question": "Qui est Caroline dans la bande dessinée « Boule et Bill » de Jean Roba ?",
+        "propositions": [
+          "La tortue",
+          "Une voisine",
+          "La maman",
+          "La 2CV"
+        ],
+        "réponse": "La tortue",
+        "anecdote": "Il s'agit d'une tortue terrestre grecque qui vit dans le jardin, et dont la capacité à déterrer des os fait, au départ, peur à Bill."
+      },
+      {
+        "id": 10,
+        "question": "Qui est chargé de préparer des candidates dans le film « La Guerre des miss » ?",
+        "propositions": [
+          "Benoît Poelvoorde",
+          "Guillaume Canet",
+          "José Garcia",
+          "Gilles Lellouche"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "Après « Monsieur Batignole » et « Indigènes », la région franc-comtoise a à nouveau servi de décor à un film réalisé par Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quel film George Clooney interprète-t-il un tueur à gages sans attaches ?",
+        "propositions": [
+          "Money Monster",
+          "The American",
+          "In the Air",
+          "Monuments Men"
+        ],
+        "réponse": "The American",
+        "anecdote": "Le tournage du film d'Anton Corbijn a eu lieu dans les Abruzzes, non loin de L'Aquila, après le tremblement de terre du 9 avril 2009."
+      },
+      {
+        "id": 12,
+        "question": "En 2009, quelle variété de pomme était la plus cultivée en France ?",
+        "propositions": [
+          "Golden Delicious",
+          "Pink lady",
+          "Granny Smith",
+          "Gala"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "La Golden Delicious est depuis plus d'un siècle une des cinq variétés les plus utilisées pour créer de nouvelles variétés de pommes."
+      },
+      {
+        "id": 13,
+        "question": "Quel modèle d'avion est également appelé Jumbo Jet ?",
+        "propositions": [
+          "Boeing 747",
+          "DC-10",
+          "MD-11",
+          "Airbus A310"
+        ],
+        "réponse": "Boeing 747",
+        "anecdote": "Construit aux États-Unis, la version initiale du 747 a une capacité deux fois et demi supérieure à celle du Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "Environ combien d'accompagnements pour piano a composé Franz Schubert ?",
+        "propositions": [
+          "500",
+          "300",
+          "600",
+          "400"
+        ],
+        "réponse": "600",
+        "anecdote": "Bien que mort à 31 ans, Franz Schubert est l'un des plus grands compositeurs du XIXe siècle et le maître incontesté du lied."
+      },
+      {
+        "id": 15,
+        "question": "Qui a dit : « Réaliser quelque chose de moyen est une pure perte de temps » ?",
+        "propositions": [
+          "Demi Moore",
+          "Madonna",
+          "Eddy Merckx",
+          "Henry IV"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Surnommée The Queen of Pop, Madonna a fait des incursions dans d'autres styles comme la dance, le disco, l'electro, le rock et le jazz."
+      },
+      {
+        "id": 16,
+        "question": "Quelle intrigante compagne sortait aux bras de Jean-Paul Belmondo depuis 2008 ?",
+        "propositions": [
+          "Kelly Bochenko",
+          "Pauline Righini",
+          "Sarah Barzyk",
+          "Barbara Gandolfi"
+        ],
+        "réponse": "Barbara Gandolfi",
+        "anecdote": "Femme d'affaires belge et ex-mannequin, elle a notamment à son actif une participation à la version flamande de « L'Île de la tentation »."
+      },
+      {
+        "id": 17,
+        "question": "Quelle est la richesse de la planète dans l'épopée de « Dune » de Frank Herbert ?",
+        "propositions": [
+          "Épice",
+          "Or",
+          "Glace",
+          "Pétrole"
+        ],
+        "réponse": "Épice",
+        "anecdote": "Publié à l'origine sous forme de deux publications distinctes, « Dune » reste le roman de science-fiction le plus vendu au monde."
+      },
+      {
+        "id": 18,
+        "question": "Quel personnage est incarné par Olivia Wilde dans la série télévisée « Dr House » ?",
+        "propositions": [
+          "Numéro 13",
+          "Lisa Cuddy",
+          "Jessica Adams",
+          "Allison Cameron"
+        ],
+        "réponse": "Numéro 13",
+        "anecdote": "Diffusée dans plus de 60 pays, ayant reçu de nombreuses récompenses, la série a été la plus regardée dans le monde en 2008."
+      },
+      {
+        "id": 19,
+        "question": "Qui a présenté « Confessions intimes » de 2004 à 2008 sur TF1 ?",
+        "propositions": [
+          "Isabelle Brès",
+          "Marion Jollès",
+          "Sandrine Quétier",
+          "Géraldine Carré"
+        ],
+        "réponse": "Isabelle Brès",
+        "anecdote": "Le but de « Confessions intimes » est d'exposer le quotidien d'une personne ou d'un couple ayant un problème du comportement."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke a été sportif professionnel, mais dans quelle profession ?",
+        "propositions": [
+          "Lutte",
+          "Karaté",
+          "Judo",
+          "Boxe"
+        ],
+        "réponse": "Boxe",
+        "anecdote": "Après un second rôle remarqué dans « Rusty James », Michael Cimino lui confiera son premier rôle principal dans « L'Année du dragon »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qui est le premier athlète à avoir franchi la barre des six mètres en saut à la perche ?",
+        "propositions": [
+          "Maksim Tarasov",
+          "Sergeï Bubka",
+          "Mike Powell",
+          "Thierry Vigneron"
+        ],
+        "réponse": "Sergeï Bubka",
+        "anecdote": "Sergeï Bubka a concouru sous le maillot de l'URSS jusqu'en 1991, puis avec l'Ukraine jusqu'à la fin de sa carrière en 2000."
+      },
+      {
+        "id": 22,
+        "question": "Laquelle de ces stars françaises n'est pas un ex compagnon de Carla Bruni ?",
+        "propositions": [
+          "Louis Bertignac",
+          "Charles Berling",
+          "Vincent Perez",
+          "Thomas Dutronc"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Installée en France depuis ses sept ans, elle a mené une carrière de mannequin de 1987 à 1997 puis s'est reconvertie dans la musique."
+      },
+      {
+        "id": 23,
+        "question": "Quelle profession continuait d'exercer Harrison Ford parallèlement à ses débuts d'acteur ?",
+        "propositions": [
+          "Boulanger",
+          "Policier",
+          "Charpentier",
+          "Facteur"
+        ],
+        "réponse": "Charpentier",
+        "anecdote": "Sa collaboration avec George Lucas dans « American Graffiti » lui a permis ensuite d'incarner les rôles d'Indiana Jones et de Han Solo."
+      },
+      {
+        "id": 24,
+        "question": "Quel est le prénom du redoutable et espiègle lieutenant Columbo ?",
+        "propositions": [
+          "Samuel",
+          "Franck",
+          "Leonard",
+          "Arthur"
+        ],
+        "réponse": "Franck",
+        "anecdote": "L'apparence de Columbo se confond avec celle que lui a donnée Peter Falk, après Bert Freed  en 1960 et Thomas Mitchell en 1962."
+      },
+      {
+        "id": 25,
+        "question": "Quelle ravissante mannequin mexicaine a été élue Miss Univers 2010 ?",
+        "propositions": [
+          "Xian Mikol",
+          "Xoe Zahara",
+          "Ximena Navarrete",
+          "Xara Eure"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "Elle succède à la vénézuélienne Stefanía Fernández, 19 ans, et met ainsi fin au règne du Vénézuéla sur le concours depuis 2008."
+      },
+      {
+        "id": 26,
+        "question": "Quel roi de Judée a ordonné le massacre des enfants de Jérusalem ?",
+        "propositions": [
+          "Hérodote",
+          "Cassius",
+          "Brutus",
+          "Hérode"
+        ],
+        "réponse": "Hérode",
+        "anecdote": "N'ayant pas retrouvé le roi des Juifs, il ordonna la mise à mort de tous les enfants mâles de la bourgade âgés de moins de deux ans."
+      },
+      {
+        "id": 27,
+        "question": "Dans lequel de ces arts ne s'est pas illustré Le Corbusier ?",
+        "propositions": [
+          "Architecture",
+          "Orfèvrerie",
+          "Sculpture",
+          "Écriture"
+        ],
+        "réponse": "Orfèvrerie",
+        "anecdote": "Le Corbusier est connu pour être l'inventeur de l'unité d'habitation, concept sur lequel il a commencé à travailler dans les années 1920."
+      },
+      {
+        "id": 28,
+        "question": "Combien de victimes a fait la Love Parade de Duisbourg en 2010 en Allemagne ?",
+        "propositions": [
+          "Soixante",
+          "Vingt",
+          "Quarante",
+          "Cent"
+        ],
+        "réponse": "Vingt",
+        "anecdote": "Les organisateurs du festival sont mis en cause, en particulier par Dr. Motte, l'un des fondateurs historiques de la Love Parade."
+      },
+      {
+        "id": 29,
+        "question": "Quelle comédienne et mannequin français fut aussi la dernière Miss Paris ?",
+        "propositions": [
+          "Lisa Alberici",
+          "Pauline Righini",
+          "Kelly Bochenko",
+          "Sarah Barzyk"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko est surtout connue pour le scandale dû à la publication de photos dénudées dans « Entrevue » en décembre 2009."
+      },
+      {
+        "id": 30,
+        "question": "Comment appelle-t-on parfois une pince-monseigneur en argot ?",
+        "propositions": [
+          "Chapeau",
+          "Bec",
+          "Liane",
+          "Plume"
+        ],
+        "réponse": "Plume",
+        "anecdote": "Une pince-monseigneur est un levier en acier avec des extrémités finissant en biseau, dont une extrémité est recourbée."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who manages the Minions in the cartoon « Despicable Me » ?",
+        "propositions": [
+          "Gru",
+          "Jerry",
+          "Vector",
+          "Nefario"
+        ],
+        "réponse": "Gru",
+        "anecdote": "The despicable Gru is a professional super-villain, odious and proud of it, helped by his partner-inventor, old doctor Nefario."
+      },
+      {
+        "id": 2,
+        "question": "Which part of your washing machine allows you to see the laundry spinning ?",
+        "propositions": [
+          "Porthole",
+          "Pump",
+          "Drum",
+          "Sensor"
+        ],
+        "réponse": "Porthole",
+        "anecdote": "With the washing machine patented in 1856 and its widespread use, the washing machine contributed to the improvement of the condition of women."
+      },
+      {
+        "id": 3,
+        "question": "Which French rap group had a fever for hours ?",
+        "propositions": [
+          "Reciproc",
+          "La Clique",
+          "Fonky Family",
+          "NTM"
+        ],
+        "réponse": "NTM",
+        "anecdote": "Composed mainly of JoeyStarr (Didier Morville) and Kool Shen (Bruno Lopes), the group marks the beginnings of rap in France."
+      },
+      {
+        "id": 4,
+        "question": "Whose life does David Fincher portray in the film « The Social Network » ?",
+        "propositions": [
+          "Paul Allen",
+          "Bill Gates",
+          "Mark Zukerberg",
+          "Steve Jobs"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "The film looks back on the creation of the social network Facebook by Mark Zuckerberg and his relationships with his Harvard classmates."
+      },
+      {
+        "id": 5,
+        "question": "Which plant in the legume family produces peanuts ?",
+        "propositions": [
+          "Lens",
+          "Bean",
+          "Peanut",
+          "Peas"
+        ],
+        "réponse": "Peanut",
+        "anecdote": "Originally from Mexico, with its oilseeds, the peanut has the particularity of burying its fruits after fertilization."
+      },
+      {
+        "id": 6,
+        "question": "At the 2009 César Awards, to whom did Elie Seimoun pay homage by dressing up as Tootsie ?",
+        "propositions": [
+          "Dustin Hofman",
+          "Paul Newman",
+          "William Hurt",
+          "Michael Douglas"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "The film « Tootsie » was both a critical and commercial success, earning him his fifth Academy Award nomination for Best Actor."
+      },
+      {
+        "id": 7,
+        "question": "Which burlesque stripper is a fetish icon in the United States ?",
+        "propositions": [
+          "Margie Hart",
+          "Dita Von Teese",
+          "Claudia Letizia",
+          "Dorothea Rust"
+        ],
+        "réponse": "Dita Von Teese",
+        "anecdote": "The signature of Dita, born Heather Renée Sweet, comes from a meeting with the woman who became her best friend, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "Which people do Sam and Merry belong to in « The Lord of the Rings » ?",
+        "propositions": [
+          "Hobbits",
+          "Orcs",
+          "Dwarves",
+          "Elves"
+        ],
+        "réponse": "Hobbits",
+        "anecdote": "Hobbits are characterized by their small size, the abundant hair on their feet, their pointed ears and their red faces."
+      },
+      {
+        "id": 9,
+        "question": "Who is Caroline in the comic strip « Boule et Bill » by Jean Roba ?",
+        "propositions": [
+          "The turtle",
+          "The 2CV",
+          "A neighbor",
+          "The mother"
+        ],
+        "réponse": "The turtle",
+        "anecdote": "He is a Greek land tortoise who lives in the garden, and whose ability to dig up bones initially scares Bill."
+      },
+      {
+        "id": 10,
+        "question": "Who is responsible for preparing candidates in the film « The War of the Misses » ?",
+        "propositions": [
+          "Benoît Poelvoorde",
+          "Gilles Lellouche",
+          "Jose Garcia",
+          "Guillaume Canet"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "After « Monsieur Batignole » and « Indigènes », the Franche-Comté region once again served as the setting for a film directed by Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which movie does George Clooney play a hitman with no strings attached ?",
+        "propositions": [
+          "The American",
+          "In the Air",
+          "Monuments Men",
+          "Money Monster"
+        ],
+        "réponse": "The American",
+        "anecdote": "The shooting of Anton Corbijn's film took place in Abruzzo, not far from L'Aquila, after the earthquake of April 9, 2009."
+      },
+      {
+        "id": 12,
+        "question": "In 2009, which variety of apple was most cultivated in France ?",
+        "propositions": [
+          "Gala",
+          "Granny Smith",
+          "Golden Delicious",
+          "Pink lady"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "For more than a century, Golden Delicious has been one of the five most used varieties to create new varieties of apples."
+      },
+      {
+        "id": 13,
+        "question": "What model of plane is also called Jumbo Jet or Queen of the Skies ?",
+        "propositions": [
+          "MD-11",
+          "DC-10",
+          "Boeing 747",
+          "Airbus A310"
+        ],
+        "réponse": "Boeing 747",
+        "anecdote": "Built in the United States, the initial version of the 747 has a capacity two and a half times that of the Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "Approximately how many piano accompaniments did Franz Schubert compose ?",
+        "propositions": [
+          "600",
+          "400",
+          "500",
+          "300"
+        ],
+        "réponse": "600",
+        "anecdote": "Although he died at the age of 31, Franz Schubert is one of the greatest composers of the 19th century and the undisputed master of the lieder."
+      },
+      {
+        "id": 15,
+        "question": "Who said: « Doing something average is a complete waste of time » ?",
+        "propositions": [
+          "Madonna",
+          "Henry IV",
+          "Demi Moore",
+          "Eddy Merckx"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Nicknamed The Queen of Pop, Madonna has made forays into other styles such as dance, disco, electro, rock and jazz."
+      },
+      {
+        "id": 16,
+        "question": "Which intriguing companion has been dating Jean Paul Belmondo since 2008 ?",
+        "propositions": [
+          "Pauline Righini",
+          "Sarah Barzyk",
+          "Kelly Bochenko",
+          "Barbara Gandolfi"
+        ],
+        "réponse": "Barbara Gandolfi",
+        "anecdote": "A Belgian businesswoman and ex-model, she notably participated in the Flemish version of « Temptation Island »."
+      },
+      {
+        "id": 17,
+        "question": "How rich is the planet in Frank Herbert's epic « Dune » ?",
+        "propositions": [
+          "Oil",
+          "Ice cream",
+          "Gold",
+          "Spice"
+        ],
+        "réponse": "Spice",
+        "anecdote": "Originally published as two separate publications, « Dune » remains the world's best-selling science fiction novel."
+      },
+      {
+        "id": 18,
+        "question": "Which character is played by Olivia Wilde in the TV series « Dr House » ?",
+        "propositions": [
+          "Number 13",
+          "Jessica Adams",
+          "Lisa Cuddy",
+          "Allison Cameron"
+        ],
+        "réponse": "Number 13",
+        "anecdote": "Broadcast in more than 60 countries, having received numerous awards, the series was the most watched in the world in 2008."
+      },
+      {
+        "id": 19,
+        "question": "Who presented « Intimate Confessions » from 2004 to 2008 on TF1 ?",
+        "propositions": [
+          "Marion Jollès",
+          "Géraldine Carré",
+          "Sandrine Quétier",
+          "Isabelle Brès"
+        ],
+        "réponse": "Isabelle Brès",
+        "anecdote": "The goal of « Intimate Confessions » is to expose the daily life of a person or a couple with a behavioral problem."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke was a professional sportsman, but in what profession ?",
+        "propositions": [
+          "Boxing",
+          "Karate",
+          "Judo",
+          "Wrestling"
+        ],
+        "réponse": "Boxing",
+        "anecdote": "After a notable supporting role in « Rusty James », Michael Cimino will give him his first main role in « The Year of the Dragon »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Who is the first athlete to cross the six meter barrier in pole vault ?",
+        "propositions": [
+          "Sergei Bubka",
+          "Mike Powell",
+          "Thierry Vigneron",
+          "Maxim Tarasov"
+        ],
+        "réponse": "Sergei Bubka",
+        "anecdote": "Sergei Bubka competed for the USSR until 1991, then with Ukraine until the end of his career in 2000."
+      },
+      {
+        "id": 22,
+        "question": "Which of these French stars is not a former companion of Carla Bruni ?",
+        "propositions": [
+          "Vincent Perez",
+          "Thomas Dutronc",
+          "Louis Bertignac",
+          "Charles Berling"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Living in France since she was seven years old, she had a career as a model from 1987 to 1997 then converted to music."
+      },
+      {
+        "id": 23,
+        "question": "What profession did Harrison Ford continue to pursue alongside his acting debut ?",
+        "propositions": [
+          "Baker",
+          "Policeman",
+          "Postman",
+          "Carpenter"
+        ],
+        "réponse": "Carpenter",
+        "anecdote": "His collaboration with George Lucas in « American Graffiti » then allowed him to play the roles of Indiana Jones and Han Solo."
+      },
+      {
+        "id": 24,
+        "question": "What is the first name of the formidable and mischievous Lieutenant Columbo ?",
+        "propositions": [
+          "Arthur",
+          "Samuel",
+          "Leonard",
+          "Frank"
+        ],
+        "réponse": "Frank",
+        "anecdote": "Columbo's appearance blends in with that given to him by Peter Falk, after Bert Freed in 1960 and Thomas Mitchell in 1962."
+      },
+      {
+        "id": 25,
+        "question": "Which beautiful Mexican model was elected Miss Universe 2010 ?",
+        "propositions": [
+          "Xian Mikol",
+          "Xoe Zahara",
+          "Ximena Navarrete",
+          "Xara Eure"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "She succeeds the Venezuelan Stefanía Fernández, 19, and thus ends Venezuela's reign over the competition since 2008."
+      },
+      {
+        "id": 26,
+        "question": "Which king of Judea ordered the massacre of the children of Jerusalem ?",
+        "propositions": [
+          "Brutus",
+          "Cassius",
+          "Herodotus",
+          "Herod"
+        ],
+        "réponse": "Herod",
+        "anecdote": "Having not found the king of the Jews, he ordered the killing of all male children in the town under the age of two."
+      },
+      {
+        "id": 27,
+        "question": "In which of these arts did Le Corbusier not excel ?",
+        "propositions": [
+          "Sculpture",
+          "Goldsmith",
+          "Writing",
+          "Architecture"
+        ],
+        "réponse": "Goldsmith",
+        "anecdote": "Le Corbusier is known for being the inventor of the housing unit, a concept he began working on in the 1920s."
+      },
+      {
+        "id": 28,
+        "question": "How many victims did the Duisburg Love Parade in 2010 in Germany ?",
+        "propositions": [
+          "Hundred",
+          "Sixty",
+          "Forty",
+          "Twenty"
+        ],
+        "réponse": "Twenty",
+        "anecdote": "The organizers of the festival are accused, in particular by Dr. Motte, one of the historic founders of the Love Parade."
+      },
+      {
+        "id": 29,
+        "question": "Which French actress and model was also the last Miss Paris ?",
+        "propositions": [
+          "Pauline Righini",
+          "Kelly Bochenko",
+          "Lisa Alberici",
+          "Sarah Barzyk"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko is best known for the scandal caused by the publication of nude photos in « Entrevue » in December 2009."
+      },
+      {
+        "id": 30,
+        "question": "What is sometimes called a pince-monseigneur in slang ?",
+        "propositions": [
+          "Beak",
+          "Liane",
+          "Feather",
+          "Hat"
+        ],
+        "réponse": "Feather",
+        "anecdote": "A crowbar is a steel lever with beveled ends, one end of which is curved."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer verwaltet die Minions im Zeichentrickfilm « Despicable Me » ?",
+        "propositions": [
+          "Nefario",
+          "Jerry",
+          "Gru",
+          "Vektor"
+        ],
+        "réponse": "Gru",
+        "anecdote": "Der verabscheuungswürdige Gru ist ein professioneller Superschurke, abscheulich und stolz darauf, unterstützt von seinem Partner-Erfinder, dem alten Arzt Nefario."
+      },
+      {
+        "id": 2,
+        "question": "An welchem Teil Ihrer Waschmaschine können Sie sehen, wie sich die Wäsche dreht ?",
+        "propositions": [
+          "Trommel",
+          "Pumpe",
+          "Sensor",
+          "Bullauge"
+        ],
+        "réponse": "Bullauge",
+        "anecdote": "Mit der 1856 patentierten Waschmaschine und ihrer weiten Verbreitung trug die Waschmaschine zur Verbesserung der Lage von Frauen bei."
+      },
+      {
+        "id": 3,
+        "question": "Welche französische Rap-Gruppe hatte stundenlang Fieber ?",
+        "propositions": [
+          "Fonky-Familie",
+          "NTM",
+          "Gegenseitigkeit",
+          "La Clique"
+        ],
+        "réponse": "NTM",
+        "anecdote": "Die Gruppe besteht hauptsächlich aus JoeyStarr (Didier Morville) und Kool Shen (Bruno Lopes) und markiert die Anfänge des Rap in Frankreich."
+      },
+      {
+        "id": 4,
+        "question": "Wessen Leben schildert David Fincher im Film « The Social Network » ?",
+        "propositions": [
+          "Steve Jobs",
+          "Mark Zukerberg",
+          "Bill Gates",
+          "Paul Allen"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "Der Film blickt zurück auf die Gründung des sozialen Netzwerks Facebook durch Mark Zuckerberg und seine Beziehungen zu seinen Harvard-Klassenkameraden."
+      },
+      {
+        "id": 5,
+        "question": "Welche Pflanze aus der Familie der Hülsenfrüchte produziert Erdnüsse ?",
+        "propositions": [
+          "Objektiv",
+          "Bohne",
+          "Erdnuss",
+          "Erbsen"
+        ],
+        "réponse": "Erdnuss",
+        "anecdote": "Die ursprünglich aus Mexiko stammende Erdnuss mit ihren Ölsaaten hat die Besonderheit, dass sie ihre Früchte nach der Befruchtung vergräbt."
+      },
+      {
+        "id": 6,
+        "question": "Wem würdigte Elie Seimoun bei den César Awards 2009, indem er sich als Tootsie verkleidete ?",
+        "propositions": [
+          "Paul Newman",
+          "Michael Douglas",
+          "Dustin Hofman",
+          "William Hurt"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "Der Film « Tootsie » war sowohl ein kritischer als auch kommerzieller Erfolg und brachte ihm seine fünfte Oscar-Nominierung als Bester Hauptdarsteller ein."
+      },
+      {
+        "id": 7,
+        "question": "Welche Burlesque-Stripperin ist in den USA eine Fetisch-Ikone ?",
+        "propositions": [
+          "Dita Von Teese",
+          "Claudia Letizia",
+          "Margie Hart",
+          "Dorothea Rust"
+        ],
+        "réponse": "Dita Von Teese",
+        "anecdote": "Die Unterschrift von Dita, geborene Heather Renée Sweet, stammt von einem Treffen mit der Frau, die ihre beste Freundin wurde, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "Zu welchem Volk gehören Sam und Merry in « The Lord of the Rings » ?",
+        "propositions": [
+          "Elfen",
+          "Hobbits",
+          "Zwerge",
+          "Orks"
+        ],
+        "réponse": "Hobbits",
+        "anecdote": "Hobbits zeichnen sich durch ihre geringe Größe, die üppige Behaarung an ihren Füßen, ihre spitzen Ohren und ihr rotes Gesicht aus."
+      },
+      {
+        "id": 9,
+        "question": "Wer ist Caroline im Comic « Boule et Bill » von Jean Roba ?",
+        "propositions": [
+          "Ein Nachbar",
+          "Die Mutter",
+          "Der 2CV",
+          "Die Schildkröte"
+        ],
+        "réponse": "Die Schildkröte",
+        "anecdote": "Er ist eine griechische Landschildkröte, die im Garten lebt und deren Fähigkeit, Knochen auszugraben, Bill zunächst Angst macht."
+      },
+      {
+        "id": 10,
+        "question": "Wer ist für die Vorbereitung der Kandidaten im Film « The War of the Misses » verantwortlich ?",
+        "propositions": [
+          "Gilles Lellouche",
+          "José Garcia",
+          "Guillaume Canet",
+          "Benoît Poelvoorde"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "Nach « Monsieur Batignole » und « Indigènes » diente die Region Franche-Comté erneut als Kulisse für einen Film von Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welchem Film spielt George Clooney einen unverbindlichen Killer ?",
+        "propositions": [
+          "The American",
+          "Money Monster",
+          "In the Air",
+          "Monuments Men"
+        ],
+        "réponse": "The American",
+        "anecdote": "Die Dreharbeiten zu Anton Corbijns Film fanden nach dem Erdbeben vom 9. April 2009 in den Abruzzen, unweit von L'Aquila, statt."
+      },
+      {
+        "id": 12,
+        "question": "Welche Apfelsorte wurde 2009 in Frankreich am häufigsten angebaut ?",
+        "propositions": [
+          "Granny Smith",
+          "Pink lady",
+          "Golden Delicious",
+          "Gala"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "Seit mehr als einem Jahrhundert ist Golden Delicious eine der fünf am häufigsten verwendeten Sorten zur Herstellung neuer Apfelsorten."
+      },
+      {
+        "id": 13,
+        "question": "Welches Flugzeugmodell wird auch Jumbo Jet oder Königin der Lüfte genannt ?",
+        "propositions": [
+          "Boeing 747",
+          "DC-10",
+          "Airbus A310",
+          "MD-11"
+        ],
+        "réponse": "Boeing 747",
+        "anecdote": "Die in den USA gebaute erste Version der 747 hat eine Kapazität, die zweieinhalb Mal so groß ist wie die Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "Wie viele Klavierbegleitungen hat Franz Schubert ungefähr komponiert ?",
+        "propositions": [
+          "300",
+          "600",
+          "500",
+          "400"
+        ],
+        "réponse": "600",
+        "anecdote": "Obwohl er im Alter von 31 Jahren starb, ist Franz Schubert einer der größten Komponisten des 19. Jahrhunderts und der unbestrittene Meister des Liedgesangs."
+      },
+      {
+        "id": 15,
+        "question": "Wer hat gesagt : « Etwas Durchschnittliches zu tun ist reine Zeitverschwendung » ?",
+        "propositions": [
+          "Demi Moore",
+          "Madonna",
+          "Eddy Merckx",
+          "Henry IV"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Madonna mit dem Spitznamen Queen of Pop hat auch Ausflüge in andere Stilrichtungen wie Tanz, Disco, Elektro, Rock und Jazz unternommen."
+      },
+      {
+        "id": 16,
+        "question": "Welcher faszinierende Partner ist seit 2008 mit Jean Paul Belmondo zusammen ?",
+        "propositions": [
+          "Barbara Gandolfi",
+          "Sarah Barzyk",
+          "Pauline Righini",
+          "Kelly Bochenko"
+        ],
+        "réponse": "Barbara Gandolfi",
+        "anecdote": "Als belgische Geschäftsfrau und Ex-Model wirkte sie insbesondere in der flämischen Version von « Temptation Island » mit."
+      },
+      {
+        "id": 17,
+        "question": "Wie reich ist der Planet in Frank Herberts Epos « Dune » ?",
+        "propositions": [
+          "Öl",
+          "Eis",
+          "Gewürz",
+          "Gold"
+        ],
+        "réponse": "Gewürz",
+        "anecdote": "« Dune » wurde ursprünglich als zwei separate Veröffentlichungen veröffentlicht und bleibt der weltweit meistverkaufte Science-Fiction-Roman."
+      },
+      {
+        "id": 18,
+        "question": "Welche Figur wird von Olivia Wilde in der TV-Serie « Dr House » gespielt ?",
+        "propositions": [
+          "Nummer 13",
+          "Allison Cameron",
+          "Lisa Cuddy",
+          "Jessica Adams"
+        ],
+        "réponse": "Nummer 13",
+        "anecdote": "Die in mehr als 60 Ländern ausgestrahlte und mit zahlreichen Preisen ausgezeichnete Serie war 2008 die meistgesehene der Welt."
+      },
+      {
+        "id": 19,
+        "question": "Wer präsentierte « Intimate Confessions » von 2004 bis 2008 auf TF1 ?",
+        "propositions": [
+          "Isabelle Brès",
+          "Marion Jollès",
+          "Sandrine Quétier",
+          "Géraldine Carré"
+        ],
+        "réponse": "Isabelle Brès",
+        "anecdote": "Das Ziel von « Intimate Confessions » besteht darin, das tägliche Leben einer Person oder eines Paares mit einem Verhaltensproblem aufzudecken."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke war ein Profisportler, aber in welchem Beruf ?",
+        "propositions": [
+          "Ringen",
+          "Boxen",
+          "Judo",
+          "Karate"
+        ],
+        "réponse": "Boxen",
+        "anecdote": "Nach einer bemerkenswerten Nebenrolle in « Rusty James » wird ihm Michael Cimino seine erste Hauptrolle in « Das Jahr des Drachen » geben."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wer ist der erste Athlet, der im Stabhochsprung die Sechs-Meter-Barriere überquert ?",
+        "propositions": [
+          "Sergej Bubka",
+          "Mike Powell",
+          "Thierry Vigneron",
+          "Maxim Tarasov"
+        ],
+        "réponse": "Sergej Bubka",
+        "anecdote": "Sergei Bubka spielte bis 1991 für die UdSSR, danach bis zu seinem Karriereende im Jahr 2000 für die Ukraine."
+      },
+      {
+        "id": 22,
+        "question": "Welcher dieser französischen Stars ist nicht ein ehemaliger Weggefährte von Carla Bruni ?",
+        "propositions": [
+          "Charles Berling",
+          "Thomas Dutronc",
+          "Louis Bertignac",
+          "Vincent Perez"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Sie lebte seit ihrem siebten Lebensjahr in Frankreich und hatte von 1987 bis 1997 eine Karriere als Model, bevor sie sich der Musik zuwandte."
+      },
+      {
+        "id": 23,
+        "question": "Welchem Beruf ging Harrison Ford neben seinem Schauspieldebüt weiterhin nach ?",
+        "propositions": [
+          "Zimmermann",
+          "Postbote",
+          "Bäcker",
+          "Polizist"
+        ],
+        "réponse": "Zimmermann",
+        "anecdote": "Seine Zusammenarbeit mit George Lucas in « American Graffiti » ermöglichte es ihm dann, die Rollen von Indiana Jones und Han Solo zu spielen."
+      },
+      {
+        "id": 24,
+        "question": "Wie lautet der Vorname des beeindruckenden und schelmischen Leutnant Columbo ?",
+        "propositions": [
+          "Samuel",
+          "Leonard",
+          "Frank",
+          "Arthur"
+        ],
+        "réponse": "Frank",
+        "anecdote": "Columbos Aussehen passt zu dem, das ihm Peter Falk nach Bert Freed im Jahr 1960 und Thomas Mitchell im Jahr 1962 verliehen hat."
+      },
+      {
+        "id": 25,
+        "question": "Welches schöne mexikanische Model wurde zur Miss Universe 2010 gewählt ?",
+        "propositions": [
+          "Xara Eure",
+          "Xoe Zahara",
+          "Xian Mikol",
+          "Ximena Navarrete"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "Sie tritt die Nachfolge der Venezolanerin Stefanía Fernández, 19, an und beendet damit Venezuelas Herrschaft über die Konkurrenz seit 2008."
+      },
+      {
+        "id": 26,
+        "question": "Welcher König von Judäa befahl das Massaker an den Kindern Jerusalems ?",
+        "propositions": [
+          "Herodes",
+          "Herodot",
+          "Cassius",
+          "Brutus"
+        ],
+        "réponse": "Herodes",
+        "anecdote": "Da er den König der Juden nicht finden konnte, befahl er, alle männlichen Kinder unter zwei Jahren in der Stadt zu töten."
+      },
+      {
+        "id": 27,
+        "question": "In welcher dieser Künste hat sich Le Corbusier nicht hervorgetan ?",
+        "propositions": [
+          "Skulptur",
+          "Goldschmied",
+          "Schreiben",
+          "Architektur"
+        ],
+        "réponse": "Goldschmied",
+        "anecdote": "Le Corbusier ist als Erfinder der Wohneinheit bekannt, ein Konzept, an dem er bereits in den 1920er Jahren zu arbeiten begann."
+      },
+      {
+        "id": 28,
+        "question": "Wie viele Opfer forderte die Duisburger Loveparade 2010 in Deutschland ?",
+        "propositions": [
+          "Sechzig",
+          "Vierzig",
+          "Hundert",
+          "Zwanzig"
+        ],
+        "réponse": "Zwanzig",
+        "anecdote": "Den Organisatoren des Festivals werden insbesondere Dr. Motte, einer der historischen Begründer der Loveparade, vorgeworfen."
+      },
+      {
+        "id": 29,
+        "question": "Welche französische Schauspielerin und Model war auch die letzte Miss Paris ?",
+        "propositions": [
+          "Lisa Alberici",
+          "Pauline Righini",
+          "Kelly Bochenko",
+          "Sarah Barzyk"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko ist vor allem für den Skandal bekannt, der durch die Veröffentlichung von Nacktfotos im « Entrevue » im Dezember 2009 ausgelöst wurde."
+      },
+      {
+        "id": 30,
+        "question": "Was wird im Slang manchmal als Pince-Monseigneur bezeichnet ?",
+        "propositions": [
+          "Liane",
+          "Feder",
+          "Hut",
+          "Schnabel"
+        ],
+        "réponse": "Feder",
+        "anecdote": "Ein Brecheisen ist ein Stahlhebel mit abgeschrägten Enden, von dem ein Ende gebogen ist."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién controla a los Minions en la caricatura « Despicable Me » ?",
+        "propositions": [
+          "Nefario",
+          "Jerry",
+          "Vector",
+          "Gru"
+        ],
+        "réponse": "Gru",
+        "anecdote": "El despreciable Gru es un supervillano profesional, odioso y orgulloso de ello, ayudado por su socio inventor, el viejo doctor Nefario."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué parte de tu lavadora te permite ver la ropa girando ?",
+        "propositions": [
+          "Sensores",
+          "Bomba",
+          "ojo de buey",
+          "Tambor"
+        ],
+        "réponse": "ojo de buey",
+        "anecdote": "Con la patente de la lavadora en 1856 y su uso generalizado, la lavadora contribuyó a mejorar la condición de la mujer."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué grupo de rap francés tuvo fiebre durante horas ?",
+        "propositions": [
+          "Familia divertida",
+          "La camarilla",
+          "MNA",
+          "Reciprocidad"
+        ],
+        "réponse": "MNA",
+        "anecdote": "Compuesto principalmente por JoeyStarr (Didier Morville) y Kool Shen (Bruno Lopes), el grupo marca los inicios del rap en Francia."
+      },
+      {
+        "id": 4,
+        "question": "¿La vida de quién retrata David Fincher en la película « The Social Network » ?",
+        "propositions": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Mark Zukerberg",
+          "Paul Allen"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "La película repasa la creación de la red social Facebook por Mark Zuckerberg y sus relaciones con sus compañeros de Harvard."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué planta de la familia de las leguminosas produce maní ?",
+        "propositions": [
+          "frijol",
+          "Lente",
+          "maní",
+          "Guisantes"
+        ],
+        "réponse": "maní",
+        "anecdote": "Originario de México, con sus oleaginosas, el maní tiene la particularidad de enterrar sus frutos después de la fertilización."
+      },
+      {
+        "id": 6,
+        "question": "En los Premios César 2009, ¿a quién rindió homenaje Elie Seimoun disfrazándose de Tootsie ?",
+        "propositions": [
+          "Dustin Hofman",
+          "William Hurt",
+          "Michael Douglas",
+          "Paul Newman"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "La película « Tootsie » fue un éxito comercial y de crítica, lo que le valió su quinta nominación al Premio de la Academia como Mejor Actor."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué stripper burlesca es un icono fetiche en Estados Unidos ?",
+        "propositions": [
+          "Dita Von Teese",
+          "Dorothea Rust",
+          "Margie Hart",
+          "Claudia Letizia"
+        ],
+        "réponse": "Dita Von Teese",
+        "anecdote": "La firma de Dita, nacida Heather Renée Sweet, surge de un encuentro con la mujer que se convirtió en su mejor amiga, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "¿A qué pueblo pertenecen Sam y Merry en « The Lord of the Rings » ?",
+        "propositions": [
+          "Enanos",
+          "Elfos",
+          "Orcos",
+          "Hobbits"
+        ],
+        "réponse": "Hobbits",
+        "anecdote": "Los hobbits se caracterizan por su pequeño tamaño, el abundante pelo en los pies, sus orejas puntiagudas y sus caras rojas."
+      },
+      {
+        "id": 9,
+        "question": "¿Quién es Caroline en la tira cómica « Boule et Bill » de Jean Roba ?",
+        "propositions": [
+          "Un vecino",
+          "La tortuga",
+          "La madre",
+          "El 2CV"
+        ],
+        "réponse": "La tortuga",
+        "anecdote": "Es una tortuga terrestre griega que vive en el jardín y cuya capacidad para desenterrar huesos inicialmente asusta a Bill."
+      },
+      {
+        "id": 10,
+        "question": "¿Quién se encarga de preparar a los candidatos en la película « La guerra de las señoritas » ?",
+        "propositions": [
+          "Guillaume Canet",
+          "José García",
+          "Gilles Lellouche",
+          "Benoît Poelvoorde"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "Después de « Monsieur Batignole » y « Indigènes », la región del Franco Condado volvió a ser escenario de una película dirigida por Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué película George Clooney interpreta a un sicario sin condiciones ?",
+        "propositions": [
+          "Money Monster",
+          "In the Air",
+          "Monuments Men",
+          "The American"
+        ],
+        "réponse": "The American",
+        "anecdote": "El rodaje de la película de Anton Corbijn tuvo lugar en Abruzzo, no lejos de L'Aquila, tras el terremoto del 9 de abril de 2009."
+      },
+      {
+        "id": 12,
+        "question": "En 2009, ¿qué variedad de manzana se cultivaba más en Francia ?",
+        "propositions": [
+          "Pink lady",
+          "Granny Smith",
+          "Golden Delicious",
+          "Gala"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "Desde hace más de un siglo, la Golden Delicious ha sido una de las cinco variedades más utilizadas para crear nuevas variedades de manzanas."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué modelo de avión también se llama Jumbo Jet o Reina de los Cielos ?",
+        "propositions": [
+          "Airbus A310",
+          "MD-11",
+          "Boeing 747",
+          "DC-10"
+        ],
+        "réponse": "Boeing 747",
+        "anecdote": "Construida en Estados Unidos, la versión inicial del 747 tiene una capacidad dos veces y media mayor que la del Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "¿Aproximadamente cuántos acompañamientos de piano compuso Franz Schubert ?",
+        "propositions": [
+          "300",
+          "500",
+          "600",
+          "400"
+        ],
+        "réponse": "600",
+        "anecdote": "Aunque murió a la edad de 31 años, Franz Schubert es uno de los más grandes compositores del siglo XIX y el maestro indiscutible del lieder."
+      },
+      {
+        "id": 15,
+        "question": "¿Quién dijo: « Hacer algo normal y corriente es una completa pérdida de tiempo » ?",
+        "propositions": [
+          "Eddy Merckx",
+          "Madonna",
+          "Henry IV",
+          "Demi Moore"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Apodada La Reina del Pop, Madonna ha incursionado en otros estilos como el dance, disco, electro, rock y jazz."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué acompañante intrigante sale con Jean Paul Belmondo desde 2008 ?",
+        "propositions": [
+          "Kelly Bochenko",
+          "Paulina Righini",
+          "Bárbara Gandolfi",
+          "Sarah Barzyk"
+        ],
+        "réponse": "Bárbara Gandolfi",
+        "anecdote": "Empresaria y ex modelo belga, participó en particular en la versión flamenca de « Temptation Island »."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué tan rico es el planeta en la épica « Dune » de Frank Herbert ?",
+        "propositions": [
+          "Oro",
+          "Petróleo",
+          "Especia",
+          "Helado"
+        ],
+        "réponse": "Especia",
+        "anecdote": "Publicada originalmente como dos publicaciones independientes, « Dune » sigue siendo la novela de ciencia ficción más vendida del mundo."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué personaje interpreta Olivia Wilde en la serie de televisión « Dr House » ?",
+        "propositions": [
+          "Número 13",
+          "Jessica Adams",
+          "Allison Cameron",
+          "Lisa Cuddy"
+        ],
+        "réponse": "Número 13",
+        "anecdote": "Emitida en más de 60 países y habiendo recibido numerosos premios, la serie fue la más vista del mundo en 2008."
+      },
+      {
+        "id": 19,
+        "question": "¿Quién presentó « Confesiones íntimas » de 2004 a 2008 en TF1 ?",
+        "propositions": [
+          "Géraldine Carré",
+          "Marion Jollès",
+          "Sandrine Quétier",
+          "Isabelle Brès"
+        ],
+        "réponse": "Isabelle Brès",
+        "anecdote": "El objetivo de « Confesiones Íntimas » es exponer la vida cotidiana de una persona o pareja con un problema de conducta."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke era deportista profesional, pero ¿en qué profesión ?",
+        "propositions": [
+          "Judo",
+          "Kárate",
+          "Boxeo",
+          "Lucha libre"
+        ],
+        "réponse": "Boxeo",
+        "anecdote": "Después de un notable papel secundario en « Rusty James », Michael Cimino le dará su primer papel principal en « El año del dragón »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Quién es el primer atleta en cruzar la barrera de los seis metros en salto con pértiga ?",
+        "propositions": [
+          "Mike Powell",
+          "Serguéi Bubka",
+          "Máximo Tarasov",
+          "Thierry Vigneron"
+        ],
+        "réponse": "Serguéi Bubka",
+        "anecdote": "Sergei Bubka compitió con la URSS hasta 1991, luego con Ucrania hasta el final de su carrera en 2000."
+      },
+      {
+        "id": 22,
+        "question": "¿Cuál de estas estrellas francesas no es ex pareja de Carla Bruni ?",
+        "propositions": [
+          "Charles Berling",
+          "Louis Bertignac",
+          "Vicente Pérez",
+          "Thomas Dutronc"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Vivió en Francia desde los siete años y trabajó como modelo de 1987 a 1997 y luego se dedicó a la música."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué profesión siguió ejerciendo Harrison Ford junto con su debut como actor ?",
+        "propositions": [
+          "panadero",
+          "cartero",
+          "Carpintero",
+          "policía"
+        ],
+        "réponse": "Carpintero",
+        "anecdote": "Su colaboración con George Lucas en « American Graffiti » le permitió interpretar los papeles de Indiana Jones y Han Solo."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál es el nombre del formidable y travieso teniente Columbo ?",
+        "propositions": [
+          "Leonardo",
+          "Samuel",
+          "franco",
+          "Arturo"
+        ],
+        "réponse": "franco",
+        "anecdote": "La apariencia de Columbo se mezcla con la que le dio Peter Falk, después de Bert Freed en 1960 y Thomas Mitchell en 1962."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué bella modelo mexicana fue elegida Miss Universo 2010 ?",
+        "propositions": [
+          "Xian Mikol",
+          "Xoé Zahara",
+          "Xara Eure",
+          "Ximena Navarrete"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "Sucede a la venezolana Stefanía Fernández, de 19 años, y pone así fin al reinado de Venezuela en la competición desde 2008."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué rey de Judea ordenó la masacre de los hijos de Jerusalén ?",
+        "propositions": [
+          "Casio",
+          "Bruto",
+          "Herodes",
+          "Heródoto"
+        ],
+        "réponse": "Herodes",
+        "anecdote": "Al no encontrar al rey de los judíos, ordenó matar a todos los niños varones de la ciudad menores de dos años."
+      },
+      {
+        "id": 27,
+        "question": "¿En cuál de estas artes no destacó Le Corbusier ?",
+        "propositions": [
+          "Escritura",
+          "Orfebre",
+          "Arquitectura",
+          "Escultura"
+        ],
+        "réponse": "Orfebre",
+        "anecdote": "Le Corbusier es conocido por ser el inventor de la unidad de vivienda, un concepto en el que comenzó a trabajar en la década de 1920."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuántas víctimas tuvo el Love Parade de Duisburg en 2010 en Alemania ?",
+        "propositions": [
+          "Cien",
+          "Cuarenta",
+          "Veinte",
+          "Sesenta"
+        ],
+        "réponse": "Veinte",
+        "anecdote": "Los organizadores del festival están acusados, en particular por el Dr. Motte, uno de los fundadores históricos del Love Parade."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué actriz y modelo francesa fue también la última Miss París ?",
+        "propositions": [
+          "Lisa Alberici",
+          "Kelly Bochenko",
+          "Sarah Barzyk",
+          "Paulina Righini"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko es más conocida por el escándalo provocado por la publicación de fotos desnuda en « Entrevue » en diciembre de 2009."
+      },
+      {
+        "id": 30,
+        "question": "¿Lo que a veces se llama pince-monseigneur en la jerga ?",
+        "propositions": [
+          "Liana",
+          "Pico",
+          "Sombrero",
+          "Pluma"
+        ],
+        "réponse": "Pluma",
+        "anecdote": "Una palanca es una palanca de acero con extremos biselados, uno de los cuales está curvado."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi gestisce i Minion nel cartone animato « Despicable Me » ?",
+        "propositions": [
+          "Gru",
+          "Vettore",
+          "Jerry",
+          "Nefario"
+        ],
+        "réponse": "Gru",
+        "anecdote": "Lo spregevole Gru è un supercattivo di professione, odioso e fiero di esserlo, aiutato dal suo socio-inventore, il vecchio dottor Nefario."
+      },
+      {
+        "id": 2,
+        "question": "Quale parte della tua lavatrice ti permette di vedere la biancheria che gira ?",
+        "propositions": [
+          "Sensore",
+          "Oblò",
+          "Pompa",
+          "Tamburo"
+        ],
+        "réponse": "Oblò",
+        "anecdote": "Con la lavatrice brevettata nel 1856 e la sua diffusione, la lavatrice contribuì al miglioramento della condizione delle donne."
+      },
+      {
+        "id": 3,
+        "question": "Quale gruppo rap francese ha avuto la febbre per ore ?",
+        "propositions": [
+          "La Cricca",
+          "Reciproc",
+          "Famiglia Fonky",
+          "NTM"
+        ],
+        "réponse": "NTM",
+        "anecdote": "Composto principalmente da JoeyStarr (Didier Morville) e Kool Shen (Bruno Lopes), il gruppo segna gli inizi del rap in Francia."
+      },
+      {
+        "id": 4,
+        "question": "Quale vita ritrae David Fincher nel film « The Social Network » ?",
+        "propositions": [
+          "Paolo Allen",
+          "Bill Gates",
+          "Mark Zukerberg",
+          "Steve Jobs"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "Il film ripercorre la creazione del social network Facebook da parte di Mark Zuckerberg e i suoi rapporti con i suoi compagni di classe di Harvard."
+      },
+      {
+        "id": 5,
+        "question": "Quale pianta della famiglia delle leguminose produce arachidi ?",
+        "propositions": [
+          "Fagiolo",
+          "Arachidi",
+          "Piselli",
+          "Obiettivo"
+        ],
+        "réponse": "Arachidi",
+        "anecdote": "Originaria del Messico, con i suoi semi oleosi, l'arachide ha la particolarità di seppellire i suoi frutti dopo la fecondazione."
+      },
+      {
+        "id": 6,
+        "question": "Ai César 2009, chi ha reso omaggio Elie Seimoun vestendosi da Tootsie ?",
+        "propositions": [
+          "Paul Newman",
+          "Dustin Hofman",
+          "William Hurt",
+          "Michael Douglas"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "Il film « Tootsie » è stato un successo sia di critica che di pubblico, guadagnandogli la sua quinta nomination all'Oscar come miglior attore."
+      },
+      {
+        "id": 7,
+        "question": "Quale spogliarellista burlesque è un'icona fetish negli Stati Uniti ?",
+        "propositions": [
+          "Margie Hart",
+          "Dita Von Teese",
+          "Claudia Letizia",
+          "Dorothea Rust"
+        ],
+        "réponse": "Dita Von Teese",
+        "anecdote": "La firma di Dita, nata Heather Renée Sweet, nasce da un incontro con la donna che divenne la sua migliore amica, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "A quali popoli appartengono Sam e Merry ne « The Lord of the Rings » ?",
+        "propositions": [
+          "Hobbit",
+          "Orchi",
+          "Elfi",
+          "Nani"
+        ],
+        "réponse": "Hobbit",
+        "anecdote": "Gli Hobbit sono caratterizzati dalle loro piccole dimensioni, dall'abbondante pelo sui piedi, dalle orecchie appuntite e dal viso rosso."
+      },
+      {
+        "id": 9,
+        "question": "Chi è Caroline nel fumetto « Boule et Bill » di Jean Roba ?",
+        "propositions": [
+          "La tartaruga",
+          "La madre",
+          "Un vicino",
+          "La 2CV"
+        ],
+        "réponse": "La tartaruga",
+        "anecdote": "È una tartaruga terrestre greca che vive nel giardino e la cui capacità di scavare ossa inizialmente spaventa Bill."
+      },
+      {
+        "id": 10,
+        "question": "Chi è responsabile della preparazione dei candidati nel film « La guerra delle signorine » ?",
+        "propositions": [
+          "Gilles Lellouche",
+          "José Garcia",
+          "Guillaume Canet",
+          "Benoît Poelvoorde"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "Dopo « Monsieur Batignole » e « Indigènes », la Franca Contea è stata ancora una volta l'ambientazione di un film diretto da Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale film George Clooney interpreta un sicario senza vincoli ?",
+        "propositions": [
+          "The American",
+          "Money Monster",
+          "Monuments Men",
+          "In the Air"
+        ],
+        "réponse": "The American",
+        "anecdote": "Le riprese del film di Anton Corbijn si sono svolte in Abruzzo, non lontano da L'Aquila, dopo il terremoto del 9 aprile 2009."
+      },
+      {
+        "id": 12,
+        "question": "Nel 2009, quale varietà di mela era più coltivata in Francia ?",
+        "propositions": [
+          "Granny Smith",
+          "Golden Delicious",
+          "Galà",
+          "Pink lady"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "Da più di un secolo la Golden Delicious è una delle cinque varietà più utilizzate per creare nuove varietà di mele."
+      },
+      {
+        "id": 13,
+        "question": "Quale modello di aereo è anche chiamato Jumbo Jet o Regina dei Cieli ?",
+        "propositions": [
+          "Boeing 74",
+          "DC-10",
+          "Airbus A310",
+          "MD-11"
+        ],
+        "réponse": "Boeing 74",
+        "anecdote": "Costruito negli Stati Uniti, la versione iniziale del 747 ha una capacità due volte e mezzo quella del Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "Quanti accompagnamenti al pianoforte ha composto approssimativamente Franz Schubert ?",
+        "propositions": [
+          "500",
+          "400",
+          "600",
+          "300"
+        ],
+        "réponse": "600",
+        "anecdote": "Sebbene sia morto all'età di 31 anni, Franz Schubert è uno dei più grandi compositori del XIX secolo e il maestro indiscusso dei lieder."
+      },
+      {
+        "id": 15,
+        "question": "Chi ha detto: « Fare qualcosa di mediocre è una totale perdita di tempo » ?",
+        "propositions": [
+          "Henry IV",
+          "Madonna",
+          "Eddy Merckx",
+          "Demi Moore"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Soprannominata La Regina del Pop, Madonna ha fatto incursioni in altri stili come la dance, la disco, l'elettronica, il rock e il jazz."
+      },
+      {
+        "id": 16,
+        "question": "Quale intrigante compagna frequenta Jean Paul Belmondo dal 2008 ?",
+        "propositions": [
+          "Paolina Righini",
+          "Sarah Barzyk",
+          "Kelly Bochenko",
+          "Barbara Gandolfi"
+        ],
+        "réponse": "Barbara Gandolfi",
+        "anecdote": "Imprenditrice ed ex modella belga, ha partecipato in particolare alla versione fiamminga di « Temptation Island »."
+      },
+      {
+        "id": 17,
+        "question": "Quanto è ricco il pianeta nel film epico « Dune » di Frank Herbert ?",
+        "propositions": [
+          "Spezie",
+          "Gelato",
+          "Oro",
+          "Olio"
+        ],
+        "réponse": "Spezie",
+        "anecdote": "Pubblicato originariamente in due pubblicazioni separate, « Dune » rimane il romanzo di fantascienza più venduto al mondo."
+      },
+      {
+        "id": 18,
+        "question": "Quale personaggio è interpretato da Olivia Wilde nella serie TV « Dr House » ?",
+        "propositions": [
+          "Jessica Adams",
+          "Lisa Cuddy",
+          "Numero 13",
+          "Allison Cameron"
+        ],
+        "réponse": "Numero 13",
+        "anecdote": "Trasmessa in più di 60 paesi, dopo aver ricevuto numerosi premi, la serie è stata la più vista al mondo nel 2008."
+      },
+      {
+        "id": 19,
+        "question": "Chi ha presentato « Confessioni intime » dal 2004 al 2008 su TF1 ?",
+        "propositions": [
+          "Isabelle Bres",
+          "Marion Jollès",
+          "Géraldine Carré",
+          "Sandrine Quetier"
+        ],
+        "réponse": "Isabelle Bres",
+        "anecdote": "L'obiettivo di « Confessioni intime » è quello di esporre la vita quotidiana di una persona o di una coppia con un problema comportamentale."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke era uno sportivo professionista, ma in quale professione ?",
+        "propositions": [
+          "Lotta",
+          "Karatè",
+          "Boxe",
+          "Judo"
+        ],
+        "réponse": "Boxe",
+        "anecdote": "Dopo un notevole ruolo secondario in « Rusty James », Michael Cimino gli darà il suo primo ruolo da protagonista in « L'anno del drago »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Chi è il primo atleta a superare la barriera dei sei metri nel salto con l'asta ?",
+        "propositions": [
+          "Mike Powell",
+          "Maxim Tarasov",
+          "Sergei Bubka",
+          "Thierry Vigneron"
+        ],
+        "réponse": "Sergei Bubka",
+        "anecdote": "Sergei Bubka ha gareggiato per l'URSS fino al 1991, poi per l'Ucraina fino al termine della sua carriera nel 2000."
+      },
+      {
+        "id": 22,
+        "question": "Quale di queste star francesi non è una ex compagna di Carla Bruni ?",
+        "propositions": [
+          "Vincent Perez",
+          "Thomas Dutronc",
+          "Charles Berling",
+          "Louis Bertignac"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Vivente in Francia dall'età di sette anni, ha intrapreso la carriera di modella dal 1987 al 1997 per poi convertirsi alla musica."
+      },
+      {
+        "id": 23,
+        "question": "Quale professione Harrison Ford ha continuato a svolgere oltre al suo debutto come attore ?",
+        "propositions": [
+          "Poliziotto",
+          "Panettiere",
+          "Falegname",
+          "Postino"
+        ],
+        "réponse": "Falegname",
+        "anecdote": "La sua collaborazione con George Lucas in « American Graffiti » gli ha poi permesso di interpretare i ruoli di Indiana Jones e Han Solo."
+      },
+      {
+        "id": 24,
+        "question": "Qual è il nome del formidabile e dispettoso tenente Colombo ?",
+        "propositions": [
+          "Artù",
+          "Samuele",
+          "Leonardo",
+          "Franco"
+        ],
+        "réponse": "Franco",
+        "anecdote": "L'aspetto di Colombo si fonde con quello donatogli da Peter Falk, dopo Bert Freed nel 1960 e Thomas Mitchell nel 1962."
+      },
+      {
+        "id": 25,
+        "question": "Quale bellissima modella messicana è stata eletta Miss Universo 2010 ?",
+        "propositions": [
+          "Xian Mikol",
+          "Xara Eure",
+          "Xoe Zahara",
+          "Ximena Navarrete"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "Succede alla venezuelana Stefanía Fernández, 19 anni, e pone così fine al dominio del Venezuela nella competizione dal 2008."
+      },
+      {
+        "id": 26,
+        "question": "Quale re della Giudea ordinò il massacro dei figli di Gerusalemme ?",
+        "propositions": [
+          "Bruto",
+          "Erodoto",
+          "Erode",
+          "Cassio"
+        ],
+        "réponse": "Erode",
+        "anecdote": "Non avendo trovato il re dei Giudei, ordinò l'uccisione di tutti i bambini maschi della città sotto i due anni."
+      },
+      {
+        "id": 27,
+        "question": "In quale di queste arti Le Corbusier non eccelleva ?",
+        "propositions": [
+          "Architettura",
+          "Orafo",
+          "Scultura",
+          "Scrivere"
+        ],
+        "réponse": "Orafo",
+        "anecdote": "Le Corbusier è noto per essere l'inventore dell'unità abitativa, un concetto su cui iniziò a lavorare negli anni '20."
+      },
+      {
+        "id": 28,
+        "question": "Quante vittime ha fatto la Duisburg Love Parade nel 2010 in Germania ?",
+        "propositions": [
+          "Cento",
+          "Quaranta",
+          "Venti",
+          "Sessanta"
+        ],
+        "réponse": "Venti",
+        "anecdote": "Sotto accusa gli organizzatori del festival, in particolare il dottor Motte, uno degli storici fondatori della Love Parade."
+      },
+      {
+        "id": 29,
+        "question": "Quale attrice e modella francese è stata anche l'ultima Miss Paris ?",
+        "propositions": [
+          "Paolina Righini",
+          "Lisa Alberici",
+          "Sarah Barzyk",
+          "Kelly Bochenko"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko è nota soprattutto per lo scandalo causato dalla pubblicazione di foto di nudo in « Entrevue » nel dicembre 2009."
+      },
+      {
+        "id": 30,
+        "question": "Quello che a volte viene chiamato pince-monseigneur in slang ?",
+        "propositions": [
+          "Becco",
+          "Piuma",
+          "Liane",
+          "Cappello"
+        ],
+        "réponse": "Piuma",
+        "anecdote": "Un piede di porco è una leva in acciaio con estremità smussate, una delle quali è curva."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie beheert de Minions in de tekenfilm « Despicable Me » ?",
+        "propositions": [
+          "Jerry",
+          "Nefario",
+          "Vector",
+          "Gru"
+        ],
+        "réponse": "Gru",
+        "anecdote": "De verachtelijke Gru is een professionele superschurk, verfoeilijk en er trots op, geholpen door zijn partner-uitvinder, de oude dokter Nefario."
+      },
+      {
+        "id": 2,
+        "question": "Op welk onderdeel van uw wasmachine kunt u het wasgoed zien centrifugeren ?",
+        "propositions": [
+          "Trommel",
+          "Pomp",
+          "Sensor",
+          "Patrijspoort"
+        ],
+        "réponse": "Patrijspoort",
+        "anecdote": "Omdat de wasmachine in 1856 werd gepatenteerd en het wijdverbreide gebruik ervan, droeg de wasmachine bij aan de verbetering van de toestand van vrouwen."
+      },
+      {
+        "id": 3,
+        "question": "Welke Franse rapgroep had urenlang koorts ?",
+        "propositions": [
+          "NTM",
+          "wederkerig",
+          "Fonky-familie",
+          "La Clique"
+        ],
+        "réponse": "NTM",
+        "anecdote": "De groep bestaat voornamelijk uit JoeyStarr (Didier Morville) en Kool Shen (Bruno Lopes) en markeert het begin van de rap in Frankrijk."
+      },
+      {
+        "id": 4,
+        "question": "Wiens leven portretteert David Fincher in de film « The Social Network » ?",
+        "propositions": [
+          "Steve Jobs",
+          "Paul Allen",
+          "Mark Zukerberg",
+          "Bill Gates"
+        ],
+        "réponse": "Mark Zukerberg",
+        "anecdote": "De film blikt terug op de oprichting van het sociale netwerk Facebook door Mark Zuckerberg en zijn relaties met zijn Harvard-klasgenoten."
+      },
+      {
+        "id": 5,
+        "question": "Welke plant uit de peulvruchtenfamilie produceert pinda's ?",
+        "propositions": [
+          "Erwten",
+          "Boon",
+          "Pinda",
+          "Lens"
+        ],
+        "réponse": "Pinda",
+        "anecdote": "Oorspronkelijk afkomstig uit Mexico, met zijn oliehoudende zaden, heeft de pinda de bijzonderheid dat hij zijn vruchten na de bevruchting begraaft."
+      },
+      {
+        "id": 6,
+        "question": "Aan wie bracht Elie Seimoun tijdens de César Awards 2009 hulde door zich te verkleden als Tootsie ?",
+        "propositions": [
+          "Dustin Hofman",
+          "Michaël Douglas",
+          "Paul Newman",
+          "Willem Hurt"
+        ],
+        "réponse": "Dustin Hofman",
+        "anecdote": "De film « Tootsie » was zowel een kritisch als een commercieel succes en leverde hem zijn vijfde Academy Award-nominatie voor Beste Acteur op."
+      },
+      {
+        "id": 7,
+        "question": "Welke burleske stripper is een fetisjicoon in de Verenigde Staten ?",
+        "propositions": [
+          "Dorothea Rust",
+          "Claudia Letizia",
+          "Margie Hart",
+          "Dita von Teese"
+        ],
+        "réponse": "Dita von Teese",
+        "anecdote": "De handtekening van Dita, geboren Heather Renée Sweet, komt uit een ontmoeting met de vrouw die haar beste vriendin werd, Catherine D'Lish."
+      },
+      {
+        "id": 8,
+        "question": "Tot welke mensen behoren Sam en Merry in « The Lord of the Rings » ?",
+        "propositions": [
+          "Elfen",
+          "Orks",
+          "Dwergen",
+          "Hobbits"
+        ],
+        "réponse": "Hobbits",
+        "anecdote": "Hobbits worden gekenmerkt door hun kleine formaat, het overvloedige haar op hun voeten, hun puntige oren en hun rode gezichten."
+      },
+      {
+        "id": 9,
+        "question": "Wie is Caroline in de strip « Boule et Bill » van Jean Roba ?",
+        "propositions": [
+          "De schildpad",
+          "De moeder",
+          "Een buurman",
+          "De 2CV"
+        ],
+        "réponse": "De schildpad",
+        "anecdote": "Hij is een Griekse landschildpad die in de tuin leeft, en wiens vermogen om botten op te graven Bill aanvankelijk bang maakt."
+      },
+      {
+        "id": 10,
+        "question": "Wie is verantwoordelijk voor het voorbereiden van kandidaten in de film « The War of the Misses » ?",
+        "propositions": [
+          "Gilles Lellouche",
+          "Benoît Poelvoorde",
+          "Guillaume Canet",
+          "José Garcia"
+        ],
+        "réponse": "Benoît Poelvoorde",
+        "anecdote": "Na « Monsieur Batignole » en « Indigènes » diende de regio Franche-Comté opnieuw als decor voor een film geregisseerd door Patrice Leconte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welke film speelt George Clooney een huurmoordenaar zonder verplichtingen ?",
+        "propositions": [
+          "The American",
+          "Monuments Men",
+          "In the Air",
+          "Money Monster"
+        ],
+        "réponse": "The American",
+        "anecdote": "De opnames van de film van Anton Corbijn vonden plaats in de Abruzzen, niet ver van L'Aquila, na de aardbeving van 9 april 2009."
+      },
+      {
+        "id": 12,
+        "question": "Welk appelras werd in 2009 het meest verbouwd in Frankrijk ?",
+        "propositions": [
+          "Gala",
+          "Granny Smith",
+          "Golden Delicious",
+          "Pink lady"
+        ],
+        "réponse": "Golden Delicious",
+        "anecdote": "Al meer dan een eeuw is Golden Delicious een van de vijf meest gebruikte variëteiten om nieuwe appelvariëteiten te creëren."
+      },
+      {
+        "id": 13,
+        "question": "Welk vliegtuigmodel wordt ook wel Jumbo Jet of Queen of the Skies genoemd ?",
+        "propositions": [
+          "DC-10",
+          "MD-11",
+          "Luchtbus A310",
+          "Boeing 747"
+        ],
+        "réponse": "Boeing 747",
+        "anecdote": "De eerste versie van de 747, gebouwd in de Verenigde Staten, heeft een capaciteit die twee en een half keer groter is dan die van de Boeing 707."
+      },
+      {
+        "id": 14,
+        "question": "Hoeveel pianobegeleidingen heeft Franz Schubert ongeveer gecomponeerd ?",
+        "propositions": [
+          "300",
+          "500",
+          "400",
+          "600"
+        ],
+        "réponse": "600",
+        "anecdote": "Hoewel hij op 31-jarige leeftijd stierf, is Franz Schubert een van de grootste componisten van de 19e eeuw en de onbetwiste meester van de liederen."
+      },
+      {
+        "id": 15,
+        "question": "Wie zei: « Iets gemiddelds doen is een complete tijdverspilling » ?",
+        "propositions": [
+          "Henry IV",
+          "Eddy Merckx",
+          "Madonna",
+          "Demi Moore"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Bijgenaamd The Queen of Pop, heeft Madonna uitstapjes gemaakt naar andere stijlen zoals dance, disco, electro, rock en jazz."
+      },
+      {
+        "id": 16,
+        "question": "Welke intrigerende metgezel heeft sinds 2008 een relatie met Jean Paul Belmondo ?",
+        "propositions": [
+          "Sarah Barzyk",
+          "Kelly Bochenko",
+          "Barbara Gandolfi",
+          "Pauline Righini"
+        ],
+        "réponse": "Barbara Gandolfi",
+        "anecdote": "Als Belgische zakenvrouw en ex-model nam ze onder meer deel aan de Vlaamse versie van « Temptation Island »."
+      },
+      {
+        "id": 17,
+        "question": "Hoe rijk is de planeet in Frank Herberts epos « Dune » ?",
+        "propositions": [
+          "Goud",
+          "Kruid",
+          "IJs",
+          "Olie"
+        ],
+        "réponse": "Kruid",
+        "anecdote": "Oorspronkelijk gepubliceerd als twee afzonderlijke publicaties, blijft « Dune »'s werelds best verkochte sciencefictionroman."
+      },
+      {
+        "id": 18,
+        "question": "Welk personage wordt gespeeld door Olivia Wilde in de tv-serie « Dr House » ?",
+        "propositions": [
+          "Nummer 13",
+          "Allison Cameron",
+          "Lisa Cuddy",
+          "Jessica Adams"
+        ],
+        "réponse": "Nummer 13",
+        "anecdote": "De serie, die in meer dan 60 landen werd uitgezonden en talloze prijzen ontving, was in 2008 de meest bekeken serie ter wereld."
+      },
+      {
+        "id": 19,
+        "question": "Wie presenteerde « Intieme Bekentenissen » van 2004 tot 2008 op TF1 ?",
+        "propositions": [
+          "Géraldine Carré",
+          "Sandrine Quétier",
+          "Marion Jollès",
+          "Isabelle Bres"
+        ],
+        "réponse": "Isabelle Bres",
+        "anecdote": "Het doel van « Intieme Bekentenissen » is om het dagelijks leven van een persoon of koppel met een gedragsprobleem bloot te leggen."
+      },
+      {
+        "id": 20,
+        "question": "Mickey Rourke was een professionele sporter, maar in welk beroep ?",
+        "propositions": [
+          "Judo",
+          "Worstelen",
+          "Karate",
+          "Boksen"
+        ],
+        "réponse": "Boksen",
+        "anecdote": "Na een opmerkelijke bijrol in « Rusty James », zal Michael Cimino hem zijn eerste hoofdrol geven in « The Year of the Dragon »."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie is de eerste atleet die bij polsstokspringen de grens van zes meter overschrijdt ?",
+        "propositions": [
+          "Thierry Vigneron",
+          "Mike Powell",
+          "Maxim Tarasov",
+          "Sergei Bubka"
+        ],
+        "réponse": "Sergei Bubka",
+        "anecdote": "Sergei Bubka streed tot 1991 voor de USSR, daarna voor Oekraïne tot het einde van zijn carrière in 2000."
+      },
+      {
+        "id": 22,
+        "question": "Welke van deze Franse sterren is geen voormalige metgezel van Carla Bruni ?",
+        "propositions": [
+          "Louis Bertignac",
+          "Thomas Dutronc",
+          "Charles Berling",
+          "Vincent Pérez"
+        ],
+        "réponse": "Thomas Dutronc",
+        "anecdote": "Ze woonde in Frankrijk sinds ze zeven jaar oud was en had een carrière als model van 1987 tot 1997, waarna ze zich bekeerde tot muziek."
+      },
+      {
+        "id": 23,
+        "question": "Welk beroep bleef Harrison Ford uitoefenen naast zijn acteerdebuut ?",
+        "propositions": [
+          "Politieagent",
+          "Bakker",
+          "Timmerman",
+          "Postbode"
+        ],
+        "réponse": "Timmerman",
+        "anecdote": "Door zijn samenwerking met George Lucas in « American Graffiti » kon hij vervolgens de rollen spelen van Indiana Jones en Han Solo."
+      },
+      {
+        "id": 24,
+        "question": "Wat is de voornaam van de formidabele en ondeugende luitenant Columbo ?",
+        "propositions": [
+          "Frank",
+          "Leonard",
+          "Arthur",
+          "Samuël"
+        ],
+        "réponse": "Frank",
+        "anecdote": "Columbo's optreden sluit aan bij dat van Peter Falk, na Bert Freed in 1960 en Thomas Mitchell in 1962."
+      },
+      {
+        "id": 25,
+        "question": "Welk mooie Mexicaanse model werd verkozen tot Miss Universe 2010 ?",
+        "propositions": [
+          "Ximena Navarrete",
+          "Xoe Zahara",
+          "Xara Eure",
+          "Xian Mikol"
+        ],
+        "réponse": "Ximena Navarrete",
+        "anecdote": "Ze volgt de 19-jarige Venezolaan Stefanía Fernández op en maakt daarmee een einde aan de heerschappij van Venezuela over de competitie sinds 2008."
+      },
+      {
+        "id": 26,
+        "question": "Welke koning van Judea gaf opdracht tot het afslachten van de kinderen van Jeruzalem ?",
+        "propositions": [
+          "Herodotus",
+          "Brutus",
+          "Cassius",
+          "Herodes"
+        ],
+        "réponse": "Herodes",
+        "anecdote": "Omdat hij de koning van de Joden niet had gevonden, beval hij de moord op alle mannelijke kinderen in de stad onder de twee jaar."
+      },
+      {
+        "id": 27,
+        "question": "In welke van deze kunsten blonk Le Corbusier niet uit ?",
+        "propositions": [
+          "Architectuur",
+          "Schrijven",
+          "Sculptuur",
+          "Goudsmid"
+        ],
+        "réponse": "Goudsmid",
+        "anecdote": "Le Corbusier staat bekend als de uitvinder van de wooneenheid, een concept waaraan hij in de jaren twintig begon te werken."
+      },
+      {
+        "id": 28,
+        "question": "Hoeveel slachtoffers vielen de Duisburg Love Parade in 2010 in Duitsland ?",
+        "propositions": [
+          "Twintig",
+          "Honderd",
+          "Zestig",
+          "Veertig"
+        ],
+        "réponse": "Twintig",
+        "anecdote": "De organisatoren van het festival worden met name beschuldigd door Dr. Motte, een van de historische grondleggers van de Love Parade."
+      },
+      {
+        "id": 29,
+        "question": "Welke Franse actrice en model was tevens de laatste Miss Paris ?",
+        "propositions": [
+          "Pauline Righini",
+          "Sarah Barzyk",
+          "Kelly Bochenko",
+          "Lisa Alberici"
+        ],
+        "réponse": "Kelly Bochenko",
+        "anecdote": "Kelly Bochenko is vooral bekend vanwege het schandaal dat werd veroorzaakt door de publicatie van naaktfoto's in « Entrevue » in december 2009."
+      },
+      {
+        "id": 30,
+        "question": "Wat wordt in het jargon ook wel een pince-monseigneur genoemd ?",
+        "propositions": [
+          "Liane",
+          "Hoed",
+          "Veer",
+          "Snavel"
+        ],
+        "réponse": "Veer",
+        "anecdote": "Een koevoet is een stalen hefboom met afgeschuinde uiteinden, waarvan één uiteinde gebogen is."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 8,
+  "mise-à-jour": "2024-03-22",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Nature",
+      "nom": "Botanique",
+      "slogan": "L'étude des végétaux"
+    },
+    "en": {
+      "catégorie": "Nature",
+      "nom": "Botanical",
+      "slogan": "The study of plants"
+    },
+    "es": {
+      "catégorie": "Naturaleza",
+      "nom": "Botánico",
+      "slogan": "El estudio de las plantas."
+    },
+    "it": {
+      "catégorie": "Natura",
+      "nom": "Botanique",
+      "slogan": "Lo studio delle piante"
+    },
+    "de": {
+      "catégorie": "Natur",
+      "nom": "Botanisch",
+      "slogan": "Das Studium der Pflanzen"
+    },
+    "nl": {
+      "catégorie": "Natuur",
+      "nom": "Botanisch",
+      "slogan": "De studie van planten"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle collection de plantes est souvent pressée entre des feuilles de papier ?",
+        "propositions": [
+          "Herbier",
+          "Grainier",
+          "Plantier",
+          "Fleurier"
+        ],
+        "réponse": "Herbier",
+        "anecdote": "Le terme herbier (herbarium) désigne également l'établissement ou l'institution qui assure la conservation d'une telle collection."
+      },
+      {
+        "id": 2,
+        "question": "Quelle structure semi-ouverte translucide est destinée à la production agricole ?",
+        "propositions": [
+          "Serre",
+          "Séchoir",
+          "Ferme",
+          "Grange"
+        ],
+        "réponse": "Serre",
+        "anecdote": "La serre vise à protéger les cultures vivrières ou de loisir des éléments climatiques, afin d'améliorer la production des plantes."
+      },
+      {
+        "id": 3,
+        "question": "Dans quelle partie d'un jardin sont principalement plantés des rosiers ?",
+        "propositions": [
+          "Alpinum",
+          "Conserverie",
+          "Roseraie",
+          "Serre"
+        ],
+        "réponse": "Roseraie",
+        "anecdote": "Pour certains, il convient de distinguer la roseraie, en tant que collection botanique, du jardin de roses, à vocation ornementale."
+      },
+      {
+        "id": 4,
+        "question": "Quel support de culture naturel est formé de terre végétale enrichie ?",
+        "propositions": [
+          "Argile",
+          "Terreau",
+          "Sable",
+          "Tourbe"
+        ],
+        "réponse": "Terreau",
+        "anecdote": "Ce terme, initialement synonyme d'humus, tend à ne plus désigner que des suppléments horticoles apporté au sol des cultures."
+      },
+      {
+        "id": 5,
+        "question": "Quel élément mobile mâle produit par la fleur peut nous donner des allergies ?",
+        "propositions": [
+          "Pollen",
+          "Pistil",
+          "Spore",
+          "Étamine"
+        ],
+        "réponse": "Pollen",
+        "anecdote": "Ce sont des grains minuscules, de forme plus ou moins ovoïde, initialement contenus dans l'anthère à l'extrémité des étamines."
+      },
+      {
+        "id": 6,
+        "question": "Quel espace de terrain est dévolu à la culture d'arbres fruitiers ?",
+        "propositions": [
+          "Herbier",
+          "Verger",
+          "Charmille",
+          "Pépinière"
+        ],
+        "réponse": "Verger",
+        "anecdote": "Il en existe différents types : les vergers conservatoires, les prés-vergers, les vergers commerciaux et de jardin potager."
+      },
+      {
+        "id": 7,
+        "question": "Comment appelle-t-on des graines sélectionnées pour être semées ?",
+        "propositions": [
+          "Greffes",
+          "Germes",
+          "Semences",
+          "Céréales"
+        ],
+        "réponse": "Semences",
+        "anecdote": "Depuis 10 000 ans, les premiers agriculteurs mettaient à part les graines des plants répondant au mieux aux critères agronomiques."
+      },
+      {
+        "id": 8,
+        "question": "Quel axe végétatif polarisé prolonge la racine et porte les feuilles d'une plante ?",
+        "propositions": [
+          "Tubercule",
+          "Tige",
+          "Collerette",
+          "Greffe"
+        ],
+        "réponse": "Tige",
+        "anecdote": "Concernant les arbres, les botanistes distinguent souvent le tronc du houppier, formé de l'ensemble branches maîtresses et rameaux."
+      },
+      {
+        "id": 9,
+        "question": "Quel organe souterrain d'une plante sert à la fixer au sol ?",
+        "propositions": [
+          "Germe",
+          "Bulbe",
+          "Racine",
+          "Tige"
+        ],
+        "réponse": "Racine",
+        "anecdote": "Les racines peuvent présenter des adaptations afin de faciliter le développement de la plante dans un environnement particulier."
+      },
+      {
+        "id": 10,
+        "question": "Quelle sorte de paire de ciseaux robuste permet de couper de petites branches ?",
+        "propositions": [
+          "Scarificateur",
+          "Sécateur",
+          "Plantoir",
+          "Manchon"
+        ],
+        "réponse": "Sécateur",
+        "anecdote": "Les sécateurs sont formés de deux poignées mobiles reliées par un axe et prolongées par une lame et par une contre-lame."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel tissu végétal forme la plus grande partie du tronc des plantes ligneuses ?",
+        "propositions": [
+          "Racine",
+          "Sève",
+          "Feuille",
+          "Bois"
+        ],
+        "réponse": "Bois",
+        "anecdote": "Le bois assure le rôle de conduction de la sève brute des racines jusqu'aux feuilles, et le rôle de soutien mécanique de l'arbre."
+      },
+      {
+        "id": 12,
+        "question": "Quel jardin est cultivé sous une structure métallique publique largement vitrée ?",
+        "propositions": [
+          "Jardin d'hiver",
+          "Jardin sauvage",
+          "Jardin d'essai",
+          "Jardin flottant"
+        ],
+        "réponse": "Jardin d'hiver",
+        "anecdote": "Chauffé ou non, il abrite des plantes d'intérieur toute l'année, exotiques ou non, ou des plantes qui ne supportent pas le froid."
+      },
+      {
+        "id": 13,
+        "question": "Quelle opération vise à changer une plante de pot pour développer ses racines ?",
+        "propositions": [
+          "Rempotage",
+          "Cordeau",
+          "Transplantoir",
+          "Défanage"
+        ],
+        "réponse": "Rempotage",
+        "anecdote": "Cette opération d'horticulture nécessite de déterminer au plus juste la taille du nouveau pot et d'utiliser le terreau adapté."
+      },
+      {
+        "id": 14,
+        "question": "Dans le cycle de vie, quelle structure contient et protège un embryon végétal ?",
+        "propositions": [
+          "Foliole",
+          "Épine",
+          "Écorce",
+          "Graine"
+        ],
+        "réponse": "Graine",
+        "anecdote": "La graine permet ainsi à la plante d'échapper aux conditions d'un milieu devenu hostile en attendant des circonstances favorables."
+      },
+      {
+        "id": 15,
+        "question": "Quel type d'entreprise est spécialisée dans la production de plantes ligneuses ?",
+        "propositions": [
+          "Herboristerie",
+          "Tanière",
+          "Canopée",
+          "Pépinière"
+        ],
+        "réponse": "Pépinière",
+        "anecdote": "Les pépiniéristes-éleveurs reçoivent les végétaux des producteurs de jeunes plants pour ensuite les mettre en culture."
+      },
+      {
+        "id": 16,
+        "question": "Quel organe est spécialisé dans la photosynthèse chez les plantes vasculaires ?",
+        "propositions": [
+          "Épine",
+          "Fleur",
+          "Feuille",
+          "Écorce"
+        ],
+        "réponse": "Feuille",
+        "anecdote": "Une feuille est souvent formée d'une lame plate et fine aérienne, le limbe, qui lui permet d'exposer une grande surface à la lumière."
+      },
+      {
+        "id": 17,
+        "question": "En botanique, quel organe végétal contient une ou plusieurs graines ?",
+        "propositions": [
+          "Fruit",
+          "Vrille",
+          "Fleur",
+          "Foliole"
+        ],
+        "réponse": "Fruit",
+        "anecdote": "Le fruit succède à la fleur par transformation du pistil, la paroi de l'ovaire formant le péricarpe du fruit et l'ovule donnant la graine."
+      },
+      {
+        "id": 18,
+        "question": "Chez les angiospermes, quel organe, une fois fécondé, se transforme en fruit ?",
+        "propositions": [
+          "Corolle",
+          "Graine",
+          "Calice",
+          "Fleur"
+        ],
+        "réponse": "Fleur",
+        "anecdote": "La plupart des fleurs sont hermaphrodites, c'est-à-dire qu'elles ont à la fois des organes reproducteurs mâles et femelles."
+      },
+      {
+        "id": 19,
+        "question": "Quelle profession nécessite un savoir-faire issus de nombreux corps de métiers ?",
+        "propositions": [
+          "Gardien",
+          "Rosiériste",
+          "Jardinier",
+          "Botaniste"
+        ],
+        "réponse": "Jardinier",
+        "anecdote": "Les professionnels doivent être polyvalents, et ce à tous les niveaux : travaux publics, génie civil, architecture et décoration."
+      },
+      {
+        "id": 20,
+        "question": "Quel insecte est entre autres élevé pour la pollinisation des cultures ?",
+        "propositions": [
+          "Abeille",
+          "Guêpe",
+          "Frelon",
+          "Bourdon"
+        ],
+        "réponse": "Abeille",
+        "anecdote": "Les abeilles peuvent être classées selon leur mode de vie : domestiques ou sauvages, solitaires ou bien sociales."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Où abrite-t-on pendant la mauvaise saison les agrumes plantés dans des bacs ?",
+        "propositions": [
+          "Orangerie",
+          "Séchoir",
+          "Chalot",
+          "Grenier"
+        ],
+        "réponse": "Orangerie",
+        "anecdote": "En Italie, pays qui en lança la mode, pendant la Renaissance, en vitrant les arcades où on les entreposait, elle est appelée limonaia."
+      },
+      {
+        "id": 22,
+        "question": "Quel processus bioénergétique utilise l'énergie lumineuse et l'eau ?",
+        "propositions": [
+          "Mécanosynthèse",
+          "Photosynthèse",
+          "Chimiosynthèse",
+          "Radiosynthèse"
+        ],
+        "réponse": "Photosynthèse",
+        "anecdote": "Ce processus commence toujours par l'absorption de l'énergie lumineuse par des protéines appelées centres réactionnels."
+      },
+      {
+        "id": 23,
+        "question": "Quel est le principal pigment assimilateur des végétaux photosynthétiques ?",
+        "propositions": [
+          "Bryophyte",
+          "Fruiticetum",
+          "Phycologie",
+          "Chlorophylle"
+        ],
+        "réponse": "Chlorophylle",
+        "anecdote": "Ces pigments des chloroplastes des cellules interviennent dans la photosynthèse pour capter l'énergie lumineuse."
+      },
+      {
+        "id": 24,
+        "question": "Quel orifice permet les échanges gazeux entre une plante et l'air ambiant ?",
+        "propositions": [
+          "Phytotron",
+          "Stomate",
+          "Xylème",
+          "Arboretum"
+        ],
+        "réponse": "Stomate",
+        "anecdote": "Lorsque les stomates sont totalement ouverts, la surface cumulée des ostioles représente de l'ordre de 2 % de la surface foliaire."
+      },
+      {
+        "id": 25,
+        "question": "Quelle science étudie tout particulièrement les champignons ?",
+        "propositions": [
+          "Toxicologie",
+          "Mycologie",
+          "Pomologie",
+          "Ostéologie"
+        ],
+        "réponse": "Mycologie",
+        "anecdote": "Ce qu'on appelle couramment champignon n'est en fait que la fructification temporaire et visible d'un organisme durable et discret."
+      },
+      {
+        "id": 26,
+        "question": "Quel organisme constitue la base des chaînes alimentaires des eaux saumâtres ?",
+        "propositions": [
+          "Roseau",
+          "Limon",
+          "Algue",
+          "Vase"
+        ],
+        "réponse": "Algue",
+        "anecdote": "Les algues ont souvent été définies par défaut, par simple opposition aux végétaux terrestres ou aquatiques pluricellulaires."
+      },
+      {
+        "id": 27,
+        "question": "Quelle opération apporte artificiellement de l'eau à de grandes surfaces ?",
+        "propositions": [
+          "Irrigation",
+          "Fertilisation",
+          "Évaporation",
+          "Abissage"
+        ],
+        "réponse": "Irrigation",
+        "anecdote": "Il est d'usage d'employer le terme d'arrosage pour les petites surfaces, réservant le terme d'irrigation pour les grandes surfaces."
+      },
+      {
+        "id": 28,
+        "question": "Sur quelle plante ligneuse décapitée implante-t-on un greffon ou une bouture ?",
+        "propositions": [
+          "Cordeau",
+          "Drageon",
+          "Hautain",
+          "Porte-greffe"
+        ],
+        "réponse": "Porte-greffe",
+        "anecdote": "Selon les cas, ce peut-être un clone, provenant du bouturage, ou bien d'un semis qui peut-être issu d'un croisement spontané."
+      },
+      {
+        "id": 29,
+        "question": "Quel processus optimise les surfaces d'échanges avec le milieu extérieur ?",
+        "propositions": [
+          "Ramification",
+          "Foliole",
+          "Bourgeon",
+          "Bulbe"
+        ],
+        "réponse": "Ramification",
+        "anecdote": "La division des axes en plusieurs organes juvéniles aériens et souterrains participe à l'architecture et au port des plantes."
+      },
+      {
+        "id": 30,
+        "question": "Quel groupe est composé de cellules végétales indifférenciées divisibles ?",
+        "propositions": [
+          "Phytotron",
+          "Méristème",
+          "Gamétophyte",
+          "Alpinum"
+        ],
+        "réponse": "Méristème",
+        "anecdote": "Les méristèmes forment des tissus tels que des tissus conducteurs, et parfois des organes entiers comme les feuilles."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which plant collection is often squeezed between sheets of paper ?",
+        "propositions": [
+          "Fleurier",
+          "Herbarium",
+          "Grainier",
+          "Planter"
+        ],
+        "réponse": "Herbarium",
+        "anecdote": "The term herbarium (herbarium) also designates the establishment or institution which ensures the conservation of such a collection."
+      },
+      {
+        "id": 2,
+        "question": "Which translucent semi-open structure is intended for agricultural production ?",
+        "propositions": [
+          "Dryer",
+          "Barn",
+          "Greenhouse",
+          "Farm"
+        ],
+        "réponse": "Greenhouse",
+        "anecdote": "The greenhouse aims to protect food or leisure crops from climatic elements, in order to improve plant production."
+      },
+      {
+        "id": 3,
+        "question": "In which part of a garden are mainly planted rose bushes ?",
+        "propositions": [
+          "Canning",
+          "Rose garden",
+          "Alpinum",
+          "Greenhouse"
+        ],
+        "réponse": "Rose garden",
+        "anecdote": "For some, it is appropriate to distinguish the rose garden, as a botanical collection, from the rose garden, with an ornamental vocation."
+      },
+      {
+        "id": 4,
+        "question": "What natural growing medium is made from enriched topsoil ?",
+        "propositions": [
+          "Peat",
+          "Clay",
+          "Potting soil",
+          "Sand"
+        ],
+        "réponse": "Potting soil",
+        "anecdote": "This term, initially synonymous with humus, tends to no longer designate only horticultural supplements added to the crop soil."
+      },
+      {
+        "id": 5,
+        "question": "Which male mobile element produced by the flower can give us allergies ?",
+        "propositions": [
+          "Cheesecloth",
+          "Spore",
+          "Pistil",
+          "Pollen"
+        ],
+        "réponse": "Pollen",
+        "anecdote": "These are tiny grains, more or less ovoid in shape, initially contained in the anther at the end of the stamens."
+      },
+      {
+        "id": 6,
+        "question": "How much land is allocated to growing fruit trees ?",
+        "propositions": [
+          "Herbarium",
+          "Nursery",
+          "Charmille",
+          "Orchard"
+        ],
+        "réponse": "Orchard",
+        "anecdote": "There are different types : conservatory orchards, meadow orchards, commercial orchards and vegetable gardens."
+      },
+      {
+        "id": 7,
+        "question": "What are seeds selected for sowing called ?",
+        "propositions": [
+          "Cereals",
+          "Registries",
+          "Sprouts",
+          "Seeds"
+        ],
+        "réponse": "Seeds",
+        "anecdote": "For 10,000 years, the first farmers have been separating the seeds of plants that best meet agronomic criteria."
+      },
+      {
+        "id": 8,
+        "question": "Which polarized vegetative axis extends the root and carries the leaves of a plant ?",
+        "propositions": [
+          "Stem",
+          "Registry",
+          "Collar",
+          "Tuber"
+        ],
+        "réponse": "Stem",
+        "anecdote": "Concerning trees, botanists often distinguish the trunk from the crown, made up of the main branches and twigs."
+      },
+      {
+        "id": 9,
+        "question": "Which underground organ of a plant serves to attach it to the ground ?",
+        "propositions": [
+          "Germ",
+          "Root",
+          "Stem",
+          "Bulb"
+        ],
+        "réponse": "Root",
+        "anecdote": "The roots can present adaptations to facilitate the development of the plant in a particular environment."
+      },
+      {
+        "id": 10,
+        "question": "What kind of sturdy pair of scissors can cut small branches ?",
+        "propositions": [
+          "Planter",
+          "Scarifier",
+          "Secateurs",
+          "Sleeve"
+        ],
+        "réponse": "Secateurs",
+        "anecdote": "Secateurs are made up of two mobile handles connected by an axis and extended by a blade and a counter-blade."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What plant tissue forms most of the trunk of woody plants ?",
+        "propositions": [
+          "Root",
+          "Wood",
+          "Sap",
+          "Leaf"
+        ],
+        "réponse": "Wood",
+        "anecdote": "Wood plays the role of conducting raw sap from the roots to the leaves, and the role of mechanical support for the tree."
+      },
+      {
+        "id": 12,
+        "question": "What garden is cultivated under a largely glazed public metal structure ?",
+        "propositions": [
+          "Wild garden",
+          "Test garden",
+          "Winter garden",
+          "Floating garden"
+        ],
+        "réponse": "Winter garden",
+        "anecdote": "Heated or not, it houses indoor plants all year round, exotic or not, or plants that cannot stand the cold."
+      },
+      {
+        "id": 13,
+        "question": "What operation aims to change a potted plant to develop its roots ?",
+        "propositions": [
+          "Tree removal",
+          "Cordeau",
+          "Transplanter",
+          "Repotting"
+        ],
+        "réponse": "Repotting",
+        "anecdote": "This horticultural operation requires determining the size of the new pot as accurately as possible and using the appropriate potting soil."
+      },
+      {
+        "id": 14,
+        "question": "In the life cycle, what structure contains and protects a plant embryo ?",
+        "propositions": [
+          "Bark",
+          "Seed",
+          "Leaflet",
+          "Thorn"
+        ],
+        "réponse": "Seed",
+        "anecdote": "The seed thus allows the plant to escape the conditions of an environment that has become hostile while waiting for favorable circumstances."
+      },
+      {
+        "id": 15,
+        "question": "What type of business specializes in the production of woody plants ?",
+        "propositions": [
+          "Den",
+          "Herbalism",
+          "Canopy",
+          "Nursery"
+        ],
+        "réponse": "Nursery",
+        "anecdote": "Nursery growers receive plants from producers of young plants and then put them into cultivation."
+      },
+      {
+        "id": 16,
+        "question": "Which organ is specialized for photosynthesis in vascular plants ?",
+        "propositions": [
+          "Bark",
+          "Leaf",
+          "Thorn",
+          "Flower"
+        ],
+        "réponse": "Leaf",
+        "anecdote": "A leaf is often made up of a flat, thin aerial blade, the limb, which allows it to expose a large surface area to light."
+      },
+      {
+        "id": 17,
+        "question": "In botany, which plant organ contains one or more seeds ?",
+        "propositions": [
+          "Leaflet",
+          "Spin",
+          "Fruit",
+          "Flower"
+        ],
+        "réponse": "Fruit",
+        "anecdote": "The fruit succeeds the flower by transformation of the pistil, the wall of the ovary forming the pericarp of the fruit and the ovule giving the seed."
+      },
+      {
+        "id": 18,
+        "question": "In angiosperms, which organ, once fertilized, transforms into fruit ?",
+        "propositions": [
+          "Seed",
+          "Corolla",
+          "Chalice",
+          "Flower"
+        ],
+        "réponse": "Flower",
+        "anecdote": "Most flowers are hermaphrodite, meaning they have both male and female reproductive organs."
+      },
+      {
+        "id": 19,
+        "question": "Which profession requires know-how from many trades ?",
+        "propositions": [
+          "Guardian",
+          "Botanist",
+          "Gardener",
+          "Rose grower"
+        ],
+        "réponse": "Gardener",
+        "anecdote": "Professionals must be versatile at all levels : public works, civil engineering, architecture and decoration."
+      },
+      {
+        "id": 20,
+        "question": "Which insect is, among other things, bred for crop pollination ?",
+        "propositions": [
+          "Hornet",
+          "Wasp",
+          "Bee",
+          "Bumblebee"
+        ],
+        "réponse": "Bee",
+        "anecdote": "Bees can be classified according to their lifestyle : domestic or wild, solitary or social."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Where do we store citrus fruits planted in containers during the bad season ?",
+        "propositions": [
+          "Dryer",
+          "Shalot",
+          "Attic",
+          "Orangery"
+        ],
+        "réponse": "Orangery",
+        "anecdote": "In Italy, a country which launched the fashion for it during the Renaissance, by glazing the arcades where they were stored, it is called limonaia."
+      },
+      {
+        "id": 22,
+        "question": "Which bioenergetic process uses light energy and water ?",
+        "propositions": [
+          "Chemosynthesis",
+          "Photosynthesis",
+          "Mechanosynthesis",
+          "Radiosynthesis"
+        ],
+        "réponse": "Photosynthesis",
+        "anecdote": "This process always begins with the absorption of light energy by proteins called reaction centers."
+      },
+      {
+        "id": 23,
+        "question": "What is the main assimilatory pigment in photosynthetic plants ?",
+        "propositions": [
+          "Bryophyte",
+          "Phycology",
+          "Fruiticetum",
+          "Chlorophyll"
+        ],
+        "réponse": "Chlorophyll",
+        "anecdote": "These pigments in the chloroplasts of cells are involved in photosynthesis to capture light energy."
+      },
+      {
+        "id": 24,
+        "question": "Which orifice allows gas exchanges between a plant and the ambient air ?",
+        "propositions": [
+          "Xylem",
+          "Stomata",
+          "Phytotron",
+          "Arboretum"
+        ],
+        "réponse": "Stomata",
+        "anecdote": "When the stomata are completely open, the cumulative surface area of \u200b\u200bthe ostioles represents around 2% of the leaf surface area."
+      },
+      {
+        "id": 25,
+        "question": "What science specifically studies mushrooms ?",
+        "propositions": [
+          "Osteology",
+          "Toxicology",
+          "Pomology",
+          "Mycology"
+        ],
+        "réponse": "Mycology",
+        "anecdote": "What is commonly called a mushroom is in fact only the temporary and visible fruiting of a durable and discreet organism."
+      },
+      {
+        "id": 26,
+        "question": "Which organism forms the basis of brackish water food chains ?",
+        "propositions": [
+          "Reed",
+          "Algae",
+          "Silt",
+          "Vase"
+        ],
+        "réponse": "Algae",
+        "anecdote": "Algae have often been defined by default, simply in opposition to multicellular terrestrial or aquatic plants."
+      },
+      {
+        "id": 27,
+        "question": "What operation artificially brings water to large areas ?",
+        "propositions": [
+          "Evaporation",
+          "Abissage",
+          "Irrigation",
+          "Fertilization"
+        ],
+        "réponse": "Irrigation",
+        "anecdote": "It is customary to use the term watering for small areas, reserving the term irrigation for large areas."
+      },
+      {
+        "id": 28,
+        "question": "On which decapitated woody plant do we implant a graft or a cutting ?",
+        "propositions": [
+          "Haughty",
+          "Cordeau",
+          "Sucker",
+          "Rootstock"
+        ],
+        "réponse": "Rootstock",
+        "anecdote": "Depending on the case, it may be a clone, coming from cuttings, or from a seedling which may be the result of a spontaneous crossing."
+      },
+      {
+        "id": 29,
+        "question": "What process optimizes the exchange surfaces with the external environment ?",
+        "propositions": [
+          "Bulb",
+          "Branching",
+          "Bud",
+          "Leaflet"
+        ],
+        "réponse": "Branching",
+        "anecdote": "The division of the axes into several aerial and underground juvenile organs participates in the architecture and habit of plants."
+      },
+      {
+        "id": 30,
+        "question": "Which group is made up of divisible undifferentiated plant cells ?",
+        "propositions": [
+          "Gametophyte",
+          "Meristem",
+          "Phytotron",
+          "Alpinum"
+        ],
+        "réponse": "Meristem",
+        "anecdote": "Meristems form tissues such as conductive tissue, and sometimes entire organs such as leaves."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Pflanzensammlung wird oft zwischen Papierbögen eingeklemmt ?",
+        "propositions": [
+          "Pflanzer",
+          "Fleurier",
+          "Herbarium",
+          "Körniger"
+        ],
+        "réponse": "Herbarium",
+        "anecdote": "Der Begriff Herbarium (Herbarium) bezeichnet auch die Einrichtung oder Institution, die für die Erhaltung einer solchen Sammlung sorgt."
+      },
+      {
+        "id": 2,
+        "question": "Welche lichtdurchlässige halboffene Struktur ist für die landwirtschaftliche Produktion vorgesehen ?",
+        "propositions": [
+          "Gewächshaus",
+          "Scheune",
+          "Bauernhof",
+          "Trockner"
+        ],
+        "réponse": "Gewächshaus",
+        "anecdote": "Ziel des Gewächshauses ist es, Nahrungs- oder Freizeitpflanzen vor klimatischen Einflüssen zu schützen, um die Pflanzenproduktion zu verbessern."
+      },
+      {
+        "id": 3,
+        "question": "In welchem Teil eines Gartens werden hauptsächlich Rosensträucher gepflanzt ?",
+        "propositions": [
+          "Alpinum",
+          "Gewächshaus",
+          "Rosengarten",
+          "Einmachen"
+        ],
+        "réponse": "Rosengarten",
+        "anecdote": "Für einige ist es angebracht, den Rosengarten als botanische Sammlung vom Rosengarten mit einer dekorativen Berufung zu unterscheiden."
+      },
+      {
+        "id": 4,
+        "question": "Welches natürliche Wachstumsmedium wird aus angereichertem Mutterboden hergestellt ?",
+        "propositions": [
+          "Torf",
+          "Blumenerde",
+          "Sand",
+          "Ton"
+        ],
+        "réponse": "Blumenerde",
+        "anecdote": "Mit diesem zunächst gleichbedeutenden Begriff für Humus sind heute nicht mehr nur gärtnerische Zusatzstoffe gemeint, die der Kulturerde zugesetzt werden."
+      },
+      {
+        "id": 5,
+        "question": "Welches von der Blüte produzierte männliche mobile Element kann bei uns Allergien auslösen ?",
+        "propositions": [
+          "Spore",
+          "Stempel",
+          "Käsetuch",
+          "Pollen"
+        ],
+        "réponse": "Pollen",
+        "anecdote": "Dabei handelt es sich um winzige, mehr oder weniger eiförmige Körner, die zunächst im Staubbeutel am Ende der Staubblätter enthalten sind."
+      },
+      {
+        "id": 6,
+        "question": "Wie viel Land ist für den Anbau von Obstbäumen vorgesehen ?",
+        "propositions": [
+          "Obstgarten",
+          "Herbarium",
+          "Kindergarten",
+          "Charmille"
+        ],
+        "réponse": "Obstgarten",
+        "anecdote": "Es gibt verschiedene Arten : Wintergärten, Streuobstwiesen, Nutzobstgärten und Gemüsegärten."
+      },
+      {
+        "id": 7,
+        "question": "Wie heißen die zur Aussaat ausgewählten Samen ?",
+        "propositions": [
+          "Getreide",
+          "Samen",
+          "Register",
+          "Sprossen"
+        ],
+        "réponse": "Samen",
+        "anecdote": "Seit 10.000 Jahren trennen die ersten Bauern die Samen der Pflanzen, die den agronomischen Kriterien am besten entsprechen."
+      },
+      {
+        "id": 8,
+        "question": "Welche polarisierte vegetative Achse verlängert die Wurzel und trägt die Blätter einer Pflanze ?",
+        "propositions": [
+          "Stamm",
+          "Kragen",
+          "Knolle",
+          "Registrierung"
+        ],
+        "réponse": "Stamm",
+        "anecdote": "Bei Bäumen unterscheiden Botaniker häufig den Stamm von der Krone, die aus den Hauptästen und Zweigen besteht."
+      },
+      {
+        "id": 9,
+        "question": "Welches unterirdische Organ einer Pflanze dient der Befestigung am Boden ?",
+        "propositions": [
+          "Keim",
+          "Glühbirne",
+          "Stamm",
+          "Wurzel"
+        ],
+        "réponse": "Wurzel",
+        "anecdote": "Die Wurzeln können Anpassungen aufweisen, um die Entwicklung der Pflanze in einer bestimmten Umgebung zu erleichtern."
+      },
+      {
+        "id": 10,
+        "question": "Welche stabile Schere kann kleine Äste schneiden ?",
+        "propositions": [
+          "Gartenschere",
+          "Pflanzer",
+          "Vertikutierer",
+          "Ärmel"
+        ],
+        "réponse": "Gartenschere",
+        "anecdote": "Gartenscheren bestehen aus zwei beweglichen Griffen, die durch eine Achse verbunden sind und durch eine Klinge und eine Gegenklinge verlängert werden."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welches Pflanzengewebe bildet den größten Teil des Stammes von Gehölzen ?",
+        "propositions": [
+          "Wurzel",
+          "Saft",
+          "Blatt",
+          "Holz"
+        ],
+        "réponse": "Holz",
+        "anecdote": "Holz hat die Aufgabe, den Rohsaft von den Wurzeln zu den Blättern zu leiten und den Baum mechanisch zu stützen."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Garten wird unter einer weitgehend verglasten öffentlichen Metallkonstruktion gepflegt ?",
+        "propositions": [
+          "Wintergarten",
+          "Testgarten",
+          "Wilder Garten",
+          "Schwimmender Garten"
+        ],
+        "réponse": "Wintergarten",
+        "anecdote": "Ob beheizt oder nicht, es beherbergt das ganze Jahr über Zimmerpflanzen, ob exotisch oder nicht, oder Pflanzen, die die Kälte nicht vertragen."
+      },
+      {
+        "id": 13,
+        "question": "Welche Operation zielt darauf ab, eine Topfpflanze so zu verändern, dass sie ihre Wurzeln entwickelt ?",
+        "propositions": [
+          "Baumentfernung",
+          "Cordeau",
+          "Umtopfen",
+          "Pflanzmaschine"
+        ],
+        "réponse": "Umtopfen",
+        "anecdote": "Bei diesem gärtnerischen Eingriff ist es erforderlich, die Größe des neuen Topfes möglichst genau zu bestimmen und die passende Blumenerde zu verwenden."
+      },
+      {
+        "id": 14,
+        "question": "Welche Struktur enthält und schützt im Lebenszyklus einen Pflanzenembryo ?",
+        "propositions": [
+          "Rinde",
+          "Dorn",
+          "Broschüre",
+          "Samen"
+        ],
+        "réponse": "Samen",
+        "anecdote": "Der Samen ermöglicht es der Pflanze somit, den Bedingungen einer feindselig gewordenen Umgebung zu entkommen, während sie auf günstige Umstände wartet."
+      },
+      {
+        "id": 15,
+        "question": "Welche Art von Unternehmen ist auf die Produktion von Gehölzen spezialisiert ?",
+        "propositions": [
+          "Kräuterkunde",
+          "Höhle",
+          "Kindergarten",
+          "Baldachin"
+        ],
+        "réponse": "Kindergarten",
+        "anecdote": "Gärtnereien erhalten Pflanzen von Jungpflanzenproduzenten und kultivieren diese dann."
+      },
+      {
+        "id": 16,
+        "question": "Welches Organ ist bei Gefäßpflanzen auf die Photosynthese spezialisiert ?",
+        "propositions": [
+          "Rinde",
+          "Dorn",
+          "Blume",
+          "Blatt"
+        ],
+        "réponse": "Blatt",
+        "anecdote": "Ein Blatt besteht oft aus einer flachen, dünnen Luftspreite, dem Ast, der es ihm ermöglicht, eine große Oberfläche dem Licht auszusetzen."
+      },
+      {
+        "id": 17,
+        "question": "Welches Pflanzenorgan enthält in der Botanik einen oder mehrere Samen ?",
+        "propositions": [
+          "Blume",
+          "Obst",
+          "Drehen",
+          "Broschüre"
+        ],
+        "réponse": "Obst",
+        "anecdote": "Die Frucht folgt auf die Blüte durch Umwandlung des Stempels, wobei die Wand des Eierstocks die Fruchtwand der Frucht bildet und die Samenanlage den Samen ergibt."
+      },
+      {
+        "id": 18,
+        "question": "Welches Organ verwandelt sich bei Angiospermen nach der Befruchtung in Früchte ?",
+        "propositions": [
+          "Krone",
+          "Blume",
+          "Samen",
+          "Kelch"
+        ],
+        "réponse": "Blume",
+        "anecdote": "Die meisten Blüten sind Zwitter, das heißt, sie besitzen sowohl männliche als auch weibliche Fortpflanzungsorgane."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Beruf erfordert Know-how aus vielen Gewerken ?",
+        "propositions": [
+          "Rosenzüchter",
+          "Botaniker",
+          "Gärtner",
+          "Wächter"
+        ],
+        "réponse": "Gärtner",
+        "anecdote": "Fachkräfte müssen auf allen Ebenen vielseitig sein : öffentliche Arbeiten, Bauingenieurwesen, Architektur und Dekoration."
+      },
+      {
+        "id": 20,
+        "question": "Welches Insekt wird unter anderem zur Bestäubung von Nutzpflanzen gezüchtet ?",
+        "propositions": [
+          "Hummel",
+          "Hornisse",
+          "Biene",
+          "Wespe"
+        ],
+        "réponse": "Biene",
+        "anecdote": "Bienen können nach ihrem Lebensstil eingeteilt werden : heimisch oder wild, einzelgängerisch oder sozial."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wo lagern wir in der schlechten Jahreszeit im Container gepflanzte Zitrusfrüchte ?",
+        "propositions": [
+          "Trockner",
+          "Dachboden",
+          "Schalotte",
+          "Orangerie"
+        ],
+        "réponse": "Orangerie",
+        "anecdote": "In Italien, einem Land, das in der Renaissance die Mode eingeführt hat, nennt man es Limonaia, indem man die Arkaden, in denen sie aufbewahrt wurden, verglaste."
+      },
+      {
+        "id": 22,
+        "question": "Welcher bioenergetische Prozess nutzt Lichtenergie und Wasser ?",
+        "propositions": [
+          "Photosynthese",
+          "Radiosynthese",
+          "Mechanosynthese",
+          "Chemosynthese"
+        ],
+        "réponse": "Photosynthese",
+        "anecdote": "Dieser Prozess beginnt immer mit der Absorption von Lichtenergie durch Proteine, sogenannte Reaktionszentren."
+      },
+      {
+        "id": 23,
+        "question": "Was ist das wichtigste assimilatorische Pigment in photosynthetischen Pflanzen ?",
+        "propositions": [
+          "Bryophyt",
+          "Phykologie",
+          "Fruiticetum",
+          "Chlorophyll"
+        ],
+        "réponse": "Chlorophyll",
+        "anecdote": "Diese Pigmente in den Chloroplasten von Zellen sind an der Photosynthese beteiligt, um Lichtenergie einzufangen."
+      },
+      {
+        "id": 24,
+        "question": "Welche Öffnung ermöglicht den Gasaustausch zwischen einer Pflanze und der Umgebungsluft ?",
+        "propositions": [
+          "Arboretum",
+          "Phytotron",
+          "Stomata",
+          "Xylem"
+        ],
+        "réponse": "Stomata",
+        "anecdote": "Bei vollständig geöffneten Stomata beträgt die kumulierte Oberfläche der Ostiolen etwa 2 % der Blattoberfläche."
+      },
+      {
+        "id": 25,
+        "question": "Welche Wissenschaft untersucht speziell Pilze ?",
+        "propositions": [
+          "Osteologie",
+          "Toxikologie",
+          "Mykologie",
+          "Pomologie"
+        ],
+        "réponse": "Mykologie",
+        "anecdote": "Was allgemein als Pilz bezeichnet wird, ist in Wirklichkeit nur die vorübergehende und sichtbare Fruchtbildung eines langlebigen und diskreten Organismus."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Organismus bildet die Grundlage der Nahrungsketten im Brackwasser ?",
+        "propositions": [
+          "Algen",
+          "Vase",
+          "Schlick",
+          "Schilf"
+        ],
+        "réponse": "Algen",
+        "anecdote": "Algen wurden oft standardmäßig definiert, einfach im Gegensatz zu vielzelligen Land- oder Wasserpflanzen."
+      },
+      {
+        "id": 27,
+        "question": "Welche Operation bringt künstlich Wasser in große Gebiete ?",
+        "propositions": [
+          "Bewässerung",
+          "Düngung",
+          "Verdunstung",
+          "Abissage"
+        ],
+        "réponse": "Bewässerung",
+        "anecdote": "Es ist üblich, den Begriff Bewässerung für kleine Flächen zu verwenden, während der Begriff Bewässerung für große Flächen reserviert ist."
+      },
+      {
+        "id": 28,
+        "question": "Auf welches enthauptete Gehölz pflanzen wir ein Transplantat oder einen Steckling ein ?",
+        "propositions": [
+          "Trottel",
+          "Cordeau",
+          "Hochmütig",
+          "Wurzelstock"
+        ],
+        "réponse": "Wurzelstock",
+        "anecdote": "Je nach Fall kann es sich um einen Klon handeln, der aus Stecklingen stammt, oder um einen Sämling, der das Ergebnis einer spontanen Kreuzung sein kann."
+      },
+      {
+        "id": 29,
+        "question": "Welcher Prozess optimiert die Austauschflächen mit der äußeren Umgebung ?",
+        "propositions": [
+          "Knospe",
+          "Broschüre",
+          "Glühbirne",
+          "Verzweigung"
+        ],
+        "réponse": "Verzweigung",
+        "anecdote": "Die Aufteilung der Achsen in mehrere oberirdische und unterirdische Jungorgane trägt zur Architektur und zum Habitus der Pflanzen bei."
+      },
+      {
+        "id": 30,
+        "question": "Welche Gruppe besteht aus teilbaren undifferenzierten Pflanzenzellen ?",
+        "propositions": [
+          "Alpinum",
+          "Meristem",
+          "Phytotron",
+          "Gametophyt"
+        ],
+        "réponse": "Meristem",
+        "anecdote": "Meristeme bilden Gewebe wie leitfähiges Gewebe und manchmal ganze Organe wie Blätter."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué colección de plantas suele estar escurrida entre hojas de papel ?",
+        "propositions": [
+          "Más granulado",
+          "Jardinera",
+          "florero",
+          "Herbario"
+        ],
+        "réponse": "Herbario",
+        "anecdote": "El término herbario (herbario) designa también el establecimiento o institución que vela por la conservación de dicha colección."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué estructura translúcida semiabierta está destinada a la producción agrícola ?",
+        "propositions": [
+          "Secadora",
+          "invernadero",
+          "Granja",
+          "Granero"
+        ],
+        "réponse": "invernadero",
+        "anecdote": "El invernadero tiene como objetivo proteger los cultivos alimentarios o recreativos de los elementos climáticos, con el fin de mejorar la producción vegetal."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué parte de un jardín se plantan principalmente rosales ?",
+        "propositions": [
+          "Jardín de rosas",
+          "Alpino",
+          "Enlatado",
+          "invernadero"
+        ],
+        "réponse": "Jardín de rosas",
+        "anecdote": "Para algunos, conviene distinguir la rosaleda, como colección botánica, de la rosaleda, con vocación ornamental."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué medio de cultivo natural se elabora a partir de tierra vegetal enriquecida ?",
+        "propositions": [
+          "Arcilla",
+          "Arena",
+          "Tierra para macetas",
+          "Turba"
+        ],
+        "réponse": "Tierra para macetas",
+        "anecdote": "Este término, inicialmente sinónimo de humus, tiende a no designar únicamente los complementos hortícolas añadidos al suelo de cultivo."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué elemento móvil masculino producido por la flor puede provocarnos alergias ?",
+        "propositions": [
+          "Espora",
+          "Estopilla",
+          "Pistilo",
+          "polen"
+        ],
+        "réponse": "polen",
+        "anecdote": "Se trata de granos diminutos, de forma más o menos ovoide, inicialmente contenidos en la antera al final de los estambres."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuánta tierra se asigna al cultivo de árboles frutales ?",
+        "propositions": [
+          "Charmille",
+          "Huerto",
+          "Guardería",
+          "Herbario"
+        ],
+        "réponse": "Huerto",
+        "anecdote": "Los hay de diferentes tipos : huertos de invernadero, huertos de pradera, huertos comerciales y huertas."
+      },
+      {
+        "id": 7,
+        "question": "¿Cómo se llaman las semillas seleccionadas para la siembra ?",
+        "propositions": [
+          "Cereales",
+          "Registros",
+          "Brotes",
+          "Semillas"
+        ],
+        "réponse": "Semillas",
+        "anecdote": "Desde hace 10.000 años, los primeros agricultores separan las semillas de las plantas que mejor cumplen los criterios agronómicos."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué eje vegetativo polarizado extiende la raíz y sostiene las hojas de una planta ?",
+        "propositions": [
+          "Tallo",
+          "Cuello",
+          "Registro",
+          "Tubérculo"
+        ],
+        "réponse": "Tallo",
+        "anecdote": "En los árboles, los botánicos suelen distinguir el tronco de la copa, formada por las ramas principales y las ramitas."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué órgano subterráneo de una planta sirve para fijarla al suelo ?",
+        "propositions": [
+          "Bombilla",
+          "Raíz",
+          "Tallo",
+          "Germen"
+        ],
+        "réponse": "Raíz",
+        "anecdote": "Las raíces pueden presentar adaptaciones para facilitar el desarrollo de la planta en un ambiente particular."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué tipo de tijeras resistentes pueden cortar ramas pequeñas ?",
+        "propositions": [
+          "Escarificador",
+          "Jardinera",
+          "Manga",
+          "Tijeras de podar"
+        ],
+        "réponse": "Tijeras de podar",
+        "anecdote": "Las tijeras de podar están formadas por dos mangos móviles unidos por un eje y prolongados por una hoja y una contrahoja."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué tejido vegetal forma la mayor parte del tronco de las plantas leñosas ?",
+        "propositions": [
+          "Raíz",
+          "Hoja",
+          "savia",
+          "Madera"
+        ],
+        "réponse": "Madera",
+        "anecdote": "La madera desempeña el papel de conducir la savia cruda desde las raíces a las hojas y el papel de soporte mecánico del árbol."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué jardín se cultiva bajo una estructura metálica pública en gran parte acristalada ?",
+        "propositions": [
+          "Jardín de invierno",
+          "Jardín flotante",
+          "Jardín salvaje",
+          "Jardín de prueba"
+        ],
+        "réponse": "Jardín de invierno",
+        "anecdote": "Climatizada o no, alberga durante todo el año plantas de interior, exóticas o no, o plantas que no soportan el frío."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué operación pretende cambiar una planta en maceta para que desarrolle sus raíces ?",
+        "propositions": [
+          "Trasplante",
+          "Trasplantadora",
+          "Cordeau",
+          "Remoción de árboles"
+        ],
+        "réponse": "Trasplante",
+        "anecdote": "Esta operación hortícola requiere determinar con la mayor precisión posible el tamaño de la nueva maceta y utilizar la tierra para macetas adecuada."
+      },
+      {
+        "id": 14,
+        "question": "En el ciclo de vida, ¿qué estructura contiene y protege al embrión de una planta ?",
+        "propositions": [
+          "Folleto",
+          "espina",
+          "corteza",
+          "Semilla"
+        ],
+        "réponse": "Semilla",
+        "anecdote": "La semilla permite así a la planta escapar de las condiciones de un entorno que se ha vuelto hostil a la espera de circunstancias favorables."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué tipo de empresa se especializa en la producción de plantas leñosas ?",
+        "propositions": [
+          "Guarida",
+          "Herboristería",
+          "Guardería",
+          "dosel"
+        ],
+        "réponse": "Guardería",
+        "anecdote": "Los productores de viveros reciben plantas de los productores de plantas jóvenes y luego las ponen en cultivo."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué órgano está especializado en la fotosíntesis en las plantas vasculares ?",
+        "propositions": [
+          "corteza",
+          "espina",
+          "Flor",
+          "Hoja"
+        ],
+        "réponse": "Hoja",
+        "anecdote": "Una hoja suele estar formada por una lámina aérea delgada y plana, la rama, que le permite exponer una gran superficie a la luz."
+      },
+      {
+        "id": 17,
+        "question": "En botánica, ¿qué órgano vegetal contiene una o más semillas ?",
+        "propositions": [
+          "Fruta",
+          "Girar",
+          "Flor",
+          "Folleto"
+        ],
+        "réponse": "Fruta",
+        "anecdote": "El fruto sucede a la flor por transformación del pistilo, la pared del ovario forma el pericarpio del fruto y el óvulo da la semilla."
+      },
+      {
+        "id": 18,
+        "question": "En las angiospermas, ¿qué órgano una vez fecundado se transforma en fruto ?",
+        "propositions": [
+          "Flor",
+          "Corola",
+          "Semilla",
+          "Cáliz"
+        ],
+        "réponse": "Flor",
+        "anecdote": "La mayoría de las flores son hermafroditas, lo que significa que tienen órganos reproductores masculinos y femeninos."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué profesión requiere conocimientos de muchos oficios ?",
+        "propositions": [
+          "Guardián",
+          "Botánico",
+          "Jardinero",
+          "Productor de rosas"
+        ],
+        "réponse": "Jardinero",
+        "anecdote": "Los profesionales deben ser polivalentes a todos los niveles : obra pública, ingeniería civil, arquitectura y decoración."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué insecto se cría, entre otras cosas, para la polinización de cultivos ?",
+        "propositions": [
+          "Avispa",
+          "Avispón",
+          "Abejorro",
+          "Abeja"
+        ],
+        "réponse": "Abeja",
+        "anecdote": "Las abejas se pueden clasificar según su estilo de vida : domésticas o salvajes, solitarias o sociales."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Dónde almacenamos los cítricos plantados en contenedores durante la mala temporada ?",
+        "propositions": [
+          "Invernadero",
+          "Ático",
+          "Secadora",
+          "chalote"
+        ],
+        "réponse": "Invernadero",
+        "anecdote": "En Italia, país que puso de moda durante el Renacimiento, vidriando las arcadas donde se almacenaban, se llama limonaia."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué proceso bioenergético utiliza energía luminosa y agua ?",
+        "propositions": [
+          "Fotosíntesis",
+          "Quimiosíntesis",
+          "Mecanosíntesis",
+          "Radiosíntesis"
+        ],
+        "réponse": "Fotosíntesis",
+        "anecdote": "Este proceso siempre comienza con la absorción de la energía luminosa por unas proteínas llamadas centros de reacción."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál es el principal pigmento asimilador en las plantas fotosintéticas ?",
+        "propositions": [
+          "Fruiticeto",
+          "Clorofila",
+          "Briófito",
+          "Ficología"
+        ],
+        "réponse": "Clorofila",
+        "anecdote": "Estos pigmentos en los cloroplastos de las células participan en la fotosíntesis para capturar la energía luminosa."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué orificio permite los intercambios de gases entre una planta y el aire ambiente ?",
+        "propositions": [
+          "Estomas",
+          "Fitotrón",
+          "Arboreto",
+          "xilema"
+        ],
+        "réponse": "Estomas",
+        "anecdote": "Cuando los estomas están completamente abiertos, la superficie acumulada de los ostiolos representa alrededor del 2% de la superficie foliar."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué ciencia estudia específicamente los hongos ?",
+        "propositions": [
+          "Pomología",
+          "Micología",
+          "Osteología",
+          "Toxicología"
+        ],
+        "réponse": "Micología",
+        "anecdote": "Lo que comúnmente se llama hongo no es en realidad más que la fructificación temporal y visible de un organismo duradero y discreto."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué organismo forma la base de las cadenas alimentarias de agua salobre ?",
+        "propositions": [
+          "Florero",
+          "caña",
+          "Algas",
+          "Limo"
+        ],
+        "réponse": "Algas",
+        "anecdote": "Las algas a menudo se han definido por defecto, simplemente en oposición a las plantas multicelulares terrestres o acuáticas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué operación lleva agua artificialmente a grandes superficies ?",
+        "propositions": [
+          "Riego",
+          "Evaporación",
+          "Fertilización",
+          "Abissage"
+        ],
+        "réponse": "Riego",
+        "anecdote": "Es habitual utilizar el término riego para superficies pequeñas, reservando el término riego para superficies grandes."
+      },
+      {
+        "id": 28,
+        "question": "¿Sobre qué planta leñosa decapitada implantamos un injerto o un esqueje ?",
+        "propositions": [
+          "Tonto",
+          "Portainjerto",
+          "Cordeau",
+          "Altivo"
+        ],
+        "réponse": "Portainjerto",
+        "anecdote": "Según el caso, puede tratarse de un clon, procedente de esquejes, o de una plántula que puede ser fruto de un cruce espontáneo."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué proceso optimiza las superficies de intercambio con el medio externo ?",
+        "propositions": [
+          "Folleto",
+          "Ramificación",
+          "Brote",
+          "Bombilla"
+        ],
+        "réponse": "Ramificación",
+        "anecdote": "La división de los ejes en varios órganos juveniles aéreos y subterráneos participa en la arquitectura y hábito de las plantas."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué grupo está formado por células vegetales divisibles e indiferenciadas ?",
+        "propositions": [
+          "Fitotrón",
+          "Meristemo",
+          "Gametofito",
+          "Alpino"
+        ],
+        "réponse": "Meristemo",
+        "anecdote": "Los meristemas forman tejidos como el tejido conductor y, a veces, órganos enteros como las hojas."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale collezione di piante viene spesso schiacciata tra i fogli di carta ?",
+        "propositions": [
+          "Fleurier",
+          "Erbario",
+          "Fioriera",
+          "Più granuloso"
+        ],
+        "réponse": "Erbario",
+        "anecdote": "Il termine erbario (erbario) designa anche l'istituto o l'istituzione che assicura la conservazione di tale collezione."
+      },
+      {
+        "id": 2,
+        "question": "Quale struttura traslucida semiaperta è destinata alla produzione agricola ?",
+        "propositions": [
+          "Asciugatrice",
+          "Fattoria",
+          "Fienile",
+          "Serra"
+        ],
+        "réponse": "Serra",
+        "anecdote": "La serra ha lo scopo di proteggere le colture alimentari o ricreative dagli elementi climatici, al fine di migliorare la produzione vegetale."
+      },
+      {
+        "id": 3,
+        "question": "In quale parte del giardino sono piantati principalmente cespugli di rose ?",
+        "propositions": [
+          "Alpinum",
+          "Serra",
+          "Inscatolamento",
+          "Roseto"
+        ],
+        "réponse": "Roseto",
+        "anecdote": "Per alcuni è opportuno distinguere il roseto, in quanto collezione botanica, dal roseto, a vocazione ornamentale."
+      },
+      {
+        "id": 4,
+        "question": "Quale mezzo di coltura naturale è costituito dal terriccio arricchito ?",
+        "propositions": [
+          "Torba",
+          "Argilla",
+          "Terriccio",
+          "Sabbia"
+        ],
+        "réponse": "Terriccio",
+        "anecdote": "Questo termine, inizialmente sinonimo di humus, tende a non designare più soltanto gli integratori orticoli aggiunti al terreno colturale."
+      },
+      {
+        "id": 5,
+        "question": "Quale elemento mobile maschile prodotto dal fiore può provocarci allergie ?",
+        "propositions": [
+          "Polline",
+          "Pistillo",
+          "Spore",
+          "Garza"
+        ],
+        "réponse": "Polline",
+        "anecdote": "Si tratta di minuscoli granelli, di forma più o meno ovoidale, inizialmente contenuti nell'antera all'estremità degli stami."
+      },
+      {
+        "id": 6,
+        "question": "Quanta terra è destinata alla coltivazione di alberi da frutto ?",
+        "propositions": [
+          "Frutteto",
+          "Asilo nido",
+          "Charmille",
+          "Erbario"
+        ],
+        "réponse": "Frutteto",
+        "anecdote": "Ne esistono diverse tipologie : frutteti d'inverno, frutteti su prato, frutteti commerciali e orti."
+      },
+      {
+        "id": 7,
+        "question": "Come si chiamano i semi selezionati per la semina ?",
+        "propositions": [
+          "Semi",
+          "Cereali",
+          "Registri",
+          "Germogli"
+        ],
+        "réponse": "Semi",
+        "anecdote": "Da 10.000 anni i primi agricoltori separano i semi delle piante che meglio soddisfano i criteri agronomici."
+      },
+      {
+        "id": 8,
+        "question": "Quale asse vegetativo polarizzato estende la radice e trasporta le foglie di una pianta ?",
+        "propositions": [
+          "Registro",
+          "Gambo",
+          "Collare",
+          "Tubero"
+        ],
+        "réponse": "Gambo",
+        "anecdote": "Per quanto riguarda gli alberi, i botanici spesso distinguono il tronco dalla chioma, costituita dai rami principali e dai rametti."
+      },
+      {
+        "id": 9,
+        "question": "Quale organo sotterraneo di una pianta serve per fissarla al terreno ?",
+        "propositions": [
+          "Germe",
+          "Radice",
+          "Lampadina",
+          "Gambo"
+        ],
+        "réponse": "Radice",
+        "anecdote": "Le radici possono presentare adattamenti per facilitare lo sviluppo della pianta in un particolare ambiente."
+      },
+      {
+        "id": 10,
+        "question": "Che tipo di robuste forbici possono tagliare piccoli rami ?",
+        "propositions": [
+          "Cesoie",
+          "Scarificatore",
+          "Manica",
+          "Fioriera"
+        ],
+        "réponse": "Cesoie",
+        "anecdote": "Le cesoie sono costituite da due manici mobili collegati da un asse e prolungati da una lama e da una controlama."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale tessuto vegetale costituisce la maggior parte del tronco delle piante legnose ?",
+        "propositions": [
+          "Radice",
+          "Foglia",
+          "Legno",
+          "Linfa"
+        ],
+        "réponse": "Legno",
+        "anecdote": "Il legno svolge il ruolo di condurre la linfa grezza dalle radici alle foglie e il ruolo di supporto meccanico per l'albero."
+      },
+      {
+        "id": 12,
+        "question": "Quale giardino è coltivato sotto una struttura metallica pubblica in gran parte vetrata ?",
+        "propositions": [
+          "Giardino galleggiante",
+          "Giardino di prova",
+          "Giardino selvaggio",
+          "Giardino d'inverno"
+        ],
+        "réponse": "Giardino d'inverno",
+        "anecdote": "Riscaldata o meno, ospita tutto l'anno piante da interno, esotiche e non, o piante che temono il freddo."
+      },
+      {
+        "id": 13,
+        "question": "Quale operazione ha lo scopo di modificare una pianta in vaso affinché sviluppi le sue radici ?",
+        "propositions": [
+          "Rimozione alberi",
+          "Rinvaso",
+          "Trapiantatrice",
+          "Cordeau"
+        ],
+        "réponse": "Rinvaso",
+        "anecdote": "Questa operazione orticola richiede di determinare la dimensione del nuovo vaso nel modo più accurato possibile e di utilizzare il terriccio appropriato."
+      },
+      {
+        "id": 14,
+        "question": "Nel ciclo vitale, quale struttura contiene e protegge un embrione vegetale ?",
+        "propositions": [
+          "Seme",
+          "Corteccia",
+          "Opuscolo",
+          "Spina"
+        ],
+        "réponse": "Seme",
+        "anecdote": "Il seme permette così alla pianta di sfuggire alle condizioni di un ambiente divenuto ostile in attesa di circostanze favorevoli."
+      },
+      {
+        "id": 15,
+        "question": "Che tipo di azienda è specializzata nella produzione di piante legnose ?",
+        "propositions": [
+          "Erboristeria",
+          "Tana",
+          "Asilo nido",
+          "Baldacchino"
+        ],
+        "réponse": "Asilo nido",
+        "anecdote": "I coltivatori di vivai ricevono piante dai produttori di piante giovani e poi le mettono in coltivazione."
+      },
+      {
+        "id": 16,
+        "question": "Quale organo è specializzato per la fotosintesi nelle piante vascolari ?",
+        "propositions": [
+          "Fiore",
+          "Spina",
+          "Foglia",
+          "Corteccia"
+        ],
+        "réponse": "Foglia",
+        "anecdote": "Una foglia è spesso costituita da una lamina aerea piatta e sottile, il lembo, che le permette di esporre alla luce un'ampia superficie."
+      },
+      {
+        "id": 17,
+        "question": "In botanica, quale organo vegetale contiene uno o più semi ?",
+        "propositions": [
+          "Girare",
+          "Fiore",
+          "Opuscolo",
+          "Frutta"
+        ],
+        "réponse": "Frutta",
+        "anecdote": "Il frutto succede al fiore per trasformazione del pistillo, della parete dell'ovario che forma il pericarpo del frutto e dell'ovulo che dà il seme."
+      },
+      {
+        "id": 18,
+        "question": "Nelle angiosperme quale organo, una volta fecondato, si trasforma in frutto ?",
+        "propositions": [
+          "Seme",
+          "Calice",
+          "Fiore",
+          "Corolla"
+        ],
+        "réponse": "Fiore",
+        "anecdote": "La maggior parte dei fiori sono ermafroditi, nel senso che hanno organi riproduttivi sia maschili che femminili."
+      },
+      {
+        "id": 19,
+        "question": "Quale professione richiede il know-how di molti mestieri ?",
+        "propositions": [
+          "Giardiniere",
+          "Botanico",
+          "Coltivatore di rose",
+          "Guardiano"
+        ],
+        "réponse": "Giardiniere",
+        "anecdote": "I professionisti devono essere versatili a tutti i livelli : lavori pubblici, ingegneria civile, architettura e decorazione."
+      },
+      {
+        "id": 20,
+        "question": "Quale insetto viene, tra le altre cose, allevato per l'impollinazione delle colture ?",
+        "propositions": [
+          "Vespa",
+          "Calabrone",
+          "Calabrone",
+          "Ape"
+        ],
+        "réponse": "Ape",
+        "anecdote": "Le api possono essere classificate in base al loro stile di vita : domestiche o selvatiche, solitarie o sociali."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Dove conserviamo gli agrumi piantati in contenitori durante la brutta stagione ?",
+        "propositions": [
+          "Asciugatrice",
+          "Soffitta",
+          "Scalogno",
+          "Orangerie"
+        ],
+        "réponse": "Orangerie",
+        "anecdote": "In Italia, paese che ne lanciò la moda durante il Rinascimento, vetrificando i portici dove venivano conservati, si chiama limonaia."
+      },
+      {
+        "id": 22,
+        "question": "Quale processo bioenergetico utilizza l'energia della luce e dell'acqua ?",
+        "propositions": [
+          "Meccasintesi",
+          "Chemiosintesi",
+          "Radiosintesi",
+          "Fotosintesi"
+        ],
+        "réponse": "Fotosintesi",
+        "anecdote": "Questo processo inizia sempre con l'assorbimento dell'energia luminosa da parte di proteine chiamate centri di reazione."
+      },
+      {
+        "id": 23,
+        "question": "Qual è il principale pigmento assimilatore nelle piante fotosintetiche ?",
+        "propositions": [
+          "Briofita",
+          "Clorofilla",
+          "Ficologia",
+          "Fruiticetum"
+        ],
+        "réponse": "Clorofilla",
+        "anecdote": "Questi pigmenti nei cloroplasti delle cellule sono coinvolti nella fotosintesi per catturare l'energia luminosa."
+      },
+      {
+        "id": 24,
+        "question": "Quale orifizio consente gli scambi di gas tra una pianta e l'aria ambiente ?",
+        "propositions": [
+          "Xilema",
+          "Arboreto",
+          "Fitotrone",
+          "Stomi"
+        ],
+        "réponse": "Stomi",
+        "anecdote": "Quando gli stomi sono completamente aperti, la superficie cumulativa degli ostioli rappresenta circa il 2% della superficie fogliare."
+      },
+      {
+        "id": 25,
+        "question": "Quale scienza studia specificamente i funghi ?",
+        "propositions": [
+          "Pomologia",
+          "Tossicologia",
+          "Micologia",
+          "Osteologia"
+        ],
+        "réponse": "Micologia",
+        "anecdote": "Quello che comunemente viene chiamato fungo è in realtà solo la fruttificazione temporanea e visibile di un organismo durevole e discreto."
+      },
+      {
+        "id": 26,
+        "question": "Quale organismo costituisce la base della catena alimentare delle acque salmastre ?",
+        "propositions": [
+          "Limo",
+          "Vaso",
+          "Canna",
+          "Alghe"
+        ],
+        "réponse": "Alghe",
+        "anecdote": "Le alghe sono state spesso definite per impostazione predefinita, semplicemente in opposizione alle piante terrestri o acquatiche multicellulari."
+      },
+      {
+        "id": 27,
+        "question": "Quale operazione porta artificialmente l'acqua in vaste aree ?",
+        "propositions": [
+          "Abissaggio",
+          "Irrigazione",
+          "Evaporazione",
+          "Fecondazione"
+        ],
+        "réponse": "Irrigazione",
+        "anecdote": "È consuetudine utilizzare il termine irrigazione per le piccole aree, riservando il termine irrigazione alle grandi aree."
+      },
+      {
+        "id": 28,
+        "question": "Su quale pianta legnosa decapitata impiantiamo un innesto o una talea ?",
+        "propositions": [
+          "Ventosa",
+          "Cordeau",
+          "Altezzoso",
+          "Portinnesto"
+        ],
+        "réponse": "Portinnesto",
+        "anecdote": "A seconda dei casi può trattarsi di un clone, proveniente da talea, oppure da una piantina che può essere il risultato di un incrocio spontaneo."
+      },
+      {
+        "id": 29,
+        "question": "Quale processo ottimizza le superfici di scambio con l'ambiente esterno ?",
+        "propositions": [
+          "Lampadina",
+          "Opuscolo",
+          "Ramificazione",
+          "Germoglio"
+        ],
+        "réponse": "Ramificazione",
+        "anecdote": "La divisione degli assi in più organi giovanili aerei e sotterranei partecipa all'architettura e al portamento delle piante."
+      },
+      {
+        "id": 30,
+        "question": "Quale gruppo è costituito da cellule vegetali divisibili indifferenziate ?",
+        "propositions": [
+          "Fitotrone",
+          "Alpinum",
+          "Gametofito",
+          "Meristema"
+        ],
+        "réponse": "Meristema",
+        "anecdote": "I meristemi formano tessuti come il tessuto conduttivo e talvolta interi organi come le foglie."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke plantencollectie wordt vaak tussen vellen papier geperst ?",
+        "propositions": [
+          "Herbarium",
+          "Plantenbak",
+          "Korreliger",
+          "Fleurier"
+        ],
+        "réponse": "Herbarium",
+        "anecdote": "Met de term herbarium (herbarium) wordt tevens de instelling of instelling bedoeld die zorgdraagt voor het behoud van een dergelijke collectie."
+      },
+      {
+        "id": 2,
+        "question": "Welke doorschijnende halfopen structuur is bedoeld voor de landbouwproductie ?",
+        "propositions": [
+          "Droger",
+          "Kas",
+          "Schuur",
+          "Boerderij"
+        ],
+        "réponse": "Kas",
+        "anecdote": "De kas heeft tot doel voedsel- of vrijetijdsgewassen te beschermen tegen klimaatelementen, om de plantenproductie te verbeteren."
+      },
+      {
+        "id": 3,
+        "question": "In welk deel van een tuin worden voornamelijk rozenstruiken geplant ?",
+        "propositions": [
+          "Inblikken",
+          "Alpinum",
+          "Kas",
+          "Rozentuin"
+        ],
+        "réponse": "Rozentuin",
+        "anecdote": "Voor sommigen is het passend om de rozentuin, als botanische collectie, te onderscheiden van de rozentuin, met een decoratieve roeping."
+      },
+      {
+        "id": 4,
+        "question": "Welk natuurlijk groeimedium wordt gemaakt van verrijkte bovengrond ?",
+        "propositions": [
+          "Turf",
+          "Klei",
+          "Zand",
+          "Potgrond"
+        ],
+        "réponse": "Potgrond",
+        "anecdote": "Deze term, aanvankelijk synoniem met humus, heeft de neiging niet langer alleen tuinbouwsupplementen aan te duiden die aan de gewasbodem worden toegevoegd."
+      },
+      {
+        "id": 5,
+        "question": "Welk mannelijk mobiel element geproduceerd door de bloem kan ons allergieën bezorgen ?",
+        "propositions": [
+          "Stamper",
+          "Kaasdoek",
+          "Stuifmeel",
+          "Sporen"
+        ],
+        "réponse": "Stuifmeel",
+        "anecdote": "Dit zijn kleine korrels, min of meer eivormig van vorm, die aanvankelijk in de helmknop aan het uiteinde van de meeldraden zitten."
+      },
+      {
+        "id": 6,
+        "question": "Hoeveel land wordt toegewezen aan de teelt van fruitbomen ?",
+        "propositions": [
+          "Kinderkamer",
+          "Charmille",
+          "Boomgaard",
+          "Herbarium"
+        ],
+        "réponse": "Boomgaard",
+        "anecdote": "Er zijn verschillende soorten : serreboomgaarden, weideboomgaarden, bedrijfsboomgaarden en moestuinen."
+      },
+      {
+        "id": 7,
+        "question": "Hoe worden zaden genoemd die zijn geselecteerd voor zaaien ?",
+        "propositions": [
+          "Zaden",
+          "Granen",
+          "Registers",
+          "Spruiten"
+        ],
+        "réponse": "Zaden",
+        "anecdote": "Al 10.000 jaar lang scheiden de eerste boeren de zaden van planten die het beste aan agronomische criteria voldoen."
+      },
+      {
+        "id": 8,
+        "question": "Welke gepolariseerde vegetatieve as verlengt de wortel en draagt de bladeren van een plant ?",
+        "propositions": [
+          "Register",
+          "Knol",
+          "Halsband",
+          "Stam"
+        ],
+        "réponse": "Stam",
+        "anecdote": "Wat bomen betreft, maken plantkundigen vaak onderscheid tussen de stam en de kroon, bestaande uit de hoofdtakken en twijgen."
+      },
+      {
+        "id": 9,
+        "question": "Welk ondergrondse orgaan van een plant zorgt ervoor dat deze zich aan de grond hecht ?",
+        "propositions": [
+          "Stam",
+          "Lamp",
+          "Kiem",
+          "Wortel"
+        ],
+        "réponse": "Wortel",
+        "anecdote": "De wortels kunnen aanpassingen bieden om de ontwikkeling van de plant in een bepaalde omgeving te vergemakkelijken."
+      },
+      {
+        "id": 10,
+        "question": "Welke stevige schaar kan kleine takken knippen ?",
+        "propositions": [
+          "Plantenbak",
+          "Snoeischaar",
+          "Verticuteermachine",
+          "Mouw"
+        ],
+        "réponse": "Snoeischaar",
+        "anecdote": "Snoeischaren bestaan uit twee mobiele handgrepen, verbonden door een as en verlengd door een mes en een tegenmes."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk plantenweefsel vormt het grootste deel van de stam van houtige planten ?",
+        "propositions": [
+          "Wortel",
+          "Hout",
+          "Blad",
+          "Sap"
+        ],
+        "réponse": "Hout",
+        "anecdote": "Hout speelt de rol bij het geleiden van ruw sap van de wortels naar de bladeren, en de rol van mechanische ondersteuning voor de boom."
+      },
+      {
+        "id": 12,
+        "question": "Welke tuin wordt aangelegd onder een grotendeels glazen openbare metalen constructie ?",
+        "propositions": [
+          "Wintertuin",
+          "Wilde tuin",
+          "Proeftuin",
+          "Drijvende tuin"
+        ],
+        "réponse": "Wintertuin",
+        "anecdote": "Verwarmd of niet, het herbergt het hele jaar door kamerplanten, exotisch of niet, of planten die niet tegen de kou kunnen."
+      },
+      {
+        "id": 13,
+        "question": "Welke operatie heeft tot doel een potplant te veranderen zodat hij zijn wortels kan ontwikkelen ?",
+        "propositions": [
+          "Transplantator",
+          "Verpotten",
+          "Boom verwijderen",
+          "Cordeau"
+        ],
+        "réponse": "Verpotten",
+        "anecdote": "Deze tuinbouwoperatie vereist het zo nauwkeurig mogelijk bepalen van de maat van de nieuwe pot en het gebruik van de juiste potgrond."
+      },
+      {
+        "id": 14,
+        "question": "Welke structuur bevat en beschermt een plantenembryo tijdens de levenscyclus ?",
+        "propositions": [
+          "Folder",
+          "Schors",
+          "Zaad",
+          "Doorn"
+        ],
+        "réponse": "Zaad",
+        "anecdote": "Het zaad zorgt er dus voor dat de plant kan ontsnappen aan de omstandigheden van een omgeving die vijandig is geworden in afwachting van gunstige omstandigheden."
+      },
+      {
+        "id": 15,
+        "question": "Welk type bedrijf is gespecialiseerd in de productie van houtachtige planten ?",
+        "propositions": [
+          "Kruidengeneeskunde",
+          "Kinderkamer",
+          "Luifel",
+          "Den"
+        ],
+        "réponse": "Kinderkamer",
+        "anecdote": "Kwekerijtelers ontvangen planten van producenten van jonge planten en zetten deze vervolgens in de teelt."
+      },
+      {
+        "id": 16,
+        "question": "Welk orgaan is gespecialiseerd voor fotosynthese in vaatplanten ?",
+        "propositions": [
+          "Doorn",
+          "Blad",
+          "Schors",
+          "Bloem"
+        ],
+        "réponse": "Blad",
+        "anecdote": "Een blad bestaat vaak uit een plat, dun luchtblad, de ledemaat, waardoor het een groot oppervlak aan licht kan blootstellen."
+      },
+      {
+        "id": 17,
+        "question": "Welk plantenorgaan bevat in de plantkunde een of meer zaden ?",
+        "propositions": [
+          "Vruchten",
+          "Folder",
+          "Draai",
+          "Bloem"
+        ],
+        "réponse": "Vruchten",
+        "anecdote": "De vrucht volgt de bloem op door transformatie van de stamper, waarbij de wand van de eierstok het vruchtwand van de vrucht vormt en de eicel die het zaad geeft."
+      },
+      {
+        "id": 18,
+        "question": "Welk orgaan bij angiospermen verandert, zodra het bevrucht is, in fruit ?",
+        "propositions": [
+          "Zaad",
+          "Bloem",
+          "Bloemkroon",
+          "Kelk"
+        ],
+        "réponse": "Bloem",
+        "anecdote": "De meeste bloemen zijn hermafrodiet, wat betekent dat ze zowel mannelijke als vrouwelijke voortplantingsorganen hebben."
+      },
+      {
+        "id": 19,
+        "question": "Welk beroep vereist kennis uit vele vakgebieden ?",
+        "propositions": [
+          "Botanicus",
+          "Rozenkweker",
+          "Tuinman",
+          "Bewaker"
+        ],
+        "réponse": "Tuinman",
+        "anecdote": "Professionals moeten veelzijdig zijn op alle niveaus : openbare werken, civiele techniek, architectuur en decoratie."
+      },
+      {
+        "id": 20,
+        "question": "Welk insect wordt onder andere gekweekt voor de bestuiving van gewassen ?",
+        "propositions": [
+          "Bij",
+          "Horzel",
+          "Wesp",
+          "Hommel"
+        ],
+        "réponse": "Bij",
+        "anecdote": "Bijen kunnen worden ingedeeld op basis van hun levensstijl : gedomesticeerd of wild, solitair of sociaal."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Waar bewaren we citrusvruchten die tijdens het slechte seizoen in containers zijn geplant ?",
+        "propositions": [
+          "Oranjerie",
+          "Zolder",
+          "Sjalot",
+          "Droger"
+        ],
+        "réponse": "Oranjerie",
+        "anecdote": "In Italië, een land dat tijdens de Renaissance de mode ervoor lanceerde, door de arcades waar ze waren opgeslagen te beglazing, wordt het limonaia genoemd."
+      },
+      {
+        "id": 22,
+        "question": "Welk bio-energetisch proces maakt gebruik van lichtenergie en water ?",
+        "propositions": [
+          "Fotosynthese",
+          "Mechanosynthese",
+          "Chemosynthese",
+          "Radiosynthese"
+        ],
+        "réponse": "Fotosynthese",
+        "anecdote": "Dit proces begint altijd met de absorptie van lichtenergie door eiwitten die reactiecentra worden genoemd."
+      },
+      {
+        "id": 23,
+        "question": "Wat is het belangrijkste assimilerende pigment in fotosynthetische planten ?",
+        "propositions": [
+          "Fruiticetum",
+          "Fycologie",
+          "Bryofiet",
+          "Chlorofyl"
+        ],
+        "réponse": "Chlorofyl",
+        "anecdote": "Deze pigmenten in de chloroplasten van cellen zijn betrokken bij fotosynthese om lichtenergie op te vangen."
+      },
+      {
+        "id": 24,
+        "question": "Welke opening maakt gasuitwisseling mogelijk tussen een plant en de omgevingslucht ?",
+        "propositions": [
+          "Xyleem",
+          "Arboretum",
+          "Huidmondjes",
+          "Fytotron"
+        ],
+        "réponse": "Huidmondjes",
+        "anecdote": "Wanneer de huidmondjes volledig open zijn, vertegenwoordigt het cumulatieve oppervlak van de ostiolen ongeveer 2% van het bladoppervlak."
+      },
+      {
+        "id": 25,
+        "question": "Welke wetenschap bestudeert specifiek paddenstoelen ?",
+        "propositions": [
+          "Osteologie",
+          "Pomologie",
+          "Toxicologie",
+          "Mycologie"
+        ],
+        "réponse": "Mycologie",
+        "anecdote": "Wat gewoonlijk een paddenstoel wordt genoemd, is in feite slechts de tijdelijke en zichtbare vruchtzetting van een duurzaam en discreet organisme."
+      },
+      {
+        "id": 26,
+        "question": "Welk organisme vormt de basis van brakwatervoedselketens ?",
+        "propositions": [
+          "Slib",
+          "Riet",
+          "Algen",
+          "Vaas"
+        ],
+        "réponse": "Algen",
+        "anecdote": "Algen worden vaak standaard gedefinieerd, eenvoudigweg in tegenstelling tot meercellige land- of waterplanten."
+      },
+      {
+        "id": 27,
+        "question": "Welke operatie brengt kunstmatig water naar grote gebieden ?",
+        "propositions": [
+          "Verdamping",
+          "Abissage",
+          "Bemesting",
+          "Irrigatie"
+        ],
+        "réponse": "Irrigatie",
+        "anecdote": "Het is gebruikelijk om de term water geven te gebruiken voor kleine gebieden, terwijl de term irrigatie gereserveerd wordt voor grote gebieden."
+      },
+      {
+        "id": 28,
+        "question": "Op welke onthoofde houtachtige plant implanteren we een ent of een stek ?",
+        "propositions": [
+          "Hooghartig",
+          "Cordeau",
+          "Sukkel",
+          "Onderstam"
+        ],
+        "réponse": "Onderstam",
+        "anecdote": "Afhankelijk van het geval kan het een kloon zijn, afkomstig uit stekken, of uit een zaailing die het resultaat kan zijn van een spontane kruising."
+      },
+      {
+        "id": 29,
+        "question": "Welk proces optimaliseert de uitwisselingsoppervlakken met de externe omgeving ?",
+        "propositions": [
+          "Knop",
+          "Lamp",
+          "Folder",
+          "Vertakking"
+        ],
+        "réponse": "Vertakking",
+        "anecdote": "De verdeling van de assen in verschillende lucht- en ondergrondse jeugdorganen neemt deel aan de architectuur en gewoonte van planten."
+      },
+      {
+        "id": 30,
+        "question": "Welke groep bestaat uit deelbare, ongedifferentieerde plantencellen ?",
+        "propositions": [
+          "Meristeem",
+          "Alpinum",
+          "Fytotron",
+          "Gametofyt"
+        ],
+        "réponse": "Meristeem",
+        "anecdote": "Meristemen vormen weefsels zoals geleidend weefsel, en soms hele organen zoals bladeren."
+      }
+    ]
+    }
+  }
+}

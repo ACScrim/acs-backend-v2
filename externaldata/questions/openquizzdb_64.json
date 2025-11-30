@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-07-21",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Informatique",
+      "nom": "OpenAI",
+      "slogan": "Le raisonnement artificiel"
+    },
+    "en": {
+      "catégorie": "Computer science",
+      "nom": "People: August 2015",
+      "slogan": "They made the news"
+    },
+    "es": {
+      "catégorie": "Ciencias de la Computación",
+      "nom": "Gente: agosto de 2015",
+      "slogan": "Fueron noticia"
+    },
+    "it": {
+      "catégorie": "Informatica",
+      "nom": "Persone: agosto 2015",
+      "slogan": "Hanno fatto notizia"
+    },
+    "de": {
+      "catégorie": "Informatik",
+      "nom": "Personen: August 2015",
+      "slogan": "Sie machten die Nachrichten"
+    },
+    "nl": {
+      "catégorie": "Computertechnologie",
+      "nom": "Mensen: Augustus 2015",
+      "slogan": "Ze haalden het nieuws"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "En quelle année fut fondée l'entreprise à but lucratif plafonné OpenAI ?",
+        "propositions": [
+          "2015",
+          "2017",
+          "2021",
+          "2019"
+        ],
+        "réponse": "2015",
+        "anecdote": "En mars 2019, l'association à but non lucratif est devenue une entreprise à but lucratif plafonné, en vue d'attirer des capitaux."
+      },
+      {
+        "id": 2,
+        "question": "Dans quelle ville des États-Unis se situe le siège social d'OpenAI ?",
+        "propositions": [
+          "San Francisco",
+          "Los Angeles",
+          "Miami",
+          "Chicago"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "L'objectif de cette société est de développer un raisonnement artificiel à visage humain qui profitera à toute l'humanité."
+      },
+      {
+        "id": 3,
+        "question": "Qui a quitté OpenAI en 2018 à la suite d'un conflit de direction ?",
+        "propositions": [
+          "Elon Musk",
+          "Sam Altman",
+          "Ilya Sutskever",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk voit dans l'absence de publication du code source une trahison de la mission que s'était fixée l'organisation à sa fondation."
+      },
+      {
+        "id": 4,
+        "question": "Quelle société a investi un milliard de dollars dans OpenAI en 2019 ?",
+        "propositions": [
+          "Microsoft",
+          "Google",
+          "Amazon",
+          "Facebook"
+        ],
+        "réponse": "Microsoft",
+        "anecdote": "En échange d'un partenariat privilégié avec OpenAI, lorsque la société commercialisera ses technologies d'intelligence artificielle."
+      },
+      {
+        "id": 5,
+        "question": "Quelle intelligence artificielle fut créée par OpenAI en 2019 ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-1",
+          "GPT-4",
+          "GPT-3"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Generative Pre-trained Transformer 2 (GPT-2) était alors capable d'écrire des articles de presse et des oeuvres de fiction."
+      },
+      {
+        "id": 6,
+        "question": "Qu'est capable de générer GPT-4 et pas GPT-2 ni GPT-3 ?",
+        "propositions": [
+          "Vidéos",
+          "Jeux VR",
+          "Hologrammes",
+          "Images"
+        ],
+        "réponse": "Images",
+        "anecdote": "GPT-4 peut aussi lire, analyser et générer jusqu'à 25 000 mots, et écrire dans tous les principaux langages de programmation."
+      },
+      {
+        "id": 7,
+        "question": "Quel outil d'OpenAI peut générer du texte de manière autonome ?",
+        "propositions": [
+          "ChatGPT",
+          "DALL-E",
+          "OpenChat",
+          "AlphaGo"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT peut aussi être utilisé pour améliorer les systèmes de dialogue en leur fournissant des réponses naturelles et pertinentes."
+      },
+      {
+        "id": 8,
+        "question": "Quel président de l'incubateur Y Combinator a cofondé OpenAI ?",
+        "propositions": [
+          "Greg Brockman",
+          "Sam Altman",
+          "Elon Musk",
+          "Ilya Sutskever"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "En 2005, à l'âge de 19 ans, il cofonde Loopt, une application mobile de réseautage social, qu'il revendra en 2011 pour 43 millions."
+      },
+      {
+        "id": 9,
+        "question": "Quelle est la signification de la lettre I dans le nom OpenAI ?",
+        "propositions": [
+          "Information",
+          "Integration",
+          "Impossible",
+          "Intelligence"
+        ],
+        "réponse": "Intelligence",
+        "anecdote": "Certains scientifiques ont mentionné que l'IA pourrait causer une explosion d'intelligence pouvant mener à l'extinction de l'humanité."
+      },
+      {
+        "id": 10,
+        "question": "Quel était le nom du premier modèle de langage développé par OpenAI ?",
+        "propositions": [
+          "GPT-1",
+          "GPT-2",
+          "GPT-3",
+          "GPT-4"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Bien que GPT-1 ait jeté les bases pour les modèles ultérieurs, c'est avec GPT-2 et GPT-3 que les avancées majeures ont été réalisées."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel était le montant du fond initial perçu par la société OpenAI ?",
+        "propositions": [
+          "1 million",
+          "1 milliard",
+          "100 millions",
+          "10 millions"
+        ],
+        "réponse": "100 millions",
+        "anecdote": "OpenAI chercha alors à s'associer à quelques startups utilisant le raisonnement artificiel pour avoir un effet transformateur."
+      },
+      {
+        "id": 12,
+        "question": "À quelle somme la société OpenAI était-elle valorisée en 2023 ?",
+        "propositions": [
+          "29 milliards",
+          "290 millions",
+          "29 millions",
+          "290 milliards"
+        ],
+        "réponse": "29 milliards",
+        "anecdote": "En janvier 2023, la société OpenAI, cofondée par Sam Altman, Elon Musk, Peter Thiel et Reid Hoffman comptait 375 employés."
+      },
+      {
+        "id": 13,
+        "question": "Quel modèle de langage a suscité un grand intérêt en 2021 ?",
+        "propositions": [
+          "OpenChat",
+          "BERT",
+          "DeepMind",
+          "GPT-3"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "Il a attiré une grande attention grâce à sa capacité à générer du texte cohérent, ainsi qu'à sa polyvalence dans diverses applications."
+      },
+      {
+        "id": 14,
+        "question": "Quel cofondateur a décrit l'IA comme la pire menace existentielle ?",
+        "propositions": [
+          "Elon Musk",
+          "Greg Brockman",
+          "Sam Altman",
+          "Ilya Sutskever"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Les fondateurs d'OpenAI prétendent qu'ils concentrent leurs recherches sur les moyens de rendre l'IA bénéfique pour l'humanité."
+      },
+      {
+        "id": 15,
+        "question": "Combien de paramètres environ furent intégrés à GPT-3 ?",
+        "propositions": [
+          "175 millions",
+          "17 milliards",
+          "5 milliards",
+          "175 milliards"
+        ],
+        "réponse": "175 milliards",
+        "anecdote": "Encore plus puissante que GPT-2, cette intelligence artificielle l'était dix fois plus que n'importe quel autre programme comparable."
+      },
+      {
+        "id": 16,
+        "question": "Quel générateur d'images fut développé par la société OpenAI ?",
+        "propositions": [
+          "ChatGPT",
+          "DALL-E",
+          "OpenSIm",
+          "Alex"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Dérivé du modèle GPT-3, le nom DALL-E est un mot-valise évoquant à la fois le robot de Pixar WALL-E et le peintre Salvador Dali."
+      },
+      {
+        "id": 17,
+        "question": "Quel modèle de langage est basé sur l'architecture GPT-3 ?",
+        "propositions": [
+          "GPT-5",
+          "GPT-3.5",
+          "GPT-2",
+          "GPT-6"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 peut répondre en langue naturelle à la question « pourquoi le pain est gonflé », en se basant sur l'article Wikipédia."
+      },
+      {
+        "id": 18,
+        "question": "Quel était le coût estimé de l'entraînement de GPT-3 d'OpenAI ?",
+        "propositions": [
+          "10 millions",
+          "100 millions",
+          "1 million",
+          "1 milliard"
+        ],
+        "réponse": "100 millions",
+        "anecdote": "Ces coûts d'entraînement montrent l'ampleur des investissements nécessaires pour développer des modèles de langage de pointe."
+      },
+      {
+        "id": 19,
+        "question": "Quel projet OpenAI a développé une technologie de modélisation 3D ?",
+        "propositions": [
+          "DALL-E",
+          "OpenGPT",
+          "DeepMind",
+          "Open3D"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Open3D vise à créer des modèles 3D détaillés et interactifs, ouvrant de nouvelles perspectives dans les domaines de la réalité virtuelle."
+      },
+      {
+        "id": 20,
+        "question": "Quel jeu de stratégie a été utilisé par OpenAI pour ses agents d'IA ?",
+        "propositions": [
+          "Chess",
+          "Poker",
+          "Monopoly",
+          "Fortnite"
+        ],
+        "réponse": "Chess",
+        "anecdote": "Grâce au renforcement, OpenAI a développé des programmes capables de rivaliser avec des joueurs d'échecs expérimentés."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel célèbre auteur de science-fiction a été consultant pour OpenAI ?",
+        "propositions": [
+          "Arthur C. Clarke",
+          "Isaac Asimov",
+          "Philip K. Dick",
+          "Ray Bradbury"
+        ],
+        "réponse": "Isaac Asimov",
+        "anecdote": "L'auteur Isaac Asimov est connu pour ses idées sur l'intelligence artificielle et ses réflexions sur les implications éthiques de l'IA."
+      },
+      {
+        "id": 22,
+        "question": "Quel outil OpenAI peut effectuer des traductions de vidéos ou de films ?",
+        "propositions": [
+          "Whisper",
+          "Windows",
+          "Weekend",
+          "Writer"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Sorti en 2022, Whisper est un modèle polyvalent et multilingue de reconnaissance vocale qui peut également identifier une langue."
+      },
+      {
+        "id": 23,
+        "question": "Quel langage permet d'interagir avec les modèles OpenAI ?",
+        "propositions": [
+          "C++",
+          "Java",
+          "Ruby",
+          "Python"
+        ],
+        "réponse": "Python",
+        "anecdote": "Le langage Python est placé sous une licence libre proche de la licence BSD et fonctionne sur la plupart des plateformes."
+      },
+      {
+        "id": 24,
+        "question": "Quelle interface API interagit avec les modèles de langage OpenAI ?",
+        "propositions": [
+          "OpenChat",
+          "LanguageLink",
+          "OpenAI Codex",
+          "GPTConnect"
+        ],
+        "réponse": "OpenAI Codex",
+        "anecdote": "Codex a été utilisé pour créer des éditeurs de code assistés par l'IA générant du code en fonction de descriptions en langage naturel."
+      },
+      {
+        "id": 25,
+        "question": "Quel modèle d'IA de chez OpenAI permet de jouer au jeu « Dota 2 » ?",
+        "propositions": [
+          "OpenAI Five",
+          "AlphaGo",
+          "OpenDota",
+          "AlphaStar"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five a affronté des joueurs professionnels lors d'un événement en ligne en 2018, remportant plusieurs parties."
+      },
+      {
+        "id": 26,
+        "question": "Quelle université a remporté un défi de codage pour tester GPT-3 ?",
+        "propositions": [
+          "Cambridge",
+          "Harvard",
+          "Stanford",
+          "Oxford"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "L'équipe de l'Université d'Oxford a remporté le défi en mettant en évidence la polyvalence du modèle dans le domaine du codage."
+      },
+      {
+        "id": 27,
+        "question": "Quel outil OpenAI de visualisation neuronale est sorti en 2020 ?",
+        "propositions": [
+          "Tubular",
+          "Microscope",
+          "Analyzer",
+          "Visioscope"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Sorti en 2020, Microscope est un outil utilisé pour mieux comprendre le fonctionnement interne des réseaux de neurones."
+      },
+      {
+        "id": 28,
+        "question": "Quel simulateur d'environnement peut entraîner des agents d'IA ?",
+        "propositions": [
+          "OpenSIm",
+          "Gym",
+          "AIEnv",
+          "DeepSim"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym, d'OpenAI, fournit une interface standardisée pour tester et développer des algorithmes d'apprentissage par renforcement."
+      },
+      {
+        "id": 29,
+        "question": "Quel est le nom du célèbre chatbot développé par OpenAI en 2016 ?",
+        "propositions": [
+          "Sophia",
+          "Alex",
+          "ChatGPT",
+          "Siri"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex a été développé par OpenAI comme un assistant conversationnel avancé, présenté dans diverses démonstrations."
+      },
+      {
+        "id": 30,
+        "question": "Quel projet d'OpenAI a réussi à résoudre le Rubik's Cube à une main ?",
+        "propositions": [
+          "Dactyl",
+          "RubikSolver",
+          "OpenRubik",
+          "OpenGPT"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "Ce projet innovant a permis de démontrer les capacités d'apprentissage et de manipulation de l'IA dans la robotique."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What year was the capped-profit company OpenAI founded ?",
+        "propositions": [
+          "2017",
+          "2021",
+          "2019",
+          "2015"
+        ],
+        "réponse": "2015",
+        "anecdote": "In March 2019, the nonprofit became a capped-profit venture, with a view to attracting capital."
+      },
+      {
+        "id": 2,
+        "question": "In which city in the United States is OpenAI's headquarters located ?",
+        "propositions": [
+          "Chicago",
+          "Los Angeles",
+          "Miami",
+          "San Fransisco"
+        ],
+        "réponse": "San Fransisco",
+        "anecdote": "The goal of this society is to develop artificial reasoning with a human face that will benefit all of humanity."
+      },
+      {
+        "id": 3,
+        "question": "Who left OpenAI in 2018 over a leadership dispute ?",
+        "propositions": [
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Sam Altman",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk sees in the absence of publication of the source code a betrayal of the mission that the organization had set itself at its foundation."
+      },
+      {
+        "id": 4,
+        "question": "Which company invested a billion dollars in OpenAI in 2019 ?",
+        "propositions": [
+          "Facebook",
+          "Amazon",
+          "Microsoft",
+          "Google"
+        ],
+        "réponse": "Microsoft",
+        "anecdote": "In exchange for a privileged partnership with OpenAI, when the company commercializes its artificial intelligence technologies."
+      },
+      {
+        "id": 5,
+        "question": "What artificial intelligence was created by OpenAI in 2019 ?",
+        "propositions": [
+          "GPT-1",
+          "GPT-2",
+          "GPT-3",
+          "GPT-4"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Generative Pre-trained Transformer 2 (GPT-2) was then able to write news articles and works of fiction."
+      },
+      {
+        "id": 6,
+        "question": "What is able to generate GPT-4 and not GPT-2 nor GPT-3 ?",
+        "propositions": [
+          "Pictures",
+          "VR games",
+          "Holograms",
+          "Videos"
+        ],
+        "réponse": "Pictures",
+        "anecdote": "GPT-4 can also read, parse and generate up to 25,000 words, and write in all major programming languages."
+      },
+      {
+        "id": 7,
+        "question": "Which OpenAI tool can autonomously generate text ?",
+        "propositions": [
+          "DALL-E",
+          "AlphaGo",
+          "OpenChat",
+          "ChatGPT"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT can also be used to improve chat systems by providing them with natural and relevant responses."
+      },
+      {
+        "id": 8,
+        "question": "Which Y Combinator incubator president co-founded OpenAI ?",
+        "propositions": [
+          "Greg Brockman",
+          "Ilya Sutskever",
+          "Sam Altman",
+          "Elon Musk"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "In 2005, at the age of 19, he co-founded Loopt, a mobile social networking application, which he sold in 2011 for 43 million."
+      },
+      {
+        "id": 9,
+        "question": "What is the meaning of the letter I in the OpenAI name ?",
+        "propositions": [
+          "Integration",
+          "Information",
+          "Intelligence",
+          "Unable"
+        ],
+        "réponse": "Intelligence",
+        "anecdote": "Some scientists have mentioned that AI could cause an explosion of intelligence that could lead to the extinction of mankind."
+      },
+      {
+        "id": 10,
+        "question": "What was the name of the first language model developed by OpenAI ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-1",
+          "GPT-4",
+          "GPT-3"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Although GPT-1 laid the foundation for later models, it was with GPT-2 and GPT-3 that major advancements were made."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What was the amount of the initial fund received by the OpenAI company ?",
+        "propositions": [
+          "10 million",
+          "100 million",
+          "1 billion",
+          "1 million"
+        ],
+        "réponse": "100 million",
+        "anecdote": "OpenAI then sought to partner with a few startups using artificial reasoning to have a transformative effect."
+      },
+      {
+        "id": 12,
+        "question": "How much was the OpenAI company valued at in 2023 ?",
+        "propositions": [
+          "290 billion",
+          "29 million",
+          "29 billion",
+          "290 million"
+        ],
+        "réponse": "29 billion",
+        "anecdote": "In January 2023, the OpenAI company, co-founded by Sam Altman, Elon Musk, Peter Thiel and Reid Hoffman had 375 employees."
+      },
+      {
+        "id": 13,
+        "question": "Which language model has generated great interest in 2021 ?",
+        "propositions": [
+          "BERT",
+          "OpenChat",
+          "GPT-3",
+          "DeepMind"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "It has attracted a lot of attention thanks to its ability to generate coherent text, as well as its versatility in various applications."
+      },
+      {
+        "id": 14,
+        "question": "Which co-founder described AI as the worst existential threat ?",
+        "propositions": [
+          "Sam Altman",
+          "Ilya Sutskever",
+          "Greg Brockman",
+          "Elon Musk"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "The founders of OpenAI claim that they focus their research on ways to make AI beneficial to humanity."
+      },
+      {
+        "id": 15,
+        "question": "Approximately how many parameters were integrated into GPT-3 ?",
+        "propositions": [
+          "17 billion",
+          "5 billion",
+          "175 million",
+          "175 billion"
+        ],
+        "réponse": "175 billion",
+        "anecdote": "Even more powerful than GPT-2, this artificial intelligence was ten times more powerful than any other comparable program."
+      },
+      {
+        "id": 16,
+        "question": "Which image generator was developed by the OpenAI company ?",
+        "propositions": [
+          "Alex",
+          "OpenSIm",
+          "ChatGPT",
+          "DALL-E"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Derived from the GPT-3 model, the name DALL-E is a portmanteau evoking both the Pixar robot WALL-E and the painter Salvador Dali."
+      },
+      {
+        "id": 17,
+        "question": "Which language model is based on the GPT-3 architecture ?",
+        "propositions": [
+          "GPT-3.5",
+          "GPT-5",
+          "GPT-2",
+          "GPT-6"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 can answer in natural language the question « why the bread is puffy », based on the Wikipedia article."
+      },
+      {
+        "id": 18,
+        "question": "What was the estimated cost of training OpenAI's GPT-3 ?",
+        "propositions": [
+          "1 billion",
+          "100 million",
+          "1 million",
+          "10 million"
+        ],
+        "réponse": "100 million",
+        "anecdote": "These training costs show the magnitude of the investment needed to develop state-of-the-art language models."
+      },
+      {
+        "id": 19,
+        "question": "Which OpenAI project developed 3D modeling technology ?",
+        "propositions": [
+          "DALL-E",
+          "DeepMind",
+          "OpenGPT",
+          "Open3D"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Open3D aims to create detailed and interactive 3D models, opening new perspectives in the fields of virtual reality."
+      },
+      {
+        "id": 20,
+        "question": "Which strategy game was used by OpenAI for its AI agents ?",
+        "propositions": [
+          "Fortnite",
+          "Poker",
+          "Monopoly",
+          "Chess"
+        ],
+        "réponse": "Chess",
+        "anecdote": "Thanks to reinforcement, OpenAI has developed programs that can compete with experienced chess players."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which famous science fiction author has been a consultant for OpenAI ?",
+        "propositions": [
+          "Philip K. Dick",
+          "Arthur C. Clarke",
+          "Issac Asimov",
+          "Ray Bradbury"
+        ],
+        "réponse": "Issac Asimov",
+        "anecdote": "Author Isaac Asimov is known for his ideas on artificial intelligence and his thoughts on the ethical implications of AI."
+      },
+      {
+        "id": 22,
+        "question": "Which OpenAI tool can perform video or movie translations ?",
+        "propositions": [
+          "Whisper",
+          "Alex",
+          "Dactyl",
+          "Gym"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Released in 2022, Whisper is a versatile, multilingual voice recognition model that can also identify a language."
+      },
+      {
+        "id": 23,
+        "question": "Which language allows to interact with OpenAI models ?",
+        "propositions": [
+          "Java",
+          "Python",
+          "Ruby",
+          "C++"
+        ],
+        "réponse": "Python",
+        "anecdote": "The Python language is placed under a free license close to the BSD license and works on most platforms."
+      },
+      {
+        "id": 24,
+        "question": "Which API interface interacts with OpenAI language models ?",
+        "propositions": [
+          "GPTConnect",
+          "OpenChat",
+          "LanguageLink",
+          "OpenAI Codex"
+        ],
+        "réponse": "OpenAI Codex",
+        "anecdote": "Codex has been used to create AI-assisted code editors that generate code based on natural language descriptions."
+      },
+      {
+        "id": 25,
+        "question": "Which AI model from OpenAI can play the game « Dota 2 » ?",
+        "propositions": [
+          "AlphaGo",
+          "OpenDota",
+          "AlphaStar",
+          "OpenAI Five"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five competed against professional gamers in an online event in 2018, winning several games."
+      },
+      {
+        "id": 26,
+        "question": "Which university won a coding challenge to test GPT-3 ?",
+        "propositions": [
+          "Oxford",
+          "Harvard",
+          "Cambridge",
+          "Stanford"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "The Oxford University team won the challenge by highlighting the model's versatility in the field of coding."
+      },
+      {
+        "id": 27,
+        "question": "Which OpenAI neural visualization tool came out in 2020 ?",
+        "propositions": [
+          "Analyzer",
+          "Microscope",
+          "Tubular",
+          "Visioscope"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Released in 2020, Microscope is a tool used to better understand the inner workings of neural networks."
+      },
+      {
+        "id": 28,
+        "question": "What environment simulator can train AI agents ?",
+        "propositions": [
+          "DeepSim",
+          "AIEnv",
+          "Gym",
+          "OpenSIm"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym, from OpenAI, provides a standardized interface for testing and developing reinforcement learning algorithms."
+      },
+      {
+        "id": 29,
+        "question": "What is the name of the famous chatbot developed by OpenAI in 2016 ?",
+        "propositions": [
+          "ChatGPT",
+          "Sophie",
+          "Alex",
+          "Siri"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex was developed by OpenAI as an advanced conversational assistant, featured in various demos."
+      },
+      {
+        "id": 30,
+        "question": "Which OpenAI project managed to solve the one-handed Rubik's Cube ?",
+        "propositions": [
+          "OpenGPT",
+          "RubikSolver",
+          "Dactyl",
+          "OpenRubik"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "This innovative project demonstrated the learning and manipulation capabilities of AI in robotics."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welchem Jahr wurde das gewinnorientierte Unternehmen OpenAI gegründet ?",
+        "propositions": [
+          "2015",
+          "2017",
+          "2021",
+          "2019"
+        ],
+        "réponse": "2015",
+        "anecdote": "Im März 2019 wurde die gemeinnützige Organisation in ein Unternehmen mit begrenztem Gewinn umgewandelt, um Kapital anzuziehen."
+      },
+      {
+        "id": 2,
+        "question": "In welcher Stadt in den Vereinigten Staaten befindet sich der Hauptsitz von OpenAI ?",
+        "propositions": [
+          "Chicago",
+          "Los Angeles",
+          "San Francisco",
+          "Miami"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "Das Ziel dieser Gesellschaft ist es, künstliches Denken mit menschlichem Antlitz zu entwickeln, das der gesamten Menschheit zugute kommt."
+      },
+      {
+        "id": 3,
+        "question": "Wer hat OpenAI 2018 aufgrund eines Führungsstreits verlassen ?",
+        "propositions": [
+          "Sam Altman",
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk sieht in der fehlenden Veröffentlichung des Quellcodes einen Verrat an der Mission, die sich die Organisation bei ihrer Gründung gesetzt hatte."
+      },
+      {
+        "id": 4,
+        "question": "Welches Unternehmen hat 2019 eine Milliarde Dollar in OpenAI investiert ?",
+        "propositions": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Facebook"
+        ],
+        "réponse": "Microsoft",
+        "anecdote": "Im Austausch für eine privilegierte Partnerschaft mit OpenAI, wenn das Unternehmen seine Technologien der künstlichen Intelligenz kommerzialisiert."
+      },
+      {
+        "id": 5,
+        "question": "Welche künstliche Intelligenz wurde 2019 von OpenAI geschaffen ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-4",
+          "GPT-1",
+          "GPT-3"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Der Generative Pre-trained Transformer 2 (GPT-2) war dann in der Lage, Nachrichtenartikel und Romane zu schreiben."
+      },
+      {
+        "id": 6,
+        "question": "Was kann GPT-4 generieren und nicht GPT-2 oder GPT-3 ?",
+        "propositions": [
+          "Bilder",
+          "VR-Spiele",
+          "Hologramme",
+          "Videos"
+        ],
+        "réponse": "Bilder",
+        "anecdote": "GPT-4 kann außerdem bis zu 25.000 Wörter lesen, analysieren und generieren und in allen wichtigen Programmiersprachen schreiben."
+      },
+      {
+        "id": 7,
+        "question": "Welches OpenAI-Tool kann autonom Text generieren ?",
+        "propositions": [
+          "AlphaGo",
+          "OpenChat",
+          "ChatGPT",
+          "DALL-E"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT kann auch zur Verbesserung von Chat-Systemen verwendet werden, indem ihnen natürliche und relevante Antworten bereitgestellt werden."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Präsident des Y-Combinator-Inkubators war Mitbegründer von OpenAI ?",
+        "propositions": [
+          "Elon Musk",
+          "Greg Brockman",
+          "Ilya Sutskever",
+          "Sam Altman"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "Im Jahr 2005, im Alter von 19 Jahren, war er Mitbegründer von Loopt, einer mobilen Social-Networking-Anwendung, die er 2011 für 43 Millionen verkaufte."
+      },
+      {
+        "id": 9,
+        "question": "Was bedeutet der Buchstabe I im OpenAI-Namen ?",
+        "propositions": [
+          "Integration",
+          "Nicht möglich",
+          "Intelligenz",
+          "Informationen"
+        ],
+        "réponse": "Intelligenz",
+        "anecdote": "Einige Wissenschaftler haben erwähnt, dass KI eine Explosion der Intelligenz auslösen könnte, die zum Aussterben der Menschheit führen könnte."
+      },
+      {
+        "id": 10,
+        "question": "Wie hieß das erste von OpenAI entwickelte Sprachmodell ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-4",
+          "GPT-1",
+          "GPT-3"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Obwohl GPT-1 den Grundstein für spätere Modelle legte, wurden mit GPT-2 und GPT-3 große Fortschritte erzielt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie hoch war der anfängliche Betrag, den das Unternehmen OpenAI erhalten hat ?",
+        "propositions": [
+          "1 Million",
+          "10 Millionen",
+          "100 Millionen",
+          "1 Milliarde"
+        ],
+        "réponse": "100 Millionen",
+        "anecdote": "OpenAI versuchte dann, mit einigen Start-ups zusammenzuarbeiten, die künstliches Denken nutzten, um eine transformative Wirkung zu erzielen."
+      },
+      {
+        "id": 12,
+        "question": "Wie hoch war der Wert des OpenAI-Unternehmens im Jahr 2023 ?",
+        "propositions": [
+          "29 Milliarden",
+          "290 Millionen",
+          "29 Millionen",
+          "290 Milliarden"
+        ],
+        "réponse": "29 Milliarden",
+        "anecdote": "Im Januar 2023 beschäftigte das von Sam Altman, Elon Musk, Peter Thiel und Reid Hoffman mitbegründete Unternehmen OpenAI 375 Mitarbeiter."
+      },
+      {
+        "id": 13,
+        "question": "Welches Sprachmodell hat im Jahr 2021 großes Interesse geweckt ?",
+        "propositions": [
+          "OpenChat",
+          "GPT-3",
+          "DeepMind",
+          "BERT"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "Aufgrund seiner Fähigkeit, kohärenten Text zu erzeugen, sowie seiner Vielseitigkeit in verschiedenen Anwendungen hat es große Aufmerksamkeit erregt."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Mitbegründer beschrieb KI als die schlimmste existenzielle Bedrohung ?",
+        "propositions": [
+          "Elon Musk",
+          "Ilya Sutskever",
+          "Greg Brockman",
+          "Sam Altman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Die Gründer von OpenAI behaupten, dass sie ihre Forschung auf Möglichkeiten konzentrieren, KI für die Menschheit von Nutzen zu machen."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele Parameter wurden ungefähr in GPT-3 integriert ?",
+        "propositions": [
+          "175 Milliarden",
+          "175 Millionen",
+          "5 Milliarden",
+          "17 Milliarden"
+        ],
+        "réponse": "175 Milliarden",
+        "anecdote": "Diese künstliche Intelligenz war sogar noch leistungsfähiger als GPT-2 und zehnmal leistungsfähiger als jedes andere vergleichbare Programm."
+      },
+      {
+        "id": 16,
+        "question": "Welcher Bildgenerator wurde von der Firma OpenAI entwickelt ?",
+        "propositions": [
+          "DALL-E",
+          "Alex",
+          "ChatGPT",
+          "OpenSIm"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Der vom GPT-3-Modell abgeleitete Name DALL-E ist ein Kunstwort, das sowohl an den Pixar-Roboter WALL-E als auch an den Maler Salvador Dali erinnert."
+      },
+      {
+        "id": 17,
+        "question": "Welches Sprachmodell basiert auf der GPT-3-Architektur ?",
+        "propositions": [
+          "GPT-5",
+          "GPT-3.5",
+          "GPT-2",
+          "GPT-6"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 kann die Frage « warum das Brot aufgedunsen ist » in natürlicher Sprache beantworten, basierend auf dem Wikipedia-Artikel."
+      },
+      {
+        "id": 18,
+        "question": "Wie hoch waren die geschätzten Kosten für das Training von OpenAIs GPT-3 ?",
+        "propositions": [
+          "10 Millionen",
+          "100 Millionen",
+          "1 Million",
+          "1 Milliarde"
+        ],
+        "réponse": "100 Millionen",
+        "anecdote": "Diese Schulungskosten zeigen, wie groß die Investitionen sind, die für die Entwicklung hochmoderner Sprachmodelle erforderlich sind."
+      },
+      {
+        "id": 19,
+        "question": "Welches OpenAI-Projekt hat die 3D-Modellierungstechnologie entwickelt ?",
+        "propositions": [
+          "Open3D",
+          "DeepMind",
+          "OpenGPT",
+          "DALL-E"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Ziel von Open3D ist die Erstellung detaillierter und interaktiver 3D-Modelle, die neue Perspektiven im Bereich der virtuellen Realität eröffnen."
+      },
+      {
+        "id": 20,
+        "question": "Welches Strategiespiel hat OpenAI für seine KI-Agenten verwendet ?",
+        "propositions": [
+          "Poker",
+          "Monopol",
+          "Schach",
+          "Fortnite"
+        ],
+        "réponse": "Schach",
+        "anecdote": "Dank der Verstärkung hat OpenAI Programme entwickelt, die mit erfahrenen Schachspielern konkurrieren können."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher berühmte Science-Fiction-Autor war Berater für OpenAI ?",
+        "propositions": [
+          "Philip K. Dick",
+          "Issac Asimov",
+          "Ray Bradbury",
+          "Arthur C. Clarke"
+        ],
+        "réponse": "Issac Asimov",
+        "anecdote": "Der Autor Isaac Asimov ist bekannt für seine Ideen zur künstlichen Intelligenz und seine Gedanken zu den ethischen Implikationen der KI."
+      },
+      {
+        "id": 22,
+        "question": "Welches OpenAI-Tool kann Video- oder Filmübersetzungen durchführen ?",
+        "propositions": [
+          "Dactyl",
+          "Whisper",
+          "Alex",
+          "Gym"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Whisper wurde 2022 veröffentlicht und ist ein vielseitiges, mehrsprachiges Spracherkennungsmodell, das auch eine Sprache identifizieren kann."
+      },
+      {
+        "id": 23,
+        "question": "Welche Sprache ermöglicht die Interaktion mit OpenAI-Modellen ?",
+        "propositions": [
+          "Rubin",
+          "C++",
+          "Java",
+          "Python"
+        ],
+        "réponse": "Python",
+        "anecdote": "Die Python-Sprache steht unter einer kostenlosen Lizenz, die der BSD-Lizenz ähnelt, und funktioniert auf den meisten Plattformen."
+      },
+      {
+        "id": 24,
+        "question": "Welche API-Schnittstelle interagiert mit OpenAI-Sprachmodellen ?",
+        "propositions": [
+          "OpenAI-Codex",
+          "LanguageLink",
+          "GPTConnect",
+          "OpenChat"
+        ],
+        "réponse": "OpenAI-Codex",
+        "anecdote": "Codex wurde verwendet, um KI-gestützte Code-Editoren zu erstellen, die Code basierend auf Beschreibungen in natürlicher Sprache generieren."
+      },
+      {
+        "id": 25,
+        "question": "Welches KI-Modell von OpenAI kann das Spiel « Dota 2 » spielen ?",
+        "propositions": [
+          "OpenDota",
+          "AlphaGo",
+          "AlphaStar",
+          "OpenAI Five"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five trat 2018 in einem Online-Event gegen professionelle Gamer an und gewann mehrere Spiele."
+      },
+      {
+        "id": 26,
+        "question": "Welche Universität hat einen Coding-Challenge zum Testen von GPT-3 gewonnen ?",
+        "propositions": [
+          "Oxford",
+          "Cambridge",
+          "Harvard",
+          "Stanford"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Das Team der Universität Oxford gewann die Herausforderung, indem es die Vielseitigkeit des Modells im Bereich der Codierung hervorhob."
+      },
+      {
+        "id": 27,
+        "question": "Welches OpenAI-Tool zur neuronalen Visualisierung kam 2020 auf den Markt ?",
+        "propositions": [
+          "Visioscope",
+          "Tubular",
+          "Microscope",
+          "Analyzer"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Microscope wurde im Jahr 2020 veröffentlicht und ist ein Werkzeug, das dazu dient, das Innenleben neuronaler Netze besser zu verstehen."
+      },
+      {
+        "id": 28,
+        "question": "Mit welchem Umgebungssimulator können KI-Agenten trainiert werden ?",
+        "propositions": [
+          "DeepSim",
+          "Gym",
+          "AIEnv",
+          "OpenSIm"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym von OpenAI bietet eine standardisierte Schnittstelle zum Testen und Entwickeln von Reinforcement-Learning-Algorithmen."
+      },
+      {
+        "id": 29,
+        "question": "Wie heißt der berühmte Chatbot, der 2016 von OpenAI entwickelt wurde ?",
+        "propositions": [
+          "Siri",
+          "Alex",
+          "Sophie",
+          "ChatGPT"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex wurde von OpenAI als fortschrittlicher Konversationsassistent entwickelt und in verschiedenen Demos vorgestellt."
+      },
+      {
+        "id": 30,
+        "question": "Welches OpenAI-Projekt hat es geschafft, den einhändigen Zauberwürfel zu lösen ?",
+        "propositions": [
+          "RubikSolver",
+          "OpenRubik",
+          "Dactyl",
+          "OpenGPT"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "Dieses innovative Projekt demonstrierte die Lern- und Manipulationsfähigkeiten der KI in der Robotik."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿En qué año se fundó la empresa de beneficios limitados OpenAI ?",
+        "propositions": [
+          "2015",
+          "2021",
+          "2019",
+          "2017"
+        ],
+        "réponse": "2015",
+        "anecdote": "En marzo de 2019, la organización sin fines de lucro se convirtió en una empresa de ganancias limitadas, con miras a atraer capital."
+      },
+      {
+        "id": 2,
+        "question": "¿En qué ciudad de Estados Unidos se encuentra la sede de OpenAI ?",
+        "propositions": [
+          "San Francisco",
+          "Chicago",
+          "Miami",
+          "Los Ángeles"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "El objetivo de esta sociedad es desarrollar un razonamiento artificial con rostro humano que beneficie a toda la humanidad."
+      },
+      {
+        "id": 3,
+        "question": "¿Quién dejó OpenAI en 2018 por una disputa de liderazgo ?",
+        "propositions": [
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Sam Altman",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk ve en la falta de publicación del código fuente una traición a la misión que la organización se había fijado en su fundación."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué empresa invirtió mil millones de dólares en OpenAI en 2019 ?",
+        "propositions": [
+          "Amazonas",
+          "Google",
+          "microsoft",
+          "facebook"
+        ],
+        "réponse": "microsoft",
+        "anecdote": "A cambio de una asociación privilegiada con OpenAI, cuando la empresa comercialice sus tecnologías de inteligencia artificial."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué inteligencia artificial creó OpenAI en 2019 ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-1",
+          "GPT-4",
+          "GPT-3"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Transformador preentrenado generativo 2 (GPT-2) fue entonces capaz de escribir artículos de noticias y obras de ficción."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué es capaz de generar GPT-4 y no GPT-2 ni GPT-3 ?",
+        "propositions": [
+          "Hologramas",
+          "Juegos de realidad virtual",
+          "Fotos",
+          "Vídeos"
+        ],
+        "réponse": "Fotos",
+        "anecdote": "GPT-4 también puede leer, analizar y generar hasta 25 000 palabras, y escribir en los principales lenguajes de programación."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué herramienta de OpenAI puede generar texto de forma autónoma ?",
+        "propositions": [
+          "OpenChat",
+          "ChatGPT",
+          "AlphaGo",
+          "DALL-E"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT también se puede utilizar para mejorar los sistemas de chat brindándoles respuestas naturales y relevantes."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué presidente de la incubadora Y Combinator cofundó OpenAI ?",
+        "propositions": [
+          "Greg Brockman",
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Sam Altman"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "En 2005, con 19 años, cofundó Loopt, una aplicación de redes sociales móviles, que vendió en 2011 por 43 millones."
+      },
+      {
+        "id": 9,
+        "question": "¿Cuál es el significado de la letra I en el nombre de OpenAI ?",
+        "propositions": [
+          "Inteligencia",
+          "Información",
+          "Incapaz",
+          "Integración"
+        ],
+        "réponse": "Inteligencia",
+        "anecdote": "Algunos científicos han mencionado que la IA podría causar una explosión de inteligencia que podría conducir a la extinción de la humanidad."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál fue el nombre del primer modelo de lenguaje desarrollado por OpenAI ?",
+        "propositions": [
+          "GPT-1",
+          "GPT-4",
+          "GPT-2",
+          "GPT-3"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Aunque GPT-1 sentó las bases para modelos posteriores, fue con GPT-2 y GPT-3 con los que se lograron los principales avances."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál fue el monto del fondo inicial recibido por la empresa OpenAI ?",
+        "propositions": [
+          "10 millones",
+          "1 mil millones",
+          "1 millón",
+          "100 millones"
+        ],
+        "réponse": "100 millones",
+        "anecdote": "Luego, OpenAI buscó asociarse con algunas nuevas empresas utilizando razonamiento artificial para tener un efecto transformador."
+      },
+      {
+        "id": 12,
+        "question": "¿En cuánto estaba valorada la empresa OpenAI en 2023 ?",
+        "propositions": [
+          "29 millones",
+          "29 mil millones",
+          "290 millones",
+          "290 mil millones"
+        ],
+        "réponse": "29 mil millones",
+        "anecdote": "En enero de 2023, la empresa OpenAI, cofundada por Sam Altman, Elon Musk, Peter Thiel y Reid Hoffman, tenía 375 empleados."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué modelo de lenguaje ha generado gran interés en 2021 ?",
+        "propositions": [
+          "DeepMind",
+          "GPT-3",
+          "OpenChat",
+          "BERT"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "Ha llamado mucho la atención gracias a su capacidad para generar texto coherente, así como su versatilidad en diversas aplicaciones."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué cofundador describió la IA como la peor amenaza existencial ?",
+        "propositions": [
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Greg Brockman",
+          "Sam Altman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Los fundadores de OpenAI afirman que enfocan su investigación en formas de hacer que la IA sea beneficiosa para la humanidad."
+      },
+      {
+        "id": 15,
+        "question": "Aproximadamente, ¿cuántos parámetros se integraron en GPT-3 ?",
+        "propositions": [
+          "17 mil millones",
+          "175 millones",
+          "175 mil millones",
+          "5 mil millones"
+        ],
+        "réponse": "175 mil millones",
+        "anecdote": "Incluso más poderosa que GPT-2, esta inteligencia artificial era diez veces más poderosa que cualquier otro programa comparable."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué generador de imágenes fue desarrollado por la empresa OpenAI ?",
+        "propositions": [
+          "DALL-E",
+          "Alex",
+          "OpenSIm",
+          "ChatGPT"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Derivado del modelo GPT-3, el nombre DALL-E es un acrónimo que evoca tanto al robot WALL-E de Pixar como al pintor Salvador Dalí."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué modelo de lenguaje se basa en la arquitectura GPT-3 ?",
+        "propositions": [
+          "GPT-3.5",
+          "GPT-5",
+          "GPT-6",
+          "GPT-2"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 puede responder en lenguaje natural a la pregunta « por qué el pan está hinchado », según el artículo de Wikipedia."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál fue el costo estimado de entrenar GPT-3 de OpenAI ?",
+        "propositions": [
+          "1 millón",
+          "100 millones",
+          "1 mil millones",
+          "10 millones"
+        ],
+        "réponse": "100 millones",
+        "anecdote": "Estos costes de formación muestran la magnitud de la inversión necesaria para desarrollar modelos lingüísticos de última generación."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué proyecto de OpenAI desarrolló la tecnología de modelado 3D ?",
+        "propositions": [
+          "Open3D",
+          "DALL-E",
+          "OpenGPT",
+          "DeepMind"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Open3D tiene como objetivo crear modelos 3D detallados e interactivos, abriendo nuevas perspectivas en los campos de la realidad virtual."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué juego de estrategia utilizó OpenAI para sus agentes de IA ?",
+        "propositions": [
+          "Fortnite",
+          "póquer",
+          "Monopolio",
+          "Ajedrez"
+        ],
+        "réponse": "Ajedrez",
+        "anecdote": "Gracias al refuerzo, OpenAI ha desarrollado programas que pueden competir con ajedrecistas experimentados."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué famoso autor de ciencia ficción ha sido consultor de OpenAI ?",
+        "propositions": [
+          "Arturo C. Clarke",
+          "Ray Bradbury",
+          "Isaac Asimov",
+          "Philip K. Dick"
+        ],
+        "réponse": "Isaac Asimov",
+        "anecdote": "El autor Isaac Asimov es conocido por sus ideas sobre inteligencia artificial y sus pensamientos sobre las implicaciones éticas de la IA."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué herramienta de OpenAI puede realizar traducciones de videos o películas ?",
+        "propositions": [
+          "Whisper",
+          "Dactyl",
+          "Gym",
+          "Alex"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Lanzado en 2022, Whisper es un modelo versátil de reconocimiento de voz multilingüe que también puede identificar un idioma."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué lenguaje permite interactuar con los modelos de OpenAI ?",
+        "propositions": [
+          "C++",
+          "Rubí",
+          "Pitón",
+          "Java"
+        ],
+        "réponse": "Pitón",
+        "anecdote": "El lenguaje Python se coloca bajo una licencia libre cercana a la licencia BSD y funciona en la mayoría de las plataformas."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué interfaz API interactúa con los modelos de lenguaje OpenAI ?",
+        "propositions": [
+          "OpenAI Codex",
+          "OpenChat",
+          "GPTConnect",
+          "LanguageLink"
+        ],
+        "réponse": "OpenAI Codex",
+        "anecdote": "Codex se ha utilizado para crear editores de código asistidos por IA que generan código basado en descripciones en lenguaje natural."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué modelo de IA de OpenAI puede jugar el juego « Dota 2 » ?",
+        "propositions": [
+          "AlphaGo",
+          "OpenAI Five",
+          "AlphaStar",
+          "OpenDota"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five compitió contra jugadores profesionales en un evento en línea en 2018 y ganó varios juegos."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué universidad ganó un desafío de codificación para probar GPT-3 ?",
+        "propositions": [
+          "Oxford",
+          "Stanford",
+          "Harvard",
+          "Cambridge"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "El equipo de la Universidad de Oxford ganó el desafío al destacar la versatilidad del modelo en el campo de la codificación."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué herramienta de visualización neuronal OpenAI salió en 2020 ?",
+        "propositions": [
+          "Visioscope",
+          "Analyzer",
+          "Microscope",
+          "Tubular"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Lanzado en 2020, Microscope es una herramienta que se utiliza para comprender mejor el funcionamiento interno de las redes neuronales."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué simulador de entorno puede entrenar a los agentes de IA ?",
+        "propositions": [
+          "AIEnv",
+          "OpenSIm",
+          "DeepSim",
+          "Gym"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym, de OpenAI, proporciona una interfaz estandarizada para probar y desarrollar algoritmos de aprendizaje por refuerzo."
+      },
+      {
+        "id": 29,
+        "question": "¿Cómo se llama el famoso chatbot desarrollado por OpenAI en 2016 ?",
+        "propositions": [
+          "Alex",
+          "Siri",
+          "ChatGPT",
+          "Sofía"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex fue desarrollado por OpenAI como un asistente conversacional avanzado, presentado en varias demostraciones."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué proyecto de OpenAI logró resolver el Cubo de Rubik con una sola mano ?",
+        "propositions": [
+          "RubikSolver",
+          "OpenRubik",
+          "OpenGPT",
+          "Dactyl"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "Este proyecto innovador demostró las capacidades de aprendizaje y manipulación de la IA en robótica."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In che anno è stata fondata la società a scopo di lucro OpenAI ?",
+        "propositions": [
+          "2021",
+          "2019",
+          "2015",
+          "2017"
+        ],
+        "réponse": "2015",
+        "anecdote": "Nel marzo 2019, l'organizzazione no profit è diventata un'impresa a profitto limitato, con l'obiettivo di attrarre capitali."
+      },
+      {
+        "id": 2,
+        "question": "In quale città degli Stati Uniti si trova la sede di OpenAI ?",
+        "propositions": [
+          "Miami",
+          "Los Angeles",
+          "San Francesco",
+          "Chicago"
+        ],
+        "réponse": "San Francesco",
+        "anecdote": "L'obiettivo di questa società è sviluppare un ragionamento artificiale dal volto umano che andrà a beneficio di tutta l'umanità."
+      },
+      {
+        "id": 3,
+        "question": "Chi ha lasciato OpenAI nel 2018 per una disputa sulla leadership ?",
+        "propositions": [
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Sam Altman",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk vede nell'assenza di pubblicazione del codice sorgente un tradimento della mission che l'organizzazione si era posta alla sua fondazione."
+      },
+      {
+        "id": 4,
+        "question": "Quale azienda ha investito un miliardo di dollari in OpenAI nel 2019 ?",
+        "propositions": [
+          "Facebook",
+          "Amazzonia",
+          "Microsoft",
+          "Google"
+        ],
+        "réponse": "Microsoft",
+        "anecdote": "In cambio di una partnership privilegiata con OpenAI, quando l'azienda commercializzerà le sue tecnologie di intelligenza artificiale."
+      },
+      {
+        "id": 5,
+        "question": "Quale intelligenza artificiale è stata creata da OpenAI nel 2019 ?",
+        "propositions": [
+          "GPT-4",
+          "GPT-3",
+          "GPT-1",
+          "GPT-2"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Generative Pre-addestrato Transformer 2 (GPT-2) è stato quindi in grado di scrivere articoli di notizie e opere di narrativa."
+      },
+      {
+        "id": 6,
+        "question": "Cosa è in grado di generare GPT-4 e non GPT-2 né GPT-3 ?",
+        "propositions": [
+          "Immagini",
+          "Ologrammi",
+          "Video",
+          "Giochi VR"
+        ],
+        "réponse": "Immagini",
+        "anecdote": "GPT-4 può anche leggere, analizzare e generare fino a 25.000 parole e scrivere in tutti i principali linguaggi di programmazione."
+      },
+      {
+        "id": 7,
+        "question": "Quale strumento OpenAI può generare autonomamente testo ?",
+        "propositions": [
+          "OpenChat",
+          "ChatGPT",
+          "DALL-E",
+          "AlphaGo"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT può anche essere utilizzato per migliorare i sistemi di chat fornendo loro risposte naturali e pertinenti."
+      },
+      {
+        "id": 8,
+        "question": "Quale presidente dell'incubatore Y Combinator ha co-fondato OpenAI ?",
+        "propositions": [
+          "Sam Altman",
+          "Elon Musk",
+          "Greg Brockman",
+          "Ilya Sutskever"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "Nel 2005, all'età di 19 anni, ha co-fondato Loopt, un'applicazione di social networking mobile, che ha venduto nel 2011 per 43 milioni."
+      },
+      {
+        "id": 9,
+        "question": "Qual è il significato della lettera I nel nome OpenAI ?",
+        "propositions": [
+          "Integrazione",
+          "Intelligenza",
+          "Impossibile",
+          "Informazioni"
+        ],
+        "réponse": "Intelligenza",
+        "anecdote": "Alcuni scienziati hanno affermato che l'intelligenza artificiale potrebbe causare un'esplosione di intelligenza che potrebbe portare all'estinzione dell'umanità."
+      },
+      {
+        "id": 10,
+        "question": "Qual era il nome del primo modello linguistico sviluppato da OpenAI ?",
+        "propositions": [
+          "GPT-2",
+          "GPT-1",
+          "GPT-3",
+          "GPT-4"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Sebbene GPT-1 abbia gettato le basi per i modelli successivi, è stato con GPT-2 e GPT-3 che sono stati compiuti importanti progressi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual è stato l'importo del fondo iniziale ricevuto dalla società OpenAI ?",
+        "propositions": [
+          "100 milioni",
+          "10 milioni",
+          "1 milione",
+          "1 miliardo"
+        ],
+        "réponse": "100 milioni",
+        "anecdote": "OpenAI ha quindi cercato di collaborare con alcune startup utilizzando il ragionamento artificiale per avere un effetto trasformativo."
+      },
+      {
+        "id": 12,
+        "question": "Quanto è stata valutata la società OpenAI nel 2023 ?",
+        "propositions": [
+          "290 miliardi",
+          "29 miliardi",
+          "290 milioni",
+          "29 milioni"
+        ],
+        "réponse": "29 miliardi",
+        "anecdote": "Nel gennaio 2023, la società OpenAI, co-fondata da Sam Altman, Elon Musk, Peter Thiel e Reid Hoffman aveva 375 dipendenti."
+      },
+      {
+        "id": 13,
+        "question": "Quale modello linguistico ha generato grande interesse nel 2021 ?",
+        "propositions": [
+          "DeepMind",
+          "GPT-3",
+          "OpenChat",
+          "BERT"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "Ha attirato molta attenzione grazie alla sua capacità di generare testo coerente, nonché alla sua versatilità in varie applicazioni."
+      },
+      {
+        "id": 14,
+        "question": "Quale co-fondatore ha descritto l'IA come la peggiore minaccia esistenziale ?",
+        "propositions": [
+          "Sam Altman",
+          "Elon Musk",
+          "Ilya Sutskever",
+          "Greg Brockman"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "I fondatori di OpenAI affermano di concentrare la loro ricerca sui modi per rendere l'IA vantaggiosa per l'umanità."
+      },
+      {
+        "id": 15,
+        "question": "Approssimativamente quanti parametri sono stati integrati in GPT-3 ?",
+        "propositions": [
+          "5 miliardi",
+          "17 miliardi",
+          "175 milioni",
+          "175 miliardi"
+        ],
+        "réponse": "175 miliardi",
+        "anecdote": "Ancora più potente di GPT-2, questa intelligenza artificiale era dieci volte più potente di qualsiasi altro programma comparabile."
+      },
+      {
+        "id": 16,
+        "question": "Quale generatore di immagini è stato sviluppato dalla società OpenAI ?",
+        "propositions": [
+          "OpenSIm",
+          "DALL-E",
+          "Alex",
+          "ChatGPT"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Derivato dal modello GPT-3, il nome DALL-E è un portmanteau che evoca sia il robot Pixar WALL-E che il pittore Salvador Dalì."
+      },
+      {
+        "id": 17,
+        "question": "Quale modello linguistico si basa sull'architettura GPT-3 ?",
+        "propositions": [
+          "GPT-6",
+          "GPT-5",
+          "GPT-3.5",
+          "GPT-2"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 può rispondere in linguaggio naturale alla domanda « perché il pane è gonfio », basata sull'articolo di Wikipedia."
+      },
+      {
+        "id": 18,
+        "question": "Qual è stato il costo stimato per l'addestramento del GPT-3 di OpenAI ?",
+        "propositions": [
+          "1 milione",
+          "1 miliardo",
+          "100 milioni",
+          "10 milioni"
+        ],
+        "réponse": "100 milioni",
+        "anecdote": "Questi costi di formazione mostrano l'entità dell'investimento necessario per sviluppare modelli linguistici all'avanguardia."
+      },
+      {
+        "id": 19,
+        "question": "Quale progetto OpenAI ha sviluppato la tecnologia di modellazione 3D ?",
+        "propositions": [
+          "DeepMind",
+          "Open3D",
+          "OpenGPT",
+          "DALL-E"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Open3D mira a creare modelli 3D dettagliati e interattivi, aprendo nuove prospettive nei campi della realtà virtuale."
+      },
+      {
+        "id": 20,
+        "question": "Quale gioco di strategia è stato utilizzato da OpenAI per i suoi agenti AI ?",
+        "propositions": [
+          "fortnite",
+          "Scacchi",
+          "Poker",
+          "Monopolio"
+        ],
+        "réponse": "Scacchi",
+        "anecdote": "Grazie al rinforzo, OpenAI ha sviluppato programmi in grado di competere con giocatori di scacchi esperti."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale famoso autore di fantascienza è stato consulente di OpenAI ?",
+        "propositions": [
+          "Isaac Asimov",
+          "Philip K. Dick",
+          "Ray Bradbury",
+          "Arthur C. Clarke"
+        ],
+        "réponse": "Isaac Asimov",
+        "anecdote": "L'autore Isaac Asimov è noto per le sue idee sull'intelligenza artificiale e per i suoi pensieri sulle implicazioni etiche dell'IA."
+      },
+      {
+        "id": 22,
+        "question": "Quale strumento OpenAI può eseguire traduzioni di video o film ?",
+        "propositions": [
+          "Gym",
+          "Dactyl",
+          "Whisper",
+          "Alex"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Rilasciato nel 2022, Whisper è un versatile modello di riconoscimento vocale multilingue in grado di identificare anche una lingua."
+      },
+      {
+        "id": 23,
+        "question": "Quale linguaggio permette di interagire con i modelli OpenAI ?",
+        "propositions": [
+          "Giava",
+          "C++",
+          "Pitone",
+          "Rubino"
+        ],
+        "réponse": "Pitone",
+        "anecdote": "Il linguaggio Python è soggetto a una licenza gratuita vicina alla licenza BSD e funziona sulla maggior parte delle piattaforme."
+      },
+      {
+        "id": 24,
+        "question": "Quale interfaccia API interagisce con i modelli di linguaggio OpenAI ?",
+        "propositions": [
+          "LanguageLink",
+          "OpenAI Codex",
+          "GPTConnect",
+          "OpenChat"
+        ],
+        "réponse": "OpenAI Codex",
+        "anecdote": "Codex è stato utilizzato per creare editor di codice assistiti dall'intelligenza artificiale che generano codice basato su descrizioni in linguaggio naturale."
+      },
+      {
+        "id": 25,
+        "question": "Quale modello di intelligenza artificiale di OpenAI può giocare a « Dota 2 » ?",
+        "propositions": [
+          "AlphaGo",
+          "OpenAI Five",
+          "AlphaStar",
+          "OpenDota"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five ha gareggiato contro giocatori professionisti in un evento online nel 2018, vincendo diverse partite."
+      },
+      {
+        "id": 26,
+        "question": "Quale università ha vinto una sfida di programmazione per testare GPT-3 ?",
+        "propositions": [
+          "Oxford",
+          "Cambridge",
+          "Harvard",
+          "Stanford"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Il team dell'Università di Oxford ha vinto la sfida evidenziando la versatilità del modello nel campo della codifica."
+      },
+      {
+        "id": 27,
+        "question": "Quale strumento di visualizzazione neurale OpenAI è uscito nel 2020 ?",
+        "propositions": [
+          "Tubular",
+          "Visioscope",
+          "Microscope",
+          "Analyzer"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Rilasciato nel 2020, Microscope è uno strumento utilizzato per comprendere meglio il funzionamento interno delle reti neurali."
+      },
+      {
+        "id": 28,
+        "question": "Quale simulatore ambientale può addestrare gli agenti AI ?",
+        "propositions": [
+          "Gym",
+          "OpenSIm",
+          "DeepSim",
+          "AIEnv"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym, di OpenAI, fornisce un'interfaccia standardizzata per testare e sviluppare algoritmi di apprendimento per rinforzo."
+      },
+      {
+        "id": 29,
+        "question": "Come si chiama il famoso chatbot sviluppato da OpenAI nel 2016 ?",
+        "propositions": [
+          "Sofia",
+          "Siri",
+          "Alex",
+          "ChatGPT"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex è stato sviluppato da OpenAI come assistente conversazionale avanzato, presente in varie demo."
+      },
+      {
+        "id": 30,
+        "question": "Quale progetto OpenAI è riuscito a risolvere il cubo di Rubik con una sola mano ?",
+        "propositions": [
+          "OpenGPT",
+          "RubikSolver",
+          "Dactyl",
+          "OpenRubik"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "Questo progetto innovativo ha dimostrato le capacità di apprendimento e manipolazione dell'IA nella robotica."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welk jaar werd het bedrijf met gemaximeerde winst OpenAI opgericht ?",
+        "propositions": [
+          "2021",
+          "2019",
+          "2015",
+          "2017"
+        ],
+        "réponse": "2015",
+        "anecdote": "In maart 2019 werd de non-profitorganisatie een onderneming met afgetopte winst, met het oog op het aantrekken van kapitaal."
+      },
+      {
+        "id": 2,
+        "question": "In welke stad in de Verenigde Staten is het hoofdkantoor van OpenAI gevestigd ?",
+        "propositions": [
+          "Los Angeles",
+          "Miami",
+          "San Francisco",
+          "Chicago"
+        ],
+        "réponse": "San Francisco",
+        "anecdote": "Het doel van deze samenleving is om kunstmatige redeneringen met een menselijk gezicht te ontwikkelen die de hele mensheid ten goede zullen komen."
+      },
+      {
+        "id": 3,
+        "question": "Wie verliet OpenAI in 2018 vanwege een leiderschapsgeschil ?",
+        "propositions": [
+          "Sam Altman",
+          "Elon Musk",
+          "Greg Brockman",
+          "Ilya Sutskever"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "Elon Musk ziet in het uitblijven van publicatie van de broncode verraad aan de missie die de organisatie zich bij de oprichting had gesteld."
+      },
+      {
+        "id": 4,
+        "question": "Welk bedrijf investeerde in 2019 een miljard dollar in OpenAI ?",
+        "propositions": [
+          "Amazone",
+          "Faceboo",
+          "Google",
+          "Microsoft"
+        ],
+        "réponse": "Microsoft",
+        "anecdote": "In ruil voor een bevoorrechte samenwerking met OpenAI, wanneer het bedrijf zijn kunstmatige-intelligentietechnologieën commercialiseert."
+      },
+      {
+        "id": 5,
+        "question": "Welke kunstmatige intelligentie is in 2019 door OpenAI gemaakt ?",
+        "propositions": [
+          "GPT-1",
+          "GPT-4",
+          "GPT-2",
+          "GPT-3"
+        ],
+        "réponse": "GPT-2",
+        "anecdote": "Generative Pre-trained Transformer 2 (GPT-2) was toen in staat nieuwsartikelen en fictie te schrijven."
+      },
+      {
+        "id": 6,
+        "question": "Wat kan GPT-4 genereren en niet GPT-2 of GPT-3 ?",
+        "propositions": [
+          "Video's",
+          "VR-spellen",
+          "Foto's",
+          "Hologrammen"
+        ],
+        "réponse": "Foto's",
+        "anecdote": "GPT-4 kan ook tot 25.000 woorden lezen, ontleden en genereren, en schrijven in alle belangrijke programmeertalen."
+      },
+      {
+        "id": 7,
+        "question": "Welke OpenAI-tool kan autonoom tekst genereren ?",
+        "propositions": [
+          "DALL-E",
+          "AlphaGo",
+          "OpenChat",
+          "ChatGPT"
+        ],
+        "réponse": "ChatGPT",
+        "anecdote": "ChatGPT kan ook worden gebruikt om chatsystemen te verbeteren door ze te voorzien van natuurlijke en relevante antwoorden."
+      },
+      {
+        "id": 8,
+        "question": "Welke president van de Y Combinator-incubator was medeoprichter van OpenAI ?",
+        "propositions": [
+          "Greg Brockman",
+          "Ilya Sutskever",
+          "Elon Musk",
+          "Sam Altman"
+        ],
+        "réponse": "Sam Altman",
+        "anecdote": "In 2005, op 19-jarige leeftijd, was hij medeoprichter van Loopt, een mobiele sociale netwerktoepassing, die hij in 2011 voor 43 miljoen verkocht."
+      },
+      {
+        "id": 9,
+        "question": "Wat is de betekenis van de letter I in de OpenAI-naam ?",
+        "propositions": [
+          "Kan niet",
+          "Intelligentie",
+          "Integratie",
+          "Informatie"
+        ],
+        "réponse": "Intelligentie",
+        "anecdote": "Sommige wetenschappers hebben gezegd dat AI een explosie van intelligentie zou kunnen veroorzaken die zou kunnen leiden tot het uitsterven van de mensheid."
+      },
+      {
+        "id": 10,
+        "question": "Wat was de naam van het eerste taalmodel dat door OpenAI werd ontwikkeld ?",
+        "propositions": [
+          "GPT-4",
+          "GPT-3",
+          "GPT-1",
+          "GPT-2"
+        ],
+        "réponse": "GPT-1",
+        "anecdote": "Hoewel GPT-1 de basis legde voor latere modellen, was het met GPT-2 en GPT-3 dat er grote vooruitgang werd geboekt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat was het bedrag van het initiële fonds dat het OpenAI-bedrijf ontving ?",
+        "propositions": [
+          "10 miljoen",
+          "1 miljoen",
+          "1 miljard",
+          "100 miljoen"
+        ],
+        "réponse": "100 miljoen",
+        "anecdote": "OpenAI probeerde vervolgens samen te werken met een paar startups met behulp van kunstmatige redeneringen om een \u200b\u200btransformerend effect te hebben."
+      },
+      {
+        "id": 12,
+        "question": "Op hoeveel werd het OpenAI-bedrijf gewaardeerd in 2023 ?",
+        "propositions": [
+          "290 miljard",
+          "29 miljard",
+          "29 miljoen",
+          "290 miljoen"
+        ],
+        "réponse": "29 miljard",
+        "anecdote": "In januari 2023 had het bedrijf OpenAI, mede opgericht door Sam Altman, Elon Musk, Peter Thiel en Reid Hoffman 375 medewerkers."
+      },
+      {
+        "id": 13,
+        "question": "Welk taalmodel heeft in 2021 grote belangstelling gewekt ?",
+        "propositions": [
+          "BERT",
+          "GPT-3",
+          "OpenChat",
+          "DeepMind"
+        ],
+        "réponse": "GPT-3",
+        "anecdote": "Het heeft veel aandacht getrokken dankzij zijn vermogen om samenhangende tekst te genereren, evenals zijn veelzijdigheid in verschillende toepassingen."
+      },
+      {
+        "id": 14,
+        "question": "Welke mede-oprichter beschreef AI als de grootste existentiële bedreiging ?",
+        "propositions": [
+          "Sam Altman",
+          "Greg Brockman",
+          "Ilya Sutskever",
+          "Elon Musk"
+        ],
+        "réponse": "Elon Musk",
+        "anecdote": "De oprichters van OpenAI beweren dat ze hun onderzoek richten op manieren om AI nuttig te maken voor de mensheid."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel parameters zijn er ongeveer geïntegreerd in GPT-3 ?",
+        "propositions": [
+          "17 miljard",
+          "5 miljard",
+          "175 miljard",
+          "175 miljoen"
+        ],
+        "réponse": "175 miljard",
+        "anecdote": "Nog krachtiger dan GPT-2, deze kunstmatige intelligentie was tien keer krachtiger dan elk ander vergelijkbaar programma."
+      },
+      {
+        "id": 16,
+        "question": "Welke beeldgenerator is ontwikkeld door het bedrijf OpenAI ?",
+        "propositions": [
+          "DALL-E",
+          "OpenSIm",
+          "ChatGPT",
+          "Alex"
+        ],
+        "réponse": "DALL-E",
+        "anecdote": "Afgeleid van het GPT-3-model, is de naam DALL-E een samentrekking die zowel de Pixar-robot WALL-E als de schilder Salvador Dali oproept."
+      },
+      {
+        "id": 17,
+        "question": "Welk taalmodel is gebaseerd op de GPT-3-architectuur ?",
+        "propositions": [
+          "GPT-3.5",
+          "GPT-2",
+          "GPT-6",
+          "GPT-5"
+        ],
+        "réponse": "GPT-3.5",
+        "anecdote": "GPT-3.5 kan in natuurlijke taal de vraag « waarom het brood gezwollen is » beantwoorden, gebaseerd op het Wikipedia-artikel."
+      },
+      {
+        "id": 18,
+        "question": "Wat waren de geschatte kosten van het trainen van OpenAI's GPT-3 ?",
+        "propositions": [
+          "1 miljard",
+          "10 miljoen",
+          "100 miljoen",
+          "1 miljoen"
+        ],
+        "réponse": "100 miljoen",
+        "anecdote": "Deze opleidingskosten tonen de omvang van de investering die nodig is om state-of-the-art taalmodellen te ontwikkelen."
+      },
+      {
+        "id": 19,
+        "question": "Welk OpenAI-project heeft 3D-modelleringstechnologie ontwikkeld ?",
+        "propositions": [
+          "DALL-E",
+          "Open3D",
+          "OpenGPT",
+          "DeepMind"
+        ],
+        "réponse": "Open3D",
+        "anecdote": "Open3D heeft tot doel gedetailleerde en interactieve 3D-modellen te creëren, die nieuwe perspectieven openen op het gebied van virtual reality."
+      },
+      {
+        "id": 20,
+        "question": "Welk strategiespel werd door OpenAI gebruikt voor zijn AI-agenten ?",
+        "propositions": [
+          "Schaken",
+          "Poker",
+          "Monopolie",
+          "Fortnite"
+        ],
+        "réponse": "Schaken",
+        "anecdote": "Dankzij versterking heeft OpenAI programma's ontwikkeld die zich kunnen meten met ervaren schakers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke beroemde sciencefictionauteur is consultant geweest voor OpenAI ?",
+        "propositions": [
+          "Arthur C. Clarke",
+          "Ray Bradbury",
+          "Issac Asimov",
+          "Philip K. Dick"
+        ],
+        "réponse": "Issac Asimov",
+        "anecdote": "Auteur Isaac Asimov staat bekend om zijn ideeën over kunstmatige intelligentie en zijn gedachten over de ethische implicaties van AI."
+      },
+      {
+        "id": 22,
+        "question": "Welke OpenAI-tool kan video- of filmvertalingen uitvoeren ?",
+        "propositions": [
+          "Gym",
+          "Alex",
+          "Dactyl",
+          "Whisper"
+        ],
+        "réponse": "Whisper",
+        "anecdote": "Whisper, uitgebracht in 2022, is een veelzijdig, meertalig spraakherkenningsmodel dat ook een taal kan identificeren."
+      },
+      {
+        "id": 23,
+        "question": "Welke taal maakt interactie met OpenAI-modellen mogelijk ?",
+        "propositions": [
+          "Robijn",
+          "java",
+          "Python",
+          "C++"
+        ],
+        "réponse": "Python",
+        "anecdote": "De Python-taal wordt onder een gratis licentie geplaatst die dicht bij de BSD-licentie ligt en werkt op de meeste platforms."
+      },
+      {
+        "id": 24,
+        "question": "Welke API-interface communiceert met OpenAI-taalmodellen ?",
+        "propositions": [
+          "GPTConnect",
+          "LanguageLink",
+          "OpenChat",
+          "OpenAI Codex"
+        ],
+        "réponse": "OpenAI Codex",
+        "anecdote": "Codex is gebruikt om AI-ondersteunde code-editors te maken die code genereren op basis van beschrijvingen in natuurlijke taal."
+      },
+      {
+        "id": 25,
+        "question": "Welk AI-model van OpenAI kan het spel « Dota 2 » spelen ?",
+        "propositions": [
+          "AlphaGo",
+          "OpenDota",
+          "OpenAI Five",
+          "AlphaStar"
+        ],
+        "réponse": "OpenAI Five",
+        "anecdote": "OpenAI Five nam het in 2018 op tegen professionele gamers tijdens een online evenement en won verschillende games."
+      },
+      {
+        "id": 26,
+        "question": "Welke universiteit heeft een codeeruitdaging gewonnen om GPT-3 te testen ?",
+        "propositions": [
+          "Harvard",
+          "Stanford",
+          "Oxford",
+          "Cambridge"
+        ],
+        "réponse": "Oxford",
+        "anecdote": "Het team van Oxford University won de uitdaging door de veelzijdigheid van het model op het gebied van codering te benadrukken."
+      },
+      {
+        "id": 27,
+        "question": "Welke OpenAI neurale visualisatietool kwam uit in 2020 ?",
+        "propositions": [
+          "Microscope",
+          "Visioscope",
+          "Analyzer",
+          "Tubular"
+        ],
+        "réponse": "Microscope",
+        "anecdote": "Microscope, uitgebracht in 2020, is een tool die wordt gebruikt om de innerlijke werking van neurale netwerken beter te begrijpen."
+      },
+      {
+        "id": 28,
+        "question": "Welke omgevingssimulator kan AI-agenten trainen ?",
+        "propositions": [
+          "Gym",
+          "AIEnv",
+          "DeepSim",
+          "OpenSIm"
+        ],
+        "réponse": "Gym",
+        "anecdote": "Gym, van OpenAI, biedt een gestandaardiseerde interface voor het testen en ontwikkelen van leeralgoritmen voor versterking."
+      },
+      {
+        "id": 29,
+        "question": "Wat is de naam van de beroemde chatbot die in 2016 door OpenAI is ontwikkeld ?",
+        "propositions": [
+          "Sofie",
+          "Siri",
+          "ChatGPT",
+          "Alex"
+        ],
+        "réponse": "Alex",
+        "anecdote": "Alex is ontwikkeld door OpenAI als een geavanceerde gespreksassistent, die in verschillende demo's te zien was."
+      },
+      {
+        "id": 30,
+        "question": "Welk OpenAI-project slaagde erin de eenhandige Rubik's Cube op te lossen ?",
+        "propositions": [
+          "OpenRubik",
+          "RubikSolver",
+          "OpenGPT",
+          "Dactyl"
+        ],
+        "réponse": "Dactyl",
+        "anecdote": "Dit innovatieve project demonstreerde de leer- en manipulatiemogelijkheden van AI in robotica."
+      }
+    ]
+    }
+  }
+}

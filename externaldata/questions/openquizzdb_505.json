@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Jaubert",       
+  "difficulté": "4 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-06-10",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Informatique",
+      "nom": "Téléphonie mobile",
+      "slogan": "En dehors des zones blanches"
+    },
+    "en": {
+      "catégorie": "Computer science",
+      "nom": "Mobile telephony",
+      "slogan": "And out of the white areas"
+    },
+    "es": {
+      "catégorie": "Ciencias de la Computación",
+      "nom": "Celular",
+      "slogan": "Y fuera de las zonas blancas"
+    },
+    "it": {
+      "catégorie": "Informatica",
+      "nom": "Telefonia mobile",
+      "slogan": "E fuori dalle zone bianche"
+    },
+    "de": {
+      "catégorie": "Informatik",
+      "nom": "Mobiltelefonie",
+      "slogan": "Und aus den weißen Bereichen heraus"
+    },
+    "nl": {
+      "catégorie": "Computertechnologie",
+      "nom": "Mobiele telefonie",
+      "slogan": "En uit de witte gebieden"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel type de code permet de déverrouiller la carte SIM de votre smartphone ?",
+        "propositions": [
+          "IBAN",
+          "PIN",
+          "PUK",
+          "IMEI"
+        ],
+        "réponse": "PIN",
+        "anecdote": "Ce code, souvent à quatre chiffres, est destiné à authentifier le titulaire d'une carte bancaire, d'une carte SIM ou d'une carte à puce."
+      },
+      {
+        "id": 2,
+        "question": "Quel est le premier smartphone et téléphone mobile à écran tactile de l'histoire ?",
+        "propositions": [
+          "Nokia 3310",
+          "SH-100",
+          "iPhone EDGE",
+          "IBM Simon"
+        ],
+        "réponse": "IBM Simon",
+        "anecdote": "Le premier smartphone de l'histoire a été présenté le 16 novembre 1992 au au COMDEX de Las Vegas (Nevada), ancêtre du CES."
+      },
+      {
+        "id": 3,
+        "question": "En quelle année a été commercialisé le tout premier smartphone ?",
+        "propositions": [
+          "1989",
+          "1994",
+          "1999",
+          "2004"
+        ],
+        "réponse": "1994",
+        "anecdote": "En plus des fonctions de téléphonie cellulaire, l'IBM Simon était capable d'envoyer et recevoir des fax et faisait office de pager."
+      },
+      {
+        "id": 4,
+        "question": "Quelle entreprise, faisant partie des GAFAM, a racheté Android en 2005 ?",
+        "propositions": [
+          "Facebook",
+          "Google",
+          "Amazon",
+          "Microsoft"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android est le système d'exploitation mobile le plus utilisé dans le monde, devant iOS d'Apple, avec plus de 80 % de parts de marché."
+      },
+      {
+        "id": 5,
+        "question": "Quel est le premier smartphone de la gamme iPhone d'Apple ?",
+        "propositions": [
+          "G1",
+          "Max",
+          "Storm",
+          "EDGE"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "Le développement du produit a commencé en 2005 et s'est poursuivi dans le plus grand secret jusqu'à son dévoilement public."
+      },
+      {
+        "id": 6,
+        "question": "En France, depuis quand les smartphones sont-ils interdits dans les écoles ?",
+        "propositions": [
+          "2023",
+          "2013",
+          "2010",
+          "2018"
+        ],
+        "réponse": "2018",
+        "anecdote": "Les adolescents ayant grandi durant les deux premières décennies du XXIe siècle ont bénéficié de l'influence des NTIC."
+      },
+      {
+        "id": 7,
+        "question": "Quel terme désigne un piéton ayant les yeux rivés à son téléphone mobile ?",
+        "propositions": [
+          "Muggon",
+          "Chtonien",
+          "Smombie",
+          "Cracmol"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "Selon une étude menée en 2014, 17 % des piétons de grandes villes auraient un comportement à risque avec leur smartphone."
+      },
+      {
+        "id": 8,
+        "question": "Quel fut le premier opérateur téléphonique français à lancer son réseau mobile ?",
+        "propositions": [
+          "SFR",
+          "France Telecom",
+          "Bouygues Telecom",
+          "Itineris"
+        ],
+        "réponse": "France Telecom",
+        "anecdote": "Le 1er octobre 1991, France Telecom a débuté à Strasbourg une expérience-pilote de téléphonie sans-fil grand-public, en ville."
+      },
+      {
+        "id": 9,
+        "question": "Quel sigle est associé à la messagerie multimédia pour téléphone mobile ?",
+        "propositions": [
+          "MMS",
+          "TDM",
+          "MDR",
+          "GSM"
+        ],
+        "réponse": "MMS",
+        "anecdote": "Il étend les capacités des SMS, permettant de transmettre des photos, des enregistrements audio ainsi que de la vidéo."
+      },
+      {
+        "id": 10,
+        "question": "Quelle zone géographique est parfois non desservie par un réseau cellulaire ?",
+        "propositions": [
+          "Zone creuse",
+          "Zone rouge",
+          "Zone vide",
+          "Zone blanche"
+        ],
+        "réponse": "Zone blanche",
+        "anecdote": "Il s'agit souvent des zones les moins densément peuplées (typiquement les zones rurales), sans réel intérêt d'investissement."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel terme français est synonyme de roaming en téléphonie mobile ?",
+        "propositions": [
+          "Itinérance",
+          "Migration",
+          "Transhumance",
+          "Nomadisme"
+        ],
+        "réponse": "Itinérance",
+        "anecdote": "Le roaming et le handover sont deux caractéristiques fondamentales des réseaux mobile de types GSM, UMTS, LTE ou 5G."
+      },
+      {
+        "id": 12,
+        "question": "Quel est le nom du premier protocole de communication de l'internet mobile ?",
+        "propositions": [
+          "WAP",
+          "WiMAX",
+          "POW",
+          "MobiNet"
+        ],
+        "réponse": "WAP",
+        "anecdote": "Il redéfinit le protocole HTTP, l'HTML et le JavaScript pour les adapter au monde des périphériques ayant un écran de taille réduite."
+      },
+      {
+        "id": 13,
+        "question": "Quel sigle désigne les opérateurs de téléphonie mobile sans réseau propre ?",
+        "propositions": [
+          "ACVN",
+          "OMNI",
+          "MVNO",
+          "GLOCOM"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "En général, un MVNO représente une société indépendante de l'opérateur, ce qui lui permet de fixer ses tarifs propres."
+      },
+      {
+        "id": 14,
+        "question": "Quel opérateur français privé fut le premier à lancer son réseau mobile ?",
+        "propositions": [
+          "SFR",
+          "Bouygues Telecom",
+          "France Telecom",
+          "Itineris"
+        ],
+        "réponse": "SFR",
+        "anecdote": "La Société Française du Radiotéléphone est une branche regroupant les activités télécoms du groupe luxembourgeois Altice France."
+      },
+      {
+        "id": 15,
+        "question": "Quel est le composant le plus énergivore d'un smartphone ?",
+        "propositions": [
+          "Mémoire vive",
+          "Processeur",
+          "Écran",
+          "Antenne"
+        ],
+        "réponse": "Écran",
+        "anecdote": "Les smartphones modernes ont des écrans assez impressionnants : plus ils emballent de pixels, plus ils consomment de puissance."
+      },
+      {
+        "id": 16,
+        "question": "En quelle année le port USB-C fut-il imposé sur les smartphones ?",
+        "propositions": [
+          "2026",
+          "2020",
+          "2022",
+          "2024"
+        ],
+        "réponse": "2024",
+        "anecdote": "La directive sur le chargeur unique, qui a largement fait parler d'elle, a en effet été publiée au Journal officiel européen en 2023."
+      },
+      {
+        "id": 17,
+        "question": "Quel pays a construit le plus grand nombre de smartphones en 2021 ?",
+        "propositions": [
+          "Chine",
+          "Taiwan",
+          "Japon",
+          "Corée du sud"
+        ],
+        "réponse": "Chine",
+        "anecdote": "La Chine a contribué à 67 % de la production mondiale en 2021, les autres pays n'ayant pas compensé le déclin d'Huawei."
+      },
+      {
+        "id": 18,
+        "question": "Quelle est la signification du premier S du sigle SMS ?",
+        "propositions": [
+          "Swift",
+          "Secure",
+          "Short",
+          "Speedy"
+        ],
+        "réponse": "Short",
+        "anecdote": "Dans certaines régions du monde comme l'Amérique du Nord, le Royaume-Uni ou les Philippines, on parle de messagerie texte."
+      },
+      {
+        "id": 19,
+        "question": "Quelle est la signification du S présent dans le sigle MMS ?",
+        "propositions": [
+          "Secure",
+          "Service",
+          "Short",
+          "System"
+        ],
+        "réponse": "Service",
+        "anecdote": "Il étend les capacités des SMS, permettant de transmettre des photos, des enregistrements audio ainsi que de la vidéo."
+      },
+      {
+        "id": 20,
+        "question": "Quel seuil de recharge maximal est optimal pour la batterie de votre smartphone ?",
+        "propositions": [
+          "85 %",
+          "95 %",
+          "75 %",
+          "65 %"
+        ],
+        "réponse": "85 %",
+        "anecdote": "Une batterie d'accumulateurs permet de stocker l'énergie électrique sous forme chimique et de la restituer en courant continu."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Lequel de ces acronymes ne désigne aucune des versions de la norme 2G ?",
+        "propositions": [
+          "AMPS",
+          "GPRS",
+          "EDGE",
+          "GSM"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS est un sigle informatique, néologisme basé sur LAMP, reprenant les premières lettres de Apache, MySQL, PHP et Solaris."
+      },
+      {
+        "id": 22,
+        "question": "Lequel de ces acronymes ne désigne aucune des versions de la norme 3G ?",
+        "propositions": [
+          "HSPA",
+          "LTE",
+          "HSPA+",
+          "UMTS"
+        ],
+        "réponse": "LTE",
+        "anecdote": "La norme LTE, définie par le consortium 3GPP, a d'abord été considérée comme une norme de troisième génération 3.9G."
+      },
+      {
+        "id": 23,
+        "question": "Quel terme désigne le fait de remplacer le système d'exploitation de son mobile ?",
+        "propositions": [
+          "Format",
+          "Defrag",
+          "Flash",
+          "Override"
+        ],
+        "réponse": "Flash",
+        "anecdote": "La téléphonie cellulaire est un moyen de télécommunication, plus précisément de radiocommunication, par téléphone mobile."
+      },
+      {
+        "id": 24,
+        "question": "Comment est appelé le fichier d'image d'un système d'exploitation mobile ?",
+        "propositions": [
+          "iOS",
+          "ROM",
+          "RAR",
+          "RAM"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Originellement, l'expression mémoire morte (en anglais, Read-Only Memory : ROM) désignait une mémoire informatique non volatile."
+      },
+      {
+        "id": 25,
+        "question": "Quel est le nom du premier smartphone pliable proposé au grand public ?",
+        "propositions": [
+          "Find N2",
+          "Mate X3",
+          "FlexPai",
+          "Galaxy X"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "On attendait Samsung, et c'est finalement Royole qui a grillé la politesse à tout le monde, fabricant chinois de dalles flexibles."
+      },
+      {
+        "id": 26,
+        "question": "En quelle année est sortie la première version de « PUBG » sur mobile ?",
+        "propositions": [
+          "2014",
+          "2018",
+          "2012",
+          "2016"
+        ],
+        "réponse": "2018",
+        "anecdote": "Le jeu est en effet disponible sur iOS et Android gratuitement depuis mars 2018 sous le titre « PlayerUnknown's Battlegrounds Mobile »."
+      },
+      {
+        "id": 27,
+        "question": "En quelle année est sortie la première version de « Clash of Clans » sur iOS ?",
+        "propositions": [
+          "2014",
+          "2012",
+          "2010",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "Ce jeu vidéo mobile de stratégie en temps réel massivement multijoueur est développé et édité par le studio finlandais Supercell."
+      },
+      {
+        "id": 28,
+        "question": "En quelle année est sortie la première version de « Candy Crush Saga » sur mobile ?",
+        "propositions": [
+          "2006",
+          "2008",
+          "2010",
+          "2012"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » est préinstallé sur les appareils dotés de base de Windows 10, au même titre que « Solitaire » et « Démineur »."
+      },
+      {
+        "id": 29,
+        "question": "En quelle année est sortie la première version de « Fruit Ninja » sur mobile ?",
+        "propositions": [
+          "2010",
+          "2012",
+          "2008",
+          "2006"
+        ],
+        "réponse": "2010",
+        "anecdote": "Développé par Halfbrick Studios, « Fruit Ninja » fait partie du kit de démarrage iOS et Xbox 360 (également adapté pour Kinect)."
+      },
+      {
+        "id": 30,
+        "question": "En quelle année est sortie la première version de « 8 Ball Pool » sur mobile ?",
+        "propositions": [
+          "2012",
+          "2008",
+          "2014",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "La version mobile de « 8 Ball Pool » est gérée par Miniclip, une société de jeux basée en Suisse, au Portugal, en Italie et en Angleterre."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What code unlocks the SIM card of your smartphone ?",
+        "propositions": [
+          "IBAN",
+          "IMEI",
+          "PUK",
+          "PIN"
+        ],
+        "réponse": "PIN",
+        "anecdote": "This code, often four digits, is intended to authenticate the holder of a bank card, a SIM card or a smart card."
+      },
+      {
+        "id": 2,
+        "question": "What is the first touchscreen smartphone and mobile phone in history ?",
+        "propositions": [
+          "iPhone EDGE",
+          "IBM Simon",
+          "SH-100",
+          "Nokia 3310"
+        ],
+        "réponse": "IBM Simon",
+        "anecdote": "The first smartphone in history was presented on November 16, 1992 at COMDEX in Las Vegas (Nevada), ancestor of CES."
+      },
+      {
+        "id": 3,
+        "question": "In what year was the very first smartphone released ?",
+        "propositions": [
+          "1999",
+          "2004",
+          "1989",
+          "1994"
+        ],
+        "réponse": "1994",
+        "anecdote": "In addition to cell phone functions, the IBM Simon was capable of sending and receiving faxes and acted as a pager."
+      },
+      {
+        "id": 4,
+        "question": "Which company, part of GAFAM, bought Android in 2005 ?",
+        "propositions": [
+          "Facebook",
+          "Google",
+          "Microsoft",
+          "Amazon"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android is the most widely used mobile operating system in the world, ahead of Apple's iOS, with over 80 % market share."
+      },
+      {
+        "id": 5,
+        "question": "What is the first smartphone in Apple's iPhone line ?",
+        "propositions": [
+          "Storm",
+          "EDGE",
+          "Max",
+          "G1"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "Development of the product began in 2005 and continued under strict secrecy until its public unveiling."
+      },
+      {
+        "id": 6,
+        "question": "In France, since when are smartphones banned in schools ?",
+        "propositions": [
+          "2010",
+          "2018",
+          "2013",
+          "2023"
+        ],
+        "réponse": "2018",
+        "anecdote": "Teenagers growing up in the first two decades of the 21st century have benefited from the influence of ICTs."
+      },
+      {
+        "id": 7,
+        "question": "What term refers to a pedestrian staring at their mobile phone ?",
+        "propositions": [
+          "Cracmol",
+          "Chtonien",
+          "Muggon",
+          "Smombie"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "According to a study conducted in 2014, 17% of pedestrians in large cities behave at risk with their smartphone."
+      },
+      {
+        "id": 8,
+        "question": "Which was the first French telephone operator to launch its mobile network ?",
+        "propositions": [
+          "France Telecom",
+          "SFR",
+          "Bouygues Telecom",
+          "Itineris"
+        ],
+        "réponse": "France Telecom",
+        "anecdote": "On October 1, 1991, France Telecom began a pilot experiment in wireless telephony for the general public in town in Strasbourg."
+      },
+      {
+        "id": 9,
+        "question": "What acronym is associated with multimedia messaging for mobile phones ?",
+        "propositions": [
+          "GSM",
+          "MDR",
+          "TDM",
+          "MMS"
+        ],
+        "réponse": "MMS",
+        "anecdote": "It extends the capabilities of SMS, allowing the transmission of photos, audio recordings as well as video."
+      },
+      {
+        "id": 10,
+        "question": "What geographic area is sometimes not served by a cellular network ?",
+        "propositions": [
+          "Red zone",
+          "Hollow area",
+          "Empty area",
+          "White area"
+        ],
+        "réponse": "White area",
+        "anecdote": "These are often the least densely populated areas (typically rural areas), with no real investment interest."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which French term is synonymous with roaming in mobile telephony ?",
+        "propositions": [
+          "Transhumance",
+          "Roaming",
+          "Nomadism",
+          "Migration"
+        ],
+        "réponse": "Roaming",
+        "anecdote": "Roaming and handover are two fundamental characteristics of mobile networks such as GSM, UMTS, LTE or 5G."
+      },
+      {
+        "id": 12,
+        "question": "What is the name of the first mobile internet communication protocol ?",
+        "propositions": [
+          "WAP",
+          "WiFiMAX",
+          "MobiNet",
+          "POW"
+        ],
+        "réponse": "WAP",
+        "anecdote": "It redefines the HTTP protocol, HTML and JavaScript to adapt them to the world of devices with a small screen size."
+      },
+      {
+        "id": 13,
+        "question": "What is the acronym for mobile phone operators without their own network ?",
+        "propositions": [
+          "MVNO",
+          "OMNI",
+          "GLOCOM",
+          "ACVN"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "In general, an MVNO represents a company independent of the operator, which allows it to set its own prices."
+      },
+      {
+        "id": 14,
+        "question": "Which French private operator was the first to launch its mobile network ?",
+        "propositions": [
+          "Itineris",
+          "Bouygues Telecom",
+          "SFR",
+          "France Telecom"
+        ],
+        "réponse": "SFR",
+        "anecdote": "The Société Française du Radiotéléphone is a branch bringing together the telecom activities of the Luxembourg group Altice France."
+      },
+      {
+        "id": 15,
+        "question": "What is the most energy-consuming component of a smartphone ?",
+        "propositions": [
+          "Processor",
+          "Screen",
+          "RAM",
+          "Antenna"
+        ],
+        "réponse": "Screen",
+        "anecdote": "Modern smartphones have quite impressive screens : the more pixels they pack, the more power they consume."
+      },
+      {
+        "id": 16,
+        "question": "In what year was the USB-C port imposed on smartphones ?",
+        "propositions": [
+          "2026",
+          "2022",
+          "2024",
+          "2020"
+        ],
+        "réponse": "2024",
+        "anecdote": "The much talked about Single Charger Directive was indeed published in the European Official Journal in 2023."
+      },
+      {
+        "id": 17,
+        "question": "Which country built the most smartphones in 2021 ?",
+        "propositions": [
+          "Taiwan",
+          "Japan",
+          "South Korea",
+          "China"
+        ],
+        "réponse": "China",
+        "anecdote": "China contributed 67% of global production in 2021, with other countries failing to compensate for Huawei's decline."
+      },
+      {
+        "id": 18,
+        "question": "What is the meaning of the first S of the acronym SMS ?",
+        "propositions": [
+          "Shorts",
+          "Swift",
+          "Secure",
+          "Speedy"
+        ],
+        "réponse": "Shorts",
+        "anecdote": "In some parts of the world such as North America, the United Kingdom or the Philippines, it is called text messaging."
+      },
+      {
+        "id": 19,
+        "question": "What is the meaning of the S present in the acronym MMS ?",
+        "propositions": [
+          "Secure",
+          "Service",
+          "System",
+          "Short"
+        ],
+        "réponse": "Service",
+        "anecdote": "It extends the capabilities of SMS, allowing the transmission of photos, audio recordings as well as video."
+      },
+      {
+        "id": 20,
+        "question": "What maximum recharge threshold is optimal for your smartphone battery ?",
+        "propositions": [
+          "95%",
+          "85%",
+          "65%",
+          "75%"
+        ],
+        "réponse": "85%",
+        "anecdote": "An accumulator battery makes it possible to store electrical energy in chemical form and to restore it in direct current."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which of these acronyms does not refer to any version of the 2G standard ?",
+        "propositions": [
+          "EDGE",
+          "GPRS",
+          "GSM",
+          "AMPS"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS is a computer acronym, neologism based on LAMP, taking up the first letters of Apache, MySQL, PHP and Solaris."
+      },
+      {
+        "id": 22,
+        "question": "Which of these acronyms does not refer to any version of the 3G standard ?",
+        "propositions": [
+          "LTE",
+          "UMTS",
+          "HSPA+",
+          "HSPA"
+        ],
+        "réponse": "LTE",
+        "anecdote": "The LTE standard, defined by the 3GPP consortium, was first considered a third-generation 3.9G."
+      },
+      {
+        "id": 23,
+        "question": "What term refers to the fact of replacing the operating system of his mobile ?",
+        "propositions": [
+          "Defrag",
+          "Flash",
+          "Size",
+          "Overriding"
+        ],
+        "réponse": "Flash",
+        "anecdote": "Cellular telephony is a means of telecommunication, more precisely of radiocommunication, by mobile telephone."
+      },
+      {
+        "id": 24,
+        "question": "What is the image file of a mobile operating system called ?",
+        "propositions": [
+          "RAR",
+          "iOS",
+          "RAM",
+          "ROM"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Originally, the term Read-Only Memory (ROM) referred to non-volatile computer memory."
+      },
+      {
+        "id": 25,
+        "question": "What is the name of the first foldable smartphone offered to the general public ?",
+        "propositions": [
+          "Find N2",
+          "Mate X3",
+          "Galaxy X",
+          "FlexPai"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "We were waiting for Samsung, and it was finally Royole who toasted everyone's politeness, a Chinese manufacturer of flexible panels."
+      },
+      {
+        "id": 26,
+        "question": "What year was the first version of « PUBG » released on mobile ?",
+        "propositions": [
+          "2016",
+          "2014",
+          "2018",
+          "2012"
+        ],
+        "réponse": "2018",
+        "anecdote": "The game is indeed available on iOS and Android for free since March 2018 under the title « PlayerUnknown's Battlegrounds Mobile »."
+      },
+      {
+        "id": 27,
+        "question": "What year was the first version of « Clash of Clans » released on iOS ?",
+        "propositions": [
+          "2012",
+          "2010",
+          "2014",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "This massively multiplayer real-time strategy mobile video game is developed and published by Finnish studio Supercell."
+      },
+      {
+        "id": 28,
+        "question": "What year was the first version of « Candy Crush Saga » released on mobile ?",
+        "propositions": [
+          "2012",
+          "2010",
+          "2008",
+          "2006"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » comes pre-installed on devices with base Windows 10, along with « Solitaire » and « Minesweeper »."
+      },
+      {
+        "id": 29,
+        "question": "What year was the first version of « Fruit Ninja » released on mobile ?",
+        "propositions": [
+          "2008",
+          "2006",
+          "2012",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "Developed by Halfbrick Studios, « Fruit Ninja » is part of the iOS and Xbox 360 starter kit (also suitable for Kinect)."
+      },
+      {
+        "id": 30,
+        "question": "What year was the first version of « 8 Ball Pool » released on mobile ?",
+        "propositions": [
+          "2012",
+          "2010",
+          "2014",
+          "2008"
+        ],
+        "réponse": "2010",
+        "anecdote": "The mobile version of « 8 Ball Pool » is operated by Miniclip, a game company based in Switzerland, Portugal, Italy and England."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Code entsperrt die SIM-Karte Ihres Smartphones ?",
+        "propositions": [
+          "PUK",
+          "IMEI",
+          "IBAN",
+          "PIN"
+        ],
+        "réponse": "PIN",
+        "anecdote": "Dieser oft vierstellige Code dient der Authentifizierung des Inhabers einer Bankkarte, einer SIM-Karte oder einer Smartcard."
+      },
+      {
+        "id": 2,
+        "question": "Was ist das erste Touchscreen-Smartphone und -Mobiltelefon der Geschichte ?",
+        "propositions": [
+          "IBM Simon",
+          "Nokia 3310",
+          "SH-100",
+          "iPhone EDGE"
+        ],
+        "réponse": "IBM Simon",
+        "anecdote": "Das erste Smartphone der Geschichte wurde am 16. November 1992 auf der COMDEX in Las Vegas (Nevada), dem Vorläufer der CES, vorgestellt."
+      },
+      {
+        "id": 3,
+        "question": "In welchem Jahr wurde das allererste Smartphone veröffentlicht ?",
+        "propositions": [
+          "1994",
+          "2004",
+          "1999",
+          "1989"
+        ],
+        "réponse": "1994",
+        "anecdote": "Zusätzlich zu den Mobiltelefonfunktionen war der IBM Simon in der Lage, Faxe zu senden und zu empfangen und fungierte als Pager."
+      },
+      {
+        "id": 4,
+        "question": "Welches Unternehmen, das zu GAFAM gehört, hat Android im Jahr 2005 gekauft ?",
+        "propositions": [
+          "Microsoft",
+          "Facebook",
+          "Amazon",
+          "Google"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android ist mit einem Marktanteil von über 80 % das am weitesten verbreitete mobile Betriebssystem der Welt, vor Apples iOS."
+      },
+      {
+        "id": 5,
+        "question": "Was ist das erste Smartphone in Apples iPhone-Reihe ?",
+        "propositions": [
+          "G1",
+          "Storm",
+          "EDGE",
+          "Max"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "Die Entwicklung des Produkts begann im Jahr 2005 und wurde bis zu seiner öffentlichen Vorstellung unter strenger Geheimhaltung fortgesetzt."
+      },
+      {
+        "id": 6,
+        "question": "Seit wann sind in Frankreich Smartphones in Schulen verboten ?",
+        "propositions": [
+          "2010",
+          "2023",
+          "2018",
+          "2013"
+        ],
+        "réponse": "2018",
+        "anecdote": "Jugendliche, die in den ersten beiden Jahrzehnten des 21. Jahrhunderts aufwuchsen, profitierten vom Einfluss der NIKT."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Begriff bezieht sich auf einen Fußgänger, der auf sein Mobiltelefon starrt ?",
+        "propositions": [
+          "Cracmol",
+          "Muggon",
+          "Smombie",
+          "Chthonisch"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "Laut einer Studie aus dem Jahr 2014 verhalten sich 17 % der Fußgänger in Großstädten mit ihrem Smartphone gefährdet."
+      },
+      {
+        "id": 8,
+        "question": "Welcher war der erste französische Telefonanbieter, der sein Mobilfunknetz eingeführt hat ?",
+        "propositions": [
+          "France Telecom",
+          "Bouygues Telecom",
+          "SFR",
+          "itineris"
+        ],
+        "réponse": "France Telecom",
+        "anecdote": "Am 1. Oktober 1991 startete France Telecom einen Pilotversuch zur drahtlosen Telefonie für die breite Öffentlichkeit in der Stadt Straßburg."
+      },
+      {
+        "id": 9,
+        "question": "Welches Akronym steht für Multimedia-Messaging für Mobiltelefone ?",
+        "propositions": [
+          "GSM",
+          "TDM",
+          "MMS",
+          "MDR"
+        ],
+        "réponse": "MMS",
+        "anecdote": "Es erweitert die Möglichkeiten von SMS und ermöglicht die Übertragung von Fotos, Audioaufnahmen sowie Videos."
+      },
+      {
+        "id": 10,
+        "question": "Welches geografische Gebiet wird manchmal nicht von einem Mobilfunknetz bedient ?",
+        "propositions": [
+          "Hohlraum",
+          "Leerer Bereich",
+          "Weißer Bereich",
+          "Rote Zone"
+        ],
+        "réponse": "Weißer Bereich",
+        "anecdote": "Dabei handelt es sich oft um die am dünnsten besiedelten Gebiete (typischerweise ländliche Gebiete), in denen es kein wirkliches Investitionsinteresse gibt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher französische Begriff steht für Roaming im Mobilfunk ?",
+        "propositions": [
+          "Migration",
+          "Roaming",
+          "Transhumanz",
+          "Nomadismus"
+        ],
+        "réponse": "Roaming",
+        "anecdote": "Roaming und Handover sind zwei grundlegende Merkmale von Mobilfunknetzen wie GSM, UMTS, LTE oder 5G."
+      },
+      {
+        "id": 12,
+        "question": "Wie heißt das erste mobile Internet-Kommunikationsprotokoll ?",
+        "propositions": [
+          "WAP",
+          "WiFiMAX",
+          "POW",
+          "MobiNet"
+        ],
+        "réponse": "WAP",
+        "anecdote": "Es definiert das HTTP-Protokoll, HTML und JavaScript neu, um sie an die Welt der Geräte mit kleiner Bildschirmgröße anzupassen."
+      },
+      {
+        "id": 13,
+        "question": "Was ist die Abkürzung für Mobilfunkbetreiber ohne eigenes Netz ?",
+        "propositions": [
+          "OMNI",
+          "ACVN",
+          "MVNO",
+          "GLOCOM"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "Im Allgemeinen stellt ein MVNO ein vom Betreiber unabhängiges Unternehmen dar, das ihm die Möglichkeit gibt, seine Preise selbst festzulegen."
+      },
+      {
+        "id": 14,
+        "question": "Welcher französische Privatbetreiber hat als erster sein Mobilfunknetz eingeführt ?",
+        "propositions": [
+          "SFR",
+          "Bouygues Telecom",
+          "itineris",
+          "France Telecom"
+        ],
+        "réponse": "SFR",
+        "anecdote": "Die Société Française du Radiotéléphone ist eine Niederlassung, die die Telekommunikationsaktivitäten der luxemburgischen Gruppe Altice France bündelt."
+      },
+      {
+        "id": 15,
+        "question": "Welche Komponente eines Smartphones verbraucht am meisten Energie ?",
+        "propositions": [
+          "RAM",
+          "Prozessor",
+          "Antenne",
+          "Bildschirm"
+        ],
+        "réponse": "Bildschirm",
+        "anecdote": "Moderne Smartphones verfügen über ziemlich beeindruckende Bildschirme : Je mehr Pixel sie packen, desto mehr Strom verbrauchen sie."
+      },
+      {
+        "id": 16,
+        "question": "In welchem Jahr wurde der USB-C-Anschluss für Smartphones eingeführt ?",
+        "propositions": [
+          "2026",
+          "2024",
+          "2022",
+          "2020"
+        ],
+        "réponse": "2024",
+        "anecdote": "Die viel diskutierte Single-Charger-Richtlinie wurde tatsächlich im Jahr 2023 im Europäischen Amtsblatt veröffentlicht."
+      },
+      {
+        "id": 17,
+        "question": "Welches Land hat 2021 die meisten Smartphones gebaut ?",
+        "propositions": [
+          "China",
+          "Japan",
+          "Südkorea",
+          "Taiwan"
+        ],
+        "réponse": "China",
+        "anecdote": "China trug im Jahr 2021 67 % zur Weltproduktion bei, während andere Länder den Rückgang von Huawei nicht ausgleichen konnten."
+      },
+      {
+        "id": 18,
+        "question": "Was bedeutet das erste S des Akronyms SMS ?",
+        "propositions": [
+          "Sicher",
+          "Shorts",
+          "Schnell",
+          "Schnell"
+        ],
+        "réponse": "Shorts",
+        "anecdote": "In einigen Teilen der Welt, beispielsweise in Nordamerika, im Vereinigten Königreich oder auf den Philippinen, spricht man von Textnachrichten."
+      },
+      {
+        "id": 19,
+        "question": "Was bedeutet das S im Akronym MMS ?",
+        "propositions": [
+          "Service",
+          "System",
+          "Short",
+          "Secure"
+        ],
+        "réponse": "Service",
+        "anecdote": "Es erweitert die Möglichkeiten von SMS und ermöglicht die Übertragung von Fotos, Audioaufnahmen sowie Videos."
+      },
+      {
+        "id": 20,
+        "question": "Welche maximale Ladeschwelle ist für den Akku Ihres Smartphones optimal ?",
+        "propositions": [
+          "85 %",
+          "65 %",
+          "95 %",
+          "75 %"
+        ],
+        "réponse": "85 %",
+        "anecdote": "Ein Akkumulator ermöglicht es, elektrische Energie in chemischer Form zu speichern und in Gleichstrom umzuwandeln."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches dieser Akronyme bezieht sich auf keine Version des 2G-Standards ?",
+        "propositions": [
+          "GPRS",
+          "AMPS",
+          "GSM",
+          "EDGE"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS ist ein Computer-Akronym, eine Neuschöpfung, die auf LAMP basiert und die Anfangsbuchstaben von Apache, MySQL, PHP und Solaris aufgreift."
+      },
+      {
+        "id": 22,
+        "question": "Welches dieser Akronyme bezieht sich auf keine Version des 3G-Standards ?",
+        "propositions": [
+          "UMTS",
+          "LTE",
+          "HSPA",
+          "HSPA+"
+        ],
+        "réponse": "LTE",
+        "anecdote": "Der vom 3GPP-Konsortium definierte LTE-Standard galt zunächst als 3,9G-Standard der dritten Generation."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Begriff bezieht sich auf die Tatsache, das Betriebssystem seines Mobiltelefons zu ersetzen ?",
+        "propositions": [
+          "Überschreiben",
+          "Größe",
+          "Blitz",
+          "Defragmentieren"
+        ],
+        "réponse": "Blitz",
+        "anecdote": "Mobilfunk ist ein Mittel der Telekommunikation, genauer gesagt der Funkkommunikation, per Mobiltelefon."
+      },
+      {
+        "id": 24,
+        "question": "Wie heißt die Image-Datei eines mobilen Betriebssystems ?",
+        "propositions": [
+          "ROM",
+          "iOS",
+          "RAR",
+          "RAM"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Ursprünglich bezog sich der Begriff Read-Only Memory (ROM) auf den nichtflüchtigen Computerspeicher."
+      },
+      {
+        "id": 25,
+        "question": "Wie heißt das erste faltbare Smartphone, das der breiten Öffentlichkeit angeboten wird ?",
+        "propositions": [
+          "Galaxy X",
+          "FlexPai",
+          "Mate X3",
+          "Find N2"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "Wir warteten auf Samsung, und schließlich war es Royole, ein chinesischer Hersteller flexibler Panels, der auf die Höflichkeit aller anstieß."
+      },
+      {
+        "id": 26,
+        "question": "In welchem Jahr wurde die erste Version von « PUBG » auf Mobilgeräten veröffentlicht ?",
+        "propositions": [
+          "2016",
+          "2018",
+          "2014",
+          "2012"
+        ],
+        "réponse": "2018",
+        "anecdote": "Tatsächlich ist das Spiel seit März 2018 unter dem Titel « PlayerUnknown's Battlegrounds Mobile » kostenlos für iOS und Android erhältlich."
+      },
+      {
+        "id": 27,
+        "question": "In welchem Jahr wurde die erste Version von « Clash of Clans » auf iOS veröffentlicht ?",
+        "propositions": [
+          "2010",
+          "2014",
+          "2012",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "Dieses Massively-Multiplayer-Echtzeitstrategie-Mobilvideospiel wurde vom finnischen Studio Supercell entwickelt und veröffentlicht."
+      },
+      {
+        "id": 28,
+        "question": "In welchem Jahr wurde die erste Version von « Candy Crush Saga » auf Mobilgeräten veröffentlicht ?",
+        "propositions": [
+          "2006",
+          "2012",
+          "2010",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » ist auf Geräten mit Basis-Windows 10 vorinstalliert, zusammen mit « Solitaire » und « Minesweeper »."
+      },
+      {
+        "id": 29,
+        "question": "In welchem Jahr wurde die erste Version von « Fruit Ninja » auf Mobilgeräten veröffentlicht ?",
+        "propositions": [
+          "2006",
+          "2012",
+          "2008",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "« Fruit Ninja » wurde von Halfbrick Studios entwickelt und ist Teil des iOS- und Xbox 360-Starterkits (auch für Kinect geeignet)."
+      },
+      {
+        "id": 30,
+        "question": "In welchem Jahr wurde die erste Version von « 8 Ball Pool » auf Mobilgeräten veröffentlicht ?",
+        "propositions": [
+          "2012",
+          "2014",
+          "2010",
+          "2008"
+        ],
+        "réponse": "2010",
+        "anecdote": "Die mobile Version von « 8 Ball Pool » wird von Miniclip betrieben, einem Spieleunternehmen mit Sitz in der Schweiz, Portugal, Italien und England."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué código desbloquea la tarjeta SIM de tu smartphone ?",
+        "propositions": [
+          "PUK",
+          "IMEI",
+          "PIN",
+          "IBAN"
+        ],
+        "réponse": "PIN",
+        "anecdote": "Este código, a menudo de cuatro dígitos, está destinado a autenticar al titular de una tarjeta bancaria, una tarjeta SIM o una tarjeta inteligente."
+      },
+      {
+        "id": 2,
+        "question": "¿Cuál es el primer teléfono inteligente y teléfono móvil con pantalla táctil de la historia ?",
+        "propositions": [
+          "IBM Simón",
+          "Nokia 3310",
+          "iPhone EDGE",
+          "SH-100"
+        ],
+        "réponse": "IBM Simón",
+        "anecdote": "El primer smartphone de la historia se presentó el 16 de noviembre de 1992 en el COMDEX de Las Vegas (Nevada), antecesor del CES."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué año se lanzó el primer teléfono inteligente ?",
+        "propositions": [
+          "1994",
+          "1999",
+          "1989",
+          "2004"
+        ],
+        "réponse": "1994",
+        "anecdote": "Además de las funciones del teléfono celular, IBM Simon era capaz de enviar y recibir faxes y actuaba como un buscapersonas."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué empresa, parte de GAFAM, compró Android en 2005 ?",
+        "propositions": [
+          "Facebook",
+          "Google",
+          "microsoft",
+          "Amazon"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android es el sistema operativo móvil más utilizado en el mundo, por delante de iOS de Apple, con más del 80 % de cuota de mercado."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál es el primer teléfono inteligente en la línea de iPhone de Apple ?",
+        "propositions": [
+          "Storm",
+          "Max",
+          "EDGE",
+          "G1"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "El desarrollo del producto comenzó en 2005 y continuó bajo estricto secreto hasta su presentación pública."
+      },
+      {
+        "id": 6,
+        "question": "En Francia, ¿desde cuándo están prohibidos los teléfonos inteligentes en las escuelas ?",
+        "propositions": [
+          "2013",
+          "2010",
+          "2023",
+          "2018"
+        ],
+        "réponse": "2018",
+        "anecdote": "Los adolescentes que crecieron en las dos primeras décadas del siglo XXI se han beneficiado de la influencia de las TIC."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué término se refiere a un peatón mirando su teléfono móvil ?",
+        "propositions": [
+          "Cracmol",
+          "Chtonien",
+          "Muggon",
+          "Smombie"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "Según un estudio realizado en 2014, el 17% de los peatones de las grandes ciudades se comportan de forma arriesgada con su smartphone."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuál fue el primer operador de telefonía francés en lanzar su red móvil ?",
+        "propositions": [
+          "Bouygues Telecom",
+          "itineris",
+          "Francia Telecom",
+          "SFR"
+        ],
+        "réponse": "Francia Telecom",
+        "anecdote": "El 1 de octubre de 1991, France Telecom inició una experiencia piloto de telefonía inalámbrica para el público en general en la ciudad de Estrasburgo."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué acrónimo está asociado a la mensajería multimedia para teléfonos móviles ?",
+        "propositions": [
+          "TDM",
+          "MDR",
+          "GSM",
+          "MMS"
+        ],
+        "réponse": "MMS",
+        "anecdote": "Amplía las capacidades de SMS, permitiendo la transmisión de fotos, grabaciones de audio y video."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué área geográfica a veces no está atendida por una red celular ?",
+        "propositions": [
+          "Área blanca",
+          "Área hueca",
+          "Área vacía",
+          "Zona roja"
+        ],
+        "réponse": "Área blanca",
+        "anecdote": "Estas son a menudo las áreas menos densamente pobladas (típicamente áreas rurales), sin ningún interés de inversión real."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué término francés es sinónimo de roaming en telefonía móvil ?",
+        "propositions": [
+          "Migración",
+          "Itinerancia",
+          "Trashumancia",
+          "Nomadismo"
+        ],
+        "réponse": "Itinerancia",
+        "anecdote": "Roaming y handover son dos características fundamentales de las redes móviles como GSM, UMTS, LTE o 5G."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuál es el nombre del primer protocolo de comunicación de Internet móvil ?",
+        "propositions": [
+          "POW",
+          "WAP",
+          "MobiNet",
+          "WiFiMAX"
+        ],
+        "réponse": "WAP",
+        "anecdote": "Redefine el protocolo HTTP, HTML y JavaScript para adaptarlos al mundo de los dispositivos con un tamaño de pantalla pequeño."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál es el acrónimo de operadores de telefonía móvil sin red propia ?",
+        "propositions": [
+          "OMNI",
+          "MVNO",
+          "GLOCOM",
+          "ACVN"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "En general, un MVNO representa a una empresa independiente del operador, lo que le permite fijar sus propios precios."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué operador privado francés fue el primero en lanzar su red móvil ?",
+        "propositions": [
+          "Francia Telecom",
+          "itineris",
+          "SFR",
+          "Bouygues Telecom"
+        ],
+        "réponse": "SFR",
+        "anecdote": "La Société Française du Radiotéléphone es una rama que agrupa las actividades de telecomunicaciones del grupo luxemburgués Altice France."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál es el componente que más energía consume de un teléfono inteligente ?",
+        "propositions": [
+          "Pantalla",
+          "RAM",
+          "Procesador",
+          "Antena"
+        ],
+        "réponse": "Pantalla",
+        "anecdote": "Los teléfonos inteligentes modernos tienen pantallas bastante impresionantes : cuantos más píxeles contienen, más energía consumen."
+      },
+      {
+        "id": 16,
+        "question": "¿En qué año se impuso el puerto USB-C en los smartphones ?",
+        "propositions": [
+          "2024",
+          "2022",
+          "2020",
+          "2026"
+        ],
+        "réponse": "2024",
+        "anecdote": "De hecho, la tan comentada Directiva de cargador único se publicó en el Diario Oficial Europeo en 2023."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué país construyó la mayor cantidad de teléfonos inteligentes en 2021 ?",
+        "propositions": [
+          "chino",
+          "Taiwán",
+          "Japón",
+          "Corea del Sur"
+        ],
+        "réponse": "chino",
+        "anecdote": "China contribuyó con el 67% de la producción mundial en 2021, y otros países no lograron compensar el declive de Huawei."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál es el significado de la primera S de las siglas SMS ?",
+        "propositions": [
+          "Pantalones cortos",
+          "rápido",
+          "veloz",
+          "Seguro"
+        ],
+        "réponse": "Pantalones cortos",
+        "anecdote": "En algunas partes del mundo, como América del Norte, el Reino Unido o Filipinas, se llama mensajería de texto."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál es el significado de la S presente en las siglas MMS ?",
+        "propositions": [
+          "System",
+          "Service",
+          "Secure",
+          "Short"
+        ],
+        "réponse": "Service",
+        "anecdote": "Amplía las capacidades de SMS, permitiendo la transmisión de fotos, grabaciones de audio y video."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué umbral máximo de recarga es óptimo para la batería de tu smartphone ?",
+        "propositions": [
+          "75%",
+          "95%",
+          "65%",
+          "85%"
+        ],
+        "réponse": "85%",
+        "anecdote": "Una batería de acumuladores permite almacenar energía eléctrica en forma química y restituirla en corriente continua."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál de estas siglas no se refiere a ninguna versión del estándar 2G ?",
+        "propositions": [
+          "GSM",
+          "AMPS",
+          "EDGE",
+          "GPRS"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS es un acrónimo informático, neologismo basado en LAMP, que retoma las primeras letras de Apache, MySQL, PHP y Solaris."
+      },
+      {
+        "id": 22,
+        "question": "¿Cuál de estas siglas no se refiere a ninguna versión del estándar 3G ?",
+        "propositions": [
+          "HSPA",
+          "UMTS",
+          "LTE",
+          "HSPA+"
+        ],
+        "réponse": "LTE",
+        "anecdote": "El estándar LTE, definido por el consorcio 3GPP, se consideró por primera vez como un estándar 3.9G."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué término se refiere al hecho de reemplazar el sistema operativo de su móvil ?",
+        "propositions": [
+          "Tamaño",
+          "Desfragmentación",
+          "Anulando",
+          "Destello"
+        ],
+        "réponse": "Destello",
+        "anecdote": "La telefonía celular es un medio de telecomunicación, más precisamente de radiocomunicación, por teléfono móvil."
+      },
+      {
+        "id": 24,
+        "question": "¿Cómo se llama el archivo de imagen de un sistema operativo móvil ?",
+        "propositions": [
+          "ROM",
+          "RAM",
+          "RAR",
+          "iOS"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Originalmente, el término memoria de solo lectura (ROM) se refería a la memoria de computadora no volátil."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuál es el nombre del primer teléfono inteligente plegable ofrecido al público en general ?",
+        "propositions": [
+          "Galaxy X",
+          "Find N2",
+          "FlexPai",
+          "Mate X3"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "Estábamos esperando a Samsung, y finalmente fue Royole quien brindó por la cortesía de todos, un fabricante chino de paneles flexibles."
+      },
+      {
+        "id": 26,
+        "question": "¿En qué año se lanzó la primera versión de « PUBG » para dispositivos móviles ?",
+        "propositions": [
+          "2016",
+          "2012",
+          "2018",
+          "2014"
+        ],
+        "réponse": "2018",
+        "anecdote": "De hecho, el juego está disponible en iOS y Android de forma gratuita desde marzo de 2018 bajo el título « PlayerUnknown's Battlegrounds Mobile »."
+      },
+      {
+        "id": 27,
+        "question": "¿En qué año se lanzó la primera versión de « Clash of Clans » en iOS ?",
+        "propositions": [
+          "2010",
+          "2012",
+          "2008",
+          "2014"
+        ],
+        "réponse": "2012",
+        "anecdote": "Este videojuego móvil de estrategia en tiempo real multijugador masivo es desarrollado y publicado por el estudio finlandés Supercell."
+      },
+      {
+        "id": 28,
+        "question": "¿En qué año se lanzó la primera versión de « Candy Crush Saga » para dispositivos móviles ?",
+        "propositions": [
+          "2010",
+          "2012",
+          "2006",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » viene preinstalado en dispositivos con Windows 10 base, junto con « Solitario » y « Buscaminas »."
+      },
+      {
+        "id": 29,
+        "question": "¿En qué año se lanzó la primera versión de « Fruit Ninja » para dispositivos móviles ?",
+        "propositions": [
+          "2008",
+          "2006",
+          "2010",
+          "2012"
+        ],
+        "réponse": "2010",
+        "anecdote": "Desarrollado por Halfbrick Studios, « Fruit Ninja » forma parte del kit de inicio de iOS y Xbox 360 (también apto para Kinect)."
+      },
+      {
+        "id": 30,
+        "question": "¿En qué año se lanzó la primera versión de « 8 Ball Pool » para dispositivos móviles ?",
+        "propositions": [
+          "2008",
+          "2014",
+          "2012",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "La versión móvil de « 8 Ball Pool » está a cargo de Miniclip, una empresa de juegos con sede en Suiza, Portugal, Italia e Inglaterra."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale codice sblocca la scheda SIM del tuo smartphone ?",
+        "propositions": [
+          "IMEI",
+          "PUK",
+          "PIN",
+          "IBAN"
+        ],
+        "réponse": "PIN",
+        "anecdote": "Questo codice, spesso di quattro cifre, ha lo scopo di autenticare il titolare di una carta bancaria, una carta SIM o una smart card."
+      },
+      {
+        "id": 2,
+        "question": "Qual è il primo smartphone e cellulare touchscreen della storia ?",
+        "propositions": [
+          "iPhone EDGE",
+          "SH-100",
+          "IBM Simone",
+          "Nokia 3310"
+        ],
+        "réponse": "IBM Simone",
+        "anecdote": "Il primo smartphone della storia è stato presentato il 16 novembre 1992 al COMDEX di Las Vegas (Nevada), antenato del CES."
+      },
+      {
+        "id": 3,
+        "question": "In che anno è stato rilasciato il primo smartphone ?",
+        "propositions": [
+          "1994",
+          "1989",
+          "1999",
+          "2004"
+        ],
+        "réponse": "1994",
+        "anecdote": "Oltre alle funzioni del telefono cellulare, l'IBM Simon era in grado di inviare e ricevere fax e fungeva da cercapersone."
+      },
+      {
+        "id": 4,
+        "question": "Quale azienda, parte di GAFAM, ha acquistato Android nel 2005 ?",
+        "propositions": [
+          "Amazon",
+          "Facebook",
+          "Google",
+          "Microsoft"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android è il sistema operativo mobile più utilizzato al mondo, davanti a iOS di Apple, con una quota di mercato superiore all'80 %."
+      },
+      {
+        "id": 5,
+        "question": "Qual è il primo smartphone della linea iPhone di Apple ?",
+        "propositions": [
+          "Storm",
+          "G1",
+          "EDGE",
+          "Max"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "Lo sviluppo del prodotto è iniziato nel 2005 ed è proseguito sotto stretto segreto fino alla sua presentazione al pubblico."
+      },
+      {
+        "id": 6,
+        "question": "In Francia, da quando gli smartphone sono vietati nelle scuole ?",
+        "propositions": [
+          "2010",
+          "2013",
+          "2018",
+          "2023"
+        ],
+        "réponse": "2018",
+        "anecdote": "Gli adolescenti cresciuti nei primi due decenni del 21° secolo hanno beneficiato dell'influenza delle TIC."
+      },
+      {
+        "id": 7,
+        "question": "Quale termine si riferisce a un pedone che fissa il cellulare ?",
+        "propositions": [
+          "Smombie",
+          "Chtonien",
+          "Cracmol",
+          "Muggon"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "Secondo uno studio condotto nel 2014, il 17% dei pedoni nelle grandi città si comporta a rischio con il proprio smartphone."
+      },
+      {
+        "id": 8,
+        "question": "Qual è stato il primo operatore telefonico francese a lanciare la sua rete mobile ?",
+        "propositions": [
+          "itineris",
+          "SFR",
+          "Francia Telecom",
+          "Bouygues Telecom"
+        ],
+        "réponse": "Francia Telecom",
+        "anecdote": "Il 1 ottobre 1991, France Telecom ha avviato un esperimento pilota di telefonia senza fili per il grande pubblico nella città di Strasburgo."
+      },
+      {
+        "id": 9,
+        "question": "Quale acronimo è associato alla messaggistica multimediale per telefoni cellulari ?",
+        "propositions": [
+          "TDM",
+          "MMS",
+          "GSM",
+          "MDR"
+        ],
+        "réponse": "MMS",
+        "anecdote": "Estende le capacità degli SMS, consentendo la trasmissione di foto, registrazioni audio e video."
+      },
+      {
+        "id": 10,
+        "question": "Quale area geografica a volte non è servita da una rete cellulare ?",
+        "propositions": [
+          "Zona cava",
+          "Zona bianca",
+          "Zona rossa",
+          "Zona vuota"
+        ],
+        "réponse": "Zona bianca",
+        "anecdote": "Queste sono spesso le zone meno densamente popolate (tipicamente zone rurali), prive di reale interesse per gli investimenti."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale termine francese è sinonimo di roaming nella telefonia mobile ?",
+        "propositions": [
+          "Roaming",
+          "Transumanza",
+          "Migrazione",
+          "Nomadismo"
+        ],
+        "réponse": "Roaming",
+        "anecdote": "Roaming e handover sono due caratteristiche fondamentali delle reti mobili come GSM, UMTS, LTE o 5G."
+      },
+      {
+        "id": 12,
+        "question": "Qual è il nome del primo protocollo di comunicazione Internet mobile ?",
+        "propositions": [
+          "WiFiMAX",
+          "MobiNet",
+          "WAP",
+          "POW"
+        ],
+        "réponse": "WAP",
+        "anecdote": "Ridefinisce il protocollo HTTP, HTML e JavaScript per adattarli al mondo dei dispositivi con uno schermo di piccole dimensioni."
+      },
+      {
+        "id": 13,
+        "question": "Qual è l'acronimo di operatori di telefonia mobile senza rete propria ?",
+        "propositions": [
+          "MVNO",
+          "ACVN",
+          "OMNI",
+          "GLOCOM"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "In generale, un MVNO rappresenta una società indipendente dall'operatore, che gli consente di fissare i propri prezzi."
+      },
+      {
+        "id": 14,
+        "question": "Quale operatore privato francese è stato il primo a lanciare la sua rete mobile ?",
+        "propositions": [
+          "itineris",
+          "Francia Telecom",
+          "SFR",
+          "Bouygues Telecom"
+        ],
+        "réponse": "SFR",
+        "anecdote": "La Société Française du Radiotéléphone è una filiale che riunisce le attività di telecomunicazioni del gruppo lussemburghese Altice France."
+      },
+      {
+        "id": 15,
+        "question": "Qual è il componente più energivoro di uno smartphone ?",
+        "propositions": [
+          "Antenna",
+          "RAM",
+          "Processore",
+          "Schermo"
+        ],
+        "réponse": "Schermo",
+        "anecdote": "Gli smartphone moderni hanno schermi piuttosto impressionanti : più pixel racchiudono, più energia consumano."
+      },
+      {
+        "id": 16,
+        "question": "In che anno è stata imposta la porta USB-C agli smartphone ?",
+        "propositions": [
+          "2024",
+          "2022",
+          "2026",
+          "2020"
+        ],
+        "réponse": "2024",
+        "anecdote": "La tanto discussa direttiva Single Charger è stata infatti pubblicata sulla Gazzetta Ufficiale Europea nel 2023."
+      },
+      {
+        "id": 17,
+        "question": "Quale paese ha costruito più smartphone nel 2021 ?",
+        "propositions": [
+          "Giappone",
+          "Taiwan",
+          "Corea del Sud",
+          "Cina"
+        ],
+        "réponse": "Cina",
+        "anecdote": "La Cina ha contribuito per il 67% alla produzione globale nel 2021, mentre altri paesi non sono riusciti a compensare il declino di Huawei."
+      },
+      {
+        "id": 18,
+        "question": "Qual è il significato della prima S dell'acronimo SMS ?",
+        "propositions": [
+          "Rapido",
+          "Veloce",
+          "Pantaloncini",
+          "Sicuro"
+        ],
+        "réponse": "Pantaloncini",
+        "anecdote": "In alcune parti del mondo come il Nord America, il Regno Unito o le Filippine, si chiama SMS."
+      },
+      {
+        "id": 19,
+        "question": "Qual è il significato della S presente nell'acronimo MMS ?",
+        "propositions": [
+          "System",
+          "Secure",
+          "Service",
+          "Short"
+        ],
+        "réponse": "Service",
+        "anecdote": "Estende le capacità degli SMS, consentendo la trasmissione di foto, registrazioni audio e video."
+      },
+      {
+        "id": 20,
+        "question": "Quale soglia massima di ricarica è ottimale per la batteria del tuo smartphone ?",
+        "propositions": [
+          "85%",
+          "95%",
+          "75%",
+          "65%"
+        ],
+        "réponse": "85%",
+        "anecdote": "Una batteria di accumulatori permette di immagazzinare energia elettrica in forma chimica e di restituirla in corrente continua."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale di questi acronimi non si riferisce a nessuna versione dello standard 2G ?",
+        "propositions": [
+          "GSM",
+          "EDGE",
+          "AMPS",
+          "GPRS"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS è un acronimo informatico, neologismo basato su LAMP, che riprende le prime lettere di Apache, MySQL, PHP e Solaris."
+      },
+      {
+        "id": 22,
+        "question": "Quale di questi acronimi non si riferisce ad alcuna versione dello standard 3G ?",
+        "propositions": [
+          "LTE",
+          "UMTS",
+          "HSPA+",
+          "HSPA"
+        ],
+        "réponse": "LTE",
+        "anecdote": "Lo standard LTE, definito dal consorzio 3GPP, è stato inizialmente considerato uno standard 3.9G."
+      },
+      {
+        "id": 23,
+        "question": "Quale termine si riferisce al fatto di sostituire il sistema operativo del suo cellulare ?",
+        "propositions": [
+          "Deframmentare",
+          "Flash",
+          "Dimensione",
+          "Override"
+        ],
+        "réponse": "Flash",
+        "anecdote": "La telefonia cellulare è un mezzo di telecomunicazione, più precisamente di radiocomunicazione, tramite telefono cellulare."
+      },
+      {
+        "id": 24,
+        "question": "Come si chiama il file immagine di un sistema operativo mobile ?",
+        "propositions": [
+          "ROM",
+          "RAR",
+          "RAM",
+          "iOS"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Originariamente, il termine Read-Only Memory (ROM) si riferiva alla memoria non volatile del computer."
+      },
+      {
+        "id": 25,
+        "question": "Come si chiama il primo smartphone pieghevole offerto al grande pubblico ?",
+        "propositions": [
+          "FlexPai",
+          "Galaxy X",
+          "Find N2",
+          "Mate X3"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "Aspettavamo Samsung, e finalmente è stato Royole a brindare alla cortesia di tutti, produttore cinese di pannelli flessibili."
+      },
+      {
+        "id": 26,
+        "question": "In che anno è stata rilasciata la prima versione di « PUBG » su dispositivo mobile ?",
+        "propositions": [
+          "2016",
+          "2018",
+          "2014",
+          "2012"
+        ],
+        "réponse": "2018",
+        "anecdote": "Il gioco è infatti disponibile gratuitamente su iOS e Android da marzo 2018 con il titolo « PlayerUnknown's Battlegrounds Mobile »."
+      },
+      {
+        "id": 27,
+        "question": "In che anno è stata rilasciata la prima versione di « Clash of Clans » su iOS ?",
+        "propositions": [
+          "2008",
+          "2012",
+          "2010",
+          "2014"
+        ],
+        "réponse": "2012",
+        "anecdote": "Questo videogioco mobile di strategia in tempo reale multigiocatore di massa è sviluppato e pubblicato dallo studio finlandese Supercell."
+      },
+      {
+        "id": 28,
+        "question": "In che anno è stata rilasciata la prima versione di « Candy Crush Saga » su dispositivo mobile ?",
+        "propositions": [
+          "2010",
+          "2012",
+          "2008",
+          "2006"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » è preinstallato sui dispositivi con Windows 10 di base, insieme a « Solitaire » e « Minesweeper »."
+      },
+      {
+        "id": 29,
+        "question": "In che anno è stata rilasciata la prima versione di « Fruit Ninja » su dispositivo mobile ?",
+        "propositions": [
+          "2012",
+          "2008",
+          "2006",
+          "2010"
+        ],
+        "réponse": "2010",
+        "anecdote": "Sviluppato da Halfbrick Studios, « Fruit Ninja » fa parte dello starter kit iOS e Xbox 360 (adatto anche per Kinect)."
+      },
+      {
+        "id": 30,
+        "question": "In che anno è stata rilasciata la prima versione di « 8 Ball Pool » su dispositivi mobili ?",
+        "propositions": [
+          "2010",
+          "2014",
+          "2008",
+          "2012"
+        ],
+        "réponse": "2010",
+        "anecdote": "La versione mobile di « 8 Ball Pool » è gestita da Miniclip, una società di giochi con sede in Svizzera, Portogallo, Italia e Inghilterra."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke code ontgrendelt de simkaart van uw smartphone ?",
+        "propositions": [
+          "PIN",
+          "IMEI",
+          "PUK",
+          "AN"
+        ],
+        "réponse": "PIN",
+        "anecdote": "Deze code, vaak vier cijfers, is bedoeld om de houder van een bankpas, simkaart of smartcard te authenticeren."
+      },
+      {
+        "id": 2,
+        "question": "Wat is de eerste touchscreen-smartphone en mobiele telefoon in de geschiedenis ?",
+        "propositions": [
+          "SH-100",
+          "iPhone EDGE",
+          "IBMSimon",
+          "Nokia 3310"
+        ],
+        "réponse": "IBMSimon",
+        "anecdote": "De eerste smartphone in de geschiedenis werd op 16 november 1992 gepresenteerd op COMDEX in Las Vegas (Nevada), voorloper van CES."
+      },
+      {
+        "id": 3,
+        "question": "In welk jaar werd de allereerste smartphone uitgebracht ?",
+        "propositions": [
+          "2004",
+          "1999",
+          "1989",
+          "1994"
+        ],
+        "réponse": "1994",
+        "anecdote": "Naast mobiele telefoonfuncties was de IBM Simon in staat faxen te verzenden en te ontvangen en fungeerde hij als semafoon."
+      },
+      {
+        "id": 4,
+        "question": "Welk bedrijf, onderdeel van GAFAM, kocht Android in 2005 ?",
+        "propositions": [
+          "Google",
+          "Amazon",
+          "Facebook",
+          "Microsoft"
+        ],
+        "réponse": "Google",
+        "anecdote": "Android is het meest gebruikte mobiele besturingssysteem ter wereld, vóór Apple's iOS, met een marktaandeel van meer dan 80 %."
+      },
+      {
+        "id": 5,
+        "question": "Wat is de eerste smartphone in de iPhone-lijn van Apple ?",
+        "propositions": [
+          "Storm",
+          "EDGE",
+          "Max",
+          "G1"
+        ],
+        "réponse": "EDGE",
+        "anecdote": "De ontwikkeling van het product begon in 2005 en ging door onder strikte geheimhouding tot de publieke onthulling."
+      },
+      {
+        "id": 6,
+        "question": "Sinds wanneer zijn smartphones in Frankrijk verboden op scholen ?",
+        "propositions": [
+          "2018",
+          "2013",
+          "2010",
+          "2023"
+        ],
+        "réponse": "2018",
+        "anecdote": "Tieners die opgroeiden in de eerste twee decennia van de 21e eeuw hebben geprofiteerd van de invloed van ICT."
+      },
+      {
+        "id": 7,
+        "question": "Welke term verwijst naar een voetganger die naar zijn mobiele telefoon staart ?",
+        "propositions": [
+          "Cracmol",
+          "Chtonische",
+          "Muggon",
+          "Smombie"
+        ],
+        "réponse": "Smombie",
+        "anecdote": "Volgens een onderzoek uit 2014 gedraagt 17 % van de voetgangers in grote steden zich risicovol met hun smartphone."
+      },
+      {
+        "id": 8,
+        "question": "Wat was de eerste Franse telefoonoperator die zijn mobiele netwerk lanceerde ?",
+        "propositions": [
+          "Bouygues Telecom",
+          "Itineris",
+          "SFR",
+          "France Telecom"
+        ],
+        "réponse": "France Telecom",
+        "anecdote": "Op 1 oktober 1991 startte France Telecom een proefexperiment in draadloze telefonie voor het grote publiek in de stad in Straatsburg."
+      },
+      {
+        "id": 9,
+        "question": "Welk acroniem wordt geassocieerd met multimediaberichten voor mobiele telefoons ?",
+        "propositions": [
+          "TDM",
+          "MDR",
+          "MMS",
+          "GSM"
+        ],
+        "réponse": "MMS",
+        "anecdote": "Het breidt de mogelijkheden van SMS uit, waardoor zowel foto's, audio-opnamen als video kunnen worden verzonden."
+      },
+      {
+        "id": 10,
+        "question": "Welk geografisch gebied wordt soms niet bediend door een mobiel netwerk ?",
+        "propositions": [
+          "Rode zone",
+          "Hol gebied",
+          "Wit gebied",
+          "Leeg gebied"
+        ],
+        "réponse": "Wit gebied",
+        "anecdote": "Dit zijn vaak de minst dichtbevolkte gebieden (meestal plattelandsgebieden), zonder echte investeringsbelangen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke Franse term is synoniem voor roaming in mobiele telefonie ?",
+        "propositions": [
+          "Migratie",
+          "Nomadisme",
+          "Transhumance",
+          "Roamen"
+        ],
+        "réponse": "Roamen",
+        "anecdote": "Roaming en handover zijn twee fundamentele kenmerken van mobiele netwerken zoals GSM, UMTS, LTE of 5G."
+      },
+      {
+        "id": 12,
+        "question": "Wat is de naam van het eerste communicatieprotocol voor mobiel internet ?",
+        "propositions": [
+          "WiFiMAX",
+          "MobiNet",
+          "WAP",
+          "POW"
+        ],
+        "réponse": "WAP",
+        "anecdote": "Het herdefinieert het HTTP-protocol, HTML en JavaScript om ze aan te passen aan de wereld van apparaten met een klein schermformaat."
+      },
+      {
+        "id": 13,
+        "question": "Wat is de afkorting voor gsm-operators zonder eigen netwerk ?",
+        "propositions": [
+          "ACVN",
+          "GLOCOM",
+          "OMNI",
+          "MVNO"
+        ],
+        "réponse": "MVNO",
+        "anecdote": "Over het algemeen vertegenwoordigt een MVNO een bedrijf dat onafhankelijk is van de operator, waardoor het zijn eigen prijzen kan bepalen."
+      },
+      {
+        "id": 14,
+        "question": "Welke Franse privé-operator lanceerde als eerste zijn mobiele netwerk ?",
+        "propositions": [
+          "SFR",
+          "Itineris",
+          "Bouygues Telecom",
+          "France Telecom"
+        ],
+        "réponse": "SFR",
+        "anecdote": "De Société Française du Radiotéléphone is een tak die de telecomactiviteiten van de Luxemburgse groep Altice France bundelt."
+      },
+      {
+        "id": 15,
+        "question": "Wat is het meest energieverbruikende onderdeel van een smartphone ?",
+        "propositions": [
+          "Scherm",
+          "RAM-geheugen",
+          "Antenne",
+          "Verwerker"
+        ],
+        "réponse": "Scherm",
+        "anecdote": "Moderne smartphones hebben behoorlijk indrukwekkende schermen : hoe meer pixels ze bevatten, hoe meer stroom ze verbruiken."
+      },
+      {
+        "id": 16,
+        "question": "In welk jaar werd de USB-C-poort opgelegd aan smartphones ?",
+        "propositions": [
+          "2020",
+          "2024",
+          "2022",
+          "2026"
+        ],
+        "réponse": "2024",
+        "anecdote": "De veelbesproken Single Charger Directive werd inderdaad in 2023 gepubliceerd in het Europees Publicatieblad."
+      },
+      {
+        "id": 17,
+        "question": "Welk land heeft in 2021 de meeste smartphones gebouwd ?",
+        "propositions": [
+          "Taiwan",
+          "China",
+          "Japan",
+          "Zuid-Korea"
+        ],
+        "réponse": "China",
+        "anecdote": "China droeg in 2021 67% bij aan de wereldwijde productie, terwijl andere landen de achteruitgang van Huawei niet konden compenseren."
+      },
+      {
+        "id": 18,
+        "question": "Wat is de betekenis van de eerste S van het acroniem SMS ?",
+        "propositions": [
+          "Snel",
+          "Snel",
+          "korte broek",
+          "Veilig"
+        ],
+        "réponse": "korte broek",
+        "anecdote": "In sommige delen van de wereld, zoals Noord-Amerika, het Verenigd Koninkrijk of de Filippijnen, wordt dit sms-berichten genoemd."
+      },
+      {
+        "id": 19,
+        "question": "Wat is de betekenis van de S in het acroniem MMS ?",
+        "propositions": [
+          "Service",
+          "Secure",
+          "Short",
+          "System"
+        ],
+        "réponse": "Service",
+        "anecdote": "Het breidt de mogelijkheden van SMS uit, waardoor zowel foto's, audio-opnamen als video kunnen worden verzonden."
+      },
+      {
+        "id": 20,
+        "question": "Welke maximale oplaaddrempel is optimaal voor de batterij van uw smartphone ?",
+        "propositions": [
+          "95%",
+          "85%",
+          "65%",
+          "75%"
+        ],
+        "réponse": "85%",
+        "anecdote": "Een accu maakt het mogelijk om elektrische energie in chemische vorm op te slaan en in gelijkstroom terug te winnen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke van deze afkortingen verwijst naar geen enkele versie van de 2G-standaard ?",
+        "propositions": [
+          "AMPS",
+          "EDGE",
+          "GPRS",
+          "GSM"
+        ],
+        "réponse": "AMPS",
+        "anecdote": "AMPS is een computeracroniem, neologisme gebaseerd op LAMP, met de eerste letters van Apache, MySQL, PHP en Solaris."
+      },
+      {
+        "id": 22,
+        "question": "Welke van deze afkortingen verwijst niet naar een versie van de 3G-standaard ?",
+        "propositions": [
+          "HSPA",
+          "HSPA+",
+          "LTE",
+          "UMTS"
+        ],
+        "réponse": "LTE",
+        "anecdote": "De LTE-standaard, gedefinieerd door het 3GPP-consortium, werd eerst beschouwd als een derde generatie 3.9G."
+      },
+      {
+        "id": 23,
+        "question": "Welke term verwijst naar het vervangen van het besturingssysteem van zijn mobiel ?",
+        "propositions": [
+          "Flits",
+          "Defragmenteren",
+          "Maat",
+          "Overschrijven"
+        ],
+        "réponse": "Flits",
+        "anecdote": "Mobiele telefonie is een telecommunicatiemiddel, meer bepaald radiocommunicatie, via de mobiele telefoon."
+      },
+      {
+        "id": 24,
+        "question": "Hoe heet het afbeeldingsbestand van een mobiel besturingssysteem ?",
+        "propositions": [
+          "RAM",
+          "RAR",
+          "ROM",
+          "iOS"
+        ],
+        "réponse": "ROM",
+        "anecdote": "Oorspronkelijk verwees de term Read-Only Memory (ROM) naar niet-vluchtig computergeheugen."
+      },
+      {
+        "id": 25,
+        "question": "Hoe heet de eerste opvouwbare smartphone die aan het grote publiek wordt aangeboden ?",
+        "propositions": [
+          "Galaxy X",
+          "Find N2",
+          "FlexPai",
+          "Mate X3"
+        ],
+        "réponse": "FlexPai",
+        "anecdote": "We zaten te wachten op Samsung, en uiteindelijk was het Royole die proostte op ieders beleefdheid, een Chinese fabrikant van flexibele panelen."
+      },
+      {
+        "id": 26,
+        "question": "In welk jaar werd de eerste versie van « PUBG » uitgebracht voor mobiel ?",
+        "propositions": [
+          "2014",
+          "2016",
+          "2018",
+          "2012"
+        ],
+        "réponse": "2018",
+        "anecdote": "De game is inderdaad sinds maart 2018 gratis beschikbaar op iOS en Android onder de titel « PlayerUnknown's Battlegrounds Mobile »."
+      },
+      {
+        "id": 27,
+        "question": "In welk jaar werd de eerste versie van « Clash of Clans » uitgebracht op iOS ?",
+        "propositions": [
+          "2012",
+          "2008",
+          "2014",
+          "2010"
+        ],
+        "réponse": "2012",
+        "anecdote": "Deze mobiele videogame met massale multiplayer real-time strategie is ontwikkeld en uitgegeven door de Finse studio Supercell."
+      },
+      {
+        "id": 28,
+        "question": "In welk jaar werd de eerste versie van « Candy Crush Saga » uitgebracht voor mobiel ?",
+        "propositions": [
+          "2010",
+          "2006",
+          "2012",
+          "2008"
+        ],
+        "réponse": "2012",
+        "anecdote": "« Candy Crush Saga » is vooraf geïnstalleerd op apparaten met Windows 10 als basis, samen met « Solitaire » en « Minesweeper »."
+      },
+      {
+        "id": 29,
+        "question": "In welk jaar werd de eerste versie van « Fruit Ninja » uitgebracht voor mobiel ?",
+        "propositions": [
+          "2008",
+          "2010",
+          "2006",
+          "2012"
+        ],
+        "réponse": "2010",
+        "anecdote": "Ontwikkeld door Halfbrick Studios, « Fruit Ninja » maakt deel uit van de iOS en Xbox 360 starter kit (ook geschikt voor Kinect)."
+      },
+      {
+        "id": 30,
+        "question": "In welk jaar werd de eerste versie van « 8 Ball Pool » uitgebracht voor mobiel ?",
+        "propositions": [
+          "2012",
+          "2008",
+          "2010",
+          "2014"
+        ],
+        "réponse": "2010",
+        "anecdote": "De mobiele versie van « 8 Ball Pool » wordt beheerd door Miniclip, een gamebedrijf gevestigd in Zwitserland, Portugal, Italië en Engeland."
+      }
+    ]
+    }
+  }
+}

@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-04-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Gastronomie",
+      "nom": "Crèmes à déguster",
+      "slogan": "Mousseline, frangipane ou diplomate"
+    },
+    "en": {
+      "catégorie": "Gastronomy",
+      "nom": "Creams to taste",
+      "slogan": "Chiffon, frangipane or diplomat"
+    },
+    "es": {
+      "catégorie": "Gastronomía",
+      "nom": "Cremas al gusto",
+      "slogan": "Chifón, frangipane o diplomático"
+    },
+    "it": {
+      "catégorie": "Gastronomia",
+      "nom": "Creme a piacere",
+      "slogan": "Chiffon, frangipane o diplomatico"
+    },
+    "de": {
+      "catégorie": "Gastronomie",
+      "nom": "Cremes nach Geschmack",
+      "slogan": "Chiffon, Frangipane oder Diplomat"
+    },
+    "nl": {
+      "catégorie": "Gastronomie",
+      "nom": "Crèmes naar smaak",
+      "slogan": "Chiffon, frangipane of diplomaat"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle crème est obtenue en introduisant du lait cru dans une écrémeuse ?",
+        "propositions": [
+          "Crème au beurre",
+          "Crème fraîche",
+          "Crème de fruit",
+          "Crème chiboust"
+        ],
+        "réponse": "Crème fraîche",
+        "anecdote": "Ce type de transformation est le fait de producteurs fermiers pour la consommation familiale, la vente en circuit court ou la vente directe."
+      },
+      {
+        "id": 2,
+        "question": "Quelle crème est utilisée pour recouvrir la bûche de Noël ou le gâteau de nouvel an ?",
+        "propositions": [
+          "Crème de marrons",
+          "Crème de cacao",
+          "Crème au beurre",
+          "Crème glacée"
+        ],
+        "réponse": "Crème au beurre",
+        "anecdote": "Cette crème est composée de beurre pommade, d'oeufs (jaune, blanc ou entier), de sucre et parfois de lait."
+      },
+      {
+        "id": 3,
+        "question": "Quelle crème entre dans la composition d'une autre crème, la crème frangipane ?",
+        "propositions": [
+          "Crème d'amandes",
+          "Crème double",
+          "Crème pâtissière",
+          "Crème fouettée"
+        ],
+        "réponse": "Crème d'amandes",
+        "anecdote": "La crème d'amandes est composée de beurre en pommade, de poudre d'amandes, de sucre, d'oeufs et de farine, fouetté à froid."
+      },
+      {
+        "id": 4,
+        "question": "Quelle crème est le plus communément servie en îles flottantes ?",
+        "propositions": [
+          "Crème fleurette",
+          "Crème de fruit",
+          "Crème chantilly",
+          "Crème anglaise"
+        ],
+        "réponse": "Crème anglaise",
+        "anecdote": "On la sert souvent avec un coulis de fruits dans les assiettes de gâteau au restaurant, notamment avec des gâteaux au chocolat."
+      },
+      {
+        "id": 5,
+        "question": "Quelle crème refroidie offre un dessus caramélisé flambé au chalumeau ?",
+        "propositions": [
+          "Crème de menthe",
+          "Crème catalane",
+          "Crème brûlée",
+          "Crème de marrons"
+        ],
+        "réponse": "Crème brûlée",
+        "anecdote": "La crème brûlée est servie, tiède ou froide, dans des ramequins, avec une croûte sur le dessus chaude et croustillante."
+      },
+      {
+        "id": 6,
+        "question": "Quelle crème diffère du sorbet, qui se compose quant à lui de sirop de sucre ?",
+        "propositions": [
+          "Crème caramel",
+          "Crème aigre",
+          "Crème de Bresse",
+          "Crème glacée"
+        ],
+        "réponse": "Crème glacée",
+        "anecdote": "Bien qu'en légère régression dans les pays riches, le marché des glaces, lié à celui de l'industrie laitière, a un poids considérable."
+      },
+      {
+        "id": 7,
+        "question": "Quelle crème retrouve-t-on sur le dessus de la plupart des coupes de glaces ?",
+        "propositions": [
+          "Crème de menthe",
+          "Crème catalane",
+          "Crème chantilly",
+          "Crème pâtissière"
+        ],
+        "réponse": "Crème chantilly",
+        "anecdote": "La crème chantilly est réalisée avec la crème fraîche liquide, crème fleurette ou crème à fouetter, UHT ou stérilisée."
+      },
+      {
+        "id": 8,
+        "question": "Quelle crème, faite à base de baies, est un ingrédient essentiel du kir ?",
+        "propositions": [
+          "Crème de cassis",
+          "Crème de menthe",
+          "Crème de cacao",
+          "Crème de marrons"
+        ],
+        "réponse": "Crème de cassis",
+        "anecdote": "La crème de cassis est élaborée à partir de baies de cassissier macérées dans l'alcool surfin, auxquelles on ajoute du sucre."
+      },
+      {
+        "id": 9,
+        "question": "Quelle crème entre dans la composition de la galette des rois ?",
+        "propositions": [
+          "Crème frangipane",
+          "Crème brûlée",
+          "Crème anglaise",
+          "Crème fouettée"
+        ],
+        "réponse": "Crème frangipane",
+        "anecdote": "Elle est composée de deux tiers de crème d'amandes et d'un tiers de crème pâtissière, à ne pas confondre avec la crème d'amandes."
+      },
+      {
+        "id": 10,
+        "question": "Quelle préparation pâtissière compose le chou à la crème, l'éclair ou le mille-feuille ?",
+        "propositions": [
+          "Crème pâtissière",
+          "Crème fleurette",
+          "Crème caramel",
+          "Crème au beurre"
+        ],
+        "réponse": "Crème pâtissière",
+        "anecdote": "Dans le commerce, la majorité des préparations employant l'appellation crème pâtissière ne reprennent pas la recette originelle."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle crème cuite au bain-marie est servie avec de la sauce sur le dessus ?",
+        "propositions": [
+          "Crème madame",
+          "Crème anglaise",
+          "Crème mousseline",
+          "Crème caramel"
+        ],
+        "réponse": "Crème caramel",
+        "anecdote": "Le plat se déguste partout dans le monde, la crème caramel étant omniprésente dans les restaurants européens."
+      },
+      {
+        "id": 12,
+        "question": "Quelle crème, fort appréciée au XVIe siècle, était appelée neige de lait ?",
+        "propositions": [
+          "Crème au beurre",
+          "Crème de cassis",
+          "Crème de fruit",
+          "Crème fouettée"
+        ],
+        "réponse": "Crème fouettée",
+        "anecdote": "L'invention de la crème chantilly est fréquemment attribuée à François Vatel, maître d'hôtel du Château de Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "Quelle crème fraîche, à 30 % de matière grasse au moins, est appelée crème épaisse ?",
+        "propositions": [
+          "Crème anglaise",
+          "Crème d'amandes",
+          "Crème chantilly",
+          "Crème double"
+        ],
+        "réponse": "Crème double",
+        "anecdote": "En Suisse, la crème double est particulièrement appréciée en dessert, accompagnée de meringues ou de fruits rouges."
+      },
+      {
+        "id": 14,
+        "question": "Dans quelle catégorie se classent la crème de citron, à l'orange ou aux framboises ?",
+        "propositions": [
+          "Crème au beurre",
+          "Crème chantilly",
+          "Crème fouettée",
+          "Crème de fruit"
+        ],
+        "réponse": "Crème de fruit",
+        "anecdote": "Les ingrédients de base sont des jaunes d'oeufs battus, du sucre, des jus de fruits et leurs zestes qui sont cuits doucement."
+      },
+      {
+        "id": 15,
+        "question": "Quelle crème onctueuse est notamment utilisée pour la garniture des Paris-Brest ?",
+        "propositions": [
+          "Crème anglaise",
+          "Crème chiboust",
+          "Crème catalane",
+          "Crème mousseline"
+        ],
+        "réponse": "Crème mousseline",
+        "anecdote": "Le beurre est incorporé en deux fois, la moitié lorsque la crème pâtissière est encore chaude puis l'autre lorsqu'elle est froide."
+      },
+      {
+        "id": 16,
+        "question": "Quelle crème à l'arôme de cacao est utilisée dans la préparation de certains cocktails ?",
+        "propositions": [
+          "Crème de menthe",
+          "Crème de cacao",
+          "Crème de cassis",
+          "Crème de marrons"
+        ],
+        "réponse": "Crème de cacao",
+        "anecdote": "Il existe deux types de crème de cacao : la crème de cacao brun et la crème de cacao blanc, plus douce et plus sucrée en bouche."
+      },
+      {
+        "id": 17,
+        "question": "Quel entremet à base de mousse de fruits appartient à la famille des crèmes ?",
+        "propositions": [
+          "Bavarois",
+          "Quetsch",
+          "Caquelon",
+          "Gendarme"
+        ],
+        "réponse": "Bavarois",
+        "anecdote": "La crème bavaroise est une mousse collée à la gélatine éventuellement parfumée d'un alcool associée à une crème anglaise."
+      },
+      {
+        "id": 18,
+        "question": "Sous quelle forme la crème peut-elle être utilisée pour servir de garniture ?",
+        "propositions": [
+          "Objet",
+          "Machine",
+          "Appareil",
+          "Instrument"
+        ],
+        "réponse": "Appareil",
+        "anecdote": "En cuisine, un appareil est une préparation de différents ingrédients que l'on va utiliser avec d'autres produits pour réaliser une recette."
+      },
+      {
+        "id": 19,
+        "question": "Comment est qualifiée une crème constituant un dessert à part entière ?",
+        "propositions": [
+          "Mirliton",
+          "Entremets",
+          "Charlotte",
+          "Panna cotta"
+        ],
+        "réponse": "Entremets",
+        "anecdote": "Au fil du temps, l'entremets est devenu de plus en plus sucré au point de remplacer parfois le dessert, depuis le XXIe siècle."
+      },
+      {
+        "id": 20,
+        "question": "Quel gâteau monté est garni d'un mélange de crème pâtissière et de crème au beurre ?",
+        "propositions": [
+          "Sabayon",
+          "Tarte tropézienne",
+          "Tarte au beurre",
+          "Tarte au vin"
+        ],
+        "réponse": "Tarte tropézienne",
+        "anecdote": "Le procédé permettant la réalisation de l'appareil a fait l'objet d'un dépôt de brevet français le 18 août 1972."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle crème entrecoupe généralement le diplomate imbibé de Grand Marnier ?",
+        "propositions": [
+          "Crème pâtissière",
+          "Crème chantilly",
+          "Crème fouettée",
+          "Crème mousseline"
+        ],
+        "réponse": "Crème pâtissière",
+        "anecdote": "Le nom de ce dessert viendrait du fait qu'il ait été imaginé par Talleyrand pendant le Congrès de Vienne."
+      },
+      {
+        "id": 22,
+        "question": "Quelle crème crue est l'ingrédient indispensable pour faire un beurre cru ?",
+        "propositions": [
+          "Crème aigre",
+          "Crème anglaise",
+          "Crème catalane",
+          "Crème fleurette"
+        ],
+        "réponse": "Crème fleurette",
+        "anecdote": "Ce terme est utilisé pour désigner une crème fraîche liquide ni maturée, ni stérilisée, qui n'a subi que la pasteurisation."
+      },
+      {
+        "id": 23,
+        "question": "Quel produit laitier riche en graisses contient des bactéries produisant de l'acide lactique ?",
+        "propositions": [
+          "Crème brûlée",
+          "Crème aigre",
+          "Crème de cacao",
+          "Crème pâtissière"
+        ],
+        "réponse": "Crème aigre",
+        "anecdote": "La population microbiologique, de culture introduite après pasteurisation ou naturelle, aigrit et épaissit la crème."
+      },
+      {
+        "id": 24,
+        "question": "Quelle AOC concerne 93 communes de l'Ain, 64 communes de Saône et 35 du Jura ?",
+        "propositions": [
+          "Crème fleurette",
+          "Crème anglaise",
+          "Crème chiboust",
+          "Crème de Bresse"
+        ],
+        "réponse": "Crème de Bresse",
+        "anecdote": "Avec plus de 500 tonnes produites chaque année, la crème et le beurre de Bresse sont devenus une appellation d'origine protégée."
+      },
+      {
+        "id": 25,
+        "question": "Quelle crème est le résultat d'un mélange de crème pâtissière et de meringue italienne ?",
+        "propositions": [
+          "Crème au beurre",
+          "Crème chiboust",
+          "Crème anglaise",
+          "Crème de cassis"
+        ],
+        "réponse": "Crème chiboust",
+        "anecdote": "En incorporant de la gélatine, on peut obtenir cette crème aussi appelée chibouste ou crème saint-honoré."
+      },
+      {
+        "id": 26,
+        "question": "En pâtisserie, quelle crème entre dans la composition du mille-feuille ?",
+        "propositions": [
+          "Crème anglaise",
+          "Crème chiboust",
+          "Crème d'amandes",
+          "Crème diplomate"
+        ],
+        "réponse": "Crème diplomate",
+        "anecdote": "La crème diplomate est le résultat d'un mélange de crème pâtissière, de crème fouettée et de gélatine."
+      },
+      {
+        "id": 27,
+        "question": "Quelle est l'autre nom de la crème princesse, à base de crème pâtissière et crème fouettée ?",
+        "propositions": [
+          "Crème duchesse",
+          "Crème présidente",
+          "Crème madame",
+          "Crème comtesse"
+        ],
+        "réponse": "Crème madame",
+        "anecdote": "La crème princesse est le résultat d'un mélange de crème pâtissière et de crème fouettée dans le but d'obtenir une crème mousseuse."
+      },
+      {
+        "id": 28,
+        "question": "Quel dessert est tout particulièrement répandu en Sicile et aux îles Baléares ?",
+        "propositions": [
+          "Crème de marrons",
+          "Crème de cassis",
+          "Crème chiboust",
+          "Crème catalane"
+        ],
+        "réponse": "Crème catalane",
+        "anecdote": "Elle s'utilise par exemple au lieu de la crème pâtissière pour farcir pâtisseries, feuilletés, tortells, coques catalanes ou ramblas."
+      },
+      {
+        "id": 29,
+        "question": "Quelle crème fut inventée en 1885 par l'industriel Clément Faugier ?",
+        "propositions": [
+          "Crème de cacao",
+          "Crème de menthe",
+          "Crème de cassis",
+          "Crème de marrons"
+        ],
+        "réponse": "Crème de marrons",
+        "anecdote": "Clément Faugier cherchait à récupérer les brisures des marrons glacés créées accidentellement lors de la production."
+      },
+      {
+        "id": 30,
+        "question": "Quelle crème est utilisée dans des cocktails tels que le Grasshopper et le Stinger ?",
+        "propositions": [
+          "Crème de cassis",
+          "Crème de cacao",
+          "Crème de menthe",
+          "Crème de marrons"
+        ],
+        "réponse": "Crème de menthe",
+        "anecdote": "Disponible commercialement dans les couleurs blanche ou verte, sa saveur est principalement dérivée de la menthe corse."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What cream is obtained by placing raw milk in a cream separator ?",
+        "propositions": [
+          "Fruit cream",
+          "Fresh cream",
+          "Chiboust cream",
+          "Buttercream"
+        ],
+        "réponse": "Fresh cream",
+        "anecdote": "This type of transformation is carried out by farm producers for family consumption, short circuit sales or direct sales."
+      },
+      {
+        "id": 2,
+        "question": "What cream is used to cover the Yule log or New Year's cake ?",
+        "propositions": [
+          "Ice cream",
+          "Cocoa cream",
+          "Buttercream",
+          "Chestnut cream"
+        ],
+        "réponse": "Buttercream",
+        "anecdote": "This cream is composed of softened butter, eggs (yellow, white or whole), sugar and sometimes milk."
+      },
+      {
+        "id": 3,
+        "question": "Which cream is used in the composition of another cream, frangipane cream ?",
+        "propositions": [
+          "Whipped cream",
+          "Pastry cream",
+          "Double cream",
+          "Almond cream"
+        ],
+        "réponse": "Almond cream",
+        "anecdote": "The almond cream is composed of softened butter, powdered almonds, sugar, eggs and flour, whipped cold."
+      },
+      {
+        "id": 4,
+        "question": "Which cream is most commonly served on floating islands ?",
+        "propositions": [
+          "Whipping cream",
+          "Whipped cream",
+          "Fruit cream",
+          "English cream"
+        ],
+        "réponse": "English cream",
+        "anecdote": "It is often served with a fruit coulis in restaurant cake plates, especially with chocolate cakes."
+      },
+      {
+        "id": 5,
+        "question": "What chilled cream offers a caramelized torch flambé top ?",
+        "propositions": [
+          "Creme brulee",
+          "Mint cream",
+          "Catalan cream",
+          "Chestnut cream"
+        ],
+        "réponse": "Creme brulee",
+        "anecdote": "The crème brûlée is served, warm or cold, in ramekins, with a hot and crispy crust on top."
+      },
+      {
+        "id": 6,
+        "question": "Which cream differs from sorbet, which in turn consists of sugar syrup ?",
+        "propositions": [
+          "Bresse cream",
+          "Creme caramel",
+          "Ice cream",
+          "Sour cream"
+        ],
+        "réponse": "Ice cream",
+        "anecdote": "Although in slight decline in rich countries, the ice cream market, linked to that of the dairy industry, carries considerable weight."
+      },
+      {
+        "id": 7,
+        "question": "Which cream is found on the top of most ice cream cups ?",
+        "propositions": [
+          "Pastry cream",
+          "Mint cream",
+          "Whipped cream",
+          "Catalan cream"
+        ],
+        "réponse": "Whipped cream",
+        "anecdote": "The whipped cream is made with liquid fresh cream, whipping cream or whipping cream, UHT or sterilized."
+      },
+      {
+        "id": 8,
+        "question": "Which cream, made from berries, is an essential ingredient in kir ?",
+        "propositions": [
+          "Mint cream",
+          "Chestnut cream",
+          "Blackcurrant cream",
+          "Cocoa cream"
+        ],
+        "réponse": "Blackcurrant cream",
+        "anecdote": "The crème de cassis is made from blackcurrant berries macerated in superfine alcohol, to which sugar is added."
+      },
+      {
+        "id": 9,
+        "question": "What cream goes into the composition of the galette des rois ?",
+        "propositions": [
+          "Whipped cream",
+          "Creme brulee",
+          "Frangipane cream",
+          "English cream"
+        ],
+        "réponse": "Frangipane cream",
+        "anecdote": "It is composed of two thirds of almond cream and a third of pastry cream, not to be confused with the almond cream."
+      },
+      {
+        "id": 10,
+        "question": "What pastry preparation is used in cream puff, éclairs or mille-feuille ?",
+        "propositions": [
+          "Buttercream",
+          "Whipping cream",
+          "Creme caramel",
+          "Pastry cream"
+        ],
+        "réponse": "Pastry cream",
+        "anecdote": "In the market, the majority of preparations using the name crème pâtissière do not use the original recipe."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What cream cooked in a double boiler is served with sauce on top ?",
+        "propositions": [
+          "Muslin cream",
+          "Madame cream",
+          "English cream",
+          "Creme caramel"
+        ],
+        "réponse": "Creme caramel",
+        "anecdote": "The dish is eaten all over the world, with crème caramel omnipresent in European restaurants."
+      },
+      {
+        "id": 12,
+        "question": "Which cream, much appreciated in the 16th century, was called snow milk ?",
+        "propositions": [
+          "Buttercream",
+          "Whipped cream",
+          "Fruit cream",
+          "Blackcurrant cream"
+        ],
+        "réponse": "Whipped cream",
+        "anecdote": "The invention of whipped cream is frequently attributed to François Vatel, butler of the Château de Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "Which crème fraîche, at least 30% fat, is synonymous with heavy cream ?",
+        "propositions": [
+          "English cream",
+          "Whipped cream",
+          "Double cream",
+          "Almond cream"
+        ],
+        "réponse": "Double cream",
+        "anecdote": "In Switzerland, double cream is particularly popular for dessert, accompanied by meringues or red fruits."
+      },
+      {
+        "id": 14,
+        "question": "In which category do lemon, orange or raspberry cream fall ?",
+        "propositions": [
+          "Whipped cream",
+          "Whipped cream",
+          "Fruit cream",
+          "Buttercream"
+        ],
+        "réponse": "Fruit cream",
+        "anecdote": "The basic ingredients are beaten egg yolks, sugar, fruit juices and their zest which are gently cooked."
+      },
+      {
+        "id": 15,
+        "question": "Which creamy cream is used in particular for garnishing Paris-Brest ?",
+        "propositions": [
+          "Catalan cream",
+          "Muslin cream",
+          "Chiboust cream",
+          "English cream"
+        ],
+        "réponse": "Muslin cream",
+        "anecdote": "The butter is incorporated in two batches, half when the pastry cream is still hot and the other when it is cold."
+      },
+      {
+        "id": 16,
+        "question": "Which cocoa flavored cream is used in the preparation of certain cocktails ?",
+        "propositions": [
+          "Cocoa cream",
+          "Blackcurrant cream",
+          "Chestnut cream",
+          "Mint cream"
+        ],
+        "réponse": "Cocoa cream",
+        "anecdote": "There are two types of crème de cacao : brown crème de cacao and white crème de cacao, which is smoother and sweeter on the palate."
+      },
+      {
+        "id": 17,
+        "question": "Which fruit mousse-based dessert belongs to the cream family ?",
+        "propositions": [
+          "Bavarian",
+          "Quetsch",
+          "Caquelon",
+          "Gendarme"
+        ],
+        "réponse": "Bavarian",
+        "anecdote": "Bavarian cream is a mousse stuck to gelatin possibly flavored with alcohol combined with custard."
+      },
+      {
+        "id": 18,
+        "question": "In what form can cream be used as a garnish ?",
+        "propositions": [
+          "Instrument",
+          "Object",
+          "Machine",
+          "Device"
+        ],
+        "réponse": "Device",
+        "anecdote": "In the kitchen, an appliance is a preparation of different ingredients that we will use with other products to make a recipe."
+      },
+      {
+        "id": 19,
+        "question": "How is a cream that constitutes a full-fledged dessert qualified ?",
+        "propositions": [
+          "Desserts",
+          "Mirliton",
+          "Panna cotta",
+          "Charlotte"
+        ],
+        "réponse": "Desserts",
+        "anecdote": "Over time, the dessert has become more and more sweet to the point of sometimes replacing dessert, since the 21st century."
+      },
+      {
+        "id": 20,
+        "question": "Which mounted cake is topped with a mixture of pastry cream and buttercream ?",
+        "propositions": [
+          "Sabayon",
+          "Butter tart",
+          "Wine tart",
+          "Tropézienne tart"
+        ],
+        "réponse": "Tropézienne tart",
+        "anecdote": "The process allowing the production of the device was the subject of a French patent filing on August 18, 1972."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which cream is generally interspersed with the diplomat soaked in Grand Marnier ?",
+        "propositions": [
+          "Whipped cream",
+          "Muslin cream",
+          "Pastry cream",
+          "Whipped cream"
+        ],
+        "réponse": "Pastry cream",
+        "anecdote": "The name of this dessert would come from the fact that it was imagined by Talleyrand during the Congress of Vienna."
+      },
+      {
+        "id": 22,
+        "question": "Which raw cream is the essential ingredient to make raw butter ?",
+        "propositions": [
+          "Whipping cream",
+          "English cream",
+          "Catalan cream",
+          "Sour cream"
+        ],
+        "réponse": "Whipping cream",
+        "anecdote": "This term is used to designate a liquid fresh cream that is neither matured nor sterilized, which has only undergone pasteurization."
+      },
+      {
+        "id": 23,
+        "question": "Which high fat dairy product contains lactic acid producing bacteria ?",
+        "propositions": [
+          "Pastry cream",
+          "Sour cream",
+          "Creme brulee",
+          "Cocoa cream"
+        ],
+        "réponse": "Sour cream",
+        "anecdote": "The microbiological population, from culture introduced after pasteurization or natural, sour and thicken the cream."
+      },
+      {
+        "id": 24,
+        "question": "Which AOC concerns 93 communes of Ain, 64 communes of Saône-et-Loire and 35 of Jura ?",
+        "propositions": [
+          "Chiboust cream",
+          "English cream",
+          "Bresse cream",
+          "Whipping cream"
+        ],
+        "réponse": "Bresse cream",
+        "anecdote": "With more than 500 tonnes produced each year, Bresse cream and butter have become a protected designation of origin."
+      },
+      {
+        "id": 25,
+        "question": "Which cream is the result of a mixture of pastry cream and Italian meringue ?",
+        "propositions": [
+          "English cream",
+          "Buttercream",
+          "Chiboust cream",
+          "Blackcurrant cream"
+        ],
+        "réponse": "Chiboust cream",
+        "anecdote": "By incorporating gelatin, we can obtain this cream also called chibouste or saint-honoré cream."
+      },
+      {
+        "id": 26,
+        "question": "In pastry, which cream goes into the composition of mille-feuille ?",
+        "propositions": [
+          "English cream",
+          "Diplomat cream",
+          "Almond cream",
+          "Chiboust cream"
+        ],
+        "réponse": "Diplomat cream",
+        "anecdote": "Diplomat cream is the result of a mixture of pastry cream, whipped cream and gelatin."
+      },
+      {
+        "id": 27,
+        "question": "What is another name for princess cream, made from pastry cream and whipped cream ?",
+        "propositions": [
+          "Chair Cream",
+          "Madame cream",
+          "Duchess cream",
+          "Countess Cream"
+        ],
+        "réponse": "Madame cream",
+        "anecdote": "The princess cream is the result of a mixture of pastry cream and whipped cream in order to obtain a foamy cream."
+      },
+      {
+        "id": 28,
+        "question": "Which dessert is particularly popular in Sicily and the Balearic Islands ?",
+        "propositions": [
+          "Chiboust cream",
+          "Blackcurrant cream",
+          "Chestnut cream",
+          "Catalan cream"
+        ],
+        "réponse": "Catalan cream",
+        "anecdote": "It can be used for example instead of pastry cream to stuff pastries, puff pastry, tortells, Catalan cockles or ramblas."
+      },
+      {
+        "id": 29,
+        "question": "Which cream was invented in 1885 by the industrialist Clément Faugier ?",
+        "propositions": [
+          "Blackcurrant cream",
+          "Chestnut cream",
+          "Mint cream",
+          "Cocoa cream"
+        ],
+        "réponse": "Chestnut cream",
+        "anecdote": "Clément Faugier was looking to recover the broken candied chestnuts accidentally created during production."
+      },
+      {
+        "id": 30,
+        "question": "What cream is used in cocktails such as the Grasshopper and the Stinger ?",
+        "propositions": [
+          "Chestnut cream",
+          "Cocoa cream",
+          "Blackcurrant cream",
+          "Mint cream"
+        ],
+        "réponse": "Mint cream",
+        "anecdote": "Available commercially in white or green colors, its flavor is mainly derived from Corsican mint."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Rahm wird gewonnen, wenn Rohmilch in einen Rahmabscheider gegeben wird ?",
+        "propositions": [
+          "Frische Sahne",
+          "Fruchtcreme",
+          "Chiboust-Creme",
+          "Buttercreme"
+        ],
+        "réponse": "Frische Sahne",
+        "anecdote": "Diese Art der Umwandlung wird von landwirtschaftlichen Erzeugern für den Familienverbrauch, den Kurzschlußverkauf oder den Direktverkauf durchgeführt."
+      },
+      {
+        "id": 2,
+        "question": "Welche Creme wird verwendet, um den Weihnachtsbaum oder den Neujahrskuchen zu bedecken ?",
+        "propositions": [
+          "Kastaniencreme",
+          "Kakaocreme",
+          "Eis",
+          "Buttercreme"
+        ],
+        "réponse": "Buttercreme",
+        "anecdote": "Diese Creme besteht aus weicher Butter, Eiern (gelb, weiß oder ganz), Zucker und manchmal Milch."
+      },
+      {
+        "id": 3,
+        "question": "Welche Creme wird in der Zusammensetzung einer anderen Creme verwendet, der Frangipane-Creme ?",
+        "propositions": [
+          "Schlagsahne",
+          "Gebäckcreme",
+          "Doppelrahm",
+          "Mandelcreme"
+        ],
+        "réponse": "Mandelcreme",
+        "anecdote": "Die Mandelcreme besteht aus weicher Butter, gemahlenen Mandeln, Zucker, Eiern und Mehl, kalt geschlagen."
+      },
+      {
+        "id": 4,
+        "question": "Welche Sahne wird am häufigsten auf schwimmenden Inseln serviert ?",
+        "propositions": [
+          "Schlagsahne",
+          "Englische Sahne",
+          "Fruchtcreme",
+          "Schlagsahne"
+        ],
+        "réponse": "Englische Sahne",
+        "anecdote": "Es wird oft mit einer Fruchtcoulis in Restaurant-Kuchentellern serviert, insbesondere zu Schokoladenkuchen."
+      },
+      {
+        "id": 5,
+        "question": "Welche gekühlte Sahne bietet eine karamellisierte Fackel-Flammé-Oberseite ?",
+        "propositions": [
+          "Minzcreme",
+          "Katalanische Creme",
+          "Kastaniencreme",
+          "Crème Brlée"
+        ],
+        "réponse": "Crème Brlée",
+        "anecdote": "Die Crème Brûlée wird warm oder kalt in Auflaufförmchen serviert, mit einer heißen und knusprigen Kruste darüber."
+      },
+      {
+        "id": 6,
+        "question": "Welche Creme unterscheidet sich von Sorbet, das wiederum aus Zuckersirup besteht ?",
+        "propositions": [
+          "Eis",
+          "Sauerrahm",
+          "Karamellcreme",
+          "Bresse-Sahne"
+        ],
+        "réponse": "Eis",
+        "anecdote": "Obwohl in den reichen Ländern leicht rückläufig, hat der Eiscrememarkt, der mit dem der Milchindustrie verbunden ist, ein erhebliches Gewicht."
+      },
+      {
+        "id": 7,
+        "question": "Welche Sahne befindet sich auf den meisten Eisbechern ?",
+        "propositions": [
+          "Katalanische Creme",
+          "Minzcreme",
+          "Schlagsahne",
+          "Gebäckcreme"
+        ],
+        "réponse": "Schlagsahne",
+        "anecdote": "Die Schlagsahne wird mit flüssiger Frischsahne, Schlagsahne oder Schlagsahne, UHT oder sterilisiert hergestellt."
+      },
+      {
+        "id": 8,
+        "question": "Welche Creme aus Beeren ist ein wesentlicher Bestandteil von Kir ?",
+        "propositions": [
+          "Johannisbeercreme",
+          "Minzcreme",
+          "Kakaocreme",
+          "Kastaniencreme"
+        ],
+        "réponse": "Johannisbeercreme",
+        "anecdote": "Die Crème de Cassis wird aus schwarzen Johannisbeeren hergestellt, die in superfeinem Alkohol mazeriert und mit Zucker versetzt werden."
+      },
+      {
+        "id": 9,
+        "question": "Welche Sahne kommt in die Komposition der Galette des Rois ?",
+        "propositions": [
+          "Frangipane-Creme",
+          "Englische Sahne",
+          "Schlagsahne",
+          "Crème Brlée"
+        ],
+        "réponse": "Frangipane-Creme",
+        "anecdote": "Sie besteht zu zwei Dritteln aus Mandelcreme und zu einem Drittel aus Gebäckcreme, nicht zu verwechseln mit der Mandelcreme."
+      },
+      {
+        "id": 10,
+        "question": "Welche Teigzubereitung wird für Windbeutel, Eclairs oder Mille-Feuille verwendet ?",
+        "propositions": [
+          "Buttercreme",
+          "Schlagsahne",
+          "Gebäckcreme",
+          "Karamellcreme"
+        ],
+        "réponse": "Gebäckcreme",
+        "anecdote": "Auf dem Markt verwenden die meisten Zubereitungen, die den Namen Crème Pâtissière tragen, nicht das Originalrezept."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Sahne, die im Wasserbad gekocht wird, wird mit Sauce serviert ?",
+        "propositions": [
+          "Musselincreme",
+          "Englische Sahne",
+          "Madame Sahne",
+          "Karamellcreme"
+        ],
+        "réponse": "Karamellcreme",
+        "anecdote": "Das Gericht wird auf der ganzen Welt gegessen, wobei Crème Caramel in europäischen Restaurants allgegenwärtig ist."
+      },
+      {
+        "id": 12,
+        "question": "Welche Sahne, die im 16. Jahrhundert sehr geschätzt wurde, wurde Schneemilch genannt ?",
+        "propositions": [
+          "Schlagsahne",
+          "Fruchtcreme",
+          "Buttercreme",
+          "Johannisbeercreme"
+        ],
+        "réponse": "Schlagsahne",
+        "anecdote": "Die Erfindung der Schlagsahne wird häufig François Vatel zugeschrieben, dem Butler des Château de Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "Welche Crème fraîche, mindestens 30 % Fett, ist gleichbedeutend mit Schlagsahne ?",
+        "propositions": [
+          "Doppelrahm",
+          "Schlagsahne",
+          "Mandelcreme",
+          "Englische Sahne"
+        ],
+        "réponse": "Doppelrahm",
+        "anecdote": "In der Schweiz ist Double Cream besonders beliebt als Dessert, begleitet von Baiser oder roten Früchten."
+      },
+      {
+        "id": 14,
+        "question": "In welche Kategorie fallen Zitronen-, Orangen- oder Himbeercreme ?",
+        "propositions": [
+          "Fruchtcreme",
+          "Schlagsahne",
+          "Schlagsahne",
+          "Buttercreme"
+        ],
+        "réponse": "Fruchtcreme",
+        "anecdote": "Die Grundzutaten sind geschlagenes Eigelb, Zucker, Fruchtsäfte und deren Schale, die schonend gegart werden."
+      },
+      {
+        "id": 15,
+        "question": "Welche cremige Creme wird besonders zum Garnieren von Paris-Brest verwendet ?",
+        "propositions": [
+          "Chiboust-Creme",
+          "Englische Sahne",
+          "Musselincreme",
+          "Katalanische Creme"
+        ],
+        "réponse": "Musselincreme",
+        "anecdote": "Die Butter wird in zwei Portionen eingearbeitet, eine Hälfte, wenn die Sahne noch heiß ist, eine andere, wenn sie kalt ist."
+      },
+      {
+        "id": 16,
+        "question": "Welche Sahne mit Kakaogeschmack wird bei der Zubereitung bestimmter Cocktails verwendet ?",
+        "propositions": [
+          "Johannisbeercreme",
+          "Kakaocreme",
+          "Kastaniencreme",
+          "Minzcreme"
+        ],
+        "réponse": "Kakaocreme",
+        "anecdote": "Es gibt zwei Arten von Crème de Cacao : die braune Crème de Cacao und die weiße Crème de Cacao, die am Gaumen weicher und süßer ist."
+      },
+      {
+        "id": 17,
+        "question": "Welches Dessert auf Fruchtmousse-Basis gehört zur Familie der Cremes ?",
+        "propositions": [
+          "Bayerisch",
+          "Quetsch",
+          "Caquelon",
+          "Gendarm"
+        ],
+        "réponse": "Bayerisch",
+        "anecdote": "Bayerische Sahne ist eine auf Gelatine geklebte Mousse, die möglicherweise mit Alkohol in Kombination mit Vanillesoße aromatisiert ist."
+      },
+      {
+        "id": 18,
+        "question": "In welcher Form kann Sahne als Garnitur verwendet werden ?",
+        "propositions": [
+          "Instrument",
+          "Maschine",
+          "Objekt",
+          "Gerät"
+        ],
+        "réponse": "Gerät",
+        "anecdote": "In der Küche ist ein Gerät eine Zubereitung verschiedener Zutaten, die wir mit anderen Produkten zu einem Rezept verwenden."
+      },
+      {
+        "id": 19,
+        "question": "Wie wird eine Creme qualifiziert, die ein vollwertiges Dessert darstellt ?",
+        "propositions": [
+          "Charlotte",
+          "Desserts",
+          "Mirliton",
+          "Pannacotta"
+        ],
+        "réponse": "Desserts",
+        "anecdote": "Im Laufe der Zeit wurde das Dessert seit dem 21. Jahrhundert immer süßer, bis es manchmal das Dessert ersetzte."
+      },
+      {
+        "id": 20,
+        "question": "Welcher montierte Kuchen wird mit einer Mischung aus Gebäckcreme und Buttercreme belegt ?",
+        "propositions": [
+          "Tropézienne-Torte",
+          "Sabayon",
+          "Buttertorte",
+          "Weintorte"
+        ],
+        "réponse": "Tropézienne-Torte",
+        "anecdote": "Das Verfahren zur Herstellung des Geräts war am 18. August 1972 Gegenstand einer französischen Patentanmeldung."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Sahne wird im Allgemeinen mit dem in Grand Marnier getränkten Diplomaten durchsetzt ?",
+        "propositions": [
+          "Musselincreme",
+          "Schlagsahne",
+          "Gebäckcreme",
+          "Schlagsahne"
+        ],
+        "réponse": "Gebäckcreme",
+        "anecdote": "Der Name dieses Desserts kommt von der Tatsache, dass Talleyrand es während des Wiener Kongresses erfunden hat."
+      },
+      {
+        "id": 22,
+        "question": "Welche Rohsahne ist die wichtigste Zutat für die Herstellung von Rohbutter ?",
+        "propositions": [
+          "Englische Sahne",
+          "Schlagsahne",
+          "Sauerrahm",
+          "Katalanische Creme"
+        ],
+        "réponse": "Schlagsahne",
+        "anecdote": "Mit diesem Begriff wird eine flüssige Frischsahne bezeichnet, die weder gereift noch sterilisiert ist, sondern lediglich pasteurisiert wurde."
+      },
+      {
+        "id": 23,
+        "question": "Welches fettreiche Milchprodukt enthält milchsäurebildende Bakterien ?",
+        "propositions": [
+          "Crème Brlée",
+          "Sauerrahm",
+          "Kakaocreme",
+          "Gebäckcreme"
+        ],
+        "réponse": "Sauerrahm",
+        "anecdote": "Die mikrobiologische Population, aus Kultur, die nach der Pasteurisierung eingeführt wurde, oder natürlich, säuert und verdickt die Sahne."
+      },
+      {
+        "id": 24,
+        "question": "Welches AOC betrifft 93 Gemeinden von Ain, 64 Gemeinden von Saône-et-Loire und 35 von Jura ?",
+        "propositions": [
+          "Schlagsahne",
+          "Englische Sahne",
+          "Chiboust-Creme",
+          "Bresse-Sahne"
+        ],
+        "réponse": "Bresse-Sahne",
+        "anecdote": "Mit mehr als 500 Tonnen pro Jahr sind Bresse Rahm und Butter zu einer geschützten Ursprungsbezeichnung geworden."
+      },
+      {
+        "id": 25,
+        "question": "Welche Creme ist das Ergebnis einer Mischung aus Gebäckcreme und italienischem Baiser ?",
+        "propositions": [
+          "Buttercreme",
+          "Johannisbeercreme",
+          "Englische Sahne",
+          "Chiboust-Creme"
+        ],
+        "réponse": "Chiboust-Creme",
+        "anecdote": "Durch die Einarbeitung von Gelatine können wir diese Creme erhalten, die auch Chibouste oder Saint-Honoré-Creme genannt wird."
+      },
+      {
+        "id": 26,
+        "question": "Welche Sahne kommt in der Konditorei in die Mille-Feuille-Komposition ?",
+        "propositions": [
+          "Diplomatencreme",
+          "Englische Sahne",
+          "Chiboust-Creme",
+          "Mandelcreme"
+        ],
+        "réponse": "Diplomatencreme",
+        "anecdote": "Diplomatcreme ist das Ergebnis einer Mischung aus Gebäckcreme, Schlagsahne und Gelatine."
+      },
+      {
+        "id": 27,
+        "question": "Was ist ein anderer Name für Prinzessinnencreme, die aus Gebäckcreme und Schlagsahne hergestellt wird ?",
+        "propositions": [
+          "Gräfin Creme",
+          "Herzogincreme",
+          "Madame Sahne",
+          "Stuhl Creme"
+        ],
+        "réponse": "Madame Sahne",
+        "anecdote": "Die Prinzessinnencreme ist das Ergebnis einer Mischung aus Gebäckcreme und Schlagsahne, um eine schaumige Creme zu erhalten."
+      },
+      {
+        "id": 28,
+        "question": "Welches Dessert ist auf Sizilien und den Balearen besonders beliebt ?",
+        "propositions": [
+          "Katalanische Creme",
+          "Johannisbeercreme",
+          "Kastaniencreme",
+          "Chiboust-Creme"
+        ],
+        "réponse": "Katalanische Creme",
+        "anecdote": "Es kann beispielsweise anstelle von Gebäckcreme verwendet werden, um Gebäck, Blätterteig, Tortells, katalanische Herzmuscheln oder Ramblas zu füllen."
+      },
+      {
+        "id": 29,
+        "question": "Welche Creme wurde 1885 vom Industriellen Clément Faugier erfunden ?",
+        "propositions": [
+          "Johannisbeercreme",
+          "Kastaniencreme",
+          "Kakaocreme",
+          "Minzcreme"
+        ],
+        "réponse": "Kastaniencreme",
+        "anecdote": "Clément Faugier wollte die zerbrochenen kandierten Kastanien, die während der Produktion versehentlich entstanden sind, zurückgewinnen."
+      },
+      {
+        "id": 30,
+        "question": "Welche Sahne wird in Cocktails wie dem Grasshopper und dem Stinger verwendet ?",
+        "propositions": [
+          "Kakaocreme",
+          "Kastaniencreme",
+          "Minzcreme",
+          "Johannisbeercreme"
+        ],
+        "réponse": "Minzcreme",
+        "anecdote": "Im Handel in weißer oder grüner Farbe erhältlich, wird sein Geschmack hauptsächlich von korsischer Minze abgeleitet."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué nata se obtiene colocando leche cruda en un separador de nata ?",
+        "propositions": [
+          "Crema de frutas",
+          "Crema fresca",
+          "Crema de chiboust",
+          "Crema de mantequilla"
+        ],
+        "réponse": "Crema fresca",
+        "anecdote": "Este tipo de transformación la realizan los productores agrícolas para consumo familiar, venta en cortocircuito o venta directa."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué crema se usa para cubrir el tronco de Navidad o el pastel de Año Nuevo ?",
+        "propositions": [
+          "Crema de mantequilla",
+          "Crema de cacao",
+          "Helado",
+          "Crema de castañas"
+        ],
+        "réponse": "Crema de mantequilla",
+        "anecdote": "Esta crema se compone de mantequilla blanda, huevos (amarillos, blancos o enteros), azúcar y, a veces, leche."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué crema se utiliza en la composición de otra crema, la crema frangipane ?",
+        "propositions": [
+          "Crema de almendras",
+          "Crema doble",
+          "Crema batida",
+          "Crema pastelera"
+        ],
+        "réponse": "Crema de almendras",
+        "anecdote": "La crema de almendras se compone de mantequilla blanda, almendras en polvo, azúcar, huevos y harina, batida en frío."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué crema se sirve con más frecuencia en las islas flotantes ?",
+        "propositions": [
+          "Crema inglesa",
+          "Crema batida",
+          "Crema de frutas",
+          "Nata para montar"
+        ],
+        "réponse": "Crema inglesa",
+        "anecdote": "A menudo se sirve con un coulis de frutas en platos para pasteles de restaurantes, especialmente con pasteles de chocolate."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué crema fría ofrece una parte superior flambeada con soplete caramelizado ?",
+        "propositions": [
+          "Crema de menta",
+          "Crema catalana",
+          "Creme brulee",
+          "Crema de castañas"
+        ],
+        "réponse": "Creme brulee",
+        "anecdote": "La crème brûlée se sirve, tibia o fría, en moldes, con una costra caliente y crujiente encima."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué crema se diferencia del sorbete, que a su vez consiste en jarabe de azúcar ?",
+        "propositions": [
+          "Crema de caramelo",
+          "Crema agria",
+          "Helado",
+          "Crema Bresse"
+        ],
+        "réponse": "Helado",
+        "anecdote": "Aunque en ligero descenso en los países ricos, el mercado de los helados, ligado al de la industria láctea, tiene un peso considerable."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué crema se encuentra en la parte superior de la mayoría de los vasos de helado ?",
+        "propositions": [
+          "Crema pastelera",
+          "Crema de menta",
+          "Crema batida",
+          "Crema catalana"
+        ],
+        "réponse": "Crema batida",
+        "anecdote": "La nata montada se elabora con nata fresca líquida, nata para montar o nata para montar, UHT o esterilizada."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué crema, elaborada con frutos rojos, es un ingrediente esencial del kir ?",
+        "propositions": [
+          "Crema de menta",
+          "Crema de castañas",
+          "Crema de grosella negra",
+          "Crema de cacao"
+        ],
+        "réponse": "Crema de grosella negra",
+        "anecdote": "La crème de cassis se elabora a partir de bayas de grosella negra maceradas en alcohol superfino, al que se añade azúcar."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué crema entra en la composición de la galette des rois ?",
+        "propositions": [
+          "Crema de frangipane",
+          "Creme brulee",
+          "Crema inglesa",
+          "Crema batida"
+        ],
+        "réponse": "Crema de frangipane",
+        "anecdote": "Está compuesto por dos tercios de crema de almendras y un tercio de crema pastelera, no confundir con la crema de almendras."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué preparación de pastelería se utiliza en crema hojaldrada, éclairs o milhojas ?",
+        "propositions": [
+          "Crema de mantequilla",
+          "Crema pastelera",
+          "Crema de caramelo",
+          "Nata para montar"
+        ],
+        "réponse": "Crema pastelera",
+        "anecdote": "En el mercado, la mayoría de las preparaciones que utilizan el nombre crème pâtissière no utilizan la receta original."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué nata cocida a baño maría se sirve con salsa encima ?",
+        "propositions": [
+          "Crema inglesa",
+          "Madame cream",
+          "Crema de muselina",
+          "Crema de caramelo"
+        ],
+        "réponse": "Crema de caramelo",
+        "anecdote": "El plato se come en todo el mundo, con crema de caramelo omnipresente en los restaurantes europeos."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué crema, muy apreciada en el siglo XVI, se llamó leche de nieve ?",
+        "propositions": [
+          "Crema de mantequilla",
+          "Crema de frutas",
+          "Crema batida",
+          "Crema de grosella negra"
+        ],
+        "réponse": "Crema batida",
+        "anecdote": "La invención de la crema batida se atribuye con frecuencia a François Vatel, mayordomo del castillo de Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué crème fraîche, con al menos un 30% de grasa, es sinónimo de crema espesa ?",
+        "propositions": [
+          "Crema batida",
+          "Crema doble",
+          "Crema inglesa",
+          "Crema de almendras"
+        ],
+        "réponse": "Crema doble",
+        "anecdote": "En Suiza, la crema doble es especialmente popular para el postre, acompañada de merengues o frutos rojos."
+      },
+      {
+        "id": 14,
+        "question": "¿En qué categoría cae la crema de limón, naranja o frambuesa ?",
+        "propositions": [
+          "Crema de mantequilla",
+          "Crema de frutas",
+          "Crema batida",
+          "Crema batida"
+        ],
+        "réponse": "Crema de frutas",
+        "anecdote": "Los ingredientes básicos son las yemas de huevo batidas, el azúcar, los zumos de frutas y su ralladura que se cuecen a fuego lento."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué crema cremosa se utiliza en particular para decorar Paris-Brest ?",
+        "propositions": [
+          "Crema catalana",
+          "Crema inglesa",
+          "Crema de chiboust",
+          "Crema de muselina"
+        ],
+        "réponse": "Crema de muselina",
+        "anecdote": "La mantequilla se incorpora en dos lotes, la mitad cuando la crema pastelera aún está caliente y la otra cuando está fría."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué crema con sabor a cacao se utiliza en la preparación de determinados cócteles ?",
+        "propositions": [
+          "Crema de grosella negra",
+          "Crema de menta",
+          "Crema de cacao",
+          "Crema de castañas"
+        ],
+        "réponse": "Crema de cacao",
+        "anecdote": "Hay dos tipos de crème de cacao : crème de cacao marrón y crème de cacao blanco, que es más suave y dulce al paladar."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué postre a base de mousse de frutas pertenece a la familia de las cremas ?",
+        "propositions": [
+          "Quetsch",
+          "Caquelon",
+          "Bávaro",
+          "Gendarme"
+        ],
+        "réponse": "Bávaro",
+        "anecdote": "La crema bávara es una mousse pegada a gelatina posiblemente aromatizada con alcohol combinado con natillas."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué forma se puede utilizar la crema como guarnición ?",
+        "propositions": [
+          "Dispositivo",
+          "Máquina",
+          "Instrumento",
+          "Objeto"
+        ],
+        "réponse": "Dispositivo",
+        "anecdote": "En la cocina, un electrodoméstico es una preparación de diferentes ingredientes que usaremos con otros productos para hacer una receta."
+      },
+      {
+        "id": 19,
+        "question": "¿Cómo se califica una crema que constituye un postre en toda regla ?",
+        "propositions": [
+          "Charlotte",
+          "Panna cotta",
+          "Postres",
+          "Mirliton"
+        ],
+        "réponse": "Postres",
+        "anecdote": "Con el tiempo, el postre se ha vuelto cada vez más dulce hasta el punto de reemplazar a veces al postre, desde el siglo XXI."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué pastel montado está cubierto con una mezcla de crema pastelera y crema de mantequilla ?",
+        "propositions": [
+          "Tarta de vino",
+          "Sabayón",
+          "Tarta Tropézienne",
+          "Tarta de mantequilla"
+        ],
+        "réponse": "Tarta Tropézienne",
+        "anecdote": "El proceso que permitió la producción del dispositivo fue objeto de una solicitud de patente francesa el 18 de agosto de 1972."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué crema se intercala generalmente con el diplomático empapado en Grand Marnier ?",
+        "propositions": [
+          "Crema batida",
+          "Crema batida",
+          "Crema pastelera",
+          "Crema de muselina"
+        ],
+        "réponse": "Crema pastelera",
+        "anecdote": "El nombre de este postre vendría por el hecho de que fue imaginado por Talleyrand durante el Congreso de Viena."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué crema cruda es el ingrediente esencial para hacer mantequilla cruda ?",
+        "propositions": [
+          "Crema agria",
+          "Crema catalana",
+          "Nata para montar",
+          "Crema inglesa"
+        ],
+        "réponse": "Nata para montar",
+        "anecdote": "Este término se utiliza para designar una nata fresca líquida que no está ni madurada ni esterilizada, que solo ha sido pasteurizada."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué producto lácteo rico en grasas contiene bacterias productoras de ácido láctico ?",
+        "propositions": [
+          "Crema de cacao",
+          "Crema agria",
+          "Crema pastelera",
+          "Creme brulee"
+        ],
+        "réponse": "Crema agria",
+        "anecdote": "La población microbiológica, procedente de cultivo introducido tras la pasteurización o natural, agria y espesa la nata."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué AOC se refiere a 93 municipios de Ain, 64 municipios de Saona y Loira y 35 de Jura ?",
+        "propositions": [
+          "Crema Bresse",
+          "Crema inglesa",
+          "Nata para montar",
+          "Crema de chiboust"
+        ],
+        "réponse": "Crema Bresse",
+        "anecdote": "Con más de 500 toneladas producidas cada año, la nata y la mantequilla de Bresse se han convertido en una denominación de origen protegida."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué crema es el resultado de una mezcla de crema pastelera y merengue italiano ?",
+        "propositions": [
+          "Crema de mantequilla",
+          "Crema de chiboust",
+          "Crema inglesa",
+          "Crema de grosella negra"
+        ],
+        "réponse": "Crema de chiboust",
+        "anecdote": "Al incorporar gelatina, podemos obtener esta crema también llamada crema de chibouste o saint-honoré."
+      },
+      {
+        "id": 26,
+        "question": "En repostería, ¿qué crema entra en la composición del milhojas ?",
+        "propositions": [
+          "Crema inglesa",
+          "Crema de chiboust",
+          "Crema de almendras",
+          "Crema diplomática"
+        ],
+        "réponse": "Crema diplomática",
+        "anecdote": "La crema Diplomat es el resultado de una mezcla de crema pastelera, nata montada y gelatina."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es otro nombre para la crema princesa, hecha de crema pastelera y crema batida ?",
+        "propositions": [
+          "Madame cream",
+          "Silla Crema",
+          "Crema de duquesa",
+          "Crema Condesa"
+        ],
+        "réponse": "Madame cream",
+        "anecdote": "La nata princesa es el resultado de una mezcla de nata pastelera y nata montada para obtener una nata espumosa."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué postre es particularmente popular en Sicilia y las Islas Baleares ?",
+        "propositions": [
+          "Crema de chiboust",
+          "Crema catalana",
+          "Crema de castañas",
+          "Crema de grosella negra"
+        ],
+        "réponse": "Crema catalana",
+        "anecdote": "Se puede utilizar por ejemplo en lugar de crema pastelera para rellenar pasteles, hojaldres, tortells, berberechos catalanes o ramblas."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué crema fue inventada en 1885 por el industrial Clément Faugier ?",
+        "propositions": [
+          "Crema de cacao",
+          "Crema de castañas",
+          "Crema de grosella negra",
+          "Crema de menta"
+        ],
+        "réponse": "Crema de castañas",
+        "anecdote": "Clément Faugier buscaba recuperar las castañas confitadas rotas creadas accidentalmente durante la producción."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué crema se usa en cócteles como el Grasshopper y el Stinger ?",
+        "propositions": [
+          "Crema de castañas",
+          "Crema de grosella negra",
+          "Crema de menta",
+          "Crema de cacao"
+        ],
+        "réponse": "Crema de menta",
+        "anecdote": "Disponible comercialmente en colores blanco o verde, su sabor se deriva principalmente de la menta corsa."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Che panna si ottiene mettendo il latte crudo in una scrematrice ?",
+        "propositions": [
+          "Crema di frutta",
+          "crema al burro",
+          "Crema Chiboust",
+          "Panna fresca"
+        ],
+        "réponse": "Panna fresca",
+        "anecdote": "Questo tipo di trasformazione viene effettuata dai produttori agricoli per il consumo familiare, la vendita a corto circuito o la vendita diretta."
+      },
+      {
+        "id": 2,
+        "question": "Che crema si usa per coprire il ceppo di Natale o la torta di Capodanno ?",
+        "propositions": [
+          "Gelato",
+          "Crema di cacao",
+          "crema al burro",
+          "Crema di castagne"
+        ],
+        "réponse": "crema al burro",
+        "anecdote": "Questa crema è composta da burro ammorbidito, uova (gialle, bianche o intere), zucchero e talvolta latte."
+      },
+      {
+        "id": 3,
+        "question": "Quale crema viene utilizzata nella composizione di un'altra crema, la crema frangipane ?",
+        "propositions": [
+          "Doppia panna",
+          "Crema di mandorle",
+          "Crema pasticcera",
+          "Panna montata"
+        ],
+        "réponse": "Crema di mandorle",
+        "anecdote": "La crema di mandorle è composta da burro ammorbidito, mandorle in polvere, zucchero, uova e farina, montate a freddo."
+      },
+      {
+        "id": 4,
+        "question": "Quale crema viene servita più comunemente sulle isole galleggianti ?",
+        "propositions": [
+          "Panna da montare",
+          "crema inglese",
+          "Crema di frutta",
+          "Panna montata"
+        ],
+        "réponse": "crema inglese",
+        "anecdote": "Viene spesso servito con un coulis di frutta nei piatti da torta dei ristoranti, soprattutto con le torte al cioccolato."
+      },
+      {
+        "id": 5,
+        "question": "Quale crema fredda offre un top flambé a torcia caramellata ?",
+        "propositions": [
+          "Crema di castagne",
+          "Crema alla menta",
+          "Crème brulée",
+          "Crema catalana"
+        ],
+        "réponse": "Crème brulée",
+        "anecdote": "La crème brûlée si serve, tiepida o fredda, in stampini, con sopra una crosticina calda e croccante."
+      },
+      {
+        "id": 6,
+        "question": "Quale crema differisce dal sorbetto, che a sua volta è composto da sciroppo di zucchero ?",
+        "propositions": [
+          "Crema di Bresse",
+          "Gelato",
+          "Creme caramel",
+          "Panna acida"
+        ],
+        "réponse": "Gelato",
+        "anecdote": "Seppur in leggero calo nei paesi ricchi, il mercato del gelato, legato a quello del settore lattiero-caseario, ha un peso notevole."
+      },
+      {
+        "id": 7,
+        "question": "Quale crema si trova sulla parte superiore della maggior parte delle coppe gelato ?",
+        "propositions": [
+          "Crema pasticcera",
+          "Panna montata",
+          "Crema catalana",
+          "Crema alla menta"
+        ],
+        "réponse": "Panna montata",
+        "anecdote": "La panna montata è realizzata con panna fresca liquida, panna da montare o panna da montare, UHT o sterilizzata."
+      },
+      {
+        "id": 8,
+        "question": "Quale crema, a base di frutti di bosco, è un ingrediente essenziale del kir ?",
+        "propositions": [
+          "Crema alla menta",
+          "Crema di castagne",
+          "Crema di ribes nero",
+          "Crema di cacao"
+        ],
+        "réponse": "Crema di ribes nero",
+        "anecdote": "La crème de cassis è composta da bacche di ribes nero macerate in alcol superfino, a cui viene aggiunto lo zucchero."
+      },
+      {
+        "id": 9,
+        "question": "Quale crema va nella composizione della galette des rois ?",
+        "propositions": [
+          "crema inglese",
+          "Crema di frangipane",
+          "Crème brulée",
+          "Panna montata"
+        ],
+        "réponse": "Crema di frangipane",
+        "anecdote": "È composto da due terzi di crema di mandorle e un terzo di crema pasticcera, da non confondere con la crema di mandorle."
+      },
+      {
+        "id": 10,
+        "question": "Quale preparazione di pasta si usa nei bignè, negli éclair o nelle millefoglie ?",
+        "propositions": [
+          "crema al burro",
+          "Creme caramel",
+          "Crema pasticcera",
+          "Panna da montare"
+        ],
+        "réponse": "Crema pasticcera",
+        "anecdote": "In commercio, la maggior parte delle preparazioni che utilizzano il nome crème pâtissière non segue la ricetta originale."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale crema cotta a bagnomaria si serve con la salsa sopra ?",
+        "propositions": [
+          "crema inglese",
+          "Madama crema",
+          "Crema di mussola",
+          "Creme caramel"
+        ],
+        "réponse": "Creme caramel",
+        "anecdote": "Il piatto è consumato in tutto il mondo, con il crème caramel onnipresente nei ristoranti europei."
+      },
+      {
+        "id": 12,
+        "question": "Quale crema, molto apprezzata nel XVI secolo, si chiamava latte di neve ?",
+        "propositions": [
+          "crema al burro",
+          "Crema di ribes nero",
+          "Crema di frutta",
+          "Panna montata"
+        ],
+        "réponse": "Panna montata",
+        "anecdote": "L'invenzione della panna montata è spesso attribuita a François Vatel, maggiordomo del castello di Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "Quale crème fraîche, almeno il 30% di grassi, è sinonimo di panna ?",
+        "propositions": [
+          "Crema di mandorle",
+          "Panna montata",
+          "crema inglese",
+          "Doppia panna"
+        ],
+        "réponse": "Doppia panna",
+        "anecdote": "In Svizzera, la doppia panna è particolarmente apprezzata per il dessert, accompagnata da meringhe o frutti rossi."
+      },
+      {
+        "id": 14,
+        "question": "In quale categoria rientrano la crema al limone, all'arancia o al lampone ?",
+        "propositions": [
+          "Panna montata",
+          "crema al burro",
+          "Panna montata",
+          "Crema di frutta"
+        ],
+        "réponse": "Crema di frutta",
+        "anecdote": "Gli ingredienti base sono tuorli d'uovo sbattuti, zucchero, succhi di frutta e la loro scorza che vengono cotti dolcemente."
+      },
+      {
+        "id": 15,
+        "question": "Quale crema cremosa viene utilizzata in particolare per guarnire il Paris-Brest ?",
+        "propositions": [
+          "crema inglese",
+          "Crema catalana",
+          "Crema Chiboust",
+          "Crema di mussola"
+        ],
+        "réponse": "Crema di mussola",
+        "anecdote": "Il burro viene incorporato in due riprese, metà quando la crema pasticcera è ancora calda e l'altra quando è fredda."
+      },
+      {
+        "id": 16,
+        "question": "Quale crema al gusto di cacao viene utilizzata nella preparazione di alcuni cocktail ?",
+        "propositions": [
+          "Crema di castagne",
+          "Crema di cacao",
+          "Crema alla menta",
+          "Crema di ribes nero"
+        ],
+        "réponse": "Crema di cacao",
+        "anecdote": "Esistono due tipi di crema di cacao : crema di cacao marrone e crema di cacao bianca, più morbida e dolce al palato."
+      },
+      {
+        "id": 17,
+        "question": "Quale dolce a base di mousse di frutta appartiene alla famiglia delle creme ?",
+        "propositions": [
+          "Gendarme",
+          "Quetsch",
+          "bavarese",
+          "Caquelon"
+        ],
+        "réponse": "bavarese",
+        "anecdote": "La bavarese è una mousse incollata alla gelatina eventualmente aromatizzata con alcool unita alla crema pasticcera."
+      },
+      {
+        "id": 18,
+        "question": "In quale forma si può usare la panna come guarnizione ?",
+        "propositions": [
+          "Macchina",
+          "Strumento",
+          "Oggetto",
+          "Dispositivo"
+        ],
+        "réponse": "Dispositivo",
+        "anecdote": "In cucina, un elettrodomestico è una preparazione di diversi ingredienti che utilizzeremo con altri prodotti per realizzare una ricetta."
+      },
+      {
+        "id": 19,
+        "question": "Come si qualifica una crema che costituisce un dessert a tutti gli effetti ?",
+        "propositions": [
+          "Mirliton",
+          "Dolci",
+          "Panna cotta",
+          "Charlotte"
+        ],
+        "réponse": "Dolci",
+        "anecdote": "Con il passare del tempo, il dolce è diventato sempre più dolce al punto da sostituire talvolta il dolce, dal 21° secolo."
+      },
+      {
+        "id": 20,
+        "question": "Quale torta montata è guarnita con una miscela di crema pasticcera e crema al burro ?",
+        "propositions": [
+          "Torta al vino",
+          "Zabaione",
+          "Crostata Tropézienne",
+          "Crostata al burro"
+        ],
+        "réponse": "Crostata Tropézienne",
+        "anecdote": "Il processo che ha permesso la produzione del dispositivo è stato oggetto di un deposito di brevetto francese il 18 agosto 1972."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale crema è generalmente intervallata dal diplomatico imbevuto di Grand Marnier ?",
+        "propositions": [
+          "Panna montata",
+          "Crema pasticcera",
+          "Crema di mussola",
+          "Panna montata"
+        ],
+        "réponse": "Crema pasticcera",
+        "anecdote": "Il nome di questo dolce deriverebbe dal fatto che fu immaginato da Talleyrand durante il Congresso di Vienna."
+      },
+      {
+        "id": 22,
+        "question": "Quale panna cruda è l'ingrediente essenziale per fare il burro crudo ?",
+        "propositions": [
+          "Crema catalana",
+          "Panna acida",
+          "Panna da montare",
+          "crema inglese"
+        ],
+        "réponse": "Panna da montare",
+        "anecdote": "Con questo termine si indica una panna fresca liquida, non stagionata né sterilizzata, che ha solo subito una pastorizzazione."
+      },
+      {
+        "id": 23,
+        "question": "Quale latticino ad alto contenuto di grassi contiene batteri che producono acido lattico ?",
+        "propositions": [
+          "Crema di cacao",
+          "Crema pasticcera",
+          "Panna acida",
+          "Crème brulée"
+        ],
+        "réponse": "Panna acida",
+        "anecdote": "La popolazione microbiologica, da coltura introdotta dopo pastorizzazione o naturale, acida e addensa la panna."
+      },
+      {
+        "id": 24,
+        "question": "Quale COA riguarda 93 comuni dell'Ain, 64 comuni della Saône-et-Loire e 35 del Giura ?",
+        "propositions": [
+          "Panna da montare",
+          "crema inglese",
+          "Crema Chiboust",
+          "Crema di Bresse"
+        ],
+        "réponse": "Crema di Bresse",
+        "anecdote": "Con più di 500 tonnellate prodotte ogni anno, la panna e il burro di Bresse sono diventati una denominazione di origine protetta."
+      },
+      {
+        "id": 25,
+        "question": "Quale crema è il risultato di un impasto di crema pasticcera e meringa italiana ?",
+        "propositions": [
+          "Crema di ribes nero",
+          "crema al burro",
+          "Crema Chiboust",
+          "crema inglese"
+        ],
+        "réponse": "Crema Chiboust",
+        "anecdote": "Incorporando la gelatina, possiamo ottenere questa crema chiamata anche crema chibouste o saint-honoré."
+      },
+      {
+        "id": 26,
+        "question": "In pasticceria, quale crema va nella composizione della millefoglie ?",
+        "propositions": [
+          "crema inglese",
+          "Crema Chiboust",
+          "Crema diplomatica",
+          "Crema di mandorle"
+        ],
+        "réponse": "Crema diplomatica",
+        "anecdote": "La crema diplomatica è il risultato di un impasto di crema pasticcera, panna montata e gelatina."
+      },
+      {
+        "id": 27,
+        "question": "Qual è un altro nome per la crema principessa, a base di crema pasticcera e panna montata ?",
+        "propositions": [
+          "Sedia Crema",
+          "Madama crema",
+          "Crema duchessa",
+          "Contessa Crema"
+        ],
+        "réponse": "Madama crema",
+        "anecdote": "La crema principessa è il risultato di un impasto di crema pasticcera e panna montata per ottenere una crema spumosa."
+      },
+      {
+        "id": 28,
+        "question": "Quale dolce è particolarmente diffuso in Sicilia e nelle Isole Baleari ?",
+        "propositions": [
+          "Crema catalana",
+          "Crema di ribes nero",
+          "Crema di castagne",
+          "Crema Chiboust"
+        ],
+        "réponse": "Crema catalana",
+        "anecdote": "Può essere usato ad esempio al posto della crema pasticcera per farcire pasticcini, pasta sfoglia, tortell, fasolari catalani o ramblas."
+      },
+      {
+        "id": 29,
+        "question": "Quale crema è stata inventata nel 1885 dall'industriale Clément Faugier ?",
+        "propositions": [
+          "Crema alla menta",
+          "Crema di cacao",
+          "Crema di castagne",
+          "Crema di ribes nero"
+        ],
+        "réponse": "Crema di castagne",
+        "anecdote": "Clément Faugier stava cercando di recuperare le castagne candite rotte create accidentalmente durante la produzione."
+      },
+      {
+        "id": 30,
+        "question": "Che crema si usa in cocktail come il Grasshopper e lo Stinger ?",
+        "propositions": [
+          "Crema alla menta",
+          "Crema di ribes nero",
+          "Crema di cacao",
+          "Crema di castagne"
+        ],
+        "réponse": "Crema alla menta",
+        "anecdote": "Disponibile in commercio nei colori bianco o verde, il suo sapore deriva principalmente dalla menta corsa."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke room wordt verkregen door rauwe melk in een roomafscheider te doen ?",
+        "propositions": [
+          "Fruitcrème",
+          "Verse room",
+          "Botercrème",
+          "Chiboust-crème"
+        ],
+        "réponse": "Verse room",
+        "anecdote": "Dit type transformatie wordt uitgevoerd door landbouwproducenten voor gezinsconsumptie, kortsluitingsverkoop of directe verkoop."
+      },
+      {
+        "id": 2,
+        "question": "Welke crème wordt gebruikt om het kerstblok of de nieuwjaarstaart te bedekken ?",
+        "propositions": [
+          "IJs",
+          "Cacaocrème",
+          "Botercrème",
+          "Kastanjecrème"
+        ],
+        "réponse": "Botercrème",
+        "anecdote": "Deze crème is samengesteld uit zachte boter, eieren (geel, wit of heel), suiker en soms melk."
+      },
+      {
+        "id": 3,
+        "question": "Welke crème wordt gebruikt in de samenstelling van een andere crème, frangipanecrème ?",
+        "propositions": [
+          "Banketbakkersroom",
+          "Dubbele room",
+          "Amandelcrème",
+          "Slagroom"
+        ],
+        "réponse": "Amandelcrème",
+        "anecdote": "De amandelcrème is samengesteld uit zachte boter, amandelpoeder, suiker, eieren en bloem, koud opgeklopt."
+      },
+      {
+        "id": 4,
+        "question": "Welke room wordt het meest geserveerd op drijvende eilanden ?",
+        "propositions": [
+          "Slagroom",
+          "Slagroom",
+          "Fruitcrème",
+          "Engelse room"
+        ],
+        "réponse": "Engelse room",
+        "anecdote": "Het wordt vaak geserveerd met een fruitcoulis in taartborden van restaurants, vooral bij chocoladetaarten."
+      },
+      {
+        "id": 5,
+        "question": "Welke gekoelde room biedt een gekarameliseerde toorts geflambeerde top ?",
+        "propositions": [
+          "Crème brulee",
+          "Muntcrème",
+          "Kastanjecrème",
+          "Catalaanse room"
+        ],
+        "réponse": "Crème brulee",
+        "anecdote": "De crème brûlée wordt warm of koud geserveerd in schaaltjes met een hete en krokante korst erop."
+      },
+      {
+        "id": 6,
+        "question": "Welke room verschilt van sorbet, die op zijn beurt weer uit suikersiroop bestaat ?",
+        "propositions": [
+          "IJs",
+          "Zure room",
+          "Bresse-crème",
+          "Crème karamel"
+        ],
+        "réponse": "IJs",
+        "anecdote": "Hoewel in de rijke landen een lichte achteruitgang, weegt de ijsmarkt, gekoppeld aan die van de zuivelindustrie, aanzienlijk."
+      },
+      {
+        "id": 7,
+        "question": "Welke room vind je op de bovenkant van de meeste ijsbekers ?",
+        "propositions": [
+          "Banketbakkersroom",
+          "Slagroom",
+          "Catalaanse room",
+          "Muntcrème"
+        ],
+        "réponse": "Slagroom",
+        "anecdote": "De slagroom wordt gemaakt met vloeibare verse room, slagroom of slagroom, UHT of gesteriliseerd."
+      },
+      {
+        "id": 8,
+        "question": "Welke crème, gemaakt van bessen, is een essentieel ingrediënt in kir ?",
+        "propositions": [
+          "Kastanjecrème",
+          "Zwarte bes crème",
+          "Muntcrème",
+          "Cacaocrème"
+        ],
+        "réponse": "Zwarte bes crème",
+        "anecdote": "De crème de cassis is gemaakt van zwarte bessenbessen die zijn geweekt in superfijne alcohol waaraan suiker is toegevoegd."
+      },
+      {
+        "id": 9,
+        "question": "Welke crème zit er in de samenstelling van de galette des rois ?",
+        "propositions": [
+          "Frangipane crème",
+          "Engelse room",
+          "Slagroom",
+          "Crème brulee"
+        ],
+        "réponse": "Frangipane crème",
+        "anecdote": "Het is samengesteld uit tweederde amandelroom en een derde banketbakkersroom, niet te verwarren met amandelroom."
+      },
+      {
+        "id": 10,
+        "question": "Welke banketbakkerij wordt gebruikt in slagroom, éclairs of millefeuille ?",
+        "propositions": [
+          "Slagroom",
+          "Crème karamel",
+          "Botercrème",
+          "Banketbakkersroom"
+        ],
+        "réponse": "Banketbakkersroom",
+        "anecdote": "Op de markt gebruiken de meeste bereidingen met de naam crème pâtissière niet het originele recept."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke room gekookt in een dubbele boiler wordt geserveerd met saus erop ?",
+        "propositions": [
+          "Mousseline crème",
+          "Madame crème",
+          "Engelse room",
+          "Crème karamel"
+        ],
+        "réponse": "Crème karamel",
+        "anecdote": "Het gerecht wordt over de hele wereld gegeten, met crème caramel alomtegenwoordig in Europese restaurants."
+      },
+      {
+        "id": 12,
+        "question": "Welke room, die in de 16e eeuw zeer gewaardeerd werd, heette sneeuwmelk ?",
+        "propositions": [
+          "Slagroom",
+          "Zwarte bes crème",
+          "Botercrème",
+          "Fruitcrème"
+        ],
+        "réponse": "Slagroom",
+        "anecdote": "De uitvinding van slagroom wordt vaak toegeschreven aan François Vatel, butler van het Château de Chantilly."
+      },
+      {
+        "id": 13,
+        "question": "Welke crème fraîche, met minimaal 30% vet, is synoniem met slagroom ?",
+        "propositions": [
+          "Engelse room",
+          "Dubbele room",
+          "Amandelcrème",
+          "Slagroom"
+        ],
+        "réponse": "Dubbele room",
+        "anecdote": "In Zwitserland is slagroom vooral populair als dessert, vergezeld van meringues of rood fruit."
+      },
+      {
+        "id": 14,
+        "question": "In welke categorie valt citroen-, sinaasappel- of frambozencrème ?",
+        "propositions": [
+          "Botercrème",
+          "Fruitcrème",
+          "Slagroom",
+          "Slagroom"
+        ],
+        "réponse": "Fruitcrème",
+        "anecdote": "De basisingrediënten zijn losgeklopte eidooiers, suiker, vruchtensappen en hun zeste die zachtjes worden gekookt."
+      },
+      {
+        "id": 15,
+        "question": "Welke romige crème wordt in het bijzonder gebruikt voor de garnering van Paris-Brest ?",
+        "propositions": [
+          "Chiboust-crème",
+          "Engelse room",
+          "Catalaanse room",
+          "Mousseline crème"
+        ],
+        "réponse": "Mousseline crème",
+        "anecdote": "De boter wordt in twee porties verwerkt, de helft als de banketbakkersroom nog heet is en de andere als deze koud is."
+      },
+      {
+        "id": 16,
+        "question": "Welke room met cacaosmaak wordt gebruikt bij de bereiding van bepaalde cocktails ?",
+        "propositions": [
+          "Muntcrème",
+          "Kastanjecrème",
+          "Zwarte bes crème",
+          "Cacaocrème"
+        ],
+        "réponse": "Cacaocrème",
+        "anecdote": "Er zijn twee soorten crème de cacao : bruine crème de cacao en witte crème de cacao, die zachter en zoeter is in de mond."
+      },
+      {
+        "id": 17,
+        "question": "Welk dessert op basis van fruitmousse behoort tot de roomfamilie ?",
+        "propositions": [
+          "Beiers",
+          "Quetsch",
+          "Gendarme",
+          "Caquelon"
+        ],
+        "réponse": "Beiers",
+        "anecdote": "Beierse room is een op gelatine geplakte mousse, eventueel op smaak gebracht met alcohol in combinatie met vla."
+      },
+      {
+        "id": 18,
+        "question": "In welke vorm kan room als garnering worden gebruikt ?",
+        "propositions": [
+          "Instrument",
+          "Voorwerp",
+          "Machine",
+          "Apparaat"
+        ],
+        "réponse": "Apparaat",
+        "anecdote": "In de keuken is een apparaat een bereiding van verschillende ingrediënten die we samen met andere producten gaan gebruiken om een \u200b\u200brecept te maken."
+      },
+      {
+        "id": 19,
+        "question": "Hoe kwalificeert een crème die een volwaardig dessert vormt ?",
+        "propositions": [
+          "Charlotte",
+          "Nagerechten",
+          "Mirliton",
+          "Panna cotta"
+        ],
+        "réponse": "Nagerechten",
+        "anecdote": "In de loop van de tijd is het dessert sinds de 21e eeuw steeds zoeter geworden en soms zelfs het dessert vervangen."
+      },
+      {
+        "id": 20,
+        "question": "Welke gemonteerde cake wordt belegd met een mengsel van banketbakkersroom en botercrème ?",
+        "propositions": [
+          "Sabayon",
+          "Tropézienne taart",
+          "Wijntaart",
+          "Botertaart"
+        ],
+        "réponse": "Tropézienne taart",
+        "anecdote": "Het proces dat de productie van het apparaat mogelijk maakte, was het onderwerp van een Franse octrooiaanvraag op 18 augustus 1972."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke crème wordt meestal afgewisseld met de diplomaat gedrenkt in Grand Marnier ?",
+        "propositions": [
+          "Banketbakkersroom",
+          "Slagroom",
+          "Mousseline crème",
+          "Slagroom"
+        ],
+        "réponse": "Banketbakkersroom",
+        "anecdote": "De naam van dit dessert zou komen van het feit dat het door Talleyrand werd bedacht tijdens het congres van Wenen."
+      },
+      {
+        "id": 22,
+        "question": "Welke rauwe room is het essentiële ingrediënt om rauwe boter te maken ?",
+        "propositions": [
+          "Zure room",
+          "Engelse room",
+          "Catalaanse room",
+          "Slagroom"
+        ],
+        "réponse": "Slagroom",
+        "anecdote": "Deze term wordt gebruikt om een \u200b\u200bvloeibare verse room aan te duiden die niet is gerijpt of gesteriliseerd en die alleen pasteurisatie heeft ondergaan."
+      },
+      {
+        "id": 23,
+        "question": "Welk vetrijk zuivelproduct bevat melkzuurproducerende bacteriën ?",
+        "propositions": [
+          "Crème brulee",
+          "Banketbakkersroom",
+          "Zure room",
+          "Cacaocrème"
+        ],
+        "réponse": "Zure room",
+        "anecdote": "De microbiologische populatie, van cultuur geïntroduceerd na pasteurisatie of natuurlijk, verzuren en verdikken de room."
+      },
+      {
+        "id": 24,
+        "question": "Welke AOC heeft betrekking op 93 gemeenten van Ain, 64 gemeenten van Saône-et-Loire en 35 van Jura ?",
+        "propositions": [
+          "Chiboust-crème",
+          "Engelse room",
+          "Bresse-crème",
+          "Slagroom"
+        ],
+        "réponse": "Bresse-crème",
+        "anecdote": "Met een productie van meer dan 500 ton per jaar zijn Bresse-room en -boter een beschermde oorsprongsbenaming geworden."
+      },
+      {
+        "id": 25,
+        "question": "Welke crème is het resultaat van een mengsel van banketbakkersroom en Italiaanse meringue ?",
+        "propositions": [
+          "Botercrème",
+          "Engelse room",
+          "Chiboust-crème",
+          "Zwarte bes crème"
+        ],
+        "réponse": "Chiboust-crème",
+        "anecdote": "Door gelatine toe te voegen kunnen we deze crème verkrijgen, ook wel chibouste of saint-honoré crème genoemd."
+      },
+      {
+        "id": 26,
+        "question": "Welke room wordt in gebak gebruikt in de samenstelling van millefeuille ?",
+        "propositions": [
+          "Amandelcrème",
+          "Diplomatencrème",
+          "Engelse room",
+          "Chiboust-crème"
+        ],
+        "réponse": "Diplomatencrème",
+        "anecdote": "Diplomat cream is het resultaat van een mengsel van banketbakkersroom, slagroom en gelatine."
+      },
+      {
+        "id": 27,
+        "question": "Wat is een andere naam voor prinsessencrème, gemaakt van banketbakkersroom en slagroom ?",
+        "propositions": [
+          "Gravin Crème",
+          "Stoel Crème",
+          "Hertogin crème",
+          "Madame crème"
+        ],
+        "réponse": "Madame crème",
+        "anecdote": "De prinsessencrème is het resultaat van een mengsel van banketbakkersroom en slagroom om een schuimige room te verkrijgen."
+      },
+      {
+        "id": 28,
+        "question": "Welk dessert is vooral populair op Sicilië en de Balearen ?",
+        "propositions": [
+          "Chiboust-crème",
+          "Zwarte bes crème",
+          "Kastanjecrème",
+          "Catalaanse room"
+        ],
+        "réponse": "Catalaanse room",
+        "anecdote": "Het kan bijvoorbeeld worden gebruikt in plaats van banketbakkersroom om gebak, bladerdeeg, tortells, Catalaanse kokkels of ramblas te vullen."
+      },
+      {
+        "id": 29,
+        "question": "Welke crème werd in 1885 uitgevonden door de industrieel Clément Faugier ?",
+        "propositions": [
+          "Kastanjecrème",
+          "Cacaocrème",
+          "Muntcrème",
+          "Zwarte bes crème"
+        ],
+        "réponse": "Kastanjecrème",
+        "anecdote": "Clément Faugier was op zoek naar de gebroken gekonfijte kastanjes die per ongeluk tijdens de productie waren ontstaan."
+      },
+      {
+        "id": 30,
+        "question": "Welke crème wordt gebruikt in cocktails zoals de Grasshopper en de Stinger ?",
+        "propositions": [
+          "Cacaocrème",
+          "Muntcrème",
+          "Kastanjecrème",
+          "Zwarte bes crème"
+        ],
+        "réponse": "Muntcrème",
+        "anecdote": "In de handel verkrijgbaar in witte of groene kleuren, is de smaak voornamelijk afgeleid van Corsicaanse munt."
+      }
+    ]
+    }
+  }
+}

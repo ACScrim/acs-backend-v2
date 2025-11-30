@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 6,
+  "mise-à-jour": "2022-07-30",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Géographie",
+      "nom": "Andalousie",
+      "slogan": "Communauté autonome d'Espagne"
+    },
+    "en": {
+      "catégorie": "Geography",
+      "nom": "Andalusia",
+      "slogan": "Autonomous Community of Spain"
+    },
+    "es": {
+      "catégorie": "Geografía",
+      "nom": "Andalucía",
+      "slogan": "Comunidad Autónoma de España"
+    },
+    "it": {
+      "catégorie": "Geografia",
+      "nom": "Andalusia",
+      "slogan": "Comunità autonoma di Spagna"
+    },
+    "de": {
+      "catégorie": "Erdkunde",
+      "nom": "Andalusien",
+      "slogan": "Autonome Gemeinschaft Spanien"
+    },
+    "nl": {
+      "catégorie": "Aardrijkskunde",
+      "nom": "Andalusië",
+      "slogan": "Autonome Gemeenschap van Spanje"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "L'Andalousie est une région située dans le Sud de quel pays ?",
+        "propositions": [
+          "Espagne",
+          "Grèce",
+          "Portugal",
+          "Italie"
+        ],
+        "réponse": "Espagne",
+        "anecdote": "Elle est située dans le Sud de la péninsule Ibérique, faisant face au Maroc (région du Rif), et au nord-ouest de l'Algérie (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "En combien de capitales provinciales l'Andalousie est-elle divisée ?",
+        "propositions": [
+          "Dix",
+          "Six",
+          "Quatre",
+          "Huit"
+        ],
+        "réponse": "Huit",
+        "anecdote": "Les huit provinces sont les uivantes : Almeria, Cadix, Crdoue, Grenade, Huelva, Jaen, Malaga et Séville."
+      },
+      {
+        "id": 3,
+        "question": "Quelle ville du Sud de l'Espagne est la capitale de l'Andalousie ?",
+        "propositions": [
+          "Grenade",
+          "Séville",
+          "Malaga",
+          "Cordoue"
+        ],
+        "réponse": "Séville",
+        "anecdote": "Située au centre d'une riche région agricole, la cité est le coeur économique, politique et culturel de l'Andalousie."
+      },
+      {
+        "id": 4,
+        "question": "Qui fut élu à six reprises président du gouvernement andalou ?",
+        "propositions": [
+          "Manuel Chaves",
+          "Eduardo Zaplana",
+          "Joaquin Almunia",
+          "Jesus Caldera"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "Parfois surnommé Manolo, né le 7 juillet 1945 à Ceuta, Manuel Chaves a appartenu au Parti socialiste ouvrier espagnol (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "Pour quelle forme de musique et de danse l'Andalousie est-elle connue ?",
+        "propositions": [
+          "Rumba",
+          "Flamenco",
+          "Jerk",
+          "Valse"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "Une influence arabe, plus présente que dans le reste de la musique espagnole, semble être commune à la musique andalouse."
+      },
+      {
+        "id": 6,
+        "question": "Quel ensemble palatial constitue l'un des monuments majeurs de Grenade ?",
+        "propositions": [
+          "Altamira",
+          "Alhambra",
+          "Escurial",
+          "Bustillo"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "C'est avec la Grande mosquée de Cordoue le plus prestigieux témoin de la présence musulmane en Espagne."
+      },
+      {
+        "id": 7,
+        "question": "Quel sévillan est l'un des principaux représentants de la peinture espagnole ?",
+        "propositions": [
+          "Diego Polo",
+          "Francisco Barrera",
+          "Alonso Cano",
+          "Diego Vélasquez"
+        ],
+        "réponse": "Diego Vélasquez",
+        "anecdote": "Pendant les dix dernières années de sa vie, son style se fit plus schématique, arrivant à une domination notable de la lumière."
+      },
+      {
+        "id": 8,
+        "question": "Pour quelle activité l'Andalousie est-elle un haut lieu au travers de ses arènes ?",
+        "propositions": [
+          "Fauconnerie",
+          "Lancer de renard",
+          "Tauromachie",
+          "Arrochage de coq"
+        ],
+        "réponse": "Tauromachie",
+        "anecdote": "Les arènes de la Real Maestranza de Séville et les Arènes des Califes de Cordoue sont deux places de première catégorie."
+      },
+      {
+        "id": 9,
+        "question": "Quelle fête taurine est caractérisée, en Espagne, par une suite de corridas ?",
+        "propositions": [
+          "Maloya",
+          "Borroka",
+          "Atanda",
+          "Feria"
+        ],
+        "réponse": "Feria",
+        "anecdote": "Selon les régions ou les pays, des lâchers de taureaux ont lieu dans les rues comme à Pampelune."
+      },
+      {
+        "id": 10,
+        "question": "Quel potage à base de légumes crus mixés servi froid est très répandu en Andalousie ?",
+        "propositions": [
+          "Gaspacho",
+          "Clamato",
+          "Bruschetta",
+          "Salmorejo"
+        ],
+        "réponse": "Gaspacho",
+        "anecdote": "Comme il est composé de légumes crus, le gaspacho contient plus de vitamines qu'un potage de légumes cuits."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel grand fleuve coule entre la sierra Morena et le système Bétique ?",
+        "propositions": [
+          "Guadalquivir",
+          "Valdavia",
+          "Douro",
+          "Zadorra"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "Avec ses 657 km de long, il est le cinquième fleuve de la péninsule Ibérique, drainant un bassin de près de 58 000 km²."
+      },
+      {
+        "id": 12,
+        "question": "Quelle barrière naturelle s'étend depuis le golfe de Cadix jusqu'à Alicante ?",
+        "propositions": [
+          "Piémont pyrénéen",
+          "Sierra Elvira",
+          "Monts de Tolède",
+          "Système Bétique"
+        ],
+        "réponse": "Système Bétique",
+        "anecdote": "Les points de passage principaux du système Bétique sont le col du Soupir du Maure et la ville d'Antequera."
+      },
+      {
+        "id": 13,
+        "question": "Quelle fête populaire est de grande envergure pour les gaditans ?",
+        "propositions": [
+          "Carnaval de Cadix",
+          "Tomatina",
+          "Feria de Abril",
+          "Fêtes des patios"
+        ],
+        "réponse": "Carnaval de Cadix",
+        "anecdote": "Ce carnaval jouit d'une très importante fréquentation extérieure à la suite des efforts pour sa promotion touristique."
+      },
+      {
+        "id": 14,
+        "question": "Quelle bataille eut lieu près de Cadix en 1805 durant l'époque contemporaine ?",
+        "propositions": [
+          "Marbella",
+          "Gibraltar",
+          "Trafalgar",
+          "Sorondo"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson y trouvera la mort, mais la tactique qu'il a mise en oeuvre vaudra aux Britanniques une victoire totale."
+      },
+      {
+        "id": 15,
+        "question": "Combien de millions de touristes l'Andalousie accueille-t-elle chaque année ?",
+        "propositions": [
+          "9 millions",
+          "5 millions",
+          "3 millions",
+          "7 millions"
+        ],
+        "réponse": "7 millions",
+        "anecdote": "Même après un spectaculaire développement économique, l'Andalousie reste la seconde région la moins riche d'Espagne."
+      },
+      {
+        "id": 16,
+        "question": "Quel pourcentage des andalous vivent dans la pauvreté ou la précarité ?",
+        "propositions": [
+          "11 %",
+          "31 %",
+          "41 %",
+          "21 %"
+        ],
+        "réponse": "31 %",
+        "anecdote": "Avec la crise économique de 2008, l'Andalousie, région pauvre d'Espagne, a marqué en septembre 2013 près de 37 % de chômage."
+      },
+      {
+        "id": 17,
+        "question": "Quelle chorégraphe est connue pour ses interprétations du tango flamenco ?",
+        "propositions": [
+          "Luisana Lopilato",
+          "Clara Alonso",
+          "Olga Ferri",
+          "La Argentinita"
+        ],
+        "réponse": "La Argentinita",
+        "anecdote": "La Argentinita a commencé à danser à l'âge de quatre ans, alors que son père Felix Lopez l'accompagne à la guitare."
+      },
+      {
+        "id": 18,
+        "question": "Dans quelle ville andalouse un temple devint église, mosquée puis cathédrale ?",
+        "propositions": [
+          "Cadix",
+          "Grenade",
+          "Cordoue",
+          "Séville"
+        ],
+        "réponse": "Cordoue",
+        "anecdote": "La mosquée-cathédrale de Cordoue est le monument le plus accompli de l'art des Omeyyades de Cordoue."
+      },
+      {
+        "id": 19,
+        "question": "Quelle fête religieuse est particulièrement fastueuse à Séville et à Malaga ?",
+        "propositions": [
+          "Semaine sainte",
+          "Samedi saint",
+          "Vendredi saint",
+          "Jeudi saint"
+        ],
+        "réponse": "Semaine sainte",
+        "anecdote": "Pour les chrétiens, cette semaine précédant la fête de Pâques est destinée à commémorer la Passion du Christ."
+      },
+      {
+        "id": 20,
+        "question": "En quelle année entra en vigueur le premier statut d'autonomie de l'Andalousie ?",
+        "propositions": [
+          "1981",
+          "1971",
+          "1961",
+          "1951"
+        ],
+        "réponse": "1981",
+        "anecdote": "Le premier statut est adopté par référendum le 20 octobre 1981 et promulgué par le roi Juan Carlos Ier le 30 décembre suivant."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Dans quel palais est installée la présidence du gouvernement andalou ?",
+        "propositions": [
+          "Coria",
+          "Calatrava",
+          "San Telmo",
+          "San Félix"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "Il porte le nom de Saint Elme, patron des marins, et est considéré comme l'un des exemples les plus achevés du baroque sévillan."
+      },
+      {
+        "id": 22,
+        "question": "Quelle ville d'Andalousie est réputée pour sa production de fraises ?",
+        "propositions": [
+          "Cordoue",
+          "Campillos",
+          "Malaga",
+          "Huelva"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "C'est depuis un village très proche, Palos de la Frontera, que Christophe Colomb s'embarqua lors de son premier voyage."
+      },
+      {
+        "id": 23,
+        "question": "Quelle brasserie fut fondée en 1904 par Roberto et Tomas Osborne à Séville ?",
+        "propositions": [
+          "Cruzcampo",
+          "Moritz",
+          "Estrella Damm",
+          "San Miguel"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Même si elle est particulièrement bue en Andalousie (la plus bue de Séville), la Cruzcampo est vendue dans tout le pays."
+      },
+      {
+        "id": 24,
+        "question": "Quelle guitare utilisée pour le flamenco diffère de la guitare classique ?",
+        "propositions": [
+          "Jarana",
+          "Charango",
+          "Flamenca",
+          "Bordonua"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "Les chants qui constituent le répertoire du flamenco content souvent les malheurs, les persécutions et l'espoir d'un monde meilleur."
+      },
+      {
+        "id": 25,
+        "question": "Grâce à quel poète le Café de Chinitas à Malaga est-il devenu connu ?",
+        "propositions": [
+          "Pedro Salinas",
+          "Garcia Lorca",
+          "Emilio Prados",
+          "Gabriel Celaya"
+        ],
+        "réponse": "Garcia Lorca",
+        "anecdote": "Sur la rive du fleuve Uruguay, un mur porte le poème d'Antonio Machado qui regrette la mort de Garcia Lorca à Grenade."
+      },
+      {
+        "id": 26,
+        "question": "Quel palais aristocratique est le prototype même du palais sévillan ?",
+        "propositions": [
+          "Casa de Pilatos",
+          "Casa de Conchas",
+          "Casa del Cordon",
+          "Llotja de Palma"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Bâtie aux XVe et XVIe siècles, elle marie autour de plusieurs patios et jardins les styles mudéjar, gothique et renaissance."
+      },
+      {
+        "id": 27,
+        "question": "Quelle ville d'Andalousie est réputée pour l'industrie du cuir ?",
+        "propositions": [
+          "Huelva",
+          "Malaga",
+          "Cordoue",
+          "Campillos"
+        ],
+        "réponse": "Campillos",
+        "anecdote": "La première trace de la ville de Campillos remonte à 1492, lorsqu'elle fut créée sous l'autorité des Rois Catholiques."
+      },
+      {
+        "id": 28,
+        "question": "Quel hôpital fut édifié à Séville afin d'héberger une institution de charité ?",
+        "propositions": [
+          "San Telmo",
+          "Incarnation",
+          "Charles Quint",
+          "Cinq-Plaies"
+        ],
+        "réponse": "Cinq-Plaies",
+        "anecdote": "Ce gigantesque bâtiment, typique de l'architecture hospitalière de l'époque, fut classé Bien d'intérêt culturel en 1931."
+      },
+      {
+        "id": 29,
+        "question": "Comment se prénomme le père de la sculptrice Luisa Roldan, artiste de renom ?",
+        "propositions": [
+          "Pedro",
+          "Paulo",
+          "Octavio",
+          "Rodrigo"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán est un sculpteur baroque espagnol qui intégra en 1638 l'atelier de Alonso de Mena à Grenade."
+      },
+      {
+        "id": 30,
+        "question": "Quelle ville andalouse possède un musée consacré à l'artiste Pablo Picasso ?",
+        "propositions": [
+          "Grenade",
+          "Malaga",
+          "Séville",
+          "Cordoue"
+        ],
+        "réponse": "Malaga",
+        "anecdote": "Ouvert en 2003 et rénové par la suite, le musée Picasso occupe le Palais de Buenavista à Malaga en Espagne."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Andalusia is a region located in the south of which country ?",
+        "propositions": [
+          "Portugal",
+          "Greece",
+          "Italy",
+          "Spain"
+        ],
+        "réponse": "Spain",
+        "anecdote": "It is located in the south of the Iberian Peninsula, facing Morocco (Rif region), and north-west of Algeria (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "How many provincial capitals is Andalusia divided into ?",
+        "propositions": [
+          "Four",
+          "Eight",
+          "Six",
+          "Ten"
+        ],
+        "réponse": "Eight",
+        "anecdote": "The eight provinces are the following : Almeria, Cadiz, Crdoue, Granada, Huelva, Jaen, Malaga and Seville."
+      },
+      {
+        "id": 3,
+        "question": "Which city in southern Spain is the capital of Andalusia ?",
+        "propositions": [
+          "Granada",
+          "Seville",
+          "Malaga",
+          "Cordoba"
+        ],
+        "réponse": "Seville",
+        "anecdote": "Located in the center of a rich agricultural region, the city is the economic, political and cultural heart of Andalusia."
+      },
+      {
+        "id": 4,
+        "question": "Who was elected president of the Andalusian government six times ?",
+        "propositions": [
+          "Jesus Caldera",
+          "Joaquin Almunia",
+          "Manuel Chaves",
+          "Eduardo Zaplana"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "Sometimes nicknamed Manolo, born July 7, 1945 in Ceuta, Manuel Chaves belonged to the Spanish Socialist Workers Party (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "What form of music and dance is Andalusia known for ?",
+        "propositions": [
+          "Jerk",
+          "Waltz",
+          "Flamenco",
+          "Rumba"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "An Arab influence, more present than in the rest of Spanish music, seems to be common to Andalusian music."
+      },
+      {
+        "id": 6,
+        "question": "Which palace complex constitutes one of the major monuments of Granada ?",
+        "propositions": [
+          "Bustillo",
+          "Alhambra",
+          "Altamira",
+          "Escurial"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "It is with the Great Mosque of Cordoba the most prestigious witness of the Muslim presence in Spain."
+      },
+      {
+        "id": 7,
+        "question": "Which Sevillian is one of the main representatives of Spanish painting ?",
+        "propositions": [
+          "Diego Polo",
+          "Diego Vélasquez",
+          "Alonso Cano",
+          "Francisco Barrera"
+        ],
+        "réponse": "Diego Vélasquez",
+        "anecdote": "During the last ten years of his life, his style became more schematic, reaching a notable domination of the light."
+      },
+      {
+        "id": 8,
+        "question": "For what activity is Andalusia a high place through its arenas ?",
+        "propositions": [
+          "Bullfighting",
+          "Falconry",
+          "Fox throw",
+          "Cock stripping"
+        ],
+        "réponse": "Bullfighting",
+        "anecdote": "The bullring of the Real Maestranza in Seville and the Bullring of the Caliphs in Cordoba are two first-class seats."
+      },
+      {
+        "id": 9,
+        "question": "What bullfighting festival in Spain is characterized by a series of bullfights ?",
+        "propositions": [
+          "Feria",
+          "Borroka",
+          "Maloya",
+          "Atanda"
+        ],
+        "réponse": "Feria",
+        "anecdote": "Depending on the region or country, bulls are released in the streets like in Pamplona."
+      },
+      {
+        "id": 10,
+        "question": "Which soup made from mixed raw vegetables served cold is very popular in Andalusia ?",
+        "propositions": [
+          "Gazpacho",
+          "Salmorejo",
+          "Bruschetta",
+          "Clamato"
+        ],
+        "réponse": "Gazpacho",
+        "anecdote": "Since it is made from raw vegetables, gazpacho contains more vitamins than a soup of cooked vegetables."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What great river flows between the Sierra Morena and the Betic system ?",
+        "propositions": [
+          "Guadalquivir",
+          "Zadorra",
+          "Valdavia",
+          "Douro"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "With its 657 km long, it is the fifth river in the Iberian Peninsula, draining a basin of nearly 58,000 km²."
+      },
+      {
+        "id": 12,
+        "question": "What natural barrier stretches from the Gulf of Cadiz to Alicante ?",
+        "propositions": [
+          "Betic System",
+          "Pyrenean Piedmont",
+          "Toledo Mountains",
+          "Sierra Elvira"
+        ],
+        "réponse": "Betic System",
+        "anecdote": "The main crossing points of the Betic system are the Pass of the Moor's Sigh and the town of Antequera."
+      },
+      {
+        "id": 13,
+        "question": "Which popular festival is big for the gaditans ?",
+        "propositions": [
+          "Patios parties",
+          "Tomatina",
+          "Cadiz Carnival",
+          "Abril Feria"
+        ],
+        "réponse": "Cadiz Carnival",
+        "anecdote": "This carnival enjoys a very important exterior attendance following efforts to promote tourism."
+      },
+      {
+        "id": 14,
+        "question": "What battle took place near Cadiz in 1805 during modern times ?",
+        "propositions": [
+          "Sorondo",
+          "Trafalgar",
+          "Marbella",
+          "Gibraltar"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson will be killed there, but the tactics he implemented will earn the British a total victory."
+      },
+      {
+        "id": 15,
+        "question": "How many millions of tourists does Andalusia welcome each year ?",
+        "propositions": [
+          "7 million",
+          "5 million",
+          "9 million",
+          "3 million"
+        ],
+        "réponse": "7 million",
+        "anecdote": "Even after spectacular economic development, Andalusia remains the second least wealthy region in Spain."
+      },
+      {
+        "id": 16,
+        "question": "What percentage of Andalusians live in poverty or precariousness ?",
+        "propositions": [
+          "31%",
+          "41%",
+          "21%",
+          "11%"
+        ],
+        "réponse": "31%",
+        "anecdote": "With the economic crisis of 2008, Andalusia, a poor region of Spain, recorded in September 2013 nearly 37% unemployment."
+      },
+      {
+        "id": 17,
+        "question": "Which choreographer is known for her interpretations of flamenco tango ?",
+        "propositions": [
+          "Olga Ferri",
+          "La Argentinita",
+          "Clara Alonso",
+          "Luisana Lopilato"
+        ],
+        "réponse": "La Argentinita",
+        "anecdote": "La Argentinita started dancing at the age of four, with her father Felix Lopez accompanying her on the guitar."
+      },
+      {
+        "id": 18,
+        "question": "In which Andalusian city a temple became a church, a mosque and then a cathedral ?",
+        "propositions": [
+          "Cordoba",
+          "Cadiz",
+          "Granada",
+          "Seville"
+        ],
+        "réponse": "Cordoba",
+        "anecdote": "The Mosque-Cathedral of Cordoba is the most accomplished monument of Umayyad art in Cordoba."
+      },
+      {
+        "id": 19,
+        "question": "Which religious festival is particularly lavish in Seville and Malaga ?",
+        "propositions": [
+          "Holy week",
+          "Good Friday",
+          "Maundy Thursday",
+          "Holy Saturday"
+        ],
+        "réponse": "Holy week",
+        "anecdote": "For Christians, this week before Easter is meant to commemorate the Passion of Christ."
+      },
+      {
+        "id": 20,
+        "question": "In which year did Andalusia's first statute of autonomy come into force ?",
+        "propositions": [
+          "1971",
+          "1961",
+          "1951",
+          "1981"
+        ],
+        "réponse": "1981",
+        "anecdote": "The first statute was adopted by referendum on October 20, 1981 and promulgated by King Juan Carlos I on December 30 following."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In which palace is the presidency of the Andalusian government installed ?",
+        "propositions": [
+          "San Telmo",
+          "San Félix",
+          "Calatrava",
+          "Coria"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "It bears the name of Saint Elmo, patron saint of sailors, and is considered one of the most complete examples of Sevillian Baroque."
+      },
+      {
+        "id": 22,
+        "question": "Which city in Andalusia is famous for its strawberry production ?",
+        "propositions": [
+          "Huelva",
+          "Cordoba",
+          "Malaga",
+          "Campillos"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "It was from a very nearby village, Palos de la Frontera, that Christopher Columbus embarked on his first voyage."
+      },
+      {
+        "id": 23,
+        "question": "Which brewery was founded in 1904 by Roberto and Tomas Osborne in Seville ?",
+        "propositions": [
+          "Cruzcampo",
+          "Estrella Damm",
+          "San Miguel",
+          "Moritz"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Although it is particularly drunk in Andalusia (the most drunk in Seville), Cruzcampo is sold throughout the country."
+      },
+      {
+        "id": 24,
+        "question": "Which guitar used for flamenco differs from classical guitar ?",
+        "propositions": [
+          "Flamenca",
+          "Charango",
+          "Jarana",
+          "Bordonua"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "The songs that constitute the flamenco repertoire often content the misfortunes, the persecutions and the hope for a better world."
+      },
+      {
+        "id": 25,
+        "question": "Thanks to which poet did Café de Chinitas in Malaga become known ?",
+        "propositions": [
+          "Gabriel Celaya",
+          "Emilio Prados",
+          "Garcia Lorca",
+          "Pedro Salinas"
+        ],
+        "réponse": "Garcia Lorca",
+        "anecdote": "On the bank of the Uruguay River, a wall bears the poem by Antonio Machado which regrets the death of Garcia Lorca in Granada."
+      },
+      {
+        "id": 26,
+        "question": "Which aristocratic palace is the very prototype of the Sevillian palace ?",
+        "propositions": [
+          "Casa del Cordon",
+          "Llotja de Palma",
+          "Casa de las Conchas",
+          "Casa de Pilatos"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Built in the 15th and 16th centuries, it combines Mudejar, Gothic and Renaissance styles around several patios and gardens."
+      },
+      {
+        "id": 27,
+        "question": "Which city in Andalusia is famous for the leather industry ?",
+        "propositions": [
+          "Huelva",
+          "Cordoba",
+          "Campillos",
+          "Malaga"
+        ],
+        "réponse": "Campillos",
+        "anecdote": "The first trace of the town of Campillos dates back to 1492, when it was created under the authority of the Catholic Monarchs."
+      },
+      {
+        "id": 28,
+        "question": "What hospital was built in Seville to house a charitable institution ?",
+        "propositions": [
+          "San Telmo",
+          "Five Wounds",
+          "Charles V",
+          "Incarnation"
+        ],
+        "réponse": "Five Wounds",
+        "anecdote": "This gigantic building, typical of the hospital architecture of the time, was classified as an Asset of Cultural Interest in 1931."
+      },
+      {
+        "id": 29,
+        "question": "What is the name of the father of the sculptor Luisa Roldan, renowned artist ?",
+        "propositions": [
+          "Octavio",
+          "Pedro",
+          "Paulo",
+          "Rodrigo"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán is a Spanish Baroque sculptor who in 1638 joined Alonso de Mena's studio in Granada."
+      },
+      {
+        "id": 30,
+        "question": "Which Andalusian city has a museum dedicated to the artist Pablo Picasso ?",
+        "propositions": [
+          "Granada",
+          "Cordoba",
+          "Malaga",
+          "Seville"
+        ],
+        "réponse": "Malaga",
+        "anecdote": "Opened in 2003 and subsequently renovated, the Picasso Museum occupies the Palacio de Buenavista in Malaga, Spain."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Andalusien ist eine Region im Süden welchen Landes ?",
+        "propositions": [
+          "Italien",
+          "Spanien",
+          "Portugal",
+          "Griechenland"
+        ],
+        "réponse": "Spanien",
+        "anecdote": "Es liegt im Süden der Iberischen Halbinsel, gegenüber Marokko (Rif-Region) und nordwestlich von Algerien (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "In wie viele Provinzhauptstädte ist Andalusien unterteilt ?",
+        "propositions": [
+          "Sechs",
+          "Vier",
+          "Acht",
+          "Zehn"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Die acht Provinzen sind die folgenden : Almeria, Cadiz, Crdoue, Granada, Huelva, Jaen, Malaga und Sevilla."
+      },
+      {
+        "id": 3,
+        "question": "Welche Stadt in Südspanien ist die Hauptstadt von Andalusien ?",
+        "propositions": [
+          "Sevilla",
+          "Cordoba",
+          "Málaga",
+          "Granada"
+        ],
+        "réponse": "Sevilla",
+        "anecdote": "Im Zentrum einer reichen landwirtschaftlichen Region gelegen, ist die Stadt das wirtschaftliche, politische und kulturelle Herz Andalusiens."
+      },
+      {
+        "id": 4,
+        "question": "Wer wurde sechsmal zum Präsidenten der andalusischen Regierung gewählt ?",
+        "propositions": [
+          "Manuel Chaves",
+          "Eduardo Zaplana",
+          "Joaquin Almunia",
+          "Jesus Caldera"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "Manchmal gehörte Nicknamed Manolo, geboren am 7. Juli 1945 in Ceuta, Manuel Chaves an der spanischen Arbeiter Sozialistischen Partei (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "Für welche Musik- und Tanzform ist Andalusien bekannt ?",
+        "propositions": [
+          "Rumba",
+          "Flamenco",
+          "Ruck",
+          "Walzer"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "Ein arabischer Einfluss, präsenter als in der übrigen spanischen Musik, scheint der andalusischen Musik gemeinsam zu sein."
+      },
+      {
+        "id": 6,
+        "question": "Welcher Palastkomplex gehört zu den bedeutendsten Denkmälern Granadas ?",
+        "propositions": [
+          "Altamira",
+          "Bustillo",
+          "Escurial",
+          "Alhambra"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "Sie ist mit der Großen Moschee von Cordoba das prestigeträchtigste Zeugnis der muslimischen Präsenz in Spanien."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Sevillaner ist einer der Hauptvertreter der spanischen Malerei ?",
+        "propositions": [
+          "Diego Polo",
+          "Francisco Barrera",
+          "Diego Velasquez",
+          "Alonso Cano"
+        ],
+        "réponse": "Diego Velasquez",
+        "anecdote": "In den letzten zehn Jahren seines Lebens wurde sein Stil schematischer und erreichte eine bemerkenswerte Dominanz des Lichts."
+      },
+      {
+        "id": 8,
+        "question": "Für welche Aktivität ist Andalusien durch seine Arenen ein hoher Ort ?",
+        "propositions": [
+          "Schwanz Strippen",
+          "Falknerei",
+          "Fuchswurf",
+          "Stierkampf"
+        ],
+        "réponse": "Stierkampf",
+        "anecdote": "Die Stierkampfarena der Real Maestranza in Sevilla und die Stierkampfarena der Kalifen in Cordoba sind zwei Sitze erster Klasse."
+      },
+      {
+        "id": 9,
+        "question": "Welches Stierkampffestival in Spanien zeichnet sich durch eine Reihe von Stierkämpfen aus ?",
+        "propositions": [
+          "Feria",
+          "Borroka",
+          "Atanda",
+          "Maloya"
+        ],
+        "réponse": "Feria",
+        "anecdote": "Je nach Region oder Land werden Bullen wie in Pamplona auf den Straßen ausgesetzt."
+      },
+      {
+        "id": 10,
+        "question": "Welche Suppe aus gemischtem Rohgemüse kalt serviert ist in Andalusien sehr beliebt ?",
+        "propositions": [
+          "Salmorejo",
+          "Bruschetta",
+          "Gazpacho",
+          "Clamato"
+        ],
+        "réponse": "Gazpacho",
+        "anecdote": "Da Gazpacho aus rohem Gemüse hergestellt wird, enthält sie mehr Vitamine als eine Suppe aus gekochtem Gemüse."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher große Fluss fließt zwischen der Sierra Morena und dem Betic-System ?",
+        "propositions": [
+          "Guadalquivir",
+          "Valdavia",
+          "Zadorra",
+          "Douro"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "Mit seinen 657 km langen, ist es der fünfte Fluss der iberischen Halbinsel, der einen Pool von fast 58.000 km² verliert."
+      },
+      {
+        "id": 12,
+        "question": "Welche natürliche Barriere erstreckt sich vom Golf von Cadiz bis Alicante ?",
+        "propositions": [
+          "Betic-System",
+          "Sierra Elvira",
+          "Pyrenäen Piemont",
+          "Toledo-Gebirge"
+        ],
+        "réponse": "Betic-System",
+        "anecdote": "Die wichtigsten Kreuzungspunkte des Betic-Systems sind der Pass des Mohrenseufzers und die Stadt Antequera."
+      },
+      {
+        "id": 13,
+        "question": "Welches Volksfest ist für die Gaditaner groß ?",
+        "propositions": [
+          "Abril Feria",
+          "Terrassenpartys",
+          "Karneval von Cadiz",
+          "Tomaten"
+        ],
+        "réponse": "Karneval von Cadiz",
+        "anecdote": "Dieser Karneval erfreut sich aufgrund der Bemühungen zur Förderung des Tourismus einer sehr wichtigen Außenbesucher."
+      },
+      {
+        "id": 14,
+        "question": "Welche Schlacht fand 1805 in der Nähe von Cadiz in der Neuzeit statt ?",
+        "propositions": [
+          "Gibraltar",
+          "Marbella",
+          "Sorondo",
+          "Trafalgar"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson wird dort getötet, aber seine Taktik wird den Briten einen totalen Sieg einbringen."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele Millionen Touristen empfängt Andalusien jedes Jahr ?",
+        "propositions": [
+          "5 Millionen",
+          "3 Millionen",
+          "9 Millionen",
+          "7 Millionen"
+        ],
+        "réponse": "7 Millionen",
+        "anecdote": "Auch nach einer spektakulären wirtschaftlichen Entwicklung bleibt Andalusien die am wenigsten wohlhabende Region Spaniens."
+      },
+      {
+        "id": 16,
+        "question": "Wie viel Prozent der Andalusier leben in Armut oder prekären Verhältnissen ?",
+        "propositions": [
+          "11%",
+          "31%",
+          "21%",
+          "41%"
+        ],
+        "réponse": "31%",
+        "anecdote": "Mit der Wirtschaftskrise von 2008 verzeichnete Andalusien, eine arme Region Spaniens, im September 2013 fast 37 % Arbeitslosigkeit."
+      },
+      {
+        "id": 17,
+        "question": "Welche Choreografin ist für ihre Interpretationen des Flamenco-Tangos bekannt ?",
+        "propositions": [
+          "La Argentinita",
+          "Olga Ferri",
+          "Clara Alonso",
+          "Luisana Lopilato"
+        ],
+        "réponse": "La Argentinita",
+        "anecdote": "La Argentinita begann im Alter von vier Jahren mit dem Tanzen, wobei ihr Vater Felix Lopez sie an der Gitarre begleitete."
+      },
+      {
+        "id": 18,
+        "question": "In welcher andalusischen Stadt wurde aus einem Tempel eine Kirche, eine Moschee und dann eine Kathedrale ?",
+        "propositions": [
+          "Cadiz",
+          "Sevilla",
+          "Granada",
+          "Cordoba"
+        ],
+        "réponse": "Cordoba",
+        "anecdote": "Die Moschee-Kathedrale von Cordoba ist das vollendetste Denkmal der Umayyaden-Kunst in Cordoba."
+      },
+      {
+        "id": 19,
+        "question": "Welches religiöse Fest ist in Sevilla und Malaga besonders üppig ?",
+        "propositions": [
+          "Gründonnerstag",
+          "Karfreitag",
+          "Karwoche",
+          "Karsamstag"
+        ],
+        "réponse": "Karwoche",
+        "anecdote": "Für Christen soll diese Woche vor Ostern der Passion Christi gedenken."
+      },
+      {
+        "id": 20,
+        "question": "In welchem Jahr trat Andalusiens erstes Autonomiestatut in Kraft ?",
+        "propositions": [
+          "1971",
+          "1951",
+          "1961",
+          "1981"
+        ],
+        "réponse": "1981",
+        "anecdote": "Das erste Statut wird vom Referendum am 20. Oktober 1981 übernommen und von King Juan Carlos I am 30. Dezember nach dem Anschluss angesteuert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Palast ist die Präsidentschaft der andalusischen Regierung installiert ?",
+        "propositions": [
+          "San Félix",
+          "San Telmo",
+          "Coria",
+          "Calatrava"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "Es trägt den Namen von Saint Elmo, dem Schutzpatron der Seefahrer, und gilt als eines der vollständigsten Beispiele des sevillanischen Barocks."
+      },
+      {
+        "id": 22,
+        "question": "Welche Stadt in Andalusien ist berühmt für ihre Erdbeerproduktion ?",
+        "propositions": [
+          "Huelva",
+          "Campillos",
+          "Cordoba",
+          "Málaga"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "Von einem sehr nahe gelegenen Dorf, Palos de la Frontera, aus unternahm Christoph Kolumbus seine erste Reise."
+      },
+      {
+        "id": 23,
+        "question": "Welche Brauerei wurde 1904 von Roberto und Tomas Osborne in Sevilla gegründet ?",
+        "propositions": [
+          "San Miguel",
+          "Moritz",
+          "Estrella Damm",
+          "Cruzcampo"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Obwohl es in Andalusien besonders getrunken wird (das meistgetrunkene in Sevilla), wird Cruzcampo im ganzen Land verkauft."
+      },
+      {
+        "id": 24,
+        "question": "Welche Flamenco-Gitarre unterscheidet sich von der klassischen Gitarre ?",
+        "propositions": [
+          "Charango",
+          "Flamenca",
+          "Bordonua",
+          "Jarana"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "Die Lieder, die das Flamenco-Repertoire ausmachen, befriedigen oft das Unglück, die Verfolgungen und die Hoffnung auf eine bessere Welt."
+      },
+      {
+        "id": 25,
+        "question": "Dank welchem Dichter wurde das Café de Chinitas in Malaga bekannt ?",
+        "propositions": [
+          "Gabriel Celaya",
+          "Garcia Lorca",
+          "Pedro Salinas",
+          "Emilio Prados"
+        ],
+        "réponse": "Garcia Lorca",
+        "anecdote": "Am Ufer des Uruguay-Flusses trägt eine Mauer das Gedicht von Antonio Machado, das den Tod von Garcia Lorca in Granada bedauert."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Adelspalast ist der Prototyp des sevillanischen Palastes ?",
+        "propositions": [
+          "Casa del Cordon",
+          "Casa de Pilatos",
+          "Llotja de Palma",
+          "Casa de las Conchas"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Sie erbaut im fünfzehnten und sechzehnten Jahrhundert, heiratet sie um mehrere Terrassen und Gärten Mudejar, Gothic- und Renaissance-Stilen."
+      },
+      {
+        "id": 27,
+        "question": "Welche Stadt in Andalusien ist berühmt für die Lederindustrie ?",
+        "propositions": [
+          "Málaga",
+          "Cordoba",
+          "Huelva",
+          "Campillos"
+        ],
+        "réponse": "Campillos",
+        "anecdote": "Die ersten Spuren der Stadt Campillos stammen aus dem Jahr 1492, als sie unter der Autorität der Katholischen Könige gegründet wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welches Krankenhaus wurde in Sevilla gebaut, um eine wohltätige Einrichtung zu beherbergen ?",
+        "propositions": [
+          "Fünf Wunden",
+          "Karl V.",
+          "Inkarnation",
+          "San Telmo"
+        ],
+        "réponse": "Fünf Wunden",
+        "anecdote": "Dieses gigantische Gebäude, typisch für die damalige Krankenhausarchitektur, wurde 1931 als Kulturgut eingestuft."
+      },
+      {
+        "id": 29,
+        "question": "Wie heißt der Vater der Bildhauerin Luisa Roldan, einer renommierten Künstlerin ?",
+        "propositions": [
+          "Pedro",
+          "Paulo",
+          "Octavio",
+          "Rodrigo"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán ist ein spanischer Barockbildhauer, der 1638 in das Atelier von Alonso de Mena in Granada eintrat."
+      },
+      {
+        "id": 30,
+        "question": "Welche andalusische Stadt hat ein Museum, das dem Künstler Pablo Picasso gewidmet ist ?",
+        "propositions": [
+          "Málaga",
+          "Sevilla",
+          "Granada",
+          "Cordoba"
+        ],
+        "réponse": "Málaga",
+        "anecdote": "Das 2003 eröffnete und anschließend renovierte Picasso-Museum befindet sich im Palacio de Buenavista in Malaga, Spanien."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Andalucía es una región ubicada en el sur de qué país ?",
+        "propositions": [
+          "España",
+          "Italia ","Italie",
+          "Portugal",
+          "Grecia"
+        ],
+        "réponse": "España",
+        "anecdote": "Se encuentra en el sur de la Península Ibérica, frente a Marruecos (región del Rif) y al noroeste de Argelia (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "¿En cuántas capitales de provincia se divide Andalucía ?",
+        "propositions": [
+          "Seis",
+          "Diez",
+          "Ocho",
+          "Cuatro"
+        ],
+        "réponse": "Ocho",
+        "anecdote": "Las ocho provincias son las siguientes : Almería, Cádiz, Crdoue, Granada, Huelva, Jaén, Málaga y Sevilla."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué ciudad del sur de España es la capital de Andalucía ?",
+        "propositions": [
+          "Granada",
+          "Córdoba",
+          "Sevilla",
+          "Málaga"
+        ],
+        "réponse": "Sevilla",
+        "anecdote": "Situada en el centro de una rica región agrícola, la ciudad es el corazón económico, político y cultural de Andalucía."
+      },
+      {
+        "id": 4,
+        "question": "¿Quién fue elegido presidente de la Junta de Andalucía seis veces ?",
+        "propositions": [
+          "Eduardo Zaplana",
+          "Joaquin Almunia",
+          "Manuel Chaves",
+          "Jesus Caldera"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "A veces apodado Manolo, nacido el 7 de julio de 1945 en Ceuta, Manuel Chaves pertenecía al Partido Socialista Obrero Español (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "¿Por qué forma de música y danza se conoce a Andalucía ?",
+        "propositions": [
+          "Flamenco",
+          "Rumba",
+          "Vals",
+          "Jerk"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "Una influencia árabe, más presente que en el resto de la música española, parece ser común a la música andaluza."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué conjunto palaciego constituye uno de los principales monumentos de Granada ?",
+        "propositions": [
+          "Escurial",
+          "Alhambra",
+          "Bustillo",
+          "Altamira"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "Es con la Gran Mezquita de Córdoba el testigo más prestigioso de la presencia musulmana en España."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué sevillano es uno de los principales representantes de la pintura española ?",
+        "propositions": [
+          "Diego Polo",
+          "Alonso Cano",
+          "Francisco Barrera",
+          "Diego Vélasquez"
+        ],
+        "réponse": "Diego Vélasquez",
+        "anecdote": "Durante los últimos diez años de su vida, su estilo se volvió más esquemático, alcanzando un notable dominio de la luz."
+      },
+      {
+        "id": 8,
+        "question": "¿Para qué actividad es Andalucía un lugar destacado a través de sus arenas ?",
+        "propositions": [
+          "Tiro de zorro",
+          "Tauromaquia",
+          "Cetrería",
+          "Pelar la polla"
+        ],
+        "réponse": "Tauromaquia",
+        "anecdote": "La plaza de toros de la Real Maestranza de Sevilla y la Plaza de Toros de los Califas de Córdoba son dos plazas de primera."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué fiesta taurina en España se caracteriza por una serie de corridas de toros ?",
+        "propositions": [
+          "Atanda",
+          "Borroka",
+          "Feria",
+          "Maloya"
+        ],
+        "réponse": "Feria",
+        "anecdote": "Según la región o el país, los toros se sueltan en las calles como en Pamplona."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué sopa de verduras crudas mixtas servida fría es muy popular en Andalucía ?",
+        "propositions": [
+          "Clamato",
+          "Bruschetta",
+          "Gazpacho",
+          "Salmorejo"
+        ],
+        "réponse": "Gazpacho",
+        "anecdote": "Dado que está hecho de verduras crudas, el gazpacho contiene más vitaminas que una sopa de verduras cocidas."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué gran río fluye entre Sierra Morena y el sistema Bético ?",
+        "propositions": [
+          "Guadalquivir",
+          "Valdavia",
+          "Douro",
+          "Zadorra"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "Con sus 657 km de largo, es el quinto río de la Península Ibérica, drenando una piscina de casi 58,000 km²."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué barrera natural se extiende desde el golfo de Cádiz hasta Alicante ?",
+        "propositions": [
+          "Sierra Elvira",
+          "Sistema Bético",
+          "Montañas de Toledo",
+          "Piamonte pirenaico"
+        ],
+        "réponse": "Sistema Bético",
+        "anecdote": "Los principales puntos de paso del sistema Bético son el Puerto del Suspiro del Moro y la localidad de Antequera."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué fiesta popular es grande para los gaditanos ?",
+        "propositions": [
+          "Abril Feria",
+          "Tomatina",
+          "Fiestas en patios",
+          "Carnaval de Cádiz"
+        ],
+        "réponse": "Carnaval de Cádiz",
+        "anecdote": "Este carnaval goza de una asistencia exterior muy importante a raíz de los esfuerzos por promover el turismo."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué batalla tuvo lugar cerca de Cádiz en 1805 durante la época moderna ?",
+        "propositions": [
+          "Sorondo",
+          "Gibraltar",
+          "Trafalgar",
+          "Marbella"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson será asesinado allí, pero las tácticas que implementó le darán a los británicos una victoria total."
+      },
+      {
+        "id": 15,
+        "question": "¿A cuántos millones de turistas recibe Andalucía cada año ?",
+        "propositions": [
+          "7 millones",
+          "5 millones",
+          "3 millones",
+          "9 millones"
+        ],
+        "réponse": "7 millones",
+        "anecdote": "Incluso después de un espectacular desarrollo económico, Andalucía sigue siendo la segunda región menos rica de España."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué porcentaje de andaluces vive en situación de pobreza o precariedad ?",
+        "propositions": [
+          "11%",
+          "31%",
+          "41%",
+          "21%"
+        ],
+        "réponse": "31%",
+        "anecdote": "Con la crisis económica de 2008, Andalucía, una región pobre de España, registró en septiembre de 2013 casi un 37% de desempleo."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué coreógrafa es conocida por sus interpretaciones del tango flamenco ?",
+        "propositions": [
+          "Olga Ferri",
+          "Luisana Lopilato",
+          "Clara Alonso",
+          "La Argentinita"
+        ],
+        "réponse": "La Argentinita",
+        "anecdote": "La Argentinita comenzó a bailar a los cuatro años, con su padre Félix López acompañándola en la guitarra."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué ciudad andaluza un templo se convirtió en iglesia, mezquita y luego catedral ?",
+        "propositions": [
+          "Sevilla",
+          "Granada",
+          "Cádiz",
+          "Córdoba"
+        ],
+        "réponse": "Córdoba",
+        "anecdote": "La Mezquita-Catedral de Córdoba es el monumento más consumado del arte omeya en Córdoba."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué fiesta religiosa es especialmente fastuosa en Sevilla y Málaga ?",
+        "propositions": [
+          "Sábado Santo",
+          "Semana santa",
+          "Jueves Santo",
+          "Viernes Santo"
+        ],
+        "réponse": "Semana santa",
+        "anecdote": "Para los cristianos, esta semana antes de la Pascua está destinada a conmemorar la Pasión de Cristo."
+      },
+      {
+        "id": 20,
+        "question": "¿En qué año entró en vigor el primer estatuto de autonomía de Andalucía ?",
+        "propositions": [
+          "1981",
+          "1961",
+          "1951",
+          "1971"
+        ],
+        "réponse": "1981",
+        "anecdote": "El primer estatuto fue adoptado por referéndum el 20 de octubre de 1981 y promulgado por el rey Juan Carlos I el 30 de diciembre siguiente."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿En qué palacio está instalada la presidencia de la Junta de Andalucía ?",
+        "propositions": [
+          "Coria",
+          "San Félix",
+          "Calatrava",
+          "San Telmo"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "Lleva el nombre de San Telmo, patrón de los marineros, y está considerado uno de los ejemplos más completos del barroco sevillano."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué ciudad de Andalucía es famosa por su producción de fresa ?",
+        "propositions": [
+          "Campillos",
+          "Huelva",
+          "Córdoba",
+          "Málaga"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "Desde un pueblo muy cercano, Palos de la Frontera, se embarcó Cristóbal Colón en su primer viaje."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué cervecería fue fundada en 1904 por Roberto y Tomas Osborne en Sevilla ?",
+        "propositions": [
+          "Estrella Damm",
+          "San Miguel",
+          "Moritz",
+          "Cruzcampo"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Aunque se bebe especialmente en Andalucía (el más bebido en Sevilla), el Cruzcampo se vende en todo el país."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué guitarra de flamenco se diferencia de la clásica ?",
+        "propositions": [
+          "Flamenca",
+          "Jarana",
+          "Charango",
+          "Bordonua"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "Los cantes que constituyen el repertorio flamenco a menudo contienen las desgracias, las persecuciones y la esperanza de un mundo mejor."
+      },
+      {
+        "id": 25,
+        "question": "¿Gracias a qué poeta se dio a conocer el Café de Chinitas de Málaga ?",
+        "propositions": [
+          "Pedro Salinas",
+          "Gabriel Celaya",
+          "Emilio Prados",
+          "García Lorca"
+        ],
+        "réponse": "García Lorca",
+        "anecdote": "En la ribera del río Uruguay, una pared lleva el poema de Antonio Machado que lamenta la muerte de García Lorca en Granada."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué palacio aristocrático es el prototipo del palacio sevillano ?",
+        "propositions": [
+          "Llotja de Palma",
+          "Casa del Cordon",
+          "Casa de las Conchas",
+          "Casa de Pilatos"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Construida en los siglos XV y XVI, combina los estilos mudéjar, gótico y renacentista en torno a varios patios y jardines."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué ciudad de Andalucía es famosa por la industria del cuero ?",
+        "propositions": [
+          "Huelva",
+          "Córdoba",
+          "Málaga",
+          "Campillos"
+        ],
+        "réponse": "Campillos",
+        "anecdote": "El primer vestigio del pueblo de Campillos se remonta a 1492, cuando fue creado bajo la autoridad de los Reyes Católicos."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué hospital se construyó en Sevilla para albergar una institución benéfica ?",
+        "propositions": [
+          "Encarnación",
+          "Carlos V",
+          "Cinco heridas",
+          "San Telmo"
+        ],
+        "réponse": "Cinco heridas",
+        "anecdote": "Este gigantesco edificio, típico de la arquitectura hospitalaria de la época, fue catalogado como Bien de Interés Cultural en 1931."
+      },
+      {
+        "id": 29,
+        "question": "¿Cómo se llama el padre de la escultora Luisa Roldan, reconocida artista ?",
+        "propositions": [
+          "Octavio",
+          "Pedro",
+          "Paulo",
+          "Rodrigo"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán es un escultor barroco español que en 1638 se incorporó al estudio de Alonso de Mena en Granada."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué ciudad andaluza tiene un museo dedicado al artista Pablo Picasso ?",
+        "propositions": [
+          "Córdoba",
+          "Granada",
+          "Málaga",
+          "Sevilla"
+        ],
+        "réponse": "Málaga",
+        "anecdote": "Inaugurado en 2003 y posteriormente renovado, el Museo Picasso ocupa el Palacio de Buenavista en Málaga, España."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "L'Andalusia è una regione situata nel sud di quale paese ?",
+        "propositions": [
+          "Spagna",
+          "Grecia",
+          "Italia",
+          "Portogallo"
+        ],
+        "réponse": "Spagna",
+        "anecdote": "Si trova nel sud della penisola iberica, di fronte al Marocco (regione del Rif) ea nord-ovest dell'Algeria (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "In quanti capoluoghi di provincia è suddivisa l'Andalusia ?",
+        "propositions": [
+          "Sei",
+          "Dieci",
+          "Quattro",
+          "Otto"
+        ],
+        "réponse": "Otto",
+        "anecdote": "Le otto province sono le seguenti : Almeria, Cadice, Crdoue, Granada, Huelva, Jaen, Malaga e Siviglia."
+      },
+      {
+        "id": 3,
+        "question": "Quale città nel sud della Spagna è la capitale dell'Andalusia ?",
+        "propositions": [
+          "Cordova",
+          "Málaga",
+          "Granada",
+          "Siviglia"
+        ],
+        "réponse": "Siviglia",
+        "anecdote": "Situata al centro di una ricca regione agricola, la città è il cuore economico, politico e culturale dell'Andalusia."
+      },
+      {
+        "id": 4,
+        "question": "Chi è stato eletto sei volte presidente del governo andaluso ?",
+        "propositions": [
+          "Joaquin Almunia",
+          "Gesù Caldera",
+          "Manuel Chaves",
+          "Eduardo Zaplana"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "A volte soprannominato Manolo, nato il 7 luglio 1945 a Ceuta, Manuel Chaves apparteneva al Partito Socialista Operaio Spagnolo (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "Per quale forma di musica e danza è conosciuta l'Andalusia ?",
+        "propositions": [
+          "Rumba",
+          "Flamenco",
+          "Valzer",
+          "coglione"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "Un'influenza araba, più presente che nel resto della musica spagnola, sembra essere comune alla musica andalusa."
+      },
+      {
+        "id": 6,
+        "question": "Quale complesso di palazzi costituisce uno dei maggiori monumenti di Granada ?",
+        "propositions": [
+          "Altamira",
+          "Alhambra",
+          "Escuriale",
+          "Bustillo"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "È con la Grande Moschea di Cordoba la testimonianza più prestigiosa della presenza musulmana in Spagna."
+      },
+      {
+        "id": 7,
+        "question": "Quale sivigliano è uno dei principali rappresentanti della pittura spagnola ?",
+        "propositions": [
+          "Francisco Barrara",
+          "Diego Polo",
+          "Diego Velasquez",
+          "Alonso Cano"
+        ],
+        "réponse": "Diego Velasquez",
+        "anecdote": "Negli ultimi dieci anni della sua vita il suo stile si è fatto più schematico, raggiungendo un notevole dominio della luce."
+      },
+      {
+        "id": 8,
+        "question": "Per quale attività l'Andalusia è un luogo alto attraverso le sue arene ?",
+        "propositions": [
+          "Lancio della volpe",
+          "corrida",
+          "Spogliarello del cazzo",
+          "Falconeria"
+        ],
+        "réponse": "corrida",
+        "anecdote": "L'arena della Real Maestranza a Siviglia e l'arena dei califfi a Cordoba sono due posti di prima classe."
+      },
+      {
+        "id": 9,
+        "question": "Quale festa della corrida in Spagna è caratterizzata da una serie di corride ?",
+        "propositions": [
+          "Borroka",
+          "Atanda",
+          "Feria",
+          "Maloya"
+        ],
+        "réponse": "Feria",
+        "anecdote": "A seconda della regione o del paese, i tori vengono rilasciati nelle strade come a Pamplona."
+      },
+      {
+        "id": 10,
+        "question": "Quale zuppa di verdure crude miste servite fredda è molto popolare in Andalusia ?",
+        "propositions": [
+          "Clamato",
+          "Gazpacho",
+          "Bruschette",
+          "Salmorejo"
+        ],
+        "réponse": "Gazpacho",
+        "anecdote": "Essendo composto da verdure crude, il gazpacho contiene più vitamine di una zuppa di verdure cotte."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale grande fiume scorre tra la Sierra Morena e il sistema Betico ?",
+        "propositions": [
+          "Guadalquivir",
+          "Zadorra",
+          "Douro",
+          "Valdavia"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "Con i suoi 657 km di lunghezza, è il quinto fiume della penisola iberica, drenando una piscina di quasi 58.000 km²."
+      },
+      {
+        "id": 12,
+        "question": "Quale barriera naturale si estende dal Golfo di Cadice ad Alicante ?",
+        "propositions": [
+          "Sierra Elvira",
+          "Piemonte pirenaico",
+          "Montagne di Toledo",
+          "Sistema Betic"
+        ],
+        "réponse": "Sistema Betic",
+        "anecdote": "I principali punti di attraversamento del sistema Betic sono il Passo del Sospiro del Moro e la città di Antequera."
+      },
+      {
+        "id": 13,
+        "question": "Quale festa popolare è grande per i gaditan ?",
+        "propositions": [
+          "Carnevale di Cadice",
+          "Feste nel patio",
+          "Aprile Feria",
+          "Tomatina"
+        ],
+        "réponse": "Carnevale di Cadice",
+        "anecdote": "Questo carnevale gode di una frequentazione esterna molto importante in seguito agli sforzi di promozione turistica."
+      },
+      {
+        "id": 14,
+        "question": "Quale battaglia ha avuto luogo vicino a Cadice nel 1805 durante i tempi moderni ?",
+        "propositions": [
+          "Marbella",
+          "Gibilterra",
+          "Trafalgar",
+          "Sorondo"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson verrà ucciso lì, ma le tattiche che ha implementato faranno guadagnare agli inglesi una vittoria totale."
+      },
+      {
+        "id": 15,
+        "question": "Quanti milioni di turisti accoglie ogni anno l'Andalusia ?",
+        "propositions": [
+          "3 milioni",
+          "7 milioni",
+          "9 milioni",
+          "5 milioni"
+        ],
+        "réponse": "7 milioni",
+        "anecdote": "Anche dopo uno spettacolare sviluppo economico, l'Andalusia rimane la seconda regione meno ricca della Spagna."
+      },
+      {
+        "id": 16,
+        "question": "Quale percentuale di andalusi vive in povertà o precarietà ?",
+        "propositions": [
+          "31%",
+          "11%",
+          "41%",
+          "21%"
+        ],
+        "réponse": "31%",
+        "anecdote": "Con la crisi economica del 2008, l'Andalusia, una regione povera della Spagna, ha registrato nel settembre 2013 quasi il 37% di disoccupazione."
+      },
+      {
+        "id": 17,
+        "question": "Quale coreografa è nota per le sue interpretazioni del tango flamenco ?",
+        "propositions": [
+          "La Argentina",
+          "Olga Ferri",
+          "Luisana Lopilato",
+          "Clara Alonso"
+        ],
+        "réponse": "La Argentina",
+        "anecdote": "La Argentinita ha iniziato a ballare all'età di quattro anni, con suo padre Felix Lopez che l'accompagnava alla chitarra."
+      },
+      {
+        "id": 18,
+        "question": "In quale città andalusa un tempio è diventato chiesa, moschea e poi cattedrale ?",
+        "propositions": [
+          "Siviglia",
+          "Granada",
+          "Cordova",
+          "Cadice"
+        ],
+        "réponse": "Cordova",
+        "anecdote": "La Moschea-Cattedrale di Cordoba è il monumento più compiuto dell'arte omayyade a Cordoba."
+      },
+      {
+        "id": 19,
+        "question": "Quale festa religiosa è particolarmente ricca a Siviglia e Malaga ?",
+        "propositions": [
+          "Settimana Santa",
+          "Giovedì Santo",
+          "Venerdì Santo",
+          "Sabato Santo"
+        ],
+        "réponse": "Settimana Santa",
+        "anecdote": "Per i cristiani, questa settimana prima di Pasqua è destinata a commemorare la Passione di Cristo."
+      },
+      {
+        "id": 20,
+        "question": "In quale anno è entrato in vigore il primo statuto di autonomia dell'Andalusia ?",
+        "propositions": [
+          "1951",
+          "1981",
+          "1971",
+          "1961"
+        ],
+        "réponse": "1981",
+        "anecdote": "Il primo statuto fu adottato con referendum il 20 ottobre 1981 e promulgato dal re Juan Carlos I il 30 dicembre successivo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In quale palazzo è installata la presidenza del governo andaluso ?",
+        "propositions": [
+          "San Telmo",
+          "Calatrava",
+          "Coria",
+          "San Felice"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "Porta il nome di Sant'Elmo, patrono dei marinai, ed è considerato uno degli esempi più completi del barocco sivigliano."
+      },
+      {
+        "id": 22,
+        "question": "Quale città dell'Andalusia è famosa per la sua produzione di fragole ?",
+        "propositions": [
+          "Huelva",
+          "Campillos",
+          "Málaga",
+          "Cordova"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "Fu da un villaggio molto vicino, Palos de la Frontera, che Cristoforo Colombo si imbarcò per il suo primo viaggio."
+      },
+      {
+        "id": 23,
+        "question": "Quale birrificio è stato fondato nel 1904 da Roberto e Tomas Osborne a Siviglia ?",
+        "propositions": [
+          "Cruzcampo",
+          "Moritz",
+          "San Miguel",
+          "Estrella Damm"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Sebbene sia particolarmente bevuto in Andalusia (il più bevuto a Siviglia), Cruzcampo è venduto in tutto il paese."
+      },
+      {
+        "id": 24,
+        "question": "Quale chitarra usata per il flamenco differisce dalla chitarra classica ?",
+        "propositions": [
+          "Jarana",
+          "Bordonua",
+          "Charango",
+          "Flamenca"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "Le canzoni che costituiscono il repertorio flamenco spesso accontentano le disgrazie, le persecuzioni e la speranza in un mondo migliore."
+      },
+      {
+        "id": 25,
+        "question": "Grazie a quale poeta è diventato famoso il Café de Chinitas di Malaga ?",
+        "propositions": [
+          "Gabriel Celaya",
+          "Garcia Lorca",
+          "Emilio Prados",
+          "Pedro Salinas"
+        ],
+        "réponse": "Garcia Lorca",
+        "anecdote": "Sulla riva del fiume Uruguay, un muro porta la poesia di Antonio Machado che si rammarica della morte di Garcia Lorca a Granada."
+      },
+      {
+        "id": 26,
+        "question": "Quale palazzo aristocratico è il prototipo stesso del palazzo sivigliano ?",
+        "propositions": [
+          "Casa de las Conchas",
+          "Casa de Pilatos",
+          "Casa del Cordon",
+          "Llotja de Palma"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Costruito nel XV e XVI secolo, combina gli stili mudéjar, gotico e rinascimentale intorno a diversi patii e giardini."
+      },
+      {
+        "id": 27,
+        "question": "Quale città dell'Andalusia è famosa per l'industria della pelle ?",
+        "propositions": [
+          "Huelva",
+          "Campillos",
+          "Málaga",
+          "Cordova"
+        ],
+        "réponse": "Campillos",
+        "anecdote": "La prima traccia della città di Campillos risale al 1492, quando fu creata sotto l'autorità dei Re Cattolici."
+      },
+      {
+        "id": 28,
+        "question": "Quale ospedale è stato costruito a Siviglia per ospitare un'istituzione caritativa ?",
+        "propositions": [
+          "San Telmo",
+          "Carlo V",
+          "Cinque ferite",
+          "Incarnazione"
+        ],
+        "réponse": "Cinque ferite",
+        "anecdote": "Questo gigantesco edificio, tipico dell'architettura ospedaliera dell'epoca, è stato classificato Bene di Interesse Culturale nel 1931."
+      },
+      {
+        "id": 29,
+        "question": "Come si chiama il padre della scultrice Luisa Roldan, artista di fama ?",
+        "propositions": [
+          "Rodrigo",
+          "Pedro",
+          "Paolo",
+          "Ottavio"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán è uno scultore barocco spagnolo che nel 1638 entrò nello studio di Alonso de Mena a Granada."
+      },
+      {
+        "id": 30,
+        "question": "Quale città andalusa ha un museo dedicato all'artista Pablo Picasso ?",
+        "propositions": [
+          "Granada",
+          "Málaga",
+          "Cordova",
+          "Siviglia"
+        ],
+        "réponse": "Málaga",
+        "anecdote": "Inaugurato nel 2003 e successivamente rinnovato, il Museo Picasso occupa il Palacio de Buenavista a Malaga, in Spagna."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Andalusië is een regio in het zuiden van welk land ?",
+        "propositions": [
+          "Griekenland",
+          "Italië",
+          "Portugal",
+          "Spanje"
+        ],
+        "réponse": "Spanje",
+        "anecdote": "Het is gelegen in het zuiden van het Iberisch schiereiland, tegenover Marokko (Rif-regio) en ten noordwesten van Algerije (Oranie)."
+      },
+      {
+        "id": 2,
+        "question": "In hoeveel provinciehoofdsteden is Andalusië verdeeld ?",
+        "propositions": [
+          "Zes",
+          "tien",
+          "Acht",
+          "Vier"
+        ],
+        "réponse": "Acht",
+        "anecdote": "De acht provincies zijn de volgende : Almeria, Cadiz, Crdoue, Granada, Huelva, Jaen, Malaga en Sevilla."
+      },
+      {
+        "id": 3,
+        "question": "Welke stad in Zuid-Spanje is de hoofdstad van Andalusië ?",
+        "propositions": [
+          "Málaga",
+          "Grenada",
+          "Córdoba",
+          "Sevilla"
+        ],
+        "réponse": "Sevilla",
+        "anecdote": "Gelegen in het centrum van een rijke agrarische regio, is de stad het economische, politieke en culturele hart van Andalusië."
+      },
+      {
+        "id": 4,
+        "question": "Wie werd zes keer tot president van de Andalusische regering gekozen ?",
+        "propositions": [
+          "Jezus Caldera",
+          "Manuel Chaves",
+          "Eduardo Zaplana",
+          "Joaquín Almunia"
+        ],
+        "réponse": "Manuel Chaves",
+        "anecdote": "Manuel Chaves, ook wel Manolo genoemd, geboren op 7 juli 1945 in Ceuta, behoorde tot de Spaanse Socialistische Arbeiderspartij (PSOE)."
+      },
+      {
+        "id": 5,
+        "question": "Om welke vorm van muziek en dans staat Andalusië bekend ?",
+        "propositions": [
+          "ruk",
+          "Wals",
+          "Rumba",
+          "Flamenco"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "Een Arabische invloed, meer aanwezig dan in de rest van de Spaanse muziek, lijkt gebruikelijk te zijn in de Andalusische muziek."
+      },
+      {
+        "id": 6,
+        "question": "Welk paleiscomplex vormt een van de belangrijkste monumenten van Granada ?",
+        "propositions": [
+          "Alhambra",
+          "Bustillo",
+          "Escuriaal",
+          "Altamira"
+        ],
+        "réponse": "Alhambra",
+        "anecdote": "Het is met de Grote Moskee van Cordoba de meest prestigieuze getuige van de moslimaanwezigheid in Spanje."
+      },
+      {
+        "id": 7,
+        "question": "Welke Sevillian is een van de belangrijkste vertegenwoordigers van de Spaanse schilderkunst ?",
+        "propositions": [
+          "Alonso Cano",
+          "Francisco Barrera",
+          "Diego Polo",
+          "Diego Velasquez"
+        ],
+        "réponse": "Diego Velasquez",
+        "anecdote": "Gedurende de laatste tien jaar van zijn leven werd zijn stijl meer schematisch en bereikte een opmerkelijke overheersing van het licht."
+      },
+      {
+        "id": 8,
+        "question": "Voor welke activiteit is Andalusië een hoogtepunt door zijn arena's ?",
+        "propositions": [
+          "Stierenvechten",
+          "Vossenworp",
+          "Pik strippen",
+          "Valkerij"
+        ],
+        "réponse": "Stierenvechten",
+        "anecdote": "De arena van de Real Maestranza in Sevilla en de arena van de kaliefen in Cordoba zijn twee eersteklas zitplaatsen."
+      },
+      {
+        "id": 9,
+        "question": "Welk stierenvechtfestival in Spanje wordt gekenmerkt door een reeks stierengevechten ?",
+        "propositions": [
+          "Borroka",
+          "Maloya",
+          "Atanda",
+          "Feria"
+        ],
+        "réponse": "Feria",
+        "anecdote": "Afhankelijk van de regio of het land worden stieren losgelaten op straat zoals in Pamplona."
+      },
+      {
+        "id": 10,
+        "question": "Welke soep gemaakt van gemengde rauwe groenten koud geserveerd is erg populair in Andalusië ?",
+        "propositions": [
+          "Salmorejo",
+          "Gazpacho",
+          "Clamato",
+          "Bruschetta"
+        ],
+        "réponse": "Gazpacho",
+        "anecdote": "Omdat het gemaakt is van rauwe groenten, bevat gazpacho meer vitamines dan een soep van gekookte groenten."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke grote rivier stroomt tussen de Sierra Morena en het Betic-systeem ?",
+        "propositions": [
+          "Zadorra",
+          "Douro",
+          "Valdavia",
+          "Guadalquivir"
+        ],
+        "réponse": "Guadalquivir",
+        "anecdote": "Met zijn 657 km lang, is het de vijfde rivier van het Iberische schiereiland, een zwembad van bijna 58.000 km²."
+      },
+      {
+        "id": 12,
+        "question": "Welke natuurlijke barrière strekt zich uit van de Golf van Cadiz tot Alicante ?",
+        "propositions": [
+          "Sierra Elvira",
+          "Toledo-gebergte",
+          "Betic-systeem",
+          "Pyreneese Piemonte"
+        ],
+        "réponse": "Betic-systeem",
+        "anecdote": "De belangrijkste kruispunten van het Betic-systeem zijn de Pass of the Moor's Sigh en de stad Antequera."
+      },
+      {
+        "id": 13,
+        "question": "Welk populaire festival is groot voor de gaditans ?",
+        "propositions": [
+          "Tomaat",
+          "Abril Feria",
+          "Carnaval van Cádiz",
+          "Terrasfeesten"
+        ],
+        "réponse": "Carnaval van Cádiz",
+        "anecdote": "Dit carnaval geniet een zeer belangrijke aanwezigheid van buitenaf na inspanningen om het toerisme te promoten."
+      },
+      {
+        "id": 14,
+        "question": "Welke veldslag vond plaats in de buurt van Cadiz in 1805 in de moderne tijd ?",
+        "propositions": [
+          "Marbella",
+          "Gibraltar",
+          "Trafalgar",
+          "Sorondo"
+        ],
+        "réponse": "Trafalgar",
+        "anecdote": "Nelson zal daar worden gedood, maar de tactiek die hij heeft toegepast zal de Britten een totale overwinning opleveren."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel miljoenen toeristen verwelkomt Andalusië jaarlijks ?",
+        "propositions": [
+          "9 miljoen",
+          "7 miljoen",
+          "5 miljoen",
+          "3 miljoen"
+        ],
+        "réponse": "7 miljoen",
+        "anecdote": "Zelfs na een spectaculaire economische ontwikkeling blijft Andalusië de op één na minst welvarende regio van Spanje."
+      },
+      {
+        "id": 16,
+        "question": "Welk percentage van de Andalusiërs leeft in armoede of onzekerheid ?",
+        "propositions": [
+          "31%",
+          "21%",
+          "41%",
+          "11%"
+        ],
+        "réponse": "31%",
+        "anecdote": "Met de economische crisis van 2008 registreerde Andalusië, een arme regio van Spanje, in september 2013 bijna 37% werkloosheid."
+      },
+      {
+        "id": 17,
+        "question": "Welke choreografe staat bekend om haar interpretaties van flamencotango ?",
+        "propositions": [
+          "Luisana Lopilato",
+          "Clara Alonso",
+          "Olga Ferri",
+          "La Argentinita"
+        ],
+        "réponse": "La Argentinita",
+        "anecdote": "La Argentinita begon op vierjarige leeftijd met dansen, waarbij haar vader Felix Lopez haar begeleidde op de gitaar."
+      },
+      {
+        "id": 18,
+        "question": "In welke Andalusische stad werd een tempel een kerk, een moskee en daarna een kathedraal ?",
+        "propositions": [
+          "Córdoba",
+          "Sevilla",
+          "Grenada",
+          "Cádiz"
+        ],
+        "réponse": "Córdoba",
+        "anecdote": "De moskee-kathedraal van Cordoba is het meest volbrachte monument van Umayyad-kunst in Cordoba."
+      },
+      {
+        "id": 19,
+        "question": "Welk religieus festival is bijzonder uitbundig in Sevilla en Malaga ?",
+        "propositions": [
+          "Heilige week",
+          "Witte Donderdag",
+          "Stille Zaterdag",
+          "Goede Vrijdag"
+        ],
+        "réponse": "Heilige week",
+        "anecdote": "Voor christenen is deze week voor Pasen bedoeld om het lijden van Christus te herdenken."
+      },
+      {
+        "id": 20,
+        "question": "In welk jaar trad het eerste statuut van autonomie van Andalusië in werking ?",
+        "propositions": [
+          "1961",
+          "1971",
+          "1951",
+          "1981"
+        ],
+        "réponse": "1981",
+        "anecdote": "Het eerste statuut werd op 20 oktober 1981 bij referendum aangenomen en op 30 december afgekondigd door koning Juan Carlos I."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welk paleis is het presidentschap van de Andalusische regering geïnstalleerd ?",
+        "propositions": [
+          "Coria",
+          "San Felix",
+          "Calatrava",
+          "San Telmo"
+        ],
+        "réponse": "San Telmo",
+        "anecdote": "Het draagt de naam van Saint Elmo, patroonheilige van zeelieden, en wordt beschouwd als een van de meest complete voorbeelden van Sevilliaanse barok."
+      },
+      {
+        "id": 22,
+        "question": "Welke stad in Andalusië staat bekend om zijn aardbeienproductie ?",
+        "propositions": [
+          "Huelva",
+          "Córdoba",
+          "Málaga",
+          "Campillo's"
+        ],
+        "réponse": "Huelva",
+        "anecdote": "Het was vanuit een zeer nabijgelegen dorp, Palos de la Frontera, dat Christoffel Columbus aan zijn eerste reis begon."
+      },
+      {
+        "id": 23,
+        "question": "Welke brouwerij werd in 1904 opgericht door Roberto en Tomas Osborne in Sevilla ?",
+        "propositions": [
+          "San Miguel",
+          "Moritz",
+          "Estrella Damm",
+          "Cruzcampo"
+        ],
+        "réponse": "Cruzcampo",
+        "anecdote": "Hoewel het vooral gedronken wordt in Andalusië (de meest gedronken in Sevilla), wordt Cruzcampo door het hele land verkocht."
+      },
+      {
+        "id": 24,
+        "question": "Welke gitaar voor flamenco verschilt van klassieke gitaar ?",
+        "propositions": [
+          "Jarana",
+          "Flamenca",
+          "Charango",
+          "Bordonua"
+        ],
+        "réponse": "Flamenca",
+        "anecdote": "De liederen die het flamencorepertoire vormen, bevredigen vaak de tegenslagen, de vervolgingen en de hoop op een betere wereld."
+      },
+      {
+        "id": 25,
+        "question": "Dankzij welke dichter is Café de Chinitas in Malaga bekend geworden ?",
+        "propositions": [
+          "Pedro Salinas",
+          "Garcia Lorca",
+          "Gabriël Celaya",
+          "Emilio Prados"
+        ],
+        "réponse": "Garcia Lorca",
+        "anecdote": "Aan de oever van de Uruguay-rivier staat op een muur het gedicht van Antonio Machado dat de dood van Garcia Lorca in Granada betreurt."
+      },
+      {
+        "id": 26,
+        "question": "Welk aristocratisch paleis is het prototype van het Sevillaanse paleis ?",
+        "propositions": [
+          "Llotja de Palma",
+          "Casa del Cordon",
+          "Casa de Pilatos",
+          "Casa de las Conchas"
+        ],
+        "réponse": "Casa de Pilatos",
+        "anecdote": "Gebouwd in de 15e en 16e eeuw, combineert het mudejar-, gotische en renaissancestijlen rond verschillende patio's en tuinen."
+      },
+      {
+        "id": 27,
+        "question": "Welke stad in Andalusië staat bekend om de leerindustrie ?",
+        "propositions": [
+          "Córdoba",
+          "Málaga",
+          "Campillo's",
+          "Huelva"
+        ],
+        "réponse": "Campillo's",
+        "anecdote": "Het eerste spoor van de stad Campillos dateert uit 1492, toen het werd opgericht onder het gezag van de katholieke vorsten."
+      },
+      {
+        "id": 28,
+        "question": "Welk ziekenhuis werd in Sevilla gebouwd om een liefdadigheidsinstelling te huisvesten ?",
+        "propositions": [
+          "Vijf wonden",
+          "incarnatie",
+          "San Telmo",
+          "Karel V"
+        ],
+        "réponse": "Vijf wonden",
+        "anecdote": "Dit gigantische gebouw, typerend voor de ziekenhuisarchitectuur van die tijd, werd in 1931 geclassificeerd als een bezit van cultureel belang."
+      },
+      {
+        "id": 29,
+        "question": "Wat is de naam van de vader van de beeldhouwer Luisa Roldan, bekend kunstenaar ?",
+        "propositions": [
+          "Octavio",
+          "Rodrigo",
+          "Paulo",
+          "Pedro"
+        ],
+        "réponse": "Pedro",
+        "anecdote": "Pedro Roldán is een Spaanse barokke beeldhouwer die in 1638 toetrad tot het atelier van Alonso de Mena in Granada."
+      },
+      {
+        "id": 30,
+        "question": "Welke Andalusische stad heeft een museum gewijd aan de kunstenaar Pablo Picasso ?",
+        "propositions": [
+          "Grenada",
+          "Sevilla",
+          "Córdoba",
+          "Málaga"
+        ],
+        "réponse": "Málaga",
+        "anecdote": "Het Picasso Museum, geopend in 2003 en vervolgens gerenoveerd, is gevestigd in het Palacio de Buenavista in Malaga, Spanje."
+      }
+    ]
+    }
+  }
+}

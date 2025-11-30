@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-03-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sports",
+      "nom": "Vocabulaire sportif",
+      "slogan": "Parfois spécifiquement utilisé"
+    },
+    "en": {
+      "catégorie": "Sports",
+      "nom": "Sports vocabulary",
+      "slogan": "Sometimes specifically used"
+    },
+    "es": {
+      "catégorie": "Deportes",
+      "nom": "Vocabulario deportivo",
+      "slogan": "A veces se usa específicamente"
+    },
+    "it": {
+      "catégorie": "Gli sport",
+      "nom": "Vocabolario sportivo",
+      "slogan": "A volte utilizzato specificamente"
+    },
+    "de": {
+      "catégorie": "Sport",
+      "nom": "Sportvokabular",
+      "slogan": "Manchmal gezielt verwendet"
+    },
+    "nl": {
+      "catégorie": "Sport",
+      "nom": "Sport woordenschat",
+      "slogan": "Soms specifiek gebruikt"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Sur quoi est inscrit le numéro présent sur le dos des athlètes aux Jeux olympiques ?",
+        "propositions": [
+          "Mouchard",
+          "Dossard",
+          "Brassard",
+          "Cuissard"
+        ],
+        "réponse": "Dossard",
+        "anecdote": "En cyclisme sur route, le leader de l'équipe porte traditionnellement le premier numéro de la dizaine dédiée à sa formation : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "En sport collectif, qui est l'intermédiaire entre ses coéquipiers et l'arbitre ?",
+        "propositions": [
+          "Lieutenant",
+          "Sergent",
+          "Capitaine",
+          "Commandant"
+        ],
+        "réponse": "Capitaine",
+        "anecdote": "S'il n'est pas forcément le meilleur joueur de l'équipe, un capitaine possède néanmoins une certaine autorité au sein du vestiaire."
+      },
+      {
+        "id": 3,
+        "question": "Quel adepte d'un sport utilise la violence pour peser sur le sort d'une rencontre ?",
+        "propositions": [
+          "Mulligan",
+          "Cardigan",
+          "Vegan",
+          "Hooligan"
+        ],
+        "réponse": "Hooligan",
+        "anecdote": "Le terme ferait référence à un ivrogne irlandais notoire de Londres, Patrick Hooligan, régulièrement impliqué dans des bagarres."
+      },
+      {
+        "id": 4,
+        "question": "Quel animal sert parfois de symbole ou d'emblème à un groupe sportif ?",
+        "propositions": [
+          "Mascotte",
+          "Rookie",
+          "Grizzli",
+          "Tifo"
+        ],
+        "réponse": "Mascotte",
+        "anecdote": "Les mascottes sont conçues à des fins commerciales ou sportives, ou encore pour renforcer l'image d'une entreprise ou d'un logiciel."
+      },
+      {
+        "id": 5,
+        "question": "Quel petit objet métallique est remis aux vainqueurs de compétitions sportives ?",
+        "propositions": [
+          "Emblème",
+          "Pièce",
+          "Décoration",
+          "Médaille"
+        ],
+        "réponse": "Médaille",
+        "anecdote": "Dans la plupart des sports, en particulier olympiques, une médaille est décernée aux trois premiers à l'issue d'une compétition."
+      },
+      {
+        "id": 6,
+        "question": "Quelle analyse tente de prévoir l'issue des résultats de matchs de football ?",
+        "propositions": [
+          "Rhétorique",
+          "Pronostic",
+          "Statistiques",
+          "Analytique"
+        ],
+        "réponse": "Pronostic",
+        "anecdote": "Cette analyse, basée sur une recherche statistique, a pour intérêt d'essayer de prévoir l'issue d'un événement quelconque."
+      },
+      {
+        "id": 7,
+        "question": "En sport, quelle manière de jouer va à l'encontre de l'esprit du jeu ?",
+        "propositions": [
+          "Mi-jeu",
+          "Antijeu",
+          "Hors-jeu",
+          "Enjeu"
+        ],
+        "réponse": "Antijeu",
+        "anecdote": "Le match de foot qui illustre le mieux l'antijeu est le match de la honte RFA-Autriche lors des phases de poule du mondial 1982."
+      },
+      {
+        "id": 8,
+        "question": "Quel espace privilégié est réservé à des supporteurs lors d'événements ?",
+        "propositions": [
+          "Fan square",
+          "Fan zone",
+          "Fan house",
+          "Fan group"
+        ],
+        "réponse": "Fan zone",
+        "anecdote": "À l'origine, ce terme était fréquemment utilisé en 1 où les personnes pouvaient profiter d'animations avant un Grand Prix."
+      },
+      {
+        "id": 9,
+        "question": "En sport, quel mouvement en avant anticipe une autorisation de bouger ?",
+        "propositions": [
+          "Amorti",
+          "Hors-jeu",
+          "Envoi",
+          "Faux départ"
+        ],
+        "réponse": "Faux départ",
+        "anecdote": "Suivant le sport, un faux départ peut entraîner une disqualification, un avertissement ou une pénalité pour le sportif et son équipe."
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la loi 11 du football qui est punie d'un coup franc indirect ?",
+        "propositions": [
+          "Hors-jeu",
+          "Penalty",
+          "Coup franc",
+          "Corner"
+        ],
+        "réponse": "Hors-jeu",
+        "anecdote": "Un joueur en position de hors-jeu doit être sanctionné uniquement lorsque le joueur commence à prendre une part active au jeu."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel repêchage est présent dans tous les sports collectifs nord-américains ?",
+        "propositions": [
+          "Draft",
+          "Swipe",
+          "Yard",
+          "Drive"
+        ],
+        "réponse": "Draft",
+        "anecdote": "Comparable à une bourse aux joueurs, les équipes y sélectionnent des sportifs issus de l'université ou parfois d'une autre ligue."
+      },
+      {
+        "id": 12,
+        "question": "En phase d'élimination, quel terme est le plus souvent synonyme de groupe ?",
+        "propositions": [
+          "Coq",
+          "Poule",
+          "Paon",
+          "Dindon"
+        ],
+        "réponse": "Poule",
+        "anecdote": "Le terme aurait été repris par les milieux des courses hippiques avant de devenir un mot familier aux joueurs de rugby et de football."
+      },
+      {
+        "id": 13,
+        "question": "Dans le cadre du contrôle de dopage, qui est chargé de surveiller un sportif ?",
+        "propositions": [
+          "Officiel",
+          "Chaperon",
+          "Entraîneur",
+          "Shaper"
+        ],
+        "réponse": "Chaperon",
+        "anecdote": "En compétition cycliste, le logo avec les bandes arc-en-ciel de l'Union cycliste internationale (UCI) est apposé sur son vêtement."
+      },
+      {
+        "id": 14,
+        "question": "Quel terme définit une rencontre sportive entre deux équipes d'une même ville ?",
+        "propositions": [
+          "Derby",
+          "Compétition",
+          "Challenge",
+          "Ultra"
+        ],
+        "réponse": "Derby",
+        "anecdote": "Il arrive que la portée de ces rencontres suscite un engouement qui dépasse le cadre du sport, en raison du chauvinisme local."
+      },
+      {
+        "id": 15,
+        "question": "Quel exercice sert à renforcer les muscles abdominaux et dorsaux ?",
+        "propositions": [
+          "Gainage",
+          "Squat",
+          "Flexion",
+          "Traction"
+        ],
+        "réponse": "Gainage",
+        "anecdote": "Sa principale forme est la planche, qui consiste à se positionner face au sol, en appui sur les pointes de pied et les avant-bras."
+      },
+      {
+        "id": 16,
+        "question": "Comment appelle-t-on le dernier d'une course sportive ou d'un classement ?",
+        "propositions": [
+          "Baroudeur",
+          "Chapatte",
+          "Lanterne rouge",
+          "Gruppetto"
+        ],
+        "réponse": "Lanterne rouge",
+        "anecdote": "Cette expression, souvent utilisée en cyclisme, est une référence au feu rouge porté par le dernier véhicule d'un convoi ferroviaire."
+      },
+      {
+        "id": 17,
+        "question": "Quelle vague ou mouvement de foule est semblable à la houle ?",
+        "propositions": [
+          "Ola",
+          "Olo",
+          "Olé",
+          "Oli"
+        ],
+        "réponse": "Ola",
+        "anecdote": "Elle se manifeste principalement dans les stades lors de rencontres sportives, mais aussi dans des rassemblements importants."
+      },
+      {
+        "id": 18,
+        "question": "Quel sportif en compétition pourrait gagner, en dépit des pronostics ?",
+        "propositions": [
+          "Puncher",
+          "Outsider",
+          "Commander",
+          "Challenger"
+        ],
+        "réponse": "Outsider",
+        "anecdote": "L'image du Petit Poucet est parfois reprise comme synonyme d'outsider : telle équipe est le Petit Poucet de la compétition."
+      },
+      {
+        "id": 19,
+        "question": "Quelle rencontre oppose les perdants des demi-finales de certains tournois ?",
+        "propositions": [
+          "Petite finale",
+          "Fausse finale",
+          "Courte finale",
+          "Dernière finale"
+        ],
+        "réponse": "Petite finale",
+        "anecdote": "Elle permet de déterminer qui occupera les troisième et quatrième places (respectivement le gagnant et le perdant de cette finale)."
+      },
+      {
+        "id": 20,
+        "question": "Dans certains sports collectifs, quelle courte pause de jeu permet de récupérer ?",
+        "propositions": [
+          "Temps court",
+          "Temps fort",
+          "Temps mort",
+          "Temps plein"
+        ],
+        "réponse": "Temps mort",
+        "anecdote": "En NBA, une règle spécifique permet au joueur qui possède la balle d'éventuellement arrêter le jeu pour lancer un temps mort."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel effet consiste en la modération d'un déplacement pour obtenir un contrôle ?",
+        "propositions": [
+          "Ace",
+          "Smash",
+          "Lob",
+          "Amorti"
+        ],
+        "réponse": "Amorti",
+        "anecdote": "L'amorti est un coup technique qui ralentit le jeu, qui crée une rupture de rythme et qui sert à faire avancer l'adversaire."
+      },
+      {
+        "id": 22,
+        "question": "Quelle vaste infrastructure regroupe des équipements dédiés au sport ?",
+        "propositions": [
+          "Salle",
+          "Complexe",
+          "Gymnase",
+          "Centre"
+        ],
+        "réponse": "Complexe",
+        "anecdote": "Un équipement sportif est un aménagement spatial ou une construction permettant la pratique d'un ou plusieurs sports."
+      },
+      {
+        "id": 23,
+        "question": "Quel terme désigne le fait de faire plusieurs voies en escalade ou en montagne ?",
+        "propositions": [
+          "Enchaînement",
+          "Parade",
+          "Circuit",
+          "Série"
+        ],
+        "réponse": "Enchaînement",
+        "anecdote": "Certains enchaînent les voies pour se préparer à des difficultés plus importantes mais souvent le but est de réussir ces enchaînements."
+      },
+      {
+        "id": 24,
+        "question": "En athlétisme, quelle catégorie renferme les courses de fond et de demi-fond ?",
+        "propositions": [
+          "Marche",
+          "Relais",
+          "Combiné",
+          "Endurance"
+        ],
+        "réponse": "Endurance",
+        "anecdote": "En sport auto, l'endurance est une forme de compétition destinée à tester la régularité des véhicules sur une distance donnée."
+      },
+      {
+        "id": 25,
+        "question": "Quelle est la méthode essentielle pour marquer des points au football américain ?",
+        "propositions": [
+          "Holding",
+          "Snap",
+          "Blitz",
+          "Touchdown"
+        ],
+        "réponse": "Touchdown",
+        "anecdote": "Un touchdown (parfois nommé TD) est inscrit lorsque l'une des équipes parvient à franchir la ligne d'en-but adverse avec le ballon."
+      },
+      {
+        "id": 26,
+        "question": "Quel désavantage sportif peut parfois être imposé à un concurrent ?",
+        "propositions": [
+          "Handicap",
+          "Réserve",
+          "Barrière",
+          "Malus"
+        ],
+        "réponse": "Handicap",
+        "anecdote": "Pour permettre à des joueurs de niveaux différents de s'affronter, un système de handicap est pratiqué au jeu de go et au sh ?gi."
+      },
+      {
+        "id": 27,
+        "question": "Quel terme désigne la pratique de sports hors du milieu naturel de plein air ?",
+        "propositions": [
+          "Indoor",
+          "Internal",
+          "Crossing",
+          "Monitored"
+        ],
+        "réponse": "Indoor",
+        "anecdote": "Indoor est aussi un terme anglais désignant les modèles réduits d'aéronefs qui évoluent dans un espace fermé comme un gymnase."
+      },
+      {
+        "id": 28,
+        "question": "En basket-ball, durant quelle période les champions font-ils des prouesses ?",
+        "propositions": [
+          "Perfect time",
+          "Cup time",
+          "Gift time",
+          "Money time"
+        ],
+        "réponse": "Money time",
+        "anecdote": "L'expression a été introduite en France par George Eddy, commentateur franco-américain pour Canal+ des matchs de la NBA."
+      },
+      {
+        "id": 29,
+        "question": "Quel procédé est utilisé lorsque l'oeil nu n'est pas suffisant lors d'une arrivée ?",
+        "propositions": [
+          "Photo-finish",
+          "Témoin",
+          "Starting-block",
+          "Lièvre"
+        ],
+        "réponse": "Photo-finish",
+        "anecdote": "Quand la différence ne peut être remarquée à l'oeil nu, on prend une série de photos tirées très vite les unes après les autres."
+      },
+      {
+        "id": 30,
+        "question": "Quel objet se transmettent les coéquipiers d'une course de relais ?",
+        "propositions": [
+          "Juré",
+          "Avocat",
+          "Témoin",
+          "Juge"
+        ],
+        "réponse": "Témoin",
+        "anecdote": "Le témoin est un tube lisse d'environ 50 grammes, de section circulaire, fait en métal ou en tout autre matériau rigide."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What is the number on the backs of athletes at the Olympic Games written on ?",
+        "propositions": [
+          "Snitch",
+          "Armband",
+          "Shorts",
+          "Bib"
+        ],
+        "réponse": "Bib",
+        "anecdote": "In road cycling, the team leader traditionally wears the first number of the dozen dedicated to his training : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "In team sport, who is the intermediary between his teammates and the referee ?",
+        "propositions": [
+          "Commander",
+          "Captain",
+          "Lieutenant",
+          "Sergeant"
+        ],
+        "réponse": "Captain",
+        "anecdote": "Although he is not necessarily the best player on the team, a captain nevertheless has a certain authority within the locker room."
+      },
+      {
+        "id": 3,
+        "question": "Which sports fan uses violence to influence the fate of a match ?",
+        "propositions": [
+          "Vegan",
+          "Mulligan",
+          "Cardigan",
+          "Hooligan"
+        ],
+        "réponse": "Hooligan",
+        "anecdote": "The term is said to refer to a notorious Irish drunk from London, Patrick Hooligan, who was regularly involved in fights."
+      },
+      {
+        "id": 4,
+        "question": "What animal is sometimes used as a symbol or emblem for a sporting group ?",
+        "propositions": [
+          "Grizzly",
+          "Rookie",
+          "Tifo",
+          "Mascot"
+        ],
+        "réponse": "Mascot",
+        "anecdote": "Mascots are designed for commercial or sporting purposes, or to reinforce the image of a company or software."
+      },
+      {
+        "id": 5,
+        "question": "What small metal object is given to the winners of sports competitions ?",
+        "propositions": [
+          "Medal",
+          "Decoration",
+          "Emblem",
+          "Room"
+        ],
+        "réponse": "Medal",
+        "anecdote": "In most sports, especially Olympic sports, a medal is awarded to the top three finishers at the end of a competition."
+      },
+      {
+        "id": 6,
+        "question": "What analysis attempts to predict the outcome of football match results ?",
+        "propositions": [
+          "Statistics",
+          "Analytics",
+          "Prediction",
+          "Rhetoric"
+        ],
+        "réponse": "Prediction",
+        "anecdote": "This analysis, based on statistical research, has the advantage of trying to predict the outcome of any event."
+      },
+      {
+        "id": 7,
+        "question": "In sport, what way of playing goes against the spirit of the game ?",
+        "propositions": [
+          "Antigaming",
+          "Issue",
+          "Mid-game",
+          "Offside"
+        ],
+        "réponse": "Antigaming",
+        "anecdote": "The football match that best illustrates anti-gaming is the shameful match between Germany and Austria during the group stages of the 1982 World Cup."
+      },
+      {
+        "id": 8,
+        "question": "What privileged space is reserved for supporters during events ?",
+        "propositions": [
+          "Fanzone",
+          "Fanhouse",
+          "Fan group",
+          "Fan square"
+        ],
+        "réponse": "Fanzone",
+        "anecdote": "Originally, this term was frequently used in 1 where people could enjoy entertainment before a Grand Prix."
+      },
+      {
+        "id": 9,
+        "question": "In sport, what forward movement anticipates permission to move ?",
+        "propositions": [
+          "Cushioned",
+          "False start",
+          "Offside",
+          "Sending"
+        ],
+        "réponse": "False start",
+        "anecdote": "Depending on the sport, a false start can result in disqualification, a warning or a penalty for the athlete and his team."
+      },
+      {
+        "id": 10,
+        "question": "What is the law 11 of football which is punished by an indirect free kick ?",
+        "propositions": [
+          "Penalty",
+          "Offside",
+          "Free kick",
+          "Corner"
+        ],
+        "réponse": "Offside",
+        "anecdote": "A player in an offside position should only be penalized when the player begins to take an active part in the game."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which draft is present in all North American team sports ?",
+        "propositions": [
+          "Draft",
+          "Drive",
+          "Swipe",
+          "Yard"
+        ],
+        "réponse": "Draft",
+        "anecdote": "Comparable to a players' scholarship, the teams select athletes from the university or sometimes from another league."
+      },
+      {
+        "id": 12,
+        "question": "In the elimination phase, which term is most often synonymous with group ?",
+        "propositions": [
+          "Hen",
+          "Turkey",
+          "Rooster",
+          "Peacock"
+        ],
+        "réponse": "Hen",
+        "anecdote": "The term would have been taken up by horse racing circles before becoming a familiar word to rugby and football players."
+      },
+      {
+        "id": 13,
+        "question": "In the context of doping control, who is responsible for monitoring an athlete ?",
+        "propositions": [
+          "Coach",
+          "Shaper",
+          "Official",
+          "Chaperone"
+        ],
+        "réponse": "Chaperone",
+        "anecdote": "In cycling competitions, the logo with the rainbow stripes of the International Cycling Union (UCI) is affixed to its clothing."
+      },
+      {
+        "id": 14,
+        "question": "What term defines a sporting encounter between two teams from the same city ?",
+        "propositions": [
+          "Derby",
+          "Ultra",
+          "Competition",
+          "Challenge"
+        ],
+        "réponse": "Derby",
+        "anecdote": "It happens that the scope of these meetings arouses enthusiasm that goes beyond the framework of sport, due to local chauvinism."
+      },
+      {
+        "id": 15,
+        "question": "What exercise is used to strengthen the abdominal and back muscles ?",
+        "propositions": [
+          "Sheathing",
+          "Squat",
+          "Traction",
+          "Flexion"
+        ],
+        "réponse": "Sheathing",
+        "anecdote": "Its main form is the plank, which consists of positioning yourself facing the ground, resting on your toes and forearms."
+      },
+      {
+        "id": 16,
+        "question": "What is the last one in a sports race or ranking called ?",
+        "propositions": [
+          "Chapatte",
+          "Red Lantern",
+          "Backpacker",
+          "Group"
+        ],
+        "réponse": "Red Lantern",
+        "anecdote": "This expression, often used in cycling, is a reference to the red light carried by the last vehicle in a railway convoy."
+      },
+      {
+        "id": 17,
+        "question": "What wave or crowd movement is similar to swell ?",
+        "propositions": [
+          "Ola",
+          "Olivia",
+          "Olo",
+          "Olé"
+        ],
+        "réponse": "Ola",
+        "anecdote": "It mainly occurs in stadiums during sporting events, but also in large gatherings."
+      },
+      {
+        "id": 18,
+        "question": "Which competing athlete could win, despite the odds ?",
+        "propositions": [
+          "Order",
+          "Punch",
+          "Outsider",
+          "Challenger"
+        ],
+        "réponse": "Outsider",
+        "anecdote": "The image of Tom Thumb is sometimes used as a synonym for outsider : such a team is the Tom Thumb of the competition."
+      },
+      {
+        "id": 19,
+        "question": "What match does the losers of the semi-finals of certain tournaments face ?",
+        "propositions": [
+          "Last final",
+          "False finale",
+          "Small finale",
+          "Short finale"
+        ],
+        "réponse": "Small finale",
+        "anecdote": "It allows you to determine who will occupy third and fourth places (respectively the winner and loser of this final)."
+      },
+      {
+        "id": 20,
+        "question": "In certain team sports, what short break from play allows you to recover ?",
+        "propositions": [
+          "Time out",
+          "Full time",
+          "Highlights",
+          "Short time"
+        ],
+        "réponse": "Time out",
+        "anecdote": "In the NBA, a specific rule allows the player who has the ball to possibly stop the game to start a timeout."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What is the effect of moderating a move to gain control ?",
+        "propositions": [
+          "Lob",
+          "Smash",
+          "Ace",
+          "Cushioned"
+        ],
+        "réponse": "Cushioned",
+        "anecdote": "The drop shot is a technical shot that slows down the game, creates a break in rhythm and serves to move the opponent forward."
+      },
+      {
+        "id": 22,
+        "question": "What vast infrastructure brings together equipment dedicated to sport ?",
+        "propositions": [
+          "Complex",
+          "Room",
+          "Center",
+          "Gym"
+        ],
+        "réponse": "Complex",
+        "anecdote": "Sports equipment is a spatial arrangement or construction allowing the practice of one or more sports."
+      },
+      {
+        "id": 23,
+        "question": "What term refers to doing several routes in climbing or in the mountains ?",
+        "propositions": [
+          "Sequencing",
+          "Circuit",
+          "Parade",
+          "Series"
+        ],
+        "réponse": "Sequencing",
+        "anecdote": "Some people chain routes to prepare for greater difficulties, but often the goal is to succeed in these sequences."
+      },
+      {
+        "id": 24,
+        "question": "In athletics, which category includes long-distance and middle-distance races ?",
+        "propositions": [
+          "Combined",
+          "Relays",
+          "Walk",
+          "Endurance"
+        ],
+        "réponse": "Endurance",
+        "anecdote": "In motorsport, endurance is a form of competition intended to test the regularity of vehicles over a given distance."
+      },
+      {
+        "id": 25,
+        "question": "What is the essential method for scoring points in American football ?",
+        "propositions": [
+          "Blitz",
+          "Holding",
+          "Snap",
+          "Touchdown"
+        ],
+        "réponse": "Touchdown",
+        "anecdote": "A touchdown (sometimes called TD) is scored when one of the teams manages to cross the opposing goal line with the ball."
+      },
+      {
+        "id": 26,
+        "question": "What sporting disadvantage can sometimes be imposed on a competitor ?",
+        "propositions": [
+          "Disability",
+          "Penalty",
+          "Barrier",
+          "Reserve"
+        ],
+        "réponse": "Disability",
+        "anecdote": "To allow players of different levels to compete, a handicap system is used in the game of go and sh ?gi."
+      },
+      {
+        "id": 27,
+        "question": "What term refers to the practice of sports outside the natural outdoor environment ?",
+        "propositions": [
+          "Indoor",
+          "Monitored",
+          "Crossing",
+          "Internal"
+        ],
+        "réponse": "Indoor",
+        "anecdote": "Indoor is also an English term designating model aircraft which operate in a closed space such as a gymnasium."
+      },
+      {
+        "id": 28,
+        "question": "In basketball, during what period do champions perform ?",
+        "propositions": [
+          "Perfect time",
+          "Money time",
+          "Gift time",
+          "Cup time"
+        ],
+        "réponse": "Money time",
+        "anecdote": "The expression was introduced in France by George Eddy, Franco-American commentator for Canal+ on NBA matches."
+      },
+      {
+        "id": 29,
+        "question": "What process is used when the naked eye is not sufficient upon arrival ?",
+        "propositions": [
+          "Photo finish",
+          "Witness",
+          "Hare",
+          "Starting block"
+        ],
+        "réponse": "Photo finish",
+        "anecdote": "When the difference cannot be noticed with the naked eye, we take a series of photos printed very quickly one after the other."
+      },
+      {
+        "id": 30,
+        "question": "What object do teammates pass to each other in a relay race ?",
+        "propositions": [
+          "Juror",
+          "Judge",
+          "Lawyer",
+          "Witness"
+        ],
+        "réponse": "Witness",
+        "anecdote": "The indicator is a smooth tube of approximately 50 grams, of circular section, made of metal or any other rigid material."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Nummer steht auf dem Rücken der Sportler bei den Olympischen Spielen ?",
+        "propositions": [
+          "Schnatz",
+          "Shorts",
+          "Armband",
+          "Lätzchen"
+        ],
+        "réponse": "Lätzchen",
+        "anecdote": "Im Straßenradsport trägt der Teamleiter traditionell die erste Nummer von Dutzenden, die seinem Training gewidmet sind : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "Wer ist im Mannschaftssport der Vermittler zwischen seinen Mitspielern und dem Schiedsrichter ?",
+        "propositions": [
+          "Kommandant",
+          "Leutnant",
+          "Sergeant",
+          "Kapitän"
+        ],
+        "réponse": "Kapitän",
+        "anecdote": "Obwohl er nicht unbedingt der beste Spieler im Team ist, verfügt ein Kapitän dennoch über eine gewisse Autorität in der Umkleidekabine."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Sportfan nutzt Gewalt, um den Ausgang eines Spiels zu beeinflussen ?",
+        "propositions": [
+          "Vegan",
+          "Strickjacke",
+          "Mulligan",
+          "Hooligan"
+        ],
+        "réponse": "Hooligan",
+        "anecdote": "Der Begriff soll sich auf einen berüchtigten irischen Trunkenbold aus London, Patrick Hooligan, beziehen, der regelmäßig in Schlägereien verwickelt war."
+      },
+      {
+        "id": 4,
+        "question": "Welches Tier wird manchmal als Symbol oder Emblem für eine Sportgruppe verwendet ?",
+        "propositions": [
+          "Grizzly",
+          "Anfänger",
+          "Tifo",
+          "Maskottchen"
+        ],
+        "réponse": "Maskottchen",
+        "anecdote": "Maskottchen dienen kommerziellen oder sportlichen Zwecken oder sollen das Image eines Unternehmens oder einer Software stärken."
+      },
+      {
+        "id": 5,
+        "question": "Welcher kleine Metallgegenstand wird den Gewinnern von Sportwettkämpfen geschenkt ?",
+        "propositions": [
+          "Zimmer",
+          "Emblem",
+          "Medaille",
+          "Dekoration"
+        ],
+        "réponse": "Medaille",
+        "anecdote": "In den meisten Sportarten, insbesondere bei olympischen Sportarten, wird den drei Erstplatzierten am Ende eines Wettkampfs eine Medaille verliehen."
+      },
+      {
+        "id": 6,
+        "question": "Welche Analyse versucht, den Ausgang von Fußballspielergebnissen vorherzusagen ?",
+        "propositions": [
+          "Vorhersage",
+          "Statistik",
+          "Rhetorik",
+          "Analytik"
+        ],
+        "réponse": "Vorhersage",
+        "anecdote": "Diese auf statistischer Forschung basierende Analyse hat den Vorteil, dass versucht wird, den Ausgang eines Ereignisses vorherzusagen."
+      },
+      {
+        "id": 7,
+        "question": "Welche Spielweise im Sport widerspricht dem Geist des Spiels ?",
+        "propositions": [
+          "Problem",
+          "Antigaming",
+          "Abseits",
+          "Mittelspiel"
+        ],
+        "réponse": "Antigaming",
+        "anecdote": "Das Fußballspiel, das Anti-Gaming am besten veranschaulicht, ist das beschämende Spiel zwischen Deutschland und Österreich während der Gruppenphase der Weltmeisterschaft 1982."
+      },
+      {
+        "id": 8,
+        "question": "Welcher privilegierte Raum ist bei Veranstaltungen für Fans reserviert ?",
+        "propositions": [
+          "Fächerquadrat",
+          "Fanhaus",
+          "Fangruppe",
+          "Fanzone"
+        ],
+        "réponse": "Fanzone",
+        "anecdote": "Ursprünglich wurde dieser Begriff häufig verwendet, wenn Menschen vor einem Grand Prix Unterhaltung genießen konnten."
+      },
+      {
+        "id": 9,
+        "question": "Welche Vorwärtsbewegung setzt im Sport die Erlaubnis zur Bewegung voraus ?",
+        "propositions": [
+          "Senden",
+          "Gepolstert",
+          "Abseits",
+          "Fehlstart"
+        ],
+        "réponse": "Fehlstart",
+        "anecdote": "Je nach Sportart kann ein Fehlstart zu einer Disqualifikation, einer Verwarnung oder einer Strafe für den Athleten und sein Team führen."
+      },
+      {
+        "id": 10,
+        "question": "Was ist die Regel 11 des Fußballs, die mit einem indirekten Freistoß bestraft wird ?",
+        "propositions": [
+          "Ecke",
+          "Abseits",
+          "Strafe",
+          "Freistoß"
+        ],
+        "réponse": "Abseits",
+        "anecdote": "Ein Spieler in einer Abseitsposition sollte nur dann bestraft werden, wenn der Spieler beginnt, sich aktiv am Spiel zu beteiligen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Draft ist in allen nordamerikanischen Mannschaftssportarten vorhanden ?",
+        "propositions": [
+          "Entwurf",
+          "Wischen",
+          "Fahren",
+          "Hof"
+        ],
+        "réponse": "Entwurf",
+        "anecdote": "Vergleichbar mit einem Spielerstipendium wählen die Teams Sportler der Universität oder teilweise auch einer anderen Liga aus."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Begriff wird in der Eliminierungsphase am häufigsten mit Gruppe gleichgesetzt ?",
+        "propositions": [
+          "Pfau",
+          "Türkei",
+          "Henne",
+          "Hahn"
+        ],
+        "réponse": "Henne",
+        "anecdote": "Der Begriff wurde von Pferderennkreisen aufgegriffen, bevor er für Rugby- und Fußballspieler zu einem vertrauten Wort wurde."
+      },
+      {
+        "id": 13,
+        "question": "Wer ist im Rahmen der Dopingkontrolle für die Überwachung eines Sportlers verantwortlich ?",
+        "propositions": [
+          "Begleitperson",
+          "Trainer",
+          "Former",
+          "Offiziell"
+        ],
+        "réponse": "Begleitperson",
+        "anecdote": "Bei Radsportwettkämpfen wird das Logo mit den Regenbogenstreifen der International Cycling Union (UCI) auf der Kleidung angebracht."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Begriff definiert ein sportliches Aufeinandertreffen zweier Mannschaften aus derselben Stadt ?",
+        "propositions": [
+          "Herausforderung",
+          "Ultra",
+          "Derby",
+          "Wettbewerb"
+        ],
+        "réponse": "Derby",
+        "anecdote": "Es kommt vor, dass der Umfang dieser Treffen aufgrund des lokalen Chauvinismus Begeisterung hervorruft, die über den Rahmen des Sports hinausgeht."
+      },
+      {
+        "id": 15,
+        "question": "Mit welcher Übung stärkt man die Bauch- und Rückenmuskulatur ?",
+        "propositions": [
+          "Flexion",
+          "Ummantelung",
+          "Traktion",
+          "Kniebeugen"
+        ],
+        "réponse": "Ummantelung",
+        "anecdote": "Seine Hauptform ist die Planke, bei der man sich mit dem Gesicht zum Boden positioniert und sich auf die Zehen und Unterarme stützt."
+      },
+      {
+        "id": 16,
+        "question": "Wie heißt der Letzte in einem Sportrennen oder einer Rangliste ?",
+        "propositions": [
+          "Rote Laterne",
+          "Rucksacktourist",
+          "Chapatte",
+          "Gruppe"
+        ],
+        "réponse": "Rote Laterne",
+        "anecdote": "Dieser im Radsport häufig verwendete Ausdruck bezieht sich auf die rote Ampel, die das letzte Fahrzeug eines Eisenbahnkonvois mit sich führte."
+      },
+      {
+        "id": 17,
+        "question": "Welche Wellen- oder Massenbewegung ähnelt dem Seegang ?",
+        "propositions": [
+          "Ola",
+          "Olé",
+          "Olo",
+          "Olivia"
+        ],
+        "réponse": "Ola",
+        "anecdote": "Sie kommt vor allem in Stadien bei Sportveranstaltungen vor, aber auch bei großen Versammlungen."
+      },
+      {
+        "id": 18,
+        "question": "Welcher konkurrierende Athlet könnte trotz aller Chancen gewinnen ?",
+        "propositions": [
+          "Herausforderer",
+          "Bestellen",
+          "Außenseiter",
+          "Schlag"
+        ],
+        "réponse": "Außenseiter",
+        "anecdote": "Das Bild von Tom Thumb wird manchmal als Synonym für Außenseiter verwendet : Ein solches Team ist der Tom Thumb der Konkurrenz."
+      },
+      {
+        "id": 19,
+        "question": "Welches Spiel erwartet die Verlierer der Halbfinals bestimmter Turniere ?",
+        "propositions": [
+          "Kurzes Finale",
+          "Kleines Finale",
+          "Falsches Finale",
+          "Letztes Finale"
+        ],
+        "réponse": "Kleines Finale",
+        "anecdote": "Damit können Sie bestimmen, wer den dritten und vierten Platz belegt (bzw. Gewinner und Verlierer dieses Finales)."
+      },
+      {
+        "id": 20,
+        "question": "Welche kurze Spielpause ermöglicht Ihnen bei bestimmten Mannschaftssportarten, sich zu erholen ?",
+        "propositions": [
+          "Kurze Zeit",
+          "Auszeit",
+          "Höhepunkte",
+          "Vollzeit"
+        ],
+        "réponse": "Auszeit",
+        "anecdote": "In der NBA erlaubt eine spezielle Regel dem Spieler, der den Ball hat, möglicherweise das Spiel zu unterbrechen, um eine Auszeit zu beginnen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welchen Effekt hat es, einen Versuch zu moderieren, um die Kontrolle zu erlangen ?",
+        "propositions": [
+          "Ass",
+          "Zerschlagen",
+          "Gepolstert",
+          "Lob"
+        ],
+        "réponse": "Gepolstert",
+        "anecdote": "Der Drop Shot ist ein technischer Schlag, der das Spiel verlangsamt, den Rhythmus unterbricht und dazu dient, den Gegner vorwärts zu bewegen."
+      },
+      {
+        "id": 22,
+        "question": "Welche riesige Infrastruktur vereint Sportgeräte ?",
+        "propositions": [
+          "Zentrum",
+          "Fitnessstudio",
+          "Zimmer",
+          "Komplex"
+        ],
+        "réponse": "Komplex",
+        "anecdote": "Sportgeräte sind räumliche Anordnungen oder Konstruktionen, die die Ausübung einer oder mehrerer Sportarten ermöglichen."
+      },
+      {
+        "id": 23,
+        "question": "Unter welchem Begriff versteht man das Bewältigen mehrerer Routen beim Klettern oder in den Bergen ?",
+        "propositions": [
+          "Schaltung",
+          "Serie",
+          "Parade",
+          "Sequenzierung"
+        ],
+        "réponse": "Sequenzierung",
+        "anecdote": "Manche Leute verketten Routen, um sich auf größere Schwierigkeiten vorzubereiten, aber oft besteht das Ziel darin, in diesen Sequenzen erfolgreich zu sein."
+      },
+      {
+        "id": 24,
+        "question": "Zu welcher Kategorie der Leichtathletik gehören Langstrecken- und Mittelstreckenrennen ?",
+        "propositions": [
+          "Relais",
+          "Kombiniert",
+          "Gehen",
+          "Ausdauer"
+        ],
+        "réponse": "Ausdauer",
+        "anecdote": "Im Motorsport ist Endurance eine Wettkampfform, bei der die Regelmäßigkeit von Fahrzeugen über eine bestimmte Distanz getestet wird."
+      },
+      {
+        "id": 25,
+        "question": "Was ist die wesentliche Methode, um im American Football Punkte zu erzielen ?",
+        "propositions": [
+          "Snap",
+          "Blitz",
+          "Landung",
+          "Halten"
+        ],
+        "réponse": "Landung",
+        "anecdote": "Ein Touchdown (manchmal auch TD genannt) wird erzielt, wenn es einer der Mannschaften gelingt, mit dem Ball die gegnerische Torlinie zu überqueren."
+      },
+      {
+        "id": 26,
+        "question": "Welcher sportliche Nachteil kann einem Konkurrenten manchmal auferlegt werden ?",
+        "propositions": [
+          "Behinderung",
+          "Reservieren",
+          "Barriere",
+          "Strafe"
+        ],
+        "réponse": "Behinderung",
+        "anecdote": "Um Spielern unterschiedlichen Niveaus den Wettbewerb zu ermöglichen, wird beim Go- und Sh ?gi-Spiel ein Handicap-System verwendet."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Begriff bezieht sich auf die Ausübung von Sportarten außerhalb der natürlichen Umgebung im Freien ?",
+        "propositions": [
+          "Kreuzung",
+          "Intern",
+          "Innen",
+          "Überwacht"
+        ],
+        "réponse": "Innen",
+        "anecdote": "Indoor ist auch ein englischer Begriff für Modellflugzeuge, die in einem geschlossenen Raum wie einer Turnhalle betrieben werden."
+      },
+      {
+        "id": 28,
+        "question": "In welchem Zeitraum treten im Basketball Champions auf ?",
+        "propositions": [
+          "Geschenkzeit",
+          "Geldzeit",
+          "Perfekte Zeit",
+          "Pokalzeit"
+        ],
+        "réponse": "Geldzeit",
+        "anecdote": "Der Ausdruck wurde in Frankreich von George Eddy, dem französisch-amerikanischen Kommentator von NBA-Spielen für Canal+, eingeführt."
+      },
+      {
+        "id": 29,
+        "question": "Welches Verfahren kommt zum Einsatz, wenn das bloße Auge bei der Ankunft nicht ausreicht ?",
+        "propositions": [
+          "Fotofinish",
+          "Hase",
+          "Zeuge",
+          "Startblock"
+        ],
+        "réponse": "Fotofinish",
+        "anecdote": "Wenn der Unterschied mit bloßem Auge nicht erkennbar ist, machen wir eine sehr schnell hintereinander ausgedruckte Fotoserie."
+      },
+      {
+        "id": 30,
+        "question": "Welchen Gegenstand geben sich Teamkollegen bei einem Staffellauf gegenseitig zu ?",
+        "propositions": [
+          "Anwalt",
+          "Juror",
+          "Richter",
+          "Zeuge"
+        ],
+        "réponse": "Zeuge",
+        "anecdote": "Der Indikator ist ein glattes Rohr von etwa 50 Gramm mit kreisförmigem Querschnitt aus Metall oder einem anderen starren Material."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuál es el número escrito en la espalda de los atletas en los Juegos Olímpicos ?",
+        "propositions": [
+          "Brazalete",
+          "Pantalones cortos",
+          "Babero",
+          "Soplón"
+        ],
+        "réponse": "Babero",
+        "anecdote": "En el ciclismo de ruta, el líder del equipo tradicionalmente lleva el primer número de la docena dedicada a su entrenamiento : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "En el deporte de equipo, ¿quién es el intermediario entre sus compañeros y el árbitro ?",
+        "propositions": [
+          "Teniente",
+          "Comandante",
+          "Capitán",
+          "Sargento"
+        ],
+        "réponse": "Capitán",
+        "anecdote": "Aunque no sea necesariamente el mejor jugador del equipo, un capitán tiene cierta autoridad dentro del vestuario."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué aficionado al deporte utiliza la violencia para influir en el destino de un partido ?",
+        "propositions": [
+          "Gamberro",
+          "Cárdigan",
+          "Mulligan",
+          "Vegano"
+        ],
+        "réponse": "Gamberro",
+        "anecdote": "Se dice que el término se refiere a un famoso borracho irlandés de Londres, Patrick Hooligan, que se involucraba regularmente en peleas."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué animal se utiliza a veces como símbolo o emblema de un grupo deportivo ?",
+        "propositions": [
+          "Grizzly",
+          "Mascota",
+          "Novato",
+          "Tifo"
+        ],
+        "réponse": "Mascota",
+        "anecdote": "Las mascotas están diseñadas con fines comerciales o deportivos, o para reforzar la imagen de una empresa o software."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué pequeño objeto metálico se regala a los ganadores de las competiciones deportivas ?",
+        "propositions": [
+          "Emblema",
+          "Habitación",
+          "Decoración",
+          "Medalla"
+        ],
+        "réponse": "Medalla",
+        "anecdote": "En la mayoría de los deportes, especialmente los olímpicos, se otorga una medalla a los tres primeros clasificados al final de una competición."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué análisis intenta predecir el resultado de los resultados de los partidos de fútbol ?",
+        "propositions": [
+          "Predicción",
+          "Estadísticas",
+          "Retórica",
+          "Análisis"
+        ],
+        "réponse": "Predicción",
+        "anecdote": "Este análisis, basado en investigaciones estadísticas, tiene la ventaja de intentar predecir el resultado de cualquier evento."
+      },
+      {
+        "id": 7,
+        "question": "En el deporte, ¿qué forma de jugar va en contra del espíritu del juego ?",
+        "propositions": [
+          "Mitad del juego",
+          "Fuera de juego",
+          "Problema",
+          "Antijuegos"
+        ],
+        "réponse": "Antijuegos",
+        "anecdote": "El partido de fútbol que mejor ilustra el antijuego es el vergonzoso partido entre Alemania y Austria durante la fase de grupos del Mundial de 1982."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué espacio privilegiado se reserva a los aficionados durante los eventos ?",
+        "propositions": [
+          "Plaza del ventilador",
+          "Grupo de fans",
+          "Zona de fans",
+          "Casa de fans"
+        ],
+        "réponse": "Zona de fans",
+        "anecdote": "Originalmente, este término se usaba con frecuencia en 1 donde la gente podía disfrutar del entretenimiento antes de un Gran Premio."
+      },
+      {
+        "id": 9,
+        "question": "En el deporte, ¿qué movimiento hacia adelante anticipa el permiso para moverse ?",
+        "propositions": [
+          "Fuera de juego",
+          "Enviando",
+          "Acolchado",
+          "Comienzo en falso"
+        ],
+        "réponse": "Comienzo en falso",
+        "anecdote": "Dependiendo del deporte, una salida en falso puede resultar en una descalificación, una advertencia o una penalización para el atleta y su equipo."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál es la ley 11 del fútbol que se castiga con tiro libre indirecto ?",
+        "propositions": [
+          "Esquina",
+          "Tiro libre",
+          "Penalización",
+          "Fuera de juego"
+        ],
+        "réponse": "Fuera de juego",
+        "anecdote": "Un jugador en posición de fuera de juego sólo debe ser sancionado cuando comienza a tomar parte activa en el juego."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué draft está presente en todos los deportes de equipo norteamericanos ?",
+        "propositions": [
+          "Patio",
+          "Borrador",
+          "Conducir",
+          "Deslizar"
+        ],
+        "réponse": "Borrador",
+        "anecdote": "De manera similar a una beca para jugadores, los equipos seleccionan a los atletas de la universidad o, a veces, de otra liga."
+      },
+      {
+        "id": 12,
+        "question": "En la fase de eliminación, ¿qué término suele ser sinónimo de grupo ?",
+        "propositions": [
+          "Gallina",
+          "Gallo",
+          "pavo real",
+          "Turquía"
+        ],
+        "réponse": "Gallina",
+        "anecdote": "El término habría sido adoptado por los círculos hípicos antes de convertirse en una palabra familiar para los jugadores de rugby y fútbol."
+      },
+      {
+        "id": 13,
+        "question": "En el contexto del control antidopaje, ¿quién es responsable del seguimiento de un deportista ?",
+        "propositions": [
+          "Modelador",
+          "Entrenador",
+          "Oficial",
+          "Acompañante"
+        ],
+        "réponse": "Acompañante",
+        "anecdote": "En las competiciones ciclistas, el logo con las franjas del arcoíris de la Unión Ciclista Internacional (UCI) está pegado en su vestimenta."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué término define un encuentro deportivo entre dos equipos de una misma ciudad ?",
+        "propositions": [
+          "Desafío",
+          "Derbi",
+          "Competencia",
+          "Ultra"
+        ],
+        "réponse": "Derbi",
+        "anecdote": "Sucede que el alcance de estos encuentros despierta un entusiasmo que va más allá del ámbito deportivo, debido al chovinismo local."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué ejercicio se utiliza para fortalecer los músculos abdominales y de la espalda ?",
+        "propositions": [
+          "Sentadilla",
+          "Revestimiento",
+          "Tracción",
+          "Flexión"
+        ],
+        "réponse": "Revestimiento",
+        "anecdote": "Su forma principal es la plancha, que consiste en posicionarse de cara al suelo, apoyado sobre los dedos de los pies y los antebrazos."
+      },
+      {
+        "id": 16,
+        "question": "¿Cómo se llama el último de una carrera o ranking deportivo ?",
+        "propositions": [
+          "Linterna Roja",
+          "Chapatte",
+          "Mochilero",
+          "Grupo"
+        ],
+        "réponse": "Linterna Roja",
+        "anecdote": "Esta expresión, muy utilizada en bicicleta, es una referencia a la luz roja que lleva el último vehículo de un convoy ferroviario."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué movimiento de olas o multitudes es similar al oleaje ?",
+        "propositions": [
+          "Olé",
+          "Oló",
+          "ola",
+          "Olivia"
+        ],
+        "réponse": "ola",
+        "anecdote": "Ocurre principalmente en los estadios durante eventos deportivos, pero también en grandes reuniones."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué atleta podría ganar, a pesar de las probabilidades ?",
+        "propositions": [
+          "Forastero",
+          "Retador",
+          "Orden",
+          "Puñetazo"
+        ],
+        "réponse": "Forastero",
+        "anecdote": "La imagen de Pulgarcito se utiliza a veces como sinónimo de forastero : dicho equipo es el Pulgarcito de la competición."
+      },
+      {
+        "id": 19,
+        "question": "¿A qué partido se enfrentan los perdedores de las semifinales de determinados torneos ?",
+        "propositions": [
+          "Falso final",
+          "Pequeño final",
+          "Última final",
+          "Final corto"
+        ],
+        "réponse": "Pequeño final",
+        "anecdote": "Te permite determinar quién ocupará el tercer y cuarto lugar (respectivamente el ganador y el perdedor de esta final)."
+      },
+      {
+        "id": 20,
+        "question": "En determinados deportes de equipo, ¿qué breve descanso del juego te permite recuperarte ?",
+        "propositions": [
+          "Poco tiempo",
+          "Tiempo muerto",
+          "Aspectos destacados",
+          "Tiempo completo"
+        ],
+        "réponse": "Tiempo muerto",
+        "anecdote": "En la NBA, una regla específica permite que el jugador que tiene el balón posiblemente detenga el juego para iniciar un tiempo muerto."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Cuál es el efecto de moderar un movimiento para ganar control ?",
+        "propositions": [
+          "Acolchado",
+          "globo",
+          "Aplastar",
+          "As"
+        ],
+        "réponse": "Acolchado",
+        "anecdote": "El drop shot es un tiro técnico que ralentiza el juego, crea una ruptura en el ritmo y sirve para hacer avanzar al oponente."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué vasta infraestructura reúne equipos dedicados al deporte ?",
+        "propositions": [
+          "Centro",
+          "Gimnasio",
+          "Complejo",
+          "Habitación"
+        ],
+        "réponse": "Complejo",
+        "anecdote": "El equipamiento deportivo es una disposición o construcción espacial que permite la práctica de uno o más deportes."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué término se refiere a hacer varias rutas en escalada o en montaña ?",
+        "propositions": [
+          "Serie",
+          "Secuenciación",
+          "Desfile",
+          "Circuito"
+        ],
+        "réponse": "Secuenciación",
+        "anecdote": "Algunas personas encadenan rutas para prepararse para mayores dificultades, pero muchas veces el objetivo es tener éxito en estas secuencias."
+      },
+      {
+        "id": 24,
+        "question": "En atletismo, ¿qué categoría incluye las carreras de fondo y medio fondo ?",
+        "propositions": [
+          "Resistencia",
+          "Combinado",
+          "Caminar",
+          "Relés"
+        ],
+        "réponse": "Resistencia",
+        "anecdote": "En los deportes de motor, la resistencia es una forma de competición destinada a poner a prueba la regularidad de los vehículos en una distancia determinada."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuál es el método esencial para sumar puntos en el fútbol americano ?",
+        "propositions": [
+          "Explotación",
+          "Ajustar",
+          "Bombardeo",
+          "Aterrizaje"
+        ],
+        "réponse": "Aterrizaje",
+        "anecdote": "Un touchdown (a veces llamado TD) se anota cuando uno de los equipos logra cruzar la línea de gol contraria con el balón."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué desventaja deportiva se le puede imponer a veces a un competidor ?",
+        "propositions": [
+          "Penalización",
+          "Discapacidad",
+          "Barrera",
+          "Reservar"
+        ],
+        "réponse": "Discapacidad",
+        "anecdote": "Para permitir que jugadores de diferentes niveles compitan, se utiliza un sistema de hándicap en el juego de go y sh ?gi."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué término se refiere a la práctica de deportes fuera del entorno natural al aire libre ?",
+        "propositions": [
+          "Interno",
+          "Monitoreado",
+          "Cruce",
+          "Interior"
+        ],
+        "réponse": "Interior",
+        "anecdote": "Indoor es también un término inglés que designa a los modelos de aviones que operan en un espacio cerrado como un gimnasio."
+      },
+      {
+        "id": 28,
+        "question": "En baloncesto, ¿durante qué periodo actúan los campeones ?",
+        "propositions": [
+          "Tiempo de regalo",
+          "Momento perfecto",
+          "Tiempo de dinero",
+          "Hora de la Copa"
+        ],
+        "réponse": "Tiempo de dinero",
+        "anecdote": "La expresión fue introducida en Francia por George Eddy, comentarista franco-estadounidense de Canal+ sobre los partidos de la NBA."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué proceso se utiliza cuando a simple vista no basta al llegar ?",
+        "propositions": [
+          "Testigo",
+          "liebre",
+          "Acabado fotográfico",
+          "Bloque de salida"
+        ],
+        "réponse": "Acabado fotográfico",
+        "anecdote": "Cuando la diferencia no se nota a simple vista, tomamos una serie de fotografías impresas muy rápidamente, una tras otra."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué objeto se pasan los compañeros de equipo en una carrera de relevos ?",
+        "propositions": [
+          "Testigo",
+          "Jurado",
+          "Juez",
+          "Abogado"
+        ],
+        "réponse": "Testigo",
+        "anecdote": "El indicador es un tubo liso de aproximadamente 50 gramos, de sección circular, fabricado en metal o cualquier otro material rígido."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qual è il numero che c'è scritto sulla schiena degli atleti ai Giochi Olimpici ?",
+        "propositions": [
+          "Bavaglino",
+          "Spia",
+          "Fascia da braccio",
+          "Pantaloncini"
+        ],
+        "réponse": "Bavaglino",
+        "anecdote": "Nel ciclismo su strada, il leader della squadra indossa tradizionalmente il primo numero della dozzina dedicata al suo allenamento : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "Nello sport di squadra chi è l'intermediario tra i compagni e l'arbitro ?",
+        "propositions": [
+          "Comandante",
+          "Tenente",
+          "Sergente",
+          "Capitano"
+        ],
+        "réponse": "Capitano",
+        "anecdote": "Anche se non è necessariamente il miglior giocatore della squadra, un capitano ha comunque una certa autorità all'interno dello spogliatoio."
+      },
+      {
+        "id": 3,
+        "question": "Quale tifoso sportivo usa la violenza per influenzare le sorti di una partita ?",
+        "propositions": [
+          "Mulligan",
+          "Vegano",
+          "Teppista",
+          "Cardigan"
+        ],
+        "réponse": "Teppista",
+        "anecdote": "Si dice che il termine si riferisca a un noto ubriacone irlandese di Londra, Patrick Hooligan, che era regolarmente coinvolto in risse."
+      },
+      {
+        "id": 4,
+        "question": "Quale animale viene talvolta utilizzato come simbolo o emblema di un gruppo sportivo ?",
+        "propositions": [
+          "Grizzly",
+          "Tifo",
+          "Mascotte",
+          "Principiante"
+        ],
+        "réponse": "Mascotte",
+        "anecdote": "Le mascotte sono progettate per scopi commerciali o sportivi o per rafforzare l'immagine di un'azienda o di un software."
+      },
+      {
+        "id": 5,
+        "question": "Quale piccolo oggetto metallico viene regalato ai vincitori delle competizioni sportive ?",
+        "propositions": [
+          "Emblema",
+          "Decorazione",
+          "Camera",
+          "Medaglia"
+        ],
+        "réponse": "Medaglia",
+        "anecdote": "Nella maggior parte degli sport, in particolare negli sport olimpici, viene assegnata una medaglia ai primi tre classificati al termine di una competizione."
+      },
+      {
+        "id": 6,
+        "question": "Quale analisi tenta di prevedere l'esito dei risultati delle partite di calcio ?",
+        "propositions": [
+          "Analitica",
+          "Statistiche",
+          "Pronostico",
+          "Retorica"
+        ],
+        "réponse": "Pronostico",
+        "anecdote": "Questa analisi, basata su ricerche statistiche, ha il vantaggio di cercare di prevedere l'esito di qualsiasi evento."
+      },
+      {
+        "id": 7,
+        "question": "Nello sport, quale modo di giocare va contro lo spirito del gioco ?",
+        "propositions": [
+          "Fuorigioco",
+          "Antigioco",
+          "A metà partita",
+          "Problema"
+        ],
+        "réponse": "Antigioco",
+        "anecdote": "La partita di calcio che meglio illustra l'anti-gioco è la vergognosa partita tra Germania e Austria durante la fase a gironi della Coppa del Mondo del 1982."
+      },
+      {
+        "id": 8,
+        "question": "Quale spazio privilegiato è riservato ai tifosi durante gli eventi ?",
+        "propositions": [
+          "Piazza del tifoso",
+          "Gruppo di tifosi",
+          "Zona fan",
+          "Fancasa"
+        ],
+        "réponse": "Zona fan",
+        "anecdote": "In origine, questo termine veniva spesso utilizzato in 1 dove le persone potevano divertirsi prima di un Gran Premio."
+      },
+      {
+        "id": 9,
+        "question": "Nello sport, quale movimento in avanti anticipa il permesso di muoversi ?",
+        "propositions": [
+          "Fuorigioco",
+          "Invio",
+          "Ammortizzato",
+          "Falsa partenza"
+        ],
+        "réponse": "Falsa partenza",
+        "anecdote": "A seconda dello sport, una falsa partenza può comportare la squalifica, un'ammonizione o una penalità per l'atleta e la sua squadra."
+      },
+      {
+        "id": 10,
+        "question": "Qual è la legge 11 del calcio che prevede la punizione indiretta con un calcio di punizione ?",
+        "propositions": [
+          "Fuorigioco",
+          "Angolo",
+          "Penalità",
+          "Calcio di punizione"
+        ],
+        "réponse": "Fuorigioco",
+        "anecdote": "Un giocatore in posizione di fuorigioco dovrebbe essere penalizzato solo quando inizia a prendere parte attiva al gioco."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale draft è presente in tutti gli sport di squadra nordamericani ?",
+        "propositions": [
+          "Cortile",
+          "Guidare",
+          "Scorri",
+          "Bozza"
+        ],
+        "réponse": "Bozza",
+        "anecdote": "Paragonabile ad una borsa di studio per giocatori, le squadre selezionano atleti dell'università o talvolta di un'altra lega."
+      },
+      {
+        "id": 12,
+        "question": "Nella fase di eliminazione, quale termine è più spesso sinonimo di gruppo ?",
+        "propositions": [
+          "Gallina",
+          "Turchia",
+          "Pavone",
+          "Gallo"
+        ],
+        "réponse": "Gallina",
+        "anecdote": "Il termine sarebbe stato ripreso dai circoli delle corse di cavalli prima di diventare una parola familiare ai giocatori di rugby e di football."
+      },
+      {
+        "id": 13,
+        "question": "Nell'ambito del controllo antidoping, chi è responsabile del monitoraggio di un atleta ?",
+        "propositions": [
+          "Accompagnatore",
+          "Allenatore",
+          "Ufficiale",
+          "Modellatore"
+        ],
+        "réponse": "Accompagnatore",
+        "anecdote": "Nelle competizioni ciclistiche, sull'abbigliamento è apposto il logo con le strisce arcobaleno dell'Unione Ciclistica Internazionale (UCI)."
+      },
+      {
+        "id": 14,
+        "question": "Quale termine definisce un incontro sportivo tra due squadre della stessa città ?",
+        "propositions": [
+          "Sfida",
+          "Derby",
+          "Ultra",
+          "Concorrenza"
+        ],
+        "réponse": "Derby",
+        "anecdote": "Accade che la portata di questi incontri susciti un entusiasmo che va oltre l'ambito dello sport, a causa dello sciovinismo locale."
+      },
+      {
+        "id": 15,
+        "question": "Quale esercizio viene utilizzato per rafforzare i muscoli addominali e della schiena ?",
+        "propositions": [
+          "Flessione",
+          "Guaina",
+          "Trazione",
+          "Squat"
+        ],
+        "réponse": "Guaina",
+        "anecdote": "La sua forma principale è il plank, che consiste nel posizionarsi di fronte al suolo, appoggiandosi sulle punte dei piedi e sugli avambracci."
+      },
+      {
+        "id": 16,
+        "question": "Come si chiama l'ultimo di una gara sportiva o di una classifica ?",
+        "propositions": [
+          "Capatte",
+          "Zaino in spalla",
+          "Gruppo",
+          "Lanterna Rossa"
+        ],
+        "réponse": "Lanterna Rossa",
+        "anecdote": "Questa espressione, usata spesso nel ciclismo, fa riferimento al semaforo rosso trasportato dall'ultimo veicolo di un convoglio ferroviario."
+      },
+      {
+        "id": 17,
+        "question": "Quale movimento delle onde o della folla è simile al moto ondoso ?",
+        "propositions": [
+          "Olè",
+          "Olo",
+          "Olivia",
+          "Olà"
+        ],
+        "réponse": "Olà",
+        "anecdote": "Si manifesta soprattutto negli stadi in occasione di eventi sportivi, ma anche in grandi raduni."
+      },
+      {
+        "id": 18,
+        "question": "Quale atleta in competizione potrebbe vincere, nonostante le probabilità ?",
+        "propositions": [
+          "Sfidante",
+          "Pugno",
+          "Esterno",
+          "Ordina"
+        ],
+        "réponse": "Esterno",
+        "anecdote": "L'immagine di Pollicino è talvolta usata come sinonimo di outsider : una squadra del genere è il Pollicino della competizione."
+      },
+      {
+        "id": 19,
+        "question": "Che partita affrontano le perdenti delle semifinali di alcuni tornei ?",
+        "propositions": [
+          "Falso finale",
+          "Ultimo finale",
+          "Piccolo finale",
+          "Finale breve"
+        ],
+        "réponse": "Piccolo finale",
+        "anecdote": "Permette di determinare chi occuperà il terzo e il quarto posto (rispettivamente il vincitore e il perdente di questa finale)."
+      },
+      {
+        "id": 20,
+        "question": "In alcuni sport di squadra, quale breve pausa dal gioco permette di recuperare ?",
+        "propositions": [
+          "Poco tempo",
+          "In evidenza",
+          "Tempo scaduto",
+          "A tempo pieno"
+        ],
+        "réponse": "Tempo scaduto",
+        "anecdote": "Nella NBA una regola specifica permette al giocatore che ha la palla di fermare eventualmente il gioco per iniziare un timeout."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qual è l'effetto di moderare una mossa per ottenere il controllo ?",
+        "propositions": [
+          "Asso",
+          "Distruggere",
+          "Ammortizzato",
+          "Pallone"
+        ],
+        "réponse": "Ammortizzato",
+        "anecdote": "Il drop shot è un tiro tecnico che rallenta il gioco, crea una pausa nel ritmo e serve a spostare in avanti l'avversario."
+      },
+      {
+        "id": 22,
+        "question": "Quale vasta infrastruttura riunisce attrezzature dedicate allo sport ?",
+        "propositions": [
+          "Palestra",
+          "Centro",
+          "Complesso",
+          "Camera"
+        ],
+        "réponse": "Complesso",
+        "anecdote": "L'attrezzatura sportiva è una sistemazione o costruzione spaziale che consente la pratica di uno o più sport."
+      },
+      {
+        "id": 23,
+        "question": "Quale termine si riferisce al fare più vie in arrampicata o in montagna ?",
+        "propositions": [
+          "Sequenziamento",
+          "Serie",
+          "Sfilata",
+          "Circuito"
+        ],
+        "réponse": "Sequenziamento",
+        "anecdote": "Alcune persone concatenano i percorsi per prepararsi a difficoltà maggiori, ma spesso l'obiettivo è riuscire in queste sequenze."
+      },
+      {
+        "id": 24,
+        "question": "Nell'atletica leggera, quale categoria comprende le gare di lunga distanza e di mezzofondo ?",
+        "propositions": [
+          "Relè",
+          "Resistenza",
+          "Combinato",
+          "Cammina"
+        ],
+        "réponse": "Resistenza",
+        "anecdote": "Negli sport motoristici, l'endurance è una forma di competizione intesa a testare la regolarità dei veicoli su una determinata distanza."
+      },
+      {
+        "id": 25,
+        "question": "Qual è il metodo essenziale per segnare punti nel football americano ?",
+        "propositions": [
+          "Blitz",
+          "Tenendo",
+          "Touchdown",
+          "Scatta"
+        ],
+        "réponse": "Touchdown",
+        "anecdote": "Un touchdown (a volte chiamato TD) viene segnato quando una delle squadre riesce a superare la linea di porta avversaria con la palla."
+      },
+      {
+        "id": 26,
+        "question": "Quale svantaggio sportivo può talvolta essere imposto ad un concorrente ?",
+        "propositions": [
+          "Barriera",
+          "Penalità",
+          "Disabilità",
+          "Prenota"
+        ],
+        "réponse": "Disabilità",
+        "anecdote": "Per consentire a giocatori di diversi livelli di competere, nel gioco del go e dello sh ?gi viene utilizzato un sistema di handicap."
+      },
+      {
+        "id": 27,
+        "question": "Quale termine si riferisce alla pratica di sport al di fuori dell'ambiente naturale esterno ?",
+        "propositions": [
+          "Monitorato",
+          "Attraversamento",
+          "Interno",
+          "Interno"
+        ],
+        "réponse": "Interno",
+        "anecdote": "Indoor è anche un termine inglese che designa aeromodelli che operano in uno spazio chiuso come una palestra."
+      },
+      {
+        "id": 28,
+        "question": "Nel basket in che periodo si esibiscono i campioni ?",
+        "propositions": [
+          "Tempo di Coppa",
+          "Tempo di denaro",
+          "Tempo di regali",
+          "Momento perfetto"
+        ],
+        "réponse": "Tempo di denaro",
+        "anecdote": "L'espressione è stata introdotta in Francia da George Eddy, commentatore franco-americano di Canal+ sulle partite della NBA."
+      },
+      {
+        "id": 29,
+        "question": "Quale processo viene utilizzato quando l'occhio nudo non è sufficiente all'arrivo ?",
+        "propositions": [
+          "Blocco di partenza",
+          "Lepre",
+          "Testimone",
+          "Fotofinish"
+        ],
+        "réponse": "Fotofinish",
+        "anecdote": "Quando la differenza non si nota ad occhio nudo, scattiamo una serie di foto stampate molto velocemente una dopo l'altra."
+      },
+      {
+        "id": 30,
+        "question": "Quale oggetto si passano i compagni di squadra in una staffetta ?",
+        "propositions": [
+          "Giudice",
+          "Avvocato",
+          "Testimone",
+          "Giurato"
+        ],
+        "réponse": "Testimone",
+        "anecdote": "L'indicatore è un tubo liscio di circa 50 grammi, di sezione circolare, di metallo o altro materiale rigido."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Op welk nummer staat het nummer dat op de ruggen van atleten op de Olympische Spelen staat geschreven ?",
+        "propositions": [
+          "Armband",
+          "Slab",
+          "Korte broek",
+          "Snaai"
+        ],
+        "réponse": "Slab",
+        "anecdote": "Bij het wegwielrennen draagt \u200b\u200bde ploegleider traditioneel het eerste nummer van de tientallen die aan zijn training zijn gewijd : 1, 11, 21."
+      },
+      {
+        "id": 2,
+        "question": "Wie is bij teamsport de intermediair tussen zijn teamgenoten en de scheidsrechter ?",
+        "propositions": [
+          "Sergeant",
+          "Kapitein",
+          "Luitenant",
+          "Commandant"
+        ],
+        "réponse": "Kapitein",
+        "anecdote": "Hoewel hij niet per se de beste speler van het team is, heeft een aanvoerder toch een zekere autoriteit binnen de kleedkamer."
+      },
+      {
+        "id": 3,
+        "question": "Welke sportfan gebruikt geweld om het lot van een wedstrijd te beïnvloeden ?",
+        "propositions": [
+          "Mulligan",
+          "Vest",
+          "Hooligan",
+          "Veganistisch"
+        ],
+        "réponse": "Hooligan",
+        "anecdote": "De term zou verwijzen naar een beruchte Ierse dronkaard uit Londen, Patrick Hooligan, die regelmatig bij gevechten betrokken was."
+      },
+      {
+        "id": 4,
+        "question": "Welk dier wordt soms gebruikt als symbool of embleem voor een sportgroep ?",
+        "propositions": [
+          "Grizzly",
+          "Beginner",
+          "Tifo",
+          "Mascotte"
+        ],
+        "réponse": "Mascotte",
+        "anecdote": "Mascottes zijn ontworpen voor commerciële of sportieve doeleinden, of om het imago van een bedrijf of software te versterken."
+      },
+      {
+        "id": 5,
+        "question": "Welk klein metalen voorwerp wordt aan de winnaars van sportwedstrijden gegeven ?",
+        "propositions": [
+          "Kamer",
+          "embleem",
+          "Medaille",
+          "Decoratie"
+        ],
+        "réponse": "Medaille",
+        "anecdote": "Bij de meeste sporten, vooral Olympische sporten, wordt aan het einde van een competitie een medaille toegekend aan de drie beste finishers."
+      },
+      {
+        "id": 6,
+        "question": "Welke analyse probeert de uitkomst van voetbalwedstrijdresultaten te voorspellen ?",
+        "propositions": [
+          "Statistieken",
+          "Retoriek",
+          "Voorspelling",
+          "Analyse"
+        ],
+        "réponse": "Voorspelling",
+        "anecdote": "Deze analyse, gebaseerd op statistisch onderzoek, heeft het voordeel dat ze de uitkomst van welke gebeurtenis dan ook probeert te voorspellen."
+      },
+      {
+        "id": 7,
+        "question": "Welke manier van spelen in de sport gaat in tegen de geest van het spel ?",
+        "propositions": [
+          "Antigaming",
+          "Buitenspel",
+          "Uitgave",
+          "Middenspel"
+        ],
+        "réponse": "Antigaming",
+        "anecdote": "De voetbalwedstrijd die anti-gaming het beste illustreert is de beschamende wedstrijd tussen Duitsland en Oostenrijk tijdens de groepsfase van het WK 1982."
+      },
+      {
+        "id": 8,
+        "question": "Welke bevoorrechte ruimte is gereserveerd voor supporters tijdens evenementen ?",
+        "propositions": [
+          "Fanzone",
+          "Waaier vierkant",
+          "Fangroep",
+          "Fanhuis"
+        ],
+        "réponse": "Fanzone",
+        "anecdote": "Oorspronkelijk werd deze term veelvuldig gebruikt in 1 waar mensen voorafgaand aan een Grand Prix konden genieten van entertainment."
+      },
+      {
+        "id": 9,
+        "question": "Welke voorwaartse beweging in de sport anticipeert op toestemming om te bewegen ?",
+        "propositions": [
+          "Valse start",
+          "Buitenspel",
+          "Verzenden",
+          "Gedempt"
+        ],
+        "réponse": "Valse start",
+        "anecdote": "Afhankelijk van de sport kan een valse start resulteren in diskwalificatie, een waarschuwing of een straf voor de atleet en zijn team."
+      },
+      {
+        "id": 10,
+        "question": "Wat is wet 11 van het voetbal die wordt bestraft met een indirecte vrije trap ?",
+        "propositions": [
+          "Buitenspel",
+          "Vrije trap",
+          "Hoek",
+          "Straf"
+        ],
+        "réponse": "Buitenspel",
+        "anecdote": "Een speler die zich in buitenspelpositie bevindt, mag alleen worden bestraft als de speler actief aan het spel begint deel te nemen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke draft is aanwezig in alle Noord-Amerikaanse teamsporten ?",
+        "propositions": [
+          "Veeg",
+          "Werf",
+          "Ontwerp",
+          "Rijden"
+        ],
+        "réponse": "Ontwerp",
+        "anecdote": "Vergelijkbaar met een spelersbeurs selecteren de teams atleten uit de universiteit of soms uit een andere competitie."
+      },
+      {
+        "id": 12,
+        "question": "Welke term is in de eliminatiefase meestal synoniem met groep ?",
+        "propositions": [
+          "Kip",
+          "Haan",
+          "Pauw",
+          "Turkije"
+        ],
+        "réponse": "Kip",
+        "anecdote": "De term zou zijn overgenomen door paardenrenkringen voordat het een bekend woord werd voor rugby- en voetbalspelers."
+      },
+      {
+        "id": 13,
+        "question": "Wie is in het kader van de dopingcontrole verantwoordelijk voor het toezicht op een sporter ?",
+        "propositions": [
+          "Vormgever",
+          "Coach",
+          "Begeleider",
+          "Officieel"
+        ],
+        "réponse": "Begeleider",
+        "anecdote": "Bij wielerwedstrijden wordt het logo met de regenboogstrepen van de International Cycling Union (UCI) op de kleding aangebracht."
+      },
+      {
+        "id": 14,
+        "question": "Welke term definieert een sportieve ontmoeting tussen twee teams uit dezelfde stad ?",
+        "propositions": [
+          "Ultr",
+          "derby",
+          "Uitdaging",
+          "Concurrentie"
+        ],
+        "réponse": "derby",
+        "anecdote": "Het komt voor dat de reikwijdte van deze bijeenkomsten enthousiasme opwekt dat verder gaat dan het kader van de sport, vanwege lokaal chauvinisme."
+      },
+      {
+        "id": 15,
+        "question": "Welke oefening wordt gebruikt om de buik- en rugspieren te versterken ?",
+        "propositions": [
+          "Tractie",
+          "Hurken",
+          "Bekleding",
+          "Flexie"
+        ],
+        "réponse": "Bekleding",
+        "anecdote": "De belangrijkste vorm is de plank, die bestaat uit het positioneren van jezelf met je gezicht naar de grond, rustend op je tenen en onderarmen."
+      },
+      {
+        "id": 16,
+        "question": "Hoe heet de laatste in een sportrace of ranglijst ?",
+        "propositions": [
+          "Rode Lantaarn",
+          "Backpacker",
+          "Groep",
+          "Hoofdstuk"
+        ],
+        "réponse": "Rode Lantaarn",
+        "anecdote": "Deze uitdrukking, die vaak in de wielersport wordt gebruikt, verwijst naar het rode licht van het laatste voertuig van een spoorwegkonvooi."
+      },
+      {
+        "id": 17,
+        "question": "Welke golf- of menigtebeweging lijkt op deining ?",
+        "propositions": [
+          "Olivia",
+          "Olo",
+          "Ola",
+          "Olé"
+        ],
+        "réponse": "Ola",
+        "anecdote": "Het komt vooral voor in stadions tijdens sportevenementen, maar ook bij grote bijeenkomsten."
+      },
+      {
+        "id": 18,
+        "question": "Welke concurrerende atleet zou ondanks de kansen kunnen winnen ?",
+        "propositions": [
+          "Uitdager",
+          "Bestel",
+          "Pons",
+          "Buitenstaander"
+        ],
+        "réponse": "Buitenstaander",
+        "anecdote": "Het beeld van Duimpje wordt wel eens gebruikt als synoniem voor buitenstaander : zo'n team is het Duimpje van de competitie."
+      },
+      {
+        "id": 19,
+        "question": "Welke wedstrijd spelen de verliezers van de halve finales van bepaalde toernooien ?",
+        "propositions": [
+          "Valse finale",
+          "Kleine finale",
+          "Laatste finale",
+          "Korte finale"
+        ],
+        "réponse": "Kleine finale",
+        "anecdote": "Hiermee kun je bepalen wie de derde en vierde plaats bezetten (respectievelijk de winnaar en verliezer van deze finale)."
+      },
+      {
+        "id": 20,
+        "question": "Welke korte onderbreking van het spel zorgt ervoor dat u bij bepaalde teamsporten kunt herstellen ?",
+        "propositions": [
+          "Hoogtepunten",
+          "Time-out",
+          "Korte tijd",
+          "Fulltime"
+        ],
+        "réponse": "Time-out",
+        "anecdote": "In de NBA staat een specifieke regel toe dat de speler die de bal heeft, mogelijk het spel stopt om een \u200b\u200btime-out te starten."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat is het effect van het modereren van een zet om controle te krijgen ?",
+        "propositions": [
+          "Lob",
+          "Aas",
+          "Smash",
+          "Gedempt"
+        ],
+        "réponse": "Gedempt",
+        "anecdote": "De dropshot is een technisch schot dat het spel vertraagt, een ritmebreuk creëert en dient om de tegenstander vooruit te helpen."
+      },
+      {
+        "id": 22,
+        "question": "Welke uitgebreide infrastructuur brengt apparatuur voor sport samen ?",
+        "propositions": [
+          "Complex",
+          "Sportschool",
+          "Centrum",
+          "Kamer"
+        ],
+        "réponse": "Complex",
+        "anecdote": "Sportuitrusting is een ruimtelijke opstelling of constructie die de beoefening van een of meer sporten mogelijk maakt."
+      },
+      {
+        "id": 23,
+        "question": "Welke term verwijst naar het doen van verschillende routes tijdens het klimmen of in de bergen ?",
+        "propositions": [
+          "Optocht",
+          "Circuit",
+          "Serie",
+          "Sequentie"
+        ],
+        "réponse": "Sequentie",
+        "anecdote": "Sommige mensen ketenen routes om zich voor te bereiden op grotere moeilijkheden, maar vaak is het doel om in deze reeksen te slagen."
+      },
+      {
+        "id": 24,
+        "question": "Welke categorie omvat in de atletiek de langeafstands- en middellangeafstandsraces ?",
+        "propositions": [
+          "Gecombineerd",
+          "relais",
+          "Uithoudingsvermogen",
+          "Lopen"
+        ],
+        "réponse": "Uithoudingsvermogen",
+        "anecdote": "In de autosport is uithoudingsvermogen een vorm van competitie bedoeld om de regelmaat van voertuigen over een bepaalde afstand te testen."
+      },
+      {
+        "id": 25,
+        "question": "Wat is de essentiële methode om punten te scoren in het American football ?",
+        "propositions": [
+          "Vasthouden",
+          "Blitz",
+          "Snap",
+          "Touchdown"
+        ],
+        "réponse": "Touchdown",
+        "anecdote": "Een touchdown (ook wel TD genoemd) wordt gescoord wanneer een van de teams erin slaagt de doellijn van de tegenstander met de bal te overschrijden."
+      },
+      {
+        "id": 26,
+        "question": "Welk sportief nadeel kan een concurrent soms worden opgelegd ?",
+        "propositions": [
+          "Reserveren",
+          "Straf",
+          "Barrière",
+          "Handicap"
+        ],
+        "réponse": "Handicap",
+        "anecdote": "Om spelers van verschillende niveaus te laten concurreren, wordt bij het spel go en sh ?gi een handicapsysteem gebruikt."
+      },
+      {
+        "id": 27,
+        "question": "Welke term verwijst naar het beoefenen van sporten buiten de natuurlijke buitenomgeving ?",
+        "propositions": [
+          "Gecontroleerd",
+          "Binnen",
+          "Oversteken",
+          "Intern"
+        ],
+        "réponse": "Binnen",
+        "anecdote": "Indoor is ook een Engelse term die modelvliegtuigen aanduidt die in een gesloten ruimte zoals een gymzaal opereren."
+      },
+      {
+        "id": 28,
+        "question": "In welke periode presteren kampioenen bij basketbal ?",
+        "propositions": [
+          "Cadeautijd",
+          "Perfecte tijd",
+          "Bekertijd",
+          "Geld tijd"
+        ],
+        "réponse": "Geld tijd",
+        "anecdote": "De uitdrukking werd in Frankrijk geïntroduceerd door George Eddy, Frans-Amerikaanse commentator voor Canal+ over NBA-wedstrijden."
+      },
+      {
+        "id": 29,
+        "question": "Welk proces wordt gebruikt als het blote oog bij aankomst niet voldoende is ?",
+        "propositions": [
+          "Haas",
+          "Getuige",
+          "Startblok",
+          "Fotofinish"
+        ],
+        "réponse": "Fotofinish",
+        "anecdote": "Wanneer het verschil niet met het blote oog waarneembaar is, maken we heel snel achter elkaar een serie foto's afgedrukt."
+      },
+      {
+        "id": 30,
+        "question": "Welk voorwerp geven teamgenoten aan elkaar door tijdens een estafetteloop ?",
+        "propositions": [
+          "Jurylid",
+          "Getuige",
+          "Rechter",
+          "Advocaat"
+        ],
+        "réponse": "Getuige",
+        "anecdote": "De indicator is een gladde buis van ongeveer 50 gram, met een ronde doorsnede, gemaakt van metaal of een ander stijf materiaal."
+      }
+    ]
+    }
+  }
+}

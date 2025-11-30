@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-08-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Arts",
+      "nom": "Métiers artistiques",
+      "slogan": "La passion au bout des doigts"
+    },
+    "en": {
+      "catégorie": "Arts",
+      "nom": "Artistic professions",
+      "slogan": "Passion at your fingertips"
+    },
+    "es": {
+      "catégorie": "Letras",
+      "nom": "Profesiones artisticas",
+      "slogan": "Pasión a tu alcance"
+    },
+    "it": {
+      "catégorie": "Arts",
+      "nom": "Professioni artistiche",
+      "slogan": "Passione a portata di mano"
+    },
+    "de": {
+      "catégorie": "Kunst",
+      "nom": "Künstlerische Berufe",
+      "slogan": "Leidenschaft zum Anfassen"
+    },
+    "nl": {
+      "catégorie": "Kunst",
+      "nom": "Artistieke beroepen",
+      "slogan": "Passie binnen handbereik"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qui est responsable, sur le plan artistique, de la création d'une affiche ?",
+        "propositions": [
+          "Cartonnier",
+          "Designer",
+          "Affichiste",
+          "Ciseleur"
+        ],
+        "réponse": "Affichiste",
+        "anecdote": "En France, des peintres renommés comme Henri de Toulouse-Lautrec ne dédaignent pas de travailler sur des affiches."
+      },
+      {
+        "id": 2,
+        "question": "Quel décorateur peut être amené à poser des revêtements muraux ?",
+        "propositions": [
+          "Restaurateur",
+          "Fondeur",
+          "Peintre",
+          "Doreur"
+        ],
+        "réponse": "Peintre",
+        "anecdote": "Il peut travailler pour des particuliers, des entreprises ou encore des collectivités et ce dans n'importe quel type d'architecture."
+      },
+      {
+        "id": 3,
+        "question": "Quel spécialiste est chargé de la décoration de l'espace scénique au théâtre ?",
+        "propositions": [
+          "Décorateur",
+          "Taillandier",
+          "Encadreur",
+          "Mosaïste"
+        ],
+        "réponse": "Décorateur",
+        "anecdote": "Le décorateur doit, lorsqu'il imagine un décor, concilier les exigences du metteur en scène avec sa propre conception d'artiste."
+      },
+      {
+        "id": 4,
+        "question": "Hormis le scénariste, quel est le métier d'un créateur de bande dessinée ?",
+        "propositions": [
+          "Mouleur",
+          "Copiste",
+          "Relieur",
+          "Dessinateur"
+        ],
+        "réponse": "Dessinateur",
+        "anecdote": "Le dessin résultant de son travail peut aussi être artistique, documentaire, technique, ou une base de travail commune."
+      },
+      {
+        "id": 5,
+        "question": "Quel professionnel de l'art réalise des clichés à l'aide d'un appareil ?",
+        "propositions": [
+          "Graphiste",
+          "Fileur",
+          "Photographe",
+          "Bombeur"
+        ],
+        "réponse": "Photographe",
+        "anecdote": "La diversité des pratiques photographiques amène à distinguer les photographes par catégories, les classifications étant nombreuses."
+      },
+      {
+        "id": 6,
+        "question": "Qui sait fabriquer un couteau à la main, de la lame jusqu'au manche ?",
+        "propositions": [
+          "Moireur",
+          "Archetier",
+          "Canneur",
+          "Coutelier"
+        ],
+        "réponse": "Coutelier",
+        "anecdote": "Actuellement, le marché de la coutellerie reste dynamique grâce aux collectionneurs, sensibles à la qualité de l'acier utilisé."
+      },
+      {
+        "id": 7,
+        "question": "Quel artisan réalise des portes, des fenêtres et des parquets ?",
+        "propositions": [
+          "Chapelier",
+          "Orfèvre",
+          "Campaniste",
+          "Menuisier"
+        ],
+        "réponse": "Menuisier",
+        "anecdote": "Il fournit avant tout une prestation sur mesure en fabrication, mais aussi en agencement en bois massif et en petite serrurerie."
+      },
+      {
+        "id": 8,
+        "question": "Quel spécialiste manipule de la poudre d'or ou de la peinture dorée ?",
+        "propositions": [
+          "Encadreur",
+          "Coutelier",
+          "Doreur",
+          "Joaillier"
+        ],
+        "réponse": "Doreur",
+        "anecdote": "L'approche de la restauration de bois doré se doit d'être une intervention minimaliste et respectueuse des styles."
+      },
+      {
+        "id": 9,
+        "question": "Qui est chargé de concevoir des solutions de communication visuelle ?",
+        "propositions": [
+          "Graphiste",
+          "Étalagiste",
+          "Mosaïste",
+          "Copiste"
+        ],
+        "réponse": "Graphiste",
+        "anecdote": "C'est donc un médiateur qui travaille sur le sens des messages, à l'aide des formes graphiques qu'il utilise sur tout type de supports."
+      },
+      {
+        "id": 10,
+        "question": "Comment appelle-t-on un auteur de manga, bande dessinée japonaise ?",
+        "propositions": [
+          "Mangarte",
+          "Mangiste",
+          "Mangaka",
+          "Mangeur"
+        ],
+        "réponse": "Mangaka",
+        "anecdote": "Un mangaka est soumis à des rythmes de parution très rapides et ne bénéficie pas toujours d'une liberté totale sur son oeuvre."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel professionnel harmonise les critères esthétiques d'un produit ?",
+        "propositions": [
+          "Copiste",
+          "Décorateur",
+          "Designer",
+          "Fresquiste"
+        ],
+        "réponse": "Designer",
+        "anecdote": "Il travaille en collaboration avec des spécialistes d'autres disciplines, pour analyser et résoudre les problèmes soulevés par un projet."
+      },
+      {
+        "id": 12,
+        "question": "Quel artisan conçoit et fabrique des objets utilitaires en argile ?",
+        "propositions": [
+          "Orfèvre",
+          "Potier",
+          "Ébéniste",
+          "Rocailleur"
+        ],
+        "réponse": "Potier",
+        "anecdote": "Le potier fabrique ses articles soit à l'aide d'un tour ou à la main, en utilisant différentes qualités de terre et en variant les températures."
+      },
+      {
+        "id": 13,
+        "question": "Sur un tournage, qui gère le choix des bijoux, sacs, gants et chapeaux ?",
+        "propositions": [
+          "Brossier",
+          "Corsetier",
+          "Costumier",
+          "Boutonnier"
+        ],
+        "réponse": "Costumier",
+        "anecdote": "Le travail des costumiers est récompensé par différents prix dont l'Oscar, le César ou le Magritte de la meilleure création de costumes."
+      },
+      {
+        "id": 14,
+        "question": "Qui est chargé de conseiller les clients pour des accessoires de tête ?",
+        "propositions": [
+          "Coutelier",
+          "Gantier",
+          "Cirier",
+          "Chapelier"
+        ],
+        "réponse": "Chapelier",
+        "anecdote": "Exerçant dans une chapellerie, son travail d'atelier consiste à mettre à la taille, assortir et garnir les chapeaux, rafraîchir et réparer."
+      },
+      {
+        "id": 15,
+        "question": "Quel artisan transforme des bois pour créer du mobilier décoratif ?",
+        "propositions": [
+          "Vannier",
+          "Ébéniste",
+          "Vernisseur",
+          "Dinandier"
+        ],
+        "réponse": "Ébéniste",
+        "anecdote": "Les bureaux et meubles recouverts d'écailles, de marqueterie, de laque, de vernis, de porcelaine sont des meubles d'ébénisterie."
+      },
+      {
+        "id": 16,
+        "question": "Qui fabrique des objets de parure mettant en valeur des pierres précieuses ?",
+        "propositions": [
+          "Santonnier",
+          "Plumassier",
+          "Taillandier",
+          "Joaillier"
+        ],
+        "réponse": "Joaillier",
+        "anecdote": "Le plus souvent, cette mise en valeur est réalisée dans un bijou : ce bijou en soi pourra par la suite être lui aussi qualifié de joyau."
+      },
+      {
+        "id": 17,
+        "question": "Quel artisan confectionne des objets à l'aide d'osier ou de paille ?",
+        "propositions": [
+          "Laqueur",
+          "Canneur",
+          "Campaniste",
+          "Vannier"
+        ],
+        "réponse": "Vannier",
+        "anecdote": "Les savoir-faire vanniers en Bretagne du Carbasson sont inscrits à l'Inventaire du patrimoine culturel immatériel français depuis 2015."
+      },
+      {
+        "id": 18,
+        "question": "Quel professionnel est chargé de la reproduction de documents écrits ?",
+        "propositions": [
+          "Graphiste",
+          "Chaîniste",
+          "Lunetier",
+          "Copiste"
+        ],
+        "réponse": "Copiste",
+        "anecdote": "Ce métier est né de la nécessité de produire des copies de documents administratifs et de textes destinés à l'enseignement."
+      },
+      {
+        "id": 19,
+        "question": "Quel artisan et marchand fabrique et vend des objets de métal précieux ?",
+        "propositions": [
+          "Marbrier",
+          "Bronzier",
+          "Orfèvre",
+          "Santonnier"
+        ],
+        "réponse": "Orfèvre",
+        "anecdote": "Ce métier d'art mineur, proche de celui de bijoutier, existe partout dans le monde et son histoire remonte à la Préhistoire."
+      },
+      {
+        "id": 20,
+        "question": "Qui est jugé concepteur et assistant technique des arts graphiques ?",
+        "propositions": [
+          "Mangeur",
+          "Illustrateur",
+          "Chaîniste",
+          "Moireur"
+        ],
+        "réponse": "Illustrateur",
+        "anecdote": "Le métier d'illustrateur est généralement méconnu du grand public, bien que l'illustration soit un art essentiellement populaire."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quelle personne est chargée de mettre en valeur des marchandises ?",
+        "propositions": [
+          "Pareur",
+          "Étalagiste",
+          "Coupeur",
+          "Encadreur"
+        ],
+        "réponse": "Étalagiste",
+        "anecdote": "Le plus souvent dans des vitrines, le travail des étalagistes permet de mettre en avant des produits afin de faciliter leur vente."
+      },
+      {
+        "id": 22,
+        "question": "Qui se consacre à la conservation architecturale ou muséographique ?",
+        "propositions": [
+          "Plumassier",
+          "Restaurateur",
+          "Laqueur",
+          "Métallier"
+        ],
+        "réponse": "Restaurateur",
+        "anecdote": "Ce travail, qui se caractérise par le respect de l'original et de son histoire, utilise des méthodes douces et réversibles."
+      },
+      {
+        "id": 23,
+        "question": "Quels artisans grenoblois utilisaient une main chauffante pour exercer ?",
+        "propositions": [
+          "Brossier",
+          "Gantier",
+          "Veloutier",
+          "Chaîniste"
+        ],
+        "réponse": "Gantier",
+        "anecdote": "En France, les corporations de gantiers s'installèrent surtout dans des régions d'élevage intensif de chevreaux, propices au tannage."
+      },
+      {
+        "id": 24,
+        "question": "Qui prépare les animaux morts pour leur donner l'apparence de la vie ?",
+        "propositions": [
+          "Dinandier",
+          "Tanneur",
+          "Taxidermiste",
+          "Sertisseur"
+        ],
+        "réponse": "Taxidermiste",
+        "anecdote": "Le principe de la taxidermie consiste à construire une structure ou squelette sur laquelle on reconstitue les formes de l'animal."
+      },
+      {
+        "id": 25,
+        "question": "Quel artisan travaillait autrefois à l'aide de fuseaux ou au crochet ?",
+        "propositions": [
+          "Fileur",
+          "Campaniste",
+          "Dentellier",
+          "Polisseur"
+        ],
+        "réponse": "Dentellier",
+        "anecdote": "Aujourd'hui, la mécanisation permet l'utilisation de machines qui rendent le travail du dentellier plus rapide et plus régulier."
+      },
+      {
+        "id": 26,
+        "question": "Quel artisan réalise de petits personnages en argile rouge de Provence ?",
+        "propositions": [
+          "Santonnier",
+          "Fresquiste",
+          "Briquetier",
+          "Lauzier"
+        ],
+        "réponse": "Santonnier",
+        "anecdote": "Si les santons sont longtemps restés de fragiles créations en argile crue, la cuisson de l'argile s'est imposée un peu partout de nos jour."
+      },
+      {
+        "id": 27,
+        "question": "De quelle profession Augustin Carrache fut-il l'un des plus grands ?",
+        "propositions": [
+          "Tisserand",
+          "Sérigraphe",
+          "Feutrier",
+          "Graveur"
+        ],
+        "réponse": "Graveur",
+        "anecdote": "Agostino Carracci est surtout connu pour la série de gravures « I Modi », exécutées par le français Jacques Joseph Coiny."
+      },
+      {
+        "id": 28,
+        "question": "Quel artisan d'art fabrique des casseroles à partir d'une feuille de cuivre ?",
+        "propositions": [
+          "Canneur",
+          "Veloutier",
+          "Dinandier",
+          "Cornier"
+        ],
+        "réponse": "Dinandier",
+        "anecdote": "Ce nom vient de celui de la ville belge de Dinant, où la tradition du travail du cuivre remonte au XIIe siècle."
+      },
+      {
+        "id": 29,
+        "question": "Quelle personne fabrique et entretient des vasques de pierre ?",
+        "propositions": [
+          "Pipier",
+          "Malletier",
+          "Fontainier",
+          "Brossier"
+        ],
+        "réponse": "Fontainier",
+        "anecdote": "Aujourd'hui, le fontainier est également la personne chargée de restaurer les canalisations de plomb de fontaines anciennes."
+      },
+      {
+        "id": 30,
+        "question": "Quel artisan couvreur réalise des toits en paille de seigle ou de blé ?",
+        "propositions": [
+          "Chaumier",
+          "Archetier",
+          "Cornier",
+          "Rocailleur"
+        ],
+        "réponse": "Chaumier",
+        "anecdote": "Les savoir-faire chaumiers dans le Golfe du Morbihan sont inscrits à l'inventaire du patrimoine culturel immatériel en France en 2020."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who is artistically responsible for creating a poster ?",
+        "propositions": [
+          "Engraver",
+          "Designer",
+          "Poster artist",
+          "Cartonnier"
+        ],
+        "réponse": "Poster artist",
+        "anecdote": "In France, renowned painters like Henri de Toulouse-Lautrec did not disdain working on posters."
+      },
+      {
+        "id": 2,
+        "question": "Which decorator can install wall coverings ?",
+        "propositions": [
+          "Restaurateur",
+          "Gilder",
+          "Painter",
+          "Founder"
+        ],
+        "réponse": "Painter",
+        "anecdote": "He can work for individuals, companies or communities and in any type of architecture."
+      },
+      {
+        "id": 3,
+        "question": "Which specialist is responsible for decorating the stage space in the theater ?",
+        "propositions": [
+          "Framer",
+          "Decorator",
+          "Taillandier",
+          "Mosaicist"
+        ],
+        "réponse": "Decorator",
+        "anecdote": "The decorator must, when he imagines a set, reconcile the requirements of the director with his own conception as an artist."
+      },
+      {
+        "id": 4,
+        "question": "Apart from the screenwriter, what is the job of a comic book creator ?",
+        "propositions": [
+          "Copyist",
+          "Bookbinder",
+          "Draftsman",
+          "Moulder"
+        ],
+        "réponse": "Draftsman",
+        "anecdote": "The drawing resulting from his work can also be artistic, documentary, technical, or a common working basis."
+      },
+      {
+        "id": 5,
+        "question": "Which art professional takes pictures using a camera ?",
+        "propositions": [
+          "Photographer",
+          "Spinner",
+          "Graphic designer",
+          "Bomber"
+        ],
+        "réponse": "Photographer",
+        "anecdote": "The diversity of photographic practices leads to distinguish photographers by categories, the classifications being numerous."
+      },
+      {
+        "id": 6,
+        "question": "Who knows how to make a knife by hand, from the blade to the handle ?",
+        "propositions": [
+          "Baitboat",
+          "moire",
+          "bow maker",
+          "Cutler"
+        ],
+        "réponse": "Cutler",
+        "anecdote": "Currently, the cutlery market remains dynamic thanks to collectors, sensitive to the quality of the steel used."
+      },
+      {
+        "id": 7,
+        "question": "Which craftsman makes doors, windows and floors ?",
+        "propositions": [
+          "Hatter",
+          "Goldsmith",
+          "Carpenter",
+          "Campanist"
+        ],
+        "réponse": "Carpenter",
+        "anecdote": "Above all, it provides a tailor-made service in manufacturing, but also in solid wood fittings and small locksmithing."
+      },
+      {
+        "id": 8,
+        "question": "Which specialist handles gold dust or gold paint ?",
+        "propositions": [
+          "Jeweler",
+          "Cutler",
+          "Gilder",
+          "Framer"
+        ],
+        "réponse": "Gilder",
+        "anecdote": "The approach to restoring gilded wood must be a minimalist intervention that respects styles."
+      },
+      {
+        "id": 9,
+        "question": "Who is responsible for designing visual communication solutions ?",
+        "propositions": [
+          "Graphic designer",
+          "Window dresser",
+          "Copyist",
+          "Mosaicist"
+        ],
+        "réponse": "Graphic designer",
+        "anecdote": "It is therefore a mediator who works on the meaning of the messages, using the graphic forms that he uses on all types of media."
+      },
+      {
+        "id": 10,
+        "question": "What do you call an author of manga, Japanese comics ?",
+        "propositions": [
+          "Eater",
+          "Eater",
+          "manga",
+          "Mangart"
+        ],
+        "réponse": "manga",
+        "anecdote": "A mangaka is subject to very fast publication rates and does not always enjoy complete freedom over his work."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which professional harmonizes the aesthetic criteria of a product ?",
+        "propositions": [
+          "Frescoist",
+          "Designer",
+          "Copyist",
+          "Decorator"
+        ],
+        "réponse": "Designer",
+        "anecdote": "He works in collaboration with specialists from other disciplines to analyze and solve the problems raised by a project."
+      },
+      {
+        "id": 12,
+        "question": "Which craftsman designs and manufactures utilitarian clay objects ?",
+        "propositions": [
+          "Rocker",
+          "Cabinetmaker",
+          "Goldsmith",
+          "Potter"
+        ],
+        "réponse": "Potter",
+        "anecdote": "The potter makes his articles either using a wheel or by hand, using different qualities of earth and varying temperatures."
+      },
+      {
+        "id": 13,
+        "question": "On a shoot, who manages the choice of jewelry, bags, gloves and hats ?",
+        "propositions": [
+          "Brusher",
+          "Costumer",
+          "Corset",
+          "Boutonniere"
+        ],
+        "réponse": "Costumer",
+        "anecdote": "The work of the costumers is rewarded with various prizes including the Oscar, the César or the Magritte for the best costume design."
+      },
+      {
+        "id": 14,
+        "question": "Who is responsible for advising customers for head accessories ?",
+        "propositions": [
+          "Hatter",
+          "Apple tree",
+          "Glover",
+          "Cutler"
+        ],
+        "réponse": "Hatter",
+        "anecdote": "Working in a millinery, his work in the workshop consists of sizing, matching and trimming hats, refreshing and repairing."
+      },
+      {
+        "id": 15,
+        "question": "What craftsman transforms wood to create decorative furniture ?",
+        "propositions": [
+          "Cabinetmaker",
+          "Dinandier",
+          "basket maker",
+          "Varnisher"
+        ],
+        "réponse": "Cabinetmaker",
+        "anecdote": "Desks and furniture covered with scales, marquetry, lacquer, varnish, porcelain are cabinet-making furniture."
+      },
+      {
+        "id": 16,
+        "question": "Who makes adornment items showcasing gemstones ?",
+        "propositions": [
+          "feather worker",
+          "Taillandier",
+          "Jeweler",
+          "santonnier"
+        ],
+        "réponse": "Jeweler",
+        "anecdote": "Most often, this development is carried out in a jewel : this jewel in itself can subsequently be qualified as a jewel."
+      },
+      {
+        "id": 17,
+        "question": "Which craftsman makes objects using wicker or straw ?",
+        "propositions": [
+          "lacquerer",
+          "Campanist",
+          "basket maker",
+          "Baitboat"
+        ],
+        "réponse": "basket maker",
+        "anecdote": "The basket weaving skills in Brittany of Carbasson have been listed in the Inventory of French Intangible Cultural Heritage since 2015."
+      },
+      {
+        "id": 18,
+        "question": "Which professional is responsible for the reproduction of written documents ?",
+        "propositions": [
+          "chain maker",
+          "Graphic designer",
+          "eyewear",
+          "Copyist"
+        ],
+        "réponse": "Copyist",
+        "anecdote": "This profession was born from the need to produce copies of administrative documents and texts intended for teaching."
+      },
+      {
+        "id": 19,
+        "question": "What craftsman and merchant makes and sells precious metal objects ?",
+        "propositions": [
+          "santonnier",
+          "Marble worker",
+          "bronzer",
+          "Goldsmith"
+        ],
+        "réponse": "Goldsmith",
+        "anecdote": "This minor craft, close to that of jewellery, exists all over the world and its history dates back to prehistoric times."
+      },
+      {
+        "id": 20,
+        "question": "Who is judged graphic arts designer and technical assistant ?",
+        "propositions": [
+          "chain maker",
+          "Eater",
+          "Illustrator",
+          "moire"
+        ],
+        "réponse": "Illustrator",
+        "anecdote": "The profession of illustrator is generally unknown to the general public, although illustration is essentially a popular art."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Who is responsible for showcasing goods ?",
+        "propositions": [
+          "Spotter",
+          "Framer",
+          "Window dresser",
+          "Cutter"
+        ],
+        "réponse": "Window dresser",
+        "anecdote": "Most often in shop windows, the work of window dressers makes it possible to highlight products in order to facilitate their sale."
+      },
+      {
+        "id": 22,
+        "question": "Who is dedicated to architectural or museographic conservation ?",
+        "propositions": [
+          "Metalworker",
+          "Restaurateur",
+          "lacquerer",
+          "feather worker"
+        ],
+        "réponse": "Restaurateur",
+        "anecdote": "This work, which is characterized by respect for the original and its history, uses soft and reversible methods."
+      },
+      {
+        "id": 23,
+        "question": "Which Grenoble craftsmen used a heated hand to exercise ?",
+        "propositions": [
+          "Brusher",
+          "Glover",
+          "chain maker",
+          "Velouter"
+        ],
+        "réponse": "Glover",
+        "anecdote": "In France, the guilds of glove-makers settled mainly in regions where goats were intensively reared and suitable for tanning."
+      },
+      {
+        "id": 24,
+        "question": "Who prepares dead animals to give them the appearance of life ?",
+        "propositions": [
+          "Setter",
+          "Dinandier",
+          "Taxidermist",
+          "Tanner"
+        ],
+        "réponse": "Taxidermist",
+        "anecdote": "The principle of taxidermy consists in building a structure or skeleton on which the shapes of the animal are reconstructed."
+      },
+      {
+        "id": 25,
+        "question": "What craftsman once worked with bobbins or crochet ?",
+        "propositions": [
+          "Campanist",
+          "Spinner",
+          "Polisher",
+          "Lacemaker"
+        ],
+        "réponse": "Lacemaker",
+        "anecdote": "Today, mechanization allows the use of machines that make the work of the lacemaker faster and more regular."
+      },
+      {
+        "id": 26,
+        "question": "What craftsman makes small figures in red clay from Provence ?",
+        "propositions": [
+          "Frescoist",
+          "Brickmaker",
+          "Lauzer",
+          "santonnier"
+        ],
+        "réponse": "santonnier",
+        "anecdote": "If the santons have long remained fragile creations in raw clay, the firing of clay has imposed itself almost everywhere nowadays."
+      },
+      {
+        "id": 27,
+        "question": "Of what profession was Augustin Carracci one of the greatest ?",
+        "propositions": [
+          "Engraver",
+          "Weaver",
+          "Silkscreen",
+          "Felt"
+        ],
+        "réponse": "Engraver",
+        "anecdote": "Agostino Carracci is best known for the « I Modi » series of etchings, executed by Frenchman Jacques Joseph Coiny."
+      },
+      {
+        "id": 28,
+        "question": "What craftsman makes pans out of copper foil ?",
+        "propositions": [
+          "Corner",
+          "Baitboat",
+          "Dinandier",
+          "Velouter"
+        ],
+        "réponse": "Dinandier",
+        "anecdote": "This name comes from that of the Belgian town of Dinant, where the tradition of copper working dates back to the 12th century."
+      },
+      {
+        "id": 29,
+        "question": "Who makes and maintains stone basins ?",
+        "propositions": [
+          "Trunk maker",
+          "Brusher",
+          "pipe maker",
+          "fountain worker"
+        ],
+        "réponse": "fountain worker",
+        "anecdote": "Today, the fountain engineer is also the person in charge of restoring the lead pipes of old fountains."
+      },
+      {
+        "id": 30,
+        "question": "Which roofing craftsman makes rye or wheat straw roofs ?",
+        "propositions": [
+          "bow maker",
+          "Corner",
+          "Thatcher",
+          "Rocker"
+        ],
+        "réponse": "Thatcher",
+        "anecdote": "Thatched cottage know-how in the Gulf of Morbihan is included in the inventory of intangible cultural heritage in France in 2020."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer ist künstlerisch für die Gestaltung eines Plakats verantwortlich ?",
+        "propositions": [
+          "Graveur",
+          "Plakatkünstler",
+          "Kartonier",
+          "Designer"
+        ],
+        "réponse": "Plakatkünstler",
+        "anecdote": "In Frankreich verachteten renommierte Maler wie Henri de Toulouse-Lautrec die Arbeit an Plakaten nicht."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Dekorateur kann Wandverkleidungen anbringen ?",
+        "propositions": [
+          "Gastronom",
+          "Maler",
+          "Vergolder",
+          "Gründer"
+        ],
+        "réponse": "Maler",
+        "anecdote": "Er kann für Einzelpersonen, Unternehmen oder Gemeinschaften und in jeder Art von Architektur arbeiten."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Spezialist ist für die Dekoration des Bühnenraums im Theater verantwortlich ?",
+        "propositions": [
+          "Taillandier",
+          "Framer",
+          "Mosaizist",
+          "Dekorateur"
+        ],
+        "réponse": "Dekorateur",
+        "anecdote": "Der Dekorateur muss bei der Vorstellung eines Bühnenbildes die Anforderungen des Regisseurs mit seiner eigenen Vorstellung als Künstler in Einklang bringen."
+      },
+      {
+        "id": 4,
+        "question": "Was ist neben dem Drehbuchautor die Aufgabe eines Comicautors ?",
+        "propositions": [
+          "Former",
+          "Zeichner",
+          "Buchbinder",
+          "Kopist"
+        ],
+        "réponse": "Zeichner",
+        "anecdote": "Die aus seiner Arbeit resultierende Zeichnung kann auch künstlerisch, dokumentarisch, technisch oder eine gemeinsame Arbeitsgrundlage sein."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Kunstprofi fotografiert mit einer Kamera ?",
+        "propositions": [
+          "Spinner",
+          "Bomber",
+          "Fotograf",
+          "Grafikdesigner"
+        ],
+        "réponse": "Fotograf",
+        "anecdote": "Die Vielfalt der fotografischen Praktiken führt dazu, dass Fotografen nach Kategorien unterschieden werden, wobei es zahlreiche Klassifizierungen gibt."
+      },
+      {
+        "id": 6,
+        "question": "Wer weiß, wie man ein Messer von der Klinge bis zum Griff von Hand herstellt ?",
+        "propositions": [
+          "Bogenmacher",
+          "Messerschmied",
+          "Futterboot",
+          "Moiré"
+        ],
+        "réponse": "Messerschmied",
+        "anecdote": "Derzeit bleibt der Markt für Besteck dank Sammlern, die auf die Qualität des verwendeten Stahls achten, dynamisch."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Handwerker stellt Türen, Fenster und Böden her ?",
+        "propositions": [
+          "Goldschmied",
+          "Campanist",
+          "Hutmacher",
+          "Zimmermann"
+        ],
+        "réponse": "Zimmermann",
+        "anecdote": "Sie bietet vor allem einen maßgeschneiderten Service in der Manufaktur, aber auch im Massivholzbeschlag und Kleinschlosserhandwerk."
+      },
+      {
+        "id": 8,
+        "question": "Welcher Fachmann kümmert sich um Goldstaub oder Goldfarbe ?",
+        "propositions": [
+          "Vergolder",
+          "Juwelier",
+          "Messerschmied",
+          "Framer"
+        ],
+        "réponse": "Vergolder",
+        "anecdote": "Der Ansatz zur Restaurierung von vergoldetem Holz muss ein minimalistischer Eingriff sein, der Stile respektiert."
+      },
+      {
+        "id": 9,
+        "question": "Wer ist für die Gestaltung visueller Kommunikationslösungen verantwortlich ?",
+        "propositions": [
+          "Schaufensterdekoration",
+          "Grafikdesigner",
+          "Kopist",
+          "Mosaizist"
+        ],
+        "réponse": "Grafikdesigner",
+        "anecdote": "Es handelt sich also um einen Vermittler, der an der Bedeutung der Botschaften arbeitet und dabei die grafischen Formen verwendet, die er in allen Arten von Medien verwendet."
+      },
+      {
+        "id": 10,
+        "question": "Wie nennt man einen Autor von Mangas, japanischen Comics ?",
+        "propositions": [
+          "Esser",
+          "Manga",
+          "Mangart",
+          "Esser"
+        ],
+        "réponse": "Manga",
+        "anecdote": "Ein Mangaka unterliegt sehr schnellen Veröffentlichungsraten und genießt nicht immer völlige Freiheit bei seiner Arbeit."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Fachmann harmoniert die ästhetischen Kriterien eines Produkts ?",
+        "propositions": [
+          "Freskomaler",
+          "Designer",
+          "Kopist",
+          "Dekorateur"
+        ],
+        "réponse": "Designer",
+        "anecdote": "Er arbeitet mit Spezialisten anderer Disziplinen zusammen, um die Probleme eines Projekts zu analysieren und zu lösen."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Handwerker entwirft und fertigt Gebrauchsgegenstände aus Ton ?",
+        "propositions": [
+          "Rocker",
+          "Goldschmied",
+          "Tischler",
+          "Töpfer"
+        ],
+        "réponse": "Töpfer",
+        "anecdote": "Der Töpfer stellt seine Artikel entweder mit der Drehscheibe oder von Hand her, wobei er verschiedene Erdqualitäten und unterschiedliche Temperaturen verwendet."
+      },
+      {
+        "id": 13,
+        "question": "Wer kümmert sich bei einem Shooting um die Auswahl von Schmuck, Taschen, Handschuhen und Hüten ?",
+        "propositions": [
+          "Bürsten",
+          "Kunde",
+          "Korsett",
+          "Boutonniere"
+        ],
+        "réponse": "Kunde",
+        "anecdote": "Die Arbeit der Kostüme wird mit verschiedenen Preisen belohnt, darunter dem Oscar, dem César oder dem Magritte für das beste Kostümdesign."
+      },
+      {
+        "id": 14,
+        "question": "Wer ist für die Kundenberatung bezüglich Kopfzubehör zuständig ?",
+        "propositions": [
+          "Messerschmied",
+          "Hutmacher",
+          "Glover",
+          "Apfelbaum"
+        ],
+        "réponse": "Hutmacher",
+        "anecdote": "Er arbeitet in einer Hutmacherei und besteht in der Werkstatt aus dem Anpassen, Zuschneiden und Beschneiden von Hüten sowie dem Auffrischen und Reparieren."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Handwerker verarbeitet Holz, um dekorative Möbel herzustellen ?",
+        "propositions": [
+          "Tischler",
+          "Lackierer",
+          "Dinandier",
+          "Korbmacher"
+        ],
+        "réponse": "Tischler",
+        "anecdote": "Schreibtische und Möbel, die mit Schuppen, Intarsien, Lack, Firnis und Porzellan bedeckt sind, sind Tischlermöbel."
+      },
+      {
+        "id": 16,
+        "question": "Wer stellt Schmuckstücke mit Edelsteinen her ?",
+        "propositions": [
+          "Juwelier",
+          "Federarbeiter",
+          "santonnier",
+          "Taillandier"
+        ],
+        "réponse": "Juwelier",
+        "anecdote": "Am häufigsten wird diese Entwicklung in einem Juwel durchgeführt : Dieses Juwel an sich kann anschließend als Juwel qualifiziert werden."
+      },
+      {
+        "id": 17,
+        "question": "Welcher Handwerker stellt Gegenstände aus Korbgeflecht oder Stroh her ?",
+        "propositions": [
+          "Futterboot",
+          "Lackierer",
+          "Korbmacher",
+          "Campanist"
+        ],
+        "réponse": "Korbmacher",
+        "anecdote": "Die Korbflechtkunst in der Bretagne von Carbasson ist seit 2015 im Inventar des französischen immateriellen Kulturerbes aufgeführt."
+      },
+      {
+        "id": 18,
+        "question": "Welcher Fachmann ist für die Vervielfältigung schriftlicher Dokumente verantwortlich ?",
+        "propositions": [
+          "Kopist",
+          "Brillen",
+          "Grafikdesigner",
+          "Kettenhersteller"
+        ],
+        "réponse": "Kopist",
+        "anecdote": "Dieser Beruf entstand aus der Notwendigkeit, Kopien von Verwaltungsdokumenten und Texten für den Unterricht anzufertigen."
+      },
+      {
+        "id": 19,
+        "question": "Welcher Handwerker und Händler stellt Edelmetallgegenstände her und verkauft sie ?",
+        "propositions": [
+          "Marmorarbeiter",
+          "santonnier",
+          "Bronzer",
+          "Goldschmied"
+        ],
+        "réponse": "Goldschmied",
+        "anecdote": "Dieses kleine Handwerk, das dem Schmuckhandwerk ähnelt, gibt es auf der ganzen Welt und seine Geschichte reicht bis in prähistorische Zeiten zurück."
+      },
+      {
+        "id": 20,
+        "question": "Wer wird als Grafikdesigner und technischer Assistent ausgezeichnet ?",
+        "propositions": [
+          "Kettenhersteller",
+          "Illustrator",
+          "Moiré",
+          "Esser"
+        ],
+        "réponse": "Illustrator",
+        "anecdote": "Der Beruf des Illustrators ist der breiten Öffentlichkeit im Allgemeinen unbekannt, obwohl Illustration grundsätzlich eine populäre Kunst ist."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wer ist für die Warenpräsentation verantwortlich ?",
+        "propositions": [
+          "Framer",
+          "Schneider",
+          "Spotter",
+          "Schaufensterdekoration"
+        ],
+        "réponse": "Schaufensterdekoration",
+        "anecdote": "Meistens ermöglicht die Arbeit von Schaufenstergestaltern in Schaufenstern die Hervorhebung von Produkten, um deren Verkauf zu erleichtern."
+      },
+      {
+        "id": 22,
+        "question": "Wer widmet sich der architektonischen oder museografischen Konservierung ?",
+        "propositions": [
+          "Lackierer",
+          "Metallarbeiter",
+          "Federarbeiter",
+          "Gastronom"
+        ],
+        "réponse": "Gastronom",
+        "anecdote": "Diese von Respekt vor dem Original und seiner Geschichte geprägte Arbeit bedient sich sanfter und umkehrbarer Methoden."
+      },
+      {
+        "id": 23,
+        "question": "Welche Grenoble-Handwerker nutzten für ihre Übungen eine erhitzte Hand ?",
+        "propositions": [
+          "Velouter",
+          "Kettenhersteller",
+          "Bürsten",
+          "Glover"
+        ],
+        "réponse": "Glover",
+        "anecdote": "In Frankreich siedelten sich die Handschuhmacherzünfte vor allem in Regionen an, in denen Ziegen intensiv gezüchtet wurden und zum Gerben geeignet waren."
+      },
+      {
+        "id": 24,
+        "question": "Wer bereitet tote Tiere vor, um ihnen den Anschein von Leben zu verleihen ?",
+        "propositions": [
+          "Gerber",
+          "Setzer",
+          "Dinandier",
+          "Tierpräparator"
+        ],
+        "réponse": "Tierpräparator",
+        "anecdote": "Das Prinzip der Tierpräparation besteht im Aufbau einer Struktur oder eines Skeletts, auf dem die Formen des Tieres nachgebildet werden."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Handwerker hat einst mit Spulen oder Häkeln gearbeitet ?",
+        "propositions": [
+          "Spitzenklöpplerin",
+          "Campanist",
+          "Polierer",
+          "Spinner"
+        ],
+        "réponse": "Spitzenklöpplerin",
+        "anecdote": "Heutzutage ermöglicht die Mechanisierung den Einsatz von Maschinen, die die Arbeit des Spitzenklöpplers schneller und regelmäßiger machen."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Handwerker stellt kleine Figuren aus rotem Ton aus der Provence her ?",
+        "propositions": [
+          "santonnier",
+          "Lauzer",
+          "Freskomaler",
+          "Ziegelmacher"
+        ],
+        "réponse": "santonnier",
+        "anecdote": "Während die Santons lange Zeit fragile Schöpfungen aus rohem Ton blieben, hat sich das Brennen von Ton heutzutage fast überall durchgesetzt."
+      },
+      {
+        "id": 27,
+        "question": "In welchem Beruf war Augustin Carracci einer der Größten ?",
+        "propositions": [
+          "Weber",
+          "Siebdruck",
+          "Filz",
+          "Graveur"
+        ],
+        "réponse": "Graveur",
+        "anecdote": "Agostino Carracci ist vor allem für die Radierungsserie « I Modi » bekannt, die vom Franzosen Jacques Joseph Coiny ausgeführt wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Handwerker stellt Pfannen aus Kupferfolie her ?",
+        "propositions": [
+          "Velouter",
+          "Ecke",
+          "Futterboot",
+          "Dinandier"
+        ],
+        "réponse": "Dinandier",
+        "anecdote": "Dieser Name stammt von der belgischen Stadt Dinant, wo die Tradition der Kupferverarbeitung bis ins 12. Jahrhundert zurückreicht."
+      },
+      {
+        "id": 29,
+        "question": "Wer stellt Steinbecken her und pflegt sie ?",
+        "propositions": [
+          "Pfeifenmacher",
+          "Kofferraumhersteller",
+          "Bürsten",
+          "Brunnenarbeiter"
+        ],
+        "réponse": "Brunnenarbeiter",
+        "anecdote": "Heute ist der Brunnenbauer auch für die Restaurierung der Bleirohre alter Brunnen zuständig."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Dachdecker fertigt Dächer aus Roggen- oder Weizenstroh ?",
+        "propositions": [
+          "Rocker",
+          "Ecke",
+          "Thatcher",
+          "Bogenmacher"
+        ],
+        "réponse": "Thatcher",
+        "anecdote": "Das Know-how der Reetdachhäuser im Golf von Morbihan wird 2020 in die Liste des immateriellen Kulturerbes Frankreichs aufgenommen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién es artísticamente responsable de crear un cartel ?",
+        "propositions": [
+          "Artista del cartel",
+          "Diseñador",
+          "grabador",
+          "Cartonero"
+        ],
+        "réponse": "Artista del cartel",
+        "anecdote": "En Francia, pintores de renombre como Henri de Toulouse-Lautrec no desdeñaron trabajar en carteles."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué decorador puede instalar revestimientos de paredes ?",
+        "propositions": [
+          "Restaurador",
+          "pintor",
+          "dorador",
+          "Fundador"
+        ],
+        "réponse": "pintor",
+        "anecdote": "Puede trabajar para particulares, empresas o comunidades y en cualquier tipo de arquitectura."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué especialista se encarga de decorar el espacio escénico en el teatro ?",
+        "propositions": [
+          "Decorador",
+          "Mosaicista",
+          "Enmarcador",
+          "tailandeses"
+        ],
+        "réponse": "Decorador",
+        "anecdote": "El decorador debe, cuando imagina un decorado, conciliar las exigencias del director con su propia concepción como artista."
+      },
+      {
+        "id": 4,
+        "question": "Aparte del guionista, ¿cuál es el trabajo de un creador de cómics ?",
+        "propositions": [
+          "Dibujante",
+          "copista",
+          "Encuadernador",
+          "Moldeador"
+        ],
+        "réponse": "Dibujante",
+        "anecdote": "El dibujo resultante de su trabajo también puede ser artístico, documental, técnico o una base común de trabajo."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué profesional del arte toma fotografías con una cámara ?",
+        "propositions": [
+          "Diseñador gráfico",
+          "Bombardero",
+          "Fotógrafo",
+          "hilandero"
+        ],
+        "réponse": "Fotógrafo",
+        "anecdote": "La diversidad de prácticas fotográficas lleva a distinguir a los fotógrafos por categorías, siendo numerosas las clasificaciones."
+      },
+      {
+        "id": 6,
+        "question": "¿Quién sabe hacer un cuchillo a mano, desde la hoja hasta el mango ?",
+        "propositions": [
+          "cuchillero",
+          "Cebo vivo",
+          "fabricante de arcos",
+          "muaré"
+        ],
+        "réponse": "cuchillero",
+        "anecdote": "Actualmente, el mercado de la cuchillería se mantiene dinámico gracias a los coleccionistas, sensibles a la calidad del acero utilizado."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué artesano hace puertas, ventanas y suelos ?",
+        "propositions": [
+          "Orfebre",
+          "Sombrerero",
+          "campanista",
+          "carpintero"
+        ],
+        "réponse": "carpintero",
+        "anecdote": "Sobre todo, ofrece un servicio a medida en la fabricación, pero también en herrajes de madera maciza y pequeña cerrajería."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué especialista maneja el polvo de oro o la pintura de oro ?",
+        "propositions": [
+          "joyero",
+          "Enmarcador",
+          "cuchillero",
+          "dorador"
+        ],
+        "réponse": "dorador",
+        "anecdote": "El planteamiento de la restauración de la madera dorada debe ser una intervención minimalista que respete los estilos."
+      },
+      {
+        "id": 9,
+        "question": "¿Quién es el responsable de diseñar las soluciones de comunicación visual ?",
+        "propositions": [
+          "Mosaicista",
+          "Diseñador gráfico",
+          "copista",
+          "Escaparatista"
+        ],
+        "réponse": "Diseñador gráfico",
+        "anecdote": "Es por tanto un mediador que trabaja sobre el sentido de los mensajes, utilizando las formas gráficas que utiliza en todo tipo de soportes."
+      },
+      {
+        "id": 10,
+        "question": "¿Cómo llamas a un autor de manga, cómics japoneses ?",
+        "propositions": [
+          "manga",
+          "Comedor",
+          "Comedor",
+          "mangas"
+        ],
+        "réponse": "mangas",
+        "anecdote": "Un mangaka está sujeto a tasas de publicación muy rápidas y no siempre disfruta de total libertad sobre su trabajo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué profesional armoniza los criterios estéticos de un producto ?",
+        "propositions": [
+          "Decorador",
+          "Frescoista",
+          "Diseñador",
+          "copista"
+        ],
+        "réponse": "Diseñador",
+        "anecdote": "Trabaja en colaboración con especialistas de otras disciplinas para analizar y resolver los problemas que plantea un proyecto."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué artesano diseña y fabrica objetos utilitarios de barro ?",
+        "propositions": [
+          "Orfebre",
+          "Alfarero",
+          "balancín",
+          "Ebanista"
+        ],
+        "réponse": "Alfarero",
+        "anecdote": "El alfarero elabora sus artículos a torno oa mano, utilizando diferentes calidades de tierra y temperaturas variables."
+      },
+      {
+        "id": 13,
+        "question": "En una sesión, ¿quién gestiona la elección de joyas, bolsos, guantes y sombreros ?",
+        "propositions": [
+          "Corsé",
+          "Cliente",
+          "Flor en el ojal",
+          "cepillo"
+        ],
+        "réponse": "Cliente",
+        "anecdote": "El trabajo del vestuario se ve recompensado con varios premios como el Óscar, el César o el Magritte al mejor diseño de vestuario."
+      },
+      {
+        "id": 14,
+        "question": "¿Quién es responsable de asesorar a los clientes sobre los accesorios para la cabeza ?",
+        "propositions": [
+          "guantero",
+          "Manzano",
+          "cuchillero",
+          "Sombrerero"
+        ],
+        "réponse": "Sombrerero",
+        "anecdote": "Trabajando en una sombrerería, su trabajo en el taller consiste en tallar, combinar y recortar sombreros, refrescar y reparar."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué artesano transforma la madera para crear muebles decorativos ?",
+        "propositions": [
+          "Ebanista",
+          "cestero",
+          "Barnizador",
+          "Comedor"
+        ],
+        "réponse": "Ebanista",
+        "anecdote": "Los escritorios y muebles cubiertos de escamas, marquetería, laca, barniz, porcelana son muebles de ebanistería."
+      },
+      {
+        "id": 16,
+        "question": "¿Quién fabrica artículos de adorno con piedras preciosas ?",
+        "propositions": [
+          "joyero",
+          "tailandeses",
+          "trabajador de la pluma",
+          "santonnier"
+        ],
+        "réponse": "joyero",
+        "anecdote": "La mayoría de las veces, este desarrollo se lleva a cabo en una joya : esta joya en sí misma puede calificarse posteriormente como una joya."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué artesano fabrica objetos con mimbre o paja ?",
+        "propositions": [
+          "campanista",
+          "cestero",
+          "Cebo vivo",
+          "laca"
+        ],
+        "réponse": "cestero",
+        "anecdote": "Las habilidades de cestería en Bretaña de Carbasson están incluidas en el Inventario del Patrimonio Cultural Inmaterial de Francia desde 2015."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué profesional es responsable de la reproducción de los documentos escritos ?",
+        "propositions": [
+          "Diseñador gráfico",
+          "gafas",
+          "copista",
+          "fabricante de cadenas"
+        ],
+        "réponse": "copista",
+        "anecdote": "Esta profesión nació de la necesidad de producir copias de documentos y textos administrativos destinados a la enseñanza."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué artesano y comerciante fabrica y vende objetos de metales preciosos ?",
+        "propositions": [
+          "Orfebre",
+          "Trabajador de mármol",
+          "bronceador",
+          "santonnier"
+        ],
+        "réponse": "Orfebre",
+        "anecdote": "Este oficio menor, cercano al de la joyería, existe en todo el mundo y su historia se remonta a tiempos prehistóricos."
+      },
+      {
+        "id": 20,
+        "question": "¿A quién se juzga diseñador de artes gráficas y asistente técnico ?",
+        "propositions": [
+          "fabricante de cadenas",
+          "muaré",
+          "Comedor",
+          "Ilustrador"
+        ],
+        "réponse": "Ilustrador",
+        "anecdote": "El oficio de ilustrador es generalmente desconocido para el gran público, aunque la ilustración es esencialmente un arte popular."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Quién es responsable de exhibir los productos ?",
+        "propositions": [
+          "Escaparatista",
+          "Enmarcador",
+          "Cortador",
+          "Observador"
+        ],
+        "réponse": "Escaparatista",
+        "anecdote": "Muy a menudo en los escaparates, el trabajo de los escaparatistas permite resaltar los productos para facilitar su venta."
+      },
+      {
+        "id": 22,
+        "question": "¿Quién se dedica a la conservación arquitectónica o museográfica ?",
+        "propositions": [
+          "Restaurador",
+          "laca",
+          "trabajador de la pluma",
+          "Obrero metalúrgico"
+        ],
+        "réponse": "Restaurador",
+        "anecdote": "Este trabajo, que se caracteriza por el respeto por el original y su historia, utiliza métodos suaves y reversibles."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué artesanos de Grenoble usaron una mano caliente para hacer ejercicio ?",
+        "propositions": [
+          "fabricante de cadenas",
+          "guantero",
+          "cepillo",
+          "Velouter"
+        ],
+        "réponse": "guantero",
+        "anecdote": "En Francia, los gremios de fabricantes de guantes se establecieron principalmente en regiones donde las cabras se criaban intensivamente y eran aptas para el curtido."
+      },
+      {
+        "id": 24,
+        "question": "¿Quién prepara a los animales muertos para darles apariencia de vida ?",
+        "propositions": [
+          "Taxidermista",
+          "Setter",
+          "curtidor",
+          "Comedor"
+        ],
+        "réponse": "Taxidermista",
+        "anecdote": "El principio de la taxidermia consiste en construir una estructura o esqueleto sobre el que se reconstruyen las formas del animal."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué artesano trabajó alguna vez con bolillos o crochet ?",
+        "propositions": [
+          "campanista",
+          "Pulidora",
+          "encajera",
+          "hilandero"
+        ],
+        "réponse": "encajera",
+        "anecdote": "Hoy en día, la mecanización permite el uso de máquinas que hacen más rápido y regular el trabajo de la encajera."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué artesano hace figuritas en arcilla roja de Provenza ?",
+        "propositions": [
+          "Frescoista",
+          "Ladrillero",
+          "Lauzer",
+          "santonnier"
+        ],
+        "réponse": "santonnier",
+        "anecdote": "Si los santones han permanecido durante mucho tiempo como frágiles creaciones en barro crudo, hoy en día la cocción del barro se ha impuesto en casi todas partes."
+      },
+      {
+        "id": 27,
+        "question": "¿De qué profesión fue Agustín Carracci uno de los más grandes ?",
+        "propositions": [
+          "grabador",
+          "Serigrafía",
+          "fieltro",
+          "tejedor"
+        ],
+        "réponse": "grabador",
+        "anecdote": "Agostino Carracci es mejor conocido por la serie de grabados « I Modi », realizada por el francés Jacques Joseph Coiny."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué artesano fabrica sartenes con papel de cobre ?",
+        "propositions": [
+          "Comedor",
+          "Esquina",
+          "Velouter",
+          "Cebo vivo"
+        ],
+        "réponse": "Comedor",
+        "anecdote": "Este nombre proviene del de la localidad belga de Dinant, donde la tradición del trabajo del cobre se remonta al siglo XII."
+      },
+      {
+        "id": 29,
+        "question": "¿Quién fabrica y mantiene las cuencas de piedra ?",
+        "propositions": [
+          "fabricante de pipas",
+          "cepillo",
+          "Fabricante de baúles",
+          "trabajador de la fuente"
+        ],
+        "réponse": "trabajador de la fuente",
+        "anecdote": "Hoy, el ingeniero de fuentes es también el encargado de restaurar los caños de plomo de las antiguas fuentes."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué artesano de techos hace techos de paja de centeno o de trigo ?",
+        "propositions": [
+          "fabricante de arcos",
+          "Thatcher",
+          "Esquina",
+          "balancín"
+        ],
+        "réponse": "Thatcher",
+        "anecdote": "El saber hacer de las cabañas con techo de paja en el golfo de Morbihan se incluye en el inventario del patrimonio cultural inmaterial de Francia en 2020."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi è artisticamente responsabile della creazione di un poster ?",
+        "propositions": [
+          "Progettista",
+          "Cartonnier",
+          "Artista del manifesto",
+          "Incisore"
+        ],
+        "réponse": "Artista del manifesto",
+        "anecdote": "In Francia, pittori famosi come Henri de Toulouse-Lautrec non disdegnavano di lavorare sui manifesti."
+      },
+      {
+        "id": 2,
+        "question": "Quale decoratore può installare rivestimenti murali ?",
+        "propositions": [
+          "Pittore",
+          "Fondatore",
+          "Dorato",
+          "Ristoratore"
+        ],
+        "réponse": "Pittore",
+        "anecdote": "Può lavorare per privati, aziende o comunità e in qualsiasi tipo di architettura."
+      },
+      {
+        "id": 3,
+        "question": "Quale specialista è responsabile della decorazione dello spazio scenico del teatro ?",
+        "propositions": [
+          "Cornicione",
+          "Mosaicista",
+          "Tailandia",
+          "Decoratore"
+        ],
+        "réponse": "Decoratore",
+        "anecdote": "Il decoratore deve, quando immagina una scenografia, conciliare le esigenze del regista con la propria concezione di artista."
+      },
+      {
+        "id": 4,
+        "question": "A parte lo sceneggiatore, qual è il lavoro di un creatore di fumetti ?",
+        "propositions": [
+          "Formatrice",
+          "Rilegatore",
+          "Copista",
+          "Disegnatore"
+        ],
+        "réponse": "Disegnatore",
+        "anecdote": "Il disegno risultante dal suo lavoro può essere anche artistico, documentario, tecnico o base di lavoro comune."
+      },
+      {
+        "id": 5,
+        "question": "Quale professionista dell'arte scatta foto usando una macchina fotografica ?",
+        "propositions": [
+          "Grafico",
+          "Fotografo",
+          "Filatore",
+          "Bombardiere"
+        ],
+        "réponse": "Fotografo",
+        "anecdote": "La diversità delle pratiche fotografiche porta a distinguere i fotografi per categorie, le classificazioni sono numerose."
+      },
+      {
+        "id": 6,
+        "question": "Chi sa fare un coltello a mano, dalla lama al manico ?",
+        "propositions": [
+          "moiré",
+          "archettaio",
+          "Coltellino",
+          "Barca a esca"
+        ],
+        "réponse": "Coltellino",
+        "anecdote": "Attualmente il mercato delle posate rimane dinamico grazie ai collezionisti, sensibili alla qualità dell'acciaio utilizzato."
+      },
+      {
+        "id": 7,
+        "question": "Quale artigiano realizza porte, finestre e pavimenti ?",
+        "propositions": [
+          "Falegname",
+          "Cappellaio",
+          "Orafo",
+          "Campanista"
+        ],
+        "réponse": "Falegname",
+        "anecdote": "Fornisce soprattutto un servizio su misura nella manifattura, ma anche nella ferramenta in legno massello e nelle piccole fabbri."
+      },
+      {
+        "id": 8,
+        "question": "Quale specialista gestisce la polvere d'oro o la vernice dorata ?",
+        "propositions": [
+          "Cornicione",
+          "Dorato",
+          "gioielliere",
+          "Coltellino"
+        ],
+        "réponse": "Dorato",
+        "anecdote": "L'approccio al restauro del legno dorato deve essere un intervento minimalista che rispetti gli stili."
+      },
+      {
+        "id": 9,
+        "question": "Chi è responsabile della progettazione di soluzioni di comunicazione visiva ?",
+        "propositions": [
+          "Copista",
+          "Grafico",
+          "Mosaicista",
+          "Vetrinista"
+        ],
+        "réponse": "Grafico",
+        "anecdote": "È quindi un mediatore che lavora sul significato dei messaggi, utilizzando le forme grafiche che utilizza su tutti i tipi di media."
+      },
+      {
+        "id": 10,
+        "question": "Come si chiama un autore di manga, fumetti giapponesi ?",
+        "propositions": [
+          "Mangart",
+          "manga",
+          "Mangiatore",
+          "Mangiatore"
+        ],
+        "réponse": "manga",
+        "anecdote": "Un mangaka è soggetto a tassi di pubblicazione molto elevati e non sempre gode di completa libertà sul proprio lavoro."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale professionista armonizza i criteri estetici di un prodotto ?",
+        "propositions": [
+          "Copista",
+          "Decoratore",
+          "Affresco",
+          "Progettista"
+        ],
+        "réponse": "Progettista",
+        "anecdote": "Lavora in collaborazione con specialisti di altre discipline per analizzare e risolvere i problemi posti da un progetto."
+      },
+      {
+        "id": 12,
+        "question": "Quale artigiano progetta e realizza oggetti utilitari in argilla ?",
+        "propositions": [
+          "vasaio",
+          "Ebanista",
+          "Bilanciere",
+          "Orafo"
+        ],
+        "réponse": "vasaio",
+        "anecdote": "Il vasaio realizza i suoi oggetti sia al tornio che a mano, utilizzando diverse qualità di terra e temperature variabili."
+      },
+      {
+        "id": 13,
+        "question": "In uno scatto, chi gestisce la scelta di gioielli, borse, guanti e cappelli ?",
+        "propositions": [
+          "Spazzola",
+          "Corsetto",
+          "Fiore all'occhiello",
+          "Costume"
+        ],
+        "réponse": "Costume",
+        "anecdote": "Il lavoro dei costumisti viene premiato con vari premi tra cui l'Oscar, il César o il Magritte per i migliori costumi."
+      },
+      {
+        "id": 14,
+        "question": "Chi è responsabile della consulenza ai clienti per gli accessori per la testa ?",
+        "propositions": [
+          "Coltellino",
+          "Guantaio",
+          "Cappellaio",
+          "Melo"
+        ],
+        "réponse": "Cappellaio",
+        "anecdote": "Lavorando in una modisteria, il suo lavoro in officina consiste nel dimensionare, abbinare e rifinire cappelli, rinfrescare e riparare."
+      },
+      {
+        "id": 15,
+        "question": "Quale artigiano trasforma il legno per creare mobili decorativi ?",
+        "propositions": [
+          "Ebanista",
+          "Verniciatore",
+          "cestaio",
+          "Dinanier"
+        ],
+        "réponse": "Ebanista",
+        "anecdote": "Scrivanie e mobili ricoperti di scaglie, intarsi, lacche, vernici, porcellane sono mobili di ebanisteria."
+      },
+      {
+        "id": 16,
+        "question": "Chi produce oggetti di ornamento che mettono in mostra pietre preziose ?",
+        "propositions": [
+          "Tailandia",
+          "lavoratore piuma",
+          "gioielliere",
+          "santonnier"
+        ],
+        "réponse": "gioielliere",
+        "anecdote": "Nella maggior parte dei casi, questo sviluppo si realizza in un gioiello : questo gioiello in sé può essere successivamente qualificato come gioiello."
+      },
+      {
+        "id": 17,
+        "question": "Quale artigiano realizza oggetti utilizzando il vimini o la paglia ?",
+        "propositions": [
+          "Barca a esca",
+          "cestaio",
+          "Campanista",
+          "laccatore"
+        ],
+        "réponse": "cestaio",
+        "anecdote": "Le abilità di tessitura di cesti in Bretagna di Carbasson sono state elencate nell'Inventario del patrimonio culturale immateriale francese dal 2015."
+      },
+      {
+        "id": 18,
+        "question": "Quale professionista è responsabile della riproduzione di documenti scritti ?",
+        "propositions": [
+          "Grafico",
+          "Copista",
+          "occhiali",
+          "creatore di catene"
+        ],
+        "réponse": "Copista",
+        "anecdote": "Questa professione nasce dall'esigenza di produrre copie di atti e testi amministrativi destinati all'insegnamento."
+      },
+      {
+        "id": 19,
+        "question": "Quale artigiano e commerciante fabbrica e vende oggetti di metallo prezioso ?",
+        "propositions": [
+          "Orafo",
+          "abbronzante",
+          "santonnier",
+          "Lavoratore del marmo"
+        ],
+        "réponse": "Orafo",
+        "anecdote": "Questo mestiere minore, vicino a quello della gioielleria, esiste in tutto il mondo e la sua storia risale alla preistoria."
+      },
+      {
+        "id": 20,
+        "question": "Chi è giudicato disegnatore di arti grafiche e assistente tecnico ?",
+        "propositions": [
+          "Mangiatore",
+          "creatore di catene",
+          "Illustratore",
+          "moiré"
+        ],
+        "réponse": "Illustratore",
+        "anecdote": "La professione di illustratore è generalmente sconosciuta al grande pubblico, sebbene l'illustrazione sia essenzialmente un'arte popolare."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Chi è responsabile dell'esposizione delle merci ?",
+        "propositions": [
+          "Taglierina",
+          "Cornicione",
+          "Osservatore",
+          "Vetrinista"
+        ],
+        "réponse": "Vetrinista",
+        "anecdote": "Molto spesso nelle vetrine, il lavoro dei vetrinisti consente di evidenziare i prodotti per facilitarne la vendita."
+      },
+      {
+        "id": 22,
+        "question": "Chi si occupa della conservazione architettonica o museografica ?",
+        "propositions": [
+          "laccatore",
+          "lavoratore piuma",
+          "Ristoratore",
+          "Metalmeccanico"
+        ],
+        "réponse": "Ristoratore",
+        "anecdote": "Questo lavoro, caratterizzato dal rispetto dell'originale e della sua storia, utilizza metodi morbidi e reversibili."
+      },
+      {
+        "id": 23,
+        "question": "Quali artigiani di Grenoble usavano una mano calda per esercitarsi ?",
+        "propositions": [
+          "Spazzola",
+          "Velouter",
+          "Guantaio",
+          "creatore di catene"
+        ],
+        "réponse": "Guantaio",
+        "anecdote": "In Francia le corporazioni dei guantai si insediarono soprattutto nelle regioni dove le capre erano allevate in modo intensivo e adatte alla concia."
+      },
+      {
+        "id": 24,
+        "question": "Chi prepara gli animali morti per dar loro sembianze di vita ?",
+        "propositions": [
+          "Conciatore",
+          "Dinanier",
+          "tassidermista",
+          "Setter"
+        ],
+        "réponse": "tassidermista",
+        "anecdote": "Il principio della tassidermia consiste nel costruire una struttura o scheletro su cui vengono ricostruite le forme dell'animale."
+      },
+      {
+        "id": 25,
+        "question": "Quale artigiano un tempo lavorava con i fuselli o con l'uncinetto ?",
+        "propositions": [
+          "Merlettaia",
+          "Campanista",
+          "Filatore",
+          "Lucidatrice"
+        ],
+        "réponse": "Merlettaia",
+        "anecdote": "Oggi la meccanizzazione consente l'utilizzo di macchine che rendono più rapido e regolare il lavoro della merlettaia."
+      },
+      {
+        "id": 26,
+        "question": "Quale artigiano fa piccole figure in argilla rossa della Provenza ?",
+        "propositions": [
+          "Muratore",
+          "Lauzer",
+          "santonnier",
+          "Affresco"
+        ],
+        "réponse": "santonnier",
+        "anecdote": "Se i santon sono rimasti a lungo fragili creazioni in argilla cruda, la cottura dell'argilla si è imposta ormai quasi ovunque."
+      },
+      {
+        "id": 27,
+        "question": "Di quale professione fu uno dei più grandi Agostino Carracci ?",
+        "propositions": [
+          "Serigrafia",
+          "Incisore",
+          "Tessitore",
+          "Feltro"
+        ],
+        "réponse": "Incisore",
+        "anecdote": "Agostino Carracci è noto soprattutto per la serie di incisioni « I Modi », eseguite dal francese Jacques Joseph Coiny."
+      },
+      {
+        "id": 28,
+        "question": "Quale artigiano fabbrica pentole con fogli di rame ?",
+        "propositions": [
+          "Velouter",
+          "Dinanier",
+          "Angolo",
+          "Barca a esca"
+        ],
+        "réponse": "Dinanier",
+        "anecdote": "Questo nome deriva da quello della cittadina belga di Dinant, dove la tradizione della lavorazione del rame risale al XII secolo."
+      },
+      {
+        "id": 29,
+        "question": "Chi produce e mantiene i bacini in pietra ?",
+        "propositions": [
+          "lavoratore della fontana",
+          "Spazzola",
+          "produttore di pipe",
+          "Creatore di bauli"
+        ],
+        "réponse": "lavoratore della fontana",
+        "anecdote": "Oggi il fontaniere è anche l'incaricato di restaurare i tubi di piombo delle vecchie fontane."
+      },
+      {
+        "id": 30,
+        "question": "Quale artigiano del tetto realizza tetti di paglia di segale o di grano ?",
+        "propositions": [
+          "archettaio",
+          "Angolo",
+          "Thatcher",
+          "Bilanciere"
+        ],
+        "réponse": "Thatcher",
+        "anecdote": "Il know-how dei cottage dal tetto di paglia nel Golfo del Morbihan è incluso nell'inventario del patrimonio culturale immateriale in Francia nel 2020."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie is artistiek verantwoordelijk voor het maken van een poster ?",
+        "propositions": [
+          "Posterkunstenaar",
+          "Cartonnier",
+          "Ontwerper",
+          "Graveur"
+        ],
+        "réponse": "Posterkunstenaar",
+        "anecdote": "In Frankrijk hadden beroemde schilders als Henri de Toulouse-Lautrec er geen minachting voor om aan affiches te werken."
+      },
+      {
+        "id": 2,
+        "question": "Welke binnenhuisarchitect kan wandbekleding plaatsen ?",
+        "propositions": [
+          "Restaurateur",
+          "Oprichter",
+          "Schilder",
+          "Vergulden"
+        ],
+        "réponse": "Schilder",
+        "anecdote": "Hij kan werken voor individuen, bedrijven of gemeenschappen en in elk type architectuur."
+      },
+      {
+        "id": 3,
+        "question": "Welke specialist is verantwoordelijk voor de inrichting van de podiumruimte in het theater ?",
+        "propositions": [
+          "Mozaïek",
+          "Inlijst",
+          "Decorateur",
+          "Taillander"
+        ],
+        "réponse": "Decorateur",
+        "anecdote": "De decorateur moet, wanneer hij zich een decor voorstelt, de eisen van de regisseur verzoenen met zijn eigen opvatting als kunstenaar."
+      },
+      {
+        "id": 4,
+        "question": "Wat is naast de scenarioschrijver de taak van een stripboekmaker ?",
+        "propositions": [
+          "Boekbinder",
+          "kopiist",
+          "Vormer",
+          "Tekenaar"
+        ],
+        "réponse": "Tekenaar",
+        "anecdote": "De tekening die het resultaat is van zijn werk kan ook artistiek, documentair, technisch of een gemeenschappelijke werkbasis zijn."
+      },
+      {
+        "id": 5,
+        "question": "Welke kunstprofessional maakt foto's met een camera ?",
+        "propositions": [
+          "spinner",
+          "bommenwerper",
+          "Grafisch ontwerper",
+          "Fotograaf"
+        ],
+        "réponse": "Fotograaf",
+        "anecdote": "De diversiteit van fotografische praktijken leidt tot het onderscheiden van fotografen in categorieën, de classificaties zijn talrijk."
+      },
+      {
+        "id": 6,
+        "question": "Wie weet hoe je een mes met de hand maakt, van het lemmet tot het handvat ?",
+        "propositions": [
+          "messenmaker",
+          "boogmaker",
+          "moiré",
+          "Voerboot"
+        ],
+        "réponse": "messenmaker",
+        "anecdote": "Momenteel blijft de bestekmarkt dynamisch dankzij verzamelaars die gevoelig zijn voor de kwaliteit van het gebruikte staal."
+      },
+      {
+        "id": 7,
+        "question": "Welke vakman maakt deuren, ramen en vloeren ?",
+        "propositions": [
+          "Campanistisch",
+          "Hoedenmaker",
+          "Goudsmid",
+          "Timmerman"
+        ],
+        "réponse": "Timmerman",
+        "anecdote": "Het levert vooral maatwerk in fabricage, maar ook in massief houten beslag en kleine slotenmakerij."
+      },
+      {
+        "id": 8,
+        "question": "Welke specialist behandelt goudstof of goudverf ?",
+        "propositions": [
+          "Inlijst",
+          "Vergulden",
+          "Juwelier",
+          "messenmaker"
+        ],
+        "réponse": "Vergulden",
+        "anecdote": "De benadering van het restaureren van verguld hout moet een minimalistische ingreep zijn die stijlen respecteert."
+      },
+      {
+        "id": 9,
+        "question": "Wie is verantwoordelijk voor het ontwerpen van visuele communicatieoplossingen ?",
+        "propositions": [
+          "kopiist",
+          "Mozaïek",
+          "Grafisch ontwerper",
+          "Etalage"
+        ],
+        "réponse": "Grafisch ontwerper",
+        "anecdote": "Het is dus een bemiddelaar die werkt aan de betekenis van de berichten, gebruikmakend van de grafische vormen die hij op alle soorten media gebruikt."
+      },
+      {
+        "id": 10,
+        "question": "Hoe noem je een auteur van manga, Japanse strips ?",
+        "propositions": [
+          "Mangart",
+          "Eter",
+          "manga",
+          "Eter"
+        ],
+        "réponse": "manga",
+        "anecdote": "Een mangaka is onderhevig aan zeer hoge publicatiesnelheden en geniet niet altijd volledige vrijheid over zijn werk."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke professional harmoniseert de esthetische criteria van een product ?",
+        "propositions": [
+          "Frescoïst",
+          "kopiist",
+          "Decorateur",
+          "Ontwerper"
+        ],
+        "réponse": "Ontwerper",
+        "anecdote": "Hij werkt samen met specialisten uit andere disciplines om de problemen die een project oproept te analyseren en op te lossen."
+      },
+      {
+        "id": 12,
+        "question": "Welke vakman ontwerpt en vervaardigt gebruiksvoorwerpen van klei ?",
+        "propositions": [
+          "Pottenbakker",
+          "Goudsmid",
+          "Meubelmaker",
+          "Rocker"
+        ],
+        "réponse": "Pottenbakker",
+        "anecdote": "De pottenbakker maakt zijn artikelen met behulp van een wiel of met de hand, waarbij hij verschillende kwaliteiten aarde en wisselende temperaturen gebruikt."
+      },
+      {
+        "id": 13,
+        "question": "Wie bepaalt bij een shoot de keuze van sieraden, tassen, handschoenen en hoeden ?",
+        "propositions": [
+          "Boutonnière",
+          "Klant",
+          "Borstel",
+          "Korset"
+        ],
+        "réponse": "Klant",
+        "anecdote": "Het werk van de klanten wordt beloond met verschillende prijzen waaronder de Oscar, de César of de Magritte voor het beste kostuumontwerp."
+      },
+      {
+        "id": 14,
+        "question": "Wie is verantwoordelijk voor het adviseren van klanten over hoofdaccessoires ?",
+        "propositions": [
+          "Hoedenmaker",
+          "messenmaker",
+          "Appelboom",
+          "Glover"
+        ],
+        "réponse": "Hoedenmaker",
+        "anecdote": "Hij werkt in een hoedenmakerij en zijn werk in de werkplaats bestaat uit het op maat maken, matchen en trimmen van hoeden, opfrissen en repareren."
+      },
+      {
+        "id": 15,
+        "question": "Welke vakman transformeert hout om decoratief meubilair te maken ?",
+        "propositions": [
+          "Vernis",
+          "Meubelmaker",
+          "Dinandier",
+          "mandenmaker"
+        ],
+        "réponse": "Meubelmaker",
+        "anecdote": "Bureaus en meubels bedekt met schubben, inlegwerk, lak, vernis, porselein zijn meubelen voor het maken van kasten."
+      },
+      {
+        "id": 16,
+        "question": "Wie maakt sierartikelen met edelstenen ?",
+        "propositions": [
+          "Juwelier",
+          "Taillander",
+          "veerwerker",
+          "santonnière"
+        ],
+        "réponse": "Juwelier",
+        "anecdote": "Meestal vindt deze ontwikkeling plaats in een juweel : dit juweel op zichzelf kan vervolgens als juweel worden gekwalificeerd."
+      },
+      {
+        "id": 17,
+        "question": "Welke vakman maakt voorwerpen van riet of stro ?",
+        "propositions": [
+          "mandenmaker",
+          "Voerboot",
+          "lakser",
+          "Campanistisch"
+        ],
+        "réponse": "mandenmaker",
+        "anecdote": "De vaardigheden van het mandenvlechten in Bretagne van Carbasson staan sinds 2015 vermeld in de inventaris van het immaterieel cultureel erfgoed van Frankrijk."
+      },
+      {
+        "id": 18,
+        "question": "Welke professional is verantwoordelijk voor de reproductie van schriftelijke documenten ?",
+        "propositions": [
+          "kettingmaker",
+          "brillen",
+          "kopiist",
+          "Grafisch ontwerper"
+        ],
+        "réponse": "kopiist",
+        "anecdote": "Dit beroep is ontstaan uit de behoefte om kopieën te maken van administratieve documenten en teksten die bestemd zijn voor het onderwijs."
+      },
+      {
+        "id": 19,
+        "question": "Welke ambachtsman en koopman maakt en verkoopt edelmetalen voorwerpen ?",
+        "propositions": [
+          "bronzer",
+          "Goudsmid",
+          "Marmerbewerker",
+          "santonnière"
+        ],
+        "réponse": "Goudsmid",
+        "anecdote": "Dit kleine ambacht, dicht bij dat van juwelen, bestaat over de hele wereld en de geschiedenis gaat terug tot de prehistorie."
+      },
+      {
+        "id": 20,
+        "question": "Wie wordt beoordeeld als graficus en technisch assistent ?",
+        "propositions": [
+          "moiré",
+          "kettingmaker",
+          "Eter",
+          "Tekenaar"
+        ],
+        "réponse": "Tekenaar",
+        "anecdote": "Het beroep van illustrator is over het algemeen onbekend bij het grote publiek, hoewel illustratie in wezen een populaire kunst is."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wie is verantwoordelijk voor het presenteren van goederen ?",
+        "propositions": [
+          "Snijder",
+          "Etalage",
+          "Inlijst",
+          "Spotter"
+        ],
+        "réponse": "Etalage",
+        "anecdote": "Meestal in etalages maakt het werk van etaleurs het mogelijk om producten te markeren om de verkoop ervan te vergemakkelijken."
+      },
+      {
+        "id": 22,
+        "question": "Wie zet zich in voor architectonische of museale conservatie ?",
+        "propositions": [
+          "Metaalbewerker",
+          "veerwerker",
+          "lakser",
+          "Restaurateur"
+        ],
+        "réponse": "Restaurateur",
+        "anecdote": "Dit werk, dat wordt gekenmerkt door respect voor het origineel en zijn geschiedenis, maakt gebruik van zachte en omkeerbare methoden."
+      },
+      {
+        "id": 23,
+        "question": "Welke ambachtslieden uit Grenoble gebruikten een verwarmde hand om te oefenen ?",
+        "propositions": [
+          "Borstel",
+          "kettingmaker",
+          "Glover",
+          "Velouter"
+        ],
+        "réponse": "Glover",
+        "anecdote": "In Frankrijk vestigden de gilden van handschoenmakers zich vooral in streken waar intensief geiten werden gehouden en geschikt waren om te looien."
+      },
+      {
+        "id": 24,
+        "question": "Wie bereidt dode dieren voor om ze de schijn van leven te geven ?",
+        "propositions": [
+          "Leerlooier",
+          "Zetter",
+          "Taxidermist",
+          "Dinandier"
+        ],
+        "réponse": "Taxidermist",
+        "anecdote": "Het principe van taxidermie bestaat uit het bouwen van een structuur of skelet waarop de vormen van het dier worden gereconstrueerd."
+      },
+      {
+        "id": 25,
+        "question": "Welke vakman werkte ooit met klosjes of haakwerk ?",
+        "propositions": [
+          "Kantmaker",
+          "Polijstmachine",
+          "Campanistisch",
+          "spinner"
+        ],
+        "réponse": "Kantmaker",
+        "anecdote": "Door de mechanisering kunnen tegenwoordig machines worden gebruikt die het werk van de kantwerkster sneller en regelmatiger maken."
+      },
+      {
+        "id": 26,
+        "question": "Welke ambachtsman maakt kleine figuren in rode klei uit de Provence ?",
+        "propositions": [
+          "Frescoïst",
+          "Lazer",
+          "Metselaar",
+          "santonnière"
+        ],
+        "réponse": "santonnière",
+        "anecdote": "Als de santons lang fragiele creaties in ruwe klei zijn gebleven, heeft het bakken van klei zich tegenwoordig bijna overal opgelegd."
+      },
+      {
+        "id": 27,
+        "question": "Van welk beroep was Augustin Carracci een van de grootste ?",
+        "propositions": [
+          "Voelde",
+          "Wever",
+          "Graveur",
+          "Zeefdruk"
+        ],
+        "réponse": "Graveur",
+        "anecdote": "Agostino Carracci is vooral bekend van de « I Modi » serie etsen, uitgevoerd door de Fransman Jacques Joseph Coiny."
+      },
+      {
+        "id": 28,
+        "question": "Welke vakman maakt pannen van koperfolie ?",
+        "propositions": [
+          "Velouter",
+          "Voerboot",
+          "Dinandier",
+          "Hoek"
+        ],
+        "réponse": "Dinandier",
+        "anecdote": "Deze naam komt van die van de Belgische stad Dinant, waar de traditie van koperbewerking teruggaat tot de 12e eeuw."
+      },
+      {
+        "id": 29,
+        "question": "Wie maakt en onderhoudt stenen wasbakken ?",
+        "propositions": [
+          "pijpenmaker",
+          "Kofferbakmaker",
+          "Borstel",
+          "fonteinwerker"
+        ],
+        "réponse": "fonteinwerker",
+        "anecdote": "Tegenwoordig is de fonteiningenieur ook verantwoordelijk voor het restaureren van de loden leidingen van oude fonteinen."
+      },
+      {
+        "id": 30,
+        "question": "Welke dakdekker maakt daken van rogge of tarwestro ?",
+        "propositions": [
+          "Thatcher",
+          "Hoek",
+          "Rocker",
+          "boogmaker"
+        ],
+        "réponse": "Thatcher",
+        "anecdote": "De knowhow van huisjes met rieten daken in de Golf van Morbihan is opgenomen in de inventaris van immaterieel cultureel erfgoed in Frankrijk in 2020."
+      }
+    ]
+    }
+  }
+}

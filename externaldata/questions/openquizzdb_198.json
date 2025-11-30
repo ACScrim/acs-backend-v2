@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-06-21",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Rendez-vous au bar",
+      "slogan": "Toujours avec modération"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Meet me at the bar",
+      "slogan": "Always in moderation"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Cita en el bar",
+      "slogan": "Siempre con moderación"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Appuntamento al bar",
+      "slogan": "Sempre con moderazione"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Treffen in der Bar",
+      "slogan": "Immer in Maßen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Afspraak in de bar",
+      "slogan": "Altijd met mate"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle boisson spiritueuse est aromatisée à l'anis et à la réglisse ?",
+        "propositions": [
+          "Ouzo",
+          "Pastis",
+          "Peket",
+          "Raki"
+        ],
+        "réponse": "Pastis",
+        "anecdote": "Variante de l'absinthe, le pastis est un apéritif traditionnel de la cuisine provençale et de la cuisine française qui titre souvent à 40 %."
+      },
+      {
+        "id": 2,
+        "question": "Quel cocktail est fait à base de crème de cassis et de vin blanc bourgogne aligoté ?",
+        "propositions": [
+          "Tequila sunrise",
+          "Mojito",
+          "Kir",
+          "Cuba libre"
+        ],
+        "réponse": "Kir",
+        "anecdote": "Le terme s'est étendu depuis à de nombreuses variantes du blanc-cassis (vin blanc aromatisé au sirop de cassis) dans le monde."
+      },
+      {
+        "id": 3,
+        "question": "Quelle liqueur belge est parfois utilisée dans certaines préparations culinaires ?",
+        "propositions": [
+          "Pisang Ambon",
+          "Mandarine Napoléon",
+          "Galliano",
+          "Malibu"
+        ],
+        "réponse": "Mandarine Napoléon",
+        "anecdote": "Commercialisée sous le nom Mandarine Napoléon, elle fut diffusée en France d'abord sous le nom de liqueur de mandarine impériale."
+      },
+      {
+        "id": 4,
+        "question": "Quelle boisson peu alcoolisée est obtenue à partir de la fermentation du jus de pomme ?",
+        "propositions": [
+          "Sureau",
+          "Cidre",
+          "Armagnac",
+          "Frênette"
+        ],
+        "réponse": "Cidre",
+        "anecdote": "Chez les producteurs, l'adjectif cidricole fait référence aussi bien à la boisson fermentée à base de pomme qu'à base de poire."
+      },
+      {
+        "id": 5,
+        "question": "Quel vin blanc effervescent italien est souvent plus doux que le Prosecco ?",
+        "propositions": [
+          "Alghero",
+          "Vouvray",
+          "Friuli",
+          "Asti"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Seuls ont droit à la DOCG les vins blancs récoltés à l'intérieur de l'aire de production définie par le décret."
+      },
+      {
+        "id": 6,
+        "question": "Quelle boisson alcoolisée est connue comme étant le nectar des dieux ?",
+        "propositions": [
+          "Whisky",
+          "Bière",
+          "Vin",
+          "Liqueur"
+        ],
+        "réponse": "Vin",
+        "anecdote": "Le vin a une longue histoire et a été vénéré dans de nombreuses cultures anciennes pour sa signification religieuse et culturelle."
+      },
+      {
+        "id": 7,
+        "question": "Pour quelle boisson distille-t-on des baies de genièvre avec d'autres ingrédients ?",
+        "propositions": [
+          "Vodka",
+          "Tequila",
+          "Rhum",
+          "Gin"
+        ],
+        "réponse": "Gin",
+        "anecdote": "Le gin a une histoire intéressante et a évolué d'une simple boisson médicinale à une base de cocktail populaire."
+      },
+      {
+        "id": 8,
+        "question": "Quelle boisson est traditionnellement servie dans une chope en verre ?",
+        "propositions": [
+          "Sangria",
+          "Martini",
+          "Bière",
+          "Champagne"
+        ],
+        "réponse": "Bière",
+        "anecdote": "Une chope peut également parfois être munie d'un couvercle, et il existe même des chopes spécifiques destinées aux moustachus."
+      },
+      {
+        "id": 9,
+        "question": "Quel cocktail à base de gin porte le même nom qu'une marque de pomme ?",
+        "propositions": [
+          "Granny Smith",
+          "Jonagold",
+          "Pink Lady",
+          "Gala"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "Il existe plusieurs variantes répandues du Pink Lady, ayant en commun l'utilisation de gin, de sirop de grenadine et de blanc d'oeuf."
+      },
+      {
+        "id": 10,
+        "question": "Quelle boisson est composée d'une base de vin rouge avec des fruits macérés ?",
+        "propositions": [
+          "Marquisette",
+          "Retsina",
+          "Sangria",
+          "Grappa"
+        ],
+        "réponse": "Sangria",
+        "anecdote": "Selon certaines sources, la sangria ne proviendrait pas d'Espagne, mais plutôt des Antilles ou d'Amérique du Sud."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel cocktail de 25 ml est souvent consommé en groupe directement au bar ?",
+        "propositions": [
+          "Booster",
+          "Master",
+          "Fever",
+          "Shooter"
+        ],
+        "réponse": "Shooter",
+        "anecdote": "Les ingrédients peuvent être mélangés au shaker ou à la cuillère, ou simplement versés l'un après l'autre directement dans le verre."
+      },
+      {
+        "id": 12,
+        "question": "Quelle boisson fermentée, titrant jusqu'à 18° d'alcool, est faite d'eau et de miel ?",
+        "propositions": [
+          "Pulque",
+          "Hydromel",
+          "Kirsch",
+          "Arak"
+        ],
+        "réponse": "Hydromel",
+        "anecdote": "Connu et apprécié des Grecs et des Romains, l'hydromel fut plébiscité tant par les familles que par les religieux du Moyen Âge."
+      },
+      {
+        "id": 13,
+        "question": "Outre le seigle et la pomme de terre, quelle est la principale base de la vodka ?",
+        "propositions": [
+          "Riz",
+          "Canne à sucre",
+          "Blé",
+          "Pomme"
+        ],
+        "réponse": "Blé",
+        "anecdote": "Souvent associée à la Russie, la vodka peut être produite à partir de divers ingrédients, dont le blé est l'un des plus courants."
+      },
+      {
+        "id": 14,
+        "question": "Quelle boisson originaire des Caraïbes est vieillie dans des fûts de chêne ?",
+        "propositions": [
+          "Tequila",
+          "Gin",
+          "Rhum",
+          "Vodka"
+        ],
+        "réponse": "Rhum",
+        "anecdote": "Le vieillissement en fûts de chêne (minimum de deux ans) donne au rhum ses arômes complexes et sa couleur caractéristique."
+      },
+      {
+        "id": 15,
+        "question": "Quel cocktail à la feuille de menthe est souvent associé à la ville de La Havane ?",
+        "propositions": [
+          "Mojito",
+          "Cosmopolitan",
+          "Martini",
+          "Margarita"
+        ],
+        "réponse": "Mojito",
+        "anecdote": "Le mojito est né à Cuba dans les Caraïbes dans les années 1910, dont il reste à ce jour un emblème exotique international."
+      },
+      {
+        "id": 16,
+        "question": "Quelle liqueur verte était autrefois interdite dans certains pays ?",
+        "propositions": [
+          "Amaretto",
+          "Limoncello",
+          "Absinthe",
+          "Sambuca"
+        ],
+        "réponse": "Absinthe",
+        "anecdote": "L'absinthe était interdite en raison de ses prétendus effets hallucinogènes, bien que ces allégations aient été réfutées."
+      },
+      {
+        "id": 17,
+        "question": "Quelle boisson est fabriquée à partir d'orge maltée et d'eau de source ?",
+        "propositions": [
+          "Champagne",
+          "Tequila",
+          "Cognac",
+          "Whisky"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "Le whisky (ou whiskey) est vieilli en fûts, développant ainsi des saveurs riches et une complexité qui varie selon l'origine."
+      },
+      {
+        "id": 18,
+        "question": "Quelle eau-de-vie italienne est obtenue en distillant du marc de raisin ?",
+        "propositions": [
+          "Grappa",
+          "Amaretto",
+          "Limoncello",
+          "Sambuca"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "La grappa est une eau-de-vie italienne, produite depuis des siècles comme moyen de valorisation des sous-produits du vin."
+      },
+      {
+        "id": 19,
+        "question": "Quelle boisson est un ingrédient clé du Daïquiri, cocktail inventé à Cuba ?",
+        "propositions": [
+          "Gin",
+          "Rhum",
+          "Whisky",
+          "Vodka"
+        ],
+        "réponse": "Rhum",
+        "anecdote": "Originaire de Cuba, le daïquiri est un cocktail dont les ingrédients principaux sont le rhum blanc, le jus de citron vert et le sucre."
+      },
+      {
+        "id": 20,
+        "question": "Quel alcool est l'ingrédient principal du cocktail Bloody Mary ?",
+        "propositions": [
+          "Vodka",
+          "Gin",
+          "Rhum",
+          "Tequila"
+        ],
+        "réponse": "Vodka",
+        "anecdote": "Le Bloody Mary est un cocktail salé et épicé, à base de vodka, qui est parfois considéré comme un remède de la gueule de bois."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel alcool incolore est produit par certaines maisons de l'île de Lesbos ?",
+        "propositions": [
+          "Ouzo",
+          "Retsina",
+          "Metaxa",
+          "Tsipouro"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Depuis 1989, la réglementation européenne précise que l'ouzo doit être produit en Grèce pour avoir droit à cette dénomination."
+      },
+      {
+        "id": 22,
+        "question": "Quel terme de langue anglaise est utilisé pour désigner une eau-de-vie de vin ?",
+        "propositions": [
+          "Damassine",
+          "Manhattan",
+          "Brandy",
+          "Quetsch"
+        ],
+        "réponse": "Brandy",
+        "anecdote": "Pour des raisons mal comprises, bu en quantité excessive, c'est l'un des spiritueux qui induit les gueules de bois les plus intenses."
+      },
+      {
+        "id": 23,
+        "question": "Quel cocktail à base de crème de noix de coco est originaire de l'île de Porto Rico ?",
+        "propositions": [
+          "Sea Breeze",
+          "Porto flip",
+          "Pina colada",
+          "Negroni"
+        ],
+        "réponse": "Pina colada",
+        "anecdote": "La préparation est servie dans un verre ouragan avec une paille, une tranche d'ananas, et une cerise cocktail pour la décoration."
+      },
+      {
+        "id": 24,
+        "question": "Quelle boisson est traditionnellement fabriquée à partir d'agave bleu ?",
+        "propositions": [
+          "Tequila",
+          "Absinthe",
+          "Vodka",
+          "Cognac"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "La tequila est originaire du Mexique et est fabriquée à partir de l'agave bleu, ce qui lui confère un goût unique."
+      },
+      {
+        "id": 25,
+        "question": "Quel cocktail plus ou moins fortement pimenté et épicé contient du jus de tomate ?",
+        "propositions": [
+          "French 75",
+          "Mimosa",
+          "Bloody Mary",
+          "Mai-Tai"
+        ],
+        "réponse": "Bloody Mary",
+        "anecdote": "Dans le film « Mona Lisa » (1986), un serveur propose un Bloody Mary au personnage principal Georges mais il refuse, préférant un thé."
+      },
+      {
+        "id": 26,
+        "question": "Quel terme peut être employé pour désigner le vin de riz ou le vin de céréale ?",
+        "propositions": [
+          "Tequila",
+          "Vodka",
+          "Kir",
+          "Saké"
+        ],
+        "réponse": "Saké",
+        "anecdote": "Le saké est une boisson alcoolisée japonaise à base de riz, traditionnellement consommée lors de cérémonies et de repas."
+      },
+      {
+        "id": 27,
+        "question": "Quelle boisson est produite par fermentation de la pulpe de l'agave ?",
+        "propositions": [
+          "Tequila",
+          "Vodka",
+          "Cognac",
+          "Gin"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "La tequila a des origines anciennes et est devenue aujourd'hui un symbole de la culture mexicaine dans le monde entier."
+      },
+      {
+        "id": 28,
+        "question": "Quelle liqueur digestive est fabriquée à Fécamp, en Normandie ?",
+        "propositions": [
+          "Pulque",
+          "Bénédictine",
+          "Armagnac",
+          "Genièvre"
+        ],
+        "réponse": "Bénédictine",
+        "anecdote": "Selon la légende, un élixir de santé aurait été mis au point à l'abbaye en 1510 par un moine vénitien, Dom Bernardo Vincelli."
+      },
+      {
+        "id": 29,
+        "question": "Quel mot désigne informellement les eaux de vie dans les régions germanophones ?",
+        "propositions": [
+          "Schnaps",
+          "Waldmeister",
+          "Palinka",
+          "Abricotine"
+        ],
+        "réponse": "Schnaps",
+        "anecdote": "Il peut parfois plus spécifiquement faire référence aux alcools produits localement à base de prunes ou de cerises en Allemagne."
+      },
+      {
+        "id": 30,
+        "question": "Quelle eau-de-vie, spécialité de la Lorraine, est une appellation AOC ?",
+        "propositions": [
+          "Bénédictine",
+          "Mirabelle",
+          "Schnaps",
+          "Lirette"
+        ],
+        "réponse": "Mirabelle",
+        "anecdote": "Si la distillation artisanale perdure encore, la plupart des distilleries se situent dans le Saintois et dans les Côtes de Meuse."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What spirit drink is flavored with anise and licorice ?",
+        "propositions": [
+          "Pastis",
+          "Ouzo",
+          "Raki",
+          "Peket"
+        ],
+        "réponse": "Pastis",
+        "anecdote": "A variant of absinthe, pastis is a traditional aperitif of Provençal and French cuisine which is often 40 % strong."
+      },
+      {
+        "id": 2,
+        "question": "What cocktail is made with crème de cassis and Burgundy Aligoté white wine ?",
+        "propositions": [
+          "Mojito",
+          "Cuba libre",
+          "Tequila sunrise",
+          "Kir"
+        ],
+        "réponse": "Kir",
+        "anecdote": "The term has since extended to many variations of blanc-cassis (white wine flavored with blackcurrant syrup) around the world."
+      },
+      {
+        "id": 3,
+        "question": "Which Belgian liqueur is sometimes used in certain culinary preparations ?",
+        "propositions": [
+          "Mandarine Napoléon",
+          "Pisang Ambon",
+          "Malibu",
+          "Galliano"
+        ],
+        "réponse": "Mandarine Napoléon",
+        "anecdote": "Marketed under the name Mandarine Napoléon, it was first distributed in France under the name of imperial mandarin liqueur."
+      },
+      {
+        "id": 4,
+        "question": "What low-alcohol drink is obtained from the fermentation of apple juice ?",
+        "propositions": [
+          "Armagnac",
+          "Frenette",
+          "Cidre",
+          "Elderberry"
+        ],
+        "réponse": "Cidre",
+        "anecdote": "Among producers, the adjective cider refers to both the fermented drink made from apple and pear."
+      },
+      {
+        "id": 5,
+        "question": "Which Italian sparkling white wine is often sweeter than Prosecco ?",
+        "propositions": [
+          "Vouvray",
+          "Friuli",
+          "Asti",
+          "Alghero"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Only white wines harvested within the production area defined by the decree are entitled to the DOCG."
+      },
+      {
+        "id": 6,
+        "question": "What alcoholic beverage is known as the nectar of the gods ?",
+        "propositions": [
+          "Bier",
+          "Wine",
+          "Liqueur",
+          "Whisky"
+        ],
+        "réponse": "Wine",
+        "anecdote": "Wine has a long history and has been revered in many ancient cultures for its religious and cultural significance."
+      },
+      {
+        "id": 7,
+        "question": "For what drink are juniper berries distilled with other ingredients ?",
+        "propositions": [
+          "Rhum",
+          "Vodka",
+          "Tequila",
+          "Gin"
+        ],
+        "réponse": "Gin",
+        "anecdote": "Gin has an interesting history and has evolved from a simple medicinal drink to a popular cocktail base."
+      },
+      {
+        "id": 8,
+        "question": "What drink is traditionally served in a glass mug ?",
+        "propositions": [
+          "Bier",
+          "Champain",
+          "Martini",
+          "Sangria"
+        ],
+        "réponse": "Bier",
+        "anecdote": "A tankard can also sometimes be fitted with a lid, and there are even specific tankards intended for mustachioed people."
+      },
+      {
+        "id": 9,
+        "question": "What gin cocktail has the same name as a brand of apple ?",
+        "propositions": [
+          "Jonagold",
+          "Gala",
+          "Granny Smith",
+          "Pink Lady"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "There are several popular variations of the Pink Lady, having in common the use of gin, grenadine syrup and egg white."
+      },
+      {
+        "id": 10,
+        "question": "What drink is made from a red wine base with macerated fruit ?",
+        "propositions": [
+          "Marquisette",
+          "Grappa",
+          "Sangria",
+          "Retsina"
+        ],
+        "réponse": "Sangria",
+        "anecdote": "According to some sources, sangria does not come from Spain, but rather from the West Indies or South America."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which 25 ml cocktail is often consumed in groups directly at the bar ?",
+        "propositions": [
+          "Master",
+          "Booster",
+          "Fever",
+          "Shooter"
+        ],
+        "réponse": "Shooter",
+        "anecdote": "The ingredients can be mixed with a shaker or spoon, or simply poured one after the other directly into the glass."
+      },
+      {
+        "id": 12,
+        "question": "What fermented drink, with an alcohol content of up to 18 %, is made from water and honey ?",
+        "propositions": [
+          "Kirsch",
+          "Pulque",
+          "Mead",
+          "Arak"
+        ],
+        "réponse": "Mead",
+        "anecdote": "Known and appreciated by the Greeks and Romans, mead was popular with both families and religious people in the Middle Ages."
+      },
+      {
+        "id": 13,
+        "question": "Besides rye and potato, what is the main base for vodka ?",
+        "propositions": [
+          "Wheat",
+          "Sugar cane",
+          "Rice",
+          "Apple"
+        ],
+        "réponse": "Wheat",
+        "anecdote": "Often associated with Russia, vodka can be produced from a variety of ingredients, of which wheat is one of the most common."
+      },
+      {
+        "id": 14,
+        "question": "Which Caribbean drink is aged in oak barrels ?",
+        "propositions": [
+          "Tequila",
+          "Vodka",
+          "Rhum",
+          "Gin"
+        ],
+        "réponse": "Rhum",
+        "anecdote": "Aging in oak barrels (minimum of two years) gives the rum its complex aromas and characteristic color."
+      },
+      {
+        "id": 15,
+        "question": "What mint leaf cocktail is often associated with the city of Havana ?",
+        "propositions": [
+          "Cosmopolitan",
+          "Martini",
+          "Mojito",
+          "Margarita"
+        ],
+        "réponse": "Mojito",
+        "anecdote": "The mojito was born in Cuba in the Caribbean in the 1910s, where it remains an international exotic emblem to this day."
+      },
+      {
+        "id": 16,
+        "question": "What green liquor was once banned in some countries ?",
+        "propositions": [
+          "Sambuca",
+          "Limoncello",
+          "Amaretto",
+          "Absinthe"
+        ],
+        "réponse": "Absinthe",
+        "anecdote": "Absinthe was banned due to its alleged hallucinogenic effects, although these claims have been refuted."
+      },
+      {
+        "id": 17,
+        "question": "What drink is made from malted barley and spring water ?",
+        "propositions": [
+          "Champain",
+          "Cognac",
+          "Whisky",
+          "Tequila"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "Whiskey (or whiskey) is aged in barrels, developing rich flavors and complexity that varies depending on the origin."
+      },
+      {
+        "id": 18,
+        "question": "What Italian brandy is made by distilling grape marc ?",
+        "propositions": [
+          "Sambuca",
+          "Amaretto",
+          "Limoncello",
+          "Grappa"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Grappa is an Italian brandy, produced for centuries as a means of valorizing wine by-products."
+      },
+      {
+        "id": 19,
+        "question": "Which drink is a key ingredient in the Daïquiri, a cocktail invented in Cuba ?",
+        "propositions": [
+          "Whiskey",
+          "Rhum",
+          "Vodka",
+          "Gin"
+        ],
+        "réponse": "Rhum",
+        "anecdote": "Originally from Cuba, the daiquiri is a cocktail whose main ingredients are white rum, lime juice and sugar."
+      },
+      {
+        "id": 20,
+        "question": "What alcohol is the main ingredient in the Bloody Mary cocktail ?",
+        "propositions": [
+          "Gin",
+          "Rhum",
+          "Tequila",
+          "Vodka"
+        ],
+        "réponse": "Vodka",
+        "anecdote": "The Bloody Mary is a salty and spicy cocktail, made with vodka, that is sometimes considered a hangover cure."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What colorless alcohol is produced by some houses on the island of Lesbos ?",
+        "propositions": [
+          "Metaxa",
+          "Ouzo",
+          "Retsina",
+          "Tsipouro"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Since 1989, European regulations have specified that ouzo must be produced in Greece to be entitled to this name."
+      },
+      {
+        "id": 22,
+        "question": "What English language term is used to refer to a wine brandy ?",
+        "propositions": [
+          "Brandy",
+          "Damascus",
+          "Quetsch",
+          "Manhattan"
+        ],
+        "réponse": "Brandy",
+        "anecdote": "For reasons that are poorly understood, when drunk in excessive quantities, it is one of the spirits that induces the most intense hangovers."
+      },
+      {
+        "id": 23,
+        "question": "Which coconut cream-based cocktail is native to the island of Puerto Rico ?",
+        "propositions": [
+          "Negroni",
+          "Pina colada",
+          "Sea Breeze",
+          "Porto flip"
+        ],
+        "réponse": "Pina colada",
+        "anecdote": "The preparation is served in a hurricane glass with a straw, a slice of pineapple, and a cocktail cherry for decoration."
+      },
+      {
+        "id": 24,
+        "question": "What drink is traditionally made from blue agave ?",
+        "propositions": [
+          "Vodka",
+          "Absinthe",
+          "Tequila",
+          "Cognac"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila originates from Mexico and is made from the blue agave plant, which gives it a unique taste."
+      },
+      {
+        "id": 25,
+        "question": "Which more or less strongly chilled and spicy cocktail contains tomato juice ?",
+        "propositions": [
+          "Mai-Tai",
+          "Mimosa",
+          "French 75",
+          "Bloody Mary"
+        ],
+        "réponse": "Bloody Mary",
+        "anecdote": "In the film « Mona Lisa » (1986), a waiter offers the main character George a Bloody Mary but he refuses, preferring tea."
+      },
+      {
+        "id": 26,
+        "question": "What term can be used to designate rice wine or cereal wine ?",
+        "propositions": [
+          "Kir",
+          "Tequila",
+          "Sake",
+          "Vodka"
+        ],
+        "réponse": "Sake",
+        "anecdote": "Sake is a Japanese alcoholic beverage made from rice, traditionally consumed during ceremonies and meals."
+      },
+      {
+        "id": 27,
+        "question": "What drink is produced by fermentation of agave pulp ?",
+        "propositions": [
+          "Gin",
+          "Cognac",
+          "Tequila",
+          "Vodka"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila has ancient origins and today has become a symbol of Mexican culture around the world."
+      },
+      {
+        "id": 28,
+        "question": "What digestive liqueur is made in Fécamp, Normandy ?",
+        "propositions": [
+          "Juniper",
+          "Armagnac",
+          "Benedictine",
+          "Pulque"
+        ],
+        "réponse": "Benedictine",
+        "anecdote": "According to legend, a health elixir was developed at the abbey in 1510 by a Venetian monk, Dom Bernardo Vincelli."
+      },
+      {
+        "id": 29,
+        "question": "What word informally refers to brandies in German-speaking regions ?",
+        "propositions": [
+          "Schnapps",
+          "Palinka",
+          "Waldmeister",
+          "Apricotine"
+        ],
+        "réponse": "Schnapps",
+        "anecdote": "Il peut parfois plus spécifiquement faire référence aux alcools produits localement à base de prunes ou de cerises en Allemagne."
+      },
+      {
+        "id": 30,
+        "question": "Which eau-de-vie, a specialty of Lorraine, is an AOC designation ?",
+        "propositions": [
+          "Schnapps",
+          "Benedictine",
+          "Mirabelle",
+          "Lirette"
+        ],
+        "réponse": "Mirabelle",
+        "anecdote": "Although artisanal distillation still continues, most of the distilleries are located in Saintois and Côtes de Meuse."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Spirituose ist mit Anis und Lakritz aromatisiert ?",
+        "propositions": [
+          "Peket",
+          "Ouzo",
+          "Raki",
+          "Pastis"
+        ],
+        "réponse": "Pastis",
+        "anecdote": "Pastis, eine Variante des Absinths, ist ein traditioneller Aperitif der provenzalischen und französischen Küche, der oft 40 % stark ist."
+      },
+      {
+        "id": 2,
+        "question": "Welcher Cocktail wird mit Crème de Cassis und Burgunder-Aligoté-Weißwein zubereitet ?",
+        "propositions": [
+          "Tequila sunrise",
+          "Mojito",
+          "Kir",
+          "Cuba libre"
+        ],
+        "réponse": "Kir",
+        "anecdote": "Der Begriff hat sich seitdem auf viele Variationen von Blanc-Cassis (mit schwarzem Johannisbeersirup aromatisierter Weißwein) auf der ganzen Welt ausgeweitet."
+      },
+      {
+        "id": 3,
+        "question": "Welcher belgische Likör wird manchmal in bestimmten kulinarischen Zubereitungen verwendet ?",
+        "propositions": [
+          "Pisang Ambon",
+          "Galliano",
+          "Mandarine Napoleon",
+          "Malibu"
+        ],
+        "réponse": "Mandarine Napoleon",
+        "anecdote": "Er wurde unter dem Namen Mandarine Napoléon vermarktet und zunächst in Frankreich unter dem Namen kaiserlicher Mandarinenlikör vertrieben."
+      },
+      {
+        "id": 4,
+        "question": "Welches alkoholarme Getränk wird durch die Fermentation von Apfelsaft gewonnen ?",
+        "propositions": [
+          "Holunder",
+          "Armagnac",
+          "Frenette",
+          "Apfelwein"
+        ],
+        "réponse": "Apfelwein",
+        "anecdote": "Unter den Herstellern bezieht sich das Adjektiv Apfelwein sowohl auf das vergorene Getränk aus Apfel als auch auf Birne."
+      },
+      {
+        "id": 5,
+        "question": "Welcher italienische Schaumwein ist oft süßer als Prosecco ?",
+        "propositions": [
+          "Asti",
+          "Friaul",
+          "Vouvray",
+          "Alghero"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Nur Weißweine, die in dem durch das Dekret definierten Produktionsgebiet geerntet wurden, haben Anspruch auf die DOCG."
+      },
+      {
+        "id": 6,
+        "question": "Welches alkoholische Getränk ist als Nektar der Götter bekannt ?",
+        "propositions": [
+          "Bier",
+          "Likör",
+          "Wein",
+          "Whisky"
+        ],
+        "réponse": "Wein",
+        "anecdote": "Wein hat eine lange Geschichte und wurde in vielen alten Kulturen wegen seiner religiösen und kulturellen Bedeutung verehrt."
+      },
+      {
+        "id": 7,
+        "question": "Für welches Getränk werden Wacholderbeeren mit anderen Zutaten destilliert ?",
+        "propositions": [
+          "Rum",
+          "Gin",
+          "Tequila",
+          "Wodka"
+        ],
+        "réponse": "Gin",
+        "anecdote": "Gin hat eine interessante Geschichte und hat sich von einem einfachen medizinischen Getränk zu einer beliebten Cocktailbasis entwickelt."
+      },
+      {
+        "id": 8,
+        "question": "Welches Getränk wird traditionell in einem Glasbecher serviert ?",
+        "propositions": [
+          "Champagner",
+          "Bier",
+          "Martini",
+          "Sangria"
+        ],
+        "réponse": "Bier",
+        "anecdote": "Manchmal kann ein Krug auch mit einem Deckel ausgestattet sein, und es gibt sogar spezielle Humpen, die für Menschen mit Schnurrbart gedacht sind."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Gin-Cocktail hat den gleichen Namen wie eine Apfelsorte ?",
+        "propositions": [
+          "Pink Lady",
+          "Gala",
+          "Granny Smith",
+          "Jonagold"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "Es gibt mehrere beliebte Variationen des Pink Lady, allen gemeinsam ist die Verwendung von Gin, Grenadinesirup und Eiweiß."
+      },
+      {
+        "id": 10,
+        "question": "Welches Getränk wird auf Rotweinbasis mit mazerierten Früchten hergestellt ?",
+        "propositions": [
+          "Grappa",
+          "Retsina",
+          "Marquisette",
+          "Sangria"
+        ],
+        "réponse": "Sangria",
+        "anecdote": "Einigen Quellen zufolge stammt Sangria nicht aus Spanien, sondern aus Westindien oder Südamerika."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher 25-ml-Cocktail wird oft in Gruppen direkt an der Bar getrunken ?",
+        "propositions": [
+          "Fieber",
+          "Booster",
+          "Meister",
+          "Schütze"
+        ],
+        "réponse": "Schütze",
+        "anecdote": "Die Zutaten können mit einem Shaker oder Löffel vermischt oder einfach nacheinander direkt ins Glas gegeben werden."
+      },
+      {
+        "id": 12,
+        "question": "Welches fermentierte Getränk mit einem Alkoholgehalt von bis zu 18 % wird aus Wasser und Honig hergestellt ?",
+        "propositions": [
+          "Pulque",
+          "Arak",
+          "Met",
+          "Kirsch"
+        ],
+        "réponse": "Met",
+        "anecdote": "Met war bei den Griechen und Römern bekannt und geschätzt und erfreute sich im Mittelalter sowohl bei Familien als auch bei religiösen Menschen großer Beliebtheit."
+      },
+      {
+        "id": 13,
+        "question": "Was ist neben Roggen und Kartoffeln die Hauptbasis für Wodka ?",
+        "propositions": [
+          "Zuckerrohr",
+          "Reis",
+          "Weizen",
+          "Apfel"
+        ],
+        "réponse": "Weizen",
+        "anecdote": "Wodka wird oft mit Russland in Verbindung gebracht und kann aus einer Vielzahl von Zutaten hergestellt werden, wobei Weizen eine der häufigsten ist."
+      },
+      {
+        "id": 14,
+        "question": "Welches karibische Getränk reift in Eichenfässern ?",
+        "propositions": [
+          "Rum",
+          "Gin",
+          "Tequila",
+          "Wodka"
+        ],
+        "réponse": "Rum",
+        "anecdote": "Durch die Reifung in Eichenfässern (mindestens zwei Jahre) erhält der Rum seine komplexen Aromen und seine charakteristische Farbe."
+      },
+      {
+        "id": 15,
+        "question": "Welcher Minzblätter-Cocktail wird oft mit der Stadt Havanna in Verbindung gebracht ?",
+        "propositions": [
+          "Mojito",
+          "Margarita",
+          "Martini",
+          "Kosmopolitisch"
+        ],
+        "réponse": "Mojito",
+        "anecdote": "Der Mojito wurde in den 1910er Jahren in Kuba in der Karibik geboren und ist bis heute ein internationales exotisches Wahrzeichen."
+      },
+      {
+        "id": 16,
+        "question": "Welcher grüne Alkohol war einst in manchen Ländern verboten ?",
+        "propositions": [
+          "Sambuca",
+          "Limoncello",
+          "Absinth",
+          "Amaretto"
+        ],
+        "réponse": "Absinth",
+        "anecdote": "Absinth wurde wegen seiner angeblichen halluzinogenen Wirkung verboten, obwohl diese Behauptungen widerlegt wurden."
+      },
+      {
+        "id": 17,
+        "question": "Welches Getränk wird aus gemälzter Gerste und Quellwasser hergestellt ?",
+        "propositions": [
+          "Brandy",
+          "Tequila",
+          "Champagner",
+          "Whisky"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "Whisky (oder Whisky) reift in Fässern und entwickelt dabei reichhaltige Aromen und Komplexität, die je nach Herkunft variieren."
+      },
+      {
+        "id": 18,
+        "question": "Welcher italienische Brandy wird durch die Destillation von Traubentrester hergestellt ?",
+        "propositions": [
+          "Sambuca",
+          "Grappa",
+          "Amaretto",
+          "Limoncello"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Grappa ist ein italienischer Brandy, der seit Jahrhunderten zur Aufwertung von Weinnebenprodukten hergestellt wird."
+      },
+      {
+        "id": 19,
+        "question": "Welches Getränk ist eine Hauptzutat im Daïquiri, einem in Kuba erfundenen Cocktail ?",
+        "propositions": [
+          "Wodka",
+          "Gin",
+          "Whisky",
+          "Rum"
+        ],
+        "réponse": "Rum",
+        "anecdote": "Der ursprünglich aus Kuba stammende Daiquiri ist ein Cocktail, dessen Hauptzutaten weißer Rum, Limettensaft und Zucker sind."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Alkohol ist die Hauptzutat im Bloody Mary-Cocktail ?",
+        "propositions": [
+          "Tequila",
+          "Rum",
+          "Gin",
+          "Wodka"
+        ],
+        "réponse": "Wodka",
+        "anecdote": "Der Bloody Mary ist ein salziger und würziger Cocktail aus Wodka, der manchmal als Mittel gegen Kater gilt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher farblose Alkohol wird in einigen Häusern auf der Insel Lesbos hergestellt ?",
+        "propositions": [
+          "Retsina",
+          "Ouzo",
+          "Metaxa",
+          "Tsipouro"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Seit 1989 schreiben europäische Vorschriften vor, dass Ouzo in Griechenland hergestellt werden muss, um diesen Namen tragen zu dürfen."
+      },
+      {
+        "id": 22,
+        "question": "Welcher englischsprachige Begriff wird für einen Weinbrand verwendet ?",
+        "propositions": [
+          "Manhattan",
+          "Brandy",
+          "Damaskus",
+          "Quetsch"
+        ],
+        "réponse": "Brandy",
+        "anecdote": "Aus kaum erforschten Gründen ist es, wenn es in übermäßigen Mengen getrunken wird, einer der Spirituosen, die den heftigsten Kater hervorrufen."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Cocktail auf Kokoscremebasis stammt ursprünglich aus der Insel Puerto Rico ?",
+        "propositions": [
+          "Meeresbrise",
+          "Pina Colada",
+          "Negroni",
+          "Porto-Flip"
+        ],
+        "réponse": "Pina Colada",
+        "anecdote": "Die Zubereitung wird in einem Hurricane-Glas mit einem Strohhalm, einer Ananasscheibe und einer Cocktailkirsche zur Dekoration serviert."
+      },
+      {
+        "id": 24,
+        "question": "Welches Getränk wird traditionell aus blauer Agave hergestellt ?",
+        "propositions": [
+          "Brandy",
+          "Tequila",
+          "Wodka",
+          "Absinth"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila stammt ursprünglich aus Mexiko und wird aus der blauen Agavenpflanze hergestellt, was ihm einen einzigartigen Geschmack verleiht."
+      },
+      {
+        "id": 25,
+        "question": "Welcher mehr oder weniger stark gekühlte und würzige Cocktail enthält Tomatensaft ?",
+        "propositions": [
+          "Mimose",
+          "Bloody Mary",
+          "Mai-Tai",
+          "Französisch 75"
+        ],
+        "réponse": "Bloody Mary",
+        "anecdote": "Im Film « Mona Lisa » (1986) bietet ein Kellner der Hauptfigur George eine Bloody Mary an, doch dieser weigert sich und bevorzugt Tee."
+      },
+      {
+        "id": 26,
+        "question": "Mit welchem Begriff kann man Reiswein bzw. Getreidewein bezeichnen ?",
+        "propositions": [
+          "Wodka",
+          "Kir",
+          "Tequila",
+          "Sake"
+        ],
+        "réponse": "Sake",
+        "anecdote": "Sake ist ein japanisches alkoholisches Getränk aus Reis, das traditionell bei Zeremonien und Mahlzeiten konsumiert wird."
+      },
+      {
+        "id": 27,
+        "question": "Welches Getränk entsteht durch Fermentation von Agavenmark ?",
+        "propositions": [
+          "Brandy",
+          "Gin",
+          "Tequila",
+          "Wodka"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila hat uralte Ursprünge und ist heute weltweit ein Symbol der mexikanischen Kultur."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Verdauungslikör wird in Fécamp in der Normandie hergestellt ?",
+        "propositions": [
+          "Benediktiner",
+          "Armagnac",
+          "Wacholder",
+          "Pulque"
+        ],
+        "réponse": "Benediktiner",
+        "anecdote": "Der Legende nach wurde 1510 in der Abtei von einem venezianischen Mönch, Dom Bernardo Vincelli, ein Gesundheitselixier entwickelt."
+      },
+      {
+        "id": 29,
+        "question": "Welches Wort bezeichnet im deutschsprachigen Raum umgangssprachlich Brandys ?",
+        "propositions": [
+          "Schnaps",
+          "Waldmeister",
+          "Aprikotine",
+          "Palinka"
+        ],
+        "réponse": "Schnaps",
+        "anecdote": "Es kann sich manchmal spezifischer auf lokal hergestellte Spirituosen aus Pflaumen oder Kirschen in Deutschland beziehen."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Branntwein, eine Spezialität Lothringens, ist eine AOC-Bezeichnung ?",
+        "propositions": [
+          "Schnaps",
+          "Mirabelle",
+          "Benediktiner",
+          "Lirette"
+        ],
+        "réponse": "Mirabelle",
+        "anecdote": "Obwohl weiterhin handwerklich destilliert wird, befinden sich die meisten Brennereien in Saintois und Côtes de Meuse."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué bebida espirituosa se aromatiza con anís y regaliz ?",
+        "propositions": [
+          "Pastis",
+          "Ouzo",
+          "Raki",
+          "Peket"
+        ],
+        "réponse": "Pastis",
+        "anecdote": "Una variante de la absenta, el pastis es un aperitivo tradicional de la cocina provenzal y francesa que suele tener un 40 % de concentración."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué cóctel se elabora con crème de cassis y vino blanco Aligoté de Borgoña ?",
+        "propositions": [
+          "Tequila sunrise",
+          "Kir",
+          "Mojitos",
+          "Cuba libre"
+        ],
+        "réponse": "Kir",
+        "anecdote": "Desde entonces, el término se ha extendido a muchas variaciones de blanc-cassis (vino blanco aromatizado con jarabe de grosella negra) en todo el mundo."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué licor belga se utiliza a veces en determinadas preparaciones culinarias ?",
+        "propositions": [
+          "Mandarín Napoleón",
+          "Pisang Ambon",
+          "Galliano",
+          "Malibú"
+        ],
+        "réponse": "Mandarín Napoleón",
+        "anecdote": "Comercializado con el nombre de Mandarine Napoléon, se distribuyó por primera vez en Francia con el nombre de licor de mandarina imperial."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué bebida baja en alcohol se obtiene de la fermentación del jugo de manzana ?",
+        "propositions": [
+          "Sidra",
+          "Armañac",
+          "Frenette",
+          "Saúco"
+        ],
+        "réponse": "Sidra",
+        "anecdote": "Entre los productores, el adjetivo sidra se refiere tanto a la bebida fermentada elaborada a base de manzana como de pera."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué vino blanco espumoso italiano suele ser más dulce que el Prosecco ?",
+        "propositions": [
+          "Asti",
+          "Alguer",
+          "Vouvray",
+          "Friuli"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Sólo los vinos blancos cosechados dentro de la zona de producción definida por el decreto tienen derecho a la DOCG."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué bebida alcohólica se conoce como néctar de los dioses ?",
+        "propositions": [
+          "Licor",
+          "Vino",
+          "Cerveza",
+          "whisky"
+        ],
+        "réponse": "Vino",
+        "anecdote": "El vino tiene una larga historia y ha sido venerado en muchas culturas antiguas por su importancia religiosa y cultural."
+      },
+      {
+        "id": 7,
+        "question": "¿Para qué bebida se destilan las bayas de enebro con otros ingredientes ?",
+        "propositions": [
+          "Ginebra",
+          "vodka",
+          "Ron",
+          "Tequila"
+        ],
+        "réponse": "Ginebra",
+        "anecdote": "La ginebra tiene una historia interesante y ha evolucionado desde una simple bebida medicinal hasta una base de cóctel popular."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué bebida se sirve tradicionalmente en una taza de cristal ?",
+        "propositions": [
+          "Cerveza",
+          "Champán",
+          "Martini",
+          "Sangría"
+        ],
+        "réponse": "Cerveza",
+        "anecdote": "A veces, la jarra también puede tener una tapa, e incluso hay jarras específicas para personas con bigote."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué cóctel de ginebra tiene el mismo nombre que una marca de manzana ?",
+        "propositions": [
+          "Granny Smith",
+          "Gala",
+          "Jonagold",
+          "Pink Lady"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "Existen varias variaciones populares de la Dama Rosa, que tienen en común el uso de ginebra, jarabe de granadina y clara de huevo."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué bebida se elabora a partir de una base de vino tinto con macerado de frutas ?",
+        "propositions": [
+          "Retsina",
+          "Marquisette",
+          "Grapa",
+          "Sangría"
+        ],
+        "réponse": "Sangría",
+        "anecdote": "Según algunas fuentes, la sangría no proviene de España, sino de las Indias Occidentales o de América del Sur."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué cóctel de 25 ml se suele consumir en grupo directamente en la barra ?",
+        "propositions": [
+          "Tirador",
+          "Maestro",
+          "Refuerzo",
+          "Fiebre"
+        ],
+        "réponse": "Tirador",
+        "anecdote": "Los ingredientes se pueden mezclar con una coctelera o una cuchara, o simplemente verter uno tras otro directamente en el vaso."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué bebida fermentada, con una graduación alcohólica de hasta el 18%, se elabora con agua y miel ?",
+        "propositions": [
+          "Hidromiel",
+          "Pulque",
+          "Arak",
+          "Kirsch"
+        ],
+        "réponse": "Hidromiel",
+        "anecdote": "Conocido y apreciado por griegos y romanos, el hidromiel era popular entre las familias y las personas religiosas de la Edad Media."
+      },
+      {
+        "id": 13,
+        "question": "Además del centeno y la patata, ¿cuál es la base principal del vodka ?",
+        "propositions": [
+          "Trigo",
+          "Arroz",
+          "Manzana",
+          "Caña de azúcar"
+        ],
+        "réponse": "Trigo",
+        "anecdote": "A menudo asociado con Rusia, el vodka se puede producir a partir de una variedad de ingredientes, de los cuales el trigo es uno de los más comunes."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué bebida caribeña se añeja en barricas de roble ?",
+        "propositions": [
+          "Ginebra",
+          "vodka",
+          "Tequila",
+          "Ron"
+        ],
+        "réponse": "Ron",
+        "anecdote": "El envejecimiento en barricas de roble (mínimo dos años) confiere al ron sus aromas complejos y su color característico."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué cóctel de hojas de menta se asocia frecuentemente con la ciudad de La Habana ?",
+        "propositions": [
+          "Mojitos",
+          "Margarita",
+          "Cosmopolita",
+          "martini"
+        ],
+        "réponse": "Mojitos",
+        "anecdote": "El mojito nació en Cuba, en el Caribe, en la década de 1910, donde sigue siendo un emblema exótico internacional hasta el día de hoy."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué licor verde alguna vez estuvo prohibido en algunos países ?",
+        "propositions": [
+          "Absenta",
+          "Sambuca",
+          "Amareto",
+          "Limoncello"
+        ],
+        "réponse": "Absenta",
+        "anecdote": "La absenta fue prohibida por sus supuestos efectos alucinógenos, aunque estas afirmaciones han sido refutadas."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué bebida se elabora con cebada malteada y agua de manantial ?",
+        "propositions": [
+          "Champán",
+          "Whisky",
+          "Tequila",
+          "Aguardiente"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "El whisky (o whiskey) se añeja en barricas, desarrollando ricos sabores y una complejidad que varía según el origen."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué brandy italiano se elabora destilando orujo de uva ?",
+        "propositions": [
+          "Grapa",
+          "Sambuca",
+          "limoncello",
+          "Amareto"
+        ],
+        "réponse": "Grapa",
+        "anecdote": "La grappa es un brandy italiano, elaborado desde hace siglos como medio para valorizar los subproductos del vino."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué bebida es un ingrediente clave del Daïquiri, un cóctel inventado en Cuba ?",
+        "propositions": [
+          "vodka",
+          "Ron",
+          "whisky",
+          "Ginebra"
+        ],
+        "réponse": "Ron",
+        "anecdote": "Originario de Cuba, el daiquiri es un cóctel cuyos ingredientes principales son ron blanco, jugo de lima y azúcar."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué alcohol es el ingrediente principal del cóctel Bloody Mary ?",
+        "propositions": [
+          "Ron",
+          "Tequila",
+          "Ginebra",
+          "Vodka"
+        ],
+        "réponse": "Vodka",
+        "anecdote": "El Bloody Mary es un cóctel salado y picante, elaborado con vodka, que a veces se considera una cura para la resaca."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué alcohol incoloro producen algunas casas de la isla de Lesbos ?",
+        "propositions": [
+          "Metaxa",
+          "Ouzo",
+          "Retsina",
+          "Tsipuro"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Desde 1989, la normativa europea especifica que el ouzo debe producirse en Grecia para tener derecho a este nombre."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué término en inglés se utiliza para referirse a un brandy de vino ?",
+        "propositions": [
+          "Aguardiente",
+          "Quetsch",
+          "Damasco",
+          "Manhattan"
+        ],
+        "réponse": "Aguardiente",
+        "anecdote": "Por razones que no se comprenden bien, cuando se bebe en cantidades excesivas, es uno de los licores que provoca resacas más intensas."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué cóctel a base de crema de coco es originario de la isla de Puerto Rico ?",
+        "propositions": [
+          "Negroni",
+          "Piña colada",
+          "Oporto flip",
+          "Brisa del Mar"
+        ],
+        "réponse": "Piña colada",
+        "anecdote": "La preparación se sirve en una copa huracán con una pajita, una rodaja de piña y una cereza cóctel para decorar."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué bebida se elabora tradicionalmente con agave azul ?",
+        "propositions": [
+          "Tequila",
+          "Aguardiente",
+          "vodka",
+          "Absenta"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "El tequila es originario de México y se elabora a partir de la planta de agave azul, lo que le confiere un sabor único."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué cóctel más o menos frío y picante contiene jugo de tomate ?",
+        "propositions": [
+          "María Sangrienta",
+          "Francés 75",
+          "Mai Tai",
+          "Mimosa"
+        ],
+        "réponse": "María Sangrienta",
+        "anecdote": "En la película « Mona Lisa » (1986), un camarero le ofrece al personaje principal George un Bloody Mary, pero él lo rechaza y prefiere el té."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué término puede utilizarse para designar el vino de arroz o el vino de cereales ?",
+        "propositions": [
+          "Vodka",
+          "Sake",
+          "Tequila",
+          "Kir"
+        ],
+        "réponse": "Sake",
+        "anecdote": "El sake es una bebida alcohólica japonesa elaborada a base de arroz, consumida tradicionalmente durante ceremonias y comidas."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué bebida se produce por fermentación de la pulpa de agave ?",
+        "propositions": [
+          "Tequila",
+          "Ginebra",
+          "Vodka",
+          "Aguardiente"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "El tequila tiene orígenes antiguos y hoy se ha convertido en un símbolo de la cultura mexicana en todo el mundo."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué licor digestivo se elabora en Fécamp, Normandía ?",
+        "propositions": [
+          "Pulque",
+          "Benedictino",
+          "Enebro",
+          "Armañac"
+        ],
+        "réponse": "Benedictino",
+        "anecdote": "Según la leyenda, en 1510 un monje veneciano, Dom Bernardo Vincelli, desarrolló un elixir de salud en la abadía."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué palabra se refiere informalmente a los brandies en las regiones de habla alemana ?",
+        "propositions": [
+          "Waldmeister",
+          "Palinka",
+          "Albaricotino",
+          "Aguardiente"
+        ],
+        "réponse": "Aguardiente",
+        "anecdote": "A veces puede referirse más específicamente a bebidas espirituosas producidas localmente a partir de ciruelas o cerezas en Alemania."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué aguardiente, especialidad de Lorena, tiene denominación de origen ?",
+        "propositions": [
+          "Mirabella",
+          "Lireta",
+          "Aguardiente",
+          "benedictino"
+        ],
+        "réponse": "Mirabella",
+        "anecdote": "Aunque la destilación artesanal aún continúa, la mayoría de las destilerías están ubicadas en Saintois y Côtes de Meuse."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale bevanda spiritosa è aromatizzata con anice e liquirizia ?",
+        "propositions": [
+          "Ouzo",
+          "Pasticcio",
+          "Peket",
+          "Raki"
+        ],
+        "réponse": "Pasticcio",
+        "anecdote": "Variante dell'assenzio, il pastis è un aperitivo tradizionale della cucina provenzale e francese, spesso forte al 40 %."
+      },
+      {
+        "id": 2,
+        "question": "Quale cocktail si prepara con la crème de cassis e il vino bianco Aligoté di Borgogna ?",
+        "propositions": [
+          "Tequila sunrise",
+          "Kir",
+          "Mojito",
+          "Cuba Libera"
+        ],
+        "réponse": "Kir",
+        "anecdote": "Da allora il termine si è esteso a molte varianti di blanc-cassis (vino bianco aromatizzato con sciroppo di ribes nero) in tutto il mondo."
+      },
+      {
+        "id": 3,
+        "question": "Quale liquore belga viene talvolta utilizzato in determinate preparazioni culinarie ?",
+        "propositions": [
+          "Malibù",
+          "Mandarino Napoleone",
+          "Galliano",
+          "Pisang Ambon"
+        ],
+        "réponse": "Mandarino Napoleone",
+        "anecdote": "Commercializzato con il nome Mandarine Napoléon, fu distribuito per la prima volta in Francia con il nome di liquore al mandarino imperiale."
+      },
+      {
+        "id": 4,
+        "question": "Quale bevanda poco alcolica si ottiene dalla fermentazione del succo di mela ?",
+        "propositions": [
+          "Sidro",
+          "Armagnac",
+          "Sambuco",
+          "Frenette"
+        ],
+        "réponse": "Sidro",
+        "anecdote": "Tra i produttori l'aggettivo sidro si riferisce sia alla bevanda fermentata a base di mela che di pera."
+      },
+      {
+        "id": 5,
+        "question": "Quale vino bianco frizzante italiano è spesso più dolce del Prosecco ?",
+        "propositions": [
+          "Alghero",
+          "Asti",
+          "Friulano",
+          "Vouvray"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Hanno diritto alla DOCG solo i vini bianchi raccolti all'interno della zona di produzione delimitata dal decreto."
+      },
+      {
+        "id": 6,
+        "question": "Quale bevanda alcolica è conosciuta come il nettare degli dei ?",
+        "propositions": [
+          "Vino",
+          "Birra",
+          "Whisky",
+          "Liquore"
+        ],
+        "réponse": "Vino",
+        "anecdote": "Il vino ha una lunga storia ed è stato venerato in molte culture antiche per il suo significato religioso e culturale."
+      },
+      {
+        "id": 7,
+        "question": "Per quale bevanda vengono distillate le bacche di ginepro con altri ingredienti ?",
+        "propositions": [
+          "Vodka",
+          "Tequila",
+          "Gin",
+          "Rum"
+        ],
+        "réponse": "Gin",
+        "anecdote": "Il gin ha una storia interessante e si è evoluto da semplice bevanda medicinale a popolare base per cocktail."
+      },
+      {
+        "id": 8,
+        "question": "Quale bevanda viene tradizionalmente servita in una tazza di vetro ?",
+        "propositions": [
+          "Martini",
+          "Spumante",
+          "Sangria",
+          "Birra"
+        ],
+        "réponse": "Birra",
+        "anecdote": "A volte il boccale può essere dotato anche di un coperchio, e esistono anche boccali specifici destinati alle persone con i baffi."
+      },
+      {
+        "id": 9,
+        "question": "Quale cocktail di gin ha lo stesso nome di una marca di mela ?",
+        "propositions": [
+          "Granny Smith",
+          "Pink Lady",
+          "Galà",
+          "Jonagold"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "Esistono diverse varianti popolari del Pink Lady, accomunate dall'uso del gin, dello sciroppo di granatina e dell'albume."
+      },
+      {
+        "id": 10,
+        "question": "Quale bevanda è composta da una base di vino rosso con frutta macerata ?",
+        "propositions": [
+          "Sangria",
+          "Marchesa",
+          "Grappa",
+          "Retsina"
+        ],
+        "réponse": "Sangria",
+        "anecdote": "Secondo alcune fonti la sangria non proviene dalla Spagna, ma piuttosto dalle Indie Occidentali o dal Sud America."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale cocktail da 25 ml viene spesso consumato in gruppo direttamente al bar ?",
+        "propositions": [
+          "Febbre",
+          "Maestro",
+          "Sparatutto",
+          "Booster"
+        ],
+        "réponse": "Sparatutto",
+        "anecdote": "Gli ingredienti possono essere miscelati con uno shaker o un cucchiaio, oppure semplicemente versati uno dopo l'altro direttamente nel bicchiere."
+      },
+      {
+        "id": 12,
+        "question": "Quale bevanda fermentata, con una gradazione alcolica fino al 18%, è composta da acqua e miele ?",
+        "propositions": [
+          "Kirsch",
+          "Pulque",
+          "Idromele",
+          "Arak"
+        ],
+        "réponse": "Idromele",
+        "anecdote": "Conosciuto e apprezzato già dai Greci e dai Romani, nel Medioevo l'idromele era apprezzato sia dalle famiglie che dai religiosi."
+      },
+      {
+        "id": 13,
+        "question": "Oltre alla segale e alle patate, qual è la base principale della vodka ?",
+        "propositions": [
+          "Grano",
+          "Canna da zucchero",
+          "Riso",
+          "Mela"
+        ],
+        "réponse": "Grano",
+        "anecdote": "Spesso associata alla Russia, la vodka può essere prodotta da una varietà di ingredienti, tra cui il grano è uno dei più comuni."
+      },
+      {
+        "id": 14,
+        "question": "Quale bevanda caraibica viene invecchiata in botti di rovere ?",
+        "propositions": [
+          "Rum",
+          "Vodka",
+          "Gin",
+          "Tequila"
+        ],
+        "réponse": "Rum",
+        "anecdote": "L'invecchiamento in botti di rovere (minimo due anni) conferisce al rum i suoi aromi complessi e il colore caratteristico."
+      },
+      {
+        "id": 15,
+        "question": "Quale cocktail di foglie di menta è spesso associato alla città dell'Avana ?",
+        "propositions": [
+          "Martini",
+          "Mojito",
+          "Margherita",
+          "Cosmopolita"
+        ],
+        "réponse": "Mojito",
+        "anecdote": "Il mojito è nato a Cuba, nei Caraibi, negli anni '10, dove rimane ancora oggi un emblema esotico internazionale."
+      },
+      {
+        "id": 16,
+        "question": "Quale liquore verde una volta era vietato in alcuni paesi ?",
+        "propositions": [
+          "Amaretto",
+          "Assenzio",
+          "Sambuca",
+          "Limoncello"
+        ],
+        "réponse": "Assenzio",
+        "anecdote": "L'assenzio è stato bandito a causa dei suoi presunti effetti allucinogeni, sebbene queste affermazioni siano state confutate."
+      },
+      {
+        "id": 17,
+        "question": "Quale bevanda è fatta con malto d'orzo e acqua di sorgente ?",
+        "propositions": [
+          "Whisky",
+          "Brandy",
+          "Spumante",
+          "Tequila"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "Il whisky (o whisky) viene invecchiato in botti, sviluppando sapori ricchi e complessità che varia a seconda dell'origine."
+      },
+      {
+        "id": 18,
+        "question": "Quale brandy italiano si ottiene distillando le vinacce ?",
+        "propositions": [
+          "Grappa",
+          "Limoncello",
+          "Sambuca",
+          "Amaretto"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "La grappa è un'acquavite italiana, prodotta da secoli come mezzo per valorizzare i sottoprodotti del vino."
+      },
+      {
+        "id": 19,
+        "question": "Quale bevanda è l'ingrediente chiave del Daïquiri, un cocktail inventato a Cuba ?",
+        "propositions": [
+          "Vodka",
+          "Whisky",
+          "Gin",
+          "Rum"
+        ],
+        "réponse": "Rum",
+        "anecdote": "Originario di Cuba, il daiquiri è un cocktail i cui ingredienti principali sono rum bianco, succo di lime e zucchero."
+      },
+      {
+        "id": 20,
+        "question": "Quale alcol è l'ingrediente principale del cocktail Bloody Mary ?",
+        "propositions": [
+          "Gin",
+          "Vodka",
+          "Tequila",
+          "Rum"
+        ],
+        "réponse": "Vodka",
+        "anecdote": "Il Bloody Mary è un cocktail salato e speziato, a base di vodka, a volte considerato una cura per i postumi di una sbornia."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale alcol incolore viene prodotto in alcune case dell'isola di Lesbo ?",
+        "propositions": [
+          "Retsina",
+          "Ouzo",
+          "Metaxa",
+          "Cipouro"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Dal 1989 la normativa europea specifica che l'ouzo deve essere prodotto in Grecia per avere diritto a questo nome."
+      },
+      {
+        "id": 22,
+        "question": "Quale termine in lingua inglese viene utilizzato per riferirsi a un brandy di vino ?",
+        "propositions": [
+          "Damasco",
+          "Manhattan",
+          "Quetsch",
+          "Brandy"
+        ],
+        "réponse": "Brandy",
+        "anecdote": "Per ragioni poco conosciute, se bevuto in quantità eccessive, è uno degli alcolici che induce i postumi di una sbornia più intensi."
+      },
+      {
+        "id": 23,
+        "question": "Quale cocktail a base di crema di cocco è originario dell'isola di Porto Rico ?",
+        "propositions": [
+          "Capovolgimento di Porto",
+          "Brezza marina",
+          "Negroni",
+          "Pina colada"
+        ],
+        "réponse": "Pina colada",
+        "anecdote": "La preparazione viene servita in un bicchiere hurricane con una cannuccia, una fetta di ananas e una ciliegina da cocktail per la decorazione."
+      },
+      {
+        "id": 24,
+        "question": "Quale bevanda è tradizionalmente prodotta con l'agave blu ?",
+        "propositions": [
+          "Brandy",
+          "Vodka",
+          "Assenzio",
+          "Tequila"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "La tequila è originaria del Messico ed è prodotta con la pianta dell'agave blu, che le conferisce un gusto unico."
+      },
+      {
+        "id": 25,
+        "question": "Quale cocktail più o meno fortemente freddo e piccante contiene succo di pomodoro ?",
+        "propositions": [
+          "Mai Tai",
+          "Maria la Sanguinaria",
+          "Mimosa",
+          "francese 75"
+        ],
+        "réponse": "Maria la Sanguinaria",
+        "anecdote": "Nel film « Mona Lisa » (1986), un cameriere offre al protagonista George un Bloody Mary ma lui rifiuta, preferendo il tè."
+      },
+      {
+        "id": 26,
+        "question": "Quale termine può essere usato per designare il vino di riso o il vino di cereali ?",
+        "propositions": [
+          "Kir",
+          "Sake",
+          "Tequila",
+          "Vodka"
+        ],
+        "réponse": "Sake",
+        "anecdote": "Il sake è una bevanda alcolica giapponese a base di riso, tradizionalmente consumata durante cerimonie e pasti."
+      },
+      {
+        "id": 27,
+        "question": "Quale bevanda viene prodotta dalla fermentazione della polpa di agave ?",
+        "propositions": [
+          "Brandy",
+          "Gin",
+          "Tequila",
+          "Vodka"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "La tequila ha origini antichissime ed oggi è diventata un simbolo della cultura messicana nel mondo."
+      },
+      {
+        "id": 28,
+        "question": "Quale liquore digestivo si produce a Fécamp, in Normandia ?",
+        "propositions": [
+          "Pulque",
+          "Armagnac",
+          "Ginepro",
+          "Benedettino"
+        ],
+        "réponse": "Benedettino",
+        "anecdote": "Secondo la leggenda, nel 1510 nell'abbazia un monaco veneziano, Dom Bernardo Vincelli, sviluppò un elisir salutare."
+      },
+      {
+        "id": 29,
+        "question": "Quale parola si riferisce informalmente ai brandy nelle regioni di lingua tedesca ?",
+        "propositions": [
+          "Albicocca",
+          "Palinka",
+          "Waldmeister",
+          "Grappa"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "A volte può riferirsi più specificamente agli alcolici prodotti localmente a base di prugne o ciliegie in Germania."
+      },
+      {
+        "id": 30,
+        "question": "Quale acquavite, specialità della Lorena, è una denominazione AOC ?",
+        "propositions": [
+          "Benedettino",
+          "Grappa",
+          "Lirette",
+          "Mirabella"
+        ],
+        "réponse": "Mirabella",
+        "anecdote": "Sebbene la distillazione artigianale continui ancora, la maggior parte delle distillerie si trova a Saintois e Côtes de Meuse."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke gedistilleerde drank is op smaak gebracht met anijs en zoethout ?",
+        "propositions": [
+          "Pastis",
+          "Ouzo",
+          "Raki",
+          "Peket"
+        ],
+        "réponse": "Pastis",
+        "anecdote": "Pastis, een variant van absint, is een traditioneel aperitief uit de Provençaalse en Franse keuken dat vaak 40 % sterk is."
+      },
+      {
+        "id": 2,
+        "question": "Welke cocktail wordt gemaakt met crème de cassis en Bourgondische Aligoté witte wijn ?",
+        "propositions": [
+          "Vrij Cuba",
+          "Kir",
+          "Mojito",
+          "Tequila sunrise"
+        ],
+        "réponse": "Kir",
+        "anecdote": "De term is sindsdien uitgebreid tot vele varianten van blanc-cassis (witte wijn op smaak gebracht met zwarte bessensiroop) over de hele wereld."
+      },
+      {
+        "id": 3,
+        "question": "Welke Belgische likeur wordt soms gebruikt in bepaalde culinaire bereidingen ?",
+        "propositions": [
+          "Mandarijn Napoleon",
+          "Galliano",
+          "Pisang Ambon",
+          "Malibu"
+        ],
+        "réponse": "Mandarijn Napoleon",
+        "anecdote": "Op de markt gebracht onder de naam Mandarine Napoléon, werd het voor het eerst in Frankrijk gedistribueerd onder de naam keizerlijke mandarijnlikeur."
+      },
+      {
+        "id": 4,
+        "question": "Welke alcoholarme drank wordt verkregen door de fermentatie van appelsap ?",
+        "propositions": [
+          "Vlierbes",
+          "Cider",
+          "Frenette",
+          "Armagnac"
+        ],
+        "réponse": "Cider",
+        "anecdote": "Onder producenten verwijst het bijvoeglijk naamwoord cider naar zowel de gefermenteerde drank gemaakt van appel als peer."
+      },
+      {
+        "id": 5,
+        "question": "Welke Italiaanse mousserende witte wijn is vaak zoeter dan Prosecco ?",
+        "propositions": [
+          "Friuli",
+          "Asti",
+          "Vouvray",
+          "Alghero"
+        ],
+        "réponse": "Asti",
+        "anecdote": "Alleen witte wijnen die zijn geoogst binnen het door het decreet gedefinieerde productiegebied komen in aanmerking voor de DOCG."
+      },
+      {
+        "id": 6,
+        "question": "Welke alcoholische drank staat bekend als de nectar van de goden ?",
+        "propositions": [
+          "Whisky",
+          "Wijn",
+          "Bier",
+          "Likeur"
+        ],
+        "réponse": "Wijn",
+        "anecdote": "Wijn heeft een lange geschiedenis en wordt in veel oude culturen vereerd vanwege zijn religieuze en culturele betekenis."
+      },
+      {
+        "id": 7,
+        "question": "Voor welke drank worden jeneverbessen gedistilleerd met andere ingrediënten ?",
+        "propositions": [
+          "Wodka",
+          "Gin",
+          "Tequila",
+          "Rum"
+        ],
+        "réponse": "Gin",
+        "anecdote": "Gin heeft een interessante geschiedenis en is geëvolueerd van een eenvoudige medicinale drank tot een populaire cocktailbasis."
+      },
+      {
+        "id": 8,
+        "question": "Welk drankje wordt traditioneel geserveerd in een glazen mok ?",
+        "propositions": [
+          "Sangria",
+          "Martini",
+          "Bier",
+          "Champagne"
+        ],
+        "réponse": "Bier",
+        "anecdote": "Een kroes kan soms ook worden voorzien van een deksel, en er zijn zelfs specifieke kroezen bedoeld voor besnorde mensen."
+      },
+      {
+        "id": 9,
+        "question": "Welke gin-cocktail heeft dezelfde naam als een appelmerk ?",
+        "propositions": [
+          "Granny Smith",
+          "Pink Lady",
+          "Gala",
+          "Jonagold"
+        ],
+        "réponse": "Pink Lady",
+        "anecdote": "Er zijn verschillende populaire varianten van de Pink Lady, die het gebruik van gin, grenadinesiroop en eiwit gemeen hebben."
+      },
+      {
+        "id": 10,
+        "question": "Welke drank wordt gemaakt op basis van rode wijn met gemacereerd fruit ?",
+        "propositions": [
+          "Retsina",
+          "Markiezin",
+          "Sangria",
+          "Grappa"
+        ],
+        "réponse": "Sangria",
+        "anecdote": "Volgens sommige bronnen komt sangria niet uit Spanje, maar eerder uit West-Indië of Zuid-Amerika."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke 25 ml cocktail wordt vaak in groepen direct aan de bar genuttigd ?",
+        "propositions": [
+          "Koorts",
+          "Aanjager",
+          "Meester",
+          "Schutter"
+        ],
+        "réponse": "Schutter",
+        "anecdote": "De ingrediënten kunnen worden gemengd met een shaker of lepel, of eenvoudigweg na elkaar direct in het glas worden gegoten."
+      },
+      {
+        "id": 12,
+        "question": "Welke gefermenteerde drank, met een alcoholpercentage tot 18%, wordt gemaakt van water en honing ?",
+        "propositions": [
+          "Arak",
+          "Pulque",
+          "Mede",
+          "Kirsch"
+        ],
+        "réponse": "Mede",
+        "anecdote": "Bekend en gewaardeerd door de Grieken en Romeinen, was mede in de Middeleeuwen populair bij zowel gezinnen als religieuze mensen."
+      },
+      {
+        "id": 13,
+        "question": "Wat is naast rogge en aardappel de belangrijkste basis voor wodka ?",
+        "propositions": [
+          "Suikerriet",
+          "Tarwe",
+          "Appel",
+          "Rijst"
+        ],
+        "réponse": "Tarwe",
+        "anecdote": "Vaak geassocieerd met Rusland, kan wodka worden geproduceerd uit een verscheidenheid aan ingrediënten, waarvan tarwe een van de meest voorkomende is."
+      },
+      {
+        "id": 14,
+        "question": "Welke Caribische drank rijpt in eikenhouten vaten ?",
+        "propositions": [
+          "Wodka",
+          "Gin",
+          "Tequila",
+          "Rum"
+        ],
+        "réponse": "Rum",
+        "anecdote": "Rijping in eikenhouten vaten (minimaal twee jaar) geeft de rum zijn complexe aroma's en karakteristieke kleur."
+      },
+      {
+        "id": 15,
+        "question": "Welke muntbladcocktail wordt vaak geassocieerd met de stad Havana ?",
+        "propositions": [
+          "Mojito",
+          "Martini",
+          "Margarita",
+          "Kosmopolitisch"
+        ],
+        "réponse": "Mojito",
+        "anecdote": "De mojito werd in de jaren 1910 geboren in Cuba in het Caribisch gebied, waar hij tot op de dag van vandaag een internationaal exotisch embleem is."
+      },
+      {
+        "id": 16,
+        "question": "Welke groene drank was ooit in sommige landen verboden ?",
+        "propositions": [
+          "Sambuca",
+          "Absint",
+          "Amaretto",
+          "Limoncello"
+        ],
+        "réponse": "Absint",
+        "anecdote": "Absint werd verboden vanwege de vermeende hallucinogene effecten, hoewel deze beweringen zijn weerlegd."
+      },
+      {
+        "id": 17,
+        "question": "Welke drank wordt gemaakt van gemoute gerst en bronwater ?",
+        "propositions": [
+          "Brandewijn",
+          "Tequila",
+          "Champagne",
+          "Whisky"
+        ],
+        "réponse": "Whisky",
+        "anecdote": "Whisky (of whisky) rijpt in vaten en ontwikkelt rijke smaken en complexiteit die varieert afhankelijk van de herkomst."
+      },
+      {
+        "id": 18,
+        "question": "Welke Italiaanse brandewijn wordt gemaakt door druivendraf te distilleren ?",
+        "propositions": [
+          "Amaretto",
+          "Grappa",
+          "Sambuca",
+          "Limoncello"
+        ],
+        "réponse": "Grappa",
+        "anecdote": "Grappa is een Italiaanse brandewijn die al eeuwenlang wordt geproduceerd als middel om bijproducten van wijn te valoriseren."
+      },
+      {
+        "id": 19,
+        "question": "Welk drankje is een belangrijk ingrediënt in de Daïquiri, een cocktail uitgevonden in Cuba ?",
+        "propositions": [
+          "Gin",
+          "Whisky",
+          "Rum",
+          "Wodka"
+        ],
+        "réponse": "Rum",
+        "anecdote": "De daiquiri komt oorspronkelijk uit Cuba en is een cocktail waarvan de hoofdingrediënten witte rum, limoensap en suiker zijn."
+      },
+      {
+        "id": 20,
+        "question": "Welke alcohol is het hoofdingrediënt in de Bloody Mary-cocktail ?",
+        "propositions": [
+          "Wodka",
+          "Tequila",
+          "Rum",
+          "Gin"
+        ],
+        "réponse": "Wodka",
+        "anecdote": "De Bloody Mary is een zoute en pittige cocktail, gemaakt met wodka, die soms wordt beschouwd als een middel tegen een kater."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke kleurloze alcohol wordt in sommige huizen op het eiland Lesbos geproduceerd ?",
+        "propositions": [
+          "Metaxa",
+          "Ouzo",
+          "Tsipouro",
+          "Retsina"
+        ],
+        "réponse": "Ouzo",
+        "anecdote": "Sinds 1989 bepaalt de Europese regelgeving dat ouzo in Griekenland geproduceerd moet worden om recht te hebben op deze naam."
+      },
+      {
+        "id": 22,
+        "question": "Welke Engelstalige term wordt gebruikt om te verwijzen naar een wijnbrandewijn ?",
+        "propositions": [
+          "Damascus",
+          "Brandewijn",
+          "Manhattan",
+          "Quetsch"
+        ],
+        "réponse": "Brandewijn",
+        "anecdote": "Om onduidelijke redenen is het, wanneer het in overmatige hoeveelheden wordt gedronken, een van de sterke dranken die de meest intense katers veroorzaakt."
+      },
+      {
+        "id": 23,
+        "question": "Welke cocktail op basis van kokoscrème komt oorspronkelijk uit het eiland Puerto Rico ?",
+        "propositions": [
+          "Zeebries",
+          "Negroni",
+          "Pina colada",
+          "Portoflip"
+        ],
+        "réponse": "Pina colada",
+        "anecdote": "De bereiding wordt geserveerd in een orkaanglas met een rietje, een schijfje ananas en een cocktailkers ter decoratie."
+      },
+      {
+        "id": 24,
+        "question": "Welke drank wordt traditioneel gemaakt van blauwe agave ?",
+        "propositions": [
+          "Tequila",
+          "Wodka",
+          "Absint",
+          "Brandewijn"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila komt oorspronkelijk uit Mexico en wordt gemaakt van de blauwe agaveplant, waardoor het een unieke smaak heeft."
+      },
+      {
+        "id": 25,
+        "question": "Welke min of meer sterk gekoelde en pittige cocktail bevat tomatensap ?",
+        "propositions": [
+          "Bloedige Maria",
+          "Mimosa",
+          "Frans 75",
+          "Mai-Tai"
+        ],
+        "réponse": "Bloedige Maria",
+        "anecdote": "In de film « Mona Lisa » (1986) biedt een ober de hoofdpersoon George een Bloody Mary aan, maar hij weigert en geeft de voorkeur aan thee."
+      },
+      {
+        "id": 26,
+        "question": "Welke term kan worden gebruikt om rijstwijn of graanwijn aan te duiden ?",
+        "propositions": [
+          "Kir",
+          "Sake",
+          "Tequila",
+          "Wodka"
+        ],
+        "réponse": "Sake",
+        "anecdote": "Sake is een Japanse alcoholische drank gemaakt van rijst, die traditioneel wordt geconsumeerd tijdens ceremonies en maaltijden."
+      },
+      {
+        "id": 27,
+        "question": "Welke drank wordt geproduceerd door fermentatie van agavepulp ?",
+        "propositions": [
+          "Tequila",
+          "Gin",
+          "Wodka",
+          "Brandewijn"
+        ],
+        "réponse": "Tequila",
+        "anecdote": "Tequila heeft een eeuwenoude oorsprong en is tegenwoordig een symbool geworden van de Mexicaanse cultuur over de hele wereld."
+      },
+      {
+        "id": 28,
+        "question": "Welke spijsverteringslikeur wordt gemaakt in Fécamp, Normandië ?",
+        "propositions": [
+          "Armagnac",
+          "Benedictijner",
+          "Jeneverbes",
+          "Pulque"
+        ],
+        "réponse": "Benedictijner",
+        "anecdote": "Volgens de legende werd in 1510 in de abdij een gezondheidselixer ontwikkeld door een Venetiaanse monnik, Dom Bernardo Vincelli."
+      },
+      {
+        "id": 29,
+        "question": "Welk woord verwijst informeel naar brandewijn in de Duitstalige gebieden ?",
+        "propositions": [
+          "Waldmeester",
+          "Abrikoos",
+          "Palinka",
+          "Schnaps"
+        ],
+        "réponse": "Schnaps",
+        "anecdote": "Het kan soms specifieker verwijzen naar lokaal geproduceerde sterke drank gemaakt van pruimen of kersen in Duitsland."
+      },
+      {
+        "id": 30,
+        "question": "Welke eau-de-vie, een specialiteit uit Lotharingen, heeft een AOC-aanduiding ?",
+        "propositions": [
+          "Benedictijner",
+          "Liret",
+          "Schnaps",
+          "Mirabel"
+        ],
+        "réponse": "Mirabel",
+        "anecdote": "Hoewel de ambachtelijke distillatie nog steeds doorgaat, bevinden de meeste distilleerderijen zich in Saintois en Côtes de Meuse."
+      }
+    ]
+    }
+  }
+}

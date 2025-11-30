@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "4 / 5",
+  "version": 1,
+  "mise-à-jour": "2023-06-19",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Tourisme",
+      "nom": "Grands monuments",
+      "slogan": "Grimpez au sommet de vos connaissances"
+    },
+    "en": {
+      "catégorie": "Tourism",
+      "nom": "Great Monuments",
+      "slogan": "They are the pride of their country"
+    },
+    "es": {
+      "catégorie": "Turismo",
+      "nom": "Grandes Monumentos",
+      "slogan": "Ellos son el orgullo de su país"
+    },
+    "it": {
+      "catégorie": "Turismo",
+      "nom": "Grandi Monumenti",
+      "slogan": "Sono l'orgoglio del loro paese"
+    },
+    "de": {
+      "catégorie": "Tourismus",
+      "nom": "Große Denkmäler",
+      "slogan": "Sie sind der Stolz ihres Landes"
+    },
+    "nl": {
+      "catégorie": "Toerisme",
+      "nom": "Grote monumenten",
+      "slogan": "Ze zijn de trots van hun land"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Dans quel pays se dresse la Liberté éclairant le monde, ou Statue de la Liberté ?",
+        "propositions": [
+          "États-Unis",
+          "Canada",
+          "France",
+          "Royaume-Uni"
+        ],
+        "réponse": "États-Unis",
+        "anecdote": "La Statue de la Liberté est située sur l'île de Liberty Island au sud de Manhattan, à l'embouchure de l'Hudson et à proximité d'Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "Dans quel État européen se situe la Sagrada Familia, consacrée par Benoît XVI en 2010 ?",
+        "propositions": [
+          "Italie",
+          "Chypre",
+          "Portugal",
+          "Espagne"
+        ],
+        "réponse": "Espagne",
+        "anecdote": "La basilique est l'un des exemples les plus connus du modernisme catalan et un monument emblématique de la ville de Barcelone."
+      },
+      {
+        "id": 3,
+        "question": "Dans quel pays peut-on voir les pyramides de Gizeh, classées depuis 1979 ?",
+        "propositions": [
+          "Tunisie",
+          "Maroc",
+          "Afrique du Sud",
+          "Égypte"
+        ],
+        "réponse": "Égypte",
+        "anecdote": "Les pyramides de Gizeh, probablement les plus célèbres des pyramides d'Égypte, sont celles de Khéops, Khéphren et Mykérinos."
+      },
+      {
+        "id": 4,
+        "question": "Dans quel pays peut-on contempler la tour Eiffel, haute de 324 mètres ?",
+        "propositions": [
+          "États-Unis",
+          "Royaume-Uni",
+          "France",
+          "Italie"
+        ],
+        "réponse": "France",
+        "anecdote": "Construite par Gustave Eiffel, ce monument est devenu le symbole de la capitale française et un site touristique de premier plan."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel pays européen peut-on regarder le Colisée, à l'origine amphithéâtre Flavien ?",
+        "propositions": [
+          "Italie",
+          "Portugal",
+          "Espagne",
+          "Grèce"
+        ],
+        "réponse": "Italie",
+        "anecdote": "Situé dans le centre de la ville de Rome, cet immense amphithéâtre ovoïde est le plus grand jamais construit dans l'empire romain."
+      },
+      {
+        "id": 6,
+        "question": "Dans quelle ville peut-on entendre sonner Big Ben, énorme cloche de plus de 13 tonnes ?",
+        "propositions": [
+          "Londres",
+          "New York",
+          "Paris",
+          "Pékin"
+        ],
+        "réponse": "Londres",
+        "anecdote": "Big Ben se trouve au sommet de l'Elizabeth Tower, la tour horloge du Palais de Westminster, qui est le siège du parlement britannique."
+      },
+      {
+        "id": 7,
+        "question": "Dans quel pays retrouve-t-on la plus grande muraille du monde jamais construite ?",
+        "propositions": [
+          "France",
+          "Chine",
+          "Inde",
+          "Afrique du Sud"
+        ],
+        "réponse": "Chine",
+        "anecdote": "C'est la structure architecturale la plus importante jamais construite par l'être humain, à la fois en longueur, en surface et en masse."
+      },
+      {
+        "id": 8,
+        "question": "Quel musée parisien, indissociable de sa pyramide, est connu dans le monde entier ?",
+        "propositions": [
+          "Musée de Cluny",
+          "Musée Picasso",
+          "Musée du Louvre",
+          "Musée Rodin"
+        ],
+        "réponse": "Musée du Louvre",
+        "anecdote": "Adapté au tourisme de masse, le Louvre est le musée le plus visité au monde ainsi que le site culturel payant le plus visité de France."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel pays se dresse le Machu Picchu, perché sur un promontoire rocheux ?",
+        "propositions": [
+          "Cambodge",
+          "Bolivie",
+          "Pérou",
+          "Chili"
+        ],
+        "réponse": "Pérou",
+        "anecdote": "Machu Picchu, ville sacrée oubliée durant des siècles, est à ce jour considérée comme une oeuvre maîtresse de l'architecture inca."
+      },
+      {
+        "id": 10,
+        "question": "Quel mur représente le lieu le plus sacré de la religion juive ?",
+        "propositions": [
+          "De la honte",
+          "Des Lamentations",
+          "Des Noms",
+          "Des sables"
+        ],
+        "réponse": "Des Lamentations",
+        "anecdote": "Le Mur des Lamentations est vénéré par les juifs pour sa proximité avec le Saint des Saints, situé sur le mont du Temple."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qui a cassé le nez du Sphinx devant les grandes pyramides du plateau de Gizeh ?",
+        "propositions": [
+          "Henri IV",
+          "Louis XV",
+          "Charles IX",
+          "Napoléon"
+        ],
+        "réponse": "Napoléon",
+        "anecdote": "La suprématie des Blancs a conduit Napoléon à détruire le nez du Sphinx parce qu'il rappelait trop la majesté de l'homme noir."
+      },
+      {
+        "id": 12,
+        "question": "Sur quelles îles se trouvent les Moaï, gigantesques ancêtres divinisés de pierre ?",
+        "propositions": [
+          "Îles de Pâques",
+          "Îles Cook",
+          "Îles Galapagos",
+          "Îles de Noël"
+        ],
+        "réponse": "Îles de Pâques",
+        "anecdote": "La majorité des immenses monolithes de l'Île de Pâques est sculptée dans du tuf issu principalement de la carrière de Rano Raraku."
+      },
+      {
+        "id": 13,
+        "question": "Dans quel pays peut-on assister à un concert dans l'opéra de Sydney ?",
+        "propositions": [
+          "Australie",
+          "Samoa",
+          "Nouvelle-Zélande",
+          "Antarctique"
+        ],
+        "réponse": "Australie",
+        "anecdote": "L'opéra est aujourd'hui une attraction touristique majeure de la ville bien que les visiteurs ne puissent assister aux représentations."
+      },
+      {
+        "id": 14,
+        "question": "Aux États-Unis, quel célèbre bâtiment possède une forme de plan particulière ?",
+        "propositions": [
+          "Pentagone",
+          "Graceland",
+          "Kirkbride",
+          "Pickfair"
+        ],
+        "réponse": "Pentagone",
+        "anecdote": "Cet immeuble de cinq étages, inauguré le 15 janvier 1943, est le plus vaste immeuble de bureaux du monde et surtout le plus sécurisé."
+      },
+      {
+        "id": 15,
+        "question": "Quel grand monument métallique est représentatif de la ville de Bruxelles ?",
+        "propositions": [
+          "Voortrekker",
+          "Luizenmolen",
+          "Tour et Taxis",
+          "Atomium"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "L'Atomium représente la maille conventionnelle du cristal de fer (structure cubique centrée) agrandie plus de 165 milliards de fois."
+      },
+      {
+        "id": 16,
+        "question": "Dans laquelle de ces villes retrouve-t-on une réplique à échelle réduite de la tour Eiffel ?",
+        "propositions": [
+          "Hong Kong",
+          "Chicago",
+          "Moscou",
+          "Las Vegas"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "La réplique de 165 mètres, fortement similaire à l'originale, se situe en face de l'hôtel-casino Paris Las Vegas sur le Las Vegas Strip."
+      },
+      {
+        "id": 17,
+        "question": "Quel pont-aqueduc romain, comportant trois étages, enjambe le Gardon ?",
+        "propositions": [
+          "Pont de Seyssel",
+          "Pont du Gard",
+          "Pont Caquot",
+          "Pont Napoléon"
+        ],
+        "réponse": "Pont du Gard",
+        "anecdote": "Le pont du Gard assurait autrefois dans sa fonction première la continuité de l'aqueduc romain qui conduisait l'eau d'Uzès à Nîmes."
+      },
+      {
+        "id": 18,
+        "question": "Dans quel pays se trouve Angkor Vat, sur le site archéologique d'Angkor ?",
+        "propositions": [
+          "Thaïlande",
+          "Cambodge",
+          "Laos",
+          "Vietnam"
+        ],
+        "réponse": "Cambodge",
+        "anecdote": "Classées depuis 1992, les ruines d'Angkor sont situées dans les forêts au nord du Tonlé Sap, en bordure de la ville de Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "Dans quelle ville française peut-on retrouver une tour surnommée « Le Crayon » ?",
+        "propositions": [
+          "Limoges",
+          "Bordeaux",
+          "Lyon",
+          "Toulouse"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "La Tour Part-Dieu (anciennement tour du Crédit lyonnais) est un gratte-ciel de bureaux situé dans le quartier de la Part-Dieu à Lyon."
+      },
+      {
+        "id": 20,
+        "question": "Quels temples creusés dans la falaise ont été construits par le pharaon Ramsès II ?",
+        "propositions": [
+          "Esna",
+          "Péluse",
+          "Mallawi",
+          "Abou Simbel"
+        ],
+        "réponse": "Abou Simbel",
+        "anecdote": "Les temples d'Abou Simbel ont été construits sur le Nil au nord du lac Nasser, à environ 70 kilomètres de la deuxième cataracte du Nil."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel pays renferme la Tour de Belém, inscrite au patrimoine mondial de l'UNESCO ?",
+        "propositions": [
+          "Portugal",
+          "Israël",
+          "Égypte",
+          "Espagne"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "La Tour de Belém a été construite sur les bords du Tage dans la freguesia de Santa Maria de Belém, entre 1515 et 1521."
+      },
+      {
+        "id": 22,
+        "question": "Dans quel pays africain se situe le Voortrekker Monument consacré aux pionniers boers ?",
+        "propositions": [
+          "Ghana",
+          "Égypte",
+          "Mali",
+          "Afrique du Sud"
+        ],
+        "réponse": "Afrique du Sud",
+        "anecdote": "Symbole du nationalisme afrikaner, le monument se dresse depuis 1949 sur une colline à l'entrée sud de la capitale sud-africaine."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel État sud-américain peut-on admirer une célèbre statue de Carlos Pellegrini ?",
+        "propositions": [
+          "Brésil",
+          "Argentine",
+          "Bolivie",
+          "Colombie"
+        ],
+        "réponse": "Argentine",
+        "anecdote": "Durant sa période présidentielle, Carlos Pellegrini réussit à assainir les finances de l'État et créa la Banque de la Nation Argentine."
+      },
+      {
+        "id": 24,
+        "question": "Combien d'étages possède la tour de Pise, sur la Piazza dei Miracoli ?",
+        "propositions": [
+          "Huit",
+          "Treize",
+          "Dix",
+          "Cinq"
+        ],
+        "réponse": "Huit",
+        "anecdote": "La célébrité de la tour de Pise vient notamment de son inclinaison caractéristique, qui est actuellement d'un angle de 3°59' vers le sud."
+      },
+      {
+        "id": 25,
+        "question": "Depuis 1934, qu'est devenue la basilique Sainte-Sophie de Constantinople ?",
+        "propositions": [
+          "Hôtel",
+          "Mosquée",
+          "Musée",
+          "Église"
+        ],
+        "réponse": "Musée",
+        "anecdote": "La basilique Sainte-Sophie de Constantinople est dédiée au Christ, Sagesse de Dieu, selon la tradition théologique chrétienne."
+      },
+      {
+        "id": 26,
+        "question": "Combien de noms de savants sont gravés sur la base du premier étage de la Tour Eiffel ?",
+        "propositions": [
+          "87",
+          "55",
+          "64",
+          "72"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel a fait graver sur la tour 72 noms de scientifiques, ingénieurs ou industriels qui ont honoré la France de 1789 à 1889."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le style du Parthénon de l'Acropole à Athènes, réalisé en marbre du Pentélique ?",
+        "propositions": [
+          "Éolique",
+          "Corinthien",
+          "Ionique",
+          "Dorique"
+        ],
+        "réponse": "Dorique",
+        "anecdote": "Le Parthénon était consacré à la déesse Athéna, protectrice de la cité, mais également déesse de la guerre et de la sagesse."
+      },
+      {
+        "id": 28,
+        "question": "Quelle est la longueur du célèbre pont de pierre de Bordeaux ?",
+        "propositions": [
+          "339 mètres",
+          "560 mètres",
+          "487 mètres",
+          "621 mètres"
+        ],
+        "réponse": "487 mètres",
+        "anecdote": "Le pont de pierre de Bordeaux est construit en pierre et en brique, avec la particularité de comporter des espaces vides intérieurs."
+      },
+      {
+        "id": 29,
+        "question": "Quelle gare française classée a été mise en avant dans une publicité pour Chanel ?",
+        "propositions": [
+          "Gare de Lyon",
+          "Gare de Bordeaux",
+          "Gare de Toulouse",
+          "Gare de Limoges"
+        ],
+        "réponse": "Gare de Limoges",
+        "anecdote": "L'esthétique de la somptueuse gare de Limoges actuelle emprunte autant à un Art nouveau tardif qu'à l'Art déco et au néoclassicisme."
+      },
+      {
+        "id": 30,
+        "question": "Où pouvez-vous visiter le palais Jacques-Coeur, chef-d'oeuvre de l'architecture gothique ?",
+        "propositions": [
+          "Bourges",
+          "Bordeaux",
+          "Besançon",
+          "Blois"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "Le palais Jacques-Coeur est né de la volonté du riche marchand Jacques Coeur de bâtir une grande maison dans sa ville natale."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In which country stands Liberty lighting the world, or Statue of Liberty ?",
+        "propositions": [
+          "United Kingdom",
+          "France",
+          "Canada",
+          "United States"
+        ],
+        "réponse": "United States",
+        "anecdote": "This statue is located on the island of Liberty Island south of Manhattan, at the mouth of the Hudson and near Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "In which European state is the Sagrada Familia, consecrated by Benedict XVI in 2010 ?",
+        "propositions": [
+          "Italy",
+          "Portugal",
+          "Cyprus",
+          "Spain"
+        ],
+        "réponse": "Spain",
+        "anecdote": "This is one of the best-known examples of Catalan modernism and an emblematic monument of the city of Barcelona."
+      },
+      {
+        "id": 3,
+        "question": "In which country can we see the pyramids of Giza, classified since 1979 ?",
+        "propositions": [
+          "Morocco",
+          "South Africa",
+          "Egypt",
+          "Tunisia"
+        ],
+        "réponse": "Egypt",
+        "anecdote": "The three largest and most famous of the pyramids of Egypt are those of Cheops, Chephren and Mykerinos."
+      },
+      {
+        "id": 4,
+        "question": "In which country can one contemplate the Eiffel tower, high of 324 meters ?",
+        "propositions": [
+          "France",
+          "Italy",
+          "United States",
+          "United Kingdom"
+        ],
+        "réponse": "France",
+        "anecdote": "Built by Gustave Eiffel, this monument has become the symbol of the French capital and a leading tourist site."
+      },
+      {
+        "id": 5,
+        "question": "In which European country can one look at the Coliseum, originally amphitheater Flavien ?",
+        "propositions": [
+          "Italy",
+          "Portugal",
+          "Spain",
+          "Greece"
+        ],
+        "réponse": "Italy",
+        "anecdote": "This huge ovoid amphitheater is the largest ever built in the Roman Empire."
+      },
+      {
+        "id": 6,
+        "question": "In which city can we hear Big Ben sound, big bell of more than 13 tons ?",
+        "propositions": [
+          "Beijing",
+          "Paris",
+          "London",
+          "New York"
+        ],
+        "réponse": "London",
+        "anecdote": "Big Ben is at the top of the Elizabeth Tower, the clock tower of the Palace of Westminster, which is the seat of the British parliament."
+      },
+      {
+        "id": 7,
+        "question": "In which country does one find the greatest wall of the world ever built ?",
+        "propositions": [
+          "China",
+          "France",
+          "India",
+          "South Africa"
+        ],
+        "réponse": "China",
+        "anecdote": "Since 1987, the Great Wall has been classified as World Heritage by UNESCO under number 438."
+      },
+      {
+        "id": 8,
+        "question": "Which Parisian museum, inseparable from its pyramid, is known worldwide ?",
+        "propositions": [
+          "Picasso Museum",
+          "Louvre Museum",
+          "Cluny Museum",
+          "Rodin Museum"
+        ],
+        "réponse": "Louvre Museum",
+        "anecdote": "The Louvre is the most visited museum in the world and the most visited cultural site in France."
+      },
+      {
+        "id": 9,
+        "question": "In which country stands Machu Pichu, perched on a rocky promontory ?",
+        "propositions": [
+          "Cambodia",
+          "Pere",
+          "Chile",
+          "Bolivia"
+        ],
+        "réponse": "Pere",
+        "anecdote": "Machu Picchu, sacred city forgotten for centuries, is considered as a masterpiece of Inca architecture."
+      },
+      {
+        "id": 10,
+        "question": "Which wall represents the most sacred place of the Jewish religion ?",
+        "propositions": [
+          "Shame",
+          "Names",
+          "Sand",
+          "Lamentations"
+        ],
+        "réponse": "Lamentations",
+        "anecdote": "The Western Wall is worshiped by Jews for its proximity to the Holy of Holies, located on the Temple Mount."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Who broke the nose of the Sphinx that stands in front of the great pyramids of the Giza plateau ?",
+        "propositions": [
+          "Henri IV",
+          "Napoléon",
+          "Charles IX",
+          "Louis XV"
+        ],
+        "réponse": "Napoléon",
+        "anecdote": "The supremacy of the whites led Napoleon to destroy the nose of the Sphinx because it reminded too much of the majesty of the black man."
+      },
+      {
+        "id": 12,
+        "question": "On which islands are the Moai, gigantic divinized ancestors of stone ?",
+        "propositions": [
+          "Easter Island",
+          "Christmas Islands",
+          "Galapagos Islands",
+          "Cook Islands"
+        ],
+        "réponse": "Easter Island",
+        "anecdote": "The majority of these monoliths are carved in tufa mainly from the Rano Raraku quarry."
+      },
+      {
+        "id": 13,
+        "question": "In which country can you attend a concert in the Sydney Opera ?",
+        "propositions": [
+          "New Zealand",
+          "Samoa",
+          "Antarctic",
+          "Australia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "The opera is now a major tourist attraction of the city although visitors can not attend the performances."
+      },
+      {
+        "id": 14,
+        "question": "In the United States, what famous building possesses a particular plan shape ?",
+        "propositions": [
+          "Pentagon",
+          "Graceland",
+          "Pickfair",
+          "Kirkbride"
+        ],
+        "réponse": "Pentagon",
+        "anecdote": "This five-storey building, inaugurated on January 15, 1943, is the largest office building in the world."
+      },
+      {
+        "id": 15,
+        "question": "What big metal monument is representative of the city of Brussels ?",
+        "propositions": [
+          "Atomium",
+          "Luizenmolen",
+          "Voortrekker",
+          "Tour and Taxis"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "The Atomium represents the conventional mesh of iron crystal (centered cubic structure) magnified 165 billion times."
+      },
+      {
+        "id": 16,
+        "question": "In which of these cities do we find a small-scale replica of the Eiffel Tower ?",
+        "propositions": [
+          "Chicago",
+          "Hong Kong",
+          "Moscow",
+          "Las Vegas"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "The 165-meter replica is across the street from the Paris Las Vegas casino-hotel on the Las Vegas Strip."
+      },
+      {
+        "id": 17,
+        "question": "Which Roman aqueduct with three floors spans the Roach ?",
+        "propositions": [
+          "Napoléon Bridge",
+          "Seyssel Bridge",
+          "Pont du Gard",
+          "Caquot Bridge"
+        ],
+        "réponse": "Pont du Gard",
+        "anecdote": "The bridge ensured in its first function the continuity of the Roman aqueduct that led the water from Uzès to Nîmes."
+      },
+      {
+        "id": 18,
+        "question": "In which country is Angkor Wat, on the archaeological site of Angkor ?",
+        "propositions": [
+          "Cambodia",
+          "Vietnam",
+          "Laos",
+          "Thailand"
+        ],
+        "réponse": "Cambodia",
+        "anecdote": "The ruins of Angkor are located in the forests north of the Tonle Sap, on the edge of the city of Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "In which French city can we find a tower called « Le Crayon » ?",
+        "propositions": [
+          "Limoges",
+          "Toulouse",
+          "Lyon",
+          "Bordeaux"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "The Part-Dieu Tower is an office skyscraper located in the Part-Dieu district of Lyon, France."
+      },
+      {
+        "id": 20,
+        "question": "Which temples dug into the cliff were built by Pharaoh Ramses II ?",
+        "propositions": [
+          "Mallawi",
+          "Péluse",
+          "Abu Simbel",
+          "Esna"
+        ],
+        "réponse": "Abu Simbel",
+        "anecdote": "The temples were built north of Lake Nasser on the Nile, about 70 kilometers from the second cataract of the Nile."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which country contains the Belém Tower, a UNESCO World Heritage Site ?",
+        "propositions": [
+          "Spain",
+          "Israel",
+          "Portugal",
+          "Egypt"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "The Tower of Belém was built on the banks of the Tagus in the freguesia of Santa Maria de Belém between 1515 and 1521."
+      },
+      {
+        "id": 22,
+        "question": "In which African country is the Voortrekker Monument, paying tribute to the Boer pioneers ?",
+        "propositions": [
+          "Ghana",
+          "Mali",
+          "Egypt",
+          "South Africa"
+        ],
+        "réponse": "South Africa",
+        "anecdote": "A symbol of Afrikaner nationalism, the monument has stood on a hill since 1949 at the southern entrance to the South African capital."
+      },
+      {
+        "id": 23,
+        "question": "In what South-American state can we admire a famous statue of Carlos Pellegrini ?",
+        "propositions": [
+          "Brazil",
+          "Argentina",
+          "Colombia",
+          "Bolivia"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "During his presidential term, he succeeded in cleaning up the finances of the state and created the Bank of the Argentine Nation."
+      },
+      {
+        "id": 24,
+        "question": "How many floors does the tower of Pisa have in Piazza dei Miracoli ?",
+        "propositions": [
+          "Five",
+          "Ten",
+          "Thirteen",
+          "Eight"
+        ],
+        "réponse": "Eight",
+        "anecdote": "Its celebrity comes especially from its characteristic inclination, which is currently at an angle of 3 ° 59 'to the south."
+      },
+      {
+        "id": 25,
+        "question": "Since 1934, what has become of the Saint Sophia Basilica in Constantinople ?",
+        "propositions": [
+          "A church",
+          "A hotel",
+          "A mosque",
+          "A museum"
+        ],
+        "réponse": "A museum",
+        "anecdote": "The basilica is dedicated to Christ, « Wisdom of God », according to the Christian theological tradition."
+      },
+      {
+        "id": 26,
+        "question": "How many names of scholars are engraved on the base of the first floor of the Eiffel Tower ?",
+        "propositions": [
+          "72",
+          "87",
+          "64",
+          "55"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel has engraved 72 names of scientists, engineers or industrialists who have honored France from 1789 to 1889."
+      },
+      {
+        "id": 27,
+        "question": "What is the style of the Parthenon of the Acropolis in Athens, made of marble Pentelic ?",
+        "propositions": [
+          "Electric",
+          "Doric",
+          "Ionic",
+          "Corinthian"
+        ],
+        "réponse": "Doric",
+        "anecdote": "The Parthé non was dedicated to the dean Athena Parthenos, protector of the city and the deserter of war and wisdom."
+      },
+      {
+        "id": 28,
+        "question": "What is the length of the famous stone bridge of Bordeaux ?",
+        "propositions": [
+          "339 meters",
+          "487 meters",
+          "560 meters",
+          "621 meters"
+        ],
+        "réponse": "487 meters",
+        "anecdote": "The bridge is built of stone and brick, with the particularity of having interior voids."
+      },
+      {
+        "id": 29,
+        "question": "Which classy French station was featured in a Chanel brand advertising ?",
+        "propositions": [
+          "Toulouse Station",
+          "Station Limoges",
+          "Gare de Lyon",
+          "Bordeaux Station"
+        ],
+        "réponse": "Station Limoges",
+        "anecdote": "The aesthetic of the current building borrows as much from a late Art Nouveau as from Art Deco and Neoclassicism."
+      },
+      {
+        "id": 30,
+        "question": "Where can you visit the Palais Jacques-Coeur, a masterpiece of late Gothic architecture ?",
+        "propositions": [
+          "Bordeaux",
+          "Bourges",
+          "Blois",
+          "Besançon"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "This building was born from the desire of the rich merchant Jacques Coeur to build a large house in his hometown."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welchem Land steht Liberty, das die Welt oder die Freiheitsstatue beleuchtet ?",
+        "propositions": [
+          "Kanada",
+          "Vereinigte Staaten von Amerika",
+          "Vereinigtes Königreich",
+          "Frankreich"
+        ],
+        "réponse": "Vereinigte Staaten von Amerika",
+        "anecdote": "Diese Statue befindet sich auf der Insel Liberty Island südlich von Manhattan, an der Mündung des Hudson und in der Nähe von Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "In welchem europäischen Staat ist die Sagrada Familia, die 2010 von Benedikt XVI. Geweiht wurde ?",
+        "propositions": [
+          "Portugal",
+          "Spanien",
+          "Italien",
+          "Zypern"
+        ],
+        "réponse": "Spanien",
+        "anecdote": "Dies ist eines der bekanntesten Beispiele der katalanischen Moderne und ein emblematisches Denkmal der Stadt Barcelona."
+      },
+      {
+        "id": 3,
+        "question": "In welchem Land können wir die seit 1979 klassifizierten Pyramiden von Gizeh sehen ?",
+        "propositions": [
+          "Tunesien",
+          "Südafrika",
+          "Ägypten",
+          "Marokko"
+        ],
+        "réponse": "Ägypten",
+        "anecdote": "Die drei größten und berühmtesten Pyramiden Ägyptens sind die von Khéops, Khéphren und Mykérinos."
+      },
+      {
+        "id": 4,
+        "question": "In welchem Land kann man den 324 Meter hohen Eiffelturm betrachten ?",
+        "propositions": [
+          "Vereinigte Staaten von Amerika",
+          "Italien",
+          "Vereinigtes Königreich",
+          "Frankreich"
+        ],
+        "réponse": "Frankreich",
+        "anecdote": "Das von Gustave Eiffel erbaute Denkmal wurde zum Symbol der französischen Hauptstadt und zu einem der wichtigsten Sehenswürdigkeiten."
+      },
+      {
+        "id": 5,
+        "question": "In welchem europäischen Land kann man das Kolosseum, ursprünglich Amphitheater Flavien, betrachten ?",
+        "propositions": [
+          "Griechenland",
+          "Portugal",
+          "Italien",
+          "Spanien"
+        ],
+        "réponse": "Italien",
+        "anecdote": "Dieses riesige eiförmige Amphitheater ist das größte, das jemals im Römischen Reich gebaut wurde."
+      },
+      {
+        "id": 6,
+        "question": "In welcher Stadt hören wir Big Ben Sound, große Glocke von mehr als 13 Tonnen ?",
+        "propositions": [
+          "Paris ","Paris",
+          "Peking",
+          "London",
+          "New York ","New York"
+        ],
+        "réponse": "London",
+        "anecdote": "Big Ben liegt an der Spitze des Elizabeth Tower, dem Uhrturm des Palace of Westminster, dem Sitz des britischen Parlaments."
+      },
+      {
+        "id": 7,
+        "question": "In welchem Land findet man die größte jemals gebaute Mauer der Welt ?",
+        "propositions": [
+          "Südafrika",
+          "China",
+          "Frankreich",
+          "Indien"
+        ],
+        "réponse": "China",
+        "anecdote": "Seit 1987 wurde die Große Mauer von der UNESCO unter der Nummer 438 zum Weltkulturerbe erklärt."
+      },
+      {
+        "id": 8,
+        "question": "Welches Pariser Museum, untrennbar mit seiner Pyramide, ist weltweit bekannt ?",
+        "propositions": [
+          "Picasso Museum",
+          "Rodin Museum",
+          "Louvre Museum",
+          "Cluny Museum"
+        ],
+        "réponse": "Louvre Museum",
+        "anecdote": "Der Louvre ist das meistbesuchte Museum der Welt und die meistbesuchte Kulturstätte Frankreichs."
+      },
+      {
+        "id": 9,
+        "question": "In welchem Land steht Machu Pichu, auf einem Felsvorsprung gelegen ?",
+        "propositions": [
+          "Kambodscha",
+          "Chile",
+          "Bolivien ","Bolivie",
+          "Pere"
+        ],
+        "réponse": "Pere",
+        "anecdote": "Machu Picchu, eine seit Jahrhunderten vergessene heilige Stadt, gilt als ein Meisterwerk der Inka-Architektur."
+      },
+      {
+        "id": 10,
+        "question": "Welche Wand repräsentiert den heiligsten Ort der jüdischen Religion ?",
+        "propositions": [
+          "Namen",
+          "Schande",
+          "Sand",
+          "Wehklagen"
+        ],
+        "réponse": "Wehklagen",
+        "anecdote": "Die Westmauer wird von Juden wegen ihrer Nähe zum Allerheiligsten auf dem Tempelberg verehrt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wer hat die Nase der Sphinx gebrochen, die vor den großen Pyramiden des Giza-Plateaus steht ?",
+        "propositions": [
+          "Henri IV ","Henri IV",
+          "Napoléon",
+          "Ludwig XV ","Louis XV",
+          "Charles IX ","Charles IX"
+        ],
+        "réponse": "Napoléon",
+        "anecdote": "Die Vorherrschaft der Weißen führte Napoleon dazu, die Nase der Sphinx zu zerstören, weil sie zu sehr an die Majestät des Schwarzen erinnerte."
+      },
+      {
+        "id": 12,
+        "question": "Auf welchen Inseln sind die Moai, gigantische, gottverdammte Vorfahren von Stein ?",
+        "propositions": [
+          "Galapagos Inseln",
+          "Weihnachtsinseln",
+          "Osterinsel",
+          "Cookinseln"
+        ],
+        "réponse": "Osterinsel",
+        "anecdote": "Die meisten dieser Monolithen sind aus dem Rano Raraku Steinbruch in Tuffstein gehauen."
+      },
+      {
+        "id": 13,
+        "question": "In welchem Land können Sie ein Konzert in der Sydney Opera besuchen ?",
+        "propositions": [
+          "Neuseeland",
+          "Australien",
+          "Antarktis",
+          "Samoa"
+        ],
+        "réponse": "Australien",
+        "anecdote": "Die Oper ist heute eine wichtige Touristenattraktion der Stadt, obwohl Besucher die Aufführungen nicht besuchen können."
+      },
+      {
+        "id": 14,
+        "question": "Welches berühmte Gebäude besitzt in den USA eine bestimmte Grundrissform ?",
+        "propositions": [
+          "Graceland",
+          "Pickfair",
+          "Pentagon",
+          "Kirkbride"
+        ],
+        "réponse": "Pentagon",
+        "anecdote": "Das fünfstöckige Gebäude, das am 15. Januar 1943 eingeweiht wurde, ist das größte Bürogebäude der Welt."
+      },
+      {
+        "id": 15,
+        "question": "Welches große Metalldenkmal ist repräsentativ für die Stadt Brüssel ?",
+        "propositions": [
+          "Luizenmolen",
+          "Atomium",
+          "Voortrekker",
+          "Tour und Taxis"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "Das Atomium repräsentiert das herkömmliche Gitter aus Eisenkristall (zentrierte kubische Struktur), das 165 Milliarden Mal vergrößert wurde."
+      },
+      {
+        "id": 16,
+        "question": "In welcher dieser Städte finden wir eine kleine Nachbildung des Eiffelturms ?",
+        "propositions": [
+          "Moskau",
+          "Las Vegas",
+          "Chicago",
+          "Hongkong"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "Die 165-Meter-Replik befindet sich auf der gegenüberliegenden Straßenseite des Las Vegas Las Vegas Strip."
+      },
+      {
+        "id": 17,
+        "question": "Welches römische Aquädukt mit drei Stockwerken überspannt die Roach ?",
+        "propositions": [
+          "Caquot Brücke",
+          "Seyssel-Brücke",
+          "Napoléon Brücke",
+          "Pont du Gard"
+        ],
+        "réponse": "Pont du Gard",
+        "anecdote": "Die Brücke stellte in ihrer ersten Funktion die Kontinuität des römischen Aquädukts sicher, das das Wasser von Uzès nach Nîmes führte."
+      },
+      {
+        "id": 18,
+        "question": "In welchem Land liegt Angkor Wat, auf der archäologischen Stätte von Angkor ?",
+        "propositions": [
+          "Thailand",
+          "Laos",
+          "Vietnam",
+          "Kambodscha"
+        ],
+        "réponse": "Kambodscha",
+        "anecdote": "Die Ruinen von Angkor befinden sich in den Wäldern nördlich des Tonle Sap am Rande der Stadt Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "In welcher französischen Stadt finden wir einen Turm namens « Le Crayon » ?",
+        "propositions": [
+          "Toulouse",
+          "Lyon",
+          "Limoges",
+          "Bordeaux"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "Der Part-Dieu Tower ist ein Büro-Hochhaus im Stadtteil Part-Dieu in Lyon, Frankreich."
+      },
+      {
+        "id": 20,
+        "question": "Welche Tempel wurden von Pharao Ramses II. In die Klippen gegraben ?",
+        "propositions": [
+          "Péluse",
+          "Mallawi",
+          "Abu Simbel",
+          "Esna"
+        ],
+        "réponse": "Abu Simbel",
+        "anecdote": "Die Tempel wurden nördlich des Nassersees am Nil gebaut, etwa 70 Kilometer vom zweiten Katarakt des Nils entfernt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In welchem Land befindet sich der Belém Tower, ein UNESCO Weltkulturerbe ?",
+        "propositions": [
+          "Israel",
+          "Spanien",
+          "Ägypten",
+          "Portugal"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "Der Turm von Belém wurde zwischen 1515 und 1521 am Ufer des Tejo in der Freguesia Santa Maria de Belém erbaut."
+      },
+      {
+        "id": 22,
+        "question": "In welchem afrikanischen Land ist das Voortrekker Monument zu Ehren der Buren-Pioniere ?",
+        "propositions": [
+          "Ghana",
+          "Ägypten",
+          "Südafrika",
+          "Mali"
+        ],
+        "réponse": "Südafrika",
+        "anecdote": "Als Symbol des afrikaerischen Nationalismus steht das Denkmal seit 1949 am südlichen Eingang der südafrikanischen Hauptstadt auf einem Hügel."
+      },
+      {
+        "id": 23,
+        "question": "In welchem südamerikanischen Staat können wir eine berühmte Statue von Carlos Pellegrini bewundern ?",
+        "propositions": [
+          "Argentinien",
+          "Bolivien ","Bolivie",
+          "Brasilien",
+          "Kolumbien"
+        ],
+        "réponse": "Argentinien",
+        "anecdote": "Während seiner Präsidentschaft schaffte er es, die Staatsfinanzen aufzuräumen und schuf die Bank der argentinischen Nation."
+      },
+      {
+        "id": 24,
+        "question": "Wie viele Stockwerke hat der Turm von Pisa auf der Piazza dei Miracoli ?",
+        "propositions": [
+          "Zehn",
+          "Acht",
+          "Dreizehn",
+          "Fünf"
+        ],
+        "réponse": "Acht",
+        "anecdote": "Seine Berühmtheit kommt vor allem von seiner charakteristischen Neigung, die derzeit in einem Winkel von 3 ° 59 'nach Süden ist."
+      },
+      {
+        "id": 25,
+        "question": "Seit 1934, was ist aus der St. Sophia Basilika in Konstantinopel geworden ?",
+        "propositions": [
+          "Eine Kirche",
+          "Eine Moschee",
+          "Ein Hotel",
+          "Ein Museum"
+        ],
+        "réponse": "Ein Museum",
+        "anecdote": "Die Basilika ist nach der christlichen theologischen Tradition Christus, « der Weisheit Gottes », gewidmet."
+      },
+      {
+        "id": 26,
+        "question": "Wie viele Namen von Gelehrten sind auf der Basis des ersten Stocks des Eiffelturms eingraviert ?",
+        "propositions": [
+          "87",
+          "72",
+          "64",
+          "55"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel hat 72 Namen von Wissenschaftlern, Ingenieuren oder Industriellen eingraviert, die Frankreich von 1789 bis 1889 geehrt haben."
+      },
+      {
+        "id": 27,
+        "question": "Wie ist der Stil des Parthenon der Akropolis in Athen aus Marmor Pentelic ?",
+        "propositions": [
+          "Korinther",
+          "Elektrisch",
+          "Dorisch",
+          "Ionisch"
+        ],
+        "réponse": "Dorisch",
+        "anecdote": "Die Parthé non war dem Dekan Athena Parthenos gewidmet, Beschützer der Stadt und Deserteur von Krieg und Weisheit."
+      },
+      {
+        "id": 28,
+        "question": "Wie lang ist die berühmte Steinbrücke von Bordeaux ?",
+        "propositions": [
+          "339 Meter",
+          "560 Meter",
+          "621 Meter",
+          "487 Meter"
+        ],
+        "réponse": "487 Meter",
+        "anecdote": "Die Brücke ist aus Stein und Ziegel gebaut, mit der Besonderheit, innere Hohlräume zu haben."
+      },
+      {
+        "id": 29,
+        "question": "Welchen noblen französischen Sender gab es in einer Werbung der Marke Chanel ?",
+        "propositions": [
+          "Toulouse Station",
+          "Bahnhof Limoges",
+          "Bordeaux Bahnhof",
+          "Gare de Lyon"
+        ],
+        "réponse": "Bahnhof Limoges",
+        "anecdote": "Die Ästhetik des aktuellen Gebäudes lehnt sich sowohl an einen späten Jugendstil als auch an Art Deco und Neoklassizismus an."
+      },
+      {
+        "id": 30,
+        "question": "Wo kann man das Palais Jacques-Coeur besichtigen, ein Meisterwerk der spätgotischen Architektur ?",
+        "propositions": [
+          "Bordeaux",
+          "Bourges",
+          "Blois",
+          "Besançon"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "Dieses Gebäude entstand aus dem Wunsch des reichen Kaufmanns Jacques Coeur, ein großes Haus in seiner Heimatstadt zu bauen."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿En qué país se encuentra la Libertad iluminando el mundo, o la Estatua de la Libertad ?",
+        "propositions": [
+          "Francia",
+          "Canada",
+          "Estados unidos",
+          "Reino Unido"
+        ],
+        "réponse": "Estados unidos",
+        "anecdote": "Esta estatua se encuentra en la isla de Liberty Island, al sur de Manhattan, en la desembocadura del Hudson y cerca de Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "¿En qué estado europeo se encuentra la Sagrada Familia, consagrada por Benedicto XVI en 2010 ?",
+        "propositions": [
+          "España",
+          "Chipre",
+          "Portugal",
+          "Italia"
+        ],
+        "réponse": "España",
+        "anecdote": "Este es uno de los ejemplos más conocidos del modernismo catalán y un monumento emblemático de la ciudad de Barcelona."
+      },
+      {
+        "id": 3,
+        "question": "¿En qué país podemos ver las pirámides de Giza, clasificadas desde 1979 ?",
+        "propositions": [
+          "Egipto",
+          "Marruecos",
+          "Sudáfrica",
+          "Tunez"
+        ],
+        "réponse": "Egipto",
+        "anecdote": "Las tres pirámides más grandes y famosas de Egipto son las de Khéops, Khéphren y Mykérinos."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué país se puede contemplar la torre Eiffel, alta de 324 metros ?",
+        "propositions": [
+          "Estados unidos",
+          "Francia",
+          "Italia",
+          "Reino Unido"
+        ],
+        "réponse": "Francia",
+        "anecdote": "Construido por Gustave Eiffel, este monumento se ha convertido en el símbolo de la capital francesa y un sitio turístico líder."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué país europeo se puede ver el Coliseo, originalmente el anfiteatro Flavien ?",
+        "propositions": [
+          "Portugal",
+          "Grecia",
+          "España",
+          "Italia"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Este enorme anfiteatro ovoide es el más grande jamás construido en el Imperio Romano."
+      },
+      {
+        "id": 6,
+        "question": "¿En qué ciudad podemos escuchar el sonido del Big Ben, gran campana de más de 13 toneladas ?",
+        "propositions": [
+          "Nueva york",
+          "Paris",
+          "Londres",
+          "Beijing"
+        ],
+        "réponse": "Londres",
+        "anecdote": "Big Ben está en la parte superior de la Torre Elizabeth, la torre del reloj del Palacio de Westminster, que es la sede del Parlamento británico."
+      },
+      {
+        "id": 7,
+        "question": "¿En qué país se encuentra el mejor muro del mundo jamás construido ?",
+        "propositions": [
+          "Sudáfrica",
+          "India",
+          "China",
+          "Francia"
+        ],
+        "réponse": "China",
+        "anecdote": "Desde 1987, la Gran Muralla ha sido clasificada como Patrimonio de la Humanidad por la UNESCO con el número 438."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué museo parisino, inseparable de su pirámide, es conocido en todo el mundo ?",
+        "propositions": [
+          "Museo Rodin",
+          "Museo Cluny",
+          "Museo Picasso",
+          "Museo del Louvre"
+        ],
+        "réponse": "Museo del Louvre",
+        "anecdote": "El Louvre es el museo más visitado del mundo y el sitio cultural más visitado de Francia."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué país se encuentra Machu Pichu, encaramado en un promontorio rocoso ?",
+        "propositions": [
+          "Bolivia",
+          "Chile",
+          "Pere",
+          "Camboya"
+        ],
+        "réponse": "Pere",
+        "anecdote": "Machu Picchu, ciudad sagrada olvidada durante siglos, se considera una obra maestra de la arquitectura inca."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué pared representa el lugar más sagrado de la religión judía ?",
+        "propositions": [
+          "Lamentaciones",
+          "Arena ","Des sables",
+          "Nombres",
+          "La vergüenza"
+        ],
+        "réponse": "Lamentaciones",
+        "anecdote": "El Muro Occidental es adorado por los judíos por su proximidad al Lugar Santísimo, ubicado en el Monte del Templo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Quién rompió la nariz de la Esfinge que está frente a las grandes pirámides de la meseta de Giza ?",
+        "propositions": [
+          "Luis XV",
+          "Carlos IX",
+          "Henri IV",
+          "Napoleón"
+        ],
+        "réponse": "Napoleón",
+        "anecdote": "La supremacía de los blancos llevó a Napoleón a destruir la nariz de la Esfinge porque recordaba demasiado la majestuosidad del hombre negro."
+      },
+      {
+        "id": 12,
+        "question": "¿En qué islas están los Moai, gigantescos ancestros divinizados de piedra ?",
+        "propositions": [
+          "Islas Cook",
+          "Isla de Pascua",
+          "Islas galápagos",
+          "Islas de navidad"
+        ],
+        "réponse": "Isla de Pascua",
+        "anecdote": "La mayoría de estos monolitos están tallados en toba, principalmente de la cantera de Rano Raraku."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué país puedes asistir a un concierto en la Ópera de Sydney ?",
+        "propositions": [
+          "Antártica",
+          "Nueva zelanda",
+          "Samoa",
+          "Australia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "La ópera es ahora una de las principales atracciones turísticas de la ciudad, aunque los visitantes no pueden asistir a las presentaciones."
+      },
+      {
+        "id": 14,
+        "question": "En los Estados Unidos, ¿qué edificio famoso posee una forma de plan particular ?",
+        "propositions": [
+          "Pentágono",
+          "Kirkbride",
+          "Pickfair",
+          "Graceland"
+        ],
+        "réponse": "Pentágono",
+        "anecdote": "Este edificio de cinco pisos, inaugurado el 15 de enero de 1943, es el edificio de oficinas más grande del mundo."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué gran monumento de metal es representativo de la ciudad de Bruselas ?",
+        "propositions": [
+          "Luizenmolen",
+          "Voortrekker",
+          "Atomium",
+          "Tour y Taxis"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "El Atomium representa la malla convencional de cristal de hierro (estructura cúbica centrada) magnificada 165 mil millones de veces."
+      },
+      {
+        "id": 16,
+        "question": "¿En cuál de estas ciudades encontramos una réplica a pequeña escala de la Torre Eiffel ?",
+        "propositions": [
+          "Las Vegas",
+          "Hong Kong",
+          "Moscú",
+          "Chicago"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "La réplica de 165 metros se encuentra frente al casino-hotel Paris Las Vegas en el Strip de Las Vegas."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué acueducto romano de tres pisos abarca la cucaracha ?",
+        "propositions": [
+          "Puente Caquot",
+          "Puente de Seyssel",
+          "Pont du gard",
+          "Puente de Napoleón"
+        ],
+        "réponse": "Pont du gard",
+        "anecdote": "El puente aseguró en su primera función la continuidad del acueducto romano que conducía el agua desde Uzès hasta Nîmes."
+      },
+      {
+        "id": 18,
+        "question": "¿En qué país se encuentra Angkor Wat, en el sitio arqueológico de Angkor ?",
+        "propositions": [
+          "Vietnam",
+          "Tailandia",
+          "Camboya",
+          "Laos"
+        ],
+        "réponse": "Camboya",
+        "anecdote": "Las ruinas de Angkor están ubicadas en los bosques al norte del Tonle Sap, en el límite de la ciudad de Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "¿En qué ciudad francesa podemos encontrar una torre llamada « Le Crayon » ?",
+        "propositions": [
+          "Lyon",
+          "Limoges",
+          "Toulouse",
+          "Burdeos"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "La Torre Part-Dieu es un rascacielos de oficinas ubicado en el distrito Part-Dieu de Lyon, Francia."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué templos excavados en el acantilado fueron construidos por el faraón Ramsés II ?",
+        "propositions": [
+          "Abu Simbel",
+          "Esna",
+          "Péluse",
+          "Mallawi"
+        ],
+        "réponse": "Abu Simbel",
+        "anecdote": "Los templos fueron construidos al norte del lago Nasser en el Nilo, a unos 70 kilómetros de la segunda catarata del Nilo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué país contiene la Torre de Belém, declarada Patrimonio de la Humanidad por la UNESCO ?",
+        "propositions": [
+          "España",
+          "Israel",
+          "Egipto",
+          "Portugal"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "La torre de Belém se construyó a orillas del Tajo en la freguesia de Santa Maria de Belém entre 1515 y 1521."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué país africano se encuentra el Monumento Voortrekker, que rinde homenaje a los pioneros Boer ?",
+        "propositions": [
+          "Mali",
+          "Ghana",
+          "Egipto",
+          "Sudáfrica"
+        ],
+        "réponse": "Sudáfrica",
+        "anecdote": "Un símbolo del nacionalismo afrikaner, el monumento se encuentra en una colina desde 1949 en la entrada sur de la capital sudafricana."
+      },
+      {
+        "id": 23,
+        "question": "¿En qué estado sudamericano podemos admirar una famosa estatua de Carlos Pellegrini ?",
+        "propositions": [
+          "Bolivia",
+          "Brasil",
+          "Colombia",
+          "Argentina"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Durante su mandato presidencial, logró limpiar las finanzas del estado y creó el Banco de la Nación Argentina."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuántos pisos tiene la torre de Pisa en la Piazza dei Miracoli ?",
+        "propositions": [
+          "Cinco",
+          "Diez",
+          "Trece",
+          "Ocho"
+        ],
+        "réponse": "Ocho",
+        "anecdote": "Su celebridad proviene especialmente de su inclinación característica, que actualmente se encuentra en un ángulo de 3 ° 59 'hacia el sur."
+      },
+      {
+        "id": 25,
+        "question": "Desde 1934, ¿qué ha sido de la Basílica de Santa Sofía en Constantinopla ?",
+        "propositions": [
+          "Una iglesia",
+          "Un museo",
+          "Un hotel",
+          "Una mezquita"
+        ],
+        "réponse": "Un museo",
+        "anecdote": "La basílica está dedicada a Cristo, « la sabiduría de Dios », de acuerdo con la tradición teológica cristiana."
+      },
+      {
+        "id": 26,
+        "question": "¿Cuántos nombres de eruditos están grabados en la base del primer piso de la Torre Eiffel ?",
+        "propositions": [
+          "64",
+          "55",
+          "87",
+          "72"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel ha grabado 72 nombres de científicos, ingenieros o industriales que han honrado a Francia desde 1789 hasta 1889."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es el estilo del Partenón de la Acrópolis en Atenas, hecho de mármol pentélico ?",
+        "propositions": [
+          "Eléctrico",
+          "Dórico",
+          "Jónico",
+          "Corintio"
+        ],
+        "réponse": "Dórico",
+        "anecdote": "El Parthé non fue dedicado al decano Athena Parthenos, protector de la ciudad y desertor de la guerra y la sabiduría."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál es la longitud del famoso puente de piedra de Burdeos ?",
+        "propositions": [
+          "339 metros",
+          "487 metros",
+          "621 metros",
+          "560 metros"
+        ],
+        "réponse": "487 metros",
+        "anecdote": "El puente está construido de piedra y ladrillo, con la particularidad de tener vacíos interiores."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué elegante estación francesa apareció en una publicidad de la marca Chanel ?",
+        "propositions": [
+          "Gare de Lyon",
+          "Estación de Toulouse",
+          "Estación de burdeos",
+          "Estacion limoges"
+        ],
+        "réponse": "Estacion limoges",
+        "anecdote": "La estética del edificio actual se inspira tanto en un Art Nouveau tardío como en el Art Deco y el Neoclasicismo."
+      },
+      {
+        "id": 30,
+        "question": "¿Dónde puede visitar el Palais Jacques-Coeur, una obra maestra de la arquitectura gótica tardía ?",
+        "propositions": [
+          "Bourges",
+          "Burdeos",
+          "Besançon",
+          "Blois"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "Este edificio nació del deseo del rico comerciante Jacques Coeur de construir una casa grande en su ciudad natal."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In quale paese si trova Liberty che illumina il mondo, o Statua della Libertà ?",
+        "propositions": [
+          "Francia",
+          "Stati Uniti",
+          "Regno Unito",
+          "Canada"
+        ],
+        "réponse": "Stati Uniti",
+        "anecdote": "Questa statua si trova sull'isola di Liberty Island a sud di Manhattan, alla foce del Hudson e vicino a Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "In quale stato europeo è la Sagrada Familia, consacrata da Benedetto XVI nel 2010 ?",
+        "propositions": [
+          "Italia",
+          "Spagna",
+          "Cipro",
+          "Portogallo"
+        ],
+        "réponse": "Spagna",
+        "anecdote": "Questo è uno degli esempi più noti del modernismo catalano e un monumento emblematico della città di Barcellona."
+      },
+      {
+        "id": 3,
+        "question": "In quale paese possiamo vedere le piramidi di Giza, classificate dal 1979 ?",
+        "propositions": [
+          "Egitto",
+          "Sud Africa",
+          "Marocco",
+          "Tunisia"
+        ],
+        "réponse": "Egitto",
+        "anecdote": "Le tre più grandi e famose piramidi d'Egitto sono quelle di Khéop, Khéfren e Mykèrinos."
+      },
+      {
+        "id": 4,
+        "question": "In quale paese si può contemplare la torre Eiffel, alta 324 metri ?",
+        "propositions": [
+          "Stati Uniti",
+          "Italia",
+          "Francia",
+          "Regno Unito"
+        ],
+        "réponse": "Francia",
+        "anecdote": "Costruito da Gustave Eiffel, questo monumento è diventato il simbolo della capitale francese e un importante sito turistico."
+      },
+      {
+        "id": 5,
+        "question": "In quale paese europeo si può guardare il Colosseo, in origine l'anfiteatro Flavien ?",
+        "propositions": [
+          "Italia",
+          "Portogallo",
+          "Spagna",
+          "Grecia"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Questo enorme anfiteatro ovoidale è il più grande mai costruito nell'impero romano."
+      },
+      {
+        "id": 6,
+        "question": "In quale città possiamo ascoltare il Big Ben, grande campana di oltre 13 tonnellate ?",
+        "propositions": [
+          "Pechino",
+          "Parigi",
+          "New York",
+          "Londra"
+        ],
+        "réponse": "Londra",
+        "anecdote": "Il Big Ben è in cima alla Torre Elisabetta, la torre dell'orologio del Palazzo di Westminster, che è la sede del parlamento britannico."
+      },
+      {
+        "id": 7,
+        "question": "In quale paese si trova il più grande muro del mondo mai costruito ?",
+        "propositions": [
+          "Francia",
+          "India",
+          "Cina",
+          "Sud Africa"
+        ],
+        "réponse": "Cina",
+        "anecdote": "Dal 1987, la Grande Muraglia è stata classificata dall'UNESCO patrimonio dell'umanità sotto il numero 438."
+      },
+      {
+        "id": 8,
+        "question": "Quale museo parigino, inseparabile dalla sua piramide, è conosciuto in tutto il mondo ?",
+        "propositions": [
+          "Museo di Cluny",
+          "Museo Picasso",
+          "Museo del Louvre",
+          "Museo Rodin"
+        ],
+        "réponse": "Museo del Louvre",
+        "anecdote": "Il Louvre è il museo più visitato al mondo e il sito culturale più visitato in Francia."
+      },
+      {
+        "id": 9,
+        "question": "In quale paese si trova Machu Pichu, arroccato su un promontorio roccioso ?",
+        "propositions": [
+          "Cambogia",
+          "Pere",
+          "Bolivia",
+          "Cile"
+        ],
+        "réponse": "Pere",
+        "anecdote": "Machu Picchu, città sacra dimenticata per secoli, è considerata un capolavoro dell'architettura Inca."
+      },
+      {
+        "id": 10,
+        "question": "Quale parete rappresenta il luogo più sacro della religione ebraica ?",
+        "propositions": [
+          "Lamenti",
+          "Vergogna",
+          "Nomi",
+          "Sabbia"
+        ],
+        "réponse": "Lamenti",
+        "anecdote": "Il Muro occidentale è adorato dagli ebrei per la sua vicinanza al luogo santissimo, situato sul Monte del Tempio."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Chi ha rotto il naso della Sfinge che si trova di fronte alle grandi piramidi dell'altopiano di Giza ?",
+        "propositions": [
+          "Luigi XV",
+          "Napoléon",
+          "Carlo IX",
+          "Henri IV"
+        ],
+        "réponse": "Napoléon",
+        "anecdote": "La supremazia dei bianchi portò Napoleone a distruggere il naso della Sfinge perché ricordava troppo la maestà del negro."
+      },
+      {
+        "id": 12,
+        "question": "Su quali isole si trovano i Moai, giganteschi antenati divinizzati di pietra ?",
+        "propositions": [
+          "Isole Galapagos",
+          "Isole di Natale",
+          "Isole Cook",
+          "Isola di Pasqua"
+        ],
+        "réponse": "Isola di Pasqua",
+        "anecdote": "La maggior parte di questi monoliti è scolpita nel tufo principalmente dalla cava di Rano Raraku."
+      },
+      {
+        "id": 13,
+        "question": "In quale paese puoi partecipare ad un concerto nell'Opera di Sydney ?",
+        "propositions": [
+          "Australia",
+          "Samoa",
+          "Antartico",
+          "Nuova Zelanda"
+        ],
+        "réponse": "Australia",
+        "anecdote": "L'opera è ora una grande attrazione turistica della città, anche se i visitatori non possono assistere alle esibizioni."
+      },
+      {
+        "id": 14,
+        "question": "Negli Stati Uniti, quale famoso edificio possiede una particolare forma di piano ?",
+        "propositions": [
+          "Pickfair",
+          "Graceland",
+          "Kirkbride",
+          "Pentagono"
+        ],
+        "réponse": "Pentagono",
+        "anecdote": "Questo edificio di cinque piani, inaugurato il 15 gennaio 1943, è il più grande edificio per uffici al mondo."
+      },
+      {
+        "id": 15,
+        "question": "Quale grande monumento in metallo è rappresentativo della città di Bruxelles ?",
+        "propositions": [
+          "Luizenmolen",
+          "Voortrekker",
+          "Atomium",
+          "Tour e taxi"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "L'Atomium rappresenta la convenzionale maglia di cristallo di ferro (struttura cubica centrata) ingrandita 165 miliardi di volte."
+      },
+      {
+        "id": 16,
+        "question": "In quale di queste città troviamo una replica in scala ridotta della Torre Eiffel ?",
+        "propositions": [
+          "Chicago",
+          "Mosca",
+          "Hong Kong",
+          "Las Vegas"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "La replica di 165 metri si trova dall'altra parte della strada rispetto al casinò-hotel Paris Las Vegas sulla Strip di Las Vegas."
+      },
+      {
+        "id": 17,
+        "question": "Quale acquedotto romano a tre piani attraversa il triotto ?",
+        "propositions": [
+          "Pont du Gard",
+          "Caquot Bridge",
+          "Ponte Napoléon",
+          "Ponte Seyssel"
+        ],
+        "réponse": "Pont du Gard",
+        "anecdote": "Il ponte assicurò nella sua prima funzione la continuità dell'acquedotto romano che conduceva l'acqua da Uzès a Nîmes."
+      },
+      {
+        "id": 18,
+        "question": "In quale paese è Angkor Wat, nel sito archeologico di Angkor ?",
+        "propositions": [
+          "Thailandia",
+          "Vietnam",
+          "Cambogia",
+          "Laos"
+        ],
+        "réponse": "Cambogia",
+        "anecdote": "Le rovine di Angkor si trovano nelle foreste a nord del Tonle Sap, ai margini della città di Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "In quale città francese possiamo trovare una torre chiamata « Le Crayon » ?",
+        "propositions": [
+          "Tolosa",
+          "Bordeaux",
+          "Lione",
+          "Limoges"
+        ],
+        "réponse": "Lione",
+        "anecdote": "La Part-Dieu Tower è un ufficio grattacielo situato nel quartiere Part-Dieu di Lione, in Francia."
+      },
+      {
+        "id": 20,
+        "question": "Quali templi scavati nella roccia sono stati costruiti dal faraone Ramses II ?",
+        "propositions": [
+          "Abu Simbel",
+          "Mallawi",
+          "Péluse",
+          "Esna"
+        ],
+        "réponse": "Abu Simbel",
+        "anecdote": "I templi furono costruiti a nord del lago Nasser sul Nilo, a circa 70 chilometri dalla seconda cataratta del Nilo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale paese contiene la Torre di Belém, patrimonio mondiale dell'UNESCO ?",
+        "propositions": [
+          "Portogallo",
+          "Israele",
+          "Egitto",
+          "Spagna"
+        ],
+        "réponse": "Portogallo",
+        "anecdote": "La Torre di Belém fu costruita sulle rive del Tago nella freguesia di Santa Maria di Belém tra il 1515 e il 1521."
+      },
+      {
+        "id": 22,
+        "question": "In quale Paese africano è il monumento Voortrekker, rendendo omaggio ai pionieri boeri ?",
+        "propositions": [
+          "Egitto",
+          "Sud Africa",
+          "Mali",
+          "Ghana"
+        ],
+        "réponse": "Sud Africa",
+        "anecdote": "Simbolo del nazionalismo afrikaner, il monumento si erge su una collina dal 1949 all'ingresso sud della capitale sudafricana."
+      },
+      {
+        "id": 23,
+        "question": "In quale stato sudamericano possiamo ammirare una famosa statua di Carlos Pellegrini ?",
+        "propositions": [
+          "Colombia",
+          "Argentina",
+          "Brasile",
+          "Bolivia"
+        ],
+        "réponse": "Argentina",
+        "anecdote": "Durante il suo mandato presidenziale, riuscì a ripulire le finanze dello stato e creò la Banca della nazione argentina."
+      },
+      {
+        "id": 24,
+        "question": "Quanti piani ha la torre di Pisa in Piazza dei Miracoli ?",
+        "propositions": [
+          "Tredici",
+          "Otto",
+          "Dieci",
+          "Cinque"
+        ],
+        "réponse": "Otto",
+        "anecdote": "La sua celebrità deriva in particolare dalla sua caratteristica inclinazione, che è attualmente ad un angolo di 3 ° 59 'a sud."
+      },
+      {
+        "id": 25,
+        "question": "Dal 1934, cosa è successo alla basilica di Santa Sofia a Costantinopoli ?",
+        "propositions": [
+          "Una moschea",
+          "Un museo",
+          "Una chiesa",
+          "Un hotel"
+        ],
+        "réponse": "Un museo",
+        "anecdote": "La basilica è dedicata a Cristo, « Sapienza di Dio », secondo la tradizione teologica cristiana."
+      },
+      {
+        "id": 26,
+        "question": "Quanti nomi di studiosi sono incisi sulla base del primo piano della Torre Eiffel ?",
+        "propositions": [
+          "72",
+          "87",
+          "64",
+          "55"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel ha inciso 72 nomi di scienziati, ingegneri o industriali che hanno onorato la Francia dal 1789 al 1889."
+      },
+      {
+        "id": 27,
+        "question": "Qual è lo stile del Partenone dell'Acropoli di Atene, realizzato in marmo pentelico ?",
+        "propositions": [
+          "Dorico",
+          "Ionico",
+          "Elettrico",
+          "Corinthian"
+        ],
+        "réponse": "Dorico",
+        "anecdote": "Il Parthé non era dedicato al decano Athena Parthenos, protettore della città e disertore di guerra e saggezza."
+      },
+      {
+        "id": 28,
+        "question": "Qual è la lunghezza del famoso ponte in pietra di Bordeaux ?",
+        "propositions": [
+          "339 metri",
+          "560 metri",
+          "621 metri",
+          "487 metri"
+        ],
+        "réponse": "487 metri",
+        "anecdote": "Il ponte è costruito in pietra e mattoni, con la particolarità di avere vuoti interni."
+      },
+      {
+        "id": 29,
+        "question": "Quale stazione francese di classe è stata inserita in una pubblicità del marchio Chanel ?",
+        "propositions": [
+          "Gare de Lyon",
+          "Stazione Limoges",
+          "Stazione di Bordeaux",
+          "Stazione di Tolosa"
+        ],
+        "réponse": "Stazione Limoges",
+        "anecdote": "L'estetica dell'attuale edificio prende in prestito tanto dal tardo Art Nouveau quanto dall'Art Déco e dal Neoclassicismo."
+      },
+      {
+        "id": 30,
+        "question": "Dove puoi visitare il Palais Jacques-Coeur, un capolavoro dell'architettura tardo gotica ?",
+        "propositions": [
+          "Bourges",
+          "Blois",
+          "Bordeaux",
+          "Besançon"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "Questo edificio è nato dal desiderio del ricco mercante Jacques Coeur di costruire una grande casa nella sua città natale."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "In welk land staat Liberty de wereld in, of Statue of Liberty ?",
+        "propositions": [
+          "Verenigd Koninkrijk ","Royaume-Uni",
+          "Frankrijk",
+          "Verenigde Staten",
+          "Canada"
+        ],
+        "réponse": "Verenigde Staten",
+        "anecdote": "Dit beeld bevindt zich op het eiland Liberty Island ten zuiden van Manhattan, aan de monding van de Hudson en in de buurt van Ellis Island."
+      },
+      {
+        "id": 2,
+        "question": "In welke Europese staat is de Sagrada Familia, ingewijd door Benedictus XVI in 2010 ?",
+        "propositions": [
+          "Cyprus",
+          "Portugal",
+          "Spanje",
+          "Italië"
+        ],
+        "réponse": "Spanje",
+        "anecdote": "Dit is een van de bekendste voorbeelden van het Catalaanse modernisme en een emblematisch monument van de stad Barcelona."
+      },
+      {
+        "id": 3,
+        "question": "In welk land kunnen we de piramides van Giza zien, geclassificeerd sinds 1979 ?",
+        "propositions": [
+          "Egypte",
+          "Marokko",
+          "Tunesië",
+          "Zuid-Afrika"
+        ],
+        "réponse": "Egypte",
+        "anecdote": "De drie grootste en beroemdste piramides van Egypte zijn die van Khéops, Khéfren en Mykérinos."
+      },
+      {
+        "id": 4,
+        "question": "In welk land kan men de Eiffeltoren overwegen, hoog van 324 meter ?",
+        "propositions": [
+          "Verenigd Koninkrijk ","Royaume-Uni",
+          "Frankrijk",
+          "Italië",
+          "Verenigde Staten"
+        ],
+        "réponse": "Frankrijk",
+        "anecdote": "Dit monument is gebouwd door Gustave Eiffel en is het symbool geworden van de Franse hoofdstad en een toonaangevende toeristische trekpleister."
+      },
+      {
+        "id": 5,
+        "question": "In welk Europees land kan men naar het Colosseum kijken, oorspronkelijk het amfitheater Flavien ?",
+        "propositions": [
+          "Portugal",
+          "Griekenland",
+          "Italië",
+          "Spanje"
+        ],
+        "réponse": "Italië",
+        "anecdote": "Dit enorme eivormig amfitheater is de grootste ooit gebouwd in het Romeinse rijk."
+      },
+      {
+        "id": 6,
+        "question": "In welke stad horen we Big Ben-geluid, grote bel van meer dan 13 ton ?",
+        "propositions": [
+          "Parijs",
+          "New York",
+          "Beijing",
+          "Londen"
+        ],
+        "réponse": "Londen",
+        "anecdote": "De Big Ben staat aan de top van de Elizabeth Tower, de klokkentoren van het Palace of Westminster, de zetel van het Britse parlement."
+      },
+      {
+        "id": 7,
+        "question": "In welk land vindt men de grootste muur ter wereld ooit gebouwd ?",
+        "propositions": [
+          "Frankrijk",
+          "Zuid-Afrika",
+          "India",
+          "China"
+        ],
+        "réponse": "China",
+        "anecdote": "Sinds 1987 is de Grote Muur geclassificeerd als Werelderfgoed door de UNESCO onder nummer 438."
+      },
+      {
+        "id": 8,
+        "question": "Welk Parijse museum, onafscheidelijk van zijn piramide, is wereldwijd bekend ?",
+        "propositions": [
+          "Cluny Museum",
+          "Louvre Museum",
+          "Rodin Museum",
+          "Picasso Museum"
+        ],
+        "réponse": "Louvre Museum",
+        "anecdote": "Het Louvre is het meest bezochte museum ter wereld en de meest bezochte culturele site in Frankrijk."
+      },
+      {
+        "id": 9,
+        "question": "In welk land staat Machu Pichu, op een rotsachtig voorgebergte ?",
+        "propositions": [
+          "Cambodja",
+          "Pere",
+          "Bolivia",
+          "Chili"
+        ],
+        "réponse": "Pere",
+        "anecdote": "Machu Picchu, heilige stad die al eeuwen vergeten is, wordt beschouwd als een meesterwerk van de Inca-architectuur."
+      },
+      {
+        "id": 10,
+        "question": "Welke muur vertegenwoordigt de heiligste plaats van de joodse religie ?",
+        "propositions": [
+          "Klaagliederen",
+          "Jammer ","De la honte",
+          "Zand",
+          "Namen"
+        ],
+        "réponse": "Klaagliederen",
+        "anecdote": "De Westelijke Muur wordt vereerd door Joden vanwege de nabijheid van het Heilige der Heiligen, gelegen op de Tempelberg."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie heeft de neus van de Sfinx gebroken die voor de grote piramides van het plateau van Giza staat ?",
+        "propositions": [
+          "Louis XV",
+          "Charles IX",
+          "Henri IV",
+          "Napoléon"
+        ],
+        "réponse": "Napoléon",
+        "anecdote": "De suprematie van de blanken bracht Napoleon ertoe de neus van de Sfinx te vernietigen omdat het te veel deed denken aan de majesteit van de zwarte man."
+      },
+      {
+        "id": 12,
+        "question": "Op welke eilanden zijn de Moai, gigantische goddelijke voorouders van steen ?",
+        "propositions": [
+          "Cook Eilanden",
+          "Christmas Islands",
+          "Paaseiland",
+          "Galapagos Eilanden"
+        ],
+        "réponse": "Paaseiland",
+        "anecdote": "De meeste van deze monolieten zijn in tufsteen gesneden, voornamelijk uit de groeve Rano Raraku."
+      },
+      {
+        "id": 13,
+        "question": "In welk land kun je een concert bijwonen in de Sydney Opera ?",
+        "propositions": [
+          "Australië",
+          "Samoa",
+          "Antarctica",
+          "Nieuw Zeeland"
+        ],
+        "réponse": "Australië",
+        "anecdote": "De opera is nu een belangrijke toeristische attractie van de stad hoewel bezoekers de uitvoeringen niet kunnen bijwonen."
+      },
+      {
+        "id": 14,
+        "question": "In de Verenigde Staten, welk beroemd gebouw heeft een bepaalde planvorm ?",
+        "propositions": [
+          "Kirkbride",
+          "Graceland",
+          "Pickfair",
+          "Pentagon"
+        ],
+        "réponse": "Pentagon",
+        "anecdote": "Dit vijf verdiepingen tellende gebouw, ingehuldigd op 15 januari 1943, is het grootste kantoorgebouw ter wereld."
+      },
+      {
+        "id": 15,
+        "question": "Welk groot metalen monument is representatief voor de stad Brussel ?",
+        "propositions": [
+          "Luizenmolen",
+          "Atomium",
+          "Voortrekker",
+          "Tour en taxi's"
+        ],
+        "réponse": "Atomium",
+        "anecdote": "Het Atomium vertegenwoordigt het conventionele netwerk van ijzerkristallen (gecentreerde kubieke structuur) 165 miljard keer vergroot."
+      },
+      {
+        "id": 16,
+        "question": "In welke van deze steden vinden we een kleinschalige replica van de Eiffeltoren ?",
+        "propositions": [
+          "Chicago",
+          "Moskou",
+          "Hong Kong",
+          "Las Vegas"
+        ],
+        "réponse": "Las Vegas",
+        "anecdote": "De replica van 165 meter bevindt zich aan de overkant van het casino-hotel in Las Vegas, aan de Las Vegas Strip."
+      },
+      {
+        "id": 17,
+        "question": "Welk Romeins aquaduct met drie verdiepingen overspant de Roach ?",
+        "propositions": [
+          "Napoléon Bridge",
+          "Seyssel Brug",
+          "Pont du Gard",
+          "Caquot Bridge"
+        ],
+        "réponse": "Pont du Gard",
+        "anecdote": "De brug zorgde in zijn eerste functie voor de continuïteit van het Romeinse aquaduct dat het water van Uzès naar Nîmes leidde."
+      },
+      {
+        "id": 18,
+        "question": "In welk land is Angkor Wat, op de archeologische vindplaats van Angkor ?",
+        "propositions": [
+          "Cambodja",
+          "Vietnam",
+          "Laos",
+          "Thailand"
+        ],
+        "réponse": "Cambodja",
+        "anecdote": "De ruïnes van Angkor liggen in de bossen ten noorden van de Tonle Sap, aan de rand van de stad Siem Reap."
+      },
+      {
+        "id": 19,
+        "question": "In welke Franse stad vinden we een toren genaamd « Le Crayon » ?",
+        "propositions": [
+          "Toulouse",
+          "Bordeaux",
+          "Lyon",
+          "Limoges"
+        ],
+        "réponse": "Lyon",
+        "anecdote": "De Part-Dieu-toren is een kantoorgebouw in de wijk Part-Dieu in Lyon, Frankrijk."
+      },
+      {
+        "id": 20,
+        "question": "Welke tempels die in de klif zijn gegraven, zijn gebouwd door farao Ramses II ?",
+        "propositions": [
+          "Péluse",
+          "Mallawi",
+          "Abu Simbel",
+          "Esna"
+        ],
+        "réponse": "Abu Simbel",
+        "anecdote": "De tempels werden ten noorden van het Nassermeer aan de Nijl gebouwd, ongeveer 70 kilometer van de tweede cataract van de Nijl."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk land bevat de Toren van Bel ?m, een UNESCO-werelderfgoed ?",
+        "propositions": [
+          "Israël",
+          "Spanje",
+          "Egypte",
+          "Portugal"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "De toren van Belém werd gebouwd tussen 1515 en 1521 aan de oevers van de Taag in de freguesia van Santa Maria de Belem."
+      },
+      {
+        "id": 22,
+        "question": "In welk Afrikaans land is het Voortrekker Monument een eerbetoon aan de pioniers van de Boer ?",
+        "propositions": [
+          "Egypte",
+          "Mali",
+          "Ghana",
+          "Zuid-Afrika"
+        ],
+        "réponse": "Zuid-Afrika",
+        "anecdote": "Als symbool van het Afrikaner-nationalisme staat het monument sinds 1949 op een heuvel aan de zuidelijke ingang van de Zuid-Afrikaanse hoofdstad."
+      },
+      {
+        "id": 23,
+        "question": "In welke Zuid-Amerikaanse staat kunnen we een beroemd standbeeld van Carlos Pellegrini bewonderen ?",
+        "propositions": [
+          "Brazilië",
+          "Bolivia",
+          "Argentinië",
+          "Colombia"
+        ],
+        "réponse": "Argentinië",
+        "anecdote": "Tijdens zijn presidentiële periode slaagde hij erin de financiën van de staat op te schonen en creëerde hij de Bank of the Argentine Nation."
+      },
+      {
+        "id": 24,
+        "question": "Hoeveel verdiepingen heeft de toren van Pisa op het Piazza dei Miracoli ?",
+        "propositions": [
+          "Dertien",
+          "Vijf",
+          "Tien",
+          "Acht"
+        ],
+        "réponse": "Acht",
+        "anecdote": "De beroemdheid komt vooral door de karakteristieke helling, die zich momenteel onder een hoek van 3 ° 59 'ten zuiden van de stad bevindt."
+      },
+      {
+        "id": 25,
+        "question": "Sinds 1934, wat is er geworden van de basiliek van Saint Sophia in Constantinopel ?",
+        "propositions": [
+          "Een kerk",
+          "Een hotel",
+          "Een moskee",
+          "Een museum"
+        ],
+        "réponse": "Een museum",
+        "anecdote": "De basiliek is opgedragen aan Christus, « Wijsheid van God », volgens de christelijke theologische traditie."
+      },
+      {
+        "id": 26,
+        "question": "Hoeveel namen van geleerden zijn gegraveerd op de basis van de eerste verdieping van de Eiffeltoren ?",
+        "propositions": [
+          "87",
+          "64",
+          "55",
+          "72"
+        ],
+        "réponse": "72",
+        "anecdote": "Gustave Eiffel heeft 72 namen gegraveerd van wetenschappers, ingenieurs of industriëlen die Frankrijk hebben geëerd van 1789 tot 1889."
+      },
+      {
+        "id": 27,
+        "question": "Wat is de stijl van het Parthenon van de Acropolis in Athene, gemaakt van marmer Pentelic ?",
+        "propositions": [
+          "Ionisch",
+          "Corinthisch",
+          "Elektrisch",
+          "Doric"
+        ],
+        "réponse": "Doric",
+        "anecdote": "De Parthé non was opgedragen aan de decaan Athena Parthenos, beschermer van de stad en de deserteur van oorlog en wijsheid."
+      },
+      {
+        "id": 28,
+        "question": "Hoe lang is de beroemde stenen brug van Bordeaux ?",
+        "propositions": [
+          "560 meter",
+          "339 meter",
+          "621 meter",
+          "487 meter"
+        ],
+        "réponse": "487 meter",
+        "anecdote": "De brug is gebouwd van steen en baksteen, met de bijzonderheid van inwendige holtes."
+      },
+      {
+        "id": 29,
+        "question": "Welk klassiek Frans station was te zien in een Chanel-merkreclame ?",
+        "propositions": [
+          "Toulouse Station",
+          "Gare de Lyon",
+          "Station van Bordeaux",
+          "Station Limoges"
+        ],
+        "réponse": "Station Limoges",
+        "anecdote": "De esthetiek van het huidige gebouw leent evenveel van een late Art Nouveau als van Art Deco en Neoclassicisme."
+      },
+      {
+        "id": 30,
+        "question": "Waar kunt u het Palais Jacques-Coeur bezoeken, een meesterwerk van laatgotische architectuur ?",
+        "propositions": [
+          "Bordeaux",
+          "Bourges",
+          "Besançon",
+          "Blois"
+        ],
+        "réponse": "Bourges",
+        "anecdote": "Dit gebouw is ontstaan uit de wens van de rijke koopman Jacques Coeur om een groot huis te bouwen in zijn geboortestad."
+      }
+    ]
+    }
+  }
+}

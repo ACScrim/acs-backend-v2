@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2024-03-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Mains au volant",
+      "slogan": "Et manger les kilomètres"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Hands on the wheel",
+      "slogan": "And eat the miles"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Manos al volante",
+      "slogan": "Y comer las millas"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Mani sul volante",
+      "slogan": "E mangia le miglia"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Hände auf das Lenkrad",
+      "slogan": "Und friss die Meilen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Handen aan het stuur",
+      "slogan": "En eet de kilometers"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle est la marque de luxe du constructeur automobile Toyota ?",
+        "propositions": [
+          "Infiniti",
+          "Panamera",
+          "Maybach",
+          "Lexus"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Créée en 1989, la marque Lexus est le premier constructeur haut de gamme à avoir incorporé des versions hybrides dans ses produits."
+      },
+      {
+        "id": 2,
+        "question": "Quelle marque automobile prestigieuse a pour emblème Spirit of Ecstasy ?",
+        "propositions": [
+          "Rolls-Royce",
+          "Lotus",
+          "Cadillac",
+          "Lamborghini"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "La statuette fut créée en 1911 par le sculpteur anglais Charles Sykes pour enjoliver les bouchons de radiateur de la marque."
+      },
+      {
+        "id": 3,
+        "question": "Quelle a été la première voiture française à proposer un modèle trois portes ?",
+        "propositions": [
+          "Clio",
+          "C4",
+          "R5",
+          "106"
+        ],
+        "réponse": "R5",
+        "anecdote": "Très grand succès pour la marque, la Renault 5 fut vendue à plus de cinq millions d'exemplaires, entre 1972 et 1984."
+      },
+      {
+        "id": 4,
+        "question": "Dans « Le Corniaud », quelle voiture entre en collision avec Bourvil ?",
+        "propositions": [
+          "Rolls-Royce",
+          "Cadillac",
+          "Jaguar",
+          "2 CV"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "Le scénario du film s'inspire d'un des épisodes du démantèlement de la French Connection au début des années 1960."
+      },
+      {
+        "id": 5,
+        "question": "Dans quelle voiture le président américain Kennedy a-t-il été assassiné ?",
+        "propositions": [
+          "Chevrolet Corvair",
+          "Lincoln Continental",
+          "Ford 300",
+          "Chrysler Newport"
+        ],
+        "réponse": "Lincoln Continental",
+        "anecdote": "Une toute nouvelle Continental, mise sur le marché en 2016, a été révélée à New York en remplacement de la MKS."
+      },
+      {
+        "id": 6,
+        "question": "Quel circuit automobile est aussi appelé le Toboggan des Ardennes ?",
+        "propositions": [
+          "Spa-Francorchamps",
+          "Zandvoort",
+          "Monza",
+          "Monaco"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "C'est un des circuits préférés des pilotes en raison de la variété de son tracé dans le paysage montueux de l'Ardenne belge."
+      },
+      {
+        "id": 7,
+        "question": "Quel est le constructeur de la voiture du film « Retour vers le futur » ?",
+        "propositions": [
+          "DeLorean",
+          "Pagani",
+          "Gumpert",
+          "McLaren"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "La DeLorean DMC-12, voiture de sport conçue et fabriquée par DMC, est l'unique modèle produit et commercialisé par ce constructeur."
+      },
+      {
+        "id": 8,
+        "question": "Sur quel circuit de Formule 1 Ayrton Senna a-t-il trouvé la mort ?",
+        "propositions": [
+          "Imola",
+          "Spa-Francorchamps",
+          "Zandvoort",
+          "Monza"
+        ],
+        "réponse": "Imola",
+        "anecdote": "Il était reconnu pour ses performances sur piste détrempée, avec des victoires d'anthologie comme au Grand Prix du Portugal 1985."
+      },
+      {
+        "id": 9,
+        "question": "En France, comment sont communément appelés les feux de croisement ?",
+        "propositions": [
+          "Diodes",
+          "Bornes",
+          "Leds",
+          "Codes"
+        ],
+        "réponse": "Codes",
+        "anecdote": "Ces dispositifs d'éclairage sont utilisés sur les véhicules automobiles, aidant à la conduite de ces véhicules la nuit."
+      },
+      {
+        "id": 10,
+        "question": "Quel a été le véhicule le plus vendu en France en 2016 ?",
+        "propositions": [
+          "Renault Clio",
+          "Dacia Duster",
+          "Peugeot 206",
+          "Citroën C3"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "La Renault Clio I fut produite de 1990 à 1999, restylée en 1994 et 1996 pour être enfin remplacée en 1998 par la Clio II."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel marque de 4x4 utilise le personnel de « Jurassic Park » ?",
+        "propositions": [
+          "Jeep",
+          "Toyota",
+          "Ford",
+          "Renault"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep est un constructeur automobile américain appartenant depuis 2010 au groupe Fiat, devenu Stellantis en 2021."
+      },
+      {
+        "id": 12,
+        "question": "Quel dirigeant a rassemblé les constructeurs Renault, Mitsubishi et Nissan ?",
+        "propositions": [
+          "Mathieu Gallet",
+          "Stanislas Guerini",
+          "Carlos Ghosn",
+          "Oscar Ghez"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "Il fut arrêté en 2018 par la justice japonaise, étant suspecté de dissimulation de revenus dans les publications financières de Nissan."
+      },
+      {
+        "id": 13,
+        "question": "Quelle est la nationalité du constructeur Kia Motors ?",
+        "propositions": [
+          "Nord-Coréenne",
+          "Japonaise",
+          "Sud-Coréenne",
+          "Chinoise"
+        ],
+        "réponse": "Sud-Coréenne",
+        "anecdote": "Employant plus de 32 000 personnes, Kia Motors Company est actuellement le plus ancien constructeur automobile de Corée."
+      },
+      {
+        "id": 14,
+        "question": "Comment les breaks de chez BMW s'appellent-ils traditionnellement ?",
+        "propositions": [
+          "GT",
+          "Touring",
+          "Coupé",
+          "Monospace"
+        ],
+        "réponse": "Touring",
+        "anecdote": "Par exemple, le modèle BMW Série 3 est une berline familiale, également disponible en break (touring) et en Gran Turismo (GT)."
+      },
+      {
+        "id": 15,
+        "question": "Quel était le premier constructeur automobile mondial en 2016 ?",
+        "propositions": [
+          "Ford",
+          "Volskwagen",
+          "BMW",
+          "Tesla"
+        ],
+        "réponse": "Volskwagen",
+        "anecdote": "Les origines de la marque se retrouvent dans l'Allemagne nazie des années 1930 avec le projet de construire la future Coccinelle."
+      },
+      {
+        "id": 16,
+        "question": "Quelles sont les deux couleurs de la Chevrolet Camaro du film « Transformers » ?",
+        "propositions": [
+          "Rouge et blanc",
+          "Vert et gris",
+          "Jaune et noir",
+          "Blanc et bleu"
+        ],
+        "réponse": "Jaune et noir",
+        "anecdote": "À sa sortie, Chevrolet précise que le nom du nouveau modèle vient d'un mot français, camaro, signifiant camarade en argot."
+      },
+      {
+        "id": 17,
+        "question": "En quelle année l'essuie-glace est-il apparu sur les véhicules automobiles ?",
+        "propositions": [
+          "1923",
+          "1948",
+          "1971",
+          "1910"
+        ],
+        "réponse": "1910",
+        "anecdote": "Un essuie-glace a une durée de vie moyenne de 500 000 cycles selon les constructeurs, ce qui correspond à un an d'utilisation."
+      },
+      {
+        "id": 18,
+        "question": "Lequel de ces constructeurs automobiles n'est pas Japonais ?",
+        "propositions": [
+          "Honda",
+          "Mitsubishi",
+          "Kia",
+          "Mazda"
+        ],
+        "réponse": "Kia",
+        "anecdote": "La première syllabe Ki signifie « se révéler au monde », sa seconde est la première lettre du mot Asie (l'Asie se révèle au monde)."
+      },
+      {
+        "id": 19,
+        "question": "Quel modèle Lada a remporté des victoires d'étape sur le Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Vesta",
+          "Samara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Le succès de ce modèle fut tel que sont apparus des clubs et des écoles où fut enseigné la conduite tout-terrain sur Niva."
+      },
+      {
+        "id": 20,
+        "question": "Comment sont surnommées les voitures de course de chez Mercedes-Benz ?",
+        "propositions": [
+          "Flèches Dorées",
+          "Flèches d'Argent",
+          "Flèches d'Argile",
+          "Flèches d'Acier"
+        ],
+        "réponse": "Flèches d'Argent",
+        "anecdote": "Ce nom a été utilisé après-guerre pour désigner les Mercedes-Benz en Formule 1 et en Championnat du monde des voitures de sport."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel nom est donné en GP de F1 à la voiture de réserve d'une écurie ?",
+        "propositions": [
+          "Taureau",
+          "Mulet",
+          "Baudet",
+          "Cheval"
+        ],
+        "réponse": "Mulet",
+        "anecdote": "Le terme Formule 1 désigne l'ensemble des règles techniques des voitures monoplaces qui sont mises à jour tous les ans par la FIA."
+      },
+      {
+        "id": 22,
+        "question": "Quelle est la marque et le modèle de la voiture de l'inspecteur Columbo ?",
+        "propositions": [
+          "Renault 5",
+          "Peugeot 403",
+          "Citroën C6",
+          "Dacia 2000"
+        ],
+        "réponse": "Peugeot 403",
+        "anecdote": "Columbo ne porte presque jamais d'arme, conduit une Peugeot 403 cabriolet de 1959 et est sujet au vertige et au mal de mer."
+      },
+      {
+        "id": 23,
+        "question": "Dans quel film James Bond emprunte-t-il une Alfa Romeo GTV6 à une femme ?",
+        "propositions": [
+          "Octopussy",
+          "GoldenEye",
+          "Goldfinger",
+          "Moonraker"
+        ],
+        "réponse": "Octopussy",
+        "anecdote": "« Octopussy » est le treizième opus de la série des films de James Bond, Roger Moore y incarnant le héros pour la sixième fois."
+      },
+      {
+        "id": 24,
+        "question": "Quel constructeur automobile haut-de-gamme arbore une hélice pour logo ?",
+        "propositions": [
+          "Audi",
+          "BMW",
+          "Porsche",
+          "Mercedes-Benz"
+        ],
+        "réponse": "BMW",
+        "anecdote": "L'entreprise Bayerische Motoren Werke a été fondée en 1916 par les allemends Gustav Otto et Karl Friedrich Rapp."
+      },
+      {
+        "id": 25,
+        "question": "Quel était l'autre nom de la Renault 20, disponible en noir ou bleu foncé ?",
+        "propositions": [
+          "Dacia Duster",
+          "Dacia Liberta",
+          "Dacia Nova",
+          "Dacia 2000"
+        ],
+        "réponse": "Dacia 2000",
+        "anecdote": "La Dacia 2000 est une berline familiale principalement produite pour l'élite du Parti Communiste Roumain et pour la Securitate."
+      },
+      {
+        "id": 26,
+        "question": "Utilisé comme carburant, que signifie le L de l'acronyme GPL ?",
+        "propositions": [
+          "Léger",
+          "Limité",
+          "Lourd",
+          "Liquéfié"
+        ],
+        "réponse": "Liquéfié",
+        "anecdote": "Pour éviter la panne, un moteur modifié pour fonctionner au GPL-c est également capable de tourner avec son carburant classique."
+      },
+      {
+        "id": 27,
+        "question": "Dans quel pays la dernière Coccinelle a-t-elle été produite ?",
+        "propositions": [
+          "Canada",
+          "Mexique",
+          "Portugal",
+          "Allemagne"
+        ],
+        "réponse": "Mexique",
+        "anecdote": "La Volkswagen Coccinelle (Volkswagen type 1) fut au total produite à plus de 21 529 464 exemplaires à travers le monde."
+      },
+      {
+        "id": 28,
+        "question": "Sur quel logo automobile un serpent mange-t-il un bébé ?",
+        "propositions": [
+          "Skoda",
+          "Alfa Romeo",
+          "Chevrolet",
+          "Chrysler"
+        ],
+        "réponse": "Alfa Romeo",
+        "anecdote": "Alfa Romeo est un constructeur automobile italien fondé le 24 juin 1910 à Milan, filiale du groupe Stellantis depuis janvier 2021."
+      },
+      {
+        "id": 29,
+        "question": "Quel est le nom de la première Porsche à cinq portes ?",
+        "propositions": [
+          "Cayenne",
+          "Carrera",
+          "Cayman",
+          "Panamera"
+        ],
+        "réponse": "Panamera",
+        "anecdote": "Le nom de la Porsche Panamera a été choisi en hommage à la course mexicaine dénommée Carrera Panamericana."
+      },
+      {
+        "id": 30,
+        "question": "Quel pape a possédé une Mercedes-Benz 600 Pullman de 1964 ?",
+        "propositions": [
+          "Jean-Paul II",
+          "Jean XXIII",
+          "Pie XII",
+          "Paul VI"
+        ],
+        "réponse": "Paul VI",
+        "anecdote": "Né en Lombardie, Paul VI est le 262e pape de l'Église catholique, et son pontificat s'étend de 1963 à sa mort en 1978."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What is the luxury brand of the car manufacturer Toyota ?",
+        "propositions": [
+          "Panamera",
+          "Lexus",
+          "Infiniti",
+          "Maybach"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Created in 1989, the Lexus brand is the first high-end manufacturer to have incorporated hybrid versions into its products."
+      },
+      {
+        "id": 2,
+        "question": "What prestigious automobile brand has the Spirit of Ecstasy emblem ?",
+        "propositions": [
+          "Lamborghini",
+          "Cadillac",
+          "Lotus",
+          "Rolls-Royce"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "The statuette was created in 1911 by the English sculptor Charles Sykes to embellish the brand's radiator caps."
+      },
+      {
+        "id": 3,
+        "question": "What was the first French car to offer a three-door model ?",
+        "propositions": [
+          "C4",
+          "R5",
+          "106",
+          "Clio"
+        ],
+        "réponse": "R5",
+        "anecdote": "A great success for the brand, the Renault 5 sold more than five million units between 1972 and 1984."
+      },
+      {
+        "id": 4,
+        "question": "In « Le Corniaud », which car collides with Bourvil ?",
+        "propositions": [
+          "Jaguar",
+          "2 CV",
+          "Rolls-Royce",
+          "Cadillac"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "The film's storyline is inspired by one of the episodes in the dismantling of the French Connection in the early 1960s."
+      },
+      {
+        "id": 5,
+        "question": "In which car was US President Kennedy assassinated ?",
+        "propositions": [
+          "Ford 300",
+          "Chevrolet Corvair",
+          "Lincoln Continental",
+          "Chrysler Newport"
+        ],
+        "réponse": "Lincoln Continental",
+        "anecdote": "An all-new Continental, released in 2016, was revealed in New York to replace the MKS."
+      },
+      {
+        "id": 6,
+        "question": "Which racing circuit is also called the Toboggan des Ardennes ?",
+        "propositions": [
+          "Monaco",
+          "Spa-Francorchamps",
+          "Monza",
+          "Zandvoort"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "It is one of the drivers' favorite circuits because of the variety of its layout in the mountainous landscape of the Belgian Ardennes."
+      },
+      {
+        "id": 7,
+        "question": "Who is the manufacturer of the car in the film « Back to the Future » ?",
+        "propositions": [
+          "Gumpert",
+          "Pagani",
+          "McLaren",
+          "DeLorean"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "The DeLorean DMC-12, a sports car designed and manufactured by DMC, is the only model produced and marketed by this manufacturer."
+      },
+      {
+        "id": 8,
+        "question": "On which Formula 1 circuit did Ayrton Senna die ?",
+        "propositions": [
+          "Spa-Francorchamps",
+          "Imola",
+          "Monza",
+          "Zandvoort"
+        ],
+        "réponse": "Imola",
+        "anecdote": "He was recognized for his performances on wet tracks, with legendary victories such as at the 1985 Portuguese Grand Prix."
+      },
+      {
+        "id": 9,
+        "question": "In France, what are low beam lights commonly called ?",
+        "propositions": [
+          "Terminals",
+          "Diodes",
+          "Codes",
+          "LEDs"
+        ],
+        "réponse": "Codes",
+        "anecdote": "These lighting devices are used on motor vehicles, assisting in driving these vehicles at night."
+      },
+      {
+        "id": 10,
+        "question": "What was the best-selling vehicle in France in 2016 ?",
+        "propositions": [
+          "Dacia Duster",
+          "Renault Clio",
+          "Citroën C3",
+          "Peugeot 206"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "The Renault Clio I was produced from 1990 to 1999, restyled in 1994 and 1996 and finally replaced in 1998 by the Clio II."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What brand of 4x4 does « Jurassic Park » staff use ?",
+        "propositions": [
+          "Ford",
+          "Toyota",
+          "Renault",
+          "Jeep"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep is an American automobile manufacturer belonging to the Fiat group since 2010, which became Stellantis in 2021."
+      },
+      {
+        "id": 12,
+        "question": "Which leader brought together the manufacturers Renault, Mitsubishi and Nissan ?",
+        "propositions": [
+          "Mathieu Gallet",
+          "Stanislas Guerini",
+          "Carlos Ghosn",
+          "Oscar Ghez"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "He was arrested in 2018 by Japanese justice, being suspected of concealing income in Nissan's financial publications."
+      },
+      {
+        "id": 13,
+        "question": "What is the nationality of the manufacturer Kia Motors ?",
+        "propositions": [
+          "South Korean",
+          "North Korean",
+          "Chinese",
+          "Japanese"
+        ],
+        "réponse": "South Korean",
+        "anecdote": "Employing more than 32,000 people, Kia Motors Company is currently Korea's oldest automobile manufacturer."
+      },
+      {
+        "id": 14,
+        "question": "What are BMW station wagons traditionally called ?",
+        "propositions": [
+          "Touring",
+          "Minivan",
+          "Cut",
+          "GT"
+        ],
+        "réponse": "Touring",
+        "anecdote": "For example, the BMW 3 Series model is a family sedan, also available as an estate (touring) and Gran Turismo (GT)."
+      },
+      {
+        "id": 15,
+        "question": "Who was the world's largest automaker in 2016 ?",
+        "propositions": [
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Tesla"
+        ],
+        "réponse": "Volkswagen",
+        "anecdote": "The origins of the brand can be found in Nazi Germany in the 1930s with the project to build the future Beetle."
+      },
+      {
+        "id": 16,
+        "question": "What are the two colors of the Chevrolet Camaro from the « Transformers » movie ?",
+        "propositions": [
+          "Yellow and black",
+          "Green and gray",
+          "Red and white",
+          "White and blue"
+        ],
+        "réponse": "Yellow and black",
+        "anecdote": "When it was released, Chevrolet specified that the name of the new model came from a French word, camaro, meaning comrade in slang."
+      },
+      {
+        "id": 17,
+        "question": "In what year did the windshield wiper appear on motor vehicles ?",
+        "propositions": [
+          "1971",
+          "1910",
+          "1923",
+          "1948"
+        ],
+        "réponse": "1910",
+        "anecdote": "A windshield wiper has an average lifespan of 500,000 cycles according to manufacturers, which corresponds to one year of use."
+      },
+      {
+        "id": 18,
+        "question": "Which of these car manufacturers is not Japanese ?",
+        "propositions": [
+          "Honda",
+          "Kia",
+          "Mazda",
+          "Mitsubishi"
+        ],
+        "réponse": "Kia",
+        "anecdote": "The first syllable Ki means « reveal itself to the world », its second is the first letter of the word Asia (Asia reveals itself to the world)."
+      },
+      {
+        "id": 19,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Samara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 20,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Samara",
+          "Granta",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 22,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 23,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Vesta",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 24,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Vesta",
+          "Samara",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 25,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Samara",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 26,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Niva",
+          "Samara",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 27,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Samara",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 28,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Samara",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 29,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Samara",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      },
+      {
+        "id": 30,
+        "question": "Which Lada model achieved stage victories on the Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Niva",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "The success of this model was such that clubs and schools appeared where off-road driving on Niva was taught."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Was ist die Luxusmarke des Autoherstellers Toyota ?",
+        "propositions": [
+          "Maybach",
+          "Panamera",
+          "Lexus",
+          "Infiniti"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Die 1989 gegründete Marke Lexus ist der erste High-End-Hersteller, der Hybridversionen in seine Produkte integriert hat."
+      },
+      {
+        "id": 2,
+        "question": "Welche renommierte Automobilmarke trägt das Spirit of Ecstasy-Emblem ?",
+        "propositions": [
+          "Lotus",
+          "Cadillac",
+          "Rolls-Royce",
+          "Lamborghini"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "Die Statuette wurde 1911 vom englischen Bildhauer Charles Sykes geschaffen, um die Kühlerdeckel der Marke zu verschönern."
+      },
+      {
+        "id": 3,
+        "question": "Welches war das erste französische Auto, das ein dreitüriges Modell anbot ?",
+        "propositions": [
+          "106",
+          "C4",
+          "R5",
+          "Clio"
+        ],
+        "réponse": "R5",
+        "anecdote": "Der Renault 5 war ein großer Erfolg für die Marke und verkaufte zwischen 1972 und 1984 mehr als fünf Millionen Einheiten."
+      },
+      {
+        "id": 4,
+        "question": "Welches Auto kollidiert in « Le Corniaud » mit Bourvil ?",
+        "propositions": [
+          "2 CV",
+          "Rolls-Royce",
+          "Cadillac",
+          "Jaguar"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "Die Handlung des Films ist von einer der Episoden der Auflösung der French Connection in den frühen 1960er Jahren inspiriert."
+      },
+      {
+        "id": 5,
+        "question": "In welchem Auto wurde US-Präsident Kennedy ermordet ?",
+        "propositions": [
+          "Lincoln Continental",
+          "Ford 300",
+          "Chrysler Newport",
+          "Chevrolet Corvair"
+        ],
+        "réponse": "Lincoln Continental",
+        "anecdote": "In New York wurde 2016 ein völlig neuer Continental vorgestellt, der den MKS ersetzen soll."
+      },
+      {
+        "id": 6,
+        "question": "Welche Rennstrecke wird auch Toboggan des Ardennes genannt ?",
+        "propositions": [
+          "Zandvoort",
+          "Spa-Francorchamps",
+          "Monaco",
+          "Monza"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "Aufgrund der abwechslungsreichen Gestaltung in der Berglandschaft der belgischen Ardennen ist sie eine der Lieblingsstrecken der Fahrer."
+      },
+      {
+        "id": 7,
+        "question": "Wer ist der Hersteller des Autos im Film « Zurück in die Zukunft » ?",
+        "propositions": [
+          "Gumpert",
+          "McLaren",
+          "DeLorean",
+          "Pagani"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "Der DeLorean DMC-12, ein von DMC entworfener und hergestellter Sportwagen, ist das einzige Modell, das von diesem Hersteller produziert und vermarktet wird."
+      },
+      {
+        "id": 8,
+        "question": "Auf welcher Formel-1-Strecke starb Ayrton Senna ?",
+        "propositions": [
+          "Imola",
+          "Zandvoort",
+          "Spa-Francorchamps",
+          "Monza"
+        ],
+        "réponse": "Imola",
+        "anecdote": "Er wurde für seine Leistungen auf nassen Strecken gewürdigt, mit legendären Siegen wie beim Großen Preis von Portugal 1985."
+      },
+      {
+        "id": 9,
+        "question": "Wie werden Abblendlichter in Frankreich üblicherweise genannt ?",
+        "propositions": [
+          "Dioden",
+          "Terminals",
+          "Codes",
+          "LEDs"
+        ],
+        "réponse": "Codes",
+        "anecdote": "Diese Beleuchtungsgeräte werden in Kraftfahrzeugen eingesetzt und unterstützen das Fahren dieser Fahrzeuge bei Nacht."
+      },
+      {
+        "id": 10,
+        "question": "Welches war 2016 das meistverkaufte Fahrzeug in Frankreich ?",
+        "propositions": [
+          "Citroën C3",
+          "Peugeot 206",
+          "Dacia Duster",
+          "Renault Clio"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "Der Renault Clio I wurde von 1990 bis 1999 produziert, 1994 und 1996 neu gestaltet und schließlich 1998 durch den Clio II ersetzt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche 4x4-Marke verwenden die Mitarbeiter von « Jurassic Park » ?",
+        "propositions": [
+          "Ford",
+          "Jeep",
+          "Renault",
+          "Toyota"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep ist ein amerikanischer Automobilhersteller, der seit 2010 zum Fiat-Konzern gehört, der 2021 zu Stellantis wurde."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Anführer brachte die Hersteller Renault, Mitsubishi und Nissan zusammen ?",
+        "propositions": [
+          "Oscar Ghez",
+          "Mathieu Gallet",
+          "Stanislas Guerini",
+          "Carlos Ghosn"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "Er wurde 2018 von der japanischen Justiz verhaftet und verdächtigt, Einkünfte aus den Finanzpublikationen von Nissan verschwiegen zu haben."
+      },
+      {
+        "id": 13,
+        "question": "Welche Nationalität hat der Hersteller Kia Motors ?",
+        "propositions": [
+          "Chinesisch",
+          "Nordkorea",
+          "Japanisch",
+          "Südkoreanisch"
+        ],
+        "réponse": "Südkoreanisch",
+        "anecdote": "Mit mehr als 32.000 Mitarbeitern ist die Kia Motors Company derzeit Koreas ältester Automobilhersteller."
+      },
+      {
+        "id": 14,
+        "question": "Wie heißen BMW Kombis traditionell ?",
+        "propositions": [
+          "Touren",
+          "Schneiden",
+          "Minivan",
+          "GT"
+        ],
+        "réponse": "Touren",
+        "anecdote": "Beispielsweise ist das Modell BMW 3er eine Familienlimousine, die auch als Kombi (Touring) und Gran Turismo (GT) erhältlich ist."
+      },
+      {
+        "id": 15,
+        "question": "Wer war 2016 der größte Autohersteller der Welt ?",
+        "propositions": [
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Tesla"
+        ],
+        "réponse": "Volkswagen",
+        "anecdote": "Die Ursprünge der Marke liegen im nationalsozialistischen Deutschland der 1930er Jahre mit dem Projekt, den zukünftigen Käfer zu bauen."
+      },
+      {
+        "id": 16,
+        "question": "Welche zwei Farben hat der Chevrolet Camaro aus dem Film « Transformers » ?",
+        "propositions": [
+          "Rot und Weiß",
+          "Weiß und Blau",
+          "Grün und Grau",
+          "Gelb und Schwarz"
+        ],
+        "réponse": "Gelb und Schwarz",
+        "anecdote": "Als es auf den Markt kam, gab Chevrolet an, dass der Name des neuen Modells vom französischen Wort camaro abgeleitet sei, was im Slang Kamerad bedeutet."
+      },
+      {
+        "id": 17,
+        "question": "In welchem Jahr erschien der Scheibenwischer in Kraftfahrzeugen ?",
+        "propositions": [
+          "1910",
+          "1923",
+          "1948",
+          "1971"
+        ],
+        "réponse": "1910",
+        "anecdote": "Ein Scheibenwischer hat laut Herstellerangaben eine durchschnittliche Lebensdauer von 500.000 Zyklen, was einer Nutzungsdauer von einem Jahr entspricht."
+      },
+      {
+        "id": 18,
+        "question": "Welcher dieser Autohersteller ist kein Japaner ?",
+        "propositions": [
+          "Mazda",
+          "Honda",
+          "Mitsubishi",
+          "Kia"
+        ],
+        "réponse": "Kia",
+        "anecdote": "Die erste Silbe Ki bedeutet « sich der Welt offenbaren », ihre zweite ist der erste Buchstabe des Wortes Asia (Asien offenbart sich der Welt)."
+      },
+      {
+        "id": 19,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 20,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Niva",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Vesta",
+          "Granta",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 22,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Granta",
+          "Samara",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 23,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Granta",
+          "Samara",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 24,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 25,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Niva",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 26,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Samara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 27,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Samara",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Samara",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 29,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Samara",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      },
+      {
+        "id": 30,
+        "question": "Welches Lada-Modell errang Etappensiege bei der Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Niva",
+          "Vesta",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Der Erfolg dieses Modells war so groß, dass Vereine und Schulen entstanden, in denen das Fahren im Gelände mit dem Niva gelehrt wurde."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuál es la marca de lujo del fabricante de automóviles Toyota ?",
+        "propositions": [
+          "Infiniti",
+          "Lexus",
+          "Maybach",
+          "Panamera"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Creada en 1989, la marca Lexus es el primer fabricante de alta gama que ha incorporado versiones híbridas a sus productos."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué prestigiosa marca de automóviles tiene el emblema del Espíritu del Éxtasis ?",
+        "propositions": [
+          "Cadillac",
+          "Lamborghini",
+          "Lotus",
+          "Rolls Royce"
+        ],
+        "réponse": "Rolls Royce",
+        "anecdote": "La estatuilla fue creada en 1911 por el escultor inglés Charles Sykes para embellecer las tapas de los radiadores de la marca."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuál fue el primer coche francés que ofreció un modelo de tres puertas ?",
+        "propositions": [
+          "R5",
+          "Clío",
+          "C4",
+          "106"
+        ],
+        "réponse": "R5",
+        "anecdote": "Gran éxito para la marca, el Renault 5 vendió más de cinco millones de unidades entre 1972 y 1984."
+      },
+      {
+        "id": 4,
+        "question": "En « Le Corniaud », ¿qué coche choca con Bourvil ?",
+        "propositions": [
+          "Jaguar",
+          "Cadillac",
+          "Rolls Royce",
+          "2 CV"
+        ],
+        "réponse": "Rolls Royce",
+        "anecdote": "La trama de la película está inspirada en uno de los episodios del desmantelamiento de la Conexión Francesa a principios de los años 1960."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué coche fue asesinado el presidente Kennedy de Estados Unidos ?",
+        "propositions": [
+          "Lincoln Continental",
+          "Chevrolet Corvair",
+          "Chrysler Newport",
+          "Ford 300"
+        ],
+        "réponse": "Lincoln Continental",
+        "anecdote": "En Nueva York se presentó un Continental completamente nuevo, lanzado en 2016, para reemplazar al MKS."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué circuito de carreras también se llama Toboggan des Ardennes ?",
+        "propositions": [
+          "Mónaco",
+          "Zandvoort",
+          "Monza",
+          "Spa-Francorchamps"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "Es uno de los circuitos favoritos de los pilotos por la variedad de su trazado en el paisaje montañoso de las Ardenas belgas."
+      },
+      {
+        "id": 7,
+        "question": "¿Quién es el fabricante del coche de la película « Regreso al futuro » ?",
+        "propositions": [
+          "McLaren",
+          "DeLorean",
+          "Pagani",
+          "Gumpert"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "El DeLorean DMC-12, un deportivo diseñado y fabricado por DMC, es el único modelo producido y comercializado por este fabricante."
+      },
+      {
+        "id": 8,
+        "question": "¿En qué circuito de Fórmula 1 murió Ayrton Senna ?",
+        "propositions": [
+          "Imola",
+          "Zandvoort",
+          "Monza",
+          "Spa-Francorchamps"
+        ],
+        "réponse": "Imola",
+        "anecdote": "Fue reconocido por sus actuaciones en pistas mojadas, con victorias legendarias como la del Gran Premio de Portugal de 1985."
+      },
+      {
+        "id": 9,
+        "question": "En Francia, ¿cómo se llaman comúnmente las luces de cruce ?",
+        "propositions": [
+          "Códigos",
+          "LED",
+          "Diodos",
+          "Terminales"
+        ],
+        "réponse": "Códigos",
+        "anecdote": "Estos dispositivos de iluminación se utilizan en vehículos de motor y ayudan a conducir estos vehículos durante la noche."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál fue el vehículo más vendido en Francia en 2016 ?",
+        "propositions": [
+          "Renault Clio",
+          "Peugeot 206",
+          "Citroën C3",
+          "Dacia Duster"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "El Renault Clio I se fabricó entre 1990 y 1999, se rediseñó en 1994 y 1996 y finalmente fue sustituido en 1998 por el Clio II."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué marca de 4x4 utiliza el personal de « Jurassic Park » ?",
+        "propositions": [
+          "Jeep",
+          "Ford",
+          "Toyota",
+          "Renault"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep es un fabricante de automóviles estadounidense perteneciente al grupo Fiat desde 2010, que se convirtió en Stellantis en 2021."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué líder reunió a los fabricantes Renault, Mitsubishi y Nissan ?",
+        "propositions": [
+          "Óscar Ghez",
+          "Estanislao Guérini",
+          "Carlos Ghosn",
+          "Mathieu Gallet"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "Fue detenido en 2018 por la justicia japonesa, sospechoso de ocultar ingresos en las publicaciones financieras de Nissan."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál es la nacionalidad del fabricante Kia Motors ?",
+        "propositions": [
+          "Chino",
+          "Corea del Sur",
+          "japonés",
+          "Corea del Norte"
+        ],
+        "réponse": "Corea del Sur",
+        "anecdote": "Kia Motors Company, que emplea a más de 32.000 personas, es actualmente el fabricante de automóviles más antiguo de Corea."
+      },
+      {
+        "id": 14,
+        "question": "¿Cómo se llaman tradicionalmente las camionetas BMW ?",
+        "propositions": [
+          "Minivan",
+          "GT",
+          "Turismo",
+          "Cortar"
+        ],
+        "réponse": "Turismo",
+        "anecdote": "Por ejemplo, el modelo BMW Serie 3 es un sedán familiar, que también está disponible en versión familiar (touring) y Gran Turismo (GT)."
+      },
+      {
+        "id": 15,
+        "question": "¿Quién fue el mayor fabricante de automóviles del mundo en 2016 ?",
+        "propositions": [
+          "BMW",
+          "Ford",
+          "Volkswagen",
+          "Tesla"
+        ],
+        "réponse": "Volkswagen",
+        "anecdote": "Los orígenes de la marca se remontan a la Alemania nazi en los años 30 con el proyecto de construir el futuro Escarabajo."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuáles son los dos colores del Chevrolet Camaro de la película « Transformers » ?",
+        "propositions": [
+          "Verde y gris",
+          "Amarillo y negro",
+          "Blanco y azul",
+          "Rojo y blanco"
+        ],
+        "réponse": "Amarillo y negro",
+        "anecdote": "Cuando se lanzó al mercado, Chevrolet especificó que el nombre del nuevo modelo provenía de una palabra francesa, camaro, que en jerga significa camarada."
+      },
+      {
+        "id": 17,
+        "question": "¿En qué año apareció el limpiaparabrisas en los vehículos de motor ?",
+        "propositions": [
+          "1910",
+          "1971",
+          "1948",
+          "1923"
+        ],
+        "réponse": "1910",
+        "anecdote": "Un limpiaparabrisas tiene una vida útil media según los fabricantes de 500.000 ciclos, lo que corresponde a un año de uso."
+      },
+      {
+        "id": 18,
+        "question": "¿Cuál de estos fabricantes de automóviles no es japonés ?",
+        "propositions": [
+          "Honda",
+          "Mitsubishi",
+          "Kia",
+          "Mazda"
+        ],
+        "réponse": "Kia",
+        "anecdote": "La primera sílaba Ki significa « revelarse al mundo », la segunda es la primera letra de la palabra Asia (Asia se revela al mundo)."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Sámara",
+          "Niva",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Sámara",
+          "Niva",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Sámara",
+          "Niva",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Sámara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Sámara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Sámara",
+          "Vesta",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Granta",
+          "Sámara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Sámara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Sámara",
+          "Granta",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Sámara",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Vesta",
+          "Niva",
+          "Sámara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué modelo de Lada consiguió victorias de etapa en el Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Vesta",
+          "Granta",
+          "Sámara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "El éxito de este modelo fue tal que aparecieron clubes y escuelas donde se enseñaba a conducir todoterreno en el Niva."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Qual è il marchio di lusso della casa automobilistica Toyota ?",
+        "propositions": [
+          "Lexus",
+          "Infiniti",
+          "Maybach",
+          "Panamera"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Creato nel 1989, il marchio Lexus è il primo produttore di fascia alta ad aver incorporato versioni ibride nei suoi prodotti."
+      },
+      {
+        "id": 2,
+        "question": "Quale prestigiosa marca automobilistica ha l'emblema dello Spirito dell'Estasi ?",
+        "propositions": [
+          "Rolls-Royce",
+          "Lamborghini",
+          "Cadillac",
+          "Loto"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "La statuetta fu creata nel 1911 dallo scultore inglese Charles Sykes per impreziosire i tappi dei radiatori del marchio."
+      },
+      {
+        "id": 3,
+        "question": "Qual è stata la prima vettura francese a offrire un modello a tre porte ?",
+        "propositions": [
+          "C4",
+          "R5",
+          "Clio",
+          "106"
+        ],
+        "réponse": "R5",
+        "anecdote": "Un grande successo per la marca, la Renault 5 ha venduto più di cinque milioni di unità tra il 1972 e il 1984."
+      },
+      {
+        "id": 4,
+        "question": "In « Le Corniaud », quale macchina si scontra con Bourvil ?",
+        "propositions": [
+          "Cadillac",
+          "Giaguaro",
+          "2 CV",
+          "Rolls-Royce"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "La trama del film è ispirata a uno degli episodi dello smantellamento della French Connection all'inizio degli anni '60."
+      },
+      {
+        "id": 5,
+        "question": "In quale macchina fu assassinato il presidente americano Kennedy ?",
+        "propositions": [
+          "Ford 300",
+          "Chrysler Newport",
+          "Lincoln continentale",
+          "Chevrolet Corvair"
+        ],
+        "réponse": "Lincoln continentale",
+        "anecdote": "Una nuovissima Continental, lanciata nel 2016, è stata presentata a New York per sostituire la MKS."
+      },
+      {
+        "id": 6,
+        "question": "Quale circuito è anche chiamato Toboggan des Ardennes ?",
+        "propositions": [
+          "Spa-Francorchamps",
+          "Monaco",
+          "Zandvoort",
+          "Monza"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "È uno dei circuiti preferiti dai piloti per la varietà del suo tracciato nel paesaggio montuoso delle Ardenne belghe."
+      },
+      {
+        "id": 7,
+        "question": "Chi è il produttore dell'auto nel film « Ritorno al futuro » ?",
+        "propositions": [
+          "Pagani",
+          "DeLorean",
+          "Gumpert",
+          "Mclaren"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "La DeLorean DMC-12, un'auto sportiva progettata e prodotta da DMC, è l'unico modello prodotto e commercializzato da questo produttore."
+      },
+      {
+        "id": 8,
+        "question": "In quale circuito di Formula 1 è morto Ayrton Senna ?",
+        "propositions": [
+          "Spa-Francorchamps",
+          "Zandvoort",
+          "Monza",
+          "Imola"
+        ],
+        "réponse": "Imola",
+        "anecdote": "È stato riconosciuto per le sue prestazioni sulle piste bagnate, con vittorie leggendarie come quella al Gran Premio del Portogallo del 1985."
+      },
+      {
+        "id": 9,
+        "question": "In Francia, come vengono comunemente chiamate le luci anabbaglianti ?",
+        "propositions": [
+          "LED",
+          "Terminali",
+          "Codici",
+          "Diodi"
+        ],
+        "réponse": "Codici",
+        "anecdote": "Questi dispositivi di illuminazione vengono utilizzati sui veicoli a motore, aiutandoli a guidare di notte."
+      },
+      {
+        "id": 10,
+        "question": "Qual è stato il veicolo più venduto in Francia nel 2016 ?",
+        "propositions": [
+          "Peugeot 206",
+          "Renault Clio",
+          "Citroën C3",
+          "Dacia Duster"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "La Renault Clio I venne prodotta dal 1990 al 1999, restyling nel 1994 e nel 1996 ed infine sostituita nel 1998 dalla Clio II."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale marca di 4x4 utilizza lo staff di « Jurassic Park » ?",
+        "propositions": [
+          "Ford",
+          "Toyota",
+          "Jeep",
+          "Renault"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep è una casa automobilistica americana appartenente al gruppo Fiat dal 2010, divenuto Stellantis nel 2021."
+      },
+      {
+        "id": 12,
+        "question": "Quale leader ha riunito i produttori Renault, Mitsubishi e Nissan ?",
+        "propositions": [
+          "Carlos Ghosn",
+          "Stanislao Guerini",
+          "Oscar Ghez",
+          "Mathieu Gallet"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "È stato arrestato nel 2018 dalla giustizia giapponese, sospettato di aver nascosto entrate nelle pubblicazioni finanziarie di Nissan."
+      },
+      {
+        "id": 13,
+        "question": "Qual è la nazionalità del produttore Kia Motors ?",
+        "propositions": [
+          "Cinese",
+          "Nordcoreano",
+          "Corea del Sud",
+          "giapponese"
+        ],
+        "réponse": "Corea del Sud",
+        "anecdote": "Con più di 32.000 dipendenti, Kia Motors Company è attualmente la più antica casa automobilistica coreana."
+      },
+      {
+        "id": 14,
+        "question": "Come vengono tradizionalmente chiamate le station wagon BMW ?",
+        "propositions": [
+          "GT",
+          "Touring",
+          "Taglia",
+          "Minivan"
+        ],
+        "réponse": "Touring",
+        "anecdote": "Ad esempio, il modello BMW Serie 3 è una berlina familiare, disponibile anche come station wagon (touring) e Gran Turismo (GT)."
+      },
+      {
+        "id": 15,
+        "question": "Chi era la più grande casa automobilistica del mondo nel 2016 ?",
+        "propositions": [
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Tesla"
+        ],
+        "réponse": "Volkswagen",
+        "anecdote": "Le origini del marchio vanno ricercate nella Germania nazista degli anni '30 con il progetto di costruire il futuro Maggiolino."
+      },
+      {
+        "id": 16,
+        "question": "Quali sono i due colori della Chevrolet Camaro del film « Transformers » ?",
+        "propositions": [
+          "Rosso e bianco",
+          "Giallo e nero",
+          "Bianco e blu",
+          "Verde e grigio"
+        ],
+        "réponse": "Giallo e nero",
+        "anecdote": "Quando venne lanciato sul mercato, Chevrolet precisò che il nome del nuovo modello derivava da una parola francese, camaro, che in slang significa compagno."
+      },
+      {
+        "id": 17,
+        "question": "In che anno è apparso il tergicristallo sui veicoli a motore ?",
+        "propositions": [
+          "1910",
+          "1923",
+          "1971",
+          "1948"
+        ],
+        "réponse": "1910",
+        "anecdote": "Secondo i produttori, un tergicristallo ha una durata media di 500.000 cicli, che corrisponde a un anno di utilizzo."
+      },
+      {
+        "id": 18,
+        "question": "Quale di queste case automobilistiche non è giapponese ?",
+        "propositions": [
+          "Mazda",
+          "Honda",
+          "Kia",
+          "Mitsubishi"
+        ],
+        "réponse": "Kia",
+        "anecdote": "La prima sillaba Ki significa « rivelarsi al mondo », la seconda è la prima lettera della parola Asia (L'Asia si rivela al mondo)."
+      },
+      {
+        "id": 19,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 20,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Vesta",
+          "Samara",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Granta",
+          "Niva",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 22,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Samara",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 23,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 24,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Niva",
+          "Samara",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 25,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Niva",
+          "Vesta",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 26,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 27,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Samara",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 28,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Granta",
+          "Samara",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 29,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Granta",
+          "Niva",
+          "Vesta",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      },
+      {
+        "id": 30,
+        "question": "Quale modello Lada ha ottenuto vittorie di tappa alla Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Vesta",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Il successo di questo modello fu tale che apparvero club e scuole dove veniva insegnata la guida fuoristrada su Niva."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wat is het luxemerk van autofabrikant Toyota ?",
+        "propositions": [
+          "Maybach",
+          "Panamera",
+          "Infiniti",
+          "Lexus"
+        ],
+        "réponse": "Lexus",
+        "anecdote": "Het merk Lexus, opgericht in 1989, is de eerste high-end fabrikant die hybride versies in zijn producten heeft opgenomen."
+      },
+      {
+        "id": 2,
+        "question": "Welk prestigieus automerk heeft het Spirit of Ecstasy-embleem ?",
+        "propositions": [
+          "Rolls-Royce",
+          "Lamborghini",
+          "Cadillac",
+          "Lotus"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "Het beeldje werd in 1911 gemaakt door de Engelse beeldhouwer Charles Sykes om de radiatordoppen van het merk te verfraaien."
+      },
+      {
+        "id": 3,
+        "question": "Wat was de eerste Franse auto met een driedeursmodel ?",
+        "propositions": [
+          "Clio",
+          "C4",
+          "106",
+          "R5"
+        ],
+        "réponse": "R5",
+        "anecdote": "Een groot succes voor het merk : van de Renault 5 werden tussen 1972 en 1984 meer dan vijf miljoen exemplaren verkocht."
+      },
+      {
+        "id": 4,
+        "question": "Welke auto komt in « Le Corniaud » in botsing met Bourvil ?",
+        "propositions": [
+          "Rolls-Royce",
+          "Cadillac",
+          "2 CV",
+          "Jaguar"
+        ],
+        "réponse": "Rolls-Royce",
+        "anecdote": "De verhaallijn van de film is geïnspireerd op een van de afleveringen van de ontmanteling van de French Connection begin jaren zestig."
+      },
+      {
+        "id": 5,
+        "question": "In welke auto werd de Amerikaanse president Kennedy vermoord ?",
+        "propositions": [
+          "Ford 300",
+          "Chrysler Nieuwpoort",
+          "Lincoln Continentaal",
+          "Chevrolet Corvair"
+        ],
+        "réponse": "Lincoln Continentaal",
+        "anecdote": "Een geheel nieuwe Continental, uitgebracht in 2016, werd onthuld in New York ter vervanging van de MKS."
+      },
+      {
+        "id": 6,
+        "question": "Welk racecircuit wordt ook wel de Toboggan des Ardennes genoemd ?",
+        "propositions": [
+          "Monaco",
+          "Zandvoort",
+          "Spa-Francorchamps",
+          "Monza"
+        ],
+        "réponse": "Spa-Francorchamps",
+        "anecdote": "Het is een van de favoriete circuits van de coureurs vanwege de verscheidenheid aan lay-outs in het bergachtige landschap van de Belgische Ardennen."
+      },
+      {
+        "id": 7,
+        "question": "Wie is de fabrikant van de auto in de film « Back to the Future » ?",
+        "propositions": [
+          "Pagani",
+          "McLaren",
+          "DeLorean",
+          "Gumpert"
+        ],
+        "réponse": "DeLorean",
+        "anecdote": "De DeLorean DMC-12, een sportwagen ontworpen en vervaardigd door DMC, is het enige model dat door deze fabrikant wordt geproduceerd en op de markt gebracht."
+      },
+      {
+        "id": 8,
+        "question": "Op welk Formule 1-circuit stierf Ayrton Senna ?",
+        "propositions": [
+          "Spa-Francorchamps",
+          "Monza",
+          "Imola",
+          "Zandvoort"
+        ],
+        "réponse": "Imola",
+        "anecdote": "Hij werd erkend voor zijn prestaties op natte circuits, met legendarische overwinningen zoals tijdens de Portugese Grand Prix van 1985."
+      },
+      {
+        "id": 9,
+        "question": "Hoe worden dimlichten in Frankrijk gewoonlijk genoemd ?",
+        "propositions": [
+          "Diodes",
+          "Codes",
+          "Terminals",
+          "LED's"
+        ],
+        "réponse": "Codes",
+        "anecdote": "Deze verlichtingsapparaten worden gebruikt op motorvoertuigen en helpen bij het besturen van deze voertuigen 's nachts."
+      },
+      {
+        "id": 10,
+        "question": "Wat was het best verkochte voertuig in Frankrijk in 2016 ?",
+        "propositions": [
+          "Peugeot 206",
+          "Citroën C3",
+          "Dacia Duster",
+          "Renault Clio"
+        ],
+        "réponse": "Renault Clio",
+        "anecdote": "De Renault Clio I werd geproduceerd van 1990 tot 1999, gerestyled in 1994 en 1996 en uiteindelijk in 1998 vervangen door de Clio II."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welk merk 4x4 gebruikt het personeel van « Jurassic Park » ?",
+        "propositions": [
+          "Toyota",
+          "Renault",
+          "Jeep",
+          "Ford"
+        ],
+        "réponse": "Jeep",
+        "anecdote": "Jeep is een Amerikaanse autofabrikant die sinds 2010 deel uitmaakt van de Fiat-groep, die in 2021 Stellantis werd."
+      },
+      {
+        "id": 12,
+        "question": "Welke leider bracht de fabrikanten Renault, Mitsubishi en Nissan samen ?",
+        "propositions": [
+          "Oscar Ghez",
+          "Mathieu Gallet",
+          "Stanislas Guerini",
+          "Carlos Ghosn"
+        ],
+        "réponse": "Carlos Ghosn",
+        "anecdote": "Hij werd in 2018 gearresteerd door de Japanse justitie, op verdenking van het verbergen van inkomsten in de financiële publicaties van Nissan."
+      },
+      {
+        "id": 13,
+        "question": "Wat is de nationaliteit van de fabrikant Kia Motors ?",
+        "propositions": [
+          "Zuid-Koreaans",
+          "Japans",
+          "Chinees",
+          "Noord-Koreaans"
+        ],
+        "réponse": "Zuid-Koreaans",
+        "anecdote": "Met ruim 32.000 medewerkers is Kia Motors Company momenteel de oudste autofabrikant van Korea."
+      },
+      {
+        "id": 14,
+        "question": "Hoe worden BMW stationwagens traditioneel genoemd ?",
+        "propositions": [
+          "Minivan",
+          "Knippen",
+          "Toeren",
+          "GT"
+        ],
+        "réponse": "Toeren",
+        "anecdote": "Het model van de BMW 3 Serie is bijvoorbeeld een familiesedan, ook verkrijgbaar als stationwagen (touring) en Gran Turismo (GT)."
+      },
+      {
+        "id": 15,
+        "question": "Wie was de grootste autofabrikant ter wereld in 2016 ?",
+        "propositions": [
+          "Tesla",
+          "Volkswagen",
+          "Ford",
+          "BMW"
+        ],
+        "réponse": "Volkswagen",
+        "anecdote": "De oorsprong van het merk ligt in nazi-Duitsland in de jaren dertig met het project om de toekomstige Kever te bouwen."
+      },
+      {
+        "id": 16,
+        "question": "Wat zijn de twee kleuren van de Chevrolet Camaro uit de film « Transformers » ?",
+        "propositions": [
+          "Rood en wit",
+          "Wit en blauw",
+          "Geel en zwart",
+          "Groen en grijs"
+        ],
+        "réponse": "Geel en zwart",
+        "anecdote": "Toen het werd uitgebracht, specificeerde Chevrolet dat de naam van het nieuwe model afkomstig was van een Frans woord, camaro, wat kameraad in straattaal betekent."
+      },
+      {
+        "id": 17,
+        "question": "In welk jaar verscheen de ruitenwisser op motorvoertuigen ?",
+        "propositions": [
+          "1971",
+          "1910",
+          "1948",
+          "1923"
+        ],
+        "réponse": "1910",
+        "anecdote": "Een ruitenwisser heeft volgens de fabrikanten een gemiddelde levensduur van 500.000 cycli, wat overeenkomt met één jaar gebruik."
+      },
+      {
+        "id": 18,
+        "question": "Welke van deze autofabrikanten is niet Japans ?",
+        "propositions": [
+          "Mazda",
+          "Mitsubishi",
+          "Kia",
+          "Honda"
+        ],
+        "réponse": "Kia",
+        "anecdote": "De eerste lettergreep Ki betekent « openbaart zich aan de wereld », de tweede is de eerste letter van het woord Azië (Azië openbaart zich aan de wereld)."
+      },
+      {
+        "id": 19,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Vesta",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 20,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Samara",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Samara",
+          "Niva",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 22,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Vesta",
+          "Samara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 23,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 24,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Vesta",
+          "Niva",
+          "Samara",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 25,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Granta",
+          "Vesta",
+          "Samara"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 26,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Vesta",
+          "Granta",
+          "Niva"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 27,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 28,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Niva",
+          "Samara",
+          "Granta",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 29,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Niva",
+          "Vesta",
+          "Granta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      },
+      {
+        "id": 30,
+        "question": "Welk Lada-model behaalde etappezeges op de Dakkar ?",
+        "propositions": [
+          "Samara",
+          "Granta",
+          "Niva",
+          "Vesta"
+        ],
+        "réponse": "Niva",
+        "anecdote": "Het succes van dit model was zo groot dat er clubs en scholen verschenen waar off-road rijden op Niva werd onderwezen."
+      }
+    ]
+    }
+  }
+}

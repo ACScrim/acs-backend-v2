@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 1,
+  "mise-à-jour": "2023-06-17",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Animaux",
+      "nom": "Animaux et habitats",
+      "slogan": "Des milieux à l'équilibre fragile"
+    },
+    "en": {
+      "catégorie": "Animals",
+      "nom": "Animals and habitats",
+      "slogan": "Environments with a fragile balance"
+    },
+    "es": {
+      "catégorie": "Animales",
+      "nom": "Animales y hábitats",
+      "slogan": "Entornos con un equilibrio frágil"
+    },
+    "it": {
+      "catégorie": "Animali",
+      "nom": "Animali e habitat",
+      "slogan": "Ambienti dal fragile equilibrio"
+    },
+    "de": {
+      "catégorie": "Tiere",
+      "nom": "Tiere und Lebensräume",
+      "slogan": "Umgebungen mit einem fragilen Gleichgewicht"
+    },
+    "nl": {
+      "catégorie": "Dieren",
+      "nom": "Dieren en leefgebieden",
+      "slogan": "Omgevingen met een fragiel evenwicht"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel animal vertébré retrouve-t-on la plupart du temps dans un aquarium communautaire ?",
+        "propositions": [
+          "Oiseau",
+          "Poisson",
+          "Lapin",
+          "Fourmi"
+        ],
+        "réponse": "Poisson",
+        "anecdote": "Un aquarium est une reproduction de l'habitat naturel de l'espèce ou des espèces qui habite(ent) dans cet aquarium."
+      },
+      {
+        "id": 2,
+        "question": "Où irez-vous pour acheter le chien dont vous avez toujours rêvé ?",
+        "propositions": [
+          "Clapier",
+          "Nichoir",
+          "Chenil",
+          "Zoo"
+        ],
+        "réponse": "Chenil",
+        "anecdote": "Un chenil est un établissement destiné à l'élevage ou à la pension de chiens ou bien, dans un château, le bâtiment qui abrite la meute."
+      },
+      {
+        "id": 3,
+        "question": "Quelle  bâtisse est destinée au logement des ânes, chevaux et autres mulets ?",
+        "propositions": [
+          "Arène",
+          "Hippodrome",
+          "Écurie",
+          "Ranch"
+        ],
+        "réponse": "Écurie",
+        "anecdote": "Les différents éléments qui composent l'écurie doivent satisfaire aux conditions d'hygiène nécessaires au maintien en intérieur d'équidés."
+      },
+      {
+        "id": 4,
+        "question": "Quel habitat a pour but de protéger la ou les reines chez les fourmis ?",
+        "propositions": [
+          "Ruche",
+          "Insectarium",
+          "Fourmilière",
+          "Colombier"
+        ],
+        "réponse": "Fourmilière",
+        "anecdote": "La fourmilière est généralement un endroit que les fourmis ont construit par excavation ou par construction de dômes."
+      },
+      {
+        "id": 5,
+        "question": "Quel circuit, généralement de forme ovale, est aujourd'hui dévolu au sport hippique ?",
+        "propositions": [
+          "Delphinarium",
+          "Vivarium",
+          "Hippodrome",
+          "Cynodrome"
+        ],
+        "réponse": "Hippodrome",
+        "anecdote": "D'origine antique, disposant de gradins ou de tribunes, les hippodromes étaient alors dévolus aux courses de chars."
+      },
+      {
+        "id": 6,
+        "question": "Quel endroit renferme généralement une collection d'insectes vivants ou morts ?",
+        "propositions": [
+          "Delphinarium",
+          "Vivarium",
+          "Insectarium",
+          "Cynodrome"
+        ],
+        "réponse": "Insectarium",
+        "anecdote": "Un insectarium n'est pas forcément accessible au grand public s'il est implanté dans l'enceinte d'une université ou d'un laboratoire."
+      },
+      {
+        "id": 7,
+        "question": "Quel abri, situé à l'extérieur des maisons, est spécifiquement fabriqué pour les chiens ?",
+        "propositions": [
+          "Niche",
+          "Clapier",
+          "Bauge",
+          "Garenne"
+        ],
+        "réponse": "Niche",
+        "anecdote": "Charles M. Schulz, le dessinateur des « Peanuts », représente souvent le chien Snoopy allongé sur le toit de sa niche."
+      },
+      {
+        "id": 8,
+        "question": "Quel bâtiment est conçu et adapté pour l'élevage intensif des porcs ?",
+        "propositions": [
+          "Écloserie",
+          "Porcherie",
+          "Volière",
+          "Bauge"
+        ],
+        "réponse": "Porcherie",
+        "anecdote": "Les premières porcheries datent probablement de l'antiquité et semblaient être des enclos avec un abri simple."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel bâtiment, généralement de petite taille, élève-t-on de la volaille ?",
+        "propositions": [
+          "Manège",
+          "Poulailler",
+          "Toril",
+          "Clapier"
+        ],
+        "réponse": "Poulailler",
+        "anecdote": "Les volailles aiment vivre à l'extérieur mais le poulailler procure un abri contre la neige, les prédateurs et pour la nuit."
+      },
+      {
+        "id": 10,
+        "question": "Dans quelle structure artificielle presque fermée est-il possible de récolter du miel ?",
+        "propositions": [
+          "Ruche",
+          "Écloserie",
+          "Clapier",
+          "Nichoir"
+        ],
+        "réponse": "Ruche",
+        "anecdote": "L'intérieur de la ruche est composé de rayons formés par des cellules hexagonales de cire d'abeille."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Dans quel aquarium artificiel pouvez-vous voir jouer des dauphins avec leurs dresseurs ?",
+        "propositions": [
+          "Delphinarium",
+          "Vivarium",
+          "Magnanerie",
+          "Insectarium"
+        ],
+        "réponse": "Delphinarium",
+        "anecdote": "Les delphinariums sont des structures ouvertes au public, souvent intégrées dans des parcs d'attraction ou des parcs zoologiques."
+      },
+      {
+        "id": 12,
+        "question": "Quel petit abri artificiel, aménagé par l'homme, est aussi appelé « cabane à oiseaux » ?",
+        "propositions": [
+          "Nichoir",
+          "Poulailler",
+          "Frayère",
+          "Garenne"
+        ],
+        "réponse": "Nichoir",
+        "anecdote": "La construction et l'aménagement de nichoirs n'offrent qu'une maigre compensation face à la disparition des sites naturels."
+      },
+      {
+        "id": 13,
+        "question": "Dans quelle structure pratique-t-on l'élevage extensif de bétail dans le sud des États-Unis ?",
+        "propositions": [
+          "Manège",
+          "Vivarium",
+          "Ranch",
+          "Hippodrome"
+        ],
+        "réponse": "Ranch",
+        "anecdote": "Les ranchs peuvent être de toute taille, certains disposent de terres arables, irriguées ou non, produisant des récoltes fourragères."
+      },
+      {
+        "id": 14,
+        "question": "Dans quel espace touristique sont réunies de nombreuses espèces animales vivantes ?",
+        "propositions": [
+          "Garenne",
+          "Chenil",
+          "Zoo",
+          "Fourmilière"
+        ],
+        "réponse": "Zoo",
+        "anecdote": "On recense plus de 2 000 zoos dans le monde, attirant un ensemble de près de 350 millions de visiteurs par an."
+      },
+      {
+        "id": 15,
+        "question": "Quel animal se déplace parfois sauvagement dans une arène ?",
+        "propositions": [
+          "Ane",
+          "Taureau",
+          "Boeuf",
+          "Zèbre"
+        ],
+        "réponse": "Taureau",
+        "anecdote": "Cet édifice dans son architecture actuelle dite « arène espagnole » est né en Espagne à la fin du XVIIIe siècle."
+      },
+      {
+        "id": 16,
+        "question": "Dans quoi sont généralement réunis les lapins au fond des jardins ?",
+        "propositions": [
+          "Clapier",
+          "Écloserie",
+          "Volière",
+          "Nichoir"
+        ],
+        "réponse": "Clapier",
+        "anecdote": "Le clapier comporte habituellement plusieurs cases souvent dotées de portes grillagées, chaque case étant affectée à un lapin."
+      },
+      {
+        "id": 17,
+        "question": "En aquaculture, quelle installation est destinée à produire des larves ou des alevins ?",
+        "propositions": [
+          "Toril",
+          "Bauge",
+          "Écloserie",
+          "Frayère"
+        ],
+        "réponse": "Écloserie",
+        "anecdote": "Une écloserie permet de vendre à des ostréiculteurs des naissains d'huîtres appropriés à leurs besoins."
+      },
+      {
+        "id": 18,
+        "question": "Quel endroit couvert, au sol meuble et souple, permet de faire travailler les chevaux ?",
+        "propositions": [
+          "Toril",
+          "Manège",
+          "Bauge",
+          "Ranch"
+        ],
+        "réponse": "Manège",
+        "anecdote": "Idéalement, un manège est couvert et fermé pour permettre de travailler quel que soit le temps."
+      },
+      {
+        "id": 19,
+        "question": "À l'époque féodale, quel édifice était destiné à loger et à élever des pigeons ?",
+        "propositions": [
+          "Colombier",
+          "Cynodrome",
+          "Manège",
+          "Porcherie"
+        ],
+        "réponse": "Colombier",
+        "anecdote": "Le colombier désigne encore les édifices de la Renaissance et du début des Temps modernes."
+      },
+      {
+        "id": 20,
+        "question": "Quelle cage de grande taille est destinée à contenir des oiseaux ?",
+        "propositions": [
+          "Valise",
+          "Volière",
+          "Vitrine",
+          "Volute"
+        ],
+        "réponse": "Volière",
+        "anecdote": "La cage est très souvent reprise comme symbole ou comme métaphore pour désigner l'emprisonnement."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel animal aux longues oreilles peut donner du lait dans une asinerie ?",
+        "propositions": [
+          "Chèvre",
+          "Brebis",
+          "Ânesse",
+          "Vache"
+        ],
+        "réponse": "Ânesse",
+        "anecdote": "Très vite, l'âne est aussi devenu l'animal de transport terrestre privilégié en raison de ses larges qualités."
+      },
+      {
+        "id": 22,
+        "question": "Dans quel espace boisé ou herbeux vivent les lapins sauvages ?",
+        "propositions": [
+          "Garenne",
+          "Manège",
+          "Bauge",
+          "Clapier"
+        ],
+        "réponse": "Garenne",
+        "anecdote": "À l'origine, la garenne est un espace réservé à certaines espèces de gibier et où les animaux peuvent trouver pâture."
+      },
+      {
+        "id": 23,
+        "question": "Quel établissement ouvert au public présente des espèces animales marines ?",
+        "propositions": [
+          "Oceanarium",
+          "Vivarium",
+          "Zoo",
+          "Écloserie"
+        ],
+        "réponse": "Oceanarium",
+        "anecdote": "Le premier oceanarium connu fut établi à St Augustine en Floride, en 1938, sous le nom des « Marine Studios »."
+      },
+      {
+        "id": 24,
+        "question": "Dans quelle cage vitrée élève-t-on le plus souvent des reptiles et des amphibiens ?",
+        "propositions": [
+          "Écloserie",
+          "Oceanarium",
+          "Magnanerie",
+          "Vivarium"
+        ],
+        "réponse": "Vivarium",
+        "anecdote": "Les conditions climatiques telles que la ventilation, la lumière, la température et l'humidité y sont ajustées artificiellement."
+      },
+      {
+        "id": 25,
+        "question": "Dans quel système de construction en terre crue dorment les sangliers ?",
+        "propositions": [
+          "Garenne",
+          "Porcherie",
+          "Manège",
+          "Bauge"
+        ],
+        "réponse": "Bauge",
+        "anecdote": "La terre est dans un état plastique, généralement mélangée à des fibres végétales ou animales."
+      },
+      {
+        "id": 26,
+        "question": "La bouverie est un lieu rassemblant quels animaux imposants ?",
+        "propositions": [
+          "Oies",
+          "Moutons",
+          "Chèvres",
+          "Boeufs"
+        ],
+        "réponse": "Boeufs",
+        "anecdote": "Un boeuf est un bovin domestique mâle ayant subi une castration dans le cadre de son élevage."
+      },
+      {
+        "id": 27,
+        "question": "Quel circuit est dévolu aux courses de lévriers, dont le coursing fait partie ?",
+        "propositions": [
+          "Arène",
+          "Vivarium",
+          "Cynodrome",
+          "Hippodrome"
+        ],
+        "réponse": "Cynodrome",
+        "anecdote": "L'open coursing est la forme la plus sportive et ces courses sont très suivies car dotées de nombreux prix."
+      },
+      {
+        "id": 28,
+        "question": "Dans quel lieu se reproduisent poissons et batraciens, et par extension les mollusques ?",
+        "propositions": [
+          "Frayère",
+          "Garenne",
+          "Vivarium",
+          "Magnanerie"
+        ],
+        "réponse": "Frayère",
+        "anecdote": "C'est donc souvent aussi l'endroit où les femelles déposent leurs oeufs afin que les mâles les recouvrent de semence."
+      },
+      {
+        "id": 29,
+        "question": "Dans quel lieu d'exploitation pratique-t-on l'élevage du ver à soie ?",
+        "propositions": [
+          "Frayère",
+          "Magnanerie",
+          "Écloserie",
+          "Vivarium"
+        ],
+        "réponse": "Magnanerie",
+        "anecdote": "Les femmes employées dans une magnanerie sont appelées magnanarelles ou magnarelles."
+      },
+      {
+        "id": 30,
+        "question": "Dans quel lieu de l'arène tient-on les taureaux enfermés avant le combat ?",
+        "propositions": [
+          "Toril",
+          "Nichoir",
+          "Niche",
+          "Frayère"
+        ],
+        "réponse": "Toril",
+        "anecdote": "Le toril comme les chiqueros diffèrent du corral qui est un ensemble de cours communiquant entre elles par des portes."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What vertebrate animal is most commonly found in a community aquarium ?",
+        "propositions": [
+          "A fish",
+          "A Rabbit",
+          "A bird",
+          "An ant"
+        ],
+        "réponse": "A fish",
+        "anecdote": "An aquarium is a reproduction of the natural habitat of the species or species that live(s) in that aquarium."
+      },
+      {
+        "id": 2,
+        "question": "Where will you go to buy the dog you've always dreamed of ?",
+        "propositions": [
+          "At the birdhouse",
+          "At the kennel",
+          "In the hutch",
+          "At the zoo"
+        ],
+        "réponse": "At the kennel",
+        "anecdote": "A kennel is an establishment intended for breeding or boarding dogs or, in a castle, the building that houses the pack."
+      },
+      {
+        "id": 3,
+        "question": "Which building is intended for housing donkeys, horses and other mules ?",
+        "propositions": [
+          "A racecourse",
+          "A Ranch",
+          "A stable",
+          "An arena"
+        ],
+        "réponse": "A stable",
+        "anecdote": "The various elements that make up the stable must meet the hygiene conditions necessary for keeping horses indoors."
+      },
+      {
+        "id": 4,
+        "question": "What habitat is there to protect the queen(s) in ants ?",
+        "propositions": [
+          "An insectary",
+          "An anthill",
+          "A beehive",
+          "A dovecote"
+        ],
+        "réponse": "An anthill",
+        "anecdote": "The anthill is usually a place that ants have built by excavation or by building domes."
+      },
+      {
+        "id": 5,
+        "question": "Which circuit, generally oval in shape, is now devoted to equestrian sport ?",
+        "propositions": [
+          "Cynodrome",
+          "vivarium",
+          "Racecourse",
+          "Dolphinarium"
+        ],
+        "réponse": "Racecourse",
+        "anecdote": "Of ancient origin, with bleachers or grandstands, the racecourses were then devoted to chariot races."
+      },
+      {
+        "id": 6,
+        "question": "What place usually contains a collection of living or dead insects ?",
+        "propositions": [
+          "A dog track",
+          "A dolphinarium",
+          "A vivarium",
+          "An insectary"
+        ],
+        "réponse": "An insectary",
+        "anecdote": "An insectarium is not necessarily accessible to the general public if it is located within the confines of a university or a laboratory."
+      },
+      {
+        "id": 7,
+        "question": "What shelter outside houses is specifically made for dogs ?",
+        "propositions": [
+          "The warren",
+          "The wallow",
+          "The hutch",
+          "The niche"
+        ],
+        "réponse": "The niche",
+        "anecdote": "Charles M. Schulz, the designer of « Peanuts », often depicts the dog Snoopy lying on the roof of his kennel."
+      },
+      {
+        "id": 8,
+        "question": "Which building is designed and suitable for intensive pig farming ?",
+        "propositions": [
+          "A hatchery",
+          "A cob",
+          "An aviary",
+          "A pigsty"
+        ],
+        "réponse": "A pigsty",
+        "anecdote": "The first piggeries probably date from antiquity and appeared to be pens with a simple shelter."
+      },
+      {
+        "id": 9,
+        "question": "In which building, usually small in size, are poultry kept ?",
+        "propositions": [
+          "A carousel",
+          "A toril",
+          "A hutch",
+          "A chicken coop"
+        ],
+        "réponse": "A chicken coop",
+        "anecdote": "Poultry like to live outside, but the coop provides shelter from snow, predators and overnight."
+      },
+      {
+        "id": 10,
+        "question": "In which almost closed artificial structure is it possible to collect honey ?",
+        "propositions": [
+          "A birdhouse",
+          "A hutch",
+          "A hatchery",
+          "A beehive"
+        ],
+        "réponse": "A beehive",
+        "anecdote": "The interior of the hive is made up of combs formed by hexagonal cells of beeswax."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In which artificial aquarium can you see dolphins playing with their trainers ?",
+        "propositions": [
+          "A vivarium",
+          "An insectary",
+          "A magnanery",
+          "A dolphinarium"
+        ],
+        "réponse": "A dolphinarium",
+        "anecdote": "Dolphinariums are structures open to the public, often integrated into amusement parks or zoos."
+      },
+      {
+        "id": 12,
+        "question": "What small man-made artificial shelter is also called a birdhouse ?",
+        "propositions": [
+          "warren",
+          "Birdhouse",
+          "Spawning ground",
+          "chicken coop"
+        ],
+        "réponse": "Birdhouse",
+        "anecdote": "The construction and development of nesting boxes only offer meager compensation in the face of the disappearance of natural sites."
+      },
+      {
+        "id": 13,
+        "question": "In what environment is extensive cattle ranching practiced in the southern United States ?",
+        "propositions": [
+          "Carousel",
+          "Racecourse",
+          "ranch",
+          "vivarium"
+        ],
+        "réponse": "ranch",
+        "anecdote": "Ranches can be of any size, some have arable land, irrigated or not, producing fodder crops."
+      },
+      {
+        "id": 14,
+        "question": "In which tourist area are many living animal species gathered ?",
+        "propositions": [
+          "A kennel",
+          "A zoo",
+          "A warren",
+          "An anthill"
+        ],
+        "réponse": "A zoo",
+        "anecdote": "There are more than 2,000 zoos in the world, attracting a total of nearly 350 million visitors per year."
+      },
+      {
+        "id": 15,
+        "question": "What animal sometimes moves wildly in an arena ?",
+        "propositions": [
+          "A donkey",
+          "A bull",
+          "An ox",
+          "A zebra"
+        ],
+        "réponse": "A bull",
+        "anecdote": "This building in its current architecture known as the Spanish arena was born in Spain at the end of the 18th century."
+      },
+      {
+        "id": 16,
+        "question": "What are rabbits usually gathered in at the bottom of gardens ?",
+        "propositions": [
+          "An aviary",
+          "A birdhouse",
+          "A hutch",
+          "A hatchery"
+        ],
+        "réponse": "A hutch",
+        "anecdote": "The hutch usually has several boxes often with mesh doors, each box being assigned to a rabbit."
+      },
+      {
+        "id": 17,
+        "question": "In aquaculture, which facility is intended to produce larvae or fry ?",
+        "propositions": [
+          "A toril",
+          "A cob",
+          "A spawning ground",
+          "A hatchery"
+        ],
+        "réponse": "A hatchery",
+        "anecdote": "A hatchery makes it possible to sell oyster spat suited to their needs to oyster farmers."
+      },
+      {
+        "id": 18,
+        "question": "What covered area, with soft, soft ground, is suitable for working horses ?",
+        "propositions": [
+          "The toril",
+          "The Ranch",
+          "The merry-go-round",
+          "The bauge"
+        ],
+        "réponse": "The merry-go-round",
+        "anecdote": "Ideally, a merry-go-round is covered and closed to allow work in any weather."
+      },
+      {
+        "id": 19,
+        "question": "In feudal times, what building was intended to house and raise pigeons ?",
+        "propositions": [
+          "The merry-go-round",
+          "The dovecote",
+          "The Pigsty",
+          "The dog track"
+        ],
+        "réponse": "The dovecote",
+        "anecdote": "The dovecote still designates the buildings of the Renaissance and the beginning of modern times."
+      },
+      {
+        "id": 20,
+        "question": "Which large cage is meant to hold birds ?",
+        "propositions": [
+          "Hatchery",
+          "Aviary",
+          "Dovecote",
+          "Cob"
+        ],
+        "réponse": "Aviary",
+        "anecdote": "The cage is very often used as a symbol or as a metaphor to designate imprisonment."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What long-eared animal can give milk in a donkey farm ?",
+        "propositions": [
+          "A sheep",
+          "A goat",
+          "A cow",
+          "A donkey"
+        ],
+        "réponse": "A donkey",
+        "anecdote": "Very quickly, the donkey also became the preferred land transport animal because of its broad qualities."
+      },
+      {
+        "id": 22,
+        "question": "In what wooded or grassy area do wild rabbits live ?",
+        "propositions": [
+          "The hutch",
+          "The merry-go-round",
+          "The warren",
+          "The wallow"
+        ],
+        "réponse": "The warren",
+        "anecdote": "Originally, the warren was a space reserved for certain species of game and where the animals could find pasture."
+      },
+      {
+        "id": 23,
+        "question": "Which establishment open to the public presents marine animal species ?",
+        "propositions": [
+          "vivarium",
+          "Oceanarium",
+          "Hatchery",
+          "Zoo"
+        ],
+        "réponse": "Oceanarium",
+        "anecdote": "The first known oceanarium was established in St Augustine, Florida in 1938 as « Marine Studios »."
+      },
+      {
+        "id": 24,
+        "question": "In which glass cage are reptiles and amphibians most often kept ?",
+        "propositions": [
+          "An oceanarium",
+          "A hatchery",
+          "A vivarium",
+          "A magnanery"
+        ],
+        "réponse": "A vivarium",
+        "anecdote": "Climatic conditions such as ventilation, light, temperature and humidity are artificially adjusted here."
+      },
+      {
+        "id": 25,
+        "question": "In which mud building system do wild boars sleep ?",
+        "propositions": [
+          "Carousel",
+          "Cob",
+          "warren",
+          "Pigsty"
+        ],
+        "réponse": "Cob",
+        "anecdote": "The earth is in a plastic state, usually mixed with plant or animal fibers."
+      },
+      {
+        "id": 26,
+        "question": "The bouverie is a place gathering which imposing animals ?",
+        "propositions": [
+          "The oxen",
+          "Goats",
+          "Geese",
+          "Sheep"
+        ],
+        "réponse": "The oxen",
+        "anecdote": "An ox is a male domestic bovine that has undergone castration as part of its breeding."
+      },
+      {
+        "id": 27,
+        "question": "Which circuit is devoted to greyhound races of which coursing is part ?",
+        "propositions": [
+          "A racecourse",
+          "An arena",
+          "A cynodrome",
+          "A vivarium"
+        ],
+        "réponse": "A cynodrome",
+        "anecdote": "Open coursing is the most sporting form and these races are very popular because they have many prizes."
+      },
+      {
+        "id": 28,
+        "question": "Where do fish and amphibians breed, and by extension molluscs ?",
+        "propositions": [
+          "A magnanery",
+          "A vivarium",
+          "A spawning ground",
+          "A warren"
+        ],
+        "réponse": "A spawning ground",
+        "anecdote": "It is therefore often also the place where the females deposit their eggs so that the males cover them with semen."
+      },
+      {
+        "id": 29,
+        "question": "In which place of exploitation do we practice the breeding of the silkworm ?",
+        "propositions": [
+          "A magnanery",
+          "A hatchery",
+          "A vivarium",
+          "A spawning ground"
+        ],
+        "réponse": "A magnanery",
+        "anecdote": "Women employed in a magnanerie are called magnanarelles or magnarelles."
+      },
+      {
+        "id": 30,
+        "question": "Where in the arena are the bulls held before the fight ?",
+        "propositions": [
+          "The toril",
+          "The niche",
+          "The birdhouse",
+          "The spawning ground"
+        ],
+        "réponse": "The toril",
+        "anecdote": "The toril like the chiqueros differ from the corral which is a set of courtyards communicating with each other through doors."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welches Wirbeltier kommt am häufigsten in einem Gesellschaftsaquarium vor ?",
+        "propositions": [
+          "Ein Fisch",
+          "Eine Ameise",
+          "Ein Vogel",
+          "Ein Kaninchen"
+        ],
+        "réponse": "Ein Fisch",
+        "anecdote": "Ein Aquarium ist eine Nachbildung des natürlichen Lebensraums der in diesem Aquarium lebenden Arten."
+      },
+      {
+        "id": 2,
+        "question": "Wohin gehen Sie, um den Hund zu kaufen, von dem Sie schon immer geträumt haben ?",
+        "propositions": [
+          "Im Zoo",
+          "Im Zwinger",
+          "Im Stall",
+          "Am Vogelhaus"
+        ],
+        "réponse": "Im Zwinger",
+        "anecdote": "Ein Zwinger ist eine Einrichtung zur Zucht oder Unterbringung von Hunden oder, in einem Schloss, das Gebäude, in dem das Rudel untergebracht ist."
+      },
+      {
+        "id": 3,
+        "question": "Welches Gebäude ist für die Unterbringung von Eseln, Pferden und anderen Maultieren vorgesehen ?",
+        "propositions": [
+          "Eine Arena",
+          "Ein stabiler",
+          "Eine Ranch",
+          "Eine Rennbahn"
+        ],
+        "réponse": "Ein stabiler",
+        "anecdote": "Die verschiedenen Elemente, aus denen der Stall besteht, müssen die hygienischen Bedingungen erfüllen, die für die Stallhaltung von Pferden erforderlich sind."
+      },
+      {
+        "id": 4,
+        "question": "Welchen Lebensraum gibt es zum Schutz der Königin(n) bei Ameisen ?",
+        "propositions": [
+          "Ein Bienenstock",
+          "Ein Taubenschlag",
+          "Ein Ameisenhaufen",
+          "Ein Insektarium"
+        ],
+        "réponse": "Ein Ameisenhaufen",
+        "anecdote": "Der Ameisenhaufen ist normalerweise ein Ort, den Ameisen durch Ausgrabungen oder den Bau von Kuppeln geschaffen haben."
+      },
+      {
+        "id": 5,
+        "question": "Welcher Rundkurs, der im Allgemeinen eine ovale Form hat, ist heute dem Pferdesport gewidmet ?",
+        "propositions": [
+          "Rennbahn",
+          "Delphinarium",
+          "Zynodrome",
+          "Vivarium"
+        ],
+        "réponse": "Rennbahn",
+        "anecdote": "Die Rennbahnen waren antiken Ursprungs und verfügten über Tribünen oder Tribünen."
+      },
+      {
+        "id": 6,
+        "question": "An welchem Ort gibt es normalerweise eine Ansammlung lebender oder toter Insekten ?",
+        "propositions": [
+          "Ein Vivarium",
+          "Ein Insektarium",
+          "Eine Hunderennbahn",
+          "Ein Delphinarium"
+        ],
+        "réponse": "Ein Insektarium",
+        "anecdote": "Ein Insektarium ist nicht unbedingt für die breite Öffentlichkeit zugänglich, wenn es sich innerhalb der Grenzen einer Universität oder eines Labors befindet."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Unterschlupf außerhalb von Häusern ist speziell für Hunde konzipiert ?",
+        "propositions": [
+          "Das Suhlen",
+          "Der Stall",
+          "Die Nische",
+          "Das Gehege"
+        ],
+        "réponse": "Die Nische",
+        "anecdote": "Charles M. Schulz, der Designer von « Peanuts », zeigt oft den Hund Snoopy, der auf dem Dach seines Zwingers liegt."
+      },
+      {
+        "id": 8,
+        "question": "Welches Gebäude ist für die intensive Schweinehaltung konzipiert und geeignet ?",
+        "propositions": [
+          "Ein Schweinestall",
+          "Eine Brüterei",
+          "Eine Voliere",
+          "Ein Kolben"
+        ],
+        "réponse": "Ein Schweinestall",
+        "anecdote": "Die ersten Schweineställe stammen wahrscheinlich aus der Antike und schienen Ställe mit einem einfachen Unterstand zu sein."
+      },
+      {
+        "id": 9,
+        "question": "In welchem meist kleinen Gebäude wird Geflügel gehalten ?",
+        "propositions": [
+          "Ein Toril",
+          "Ein Karussell",
+          "Ein Hühnerstall",
+          "Ein Stall"
+        ],
+        "réponse": "Ein Hühnerstall",
+        "anecdote": "Geflügel lebt gerne draußen, aber der Stall bietet Schutz vor Schnee, Raubtieren und Übernachtungen."
+      },
+      {
+        "id": 10,
+        "question": "In welcher nahezu geschlossenen künstlichen Struktur kann man Honig sammeln ?",
+        "propositions": [
+          "Ein Bienenstock",
+          "Eine Brüterei",
+          "Ein Stall",
+          "Ein Vogelhaus"
+        ],
+        "réponse": "Ein Bienenstock",
+        "anecdote": "Das Innere des Bienenstocks besteht aus Waben, die aus sechseckigen Bienenwachszellen bestehen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welchem künstlichen Aquarium kann man Delfine beim Spielen mit ihren Trainern beobachten ?",
+        "propositions": [
+          "Ein Delphinarium",
+          "Ein Insektarium",
+          "Eine Magnerei",
+          "Ein Vivarium"
+        ],
+        "réponse": "Ein Delphinarium",
+        "anecdote": "Delphinarien sind öffentlich zugängliche Einrichtungen, die häufig in Vergnügungsparks oder Zoos integriert sind."
+      },
+      {
+        "id": 12,
+        "question": "Welcher kleine künstliche Unterschlupf wird auch Vogelhaus genannt ?",
+        "propositions": [
+          "Laichplatz",
+          "warren",
+          "Hühnerstall",
+          "Vogelhaus"
+        ],
+        "réponse": "Vogelhaus",
+        "anecdote": "Der Bau und die Entwicklung von Nistkästen bieten angesichts des Verschwindens von Naturstandorten nur einen dürftigen Ausgleich."
+      },
+      {
+        "id": 13,
+        "question": "In welchem Umfeld wird im Süden der USA ausgedehnte Viehzucht betrieben ?",
+        "propositions": [
+          "Karussell",
+          "Vivarium",
+          "Ranch",
+          "Rennbahn"
+        ],
+        "réponse": "Ranch",
+        "anecdote": "Ranches können jede Größe haben, einige verfügen über bewässertes oder nicht bewässertes Ackerland, auf dem Futterpflanzen angebaut werden."
+      },
+      {
+        "id": 14,
+        "question": "In welchem Touristengebiet sind viele lebende Tierarten versammelt ?",
+        "propositions": [
+          "Ein Zwinger",
+          "Ein Gehege",
+          "Ein Zoo",
+          "Ein Ameisenhaufen"
+        ],
+        "réponse": "Ein Zoo",
+        "anecdote": "Weltweit gibt es mehr als 2.000 Zoos, die jedes Jahr insgesamt fast 350 Millionen Besucher anziehen."
+      },
+      {
+        "id": 15,
+        "question": "Welches Tier bewegt sich manchmal wild in einer Arena ?",
+        "propositions": [
+          "Ein Esel",
+          "Ein Stier",
+          "Ein Ochse",
+          "Ein Zebra"
+        ],
+        "réponse": "Ein Stier",
+        "anecdote": "Dieses Gebäude in seiner heutigen Architektur, bekannt als Spanische Arena, wurde Ende des 18. Jahrhunderts in Spanien geboren."
+      },
+      {
+        "id": 16,
+        "question": "In was versammeln sich Kaninchen normalerweise am Boden von Gärten ?",
+        "propositions": [
+          "Eine Voliere",
+          "Ein Vogelhaus",
+          "Eine Brüterei",
+          "Ein Stall"
+        ],
+        "réponse": "Ein Stall",
+        "anecdote": "Der Stall verfügt in der Regel über mehrere Boxen, oft mit Gittertüren, wobei jede Box einem Kaninchen zugeordnet ist."
+      },
+      {
+        "id": 17,
+        "question": "Welche Anlage soll in der Aquakultur Larven oder Jungfische produzieren ?",
+        "propositions": [
+          "Ein Toril",
+          "Ein Laichplatz",
+          "Ein Kolben",
+          "Eine Brüterei"
+        ],
+        "réponse": "Eine Brüterei",
+        "anecdote": "Eine Brüterei ermöglicht es, den Austernzüchtern bedarfsgerechte Austernspieße zu verkaufen."
+      },
+      {
+        "id": 18,
+        "question": "Welcher überdachte Bereich mit weichem, weichem Boden ist für Arbeitspferde geeignet ?",
+        "propositions": [
+          "Der Toril",
+          "Das Karussell",
+          "Die Ranch",
+          "Die Spurweite"
+        ],
+        "réponse": "Das Karussell",
+        "anecdote": "Idealerweise ist ein Karussell abgedeckt und geschlossen, um bei jedem Wetter arbeiten zu können."
+      },
+      {
+        "id": 19,
+        "question": "Welches Gebäude diente in der Feudalzeit zur Unterbringung und Zucht von Tauben ?",
+        "propositions": [
+          "Das Karussell",
+          "Die Hunderennbahn",
+          "Der Taubenschlag",
+          "Der Schweinestall"
+        ],
+        "réponse": "Der Taubenschlag",
+        "anecdote": "Der Taubenschlag bezeichnet noch heute die Bauten der Renaissance und der beginnenden Neuzeit."
+      },
+      {
+        "id": 20,
+        "question": "Welcher große Käfig ist für die Unterbringung von Vögeln gedacht ?",
+        "propositions": [
+          "Cob",
+          "Taubenschlag",
+          "Brüterei",
+          "Voliere"
+        ],
+        "réponse": "Voliere",
+        "anecdote": "Der Käfig wird sehr oft als Symbol oder als Metapher zur Bezeichnung der Inhaftierung verwendet."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches langohrige Tier kann auf einer Eselsfarm Milch geben ?",
+        "propositions": [
+          "Eine Kuh",
+          "Ein Esel",
+          "Eine Ziege",
+          "Ein Schaf"
+        ],
+        "réponse": "Ein Esel",
+        "anecdote": "Sehr schnell wurde der Esel aufgrund seiner vielfältigen Eigenschaften auch zum bevorzugten Landtransporttier."
+      },
+      {
+        "id": 22,
+        "question": "In welchem Wald- oder Grasgebiet leben Wildkaninchen ?",
+        "propositions": [
+          "Das Suhlen",
+          "Der Stall",
+          "Das Karussell",
+          "Das Gehege"
+        ],
+        "réponse": "Das Gehege",
+        "anecdote": "Ursprünglich war das Gehege ein für bestimmte Wildarten reservierter Raum, in dem die Tiere Weide finden konnten."
+      },
+      {
+        "id": 23,
+        "question": "Welche öffentlich zugängliche Einrichtung präsentiert Meerestierarten ?",
+        "propositions": [
+          "Ozeanarium",
+          "Vivarium",
+          "Zoo",
+          "Brüterei"
+        ],
+        "réponse": "Ozeanarium",
+        "anecdote": "Das erste bekannte Ozeanarium wurde 1938 in St. Augustine, Florida, als « Marine Studios » gegründet."
+      },
+      {
+        "id": 24,
+        "question": "In welchem Glaskäfig werden Reptilien und Amphibien am häufigsten gehalten ?",
+        "propositions": [
+          "Eine Magnerei",
+          "Ein Vivarium",
+          "Ein Ozeanarium",
+          "Eine Brüterei"
+        ],
+        "réponse": "Ein Vivarium",
+        "anecdote": "Klimatische Bedingungen wie Belüftung, Licht, Temperatur und Luftfeuchtigkeit werden hier künstlich angepasst."
+      },
+      {
+        "id": 25,
+        "question": "In welchem Schlammbausystem schlafen Wildschweine ?",
+        "propositions": [
+          "Cob",
+          "warren",
+          "Schweinestall",
+          "Karussell"
+        ],
+        "réponse": "Cob",
+        "anecdote": "Die Erde befindet sich in einem plastischen Zustand, meist vermischt mit pflanzlichen oder tierischen Fasern."
+      },
+      {
+        "id": 26,
+        "question": "Die Bouverie ist ein Treffpunkt welcher imposanten Tiere ?",
+        "propositions": [
+          "Ziegen",
+          "Die Ochsen",
+          "Gänse",
+          "Schaf"
+        ],
+        "réponse": "Die Ochsen",
+        "anecdote": "Ein Ochse ist ein männliches Hausrind, das im Rahmen seiner Zucht kastriert wurde."
+      },
+      {
+        "id": 27,
+        "question": "Welche Rennstrecke ist Windhundrennen gewidmet, zu denen Coursing gehört ?",
+        "propositions": [
+          "Eine Rennbahn",
+          "Ein Vivarium",
+          "Eine Arena",
+          "Ein Zynodrom"
+        ],
+        "réponse": "Ein Zynodrom",
+        "anecdote": "Open Coursing ist die sportlichste Form und diese Rennen sind sehr beliebt, weil sie viele Preise haben."
+      },
+      {
+        "id": 28,
+        "question": "Wo brüten Fische und Amphibien und damit auch Weichtiere ?",
+        "propositions": [
+          "Eine Magnerei",
+          "Ein Laichplatz",
+          "Ein Vivarium",
+          "Ein Gehege"
+        ],
+        "réponse": "Ein Laichplatz",
+        "anecdote": "Daher ist es oft auch der Ort, an dem die Weibchen ihre Eier ablegen, damit die Männchen sie mit Samen bedecken."
+      },
+      {
+        "id": 29,
+        "question": "An welchem Ausbeutungsort betreiben wir die Zucht der Seidenraupe ?",
+        "propositions": [
+          "Eine Magnerei",
+          "Eine Brüterei",
+          "Ein Vivarium",
+          "Ein Laichplatz"
+        ],
+        "réponse": "Eine Magnerei",
+        "anecdote": "Frauen, die in einer Magnanerie beschäftigt sind, werden Magnanarelles oder Magnarelles genannt."
+      },
+      {
+        "id": 30,
+        "question": "Wo in der Arena werden die Stiere vor dem Kampf gehalten ?",
+        "propositions": [
+          "Das Vogelhaus",
+          "Der Laichplatz",
+          "Der Toril",
+          "Die Nische"
+        ],
+        "réponse": "Der Toril",
+        "anecdote": "Der Toril unterscheidet sich wie die Chiqueros vom Corral, bei dem es sich um eine Reihe von Höfen handelt, die durch Türen miteinander verbunden sind."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué animal vertebrado se encuentra más comúnmente en un acuario comunitario ?",
+        "propositions": [
+          "un pez",
+          "Una hormiga",
+          "un pájaro",
+          "un conejo"
+        ],
+        "réponse": "un pez",
+        "anecdote": "Un acuario es una reproducción del hábitat natural de la especie o especies que viven en ese acuario."
+      },
+      {
+        "id": 2,
+        "question": "¿Dónde irás a comprar el perro con el que siempre has soñado ?",
+        "propositions": [
+          "en la cabina",
+          "en el zoológico",
+          "En la pajarera",
+          "en la perrera"
+        ],
+        "réponse": "en la perrera",
+        "anecdote": "Una perrera es un establecimiento destinado a la cría o alojamiento de perros o, en un castillo, el edificio que alberga la manada."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué edificio está destinado a albergar burros, caballos y otras mulas ?",
+        "propositions": [
+          "Un establo",
+          "un rancho",
+          "Un hipódromo",
+          "Una arena"
+        ],
+        "réponse": "Un establo",
+        "anecdote": "Los distintos elementos que componen el establo deben reunir las condiciones higiénicas necesarias para el mantenimiento de los caballos en el interior."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué hábitat hay para proteger a la(s) reina(s) en las hormigas ?",
+        "propositions": [
+          "Un hormiguero",
+          "Un insectario",
+          "Un palomar",
+          "Una colmena"
+        ],
+        "réponse": "Un hormiguero",
+        "anecdote": "El hormiguero suele ser un lugar que las hormigas han construido excavando o construyendo cúpulas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué circuito, generalmente de forma ovalada, se dedica ahora al deporte ecuestre ?",
+        "propositions": [
+          "hipódromo",
+          "Delfinario",
+          "Cinódromo",
+          "vivero"
+        ],
+        "réponse": "hipódromo",
+        "anecdote": "De origen antiguo, con gradas o tribunas, los hipódromos se dedicaron entonces a las carreras de carros."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué lugar suele contener una colección de insectos vivos o muertos ?",
+        "propositions": [
+          "Una pista de perros",
+          "Un delfinario",
+          "Un insectario",
+          "Un vivero"
+        ],
+        "réponse": "Un insectario",
+        "anecdote": "Un insectario no es necesariamente accesible al público en general si está ubicado dentro de los límites de una universidad o un laboratorio."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué refugio fuera de las casas está hecho específicamente para perros ?",
+        "propositions": [
+          "El nicho",
+          "La madriguera",
+          "El revolcarse",
+          "la conejera"
+        ],
+        "réponse": "El nicho",
+        "anecdote": "Charles M. Schulz, el diseñador de « Peanuts », a menudo representa al perro Snoopy acostado en el techo de su perrera."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué edificio está diseñado y es adecuado para la cría intensiva de cerdos ?",
+        "propositions": [
+          "Un criadero",
+          "Un aviario",
+          "Una pocilga",
+          "una mazorca"
+        ],
+        "réponse": "Una pocilga",
+        "anecdote": "Las primeras pocilgas datan probablemente de la antigüedad y parecían corrales con un sencillo cobertizo."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué edificio, generalmente de tamaño pequeño, se mantienen las aves de corral ?",
+        "propositions": [
+          "Un carrusel",
+          "Un toril",
+          "Un gallinero",
+          "una conejera"
+        ],
+        "réponse": "Un gallinero",
+        "anecdote": "A las aves de corral les gusta vivir al aire libre, pero el gallinero brinda refugio contra la nieve, los depredadores y durante la noche."
+      },
+      {
+        "id": 10,
+        "question": "¿En qué estructura artificial casi cerrada es posible recolectar miel ?",
+        "propositions": [
+          "Una pajarera",
+          "Un criadero",
+          "Una colmena",
+          "una conejera"
+        ],
+        "réponse": "Una colmena",
+        "anecdote": "El interior de la colmena está formado por panales formados por celdas hexagonales de cera de abeja."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿En qué acuario artificial puedes ver delfines jugando con sus entrenadores ?",
+        "propositions": [
+          "Un vivero",
+          "Un delfinario",
+          "Un insectario",
+          "Una magnanería"
+        ],
+        "réponse": "Un delfinario",
+        "anecdote": "Los delfinarios son estructuras abiertas al público, a menudo integradas en parques de atracciones o zoológicos."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué pequeño refugio artificial hecho por el hombre también se llama pajarera ?",
+        "propositions": [
+          "pajarera",
+          "gallinero",
+          "Zona de desove",
+          "madriguera"
+        ],
+        "réponse": "pajarera",
+        "anecdote": "La construcción y desarrollo de cajas-nido solo ofrece una exigua compensación ante la desaparición de los espacios naturales."
+      },
+      {
+        "id": 13,
+        "question": "¿En qué ambiente se practica la ganadería extensiva en el sur de los Estados Unidos ?",
+        "propositions": [
+          "hipódromo",
+          "Carrusel",
+          "rancho",
+          "vivero"
+        ],
+        "réponse": "rancho",
+        "anecdote": "Los ranchos pueden ser de cualquier tamaño, algunos tienen tierra cultivable, irrigada o no, produciendo cultivos forrajeros."
+      },
+      {
+        "id": 14,
+        "question": "¿En qué zona turística se concentran muchas especies de animales vivos ?",
+        "propositions": [
+          "Un zoológico",
+          "Una perrera",
+          "Un hormiguero",
+          "Un laberinto"
+        ],
+        "réponse": "Un zoológico",
+        "anecdote": "Hay más de 2.000 zoológicos en el mundo, que atraen a un total de casi 350 millones de visitantes al año."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué animal a veces se mueve salvajemente en una arena ?",
+        "propositions": [
+          "un toro",
+          "un burro",
+          "un buey",
+          "Una cebra"
+        ],
+        "réponse": "un toro",
+        "anecdote": "Este edificio en su arquitectura actual conocida como arena española nació en España a finales del siglo XVIII."
+      },
+      {
+        "id": 16,
+        "question": "¿En qué se suelen juntar los conejos en el fondo de los jardines ?",
+        "propositions": [
+          "Un criadero",
+          "Un aviario",
+          "una conejera",
+          "Una pajarera"
+        ],
+        "réponse": "una conejera",
+        "anecdote": "La jaula suele tener varias cajas, a menudo con puertas de malla, y cada caja se asigna a un conejo."
+      },
+      {
+        "id": 17,
+        "question": "En acuicultura, ¿qué instalación está destinada a producir larvas o alevines ?",
+        "propositions": [
+          "Un toril",
+          "Un criadero",
+          "una mazorca",
+          "Un caldo de cultivo"
+        ],
+        "réponse": "Un criadero",
+        "anecdote": "Un criadero permite vender semillas de ostras adaptadas a sus necesidades a los criadores de ostras."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué área cubierta, con suelo blando y blando, es adecuada para caballos de trabajo ?",
+        "propositions": [
+          "El rancho",
+          "El tiovivo",
+          "El toril",
+          "El bauge"
+        ],
+        "réponse": "El tiovivo",
+        "anecdote": "Idealmente, un tiovivo está cubierto y cerrado para permitir el trabajo en cualquier clima."
+      },
+      {
+        "id": 19,
+        "question": "En la época feudal, ¿qué edificio estaba destinado a albergar y criar palomas ?",
+        "propositions": [
+          "La pista de perros",
+          "El palomar",
+          "El tiovivo",
+          "La pocilga"
+        ],
+        "réponse": "El palomar",
+        "anecdote": "El palomar todavía designa los edificios del Renacimiento y el comienzo de los tiempos modernos."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué jaula grande está destinada a albergar pájaros ?",
+        "propositions": [
+          "Criadero",
+          "mazorca",
+          "Palomar",
+          "pajarera"
+        ],
+        "réponse": "pajarera",
+        "anecdote": "La jaula se usa muy a menudo como símbolo o como metáfora para designar el encarcelamiento."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué animal de orejas largas puede dar leche en una granja de burros ?",
+        "propositions": [
+          "Una oveja",
+          "Una cabra",
+          "un burro",
+          "Una vaca"
+        ],
+        "réponse": "un burro",
+        "anecdote": "Muy rápidamente, el burro también se convirtió en el animal de transporte terrestre preferido debido a sus amplias cualidades."
+      },
+      {
+        "id": 22,
+        "question": "¿En qué zona boscosa o herbosa viven los conejos salvajes ?",
+        "propositions": [
+          "El revolcarse",
+          "La madriguera",
+          "la conejera",
+          "El tiovivo"
+        ],
+        "réponse": "La madriguera",
+        "anecdote": "Originalmente, la madriguera era un espacio reservado para ciertas especies de caza y donde los animales podían encontrar pasto."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué establecimiento abierto al público presenta especies de animales marinos ?",
+        "propositions": [
+          "Oceanario",
+          "vivero",
+          "zoológico",
+          "Criadero"
+        ],
+        "réponse": "Oceanario",
+        "anecdote": "El primer oceanario conocido se estableció en St Augustine, Florida en 1938 como « Marine Studios »."
+      },
+      {
+        "id": 24,
+        "question": "¿En qué jaula de vidrio se mantienen con mayor frecuencia los reptiles y anfibios ?",
+        "propositions": [
+          "Un oceanario",
+          "Una magnanería",
+          "Un vivero",
+          "Un criadero"
+        ],
+        "réponse": "Un vivero",
+        "anecdote": "Aquí se ajustan artificialmente las condiciones climáticas como la ventilación, la luz, la temperatura y la humedad."
+      },
+      {
+        "id": 25,
+        "question": "¿En qué sistema de construcción de barro duermen los jabalíes ?",
+        "propositions": [
+          "Pocilga",
+          "Carrusel",
+          "mazorca",
+          "madriguera"
+        ],
+        "réponse": "mazorca",
+        "anecdote": "La tierra se encuentra en estado plástico, generalmente mezclada con fibras vegetales o animales."
+      },
+      {
+        "id": 26,
+        "question": "La bouverie es un lugar de encuentro ¿qué imponentes animales ?",
+        "propositions": [
+          "Cabras",
+          "Gansos",
+          "los bueyes",
+          "Ovejas"
+        ],
+        "réponse": "los bueyes",
+        "anecdote": "Un buey es un bovino doméstico macho que ha sufrido una castración como parte de su crianza."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué circuito está dedicado a las carreras de galgos del que forma parte el recorrido ?",
+        "propositions": [
+          "Un vivero",
+          "Una arena",
+          "Un hipódromo",
+          "Un cinódromo"
+        ],
+        "réponse": "Un cinódromo",
+        "anecdote": "El circuito abierto es la forma más deportiva y estas carreras son muy populares porque tienen muchos premios."
+      },
+      {
+        "id": 28,
+        "question": "¿Dónde se reproducen los peces y los anfibios, y por extensión los moluscos ?",
+        "propositions": [
+          "Un caldo de cultivo",
+          "Un vivero",
+          "Una magnanería",
+          "Un laberinto"
+        ],
+        "réponse": "Un caldo de cultivo",
+        "anecdote": "Por lo tanto, suele ser también el lugar donde las hembras depositan sus huevos para que los machos los cubran con semen."
+      },
+      {
+        "id": 29,
+        "question": "¿En qué lugar de explotación practicamos la cría del gusano de seda ?",
+        "propositions": [
+          "Un vivero",
+          "Un caldo de cultivo",
+          "Un criadero",
+          "Una magnanería"
+        ],
+        "réponse": "Una magnanería",
+        "anecdote": "Las mujeres empleadas en una magnanerie se llaman magnanarelles o magnarelles."
+      },
+      {
+        "id": 30,
+        "question": "¿En qué parte del ruedo se sujetan los toros antes de la lidia ?",
+        "propositions": [
+          "La pajarera",
+          "El lugar de desove",
+          "El nicho",
+          "El toril"
+        ],
+        "réponse": "El toril",
+        "anecdote": "El toril al igual que los chiqueros se diferencian del corral que es un conjunto de patios comunicados entre sí a través de puertas."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale animale vertebrato si trova più comunemente in un acquario di comunità ?",
+        "propositions": [
+          "Un uccello",
+          "Una formica",
+          "Un coniglio",
+          "Un pesce"
+        ],
+        "réponse": "Un pesce",
+        "anecdote": "Un acquario è una riproduzione dell'habitat naturale della specie o delle specie che vivono in quell'acquario."
+      },
+      {
+        "id": 2,
+        "question": "Dove andrai a comprare il cane che hai sempre sognato ?",
+        "propositions": [
+          "Alla voliera",
+          "Nella conigliera",
+          "Al canile",
+          "Allo zoo"
+        ],
+        "réponse": "Al canile",
+        "anecdote": "Un canile è uno stabilimento destinato all'allevamento o alla pensione dei cani o, in un castello, l'edificio che ospita il branco."
+      },
+      {
+        "id": 3,
+        "question": "Quale edificio è destinato ad ospitare asini, cavalli e altri muli ?",
+        "propositions": [
+          "Un ippodromo",
+          "Un'arena",
+          "Una stalla",
+          "Un ranch"
+        ],
+        "réponse": "Una stalla",
+        "anecdote": "I vari elementi che compongono la stalla devono rispondere alle condizioni igieniche necessarie per la tenuta dei cavalli al chiuso."
+      },
+      {
+        "id": 4,
+        "question": "Quale habitat c'è per proteggere le regine nelle formiche ?",
+        "propositions": [
+          "Una colombaia",
+          "Un alveare",
+          "Un formicaio",
+          "Un insetto"
+        ],
+        "réponse": "Un formicaio",
+        "anecdote": "Il formicaio è solitamente un luogo che le formiche hanno costruito scavando o costruendo cupole."
+      },
+      {
+        "id": 5,
+        "question": "Quale circuito, generalmente di forma ovale, è oggi dedicato allo sport equestre ?",
+        "propositions": [
+          "Ippodromo",
+          "Cinodromo",
+          "Delfinario",
+          "vivaio"
+        ],
+        "réponse": "Ippodromo",
+        "anecdote": "Di antica origine, con gradinate o tribune, gli ippodromi erano allora dedicati alle corse delle bighe."
+      },
+      {
+        "id": 6,
+        "question": "Quale posto di solito contiene una collezione di insetti vivi o morti ?",
+        "propositions": [
+          "Un insetto",
+          "Una pista per cani",
+          "Un vivaio",
+          "Un delfinario"
+        ],
+        "réponse": "Un insetto",
+        "anecdote": "Un insettario non è necessariamente accessibile al pubblico se si trova all'interno dei confini di un'università o di un laboratorio."
+      },
+      {
+        "id": 7,
+        "question": "Quale rifugio fuori casa è fatto apposta per i cani ?",
+        "propositions": [
+          "Il sguazzare",
+          "Il canale",
+          "La conigliera",
+          "La nicchia"
+        ],
+        "réponse": "La nicchia",
+        "anecdote": "Charles M. Schulz, il designer di « Peanuts », raffigura spesso il cane Snoopy sdraiato sul tetto della sua cuccia."
+      },
+      {
+        "id": 8,
+        "question": "Quale edificio è progettato e adatto per l'allevamento intensivo di suini ?",
+        "propositions": [
+          "Una pannocchia",
+          "Un incubatoio",
+          "Una voliera",
+          "Un porcile"
+        ],
+        "réponse": "Un porcile",
+        "anecdote": "Le prime porcilaie risalgono probabilmente all'antichità e sembravano recinti con un semplice riparo."
+      },
+      {
+        "id": 9,
+        "question": "In quale edificio, solitamente di piccole dimensioni, sono custoditi gli animali da cortile ?",
+        "propositions": [
+          "Una conigliera",
+          "Una giostra",
+          "Un pollaio",
+          "Un toril"
+        ],
+        "réponse": "Un pollaio",
+        "anecdote": "Al pollame piace vivere all'aperto, ma il pollaio offre riparo dalla neve, dai predatori e durante la notte."
+      },
+      {
+        "id": 10,
+        "question": "In quale struttura artificiale quasi chiusa è possibile raccogliere il miele ?",
+        "propositions": [
+          "Una conigliera",
+          "Una casetta per gli uccelli",
+          "Un incubatoio",
+          "Un alveare"
+        ],
+        "réponse": "Un alveare",
+        "anecdote": "L'interno dell'alveare è costituito da favi formati da celle esagonali di cera d'api."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In quale acquario artificiale puoi vedere i delfini che giocano con i loro addestratori ?",
+        "propositions": [
+          "Una magnaneria",
+          "Un insetto",
+          "Un vivaio",
+          "Un delfinario"
+        ],
+        "réponse": "Un delfinario",
+        "anecdote": "I delfinari sono strutture aperte al pubblico, spesso integrate in parchi divertimento o zoo."
+      },
+      {
+        "id": 12,
+        "question": "Quale piccolo rifugio artificiale artificiale è anche chiamato casetta per gli uccelli ?",
+        "propositions": [
+          "Terreno di deposizione delle uova",
+          "labirinto",
+          "pollaio",
+          "Casetta per uccelli"
+        ],
+        "réponse": "Casetta per uccelli",
+        "anecdote": "La costruzione e lo sviluppo di nidi offrono solo un magro compenso di fronte alla scomparsa dei siti naturali."
+      },
+      {
+        "id": 13,
+        "question": "In quale ambiente si pratica l'allevamento estensivo di bestiame nel sud degli Stati Uniti ?",
+        "propositions": [
+          "vivaio",
+          "fattoria",
+          "Ippodromo",
+          "Giostra"
+        ],
+        "réponse": "fattoria",
+        "anecdote": "Gli allevamenti possono essere di qualsiasi dimensione, alcuni hanno seminativo, irrigato o meno, producendo colture foraggere."
+      },
+      {
+        "id": 14,
+        "question": "In quale area turistica sono raccolte molte specie animali viventi ?",
+        "propositions": [
+          "Un labirinto",
+          "Uno zoo",
+          "Un formicaio",
+          "Un canile"
+        ],
+        "réponse": "Uno zoo",
+        "anecdote": "Ci sono più di 2.000 zoo nel mondo, che attirano un totale di quasi 350 milioni di visitatori all'anno."
+      },
+      {
+        "id": 15,
+        "question": "Quale animale a volte si muove all'impazzata in un'arena ?",
+        "propositions": [
+          "Un bue",
+          "Un toro",
+          "Un asino",
+          "Una zebra"
+        ],
+        "réponse": "Un toro",
+        "anecdote": "Questo edificio nella sua attuale architettura conosciuta come l'arena spagnola nacque in Spagna alla fine del XVIII secolo."
+      },
+      {
+        "id": 16,
+        "question": "In che cosa si raccolgono di solito i conigli in fondo ai giardini ?",
+        "propositions": [
+          "Una voliera",
+          "Un incubatoio",
+          "Una casetta per gli uccelli",
+          "Una conigliera"
+        ],
+        "réponse": "Una conigliera",
+        "anecdote": "La conigliera di solito ha diverse scatole spesso con porte a rete, ogni scatola è assegnata a un coniglio."
+      },
+      {
+        "id": 17,
+        "question": "In acquacoltura, quale impianto è destinato alla produzione di larve o avannotti ?",
+        "propositions": [
+          "Una pannocchia",
+          "Un toril",
+          "Un incubatoio",
+          "Un terreno fertile"
+        ],
+        "réponse": "Un incubatoio",
+        "anecdote": "Un incubatoio permette di vendere agli allevatori di ostriche sputati di ostriche adatti alle loro esigenze."
+      },
+      {
+        "id": 18,
+        "question": "Quale area coperta, con terreno soffice e soffice, è adatta per i cavalli da lavoro ?",
+        "propositions": [
+          "Il bauge",
+          "Il toril",
+          "The Ranch",
+          "La giostra"
+        ],
+        "réponse": "La giostra",
+        "anecdote": "Idealmente, una giostra è coperta e chiusa per consentire il lavoro con qualsiasi tempo."
+      },
+      {
+        "id": 19,
+        "question": "In epoca feudale quale edificio era destinato ad ospitare e allevare i piccioni ?",
+        "propositions": [
+          "La colombaia",
+          "La pista del cane",
+          "Il Porcile",
+          "La giostra"
+        ],
+        "réponse": "La colombaia",
+        "anecdote": "La colombaia designa ancora gli edifici del Rinascimento e dell'inizio dei tempi moderni."
+      },
+      {
+        "id": 20,
+        "question": "Quale grande gabbia è destinata a contenere gli uccelli ?",
+        "propositions": [
+          "Voliera",
+          "Pannocchia",
+          "Incubatoio",
+          "Colombaia"
+        ],
+        "réponse": "Voliera",
+        "anecdote": "La gabbia è usata molto spesso come simbolo o come metafora per designare la reclusione."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale animale dalle orecchie lunghe può dare il latte in un allevamento di asini ?",
+        "propositions": [
+          "Una capra",
+          "Una pecora",
+          "Una mucca",
+          "Un asino"
+        ],
+        "réponse": "Un asino",
+        "anecdote": "Molto rapidamente, l'asino divenne anche l'animale da trasporto terrestre preferito per le sue ampie qualità."
+      },
+      {
+        "id": 22,
+        "question": "In quale area boschiva o erbosa vivono i conigli selvatici ?",
+        "propositions": [
+          "La conigliera",
+          "Il canale",
+          "La giostra",
+          "Il sguazzare"
+        ],
+        "réponse": "Il canale",
+        "anecdote": "In origine la tana era uno spazio riservato ad alcune specie di selvaggina e dove gli animali potevano trovare pascolo."
+      },
+      {
+        "id": 23,
+        "question": "Quale stabilimento aperto al pubblico presenta specie animali marine ?",
+        "propositions": [
+          "vivaio",
+          "Incubatoio",
+          "Giardino zoologico",
+          "Oceanario"
+        ],
+        "réponse": "Oceanario",
+        "anecdote": "Il primo acquario conosciuto fu fondato a St Augustine, in Florida, nel 1938 come « Marine Studios »."
+      },
+      {
+        "id": 24,
+        "question": "In quale gabbia di vetro vengono tenuti più spesso rettili e anfibi ?",
+        "propositions": [
+          "Un vivaio",
+          "Una magnaneria",
+          "Un incubatoio",
+          "Un oceanario"
+        ],
+        "réponse": "Un vivaio",
+        "anecdote": "Le condizioni climatiche come ventilazione, luce, temperatura e umidità vengono regolate artificialmente qui."
+      },
+      {
+        "id": 25,
+        "question": "In quale sistema di costruzione di fango dormono i cinghiali ?",
+        "propositions": [
+          "Pannocchia",
+          "Porcile",
+          "Giostra",
+          "labirinto"
+        ],
+        "réponse": "Pannocchia",
+        "anecdote": "La terra è allo stato plastico, solitamente mista a fibre vegetali o animali."
+      },
+      {
+        "id": 26,
+        "question": "La bouverie è un luogo di raccolta di quali animali imponenti ?",
+        "propositions": [
+          "I buoi",
+          "Capre",
+          "Pecore",
+          "Oche"
+        ],
+        "réponse": "I buoi",
+        "anecdote": "Un bue è un bovino domestico maschio che ha subito la castrazione come parte del suo allevamento."
+      },
+      {
+        "id": 27,
+        "question": "Quale circuito è dedicato alle gare di levrieri di cui fa parte il coursing ?",
+        "propositions": [
+          "Un ippodromo",
+          "Un vivaio",
+          "Un cinodrome",
+          "Un'arena"
+        ],
+        "réponse": "Un cinodrome",
+        "anecdote": "Il coursing aperto è la forma più sportiva e queste gare sono molto popolari perché hanno molti premi."
+      },
+      {
+        "id": 28,
+        "question": "Dove si riproducono pesci e anfibi e, per estensione, molluschi ?",
+        "propositions": [
+          "Un labirinto",
+          "Un vivaio",
+          "Una magnaneria",
+          "Un terreno fertile"
+        ],
+        "réponse": "Un terreno fertile",
+        "anecdote": "È quindi spesso anche il luogo in cui le femmine depongono le uova in modo che i maschi le ricoprano di seme."
+      },
+      {
+        "id": 29,
+        "question": "In quale luogo di sfruttamento pratichiamo l'allevamento del baco da seta ?",
+        "propositions": [
+          "Una magnaneria",
+          "Un incubatoio",
+          "Un vivaio",
+          "Un terreno fertile"
+        ],
+        "réponse": "Una magnaneria",
+        "anecdote": "Le donne impiegate in una magnanerie sono chiamate magnanarelles o magnarelles."
+      },
+      {
+        "id": 30,
+        "question": "Dove nell'arena sono tenuti i tori prima del combattimento ?",
+        "propositions": [
+          "La nicchia",
+          "Il tori",
+          "La voliera",
+          "Il terreno di riproduzione"
+        ],
+        "réponse": "Il tori",
+        "anecdote": "I toril come i chiqueros si differenziano dal corral che è un insieme di cortili comunicanti tra loro tramite porte."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk gewerveld dier komt het meest voor in een gezelschapsaquarium ?",
+        "propositions": [
+          "Een vogel",
+          "Een mier",
+          "Een vis",
+          "Een konijn"
+        ],
+        "réponse": "Een vis",
+        "anecdote": "Een aquarium is een reproductie van de natuurlijke leefomgeving van de soort of soort die in dat aquarium leeft(s)."
+      },
+      {
+        "id": 2,
+        "question": "Waar ga je heen om de hond te kopen waar je altijd van hebt gedroomd ?",
+        "propositions": [
+          "In de dierentuin",
+          "Bij het vogelhuisje",
+          "Bij de kennel",
+          "In het hok"
+        ],
+        "réponse": "Bij de kennel",
+        "anecdote": "Een kennel is een inrichting die bedoeld is voor het fokken of pensioneren van honden of, in een kasteel, het gebouw waarin de roedel is gehuisvest."
+      },
+      {
+        "id": 3,
+        "question": "Welk gebouw is bedoeld voor het huisvesten van ezels, paarden en andere muilezels ?",
+        "propositions": [
+          "Een renbaan",
+          "Een stabiele",
+          "Een arena",
+          "Een boerderij"
+        ],
+        "réponse": "Een stabiele",
+        "anecdote": "De verschillende elementen waaruit de stal bestaat, moeten voldoen aan de hygiënische voorwaarden die nodig zijn om paarden binnen te houden."
+      },
+      {
+        "id": 4,
+        "question": "Welke habitat is er om de koningin(nen) in mieren te beschermen ?",
+        "propositions": [
+          "Een insectarium",
+          "Een mierenhoop",
+          "Een duiventil",
+          "Een bijenkorf"
+        ],
+        "réponse": "Een mierenhoop",
+        "anecdote": "De mierenhoop is meestal een plek die mieren hebben gebouwd door uitgravingen of door het bouwen van koepels."
+      },
+      {
+        "id": 5,
+        "question": "Welk circuit, meestal ovaal van vorm, is nu gewijd aan de paardensport ?",
+        "propositions": [
+          "Dolfinarium",
+          "Cynodroom",
+          "Renbaan",
+          "terrarium"
+        ],
+        "réponse": "Renbaan",
+        "anecdote": "Van oude oorsprong, met tribunes of tribunes, werden de renbanen toen gewijd aan wagenrennen."
+      },
+      {
+        "id": 6,
+        "question": "Welke plaats bevat meestal een verzameling levende of dode insecten ?",
+        "propositions": [
+          "Een dolfinarium",
+          "Een insectarium",
+          "Een hondenspoor",
+          "Een terrarium"
+        ],
+        "réponse": "Een insectarium",
+        "anecdote": "Een insectarium is niet noodzakelijkerwijs toegankelijk voor het grote publiek als het zich binnen de grenzen van een universiteit of laboratorium bevindt."
+      },
+      {
+        "id": 7,
+        "question": "Welke schuilplaats buiten huizen is speciaal gemaakt voor honden ?",
+        "propositions": [
+          "De nis",
+          "De wenteling",
+          "Het hok",
+          "Het leefgebied"
+        ],
+        "réponse": "De nis",
+        "anecdote": "Charles M. Schulz, de ontwerper van « Peanuts », beeldt de hond Snoopy vaak af liggend op het dak van zijn kennel."
+      },
+      {
+        "id": 8,
+        "question": "Welk gebouw is ontworpen en geschikt voor de intensieve varkenshouderij ?",
+        "propositions": [
+          "Een kolf",
+          "Een broederij",
+          "Een varkensstal",
+          "Een volière"
+        ],
+        "réponse": "Een varkensstal",
+        "anecdote": "De eerste varkensstallen dateren waarschijnlijk uit de oudheid en bleken hokken te zijn met een eenvoudig onderdak."
+      },
+      {
+        "id": 9,
+        "question": "In welk gebouw, meestal klein van formaat, wordt pluimvee gehouden ?",
+        "propositions": [
+          "Een toril",
+          "Een kippenhok",
+          "Een hok",
+          "Een carrousel"
+        ],
+        "réponse": "Een kippenhok",
+        "anecdote": "Pluimvee leeft graag buiten, maar het hok biedt beschutting tegen sneeuw, roofdieren en 's nachts."
+      },
+      {
+        "id": 10,
+        "question": "In welke bijna gesloten kunstmatige structuur is het mogelijk om honing te verzamelen ?",
+        "propositions": [
+          "Een vogelhuisje",
+          "Een bijenkorf",
+          "Een broederij",
+          "Een hok"
+        ],
+        "réponse": "Een bijenkorf",
+        "anecdote": "Het interieur van de korf bestaat uit kammen gevormd door zeshoekige cellen van bijenwas."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "In welk kunstaquarium zie je dolfijnen spelen met hun trainers ?",
+        "propositions": [
+          "Een dolfinarium",
+          "Een insectarium",
+          "Een grootmacht",
+          "Een terrarium"
+        ],
+        "réponse": "Een dolfinarium",
+        "anecdote": "Dolfinaria zijn voor het publiek toegankelijke structuren, vaak geïntegreerd in pretparken of dierentuinen."
+      },
+      {
+        "id": 12,
+        "question": "Welke kleine kunstmatige schuilplaats wordt ook wel een vogelhuisje genoemd ?",
+        "propositions": [
+          "Paaigrond",
+          "warren",
+          "kippenhok",
+          "Vogelhuisje"
+        ],
+        "réponse": "Vogelhuisje",
+        "anecdote": "De bouw en ontwikkeling van nestkasten bieden slechts een magere compensatie voor het verdwijnen van natuurgebieden."
+      },
+      {
+        "id": 13,
+        "question": "In welke omgeving wordt in het zuiden van de Verenigde Staten op grote schaal vee gehouden ?",
+        "propositions": [
+          "boerderij",
+          "Carrousel",
+          "terrarium",
+          "Renbaan"
+        ],
+        "réponse": "boerderij",
+        "anecdote": "Ranches kunnen van elke grootte zijn, sommige hebben bouwland, al dan niet geïrrigeerd, en produceren voedergewassen."
+      },
+      {
+        "id": 14,
+        "question": "In welk toeristisch gebied komen veel levende diersoorten voor ?",
+        "propositions": [
+          "Een kennel",
+          "Een mierenhoop",
+          "Een warren",
+          "Een dierentuin"
+        ],
+        "réponse": "Een dierentuin",
+        "anecdote": "Er zijn meer dan 2.000 dierentuinen in de wereld, die in totaal bijna 350 miljoen bezoekers per jaar trekken."
+      },
+      {
+        "id": 15,
+        "question": "Welk dier beweegt zich soms wild in een arena ?",
+        "propositions": [
+          "Een ezel",
+          "Een zebra",
+          "Een stier",
+          "Een os"
+        ],
+        "réponse": "Een stier",
+        "anecdote": "Dit gebouw in zijn huidige architectuur, bekend als de Spaanse arena, werd aan het einde van de 18e eeuw in Spanje geboren."
+      },
+      {
+        "id": 16,
+        "question": "Waar worden konijnen meestal achter in tuinen verzameld ?",
+        "propositions": [
+          "Een vogelhuisje",
+          "Een hok",
+          "Een volière",
+          "Een broederij"
+        ],
+        "réponse": "Een hok",
+        "anecdote": "Het hok heeft meestal meerdere dozen, vaak met gaasdeuren, waarbij elke doos aan een konijn is toegewezen."
+      },
+      {
+        "id": 17,
+        "question": "Welke faciliteit is in de aquacultuur bedoeld om larven of jongen te produceren ?",
+        "propositions": [
+          "Een paaigrond",
+          "Een broederij",
+          "Een kolf",
+          "Een toril"
+        ],
+        "réponse": "Een broederij",
+        "anecdote": "Een broederij maakt het mogelijk om op hun behoefte afgestemd oesterbroed te verkopen aan oesterkwekers."
+      },
+      {
+        "id": 18,
+        "question": "Welk overdekt gebied, met zachte, zachte grond, is geschikt voor werkpaarden",
+        "propositions": [
+          "De toril",
+          "De maat",
+          "De draaimolen",
+          "De Ranch"
+        ],
+        "réponse": "De draaimolen",
+        "anecdote": "Idealiter is een draaimolen afgedekt en gesloten om bij alle weersomstandigheden te kunnen werken."
+      },
+      {
+        "id": 19,
+        "question": "Welk gebouw was in de feodale tijd bedoeld om duiven te huisvesten en te houden ?",
+        "propositions": [
+          "De draaimolen",
+          "De duiventil",
+          "De hondenbaan",
+          "De varkensstal"
+        ],
+        "réponse": "De duiventil",
+        "anecdote": "De duiventil duidt nog steeds de gebouwen van de renaissance en het begin van de moderne tijd aan."
+      },
+      {
+        "id": 20,
+        "question": "Welke grote kooi is bedoeld voor vogels ?",
+        "propositions": [
+          "Volière",
+          "duiventil",
+          "kolf",
+          "Broederij"
+        ],
+        "réponse": "Volière",
+        "anecdote": "De kooi wordt heel vaak gebruikt als symbool of als metafoor om gevangenisstraf aan te duiden."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk grootoordier kan melk geven in een ezelboerderij ?",
+        "propositions": [
+          "Een ezel",
+          "Een schaap",
+          "Een geit",
+          "Een koe"
+        ],
+        "réponse": "Een ezel",
+        "anecdote": "Al snel werd de ezel ook het favoriete landtransportdier vanwege zijn brede kwaliteiten."
+      },
+      {
+        "id": 22,
+        "question": "In welk bos- of grasgebied leven wilde konijnen ?",
+        "propositions": [
+          "De wenteling",
+          "De draaimolen",
+          "Het leefgebied",
+          "Het hok"
+        ],
+        "réponse": "Het leefgebied",
+        "anecdote": "Oorspronkelijk was het leefgebied een ruimte die was gereserveerd voor bepaalde soorten wild en waar de dieren weiland konden vinden."
+      },
+      {
+        "id": 23,
+        "question": "Welke voor het publiek toegankelijke inrichting presenteert zeediersoorten ?",
+        "propositions": [
+          "terrarium",
+          "Broederij",
+          "Dierentuin",
+          "Oceanarium"
+        ],
+        "réponse": "Oceanarium",
+        "anecdote": "Het eerste bekende oceanarium werd in 1938 opgericht in St. Augustine, Florida als « Marine Studios »."
+      },
+      {
+        "id": 24,
+        "question": "In welke glazen kooi worden reptielen en amfibieën het meest gehouden ?",
+        "propositions": [
+          "Een broederij",
+          "Een terrarium",
+          "Een grootmacht",
+          "Een oceanarium"
+        ],
+        "réponse": "Een terrarium",
+        "anecdote": "Klimatologische omstandigheden zoals ventilatie, licht, temperatuur en luchtvochtigheid worden hier kunstmatig aangepast."
+      },
+      {
+        "id": 25,
+        "question": "In welk modderbouwsysteem slapen wilde zwijnen ?",
+        "propositions": [
+          "kolf",
+          "Varkensstal",
+          "warren",
+          "Carrousel"
+        ],
+        "réponse": "kolf",
+        "anecdote": "De aarde is in een plastische staat, meestal vermengd met plantaardige of dierlijke vezels."
+      },
+      {
+        "id": 26,
+        "question": "De bouverie is een plek waar imposante dieren samenkomen ?",
+        "propositions": [
+          "Schapen",
+          "Geiten",
+          "De ossen",
+          "Ganzen"
+        ],
+        "réponse": "De ossen",
+        "anecdote": "Een os is een mannelijk gedomesticeerd rund dat gecastreerd is als onderdeel van zijn fokkerij."
+      },
+      {
+        "id": 27,
+        "question": "Welk circuit is gewijd aan windhondenraces waarvan coursing deel uitmaakt",
+        "propositions": [
+          "Een arena",
+          "Een vivarium",
+          "Een cynodrome",
+          "Een renbaan"
+        ],
+        "réponse": "Een cynodrome",
+        "anecdote": "Open coursing is de meest sportieve vorm en deze vluchten zijn erg populair omdat ze veel prijzen hebben."
+      },
+      {
+        "id": 28,
+        "question": "Waar broeden vissen en amfibieën, en bij uitbreiding weekdieren ?",
+        "propositions": [
+          "Een paaigrond",
+          "Een terrarium",
+          "Een grootmacht",
+          "Een warren"
+        ],
+        "réponse": "Een paaigrond",
+        "anecdote": "Het is daarom vaak ook de plek waar de vrouwtjes hun eitjes afzetten zodat de mannetjes ze bedekken met sperma."
+      },
+      {
+        "id": 29,
+        "question": "In welke exploitatieplaats oefenen we het kweken van de zijderups uit ?",
+        "propositions": [
+          "Een paaigrond",
+          "Een broederij",
+          "Een grootmacht",
+          "Een terrarium"
+        ],
+        "réponse": "Een grootmacht",
+        "anecdote": "Vrouwen die in een magnanerie werken, worden magnanarellen of magnarellen genoemd."
+      },
+      {
+        "id": 30,
+        "question": "Waar in de arena worden de stieren gehouden voor het gevecht ?",
+        "propositions": [
+          "De nis",
+          "De toril",
+          "Het vogelhuisje",
+          "De paaigrond"
+        ],
+        "réponse": "De toril",
+        "anecdote": "De toril verschilt net als de chiqueros van de kraal, een reeks binnenplaatsen die met elkaar communiceren door middel van deuren."
+      }
+    ]
+    }
+  }
+}

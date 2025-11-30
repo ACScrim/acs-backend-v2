@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "3 / 5",
+  "version": 7,
+  "mise-à-jour": "2025-03-09",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Titres officiels",
+      "slogan": "Avec ou sans privilèges"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Official titles",
+      "slogan": "With or without privileges"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Títulos oficiales",
+      "slogan": "Con o sin privilegios"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Titoli ufficiali",
+      "slogan": "Con o senza privilegi"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Offizielle Titel",
+      "slogan": "Mit oder ohne Privilegien"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Officiële titels",
+      "slogan": "Met of zonder privileges"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quel titre inférieur à celui de vicomte est supérieur à celui de chevalier ?",
+        "propositions": [
+          "Lord",
+          "Comte",
+          "Baron",
+          "Consort"
+        ],
+        "réponse": "Baron",
+        "anecdote": "En Belgique, le titre de baron, accordé par le Roi, est supérieur à celui de chevalier et inférieur à celui de vicomte."
+      },
+      {
+        "id": 2,
+        "question": "Quel titre était attribué à sa naissance au fils aîné du roi de France régnant ?",
+        "propositions": [
+          "Orque",
+          "Requin",
+          "Baleine",
+          "Dauphin"
+        ],
+        "réponse": "Dauphin",
+        "anecdote": "Dauphin fut à l'origine le surnom, puis le titre, des seigneurs du Dauphiné de Viennois, comtes d'Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "Dans le monde musulman, qui est celui qui donne des ordres dans un émirat ?",
+        "propositions": [
+          "Vizir",
+          "Paladin",
+          "Sultan",
+          "Émir"
+        ],
+        "réponse": "Émir",
+        "anecdote": "Le mot « émir » peut signifier « prince » pour une personne régnant sur un territoire, ou « général » pour un commandant d'armée."
+      },
+      {
+        "id": 4,
+        "question": "Quel titre monarchique est porté par le souverain d'un empire ?",
+        "propositions": [
+          "Chancelier",
+          "Pharaon",
+          "Empereur",
+          "Sultan"
+        ],
+        "réponse": "Empereur",
+        "anecdote": "Empereur est une déformation du titre d'imperator que portaient les généraux romains victorieux acclamés par leurs troupes."
+      },
+      {
+        "id": 5,
+        "question": "Quel terme a servi à désigner les rois et reines de l'Égypte antique ?",
+        "propositions": [
+          "Émir",
+          "Pacha",
+          "Pharaon",
+          "Khan"
+        ],
+        "réponse": "Pharaon",
+        "anecdote": "Les noms de 345 pharaons nous sont parvenus grâce à de multiples attestations, dont des listes royales compilées par les scribes."
+      },
+      {
+        "id": 6,
+        "question": "Quel est le titre de ceux qui possèdent des terres qui ont le titre de principauté ?",
+        "propositions": [
+          "Prince",
+          "Roi",
+          "Duc",
+          "Chancelier"
+        ],
+        "réponse": "Prince",
+        "anecdote": "Il existe trois territoires ayant le rang de principauté qui confèrent à leur possesseur le titre de prince : Andorre, Monaco et Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "En Europe, qui est désigné de manière héréditaire dans une dynastie ?",
+        "propositions": [
+          "Pape",
+          "Roi",
+          "Empereur",
+          "Baron"
+        ],
+        "réponse": "Roi",
+        "anecdote": "Quand un roi en titre est hors d'état d'exercer (jeune âge, par exemple), le pouvoir temporel peut être exercé par un régent."
+      },
+      {
+        "id": 8,
+        "question": "Quel titre officiel est décerné au chef du gouvernement allemand ?",
+        "propositions": [
+          "Chancelier",
+          "Gouverneur",
+          "Chambellan",
+          "Recteur"
+        ],
+        "réponse": "Chancelier",
+        "anecdote": "Dans « Star Wars : La Menace fantôme » (1999), le sénateur Palpatine devient le chancelier suprême de la République galactique."
+      },
+      {
+        "id": 9,
+        "question": "Quel évêque de Rome est également le chef de l'Église catholique ?",
+        "propositions": [
+          "Pharaon",
+          "Émir",
+          "Pape",
+          "Empereur"
+        ],
+        "réponse": "Pape",
+        "anecdote": "L'État de la Cité du Vatican, micro-État totalement enclavé dans la ville de Rome en Italie, est le plus petit pays indépendant au monde."
+      },
+      {
+        "id": 10,
+        "question": "Quel titre se situe dans la continuité du dictateur romain Jules César ?",
+        "propositions": [
+          "César",
+          "Consort",
+          "Vizir",
+          "Empereur"
+        ],
+        "réponse": "César",
+        "anecdote": "Le premier à porter ce cognomen dont l'histoire a gardé la trace est un citoyen romain qui fut préteur en 208 avant Jésus-Christ."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quel titre signifie dirigeant ou souverain en mongol et en turc ?",
+        "propositions": [
+          "Pacha",
+          "Sultan",
+          "Khan",
+          "Dalaï-lama"
+        ],
+        "réponse": "Khan",
+        "anecdote": "Popularisé par Gengis Khan, fondateur de l'Empire mongol, le titre de khan était pourtant déjà utilisé avant l'empire mongol."
+      },
+      {
+        "id": 12,
+        "question": "En Asie, quel titre porte le suzerain de plusieurs souverains ?",
+        "propositions": [
+          "Maharajah",
+          "Sultan",
+          "Pacha",
+          "Vizir"
+        ],
+        "réponse": "Maharajah",
+        "anecdote": "En Indonésie, le terme générique de raja est fréquemment utilisé pour désigner un chef de maison royale ou de maison princière."
+      },
+      {
+        "id": 13,
+        "question": "Quel titre honorifique signifie « seigneur » en langue anglaise ?",
+        "propositions": [
+          "Duc",
+          "Chambellan",
+          "Marquis",
+          "Lord"
+        ],
+        "réponse": "Lord",
+        "anecdote": "Il est notamment utilisé pour désigner un membre de la Chambre des lords ou de la chambre haute du Parlement du Royaume-Uni."
+      },
+      {
+        "id": 14,
+        "question": "Au Maroc, quel titre de haut rang était accordé aux gouverneurs des provinces ?",
+        "propositions": [
+          "Sultan",
+          "Pacha",
+          "Pharaon",
+          "Émir"
+        ],
+        "réponse": "Pacha",
+        "anecdote": "Dans les États chrétiens tributaires du Sultan ottoman, l'équivalent d'un pacha est hospodar (souverain ou seigneur)."
+      },
+      {
+        "id": 15,
+        "question": "Quel titre est porté par des monarques musulmans depuis l'an 1000 environ ?",
+        "propositions": [
+          "Prince",
+          "Maharajah",
+          "Sultan",
+          "Khan"
+        ],
+        "réponse": "Sultan",
+        "anecdote": "La première sultane qui gouverna en son propre nom est probablement la sultane Razia (1236-1240) du sultanat de Delhi."
+      },
+      {
+        "id": 16,
+        "question": "Quel grade militaire d'officier subalterne signifie littéralement « qui tient lieu de » ?",
+        "propositions": [
+          "Commandeur",
+          "Amiral",
+          "Lieutenant",
+          "Colonel"
+        ],
+        "réponse": "Lieutenant",
+        "anecdote": "Dans la plupart des armées existent aussi des grades de sous-lieutenant, de lieutenant-colonel et de lieutenant général."
+      },
+      {
+        "id": 17,
+        "question": "Quel titre fut porté par les empereurs romains jusqu'au début du VIIe siècle ?",
+        "propositions": [
+          "Chancelier",
+          "Auguste",
+          "Consort",
+          "Recteur"
+        ],
+        "réponse": "Auguste",
+        "anecdote": "Octave fut subséquemment connu sous le nom d'Auguste, puis ce titre fut utilisé par presque tous les empereurs romains qui suivirent."
+      },
+      {
+        "id": 18,
+        "question": "Quel grade d'officier supérieur est le plus élevé dans de nombreuses armées ?",
+        "propositions": [
+          "Capitaine",
+          "Lieutenant",
+          "Colonel",
+          "Amiral"
+        ],
+        "réponse": "Colonel",
+        "anecdote": "Ce grade indique, différemment en fonction de l'organisation de chaque armée, l'aptitude à exercer un commandement important."
+      },
+      {
+        "id": 19,
+        "question": "Quelle est la plus importante lignée dans le bouddhisme tibétain ?",
+        "propositions": [
+          "Dalaï-lama",
+          "Vizir",
+          "Maharajah",
+          "Chambellan"
+        ],
+        "réponse": "Dalaï-lama",
+        "anecdote": "L'exode tibétain de 1959 verra 100 000 Tibétains suivre le dalaï-lama dans un exil en Inde où il crée le gouvernement tibétain en exil."
+      },
+      {
+        "id": 20,
+        "question": "Dans l'Égypte antique, quel terme désigne le second personnage après le pharaon ?",
+        "propositions": [
+          "Sultan",
+          "Vizir",
+          "Pacha",
+          "Paladin"
+        ],
+        "réponse": "Vizir",
+        "anecdote": "Iznogoud, héros de la BD de Goscinny et Tabary, est un célèbre vizir de fiction, dont le but est de devenir calife à la place du calife."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel gentilhomme est chargé du service de la chambre d'un monarque ?",
+        "propositions": [
+          "Émir",
+          "Chambellan",
+          "Auguste",
+          "Lord"
+        ],
+        "réponse": "Chambellan",
+        "anecdote": "Le grand chambellan de France était l'un des grands officiers de la couronne de France pendant l'Ancien Régime."
+      },
+      {
+        "id": 22,
+        "question": "Dans la Grèce antique, quel dirigeant politique était chargé de l'administration ?",
+        "propositions": [
+          "Consort",
+          "Archonte",
+          "Recteur",
+          "Khan"
+        ],
+        "réponse": "Archonte",
+        "anecdote": "Chargé de la juridiction publique, il était le tuteur des veuves et des orphelins, surveillait les litiges et s'occupait aussi du théâtre."
+      },
+      {
+        "id": 23,
+        "question": "Dans la religion catholique, quel clerc a la responsabilité d'une basilique ?",
+        "propositions": [
+          "Recteur",
+          "Maharajah",
+          "Chancelier",
+          "Paladin"
+        ],
+        "réponse": "Recteur",
+        "anecdote": "Dans certaines régions, c'est le titre usuel donné au curé d'une paroisse ou à un laïc responsable d'une confrérie."
+      },
+      {
+        "id": 24,
+        "question": "Quel surnom est donné aux personnalités puissantes de la finance ?",
+        "propositions": [
+          "Gouverneur",
+          "Recteur",
+          "Magnat",
+          "Chambellan"
+        ],
+        "réponse": "Magnat",
+        "anecdote": "Le terme magnat correspond de nos jours un peu plus à l'expression oligarque qui s'attache parfois aux milliardaires d'origine russe."
+      },
+      {
+        "id": 25,
+        "question": "Quel qualificatif est donné à l'époux ou l'épouse du chef d'État dans les monarchies ?",
+        "propositions": [
+          "Lord",
+          "Archonte",
+          "Consort",
+          "Marquis"
+        ],
+        "réponse": "Consort",
+        "anecdote": "Consort est un terme juridique ancien, désignant la communauté de biens ou de sort qui existe entre deux personnes."
+      },
+      {
+        "id": 26,
+        "question": "Quel terme s'applique à un chevalier ayant atteint l'un des plus hauts grades ?",
+        "propositions": [
+          "Auguste",
+          "Sultan",
+          "Khan",
+          "Paladin"
+        ],
+        "réponse": "Paladin",
+        "anecdote": "Aujourd'hui, couramment employé pour sa connotation d'héroïsme et d'inflexibilité, on retrouve l'archétype décliné de différentes façons."
+      },
+      {
+        "id": 27,
+        "question": "Quel titre de grand noble scandinave se situe au-dessous du rang de roi ?",
+        "propositions": [
+          "Knèze",
+          "Joupan",
+          "Nizam",
+          "Jarl"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "En Normandie, le chef viking Rollon le Marcheur (911-927) et ses successeurs portèrent le titre de jarl des Normands de la Seine."
+      },
+      {
+        "id": 28,
+        "question": "Quel titre, aboli à la Révolution française, fut rétabli en 1806 ?",
+        "propositions": [
+          "Gouverneur",
+          "Prince",
+          "Duc",
+          "Archonte"
+        ],
+        "réponse": "Duc",
+        "anecdote": "Sous l'ancien régime, on désigna, à partir du XVIe siècle, sous le titre de Monsieur le Duc, le fils aîné du prince de Condé."
+      },
+      {
+        "id": 29,
+        "question": "En Slovénie moderne, quel terme désigne les maires des communes ?",
+        "propositions": [
+          "Knèze",
+          "Nizam",
+          "Jarl",
+          "Joupan"
+        ],
+        "réponse": "Joupan",
+        "anecdote": "Un joupan désigne en français un hobereau, chef de certaines collectivités, territoriales ou non, en Europe centrale et balkanique."
+      },
+      {
+        "id": 30,
+        "question": "Quel titre peut être attribué à un dirigeant d'une une institution ou d'une banque ?",
+        "propositions": [
+          "Recteur",
+          "Consort",
+          "Magnat",
+          "Gouverneur"
+        ],
+        "réponse": "Gouverneur",
+        "anecdote": "Dans le domaine de l'enseignement, un gouverneur est chargé de l'éducation d'un prince ou de jeunes enfants de grande famille."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What title lower than Viscount is higher than Knight ?",
+        "propositions": [
+          "County",
+          "Lord",
+          "Consort",
+          "Baron"
+        ],
+        "réponse": "Baron",
+        "anecdote": "In Belgium, the title of baron, granted by the King, is superior to that of knight and inferior to that of viscount."
+      },
+      {
+        "id": 2,
+        "question": "What title was given at birth to the eldest son of the reigning King of France ?",
+        "propositions": [
+          "Wale",
+          "Squale",
+          "Dolphin",
+          "Orca"
+        ],
+        "réponse": "Dolphin",
+        "anecdote": "Dauphin was originally the nickname, then the title, of the lords of Dauphiné de Viennois, counts of Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "In the Muslim world, who is the one who gives orders in an emirate ?",
+        "propositions": [
+          "Emir",
+          "Sultan",
+          "Vizier",
+          "Paladin"
+        ],
+        "réponse": "Emir",
+        "anecdote": "The word emir can mean prince for a person ruling over a territory, or general for an army commander."
+      },
+      {
+        "id": 4,
+        "question": "What monarchical title is carried by the ruler of an empire ?",
+        "propositions": [
+          "Emperor",
+          "Pharaoh",
+          "Chancellor",
+          "sultan"
+        ],
+        "réponse": "Emperor",
+        "anecdote": "Emperor is a distortion of the title of imperator worn by victorious Roman generals acclaimed by their troops."
+      },
+      {
+        "id": 5,
+        "question": "What term was used to designate the kings and queens of ancient Egypt ?",
+        "propositions": [
+          "Emir",
+          "Pharaoh",
+          "Pasha",
+          "Khan"
+        ],
+        "réponse": "Pharaoh",
+        "anecdote": "The names of 345 pharaohs have come down to us thanks to multiple attestations, including royal lists compiled by scribes."
+      },
+      {
+        "id": 6,
+        "question": "What is the title of those who own land that has the title of principality ?",
+        "propositions": [
+          "Duke",
+          "Chancellor",
+          "Prince",
+          "King"
+        ],
+        "réponse": "Prince",
+        "anecdote": "There are three territories with the rank of principality which confer on their possessor the title of prince : Andorra, Monaco and Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "In Europe, who is designated hereditarily in a dynasty ?",
+        "propositions": [
+          "Pope",
+          "Baron",
+          "King",
+          "Emperor"
+        ],
+        "réponse": "King",
+        "anecdote": "When a titular king is unable to exercise (young age, for example), the temporal power can be exercised by a regent."
+      },
+      {
+        "id": 8,
+        "question": "What official title is given to the head of the German government ?",
+        "propositions": [
+          "Governor",
+          "Chamberlain",
+          "Rector",
+          "Chancelor"
+        ],
+        "réponse": "Chancelor",
+        "anecdote": "In « Star Wars: The Phantom Menace » (1999), Senator Palpatine becomes Supreme Chancellor of the Galactic Republic."
+      },
+      {
+        "id": 9,
+        "question": "Which bishop of Rome is also the head of the Catholic Church ?",
+        "propositions": [
+          "Pharaoh",
+          "Emir",
+          "Emperor",
+          "Pope"
+        ],
+        "réponse": "Pope",
+        "anecdote": "The Vatican City State, a totally landlocked microstate within the city of Rome in Italy, is the smallest independent country in the world."
+      },
+      {
+        "id": 10,
+        "question": "Which title is a continuation of Roman dictator Julius Caesar ?",
+        "propositions": [
+          "Vizier",
+          "Consort",
+          "Caesar",
+          "Emperor"
+        ],
+        "réponse": "Caesar",
+        "anecdote": "The first to carry this cognomen whose history has kept track is a Roman citizen who was praetor in 208 BC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What title means ruler or ruler in Mongolian and Turkish ?",
+        "propositions": [
+          "Sultan",
+          "Dalai Lama",
+          "Khan",
+          "Pasha"
+        ],
+        "réponse": "Khan",
+        "anecdote": "Popularized by Genghis Khan, founder of the Mongol Empire, the title of khan was already used before the Mongol Empire."
+      },
+      {
+        "id": 12,
+        "question": "In Asia, what title bears the suzerain of several sovereigns ?",
+        "propositions": [
+          "Maharajah",
+          "Vizir",
+          "Sultan",
+          "Pascha"
+        ],
+        "réponse": "Maharajah",
+        "anecdote": "In Indonesia, the generic term raja is frequently used to designate a head of a royal household or a princely household."
+      },
+      {
+        "id": 13,
+        "question": "What honorary title does « seigneur » mean in the English language ?",
+        "propositions": [
+          "Duke",
+          "Chamberlain",
+          "Marquis",
+          "Lord"
+        ],
+        "réponse": "Lord",
+        "anecdote": "It is notably used to designate a member of the House of Lords or the upper house of the Parliament of the United Kingdom."
+      },
+      {
+        "id": 14,
+        "question": "In Morocco, what high-ranking title was granted to the governors of the provinces ?",
+        "propositions": [
+          "Pharaoh",
+          "Sultan",
+          "Emir",
+          "Pascha"
+        ],
+        "réponse": "Pascha",
+        "anecdote": "In Christian states tributary to the Ottoman Sultan, the equivalent of a pasha is hospodar (ruler or lord)."
+      },
+      {
+        "id": 15,
+        "question": "What title has been held by Muslim monarchs since around the year 1000 ?",
+        "propositions": [
+          "Maharajah",
+          "Khan",
+          "Prince",
+          "Sultan"
+        ],
+        "réponse": "Sultan",
+        "anecdote": "The first Sultana to rule in her own name was probably Sultana Razia (1236-1240) of the Delhi Sultanate."
+      },
+      {
+        "id": 16,
+        "question": "What military rank of junior officer literally stands in for ?",
+        "propositions": [
+          "Commander",
+          "Colonel",
+          "Admiral",
+          "Lieutenant"
+        ],
+        "réponse": "Lieutenant",
+        "anecdote": "In most armies there are also ranks of second lieutenant, lieutenant colonel and lieutenant general."
+      },
+      {
+        "id": 17,
+        "question": "What title was held by Roman emperors until the beginning of the 7th century ?",
+        "propositions": [
+          "Rector",
+          "August",
+          "Chancellor",
+          "Consort"
+        ],
+        "réponse": "August",
+        "anecdote": "Octavian was subsequently known as Augustus, and this title was used by almost all subsequent Roman emperors."
+      },
+      {
+        "id": 18,
+        "question": "Which senior officer rank is the highest in many armies ?",
+        "propositions": [
+          "Lieutenant",
+          "Colonel",
+          "Admiral",
+          "Captain"
+        ],
+        "réponse": "Colonel",
+        "anecdote": "This rank indicates, differently according to the organization of each army, the aptitude to exert an important command."
+      },
+      {
+        "id": 19,
+        "question": "Quelle est la plus importante lignée dans le bouddhisme tibétain ?",
+        "propositions": [
+          "Chamberlain",
+          "Vizir",
+          "Dalai Lama",
+          "Maharajah"
+        ],
+        "réponse": "Dalai Lama",
+        "anecdote": "The 1959 Tibetan Exodus will see 100,000 Tibetans follow the Dalai Lama into exile in India where he creates the Tibetan government in exile."
+      },
+      {
+        "id": 20,
+        "question": "In ancient Egypt, what term designates the second character after the pharaoh ?",
+        "propositions": [
+          "Pascha",
+          "Sultan",
+          "Vizir",
+          "Paladin"
+        ],
+        "réponse": "Vizir",
+        "anecdote": "Iznogoud, hero of Goscinny and Tabary comics, is a famous fictional vizier, whose goal is to become caliph instead of the caliph."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What gentleman is in charge of the room service of a monarch ?",
+        "propositions": [
+          "Chamberlain",
+          "Lord",
+          "Emir",
+          "August"
+        ],
+        "réponse": "Chamberlain",
+        "anecdote": "The Grand Chamberlain of France was one of the great officers of the crown of France during the Ancien Régime."
+      },
+      {
+        "id": 22,
+        "question": "In ancient Greece, which political leader was in charge of administration ?",
+        "propositions": [
+          "Khan",
+          "Consort",
+          "Rector",
+          "Archon"
+        ],
+        "réponse": "Archon",
+        "anecdote": "In charge of public jurisdiction, he was the guardian of widows and orphans, supervised litigation and also took care of the theater."
+      },
+      {
+        "id": 23,
+        "question": "In the Catholic religion, which cleric is responsible for a basilica ?",
+        "propositions": [
+          "Rector",
+          "Maharajah",
+          "Paladin",
+          "Chancelor"
+        ],
+        "réponse": "Rector",
+        "anecdote": "In some regions, it is the usual title given to the priest of a parish or to a lay person in charge of a brotherhood."
+      },
+      {
+        "id": 24,
+        "question": "What nickname is given to powerful figures in finance ?",
+        "propositions": [
+          "Governor",
+          "Rector",
+          "Magnate",
+          "Chamberlain"
+        ],
+        "réponse": "Magnate",
+        "anecdote": "The term tycoon nowadays corresponds a little more to the expression oligarch which sometimes attaches to billionaires of Russian origin."
+      },
+      {
+        "id": 25,
+        "question": "What qualification is given to the husband or wife of the head of state in monarchies ?",
+        "propositions": [
+          "Lord",
+          "Consort",
+          "Marquis",
+          "Archon"
+        ],
+        "réponse": "Consort",
+        "anecdote": "Consort is an old legal term, designating the community of property or fate that exists between two people."
+      },
+      {
+        "id": 26,
+        "question": "What term applies to a knight who has reached one of the highest ranks ?",
+        "propositions": [
+          "Khan",
+          "Sultan",
+          "Paladin",
+          "August"
+        ],
+        "réponse": "Paladin",
+        "anecdote": "Today, commonly used for its connotation of heroism and inflexibility, we find the archetype declined in different ways."
+      },
+      {
+        "id": 27,
+        "question": "What title of great Scandinavian nobleman is below the rank of king ?",
+        "propositions": [
+          "Kneze",
+          "Jarl",
+          "Joupan",
+          "Nizam"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "In Normandy, the Viking leader Rollon le Walker (911-927) and his successors bore the title of Jarl of the Normans of the Seine."
+      },
+      {
+        "id": 28,
+        "question": "Which title, abolished during the French Revolution, was restored in 1806 ?",
+        "propositions": [
+          "Archon",
+          "Duke",
+          "Prince",
+          "Governor"
+        ],
+        "réponse": "Duke",
+        "anecdote": "Under the old regime, from the 16th century onwards, under the title of Monsieur le Duc, the eldest son of the Prince of Condé was designated."
+      },
+      {
+        "id": 29,
+        "question": "In modern Slovenia, what is the term for mayors of municipalities ?",
+        "propositions": [
+          "Nizam",
+          "Jarl",
+          "Kneze",
+          "Joupan"
+        ],
+        "réponse": "Joupan",
+        "anecdote": "A joupan designates in French a squire, head of certain communities, territorial or not, in central and Balkan Europe."
+      },
+      {
+        "id": 30,
+        "question": "What title can be attributed to an officer of an institution or a bank ?",
+        "propositions": [
+          "Consort",
+          "Governor",
+          "Rector",
+          "Magnat"
+        ],
+        "réponse": "Governor",
+        "anecdote": "In the field of education, a governor is responsible for the education of a prince or young children from large families."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher Titel niedriger als Viscount ist höher als Knight ?",
+        "propositions": [
+          "Herr",
+          "Barone",
+          "Gemahl",
+          "Zählen"
+        ],
+        "réponse": "Barone",
+        "anecdote": "In Belgien ist der vom König verliehene Titel eines Barons dem eines Ritters überlegen und dem eines Viscounts untergeordnet."
+      },
+      {
+        "id": 2,
+        "question": "Welchen Titel erhielt der älteste Sohn des amtierenden Königs von Frankreich bei der Geburt ?",
+        "propositions": [
+          "Delphin",
+          "Hai",
+          "Ork",
+          "Wal"
+        ],
+        "réponse": "Delphin",
+        "anecdote": "Dauphin war ursprünglich der Spitzname und dann der Titel der Herren von Dauphiné de Viennois, Grafen von Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "Wer ist in der muslimischen Welt derjenige, der in einem Emirat Befehle erteilt ?",
+        "propositions": [
+          "Paladin",
+          "Sultan",
+          "Wesir",
+          "Emir"
+        ],
+        "réponse": "Emir",
+        "anecdote": "Das Wort Emir kann Prinz für eine Person bedeuten, die über ein Gebiet herrscht, oder General für einen Heerführer."
+      },
+      {
+        "id": 4,
+        "question": "Welchen monarchischen Titel trägt der Herrscher eines Reiches ?",
+        "propositions": [
+          "Pharao",
+          "Kanzler",
+          "Kaiser",
+          "Sultan"
+        ],
+        "réponse": "Kaiser",
+        "anecdote": "Kaiser ist eine Verfälschung des Titels Imperator, den siegreiche römische Generäle trugen und die von ihren Truppen gefeiert wurden."
+      },
+      {
+        "id": 5,
+        "question": "Mit welchem Begriff wurden die Könige und Königinnen des alten Ägypten bezeichnet ?",
+        "propositions": [
+          "Khan",
+          "Emir",
+          "Pharao",
+          "Pascha"
+        ],
+        "réponse": "Pharao",
+        "anecdote": "Die Namen von 345 Pharaonen sind dank zahlreicher Zeugnisse, darunter auch von Schreibern zusammengestellte Königslisten, überliefert."
+      },
+      {
+        "id": 6,
+        "question": "Welchen Titel haben diejenigen, die Land besitzen, das den Titel eines Fürstentums trägt ?",
+        "propositions": [
+          "Kanzler",
+          "Herzog",
+          "Prinz",
+          "König"
+        ],
+        "réponse": "Prinz",
+        "anecdote": "Es gibt drei Territorien mit dem Rang eines Fürstentums, die ihrem Besitzer den Fürstentitel verleihen : Andorra, Monaco und Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "Wer wird in Europa in einer Dynastie erblich bezeichnet ?",
+        "propositions": [
+          "Kaiser",
+          "Barone",
+          "König",
+          "Papst"
+        ],
+        "réponse": "König",
+        "anecdote": "Wenn ein Titularkönig nicht in der Lage ist, die Macht auszuüben (z. B. in jungen Jahren), kann die weltliche Macht von einem Regenten ausgeübt werden."
+      },
+      {
+        "id": 8,
+        "question": "Welchen offiziellen Titel trägt der Chef der deutschen Regierung ?",
+        "propositions": [
+          "Rektor",
+          "Chamberlain",
+          "Kanzler",
+          "Gouverneur"
+        ],
+        "réponse": "Kanzler",
+        "anecdote": "In « Star Wars: The Phantom Menace » (1999) wird Senator Palpatine Oberster Kanzler der Galaktischen Republik."
+      },
+      {
+        "id": 9,
+        "question": "Welcher Bischof von Rom ist auch Oberhaupt der katholischen Kirche ?",
+        "propositions": [
+          "Kaiser",
+          "Emir",
+          "Papst",
+          "Pharao"
+        ],
+        "réponse": "Papst",
+        "anecdote": "Der Staat Vatikanstadt, ein vollständig umschlossener Mikrostaat innerhalb der Stadt Rom in Italien, ist der kleinste unabhängige Staat der Welt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Titel ist eine Fortsetzung des römischen Diktators Julius Cäsar ?",
+        "propositions": [
+          "Wesir",
+          "Kaiser",
+          "Cäsar",
+          "Gemahl"
+        ],
+        "réponse": "Cäsar",
+        "anecdote": "Der erste Träger dieses geschichtsträchtigen Beinamens ist ein römischer Bürger, der 208 v. Chr. Prätor war."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welcher Titel bedeutet Herrscher oder Herrscher auf Mongolisch und Türkisch ?",
+        "propositions": [
+          "Khan",
+          "Dalai Lama",
+          "Pascha",
+          "Sultan"
+        ],
+        "réponse": "Khan",
+        "anecdote": "Der Titel Khan wurde von Dschingis Khan, dem Gründer des Mongolenreichs, populär gemacht und bereits vor dem Mongolenreich verwendet."
+      },
+      {
+        "id": 12,
+        "question": "Welchen Titel trägt in Asien der Oberbefehlshaber mehrerer Herrscher ?",
+        "propositions": [
+          "Pascha",
+          "Sultan",
+          "Maharadscha",
+          "Wesir"
+        ],
+        "réponse": "Maharadscha",
+        "anecdote": "In Indonesien wird der Oberbegriff Raja häufig zur Bezeichnung eines Oberhauptes eines königlichen Haushalts oder eines Fürstenhaushalts verwendet."
+      },
+      {
+        "id": 13,
+        "question": "Welchen Ehrentitel bedeutet « seigneur » in der englischen Sprache ?",
+        "propositions": [
+          "Herr",
+          "Herzog",
+          "Marquess",
+          "Chamberlain"
+        ],
+        "réponse": "Herr",
+        "anecdote": "Es wird insbesondere zur Bezeichnung eines Mitglieds des House of Lords oder des Oberhauses des Parlaments des Vereinigten Königreichs verwendet."
+      },
+      {
+        "id": 14,
+        "question": "Welcher hochrangige Titel wurde in Marokko den Gouverneuren der Provinzen verliehen ?",
+        "propositions": [
+          "Sultan",
+          "Pascha",
+          "Emir",
+          "Pharao"
+        ],
+        "réponse": "Pascha",
+        "anecdote": "In christlichen Staaten, die dem osmanischen Sultan tributpflichtig sind, ist das Äquivalent eines Paschas hospodar (Herrscher oder Herr)."
+      },
+      {
+        "id": 15,
+        "question": "Welchen Titel tragen muslimische Monarchen seit etwa dem Jahr 1000 ?",
+        "propositions": [
+          "Prinz",
+          "Maharadscha",
+          "Khan",
+          "Sultan"
+        ],
+        "réponse": "Sultan",
+        "anecdote": "Die erste Sultanin, die in ihrem eigenen Namen regierte, war wahrscheinlich Sultanin Razia (1236–1240) aus dem Sultanat Delhi."
+      },
+      {
+        "id": 16,
+        "question": "Welcher militärische Rang eines Junioroffiziers steht im wahrsten Sinne des Wortes ?",
+        "propositions": [
+          "Leutnant",
+          "Admiral",
+          "Kommandant",
+          "Oberst"
+        ],
+        "réponse": "Leutnant",
+        "anecdote": "In den meisten Armeen gibt es auch die Dienstgrade Leutnant, Oberstleutnant und Generalleutnant."
+      },
+      {
+        "id": 17,
+        "question": "Welchen Titel trugen römische Kaiser bis zum Beginn des 7. Jahrhunderts ?",
+        "propositions": [
+          "Gemahl",
+          "Kanzler",
+          "Rektor",
+          "Augustus"
+        ],
+        "réponse": "Augustus",
+        "anecdote": "Octavian wurde später als Augustus bekannt und dieser Titel wurde von fast allen nachfolgenden römischen Kaisern verwendet."
+      },
+      {
+        "id": 18,
+        "question": "Welcher höhere Offiziersrang ist in vielen Armeen der höchste ?",
+        "propositions": [
+          "Oberst",
+          "Admiral",
+          "Kapitän",
+          "Leutnant"
+        ],
+        "réponse": "Oberst",
+        "anecdote": "Dieser Rang weist je nach Organisation der einzelnen Armeen auf die Fähigkeit hin, ein wichtiges Kommando auszuüben."
+      },
+      {
+        "id": 19,
+        "question": "Was ist die wichtigste Linie im tibetischen Buddhismus ?",
+        "propositions": [
+          "Chamberlain",
+          "Maharadscha",
+          "Dalai Lama",
+          "Wesir"
+        ],
+        "réponse": "Dalai Lama",
+        "anecdote": "Beim tibetischen Exodus im Jahr 1959 folgen 100.000 Tibeter dem Dalai Lama ins Exil nach Indien, wo er die tibetische Exilregierung aufbaut."
+      },
+      {
+        "id": 20,
+        "question": "Welcher Begriff bezeichnet im alten Ägypten die zweite Figur nach dem Pharao ?",
+        "propositions": [
+          "Pascha",
+          "Paladin",
+          "Wesir",
+          "Sultan"
+        ],
+        "réponse": "Wesir",
+        "anecdote": "Iznogoud, Held der Goscinny- und Tabary-Comics, ist ein berühmter fiktiver Wesir, dessen Ziel es ist, Kalif zu werden, anstatt selbst ein Kalif zu werden."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Herr ist für den Zimmerservice eines Monarchen verantwortlich ?",
+        "propositions": [
+          "Herr",
+          "Emir",
+          "Chamberlain",
+          "Augustus"
+        ],
+        "réponse": "Chamberlain",
+        "anecdote": "Der Großkämmerer von Frankreich war einer der großen Offiziere der französischen Krone während des Ancien Régime."
+      },
+      {
+        "id": 22,
+        "question": "Welcher politische Führer war im antiken Griechenland für die Verwaltung zuständig ?",
+        "propositions": [
+          "Khan",
+          "Rektor",
+          "Archon",
+          "Gemahl"
+        ],
+        "réponse": "Archon",
+        "anecdote": "Er war für die öffentliche Gerichtsbarkeit zuständig, war Vormund der Witwen und Waisen, überwachte Rechtsstreitigkeiten und kümmerte sich auch um das Theater."
+      },
+      {
+        "id": 23,
+        "question": "Welcher Geistliche ist in der katholischen Religion für eine Basilika verantwortlich ?",
+        "propositions": [
+          "Maharadscha",
+          "Rektor",
+          "Kanzler",
+          "Paladin"
+        ],
+        "réponse": "Rektor",
+        "anecdote": "In einigen Regionen ist es der übliche Titel, der dem Priester einer Pfarrei oder einem Laien, der eine Bruderschaft leitet, verliehen wird."
+      },
+      {
+        "id": 24,
+        "question": "Welchen Spitznamen erhalten mächtige Persönlichkeiten im Finanzwesen ?",
+        "propositions": [
+          "Tycoon",
+          "Chamberlain",
+          "Rektor",
+          "Gouverneur"
+        ],
+        "réponse": "Tycoon",
+        "anecdote": "Der Begriff Magnat entspricht heutzutage eher dem Ausdruck Oligarch, der manchmal für Milliardäre russischer Herkunft verwendet wird."
+      },
+      {
+        "id": 25,
+        "question": "Welche Qualifikation wird dem Ehemann oder der Ehefrau des Staatsoberhauptes in Monarchien zuerkannt ?",
+        "propositions": [
+          "Gemahl",
+          "Herr",
+          "Marquess",
+          "Archon"
+        ],
+        "réponse": "Gemahl",
+        "anecdote": "Consort ist ein alter juristischer Begriff und bezeichnet die Güter- oder Schicksalsgemeinschaft, die zwischen zwei Menschen besteht."
+      },
+      {
+        "id": 26,
+        "question": "Welche Bezeichnung gilt für einen Ritter, der einen der höchsten Ränge erreicht hat ?",
+        "propositions": [
+          "Khan",
+          "Paladin",
+          "Sultan",
+          "Augustus"
+        ],
+        "réponse": "Paladin",
+        "anecdote": "Heutzutage wird der Archetyp häufig wegen seiner Konnotation von Heldentum und Unflexibilität verwendet, aber wir finden, dass er auf unterschiedliche Weise abgelehnt wird."
+      },
+      {
+        "id": 27,
+        "question": "Welcher Titel eines großen skandinavischen Adligen liegt unter dem Rang eines Königs ?",
+        "propositions": [
+          "Jarl",
+          "nizam",
+          "Knie",
+          "Joupan"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "In der Normandie trugen der Wikingerführer Rollon le Walker (911-927) und seine Nachfolger den Titel Jarl der Normannen der Seine."
+      },
+      {
+        "id": 28,
+        "question": "Welcher während der Französischen Revolution abgeschaffte Titel wurde 1806 wiederhergestellt ?",
+        "propositions": [
+          "Herzog",
+          "Gouverneur",
+          "Archon",
+          "Prinz"
+        ],
+        "réponse": "Herzog",
+        "anecdote": "Unter dem alten Regime wurde ab dem 16. Jahrhundert unter dem Titel Monsieur le Duc der älteste Sohn des Prinzen von Condé bezeichnet."
+      },
+      {
+        "id": 29,
+        "question": "Wie lautet im modernen Slowenien die Bezeichnung für Bürgermeister von Gemeinden ?",
+        "propositions": [
+          "Jarl",
+          "nizam",
+          "Knie",
+          "Joupan"
+        ],
+        "réponse": "Joupan",
+        "anecdote": "Ein Joupan bezeichnet auf Französisch einen Gutsherrn, Oberhaupt bestimmter Territorialgemeinden oder nicht, in Mittel- und Balkaneuropa."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Titel kann einem Beamten einer Institution oder einer Bank verliehen werden ?",
+        "propositions": [
+          "Rektor",
+          "Tycoon",
+          "Gouverneur",
+          "Gemahl"
+        ],
+        "réponse": "Gouverneur",
+        "anecdote": "Im Bildungsbereich ist ein Gouverneur für die Ausbildung eines Prinzen oder kleiner Kinder aus kinderreichen Familien verantwortlich."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué título inferior al de vizconde es superior al de caballero ?",
+        "propositions": [
+          "barones",
+          "consorte",
+          "Señor",
+          "Contar"
+        ],
+        "réponse": "barones",
+        "anecdote": "En Bélgica, el título de barón, otorgado por el Rey, es superior al de caballero e inferior al de vizconde."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué título se le dio al nacer al hijo mayor del rey reinante de Francia ?",
+        "propositions": [
+          "Orco",
+          "delfín",
+          "tiburón",
+          "ballena"
+        ],
+        "réponse": "delfín",
+        "anecdote": "Dauphin fue originalmente el apodo, luego el título, de los señores de Dauphiné de Viennois, condes de Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "En el mundo musulmán, ¿quién es el que da órdenes en un emirato ?",
+        "propositions": [
+          "Emir",
+          "Visir",
+          "sultán",
+          "paladín"
+        ],
+        "réponse": "Emir",
+        "anecdote": "La palabra emir puede significar príncipe para una persona que gobierna un territorio, o general para un comandante del ejército."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué título monárquico lleva el gobernante de un imperio ?",
+        "propositions": [
+          "Canciller",
+          "sultán",
+          "Faraón",
+          "Emperador"
+        ],
+        "réponse": "Emperador",
+        "anecdote": "Emperador es una distorsión del título de imperator que llevaban los generales romanos victoriosos aclamados por sus tropas."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué término se usaba para designar a los reyes y reinas del antiguo Egipto ?",
+        "propositions": [
+          "Faraón",
+          "kan",
+          "Emir",
+          "Pasha"
+        ],
+        "réponse": "Faraón",
+        "anecdote": "Los nombres de 345 faraones nos han llegado gracias a múltiples testimonios, incluidas listas reales compiladas por escribas."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál es el título de los que poseen tierra que tiene el título de principado ?",
+        "propositions": [
+          "Príncipe",
+          "Duque",
+          "Canciller",
+          "Rey"
+        ],
+        "réponse": "Príncipe",
+        "anecdote": "Hay tres territorios con rango de principado que confieren a su poseedor el título de príncipe : Andorra, Mónaco y Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "En Europa, ¿quién es designado hereditariamente en una dinastía ?",
+        "propositions": [
+          "Emperador",
+          "Rey",
+          "Papa",
+          "barones"
+        ],
+        "réponse": "Rey",
+        "anecdote": "Cuando un rey titular no puede ejercer (edad joven, por ejemplo), el poder temporal puede ser ejercido por un regente."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué título oficial se le da al jefe del gobierno alemán ?",
+        "propositions": [
+          "chambelán",
+          "Canciller",
+          "Gobernador",
+          "rector"
+        ],
+        "réponse": "Canciller",
+        "anecdote": "En « Star Wars: The Phantom Menace » (1999), el Senador Palpatine se convierte en Canciller Supremo de la República Galáctica."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué obispo de Roma es también la cabeza de la Iglesia Católica ?",
+        "propositions": [
+          "Emir",
+          "Papa",
+          "Faraón",
+          "Emperador"
+        ],
+        "réponse": "Papa",
+        "anecdote": "El Estado de la Ciudad del Vaticano, un microestado sin salida al mar dentro de la ciudad de Roma en Italia, es el país independiente más pequeño del mundo."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué título es una continuación del dictador romano Julio César ?",
+        "propositions": [
+          "César",
+          "consorte",
+          "Visir",
+          "Emperador"
+        ],
+        "réponse": "César",
+        "anecdote": "El primero en portar este apodo del que se tiene constancia histórica es un ciudadano romano que fue pretor en el año 208 a."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué título significa gobernante o gobernante en mongol y turco ?",
+        "propositions": [
+          "Dalái Lama",
+          "sultán",
+          "kan",
+          "Pasha"
+        ],
+        "réponse": "kan",
+        "anecdote": "Popularizado por Genghis Khan, fundador del Imperio Mongol, el título de khan ya se usaba antes del Imperio Mongol."
+      },
+      {
+        "id": 12,
+        "question": "En Asia, ¿qué título lleva el soberano de varios soberanos ?",
+        "propositions": [
+          "Pasha",
+          "maharajá",
+          "sultán",
+          "Visir"
+        ],
+        "réponse": "maharajá",
+        "anecdote": "En Indonesia, el término genérico raja se usa con frecuencia para designar a un cabeza de familia real o principesca."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué título honorífico significa « seigneur » en inglés ?",
+        "propositions": [
+          "chambelán",
+          "Duque",
+          "marqués",
+          "Señor"
+        ],
+        "réponse": "Señor",
+        "anecdote": "Se utiliza en particular para designar a un miembro de la Cámara de los Lores o de la cámara alta del Parlamento del Reino Unido."
+      },
+      {
+        "id": 14,
+        "question": "En Marruecos, ¿qué título de alto rango se otorgaba a los gobernadores de las provincias ?",
+        "propositions": [
+          "Faraón",
+          "Emir",
+          "Pasha",
+          "sultán"
+        ],
+        "réponse": "Pasha",
+        "anecdote": "En los estados cristianos tributarios del sultán otomano, el equivalente de un pasha es hospodar (gobernante o señor)."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué título han ostentado los monarcas musulmanes desde alrededor del año 1000 ?",
+        "propositions": [
+          "Príncipe",
+          "maharajá",
+          "sultán",
+          "kan"
+        ],
+        "réponse": "sultán",
+        "anecdote": "La primera Sultana en gobernar en su propio nombre fue probablemente Sultana Razia (1236-1240) del Sultanato de Delhi."
+      },
+      {
+        "id": 16,
+        "question": "¿Qué rango militar de oficial subalterno representa literalmente ?",
+        "propositions": [
+          "Comandante",
+          "coronel",
+          "Almirante",
+          "teniente"
+        ],
+        "réponse": "teniente",
+        "anecdote": "En la mayoría de los ejércitos también hay rangos de segundo teniente, teniente coronel y teniente general."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué título tenían los emperadores romanos hasta principios del siglo VII ?",
+        "propositions": [
+          "Augusto",
+          "rector",
+          "Canciller",
+          "consorte"
+        ],
+        "réponse": "Augusto",
+        "anecdote": "Posteriormente, Octavio fue conocido como Augusto, y este título fue utilizado por casi todos los emperadores romanos posteriores."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué rango de oficial superior es el más alto en muchos ejércitos ?",
+        "propositions": [
+          "coronel",
+          "Capitán",
+          "Almirante",
+          "teniente"
+        ],
+        "réponse": "coronel",
+        "anecdote": "Este rango indica, de forma distinta según la organización de cada ejército, la aptitud para ejercer un mando importante."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál es el linaje más importante en el budismo tibetano ?",
+        "propositions": [
+          "Dalái Lama",
+          "Visir",
+          "chambelán",
+          "maharajá"
+        ],
+        "réponse": "Dalái Lama",
+        "anecdote": "El éxodo tibetano de 1959 verá a 100.000 tibetanos seguir al Dalai Lama al exilio en la India, donde crea el gobierno tibetano en el exilio."
+      },
+      {
+        "id": 20,
+        "question": "En el antiguo Egipto, ¿qué término designa al segundo personaje después del faraón ?",
+        "propositions": [
+          "Visir",
+          "sultán",
+          "paladín",
+          "Pasha"
+        ],
+        "réponse": "Visir",
+        "anecdote": "Iznogoud, héroe de los cómics de Goscinny y Tabary, es un famoso visir ficticio, cuyo objetivo es convertirse en califa en lugar de califa."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué señor está a cargo del servicio de habitaciones de un monarca ?",
+        "propositions": [
+          "Señor",
+          "Augusto",
+          "Emir",
+          "chambelán"
+        ],
+        "réponse": "chambelán",
+        "anecdote": "El Gran Chambelán de Francia fue uno de los grandes oficiales de la corona de Francia durante el Antiguo Régimen."
+      },
+      {
+        "id": 22,
+        "question": "En la antigua Grecia, ¿qué líder político estaba a cargo de la administración ?",
+        "propositions": [
+          "rector",
+          "kan",
+          "consorte",
+          "Arconte"
+        ],
+        "réponse": "Arconte",
+        "anecdote": "Encargado de la jurisdicción pública, fue guardián de viudas y huérfanos, supervisó litigios y también se ocupó del teatro."
+      },
+      {
+        "id": 23,
+        "question": "En la religión católica, ¿qué clérigo es el responsable de una basílica ?",
+        "propositions": [
+          "paladín",
+          "maharajá",
+          "Canciller",
+          "rector"
+        ],
+        "réponse": "rector",
+        "anecdote": "En algunas regiones, es el título habitual que se le da al sacerdote de una parroquia oa un laico a cargo de una hermandad."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué apodo se les da a las figuras poderosas de las finanzas ?",
+        "propositions": [
+          "magnate",
+          "Gobernador",
+          "chambelán",
+          "rector"
+        ],
+        "réponse": "magnate",
+        "anecdote": "El término magnate hoy en día corresponde un poco más a la expresión oligarca que a veces se atribuye a los multimillonarios de origen ruso."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué calificación se otorga al esposo o esposa del jefe de estado en las monarquías ?",
+        "propositions": [
+          "Arconte",
+          "Señor",
+          "marqués",
+          "consorte"
+        ],
+        "réponse": "consorte",
+        "anecdote": "Consorte es un término legal antiguo, que designa la comunidad de bienes o destino que existe entre dos personas."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué término se aplica a un caballero que ha alcanzado uno de los rangos más altos ?",
+        "propositions": [
+          "sultán",
+          "kan",
+          "paladín",
+          "Augusto"
+        ],
+        "réponse": "paladín",
+        "anecdote": "Hoy, comúnmente usado por su connotación de heroísmo e inflexibilidad, encontramos que el arquetipo se declina de diferentes maneras."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué título de gran noble escandinavo está por debajo del rango de rey ?",
+        "propositions": [
+          "nizam",
+          "Kneze",
+          "Jarl",
+          "Joupán"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "En Normandía, el líder vikingo Rollon le Walker (911-927) y sus sucesores llevaron el título de Jarl de los normandos del Sena."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué título, abolido durante la Revolución Francesa, fue restaurado en 1806 ?",
+        "propositions": [
+          "Gobernador",
+          "Arconte",
+          "Príncipe",
+          "duque"
+        ],
+        "réponse": "duque",
+        "anecdote": "Bajo el antiguo régimen, a partir del siglo XVI, bajo el título de Monsieur le Duc, se designaba al hijo mayor del Príncipe de Condé."
+      },
+      {
+        "id": 29,
+        "question": "En la Eslovenia moderna, ¿cuál es el término para alcaldes de municipios ?",
+        "propositions": [
+          "Joupán",
+          "Jarl",
+          "nizam",
+          "Kneze"
+        ],
+        "réponse": "Joupán",
+        "anecdote": "Un joupan designa en francés a un escudero, cabeza de ciertas comunidades, territoriales o no, en Europa central y balcánica."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué título se le puede atribuir a un funcionario de una institución o de un banco ?",
+        "propositions": [
+          "consorte",
+          "Gobernador",
+          "rector",
+          "magnate"
+        ],
+        "réponse": "Gobernador",
+        "anecdote": "En el campo de la educación, un gobernador es responsable de la educación de un príncipe o niños pequeños de familias numerosas."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale titolo inferiore a Visconte è superiore a Cavaliere ?",
+        "propositions": [
+          "Conte",
+          "baroni",
+          "Signore",
+          "Consorte"
+        ],
+        "réponse": "baroni",
+        "anecdote": "In Belgio il titolo di barone, concesso dal re, è superiore a quello di cavaliere e inferiore a quello di visconte."
+      },
+      {
+        "id": 2,
+        "question": "Quale titolo è stato dato alla nascita al figlio maggiore del re regnante di Francia ?",
+        "propositions": [
+          "Orco",
+          "balena",
+          "delfino",
+          "Squalo"
+        ],
+        "réponse": "delfino",
+        "anecdote": "Dauphin era originariamente il soprannome, poi il titolo, dei signori di Dauphiné de Viennois, conti di Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "Nel mondo musulmano, chi è che dà ordini in un emirato ?",
+        "propositions": [
+          "sultano",
+          "Emiro",
+          "Visir",
+          "paladino"
+        ],
+        "réponse": "Emiro",
+        "anecdote": "La parola emiro può significare principe per una persona che governa un territorio o generale per un comandante dell'esercito."
+      },
+      {
+        "id": 4,
+        "question": "Quale titolo monarchico è portato dal sovrano di un impero ?",
+        "propositions": [
+          "Imperatore",
+          "Faraone",
+          "Cancelliere",
+          "sultano"
+        ],
+        "réponse": "Imperatore",
+        "anecdote": "L'imperatore è una distorsione del titolo di imperator indossato dai generali romani vittoriosi acclamati dalle loro truppe."
+      },
+      {
+        "id": 5,
+        "question": "Quale termine veniva usato per designare i re e le regine dell'antico Egitto ?",
+        "propositions": [
+          "khan",
+          "Emiro",
+          "Faraone",
+          "Pascià"
+        ],
+        "réponse": "Faraone",
+        "anecdote": "I nomi di 345 faraoni ci sono pervenuti grazie a molteplici attestazioni, comprese liste reali compilate da amanuensi."
+      },
+      {
+        "id": 6,
+        "question": "Qual è il titolo di chi possiede una terra che ha titolo di principato ?",
+        "propositions": [
+          "Cancelliere",
+          "Re",
+          "Principe",
+          "Duca"
+        ],
+        "réponse": "Principe",
+        "anecdote": "Esistono tre territori con rango di principato che conferiscono al loro possessore il titolo di principe : Andorra, Monaco e Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "In Europa, chi è designato ereditariamente in una dinastia ?",
+        "propositions": [
+          "Imperatore",
+          "baroni",
+          "Re",
+          "Papa"
+        ],
+        "réponse": "Re",
+        "anecdote": "Quando un re titolare non è in grado di esercitare (la giovane età, ad esempio), il potere temporale può essere esercitato da un reggente."
+      },
+      {
+        "id": 8,
+        "question": "Quale titolo ufficiale viene dato al capo del governo tedesco ?",
+        "propositions": [
+          "Rettore",
+          "Governatore",
+          "Ciambellano",
+          "Cancelliere"
+        ],
+        "réponse": "Cancelliere",
+        "anecdote": "In « Star Wars: The Phantom Menace » (1999), il Senatore Palpatine diventa Cancelliere Supremo della Repubblica Galattica."
+      },
+      {
+        "id": 9,
+        "question": "Quale vescovo di Roma è anche il capo della Chiesa cattolica ?",
+        "propositions": [
+          "Papa",
+          "Emiro",
+          "Faraone",
+          "Imperatore"
+        ],
+        "réponse": "Papa",
+        "anecdote": "Lo Stato della Città del Vaticano, un microstato totalmente senza sbocco sul mare all'interno della città di Roma in Italia, è il più piccolo stato indipendente del mondo."
+      },
+      {
+        "id": 10,
+        "question": "Quale titolo è una continuazione del dittatore romano Giulio Cesare ?",
+        "propositions": [
+          "Consorte",
+          "Cesare",
+          "Visir",
+          "Imperatore"
+        ],
+        "réponse": "Cesare",
+        "anecdote": "Il primo a portare questo cognomen di cui la storia ha tenuto traccia è un cittadino romano pretore nel 208 a."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quale titolo significa sovrano o sovrano in mongolo e turco ?",
+        "propositions": [
+          "sultano",
+          "Dalai Lama",
+          "Pascià",
+          "khan"
+        ],
+        "réponse": "khan",
+        "anecdote": "Reso popolare da Gengis Khan, fondatore dell'Impero Mongolo, il titolo di khan era già usato prima dell'Impero Mongolo."
+      },
+      {
+        "id": 12,
+        "question": "In Asia, quale titolo porta il sovrano di più sovrani ?",
+        "propositions": [
+          "maragià",
+          "Pascià",
+          "sultano",
+          "Visir"
+        ],
+        "réponse": "maragià",
+        "anecdote": "In Indonesia, il termine generico raja è spesso usato per designare un capo di una famiglia reale o di una famiglia principesca."
+      },
+      {
+        "id": 13,
+        "question": "Quale titolo onorifico significa « seigneur » in lingua inglese ?",
+        "propositions": [
+          "Marchese",
+          "Duca",
+          "Signore",
+          "Ciambellano"
+        ],
+        "réponse": "Signore",
+        "anecdote": "È in particolare utilizzato per designare un membro della Camera dei Lord o della camera alta del Parlamento del Regno Unito."
+      },
+      {
+        "id": 14,
+        "question": "In Marocco, quale titolo di alto rango era concesso ai governatori delle province ?",
+        "propositions": [
+          "Pascià",
+          "Emiro",
+          "Faraone",
+          "sultano"
+        ],
+        "réponse": "Pascià",
+        "anecdote": "Negli stati cristiani tributari del sultano ottomano, l'equivalente di un pascià è hospodar (sovrano o signore)."
+      },
+      {
+        "id": 15,
+        "question": "Quale titolo è stato detenuto dai monarchi musulmani dall'anno 1000 circa ?",
+        "propositions": [
+          "sultano",
+          "Principe",
+          "khan",
+          "maragià"
+        ],
+        "réponse": "sultano",
+        "anecdote": "La prima Sultana a governare in proprio nome fu probabilmente Sultana Razia (1236-1240) del Sultanato di Delhi."
+      },
+      {
+        "id": 16,
+        "question": "Quale grado militare di giovane ufficiale rappresenta letteralmente ?",
+        "propositions": [
+          "Ammiraglio",
+          "Tenente",
+          "Comandante",
+          "Colonnello"
+        ],
+        "réponse": "Tenente",
+        "anecdote": "Nella maggior parte degli eserciti ci sono anche gradi di sottotenente, tenente colonnello e tenente generale."
+      },
+      {
+        "id": 17,
+        "question": "Quale titolo era detenuto dagli imperatori romani fino all'inizio del VII secolo ?",
+        "propositions": [
+          "Rettore",
+          "Augusto",
+          "Consorte",
+          "Cancelliere"
+        ],
+        "réponse": "Augusto",
+        "anecdote": "Ottaviano fu successivamente conosciuto come Augusto, e questo titolo fu usato da quasi tutti i successivi imperatori romani."
+      },
+      {
+        "id": 18,
+        "question": "Quale grado di alto ufficiale è il più alto in molti eserciti ?",
+        "propositions": [
+          "Tenente",
+          "Colonnello",
+          "Ammiraglio",
+          "Capitano"
+        ],
+        "réponse": "Colonnello",
+        "anecdote": "Questo grado indica, diversamente a seconda dell'organizzazione di ciascun esercito, l'attitudine ad esercitare un comando importante."
+      },
+      {
+        "id": 19,
+        "question": "Qual è il lignaggio più importante nel buddismo tibetano ?",
+        "propositions": [
+          "Ciambellano",
+          "Dalai Lama",
+          "maragià",
+          "Visir"
+        ],
+        "réponse": "Dalai Lama",
+        "anecdote": "L'esodo tibetano del 1959 vedrà 100.000 tibetani seguire il Dalai Lama in esilio in India, dove creerà il governo tibetano in esilio."
+      },
+      {
+        "id": 20,
+        "question": "Nell'antico Egitto, quale termine designava il secondo personaggio dopo il faraone ?",
+        "propositions": [
+          "sultano",
+          "Pascià",
+          "paladino",
+          "Visir"
+        ],
+        "réponse": "Visir",
+        "anecdote": "Iznogoud, eroe dei fumetti di Goscinny e Tabary, è un famoso visir immaginario, il cui obiettivo è diventare califfo anziché califfo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale signore si occupa del servizio in camera di un monarca ?",
+        "propositions": [
+          "Ciambellano",
+          "Augusto",
+          "Signore",
+          "Emiro"
+        ],
+        "réponse": "Ciambellano",
+        "anecdote": "Il Gran Ciambellano di Francia fu uno dei grandi ufficiali della corona di Francia durante l'Ancien Régime."
+      },
+      {
+        "id": 22,
+        "question": "Nell'antica Grecia, quale leader politico era responsabile dell'amministrazione ?",
+        "propositions": [
+          "Arconte",
+          "Consorte",
+          "Rettore",
+          "khan"
+        ],
+        "réponse": "Arconte",
+        "anecdote": "Preposto alla pubblica giurisdizione, fu custode delle vedove e degli orfani, sovrintese ai contenziosi e si occupò anche del teatro."
+      },
+      {
+        "id": 23,
+        "question": "Nella religione cattolica, quale chierico è responsabile di una basilica ?",
+        "propositions": [
+          "Cancelliere",
+          "Rettore",
+          "maragià",
+          "paladino"
+        ],
+        "réponse": "Rettore",
+        "anecdote": "In alcune regioni è il titolo abituale dato al parroco di una parrocchia oa un laico responsabile di una confraternita."
+      },
+      {
+        "id": 24,
+        "question": "Quale soprannome viene dato ai potenti della finanza ?",
+        "propositions": [
+          "Ciambellano",
+          "Rettore",
+          "magnate",
+          "Governatore"
+        ],
+        "réponse": "magnate",
+        "anecdote": "Il termine magnate oggi corrisponde un po' di più all'espressione oligarca che a volte si attribuisce ai miliardari di origine russa."
+      },
+      {
+        "id": 25,
+        "question": "Quale qualifica viene data al marito o alla moglie del capo di stato nelle monarchie ?",
+        "propositions": [
+          "Signore",
+          "Arconte",
+          "Consorte",
+          "Marchese"
+        ],
+        "réponse": "Consorte",
+        "anecdote": "Consorte è un vecchio termine legale, che designa la comunione dei beni o del destino che esiste tra due persone."
+      },
+      {
+        "id": 26,
+        "question": "Quale termine si applica a un cavaliere che ha raggiunto uno dei ranghi più alti ?",
+        "propositions": [
+          "khan",
+          "paladino",
+          "Augusto",
+          "sultano"
+        ],
+        "réponse": "paladino",
+        "anecdote": "Oggi, comunemente usato per la sua connotazione di eroismo e inflessibilità, troviamo l'archetipo declinato in modi diversi."
+      },
+      {
+        "id": 27,
+        "question": "Quale titolo di grande nobile scandinavo è inferiore al rango di re ?",
+        "propositions": [
+          "Joupan",
+          "nizam",
+          "Kneze",
+          "Jarl"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "In Normandia, il capo vichingo Rollon le Walker (911-927) ei suoi successori portavano il titolo di Jarl dei Normanni della Senna."
+      },
+      {
+        "id": 28,
+        "question": "Quale titolo, abolito durante la Rivoluzione francese, fu ripristinato nel 1806 ?",
+        "propositions": [
+          "Arconte",
+          "Governatore",
+          "Principe",
+          "Duca"
+        ],
+        "réponse": "Duca",
+        "anecdote": "Sotto l'antico regime, dal XVI secolo in poi, con il titolo di Monsieur le Duc, veniva designato il primogenito del Principe di Condé."
+      },
+      {
+        "id": 29,
+        "question": "Nella Slovenia moderna, qual è il termine per i sindaci dei comuni ?",
+        "propositions": [
+          "Joupan",
+          "Kneze",
+          "nizam",
+          "Jarl"
+        ],
+        "réponse": "Joupan",
+        "anecdote": "Un joupan designa in francese uno scudiero, capo di alcune comunità, territoriali e non, dell'Europa centrale e balcanica."
+      },
+      {
+        "id": 30,
+        "question": "Quale titolo può essere attribuito a un funzionario di un istituto o di una banca ?",
+        "propositions": [
+          "magnate",
+          "Consorte",
+          "Rettore",
+          "Governatore"
+        ],
+        "réponse": "Governatore",
+        "anecdote": "Nel campo dell'istruzione, un governatore è responsabile dell'educazione di un principe o di bambini piccoli di famiglie numerose."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke titel lager dan Burggraaf is hoger dan Ridder ?",
+        "propositions": [
+          "baronnen",
+          "Tel",
+          "Heer",
+          "partner"
+        ],
+        "réponse": "baronnen",
+        "anecdote": "In België is de titel van baron, toegekend door de koning, hoger dan die van ridder en lager dan die van burggraaf."
+      },
+      {
+        "id": 2,
+        "question": "Welke titel kreeg de oudste zoon van de regerende koning van Frankrijk bij de geboorte ?",
+        "propositions": [
+          "walvis",
+          "dolfijn",
+          "Haai",
+          "Ork"
+        ],
+        "réponse": "dolfijn",
+        "anecdote": "Dauphin was oorspronkelijk de bijnaam, daarna de titel, van de heren van Dauphiné de Viennois, graven van Albon-Viennois."
+      },
+      {
+        "id": 3,
+        "question": "Wie is in de moslimwereld degene die bevelen geeft in een emiraat ?",
+        "propositions": [
+          "sultan",
+          "paladijn",
+          "Emir",
+          "Vizier"
+        ],
+        "réponse": "Emir",
+        "anecdote": "Het woord emir kan prins betekenen voor een persoon die over een gebied heerst, of generaal voor een legeraanvoerder."
+      },
+      {
+        "id": 4,
+        "question": "Welke monarchale titel wordt gedragen door de heerser van een rijk ?",
+        "propositions": [
+          "Kanselier",
+          "sultan",
+          "Farao",
+          "Keizer"
+        ],
+        "réponse": "Keizer",
+        "anecdote": "Keizer is een verdraaiing van de titel van imperator die wordt gedragen door zegevierende Romeinse generaals die door hun troepen worden toegejuicht."
+      },
+      {
+        "id": 5,
+        "question": "Welke term werd gebruikt om de koningen en koninginnen van het oude Egypte aan te duiden ?",
+        "propositions": [
+          "Farao",
+          "Emir",
+          "khan",
+          "Pasja"
+        ],
+        "réponse": "Farao",
+        "anecdote": "De namen van 345 farao's zijn tot ons gekomen dankzij meerdere attesten, waaronder koninklijke lijsten samengesteld door schriftgeleerden."
+      },
+      {
+        "id": 6,
+        "question": "Wat is de titel van degenen die land bezitten dat de titel van vorstendom heeft ?",
+        "propositions": [
+          "Koning",
+          "Prins",
+          "Kanselier",
+          "hertog"
+        ],
+        "réponse": "Prins",
+        "anecdote": "Er zijn drie gebieden met de rang van vorstendom die hun bezitter de titel van prins verlenen : Andorra, Monaco en Liechtenstein."
+      },
+      {
+        "id": 7,
+        "question": "Wie wordt in Europa erfelijk aangewezen in een dynastie ?",
+        "propositions": [
+          "paus",
+          "Keizer",
+          "Koning",
+          "baronnen"
+        ],
+        "réponse": "Koning",
+        "anecdote": "Wanneer een titulaire koning niet kan uitoefenen (bijvoorbeeld op jonge leeftijd), kan de tijdelijke macht worden uitgeoefend door een regent."
+      },
+      {
+        "id": 8,
+        "question": "Welke officiële titel wordt gegeven aan het hoofd van de Duitse regering ?",
+        "propositions": [
+          "Kanselier",
+          "Kamerheer",
+          "Gouverneur",
+          "rector"
+        ],
+        "réponse": "Kanselier",
+        "anecdote": "In « Star Wars: The Phantom Menace » (1999) wordt senator Palpatine Supreme Chancellor of the Galactic Republic."
+      },
+      {
+        "id": 9,
+        "question": "Welke bisschop van Rome is ook het hoofd van de katholieke kerk ?",
+        "propositions": [
+          "Farao",
+          "Emir",
+          "Keizer",
+          "paus"
+        ],
+        "réponse": "paus",
+        "anecdote": "Vaticaanstad, een volledig door land omgeven microstaat binnen de stad Rome in Italië, is het kleinste onafhankelijke land ter wereld."
+      },
+      {
+        "id": 10,
+        "question": "Welke titel is een voortzetting van de Romeinse dictator Julius Caesar ?",
+        "propositions": [
+          "Keizer",
+          "Vizier",
+          "partner",
+          "caesar"
+        ],
+        "réponse": "caesar",
+        "anecdote": "De eerste die deze bijnaam droeg wiens geschiedenis is bijgehouden, is een Romeins staatsburger die praetor was in 208 voor Christus."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke titel betekent heerser of heerser in het Mongools en Turks ?",
+        "propositions": [
+          "Dalai Lama",
+          "Pasja",
+          "khan",
+          "sultan"
+        ],
+        "réponse": "khan",
+        "anecdote": "Gepopulariseerd door Genghis Khan, stichter van het Mongoolse rijk, werd de titel khan al gebruikt vóór het Mongoolse rijk."
+      },
+      {
+        "id": 12,
+        "question": "Welke titel draagt in Azië de suzerein van verschillende vorsten ?",
+        "propositions": [
+          "Pasja",
+          "maharadja",
+          "Vizier",
+          "sultan"
+        ],
+        "réponse": "maharadja",
+        "anecdote": "In Indonesië wordt de generieke term raja vaak gebruikt om een hoofd van een koninklijke huishouding of een prinselijke huishouding aan te duiden."
+      },
+      {
+        "id": 13,
+        "question": "Welke eretitel betekent « seigneur » in de Engelse taal ?",
+        "propositions": [
+          "hertog",
+          "Kamerheer",
+          "Heer",
+          "Markies"
+        ],
+        "réponse": "Heer",
+        "anecdote": "Het wordt met name gebruikt om een lid van het House of Lords of het hogerhuis van het parlement van het Verenigd Koninkrijk aan te duiden."
+      },
+      {
+        "id": 14,
+        "question": "Welke hoge titel werd in Marokko verleend aan de gouverneurs van de provincies ?",
+        "propositions": [
+          "Farao",
+          "Pasja",
+          "Emir",
+          "sultan"
+        ],
+        "réponse": "Pasja",
+        "anecdote": "In christelijke staten die schatplichtig zijn aan de Ottomaanse sultan, is het equivalent van een pasja hospodar (heerser of heer)."
+      },
+      {
+        "id": 15,
+        "question": "Welke titel hebben moslimmonarchen sinds ongeveer het jaar 1000 ?",
+        "propositions": [
+          "Prins",
+          "khan",
+          "maharadja",
+          "sultan"
+        ],
+        "réponse": "sultan",
+        "anecdote": "De eerste Sultana die in haar eigen naam regeerde, was waarschijnlijk Sultana Razia (1236-1240) van het sultanaat van Delhi."
+      },
+      {
+        "id": 16,
+        "question": "Welke militaire rang van junior officier staat letterlijk voor ?",
+        "propositions": [
+          "Commandant",
+          "Kolonel",
+          "Luitenant",
+          "Admiraal"
+        ],
+        "réponse": "Luitenant",
+        "anecdote": "In de meeste legers zijn er ook rangen van tweede luitenant, luitenant-kolonel en luitenant-generaal."
+      },
+      {
+        "id": 17,
+        "question": "Welke titel hadden de Romeinse keizers tot het begin van de 7e eeuw ?",
+        "propositions": [
+          "rector",
+          "Kanselier",
+          "partner",
+          "August"
+        ],
+        "réponse": "August",
+        "anecdote": "Octavianus werd later bekend als Augustus, en deze titel werd gebruikt door bijna alle volgende Romeinse keizers."
+      },
+      {
+        "id": 18,
+        "question": "Welke hogere officiersrang is de hoogste in veel legers ?",
+        "propositions": [
+          "Kapitein",
+          "Luitenant",
+          "Admiraal",
+          "Kolonel"
+        ],
+        "réponse": "Kolonel",
+        "anecdote": "Deze rang geeft, afhankelijk van de organisatie van elk leger, de geschiktheid aan om een belangrijk bevel uit te oefenen."
+      },
+      {
+        "id": 19,
+        "question": "Wat is de belangrijkste lijn in het Tibetaans boeddhisme ?",
+        "propositions": [
+          "Vizier",
+          "Kamerheer",
+          "Dalai Lama",
+          "maharadja"
+        ],
+        "réponse": "Dalai Lama",
+        "anecdote": "Tijdens de Tibetaanse Exodus in 1959 volgen 100.000 Tibetanen de Dalai Lama in ballingschap in India, waar hij de Tibetaanse regering in ballingschap creëert."
+      },
+      {
+        "id": 20,
+        "question": "Welke term duidt in het oude Egypte het tweede karakter na de farao aan ?",
+        "propositions": [
+          "Pasja",
+          "paladijn",
+          "sultan",
+          "Vizier"
+        ],
+        "réponse": "Vizier",
+        "anecdote": "Iznogoud, held van de strips van Goscinny en Tabary, is een beroemde fictieve vizier, wiens doel het is om kalief te worden in plaats van de kalief."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke meneer heeft de leiding over de roomservice van een monarch ?",
+        "propositions": [
+          "Emir",
+          "August",
+          "Heer",
+          "Kamerheer"
+        ],
+        "réponse": "Kamerheer",
+        "anecdote": "De Grand Chamberlain van Frankrijk was een van de grote officieren van de kroon van Frankrijk tijdens het Ancien Régime."
+      },
+      {
+        "id": 22,
+        "question": "Welke politieke leider had in het oude Griekenland de leiding over de administratie ?",
+        "propositions": [
+          "rector",
+          "partner",
+          "Archon",
+          "khan"
+        ],
+        "réponse": "Archon",
+        "anecdote": "Hij was verantwoordelijk voor de openbare rechtspraak, was de voogd van weduwen en wezen, hield toezicht op rechtszaken en zorgde ook voor het theater."
+      },
+      {
+        "id": 23,
+        "question": "Welke geestelijke is in de katholieke religie verantwoordelijk voor een basiliek ?",
+        "propositions": [
+          "rector",
+          "maharadja",
+          "Kanselier",
+          "paladijn"
+        ],
+        "réponse": "rector",
+        "anecdote": "In sommige regio's is het de gebruikelijke titel die wordt gegeven aan de priester van een parochie of aan een leek die de leiding heeft over een broederschap."
+      },
+      {
+        "id": 24,
+        "question": "Welke bijnaam wordt gegeven aan machtige figuren in de financiële wereld ?",
+        "propositions": [
+          "magnaat",
+          "Kamerheer",
+          "rector",
+          "Gouverneur"
+        ],
+        "réponse": "magnaat",
+        "anecdote": "De term magnaat komt tegenwoordig iets meer overeen met de uitdrukking oligarch die soms wordt gehecht aan miljardairs van Russische afkomst."
+      },
+      {
+        "id": 25,
+        "question": "Welke kwalificatie wordt gegeven aan de echtgenoot of echtgenote van het staatshoofd in monarchieën ?",
+        "propositions": [
+          "Heer",
+          "Markies",
+          "Archon",
+          "partner"
+        ],
+        "réponse": "partner",
+        "anecdote": "Consort is een oude juridische term die de gemeenschap van goederen of het lot tussen twee mensen aanduidt."
+      },
+      {
+        "id": 26,
+        "question": "Welke term is van toepassing op een ridder die een van de hoogste rangen heeft bereikt ?",
+        "propositions": [
+          "paladijn",
+          "khan",
+          "sultan",
+          "August"
+        ],
+        "réponse": "paladijn",
+        "anecdote": "Tegenwoordig, vaak gebruikt vanwege de connotatie van heldhaftigheid en onbuigzaamheid, zien we dat het archetype op verschillende manieren achteruitgaat."
+      },
+      {
+        "id": 27,
+        "question": "Welke titel van grote Scandinavische edelman staat onder de rang van koning ?",
+        "propositions": [
+          "Kneus",
+          "Joupan",
+          "nizam",
+          "Jarl"
+        ],
+        "réponse": "Jarl",
+        "anecdote": "In Normandië droegen de Vikingleider Rollon le Walker (911-927) en zijn opvolgers de titel van Jarl van de Noormannen van de Seine."
+      },
+      {
+        "id": 28,
+        "question": "Welke titel, afgeschaft tijdens de Franse Revolutie, werd in 1806 hersteld ?",
+        "propositions": [
+          "Gouverneur",
+          "Archon",
+          "hertog",
+          "Prins"
+        ],
+        "réponse": "hertog",
+        "anecdote": "Onder het oude regime, vanaf de 16e eeuw, werd onder de titel Monsieur le Duc de oudste zoon van de prins van Condé aangewezen."
+      },
+      {
+        "id": 29,
+        "question": "Wat is in het moderne Slovenië de term voor burgemeesters van gemeenten ?",
+        "propositions": [
+          "Kneus",
+          "nizam",
+          "Joupan",
+          "Jarl"
+        ],
+        "réponse": "Joupan",
+        "anecdote": "Een joupan duidt in het Frans een schildknaap aan, hoofd van bepaalde gemeenschappen, territoriaal of niet, in Midden- en Balkan-Europa."
+      },
+      {
+        "id": 30,
+        "question": "Welke titel kan worden toegekend aan een functionaris van een instelling of een bank ?",
+        "propositions": [
+          "rector",
+          "Gouverneur",
+          "partner",
+          "magnaat"
+        ],
+        "réponse": "Gouverneur",
+        "anecdote": "Op het gebied van onderwijs is een gouverneur verantwoordelijk voor de opvoeding van een prins of jonge kinderen uit grote gezinnen."
+      }
+    ]
+    }
+  }
+}

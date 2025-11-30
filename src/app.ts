@@ -9,6 +9,8 @@ import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
 import FastifySSEPlugin from 'fastify-sse-v2'
 import path, { join } from 'node:path'
 import { startUpdateDiscordAvatarsCron } from './crons/updateDiscordAvatars'
+import {startTournamentRemindersCron} from "./crons/tournamentReminders";
+import {startDailyQuizCron} from "./crons/dailyQuiz";
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -165,6 +167,8 @@ const app: FastifyPluginAsync<AppOptions> = async (
       }
 
       await startUpdateDiscordAvatarsCron(fastify);
+      await startTournamentRemindersCron(fastify);
+      await startDailyQuizCron(fastify);
     })
 }
 

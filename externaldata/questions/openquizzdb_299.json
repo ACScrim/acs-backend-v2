@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-05-04",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Sports",
+      "nom": "Rugby à XV",
+      "slogan": "Variante la plus pratiquée du rugby"
+    },
+    "en": {
+      "catégorie": "Sports",
+      "nom": "Rugby Union",
+      "slogan": "Most practiced variant of rugby"
+    },
+    "es": {
+      "catégorie": "Deportes",
+      "nom": "Sindicato de rugby",
+      "slogan": "Variante del rugby más practicada"
+    },
+    "it": {
+      "catégorie": "Gli sport",
+      "nom": "Unione Rugby",
+      "slogan": "La variante più praticata del rugby"
+    },
+    "de": {
+      "catégorie": "Sport",
+      "nom": "Rugby-Union",
+      "slogan": "Am häufigsten praktizierte Rugby-Variante"
+    },
+    "nl": {
+      "catégorie": "Sport",
+      "nom": "Rugby Unie",
+      "slogan": "Meest beoefende variant van rugby"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Combien de joueurs composent chacune des deux équipes de rugby à XV sur le terrain ?",
+        "propositions": [
+          "Quinze",
+          "Dix",
+          "Onze",
+          "Douze"
+        ],
+        "réponse": "Quinze",
+        "anecdote": "L'objectif du rugby à XV est de marquer plus de points que l'adversaire par des essais donnant droit à des transformations."
+      },
+      {
+        "id": 2,
+        "question": "En rugby à XV, combien de points vaut un essai, s'il est transformé ?",
+        "propositions": [
+          "Quatre",
+          "Sept",
+          "Six",
+          "Cinq"
+        ],
+        "réponse": "Sept",
+        "anecdote": "Il n'est pas possible à la défense de marquer sur transformation, à l'inverse de ce que permet le football américain."
+      },
+      {
+        "id": 3,
+        "question": "Quelle fédération internationale gouverne depuis 2014 le rugby à XV ?",
+        "propositions": [
+          "Central Rugby",
+          "Rugby Europe",
+          "World Rugby",
+          "Rugby Passion"
+        ],
+        "réponse": "World Rugby",
+        "anecdote": "Elle définit notamment les règles du jeu et organise les principaux tournois, dont la Coupe du monde de rugby à XV depuis 1987."
+      },
+      {
+        "id": 4,
+        "question": "Quel surnom est donné à l'équipe d'Afrique du Sud de rugby à XV ?",
+        "propositions": [
+          "All Blacks",
+          "Diables rouges",
+          "Chardon",
+          "Springboks"
+        ],
+        "réponse": "Springboks",
+        "anecdote": "La rivalité entre les All Blacks et les Springboks commença en 1921, suite à une tournée des Springboks en Nouvelle-Zélande."
+      },
+      {
+        "id": 5,
+        "question": "Que marque un joueur lorsqu'il effectue un touché à terre dans l'en-but ?",
+        "propositions": [
+          "Essai",
+          "Transformation",
+          "But",
+          "Drop"
+        ],
+        "réponse": "Essai",
+        "anecdote": "Si un joueur s'intercale entre le ballon et l'en-but au moment où le ballon est aplati, l'essai n'est pas accordé."
+      },
+      {
+        "id": 6,
+        "question": "De nos jours, quelle est la forme du ballon utilisé en rugby à XV ?",
+        "propositions": [
+          "Rond",
+          "Sphérique",
+          "Rectangulaire",
+          "Ovale"
+        ],
+        "réponse": "Ovale",
+        "anecdote": "De section elliptique, le ballon de rugby peut être lancé à la main, frappé au pied ou porté par les joueurs."
+      },
+      {
+        "id": 7,
+        "question": "Quelle action sanctionne des fautes mineures ou des remises en jeu incorrectes ?",
+        "propositions": [
+          "Transformation",
+          "Mêlée",
+          "Essai",
+          "Drop"
+        ],
+        "réponse": "Mêlée",
+        "anecdote": "La mêlée se forme à l'endroit de la faute ou de l'arrêt de jeu, ou aussi près que possible de ce point dans le champ de jeu."
+      },
+      {
+        "id": 8,
+        "question": "Quelle est la durée des deux mi-temps d'un match de rugby à XV ?",
+        "propositions": [
+          "30 minutes",
+          "35 minutes",
+          "40 minutes",
+          "45 minutes"
+        ],
+        "réponse": "40 minutes",
+        "anecdote": "Dans certaines compétitions, il peut toutefois y avoir une prolongation de deux fois dix minutes en cas de match nul."
+      },
+      {
+        "id": 9,
+        "question": "Que doit faire un joueur de rugby à XV qui saigne sur le terrain ?",
+        "propositions": [
+          "Plonger au sol",
+          "Être remplacé",
+          "Ne plus bouger",
+          "Attendre la mort"
+        ],
+        "réponse": "Être remplacé",
+        "anecdote": "Le joueur pourra ensuite reprendre sa place, si la durée pour se faire soigner n'excède pas quinze minutes."
+      },
+      {
+        "id": 10,
+        "question": "Quel joueur reste souvent en retrait pour réceptionner les ballons frappés ?",
+        "propositions": [
+          "Aillier",
+          "Centre",
+          "Demi de mêlée",
+          "Arrière"
+        ],
+        "réponse": "Arrière",
+        "anecdote": "Lorsqu'il est employé au pluriel, le mot arrières désigne également l'ensemble des joueurs des lignes arrière."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle est la longueur du terrain gazonné sur lequel se joue le rugby à XV ?",
+        "propositions": [
+          "80 mètres",
+          "60 mètres",
+          "100 mètres",
+          "120 mètres"
+        ],
+        "réponse": "100 mètres",
+        "anecdote": "Au milieu de chaque ligne de but sont implantés des poteaux de huit mètres de haut, distants l'un de l'autre de 5,60 m."
+      },
+      {
+        "id": 12,
+        "question": "De nos jours, combien de points vaut un drop au rugby à XV ?",
+        "propositions": [
+          "Trois",
+          "Deux",
+          "Cinq",
+          "Quatre"
+        ],
+        "réponse": "Trois",
+        "anecdote": "L'action du drop consiste à lâcher le ballon des mains et à le frapper du pied juste après son rebond au sol."
+      },
+      {
+        "id": 13,
+        "question": "Que dit-on lorsque le ballon passe entre les poteaux, au-dessus de la barre transversale ?",
+        "propositions": [
+          "But",
+          "Essai",
+          "Transformation",
+          "Drop"
+        ],
+        "réponse": "But",
+        "anecdote": "Sauf pour la transformation réussie après qu'un essai ait été marqué, au rgby à XV, les buts rapportent trois points."
+      },
+      {
+        "id": 14,
+        "question": "S'il n'y a pas anti-jeu, par quoi peut être pénalisé un en-avant ?",
+        "propositions": [
+          "Mêlée",
+          "Transformation",
+          "Drop",
+          "Essai"
+        ],
+        "réponse": "Mêlée",
+        "anecdote": "En cas de faute ou d'arrêt de jeu dans un en-but, la mêlée se forme à cinq mètres de la ligne de but."
+      },
+      {
+        "id": 15,
+        "question": "Quel pays reste le maître incontesté du milieu du rugby à XV ?",
+        "propositions": [
+          "France",
+          "Japon",
+          "Nouvelle-Zélande",
+          "Pays de Galles"
+        ],
+        "réponse": "Nouvelle-Zélande",
+        "anecdote": "Depuis maintenant près de cent ans, les Néo-Zélandais sont fiers, à juste titre, des performances de leur équipe de rugby à XV."
+      },
+      {
+        "id": 16,
+        "question": "Quelle est la hauteur de la barre transversale située entre les poteaux ?",
+        "propositions": [
+          "3 mètres",
+          "2 mètres",
+          "4 mètres",
+          "5 mètres"
+        ],
+        "réponse": "3 mètres",
+        "anecdote": "Il est possible de jouer au rugby sur de la neige, à condition que la neige et la surface sous la neige ne soient pas dangereuses."
+      },
+      {
+        "id": 17,
+        "question": "De quel pays est originaire le rugby à XV que nous connaissons aujourd'hui ?",
+        "propositions": [
+          "Angleterre",
+          "Afrique du Sud",
+          "Nouvelle-Zélande",
+          "Australie"
+        ],
+        "réponse": "Angleterre",
+        "anecdote": "Le rugby à XV s'est développé dans les pays anglo-saxons (Royaume-Uni, Afrique du Sud, Australie, Nouvelle-Zélande) et en France."
+      },
+      {
+        "id": 18,
+        "question": "Quel accessoire synthétique maintient le ballon pour un coup de pied placé ?",
+        "propositions": [
+          "Bree",
+          "Glee",
+          "Tee",
+          "Bee"
+        ],
+        "réponse": "Tee",
+        "anecdote": "Auparavant, les botteurs avaient l'habitude de creuser des trous dans le gazon, avec leur talon, pour placer le ballon."
+      },
+      {
+        "id": 19,
+        "question": "Pour quelle durée un joueur ayant reçu une carte jaune est-il temporairement exclu ?",
+        "propositions": [
+          "Vingt minutes",
+          "Dix minutes",
+          "Quinze minutes",
+          "Cinq minutes"
+        ],
+        "réponse": "Dix minutes",
+        "anecdote": "Une faute volontaire d'anti-jeu ou une faute mettant en danger la sécurité d'un joueur peut entraîner une exclusion."
+      },
+      {
+        "id": 20,
+        "question": "Quelle est la hauteur des poteaux implantés au milieu de chaque ligne de but ?",
+        "propositions": [
+          "6 mètres",
+          "8 mètres",
+          "5 mètres",
+          "7 mètres"
+        ],
+        "réponse": "8 mètres",
+        "anecdote": "Les en-buts, zones dans lesquelles le ballon doit être aplati, doivent mesurer entre 10 mètres et 22 mètres de long."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Qu'indique l'arbitre par un bras cassé à angle droit, l'avant-bras vers le haut ?",
+        "propositions": [
+          "Drop",
+          "Essai",
+          "Coup franc",
+          "But"
+        ],
+        "réponse": "Coup franc",
+        "anecdote": "Le coup franc ne donne pas droit à une tentative de but, une touche trouvée ne bénéficiant pas de règles privilégiées."
+      },
+      {
+        "id": 22,
+        "question": "Quel protocole a été mis en place après qu'un joueur ait subi un choc violent ?",
+        "propositions": [
+          "Destruction",
+          "Réanimation",
+          "Expulsion",
+          "Commotion"
+        ],
+        "réponse": "Commotion",
+        "anecdote": "Il consiste à autoriser le remplacement temporaire d'un joueur afin de vérifier si ce dernier sera ensuite apte à revenir sur le terrain."
+      },
+      {
+        "id": 23,
+        "question": "Quel poste tiennent généralement les joueurs numérotés 1 et 3 ?",
+        "propositions": [
+          "Pilier",
+          "Troisième ligne",
+          "Talonneur",
+          "Deuxième ligne"
+        ],
+        "réponse": "Pilier",
+        "anecdote": "Leur rôle reste essentiel au sein des mêlées où leur compétences techniques sont aussi déterminantes que leur force."
+      },
+      {
+        "id": 24,
+        "question": "Quel joueur est chargé de remettre le ballon en jeu lors des touches ?",
+        "propositions": [
+          "Arrière",
+          "Pilier",
+          "Talonneur",
+          "Ailier"
+        ],
+        "réponse": "Talonneur",
+        "anecdote": "Le poste de talonneur constitue l'un des postes clés, il fait partie de la colonne vertébrale d'une équipe de rugby."
+      },
+      {
+        "id": 25,
+        "question": "Quel cordonnier a donné son nom à une entreprise éponyme d'équipements de rugby ?",
+        "propositions": [
+          "Joseph Umbro",
+          "William Guilbert",
+          "Robert Dunlop",
+          "René Lacoste"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert a conçu un ballon de forme ovoïde, à partir d'une vessie de porc, alors bien plus gros que le ballon actuel."
+      },
+      {
+        "id": 26,
+        "question": "Quelle action consiste à pousser du pied le ballon vers l'arrière ?",
+        "propositions": [
+          "Décalage",
+          "Cabotage",
+          "Talonnage",
+          "Repassage"
+        ],
+        "réponse": "Talonnage",
+        "anecdote": "Dans le jeu au pied, le talonnage consiste à pousser du pied le ballon vers l'arrière, et ce, généralement dans les mêlées."
+      },
+      {
+        "id": 27,
+        "question": "Quels joueurs sont souvent les plus grands en taille dans une équipe de rugby à XV ?",
+        "propositions": [
+          "Première ligne",
+          "Deuxième ligne",
+          "Troisième ligne",
+          "Centres"
+        ],
+        "réponse": "Deuxième ligne",
+        "anecdote": "À l'origine, ils servaient à sauter en touche mais désormais, il est aussi autorisé de porter son partenaire lors des touches."
+      },
+      {
+        "id": 28,
+        "question": "Quel est le numéro de maillot souvent porté par le demi d'ouverture ?",
+        "propositions": [
+          "8",
+          "6",
+          "12",
+          "10"
+        ],
+        "réponse": "10",
+        "anecdote": "Ses qualités de jeu au pied sont reconnues mais ce n'est cependant pas systématiquement lui qui tape les pénalités."
+      },
+      {
+        "id": 29,
+        "question": "Lequel de ces pays ne faisait pas partie de l'ancien Tournoi des Cinq Nations ?",
+        "propositions": [
+          "Angleterre",
+          "France",
+          "Écosse",
+          "Australie"
+        ],
+        "réponse": "Australie",
+        "anecdote": "Le Tournoi des Six Nations est une compétition de rugby à XV, disputée chaque année en février et mars."
+      },
+      {
+        "id": 30,
+        "question": "Quand se déroula la première édition de la Coupe du monde féminine de rugby à XV ?",
+        "propositions": [
+          "1997",
+          "1991",
+          "1994",
+          "2000"
+        ],
+        "réponse": "1991",
+        "anecdote": "Les États-Unis sont ainsi devenus la première nation championne du monde, suivie par l'Angleterre en 1994."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "How many players are in each of the two rugby union teams on the field ?",
+        "propositions": [
+          "Fifteen",
+          "Twelve",
+          "Eleven",
+          "Ten"
+        ],
+        "réponse": "Fifteen",
+        "anecdote": "The objective of rugby union is to score more points than the opponent through tries giving the right to transformations."
+      },
+      {
+        "id": 2,
+        "question": "In rugby union, how many points is a try worth if it is converted ?",
+        "propositions": [
+          "Seven",
+          "Six",
+          "Five",
+          "Four"
+        ],
+        "réponse": "Seven",
+        "anecdote": "It is not possible for the defense to score on conversion, unlike what American football allows."
+      },
+      {
+        "id": 3,
+        "question": "Which international federation has governed rugby union since 2014 ?",
+        "propositions": [
+          "World Rugby",
+          "Rugby Europe",
+          "Rugby Passion",
+          "Central Rugby"
+        ],
+        "réponse": "World Rugby",
+        "anecdote": "In particular, it defines the rules of the game and organizes the main tournaments, including the Rugby Union World Cup since 1987."
+      },
+      {
+        "id": 4,
+        "question": "What nickname is the South Africa rugby union team given ?",
+        "propositions": [
+          "Thistle",
+          "All Blacks",
+          "Red devils",
+          "Springboks"
+        ],
+        "réponse": "Springboks",
+        "anecdote": "The rivalry between the All Blacks and the Springboks began in 1921, following a Springbok tour of New Zealand."
+      },
+      {
+        "id": 5,
+        "question": "What does a player score when they make a touchdown in the in-goal ?",
+        "propositions": [
+          "Goal",
+          "Transformation",
+          "Drop",
+          "Test"
+        ],
+        "réponse": "Test",
+        "anecdote": "If a player gets between the ball and the in-goal when the ball is flattened, the try is not granted."
+      },
+      {
+        "id": 6,
+        "question": "What is the shape of the ball used in rugby today ?",
+        "propositions": [
+          "Rectangular",
+          "Spherical",
+          "Oval",
+          "Round"
+        ],
+        "réponse": "Oval",
+        "anecdote": "With an elliptical section, the rugby ball can be thrown by hand, kicked or carried by players."
+      },
+      {
+        "id": 7,
+        "question": "What action punishes minor fouls or incorrect throw-in ?",
+        "propositions": [
+          "Drop",
+          "Test",
+          "Melee",
+          "Transformation"
+        ],
+        "réponse": "Melee",
+        "anecdote": "The scrum takes place at the place of the foul or stoppage of play, or as close as possible to that point in the field of play."
+      },
+      {
+        "id": 8,
+        "question": "How long are the two halves of a rugby union match ?",
+        "propositions": [
+          "40 minutes",
+          "30 minutes",
+          "45 minutes",
+          "35 minutes"
+        ],
+        "réponse": "40 minutes",
+        "anecdote": "In some competitions, however, there may be an extension of two times ten minutes in the event of a draw."
+      },
+      {
+        "id": 9,
+        "question": "What should a bleeding rugby player do on the pitch ?",
+        "propositions": [
+          "Wait for death",
+          "Do not move any more",
+          "To be replaced",
+          "Dive to the ground"
+        ],
+        "réponse": "To be replaced",
+        "anecdote": "The player can then return to his seat, if the time to seek treatment does not exceed fifteen minutes."
+      },
+      {
+        "id": 10,
+        "question": "Which player often stays behind to receive batted balls ?",
+        "propositions": [
+          "Scrum half",
+          "Rear",
+          "Center",
+          "Aillier"
+        ],
+        "réponse": "Rear",
+        "anecdote": "When used in the plural, the word rear also designates all the players on the back lines."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "How long is the grassy field on which rugby union is played ?",
+        "propositions": [
+          "100 meters",
+          "60 meters",
+          "80 meters",
+          "120 meters"
+        ],
+        "réponse": "100 meters",
+        "anecdote": "In the middle of each goal line are posts eight meters high, separated from each other by 5.60 m."
+      },
+      {
+        "id": 12,
+        "question": "How many points is worth a drop in rugby union today ?",
+        "propositions": [
+          "Two",
+          "Four",
+          "Five",
+          "Three"
+        ],
+        "réponse": "Three",
+        "anecdote": "The action of the drop consists of releasing the ball from the hands and kicking the foot just after its rebound on the ground."
+      },
+      {
+        "id": 13,
+        "question": "What do we say when the ball passes between the posts, over the crossbar ?",
+        "propositions": [
+          "Goal",
+          "Test",
+          "Drop",
+          "Transformation"
+        ],
+        "réponse": "Goal",
+        "anecdote": "Except for the successful transformation after a try has been scored, in rgby XV goals are worth three points."
+      },
+      {
+        "id": 14,
+        "question": "If there is no anti-play, what can be penalized for a forward ?",
+        "propositions": [
+          "Test",
+          "Melee",
+          "Transformation",
+          "Drop"
+        ],
+        "réponse": "Melee",
+        "anecdote": "In the event of a fault or stoppage of play in an in-goal, the scrum takes place five meters from the goal line."
+      },
+      {
+        "id": 15,
+        "question": "Which country remains the undisputed master of the rugby union world ?",
+        "propositions": [
+          "France",
+          "Wales",
+          "Japan",
+          "New Zealand"
+        ],
+        "réponse": "New Zealand",
+        "anecdote": "For almost a hundred years now, New Zealanders have been rightly proud of the performance of their rugby union team."
+      },
+      {
+        "id": 16,
+        "question": "What is the height of the crossbar between the posts ?",
+        "propositions": [
+          "3 meters",
+          "4 meters",
+          "5 meters",
+          "2 meters"
+        ],
+        "réponse": "3 meters",
+        "anecdote": "It is possible to play rugby on snow, provided that the snow and the surface under the snow are not dangerous."
+      },
+      {
+        "id": 17,
+        "question": "What country does the rugby union we know today originate from ?",
+        "propositions": [
+          "Australia",
+          "South Africa",
+          "England",
+          "New Zealand"
+        ],
+        "réponse": "England",
+        "anecdote": "Rugby union has developed in Anglo-Saxon countries (United Kingdom, South Africa, Australia, New Zealand) and in France."
+      },
+      {
+        "id": 18,
+        "question": "Which synthetic accessory will hold the ball in place for a set kick ?",
+        "propositions": [
+          "Glee",
+          "Bree",
+          "Tee",
+          "Bee"
+        ],
+        "réponse": "Tee",
+        "anecdote": "Previously, kickers used to dig holes in the grass, with their heels, to place the ball."
+      },
+      {
+        "id": 19,
+        "question": "For how long is a player who has received a yellow card temporarily excluded from the game ?",
+        "propositions": [
+          "Fifteen minutes",
+          "Ten minutes",
+          "Twenty minutes",
+          "Five minutes"
+        ],
+        "réponse": "Ten minutes",
+        "anecdote": "A willful foul of anti-play or a foul endangering the safety of a player may result in exclusion."
+      },
+      {
+        "id": 20,
+        "question": "What is the height of the posts set up in the middle of each goal line ?",
+        "propositions": [
+          "7 meters",
+          "8 meters",
+          "6 meters",
+          "5 meters"
+        ],
+        "réponse": "8 meters",
+        "anecdote": "The in-goals, areas in which the ball must be flattened, must be between 10 meters and 22 meters long."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What does the referee indicate by a broken arm at a right angle, forearm up ?",
+        "propositions": [
+          "Drop",
+          "Goal",
+          "Free kick",
+          "Test"
+        ],
+        "réponse": "Free kick",
+        "anecdote": "The free kick does not give the right to a goal attempt, a touch found not benefiting from privileged rules."
+      },
+      {
+        "id": 22,
+        "question": "What protocol was put in place after a player suffered a severe shock ?",
+        "propositions": [
+          "Concussion",
+          "Expulsion",
+          "Resuscitation",
+          "Destruction"
+        ],
+        "réponse": "Concussion",
+        "anecdote": "It consists of authorizing the temporary replacement of a player in order to check if the latter will then be able to return to the field."
+      },
+      {
+        "id": 23,
+        "question": "What position do players numbered 1 and 3 generally hold ?",
+        "propositions": [
+          "Third line",
+          "Pillar",
+          "Second line",
+          "Hooker"
+        ],
+        "réponse": "Pillar",
+        "anecdote": "Their role remains essential in the scrums where their technical skills are as decisive as their strength."
+      },
+      {
+        "id": 24,
+        "question": "Which player is responsible for putting the ball back into play during the touches ?",
+        "propositions": [
+          "Pillar",
+          "Rear",
+          "Hooker",
+          "Winger"
+        ],
+        "réponse": "Hooker",
+        "anecdote": "The hooker position is one of the key positions, it is part of the backbone of a rugby team."
+      },
+      {
+        "id": 25,
+        "question": "Which shoemaker gave his name to an eponymous rugby equipment company ?",
+        "propositions": [
+          "René Lacoste",
+          "Joseph Umbro",
+          "William Guilbert",
+          "Robert Dunlop"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert designed an ovoid-shaped balloon, from a pig's bladder, then much larger than the current balloon."
+      },
+      {
+        "id": 26,
+        "question": "What action is to kick the ball back ?",
+        "propositions": [
+          "Ironing",
+          "Offset",
+          "Tailoring",
+          "Cabotage"
+        ],
+        "réponse": "Tailoring",
+        "anecdote": "In kicking, tailgating involves pushing the ball backward with your foot, usually in scrum."
+      },
+      {
+        "id": 27,
+        "question": "Which players are often the tallest in size on a rugby union team ?",
+        "propositions": [
+          "Second line",
+          "Centers",
+          "First line",
+          "Third line"
+        ],
+        "réponse": "Second line",
+        "anecdote": "Originally, they were used to jump into touch but now it is also allowed to carry your partner during touches."
+      },
+      {
+        "id": 28,
+        "question": "What is the jersey number often worn by the opening half ?",
+        "propositions": [
+          "12",
+          "10",
+          "6",
+          "8"
+        ],
+        "réponse": "10",
+        "anecdote": "His kicking skills are recognized but it is not however systematically he who hits the penalties."
+      },
+      {
+        "id": 29,
+        "question": "Which of these countries was not part of the former Five Nations Tournament ?",
+        "propositions": [
+          "Australia",
+          "England",
+          "France",
+          "Scotland"
+        ],
+        "réponse": "Australia",
+        "anecdote": "The Six Nations Tournament is a rugby union competition, played every year in February and March."
+      },
+      {
+        "id": 30,
+        "question": "In which year did the first edition of the Women's Rugby Union World Cup take place ?",
+        "propositions": [
+          "1991",
+          "2000",
+          "1994",
+          "1997"
+        ],
+        "réponse": "1991",
+        "anecdote": "The United States thus became the first world champion nation, followed by England in 1994."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie viele Spieler sind in jedem der beiden Rugby-Union-Teams auf dem Feld ?",
+        "propositions": [
+          "Zehn",
+          "Zwölf",
+          "Elf",
+          "Fünfzehn"
+        ],
+        "réponse": "Fünfzehn",
+        "anecdote": "Das Ziel von Rugby Union ist es, durch Versuche, die das Recht auf Verwandlungen geben, mehr Punkte als der Gegner zu erzielen."
+      },
+      {
+        "id": 2,
+        "question": "Wie viele Punkte ist beim Rugby Union ein Versuch wert, wenn er umgewandelt wird ?",
+        "propositions": [
+          "Fünf",
+          "Sechs",
+          "Vier",
+          "Sieben"
+        ],
+        "réponse": "Sieben",
+        "anecdote": "Es ist der Verteidigung nicht möglich, bei einer Konversion ein Tor zu erzielen, im Gegensatz zu dem, was der American Football zulässt."
+      },
+      {
+        "id": 3,
+        "question": "Welcher internationale Verband regiert die Rugby Union seit 2014 ?",
+        "propositions": [
+          "Rugby-Leidenschaft",
+          "Zentrales Rugby",
+          "Rugby Europa",
+          "Welt-Rugby"
+        ],
+        "réponse": "Welt-Rugby",
+        "anecdote": "Sie legt insbesondere die Spielregeln fest und organisiert die wichtigsten Turniere, darunter seit 1987 die Rugby-Union-Weltmeisterschaft."
+      },
+      {
+        "id": 4,
+        "question": "Welchen Spitznamen hat das südafrikanische Rugby-Union-Team ?",
+        "propositions": [
+          "Rote Teufel",
+          "Distel",
+          "Springböcke",
+          "Alle Schwarzen"
+        ],
+        "réponse": "Springböcke",
+        "anecdote": "Die Rivalität zwischen den All Blacks und den Springboks begann 1921 nach einer Springbok-Tour durch Neuseeland."
+      },
+      {
+        "id": 5,
+        "question": "Was erzielt ein Spieler bei einem Touchdown im Innentor ?",
+        "propositions": [
+          "Transformation",
+          "Test",
+          "Ziel",
+          "Tropfen"
+        ],
+        "réponse": "Test",
+        "anecdote": "Wenn ein Spieler zwischen Ball und Innentor gerät, wenn der Ball plattgedrückt wird, wird der Versuch nicht gewährt."
+      },
+      {
+        "id": 6,
+        "question": "Welche Form hat der Ball, der heute im Rugby verwendet wird ?",
+        "propositions": [
+          "Kugelförmig",
+          "Rechteckig",
+          "Rund",
+          "Oval"
+        ],
+        "réponse": "Oval",
+        "anecdote": "Mit einem elliptischen Abschnitt kann der Rugbyball mit der Hand geworfen, getreten oder von Spielern getragen werden."
+      },
+      {
+        "id": 7,
+        "question": "Welche Aktion bestraft kleinere Fouls oder falschen Einwurf ?",
+        "propositions": [
+          "Nahkampf",
+          "Transformation",
+          "Test",
+          "Tropfen"
+        ],
+        "réponse": "Nahkampf",
+        "anecdote": "Das Gedränge findet am Ort des Fouls oder der Spielunterbrechung oder so nah wie möglich an diesem Punkt im Spielfeld statt."
+      },
+      {
+        "id": 8,
+        "question": "Wie lange dauern die beiden Hälften eines Rugby-Union-Spiels ?",
+        "propositions": [
+          "40 Minuten",
+          "45 Minuten",
+          "35 Minuten",
+          "30 Minuten"
+        ],
+        "réponse": "40 Minuten",
+        "anecdote": "Bei einigen Wettbewerben kann es jedoch bei Unentschieden zu einer Verlängerung von zweimal zehn Minuten kommen."
+      },
+      {
+        "id": 9,
+        "question": "Was sollte ein blutender Rugbyspieler auf dem Platz tun ?",
+        "propositions": [
+          "Beweg dich nicht mehr",
+          "zu ersetzen",
+          "Warte auf den Tod",
+          "Tauche auf den Boden"
+        ],
+        "réponse": "zu ersetzen",
+        "anecdote": "Der Spieler kann dann zu seinem Platz zurückkehren, wenn die Behandlungsdauer nicht länger als fünfzehn Minuten beträgt."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Spieler bleibt oft zurück, um geschlagene Bälle zu erhalten ?",
+        "propositions": [
+          "Zentrum",
+          "Scrum-Hälfte",
+          "Aillier",
+          "Hinten"
+        ],
+        "réponse": "Hinten",
+        "anecdote": "Wenn es im Plural verwendet wird, bezeichnet das Wort hinten auch alle Spieler auf den hinteren Reihen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie lang ist der Rasen, auf dem Rugby Union gespielt wird ?",
+        "propositions": [
+          "100 Meter",
+          "120 Meter",
+          "80 Meter",
+          "60 Meter"
+        ],
+        "réponse": "100 Meter",
+        "anecdote": "In der Mitte jeder Torlinie befinden sich acht Meter hohe Pfosten, die 5,60 m voneinander entfernt sind."
+      },
+      {
+        "id": 12,
+        "question": "Wie viele Punkte sind heute beim Rugby Union einen Tropfen wert ?",
+        "propositions": [
+          "Vier",
+          "Drei",
+          "Fünf",
+          "Zwei"
+        ],
+        "réponse": "Drei",
+        "anecdote": "Die Aktion des Drops besteht darin, den Ball aus den Händen zu lösen und den Fuß kurz nach seinem Abprall auf den Boden zu treten."
+      },
+      {
+        "id": 13,
+        "question": "Was sagen wir, wenn der Ball zwischen den Pfosten über die Latte geht ?",
+        "propositions": [
+          "Test",
+          "Transformation",
+          "Tropfen",
+          "Ziel"
+        ],
+        "réponse": "Ziel",
+        "anecdote": "Abgesehen von der erfolgreichen Transformation nach einem erzielten Versuch sind Tore im rgby XV drei Punkte wert."
+      },
+      {
+        "id": 14,
+        "question": "Was kann ein Stürmer bestraft werden, wenn es kein Anti-Play gibt ?",
+        "propositions": [
+          "Tropfen",
+          "Transformation",
+          "Nahkampf",
+          "Test"
+        ],
+        "réponse": "Nahkampf",
+        "anecdote": "Im Falle eines Fehlers oder einer Spielunterbrechung bei einem Innentor findet das Gedränge fünf Meter vor der Torlinie statt."
+      },
+      {
+        "id": 15,
+        "question": "Welches Land bleibt der unangefochtene Meister der Rugby-Union-Welt ?",
+        "propositions": [
+          "Neuseeland",
+          "Wales",
+          "Frankreich",
+          "Japan"
+        ],
+        "réponse": "Neuseeland",
+        "anecdote": "Seit fast hundert Jahren sind die Neuseeländer zu Recht stolz auf die Leistung ihres Rugby-Union-Teams."
+      },
+      {
+        "id": 16,
+        "question": "Wie hoch ist die Querstange zwischen den Pfosten ?",
+        "propositions": [
+          "2 Meter",
+          "4 Meter",
+          "5 Meter",
+          "3 Meter"
+        ],
+        "réponse": "3 Meter",
+        "anecdote": "Es ist möglich, Rugby auf Schnee zu spielen, vorausgesetzt, der Schnee und die Oberfläche unter dem Schnee sind nicht gefährlich."
+      },
+      {
+        "id": 17,
+        "question": "Aus welchem Land stammt die Rugby Union, die wir heute kennen ?",
+        "propositions": [
+          "Neuseeland",
+          "England",
+          "Australien",
+          "Südafrika"
+        ],
+        "réponse": "England",
+        "anecdote": "Rugby Union hat sich in angelsächsischen Ländern (Großbritannien, Südafrika, Australien, Neuseeland) und in Frankreich entwickelt."
+      },
+      {
+        "id": 18,
+        "question": "Welches synthetische Zubehör hält den Ball für einen Satzstoß an Ort und Stelle ?",
+        "propositions": [
+          "T-Stück",
+          "Bree",
+          "Biene",
+          "Freude"
+        ],
+        "réponse": "T-Stück",
+        "anecdote": "Früher gruben Kicker mit den Fersen Löcher ins Gras, um den Ball zu platzieren."
+      },
+      {
+        "id": 19,
+        "question": "Wie lange ist ein Spieler, der eine gelbe Karte erhalten hat, vorübergehend vom Spiel ausgeschlossen ?",
+        "propositions": [
+          "Fünf Minuten",
+          "Zwanzig Minuten",
+          "Fünfzehn Minuten",
+          "Zehn Minuten"
+        ],
+        "réponse": "Zehn Minuten",
+        "anecdote": "Ein vorsätzliches Anti-Play-Foul oder ein Foul, das die Sicherheit eines Spielers gefährdet, kann zum Ausschluss führen."
+      },
+      {
+        "id": 20,
+        "question": "Wie hoch sind die Pfosten in der Mitte jeder Torlinie ?",
+        "propositions": [
+          "5 Meter",
+          "7 Meter",
+          "8 Meter",
+          "6 Meter"
+        ],
+        "réponse": "8 Meter",
+        "anecdote": "Die Innentore, also Bereiche, in denen der Ball plattgedrückt werden muss, müssen zwischen 10 Meter und 22 Meter lang sein."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Was zeigt der Schiedsrichter durch einen gebrochenen Arm im rechten Winkel, Unterarm nach oben ?",
+        "propositions": [
+          "Ziel",
+          "Freistoß",
+          "Test",
+          "Tropfen"
+        ],
+        "réponse": "Freistoß",
+        "anecdote": "Der Freistoß berechtigt nicht zu einem Torversuch, eine Berührung, die nicht von privilegierten Regeln profitiert."
+      },
+      {
+        "id": 22,
+        "question": "Welches Protokoll wurde eingeführt, nachdem ein Spieler einen schweren Schock erlitten hatte ?",
+        "propositions": [
+          "Ausweisung",
+          "Gehirnerschütterung",
+          "Reanimation",
+          "Zerstörung"
+        ],
+        "réponse": "Gehirnerschütterung",
+        "anecdote": "Es besteht darin, die vorübergehende Auswechslung eines Spielers zu genehmigen, um zu prüfen, ob dieser dann auf das Spielfeld zurückkehren kann."
+      },
+      {
+        "id": 23,
+        "question": "Welche Position haben die Spieler mit den Nummern 1 und 3 im Allgemeinen ?",
+        "propositions": [
+          "Nutte",
+          "Säule",
+          "Dritte Zeile",
+          "Zweite Zeile"
+        ],
+        "réponse": "Säule",
+        "anecdote": "Ihre Rolle bleibt in den Scrums unverzichtbar, in denen ihre technischen Fähigkeiten ebenso entscheidend sind wie ihre Stärke."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Spieler ist dafür verantwortlich, den Ball während der Berührungen wieder ins Spiel zu bringen ?",
+        "propositions": [
+          "Flügelspieler",
+          "Säule",
+          "Hinten",
+          "Nutte"
+        ],
+        "réponse": "Nutte",
+        "anecdote": "Die Nuttenposition ist eine der Schlüsselpositionen, sie ist Teil des Rückgrats eines Rugby-Teams."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Schuhmacher hat einem gleichnamigen Rugby-Ausrüster seinen Namen gegeben ?",
+        "propositions": [
+          "William Guilbert",
+          "René Lacoste",
+          "Robert Dunlop",
+          "Joseph Umbro"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert entwarf einen eiförmigen Ballon aus einer Schweineblase, der damals viel größer war als der aktuelle Ballon."
+      },
+      {
+        "id": 26,
+        "question": "Welche Aktion besteht darin, den Ball zurückzuschlagen ?",
+        "propositions": [
+          "Schneiderei",
+          "Kabotage",
+          "Bügeln",
+          "Versatz"
+        ],
+        "réponse": "Schneiderei",
+        "anecdote": "Beim Kicken bedeutet Tailgating, den Ball mit dem Fuß nach hinten zu drücken, normalerweise im Gedränge."
+      },
+      {
+        "id": 27,
+        "question": "Welche Spieler sind oft die größten in einem Rugby-Union-Team ?",
+        "propositions": [
+          "Dritte Zeile",
+          "Erste Zeile",
+          "Zweite Zeile",
+          "Zentren"
+        ],
+        "réponse": "Zweite Zeile",
+        "anecdote": "Ursprünglich wurden sie verwendet, um in Berührung zu springen, aber jetzt ist es auch erlaubt, Ihren Partner bei Berührungen zu tragen."
+      },
+      {
+        "id": 28,
+        "question": "Wie lautet die Trikotnummer, die oft in der ersten Hälfte getragen wird ?",
+        "propositions": [
+          "6",
+          "10",
+          "8",
+          "12"
+        ],
+        "réponse": "10",
+        "anecdote": "Seine Trittkünste werden anerkannt, aber er ist es nicht systematisch, der die Elfmeter trifft."
+      },
+      {
+        "id": 29,
+        "question": "Welches dieser Länder war nicht Teil des früheren Fünf-Nationen-Turniers ?",
+        "propositions": [
+          "Schottland",
+          "Australien",
+          "England",
+          "Frankreich"
+        ],
+        "réponse": "Australien",
+        "anecdote": "Das Six Nations Tournament ist ein Rugby-Union-Wettbewerb, der jedes Jahr im Februar und März ausgetragen wird."
+      },
+      {
+        "id": 30,
+        "question": "In welchem Jahr fand die erste Ausgabe der Rugby-Union-Weltmeisterschaft der Frauen statt ?",
+        "propositions": [
+          "1994",
+          "1991",
+          "1997",
+          "2000"
+        ],
+        "réponse": "1991",
+        "anecdote": "Damit wurden die USA die erste Weltmeisternation, gefolgt von England im Jahr 1994."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuántos jugadores hay en cada uno de los dos equipos de rugby en el campo ?",
+        "propositions": [
+          "Doce",
+          "Quince",
+          "Once",
+          "Diez"
+        ],
+        "réponse": "Quince",
+        "anecdote": "El objetivo del rugby union es sumar más puntos que el oponente a través de intentos dando derecho a transformaciones."
+      },
+      {
+        "id": 2,
+        "question": "En rugby union, ¿cuántos puntos vale un try si se convierte ?",
+        "propositions": [
+          "Siete",
+          "Cuatro",
+          "Cinco",
+          "Seis"
+        ],
+        "réponse": "Siete",
+        "anecdote": "No es posible que la defensa anote en la conversión, a diferencia de lo que permite el fútbol americano."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué federación internacional ha gobernado el rugby union desde 2014 ?",
+        "propositions": [
+          "World Rugby",
+          "Pasión por el rugby",
+          "Rugby Europa",
+          "Rugby central"
+        ],
+        "réponse": "World Rugby",
+        "anecdote": "En particular, define las reglas del juego y organiza los principales torneos, incluida la Copa Mundial de Rugby desde 1987."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué apodo se le da al equipo de rugby de Sudáfrica ?",
+        "propositions": [
+          "Thistle",
+          "Springboks",
+          "Diablos rojos",
+          "Todos los negros"
+        ],
+        "réponse": "Springboks",
+        "anecdote": "La rivalidad entre los All Blacks y los Springboks comenzó en 1921, luego de una gira de Springbok por Nueva Zelanda."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué anota un jugador cuando hace un touchdown en el in-goal ?",
+        "propositions": [
+          "Transformación",
+          "Prueba",
+          "Gota",
+          "Objetivo"
+        ],
+        "réponse": "Prueba",
+        "anecdote": "Si un jugador se interpone entre la pelota y el in-goal cuando la pelota está aplanada, no se concede el try."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál es la forma de la pelota que se usa hoy en el rugby ?",
+        "propositions": [
+          "Oval",
+          "Esférico",
+          "Rectangular",
+          "Ronda"
+        ],
+        "réponse": "Oval",
+        "anecdote": "Con una sección elíptica, la pelota de rugby puede ser lanzada con la mano, pateada o llevada por los jugadores."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué acción castiga las faltas leves o los saques de banda incorrectos ?",
+        "propositions": [
+          "Transformación",
+          "Gota",
+          "Cuerpo a cuerpo",
+          "Prueba"
+        ],
+        "réponse": "Cuerpo a cuerpo",
+        "anecdote": "El scrum tiene lugar en el lugar de la falta o la interrupción del juego, o lo más cerca posible de ese punto en el campo de juego."
+      },
+      {
+        "id": 8,
+        "question": "¿Cuánto duran las dos mitades de un partido de rugby union ?",
+        "propositions": [
+          "35 minutos",
+          "40 minutos",
+          "45 minutos",
+          "30 minutos"
+        ],
+        "réponse": "40 minutos",
+        "anecdote": "En algunas competiciones, sin embargo, puede haber una extensión de dos veces diez minutos en caso de empate."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué debe hacer un jugador de rugby ensangrentado en el campo ?",
+        "propositions": [
+          "Espera la muerte",
+          "No te muevas más",
+          "Zambullirse al suelo",
+          "Para ser reemplazado"
+        ],
+        "réponse": "Para ser reemplazado",
+        "anecdote": "El jugador puede entonces regresar a su asiento, si el tiempo para buscar tratamiento no excede los quince minutos."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué jugador suele quedarse atrás para recibir bolas bateadas ?",
+        "propositions": [
+          "Medio scrum",
+          "Centro",
+          "Aillier",
+          "Trasero"
+        ],
+        "réponse": "Trasero",
+        "anecdote": "Cuando se usa en plural, la palabra trasera también designa a todos los jugadores en las líneas de fondo."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuánto mide el césped en el que se juega el rugby union ?",
+        "propositions": [
+          "60 metros",
+          "100 metros",
+          "80 metros",
+          "120 metros"
+        ],
+        "réponse": "100 metros",
+        "anecdote": "En el medio de cada línea de meta hay postes de ocho metros de altura, separados entre sí por 5,60 m."
+      },
+      {
+        "id": 12,
+        "question": "¿Cuántos puntos vale una gota en el rugby union hoy ?",
+        "propositions": [
+          "Tres",
+          "Cinco",
+          "Cuatro",
+          "Dos"
+        ],
+        "réponse": "Tres",
+        "anecdote": "La acción del drop consiste en soltar el balón de las manos y patear con el pie justo después de su rebote en el suelo."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué decimos cuando el balón pasa entre los postes, por encima del travesaño ?",
+        "propositions": [
+          "Gota",
+          "Transformación",
+          "Objetivo",
+          "Prueba"
+        ],
+        "réponse": "Objetivo",
+        "anecdote": "Excepto por la transformación exitosa después de que se haya marcado un try, en rgby XV los goles valen tres puntos."
+      },
+      {
+        "id": 14,
+        "question": "Si no hay anti-play, ¿qué se puede sancionar a un delantero ?",
+        "propositions": [
+          "Cuerpo a cuerpo",
+          "Transformación",
+          "Gota",
+          "Prueba"
+        ],
+        "réponse": "Cuerpo a cuerpo",
+        "anecdote": "En caso de falta o interrupción del juego en un in-goal, el scrum se realiza a cinco metros de la línea de goal."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué país sigue siendo el amo indiscutible del mundo del rugby ?",
+        "propositions": [
+          "Gales",
+          "Nueva Zelanda",
+          "Japón",
+          "Francia"
+        ],
+        "réponse": "Nueva Zelanda",
+        "anecdote": "Durante casi cien años, los neozelandeses se han sentido orgullosos del desempeño de su equipo de rugby."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuál es la altura de la barra transversal entre los postes ?",
+        "propositions": [
+          "4 metros",
+          "3 metros",
+          "2 metros",
+          "5 metros"
+        ],
+        "réponse": "3 metros",
+        "anecdote": "Es posible jugar al rugby en la nieve, siempre que la nieve y la superficie debajo de la nieve no sean peligrosas."
+      },
+      {
+        "id": 17,
+        "question": "¿De qué país se origina la unión de rugby que conocemos hoy ?",
+        "propositions": [
+          "Australia",
+          "Nueva Zelanda",
+          "Inglaterra",
+          "Sudáfrica"
+        ],
+        "réponse": "Inglaterra",
+        "anecdote": "La unión de rugby se ha desarrollado en países anglosajones (Reino Unido, Sudáfrica, Australia, Nueva Zelanda) y en Francia."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué accesorio sintético mantendrá la pelota en su lugar para una patada fija ?",
+        "propositions": [
+          "Bree",
+          "Abeja",
+          "Glee",
+          "Tee"
+        ],
+        "réponse": "Tee",
+        "anecdote": "Anteriormente, los pateadores solían cavar hoyos en la hierba, con los talones, para colocar la pelota."
+      },
+      {
+        "id": 19,
+        "question": "¿Durante cuánto tiempo está excluido temporalmente del juego un jugador que ha recibido una tarjeta amarilla ?",
+        "propositions": [
+          "Cinco minutos",
+          "Diez minutos",
+          "Veinte minutos",
+          "Quince minutos"
+        ],
+        "réponse": "Diez minutos",
+        "anecdote": "Una falta deliberada de anti-juego o una falta que ponga en peligro la seguridad de un jugador puede resultar en la exclusión."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuál es la altura de los postes colocados en el medio de cada línea de gol ?",
+        "propositions": [
+          "7 metros",
+          "6 metros",
+          "5 metros",
+          "8 metros"
+        ],
+        "réponse": "8 metros",
+        "anecdote": "Los in-goal, áreas en las que se debe aplanar el balón, deben tener entre 10 y 22 metros de largo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué indica el árbitro con un brazo roto en ángulo recto, antebrazo levantado ?",
+        "propositions": [
+          "Tiro libre",
+          "Prueba",
+          "Gota",
+          "Objetivo"
+        ],
+        "réponse": "Tiro libre",
+        "anecdote": "El tiro libre no da derecho a un intento de gol, un toque que no se beneficia de reglas privilegiadas."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué protocolo se implementó después de que un jugador sufrió una fuerte conmoción ?",
+        "propositions": [
+          "Destrucción",
+          "Reanimación",
+          "Expulsión",
+          "Conmoción cerebral"
+        ],
+        "réponse": "Conmoción cerebral",
+        "anecdote": "Consiste en autorizar la sustitución temporal de un jugador para comprobar si este último podrá volver al campo."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué posición ocupan generalmente los jugadores numerados 1 y 3 ?",
+        "propositions": [
+          "Tercera línea",
+          "Pilar",
+          "Puta",
+          "Segunda línea"
+        ],
+        "réponse": "Pilar",
+        "anecdote": "Su papel sigue siendo fundamental en los scrums donde sus habilidades técnicas son tan decisivas como su fuerza."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué jugador es responsable de volver a poner el balón en juego durante los toques ?",
+        "propositions": [
+          "Extremo",
+          "Pilar",
+          "Puta",
+          "Trasero"
+        ],
+        "réponse": "Puta",
+        "anecdote": "La posición de prostituta es una de las posiciones clave, es parte de la columna vertebral de un equipo de rugby."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué zapatero dio su nombre a una empresa de equipos de rugby del mismo nombre ?",
+        "propositions": [
+          "Joseph Umbro",
+          "William Guilbert",
+          "Robert Dunlop",
+          "René Lacoste"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert diseñó un globo de forma ovoide, de la vejiga de un cerdo, entonces mucho más grande que el globo actual."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué acción es patear la pelota hacia atrás ?",
+        "propositions": [
+          "Cabotaje",
+          "Sastrería",
+          "Desplazamiento",
+          "Planchado ","Repassage"
+        ],
+        "réponse": "Sastrería",
+        "anecdote": "Al patear, chupar rueda implica empujar la pelota hacia atrás con el pie, generalmente en scrum."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué jugadores suelen ser los más altos en tamaño en un equipo de rugby union ?",
+        "propositions": [
+          "Primera línea",
+          "Segunda línea",
+          "Centros",
+          "Tercera línea"
+        ],
+        "réponse": "Segunda línea",
+        "anecdote": "Originalmente, se usaban para saltar al tacto, pero ahora también está permitido llevar a tu pareja durante los toques."
+      },
+      {
+        "id": 28,
+        "question": "¿Cuál es el número de camiseta que se usa a menudo en la primera mitad ?",
+        "propositions": [
+          "10",
+          "12",
+          "8",
+          "6"
+        ],
+        "réponse": "10",
+        "anecdote": "Se reconocen sus habilidades para patear, pero no es sistemáticamente él quien lanza los penaltis."
+      },
+      {
+        "id": 29,
+        "question": "¿Cuál de estos países no formó parte del antiguo Torneo de las Cinco Naciones ?",
+        "propositions": [
+          "Australia",
+          "Inglaterra",
+          "Escocia",
+          "Francia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "El Torneo de las Seis Naciones es una competición de rugby que se juega todos los años en febrero y marzo."
+      },
+      {
+        "id": 30,
+        "question": "¿En qué año se llevó a cabo la primera edición de la Copa del Mundo de Rugby Union Femenino ?",
+        "propositions": [
+          "1997",
+          "2000",
+          "1994",
+          "1991"
+        ],
+        "réponse": "1991",
+        "anecdote": "Estados Unidos se convirtió así en la primera nación campeona del mundo, seguida de Inglaterra en 1994."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quanti giocatori ci sono in ciascuna delle due squadre di rugby in campo ?",
+        "propositions": [
+          "Dieci",
+          "Undici",
+          "Quindici",
+          "Dodici"
+        ],
+        "réponse": "Quindici",
+        "anecdote": "L'obiettivo del rugby union è quello di fare più punti dell'avversario attraverso mete che danno diritto alle trasformazioni."
+      },
+      {
+        "id": 2,
+        "question": "Nel rugby, quanti punti vale una meta se viene convertita ?",
+        "propositions": [
+          "Sei",
+          "Sette",
+          "Cinque",
+          "Quattro"
+        ],
+        "réponse": "Sette",
+        "anecdote": "Non è possibile per la difesa segnare in trasformazione, a differenza di quanto permette il football americano."
+      },
+      {
+        "id": 3,
+        "question": "Quale federazione internazionale governa il rugby union dal 2014 ?",
+        "propositions": [
+          "Rugby mondiale",
+          "Rugby centrale",
+          "Passione Rugby",
+          "Rugby Europa"
+        ],
+        "réponse": "Rugby mondiale",
+        "anecdote": "In particolare, definisce le regole del gioco e organizza i principali tornei, tra cui la Rugby Union World Cup dal 1987."
+      },
+      {
+        "id": 4,
+        "question": "Quale soprannome è dato alla squadra di rugby del Sudafrica ?",
+        "propositions": [
+          "Cardo",
+          "Diavoli rossi",
+          "Springboks",
+          "All Blacks"
+        ],
+        "réponse": "Springboks",
+        "anecdote": "La rivalità tra All Blacks e Springboks iniziò nel 1921, a seguito di un tour degli Springbok in Nuova Zelanda."
+      },
+      {
+        "id": 5,
+        "question": "Cosa segna un giocatore quando fa un touchdown in area di meta ?",
+        "propositions": [
+          "Obiettivo",
+          "Prova",
+          "Goccia",
+          "Trasformazione"
+        ],
+        "réponse": "Prova",
+        "anecdote": "Se un giocatore si mette tra la palla e l'area di meta quando la palla è appiattita, la meta non è concessa."
+      },
+      {
+        "id": 6,
+        "question": "Qual è la forma della palla usata oggi nel rugby ?",
+        "propositions": [
+          "ovale",
+          "Rotondo",
+          "Rettangolare",
+          "Sferico"
+        ],
+        "réponse": "ovale",
+        "anecdote": "Con una sezione ellittica, il pallone da rugby può essere lanciato a mano, calciato o portato dai giocatori."
+      },
+      {
+        "id": 7,
+        "question": "Quale azione punisce i falli minori o una rimessa in gioco scorretta ?",
+        "propositions": [
+          "Mischia",
+          "Trasformazione",
+          "Goccia",
+          "Prova"
+        ],
+        "réponse": "Mischia",
+        "anecdote": "La mischia ha luogo nel luogo del fallo o dell'interruzione del gioco, o il più vicino possibile a quel punto del campo di gioco."
+      },
+      {
+        "id": 8,
+        "question": "Quanto durano i due tempi di una partita di rugby union ?",
+        "propositions": [
+          "35 minuti",
+          "30 minuti",
+          "40 minuti",
+          "45 minuti"
+        ],
+        "réponse": "40 minuti",
+        "anecdote": "In alcune competizioni, però, potrebbe esserci un allungamento di due volte dieci minuti in caso di parità."
+      },
+      {
+        "id": 9,
+        "question": "Cosa dovrebbe fare in campo un giocatore di rugby sanguinante ?",
+        "propositions": [
+          "Tuffati a terra",
+          "Da sostituire",
+          "Aspetta la morte",
+          "Non ti muovere più"
+        ],
+        "réponse": "Da sostituire",
+        "anecdote": "Il giocatore può quindi tornare al suo posto, se il tempo per farsi curare non supera i quindici minuti."
+      },
+      {
+        "id": 10,
+        "question": "Quale giocatore rimane spesso indietro per ricevere le palle battute ?",
+        "propositions": [
+          "Centro",
+          "Alllier",
+          "Mediano di mischia",
+          "Posteriore"
+        ],
+        "réponse": "Posteriore",
+        "anecdote": "Se usata al plurale, la parola retro designa anche tutti i giocatori delle retrovie."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quanto è lungo il campo erboso su cui si gioca il rugby ?",
+        "propositions": [
+          "120 metri",
+          "80 metri",
+          "100 metri",
+          "60 metri"
+        ],
+        "réponse": "100 metri",
+        "anecdote": "Al centro di ogni linea di porta ci sono pali alti otto metri, separati l'uno dall'altro da 5,60 m."
+      },
+      {
+        "id": 12,
+        "question": "Quanti punti vale un calo nel rugby union oggi ?",
+        "propositions": [
+          "Cinque",
+          "Due",
+          "Tre",
+          "Quattro"
+        ],
+        "réponse": "Tre",
+        "anecdote": "L'azione del drop consiste nel rilasciare la palla dalle mani e calciare il piede subito dopo il suo rimbalzo a terra."
+      },
+      {
+        "id": 13,
+        "question": "Cosa si dice quando la palla passa tra i pali, sopra la traversa ?",
+        "propositions": [
+          "Prova",
+          "Obiettivo",
+          "Trasformazione",
+          "Goccia"
+        ],
+        "réponse": "Obiettivo",
+        "anecdote": "Fatta eccezione per la trasformazione riuscita dopo che è stata segnata una meta, nel rgby XV i gol valgono tre punti."
+      },
+      {
+        "id": 14,
+        "question": "Se non c'è anti-gioco, cosa può essere penalizzato per un attaccante ?",
+        "propositions": [
+          "Prova",
+          "Goccia",
+          "Trasformazione",
+          "Mischia"
+        ],
+        "réponse": "Mischia",
+        "anecdote": "In caso di fallo o interruzione del gioco in area di meta, la mischia si svolge a cinque metri dalla linea di meta."
+      },
+      {
+        "id": 15,
+        "question": "Quale paese rimane il padrone indiscusso del mondo del rugby union ?",
+        "propositions": [
+          "Giappone",
+          "Francia",
+          "Nuova Zelanda",
+          "Galles"
+        ],
+        "réponse": "Nuova Zelanda",
+        "anecdote": "Da quasi cento anni ormai, i neozelandesi sono giustamente orgogliosi delle prestazioni della loro squadra di rugby."
+      },
+      {
+        "id": 16,
+        "question": "Qual è l'altezza della traversa tra i montanti ?",
+        "propositions": [
+          "5 metri",
+          "3 metri",
+          "4 metri",
+          "2 metri"
+        ],
+        "réponse": "3 metri",
+        "anecdote": "È possibile giocare a rugby sulla neve, a condizione che la neve e la superficie sotto la neve non siano pericolose."
+      },
+      {
+        "id": 17,
+        "question": "Da quale paese ha origine l'unione di rugby che conosciamo oggi ?",
+        "propositions": [
+          "Inghilterra",
+          "Nuova Zelanda",
+          "Australia",
+          "Sudafrica"
+        ],
+        "réponse": "Inghilterra",
+        "anecdote": "Il rugby si è sviluppato nei paesi anglosassoni (Regno Unito, Sud Africa, Australia, Nuova Zelanda) e in Francia."
+      },
+      {
+        "id": 18,
+        "question": "Quale accessorio sintetico manterrà la palla in posizione per un calcio piazzato ?",
+        "propositions": [
+          "Bree",
+          "Ape",
+          "Glee",
+          "Maglietta"
+        ],
+        "réponse": "Maglietta",
+        "anecdote": "In precedenza, i calciatori erano soliti scavare buche nell'erba, con i talloni, per posizionare la palla."
+      },
+      {
+        "id": 19,
+        "question": "Per quanto tempo un giocatore che ha ricevuto un cartellino giallo viene temporaneamente escluso dal gioco ?",
+        "propositions": [
+          "Dieci minuti",
+          "Cinque minuti",
+          "Quindici minuti",
+          "Venti minuti"
+        ],
+        "réponse": "Dieci minuti",
+        "anecdote": "Un fallo intenzionale di anti-gioco o un fallo che mette in pericolo la sicurezza di un giocatore può comportare l'esclusione."
+      },
+      {
+        "id": 20,
+        "question": "Qual è l'altezza dei pali posizionati al centro di ogni linea di porta ?",
+        "propositions": [
+          "7 metri",
+          "5 metri",
+          "8 metri",
+          "6 metri"
+        ],
+        "réponse": "8 metri",
+        "anecdote": "Le aree di meta, aree in cui la palla deve essere appiattita, devono essere lunghe tra 10 metri e 22 metri."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Cosa indica l'arbitro con un braccio rotto ad angolo retto, avambraccio in alto ?",
+        "propositions": [
+          "Prova",
+          "Calcio di punizione",
+          "Obiettivo",
+          "Goccia"
+        ],
+        "réponse": "Calcio di punizione",
+        "anecdote": "Il calcio di punizione non dà diritto al tentativo di gol, tocco trovato non beneficiando di regole privilegiate."
+      },
+      {
+        "id": 22,
+        "question": "Quale protocollo è stato messo in atto dopo che un giocatore ha subito un grave shock ?",
+        "propositions": [
+          "Commozione cerebrale",
+          "Espulsione",
+          "Rianimazione",
+          "Distruzione"
+        ],
+        "réponse": "Commozione cerebrale",
+        "anecdote": "Consiste nell'autorizzare la sostituzione temporanea di un giocatore al fine di verificare se quest'ultimo potrà poi tornare in campo."
+      },
+      {
+        "id": 23,
+        "question": "Quale posizione occupano generalmente i giocatori numerati 1 e 3 ?",
+        "propositions": [
+          "Prostituta",
+          "Terza riga",
+          "Pilastro",
+          "Seconda riga"
+        ],
+        "réponse": "Pilastro",
+        "anecdote": "Il loro ruolo rimane essenziale nelle mischie dove le loro capacità tecniche sono decisive quanto la loro forza."
+      },
+      {
+        "id": 24,
+        "question": "Quale giocatore è responsabile di rimettere in gioco la palla durante i tocchi ?",
+        "propositions": [
+          "Prostituta",
+          "Ala",
+          "Pilastro",
+          "Posteriore"
+        ],
+        "réponse": "Prostituta",
+        "anecdote": "La posizione del tallonatore è una delle posizioni chiave, fa parte della spina dorsale di una squadra di rugby."
+      },
+      {
+        "id": 25,
+        "question": "Quale calzolaio ha dato il suo nome a un'omonima azienda di attrezzature per il rugby ?",
+        "propositions": [
+          "William Guilbert",
+          "René Lacoste",
+          "Robert Dunlop",
+          "Giuseppe Umbro"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert progettò un pallone a forma ovoidale, da una vescica di maiale, allora molto più grande dell'attuale pallone."
+      },
+      {
+        "id": 26,
+        "question": "Quale azione è restituire il pallone ?",
+        "propositions": [
+          "Compensazione",
+          "Cabotaggio",
+          "Sartoria",
+          "Stiro"
+        ],
+        "réponse": "Sartoria",
+        "anecdote": "Nel calciare, il tailgating consiste nel spingere la palla all'indietro con il piede, di solito nella mischia."
+      },
+      {
+        "id": 27,
+        "question": "Quali giocatori sono spesso le dimensioni più alte in una squadra di rugby ?",
+        "propositions": [
+          "Centri",
+          "Prima riga",
+          "Seconda riga",
+          "Terza riga"
+        ],
+        "réponse": "Seconda riga",
+        "anecdote": "In origine, erano usati per saltare in contatto, ma ora è anche permesso portare il tuo partner durante i tocchi."
+      },
+      {
+        "id": 28,
+        "question": "Qual è il numero di maglia spesso indossato dal primo tempo ?",
+        "propositions": [
+          "8",
+          "10",
+          "6",
+          "12"
+        ],
+        "réponse": "10",
+        "anecdote": "Le sue doti calcistiche sono riconosciute ma non è comunque sistematicamente lui a centrare i rigori."
+      },
+      {
+        "id": 29,
+        "question": "Quale di questi paesi non faceva parte dell'ex Torneo Cinque Nazioni ?",
+        "propositions": [
+          "Francia",
+          "Australia",
+          "Inghilterra",
+          "Scozia"
+        ],
+        "réponse": "Australia",
+        "anecdote": "Il Torneo Sei Nazioni è una competizione di rugby a 15, giocata ogni anno a febbraio e marzo."
+      },
+      {
+        "id": 30,
+        "question": "In quale anno si è svolta la prima edizione della Coppa del mondo di rugby femminile ?",
+        "propositions": [
+          "1991",
+          "1997",
+          "1994",
+          "2000"
+        ],
+        "réponse": "1991",
+        "anecdote": "Gli Stati Uniti divennero così la prima nazione campione del mondo, seguiti dall'Inghilterra nel 1994."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Hoeveel spelers zitten er in elk van de twee rugbyteams op het veld ?",
+        "propositions": [
+          "vijftien",
+          "elf",
+          "tien",
+          "twaalf"
+        ],
+        "réponse": "vijftien",
+        "anecdote": "Het doel van rugby union is om meer punten te scoren dan de tegenstander door middel van pogingen die het recht geven op transformaties."
+      },
+      {
+        "id": 2,
+        "question": "In rugby union, hoeveel punten is een try waard als het wordt omgezet ?",
+        "propositions": [
+          "vijf",
+          "Vier",
+          "zeven",
+          "Zes"
+        ],
+        "réponse": "zeven",
+        "anecdote": "Het is niet mogelijk voor de verdediging om te scoren op conversie, in tegenstelling tot wat American football toestaat."
+      },
+      {
+        "id": 3,
+        "question": "Welke internationale federatie bestuurt de rugbyunie sinds 2014 ?",
+        "propositions": [
+          "Rugby Passie",
+          "Centraal rugby",
+          "Wereld Rugby",
+          "Rugby Europa"
+        ],
+        "réponse": "Wereld Rugby",
+        "anecdote": "Het definieert met name de spelregels en organiseert de belangrijkste toernooien, waaronder de Rugby Union World Cup sinds 1987."
+      },
+      {
+        "id": 4,
+        "question": "Welke bijnaam krijgt het Zuid-Afrikaanse rugbyteam ?",
+        "propositions": [
+          "Distel",
+          "Alle zwarten",
+          "Rode duivels",
+          "Springbokken"
+        ],
+        "réponse": "Springbokken",
+        "anecdote": "De rivaliteit tussen de All Blacks en de Springboks begon in 1921, na een Springbok-tour door Nieuw-Zeeland."
+      },
+      {
+        "id": 5,
+        "question": "Wat scoort een speler als hij een touchdown maakt in het doelgebied ?",
+        "propositions": [
+          "Test",
+          "Laat vallen",
+          "Doel",
+          "Transformatie"
+        ],
+        "réponse": "Test",
+        "anecdote": "Als een speler tussen de bal en het doelgebied komt wanneer de bal wordt platgedrukt, wordt de try niet toegestaan."
+      },
+      {
+        "id": 6,
+        "question": "Wat is de vorm van de bal die tegenwoordig in rugby wordt gebruikt ?",
+        "propositions": [
+          "Rechthoekig",
+          "Ovaal",
+          "Bolvormig",
+          "Rond"
+        ],
+        "réponse": "Ovaal",
+        "anecdote": "Met een elliptisch gedeelte kan de rugbybal met de hand worden gegooid, geschopt of gedragen door spelers."
+      },
+      {
+        "id": 7,
+        "question": "Welke actie bestraft kleine overtredingen of een verkeerde inworp ?",
+        "propositions": [
+          "Test",
+          "Laat vallen",
+          "Transformatie",
+          "Melee"
+        ],
+        "réponse": "Melee",
+        "anecdote": "De scrum vindt plaats op de plaats van de fout of spelonderbreking, of zo dicht mogelijk bij dat punt in het speelveld."
+      },
+      {
+        "id": 8,
+        "question": "Hoe lang duren de twee helften van een rugby union-wedstrijd ?",
+        "propositions": [
+          "45 minuten",
+          "30 minuten",
+          "35 minuten",
+          "40 minuten"
+        ],
+        "réponse": "40 minuten",
+        "anecdote": "In sommige competities kan er echter een verlenging van twee keer tien minuten zijn bij een gelijkspel."
+      },
+      {
+        "id": 9,
+        "question": "Wat moet een bloedende rugbyspeler doen op het veld ?",
+        "propositions": [
+          "Duik naar de grond",
+          "Te vervangen",
+          "Wacht op de dood",
+          "Niet meer bewegen"
+        ],
+        "réponse": "Te vervangen",
+        "anecdote": "De speler kan dan terugkeren naar zijn zitplaats, als de tijd om zich te laten behandelen niet meer dan vijftien minuten bedraagt."
+      },
+      {
+        "id": 10,
+        "question": "Welke speler blijft vaak achter om geslagen ballen te ontvangen ?",
+        "propositions": [
+          "Aillier",
+          "achter",
+          "Scrumhalf",
+          "Centrum"
+        ],
+        "réponse": "achter",
+        "anecdote": "Wanneer gebruikt in het meervoud, duidt het woord achter ook alle spelers op de achterste lijnen aan."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hoe lang is het grasveld waarop rugby union wordt gespeeld ?",
+        "propositions": [
+          "100 meter",
+          "60 meter",
+          "80 meter",
+          "120 meter"
+        ],
+        "réponse": "100 meter",
+        "anecdote": "In het midden van elke doellijn staan palen van acht meter hoog, 5,60 m van elkaar verwijderd."
+      },
+      {
+        "id": 12,
+        "question": "Hoeveel punten is een daling waard in rugby union vandaag ?",
+        "propositions": [
+          "Twee",
+          "Vier",
+          "vijf",
+          "drie"
+        ],
+        "réponse": "drie",
+        "anecdote": "De actie van de drop bestaat uit het loslaten van de bal uit de handen en het schoppen van de voet net nadat deze op de grond is teruggekaatst."
+      },
+      {
+        "id": 13,
+        "question": "Wat zeggen we als de bal tussen de palen, over de lat gaat ?",
+        "propositions": [
+          "Transformatie",
+          "Laat vallen",
+          "Test",
+          "Doel"
+        ],
+        "réponse": "Doel",
+        "anecdote": "Behalve de succesvolle transformatie nadat een try is gescoord, zijn goals in rgby XV drie punten waard."
+      },
+      {
+        "id": 14,
+        "question": "Als er geen anti-spel is, wat kan dan worden bestraft voor een aanvaller ?",
+        "propositions": [
+          "Test",
+          "Melee",
+          "Laat vallen",
+          "Transformatie"
+        ],
+        "réponse": "Melee",
+        "anecdote": "In het geval van een fout of spelonderbreking in een doelgebied, vindt de scrum plaats op vijf meter van de doellijn."
+      },
+      {
+        "id": 15,
+        "question": "Welk land blijft de onbetwiste meester van de rugbyuniewereld ?",
+        "propositions": [
+          "Nieuw-Zeeland",
+          "Wales",
+          "Japan",
+          "Frankrijk"
+        ],
+        "réponse": "Nieuw-Zeeland",
+        "anecdote": "Al bijna honderd jaar zijn Nieuw-Zeelanders terecht trots op de prestaties van hun rugbyteam."
+      },
+      {
+        "id": 16,
+        "question": "Wat is de hoogte van de dwarsbalk tussen de palen ?",
+        "propositions": [
+          "2 meter",
+          "4 meter",
+          "3 meter",
+          "5 meter"
+        ],
+        "réponse": "3 meter",
+        "anecdote": "Het is mogelijk om rugby op sneeuw te spelen, op voorwaarde dat de sneeuw en het oppervlak onder de sneeuw niet gevaarlijk zijn."
+      },
+      {
+        "id": 17,
+        "question": "Uit welk land komt de rugbybond die we nu kennen ?",
+        "propositions": [
+          "Engeland",
+          "Nieuw-Zeeland",
+          "Zuid-Afrika",
+          "Australië"
+        ],
+        "réponse": "Engeland",
+        "anecdote": "Rugby union heeft zich ontwikkeld in Angelsaksische landen (Verenigd Koninkrijk, Zuid-Afrika, Australië, Nieuw-Zeeland) en in Frankrijk."
+      },
+      {
+        "id": 18,
+        "question": "Welk kunststof accessoire houdt de bal op zijn plaats voor een vaste trap ?",
+        "propositions": [
+          "vrolijkheid",
+          "Bij",
+          "Bree",
+          "T-stuk"
+        ],
+        "réponse": "T-stuk",
+        "anecdote": "Vroeger groeven kickers met hun hielen gaten in het gras om de bal te plaatsen."
+      },
+      {
+        "id": 19,
+        "question": "Hoe lang is een speler die een gele kaart heeft gekregen tijdelijk uitgesloten van deelname aan het spel ?",
+        "propositions": [
+          "Twintig minuten",
+          "Tien minuten",
+          "Vijftien minuten",
+          "Vijf minuten"
+        ],
+        "réponse": "Tien minuten",
+        "anecdote": "Een opzettelijke overtreding van anti-play of een overtreding die de veiligheid van een speler in gevaar brengt, kan uitsluiting tot gevolg hebben."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de hoogte van de palen die in het midden van elke doellijn zijn opgesteld ?",
+        "propositions": [
+          "5 meter",
+          "8 meter",
+          "6 meter",
+          "7 meter"
+        ],
+        "réponse": "8 meter",
+        "anecdote": "De in-goals, gebieden waar de bal moet worden platgedrukt, moeten tussen de 10 meter en 22 meter lang zijn."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Wat geeft de scheidsrechter aan met een gebroken arm in een rechte hoek, onderarm omhoog ?",
+        "propositions": [
+          "Test",
+          "Doel",
+          "Laat vallen",
+          "Vrije trap"
+        ],
+        "réponse": "Vrije trap",
+        "anecdote": "De vrije schop geeft geen recht op een doelpoging, een aanraking die niet profiteert van bevoorrechte regels."
+      },
+      {
+        "id": 22,
+        "question": "Welk protocol werd ingevoerd nadat een speler een ernstige schok had opgelopen ?",
+        "propositions": [
+          "Reanimatie",
+          "hersenschudding",
+          "Uitzetting",
+          "Vernietiging"
+        ],
+        "réponse": "hersenschudding",
+        "anecdote": "Het bestaat uit het autoriseren van de tijdelijke vervanging van een speler om te controleren of deze daarna weer op het veld kan komen."
+      },
+      {
+        "id": 23,
+        "question": "Welke positie hebben spelers met nummer 1 en 3 over het algemeen ?",
+        "propositions": [
+          "Tweede regel",
+          "Derde regel",
+          "Hoer",
+          "Pijler"
+        ],
+        "réponse": "Pijler",
+        "anecdote": "Hun rol blijft essentieel in de scrums waar hun technische vaardigheden net zo bepalend zijn als hun kracht."
+      },
+      {
+        "id": 24,
+        "question": "Welke speler is verantwoordelijk voor het terug in het spel brengen van de bal tijdens de aanrakingen ?",
+        "propositions": [
+          "Vleugelspeler",
+          "achter",
+          "Pijler",
+          "Hoer"
+        ],
+        "réponse": "Hoer",
+        "anecdote": "De hoerpositie is een van de sleutelposities, het maakt deel uit van de ruggengraat van een rugbyteam."
+      },
+      {
+        "id": 25,
+        "question": "Welke schoenmaker gaf zijn naam aan een gelijknamig bedrijf in rugbyapparatuur ?",
+        "propositions": [
+          "William Guilbert",
+          "Joseph Umbro",
+          "Robert Dunlop",
+          "René Lacoste"
+        ],
+        "réponse": "William Guilbert",
+        "anecdote": "William Guilbert ontwierp een eivormige ballon, uit een varkensblaas, toen veel groter dan de huidige ballon."
+      },
+      {
+        "id": 26,
+        "question": "Wat is de actie om de bal terug te trappen ?",
+        "propositions": [
+          "Maatwerk",
+          "Strijken",
+          "Verschuiving",
+          "Cabotage"
+        ],
+        "réponse": "Maatwerk",
+        "anecdote": "Bij trappen houdt bumperkleven in dat je de bal met je voet naar achteren duwt, meestal in scrum."
+      },
+      {
+        "id": 27,
+        "question": "Welke spelers zijn vaak het langst in een rugbyteam ?",
+        "propositions": [
+          "Eerste regel",
+          "Tweede regel",
+          "Centra",
+          "Derde regel"
+        ],
+        "réponse": "Tweede regel",
+        "anecdote": "Oorspronkelijk werden ze gebruikt om in aanraking te komen maar nu is het ook toegestaan om je partner te dragen tijdens aanrakingen."
+      },
+      {
+        "id": 28,
+        "question": "Wat is het rugnummer dat vaak gedragen wordt door de openingshelft ?",
+        "propositions": [
+          "10",
+          "6",
+          "12",
+          "8"
+        ],
+        "réponse": "10",
+        "anecdote": "Zijn trapkunsten worden erkend, maar het is niet systematisch hij die de penalty's neemt."
+      },
+      {
+        "id": 29,
+        "question": "Welke van deze landen maakte geen deel uit van het voormalige Five Nations Tournament ?",
+        "propositions": [
+          "Schotland",
+          "Engeland",
+          "Australië",
+          "Frankrijk"
+        ],
+        "réponse": "Australië",
+        "anecdote": "Het Six Nations Tournament is een rugbywedstrijd die elk jaar in februari en maart wordt gespeeld."
+      },
+      {
+        "id": 30,
+        "question": "In welk jaar vond de eerste editie van de Women's Rugby Union World Cup plaats ?",
+        "propositions": [
+          "2000",
+          "1994",
+          "1997",
+          "1991"
+        ],
+        "réponse": "1991",
+        "anecdote": "De Verenigde Staten werden daarmee het eerste wereldkampioensland, gevolgd door Engeland in 1994."
+      }
+    ]
+    }
+  }
+}

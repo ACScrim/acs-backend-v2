@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2024-09-24",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Culture générale",
+      "nom": "Culture en vrac #11",
+      "slogan": "De la culture à tous les niveaux"
+    },
+    "en": {
+      "catégorie": "General knowledge",
+      "nom": "Bulk culture #11",
+      "slogan": "General culture at all levels"
+    },
+    "es": {
+      "catégorie": "Cultura general",
+      "nom": "Cultivo a granel #11",
+      "slogan": "Cultura general a todos los niveles"
+    },
+    "it": {
+      "catégorie": "Cultura generale",
+      "nom": "Cultura di massa #11",
+      "slogan": "Cultura generale a tutti i livelli"
+    },
+    "de": {
+      "catégorie": "Allgemeine Kultur",
+      "nom": "Massenkultur #11",
+      "slogan": "Allgemeine Kultur auf allen Ebenen"
+    },
+    "nl": {
+      "catégorie": "Algemene cultuur",
+      "nom": "Bulkcultuur #11",
+      "slogan": "Algemene cultuur op alle niveaus"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "De quel objet courant Benjamin Franklin s'est-il servi pour sa théorie sur les éclairs ?",
+        "propositions": [
+          "Paravent",
+          "Parapluie",
+          "Cerf-volant",
+          "Drapeau"
+        ],
+        "réponse": "Cerf-volant",
+        "anecdote": "Visant à prouver la nature électrique des éclairs, son protocole opératoire était de faire frapper la foudre sur un cerf-volant en vol."
+      },
+      {
+        "id": 2,
+        "question": "Qui se transforme en sorcière dans « Blanche-Neige et les Sept Nains » ?",
+        "propositions": [
+          "La souris",
+          "Blanche-Neige",
+          "La servante",
+          "La reine"
+        ],
+        "réponse": "La reine",
+        "anecdote": "Le film est une adaptation du conte homonyme des frères Grimm paru en 1812, fortement ancré dans les traditions européennes."
+      },
+      {
+        "id": 3,
+        "question": "Combien de bouteilles d'un litre faut-il pour remplir un réservoir d'un mètre cube ?",
+        "propositions": [
+          "1 000",
+          "100",
+          "10 000",
+          "10"
+        ],
+        "réponse": "1 000",
+        "anecdote": "Le décimètre cube a le même volume qu'un litre d'eau, c'est le volume d'un cube d'un décimètre d'arête."
+      },
+      {
+        "id": 4,
+        "question": "Quelle est généralement la couleur des algues qui poussent près de la surface de la mer ?",
+        "propositions": [
+          "Rouge",
+          "Bleu",
+          "Vert",
+          "Noir"
+        ],
+        "réponse": "Vert",
+        "anecdote": "Certaines algues vertes sont célèbres comme indicateurs des dérèglements de l'environnement causés par l'homme."
+      },
+      {
+        "id": 5,
+        "question": "Quelle ville est à la fois la capitale et le siège du parlement de la Suisse ?",
+        "propositions": [
+          "Berne",
+          "Zurich",
+          "Genève",
+          "Bâle"
+        ],
+        "réponse": "Berne",
+        "anecdote": "Berne est inscrite au patrimoine culturel mondial de l'UNESCO grâce à son patrimoine médiéval urbain qui a pu être préservé."
+      },
+      {
+        "id": 6,
+        "question": "Quel nom a été donné par Jules Verne au sous-marin du capitaine Nemo ?",
+        "propositions": [
+          "Nautilus",
+          "Licorne",
+          "Destiny",
+          "Poséidon"
+        ],
+        "réponse": "Nautilus",
+        "anecdote": "Le Nautilus a couvert la distance de 20 000 lieues (environ 80 000 kilomètres), soit plus de deux fois la circonférence terrestre."
+      },
+      {
+        "id": 7,
+        "question": "Quel est le nombre de bosses du dromadaire, également appelé chameau d'Arabie ?",
+        "propositions": [
+          "Une",
+          "Trois",
+          "Deux",
+          "Quatre"
+        ],
+        "réponse": "Une",
+        "anecdote": "La bosse du dromadaire, contrairement à une légende tenace, n'est pas une réserve d'eau mais d'énergie via un amas de graisse."
+      },
+      {
+        "id": 8,
+        "question": "Comment appelle-t-on une personne qui pratique le judo ?",
+        "propositions": [
+          "Judoïste",
+          "Judoka",
+          "Judaïste",
+          "Judotiste"
+        ],
+        "réponse": "Judoka",
+        "anecdote": "Art martial moderne, le judo a été créé en tant que pédagogie physique, mentale et morale au japon par Jigoro Kano en 1882."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel pays arrive-t-on en quittant la France par le tunnel du Mont-Blanc ?",
+        "propositions": [
+          "Allemagne",
+          "Belgique",
+          "Italie",
+          "Espagne"
+        ],
+        "réponse": "Italie",
+        "anecdote": "Il a permis une réduction de parcours de Chamonix vers Aoste et de ne plus dépendre de la fermeture hivernale des cols alpins."
+      },
+      {
+        "id": 10,
+        "question": "Avec quel instrument fait de rotin et de saule frappe-t-on la balle au cricket ?",
+        "propositions": [
+          "Queue",
+          "Lance",
+          "Raquette",
+          "Batte"
+        ],
+        "réponse": "Batte",
+        "anecdote": "Le cricket est un sport collectif de balle et de batte opposant deux équipes composées normalement de onze joueurs chacune."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qui désignait-on de Monsieur à la cour des rois de France ?",
+        "propositions": [
+          "Cousin de la reine",
+          "Filleul du cardinal",
+          "Frère du roi",
+          "Oncle du fils du roi"
+        ],
+        "réponse": "Frère du roi",
+        "anecdote": "Le dernier monarque ayant régné en France est l'empereur Napoléon III, déchu le 1er mars 1871 après la défaite de Sedan."
+      },
+      {
+        "id": 12,
+        "question": "Quel boxeur tue Apollo Creed sur le ring du film « Rocky IV » ?",
+        "propositions": [
+          "Koloff",
+          "Rimsky",
+          "Drago",
+          "Rocky"
+        ],
+        "réponse": "Drago",
+        "anecdote": "Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno et Patrick Swayze furent pressentis pour incarner le champion russe Drago."
+      },
+      {
+        "id": 13,
+        "question": "Quel chevalier sans peur et sans reproche s'est illustré durant les guerres d'Italie ?",
+        "propositions": [
+          "Charny",
+          "Bayard",
+          "Gabaston",
+          "Beaulieu"
+        ],
+        "réponse": "Bayard",
+        "anecdote": "Il est à l'origine du personnage du chevalier qui symbolise les valeurs de la chevalerie française de la fin du Moyen Âge."
+      },
+      {
+        "id": 14,
+        "question": "Outre Terre-Neuve, quelle région du Canada possède le nom d'une race de chien ?",
+        "propositions": [
+          "Labrador",
+          "Lévrier",
+          "Teckel",
+          "Bouvier"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Le Labrador et sa forte population d'origine autochtone est séparé de l'île de Terre-Neuve par le détroit de Belle-Isle."
+      },
+      {
+        "id": 15,
+        "question": "Quelle est la longueur réglementaire d'une piscine olympique ?",
+        "propositions": [
+          "50 m",
+          "25 m",
+          "40 m",
+          "30 m"
+        ],
+        "réponse": "50 m",
+        "anecdote": "La première piscine olympique de France a été construite en 1961 à Longwy, en Meurthe-et-Moselle, grâce aux revenus de la sidérurgie."
+      },
+      {
+        "id": 16,
+        "question": "De quel pays le terme fado désigne-t-il la musique traditionnelle ?",
+        "propositions": [
+          "Portugal",
+          "Grèce",
+          "Espagne",
+          "Italie"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "Le chanteur de fado exploite des thèmes récurrents: la saudade, l'amour inaccompli, la jalousie, la nostalgie, le chagrin et l'exil."
+      },
+      {
+        "id": 17,
+        "question": "Sur quelle marque de voiture Ayrton Senna devint-il en 1988 champion du monde de F1 ?",
+        "propositions": [
+          "Williams",
+          "Ferrari",
+          "Lotus",
+          "McLaren"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "La cause officielle de l'accident mortel d'Ayrton Senna à Imola est une rupture de la colonne de direction de sa monoplace."
+      },
+      {
+        "id": 18,
+        "question": "Qui est le fondateur du Rallye Dakar lancé pour la première fois en 1978 ?",
+        "propositions": [
+          "Thierry Sabine",
+          "André Trigano",
+          "Pierre Veyron",
+          "Philippe Salini"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "En 1977, Thierry Sabine a réalisé à moto le rallye Abidjan-Nice réunissant voitures traditionnelles, 4x4, motos et camions."
+      },
+      {
+        "id": 19,
+        "question": "Par quelle nage commence impérativement le relais quatre nages en natation ?",
+        "propositions": [
+          "Dos",
+          "Brasse",
+          "Papillon",
+          "Nage libre"
+        ],
+        "réponse": "Dos",
+        "anecdote": "Les nages sont ordonnées par ordre croissant de vitesse, à l'exception du dos alors que la brasse est plus lente."
+      },
+      {
+        "id": 20,
+        "question": "Quel roi parti en croisades le roi Jean remplace-t-il dans « Robin des Bois » ?",
+        "propositions": [
+          "Richard",
+          "Foulques",
+          "Geoffroy",
+          "Henri"
+        ],
+        "réponse": "Richard",
+        "anecdote": "Selon la légende telle qu'elle est répandue, Robin des Bois était un brigand au grand coeur qui vivait caché dans la forêt de Sherwood."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel héros de Rabelais a prononcé ces premiers mots: « A boire, à boire » ?",
+        "propositions": [
+          "Gargamelle",
+          "Gargantua",
+          "Grandgousier",
+          "Panurge"
+        ],
+        "réponse": "Gargantua",
+        "anecdote": "Rabelais a publié « Gargantua » sous le même pseudonyme que « Pantagruel »: Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "De quel château Napoléon abdiqua-t-il avant son départ pour l'île d'Elbe ?",
+        "propositions": [
+          "Versailles",
+          "Chambord",
+          "Chenonceaux",
+          "Fontainebleau"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Plusieurs rois ont laissé leur empreinte dans l'histoire du château qui est ainsi un témoin des différentes phases de l'histoire de France."
+      },
+      {
+        "id": 23,
+        "question": "Quel était le prénom du cycliste italien professionnel Coppi ?",
+        "propositions": [
+          "Francisco",
+          "Claudio",
+          "Fausto",
+          "Carlo"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "Il est considéré comme l'un des plus grands coureurs de l'histoire du cyclisme, ce qui lui vaut le surnom de campionissimo."
+      },
+      {
+        "id": 24,
+        "question": "Quel animateur de télévision a écrit un roman intitulé « La Chaîne » ?",
+        "propositions": [
+          "Pascal Sevran",
+          "Michel Drucker",
+          "Patrice Laffont",
+          "Bernard Pivot"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Cancre notoire et autodidacte dans une famille où l'excellence était la règle, Michel Drucker rêvait d'échapper au reproche paternel."
+      },
+      {
+        "id": 25,
+        "question": "De quel grand roman épique Pierre et le Prince André sont-ils les héros ?",
+        "propositions": [
+          "Guerre et Paix",
+          "Anna Karénine",
+          "Résurrection",
+          "Les Cosaques"
+        ],
+        "réponse": "Guerre et Paix",
+        "anecdote": "Publié en feuilleton entre 1865 et 1869 dans « Le Messager russe », ce livre narre l'histoire de la Russie à l'époque de Napoléon Ier."
+      },
+      {
+        "id": 26,
+        "question": "Quel journaliste, héros de BD, porte toujours une veste blanche tachetée ?",
+        "propositions": [
+          "Edward Foley",
+          "Glory Grant",
+          "Ric Hochet",
+          "Joe Robertson"
+        ],
+        "réponse": "Ric Hochet",
+        "anecdote": "Ses enquêtes se déroulent souvent dans une atmosphère fantastique qui cache parfois de sordides pulsions meurtrières."
+      },
+      {
+        "id": 27,
+        "question": "Comment se prénomme l'ourson du film « L'Ours » de Jean-Jacques Annaud ?",
+        "propositions": [
+          "Youk",
+          "Yoda",
+          "Yoni",
+          "Yalta"
+        ],
+        "réponse": "Youk",
+        "anecdote": "La naissance du projet remonte à 1981, lorsque Jean-Jacques Annaud souhaitait faire un film à la fois populaire et familial."
+      },
+      {
+        "id": 28,
+        "question": "Quel héros de feuilleton télévisé est tiré de romans de Mickey Spillane ?",
+        "propositions": [
+          "Kojak",
+          "Columbo",
+          "Magnum",
+          "Mike Hammer"
+        ],
+        "réponse": "Mike Hammer",
+        "anecdote": "L'acteur Stacy Keach succédera dès la deuxième saison de la série télé à l'acteur, réalisateur et scénariste Darren McGavin."
+      },
+      {
+        "id": 29,
+        "question": "Quel château de la Loire situé en Touraine enjambe le lit du Cher ?",
+        "propositions": [
+          "Chambord",
+          "Cheverny",
+          "Chenonceaux",
+          "Chinon"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau, avec sa célèbre galerie à deux étages qui domine le Cher, est l'un des fleurons de l'architecture du Val de Loire."
+      },
+      {
+        "id": 30,
+        "question": "Quel philosophe grec de l'Antiquité habitait dans un tonneau ?",
+        "propositions": [
+          "Cratès de Thèbes",
+          "Antisthène",
+          "Diogène de Sinope",
+          "Socrate"
+        ],
+        "réponse": "Diogène de Sinope",
+        "anecdote": "Diogène est contemporain de Philippe II de Macédoine, qui le fit prisonnier après la bataille de Chéronée, et de son fils Alexandre."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "What common object did Benjamin Franklin use in his theory of lightning ?",
+        "propositions": [
+          "Screen",
+          "Kite",
+          "Flag",
+          "Umbrella"
+        ],
+        "réponse": "Kite",
+        "anecdote": "Aiming to prove the electrical nature of lightning, his operating protocol was to have lightning strike a kite in flight."
+      },
+      {
+        "id": 2,
+        "question": "Who turns into a witch in « Snow White and the Seven Dwarfs » ?",
+        "propositions": [
+          "The mouse",
+          "The Queen",
+          "Snow White",
+          "The servant"
+        ],
+        "réponse": "The Queen",
+        "anecdote": "The film is an adaptation of the homonymous tale by the Brothers Grimm published in 1812, strongly anchored in European traditions."
+      },
+      {
+        "id": 3,
+        "question": "How many one liter bottles do you need to fill a one cubic meter tank ?",
+        "propositions": [
+          "1,000",
+          "10,000",
+          "10",
+          "100"
+        ],
+        "réponse": "1,000",
+        "anecdote": "The cubic decimeter has the same volume as a liter of water, it is the volume of a cube with an edge of one decimeter."
+      },
+      {
+        "id": 4,
+        "question": "What color do algae that grow near the sea surface usually have ?",
+        "propositions": [
+          "Blue",
+          "Green",
+          "Black",
+          "Red"
+        ],
+        "réponse": "Green",
+        "anecdote": "Certain green algae are famous as indicators of environmental disturbances caused by humans."
+      },
+      {
+        "id": 5,
+        "question": "Which city is both the capital and the seat of parliament of Switzerland ?",
+        "propositions": [
+          "Bern",
+          "Basel",
+          "Geneva",
+          "Zurich"
+        ],
+        "réponse": "Bern",
+        "anecdote": "Bern is listed as a UNESCO world cultural heritage site thanks to its medieval urban heritage which has been preserved."
+      },
+      {
+        "id": 6,
+        "question": "What name was given by Jules Verne to Captain Nemo's submarine ?",
+        "propositions": [
+          "Destiny",
+          "Nautilus",
+          "Poseidon",
+          "Unicorn"
+        ],
+        "réponse": "Nautilus",
+        "anecdote": "The Nautilus covered the distance of 20,000 leagues (about 80,000 kilometers), more than twice the Earth's circumference."
+      },
+      {
+        "id": 7,
+        "question": "How many humps do the dromedary, also called the Arabian camel, have ?",
+        "propositions": [
+          "One",
+          "Four",
+          "Two",
+          "Three"
+        ],
+        "réponse": "One",
+        "anecdote": "The camel's hump, contrary to persistent legend, is not a reserve of water but of energy via a mass of fat."
+      },
+      {
+        "id": 8,
+        "question": "What do you call a person who practices judo ?",
+        "propositions": [
+          "Judoka",
+          "Judaist",
+          "Judoist",
+          "Judotist"
+        ],
+        "réponse": "Judoka",
+        "anecdote": "A modern martial art, judo was created as a physical, mental and moral pedagogy in Japan by Jigoro Kano in 1882."
+      },
+      {
+        "id": 9,
+        "question": "Which country do you arrive in when leaving France via the Mont Blanc tunnel ?",
+        "propositions": [
+          "Belgium",
+          "Italy",
+          "Germany",
+          "Spain"
+        ],
+        "réponse": "Italy",
+        "anecdote": "It allowed a reduction in the route from Chamonix to Aosta and no longer depends on the winter closure of the Alpine passes."
+      },
+      {
+        "id": 10,
+        "question": "What instrument made of rattan and willow is used to hit the ball in cricket ?",
+        "propositions": [
+          "Bat",
+          "Racket",
+          "Tail",
+          "Lance"
+        ],
+        "réponse": "Bat",
+        "anecdote": "Cricket is a team ball and bat sport between two teams normally made up of eleven players each."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Who was designated Monsieur at the court of the kings of France ?",
+        "propositions": [
+          "Uncle of the king's son",
+          "Godson of the Cardinal",
+          "Cousin of the Queen",
+          "Brother of the King"
+        ],
+        "réponse": "Brother of the King",
+        "anecdote": "The last monarch to reign in France was Emperor Napoleon III, who was deposed on March 1, 1871 after the defeat at Sedan."
+      },
+      {
+        "id": 12,
+        "question": "Which boxer kills Apollo Creed in the ring in the movie « Rocky IV » ?",
+        "propositions": [
+          "Draco",
+          "Rocky",
+          "Rimsky",
+          "Koloff"
+        ],
+        "réponse": "Draco",
+        "anecdote": "Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno and Patrick Swayze were approached to play the Russian champion Drago."
+      },
+      {
+        "id": 13,
+        "question": "Which knight without fear and without reproach distinguished himself during the Italian wars ?",
+        "propositions": [
+          "Charny",
+          "Gabaston",
+          "Bayard",
+          "Beaulieu"
+        ],
+        "réponse": "Bayard",
+        "anecdote": "He is at the origin of the character of the knight who symbolizes the values \u200b\u200bof French chivalry at the end of the Middle Ages."
+      },
+      {
+        "id": 14,
+        "question": "Besides Newfoundland, what region of Canada has the name of a dog breed ?",
+        "propositions": [
+          "Greyhound",
+          "Herdsman",
+          "Dachshund",
+          "Labrador"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Labrador and its large population of indigenous origin is separated from the island of Newfoundland by the Strait of Belle-Isle."
+      },
+      {
+        "id": 15,
+        "question": "What is the legal length of an Olympic swimming pool ?",
+        "propositions": [
+          "40m",
+          "30m",
+          "25m",
+          "50m"
+        ],
+        "réponse": "50m",
+        "anecdote": "The first Olympic swimming pool in France was built in 1961 in Longwy, in Meurthe-et-Moselle, thanks to revenues from the steel industry."
+      },
+      {
+        "id": 16,
+        "question": "From which country does the term fado refer to traditional music ?",
+        "propositions": [
+          "Greece",
+          "Portugal",
+          "Spain",
+          "Italy"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "The fado singer exploits recurring themes : saudade, unfulfilled love, jealousy, nostalgia, grief and exile."
+      },
+      {
+        "id": 17,
+        "question": "On which brand of car did Ayrton Senna become F1 world champion in 1988 ?",
+        "propositions": [
+          "Williams",
+          "Ferrari",
+          "McLaren",
+          "Lotus"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "The official cause of Ayrton Senna's fatal accident at Imola was a broken steering column on his car."
+      },
+      {
+        "id": 18,
+        "question": "Who is the founder of the Dakar Rally first launched in 1978 ?",
+        "propositions": [
+          "Thierry Sabine",
+          "Pierre Veyron",
+          "Philippe Salini",
+          "André Trigano"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "In 1977, Thierry Sabine completed the Abidjan-Nice rally on a motorcycle, bringing together traditional cars, 4x4s, motorcycles and trucks."
+      },
+      {
+        "id": 19,
+        "question": "With which stroke must the medley relay in swimming begin ?",
+        "propositions": [
+          "Butterfly",
+          "Breaststroke",
+          "Back",
+          "Freestyle swimming"
+        ],
+        "réponse": "Back",
+        "anecdote": "The strokes are ordered in increasing order of speed, with the exception of backstroke while breaststroke is slower."
+      },
+      {
+        "id": 20,
+        "question": "Which crusading king does King John replace in « Robin Hood » ?",
+        "propositions": [
+          "Richard",
+          "Henry",
+          "Coots",
+          "Geoffroy"
+        ],
+        "réponse": "Richard",
+        "anecdote": "According to popular legend, Robin Hood was a kind-hearted bandit who lived hidden in Sherwood Forest."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Which Rabelais hero uttered these first words: « To drink, to drink » ?",
+        "propositions": [
+          "Grandgousier",
+          "Gargantua",
+          "Panurge",
+          "Gargamella"
+        ],
+        "réponse": "Gargantua",
+        "anecdote": "Rabelais published « Gargantua » under the same pseudonym as « Pantagruel » : Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "Which castle did Napoleon abdicate before leaving for the island of Elba ?",
+        "propositions": [
+          "Versailles",
+          "Chenonceaux",
+          "Fontainebleau",
+          "Chambord"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Several kings have left their mark on the history of the castle, which is thus a witness to the different phases of French history."
+      },
+      {
+        "id": 23,
+        "question": "What was the first name of Italian professional cyclist Coppi ?",
+        "propositions": [
+          "Squidward",
+          "Fausto",
+          "Francisco",
+          "Claudio"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "He is considered one of the greatest riders in the history of cycling, earning him the nickname campionissimo."
+      },
+      {
+        "id": 24,
+        "question": "Which television host wrote a novel called « The Chain » ?",
+        "propositions": [
+          "Bernard Pivot",
+          "Michel Drucker",
+          "Pascal Sevran",
+          "Patrice Laffont"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Notorious dunce and self-taught in a family where excellence was the rule, Michel Drucker dreamed of escaping his father's reproach."
+      },
+      {
+        "id": 25,
+        "question": "What great epic novel are Pierre and Prince Andrew the heroes of ?",
+        "propositions": [
+          "Anna Karenina",
+          "Resurrection",
+          "War and Peace",
+          "The Cossacks"
+        ],
+        "réponse": "War and Peace",
+        "anecdote": "Published in series between 1865 and 1869 in « Le Messager russe », this book narrates the history of Russia at the time of Napoleon I."
+      },
+      {
+        "id": 26,
+        "question": "Which journalist, comic book hero, always wears a spotted white jacket ?",
+        "propositions": [
+          "Edward Foley",
+          "Glory Grant",
+          "Ric Hochet",
+          "Joe Robertson"
+        ],
+        "réponse": "Ric Hochet",
+        "anecdote": "His investigations often take place in a fantastic atmosphere which sometimes hides sordid murderous impulses."
+      },
+      {
+        "id": 27,
+        "question": "What is the name of the bear cub in the film « The Bear » by Jean-Jacques Annaud ?",
+        "propositions": [
+          "Yalta",
+          "Yoda",
+          "Youk",
+          "Yoni"
+        ],
+        "réponse": "Youk",
+        "anecdote": "The birth of the project dates back to 1981, when Jean-Jacques Annaud wanted to make a film that was both popular and family friendly."
+      },
+      {
+        "id": 28,
+        "question": "Which soap opera hero is based on Mickey Spillane novels ?",
+        "propositions": [
+          "Mike Hammer",
+          "Kojak",
+          "Magnum",
+          "Columbo"
+        ],
+        "réponse": "Mike Hammer",
+        "anecdote": "Actor Stacy Keach will succeed actor, director and screenwriter Darren McGavin in the second season of the TV series."
+      },
+      {
+        "id": 29,
+        "question": "Which Loire castle located in Touraine spans the bed of the Cher ?",
+        "propositions": [
+          "Cheverny",
+          "Chinon",
+          "Chenonceaux",
+          "Chambord"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau, with its famous two-story gallery overlooking the Cher, is one of the jewels of Loire Valley architecture."
+      },
+      {
+        "id": 30,
+        "question": "Which ancient Greek philosopher lived in a barrel ?",
+        "propositions": [
+          "Socrates",
+          "Crates of Thebes",
+          "Antisthenes",
+          "Diogenes of Sinope"
+        ],
+        "réponse": "Diogenes of Sinope",
+        "anecdote": "Diogenes is a contemporary of Philip II of Macedonia, who took him prisoner after the battle of Chaeronea, and of his son Alexander."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welchen gemeinsamen Gegenstand verwendete Benjamin Franklin in seiner Blitztheorie ?",
+        "propositions": [
+          "Regenschirm",
+          "Flagge",
+          "Drachen",
+          "Bildschirm"
+        ],
+        "réponse": "Drachen",
+        "anecdote": "Um die elektrische Natur von Blitzen zu beweisen, bestand sein Arbeitsprotokoll darin, einen fliegenden Drachen vom Blitz treffen zu lassen."
+      },
+      {
+        "id": 2,
+        "question": "Wer verwandelt sich in « Schneewittchen und die sieben Zwerge » in eine Hexe ?",
+        "propositions": [
+          "Die Königin",
+          "Der Diener",
+          "Die Maus",
+          "Schneewittchen"
+        ],
+        "réponse": "Die Königin",
+        "anecdote": "Der Film ist eine stark in europäischen Traditionen verankerte Adaption des gleichnamigen Märchens der Brüder Grimm aus dem Jahr 1812."
+      },
+      {
+        "id": 3,
+        "question": "Wie viele 1-Liter-Flaschen braucht man, um einen 1-Kubikmeter-Tank zu füllen ?",
+        "propositions": [
+          "10",
+          "1.000",
+          "10.000",
+          "100"
+        ],
+        "réponse": "1.000",
+        "anecdote": "Der Kubikdezimeter hat das gleiche Volumen wie ein Liter Wasser, es ist das Volumen eines Würfels mit einer Kantenlänge von einem Dezimeter."
+      },
+      {
+        "id": 4,
+        "question": "Welche Farbe haben Algen, die nahe der Meeresoberfläche wachsen, normalerweise ?",
+        "propositions": [
+          "Grün",
+          "Schwarz",
+          "Rot",
+          "Blau"
+        ],
+        "réponse": "Grün",
+        "anecdote": "Bestimmte Grünalgen gelten als Indikatoren für vom Menschen verursachte Umweltstörungen."
+      },
+      {
+        "id": 5,
+        "question": "Welche Stadt ist sowohl die Hauptstadt als auch der Sitz des Parlaments der Schweiz ?",
+        "propositions": [
+          "Bern",
+          "Basel",
+          "Zürich",
+          "Genf"
+        ],
+        "réponse": "Bern",
+        "anecdote": "Bern gehört dank seines erhaltenen mittelalterlichen Stadterbes zum UNESCO-Weltkulturerbe."
+      },
+      {
+        "id": 6,
+        "question": "Welchen Namen gab Jules Verne dem U-Boot von Kapitän Nemo ?",
+        "propositions": [
+          "Schicksal",
+          "Einhorn",
+          "Nautilus",
+          "Poseidon"
+        ],
+        "réponse": "Nautilus",
+        "anecdote": "Die Nautilus legte eine Strecke von 20.000 Meilen (etwa 80.000 Kilometer) zurück, mehr als das Doppelte des Erdumfangs."
+      },
+      {
+        "id": 7,
+        "question": "Wie viele Höcker hat das Dromedar, auch Arabisches Kamel genannt ?",
+        "propositions": [
+          "Drei",
+          "Vier",
+          "A",
+          "Zwei"
+        ],
+        "réponse": "A",
+        "anecdote": "Der Höcker des Kamels ist, entgegen hartnäckiger Legenden, kein Wasserspeicher, sondern ein Energiespeicher über eine Fettmasse."
+      },
+      {
+        "id": 8,
+        "question": "Wie nennt man eine Person, die Judo betreibt ?",
+        "propositions": [
+          "Judaist",
+          "Judotist",
+          "Judoist",
+          "Judoka"
+        ],
+        "réponse": "Judoka",
+        "anecdote": "Judo, eine moderne Kampfkunst, wurde 1882 in Japan von Jigoro Kano als körperliche, geistige und moralische Pädagogik entwickelt."
+      },
+      {
+        "id": 9,
+        "question": "In welches Land kommen Sie, wenn Sie Frankreich durch den Mont-Blanc-Tunnel verlassen ?",
+        "propositions": [
+          "Spanien",
+          "Italien",
+          "Deutschland",
+          "Belgien"
+        ],
+        "réponse": "Italien",
+        "anecdote": "Es ermöglichte eine Verkürzung der Strecke von Chamonix nach Aosta und ist nicht mehr auf die Wintersperrung der Alpenpässe angewiesen."
+      },
+      {
+        "id": 10,
+        "question": "Mit welchem Instrument aus Rattan und Weide wird der Ball beim Cricket geschlagen ?",
+        "propositions": [
+          "Lanze",
+          "Schläger",
+          "Schwanz",
+          "Fledermaus"
+        ],
+        "réponse": "Fledermaus",
+        "anecdote": "Cricket ist eine Mannschaftssportart mit Bällen und Schlägern zwischen zwei Mannschaften, die normalerweise aus jeweils elf Spielern bestehen."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wer wurde am Hofe der Könige von Frankreich zum Monsieur ernannt ?",
+        "propositions": [
+          "Onkel des Königssohns",
+          "Bruder des Königs",
+          "Patensohn des Kardinals",
+          "Cousin der Königin"
+        ],
+        "réponse": "Bruder des Königs",
+        "anecdote": "Der letzte Monarch, der in Frankreich regierte, war Kaiser Napoleon III., der am 1. März 1871 nach der Niederlage bei Sedan abgesetzt wurde."
+      },
+      {
+        "id": 12,
+        "question": "Welcher Boxer tötet Apollo Creed im Ring im Film « Rocky IV » ?",
+        "propositions": [
+          "Draco",
+          "Rimsky",
+          "Koloff",
+          "Felsig"
+        ],
+        "réponse": "Draco",
+        "anecdote": "Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno und Patrick Swayze wurden gebeten, den russischen Meister Drago zu spielen."
+      },
+      {
+        "id": 13,
+        "question": "Welcher Ritter ohne Furcht und ohne Vorwurf zeichnete sich während der italienischen Kriege aus ?",
+        "propositions": [
+          "Bayard",
+          "Beaulieu",
+          "Gabaston",
+          "Charny"
+        ],
+        "réponse": "Bayard",
+        "anecdote": "Er ist der Ursprung des Charakters des Ritters, der die Werte des französischen Rittertums am Ende des Mittelalters symbolisiert."
+      },
+      {
+        "id": 14,
+        "question": "Welche Region Kanadas hat außer Neufundland den Namen einer Hunderasse ?",
+        "propositions": [
+          "Dackel",
+          "Labrador",
+          "Hirte",
+          "Windhund"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Labrador und seine große Bevölkerung indigener Herkunft sind durch die Straße von Belle-Isle von der Insel Neufundland getrennt."
+      },
+      {
+        "id": 15,
+        "question": "Was ist die zulässige Länge eines olympischen Schwimmbeckens ?",
+        "propositions": [
+          "40m",
+          "25m",
+          "50m",
+          "30m"
+        ],
+        "réponse": "50m",
+        "anecdote": "Dank der Einnahmen aus der Stahlindustrie wurde 1961 in Longwy im Departement Meurthe-et-Moselle das erste olympische Schwimmbad Frankreichs gebaut."
+      },
+      {
+        "id": 16,
+        "question": "Aus welchem Land bezieht sich der Begriff Fado auf traditionelle Musik ?",
+        "propositions": [
+          "Portugal",
+          "Griechenland",
+          "Spanien",
+          "Italien"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "Der Fado-Sänger beschäftigt sich mit wiederkehrenden Themen : Saudade, unerfüllte Liebe, Eifersucht, Nostalgie, Trauer und Exil."
+      },
+      {
+        "id": 17,
+        "question": "Mit welcher Automarke wurde Ayrton Senna 1988 Formel-1-Weltmeister ?",
+        "propositions": [
+          "Lotus",
+          "Ferrari",
+          "McLaren",
+          "Williams"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "Die offizielle Ursache für Ayrton Sennas tödlichen Unfall in Imola war eine kaputte Lenksäule an seinem Auto."
+      },
+      {
+        "id": 18,
+        "question": "Wer ist der Gründer der 1978 erstmals ins Leben gerufenen Rallye Dakar ?",
+        "propositions": [
+          "Thierry Sabine",
+          "Pierre Veyron",
+          "Philippe Salini",
+          "André Trigano"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "1977 absolvierte Thierry Sabine die Rallye Abidjan-Nizza auf einem Motorrad, bei dem traditionelle Autos, Geländewagen, Motorräder und Lastwagen zusammenkamen."
+      },
+      {
+        "id": 19,
+        "question": "Mit welchem Schlag muss die Lagenstaffel im Schwimmen beginnen ?",
+        "propositions": [
+          "Brustschwimmen",
+          "Freistilschwimmen",
+          "Schmetterling",
+          "Zurück"
+        ],
+        "réponse": "Zurück",
+        "anecdote": "Die Schwimmzüge sind in aufsteigender Reihenfolge der Geschwindigkeit angeordnet, mit Ausnahme des Rückenschwimmens, während das Brustschwimmen langsamer ist."
+      },
+      {
+        "id": 20,
+        "question": "Welchen Kreuzzugskönig ersetzt König John in « Robin Hood » ?",
+        "propositions": [
+          "Geoffroy",
+          "Heinrich",
+          "Richard",
+          "Blässhühner"
+        ],
+        "réponse": "Richard",
+        "anecdote": "Der Legende nach war Robin Hood ein gutherziger Bandit, der versteckt im Sherwood Forest lebte."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welcher Rabelais-Held hat diese ersten Worte ausgesprochen: « Trinken, trinken » ?",
+        "propositions": [
+          "Gargamella",
+          "Panurge",
+          "Gargantua",
+          "Grandgousier"
+        ],
+        "réponse": "Gargantua",
+        "anecdote": "Rabelais veröffentlichte « Gargantua » unter demselben Pseudonym wie « Pantagruel » : Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "Auf welche Burg verzichtete Napoleon, bevor er auf die Insel Elba aufbrach ?",
+        "propositions": [
+          "Versailles",
+          "Chambord",
+          "Chenonceaux",
+          "Fontainebleau"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Mehrere Könige haben ihre Spuren in der Geschichte des Schlosses hinterlassen, das somit ein Zeugnis der verschiedenen Phasen der französischen Geschichte ist."
+      },
+      {
+        "id": 23,
+        "question": "Wie war der Vorname des italienischen Profi-Radrennfahrers Coppi ?",
+        "propositions": [
+          "Francisco",
+          "Claudio",
+          "Thaddäus",
+          "Fausto"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "Er gilt als einer der größten Radfahrer in der Geschichte des Radsports, was ihm den Spitznamen Campionissimo einbrachte."
+      },
+      {
+        "id": 24,
+        "question": "Welcher Fernsehmoderator hat einen Roman mit dem Titel « The Chain » geschrieben ?",
+        "propositions": [
+          "Bernard Pivot",
+          "Patrice Laffont",
+          "Pascal Sevran",
+          "Michel Drucker"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Michel Drucker, berüchtigter Dummkopf und Autodidakt in einer Familie, in der Exzellenz die Regel war, träumte davon, den Vorwürfen seines Vaters zu entgehen."
+      },
+      {
+        "id": 25,
+        "question": "In welchem großen epischen Roman sind Pierre und Prinz Andrew die Helden ?",
+        "propositions": [
+          "Die Kosaken",
+          "Krieg und Frieden",
+          "Auferstehung",
+          "Anna Karenina"
+        ],
+        "réponse": "Krieg und Frieden",
+        "anecdote": "Dieses Buch wurde zwischen 1865 und 1869 in Serie in « Le Messager russe » veröffentlicht und erzählt die Geschichte Russlands zur Zeit Napoleons I."
+      },
+      {
+        "id": 26,
+        "question": "Welcher Journalist, Comic-Held, trägt immer eine gepunktete weiße Jacke ?",
+        "propositions": [
+          "Joe Robertson",
+          "Ric Hochet",
+          "Edward Foley",
+          "Glory Grant"
+        ],
+        "réponse": "Ric Hochet",
+        "anecdote": "Seine Ermittlungen finden oft in einer fantastischen Atmosphäre statt, in der sich manchmal schmutzige mörderische Impulse verbergen."
+      },
+      {
+        "id": 27,
+        "question": "Wie heißt das Bärenjunges im Film « Der Bär » von Jean-Jacques Annaud ?",
+        "propositions": [
+          "Jalta",
+          "Yoda",
+          "Yoni",
+          "Youk"
+        ],
+        "réponse": "Youk",
+        "anecdote": "Die Geburtsstunde des Projekts geht auf das Jahr 1981 zurück, als Jean-Jacques Annaud einen sowohl populären als auch familienfreundlichen Film machen wollte."
+      },
+      {
+        "id": 28,
+        "question": "Welcher Soap-Opera-Held basiert auf den Romanen von Mickey Spillane ?",
+        "propositions": [
+          "Mike Hammer",
+          "Columbo",
+          "Kojak",
+          "Magnum"
+        ],
+        "réponse": "Mike Hammer",
+        "anecdote": "Die Schauspielerin Stacy Keach wird in der zweiten Staffel der TV-Serie die Nachfolge des Schauspielers, Regisseurs und Drehbuchautors Darren McGavin antreten."
+      },
+      {
+        "id": 29,
+        "question": "Welches Loire-Schloss in der Touraine überspannt das Flussbett des Cher ?",
+        "propositions": [
+          "Cheverny",
+          "Chambord",
+          "Chenonceaux",
+          "Chinon"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau mit seiner berühmten zweistöckigen Galerie mit Blick auf den Cher ist eines der Juwelen der Loire-Tal-Architektur."
+      },
+      {
+        "id": 30,
+        "question": "Welcher antike griechische Philosoph lebte in einem Fass ?",
+        "propositions": [
+          "Antisthenes",
+          "Kisten von Theben",
+          "Sokrates",
+          "Diogenes von Sinope"
+        ],
+        "réponse": "Diogenes von Sinope",
+        "anecdote": "Diogenes ist ein Zeitgenosse Philipps II. von Mazedonien, der ihn nach der Schlacht von Chaironeia gefangen nahm, und seines Sohnes Alexander."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué objeto común utilizó Benjamín Franklin en su teoría del rayo ?",
+        "propositions": [
+          "Pantalla",
+          "Paraguas",
+          "Cometa",
+          "Bandera"
+        ],
+        "réponse": "Cometa",
+        "anecdote": "Con el objetivo de demostrar la naturaleza eléctrica de los rayos, su protocolo operativo consistía en hacer que un rayo cayera sobre una cometa en vuelo."
+      },
+      {
+        "id": 2,
+        "question": "¿Quién se convierte en bruja en « Blancanieves y los siete enanitos » ?",
+        "propositions": [
+          "El sirviente",
+          "Blancanieves",
+          "La Reina",
+          "El ratón"
+        ],
+        "réponse": "La Reina",
+        "anecdote": "La película es una adaptación del cuento homónimo de los hermanos Grimm publicado en 1812, fuertemente arraigado en las tradiciones europeas."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuántas botellas de un litro se necesitan para llenar un tanque de un metro cúbico ?",
+        "propositions": [
+          "10",
+          "100",
+          "10.000",
+          "1.000"
+        ],
+        "réponse": "1.000",
+        "anecdote": "El decímetro cúbico tiene el mismo volumen que un litro de agua, es el volumen de un cubo de arista de un decímetro."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué color suelen tener las algas que crecen cerca de la superficie del mar ?",
+        "propositions": [
+          "Negro",
+          "Rojo",
+          "Azul",
+          "Verde"
+        ],
+        "réponse": "Verde",
+        "anecdote": "Ciertas algas verdes son famosas como indicadoras de alteraciones ambientales provocadas por el hombre."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué ciudad es a la vez la capital y la sede del parlamento de Suiza ?",
+        "propositions": [
+          "Ginebra",
+          "Berna",
+          "Zúrich",
+          "Basilea"
+        ],
+        "réponse": "Berna",
+        "anecdote": "Berna está catalogada como patrimonio cultural mundial de la UNESCO gracias a su patrimonio urbano medieval que se ha conservado."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué nombre le puso Julio Verne al submarino del Capitán Nemo ?",
+        "propositions": [
+          "Destino",
+          "Poseidón",
+          "Nautilo",
+          "Unicornio"
+        ],
+        "réponse": "Nautilo",
+        "anecdote": "El Nautilus recorrió una distancia de 20.000 leguas (unos 80.000 kilómetros), más del doble de la circunferencia de la Tierra."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuántas jorobas tiene el dromedario, también llamado camello árabe ?",
+        "propositions": [
+          "Tres",
+          "Un",
+          "Dos",
+          "Cuatro"
+        ],
+        "réponse": "Un",
+        "anecdote": "La joroba del camello, contrariamente a la persistente leyenda, no es una reserva de agua sino de energía a través de una masa de grasa."
+      },
+      {
+        "id": 8,
+        "question": "¿Cómo se llama a una persona que practica judo ?",
+        "propositions": [
+          "Judota",
+          "Judoca",
+          "Judaísta",
+          "judoista"
+        ],
+        "réponse": "Judoca",
+        "anecdote": "El judo, un arte marcial moderno, fue creado como pedagogía física, mental y moral en Japón por Jigoro Kano en 1882."
+      },
+      {
+        "id": 9,
+        "question": "¿A qué país llegas al salir de Francia por el túnel del Mont Blanc ?",
+        "propositions": [
+          "España",
+          "Bélgica",
+          "Italia",
+          "Alemania"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Permitió reducir el trayecto de Chamonix a Aosta y ya no depende del cierre invernal de los pasos alpinos."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué instrumento hecho de ratán y sauce se utiliza para golpear la pelota en el cricket ?",
+        "propositions": [
+          "Raqueta",
+          "Murciélago",
+          "Cola",
+          "Lanza"
+        ],
+        "réponse": "Murciélago",
+        "anecdote": "El críquet es un deporte de equipo con pelota y bate entre dos equipos normalmente formados por once jugadores cada uno."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Quién fue designado señor en la corte de los reyes de Francia ?",
+        "propositions": [
+          "Primo de la Reina",
+          "Hermano del Rey",
+          "Tío del hijo del rey",
+          "Ahijado del Cardenal"
+        ],
+        "réponse": "Hermano del Rey",
+        "anecdote": "El último monarca que reinó en Francia fue el emperador Napoleón III, que fue depuesto el 1 de marzo de 1871 tras la derrota de Sedán."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué boxeador mata a Apollo Creed en el ring en la película « Rocky IV » ?",
+        "propositions": [
+          "Rocoso",
+          "Koloff",
+          "Rimski",
+          "Draco"
+        ],
+        "réponse": "Draco",
+        "anecdote": "Se contactó a Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno y Patrick Swayze para interpretar al campeón ruso Drago."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué caballero sin miedo y sin reproches se distinguió durante las guerras italianas ?",
+        "propositions": [
+          "Gabastón",
+          "Charny",
+          "Beaulieu",
+          "Bayardo"
+        ],
+        "réponse": "Bayardo",
+        "anecdote": "Está en el origen del personaje del caballero que simboliza los valores de la caballería francesa de finales de la Edad Media."
+      },
+      {
+        "id": 14,
+        "question": "Además de Terranova, ¿qué región de Canadá tiene el nombre de una raza de perro ?",
+        "propositions": [
+          "perro salchicha",
+          "Galgo",
+          "Pastor",
+          "Labrador"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Labrador y su numerosa población de origen indígena está separada de la isla de Terranova por el estrecho de Belle-Isle."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál es la longitud legal de una piscina olímpica ?",
+        "propositions": [
+          "25m",
+          "50m",
+          "30m",
+          "40m"
+        ],
+        "réponse": "50m",
+        "anecdote": "La primera piscina olímpica de Francia se construyó en 1961 en Longwy, en Meurthe-et-Moselle, gracias a los ingresos de la industria siderúrgica."
+      },
+      {
+        "id": 16,
+        "question": "¿De qué país se refiere el término fado a la música tradicional ?",
+        "propositions": [
+          "España",
+          "Portugal",
+          "Grecia",
+          "Italia"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "La cantante de fado explota temas recurrentes : la saudade, el amor incumplido, los celos, la nostalgia, el dolor y el exilio."
+      },
+      {
+        "id": 17,
+        "question": "¿Con qué marca de coche Ayrton Senna se convirtió en campeón del mundo de F1 en 1988 ?",
+        "propositions": [
+          "Lotus",
+          "Ferrari",
+          "Williams",
+          "McLaren"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "La causa oficial del fatal accidente de Ayrton Senna en Imola fue la rotura de la columna de dirección de su coche."
+      },
+      {
+        "id": 18,
+        "question": "¿Quién es el fundador del Rally Dakar inaugurado en 1978 ?",
+        "propositions": [
+          "Thierry Sabine",
+          "Pedro Veyron",
+          "André Trigano",
+          "Felipe Salini"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "En 1977, Thierry Sabine completó el rally Abiyán-Niza en moto, reuniendo coches tradicionales, 4x4, motos y camiones."
+      },
+      {
+        "id": 19,
+        "question": "¿Con qué brazada debe comenzar el relevo combinado en natación ?",
+        "propositions": [
+          "Natación estilo libre",
+          "Braza",
+          "Atrás",
+          "Mariposa"
+        ],
+        "réponse": "Atrás",
+        "anecdote": "Los brazadas se ordenan en orden creciente de velocidad, a excepción de la espalda, mientras que la braza es más lenta."
+      },
+      {
+        "id": 20,
+        "question": "¿A qué rey cruzado reemplaza el rey Juan en « Robin Hood » ?",
+        "propositions": [
+          "Fochas",
+          "Ricardo",
+          "Geoffroy",
+          "Enrique"
+        ],
+        "réponse": "Ricardo",
+        "anecdote": "Según la leyenda popular, Robin Hood era un bandido de buen corazón que vivía escondido en el bosque de Sherwood."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué héroe de Rabelais pronunció estas primeras palabras : « Beber, beber » ?",
+        "propositions": [
+          "Gargantúa",
+          "Gargamela",
+          "Panurgo",
+          "Grandgousier"
+        ],
+        "réponse": "Gargantúa",
+        "anecdote": "Rabelais publicó « Gargantúa » bajo el mismo seudónimo de « Pantagruel » : Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "¿A qué castillo abdicó Napoleón antes de partir hacia la isla de Elba ?",
+        "propositions": [
+          "Versalles",
+          "Fontainebleau",
+          "Chenonceaux",
+          "Chambord"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Varios reyes han dejado su huella en la historia del castillo, que es así testigo de las diferentes fases de la historia francesa."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál fue el primer nombre del ciclista profesional italiano Coppi ?",
+        "propositions": [
+          "Fausto",
+          "Francisco",
+          "Calamardo",
+          "Claudio"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "Es considerado uno de los mejores ciclistas de la historia del ciclismo, lo que le valió el sobrenombre de campionissimo."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué presentador de televisión escribió una novela llamada « La Cadena » ?",
+        "propositions": [
+          "Michel Drucker",
+          "Patrice Laffont",
+          "Pascal Sevran",
+          "Bernard Pivot"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Michel Drucker, famoso tonto y autodidacta en una familia donde la excelencia era la regla, soñaba con escapar del reproche de su padre."
+      },
+      {
+        "id": 25,
+        "question": "¿De qué gran novela épica son los héroes Pierre y el príncipe Andrés ?",
+        "propositions": [
+          "Resurrección",
+          "Anna Karenina",
+          "Guerra y Paz",
+          "Los cosacos"
+        ],
+        "réponse": "Guerra y Paz",
+        "anecdote": "Publicado en series entre 1865 y 1869 en « Le Messager russe », este libro narra la historia de Rusia en la época de Napoleón I."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué periodista, héroe de cómic, viste siempre una chaqueta blanca de lunares ?",
+        "propositions": [
+          "Edward Foley",
+          "Ric Hochet",
+          "Glory Grant",
+          "Joe Robertson"
+        ],
+        "réponse": "Ric Hochet",
+        "anecdote": "Sus investigaciones se desarrollan a menudo en una atmósfera fantástica que a veces esconde sórdidos impulsos asesinos."
+      },
+      {
+        "id": 27,
+        "question": "¿Cómo se llama el osezno de la película « El oso » de Jean-Jacques Annaud ?",
+        "propositions": [
+          "Tuk",
+          "Yoda",
+          "Yoni",
+          "Yalta"
+        ],
+        "réponse": "Tuk",
+        "anecdote": "El nacimiento del proyecto se remonta a 1981, cuando Jean-Jacques Annaud quería hacer una película que fuera a la vez popular y familiar."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué héroe de telenovela está basado en las novelas de Mickey Spillane ?",
+        "propositions": [
+          "Magnum",
+          "Kojak",
+          "Colombia",
+          "Mike Martillo"
+        ],
+        "réponse": "Mike Martillo",
+        "anecdote": "La actriz Stacy Keach sucederá al actor, director y guionista Darren McGavin en la segunda temporada de la serie de televisión."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué castillo del Loira situado en Touraine se extiende sobre el lecho del Cher ?",
+        "propositions": [
+          "Chinon",
+          "Chenonceaux",
+          "Chambord",
+          "Cheverny"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau, con su famosa galería de dos pisos con vistas al Cher, es una de las joyas de la arquitectura del Valle del Loira."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué filósofo griego antiguo vivió en un barril ?",
+        "propositions": [
+          "Cajas de Tebas",
+          "Antístenes",
+          "Sócrates",
+          "Diógenes de Sinope"
+        ],
+        "réponse": "Diógenes de Sinope",
+        "anecdote": "Diógenes es contemporáneo de Filipo II de Macedonia, quien lo hizo prisionero tras la batalla de Queronea, y de su hijo Alejandro."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale oggetto comune usò Benjamin Franklin nella sua teoria del fulmine ?",
+        "propositions": [
+          "Ombrello",
+          "Schermo",
+          "Aquilone",
+          "Bandiera"
+        ],
+        "réponse": "Aquilone",
+        "anecdote": "Con l'obiettivo di dimostrare la natura elettrica dei fulmini, il suo protocollo operativo prevedeva che un fulmine colpisse un aquilone in volo."
+      },
+      {
+        "id": 2,
+        "question": "Chi si trasforma in una strega in « Biancaneve e i sette nani«  ?",
+        "propositions": [
+          "Il topo",
+          "Biancaneve",
+          "Il servo",
+          "La Regina"
+        ],
+        "réponse": "La Regina",
+        "anecdote": "Il film è un adattamento dell'omonima fiaba dei fratelli Grimm pubblicata nel 1812, fortemente ancorata alle tradizioni europee."
+      },
+      {
+        "id": 3,
+        "question": "Quante bottiglie da un litro sono necessarie per riempire un serbatoio da un metro cubo ?",
+        "propositions": [
+          "10",
+          "100",
+          "10.000",
+          "1.000"
+        ],
+        "réponse": "1.000",
+        "anecdote": "Il decimetro cubo ha lo stesso volume di un litro d'acqua, è il volume di un cubo con lo spigolo di un decimetro."
+      },
+      {
+        "id": 4,
+        "question": "Di che colore hanno solitamente le alghe che crescono vicino alla superficie del mare ?",
+        "propositions": [
+          "Verde",
+          "Rosso",
+          "Blu",
+          "Nero"
+        ],
+        "réponse": "Verde",
+        "anecdote": "Alcune alghe verdi sono famose come indicatori di disturbi ambientali causati dall'uomo."
+      },
+      {
+        "id": 5,
+        "question": "Quale città è sia la capitale che la sede del parlamento della Svizzera ?",
+        "propositions": [
+          "Basilea",
+          "Zurigo",
+          "Ginevra",
+          "Berna"
+        ],
+        "réponse": "Berna",
+        "anecdote": "Berna è stata inserita nell'elenco del patrimonio culturale mondiale dell'UNESCO grazie al suo patrimonio urbano medievale che è stato preservato."
+      },
+      {
+        "id": 6,
+        "question": "Che nome diede Jules Verne al sottomarino del Capitano Nemo ?",
+        "propositions": [
+          "Poseidone",
+          "Destino",
+          "Nautilo",
+          "Unicorno"
+        ],
+        "réponse": "Nautilo",
+        "anecdote": "Il Nautilus copriva la distanza di 20.000 leghe (circa 80.000 chilometri), più del doppio della circonferenza terrestre."
+      },
+      {
+        "id": 7,
+        "question": "Quante gobbe ha il dromedario, detto anche cammello arabo ?",
+        "propositions": [
+          "A",
+          "Due",
+          "Quattro",
+          "Tre"
+        ],
+        "réponse": "A",
+        "anecdote": "La gobba del cammello, contrariamente alla persistente leggenda, non è una riserva d'acqua ma di energia attraverso una massa di grasso."
+      },
+      {
+        "id": 8,
+        "question": "Come si chiama una persona che pratica judo ?",
+        "propositions": [
+          "Judotista",
+          "Judoista",
+          "Judoka",
+          "Giudaista"
+        ],
+        "réponse": "Judoka",
+        "anecdote": "Arte marziale moderna, il judo è stato creato in Giappone come pedagogia fisica, mentale e morale da Jigoro Kano nel 1882."
+      },
+      {
+        "id": 9,
+        "question": "In quale paese si arriva partendo dalla Francia attraverso il tunnel del Monte Bianco ?",
+        "propositions": [
+          "Germania",
+          "Belgio",
+          "Spagna",
+          "Italia"
+        ],
+        "réponse": "Italia",
+        "anecdote": "Ha consentito una riduzione del percorso da Chamonix ad Aosta e non dipende più dalla chiusura invernale dei passi alpini."
+      },
+      {
+        "id": 10,
+        "question": "Quale strumento di rattan e salice viene utilizzato per colpire la palla nel cricket ?",
+        "propositions": [
+          "Coda",
+          "Lancia",
+          "Pipistrello",
+          "Racchetta"
+        ],
+        "réponse": "Pipistrello",
+        "anecdote": "Il cricket è uno sport di squadra con palla e mazza tra due squadre normalmente composte da undici giocatori ciascuna."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Chi era designato Monsieur alla corte dei re di Francia ?",
+        "propositions": [
+          "Figlioccio del cardinale",
+          "Cugino della regina",
+          "Zio del figlio del re",
+          "Fratello del Re"
+        ],
+        "réponse": "Fratello del Re",
+        "anecdote": "L'ultimo monarca a regnare in Francia fu l'imperatore Napoleone III, che fu deposto il 1 marzo 1871 dopo la sconfitta di Sedan."
+      },
+      {
+        "id": 12,
+        "question": "Quale pugile uccide Apollo Creed sul ring nel film « Rocky IV » ?",
+        "propositions": [
+          "Roccioso",
+          "Koloff",
+          "Draco",
+          "Rimskij"
+        ],
+        "réponse": "Draco",
+        "anecdote": "Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno e Patrick Swayze sono stati contattati per interpretare il campione russo Drago."
+      },
+      {
+        "id": 13,
+        "question": "Quale cavaliere senza timore e senza rimprovero si distinse durante le guerre d'Italia ?",
+        "propositions": [
+          "Charny",
+          "Bayard",
+          "Gabaston",
+          "Beaulieu"
+        ],
+        "réponse": "Bayard",
+        "anecdote": "È all'origine del personaggio del cavaliere che simboleggia i valori della cavalleria francese alla fine del Medioevo."
+      },
+      {
+        "id": 14,
+        "question": "Oltre a Terranova, quale regione del Canada ha il nome di una razza di cane ?",
+        "propositions": [
+          "Labrador",
+          "Bassotto",
+          "Levriero",
+          "Pastore"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Il Labrador e la sua numerosa popolazione di origine indigena sono separati dall'isola di Terranova dallo Stretto di Belle-Isle."
+      },
+      {
+        "id": 15,
+        "question": "Qual è la lunghezza legale di una piscina olimpionica ?",
+        "propositions": [
+          "30m",
+          "50m",
+          "25m",
+          "40m"
+        ],
+        "réponse": "50m",
+        "anecdote": "La prima piscina olimpica in Francia fu costruita nel 1961 a Longwy, nel Meurthe-et-Moselle, grazie ai ricavi dell'industria siderurgica."
+      },
+      {
+        "id": 16,
+        "question": "Da quale paese il termine fado si riferisce alla musica tradizionale ?",
+        "propositions": [
+          "Grecia",
+          "Portogallo",
+          "Spagna",
+          "Italia"
+        ],
+        "réponse": "Portogallo",
+        "anecdote": "Il cantante di fado sfrutta temi ricorrenti : saudade, amore insoddisfatto, gelosia, nostalgia, dolore ed esilio."
+      },
+      {
+        "id": 17,
+        "question": "Con quale marca di auto Ayrton Senna divenne campione del mondo di F1 nel 1988 ?",
+        "propositions": [
+          "Ferrari",
+          "Williams",
+          "Lotus",
+          "McLaren"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "La causa ufficiale dell'incidente mortale di Ayrton Senna a Imola è stata la rottura del piantone dello sterzo della sua vettura."
+      },
+      {
+        "id": 18,
+        "question": "Chi è il fondatore del Rally Dakar lanciato per la prima volta nel 1978 ?",
+        "propositions": [
+          "Filippo Salini",
+          "Thierry Sabine",
+          "Pierre Veyron",
+          "André Trigano"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "Nel 1977, Thierry Sabine completò in moto il rally Abidjan-Nizza, riunendo auto tradizionali, 4x4, motociclette e camion."
+      },
+      {
+        "id": 19,
+        "question": "Con quale bracciata deve iniziare la staffetta mista nel nuoto ?",
+        "propositions": [
+          "Nuoto a stile libero",
+          "Indietro",
+          "Rana",
+          "Farfalla"
+        ],
+        "réponse": "Indietro",
+        "anecdote": "Gli stili sono ordinati in ordine crescente di velocità, ad eccezione del dorso mentre la rana è più lenta."
+      },
+      {
+        "id": 20,
+        "question": "Quale re crociato sostituisce Re Giovanni in « Robin Hood » ?",
+        "propositions": [
+          "Geoffroy",
+          "Enrico",
+          "Riccardo",
+          "Folaghe"
+        ],
+        "réponse": "Riccardo",
+        "anecdote": "Secondo la leggenda popolare, Robin Hood era un bandito di buon cuore che viveva nascosto nella foresta di Sherwood."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale eroe di Rabelais pronunciò queste prime parole: « Bere, bere » ?",
+        "propositions": [
+          "Gargantua",
+          "Panurgo",
+          "Grandgousier",
+          "Gargamella"
+        ],
+        "réponse": "Gargantua",
+        "anecdote": "Rabelais pubblicò « Gargantua » con lo stesso pseudonimo di « Pantagruel » : Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "A quale castello Napoleone abdicò prima di partire per l'Isola d'Elba ?",
+        "propositions": [
+          "Chenonceaux",
+          "Fontainebleau",
+          "Chambord",
+          "Versailles"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Diversi re hanno lasciato il segno nella storia del castello, che è così testimone delle diverse fasi della storia francese."
+      },
+      {
+        "id": 23,
+        "question": "Qual era il primo nome del ciclista professionista italiano Coppi ?",
+        "propositions": [
+          "Squiddi",
+          "Claudio",
+          "Fausto",
+          "Francesco"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "È considerato uno dei più grandi corridori della storia del ciclismo, tanto da meritarsi il soprannome di campionissimo."
+      },
+      {
+        "id": 24,
+        "question": "Quale conduttore televisivo ha scritto un romanzo intitolato « La catena » ?",
+        "propositions": [
+          "Patrice Laffont",
+          "Michel Drucker",
+          "Bernard Pivot",
+          "Pasquale Sevran"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Noto somaro e autodidatta in una famiglia dove l'eccellenza era la regola, Michel Drucker sognava di sfuggire ai rimproveri di suo padre."
+      },
+      {
+        "id": 25,
+        "question": "Di quale grande romanzo epico sono Pierre e il principe Andrea gli eroi ?",
+        "propositions": [
+          "Anna Karenina",
+          "Resurrezione",
+          "I cosacchi",
+          "Guerra e pace"
+        ],
+        "réponse": "Guerra e pace",
+        "anecdote": "Pubblicato in serie tra il 1865 e il 1869 su « Le Messager russe », questo libro racconta la storia della Russia all'epoca di Napoleone I."
+      },
+      {
+        "id": 26,
+        "question": "Quale giornalista, eroe dei fumetti, indossa sempre una giacca bianca maculata ?",
+        "propositions": [
+          "Ric Hochet",
+          "Edward Foley",
+          "Joe Robertson",
+          "Glory Grant"
+        ],
+        "réponse": "Ric Hochet",
+        "anecdote": "Le sue indagini si svolgono spesso in un'atmosfera fantastica che nasconde talvolta sordidi impulsi omicidi."
+      },
+      {
+        "id": 27,
+        "question": "Come si chiama il cucciolo d'orso nel film « L'orso » di Jean-Jacques Annaud ?",
+        "propositions": [
+          "Yalta",
+          "Ok",
+          "Yoda",
+          "Yoni"
+        ],
+        "réponse": "Ok",
+        "anecdote": "La nascita del progetto risale al 1981, quando Jean-Jacques Annaud voleva realizzare un film che fosse allo stesso tempo popolare e adatto alle famiglie."
+      },
+      {
+        "id": 28,
+        "question": "Quale eroe della soap opera è basato sui romanzi di Mickey Spillane ?",
+        "propositions": [
+          "Mike Martello",
+          "Magnum",
+          "Kojak",
+          "Colombo"
+        ],
+        "réponse": "Mike Martello",
+        "anecdote": "L'attore Stacy Keach succederà all'attore, regista e sceneggiatore Darren McGavin nella seconda stagione della serie TV."
+      },
+      {
+        "id": 29,
+        "question": "Quale castello della Loira situato nella Turenna si estende sul letto dello Cher ?",
+        "propositions": [
+          "Chenonceaux",
+          "Cheverny",
+          "Chambord",
+          "Chinon"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau, con la sua famosa galleria a due piani affacciata sullo Cher, è uno dei gioielli dell'architettura della Valle della Loira."
+      },
+      {
+        "id": 30,
+        "question": "Quale antico filosofo greco viveva in una botte ?",
+        "propositions": [
+          "Diogene di Sinope",
+          "Socrate",
+          "Antistene",
+          "Casse di Tebe"
+        ],
+        "réponse": "Diogene di Sinope",
+        "anecdote": "Diogene è contemporaneo di Filippo II di Macedonia, che lo fece prigioniero dopo la battaglia di Cheronea, e di suo figlio Alessandro."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welk gemeenschappelijk object gebruikte Benjamin Franklin in zijn bliksemtheorie ?",
+        "propositions": [
+          "Paraplu",
+          "Vlieger",
+          "Vlag",
+          "Scherm"
+        ],
+        "réponse": "Vlieger",
+        "anecdote": "Met als doel de elektrische aard van bliksem te bewijzen, was zijn werkwijze om de bliksem tijdens de vlucht een vlieger te laten inslaan."
+      },
+      {
+        "id": 2,
+        "question": "Wie verandert er in een heks in « Sneeuwwitje en de zeven dwergen » ?",
+        "propositions": [
+          "Sneeuwwitje",
+          "De muis",
+          "De bediende",
+          "De Koningin"
+        ],
+        "réponse": "De Koningin",
+        "anecdote": "De film is een bewerking van het gelijknamige verhaal van de gebroeders Grimm uit 1812, sterk verankerd in de Europese tradities."
+      },
+      {
+        "id": 3,
+        "question": "Hoeveel flessen van één liter heb je nodig om een tank van één kubieke meter te vullen ?",
+        "propositions": [
+          "10.000",
+          "1.000",
+          "10",
+          "100"
+        ],
+        "réponse": "1.000",
+        "anecdote": "De kubieke decimeter heeft hetzelfde volume als een liter water, het is het volume van een kubus met een rand van één decimeter."
+      },
+      {
+        "id": 4,
+        "question": "Welke kleur hebben algen die dichtbij het zeeoppervlak groeien meestal ?",
+        "propositions": [
+          "Zwart",
+          "Groen",
+          "Blauw",
+          "Rood"
+        ],
+        "réponse": "Groen",
+        "anecdote": "Bepaalde groene algen staan \u200b\u200bbekend als indicatoren voor door mensen veroorzaakte milieuverstoringen."
+      },
+      {
+        "id": 5,
+        "question": "Welke stad is zowel de hoofdstad als de zetel van het parlement van Zwitserland ?",
+        "propositions": [
+          "Bern",
+          "Genève",
+          "Bazel",
+          "Zürich"
+        ],
+        "réponse": "Bern",
+        "anecdote": "Bern staat op de Werelderfgoedlijst van UNESCO dankzij het middeleeuwse stedelijke erfgoed dat bewaard is gebleven."
+      },
+      {
+        "id": 6,
+        "question": "Welke naam gaf Jules Verne aan de onderzeeër van kapitein Nemo ?",
+        "propositions": [
+          "Lot",
+          "Nautilus",
+          "Poseidon",
+          "Eenhoorn"
+        ],
+        "réponse": "Nautilus",
+        "anecdote": "De Nautilus legde een afstand van 20.000 mijl (ongeveer 80.000 kilometer) af, meer dan tweemaal de omtrek van de aarde."
+      },
+      {
+        "id": 7,
+        "question": "Hoeveel bulten heeft de dromedaris, ook wel Arabische kameel genoemd ?",
+        "propositions": [
+          "Vier",
+          "Drie",
+          "Twee",
+          "Een"
+        ],
+        "réponse": "Een",
+        "anecdote": "De bult van de kameel is, in tegenstelling tot de hardnekkige legende, geen reserve van water, maar van energie via een massa vet."
+      },
+      {
+        "id": 8,
+        "question": "Hoe noem je iemand die judo beoefent ?",
+        "propositions": [
+          "Judoka",
+          "Judoïst",
+          "Jodendom",
+          "Judoter"
+        ],
+        "réponse": "Judoka",
+        "anecdote": "Judo, een moderne krijgskunst, werd in 1882 in Japan door Jigoro Kano gecreëerd als een fysieke, mentale en morele pedagogie."
+      },
+      {
+        "id": 9,
+        "question": "In welk land kom je aan als je Frankrijk verlaat via de Mont Blanc-tunnel ?",
+        "propositions": [
+          "Italië",
+          "Duitsland",
+          "Spanje",
+          "België"
+        ],
+        "réponse": "Italië",
+        "anecdote": "Het maakte een verkorting van de route van Chamonix naar Aosta mogelijk en is niet langer afhankelijk van de wintersluiting van de Alpenpassen."
+      },
+      {
+        "id": 10,
+        "question": "Welk instrument gemaakt van rotan en wilg wordt gebruikt om de bal te slaan bij cricket ?",
+        "propositions": [
+          "Lans",
+          "Staart",
+          "Vleermuis",
+          "Racket"
+        ],
+        "réponse": "Vleermuis",
+        "anecdote": "Cricket is een teambal- en knuppelsport tussen twee teams die normaal gesproken elk uit elf spelers bestaan."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie werd aan het hof van de koningen van Frankrijk tot Monsieur benoemd ?",
+        "propositions": [
+          "Broer van de Koning",
+          "Peetzoon van de kardinaal",
+          "Oom van de koningszoon",
+          "Neef van de Koningin"
+        ],
+        "réponse": "Broer van de Koning",
+        "anecdote": "De laatste monarch die in Frankrijk regeerde was keizer Napoleon III, die op 1 maart 1871 werd afgezet na de nederlaag bij Sedan."
+      },
+      {
+        "id": 12,
+        "question": "Welke bokser doodt Apollo Creed in de ring in de film « Rocky IV » ?",
+        "propositions": [
+          "Draco",
+          "Rotsachtig",
+          "Rimski",
+          "Koloff"
+        ],
+        "réponse": "Draco",
+        "anecdote": "Christopher Reeve, Arnold Schwarzenegger, Lou Ferrigno en Patrick Swayze werden benaderd om tegen de Russische kampioen Drago te spelen."
+      },
+      {
+        "id": 13,
+        "question": "Welke ridder zonder angst en zonder verwijt onderscheidde zich tijdens de Italiaanse oorlogen ?",
+        "propositions": [
+          "Bayard",
+          "Beaulieu",
+          "Charny",
+          "Gabaston"
+        ],
+        "réponse": "Bayard",
+        "anecdote": "Hij ligt aan de oorsprong van het karakter van de ridder die de waarden van de Franse ridderlijkheid aan het einde van de middeleeuwen symboliseert."
+      },
+      {
+        "id": 14,
+        "question": "Welke regio van Canada heeft, afgezien van Newfoundland, de naam van een hondenras ?",
+        "propositions": [
+          "Herder",
+          "Windhond",
+          "Teckel",
+          "Labrador"
+        ],
+        "réponse": "Labrador",
+        "anecdote": "Labrador en zijn grote bevolking van inheemse afkomst worden gescheiden van het eiland Newfoundland door de Straat van Belle-Isle."
+      },
+      {
+        "id": 15,
+        "question": "Wat is de wettelijke lengte van een olympisch zwembad ?",
+        "propositions": [
+          "25m",
+          "40m",
+          "30m",
+          "50m"
+        ],
+        "réponse": "50m",
+        "anecdote": "Het eerste Olympische zwembad in Frankrijk werd in 1961 gebouwd in Longwy, in Meurthe-et-Moselle, dankzij inkomsten uit de staalindustrie."
+      },
+      {
+        "id": 16,
+        "question": "Uit welk land verwijst de term fado naar traditionele muziek ?",
+        "propositions": [
+          "Spanje",
+          "Griekenland",
+          "Portugal",
+          "Italië"
+        ],
+        "réponse": "Portugal",
+        "anecdote": "De fadozangeres exploiteert terugkerende thema's : saudade, onvervulde liefde, jaloezie, nostalgie, verdriet en ballingschap."
+      },
+      {
+        "id": 17,
+        "question": "Met welk automerk werd Ayrton Senna in 1988 wereldkampioen F1 ?",
+        "propositions": [
+          "Williams",
+          "McLaren",
+          "Ferrari",
+          "Lotus"
+        ],
+        "réponse": "McLaren",
+        "anecdote": "De officiële oorzaak van het dodelijke ongeval van Ayrton Senna op Imola was een kapotte stuurkolom van zijn auto."
+      },
+      {
+        "id": 18,
+        "question": "Wie is de oprichter van de Dakar Rally die voor het eerst werd gelanceerd in 1978 ?",
+        "propositions": [
+          "Pierre Veyron",
+          "Thierry Sabine",
+          "André Trigano",
+          "Philippe Salini"
+        ],
+        "réponse": "Thierry Sabine",
+        "anecdote": "In 1977 voltooide Thierry Sabine de rally van Abidjan-Nice op een motorfiets, waarbij traditionele auto's, 4x4's, motorfietsen en vrachtwagens samenkwamen."
+      },
+      {
+        "id": 19,
+        "question": "Met welke slag moet de wisselslag-estafette bij het zwemmen beginnen ?",
+        "propositions": [
+          "Schoolslag",
+          "Terug",
+          "Freestyle zwemmen",
+          "Vlinder"
+        ],
+        "réponse": "Terug",
+        "anecdote": "De slagen zijn gerangschikt in oplopende volgorde van snelheid, met uitzondering van de rugslag, terwijl de schoolslag langzamer is."
+      },
+      {
+        "id": 20,
+        "question": "Welke kruisvaarderskoning vervangt koning John in « Robin Hood » ?",
+        "propositions": [
+          "Hendrik",
+          "Ricardo",
+          "Meerkoeten",
+          "Geoffroy"
+        ],
+        "réponse": "Ricardo",
+        "anecdote": "Volgens de populaire legende was Robin Hood een goedhartige bandiet die verborgen leefde in Sherwood Forest."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welke held van Rabelais sprak deze eerste woorden uit: « Drinken, drinken » ?",
+        "propositions": [
+          "Gargantua",
+          "Gargamella",
+          "Grootser",
+          "Panurge"
+        ],
+        "réponse": "Gargantua",
+        "anecdote": "Rabelais publiceerde « Gargantua » onder hetzelfde pseudoniem als « Pantagruel » : Alcofribas Nasier Abstracteur de Quintessence."
+      },
+      {
+        "id": 22,
+        "question": "Welk kasteel deed Napoleon af voordat hij naar het eiland Elba vertrok ?",
+        "propositions": [
+          "Versaille",
+          "Chenonceaux",
+          "Fontainebleau",
+          "Chambord"
+        ],
+        "réponse": "Fontainebleau",
+        "anecdote": "Verschillende koningen hebben hun stempel gedrukt op de geschiedenis van het kasteel, dat zo een getuige is van de verschillende fases van de Franse geschiedenis."
+      },
+      {
+        "id": 23,
+        "question": "Wat was de voornaam van de Italiaanse profwielrenner Coppi ?",
+        "propositions": [
+          "Fausto",
+          "Claudio",
+          "Francisco",
+          "Octo"
+        ],
+        "réponse": "Fausto",
+        "anecdote": "Hij wordt beschouwd als een van de grootste renners in de wielergeschiedenis, wat hem de bijnaam campionissimo opleverde."
+      },
+      {
+        "id": 24,
+        "question": "Welke televisiepresentator heeft een roman geschreven met de titel « De ketting » ?",
+        "propositions": [
+          "Patrick Laffont",
+          "Bernard Draai",
+          "Pascal Sevran",
+          "Michel Drucker"
+        ],
+        "réponse": "Michel Drucker",
+        "anecdote": "Michel Drucker, een beruchte domkop en autodidact in een gezin waar uitmuntendheid de regel was, droomde ervan te ontsnappen aan de verwijten van zijn vader."
+      },
+      {
+        "id": 25,
+        "question": "Van welke grote epische roman zijn Pierre en Prins Andrew de helden ?",
+        "propositions": [
+          "Anna Karenina",
+          "Oorlog en vrede",
+          "De Kozakken",
+          "Wederopstanding"
+        ],
+        "réponse": "Oorlog en vrede",
+        "anecdote": "Dit boek, gepubliceerd in series tussen 1865 en 1869 in « Le Messager russe », vertelt de geschiedenis van Rusland ten tijde van Napoleon I."
+      },
+      {
+        "id": 26,
+        "question": "Welke journalist, stripheld, draagt altijd een gevlekt wit jasje ?",
+        "propositions": [
+          "Edward Foley",
+          "Rik Hochet",
+          "Joe Robertson",
+          "Glory Grant"
+        ],
+        "réponse": "Rik Hochet",
+        "anecdote": "Zijn onderzoeken spelen zich vaak af in een fantastische sfeer waar soms gemene moorddadige impulsen schuilgaan."
+      },
+      {
+        "id": 27,
+        "question": "Hoe heet het berenjong in de film « The Bear » van Jean-Jacques Annaud ?",
+        "propositions": [
+          "Yoni",
+          "Jij",
+          "Joda",
+          "Jalta"
+        ],
+        "réponse": "Jij",
+        "anecdote": "De geboorte van het project gaat terug tot 1981, toen Jean-Jacques Annaud een film wilde maken die zowel populair als gezinsvriendelijk was."
+      },
+      {
+        "id": 28,
+        "question": "Welke soapheld is gebaseerd op de boeken van Mickey Spillane ?",
+        "propositions": [
+          "Columbus",
+          "Kojak",
+          "Mike Hamer",
+          "Magnum"
+        ],
+        "réponse": "Mike Hamer",
+        "anecdote": "Acteur Stacy Keach volgt acteur, regisseur en scenarioschrijver Darren McGavin op in het tweede seizoen van de tv-serie."
+      },
+      {
+        "id": 29,
+        "question": "Welk kasteel in de Loire, gelegen in Touraine, overspant de rivierbedding van de Cher ?",
+        "propositions": [
+          "Chenonceaux",
+          "Chambord",
+          "Chinon",
+          "Cheverni"
+        ],
+        "réponse": "Chenonceaux",
+        "anecdote": "Chenonceau, met zijn beroemde galerij van twee verdiepingen met uitzicht op de Cher, is een van de juwelen van de architectuur van de Loire-vallei."
+      },
+      {
+        "id": 30,
+        "question": "Welke oude Griekse filosoof leefde in een ton ?",
+        "propositions": [
+          "Sokrates",
+          "Diogenes van Sinope",
+          "Antisthenes",
+          "Kratten van Thebe"
+        ],
+        "réponse": "Diogenes van Sinope",
+        "anecdote": "Diogenes is een tijdgenoot van Filips II van Macedonië, die hem gevangen nam na de slag bij Chaeronea, en van zijn zoon Alexander."
+      }
+    ]
+    }
+  }
+}

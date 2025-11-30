@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 1,
+  "mise-à-jour": "2020-10-10",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Tourisme",
+      "nom": "Paris de nos jours",
+      "slogan": "Ville Lumière"
+    },
+    "en": {
+      "catégorie": "Tourism",
+      "nom": "Paris today",
+      "slogan": "City of Light"
+    },
+    "es": {
+      "catégorie": "Turismo",
+      "nom": "París hoy",
+      "slogan": "Ciudad de la Luz"
+    },
+    "it": {
+      "catégorie": "Turismo",
+      "nom": "Parigi oggi",
+      "slogan": "Città della Luce"
+    },
+    "de": {
+      "catégorie": "Tourismus",
+      "nom": "Paris heute",
+      "slogan": "Stadt des Lichts"
+    },
+    "nl": {
+      "catégorie": "Toerisme",
+      "nom": "Parijs vandaag",
+      "slogan": "Stad van het licht"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Lequel de ces surnoms est parfois donné à la ville de Paris ?",
+        "propositions": [
+          "Ville Lumière",
+          "Cité des Anges",
+          "Troisième Rome",
+          "Ville des Vents"
+        ],
+        "réponse": "Ville Lumière",
+        "anecdote": "La ville de Paris a attiré en 2017 près de 34 millions de visiteurs, ce qui en fait une des capitales les plus visitées au monde."
+      },
+      {
+        "id": 2,
+        "question": "En 2024, combien de fois Paris aura-t-elle accueilli les Jeux olympiques ?",
+        "propositions": [
+          "Quatre fois",
+          "Une fois",
+          "Deux fois",
+          "Trois fois"
+        ],
+        "réponse": "Trois fois",
+        "anecdote": "En 2024, Paris sera la deuxième ville avec Londres à avoir accueilli trois fois les Jeux olympiques après ceux de 1900 et ceux de 1924."
+      },
+      {
+        "id": 3,
+        "question": "De part et d'autre de quel fleuve s'étend la ville de Paris ?",
+        "propositions": [
+          "Garonne",
+          "Meuse",
+          "Seine",
+          "Rhône"
+        ],
+        "réponse": "Seine",
+        "anecdote": "La ville de Paris s'étend sur une superficie environ deux fois supérieure au nord (rive droite) à celle au sud (rive gauche)."
+      },
+      {
+        "id": 4,
+        "question": "Quelle étendue boisée est située dans le 16e arrondissement de Paris ?",
+        "propositions": [
+          "Bois de Boulogne",
+          "Parc Monceau",
+          "Buttes-Chaumont",
+          "Bois de Vincennes"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Couvrant une superficie de 846 ha dans l'ouest de la ville, le bois de Boulogne est l'un des poumons de la capitale française."
+      },
+      {
+        "id": 5,
+        "question": "Dans quel quartier est situé le point culminant de la capitale française ?",
+        "propositions": [
+          "Montmartre",
+          "Popincourt",
+          "Vaugirard",
+          "Opéra"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "Les deux accès au sommet de la colline les plus connus sont le funiculaire et l'escalier de la rue Foyatier, avec ses 222 marches."
+      },
+      {
+        "id": 6,
+        "question": "Quel transport en commun assure jusqu'à 20 % des déplacements parisiens ?",
+        "propositions": [
+          "Bus",
+          "RER",
+          "Métro",
+          "Taxi"
+        ],
+        "réponse": "Métro",
+        "anecdote": "Exploité par la RATP, il comporte seize lignes en site propre, essentiellement souterraines, totalisant près de 220 kilomètres."
+      },
+      {
+        "id": 7,
+        "question": "Quel aéroport francilien est situé à 10 km au sud de Paris ?",
+        "propositions": [
+          "Beauvais",
+          "Orly",
+          "Charles-de-Gaulle",
+          "Mérignac"
+        ],
+        "réponse": "Orly",
+        "anecdote": "L'aéroport compte 270 entreprises représentant 25 000 salariés, des bureaux et 15 000 places de parking réparties en 14 parcs."
+      },
+      {
+        "id": 8,
+        "question": "Quelle colonne est un élément du mobilier urbain initialement parisien ?",
+        "propositions": [
+          "Colonne Davioud",
+          "Colonne Wallace",
+          "Colonne Guimard",
+          "Colonne Morris"
+        ],
+        "réponse": "Colonne Morris",
+        "anecdote": "De forme cylindrique, la colonne Morris sert principalement de support à la promotion des spectacles et des films."
+      },
+      {
+        "id": 9,
+        "question": "Qui est devenue en 2014 la première femme maire de Paris ?",
+        "propositions": [
+          "Anne Hidalgo",
+          "Christine Herzog",
+          "Hélène Hardy",
+          "Gisèle Halimi"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Membre du PS, Anne Hidalgo possède la double nationalité franco-espagnole mais n'a pas d'activité politique en Espagne."
+      },
+      {
+        "id": 10,
+        "question": "Quel stade de football a pour résident actuel le Paris Saint-Germain ?",
+        "propositions": [
+          "Parc des princes",
+          "Vélodrome",
+          "Stade de France",
+          "Groupama Stadium"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "C'est le cinquième plus grand stade français mais aussi l'un des plus anciens et des plus connus de la région parisienne."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quelle est la plus large des avenues de la voirie parisienne ?",
+        "propositions": [
+          "Avenue Matignon",
+          "Avenue Foch",
+          "Avenue de Neuilly",
+          "Avenue Mozart"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "L'avenue Foch est longue de 1 300 mètres et large de 120 mètres grâce aux jardins qui la bordent."
+      },
+      {
+        "id": 12,
+        "question": "Quelle chapelle est devenue le symbole de l'Université de Paris ?",
+        "propositions": [
+          "Sainte-Rita",
+          "Sorbonne",
+          "Épiphanie",
+          "Père-Lachaise"
+        ],
+        "réponse": "Sorbonne",
+        "anecdote": "La chapelle actuelle a été reconstruite au XVIIe siècle par le cardinal de Richelieu, dont elle fut également le mausolée."
+      },
+      {
+        "id": 13,
+        "question": "Quel est le plus grand cimetière parisien de Paris intra muros ?",
+        "propositions": [
+          "Montparnasse",
+          "Belleville",
+          "Montmartre",
+          "Père-Lachaise"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "Il accueille chaque année plus de trois millions et demi de visiteurs, ce qui en fait le cimetière le plus visité au monde."
+      },
+      {
+        "id": 14,
+        "question": "En 2019, quel musée comptait 2 091 employés dont 1 232 agents de surveillance ?",
+        "propositions": [
+          "Musée Rodin",
+          "Musée du Louvre",
+          "Musée Carnavalet",
+          "Musée d'Orsay"
+        ],
+        "réponse": "Musée du Louvre",
+        "anecdote": "Avec 8 millions de visiteurs annuels, le Louvre est le musée le plus visité au monde et le site culturel payant le plus visité de France."
+      },
+      {
+        "id": 15,
+        "question": "Combien de visiteurs environ se sont rendus à Paris en 2017 ?",
+        "propositions": [
+          "26 millions",
+          "19 millions",
+          "44 millions",
+          "34 millions"
+        ],
+        "réponse": "34 millions",
+        "anecdote": "Paris occupe également une place prépondérante mondiale dans le milieu de la mode, du luxe et de la haute gastronomie."
+      },
+      {
+        "id": 16,
+        "question": "Quelle est la longueur approximative totale des égouts de Paris ?",
+        "propositions": [
+          "2 600 km",
+          "1 800 km",
+          "2 200 km",
+          "3 000 km"
+        ],
+        "réponse": "2 600 km",
+        "anecdote": "Les égouts de Paris ont fortement évolué depuis les travaux entrepris par le préfet Haussmann et l'ingénieur Eugène Belgrand."
+      },
+      {
+        "id": 17,
+        "question": "Avec quelle unique autre ville d'Europe Paris est-elle jumelée ?",
+        "propositions": [
+          "Athènes",
+          "Berlin",
+          "Madrid",
+          "Rome"
+        ],
+        "réponse": "Rome",
+        "anecdote": "Ce jumelage est valable dans l'autre sens, avec ce slogan : « Seul Paris est digne de Rome, seule Rome est digne de Paris »."
+      },
+      {
+        "id": 18,
+        "question": "Devant quel bâtiment se situe le point zéro des routes de France ?",
+        "propositions": [
+          "Notre-Dame",
+          "Lycée Henri-IV",
+          "Sainte-Chapelle",
+          "Tour Saint-Jacques"
+        ],
+        "réponse": "Notre-Dame",
+        "anecdote": "Le point zéro des routes de France est le point zéro de Paris, c'est-à-dire le point kilométrique 0 des routes quittant la capitale."
+      },
+      {
+        "id": 19,
+        "question": "À Paris, quel jardin à l'anglaise imite un paysage de montagne ?",
+        "propositions": [
+          "Trocadéro",
+          "Buttes-Chaumont",
+          "Invalides",
+          "Palais-Royal"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "Il s'agit d'un des espaces verts parisiens présentant le plus grand dénivelé (plus de 40 m), héritage des carrières de ses fondations."
+      },
+      {
+        "id": 20,
+        "question": "Quelle est la plus longue rue de Paris intra-muros, avec quatre kilomètres de longueur ?",
+        "propositions": [
+          "Rue La Fayette",
+          "Rue de Vaugirard",
+          "Rue Lecourbe",
+          "Rue de Paradis"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "Avec ses 4 360 mètres de longueur, la rue de Vaugirard qui traverse les 6e et 15e arr., correspond à 407 numéros d'immeubles."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En combien d'arrondissements municipaux la ville de Paris est-elle divisée ?",
+        "propositions": [
+          "Douze",
+          "Huit",
+          "Seize",
+          "Vingt"
+        ],
+        "réponse": "Vingt",
+        "anecdote": "Les arrondissements, dans leur état actuel, ont été délimités par la loi du 16 juin 1859, qui a porté leur nombre de douze à vingt."
+      },
+      {
+        "id": 22,
+        "question": "Quelle business school parisienne est l'une des plus reconnues au monde ?",
+        "propositions": [
+          "PSB",
+          "UTC",
+          "ICAM",
+          "HEC"
+        ],
+        "réponse": "HEC",
+        "anecdote": "L'École se situe dans la partie nord du futur cluster technologique Paris-Saclay, qui doit rassembler 25 % de la recherche publique."
+      },
+      {
+        "id": 23,
+        "question": "Quelle manifestation commerciale a lieu chaque année fin avril à Paris ?",
+        "propositions": [
+          "Foire du Trône",
+          "Paris Plages",
+          "Mille-Colonnes",
+          "Foire de Paris"
+        ],
+        "réponse": "Foire de Paris",
+        "anecdote": "La Foire de Paris, organisée à Paris depuis 1904, se déroule depuis 1923 au parc des expositions de la porte de Versailles."
+      },
+      {
+        "id": 24,
+        "question": "Quel est le plus ancien hôpital de la capitale française ?",
+        "propositions": [
+          "Hôtel-Dieu",
+          "Alphonse Gardie",
+          "Raymond Sans",
+          "Hôpital de la Pitié"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "Depuis 50 ans, il se consacre presque exclusivement au dépistage, au traitement et à la prévention des complications du diabète sucré."
+      },
+      {
+        "id": 25,
+        "question": "Quelle rivière, aujourd'hui entièrement souterraine, traverse Paris ?",
+        "propositions": [
+          "Lézarde",
+          "Essonne",
+          "Bièvre",
+          "Sarce"
+        ],
+        "réponse": "Bièvre",
+        "anecdote": "La Bièvre est une rivière qui prend source à Guyancourt et qui se jette dans le collecteur principal des égouts de Paris."
+      },
+      {
+        "id": 26,
+        "question": "Quel organisme français surveille la pollution atmosphérique de Paris ?",
+        "propositions": [
+          "Bloom",
+          "Globice",
+          "Enercoop",
+          "Airparif"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Des mesures faisant l'objet d'analyses en laboratoires sur une soixantaine de polluants complètent le dispositif de stations."
+      },
+      {
+        "id": 27,
+        "question": "Quelles célèbres fontaines furent implantées en premier à Paris ?",
+        "propositions": [
+          "Barnett",
+          "Miller",
+          "Morris",
+          "Wallace"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Dessinées par Charles-Auguste Lebourg, elles tiennent leur nom de Richard Wallace, philanthrope anglais qui finança leur édification."
+      },
+      {
+        "id": 28,
+        "question": "Quel pourcentage du parc immobilier urbain le logement social de Paris représente-t-il ?",
+        "propositions": [
+          "27 %",
+          "17 %",
+          "37 %",
+          "47 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "Les dix premiers arrondissements du centre historique ne totalisent que 6 % des logements sociaux de la ville, pour 23 % du parc total."
+      },
+      {
+        "id": 29,
+        "question": "Quel passage est un haut lieu de l'immigration indo-pakistanaise à Paris ?",
+        "propositions": [
+          "Passage Brady",
+          "Passage Puteaux",
+          "Passage du Prado",
+          "Passage Vendôme"
+        ],
+        "réponse": "Passage Brady",
+        "anecdote": "Le nom de la rue fait référence à un propriétaire des terrains, M. Brady, commerçant établi au 46 du faubourg Saint-Denis."
+      },
+      {
+        "id": 30,
+        "question": "Quelle est la place la plus ancienne de Paris, juste avant la place Dauphine ?",
+        "propositions": [
+          "Place d'Armes",
+          "Place Stanislas",
+          "Place des Victoires",
+          "Place des Vosges"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "La place des Vosges est connue pour être le lieu de résidence de plusieurs personnalités issues du monde politique et artistique."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which of these nicknames is sometimes given to the city of Paris ?",
+        "propositions": [
+          "Third Rome",
+          "City of Lights",
+          "City of the Winds",
+          "City of Angels"
+        ],
+        "réponse": "City of Lights",
+        "anecdote": "The city of Paris attracted nearly 34 million visitors in 2017, making it one of the most visited capitals in the world."
+      },
+      {
+        "id": 2,
+        "question": "In 2024, how many times will Paris have hosted the Olympic Games ?",
+        "propositions": [
+          "Three times",
+          "Twice",
+          "Four times",
+          "Once"
+        ],
+        "réponse": "Three times",
+        "anecdote": "In 2024, Paris will be the second city with London to have hosted the Olympic Games three times after those of 1900 and those of 1924."
+      },
+      {
+        "id": 3,
+        "question": "On which side of which river does the city of Paris extend ?",
+        "propositions": [
+          "Meuse",
+          "Rhône",
+          "Garonne",
+          "Seine"
+        ],
+        "réponse": "Seine",
+        "anecdote": "The city of Paris covers an area approximately twice as large in the north, on the right bank, as that in the south, on the left bank."
+      },
+      {
+        "id": 4,
+        "question": "What wooded area is located in the 16th arrondissement of Paris ?",
+        "propositions": [
+          "Bois de Vincennes",
+          "Parc Monceau",
+          "Buttes-Chaumont",
+          "Bois de Boulogne"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Covering an area of 846 ha in the west of the city, the Bois de Boulogne is one of the lungs of the French capital."
+      },
+      {
+        "id": 5,
+        "question": "In which district is the highest point of the French capital located ?",
+        "propositions": [
+          "Popincourt",
+          "Montmartre",
+          "Opera",
+          "Vaugirard"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "The two most famous accesses to the top of the hill are the funicular and the staircase of rue Foyatier, with its 222 steps."
+      },
+      {
+        "id": 6,
+        "question": "What public transport provides up to 20 % of Paris trips ?",
+        "propositions": [
+          "RER",
+          "Bus",
+          "Metro",
+          "Taxi"
+        ],
+        "réponse": "Metro",
+        "anecdote": "Operated by the RATP, it has sixteen dedicated lines, mainly underground, totaling nearly 220 kilometers."
+      },
+      {
+        "id": 7,
+        "question": "Which Ile-de-France airport is located 10 km south of Paris ?",
+        "propositions": [
+          "Beauvais",
+          "Orly",
+          "Merignac",
+          "Charles-de-Gaulle"
+        ],
+        "réponse": "Orly",
+        "anecdote": "The airport has 270 companies representing 25,000 employees, offices and 15,000 parking spaces in 14 parks."
+      },
+      {
+        "id": 8,
+        "question": "Which column is an element of urban furniture initially Parisian ?",
+        "propositions": [
+          "Davioud column",
+          "Guimard column",
+          "Wallace column",
+          "Morris column"
+        ],
+        "réponse": "Morris column",
+        "anecdote": "The Morris column is mainly cylindrical in shape and is used to promote shows and films."
+      },
+      {
+        "id": 9,
+        "question": "Who became the first female mayor of Paris in 2014 ?",
+        "propositions": [
+          "Anne Hidalgo",
+          "Gisèle Halimi",
+          "Hélène Hardy",
+          "Christine Herzog"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Member of the PS, Anne Hidalgo has dual Franco-Spanish nationality but has no political activity in Spain."
+      },
+      {
+        "id": 10,
+        "question": "Which football stadium has Paris Saint-Germain as its current resident ?",
+        "propositions": [
+          "Stade de France",
+          "Groupama Stadium",
+          "Velodrome",
+          "Parc des princes"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "It is the fifth largest French stadium but also one of the oldest and best known in the Paris region."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "What is the widest avenue of Parisian roads ?",
+        "propositions": [
+          "Avenue Mozart",
+          "Avenue Foch",
+          "Avenue Matignon",
+          "Avenue de Neuilly"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "Avenue Foch is 1,300 meters long and 120 meters wide thanks to the gardens that border it."
+      },
+      {
+        "id": 12,
+        "question": "Which chapel has become the symbol of the University of Paris ?",
+        "propositions": [
+          "Sorbonne",
+          "Père-Lachaise",
+          "Sainte-Rita",
+          "Epiphany"
+        ],
+        "réponse": "Sorbonne",
+        "anecdote": "The current chapel was rebuilt in the 17th century by Cardinal Richelieu, of which it was also the mausoleum."
+      },
+      {
+        "id": 13,
+        "question": "What is the largest Parisian cemetery in Paris intra muros ?",
+        "propositions": [
+          "Père-Lachaise",
+          "Montparnasse",
+          "Belleville",
+          "Montmartre"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "It welcomes more than three and a half million visitors each year, making it the most visited cemetery in the world."
+      },
+      {
+        "id": 14,
+        "question": "Which museum had 2,091 employees in 2019, including 1,232 surveillance officers ?",
+        "propositions": [
+          "Musée d'Orsay",
+          "Rodin Museum",
+          "Louvre Museum",
+          "Carnavalet Museum"
+        ],
+        "réponse": "Louvre Museum",
+        "anecdote": "With 8 million annual visitors, the Louvre is the most visited museum in the world and the most visited paying cultural site in France."
+      },
+      {
+        "id": 15,
+        "question": "About how many visitors visited Paris in 2017 ?",
+        "propositions": [
+          "34 million",
+          "19 million",
+          "44 million",
+          "26 million"
+        ],
+        "réponse": "34 million",
+        "anecdote": "Paris also occupies a preponderant place in the world of fashion, luxury and haute cuisine."
+      },
+      {
+        "id": 16,
+        "question": "What is the approximate total length of the Paris sewers ?",
+        "propositions": [
+          "2,200 km",
+          "2,600 km",
+          "3000 km",
+          "1,800 km"
+        ],
+        "réponse": "2,600 km",
+        "anecdote": "The sewers of Paris have greatly evolved since the works undertaken by the prefect Haussmann and the engineer Eugène Belgrand."
+      },
+      {
+        "id": 17,
+        "question": "With what other unique city in Europe is Paris twinned ?",
+        "propositions": [
+          "Rome",
+          "Madrid",
+          "Berlin",
+          "Athens"
+        ],
+        "réponse": "Rome",
+        "anecdote": "This twinning is valid in the other direction, with this slogan : « Only Paris is worthy of Rome, only Rome is worthy of Paris »."
+      },
+      {
+        "id": 18,
+        "question": "In front of which building is the zero point of the roads of France ?",
+        "propositions": [
+          "Sainte-Chapelle",
+          "Our Lady",
+          "Henri-IV High School",
+          "Tour Saint-Jacques"
+        ],
+        "réponse": "Our Lady",
+        "anecdote": "The zero point of the roads in France is the zero point of Paris, that is to say the kilometric point 0 of the roads leaving the capital."
+      },
+      {
+        "id": 19,
+        "question": "In Paris, which English garden imitates a mountain landscape ?",
+        "propositions": [
+          "Palais-Royal",
+          "Trocadero",
+          "Buttes-Chaumont",
+          "Invalides"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "It is one of the green spaces in Paris with the biggest drop (more than 40 m), a heritage of the quarries of its foundations."
+      },
+      {
+        "id": 20,
+        "question": "What is the longest street in intramural Paris with more than four kilometers in length ?",
+        "propositions": [
+          "Rue La Fayette",
+          "Rue Lecourbe",
+          "Rue de Paradis",
+          "Rue de Vaugirard"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "With its 4,360 meters in length, rue de Vaugirard, which crosses the 6th and 15th arr., Corresponds to 407 building numbers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In how many municipal districts is the city of Paris divided ?",
+        "propositions": [
+          "Eight",
+          "Twenty",
+          "Sixteen",
+          "Twelve"
+        ],
+        "réponse": "Twenty",
+        "anecdote": "The districts, in their current state, were delimited by the law of June 16, 1859, which increased their number from twelve to twenty."
+      },
+      {
+        "id": 22,
+        "question": "Which Parisian business school is one of the most recognized in the world ?",
+        "propositions": [
+          "ICAM",
+          "PSB",
+          "UTC",
+          "HEC"
+        ],
+        "réponse": "HEC",
+        "anecdote": "The School is located in the northern part of the future Paris-Saclay technological cluster, which must gather 25% of public research."
+      },
+      {
+        "id": 23,
+        "question": "What commercial event takes place each year at the end of April in Paris ?",
+        "propositions": [
+          "Throne Fair",
+          "Thousand Columns",
+          "Paris Fair",
+          "Paris Beaches"
+        ],
+        "réponse": "Paris Fair",
+        "anecdote": "The Paris Fair, organized in Paris since 1904, has been held since 1923 at the Porte de Versailles exhibition center."
+      },
+      {
+        "id": 24,
+        "question": "What is the oldest hospital in the French capital ?",
+        "propositions": [
+          "Hôtel-Dieu",
+          "Pity Hospital",
+          "Raymond Sans",
+          "Alphonse Gardie"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "For 50 years, he has devoted himself almost exclusively to the detection, treatment and prevention of complications from diabetes mellitus."
+      },
+      {
+        "id": 25,
+        "question": "What river, now entirely underground, crosses Paris ?",
+        "propositions": [
+          "Sarce",
+          "Lizard",
+          "Bievre",
+          "Essonne"
+        ],
+        "réponse": "Bievre",
+        "anecdote": "The Bièvre is a river that originates in Guyancourt and flows into the main collector of the Paris sewers."
+      },
+      {
+        "id": 26,
+        "question": "Which French organization monitors air pollution in Paris ?",
+        "propositions": [
+          "Airparif",
+          "Enercoop",
+          "Globice",
+          "Bloom"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Measurements subject to laboratory analysis on around sixty pollutants complete the system of stations."
+      },
+      {
+        "id": 27,
+        "question": "Which famous fountains were first established in Paris ?",
+        "propositions": [
+          "Wallace",
+          "Miller",
+          "Morris",
+          "Barnett"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Designed by Charles-Auguste Lebourg, they take their name from Richard Wallace, English philanthropist who financed their construction."
+      },
+      {
+        "id": 28,
+        "question": "What percentage of the urban housing stock does social housing in Paris represent ?",
+        "propositions": [
+          "27 %",
+          "17 %",
+          "37 %",
+          "47 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "The first ten districts of the historic center total only 6 % of the city's social housing, for 23 % of the total park."
+      },
+      {
+        "id": 29,
+        "question": "What passage is a high place of Indo-Pakistani immigration in Paris ?",
+        "propositions": [
+          "Brady Passage",
+          "Passage Vendôme",
+          "Prado Passage",
+          "Passage Puteaux"
+        ],
+        "réponse": "Brady Passage",
+        "anecdote": "The name of the street refers to an owner of the land, Mr. Brady, a merchant established at 46 Faubourg Saint-Denis."
+      },
+      {
+        "id": 30,
+        "question": "What is the oldest square in Paris, just before Place Dauphine ?",
+        "propositions": [
+          "Place Stanislas",
+          "Place d'Armes",
+          "Place des Victoires",
+          "Place des Vosges"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "Place des Vosges is known for being the place of residence of several personalities from the political and artistic world."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welcher dieser Spitznamen wird manchmal der Stadt Paris gegeben ?",
+        "propositions": [
+          "Drittes Rom",
+          "Stadt der Winde",
+          "Stadt der Lichter",
+          "Stadt der Engel"
+        ],
+        "réponse": "Stadt der Lichter",
+        "anecdote": "Die Stadt Paris zog 2017 fast 34 Millionen Besucher an und ist damit eine der meistbesuchten Hauptstädte der Welt."
+      },
+      {
+        "id": 2,
+        "question": "Wie oft hat Paris im Jahr 2024 die Olympischen Spiele ausgerichtet ?",
+        "propositions": [
+          "Zweimal",
+          "Viermal",
+          "Dreimal",
+          "Einmal"
+        ],
+        "réponse": "Dreimal",
+        "anecdote": "Im Jahr 2024 wird Paris nach London die zweite Stadt sein, in der die Olympischen Spiele dreimal nach 1900 und 1924 ausgetragen wurden."
+      },
+      {
+        "id": 3,
+        "question": "Auf welcher Seite des Flusses erstreckt sich die Stadt Paris ?",
+        "propositions": [
+          "Rhône",
+          "Garonne",
+          "Maas",
+          "Seine"
+        ],
+        "réponse": "Seine",
+        "anecdote": "Die Stadt Paris erstreckt sich über eine Fläche, die im Norden am rechten Ufer etwa doppelt so groß ist wie im Süden am linken Ufer."
+      },
+      {
+        "id": 4,
+        "question": "Welches Waldgebiet befindet sich im 16. Arrondissement von Paris ?",
+        "propositions": [
+          "Parc Monceau",
+          "Bois de Boulogne",
+          "Buttes-Chaumont",
+          "Bois de Vincennes"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Mit einer Fläche von 846 ha im Westen der Stadt ist der Bois de Boulogne eine der Lungen der französischen Hauptstadt."
+      },
+      {
+        "id": 5,
+        "question": "In welchem Bezirk befindet sich der höchste Punkt der französischen Hauptstadt ?",
+        "propositions": [
+          "Vaugirard",
+          "Popincourt",
+          "Oper",
+          "Montmartre"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "Die beiden bekanntesten Zugänge zur Spitze des Hügels sind die Standseilbahn und die Treppe der Rue Foyatier mit ihren 222 Stufen."
+      },
+      {
+        "id": 6,
+        "question": "Welche öffentlichen Verkehrsmittel bieten bis zu 20 % der Pariser Reisen an ?",
+        "propositions": [
+          "RER",
+          "Metro",
+          "Taxi",
+          "Bus"
+        ],
+        "réponse": "Metro",
+        "anecdote": "Es wird von der RATP betrieben und verfügt über 16 Linien, hauptsächlich unterirdische Strecken mit einer Gesamtlänge von fast 220 Kilometern."
+      },
+      {
+        "id": 7,
+        "question": "Welcher Flughafen von Ile-de-France liegt 10 km südlich von Paris ?",
+        "propositions": [
+          "Merignac",
+          "Charles-de-Gaulle",
+          "Beauvais",
+          "Orly"
+        ],
+        "réponse": "Orly",
+        "anecdote": "Der Flughafen verfügt über 270 Unternehmen mit 25.000 Mitarbeitern, Büros und 15.000 Parkplätzen in 14 Parks."
+      },
+      {
+        "id": 8,
+        "question": "Welche Säule ist ursprünglich ein Element von Stadtmöbeln in Paris ?",
+        "propositions": [
+          "Guimard Spalte",
+          "Davioud Spalte",
+          "Morris Spalte",
+          "Wallace-Säule"
+        ],
+        "réponse": "Morris Spalte",
+        "anecdote": "Die Morris-Säule hat hauptsächlich eine zylindrische Form und wird zur Förderung von Shows und Filmen verwendet."
+      },
+      {
+        "id": 9,
+        "question": "Wer wurde 2014 die erste Bürgermeisterin von Paris ?",
+        "propositions": [
+          "Christine Herzog",
+          "Hélène Hardy",
+          "Gisèle Halimi",
+          "Anne Hidalgo"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Anne Hidalgo, Mitglied der PS, hat die doppelte französisch-spanische Staatsangehörigkeit, ist jedoch in Spanien nicht politisch tätig."
+      },
+      {
+        "id": 10,
+        "question": "In welchem Fußballstadion lebt Paris Saint-Germain derzeit ?",
+        "propositions": [
+          "Groupama-Stadion",
+          "Stade de France",
+          "Velodrom",
+          "Parc des princes"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "Es ist das fünftgrößte französische Stadion, aber auch eines der ältesten und bekanntesten in der Region Paris."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Was ist die breiteste Straße der Pariser Straßen ?",
+        "propositions": [
+          "Avenue de Neuilly",
+          "Allee Mozart",
+          "Avenue Matignon",
+          "Avenue Foch"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "Die Avenue Foch ist 1.300 Meter lang und 120 Meter breit, dank der Gärten, die sie umgeben."
+      },
+      {
+        "id": 12,
+        "question": "Welche Kapelle ist zum Symbol der Universität Paris geworden ?",
+        "propositions": [
+          "Père-Lachaise",
+          "Sorbonne",
+          "Offenbarung",
+          "Sainte-Rita"
+        ],
+        "réponse": "Sorbonne",
+        "anecdote": "Die heutige Kapelle wurde im 17. Jahrhundert von Kardinal Richelieu wieder aufgebaut, von dem es auch das Mausoleum war."
+      },
+      {
+        "id": 13,
+        "question": "Was ist der größte Pariser Friedhof in Paris Intra Muros ?",
+        "propositions": [
+          "Montmartre",
+          "Montparnasse",
+          "Père-Lachaise",
+          "Belleville"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "Es begrüßt jedes Jahr mehr als dreieinhalb Millionen Besucher und ist damit der meistbesuchte Friedhof der Welt."
+      },
+      {
+        "id": 14,
+        "question": "In welchem Museum waren 2019 2.091 Mitarbeiter beschäftigt, darunter 1.232 Überwachungsbeamte ?",
+        "propositions": [
+          "Carnavalet Museum",
+          "Musée d'Orsay",
+          "Rodin Museum",
+          "Louvre Museum"
+        ],
+        "réponse": "Louvre Museum",
+        "anecdote": "Mit 8 Millionen jährlichen Besuchern ist der Louvre das meistbesuchte Museum der Welt und die meistbesuchte zahlende Kulturstätte in Frankreich."
+      },
+      {
+        "id": 15,
+        "question": "Wie viele Besucher haben Paris 2017 besucht ?",
+        "propositions": [
+          "44 Millionen",
+          "19 Millionen",
+          "34 Millionen",
+          "26 Millionen"
+        ],
+        "réponse": "34 Millionen",
+        "anecdote": "Paris nimmt auch in der Welt der Mode, des Luxus und der Haute Cuisine einen überwiegenden Platz ein."
+      },
+      {
+        "id": 16,
+        "question": "Was ist die ungefähre Gesamtlänge der Pariser Kanalisation ?",
+        "propositions": [
+          "1.800 km",
+          "2.600 km",
+          "2.200 km",
+          "3000 km"
+        ],
+        "réponse": "2.600 km",
+        "anecdote": "Die Abwasserkanäle von Paris haben sich seit den Arbeiten des Präfekten Haussmann und des Ingenieurs Eugène Belgrand erheblich weiterentwickelt."
+      },
+      {
+        "id": 17,
+        "question": "Mit welcher anderen einzigartigen Stadt in Europa ist Paris eine Partnerschaft ?",
+        "propositions": [
+          "Berlin",
+          "Rom",
+          "Madrid",
+          "Athen"
+        ],
+        "réponse": "Rom",
+        "anecdote": "Diese Partnerschaft gilt in die andere Richtung mit dem Slogan : « Nur Paris ist Rom würdig, nur Rom ist Paris wert »."
+      },
+      {
+        "id": 18,
+        "question": "Vor welchem Gebäude befindet sich der Nullpunkt der Straßen Frankreichs ?",
+        "propositions": [
+          "Henri-IV Gymnasium",
+          "Tour Saint-Jacques",
+          "Sainte-Chapelle",
+          "Unsere Liebe Frau"
+        ],
+        "réponse": "Unsere Liebe Frau",
+        "anecdote": "Der Nullpunkt der Straßen Frankreichs ist der Nullpunkt von Paris, dh der Nullpunkt der Straßen, die die Hauptstadt verlassen."
+      },
+      {
+        "id": 19,
+        "question": "Welcher englische Garten imitiert in Paris eine Berglandschaft ?",
+        "propositions": [
+          "Trocadero",
+          "Buttes-Chaumont",
+          "Invalides",
+          "Palais-Royal"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "Es ist eine der Grünflächen in Paris mit dem größten Gefälle (mehr als 40 m), ein Erbe der Steinbrüche seiner Fundamente."
+      },
+      {
+        "id": 20,
+        "question": "Was ist die längste Straße im intramuralen Paris mit mehr als vier Kilometern Länge ?",
+        "propositions": [
+          "Rue de Vaugirard",
+          "Rue La Fayette",
+          "Rue Lecourbe",
+          "Rue de Paradis"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "Mit einer Länge von 4.360 Metern entspricht die Rue de Vaugirard, die den 6. und 15. Arr. Überquert, 407 Gebäudenummern."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In wie viele Stadtteile ist die Stadt Paris unterteilt ?",
+        "propositions": [
+          "Zwölf",
+          "Acht",
+          "Sechzehn",
+          "Zwanzig"
+        ],
+        "réponse": "Zwanzig",
+        "anecdote": "Die Bezirke in ihrem jetzigen Zustand wurden durch das Gesetz vom 16."
+      },
+      {
+        "id": 22,
+        "question": "Welche Pariser Business School ist eine der bekanntesten der Welt ?",
+        "propositions": [
+          "HEC",
+          "PSB",
+          "UTC",
+          "ICAM"
+        ],
+        "réponse": "HEC",
+        "anecdote": "Die Schule befindet sich im nördlichen Teil des zukünftigen Technologieclusters Paris-Saclay, in dem 25% der öffentlichen Forschung gesammelt werden müssen."
+      },
+      {
+        "id": 23,
+        "question": "Welche kommerzielle Veranstaltung findet jedes Jahr Ende April in Paris statt ?",
+        "propositions": [
+          "Pariser Messe",
+          "Tausend Spalten",
+          "Pariser Strände",
+          "Thronmesse"
+        ],
+        "réponse": "Pariser Messe",
+        "anecdote": "Die seit 1904 in Paris organisierte Pariser Messe findet seit 1923 auf dem Messegelände Porte de Versailles statt."
+      },
+      {
+        "id": 24,
+        "question": "Was ist das älteste Krankenhaus in der französischen Hauptstadt ?",
+        "propositions": [
+          "Schade Krankenhaus",
+          "Hôtel-Dieu",
+          "Alphonse Gardie",
+          "Raymond Sans"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "Seit 50 Jahren widmet er sich fast ausschließlich der Erkennung, Behandlung und Vorbeugung von Komplikationen durch Diabetes mellitus."
+      },
+      {
+        "id": 25,
+        "question": "Welcher Fluss, der jetzt völlig unterirdisch ist, durchquert Paris ?",
+        "propositions": [
+          "Sarce",
+          "Essonne",
+          "Bievre",
+          "Eidechse"
+        ],
+        "réponse": "Bievre",
+        "anecdote": "Das Bièvre ist ein Fluss, der aus Guyancourt entspringt und in den Hauptsammler der Pariser Kanalisation mündet."
+      },
+      {
+        "id": 26,
+        "question": "Welche französische Organisation überwacht die Luftverschmutzung in Paris ?",
+        "propositions": [
+          "Globice",
+          "Enercoop",
+          "Airparif",
+          "Blüte"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Messungen, die Laboranalysen an rund sechzig Schadstoffen unterzogen wurden, vervollständigen das Stationssystem."
+      },
+      {
+        "id": 27,
+        "question": "Welche berühmten Brunnen wurden zuerst in Paris errichtet ?",
+        "propositions": [
+          "Barnett",
+          "Wallace",
+          "Miller",
+          "Morris"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Entworfen von Charles-Auguste Lebourg, haben sie ihren Namen von Richard Wallace, dem englischen Philanthrop, der ihren Bau finanziert hat."
+      },
+      {
+        "id": 28,
+        "question": "Wie viel Prozent des städtischen Wohnungsbestandes repräsentiert der soziale Wohnungsbau in Paris ?",
+        "propositions": [
+          "47 %",
+          "27 %",
+          "17 %",
+          "37 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "Die ersten zehn Bezirke des historischen Zentrums machen nur 6 % des sozialen Wohnungsbaus der Stadt aus, 23 % des gesamten Parks."
+      },
+      {
+        "id": 29,
+        "question": "Welche Passage ist ein hoher Ort der indopakistanischen Einwanderung in Paris ?",
+        "propositions": [
+          "Passage Puteaux",
+          "Brady Passage",
+          "Prado Passage",
+          "Passage Vendôme"
+        ],
+        "réponse": "Brady Passage",
+        "anecdote": "Der Name der Straße bezieht sich auf einen Eigentümer des Landes, Herrn Brady, einen Händler, der in 46 du faubourg Saint-Denis ansässig ist."
+      },
+      {
+        "id": 30,
+        "question": "Was ist der älteste Platz in Paris, kurz vor dem Place Dauphine ?",
+        "propositions": [
+          "Place d'Armes",
+          "Platziere Stanislas",
+          "Place des Victoires",
+          "Place des Vosges"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "Der Place des Vosges ist bekannt als Wohnort mehrerer Persönlichkeiten aus der politischen und künstlerischen Welt."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Cuál de estos apodos a veces se le da a la ciudad de París ?",
+        "propositions": [
+          "Tercera Roma",
+          "Ciudad de los ángeles",
+          "Ciudad de las luces",
+          "Ciudad de los vientos"
+        ],
+        "réponse": "Ciudad de las luces",
+        "anecdote": "La ciudad de París atrajo a casi 34 millones de visitantes en 2017, convirtiéndola en una de las capitales más visitadas del mundo."
+      },
+      {
+        "id": 2,
+        "question": "En 2024, ¿cuántas veces París habrá acogido los Juegos Olímpicos ?",
+        "propositions": [
+          "Cuatro veces",
+          "Una vez",
+          "Dos veces",
+          "Tres veces"
+        ],
+        "réponse": "Tres veces",
+        "anecdote": "En 2024, París será la segunda ciudad con Londres en haber acogido los Juegos Olímpicos tres veces después de los de 1900 y los de 1924."
+      },
+      {
+        "id": 3,
+        "question": "¿De qué lado de qué río se extiende la ciudad de París ?",
+        "propositions": [
+          "Ródano",
+          "Sena",
+          "Garona",
+          "Mosa"
+        ],
+        "réponse": "Sena",
+        "anecdote": "La ciudad de París cubre un área aproximadamente dos veces más grande en el norte, en la margen derecha, que en el sur, en la margen izquierda."
+      },
+      {
+        "id": 4,
+        "question": "¿Qué área boscosa se encuentra en el distrito 16 de París ?",
+        "propositions": [
+          "Buttes-Chaumont",
+          "Parc Monceau",
+          "Bois de Boulogne",
+          "Bois de Vincennes"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Con una superficie de 846 ha en el oeste de la ciudad, el Bois de Boulogne es uno de los pulmones de la capital francesa."
+      },
+      {
+        "id": 5,
+        "question": "¿En qué distrito se encuentra el punto más alto de la capital francesa ?",
+        "propositions": [
+          "Opera",
+          "Popincourt",
+          "Vaugirard",
+          "Montmartre"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "Los dos accesos más famosos a la cima de la colina son el funicular y la escalera de la rue Foyatier, con sus 222 escalones."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué transporte público proporciona hasta el 20 % de los viajes a París ?",
+        "propositions": [
+          "RER",
+          "Taxi",
+          "Autobús",
+          "Metro"
+        ],
+        "réponse": "Metro",
+        "anecdote": "Operado por el RATP, tiene dieciséis líneas dedicadas, principalmente subterráneas, que suman casi 220 kilómetros."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué aeropuerto de Ile-de-France se encuentra a 10 km al sur de París ?",
+        "propositions": [
+          "Charles-de-Gaulle",
+          "Beauvais",
+          "Orly",
+          "Merignac"
+        ],
+        "réponse": "Orly",
+        "anecdote": "El aeropuerto tiene 270 compañías que representan a 25,000 empleados, oficinas y 15,000 espacios de estacionamiento en 14 parques."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué columna es un elemento del mobiliario urbano inicialmente parisino ?",
+        "propositions": [
+          "Columna de Wallace",
+          "Columna de Morris",
+          "Columna Davioud",
+          "Columna de Guimard"
+        ],
+        "réponse": "Columna de Morris",
+        "anecdote": "La columna de Morris es principalmente de forma cilíndrica y se utiliza para promover espectáculos y películas."
+      },
+      {
+        "id": 9,
+        "question": "¿Quién se convirtió en la primera alcaldesa de París en 2014 ?",
+        "propositions": [
+          "Anne Hidalgo",
+          "Christine Herzog",
+          "Gisèle Halimi",
+          "Hélène Hardy"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Miembro del PS, Anne Hidalgo tiene doble nacionalidad franco-española pero no tiene actividad política en España."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué estadio de fútbol tiene a Paris Saint-Germain como su residente actual ?",
+        "propositions": [
+          "Stade de France",
+          "Velódromo",
+          "Estadio Groupama",
+          "Parc des princes"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "Es el quinto estadio francés más grande, pero también uno de los más antiguos y conocidos de la región de París."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cuál es la avenida más ancha de caminos parisinos ?",
+        "propositions": [
+          "Avenue Matignon",
+          "Avenue Foch",
+          "Avenue Mozart",
+          "Avenue de Neuilly"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "Avenue Foch tiene 1.300 metros de largo y 120 metros de ancho gracias a los jardines que la bordean."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué capilla se ha convertido en el símbolo de la Universidad de París ?",
+        "propositions": [
+          "Epifanía",
+          "Sainte-Rita",
+          "Sorbona",
+          "Père-Lachaise"
+        ],
+        "réponse": "Sorbona",
+        "anecdote": "La capilla actual fue reconstruida en el siglo XVII por el cardenal Richelieu, del cual también fue el mausoleo."
+      },
+      {
+        "id": 13,
+        "question": "¿Cuál es el cementerio parisino más grande de París intra muros ?",
+        "propositions": [
+          "Belleville",
+          "Père-Lachaise",
+          "Montparnasse",
+          "Montmartre"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "Recibe a más de tres millones y medio de visitantes cada año, lo que lo convierte en el cementerio más visitado del mundo."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué museo tenía 2,091 empleados en 2019, incluidos 1,232 oficiales de vigilancia ?",
+        "propositions": [
+          "Musée d'Orsay",
+          "Museo Carnavalet",
+          "Museo Rodin",
+          "Museo del Louvre"
+        ],
+        "réponse": "Museo del Louvre",
+        "anecdote": "Con 8 millones de visitantes anuales, el Louvre es el museo más visitado del mundo y el sitio cultural de pago más visitado de Francia."
+      },
+      {
+        "id": 15,
+        "question": "¿Aproximadamente cuántos visitantes visitaron París en 2017 ?",
+        "propositions": [
+          "34 millones",
+          "44 millones",
+          "26 millones",
+          "19 millones"
+        ],
+        "réponse": "34 millones",
+        "anecdote": "París también ocupa un lugar preponderante en el mundo de la moda, el lujo y la alta cocina."
+      },
+      {
+        "id": 16,
+        "question": "¿Cuál es la longitud total aproximada de las alcantarillas de París ?",
+        "propositions": [
+          "3000 km",
+          "2,200 km",
+          "2,600 km",
+          "1,800 km"
+        ],
+        "réponse": "2,600 km",
+        "anecdote": "Las alcantarillas de París han evolucionado considerablemente desde los trabajos realizados por el prefecto Haussmann y el ingeniero Eugène Belgrand."
+      },
+      {
+        "id": 17,
+        "question": "¿Con qué otra ciudad única en Europa está hermanada París ?",
+        "propositions": [
+          "Roma",
+          "Atenas",
+          "Madrid",
+          "Berlín"
+        ],
+        "réponse": "Roma",
+        "anecdote": "Este hermanamiento es válido en la otra dirección, con este eslogan : « Solo París es digno de Roma, solo Roma es digno de París »."
+      },
+      {
+        "id": 18,
+        "question": "¿Frente a qué edificio está el punto cero de las carreteras de Francia ?",
+        "propositions": [
+          "Sainte-Chapelle",
+          "Escuela secundaria Henri-IV",
+          "Tour Saint-Jacques",
+          "Nuestra señora"
+        ],
+        "réponse": "Nuestra señora",
+        "anecdote": "El punto cero de las carreteras en Francia es el punto cero de París, es decir, el punto kilométrico 0 de las carreteras que salen de la capital."
+      },
+      {
+        "id": 19,
+        "question": "En París, ¿qué jardín inglés imita un paisaje de montaña ?",
+        "propositions": [
+          "Buttes-Chaumont",
+          "Palais-Royal",
+          "Inválidos",
+          "Trocadero"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "Es uno de los espacios verdes de París con mayor caída (más de 40 m), patrimonio de las canteras de sus cimientos."
+      },
+      {
+        "id": 20,
+        "question": "¿Cuál es la calle más larga del París intramuros con más de cuatro kilómetros de longitud ?",
+        "propositions": [
+          "Rue de Vaugirard",
+          "Rue de Paradis",
+          "Rue Lecourbe",
+          "Rue La Fayette"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "Con sus 4.360 metros de longitud, la rue de Vaugirard, que atraviesa el distrito 6 y 15, corresponde a 407 números de edificio."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿En cuántos distritos municipales está dividida la ciudad de París ?",
+        "propositions": [
+          "Ocho",
+          "Doce",
+          "Dieciséis",
+          "Veinte"
+        ],
+        "réponse": "Veinte",
+        "anecdote": "Los distritos, en su estado actual, fueron delimitados por la ley del 16 de junio de 1859, que aumentó su número de doce a veinte."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué escuela de negocios parisina es una de las más reconocidas del mundo ?",
+        "propositions": [
+          "UTC",
+          "ICAM",
+          "PSB",
+          "HEC"
+        ],
+        "réponse": "HEC",
+        "anecdote": "La escuela está ubicada en la parte norte del futuro grupo tecnológico París-Saclay, que debe reunir el 25% de la investigación pública."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué evento comercial tiene lugar cada año a finales de abril en París ?",
+        "propositions": [
+          "Mil columnas",
+          "Feria de Paris",
+          "Playas de Paris",
+          "Trono justo"
+        ],
+        "réponse": "Feria de Paris",
+        "anecdote": "La Feria de París, organizada en París desde 1904, se celebra desde 1923 en el centro de exposiciones Porte de Versailles."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuál es el hospital más antiguo de la capital francesa ?",
+        "propositions": [
+          "Alphonse Gardie",
+          "Raymond Sans",
+          "Pity Hospital",
+          "Hôtel-Dieu"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "Durante 50 años, se ha dedicado casi exclusivamente a la detección, tratamiento y prevención de complicaciones de la diabetes mellitus."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué río, ahora completamente subterráneo, cruza París ?",
+        "propositions": [
+          "Bievre",
+          "Essonne",
+          "Sarce",
+          "Lagarto"
+        ],
+        "réponse": "Bievre",
+        "anecdote": "El Bièvre es un río que se origina en Guyancourt y desemboca en el principal colector de las alcantarillas de París."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué organización francesa monitorea la contaminación del aire en París ?",
+        "propositions": [
+          "Globice",
+          "Bloom",
+          "Enercoop",
+          "Airparif"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Las mediciones sujetas a análisis de laboratorio en alrededor de sesenta contaminantes completan el sistema de estaciones."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué fuentes famosas se establecieron por primera vez en París ?",
+        "propositions": [
+          "Miller",
+          "Barnett",
+          "Morris",
+          "Wallace"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Diseñados por Charles-Auguste Lebourg, toman su nombre de Richard Wallace, filántropo inglés que financió su construcción."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué porcentaje del stock de viviendas urbanas representa la vivienda social en París ?",
+        "propositions": [
+          "37 %",
+          "27 %",
+          "17 %",
+          "47 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "Los primeros diez distritos del centro histórico totalizan solo el 6 % de las viviendas sociales de la ciudad, el 23 % del parque total."
+      },
+      {
+        "id": 29,
+        "question": "¿Qué pasaje es un lugar alto de inmigración indo-paquistaní en París ?",
+        "propositions": [
+          "Pasaje Vendôme",
+          "Pasaje Puteaux",
+          "Pasaje del Prado",
+          "Pasaje Brady"
+        ],
+        "réponse": "Pasaje Brady",
+        "anecdote": "El nombre de la calle se refiere a un propietario de la tierra, el Sr. Brady, un comerciante establecido en 46 Faubourg Saint-Denis."
+      },
+      {
+        "id": 30,
+        "question": "¿Cuál es la plaza más antigua de París, justo antes de Place Dauphine ?",
+        "propositions": [
+          "Place d'Armes",
+          "Place des Vosges",
+          "Place des Victoires",
+          "Place Stanislas"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "Place des Vosges es conocida por ser el lugar de residencia de varias personalidades del mundo político y artístico."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale di questi soprannomi viene talvolta dato alla città di Parigi ?",
+        "propositions": [
+          "Città degli angeli",
+          "Terza Roma",
+          "Città dei venti",
+          "Città delle luci"
+        ],
+        "réponse": "Città delle luci",
+        "anecdote": "La città di Parigi ha attratto quasi 34 milioni di visitatori nel 2017, rendendola una delle capitali più visitate al mondo."
+      },
+      {
+        "id": 2,
+        "question": "Nel 2024, quante volte Parigi ospiterà i Giochi olimpici ?",
+        "propositions": [
+          "Due volte",
+          "Tre volte",
+          "Una volta",
+          "Quattro volte"
+        ],
+        "réponse": "Tre volte",
+        "anecdote": "Nel 2024, Parigi sarà la seconda città con Londra ad aver ospitato le Olimpiadi tre volte dopo quelle del 1900 e quelle del 1924."
+      },
+      {
+        "id": 3,
+        "question": "Da quale parte del fiume si estende la città di Parigi ?",
+        "propositions": [
+          "Rodano",
+          "Garonne",
+          "Senna",
+          "Meuse"
+        ],
+        "réponse": "Senna",
+        "anecdote": "La città di Parigi copre un'area circa due volte più grande a nord, sulla riva destra, come quella a sud, sulla riva sinistra."
+      },
+      {
+        "id": 4,
+        "question": "Quale area boschiva si trova nel 16 ° arrondissement di Parigi ?",
+        "propositions": [
+          "Bois de Vincennes",
+          "Parc Monceau",
+          "Bois de Boulogne",
+          "Buttes-Chaumont"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Coprendo un'area di 846 ettari nella parte occidentale della città, il Bois de Boulogne è uno dei polmoni della capitale francese."
+      },
+      {
+        "id": 5,
+        "question": "In quale distretto si trova il punto più alto della capitale francese ?",
+        "propositions": [
+          "Montmartre",
+          "Popincourt",
+          "Opera",
+          "Vaugirard"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "I due accessi più famosi in cima alla collina sono la funicolare e la scala di rue Foyatier, con i suoi 222 gradini."
+      },
+      {
+        "id": 6,
+        "question": "Quali trasporti pubblici offrono fino al 20 % dei viaggi a Parigi ?",
+        "propositions": [
+          "Taxi",
+          "Autobus",
+          "Metro",
+          "RER"
+        ],
+        "réponse": "Metro",
+        "anecdote": "Gestito dal RATP, ha sedici linee dedicate, principalmente sotterranee, per un totale di quasi 220 chilometri."
+      },
+      {
+        "id": 7,
+        "question": "Quale aeroporto dell'Ile-de-France si trova 10 km a sud di Parigi ?",
+        "propositions": [
+          "Orly",
+          "Charles de Gaulle",
+          "Beauvais",
+          "Merignac"
+        ],
+        "réponse": "Orly",
+        "anecdote": "L'aeroporto ha 270 aziende che rappresentano 25.000 dipendenti, uffici e 15.000 posti auto in 14 parchi."
+      },
+      {
+        "id": 8,
+        "question": "Quale colonna è un elemento di arredo urbano inizialmente parigino ?",
+        "propositions": [
+          "Colonna Guimard",
+          "Colonna Wallace",
+          "Colonna Davioud",
+          "Colonna Morris"
+        ],
+        "réponse": "Colonna Morris",
+        "anecdote": "La colonna Morris è principalmente di forma cilindrica e viene utilizzata per promuovere spettacoli e film."
+      },
+      {
+        "id": 9,
+        "question": "Chi è diventato il primo sindaco di Parigi nel 2014 ?",
+        "propositions": [
+          "Hélène Hardy",
+          "Christine Herzog",
+          "Gisèle Halimi",
+          "Anne Hidalgo"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Membro del PS, Anne Hidalgo ha una doppia nazionalità franco-spagnola ma non ha attività politica in Spagna."
+      },
+      {
+        "id": 10,
+        "question": "Quale stadio di calcio ha Paris Saint-Germain come attuale residente ?",
+        "propositions": [
+          "Stade de France",
+          "Stadio Groupama",
+          "Velodromo",
+          "Parc des princes"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "È il quinto stadio francese più grande ma anche uno dei più antichi e conosciuti nella regione di Parigi."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Qual è il viale più largo delle strade parigine ?",
+        "propositions": [
+          "Avenue Foch",
+          "Avenue de Neuilly",
+          "Avenue Mozart",
+          "Avenue Matignon"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "Avenue Foch è lunga 1.300 metri e larga 120 metri grazie ai giardini che la delimitano."
+      },
+      {
+        "id": 12,
+        "question": "Quale cappella è diventata il simbolo dell'Università di Parigi ?",
+        "propositions": [
+          "Epifania",
+          "Père-Lachaise",
+          "Sorbona",
+          "Sainte-Rita"
+        ],
+        "réponse": "Sorbona",
+        "anecdote": "L'attuale cappella fu ricostruita nel 17 ° secolo dal cardinale Richelieu, di cui era anche il mausoleo."
+      },
+      {
+        "id": 13,
+        "question": "Qual è il più grande cimitero parigino di Parigi intra muros ?",
+        "propositions": [
+          "Montmartre",
+          "Père-Lachaise",
+          "Montparnasse",
+          "Belleville"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "Accoglie più di tre milioni e mezzo di visitatori ogni anno, rendendolo il cimitero più visitato al mondo."
+      },
+      {
+        "id": 14,
+        "question": "Quale museo contava 2.091 dipendenti nel 2019, inclusi 1.232 agenti di sorveglianza ?",
+        "propositions": [
+          "Museo del Louvre",
+          "Museo Rodin",
+          "Museo Carnavalet",
+          "Musée d'Orsay"
+        ],
+        "réponse": "Museo del Louvre",
+        "anecdote": "Con 8 milioni di visitatori all'anno, il Louvre è il museo più visitato al mondo e il sito culturale a pagamento più visitato in Francia."
+      },
+      {
+        "id": 15,
+        "question": "Su quanti visitatori hanno visitato Parigi nel 2017 ?",
+        "propositions": [
+          "26 milioni",
+          "34 milioni",
+          "19 milioni",
+          "44 milioni"
+        ],
+        "réponse": "34 milioni",
+        "anecdote": "Parigi occupa anche un posto preponderante nel mondo della moda, del lusso e dell'alta cucina."
+      },
+      {
+        "id": 16,
+        "question": "Qual è la lunghezza totale approssimativa delle fogne di Parigi ?",
+        "propositions": [
+          "1.800 km",
+          "3000 km",
+          "2.200 km",
+          "2.600 km"
+        ],
+        "réponse": "2.600 km",
+        "anecdote": "Le fogne di Parigi si sono evolute considerevolmente dai lavori intrapresi dal prefetto Haussmann e dall'ingegnere Eugène Belgrand."
+      },
+      {
+        "id": 17,
+        "question": "Con quale altra città unica in Europa è gemellata Parigi ?",
+        "propositions": [
+          "Roma",
+          "Madrid",
+          "Atene",
+          "Berlino"
+        ],
+        "réponse": "Roma",
+        "anecdote": "Questo gemellaggio è valido nell'altra direzione, con questo slogan : « Solo Parigi è degna di Roma, solo Roma è degna di Parigi »."
+      },
+      {
+        "id": 18,
+        "question": "Di fronte a quale edificio si trova il punto zero delle strade della Francia ?",
+        "propositions": [
+          "Tour Saint-Jacques",
+          "Sainte-Chapelle",
+          "Madonna",
+          "Liceo Henri-IV"
+        ],
+        "réponse": "Madonna",
+        "anecdote": "Il punto zero delle strade in Francia è il punto zero di Parigi, vale a dire il punto chilometrico 0 delle strade che escono dalla capitale."
+      },
+      {
+        "id": 19,
+        "question": "A Parigi, quale giardino inglese imita un paesaggio montano ?",
+        "propositions": [
+          "Trocadero",
+          "Buttes-Chaumont",
+          "Palais-Royal",
+          "Invalides"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "È uno degli spazi verdi di Parigi con il maggiore calo (oltre 40 m), patrimonio delle cave delle sue fondamenta."
+      },
+      {
+        "id": 20,
+        "question": "Qual è la strada più lunga della Parigi intramurale con più di quattro chilometri di lunghezza ?",
+        "propositions": [
+          "Rue La Fayette",
+          "Rue Lecourbe",
+          "Rue de Vaugirard",
+          "Rue de Paradis"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "Con i suoi 4.360 metri di lunghezza, rue de Vaugirard, che attraversa il 6 ° e il 15 ° arrondissement, corrisponde a 407 numeri di palazzina."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In quanti distretti municipali è divisa la città di Parigi ?",
+        "propositions": [
+          "Otto",
+          "Dodici",
+          "Sedici",
+          "Venti"
+        ],
+        "réponse": "Venti",
+        "anecdote": "I distretti, nel loro stato attuale, furono delimitati dalla legge del 16 giugno 1859, che aumentò il loro numero da dodici a venti."
+      },
+      {
+        "id": 22,
+        "question": "Quale business school parigina è una delle più riconosciute al mondo ?",
+        "propositions": [
+          "UTC",
+          "PSB",
+          "ICAM",
+          "HEC"
+        ],
+        "réponse": "HEC",
+        "anecdote": "La scuola si trova nella parte settentrionale del futuro cluster tecnologico Paris-Saclay, che deve raccogliere il 25% della ricerca pubblica."
+      },
+      {
+        "id": 23,
+        "question": "Quale evento commerciale si svolge ogni anno alla fine di aprile a Parigi ?",
+        "propositions": [
+          "Fiera di Parigi",
+          "Fiera del trono",
+          "Spiagge di Parigi",
+          "Mille colonne"
+        ],
+        "réponse": "Fiera di Parigi",
+        "anecdote": "La Fiera di Parigi, organizzata a Parigi dal 1904, si tiene dal 1923 nel centro espositivo Porte de Versailles."
+      },
+      {
+        "id": 24,
+        "question": "Qual è l'ospedale più antico della capitale francese ?",
+        "propositions": [
+          "Pity Hospital",
+          "Alphonse Gardie",
+          "Hôtel-Dieu",
+          "Raymond Sans"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "Per 50 anni si è dedicato quasi esclusivamente alla rilevazione, al trattamento e alla prevenzione delle complicanze del diabete mellito."
+      },
+      {
+        "id": 25,
+        "question": "Quale fiume, ora interamente sotterraneo, attraversa Parigi ?",
+        "propositions": [
+          "Lucertola",
+          "Sarce",
+          "Bievre",
+          "Essonne"
+        ],
+        "réponse": "Bievre",
+        "anecdote": "Il Bièvre è un fiume che ha origine in Guyancourt e sfocia nel principale collezionista delle fogne di Parigi."
+      },
+      {
+        "id": 26,
+        "question": "Quale organizzazione francese controlla l'inquinamento atmosferico a Parigi ?",
+        "propositions": [
+          "Fioritura",
+          "Enercoop",
+          "Airparif",
+          "Globice"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Le misurazioni soggette ad analisi di laboratorio su una sessantina di inquinanti completano il sistema di stazioni."
+      },
+      {
+        "id": 27,
+        "question": "Quali famose fontane furono stabilite per la prima volta a Parigi ?",
+        "propositions": [
+          "Wallace",
+          "Barnett",
+          "Miller",
+          "Morris"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Progettati da Charles-Auguste Lebourg, prendono il nome da Richard Wallace, filantropo inglese che ha finanziato la loro costruzione."
+      },
+      {
+        "id": 28,
+        "question": "Quale percentuale del patrimonio abitativo urbano rappresenta l'edilizia popolare a Parigi ?",
+        "propositions": [
+          "27 %",
+          "47 %",
+          "17 %",
+          "37 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "I primi dieci distretti del centro storico rappresentano solo il 6 % degli alloggi sociali della città, per il 23 % del parco totale."
+      },
+      {
+        "id": 29,
+        "question": "Quale passaggio è un luogo privilegiato dell'immigrazione indo-pakistana a Parigi ?",
+        "propositions": [
+          "Brady Passage",
+          "Passage Vendôme",
+          "Passaggio del Prado",
+          "Passaggio Puteaux"
+        ],
+        "réponse": "Brady Passage",
+        "anecdote": "Il nome della strada si riferisce a un proprietario della terra, il signor Brady, un commerciante stabilito a 46 du faubourg Saint-Denis."
+      },
+      {
+        "id": 30,
+        "question": "Qual è la piazza più antica di Parigi, poco prima di Place Dauphine ?",
+        "propositions": [
+          "Place d'Armes",
+          "Place des Vosges",
+          "Luogo Stanislas",
+          "Place des Victoires"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "Place des Vosges è nota per essere il luogo di residenza di diverse personalità del mondo politico e artistico."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke van deze bijnamen wordt soms aan de stad Parijs gegeven ?",
+        "propositions": [
+          "Lichtstad",
+          "Stad der Engelen",
+          "Stad van de winden",
+          "Derde Rome"
+        ],
+        "réponse": "Lichtstad",
+        "anecdote": "De stad Parijs trok in 2017 bijna 34 miljoen bezoekers en is daarmee een van de meest bezochte hoofdsteden ter wereld."
+      },
+      {
+        "id": 2,
+        "question": "Hoe vaak heeft Parijs in 2024 de Olympische Spelen georganiseerd ?",
+        "propositions": [
+          "Tweemaal",
+          "Drie keer",
+          "Een keer",
+          "Vier keer"
+        ],
+        "réponse": "Drie keer",
+        "anecdote": "In 2024 is Parijs de tweede stad met Londen waar de Olympische Spelen drie keer worden gehouden na die van 1900 en die van 1924."
+      },
+      {
+        "id": 3,
+        "question": "Aan welke kant van welke rivier strekt de stad Parijs zich uit ?",
+        "propositions": [
+          "Maas",
+          "Seine",
+          "Rhône",
+          "Garonne"
+        ],
+        "réponse": "Seine",
+        "anecdote": "De stad Parijs beslaat een gebied dat ongeveer tweemaal zo groot is in het noorden, op de rechteroever, als in het zuiden, op de linkeroever."
+      },
+      {
+        "id": 4,
+        "question": "Welk bosrijk gebied bevindt zich in het 16e arrondissement van Parijs ?",
+        "propositions": [
+          "Bois de Boulogne",
+          "Bois de Vincennes",
+          "Parc Monceau",
+          "Buttes-Chaumont"
+        ],
+        "réponse": "Bois de Boulogne",
+        "anecdote": "Met een oppervlakte van 846 ha in het westen van de stad is het Bois de Boulogne een van de longen van de Franse hoofdstad."
+      },
+      {
+        "id": 5,
+        "question": "In welke wijk ligt het hoogste punt van de Franse hoofdstad ?",
+        "propositions": [
+          "Popincourt",
+          "Vaugirard",
+          "Montmartre",
+          "Opera"
+        ],
+        "réponse": "Montmartre",
+        "anecdote": "De twee meest bekende toegangen tot de top van de heuvel zijn de kabelbaan en de trap van de rue Foyatier, met 222 treden."
+      },
+      {
+        "id": 6,
+        "question": "Welk openbaar vervoer biedt tot 20 % van de reizen naar Parijs ?",
+        "propositions": [
+          "Bus",
+          "RER",
+          "Taxi",
+          "Metro"
+        ],
+        "réponse": "Metro",
+        "anecdote": "Het wordt beheerd door de RATP en heeft zestien speciale lijnen, voornamelijk ondergronds, met een totale lengte van bijna 220 kilometer."
+      },
+      {
+        "id": 7,
+        "question": "Welke luchthaven van Ile-de-France ligt 10 km ten zuiden van Parijs ?",
+        "propositions": [
+          "Charles-de-Gaulle",
+          "Orly",
+          "Merignac",
+          "Beauvais"
+        ],
+        "réponse": "Orly",
+        "anecdote": "De luchthaven heeft 270 bedrijven die 25.000 medewerkers vertegenwoordigen, kantoren en 15.000 parkeerplaatsen in 14 parken."
+      },
+      {
+        "id": 8,
+        "question": "Welke kolom is een element van stadsmeubilair dat aanvankelijk Parijse was ?",
+        "propositions": [
+          "Davioud column",
+          "Morris column",
+          "Kolom van Guimard",
+          "Wallace kolom"
+        ],
+        "réponse": "Morris column",
+        "anecdote": "De Morris-kolom is voornamelijk cilindrisch van vorm en wordt gebruikt om shows en films te promoten."
+      },
+      {
+        "id": 9,
+        "question": "Wie werd in 2014 de eerste vrouwelijke burgemeester van Parijs ?",
+        "propositions": [
+          "Gisèle Halimi",
+          "Hélène Hardy",
+          "Christine Herzog",
+          "Anne Hidalgo"
+        ],
+        "réponse": "Anne Hidalgo",
+        "anecdote": "Anne Hidalgo, lid van de PS, heeft de dubbele Frans-Spaanse nationaliteit, maar heeft geen politieke activiteit in Spanje."
+      },
+      {
+        "id": 10,
+        "question": "Welk voetbalstadion heeft Paris Saint-Germain als huidige bewoner ?",
+        "propositions": [
+          "Parc des princes",
+          "Wielerbaan",
+          "Groupama Stadium",
+          "Stade de France"
+        ],
+        "réponse": "Parc des princes",
+        "anecdote": "Het is het op vier na grootste Franse stadion, maar ook een van de oudste en bekendste in de regio Parijs."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wat is de breedste laan van Parijse wegen ?",
+        "propositions": [
+          "Avenue de Neuilly",
+          "Avenue Foch",
+          "Avenue Mozart",
+          "Avenue Matignon"
+        ],
+        "réponse": "Avenue Foch",
+        "anecdote": "Avenue Foch is 1.300 meter lang en 120 meter breed dankzij de tuinen die eraan grenzen."
+      },
+      {
+        "id": 12,
+        "question": "Welke kapel is het symbool van de universiteit van Parijs geworden ?",
+        "propositions": [
+          "Driekoningen",
+          "Sainte-Rita",
+          "Sorbonne",
+          "Père-Lachaise"
+        ],
+        "réponse": "Sorbonne",
+        "anecdote": "De huidige kapel werd in de 17e eeuw herbouwd door kardinaal Richelieu, waarvan het ook het mausoleum was."
+      },
+      {
+        "id": 13,
+        "question": "Wat is de grootste Parijse begraafplaats in Parijs intra muros ?",
+        "propositions": [
+          "Montmartre",
+          "Belleville",
+          "Montparnasse",
+          "Père-Lachaise"
+        ],
+        "réponse": "Père-Lachaise",
+        "anecdote": "Het verwelkomt elk jaar meer dan 3,5 miljoen bezoekers en is daarmee de meest bezochte begraafplaats ter wereld."
+      },
+      {
+        "id": 14,
+        "question": "Welk museum had in 2019 2.091 medewerkers, waaronder 1.232 toezichthouders ?",
+        "propositions": [
+          "Carnavalet Museum",
+          "Rodin Museum",
+          "Musée d'Orsay",
+          "Louvremuseum"
+        ],
+        "réponse": "Louvremuseum",
+        "anecdote": "Met 8 miljoen jaarlijkse bezoekers is het Louvre het meest bezochte museum ter wereld en de meest bezochte betalende culturele site in Frankrijk."
+      },
+      {
+        "id": 15,
+        "question": "Hoeveel bezoekers hebben Parijs in 2017 bezocht ?",
+        "propositions": [
+          "34 miljoen",
+          "19 miljoen",
+          "44 miljoen",
+          "26 miljoen"
+        ],
+        "réponse": "34 miljoen",
+        "anecdote": "Parijs neemt ook een overheersende plaats in in de wereld van mode, luxe en haute cuisine."
+      },
+      {
+        "id": 16,
+        "question": "Wat is de geschatte totale lengte van de Parijse rioleringen ?",
+        "propositions": [
+          "1.800 km",
+          "2.600 km",
+          "2.200 km",
+          "3000 km"
+        ],
+        "réponse": "2.600 km",
+        "anecdote": "De riolen van Parijs zijn sterk geëvolueerd sinds de werken van de prefect Haussmann en de ingenieur Eugène Belgrand."
+      },
+      {
+        "id": 17,
+        "question": "Met welke andere unieke stad in Europa is Parijs verbonden ?",
+        "propositions": [
+          "Rome",
+          "Madrid",
+          "Berlijn",
+          "Athene"
+        ],
+        "réponse": "Rome",
+        "anecdote": "Deze jumelage is geldig in de andere richting, met deze slogan : « Alleen Parijs is Rome waardig, alleen Rome is Parijs waardig »."
+      },
+      {
+        "id": 18,
+        "question": "Voor welk gebouw ligt het nulpunt van de wegen van Frankrijk ?",
+        "propositions": [
+          "Middelbare school Henri-IV",
+          "Onze-Lieve-Vrouw",
+          "Tour Saint-Jacques",
+          "Sainte-Chapelle"
+        ],
+        "réponse": "Onze-Lieve-Vrouw",
+        "anecdote": "Het nulpunt van de wegen in Frankrijk is het nulpunt van Parijs, dat wil zeggen het kilometrische punt 0 van de wegen die de hoofdstad verlaten."
+      },
+      {
+        "id": 19,
+        "question": "Welke Engelse tuin imiteert in Parijs een berglandschap ?",
+        "propositions": [
+          "Invalides",
+          "Trocadero",
+          "Buttes-Chaumont",
+          "Palais-Royal"
+        ],
+        "réponse": "Buttes-Chaumont",
+        "anecdote": "Het is een van de groene ruimtes in Parijs met de grootste val (meer dan 40 m), een erfgoed van de steengroeven van de fundamenten."
+      },
+      {
+        "id": 20,
+        "question": "Wat is de langste straat in het intramurale Parijs met een lengte van meer dan vier kilometer ?",
+        "propositions": [
+          "Rue de Paradis",
+          "Rue de Vaugirard",
+          "Rue La Fayette",
+          "Rue Lecourbe"
+        ],
+        "réponse": "Rue de Vaugirard",
+        "anecdote": "Met een lengte van 4.360 meter komt de rue de Vaugirard, die het 6e en 15e arrondissement doorkruist, overeen met 407 gebouwnummers."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In hoeveel gemeentelijke wijken is de stad Parijs verdeeld ?",
+        "propositions": [
+          "Acht",
+          "Twaalf",
+          "Zestien",
+          "Twintig"
+        ],
+        "réponse": "Twintig",
+        "anecdote": "De districten, in hun huidige staat, werden afgebakend door de wet van 16 juni 1859, waardoor hun aantal steeg van twaalf naar twintig."
+      },
+      {
+        "id": 22,
+        "question": "Welke Parijse business school is een van de meest erkende ter wereld ?",
+        "propositions": [
+          "UTC",
+          "HEC",
+          "PSB",
+          "ICAM"
+        ],
+        "réponse": "HEC",
+        "anecdote": "De school bevindt zich in het noordelijke deel van de toekomstige technologische cluster Parijs-Saclay, die 25% van het openbare onderzoek moet verzamelen."
+      },
+      {
+        "id": 23,
+        "question": "Welk commercieel evenement vindt elk jaar eind april plaats in Parijs ?",
+        "propositions": [
+          "Duizend kolommen",
+          "Troonbeurs",
+          "Beurs van Parijs",
+          "Stranden van Parijs"
+        ],
+        "réponse": "Beurs van Parijs",
+        "anecdote": "De Parijse beurs, die sinds 1904 in Parijs wordt georganiseerd, wordt sinds 1923 gehouden in het expositiecentrum Porte de Versailles."
+      },
+      {
+        "id": 24,
+        "question": "Wat is het oudste ziekenhuis van de Franse hoofdstad ?",
+        "propositions": [
+          "Raymond Sans",
+          "Jammer Ziekenhuis",
+          "Alphonse Gardie",
+          "Hôtel-Dieu"
+        ],
+        "réponse": "Hôtel-Dieu",
+        "anecdote": "Al 50 jaar zet hij zich bijna uitsluitend in voor het opsporen, behandelen en voorkomen van complicaties door diabetes mellitus."
+      },
+      {
+        "id": 25,
+        "question": "Welke rivier, nu volledig ondergronds, doorkruist Parijs ?",
+        "propositions": [
+          "Hagedis",
+          "Essonne",
+          "Bièvre",
+          "Sarce"
+        ],
+        "réponse": "Bièvre",
+        "anecdote": "De Bièvre is een rivier die zijn oorsprong vindt in Guyancourt en uitmondt in de belangrijkste verzamelaar van de Parijse riolering."
+      },
+      {
+        "id": 26,
+        "question": "Welke Franse organisatie controleert luchtverontreiniging in Parijs ?",
+        "propositions": [
+          "Globice",
+          "Enercoop",
+          "Bloom",
+          "Airparif"
+        ],
+        "réponse": "Airparif",
+        "anecdote": "Metingen die onderworpen zijn aan laboratoriumanalyses van ongeveer zestig verontreinigende stoffen maken het stationsysteem compleet."
+      },
+      {
+        "id": 27,
+        "question": "Welke beroemde fonteinen werden voor het eerst in Parijs opgericht ?",
+        "propositions": [
+          "Wallace",
+          "Morris",
+          "Barnett",
+          "Miller"
+        ],
+        "réponse": "Wallace",
+        "anecdote": "Ze zijn ontworpen door Charles-Auguste Lebourg en ontlenen hun naam aan Richard Wallace, een Engelse filantroop die hun constructie financierde."
+      },
+      {
+        "id": 28,
+        "question": "Welk percentage van de stedelijke woningvoorraad vertegenwoordigt de sociale woningbouw in Parijs ?",
+        "propositions": [
+          "47 %",
+          "27 %",
+          "17 %",
+          "37 %"
+        ],
+        "réponse": "17 %",
+        "anecdote": "De eerste tien wijken van het historische centrum beslaan slechts 6 % van de sociale woningen van de stad, 23 % van het totale park."
+      },
+      {
+        "id": 29,
+        "question": "Welke passage is een hoge plaats van de Indo-Pakistaanse immigratie in Parijs ?",
+        "propositions": [
+          "Passage Puteaux",
+          "Passage Vendôme",
+          "Prado Passage",
+          "Brady Passage"
+        ],
+        "réponse": "Brady Passage",
+        "anecdote": "De naam van de straat verwijst naar een eigenaar van het land, de heer Brady, een handelaar gevestigd op 46 du faubourg Saint-Denis."
+      },
+      {
+        "id": 30,
+        "question": "Wat is het oudste plein van Parijs, net voor Place Dauphine ?",
+        "propositions": [
+          "Place d'Armes",
+          "Plaats Stanislas",
+          "Place des Vosges",
+          "Place des Victoires"
+        ],
+        "réponse": "Place des Vosges",
+        "anecdote": "Place des Vosges staat bekend als de woonplaats van verschillende persoonlijkheden uit de politieke en artistieke wereld."
+      }
+    ]
+    }
+  }
+}

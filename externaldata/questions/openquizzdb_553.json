@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Jaubert",       
+  "difficulté": "2 / 5",
+  "version": 5,
+  "mise-à-jour": "2023-07-15",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Informatique",
+      "nom": "Informatique pro",
+      "slogan": "Pour les férus de technologie"
+    },
+    "en": {
+      "catégorie": "Computer science",
+      "nom": "IT pro",
+      "slogan": "For the tech-savvy"
+    },
+    "es": {
+      "catégorie": "Ciencias de la Computación",
+      "nom": "Profesional de TI",
+      "slogan": "Para los expertos en tecnología"
+    },
+    "it": {
+      "catégorie": "Informatica",
+      "nom": "Professionista IT",
+      "slogan": "Per gli esperti di tecnologia"
+    },
+    "de": {
+      "catégorie": "Informatik",
+      "nom": "IT-Profi",
+      "slogan": "Für Technikbegeisterte"
+    },
+    "nl": {
+      "catégorie": "Computertechnologie",
+      "nom": "IT-professional",
+      "slogan": "Voor de technisch onderlegde"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle personne est chargée de l'écriture d'un programme informatique ?",
+        "propositions": [
+          "Hacker",
+          "Programmateur",
+          "Webmaster",
+          "Développeur"
+        ],
+        "réponse": "Développeur",
+        "anecdote": "Pour répondre aux besoins d'un client, il établit dans un premier temps un cahier des charges qui détermine les besoins du client."
+      },
+      {
+        "id": 2,
+        "question": "Quelle unité de mesure définit la précision d'une souris optique ?",
+        "propositions": [
+          "LUX",
+          "WATT",
+          "DPI",
+          "OHM"
+        ],
+        "réponse": "DPI",
+        "anecdote": "Plus la valeur est élevée, plus la distance maximum de déplacement du pointeur est élevée par rapport au mouvement effectué."
+      },
+      {
+        "id": 3,
+        "question": "Quel type de connecteur n'a jamais été utilisé pour connecter un clavier ?",
+        "propositions": [
+          "PS/2",
+          "DIN",
+          "USB",
+          "MINI-JACK"
+        ],
+        "réponse": "MINI-JACK",
+        "anecdote": "L'appellation jack est utilisée pour désigner plusieurs types de connecteurs, en versions femelle et mâle, d'où confusions."
+      },
+      {
+        "id": 4,
+        "question": "Comment sont les données d'un site internet accessible en HTTPS ?",
+        "propositions": [
+          "Permanentes",
+          "Temporaires",
+          "Statiques",
+          "Chiffrées"
+        ],
+        "réponse": "Chiffrées",
+        "anecdote": "HTTPS permet au visiteur de vérifier l'identité du site web visité grâce à un certificat d'authentification émis par une autorité tierce."
+      },
+      {
+        "id": 5,
+        "question": "Laquelle de ces technologies n'est pas utilisée pour un ordinateur de bureau ?",
+        "propositions": [
+          "E-INK",
+          "LCD",
+          "CRT",
+          "OLED"
+        ],
+        "réponse": "E-INK",
+        "anecdote": "Contrairement aux techniques d'affichage classiques, le papier électronique est purement réflectif et utilise la lumière ambiante."
+      },
+      {
+        "id": 6,
+        "question": "Laquelle de ces suites bureautiques ne possède pas d'application de bureau ?",
+        "propositions": [
+          "Google Documents",
+          "Libre Office",
+          "Open Office",
+          "Microsoft 365"
+        ],
+        "réponse": "Google Documents",
+        "anecdote": "Les trois applications sont disponibles comme applications Web, applications Chrome hors ligne et applications mobiles."
+      },
+      {
+        "id": 7,
+        "question": "En informatique, laquelle de ces dispositions de clavier n'existe pas ?",
+        "propositions": [
+          "QÜERTY",
+          "AZERTEX",
+          "QWERTZ",
+          "AZERTY"
+        ],
+        "réponse": "AZERTEX",
+        "anecdote": "À l'instar du QWERTY, la disposition AZERTY est fréquemment critiquée pour son manque d'ergonomie, d'où les AZERTY étendus."
+      },
+      {
+        "id": 8,
+        "question": "En code ASCII, quelle est l'intervalle de valeur des caractères 0 à 9 ?",
+        "propositions": [
+          "121 à 174",
+          "48 à 57",
+          "21 à 36",
+          "74 à 79"
+        ],
+        "réponse": "48 à 57",
+        "anecdote": "ASCII suffit pour représenter les textes en anglais, mais trop limité pour les autres langues, dont le français et ses lettres accentuées."
+      },
+      {
+        "id": 9,
+        "question": "Que contient un document dont le format de fichier porte l'extension mkv ?",
+        "propositions": [
+          "E-mail",
+          "Image",
+          "Audio et vidéo",
+          "Musique"
+        ],
+        "réponse": "Audio et vidéo",
+        "anecdote": "Le format Matroska peut regrouper dans un même fichier des flux vidéo, flux audio, ainsi que plusieurs sous-titres et des chapitres."
+      },
+      {
+        "id": 10,
+        "question": "Comment qualifier le mieux un fichier informatique portant l'extension zip ?",
+        "propositions": [
+          "Lien",
+          "Tableur",
+          "Archive",
+          "Exécutable"
+        ],
+        "réponse": "Archive",
+        "anecdote": "Le format a été inventé par Phil Katz pour le logiciel PKZIP, conçu en réponse à un problème de droits entre PKARC et ARC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Comment traduire le terme « unité de traitement graphique » en anglais ?",
+        "propositions": [
+          "DPI",
+          "USB",
+          "GPU",
+          "DIN"
+        ],
+        "réponse": "GPU",
+        "anecdote": "On parle aussi de processeur vidéo pour désigner un processeur de traitement de signal, utilisé pour le décodage de vidéos."
+      },
+      {
+        "id": 12,
+        "question": "Quel type d'unité centrale le terme CPU signifie-t-il en français ?",
+        "propositions": [
+          "Graphique",
+          "De calcul",
+          "Statique",
+          "Aléatoire"
+        ],
+        "réponse": "De calcul",
+        "anecdote": "Un processeur comporte de nombreux dispositifs électroniques exécutant les instructions machine de logiciels informatiques."
+      },
+      {
+        "id": 13,
+        "question": "Si ROM désigne la mémoire morte, quel terme désigne la mémoire vive ?",
+        "propositions": [
+          "RUM",
+          "RAM",
+          "RIM",
+          "REM"
+        ],
+        "réponse": "RAM",
+        "anecdote": "La RAM est la mémoire informatique dans laquelle peuvent être enregistrées les informations traitées par un appareil informatique."
+      },
+      {
+        "id": 14,
+        "question": "Quels disques statiques à semi-conducteurs sont aujourd'hui utilisés ?",
+        "propositions": [
+          "SSD",
+          "PCI",
+          "SATA",
+          "RPM"
+        ],
+        "réponse": "SSD",
+        "anecdote": "Le terme anglais « solid-state » signifie que ce matériel est constitué de mémoires à semi-conducteurs à l'état solide."
+      },
+      {
+        "id": 15,
+        "question": "Laquelle de ces interfaces d'affichage vidéo est la plus ancienne ?",
+        "propositions": [
+          "VGA",
+          "HDMI",
+          "DSP",
+          "DVI"
+        ],
+        "réponse": "VGA",
+        "anecdote": "La spécification de Microsoft PC 99 a attribué la couleur bleue aux connecteurs VGA, rapidement conformée par les fabricants."
+      },
+      {
+        "id": 16,
+        "question": "Dans l'URL https://www.openquizzdb.org, quel est le protocole utilisé ?",
+        "propositions": [
+          "www",
+          "org",
+          "openquizzdb",
+          "https"
+        ],
+        "réponse": "https",
+        "anecdote": "HTTPS permet au visiteur de vérifier l'identité du site web visité grâce à un certificat d'authentification émis par une autorité tierce."
+      },
+      {
+        "id": 17,
+        "question": "Dans l'URL https://www.data.gouv.fr, quel est le domaine de premier niveau ?",
+        "propositions": [
+          "fr",
+          "data",
+          "gouv",
+          "www"
+        ],
+        "réponse": "fr",
+        "anecdote": "Le but d'un nom de domaine est de retenir et communiquer facilement l'adresse d'un ensemble de serveurs (site web, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "Quel modèle d'architecture réseau permet à deux machines de communiquer ?",
+        "propositions": [
+          "IP",
+          "Ethernet",
+          "Wifi",
+          "P2P"
+        ],
+        "réponse": "P2P",
+        "anecdote": "Dans ce modèle d'échange en réseau, chaque entité est à la fois client et serveur, contrairement au modèle client-serveur."
+      },
+      {
+        "id": 19,
+        "question": "Laquelle de ces interfaces d'affichage vidéo est la plus récente ?",
+        "propositions": [
+          "DVI",
+          "VGA",
+          "DisplayPort",
+          "HDMI"
+        ],
+        "réponse": "DisplayPort",
+        "anecdote": "Les détenteurs d'origine de la technologie DisplayPort sont Hitachi Maxell, Koninklijke Philips, Silicon Image et Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "Que signifie le code 404 que l'on peut retrouver sur certaines pages du web ?",
+        "propositions": [
+          "Sous surveillance",
+          "Non trouvée",
+          "En développement",
+          "Non traduite"
+        ],
+        "réponse": "Non trouvée",
+        "anecdote": "Il existe plusieurs causes possibles à cette erreur, la ressource demandée ayant été supprimée ou placée à une autre adresse."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En informatique, quel entier équivaut à la valeur hexadécimale F ?",
+        "propositions": [
+          "5",
+          "15",
+          "20",
+          "10"
+        ],
+        "réponse": "15",
+        "anecdote": "Le système hexadécimal utilise 16 symboles, les chiffres arabes pour les dix premiers chiffres et les lettres A à F pour les six suivants."
+      },
+      {
+        "id": 22,
+        "question": "En informatique, quelle valeur hexadécimale équivaut à l'entier 14 ?",
+        "propositions": [
+          "E",
+          "H",
+          "F",
+          "A"
+        ],
+        "réponse": "E",
+        "anecdote": "Le système hexadécimal est utilisé notamment en électronique numérique et en informatique car il est particulièrement commode."
+      },
+      {
+        "id": 23,
+        "question": "Quel est l'autre nom de la modalité d'accès de mémoire CMR ?",
+        "propositions": [
+          "SMR",
+          "PMR",
+          "LMR",
+          "TMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "Cette technique est censée offrir une densité de 3 à 10 fois supérieure à un enregistrement classique, sur le même support."
+      },
+      {
+        "id": 24,
+        "question": "Sur combien d'octets est codé une adresse internet IPv4 ?",
+        "propositions": [
+          "16 octets",
+          "4 octets",
+          "1 octet",
+          "8 octets"
+        ],
+        "réponse": "4 octets",
+        "anecdote": "La version 4, actuellement la plus utilisée, est représentée en notation décimale avec quatre nombres compris entre 0 et 255."
+      },
+      {
+        "id": 25,
+        "question": "Que vaut l'entier 4 si vous choisissez de le coder en binaire ?",
+        "propositions": [
+          "0101",
+          "1001",
+          "0100",
+          "1100"
+        ],
+        "réponse": "0100",
+        "anecdote": "Un code binaire représente un texte, des instructions de processeur ou toute autre donnée utilisant un système à deux symboles."
+      },
+      {
+        "id": 26,
+        "question": "Le codage UTF-8 est utilisé pour encoder quel type de données ?",
+        "propositions": [
+          "Images",
+          "Caractères",
+          "Vidéo",
+          "Audio"
+        ],
+        "réponse": "Caractères",
+        "anecdote": "Initialement développé par l'ISO dans la norme internationale ISO/CEI 10646, l'UTF-8 est compatible avec le standard Unicode."
+      },
+      {
+        "id": 27,
+        "question": "Quel est le système de fichier par défaut de macOS 10.13 et ultérieur ?",
+        "propositions": [
+          "APFS",
+          "FAT32",
+          "NTFS",
+          "ExFAT"
+        ],
+        "réponse": "APFS",
+        "anecdote": "Le système APFS vise à corriger les problèmes du système de fichiers existant HFS+, anciennement utilisé sur ces plateformes."
+      },
+      {
+        "id": 28,
+        "question": "Quel protocole de messagerie prend seulement en charge l'envoi d'e-mails ?",
+        "propositions": [
+          "SMTP",
+          "IGMP",
+          "POP3",
+          "IMAP"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP est un protocole de communication utilisé pour transférer le courriel vers les serveurs de messagerie électronique."
+      },
+      {
+        "id": 29,
+        "question": "En code ASCII, quelle est la valeur du caractère A majuscule ?",
+        "propositions": [
+          "65",
+          "1",
+          "0",
+          "255"
+        ],
+        "réponse": "65",
+        "anecdote": "Les caractères de numéro 0 à 31 et le 127 ne sont pas affichables, correspondant à des commandes de contrôle de terminal."
+      },
+      {
+        "id": 30,
+        "question": "Quel serveur a en charge la résolution des noms de domaine ?",
+        "propositions": [
+          "HTTP",
+          "FTP",
+          "DNS",
+          "SSH"
+        ],
+        "réponse": "DNS",
+        "anecdote": "DNS est un service distribué qui associe les noms de domaine Internet avec leurs adresses IP ou d'autres types d'enregistrements."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Who is responsible for writing a computer program ?",
+        "propositions": [
+          "Programmer",
+          "Developer",
+          "webmaster",
+          "hacker"
+        ],
+        "réponse": "Developer",
+        "anecdote": "To meet the needs of a client, he first establishes specifications that determine the client's needs."
+      },
+      {
+        "id": 2,
+        "question": "What unit of measurement defines the precision of an optical mouse ?",
+        "propositions": [
+          "OHM",
+          "LUX",
+          "IPR",
+          "WATT"
+        ],
+        "réponse": "IPR",
+        "anecdote": "The higher the value, the greater the maximum distance the pointer can move relative to the movement performed."
+      },
+      {
+        "id": 3,
+        "question": "What type of connector has never been used to connect a keyboard ?",
+        "propositions": [
+          "PS/2",
+          "USB",
+          "MINI JACK",
+          "DIN"
+        ],
+        "réponse": "MINI JACK",
+        "anecdote": "The name jack is used to designate several types of connectors, in female and male versions, hence the confusion."
+      },
+      {
+        "id": 4,
+        "question": "How is the data of a website accessible in HTTPS ?",
+        "propositions": [
+          "Encrypted",
+          "Statics",
+          "Permanent",
+          "Temporary"
+        ],
+        "réponse": "Encrypted",
+        "anecdote": "HTTPS allows the visitor to verify the identity of the website visited using an authentication certificate issued by a third-party authority."
+      },
+      {
+        "id": 5,
+        "question": "Which of these technologies is not used for a desktop computer ?",
+        "propositions": [
+          "E-INK",
+          "OLED",
+          "CRT",
+          "LCD"
+        ],
+        "réponse": "E-INK",
+        "anecdote": "Unlike conventional display techniques, electronic paper is purely reflective and uses ambient light."
+      },
+      {
+        "id": 6,
+        "question": "Which of these office suites does not have a desktop application ?",
+        "propositions": [
+          "Open Office",
+          "Microsoft 365",
+          "Google Docs",
+          "LibreOffice"
+        ],
+        "réponse": "Google Docs",
+        "anecdote": "All three apps are available as web apps, offline chrome apps, and mobile apps."
+      },
+      {
+        "id": 7,
+        "question": "In computing, which of these keyboard layouts does not exist ?",
+        "propositions": [
+          "QUERTY",
+          "QWERTZ",
+          "AZERTY",
+          "AZERTEX"
+        ],
+        "réponse": "AZERTEX",
+        "anecdote": "Like QWERTY, the AZERTY layout is frequently criticized for its lack of ergonomics, hence the extended AZERTYs."
+      },
+      {
+        "id": 8,
+        "question": "In ASCII code, what is the value range of characters 0 to 9 ?",
+        "propositions": [
+          "21 to 36",
+          "74 to 79",
+          "48 to 57",
+          "121 to 174"
+        ],
+        "réponse": "48 to 57",
+        "anecdote": "ASCII is sufficient to represent texts in English, but too limited for other languages, including French and its accented letters."
+      },
+      {
+        "id": 9,
+        "question": "What does a document whose file format has the extension mkv contain ?",
+        "propositions": [
+          "Audio and video",
+          "Email",
+          "Picture",
+          "Music"
+        ],
+        "réponse": "Audio and video",
+        "anecdote": "The Matroska format can combine video streams, audio streams, as well as several subtitles and chapters in the same file."
+      },
+      {
+        "id": 10,
+        "question": "How best to qualify a computer file with the zip extension ?",
+        "propositions": [
+          "Executable",
+          "Spreadsheet",
+          "Link",
+          "Archive"
+        ],
+        "réponse": "Archive",
+        "anecdote": "The format was invented by Phil Katz for the PKZIP software, designed in response to a rights issue between PKARC and ARC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "How to translate the term « graphics processing unit » in English ?",
+        "propositions": [
+          "GPUs",
+          "USB",
+          "DIN",
+          "IPR"
+        ],
+        "réponse": "GPUs",
+        "anecdote": "We also speak of video processor to designate a signal processing processor, used for the decoding of videos."
+      },
+      {
+        "id": 12,
+        "question": "What type of central unit does the term CPU mean in French ?",
+        "propositions": [
+          "Static",
+          "Chart",
+          "Calculation",
+          "Random"
+        ],
+        "réponse": "Calculation",
+        "anecdote": "A processor consists of many electronic devices that execute the machine instructions of computer software."
+      },
+      {
+        "id": 13,
+        "question": "If ROM stands for read-only memory, what term stands for RAM ?",
+        "propositions": [
+          "RIM",
+          "RUM",
+          "REM",
+          "RAM"
+        ],
+        "réponse": "RAM",
+        "anecdote": "RAM is the computer memory in which information processed by a computing device can be stored."
+      },
+      {
+        "id": 14,
+        "question": "What solid-state drives are in use today ?",
+        "propositions": [
+          "PCI",
+          "SATA",
+          "SSD",
+          "RPM"
+        ],
+        "réponse": "SSD",
+        "anecdote": "The English term « solid-state » means that this hardware is made of solid-state semiconductor memories."
+      },
+      {
+        "id": 15,
+        "question": "Which of these video display interfaces is the oldest ?",
+        "propositions": [
+          "DVI",
+          "HDMI",
+          "DSP",
+          "VGA"
+        ],
+        "réponse": "VGA",
+        "anecdote": "The Microsoft PC 99 specification assigned the color blue to VGA connectors, which manufacturers quickly complied with."
+      },
+      {
+        "id": 16,
+        "question": "In the URL https://www.openquizzdb.org, what is the protocol used ?",
+        "propositions": [
+          "www",
+          "https",
+          "openquizzdb",
+          "org"
+        ],
+        "réponse": "https",
+        "anecdote": "HTTPS allows the visitor to verify the identity of the website visited using an authentication certificate issued by a third-party authority."
+      },
+      {
+        "id": 17,
+        "question": "In the URL https://www.data.gouv.fr, what is the top level domain ?",
+        "propositions": [
+          "www",
+          "fr",
+          "data",
+          "gouv"
+        ],
+        "réponse": "fr",
+        "anecdote": "The purpose of a domain name is to easily retain and communicate the address of a set of servers (website, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "Which network architecture model allows two machines to communicate ?",
+        "propositions": [
+          "Wi-Fi",
+          "P2P",
+          "Ethernet",
+          "IP"
+        ],
+        "réponse": "P2P",
+        "anecdote": "In this network exchange model, each entity is both client and server, unlike the client-server model."
+      },
+      {
+        "id": 19,
+        "question": "Which of these video display interfaces is newer ?",
+        "propositions": [
+          "Display Port",
+          "HDMI",
+          "DVI",
+          "VGA"
+        ],
+        "réponse": "Display Port",
+        "anecdote": "The original owners of DisplayPort technology are Hitachi Maxell, Koninklijke Philips, Silicon Image and Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "What does the 404 code that can be found on certain web pages mean ?",
+        "propositions": [
+          "In development",
+          "Under surveillance",
+          "Not translated",
+          "Not found"
+        ],
+        "réponse": "Not found",
+        "anecdote": "There are several possible causes for this error, the requested resource having been deleted or placed at another address."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In computing, what integer is equivalent to the hexadecimal value F ?",
+        "propositions": [
+          "20",
+          "5",
+          "10",
+          "15"
+        ],
+        "réponse": "15",
+        "anecdote": "The hexadecimal system uses 16 symbols, Arabic numerals for the first ten digits and the letters A to F for the next six."
+      },
+      {
+        "id": 22,
+        "question": "In computing, what hexadecimal value is equivalent to the integer 14 ?",
+        "propositions": [
+          "H",
+          "A",
+          "E",
+          "F"
+        ],
+        "réponse": "E",
+        "anecdote": "The hexadecimal system is used in particular in digital electronics and in computing because it is particularly convenient."
+      },
+      {
+        "id": 23,
+        "question": "What is another name for the CMR memory access modality ?",
+        "propositions": [
+          "PMR",
+          "MRL",
+          "RSM",
+          "TMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "This technique is supposed to offer a density of 3 to 10 times higher than a classic recording, on the same medium."
+      },
+      {
+        "id": 24,
+        "question": "How many bytes is an IPv4 address encoded ?",
+        "propositions": [
+          "8 bytes",
+          "16 bytes",
+          "1 byte",
+          "4 bytes"
+        ],
+        "réponse": "4 bytes",
+        "anecdote": "Version 4, currently the most widely used, is represented in decimal notation with four numbers between 0 and 255."
+      },
+      {
+        "id": 25,
+        "question": "What is the integer 4 worth if you choose to encode it in binary ?",
+        "propositions": [
+          "0101",
+          "1100",
+          "1001",
+          "0100"
+        ],
+        "réponse": "0100",
+        "anecdote": "A binary code represents text, processor instructions, or any other data using a two-symbol system."
+      },
+      {
+        "id": 26,
+        "question": "UTF-8 encoding is used to encode what type of data ?",
+        "propositions": [
+          "Audio",
+          "Characters",
+          "Pictures",
+          "Video"
+        ],
+        "réponse": "Characters",
+        "anecdote": "Initially developed by ISO in the international standard ISO/IEC 10646, UTF-8 is compatible with the Unicode standard."
+      },
+      {
+        "id": 27,
+        "question": "What is the default file system of macOS 10.13 and later ?",
+        "propositions": [
+          "NTFS",
+          "APFS",
+          "ExFAT",
+          "FAT32"
+        ],
+        "réponse": "APFS",
+        "anecdote": "The APFS system aims to correct the problems of the existing HFS+ file system, formerly used on these platforms."
+      },
+      {
+        "id": 28,
+        "question": "Which email protocol only supports sending emails ?",
+        "propositions": [
+          "IGMP",
+          "SMTP",
+          "IMAP",
+          "POP3"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP is a communication protocol used to transfer email to email servers."
+      },
+      {
+        "id": 29,
+        "question": "In ASCII code, what is the value of the uppercase A character ?",
+        "propositions": [
+          "255",
+          "0",
+          "65",
+          "1"
+        ],
+        "réponse": "65",
+        "anecdote": "Number characters 0 to 31 and 127 are not displayable, corresponding to terminal control commands."
+      },
+      {
+        "id": 30,
+        "question": "Which server is in charge of domain name resolution ?",
+        "propositions": [
+          "DNS",
+          "HTTP",
+          "SSH",
+          "FTP"
+        ],
+        "réponse": "DNS",
+        "anecdote": "DNS is a distributed service that associates Internet domain names with their IP addresses or other types of records."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wer ist für das Schreiben eines Computerprogramms verantwortlich ?",
+        "propositions": [
+          "Entwickler",
+          "Hacker",
+          "Programmierer",
+          "Webmaster"
+        ],
+        "réponse": "Entwickler",
+        "anecdote": "Um den Bedürfnissen eines Kunden gerecht zu werden, erstellt er zunächst Spezifikationen, die die Bedürfnisse des Kunden ermitteln."
+      },
+      {
+        "id": 2,
+        "question": "Welche Maßeinheit definiert die Präzision einer optischen Maus ?",
+        "propositions": [
+          "WATT",
+          "OHM",
+          "LUX",
+          "DPI"
+        ],
+        "réponse": "DPI",
+        "anecdote": "Je höher der Wert, desto größer ist die maximale Distanz, die der Zeiger relativ zur ausgeführten Bewegung bewegen kann."
+      },
+      {
+        "id": 3,
+        "question": "Welcher Steckertyp wurde noch nie zum Anschließen einer Tastatur verwendet ?",
+        "propositions": [
+          "USB",
+          "PS/2",
+          "DIN",
+          "MINIJACK"
+        ],
+        "réponse": "MINIJACK",
+        "anecdote": "Der Name Buchse wird zur Bezeichnung mehrerer Arten von Steckverbindern verwendet, in weiblicher und männlicher Ausführung, daher die Verwirrung."
+      },
+      {
+        "id": 4,
+        "question": "Wie sind die Daten einer Website in HTTPS zugänglich ?",
+        "propositions": [
+          "Temporär",
+          "Permanent",
+          "Verschlüsselt",
+          "Statik"
+        ],
+        "réponse": "Verschlüsselt",
+        "anecdote": "HTTPS ermöglicht es dem Besucher, die Identität der besuchten Website mithilfe eines von einer Drittstelle ausgestellten Authentifizierungszertifikats zu überprüfen."
+      },
+      {
+        "id": 5,
+        "question": "Welche dieser Technologien wird nicht für einen Desktop-Computer verwendet ?",
+        "propositions": [
+          "CRT",
+          "OLED",
+          "LCD",
+          "E-INK"
+        ],
+        "réponse": "E-INK",
+        "anecdote": "Im Gegensatz zu herkömmlichen Anzeigetechniken ist elektronisches Papier rein reflektierend und nutzt Umgebungslicht."
+      },
+      {
+        "id": 6,
+        "question": "Welche dieser Office-Suiten verfügt nicht über eine Desktop-Anwendung ?",
+        "propositions": [
+          "Offenes Büro",
+          "Google Docs",
+          "Microsoft 365",
+          "LibreOffice"
+        ],
+        "réponse": "Google Docs",
+        "anecdote": "Alle drei Apps sind als Web-Apps, Offline-Chrome-Apps und mobile Apps verfügbar."
+      },
+      {
+        "id": 7,
+        "question": "Welches dieser Tastaturlayouts gibt es im Computerbereich nicht ?",
+        "propositions": [
+          "QUERTY",
+          "AZERTY",
+          "QWERTZ",
+          "AZERTEX"
+        ],
+        "réponse": "AZERTEX",
+        "anecdote": "Wie QWERTY wird auch das AZERTY-Layout häufig wegen seiner mangelnden Ergonomie kritisiert, daher die erweiterten AZERTYs."
+      },
+      {
+        "id": 8,
+        "question": "Was ist im ASCII-Code der Wertebereich der Zeichen 0 bis 9 ?",
+        "propositions": [
+          "21 bis 36",
+          "121 bis 174",
+          "74 bis 79",
+          "48 bis 57"
+        ],
+        "réponse": "48 bis 57",
+        "anecdote": "ASCII reicht aus, um Texte auf Englisch darzustellen, ist jedoch für andere Sprachen, einschließlich Französisch und seine Buchstaben mit Akzent, zu begrenzt."
+      },
+      {
+        "id": 9,
+        "question": "Was enthält ein Dokument, dessen Dateiformat die Erweiterung mkv hat ?",
+        "propositions": [
+          "E-Mail",
+          "Bild",
+          "Audio und Video",
+          "Musik"
+        ],
+        "réponse": "Audio und Video",
+        "anecdote": "Das Matroska-Format kann Videostreams, Audiostreams sowie mehrere Untertitel und Kapitel in derselben Datei kombinieren."
+      },
+      {
+        "id": 10,
+        "question": "Wie qualifiziert man eine Computerdatei am besten mit der Zip-Erweiterung ?",
+        "propositions": [
+          "Link",
+          "Tabellenkalkulation",
+          "Ausführbar",
+          "Archiv"
+        ],
+        "réponse": "Archiv",
+        "anecdote": "Das Format wurde von Phil Katz für die PKZIP-Software erfunden und als Reaktion auf eine Rechtefrage zwischen PKARC und ARC entwickelt."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Wie übersetzt man den Begriff « Grafikverarbeitungseinheit » auf Englisch ?",
+        "propositions": [
+          "GPUs",
+          "DIN",
+          "USB",
+          "DPI"
+        ],
+        "réponse": "GPUs",
+        "anecdote": "Wir sprechen auch von Videoprozessor, um einen Signalverarbeitungsprozessor zu bezeichnen, der für die Decodierung von Videos verwendet wird."
+      },
+      {
+        "id": 12,
+        "question": "Welche Art von Zentraleinheit bedeutet der Begriff CPU auf Französisch ?",
+        "propositions": [
+          "Zufällig",
+          "Statisch",
+          "Berechnung",
+          "Diagramm"
+        ],
+        "réponse": "Berechnung",
+        "anecdote": "Ein Prozessor besteht aus vielen elektronischen Geräten, die die Maschinenanweisungen von Computersoftware ausführen."
+      },
+      {
+        "id": 13,
+        "question": "Wenn ROM für Nur-Lese-Speicher steht, welcher Begriff steht dann für RAM ?",
+        "propositions": [
+          "RIM",
+          "REM",
+          "RAM",
+          "RUM"
+        ],
+        "réponse": "RAM",
+        "anecdote": "RAM ist der Computerspeicher, in dem von einem Computergerät verarbeitete Informationen gespeichert werden können."
+      },
+      {
+        "id": 14,
+        "question": "Welche Solid-State-Laufwerke werden heute verwendet ?",
+        "propositions": [
+          "PCI",
+          "SATA",
+          "SSD",
+          "RPM"
+        ],
+        "réponse": "SSD",
+        "anecdote": "Der englische Begriff « solid-state » bedeutet, dass diese Hardware aus Festkörper-Halbleiterspeichern besteht."
+      },
+      {
+        "id": 15,
+        "question": "Welche dieser Videoanzeigeschnittstellen ist die älteste ?",
+        "propositions": [
+          "DSP",
+          "HDMI",
+          "VGA",
+          "DVI"
+        ],
+        "réponse": "VGA",
+        "anecdote": "Die Microsoft PC 99-Spezifikation ordnete den VGA-Anschlüssen die Farbe Blau zu, was die Hersteller schnell nachkamen."
+      },
+      {
+        "id": 16,
+        "question": "Welches Protokoll wird in der URL https://www.openquizzdb.org verwendet ?",
+        "propositions": [
+          "openquizzdb",
+          "www",
+          "https",
+          "org"
+        ],
+        "réponse": "https",
+        "anecdote": "HTTPS ermöglicht es dem Besucher, die Identität der besuchten Website mithilfe eines von einer Drittstelle ausgestellten Authentifizierungszertifikats zu überprüfen."
+      },
+      {
+        "id": 17,
+        "question": "Was ist in der URL https://www.data.gouv.fr die Top-Level-Domain ?",
+        "propositions": [
+          "data",
+          "fr",
+          "gouv",
+          "www"
+        ],
+        "réponse": "fr",
+        "anecdote": "Der Zweck eines Domänennamens besteht darin, die Adresse einer Reihe von Servern (Website, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "Welches Netzwerkarchitekturmodell ermöglicht die Kommunikation zweier Maschinen ?",
+        "propositions": [
+          "WLAN",
+          "Ethernet",
+          "P2P",
+          "IP"
+        ],
+        "réponse": "P2P",
+        "anecdote": "Bei diesem Netzwerkaustauschmodell ist jede Entität sowohl Client als auch Server, anders als beim Client-Server-Modell."
+      },
+      {
+        "id": 19,
+        "question": "Welche dieser Videoanzeigeschnittstellen ist neuer ?",
+        "propositions": [
+          "DVI",
+          "VGA",
+          "HDMI",
+          "Display-Port"
+        ],
+        "réponse": "Display-Port",
+        "anecdote": "Die ursprünglichen Eigentümer der DisplayPort-Technologie sind Hitachi Maxell, Koninklijke Philips, Silicon Image und Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "Was bedeutet der 404-Code, der auf bestimmten Webseiten zu finden ist ?",
+        "propositions": [
+          "Unter Beobachtung",
+          "Nicht übersetzt",
+          "In Entwicklung",
+          "Nicht gefunden"
+        ],
+        "réponse": "Nicht gefunden",
+        "anecdote": "Es gibt mehrere mögliche Ursachen für diesen Fehler : Die angeforderte Ressource wurde gelöscht oder an einer anderen Adresse abgelegt."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welche Ganzzahl entspricht beim Rechnen dem Hexadezimalwert F ?",
+        "propositions": [
+          "15",
+          "20",
+          "5",
+          "10"
+        ],
+        "réponse": "15",
+        "anecdote": "Das Hexadezimalsystem verwendet 16 Symbole, arabische Ziffern für die ersten zehn Ziffern und die Buchstaben A bis F für die nächsten sechs."
+      },
+      {
+        "id": 22,
+        "question": "Welcher Hexadezimalwert entspricht in der Informatik der ganzen Zahl 14 ?",
+        "propositions": [
+          "F",
+          "H",
+          "A",
+          "E"
+        ],
+        "réponse": "E",
+        "anecdote": "Das Hexadezimalsystem wird vor allem in der digitalen Elektronik und in der Informatik verwendet, weil es besonders praktisch ist."
+      },
+      {
+        "id": 23,
+        "question": "Was ist ein anderer Name für die CMR-Speicherzugriffsmodalität ?",
+        "propositions": [
+          "MRL",
+          "RSM",
+          "PMR",
+          "TMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "Diese Technik soll eine drei- bis zehnmal höhere Dichte als eine klassische Aufnahme auf demselben Medium bieten."
+      },
+      {
+        "id": 24,
+        "question": "Wie viele Bytes ist eine IPv4-Adresse kodiert ?",
+        "propositions": [
+          "16 Byte",
+          "4 Byte",
+          "8 Byte",
+          "1 Byte"
+        ],
+        "réponse": "4 Byte",
+        "anecdote": "Version 4, die derzeit am weitesten verbreitete, wird in Dezimalschreibweise mit vier Zahlen zwischen 0 und 255 dargestellt."
+      },
+      {
+        "id": 25,
+        "question": "Was ist die ganze Zahl 4 wert, wenn Sie sie binär kodieren ?",
+        "propositions": [
+          "0101",
+          "0100",
+          "1001",
+          "1100"
+        ],
+        "réponse": "0100",
+        "anecdote": "Ein Binärcode stellt Text, Prozessoranweisungen oder andere Daten mithilfe eines Zwei-Symbol-Systems dar."
+      },
+      {
+        "id": 26,
+        "question": "Welche Art von Daten wird mit der UTF-8-Kodierung kodiert ?",
+        "propositions": [
+          "Video",
+          "Charaktere",
+          "Bilder",
+          "Audio"
+        ],
+        "réponse": "Charaktere",
+        "anecdote": "UTF-8 wurde ursprünglich von ISO im internationalen Standard ISO/IEC 10646 entwickelt und ist mit dem Unicode-Standard kompatibel."
+      },
+      {
+        "id": 27,
+        "question": "Was ist das Standarddateisystem von macOS 10.13 und höher ?",
+        "propositions": [
+          "APFS",
+          "FAT32",
+          "ExFAT",
+          "NTFS"
+        ],
+        "réponse": "APFS",
+        "anecdote": "Das APFS-System zielt darauf ab, die Probleme des bestehenden HFS+-Dateisystems zu beheben, das früher auf diesen Plattformen verwendet wurde."
+      },
+      {
+        "id": 28,
+        "question": "Welches E-Mail-Protokoll unterstützt nur den E-Mail-Versand ?",
+        "propositions": [
+          "IGMP",
+          "POP3",
+          "SMTP",
+          "IMAP"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP ist ein Kommunikationsprotokoll, das zur Übertragung von E-Mails an E-Mail-Server verwendet wird."
+      },
+      {
+        "id": 29,
+        "question": "Welchen Wert hat im ASCII-Code das Großbuchstabe A ?",
+        "propositions": [
+          "1",
+          "255",
+          "65",
+          "0"
+        ],
+        "réponse": "65",
+        "anecdote": "Die Zahlenzeichen 0 bis 31 und 127 können nicht angezeigt werden und entsprechen Terminal-Steuerbefehlen."
+      },
+      {
+        "id": 30,
+        "question": "Welcher Server ist für die Auflösung von Domainnamen zuständig ?",
+        "propositions": [
+          "FTP",
+          "SSH",
+          "DNS",
+          "HTTP"
+        ],
+        "réponse": "DNS",
+        "anecdote": "DNS ist ein verteilter Dienst, der Internetdomänennamen mit ihren IP-Adressen oder anderen Arten von Datensätzen verknüpft."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Quién es responsable de escribir un programa de computadora ?",
+        "propositions": [
+          "pirata informático",
+          "webmaster",
+          "Desarrollador",
+          "Programador"
+        ],
+        "réponse": "Desarrollador",
+        "anecdote": "Para satisfacer las necesidades de un cliente, primero establece especificaciones que determinan las necesidades del cliente."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué unidad de medida define la precisión de un ratón óptico ?",
+        "propositions": [
+          "LUX",
+          "WATT",
+          "DPI",
+          "OHM"
+        ],
+        "réponse": "DPI",
+        "anecdote": "Cuanto mayor sea el valor, mayor será la distancia máxima que el puntero puede moverse en relación con el movimiento realizado."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué tipo de conector no se ha utilizado nunca para conectar un teclado ?",
+        "propositions": [
+          "USB",
+          "PS/2",
+          "DIN",
+          "GATO MINI"
+        ],
+        "réponse": "GATO MINI",
+        "anecdote": "El nombre jack se utiliza para designar varios tipos de conectores, en versión hembra y macho, de ahí la confusión."
+      },
+      {
+        "id": 4,
+        "question": "¿Cómo se puede acceder a los datos de un sitio web en HTTPS ?",
+        "propositions": [
+          "Estática",
+          "Cifrado",
+          "Temporal",
+          "Permanente"
+        ],
+        "réponse": "Cifrado",
+        "anecdote": "HTTPS permite al visitante verificar la identidad del sitio web visitado mediante un certificado de autenticación emitido por una autoridad de terceros."
+      },
+      {
+        "id": 5,
+        "question": "¿Cuál de estas tecnologías no se utiliza para una computadora de escritorio ?",
+        "propositions": [
+          "E-INK",
+          "CRT",
+          "OLED",
+          "LCD"
+        ],
+        "réponse": "E-INK",
+        "anecdote": "A diferencia de las técnicas de visualización convencionales, el papel electrónico es puramente reflectante y utiliza luz ambiental."
+      },
+      {
+        "id": 6,
+        "question": "¿Cuál de estas suites ofimáticas no tiene una aplicación de escritorio ?",
+        "propositions": [
+          "Oficina Abierta",
+          "LibreOffice",
+          "Documentos de Google",
+          "Microsoft 365"
+        ],
+        "réponse": "Documentos de Google",
+        "anecdote": "Las tres aplicaciones están disponibles como aplicaciones web, aplicaciones de Chrome sin conexión y aplicaciones móviles."
+      },
+      {
+        "id": 7,
+        "question": "En informática, ¿cuál de estas distribuciones de teclado no existe ?",
+        "propositions": [
+          "QWERTZ",
+          "QUERTY",
+          "AZERTEX",
+          "AZERTY"
+        ],
+        "réponse": "AZERTEX",
+        "anecdote": "Al igual que QWERTY, el diseño AZERTY es frecuentemente criticado por su falta de ergonomía, de ahí los AZERTY extendidos."
+      },
+      {
+        "id": 8,
+        "question": "En código ASCII, ¿cuál es el rango de valores de los caracteres 0 a 9 ?",
+        "propositions": [
+          "121 a 174",
+          "48 a 57",
+          "21 a 36",
+          "74 a 79"
+        ],
+        "réponse": "48 a 57",
+        "anecdote": "ASCII es suficiente para representar textos en inglés, pero demasiado limitado para otros idiomas, incluido el francés y sus letras acentuadas."
+      },
+      {
+        "id": 9,
+        "question": "¿Qué contiene un documento cuyo formato de archivo tiene la extensión mkv ?",
+        "propositions": [
+          "Imagen",
+          "Correo electrónico",
+          "Música",
+          "Audio y vídeo"
+        ],
+        "réponse": "Audio y vídeo",
+        "anecdote": "El formato Matroska puede combinar secuencias de video, secuencias de audio, así como varios subtítulos y capítulos en el mismo archivo."
+      },
+      {
+        "id": 10,
+        "question": "¿Cuál es la mejor manera de calificar un archivo de computadora con la extensión zip ?",
+        "propositions": [
+          "ejecutable",
+          "Hoja de cálculo",
+          "Enlace",
+          "Archivo"
+        ],
+        "réponse": "Archivo",
+        "anecdote": "El formato fue inventado por Phil Katz para el software PKZIP, diseñado en respuesta a un problema de derechos entre PKARC y ARC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Cómo traducir el término « unidad de procesamiento gráfico » al inglés ?",
+        "propositions": [
+          "DIN",
+          "USB",
+          "DPI",
+          "GPU"
+        ],
+        "réponse": "GPU",
+        "anecdote": "También hablamos de procesador de video para designar un procesador de procesamiento de señales, utilizado para la decodificación de videos."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué tipo de unidad central significa el término CPU en francés ?",
+        "propositions": [
+          "Gráfico",
+          "estática",
+          "Aleatorio",
+          "Cálculo"
+        ],
+        "réponse": "Cálculo",
+        "anecdote": "Un procesador consta de muchos dispositivos electrónicos que ejecutan las instrucciones de la máquina del software de computadora."
+      },
+      {
+        "id": 13,
+        "question": "Si ROM significa memoria de solo lectura, ¿qué término significa RAM ?",
+        "propositions": [
+          "RAM",
+          "RIM",
+          "REM",
+          "RON"
+        ],
+        "réponse": "RAM",
+        "anecdote": "RAM es la memoria de la computadora en la que se puede almacenar la información procesada por un dispositivo informático."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué unidades de estado sólido se utilizan actualmente ?",
+        "propositions": [
+          "PCI",
+          "SATA",
+          "SSD",
+          "RPM"
+        ],
+        "réponse": "SSD",
+        "anecdote": "El término inglés « solid-state » significa que este hardware está hecho de memorias semiconductoras de estado sólido."
+      },
+      {
+        "id": 15,
+        "question": "¿Cuál de estas interfaces de visualización de video es la más antigua ?",
+        "propositions": [
+          "HDMI",
+          "DVI",
+          "VGA",
+          "DSP"
+        ],
+        "réponse": "VGA",
+        "anecdote": "La especificación Microsoft PC 99 asignó el color azul a los conectores VGA, que los fabricantes cumplieron rápidamente."
+      },
+      {
+        "id": 16,
+        "question": "En la URL https://www.openquizzdb.org, ¿cuál es el protocolo utilizado ?",
+        "propositions": [
+          "www",
+          "https",
+          "org",
+          "openquizzdb"
+        ],
+        "réponse": "https",
+        "anecdote": "HTTPS permite al visitante verificar la identidad del sitio web visitado mediante un certificado de autenticación emitido por una autoridad de terceros."
+      },
+      {
+        "id": 17,
+        "question": "En la URL https://www.data.gouv.fr, ¿cuál es el dominio de nivel superior ?",
+        "propositions": [
+          "gouv",
+          "www",
+          "fr",
+          "data"
+        ],
+        "réponse": "fr",
+        "anecdote": "El propósito de un nombre de dominio es retener y comunicar fácilmente la dirección de un conjunto de servidores (sitio web, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué modelo de arquitectura de red permite que dos máquinas se comuniquen ?",
+        "propositions": [
+          "Ethernet",
+          "P2P",
+          "WiFi",
+          "PI"
+        ],
+        "réponse": "P2P",
+        "anecdote": "En este modelo de intercambio de redes, cada entidad es a la vez cliente y servidor, a diferencia del modelo cliente-servidor."
+      },
+      {
+        "id": 19,
+        "question": "¿Cuál de estas interfaces de visualización de video es más nueva ?",
+        "propositions": [
+          "VGA",
+          "DVI",
+          "Puerto de visualización",
+          "HDMI"
+        ],
+        "réponse": "Puerto de visualización",
+        "anecdote": "Los propietarios originales de la tecnología DisplayPort son Hitachi Maxell, Koninklijke Philips, Silicon Image y Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué significa el código 404 que se puede encontrar en determinadas páginas web ?",
+        "propositions": [
+          "Bajo vigilancia",
+          "No traducido",
+          "No encontrado",
+          "En desarrollo"
+        ],
+        "réponse": "No encontrado",
+        "anecdote": "Hay varias causas posibles para este error, ya que el recurso solicitado se eliminó o se colocó en otra dirección."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "En computación, ¿qué número entero es equivalente al valor hexadecimal F ?",
+        "propositions": [
+          "20",
+          "10",
+          "15",
+          "5"
+        ],
+        "réponse": "15",
+        "anecdote": "El sistema hexadecimal utiliza 16 símbolos, números arábigos para los primeros diez dígitos y las letras de la A a la F para los siguientes seis."
+      },
+      {
+        "id": 22,
+        "question": "En computación, ¿qué valor hexadecimal es equivalente al número entero 14 ?",
+        "propositions": [
+          "H",
+          "F",
+          "E",
+          "A"
+        ],
+        "réponse": "E",
+        "anecdote": "El sistema hexadecimal se utiliza en particular en la electrónica digital y en la informática porque es particularmente conveniente."
+      },
+      {
+        "id": 23,
+        "question": "¿Cuál es otro nombre para la modalidad de acceso a la memoria CMR ?",
+        "propositions": [
+          "RSM",
+          "RTM",
+          "LMR",
+          "PMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "Se supone que esta técnica ofrece una densidad de 3 a 10 veces mayor que una grabación clásica, en el mismo medio."
+      },
+      {
+        "id": 24,
+        "question": "¿Cuántos bytes tiene codificada una dirección IPv4 ?",
+        "propositions": [
+          "8 bytes",
+          "16 bytes",
+          "1 byte",
+          "4 bytes"
+        ],
+        "réponse": "4 bytes",
+        "anecdote": "La versión 4, actualmente la más utilizada, se representa en notación decimal con cuatro números entre 0 y 255."
+      },
+      {
+        "id": 25,
+        "question": "¿Cuánto vale el entero 4 si elige codificarlo en binario ?",
+        "propositions": [
+          "1001",
+          "1100",
+          "0100",
+          "0101"
+        ],
+        "réponse": "0100",
+        "anecdote": "Un código binario representa texto, instrucciones del procesador o cualquier otro dato utilizando un sistema de dos símbolos."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué tipo de datos se utiliza para codificar la codificación UTF-8 ?",
+        "propositions": [
+          "sonido",
+          "Personajes",
+          "Fotos",
+          "Vídeo"
+        ],
+        "réponse": "Personajes",
+        "anecdote": "Desarrollado inicialmente por ISO en el estándar internacional ISO/IEC 10646, UTF-8 es compatible con el estándar Unicode."
+      },
+      {
+        "id": 27,
+        "question": "¿Cuál es el sistema de archivos predeterminado de macOS 10.13 y versiones posteriores ?",
+        "propositions": [
+          "NTFS",
+          "ExFAT",
+          "APFS",
+          "FAT32"
+        ],
+        "réponse": "APFS",
+        "anecdote": "El sistema APFS tiene como objetivo corregir los problemas del sistema de archivos HFS+ existente, utilizado anteriormente en estas plataformas."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué protocolo de correo electrónico solo admite el envío de correos electrónicos ?",
+        "propositions": [
+          "POP3",
+          "SMTP",
+          "IGMP",
+          "IMAP"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP es un protocolo de comunicación utilizado para transferir correo electrónico a servidores de correo electrónico."
+      },
+      {
+        "id": 29,
+        "question": "En código ASCII, ¿cuál es el valor del carácter A mayúscula ?",
+        "propositions": [
+          "1",
+          "65",
+          "0",
+          "255"
+        ],
+        "réponse": "65",
+        "anecdote": "Los caracteres numéricos del 0 al 31 y el 127 no se pueden mostrar y corresponden a los comandos de control del terminal."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué servidor está a cargo de la resolución de nombres de dominio ?",
+        "propositions": [
+          "DNS",
+          "FTP",
+          "SSH",
+          "HTTP"
+        ],
+        "réponse": "DNS",
+        "anecdote": "DNS es un servicio distribuido que asocia nombres de dominio de Internet con sus direcciones IP u otros tipos de registros."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Chi è responsabile della scrittura di un programma per computer ?",
+        "propositions": [
+          "Sviluppatore",
+          "webmaster",
+          "hacker",
+          "Programmatore"
+        ],
+        "réponse": "Sviluppatore",
+        "anecdote": "Per soddisfare le esigenze di un cliente, stabilisce innanzitutto le specifiche che determinano le esigenze del cliente."
+      },
+      {
+        "id": 2,
+        "question": "Quale unità di misura definisce la precisione di un mouse ottico ?",
+        "propositions": [
+          "WATT",
+          "LUX",
+          "DPI",
+          "OHM"
+        ],
+        "réponse": "DPI",
+        "anecdote": "Più alto è il valore, maggiore è la distanza massima che il puntatore può percorrere rispetto al movimento eseguito."
+      },
+      {
+        "id": 3,
+        "question": "Quale tipo di connettore non è mai stato utilizzato per collegare una tastiera ?",
+        "propositions": [
+          "USB",
+          "PS/2",
+          "MINI JACK",
+          "DIN"
+        ],
+        "réponse": "MINI JACK",
+        "anecdote": "Il nome jack viene utilizzato per designare diversi tipi di connettori, in versione femmina e maschio, da qui la confusione."
+      },
+      {
+        "id": 4,
+        "question": "In che modo i dati di un sito Web sono accessibili in HTTPS ?",
+        "propositions": [
+          "Temporaneo",
+          "Permanente",
+          "Crittografato",
+          "Statica"
+        ],
+        "réponse": "Crittografato",
+        "anecdote": "HTTPS consente al visitatore di verificare l'identità del sito Web visitato utilizzando un certificato di autenticazione rilasciato da un'autorità terza."
+      },
+      {
+        "id": 5,
+        "question": "Quale di queste tecnologie non viene utilizzata per un computer desktop ?",
+        "propositions": [
+          "CRT",
+          "OLED",
+          "LCD",
+          "E-INK"
+        ],
+        "réponse": "E-INK",
+        "anecdote": "A differenza delle tecniche di visualizzazione convenzionali, la carta elettronica è puramente riflettente e utilizza la luce ambientale."
+      },
+      {
+        "id": 6,
+        "question": "Quale di queste suite per ufficio non dispone di un'applicazione desktop ?",
+        "propositions": [
+          "Microsoft 365",
+          "Google Documenti",
+          "Ufficio Aperto",
+          "LibreOffice"
+        ],
+        "réponse": "Google Documenti",
+        "anecdote": "Tutte e tre le app sono disponibili come app Web, app Chrome offline e app mobili."
+      },
+      {
+        "id": 7,
+        "question": "In informatica, quale di questi layout di tastiera non esiste ?",
+        "propositions": [
+          "QWERTZ",
+          "AZERTY",
+          "AZERTEX",
+          "QUERTY"
+        ],
+        "réponse": "AZERTEX",
+        "anecdote": "Come QWERTY, il layout AZERTY è spesso criticato per la sua mancanza di ergonomia, da qui gli AZERTY estesi."
+      },
+      {
+        "id": 8,
+        "question": "Nel codice ASCII, qual è l'intervallo di valori dei caratteri da 0 a 9 ?",
+        "propositions": [
+          "21 a 36",
+          "121 a 174",
+          "74 a 79",
+          "48 a 57"
+        ],
+        "réponse": "48 a 57",
+        "anecdote": "ASCII è sufficiente per rappresentare testi in inglese, ma troppo limitato per altre lingue, compreso il francese e le sue lettere accentate."
+      },
+      {
+        "id": 9,
+        "question": "Cosa contiene un documento il cui formato di file ha l'estensione mkv ?",
+        "propositions": [
+          "Audio e video",
+          "E-mail",
+          "Immagine",
+          "Musica"
+        ],
+        "réponse": "Audio e video",
+        "anecdote": "Il formato Matroska può combinare flussi video, flussi audio, nonché diversi sottotitoli e capitoli nello stesso file."
+      },
+      {
+        "id": 10,
+        "question": "Qual è il modo migliore per qualificare un file di computer con l'estensione zip ?",
+        "propositions": [
+          "Foglio di calcolo",
+          "Eseguibile",
+          "Archivio",
+          "Collegamento"
+        ],
+        "réponse": "Archivio",
+        "anecdote": "Il formato è stato inventato da Phil Katz per il software PKZIP, progettato in risposta a una questione di diritti tra PKARC e ARC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Come tradurre il termine « unità di elaborazione grafica » in inglese ?",
+        "propositions": [
+          "USB",
+          "DIN",
+          "DPI",
+          "GPU"
+        ],
+        "réponse": "GPU",
+        "anecdote": "Parliamo anche di processore video per designare un processore di elaborazione del segnale, utilizzato per la decodifica dei video."
+      },
+      {
+        "id": 12,
+        "question": "Che tipo di unità centrale significa il termine CPU in francese ?",
+        "propositions": [
+          "Calcolo",
+          "Grafico",
+          "Statico",
+          "Casuale"
+        ],
+        "réponse": "Calcolo",
+        "anecdote": "Un processore è costituito da molti dispositivi elettronici che eseguono le istruzioni della macchina del software del computer."
+      },
+      {
+        "id": 13,
+        "question": "Se ROM sta per memoria di sola lettura, quale termine sta per RAM ?",
+        "propositions": [
+          "RIM",
+          "REMI",
+          "RUM",
+          "RAM"
+        ],
+        "réponse": "RAM",
+        "anecdote": "La RAM è la memoria del computer in cui possono essere memorizzate le informazioni elaborate da un dispositivo informatico."
+      },
+      {
+        "id": 14,
+        "question": "Quali unità a stato solido sono in uso oggi ?",
+        "propositions": [
+          "SSD",
+          "RPM",
+          "PCI",
+          "SATA"
+        ],
+        "réponse": "SSD",
+        "anecdote": "Il termine inglese « solid-state » significa che questo hardware è costituito da memorie a semiconduttore a stato solido."
+      },
+      {
+        "id": 15,
+        "question": "Quale di queste interfacce di visualizzazione video è la più vecchia ?",
+        "propositions": [
+          "DPS",
+          "DVI",
+          "VGA",
+          "HDMI"
+        ],
+        "réponse": "VGA",
+        "anecdote": "La specifica Microsoft PC 99 ha assegnato il colore blu ai connettori VGA, che i produttori hanno rapidamente rispettato."
+      },
+      {
+        "id": 16,
+        "question": "Nell'URL https://www.openquizzdb.org, qual è il protocollo utilizzato ?",
+        "propositions": [
+          "https",
+          "org",
+          "openquizzdb",
+          "www"
+        ],
+        "réponse": "https",
+        "anecdote": "HTTPS consente al visitatore di verificare l'identità del sito Web visitato utilizzando un certificato di autenticazione rilasciato da un'autorità terza."
+      },
+      {
+        "id": 17,
+        "question": "Nell'URL https://www.data.gouv.fr, qual è il dominio di primo livello ?",
+        "propositions": [
+          "fr",
+          "www",
+          "gouv",
+          "data"
+        ],
+        "réponse": "fr",
+        "anecdote": "Lo scopo di un nome di dominio è quello di conservare e comunicare facilmente l'indirizzo di un insieme di server (sito web, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "Quale modello di architettura di rete consente a due macchine di comunicare ?",
+        "propositions": [
+          "PI",
+          "P2P",
+          "Wi-Fi",
+          "Ethernet"
+        ],
+        "réponse": "P2P",
+        "anecdote": "In questo modello di scambio di rete, ogni entità è sia client che server, a differenza del modello client-server."
+      },
+      {
+        "id": 19,
+        "question": "Quale di queste interfacce di visualizzazione video è più recente ?",
+        "propositions": [
+          "VGA",
+          "Porta di visualizzazione",
+          "DVI",
+          "HDMI"
+        ],
+        "réponse": "Porta di visualizzazione",
+        "anecdote": "I proprietari originali della tecnologia DisplayPort sono Hitachi Maxell, Koninklijke Philips, Silicon Image e Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "Cosa significa il codice 404 che si trova su alcune pagine web ?",
+        "propositions": [
+          "Non trovato",
+          "Sotto sorveglianza",
+          "Non tradotto",
+          "In sviluppo"
+        ],
+        "réponse": "Non trovato",
+        "anecdote": "Esistono diverse possibili cause per questo errore, poiché la risorsa richiesta è stata eliminata o collocata in un altro indirizzo."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "In informatica, quale numero intero è equivalente al valore esadecimale F ?",
+        "propositions": [
+          "15",
+          "20",
+          "5",
+          "10"
+        ],
+        "réponse": "15",
+        "anecdote": "Il sistema esadecimale utilizza 16 simboli, numeri arabi per le prime dieci cifre e le lettere dalla A alla F per le successive sei."
+      },
+      {
+        "id": 22,
+        "question": "In informatica, quale valore esadecimale equivale all'intero 14 ?",
+        "propositions": [
+          "A",
+          "E",
+          "F",
+          "H"
+        ],
+        "réponse": "E",
+        "anecdote": "Il sistema esadecimale è utilizzato in particolare nell'elettronica digitale e nell'informatica perché particolarmente comodo."
+      },
+      {
+        "id": 23,
+        "question": "Qual è un altro nome per la modalità di accesso alla memoria CMR ?",
+        "propositions": [
+          "LMR",
+          "PMR",
+          "RSM",
+          "TMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "Questa tecnica dovrebbe offrire una densità da 3 a 10 volte superiore rispetto a una registrazione classica, sullo stesso supporto."
+      },
+      {
+        "id": 24,
+        "question": "Quanti byte è codificato un indirizzo IPv4 ?",
+        "propositions": [
+          "8 byte",
+          "4 byte",
+          "1 byte",
+          "16 byte"
+        ],
+        "réponse": "4 byte",
+        "anecdote": "La versione 4, attualmente la più utilizzata, è rappresentata in notazione decimale con quattro numeri compresi tra 0 e 255."
+      },
+      {
+        "id": 25,
+        "question": "Quanto vale il numero intero 4 se scegli di codificarlo in binario ?",
+        "propositions": [
+          "0101",
+          "0100",
+          "1100",
+          "1001"
+        ],
+        "réponse": "0100",
+        "anecdote": "Un codice binario rappresenta testo, istruzioni del processore o qualsiasi altro dato utilizzando un sistema a due simboli."
+      },
+      {
+        "id": 26,
+        "question": "La codifica UTF-8 viene utilizzata per codificare quale tipo di dati ?",
+        "propositions": [
+          "Filmato",
+          "Immagini",
+          "Personaggi",
+          "Audio"
+        ],
+        "réponse": "Personaggi",
+        "anecdote": "Inizialmente sviluppato da ISO nello standard internazionale ISO/IEC 10646, UTF-8 è compatibile con lo standard Unicode."
+      },
+      {
+        "id": 27,
+        "question": "Qual è il file system predefinito di macOS 10.13 e versioni successive ?",
+        "propositions": [
+          "ExFAT",
+          "FAT32",
+          "NTFS",
+          "APFS"
+        ],
+        "réponse": "APFS",
+        "anecdote": "Il sistema APFS mira a correggere i problemi del file system HFS+ esistente, precedentemente utilizzato su queste piattaforme."
+      },
+      {
+        "id": 28,
+        "question": "Quale protocollo e-mail supporta solo l'invio di e-mail ?",
+        "propositions": [
+          "SMTP",
+          "POP3",
+          "IGMP",
+          "IMAP"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP è un protocollo di comunicazione utilizzato per trasferire la posta elettronica ai server di posta elettronica."
+      },
+      {
+        "id": 29,
+        "question": "Nel codice ASCII, qual è il valore del carattere A maiuscolo ?",
+        "propositions": [
+          "0",
+          "255",
+          "65",
+          "1"
+        ],
+        "réponse": "65",
+        "anecdote": "I caratteri numerici da 0 a 31 e 127 non sono visualizzabili, corrispondenti ai comandi di controllo del terminale."
+      },
+      {
+        "id": 30,
+        "question": "Quale server è responsabile della risoluzione dei nomi di dominio ?",
+        "propositions": [
+          "DNS",
+          "FTP",
+          "SSH",
+          "HTTP"
+        ],
+        "réponse": "DNS",
+        "anecdote": "Il DNS è un servizio distribuito che associa i nomi di dominio Internet ai loro indirizzi IP o altri tipi di record."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Wie is verantwoordelijk voor het schrijven van een computerprogramma ?",
+        "propositions": [
+          "webmaster",
+          "hacker",
+          "Ontwikkelaar",
+          "Programmeur"
+        ],
+        "réponse": "Ontwikkelaar",
+        "anecdote": "Om aan de behoeften van een klant te voldoen, stelt hij eerst specificaties op die de behoeften van de klant bepalen."
+      },
+      {
+        "id": 2,
+        "question": "Welke maateenheid bepaalt de precisie van een optische muis ?",
+        "propositions": [
+          "IER",
+          "OH",
+          "LUX",
+          "WAT"
+        ],
+        "réponse": "IER",
+        "anecdote": "Hoe hoger de waarde, hoe groter de maximale afstand die de aanwijzer kan verplaatsen ten opzichte van de uitgevoerde beweging."
+      },
+      {
+        "id": 3,
+        "question": "Welk type connector is nog nooit gebruikt om een toetsenbord aan te sluiten ?",
+        "propositions": [
+          "USB",
+          "MINI JACK",
+          "ps/2",
+          "DI"
+        ],
+        "réponse": "MINI JACK",
+        "anecdote": "De naam jack wordt gebruikt om verschillende soorten connectoren aan te duiden, in vrouwelijke en mannelijke versies, vandaar de verwarring."
+      },
+      {
+        "id": 4,
+        "question": "Hoe zijn de gegevens van een website toegankelijk in HTTPS ?",
+        "propositions": [
+          "statica",
+          "permanent",
+          "Tijdelijk",
+          "versleuteld"
+        ],
+        "réponse": "versleuteld",
+        "anecdote": "Met HTTPS kan de bezoeker de identiteit van de bezochte website verifiëren met behulp van een authenticatiecertificaat dat is uitgegeven door een externe autoriteit."
+      },
+      {
+        "id": 5,
+        "question": "Welke van deze technologieën wordt niet gebruikt voor een desktopcomputer ?",
+        "propositions": [
+          "OLED",
+          "E-inkt",
+          "LCD-scherm",
+          "CRT"
+        ],
+        "réponse": "E-inkt",
+        "anecdote": "In tegenstelling tot conventionele weergavetechnieken is elektronisch papier puur reflecterend en maakt het gebruik van omgevingslicht."
+      },
+      {
+        "id": 6,
+        "question": "Welke van deze kantoorsuites heeft geen desktoptoepassing ?",
+        "propositions": [
+          "Microsoft 365",
+          "Google Documenten",
+          "Kantoor openen",
+          "Libre Office"
+        ],
+        "réponse": "Google Documenten",
+        "anecdote": "Alle drie de apps zijn beschikbaar als webapps, offline Chrome-apps en mobiele apps."
+      },
+      {
+        "id": 7,
+        "question": "Welke van deze toetsenbordindelingen bestaat niet in computers ?",
+        "propositions": [
+          "QUERTY",
+          "QWERTEX",
+          "QWERTZ",
+          "AZERTY"
+        ],
+        "réponse": "QWERTEX",
+        "anecdote": "Net als QWERTY wordt de AZERTY-indeling vaak bekritiseerd vanwege het gebrek aan ergonomie, vandaar de uitgebreide AZERTY's."
+      },
+      {
+        "id": 8,
+        "question": "Wat is in ASCII-code het waardebereik van de tekens 0 tot en met 9 ?",
+        "propositions": [
+          "48 tot 57",
+          "121 tot 174",
+          "21 tot 36",
+          "74 tot 79"
+        ],
+        "réponse": "48 tot 57",
+        "anecdote": "ASCII is voldoende om teksten in het Engels weer te geven, maar te beperkt voor andere talen, waaronder Frans en zijn letters met accenten."
+      },
+      {
+        "id": 9,
+        "question": "Wat bevat een document waarvan het bestandsformaat de extensie mkv heeft ?",
+        "propositions": [
+          "E-mail",
+          "Audio en video",
+          "Muziek",
+          "Afbeelding"
+        ],
+        "réponse": "Audio en video",
+        "anecdote": "Het Matroska-formaat kan videostreams, audiostreams, evenals verschillende ondertitels en hoofdstukken in hetzelfde bestand combineren."
+      },
+      {
+        "id": 10,
+        "question": "Hoe kwalificeer je een computerbestand met de extensie zip het best ?",
+        "propositions": [
+          "Koppelen",
+          "Archief",
+          "Uitvoerbaar",
+          "Spreadsheet"
+        ],
+        "réponse": "Archief",
+        "anecdote": "Het formaat is uitgevonden door Phil Katz voor de PKZIP-software, ontworpen als reactie op een rechtenkwestie tussen PKARC en ARC."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Hoe vertaal ik de term « grafische verwerkingseenheid » in het Engels ?",
+        "propositions": [
+          "GPU's",
+          "USB",
+          "DI",
+          "IER"
+        ],
+        "réponse": "GPU's",
+        "anecdote": "We spreken ook wel van videoprocessor om een signaalverwerkingsprocessor aan te duiden, gebruikt voor het decoderen van video's."
+      },
+      {
+        "id": 12,
+        "question": "Welk type centrale eenheid betekent de term CPU in het Frans ?",
+        "propositions": [
+          "Grafiek",
+          "Statisch",
+          "Berekening",
+          "Willekeurig"
+        ],
+        "réponse": "Berekening",
+        "anecdote": "Een processor bestaat uit veel elektronische apparaten die de machine-instructies van computersoftware uitvoeren."
+      },
+      {
+        "id": 13,
+        "question": "Als ROM staat voor alleen-lezen geheugen, welke term staat dan voor RAM ?",
+        "propositions": [
+          "RUM",
+          "RIM",
+          "RAM",
+          "REM"
+        ],
+        "réponse": "RAM",
+        "anecdote": "RAM is het computergeheugen waarin informatie die door een computerapparaat is verwerkt, kan worden opgeslagen."
+      },
+      {
+        "id": 14,
+        "question": "Welke solid-state schijven worden tegenwoordig gebruikt ?",
+        "propositions": [
+          "SSD",
+          "SATA",
+          "PGB",
+          "RPM"
+        ],
+        "réponse": "SSD",
+        "anecdote": "De Engelse term « solid-state » betekent dat deze hardware is gemaakt van solid-state halfgeleidergeheugens."
+      },
+      {
+        "id": 15,
+        "question": "Welke van deze videoweergave-interfaces is de oudste ?",
+        "propositions": [
+          "VGA",
+          "DSP",
+          "HDMI",
+          "DVI"
+        ],
+        "réponse": "VGA",
+        "anecdote": "De Microsoft PC 99-specificatie kende de kleur blauw toe aan VGA-connectoren, waaraan fabrikanten snel voldeden."
+      },
+      {
+        "id": 16,
+        "question": "Wat is het gebruikte protocol in de URL https://www.openquizzdb.org ?",
+        "propositions": [
+          "www",
+          "https",
+          "openquizzdb",
+          "org"
+        ],
+        "réponse": "https",
+        "anecdote": "Met HTTPS kan de bezoeker de identiteit van de bezochte website verifiëren met behulp van een authenticatiecertificaat dat is uitgegeven door een externe autoriteit."
+      },
+      {
+        "id": 17,
+        "question": "Wat is het topniveaudomein in de URL https://www.data.gouv.fr ?",
+        "propositions": [
+          "gouv",
+          "fr",
+          "data",
+          "www"
+        ],
+        "réponse": "fr",
+        "anecdote": "Het doel van een domeinnaam is om gemakkelijk het adres van een reeks servers (website, FTP, ...)."
+      },
+      {
+        "id": 18,
+        "question": "Met welk netwerkarchitectuurmodel kunnen twee machines communiceren ?",
+        "propositions": [
+          "IP",
+          "P2P",
+          "wifi",
+          "Ethernet"
+        ],
+        "réponse": "P2P",
+        "anecdote": "In dit netwerkuitwisselingsmodel is elke entiteit zowel client als server, in tegenstelling tot het client-servermodel."
+      },
+      {
+        "id": 19,
+        "question": "Welke van deze videoweergave-interfaces is nieuwer ?",
+        "propositions": [
+          "VGA",
+          "DVI",
+          "Displaypoort",
+          "HDMI"
+        ],
+        "réponse": "Displaypoort",
+        "anecdote": "De oorspronkelijke eigenaren van DisplayPort-technologie zijn Hitachi Maxell, Koninklijke Philips, Silicon Image en Sony Corporation."
+      },
+      {
+        "id": 20,
+        "question": "Wat betekent de 404-code die op bepaalde webpagina's te vinden is ?",
+        "propositions": [
+          "Niet gevonden",
+          "In ontwikkeling",
+          "Onder toezicht",
+          "Niet vertaald"
+        ],
+        "réponse": "Niet gevonden",
+        "anecdote": "Er zijn verschillende mogelijke oorzaken voor deze fout, de aangevraagde bron is verwijderd of op een ander adres geplaatst."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk geheel getal is in de informatica gelijk aan de hexadecimale waarde F ?",
+        "propositions": [
+          "20",
+          "5",
+          "15",
+          "10"
+        ],
+        "réponse": "15",
+        "anecdote": "Het hexadecimale systeem gebruikt 16 symbolen, Arabische cijfers voor de eerste tien cijfers en de letters A tot F voor de volgende zes."
+      },
+      {
+        "id": 22,
+        "question": "Welke hexadecimale waarde is in de informatica gelijk aan het gehele getal 14 ?",
+        "propositions": [
+          "E",
+          "F",
+          "A",
+          "H"
+        ],
+        "réponse": "E",
+        "anecdote": "Het hexadecimale systeem wordt met name gebruikt in digitale elektronica en informatica omdat het bijzonder handig is."
+      },
+      {
+        "id": 23,
+        "question": "Wat is een andere naam voor de CMR-geheugentoegangsmodaliteit ?",
+        "propositions": [
+          "MRL",
+          "TMR",
+          "RSM",
+          "PMR"
+        ],
+        "réponse": "PMR",
+        "anecdote": "Deze techniek zou een densiteit van 3 tot 10 keer hoger moeten bieden dan een klassieke opname, op hetzelfde medium."
+      },
+      {
+        "id": 24,
+        "question": "Hoeveel bytes is een IPv4-adres gecodeerd ?",
+        "propositions": [
+          "16 bytes",
+          "4 bytes",
+          "8 bytes",
+          "1 byte"
+        ],
+        "réponse": "4 bytes",
+        "anecdote": "Versie 4, momenteel de meest gebruikte, wordt weergegeven in decimale notatie met vier getallen tussen 0 en 255."
+      },
+      {
+        "id": 25,
+        "question": "Wat is het gehele getal 4 waard als je ervoor kiest om het binair te coderen ?",
+        "propositions": [
+          "0100",
+          "1100",
+          "0101",
+          "1001"
+        ],
+        "réponse": "0100",
+        "anecdote": "Een binaire code vertegenwoordigt tekst, processorinstructies of andere gegevens met behulp van een systeem met twee symbolen."
+      },
+      {
+        "id": 26,
+        "question": "UTF-8-codering wordt gebruikt om welk type gegevens te coderen ?",
+        "propositions": [
+          "Karakters",
+          "Video",
+          "Geluid",
+          "Foto's"
+        ],
+        "réponse": "Karakters",
+        "anecdote": "Oorspronkelijk ontwikkeld door ISO in de internationale standaard ISO/IEC 10646, is UTF-8 compatibel met de Unicode-standaard."
+      },
+      {
+        "id": 27,
+        "question": "Wat is het standaard bestandssysteem van macOS 10.13 en hoger ?",
+        "propositions": [
+          "NTFS",
+          "ExFAT",
+          "AFFS",
+          "FAT32"
+        ],
+        "réponse": "AFFS",
+        "anecdote": "Het APFS-systeem is bedoeld om de problemen op te lossen van het bestaande HFS+-bestandssysteem, dat voorheen op deze platforms werd gebruikt."
+      },
+      {
+        "id": 28,
+        "question": "Welk e-mailprotocol ondersteunt alleen het verzenden van e-mails ?",
+        "propositions": [
+          "IGMP",
+          "SMTP",
+          "POP3",
+          "IMAP"
+        ],
+        "réponse": "SMTP",
+        "anecdote": "SMTP is een communicatieprotocol dat wordt gebruikt om e-mail naar e-mailservers te verzenden."
+      },
+      {
+        "id": 29,
+        "question": "Wat is in ASCII-code de waarde van het hoofdletterteken A ?",
+        "propositions": [
+          "65",
+          "255",
+          "1",
+          "0"
+        ],
+        "réponse": "65",
+        "anecdote": "Cijfertekens 0 tot 31 en 127 kunnen niet worden weergegeven, wat overeenkomt met terminalbesturingsopdrachten."
+      },
+      {
+        "id": 30,
+        "question": "Welke server is verantwoordelijk voor de resolutie van de domeinnaam ?",
+        "propositions": [
+          "DNS",
+          "SSH",
+          "FTP",
+          "HTTP"
+        ],
+        "réponse": "DNS",
+        "anecdote": "DNS is een gedistribueerde service die internetdomeinnamen koppelt aan hun IP-adressen of andere soorten records."
+      }
+    ]
+    }
+  }
+}

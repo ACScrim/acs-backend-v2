@@ -1,0 +1,2250 @@
+{                                     
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "licence": "CC BY-SA",
+  "rédacteur": "Philippe Bresoux",       
+  "difficulté": "2 / 5",
+  "version": 6,
+  "mise-à-jour": "2023-03-26",
+  "catégorie-nom-slogan": {
+    "fr": {
+      "catégorie": "Gastronomie",
+      "nom": "Gastronomie belge",
+      "slogan": "Moules-frites et chicon-gratin"
+    },
+    "en": {
+      "catégorie": "Gastronomy",
+      "nom": "Belgian gastronomy",
+      "slogan": "Mussels and fries and chicory gratin"
+    },
+    "es": {
+      "catégorie": "Gastronomía",
+      "nom": "Gastronomía belga",
+      "slogan": "Mejillones con patatas fritas y achicoria gratinados"
+    },
+    "it": {
+      "catégorie": "Gastronomia",
+      "nom": "Gastronomia belga",
+      "slogan": "Cozze e patatine fritte e cicoria gratinata"
+    },
+    "de": {
+      "catégorie": "Gastronomie",
+      "nom": "Belgische Gastronomie",
+      "slogan": "Muscheln und Pommes und Chicorée-Gratin"
+    },
+    "nl": {
+      "catégorie": "Gastronomie",
+      "nom": "Belgische gastronomie",
+      "slogan": "Mosselen en frietjes en witlofgratin"
+    }
+  },
+  "quizz": {
+    "fr": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quelle carbonade est composée de morceaux de viande mijotés dans une sauce à la bière ?",
+        "propositions": [
+          "Bruxelloise",
+          "Germanique",
+          "Wallone",
+          "Flamande"
+        ],
+        "réponse": "Flamande",
+        "anecdote": "Le mot carbonnade est issu du mot charbon car ce plat était mijoté longuement sur les braises de charbon de bois."
+      },
+      {
+        "id": 2,
+        "question": "Quel pain brioché constellé de pépites de sucre est vendu dans tout le pays ?",
+        "propositions": [
+          "Croustillon",
+          "Merveilleux",
+          "Craquelin",
+          "Gosette"
+        ],
+        "réponse": "Craquelin",
+        "anecdote": "À Grammont, les craquelins sont en forme d'anneaux et sont distribués lors de la fête du feu et du pain de la fin de l'hiver."
+      },
+      {
+        "id": 3,
+        "question": "Quelle pâtisserie chaude est un classique des kermesses et des foires belges ?",
+        "propositions": [
+          "Nid d'oiseau",
+          "Caricole",
+          "Stoemp",
+          "Croustillon"
+        ],
+        "réponse": "Croustillon",
+        "anecdote": "Les croustillons sont constitués de petites bouchées de pâte à beignets cuites dans une friture saupoudrées de sucre glace."
+      },
+      {
+        "id": 4,
+        "question": "En Belgique, quelle saucisse panée et épicée est souvent servie dans les friteries ?",
+        "propositions": [
+          "Gandeuillot",
+          "Fricadelle",
+          "Rosette",
+          "Longeole"
+        ],
+        "réponse": "Fricadelle",
+        "anecdote": "Cuites à l'huile dans une friteuse ou à la poêle, les fricadelles constituent un des ingrédients de base de la mitraillette."
+      },
+      {
+        "id": 5,
+        "question": "Quelle gaufre à base de pâte fermentée à la levure avec cannelle présente du sucre perlé ?",
+        "propositions": [
+          "Gaufre de Mons",
+          "Gaufre d'Anvers",
+          "Gaufre de Liège",
+          "Gaufre de Tournai"
+        ],
+        "réponse": "Gaufre de Liège",
+        "anecdote": "Son origine est concomitante de la mise sur le marché du sucre perlé généré au départ du sucre de betterave de Hesbaye."
+      },
+      {
+        "id": 6,
+        "question": "Quelle demi-baguette contient une viande chaude, des frites et de la sauce ?",
+        "propositions": [
+          "Mitraillette",
+          "Truffade",
+          "Rosti",
+          "Frico"
+        ],
+        "réponse": "Mitraillette",
+        "anecdote": "En France, un sandwich similaire est vendu sous le nom d'américain, dans le nord de la France et à la Réunion."
+      },
+      {
+        "id": 7,
+        "question": "Quel mets très populaire en Belgique peut être mariné, nature, à la crème ou à l'ail ?",
+        "propositions": [
+          "Tielle",
+          "Oursinade",
+          "Koulibiak",
+          "Moules-frites"
+        ],
+        "réponse": "Moules-frites",
+        "anecdote": "La portion de moules de un kilogramme par personne est souvent servie à chaque convive dans son récipient de cuisson."
+      },
+      {
+        "id": 8,
+        "question": "Quel plat belge sucré-salé, souvent servi en entrée, est composé de thon ?",
+        "propositions": [
+          "Waterzooï",
+          "Escavèche",
+          "Pêche au thon",
+          "Bouquette"
+        ],
+        "réponse": "Pêche au thon",
+        "anecdote": "Il se compose d'une pêche, farcie avec un mélange de thon et de mayonnaise, parfois agrémenté d'oignon et d'épices."
+      },
+      {
+        "id": 9,
+        "question": "Dans quel gratin les endives sont-elles enroulées dans des tranches de jambon ?",
+        "propositions": [
+          "Chicon-gratin",
+          "Bouchon",
+          "Sarcive",
+          "Croque-monsieur"
+        ],
+        "réponse": "Chicon-gratin",
+        "anecdote": "La dénomination chicon vient du terme utilisé dans le nord de la France et en Belgique pour désigner l'endive."
+      },
+      {
+        "id": 10,
+        "question": "Quelle abaisse en pâte levée est garnie de riz au lait mélangé avec de l'oeuf ?",
+        "propositions": [
+          "Tarte au riz",
+          "Bouquette",
+          "Carmique",
+          "Cougnou"
+        ],
+        "réponse": "Tarte au riz",
+        "anecdote": "Dans certaines régions, des boulangers ajoutent du macaron écrasé au riz au lait qui est alors recouvert d'un autre macaron écrasé."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quels boulets baignent dans une sauce aigre-douce à base d'oignons et de cassonade ?",
+        "propositions": [
+          "À la athoise",
+          "À la liégeoise",
+          "À la montoise",
+          "À la namuroise"
+        ],
+        "réponse": "À la liégeoise",
+        "anecdote": "Cette sauce porte le nom de sauce lapin, qui ne contient pas de lapin, mais tiendrait son nom de madame Géraldine Lapin."
+      },
+      {
+        "id": 12,
+        "question": "Quel biscuit extrêmement dur est fait de miel caramélisé et de farine ?",
+        "propositions": [
+          "Couque de Dinant",
+          "Zézette",
+          "Craquelin",
+          "Nic-nac"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Difficile à manger, la couque de Dinant est probablement un avatar des préparations faites pour les bateliers de la Meuse."
+      },
+      {
+        "id": 13,
+        "question": "Quelle recette de condiment à base de vinaigre appartient à la famille des pickles ?",
+        "propositions": [
+          "Piccalilli",
+          "Melfor",
+          "Vincotto",
+          "Myrtus"
+        ],
+        "réponse": "Piccalilli",
+        "anecdote": "Le piccalilli belge, appelé aussi pickles, est une sauce à base de légumes, de vinaigre, de sucre et de moutarde."
+      },
+      {
+        "id": 14,
+        "question": "Quel biscuit à la texture granuleuse est traditionnellement parfumé à la cannelle ?",
+        "propositions": [
+          "Acibadem",
+          "Torta",
+          "Spéculoos",
+          "Kourabie"
+        ],
+        "réponse": "Spéculoos",
+        "anecdote": "Le spéculoos est le plus souvent consommé lors de l'avent et plus particulièrement lors de la fête de saint Nicolas, le 6 décembre."
+      },
+      {
+        "id": 15,
+        "question": "Quelle spécialité est faite à base de chou vert, d'épices et de viande blanche de porc ?",
+        "propositions": [
+          "Trulle",
+          "Boudin vert",
+          "Enchaud",
+          "Pastrami"
+        ],
+        "réponse": "Boudin vert",
+        "anecdote": "Sa fabrication est jugée chaque année par les mangeurs de boudin vert qui accordent aux meilleurs des labels fort recherchés."
+      },
+      {
+        "id": 16,
+        "question": "En Belgique, quelle autre nom est donné au chausson aux pommes ?",
+        "propositions": [
+          "Pomette",
+          "Josette",
+          "Cosette",
+          "Gosette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "En Belgique, le chausson aux pommes est fait non pas avec de la pâte feuilletée mais avec de la pâte à tarte."
+      },
+      {
+        "id": 17,
+        "question": "Quelle variété de chou peu digeste provoque des ballonnements et des flatulences ?",
+        "propositions": [
+          "Chou cavalier",
+          "Chou de Bruxelles",
+          "Chou frisé",
+          "Chou pommé"
+        ],
+        "réponse": "Chou de Bruxelles",
+        "anecdote": "Le goût amer de ce légume devrait nous alerter sur sa toxicité, mais certaines personnes ne possèdent pas le gène de détection."
+      },
+      {
+        "id": 18,
+        "question": "Quelle viennoiserie est consommée durant les périodes de la Saint-Nicolas et de Noël ?",
+        "propositions": [
+          "Africain",
+          "Cougnou",
+          "Faluche",
+          "Spéculoos"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Consommé avec un bol de chocolat chaud, ce pain brioché a souvent une forme qui rappelle celle de l'enfant Jésus emmailloté."
+      },
+      {
+        "id": 19,
+        "question": "Quelle roulade de viande farcie est souvent dégustée en Belgique francophone ?",
+        "propositions": [
+          "Hoosh",
+          "Bounarine",
+          "Oiseau sans tête",
+          "Vol-au-vent"
+        ],
+        "réponse": "Oiseau sans tête",
+        "anecdote": "Sa cuisson aisée, sa saveur et son prix de revient raisonnable en font un mets courant, toutes régions confondues."
+      },
+      {
+        "id": 20,
+        "question": "Quelle sorte de mélasse est issue de la cuisson de jus de pommes et de poires ?",
+        "propositions": [
+          "Sirop de Liège",
+          "Diabolo",
+          "Sirop de batterie",
+          "Sirop d'érable"
+        ],
+        "réponse": "Sirop de Liège",
+        "anecdote": "Ces siroperies sont principalement centralisées dans le pays de Herve, dans le nord-est de la province de Liège."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quel plat unique de poulet ou de poisson se mange dans un bouillon lié à la crème ?",
+        "propositions": [
+          "Carbonade",
+          "Hochepot",
+          "Waterzooï",
+          "Potjevleesch"
+        ],
+        "réponse": "Waterzooï",
+        "anecdote": "Dans une version plus évoluée, on ajoute, en fin de cuisson, un demi-verre de bière ou de vin blanc demi-sec et fruité."
+      },
+      {
+        "id": 22,
+        "question": "Quelle confiserie de Malmedy comprend deux meringues soudées par une crème chantilly ?",
+        "propositions": [
+          "Baiser",
+          "Bonnet",
+          "Bigorneau",
+          "Bêtise"
+        ],
+        "réponse": "Baiser",
+        "anecdote": "Le baiser de Malmedy aurait été inventé au milieu du XIXe siècle par le pâtissier Rodolphe Wiertz, originaire de Hellenthal."
+      },
+      {
+        "id": 23,
+        "question": "Quelle spécialité belge est composée d'un toast nappé de filet américain ?",
+        "propositions": [
+          "Reuben",
+          "Cannibale",
+          "Chivito",
+          "Wrap"
+        ],
+        "réponse": "Cannibale",
+        "anecdote": "Le cannibale est souvent servi sur une assiette garnie de crudités ou de salade, accompagné de sauce Worcestershire."
+      },
+      {
+        "id": 24,
+        "question": "Quelle purée de pommes de terre est mélangée avec un ou plusieurs légumes ?",
+        "propositions": [
+          "Chupe",
+          "Stoemp",
+          "Ocopa",
+          "Bombine"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "Il accompagne traditionnellement des boudins poêlés, du lard rôti, des saucisses de campagne ou des oeufs sur le plat."
+      },
+      {
+        "id": 25,
+        "question": "Quelle anguille conservée dans du vinaigre est typique du Namurois ?",
+        "propositions": [
+          "Frifri",
+          "Escavèche",
+          "Pacade",
+          "Bouillie"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "La recette d'origine est à base d'anguille mais peut aussi se concevoir avec d'autres poissons tels que la truite ou le brochet."
+      },
+      {
+        "id": 26,
+        "question": "Quel pot-au-feu flamand est cuisiné à base de queue de boeuf, de lard salé et de légumes ?",
+        "propositions": [
+          "Hochepot",
+          "Tielle",
+          "Stoemp",
+          "Frifri"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "Le hochepot était anciennement un mets où entraient de la viande, des châtaignes et des navets cuits avec du bouillon."
+      },
+      {
+        "id": 27,
+        "question": "Quel filet de hareng mariné est enroulé autour d'un oignon ou d'un cornichon vinaigré ?",
+        "propositions": [
+          "Stoemp",
+          "Hochepot",
+          "Potjevleesch",
+          "Rollmops"
+        ],
+        "réponse": "Rollmops",
+        "anecdote": "Après ouverture de la boîte, les rollmops peuvent être consommés froids, sans les dérouler, ou chauds sur du pain."
+      },
+      {
+        "id": 28,
+        "question": "Quelle spécialité est faite de blettes, de fromage blanc de ferme maigre et de beurre ?",
+        "propositions": [
+          "Tarte al d'jote",
+          "Rombosse",
+          "Touffaye",
+          "Chassart"
+        ],
+        "réponse": "Tarte al d'jote",
+        "anecdote": "Au début du mois de février de chaque année a lieu dans la ville de Nivelles la remise des labels de qualité (étoiles)."
+      },
+      {
+        "id": 29,
+        "question": "Dans quel plat des morceaux de viande sont pris dans de la gelée légèrement vinaigrée ?",
+        "propositions": [
+          "Potjevleesch",
+          "Oiseau sans tête",
+          "Vergeoise",
+          "Cannibale"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "Le potjevleesch est servi avec des frites qui font fondre la gelée, ou de manière traditionnelle avec des pommes dunkerquoises."
+      },
+      {
+        "id": 30,
+        "question": "Quelle tarte n'est consommée qu'au moment de la célèbre ducasse d'Ath ?",
+        "propositions": [
+          "Tarte au riz",
+          "Tarte à la gomme",
+          "Tarte à masteilles",
+          "Tarte al d'jote"
+        ],
+        "réponse": "Tarte à masteilles",
+        "anecdote": "Les ingrédients principaux sont des pains secs, du sucre, du lait, des oeufs, des macarons et des amandes douces et amères."
+      }
+    ]
+    },
+    "en": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Which carbonade is made from pieces of meat simmered in a beer sauce ?",
+        "propositions": [
+          "Walloon",
+          "From Brussels",
+          "Germanic",
+          "Flemish"
+        ],
+        "réponse": "Flemish",
+        "anecdote": "The word carbonnade comes from the word charcoal because this dish was simmered for a long time on the charcoal embers."
+      },
+      {
+        "id": 2,
+        "question": "What brioche bread studded with sugar chips is sold across the country ?",
+        "propositions": [
+          "Gosette",
+          "Croustillon",
+          "Cracker",
+          "Wonderful"
+        ],
+        "réponse": "Cracker",
+        "anecdote": "In Grammont, the crackers are in the shape of rings and are distributed during the fire and bread festival at the end of winter."
+      },
+      {
+        "id": 3,
+        "question": "Which hot pastry is a classic at Belgian fairs and fairs ?",
+        "propositions": [
+          "Croustillon",
+          "Caricole",
+          "Bird's nest",
+          "Stoemp"
+        ],
+        "réponse": "Croustillon",
+        "anecdote": "The croustillons are made up of small bites of donut dough cooked in a frying powder sprinkled with icing sugar."
+      },
+      {
+        "id": 4,
+        "question": "In Belgium, which breaded and spicy sausage is often served in chip shops ?",
+        "propositions": [
+          "Gandeuillot",
+          "Fricadelle",
+          "Rosette",
+          "Longeole"
+        ],
+        "réponse": "Fricadelle",
+        "anecdote": "Cooked in oil in a deep fryer or in a pan, the fricadelles are one of the basic ingredients of the machine gun."
+      },
+      {
+        "id": 5,
+        "question": "Which waffle made from fermented yeast dough with cinnamon has pearl sugar ?",
+        "propositions": [
+          "Waffle from Tournai",
+          "Waffle from Mons",
+          "Liège waffle",
+          "Antwerp waffle"
+        ],
+        "réponse": "Liège waffle",
+        "anecdote": "Its origin is concomitant with the marketing of pearl sugar generated from beet sugar from Hesbaye."
+      },
+      {
+        "id": 6,
+        "question": "Which half baguette contains hot meat, fries and sauce ?",
+        "propositions": [
+          "Truffade",
+          "Rosti",
+          "Frico",
+          "Submachine gun"
+        ],
+        "réponse": "Submachine gun",
+        "anecdote": "In France, a similar sandwich is sold under the American name, in the north of France and in Reunion."
+      },
+      {
+        "id": 7,
+        "question": "Which dish that is very popular in Belgium can be marinated, plain, in cream or garlic ?",
+        "propositions": [
+          "Mussels and fries",
+          "Tielle",
+          "Koulibiak",
+          "Sea urchin"
+        ],
+        "réponse": "Mussels and fries",
+        "anecdote": "The portion of mussels of one kilogram per person is often served to each guest in their cooking vessel."
+      },
+      {
+        "id": 8,
+        "question": "What sweet and salty Belgian dish, often served as a starter, consists of tuna ?",
+        "propositions": [
+          "Bouquette",
+          "Waterzooï",
+          "Escavèche",
+          "Tuna fishing"
+        ],
+        "réponse": "Tuna fishing",
+        "anecdote": "It consists of a peach, stuffed with a mixture of tuna and mayonnaise, sometimes garnished with onion and spices."
+      },
+      {
+        "id": 9,
+        "question": "In which gratin are the endives wrapped in slices of ham ?",
+        "propositions": [
+          "Croque-monsieur",
+          "Sarcive",
+          "Stopper",
+          "Chicon-gratin"
+        ],
+        "réponse": "Chicon-gratin",
+        "anecdote": "The name chicory comes from the term used in the north of France and Belgium to designate endive."
+      },
+      {
+        "id": 10,
+        "question": "Which yeast dough is topped with rice pudding mixed with egg ?",
+        "propositions": [
+          "Carmique",
+          "Rice pie",
+          "Bouquette",
+          "Cougnou"
+        ],
+        "réponse": "Rice pie",
+        "anecdote": "In some areas, bakers add crushed macaroon to rice pudding which is then covered with another crushed macaroon."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Which balls are bathed in a sweet and sour sauce made from onions and brown sugar ?",
+        "propositions": [
+          "Namur style",
+          "At the Mons",
+          "At the athoise",
+          "Liège style"
+        ],
+        "réponse": "Liège style",
+        "anecdote": "This sauce is called rabbit sauce, which does not contain rabbit, but takes its name from Madame Géraldine Lapin."
+      },
+      {
+        "id": 12,
+        "question": "Which extremely hard cookie is made with caramelized honey and flour ?",
+        "propositions": [
+          "Zézette",
+          "Cracker",
+          "Couque de Dinant",
+          "Nic-nac"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Difficult to eat, the couque de Dinant is probably an avatar of the preparations made for the boatmen of the Meuse."
+      },
+      {
+        "id": 13,
+        "question": "Which vinegar-based condiment recipe belongs to the pickle family ?",
+        "propositions": [
+          "Melfor",
+          "Vincotto",
+          "Myrtus",
+          "Piccalilli"
+        ],
+        "réponse": "Piccalilli",
+        "anecdote": "Belgian piccalilli, also called pickles, is a sauce made from vegetables, vinegar, sugar and mustard."
+      },
+      {
+        "id": 14,
+        "question": "Which cookie with a grainy texture is traditionally flavored with cinnamon ?",
+        "propositions": [
+          "Acibadem",
+          "Kourabie",
+          "Torta",
+          "Speculoos"
+        ],
+        "réponse": "Speculoos",
+        "anecdote": "Speculoos are most often eaten during Advent and more particularly during the feast of Saint Nicolas, December 6."
+      },
+      {
+        "id": 15,
+        "question": "What specialty is made from collard greens, spices and white pork meat ?",
+        "propositions": [
+          "Green sausage",
+          "Trulle",
+          "Hot",
+          "Pastrami"
+        ],
+        "réponse": "Green sausage",
+        "anecdote": "Its production is judged each year by the green pudding eaters who grant the best highly sought-after labels."
+      },
+      {
+        "id": 16,
+        "question": "In Belgium, what other name is given to apple turnover ?",
+        "propositions": [
+          "Pomette",
+          "Cosette",
+          "Josette",
+          "Gosette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "In Belgium, the apple turnover is not made with puff pastry but with pie dough."
+      },
+      {
+        "id": 17,
+        "question": "Which hard-digestible variety of cabbage causes bloating and gas ?",
+        "propositions": [
+          "Kale",
+          "Head cabbage",
+          "Cavalier cabbage",
+          "Brussels sprouts"
+        ],
+        "réponse": "Brussels sprouts",
+        "anecdote": "The bitter taste of this vegetable should alert us to its toxicity, but some people do not have the detection gene."
+      },
+      {
+        "id": 18,
+        "question": "Which pastry is eaten during the Saint-Nicolas and Christmas periods ?",
+        "propositions": [
+          "African",
+          "Speculoos",
+          "Faluche",
+          "Cougnou"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Consumed with a bowl of hot chocolate, this brioche bread often has a shape reminiscent of the swaddled baby Jesus."
+      },
+      {
+        "id": 19,
+        "question": "What stuffed meat roulade is often eaten in French-speaking Belgium ?",
+        "propositions": [
+          "Hoosh",
+          "Bounarine",
+          "Headless bird",
+          "Vol-au-vent"
+        ],
+        "réponse": "Headless bird",
+        "anecdote": "Its easy cooking, its flavor and its reasonable cost price make it a common dish, all regions combined."
+      },
+      {
+        "id": 20,
+        "question": "What kind of molasses comes from cooking apple and pear juice ?",
+        "propositions": [
+          "Battery syrup",
+          "Diabolo",
+          "Cork syrup",
+          "Maple syrup"
+        ],
+        "réponse": "Cork syrup",
+        "anecdote": "These syrups are mainly centralized in the country of Herve, in the northeast of the province of Liège."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "What unique chicken or fish dish is eaten in a broth bound in cream ?",
+        "propositions": [
+          "Hochepot",
+          "Carbonade",
+          "Potjevleesch",
+          "Waterzooï"
+        ],
+        "réponse": "Waterzooï",
+        "anecdote": "In a more advanced version, add half a glass of beer or semi-dry, fruity white wine at the end of the cooking time."
+      },
+      {
+        "id": 22,
+        "question": "Which Malmedy confectionery includes two meringues sealed with whipped cream ?",
+        "propositions": [
+          "Periwinkle",
+          "Stupidity",
+          "Beanie",
+          "Kiss"
+        ],
+        "réponse": "Kiss",
+        "anecdote": "Malmedy's kiss was invented in the middle of the 19th century by pastry chef Rodolphe Wiertz, originally from Hellenthal."
+      },
+      {
+        "id": 23,
+        "question": "What Belgian specialty consists of a toast topped with American fillet ?",
+        "propositions": [
+          "Chivito",
+          "Cannibal",
+          "Reuben",
+          "Wrap"
+        ],
+        "réponse": "Cannibal",
+        "anecdote": "The cannibal is often served on a plate garnished with vegetables or salad, accompanied by Worcestershire sauce."
+      },
+      {
+        "id": 24,
+        "question": "Which mashed potatoes are mixed with one or more vegetables ?",
+        "propositions": [
+          "Bombine",
+          "Ocopa",
+          "Stoemp",
+          "Chupe"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "It traditionally accompanies pan-fried blood sausages, roast bacon, country sausages or fried eggs."
+      },
+      {
+        "id": 25,
+        "question": "Which eel preserved in vinegar is typical of the Namur region ?",
+        "propositions": [
+          "Frifri",
+          "Pacade",
+          "Escavèche",
+          "Porridge"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "The original recipe is based on eel but can also be used with other fish such as trout or pike."
+      },
+      {
+        "id": 26,
+        "question": "What Flemish stew is cooked with oxtail, salted bacon and vegetables ?",
+        "propositions": [
+          "Frifri",
+          "Hochepot",
+          "Stoemp",
+          "Tielle"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "The hochepot was formerly a dish which included meat, chestnuts and turnips cooked in broth."
+      },
+      {
+        "id": 27,
+        "question": "What marinated herring fillet is wrapped around an onion or pickled pickle ?",
+        "propositions": [
+          "Potjevleesch",
+          "Stoemp",
+          "Rollmops",
+          "Hochepot"
+        ],
+        "réponse": "Rollmops",
+        "anecdote": "After opening the box, the rollmops can be eaten cold, without unrolling them, or hot on bread."
+      },
+      {
+        "id": 28,
+        "question": "Which specialty is made from Swiss chard, lean farm cottage cheese and butter ?",
+        "propositions": [
+          "Chassart",
+          "Rombosse",
+          "Touffaye",
+          "Al d'jote tart"
+        ],
+        "réponse": "Al d'jote tart",
+        "anecdote": "At the beginning of February of each year, the awarding of quality labels (stars) takes place in the town of Nivelles."
+      },
+      {
+        "id": 29,
+        "question": "In which dish are pieces of meat stuck in slightly vinegared jelly ?",
+        "propositions": [
+          "Headless bird",
+          "Vergeoise",
+          "Potjevleesch",
+          "Cannibal"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "Potjevleesch is served with fries that melt the jelly, or in the traditional way with Dunkirk apples."
+      },
+      {
+        "id": 30,
+        "question": "Which pie is not eaten until the famous Ducasse d'Ath ?",
+        "propositions": [
+          "Rice pie",
+          "Gum pie",
+          "Masteilles tart",
+          "Al d'jote tart"
+        ],
+        "réponse": "Masteilles tart",
+        "anecdote": "The main ingredients are dry breads, sugar, milk, eggs, macaroons, and sweet and bitter almonds."
+      }
+    ]
+    },
+    "de": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welche Kohlensäure wird aus in Biersauce geschmorten Fleischstücken hergestellt ?",
+        "propositions": [
+          "Germanisch",
+          "Wallonisch",
+          "Flämisch",
+          "Aus Brüssel"
+        ],
+        "réponse": "Flämisch",
+        "anecdote": "Das Wort Carbonnade kommt vom Wort Holzkohle, weil dieses Gericht lange Zeit auf der Holzkohleglut gegart wurde."
+      },
+      {
+        "id": 2,
+        "question": "Welches Brioche-Brot mit Zuckerstückchen wird im ganzen Land verkauft ?",
+        "propositions": [
+          "Cracker",
+          "Wunderbar",
+          "Croustillon",
+          "Gosette"
+        ],
+        "réponse": "Cracker",
+        "anecdote": "In Grammont haben die Cracker die Form von Ringen und werden während des Feuer- und Brotfestes am Ende des Winters verteilt."
+      },
+      {
+        "id": 3,
+        "question": "Welches heiße Gebäck ist ein Klassiker auf belgischen Messen und Jahrmärkten ?",
+        "propositions": [
+          "Stoemp",
+          "Croustillon",
+          "Karicole",
+          "Vogelnest"
+        ],
+        "réponse": "Croustillon",
+        "anecdote": "Die Croustillons bestehen aus kleinen Stücken Donutteig, die in einem mit Puderzucker bestreuten Bratpulver gekocht werden."
+      },
+      {
+        "id": 4,
+        "question": "Welche panierte und würzige Wurst wird in Belgien oft in Pommesbuden serviert ?",
+        "propositions": [
+          "Rosette",
+          "Gandeuillot",
+          "Longeole",
+          "Frikadelle"
+        ],
+        "réponse": "Frikadelle",
+        "anecdote": "In einer Fritteuse oder in einer Pfanne in Öl gegart, sind die Frikadellen eine der Grundzutaten des Maschinengewehrs."
+      },
+      {
+        "id": 5,
+        "question": "Welche Waffel aus fermentiertem Hefeteig mit Zimt hat Perlzucker ?",
+        "propositions": [
+          "Lütticher Waffel",
+          "Antwerpener Waffel",
+          "Waffel von Mons",
+          "Waffel aus Tournai"
+        ],
+        "réponse": "Lütticher Waffel",
+        "anecdote": "Sein Ursprung geht einher mit der Vermarktung von Perlzucker, der aus Rübenzucker aus Hesbaye gewonnen wird."
+      },
+      {
+        "id": 6,
+        "question": "Welches halbe Baguette enthält heißes Fleisch, Pommes und Sauce ?",
+        "propositions": [
+          "Rosti",
+          "Trüffel",
+          "Frico",
+          "Maschinenpistole"
+        ],
+        "réponse": "Maschinenpistole",
+        "anecdote": "In Frankreich wird ein ähnliches Sandwich unter dem amerikanischen Namen verkauft, in Nordfrankreich und auf Réunion."
+      },
+      {
+        "id": 7,
+        "question": "Welches Gericht, das in Belgien sehr beliebt ist, kann mariniert werden, pur, in Sahne oder Knoblauch ?",
+        "propositions": [
+          "Miesmuscheln und Pommes",
+          "Koulibiak",
+          "Tielle",
+          "Seeigel"
+        ],
+        "réponse": "Miesmuscheln und Pommes",
+        "anecdote": "Die Portion Muscheln von einem Kilogramm pro Person wird oft jedem Gast in seinem Kochgefäß serviert."
+      },
+      {
+        "id": 8,
+        "question": "Welches süße und salzige belgische Gericht, das oft als Vorspeise serviert wird, besteht aus Thunfisch ?",
+        "propositions": [
+          "Wasserzooï",
+          "Escavèche",
+          "Thunfischfang",
+          "Blumenstrauß"
+        ],
+        "réponse": "Thunfischfang",
+        "anecdote": "Es besteht aus einem Pfirsich, gefüllt mit einer Mischung aus Thunfisch und Mayonnaise, manchmal garniert mit Zwiebeln und Gewürzen."
+      },
+      {
+        "id": 9,
+        "question": "In welchem Gratin sind die Endivien in Schinkenscheiben gewickelt ?",
+        "propositions": [
+          "Stopper",
+          "Croque-monsieur",
+          "Chicon-Gratin",
+          "Sarziv"
+        ],
+        "réponse": "Chicon-Gratin",
+        "anecdote": "Der Name Chicorée leitet sich von dem in Nordfrankreich und Belgien verwendeten Begriff für Endivie ab."
+      },
+      {
+        "id": 10,
+        "question": "Welcher Hefeteig wird mit Milchreis belegt, der mit Ei vermischt ist ?",
+        "propositions": [
+          "Cougnou",
+          "Blumenstrauß",
+          "Reiskuchen",
+          "Carmique"
+        ],
+        "réponse": "Reiskuchen",
+        "anecdote": "In einigen Gegenden fügen Bäcker zerkleinerte Makronen zu Milchreis hinzu, der dann mit einer anderen zerkleinerten Makrone bedeckt wird."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welche Kugeln werden in einer süß-sauren Soße aus Zwiebeln und braunem Zucker gebadet ?",
+        "propositions": [
+          "Namur-Stil",
+          "Lütticher Stil",
+          "Am Mons",
+          "Bei der athoise"
+        ],
+        "réponse": "Lütticher Stil",
+        "anecdote": "Diese Sauce heißt Kaninchensauce, die kein Kaninchen enthält, aber ihren Namen von Madame Géraldine Lapin hat."
+      },
+      {
+        "id": 12,
+        "question": "Welcher extrem harte Keks wird aus karamellisiertem Honig und Mehl hergestellt ?",
+        "propositions": [
+          "Zézette",
+          "Nic-nac",
+          "Cracker",
+          "Couque de Dinant"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Die Couque de Dinant ist schwer zu essen und wahrscheinlich ein Avatar der Vorbereitungen für die Schiffer der Maas."
+      },
+      {
+        "id": 13,
+        "question": "Welches Gewürzrezept auf Essigbasis gehört zur Familie der Gurken ?",
+        "propositions": [
+          "Piccalillien",
+          "Melfor",
+          "Myrtus",
+          "Vincotto"
+        ],
+        "réponse": "Piccalillien",
+        "anecdote": "Belgische Piccalilli, auch Pickles genannt, ist eine Sauce aus Gemüse, Essig, Zucker und Senf."
+      },
+      {
+        "id": 14,
+        "question": "Welcher Keks mit körniger Textur wird traditionell mit Zimt gewürzt ?",
+        "propositions": [
+          "Acibadem",
+          "Kourabie",
+          "Spekulatius",
+          "Torta"
+        ],
+        "réponse": "Spekulatius",
+        "anecdote": "Spekulatius werden am häufigsten in der Adventszeit und insbesondere während des Nikolausfestes am 6. Dezember gegessen."
+      },
+      {
+        "id": 15,
+        "question": "Welche Spezialität wird aus Grünkohl, Gewürzen und weißem Schweinefleisch hergestellt ?",
+        "propositions": [
+          "Heiß",
+          "Grüne Wurst",
+          "Trulle",
+          "Pastrami"
+        ],
+        "réponse": "Grüne Wurst",
+        "anecdote": "Seine Produktion wird jedes Jahr von den Pudding-Essern bewertet, die die besten und begehrtesten Labels vergeben."
+      },
+      {
+        "id": 16,
+        "question": "Wie wird in Belgien der Apfelumsatz anders bezeichnet ?",
+        "propositions": [
+          "Pomette",
+          "Cosette",
+          "Josette",
+          "Gosette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "In Belgien wird der Apfelumsatz nicht mit Blätterteig, sondern mit Tortenteig gemacht."
+      },
+      {
+        "id": 17,
+        "question": "Welche schwer verdauliche Kohlsorte verursacht Blähungen und Blähungen ?",
+        "propositions": [
+          "Rosenkohl",
+          "Kavalierkraut",
+          "Kopfkohl",
+          "Grünkohl"
+        ],
+        "réponse": "Rosenkohl",
+        "anecdote": "Der bittere Geschmack dieses Gemüses sollte uns auf seine Toxizität aufmerksam machen, aber manche Menschen haben nicht das Erkennungsgen."
+      },
+      {
+        "id": 18,
+        "question": "Welches Gebäck wird während der Saint-Nicolas- und Weihnachtszeit gegessen ?",
+        "propositions": [
+          "Faluche",
+          "Cougnou",
+          "Afrikaner",
+          "Spekulatius"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Mit einer Schüssel heißer Schokolade verzehrt, hat dieses Brioche-Brot oft eine Form, die an das gewickelte Jesuskind erinnert."
+      },
+      {
+        "id": 19,
+        "question": "Welche gefüllte Fleischroulade wird im französischsprachigen Belgien oft gegessen ?",
+        "propositions": [
+          "Vol-au-vent",
+          "Kopfloser Vogel",
+          "Husch",
+          "Bounarine"
+        ],
+        "réponse": "Kopfloser Vogel",
+        "anecdote": "Seine einfache Zubereitung, sein Geschmack und sein angemessener Selbstkostenpreis machen es zu einem gemeinsamen Gericht, das alle Regionen vereint."
+      },
+      {
+        "id": 20,
+        "question": "Welche Melasse entsteht beim Kochen von Apfel- und Birnensaft ?",
+        "propositions": [
+          "Ahornsirup",
+          "Korksirup",
+          "Diabolo",
+          "Batteriesirup"
+        ],
+        "réponse": "Korksirup",
+        "anecdote": "Diese Sirupe werden hauptsächlich im Land Herve, im Nordosten der Provinz Lüttich, zentralisiert."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welches einzigartige Hühnchen- oder Fischgericht wird in einer in Sahne gebundenen Brühe gegessen ?",
+        "propositions": [
+          "Potjevleesch",
+          "Wasserzooï",
+          "Hochepot",
+          "Kohlensäure"
+        ],
+        "réponse": "Wasserzooï",
+        "anecdote": "In einer fortgeschritteneren Variante am Ende der Garzeit ein halbes Glas Bier oder halbtrockenen, fruchtigen Weißwein dazugeben."
+      },
+      {
+        "id": 22,
+        "question": "Welche Malmedy-Süßwaren enthalten zwei mit Schlagsahne versiegelte Baisers ?",
+        "propositions": [
+          "Kuss",
+          "Immergrün",
+          "Dummheit",
+          "Mütze"
+        ],
+        "réponse": "Kuss",
+        "anecdote": "Der Malmedy-Kuss wurde Mitte des 19. Jahrhunderts von dem aus Hellenthal stammenden Konditor Rodolphe Wiertz erfunden."
+      },
+      {
+        "id": 23,
+        "question": "Welche belgische Spezialität besteht aus einem Toast mit amerikanischem Filet ?",
+        "propositions": [
+          "Chivito",
+          "Ruben",
+          "Wickeln",
+          "Kannibale"
+        ],
+        "réponse": "Kannibale",
+        "anecdote": "Der Kannibale wird oft auf einem mit Gemüse oder Salat garnierten Teller serviert, begleitet von Worcestershire-Sauce."
+      },
+      {
+        "id": 24,
+        "question": "Welche Kartoffelpüree werden mit einem oder mehreren Gemüsesorten vermischt ?",
+        "propositions": [
+          "Chupe",
+          "Ocopa",
+          "Bombe",
+          "Stoemp"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "Er passt traditionell zu Bratwürsten, gebratenem Speck, Landwürsten oder Spiegeleiern."
+      },
+      {
+        "id": 25,
+        "question": "Welcher in Essig eingelegte Aal ist typisch für die Region Namur ?",
+        "propositions": [
+          "Frifri",
+          "Escavèche",
+          "Haferbrei",
+          "Pakade"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "Das Originalrezept basiert auf Aal, kann aber auch mit anderen Fischen wie Forelle oder Hecht verwendet werden."
+      },
+      {
+        "id": 26,
+        "question": "Welcher flämische Eintopf wird mit Ochsenschwanz, gesalzenem Speck und Gemüse gekocht ?",
+        "propositions": [
+          "Hochepot",
+          "Stoemp",
+          "Tielle",
+          "Frifri"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "Der Hochepot war früher ein Gericht, das Fleisch, Kastanien und Rüben in Brühe zubereitete."
+      },
+      {
+        "id": 27,
+        "question": "Welches marinierte Heringsfilet wird um eine Zwiebel oder eingelegte Gurke gewickelt ?",
+        "propositions": [
+          "Stoemp",
+          "Rollmops",
+          "Hochepot",
+          "Potjevleesch"
+        ],
+        "réponse": "Rollmops",
+        "anecdote": "Nach dem Öffnen der Box können die Rollmops kalt, ohne sie aufzurollen, oder heiß auf Brot gegessen werden."
+      },
+      {
+        "id": 28,
+        "question": "Welche Spezialität wird aus Mangold, magerem Bauernkäse und Butter hergestellt ?",
+        "propositions": [
+          "Al-d'jote-Torte",
+          "Chassart",
+          "Rombosse",
+          "Touffaye"
+        ],
+        "réponse": "Al-d'jote-Torte",
+        "anecdote": "Anfang Februar jeden Jahres findet in der Stadt Nivelles die Verleihung der Gütesiegel (Sterne) statt."
+      },
+      {
+        "id": 29,
+        "question": "In welchem Gericht stecken Fleischstücke in leicht angesäuertem Gelee ?",
+        "propositions": [
+          "Potjevleesch",
+          "Vergeoise",
+          "Kannibale",
+          "Kopfloser Vogel"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "Potjevleesch wird mit Pommes Frites serviert, die das Gelee schmelzen, oder auf traditionelle Weise mit Dünkirchen-Äpfeln."
+      },
+      {
+        "id": 30,
+        "question": "Welche Torte wird erst bei der berühmten Ducasse d'Ath gegessen ?",
+        "propositions": [
+          "Gummikuchen",
+          "Al-d'jote-Torte",
+          "Masteilles-Torte",
+          "Reiskuchen"
+        ],
+        "réponse": "Masteilles-Torte",
+        "anecdote": "Die Hauptzutaten sind trockenes Brot, Zucker, Milch, Eier, Makronen sowie süße und bittere Mandeln."
+      }
+    ]
+    },
+    "es": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "¿Qué carbonade se hace con trozos de carne hervidos a fuego lento en una salsa de cerveza ?",
+        "propositions": [
+          "Desde Bruselas",
+          "Germánico",
+          "Valonia",
+          "Flamenco"
+        ],
+        "réponse": "Flamenco",
+        "anecdote": "La palabra carbonnade proviene de la palabra carbón porque este plato se cocinó a fuego lento durante mucho tiempo sobre las brasas del carbón."
+      },
+      {
+        "id": 2,
+        "question": "¿Qué pan brioche salpicado de chips de azúcar se vende en todo el país ?",
+        "propositions": [
+          "Croustillon",
+          "Gosette",
+          "Maravilloso",
+          "Cracker"
+        ],
+        "réponse": "Cracker",
+        "anecdote": "En Grammont, las galletas tienen forma de anillos y se distribuyen durante el festival del fuego y el pan al final del invierno."
+      },
+      {
+        "id": 3,
+        "question": "¿Qué pastelería caliente es un clásico en las ferias y ferias belgas ?",
+        "propositions": [
+          "Caricole",
+          "Nido de pájaro",
+          "Stoemp",
+          "Croustillon"
+        ],
+        "réponse": "Croustillon",
+        "anecdote": "Los croustillons se componen de pequeños bocados de masa de rosquilla cocida en un polvo para freír espolvoreado con azúcar glas."
+      },
+      {
+        "id": 4,
+        "question": "En Bélgica, ¿qué salchicha empanizada y picante se sirve a menudo en las tiendas de patatas fritas ?",
+        "propositions": [
+          "Gandeuillot",
+          "Fricadelle",
+          "Longeole",
+          "Rosette"
+        ],
+        "réponse": "Fricadelle",
+        "anecdote": "Cocidas en aceite en una freidora o en una sartén, las fricadelles son uno de los ingredientes básicos de la ametralladora."
+      },
+      {
+        "id": 5,
+        "question": "¿Qué gofre elaborado con masa de levadura fermentada con canela tiene azúcar perlado ?",
+        "propositions": [
+          "Gofre de Tournai",
+          "Gofre de Lieja",
+          "Gofre de Mons",
+          "Gofre de Amberes"
+        ],
+        "réponse": "Gofre de Lieja",
+        "anecdote": "Su origen es concomitante con la comercialización del azúcar perlado generado a partir del azúcar de remolacha de Hesbaye."
+      },
+      {
+        "id": 6,
+        "question": "¿Qué media baguette contiene carne picante, patatas fritas y salsa ?",
+        "propositions": [
+          "Metralleta",
+          "Truffade",
+          "Frico",
+          "Rosti"
+        ],
+        "réponse": "Metralleta",
+        "anecdote": "En Francia, un sándwich similar se vende bajo el nombre americano, en el norte de Francia y en Reunión."
+      },
+      {
+        "id": 7,
+        "question": "¿Qué plato que es muy popular en Bélgica puede ser adobado, simple, en crema o con ajo ?",
+        "propositions": [
+          "Koulibiak",
+          "Tielle",
+          "Mejillones y patatas fritas",
+          "Erizo de mar"
+        ],
+        "réponse": "Mejillones y patatas fritas",
+        "anecdote": "La porción de mejillones de un kilogramo por persona a menudo se sirve a cada invitado en su recipiente de cocción."
+      },
+      {
+        "id": 8,
+        "question": "¿Qué plato belga dulce y salado, que a menudo se sirve como entrante, consiste en atún ?",
+        "propositions": [
+          "Bouquette",
+          "Pesca de atún",
+          "Waterzooï",
+          "Escavèche"
+        ],
+        "réponse": "Pesca de atún",
+        "anecdote": "Consiste en un melocotón, relleno con una mezcla de atún y mayonesa, a veces aderezado con cebolla y especias."
+      },
+      {
+        "id": 9,
+        "question": "¿En qué gratinados se envuelven las endivias en lonchas de jamón ?",
+        "propositions": [
+          "Croque-monsieur",
+          "Tapón",
+          "Chicon gratinado",
+          "Sarcive"
+        ],
+        "réponse": "Chicon gratinado",
+        "anecdote": "El nombre achicoria proviene del término utilizado en el norte de Francia y Bélgica para designar la endibia."
+      },
+      {
+        "id": 10,
+        "question": "¿Qué masa de levadura se cubre con arroz con leche mezclado con huevo ?",
+        "propositions": [
+          "Cougnou",
+          "Pastel de arroz",
+          "Carmique",
+          "Bouquette"
+        ],
+        "réponse": "Pastel de arroz",
+        "anecdote": "En algunas áreas, los panaderos agregan macarrones triturados al arroz con leche, que luego se cubre con otro macarrón triturado."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "¿Qué bolas se bañan en una salsa agridulce a base de cebolla y azúcar morena ?",
+        "propositions": [
+          "Estilo de Lieja",
+          "En el athoise",
+          "En el Mons",
+          "Estilo Namur"
+        ],
+        "réponse": "Estilo de Lieja",
+        "anecdote": "Esta salsa se llama salsa de conejo, que no contiene conejo, pero toma su nombre de Madame Géraldine Lapin."
+      },
+      {
+        "id": 12,
+        "question": "¿Qué galleta extremadamente dura está hecha con miel y harina caramelizadas ?",
+        "propositions": [
+          "Nic-nac",
+          "Cracker",
+          "Couque de Dinant",
+          "Zézette"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Difícil de comer, el couque de Dinant es probablemente un avatar de los preparativos hechos para los barqueros del Mosa."
+      },
+      {
+        "id": 13,
+        "question": "¿Qué receta de condimentos a base de vinagre pertenece a la familia de los pepinillos ?",
+        "propositions": [
+          "Myrtus",
+          "Melfor",
+          "Vincotto",
+          "Piccalilli"
+        ],
+        "réponse": "Piccalilli",
+        "anecdote": "El piccalilli belga, también llamado encurtido, es una salsa hecha a base de verduras, vinagre, azúcar y mostaza."
+      },
+      {
+        "id": 14,
+        "question": "¿Qué galleta de textura granulada se aromatiza tradicionalmente con canela ?",
+        "propositions": [
+          "Kourabie",
+          "Speculoos",
+          "Torta",
+          "Acibadem"
+        ],
+        "réponse": "Speculoos",
+        "anecdote": "Los speculoos se comen con mayor frecuencia durante el Adviento y más particularmente durante la fiesta de San Nicolás, el 6 de diciembre."
+      },
+      {
+        "id": 15,
+        "question": "¿Qué especialidad se elabora con berza, especias y carne de cerdo blanca ?",
+        "propositions": [
+          "Trulle",
+          "Salchicha verde",
+          "Pastrami",
+          "Caliente"
+        ],
+        "réponse": "Salchicha verde",
+        "anecdote": "Su producción es juzgada cada año por los comedores de morcilla que otorgan las mejores etiquetas muy solicitadas."
+      },
+      {
+        "id": 16,
+        "question": "En Bélgica, ¿qué otro nombre se le da al volumen de negocios de la manzana ?",
+        "propositions": [
+          "Gosette",
+          "Cosette",
+          "Josette",
+          "Pomette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "En Bélgica, la masa de manzana no se elabora con hojaldre sino con masa para tartas."
+      },
+      {
+        "id": 17,
+        "question": "¿Qué variedad de repollo de difícil digestión causa hinchazón y gases ?",
+        "propositions": [
+          "Repollo de cabeza",
+          "Kale",
+          "Repollo cavalier",
+          "Coles de Bruselas"
+        ],
+        "réponse": "Coles de Bruselas",
+        "anecdote": "El sabor amargo de esta verdura debería alertarnos sobre su toxicidad, pero algunas personas no tienen el gen de detección."
+      },
+      {
+        "id": 18,
+        "question": "¿Qué pastelería se come durante los períodos de San Nicolás y Navidad ?",
+        "propositions": [
+          "Faluche",
+          "Speculoos",
+          "Africano",
+          "Cougnou"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Consumido con un cuenco de chocolate caliente, este pan brioche a menudo tiene una forma que recuerda al niño Jesús envuelto en pañales."
+      },
+      {
+        "id": 19,
+        "question": "¿Qué rollo de carne relleno se come a menudo en la Bélgica francófona ?",
+        "propositions": [
+          "Hoosh",
+          "Vol-au-vent",
+          "Bounarine",
+          "Pájaro sin cabeza"
+        ],
+        "réponse": "Pájaro sin cabeza",
+        "anecdote": "Su fácil cocción, su sabor y su precio razonable lo convierten en un plato común, todas las regiones juntas."
+      },
+      {
+        "id": 20,
+        "question": "¿Qué tipo de melaza se obtiene al cocinar jugo de manzana y pera ?",
+        "propositions": [
+          "Jarabe de batería",
+          "Diabolo",
+          "Sirope de corcho",
+          "Sirope de arce"
+        ],
+        "réponse": "Sirope de corcho",
+        "anecdote": "Estos jarabes se centralizan principalmente en el país de Herve, en el noreste de la provincia de Lieja."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "¿Qué plato único de pollo o pescado se come en un caldo encuadernado en crema ?",
+        "propositions": [
+          "Hochepot",
+          "Waterzooï",
+          "Potjevleesch",
+          "Carbonade"
+        ],
+        "réponse": "Waterzooï",
+        "anecdote": "En una versión más avanzada, agregue medio vaso de cerveza o vino blanco afrutado semiseco al final del tiempo de cocción."
+      },
+      {
+        "id": 22,
+        "question": "¿Qué confitería Malmedy incluye dos merengues sellados con nata montada ?",
+        "propositions": [
+          "Beanie",
+          "Estupidez",
+          "Beso",
+          "Bígaro"
+        ],
+        "réponse": "Beso",
+        "anecdote": "Se dice que el beso de Malmedy fue inventado a mediados del siglo XIX por el pastelero Rodolphe Wiertz, originario de Hellenthal."
+      },
+      {
+        "id": 23,
+        "question": "¿Qué especialidad belga consiste en una tostada cubierta con filete americano ?",
+        "propositions": [
+          "Caníbal",
+          "Reuben",
+          "Chivito",
+          "Envolver"
+        ],
+        "réponse": "Caníbal",
+        "anecdote": "El caníbal se sirve a menudo en un plato adornado con verduras o ensalada, acompañado de salsa Worcestershire."
+      },
+      {
+        "id": 24,
+        "question": "¿Qué puré de papas se mezclan con una o más verduras ?",
+        "propositions": [
+          "Stoemp",
+          "Chupe",
+          "Bombine",
+          "Ocopa"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "Acompaña tradicionalmente salchichas fritas, tocino asado, salchichas campestres o huevos fritos."
+      },
+      {
+        "id": 25,
+        "question": "¿Qué anguila conservada en vinagre es típica de la región de Namur ?",
+        "propositions": [
+          "Gachas de avena",
+          "Escavèche",
+          "Frifri",
+          "Pacade"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "La receta original está basada en la anguila pero también se puede utilizar con otros pescados como la trucha o el lucio."
+      },
+      {
+        "id": 26,
+        "question": "¿Qué cocido flamenco se cocina con rabo de toro, tocino salado y verduras ?",
+        "propositions": [
+          "Hochepot",
+          "Stoemp",
+          "Tielle",
+          "Frifri"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "El hochepot era antiguamente un plato que incluía carne, castañas y nabos cocidos en caldo."
+      },
+      {
+        "id": 27,
+        "question": "¿Qué filete de arenque marinado se envuelve alrededor de una cebolla o pepinillo en escabeche ?",
+        "propositions": [
+          "Rollmops",
+          "Hochepot",
+          "Stoemp",
+          "Potjevleesch"
+        ],
+        "réponse": "Rollmops",
+        "anecdote": "Después de abrir la caja, los mopas enrollados se pueden comer fríos, sin desenrollarlos, o calientes sobre pan."
+      },
+      {
+        "id": 28,
+        "question": "¿Qué especialidad se elabora con acelgas, requesón magro de granja y mantequilla ?",
+        "propositions": [
+          "Chassart",
+          "Touffaye",
+          "Rombosse",
+          "Tarta Al d'jote"
+        ],
+        "réponse": "Tarta Al d'jote",
+        "anecdote": "A principios de febrero de cada año, se realiza la entrega de etiquetas de calidad (estrellas) en la localidad de Nivelles."
+      },
+      {
+        "id": 29,
+        "question": "¿En qué plato están los trozos de carne metidos en gelatina ligeramente vinagreada ?",
+        "propositions": [
+          "Potjevleesch",
+          "Pájaro sin cabeza",
+          "Caníbal",
+          "Vergeoise"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "El potjevleesch se sirve con patatas fritas que derriten la gelatina, o de forma tradicional con manzanas de Dunkerque."
+      },
+      {
+        "id": 30,
+        "question": "¿Qué pastel no se come hasta el famoso Ducasse d'Ath ?",
+        "propositions": [
+          "Tarta Masteilles",
+          "Pastel de arroz",
+          "Tarta Al d'jote",
+          "Pastel de chicle"
+        ],
+        "réponse": "Tarta Masteilles",
+        "anecdote": "Los ingredientes principales son panes secos, azúcar, leche, huevos, macarrones y almendras dulces y amargas."
+      }
+    ]
+    },
+    "it": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Quale carbonade si ottiene dai pezzi di carne cotti a fuoco lento in una salsa alla birra ?",
+        "propositions": [
+          "germanico",
+          "Da Bruxelles",
+          "fiammingo",
+          "Vallone"
+        ],
+        "réponse": "fiammingo",
+        "anecdote": "La parola carbonnade deriva dalla parola carbone perché questo piatto è stato fatto bollire a lungo sulla brace."
+      },
+      {
+        "id": 2,
+        "question": "Quale pan brioche tempestato di gocce di zucchero viene venduto in tutto il paese ?",
+        "propositions": [
+          "Gosette",
+          "Cracker",
+          "Crostino",
+          "Meraviglioso"
+        ],
+        "réponse": "Cracker",
+        "anecdote": "A Grammont, i cracker hanno la forma di anelli e vengono distribuiti durante la festa del fuoco e del pane di fine inverno."
+      },
+      {
+        "id": 3,
+        "question": "Quale pasticceria calda è un classico nelle fiere e nelle fiere belghe ?",
+        "propositions": [
+          "Crostino",
+          "Caricole",
+          "Stoemp",
+          "Nido d'uccello"
+        ],
+        "réponse": "Crostino",
+        "anecdote": "I crostini sono costituiti da piccoli bocconcini di pasta per ciambelle cotti in una polvere per friggere cosparsa di zucchero a velo."
+      },
+      {
+        "id": 4,
+        "question": "In Belgio, quale salsiccia impanata e piccante viene servita spesso nei negozi di patatine ?",
+        "propositions": [
+          "Gandeuillot",
+          "Rosetta",
+          "Longeole",
+          "Fricadelle"
+        ],
+        "réponse": "Fricadelle",
+        "anecdote": "Cotte nell'olio in una friggitrice o in padella, le fricadelle sono uno degli ingredienti base della mitragliatrice."
+      },
+      {
+        "id": 5,
+        "question": "Quale waffle a base di pasta lievitata fermentata con cannella ha zucchero perlato ?",
+        "propositions": [
+          "Waffle di Mons",
+          "Waffle di Tournai",
+          "Waffle di Liegi",
+          "Waffle di Anversa"
+        ],
+        "réponse": "Waffle di Liegi",
+        "anecdote": "La sua origine è concomitante con la commercializzazione dello zucchero perlato generato dallo zucchero di barbabietola di Hesbaye."
+      },
+      {
+        "id": 6,
+        "question": "Quale mezza baguette contiene carne calda, patatine fritte e salsa ?",
+        "propositions": [
+          "Rosti",
+          "Truffade",
+          "Mitragliatrice",
+          "Frico"
+        ],
+        "réponse": "Mitragliatrice",
+        "anecdote": "In Francia un panino simile viene venduto con il nome americano, nel nord della Francia e a Reunion."
+      },
+      {
+        "id": 7,
+        "question": "Quale piatto molto popolare in Belgio può essere marinato, semplice, in crema o all'aglio ?",
+        "propositions": [
+          "Riccio di mare",
+          "Koulibiak",
+          "Cozze e patatine fritte",
+          "Tielle"
+        ],
+        "réponse": "Cozze e patatine fritte",
+        "anecdote": "La porzione di cozze di un chilogrammo a persona viene spesso servita a ciascun ospite nel proprio recipiente di cottura."
+      },
+      {
+        "id": 8,
+        "question": "In quale piatto belga dolce e salato, spesso servito come antipasto, è composto il tonno ?",
+        "propositions": [
+          "Pesca del tonno",
+          "Escavèche",
+          "Waterzooi",
+          "Bouquette"
+        ],
+        "réponse": "Pesca del tonno",
+        "anecdote": "Consiste in una pesca, farcita con un misto di tonno e maionese, a volte guarnita con cipolla e spezie."
+      },
+      {
+        "id": 9,
+        "question": "In quale gratin sono le indivie avvolte in fette di prosciutto ?",
+        "propositions": [
+          "Sarcivo",
+          "Tappo",
+          "Croque-monsieur",
+          "Chicon-gratin"
+        ],
+        "réponse": "Chicon-gratin",
+        "anecdote": "Il nome cicoria deriva dal termine usato nel nord della Francia e in Belgio per designare l'indivia."
+      },
+      {
+        "id": 10,
+        "question": "Quale pasta lievitata è condita con budino di riso mescolato con uova ?",
+        "propositions": [
+          "Carmique",
+          "Bouquette",
+          "Cougnou",
+          "Torta di riso"
+        ],
+        "réponse": "Torta di riso",
+        "anecdote": "In alcune zone, i fornai aggiungono l'amaretto schiacciato al budino di riso che viene poi ricoperto con un altro amaretto schiacciato."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Quali palline sono immerse in una salsa agrodolce a base di cipolle e zucchero di canna ?",
+        "propositions": [
+          "Al Mons",
+          "Al athoise",
+          "Stile di Liegi",
+          "Stile Namur"
+        ],
+        "réponse": "Stile di Liegi",
+        "anecdote": "Questa salsa si chiama salsa di coniglio, che non contiene coniglio, ma prende il nome da Madame Géraldine Lapin."
+      },
+      {
+        "id": 12,
+        "question": "Quale biscotto estremamente duro è fatto con miele caramellato e farina ?",
+        "propositions": [
+          "Cracker",
+          "Zézette",
+          "Couque de Dinant",
+          "Nic-nac"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Difficile da mangiare, la couque de Dinant è probabilmente un avatar dei preparativi fatti per i barcaioli della Mosa."
+      },
+      {
+        "id": 13,
+        "question": "Quale ricetta di condimento a base di aceto appartiene alla famiglia dei sottaceti ?",
+        "propositions": [
+          "Piccalilli",
+          "Mirto",
+          "Vincotto",
+          "Melfor"
+        ],
+        "réponse": "Piccalilli",
+        "anecdote": "I piccalilli belgi, detti anche sottaceti, sono una salsa a base di verdure, aceto, zucchero e senape."
+      },
+      {
+        "id": 14,
+        "question": "Quale biscotto dalla consistenza granulosa è tradizionalmente aromatizzato alla cannella ?",
+        "propositions": [
+          "Speculoos",
+          "Kourabie",
+          "Acibadem",
+          "Torta"
+        ],
+        "réponse": "Speculoos",
+        "anecdote": "Gli speculoos vengono consumati più spesso durante l'Avvento e più in particolare durante la festa di San Nicola, il 6 dicembre."
+      },
+      {
+        "id": 15,
+        "question": "Quale specialità si ottiene con il cavolo cappuccio, le spezie e la carne di maiale bianca ?",
+        "propositions": [
+          "Salsiccia verde",
+          "Pastrami",
+          "Trulle",
+          "Caldo"
+        ],
+        "réponse": "Salsiccia verde",
+        "anecdote": "La sua produzione viene giudicata ogni anno dai mangiatori di budini verdi che ne garantiscono le etichette più ricercate."
+      },
+      {
+        "id": 16,
+        "question": "In Belgio, quale altro nome viene dato al fatturato delle mele ?",
+        "propositions": [
+          "Josette",
+          "Pomette",
+          "Cosette",
+          "Gosette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "In Belgio, il fatturato di mele non è fatto con pasta sfoglia ma con pasta frolla."
+      },
+      {
+        "id": 17,
+        "question": "Quale varietà di cavolo difficilmente digeribile provoca gonfiore e gas ?",
+        "propositions": [
+          "Cavolo",
+          "Cavolo Cavalier",
+          "Cavoletti di Bruxelles",
+          "Cavolo cappuccio"
+        ],
+        "réponse": "Cavoletti di Bruxelles",
+        "anecdote": "Il sapore amaro di questo ortaggio dovrebbe avvisarci della sua tossicità, ma alcune persone non hanno il gene di rilevamento."
+      },
+      {
+        "id": 18,
+        "question": "Quale pasticceria si mangia nei periodi di Saint-Nicolas e di Natale ?",
+        "propositions": [
+          "Cougnou",
+          "Speculoos",
+          "africano",
+          "Falche"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Consumato con una ciotola di cioccolata calda, questo pan brioche ha spesso una forma che ricorda il Gesù bambino in fasce."
+      },
+      {
+        "id": 19,
+        "question": "Quale involtino di carne ripieno si mangia spesso nel Belgio francofono ?",
+        "propositions": [
+          "Vol-au-vent",
+          "Bounarine",
+          "Hoosh",
+          "Uccello senza testa"
+        ],
+        "réponse": "Uccello senza testa",
+        "anecdote": "La sua facilità di cottura, il suo sapore e il suo costo contenuto ne fanno un piatto comune, a tutte le regioni messe insieme."
+      },
+      {
+        "id": 20,
+        "question": "Che tipo di melassa si ottiene dalla cottura del succo di mela e pera ?",
+        "propositions": [
+          "Sciroppo d'acero",
+          "Sciroppo di batteria",
+          "Sciroppo di sughero",
+          "Diabolo"
+        ],
+        "réponse": "Sciroppo di sughero",
+        "anecdote": "Questi sciroppi sono principalmente centralizzati nel paese di Herve, nel nord-est della provincia di Liegi."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Quale piatto unico di pollo o pesce si mangia in un brodo avvolto nella panna ?",
+        "propositions": [
+          "Potjevleesch",
+          "Waterzooi",
+          "Hochepot",
+          "Carbonata"
+        ],
+        "réponse": "Waterzooi",
+        "anecdote": "In una versione più avanzata aggiungere a fine cottura mezzo bicchiere di birra o vino bianco fruttato semisecco."
+      },
+      {
+        "id": 22,
+        "question": "Quale pasticceria Malmedy include due meringhe sigillate con panna montata ?",
+        "propositions": [
+          "Berretto",
+          "Bacio",
+          "Pervinca",
+          "Stupidità"
+        ],
+        "réponse": "Bacio",
+        "anecdote": "Si dice che il bacio di Malmedy sia stato inventato a metà del XIX secolo dal pasticcere Rodolphe Wiertz, originario di Hellenthal."
+      },
+      {
+        "id": 23,
+        "question": "Quale specialità belga consiste in un toast ricoperto di filetto americano ?",
+        "propositions": [
+          "Avvolgere",
+          "Chivito",
+          "Cannibale",
+          "Ruben"
+        ],
+        "réponse": "Cannibale",
+        "anecdote": "Il cannibale viene spesso servito su un piatto guarnito con verdure o insalata, accompagnato da salsa Worcestershire."
+      },
+      {
+        "id": 24,
+        "question": "Quali purè di patate si mescolano con una o più verdure ?",
+        "propositions": [
+          "Stoemp",
+          "Bombina",
+          "Chupe",
+          "Ocopa"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "Accompagna tradizionalmente salsicce saltate in padella, pancetta arrosto, salsicce di campagna o uova al tegamino."
+      },
+      {
+        "id": 25,
+        "question": "Quale anguilla sott'aceto è tipica della regione di Namur ?",
+        "propositions": [
+          "Escavèche",
+          "Pacade",
+          "Frifri",
+          "Porridge"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "La ricetta originale è a base di anguilla ma può essere utilizzata anche con altri pesci come la trota o il luccio."
+      },
+      {
+        "id": 26,
+        "question": "Quale stufato fiammingo si cucina con coda di bue, pancetta salata e verdure ?",
+        "propositions": [
+          "Frifri",
+          "Tielle",
+          "Stoemp",
+          "Hochepot"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "L'hochepot era anticamente un piatto che comprendeva carne, castagne e rape cotte nel brodo."
+      },
+      {
+        "id": 27,
+        "question": "Quale filetto di aringa marinata è avvolto attorno a una cipolla o a un sottaceto ?",
+        "propositions": [
+          "Hochepot",
+          "Rollmops",
+          "Potjevleesch",
+          "Stoemp"
+        ],
+        "réponse": "Rollmops",
+        "anecdote": "Dopo aver aperto la scatola, i rollmops possono essere consumati freddi, senza srotolarli, oppure caldi sul pane."
+      },
+      {
+        "id": 28,
+        "question": "Quale specialità è composta da bietole, ricotta magra di fattoria e burro ?",
+        "propositions": [
+          "Touffaye",
+          "Crostata Al d'jote",
+          "Chassart",
+          "Rombosse"
+        ],
+        "réponse": "Crostata Al d'jote",
+        "anecdote": "All'inizio di febbraio di ogni anno, nel comune di Nivelles, ha luogo l'assegnazione dei marchi di qualità (stelle)."
+      },
+      {
+        "id": 29,
+        "question": "In quale piatto sono i pezzi di carne infilati nella gelatina leggermente acetata ?",
+        "propositions": [
+          "Uccello senza testa",
+          "Potjevleesch",
+          "Vergeoise",
+          "Cannibale"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "Il potjevleesch viene servito con patatine fritte che sciolgono la gelatina, o in modo tradizionale con le mele Dunkerque."
+      },
+      {
+        "id": 30,
+        "question": "Quale torta non si mangia fino alla famosa Ducasse d'Ath ?",
+        "propositions": [
+          "Torta Masteilles",
+          "Torta di riso",
+          "Crostata Al d'jote",
+          "Torta di gomma"
+        ],
+        "réponse": "Torta Masteilles",
+        "anecdote": "Gli ingredienti principali sono pane secco, zucchero, latte, uova, amaretti e mandorle dolci e amare."
+      }
+    ]
+    },
+    "nl": {
+      "débutant": [
+      {
+        "id": 1,
+        "question": "Welke carbonade wordt gemaakt van stukjes vlees gestoofd in een biersaus ?",
+        "propositions": [
+          "Vanuit Brussel",
+          "Waals",
+          "Vlaams",
+          "Germaans"
+        ],
+        "réponse": "Vlaams",
+        "anecdote": "Het woord carbonnade komt van het woord houtskool omdat dit gerecht lange tijd op de houtskoolsintels heeft gestoofd."
+      },
+      {
+        "id": 2,
+        "question": "Welk briochebrood bezaaid met suikersnippers wordt in het hele land verkocht ?",
+        "propositions": [
+          "Kraker",
+          "Gosette",
+          "Prachtig",
+          "Croustillon"
+        ],
+        "réponse": "Kraker",
+        "anecdote": "In Grammont hebben de crackers de vorm van ringen en worden ze uitgedeeld tijdens het vuur- en broodfestival aan het einde van de winter."
+      },
+      {
+        "id": 3,
+        "question": "Welk warm gebak is een klassieker op Belgische kermissen ?",
+        "propositions": [
+          "Caricole",
+          "Stoemp",
+          "Vogelnest",
+          "Croustillon"
+        ],
+        "réponse": "Croustillon",
+        "anecdote": "De croustillons zijn gemaakt van kleine hapjes donutdeeg gekookt in een frituurpoeder bestrooid met poedersuiker."
+      },
+      {
+        "id": 4,
+        "question": "Welke gepaneerde en pikante worst wordt er in België vaak geserveerd in de frietkraam ?",
+        "propositions": [
+          "rozet",
+          "Gandeuillot",
+          "Longeool",
+          "Fricadelle"
+        ],
+        "réponse": "Fricadelle",
+        "anecdote": "Gekookt in olie in een frituurpan of in een pan, zijn de fricadellen een van de basisingrediënten van het machinegeweer."
+      },
+      {
+        "id": 5,
+        "question": "Welke wafel gemaakt van gefermenteerd gistdeeg met kaneel heeft parelsuiker ?",
+        "propositions": [
+          "Wafel uit Bergen",
+          "Luikse wafel",
+          "Antwerpse wafel",
+          "Wafel uit Doornik"
+        ],
+        "réponse": "Luikse wafel",
+        "anecdote": "De oorsprong ervan gaat samen met het op de markt brengen van parelsuiker geproduceerd uit bietsuiker uit Haspengouw."
+      },
+      {
+        "id": 6,
+        "question": "Welk half stokbrood bevat warm vlees, friet en saus ?",
+        "propositions": [
+          "Frico",
+          "Machinepistool",
+          "Rosti",
+          "Truffel"
+        ],
+        "réponse": "Machinepistool",
+        "anecdote": "In Frankrijk wordt een gelijkaardig broodje verkocht onder de Amerikaanse naam, in het noorden van Frankrijk en in Reunion."
+      },
+      {
+        "id": 7,
+        "question": "Welk gerecht dat erg populair is in België kan gemarineerd zijn, naturel, in room of knoflook ?",
+        "propositions": [
+          "Koulibiak",
+          "Tielle",
+          "Mosselen en friet",
+          "Zee-egel"
+        ],
+        "réponse": "Mosselen en friet",
+        "anecdote": "De portie mosselen van één kilogram per persoon wordt vaak aan elke gast geserveerd in hun kookpot."
+      },
+      {
+        "id": 8,
+        "question": "Welk zoet en hartig Belgisch gerecht, vaak als voorgerecht geserveerd, bestaat uit tonijn ?",
+        "propositions": [
+          "Escavèche",
+          "Waterzooï",
+          "Tonijn vissen",
+          "Boeket"
+        ],
+        "réponse": "Tonijn vissen",
+        "anecdote": "Het bestaat uit een perzik, gevuld met een mengsel van tonijn en mayonaise, soms gegarneerd met ui en kruiden."
+      },
+      {
+        "id": 9,
+        "question": "In welke gratin zit de andijvie verpakt in plakjes ham ?",
+        "propositions": [
+          "Sarcive",
+          "Croque-monsieur",
+          "Chicon-gratin",
+          "Stop"
+        ],
+        "réponse": "Chicon-gratin",
+        "anecdote": "De naam witlof komt van de term die in het noorden van Frankrijk en België wordt gebruikt om andijvie aan te duiden."
+      },
+      {
+        "id": 10,
+        "question": "Welk gistdeeg wordt overgoten met rijstpudding gemengd met ei ?",
+        "propositions": [
+          "Carmique",
+          "Rijsttaart",
+          "Boeket",
+          "Cougnou"
+        ],
+        "réponse": "Rijsttaart",
+        "anecdote": "In sommige gebieden voegen bakkers gemalen macaron toe aan rijstpudding, die vervolgens wordt bedekt met een andere gemalen macaron."
+      }
+    ],
+    "confirmé": [
+      {
+        "id": 11,
+        "question": "Welke balletjes baden in een zoetzure saus van uien en bruine suiker ?",
+        "propositions": [
+          "Namen stijl",
+          "Luikse stijl",
+          "Bij de athoise",
+          "Aan de Bergen"
+        ],
+        "réponse": "Luikse stijl",
+        "anecdote": "Deze saus heet konijnensaus, die geen konijn bevat, maar zijn naam ontleent aan Madame Géraldine Lapin."
+      },
+      {
+        "id": 12,
+        "question": "Welk extreem hard koekje is gemaakt met gekarameliseerde honing en bloem ?",
+        "propositions": [
+          "Nic-nac",
+          "Couque de Dinant",
+          "Zézette",
+          "Kraker"
+        ],
+        "réponse": "Couque de Dinant",
+        "anecdote": "Moeilijk te eten, de couque de Dinant is waarschijnlijk een avatar van de voorbereidingen die zijn getroffen voor de schippers van de Maas."
+      },
+      {
+        "id": 13,
+        "question": "Welk kruiderijrecept op basis van azijn behoort tot de augurkfamilie ?",
+        "propositions": [
+          "Vincotto",
+          "Melfor",
+          "Piccalilly",
+          "Myrtus"
+        ],
+        "réponse": "Piccalilly",
+        "anecdote": "Belgische piccalilly, ook wel augurk genoemd, is een saus gemaakt van groenten, azijn, suiker en mosterd."
+      },
+      {
+        "id": 14,
+        "question": "Welk koekje met een korrelige textuur wordt traditioneel op smaak gebracht met kaneel ?",
+        "propositions": [
+          "Acibadem",
+          "Speculoos",
+          "Torta",
+          "Kourabie"
+        ],
+        "réponse": "Speculoos",
+        "anecdote": "Speculoos wordt het vaakst gegeten tijdens de advent en meer in het bijzonder tijdens het feest van Sinterklaas, 6 december."
+      },
+      {
+        "id": 15,
+        "question": "Welke specialiteit wordt er gemaakt van boerenkool, kruiden en wit varkensvlees ?",
+        "propositions": [
+          "Trulle",
+          "Pastrami",
+          "Heet",
+          "Groene worst"
+        ],
+        "réponse": "Groene worst",
+        "anecdote": "De productie wordt elk jaar beoordeeld door de groene pudding-eters die de meest gewilde labels toekennen."
+      },
+      {
+        "id": 16,
+        "question": "Welke andere naam wordt in België aan appelflap gegeven ?",
+        "propositions": [
+          "Gosette",
+          "Josette",
+          "Cosette",
+          "Pomette"
+        ],
+        "réponse": "Gosette",
+        "anecdote": "In België wordt de appelflap niet gemaakt met bladerdeeg maar met taartdeeg."
+      },
+      {
+        "id": 17,
+        "question": "Welke moeilijk verteerbare koolsoort veroorzaakt een opgeblazen gevoel en gasvorming ?",
+        "propositions": [
+          "Spruitjes",
+          "Boerenkool",
+          "Cavalier kool",
+          "Sluitkool"
+        ],
+        "réponse": "Spruitjes",
+        "anecdote": "De bittere smaak van deze groente zou ons moeten wijzen op de toxiciteit, maar sommige mensen hebben het detectiegen niet."
+      },
+      {
+        "id": 18,
+        "question": "Welk gebak wordt er gegeten tijdens de Sint-Niklaas- en Kerstperiode ?",
+        "propositions": [
+          "Afrikaans",
+          "Speculoos",
+          "Faluche",
+          "Cougnou"
+        ],
+        "réponse": "Cougnou",
+        "anecdote": "Geconsumeerd met een kom warme chocolademelk, heeft dit briochebrood vaak een vorm die doet denken aan het ingebakerde kindje Jezus."
+      },
+      {
+        "id": 19,
+        "question": "Welke rollade met gevuld vlees wordt vaak gegeten in Franstalig België ?",
+        "propositions": [
+          "Vol-au-vent",
+          "Vogel zonder kop",
+          "Bounarine",
+          "Hoosh"
+        ],
+        "réponse": "Vogel zonder kop",
+        "anecdote": "De gemakkelijke bereiding, de smaak en de redelijke kostprijs maken het een alledaags gerecht, alle regio's samen."
+      },
+      {
+        "id": 20,
+        "question": "Wat voor soort melasse komt van het koken van appel- en perensap ?",
+        "propositions": [
+          "Ahornsiroop",
+          "Diabolo",
+          "Batterij siroop",
+          "Kurksiroop"
+        ],
+        "réponse": "Kurksiroop",
+        "anecdote": "Deze siropen zijn voornamelijk gecentraliseerd in het land van Herve, in het noordoosten van de provincie Luik."
+      }
+    ],
+    "expert": [
+      {
+        "id": 21,
+        "question": "Welk uniek kip- of visgerecht wordt gegeten in een in room gebonden bouillon ?",
+        "propositions": [
+          "Waterzooï",
+          "Carbonade",
+          "Hochepot",
+          "Potjevleesch"
+        ],
+        "réponse": "Waterzooï",
+        "anecdote": "In een meer geavanceerde versie voegt u aan het einde van de kooktijd een half glas bier of halfdroge, fruitige witte wijn toe."
+      },
+      {
+        "id": 22,
+        "question": "Welk Malmedy-suikergoed bevat twee schuimgebakjes die zijn afgesloten met slagroom ?",
+        "propositions": [
+          "kus",
+          "Muts",
+          "maagdenpalm",
+          "Domheid"
+        ],
+        "réponse": "kus",
+        "anecdote": "De Malmedy-kus zou in het midden van de 19e eeuw zijn uitgevonden door banketbakker Rodolphe Wiertz, oorspronkelijk uit Hellenthal."
+      },
+      {
+        "id": 23,
+        "question": "Welke Belgische specialiteit bestaat uit een toast met Amerikaanse filet ?",
+        "propositions": [
+          "Ruben",
+          "Wikkel",
+          "Kannibaal",
+          "Chivito"
+        ],
+        "réponse": "Kannibaal",
+        "anecdote": "De kannibaal wordt vaak geserveerd op een bord gegarneerd met groenten of salade, vergezeld van Worcestershire-saus."
+      },
+      {
+        "id": 24,
+        "question": "Welke aardappelpuree wordt gemengd met een of meerdere groenten ?",
+        "propositions": [
+          "Ocopa",
+          "Chupe",
+          "Stoemp",
+          "Bombine"
+        ],
+        "réponse": "Stoemp",
+        "anecdote": "Het gaat traditioneel samen met gebakken worstjes, geroosterd spek, boerenworst of gebakken eieren."
+      },
+      {
+        "id": 25,
+        "question": "Welke in azijn geconserveerde paling is typisch voor de regio Namen ?",
+        "propositions": [
+          "Pap",
+          "Escavèche",
+          "Frifri",
+          "gangpad"
+        ],
+        "réponse": "Escavèche",
+        "anecdote": "Het originele recept is gebaseerd op paling maar kan ook gebruikt worden bij andere vissen zoals forel of snoek."
+      },
+      {
+        "id": 26,
+        "question": "Welke Vlaamse stoofpot wordt gekookt met ossenstaart, gezouten spek en groenten ?",
+        "propositions": [
+          "Tielle",
+          "Frifri",
+          "Stoemp",
+          "Hochepot"
+        ],
+        "réponse": "Hochepot",
+        "anecdote": "De hochepot was vroeger een gerecht met vlees, kastanjes en rapen gekookt in bouillon."
+      },
+      {
+        "id": 27,
+        "question": "Welke gemarineerde haringfilet wordt om een ui of augurk gewikkeld ?",
+        "propositions": [
+          "Hochepot",
+          "Potjevleesch",
+          "Rolmoppen",
+          "Stoemp"
+        ],
+        "réponse": "Rolmoppen",
+        "anecdote": "Na het openen van de doos kunnen de rollmops koud gegeten worden, zonder ze uit te rollen, of warm op brood."
+      },
+      {
+        "id": 28,
+        "question": "Welke specialiteit wordt gemaakt van snijbiet, magere boerenkwark en boter ?",
+        "propositions": [
+          "Chassart",
+          "Touffaye",
+          "Al d'jote taart",
+          "Rombosse"
+        ],
+        "réponse": "Al d'jote taart",
+        "anecdote": "Begin februari van elk jaar vindt de uitreiking van kwaliteitslabels (sterren) plaats in de stad Nijvel."
+      },
+      {
+        "id": 29,
+        "question": "In welk gerecht zitten stukjes vlees in licht geazijngelei ?",
+        "propositions": [
+          "Kannibaal",
+          "Vergeoise",
+          "Vogel zonder kop",
+          "Potjevleesch"
+        ],
+        "réponse": "Potjevleesch",
+        "anecdote": "Potjevleesch wordt geserveerd met frietjes die de gelei laten smelten, of op traditionele wijze met Duinkerke appels."
+      },
+      {
+        "id": 30,
+        "question": "Welke taart wordt pas gegeten bij de beroemde Ducasse d'Ath ?",
+        "propositions": [
+          "Rijsttaart",
+          "Al d'jote taart",
+          "Kauwgomtaart",
+          "Masteilletaart"
+        ],
+        "réponse": "Masteilletaart",
+        "anecdote": "De belangrijkste ingrediënten zijn droog brood, suiker, melk, eieren, bitterkoekjes en zoete en bittere amandelen."
+      }
+    ]
+    }
+  }
+}
