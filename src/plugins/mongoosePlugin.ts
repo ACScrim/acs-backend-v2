@@ -12,6 +12,8 @@ import Tournament from '../models/Tournament';
 import Report from '../models/Report';
 import QuizQuestion from "../models/QuizQuestion";
 import QuizAnswer from "../models/QuizAnswer";
+import Card from "../models/Card";
+import CardAsset from "../models/CardAsset";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -29,7 +31,9 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     Tournament: Tournament,
     Report: Report,
     QuizQuestion: QuizQuestion,
-    QuizAnswer: QuizAnswer
+    QuizAnswer: QuizAnswer,
+    Card: Card,
+    CardAsset: CardAsset
   });
 
   fastify.addHook('onClose', async () => {

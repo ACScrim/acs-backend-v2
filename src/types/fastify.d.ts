@@ -13,6 +13,8 @@ import QuizQuestion from '@models/QuizQuestion'
 import QuizAnswer from '@models/QuizAnswer'
 import { Client } from 'discord.js';
 import DiscordService from "@services/discordService";
+import Card from "@models/Card";
+import CardAsset from "../models/CardAsset";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -27,7 +29,9 @@ declare module 'fastify' {
       Tournament: Model<Tournament>,
       Report: Model<Report>
       QuizQuestion: Model<QuizQuestion>
-      QuizAnswer: Model<QuizAnswer>
+      QuizAnswer: Model<QuizAnswer>,
+      Card: Model<Card>,
+      CardAsset: Model<CardAsset>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
