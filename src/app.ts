@@ -16,6 +16,7 @@ export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPlugin
 }
 // Pass --options via CLI arguments in command to enable these options.
 const options: AppOptions = {
+  bodyLimit: 10 * 1024 * 1024, // 10MB limit for base64 images
   logger: {
     level: "silent",
     file: "logs/backend.log",

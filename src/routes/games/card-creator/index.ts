@@ -3,6 +3,7 @@ import {authGuard} from "../../../middleware/authGuard";
 import {ICard} from "../../../models/Card";
 import {ICardAsset} from "../../../models/CardAsset";
 import {IUser} from "../../../models/User";
+import {log} from "../../../utils/utils";
 
 const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   /**
@@ -11,8 +12,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/cards", { preHandler: [authGuard] }, async (req, resp) => {
     const cards = await fastify.models.Card.find({ createdBy: req.session.userId })
       .populate('frontAsset')
-      .populate('borderAsset')
-      .select('-status');
+      .populate('borderAsset');
     return cards;
   })
 
@@ -22,6 +22,11 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
     return assets;
   });
+
+  fastify.get("/discord-avatars", { preHandler: [authGuard] }, async (req, resp) => {
+    const users = await fastify.models.User.find().select('id username avatarUrl');
+    return users
+  })
 
   fastify.get("/assets/backgrounds", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({
@@ -58,23 +63,97 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   fastify.post("/card", { preHandler: [authGuard] }, async (req, resp) => {
-    const body = req.body as Omit<ICard, 'createdBy'>;
+    try {
+      const body = req.body as Omit<ICard, 'createdBy'>;
 
-    const user = await fastify.models.User.findById(req.session.userId) as IUser;
+      // Log received data to debug
+      req.log.info({
+        title: body.title,
+        hasImageBase64: !!body.imageBase64,
+        imageMimeType: body.imageMimeType,
+        imagePosX: body.imagePosX,
+        imagePosY: body.imagePosY,
+        imageScale: body.imageScale,
+      }, 'Card creation request received');
 
-    const newCard = await fastify.models.Card.create({
-      ...body,
-      createdBy: req.session.userId,
-      status: user.role.includes('admin') ? 'active' : 'pending'
+      const user = await fastify.models.User.findById(req.session.userId) as IUser;
+
+      const newCard = await fastify.models.Card.create({
+        ...body,
+        createdBy: req.session.userId,
+        status: user.role.includes('admin') ? 'active' : 'pending'
+      });
+
+      await newCard.save();
+
+      const savedCard = await fastify.models.Card.findById(newCard.id)
+        .populate('frontAsset')
+        .populate('borderAsset')
+        .select('-status');
+
+      // TODO: Envoi message discord nouvelle carte en attente ?
+
+      log(fastify, `Création d'une nouvelle carte par ${user.username}`, 'info');
+
+      return savedCard;
+    } catch (error) {
+      req.log.error(error, 'Error creating card');
+      throw error;
+    }
+  });
+
+  fastify.delete("/card/:id", { preHandler: [authGuard] }, async (req, res) => {
+    const { id } = req.params as { id: string };
+
+    const card = await fastify.models.Card.findById(id);
+    if (!card) {
+      res.status(404);
+      return { message: 'Carte non trouvée.' };
+    }
+
+    if (card.createdBy.toString() !== req.session.userId) {
+      res.status(403);
+      return { message: 'Vous n\'êtes pas autorisé à supprimer cette carte.' };
+    }
+
+    await fastify.models.Card.findByIdAndDelete(id);
+
+    log(fastify, `Suppression d'une carte par ${req.session.userId} : ${card.id}`, 'info');
+
+    return { message: 'Carte supprimée avec succès.' };
+  });
+
+  fastify.delete("/asset/:id", { preHandler: [authGuard] }, async (req, res) => {
+    const { id } = req.params as { id: string };
+
+    const asset = await fastify.models.CardAsset.findById(id);
+    if (!asset) {
+      res.status(404);
+      return { message: 'Asset non trouvé.' };
+    }
+
+    const cardsUsingAsset = await fastify.models.Card.find({
+      $or: [
+        { frontAssetId: id },
+        { borderAssetId: id }
+      ]
     });
 
-    await newCard.save();
+    if (cardsUsingAsset.length > 0) {
+      res.status(400);
+      return { message: 'Impossible de supprimer cet asset car il est utilisé par une ou plusieurs cartes.' };
+    }
 
-    return fastify.models.Card.findById(newCard.id)
-      .populate('frontAssetId')
-      .populate('borderAssetId')
-      .select('-status');
-  });
+    if (asset.createdBy.toString() !== req.session.userId) {
+      res.status(403);
+      return { message: 'Vous n\'êtes pas autorisé à supprimer cet asset.' };
+    }
+
+    log(fastify, `Suppression d'un asset par ${req.session.userId} : ${asset.id}`, 'info');
+
+    await fastify.models.CardAsset.findByIdAndDelete(id);
+    return { message: 'Asset supprimé avec succès.' };
+  })
 }
 
 export default cardCreatorRoutes;
