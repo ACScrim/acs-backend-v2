@@ -15,7 +15,6 @@ export const startDailyQuizCron = async (fastify: FastifyInstance) => {
 
       if (answer.userAnswer === question.correctAnswer) {
         let points = 10;
-        if (answer.useHint) points -= 2;
         if (answer.cheated) points -= 5;
         answer.points = Math.max(points, 0);
         answer.isCorrect = true;

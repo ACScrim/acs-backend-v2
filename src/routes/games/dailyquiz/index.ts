@@ -8,12 +8,7 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    let selectFields = 'question category dailyQuizDate';
-
-    const userAnswer = await fastify.models.QuizAnswer.findOne({ userId: req.session.userId, discoveredAt: { $gte: today } }) as IQuizAnswer;
-    if (userAnswer) {
-      if (userAnswer.useHint) selectFields += ' options';
-    }
+    let selectFields = 'question category dailyQuizDate options';
 
     const existingQuestion = await fastify.models.QuizQuestion.findOne({ dailyQuizDate: { $gte: today } }).select(selectFields) as IQuizQuestion;
     if (existingQuestion) {
@@ -129,9 +124,8 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     if (!answer) {
       answer = new fastify.models.QuizAnswer({});
     }
-    const { useHint, cheated, userAnswer, discoveredAt } = req.body as { useHint?: boolean, cheated?: boolean, userAnswer?: string, discoveredAt?: string };
+    const { cheated, userAnswer, discoveredAt } = req.body as { cheated?: boolean, userAnswer?: string, discoveredAt?: string };
 
-    if (useHint !== undefined) answer.useHint = useHint;
     if (cheated !== undefined) answer.cheated = cheated;
     if (userAnswer !== undefined) {
       answer.userAnswer = userAnswer;

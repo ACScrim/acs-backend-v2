@@ -5,7 +5,6 @@ export interface IQuizAnswer extends Document {
   userId: mongoose.Schema.Types.ObjectId;
   userAnswer?: string;
   isCorrect?: boolean;
-  useHint?: boolean;
   cheated?: boolean;
   discoveredAt?: Date;
   answeredAt?: Date;
@@ -18,7 +17,6 @@ const quizAnswerSchema = new mongoose.Schema<IQuizAnswer>({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   userAnswer: { type: String },
   isCorrect: { type: Boolean },
-  useHint: { type: Boolean },
   cheated: { type: Boolean },
   discoveredAt: { type: Date },
   answeredAt: { type: Date },
