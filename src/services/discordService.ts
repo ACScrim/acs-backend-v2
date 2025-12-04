@@ -443,6 +443,32 @@ class DiscordService {
       log(this.fastify, `[PrivateCardRejection] Erreur lors de l'envoi du message privé à l'utilisateur Discord avec l'ID ${discordId}: ${error}`, 'error');
     }
   }
+
+  public async sendTwitchNotification(streamDetails: { title: string, game_name: string, thumbnail_url: string }, streamerUsername: string): Promise<void> {
+    try {
+      const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
+      if (!webhookUrl) {
+        log(this.fastify, '[DiscordService] DISCORD_WEBHOOK_URL non configuré.', 'error');
+        return;
+      }
+
+      const embed = new EmbedBuilder()
+        .setTitle(`${streamerUsername} est en live sur Twitch !`)
+        .setDescription(`**${streamDetails.title}**\n\nRegardez le stream maintenant sur [Twitch](https://www.twitch.tv/${streamerUsername})`)
+        .addFields({ name: 'Jeu', value: streamDetails.game_name || 'Inconnu', inline: true })
+        .setColor('Random')
+        .setImage(streamDetails.thumbnail_url.replace('{width}', '1280').replace('{height}', '720'))
+        .setTimestamp(new Date());
+
+      await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ embeds: [embed.toJSON()] })
+      });
+    } catch (error) {
+      log(this.fastify, `[DiscordService] Erreur lors de l'envoi de la notification Twitch sur Discord: ${error}`, 'error');
+    }
+  }
 }
 export default DiscordService;
 

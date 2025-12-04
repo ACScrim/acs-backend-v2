@@ -20,11 +20,12 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
     }
 
     const creator = await fastify.models.User.findById(card.createdBy) as IUser;
-
-    await fastify.discordService.sendPrivateMessageCardApproval(
-      creator.discordId,
-      card as ICard
-    );
+    if (creator.discordId) {
+      await fastify.discordService.sendPrivateMessageCardApproval(
+        creator.discordId,
+        card as ICard
+      );
+    }
 
     card.status = 'waiting';
 
@@ -43,10 +44,12 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
 
     const creator = await fastify.models.User.findById(card.createdBy) as IUser;
 
-    await fastify.discordService.sendPrivateMessageCardRejected(
-      creator.discordId,
-      card as ICard
-    );
+    if (creator.discordId) {
+      await fastify.discordService.sendPrivateMessageCardRejected(
+        creator.discordId,
+        card as ICard
+      );
+    }
 
     card.status = 'inactive';
 

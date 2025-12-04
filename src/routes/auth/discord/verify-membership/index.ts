@@ -13,6 +13,11 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
     try {
       // @ts-ignore
       const tempToken = req.session.discord_temp_token;
+      const userId = req.session.userId;
+
+      if (userId) {
+        return res.status(200).send({ message: 'User already authenticated' });
+      }
 
       if (!tempToken) {
         return res.status(401).send({ error: 'No temporary token found' });

@@ -12,9 +12,10 @@ import Report from '@models/Report'
 import QuizQuestion from '@models/QuizQuestion'
 import QuizAnswer from '@models/QuizAnswer'
 import { Client } from 'discord.js';
-import DiscordService from "@services/discordService";
+import DiscordService from "../services/discordService";
 import Card from "@models/Card";
 import CardAsset from "../models/CardAsset";
+import TwitchService from "../services/twitchService";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -35,7 +36,8 @@ declare module 'fastify' {
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
-    discordService: DiscordService
+    discordService: DiscordService,
+    twitchService: TwitchService
   }
 
   interface Session {

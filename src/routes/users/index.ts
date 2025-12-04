@@ -1,10 +1,10 @@
-import { FastifyPluginAsync } from "fastify";
-import { authGuard } from "../../middleware/authGuard";
-import { IUser } from "../../models/User";
-import { ITournament } from "../../models/Tournament";
-import { IGame } from "../../models/Game";
-import { ISeason } from "../../models/Season";
-import { log } from "../../utils/utils";
+import {FastifyPluginAsync} from "fastify";
+import {authGuard} from "../../middleware/authGuard";
+import {IUser} from "../../models/User";
+import {ITournament} from "../../models/Tournament";
+import {IGame} from "../../models/Game";
+import {ISeason} from "../../models/Season";
+import {log} from "../../utils/utils";
 
 const usersRoute: FastifyPluginAsync = async (fastify) => {
   /**
@@ -101,6 +101,35 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
       return res.status(500).send({ error: 'Erreur lors de la récupération du profil' });
     }
   });
+
+  fastify.patch(`/me/twitch`, { preHandler: [authGuard] }, async (req, res) => {
+    try {
+      const currentUserId = req.session.userId as string;
+
+      const { twitchUsername } = req.body as { twitchUsername: string };
+
+      const user = await fastify.models.User.findById(currentUserId) as IUser;
+      if (!user) {
+        return res.status(404).send({ error: "User not found" });
+      }
+
+      if (twitchUsername && twitchUsername.trim().length > 0) {
+        await fastify.twitchService.addOneTwitchEventSubscription(twitchUsername, currentUserId, user.twitchSubscriptionId)
+        user.twitchUsername = twitchUsername;
+      } else {
+        if (user.twitchSubscriptionId)
+          await fastify.twitchService.deleteOneEventSubSubscription(user.twitchSubscriptionId);
+        user.twitchUsername = undefined;
+        user.twitchSubscriptionId = undefined;
+      }
+      await user.save();
+
+      return user;
+    } catch (error) {
+      log(fastify, `Erreur lors de la mise à jour du Twitch de l'utilisateur ${(req.params as any).id} : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de la mise à jour du Twitch' });
+    }
+  })
 };
 
 export default usersRoute;
