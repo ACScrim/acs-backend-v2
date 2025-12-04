@@ -15,18 +15,23 @@ import {
   TextChannel
 } from "discord.js";
 import {IGame} from "../models/Game";
+import {ICard} from "../models/Card";
+import {log} from "../utils/utils";
+import {FastifyInstance} from "fastify";
 
 class DiscordService {
   private client: Client;
   private guildId: string;
   private categoryParentId: string;
   private archiveCategoryId: string;
+  private fastify: FastifyInstance;
 
-  constructor(client: Client, guildId = process.env.DISCORD_GUILD_ID || '', categoryParentId = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '', archiveCategoryId = process.env.DISCORD_ARCHIVE_CATEGORY_ID || '') {
+  constructor(client: Client, fastify: FastifyInstance, guildId = process.env.DISCORD_GUILD_ID || '', categoryParentId = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '', archiveCategoryId = process.env.DISCORD_ARCHIVE_CATEGORY_ID || '') {
     this.client = client;
     this.guildId = guildId;
     this.categoryParentId = categoryParentId;
     this.archiveCategoryId = archiveCategoryId;
+    this.fastify = fastify;
   }
 
   private buildEmbedMessage(data: { title?: string; description?: string; color?: ColorResolvable, image?: string, fields?: EmbedField[] } = {}) {
@@ -294,7 +299,7 @@ class DiscordService {
       }
       const tournamentRole = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
       const roleMention = tournamentRole ? `<@&${tournamentRole.id}>` : '';
-      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id}`);
+      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})`);
     } catch (error) {
       console.error('Erreur lors de l\'envoi du rappel Discord:', error);
     }
@@ -387,7 +392,55 @@ class DiscordService {
         ]
       })
     } catch (error) {
-      console.error('Erreur lors de l\'annonce des résultats du tournoi sur Discord:', error);
+      log(this.fastify, `[AnnounceTournamentResults] Erreur lors de l'annonce des résultats du tournoi ${tournament.name} sur Discord: ${error}`, 'error');
+    }
+  }
+
+  public async sendPrivateMessageCardApproval(discordId: string, card: ICard) {
+    try {
+      const discordUser = await this.client.users.fetch(discordId);
+      if (discordUser) {
+        const approvalMessage = `✅ **Ta carte "${card.title}" a été approuvée !**\n\n` +
+            `Félicitations ! Ta carte a été examinée et approuvée par notre équipe. Elle est maintenant en attente de validation finale avant d'être ajoutée à notre collection.\n\n` +
+            `Si tu es sûr de vouloir rendre publique votre carte, clique sur le bouton 'Accepter' ci-dessous, sinon clique sur 'Refuser' pour apporter des modifications et demander une nouvelle validation.`;
+
+        const buttons = new ActionRowBuilder<ButtonBuilder>()
+          .addComponents(
+            new ButtonBuilder()
+              .setCustomId(`card_approval_accept_${card._id}`)
+              .setLabel('Accepter')
+              .setStyle(ButtonStyle.Success),
+            new ButtonBuilder()
+              .setCustomId(`card_approval_reject_${card._id}`)
+              .setLabel('Refuser')
+              .setStyle(ButtonStyle.Danger)
+          );
+
+        await discordUser.send({ content: approvalMessage, components: [buttons] });
+      } else {
+        log(this.fastify, `[PrivateCardApproval] Utilisateur Discord avec l'ID ${discordId} non trouvé.`, 'error');
+      }
+    }
+    catch (error) {
+      log(this.fastify, `[PrivateCardApproval] Erreur lors de l'envoi du message privé à l'utilisateur Discord avec l'ID ${discordId}: ${error}`, 'error');
+    }
+  }
+
+  public async sendPrivateMessageCardRejected(discordId: string, card: ICard) {
+    try {
+      const discordUser = await this.client.users.fetch(discordId);
+      if (discordUser) {
+        const rejectionMessage = `❌ **Ta carte "${card.title}" a été rejetée.**\n\n` +
+            `Après examen, nous avons décidé de ne pas approuver ta carte pour le moment. Ta carte est maintenant inactive, si tu veux toujours nous proposer une carte, nous t'invitons à en créer une nouvelle.\n\n` +
+            `N'hésite pas à nous contacter si tu as des questions ou besoin d'assistance.`;
+
+        await discordUser.send(rejectionMessage);
+      } else {
+        log(this.fastify, `[PrivateCardRejection] Utilisateur Discord avec l'ID ${discordId} non trouvé.`, 'error');
+      }
+    }
+    catch (error) {
+      log(this.fastify, `[PrivateCardRejection] Erreur lors de l'envoi du message privé à l'utilisateur Discord avec l'ID ${discordId}: ${error}`, 'error');
     }
   }
 }

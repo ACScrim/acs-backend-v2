@@ -18,7 +18,7 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
 
   fastify.decorate('discord', discordClient);
 
-  const discordService = new DiscordService(discordClient);
+  const discordService = new DiscordService(discordClient, fastify);
   fastify.decorate('discordService', discordService);
 
   /**
@@ -145,12 +145,45 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           flags: [64] // Ephemeral
         });
       }
+      if ((interaction as ButtonInteraction).customId.startsWith('card_approval_')) {
+        const buttonInteraction = interaction as ButtonInteraction;
+        const parts = buttonInteraction.customId.split('_');
+        const action = parts[2]; // 'approve' ou 'reject'
+        const cardId = parts.slice(3).join('_');
+
+        // Récupérer la carte
+        const card = await fastify.models.Card.findById(cardId).populate('createdBy');
+        if (!card) {
+          await buttonInteraction.reply({ content: '❌ Carte introuvable' }); // Ephemeral
+          return;
+        }
+
+        if (card.status !== 'waiting') {
+          await buttonInteraction.reply({ content: '❌ Cette carte a déjà été traitée.'}); // Ephemeral
+          return;
+        }
+
+        if (action === 'accept') {
+          card.status = 'active';
+          await card.save();
+          await buttonInteraction.reply({
+            content: '✅ La carte a été approuvée et est maintenant active.',
+          });
+        } else if (action === 'reject') {
+          card.status = 'pending';
+          await card.save();
+          await buttonInteraction.reply({
+            content: '❌ La carte a été rejetée. Elle sera réétudiée par l\'équipe dans quelques jours pour te laisser le temps d\'apporter des modifications.',
+          });
+        }
+
+        await buttonInteraction.message.edit({ content: buttonInteraction.message.content + `\n\n**Validation ${action === 'accept' ? 'acceptée' : 'refusée'}**`, components: [] });
+      }
     } catch (error) {
       console.error('Erreur lors du traitement de l\'interaction Discord:', error);
       try {
         interaction.isButton() && await interaction.reply({
           content: '❌ Une erreur est survenue',
-          ephemeral: true
         });
       } catch (replyError) {
         console.error('Erreur lors de la réponse à l\'interaction:', replyError);

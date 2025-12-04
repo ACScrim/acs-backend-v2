@@ -1,6 +1,6 @@
-import mongoose from "mongoose";
+import mongoose, { Document } from "mongoose";
 
-export interface ICard {
+export interface ICard extends Document {
   title: string;
   imageUrl?: string;
   imageBase64?: string;
@@ -9,7 +9,7 @@ export interface ICard {
   borderAssetId?: mongoose.Schema.Types.ObjectId;
   rarity?: 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
   createdBy: mongoose.Schema.Types.ObjectId;
-  status: 'pending' | 'active' | 'inactive';
+  status: 'pending' | 'waiting' | 'active' | 'inactive';
   // Personnalisation - Position du titre
   titlePosX?: number;
   titlePosY?: number;
@@ -54,7 +54,7 @@ const cardSchema = new mongoose.Schema<ICard>(
     createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     status: {
       type: String,
-      enum: ['pending', 'active', 'inactive'],
+      enum: ['pending', 'active', 'inactive', 'waiting'],
       default: 'pending',
     },
     // Personnalisation - Position du titre
