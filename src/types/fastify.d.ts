@@ -1,21 +1,24 @@
 import 'fastify'
 import type { Model } from 'mongoose'
-import User from '@models/User'
-import Badge from '@models/Badge'
-import Season from '@models/Season'
-import GameRole from '@models/GameRole'
-import Game from '@models/Game'
-import GameProposal from '@models/GameProposal'
-import PlayerGameLevel from '@models/PlayerGameLevel'
-import Tournament from '@models/Tournament'
-import Report from '@models/Report'
-import QuizQuestion from '@models/QuizQuestion'
-import QuizAnswer from '@models/QuizAnswer'
+import User from '../models/User'
+import Badge from '../models/Badge'
+import Season from '../models/Season'
+import GameRole from '../models/GameRole'
+import Game from '../models/Game'
+import GameProposal from '../models/GameProposal'
+import PlayerGameLevel from '../models/PlayerGameLevel'
+import Tournament from '../models/Tournament'
+import Report from '../models/Report'
+import QuizQuestion from '../models/QuizQuestion'
+import QuizAnswer from '../models/QuizAnswer'
 import { Client } from 'discord.js';
 import DiscordService from "../services/discordService";
-import Card from "@models/Card";
+import Card from "../models/Card";
 import CardAsset from "../models/CardAsset";
 import TwitchService from "../services/twitchService";
+import Scrimium from "../models/Scrimium";
+import Booster from "../models/Booster";
+import CardCollection from "../models/CardCollection";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -32,7 +35,10 @@ declare module 'fastify' {
       QuizQuestion: Model<QuizQuestion>
       QuizAnswer: Model<QuizAnswer>,
       Card: Model<Card>,
-      CardAsset: Model<CardAsset>
+      CardAsset: Model<CardAsset>,
+      Scrimium: Model<Scrimium>,
+      Booster: Model<Booster>,
+      CardCollection: Model<CardCollection>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,

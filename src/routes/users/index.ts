@@ -26,9 +26,12 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
     try {
       const userId = req.session.userId as string;
       const user = await fastify.models.User.findById(userId);
+      // @ts-ignore
+      const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(userId);
       if (!user) {
         return res.status(404).send({ error: "User not found" });
       }
+      user.set('scrimium', scrimium);
       return user;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du profil utilisateur : ${error}`, 'error');

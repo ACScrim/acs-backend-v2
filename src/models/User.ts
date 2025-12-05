@@ -32,4 +32,11 @@ UserSchema.set('toJSON', {
   }
 });
 
+UserSchema.virtual('scrimium', {
+  ref: 'Scrimium',
+  localField: '_id',
+  foreignField: 'userId',
+  justOne: true
+})
+
 export default mongoose.model<IUser>('User', UserSchema);

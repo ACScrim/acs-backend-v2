@@ -14,6 +14,9 @@ import QuizQuestion from "../models/QuizQuestion";
 import QuizAnswer from "../models/QuizAnswer";
 import Card from "../models/Card";
 import CardAsset from "../models/CardAsset";
+import Scrimium from "../models/Scrimium";
+import Booster from "../models/Booster";
+import CardCollection from "../models/CardCollection";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -33,7 +36,10 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     QuizQuestion: QuizQuestion,
     QuizAnswer: QuizAnswer,
     Card: Card,
-    CardAsset: CardAsset
+    CardAsset: CardAsset,
+    Scrimium: Scrimium,
+    Booster: Booster,
+    CardCollection: CardCollection
   });
 
   fastify.addHook('onClose', async () => {
