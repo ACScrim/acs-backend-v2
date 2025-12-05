@@ -10,7 +10,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
     }
     await collection.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' } ]});
     return collection;
-  })
+  });
 }
 
 export default cardCollectionRoutes;

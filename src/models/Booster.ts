@@ -1,17 +1,17 @@
 import mongoose from "mongoose";
 
 export interface IBooster {
-  userId: string;
-  cardIds: mongoose.Schema.Types.ObjectId[];
+  userId: mongoose.Schema.Types.ObjectId;
+  cards: mongoose.Schema.Types.ObjectId[];
   buyDate: Date;
-  price: number;
+  boosterId: mongoose.Schema.Types.ObjectId;
 }
 
 const boosterSchema = new mongoose.Schema<IBooster>({
-  userId: { type: String, required: true, unique: true },
-  cardIds: [{ type: mongoose.Schema.Types.ObjectId, ref: "Card", required: true }],
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+  cards: [{ type: mongoose.Schema.Types.ObjectId, ref: "Card", required: true }],
   buyDate: { type: Date, required: true, default: Date.now },
-  price: { type: Number, required: true },
+  boosterId: { type: mongoose.Schema.Types.ObjectId, ref: "BoosterShopItem", required: true },
 });
 
 boosterSchema.set('toJSON', {
@@ -24,11 +24,11 @@ boosterSchema.set('toJSON', {
   }
 });
 
-boosterSchema.virtual('cards', {
-  ref: "Card",
-  localField: 'cardIds',
+boosterSchema.virtual('booster', {
+  ref: "BoosterShopItem",
+  localField: 'boosterId',
   foreignField: '_id',
-  justOne: false,
+  justOne: true,
 })
 
 const Booster = mongoose.model<IBooster>("Booster", boosterSchema);

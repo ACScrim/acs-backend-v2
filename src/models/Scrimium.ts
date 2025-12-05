@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export interface IScrimium {
+export interface IScrimium extends mongoose.Document {
   userId: string;
   balance: number;
   transactions: Array<{

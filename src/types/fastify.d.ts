@@ -19,6 +19,7 @@ import TwitchService from "../services/twitchService";
 import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
 import CardCollection from "../models/CardCollection";
+import BoosterShopItem from "../models/BoosterShopItem";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -38,7 +39,8 @@ declare module 'fastify' {
       CardAsset: Model<CardAsset>,
       Scrimium: Model<Scrimium>,
       Booster: Model<Booster>,
-      CardCollection: Model<CardCollection>
+      CardCollection: Model<CardCollection>,
+      BoosterShopItem: Model<BoosterShopItem>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
