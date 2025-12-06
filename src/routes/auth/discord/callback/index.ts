@@ -2,7 +2,7 @@ import { DiscordUser } from "../../../../types";
 import { FastifyPluginAsync } from "fastify";
 import { log } from "../../../../utils/utils";
 
-const DISCORD_SERVER_ID = process.env.DISCORD_SERVER_ID || '1330973733929615420';
+const DISCORD_SERVER_ID = process.env.DISCORD_GUILD_ID || '1330973733929615420';
 const DISCORD_INVITE_URL = process.env.DISCORD_INVITE_URL || 'https://discord.gg/ksCGJztmBd';
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
 

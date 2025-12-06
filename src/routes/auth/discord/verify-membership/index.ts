@@ -2,7 +2,7 @@ import { DiscordUser } from "../../../../types";
 import { FastifyPluginAsync } from "fastify";
 import { log } from "../../../../utils/utils";
 
-const DISCORD_SERVER_ID = process.env.DISCORD_SERVER_ID || '1330973733929615420';
+const DISCORD_SERVER_ID = process.env.DISCORD_GUILD_ID || '1330973733929615420';
 
 const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => {
   /**
