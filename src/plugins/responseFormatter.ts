@@ -1,4 +1,4 @@
-import { FastifyPluginAsync } from 'fastify';
+import {FastifyError, FastifyPluginAsync} from 'fastify';
 import fp from 'fastify-plugin';
 
 interface FormatterOptions {
@@ -38,7 +38,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
   });
 
   // Format erreurs
-  fastify.setErrorHandler((error, request, reply) => {
+  fastify.setErrorHandler((error: FastifyError, request, reply) => {
     const statusCode = error.statusCode || 500;
     
     const response: any = {
