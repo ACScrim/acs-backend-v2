@@ -62,7 +62,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
   // CORS
   fastify.register(fastifyCors, {
     origin: (origin, cb) => {
-      const allowedOrigins = (process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173').split(',');
+      const allowedOrigins = (process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173' || 'https://v2.acscrim.fr').split(',');
       if (!origin || allowedOrigins.indexOf(origin) !== -1) {
         // Request from allowed origin
         cb(null, true)
