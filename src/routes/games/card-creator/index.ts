@@ -11,10 +11,29 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.get("/cards", { preHandler: [authGuard] }, async (req, resp) => {
     const cards = await fastify.models.Card.find({ createdBy: req.session.userId })
-      .populate('frontAsset')
-      .populate('borderAsset');
+      .select('id previewCardB64 status')
     return cards;
   })
+
+  fastify.get("/cards/:cardId", { preHandler: [authGuard] }, async (req, resp) => {
+    const { cardId } = req.params as { cardId: string };
+
+    const card = await fastify.models.Card.findById(cardId)
+      .populate('frontAsset')
+      .populate('borderAsset');
+
+    if (!card) {
+      resp.status(404);
+      return { message: 'Carte non trouvée.' };
+    }
+
+    if (card.createdBy.toString() !== req.session.userId) {
+      resp.status(403);
+      return { message: 'Vous n\'êtes pas autorisé à accéder à cette carte.' };
+    }
+
+    return card;
+  });
 
   fastify.get("/assets", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({ createdBy: req.session.userId })

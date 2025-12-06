@@ -8,9 +8,29 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
     if (!collection) {
       collection = await fastify.models.CardCollection.create({ userId, cards: [] });
     }
-    await collection.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' } ]});
+    await collection.populate({ path: 'cards', select: ['_id', 'previewCardB64']})
     return collection;
   });
+
+  fastify.get('/:id/cards/:cardId', { preHandler: [authGuard] }, async (req, resp) => {
+    const { id, cardId } = req.params as { id: string; cardId: string };
+    const collection = await fastify.models.CardCollection.findById(id);
+    if (!collection) {
+      resp.status(404);
+      return { error: 'Collection not found' };
+    }
+    const card = await fastify.models.Card.findById(cardId);
+    if (!card) {
+      resp.status(404);
+      return { error: 'Card not found' };
+    }
+    if (!collection.cards.includes(card._id)) {
+      resp.status(403);
+      return { error: 'Card does not belong to this collection' };
+    }
+    await card.populate('frontAsset borderAsset');
+    return card;
+  })
 }
 
 export default cardCollectionRoutes;

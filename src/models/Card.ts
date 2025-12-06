@@ -36,6 +36,7 @@ export interface ICard extends Document {
     color: string;
     width: 'w-full' | 'w-auto';
   }>;
+  previewCardB64?: string;
 }
 
 const cardSchema = new mongoose.Schema<ICard>(
@@ -84,6 +85,7 @@ const cardSchema = new mongoose.Schema<ICard>(
       width: { type: String, enum: ['w-full', 'w-auto'], default: 'w-full' },
       _id: false
     }],
+    previewCardB64: { type: String },
   },
   { timestamps: true }
 );
