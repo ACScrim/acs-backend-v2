@@ -41,7 +41,8 @@ const options: AppOptions = {
         }
       }
     }
-  }
+  },
+  trustProxy: true
 }
 
 const app: FastifyPluginAsync<AppOptions> = async (
@@ -105,9 +106,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
       ttl: 7 * 24 * 60 * 60, // 7 days
       autoRemove: 'native',
       touchAfter: 15 * 60,
-      crypto: {
-        secret: process.env.JWT_SECRET || 'supersecret'
-      }
+      crypto: undefined
     })
   })
 

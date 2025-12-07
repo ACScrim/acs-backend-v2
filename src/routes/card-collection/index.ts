@@ -8,8 +8,22 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
     if (!collection) {
       collection = await fastify.models.CardCollection.create({ userId, cards: [] });
     }
-    await collection.populate({ path: 'cards', select: ['_id', 'previewCardB64']})
-    return collection;
+
+    const mapCardsCount = collection.cards.reduce((acc: Record<string, number>, cardId: string) => {
+      acc[cardId] = (acc[cardId] || 0) + 1;
+      return acc;
+    }, {});
+    const cards = [];
+    for (const cardId in mapCardsCount) {
+      const card = await fastify.models.Card.findById(cardId);
+      if (!card) continue;
+      cards.push({ id: cardId, previewCardB64: card.previewCardB64, count: mapCardsCount[cardId] });
+    }
+    return {
+      id: collection._id,
+      cards,
+      userId: collection.userId
+    };
   });
 
   fastify.get('/:id/cards/:cardId', { preHandler: [authGuard] }, async (req, resp) => {
