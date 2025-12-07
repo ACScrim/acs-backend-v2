@@ -21,10 +21,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       return res.status(400).send({ error: "Pas assez de scrimium." });
     }
 
-    userScrimium.balance -= boosterItem.price;
-    await userScrimium.save();
-
-    const cards = [];
+    const cards: string[] = [];
     let remainingCards = boosterItem.cardsCount;
 
     if (boosterItem.legendaryCardGuarantee > 0) {
@@ -32,7 +29,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
         { $match: { rarity: 'legendary' } },
         { $sample: { size: boosterItem.legendaryCardGuarantee } }
       ]);
-      cards.push(...legendaryCards.map(card => card._id));
+      cards.push(...legendaryCards.map(card => card._id.toString()));
       remainingCards -= boosterItem.legendaryCardGuarantee;
     }
     if (boosterItem.epicCardGuarantee > 0 && remainingCards > 0) {
@@ -40,7 +37,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
         { $match: { rarity: 'epic' } },
         { $sample: { size: boosterItem.epicCardGuarantee } }
       ]);
-      cards.push(...epicCards.map(card => card._id));
+      cards.push(...epicCards.map(card => card._id.toString()));
       remainingCards -= boosterItem.epicCardGuarantee;
     }
     while (remainingCards > 0) {
@@ -48,7 +45,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
         { $sample: { size: 1 } }
       ]);
       if (randomCard) {
-        cards.push(randomCard._id);
+        cards.push(randomCard._id.toString());
         remainingCards--;
       } else {
         break; // Évite boucle infinie si aucune carte n'existe
@@ -65,8 +62,10 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
 
     const cardCollection = await fastify.models.CardCollection.findOne({ userId: req.session.userId });
     if (cardCollection) {
-      cardCollection.cards.push(...cards);
-      await cardCollection.save();
+      await fastify.models.CardCollection.updateOne(
+        { userId: req.session.userId },
+        { $addToSet: { cards: { $each: cards } } }
+      );
     } else {
       await fastify.models.CardCollection.create({
         userId: req.session.userId,
@@ -76,6 +75,9 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
 
     await booster.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' }] });
     await booster.populate('booster');
+
+    userScrimium.balance -= boosterItem.price;
+    await userScrimium.save();
 
     return booster;
   })
