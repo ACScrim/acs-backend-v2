@@ -52,6 +52,15 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
         return res.status(404).send({ error: "User not found" });
       }
 
+      if (userId === currentUserId) {
+        // @ts-ignore
+        const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
+        if (!user) {
+          return res.status(404).send({ error: "User not found" });
+        }
+        user.set('scrimium', scrimium)
+      }
+
       const tournamentHistory = await fastify.models.Tournament.find({
         'players.user': userId,
         'finished': true
@@ -126,6 +135,13 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
         user.twitchSubscriptionId = undefined;
       }
       await user.save();
+
+      // @ts-ignore
+      const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
+      if (!user) {
+        return res.status(404).send({ error: "User not found" });
+      }
+      user.set('scrimium', scrimium)
 
       return user;
     } catch (error) {

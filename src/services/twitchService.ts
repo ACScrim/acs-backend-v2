@@ -114,6 +114,12 @@ class TwitchService {
     };
 
     try {
+      await this.deleteSubscriptionsByBroadcasterId(streamerId);
+    } catch (error: any) {
+      log(this.fastify, `[TwitchService] Erreur lors de la suppression des anciennes subscriptions pour ${streamerUsername} (${userId}) : ${error.message}`, 'error');
+    }
+
+    try {
       const response = await fetch(url, { method: 'POST', headers, body: JSON.stringify(data) });
       const user = await this.fastify.models.User.findById(userId) as IUser;
       if (user) {
@@ -130,6 +136,54 @@ class TwitchService {
       log(this.fastify, `[TwitchService] Erreur lors de la création de l'abonnement EventSub pour ${streamerUsername} (${userId}) : ${error.message}`, 'error');
       return false;
     }
+  }
+
+  public async deleteSubscriptionsByBroadcasterId(streamerId: string): Promise<boolean> {
+    if (!streamerId) return false;
+    if (!this.twitchAccessToken) {
+      if (!(await this.getTwitchAccessToken())) return false;
+    }
+
+    try {
+      const url = 'https://api.twitch.tv/helix/eventsub/subscriptions';
+      const headers = {
+        "Client-ID": this.twitchClientId,
+        "Authorization": `Bearer ${this.twitchAccessToken}`
+      };
+
+      const response = await fetch(url, { method: 'GET', headers });
+      if (!response.ok) {
+        log(this.fastify, `[TwitchService] Échec récupération subscriptions (${response.status})`, 'error');
+        return false;
+      }
+
+      const body = await response.json() as any;
+      const subs = (body?.data || []).filter((s: any) => s?.condition?.broadcaster_user_id === streamerId);
+      if (subs.length === 0) {
+        log(this.fastify, `[TwitchService] Aucune subscription trouvée pour broadcaster ${streamerId}`, 'info');
+        return false;
+      }
+
+      for (const s of subs) {
+        await this.deleteOneEventSubSubscription(s.id);
+      }
+
+      log(this.fastify, `[TwitchService] Supprimées ${subs.length} subscription(s) pour ${streamerId}`, 'info');
+      return true;
+    } catch (error: any) {
+      log(this.fastify, `[TwitchService] Erreur suppression subscriptions pour ${streamerId}: ${error.message}`, 'error');
+      return false;
+    }
+  }
+
+  public async deleteSubscriptionsByStreamerUsername(streamerUsername: string): Promise<boolean> {
+    if (!streamerUsername) return false;
+    const streamerId = await this.getStreamerId(streamerUsername);
+    if (!streamerId) {
+      log(this.fastify, `[TwitchService] Impossible d'obtenir l'ID pour ${streamerUsername}`, 'error');
+      return false;
+    }
+    return this.deleteSubscriptionsByBroadcasterId(streamerId);
   }
 
   public async deleteOneEventSubSubscription(subscriptionId: string): Promise<boolean> {
@@ -187,7 +241,9 @@ class TwitchService {
     const messageId = req.headers['Twitch-Eventsub-Message-Id'] as string;
     const timestamp = req.headers['Twitch-Eventsub-Message-Timestamp'] as string;
     const signature = req.headers['Twitch-Eventsub-Message-Signature'] as string;
-    const body = req.raw
+    const body = req.raw?.toString();
+
+    console.log('Verifying Twitch signature with:', { messageId, timestamp, signature, body });
 
     if (!messageId || !timestamp || !signature || !body) {
       log(this.fastify, '[TwitchService] En-têtes de signature Twitch manquants ou corps brut manquant.', 'error');
