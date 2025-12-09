@@ -22,7 +22,7 @@ const oldDbUri = process.env.OLD_MONGODB_URI || 'mongodb://localhost:27017/acs';
 const newDbUri = process.env.NEW_MONGODB_URI || 'mongodb://localhost:27017/acs-v2';
 
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN || '';
-const DISCORD_GUILD_ID = process.env.DISCORD_GUILD_ID || '';
+const DISCORD_GUILD_ID = "1330973733929615420";
 
 
 async function migrate() {
