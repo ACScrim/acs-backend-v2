@@ -10,17 +10,19 @@ export interface IAcsdleUser {
   mostGamePlayed: string;
 }
 
+export interface IAcsdleCompletion {
+  userId: mongoose.Schema.Types.ObjectId;
+  attempts: IAcsdleUser[];
+  won: boolean;
+  completedAt?: Date;
+}
+
 export interface IAcsdle extends mongoose.Document {
   userId: mongoose.Schema.Types.ObjectId; // Joueur du jour à deviner,
   date: Date;
   createdAt: Date;
   updatedAt: Date;
-  completions: {
-    userId: mongoose.Schema.Types.ObjectId;
-    attempts: IAcsdleUser[];
-    won: boolean;
-    completedAt?: Date;
-  }[];
+  completions: IAcsdleCompletion[];
 }
 
 const AcsdleSchema = new mongoose.Schema<IAcsdle>({

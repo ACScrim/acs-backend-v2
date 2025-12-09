@@ -4,7 +4,7 @@ import {ITournament} from "../../../models/Tournament";
 import {IGame} from "../../../models/Game";
 import {IUser} from "../../../models/User";
 import * as crypto from "node:crypto";
-import {IAcsdle, IAcsdleUser} from "../../../models/Acsdle";
+import {IAcsdle, IAcsdleCompletion, IAcsdleUser} from "../../../models/Acsdle";
 
 const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<IAcsdleUser> => {
   const userId = user._id?.toString() ?? user.id;
@@ -141,6 +141,24 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     if (!completion) return [];
     return completion.attempts;
   });
+
+  fastify.get('/history', { preHandler: [authGuard] }, async (request, reply) => {
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+    const acsdles = await fastify.models.Acsdle.find<IAcsdle>({ 'completions.userId': request.session.userId, date: { $gte: sevenDaysAgo } });
+
+    const completions: IAcsdleCompletion[] = acsdles.map(a => {
+      const completion = a.completions.find(c => c.userId.toString() === request.session.userId?.toString());
+      return {
+        userId: a.userId.toString() as any,
+        attempts: completion ? completion.attempts : [],
+        won: completion ? completion.won : false,
+        completedAt: completion ? completion.completedAt : undefined
+      } as IAcsdleCompletion;
+    });
+
+    return completions;
+  })
 }
 
 export default acsdleRoutes;
