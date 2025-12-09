@@ -9,8 +9,8 @@ import {IAcsdle, IAcsdleCompletion, IAcsdleUser} from "../../../models/Acsdle";
 const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<IAcsdleUser> => {
   const userId = user._id?.toString() ?? user.id;
   const tournamentsPlayed = await fastify.models.Tournament.find({ 'players.user': userId, 'finished': true }) as ITournament[];
-  const victories = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking === 1 && team.users.includes(userId))).length;
-  const top25Finishes = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking <= (t.teams.length / 4) && team.users.includes(userId))).length;
+  const victories = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking === 1 && (team.users as any).includes(userId))).length;
+  const top25Finishes = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking <= (t.teams.length / 4) && (team.users as any).includes(userId))).length;
   const gameCounts = tournamentsPlayed.reduce((acc, t) => {
     const id = t.gameId.toString();
     acc[id] = (acc[id] || 0) + 1;
