@@ -18,6 +18,7 @@ import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
 import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
+import Acsdle from "../models/Acsdle";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -41,7 +42,8 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     Scrimium: Scrimium,
     Booster: Booster,
     CardCollection: CardCollection,
-    BoosterShopItem: BoosterShopItem
+    BoosterShopItem: BoosterShopItem,
+    Acsdle: Acsdle
   });
 
   fastify.addHook('onClose', async () => {

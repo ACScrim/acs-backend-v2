@@ -20,6 +20,7 @@ import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
 import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
+import Acsdle from "../models/Acsdle";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -40,7 +41,8 @@ declare module 'fastify' {
       Scrimium: Model<Scrimium>,
       Booster: Model<Booster>,
       CardCollection: Model<CardCollection>,
-      BoosterShopItem: Model<BoosterShopItem>
+      BoosterShopItem: Model<BoosterShopItem>,
+      Acsdle: Model<Acsdle>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
