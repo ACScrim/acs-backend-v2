@@ -17,16 +17,18 @@ const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<I
     return acc;
   }, {} as Record<string, number>);
 
-  const mostPlayedGameId = (() => {
+  const mostPlayedGameIds = (() => {
     const entries = Object.entries(gameCounts);
-    if (entries.length === 0) return "N/A";
-    return entries.reduce((best, [id, count]) => (count > best[1] ? [id, count] : best), ["", 0])[0];
+    if (entries.length === 0) return [];
+    entries.sort((a, b) => b[1] - a[1]);
+    const highestCount = entries[0][1];
+    return entries.filter(([_, count]) => count === highestCount).map(([id, _]) => id);
   })();
 
-  let mostGamePlayed = "N/A";
-  if (mostPlayedGameId && mostPlayedGameId !== "N/A") {
-    const game = await fastify.models.Game.findById(mostPlayedGameId) as IGame;
-    mostGamePlayed = game.name;
+  let mostPlayedGames = ["N/A"];
+  if (mostPlayedGameIds && mostPlayedGameIds.length > 0) {
+    const games = await fastify.models.Game.find<IGame>({ _id: { $in: mostPlayedGameIds } });
+    mostPlayedGames = games.map(g => g.name);
   }
 
   return {
@@ -36,7 +38,7 @@ const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<I
     tournamentsPlayed: tournamentsPlayed.length,
     victories,
     top25Finishes,
-    mostGamePlayed
+    mostPlayedGames
   };
 };
 

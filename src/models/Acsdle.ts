@@ -7,7 +7,7 @@ export interface IAcsdleUser {
   tournamentsPlayed: number;
   victories: number;
   top25Finishes: number;
-  mostGamePlayed: string;
+  mostPlayedGames: string[];
 }
 
 export interface IAcsdleCompletion {
@@ -37,7 +37,7 @@ const AcsdleSchema = new mongoose.Schema<IAcsdle>({
       tournamentsPlayed: Number,
       victories: Number,
       top25Finishes: Number,
-      mostGamePlayed: String
+      mostPlayedGames: [{ type: String }]
     }],
     won: { type: Boolean, required: true },
     completedAt: { type: Date, required: true, default: new Date() },
