@@ -3,6 +3,7 @@ import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "../../../models/Game";
 import {log} from "../../../utils/utils";
+import card from "../../../models/Card";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -402,7 +403,33 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return reply.status(500).send({ error: 'Erreur lors de la finalisation des résultats' });
     }
   });
-};
+
+  // CHALLONGE INTEGRATION
+  fastify.post('/:id/challonge/create', { preHandler: [adminGuard] }, async (request, reply) => {
+    try {
+      const tournament = await fastify.models.Tournament.findById((request.params as any).id).populate('game players.user') as ITournament & { game: IGame };
+      if (!tournament) {
+        return reply.notFound();
+      }
+      if (!tournament.teamsPublished) {
+        return reply.status(400).send({ error: 'Les équipes doivent être publiées avant de créer un bracket Challonge' });
+      }
+      const settings = request.body as any;
+      const challongeData = await fastify.challongeService.createBracket(tournament, settings) as any;
+
+      tournament.challongeId = challongeData.data.id;
+      tournament.challongeUrl = `https://challonge.com/fr/${challongeData.data.attributes.url}`;
+
+      await fastify.challongeService.createParticipants(challongeData.data.id, tournament.teams.map(team => team.name));
+
+      await tournament.save();
+      return challongeData;
+    } catch (error) {
+      log(fastify, `Erreur lors de la création du bracket Challonge pour le tournoi ${(request.params as any).id} : ${error}`, 'error');
+      return reply.status(500).send({ error: 'Erreur lors de la création du bracket Challonge' });
+    }
+  });
+}
 
 export default adminTournamentRoutes;
 

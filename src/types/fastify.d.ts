@@ -21,6 +21,7 @@ import Booster from "../models/Booster";
 import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
 import Acsdle from "../models/Acsdle";
+import ChallongeService from "../services/challongeService";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -47,7 +48,8 @@ declare module 'fastify' {
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
     discordService: DiscordService,
-    twitchService: TwitchService
+    twitchService: TwitchService,
+    challongeService: ChallongeService,
   }
 
   interface Session {

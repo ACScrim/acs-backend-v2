@@ -45,6 +45,8 @@ export interface ITournament extends Document {
   clips: IClip[];
   createdAt: Date;
   updatedAt: Date;
+  challongeUrl?: string;
+  challongeId?: string;
 }
 
 const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
@@ -89,7 +91,9 @@ const tournamentSchema = new mongoose.Schema<ITournament>({
   messageId: { type: String, default: null },
   mvpVoteOpen: { type: Boolean, default: true },
   teams: [TeamSchema],
-  clips: [ClipSchema]
+  clips: [ClipSchema],
+  challongeUrl: { type: String },
+  challongeId: { type: String }
 }, { timestamps: true });
 
 TeamSchema.set('toJSON', {
