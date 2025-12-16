@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
-export interface CardCollection extends mongoose.Document {
+export interface ICardCollection extends mongoose.Document {
   id: string;
   userId: mongoose.Schema.Types.ObjectId;
   cards: mongoose.Schema.Types.ObjectId[];
 }
 
-const cardCollectionSchema = new mongoose.Schema<CardCollection>({
+const cardCollectionSchema = new mongoose.Schema<ICardCollection>({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, unique: true },
   cards: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Card' }],
 });
@@ -28,6 +28,6 @@ cardCollectionSchema.virtual('user', {
   justOne: true,
 });
 
-const CardCollection = mongoose.model<CardCollection>("CardCollection", cardCollectionSchema);
+const CardCollection = mongoose.model<ICardCollection>("CardCollection", cardCollectionSchema);
 
 export default CardCollection;
