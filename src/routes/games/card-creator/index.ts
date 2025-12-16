@@ -11,7 +11,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.get("/cards", { preHandler: [authGuard] }, async (req, resp) => {
     const cards = await fastify.models.Card.find({ createdBy: req.session.userId })
-      .select('id previewCardB64 status')
+      .select('id previewCardB64 status category')
     return cards;
   })
 
@@ -20,7 +20,8 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
     const card = await fastify.models.Card.findById(cardId)
       .populate('frontAsset')
-      .populate('borderAsset');
+      .populate('borderAsset')
+      .populate('category');
 
     if (!card) {
       resp.status(404);
@@ -70,6 +71,16 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.post("/asset", { preHandler: [authGuard] }, async (req, resp) => {
     const body = req.body as Omit<ICardAsset, 'createdBy'>;
+
+    const existingAsset = await fastify.models.CardAsset.findOne({
+      $or: [
+        { imageBase64: body.imageBase64, type: "image", imageMimeType: body.imageMimeType },
+        { solidColor: body.solidColor, type: "solid", category: body.category },
+        { category: body.category, type: "gradient", color1: body.color1, color2: body.color2 }
+      ]
+    });
+
+    if (existingAsset) return existingAsset;
 
     const newAsset = await fastify.models.CardAsset.create({
       ...body,

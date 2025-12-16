@@ -7,6 +7,7 @@ export interface ICard extends Document {
   imageMimeType?: string;
   frontAssetId?: mongoose.Schema.Types.ObjectId;
   borderAssetId?: mongoose.Schema.Types.ObjectId;
+  categoryId?: mongoose.Schema.Types.ObjectId;
   rarity?: 'common' | 'uncommon' | 'rare' | 'epic' | 'legendary';
   createdBy: mongoose.Schema.Types.ObjectId;
   status: 'pending' | 'waiting' | 'active' | 'inactive';
@@ -21,6 +22,7 @@ export interface ICard extends Document {
   holographicIntensity?: number;
   // Personnalisation - Couleurs du texte
   titleColor?: string;
+  titleFontSize?: number;
   // Personnalisation - Position et échelle de l'image
   imagePosX?: number;
   imagePosY?: number;
@@ -35,8 +37,8 @@ export interface ICard extends Document {
     align: 'left' | 'center' | 'right';
     color: string;
     width: 'w-full' | 'w-auto';
+    fontSize?: number;
   }>;
-  previewCardB64?: string;
 }
 
 const cardSchema = new mongoose.Schema<ICard>(
@@ -47,6 +49,7 @@ const cardSchema = new mongoose.Schema<ICard>(
     imageMimeType: { type: String },
     frontAssetId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardAsset' },
     borderAssetId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardAsset' },
+    categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardCategory' },
     rarity: {
       type: String,
       enum: ['common', 'uncommon', 'rare', 'epic', 'legendary'],
@@ -69,6 +72,7 @@ const cardSchema = new mongoose.Schema<ICard>(
     holographicIntensity: { type: Number, default: 0.6, min: 0, max: 1 },
     // Personnalisation - Couleurs du texte
     titleColor: { type: String, default: '#ffffff' },
+    titleFontSize: { type: Number, default: 18 },
     // Personnalisation - Position et échelle de l'image
     imagePosX: { type: Number, default: 50 },
     imagePosY: { type: Number, default: 30 },
@@ -83,9 +87,9 @@ const cardSchema = new mongoose.Schema<ICard>(
       align: { type: String, enum: ['left', 'center', 'right'] },
       color: String,
       width: { type: String, enum: ['w-full', 'w-auto'], default: 'w-full' },
+      fontSize: { type: Number, default: 14 },
       _id: false
-    }],
-    previewCardB64: { type: String },
+    }]
   },
   { timestamps: true }
 );
@@ -110,6 +114,13 @@ cardSchema.virtual('frontAsset', {
 cardSchema.virtual('borderAsset', {
   ref: 'CardAsset',
   localField: 'borderAssetId',
+  foreignField: '_id',
+  justOne: true,
+})
+
+cardSchema.virtual('category', {
+  ref: 'CardCategory',
+  localField: 'categoryId',
   foreignField: '_id',
   justOne: true,
 })

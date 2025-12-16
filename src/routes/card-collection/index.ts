@@ -39,7 +39,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
       resp.status(404);
       return { error: 'Card not found' };
     }
-    if (!collection.cards.includes(card.id.toString())) {
+    if (!collection.cards.find(c => c.cardId.toString() === card.id.toString())) {
       resp.status(403);
       return { error: 'Card does not belong to this collection' };
     }

@@ -14,6 +14,7 @@ import QuizQuestion from "../models/QuizQuestion";
 import QuizAnswer from "../models/QuizAnswer";
 import Card from "../models/Card";
 import CardAsset from "../models/CardAsset";
+import CardCategory from "../models/CardCategory";
 import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
 import CardCollection from "../models/CardCollection";
@@ -39,6 +40,7 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     QuizAnswer: QuizAnswer,
     Card: Card,
     CardAsset: CardAsset,
+    CardCategory: CardCategory,
     Scrimium: Scrimium,
     Booster: Booster,
     CardCollection: CardCollection,

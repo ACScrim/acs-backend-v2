@@ -15,6 +15,7 @@ import { Client } from 'discord.js';
 import DiscordService from "../services/discordService";
 import Card from "../models/Card";
 import CardAsset from "../models/CardAsset";
+import CardCategory from "../models/CardCategory";
 import TwitchService from "../services/twitchService";
 import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
@@ -39,6 +40,7 @@ declare module 'fastify' {
       QuizAnswer: Model<QuizAnswer>,
       Card: Model<Card>,
       CardAsset: Model<CardAsset>,
+      CardCategory: Model<CardCategory>,
       Scrimium: Model<Scrimium>,
       Booster: Model<Booster>,
       CardCollection: Model<CardCollection>,
