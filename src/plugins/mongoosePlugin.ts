@@ -16,7 +16,7 @@ import Card from "../models/Card";
 import CardAsset from "../models/CardAsset";
 import Scrimium from "../models/Scrimium";
 import Booster from "../models/Booster";
-import CardCollection from "../models/ICardCollection";
+import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
 import Acsdle from "../models/Acsdle";
 

@@ -3,12 +3,20 @@ import mongoose from "mongoose";
 export interface ICardCollection extends mongoose.Document {
   id: string;
   userId: mongoose.Schema.Types.ObjectId;
-  cards: mongoose.Schema.Types.ObjectId[];
+  cards: {
+    cardId: mongoose.Schema.Types.ObjectId;
+    count: number;
+  }[];
 }
 
 const cardCollectionSchema = new mongoose.Schema<ICardCollection>({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, unique: true },
-  cards: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Card' }],
+  cards: [
+    {
+      cardId: { type: mongoose.Schema.Types.ObjectId, ref: 'Card', required: true },
+      count: { type: Number, required: true, default: 1 }
+    }
+  ],
 });
 
 cardCollectionSchema.set('toJSON', {

@@ -2,6 +2,7 @@ import {FastifyPluginAsync} from "fastify";
 import {authGuard} from "../../middleware/authGuard";
 import {IScrimium} from "../../models/Scrimium";
 import mongoose from "mongoose";
+import {ICardCollection} from "../../models/CardCollection";
 
 const boostersRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/shop", { preHandler: [authGuard] }, async (req, res) => {
@@ -60,16 +61,32 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
 
     await booster.save();
 
-    const cardCollection = await fastify.models.CardCollection.findOne({ userId: req.session.userId });
+    const cardsToPush: ICardCollection['cards'] = [];
+    for (const cardId of cards) {
+      const existingCard = cardsToPush.find(c => c.cardId.toString() === cardId);
+      if (existingCard) {
+        existingCard.count += 1;
+      } else {
+        // @ts-ignore
+        cardsToPush.push({ cardId: cardId.toString(), count: 1 });
+      }
+    }
+
+    const cardCollection = await fastify.models.CardCollection.findOne({ userId: req.session.userId }) as ICardCollection;
     if (cardCollection) {
-      await fastify.models.CardCollection.updateOne(
-        { userId: req.session.userId },
-        { $addToSet: { cards: { $each: cards } } }
-      );
+      for (const cardEntry of cardsToPush) {
+        const existingCard = cardCollection.cards.find(c => c.cardId.toString() === cardEntry.cardId.toString());
+        if (existingCard) {
+          existingCard.count += cardEntry.count;
+        } else {
+          cardCollection.cards.push(cardEntry);
+        }
+      }
+      await cardCollection.save();
     } else {
       await fastify.models.CardCollection.create({
         userId: req.session.userId,
-        cards
+        cards: cardsToPush
       });
     }
 

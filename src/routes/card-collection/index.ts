@@ -1,20 +1,21 @@
 import {FastifyPluginAsync} from "fastify";
 import {authGuard} from "../../middleware/authGuard";
 import {ICard} from "../../models/Card";
-import {ICardCollection} from "../../models/ICardCollection";
+import {ICardCollection} from "../../models/CardCollection";
 
 const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/me', { preHandler: [authGuard] }, async (req, resp) => {
     const userId = req.session.userId;
-    let collection = await fastify.models.CardCollection.findOne({ userId });
+    let collection = await fastify.models.CardCollection.findOne({ userId }) as ICardCollection;
     if (!collection) {
-      collection = await fastify.models.CardCollection.create({ userId, cards: [] });
+      collection = await fastify.models.CardCollection.create({ userId, cards: [] }) as ICardCollection;
     }
 
-    const cards = [];
-    for (const cardId of collection.cards) {
-      const card = await fastify.models.Card.findById(cardId.toString());
+    const cards = [] as string[];
+    for (const c of collection.cards) {
+      const card = await fastify.models.Card.findById(c.cardId.toString());
       if (!card) continue;
+      if (cards.includes(card.id)) continue;
       cards.push(card.id);
     }
     return {
@@ -33,7 +34,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
       return { error: 'Collection not found' };
     }
     const card = await fastify.models.Card.findById(cardId) as ICard;
-    const count = collection.cards.filter(card => card.toString() === cardId).length;
+    const count = collection.cards.find(card => card.cardId.toString() === cardId)?.count || 0;
     if (!card) {
       resp.status(404);
       return { error: 'Card not found' };
