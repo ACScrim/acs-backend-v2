@@ -8,7 +8,7 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    let selectFields = 'question category dailyQuizDate options';
+    let selectFields = 'question category dailyQuizDate options image';
 
     const existingQuestion = await fastify.models.QuizQuestion.findOne({ dailyQuizDate: { $gte: today } }).select(selectFields) as IQuizQuestion;
     if (existingQuestion) {

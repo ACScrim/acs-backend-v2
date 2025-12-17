@@ -115,6 +115,9 @@ async function importQuizQuestions() {
     console.log(`  - Total importé: ${totalImported}`);
     console.log(`  - Fichiers ignorés: ${skippedFiles}`);
 
+    await importPokemonQuestions();
+    await importGameQuestions();
+
     await mongoose.connection.close();
     console.log('\n✓ Déconnexion de MongoDB réussie');
     process.exit(0);
@@ -122,6 +125,91 @@ async function importQuizQuestions() {
     console.error('❌ Erreur:', error);
     process.exit(1);
   }
+}
+
+async function importPokemonQuestions() {
+  const pokemonData = JSON.parse(fs.readFileSync(path.join(__dirname, '../externaldata/pokemon_data.json'), 'utf-8')) as any[];
+  const questions: IQuizQuestion[] = [];
+  for(const p of pokemonData) {
+    const question: IQuizQuestion = {
+      category: "Pokémon",
+      question: "Quel est ce Pokémon ?",
+      options: [p.frName, ...shuffleArray(pokemonData.filter(pd => pd.frName !== p.frName).map(pd => pd.frName)).slice(0, 3)],
+      correctAnswer: p.frName,
+      image: p.sprites.other["official-artwork"].front_default || p.sprites.other.home.front_default || p.sprites.front_default,
+    } as IQuizQuestion;
+    questions.push(question);
+  }
+
+  try {
+    const result = await QuizQuestion.insertMany(questions, { ordered: false }).catch(err => {
+      // Ignorer les erreurs de doublons (unique constraint)
+      if (err.code === 11000) {
+        return [];
+      }
+      throw err;
+    });
+    console.log(`Importé ${result.length} questions Pokémon.`);
+  } catch (error) {
+    console.error('Erreur lors de l\'importation des questions Pokémon:', error);
+  }
+}
+
+async function importGameQuestions() {
+  const gamesCsvRaw = fs.readFileSync(path.join(__dirname, '../externaldata/games.csv'));
+  const lines = gamesCsvRaw.toString().split('\n').filter(line => line.trim() !== '');
+  const questions: IQuizQuestion[] = [];
+
+  const start = 1;
+  const amount = 500;
+  let round = 0;
+
+  do {
+    console.log(`Round ${round}, starting at line ${start + round * amount} to ${amount + amount * round}`);
+    const gamesData: { name: string, image: string }[] = lines.slice(start + round * amount, amount + amount * round).map(line => {
+      const [name, background_image] = line.split(',').map(field => field.trim());
+      return {name, image: background_image};
+    });
+
+    for (let i = 0; i < gamesData.length; i++) {
+      const game = gamesData[i];
+      if (!game.image || !game.image.startsWith('https://')) {
+        continue;
+      }
+      const question: IQuizQuestion = {
+        category: "Jeux Vidéo",
+        question: "Quel est ce jeu vidéo ?",
+        options: [game.name, ...shuffleArray(gamesData.filter(gd => gd.name !== game.name).map(gd => gd.name)).slice(0, 3)],
+        correctAnswer: game.name,
+        image: game.image || undefined,
+      } as IQuizQuestion;
+      questions.push(question);
+    }
+    console.log(questions.length + ' questions prêtes pour l\'importation.');
+    round++;
+  } while (questions.length < 4000);
+
+  try {
+    const result = await QuizQuestion.insertMany(questions, { ordered: false }).catch(err => {
+      // Ignorer les erreurs de doublons (unique constraint)
+      if (err.code === 11000) {
+        return [];
+      }
+      throw err;
+    });
+    console.log(`Importé ${result.length} questions Jeux Vidéo.`);
+  } catch (error) {
+    console.error('Erreur lors de l\'importation des questions Jeux Vidéo:', error);
+  }
+}
+
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = array.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
 
 importQuizQuestions();

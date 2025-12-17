@@ -6,6 +6,7 @@ export interface IQuizQuestion extends Document  {
   options: string[];
   correctAnswer: string;
   anecdote?: string;
+  image?: string;
   dailyQuizDate?: Date;
 }
 
@@ -15,6 +16,7 @@ const quizQuestionSchema = new mongoose.Schema<IQuizQuestion>({
   options: [{ type: String, required: true }],
   correctAnswer: { type: String, required: true },
   anecdote: { type: String },
+  image: { type: String },
   dailyQuizDate: { type: Date, unique: true, sparse: true }
 }, { timestamps: true });
 
@@ -27,6 +29,8 @@ quizQuestionSchema.set('toJSON', {
     return ret;
   }
 });
+
+quizQuestionSchema.index({ category: 1, question: 1, correctAnswer: 1 }, { unique: true });
 
 export default mongoose.model<IQuizQuestion>("QuizQuestion", quizQuestionSchema);
 
