@@ -138,6 +138,14 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
       });
     }
 
+    if (request.session.userId) {
+      await fastify.scrimiumRewardService.giveReward(request.session.userId, 'acsdle', 'participation');
+      const won = acsdle.completions.find(c => c.userId.toString() === request.session.userId?.toString())?.won;
+      if (won) {
+        await fastify.scrimiumRewardService.giveReward(request.session.userId, 'acsdle', 'completion');
+      }
+    }
+
     await acsdle.save();
 
     if (!completion) return [];

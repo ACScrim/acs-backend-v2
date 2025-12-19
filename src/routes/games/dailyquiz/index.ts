@@ -130,6 +130,7 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     if (userAnswer !== undefined) {
       answer.userAnswer = userAnswer;
       answer.answeredAt = new Date();
+      if (req.session.userId) await fastify.scrimiumRewardService.giveReward(req.session.userId, 'dailyquiz', 'participation');
     }
     if (discoveredAt !== undefined) answer.discoveredAt = new Date(discoveredAt);
 

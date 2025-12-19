@@ -23,6 +23,7 @@ import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
 import Acsdle from "../models/Acsdle";
 import ChallongeService from "../services/challongeService";
+import ScrimiumRewardService from "../services/scrimiumRewardService";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -52,6 +53,7 @@ declare module 'fastify' {
     discordService: DiscordService,
     twitchService: TwitchService,
     challongeService: ChallongeService,
+    scrimiumRewardService: ScrimiumRewardService
   }
 
   interface Session {

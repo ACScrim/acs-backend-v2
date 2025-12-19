@@ -4,6 +4,7 @@ import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "../../../models/Game";
 import {log} from "../../../utils/utils";
 import card from "../../../models/Card";
+import {IUser} from "../../../models/User";
 
 const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -342,6 +343,10 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return reply.notFound();
       }
 
+      if (tournament.finished) {
+        return reply.status(400).send({ error: 'Les résultats du tournoi ont déjà été finalisés' });
+      }
+
       const rankingSet = new Set<number>();
 
       for (const result of results) {
@@ -374,6 +379,22 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         targetTeam.ranking = result.ranking;
         if (result.name && targetTeam.name !== result.name) {
           targetTeam.name = result.name;
+        }
+
+        if (targetTeam.ranking === 1) {
+          for (const player of targetTeam.users) {
+            await fastify.scrimiumRewardService.giveReward((player as unknown as IUser).id, 'tournaments', 'first_place');
+          //   TODO: Give automatic badge
+          }
+        } else if (targetTeam.ranking <= Math.ceil(tournament.teams.length * 0.25)) {
+          for (const player of targetTeam.users) {
+            await fastify.scrimiumRewardService.giveReward((player as unknown as IUser).id, 'tournaments', 'top25');
+            //   TODO: Give automatic badge
+          }
+        }
+
+        for (const player of tournament.players) {
+          await fastify.scrimiumRewardService.giveReward((player.user as unknown as IUser).id, 'tournaments', 'participation');
         }
       }
 
