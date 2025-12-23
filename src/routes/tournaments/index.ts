@@ -30,13 +30,29 @@ const populateCurrentPlayerLevelArray = async (fastify: any, tournaments: (ITour
     return tournaments;
 };
 
+const TOURNAMENT_POPULATE_PATHS = ['game', 'players.user', 'teams.users', 'clips.addedBy'];
+const TOURNAMENT_NOT_FOUND_RESPONSE = { success: false, message: "Tournament not found" };
+
+async function getTournament(fastify: any, tournamentId: string) {
+  return await fastify.models.Tournament.findById(tournamentId).exec() as ITournament | null;
+}
+
+const getPopulatedTournament = async (fastify: any, tournamentId: string) => {
+  return await fastify.models.Tournament.findById(tournamentId).populate(TOURNAMENT_POPULATE_PATHS).exec() as (ITournament & { game: any }) | null;
+};
+
+const respondTournamentNotFound = (res: any) => {
+  res.status(404);
+  return TOURNAMENT_NOT_FOUND_RESPONSE;
+};
+
 const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les tournois avec les détails du jeu et des joueurs
-   */
+    */
   fastify.get("/", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournaments = await fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy') as (ITournament & { game: IGame })[];
+      const tournaments = await fastify.models.Tournament.find().populate(TOURNAMENT_POPULATE_PATHS) as (ITournament & { game: IGame })[];
 
       return populateCurrentPlayerLevelArray(fastify, tournaments, req.session.userId!);
     } catch (error) {
@@ -50,10 +66,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.get("/:tournamentId", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournament = await fastify.models.Tournament.findById((req.params as { tournamentId: string }).tournamentId).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: IGame };
+      const tournament = await getPopulatedTournament(fastify, (req.params as { tournamentId: string }).tournamentId);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       return populateCurrentPlayerLevel(fastify, tournament, req.session.userId!);
     } catch (error) {
@@ -68,10 +83,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.post("/:id/register", { preHandler: [authGuard] }, async (req, res) => {
     try {
       const body = req.body as { registrationType: "caster" | "player" };
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const userId = req.session.userId!;
       const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : tournament.players.length >= tournament.playerCap;
@@ -87,7 +101,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
 
       await tournament.save();
 
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
 
       // Mettre à jour le message Discord du tournoi
       try {
@@ -95,7 +112,6 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       } catch (discordError) {
         log(fastify, `Erreur lors de la mise à jour du message Discord du tournoi ${tournament.id} : ${discordError}`, 'error');
       }
-
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
       log(fastify, `Erreur lors de l'inscription au tournoi : ${error}`, 'error');
@@ -109,16 +125,18 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.post("/:id/unregister", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const userId = req.session.userId!;
       tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
       await tournament.save();
 
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
 
       // Mettre à jour le message Discord du tournoi
       try {
@@ -126,7 +144,6 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       } catch (discordError) {
         log(fastify, `Erreur lors de la mise à jour du message Discord du tournoi ${tournament.id} : ${discordError}`, 'error');
       }
-
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
       log(fastify, `Erreur lors de la désinscription du tournoi : ${error}`, 'error');
@@ -139,10 +156,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.post("/:id/checkin", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const userId = req.session.userId!;
       const player = tournament.players.find(p => p.user.toString() === userId);
@@ -151,7 +167,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         await tournament.save();
       }
 
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
       await fastify.discordService.updateTournamentMessage(tournamentData);
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
@@ -165,10 +184,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.post("/:id/checkout", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const userId = req.session.userId!;
       const player = tournament.players.find(p => p.user.toString() === userId);
@@ -177,8 +195,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         await tournament.save();
       }
 
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
-
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
       await fastify.discordService.updateTournamentMessage(tournamentData);
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
@@ -193,10 +213,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.post("/:id/clips", { preHandler: [authGuard] }, async (req, res) => {
     try {
       const body = req.body as { clipUrl: string };
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const formattedClipUrl = formatClipUrl(body.clipUrl);
       if (!formattedClipUrl) {
@@ -208,7 +227,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         addedAt: new Date()
       } as any);
       await tournament.save();
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
       log(fastify, `Erreur lors de l'ajout d'un clip : ${error}`, 'error');
@@ -222,10 +244,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.post("/:id/mvps/vote", { preHandler: [authGuard] }, async (req, res) => {
     try {
       const body = req.body as { playerId: string };
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      const tournament = await getTournament(fastify, (req.params as { id: string }).id);
       if (!tournament) {
-        res.status(404);
-        return { success: false, message: "Tournament not found" };
+        return respondTournamentNotFound(res);
       }
       const userId = req.session.userId!;
       if (!userId) {
@@ -244,7 +265,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         });
         await tournament.save();
       }
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+      const tournamentData = await getPopulatedTournament(fastify, tournament.id);
+      if (!tournamentData) {
+        return respondTournamentNotFound(res);
+      }
       return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
     } catch (error) {
       log(fastify, `Erreur lors du vote pour le MVP : ${error}`, 'error');
@@ -274,4 +298,3 @@ function formatClipUrl(url: string): string | null {
 }
 
 export default tournamentRoutes;
-
