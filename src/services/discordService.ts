@@ -469,6 +469,46 @@ class DiscordService {
       log(this.fastify, `[DiscordService] Erreur lors de l'envoi de la notification Twitch sur Discord: ${error}`, 'error');
     }
   }
+
+  public async sendAdminMessage(payload: { targetType: 'channel' | 'dm'; discordChannelId?: string; discordUserId?: string; messageType: 'text' | 'embed'; content?: string; embed?: { title?: string; description?: string; color?: string; imageUrl?: string; footer?: string; fields?: Array<{ name: string; value: string; inline?: boolean }> } }) {
+    const embed = payload.messageType === 'embed' && payload.embed ? this.buildEmbedMessage({
+      title: payload.embed.title,
+      description: payload.embed.description,
+      color: (payload.embed.color as any) || undefined,
+      image: payload.embed.imageUrl,
+      fields: payload.embed.fields?.map(f => ({ name: f.name, value: f.value, inline: f.inline ?? false }))
+    }) : undefined;
+
+    if (payload.targetType === 'channel') {
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = await guild.channels.fetch(payload.discordChannelId!);
+      if (!channel || !channel.isTextBased()) throw new Error('Channel introuvable ou non textuel');
+      const sent = await channel.send({ content: payload.messageType === 'text' ? payload.content : undefined, embeds: embed ? [embed] : [] });
+      await (this.fastify as any).models.DiscordMessage.create({
+        direction: 'outbound',
+        targetType: 'channel',
+        messageType: payload.messageType,
+        discordChannelId: channel.id,
+        content: payload.content,
+        embed: payload.embed,
+        raw: sent.toJSON()
+      });
+      return sent.id;
+    }
+
+    const user = await this.client.users.fetch(payload.discordUserId!);
+    const sent = await user.send({ content: payload.messageType === 'text' ? payload.content : undefined, embeds: embed ? [embed] : [] });
+    await (this.fastify as any).models.DiscordMessage.create({
+      direction: 'outbound',
+      targetType: 'dm',
+      messageType: payload.messageType,
+      discordUserId: user.id,
+      content: payload.content,
+      embed: payload.embed,
+      raw: sent.toJSON()
+    });
+    return sent.id;
+  }
 }
 export default DiscordService;
 

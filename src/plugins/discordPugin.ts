@@ -1,6 +1,6 @@
 import {FastifyPluginAsync} from 'fastify';
 import fp from "fastify-plugin";
-import {ButtonInteraction, Client, IntentsBitField, InteractionType, StringSelectMenuInteraction} from 'discord.js';
+import {ButtonInteraction, ChannelType, Client, IntentsBitField, Partials, StringSelectMenuInteraction} from 'discord.js';
 import DiscordService from "../services/discordService";
 import {ITournamentPlayer} from "../models/Tournament";
 import {IUser} from "../models/User";
@@ -10,8 +10,11 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
     intents: [
       IntentsBitField.Flags.Guilds,
       IntentsBitField.Flags.GuildMembers,
-      IntentsBitField.Flags.DirectMessages
-    ]
+      IntentsBitField.Flags.DirectMessages,
+      IntentsBitField.Flags.GuildMessages,
+      IntentsBitField.Flags.MessageContent
+    ],
+    partials: [Partials.Channel]
   });
 
   await discordClient.login(process.env.DISCORD_TOKEN);
@@ -20,6 +23,19 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
 
   const discordService = new DiscordService(discordClient, fastify);
   fastify.decorate('discordService', discordService);
+
+  discordClient.on('ready', async () => {
+    try {
+      const guildId = process.env.DISCORD_GUILD_ID;
+      if (!guildId) return;
+      const guild = await discordClient.guilds.fetch(guildId);
+      const channels = guild.channels.cache.filter(ch => ch.type === ChannelType.GuildText).map(ch => ({ id: ch.id, name: ch.name }));
+      const members = (await guild.members.fetch()).map(m => ({ id: m.user.id, username: m.user.username, avatar: m.user.displayAvatarURL() }));
+      (fastify as any).discordMetadata = { channels, members };
+    } catch (err) {
+      fastify.log.error({ err }, 'Erreur lors du chargement des métadonnées Discord');
+    }
+  });
 
   /**
    * Gestionnaire pour les interactions Discord (clics sur les boutons)
@@ -188,6 +204,23 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
       } catch (replyError) {
         console.error('Erreur lors de la réponse à l\'interaction:', replyError);
       }
+    }
+  });
+
+  discordClient.on('messageCreate', async (message) => {
+    try {
+      if (message.author.bot) return;
+      if (message.guild) return; // Only DM inbound
+      await fastify.models.DiscordMessage.create({
+        direction: 'inbound',
+        targetType: 'dm',
+        messageType: message.embeds?.length ? 'embed' : 'text',
+        discordUserId: message.author.id,
+        content: message.content,
+        raw: message.toJSON()
+      });
+    } catch (error) {
+      fastify.log.error({ err: error }, 'Erreur lors de la capture d\'un DM Discord');
     }
   });
 

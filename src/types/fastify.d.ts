@@ -24,6 +24,7 @@ import BoosterShopItem from "../models/BoosterShopItem";
 import Acsdle from "../models/Acsdle";
 import ChallongeService from "../services/challongeService";
 import ScrimiumRewardService from "../services/scrimiumRewardService";
+import DiscordMessage from "../models/DiscordMessage";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -47,10 +48,12 @@ declare module 'fastify' {
       CardCollection: Model<CardCollection>,
       BoosterShopItem: Model<BoosterShopItem>,
       Acsdle: Model<Acsdle>
+      DiscordMessage: Model<DiscordMessage>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
     discordService: DiscordService,
+    discordMetadata?: { channels: Array<{ id: string; name: string }>; members: Array<{ id: string; username: string; avatar: string }> },
     twitchService: TwitchService,
     challongeService: ChallongeService,
     scrimiumRewardService: ScrimiumRewardService
