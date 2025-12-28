@@ -24,7 +24,7 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
   const discordService = new DiscordService(discordClient, fastify);
   fastify.decorate('discordService', discordService);
 
-  discordClient.on('ready', async () => {
+  discordClient.on('clientReady', async () => {
     try {
       const guildId = process.env.DISCORD_GUILD_ID;
       if (!guildId) return;
