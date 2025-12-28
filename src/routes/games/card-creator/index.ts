@@ -96,16 +96,6 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     try {
       const body = req.body as Omit<ICard, 'createdBy'>;
 
-      // Log received data to debug
-      req.log.info({
-        title: body.title,
-        hasImageBase64: !!body.imageBase64,
-        imageMimeType: body.imageMimeType,
-        imagePosX: body.imagePosX,
-        imagePosY: body.imagePosY,
-        imageScale: body.imageScale,
-      }, 'Card creation request received');
-
       const user = await fastify.models.User.findById(req.session.userId) as IUser;
 
       const newCard = await fastify.models.Card.create({
@@ -127,7 +117,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
       return savedCard;
     } catch (error) {
-      req.log.error(error, 'Error creating card');
+      log(fastify,'Error creating card ' + error, 'error');
       throw error;
     }
   });

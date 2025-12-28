@@ -21,6 +21,7 @@ import CardCollection from "../models/CardCollection";
 import BoosterShopItem from "../models/BoosterShopItem";
 import Acsdle from "../models/Acsdle";
 import DiscordMessage from "../models/DiscordMessage";
+import Bet from "../models/Bet";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -47,7 +48,8 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     CardCollection: CardCollection,
     BoosterShopItem: BoosterShopItem,
     Acsdle: Acsdle,
-    DiscordMessage: DiscordMessage
+    DiscordMessage: DiscordMessage,
+    Bet: Bet
   });
 
   fastify.addHook('onClose', async () => {

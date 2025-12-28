@@ -40,7 +40,7 @@ class ChallongeService {
       throw new Error(`Challonge API error: ${JSON.stringify(errorData)}`);
     }
 
-    return response.json();
+    return await response.json();
   }
 
   async createBracket(tournament: ITournament & { game: IGame }, options: ChallongeOptions) {
@@ -106,20 +106,21 @@ class ChallongeService {
     return this.challongeRequest(`/tournaments/${challongeTournamentId}/participants/bulk_add.json`, 'POST', body);
   }
 
-  async changeState(challongeTournamentId: string, state: 'finalize' | 'start' | 'reset') {
-    const body = {
-      data: {
-        type: 'TournamentState',
-        attributes: {
-          state
-        }
-      }
-    }
-    return this.challongeRequest(`/tournaments/${challongeTournamentId}/change_state.json`, 'PUT', body);
+  async getTournamentMatches(challongTournamentId: string) {
+    return this.challongeRequest(`/tournaments/${challongTournamentId}/matches.json`, 'GET');
   }
 
-  async deleteBracket(challongeTournamentId: string): Promise<void> {
-    await this.challongeRequest(`/tournaments/${challongeTournamentId}.json`, 'DELETE');
+  async getTournamentParticipants(challongTournamentId: string) {
+    return this.challongeRequest(`/tournaments/${challongTournamentId}/participants.json`, 'GET');
+  }
+
+  async getTournamentMatch(challongTournamentId: string, matchId: string) {
+    return this.challongeRequest(`/tournaments/${challongTournamentId}/matches/${matchId}.json`, 'GET');
+  }
+
+  async getTournamentMatchStarted(challongTournamentId: string, matchId: string): Promise<boolean> {
+    const { data: { attributes: { state, timestamps: { underway_at } } } } = await this.challongeRequest(`/tournaments/${challongTournamentId}/matches/${matchId}.json`, 'GET') as any;
+    return state === "complete" || !!underway_at;
   }
 }
 

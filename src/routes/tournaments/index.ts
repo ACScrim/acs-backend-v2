@@ -1,8 +1,9 @@
 import { ITournament } from "../../models/Tournament";
 import { FastifyPluginAsync } from "fastify";
-import { authGuard } from "../../middleware/authGuard";
+import {adminGuard, authGuard} from "../../middleware/authGuard";
 import {IGame} from "../../models/Game";
 import { log } from "../../utils/utils";
+import {IBet} from "../../models/Bet";
 
 const populateCurrentPlayerLevel = async (fastify: any, tournament: ITournament & { game: any }, currentUserId: string) => {
     if (tournament.game) {
@@ -249,6 +250,214 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
     } catch (error) {
       log(fastify, `Erreur lors du vote pour le MVP : ${error}`, 'error');
       return res.status(500).send({ error: 'Erreur lors du vote pour le MVP' });
+    }
+  });
+
+  /**
+   * Récupère la liste des matchs du challonge associé au tournoi
+   */
+  fastify.get("/:id/challonge-matches", { preHandler: [authGuard] }, async (req, res) => {
+    try {
+      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      if (!tournament) {
+        res.status(404);
+        return { success: false, message: "Tournament not found" };
+      }
+      if (!tournament.challongeId) {
+        res.status(400);
+        return { success: false, message: "No Challonge tournament associated" };
+      }
+
+      const participants = await fastify.challongeService.getTournamentParticipants(tournament.challongeId) as any;
+      const matches = await fastify.challongeService.getTournamentMatches(tournament.challongeId) as any;
+      const bets = await fastify.models.Bet.find({ tournamentId: tournament.id, userId: req.session.userId }) as IBet[];
+
+      return (matches["data"] ? matches["data"] : matches).map((match: any) => ({
+        id: match.id,
+        isStarted: match.attributes.timestamps.underway_at !== null,
+        isCompleted: match.attributes.state === "complete",
+        player1: participants["data"].find((p :any) => p.id == match.attributes.points_by_participant[0].participant_id)?.attributes.name,
+        player2: participants["data"].find((p :any) => p.id == match.attributes.points_by_participant[1].participant_id)?.attributes.name,
+        bet: bets.find(b => b.challongeMatchId === match.id),
+      }));
+    } catch (error) {
+      log(fastify, `Erreur lors de la récupération des matchs Challonge : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de la récupération des matchs Challonge' });
+    }
+  });
+
+  fastify.post("/:id/bets", { preHandler: [authGuard] }, async (req, res) => {
+    try {
+      const body = req.body as { challongeMatchId: string; predictedWinner: string; amount: number };
+      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      if (!tournament) {
+        res.status(404);
+        return { success: false, message: "Tournament not found" };
+      }
+      if (!tournament.challongeId) {
+        res.status(400);
+        return { success: false, message: "No Challonge tournament associated" };
+      }
+
+      const matchStarted = await fastify.challongeService.getTournamentMatchStarted(tournament.challongeId, body.challongeMatchId);
+      if (matchStarted) {
+        res.status(400);
+        return { success: false, message: "Cannot place or modify bet on a started match" };
+      }
+
+      const userScrimium = await fastify.models.Scrimium.findOne({ userId: req.session.userId }) as any;
+      if (!userScrimium || userScrimium.balance < body.amount) {
+        res.status(400);
+        return { success: false, message: "Insufficient balance to place the bet" };
+      }
+
+      const existingBet = await fastify.models.Bet.findOne({ tournamentId: tournament.id, userId: req.session.userId, challongeMatchId: body.challongeMatchId }) as IBet;
+      if (existingBet) {
+        existingBet.predictedWinner = body.predictedWinner;
+        existingBet.amount = body.amount;
+        await existingBet.save();
+        return existingBet;
+      } else {
+        const newBet = new fastify.models.Bet({
+          tournamentId: tournament.id,
+          userId: req.session.userId,
+          challongeMatchId: body.challongeMatchId,
+          predictedWinner: body.predictedWinner,
+          amount: body.amount,
+          won: false,
+          isProcessed: false
+        }) as IBet;
+
+        await fastify.models.Scrimium.updateOne(
+          { userId: req.session.userId },
+          {
+            $inc: { balance: -body.amount },
+            $push: {
+              transactions: {
+                amount: body.amount,
+                date: new Date(),
+                description: `Pari de ${body.amount} sur le match ${body.challongeMatchId} du tournoi ${tournament.name}`
+              }
+            }
+          }
+        );
+
+        await newBet.save();
+        return newBet;
+      }
+    } catch (error) {
+      log(fastify, `Erreur lors de la création du pari : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de la création du pari' });
+    }
+  });
+
+  fastify.post("/:id/bets/validate", { preHandler: [adminGuard] }, async (req, res) => {
+    try {
+      const tournament = await fastify.models.Tournament.findById((req.params as { id: string; matchId: string }).id) as ITournament;
+      if (!tournament) {
+        res.status(404);
+        return { success: false, message: "Tournament not found" };
+      }
+      if (!tournament.challongeId) {
+        res.status(400);
+        return { success: false, message: "No Challonge tournament associated" };
+      }
+
+      const matches: any = await fastify.challongeService.getTournamentMatches(tournament.challongeId);
+      const matchesToProcess = (matches["data"] ? matches["data"] : matches).filter((m: any) => m.attributes.state === "complete");
+      for (const match of matchesToProcess) {
+        const matchId = match.id;
+        const winnerParticipantId = match.attributes.winner_id;
+        const participants: any = await fastify.challongeService.getTournamentParticipants(tournament.challongeId);
+        const winnerParticipant = participants["data"].find((p :any) => p.id == winnerParticipantId);
+        if (!winnerParticipant) {
+          log(fastify, `Winner participant not found for match ${matchId}`, 'error');
+          continue;
+        }
+        const winnerName = winnerParticipant.attributes.name;
+
+        const bets = await fastify.models.Bet.find({ tournamentId: tournament.id, challongeMatchId: matchId, isProcessed: false }) as IBet[];
+        if (!bets || bets.length === 0) {
+          continue;
+        }
+
+        for (const bet of bets) {
+          if (bet.predictedWinner === winnerName) {
+            const winnings = bet.amount * 2; // Example payout calculation
+            await fastify.models.Scrimium.updateOne(
+              {userId: bet.userId},
+              {
+                $inc: {balance: winnings},
+                $push: {
+                  transactions: {
+                    amount: winnings,
+                    date: new Date(),
+                    description: `Gains du pari de ${winnings} sur le match ${bet.challongeMatchId} du tournoi ${tournament.name}`
+                  }
+                }
+              }
+            );
+            bet.won = true;
+          } else {
+            bet.won = false;
+          }
+          bet.isProcessed = true;
+          await bet.save();
+        }
+      }
+
+      return { success: true, message: "Bets validated successfully" };
+    } catch (error) {
+      log(fastify, `Erreur lors de la validation des paris : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de la validation des paris' });
+    }
+  });
+
+  fastify.delete("/:id/bets/:matchId", { preHandler: [authGuard] }, async (req, res) => {
+    try {
+      const tournament = await fastify.models.Tournament.findById((req.params as { id: string; matchId: string }).id) as ITournament;
+      if (!tournament) {
+        res.status(404);
+        return { success: false, message: "Tournament not found" };
+      }
+      if (!tournament.challongeId) {
+        res.status(400);
+        return { success: false, message: "No Challonge tournament associated" };
+      }
+
+      const matchId = (req.params as { id: string; matchId: string }).matchId;
+
+      const matchStarted = await fastify.challongeService.getTournamentMatchStarted(tournament.challongeId, matchId);
+      if (matchStarted) {
+        res.status(400);
+        return { success: false, message: "Cannot delete bet on a started match" };
+      }
+
+      const bet = await fastify.models.Bet.findOne({ tournamentId: tournament.id, userId: req.session.userId, challongeMatchId: matchId }) as IBet;
+      if (!bet) {
+        res.status(404);
+        return { success: false, message: "Bet not found" };
+      }
+
+      await fastify.models.Scrimium.updateOne(
+        { userId: req.session.userId },
+        {
+          $inc: { balance: bet.amount },
+          $push: {
+            transactions: {
+              amount: bet.amount,
+              date: new Date(),
+              description: `Annulation du pari de ${bet.amount} sur le match ${bet.challongeMatchId} du tournoi ${tournament.name}`
+            }
+          }
+        }
+      );
+
+      await bet.deleteOne();
+      return { success: true, message: "Bet cancelled successfully" };
+    } catch (error) {
+      log(fastify, `Erreur lors de l'annulation du pari : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de l\'annulation du pari' });
     }
   });
 }
