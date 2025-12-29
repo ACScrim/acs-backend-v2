@@ -10,7 +10,36 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
 
   // Format succès
   fastify.addHook('onSend', async (request, reply, payload) => {
-    if (reply.statusCode >= 400) return payload;
+    if (reply.statusCode >= 400) {
+      let data = payload;
+      if (typeof payload === 'string') {
+        try {
+          data = JSON.parse(payload);
+        } catch {
+          data = payload;
+        }
+      }
+
+      // Évite un double formatage si déjà conforme
+      if (data && typeof data === 'object' && (data as any).success === false) {
+        return payload;
+      }
+
+      const response: any = {
+        success: false,
+        error: data ?? { message: 'Erreur inconnue' },
+      };
+
+      if (includeMetadata) {
+        response.meta = {
+          timestamp: new Date().toISOString(),
+          path: request.url,
+          method: request.method,
+        };
+      }
+
+      return JSON.stringify(response);
+    }
 
     let data = payload;
     if (typeof payload === 'string') {
