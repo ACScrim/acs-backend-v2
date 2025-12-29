@@ -3,6 +3,7 @@ import fp from 'fastify-plugin';
 
 interface FormatterOptions {
   includeMetadata?: boolean;
+  unknownErrorMessage?: string;
 }
 
 interface Meta {
@@ -49,12 +50,25 @@ const isFormattedResponse = (payload: unknown): payload is FormattedResponse => 
 
 const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fastify, opts) => {
   const includeMetadata = opts.includeMetadata ?? true;
-  const UNKNOWN_ERROR_MESSAGE = 'Erreur inconnue';
+  const UNKNOWN_ERROR_MESSAGE = opts.unknownErrorMessage ?? 'Erreur inconnue';
+
+  const parsePayload = (payload: unknown) => {
+    if (typeof payload === 'string') {
+      try {
+        return JSON.parse(payload);
+      } catch {
+        return payload;
+      }
+    }
+    return payload;
+  };
 
   const normalizeError = (data: unknown): { message: string; detail?: unknown } => {
     if (data && typeof data === 'object' && 'message' in (data as Record<string, unknown>)) {
       const msg = (data as Record<string, unknown>).message;
-      if (typeof msg === 'string') return data as { message: string; detail?: unknown };
+      if (typeof msg === 'string') {
+        return { message: msg, detail: data };
+      }
     }
     return { message: UNKNOWN_ERROR_MESSAGE, detail: data };
   };
@@ -62,14 +76,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
   // Format succès
   fastify.addHook('onSend', async (request, reply, payload) => {
     if (reply.statusCode >= 400) {
-      let data = payload;
-      if (typeof payload === 'string') {
-        try {
-          data = JSON.parse(payload);
-        } catch {
-          data = payload;
-        }
-      }
+      const data = parsePayload(payload);
 
       // Évite un double formatage si déjà conforme
       if (isFormattedResponse(data) && data.success === false) {
@@ -92,14 +99,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
       return JSON.stringify(response);
     }
 
-    let data = payload;
-    if (typeof payload === 'string') {
-      try {
-        data = JSON.parse(payload);
-      } catch {
-        data = payload;
-      }
-    }
+    const data = parsePayload(payload);
 
     // Évite un double formatage si déjà conforme
     if (isFormattedResponse(data) && data.success === true) {
