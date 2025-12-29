@@ -26,11 +26,14 @@ interface ErrorResponse {
 type FormattedResponse = SuccessResponse | ErrorResponse;
 
 const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
-  return !!payload && typeof payload === 'object' && 'success' in (payload as Record<string, unknown>);
+  if (!payload || typeof payload !== 'object') return false;
+  const candidate = payload as Record<string, unknown>;
+  return typeof candidate.success === 'boolean' && ('data' in candidate || 'error' in candidate || 'meta' in candidate);
 };
 
 const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fastify, opts) => {
   const includeMetadata = opts.includeMetadata ?? true;
+  const UNKNOWN_ERROR_MESSAGE = 'Erreur inconnue';
 
   // Format succès
   fastify.addHook('onSend', async (request, reply, payload) => {
@@ -51,7 +54,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
 
       const response: ErrorResponse = {
         success: false,
-        error: data ?? { message: 'Erreur inconnue' },
+        error: data ?? { message: UNKNOWN_ERROR_MESSAGE },
       };
 
       if (includeMetadata) {
