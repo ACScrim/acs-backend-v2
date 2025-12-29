@@ -29,7 +29,8 @@ type FormattedResponse = SuccessResponse | ErrorResponse;
 const isValidMeta = (meta: unknown): meta is Meta => {
   if (!meta || typeof meta !== 'object') return false;
   const m = meta as Record<string, unknown>;
-  return typeof m.timestamp === 'string' && typeof m.path === 'string' && typeof m.method === 'string';
+  return m.timestamp != null && m.path != null && m.method != null
+    && typeof m.timestamp === 'string' && typeof m.path === 'string' && typeof m.method === 'string';
 };
 
 const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
@@ -57,18 +58,22 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
       try {
         return JSON.parse(payload);
       } catch {
+        // Parsing échouée : on retourne la chaîne brute pour éviter de masquer la réponse initiale.
         return payload;
       }
     }
     return payload;
   };
 
-  const normalizeError = (data: unknown): { message: string; detail?: unknown } => {
-    if (data && typeof data === 'object' && 'message' in (data as Record<string, unknown>)) {
+  const normalizeError = (data: unknown): { message: string; detail?: unknown; code?: unknown; statusCode?: unknown } => {
+    if (data && typeof data === 'object') {
       const record = data as Record<string, unknown>;
-      const msg = record.message;
-      if (typeof msg === 'string') {
-        return { message: msg };
+      if ('message' in record && typeof record.message === 'string') {
+        return {
+          message: record.message,
+          code: record.code,
+          statusCode: record.statusCode,
+        };
       }
     }
     return { message: UNKNOWN_ERROR_MESSAGE, detail: data };
