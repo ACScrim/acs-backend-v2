@@ -5,6 +5,30 @@ interface FormatterOptions {
   includeMetadata?: boolean;
 }
 
+interface Meta {
+  timestamp: string;
+  path: string;
+  method: string;
+}
+
+interface SuccessResponse {
+  success: true;
+  data: unknown;
+  meta?: Meta;
+}
+
+interface ErrorResponse {
+  success: false;
+  error: unknown;
+  meta?: Meta;
+}
+
+type FormattedResponse = SuccessResponse | ErrorResponse;
+
+const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
+  return !!payload && typeof payload === 'object' && 'success' in (payload as Record<string, unknown>);
+};
+
 const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fastify, opts) => {
   const includeMetadata = opts.includeMetadata ?? true;
 
@@ -21,11 +45,11 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
       }
 
       // Évite un double formatage si déjà conforme
-      if (data && typeof data === 'object' && (data as any).success === false) {
+      if (isFormattedResponse(data) && data.success === false) {
         return payload;
       }
 
-      const response: any = {
+      const response: ErrorResponse = {
         success: false,
         error: data ?? { message: 'Erreur inconnue' },
       };
@@ -50,7 +74,12 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
       }
     }
 
-    const response: any = {
+    // Évite un double formatage si déjà conforme
+    if (isFormattedResponse(data) && data.success === true) {
+      return payload;
+    }
+
+    const response: SuccessResponse = {
       success: true,
       data: data,
     };
@@ -70,7 +99,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
   fastify.setErrorHandler((error: FastifyError, request, reply) => {
     const statusCode = error.statusCode || 500;
     
-    const response: any = {
+    const response: ErrorResponse = {
       success: false,
       error: {
         message: error.message,
