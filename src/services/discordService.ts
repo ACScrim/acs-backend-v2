@@ -1,4 +1,4 @@
-import {ITournament} from "../models/Tournament";
+import {ITournament, ITournamentPlayer} from "../models/Tournament";
 import {
   ActionRowBuilder,
   ButtonBuilder,
@@ -18,6 +18,7 @@ import {IGame} from "../models/Game";
 import {ICard} from "../models/Card";
 import {log} from "../utils/utils";
 import {FastifyInstance} from "fastify";
+import {IUser} from "../models/User";
 
 class DiscordService {
   private client: Client;
@@ -393,6 +394,29 @@ class DiscordService {
       })
     } catch (error) {
       log(this.fastify, `[AnnounceTournamentResults] Erreur lors de l'annonce des résultats du tournoi ${tournament.name} sur Discord: ${error}`, 'error');
+    }
+  }
+
+  public async announceMvpWinner(tournament: ITournament & { game: IGame, players: (ITournamentPlayer & { user: IUser })[] }, mvpPlayerId: string): Promise<void> {
+    try {
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+
+      if (!channel || !channel.isTextBased()) {
+        console.error('Tournament channel not found');
+        return;
+      }
+
+      const mvpPlayer = tournament.players.find((p: any) => p._id.toString() == mvpPlayerId.toString()) as ITournamentPlayer & { user: IUser };
+      if (!mvpPlayer) {
+        console.error('MVP player not found in tournament players');
+        return;
+      }
+
+      await channel.send(`🏅 **Félicitations à <@${mvpPlayer.user.discordId}> pour avoir été élu MVP du tournoi ${tournament.name} !** 🎉`);
+
+    } catch (error) {
+      log(this.fastify, `[AnnounceMvpWinner] Erreur lors de l'annonce du MVP du tournoi ${tournament.name} sur Discord: ${error}`, 'error');
     }
   }
 

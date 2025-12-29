@@ -123,6 +123,11 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           return;
         }
 
+        if (!tournament.mvpVoteOpen) {
+          await selectMenuInteraction.reply({ content: '❌ Le vote pour le MVP est fermé', flags: [64] }); // Ephemeral
+          return;
+        }
+
         // Récupérer l'utilisateur Discord
         const userId = selectMenuInteraction.user.id;
         const user = await fastify.models.User.findOne({ discordId: userId });

@@ -1,9 +1,10 @@
-import { ITournament } from "../../models/Tournament";
+import {ITournament, ITournamentPlayer} from "../../models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import {adminGuard, authGuard} from "../../middleware/authGuard";
 import {IGame} from "../../models/Game";
 import { log } from "../../utils/utils";
 import {IBet} from "../../models/Bet";
+import {IUser} from "../../models/User";
 
 const populateCurrentPlayerLevel = async (fastify: any, tournament: ITournament & { game: any }, currentUserId: string) => {
     if (tournament.game) {
@@ -261,6 +262,38 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
     }
   });
 
+  fastify.post("/:id/mvps/close", { preHandler: [adminGuard] }, async (req, res) => {
+    try {
+      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      if (!tournament) {
+        res.status(404);
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
+      }
+      tournament.mvpVoteOpen = false;
+      let maxVotes = 0;
+      let mvpPlayerId: any = null;
+      tournament.players.forEach(player => {
+        if (player.mvpVotes.length > maxVotes) {
+          maxVotes = player.mvpVotes.length;
+          mvpPlayerId = player.id;
+        }
+      });
+      tournament.players.forEach(player => {
+        player.isMvp = player.id === mvpPlayerId;
+      });
+      await tournament.save();
+
+
+      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: IGame, players: (ITournamentPlayer & { user: IUser})[] };
+      await fastify.discordService.announceMvpWinner(tournamentData, mvpPlayerId);
+      return populateCurrentPlayerLevel(fastify, tournamentData, req.session.userId!);
+    } catch (error) {
+      log(fastify, `Erreur lors de la clôture du vote MVP : ${error}`, 'error');
+      return res.status(500).send({ error: 'Erreur lors de la clôture du vote MVP' });
+    }
+  });
+
   /**
    * Récupère la liste des matchs du challonge associé au tournoi
    */
@@ -273,9 +306,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       if (!tournament.challongeId) {
-        res.status(400);
-        log(fastify, `Aucun tournoi Challonge associé au tournoi ${(req.params as { id: string }).id}`, 'error', 400);
-        return { success: false, message: "Aucun tournoi Challonge n'est associé à ce tournoi" };
+        return { success: true, data: null };
       }
 
       const participants = await fastify.challongeService.getTournamentParticipants(tournament.challongeId) as any;
