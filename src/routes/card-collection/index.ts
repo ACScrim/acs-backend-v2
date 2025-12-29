@@ -2,6 +2,7 @@ import {FastifyPluginAsync} from "fastify";
 import {authGuard} from "../../middleware/authGuard";
 import {ICard} from "../../models/Card";
 import {ICardCollection} from "../../models/CardCollection";
+import { log } from "../../utils/utils";
 
 const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/me', { preHandler: [authGuard] }, async (req, resp) => {
@@ -31,17 +32,20 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
     const collection = await fastify.models.CardCollection.findById(id) as ICardCollection;
     if (!collection) {
       resp.status(404);
-      return { error: 'Collection not found' };
+      log(fastify, `Collection introuvable pour l'identifiant ${id}`, 'error', 404);
+      return { error: 'Collection introuvable pour cet identifiant' };
     }
     const card = await fastify.models.Card.findById(cardId) as ICard;
     const count = collection.cards.find(card => card.cardId.toString() === cardId)?.count || 0;
     if (!card) {
       resp.status(404);
-      return { error: 'Card not found' };
+      log(fastify, `Carte introuvable dans la collection ${id} pour l'identifiant ${cardId}`, 'error', 404);
+      return { error: 'Carte introuvable pour cet identifiant' };
     }
     if (!collection.cards.find(c => c.cardId.toString() === card.id.toString())) {
       resp.status(403);
-      return { error: 'Card does not belong to this collection' };
+      log(fastify, `Tentative d'accès à une carte n'appartenant pas à la collection ${id}`, 'error', 403);
+      return { error: 'Cette carte n’appartient pas à cette collection' };
     }
     await card.populate('frontAsset borderAsset');
 

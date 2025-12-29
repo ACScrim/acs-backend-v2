@@ -54,7 +54,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { tournamentId: string }).tournamentId).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: IGame };
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { tournamentId: string }).tournamentId}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       return populateCurrentPlayerLevel(fastify, tournament, req.session.userId!);
     } catch (error) {
@@ -72,7 +73,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
       const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : tournament.players.length >= tournament.playerCap;
@@ -113,7 +115,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
       tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
@@ -143,7 +146,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
       const player = tournament.players.find(p => p.user.toString() === userId);
@@ -169,7 +173,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
       const player = tournament.players.find(p => p.user.toString() === userId);
@@ -197,7 +202,8 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const formattedClipUrl = formatClipUrl(body.clipUrl);
       if (!formattedClipUrl) {
@@ -226,12 +232,14 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
       if (!userId) {
         res.status(401);
-        return { success: false, message: "Unauthorized" };
+        log(fastify, `Vote MVP refusé : utilisateur non authentifié pour le tournoi ${(req.params as { id: string }).id}`, 'error', 401);
+        return { success: false, message: "Action non autorisée : utilisateur non authentifié" };
       }
       if (tournament.mvpVoteOpen) {
         tournament.players.forEach(player => {
@@ -261,11 +269,13 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       if (!tournament.challongeId) {
         res.status(400);
-        return { success: false, message: "No Challonge tournament associated" };
+        log(fastify, `Aucun tournoi Challonge associé au tournoi ${(req.params as { id: string }).id}`, 'error', 400);
+        return { success: false, message: "Aucun tournoi Challonge n'est associé à ce tournoi" };
       }
 
       const participants = await fastify.challongeService.getTournamentParticipants(tournament.challongeId) as any;
@@ -292,23 +302,27 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       if (!tournament.challongeId) {
         res.status(400);
-        return { success: false, message: "No Challonge tournament associated" };
+        log(fastify, `Aucun tournoi Challonge associé au tournoi ${(req.params as { id: string }).id}`, 'error', 400);
+        return { success: false, message: "Aucun tournoi Challonge n'est associé à ce tournoi" };
       }
 
       const matchStarted = await fastify.challongeService.getTournamentMatchStarted(tournament.challongeId, body.challongeMatchId);
       if (matchStarted) {
         res.status(400);
-        return { success: false, message: "Cannot place or modify bet on a started match" };
+        log(fastify, `Pari refusé : le match ${body.challongeMatchId} du tournoi ${tournament.name} a déjà commencé`, 'error', 400);
+        return { success: false, message: "Impossible de placer ou modifier un pari sur un match déjà commencé" };
       }
 
       const userScrimium = await fastify.models.Scrimium.findOne({ userId: req.session.userId }) as any;
       if (!userScrimium || userScrimium.balance < body.amount) {
         res.status(400);
-        return { success: false, message: "Insufficient balance to place the bet" };
+        log(fastify, `Solde insuffisant pour placer le pari de ${body.amount} sur le match ${body.challongeMatchId}`, 'error', 400);
+        return { success: false, message: "Solde insuffisant pour placer ce pari" };
       }
 
       const existingBet = await fastify.models.Bet.findOne({ tournamentId: tournament.id, userId: req.session.userId, challongeMatchId: body.challongeMatchId }) as IBet;
@@ -356,11 +370,13 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string; matchId: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string; matchId: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       if (!tournament.challongeId) {
         res.status(400);
-        return { success: false, message: "No Challonge tournament associated" };
+        log(fastify, `Aucun tournoi Challonge associé au tournoi ${(req.params as { id: string; matchId: string }).id}`, 'error', 400);
+        return { success: false, message: "Aucun tournoi Challonge n'est associé à ce tournoi" };
       }
 
       const matches: any = await fastify.challongeService.getTournamentMatches(tournament.challongeId);
@@ -371,7 +387,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         const participants: any = await fastify.challongeService.getTournamentParticipants(tournament.challongeId);
         const winnerParticipant = participants["data"].find((p :any) => p.id == winnerParticipantId);
         if (!winnerParticipant) {
-          log(fastify, `Winner participant not found for match ${matchId}`, 'error');
+          log(fastify, `Participant vainqueur introuvable pour le match ${matchId}`, 'error');
           continue;
         }
         const winnerName = winnerParticipant.attributes.name;
@@ -406,7 +422,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         }
       }
 
-      return { success: true, message: "Bets validated successfully" };
+      return { success: true, message: "Paris validés avec succès" };
     } catch (error) {
       log(fastify, `Erreur lors de la validation des paris : ${error}`, 'error');
       return res.status(500).send({ error: 'Erreur lors de la validation des paris' });
@@ -418,11 +434,13 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournament = await fastify.models.Tournament.findById((req.params as { id: string; matchId: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
-        return { success: false, message: "Tournament not found" };
+        log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string; matchId: string }).id}`, 'error', 404);
+        return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       if (!tournament.challongeId) {
         res.status(400);
-        return { success: false, message: "No Challonge tournament associated" };
+        log(fastify, `Aucun tournoi Challonge associé au tournoi ${(req.params as { id: string; matchId: string }).id}`, 'error', 400);
+        return { success: false, message: "Aucun tournoi Challonge n'est associé à ce tournoi" };
       }
 
       const matchId = (req.params as { id: string; matchId: string }).matchId;
@@ -430,13 +448,15 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const matchStarted = await fastify.challongeService.getTournamentMatchStarted(tournament.challongeId, matchId);
       if (matchStarted) {
         res.status(400);
-        return { success: false, message: "Cannot delete bet on a started match" };
+        log(fastify, `Suppression de pari impossible : le match ${matchId} a déjà commencé`, 'error', 400);
+        return { success: false, message: "Impossible de supprimer un pari sur un match déjà commencé" };
       }
 
       const bet = await fastify.models.Bet.findOne({ tournamentId: tournament.id, userId: req.session.userId, challongeMatchId: matchId }) as IBet;
       if (!bet) {
         res.status(404);
-        return { success: false, message: "Bet not found" };
+        log(fastify, `Pari introuvable pour le match ${matchId} du tournoi ${tournament.name}`, 'error', 404);
+        return { success: false, message: "Pari introuvable pour ce match" };
       }
 
       await fastify.models.Scrimium.updateOne(
@@ -454,7 +474,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       );
 
       await bet.deleteOne();
-      return { success: true, message: "Bet cancelled successfully" };
+      return { success: true, message: "Pari annulé avec succès" };
     } catch (error) {
       log(fastify, `Erreur lors de l'annulation du pari : ${error}`, 'error');
       return res.status(500).send({ error: 'Erreur lors de l\'annulation du pari' });
@@ -483,4 +503,3 @@ function formatClipUrl(url: string): string | null {
 }
 
 export default tournamentRoutes;
-

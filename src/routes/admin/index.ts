@@ -21,7 +21,7 @@ const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
      return lines.slice(-50);
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des logs : ${error}`, 'error');
-      reply.code(404).send({ error: "Log file not found" });
+      reply.code(404).send({ error: "Fichier de logs introuvable sur le serveur" });
     }
   });
 
@@ -50,7 +50,7 @@ const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
       });
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des logs : ${error}`, 'error');
-      reply.code(404).send({ error: "Log file not found" });
+      reply.code(404).send({ error: "Fichier de logs introuvable sur le serveur" });
     }
   });
 };

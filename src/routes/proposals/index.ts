@@ -27,12 +27,14 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/rawg-games', async (req, res) => {
     try {
       if (!RAWG_API_KEY) {
-        return res.status(500).send({ error: 'RAWG API key is not configured' });
+        log(fastify, 'Clé API RAWG non configurée', 'error', 500);
+        return res.status(500).send({ error: 'Clé API RAWG manquante. Contactez un administrateur.' });
       }
       const { q } = req.query as { q: string };
       const response = await fetch(`${URL_API}?key=${RAWG_API_KEY}&page_size=10&search=${q}&stores=1,2,3,4,11,6`);
       if (!response.ok) {
-        return res.status(500).send({ error: `RAWG API Error: ${response.statusText} (${response.status})` });
+        log(fastify, `Erreur de l'API RAWG : ${response.statusText} (${response.status}) pour la recherche ${q}`, 'error', response.status);
+        return res.status(500).send({ error: `Erreur lors de l'appel à l'API RAWG (${response.status}) : ${response.statusText}` });
       }
       const data = await response.json() as any;
       return res.send(data.results.map((entry: any) => ({
@@ -58,11 +60,13 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
 
       const user = await fastify.models.User.findById(userId);
       if (!user) {
-        return res.status(404).send({ error: 'User not found' });
+        log(fastify, `Utilisateur introuvable pour le vote de proposition (id: ${userId})`, 'error', 404);
+        return res.status(404).send({ error: 'Utilisateur introuvable pour effectuer ce vote' });
       }
       const proposal = await fastify.models.GameProposal.findById(id);
       if (!proposal) {
-        return res.status(404).send({ error: 'Proposal not found' });
+        log(fastify, `Proposition de jeu introuvable pour l'identifiant ${id}`, 'error', 404);
+        return res.status(404).send({ error: 'Proposition introuvable pour l’identifiant fourni' });
       }
 
       const existingVoteIndex = proposal.votes.findIndex((vote: any) => vote.user.toString() === userId);
@@ -138,4 +142,3 @@ const proposalRoutes: FastifyPluginAsync = async (fastify) => {
 }
 
 export default proposalRoutes;
-

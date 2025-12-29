@@ -1,6 +1,7 @@
 import { FastifyInstance } from 'fastify';
 import { authGuard } from '../../middleware/authGuard';
 import type { ICardCategory } from '../../models/CardCategory';
+import { log } from '../../utils/utils';
 
 export default async function cardCategoryRoutes(fastify: FastifyInstance) {
   // Créer une nouvelle catégorie
@@ -25,7 +26,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return category;
     } catch (error) {
-      fastify.log.error(error);
+      log(fastify, `Erreur lors de la création de la catégorie : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la création de la catégorie' });
     }
   });
@@ -43,7 +44,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return categories;
     } catch (error) {
-      fastify.log.error(error);
+      log(fastify, `Erreur lors de la récupération des catégories : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la récupération des catégories' });
     }
   });
@@ -69,7 +70,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return category;
     } catch (error) {
-      fastify.log.error(error);
+      log(fastify, `Erreur lors de la récupération de la catégorie ${request.params.id} : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la récupération de la catégorie' });
     }
   });
@@ -108,7 +109,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
         return category;
       } catch (error) {
-        fastify.log.error(error);
+        log(fastify, `Erreur lors de la mise à jour de la catégorie ${request.params.id} : ${error}`, 'error');
         return reply.status(500).send({ error: 'Erreur lors de la mise à jour de la catégorie' });
       }
     }
@@ -141,9 +142,8 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return reply.send({ message: 'Catégorie supprimée' });
     } catch (error) {
-      fastify.log.error(error);
+      log(fastify, `Erreur lors de la suppression de la catégorie ${request.params.id} : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la suppression de la catégorie' });
     }
   });
 }
-
