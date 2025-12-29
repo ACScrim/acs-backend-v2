@@ -28,7 +28,13 @@ type FormattedResponse = SuccessResponse | ErrorResponse;
 const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
   if (!payload || typeof payload !== 'object') return false;
   const candidate = payload as Record<string, unknown>;
-  return typeof candidate.success === 'boolean' && ('data' in candidate || 'error' in candidate || 'meta' in candidate);
+  if (candidate.success === true) {
+    return 'data' in candidate;
+  }
+  if (candidate.success === false) {
+    return 'error' in candidate;
+  }
+  return false;
 };
 
 const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fastify, opts) => {
@@ -84,7 +90,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
 
     const response: SuccessResponse = {
       success: true,
-      data: data,
+      data,
     };
 
     if (includeMetadata) {
