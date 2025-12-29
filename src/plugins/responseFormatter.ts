@@ -34,7 +34,6 @@ const isValidMeta = (meta: unknown): meta is Meta => {
 
 const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
   if (!payload || typeof payload !== 'object') return false;
-  if (Object.getPrototypeOf(payload) === null) return false;
   const candidate = payload as Record<string, unknown>;
   if (candidate.success === true) {
     if (!('data' in candidate)) return false;
@@ -69,7 +68,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
       const record = data as Record<string, unknown>;
       const msg = record.message;
       if (typeof msg === 'string') {
-        return { message: msg, detail: data };
+        return { message: msg };
       }
     }
     return { message: UNKNOWN_ERROR_MESSAGE, detail: data };
