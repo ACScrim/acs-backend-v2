@@ -70,7 +70,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return category;
     } catch (error) {
-      log(fastify, `Erreur lors de la récupération de la catégorie ${id} : ${error}`, 'error');
+      log(fastify, `Erreur lors de la récupération de la catégorie ${request.params.id} : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la récupération de la catégorie' });
     }
   });
@@ -109,7 +109,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
         return category;
       } catch (error) {
-        log(fastify, `Erreur lors de la mise à jour de la catégorie ${id} : ${error}`, 'error');
+        log(fastify, `Erreur lors de la mise à jour de la catégorie ${request.params.id} : ${error}`, 'error');
         return reply.status(500).send({ error: 'Erreur lors de la mise à jour de la catégorie' });
       }
     }
@@ -142,7 +142,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
 
       return reply.send({ message: 'Catégorie supprimée' });
     } catch (error) {
-      log(fastify, `Erreur lors de la suppression de la catégorie ${id} : ${error}`, 'error');
+      log(fastify, `Erreur lors de la suppression de la catégorie ${request.params.id} : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de la suppression de la catégorie' });
     }
   });
