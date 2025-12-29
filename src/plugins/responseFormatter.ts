@@ -25,14 +25,24 @@ interface ErrorResponse {
 
 type FormattedResponse = SuccessResponse | ErrorResponse;
 
+const isValidMeta = (meta: unknown): meta is Meta => {
+  if (!meta || typeof meta !== 'object') return false;
+  const m = meta as Record<string, unknown>;
+  return typeof m.timestamp === 'string' && typeof m.path === 'string' && typeof m.method === 'string';
+};
+
 const isFormattedResponse = (payload: unknown): payload is FormattedResponse => {
   if (!payload || typeof payload !== 'object') return false;
   const candidate = payload as Record<string, unknown>;
   if (candidate.success === true) {
-    return 'data' in candidate;
+    if (!('data' in candidate)) return false;
+    if ('meta' in candidate && candidate.meta !== undefined && !isValidMeta(candidate.meta)) return false;
+    return true;
   }
   if (candidate.success === false) {
-    return 'error' in candidate;
+    if (!('error' in candidate)) return false;
+    if ('meta' in candidate && candidate.meta !== undefined && !isValidMeta(candidate.meta)) return false;
+    return true;
   }
   return false;
 };
@@ -40,6 +50,14 @@ const isFormattedResponse = (payload: unknown): payload is FormattedResponse => 
 const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fastify, opts) => {
   const includeMetadata = opts.includeMetadata ?? true;
   const UNKNOWN_ERROR_MESSAGE = 'Erreur inconnue';
+
+  const normalizeError = (data: unknown): { message: string; detail?: unknown } => {
+    if (data && typeof data === 'object' && 'message' in (data as Record<string, unknown>)) {
+      const msg = (data as Record<string, unknown>).message;
+      if (typeof msg === 'string') return data as { message: string; detail?: unknown };
+    }
+    return { message: UNKNOWN_ERROR_MESSAGE, detail: data };
+  };
 
   // Format succès
   fastify.addHook('onSend', async (request, reply, payload) => {
@@ -60,7 +78,7 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
 
       const response: ErrorResponse = {
         success: false,
-        error: data ?? { message: UNKNOWN_ERROR_MESSAGE },
+        error: normalizeError(data),
       };
 
       if (includeMetadata) {
