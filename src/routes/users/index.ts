@@ -57,9 +57,9 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
       if (userId === currentUserId) {
         // @ts-ignore
         const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
-        if (!user) {
-          log(fastify, `Utilisateur introuvable avec l'identifiant ${userId}`, 'error', 404);
-          return res.status(404).send({ error: "Utilisateur introuvable pour l'identifiant fourni" });
+        if (!scrimium) {
+          log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error', 500);
+          return res.status(500).send({ error: "Impossible de récupérer les données de progression utilisateur" });
         }
         user.set('scrimium', scrimium)
       }
@@ -142,9 +142,9 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
 
       // @ts-ignore
       const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
-      if (!user) {
-        log(fastify, `Utilisateur introuvable avec l'identifiant ${currentUserId}`, 'error', 404);
-        return res.status(404).send({ error: "Utilisateur introuvable pour l'identifiant fourni" });
+      if (!scrimium) {
+        log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error', 500);
+        return res.status(500).send({ error: "Impossible de récupérer les données de progression utilisateur" });
       }
       user.set('scrimium', scrimium)
 
