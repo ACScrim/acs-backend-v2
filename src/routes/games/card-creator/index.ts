@@ -117,7 +117,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
       return savedCard;
     } catch (error) {
-      log(fastify,'Error creating card ' + error, 'error');
+      log(fastify, `Erreur lors de la création de la carte : ${error}`, 'error');
       throw error;
     }
   });

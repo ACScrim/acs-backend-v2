@@ -13,7 +13,8 @@ const useReportRoutes: FastifyPluginAsync = async (fastify) => {
 
       const user = await fastify.models.User.findById(userId);
       if (!user) {
-        return res.status(404).send({ message: 'User not found' });
+        log(fastify, `Utilisateur signalé introuvable pour l'identifiant ${userId}`, 'error', 404);
+        return res.status(404).send({ message: 'Utilisateur introuvable pour ce signalement' });
       }
       const newReport = new fastify.models.Report({
         user: user._id,
@@ -36,10 +37,11 @@ const useReportRoutes: FastifyPluginAsync = async (fastify) => {
       const { reportId } = req.params as { reportId: string };
       const report = await fastify.models.Report.findById(reportId) as IReport;
       if (!report) {
-        return res.status(404).send({ message: 'Report not found' });
+        log(fastify, `Signalement introuvable avec l'identifiant ${reportId}`, 'error', 404);
+        return res.status(404).send({ message: 'Signalement introuvable pour l’identifiant fourni' });
       }
       await report.deleteOne();
-      return { message: 'Report removed successfully' };
+      return { message: 'Signalement supprimé avec succès' };
     } catch (error) {
       log(fastify, `Erreur lors de la suppression d'un signalement : ${error}`, 'error');
       return res.status(500).send({ error: 'Erreur lors de la suppression du signalement' });
@@ -48,4 +50,3 @@ const useReportRoutes: FastifyPluginAsync = async (fastify) => {
 }
 
 export default useReportRoutes;
-

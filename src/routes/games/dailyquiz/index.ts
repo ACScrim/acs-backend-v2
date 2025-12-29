@@ -2,6 +2,7 @@ import {FastifyPluginAsync} from "fastify";
 import {IQuizQuestion} from "../../../models/QuizQuestion";
 import {authGuard} from "../../../middleware/authGuard";
 import {IQuizAnswer} from "../../../models/QuizAnswer";
+import { log } from "../../../utils/utils";
 
 const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/today", { preHandler: [authGuard] }, async (req, resp) => {
@@ -16,7 +17,8 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     }
     const availableQuestions = await fastify.models.QuizQuestion.find({ $or: [{ dailyQuizDate: { $exists: false } }, { dailyQuizDate: null }] }).select(selectFields) as IQuizQuestion[];
     if (availableQuestions.length === 0) {
-      return resp.status(404).send({ message: "No available questions for today's quiz." });
+      log(fastify, "Aucune question disponible pour le quiz quotidien", 'error', 404);
+      return resp.status(404).send({ message: "Aucune question disponible pour le quiz quotidien." });
     }
 
     const randomIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -117,7 +119,8 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
 
     const question = await fastify.models.QuizQuestion.findById(questionId) as IQuizQuestion;
     if (!question) {
-      return resp.status(404).send({ message: "Question not found." });
+      log(fastify, `Question de quiz quotidienne introuvable pour l'identifiant ${questionId}`, 'error', 404);
+      return resp.status(404).send({ message: "Question introuvable pour ce quiz quotidien." });
     }
 
     let answer = await fastify.models.QuizAnswer.findOne({ userId: req.session.userId, discoveredAt: { $gte: today } }) as IQuizAnswer;

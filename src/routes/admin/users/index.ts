@@ -33,11 +33,12 @@ const adminUsersRoutes: FastifyPluginAsync = async (fastify) => {
       const { role } = req.body;
       const user = await fastify.models.User.findById(userId) as IUser;
       if (!user) {
-        return res.status(404).send({ message: "User not found" });
+        log(fastify, `Utilisateur introuvable pour la mise à jour du rôle (${userId})`, 'error', 404);
+        return res.status(404).send({ message: "Utilisateur introuvable pour la mise à jour du rôle" });
       }
       user.role = role;
       await user.save();
-      return res.send({ message: "User role updated successfully" });
+      return res.send({ message: "Rôle utilisateur mis à jour avec succès" });
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du rôle de l'utilisateur ${(req.params as any).userId} : ${error}`, 'error');
       return res.status(500).send({ error: 'Erreur lors de la mise à jour du rôle' });

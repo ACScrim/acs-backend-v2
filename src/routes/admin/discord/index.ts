@@ -1,5 +1,6 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
+import { log } from "../../../utils/utils";
 
 const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
   // Liste des messages privés reçus (inbound DMs)
@@ -63,7 +64,7 @@ const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
       });
       return { success: true, messageId };
     } catch (error) {
-      fastify.log.error({ err: error }, 'Erreur envoi message Discord');
+      log(fastify, `Erreur lors de l'envoi du message Discord : ${error}`, 'error');
       return reply.status(500).send({ error: 'Erreur lors de l\'envoi du message Discord' });
     }
   });

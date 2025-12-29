@@ -6,11 +6,11 @@ const twitchRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.post('/twitch-webhook', async (req, res) => {
     if (!req.raw) {
       log(fastify, 'rawBody non disponible dans la requête pour la vérification de la signature Twitch.', 'error');
-      return res.status(400).send('Bad Request: Missing raw body');
+      return res.status(400).send('Requête invalide : corps brut manquant pour la vérification de la signature');
     }
     if (!fastify.twitchService.verifyTwitchSignature(req)) {
       log(fastify, 'Signature Twitch invalide pour la requête webhook.', 'error');
-      return res.status(403).send('Forbidden: Invalid signature');
+      return res.status(403).send('Accès refusé : signature Twitch invalide');
     }
 
     const messageType = req.headers['Twitch-Eventsub-Message-Type'];
@@ -37,7 +37,7 @@ const twitchRoutes: FastifyPluginAsync = async (fastify) => {
         return res.status(200).send('Revocation received');
       default:
         log(fastify, `Type de message Twitch inconnu : ${messageType}`, 'error');
-        return res.status(400).send('Bad Request: Unknown message type');
+        return res.status(400).send('Requête invalide : type de message Twitch inconnu');
     }
   })
 }
