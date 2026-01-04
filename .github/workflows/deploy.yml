@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           # On envoie le contenu de dist, package.json et config.json
           local-dir: ./
-          server-dir: ./
+          server-dir: ./acs-backend-v2/
           exclude: |
             node_modules/**
             src/**
