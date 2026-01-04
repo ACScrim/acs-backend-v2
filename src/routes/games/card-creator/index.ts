@@ -44,8 +44,8 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   fastify.get("/discord-avatars", { preHandler: [authGuard] }, async (req, resp) => {
-    const users = await fastify.models.User.find().select('id username avatarUrl');
-    return users
+    const users = await fastify.models.User.find().select('id username avatarUrl') as IUser[];
+    return users.filter(user => user.avatarUrl);
   })
 
   fastify.get("/assets/backgrounds", { preHandler: [authGuard] }, async (req, resp) => {
