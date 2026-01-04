@@ -1,0 +1,40 @@
+name: Deploy Backend to o2switch
+
+on:
+  push:
+    branches: [ main ] # Se déclenche lors d'un push sur main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install & Build
+        run: |
+          npm install
+          npm run build:ts  # Génère le dossier dist/
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # On envoie le contenu de dist, package.json et config.json
+          local-dir: ./
+          server-dir: ./acs-backend-v2/
+          exclude: |
+            node_modules/**
+            src/**
+            .git/**
+            .github/**
+            tsconfig.json
