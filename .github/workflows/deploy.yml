@@ -33,10 +33,3 @@ jobs:
           local_path: ./dist
           remote_path: /acs-backend-v2
           ssh_private_key: ''
-          exclude: |
-            node_modules/**
-            src/**
-            .git/**
-            .github/**
-            tsconfig.json
-            externaldata/**
