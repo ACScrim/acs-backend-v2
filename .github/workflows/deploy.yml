@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}   # ou ssh_private_key
           sftp_only: true
           local_path: ./dist
-          remote_path: /acs-backend-v2
+          remote_path: ./acs-backend-v2
           delete_remote_files: false
           sftpArgs: "-o StrictHostKeyChecking=no"
           ssh_private_key: ""
