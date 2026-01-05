@@ -22,5 +22,6 @@ jobs:
           script: |
             cd /var/www/acsv2/backend
             git pull
+            npm install
             rm -rf dist
             pm2 restart acs-backend-v2
