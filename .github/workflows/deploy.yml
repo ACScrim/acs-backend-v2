@@ -26,12 +26,13 @@ jobs:
       - name: Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          host: ${{ secrets.SFTP_SERVER }}
+          server: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }} # ou key
-          port: 22
-          source: ./dist
-          target: /acs-backend-v2
+          sftp_only: true
+          local_path: ./dist
+          remote_path: /acs-backend-v2
+          ssh_private_key: ''
           exclude: |
             node_modules/**
             src/**
