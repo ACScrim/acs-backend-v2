@@ -41,16 +41,12 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       cards.push(...epicCards.map(card => card._id.toString()));
       remainingCards -= boosterItem.epicCardGuarantee;
     }
-    while (remainingCards > 0) {
-      const [randomCard] = await fastify.models.Card.aggregate([
-        { $sample: { size: 1 } }
-      ]);
-      if (randomCard) {
-        cards.push(randomCard._id.toString());
-        remainingCards--;
-      } else {
-        break; // Évite boucle infinie si aucune carte n'existe
-      }
+    const randomCards = await fastify.models.Card.aggregate([
+      { $sample: { size: remainingCards } }
+    ]);
+    if (randomCards.length > 0) {
+      cards.push(...randomCards.map(card => card._id.toString()));
+      remainingCards--;
     }
 
     const booster = new fastify.models.Booster({
