@@ -90,7 +90,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       });
     }
 
-    await booster.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' }] });
+    await booster.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' }, { path: 'category'}] });
     await booster.populate('booster');
 
     userScrimium.balance -= boosterItem.price;

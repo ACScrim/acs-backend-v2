@@ -6,7 +6,7 @@ import {IUser} from "../../../models/User";
 const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
 
   fastify.get('/', { preHandler: [adminGuard] }, async (req, resp) => {
-    const cards = await fastify.models.Card.find().populate('frontAsset borderAsset createdBy');
+    const cards = await fastify.models.Card.find().populate('frontAsset borderAsset createdBy category');
 
     return cards;
   });

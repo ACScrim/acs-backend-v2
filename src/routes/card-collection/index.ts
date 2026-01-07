@@ -47,7 +47,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
       log(fastify, `Tentative d'accès à une carte n'appartenant pas à la collection ${id}`, 'error', 403);
       return { error: 'Cette carte n’appartient pas à cette collection' };
     }
-    await card.populate('frontAsset borderAsset');
+    await card.populate('frontAsset borderAsset category');
 
     return {
       ...card.toJSON(),
