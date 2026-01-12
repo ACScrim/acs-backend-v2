@@ -98,7 +98,8 @@ const app: FastifyPluginAsync<AppOptions> = async (
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
-      path: '/'
+      path: '/',
+      domain: process.env.NODE_ENV === 'production' ? '.acscrim.fr' : undefined
     },
     saveUninitialized: false,
     rolling: true,
@@ -111,6 +112,20 @@ const app: FastifyPluginAsync<AppOptions> = async (
       crypto: undefined
     })
   })
+
+  fastify.addHook('preHandler', async (request, reply) => {
+    if (request.url.includes('/auth/discord')) {
+      log(fastify, JSON.stringify({
+        action: request.url.includes('callback') ? 'callback' : 'start',
+        url: request.url,
+        query: request.query,
+        sessionId: (request as any).session?.sessionId,
+        hasSession: !!(request as any).session,
+        cookies: request.headers.cookie,
+        sessionData: (request as any).session
+      }), 'info');
+    }
+  });
 
   // Discord Oauth2
   fastify.register(oauthPlugin, {
