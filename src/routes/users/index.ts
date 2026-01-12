@@ -10,7 +10,7 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les utilisateurs
    */
-  fastify.get("/", async (req, res) => {
+  fastify.get("/", {preHandler: [authGuard] }, async (req, res) => {
     try {
       return fastify.models.User.find();
     } catch (error) {
