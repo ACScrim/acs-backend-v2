@@ -13,6 +13,7 @@ import {startTournamentRemindersCron} from "./crons/tournamentReminders";
 import {startDailyQuizCron} from "./crons/dailyQuiz";
 import {startUpdateAcsersCardCron} from "./crons/updateAcsersCard";
 import {log} from "./utils/utils";
+import MongoSessionStore from "./utils/MongoStore";
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -89,12 +90,16 @@ const app: FastifyPluginAsync<AppOptions> = async (
     parseOptions: {},
   })
 
-  // SESSION
+  const mongoStore = new MongoSessionStore(
+    process.env.MONGODB_URI || 'mongodb://localhost:27017',
+    'acs-v2'
+  );
+
   fastify.register(fastifySession, {
     cookieName: 'acs.sid',
     secret: process.env.SESSION_SECRET || 'supersecretsupersecretsupersecretsupersecret',
     cookie: {
-      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+      maxAge: 7 * 24 * 60 * 60 * 1000,
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'lax',
@@ -103,14 +108,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
     },
     saveUninitialized: true,
     rolling: true,
-    store: MongoStore.create({
-      mongoUrl: process.env.MONGODB_URI || 'mongodb://localhost:27017/acs-v2',
-      collectionName: 'sessions',
-      ttl: 7 * 24 * 60 * 60, // 7 days
-      autoRemove: 'native',
-      touchAfter: 15 * 60,
-      crypto: undefined
-    })
+    store: mongoStore
   })
 
   fastify.addHook('onRequest', async (request, reply) => {
