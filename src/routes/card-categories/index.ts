@@ -39,7 +39,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
         return reply.status(401).send({ error: 'Non authentifié' });
       }
 
-      const categories = await fastify.models.CardCategory.find({ createdBy: userId })
+      const categories = await fastify.models.CardCategory.find({ createdBy: userId, private: false })
         .sort({ createdAt: -1 });
 
       return categories;

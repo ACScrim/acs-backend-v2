@@ -141,6 +141,18 @@ class DiscordService {
       const message = await channel.send({ embeds: [embedMessage] });
       messageId = message.id;
     }
+    await guild.scheduledEvents.create({
+      name: tournament.name,
+      scheduledStartTime: tournament.date,
+      scheduledEndTime: new Date(tournament.date.getTime() + 2 * 60 * 60 * 1000 + 30 * 60 * 1000), // +2h30
+      privacyLevel: 2, // Guild Only
+      entityType: 3, // External
+      channel: tournament.discordChannelName,
+      entityMetadata: {
+        location: `https://acsrim.fr/tournaments/${tournament.id}`
+      },
+      description: tournament.name
+    });
     // Create tournament role
     await guild.roles.create({
       name: `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`,
