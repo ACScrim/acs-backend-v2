@@ -4,7 +4,6 @@ import fastifyCors from '@fastify/cors'
 import fastifyJwt from '@fastify/jwt'
 import oauthPlugin from '@fastify/oauth2'
 import fastifySession from '@fastify/session'
-import MongoStore from 'connect-mongo'
 import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
 import FastifySSEPlugin from 'fastify-sse-v2'
 import path, { join } from 'node:path'
@@ -95,17 +94,6 @@ const app: FastifyPluginAsync<AppOptions> = async (
     'acs-v2'
   );
 
-// Test du store
-  mongoStore.set('test-session', { test: true, cookie: { expires: new Date(Date.now() + 60000) } }, (err) => {
-    if (err) console.error('Store SET error:', err);
-    else {
-      mongoStore.get('test-session', (err, session) => {
-        console.log('Store GET result:', err, session);
-        mongoStore.destroy('test-session', () => {});
-      });
-    }
-  });
-
 
   fastify.register(fastifySession, {
     cookieName: 'acs.sid',
@@ -123,24 +111,16 @@ const app: FastifyPluginAsync<AppOptions> = async (
     store: mongoStore
   })
 
-  fastify.addHook('onRequest', async (request, reply) => {
-    if (request.url === '/api/auth/discord' || request.url.startsWith('/api/auth/discord?')) {
-      // Force la création de la session
-      (request as any).session.touch();
-      await (request as any).session.save();
-    }
-  });
-
   fastify.addHook('preHandler', async (request, reply) => {
     if (request.url.includes('/auth/discord')) {
+      const cookies = request.headers.cookie || '';
+      const oauthStateCookie = cookies.split(';').find(c => c.trim().startsWith('oauth2-redirect-state'));
       log(fastify, JSON.stringify({
         action: request.url.includes('callback') ? 'callback' : 'start',
         url: request.url,
-        query: request.query,
-        sessionId: (request as any).session?.sessionId,
-        hasSession: !!(request as any).session,
-        cookies: request.headers.cookie,
-        sessionData: (request as any).session
+        queryState: (request.query as any).state,
+        oauthStateCookie: oauthStateCookie?.trim(),
+        allCookies: cookies
       }), 'info');
     }
   });
@@ -158,17 +138,11 @@ const app: FastifyPluginAsync<AppOptions> = async (
     },
     startRedirectPath: '/api/auth/discord',
     callbackUri: process.env.BACKEND_URL + '/auth/discord/callback',
-  });
-
-  fastify.addHook('preHandler', async (request, reply) => {
-    if (request.url.includes('/auth/discord/callback')) {
-      log(fastify, JSON.stringify({
-        url: request.url,
-        query: request.query,
-        sessionId: (request as any).session?.sessionId,
-        hasSession: !!(request as any).session,
-        cookies: request.headers.cookie
-      }), 'info');
+    cookie: {
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      path: '/',
+      domain: process.env.NODE_ENV === 'production' ? '.acscrim.fr' : undefined
     }
   });
 
