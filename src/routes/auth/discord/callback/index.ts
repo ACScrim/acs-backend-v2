@@ -21,7 +21,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       }
 
       // @ts-ignore
-      const oauth = await fastify.discordOAuth2.getAccessTokenFromAuthorizationCodeFlow(req, reply);
+      const oauth = await fastify.discordOAuth2.getAccessTokenFromAuthorizationCodeFlow(req, res);
 
       const access_token = oauth?.token?.access_token;
       if (!access_token) {
