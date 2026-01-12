@@ -21,7 +21,17 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       }
 
       // @ts-ignore
-      const { token: { access_token } } = await fastify.discordOAuth2.getAccessTokenFromAuthorizationCodeFlow(req);
+      const oauth = await fastify.discordOAuth2.getAccessTokenFromAuthorizationCodeFlow(req, reply);
+
+      const access_token = oauth?.token?.access_token;
+      if (!access_token) {
+        log(
+          fastify,
+          `Discord OAuth2 callback: access_token manquant (hasToken=${Boolean(oauth?.token)}, url=${req.url})`,
+          "error"
+        );
+        return res.status(500).send({ error: "Authentication failed" });
+      }
 
       const memberResponse = await fetch(`https://discord.com/api/v10/users/@me/guilds/${DISCORD_SERVER_ID}/member`, {
         headers: {
