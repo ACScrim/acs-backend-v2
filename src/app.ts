@@ -101,7 +101,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
       path: '/',
       domain: process.env.NODE_ENV === 'production' ? '.acscrim.fr' : undefined
     },
-    saveUninitialized: false,
+    saveUninitialized: true,
     rolling: true,
     store: MongoStore.create({
       mongoUrl: process.env.MONGODB_URI || 'mongodb://localhost:27017/acs-v2',
@@ -152,6 +152,18 @@ const app: FastifyPluginAsync<AppOptions> = async (
         cookies: request.headers.cookie
       }), 'info');
     }
+  });
+
+  fastify.addHook('onSend', async (request, reply, payload) => {
+    if (request.url === '/api/auth/discord' && reply.statusCode === 302) {
+      await (request as any).session.save();
+      log(fastify, JSON.stringify({
+        action: 'oauth_redirect_start',
+        sessionId: (request as any).session?.sessionId,
+        sessionData: (request as any).session
+      }), 'info');
+    }
+    return payload;
   });
 
   // Do not touch the following lines
