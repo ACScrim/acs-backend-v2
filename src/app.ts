@@ -12,6 +12,7 @@ import { startUpdateDiscordAvatarsCron } from './crons/updateDiscordAvatars'
 import {startTournamentRemindersCron} from "./crons/tournamentReminders";
 import {startDailyQuizCron} from "./crons/dailyQuiz";
 import {startUpdateAcsersCardCron} from "./crons/updateAcsersCard";
+import {log} from "./utils/utils";
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -124,7 +125,19 @@ const app: FastifyPluginAsync<AppOptions> = async (
     },
     startRedirectPath: '/api/auth/discord',
     callbackUri: process.env.BACKEND_URL + '/auth/discord/callback',
-  })
+  });
+
+  fastify.addHook('preHandler', async (request, reply) => {
+    if (request.url.includes('/auth/discord/callback')) {
+      log(fastify, JSON.stringify({
+        url: request.url,
+        query: request.query,
+        sessionId: (request as any).session?.sessionId,
+        hasSession: !!(request as any).session,
+        cookies: request.headers.cookie
+      }), 'info');
+    }
+  });
 
   // Do not touch the following lines
   await fastify.register(AutoLoad, {
