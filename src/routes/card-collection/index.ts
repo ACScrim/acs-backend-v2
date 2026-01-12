@@ -3,6 +3,7 @@ import {authGuard} from "../../middleware/authGuard";
 import {ICard} from "../../models/Card";
 import {ICardCollection} from "../../models/CardCollection";
 import { log } from "../../utils/utils";
+import mongoose from "mongoose";
 
 const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/me', { preHandler: [authGuard] }, async (req, resp) => {
@@ -14,7 +15,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
 
     const cards = [] as string[];
     for (const c of collection.cards) {
-      const card = await fastify.models.Card.findById(c.cardId.toString());
+      const card = await fastify.models.Card.findOne({ _id: c.cardId.toString(), status: 'active' });
       if (!card) continue;
       if (cards.includes(card.id)) continue;
       cards.push(card.id);

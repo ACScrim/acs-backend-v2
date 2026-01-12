@@ -76,7 +76,7 @@ const createCardPayload = async (user: IUser, fastify: FastifyInstance) => {
 }
 
 export const startUpdateAcsersCardCron = async (fastify: FastifyInstance) => {
-  fastify.cron.schedule('0 0 * * 1', async () => {
+  fastify.cron.schedule('*/5 * * * * *', async () => {
     try {
       const users = await fastify.models.User.find({}).exec();
       const categoryObjectId = new mongoose.Types.ObjectId('6957eb47cd0cfd4a74cbcc06');
@@ -86,17 +86,18 @@ export const startUpdateAcsersCardCron = async (fastify: FastifyInstance) => {
         try {
           const cardPayload = await createCardPayload(user, fastify);
 
-          if (cards.some(c => c.title === user.username)) {
+          const existingCard = cards.find(c => c.title === user.username);
+          if (existingCard) {
             await fastify.models.Card.updateOne(
               { title: user.username },
               {
                 $set: {
+                  _id: existingCard._id,
                   ...cardPayload,
                   updatedAt: new Date(),
                 }
               }
             );
-            log(fastify, `Carte par défaut mise à jour pour l'utilisateur : ${user.username}`, 'info');
           } else {
             await fastify.models.Card.create({
               ...cardPayload,

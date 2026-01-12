@@ -27,7 +27,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
 
     if (boosterItem.legendaryCardGuarantee > 0) {
       const legendaryCards = await fastify.models.Card.aggregate([
-        { $match: { rarity: 'legendary' } },
+        { $match: { rarity: 'legendary', status: 'active' } },
         { $sample: { size: boosterItem.legendaryCardGuarantee } }
       ]);
       cards.push(...legendaryCards.map(card => card._id.toString()));
@@ -35,13 +35,14 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
     }
     if (boosterItem.epicCardGuarantee > 0 && remainingCards > 0) {
       const epicCards = await fastify.models.Card.aggregate([
-        { $match: { rarity: 'epic' } },
+        { $match: { rarity: 'epic', status: 'active' } },
         { $sample: { size: boosterItem.epicCardGuarantee } }
       ]);
       cards.push(...epicCards.map(card => card._id.toString()));
       remainingCards -= boosterItem.epicCardGuarantee;
     }
     const randomCards = await fastify.models.Card.aggregate([
+      { $match: { status: 'active' } },
       { $sample: { size: remainingCards } }
     ]);
     if (randomCards.length > 0) {
