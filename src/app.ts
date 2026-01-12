@@ -95,6 +95,18 @@ const app: FastifyPluginAsync<AppOptions> = async (
     'acs-v2'
   );
 
+// Test du store
+  mongoStore.set('test-session', { test: true, cookie: { expires: new Date(Date.now() + 60000) } }, (err) => {
+    if (err) console.error('Store SET error:', err);
+    else {
+      mongoStore.get('test-session', (err, session) => {
+        console.log('Store GET result:', err, session);
+        mongoStore.destroy('test-session', () => {});
+      });
+    }
+  });
+
+
   fastify.register(fastifySession, {
     cookieName: 'acs.sid',
     secret: process.env.SESSION_SECRET || 'supersecretsupersecretsupersecretsupersecret',
