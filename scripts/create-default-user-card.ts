@@ -2,25 +2,13 @@ import * as dotenv from 'dotenv';
 import {IUser} from "../src/models/User";
 import mongoose from "mongoose";
 import {ITournament} from "../src/models/Tournament";
+import {ICard} from "../src/models/Card";
+import {fetchImageAsBase64} from "../src/utils/utils";
 
 dotenv.config({ path: '.env' });
 
 const dbUri = process.env.NEW_MONGODB_URI || 'mongodb://localhost:27017/acs-v2';
 const db = mongoose.createConnection(dbUri);
-
-const fetchImageAsBase64 = async (url: string): Promise<{ base64: string; mimeType: string }> => {
-  const res = await fetch(url);
-
-  if (!res.ok) {
-    throw new Error(`Failed to fetch image: ${res.status} ${res.statusText}`);
-  }
-
-  const arrayBuffer = await res.arrayBuffer();
-  const base64 = Buffer.from(arrayBuffer).toString('base64');
-  const mimeType = res.headers.get('content-type') ?? 'application/octet-stream';
-
-  return { base64, mimeType };
-};
 
 const createCardPayload = async (user: IUser) => {
 
@@ -100,26 +88,39 @@ const startCreations = async () => {
     console.log('Connected to MongoDB');
 
     const UserModel = mongoose.model<IUser>('User', new mongoose.Schema({}, { strict: false }));
+    const CardModel = mongoose.model<ICard>('Card', new mongoose.Schema({}, { strict: false }));
 
-    const users = await UserModel.find({ isDefaultCardCreated: { $ne: true } }).exec();
-    console.log(`Found ${users.length} users without default card.`);
+    const users = await UserModel.find().exec();
+    const categoryObjectId = new mongoose.Types.ObjectId('6957eb47cd0cfd4a74cbcc06');
+    const cards = await CardModel.find({ categoryId: categoryObjectId }).exec();
+
 
     for (const user of users) {
       try {
         const cardPayload = await createCardPayload(user);
-        console.log(`Creating default card for user: ${user.username}`);
 
-        await mongoose.connection.db!.collection('cards').insertOne({
-          ...cardPayload,
-          createdAt: new Date(),
-          updatedAt: new Date(),
-          createdBy: new mongoose.Types.ObjectId('67dc214e5e31992fcc4f7da8'),
-          status: 'active'
-        });
+        if (cards.some(c => c.title === user.username)) {
+          await mongoose.connection.db!.collection('cards').updateOne(
+            { title: user.username },
+            {
+              $set: {
+                ...cardPayload,
+                updatedAt: new Date(),
+              }
+            }
+          );
+          console.log(`Default card updated for user: ${user.username}`);
+        } else {
+          await mongoose.connection.db!.collection('cards').insertOne({
+            ...cardPayload,
+            createdAt: new Date(),
+            updatedAt: new Date(),
+            createdBy: new mongoose.Types.ObjectId('67dc214e5e31992fcc4f7da8'),
+            status: 'active'
+          });
+          console.log(`Default card created for user: ${user.username}`);
+        }
 
-        await UserModel.updateOne({ _id: user._id }, { $set: { isDefaultCardCreated: true } }).exec();
-
-        console.log(`Default card created for user: ${user.username}`);
       } catch (err) {
         console.error(`Error creating card for user ${user.username}:`, err);
       }

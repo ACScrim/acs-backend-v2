@@ -11,6 +11,7 @@ import path, { join } from 'node:path'
 import { startUpdateDiscordAvatarsCron } from './crons/updateDiscordAvatars'
 import {startTournamentRemindersCron} from "./crons/tournamentReminders";
 import {startDailyQuizCron} from "./crons/dailyQuiz";
+import {startUpdateAcsersCardCron} from "./crons/updateAcsersCard";
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -169,6 +170,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
       await startUpdateDiscordAvatarsCron(fastify);
       await startTournamentRemindersCron(fastify);
       await startDailyQuizCron(fastify);
+      await startUpdateAcsersCardCron(fastify);
     })
 }
 

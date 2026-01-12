@@ -17,8 +17,23 @@ export const log = (req: FastifyRequest | FastifyInstance, message: string, leve
       url: req.url,
       body: req.body,
       statusCode: status,
+      // @ts-ignore
       user: req.user || req.session?.userId || 'anonymous'
     });
   }
   req.log.level = 'silent';
 }
+
+export const fetchImageAsBase64 = async (url: string): Promise<{ base64: string; mimeType: string }> => {
+  const res = await fetch(url);
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch image: ${res.status} ${res.statusText}`);
+  }
+
+  const arrayBuffer = await res.arrayBuffer();
+  const base64 = Buffer.from(arrayBuffer).toString('base64');
+  const mimeType = res.headers.get('content-type') ?? 'application/octet-stream';
+
+  return { base64, mimeType };
+};
