@@ -100,7 +100,6 @@ const app: FastifyPluginAsync<AppOptions> = async (
     'acs-v2'
   );
 
-
   fastify.register(fastifySession, {
     cookieName: 'acs.sid',
     secret: process.env.SESSION_SECRET || 'supersecretsupersecretsupersecretsupersecret',
@@ -116,20 +115,6 @@ const app: FastifyPluginAsync<AppOptions> = async (
     rolling: true,
     store: mongoStore
   })
-
-  fastify.addHook('preHandler', async (request) => {
-    if (request.url.includes('/auth/discord')) {
-      const cookies = request.headers.cookie || '';
-      const oauthStateCookie = cookies.split(';').find(c => c.trim().startsWith('oauth2-redirect-state'));
-      log(fastify, JSON.stringify({
-        action: request.url.includes('callback') ? 'callback' : 'start',
-        url: request.url,
-        queryState: (request.query as any).state,
-        oauthStateCookie: oauthStateCookie?.trim(),
-        allCookies: cookies
-      }), 'info');
-    }
-  });
 
   // Discord Oauth2
   fastify.register(oauthPlugin, {
