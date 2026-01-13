@@ -62,7 +62,9 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
         }
       });
       const discordUser = await userResponse.json() as DiscordUser;
-      const discordMember = await fastify.discord.users.fetch(discordUser.id);
+
+      // IMPORTANT: ne pas dépendre du client bot Discord ici (ça peut échouer/être lent,
+      // et ce n'est pas requis pour créer la session app).
 
       let user = await fastify.models.User.findOne({ discordId: discordUser.id }).exec();
       if (user) {
@@ -70,8 +72,8 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
           { discordId: discordUser.id },
           {
             email: discordUser.email,
-            username: discordMember.displayName || discordMember.globalName || discordUser.username,
-            avatarUrl: discordMember.avatarURL({ size: 64, extension: 'webp' }) || undefined,
+            username: discordUser.global_name || discordUser.username,
+            avatarUrl: discordUser.avatar ? `https://cdn.discordapp.com/avatars/${discordUser.id}/${discordUser.avatar}.png` : undefined,
           }
         );
       } else {
@@ -87,8 +89,15 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       req.session.authenticated = true;
       await req.session.save();
 
-      // Si on est déjà membre, on authentifie et on renvoie à l'accueil (plus besoin de verify-membership)
-      return res.redirect(`${FRONTEND_URL}/`);
+      // Sur mobile/PWA, la session peut ne pas être visible immédiatement côté front.
+      // On redirige vers la page de vérification qui fera un check et redirigera ensuite.
+      const vmToken = fastify.jwt.sign(
+        { purpose: 'discord_verify_membership', access_token },
+        { expiresIn: '10m' }
+      );
+      return res.redirect(
+        `${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}&vmToken=${encodeURIComponent(vmToken)}`
+      );
     } catch (error) {
       log(fastify, `Erreur lors de l'authentification Discord : ${error}`, 'error');
       return res.status(500).send({ error: 'Authentication failed' });
