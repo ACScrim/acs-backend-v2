@@ -9,7 +9,7 @@ import {
   Collection,
   ColorResolvable,
   EmbedBuilder,
-  EmbedField,
+  EmbedField, ForumChannel,
   MessageActionRowComponentBuilder,
   StringSelectMenuBuilder,
   TextChannel
@@ -26,13 +26,15 @@ class DiscordService {
   private categoryParentId: string;
   private archiveCategoryId: string;
   private fastify: FastifyInstance;
+  private threadAcsChannelId: string;
 
-  constructor(client: Client, fastify: FastifyInstance, guildId = process.env.DISCORD_GUILD_ID || '', categoryParentId = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '', archiveCategoryId = process.env.DISCORD_ARCHIVE_CATEGORY_ID || '') {
+  constructor(client: Client, fastify: FastifyInstance, guildId = process.env.DISCORD_GUILD_ID || '', categoryParentId = process.env.DISCORD_CATEGORY_PARENT_ACS_ID || '', archiveCategoryId = process.env.DISCORD_ARCHIVE_CATEGORY_ID || '', threadAcsChannelId = process.env.DISCORD_THREAD_ACS_CHANNEL_ID || '') {
     this.client = client;
     this.guildId = guildId;
     this.categoryParentId = categoryParentId;
     this.archiveCategoryId = archiveCategoryId;
     this.fastify = fastify;
+    this.threadAcsChannelId = threadAcsChannelId;
   }
 
   private buildEmbedMessage(data: { title?: string; description?: string; color?: ColorResolvable, image?: string, fields?: EmbedField[] } = {}) {
@@ -129,18 +131,19 @@ class DiscordService {
     }
   };
 
-  public async createTournament(tournament: ITournament & { game: IGame }): Promise<string | undefined> {
+  public async createTournament(tournament: ITournament & { game: IGame }): Promise<string | null> {
     // Find channel
     const channelId = await this.findOrCreateTextChannel(tournament.discordChannelName);
     const guild = await this.client.guilds.fetch(this.guildId);
     const channel = guild.channels.cache.get(channelId);
-    let messageId: string | undefined = undefined;
+    let messageId: string | null = await this.createThreadTournamentPost(tournament);
     // Send message
-    if (channel && channel.isTextBased()) {
-      const embedMessage = this.buildTournamentMessage(tournament);
-      const message = await channel.send({ embeds: [embedMessage] });
-      messageId = message.id;
-    }
+    // if (channel && channel.isTextBased()) {
+    //   const embedMessage = this.buildTournamentMessage(tournament);
+    //   const message = await channel.send({ embeds: [embedMessage] });
+    //   messageId = message.id;
+    // }
+    // await this.createThreadTournamentPost(tournament)
     await guild.scheduledEvents.create({
       name: tournament.name,
       scheduledStartTime: tournament.date,
@@ -161,11 +164,30 @@ class DiscordService {
     return messageId;
   }
 
+  public async createThreadTournamentPost(tournament: ITournament & { game: IGame }): Promise<string | null> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const forum = await guild.channels.fetch(this.threadAcsChannelId);
+    if (!forum || forum.type !== ChannelType.GuildForum) {
+      throw new Error("Le salon forum n'a pas été trouvé ou n'est pas un salon forum.");
+    }
+
+    const created = await (forum as ForumChannel).threads.create({
+      name: tournament.name,
+      message: {
+        content: `||@everyone||\n\n`,
+        embeds: [this.buildTournamentMessage(tournament)]
+      }
+    })
+
+    return created.lastMessageId;
+  }
+
   public async updateTournamentMessage(tournament: ITournament & { game: IGame }): Promise<void> {
     const guild = await this.client.guilds.fetch(this.guildId);
-    const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
-    if (channel && channel.isTextBased() && tournament.messageId) {
-      const message = await channel.messages.fetch(tournament.messageId);
+    const channel = await guild.channels.fetch(this.threadAcsChannelId);
+    if (channel && tournament.messageId) {
+      const thread = await (channel as ForumChannel).threads.fetchActive();
+      const message = thread.threads.find(t => t.name === tournament.name)?.messages.cache.find(t => t.id === tournament.messageId)
       if (message) {
         const embedMessage = this.buildTournamentMessage(tournament);
         await message.edit({ embeds: [embedMessage] });
@@ -175,12 +197,18 @@ class DiscordService {
 
   public async closeTournament(tournament: ITournament & { game: IGame }): Promise<void> {
     const guild = await this.client.guilds.fetch(this.guildId);
-    const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+    const channel = await guild.channels.fetch(this.threadAcsChannelId);
     if (channel) {
-      const categoryChannel = guild.channels.cache.get(this.archiveCategoryId);
-        if (categoryChannel && categoryChannel instanceof CategoryChannel && channel instanceof TextChannel) {
-            await channel.setParent(categoryChannel);
-        }
+      // const categoryChannel = guild.channels.cache.get(this.archiveCategoryId);
+      //   if (categoryChannel && categoryChannel instanceof CategoryChannel && channel instanceof TextChannel) {
+      //       await channel.setParent(categoryChannel);
+      //   }
+      const thread = await (channel as ForumChannel).threads.fetchActive();
+      const tournamentThread = thread.threads.find(t => t.name === tournament.name);
+      if (tournamentThread) {
+        await tournamentThread.setLocked(true);
+        await tournamentThread.setArchived(true, 'Tournoi terminé');
+      }
     }
     const role = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`)
     if (role) {
@@ -304,15 +332,23 @@ class DiscordService {
   public async sendTournamentReminder(tournament: ITournament & { game: IGame }): Promise<void> {
     try {
       const guild = await this.client.guilds.fetch(this.guildId);
-      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+      const channel = await guild.channels.fetch(this.threadAcsChannelId) as ForumChannel;
 
-      if (!channel || !channel.isTextBased()) {
+      if (!channel) {
         console.error('Tournament channel not found');
         return;
       }
       const tournamentRole = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
       const roleMention = tournamentRole ? `<@&${tournamentRole.id}>` : '';
-      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})`);
+
+      const tournamentThread = (await channel.threads.fetchActive()).threads.find(t => t.name === tournament.name);
+
+      if (!tournamentThread) {
+        console.error('Tournament thread not found');
+        return;
+      }
+
+      await tournamentThread.send({ content: `${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})` });
     } catch (error) {
       console.error('Erreur lors de l\'envoi du rappel Discord:', error);
     }
@@ -351,9 +387,9 @@ class DiscordService {
   public async announceTournamentResults(tournament: ITournament & { game: IGame }): Promise<void> {
     try {
       const guild = await this.client.guilds.fetch(this.guildId);
-      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+      const channel = guild.channels.cache.find(c => c.id === this.threadAcsChannelId);
 
-      if (!channel || !channel.isTextBased()) {
+      if (!channel) {
         console.error('Tournament channel not found');
         return;
       }
@@ -379,12 +415,21 @@ class DiscordService {
         .setColor('Random')
         .setTimestamp(new Date());
 
-      await channel.send({
+      console.log((channel as ForumChannel).threads)
+      const thread = await (channel as ForumChannel).threads.fetchActive();
+      const tournamentThread = thread.threads.find(t => t.name === tournament.name);
+
+      if (!tournamentThread) {
+        console.error('Tournament thread not found');
+        return;
+      }
+
+      await tournamentThread.send({
         content: `🏆 **Le tournoi ${tournament.name} est terminé !**`,
         embeds: [embed]
       });
 
-      await channel.send({
+      await tournamentThread.send({
         content: `Le vote MVP est ouvert ! Votez pour le joueur qui vous a le plus impressionné durant ce tournoi sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id}) ou ci-dessous !`,
         components: [
           new ActionRowBuilder<MessageActionRowComponentBuilder>()

@@ -47,7 +47,7 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
                 entry.tournamentsCount += 1;
                 entry.victoriesCount += team.ranking === 1 ? 1 : 0;
                 entry.top25Count += (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0;
-                entry.points = entry.victoriesCount * 3 + entry.top25Count * 1;
+                entry.points = entry.victoriesCount * 3 + entry.top25Count;
               } else {
                 leaderboard.push({
                   ranking: 0,
