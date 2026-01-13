@@ -54,8 +54,8 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
                   user: user,
                   tournamentsCount: 1,
                   victoriesCount: team.ranking === 1 ? 1 : 0,
-                  top25Count: (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0,
-                  points: team.ranking === 1 ? 3 : (team.ranking !== 1 && team.ranking <= (tournament.teams.length / 4)) ? 1 : 0
+                  top25Count: isRankingCountedAsPodium(team.ranking, tournament.teams.length) ? 1 : 0,
+                  points: team.ranking === 1 ? 3 : isRankingCountedAsPodium(team.ranking, tournament.teams.length) ? 1 : 0
                 });
               }
             });
