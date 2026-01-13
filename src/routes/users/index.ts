@@ -77,6 +77,25 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
         return seasons.find(season => season.tournaments.includes(tournament._id as any));
       });
 
+      const longuestWinStreak = (() => {
+        let maxStreak = 0;
+        let currentStreak = 0;
+
+        for (const tournament of filteredTournamentHistory) {
+          const userTeam = tournament.teams.find(team => team.users.includes(userId as any));
+          if (userTeam && userTeam.ranking === 1) {
+            currentStreak++;
+            if (currentStreak > maxStreak) {
+              maxStreak = currentStreak;
+            }
+          } else {
+            currentStreak = 0;
+          }
+        }
+
+        return maxStreak;
+      })();
+
       const finalResponse = {
         ...user.toJSON(),
         tournamentHistory,
@@ -86,7 +105,8 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
           secondPlaceCount: filteredTournamentHistory.filter(t => t.teams.find(team => team.ranking === 2 && team.users.includes(userId as any))).length,
           thirdPlaceCount: filteredTournamentHistory.filter(t => t.teams.find(team => team.ranking === 3 && team.users.includes(userId as any))).length,
           top25Count: filteredTournamentHistory.filter(t => t.teams.find(team => team.ranking !== 1 && team.ranking <= (t.teams.length / 4) && team.users.includes(userId as any))).length,
-          tournamentsCount: filteredTournamentHistory.length
+          tournamentsCount: filteredTournamentHistory.length,
+          longuestWinStreak: longuestWinStreak
         },
         perGameStats: filteredTournamentHistory.reduce((acc, tournament) => {
           const game = tournament.game as IGame;
