@@ -40,10 +40,20 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       });
 
       if (!memberResponse.ok || memberResponse.status >= 400) {
+        // Fallback mobile : on génère un token court, signé, pour permettre la vérification
+        // même si la session cookie est perdue (F5, ITP, webview, etc.).
+        const vmToken = fastify.jwt.sign(
+          { purpose: 'discord_verify_membership', access_token },
+          { expiresIn: '10m' }
+        );
+
+        // On garde aussi la session si elle existe, pour compat.
         req.session.discord_temp_token = access_token;
         await req.session.save();
 
-        return res.redirect(`${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}`);
+        return res.redirect(
+          `${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}&vmToken=${encodeURIComponent(vmToken)}`
+        );
       }
 
       const userResponse = await fetch('https://discord.com/api/v10/users/@me', {
@@ -77,7 +87,8 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       req.session.authenticated = true;
       await req.session.save();
 
-      return res.redirect(`${FRONTEND_URL}/verify-membership?invite=${encodeURIComponent(DISCORD_INVITE_URL)}`);
+      // Si on est déjà membre, on authentifie et on renvoie à l'accueil (plus besoin de verify-membership)
+      return res.redirect(`${FRONTEND_URL}/`);
     } catch (error) {
       log(fastify, `Erreur lors de l'authentification Discord : ${error}`, 'error');
       return res.status(500).send({ error: 'Authentication failed' });

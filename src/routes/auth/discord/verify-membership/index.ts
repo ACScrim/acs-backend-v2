@@ -11,12 +11,31 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
    */
   fastify.post('/', async (req, res) => {
     try {
-      // @ts-ignore
-      const tempToken = req.session.discord_temp_token;
       const userId = req.session.userId;
-
       if (userId) {
         return res.status(200).send({ message: 'User already authenticated' });
+      }
+
+      const body = (req.body || {}) as { vmToken?: string };
+
+      let tempToken: string | undefined;
+
+      // 1) Nouveau chemin recommandé : token de vérification signé (ne dépend pas des cookies)
+      if (body.vmToken) {
+        try {
+          const payload = fastify.jwt.verify(body.vmToken) as any;
+          if (payload?.purpose === 'discord_verify_membership' && typeof payload?.access_token === 'string') {
+            tempToken = payload.access_token;
+          }
+        } catch {
+          return res.status(401).send({ error: 'Invalid or expired verification token' });
+        }
+      }
+
+      // 2) Fallback : session (ancien comportement)
+      if (!tempToken) {
+        // @ts-ignore
+        tempToken = req.session.discord_temp_token;
       }
 
       if (!tempToken) {
@@ -64,7 +83,8 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
         });
       }
 
-      // Nettoyer le token temporaire de la session
+      // Nettoyer le token temporaire de la session (si présent)
+      // @ts-ignore
       delete req.session.discord_temp_token;
 
       // Créer la session authentifiée
