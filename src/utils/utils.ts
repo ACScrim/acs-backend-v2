@@ -37,3 +37,14 @@ export const fetchImageAsBase64 = async (url: string): Promise<{ base64: string;
 
   return { base64, mimeType };
 };
+
+export const isRankingCountedAsPodium = (rank: number, totalTeams: number): boolean => {
+  if (rank === 1) return false;
+  if (totalTeams >= 4) {
+    return rank <= 3;
+  }
+  else if (totalTeams === 3) {
+    return rank <= 2;
+  }
+  return false;
+}

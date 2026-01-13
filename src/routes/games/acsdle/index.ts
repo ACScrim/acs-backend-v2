@@ -5,18 +5,21 @@ import {IGame} from "../../../models/Game";
 import {IUser} from "../../../models/User";
 import * as crypto from "node:crypto";
 import {IAcsdle, IAcsdleCompletion, IAcsdleUser} from "../../../models/Acsdle";
-import { log } from "../../../utils/utils";
+import {isRankingCountedAsPodium, log} from "../../../utils/utils";
 
 const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<IAcsdleUser> => {
   const userId = user._id?.toString() ?? user.id;
   const tournamentsPlayed = await fastify.models.Tournament.find({ 'players.user': userId, 'finished': true }) as ITournament[];
   const victories = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking === 1 && (team.users as any).includes(userId))).length;
-  const top25Finishes = tournamentsPlayed.filter(t => t.teams.some(team => team.ranking <= (t.teams.length / 4) && (team.users as any).includes(userId))).length;
+  const podiumCount = tournamentsPlayed.filter(t => t.teams.some(team => isRankingCountedAsPodium(team.ranking, t.teams.length) && (team.users as any).includes(userId))).length;
   const gameCounts = tournamentsPlayed.reduce((acc, t) => {
     const id = t.gameId.toString();
     acc[id] = (acc[id] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
+  const firstTournament: ITournament = tournamentsPlayed.reduce((earliest, current) => {
+    return (!earliest || new Date(current.date) < new Date(earliest.date)) ? current : earliest;
+  }, null as any);
 
   const mostPlayedGameIds = (() => {
     const entries = Object.entries(gameCounts);
@@ -35,10 +38,10 @@ const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<I
   return {
     id: userId,
     username: user.username,
-    createdAt: user.createdAt,
+    firstTournament: firstTournament ? firstTournament.name : null,
     tournamentsPlayed: tournamentsPlayed.length,
     victories,
-    top25Finishes,
+    podiumCount,
     mostPlayedGames
   };
 };
@@ -64,7 +67,7 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     for (const user of users.values()) {
       acsdleUsers.push(await buildAcsdleUser(fastify, user));
     }
-    return acsdleUsers.filter(u => u.tournamentsPlayed > 0);
+    return acsdleUsers.filter(u => u.tournamentsPlayed > 0 && u.firstTournament);
   });
 
   fastify.get("/daily", { preHandler: [authGuard] }, async (request, reply) => {

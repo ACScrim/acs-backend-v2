@@ -3,10 +3,10 @@ import mongoose from "mongoose";
 export interface IAcsdleUser {
   id: string;
   username: string;
-  createdAt: Date;
+  firstTournament: string | null;
   tournamentsPlayed: number;
   victories: number;
-  top25Finishes: number;
+  podiumCount: number;
   mostPlayedGames: string[];
 }
 
@@ -33,10 +33,10 @@ const AcsdleSchema = new mongoose.Schema<IAcsdle>({
     attempts: [{
       id: String,
       username: String,
-      createdAt: Date,
+      firstTournament: String,
       tournamentsPlayed: Number,
       victories: Number,
-      top25Finishes: Number,
+      podiumCount: Number,
       mostPlayedGames: [{ type: String }]
     }],
     won: { type: Boolean, required: true },
