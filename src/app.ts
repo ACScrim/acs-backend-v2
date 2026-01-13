@@ -65,13 +65,19 @@ const app: FastifyPluginAsync<AppOptions> = async (
   // CORS
   fastify.register(fastifyCors, {
     origin: (origin, cb) => {
-      const allowedOrigins = (process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173' || 'https://v2.acscrim.fr').split(',');
-      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-        // Request from allowed origin
-        cb(null, true)
+      const rawAllowed = process.env.CORS_ALLOWED_ORIGINS || 'http://localhost:5173,https://v2.acscrim.fr';
+      const allowedOrigins = rawAllowed
+        .split(',')
+        .map(o => o.trim())
+        .filter(Boolean);
+
+      const normalizedOrigin = origin?.endsWith('/') ? origin.slice(0, -1) : origin;
+      const isAllowed = !normalizedOrigin || allowedOrigins.includes(normalizedOrigin);
+
+      if (isAllowed) {
+        cb(null, true);
       } else {
-        // Request from disallowed origin
-        cb(new Error("Not allowed"), false)
+        cb(new Error('Not allowed'), false);
       }
     },
     credentials: true,
@@ -111,7 +117,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
     store: mongoStore
   })
 
-  fastify.addHook('preHandler', async (request, reply) => {
+  fastify.addHook('preHandler', async (request) => {
     if (request.url.includes('/auth/discord')) {
       const cookies = request.headers.cookie || '';
       const oauthStateCookie = cookies.split(';').find(c => c.trim().startsWith('oauth2-redirect-state'));
@@ -196,4 +202,3 @@ const app: FastifyPluginAsync<AppOptions> = async (
 
 export default app
 export { app, options }
-
