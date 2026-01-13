@@ -61,7 +61,7 @@ class DiscordService {
 
     return this.buildEmbedMessage({
       title: `:pencil: Inscriptions: ${tournament.name}`,
-      description: `Le tournoi aura lieu le **${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}**.\n\nPour vous inscrire, rendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})`,
+      description: `Le tournoi aura lieu le **${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}**.\n\nPour vous inscrire, rendez-vous sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`,
       color: "Random",
       fields
     });
@@ -149,7 +149,7 @@ class DiscordService {
       entityType: 3, // External
       channel: tournament.discordChannelName,
       entityMetadata: {
-        location: `https://acsrim.fr/tournaments/${tournament.id}`
+        location: `https://acscrim.fr/tournaments/${tournament.id}`
       },
       description: tournament.name
     });
@@ -312,7 +312,7 @@ class DiscordService {
       }
       const tournamentRole = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
       const roleMention = tournamentRole ? `<@&${tournamentRole.id}>` : '';
-      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acsrim.fr](https://acsrim.fr/tournaments/${tournament.id})`);
+      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`);
     } catch (error) {
       console.error('Erreur lors de l\'envoi du rappel Discord:', error);
     }
@@ -334,7 +334,7 @@ class DiscordService {
                   `Le tournoi **${tournament.game.name}** commence très bientôt !\n\n` +
                   `📅 **Date :** ${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}\n` +
                   `📋 N'oublie pas de faire ton check-in avant le début du tournoi !\n\n` +
-                  `[acscrim.fr](https://acsrim.fr/tournaments/${tournament.id})`;
+                  `[acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`;
 
               await discordUser.send(reminderMessage);
             }
