@@ -41,13 +41,81 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       cards.push(...epicCards.map(card => card._id.toString()));
       remainingCards -= boosterItem.epicCardGuarantee;
     }
+
+    const remainingCardsToFetch: { rarity: string; count: number }[] = [];
+    const rarities = [
+      { rarity: 'legendary', rate: 0.01 },
+      { rarity: 'epic', rate: 0.04 },
+      { rarity: 'rare', rate: 0.07 },
+      { rarity: 'uncommon', rate: 0.12 },
+      { rarity: 'common', rate: 0.76 }
+    ];
+
+    // Tirer chaque carte indépendamment selon les taux
+    for (let i = 0; i < remainingCards; i++) {
+      const random = Math.random();
+      let cumulativeRate = 0;
+
+      for (const { rarity, rate } of rarities) {
+        cumulativeRate += rate;
+        if (random <= cumulativeRate) {
+          const existing = remainingCardsToFetch.find(r => r.rarity === rarity);
+          if (existing) {
+            existing.count++;
+          } else {
+            remainingCardsToFetch.push({ rarity, count: 1 });
+          }
+          break
+        }
+      }
+    }
+
     const randomCards = await fastify.models.Card.aggregate([
-      { $match: { status: 'active' } },
-      { $sample: { size: remainingCards } }
+      {
+        $facet: {
+          legendary: [
+            { $match: { rarity: 'legendary', status: 'active' } },
+            { $sample: { size: remainingCardsToFetch.find(r => r.rarity === 'legendary')?.count || 0 } }
+          ],
+          epic: [
+            { $match: { rarity: 'epic', status: 'active' } },
+            { $sample: { size: remainingCardsToFetch.find(r => r.rarity === 'epic')?.count || 0 } }
+          ],
+          rare: [
+            { $match: { rarity: 'rare', status: 'active' } },
+            { $sample: { size: remainingCardsToFetch.find(r => r.rarity === 'rare')?.count || 0 } }
+          ],
+          uncommon: [
+            { $match: { rarity: 'uncommon', status: 'active' } },
+            { $sample: { size: remainingCardsToFetch.find(r => r.rarity === 'uncommon')?.count || 0 } }
+          ],
+          common: [
+            { $match: { rarity: 'common', status: 'active' } },
+            { $sample: { size: remainingCardsToFetch.find(r => r.rarity === 'common')?.count || 0 } }
+          ]
+        }
+      }
     ]);
-    if (randomCards.length > 0) {
-      cards.push(...randomCards.map(card => card._id.toString()));
-      remainingCards--;
+
+    const allRandomCards = [
+      ...randomCards[0].legendary,
+      ...randomCards[0].epic,
+      ...randomCards[0].rare,
+      ...randomCards[0].uncommon,
+      ...randomCards[0].common
+    ];
+
+    const cardsNeeded = remainingCards - allRandomCards.length;
+    if (cardsNeeded > 0) {
+      const fallbackCards = await fastify.models.Card.aggregate([
+        { $match: { rarity: 'common', status: 'active' } },
+        { $sample: { size: cardsNeeded } }
+      ]);
+      allRandomCards.push(...fallbackCards);
+    }
+
+    if (allRandomCards.length > 0) {
+      cards.push(...allRandomCards.map(card => card._id.toString()));
     }
 
     const booster = new fastify.models.Booster({
