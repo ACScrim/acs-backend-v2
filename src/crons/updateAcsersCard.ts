@@ -82,7 +82,21 @@ export const startUpdateAcsersCardCron = async (fastify: FastifyInstance) => {
       const categoryObjectId = new mongoose.Types.ObjectId('6957eb47cd0cfd4a74cbcc06');
       const cards = await fastify.models.Card.find({ categoryId: categoryObjectId }).exec();
 
-      for (const user of users) {
+      const tournamentsPlayedByUser = await fastify.models.Tournament.aggregate([
+        { $match: { finished: true } },
+        { $unwind: "$players" },
+        { $group: { _id: "$players.user", count: { $sum: 1 } } }
+      ]);
+
+      const userTournamentCountMap = tournamentsPlayedByUser.reduce((acc, curr) => {
+        acc[curr._id.toString()] = curr.count;
+        return acc;
+      }, {} as Record<string, number>);
+
+      // Filter users who have played at least three tournament
+      const filteredUsers = users.filter(user => userTournamentCountMap[user._id.toString()] && userTournamentCountMap[user._id.toString()] >= 3);
+
+      for (const user of filteredUsers) {
         try {
           const cardPayload = await createCardPayload(user, fastify);
 
@@ -104,6 +118,7 @@ export const startUpdateAcsersCardCron = async (fastify: FastifyInstance) => {
               categoryId: categoryObjectId,
               createdAt: new Date(),
               updatedAt: new Date(),
+              createdBy: new mongoose.Types.ObjectId('67dc214e5e31992fcc4f7da8'),
             });
             log(fastify, `Carte par défaut créée pour l'utilisateur : ${user.username}`, 'info');
           }

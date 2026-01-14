@@ -91,6 +91,11 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
     await booster.populate('booster');
 
     userScrimium.balance -= boosterItem.price;
+    userScrimium.transactions.push({
+      amount: -boosterItem.price,
+      description: `buy_booster`,
+      date: new Date(),
+    })
     await userScrimium.save();
 
     return booster;

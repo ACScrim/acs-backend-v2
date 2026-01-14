@@ -379,9 +379,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
             $inc: { balance: -body.amount },
             $push: {
               transactions: {
-                amount: body.amount,
+                amount: -body.amount,
                 date: new Date(),
-                description: `Pari de ${body.amount} sur le match ${body.challongeMatchId} du tournoi ${tournament.name}`
+                description: `match_${body.challongeMatchId}_prediction`
               }
             }
           }
@@ -439,7 +439,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
                   transactions: {
                     amount: winnings,
                     date: new Date(),
-                    description: `Gains du pari de ${winnings} sur le match ${bet.challongeMatchId} du tournoi ${tournament.name}`
+                    description: `winnings_${bet.challongeMatchId}_predictoin`
                   }
                 }
               }
@@ -498,7 +498,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
             transactions: {
               amount: bet.amount,
               date: new Date(),
-              description: `Annulation du pari de ${bet.amount} sur le match ${bet.challongeMatchId} du tournoi ${tournament.name}`
+              description: `cancel_${bet.challongeMatchId}_prediction`
             }
           }
         }

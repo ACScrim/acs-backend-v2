@@ -79,13 +79,13 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
 
     if (!todayAcsdleUserId) {
       do {
-        const randomUser = await fastify.models.User.aggregate([{$sample: {size: 1}}]) as IUser[];
+        const randomUser = await fastify.models.User.aggregate([{$sample: { size: 1 }}]) as IUser[];
         if (randomUser.length === 0) {
           log(fastify, "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour", 'error', 404);
           return reply.status(404).send({error: "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour"});
         }
       acsdleUser = await buildAcsdleUser(fastify, randomUser[0]);
-      } while (acsdleUser.tournamentsPlayed === 0);
+      } while (acsdleUser.tournamentsPlayed <= 3);
       await fastify.models.Acsdle.create({ userId: acsdleUser.id, date: today, completions: [] });
     } else {
       const user = (await fastify.models.User.findById(todayAcsdleUserId)) as IUser;
