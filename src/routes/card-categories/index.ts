@@ -1,7 +1,6 @@
-import { FastifyInstance } from 'fastify';
-import { authGuard } from '../../middleware/authGuard';
-import type { ICardCategory } from '../../models/CardCategory';
-import { log } from '../../utils/utils';
+import {FastifyInstance} from 'fastify';
+import {authGuard} from '../../middleware/authGuard';
+import {log} from '../../utils/utils';
 
 export default async function cardCategoryRoutes(fastify: FastifyInstance) {
   // Créer une nouvelle catégorie
@@ -39,7 +38,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
         return reply.status(401).send({ error: 'Non authentifié' });
       }
 
-      const categories = await fastify.models.CardCategory.find({ createdBy: userId, private: false })
+      const categories = await fastify.models.CardCategory.find({ $or: [{ private: false }, { private: { $exists: false }}] })
         .sort({ createdAt: -1 });
 
       return categories;
