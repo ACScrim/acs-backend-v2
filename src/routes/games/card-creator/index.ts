@@ -38,7 +38,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   fastify.get("/assets", { preHandler: [authGuard] }, async (req, resp) => {
-    const assets = await fastify.models.CardAsset.find({ createdBy: req.session.userId })
+    const assets = await fastify.models.CardAsset.find({})
       .populate('createdBy', 'id username avatarUrl');
 
     return assets;
@@ -51,7 +51,6 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
   fastify.get("/assets/backgrounds", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({
-      createdBy: req.session.userId,
       category: 'background'
     }).populate('createdBy', 'id username avatarUrl');
 
@@ -60,7 +59,6 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
   fastify.get("/assets/borders", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({
-      createdBy: req.session.userId,
       category: 'border'
     }).populate('createdBy', 'id username avatarUrl');
 
