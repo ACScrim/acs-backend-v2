@@ -136,6 +136,15 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       cards.push(...allRandomCards.map(card => card._id.toString()));
     }
 
+    // Récupérer la collection de cartes AVANT la mise à jour pour connaître les possessions actuelles
+    const cardCollection = await fastify.models.CardCollection.findOne({ userId: req.session.userId }) as ICardCollection;
+    const cardCountMap = new Map<string, number>();
+    if (cardCollection) {
+      for (const cardEntry of cardCollection.cards) {
+        cardCountMap.set(cardEntry.cardId.toString(), cardEntry.count);
+      }
+    }
+
     const booster = new fastify.models.Booster({
       userId: req.session.userId,
       cards,
@@ -155,7 +164,6 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
       }
     }
 
-    const cardCollection = await fastify.models.CardCollection.findOne({ userId: req.session.userId }) as ICardCollection;
     if (cardCollection) {
       for (const cardEntry of cardsToPush) {
         const existingCard = cardCollection.cards.find(c => c.cardId.toString() === cardEntry.cardId.toString());
@@ -176,6 +184,14 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
     await booster.populate({ path: 'cards', populate: [{ path: 'frontAsset' }, { path: 'borderAsset' }, { path: 'category'}] });
     await booster.populate('booster');
 
+    // Enrichir chaque carte avec le nombre de fois déjà possédée et un flag pour les nouvelles cartes
+    const enrichedBooster = booster.toJSON() as any;
+    enrichedBooster.cards = enrichedBooster.cards.map((card: any) => ({
+      ...card,
+      ownedCount: cardCountMap.get(card.id.toString()) || 0,
+      isNew: !cardCountMap.has(card.id.toString())
+    }));
+
     userScrimium.balance -= boosterItem.price;
     userScrimium.transactions.push({
       amount: -boosterItem.price,
@@ -184,7 +200,7 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
     })
     await userScrimium.save();
 
-    return booster;
+    return enrichedBooster;
   })
 }
 
