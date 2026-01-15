@@ -8,8 +8,7 @@ export interface ICardAsset {
   color2?: string;
   angle?: number;
   solidColor?: string;
-  imageBase64?: string;
-  imageMimeType?: string;
+  imageUrl?: string;
   createdBy: mongoose.Schema.Types.ObjectId;
 }
 
@@ -30,8 +29,7 @@ const cardAssetSchema = new mongoose.Schema<ICardAsset>(
     color2: { type: String },
     angle: { type: Number },
     solidColor: { type: String },
-    imageBase64: { type: String },
-    imageMimeType: { type: String },
+    imageUrl: { type: String },
     createdBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   },
   { timestamps: true }

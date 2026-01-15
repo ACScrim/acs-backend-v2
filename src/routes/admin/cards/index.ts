@@ -72,8 +72,6 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
     const allowedFields: Array<keyof ICard> = [
       'title',
       'imageUrl',
-      'imageBase64',
-      'imageMimeType',
       'frontAssetId',
       'borderAssetId',
       'categoryId',

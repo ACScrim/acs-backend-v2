@@ -4,6 +4,7 @@ import {ICard} from "../../../models/Card";
 import {ICardAsset} from "../../../models/CardAsset";
 import {IUser} from "../../../models/User";
 import {log} from "../../../utils/utils";
+import {uploadCardImage, uploadCardAssetImage} from "../../../services/cloudinaryService";
 
 const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   /**
@@ -70,11 +71,30 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
    * POST
    */
   fastify.post("/asset", { preHandler: [authGuard] }, async (req, resp) => {
-    const body = req.body as Omit<ICardAsset, 'createdBy'>;
+    const body = req.body as Omit<ICardAsset, 'createdBy'> & { imageBase64?: string; imageMimeType?: string };
 
+    let imageUrl: string | undefined;
+
+    // Upload image to Cloudinary if provided
+    if (body.imageBase64 && body.type === 'image') {
+      try {
+        const result = await uploadCardAssetImage(
+          body.imageBase64,
+          `asset-${Date.now()}`,
+          body.category as 'background' | 'border'
+        );
+        imageUrl = result.imageUrl;
+      } catch (uploadError) {
+        log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
+        resp.status(400);
+        return { message: 'Erreur lors de l\'upload de l\'image.' };
+      }
+    }
+
+    // Check for duplicates - but for image types, we now use imageUrl instead of imageBase64
     const existingAsset = await fastify.models.CardAsset.findOne({
       $or: [
-        { imageBase64: body.imageBase64, type: "image", imageMimeType: body.imageMimeType },
+        ...(imageUrl ? [{ imageUrl, type: "image" }] : []),
         { solidColor: body.solidColor, type: "solid", category: body.category },
         { category: body.category, type: "gradient", color1: body.color1, color2: body.color2 }
       ]
@@ -84,6 +104,10 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
     const newAsset = await fastify.models.CardAsset.create({
       ...body,
+      imageUrl,
+      // Remove base64 fields
+      imageBase64: undefined,
+      imageMimeType: undefined,
       createdBy: req.session.userId,
     });
 
@@ -94,12 +118,31 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
   fastify.post("/card", { preHandler: [authGuard] }, async (req, resp) => {
     try {
-      const body = req.body as Omit<ICard, 'createdBy'>;
+      const body = req.body as Omit<ICard, 'createdBy'> & { imageBase64?: string; imageMimeType?: string; imageUrl?: string };
 
       const user = await fastify.models.User.findById(req.session.userId) as IUser;
 
+      let imageUrl: string | undefined = body.imageUrl;
+
+      // Upload image to Cloudinary if provided as base64
+      // Skip upload if imageUrl is already provided (Discord avatars)
+      if (body.imageBase64 && !imageUrl) {
+        try {
+          const result = await uploadCardImage(body.imageBase64, `card-${Date.now()}`);
+          imageUrl = result.imageUrl;
+        } catch (uploadError) {
+          log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
+          resp.status(400);
+          return { message: 'Erreur lors de l\'upload de l\'image.' };
+        }
+      }
+
       const newCard = await fastify.models.Card.create({
         ...body,
+        imageUrl,
+        // Remove base64 fields - they should not be stored
+        imageBase64: undefined,
+        imageMimeType: undefined,
         createdBy: req.session.userId,
         status: user.role.includes('admin') ? 'active' : 'pending'
       });
@@ -118,6 +161,61 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
       return savedCard;
     } catch (error) {
       log(fastify, `Erreur lors de la création de la carte : ${error}`, 'error');
+      throw error;
+    }
+  });
+
+  fastify.patch("/card/:id", { preHandler: [authGuard] }, async (req, resp) => {
+    try {
+      const { id } = req.params as { id: string };
+      const body = req.body as Partial<ICard> & { imageBase64?: string; imageMimeType?: string; imageUrl?: string };
+
+      const card = await fastify.models.Card.findById(id);
+      if (!card) {
+        resp.status(404);
+        return { message: 'Carte non trouvée.' };
+      }
+
+      // Check authorization - allow creator or admin
+      const user = await fastify.models.User.findById(req.session.userId) as IUser;
+      if (card.createdBy.toString() !== req.session.userId && !user.role.includes('admin')) {
+        resp.status(403);
+        return { message: 'Vous n\'êtes pas autorisé à modifier cette carte.' };
+      }
+
+      let imageUrl = body.imageUrl ?? card.imageUrl;
+
+      // Upload new image to Cloudinary if provided as base64
+      // Skip upload if imageUrl is provided (Discord avatars)
+      if (body.imageBase64 && body.imageBase64 !== card.imageUrl && !body.imageUrl) {
+        try {
+          const result = await uploadCardImage(body.imageBase64, `card-update-${Date.now()}`);
+          imageUrl = result.imageUrl;
+        } catch (uploadError) {
+          log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
+          resp.status(400);
+          return { message: 'Erreur lors de l\'upload de l\'image.' };
+        }
+      }
+
+      // Update card
+      const updatedCard = await fastify.models.Card.findByIdAndUpdate(
+        id,
+        {
+          ...body,
+          imageUrl,
+          // Ensure base64 fields are not stored
+          imageBase64: undefined,
+          imageMimeType: undefined,
+        },
+        { new: true }
+      ).populate('frontAsset').populate('borderAsset');
+
+      log(fastify, `Mise à jour d'une carte par ${user.username}: ${id}`, 'info');
+
+      return updatedCard;
+    } catch (error) {
+      log(fastify, `Erreur lors de la mise à jour de la carte : ${error}`, 'error');
       throw error;
     }
   });

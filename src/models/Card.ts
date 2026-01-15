@@ -3,8 +3,6 @@ import mongoose, { Document } from "mongoose";
 export interface ICard extends Document {
   title: string;
   imageUrl?: string;
-  imageBase64?: string;
-  imageMimeType?: string;
   frontAssetId?: mongoose.Schema.Types.ObjectId;
   borderAssetId?: mongoose.Schema.Types.ObjectId;
   categoryId?: mongoose.Schema.Types.ObjectId;
@@ -45,8 +43,6 @@ const cardSchema = new mongoose.Schema<ICard>(
   {
     title: { type: String, required: true },
     imageUrl: { type: String },
-    imageBase64: { type: String },
-    imageMimeType: { type: String },
     frontAssetId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardAsset' },
     borderAssetId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardAsset' },
     categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'CardCategory' },
