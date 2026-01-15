@@ -54,7 +54,75 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
       ...card.toJSON(),
       count
     };
-  })
+  });
+
+  fastify.get('/me/categories-overview', { preHandler: [authGuard] }, async (req, resp) => {
+    const userId = req.session.userId;
+    let collection = await fastify.models.CardCollection.findOne({ userId })
+      .populate({
+        path: 'cards.cardId',
+        model: 'Card',
+        match: { status: 'active' },
+        populate: [
+          { path: 'frontAsset' },
+          { path: 'borderAsset' },
+          { path: 'category' }
+        ]
+      }) as ICardCollection;
+
+    if (!collection) {
+      collection = await fastify.models.CardCollection.create({ userId, cards: [] }) as ICardCollection;
+    }
+
+    // Grouper les cartes par catégorie
+    const categoriesMap = new Map<string, any>();
+
+    // Récupérer TOUTES les cartes actives du système
+    const allCards = await fastify.models.Card.find({ status: 'active' })
+      .populate('frontAsset')
+      .populate('borderAsset')
+      .populate('category');
+
+    // Organiser par catégorie
+    for (const card of allCards) {
+      const categoryId = card.category?._id?.toString() || '__uncategorized__';
+      const categoryName = card.category?.name || 'Sans catégorie';
+
+      if (!categoriesMap.has(categoryId)) {
+        categoriesMap.set(categoryId, {
+          categoryId,
+          categoryName,
+          totalCards: 0,
+          ownedCards: [],
+        });
+      }
+
+      const category = categoriesMap.get(categoryId);
+      category.totalCards++;
+
+      // Vérifier si l'utilisateur possède cette carte
+      // @ts-ignore
+      const userCard = collection.cards.find(c => c.cardId.id.toString() === card._id.toString());
+      if (userCard) {
+        category.ownedCards.push({
+          count: userCard.count,
+          card
+        });
+      }
+    }
+
+    // Convertir en tableau trié
+    const categories = Array.from(categoriesMap.values()).sort((a, b) => {
+      if (a.categoryName === 'Sans catégorie') return 1;
+      if (b.categoryName === 'Sans catégorie') return -1;
+      return a.categoryName.localeCompare(b.categoryName);
+    });
+
+    return {
+      categories,
+      collectionId: collection._id
+    };
+  });
 }
 
 export default cardCollectionRoutes;
