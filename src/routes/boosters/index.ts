@@ -43,31 +43,49 @@ const boostersRoutes: FastifyPluginAsync = async (fastify) => {
     }
 
     const remainingCardsToFetch: { rarity: string; count: number }[] = [];
-    const rarities = [
-      { rarity: 'legendary', rate: 0.01 },
-      { rarity: 'epic', rate: 0.04 },
-      { rarity: 'rare', rate: 0.07 },
-      { rarity: 'uncommon', rate: 0.12 },
-      { rarity: 'common', rate: 0.76 }
-    ];
 
-    // Tirer chaque carte indépendamment selon les taux
-    for (let i = 0; i < remainingCards; i++) {
-      const random = Math.random();
-      let cumulativeRate = 0;
+    // Déterminer le nombre de cartes non-communes pour ce booster
+    // 15% chance d'avoir 1 carte non-commune, 2% chance d'en avoir 2, 83% que des communes
+    const guaranteeRoll = Math.random();
+    let nonCommonCardCount = 0;
+    if (guaranteeRoll < 0.15) {
+      nonCommonCardCount = 1;
+    } else if (guaranteeRoll < 0.17) {
+      nonCommonCardCount = 2;
+    }
 
-      for (const { rarity, rate } of rarities) {
-        cumulativeRate += rate;
-        if (random <= cumulativeRate) {
-          const existing = remainingCardsToFetch.find(r => r.rarity === rarity);
-          if (existing) {
-            existing.count++;
-          } else {
-            remainingCardsToFetch.push({ rarity, count: 1 });
+    // Si nous avons des cartes non-communes à obtenir
+    if (nonCommonCardCount > 0) {
+      const nonCommonRarities = [
+        { rarity: 'legendary', rate: 0.08 },
+        { rarity: 'epic', rate: 0.20 },
+        { rarity: 'rare', rate: 0.35 },
+        { rarity: 'uncommon', rate: 0.37 }
+      ];
+
+      for (let i = 0; i < nonCommonCardCount; i++) {
+        const random = Math.random();
+        let cumulativeRate = 0;
+
+        for (const { rarity, rate } of nonCommonRarities) {
+          cumulativeRate += rate;
+          if (random <= cumulativeRate) {
+            const existing = remainingCardsToFetch.find(r => r.rarity === rarity);
+            if (existing) {
+              existing.count++;
+            } else {
+              remainingCardsToFetch.push({ rarity, count: 1 });
+            }
+            break;
           }
-          break
         }
       }
+    }
+
+    // Le reste sera des cartes communes
+    const commonCardCount = remainingCards - nonCommonCardCount;
+    if (commonCardCount > 0) {
+      remainingCardsToFetch.push({ rarity: 'common', count: commonCardCount });
     }
 
     const randomCards = await fastify.models.Card.aggregate([
