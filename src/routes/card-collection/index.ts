@@ -102,7 +102,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
 
       // Vérifier si l'utilisateur possède cette carte
       // @ts-ignore
-      const userCard = collection.cards.find(c => (c.cardId?.id || c.cardId?._id).toString() === card._id.toString());
+      const userCard = collection.cards.find(c => (c.cardId?.id || c.cardId?._id || c.cardId)?.toString() === card._id.toString());
       if (userCard) {
         category.ownedCards.push({
           count: userCard.count,
