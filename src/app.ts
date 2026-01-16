@@ -141,7 +141,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
   fastify.addHook('onRequest', async (request, reply) => {
     const origin = request.headers.origin;
 
-    if (!origin && request.url.startsWith('/api/')) {
+    if (!origin && request.url.startsWith('/api/') && !request.url.startsWith('/api/auth/')) {
       reply.hijack();
       const html = await readFile(path.join(__dirname, '../../public/index.html'), 'utf-8');
       reply.raw.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
