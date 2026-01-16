@@ -13,6 +13,7 @@ import {startDailyQuizCron} from "./crons/dailyQuiz";
 import {startUpdateAcsersCardCron} from "./crons/updateAcsersCard";
 import {log} from "./utils/utils";
 import MongoSessionStore from "./utils/MongoStore";
+import {readFile} from "node:fs/promises";
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -134,6 +135,17 @@ const app: FastifyPluginAsync<AppOptions> = async (
       sameSite: 'lax',
       path: '/',
       domain: process.env.NODE_ENV === 'production' ? '.acscrim.fr' : undefined
+    }
+  });
+
+  fastify.addHook('onRequest', async (request, reply) => {
+    const origin = request.headers.origin;
+
+    if (!origin && request.url.startsWith('/api/')) {
+      reply.hijack();
+      const html = await readFile(path.join(__dirname, '../../public/index.html'), 'utf-8');
+      reply.raw.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
+      reply.raw.end(html);
     }
   });
 
