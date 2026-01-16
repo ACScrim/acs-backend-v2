@@ -78,7 +78,6 @@ export async function uploadCardImage(
 ): Promise<{ imageUrl: string; publicId: string }> {
   return uploadImageToCloudinary(base64String, fileName, {
     folder: 'acs/cards/main',
-    width: 250,
     height: 378,
     crop: 'fill',
     gravity: 'auto',
@@ -100,8 +99,7 @@ export async function uploadCardAssetImage(
 
   return uploadImageToCloudinary(base64String, fileName, {
     folder,
-    width: 400,
-    height: 400,
+    height: 378,
     crop: 'limit', // Keep aspect ratio, max 400x400
     quality: 'auto',
   });
