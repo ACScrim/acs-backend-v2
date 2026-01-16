@@ -163,61 +163,6 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     }
   });
 
-  fastify.patch("/card/:id", { preHandler: [authGuard] }, async (req, resp) => {
-    try {
-      const { id } = req.params as { id: string };
-      const body = req.body as Partial<ICard> & { imageBase64?: string; imageMimeType?: string; imageUrl?: string };
-
-      const card = await fastify.models.Card.findById(id);
-      if (!card) {
-        resp.status(404);
-        return { message: 'Carte non trouvée.' };
-      }
-
-      // Check authorization - allow creator or admin
-      const user = await fastify.models.User.findById(req.session.userId) as IUser;
-      if (card.createdBy.toString() !== req.session.userId && !user.role.includes('admin')) {
-        resp.status(403);
-        return { message: 'Vous n\'êtes pas autorisé à modifier cette carte.' };
-      }
-
-      let imageUrl = body.imageUrl ?? card.imageUrl;
-
-      // Upload new image to Cloudinary if provided as base64
-      // Skip upload if imageUrl is provided (Discord avatars)
-      if (body.imageBase64 && body.imageBase64 !== card.imageUrl && !body.imageUrl) {
-        try {
-          const result = await uploadCardImage(body.imageBase64, `card-update-${Date.now()}`);
-          imageUrl = result.imageUrl;
-        } catch (uploadError) {
-          log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
-          resp.status(400);
-          return { message: 'Erreur lors de l\'upload de l\'image.' };
-        }
-      }
-
-      // Update card
-      const updatedCard = await fastify.models.Card.findByIdAndUpdate(
-        id,
-        {
-          ...body,
-          imageUrl,
-          // Ensure base64 fields are not stored
-          imageBase64: undefined,
-          imageMimeType: undefined,
-        },
-        { new: true }
-      ).populate('frontAsset').populate('borderAsset');
-
-      log(fastify, `Mise à jour d'une carte par ${user.username}: ${id}`, 'info');
-
-      return updatedCard;
-    } catch (error) {
-      log(fastify, `Erreur lors de la mise à jour de la carte : ${error}`, 'error');
-      throw error;
-    }
-  });
-
   fastify.delete("/card/:id", { preHandler: [authGuard] }, async (req, res) => {
     const { id } = req.params as { id: string };
 
