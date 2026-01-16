@@ -11,7 +11,7 @@ export async function adminGuard(req: FastifyRequest, res: FastifyReply) {
     return res.status(401).send({ error: 'Unauthorized' });
   }
   const user = await req.server.models.User.findById(req.session.userId);
-  if (!user || (user.role !== 'admin' && user.role !== 'superadmin')) {
+  if (!user || (user.role !== 'admin' && user.role !== 'superadmin' && !user.role.includes('card'))) {
     return res.status(403).send({ error: 'Forbidden' });
   }
 }
