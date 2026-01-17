@@ -4,7 +4,12 @@ import {ICard} from "../../../models/Card";
 import {ICardAsset} from "../../../models/CardAsset";
 import {IUser} from "../../../models/User";
 import {log} from "../../../utils/utils";
-import {uploadCardImage, uploadCardAssetImage, getMainCardImages} from "../../../services/cloudinaryService";
+import {
+  uploadCardImage,
+  uploadCardAssetImage,
+  getMainCardImages,
+  deleteImageFromCloudinary
+} from "../../../services/cloudinaryService";
 
 const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   /**
@@ -187,6 +192,34 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
       return { message: 'Vous n\'êtes pas autorisé à supprimer cette carte.' };
     }
 
+    // Before deleting, check if this image is used by other cards
+    if (card.imageUrl) {
+      const otherCardsUsingImage = await fastify.models.Card.countDocuments({
+        _id: { $ne: id },
+        imageUrl: card.imageUrl
+      });
+
+      // Only delete from Cloudinary if no other card uses this image
+      if (otherCardsUsingImage === 0) {
+        try {
+          // Extract publicId from imageUrl (format: https://res.cloudinary.com/.../{publicId})
+          const urlParts = card.imageUrl.split('/');
+          const fileName = urlParts[urlParts.length - 1];
+          // Remove extension and get the publicId
+          const publicId = fileName.split('.')[0];
+
+          if (publicId) {
+            const path = process.env.NODE_ENV !== 'production' ? `dev/acs/cards/main/${publicId}` : `acs/cards/main/${publicId}`;
+            await deleteImageFromCloudinary(path);
+            log(fastify, `Image Cloudinary supprimée : ${path}`, 'info');
+          }
+        } catch (error) {
+          log(fastify, `Erreur lors de la suppression de l'image Cloudinary : ${error}`, 'error');
+          // Don't fail the card deletion if Cloudinary deletion fails
+        }
+      }
+    }
+
     await fastify.models.Card.findByIdAndDelete(id);
 
     log(fastify, `Suppression d'une carte par ${req.session.userId} : ${card.id}`, 'info');
@@ -218,6 +251,20 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     if (asset.createdBy.toString() !== req.session.userId) {
       res.status(403);
       return { message: 'Vous n\'êtes pas autorisé à supprimer cet asset.' };
+    }
+
+    // Delete image from Cloudinary if it's an image type asset
+    if (asset.type === 'image' && asset.imageUrl) {
+      try {
+        const match = asset.imageUrl.match(/\/([^\/]+\/[^\/]+)(?:\.[^.]+)?$/);
+        if (match) {
+          await deleteImageFromCloudinary(match[1]);
+          log(fastify, `Image Cloudinary supprimée : ${match[1]}`, 'info');
+        }
+      } catch (error) {
+        log(fastify, `Erreur lors de la suppression de l'image Cloudinary : ${error}`, 'error');
+        // Don't fail the asset deletion if Cloudinary deletion fails
+      }
     }
 
     log(fastify, `Suppression d'un asset par ${req.session.userId} : ${asset.id}`, 'info');
