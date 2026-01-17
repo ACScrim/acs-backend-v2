@@ -34,25 +34,27 @@ export async function uploadImageToCloudinary(
       ? base64String.split(',')[1]
       : base64String;
 
+    const isDev = process.env.NODE_ENV !== 'production';
+
     const uploadOptions: any = {
       resource_type: 'image',
-      folder: options.folder || 'acs/cards',
+      folder: (isDev ? 'dev/' : '') + (options.folder || 'acs/cards'),
       public_id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       overwrite: false,
       unique_filename: true,
     };
 
     // Add transformations if specified
-    if (options.width || options.height) {
-      uploadOptions.transformation = [
-        {
-          width: options.width,
-          height: options.height,
-          crop: options.crop || 'fill',
-          quality: options.quality || 'auto',
-        },
-      ];
-    }
+    // if (options.width || options.height) {
+    //   uploadOptions.transformation = [
+    //     {
+    //       width: options.width,
+    //       height: options.height,
+    //       crop: options.crop || 'fill',
+    //       quality: options.quality || 'auto',
+    //     },
+    //   ];
+    // }
 
     const result = await cloudinary.uploader.upload(
       `data:image/png;base64,${cleanBase64}`,
@@ -118,29 +120,26 @@ export async function deleteImageFromCloudinary(publicId: string): Promise<void>
 }
 
 /**
- * Get image URL from public ID with optional transformations
+ * Get all main card images from Cloudinary
  */
-export function getImageUrl(
-  publicId: string,
-  options: UploadOptions = {}
-): string {
-  const transformations: any = {};
+export async function getMainCardImages(): Promise<Array<{ publicId: string; url: string; secure_url: string }>> {
+  try {
+    const isDev = process.env.NODE_ENV !== 'production';
+    const folder = isDev ? 'dev/acs/cards/main' : 'acs/cards/main';
 
-  if (options.width || options.height) {
-    transformations.width = options.width;
-    transformations.height = options.height;
-    transformations.crop = options.crop || 'fill';
-    if (options.gravity) {
-      transformations.gravity = options.gravity;
-    }
+    const result = await cloudinary.api.resources({
+      type: 'upload',
+      prefix: folder,
+      max_results: 500,
+    });
+
+    return result.resources.map((resource: any) => ({
+      publicId: resource.public_id,
+      url: resource.url,
+      secure_url: resource.secure_url,
+    }));
+  } catch (error) {
+    console.error('Cloudinary fetch error:', error);
+    throw new Error(`Failed to fetch images from Cloudinary: ${error}`);
   }
-
-  if (options.quality) {
-    transformations.quality = options.quality;
-  }
-
-  return cloudinary.url(publicId, {
-    secure: true,
-    ...transformations,
-  });
 }

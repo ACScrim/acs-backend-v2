@@ -28,6 +28,9 @@ export interface ICard extends Document {
   imageWidth?: number;
   imageHeight?: number;
   imageObjectFit?: 'contain' | 'cover';
+  imageRounded?: number;
+  imageCropX?: number;
+  imageCropY?: number;
   customTexts?: Array<{
     content: string;
     posX: number;
@@ -74,8 +77,11 @@ const cardSchema = new mongoose.Schema<ICard>(
     imagePosY: { type: Number, default: 30 },
     imageScale: { type: Number, default: 1, min: 0.5, max: 2 },
     imageWidth: { type: Number, default: 160, min: 40, max: 300 },
-    imageHeight: { type: Number, default: 160, min: 40, max: 300 },
+    imageHeight: { type: Number, default: 160, min: 40, max: 378 },
     imageObjectFit: { type: String, enum: ['contain', 'cover'], default: 'cover' },
+    imageRounded: { type: Number, default: 0, min: 0, max: 50 },
+    imageCropX: { type: Number, default: 50, min: 0, max: 100 },
+    imageCropY: { type: Number, default: 50, min: 0, max: 100 },
     customTexts: [{
       content: String,
       posX: Number,

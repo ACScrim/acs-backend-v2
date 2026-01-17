@@ -4,7 +4,7 @@ import {ICard} from "../../../models/Card";
 import {ICardAsset} from "../../../models/CardAsset";
 import {IUser} from "../../../models/User";
 import {log} from "../../../utils/utils";
-import {uploadCardImage, uploadCardAssetImage} from "../../../services/cloudinaryService";
+import {uploadCardImage, uploadCardAssetImage, getMainCardImages} from "../../../services/cloudinaryService";
 
 const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   /**
@@ -47,7 +47,17 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/discord-avatars", { preHandler: [authGuard] }, async (req, resp) => {
     const users = await fastify.models.User.find().select('id username avatarUrl') as IUser[];
     return users.filter(user => user.avatarUrl);
-  })
+  });
+
+  fastify.get("/main-images", { preHandler: [authGuard] }, async (req, resp) => {
+    try {
+      const images = await getMainCardImages();
+      return images;
+    } catch (error) {
+      resp.status(500);
+      return { message: 'Erreur lors de la récupération des images.' };
+    }
+  });
 
   fastify.get("/assets/backgrounds", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({
