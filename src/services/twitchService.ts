@@ -125,6 +125,7 @@ class TwitchService {
       if (user) {
         const data = await response.json() as any;
         user.twitchSubscriptionId = data?.data[0]?.id || null;
+        log(this.fastify, `[TwitchService] Créé abonnement EventSub pour ${streamerUsername} (${userId}), subscription ID: ${user.twitchSubscriptionId}`, 'info');
         await user.save();
         return true;
       } else {
