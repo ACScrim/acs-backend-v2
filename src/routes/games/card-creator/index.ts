@@ -64,6 +64,27 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     }
   });
 
+  fastify.get("/main-images/used", { preHandler: [authGuard] }, async (req, resp) => {
+    try {
+      // Get all unique image URLs from cards
+      const cards = await fastify.models.Card.find({ imageUrl: { $exists: true, $ne: null }, createdBy: req.session.userId! }).select('imageUrl');
+      const usedImageUrls = [...new Set(cards.map(card => card.imageUrl).filter(Boolean))];
+
+      // Get all Cloudinary images
+      const allImages = await getMainCardImages();
+
+      // Filter to only used images
+      const usedImages = allImages.filter(image =>
+        usedImageUrls.some(url => url?.includes(image.publicId))
+      );
+
+      return usedImages;
+    } catch (error) {
+      resp.status(500);
+      return { message: 'Erreur lors de la récupération des images utilisées.' };
+    }
+  });
+
   fastify.get("/assets/backgrounds", { preHandler: [authGuard] }, async (req, resp) => {
     const assets = await fastify.models.CardAsset.find({
       category: 'background'
