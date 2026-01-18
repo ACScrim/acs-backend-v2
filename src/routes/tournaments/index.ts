@@ -129,7 +129,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
 
       const user = await fastify.models.User.findById(userId) as IUser;
-      if (user.discordId) await fastify.discordService.setTournamentRole(tournamentData, user.discordId);
+      if (user.discordId) await fastify.discordService.unsetTournamentRole(tournamentData, user.discordId);
 
       // Mettre à jour le message Discord du tournoi
       try {
