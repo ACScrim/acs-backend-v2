@@ -173,6 +173,28 @@ class DiscordService {
     }
   }
 
+  public async setTournamentRole(tournament: ITournament & { game: IGame }, userDiscordId: string): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const role = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
+    if (role) {
+      const member = await guild.members.fetch(userDiscordId);
+      if (member) {
+        await member.roles.add(role);
+      }
+    }
+  }
+
+  public async unsetTournamentRole(tournament: ITournament & { game: IGame }, userDiscordId: string): Promise<void> {
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const role = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
+    if (role) {
+      const member = await guild.members.fetch(userDiscordId);
+      if (member) {
+        await member.roles.remove(role);
+      }
+    }
+  }
+
   public async closeTournament(tournament: ITournament & { game: IGame }): Promise<void> {
     const guild = await this.client.guilds.fetch(this.guildId);
     const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
