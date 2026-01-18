@@ -156,7 +156,8 @@ class DiscordService {
     // Create tournament role
     await guild.roles.create({
       name: `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`,
-      colors: { primaryColor: "Random" }
+      colors: { primaryColor: "Random" },
+      hoist: true,
     });
     return messageId;
   }
