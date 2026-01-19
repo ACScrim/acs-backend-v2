@@ -15,12 +15,8 @@ const createCardPayload = async (user: IUser) => {
   const joinDate = user.createdAt ? new Date(user.createdAt) : new Date();
   const formattedJoinDate = `${joinDate.getDate().toString().padStart(2, '0')}/${(joinDate.getMonth() + 1).toString().padStart(2, '0')}/${joinDate.getFullYear()}`;
 
-  const { base64: imageBase64, mimeType: imageMimeType } = user.avatarUrl
-    ? await fetchImageAsBase64(user.avatarUrl)
-    : { base64: '', mimeType: 'image/webp' };
-
-  if (!imageBase64 || imageBase64.length === 0) {
-    throw new Error(`User ${user.username} does not have a valid avatar URL.`);
+  if (!user.avatarUrl) {
+    throw new Error(`L'utilisateur ${user.username} n'a pas d'avatar valide.`);
   }
 
   const userTournaments = await db.db!.collection('tournaments').find({ 'players.user': user._id, 'finished': true }).toArray() as ITournament[];
@@ -31,8 +27,7 @@ const createCardPayload = async (user: IUser) => {
 
   return ({
     title: user.username,
-    imageBase64,
-    imageMimeType,
+    imageUrl: user.avatarUrl,
     frontAssetId: new mongoose.Types.ObjectId("695db3eabd92f87757877928"),
     categoryId: new mongoose.Types.ObjectId("6957eb47cd0cfd4a74cbcc06"),
     titlePosX: 50,
