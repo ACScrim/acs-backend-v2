@@ -507,9 +507,12 @@ class DiscordService {
     try {
       const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
       if (!webhookUrl) {
-        log(this.fastify, '[DiscordService] DISCORD_WEBHOOK_URL non configuré.', 'error');
+        log(this.fastify, '[DiscordService] ❌ DISCORD_WEBHOOK_URL non configuré.', 'error');
         return;
       }
+
+      log(this.fastify, `[DiscordService] 📤 Préparation notification Discord pour ${streamerUsername}`, 'info');
+      log(this.fastify, `[DiscordService] Stream: "${streamDetails.title}" - Jeu: ${streamDetails.game_name}`, 'info');
 
       const embed = new EmbedBuilder()
         .setTitle(`${streamerUsername} est en live sur Twitch !`)
@@ -519,13 +522,20 @@ class DiscordService {
         .setImage(streamDetails.thumbnail_url.replace('{width}', '1280').replace('{height}', '720'))
         .setTimestamp(new Date());
 
-      await fetch(webhookUrl, {
+      const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ embeds: [embed.toJSON()] })
       });
+
+      if (response.ok) {
+        log(this.fastify, `[DiscordService] ✅ Notification Discord envoyée avec succès pour ${streamerUsername}`, 'info');
+      } else {
+        const errorText = await response.text();
+        log(this.fastify, `[DiscordService] ❌ Échec envoi Discord (${response.status}): ${errorText}`, 'error');
+      }
     } catch (error) {
-      log(this.fastify, `[DiscordService] Erreur lors de l'envoi de la notification Twitch sur Discord: ${error}`, 'error');
+      log(this.fastify, `[DiscordService] ❌ Erreur lors de l'envoi de la notification Twitch sur Discord: ${error}`, 'error');
     }
   }
 

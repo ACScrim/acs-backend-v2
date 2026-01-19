@@ -246,39 +246,61 @@ class TwitchService {
     const messageId = req.headers['twitch-eventsub-message-id'] as string;
     const timestamp = req.headers['twitch-eventsub-message-timestamp'] as string;
     const signature = req.headers['twitch-eventsub-message-signature'] as string;
-    const body = JSON.stringify(req.body);
 
-    log(this.fastify, `[TwitchService] Vérification signature - MessageId: ${messageId}, Timestamp: ${timestamp}`, 'info');
+    // Utiliser le corps brut stocké par le plugin rawBodyPlugin
+    const body = (req as any).rawBody as string;
+
+    log(this.fastify, `[TwitchService] 🔍 Vérification signature Twitch`, 'info');
+    log(this.fastify, `[TwitchService] MessageId: ${messageId}`, 'info');
+    log(this.fastify, `[TwitchService] Timestamp: ${timestamp}`, 'info');
+    log(this.fastify, `[TwitchService] Body length: ${body?.length || 0} chars`, 'info');
+    log(this.fastify, `[TwitchService] Body preview: ${body?.substring(0, 100)}...`, 'info');
 
     if (!messageId || !timestamp || !signature || !body) {
-      log(this.fastify, '[TwitchService] En-têtes de signature Twitch manquants ou corps manquant.', 'error');
+      log(this.fastify, '[TwitchService] ❌ En-têtes de signature Twitch manquants ou corps manquant.', 'error');
+      log(this.fastify, `[TwitchService] Debug - messageId: ${!!messageId}, timestamp: ${!!timestamp}, signature: ${!!signature}, body: ${!!body}`, 'error');
       return false;
     }
 
     const hmacMessage = messageId + timestamp + body;
+    log(this.fastify, `[TwitchService] Message HMAC length: ${hmacMessage.length} chars`, 'info');
+
     const hmac = require("crypto").createHmac("sha256", this.EVENTSUB_SECRET).update(hmacMessage).digest("hex");
+
+    // La signature reçue contient déjà le préfixe "sha256="
+    // On reconstruit au même format pour la comparaison
     const expectedSignature = `sha256=${hmac}`;
 
-    log(this.fastify, `[TwitchService] Signature reçue: ${signature}`, 'info');
-    log(this.fastify, `[TwitchService] Signature attendue: ${expectedSignature}`, 'info');
+    log(this.fastify, `[TwitchService] Signature reçue    : ${signature}`, 'info');
+    log(this.fastify, `[TwitchService] Signature calculée : ${expectedSignature}`, 'info');
+    log(this.fastify, `[TwitchService] Match: ${signature === expectedSignature ? '✅ OUI' : '❌ NON'}`, 'info');
 
     try {
-      const sigBuffer = Buffer.from(signature);
-      const expectedSigBuffer = Buffer.from(expectedSignature);
-      if (sigBuffer.length !== expectedSigBuffer.length) {
-        log(this.fastify, `[TwitchService] Longueurs différentes: ${sigBuffer.length} vs ${expectedSigBuffer.length}`, 'error');
+      // Comparaison sécurisée des deux signatures complètes (avec le préfixe sha256=)
+      const isValid = signature === expectedSignature;
+
+      // Alternative avec timingSafeEqual pour éviter les timing attacks
+      if (!isValid) {
+        const sigBuffer = Buffer.from(signature);
+        const expectedSigBuffer = Buffer.from(expectedSignature);
+        if (sigBuffer.length === expectedSigBuffer.length) {
+          const timingSafeResult = require("crypto").timingSafeEqual(sigBuffer, expectedSigBuffer);
+          log(this.fastify, `[TwitchService] ❌ Signature invalide (timing-safe: ${timingSafeResult})`, 'error');
+        } else {
+          log(this.fastify, `[TwitchService] ❌ Longueurs différentes: ${sigBuffer.length} vs ${expectedSigBuffer.length}`, 'error');
+        }
         return false;
       }
-      const isValid = require("crypto").timingSafeEqual(sigBuffer, expectedSigBuffer);
-      log(this.fastify, `[TwitchService] Signature valide: ${isValid}`, 'info');
-      return isValid;
+
+      log(this.fastify, `[TwitchService] ✅ Signature valide!`, 'info');
+      return true;
     } catch (error: any) {
       log(this.fastify, `[TwitchService] Erreur lors de la vérification de la signature Twitch : ${error.message}`, 'error');
       return false;
     }
   }
 
-  public async getStreamInfoByUserId(streamerId: string): Promise<any | null> {
+  public async getStreamInfoByUserId(streamerId: string, retryCount = 0): Promise<any | null> {
     if (!this.twitchAccessToken) {
       if (!(await this.getTwitchAccessToken())) {
         return null;
@@ -286,17 +308,36 @@ class TwitchService {
     }
     const url = `https://api.twitch.tv/helix/streams?user_id=${streamerId}`;
     const headers = { "Client-ID": this.twitchClientId, "Authorization": `Bearer ${this.twitchAccessToken}` };
+
     try {
       const response = await fetch(url, {method: 'GET', headers});
       const data = await response.json() as any;
+
+      log(this.fastify, `[TwitchService] Réponse API streams pour ${streamerId}: ${JSON.stringify(data)}`, 'info');
+
       if (data.data && data.data.length > 0) {
         const streamData = data.data[0];
+        log(this.fastify, `[TwitchService] ✅ Stream trouvé: ${streamData.title}`, 'info');
         return {
           title: streamData.title,
           game_name: streamData.game_name,
           thumbnail_url: streamData.thumbnail_url,
         }
       } else {
+        // L'API peut avoir un délai après la notification stream.online
+        // Twitch peut mettre jusqu'à 15-20 secondes pour mettre à jour l'API /streams
+        // On retry jusqu'à 6 fois avec un délai de 3 secondes (total: ~18 secondes)
+        const maxRetries = 6;
+        const retryDelay = 3000; // 3 secondes
+
+        if (retryCount < maxRetries) {
+          log(this.fastify, `[TwitchService] ⏳ Stream pas encore disponible, retry ${retryCount + 1}/${maxRetries} dans ${retryDelay/1000}s...`, 'info');
+          await new Promise(resolve => setTimeout(resolve, retryDelay));
+          return this.getStreamInfoByUserId(streamerId, retryCount + 1);
+        }
+
+        log(this.fastify, `[TwitchService] ❌ Aucun stream actif trouvé pour ${streamerId} après ${maxRetries} tentatives (${maxRetries * retryDelay / 1000}s)`, 'error');
+        log(this.fastify, `[TwitchService] ⚠️ Le stream a peut-être été arrêté immédiatement ou Twitch a un délai inhabituel`, 'error');
         return null;
       }
     } catch (error: any) {
