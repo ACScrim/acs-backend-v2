@@ -100,6 +100,10 @@ class TwitchService {
       "Content-Type": "application/json"
     };
     const callbackUrl = `${this.BASE_URL}${this.TWITCH_CALLBACK_PATH}`;
+
+    log(this.fastify, `[TwitchService] 🔗 URL de callback configurée: ${callbackUrl}`, 'info');
+    log(this.fastify, `[TwitchService] ⚠️ Cette URL doit être accessible publiquement (pas localhost)`, 'info');
+
     const data = {
       type: "stream.online",
       version: "1",
@@ -239,15 +243,15 @@ class TwitchService {
   }
 
   public verifyTwitchSignature(req: FastifyRequest) {
-    const messageId = req.headers['Twitch-Eventsub-Message-Id'] as string;
-    const timestamp = req.headers['Twitch-Eventsub-Message-Timestamp'] as string;
-    const signature = req.headers['Twitch-Eventsub-Message-Signature'] as string;
-    const body = req.raw?.toString();
+    const messageId = req.headers['twitch-eventsub-message-id'] as string;
+    const timestamp = req.headers['twitch-eventsub-message-timestamp'] as string;
+    const signature = req.headers['twitch-eventsub-message-signature'] as string;
+    const body = JSON.stringify(req.body);
 
-    console.log('Verifying Twitch signature with:', { messageId, timestamp, signature, body });
+    log(this.fastify, `[TwitchService] Vérification signature - MessageId: ${messageId}, Timestamp: ${timestamp}`, 'info');
 
     if (!messageId || !timestamp || !signature || !body) {
-      log(this.fastify, '[TwitchService] En-têtes de signature Twitch manquants ou corps brut manquant.', 'error');
+      log(this.fastify, '[TwitchService] En-têtes de signature Twitch manquants ou corps manquant.', 'error');
       return false;
     }
 
@@ -255,13 +259,19 @@ class TwitchService {
     const hmac = require("crypto").createHmac("sha256", this.EVENTSUB_SECRET).update(hmacMessage).digest("hex");
     const expectedSignature = `sha256=${hmac}`;
 
+    log(this.fastify, `[TwitchService] Signature reçue: ${signature}`, 'info');
+    log(this.fastify, `[TwitchService] Signature attendue: ${expectedSignature}`, 'info');
+
     try {
       const sigBuffer = Buffer.from(signature);
       const expectedSigBuffer = Buffer.from(expectedSignature);
       if (sigBuffer.length !== expectedSigBuffer.length) {
+        log(this.fastify, `[TwitchService] Longueurs différentes: ${sigBuffer.length} vs ${expectedSigBuffer.length}`, 'error');
         return false;
       }
-      return require("crypto").timingSafeEqual(sigBuffer, expectedSigBuffer);
+      const isValid = require("crypto").timingSafeEqual(sigBuffer, expectedSigBuffer);
+      log(this.fastify, `[TwitchService] Signature valide: ${isValid}`, 'info');
+      return isValid;
     } catch (error: any) {
       log(this.fastify, `[TwitchService] Erreur lors de la vérification de la signature Twitch : ${error.message}`, 'error');
       return false;

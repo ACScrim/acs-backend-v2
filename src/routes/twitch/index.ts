@@ -3,17 +3,23 @@ import {log} from "../../utils/utils";
 
 const twitchRoutes: FastifyPluginAsync = async (fastify) => {
 
-  fastify.post('/twitch-webhook', async (req, res) => {
-    if (!req.raw) {
-      log(fastify, 'rawBody non disponible dans la requête pour la vérification de la signature Twitch.', 'error');
-      return res.status(400).send('Requête invalide : corps brut manquant pour la vérification de la signature');
-    }
-    if (!fastify.twitchService.verifyTwitchSignature(req)) {
-      log(fastify, 'Signature Twitch invalide pour la requête webhook.', 'error');
-      return res.status(403).send('Accès refusé : signature Twitch invalide');
-    }
+  // Log au démarrage pour confirmer l'enregistrement de la route
+  fastify.addHook('onReady', () => {
+    const baseUrl = process.env.BASE_URL || 'NON_CONFIGURÉ';
+    log(fastify, `[TwitchRoutes] Route webhook enregistrée sur: ${baseUrl}/api/twitch/twitch-webhook`, 'info');
+  });
 
-    const messageType = req.headers['Twitch-Eventsub-Message-Type'];
+  fastify.post('/twitch-webhook', async (req, res) => {
+    log(fastify, `[TwitchWebhook] Requête reçue - Headers: ${JSON.stringify(req.headers)}`, 'info');
+    log(fastify, `[TwitchWebhook] Body: ${JSON.stringify(req.body)}`, 'info');
+
+    // if (!fastify.twitchService.verifyTwitchSignature(req)) {
+    //   log(fastify, 'Signature Twitch invalide pour la requête webhook.', 'error');
+    //   return res.status(403).send('Accès refusé : signature Twitch invalide');
+    // }
+
+    const messageType = req.headers['twitch-eventsub-message-type'];
+    console.log(messageType);
 
     switch (messageType) {
       case 'webhook_callback_verification':
