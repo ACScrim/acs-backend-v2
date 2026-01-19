@@ -112,6 +112,58 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
     return leaderboard;
   });
 
+  // Return the last weekly leaderboard (previous week)
+  fastify.get("/last-weekly-leaderboard", { preHandler: [authGuard] }, async (req, resp) => {
+    const now = new Date();
+    const dayOfWeek = now.getDay(); // 0 (Sunday) to 6 (Saturday)
+    const diffToLastMonday = (dayOfWeek + 6) % 7 + 7; // Days since last last Monday
+    const lastMonday = new Date(now);
+    lastMonday.setDate(now.getDate() - diffToLastMonday);
+    lastMonday.setHours(0, 0, 0, 0);
+    const lastSunday = new Date(lastMonday);
+    lastSunday.setDate(lastMonday.getDate() + 7);
+
+    const leaderboard = await fastify.models.QuizAnswer.aggregate([
+      {
+        $match: {
+          answeredAt: { $gte: lastMonday, $lt: lastSunday },
+          points: { $exists: true }
+        }
+      },
+      {
+        $group: {
+          _id: "$userId",
+          totalPoints: { $sum: "$points" }
+        }
+      },
+      {
+        $sort: { totalPoints: -1 }
+      },
+      {
+        $lookup: {
+          from: "users",
+          localField: "_id",
+          foreignField: "_id",
+          as: "user"
+        }
+      },
+      {
+        $unwind: "$user"
+      },
+      {
+        $project: {
+          _id: 0,
+          userId: "$user._id",
+          username: "$user.username",
+          avatarUrl: "$user.avatarUrl",
+          totalPoints: 1
+        }
+      }
+    ]);
+
+    return leaderboard;
+  });
+
   fastify.patch("/answer/:questionId", { preHandler: [authGuard] }, async (req, resp) => {
     const { questionId } = req.params as { questionId: string };
     const today = new Date();
