@@ -24,10 +24,6 @@ jobs:
       - name: Build TypeScript
         run: npm run build:ts
 
-      - name: Run tests (if any)
-        run: npm test || echo "No tests configured"
-        continue-on-error: true
-
       - name: Run remote command
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -38,7 +34,7 @@ jobs:
           script: |
             cd /var/www/acsv2/backend
             git pull
-            npm ci --production
+            npm ci
             rm -rf dist
             npm run build:ts
             pm2 restart acs-backend-v2
