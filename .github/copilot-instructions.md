@@ -118,6 +118,7 @@ src/
 ```typescript
 import { FastifyPluginAsync } from 'fastify';
 import { authGuard } from '../../middleware/authGuard';
+import { log } from '../../utils/utils';
 
 const myRoute: FastifyPluginAsync = async (fastify) => {
   fastify.get('/', { preHandler: [authGuard] }, async (req, res) => {
