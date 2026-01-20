@@ -1,8 +1,10 @@
 import AutoLoad, { AutoloadPluginOptions } from '@fastify/autoload'
 import fastifyCookie from '@fastify/cookie'
 import fastifyCors from '@fastify/cors'
+import fastifyHelmet from '@fastify/helmet'
 import fastifyJwt from '@fastify/jwt'
 import oauthPlugin from '@fastify/oauth2'
+import fastifyRateLimit from '@fastify/rate-limit'
 import fastifySession from '@fastify/session'
 import { FastifyPluginAsync, FastifyServerOptions } from 'fastify'
 import FastifySSEPlugin from 'fastify-sse-v2'
@@ -14,6 +16,10 @@ import {startUpdateAcsersCardCron} from "./crons/updateAcsersCard";
 import {log} from "./utils/utils";
 import MongoSessionStore from "./utils/MongoStore";
 import {readFile} from "node:fs/promises";
+import {validateEnvironment} from "./utils/validateEnv";
+
+// Valider les variables d'environnement au démarrage
+validateEnvironment();
 
 export interface AppOptions extends FastifyServerOptions, Partial<AutoloadPluginOptions> {
 }
@@ -60,6 +66,33 @@ const app: FastifyPluginAsync<AppOptions> = async (
   //  }
   //});
 
+  // Security headers
+  fastify.register(fastifyHelmet, {
+    contentSecurityPolicy: false, // Désactivé car peut interférer avec SSE
+    crossOriginEmbedderPolicy: false
+  });
+
+  // Rate limiting
+  fastify.register(fastifyRateLimit, {
+    max: 100, // Nombre maximum de requêtes
+    timeWindow: '1 minute', // Fenêtre de temps
+    cache: 10000, // Taille du cache
+    allowList: ['127.0.0.1'], // Whitelist pour localhost
+    redis: undefined, // Peut être configuré avec Redis pour production
+    skipOnError: true, // Continue même en cas d'erreur
+    keyGenerator: (req) => {
+      // Utiliser l'IP du client ou l'ID de session si disponible
+      return req.session?.userId || req.ip;
+    },
+    errorResponseBuilder: () => {
+      return {
+        code: 429,
+        error: 'Trop de requêtes',
+        message: 'Vous avez dépassé la limite de requêtes. Veuillez réessayer plus tard.'
+      };
+    }
+  });
+
   // SSE
   fastify.register(FastifySSEPlugin);
 
@@ -86,24 +119,40 @@ const app: FastifyPluginAsync<AppOptions> = async (
   })
 
   // JWT
+  const jwtSecret = process.env.JWT_SECRET;
+  if (!jwtSecret) {
+    throw new Error('JWT_SECRET est requis');
+  }
   fastify.register(fastifyJwt, {
-    secret: process.env.JWT_SECRET || 'supersecret'
+    secret: jwtSecret
   })
 
   // COOKIE
+  const cookieSecret = process.env.COOKIE_SECRET;
+  if (!cookieSecret) {
+    throw new Error('COOKIE_SECRET est requis');
+  }
   fastify.register(fastifyCookie, {
-    secret: process.env.COOKIE_SECRET || 'supersecret',
+    secret: cookieSecret,
     parseOptions: {},
   })
 
+  const mongoUri = process.env.MONGODB_URI;
+  if (!mongoUri) {
+    throw new Error('MONGODB_URI est requis');
+  }
   const mongoStore = new MongoSessionStore(
-    process.env.MONGODB_URI || 'mongodb://localhost:27017',
+    mongoUri,
     'acs-v2'
   );
 
+  const sessionSecret = process.env.SESSION_SECRET;
+  if (!sessionSecret) {
+    throw new Error('SESSION_SECRET est requis');
+  }
   fastify.register(fastifySession, {
     cookieName: 'acs.sid',
-    secret: process.env.SESSION_SECRET || 'supersecretsupersecretsupersecretsupersecret',
+    secret: sessionSecret,
     cookie: {
       maxAge: 7 * 24 * 60 * 60 * 1000,
       httpOnly: true,

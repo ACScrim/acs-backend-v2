@@ -28,6 +28,44 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
 
   await mongoose.connect(uri);
 
+  // Créer les indexes pour améliorer les performances
+  try {
+    // User indexes
+    await User.collection.createIndex({ email: 1 }, { unique: true });
+    await User.collection.createIndex({ discordId: 1 }, { sparse: true });
+    await User.collection.createIndex({ twitchUsername: 1 }, { sparse: true });
+    
+    // Tournament indexes
+    await Tournament.collection.createIndex({ date: -1 });
+    await Tournament.collection.createIndex({ finished: 1 });
+    await Tournament.collection.createIndex({ 'players.user': 1 });
+    
+    // GameProposal indexes
+    await GameProposal.collection.createIndex({ rawgId: 1 }, { sparse: true });
+    await GameProposal.collection.createIndex({ createdAt: -1 });
+    
+    // Season indexes
+    await Season.collection.createIndex({ number: 1 });
+    await Season.collection.createIndex({ tournaments: 1 });
+    
+    // Scrimium indexes
+    await Scrimium.collection.createIndex({ userId: 1 }, { unique: true });
+    
+    // CardCollection indexes
+    await CardCollection.collection.createIndex({ userId: 1 });
+    await CardCollection.collection.createIndex({ cardId: 1 });
+    await CardCollection.collection.createIndex({ userId: 1, cardId: 1 }, { unique: true });
+    
+    // QuizAnswer indexes
+    await QuizAnswer.collection.createIndex({ userId: 1 });
+    await QuizAnswer.collection.createIndex({ questionId: 1 });
+    await QuizAnswer.collection.createIndex({ createdAt: -1 });
+    
+    fastify.log.info('MongoDB indexes créés avec succès');
+  } catch (error) {
+    fastify.log.error({ error }, 'Erreur lors de la création des indexes MongoDB');
+  }
+
   fastify.decorate('models', {
     User: User,
     Badge: Badge,

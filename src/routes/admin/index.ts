@@ -4,9 +4,10 @@ import * as path from "path";
 import * as readline from "readline";
 import {Tail} from "tail";
 import {log} from "../../utils/utils";
+import {adminGuard} from "../../middleware/authGuard";
 
 const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
-  fastify.get("/logs/history", async (request, reply) => {
+  fastify.get("/logs/history", { preHandler: [adminGuard] }, async (request, reply) => {
     const logPath = path.join(__dirname, "../../../../logs/backend.log");
 
     try {
@@ -29,7 +30,7 @@ const adminRootRoutes: FastifyPluginAsync = async (fastify) => {
    * Récupère et diffuse le flux des logs du backend en temps réel
    * Surveille les nouvelles lignes avec SSE (Server-Sent Events)
    */
-  fastify.get("/logs", async (request, reply) => {
+  fastify.get("/logs", { preHandler: [adminGuard] }, async (request, reply) => {
     const logPath = path.join(__dirname, "../../../../logs/backend.log");
 
     try {
