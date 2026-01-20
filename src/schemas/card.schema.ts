@@ -18,7 +18,8 @@ export const createCardSchema = {
       },
       imageBase64: {
         type: 'string',
-        // Limite à environ 8MB en base64 (10MB * 0.75 pour tenir compte de l'encodage)
+        // Limite à environ 6MB en base64
+        // Base64 augmente la taille de ~33% (4/3): 6MB * 1.33 ≈ 8MB base64
         maxLength: 8 * 1024 * 1024
       },
       imageMimeType: {
@@ -52,6 +53,8 @@ export const updateCardSchema = {
       },
       imageBase64: {
         type: 'string',
+        // Limite à environ 6MB en base64
+        // Base64 augmente la taille de ~33% (4/3): 6MB * 1.33 ≈ 8MB base64
         maxLength: 8 * 1024 * 1024
       },
       imageMimeType: {

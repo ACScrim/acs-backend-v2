@@ -9,7 +9,13 @@ export const startUpdateDiscordAvatarsCron = async (fastify: FastifyInstance) =>
     try {
       const batchSize = 50; // Traiter 50 utilisateurs à la fois
       // Délai configurable entre les lots (par défaut 1000ms)
-      const batchDelay = Number(process.env.DISCORD_BATCH_DELAY_MS) || 1000;
+      // Validation: entre 100ms et 10000ms (10s) pour éviter les erreurs de config
+      let batchDelay = Number(process.env.DISCORD_BATCH_DELAY_MS) || 1000;
+      if (batchDelay < 100 || batchDelay > 10000) {
+        log(fastify, `DISCORD_BATCH_DELAY_MS invalide (${batchDelay}ms), utilisation de 1000ms par défaut`, 'info');
+        batchDelay = 1000;
+      }
+      
       let skip = 0;
       let totalUpdated = 0;
       let totalErrors = 0;
