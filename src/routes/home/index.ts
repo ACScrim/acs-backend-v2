@@ -30,6 +30,25 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   /**
+   * Returns the current ongoing tournament (started but not finished)
+   */
+  fastify.get("/current-tournament", async (req, res) => {
+    try {
+      const tournament = await fastify.models.Tournament.findOne({
+        date: { $lte: new Date() },
+        finished: false
+      })
+        .sort({ date: -1 })
+        .populate('game').populate('players.user teams.users clips.addedBy');
+
+      return tournament;
+    } catch (error) {
+      log(fastify, `Erreur lors de la récupération du tournoi en cours: ${error}`, "error");
+      return res.status(500).send({ error: 'Erreur lors de la récupération du tournoi en cours' });
+    }
+  })
+
+  /**
    * Returns next 3 tournaments
    */
   fastify.get("/next-tournaments", async (req, res) => {
