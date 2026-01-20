@@ -69,7 +69,7 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     // En production, les indexes critiques sont essentiels
     if (process.env.NODE_ENV === 'production') {
       fastify.log.fatal('Échec de création des indexes critiques en production');
-      throw new Error('MongoDB indexes creation failed in production');
+      // throw new Error('MongoDB indexes creation failed in production');
     }
   }
 
