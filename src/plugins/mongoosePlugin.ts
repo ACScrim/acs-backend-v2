@@ -30,7 +30,7 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
 
   // Créer les indexes pour améliorer les performances
   try {
-    // User indexes
+    // User indexes (critiques)
     await User.collection.createIndex({ email: 1 }, { unique: true });
     await User.collection.createIndex({ discordId: 1 }, { sparse: true });
     await User.collection.createIndex({ twitchUsername: 1 }, { sparse: true });
@@ -48,7 +48,7 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     await Season.collection.createIndex({ number: 1 });
     await Season.collection.createIndex({ tournaments: 1 });
     
-    // Scrimium indexes
+    // Scrimium indexes (critique)
     await Scrimium.collection.createIndex({ userId: 1 }, { unique: true });
     
     // CardCollection indexes
@@ -63,7 +63,14 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     
     fastify.log.info('MongoDB indexes créés avec succès');
   } catch (error) {
+    // Log l'erreur avec détails
     fastify.log.error({ error }, 'Erreur lors de la création des indexes MongoDB');
+    
+    // En production, les indexes critiques sont essentiels
+    if (process.env.NODE_ENV === 'production') {
+      fastify.log.fatal('Échec de création des indexes critiques en production');
+      throw new Error('MongoDB indexes creation failed in production');
+    }
   }
 
   fastify.decorate('models', {

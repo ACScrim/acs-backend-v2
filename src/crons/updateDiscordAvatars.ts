@@ -8,6 +8,8 @@ export const startUpdateDiscordAvatarsCron = async (fastify: FastifyInstance) =>
 
     try {
       const batchSize = 50; // Traiter 50 utilisateurs à la fois
+      // Délai configurable entre les lots (par défaut 1000ms)
+      const batchDelay = Number(process.env.DISCORD_BATCH_DELAY_MS) || 1000;
       let skip = 0;
       let totalUpdated = 0;
       let totalErrors = 0;
@@ -41,8 +43,8 @@ export const startUpdateDiscordAvatarsCron = async (fastify: FastifyInstance) =>
 
         skip += batchSize;
         
-        // Petit délai entre les lots pour éviter la surcharge
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        // Délai entre les lots pour éviter la surcharge
+        await new Promise(resolve => setTimeout(resolve, batchDelay));
       }
 
       log(fastify, `updateDiscordAvatars cron job completed. Updated: ${totalUpdated}, Errors: ${totalErrors}`);

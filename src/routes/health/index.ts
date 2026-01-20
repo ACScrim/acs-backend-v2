@@ -7,10 +7,26 @@ const healthRoute: FastifyPluginAsync = async (fastify) => {
    */
   fastify.get("/health", async () => {
     const mongooseState = mongoose.connection?.readyState;
-    const mongooseStatus = mongooseState === 1 ? 'connected' : 'disconnected';
+    
+    // États MongoDB: 0=disconnected, 1=connected, 2=connecting, 3=disconnecting
+    let mongooseStatus = 'unknown';
+    switch (mongooseState) {
+      case 0:
+        mongooseStatus = 'disconnected';
+        break;
+      case 1:
+        mongooseStatus = 'connected';
+        break;
+      case 2:
+        mongooseStatus = 'connecting';
+        break;
+      case 3:
+        mongooseStatus = 'disconnecting';
+        break;
+    }
     
     return {
-      status: 'ok',
+      status: mongooseState === 1 ? 'ok' : 'degraded',
       timestamp: new Date().toISOString(),
       uptime: process.uptime(),
       mongodb: mongooseStatus,

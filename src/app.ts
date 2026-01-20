@@ -81,8 +81,10 @@ const app: FastifyPluginAsync<AppOptions> = async (
     redis: undefined, // Peut être configuré avec Redis pour production
     skipOnError: true, // Continue même en cas d'erreur
     keyGenerator: (req) => {
-      // Utiliser l'IP du client ou l'ID de session si disponible
-      return req.session?.userId || req.ip;
+      // Utiliser une combinaison IP + userId pour éviter les abus
+      // même pour les utilisateurs authentifiés
+      const userId = req.session?.userId || 'anonymous';
+      return `${req.ip}:${userId}`;
     },
     errorResponseBuilder: () => {
       return {

@@ -28,14 +28,14 @@ export const updateUserRoleSchema = {
 export const updateTwitchUsernameSchema = {
   body: {
     type: 'object',
-    required: ['twitchUsername'],
     properties: {
       twitchUsername: {
         type: 'string',
-        minLength: 0,
+        minLength: 1,
         maxLength: 25 // Twitch username max length
       }
-    }
+    },
+    additionalProperties: false
   }
 };
 
