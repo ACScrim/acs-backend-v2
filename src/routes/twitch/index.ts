@@ -3,63 +3,62 @@ import {log} from "../../utils/utils";
 
 const twitchRoutes: FastifyPluginAsync = async (fastify) => {
 
-  // Log au démarrage pour confirmer l'enregistrement de la route
-  fastify.addHook('onReady', () => {
-    const baseUrl = process.env.BASE_URL || 'NON_CONFIGURÉ';
-    log(fastify, `[TwitchRoutes] Route webhook enregistrée sur: ${baseUrl}/api/twitch/twitch-webhook`, 'info');
+  // Route pour lister toutes les souscriptions
+  fastify.get('/subscriptions', async (req, res) => {
+    const subs = await fastify.twitchService.listAllSubscriptions();
+    return res.send(subs);
+  });
+
+  // Route pour supprimer toutes les souscriptions
+  fastify.delete('/subscriptions', async (req, res) => {
+    const result = await fastify.twitchService.deleteAllSubscriptions();
+    return res.send(result);
   });
 
   // Route webhook Twitch EventSub
-  fastify.post('/twitch-webhook', async (req, res) => {
-    log(fastify, `[TwitchWebhook] 📨 Requête reçue`, 'info');
-    log(fastify, `[TwitchWebhook] Headers: ${JSON.stringify(req.headers)}`, 'info');
-    log(fastify, `[TwitchWebhook] Body: ${JSON.stringify(req.body)}`, 'info');
-
+  fastify.post('/webhook', async (req, res) => {
+    // Vérifier la signature
     if (!fastify.twitchService.verifyTwitchSignature(req)) {
-      log(fastify, '[TwitchWebhook] ❌ Signature Twitch invalide', 'error');
-      return res.status(403).send('Accès refusé : signature Twitch invalide');
+      log(fastify, '[TwitchWebhook] ❌ Signature invalide', 'error');
+      return res.status(403).send('Signature invalide');
     }
 
     const messageType = req.headers['twitch-eventsub-message-type'];
-    log(fastify, `[TwitchWebhook] Type de message: ${messageType}`, 'info');
 
     switch (messageType) {
       case 'webhook_callback_verification':
+        // Répondre au challenge pour vérifier le webhook
         const challengeBody = req.body as any;
-        log(fastify, `[TwitchWebhook] ✅ Vérification webhook - Challenge: ${challengeBody.challenge}`, 'info');
         return res.status(200).type('text/plain').send(challengeBody.challenge);
 
       case 'notification':
         const notificationBody = req.body as any;
-        log(fastify, `[TwitchWebhook] 🔔 Notification reçue - Type: ${notificationBody.subscription.type}`, 'info');
 
         if (notificationBody.subscription.type === 'stream.online') {
-          const eventData = notificationBody.event;
-          const streamerUsername = eventData.broadcaster_user_name;
-          const streamerId = eventData.broadcaster_user_id;
+          const event = notificationBody.event;
+          const streamerUsername = event.broadcaster_user_name;
+          const streamerId = event.broadcaster_user_id;
 
-          log(fastify, `[TwitchWebhook] 🎮 Stream online détecté: ${streamerUsername} (ID: ${streamerId})`, 'info');
-
+          // Récupérer les détails du stream et envoyer la notification Discord
           const streamDetails = await fastify.twitchService.getStreamInfoByUserId(streamerId);
           if (streamDetails) {
-            log(fastify, `[TwitchWebhook] ✅ Détails du stream récupérés, envoi notification Discord`, 'info');
             await fastify.discordService.sendTwitchNotification(streamDetails, streamerUsername);
-            log(fastify, `[TwitchWebhook] ✅ Notification Discord envoyée pour ${streamerUsername}`, 'info');
           } else {
-            log(fastify, `[TwitchWebhook] ❌ Impossible de récupérer les détails du stream pour ${streamerUsername}`, 'error');
+            log(fastify, `[TwitchWebhook] ❌ Impossible de récupérer les détails du stream`, 'error');
           }
         }
-        return res.status(200).send('Notification received');
+
+        return res.status(200).send('OK');
 
       case 'revocation':
-        log(fastify, `[TwitchWebhook] ⚠️ Abonnement révoqué: ${JSON.stringify(req.body)}`, 'info');
-        return res.status(200).send('Revocation received');
+        log(fastify, `[TwitchWebhook] ⚠️ Souscription révoquée`, 'error');
+        return res.status(200).send('OK');
 
       default:
-        log(fastify, `[TwitchWebhook] ❓ Type de message inconnu: ${messageType}`, 'error');
-        return res.status(400).send('Requête invalide : type de message Twitch inconnu');
+        log(fastify, `[TwitchWebhook] ❌ Type de message inconnu: ${messageType}`, 'error');
+        return res.status(400).send('Type de message inconnu');
     }
-  })
+  });
 }
 
 export default twitchRoutes;
