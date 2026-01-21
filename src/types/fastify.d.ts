@@ -50,7 +50,8 @@ declare module 'fastify' {
       BoosterShopItem: Model<BoosterShopItem>,
       Acsdle: Model<Acsdle>
       DiscordMessage: Model<DiscordMessage>,
-      Bet: Model<Bet>
+      Bet: Model<Bet>,
+      CardTrade: Model<CardTrade>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
