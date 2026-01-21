@@ -1,6 +1,6 @@
 import { DiscordUser } from "../../../../types";
 import { FastifyPluginAsync } from "fastify";
-import { log } from "../../../../utils/utils";
+import { log, AppError } from "../../../../utils/utils";
 
 const DISCORD_SERVER_ID = process.env.DISCORD_GUILD_ID || '1330973733929615420';
 const DISCORD_INVITE_URL = process.env.DISCORD_INVITE_URL || 'https://discord.gg/ksCGJztmBd';
@@ -17,7 +17,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
     try {
       const { code } = req.query as { code?: string };
       if (!code) {
-        return res.status(400).send({ error: 'Missing authorization code' });
+        throw new AppError(400, 'Missing authorization code');
       }
 
       // @ts-ignore
@@ -30,7 +30,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
           `Discord OAuth2 callback: access_token manquant (hasToken=${Boolean(oauth?.token)}, url=${req.url})`,
           "error"
         );
-        return res.status(500).send({ error: "Authentication failed" });
+        throw new AppError(500, "Authentication failed");
       }
 
       const memberResponse = await fetch(`https://discord.com/api/v10/users/@me/guilds/${DISCORD_SERVER_ID}/member`, {
@@ -100,7 +100,7 @@ const authDiscordCallbackRoutes: FastifyPluginAsync = async (fastify) => {
       );
     } catch (error) {
       log(fastify, `Erreur lors de l'authentification Discord : ${error}`, 'error');
-      return res.status(500).send({ error: 'Authentication failed' });
+      throw error instanceof AppError ? error : new AppError(500, 'Authentication failed');
     }
   })
 }

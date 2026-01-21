@@ -4,62 +4,62 @@ import {IUser} from "../../models/User";
 import {ITournament} from "../../models/Tournament";
 import {IGame} from "../../models/Game";
 import {ISeason} from "../../models/Season";
-import {log} from "../../utils/utils";
+import {log, AppError} from "../../utils/utils";
 
 const usersRoute: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les utilisateurs
    */
-  fastify.get("/", {preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/", {preHandler: [authGuard] }, async () => {
     try {
       return fastify.models.User.find();
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des utilisateurs : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération des utilisateurs' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des utilisateurs');
     }
   })
 
   /**
    * Récupère les informations de l'utilisateur connecté
    */
-  fastify.get("/me", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/me", { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId as string;
       const user = await fastify.models.User.findById(userId);
       // @ts-ignore
       const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(userId);
       if (!user) {
-        log(fastify, `Utilisateur introuvable avec l'identifiant ${userId}`, 'error', 404);
-        return res.status(404).send({ error: "Utilisateur introuvable pour l'identifiant fourni" });
+        log(fastify, `Utilisateur introuvable avec l'identifiant ${userId}`, 'error');
+        throw new AppError(404, "Utilisateur introuvable pour l'identifiant fourni");
       }
       user.set('scrimium', scrimium);
       return user;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du profil utilisateur : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération du profil' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du profil');
     }
   })
 
   /**
    * Récupère le profil public d'un utilisateur avec son historique de tournois et statistiques
    */
-  fastify.get('/profile/:id', { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get('/profile/:id', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = (req.params as { id: string }).id;
       const currentUserId = req.session.userId as string;
 
       const user = await fastify.models.User.findById(userId) as IUser;
       if (!user) {
-        log(fastify, `Utilisateur introuvable avec l'identifiant ${userId}`, 'error', 404);
-        return res.status(404).send({ error: "Utilisateur introuvable pour l'identifiant fourni" });
+        log(fastify, `Utilisateur introuvable avec l'identifiant ${userId}`, 'error');
+        throw new AppError(404, "Utilisateur introuvable pour l'identifiant fourni");
       }
 
       if (userId === currentUserId) {
         // @ts-ignore
         const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
         if (!scrimium) {
-          log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error', 500);
-          return res.status(500).send({ error: "Impossible de récupérer les données de progression utilisateur" });
+          log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error');
+          throw new AppError(500, "Impossible de récupérer les données de progression utilisateur");
         }
         user.set('scrimium', scrimium)
       }
@@ -133,11 +133,11 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
       return finalResponse;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du profil utilisateur ${(req.params as any).id} : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération du profil' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du profil');
     }
   });
 
-  fastify.patch(`/me/twitch`, { preHandler: [authGuard] }, async (req, res) => {
+  fastify.patch(`/me/twitch`, { preHandler: [authGuard] }, async (req) => {
     try {
       const currentUserId = req.session.userId as string;
 
@@ -145,8 +145,8 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
 
       const user = await fastify.models.User.findById(currentUserId) as IUser;
       if (!user) {
-        log(fastify, `Utilisateur introuvable avec l'identifiant ${currentUserId}`, 'error', 404);
-        return res.status(404).send({ error: "Utilisateur introuvable pour l'identifiant fourni" });
+        log(fastify, `Utilisateur introuvable avec l'identifiant ${currentUserId}`, 'error');
+        throw new AppError(404, "Utilisateur introuvable pour l'identifiant fourni");
       }
 
       if (twitchUsername && twitchUsername.trim().length > 0) {
@@ -163,15 +163,15 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
       // @ts-ignore
       const scrimium = await fastify.models.Scrimium.findOrCreateByUserId(currentUserId);
       if (!scrimium) {
-        log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error', 500);
-        return res.status(500).send({ error: "Impossible de récupérer les données de progression utilisateur" });
+        log(fastify, `Impossible de récupérer les données Scrimium pour l'utilisateur ${currentUserId}`, 'error');
+        throw new AppError(500, "Impossible de récupérer les données de progression utilisateur");
       }
       user.set('scrimium', scrimium)
 
       return user;
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du Twitch de l'utilisateur ${(req.params as any).id} : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la mise à jour du Twitch' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour du Twitch');
     }
   })
 };

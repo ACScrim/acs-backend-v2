@@ -1,12 +1,12 @@
 import { FastifyPluginAsync } from "fastify";
-import { log } from "../../../utils/utils";
+import { log, AppError } from "../../../utils/utils";
 import { adminGuard } from "../../../middleware/authGuard";
 
 const adminUsersRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les utilisateurs avec leurs rapports signalements associés
    */
-  fastify.get("/", { preHandler: [] }, async (_req, res) => {
+  fastify.get("/", { preHandler: [] }, async () => {
     try {
       // NOTE: collection mongo = "reports" (Mongoose pluralise le modèle Report)
       // et "users" côté User.
@@ -29,7 +29,7 @@ const adminUsersRoutes: FastifyPluginAsync = async (fastify) => {
       ]).exec();
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des utilisateurs : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération des utilisateurs' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des utilisateurs');
     }
   });
 
@@ -42,15 +42,15 @@ const adminUsersRoutes: FastifyPluginAsync = async (fastify) => {
       const { role } = req.body;
       const user = await fastify.models.User.findById(userId);
       if (!user) {
-        log(fastify, `Utilisateur introuvable pour la mise à jour du rôle (${userId})`, 'error', 404);
-        return res.status(404).send({ message: "Utilisateur introuvable pour la mise à jour du rôle" });
+        log(fastify, `Utilisateur introuvable pour la mise à jour du rôle (${userId})`, 'error');
+        throw new AppError(404, "Utilisateur introuvable pour la mise à jour du rôle");
       }
       (user as any).role = role;
       await (user as any).save();
       return res.send({ message: "Rôle utilisateur mis à jour avec succès" });
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du rôle de l'utilisateur ${(req.params as any).userId} : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la mise à jour du rôle' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour du rôle');
     }
   });
 };

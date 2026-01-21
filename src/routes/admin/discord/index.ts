@@ -1,6 +1,6 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
-import { log } from "../../../utils/utils";
+import { log, AppError } from "../../../utils/utils";
 
 const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
   // Liste des messages privés reçus (inbound DMs)
@@ -21,7 +21,7 @@ const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   // Envoi d'un message (texte ou embed) vers un salon ou en DM
-  fastify.post('/send', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.post('/send', { preHandler: [adminGuard] }, async (request) => {
     const body = request.body as {
       targetType: 'channel' | 'dm';
       discordChannelId?: string;
@@ -39,18 +39,18 @@ const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
     };
 
     if (body.targetType === 'channel' && !body.discordChannelId) {
-      return reply.status(400).send({ error: 'discordChannelId requis pour un message de type channel' });
+      throw new AppError(400, 'discordChannelId requis pour un message de type channel');
     }
     if (body.targetType === 'dm' && !body.discordUserId) {
-      return reply.status(400).send({ error: 'discordUserId requis pour un message privé' });
+      throw new AppError(400, 'discordUserId requis pour un message privé');
     }
 
     // Validation contenu
     if (body.messageType === 'text' && !body.content) {
-      return reply.status(400).send({ error: 'content requis pour un message texte' });
+      throw new AppError(400, 'content requis pour un message texte');
     }
     if (body.messageType === 'embed' && !body.embed) {
-      return reply.status(400).send({ error: 'embed requis pour un message embed' });
+      throw new AppError(400, 'embed requis pour un message embed');
     }
 
     try {
@@ -65,7 +65,7 @@ const adminDiscordRoutes: FastifyPluginAsync = async (fastify) => {
       return { success: true, messageId };
     } catch (error) {
       log(fastify, `Erreur lors de l'envoi du message Discord : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de l\'envoi du message Discord' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de l\'envoi du message Discord');
     }
   });
 

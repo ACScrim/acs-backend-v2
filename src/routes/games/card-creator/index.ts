@@ -3,7 +3,7 @@ import {authGuard} from "../../../middleware/authGuard";
 import {ICard} from "../../../models/Card";
 import {ICardAsset} from "../../../models/CardAsset";
 import {IUser} from "../../../models/User";
-import {log} from "../../../utils/utils";
+import {log, AppError} from "../../../utils/utils";
 import {
   uploadCardImage,
   uploadCardAssetImage,
@@ -21,7 +21,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     return cards;
   })
 
-  fastify.get("/cards/:cardId", { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get("/cards/:cardId", { preHandler: [authGuard] }, async (req) => {
     const { cardId } = req.params as { cardId: string };
 
     const card = await fastify.models.Card.findById(cardId)
@@ -30,13 +30,11 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
       .populate('category');
 
     if (!card) {
-      resp.status(404);
-      return { message: 'Carte non trouvée.' };
+      throw new AppError(404, 'Carte non trouvée.');
     }
 
     if (card.createdBy.toString() !== req.session.userId) {
-      resp.status(403);
-      return { message: 'Vous n\'êtes pas autorisé à accéder à cette carte.' };
+      throw new AppError(403, 'Vous n\'êtes pas autorisé à accéder à cette carte.');
     }
 
     return card;
@@ -54,17 +52,17 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     return users.filter(user => user.avatarUrl);
   });
 
-  fastify.get("/main-images", { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get("/main-images", { preHandler: [authGuard] }, async () => {
     try {
       const images = await getMainCardImages();
       return images;
     } catch (error) {
-      resp.status(500);
-      return { message: 'Erreur lors de la récupération des images.' };
+      log(fastify, `Erreur lors de la récupération des images principales : ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des images.');
     }
   });
 
-  fastify.get("/main-images/used", { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get("/main-images/used", { preHandler: [authGuard] }, async (req) => {
     try {
       // Get all unique image URLs from cards
       const cards = await fastify.models.Card.find({ imageUrl: { $exists: true, $ne: null }, createdBy: req.session.userId! }).select('imageUrl');
@@ -80,8 +78,8 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
 
       return usedImages;
     } catch (error) {
-      resp.status(500);
-      return { message: 'Erreur lors de la récupération des images utilisées.' };
+      log(fastify, `Erreur lors de la récupération des images utilisées : ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des images utilisées.');
     }
   });
 
@@ -104,7 +102,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * POST
    */
-  fastify.post("/asset", { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post("/asset", { preHandler: [authGuard] }, async (req) => {
     const body = req.body as Omit<ICardAsset, 'createdBy'> & { imageBase64?: string; imageMimeType?: string };
 
     let imageUrl: string | undefined;
@@ -120,8 +118,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
         imageUrl = result.imageUrl;
       } catch (uploadError) {
         log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
-        resp.status(400);
-        return { message: 'Erreur lors de l\'upload de l\'image.' };
+        throw new AppError(400, 'Erreur lors de l\'upload de l\'image.');
       }
     }
 
@@ -150,7 +147,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     return fastify.models.CardAsset.findById(newAsset.id).populate('createdBy', 'id username avatarUrl');
   });
 
-  fastify.post("/card", { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post("/card", { preHandler: [authGuard] }, async (req) => {
     try {
       const body = req.body as Omit<ICard, 'createdBy'> & { imageBase64?: string; imageMimeType?: string; imageUrl?: string };
 
@@ -166,8 +163,7 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
           imageUrl = result.imageUrl;
         } catch (uploadError) {
           log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
-          resp.status(400);
-          return { message: 'Erreur lors de l\'upload de l\'image.' };
+          throw new AppError(400, 'Erreur lors de l\'upload de l\'image.');
         }
       }
 
@@ -195,22 +191,20 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
       return savedCard;
     } catch (error) {
       log(fastify, `Erreur lors de la création de la carte : ${error}`, 'error');
-      throw error;
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la création de la carte');
     }
   });
 
-  fastify.delete("/card/:id", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.delete("/card/:id", { preHandler: [authGuard] }, async (req) => {
     const { id } = req.params as { id: string };
 
     const card = await fastify.models.Card.findById(id);
     if (!card) {
-      res.status(404);
-      return { message: 'Carte non trouvée.' };
+      throw new AppError(404, 'Carte non trouvée.');
     }
 
     if (card.createdBy.toString() !== req.session.userId) {
-      res.status(403);
-      return { message: 'Vous n\'êtes pas autorisé à supprimer cette carte.' };
+      throw new AppError(403, 'Vous n\'êtes pas autorisé à supprimer cette carte.');
     }
 
     // Before deleting, check if this image is used by other cards
@@ -248,13 +242,12 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     return { message: 'Carte supprimée avec succès.' };
   });
 
-  fastify.delete("/asset/:id", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.delete("/asset/:id", { preHandler: [authGuard] }, async (req) => {
     const { id } = req.params as { id: string };
 
     const asset = await fastify.models.CardAsset.findById(id);
     if (!asset) {
-      res.status(404);
-      return { message: 'Asset non trouvé.' };
+      throw new AppError(404, 'Asset non trouvé.');
     }
 
     const cardsUsingAsset = await fastify.models.Card.find({
@@ -265,13 +258,11 @@ const cardCreatorRoutes: FastifyPluginAsync = async (fastify) => {
     });
 
     if (cardsUsingAsset.length > 0) {
-      res.status(400);
-      return { message: 'Impossible de supprimer cet asset car il est utilisé par une ou plusieurs cartes.' };
+      throw new AppError(400, 'Impossible de supprimer cet asset car il est utilisé par une ou plusieurs cartes.');
     }
 
     if (asset.createdBy.toString() !== req.session.userId) {
-      res.status(403);
-      return { message: 'Vous n\'êtes pas autorisé à supprimer cet asset.' };
+      throw new AppError(403, 'Vous n\'êtes pas autorisé à supprimer cet asset.');
     }
 
     // Delete image from Cloudinary if it's an image type asset

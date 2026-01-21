@@ -3,22 +3,20 @@ import {adminGuard} from "../../../middleware/authGuard";
 import {ICard} from "../../../models/Card";
 import {IUser} from "../../../models/User";
 import {uploadCardImage} from "../../../services/cloudinaryService";
-import {log} from "../../../utils/utils";
+import {log, AppError} from "../../../utils/utils";
 
 const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
 
-  fastify.get('/', { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.get('/', { preHandler: [adminGuard] }, async () => {
     const cards = await fastify.models.Card.find().populate('frontAsset borderAsset createdBy category');
-
     return cards;
   });
 
-  fastify.post('/:id/approve', { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.post('/:id/approve', { preHandler: [adminGuard] }, async (req) => {
     const cardId = (req.params as any).id as string;
     const card = await fastify.models.Card.findById(cardId);
     if (!card) {
-      resp.status(404);
-      return { message: 'Carte non trouvée.' };
+      throw new AppError(404, 'Carte non trouvée.');
     }
 
     const creator = await fastify.models.User.findById(card.createdBy) as IUser;
@@ -30,18 +28,16 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
     }
 
     card.status = 'waiting';
-
     await card.save();
 
     return fastify.models.Card.findById(card.id).populate('frontAsset borderAsset createdBy');
   });
 
-  fastify.post('/:id/reject', { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.post('/:id/reject', { preHandler: [adminGuard] }, async (req) => {
     const cardId = (req.params as any).id as string;
     const card = await fastify.models.Card.findById(cardId);
     if (!card) {
-      resp.status(404);
-      return { message: 'Carte non trouvée.' };
+      throw new AppError(404, 'Carte non trouvée.');
     }
 
     const creator = await fastify.models.User.findById(card.createdBy) as IUser;
@@ -54,21 +50,19 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
     }
 
     card.status = 'inactive';
-
     await card.save();
 
     return fastify.models.Card.findById(card.id).populate('frontAsset borderAsset createdBy');
   });
 
-  fastify.patch('/:id', { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.patch('/:id', { preHandler: [adminGuard] }, async (req) => {
     try {
       const {id} = req.params as { id: string };
       const body = req.body as Partial<ICard> & { imageBase64?: string; imageMimeType?: string; imageUrl?: string };
 
       const card = await fastify.models.Card.findById(id);
       if (!card) {
-        resp.status(404);
-        return {message: 'Carte non trouvée.'};
+        throw new AppError(404, 'Carte non trouvée.');
       }
 
       let imageUrl = body.imageUrl ?? card.imageUrl;
@@ -81,8 +75,7 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
           imageUrl = result.imageUrl;
         } catch (uploadError) {
           log(fastify, `Erreur lors de l'upload Cloudinary: ${uploadError}`, 'error');
-          resp.status(400);
-          return {message: 'Erreur lors de l\'upload de l\'image.'};
+          throw new AppError(400, 'Erreur lors de l\'upload de l\'image.');
         }
       }
 
@@ -104,7 +97,7 @@ const cardsAdminRoutes: FastifyPluginAsync = async (fastify) => {
       return updatedCard;
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour de la carte : ${error}`, 'error');
-      throw error;
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour de la carte');
     }
   });
 }

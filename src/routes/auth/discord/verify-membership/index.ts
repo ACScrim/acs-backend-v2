@@ -1,6 +1,6 @@
 import { DiscordUser } from "../../../../types";
 import { FastifyPluginAsync } from "fastify";
-import { log } from "../../../../utils/utils";
+import { log, AppError } from "../../../../utils/utils";
 
 const DISCORD_SERVER_ID = process.env.DISCORD_GUILD_ID || '1330973733929615420';
 
@@ -28,7 +28,7 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
             tempToken = payload.access_token;
           }
         } catch {
-          return res.status(401).send({ error: 'Invalid or expired verification token' });
+          throw new AppError(401, 'Invalid or expired verification token');
         }
       }
 
@@ -39,7 +39,7 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
       }
 
       if (!tempToken) {
-        return res.status(401).send({ error: 'No temporary token found' });
+        throw new AppError(401, 'No temporary token found');
       }
 
       // Vérifier l'appartenance au serveur
@@ -50,7 +50,7 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
       });
 
       if (!memberResponse.ok) {
-        return res.status(403).send({ error: 'Not a member of the required server' });
+        throw new AppError(403, 'Not a member of the required server');
       }
 
       // Récupérer les infos utilisateur
@@ -95,7 +95,7 @@ const authDiscordVerifyMembershipRoute: FastifyPluginAsync = async (fastify) => 
       return { success: true };
     } catch (error) {
       log(fastify, `Erreur lors de la vérification d'appartenance Discord : ${error}`, 'error');
-      return res.status(500).send({ error: 'Verification failed' });
+      throw error instanceof AppError ? error : new AppError(500, 'Verification failed');
     }
   });
 };

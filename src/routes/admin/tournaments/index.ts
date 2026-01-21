@@ -2,7 +2,7 @@ import {ITournament, ITournamentPlayer} from "../../../models/Tournament";
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "../../../models/Game";
-import {log} from "../../../utils/utils";
+import {log, AppError} from "../../../utils/utils";
 import card from "../../../models/Card";
 import {IUser} from "../../../models/User";
 
@@ -26,7 +26,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return tournaments;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des tournois : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération des tournois' });
+      throw new AppError(500, 'Erreur lors de la récupération des tournois');
     }
   });
 
@@ -48,7 +48,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return tournament;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération du tournoi' });
+      throw new AppError(500, 'Erreur lors de la récupération du tournoi');
     }
   });
 
@@ -95,7 +95,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la création du tournoi : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la création du tournoi' });
+      throw new AppError(500, 'Erreur lors de la création du tournoi');
     }
   });
 
@@ -120,7 +120,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour des équipes du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la mise à jour des équipes' });
+      throw new AppError(500, 'Erreur lors de la mise à jour des équipes');
     }
   });
 
@@ -144,7 +144,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la publication des équipes du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la publication des équipes' });
+      throw new AppError(500, 'Erreur lors de la publication des équipes');
     }
   });
 
@@ -202,7 +202,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du joueur ${(request.params as any).playerId} du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la mise à jour du joueur' });
+      throw new AppError(500, 'Erreur lors de la mise à jour du joueur');
     }
   });
 
@@ -262,7 +262,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la mise à jour du tournoi' });
+      throw new AppError(500, 'Erreur lors de la mise à jour du tournoi');
     }
   });
 
@@ -291,7 +291,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return tournament;
     } catch (error) {
       log(fastify, `Erreur lors de la suppression du joueur ${(request.params as any).playerId} du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la suppression du joueur' });
+      throw new AppError(500, 'Erreur lors de la suppression du joueur');
     }
   });
 
@@ -314,7 +314,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         .populate('players.user');
     } catch (error) {
       log(fastify, `Erreur lors de la suppression du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la suppression du tournoi' });
+      throw new AppError(500, 'Erreur lors de la suppression du tournoi');
     }
   });
 
@@ -331,7 +331,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       };
 
       if (!Array.isArray(results) || results.length === 0) {
-        return reply.status(400).send({ error: 'Aucun résultat fourni' });
+        throw new AppError(400, 'Aucun résultat fourni');
       }
 
       const tournament = await fastify.models.Tournament.findById(tournamentId)
@@ -344,20 +344,20 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       }
 
       if (tournament.finished) {
-        return reply.status(400).send({ error: 'Les résultats du tournoi ont déjà été finalisés' });
+        throw new AppError(400, 'Les résultats du tournoi ont déjà été finalisés');
       }
 
       const rankingSet = new Set<number>();
 
       for (const result of results) {
         if (result.score < 0) {
-          return reply.status(400).send({ error: 'Le score doit être positif' });
+          throw new AppError(400, 'Le score doit être positif');
         }
         if (result.ranking <= 0 || !Number.isInteger(result.ranking)) {
-          return reply.status(400).send({ error: 'Le classement doit être un entier positif' });
+          throw new AppError(400, 'Le classement doit être un entier positif');
         }
         if (rankingSet.has(result.ranking)) {
-          return reply.status(400).send({ error: 'Les classements doivent être uniques' });
+          throw new AppError(400, 'Les classements doivent être uniques');
         }
         rankingSet.add(result.ranking);
       }
@@ -421,7 +421,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return updatedTournament;
     } catch (error) {
       log(fastify, `Erreur lors de la finalisation des résultats du tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la finalisation des résultats' });
+      throw new AppError(500, 'Erreur lors de la finalisation des résultats');
     }
   });
 
@@ -433,7 +433,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return reply.notFound();
       }
       if (!tournament.teamsPublished) {
-        return reply.status(400).send({ error: 'Les équipes doivent être publiées avant de créer un bracket Challonge' });
+        throw new AppError(400, 'Les équipes doivent être publiées avant de créer un bracket Challonge');
       }
       const settings = request.body as any;
       const challongeData = await fastify.challongeService.createBracket(tournament, settings) as any;
@@ -447,7 +447,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       return challongeData;
     } catch (error) {
       log(fastify, `Erreur lors de la création du bracket Challonge pour le tournoi ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la création du bracket Challonge' });
+      throw new AppError(500, 'Erreur lors de la création du bracket Challonge');
     }
   });
 }

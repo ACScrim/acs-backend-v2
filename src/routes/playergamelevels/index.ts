@@ -1,13 +1,13 @@
 import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
-import { log } from "../../utils/utils";
+import { log, AppError } from "../../utils/utils";
 
 const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
 
   /**
    * Récupère la liste des niveaux de jeu de l'utilisateur connecté
    */
-  fastify.get("/", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/", { preHandler: [authGuard] }, async (req) => {
     try {
       const playerGameLevels = await fastify.models.PlayerGameLevel.find({
         userId: req.session.userId!
@@ -15,7 +15,7 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
       return playerGameLevels;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des niveaux de jeu : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération des niveaux' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des niveaux');
     }
   });
 
@@ -72,29 +72,23 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
    * Crée ou met à jour le niveau de jeu d'un joueur
    * Valide le lien profil et le pseudo contre les regex du jeu
    */
-  fastify.post("/set-level", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.post("/set-level", { preHandler: [authGuard] }, async (req) => {
     try {
       const body = req.body as { gameId: string; level: string, gameUsername?: string, isRanked?: boolean, rank?: string, comment?: string, selectedRoles?: string[], gameProfileLink?: string };
 
       // Récupérer le jeu pour vérifier la regex
       const game = await fastify.models.Game.findById(body.gameId);
       if (!game) {
-        return res.status(404).send({ error: 'Jeu non trouvé.' });
+        throw new AppError(404, 'Jeu non trouvé.');
       }
 
       // Valider le lien profil si regex existe
       if (!validateProfileLink(body.gameProfileLink || '', game.gameProfileLinkRegex || '')) {
-        return res.status(400).send({
-          error: 'Le lien profil est invalide ou ne respecte pas le format requis pour ce jeu.',
-          details: game.gameProfileLinkRegex ? `Format regex: ${game.gameProfileLinkRegex}` : undefined
-        });
+        throw new AppError(400, 'Le lien profil est invalide ou ne respecte pas le format requis pour ce jeu.');
       }
 
       if (!validateGameUsername(body.gameUsername, game.gameUsernameRegex)) {
-        return res.status(400).send({
-          error: 'Le pseudo en jeu est invalide ou ne respecte pas le format requis pour ce jeu.',
-          details: game.gameUsernameRegex ? `Format regex: ${game.gameUsernameRegex}` : undefined
-        });
+        throw new AppError(400, 'Le pseudo en jeu est invalide ou ne respecte pas le format requis pour ce jeu.');
       }
 
       let playerGameLevel = await fastify.models.PlayerGameLevel.findOne({
@@ -128,14 +122,14 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
       return playerGameLevel;
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du niveau de jeu : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la mise à jour du niveau' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour du niveau');
     }
   });
 
   /**
    * Supprime un niveau de jeu spécifique de l'utilisateur
    */
-  fastify.delete('/:levelId', { preHandler: [authGuard] }, async (req, res) => {
+  fastify.delete('/:levelId', { preHandler: [authGuard] }, async (req) => {
     try {
       const { levelId } = req.params as { levelId: string };
       const playerGameLevel = await fastify.models.PlayerGameLevel.findOne({
@@ -144,14 +138,14 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
       });
 
       if (!playerGameLevel) {
-        return res.status(404).send({ error: 'Niveau de jeu introuvable.' });
+        throw new AppError(404, 'Niveau de jeu introuvable.');
       }
 
       await playerGameLevel.deleteOne();
       return { success: true };
     } catch (error) {
       log(fastify, `Erreur lors de la suppression du niveau de jeu : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la suppression du niveau' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la suppression du niveau');
     }
   });
 }

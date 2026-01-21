@@ -1,12 +1,12 @@
 import { FastifyPluginAsync } from "fastify";
-import { log } from "../../utils/utils";
+import { log, AppError } from "../../utils/utils";
 
 const statsRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère les statistiques globales de la plateforme
    * Nombre de tournois, d'utilisateurs et de jeux uniques joués
    */
-  fastify.get("/stats", async (req, res) => {
+  fastify.get("/stats", async () => {
     try {
       const tournaments = await fastify.models.Tournament.countDocuments({
         finished: true
@@ -25,14 +25,14 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
       };
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des statistiques : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération des statistiques' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des statistiques');
     }
   });
 
   /**
    * Returns the current ongoing tournament (started but not finished)
    */
-  fastify.get("/current-tournament", async (req, res) => {
+  fastify.get("/current-tournament", async () => {
     try {
       const tournament = await fastify.models.Tournament.findOne({
         date: { $lte: new Date() },
@@ -44,14 +44,14 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
       return tournament;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du tournoi en cours: ${error}`, "error");
-      return res.status(500).send({ error: 'Erreur lors de la récupération du tournoi en cours' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du tournoi en cours');
     }
   })
 
   /**
    * Returns next 3 tournaments
    */
-  fastify.get("/next-tournaments", async (req, res) => {
+  fastify.get("/next-tournaments", async () => {
     try {
       const tournaments = await fastify.models.Tournament.find({
         date: { $gte: new Date() }
@@ -63,11 +63,11 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
       return tournaments;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des prochains tournois: ${error}`, "error");
-      return res.status(500).send({ error: 'Erreur lors de la récupération des prochains tournois' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des prochains tournois');
     }
   })
 
-  fastify.get("/last-tournament", async (req, res) => {
+  fastify.get("/last-tournament", async () => {
     try {
       const tournament = await fastify.models.Tournament.findOne({
         finished: true
@@ -78,7 +78,7 @@ const statsRoutes: FastifyPluginAsync = async (fastify) => {
       return tournament;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du dernier tournoi: ${error}`, "error");
-      return res.status(500).send({ error: 'Erreur lors de la récupération du dernier tournoi' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du dernier tournoi');
     }
   })
 }

@@ -1,5 +1,20 @@
 import { FastifyInstance, FastifyPluginAsync, FastifyRequest } from "fastify";
 
+/**
+ * Classe d'erreur personnalisée pour standardiser les erreurs de l'application
+ */
+export class AppError extends Error {
+  constructor(
+    public statusCode: number,
+    public message: string,
+    public code?: string
+  ) {
+    super(message);
+    this.name = 'AppError';
+    Error.captureStackTrace(this, this.constructor);
+  }
+}
+
 export const log = (req: FastifyRequest | FastifyInstance, message: string, level: 'info' | 'error' = 'info', status?: number) => {
   req.log.level = level;
   if ('server' in req && typeof (req as FastifyInstance).close === 'function') {

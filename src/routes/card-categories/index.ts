@@ -1,20 +1,20 @@
 import {FastifyInstance} from 'fastify';
 import {authGuard} from '../../middleware/authGuard';
-import {log} from '../../utils/utils';
+import {log, AppError} from '../../utils/utils';
 
 export default async function cardCategoryRoutes(fastify: FastifyInstance) {
   // Créer une nouvelle catégorie
-  fastify.post<{ Body: { name: string; description?: string } }>('/', { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.post<{ Body: { name: string; description?: string } }>('/', { preHandler: [authGuard] }, async (request) => {
     try {
       const userId = request.session.userId;
       if (!userId) {
-        return reply.status(401).send({ error: 'Non authentifié' });
+        throw new AppError(401, 'Non authentifié');
       }
 
       const { name, description } = request.body;
 
       if (!name || name.trim().length === 0) {
-        return reply.status(400).send({ error: 'Le nom de la catégorie est requis' });
+        throw new AppError(400, 'Le nom de la catégorie est requis');
       }
 
       const category = await fastify.models.CardCategory.create({
@@ -26,16 +26,16 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
       return category;
     } catch (error) {
       log(fastify, `Erreur lors de la création de la catégorie : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la création de la catégorie' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la création de la catégorie');
     }
   });
 
   // Récupérer toutes les catégories de l'utilisateur
-  fastify.get('/', { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.get('/', { preHandler: [authGuard] }, async (request) => {
     try {
       const userId = request.session.userId;
       if (!userId) {
-        return reply.status(401).send({ error: 'Non authentifié' });
+        throw new AppError(401, 'Non authentifié');
       }
 
       const categories = await fastify.models.CardCategory.find({ $or: [{ private: false }, { private: { $exists: false }}] })
@@ -44,16 +44,16 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
       return categories;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des catégories : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération des catégories' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des catégories');
     }
   });
 
   // Récupérer une catégorie par ID
-  fastify.get<{ Params: { id: string } }>('/:id', { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.get<{ Params: { id: string } }>('/:id', { preHandler: [authGuard] }, async (request) => {
     try {
       const userId = request.session.userId;
       if (!userId) {
-        return reply.status(401).send({ error: 'Non authentifié' });
+        throw new AppError(401, 'Non authentifié');
       }
 
       const { id } = request.params;
@@ -64,13 +64,13 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
       });
 
       if (!category) {
-        return reply.status(404).send({ error: 'Catégorie non trouvée' });
+        throw new AppError(404, 'Catégorie non trouvée');
       }
 
       return category;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la catégorie ${request.params.id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération de la catégorie' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de la catégorie');
     }
   });
 
@@ -78,11 +78,11 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
   fastify.put<{ Params: { id: string }; Body: { name?: string; description?: string } }>(
     '/:id',
     { preHandler: [authGuard] },
-    async (request, reply) => {
+    async (request) => {
       try {
         const userId = request.session.userId;
         if (!userId) {
-          return reply.status(401).send({ error: 'Non authentifié' });
+          throw new AppError(401, 'Non authentifié');
         }
 
         const { id } = request.params;
@@ -94,7 +94,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
         });
 
         if (!category) {
-          return reply.status(404).send({ error: 'Catégorie non trouvée' });
+          throw new AppError(404, 'Catégorie non trouvée');
         }
 
         if (name !== undefined) {
@@ -109,7 +109,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
         return category;
       } catch (error) {
         log(fastify, `Erreur lors de la mise à jour de la catégorie ${request.params.id} : ${error}`, 'error');
-        return reply.status(500).send({ error: 'Erreur lors de la mise à jour de la catégorie' });
+        throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour de la catégorie');
       }
     }
   );
@@ -119,7 +119,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
     try {
       const userId = request.session.userId;
       if (!userId) {
-        return reply.status(401).send({ error: 'Non authentifié' });
+        throw new AppError(401, 'Non authentifié');
       }
 
       const { id } = request.params;
@@ -130,7 +130,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
       });
 
       if (!category) {
-        return reply.status(404).send({ error: 'Catégorie non trouvée' });
+        throw new AppError(404, 'Catégorie non trouvée');
       }
 
       // Dissocier la catégorie de toutes les cartes
@@ -142,7 +142,7 @@ export default async function cardCategoryRoutes(fastify: FastifyInstance) {
       return reply.send({ message: 'Catégorie supprimée' });
     } catch (error) {
       log(fastify, `Erreur lors de la suppression de la catégorie ${request.params.id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la suppression de la catégorie' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la suppression de la catégorie');
     }
   });
 }

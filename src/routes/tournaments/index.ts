@@ -2,7 +2,7 @@ import {ITournament, ITournamentPlayer} from "../../models/Tournament";
 import { FastifyPluginAsync } from "fastify";
 import {adminGuard, authGuard} from "../../middleware/authGuard";
 import {IGame} from "../../models/Game";
-import { log } from "../../utils/utils";
+import { log, AppError } from "../../utils/utils";
 import {IBet} from "../../models/Bet";
 import {IUser} from "../../models/User";
 
@@ -36,14 +36,14 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les tournois avec les détails du jeu et des joueurs
    */
-  fastify.get("/", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/", { preHandler: [authGuard] }, async (req) => {
     try {
       const tournaments = await fastify.models.Tournament.find().populate('game').populate('players.user teams.users clips.addedBy') as (ITournament & { game: IGame })[];
 
       return populateCurrentPlayerLevelArray(fastify, tournaments, req.session.userId!);
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des tournois : ${error}`, 'error');
-      return res.status(500).send({ error: 'Erreur lors de la récupération des tournois' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des tournois');
     }
   });
 

@@ -1,7 +1,7 @@
 import {ITeam, ITournament} from "../../models/Tournament";
 import {IUser} from "../../models/User";
 import {FastifyPluginAsync} from "fastify";
-import {isRankingCountedAsPodium, log} from "../../utils/utils";
+import {isRankingCountedAsPodium, log, AppError} from "../../utils/utils";
 
 type LeaderboardEntry = {
   ranking: number;
@@ -18,7 +18,7 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
    * Optionnellement filtré par saison spécifique
    * Points: +3 pour une première place, +1 pour top 25%
    */
-  fastify.get('/', async (request, reply) => {
+  fastify.get('/', async (request) => {
     try {
       const query = request.query as { season?: number };
 
@@ -69,7 +69,7 @@ const leaderboardRoutes: FastifyPluginAsync = async (fastify) => {
       });
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du classement : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération du classement' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du classement');
     }
   })
 }

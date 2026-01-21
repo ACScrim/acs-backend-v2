@@ -1,6 +1,6 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
-import {log} from "../../../utils/utils";
+import {log, AppError} from "../../../utils/utils";
 
 const adminProposalsRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -10,7 +10,7 @@ const adminProposalsRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de toutes les propositions de jeux triées par date décroissante
    */
-  fastify.get('/', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.get('/', { preHandler: [adminGuard] }, async () => {
     try {
       const proposals = await fastify.models.GameProposal
         .find()
@@ -20,7 +20,7 @@ const adminProposalsRoutes: FastifyPluginAsync = async (fastify) => {
       return proposals;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des propositions : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération des propositions' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des propositions');
     }
   });
 
@@ -40,7 +40,7 @@ const adminProposalsRoutes: FastifyPluginAsync = async (fastify) => {
       return proposal;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la proposition ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération de la proposition' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de la proposition');
     }
   });
 
@@ -64,7 +64,7 @@ const adminProposalsRoutes: FastifyPluginAsync = async (fastify) => {
       return { message: 'Proposition rejetée avec succès' };
     } catch (error) {
       log(fastify, `Erreur lors du rejet de la proposition : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors du rejet de la proposition' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors du rejet de la proposition');
     }
   });
 };

@@ -1,5 +1,6 @@
 import {FastifyError, FastifyPluginAsync} from 'fastify';
 import fp from 'fastify-plugin';
+import {AppError} from '../utils/utils';
 
 interface FormatterOptions {
   includeMetadata?: boolean;
@@ -66,6 +67,14 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
   };
 
   const normalizeError = (data: unknown): { message: string; detail?: unknown; code?: unknown; statusCode?: unknown } => {
+    // Si c'est une instance AppError, extraire ses propriétés
+    if (data instanceof AppError) {
+      return {
+        message: data.message,
+        code: data.code,
+        statusCode: data.statusCode,
+      };
+    }
     if (data && typeof data === 'object') {
       const record = data as Record<string, unknown>;
       if ('message' in record && typeof record.message === 'string') {
@@ -129,7 +138,29 @@ const responseFormatterPlugin: FastifyPluginAsync<FormatterOptions> = async (fas
   });
 
   // Format erreurs
-  fastify.setErrorHandler((error: FastifyError, request, reply) => {
+  fastify.setErrorHandler((error: FastifyError | AppError, request, reply) => {
+    // Gérer les instances AppError
+    if (error instanceof AppError) {
+      const response: ErrorResponse = {
+        success: false,
+        error: {
+          message: error.message,
+          code: error.code,
+        },
+      };
+
+      if (includeMetadata) {
+        response.meta = {
+          timestamp: new Date().toISOString(),
+          path: request.url,
+          method: request.method,
+        };
+      }
+
+      return reply.status(error.statusCode).send(response);
+    }
+
+    // Gérer les erreurs Fastify standard
     const statusCode = error.statusCode || 500;
     
     const response: ErrorResponse = {

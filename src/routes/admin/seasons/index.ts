@@ -1,7 +1,7 @@
 import { FastifyPluginAsync } from "fastify";
 import { adminGuard } from "../../../middleware/authGuard";
 import { ISeason } from "../../../models/Season";
-import { log } from "../../../utils/utils";
+import { log, AppError } from "../../../utils/utils";
 
 const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -12,7 +12,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
    * Récupère la liste de toutes les saisons avec leurs tournois et gagnant associés
    * Triée par numéro de saison croissant
    */
-  fastify.get('/', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.get('/', { preHandler: [adminGuard] }, async () => {
     try {
       const seasons = await fastify.models.Season.find()
         .populate('tournaments')
@@ -21,7 +21,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       return seasons;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des saisons : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération des saisons' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des saisons');
     }
   });
 
@@ -40,7 +40,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       return season;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la saison ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération de la saison' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de la saison');
     }
   });
 
@@ -52,7 +52,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
    * Crée une nouvelle saison avec un numéro et une liste de tournois
    * Vérifie que le numéro de saison n'existe pas déjà
    */
-  fastify.post('/', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.post('/', { preHandler: [adminGuard] }, async (request) => {
     try {
       const seasonData = request.body as {
         number: number;
@@ -62,7 +62,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       // Vérifier si la saison existe déjà
       const existingSeason = await fastify.models.Season.findOne({ number: seasonData.number });
       if (existingSeason) {
-        return reply.status(400).send({ error: 'Une saison avec ce numéro existe déjà.' });
+        throw new AppError(400, 'Une saison avec ce numéro existe déjà.');
       }
 
       const season = new fastify.models.Season({
@@ -76,7 +76,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       return season;
     } catch (error) {
       log(fastify, `Erreur lors de la création de la saison : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la création de la saison' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la création de la saison');
     }
   });
 
@@ -104,7 +104,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       if (updateData.number && updateData.number !== season.number) {
         const existingSeason = await fastify.models.Season.findOne({ number: updateData.number });
         if (existingSeason) {
-          return reply.status(400).send({ error: 'Une saison avec ce numéro existe déjà.' });
+          throw new AppError(400, 'Une saison avec ce numéro existe déjà.');
         }
         season.number = updateData.number;
       }
@@ -119,7 +119,7 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       return season;
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour de la saison ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la mise à jour de la saison' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour de la saison');
     }
   });
 
@@ -141,9 +141,10 @@ const adminSeasonsRoutes: FastifyPluginAsync = async (fastify) => {
       return { success: true, message: 'Saison supprimée avec succès.' };
     } catch (error) {
       log(fastify, `Erreur lors de la suppression de la saison ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la suppression de la saison' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la suppression de la saison');
     }
   });
 };
 
 export default adminSeasonsRoutes;
+

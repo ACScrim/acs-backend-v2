@@ -1,7 +1,7 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "../../../models/Game";
-import {log} from "../../../utils/utils";
+import {log, AppError} from "../../../utils/utils";
 
 const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
   /*********************************************
@@ -11,12 +11,12 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère la liste de tous les jeux triés par date de création décroissante
    */
-  fastify.get('/', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.get('/', { preHandler: [adminGuard] }, async () => {
     try {
       return await fastify.models.Game.find().sort({createdAt: -1});
     } catch (error) {
       log(fastify, `Erreur lors de la récupération de la liste des jeux : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération des jeux' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des jeux');
     }
   });
 
@@ -32,7 +32,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       return game;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du jeu ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la récupération du jeu' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du jeu');
     }
   });
 
@@ -43,7 +43,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
   /**
    * Crée un nouveau jeu avec validation de la regex du profil de joueur
    */
-  fastify.post('/', { preHandler: [adminGuard] }, async (request, reply) => {
+  fastify.post('/', { preHandler: [adminGuard] }, async (request) => {
     try {
       const gameData = request.body as {
         name: string;
@@ -57,7 +57,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       // Vérifier si le jeu existe déjà
       const existingGame = await fastify.models.Game.findOne({ name: gameData.name });
       if (existingGame) {
-        return reply.status(400).send({ error: 'Un jeu avec ce nom existe déjà.' });
+        throw new AppError(400, 'Un jeu avec ce nom existe déjà.');
       }
 
       // Valider la regex si fournie
@@ -65,7 +65,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
         try {
           new RegExp(gameData.gameProfileLinkRegex);
         } catch (error) {
-          return reply.status(400).send({ error: 'La regex fournie est invalide.' });
+          throw new AppError(400, 'La regex fournie est invalide.');
         }
       }
 
@@ -83,7 +83,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       return game;
     } catch (error) {
       log(fastify, `Erreur lors de la création du jeu : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la création du jeu' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la création du jeu');
     }
   });
 
@@ -107,7 +107,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
         try {
           new RegExp((request.body as any).gameProfileLinkRegex);
         } catch (error) {
-          return reply.status(400).send({ error: 'La regex "gameProfileLinkRegex" fournie est invalide.' });
+          throw new AppError(400, 'La regex "gameProfileLinkRegex" fournie est invalide.');
         }
       }
 
@@ -115,7 +115,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
         try {
           new RegExp((request.body as any).gameUsernameRegex);
         } catch (error) {
-          return reply.status(400).send({ error: 'La regex "gameUsernameRegex" fournie est invalide.' });
+          throw new AppError(400, 'La regex "gameUsernameRegex" fournie est invalide.');
         }
       }
 
@@ -131,7 +131,7 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       return game;
     } catch (error) {
       log(fastify, `Erreur lors de la mise à jour du jeu ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la mise à jour du jeu' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la mise à jour du jeu');
     }
   });
 
@@ -152,16 +152,14 @@ const adminGamesRoutes: FastifyPluginAsync = async (fastify) => {
       // Vérifier si le jeu est utilisé dans des tournois
       const tournamentsUsingGame = await fastify.models.Tournament.countDocuments({ gameId: game._id });
       if (tournamentsUsingGame > 0) {
-        return reply.status(400).send({
-          error: `Ce jeu est utilisé dans ${tournamentsUsingGame} tournoi(s). Impossible de le supprimer.`
-        });
+        throw new AppError(400, `Ce jeu est utilisé dans ${tournamentsUsingGame} tournoi(s). Impossible de le supprimer.`);
       }
 
       await fastify.models.Game.deleteOne({ _id: game._id });
       return { success: true, message: 'Jeu supprimé avec succès.' };
     } catch (error) {
       log(fastify, `Erreur lors de la suppression du jeu ${(request.params as any).id} : ${error}`, 'error');
-      return reply.status(500).send({ error: 'Erreur lors de la suppression du jeu' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la suppression du jeu');
     }
   });
 };

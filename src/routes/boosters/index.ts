@@ -3,23 +3,24 @@ import {authGuard} from "../../middleware/authGuard";
 import {IScrimium} from "../../models/Scrimium";
 import mongoose from "mongoose";
 import {ICardCollection} from "../../models/CardCollection";
+import {AppError} from "../../utils/utils";
 
 const boostersRoutes: FastifyPluginAsync = async (fastify) => {
-  fastify.get("/shop", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/shop", { preHandler: [authGuard] }, async () => {
     return fastify.models.BoosterShopItem.find();
   });
 
-  fastify.post("/buy", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.post("/buy", { preHandler: [authGuard] }, async (req) => {
     const userScrimium = await fastify.models.Scrimium.findOne({ userId: req.session.userId }) as IScrimium;
     const { boosterId } = req.body as { boosterId: string };
     const boosterItem = await fastify.models.BoosterShopItem.findById(boosterId);
 
     if (!boosterItem) {
-      return res.status(404).send({ error: "Le booster n'existe pas." });
+      throw new AppError(404, "Le booster n'existe pas.");
     }
 
     if (userScrimium.balance < boosterItem.price) {
-      return res.status(400).send({ error: "Pas assez de scrimium." });
+      throw new AppError(400, "Pas assez de scrimium.");
     }
 
     const cards: string[] = [];

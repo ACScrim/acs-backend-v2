@@ -1,18 +1,18 @@
 import {FastifyPluginAsync} from "fastify";
-import {log} from "../../utils/utils";
+import {log, AppError} from "../../utils/utils";
 
 const twitchRoutes: FastifyPluginAsync = async (fastify) => {
 
   // Route pour lister toutes les souscriptions
-  fastify.get('/subscriptions', async (req, res) => {
+  fastify.get('/subscriptions', async () => {
     const subs = await fastify.twitchService.listAllSubscriptions();
-    return res.send(subs);
+    return subs;
   });
 
   // Route pour supprimer toutes les souscriptions
-  fastify.delete('/subscriptions', async (req, res) => {
+  fastify.delete('/subscriptions', async () => {
     const result = await fastify.twitchService.deleteAllSubscriptions();
-    return res.send(result);
+    return result;
   });
 
   // Route webhook Twitch EventSub
@@ -20,7 +20,7 @@ const twitchRoutes: FastifyPluginAsync = async (fastify) => {
     // Vérifier la signature
     if (!fastify.twitchService.verifyTwitchSignature(req)) {
       log(fastify, '[TwitchWebhook] ❌ Signature invalide', 'error');
-      return res.status(403).send('Signature invalide');
+      throw new AppError(403, 'Signature invalide');
     }
 
     const messageType = req.headers['twitch-eventsub-message-type'];
@@ -56,7 +56,7 @@ const twitchRoutes: FastifyPluginAsync = async (fastify) => {
 
       default:
         log(fastify, `[TwitchWebhook] ❌ Type de message inconnu: ${messageType}`, 'error');
-        return res.status(400).send('Type de message inconnu');
+        throw new AppError(400, 'Type de message inconnu');
     }
   });
 }

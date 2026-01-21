@@ -2,14 +2,14 @@ import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
 import { ITournament } from "../../models/Tournament";
 import { IGame } from "../../models/Game";
-import { log } from "../../utils/utils";
+import { log, AppError } from "../../utils/utils";
 
 const badgesRoute: FastifyPluginAsync = async (fastify) => {
   /**
    * Récupère tous les badges de l'utilisateur connecté
    * Un badge est créé basé sur le ranking de l'équipe dans un tournoi
    */
-  fastify.get("/", { preHandler: [authGuard] }, async (req, res) => {
+  fastify.get("/", { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId as string;
 
@@ -56,7 +56,7 @@ const badgesRoute: FastifyPluginAsync = async (fastify) => {
       return badges;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des badges : ${error}`, 'error');
-      return res.status(500).send({ success: false, error: 'Erreur lors de la récupération des badges' });
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des badges');
     }
   });
 };

@@ -5,7 +5,7 @@ import {IGame} from "../../../models/Game";
 import {IUser} from "../../../models/User";
 import * as crypto from "node:crypto";
 import {IAcsdle, IAcsdleCompletion, IAcsdleUser} from "../../../models/Acsdle";
-import {isRankingCountedAsPodium, log} from "../../../utils/utils";
+import {isRankingCountedAsPodium, log, AppError} from "../../../utils/utils";
 
 const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<IAcsdleUser> => {
   const userId = user._id?.toString() ?? user.id;
@@ -61,7 +61,7 @@ const encryptJSON = (obj: any, secret: string) => {
 };
 
 const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
-  fastify.get("/users", { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.get("/users", { preHandler: [authGuard] }, async () => {
     const acsdleUsers: IAcsdleUser[] = [];
     const users = await fastify.models.User.find() as IUser[];
     for (const user of users.values()) {
@@ -70,7 +70,7 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     return acsdleUsers.filter(u => u.tournamentsPlayed > 0 && u.firstTournament);
   });
 
-  fastify.get("/daily", { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.get("/daily", { preHandler: [authGuard] }, async () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
@@ -81,8 +81,8 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
       do {
         const randomUser = await fastify.models.User.aggregate([{$sample: { size: 1 }}]) as IUser[];
         if (randomUser.length === 0) {
-          log(fastify, "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour", 'error', 404);
-          return reply.status(404).send({error: "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour"});
+          log(fastify, "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour", 'error');
+          throw new AppError(404, "Aucun utilisateur éligible trouvé pour générer l'Acsdle du jour");
         }
       acsdleUser = await buildAcsdleUser(fastify, randomUser[0]);
       } while (acsdleUser.tournamentsPlayed <= 3);
@@ -95,21 +95,21 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     const secret = process.env.ACSDLE_CRYPTO_KEY;
     if (!secret) {
       // Ne pas renvoyer le payload en clair si la clé manque ; renvoyer erreur contrôlée
-      log(fastify, "Clé de chiffrement ACSDLE_CRYPTO_KEY manquante pour le chiffrement de la réponse", 'error', 500);
-      return reply.status(500).send({ error: "Clé de chiffrement non configurée pour sécuriser la réponse" });
+      log(fastify, "Clé de chiffrement ACSDLE_CRYPTO_KEY manquante pour le chiffrement de la réponse", 'error');
+      throw new AppError(500, "Clé de chiffrement non configurée pour sécuriser la réponse");
     }
 
     return encryptJSON(acsdleUser, secret);
   });
 
-  fastify.get('/today-history', { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.get('/today-history', { preHandler: [authGuard] }, async (request) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const acsdle = await fastify.models.Acsdle.findOne<IAcsdle>({ date: today });
 
     if (!acsdle) {
-      log(fastify, "Acsdle du jour introuvable lors de la récupération de l'historique", 'error', 404);
-      return reply.status(404).send({ error: "Acsdle du jour introuvable. Aucun défi n'est disponible aujourd'hui." });
+      log(fastify, "Acsdle du jour introuvable lors de la récupération de l'historique", 'error');
+      throw new AppError(404, "Acsdle du jour introuvable. Aucun défi n'est disponible aujourd'hui.");
     }
 
     const completion = acsdle.completions.find(c => c.userId.toString() === request.session.userId?.toString());
@@ -117,14 +117,14 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     return completion.attempts;
   });
 
-  fastify.post('/today-history', { preHandler: [authGuard] }, async (request, reply) => {
+  fastify.post('/today-history', { preHandler: [authGuard] }, async (request) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const acsdle = await fastify.models.Acsdle.findOne<IAcsdle>({ date: today });
 
     if (!acsdle) {
-      log(fastify, "Acsdle du jour introuvable lors de l'enregistrement de l'historique", 'error', 404);
-      return reply.status(404).send({ error: "Acsdle du jour introuvable. Aucun défi n'est disponible aujourd'hui." });
+      log(fastify, "Acsdle du jour introuvable lors de l'enregistrement de l'historique", 'error');
+      throw new AppError(404, "Acsdle du jour introuvable. Aucun défi n'est disponible aujourd'hui.");
     }
 
     const { user } = request.body as { user: IAcsdleUser };

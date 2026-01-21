@@ -2,13 +2,13 @@ import { FastifyPluginAsync } from "fastify";
 import { authGuard } from "../../middleware/authGuard";
 import { ICardTrade } from "../../models/CardTrade";
 import { ICardCollection } from "../../models/CardCollection";
-import { log } from "../../utils/utils";
+import { log, AppError } from "../../utils/utils";
 import mongoose from "mongoose";
 
 const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
   // Lister toutes les offres actives
-  fastify.get('/', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get('/', { preHandler: [authGuard] }, async (req) => {
     try {
       const trades = await fastify.models.CardTrade.find({ status: 'active' })
         .populate('offeredBy', 'id username avatarUrl')
@@ -25,14 +25,13 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       return trades;
     } catch (error) {
-      log(fastify, `Erreur lors de la récupération des échanges: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la récupération des échanges: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des échanges');
     }
   });
 
   // Voir mes offres (celles que j'ai créées)
-  fastify.get('/me', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get('/me', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const trades = await fastify.models.CardTrade.find({ offeredBy: userId })
@@ -64,14 +63,13 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       return trades;
     } catch (error) {
-      log(fastify, `Erreur lors de la récupération de mes échanges: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la récupération de mes échanges: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de mes échanges');
     }
   });
 
   // Voir mes propositions (celles que j'ai faites sur les offres des autres)
-  fastify.get('/my-proposals', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get('/my-proposals', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const trades = await fastify.models.CardTrade.find({
@@ -106,14 +104,13 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       return trades;
     } catch (error) {
-      log(fastify, `Erreur lors de la récupération de mes propositions: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la récupération de mes propositions: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de mes propositions');
     }
   });
 
   // Créer une nouvelle offre d'échange
-  fastify.post('/', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post('/', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const { offeredCards } = req.body as {
@@ -122,23 +119,20 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       // Vérifier qu'il y a entre 1 et 5 cartes
       if (!offeredCards || offeredCards.length === 0 || offeredCards.length > 5) {
-        resp.status(400);
-        throw new Error('Vous devez offrir entre 1 et 5 cartes');
+        throw new AppError(400, 'Vous devez offrir entre 1 et 5 cartes');
       }
 
       // Récupérer la collection de l'utilisateur
       const collection = await fastify.models.CardCollection.findOne({ userId }) as ICardCollection;
       if (!collection) {
-        resp.status(404);
-        throw new Error('Collection non trouvée');
+        throw new AppError(404, 'Collection non trouvée');
       }
 
       // Vérifier que l'utilisateur possède toutes les cartes avec les bonnes quantités
       for (const offeredCard of offeredCards) {
         const userCard = collection.cards.find(c => c.cardId.toString() === offeredCard.cardId);
         if (!userCard || userCard.count < offeredCard.count) {
-          resp.status(400);
-          throw new Error('Vous ne possédez pas assez d\'exemplaires de cette carte');
+          throw new AppError(400, 'Vous ne possédez pas assez d\'exemplaires de cette carte');
         }
       }
 
@@ -165,17 +159,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         ]
       });
 
-      log(fastify, `Offre d'échange créée par ${userId}`, 'info', 200);
+      log(fastify, `Offre d'échange créée par ${userId}`, 'info');
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors de la création de l'offre: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la création de l'offre: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la création de l\'offre');
     }
   });
 
   // Proposer un échange sur une offre
-  fastify.post('/:id/proposals', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post('/:id/proposals', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const { id } = req.params as { id: string };
@@ -185,26 +178,22 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       // Vérifier qu'il y a entre 1 et 5 cartes
       if (!proposedCards || proposedCards.length === 0 || proposedCards.length > 5) {
-        resp.status(400);
-        throw new Error('Vous devez proposer entre 1 et 5 cartes');
+        throw new AppError(400, 'Vous devez proposer entre 1 et 5 cartes');
       }
 
       // Récupérer l'offre
       const trade = await fastify.models.CardTrade.findById(id) as ICardTrade;
       if (!trade) {
-        resp.status(404);
-        throw new Error('Offre d\'échange non trouvée');
+        throw new AppError(404, 'Offre d\'échange non trouvée');
       }
 
       if (trade.status !== 'active') {
-        resp.status(400);
-        throw new Error('Cette offre n\'est plus active');
+        throw new AppError(400, 'Cette offre n\'est plus active');
       }
 
       // Vérifier que ce n'est pas sa propre offre
       if (trade.offeredBy.toString() === userId) {
-        resp.status(400);
-        throw new Error('Vous ne pouvez pas proposer un échange sur votre propre offre');
+        throw new AppError(400, 'Vous ne pouvez pas proposer un échange sur votre propre offre');
       }
 
       // Vérifier que l'utilisateur n'a pas déjà fait une proposition
@@ -212,23 +201,20 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         p => p.proposedBy.toString() === userId && p.status === 'pending'
       );
       if (existingProposal) {
-        resp.status(400);
-        throw new Error('Vous avez déjà fait une proposition sur cette offre');
+        throw new AppError(400, 'Vous avez déjà fait une proposition sur cette offre');
       }
 
       // Récupérer la collection de l'utilisateur
       const collection = await fastify.models.CardCollection.findOne({ userId }) as ICardCollection;
       if (!collection) {
-        resp.status(404);
-        throw new Error('Collection non trouvée');
+        throw new AppError(404, 'Collection non trouvée');
       }
 
       // Vérifier que l'utilisateur possède toutes les cartes avec les bonnes quantités
       for (const proposedCard of proposedCards) {
         const userCard = collection.cards.find(c => c.cardId.toString() === proposedCard.cardId);
         if (!userCard || userCard.count < proposedCard.count) {
-          resp.status(400);
-          throw new Error('Vous ne possédez pas assez d\'exemplaires de cette carte');
+          throw new AppError(400, 'Vous ne possédez pas assez d\'exemplaires de cette carte');
         }
       }
 
@@ -269,17 +255,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         ]
       });
 
-      log(fastify, `Proposition d'échange ajoutée par ${userId} sur l'offre ${id}`, 'info', 200);
+      log(fastify, `Proposition d'échange ajoutée par ${userId} sur l'offre ${id}`, 'info');
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors de la proposition d'échange: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la proposition d'échange: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la proposition d\'échange');
     }
   });
 
   // Accepter une proposition
-  fastify.post('/:id/proposals/:proposalId/accept', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post('/:id/proposals/:proposalId/accept', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const { id, proposalId } = req.params as { id: string; proposalId: string };
@@ -287,31 +272,26 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
       // Récupérer l'offre
       const trade = await fastify.models.CardTrade.findById(id) as ICardTrade;
       if (!trade) {
-        resp.status(404);
-        throw new Error('Offre d\'échange non trouvée');
+        throw new AppError(404, 'Offre d\'échange non trouvée');
       }
 
       // Vérifier que c'est bien le créateur de l'offre
       if (trade.offeredBy.toString() !== userId) {
-        resp.status(403);
-        throw new Error('Vous n\'êtes pas autorisé à accepter cette proposition');
+        throw new AppError(403, 'Vous n\'êtes pas autorisé à accepter cette proposition');
       }
 
       if (trade.status !== 'active') {
-        resp.status(400);
-        throw new Error('Cette offre n\'est plus active');
+        throw new AppError(400, 'Cette offre n\'est plus active');
       }
 
       // Trouver la proposition
       const proposal = trade.proposals.find(p => p._id?.toString() === proposalId);
       if (!proposal) {
-        resp.status(404);
-        throw new Error('Proposition non trouvée');
+        throw new AppError(404, 'Proposition non trouvée');
       }
 
       if (proposal.status !== 'pending') {
-        resp.status(400);
-        throw new Error('Cette proposition n\'est plus en attente');
+        throw new AppError(400, 'Cette proposition n\'est plus en attente');
       }
 
       // Récupérer les collections des deux utilisateurs
@@ -321,24 +301,21 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
       }) as ICardCollection;
 
       if (!ownerCollection || !proposerCollection) {
-        resp.status(404);
-        throw new Error('Collections non trouvées');
+        throw new AppError(404, 'Collections non trouvées');
       }
 
       // Vérifier à nouveau que les deux utilisateurs possèdent les cartes
       for (const offeredCard of trade.offeredCards) {
         const userCard = ownerCollection.cards.find(c => c.cardId.toString() === offeredCard.cardId.toString());
         if (!userCard || userCard.count < offeredCard.count) {
-          resp.status(400);
-          throw new Error('Vous ne possédez plus assez d\'exemplaires d\'une carte offerte');
+          throw new AppError(400, 'Vous ne possédez plus assez d\'exemplaires d\'une carte offerte');
         }
       }
 
       for (const proposedCard of proposal.proposedCards) {
         const userCard = proposerCollection.cards.find(c => c.cardId.toString() === proposedCard.cardId.toString());
         if (!userCard || userCard.count < proposedCard.count) {
-          resp.status(400);
-          throw new Error('Le proposant ne possède plus assez d\'exemplaires d\'une carte');
+          throw new AppError(400, 'Le proposant ne possède plus assez d\'exemplaires d\'une carte');
         }
       }
 
@@ -430,17 +407,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         ]
       });
 
-      log(fastify, `Échange accepté: offre ${id}, proposition ${proposalId}`, 'info', 200);
+      log(fastify, `Échange accepté: offre ${id}, proposition ${proposalId}`, 'info');
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors de l'acceptation de la proposition: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de l'acceptation de la proposition: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de l\'acceptation de la proposition');
     }
   });
 
   // Rejeter une proposition
-  fastify.post('/:id/proposals/:proposalId/reject', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.post('/:id/proposals/:proposalId/reject', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const { id, proposalId } = req.params as { id: string; proposalId: string };
@@ -448,26 +424,22 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
       // Récupérer l'offre
       const trade = await fastify.models.CardTrade.findById(id) as ICardTrade;
       if (!trade) {
-        resp.status(404);
-        throw new Error('Offre d\'échange non trouvée');
+        throw new AppError(404, 'Offre d\'échange non trouvée');
       }
 
       // Vérifier que c'est bien le créateur de l'offre
       if (trade.offeredBy.toString() !== userId) {
-        resp.status(403);
-        throw new Error('Vous n\'êtes pas autorisé à rejeter cette proposition');
+        throw new AppError(403, 'Vous n\'êtes pas autorisé à rejeter cette proposition');
       }
 
       // Trouver la proposition
       const proposal = trade.proposals.find(p => p._id?.toString() === proposalId);
       if (!proposal) {
-        resp.status(404);
-        throw new Error('Proposition non trouvée');
+        throw new AppError(404, 'Proposition non trouvée');
       }
 
       if (proposal.status !== 'pending') {
-        resp.status(400);
-        throw new Error('Cette proposition n\'est plus en attente');
+        throw new AppError(400, 'Cette proposition n\'est plus en attente');
       }
 
       // Marquer la proposition comme rejetée
@@ -493,17 +465,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         ]
       });
 
-      log(fastify, `Proposition rejetée: offre ${id}, proposition ${proposalId}`, 'info', 200);
+      log(fastify, `Proposition rejetée: offre ${id}, proposition ${proposalId}`, 'info');
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors du rejet de la proposition: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors du rejet de la proposition: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors du rejet de la proposition');
     }
   });
 
   // Annuler une offre
-  fastify.delete('/:id', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.delete('/:id', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
       const { id } = req.params as { id: string };
@@ -511,19 +482,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
       // Récupérer l'offre
       const trade = await fastify.models.CardTrade.findById(id) as ICardTrade;
       if (!trade) {
-        resp.status(404);
-        throw new Error('Offre d\'échange non trouvée');
+        throw new AppError(404, 'Offre d\'échange non trouvée');
       }
 
       // Vérifier que c'est bien le créateur de l'offre
       if (trade.offeredBy.toString() !== userId) {
-        resp.status(403);
-        throw new Error('Vous n\'êtes pas autorisé à annuler cette offre');
+        throw new AppError(403, 'Vous n\'êtes pas autorisé à annuler cette offre');
       }
 
       if (trade.status !== 'active') {
-        resp.status(400);
-        throw new Error('Cette offre n\'est plus active');
+        throw new AppError(400, 'Cette offre n\'est plus active');
       }
 
       // Marquer l'offre comme annulée et toutes les propositions comme rejetées
@@ -536,17 +504,16 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
 
       await trade.save();
 
-      log(fastify, `Offre d'échange annulée: ${id}`, 'info', 200);
+      log(fastify, `Offre d'échange annulée: ${id}`, 'info');
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors de l'annulation de l'offre: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de l'annulation de l'offre: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de l\'annulation de l\'offre');
     }
   });
 
   // Récupérer les détails d'une offre spécifique
-  fastify.get('/:id', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get('/:id', { preHandler: [authGuard] }, async (req) => {
     try {
       const { id } = req.params as { id: string };
 
@@ -577,15 +544,13 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
         });
 
       if (!trade) {
-        resp.status(404);
-        throw new Error('Offre d\'échange non trouvée');
+        throw new AppError(404, 'Offre d\'échange non trouvée');
       }
 
       return trade;
     } catch (error) {
-      log(fastify, `Erreur lors de la récupération de l'offre: ${error}`, 'error', 500);
-      resp.status(500);
-      throw error;
+      log(fastify, `Erreur lors de la récupération de l'offre: ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération de l\'offre');
     }
   });
 };

@@ -1,13 +1,14 @@
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
+import {log, AppError} from "../../../utils/utils";
 
 const scrimiumRoutes: FastifyPluginAsync = async (fastify) => {
 
-  fastify.get("/", { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.get("/", { preHandler: [adminGuard] }, async () => {
     return fastify.models.Scrimium.find().populate('user');
   });
 
-  fastify.post("/:userId", { preHandler: [adminGuard] }, async (req, resp) => {
+  fastify.post("/:userId", { preHandler: [adminGuard] }, async (req) => {
     const { action, amount } = req.body as { action: 'add' | 'remove', amount: number }
 
     const { userId } = req.params as { userId: string }
