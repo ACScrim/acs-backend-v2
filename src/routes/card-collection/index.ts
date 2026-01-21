@@ -123,6 +123,163 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
       collectionId: collection._id
     };
   });
+
+  // Fusionner des cartes pour obtenir une carte de rareté supérieure
+  fastify.post('/fusion', { preHandler: [authGuard] }, async (req, resp) => {
+    try {
+      const userId = req.session.userId;
+      const { cardIds } = req.body as { cardIds: string[] };
+
+      if (!cardIds || !Array.isArray(cardIds) || cardIds.length < 3) {
+        resp.status(400);
+        throw new Error('Vous devez sélectionner au moins 3 cartes à fusionner');
+      }
+
+      if (cardIds.length > 10) {
+        resp.status(400);
+        throw new Error('Vous ne pouvez pas fusionner plus de 10 cartes à la fois');
+      }
+
+      // Récupérer la collection de l'utilisateur
+      const collection = await fastify.models.CardCollection.findOne({ userId }) as ICardCollection;
+      if (!collection) {
+        resp.status(404);
+        throw new Error('Collection non trouvée');
+      }
+
+      // Vérifier que toutes les cartes existent et sont de la même rareté
+      const uniqueCardIds = [...new Set(cardIds)];
+      const cards = await fastify.models.Card.find({ _id: { $in: uniqueCardIds }, status: 'active' }) as ICard[];
+
+      if (cards.length !== uniqueCardIds.length) {
+        resp.status(400);
+        throw new Error('Certaines cartes sont introuvables ou inactives');
+      }
+
+      // Créer une map pour retrouver les cartes rapidement
+      const cardMap = new Map<string, ICard>();
+      cards.forEach(card => cardMap.set((card._id as any).toString(), card));
+
+      // Vérifier que toutes les cartes sélectionnées existent et sont de la même rareté
+      const firstCard = cardMap.get(cardIds[0]);
+      if (!firstCard) {
+        resp.status(400);
+        throw new Error('Carte introuvable');
+      }
+
+      const firstRarity = firstCard.rarity;
+      for (const cardId of cardIds) {
+        const card = cardMap.get(cardId);
+        if (!card || card.rarity !== firstRarity) {
+          resp.status(400);
+          throw new Error('Toutes les cartes doivent être de la même rareté pour la fusion');
+        }
+      }
+
+      // Vérifier que ce n'est pas déjà legendary
+      if (firstRarity === 'legendary') {
+        resp.status(400);
+        throw new Error('Les cartes légendaires ne peuvent pas être fusionnées');
+      }
+
+      // Définir le coût de fusion selon la rareté
+      const fusionCost: Record<string, number> = {
+        common: 5,
+        uncommon: 4,
+        rare: 3,
+        epic: 3
+      };
+
+      const requiredCount = fusionCost[firstRarity || 'common'];
+      if (cardIds.length < requiredCount) {
+        resp.status(400);
+        throw new Error(`Vous devez fusionner au moins ${requiredCount} cartes ${firstRarity}`);
+      }
+
+      // Vérifier que l'utilisateur possède toutes les cartes en quantité suffisante
+      const cardCountMap = new Map<string, number>();
+      for (const cardId of cardIds) {
+        const count = cardCountMap.get(cardId) || 0;
+        cardCountMap.set(cardId, count + 1);
+      }
+
+      for (const [cardId, neededCount] of cardCountMap.entries()) {
+        const userCard = collection.cards.find(c => c.cardId.toString() === cardId);
+        if (!userCard || userCard.count < neededCount) {
+          resp.status(400);
+          throw new Error('Vous ne possédez pas assez d\'exemplaires de certaines cartes');
+        }
+      }
+
+      // Déterminer la rareté de la carte résultante
+      const rarityUpgrade: Record<string, string> = {
+        common: 'uncommon',
+        uncommon: 'rare',
+        rare: 'epic',
+        epic: 'legendary'
+      };
+
+      const targetRarity = rarityUpgrade[firstRarity || 'common'];
+
+      // Récupérer une carte aléatoire de la rareté supérieure
+      const targetCards = await fastify.models.Card.aggregate([
+        { $match: { rarity: targetRarity, status: 'active' } },
+        { $sample: { size: 1 } }
+      ]);
+
+      if (targetCards.length === 0) {
+        resp.status(500);
+        throw new Error(`Aucune carte ${targetRarity} disponible pour la fusion`);
+      }
+
+      const newCard = targetCards[0];
+
+      // Retirer les cartes sacrifiées
+      for (const [cardId, neededCount] of cardCountMap.entries()) {
+        const userCard = collection.cards.find(c => c.cardId.toString() === cardId);
+        if (userCard) {
+          userCard.count -= neededCount;
+          if (userCard.count <= 0) {
+            collection.cards = collection.cards.filter(c => c.cardId.toString() !== cardId);
+          }
+        }
+      }
+
+      // Ajouter la nouvelle carte
+      const existingNewCard = collection.cards.find(c => c.cardId.toString() === newCard._id.toString());
+      if (existingNewCard) {
+        existingNewCard.count += 1;
+      } else {
+        collection.cards.push({
+          cardId: newCard._id as any,
+          count: 1
+        });
+      }
+
+      await collection.save();
+
+      // Récupérer la carte complète avec les relations
+      const fullNewCard = await fastify.models.Card.findById(newCard._id)
+        .populate('frontAsset')
+        .populate('borderAsset')
+        .populate('category');
+
+      log(fastify, `Fusion de cartes réussie pour l'utilisateur ${userId}: ${cardIds.length} cartes ${firstRarity} → 1 carte ${targetRarity}`, 'info', 200);
+
+      return {
+        success: true,
+        fusedCardIds: cardIds,
+        fusedCount: cardIds.length,
+        fusedRarity: firstRarity,
+        newCard: fullNewCard,
+        newRarity: targetRarity
+      };
+    } catch (error) {
+      log(fastify, `Erreur lors de la fusion de cartes: ${error}`, 'error', 500);
+      resp.status(500);
+      throw error;
+    }
+  });
 }
 
 export default cardCollectionRoutes;
