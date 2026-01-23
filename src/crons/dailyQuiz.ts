@@ -1,11 +1,13 @@
 import {FastifyInstance} from "fastify";
+import scrimiumRewardService from "../services/scrimiumRewardService";
+import {IQuizAnswer} from "../models/QuizAnswer";
 
 export const startDailyQuizCron = async (fastify: FastifyInstance) => {
   fastify.cron.schedule('0 0 * * *', async () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    const answersToProcess = await fastify.models.QuizAnswer.find({ processed: { $ne: true }, answeredAt: { $lte: today } });
+    const answersToProcess: IQuizAnswer[] = await fastify.models.QuizAnswer.find({ processed: { $ne: true }, answeredAt: { $lte: today } });
     for (const answer of answersToProcess) {
       const question = await fastify.models.QuizQuestion.findById(answer.questionId);
       if (!question) {
@@ -31,6 +33,8 @@ export const startDailyQuizCron = async (fastify: FastifyInstance) => {
         }
 
         answer.isCorrect = true;
+        const scrimiumService = new scrimiumRewardService(fastify);
+        await scrimiumService.giveReward(answer.userId?.toString(), 'dailyquiz', 'good_answer');
       } else {
         answer.points = 0;
       }

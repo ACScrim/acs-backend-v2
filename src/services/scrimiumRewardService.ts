@@ -8,6 +8,7 @@ class ScrimiumRewardService {
       weekly_winner: 250,
       weekly_second_place: 150,
       weekly_third_place: 100,
+      good_answer: 50
     },
     // Acsdle
     acsdle: {
