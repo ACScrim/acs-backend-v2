@@ -18,6 +18,7 @@ export interface ICardTrade extends mongoose.Document {
     cardId: mongoose.Schema.Types.ObjectId;
     count: number;
   }[];
+  description?: string;
   status: 'active' | 'completed' | 'cancelled';
   proposals: ITradeProposal[];
   createdAt: Date;
@@ -44,6 +45,7 @@ const cardTradeSchema = new mongoose.Schema<ICardTrade>({
       count: { type: Number, required: true, min: 1 }
     }
   ],
+  description: { type: String, required: false },
   status: { type: String, enum: ['active', 'completed', 'cancelled'], default: 'active' },
   proposals: [tradeProposalSchema]
 }, { timestamps: true });

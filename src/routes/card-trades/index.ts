@@ -113,8 +113,9 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.post('/', { preHandler: [authGuard] }, async (req) => {
     try {
       const userId = req.session.userId;
-      const { offeredCards } = req.body as {
-        offeredCards: { cardId: string; count: number }[]
+      const { offeredCards, description } = req.body as {
+        offeredCards: { cardId: string; count: number }[],
+        description?: string
       };
 
       // Vérifier qu'il y a entre 1 et 5 cartes
@@ -143,6 +144,7 @@ const cardTradesRoutes: FastifyPluginAsync = async (fastify) => {
           cardId: new mongoose.Types.ObjectId(c.cardId),
           count: c.count
         })),
+        description,
         status: 'active',
         proposals: []
       });
