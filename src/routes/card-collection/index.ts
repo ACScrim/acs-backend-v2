@@ -3,7 +3,6 @@ import {authGuard} from "../../middleware/authGuard";
 import {ICard} from "../../models/Card";
 import {ICardCollection} from "../../models/CardCollection";
 import { log, AppError } from "../../utils/utils";
-import mongoose from "mongoose";
 
 const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/me', { preHandler: [authGuard] }, async (req) => {
@@ -53,7 +52,7 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
     };
   });
 
-  fastify.get('/me/categories-overview', { preHandler: [authGuard] }, async (req, resp) => {
+  fastify.get('/me/categories-overview', { preHandler: [authGuard] }, async (req) => {
     const userId = req.session.userId;
     let collection = await fastify.models.CardCollection.findOne({ userId })
       .populate({
@@ -172,26 +171,35 @@ const cardCollectionRoutes: FastifyPluginAsync = async (fastify) => {
         throw new AppError(400, 'Les cartes légendaires ne peuvent pas être fusionnées');
       }
 
-      // Définir le coût de fusion selon la rareté
-      const fusionCost: Record<string, number> = {
-        common: 5,
-        uncommon: 4,
-        rare: 3,
-        epic: 3
-      };
-
-      const requiredCount = fusionCost[firstRarity || 'common'];
-      if (cardIds.length < requiredCount) {
-        throw new AppError(400, `Vous devez fusionner au moins ${requiredCount} cartes ${firstRarity}`);
+      // Nouvelle règle: soit 3 cartes identiques, soit 5 cartes différentes (toujours de la même rareté)
+      if (!(cardIds.length === 3 || cardIds.length === 5)) {
+        throw new AppError(400, 'Vous devez sélectionner soit 3 cartes identiques, soit 5 cartes différentes');
       }
 
-      // Vérifier que l'utilisateur possède toutes les cartes en quantité suffisante
+      // Vérifier les occurrences sélectionnées
       const cardCountMap = new Map<string, number>();
       for (const cardId of cardIds) {
         const count = cardCountMap.get(cardId) || 0;
         cardCountMap.set(cardId, count + 1);
       }
 
+      if (cardIds.length === 3) {
+        // Doit être 3 exemplaires de la même carte
+        if (cardCountMap.size !== 1) {
+          throw new AppError(400, 'Pour fusionner 3 cartes, elles doivent être 3 exemplaires d\'une même carte');
+        }
+        const needed = Array.from(cardCountMap.values())[0];
+        if (needed !== 3) {
+          throw new AppError(400, 'Pour fusionner 3 cartes, sélectionnez exactement 3 exemplaires');
+        }
+      } else {
+        // Doit être 5 cartes toutes différentes
+        if (cardCountMap.size === 1) {
+          throw new AppError(400, 'Pour fusionner 5 cartes, sélectionnez au moins 2 cartes différentes');
+        }
+      }
+
+      // Vérifier que l'utilisateur possède toutes les cartes en quantité suffisante
       for (const [cardId, neededCount] of cardCountMap.entries()) {
         const userCard = collection.cards.find(c => c.cardId.toString() === cardId);
         if (!userCard || userCard.count < neededCount) {
