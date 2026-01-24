@@ -17,6 +17,7 @@ import {log} from "./utils/utils";
 import MongoSessionStore from "./utils/MongoStore";
 import {readFile} from "node:fs/promises";
 import {validateEnvironment} from "./utils/validateEnv";
+import {startTournamentFinishedCleanerCron} from "./crons/tournamentFinishedCleaner";
 
 // Valider les variables d'environnement au démarrage
 validateEnvironment();
@@ -245,6 +246,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
       await startTournamentRemindersCron(fastify);
       await startDailyQuizCron(fastify);
       await startUpdateAcsersCardCron(fastify);
+      await startTournamentFinishedCleanerCron(fastify);
     })
 }
 
