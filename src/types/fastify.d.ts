@@ -26,6 +26,8 @@ import ChallongeService from "../services/challongeService";
 import ScrimiumRewardService from "../services/scrimiumRewardService";
 import DiscordMessage from "../models/DiscordMessage";
 import Bet from "../models/Bet";
+import ThreeBoxesService from "../services/threeBoxesService";
+import ThreeBoxesDay from "../models/ThreeBoxesDay";
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -51,7 +53,8 @@ declare module 'fastify' {
       Acsdle: Model<Acsdle>
       DiscordMessage: Model<DiscordMessage>,
       Bet: Model<Bet>,
-      CardTrade: Model<CardTrade>
+      CardTrade: Model<CardTrade>,
+      ThreeBoxesDay: Model<ThreeBoxesDay>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
@@ -59,7 +62,8 @@ declare module 'fastify' {
     discordMetadata?: { channels: Array<{ id: string; name: string }>; members: Array<{ id: string; username: string; avatar: string }> },
     twitchService: TwitchService,
     challongeService: ChallongeService,
-    scrimiumRewardService: ScrimiumRewardService
+    scrimiumRewardService: ScrimiumRewardService,
+    threeBoxesService: ThreeBoxesService
   }
 
   interface Session {

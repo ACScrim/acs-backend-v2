@@ -23,6 +23,8 @@ import Acsdle from "../models/Acsdle";
 import DiscordMessage from "../models/DiscordMessage";
 import Bet from "../models/Bet";
 import CardTrade from "../models/CardTrade";
+import ThreeBoxesChoice from "../models/ThreeBoxesChoice";
+import ThreeBoxesDay from "../models/ThreeBoxesDay";
 
 const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
   const uri = process.env.MONGODB_URI ?? "mongodb://127.0.0.1:27017/acs-v2";
@@ -96,7 +98,8 @@ const mongoosePlugin: FastifyPluginAsync = async (fastify) => {
     Acsdle: Acsdle,
     DiscordMessage: DiscordMessage,
     Bet: Bet,
-    CardTrade: CardTrade
+    CardTrade: CardTrade,
+    ThreeBoxesDay: ThreeBoxesDay
   });
 
   fastify.addHook('onClose', async () => {
