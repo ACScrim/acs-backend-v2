@@ -120,10 +120,7 @@ class ThreeBoxesService {
       // If reward > 0 and not credited, credit scrimiums
       if ((userChoice.reward as number) > 0 && !userChoice.credited) {
         try {
-          await modelsAny.Scrimium.updateOne({ userId }, {
-            $inc: { balance: userChoice.reward },
-            $push: { transactions: { amount: userChoice.reward, date: new Date(), description: `three-boxes | reward` } }
-          }, { upsert: true });
+          await this.fastify.scrimiumRewardService.giveReward(userId, "threeboxes", userChoice.reward === 50 ? "reward_50" : "reward_100");
 
           // mark credited true on the specific subdocument
           await modelsAny.ThreeBoxesDay.updateOne({ date: dateIso, 'choices.userId': userObjectId, 'choices.credited': false }, { $set: { 'choices.$.credited': true } });

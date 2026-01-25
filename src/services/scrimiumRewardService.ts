@@ -20,6 +20,10 @@ class ScrimiumRewardService {
       participation: 100,
       first_place: 250,
       top25: 150
+    },
+    threeboxes: {
+      reward_50: 50,
+      reward_100: 100
     }
   }
 
@@ -29,7 +33,7 @@ class ScrimiumRewardService {
     this.fastify = fastify;
   }
 
-  private getReward(activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz): number | null {
+  private getReward(activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz | keyof typeof this.REWARDS.threeboxes): number | null {
     const activityRewards = this.REWARDS[activityType];
     if (activityRewards && rewardType in activityRewards) {
       return activityRewards[rewardType as keyof typeof activityRewards];
@@ -37,7 +41,7 @@ class ScrimiumRewardService {
     return null;
   }
 
-  private async ensureRewardNotAlreadyGiven(userId: string, activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz, date: Date): Promise<boolean> {
+  private async ensureRewardNotAlreadyGiven(userId: string, activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz | keyof typeof this.REWARDS.threeboxes, date: Date): Promise<boolean> {
     const description = `${activityType} | ${rewardType}`;
     const exists = await this.fastify.models.Scrimium.exists({
       userId,
@@ -54,7 +58,7 @@ class ScrimiumRewardService {
     return !exists;
   }
 
-  async giveReward(userId: string, activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz): Promise<void> {
+  async giveReward(userId: string, activityType: keyof typeof this.REWARDS, rewardType: keyof typeof this.REWARDS.acsdle | keyof typeof this.REWARDS.tournaments | keyof typeof this.REWARDS.dailyquiz | keyof typeof this.REWARDS.threeboxes): Promise<void> {
     const rewardPoints = this.getReward(activityType, rewardType);
     if (rewardPoints !== null && await this.ensureRewardNotAlreadyGiven(userId, activityType, rewardType, new Date())) {
       await this.fastify.models.Scrimium.updateOne({ userId }, {
