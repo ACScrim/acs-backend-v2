@@ -24,6 +24,9 @@ class ScrimiumRewardService {
     threeboxes: {
       reward_50: 50,
       reward_100: 100
+    },
+    dailygames: {
+      completed: 100
     }
   }
 
@@ -65,6 +68,52 @@ class ScrimiumRewardService {
         $inc: { balance: rewardPoints },
         $push: { transactions: { amount: rewardPoints, date: new Date(), description: `${activityType} | ${rewardType}` }}
       });
+    }
+
+    // Check if user did all games today for dailygames reward
+    const startOfDay = new Date();
+    startOfDay.setHours(0, 0, 0, 0);
+    const endOfDay = new Date();
+    endOfDay.setHours(23, 59, 59, 999);
+
+    const hasDailyQuiz = await this.fastify.models.Scrimium.exists({
+      userId,
+      transactions: {
+        $elemMatch: {
+          description: 'dailyquiz | participation',
+          date: { $gte: startOfDay, $lt: endOfDay }
+        }
+      }
+    });
+
+    const hasAcsdle = await this.fastify.models.Scrimium.exists({
+      userId,
+      transactions: {
+        $elemMatch: {
+          description: 'acsdle | completion',
+          date: { $gte: startOfDay, $lt: endOfDay }
+        }
+      }
+    });
+
+    const hasThreeboxes = await this.fastify.models.Scrimium.exists({
+      userId,
+      transactions: {
+        $elemMatch: {
+          description: { $in: ['threeboxes | reward_50', 'threeboxes | reward_100'] },
+          date: { $gte: startOfDay, $lt: endOfDay }
+        }
+      }
+    });
+
+    if (hasDailyQuiz && hasAcsdle && hasThreeboxes) {
+      const rewardPoints2 = this.getReward('dailygames' as any, 'completed' as any);
+      if (rewardPoints2 !== null && await this.ensureRewardNotAlreadyGiven(userId, 'dailygames' as any, 'completed' as any, new Date())) {
+        await this.fastify.models.Scrimium.updateOne({ userId }, {
+          $inc: { balance: rewardPoints2 },
+          $push: { transactions: { amount: rewardPoints2, date: new Date(), description: 'dailygames | completed' } }
+        });
+      }
     }
   }
 }
