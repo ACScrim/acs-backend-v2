@@ -19,14 +19,13 @@ class ThreeBoxesService {
 
   async getTodayChoice(userId: string) {
     const today = this.getTodayDateNormalized();
-    const dateIso = today.toISOString().slice(0,10);
     const modelsAny = (this.fastify as any).models;
 
     // Ensure the day document exists (create if missing)
     try {
       await modelsAny.ThreeBoxesDay.findOneAndUpdate(
-        { date: dateIso },
-        { $setOnInsert: { date: dateIso } },
+        { date: today },
+        { $setOnInsert: { date: today } },
         { upsert: true, new: true, setDefaultsOnInsert: true }
       ).exec();
     } catch (e) {
@@ -36,7 +35,7 @@ class ThreeBoxesService {
 
     // Find user's choice subdocument
     const userObjectId = new mongoose.Types.ObjectId(userId);
-    const found = await modelsAny.ThreeBoxesDay.findOne({ date: dateIso, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
+    const found = await modelsAny.ThreeBoxesDay.findOne({ date: today, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
     if (!found || !found.choices || found.choices.length === 0) return null;
     const choice = found.choices[0];
     // Normalize returned shape to previous API if needed
@@ -45,13 +44,12 @@ class ThreeBoxesService {
       reward: choice.reward ?? null,
       permutation: choice.permutation,
       credited: choice.credited ?? false,
-      date: dateIso,
+      date: today,
     };
   }
 
   async chooseBox(userId: string, choiceNumber: number) {
     const today = this.getTodayDateNormalized();
-    const dateIso = today.toISOString().slice(0,10);
 
     // Validate choice
     if (![1,2,3].includes(choiceNumber)) {
@@ -62,7 +60,7 @@ class ThreeBoxesService {
     const userObjectId = new mongoose.Types.ObjectId(userId);
 
     // Compute permutation deterministically and reward
-    const perm = getPermutationFor(userId, dateIso);
+    const perm = getPermutationFor(userId, today.toDateString());
     const chosenIndex = Math.max(0, Math.min(2, choiceNumber - 1));
     const reward = computeRewardFromPermutation(perm, chosenIndex);
 
@@ -71,14 +69,14 @@ class ThreeBoxesService {
       permutation: perm,
       chosenIndex,
       reward,
-      credited: reward > 0 ? false : true,
+      credited: reward <= 0,
     } as any;
 
     // Try atomic upsert: create the day and push the choice only if user doesn't have one yet
     try {
-      const filter = { date: dateIso, 'choices.userId': { $ne: userObjectId } };
+      const filter = { date: today, 'choices.userId': { $ne: userObjectId } };
       const update = {
-        $setOnInsert: { date: dateIso },
+        $setOnInsert: { date: today },
         $push: { choices: userChoiceSubDoc }
       };
       const options = { upsert: true, new: true, setDefaultsOnInsert: true } as any;
@@ -97,7 +95,7 @@ class ThreeBoxesService {
 
       if (!userChoice) {
         // The user likely already had a choice; fetch it explicitly
-        const existing = await modelsAny.ThreeBoxesDay.findOne({ date: dateIso, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
+        const existing = await modelsAny.ThreeBoxesDay.findOne({ date: today, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
         if (existing && existing.choices && existing.choices.length) userChoice = existing.choices[0];
       }
 
@@ -113,7 +111,7 @@ class ThreeBoxesService {
           reward: userChoice.reward ?? null,
           permutation: userChoice.permutation,
           credited: userChoice.credited ?? false,
-          date: dateIso,
+          date: today,
         };
       }
 
@@ -123,7 +121,7 @@ class ThreeBoxesService {
           await this.fastify.scrimiumRewardService.giveReward(userId, "threeboxes", userChoice.reward === 50 ? "reward_50" : "reward_100");
 
           // mark credited true on the specific subdocument
-          await modelsAny.ThreeBoxesDay.updateOne({ date: dateIso, 'choices.userId': userObjectId, 'choices.credited': false }, { $set: { 'choices.$.credited': true } });
+          await modelsAny.ThreeBoxesDay.updateOne({ date: today, 'choices.userId': userObjectId, 'choices.credited': false }, { $set: { 'choices.$.credited': true } });
         } catch (e) {
           log(this.fastify, `Erreur lors du crédit scrimiums pour user ${userId}: ${e}`, 'error');
         }
@@ -134,12 +132,12 @@ class ThreeBoxesService {
         reward: userChoice.reward ?? null,
         permutation: userChoice.permutation,
         credited: userChoice.credited ?? false,
-        date: dateIso,
+        date: today,
       };
     } catch (e: any) {
       // Handle duplicate key error (race): fetch existing user's choice
       if (e && e.code === 11000) {
-        const existing = await modelsAny.ThreeBoxesDay.findOne({ date: dateIso, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
+        const existing = await modelsAny.ThreeBoxesDay.findOne({ date: today, 'choices.userId': userObjectId }, { 'choices.$': 1 }).lean();
         if (existing && existing.choices && existing.choices.length) {
           const uc = existing.choices[0];
           return {
@@ -147,7 +145,7 @@ class ThreeBoxesService {
             reward: uc.reward ?? null,
             permutation: uc.permutation,
             credited: uc.credited ?? false,
-            date: dateIso,
+            date: today,
           };
         }
       }

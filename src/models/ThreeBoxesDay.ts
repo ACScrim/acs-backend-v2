@@ -2,14 +2,14 @@ import mongoose from 'mongoose';
 import ThreeBoxesChoiceSchema, { IThreeBoxesChoice } from './ThreeBoxesChoice';
 
 export interface IThreeBoxesDay extends mongoose.Document {
-  date: string; // normalized YYYY-MM-DD
+  date: Date;
   choices: IThreeBoxesChoice[];
   createdAt: Date;
   updatedAt: Date;
 }
 
 const ThreeBoxesDaySchema = new mongoose.Schema<IThreeBoxesDay>({
-  date: { type: String, required: true },
+  date: { type: Date, required: true },
   choices: { type: [ThreeBoxesChoiceSchema], default: [] },
 }, {
   timestamps: true,

@@ -33,7 +33,41 @@ const usersRoute: FastifyPluginAsync = async (fastify) => {
         throw new AppError(404, "Utilisateur introuvable pour l'identifiant fourni");
       }
       user.set('scrimium', scrimium);
-      return user;
+      user.set('scrimium.transactions', []); // Ne pas renvoyer les transactions pour alléger la réponse
+
+      const playerParticipatedToDailyquizToday = await fastify.models.QuizAnswer.exists({
+        userId: userId,
+        answeredAt: {
+          $gte: new Date(new Date().setHours(0, 0, 0, 0)),
+          $lt: new Date(new Date().setHours(23, 59, 59, 999))
+        }
+      });
+
+      const playerParticipatedToAcsdleToday = await fastify.models.Acsdle.exists({
+        date: {
+          $gte: new Date(new Date().setHours(0, 0, 0, 0)),
+          $lt: new Date(new Date().setHours(23, 59, 59, 999))
+        },
+        completions: {
+          $elemMatch: {
+            userId: userId
+          }
+        }
+      });
+
+      const playerParticipatedToBoxesToday = await fastify.models.ThreeBoxesDay.exists({
+        date: {
+          $gte: new Date(new Date().setHours(0, 0, 0, 0)),
+          $lt: new Date(new Date().setHours(23, 59, 59, 999))
+        },
+        choices: {
+          $elemMatch: {
+            userId: userId
+          }
+        }
+      });
+
+      return { ...user.toJSON(), dailyquizParticipatedToday: !!playerParticipatedToDailyquizToday, acsdleParticipatedToday: !!playerParticipatedToAcsdleToday, boxesParticipatedToday: !!playerParticipatedToBoxesToday };
     } catch (error) {
       log(fastify, `Erreur lors de la récupération du profil utilisateur : ${error}`, 'error');
       throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération du profil');

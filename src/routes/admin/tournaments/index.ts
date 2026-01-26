@@ -2,7 +2,7 @@ import {ITournament, ITournamentPlayer} from "../../../models/Tournament";
 import {FastifyPluginAsync} from "fastify";
 import {adminGuard} from "../../../middleware/authGuard";
 import {IGame} from "../../../models/Game";
-import {log, AppError} from "../../../utils/utils";
+import {log, AppError, isRankingCountedAsPodium} from "../../../utils/utils";
 import card from "../../../models/Card";
 import {IUser} from "../../../models/User";
 
@@ -384,12 +384,10 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         if (targetTeam.ranking === 1) {
           for (const player of targetTeam.users) {
             await fastify.scrimiumRewardService.giveReward((player as unknown as IUser).id, 'tournaments', 'first_place');
-          //   TODO: Give automatic badge
           }
-        } else if (targetTeam.ranking <= Math.ceil(tournament.teams.length * 0.25)) {
+        } else if (isRankingCountedAsPodium(targetTeam.ranking, tournament.teams.length)) {
           for (const player of targetTeam.users) {
             await fastify.scrimiumRewardService.giveReward((player as unknown as IUser).id, 'tournaments', 'top25');
-            //   TODO: Give automatic badge
           }
         }
 
