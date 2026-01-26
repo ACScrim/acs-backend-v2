@@ -17,9 +17,9 @@ class ScrimiumRewardService {
     },
     // Tournaments
     tournaments: {
-      participation: 100,
-      first_place: 250,
-      top25: 150
+      participation: 250,
+      first_place: 500,
+      top25: 250
     },
     threeboxes: {
       reward_50: 50,
