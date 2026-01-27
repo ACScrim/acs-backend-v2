@@ -7,9 +7,8 @@ import {IUser} from "../models/User";
 export const startTournamentFinishedCleanerCron = async (fastify: FastifyInstance) => {
   /**
    * Cron job qui s'exécute tous les jours à 3h pour nettoyer les tournois finis
-   * Supprime les tournois finis depuis plus de 30 jours
    */
-  fastify.cron.schedule('0 3 * * MON', async () => {
+  fastify.cron.schedule('0 3 * * 1', async () => {
     try {
       const lastTournament = await fastify.models.Tournament.findOne({ finished: true }).sort({ date: -1 }).populate('game').populate('players.user') as ITournament & { game: IGame, players: (ITournamentPlayer & { user: IUser; })[] };
       if (!lastTournament) {
