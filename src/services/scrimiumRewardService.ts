@@ -96,12 +96,14 @@ class ScrimiumRewardService {
       }
     });
 
-    const hasThreeboxes = await this.fastify.models.Scrimium.exists({
-      userId,
-      transactions: {
+    const hasThreeboxes = await this.fastify.models.ThreeBoxesDay.exists({
+      date: {
+        $gte: new Date(new Date().setHours(0, 0, 0, 0)),
+        $lt: new Date(new Date().setHours(23, 59, 59, 999))
+      },
+      choices: {
         $elemMatch: {
-          description: { $in: ['threeboxes | reward_50', 'threeboxes | reward_100'] },
-          date: { $gte: startOfDay, $lt: endOfDay }
+          userId: userId
         }
       }
     });
