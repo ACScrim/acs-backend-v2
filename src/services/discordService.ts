@@ -1,6 +1,6 @@
 import {ITournament, ITournamentPlayer} from "../models/Tournament";
 import {
-  ActionRowBuilder,
+  ActionRowBuilder, BaseGuildVoiceChannel,
   ButtonBuilder,
   ButtonStyle,
   CategoryChannel,
@@ -9,7 +9,7 @@ import {
   Collection,
   ColorResolvable,
   EmbedBuilder,
-  EmbedField,
+  EmbedField, GuildBasedChannel,
   MessageActionRowComponentBuilder,
   StringSelectMenuBuilder,
   TextChannel
@@ -97,8 +97,9 @@ class DiscordService {
 
   private async deleteAllVoiceChannels(): Promise<void> {
     const guild = await this.client.guilds.fetch(this.guildId);
-    const voiceChannels: Collection<string, any> = guild.channels.cache.filter((ch: any) => ch.type === ChannelType.GuildVoice);
+    const voiceChannels: Collection<string, BaseGuildVoiceChannel> = guild.channels.cache.filter((ch: any) => ch.type === ChannelType.GuildVoice) as Collection<string, BaseGuildVoiceChannel>;
     for (const [channelId, channel] of voiceChannels) {
+      if (["to-only", "Général"].includes(channel.name)) continue; // Skip protected channels
       if (channel.members.size === 0) {
         await channel.delete();
       }
@@ -138,7 +139,7 @@ class DiscordService {
     // Send message
     if (channel && channel.isTextBased()) {
       const embedMessage = this.buildTournamentMessage(tournament);
-      const message = await channel.send({ embeds: [embedMessage] });
+      const message = await channel.send({ content: "||<@&1460646121343946793>||", embeds: [embedMessage] });
       messageId = message.id;
     }
     await guild.scheduledEvents.create({
@@ -169,7 +170,7 @@ class DiscordService {
       const message = await channel.messages.fetch(tournament.messageId);
       if (message) {
         const embedMessage = this.buildTournamentMessage(tournament);
-        await message.edit({ embeds: [embedMessage] });
+        await message.edit({ content: "||<@&1460646121343946793>||", embeds: [embedMessage] });
       }
     }
   }
