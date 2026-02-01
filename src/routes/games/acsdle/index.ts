@@ -67,7 +67,7 @@ const acsdleRoutes: FastifyPluginAsync = async (fastify) => {
     for (const user of users.values()) {
       acsdleUsers.push(await buildAcsdleUser(fastify, user));
     }
-    return acsdleUsers.filter(u => u.tournamentsPlayed > 0 && u.firstTournament);
+    return acsdleUsers.filter(u => u.tournamentsPlayed >= 3 && u.firstTournament);
   });
 
   fastify.get("/daily", { preHandler: [authGuard] }, async () => {
