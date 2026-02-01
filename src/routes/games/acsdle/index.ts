@@ -38,7 +38,7 @@ const buildAcsdleUser = async (fastify: FastifyInstance, user: IUser): Promise<I
   return {
     id: userId,
     username: user.username,
-    firstTournament: firstTournament ? firstTournament.name : null,
+    firstTournament: firstTournament ? { name: firstTournament.name, date: firstTournament.date } : null,
     tournamentsPlayed: tournamentsPlayed.length,
     victories,
     podiumCount,
