@@ -126,11 +126,6 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
       await tournament.save();
 
-      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
-
-      const user = await fastify.models.User.findById(userId) as IUser;
-      if (user.discordId) await fastify.discordService.unsetTournamentRole(tournamentData, user.discordId);
-
       // Mettre à jour la liste d'attente si nécessaire
       if (tournament.playerCap > 0 && tournament.players.length >= tournament.playerCap) {
         const nextPlayer = tournament.players.find(p => p.inWaitlist);
@@ -139,6 +134,11 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
           await tournament.save();
         }
       }
+
+      const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+
+      const user = await fastify.models.User.findById(userId) as IUser;
+      if (user.discordId) await fastify.discordService.unsetTournamentRole(tournamentData, user.discordId);
 
       // Mettre à jour le message Discord du tournoi
       try {
