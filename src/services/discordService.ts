@@ -372,6 +372,26 @@ class DiscordService {
     }
   }
 
+  /**
+   * Envoie une notification privée à un utilisateur lorsqu'il est déplacé de la liste d'attente au tournoi
+   */
+  public async sendTournamentWaitlistNotification(tournament: ITournament & { game: IGame }, userDiscordId: string): Promise<void> {
+    try {
+      const discordUser = await this.client.users.fetch(userDiscordId);
+      if (discordUser) {
+        const notificationMessage = `🎉 **Bonne nouvelle ! Tu as été déplacé de la liste d'attente au tournoi : ${tournament.name}**\n\n` +
+            `Une place s'est libérée et tu es maintenant inscrit !\n\n` +
+            `📅 **Date :** ${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}\n\n` +
+            `Assure-toi de faire ton check-in avant le début du tournoi !\n\n` +
+            `[acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`;
+
+        await discordUser.send(notificationMessage);
+      }
+    } catch (error) {
+      console.error('Erreur lors de l\'envoi de la notification de liste d\'attente:', error);
+    }
+  }
+
   public async announceTournamentResults(tournament: ITournament & { game: IGame }): Promise<void> {
     try {
       const guild = await this.client.guilds.fetch(this.guildId);

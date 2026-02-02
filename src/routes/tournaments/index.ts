@@ -130,6 +130,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       if (tournament.playerCap > 0 && tournament.players.length >= tournament.playerCap) {
         const nextPlayer = tournament.players.find(p => p.inWaitlist);
         if (nextPlayer) {
+          const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
+          const userDiscordId = (nextPlayer.user as unknown as IUser).discordId;
+          userDiscordId && await fastify.discordService.sendTournamentWaitlistNotification(tournamentData, userDiscordId);
           nextPlayer.inWaitlist = false;
           await tournament.save();
         }
