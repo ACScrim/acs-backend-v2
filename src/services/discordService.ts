@@ -605,6 +605,10 @@ class DiscordService {
     }
 
     const user = await this.client.users.fetch(payload.discordUserId!);
+    if (process.env.NODE_ENV !== 'production' && user.id !== '286937460628520960') {
+      console.log(`(Dev mode) Message privé envoyé à ${user.username}`);
+      return 'dev-mode-message-id';
+    }
     const sent = await user.send({ content: payload.messageType === 'text' ? payload.content : undefined, embeds: embed ? [embed] : [] });
     await (this.fastify as any).models.DiscordMessage.create({
       direction: 'outbound',

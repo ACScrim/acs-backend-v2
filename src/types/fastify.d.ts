@@ -54,7 +54,8 @@ declare module 'fastify' {
       DiscordMessage: Model<DiscordMessage>,
       Bet: Model<Bet>,
       CardTrade: Model<CardTrade>,
-      ThreeBoxesDay: Model<ThreeBoxesDay>
+      ThreeBoxesDay: Model<ThreeBoxesDay>,
+      InactivePlayerList: Model<InactivePlayerList>
     },
     cron: typeof import('node-cron').nodeCron,
     discord: Client,
