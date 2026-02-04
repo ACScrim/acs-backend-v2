@@ -334,9 +334,18 @@ class DiscordService {
         console.error('Tournament channel not found');
         return;
       }
+
+      const button = new ActionRowBuilder<ButtonBuilder>()
+        .addComponents(
+          new ButtonBuilder()
+            .setCustomId(`tournament_checkin_${tournament.id}`)
+            .setLabel('Confirmer ma présence')
+            .setStyle(ButtonStyle.Success)
+        );
+
       const tournamentRole = guild.roles.cache.find(role => role.name === `Tournoi-${tournament.game.name.replaceAll(' ', '-')}`);
       const roleMention = tournamentRole ? `<@&${tournamentRole.id}>` : '';
-      await channel.send(`${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`);
+      await channel.send({ content: `${roleMention}\n\n⏰ **Rappel tournoi : ${tournament.name}** commence bientôt !\n\nN'oubliez pas de faire votre check-in pour ce tournoi !\n\nRendez-vous sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`, components: [button] });
     } catch (error) {
       console.error('Erreur lors de l\'envoi du rappel Discord:', error);
     }
@@ -354,13 +363,22 @@ class DiscordService {
             if (process.env.NODE_ENV !== 'production' && discordUser.id !== '286937460628520960') {
               console.log(`(Dev mode) Rappel tournoi privé pour le tournoi ${tournament.name} envoyé à ${discordUser.username}`);
             } else if (process.env.NODE_ENV === 'production' || discordUser.id === '286937460628520960') {
+
+              const button = new ActionRowBuilder<ButtonBuilder>()
+                .addComponents(
+                  new ButtonBuilder()
+                    .setCustomId(`tournament_checkin_${tournament.id}`)
+                    .setLabel('Confirmer ma présence')
+                    .setStyle(ButtonStyle.Success)
+                );
+
               const reminderMessage = `⏰ **Rappel tournoi : ${tournament.name}**\n\n` +
                   `Le tournoi **${tournament.game.name}** commence très bientôt !\n\n` +
                   `📅 **Date :** ${tournament.date.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}\n` +
                   `📋 N'oublie pas de faire ton check-in avant le début du tournoi !\n\n` +
                   `[acscrim.fr](https://acscrim.fr/tournaments/${tournament.id})`;
 
-              await discordUser.send(reminderMessage);
+              await discordUser.send({ content: reminderMessage, components: [button] });
             }
           }
         } catch (userError) {

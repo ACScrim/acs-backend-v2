@@ -6,7 +6,7 @@ export const startTournamentRemindersCron = async (fastify: FastifyInstance) => 
    * Cron job qui s'exécute chaque minute pour vérifier les rappels de tournoi
    * Envoie les rappels Discord et les messages privés aux joueurs qui n'ont pas checkin
    */
-  fastify.cron.schedule('10 * * * *', async () => {
+  fastify.cron.schedule('*/1 * * * *', async () => {
     try {
       const now = new Date();
 
@@ -42,7 +42,7 @@ export const startTournamentRemindersCron = async (fastify: FastifyInstance) => 
             .map((p: any) => p.user);
 
           if (playersWithoutCheckin.length > 0) {
-            log(fastify, `Rappel tournoi privé (mode dev) pour le tournoi ${tournament.name} envoyé à ${playersWithoutCheckin.map((p: any) => p.username).join(', ')}`, 'info');
+            log(fastify, `Rappel tournoi privé pour le tournoi ${tournament.name} envoyé à ${playersWithoutCheckin.map((p: any) => p.username).join(', ')}`, 'info');
             await fastify.discordService.sendPrivateReminders(tournament, playersWithoutCheckin);
           }
 

@@ -200,6 +200,55 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
 
         await buttonInteraction.message.edit({ content: buttonInteraction.message.content + `\n\n**Validation ${action === 'accept' ? 'acceptée' : 'refusée'}**`, components: [] });
       }
+      if ((interaction as ButtonInteraction).customId.startsWith('tournament_checkin_')) {
+        const buttonInteraction = interaction as ButtonInteraction;
+        const parts = buttonInteraction.customId.split('_');
+        const tournamentId = parts[2];
+
+        // Récupérer le tournoi
+        const tournament = await fastify.models.Tournament.findById(tournamentId).populate('players.user');
+        if (!tournament) {
+          await buttonInteraction.reply({ content: '❌ Tournoi introuvable', flags: [64] }); // Ephemeral
+          return;
+        }
+
+        // Récupérer l'utilisateur Discord
+        const userId = buttonInteraction.user.id;
+        const user = await fastify.models.User.findOne({ discordId: userId });
+
+        if (!user) {
+          await buttonInteraction.reply({
+            content: '❌ Vous devez être connecté sur ACS pour vous enregistrer',
+            flags: [64] // Ephemeral
+          });
+          return;
+        }
+
+        const player = tournament.players.find((p: any) => p.user._id.toString() === user._id.toString());
+        if (!player) {
+          await buttonInteraction.reply({
+            content: '❌ Vous n\'êtes pas inscrit à ce tournoi',
+            flags: [64] // Ephemeral
+          });
+          return;
+        }
+
+        if (player.hasCheckin) {
+          await buttonInteraction.reply({
+            content: '✅ Vous avez déjà check-in pour ce tournoi',
+            flags: [64] // Ephemeral
+          });
+          return;
+        }
+
+        player.hasCheckin = true;
+        await tournament.save();
+
+        await buttonInteraction.reply({
+          content: '✅ Check-in effectué ! Rendez-vous lundi à 20h30 !',
+          flags: [64] // Ephemeral
+        });
+      }
     } catch (error) {
       console.error('Erreur lors du traitement de l\'interaction Discord:', error);
       try {
