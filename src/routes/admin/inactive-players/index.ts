@@ -8,7 +8,9 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
   // Récupérer toutes les listes
   fastify.get('/', { preHandler: [adminGuard] }, async () => {
     try {
-      return await fastify.models.InactivePlayerList.find().sort({ createdAt: -1 });
+      return await fastify.models.InactivePlayerList.find()
+        .populate('game', 'name imageUrl')
+        .sort({ createdAt: -1 });
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des listes de joueurs inactifs: ${error}`, 'error');
       throw new AppError(500, 'Erreur lors de la récupération des listes');
@@ -19,7 +21,8 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get('/:id', { preHandler: [adminGuard] }, async (request) => {
     try {
       const { id } = request.params as { id: string };
-      const list = await fastify.models.InactivePlayerList.findById(id);
+      const list = await fastify.models.InactivePlayerList.findById(id)
+        .populate('game', 'name imageUrl');
 
       if (!list) {
         throw new AppError(404, 'Liste introuvable');
@@ -35,9 +38,10 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
   // Analyser les joueurs inactifs et créer des listes
   fastify.post('/analyze', { preHandler: [adminGuard] }, async (request) => {
     try {
-      const { inactivityMonths = 3, batchSize = 5 } = request.body as {
+      const { inactivityMonths = 3, batchSize = 5, gameId } = request.body as {
         inactivityMonths?: number;
         batchSize?: number;
+        gameId?: string;
       };
 
       // Date limite (il y a X mois)
@@ -47,12 +51,12 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
       // Récupérer tous les utilisateurs
       const allUsers = await fastify.models.User.find({ discordId: { $exists: true, $ne: null } });
 
-      // Récupérer tous les tournois depuis la date limite
+      // Récupérer tous les tournois récents (tous les jeux confondus)
       const recentTournaments = await fastify.models.Tournament.find({
         date: { $gte: cutoffDate }
-      }).select('players date');
+      }).select('players date gameId');
 
-      // Créer un Set des IDs des utilisateurs actifs
+      // Créer un Set des IDs des utilisateurs actifs (ayant joué récemment, tous jeux confondus)
       const activeUserIds = new Set<string>();
       recentTournaments.forEach((tournament: ITournament) => {
         tournament.players.forEach((player) => {
@@ -61,9 +65,11 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
       });
 
       // Récupérer toutes les listes non archivées (pending ou sent)
-      const existingLists = await fastify.models.InactivePlayerList.find({
-        status: { $in: ['pending', 'sent'] }
-      });
+      const existingListsQuery: any = { status: { $in: ['pending', 'sent'] } };
+      if (gameId) {
+        existingListsQuery.gameId = gameId;
+      }
+      const existingLists = await fastify.models.InactivePlayerList.find(existingListsQuery);
 
       // Créer un Set des IDs des utilisateurs déjà dans des listes actives
       const usersInActiveLists = new Set<string>();
@@ -80,7 +86,20 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
 
         // Ignorer si l'utilisateur est actif OU déjà dans une liste active
         if (!activeUserIds.has(userId) && !usersInActiveLists.has(userId)) {
-          // Trouver le dernier tournoi du joueur
+          // Si un jeu est spécifié, vérifier si l'utilisateur a déjà joué à ce jeu
+          if (gameId) {
+            const hasPlayedGame = await fastify.models.Tournament.findOne({
+              'players.user': user._id,
+              gameId: gameId
+            });
+
+            // Si l'utilisateur n'a jamais joué à ce jeu, on l'ignore
+            if (!hasPlayedGame) {
+              continue;
+            }
+          }
+
+          // Trouver le dernier tournoi du joueur (tous jeux confondus)
           const lastTournament = await fastify.models.Tournament.findOne({
             'players.user': user._id
           }).sort({ date: -1 }).select('date');
@@ -99,6 +118,13 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
         return { success: true, message: 'Aucun joueur inactif trouvé', lists: [] };
       }
 
+      // Récupérer le nom du jeu si un gameId est fourni
+      let gameName = '';
+      if (gameId) {
+        const game = await fastify.models.Game.findById(gameId);
+        gameName = game ? ` - ${game.name}` : '';
+      }
+
       // Diviser en groupes (batches)
       const lists: IInactivePlayerList[] = [];
       for (let i = 0; i < inactiveUsers.length; i += batchSize) {
@@ -106,17 +132,18 @@ const inactivePlayersRoutes: FastifyPluginAsync = async (fastify) => {
         const listNumber = Math.floor(i / batchSize) + 1;
 
         const newList = new fastify.models.InactivePlayerList({
-          name: `Joueurs inactifs - Lot ${listNumber} (${new Date().toLocaleDateString('fr-FR')})`,
+          name: `Joueurs inactifs${gameName} - Lot ${listNumber} (${new Date().toLocaleDateString('fr-FR')})`,
           batchSize,
           users: batch,
-          status: 'pending'
+          status: 'pending',
+          gameId: gameId || undefined
         });
 
         await newList.save();
         lists.push(newList);
       }
 
-      log(fastify, `${inactiveUsers.length} joueurs inactifs trouvés, ${lists.length} listes créées`, 'info');
+      log(fastify, `${inactiveUsers.length} joueurs inactifs trouvés${gameName}, ${lists.length} listes créées`, 'info');
 
       return {
         success: true,

@@ -16,6 +16,7 @@ export interface IInactivePlayerList extends Document {
   updatedAt: Date;
   status: 'pending' | 'sent' | 'archived';
   messageContent?: string;
+  gameId?: Schema.Types.ObjectId;
 }
 
 const InactivePlayerListUserSchema = new mongoose.Schema({
@@ -31,6 +32,7 @@ const InactivePlayerListSchema = new mongoose.Schema<IInactivePlayerList>({
   batchSize: { type: Number, required: true, default: 5 },
   users: [InactivePlayerListUserSchema],
   status: { type: String, enum: ['pending', 'sent', 'archived'], default: 'pending' },
+  gameId: { type: mongoose.Schema.Types.ObjectId, ref: 'Game' },
   messageContent: {
     type: String,
     trim: true,
@@ -48,12 +50,23 @@ L'équipe ACS`
   }
 }, { timestamps: true });
 
+InactivePlayerListSchema.virtual('game', {
+  ref: 'Game',
+  localField: 'gameId',
+  foreignField: '_id',
+  justOne: true
+});
+
 InactivePlayerListSchema.set('toJSON', {
   virtuals: true,
   transform: (_doc, ret: any) => {
     ret.id = ret._id;
     delete ret._id;
     delete ret.__v;
+    // Garder game mais supprimer gameId du retour JSON pour éviter la duplication
+    if (ret.gameId && ret.game) {
+      delete ret.gameId;
+    }
     return ret;
   }
 });
