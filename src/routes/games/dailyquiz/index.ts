@@ -81,7 +81,13 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
       {
         $group: {
           _id: "$userId",
-          totalPoints: { $sum: "$points" }
+          totalPoints: { $sum: "$points" },
+          totalQuestions: { $sum: 1 },
+          correctAnswers: {
+            $sum: {
+              $cond: [{ $eq: ["$isCorrect", true] }, 1, 0]
+            }
+          }
         }
       },
       {
@@ -104,7 +110,9 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
           userId: "$user._id",
           username: "$user.username",
           avatarUrl: "$user.avatarUrl",
-          totalPoints: 1
+          totalPoints: 1,
+          totalQuestions: 1,
+          correctAnswers: 1
         }
       }
     ]);
@@ -133,7 +141,13 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
       {
         $group: {
           _id: "$userId",
-          totalPoints: { $sum: "$points" }
+          totalPoints: { $sum: "$points" },
+          totalQuestions: { $sum: 1 },
+          correctAnswers: {
+            $sum: {
+              $cond: [{ $eq: ["$isCorrect", true] }, 1, 0]
+            }
+          }
         }
       },
       {
@@ -156,7 +170,9 @@ const dailyquizRoutes: FastifyPluginAsync = async (fastify) => {
           userId: "$user._id",
           username: "$user.username",
           avatarUrl: "$user.avatarUrl",
-          totalPoints: 1
+          totalPoints: 1,
+          totalQuestions: 1,
+          correctAnswers: 1
         }
       }
     ]);

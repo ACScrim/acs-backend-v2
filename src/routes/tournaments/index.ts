@@ -78,6 +78,13 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
+
+      if (tournament.players.some(p => p.user.toString() === userId)) {
+        res.status(400);
+        log(fastify, `Inscription refusée : l'utilisateur ${userId} est déjà inscrit au tournoi ${(req.params as { id: string }).id}`, 'error', 400);
+        return { success: false, message: "Vous êtes déjà inscrit à ce tournoi" };
+      }
+
       const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : tournament.players.length >= tournament.playerCap;
       tournament.players.push({
         user: userId,
@@ -123,6 +130,13 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return { success: false, message: "Tournoi introuvable pour l'identifiant fourni" };
       }
       const userId = req.session.userId!;
+
+      if (!tournament.players.some(p => p.user.toString() === userId)) {
+        res.status(400);
+        log(fastify, `Désinscription refusée : l'utilisateur ${userId} n'est pas inscrit au tournoi ${(req.params as { id: string }).id}`, 'error', 400);
+        return { success: false, message: "Vous n'êtes pas inscrit à ce tournoi" };
+      }
+
       tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
       await tournament.save();
 
