@@ -22,7 +22,6 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
   fastify.get("/game/:gameId", { preHandler: [authGuard] }, async (req) => {
     try {
       const playerGameLevels = await fastify.models.PlayerGameLevel.find({
-        userId: req.session.userId!,
         gameId: (req.params as { gameId: string}).gameId
       }).populate('game');
       return playerGameLevels;
