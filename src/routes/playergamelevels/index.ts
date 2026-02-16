@@ -19,6 +19,19 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
     }
   });
 
+  fastify.get("/game/:gameId", { preHandler: [authGuard] }, async (req) => {
+    try {
+      const playerGameLevels = await fastify.models.PlayerGameLevel.find({
+        userId: req.session.userId!,
+        gameId: (req.params as { gameId: string}).gameId
+      }).populate('game');
+      return playerGameLevels;
+    } catch (error) {
+      log(fastify, `Erreur lors de la récupération des niveaux de jeu : ${error}`, 'error');
+      throw error instanceof AppError ? error : new AppError(500, 'Erreur lors de la récupération des niveaux');
+    }
+  });
+
   /**
    * Valide le lien profil contre la regex du jeu
    */
