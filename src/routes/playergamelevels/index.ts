@@ -23,7 +23,7 @@ const playerGameLevelsRoutes: FastifyPluginAsync = async (fastify) => {
     try {
       const playerGameLevels = await fastify.models.PlayerGameLevel.find({
         gameId: (req.params as { gameId: string}).gameId
-      }).populate('game');
+      }).populate('game').populate('user');
       return playerGameLevels;
     } catch (error) {
       log(fastify, `Erreur lors de la récupération des niveaux de jeu : ${error}`, 'error');
