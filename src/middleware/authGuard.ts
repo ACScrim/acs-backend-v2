@@ -3,7 +3,7 @@ import { AppError } from "../utils/utils";
 
 export async function authGuard(req: FastifyRequest, res: FastifyReply) {
   if ((req.query as any).acsteamssheet) {
-
+    return true;
   }
   else if (!req.session.userId) {
     throw new AppError(401, 'Non authentifié');
