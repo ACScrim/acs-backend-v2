@@ -28,8 +28,7 @@ class ChallongeService {
       headers: {
         'Content-Type': 'application/vnd.api+json',
         'Accept': 'application/json',
-        'Authorization': apiKey,
-        'Authorization-Type': 'v2'
+        'Authorization': apiKey
       },
       body: data ? JSON.stringify(data) : undefined,
       redirect: 'follow',
