@@ -53,7 +53,7 @@ class ChallongeService {
           tournament_type: options.tournamentType,
           game_name: tournament.game.name,
           private: true,
-          starts_at: new Date(tournament.date).toLocaleDateString(),
+          starts_at: new Date(tournament.date),
           seeding_options: {
             hide_seeds: true
           },
