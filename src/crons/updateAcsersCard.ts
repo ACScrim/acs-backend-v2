@@ -72,7 +72,7 @@ const createCardPayload = async (user: IUser, fastify: FastifyInstance) => {
 }
 
 export const startUpdateAcsersCardCron = async (fastify: FastifyInstance) => {
-  fastify.cron.schedule('0 1 * * 1', async () => {
+  fastify.cron.schedule('0 1 * * 2', async () => {
     try {
       const users = await fastify.models.User.find({}).exec();
       const categoryObjectId = new mongoose.Types.ObjectId('6957eb47cd0cfd4a74cbcc06');
