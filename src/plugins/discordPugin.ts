@@ -1,9 +1,22 @@
 import {FastifyPluginAsync} from 'fastify';
 import fp from "fastify-plugin";
-import {ButtonInteraction, ChannelType, Client, IntentsBitField, Partials, StringSelectMenuInteraction} from 'discord.js';
+import {
+  ApplicationCommandOptionType,
+  AutocompleteInteraction,
+  ButtonInteraction,
+  ChannelType,
+  ChatInputCommandInteraction,
+  Client,
+  IntentsBitField,
+  Partials,
+  REST,
+  Routes,
+  StringSelectMenuInteraction
+} from 'discord.js';
 import DiscordService from "../services/discordService";
 import {ITournamentPlayer} from "../models/Tournament";
 import {IUser} from "../models/User";
+import mongoose from "mongoose";
 
 const discordPlugin: FastifyPluginAsync = async (fastify) => {
   const discordClient = new Client({
@@ -35,6 +48,60 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
     } catch (err) {
       fastify.log.error({ err }, 'Erreur lors du chargement des métadonnées Discord');
     }
+
+    // Enregistrement des commandes slash
+    try {
+      const clientId = process.env.DISCORD_CLIENT_ID;
+      const guildId = process.env.DISCORD_GUILD_ID;
+      const token = process.env.DISCORD_TOKEN;
+      if (clientId && guildId && token) {
+        const rest = new REST().setToken(token);
+        const draftCommands = [
+          {
+            name: 'draftaddcap',
+            description: 'Ajouter un capitaine à un tournoi draft',
+            options: [
+              {
+                name: 'tournament_id',
+                description: 'ID du tournoi',
+                type: ApplicationCommandOptionType.String,
+                required: true,
+                autocomplete: true
+              },
+
+              {
+                name: 'user_discord',
+                description: 'Utilisateur Discord à désigner comme capitaine',
+                type: ApplicationCommandOptionType.User,
+                required: true
+              },
+              {
+                name: 'team_name',
+                description: 'Nom de l\'équipe (optionnel)',
+                type: ApplicationCommandOptionType.String,
+                required: false
+              }
+            ]
+          },
+          {
+            name: 'draftstart',
+            description: 'Démarrer le draft d\'un tournoi',
+            options: [
+              {
+                name: 'tournament_id',
+                description: 'ID du tournoi',
+                type: ApplicationCommandOptionType.String,
+                required: true,
+                autocomplete: true
+              }
+            ]
+          }
+        ];
+        await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: draftCommands });
+      }
+    } catch (err) {
+      fastify.log.error({ err }, 'Erreur lors de l\'enregistrement des commandes slash Discord');
+    }
   });
 
   /**
@@ -43,7 +110,204 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
    */
   discordClient.on('interactionCreate', async (interaction) => {
     try {
-      // Vérifier si c'est un bouton de vote pour une proposition
+      // ── Autocomplete sur tournament_id ────────────────────────────────────
+      if (interaction.isAutocomplete()) {
+        const autoInteraction = interaction as AutocompleteInteraction;
+        const focusedOption = autoInteraction.options.getFocused(true);
+        if (focusedOption.name === 'tournament_id') {
+          const search = focusedOption.value.trim();
+          const filter = search
+            ? { name: { $regex: search, $options: 'i' }, finished: false }
+            : { finished: false };
+          const tournaments = await fastify.models.Tournament.find(filter)
+            .sort({ date: -1 })
+            .limit(25)
+            .select('_id name date');
+          const choices = tournaments.map((t: any) => ({
+            name: `${t.name} (${new Date(t.date).toLocaleDateString('fr-FR')})`.substring(0, 100),
+            value: t._id.toString()
+          }));
+          await autoInteraction.respond(choices);
+        }
+        return;
+      }
+
+      // ── Commandes slash ────────────────────────────────────────────────────
+      if (interaction.isChatInputCommand()) {
+        const cmd = interaction as ChatInputCommandInteraction;
+
+        if (cmd.commandName === 'draftaddcap') {
+          await cmd.deferReply({ flags: [64] });
+
+          // Vérification des permissions admin ACS
+          const adminUser = await fastify.models.User.findOne({ discordId: cmd.user.id });
+          if (!adminUser || !['admin', 'superadmin'].includes(adminUser.role)) {
+            await cmd.editReply('❌ Vous n\'avez pas les permissions pour exécuter cette commande.');
+            return;
+          }
+
+          const tournamentId = cmd.options.getString('tournament_id', true).trim();
+          const discordUser = cmd.options.getUser('user_discord', true);
+          const teamName = cmd.options.getString('team_name');
+
+          if (!mongoose.isValidObjectId(tournamentId)) {
+            await cmd.editReply('❌ ID de tournoi invalide.');
+            return;
+          }
+
+          const tournament = await fastify.models.Tournament.findById(tournamentId);
+          if (!tournament) {
+            await cmd.editReply('❌ Tournoi introuvable.');
+            return;
+          }
+          if (!tournament.isDraft) {
+            await cmd.editReply('❌ Ce tournoi n\'est pas en mode draft.');
+            return;
+          }
+          if (tournament.draftStatus !== 'pending') {
+            await cmd.editReply('❌ Le draft a déjà commencé ou est terminé.');
+            return;
+          }
+
+          const acsUser = await fastify.models.User.findOne({ discordId: discordUser.id });
+          if (!acsUser) {
+            await cmd.editReply(`❌ <@${discordUser.id}> n'est pas lié à un compte ACS.`);
+            return;
+          }
+
+          const alreadyCaptain = (tournament.teams as any[]).some(
+            (t: any) => t.captainId?.toString() === (acsUser._id as any).toString()
+          );
+          if (alreadyCaptain) {
+            await cmd.editReply(`❌ <@${discordUser.id}> est déjà capitaine d'une équipe.`);
+            return;
+          }
+
+          // Ajouter aux joueurs du tournoi si absent
+          const isPlayer = tournament.players.some(
+            (p: any) => p.user.toString() === (acsUser._id as any).toString()
+          );
+          if (!isPlayer) {
+            // tournament.players.push({
+            //   user: acsUser._id,
+            //   inWaitlist: false,
+            //   registrationDate: new Date(),
+            //   hasCheckin: false,
+            //   isCaster: false,
+            //   isMvp: false,
+            //   mvpVotes: []
+            // } as any);
+            await cmd.editReply(`❌ <@${discordUser.id}> doit d'abord s'inscrire au tournoi avant de pouvoir être désigné comme capitaine.`);
+            return;
+          }
+
+          const finalTeamName = teamName?.trim() || `Équipe ${tournament.teams.length + 1}`;
+          tournament.teams.push({
+            name: finalTeamName,
+            captainId: acsUser._id,
+            users: [acsUser._id],
+            score: 0,
+            ranking: 0
+          } as any);
+
+          await tournament.save();
+          await cmd.editReply(`✅ <@${discordUser.id}> est maintenant capitaine de **${finalTeamName}** pour le tournoi **${tournament.name}** !`);
+          return;
+        }
+
+        if (cmd.commandName === 'draftstart') {
+          await cmd.deferReply({ flags: [64] });
+
+          const adminUser = await fastify.models.User.findOne({ discordId: cmd.user.id });
+          if (!adminUser || !['admin', 'superadmin'].includes(adminUser.role)) {
+            await cmd.editReply('❌ Vous n\'avez pas les permissions pour exécuter cette commande.');
+            return;
+          }
+
+          const tournamentId = cmd.options.getString('tournament_id', true).trim();
+          if (!mongoose.isValidObjectId(tournamentId)) {
+            await cmd.editReply('❌ ID de tournoi invalide.');
+            return;
+          }
+
+          try {
+            await fastify.discordService.startDraft(tournamentId);
+            await cmd.editReply('✅ Le draft a démarré ! Les capitaines vont être notifiés dans le canal du tournoi.');
+          } catch (err: any) {
+            await cmd.editReply(`❌ ${err.message}`);
+          }
+          return;
+        }
+
+        return;
+      }
+
+      // ── Sélection d'un joueur pendant le draft ─────────────────────────────
+      if (interaction.isStringSelectMenu() && interaction.customId.startsWith('draft_pick_')) {
+        const selectInteraction = interaction as StringSelectMenuInteraction;
+        const parts = selectInteraction.customId.split('_');
+        const tournamentId = parts.slice(2).join('_');
+
+        const tournament = await fastify.models.Tournament.findById(tournamentId);
+        if (!tournament) {
+          await selectInteraction.reply({ content: '❌ Tournoi introuvable.', flags: [64] });
+          return;
+        }
+        if (tournament.draftStatus !== 'in_progress') {
+          await selectInteraction.reply({ content: '❌ Le draft n\'est pas en cours.', flags: [64] });
+          return;
+        }
+
+        const currentTeamId = tournament.draftOrder[tournament.draftCurrentTurnIndex];
+        const currentTeam = (tournament.teams as any[]).find(
+          (t: any) => t._id.toString() === currentTeamId.toString()
+        );
+        if (!currentTeam) {
+          await selectInteraction.reply({ content: '❌ Équipe introuvable.', flags: [64] });
+          return;
+        }
+
+        // Vérifier que c'est bien le capitaine concerné
+        const captain = await fastify.models.User.findById(currentTeam.captainId);
+        if (!captain || captain.discordId !== selectInteraction.user.id) {
+          await selectInteraction.reply({ content: '❌ Ce n\'est pas ton tour de choisir.', flags: [64] });
+          return;
+        }
+
+        const selectedPlayerId = selectInteraction.values[0];
+        if (!mongoose.isValidObjectId(selectedPlayerId)) {
+          await selectInteraction.reply({ content: '❌ Joueur invalide.', flags: [64] });
+          return;
+        }
+
+        // Vérifier que le joueur n'est pas déjà assigné
+        const alreadyAssigned = tournament.teams.some(
+          (t: any) => t.users.some((u: any) => u.toString() === selectedPlayerId)
+        );
+        if (alreadyAssigned) {
+          await selectInteraction.reply({ content: '❌ Ce joueur a déjà été assigné à une équipe.', flags: [64] });
+          return;
+        }
+
+        // Assigner le joueur à l'équipe
+        currentTeam.users.push(new mongoose.Types.ObjectId(selectedPlayerId));
+
+        // Passer au tour suivant
+        tournament.draftCurrentTurnIndex = (tournament.draftCurrentTurnIndex + 1) % tournament.draftOrder.length;
+        await tournament.save();
+
+        const selectedUser = await fastify.models.User.findById(selectedPlayerId);
+        await selectInteraction.update({
+          content: `✅ **${captain.username}** a choisi **${selectedUser?.username ?? 'Joueur inconnu'}** pour **${currentTeam.name}** !`,
+          components: []
+        });
+
+        // Envoyer la prochaine sélection
+        await fastify.discordService.sendDraftPickToNextCaptain(tournamentId);
+        return;
+      }
+
+      // ── Interactions existantes ────────────────────────────────────────────
       if ((interaction as ButtonInteraction).customId.startsWith('proposal_vote_')) {
         const buttonInteraction = interaction as ButtonInteraction;
         const parts = buttonInteraction.customId.split('_');

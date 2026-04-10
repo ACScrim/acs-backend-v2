@@ -14,6 +14,7 @@ export interface ITournamentPlayer extends Document {
 
 export interface ITeam extends Document {
   name: string;
+  captainId?: Schema.Types.ObjectId;
   users: Schema.Types.ObjectId[];
   score: number;
   ranking: number;
@@ -47,6 +48,10 @@ export interface ITournament extends Document {
   updatedAt: Date;
   challongeUrl?: string;
   challongeId?: string;
+  isDraft: boolean;
+  draftStatus: 'pending' | 'in_progress' | 'completed';
+  draftOrder: Schema.Types.ObjectId[];
+  draftCurrentTurnIndex: number;
 }
 
 const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
@@ -63,6 +68,7 @@ const TournamentPlayerSchema = new mongoose.Schema<ITournamentPlayer>({
 
 const TeamSchema = new mongoose.Schema<ITeam>({
   name: { type: String, required: true, trim: true },
+  captainId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
   users: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
   score: { type: Number, default: 0 },
   ranking: { type: Number, default: 0 }
@@ -93,7 +99,11 @@ const tournamentSchema = new mongoose.Schema<ITournament>({
   teams: [TeamSchema],
   clips: [ClipSchema],
   challongeUrl: { type: String },
-  challongeId: { type: String }
+  challongeId: { type: String },
+  isDraft: { type: Boolean, default: false },
+  draftStatus: { type: String, enum: ['pending', 'in_progress', 'completed'], default: 'pending' },
+  draftOrder: [{ type: mongoose.Schema.Types.ObjectId }],
+  draftCurrentTurnIndex: { type: Number, default: 0 }
 }, { timestamps: true });
 
 TeamSchema.set('toJSON', {

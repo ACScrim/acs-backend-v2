@@ -621,6 +621,92 @@ class DiscordService {
     });
     return sent.id;
   }
+
+  // ─── Draft system ──────────────────────────────────────────────────────────
+
+  public async startDraft(tournamentId: string): Promise<void> {
+    const tournament = await this.fastify.models.Tournament.findById(tournamentId);
+    if (!tournament) throw new Error('Tournoi introuvable');
+    if (!tournament.isDraft) throw new Error('Ce tournoi n\'est pas en mode draft');
+    if (tournament.draftStatus !== 'pending') throw new Error('Le draft ne peut pas être démarré dans son état actuel');
+    if (tournament.teams.length < 1) throw new Error('Aucune équipe (capitaine) configurée pour ce tournoi');
+
+    // Ordre aléatoire des équipes
+    const shuffledTeamIds = [...tournament.teams.map((t: any) => t._id)].sort(() => Math.random() - 0.5);
+    tournament.draftOrder = shuffledTeamIds as any;
+    tournament.draftCurrentTurnIndex = 0;
+    tournament.draftStatus = 'in_progress';
+    await tournament.save();
+
+    await this.sendDraftPickToNextCaptain(tournamentId);
+  }
+
+  public async sendDraftPickToNextCaptain(tournamentId: string): Promise<void> {
+    const tournament = await this.fastify.models.Tournament.findById(tournamentId).populate('players.user');
+    if (!tournament || tournament.draftStatus !== 'in_progress') return;
+
+    // Joueurs déjà assignés à une équipe
+    const allAssignedUserIds = new Set(
+      tournament.teams.flatMap((t: any) => t.users.map((u: any) => u.toString()))
+    );
+
+    // Joueurs disponibles : inscrits, hors liste d'attente, pas encore dans une équipe
+    const availablePlayers = (tournament.players as any[]).filter(
+      (p) => !p.inWaitlist && p.user && !allAssignedUserIds.has(p.user._id.toString())
+    );
+
+    if (availablePlayers.length === 0) {
+      tournament.draftStatus = 'completed';
+      await tournament.save();
+
+      const guild = await this.client.guilds.fetch(this.guildId);
+      const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+      if (channel && channel.isTextBased()) {
+        const teamsDisplay = tournament.teams
+          .map((t: any) => `**${t.name}**: ${t.users.length} joueur(s)`)
+          .join('\n');
+        await channel.send(
+          `✅ **Draft terminé !** Toutes les équipes sont formées.\n\n${teamsDisplay}\n\nRendez-vous sur [acscrim.fr](https://acscrim.fr/tournaments/${tournament.id}) pour voir les équipes !`
+        );
+      }
+      return;
+    }
+
+    const currentTeamId = tournament.draftOrder[tournament.draftCurrentTurnIndex];
+    const currentTeam = (tournament.teams as any[]).find(
+      (t: any) => t._id.toString() === currentTeamId.toString()
+    );
+    if (!currentTeam) return;
+
+    const captain = await this.fastify.models.User.findById(currentTeam.captainId);
+    if (!captain?.discordId) return;
+
+    const options = availablePlayers.slice(0, 25).map((p: any) => {
+      const infoParts: string[] = [];
+      if (p.tier) infoParts.push(`Tier : ${p.tier}`);
+      return {
+        label: p.user.username,
+        value: p.user._id.toString(),
+        ...(infoParts.length > 0 ? { description: infoParts.join(' | ').substring(0, 100) } : {})
+      };
+    });
+
+    const select = new StringSelectMenuBuilder()
+      .setCustomId(`draft_pick_${tournament._id}`)
+      .setPlaceholder('Choisissez un joueur')
+      .addOptions(options);
+
+    const row = new ActionRowBuilder<MessageActionRowComponentBuilder>().addComponents(select);
+
+    const guild = await this.client.guilds.fetch(this.guildId);
+    const channel = guild.channels.cache.find((ch: any) => ch.name === tournament.discordChannelName);
+    if (channel && channel.isTextBased()) {
+      await channel.send({
+        content: `🎯 **Draft — ${tournament.name}** | Tour ${tournament.draftCurrentTurnIndex + 1}\n<@${captain.discordId}> c'est à toi de choisir un joueur pour **${currentTeam.name}** !\nJoueurs disponibles : **${availablePlayers.length}**`,
+        components: [row]
+      });
+    }
+  }
 }
 export default DiscordService;
 

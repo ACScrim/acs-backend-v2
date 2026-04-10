@@ -77,6 +77,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         description?: string;
         discordReminderDate?: Date;
         privateReminderDate?: Date;
+        isDraft?: boolean;
       };
       const tournament = new fastify.models.Tournament({
         name: tournamentData.name,
@@ -85,6 +86,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
         discordChannelName: tournamentData.discordChannelName || '',
         playerCap: tournamentData.playerCap || 0,
         description: tournamentData.description || '',
+        isDraft: tournamentData.isDraft || false,
       }) as ITournament;
       await tournament.save();
       tournament.messageId = await fastify.discordService.createTournament(await fastify.models.Tournament.findById(tournament.id).populate('game') as ITournament & { game: IGame });
@@ -111,7 +113,16 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       }
 
       const { teams } = request.body as { teams: Array<{ name: string; users: string[] }> };
-      tournament.teams = teams;
+      // Preserve captainId set by the Discord bot for teams that already exist
+      const existingTeamsByCaptain = new Map(
+        tournament.teams
+          .filter((t: any) => t.captainId)
+          .map((t: any) => [t.name, t.captainId])
+      );
+      tournament.teams = teams.map(t => ({
+        ...t,
+        captainId: existingTeamsByCaptain.get(t.name) ?? null,
+      })) as any;
       await tournament.save();
 
       return await fastify.models.Tournament.findById((request.params as any).id)
@@ -249,7 +260,7 @@ const adminTournamentRoutes: FastifyPluginAsync = async (fastify) => {
       if (!tournament) {
         return reply.notFound();
       }
-      const updatableFields = ['name', 'gameId', 'date', 'discordChannelName', 'playerCap', 'description', 'discordReminderDate', 'privateReminderDate', 'reminderSent', 'reminderSentPlayers', 'messageId', 'mvpVoteOpen'];
+      const updatableFields = ['name', 'gameId', 'date', 'discordChannelName', 'playerCap', 'description', 'discordReminderDate', 'privateReminderDate', 'reminderSent', 'reminderSentPlayers', 'messageId', 'mvpVoteOpen', 'isDraft'];
       updatableFields.forEach(field => {
         if ((request.body as any)[field] !== undefined) {
           (tournament as any)[field] = (request.body as any)[field];
