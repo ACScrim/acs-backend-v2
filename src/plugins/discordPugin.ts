@@ -14,7 +14,7 @@ import {
   StringSelectMenuInteraction
 } from 'discord.js';
 import DiscordService from "../services/discordService";
-import {ITournamentPlayer} from "../models/Tournament";
+import {ITournament, ITournamentPlayer} from "../models/Tournament";
 import {IUser} from "../models/User";
 import mongoose from "mongoose";
 
@@ -230,6 +230,23 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
             return;
           }
 
+          const tournament: ITournament | null = await fastify.models.Tournament.findById(tournamentId);
+          if (!tournament) {
+            await cmd.editReply('❌ Tournoi introuvable.');
+            return;
+          }
+          if (!tournament.isDraft) {
+            await cmd.editReply('❌ Ce tournoi n\'est pas en mode draft.');
+            return;
+          }
+          if (tournament.draftStatus !== 'pending') {
+            await cmd.editReply('❌ Le draft a déjà commencé ou est terminé.');
+            return;
+          }
+          if (!tournament.players.every((p: ITournamentPlayer) => p.tier)) {
+            await cmd.editReply('❌ Tous les joueurs doivent avoir un tier défini avant de démarrer le draft.');
+            return;
+          }
           try {
             await fastify.discordService.startDraft(tournamentId);
             await cmd.editReply('✅ Le draft a démarré ! Les capitaines vont être notifiés dans le canal du tournoi.');

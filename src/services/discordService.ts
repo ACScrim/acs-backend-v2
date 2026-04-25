@@ -19,6 +19,7 @@ import {ICard} from "../models/Card";
 import {log} from "../utils/utils";
 import {FastifyInstance} from "fastify";
 import {IUser} from "../models/User";
+import { IPlayerGameLevel } from "../models/PlayerGameLevel";
 
 class DiscordService {
   private client: Client;
@@ -681,15 +682,17 @@ class DiscordService {
     const captain = await this.fastify.models.User.findById(currentTeam.captainId);
     if (!captain?.discordId) return;
 
-    const options = availablePlayers.slice(0, 25).map((p: any) => {
+    const options = await Promise.all(availablePlayers.slice(0, 25).map(async (p: ITournamentPlayer & { user: IUser }) => {
       const infoParts: string[] = [];
+      const playerLevel: IPlayerGameLevel | null = await this.fastify.models.PlayerGameLevel.findOne({ userId: p.user._id, gameId: tournament.gameId }).exec();
       if (p.tier) infoParts.push(`Tier : ${p.tier}`);
+      if (playerLevel && playerLevel.selectedRoles) infoParts.push(`Rôles : ${playerLevel.selectedRoles.join(', ')}`);
       return {
         label: p.user.username,
-        value: p.user._id.toString(),
+        value: p.user.id.toString(),
         ...(infoParts.length > 0 ? { description: infoParts.join(' | ').substring(0, 100) } : {})
       };
-    });
+    }));
 
     const select = new StringSelectMenuBuilder()
       .setCustomId(`draft_pick_${tournament._id}`)
