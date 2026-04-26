@@ -685,8 +685,12 @@ class DiscordService {
     const options = await Promise.all(availablePlayers.slice(0, 25).map(async (p: ITournamentPlayer & { user: IUser }) => {
       const infoParts: string[] = [];
       const playerLevel: IPlayerGameLevel | null = await this.fastify.models.PlayerGameLevel.findOne({ userId: p.user._id, gameId: tournament.gameId }).exec();
-      if (p.tier) infoParts.push(`Tier : ${p.tier}`);
-      if (playerLevel && playerLevel.selectedRoles) infoParts.push(`Rôles : ${playerLevel.selectedRoles.join(', ')}`);
+      if (p.tier) infoParts.push(`Tier ${p.tier}`);
+      if (playerLevel) {
+        if (playerLevel.selectedRoles) infoParts.push(`${playerLevel.selectedRoles.join(', ')}`);
+        if (playerLevel.rank) infoParts.push(`${playerLevel.rank}`);
+      }
+
       return {
         label: p.user.username,
         value: p.user.id.toString(),
