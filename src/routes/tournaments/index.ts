@@ -85,7 +85,9 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
         return { success: false, message: "Vous êtes déjà inscrit à ce tournoi" };
       }
 
-      const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : tournament.players.length >= tournament.playerCap;
+      const playersCount = tournament.players.filter(p => !p.isCaster).length;
+
+      const shouldRegisterInWaitlist = tournament.playerCap <= 0 ? false : playersCount >= tournament.playerCap;
       tournament.players.push({
         user: userId,
         inWaitlist: shouldRegisterInWaitlist,
