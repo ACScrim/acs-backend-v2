@@ -243,7 +243,7 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
             await cmd.editReply('❌ Le draft a déjà commencé ou est terminé.');
             return;
           }
-          if (!tournament.players.every((p: ITournamentPlayer) => p.tier)) {
+          if (!tournament.players.filter(p => !p.isCaster && !p.inWaitlist).every((p: ITournamentPlayer) => p.tier)) {
             await cmd.editReply('❌ Tous les joueurs doivent avoir un tier défini avant de démarrer le draft.');
             return;
           }

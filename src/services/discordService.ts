@@ -631,12 +631,13 @@ class DiscordService {
     if (!tournament.isDraft) throw new Error('Ce tournoi n\'est pas en mode draft');
     if (tournament.draftStatus !== 'pending') throw new Error('Le draft ne peut pas être démarré dans son état actuel');
     if (tournament.teams.length < 1) throw new Error('Aucune équipe (capitaine) configurée pour ce tournoi');
-
+    
     // Ordre aléatoire des équipes
     const shuffledTeamIds = [...tournament.teams.map((t: any) => t._id)].sort(() => Math.random() - 0.5);
     tournament.draftOrder = shuffledTeamIds as any;
     tournament.draftCurrentTurnIndex = 0;
     tournament.draftStatus = 'in_progress';
+    tournament.teamsPublished = true;
     await tournament.save();
 
     await this.sendDraftPickToNextCaptain(tournamentId);
@@ -653,7 +654,7 @@ class DiscordService {
 
     // Joueurs disponibles : inscrits, hors liste d'attente, pas encore dans une équipe
     const availablePlayers = (tournament.players as any[]).filter(
-      (p) => !p.inWaitlist && p.user && !allAssignedUserIds.has(p.user._id.toString())
+      (p) => !p.inWaitlist && !p.isCaster && p.user && !allAssignedUserIds.has(p.user._id.toString())
     );
 
     if (availablePlayers.length === 0) {
