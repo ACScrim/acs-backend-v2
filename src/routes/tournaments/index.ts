@@ -125,7 +125,7 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
    */
   fastify.post("/:id/unregister", { preHandler: [authGuard] }, async (req, res) => {
     try {
-      const tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
+      let tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       if (!tournament) {
         res.status(404);
         log(fastify, `Tournoi introuvable pour l'identifiant ${(req.params as { id: string }).id}`, 'error', 404);
@@ -142,9 +142,10 @@ const tournamentRoutes: FastifyPluginAsync = async (fastify) => {
       tournament.players = tournament.players.filter(p => p.user.toString() !== userId);
       await tournament.save();
 
+      tournament = await fastify.models.Tournament.findById((req.params as { id: string }).id) as ITournament;
       // Mettre à jour la liste d'attente si nécessaire
-      if (tournament.playerCap > 0 && tournament.players.length >= tournament.playerCap) {
-        const nextPlayer = tournament.players.find(p => p.inWaitlist);
+      if (tournament.playerCap > 0 && tournament.players.filter(p => !p.isCaster).length >= tournament.playerCap) {
+        const nextPlayer = tournament.players.sort((a, b) => a.registrationDate.getTime() - b.registrationDate.getTime()).find(p => p.inWaitlist);
         if (nextPlayer) {
           const tournamentData = await fastify.models.Tournament.findById(tournament.id).populate('game').populate('players.user teams.users clips.addedBy') as ITournament & { game: any };
           const userDiscordId = (nextPlayer.user as unknown as IUser).discordId;
