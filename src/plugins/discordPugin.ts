@@ -95,6 +95,25 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
                 autocomplete: true
               }
             ]
+          },
+          {
+            name: 'draftorder',
+            description: 'Définir l\'ordre de tirage du draft (IDs Discord des capitaines dans l\'ordre)',
+            options: [
+              {
+                name: 'tournament_id',
+                description: 'ID du tournoi',
+                type: ApplicationCommandOptionType.String,
+                required: true,
+                autocomplete: true
+              },
+              {
+                name: 'captains',
+                description: 'IDs ou mentions Discord des capitaines dans l\'ordre souhaité (séparés par des espaces)',
+                type: ApplicationCommandOptionType.String,
+                required: true
+              }
+            ]
           }
         ];
         await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: draftCommands });
@@ -127,7 +146,11 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
             name: `${t.name} (${new Date(t.date).toLocaleDateString('fr-FR')})`.substring(0, 100),
             value: t._id.toString()
           }));
-          await autoInteraction.respond(choices);
+          try {
+            await autoInteraction.respond(choices);
+          } catch {
+            // Interaction expirée (timeout Discord 3s), on ignore silencieusement
+          }
         }
         return;
       }
@@ -215,6 +238,83 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           return;
         }
 
+        if (cmd.commandName === 'draftorder') {
+          await cmd.deferReply({ flags: [64] });
+
+          const adminUser = await fastify.models.User.findOne({ discordId: cmd.user.id });
+          if (!adminUser || !['admin', 'superadmin'].includes(adminUser.role)) {
+            await cmd.editReply('❌ Vous n\'avez pas les permissions pour exécuter cette commande.');
+            return;
+          }
+
+          const tournamentId = cmd.options.getString('tournament_id', true).trim();
+          if (!mongoose.isValidObjectId(tournamentId)) {
+            await cmd.editReply('❌ ID de tournoi invalide.');
+            return;
+          }
+
+          const tournament = await fastify.models.Tournament.findById(tournamentId);
+          if (!tournament) {
+            await cmd.editReply('❌ Tournoi introuvable.');
+            return;
+          }
+          if (!tournament.isDraft) {
+            await cmd.editReply('❌ Ce tournoi n\'est pas en mode draft.');
+            return;
+          }
+          if (tournament.draftStatus !== 'pending') {
+            await cmd.editReply('❌ Le draft a déjà commencé ou est terminé.');
+            return;
+          }
+
+          // Extraire les Discord IDs (mentions <@123> ou IDs bruts)
+          const captainsRaw = cmd.options.getString('captains', true);
+          const discordIds = [...captainsRaw.matchAll(/<@!?(\d+)>|(\d{17,20})/g)]
+            .map(m => m[1] ?? m[2]);
+
+          if (discordIds.length === 0) {
+            await cmd.editReply('❌ Aucun ID Discord valide trouvé dans la liste.');
+            return;
+          }
+          if (discordIds.length !== tournament.teams.length) {
+            await cmd.editReply(`❌ Nombre de capitaines incorrect : ${discordIds.length} fourni(s), ${tournament.teams.length} équipe(s) attendue(s).`);
+            return;
+          }
+
+          const orderedTeamIds: any[] = [];
+          for (const discordId of discordIds) {
+            const user = await fastify.models.User.findOne({ discordId });
+            if (!user) {
+              await cmd.editReply(`❌ Aucun compte ACS trouvé pour l\'ID Discord \`${discordId}\`.`);
+              return;
+            }
+            const team = (tournament.teams as any[]).find(
+              (t: any) => t.captainId?.toString() === (user._id as any).toString()
+            );
+            if (!team) {
+              await cmd.editReply(`❌ <@${discordId}> n\'est pas capitaine d\'une équipe dans ce tournoi.`);
+              return;
+            }
+            if (orderedTeamIds.includes(team._id.toString())) {
+              await cmd.editReply(`❌ <@${discordId}> apparaît plusieurs fois dans la liste.`);
+              return;
+            }
+            orderedTeamIds.push(team._id);
+          }
+
+          tournament.draftOrder = orderedTeamIds as any;
+          await tournament.save();
+
+          const orderDisplay = orderedTeamIds
+            .map((id, i) => {
+              const team = (tournament.teams as any[]).find((t: any) => t._id.toString() === id.toString());
+              return `${i + 1}. **${team?.name ?? id}**`;
+            })
+            .join('\n');
+          await cmd.editReply(`✅ Ordre de draft défini pour **${tournament.name}** :\n${orderDisplay}`);
+          return;
+        }
+
         if (cmd.commandName === 'draftstart') {
           await cmd.deferReply({ flags: [64] });
 
@@ -275,7 +375,11 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
           return;
         }
 
-        const currentTeamId = tournament.draftOrder[tournament.draftCurrentTurnIndex];
+        const _n = tournament.draftOrder.length;
+        const _round = Math.floor(tournament.draftCurrentTurnIndex / _n);
+        const _pos = tournament.draftCurrentTurnIndex % _n;
+        const _snakeIndex = _round % 2 === 0 ? _pos : _n - 1 - _pos;
+        const currentTeamId = tournament.draftOrder[_snakeIndex];
         const currentTeam = (tournament.teams as any[]).find(
           (t: any) => t._id.toString() === currentTeamId.toString()
         );
@@ -310,7 +414,7 @@ const discordPlugin: FastifyPluginAsync = async (fastify) => {
         currentTeam.users.push(new mongoose.Types.ObjectId(selectedPlayerId));
 
         // Passer au tour suivant
-        tournament.draftCurrentTurnIndex = (tournament.draftCurrentTurnIndex + 1) % tournament.draftOrder.length;
+        tournament.draftCurrentTurnIndex = tournament.draftCurrentTurnIndex + 1;
         await tournament.save();
 
         const selectedUser = await fastify.models.User.findById(selectedPlayerId);

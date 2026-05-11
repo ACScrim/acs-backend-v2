@@ -632,9 +632,11 @@ class DiscordService {
     if (tournament.draftStatus !== 'pending') throw new Error('Le draft ne peut pas être démarré dans son état actuel');
     if (tournament.teams.length < 1) throw new Error('Aucune équipe (capitaine) configurée pour ce tournoi');
     
-    // Ordre aléatoire des équipes
-    const shuffledTeamIds = [...tournament.teams.map((t: any) => t._id)].sort(() => Math.random() - 0.5);
-    tournament.draftOrder = shuffledTeamIds as any;
+    // Utiliser l'ordre défini par /draftorder, sinon ordre aléatoire
+    if (!tournament.draftOrder || tournament.draftOrder.length !== tournament.teams.length) {
+      const shuffledTeamIds = [...tournament.teams.map((t: any) => t._id)].sort(() => Math.random() - 0.5);
+      tournament.draftOrder = shuffledTeamIds as any;
+    }
     tournament.draftCurrentTurnIndex = 0;
     tournament.draftStatus = 'in_progress';
     tournament.teamsPublished = true;
@@ -674,7 +676,11 @@ class DiscordService {
       return;
     }
 
-    const currentTeamId = tournament.draftOrder[tournament.draftCurrentTurnIndex];
+    const _n = tournament.draftOrder.length;
+    const _round = Math.floor(tournament.draftCurrentTurnIndex / _n);
+    const _pos = tournament.draftCurrentTurnIndex % _n;
+    const _snakeIndex = _round % 2 === 0 ? _pos : _n - 1 - _pos;
+    const currentTeamId = tournament.draftOrder[_snakeIndex];
     const currentTeam = (tournament.teams as any[]).find(
       (t: any) => t._id.toString() === currentTeamId.toString()
     );
